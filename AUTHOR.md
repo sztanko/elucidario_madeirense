@@ -1,9 +1,9 @@
 # Fernando Augusto da Silva
 
-![Fernando Augusto da Silva](//upload.wikimedia.org/wikipedia/commons/3/3b/Fernando_Augusto_da_Silva.jpg)
+![Fernando Augusto da Silva](https://upload.wikimedia.org/wikipedia/commons/3/3b/Fernando_Augusto_da_Silva.jpg)
 
 ## Personal Information
-- **Birth**: September 29, 1863, Funchal, [Santa Maria Maior](/wiki/Santa_Maria_Maior_(Funchal))
+- **Birth**: September 29, 1863, Funchal, Santa Maria Maior
 - **Death**: October 18, 1949, Funchal
 - **Citizenship**: Portugal, Kingdom of Portugal
 - **Occupation**: Priest, Professor, Historian, Writer
