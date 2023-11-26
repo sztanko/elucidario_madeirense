@@ -1,6 +1,7 @@
 import sys
 from bs4 import BeautifulSoup, NavigableString
 import re
+from pyuca import Collator
 
 
 def is_empty(element):
@@ -23,7 +24,7 @@ def remove_headers(soup):
     for span in soup.find_all("span"):
         if "font-size:39px" in span.get("style", "") or "font-size:22px" in span.get("style", ""):
             span.decompose()
-        elif "font-size:15px" in span.get("style", "") and span.get_text().strip() == 'X':
+        elif "font-size:15px" in span.get("style", "") and span.get_text().strip() == "X":
             print("Found X")
             span.decompose()
     for div in soup.find_all("div"):  # page numbers of pdf
@@ -115,15 +116,11 @@ def adjust_i_tags(soup):
                 if i_tag and i_tag.name == "i":
                     next_sibling = i_tag.next_sibling
                     first_child_of_next_sibling = next_sibling.contents[0].string.lstrip()
-                    if (
-                        next_sibling
-                        and next_sibling.name == "span"
-                        and first_child_of_next_sibling.startswith(")")
-                    ):
+                    if next_sibling and next_sibling.name == "span" and first_child_of_next_sibling.startswith(")"):
                         # Move ')' into the <i> tag
                         i_tag.string = i_tag.get_text() + ")"
                         contents = next_sibling.contents
-                        new_content = re.sub(r'\)\s*\.\s*', '', first_child_of_next_sibling, count=1)
+                        new_content = re.sub(r"\)\s*\.\s*", "", first_child_of_next_sibling, count=1)
                         # print(f"{b_tag.get_text()} {i_tag.get_text()}: {first_child_of_next_sibling[0:25]}")
                         contents[0].replace_with(NavigableString(new_content))
 
@@ -136,29 +133,18 @@ def adjust_i_tags(soup):
     return soup
 
 
-
-def remove_newlines_around_tags(
-    html_content, tag_name, put_newline_before=False, put_newline_after=False
-):
+def remove_newlines_around_tags(html_content, tag_name, put_newline_before=False, put_newline_after=False):
     # Handle opening tag
     if put_newline_before:
-        html_content = re.sub(
-            f"[\n\s]*<{tag_name}>[\n\s]*", f"\n<{tag_name}>", html_content
-        )
+        html_content = re.sub(f"[\n\s]*<{tag_name}>[\n\s]*", f"\n<{tag_name}>", html_content)
     else:
-        html_content = re.sub(
-            f"[\n\s]*<{tag_name}>[\n\s]*", f" <{tag_name}>", html_content
-        )
+        html_content = re.sub(f"[\n\s]*<{tag_name}>[\n\s]*", f" <{tag_name}>", html_content)
 
     # Handle closing tag
     if put_newline_after:
-        html_content = re.sub(
-            f"[\n\s]*</{tag_name}>[\n\s]*", f"</{tag_name}>\n", html_content
-        )
+        html_content = re.sub(f"[\n\s]*</{tag_name}>[\n\s]*", f"</{tag_name}>\n", html_content)
     else:
-        html_content = re.sub(
-            f"[\n\s]*</{tag_name}>[\n\s]*", f"</{tag_name}>", html_content
-        )
+        html_content = re.sub(f"[\n\s]*</{tag_name}>[\n\s]*", f"</{tag_name}>", html_content)
 
     return html_content
 
@@ -169,6 +155,7 @@ def remove_space(html_content):
     html_content = re.sub(f"  +", " ", html_content)
     return html_content
 
+
 def remove_all_styles(soup):
     """
     Remove all style attributes from all tags in a BeautifulSoup object.
@@ -176,9 +163,8 @@ def remove_all_styles(soup):
     :param soup: BeautifulSoup object to be processed.
     """
     for tag in soup.find_all(style=True):
-        del tag['style']
+        del tag["style"]
     return soup
-
 
 
 def clean_html(input_file, output_file):
@@ -204,8 +190,6 @@ def clean_html(input_file, output_file):
     clean_html = remove_newlines_around_tags(clean_html, "span", False, False)
     clean_html = remove_newlines_around_tags(clean_html, "b", True, True)
     clean_html = remove_space(clean_html)
-
-    
 
     with open(output_file, "w", encoding="utf-8") as file:
         file.write(clean_html)
