@@ -1,5 +1,5 @@
 import sys
-from bs4 import BeautifulSoup, NavigableString
+from bs4 import BeautifulSoup, NavigableString, Tag
 import re
 from pyuca import Collator
 import tty
@@ -136,8 +136,12 @@ def adjust_articles(articles):
         #     print(f"'S'. Article {articles[i]['title']} will be split (kept) as a standalone article")
         #     print()
         if should_merge:
-            last_article["body"].append(f"<h2>{articles[i]['title']}</h2>")
+            header = Tag(name="h2")
+            header.string = articles[i]["title"]
+            last_article["body"].append(articles[i]["title"])
+            last_article["html"].append(header)
             last_article["body"].extend(articles[i]["body"])
+            last_article["html"].extend(articles[i]["html"])
             # print(f"'Y'. Article {articles[i]['title']} will be merged with previous article")
             # print()
             out[-1] = last_article
@@ -149,46 +153,89 @@ def adjust_articles(articles):
     return out
 
 
-def extract_articles(article, next_article_name):
-    # Within each artcile, lets seek for the following patterns:
-    # <br/></span><span><br/>
-    # <br/>
-    # ([A-Z][a-z ]+)\.
-    # if group(1) is larger then the article name and smaller then the next article name, then it is probably an article as well, and should become separate
+def detect_article(collator, article, next_name):
+    # These articles are still part of the previous article, they should be split.
+    # Checked manually.
+    SKIP_SPLIT_LIST = [
+        "Não foi necessário tamanho sacrifício",
+        "Morreu Henrique Henriques de Noronha a 26 de Abril de 1730",
+    ]
+    tag_spec = [(False, "br"), (True, "\n"), (False, "br")]
+    prev_name = article["title"]
+    # new_articles = []
+    line_num = 0
+    for line in article["html"]:
+        # print(line)
+        if isinstance(line, NavigableString):
+            line_num += 1
+            continue
+        content = line.contents
+        i = 3  # It always should be the third tag
+        if len(content) > 3:
+            # while i < len(content):
+            j = 0
+            tag_match = True
+            while j < len(tag_spec) and tag_match:
+                c = content[i - len(tag_spec) + j]
+                is_str = isinstance(c, NavigableString)
+                if is_str:  # this is a text
+                    text = c
+                else:  # this is tag
+                    text = c.name
+                spec = tag_spec[j]
+                if not (is_str == spec[0] and text == spec[1]):
+                    tag_match = False
+                    break
+                j += 1
+            if tag_match and isinstance(content[i], NavigableString):
+                sentences = re.split(r"\.\s+", content[i].strip())
+                if len(sentences) > 1:
+                    title = sentences[0].strip()
+                    if (
+                        collator.sort_key(prev_name) < collator.sort_key(title)
+                        and collator.sort_key(title) < collator.sort_key(next_name)
+                        and title not in SKIP_SPLIT_LIST
+                    ):
+                        print(f"Found article {title}, inside article {article['title']}")
+                        print(i)
+                        new_article = {"title": title, "line": line_num, "i": i}
+                        print(new_article)
+                        articles = split_article(article, new_article)
+                        return articles
+                        # new_articles.append(new_article)
+            # i += 1
+        line_num += 1
+    return [article]
 
+
+def split_article(article, new_article_info):
+    new_article = {}
+    new_article["title"] = new_article_info["title"]
+    new_article["body"] = article["body"][new_article_info["line"] :]
+    new_article["html"] = article["html"][new_article_info["line"] :]
+    # Replace the first occurrence of the title with an empty string
+    modified_html_string = str(new_article["html"][0]).replace(new_article["title"] + ".", "", 1)
+
+    # Update the HTML content in your data structure
+    new_article["html"][0] = BeautifulSoup(modified_html_string, "html.parser")
+    # print(new_article["html"])
+    article["body"] = article["body"][0 : new_article_info["line"]]
+    article["html"] = article["html"][0 : new_article_info["line"]]
+    return [article, new_article]
+
+
+def split_articles(articles):
+    collator = Collator()
     out = []
-    content = article["body"]
     i = 0
-    while i < len(content):
-        if content[i] == "":
-            i += 1
-            continue
-        if content[i] == "<br/>":
-            i += 1
-            continue
-        if content[i].startswith("<br/></span><span><br/>"):
-            i += 1
-            continue
-        if content[i].startswith("<span><br/>"):
-            i += 1
-            continue
-        if content[i].startswith("<br/><span>"):
-            i += 1
-            continue
-        if content[i].startswith("<span>"):
-            i += 1
-            continue
-        if content[i].startswith("<br/>"):
-            i += 1
-            continue
-        m = re.match(r"([A-Z][a-z ]+)\.", content[i])
-        if m:
-            if article["title"] < m.group(1) < next_article_name:
-                out.append({"title": m.group(1), "body": []})
-                i += 1
-                continue
-        out[-1]["body"].append(content[i])
+    for article in articles:
+        if i == 0:
+            next_name = articles[i + 1]["title"]
+        else:
+            next_name = "zzzzzzzz"
+        out.extend(detect_article(collator, article, next_name))
         i += 1
+    return out
 
 
 def write_articles(articles, output_file_name):
@@ -258,6 +305,7 @@ def run(output_file_name):
     content = join_files(FILES)
     articles = group_articles(content)
     articles = adjust_articles(articles)
+    articles = split_articles(articles)
     write_articles(articles, output_file_name)
     # show_article_stats(articles)
     # find_max_length(articles)
