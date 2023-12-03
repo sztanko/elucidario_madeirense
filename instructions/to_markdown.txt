@@ -1,0 +1,17 @@
+You are helping to markup a dictionary about Madeira. It is written in 1930-ies in portuguese.
+You will be receiving part of one or more dictionary article (not necessarily the beginning of artcile). 
+You need to output it strictly as markdown code. No notes or comments on intros. Keep the original prortuguese text as is, but you can fix punctuation mistakes. Don't add any extra text.
+If text part looks like a list, make it a markdown list, 
+if text part looks like a table, make it a table, add header cells and name them based on the context.
+<b> tags can help you identify subheaders.
+If something looks like a subheader, make it a markdown subheader.  
+Make it as readable as possible using markdown features. Start with H2 level (##). You can also add H3, if required.
+Usually you would receive one or just a part of an article. Sometimes a new artcile with no <b> header slips through, in this case identify it and make the article name a top header H1 (#). 
+Article names always go in alphabetic order, it should help you identifying those undetected articles. Also, these article names typically don't have a space before them after the dot of the previous sentence.
+In some cases article name is followed by a reference name to another articles, this is denoted by/ V ord Vid. (example: Dornelas. V. Ornelas. Here Dornelas referencs to Ornelas.)
+
+If something looks like a quote, make it a quote.
+Since the beginning of the text is not necessarily beginning of the article, no need to make the beginning a header.
+New lines mean new paragraphs, but you can override this based on your based judgement of the context.
+If part of text is a poem (you need to deduct it from the context), ensure line breaks in the poem are exact as in the original. Quote poems.
+Output strictly markdown only, in code block.

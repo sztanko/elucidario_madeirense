@@ -7,6 +7,7 @@ import termios
 import json
 
 from processor.journal import Journal
+from processor.constants import START_INDICATOR, END_INDICATOR, ARTICLE_SEPARATOR
 
 ADJUST_JOURNAL_FILE = "journals/adjust_journal.json"
 INPUT_DIR = "html"
@@ -51,7 +52,9 @@ def join_files(files):
     content = []
     for file in files:
         with open(file, "r") as f:
-            soup = BeautifulSoup(f.read(), "html.parser")
+            content_str = f.read()
+            content_str = remove_ocr_errors(content_str)
+            soup = BeautifulSoup(content_str, "html.parser")
             # all element in body to be appended to content
             for el in soup.body.contents:
                 content.append(el)
@@ -196,10 +199,10 @@ def detect_article(collator, article, next_name):
                         and collator.sort_key(title) < collator.sort_key(next_name)
                         and title not in SKIP_SPLIT_LIST
                     ):
-                        print(f"Found article {title}, inside article {article['title']}")
-                        print(i)
+                        # print(f"Found article {title}, inside article {article['title']}")
+                        # print(i)
                         new_article = {"title": title, "line": line_num, "i": i}
-                        print(new_article)
+                        # print(new_article)
                         articles = split_article(article, new_article)
                         return articles
                         # new_articles.append(new_article)
@@ -238,14 +241,99 @@ def split_articles(articles):
     return out
 
 
+def format_titles(articles):
+    # remove punctuation from the end of the title, unless it is an abbreviation
+    # abbreviation means there is only one letter preceding the punctuation
+    # Example: 'Cardot (J.) E.:' - 'Cardot (J.) E.' - we keep the punctuation
+    # Carlos 'Carlos (Campo de D.).' - 'Carlos (Campo de D.)' - we remove the dot but keep the parenthesis
+    # 'Carmo.' - 'Carmo' - we remove the dot
+    # This regex is case sensitive!
+    regex_to_keep = r"^.+([a-z)]| [A-Z]\.)"
+    for article in articles:
+        title = article["title"].strip()
+        # first group or regex needs to be kept, everytihng else to remove
+        title = re.sub(r"^(.+?)([.,:;])$", r"\1", title)
+        article["title"] = title
+    return articles
+
+
+def remove_reference_from_title(articles):
+    count = 0
+    regex_to_detect_reference = r" V(id)?\. .+"
+    for article in articles:
+        if len(article["body"]) < 10 and re.search(regex_to_detect_reference, article["title"]):
+            reference = re.search(regex_to_detect_reference, article["title"]).group(0)
+            new_title = re.sub(regex_to_detect_reference, "", article["title"])
+            # print(f"Found reference {reference} in title {article['title']}, new title is {new_title}")
+            article["title"] = new_title
+            article["body"] = [reference] + article["body"]
+            html_tag = Tag(name="i")
+            html_tag.string = reference
+            article["html"] = [html_tag] + article["html"]
+            count += 1
+    print(f"Removed {count} references from titles")
+    return articles
+
+
+def add_article_specifier(article):
+    # Extract title and html from the article
+    title = article["title"]
+    html = article["html"]
+
+    # Convert the list of HTML elements to a single string
+    html_str = "".join(str(elem) for elem in html)
+
+    # Use BeautifulSoup to parse the HTML
+    soup = BeautifulSoup(html_str, "html.parser")
+
+    # Get the text of the first element
+    first_text = soup.get_text().strip().split("\n")[0].strip()
+
+    # Check if the first text starts with a parenthesis
+    if first_text.startswith("("):
+        # Find the closing parenthesis
+        end_idx = first_text.find(")")
+
+        # If closing parenthesis found, update the title and HTML
+        if end_idx != -1:
+            # Extract the parenthesis expression
+            parenthesis_expr = first_text[: end_idx + 1]
+
+            # Update the title
+            title = f"{title} {parenthesis_expr}"
+            # print(f"Rename title: {article['title']} -> {title}")
+
+            # Remove the parenthesis expression from the HTML
+            # Replace not only the parenthesis expression, but also the following spare or dot.
+            expre_with_dot = r"\({}\)\s*[.:]".format(parenthesis_expr)
+            html_str = re.sub(expre_with_dot, "", html_str, 1)
+            # html_str = html_str.replace(parenthesis_expr + ' ', '', 1)
+            # html_str = html_str.replace(parenthesis_expr, '', 1)
+
+            # Update the article dictionary
+            article["title"] = title
+            article["html"] = BeautifulSoup(html_str, "html.parser").contents
+            article["body"] = [line.strip() for line in article["html"] if isinstance(line, NavigableString)]
+
+    return article
+
+
+def add_article_specifiers(articles):
+    out = []
+    for article in articles:
+        out.append(add_article_specifier(article))
+    return out
+
+
 def write_articles(articles, output_file_name):
-    # Each article should be enclosed in a div, title should be an H1 tag, and the body should be enclosed in a <div className="article-body">"
     with open(output_file_name, "w") as f:
-        f.write("<html><body>")
+        f.write("<html><body>\n")
+        f.write(START_INDICATOR)
         i = 0
         for article in articles:
-            f.write(f"<div className='article' id='a_{i}'>\n<h1>{article['title']}</h1>\n\n")
-            f.write("<div className='article-body'>\n")
+            f.write(ARTICLE_SEPARATOR)
+            f.write(f"<div class='article' id='a_{i}'>\n<h1>{article['title']}</h1>\n\n")
+            f.write("<div class='article_body'>\n")
             for line in article["html"]:
                 if isinstance(line, NavigableString):
                     f.write(line)
@@ -253,7 +341,42 @@ def write_articles(articles, output_file_name):
                     f.write(line.prettify())
             f.write("\n</div>\n</div>\n")
             i += 1
+        f.write(END_INDICATOR)
         f.write("</body></html>")
+
+
+def remove_ocr_errors(article_str):
+    fixes = {
+        "Madakna": "Magdalena",
+        "n1s": "nºs",
+        "Ant6nio": "António",
+        "ilh6u": "ilhéu",
+        "Ju1ho": "Julho",
+        "del1e": "dele",
+        "ing1ês": "inglês",
+        "Gonça1ves": "Gonçalves",
+        "MadaZe7ia": "Madalena",
+        "dó1ar": "dólar",
+        "Hist6rico": "Histórico",
+        "Hist6ria": "História",
+        "col6nia": "colónia",
+        "tamb6m": "também",
+        "Cust6dio": "Custódio",
+        "Vlt6ria": "Vitória",
+        "Al1guns": "Alguns",
+        "a1çapremas": "alçapremas",
+        "Si1va": "Silva",
+    }
+    # with open(article_file, "r") as f:
+    #     article_str = f.read()
+    for fix in fixes:
+        if fix in article_str:
+            print(f"Fixing {fix}")
+            # replace all
+            article_str = article_str.replace(fix, fixes[fix])
+    return article_str
+    # with open(article_file, "w") as f:
+    #     f.write(article_str)
 
 
 def show_article_stats(articles):
@@ -263,7 +386,7 @@ def show_article_stats(articles):
     chars = Counter()
     for article in articles:
         # print(f"{article['title']}: {len(article['body'])}")
-        total_chars = sum([len(line) for line in article["body"]])
+        total_chars = sum([len(line) for line in article["html"]])
         # split by regex
         total_words = sum([len(re.split(r"\s+", line)) for line in article["body"]])
         words[1000 * int(total_words / 1000)] += 1
@@ -306,10 +429,13 @@ def run(output_file_name):
     articles = group_articles(content)
     articles = adjust_articles(articles)
     articles = split_articles(articles)
+    articles = format_titles(articles)
+    articles = remove_reference_from_title(articles)
+    articles = add_article_specifiers(articles)
     write_articles(articles, output_file_name)
-    # show_article_stats(articles)
-    # find_max_length(articles)
-    # write_lengths_to_csv(articles)
+    show_article_stats(articles)
+    find_max_length(articles)
+    write_lengths_to_csv(articles)
 
 
 if __name__ == "__main__":

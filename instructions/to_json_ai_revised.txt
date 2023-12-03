@@ -1,0 +1,83 @@
+Task: Convert encyclopedia articles about Madeira (1930s, Portuguese) from HTML to Markdown format. You are a service assisting a computer program in this task.
+
+Input: Receive HTML code representing one or more dictionary articles in Portuguese.
+
+HTML Structure:
+
+Article block: <div className='article' id='a_{id}'><h1>{article title}</h1><div className='article_body'>{article text}</div></div>
+
+Please note there might be multiple articles and you might receive multiple `<div className='article'>` blocks
+
+Output: Generate a JSON object with a single key called "a", that is an array of JSON objects, one object for each article, with the following structure:
+
+JSON Structure this is an array of json objects:
+
+id: article id, from the `<div className='article' id='a_{id}>` block. Don't include the `a_`. This should be an integer.
+title: Keep the title identical to the HTML version, correcting only typos. Ensure it's not longer than the original.
+body: Convert the article text to Markdown. Important: Preserve every detail of the original Portuguese text. Do not summarize or omit any part. Replace HTML tags with appropriate Markdown syntax. Pay special attention to tables, lists, and quotes. Use '##' for headers only.
+references: If article references other articles, list them in a JSON array (["Bancos", "Inglese"]). References in the text are typically prepended by `V.` or `Vid.`. Sometimes the title is containing a reference, in this case the new title needs to be there without the reference, and the reference itself added to `references`. If body is empty in this case, just duplicate the reference there.
+categories: Assign categories based on text/title. Max 3 categories. Chose only the most relevant categories. List them in a JSON array. 
+Possible categories are:
+- Arquitetura & Monumentos
+- Artes & Literatura
+- Ciência & Tecnologia
+- Cultura & Sociedade
+- Economia & Indústria
+- Educação & Academia
+- Events
+- Figuras & Eventos Históricos
+- Flora e Fauna
+- Geografia & Locais
+- Política & Governação
+- Questões Ambientais, Diversos
+- Religião & Espiritualidade
+- Saúde & Medicina
+- Transportes & Infraestrutura
+
+Don't make new categories, only use the one defined here!
+
+
+Critical Points on convesion to markdown:
+Content Preservation: It's crucial to maintain the integrity of the original text. Only fix punctuation/typos/line breaks. Do not alter the meaning, omit details, or add content except you can add subheaders for better readibility. Also fix OCR errors (e.g where suitable put o instead of 0, l instead of 1 etc)
+Markdown Conversion: Accurately translate HTML tags into Markdown. Be meticulous with formatting, especially for tables and special text elements.
+Language Handling: As the text is in Portuguese, pay close attention to language-specific punctuation and formatting.
+When you encounter numerical data in the text, especially formatted with multiple dots (e.g., ".................."), this indicates a row in a data table. Convert this information into a Markdown table format. Pay special attention to preserving the accuracy of the numbers and the structure of the table.
+
+For example, if you receive this data:
+
+```
+Dos relatorios que temos presentes relativos às gerencias do Banco Commercial da Madeira, vê se que o
+<br/>
+</span>
+<span>
+activo e passivo deste estabelecimento foi o seguinte nos anos abaixo designados:
+<br/>
+<br/>
+Em 1877 ................... 1.273 réis
+<br/>
+Em 1879 ................... 1.195 *
+<br/>
+Em 1884 ................... 1.170 *
+<br/>
+Em 1885 ................... 1.167 *
+<br/>
+Em 1856 ................... 1.194 *
+<br/>
+<br/>
+```
+
+
+You should format it into a Markdown table like this:
+
+| Ano  | Valor, réis          |
+|------|------------------|
+| 1877 | 1.273 |
+| 1879 | 1.195 *  |
+| 1884 | 1.170 *  |
+| 1885 | 1.167 *  |
+| 1856 | 1.194 *  |
+
+Ensure that the table format in Markdown is correct and reflects the original data structure from the HTML source. Ensure the column count is correct in all rows.
+
+
+**Note**: The output must be a valid JSON object: {"a": [...articles]}. Be cautious with JSON formatting, ensuring no syntax errors.
