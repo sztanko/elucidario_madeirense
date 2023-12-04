@@ -8,7 +8,7 @@ from processor.splitter import split_article
 
 TO_JSON_ASSISTANT_ID = "asst_5KvfwvB6nXR7QSXDo06OUqmS"
 
-MESSAGE_SIZE_THRESHOLD = 8000
+MESSAGE_SIZE_THRESHOLD = 10000
 
 MAX_RETRIES = 3
 
@@ -44,8 +44,10 @@ def get_json(response):
 def unify_chunks(chunks):
     return {
         "title": chunks[0]["title"],
-        "references": list(set([ref for chunk in chunks for ref in chunk.get("references", [])])),
-        "categories": list(set([cat for chunk in chunks for cat in chunk.get("categories", [])])),
+        "id": chunks[0]["id"],
+        "references": list(set([ref for chunk in chunks for ref in chunk.get("references") or []])),
+        "categories": list(set([cat for chunk in chunks for cat in chunk.get("categories") or []])),
+        "freguesias": list(set([freg for chunk in chunks for freg in chunk.get("freguesias") or []])),
         "body": "\n\n".join([chunk["body"] for chunk in chunks]),
     }
 
@@ -110,9 +112,18 @@ class ArticleProcessor:
         return response
 
     def submit_message_wth_retries(self, message, retries=3, model=SIMPLE_GPT_MODEL):
+        # Get count of occurences of "div class='article'" in message string
+        article_count = message.count("div class='article'")
+        # print(f"Expecing {article_count} articles")
         for i in range(retries):
             try:
-                return self.submit_message(message, model)
+                out = self.submit_message(message, model)
+                if len(out) != article_count:
+                    print(f"Error: response should contain {article_count} articles, but contains {len(out)}")
+                    print(out)
+                    i += 1
+                    continue
+                return out
             except Exception as e:
                 print(f"Error: {e}")
                 print(f"Retrying {i+1} out of {retries}")
@@ -129,25 +140,24 @@ class ArticleProcessor:
         for a in articles:
             print(f"Submitting chunk {i+1} out of {len(articles)}, {len(a)} characters ...")
             response = self.submit_message_wth_retries(a, retries=MAX_RETRIES, model=COMPLEX_GPT_MODEL)
-            if len(response) != 1:
-                print(f"Error: response is not a list of length 1")
-                print(response)
-                raise Exception(f"Error: response is not a list of length 1")
             out.append(response[0])
             i += 1
         t2 = time.time()
         print(f"Total time elapsed: {round(t2-t0, 2)} seconds")
         with open("out_in_processor.json", "w") as f:
             json.dump(out, f, indent=4)
-        return unify_chunks(out)
+        unified = unify_chunks(out)
+        with open("out_in_processor_unified.json", "w") as f:
+            json.dump(unified, f, indent=4)
+        return [unified]
 
-    def submit_article(self, article):
+    def submit_article(self, article, model):
         print(f"Submitting an article of length: {len(article)}")
         if len(article) > MESSAGE_SIZE_THRESHOLD:
             print("This is a large article, need to split it")
             return self.submit_large_article(article)
         else:
-            return self.submit_message_wth_retries(article, retries=MAX_RETRIES)
+            return self.submit_message_wth_retries(article, retries=MAX_RETRIES, model=model)
 
     def submit_multiple_articles(self, articles):
         print(f"Submitting {len(articles)} articles")
@@ -161,6 +171,7 @@ class ArticleProcessor:
                 model = SIMPLE_GPT_MODEL
             else:
                 model = COMPLEX_GPT_MODEL
-            processed = self.submit_message_wth_retries(inp, retries=MAX_RETRIES, model=model)
+            processed = self.submit_article(inp, model)
+            # processed = self.submit_message_wth_retries(inp, retries=MAX_RETRIES, model=model)
             for article in processed:
                 yield article

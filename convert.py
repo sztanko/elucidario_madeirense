@@ -275,6 +275,93 @@ def remove_reference_from_title(articles):
     return articles
 
 
+# print(f"Rename title: {article['title']} -> {title}")
+# print(new_html_str[0:40])
+
+
+def adjust_article_title_parenthesis(articles):
+    out = []
+    for article in articles:
+        # Extract title and html from the article
+        title = article["title"]
+        html = article["html"]
+
+        # Convert the list of HTML elements to a single string
+        html_str = "".join(str(elem) for elem in html)
+
+        # Use BeautifulSoup to parse the HTML
+        soup = BeautifulSoup(html_str, "html.parser")
+
+        # Use regex to check if the title contains an unclosed parenthesis
+        if re.search(r".*\([^)]+$", title):
+            # Get the text of the first element
+            # print(f"Found unclosed parenthesis in title: {title}")
+            first_text = soup.get_text().strip().split("\n")[0].strip()
+            # print(first_text[0:30])
+
+            # Check if the first text matches the pattern <some text> ).
+            match = re.match(r"^(.*?)\s*\)\.?.*", first_text)
+            if match:
+                # Extract the text before the closing parenthesis
+                text_to_append = match.group(1)
+                # print(f"Found text to append: {text_to_append}")
+                # Update the title
+                title += " " + text_to_append + ")"
+
+                # Remove the matched text and the dot (if present) from the HTML
+                replace_regex = r"\s*{}.*?\)\.?\s*".format(text_to_append)
+                replace_regex = r"\s*{}\)\.?\s*".format(text_to_append)
+                # print("Replacing body")
+                # print(replace_regex)
+                updated_html = re.sub(replace_regex, "", html_str, 1)
+                # print(f"{html_str[0:40]} -> {updated_html[0:40]}")
+                # print(html_str[0:20])
+                # print(updated_html[0:20])
+
+                # Update the article dictionary
+                title = title.replace(" )", ")")
+                # print(f"Rename title: {article['title']} -> {title}")
+                article["title"] = title
+                article["html"] = BeautifulSoup(updated_html, "html.parser").contents
+                # print("------------------")
+        out.append(article)
+
+    return out
+
+
+def adjust_article_start(articles):
+    out = []
+    for article in articles:
+        # Extract title and html from the article
+        html = article["html"]
+
+        # Convert the list of HTML elements to a single string
+        html_str = "".join(str(elem) for elem in html)
+
+        # Use BeautifulSoup to parse the HTML
+        # if len(html_str) <50:
+        #     print(html_str[0:20])
+        soup = BeautifulSoup(html_str, "html.parser")
+
+        first_text = soup.get_text().strip().split("\n")[0].strip()
+        # print(first_text[0:30])
+
+        # Check if the first text matches the pattern <some text> ).
+        match = re.match(r"^\s*\.\s*.*", first_text)
+        if match:
+            # Remove the matched text and the dot (if present) from the HTML
+            replace_regex = r"\s*\.\s*"
+            # print("Replacing body")
+            # print(replace_regex)
+            updated_html = re.sub(replace_regex, "", html_str, 1)
+            # print(f"{html_str[0:40]} -> {updated_html[0:40]}")
+            # Update the article dictionary
+            article["html"] = BeautifulSoup(updated_html, "html.parser").contents
+            # print("------------------")
+        out.append(article)
+    return out
+
+
 def add_article_specifier(article):
     # Extract title and html from the article
     title = article["title"]
@@ -316,6 +403,34 @@ def add_article_specifier(article):
             article["body"] = [line.strip() for line in article["html"] if isinstance(line, NavigableString)]
 
     return article
+
+
+def simplify_short_articles(articles):
+    out = []
+    simplify_count = 0
+    remove_count = 0
+    for article in articles:
+        html = article["html"]
+
+        # Convert the list of HTML elements to a single string
+        html_str = "".join(str(elem) for elem in html)
+        if len(article["title"]) == 1:
+            # print(f"Article {article['title']} is empty, removing")
+            # print(html_str)
+            remove_count += 1
+            continue
+        soup = BeautifulSoup(html_str, "html.parser")
+        text = soup.get_text().strip()
+        if len(text) < 300:
+            # print(text)
+            # print(f"Article {article['title']} is too short, simplifying")
+            article["html"] = BeautifulSoup(text, "html.parser").contents
+            article["body"] = text
+            simplify_count += 1
+        out.append(article)
+    print(f"Simplified {simplify_count} articles")
+    print(f"Removed {remove_count} articles")
+    return out
 
 
 def add_article_specifiers(articles):
@@ -367,16 +482,10 @@ def remove_ocr_errors(article_str):
         "a1çapremas": "alçapremas",
         "Si1va": "Silva",
     }
-    # with open(article_file, "r") as f:
-    #     article_str = f.read()
     for fix in fixes:
         if fix in article_str:
-            print(f"Fixing {fix}")
-            # replace all
             article_str = article_str.replace(fix, fixes[fix])
     return article_str
-    # with open(article_file, "w") as f:
-    #     f.write(article_str)
 
 
 def show_article_stats(articles):
@@ -431,7 +540,10 @@ def run(output_file_name):
     articles = split_articles(articles)
     articles = format_titles(articles)
     articles = remove_reference_from_title(articles)
+    articles = simplify_short_articles(articles)
+    articles = adjust_article_start(articles)
     articles = add_article_specifiers(articles)
+    articles = adjust_article_title_parenthesis(articles)
     write_articles(articles, output_file_name)
     show_article_stats(articles)
     find_max_length(articles)

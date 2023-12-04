@@ -2,8 +2,8 @@ from bs4 import BeautifulSoup
 import json
 
 
-def build_chunk(title, body_content):
-    return f"<div class='article' id='a_{{id}}'><h1>{title}</h1><div class='article-body'>{body_content}</div></div>"
+def build_chunk(title, id, body_content):
+    return f"<div class='article' id='a_{id}'><h1>{title}</h1><div class='article-body'>{body_content}</div></div>"
 
 
 def split_html(html, size_threshold):
@@ -26,6 +26,11 @@ def split_html(html, size_threshold):
         str_element = str(element)
         # print(str_element)
         print(f"Current element size: {len(str_element)}")
+        if len(str_element) > size_threshold:
+            print(f"Element size {len(str_element)} is larger than {size_threshold}, so splitting it recursively")
+            print(str_element)
+            # chunks += split_html(str_element, size_threshold)
+            # continue
         if len(current_chunk) + len(str_element) <= size_threshold:
             current_chunk += str_element
         else:
@@ -76,10 +81,16 @@ def split_article(html_string, size_threshold):
         return [html_string]
     soup = BeautifulSoup(html_string, "html.parser")
     title = soup.find("h1").string
-    body = soup.find("div", class_="article").find("div", class_="article_body")
+    article = soup.find("div", class_="article")
+    body = article.find("div", class_="article_body")
+    id = article.attrs["id"][2:]
     body_html = body.decode_contents()
+    # print(f"Body size: {len(body_html)}")
+    # print(body_html)
+    # print("------------------------")
     if "<h2>" in body_html:
-        split_by_header = ["<h2>" + art for art in html_string.split("<h2>")]
+        header_splits = body_html.split("<h2>")
+        split_by_header = [header_splits[0]] + ["<h2>" + h for h in header_splits[1:]]
         print(f"Split by headers: {len(split_by_header)}")
     else:
         split_by_header = [body_html]
@@ -89,12 +100,12 @@ def split_article(html_string, size_threshold):
     for pg in split_by_header:
         if len(pg) <= size_threshold:
             chunks.append(pg)
-            print(f"Chunk size: {len(pg)} is smaller then {size_threshold}, so leaving it as it is ")
+            # print(f"Chunk size: {len(pg)} is smaller then {size_threshold}, so leaving it as it is ")
         else:
             print(f"Splitting {len(pg)} chars into chunks")
             chunks += split_html(pg, size_threshold)
 
     merged_chunks = merge_small_chunks(chunks, size_threshold)
-    chunk_html = [build_chunk(title, chunk) for chunk in merged_chunks]
+    chunk_html = [build_chunk(title, id, chunk) for chunk in merged_chunks]
     print(f"Returning {len(chunk_html)} chunks")
     return chunk_html

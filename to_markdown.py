@@ -40,6 +40,7 @@ def main(html_file, filter_by):
     markup_list = processor.submit_multiple_articles(article_subset)
     for markup in markup_list:
         # markup = processor.submit_article(a)
+        print(markup)
         index = markup["id"]
         filename = f"articles/{index}_{re.sub('[^a-zA-Z0-9]', '_', markup['title'])}.json"
         with open(filename, "w") as f:

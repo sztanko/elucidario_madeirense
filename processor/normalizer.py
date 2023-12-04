@@ -105,10 +105,10 @@ def get_similarity_score(str1, str2):
 
     for s in sentences_str1:
         closest_match, max_score = find_closest_match(s, sentences_str2)
-        if max_score <= THRESHOLD:
-            print(
-                f"A: {s}\nB: {closest_match}\nScore: {round(100*max_score,2)}\n-----------------------------------------"
-            )
+        # if max_score <= THRESHOLD:
+        #     print(
+        #         f"A: {s}\nB: {closest_match}\nScore: {round(100*max_score,2)}\n-----------------------------------------"
+        #     )
         if max_score > THRESHOLD:
             score += max_score
     return score / len(sentences_str1)

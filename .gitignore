@@ -4,3 +4,4 @@
 __pycache__
 sample.txt
 lengths.csv
+articles/*
