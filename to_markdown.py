@@ -33,9 +33,9 @@ def main(html_file, filter_by):
             print(f"Writing to {filename}")
             json.dump(markup, f, indent=4, ensure_ascii=False)
         print(f"This if article #{index}")
-        a = articles[index]
-        similarity_score = get_similarity_score(a, markup["body"])
-        print("Similarity score: " + str(similarity_score))
+        # a = articles[index]
+        # similarity_score = get_similarity_score(a, markup["body"])
+        # print("Similarity score: " + str(similarity_score))
 
 
 if __name__ == "__main__":
