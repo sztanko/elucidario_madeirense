@@ -19,20 +19,6 @@ def print_article(data):
 
 def main(html_file, filter_by):
     articles = exrtract_articles_from_html(html_file)
-    # filter_by = "Indústria Vinícola"
-    # filter_by = "Ingleses"
-    # filter_by = "Insubordinações Militares"
-    # filter_by = "Levadas"
-    # filter_by = "Terreiro da Luta"
-    # filter_by = "Madeira e a«Ilha dos Amores»"
-    # filter_by = "Prostituição"
-    # filter_by = "Bancos"
-    # filter_by = "Colegio. V. São João Evangelista (Colegio e igreja de)"
-    # filter_by = "Calheta"
-    # filter_by = "Rodrigues ("
-    # filter_by = "Ab"
-    # filter_by = "Baleira (Vi"
-    # filter_by = "Silva"
     article_subset = list(filter(lambda a: f">{filter_by}" in a, articles))
     merged = "\n".join(article_subset)
     print(f"Total articles: {len(article_subset)}, {len(merged)} chars")
@@ -55,10 +41,14 @@ def main(html_file, filter_by):
 if __name__ == "__main__":
     import sys
 
-    if len(sys.argv) != 3:
+    if len(sys.argv) < 2:
         print("Usage: python to_json.py <html_file> article_name")
         sys.exit(1)
     if not os.path.exists(sys.argv[1]):
         print(f"Error: file '{sys.argv[1]}' not found")
         sys.exit(1)
-    main(sys.argv[1], sys.argv[2])
+    if len(sys.argv) !=3:
+        keyword = ''
+    else:
+        keyword = sys.argv[2]
+    main(sys.argv[1], keyword)

@@ -2,12 +2,9 @@ import sys
 from bs4 import BeautifulSoup, NavigableString, Tag
 import re
 from pyuca import Collator
-import tty
-import termios
-import json
 
 from processor.journal import Journal
-from processor.constants import START_INDICATOR, END_INDICATOR, ARTICLE_SEPARATOR
+from processor.constants import START_INDICATOR, END_INDICATOR, ARTICLE_SEPARATOR, replace_reis
 
 ADJUST_JOURNAL_FILE = "journals/adjust_journal.json"
 INPUT_DIR = "html"
@@ -362,6 +359,7 @@ def adjust_article_start(articles):
     return out
 
 
+
 def add_article_specifier(article):
     # Extract title and html from the article
     title = article["title"]
@@ -437,6 +435,16 @@ def add_article_specifiers(articles):
     out = []
     for article in articles:
         out.append(add_article_specifier(article))
+    return out
+
+def reformat_currency_format(articles):
+    out = []
+    for article in articles:
+        html_str = "".join(str(elem) for elem in article['html'])
+        html_str = replace_reis(html_str)
+        soup = BeautifulSoup(html_str, "html.parser")
+        article["html"] = soup.contents
+        out.append(article)
     return out
 
 
@@ -544,6 +552,7 @@ def run(output_file_name):
     articles = adjust_article_start(articles)
     articles = add_article_specifiers(articles)
     articles = adjust_article_title_parenthesis(articles)
+    articles = reformat_currency_format(articles)
     write_articles(articles, output_file_name)
     show_article_stats(articles)
     find_max_length(articles)

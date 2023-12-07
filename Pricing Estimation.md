@@ -37,3 +37,16 @@
 - **Context Token Cost**: Approximately $2.86
 - **Output Token Cost**: Approximately $3.80
 - **Grand Total Cost**: Approximately $6.66
+
+# Cost Analysis of Token Processing with Claude
+
+## New Token Prices for Claude
+- Price per 1,000 Context Tokens: $0.00800
+- Price per 1,000 Output Tokens: $0.02400
+
+## Cost Breakdown for Processing 6,939,504 Characters with Claude
+- **Context Token Cost**: Approximately $22.89
+  - Calculation: 2,861,635 tokens / 1,000 * $0.00800
+- **Output Token Cost**: Approximately $45.52
+  - Calculation: 1,897,963 tokens / 1,000 * $0.02400
+- **Grand Total Cost**: Approximately **$68.41**
