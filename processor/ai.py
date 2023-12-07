@@ -196,7 +196,9 @@ class ArticleProcessor:
         c = 0
         with open(f"debug.txt", "w") as f:
             for group in groups:
+                now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")               
                 print(f"Submitting a group of length: {len(group)}, total size: {sum([len(a) for a in group])}")
+                f.write(f"{now}:\tSubmitting a group of length: {len(group)}, total size: {sum([len(a) for a in group])}\n")
                 inp = "\n\n".join(group)
                 try:
                     processed = self.submit_article(inp)
