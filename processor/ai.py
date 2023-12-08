@@ -11,9 +11,9 @@ from processor.splitter import split_article
 
 TO_JSON_ASSISTANT_ID = "asst_5KvfwvB6nXR7QSXDo06OUqmS"
 
-MESSAGE_SIZE_THRESHOLD = 10000
+MESSAGE_SIZE_THRESHOLD = 9000
 
-MAX_RETRIES = 3
+MAX_RETRIES = 4
 
 GPT_MODEL = "gpt-3.5-turbo-1106"
 # GPT_MODEL = "gpt-4-1106-preview"
@@ -215,3 +215,4 @@ class ArticleProcessor:
                     # print stacktrace to file
                     traceback.print_exc(file=f)
                     f.write("\n\n")
+                c+=1
