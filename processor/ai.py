@@ -11,7 +11,7 @@ from processor.splitter import split_article
 
 TO_JSON_ASSISTANT_ID = "asst_5KvfwvB6nXR7QSXDo06OUqmS"
 
-MESSAGE_SIZE_THRESHOLD = 9000
+MESSAGE_SIZE_THRESHOLD = 8000
 
 MAX_RETRIES = 4
 
