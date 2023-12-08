@@ -24,6 +24,22 @@ SIMPLE_GPT_MODEL = "gpt-3.5-turbo-1106"
 COMPLEX_GPT_MODEL = "gpt-4-1106-preview"
 
 
+def validate_response(response):
+    for keys in ["title", "id", "references", "categories", "freguesias", "years", "locations", "people", "body"]:
+        if keys not in response:
+            print(f"Error: {keys} not in response")
+            print(response)
+            raise Exception(f"Error: {keys} not in response")
+    if not isinstance(response["title"], str):
+        print(f"Error: title = {response['title']} is not a string")
+        print(response)
+        raise Exception(f"Error: title = {response['title']} is not a string")
+    if not isinstance(response["id"], int):
+        print(f"Error: id = {response['id']} is not an integer")
+        print(response)
+        raise Exception(f"Error: id = {response['id']} is not an integer")
+
+
 def union_dicts(chunks, field):
     array_of_dicts = [chunk.get(field) or {} for chunk in chunks]
     out = defaultdict(list)
@@ -50,6 +66,8 @@ def get_json(response):
         print("Error: JSONDecodeError")
         print(response)
         raise e
+    for a in data["a"]:
+        validate_response(a)
     return data["a"]
 
 
@@ -196,9 +214,11 @@ class ArticleProcessor:
         c = 0
         with open(f"debug.txt", "w") as f:
             for group in groups:
-                now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")               
+                now = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
                 print(f"Submitting a group of length: {len(group)}, total size: {sum([len(a) for a in group])}")
-                f.write(f"{now}:\tSubmitting a group of length: {len(group)}, total size: {sum([len(a) for a in group])}\n")
+                f.write(
+                    f"{now}:\tSubmitting a group of length: {len(group)}, total size: {sum([len(a) for a in group])}\n"
+                )
                 inp = "\n\n".join(group)
                 try:
                     processed = self.submit_article(inp)
@@ -215,4 +235,4 @@ class ArticleProcessor:
                     # print stacktrace to file
                     traceback.print_exc(file=f)
                     f.write("\n\n")
-                c+=1
+                c += 1
