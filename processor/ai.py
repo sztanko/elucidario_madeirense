@@ -7,131 +7,38 @@ import traceback
 from datetime import datetime
 
 from processor.splitter import split_article
+from processor.constants import DEFAULT_INSTRUCTIONS_FILE, DEFAULT_SIMPLE_GPT_MODEL, DEFAULT_COMPLEX_GPT_MODEL, DEFAULT_MESSAGE_SIZE_THRESHOLD
+from processor.output_utils import get_json, unify_chunks, group_articles
 
-
-TO_JSON_ASSISTANT_ID = "asst_5KvfwvB6nXR7QSXDo06OUqmS"
-
-MESSAGE_SIZE_THRESHOLD = 8000
 
 MAX_RETRIES = 4
 
-GPT_MODEL = "gpt-3.5-turbo-1106"
-# GPT_MODEL = "gpt-4-1106-preview"
-INSTRUCTIONS_FILE = "instructions/to_json_ai_revised.txt"
-
-
-SIMPLE_GPT_MODEL = "gpt-3.5-turbo-1106"
-COMPLEX_GPT_MODEL = "gpt-4-1106-preview"
-
-
-def validate_response(response):
-    for keys in ["title", "id", "references", "categories", "freguesias", "years", "locations", "people", "body"]:
-        if keys not in response:
-            print(f"Error: {keys} not in response")
-            print(response)
-            raise Exception(f"Error: {keys} not in response")
-    if not isinstance(response["title"], str):
-        print(f"Error: title = {response['title']} is not a string")
-        print(response)
-        raise Exception(f"Error: title = {response['title']} is not a string")
-    if not isinstance(response["id"], int):
-        print(f"Error: id = {response['id']} is not an integer")
-        print(response)
-        raise Exception(f"Error: id = {response['id']} is not an integer")
-
-
-def union_dicts(chunks, field):
-    array_of_dicts = [chunk.get(field) or {} for chunk in chunks]
-    out = defaultdict(list)
-    for chunk in array_of_dicts:
-        for k, v in chunk.items():
-            out[k].append(v)
-    return dict([(k, "\n\n".join(out[k])) for k in out])
-
-
-def get_json(response):
-    # print(response)
-    print(f"Response length: {len(response)}")
-    try:
-        data = json.loads(response)
-        if "a" not in data:
-            print("Error: 'a' not in data")
-            print(response)
-            raise Exception("Error: 'a' not in data")
-        if not isinstance(data["a"], list):
-            print("Error: 'a' is not a list")
-            print(response)
-            raise Exception("Error: 'a' is not a list")
-    except json.decoder.JSONDecodeError as e:
-        print("Error: JSONDecodeError")
-        print(response)
-        raise e
-    for a in data["a"]:
-        validate_response(a)
-    return data["a"]
-
-
-def unify_chunks(chunks):
-    return {
-        "title": chunks[0]["title"],
-        "id": chunks[0]["id"],
-        "references": list(set([ref for chunk in chunks for ref in chunk.get("references") or []])),
-        "categories": list(set([cat for chunk in chunks for cat in chunk.get("categories") or []])),
-        "freguesias": list(set([freg for chunk in chunks for freg in chunk.get("freguesias") or []])),
-        "years": union_dicts(chunks, "years"),
-        "locations": union_dicts(chunks, "locations"),
-        "people": union_dicts(chunks, "people"),
-        "body": "\n\n".join([chunk["body"] for chunk in chunks]),
-    }
-
-
-def group_articles(articles, threshold):
-    groups = []
-    current_group = []
-    current_length = 0
-
-    for article in articles:
-        article_length = len(article)
-        if article_length > threshold:
-            # If the current group has articles, add it to groups
-            if current_group:
-                groups.append(current_group)
-                current_group = []
-                current_length = 0
-            # Add the large article as its own group
-            groups.append([article])
-        else:
-            if current_length + article_length > threshold:
-                # Current group exceeds threshold, start a new group
-                groups.append(current_group)
-                current_group = [article]
-                current_length = article_length
-            else:
-                # Add article to current group
-                current_group.append(article)
-                current_length += article_length
-
-    # Add the last group if it's not empty
-    if current_group:
-        groups.append(current_group)
-
-    return groups
 
 
 class ArticleProcessor:
-    def __init__(self):
+    def __init__(
+        self,
+        instructions_file=DEFAULT_INSTRUCTIONS_FILE,
+        message_size_threshold=DEFAULT_MESSAGE_SIZE_THRESHOLD,
+        simple_gpt_model=DEFAULT_SIMPLE_GPT_MODEL,
+        complex_gpt_model=DEFAULT_COMPLEX_GPT_MODEL,
+    ):
+        if "OPENAI_API_KEY" not in os.environ:
+            raise Exception("OPENAI_API_KEY not found in environment variables")
         self.client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
-        self.assistant = self.client.beta.assistants.retrieve(TO_JSON_ASSISTANT_ID)
         self.thread = self.client.beta.threads.create()
-        with open(INSTRUCTIONS_FILE, "r") as f:
+        self.message_size_threshold = message_size_threshold
+        self.simple_gpt_model = simple_gpt_model
+        self.complex_gpt_model = complex_gpt_model
+        with open(instructions_file, "r") as f:
             self.instructions = f.read()
             # print("Instructions are:")
             # print(self.instructions)
 
     def determine_model(self, message):
         if ".............." in message:
-            return COMPLEX_GPT_MODEL
-        return SIMPLE_GPT_MODEL
+            return self.complex_gpt_model
+        return self.simple_gpt_model
 
     def submit_message(self, message):
         t0 = time.time()
@@ -178,7 +85,7 @@ class ArticleProcessor:
         raise Exception(f"Failed to submit message after {retries} retries")
 
     def submit_large_article(self, article):
-        new_message_size_threshold = 500 + len(article) / int(len(article) / MESSAGE_SIZE_THRESHOLD + 1)
+        new_message_size_threshold = 500 + len(article) / int(len(article) / self.message_size_threshold + 1)
         articles = split_article(article, new_message_size_threshold)
         if len(articles) > 1:
             print(f"Total chunks: {len(articles)}")
@@ -201,7 +108,7 @@ class ArticleProcessor:
 
     def submit_article(self, article):
         print(f"Submitting an article of length: {len(article)}")
-        if len(article) > MESSAGE_SIZE_THRESHOLD:
+        if len(article) > self.message_size_threshold:
             print("This is a large article, need to split it")
             return self.submit_large_article(article)
         else:
@@ -209,7 +116,7 @@ class ArticleProcessor:
 
     def submit_multiple_articles(self, articles):
         print(f"Submitting {len(articles)} articles")
-        groups = group_articles(articles, MESSAGE_SIZE_THRESHOLD)
+        groups = group_articles(articles, self.message_size_threshold)
         print(f"There will be {len(groups)} groups")
         c = 0
         with open(f"debug.txt", "w") as f:
