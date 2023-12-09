@@ -7,12 +7,16 @@ import traceback
 from datetime import datetime
 
 from processor.splitter import split_article
-from processor.constants import DEFAULT_INSTRUCTIONS_FILE, DEFAULT_SIMPLE_GPT_MODEL, DEFAULT_COMPLEX_GPT_MODEL, DEFAULT_MESSAGE_SIZE_THRESHOLD
+from processor.constants import (
+    DEFAULT_INSTRUCTIONS_FILE,
+    DEFAULT_SIMPLE_GPT_MODEL,
+    DEFAULT_COMPLEX_GPT_MODEL,
+    DEFAULT_MESSAGE_SIZE_THRESHOLD,
+)
 from processor.output_utils import get_json, unify_chunks, group_articles
 
 
 MAX_RETRIES = 4
-
 
 
 class ArticleProcessor:
@@ -68,7 +72,7 @@ class ArticleProcessor:
 
     def submit_message_wth_retries(self, message, retries=3):
         # Get count of occurences of "div class='article'" in message string
-        article_count = message.count("div class='article'")
+        article_count = message.count('div class="article"')
         # print(f"Expecing {article_count} articles")
         for i in range(retries):
             try:
