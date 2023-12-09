@@ -12,6 +12,7 @@ from processor.constants import (
     DEFAULT_SIMPLE_GPT_MODEL,
     DEFAULT_COMPLEX_GPT_MODEL,
     DEFAULT_MESSAGE_SIZE_THRESHOLD,
+    exrtract_articles_from_html
 )
 from processor.output_utils import get_json, unify_chunks, group_articles
 
@@ -71,9 +72,8 @@ class ArticleProcessor:
         return response
 
     def submit_message_wth_retries(self, message, retries=3):
-        # Get count of occurences of "div class='article'" in message string
-        article_count = message.count('div class="article"')
-        # print(f"Expecing {article_count} articles")
+        article_count = len(exrtract_articles_from_html(message))
+        print(f"Expecing {article_count} articles")
         for i in range(retries):
             try:
                 out = self.submit_message(message)
