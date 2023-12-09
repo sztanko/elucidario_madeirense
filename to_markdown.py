@@ -4,7 +4,7 @@ import re
 from pathlib import Path
 import typer
 
-from processor.constants import exrtract_articles_from_html
+from processor.constants import extract_articles_from_html
 from processor.constants import (
     DEFAULT_INSTRUCTIONS_FILE,
     DEFAULT_SIMPLE_GPT_MODEL,
@@ -43,7 +43,7 @@ def main(
         resolve_path=True,
     ),
 ):
-    articles = exrtract_articles_from_html(html_file)
+    articles = extract_articles_from_html(html_file)
     article_subset = list(filter(lambda a: f">{filter_by}" in a, articles))
     merged = "\n".join(article_subset)
     print(f"Total articles: {len(article_subset)}, {len(merged)} chars")

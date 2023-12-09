@@ -12,7 +12,7 @@ from processor.constants import (
     DEFAULT_SIMPLE_GPT_MODEL,
     DEFAULT_COMPLEX_GPT_MODEL,
     DEFAULT_MESSAGE_SIZE_THRESHOLD,
-    exrtract_articles_from_html
+    extract_articles_from_string
 )
 from processor.output_utils import get_json, unify_chunks, group_articles
 
@@ -72,7 +72,7 @@ class ArticleProcessor:
         return response
 
     def submit_message_wth_retries(self, message, retries=3):
-        article_count = len(exrtract_articles_from_html(message))
+        article_count = len(extract_articles_from_string(message))
         print(f"Expecing {article_count} articles")
         for i in range(retries):
             try:
