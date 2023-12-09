@@ -1,9 +1,8 @@
 import locale
 import re
 
-START_INDICATOR = "<!-- START -->\n"
-END_INDICATOR = "<!-- END -->\n"
-ARTICLE_SEPARATOR = "<!-- ARTICLE -->\n"
+from bs4 import BeautifulSoup
+
 
 REIS_PATTERN = r"([0-9]+\.)?[0-9]+:[0-9]+\$[0-9]+"
 
@@ -20,9 +19,9 @@ DEFAULT_COMPLEX_GPT_MODEL = "gpt-4-1106-preview"
 
 def exrtract_articles_from_html(html_file):
     with open(html_file, "r") as f:
-        html_string = f.read()
-        articles = html_string.split(START_INDICATOR)[1].split(END_INDICATOR)[0].split(ARTICLE_SEPARATOR)
-        return articles
+        soup = BeautifulSoup(f, "html.parser")
+        divs = soup.find_all("div", class_="article")
+        return [str(div) for div in divs]
 
 
 def convert_portuguese_currency(number_str):
