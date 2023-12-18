@@ -4,7 +4,7 @@ import re
 from pyuca import Collator
 
 from processor.journal import Journal
-from processor.constants import START_INDICATOR, END_INDICATOR, ARTICLE_SEPARATOR, replace_reis
+from processor.utils.currency import replace_reis
 
 ADJUST_JOURNAL_FILE = "journals/adjust_journal.json"
 INPUT_DIR = "html"
@@ -451,10 +451,10 @@ def reformat_currency_format(articles):
 def write_articles(articles, output_file_name):
     with open(output_file_name, "w") as f:
         f.write("<html><body>\n")
-        f.write(START_INDICATOR)
+        f.write("<!-- START -->\n")
         i = 0
         for article in articles:
-            f.write(ARTICLE_SEPARATOR)
+            f.write("\n\n<!-- ARTICLE -->\n\n")
             f.write(f"<div class='article' id='a_{i}'>\n<h1>{article['title']}</h1>\n\n")
             f.write("<div class='article_body'>\n")
             for line in article["html"]:
@@ -464,7 +464,7 @@ def write_articles(articles, output_file_name):
                     f.write(line.prettify())
             f.write("\n</div>\n</div>\n")
             i += 1
-        f.write(END_INDICATOR)
+        f.write("<!-- END -->\n")
         f.write("</body></html>")
 
 
@@ -544,15 +544,25 @@ def write_lengths_to_csv(articles):
 def run(output_file_name):
     content = join_files(FILES)
     articles = group_articles(content)
+    print(f"Total articles after grouping: {len(articles)}")
     articles = adjust_articles(articles)
+    print(f"Total articles after adjusting: {len(articles)}")
     articles = split_articles(articles)
+    print(f"Total articles after splitting: {len(articles)}")
     articles = format_titles(articles)
+    print(f"Total articles after formatting titles: {len(articles)}")
     articles = remove_reference_from_title(articles)
+    print(f"Total articles after removing references from titles: {len(articles)}"  )
     articles = simplify_short_articles(articles)
+    print(f"Total articles after simplifying short articles: {len(articles)}")
     articles = adjust_article_start(articles)
+    print(f"Total articles after adjusting article start: {len(articles)}")
     articles = add_article_specifiers(articles)
+    print(f"Total articles after adding article specifiers: {len(articles)}")
     articles = adjust_article_title_parenthesis(articles)
+    print(f"Total articles after adjusting article title parenthesis: {len(articles)}")
     articles = reformat_currency_format(articles)
+    print(f"Total articles after reformatting currency format: {len(articles)}")
     write_articles(articles, output_file_name)
     show_article_stats(articles)
     find_max_length(articles)

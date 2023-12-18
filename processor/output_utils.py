@@ -1,5 +1,21 @@
 import json
+import re
 from collections import defaultdict
+from processor.constants import extract_articles_from_string
+
+
+def validate_ids(articles, initial_message):
+    initial_articles = extract_articles_from_string(initial_message)
+    initial_article_ids = set(
+        [int(re.search(r'<div class="article" id="a_([0-9]+)"', article).group(1)) for article in initial_articles]
+    )
+    response_ids = set([article["id"] for article in articles])
+    if initial_article_ids != response_ids:
+        print(f"Error: initial_article_ids != response_ids")
+        print(f"initial_article_ids: {initial_article_ids}")
+        print(f"response_ids: {response_ids}")
+        raise Exception(f"Error: initial_article_ids != response_ids")
+
 
 def validate_response(response):
     for keys in ["title", "id", "references", "categories", "freguesias", "years", "locations", "people", "body"]:
@@ -26,7 +42,7 @@ def union_dicts(chunks, field):
     return dict([(k, "\n\n".join(out[k])) for k in out])
 
 
-def get_json(response):
+def get_json(response, initial_message):
     # print(response)
     print(f"Response length: {len(response)}")
     try:
@@ -39,6 +55,7 @@ def get_json(response):
             print("Error: 'a' is not a list")
             print(response)
             raise Exception("Error: 'a' is not a list")
+        validate_ids(data["a"], initial_message)
     except json.decoder.JSONDecodeError as e:
         print("Error: JSONDecodeError")
         print(response)

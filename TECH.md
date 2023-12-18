@@ -100,7 +100,7 @@ This Python script is designed to clean and reformat HTML content, specifically 
 ## Usage
 Run the script with the input HTML file as an argument:
 ```
-python script.py <input_file.html>
+python convert.py <output_file.html>
 ```
 
 

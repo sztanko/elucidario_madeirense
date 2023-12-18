@@ -1,0 +1,56 @@
+import os
+import json
+import re
+from pathlib import Path
+import typer
+
+from processor.llm.processors.translation import TranslationProcessor
+from processor.llm.submitter import Submitter
+
+
+DEFAULT_MESSAGE_SIZE_THRESHOLD = 6000
+
+
+def main(
+    lang: str,
+    articles_path: Path = typer.Argument(
+        ..., exists=True, file_okay=False, dir_okay=True, readable=True, resolve_path=True
+    ),
+    output_dir: Path = typer.Argument(
+        ...,
+        exists=True,
+        file_okay=False,
+        dir_okay=True,
+        readable=True,
+        resolve_path=True,
+    ),
+    filter_by="",
+    message_size_threshold: int = DEFAULT_MESSAGE_SIZE_THRESHOLD,
+):
+    # load all json files located in articles_path
+    print("Reading articles")
+    articles = [json.loads(f.read_text()) for f in articles_path.glob("*.json")]
+    print(f"Loaded {len(articles)} articles")
+    article_subset = list(filter(lambda a: a["title"].startswith(filter_by), articles))
+    merged_articles = [json.dumps(a, ensure_ascii=False) for a in article_subset]
+    # print(merged_articles)
+    print(f"Total articles: {len(article_subset)}, {sum([len(a) for a in merged_articles])} chars")
+
+    processor = TranslationProcessor(lang)
+    submitter = Submitter(processor, message_size_threshold, f"errors/translation/{lang}")
+
+    markup_list = submitter.submit_articles(merged_articles)
+    for markup in markup_list:
+        index = markup["id"]
+        # filename = f"articles/{index}_{re.sub('[^a-zA-Z0-9]', '_', markup['title'])}.json"
+        filename = output_dir / f"{index}_{lang}_{markup['title']}.json"
+        with open(filename, "w") as f:
+            print(f"Writing to {filename}")
+            json.dump(markup, f, indent=4, ensure_ascii=False)
+        print(f"This if article #{index}")
+
+
+if __name__ == "__main__":
+    import sys
+
+    typer.run(main)

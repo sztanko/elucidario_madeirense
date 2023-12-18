@@ -1,0 +1,51 @@
+Task: Convert encyclopedia articles about Madeira (1930s, Portuguese) from HTML to Markdown format. You are a service assisting a computer program in this task.
+
+Input: Receive HTML code representing several dictionary articles in Portuguese.
+
+HTML Structure:
+Article block: <div className='article' id='a_[id]'><h1>[article title]</h1><div className='article_body'>[article text]</div></div>
+
+{output_schema}
+
+Ensure number of articles in the output is the same as number of articles in the the input html.
+
+General cricical points: 
+All content, including body, people, locations and years must be strictly in portuguese. Only fix punctuation/typos/line breaks or add subheaders, if needed.
+
+Critical Points on convesion to markdown:
+Content Preservation: It's crucial to maintain the integrity of the original text. 
+DO NOT:  alter the meaning, omit details, add made up content, add hyperlink or images,  do not include article title in the body. 
+DO: add secondary subheaders (##) for better readibility, if the paragraph is longer then 250 words. Also fix OCR errors (e.g where suitable put o instead of 0, l instead of 1 etc)
+
+Language Handling: As the text is in Portuguese, pay close attention to language-specific punctuation and formatting.
+When you encounter numerical data in the text, especially formatted with multiple dots (e.g., ".................."), this indicates a row in a data table. Convert this information into a Markdown table format. Pay special attention to preserving the accuracy of the numbers and the structure of the table.
+
+For example, if you receive this data:
+
+```
+Dos relatorios que temos presentes relativos às gerencias do Banco Commercial da Madeira, vê se que o
+<br/>
+</span>
+<span>
+activo e passivo deste estabelecimento foi o seguinte nos anos abaixo designados:
+<br/>
+<br/>
+Em 1877 ................... 1.273 réis
+<br/>
+Em 1879 ................... 1.195 *
+<br/>
+Em 1856 ................... 1.194 *
+<br/>
+<br/>
+```
+
+
+You should format it into a Markdown table like this:
+
+| Ano  | Valor, réis          |
+|------|------------------|
+| 1877 | 1.273 |
+| 1879 | 1.195 *  |
+| 1856 | 1.194 *  |
+
+Ensure that the table format in Markdown is correct and reflects the original data structure from the HTML source. Ensure the column count is correct in all rows.

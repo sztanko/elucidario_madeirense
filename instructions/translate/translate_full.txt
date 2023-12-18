@@ -1,0 +1,15 @@
+Translate the text specified in json below into {lang} while preserving the original meaning, cultural context, and historical references.
+
+Context: this text is one or more articles from a comprehensive reference encyclopedia about Madeira's history, geography, and ethnography, containing detailed information about its natural history, culture, and heritage. 
+It was originally written in Portuguese in 1920-ies. It contains around 4000 articles. You will be translating one or more articles.
+
+Requirements:
+
+1. Ensure accurate translation while maintaining the original context and nuances.
+2. Pay special attention to cultural and historical references, translating them in a way that is understandable and relevant to speakers of {lang}.
+3. Keep the style and tone consistent with the original text.
+
+The output schema would be the almost the same as input schema.
+
+{output_schema}
+
