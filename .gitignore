@@ -5,3 +5,6 @@ __pycache__
 sample.txt
 lengths.csv
 articles/*
+articles*/*
+translations*
+submit_log
