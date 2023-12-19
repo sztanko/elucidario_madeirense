@@ -24,6 +24,7 @@ def main(
         readable=True,
         resolve_path=True,
     ),
+    only_missing: bool = False,
     filter_by="",
     message_size_threshold: int = DEFAULT_MESSAGE_SIZE_THRESHOLD,
 ):
@@ -31,7 +32,13 @@ def main(
     print("Reading articles")
     articles = [json.loads(f.read_text()) for f in articles_path.glob("*.json")]
     print(f"Loaded {len(articles)} articles")
-    article_subset = list(filter(lambda a: a["title"].startswith(filter_by), articles))
+    if only_missing:
+        print("Loading articles from output dir to see what is not missing")
+        existing = [json.loads(f.read_text()) for f in output_dir.glob("*.json")]
+        existing_ids = set([int(a["id"]) for a in existing])
+        print(f"Existing ids: {len(existing_ids)}")
+        article_subset = [a for a in articles if int(a["id"]) not in existing_ids]        
+    article_subset = list(filter(lambda a: a["title"].startswith(filter_by), article_subset))
     merged_articles = [json.dumps(a, ensure_ascii=False) for a in article_subset]
     # print(merged_articles)
     print(f"Total articles: {len(article_subset)}, {sum([len(a) for a in merged_articles])} chars")
