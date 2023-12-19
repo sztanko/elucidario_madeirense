@@ -8,7 +8,7 @@ from processor.utils.splitter import split_article
 from processor.utils.instructions import load_instructions, make_output_schema_instructions
 from models.article import Article
 from models import create_list_model
-from processor.llm.engines import OpenAIEngine, AIEngine, ClaudeEngine
+from processor.llm.engines import OpenAIEngine, AIEngine, ClaudeEngine, GPT4Engine
 
 
 # Configure logging
@@ -24,7 +24,7 @@ class LayoutProcessor(Processor):
         super().__init__()
         self.output_schema = make_output_schema_instructions(Article)
         self.output_schema_list = make_output_schema_instructions(Article, as_list=True)
-        engine = OpenAIEngine
+        engine = GPT4Engine
         self.simple_article_engine = engine(
             load_instructions("instructions/layout/single_article.txt", output_schema=self.output_schema)
         )
