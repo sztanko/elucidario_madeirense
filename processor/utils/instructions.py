@@ -5,6 +5,7 @@ import logging
 from models import create_list_model
 from pydantic import BaseModel
 
+
 def load_instructions(template_file, **variables):
     """
     Given a template file, return the template with the given kwargs
@@ -15,9 +16,10 @@ def load_instructions(template_file, **variables):
         template = f.read()
         # logging.info(variables)
         formatted_template = template.format(**variables)
-        #logging.info(f"Instructions from {template_file}: {formatted_template}")
+        # logging.info(f"Instructions from {template_file}: {formatted_template}")
         logging.info(f"Loaded {len(formatted_template)} characters from {template_file}")
         return formatted_template
+
 
 def make_output_schema_instructions(model: Type[BaseModel], as_list: bool = False):
     """
@@ -26,8 +28,8 @@ def make_output_schema_instructions(model: Type[BaseModel], as_list: bool = Fals
     if as_list:
         model = create_list_model(model)
     schema = json.dumps(model.model_json_schema(), indent=2, ensure_ascii=False)
-    
-    # output strict output instructions for LLM 
+
+    # output strict output instructions for LLM
     return f"""
     Output format: return a valid json STRICTLY OBEYING the following JSON Schema:
     ```
@@ -36,4 +38,11 @@ def make_output_schema_instructions(model: Type[BaseModel], as_list: bool = Fals
     Don't write any text before of after the json, only just the json.
     
     """
-    
+
+
+if __name__ == "__main__":
+    # Test
+    from models.article import Article
+
+    output_schema = make_output_schema_instructions(Article)
+    prompt = load_instructions("instructions/layout/single_article.txt", output_schema=output_schema)

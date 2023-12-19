@@ -13,11 +13,18 @@ from processor.llm.submitter import Submitter
 DEFAULT_MESSAGE_SIZE_THRESHOLD = 10000
 
 
+def extract_id_from_html(html_str):
+    # <div class="article" id="a_395">
+    id = re.match(r'<div class="article" id="a_(\d+)"', html_str).group(1)
+    return int(id)
+
+
 def main(
     html_file: Path = typer.Argument(
         ..., exists=True, file_okay=True, dir_okay=False, readable=True, resolve_path=True
     ),
     filter_by="",
+    only_missing: bool = False,
     message_size_threshold: int = DEFAULT_MESSAGE_SIZE_THRESHOLD,
     output_dir: Path = typer.Option(
         "articles",
@@ -30,6 +37,12 @@ def main(
 ):
     articles = extract_articles_from_html(html_file)
     article_subset = list(filter(lambda a: f">{filter_by}" in a, articles))
+    if only_missing:
+        print("Loading articles from output dir to see what is not missing")
+        existing = [json.loads(f.read_text()) for f in output_dir.glob("*.json")]
+        existing_ids = set([int(a["id"]) for a in existing])
+        article_subset = [a for a in article_subset if extract_id_from_html(a) not in existing_ids]
+
     merged = "\n".join(article_subset)
     print(f"Total articles: {len(article_subset)}, {len(merged)} chars")
 
