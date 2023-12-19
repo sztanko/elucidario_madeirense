@@ -63,9 +63,15 @@ class LayoutProcessor(Processor):
 
     def parse_multiple_result(self, result: str) -> List[Dict]:
         res = json.loads(result)
-        ListModel = create_list_model(Article)
-        articles = ListModel(**res).a
-        results = [article.__dict__ for article in articles]
+        results = []
+        for a in res["a"]:
+            try:
+                article = Article(**a)
+                results.append(article.__dict__)
+            except Exception as e:
+                # This is not ideal, because we won't be retrying anything, but it's better than nothing
+                logging.error(e)
+                logging.error(a)
         return results
 
     def union_dicts(self, chunks: List[Article], field):
