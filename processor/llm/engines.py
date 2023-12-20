@@ -32,11 +32,11 @@ class AIEngine(ABC):
 
     @abstractmethod
     def _submit_message(self, message: str) -> str:
-        return out
+        return ""
 
     def submit_message(self, message: str) -> str:
         if len(message) > self.get_max_length():
-            raise ValueError(f"Message length {len(message)} exceeds maximum length {self.get_max_length()}")
+            logging.warn(f"Message length {len(message)} exceeds maximum length {self.get_max_length()}")
         logging.info(f"Submitting message of length {len(message)}")
         # logging.info(message)
         result = self._submit_message(message)
