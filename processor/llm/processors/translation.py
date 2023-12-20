@@ -9,7 +9,7 @@ from processor.utils.instructions import load_instructions, make_output_schema_i
 from models.article import Article
 from models.translation import Translation
 from models import create_list_model
-from processor.llm.engines import OpenAIEngine, AIEngine, ClaudeEngine
+from processor.llm.engines import OpenAIEngine, AIEngine, ClaudeEngine, GPT4Engine
 
 
 # Configure logging
@@ -30,7 +30,7 @@ LANGUAGES = {
 }
 
 ENGINES = {
-    "en": OpenAIEngine,
+    "en": GPT4Engine,
     "fr": OpenAIEngine,
     "de": OpenAIEngine,
     "ua": ClaudeEngine,
