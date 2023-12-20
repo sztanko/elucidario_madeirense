@@ -31,11 +31,11 @@ LANGUAGES = {
 
 ENGINES = {
     "en": GPT4Engine,
-    "fr": OpenAIEngine,
-    "de": OpenAIEngine,
+    "fr": ClaudeEngine,
+    "de": ClaudeEngine,
     "ua": ClaudeEngine,
     "ru": ClaudeEngine,
-    "it": OpenAIEngine,
+    "it": ClaudeEngine,
 }
 
 

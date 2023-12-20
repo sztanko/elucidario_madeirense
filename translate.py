@@ -37,7 +37,9 @@ def main(
         existing = [json.loads(f.read_text()) for f in output_dir.glob("*.json")]
         existing_ids = set([int(a["id"]) for a in existing])
         print(f"Existing ids: {len(existing_ids)}")
-        article_subset = [a for a in articles if int(a["id"]) not in existing_ids]        
+        if len(existing_ids) < 50:
+            print(existing_ids)
+        article_subset = [a for a in articles if int(a["id"]) not in existing_ids]
     article_subset = list(filter(lambda a: a["title"].startswith(filter_by), article_subset))
     merged_articles = [json.dumps(a, ensure_ascii=False) for a in article_subset]
     # print(merged_articles)
@@ -54,7 +56,8 @@ def main(
         with open(filename, "w") as f:
             print(f"Writing to {filename}")
             json.dump(markup, f, indent=4, ensure_ascii=False)
-        print(f"This if article #{index}")
+        print(f"This is article #{index}")
+    print("FInished all articles")
 
 
 if __name__ == "__main__":

@@ -58,7 +58,7 @@ def main(
         with open(filename, "w") as f:
             print(f"Writing to {filename}")
             json.dump(markup, f, indent=4, ensure_ascii=False)
-        print(f"This if article #{index}")
+        print(f"This is article #{index}")
 
 
 if __name__ == "__main__":
