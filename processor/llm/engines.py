@@ -41,8 +41,8 @@ class AIEngine(ABC):
         # logging.info(message)
         result = self._submit_message(message)
         out = extract_json_simple(result)
-        logging.info("Distilled fixed json output is:")
-        logging.info(out)
+        # logging.info("Distilled fixed json output is:")
+        # logging.info(out)
         return out
 
 
@@ -175,7 +175,7 @@ class ClaudeEngine(AIEngine):
                 if chunk:
                     text = json.loads(chunk.get("bytes").decode())["completion"]
                     out.append(text)
-                    print(text, end="")
+                    # print(text, end="")
         # return json.loads(response.get("body").read())
 
         response = "".join(out)
