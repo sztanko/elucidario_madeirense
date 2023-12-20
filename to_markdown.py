@@ -25,6 +25,7 @@ def main(
     ),
     filter_by="",
     only_missing: bool = False,
+    skip_validation: bool = False,
     message_size_threshold: int = DEFAULT_MESSAGE_SIZE_THRESHOLD,
     output_dir: Path = typer.Option(
         "articles",
@@ -46,7 +47,7 @@ def main(
     merged = "\n".join(article_subset)
     print(f"Total articles: {len(article_subset)}, {len(merged)} chars")
 
-    processor = LayoutProcessor()
+    processor = LayoutProcessor(strict_validation=not skip_validation)
     submitter = Submitter(processor, message_size_threshold, "errors/layout")
 
     markup_list = submitter.submit_articles(article_subset)

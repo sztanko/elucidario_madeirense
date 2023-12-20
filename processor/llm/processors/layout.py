@@ -20,7 +20,7 @@ logging.basicConfig(
 
 
 class LayoutProcessor(Processor):
-    def __init__(self):
+    def __init__(self, strict_validation=True):
         super().__init__()
         self.output_schema = make_output_schema_instructions(Article)
         self.output_schema_list = make_output_schema_instructions(Article, as_list=True)
@@ -34,6 +34,7 @@ class LayoutProcessor(Processor):
         self.partial_article_engine = engine(
             load_instructions("instructions/layout/article_chunk.txt", output_schema=self.output_schema)
         )
+        self.strict_validation = strict_validation
 
     def get_single_article_engine(self) -> AIEngine:
         return self.simple_article_engine
@@ -54,8 +55,10 @@ class LayoutProcessor(Processor):
         res = json.loads(result)
         logging.info("Result is")
         logging.info(res)
-        article = Article(**res)
-        return article.__dict__
+        if self.strict_validation:
+            article = Article(**res)
+            return article.__dict__
+        return res
 
     def parse_chunk_result(self, result: str) -> Dict:
         # In case of articles, it is same as parse_result
@@ -66,8 +69,11 @@ class LayoutProcessor(Processor):
         results = []
         for a in res["a"]:
             try:
-                article = Article(**a)
-                results.append(article.__dict__)
+                if self.strict_validation:
+                    article = Article(**a)
+                    results.append(article.__dict__)
+                else:
+                    results.append(a)
             except Exception as e:
                 # This is not ideal, because we won't be retrying anything, but it's better than nothing
                 logging.error(e)
