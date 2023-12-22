@@ -15,7 +15,7 @@ logging.basicConfig(
     handlers=[logging.StreamHandler()],
 )
 
-MAX_RETRIES = 4
+MAX_RETRIES = 2
 
 
 FIRST_TIMESTAMP = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
