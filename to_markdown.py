@@ -1,4 +1,4 @@
-import os
+from typing import Optional
 import json
 import re
 from pathlib import Path
@@ -35,6 +35,7 @@ def main(
         readable=True,
         resolve_path=True,
     ),
+    engine: Optional[str] = None,
 ):
     articles = extract_articles_from_html(html_file)
     article_subset = list(filter(lambda a: f">{filter_by}" in a, articles))
@@ -47,7 +48,7 @@ def main(
     merged = "\n".join(article_subset)
     print(f"Total articles: {len(article_subset)}, {len(merged)} chars")
 
-    processor = LayoutProcessor(strict_validation=not skip_validation)
+    processor = LayoutProcessor(engine_str=engine, strict_validation=not skip_validation)
     submitter = Submitter(processor, message_size_threshold, "errors/layout")
 
     markup_list = submitter.submit_articles(article_subset)

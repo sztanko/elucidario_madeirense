@@ -22,6 +22,8 @@ logging.basicConfig(
 )
 
 
+
+
 class AIEngine(ABC):
     def __init__(self, instructions: str):
         self.instructions = instructions
@@ -181,6 +183,15 @@ class ClaudeEngine(AIEngine):
         response = "".join(out)
 
         return response
+
+ENGINE_MAP = {
+    "gpt3": GPT3Engine,
+    'gpt4': GPT4Engine,
+    'claude': ClaudeEngine,
+}
+
+def get_engine(engine_str: str) -> AIEngine:
+    return ENGINE_MAP.get(engine_str)
 
 
 if __name__ == "__main__":

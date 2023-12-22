@@ -1,4 +1,4 @@
-from typing import List, Dict
+from typing import List, Dict, Optional
 import logging
 import json
 from collections import defaultdict
@@ -20,11 +20,11 @@ logging.basicConfig(
 
 
 class LayoutProcessor(Processor):
-    def __init__(self, strict_validation=True):
-        super().__init__()
+    def __init__(self, engine_str: Optional[str], strict_validation: Optional[bool]=True):
+        super().__init__(engine_str=engine_str)
         self.output_schema = make_output_schema_instructions(Article)
         self.output_schema_list = make_output_schema_instructions(Article, as_list=True)
-        engine = GPT4Engine
+        engine = self.engine or GPT4Engine
         self.simple_article_engine = engine(
             load_instructions("instructions/layout/single_article.txt", output_schema=self.output_schema)
         )

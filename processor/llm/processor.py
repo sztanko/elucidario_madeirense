@@ -1,11 +1,13 @@
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 from abc import ABC, abstractmethod
 
-from processor.llm.engines import AIEngine
+from processor.llm.engines import AIEngine, get_engine
 
 
 class Processor(ABC):
-    def __init__(self):
+    def __init__(self, engine_str: Optional[str] = None):
+        if engine_str:
+            self.engine = get_engine(engine_str)
         pass
 
     @abstractmethod

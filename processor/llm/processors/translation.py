@@ -40,11 +40,14 @@ ENGINES = {
 
 
 class TranslationProcessor(Processor):
-    def __init__(self, lang: str):
-        super().__init__()
+    def __init__(self, lang: str, engine_str: str = None):
+        super().__init__(engine_str=engine_str)
         self.output_schema = make_output_schema_instructions(Translation)
         self.output_schema_list = make_output_schema_instructions(Translation, as_list=True)
-        engine = ENGINES.get(lang)
+        if self.engine:
+            engine = self.engine
+        else:
+            engine = ENGINES.get(lang)
         self.simple_article_engine = engine(
             load_instructions("instructions/translate/translate_full.txt", output_schema=self.output_schema, lang=lang)
         )

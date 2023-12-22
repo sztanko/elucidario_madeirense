@@ -1,4 +1,4 @@
-import os
+from typing import Optional
 import json
 import re
 from pathlib import Path
@@ -27,6 +27,7 @@ def main(
     only_missing: bool = False,
     filter_by="",
     message_size_threshold: int = DEFAULT_MESSAGE_SIZE_THRESHOLD,
+    engine: Optional[str] = None,
 ):
     # load all json files located in articles_path
     print("Reading articles")
@@ -46,7 +47,7 @@ def main(
     # print(merged_articles)
     print(f"Total articles: {len(article_subset)}, {sum([len(a) for a in merged_articles])} chars")
 
-    processor = TranslationProcessor(lang)
+    processor = TranslationProcessor(lang, engine_str=engine)
     submitter = Submitter(processor, message_size_threshold, f"errors/translation/{lang}")
 
     markup_list = submitter.submit_articles(merged_articles)
