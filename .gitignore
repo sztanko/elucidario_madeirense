@@ -1,4 +1,5 @@
 .venv
+.env
 .pyc
 .pyo
 __pycache__
@@ -6,5 +7,5 @@ sample.txt
 lengths.csv
 articles/*
 articles*/*
-translations*
+translations/*
 submit_log

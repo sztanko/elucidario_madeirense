@@ -10,7 +10,24 @@ REIS_PATTERN = r"([0-9]+\.)?[0-9]+:[0-9]+\$[0-9]+"
 DEFAULT_MESSAGE_SIZE_THRESHOLD = 8000
 
 DEFAULT_MAX_RETRIES = 4
-DEFAULT_INSTRUCTIONS_FILE = "instructions/to_json_ai_revised.txt"
+
+CATEGORY_MAP = {
+    "Geografia": "geography",
+    "História": "history",
+    "Biologia": "biology",
+    "Cultura": "culture",
+    "Arquitetura": "architecture",
+    "Política": "politics",
+    "Economia": "economy",
+    "Sociedade": "society",
+    "Religião": "religion",
+    "Educação": "education",
+    "Saúde": "health",
+    "Arte": "art",
+    "Ciência": "science",
+    "Desporto": "sports",
+    "Transporte": "transport",
+}
 
 
 DEFAULT_SIMPLE_GPT_MODEL = "gpt-3.5-turbo-1106"
@@ -22,7 +39,8 @@ def extract_articles_from_html(html_file):
         soup = BeautifulSoup(f, "html.parser")
         divs = soup.find_all("div", class_="article")
         return [str(div) for div in divs]
-    
+
+
 def extract_articles_from_string(html_string):
     soup = BeautifulSoup(html_string, "html.parser")
     divs = soup.find_all("div", class_="article")
