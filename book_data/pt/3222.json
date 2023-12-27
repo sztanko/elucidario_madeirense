@@ -1,0 +1,59 @@
+{
+    "id": 3222,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Francisco (Capelas de)",
+    "fl": "S",
+    "original_title": "São Francisco (Capelas de)",
+    "body": "Arruinada e desde há muito separada do serviço do culto, existe ainda na freguesia da Calheta a capela de S. Francisco, que era a pequena igreja do convento de religiosos franciscanos, que ali houve. Pertence a Pedro César de Brito (1921).\n\nNa freguesia de S. Pedro e caminho de Santo António, existiu a capela de S. Francisco, mais conhecida pelo nome de S. Francisco das Furnas. Foi fundada pelo cónego Pedro Correia Barbosa no ano de 1697. Pertenceu ao morgado Jérvis de Atouguia. Na casa que lhe ficava anexa, nasceu o visconde de Atouguia (V. este nome) a 7 de Julho de 1797. 0 conego Pedro Correia Barbosa é o mesmo a que nos referimos a página 126 do volume I deste Elucidário.\n\nAmbrosio Vieira de Andrade erigiu na freguesia de Santa Luzia uma capela dedicada a S. Francisco, no ano de 1675.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta",
+        "S. Pedro",
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Calheta": [
+            "Freguesia"
+        ],
+        "S. Pedro": [
+            "Freguesia"
+        ],
+        "Santo António": [
+            "Caminho"
+        ],
+        "S. Francisco das Furnas": [
+            "Nome alternativo"
+        ],
+        "Santa Luzia": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Pedro César de Brito": [
+            "Proprietário da capela"
+        ],
+        "Pedro Correia Barbosa": [
+            "Fundador da capela"
+        ],
+        "Jérvis de Atouguia": [
+            "Morgado"
+        ],
+        "Ambrosio Vieira de Andrade": [
+            "Erigiu a capela"
+        ]
+    },
+    "years": {
+        "1697": [
+            "Fundação da capela de S. Francisco das Furnas"
+        ],
+        "1797": [
+            "Nascimento do visconde de Atouguia"
+        ],
+        "1675": [
+            "Construção da capela dedicada a S. Francisco"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 93,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alarcão (D. João de)",
+    "fl": "A",
+    "original_title": "Alarcão (D. João de)",
+    "body": "D. João de Alarcão Vellasques Sarmento Osorio foi, por decreto de 5 de Abril de 1I885, nomeado governador civil da Madeira e tomou posse do lugar a 8 de Maio do mesmo ano. Foi deputado pela Madeira na sessão legislativa de 1894 a 1895. Exerceu elevados encargos e entre eles o de ministro da justiça. Morreu a 13 de Setembro de 1918. Foi o fundador da Sopa Económica (V. este nome).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. João de Alarcão Vellasques Sarmento Osorio": [
+            "Governador civil da Madeira."
+        ],
+        "Sopa Económica": [
+            "Instituição fundada por D. João de Alarcão."
+        ]
+    },
+    "years": {
+        "1885": [
+            "Nomeação de D. João de Alarcão como governador civil da Madeira."
+        ],
+        "1894": [
+            "D. João de Alarcão foi deputado pela Madeira."
+        ],
+        "1895": [
+            "D. João de Alarcão foi deputado pela Madeira."
+        ],
+        "1918": [
+            "Morte de D. João de Alarcão."
+        ]
+    }
+}

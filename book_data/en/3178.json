@@ -1,0 +1,36 @@
+{
+    "id": 3178,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santana e Vasconcelos (João de)",
+    "fl": "S",
+    "original_title": "Santana e Vasconcelos (João de)",
+    "body": "He was born in Funchal in 1825 and began his public life as a primary school teacher in Porto Santo. In 1856, he was appointed interim clerk of the Municipal Council of Funchal, being definitively appointed to this position by royal charter on January 3, 1859. He collaborated in Madeiran newspapers A Discussão, A Madeira, O Semanário Official, etc., having published in the latter some interesting articles about the colony. He was a knight of the Order of the Tower and Sword, for services rendered in Funchal during the cholera epidemic of 1856, and was for many years the leader of the extinct regenerating party in Madeira. He died in Funchal on December 27, 1892.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Funchal": [
+            "Place of birth and death"
+        ]
+    },
+    "people": {
+        "João de Santana e Vasconcelos": [
+            "Primary school teacher, Interim clerk of the Municipal Council of Funchal, Collaborator in Madeiran newspapers, Leader of the extinct regenerating party in Madeira"
+        ]
+    },
+    "years": {
+        "1825": [
+            "Birth"
+        ],
+        "1856": [
+            "Appointment as interim clerk of the Municipal Council of Funchal"
+        ],
+        "1859": [
+            "Definitive appointment as clerk"
+        ]
+    }
+}

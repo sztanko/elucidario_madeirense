@@ -1,0 +1,49 @@
+{
+    "id": 3688,
+    "lang": "de",
+    "is_original": false,
+    "title": "Wacholder (Juniperus phoenicea)",
+    "fl": "W",
+    "original_title": "Zimbreiro (Juniperus phoenicea)",
+    "body": "Ein Strauch, selten ein kleiner Baum, 1 bis 5 Meter hoch, mit gewöhnlich verdrehtem Stamm; schuppenförmige, dachziegelartige Blätter, fast immer anliegend; subglobulöse, braune Zapfen nach der Reife. Diese Kiefernart wurde am Rocha do Navio in Santana, auf dem Caminho de Larano (Porto da Cruz) usw. gefunden. Auf Porto Santo, wo sie einst sehr häufig war, existierte 1903 nur noch ein einziges Exemplar an den Hängen des Pico Branco. Sie produziert weißes oder gelblich-weißes Holz, das viel weniger aromatisch ist als das der Zeder.\n\nDie Orte Zimbreiros in Paul do Mar und Caniço sowie Zimbral de Areia und Zimbralinha in Porto Santo leiten ihre Namen wahrscheinlich davon ab, dass es dort in früheren Zeiten Wacholder gab.",
+    "categories": [
+        "biology",
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Rocha do Navio": [
+            "Fundort der Kiefernart"
+        ],
+        "Santana": [
+            "Fundort der Kiefernart"
+        ],
+        "Caminho de Larano (Porto da Cruz)": [
+            "Fundort der Kiefernart"
+        ],
+        "Porto Santo": [
+            "Fundort der Kiefernart"
+        ],
+        "Paul do Mar": [
+            "Ort, an dem sich Wacholder befinden"
+        ],
+        "Caniço": [
+            "Ort, an dem sich Wacholder befinden"
+        ],
+        "Zimbral de Areia": [
+            "Ort, an dem sich Wacholder befinden"
+        ],
+        "Zimbralinha": [
+            "Ort, an dem sich Wacholder befinden"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1903": [
+            "Es existierte nur noch ein Exemplar an den Hängen des Pico Branco"
+        ]
+    }
+}

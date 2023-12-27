@@ -1,0 +1,32 @@
+{
+    "id": 277,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Artilharia Auxiliar",
+    "fl": "A",
+    "original_title": "Artilharia Auxiliar",
+    "body": "O corpo de artilharia auxiliar da Madeira, instituído em 1805, tinha pelo regulamento que lhe foi dado por Luiz da Silva Mousinho de Albuquerque em 12 de Novembro de 1834, um estado maior e quinze companhias, sendo aquele constituído por um tenente coronel ou major comandante, um capitão ou subalterno ajudante e um sargento ajudante. Catorze das referidas companhias pertenciam á Madeira e uma ao Porto Santo, tendo quatro daquelas o seu quartel no Funchal.\n\nO principal serviço da artilharia auxiliar consistia na guarnição, guardas e vigilância das batarias, fortes, vigias e pontos acessíveis do litoral do arquipélago.\n\nNos tempos do governo absoluto era uso os mancebos pertencentes ás primeiras famílias do Funchal alistarem-se como cadetes no corpo de artilharia auxiliar, que tinha então como comandante um oficial da tropa de linha, sendo os tenentes e alferes todos milicianos.\n\nO corpo de artilharia auxiliar, ou dos papoilas, foi extinto pela Portaria de 3 de Fevereiro de 1868.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Luiz da Silva Mousinho de Albuquerque": [
+            "Deu o regulamento ao corpo de artilharia auxiliar"
+        ]
+    },
+    "years": {
+        "1805": [
+            "Instituição do corpo de artilharia auxiliar"
+        ],
+        "12 de Novembro de 1834": [
+            "Data do regulamento dado por Luiz da Silva Mousinho de Albuquerque"
+        ],
+        "3 de Fevereiro de 1868": [
+            "Extinção do corpo de artilharia auxiliar"
+        ]
+    }
+}

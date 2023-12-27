@@ -1,0 +1,42 @@
+{
+    "id": 3274,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sardinha (Padre Alfredo de Paula)",
+    "fl": "S",
+    "original_title": "Sardinha (Padre Alfredo de Paula)",
+    "body": "He was born in Funchal on April 2, 1861, and died in the parish of Arco da Calheta on May 23, 1897. He attended the Lyceum and the Seminary of this city, and was ordained a priest in 1885. He served as a parish priest in the parishes of Santana, Faial, Fajã da Ovelha, and Arco da Calheta. He showed a strong vocation for literature, both in prose and verse, but unfortunately, misfortune and illness did not allow him to dedicate himself to literary work, despite his undeniable talent and cultivated mind. He left various writings in newspapers, especially in Verdade, of which he was an editor. He wrote many poems, some of which were very popular and are still recited and sung by some of his contemporaries. He had remarkable oratory skills and in 1894, he published the pamphlet 'Discurso recitado na sala da Associação Católica do Funchal'...",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [
+        "Santana",
+        "Faial",
+        "Fajã da Ovelha",
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Funchal": [
+            "He was born in Funchal on April 2, 1861"
+        ],
+        "Arco da Calheta": [
+            "He died in the parish of Arco da Calheta on May 23, 1897"
+        ]
+    },
+    "people": {
+        "Padre Alfredo de Paula": [
+            "Priest, writer, editor"
+        ]
+    },
+    "years": {
+        "1861": [
+            "Birth of Padre Alfredo de Paula"
+        ],
+        "1885": [
+            "Ordination as a priest"
+        ],
+        "1897": [
+            "Death of Padre Alfredo de Paula"
+        ]
+    }
+}

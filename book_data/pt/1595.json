@@ -1,0 +1,41 @@
+{
+    "id": 1595,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gomes (António Gil)",
+    "fl": "G",
+    "original_title": "Gomes (António Gil)",
+    "body": "Nasceu Antonio Gil Gomes na freguesia do Arco de S. Jorge a 23 de Junho de 1803 e morreu no Funchal a 3 de Julho de 1868, sendo filho do capitão João José Gil Gomes e de D. Maria Justina Gil Gomes. As suas ideias liberais obrigaram-no a sair da Madeira em 1828, subtraindo-se assim ás perseguições e vexames que sofreram alguns dos seus amigos e pessoas de sua familia. No Rio de Janeiro, onde fixou residência, entregou-se ao exercício do professorado e colaborou assiduamente em vários jornais, tendo também escrito alguns opúsculos, que publicou naquela cidade. Estabelecido o governo representativo, regressou sem demora á sua terra natal, onde chegou em Agosto de 1834, e aqui se dedicou ao estudo e cultivo das letras, vivendo inteiramente afastado das lutas partidárias e quasi de todo segregado do convívio social. No Funchal teve uma larga colaboração em muitos jornais que se publicavam nesta cidade e em que de preferência versava assuntos económicos, publicando também aqui um folheto sobre reformas aduaneiras e um livro intitulado Compilaçâo de Elementos de Filosofia Racional. Gozou no seu tempo da fama de homem de não vulgar inteligência e de uma vasta ilustração.",
+    "categories": [
+        "history",
+        "society",
+        "education"
+    ],
+    "freguesias": [
+        "Arco de S. Jorge"
+    ],
+    "locations": {
+        "Arco de S. Jorge": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local de falecimento e colaboração em jornais"
+        ]
+    },
+    "people": {
+        "António Gil Gomes": [
+            "Homem de letras e professor"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Saída da Madeira"
+        ],
+        "1834": [
+            "Regresso à Madeira"
+        ],
+        "1868": [
+            "Falecimento"
+        ]
+    }
+}

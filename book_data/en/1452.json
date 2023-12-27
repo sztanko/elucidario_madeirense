@@ -1,0 +1,47 @@
+{
+    "id": 1452,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte do Porto da Cruz",
+    "fl": "F",
+    "original_title": "Forte do Porto da Cruz",
+    "body": "It dates back to 1708 and was built on the bay. In 1804, it was dismantled, and the existing garrison was sent to work on clearing the Ribeira de Machico.\n\nIn 1713, João de Vasconcelos Uzel was appointed captain of this fort.\n\nForte de Santo António no Paul do Mar. It was built in 1754. A provision of the War Council, in 1761, orders an increase of one more pipe of wine to the annual salary of 12$ of its creation.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz",
+        "Paul do Mar"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Bay"
+        ],
+        "Machico": [
+            "Ribeira de Machico, Paul do Mar"
+        ]
+    },
+    "people": {
+        "João de Vasconcelos Uzel": [
+            "Captain"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Construction of the fort"
+        ],
+        "1804": [
+            "Dismantling"
+        ],
+        "1713": [
+            "Captain João de Vasconcelos Uzel"
+        ],
+        "1754": [
+            "Construction of Forte de Santo António"
+        ],
+        "1761": [
+            "Provision of the War Council"
+        ]
+    }
+}

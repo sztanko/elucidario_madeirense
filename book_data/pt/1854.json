@@ -1,0 +1,46 @@
+{
+    "id": 1854,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Joinville (Príncipe de)",
+    "fl": "J",
+    "original_title": "Joinville (Príncipe de)",
+    "body": "Nasceu em 1818 e morreu em 1900. Era filho de Luiz Filipe de Orléans, rei de França, e tinha casado com a infanta portuguesa D. Francisca, irmã de D. Pedro 2º. do Brasil e da rainha de Portugal D. Maria II. Foi um distinto oficial da marinha francesa e nessa qualidade visitou varias vezes a Madeira, comandando alguns navios de guerra. Em 1840 estiveram no nosso porto as fragatas da marinha de guerra francesa La Belle Poule e La Favorite, que conduziam a missão encarregada de proceder em Santa Helena á exumação do cadáver de Napoleão 1.° e de o conduzir a terras de França, sendo o príncipe de Joinville o chefe dessa importante e honrosa missão. A este facto nos referiremos mais largamente no artigo Napoleão na Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Helena": [
+            "Local da exumação do cadáver de Napoleão 1.°"
+        ]
+    },
+    "people": {
+        "Luiz Filipe de Orléans": [
+            "Rei de França"
+        ],
+        "D. Francisca": [
+            "Infanta portuguesa"
+        ],
+        "D. Pedro 2º. do Brasil": [
+            "Irmão de D. Francisca"
+        ],
+        "D. Maria II": [
+            "Rainha de Portugal"
+        ],
+        "Napoleão 1.°": [
+            "Cadáver exumado em Santa Helena"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Nascimento do Príncipe de Joinville"
+        ],
+        "1900": [
+            "Falecimento do Príncipe de Joinville"
+        ],
+        "1840": [
+            "Visita das fragatas La Belle Poule e La Favorite ao porto da Madeira"
+        ]
+    }
+}

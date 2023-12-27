@@ -1,0 +1,30 @@
+{
+    "id": 1955,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Leiria (Júlio Augusto)",
+    "fl": "L",
+    "original_title": "Leiria (Júlio Augusto)",
+    "body": "Engenheiro militar natural do Continente e que desempenhou os cargos de director das obras públicas do distrito do Funchal e de professor dos três primeiros anos de matemática no nosso liceu. Publicou em 1871 um mapa da ilha da Madeira, a que já nos referimos neste Elucidário, e escreveu em 1874 um opúsculo com o seguinte título: Duas palavras de Júlio Augusto Leiria em resposta ao folheto intitulado «O Hospital de Santa Isabel da cidade do Funchal». funcionário se deve o começo da sua construção. Faleceu em Coimbra, no mês de Janeiro de 1878, contando cerca de 50 anos de idade.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Júlio Augusto Leiria": [
+            "Engenheiro militar"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Publicação do mapa da ilha da Madeira"
+        ],
+        "1874": [
+            "Publicação do opúsculo Duas palavras de Júlio Augusto Leiria em resposta ao folheto intitulado «O Hospital de Santa Isabel da cidade do Funchal»"
+        ],
+        "1878": [
+            "Falecimento em Coimbra"
+        ]
+    }
+}

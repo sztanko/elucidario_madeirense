@@ -1,0 +1,38 @@
+{
+    "id": 2997,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Raddi (Giuseppe)",
+    "fl": "R",
+    "original_title": "Raddi (Giuseppe)",
+    "body": "Botânico italiano nascido em Florença a 9 de Julho de 1770 e falecido em Rodes a 6 de Setembro de 1829. Visitou a Madeira por ocasião da sua viagem ao Brasil, tendo escrito um pequeno trabalhointitulado Brevi Osservazioni sull' Isola di Madeira (Florença, 1821).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Florença": [
+            "Cidade de nascimento"
+        ],
+        "Rodes": [
+            "Local de falecimento"
+        ],
+        "Brasil": [
+            "Visitado durante sua viagem à Madeira"
+        ],
+        "Madeira": [
+            "Visitada por Raddi"
+        ]
+    },
+    "people": {
+        "Giuseppe Raddi": [
+            "Botânico italiano"
+        ]
+    },
+    "years": {
+        "1821": [
+            "Publicação de Brevi Osservazioni sull' Isola di Madeira"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 955,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Comissariado de Policia Civil do Funchal",
+    "fl": "C",
+    "original_title": "Comissariado de Policia Civil do Funchal",
+    "body": "Instalou-se no dia 1 de Setembro de 1878. O primeiro comissario de policia foi Pedro de Alcantara Góis, nomeado em 1877, mas que exercia desde 3 de Agôsto de 1864 o cargo de director da policia do Funchal.\n\nV. Policia.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro de Alcantara Góis": [
+            "Primeiro comissario de policia"
+        ]
+    },
+    "years": {
+        "1 de Setembro de 1878": [
+            "Instalação do Comissariado de Policia Civil do Funchal"
+        ],
+        "1877": [
+            "Nomeação de Pedro de Alcantara Góis como comissario de policia"
+        ],
+        "3 de Agôsto de 1864": [
+            "Início do exercício do cargo de diretor da policia do Funchal por Pedro de Alcantara Góis"
+        ]
+    }
+}

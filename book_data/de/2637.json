@@ -1,0 +1,27 @@
+{
+    "id": 2637,
+    "lang": "de",
+    "is_original": false,
+    "title": "Das Land",
+    "fl": "D",
+    "original_title": "Paiz (O)",
+    "body": "Es wurden einundvierzig Ausgaben dieser Zeitung vom 5. Januar 1865 bis zum 30. Juli 1866 veröffentlicht, wobei Augusto César de Freitas der Hauptredakteur war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Augusto César de Freitas": [
+            "Hauptredakteur"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Beginn der Veröffentlichung der Zeitung"
+        ],
+        "1866": [
+            "Ende der Veröffentlichung der Zeitung"
+        ]
+    }
+}

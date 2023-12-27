@@ -1,0 +1,37 @@
+{
+    "id": 1759,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Igrejinha (Rua da)",
+    "fl": "I",
+    "original_title": "Igrejinha (Rua da)",
+    "body": "Tinha por limites o largo do Colégio e a rua das Pretas. Na extremidade dela, no sítio onde está hoje o largo da Igrejinha, ficava a capela de Nossa Senhora da Piedade, ou, como vulgarmente se dizia, a Igrejinha fundada em 1613 por Domingos Rodrigues Garcez e demolida pela Câmara em 1836.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Largo do Colégio": [
+            "Limite da rua da Igrejinha"
+        ],
+        "Rua das Pretas": [
+            "Limite da rua da Igrejinha"
+        ],
+        "Largo da Igrejinha": [
+            "Local onde ficava a capela de Nossa Senhora da Piedade"
+        ]
+    },
+    "people": {
+        "Domingos Rodrigues Garcez": [
+            "Fundador da capela de Nossa Senhora da Piedade"
+        ]
+    },
+    "years": {
+        "1613": [
+            "Fundação da capela de Nossa Senhora da Piedade"
+        ],
+        "1836": [
+            "Demolição da capela pela Câmara"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 3288,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Saúde (Rua da)",
+    "fl": "S",
+    "original_title": "Saúde (Rua da)",
+    "body": "Assim se denominava antes de 1838 a antiga Entrada da Cidade. É de 12 de Janeiro de 1838 a portaria do Ministério da Fazenda autorizando a Câmara a fazer obras no portão e rua da Saúde, servindo-se duma parte do terreno pertencente ao Palácio de São Lourenço e demolindo o muro que fechava o mesmo terreno pelo lado leste, assim como o dito portão. Só em 8 de Fevereiro de 1839 mandou a câmara abrir praça para a construção da Entrada da Cidade, sendo as obras arrematadas no dia 22 do mesmo mês e ano e tendo começado pouco tempo depois. São conhecidas hoje pelos nomes de rua da Saúde e calçada da Saúde as vias publicas compreendidas entre a rua dos Álamos e a antiga rua do Príncipe, em virtude de existir aí uma capela dedicada a Nossa Senhora da Saúde.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Palácio de São Lourenço": [
+            "Local das obras autorizadas em 1838"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1838": [
+            "Autorização para obras no portão e rua da Saúde"
+        ],
+        "1839": [
+            "Abertura de praça para a construção da Entrada da Cidade"
+        ]
+    }
+}

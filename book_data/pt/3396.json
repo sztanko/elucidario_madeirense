@@ -1,0 +1,42 @@
+{
+    "id": 3396,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sousa (Dr. Jacinto António de)",
+    "fl": "S",
+    "original_title": "Sousa (Dr. Jacinto António de)",
+    "body": "Este distinto lente da Universidade de Coimbra nasceu nesta ilha a 3 de Janeiro de 1818, sendo filho de Eugenio Antonio de Sousa. Era bacharel formado em direito e matemática, e doutorou-se na Faculdade de Filosofia a 6 de Julho de 1858.\n\nFoi lente da cadeira de física na Universidade e um dos mais abalizados professores do seu tempo. Como director do gabinete de física e do observatório meteorológico, prestou a estes estabelecimentos científicos os mais assinalados serviços, dando uma nova orientação aos trabalhos neles realizados, depois duma viagem que fez a diversos países da Europa.\n\nComissionado pelo governo português, visitou várias universidades e observatórios estrangeiros, tendo publicado notáveis relatórios acerca das observações e estudos que realizou nas suas missões científicas. Foi escolhido como um dos representantes de Portugal, para observar o eclipse solar em Espanha no ano de 1860, dizendo o Dr. Simões de Carvalho «que desempenhou essa missão com muita honra para o seu nome, para a universidade e para o país».\n\nAlém de outros trabalhos, escreveu: relatório de uma visita aos estabelecimentos scientificos de Madrid, Paris, Bruxellas, Londres, Greenwich e Kew, 1862; Observações meteorológicas feitas no observatório meteorologico e magnético da Universidade de Coimbra, 1872; Observações Meteorologicas..., 1873, e Additamento á Memoria Histórica da faculdade de philosophia...1873. Foi director e redactor da revista cientifica e literária 0 Instituto, e sócio de muitas agremiações cientificas nacionais e estrangeiras. Morreu a 15 de Agosto de 1880.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Eugenio Antonio de Sousa": [
+            "Pai de Jacinto António de Sousa"
+        ],
+        "Dr. Simões de Carvalho": [
+            "Mencionado como elogiando Jacinto António de Sousa"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Nascimento de Jacinto António de Sousa"
+        ],
+        "1858": [
+            "Doutoramento na Faculdade de Filosofia"
+        ],
+        "1860": [
+            "Observação do eclipse solar em Espanha"
+        ],
+        "1862": [
+            "Publicação do relatório de visita aos estabelecimentos científicos de Madrid, Paris, Bruxelas, Londres, Greenwich e Kew"
+        ],
+        "1872": [
+            "Publicação de Observações meteorológicas feitas no observatório meteorológico e magnético da Universidade de Coimbra"
+        ],
+        "1873": [
+            "Publicação de Observações Meteorológicas... e Additamento á Memoria Histórica da faculdade de philosophia"
+        ]
+    }
+}

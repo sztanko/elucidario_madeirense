@@ -1,0 +1,39 @@
+{
+    "id": 131,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alexandre (Príncipe)",
+    "fl": "A",
+    "original_title": "Alexandre (Príncipe)",
+    "body": "O príncipe Alexandre dos Países Baixos chegou á Madeira na fragata holandesa Príncipe de Orange, a 20 de Novembro de 1847, e aqui faleceu na quinta de Tomaz Burnett, em Santa Luzia, a 20 de Fevereiro de 1848, tendo o seu cadáver sido levado para bordo do vapor holandês Phoenix a 3 de Abril do mesmo ano, que o conduziu á Holanda.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Madeira": [
+            "Local onde o príncipe Alexandre dos Países Baixos faleceu"
+        ],
+        "Santa Luzia": [
+            "Local da quinta onde o príncipe Alexandre faleceu"
+        ]
+    },
+    "people": {
+        "Alexandre dos Países Baixos": [
+            "Príncipe que chegou à Madeira em 1847 e faleceu em 1848"
+        ],
+        "Tomaz Burnett": [
+            "Proprietário da quinta onde o príncipe Alexandre faleceu"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Chegada do príncipe Alexandre dos Países Baixos à Madeira"
+        ],
+        "1848": [
+            "Falecimento do príncipe Alexandre dos Países Baixos na Madeira e transporte do seu cadáver para a Holanda"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": 2900,
+    "lang": "en",
+    "is_original": false,
+    "title": "Porto Santo",
+    "fl": "P",
+    "original_title": "Porto Santo",
+    "body": "This station, located on the island of the same name next to the radio-telegraphic station, was set up in July 1941 by the then post officer of Funchal, Manuel Melquíades Alarques, making two observations at 9 and 15 hours. It is equipped with the same devices and provides the same elements as the previous ones. The schedule of observations is the same as the others, at 6, 12, and 17 hours.\n\nThere are also the Termo-udometric posts of Madalena do Mar, Queimadas, Ribeira Brava, and Santo da Serra, all set up from November 1936 to December 1938.\n\nIn addition to these, we have the udometric posts of Caramujo, Machico, Montado do Pereiro, Ponta do Pargo, Porto do Moniz, Rabaçal, Ribeiro Frio, Santa Cruz, Santo António, Canhas, Bica da Cana, Paul da Serra, and S. Vicente. Of these posts, the oldest is that of Santa Cruz, set up in November 1936, and the most modern is that of S. Vicente, set up in May 1945.\n\nAll the elements of the meteorological services of Madeira are published monthly in the monthly summary of the Central Meteorological Observatory of Infante D. Luís de Lisboa, in the meteorological information of the Madeira Fruit Journal, and in the Monthly Bulletin of Funchal. Annually, all these elements are published in the Annals of the Central Observatory. The Funchal Observatory publishes daily a bulletin containing information from the stations of Funchal, Arieiro, Sanatorio, Santana, Lugar de Baixo, and Porto Santo, and from the Santo da Serra post.\n\nAll these stations and posts are part of the National Climate Service under the Central Meteorological Observatory of Lisbon, attached to the Faculty of Sciences, of which Dr. Herculano Amorim Ferreira has been the Director since 1937, a professor at the same Faculty.\n\nThe current state of the Meteorological Services of Madeira is due to the great impetus given to the National Climate Service by the current Director of the Central Observatory, who traveled to Madeira in June 1938 exclusively to study the needs of this Service. For the same purpose, Dr. Amaro Monteiro, Chief of the Climate Services of the Central Observatory, also visited Funchal in July 1941. Many of these stations are equipped with material purchased by the General Board of the District, under the illustrious presidency of Dr. João Abel de Freitas, and are under the direction of the personnel of the Agricultural Services, a department that is superiorly directed by the Agricultural Engineer Maurilio Ferraz e Silva. Also, the Delegation of the National Fruit Board, then directed by Agricultural Engineer Antonio Teixeira de Sousa, set up some of the first termo-udometric posts, which were later handed over to the Directorate of Agriculture.\n\nIt is also worth noting the selfless and invaluable contribution of Dr. João d'Almada, already deceased, and Vice-Admiral Hugo C. de Lacerda Castelo Branco.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island of the same name"
+        ]
+    },
+    "people": {
+        "Manuel Melquíades Alarques": [
+            "Post officer of Funchal"
+        ],
+        "Herculano Amorim Ferreira": [
+            "Director of the Central Observatory"
+        ],
+        "Amaro Monteiro": [
+            "Chief of the Climate Services of the Central Observatory"
+        ],
+        "João Abel de Freitas": [
+            "Presidency of the General Board of the District"
+        ],
+        "Maurilio Ferraz e Silva": [
+            "Superiorly directed of the Agricultural Services"
+        ],
+        "Antonio Teixeira de Sousa": [
+            "Delegation of the National Fruit Board"
+        ]
+    },
+    "years": {
+        "1941": [
+            "Setting up of the station on the island of the same name"
+        ],
+        "1936": [
+            "Setting up of the Termo-udometric posts of Madalena do Mar, Queimadas, Ribeira Brava, and Santo da Serra"
+        ],
+        "1937": [
+            "Herculano Amorim Ferreira becomes Director of the Central Observatory"
+        ],
+        "1938": [
+            "Great impetus given to the National Climate Service by the current Director of the Central Observatory"
+        ],
+        "1945": [
+            "Setting up of the S. Vicente post"
+        ]
+    }
+}

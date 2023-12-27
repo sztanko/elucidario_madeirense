@@ -1,0 +1,53 @@
+{
+    "id": 3225,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kapellen des Heiligen Franz Xaver",
+    "fl": "K",
+    "original_title": "São Francisco Xavier (Capelas de)",
+    "body": "An der Stelle Salão in der Gemeinde Calheta, genannt O Cadeado, befindet sich eine kleine Kapelle mit dieser Bezeichnung, die noch dem Gottesdienst gewidmet ist. Sie wurde 1693 von Manuel da Silva Pinheiro gegründet, wobei die entsprechende Stiftungsurkunde vom 7. August desselben Jahres datiert. Sie gehört den Erben von D. Vicencia Julia de França Doria (1921).\n\nMit demselben Schutzpatron errichtete João Vieira de Afonseca 1684 eine Kapelle in der Gemeinde Santa Cruz.\n\nUnter derselben Anrufung gab es eine Einsiedelei in der Gemeinde Porto da Cruz an der Stelle Cruz da Guarda, deren Gründer unbekannt ist. Zu ihren letzten Besitzern gehörten João Francisco Moniz de Meneses Cabral und seine Frau D. Maria Isidora Alvares de Carvalho, die sie ihrem Neffen, dem Priester Francisco Xavier de Sousa e Castro, vermachten.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta",
+        "Santa Cruz",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Calheta": [
+            "Gemeinde Calheta"
+        ],
+        "Santa Cruz": [
+            "Gemeinde Santa Cruz"
+        ],
+        "Porto da Cruz": [
+            "Gemeinde Porto da Cruz"
+        ]
+    },
+    "people": {
+        "Manuel da Silva Pinheiro": [
+            "Gründer der Kapelle"
+        ],
+        "João Vieira de Afonseca": [
+            "Erbauer der Kapelle in der Gemeinde Santa Cruz"
+        ],
+        "João Francisco Moniz de Meneses Cabral": [
+            "Letzter Besitzer der Einsiedelei in der Gemeinde Porto da Cruz"
+        ],
+        "D. Maria Isidora Alvares de Carvalho": [
+            "Letzte Besitzerin der Einsiedelei in der Gemeinde Porto da Cruz"
+        ],
+        "Francisco Xavier de Sousa e Castro": [
+            "Neffe des Priesters, dem die Einsiedelei vermacht wurde"
+        ]
+    },
+    "years": {
+        "1693": [
+            "Gründung der Kapelle durch Manuel da Silva Pinheiro"
+        ],
+        "1684": [
+            "Errichtung der Kapelle durch João Vieira de Afonseca in der Gemeinde Santa Cruz"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 411,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barbeito da Silva (João)",
+    "fl": "B",
+    "original_title": "Barbeito da Silva (João)",
+    "body": "Este oficial do exército nasceu no Funchal a 3 de Agosto de 1855. Em 1889 publicou em Lisboa dois opúsculos intitulados Escola Pratica de Infantaria e Cavalaria; secção de infantaria, acantonamento e Escola Pratica de Infantaria e Cavalaria; secção de infantaria, bivaques. Faleceu em Lisboa no ano de 1932.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ],
+        "Lisboa": [
+            "Cidade"
+        ]
+    },
+    "people": {
+        "João Barbeito da Silva": [
+            "Oficial do exército"
+        ]
+    },
+    "years": {
+        "1855": [
+            "Nasceu no Funchal"
+        ],
+        "1889": [
+            "Publicou em Lisboa"
+        ],
+        "1932": [
+            "Faleceu em Lisboa"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 79,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aguiar (D. Nuno)",
+    "fl": "A",
+    "original_title": "Aguiar (D. Nuno)",
+    "body": "O Dr. Alvaro Rodrigues de Azevedo nomeia-o por D. Martinho de Aguiar, mas em várias crónicas e nobiliários e na interessante memória de Paiva Manso acerca das Esquadras de Marrocos, é geralmente citado o seu nome como sendo D. Nuno de Aguiar. Afirma-se que nasceu na freguesia de S. Martinho e era filho de Diogo de Aguiar e neto de João Gonçalves Zargo, primeiro capitão-donatário do Funchal. Foi monge cisterciense e exerceu importantes cargos eclesiásticos. Acompanhou o rei D. Afonso V á Africa na conquista de Arzila e Tanger, e sendo então criada esta ultima diocese obteve a sua nomeação para prelado dela. Pretendeu anexar o arquipélago da Madeira ao seu bispado, mas a isso se opos energicamente a infanta D. Beatriz, como tutora de seu filho D. Diogo, grão-mestre da Ordem de Cristo, apoiada pelo monarca e pelos donatários desta ilha. D. Nuno de Aguiar pouco tempo permaneceu na sua diocese e depois de vinte anos de episcopado faleceu no continente português no ano de 1491.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "S. Martinho"
+    ],
+    "locations": {
+        "S. Martinho": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Diogo de Aguiar": [
+            "Pai"
+        ],
+        "João Gonçalves Zargo": [
+            "Avô"
+        ]
+    },
+    "years": {
+        "1491": [
+            "Falecimento"
+        ]
+    }
+}

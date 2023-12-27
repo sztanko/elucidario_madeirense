@@ -1,0 +1,52 @@
+{
+    "id": 3461,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unterseeisches Telegrafenkabel",
+    "fl": "U",
+    "original_title": "Telégrafo Submarino",
+    "body": "Madeira ist mit Portugal (Carcavelos) durch zwei Kabel der „Western Telegraph Company“ und mit S. Vicente in Kap Verde durch zwei Kabel dieser gleichen Gesellschaft sowie ein Kabel der „Eastern Telegraph Company“ verbunden, wobei letzteres Kabel direkt von Großbritannien kommt und sich bis nach Südafrika erstreckt, wobei es S. Vicente in Kap Verde, Ascension und St. Helena berührt.\n\nDie „Western Telegraph Company“ kam als Ersatz für die „Brazilian Telegraph Company“, die 1874 den Telegrafendienst zwischen Madeira und dem Festland eingerichtet hatte, wie auf Seite 172, Band I dieses Elucidário erwähnt wurde. 1883 oder 1884 verlegte sie ein zweites Kabel entlang der Route des ersten. Das Untersee-Kabel der „Eastern Telegraph Company“ wurde aufgrund eines Vertrags eingerichtet, der am 21. September 190. (1921) unterzeichnet wurde.",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Verbindung durch Unterseekabel mit Portugal und S. Vicente in Kap Verde"
+        ],
+        "Carcavelos": [
+            "Verbindung durch Unterseekabel mit Madeira"
+        ],
+        "S. Vicente de Cabo Verde": [
+            "Verbindung durch Unterseekabel mit Madeira"
+        ],
+        "Großbritannien": [
+            "Ursprung eines der Unterseekabel, die Madeira verbinden"
+        ],
+        "Südafrika": [
+            "Endpunkt des Unterseekabels, das über Madeira verläuft"
+        ],
+        "Ascension": [
+            "Durchgangspunkt des Unterseekabels, das Madeira verbindet"
+        ],
+        "St. Helena": [
+            "Durchgangspunkt des Unterseekabels, das Madeira verbindet"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1874": [
+            "Einrichtung des Telegrafendienstes zwischen Madeira und dem Festland durch die „Brazilian Telegraph Company“"
+        ],
+        "1883": [
+            "Verlegung eines zweiten Unterseekabels durch die „Brazilian Telegraph Company“"
+        ],
+        "1884": [
+            "Verlegung eines zweiten Unterseekabels durch die „Brazilian Telegraph Company“"
+        ],
+        "190": [
+            "Einrichtung des Unterseekabels der „Eastern Telegraph Company“"
+        ]
+    }
+}

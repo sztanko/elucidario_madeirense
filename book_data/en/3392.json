@@ -1,0 +1,37 @@
+{
+    "id": 3392,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa (Francisco de)",
+    "fl": "S",
+    "original_title": "Sousa (Francisco de)",
+    "body": "> In the year 1877, a pamphlet was published in the city of Ponta Delgada with the following title: Treaty of the New Islands and their discovery and other things made by Francisco de Sousa, factor of His Majesty the King in the Captaincy of the city of Funchal on the island of Madeira... and of the Portuguese who went from Vianna and the islands of the Azores to populate the new land of codfish... Year of the Lord 1570. This booklet was reissued in Ponta Delgada in the year 1884.\n>\n> The author of this pamphlet was a native of this island.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta Delgada": [
+            "City"
+        ],
+        "Funchal": [
+            "City"
+        ],
+        "Vianna": [
+            "Locality"
+        ],
+        "Azores": [
+            "Archipelago"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1877": [
+            "Publication of the pamphlet by Francisco de Sousa"
+        ],
+        "1570": [
+            "Year of the Treaty of the New Islands"
+        ]
+    }
+}

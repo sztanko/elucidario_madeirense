@@ -1,0 +1,53 @@
+{
+    "id": 2901,
+    "lang": "de",
+    "is_original": false,
+    "title": "Verordnungen",
+    "fl": "V",
+    "original_title": "Posturas",
+    "body": "Wie bekannt ist, haben die Gemeinderäte das Recht, innerhalb des Gebiets ihrer Gemeinden bestimmte Rechtsvorschriften lokaler Natur in Übereinstimmung mit den allgemeinen Gesetzen des Landes zu erlassen, Vorschriften, die streng befolgt werden müssen und deren Verletzung die Verhängung verschiedener Strafen nach sich zieht. Auf diesem Archipel und vor 1834 kam es nicht selten vor, dass diese privaten Gesetzeskodizes oder kommunalen Verordnungen mit einigen Dekreten kollidierten, die von der Zentralregierung erlassen wurden, was die höheren Behörden dazu veranlasste, energisch einzugreifen und die Gemeinderäte zur vollständigen Einhaltung dieser Dekrete zu zwingen.\n\nAlle Räte dieses Archipels haben zu verschiedenen Zeiten viele \"Verordnungen\" erlassen und durchgesetzt, von denen einige in der Presse veröffentlicht wurden.\n\nIn einem Versuch der \"Kodifizierung\" ist uns bekannt, dass die Stadtverwaltungen von Santana, Calheta, Machico, Porto do Moniz, São Vicente und Ponta do Sol in den Jahren 1841, 1842, 1856, 1890, 1897 und 1900 ihre damals geltenden Verordnungen in Broschüren drucken ließen, was eine kluge Maßnahme für eine gute kommunale Verwaltung darstellt.\n\nIm Jahr 1912 veröffentlichte der Stadtrat von Funchal in einem 245-seitigen Band den Verordnungskodex der Gemeinde Funchal, bei dem es sich um eine Sammlung der damals geltenden Verordnungen handelt, von denen der Großteil immer noch gilt, wobei die älteste aus dem Jahr 1881 stammt. Es ist eine ausgezeichnete Kodifizierungsarbeit, die insbesondere vom Sekretär des Stadtrats, Luís Betencourt Miranda, koordiniert wurde.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Santana",
+        "Calheta",
+        "Machico",
+        "Porto do Moniz",
+        "São Vicente",
+        "Ponta do Sol",
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Luís Betencourt Miranda": [
+            "Sekretär des Stadtrats von Funchal"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Jahr, in dem die Gemeinderäte begannen, Rechtsvorschriften lokaler Natur zu erlassen"
+        ],
+        "1841": [
+            "Druck der geltenden Verordnungen durch den Gemeinderat von Santana"
+        ],
+        "1842": [
+            "Druck der geltenden Verordnungen durch den Gemeinderat von Calheta"
+        ],
+        "1856": [
+            "Druck der geltenden Verordnungen durch den Gemeinderat von Machico"
+        ],
+        "1890": [
+            "Druck der geltenden Verordnungen durch den Gemeinderat von Porto do Moniz"
+        ],
+        "1897": [
+            "Druck der geltenden Verordnungen durch den Gemeinderat von São Vicente"
+        ],
+        "1900": [
+            "Druck der geltenden Verordnungen durch den Gemeinderat von Ponta do Sol"
+        ],
+        "1912": [
+            "Veröffentlichung des Verordnungskodex der Gemeinde Funchal"
+        ]
+    }
+}

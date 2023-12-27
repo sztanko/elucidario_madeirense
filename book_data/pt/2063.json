@@ -1,0 +1,41 @@
+{
+    "id": 2063,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lugar de Baixo",
+    "fl": "L",
+    "original_title": "Lugar de Baixo",
+    "body": "Sítio da freguesia da Ponta do Sol, que fica entre a vila e a freguesia da Tábua. É uma das muitas fajâs que se formaram no litoral pela queda de terrenos que lhe ficavam sobranceiros. «O Logar de Baixo é desde 1804, diz o anotador das Saudades, muito maior que dantes, porque nesse anno, grande parte dos terrenos da Lombada, que lhe fica a cavalleiro, fendidos pelas tempestades dos anos anteriores, cahiram para o lado do mar, e ali formaram uma campina extensa e productiva. O choque da queda foi tal que o mar subiu do seu nível em toda a costa adjacente e sentiu-se o abalo tanto em terra como no mar, á distancia de mais de dez quilómetros: o mar entrou muito a dentro na vila da Ponta do Sol». O Lugar de Baixo fazia parte da grande propriedade da Lombada dos Esmeraldos (V. este nome), mas quando, por morte de João Esmeraldo, se procedeu a novas partilhas entre os seus dois filhos e a viúva Águeda de Abreu, reservou esta para si o prédio do Lugar de Baixo como parte integrante do seu dote. É possível que por sua morte revertesse ao morgadio do Santo Espírito, sendo certo que nele se incorporou em época que ignoramos. Foi vendido em hasta publica pelo mesmo tempo em que o foi a Lombada, tendo sido arrematada pelos comerciantes ingleses A. Criorgi & C.ª. Existe ali a capela de Santo António, com uma bela casa anexa, de que nos ocuparemos noutro lugar desta obra.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Tábua"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Freguesia"
+        ],
+        "Tábua": [
+            "Freguesia"
+        ],
+        "Lombada dos Esmeraldos": [
+            "Grande propriedade"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Proprietário da grande propriedade Lombada dos Esmeraldos"
+        ],
+        "Águeda de Abreu": [
+            "Viúva de João Esmeraldo"
+        ]
+    },
+    "years": {
+        "1804": [
+            "Aumento do Logar de Baixo devido à queda de terrenos da Lombada"
+        ]
+    }
+}

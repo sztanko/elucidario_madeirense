@@ -1,0 +1,43 @@
+{
+    "id": 3243,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Luís (Capelas de)",
+    "fl": "S",
+    "original_title": "São Luís (Capelas de)",
+    "body": "With this invocation, there was a chapel in the place called Diferença, in the parish of Faial, which had been founded by Manuel de Carvalho Valdavesso, Judge of the orphans in Funchal, and his wife D. Luisa Maria de Vasconcelos França e Noronha, daughter of Valentim de Ornelas e Vasconcelos, 7th lord of Penha de Águia. The endowment deed on a property in the parish of São Martinho is dated October 1, 1725, so its construction is approximately from this time.\n\nNext to the old Episcopal Palace, Bishop D. Luis Figueiredo de Lemos (volume II, page 30) built the chapel of São Luís and was buried there in 1608. It is said that his grave was violated. When the chapel was adapted for the installation of a school in 1882, the ashes of this prelate were deposited in the interior chapel of the Palace and years later transferred to the Cathedral, with a plaque placed over them, which was originally in the center of the chapel where the mortal remains of the same prelate had been buried. The chapel, which has a beautiful portico artistically carved in hard stonework, has been desecrated for many years.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Faial",
+        "São Martinho"
+    ],
+    "locations": {
+        "Faial": [
+            "Parish of Faial"
+        ],
+        "Funchal": [
+            "Funchal"
+        ],
+        "São Martinho": [
+            "Parish of São Martinho"
+        ]
+    },
+    "people": {
+        "Manuel de Carvalho Valdavesso": [
+            "Judge of the orphans in Funchal"
+        ],
+        "D. Luisa Maria de Vasconcelos França e Noronha": [
+            "Wife of Manuel de Carvalho Valdavesso"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Endowment deed on a property in the parish of São Martinho"
+        ],
+        "1608": [
+            "Burial of Bishop D. Luis Figueiredo de Lemos"
+        ]
+    }
+}

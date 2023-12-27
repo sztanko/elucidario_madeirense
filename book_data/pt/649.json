@@ -1,0 +1,25 @@
+{
+    "id": 649,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cais do Seixal",
+    "fl": "C",
+    "original_title": "Cais do Seixal",
+    "body": "As obras deste cais, mandadas executar pela Junta Geral, começaram em 1903 e acabaram de 1916.",
+    "categories": [
+        "transport"
+    ],
+    "freguesias": [
+        "Seixal"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1903": [
+            "Início das obras de construção do cais do Seixal."
+        ],
+        "1916": [
+            "Conclusão das obras de construção do cais do Seixal."
+        ]
+    }
+}

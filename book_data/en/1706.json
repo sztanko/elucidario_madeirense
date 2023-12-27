@@ -1,0 +1,45 @@
+{
+    "id": 1706,
+    "lang": "en",
+    "is_original": false,
+    "title": "Hermenegildo Capelo (Rua)",
+    "fl": "H",
+    "original_title": "Hermenegildo Capelo (Rua)",
+    "body": "The lands that currently form the Municipal Garden, Rua Hermengildo Capelo, and the location where the Manuel de Arriaga theater stands, constituted the old enclosure of the convent of S. Francisco. Despite the opposition of the Franciscan religious, the street was opened there in 1814, which was named Rua dos Frades. In 1823, the market built by the city council was opened to the public in the location later designated for the theater, and the adjacent street was then named Rua do Mercado de S. João. In 1885, when the explorers Hermenegildo Capelo and Roberto Ivens visited the island (see these names), the city council decided to name the streets flanking the Municipal Garden after them.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Municipal Garden": [
+            "Lands that currently form the Municipal Garden"
+        ],
+        "Manuel de Arriaga theater": [
+            "Location where the Manuel de Arriaga theater stands"
+        ],
+        "Convent of S. Francisco": [
+            "Old enclosure of the convent of S. Francisco"
+        ]
+    },
+    "people": {
+        "Hermenegildo Capelo": [
+            "Explorer"
+        ],
+        "Roberto Ivens": [
+            "Explorer"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Opening of the street named Rua dos Frades"
+        ],
+        "1823": [
+            "Construction of the market by the city council"
+        ],
+        "1885": [
+            "City council's decision to name the streets flanking the Municipal Garden"
+        ]
+    }
+}

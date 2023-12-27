@@ -1,0 +1,56 @@
+{
+    "id": 2468,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Engel (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora dos Anjos (Capela de)",
+    "body": "«In dieser Gemeinde (Madalena) befindet sich, wie Frutuoso sagt, eine kleine Kapelle Unserer Lieben Frau der Engel, die, abgesehen davon, dass sie klein ist, ein prächtiges Haus ist, mit einem kleinen und frischen Altar und gut geschmückt, neben dem sich ein frischer Brunnen unter einigen Zuckerrohrfeldern befindet, zwischen sehr schönen Zuckerrohrfeldern. Der Dr. Álvaro de Azevedo gibt diese Kapelle als 1508 von Martim Afonso und seiner Frau Isabel Afonso gegründet an, die dort ein Majorat zugunsten ihres Sohnes Diogo Martins de Canha, genannt der Ritter, einrichteten. Der Anmerker der História Insulana sagt jedoch, dass die Kapelle der Engel 1474 im Auftrag der Infantin D. Beatriz als Vormund ihres Sohnes, des Großmeisters des Christusordens, dem dieser Archipel in geistlichen Dingen unterstand, erbaut wurde. Das Bild, das in dieser Kapelle verehrt wird, war bei den Gläubigen sehr verehrt, wobei ihm Frei Agostinho de Santa Maria ein Kapitel im 10. Band seines Santuário Mariano widmete. Der Ort, an dem sich die Kapelle befindet, die den Namen Anjos (Engel) trägt, ist bemerkenswert für die Fruchtbarkeit seines Bodens und gehört heute zur Gemeinde Canhas, gehörte aber einmal zur Gemeinde Ponta do Sol. Diese Kapelle wurde 1892 von ihrer damaligen Eigentümerin D. Júlia de França Neto restauriert und am 10. Dezember desselben Jahres wieder für den Gottesdienst geweiht.»",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Madalena",
+        "Canhas",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Madalena": [
+            "Gemeinde"
+        ],
+        "Canhas": [
+            "Gemeinde"
+        ],
+        "Ponta do Sol": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Martim Afonso": [
+            "Gründer der Kapelle"
+        ],
+        "Isabel Afonso": [
+            "Gründerin der Kapelle"
+        ],
+        "Diogo Martins de Canha": [
+            "Begünstigter des Majorats"
+        ],
+        "D. Beatriz": [
+            "Mögliche Auftraggeberin für den Bau der Kapelle"
+        ],
+        "D. Júlia de França Neto": [
+            "Restauratorin der Kapelle"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Gründung der Kapelle"
+        ],
+        "1474": [
+            "Möglicher Zeitpunkt der Errichtung der Kapelle"
+        ],
+        "1892": [
+            "Restaurierung der Kapelle"
+        ]
+    }
+}

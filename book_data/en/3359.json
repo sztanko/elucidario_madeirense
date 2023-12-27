@@ -1,0 +1,32 @@
+{
+    "id": 3359,
+    "lang": "en",
+    "is_original": false,
+    "title": "Smith (Ricardo Carlos)",
+    "fl": "S",
+    "original_title": "Smith (Ricardo Carlos)",
+    "body": "An English horticulturist who founded an acclimatization garden in Funchal in 1757, where there was a house with reading rooms containing Portuguese and English newspapers, and some French ones, as well as books on farming, chemistry, botany, and agriculture. According to the newspapers of the time, the garden contained cotton from India and New Orleans, peanuts, cassava, collections of pineapples, orange trees, mango trees, and other fruit species, coconut palms, oil palms, and sago palms, various species of pine trees, etc. The Musa textilis, the textile mulberry (Broussonetia?), and sorghum also thrived there. Ricardo Smith published a work titled: Theoretical and practical instructions on the cultivation of Holcus saccharatus... (Funchal, 1858, 62 pages) about the latter plant.",
+    "categories": [
+        "biology",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the acclimatization garden founded by Ricardo Carlos Smith"
+        ]
+    },
+    "people": {
+        "Ricardo Carlos Smith": [
+            "English horticulturist"
+        ]
+    },
+    "years": {
+        "1757": [
+            "Foundation of the acclimatization garden by Ricardo Carlos Smith"
+        ],
+        "1858": [
+            "Publication of Ricardo Carlos Smith's work"
+        ]
+    }
+}

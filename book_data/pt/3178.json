@@ -1,0 +1,36 @@
+{
+    "id": 3178,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santana e Vasconcelos (João de)",
+    "fl": "S",
+    "original_title": "Santana e Vasconcelos (João de)",
+    "body": "Nasceu no Funchal em 1825 e começou a sua vida publica como professor primário no Porto Santo. Em 1856, foi nomeado escrivão interino da Câmara Municipal do Funchal, sendo provido definitivamente neste cargo por carta regia de 3 de Janeiro de 1859. Colaborou nos jornais madeirenses A Discussão, A Madeira, O Semanário Official, etc., tendo publicado neste ultimo uns interessantes artigos sôbre colónia. Era cavaleiro da Ordem da Torre e Espada, por serviços prestados no Funchal durante a epidemia colérica de 1856, e foi por largos anos chefe do extinto partido regenerador na Madeira. Faleceu no Funchal a 27 de Dezembro de 1892.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento e falecimento"
+        ]
+    },
+    "people": {
+        "João de Santana e Vasconcelos": [
+            "Professor primário, Escrivão interino da Câmara Municipal do Funchal, Colaborador em jornais madeirenses, Chefe do extinto partido regenerador na Madeira"
+        ]
+    },
+    "years": {
+        "1825": [
+            "Nascimento"
+        ],
+        "1856": [
+            "Nomeação como escrivão interino da Câmara Municipal do Funchal"
+        ],
+        "1859": [
+            "Nomeação definitiva como escrivão"
+        ]
+    }
+}

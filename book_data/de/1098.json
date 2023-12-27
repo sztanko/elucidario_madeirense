@@ -1,0 +1,38 @@
+{
+    "id": 1098,
+    "lang": "de",
+    "is_original": false,
+    "title": "Cunha (João Severo)",
+    "fl": "C",
+    "original_title": "Cunha (João Severo)",
+    "body": "Er wurde in Funchal am 6. November 1856 geboren. Er ist Oberst des Ingenieurkorps und war Bürgermeister von Lissabon während der politischen Situation von Pimenta de Castro. Neben seiner Mitarbeit in einigen Zeitschriften veröffentlichte er: Espessura das abobadas, 1895, Estudos sobre abobadas, 1897 und Esclarecimentos uteis aos mutuarios e pretendentes de mutuos da Companhia Geral do Credito Predial Portugues, 1912.",
+    "categories": [
+        "history",
+        "politics",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira."
+        ],
+        "Lissabon": [
+            "Hauptstadt Portugals."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1856": [
+            "Geburt."
+        ],
+        "1895": [
+            "Veröffentlichung von Espessura das abobadas."
+        ],
+        "1897": [
+            "Veröffentlichung von Estudos sobre abobadas."
+        ],
+        "1912": [
+            "Veröffentlichung von Esclarecimentos uteis aos mutuarios e pretendentes de mutuos da Companhia Geral do Credito Predial Portugues."
+        ]
+    }
+}

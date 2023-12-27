@@ -1,0 +1,33 @@
+{
+    "id": 1294,
+    "lang": "en",
+    "is_original": false,
+    "title": "Eugenia (Empress)",
+    "fl": "E",
+    "original_title": "Eugenia (Imperatriz)",
+    "body": "Empress Eugenia, widow of Napoleon III, passed through Madeira aboard the English steamer German on March 30, 1880. She followed the same itinerary as her son, Prince Eugenio Napoleon, who died in South Africa in the war against the Zulus, up to the very place where he met his death. The prince had disembarked in Funchal on March 4, 1879, being in transit in our port on the English steamer Danube.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Napoleon III": [
+            "Napoleon III"
+        ],
+        "Eugenia": [
+            "Empress"
+        ],
+        "Eugenio Napoleon": [
+            "Prince"
+        ]
+    },
+    "years": {
+        "1880": [
+            "Empress Eugenia passed through Madeira aboard the English steamer German"
+        ],
+        "1879": [
+            "Prince Eugenio Napoleon disembarked in Funchal"
+        ]
+    }
+}

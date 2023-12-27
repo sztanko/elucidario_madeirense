@@ -1,0 +1,33 @@
+{
+    "id": 603,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Buxo da Rocha",
+    "fl": "B",
+    "original_title": "Buxo da Rocha",
+    "body": "Os madeirenses dão este nome à Catha Dryandri, arbusto da família das Celastraceas, e à Chamaemeles coriácea, arbusto da família das Rosáceas. O primeiro destes arbustos encontra se em S. Gonçalo, no Seixal, etc; o segundo nas proximidades do Manicómio Câmara Pestana, na Praia Formosa, etc..",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Gonçalo",
+        "Seixal",
+        "Praia Formosa"
+    ],
+    "locations": {
+        "S. Gonçalo": [
+            "Local onde se encontra o arbusto Catha Dryandri"
+        ],
+        "Seixal": [
+            "Local onde se encontra o arbusto Catha Dryandri"
+        ],
+        "Manicómio Câmara Pestana": [
+            "Local onde se encontra o arbusto Chamaemeles coriácea"
+        ],
+        "Praia Formosa": [
+            "Local onde se encontra o arbusto Chamaemeles coriácea"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

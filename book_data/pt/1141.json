@@ -1,0 +1,23 @@
+{
+    "id": 1141,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Diário da Tarde",
+    "fl": "D",
+    "original_title": "Diário da Tarde",
+    "body": "Saíram 305 números deste jornal, sendo o primeiro a 17 de Dezembro de 1881 e o ultimo a 30 de Dezembro de 1882.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1881": [
+            "Início da publicação do Diário da Tarde"
+        ],
+        "1882": [
+            "Término da publicação do Diário da Tarde"
+        ]
+    }
+}

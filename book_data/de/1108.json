@@ -1,0 +1,28 @@
+{
+    "id": 1108,
+    "lang": "de",
+    "is_original": false,
+    "title": "Dana (J. D.)",
+    "fl": "D",
+    "original_title": "Dana (J. D.)",
+    "body": "Amerikanischer Geologe, der Madeira im September 1838 besuchte. Das Ergebnis seiner Arbeiten wurde in Band X der United States Exploring Expedition veröffentlicht.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Besuchte Madeira im September 1838"
+        ]
+    },
+    "people": {
+        "J. D. Dana": [
+            "Amerikanischer Geologe"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Besuchte Madeira"
+        ]
+    }
+}

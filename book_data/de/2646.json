@@ -1,0 +1,49 @@
+{
+    "id": 2646,
+    "lang": "de",
+    "is_original": false,
+    "title": "Herzog von Palmela",
+    "fl": "H",
+    "original_title": "Palmela (Duque de)",
+    "body": "Der Herzog von Palmela, Dom Pedro de Sousa Holstein, besuchte Madeira im November 1820 anlässlich der Reise, die er nach Brasilien unternahm. Er wurde auf dieser Insel vom Gouverneur Sebastião Xavier Botelho sehr bewirtet, der zu Ehren des berühmten Diplomaten einen Ball gab, an dem über zweihundert Personen teilnahmen. Während der kurzen Zeit, die er sich in Funchal aufhielt, schrieb er in einem Brief, dass es so viele Besuche, Geschäfte, Ausflüge usw. gab, dass ihm die Zeit für alles fehlte. Er war im Palheiro Ferreiro, das dem „reichsten Grundbesitzer der Insel und vielleicht Portugals“ gehörte, wo er „einen englischen Park der besten Art“ fand. Der Herzog von Palmela besuchte Madeira erneut im Oktober 1847, diesmal um seine Frau zu begleiten, die an einer schweren Lungenkrankheit litt, von der sie sich auf dieser Insel nicht erholen konnte. Am 27. Januar 1848 befand sich der Herzog noch auf Madeira, reiste aber kurz darauf in Begleitung seiner Frau, deren Zustand sich stark verschlechtert hatte, nach Lissabon. „Auf einer Matratze, gepolstert mit Kissen und Polstern, brachten ihn Matrosen von seinem Haus auf der Insel zum Boot, das sie zurückbrachte, und von diesem Boot zum Haus in Rato, wo sie starb. An der Seite der Matratze gingen, so nah wie möglich, der Herzog und die jüngste Tochter, die einzige Ledige, die die fürsorgliche Mutter nach Madeira begleitet hatte, zu Fuß. Dahinter folgten ebenfalls zu Fuß die anderen Kinder, die nächsten Verwandten, die engsten Freunde.“ Der Herzog von Palmela überlebte seine Frau um weniger als 18 Monate und starb in seinem Haus in Rato am 12. April 1850. Dreißig Jahre zuvor hatte er der Herzogin, damals in der Blüte ihrer Jugend und großer Schönheit, einen Brief mit einem Myrtenzweig geschickt, „als Protest, sagt Dona Maria Amalia Vaz de Carvalho, gegen diese Flora der Tropen, deren Farbenpracht und Duft ihn bedrückten, ohne zu seinem Herzen zu sprechen.“",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem der Herzog von Palmela einen Brief schrieb"
+        ],
+        "Madeira": [
+            "Insel, die der Herzog von Palmela besuchte"
+        ],
+        "Palheiro Ferreiro": [
+            "Landgut, das der reichste Grundbesitzer Madeiras gehörte und vom Herzog besucht wurde"
+        ],
+        "Rato": [
+            "Ort, an dem der Herzog starb"
+        ]
+    },
+    "people": {
+        "D. Pedro de Sousa Holstein": [
+            "Herzog von Palmela"
+        ],
+        "Sebastião Xavier Botelho": [
+            "Gouverneur, der den Herzog bewirtete"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Jahr des ersten Besuchs des Herzogs auf Madeira"
+        ],
+        "1847": [
+            "Jahr des zweiten Besuchs zusammen mit seiner kranken Frau"
+        ],
+        "1848": [
+            "Jahr der Abreise des Herzogs von Madeira"
+        ],
+        "1850": [
+            "Sterbejahr des Herzogs"
+        ]
+    }
+}

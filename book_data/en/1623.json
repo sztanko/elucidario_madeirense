@@ -1,0 +1,43 @@
+{
+    "id": 1623,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gouveia (Canon António Homem de)",
+    "fl": "G",
+    "original_title": "Gouveia (Cónego António Homem de)",
+    "body": "He was born in the parish of Ponta do Pargo on December 17, 1869. He attended the Seminary of this Diocese and was ordained a priest in the year 1893. By Royal Charter of November 30, 1899, he was appointed canon of the Funchal Cathedral. He was the scribe of the Ecclesiastical Chamber and has held various public service commissions. He represented Madeira in the legislative sessions of 1905 to 1906, 1906, and 1906 to 1907. Three of the speeches he delivered in parliament were published in pamphlets titled 'The Slavery of the Church in Portugal', Lisbon, 1905, of which another edition was made in Funchal in the same year, 'The Necessity of Sunday Rest', Lisbon, 1907, and 'The Situation of Madeira', Lisbon, 1907.",
+    "categories": [
+        "history",
+        "religion",
+        "politics"
+    ],
+    "freguesias": [
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Birthplace"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1869": [
+            "Canon António Homem de Gouveia was born"
+        ],
+        "1893": [
+            "Ordained as a priest"
+        ],
+        "1899": [
+            "Appointed canon of the Funchal Cathedral"
+        ],
+        "1905": [
+            "Represented Madeira in the legislative sessions"
+        ],
+        "1906": [
+            "Represented Madeira in the legislative sessions"
+        ],
+        "1907": [
+            "Represented Madeira in the legislative sessions"
+        ]
+    }
+}

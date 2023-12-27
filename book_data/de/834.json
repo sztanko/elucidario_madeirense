@@ -1,0 +1,31 @@
+{
+    "id": 834,
+    "lang": "de",
+    "is_original": false,
+    "title": "Castro (Dr. José de)",
+    "fl": "C",
+    "original_title": "Castro (Dr. José de)",
+    "body": "Dieser bekannte Politiker, der vor wenigen Jahren noch Ministerpräsident war, hielt sich vom 8. Oktober 1884 bis zum 2. Juni 1885 auf Madeira auf. Er war einer der Verteidiger der Republikaner, die im Gerichtsbezirk Ponta do Sol wegen der Ereignisse angeklagt wurden, die sich am 29. Juli 1884 in Ribeira Brava ereignet hatten und bei denen einige Einwohner ums Leben kamen. Er schrieb eine Broschüre, in der diese Ereignisse geschildert werden, mit dem Titel Die Opfer des Königs, Geschichte der Prozesse gegen die politisch Verfolgten der Insel Madeira von dem 29. Juni 1884 bis zum Jahr 1885.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Ribeira Brava"
+    ],
+    "locations": {},
+    "people": {
+        "José de Castro": [
+            "Bekannter Politiker"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Anwesenheit auf Madeira"
+        ],
+        "1885": [
+            "Aufenthalt auf Madeira"
+        ]
+    }
+}

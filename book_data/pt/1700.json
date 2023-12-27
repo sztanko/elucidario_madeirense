@@ -1,0 +1,42 @@
+{
+    "id": 1700,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Heredia",
+    "fl": "H",
+    "original_title": "Heredia",
+    "body": "O fidalgo espanhol D. Antonio Herédia fez parte do exército que sob o comando do duque de Alba entrou em Portugal em 1580. Em 1602 veio para a Madeira como capitão da Companhia do Presídio Castelhano, sendo depois comandante do mesmo Presídio, e mais tarde governou todo o arquipelago, na ausência do governador efectivo. É este o tronco da família Herédia, na Madeira, que teve como últimos representantes Francisco Correia Herédia, Antonio Correia Herédia e Francisco Correia Herédia, visconde da Ribeira Brava (V. estes nomes). D. Antonio Herédia e os seus descendentes ligaram-se ás mais distintas famílias madeirenses. Na família Heredia se incorporou o importante morgadio dos Britos, que tinha sua sede principal na freguesia da Ribeira Brava, na capela de Nossa Senhora da Apresentação, no sítio que ainda hoje conserva este nome. Existia adjunta uma grande casa solarenga, que era uma das maiores residências existentes fora do Funchal. Casa e capela há muito que foram demolidas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Sede principal do importante morgadio dos Britos"
+        ]
+    },
+    "people": {
+        "D. Antonio Herédia": [
+            "Fidalgo espanhol"
+        ],
+        "Francisco Correia Herédia": [
+            "Último representante da família Herédia"
+        ],
+        "Antonio Correia Herédia": [
+            "Último representante da família Herédia"
+        ],
+        "Francisco Correia Herédia, visconde da Ribeira Brava": [
+            "Último representante da família Herédia"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Entrada em Portugal sob o comando do duque de Alba"
+        ],
+        "1602": [
+            "Chegada à Madeira como capitão da Companhia do Presídio Castelhano"
+        ]
+    }
+}

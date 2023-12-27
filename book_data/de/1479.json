@@ -1,0 +1,44 @@
+{
+    "id": 1479,
+    "lang": "de",
+    "is_original": false,
+    "title": "Freire (Aufstieg von Sequeira)",
+    "fl": "F",
+    "original_title": "Freire (Ascenso de Sequeira)",
+    "body": "Er wurde am 15. Oktober 1803 zum Gouverneur und Generalkapitän von Madeira ernannt. Er kam am 5. Dezember des folgenden Jahres in Funchal an und trat sein Amt am 8. desselben Monats und Jahres an, als sich noch sein Vorgänger D. José Manuel da Câmara in dieser Stadt befand. Er wurde von dem Richter Dr. Joaquim Antonio de Araújo begleitet, der beauftragt war, eine Untersuchung über die schweren Missverständnisse zwischen dem Gouverneur und Generalkapitän D. José Manuel da Câmara und dem Bischof D. Luiz Rodrigues de Vilares durchzuführen. Während seiner Amtszeit liefen aufgrund der europäischen Kriege häufig englische Kriegsschiffe in unseren Hafen ein und brachten verschiedene Schiffe, hauptsächlich spanische, die sie auf hoher See aufgebracht hatten. In den Jahren 1804 und 1805 wurde unter der Leitung des herausragenden Ingenieurs, Brigadegeneral Reinaldo Oudinot, die wichtige Verbesserung der Kanalisation und der Bau der Mauern der drei Flüsse durchgeführt, die die Stadt durchqueren. Ascenso de Sequeira Freire verließ Madeira nach der Ankunft seines Nachfolgers Pedro Fagundes Bacelar de Antas e Meneses, der sein Amt Ende Juli 1807 antrat.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ankunft in Funchal"
+        ]
+    },
+    "people": {
+        "Ascenso de Sequeira Freire": [
+            "Gouverneur und Generalkapitän von Madeira"
+        ],
+        "D. José Manuel da Câmara": [
+            "Vorgänger"
+        ],
+        "D. Luiz Rodrigues de Vilares": [
+            "Bischof"
+        ],
+        "Dr. Joaquim Antonio de Araújo": [
+            "Richter, beauftragt mit der Untersuchung"
+        ],
+        "Reinaldo Oudinot": [
+            "Herausragender Ingenieur, Brigadegeneral"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Zum Gouverneur und Generalkapitän von Madeira ernannt"
+        ],
+        "1804": [
+            "Verbesserung der Kanalisation und Bau der Flussmauern"
+        ]
+    }
+}

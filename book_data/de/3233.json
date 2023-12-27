@@ -1,0 +1,32 @@
+{
+    "id": 3233,
+    "lang": "de",
+    "is_original": false,
+    "title": "São João (Fluss)",
+    "fl": "S",
+    "original_title": "São João (Ribeira de )",
+    "body": "(Fluss). Entspringt in den Bergen der Gemeinde Santo António und mündet bei São Lazaro in der Gemeinde São Pedro in den Ozean. Er ist einer der drei wasserreichen Flüsse, die durch Funchal fließen. Der Teil, der die Gemeinde Santo António durchfließt, heißt Ribeira Grande oder Santo António. Früher wurde er auch São Francisco, São Paulo, Santa Catarina und São Lazaro genannt. In alten Dokumenten finden sich all diese Namen.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo António",
+        "São Pedro"
+    ],
+    "locations": {
+        "Santo António": [
+            "Gemeinde Santo António"
+        ],
+        "São Lazaro": [
+            "Ort São Lazaro, Gemeinde São Pedro"
+        ],
+        "São Pedro": [
+            "Gemeinde São Pedro"
+        ],
+        "Funchal": [
+            "Stadt Funchal"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

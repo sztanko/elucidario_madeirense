@@ -1,0 +1,31 @@
+{
+    "id": 3385,
+    "lang": "en",
+    "is_original": false,
+    "title": "Somerville (Capitão B. T.)",
+    "fl": "S",
+    "original_title": "Somerville (Capitão B. T.)",
+    "body": "> The officers of the English ship Argonauta, under the direction of Captain Somerville, drew up a chart of the Selvagens Islands, which has the following title: North Atlantic Salvage Islands. . . 1915.\n>\n> Next to this chart, there are two others also drawn up by the same officers, with the following titles: Piton Islands. . . 1915, and Great Salvage Island, 1915.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Argonauta": [
+            "English ship"
+        ],
+        "Selvagens": [
+            "Islands"
+        ]
+    },
+    "people": {
+        "Somerville": [
+            "Captain"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Drawing up of the charts of the Selvagens Islands"
+        ]
+    }
+}

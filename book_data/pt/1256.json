@@ -1,0 +1,33 @@
+{
+    "id": 1256,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Esmeraldo (Rua do)",
+    "fl": "E",
+    "original_title": "Esmeraldo (Rua do)",
+    "body": "Provém-lhe o nome de João Esmeraldo (V. este nome), que ali teve grandes casas de moradia. Fica paralela á rua do Sabão, com a qual comunica por meio da Travessa de Cristovão Colombo, e estende-se desde a rua da Alfândega até á do Comercio.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua do Sabão": [
+            "Paralela à Rua do Esmeraldo"
+        ],
+        "Travessa de Cristovão Colombo": [
+            "Comunica a Rua do Esmeraldo com a Rua do Sabão"
+        ],
+        "Rua da Alfândega": [
+            "Extremidade inicial da Rua do Esmeraldo"
+        ],
+        "Rua do Comercio": [
+            "Extremidade final da Rua do Esmeraldo"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Proprietário das grandes casas de moradia na Rua do Esmeraldo"
+        ]
+    },
+    "years": {}
+}

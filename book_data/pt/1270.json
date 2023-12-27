@@ -1,0 +1,35 @@
+{
+    "id": 1270,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Espírito Santo (Fr. João do)",
+    "fl": "E",
+    "original_title": "Espírito Santo (Fr. João do)",
+    "body": "Frade português que foi enforcado no Funchal, vestido com trajos de leigo, em 1582 ou pouco depois, por haver incitado o povo desta ilha a seguir o partido de D. Antonio, prior do Crato. Fr. João do Espírito Santo esteve em Angra antes de vir para o Funchal, e a ele se refere a Relação das coisas que aconteceram na cidade d'Angra, ilha Terceira, depois que se perdeu el-rei D. Sebastião em Africa. Esta relação foi publicada no vol XIII. pag. 159, do Panorama.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira"
+        ],
+        "Angra": [
+            "Cidade na Ilha Terceira"
+        ]
+    },
+    "people": {
+        "D. Antonio": [
+            "Prior do Crato"
+        ],
+        "D. Sebastião": [
+            "Rei de Portugal"
+        ]
+    },
+    "years": {
+        "1582": [
+            "Fr. João do Espírito Santo foi enforcado no Funchal"
+        ]
+    }
+}

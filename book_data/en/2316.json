@@ -1,0 +1,31 @@
+{
+    "id": 2316,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mills",
+    "fl": "M",
+    "original_title": "Moinhos",
+    "body": "A populated place in the parish of Caniço. It has 68 houses and 368 inhabitants. In this place, the ruins of a chapel dedicated to Our Lady of Salvation, founded in 1614 by Francisco Morais de Aguiar, can still be found.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Parish of Caniço"
+        ]
+    },
+    "people": {
+        "Francisco Morais de Aguiar": [
+            "Founder of the chapel of Our Lady of Salvation in Mills"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Foundation of the chapel of Our Lady of Salvation in Mills"
+        ]
+    }
+}

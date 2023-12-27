@@ -1,0 +1,34 @@
+{
+    "id": 2674,
+    "lang": "en",
+    "is_original": false,
+    "title": "Passos de Freitas (Dr. Manuel)",
+    "fl": "P",
+    "original_title": "Passos de Freitas (Dr. Manuel)",
+    "body": "Born in Calheta on March 3, 1872, he graduated in law from the University of Coimbra in 1896. He is a retired secretary of the General Board of the District and a very distinguished musician, being the director of the musical group that bears his name and the conductor of the Madeiran choral society, which the people of Funchal have had the opportunity to appreciate at the Dr. Manuel de Arriaga theater on several occasions.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Place of birth"
+        ],
+        "University of Coimbra": [
+            "Place of studies"
+        ],
+        "Funchal": [
+            "Place of activity"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1872": [
+            "Year of birth"
+        ],
+        "1896": [
+            "Year of graduation"
+        ]
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "id": 1832,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jardim Pequeno",
+    "fl": "J",
+    "original_title": "Jardim Pequeno",
+    "body": "Assim se denominava um pequeno jardim construído em 1878, entre a antiga Praça da Constituição e a cerca do extinto convento de S. Francisco, hoje Jardim Municipal. Este jardim, onde havia alguns bancos e uma bela vegetação, desapareceu em 1914, quando se começou a construir a Avenida Oeste, hoje do Dr. Manuel de Arriaga. No local do jardim houve outrora um chafariz, cujas águas o governador D. Álvaro da Costa de Macedo fez desviar para a fortaleza de S. Lourenço, e antes de 1878 havia no mesmo local um largo ou praça, em torno do qual se viam algumas árvores. As bacias do chafariz foram requisitadas pela Câmara ao Administrador Geral em 1838, achando-se presentemente no largo de S. Sebastião ou do Comercio. Por ocasião da inauguração das comunicações telegráficas com o continente, em 1874, houve brilhantíssimas iluminações no antigo largo de S. Francisco.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Praça da Constituição": [
+            "Local na Madeira"
+        ],
+        "Jardim Municipal": [
+            "Local na Madeira"
+        ],
+        "Avenida Oeste": [
+            "Local na Madeira"
+        ],
+        "Dr. Manuel de Arriaga": [
+            "Local na Madeira"
+        ],
+        "S. Lourenço": [
+            "Fortaleza na Madeira"
+        ],
+        "S. Sebastião": [
+            "Local na Madeira"
+        ]
+    },
+    "people": {
+        "D. Álvaro da Costa de Macedo": [
+            "Governador"
+        ]
+    },
+    "years": {
+        "1878": [
+            "Construção do Jardim Pequeno"
+        ],
+        "1914": [
+            "Desaparecimento do Jardim Pequeno"
+        ],
+        "1838": [
+            "Requisição das bacias do chafariz pela Câmara"
+        ]
+    }
+}

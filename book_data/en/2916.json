@@ -1,0 +1,33 @@
+{
+    "id": 2916,
+    "lang": "en",
+    "is_original": false,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "A place in the parish of Machico, nestled in the populated area of Marco, which took its name from the chapel of Nossa Senhora das Preces, founded by Canon Agostinho de Góis e Meneses in 1750 and rebuilt by António Tiago da Silva in 1884.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Parish where the place of Preces is located."
+        ]
+    },
+    "people": {
+        "Agostinho de Góis e Meneses": [
+            "Canon founder of the chapel of Nossa Senhora das Preces."
+        ],
+        "António Tiago da Silva": [
+            "Responsible for the rebuilding of the chapel in 1884."
+        ]
+    },
+    "years": {
+        "1750": [
+            "Year of the foundation of the chapel of Nossa Senhora das Preces."
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 2017,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombada",
+    "fl": "L",
+    "original_title": "Lombada",
+    "body": "Sítio povoado da freguesia de Santa Cruz. A antiga capela de São Pedro que ali existe, foi construída por João Escorcio Drumond nos princípios do século XVI e ficava na margem da Ribeira da Boaventura. Arrasada pela grande aluvião de 1803, procedeu-se pouco depois á sua reedificação em lugar menos exposto à violência da corrente. Afirma-se que neste sítio erigiu D. Maria do Rosário de Arvelos, no ano de 1670, uma capela da invocação de Nossa Senhora da Penha de França que há muito desapareceu.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Construtor da antiga capela de São Pedro"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Ano da grande aluvião que arrasou a antiga capela de São Pedro"
+        ]
+    }
+}

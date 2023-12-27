@@ -1,0 +1,37 @@
+{
+    "id": 3146,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kapelle des Heiligsten Herzens Jesu",
+    "fl": "K",
+    "original_title": "Sagrado Coração de Jesus (Capela do)",
+    "body": "An dem Ort Cardais in der Gemeinde Água de Pena ließ Kanonikus Henrique Modesto de Bettencourt im Jahr 1907 auf einem Grundstück, das er dort besaß, eine Kapelle errichten, die dem heiligsten Herzen Jesu geweiht ist.\n\nAuch in der Gemeinde Monte wurde vor wenigen Jahren durch Pfarrer Jorge de Faria e Castro eine Kapelle mit dieser Widmung gegründet.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena",
+        "Monte"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Gemeinde"
+        ],
+        "Monte": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Henrique Modesto de Bettencourt": [
+            "Kanonikus"
+        ],
+        "Jorge de Faria e Castro": [
+            "Pfarrer"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Bau der Kapelle am Ort Cardais"
+        ]
+    }
+}

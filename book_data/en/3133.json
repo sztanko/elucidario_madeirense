@@ -1,0 +1,30 @@
+{
+    "id": 3133,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lavender",
+    "fl": "L",
+    "original_title": "Rosmaninho",
+    "body": "The Madeirans give this name to Santolina Chamaecyparissus, a plant from the Composite family cultivated in some gardens in Funchal, Camacha, and Monte, and to Lavandula pedunculata, L. viridis, and L. dentata, plants from the Labiatae family, the first two being spontaneous and the last one being cultivated and subspontaneous on the island. All these species are aromatic and can be used in baths and rubs; the capitula of santolina can be used as a tonic.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Camacha",
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Cultivated in some gardens in Funchal"
+        ],
+        "Camacha": [
+            "Cultivated in some gardens in Camacha"
+        ],
+        "Monte": [
+            "Cultivated in some gardens in Monte"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

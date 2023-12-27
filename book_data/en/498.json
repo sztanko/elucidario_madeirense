@@ -1,0 +1,53 @@
+{
+    "id": 498,
+    "lang": "en",
+    "is_original": false,
+    "title": "Blandy",
+    "fl": "B",
+    "original_title": "Blandy",
+    "body": "This family of English subjects and merchants settled on this island over a century ago. In the first occupation of Madeira by British troops in July 1801, a junior officer named John Blandy was part of that garrison, and he became the founder of the family of the same name on this island. This English subject had already established a commercial house in 1808, when Madeira was occupied for the second time by British troops, which he passed on to his descendants. He died on January 14, 1855, and was succeeded in the business by his son Charles Ridpath Blandy, who passed away in 1878. John Blandy, son of Charles Ridpath Blandy, elevated the commercial house to a remarkable degree of prosperity, leaving a very substantial fortune and dying on December 7, 1912. John Ernesto Blandy, who died in 1930, was the heir and successor. The offices of this important house were established for many years on São Francisco Street, in the premises now occupied by the commercial wine section of the same house, and were later transferred to Alfândega Street, where they are currently located.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Francisco": [
+            "Location where the offices of the Blandy house were established"
+        ]
+    },
+    "people": {
+        "John Blandy": [
+            "Junior officer and founder of the Blandy family"
+        ],
+        "Charles Ridpath Blandy": [
+            "Son of John Blandy"
+        ],
+        "João Blandy": [
+            "Son of Charles Ridpath Blandy"
+        ],
+        "João Ernesto Blandy": [
+            "Heir and successor of João Blandy"
+        ]
+    },
+    "years": {
+        "1801": [
+            "First occupation of Madeira by British troops"
+        ],
+        "1808": [
+            "Second occupation of Madeira by British troops"
+        ],
+        "1855": [
+            "Death of John Blandy"
+        ],
+        "1878": [
+            "Death of Charles Ridpath Blandy"
+        ],
+        "1912": [
+            "Death of João Blandy"
+        ],
+        "1930": [
+            "Death of João Ernesto Blandy"
+        ]
+    }
+}

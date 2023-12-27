@@ -1,0 +1,31 @@
+{
+    "id": 21,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abruzos (Duque dos)",
+    "fl": "A",
+    "original_title": "Abruzos (Duque dos)",
+    "body": "Esteve pela última vez na Madeira em 1907, como comandante do cruzador Etna. Foram lhe oferecidos, na Deserta Grande, uma caçada pelos proprietários desta ilha, e no Funchal, um baile oficial pelo governador D. Bernardo da Costa. O duque de Abruzos refere se várias vezes à Madeira em alguns dos escritos que publicou.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde o duque dos Abruzos esteve em 1907"
+        ],
+        "Deserta Grande": [
+            "Local onde o duque dos Abruzos foi oferecido uma caçada"
+        ]
+    },
+    "people": {
+        "Duque dos Abruzos": [
+            "Comandante do cruzador Etna, esteve na Madeira em 1907"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Visita do duque dos Abruzos à Madeira"
+        ]
+    }
+}

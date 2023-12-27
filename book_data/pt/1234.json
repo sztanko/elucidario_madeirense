@@ -1,0 +1,34 @@
+{
+    "id": 1234,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ermida",
+    "fl": "E",
+    "original_title": "Ermida",
+    "body": "Sítio povoado da freguesia do Santo da Serra. Neste lugar, onde chamam o Alcoforado, ergueu Gil de Carvalho uma pequena ermida, no segundo quartel do século XVI, que deu o nome àquele sítio, conjecturando-se que seria dedicada ao taumaturgo Santo Antonio. Pertence ao concelho de Machico.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Freguesia"
+        ],
+        "Machico": [
+            "Concelho"
+        ]
+    },
+    "people": {
+        "Gil de Carvalho": [
+            "Construtor da ermida"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Construção da ermida"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 548,
+    "lang": "en",
+    "is_original": false,
+    "title": "Botha (General Luiz)",
+    "fl": "B",
+    "original_title": "Botha (General Luiz)",
+    "body": "He passed through Funchal in May 1907, when he was heading to London to take part in the South African Congress.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Passing through location"
+        ]
+    },
+    "people": {
+        "General Luiz Botha": [
+            "Participant in the South African Congress"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Passing through Funchal"
+        ]
+    }
+}

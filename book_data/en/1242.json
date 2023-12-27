@@ -1,0 +1,44 @@
+{
+    "id": 1242,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pilotage School",
+    "fl": "P",
+    "original_title": "Escola de Pilotagem",
+    "body": "Attached to the Port Captaincy of this city, there is a Pilotage School, which was created by decree on November 14, 1917, when the Minister of the Navy was Captain of the Frigate Arantes Pedroso. The creation of this school is due to the diligent efforts of the Port Captain of Funchal, Captain of the Frigate Artur de Sales Henriques, who was responsible for its establishment and has been its only teacher. Its course, like other schools of this nature, is two years long, with the first year consisting of disciplines such as arithmetic, principles of algebra, plane and spatial geometry, rectilinear trigonometry, general geography, needles and estimated navigation, and the second year consisting of spherical trigonometry, general astronomy, nautical calculations, astronomic navigation, sailing and steam maneuver, signals, and meteorology.\n\nThe course at this school qualifies for merchant navy officers, granting a pilot's license after the candidates have a certain period of navigation as trainees.\n\nIn the academic year 1917 to 1918, 17 students enrolled, with 4 passing to the second year. In 1919, 3 students completed the course, the first to qualify for a pilot's license at this school. It was later discontinued.\n\nSchool of Utilities and Fine Arts. It was intended for the education of girls and was established as a result of a decision by the General Assembly, taken on February 12, 1913, starting to operate in February of the following year.\n\nThere, music, painting, drawing, languages, hygiene, gymnastics, dance, needlework, cooking, gardening and horticulture, arithmetic, and geography were taught.\n\nThe School of Utilities operated in the building of the former Seminary of the Incarnation and was discontinued by a decision of the General Assembly on September 13, 1919, with the same building being transferred to this corporation for the amount of 9 contos in August 1919. Since September of the same year, the offices of the General Assembly have been installed there.\n\nThe revenue and expenses of the School of Utilities and Fine Arts in the period from 1914 to 1918 are shown in the following table:\n\n| Year | Revenue   | Expenses  |\n|------|-----------|-----------|\n| 1914 |           |           |\n| 1915 | 1,060$71  | 10,999$92 |\n| 1916 | 1,433$51  | 10,975$85 |\n| 1917 | 1,551$37  | 12,738$96 |\n| 1918 | 704$65    | 3,994$06  |",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where the Pilotage School and the School of Utilities and Fine Arts operated"
+        ]
+    },
+    "people": {
+        "Arantes Pedroso": [
+            "Minister of the Navy at the creation of the Pilotage School"
+        ],
+        "Artur de Sales Henriques": [
+            "Port Captain of Funchal and in charge of the establishment of the Pilotage School"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Creation of the Pilotage School and enrollment of 17 students"
+        ],
+        "1918": [
+            "Passage of 4 students to the second year"
+        ],
+        "1919": [
+            "Discontinuation of the School of Utilities and Fine Arts and transfer of the building to the General Assembly"
+        ],
+        "1913": [
+            "Decision by the General Assembly to establish the School of Utilities and Fine Arts"
+        ],
+        "1914": [
+            "Start of operation of the School of Utilities and Fine Arts"
+        ]
+    }
+}

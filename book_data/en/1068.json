@@ -1,0 +1,43 @@
+{
+    "id": 1068,
+    "lang": "en",
+    "is_original": false,
+    "title": "Crater",
+    "fl": "C",
+    "original_title": "Cratera",
+    "body": "The few recognizable craters that exist in Madeira are not found in the highest parts of the island, where they certainly existed in the past, but rather in the middle and lower regions. The best-known of the Madeiran craters is that of Santo da Serra, about 600 meters above sea level, with its highest point being 60 or 70 meters above the adjacent terrain. It is shallow, contains water in the winter, and some plants typical of waterlogged places live inside it. There is also a crater in Pôrto do Moniz, near Terra Chã, and another in Fanal, with the latter being double. The crater of Pôrto do Moniz, like that of Santo Antonio da Serra, has a cone, a characteristic not observed in Fanal's crater. In the vicinity of Caniço, there are three cones with imperfect craters, and in Caniçal, there is a cone with a crater on one side. On Pico da Irandaia, to the west of Funchal and near the church of S. Roque, there are also traces of craters. The craters of Santo Antonio da Serra, Pôrto do Moniz, and Fanal are known by the name of lagoons. Some geologists consider Curral das Freiras as a crater, while others consider it a valley of erosion. Carlos Lyell, who subscribes to the latter opinion, states in his Elements of Geology that he found no evidence of volcanic action in Curral, and that this location, as well as Ribeira da Janela and Serra de Agua, are deep valleys that radiate from the most mountainous region of the island.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Caniçal"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Crater about 600 meters above sea level"
+        ],
+        "Pôrto do Moniz": [
+            "Crater near Terra Chã"
+        ],
+        "Fanal": [
+            "Location with a double crater"
+        ],
+        "Caniço": [
+            "Locality in Madeira"
+        ],
+        "Caniçal": [
+            "Locality in Madeira"
+        ],
+        "Pico da Irandaia": [
+            "Mountain to the west of Funchal"
+        ]
+    },
+    "people": {
+        "Carlos Lyell": [
+            "Geologist who considers Curral das Freiras as a valley of erosion"
+        ]
+    },
+    "years": {}
+}

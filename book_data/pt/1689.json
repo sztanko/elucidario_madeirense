@@ -1,0 +1,45 @@
+{
+    "id": 1689,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Henriques (Padre João Mauricio)",
+    "fl": "H",
+    "original_title": "Henriques (Padre João Mauricio)",
+    "body": "Nasceu nesta cidade a 22 de Março de 1852 e era filho de António Gomes Henriques e D. Ana Rosa de Sousa Henriques, tendo falecido em Lisboa a 16 de Dezembro de 1901. Cursou o liceu e o seminário do Funchal, e ordenou-se de presbítero no ano de 1877. Depois de ter exercido funções eclesiásticas como cura da freguesia de Santa Cruz e pároco das Achadas da Cruz e de Santana, foi despachado capelão militar por decreto de 2 de Março de 1885, tendo servido algum tempo no Algarve e passando em 1887 a prestar serviço no Funchal, no regimento de caçadores n.° 12 e depois em infantaria n ° 27. Colaborou em alguns jornais madeirenses e foi redactor do Diário de Noticias desta cidade. Em 1909 publicou no Funchal um opúsculo de 104 paginas, intitulado Breve Noticia historica e descriptiva do extinto regimento de caçadores n.° 12.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Achadas da Cruz",
+        "Santana"
+    ],
+    "locations": {
+        "Lisboa": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "António Gomes Henriques": [
+            "Pai"
+        ],
+        "D. Ana Rosa de Sousa Henriques": [
+            "Mãe"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Nascimento"
+        ],
+        "1877": [
+            "Ordenação de presbítero"
+        ],
+        "1885": [
+            "Despacho como capelão militar"
+        ],
+        "1909": [
+            "Publicação do opúsculo"
+        ]
+    }
+}

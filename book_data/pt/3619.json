@@ -1,0 +1,35 @@
+{
+    "id": 3619,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vigário Geral",
+    "fl": "V",
+    "original_title": "Vigário Geral",
+    "body": "Apesar da criação da diocese do Funchal datar de 1514, o lugar de vigário geral do bispado somente foi criado em 1570, sendo o alvará régio de D. Sebastião, de 30 de Agosto daquele ano, que autorizou o bispo D. Jorge de Lemos a estabelecer aquele cargo eclesiástico, a que o mesmo diploma fixa o vencimento anual de cinquenta mil reis.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde foi criado o cargo de vigário geral do bispado"
+        ]
+    },
+    "people": {
+        "D. Sebastião": [
+            "Autorizou o bispo D. Jorge de Lemos a estabelecer o cargo de vigário geral do bispado"
+        ],
+        "D. Jorge de Lemos": [
+            "Estabeleceu o cargo de vigário geral do bispado"
+        ]
+    },
+    "years": {
+        "1514": [
+            "Data da criação da diocese do Funchal"
+        ],
+        "1570": [
+            "Data da criação do cargo de vigário geral do bispado"
+        ]
+    }
+}

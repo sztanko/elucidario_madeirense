@@ -1,0 +1,40 @@
+{
+    "id": 278,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Arvelos",
+    "fl": "A",
+    "original_title": "Arvelos",
+    "body": "Os primeiros de que há noticia terem usado este apelido na Madeira são Diogo de Arvelos, que pelos anos de 1490 se estabeleceu em Machico, e Pedro Gonçalves de Arvelos, que por 1569 desempenhava em Santa Cruz o cargo de juiz, sendo ambos pessoas nobres.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Machico": [
+            "Local onde Diogo de Arvelos se estabeleceu"
+        ],
+        "Santa Cruz": [
+            "Local onde Pedro Gonçalves de Arvelos desempenhava o cargo de juiz"
+        ]
+    },
+    "people": {
+        "Diogo de Arvelos": [
+            "Estabeleceu-se em Machico"
+        ],
+        "Pedro Gonçalves de Arvelos": [
+            "Desempenhava o cargo de juiz em Santa Cruz"
+        ]
+    },
+    "years": {
+        "1490": [
+            "Diogo de Arvelos estabeleceu-se em Machico"
+        ],
+        "1569": [
+            "Pedro Gonçalves de Arvelos desempenhava o cargo de juiz em Santa Cruz"
+        ]
+    }
+}

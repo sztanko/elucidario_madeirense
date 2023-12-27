@@ -1,0 +1,36 @@
+{
+    "id": 1092,
+    "lang": "de",
+    "is_original": false,
+    "title": "Passhöhe von S. Vicente",
+    "fl": "P",
+    "original_title": "Cumiada de S. Vicente",
+    "body": "Liegt auf 1000 Metern über dem Meeresspiegel und ist ein Punkt, von dem aus man bei klarem Wetter sowohl den Norden als auch den Süden Madeiras sehen kann. Die Straße von Camara de Lôbos zur Passhöhe, die durch Ribeira Brava führt, wurde 1916 eingeweiht. In der Nähe der Passhöhe von S. Vicente findet man das Lycopodium complanatum, eine auf Madeira sehr seltene Bärlappart.",
+    "categories": [
+        "geography",
+        "history",
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "Camara de Lôbos",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Gemeinde im Norden der Insel Madeira."
+        ],
+        "Camara de Lôbos": [
+            "Gemeinde an der Südküste der Insel Madeira."
+        ],
+        "Ribeira Brava": [
+            "Gemeinde an der Südküste der Insel Madeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1916": [
+            "Einweihung der Straße von Camara de Lôbos zur Passhöhe über Ribeira Brava"
+        ]
+    }
+}

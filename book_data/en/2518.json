@@ -1,0 +1,44 @@
+{
+    "id": 2518,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora dos Prazeres (Chapels of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora dos Prazeres (Capelas de)",
+    "body": "In the territory of the parish of Monte, which later became part of the parish of Santa Luzia, Tristão Gomes de Castro founded a chapel in 1611, dedicated to Nossa Senhora dos Prazeres. There was also a chapel with the same dedication in the parish of Santa Maria Maior, which was linked and in 1610 was administered by João Gomes de Castro. The year of its foundation is unknown.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte",
+        "Santa Luzia",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Monte": [
+            "Parish on the island of Madeira"
+        ],
+        "Santa Luzia": [
+            "Parish on the island of Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Parish on the island of Madeira"
+        ]
+    },
+    "people": {
+        "Tristão Gomes de Castro": [
+            "Founder of the chapel in the parish of Monte"
+        ],
+        "João Gomes de Castro": [
+            "Administrator of the chapel in the parish of Santa Maria Maior"
+        ]
+    },
+    "years": {
+        "1611": [
+            "Foundation of the chapel in the parish of Monte"
+        ],
+        "1610": [
+            "Year in which the chapel in the parish of Santa Maria Maior was administered by João Gomes de Castro"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 3174,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santana (Insel von)",
+    "fl": "S",
+    "original_title": "Santana (Ilhéu de)",
+    "body": "Es ist auch unter dem Namen Rocha do Navio bekannt und liegt an der Küste der Gemeinde Santana. Dort ist im Jahr 1860 ein holländisches Schiff gesunken.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santana"
+    ],
+    "locations": {
+        "Santana": [
+            "Gemeinde Santana"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1860": [
+            "Ein holländisches Schiff gesunken"
+        ]
+    }
+}

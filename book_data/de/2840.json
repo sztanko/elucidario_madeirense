@@ -1,0 +1,37 @@
+{
+    "id": 2840,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ponta Delgada (Landspitze und Häfen von)",
+    "fl": "P",
+    "original_title": "Ponta Delgada (Ponta e Portos de)",
+    "body": "In dieser Gemeinde gibt es eine Landspitze an der Meeresküste namens Ponta Delgada. In ihrer unmittelbaren Nähe befinden sich ein kleiner Hafen und ein begrenzter Strand, die dieser Pfarrei sowie den Pfarreien Boaventura und Arco de São Jorge dienen. 1908 wurde dort eine kurze Rampe gebaut, die den Zugang zum kleinen Strand ermöglicht, um den Transport von Waren zu erleichtern. Es gibt auch einen nicht sehr ausgedehnten Strand an einem Ort namens Passo da Areia.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ponta Delgada",
+        "Boaventura",
+        "Arco de São Jorge"
+    ],
+    "locations": {
+        "Ponta Delgada": [
+            "Landspitze an der Meeresküste"
+        ],
+        "Boaventura": [
+            "Benachbarte Gemeinde"
+        ],
+        "Arco de São Jorge": [
+            "Benachbarte Gemeinde"
+        ],
+        "Passo da Areia": [
+            "Ort mit einem nicht sehr ausgedehnten Strand"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1908": [
+            "Bau der kurzen Rampe zur Erleichterung des Warentransports"
+        ]
+    }
+}

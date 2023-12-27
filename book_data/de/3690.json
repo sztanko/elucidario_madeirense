@@ -1,0 +1,65 @@
+{
+    "id": 3690,
+    "lang": "de",
+    "is_original": false,
+    "title": "Zita (Ex-Kaiserin)",
+    "fl": "Z",
+    "original_title": "Zita (Ex-Imperatriz)",
+    "body": "Sie kam nach Madeira, begleitet von dem ehemaligen Kaiser von Österreich Karl von Habsburg, am 19. November 1921, gegen 10:30 Uhr morgens, auf dem englischen Kreuzer Cardiff an und landete in Pontinha, von wo aus die beiden Ehepartner zur \"Vila Vitoria\" weiterzogen, wo sie ihren Wohnsitz nahmen. Im Januar 1922 verließ die Ex-Kaiserin die Insel, um ihre Kinder aus der Schweiz abzuholen, wo sie ihre Ausbildung erhielten. Sie kehrte am 2. Februar mit den Prinzen Franz Otto, Adelheid Maria, Robert Karl und Karl Ludwig zurück und die ganze Familie nahm ab dem 18. desselben Monats ihren Wohnsitz im Ortsteil Monte auf der Farm des Bankiers Luis da Rocha Machado.\n\nDer ehemalige Kaiser Karl starb am 1. April 1922 im Ortsteil Monte. Sein Leichnam wurde am 5. desselben Monats in die Pfarrkirche gebracht. Aus diesem Grund beschloss die Ex-Kaiserin, die Insel zu verlassen, was sie dann auch am 19. Mai desselben Jahres auf dem Transatlantikdampfer Infanta Isabel de Bourbon nach Cádiz tat. Bevor sie Monte verließ, betete die Ex-Kaiserin lange am Grab ihres Mannes und wohnte auch dem feierlichen Requiem zum Gedenken an den Ex-Kaiser am 27. April in der Kathedrale bei.",
+    "categories": [
+        "history",
+        "society",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Madeira": [
+            "Ort der Ankunft der Ex-Kaiserin"
+        ],
+        "Ponta da Pontinha": [
+            "Ort der Landung der Ex-Kaiserin"
+        ],
+        "Vila Vitoria": [
+            "Ort, an dem die Ex-Kaiserin ihren Wohnsitz nahm"
+        ],
+        "Monte": [
+            "Ortsteil, in dem die Ex-Kaiserin und ihre Familie ihren Wohnsitz nahmen"
+        ],
+        "Pfarrkirche": [
+            "Ort, an dem der Leichnam des Ex-Kaisers aufgebahrt wurde"
+        ],
+        "Kathedrale": [
+            "Ort, an dem das feierliche Requiem stattfand"
+        ]
+    },
+    "people": {
+        "Karl von Habsburg": [
+            "Ex-Kaiser von Österreich"
+        ],
+        "Franz Otto": [
+            "Prinz"
+        ],
+        "Adelheid Maria": [
+            "Prinzessin"
+        ],
+        "Robert Karl": [
+            "Prinz"
+        ],
+        "Karl Ludwig": [
+            "Prinz"
+        ],
+        "Luis da Rocha Machado": [
+            "Bankier"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Ankunft auf Madeira"
+        ],
+        "1922": [
+            "Abreise der Ex-Kaiserin von der Insel"
+        ]
+    }
+}

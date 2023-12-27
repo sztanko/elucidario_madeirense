@@ -1,0 +1,49 @@
+{
+    "id": 2042,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lomelino (Pedro Jose)",
+    "fl": "L",
+    "original_title": "Lomelino (Pedro Jose)",
+    "body": "Nasceu na ilha do Porto Santo a 19 de Novembro de 1864, sendo filho de Justiniano Lomelino de Serpa e de D. Fortunata Augusta de Castro. Frequentou o liceu do Funchal e concluiu o curso da Escola Medica desta cidade no ano de 1887. Foi o primeiro director da escola distrital de habilitação ao magistério primário, criada no Funchal no ano de 1900\n\n> (V. Escola Normal)\n\n e nessa qualidade publicou em 1902 o opúsculo–Relatório da Escola Distrital do Funchal. É actualmente (1921) director da Escola Primaria Superior\n\n> (V. este nome)\n\n e facultativo municipal. Tem exercido várias comissões de serviço publico, entre as quais se conta a de Governador Civil substituto deste distrito para que foi nomeado por decreto de 22 de Outubro de 1904, tomando posse a 24 do mesmo mês e ano. Faleceu em viagem de Lisboa para a Madeira a 9 de Novembro de 1930.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Ilha de nascimento"
+        ]
+    },
+    "people": {
+        "Pedro Jose Lomelino": [
+            "Nasceu na ilha do Porto Santo a 19 de Novembro de 1864"
+        ],
+        "Justiniano Lomelino de Serpa": [
+            "Pai de Pedro Jose Lomelino"
+        ],
+        "D. Fortunata Augusta de Castro": [
+            "Mãe de Pedro Jose Lomelino"
+        ]
+    },
+    "years": {
+        "1864": [
+            "Nascimento de Pedro Jose Lomelino"
+        ],
+        "1887": [
+            "Conclusão do curso da Escola Medica do Funchal"
+        ],
+        "1900": [
+            "Criação da escola distrital de habilitação ao magistério primário no Funchal"
+        ],
+        "1902": [
+            "Publicação do opúsculo–Relatório da Escola Distrital do Funchal"
+        ],
+        "1921": [
+            "Ano em que era diretor da Escola Primaria Superior"
+        ]
+    }
+}

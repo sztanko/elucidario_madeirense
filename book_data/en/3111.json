@@ -1,0 +1,55 @@
+{
+    "id": 3111,
+    "lang": "en",
+    "is_original": false,
+    "title": "Rodrigues (Dr. António Feliciano)",
+    "fl": "R",
+    "original_title": "Rodrigues (Dr. António Feliciano)",
+    "body": "His high school companions called him Castilho, perhaps due to the analogy of the name with that of the great Castilho and also because he wrote verses, a name that has endured and which Dr. Feliciano Rodrigues himself sometimes adopts as a pseudonym in his writings. He was born in this city on June 9, 1870. After completing his degree at the University of Coimbra in 1897, he opened a law practice in Funchal, and in this district, he has also served as an interim delegate of the public prosecutor. He is the secretary of the high school and an official of the General Board of the district (1921).\n\nIn addition to contributing to various newspapers, both in prose and verse, he has published the poems: *A Escola*, Coimbra, 1893; *A Consciência*, Funchal 1897; *Versos da Mocidade*, Funchal, 1903, 127 pages; *Versos para meus filhos*, Funchal, 1910, 118 pages; *Collar de Vidrilhos*, Funchal, 1911, 54 pages; *Canção das lágrimas; e Sonetos*, Lisbon, 1916. In prose, he has published *O Cirurgião de Marinha e Martim de Freitas*, novels, the latter of which appeared in *Heraldo da Madeira*. He has other works ready to be published (1921).\n\nHe passed away in Funchal on February 5, 1925.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Born in Funchal"
+        ],
+        "Coimbra": [
+            "Completed his degree at the University of Coimbra"
+        ],
+        "Lisbon": [
+            "Published *Canção das lágrimas; e Sonetos*, Lisbon, 1916"
+        ],
+        "Heraldo da Madeira": [
+            "The latter of which appeared in *Heraldo da Madeira*"
+        ]
+    },
+    "people": {
+        "Dr. António Feliciano Rodrigues": [
+            "His high school companions called him Castilho"
+        ],
+        "Great Castilho": [
+            "Analogy of the name with that of the great Castilho"
+        ],
+        "Martim de Freitas": [
+            "Novels, the latter of which appeared in *Heraldo da Madeira*"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Born"
+        ],
+        "1897": [
+            "Completed his degree at the University of Coimbra"
+        ],
+        "1921": [
+            "Official of the General Board of the district"
+        ],
+        "1925": [
+            "Passed away"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 426,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barredo (António Pereira)",
+    "fl": "B",
+    "original_title": "Barredo (António Pereira)",
+    "body": "Sucedeu a Tristão Vaz da Veiga. (V. este nome) no governo geral da\nMadeira, tendo sido nomeado a 30 de Dezembro de 1590 e havendo tomado posse a 21 de Agosto de 1591.\n\nServiu até 20 de Abril de 1595.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Tristão Vaz da Veiga": [
+            "Sucedeu a"
+        ],
+        "António Pereira Barredo": [
+            "Nomeado a 30 de Dezembro de 1590 e serviu até 20 de Abril de 1595"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Nomeado"
+        ],
+        "1591": [
+            "Tomado posse"
+        ],
+        "1595": [
+            "Serviu até"
+        ]
+    }
+}

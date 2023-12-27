@@ -1,0 +1,33 @@
+{
+    "id": 426,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barredo (António Pereira)",
+    "fl": "B",
+    "original_title": "Barredo (António Pereira)",
+    "body": "Succeeded Tristão Vaz da Veiga. (See this name) in the general government of Madeira, having been appointed on December 30, 1590, and having taken office on August 21, 1591.\n\nServed until April 20, 1595.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Tristão Vaz da Veiga": [
+            "Succeeded by"
+        ],
+        "António Pereira Barredo": [
+            "Appointed on December 30, 1590, and served until April 20, 1595"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Appointed"
+        ],
+        "1591": [
+            "Took office"
+        ],
+        "1595": [
+            "Served until"
+        ]
+    }
+}

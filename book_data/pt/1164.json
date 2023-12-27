@@ -1,0 +1,36 @@
+{
+    "id": 1164,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Direito (O)",
+    "fl": "D",
+    "original_title": "Direito (O)",
+    "body": "O primeiro numero saiu a 21 de Outubro de 1857 e o ultimo, que foi o 93, a 7 de Agosto de 1859. Foi seu redactor Pedro Maria Gonçalves de Freitas.\n\nSaiu outro jornal com o mesmo título, que se publicou com várias intermitências, durante algumas dezenas de anos, sendo seu fundador e redactor principal o escritor madeirense João Augusto de Ornelas. Saiu o 1.º numero a 2 de Novembro de 1859.\n\nOutra série do mesmo Jornal, que julgamos ser a quarta, se publicou de 20 de Abril de 1902 (n.º 2511) a 11 de Janeiro de 1911( nº 5060).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pedro Maria Gonçalves de Freitas": [
+            "Redator do jornal"
+        ],
+        "João Augusto de Ornelas": [
+            "Fundador e redator principal do jornal"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Primeiro número do jornal"
+        ],
+        "1859": [
+            "Último número do jornal"
+        ],
+        "1902": [
+            "Início de outra série do jornal"
+        ],
+        "1911": [
+            "Fim de outra série do jornal"
+        ]
+    }
+}

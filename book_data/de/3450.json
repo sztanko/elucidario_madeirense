@@ -1,0 +1,67 @@
+{
+    "id": 3450,
+    "lang": "de",
+    "is_original": false,
+    "title": "Teixeira (Diogo)",
+    "fl": "T",
+    "original_title": "Teixeira (Diogo)",
+    "body": "Er war der Sohn von Tristão Teixeira und der 4. Kapitän und Landesherr von Machico. Weil er geistesschwach war, entzog ihm König Johann III. 1538 die Herrschaft, und als er 1540 ohne männlichen Erben oder anderen rechtmäßigen Nachfolger starb, wurde sie 1541 an António da Silveira, den ehemaligen Kapitän von Diu, vergeben.\n\nTeixeira (Kanoniker Feliciano João). Er wurde in der Gemeinde Ponta do Sol am 2. Januar 1843 geboren und war der Bruder der Dres. João Augusto Teixeira und Nuno Silvestre Teixeira, über die wir in diesem Elucidario berichteten. Er war Kanoniker der Kathedrale von Funchal und Professor am Priesterseminar und übte in dieser Stadt verschiedene öffentliche Ämter aus. Er vertrat Madeira im Parlament in den Sitzungsperioden 1880-1881 und 1887-1889. Nach Évora versetzt, starb er in dieser Stadt am 2. Mai 1896. Seine sterblichen Überreste ruhen auf dem Friedhof der Gemeinde Ponta do Sol.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Machico": [
+            "Ort der Handlung"
+        ],
+        "Ponta do Sol": [
+            "Geburts- und Sterbeort"
+        ],
+        "Funchal": [
+            "Ort der Handlung"
+        ],
+        "Évora": [
+            "Sterbeort"
+        ]
+    },
+    "people": {
+        "Diogo Teixeira": [
+            "4. Kapitän und Landesherr von Machico"
+        ],
+        "Kanoniker Feliciano João Teixeira": [
+            "Kanoniker der Kathedrale von Funchal und Professor am Priesterseminar, Vertreter Madeiras im Parlament"
+        ]
+    },
+    "years": {
+        "1538": [
+            "Verlust der Herrschaft"
+        ],
+        "1540": [
+            "Tod"
+        ],
+        "1541": [
+            "Übertragung der Herrschaft"
+        ],
+        "1843": [
+            "Geburt"
+        ],
+        "1880": [
+            "Vertretung im Parlament"
+        ],
+        "1881": [
+            "Vertretung im Parlament"
+        ],
+        "1887": [
+            "Vertretung im Parlament"
+        ],
+        "1889": [
+            "Vertretung im Parlament"
+        ],
+        "1896": [
+            "Tod"
+        ]
+    }
+}

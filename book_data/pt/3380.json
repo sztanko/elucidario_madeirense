@@ -1,0 +1,33 @@
+{
+    "id": 3380,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sociedade Protectora dos Animais Domésticos",
+    "fl": "S",
+    "original_title": "Sociedade Protectora dos Animais Domésticos",
+    "body": "Foi instituída em 6 de Janeiro de 1897 e legalizada por alvará de 6 de Maio do mesmo ano, tendo sido considerada de utilidade pública por decreto de 16 de Março de 1914. Tem sócios beneméritos e subscritores, tendo as cotas que primitivamente eram de 10 centavos, sido elevadas a 50 centavos (1921).\n\nHouve uma outra sociedade com a mesma denominação, que ficou instalada no Hotel Miles, á rua do Carmo, em 1 de Março de 1880.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1897": [
+            "Instituição da sociedade"
+        ],
+        "1914": [
+            "Consideração de utilidade pública"
+        ],
+        "1921": [
+            "Elevação das cotas"
+        ],
+        "1880": [
+            "Instalação da outra sociedade"
+        ]
+    }
+}

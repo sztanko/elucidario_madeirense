@@ -1,0 +1,29 @@
+{
+    "id": 1757,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Igreja Velha",
+    "fl": "I",
+    "original_title": "Igreja Velha",
+    "body": "Na freguesia de São Roque do Funchal acha-se um sítio deste nome e até existiu uma antiga capela dedicada a S. Roque, que serviu de igreja paroquial desde 1579 a 1790, ano em que se desmoronou, encontrando-se já então em adiantado estado de ruína.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Freguesia onde se encontra o sítio da Igreja Velha"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1579": [
+            "Início do período em que a capela dedicada a S. Roque serviu de igreja paroquial"
+        ],
+        "1790": [
+            "Desmoronamento da capela"
+        ]
+    }
+}

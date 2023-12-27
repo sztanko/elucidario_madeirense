@@ -1,0 +1,48 @@
+{
+    "id": 2103,
+    "lang": "en",
+    "is_original": false,
+    "title": "Madeira (A)",
+    "fl": "M",
+    "original_title": "Madeira (A)",
+    "body": "Forty-three issues of this newspaper were published, from April 2, 1857, to January 30, 1858, with João de Sant'Ana and Vasconcelos as its editors, and Dr. Alvaro Rodrigues de Azevedo. Another newspaper with the same title was published, which had twenty-three issues, from June 16 to September 22, 1894. On April 30, 1897, a newspaper with the same title began to be published, but was suspended on December 13, 1899, having had two hundred and fifty-nine issues. Its editors were Francisco Gomes de Gouveia Júnior and Father Fernando A. Silva.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João de Sant'Ana": [
+            "Editor of the newspaper"
+        ],
+        "Vasconcelos": [
+            "Editor of the newspaper"
+        ],
+        "Alvaro Rodrigues de Azevedo": [
+            "Editor of the newspaper"
+        ],
+        "Francisco Gomes de Gouveia Júnior": [
+            "Editor of the newspaper"
+        ],
+        "Padre Fernando A. Silva": [
+            "Editor of the newspaper"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Newspaper A Madeira published"
+        ],
+        "1858": [
+            "Newspaper A Madeira published"
+        ],
+        "1894": [
+            "Another newspaper A Madeira published"
+        ],
+        "1897": [
+            "Newspaper A Madeira published"
+        ],
+        "1899": [
+            "Newspaper A Madeira suspended"
+        ]
+    }
+}

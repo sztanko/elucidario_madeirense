@@ -1,0 +1,33 @@
+{
+    "id": 1434,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Formigas",
+    "fl": "F",
+    "original_title": "Formigas",
+    "body": "Têm sido achadas na Madeira sete espécies de formigas, a mais vulgar das quais é a Iridomyrmex humilis, oriunda das regiões intertropicais da América e introduzida de Demerara em 1886 ou 1887. Esta espécie, que apareceu primeiramente no Funchal, acha-se agora espalhada por toda ou quasi toda a região baixa da ilha, atingindo nalguns pontos altitudes superiores a 500 metros. A antiga formiga madeirense, a Pheidole megacephala ou Oecophthora pusilla, que se encontra também na Europa, tem desaparecido gradualmente da ilha depois que esta foi invadida pela Iridomyrmex humilis. Não se conhece na Madeira nem no Porto Santo espécie alguma peculiar, mas há duas variedades que parecem ser próprias da primeira destas ilhas, que são a Plagiolepis pygmaea var. Schmitzii e o Tepinoma erraticum var. maderense. A Stenamma structor, encontrada há mais de 40 anos no Jardim Municipal, parece ser espécie introduzida. O Monomorium Salomonis encontrado nas Selvagens, não aparece na Madeira, ao passo que o M. carbonarium tem sido achado nesta ilha, em pontos não muito afastados do litoral. Embora o Dr. Heer publicasse por meado do século XIX uma curiosa descrição da Oecophthora pusilla, só muito mais tarde, graças ás investigações do revº padre Schmitz, é que as formigas da Madeira ficaram sendo regularmente conhecidas. Das espécies colhidas no nosso arquipelago, ocuparam-se primeiro o Dr. Forel (V. este nome) e depois o rev.° Schmitz, num artigo publicado nos Annaes de Sciencias Naturaes, do Porto, e reproduzido nos nºs 5.709 e 5.713 do Diário de Noticias, do Funchal, do mês de Março de 1896.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Heer": [
+            "Publicou uma curiosa descrição da Oecophthora pusilla"
+        ],
+        "Revº padre Schmitz": [
+            "Investigou as formigas da Madeira"
+        ]
+    },
+    "years": {
+        "1886": [
+            "Iridomyrmex humilis foi introduzida na Madeira"
+        ],
+        "1887": [
+            "Iridomyrmex humilis foi introduzida na Madeira"
+        ],
+        "1896": [
+            "As formigas da Madeira foram descritas nos Annaes de Sciencias Naturaes, do Porto"
+        ]
+    }
+}

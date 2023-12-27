@@ -1,0 +1,38 @@
+{
+    "id": 2076,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mac Euen (Carlos)",
+    "fl": "M",
+    "original_title": "Mac Euen (Carlos)",
+    "body": "Americano, natural de Filadelfia, que fez observações meteorologicas na quinta Hollway, desde Dezembro de 1848 a Maio de 1849. Estas observações andam reunidas à obra do Dr. Mason sôbre o clima da Madeira, publicada em 1850.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Filadelfia": [
+            "Local de nascimento de Carlos Mac Euen"
+        ],
+        "Quinta Hollway": [
+            "Local onde Carlos Mac Euen fez observações meteorológicas"
+        ]
+    },
+    "people": {
+        "Carlos Mac Euen": [
+            "Americano, natural de Filadelfia, que fez observações meteorológicas na quinta Hollway, desde Dezembro de 1848 a Maio de 1849."
+        ]
+    },
+    "years": {
+        "1848": [
+            "Período em que fez observações meteorológicas na quinta Hollway."
+        ],
+        "1849": [
+            "Período em que fez observações meteorológicas na quinta Hollway."
+        ],
+        "1850": [
+            "Publicação da obra do Dr. Mason sobre o clima da Madeira."
+        ]
+    }
+}

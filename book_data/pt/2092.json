@@ -1,0 +1,40 @@
+{
+    "id": 2092,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Machico (Enseada, Porto e Cais de)",
+    "fl": "M",
+    "original_title": "Machico (Enseada, Porto e Cais de)",
+    "body": "Afora as baías do Funchal, Pôrto Santo e Abra, é a enseada de Machico a mais ampla e pitoresca do arquipélago. É orlada por um belo trecho de praia e por duas estradas que lhe ficam sobranceiras, entestando directamente com um formosíssimo vale, que se alarga pelas margens verdejantes da ribeira na extensão de alguns quilómetros. O centro da vila é ligado ao cais de desembarque por uma formosa estrada arborizada, que oferece o mais agradável passeio nas tardes calmas de estio. Aproximadamente no extremo sul da enseada, junto da capela de São Roque, construiu-se há muitos anos um desembarcadouro, que foi de todo abandonado. No outro lado da baía, projectou-se a construção dum cais, aproveitando-se uma restinga que ali existe, com uma estrada de ligação para o interior da vila, realizando-se essas obras no período decorrido de 1870 a 1873. Considerado aquele desembarcadouro como insuficiente, procedeu-se em 1905 á construção dum novo e mais amplo cais, que sofreu modificações e melhoramentos no ano de 1907. Nos três pontos que limitam a entrada desta baía, foram colocados três farolins nos fins do ano de 1931, que estão prestando excelente serviço aos numerosos barcos de pesca, que demandam esta enseada durante a noite. Este pôrto é de relativa extensão mas de pouco fundo, não sendo portanto permitido o acesso a embarcações de grande lotação. Sobranceiro ao local do cais existiu um antigo forte, chamado do Desembarcadouro ou de São João Baptista, hoje desmantelado, em cuja esplanada se improvisou em 1910 um hospital, por ocasião da epidemia colérica que assolou a Madeira naquela época.\n\n> V. Desembarcadouro",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "São Roque"
+    ],
+    "locations": {
+        "Machico": [
+            "Enseada mais ampla e pitoresca do arquipélago"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1870": [
+            "Construção do cais"
+        ],
+        "1873": [
+            "Conclusão das obras do cais"
+        ],
+        "1905": [
+            "Construção de um novo cais"
+        ],
+        "1907": [
+            "Modificações e melhoramentos no cais"
+        ],
+        "1910": [
+            "Improvisação de um hospital na esplanada do antigo forte"
+        ]
+    }
+}

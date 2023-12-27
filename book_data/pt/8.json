@@ -1,0 +1,23 @@
+{
+    "id": 8,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abreu (Aleixo de)",
+    "fl": "A",
+    "original_title": "Abreu (Aleixo de)",
+    "body": "Aleixo de Abreu, ou Aleixo de Abreu de Melo, era neto do anterior e filho de António de Abreu. Dele, apenas sabemos que era doutor em medicina e que foi chamado para exercer na corte de Espanha o importante cargo de médico de Filipe III.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "António de Abreu": [
+            "Pai de Aleixo de Abreu"
+        ],
+        "Filipe III": [
+            "Rei de Espanha"
+        ]
+    },
+    "years": {}
+}

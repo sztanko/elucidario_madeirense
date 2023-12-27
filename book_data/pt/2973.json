@@ -1,0 +1,33 @@
+{
+    "id": 2973,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quinta",
+    "fl": "Q",
+    "original_title": "Quinta",
+    "body": "Sítio povoado da freguesia da Caniço. Havia ali uma quinta ou casa de campo e ainda existe a capela de Nossa Senhora da Consolação, pertenças do morgadio ali criado, nos fins do século XV, por Álvaro de Ornelas, que era uma das mais antigas instituições vinculares da Madeira e que teve como último representante o conselheiro Aires de Ornelas (1866-1930). A capela da Consolação foi construída por Aires de Ornelas e Vasconcelos pelos anos de 1591 e reedificada por meados do século XVIII (V.Garajau e Jangão).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Álvaro de Ornelas": [
+            "Criador do morgadio"
+        ],
+        "Aires de Ornelas": [
+            "Último representante"
+        ]
+    },
+    "years": {
+        "1591": [
+            "Construção da capela da Consolação"
+        ]
+    }
+}

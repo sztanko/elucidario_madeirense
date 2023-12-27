@@ -1,0 +1,74 @@
+{
+    "id": 3220,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Filipe (Chapel of)",
+    "fl": "S",
+    "original_title": "São Filipe (Capela de)",
+    "body": "The Flemish António de Leme had sesmaria lands in the parish of Santo António, in the place still known today by the name of Quinta do Leme, and there he built a house and chapel, which the annotator of the 'Saudades' fixes the year of 1536. From documents we have had the opportunity to examine, we see that this chapel of São Filipe was rebuilt in 1654 by Inacio da Câmara Leme, the founder's successor in the administration of this entail. The earthquake of 1748 left it in great ruin, and it was again rebuilt by its administrator Francisco Aurelio da Câmara Leme in the year 1752.\n\nIn the place still known as São Filipe, in the parish of Santa Maria Maior, there is, profaned and in an advanced state of ruin, a chapel of this invocation, built in the year 1562 by Filipe Gentil de Limoges, and which was the head of the entail he established in that year.\n\nWe have already mentioned elsewhere that, in this chapel, not long ago, an inscription was read on a tombstone: = Burial of the innocents who were tyrannically killed in the Achada of this city. = 1621. We do not know the names of the individuals referred to in this inscription and the reasons that led to those deaths, but it is to be supposed that they are people from the Limoges family, to which the aforementioned chapel belonged (1921).\n\nElements gathered after this date allow us to state with certainty that the date inscribed on the said tomb is 1666 and that the epitaph refers to the burial of the remains of many children killed by the 'ama dos expostos' of that time, who, receiving the 'enjeitados', killed and buried them near her residence in the well-known place of Achada in the parish of São Roque. This chapel, which was in an advanced state of ruin, was restored by its owner, the Countess of Torre Bela, and blessed by the diocesan prelate on April 13, 1925.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Santa Maria Maior",
+        "São Roque"
+    ],
+    "locations": {
+        "Santo António": [
+            "Parish"
+        ],
+        "Quinta do Leme": [
+            "Place"
+        ],
+        "Santa Maria Maior": [
+            "Parish"
+        ],
+        "Achada": [
+            "Place"
+        ],
+        "São Roque": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "António de Leme": [
+            "Flemish"
+        ],
+        "Inacio da Câmara Leme": [
+            "Successor of the founder in the administration of this entail"
+        ],
+        "Francisco Aurelio da Câmara Leme": [
+            "Administrator"
+        ],
+        "Filipe Gentil de Limoges": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1536": [
+            "Construction of the chapel"
+        ],
+        "1654": [
+            "Reconstruction of the chapel"
+        ],
+        "1748": [
+            "Earthquake that left the chapel in ruins"
+        ],
+        "1752": [
+            "Reconstruction of the chapel"
+        ],
+        "1562": [
+            "Construction of the chapel by Filipe Gentil de Limoges"
+        ],
+        "1621": [
+            "Inscription on the tombstone"
+        ],
+        "1666": [
+            "Date inscribed on the tomb"
+        ],
+        "1925": [
+            "Restoration of the chapel"
+        ]
+    }
+}

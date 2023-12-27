@@ -1,0 +1,25 @@
+{
+    "id": 1045,
+    "lang": "de",
+    "is_original": false,
+    "title": "Costa de Baixo",
+    "fl": "C",
+    "original_title": "Costa de Baixo",
+    "body": "Die Küste Madeiras westlich von Funchal wird allgemein Costa de Baixo genannt, eine Bezeichnung, die alle Gemeinden an der gleichen Küste umfasst, nämlich die, aus denen die Gemeinden Camara de Lôbos, Ribeira Brava Ponta do Sol und Calheta bestehen.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Camara de Lôbos",
+        "Ribeira Brava",
+        "Ponta do Sol",
+        "Calheta"
+    ],
+    "locations": {
+        "Funchal": [
+            "Referenzpunkt"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

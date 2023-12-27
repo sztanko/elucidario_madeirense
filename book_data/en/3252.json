@@ -1,0 +1,33 @@
+{
+    "id": 3252,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Pedro de Alcântara (Chapel of)",
+    "fl": "S",
+    "original_title": "São Pedro de Alcântara (Capela de)",
+    "body": "Located in the place of Lombo do Atouguia in the parish of Calheta, this chapel was founded in the year 1783 by João Baptista Teixeira. The endowment deed is dated February 9, 1783, and the license for its consecration was granted on October 13 of the same year.\n\n## See São João Baptista (Chapels of).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Lombo do Atouguia": [
+            "Place in the parish of Calheta"
+        ],
+        "Calheta": [
+            "Parish of Calheta"
+        ]
+    },
+    "people": {
+        "João Baptista Teixeira": [
+            "Founder of the chapel of São Pedro de Alcântara"
+        ]
+    },
+    "years": {
+        "1783": [
+            "Year of the foundation of the chapel of São Pedro de Alcântara"
+        ]
+    }
+}

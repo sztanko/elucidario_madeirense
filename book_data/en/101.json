@@ -1,0 +1,24 @@
+{
+    "id": 101,
+    "lang": "en",
+    "is_original": false,
+    "title": "Literary Album",
+    "fl": "L",
+    "original_title": "Álbum Literário",
+    "body": "It is a volume of 200 pages, published in Funchal in 1885, containing various writings in prose and verse.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1885": [
+            "Year of publication"
+        ]
+    }
+}

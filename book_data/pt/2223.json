@@ -1,0 +1,56 @@
+{
+    "id": 2223,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Matadouro Municipal",
+    "fl": "M",
+    "original_title": "Matadouro Municipal",
+    "body": "O antigo matadouro municipal foi construído em 1851, Junto do Mercado do Peixe (Praça de S. Pedro). Preenchia bem o fim a que era destinado e tinha agua em abundância para a sua limpeza.\n\nHá uma deliberação camarária do ano de 1495, mandando os carniceiros matar e esfolar o gado no Cabo do Calhau, mas em 20 de Maio de 1791 resolveu a Câmara fazer um orçamento para a edificação dum matadouro junto à casa da Almotaceria, tendo pedido ao Real Erário em 1795 o empréstimo de 400$000 réis para levar a efeito a mesma edificação. Em 9 de Setembro de 1825, foi o matadouro transferido por ordem da municipalidade para as proximidades da ribeira de Santa Luzia, ficando os almotacés autorizados a punir «os magarefes e esfoladores» que matassem gado fora do novo local que lhes fôra assinalado.\n\nJá em 1446, havia no Funchal açougue e casa para a venda de carnes, e vê-se do livro das vereações do ano de 1488 que a casa dos açougues ficava nessa época para os lados de Santa Catarina.\n\nO matadouro de 1851 foi demolido e substituído pelo actual Matadouro Municipal, que data do ano de 1941, e se acha situado na margem direita da Ribeira de João Gomes, no prolongamento do antigo Beco do Cascalho, e é um moderno e amplo edifício, construído não somente com a vastidão necessária para a inteira execução de todos os serviços que lhe são peculiares, como ainda em obediência aos mais rigorosos preceitos da higiene.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [
+        "Santa Catarina"
+    ],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ],
+        "Cabo do Calhau": [
+            "Local"
+        ],
+        "Ribeira de Santa Luzia": [
+            "Local"
+        ],
+        "Ribeira de João Gomes": [
+            "Local"
+        ],
+        "Beco do Cascalho": [
+            "Local"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "Construção do antigo matadouro"
+        ],
+        "1495": [
+            "Deliberação camarária"
+        ],
+        "1791": [
+            "Resolução da Câmara"
+        ],
+        "1795": [
+            "Pedido de empréstimo"
+        ],
+        "1825": [
+            "Transferência do matadouro"
+        ],
+        "1446": [
+            "Existência de açougue no Funchal"
+        ],
+        "1488": [
+            "Localização da casa dos açougues"
+        ]
+    }
+}

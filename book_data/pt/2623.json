@@ -1,0 +1,33 @@
+{
+    "id": 2623,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pacheco",
+    "fl": "P",
+    "original_title": "Pacheco",
+    "body": "Este apelido de família procede de Antão Pacheco e do comendador Gomes Pacheco, indivíduos que vieram para a Madeira por meados do século XV. Pedro Pacheco, filho de Gomes Pacheco, justificou a sua nobreza em 1535.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antão Pacheco": [
+            "Indivíduo que veio para a Madeira por meados do século XV"
+        ],
+        "Gomes Pacheco": [
+            "Comendador que veio para a Madeira por meados do século XV"
+        ],
+        "Pedro Pacheco": [
+            "Filho de Gomes Pacheco, justificou a sua nobreza em 1535"
+        ]
+    },
+    "years": {
+        "XV": [
+            "Chegada de Antão Pacheco e do comendador Gomes Pacheco à Madeira"
+        ],
+        "1535": [
+            "Justificação da nobreza por Pedro Pacheco"
+        ]
+    }
+}

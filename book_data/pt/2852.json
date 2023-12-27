@@ -1,0 +1,37 @@
+{
+    "id": 2852,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ponta do Tristão",
+    "fl": "P",
+    "original_title": "Ponta do Tristão",
+    "body": "Fica na freguesia do Porto do Moniz e a curta distância de Santa Maria Madalena. Dum lado e outro dela, existem algumas praias de grossos calhaus, que são péssimos desembarcadoiros.\n\nA ponta do Tristão constituíu um dos limites da divisão das duas capitanias do Funchal e de Machico, como já dissemos noutro lugar (1-244).\n\nTanto a ponta como a vizinha ribeira do Tristão, que separa a freguesia do Porto Moniz da das Achadas, só muito recentemente foram exploradas sob o ponto de vista botanico, tendo sido achados aí pelo naturalista J. Gonçalves da Costa–a *Beta vulgaris var. maritima*, a *Ononis Costae*, o *Carex pendula*, o *Carex elata*, o *Allium vineale*, o *Polypodium drepanum*, etc. etc..",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Porto do Moniz",
+        "Santa Maria Madalena",
+        "Achadas"
+    ],
+    "locations": {
+        "Ponta do Tristão": [
+            "Freguesia do Porto do Moniz"
+        ],
+        "Santa Maria Madalena": [
+            "Curta distância"
+        ],
+        "Porto Moniz": [
+            "Freguesia do Porto Moniz"
+        ],
+        "Achadas": [
+            "Freguesia das Achadas"
+        ]
+    },
+    "people": {
+        "J. Gonçalves da Costa": [
+            "Naturalista"
+        ]
+    },
+    "years": {}
+}

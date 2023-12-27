@@ -1,0 +1,31 @@
+{
+    "id": 2005,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lira (Padre Manuel de)",
+    "fl": "L",
+    "original_title": "Lira (Padre Manuel de)",
+    "body": "Este sacerdote madeirense esteve alguns tempos cativo em Argel, onde prestou grandes serviços aos outros cativos que ali se encontravam, tratando-os e socorrendo-os com a mais evangélica caridade. Pertencia a uma antiga família da Calheta, onde nasceu e onde veio a falecer na primeira metade do século XVII. Era parente do cónego António Veloso de Lira (V. este nome).",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Argel": [
+            "Local onde esteve cativo"
+        ]
+    },
+    "people": {
+        "Antonio Veloso de Lira": [
+            "Cónego"
+        ]
+    },
+    "years": {
+        "Século XVII": [
+            "Período em que faleceu"
+        ]
+    }
+}

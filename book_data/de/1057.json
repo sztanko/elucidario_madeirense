@@ -1,0 +1,57 @@
+{
+    "id": 1057,
+    "lang": "de",
+    "is_original": false,
+    "title": "Coutinho (D. Manuel)",
+    "fl": "C",
+    "original_title": "Coutinho (D. Manuel)",
+    "body": "Nachdem der Diözesanprälat D. José de Sousa de Castelo Branco Madeira im Juni 1715 verlassen und 1721 auf das Bistum verzichtet hatte, ernannte D. João V. D. Manuel Coutinho am 25. November 1722 zum Bischof von Funchal, aber er wurde erst am 19. Februar 1725 vom Heiligen Stuhl bestätigt, aufgrund der Meinungsverschiedenheiten, die es damals zwischen der portugiesischen Regierung und der römischen Kurie gab.\n\nD. Manuel Coutinho wurde 1671 in Vila Nova de Anços als Sohn von Nuno Alvares Pereira und D. Inez Micaela Pereira geboren, adligen und wohlhabenden Personen, die dort ihren Majoratssitz hatten. Er promovierte 1699 in Theologie an der Universität Coimbra und empfing am 13. Mai 1725 durch den Patriarchen D. Tomaz de Almeida die Bischofsweihe.\n\nEr verließ Lissabon Anfang Juni 1725, aber da das Kriegsschiff, das ihn beförderte, einen Zwischenstopp in Mazagão einlegte, übte er dort einige Tage lang die bischöflichen Funktionen aus und kam erst am 22. Juli desselben Jahres in Funchal an, wo er die Leitung der Diözesangeschäfte übernahm.\n\nIn den madeirischen Chroniken, die wir konsultieren konnten, fanden wir nur wenige Verweise auf seine bischöfliche Tätigkeit bei uns. Nach 15 Jahren im Bischofsamt wurde er zum Bischof von Lamego ernannt, blieb aber bis zum 25. Februar 1741 auf Madeira, als er auf das Festland des Königreichs aufbrach. Er konnte sein neues Bistum nicht mehr antreten, denn als er sich auf den Weg in die Stadt Lamego machte, ereilte ihn der Tod am 7. August 1742 in der Stadt Soure.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. José de Sousa de Castelo Branco": [
+            "Diözesanprälat"
+        ],
+        "D. João V.": [
+            "Bischof von Funchal"
+        ],
+        "Nuno Alvares Pereira": [
+            "Vater von D. Manuel Coutinho"
+        ],
+        "D. Inez Micaela Pereira": [
+            "Mutter von D. Manuel Coutinho"
+        ],
+        "D. Tomaz de Almeida": [
+            "Patriarch"
+        ]
+    },
+    "years": {
+        "1715": [
+            "Diözesanprälat D. José de Sousa de Castelo Branco verlässt Madeira"
+        ],
+        "1721": [
+            "Verzicht auf das Bistum"
+        ],
+        "1722": [
+            "D. João V. ernennt D. Manuel Coutinho zum Bischof von Funchal"
+        ],
+        "1725": [
+            "Bischofsweihe durch Patriarchen D. Tomaz de Almeida"
+        ],
+        "1671": [
+            "Geburt von D. Manuel Coutinho in Vila Nova de Anços"
+        ],
+        "1699": [
+            "Promotion in Theologie an der Universität Coimbra"
+        ],
+        "1741": [
+            "Aufbruch zum Festland"
+        ],
+        "1742": [
+            "Tod in Soure"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 2551,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nunes da Mata (José)",
+    "fl": "N",
+    "original_title": "Nunes da Mata (José)",
+    "body": "Esteve na Madeira em 1920 e publicou em Lisboa, em 1921, um folheto de 24 pág., intitulado Navegação aérea entre Portugal e a ilha da Madeira.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local de publicação"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1920": [
+            "Visita à Madeira"
+        ],
+        "1921": [
+            "Publicação do folheto"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 221,
+    "lang": "en",
+    "is_original": false,
+    "title": "Anes (Gonçalo)",
+    "fl": "A",
+    "original_title": "Anes (Gonçalo)",
+    "body": "Gonçalo Anes or Gonçalo Anes de Velosa was one of the first settlers of this island. He was born in Celorico and had been a squire of the Infante D. Fernando, son of King D. Duarte. He was the founder of the church of S. Bartolomeu, next to which he established a hospice for poor clerics, which seems to have never functioned. It served as accommodation for missionaries who stopped in Madeira on their way to India and Brazil. It was in this house and church that the Jesuits settled when they came to Madeira in 1570 and remained there until the construction of the College of S. João Evangelista. Gonçalo Anes established an endowment with the obligation to celebrate a mass in the aforementioned church every Friday, offering prayers for the soul of Infante D. Fernando. Gonçalo Anes died in 1497 and was buried in the church he had founded. The chapel of S. Bartolomeu was located on the left bank of the Ribeira de Santa Luzia and on Rua Direita, which in the past extended to the height of the current Ponte do Torreão.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Bartolomeu",
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Celorico": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Gonçalo Anes": [
+            "One of the first settlers of the island"
+        ],
+        "Infante D. Fernando": [
+            "Son of King D. Duarte"
+        ]
+    },
+    "years": {
+        "1570": [
+            "Arrival of the Jesuits in Madeira"
+        ],
+        "1497": [
+            "Death of Gonçalo Anes"
+        ]
+    }
+}

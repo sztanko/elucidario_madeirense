@@ -1,0 +1,29 @@
+{
+    "id": 2341,
+    "lang": "de",
+    "is_original": false,
+    "title": "Monte Gordo und Boa Morte",
+    "fl": "M",
+    "original_title": "Monte Gordo e Boa Morte",
+    "body": "Besiedelter Ort in der Gemeinde Ribeira Brava. Dort gab es eine Kapelle zu Ehren Unserer Lieben Frau vom Guten Tod, die dem Ort den Namen gab. Sie wurde von Francisco Fernandes und Brásia Fernandes in einem unbekannten Jahr erbaut.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Francisco Fernandes": [
+            "Erbauer der Kapelle"
+        ],
+        "Brásia Fernandes": [
+            "Erbauerin der Kapelle"
+        ]
+    },
+    "years": {}
+}

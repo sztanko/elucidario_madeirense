@@ -1,0 +1,37 @@
+{
+    "id": 2550,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nunes (Padre Manuel)",
+    "fl": "N",
+    "original_title": "Nunes (Padre Manuel)",
+    "body": "Nasceu na freguesia do Paul do Mar no ano de 1848 e morreu na freguesia\n de São Gonçalo, onde era pároco, a 28 de Dezembro de 1892. Foi um dos nossos mais distintos oradores\n sagrados, sendo notáveis os seus discursos pela elegância da forma e correcção da linguagem. Cultivou com\n brilho a poesia, principalmente o género satírico, em que se tornou muito conhecido entre nós, tendo\n composições que ombreiam com as do nosso Nicolau Tolentino.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Paul do Mar",
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Paul do Mar": [
+            "Local de nascimento de Padre Manuel Nunes"
+        ],
+        "São Gonçalo": [
+            "Local de falecimento de Padre Manuel Nunes"
+        ]
+    },
+    "people": {
+        "Padre Manuel Nunes": [
+            "Distinto orador sagrado e poeta"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Nascimento de Padre Manuel Nunes"
+        ],
+        "1892": [
+            "Falecimento de Padre Manuel Nunes"
+        ]
+    }
+}

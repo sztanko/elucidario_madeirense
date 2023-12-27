@@ -1,0 +1,40 @@
+{
+    "id": 3181,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santana e Vasconcelos Moniz de Bettencourt (João de)",
+    "fl": "S",
+    "original_title": "Santana e Vasconcelos Moniz de Bettencourt (João de)",
+    "body": "Nasceu no Funchal em 1806. Em 9 de Agosto de 1834, foi nomeado provedor do Porto Santo, passando depois a administrador do concelho da mesma ilha, cargo este que desempenhou por largos anos. Foi também Governador Civil interino do distrito do Funchal desde 8 a 18 de Janeiro de 1862. Escreveu os Anais do Município do Porto Santo, cujo original se encontra no arquivo do mesmo município, e foi um dos homens que maiores serviços prestaram àquela ilha. Faleceu no Funchal a 22 de Junho de 1874.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento e falecimento"
+        ],
+        "Porto Santo": [
+            "Local onde desempenhou cargos"
+        ]
+    },
+    "people": {
+        "João de Santana e Vasconcelos Moniz de Bettencourt": [
+            "Provedor do Porto Santo, Administrador do concelho, Governador Civil interino do distrito do Funchal, Escritor"
+        ]
+    },
+    "years": {
+        "1806": [
+            "Nascimento"
+        ],
+        "1834": [
+            "Nomeação como provedor do Porto Santo"
+        ],
+        "1862": [
+            "Governador Civil interino do distrito do Funchal"
+        ],
+        "1874": [
+            "Falecimento"
+        ]
+    }
+}

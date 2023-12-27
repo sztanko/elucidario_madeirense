@@ -1,0 +1,33 @@
+{
+    "id": 1056,
+    "lang": "en",
+    "is_original": false,
+    "title": "Coutinho",
+    "fl": "C",
+    "original_title": "Coutinho",
+    "body": "This family name comes from Luiz Fernandes de Matos Coutinho, who moved to Madeira around 1580 and had a large trading house here. This Luiz Coutinho was the son of the knight Antonio Vaz de Matos, who accompanied Afonso de Albuquerque to India. The Chapel of Nossa Senhora da Quietação in Santo Antonio was founded by Loureuço de Matos Coutinho in 1670, who probably descended from the aforementioned Luiz Coutinho.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Madeira": [
+            "Location of the establishment of the Coutinho family"
+        ]
+    },
+    "people": {
+        "Luiz Fernandes de Matos Coutinho": [
+            "Establisher in Madeira, descendant of Antonio Vaz de Matos"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Arrival of Luiz Fernandes de Matos Coutinho in Madeira"
+        ],
+        "1670": [
+            "Foundation of the Chapel of Nossa Senhora da Quietação"
+        ]
+    }
+}

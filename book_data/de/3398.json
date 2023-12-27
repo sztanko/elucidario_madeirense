@@ -1,0 +1,34 @@
+{
+    "id": 3398,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sousa (Dr. José de Barros e)",
+    "fl": "S",
+    "original_title": "Sousa (Dr. José de Barros e)",
+    "body": "Er wurde am 1. März 1859 in der Gemeinde Câmara de Lobos geboren. Er war Vertreter des Generalstaatsanwalts im Gerichtsbezirk Ponta do Sol, Richter im Gerichtsbezirk Santa Cruz und ist heute Richter am Berufungsgericht Porto. Er veröffentlichte eine Broschüre mit dem Titel Moralische Gebote für Kinder (1921), die bereits in dritter Auflage erschienen ist. Er starb im Dezember 1930 in der Stadt Porto.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Ponta do Sol",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Geburtsort"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1859": [
+            "Geburt von José de Barros e Sousa"
+        ],
+        "1921": [
+            "Veröffentlichung von Moralische Gebote für Kinder"
+        ],
+        "1930": [
+            "Tod in der Stadt Porto"
+        ]
+    }
+}

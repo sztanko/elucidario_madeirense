@@ -1,0 +1,28 @@
+{
+    "id": 842,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gazella",
+    "fl": "G",
+    "original_title": "Gazella",
+    "body": "Este distinto musico, que foi professor do rei D. Luiz I, esteve na Madeira em 1850 e aqui deu alguns concertos.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde o músico deu concertos em 1850"
+        ]
+    },
+    "people": {
+        "D. Luiz I": [
+            "Rei para quem o músico foi professor"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Ano em que o músico esteve na Madeira"
+        ]
+    }
+}

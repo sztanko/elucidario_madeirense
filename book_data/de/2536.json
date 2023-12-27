@@ -1,0 +1,37 @@
+{
+    "id": 2536,
+    "lang": "de",
+    "is_original": false,
+    "title": "Notare",
+    "fl": "N",
+    "original_title": "Notários",
+    "body": "Der Notariats- oder Urkundendienst auf diesem Archipel sollte sicherlich die Phasen des Kontinentalreichs durchlaufen haben, abgesehen von allen Änderungen, die die lokalen Umstände ratsam erscheinen ließen. Es ist jedoch interessant festzustellen, dass es 1579 in Funchal nicht weniger als 21 Gerichtsschreiber, 8 Notare und 6 Untersuchungsrichter gab, was für eine Bevölkerung, die damals in der gesamten Insel auf fünfundzwanzigtausend Einwohner geschätzt wurde, wirklich außergewöhnlich war. Hören wir Frutuoso: \"Und weil es in Funchal, der Stadt, die seine Vorfahren (des 5. Kapitäns Schenkers) gegründet hatten, einundzwanzig Gerichtsschreiber und acht Notare und sechs Untersuchungsrichter gab, hielt König Heinrich im Jahr 1579 aus bestimmten Gründen, die ihn dazu bewogen, und zum größeren Dienst an Gott, für angemessen, sie auf zehn Gerichtsschreiber, vier Notare und drei Untersuchungsrichter zu reduzieren, die jetzt (1590) dienen....\" Es ist darauf hinzuweisen, dass in den Sitzen der anderen Kapitäne und in den bereits gegründeten Städten Machico, Santa Cruz, Ponta do Sol, Calheta und Porto Santo auch Justizbeamte mit den gleichen Befugnissen wie in Funchal vorhanden waren. In der Gerichtsbarkeit von Funchal reduzierte Kardinal Heinrich die Zahl der Schreiber von 35 auf 17.\"",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz",
+        "Ponta do Sol",
+        "Calheta",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Funchal": [
+            "Stadt, die seine Vorfahren (des 5. Kapitäns Schenkers) gegründet hatten"
+        ]
+    },
+    "people": {
+        "Frutuoso": [
+            "Historiker"
+        ]
+    },
+    "years": {
+        "1579": [
+            "Anzahl der Notare in Funchal"
+        ],
+        "1590": [
+            "Anzahl der Gerichtsschreiber, Notare und Untersuchungsrichter"
+        ]
+    }
+}

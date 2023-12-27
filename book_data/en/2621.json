@@ -1,0 +1,34 @@
+{
+    "id": 2621,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ovington (John)",
+    "fl": "O",
+    "original_title": "Ovington (John)",
+    "body": "English clergyman and traveler, who served as chaplain to James II. In his published book titled *A voyage to Suratt in the year 1689* (London 1696), he writes about Madeira, providing information that would be interesting if it weren't for several more or less gross lies among them. As a curiosity, we present the translation of the account he gives of an 'incident' that the ship's crew had before leaving the port of Funchal.\n\n\"When some of our sailors missed the call, we supposed they had fallen into the hands of the Jesuits, who, zealous to extend their faith, take advantage of every opportunity to convert foreigners. A letter was sent to the Governor requesting the return of our men, but it seems he had no authority over that order.\n\n\"Our captain then decided to land on the beach, accompanied by 14 armed men, in order to replace the sailors he needed with fishermen.\n\nA fortunate event, however, brought him a small boat that was bringing an abbot and a vicar to Funchal, who were both surprised to find themselves captured by the crew of our boat.\n\n\"We immediately had them write to the governor, telling him the circumstances in which they found themselves, while a note was sent to our consul to transmit to the authorities, demanding the exchange of the prisoners.\n\n\"The situation was getting tense because the news of the priests' imprisonment put the English merchants established in Funchal at risk, but fortunately everything was resolved, we recovered our sailors and the priests were sent ashore, where they were received with great rejoicing by the population\".\n\nIf the capture of the crew of the British ship did indeed occur, as Ovington tells, it is most likely that it was not due to the zeal of the Jesuits for the conversion of foreigners, but to the zeal of the English for the worship of the god Bacchus, which could have led to the intervention of the alcaide, who was responsible at that time for maintaining order in the city.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Port of departure of the British ship"
+        ]
+    },
+    "people": {
+        "James II": [
+            "Monarch"
+        ],
+        "Ovington": [
+            "English clergyman and traveler"
+        ],
+        "Jesuits": [
+            "Religious order"
+        ]
+    },
+    "years": {
+        "1689": [
+            "Year of Ovington's journey"
+        ]
+    }
+}

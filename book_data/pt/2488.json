@@ -1,0 +1,43 @@
+{
+    "id": 2488,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora das Dores",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Dores",
+    "body": "Os cemitérios paroquiais das freguesias de Santa Cruz e de Câmara\nde Lobos e o das Angústias, no Funchal (hoje encerrado), tem suas capelas para o privativo serviço religioso\ndos mesmos, todas com a invocação de Nossa Senhora das Dores, havendo sido construídas a primeira no\nultimo quartel do século XIX e a última no ano de 1844.\n\nÉ também dedicada a Nossa Senhora das Dores a capela do Hospício da Princesa Dona Maria Amélia\ndestinada ao serviço dos doentes ali internados, sendo a primorosa imagem oferecida pelo desventurado\npríncipe Maximiliano, depois imperador do México e ai barbaramente fusilado no ano de 1867.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Freguesia"
+        ],
+        "Câmara de Lobos": [
+            "Freguesia"
+        ],
+        "Funchal": [
+            "Angústias"
+        ]
+    },
+    "people": {
+        "Maximiliano": [
+            "Príncipe, imperador do México"
+        ]
+    },
+    "years": {
+        "XIX": [
+            "Construção da primeira capela das freguesias de Santa Cruz e de Câmara de Lobos"
+        ],
+        "1844": [
+            "Construção da última capela das freguesias de Santa Cruz e de Câmara de Lobos"
+        ],
+        "1867": [
+            "Fusilamento do príncipe Maximiliano"
+        ]
+    }
+}

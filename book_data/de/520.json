@@ -1,0 +1,24 @@
+{
+    "id": 520,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kirchenblatt von Madeira",
+    "fl": "K",
+    "original_title": "Boletim Eclesiástico da Madeira",
+    "body": "Es war eine monatliche Veröffentlichung, deren erste Ausgabe im März 1912 und deren letzte im Februar 1919 erschien.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "März 1912": [
+            "Erscheinen der ersten Ausgabe"
+        ],
+        "Februar 1919": [
+            "Erscheinen der letzten Ausgabe"
+        ]
+    }
+}

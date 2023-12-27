@@ -1,0 +1,26 @@
+{
+    "id": 1233,
+    "lang": "de",
+    "is_original": false,
+    "title": "Equisetáceas",
+    "fl": "E",
+    "original_title": "Equisetáceas",
+    "body": "Auf Madeira ist sie durch eine einzige Art vertreten - das Equisetum maximum, eine Pflanze, die sich an feuchten Orten in São Vicente, Ribeira de Santa Luzia, Ribeira de S. João usw. findet.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Vicente": [
+            "Feuchte Orte"
+        ],
+        "Ribeira de Santa Luzia": [
+            "Feuchte Orte"
+        ],
+        "Ribeira de S. João": [
+            "Feuchte Orte"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

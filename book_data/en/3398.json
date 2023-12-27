@@ -1,0 +1,34 @@
+{
+    "id": 3398,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa (Dr. José de Barros e)",
+    "fl": "S",
+    "original_title": "Sousa (Dr. José de Barros e)",
+    "body": "He was born in the parish of Câmara de Lobos on March 1, 1859. He was the delegate of the royal prosecutor in the district of Ponta do Sol, judge in the district of Santa Cruz, and is now a judge of the Porto Court of Appeal. He published a booklet, which has already had three editions, entitled Precepts of Childhood Morality (1921). He died in the city of Porto in December 1930.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Ponta do Sol",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Place of birth"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1859": [
+            "Birth of José de Barros e Sousa"
+        ],
+        "1921": [
+            "Publication of Precepts of Childhood Morality"
+        ],
+        "1930": [
+            "Death in the city of Porto"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 2920,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kammerprediger",
+    "fl": "K",
+    "original_title": "Pregador da Camara",
+    "body": "Der Stadtrat von Funchal hatte einst einen Kammerprediger, dem er Gehalt zahlte und der verpflichtet war, die Predigten an offiziellen Festtagen zu halten. 1831 wurde Pater Fr. José de Jesus zum Kammerprediger ernannt, zuvor hatte Fr. João José da Purificação dieses Amt inne, der 1829 mit einem Jahresgehalt von 24$000 Réis ernannt worden war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Fr. José de Jesus": [
+            "1831 zum Kammerprediger ernannt"
+        ],
+        "Fr. João José da Purificação": [
+            "1829 zum Kammerprediger ernannt"
+        ]
+    },
+    "years": {
+        "1831": [
+            "Ernennung von Fr. José de Jesus zum Kammerprediger"
+        ],
+        "1829": [
+            "Ernennung von Fr. João José da Purificação zum Kammerprediger"
+        ]
+    }
+}

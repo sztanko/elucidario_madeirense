@@ -1,0 +1,36 @@
+{
+    "id": 2966,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Queimada",
+    "fl": "Q",
+    "original_title": "Queimada",
+    "body": "É um sítio povoado da freguesia de Água de Pena pertencente ao concelho de Machico. Neste sítio e no ano de 1924, mandou Francisco de Freitas Correia edificar uma capela dedicada a Nossa Senhora do Perpetuo Socorro, a primeira desta invocação que se construiu na Madeira.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Freguesia"
+        ],
+        "Machico": [
+            "Concelho"
+        ],
+        "Madeira": [
+            "Local da construção da capela"
+        ]
+    },
+    "people": {
+        "Francisco de Freitas Correia": [
+            "Mandou edificar a capela"
+        ]
+    },
+    "years": {
+        "1924": [
+            "Ano da construção da capela"
+        ]
+    }
+}

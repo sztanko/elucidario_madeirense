@@ -1,0 +1,39 @@
+{
+    "id": 2286,
+    "lang": "de",
+    "is_original": false,
+    "title": "Handwerksmeister",
+    "fl": "H",
+    "original_title": "Mesteres",
+    "body": "Die Vertreter der Handwerksmeister oder Handwerker, wie sie auch genannt wurden, waren die mechanischen Handwerker, die Teil des sogenannten Hauses der Vierundzwanzig waren. Jedes Jahr im Januar legte der Volksrichter dem Stadtrat die Liste der vier Vertreter der Handwerksmeister vor, die an den Arbeiten des Stadtrats teilnehmen sollten und die abgelehnt werden konnten, wenn sie nicht mindestens sechs Jahre lang im selben Haus tätig waren.\n\nIn früheren Zeiten nahmen die Handwerker an den Sitzungen des Stadtrats teil, saßen auf niedrigen Stühlen neben einem Tisch, der unabhängig von dem der Stadträte war, aber 1803 erlaubte ihnen der Friedensrichter José Júlio Henriques Gordilho, sich an den Tisch der Stadtratssitzungen zu setzen, was zu Protesten des Stadtanwalts João da Câmara Leme führte, der diese Zugeständnis für erniedrigend für seine Eigenschaft als Adliger hielt. \n\nAm 7. August 1811 beschloss der Stadtrat, dass die Handwerker wieder ihre alten Plätze einnehmen sollten, aber nachdem sie gegen diesen Beschluss Einspruch eingelegt hatten, erreichten sie, dass er für nichtig erklärt wurde. Die Vertreter der mechanischen Gewerbe blieben etwa ein Jahr lang den Sitzungen des Stadtrats fern, da sie sich durch den Beschluss, der in Bezug auf sie von den Stadträten gefasst worden war, beleidigt fühlten.\n\nDie Handwerker wurden in früheren Zeiten von den Stadträten missbilligt, die sie oft beleidigten und demütigten, aber zu Beginn des 19. Jahrhunderts verbesserte sich ihre Situation aufgrund der tief greifenden sozialen Veränderungen, die sich in unserem Land vor der Emanzipationsbewegung von 1820 vollzogen.\n\nDie Handwerker hörten nach der Verkündung der verfassungsmäßigen Grundsätze auf Madeira im Jahr 1834 auf, Teil der Stadtratssitzungen zu sein, wobei das Haus der Vierundzwanzig, das sie vertraten, durch das Dekret vom 7. Mai desselben Jahres aufgelöst wurde. Der verfassungsgemäß gewählte Stadtrat vom 3. November 1822 hatte keine Handwerker.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Júlio Henriques Gordilho": [
+            "Friedensrichter"
+        ],
+        "João da Câmara Leme": [
+            "Stadtanwalt"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Erlaubnis, sich an den Tisch der Stadtratssitzungen zu setzen"
+        ],
+        "1811": [
+            "Beschluss, dass die Handwerker wieder ihre alten Plätze einnehmen sollten"
+        ],
+        "1820": [
+            "Emanzipationsbewegung"
+        ],
+        "1822": [
+            "Wahl des verfassungsgemäßen Stadtrats"
+        ],
+        "1834": [
+            "Verkündung der verfassungsmäßigen Grundsätze"
+        ]
+    }
+}

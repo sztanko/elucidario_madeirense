@@ -1,0 +1,48 @@
+{
+    "id": 1101,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cunha (Troilo de Vasconcelos da)",
+    "fl": "C",
+    "original_title": "Cunha (Troilo de Vasconcelos da)",
+    "body": "É hoje um nome inteiramente desconhecido entre nós, mas que na sua epoca granjeou notavel nomeada como poeta e escritor. Os que se dedicam a estudos mais aprofundados da nossa historia literaria conhecem as paginas que lhe consagram Barbosa Machado na Bibliotheca Lusitana e Costa e Silva no Ensaio Critico dos Poetas Portugueses. Nasceu no Funchal em 1654, ao tempo em que seu pai Bartolomeu de Vasconcelos exercia o cargo de governador e capitão-general deste arquipelago. Dedicou-se ao estudo profundo das humanidades, revelando em especial o seu vasto saber no conhecimento das linguas, sobretudo do grego e do latim. Consagrou-se também ao estudo de varias questões teologicas, que quis versar nas suas composições poeticas, especialmente na obra intitulada O Espelho do Invisivel, em que revela grandes qualidades de poeta, mas cujo assunto, improprio de ser tratado em verso, tornou esse poema de dificil compreensão e despido das galas que devem adornar as composições desta natureza, a pesar, como diz Inocencio, da pureza do estilo e de não estar muito eivado dos defeitos da escola gongorica, que então dominava na nossa literatura.\n\nTrasladou para vernaculo o poema latino de Justino, com o titulo de Justino Lusitano, e deixou muitas composições ineditas em prosa e verso.\n\nExerceu cargos muito importantes, como o de secretario da Junta dos Tres Estados, e ainda outros. Faleceu em Lisboa a 4 de Agôsto de 1729.",
+    "categories": [
+        "history",
+        "culture",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento de Troilo de Vasconcelos da Cunha em 1654 e onde seu pai exercia o cargo de governador e capitão-general do arquipélago."
+        ],
+        "Lisboa": [
+            "Local onde Troilo de Vasconcelos da Cunha faleceu a 4 de Agôsto de 1729."
+        ]
+    },
+    "people": {
+        "Troilo de Vasconcelos da Cunha": [
+            "Poeta e escritor nascido no Funchal em 1654, autor de 'O Espelho do Invisivel' e tradutor de 'Justino Lusitano'."
+        ],
+        "Bartolomeu de Vasconcelos": [
+            "Pai de Troilo de Vasconcelos da Cunha e governador e capitão-general do arquipélago da Madeira na época do nascimento do filho."
+        ],
+        "Barbosa Machado": [
+            "Autor que consagra páginas a Troilo de Vasconcelos da Cunha na sua obra 'Bibliotheca Lusitana'."
+        ],
+        "Costa e Silva": [
+            "Autor que menciona Troilo de Vasconcelos da Cunha no 'Ensaio Critico dos Poetas Portugueses'."
+        ],
+        "Inocencio": [
+            "Comentador que fala sobre a obra de Troilo de Vasconcelos da Cunha, destacando a pureza do estilo e os defeitos da escola gongorica."
+        ]
+    },
+    "years": {
+        "1654": [
+            "Nascimento de Troilo de Vasconcelos da Cunha no Funchal."
+        ],
+        "1729": [
+            "Morte de Troilo de Vasconcelos da Cunha em Lisboa."
+        ]
+    }
+}

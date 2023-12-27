@@ -1,0 +1,53 @@
+{
+    "id": 355,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Azevedo (Antonio Pedro de)",
+    "fl": "A",
+    "original_title": "Azevedo (Antonio Pedro de)",
+    "body": "> Nasceu em Caminha a 7 de Fevereiro de 1814 e visitou pela primeira vez a Madeira nos tempos da usurpação, sendo a esse tempo alferes de infantaria. Tendo tirado o curso de engenharia depois da restauração da Carta, voltou a esta ilha, onde desempenhou por largos anos o cargo de director das Obras Publicas do Distrito. Levantou em 1842 e 1843, justamente com os oficiais do vapor de guerra britanico Styx, as cartas do Porto Santo, Madeira e Desertas, publicadas respectivamente em 1877, 1879 e 1886. Faleceu em Lisboa a 10 de Agosto de 1889, sendo então general de divisão reformado.",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caminha": [
+            "Localidade de nascimento de Antonio Pedro de Azevedo."
+        ],
+        "Madeira": [
+            "Ilha onde Antonio Pedro de Azevedo desempenhou o cargo de diretor das Obras Publicas do Distrito."
+        ],
+        "Porto Santo": [
+            "Ilha onde as cartas foram levantadas."
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Alferes de infantaria que desempenhou o cargo de diretor das Obras Publicas do Distrito."
+        ]
+    },
+    "years": {
+        "1814": [
+            "Ano de nascimento de Antonio Pedro de Azevedo"
+        ],
+        "1842": [
+            "Ano em que levantou as cartas do Porto Santo, Madeira e Desertas"
+        ],
+        "1843": [
+            "Ano em que levantou as cartas do Porto Santo, Madeira e Desertas"
+        ],
+        "1877": [
+            "Ano de publicação das cartas do Porto Santo"
+        ],
+        "1879": [
+            "Ano de publicação das cartas da Madeira"
+        ],
+        "1886": [
+            "Ano de publicação das cartas das Desertas"
+        ],
+        "1889": [
+            "Ano de falecimento de Antonio Pedro de Azevedo"
+        ]
+    }
+}

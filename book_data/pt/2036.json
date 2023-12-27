@@ -1,0 +1,37 @@
+{
+    "id": 2036,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo do Salão",
+    "fl": "L",
+    "original_title": "Lombo do Salão",
+    "body": "Sítio povoado da freguesia da Calheta. Com a invocação de Santo António dos Milagres, encontra-se ali, onde chamam o Vale dos Amores, uma pequena capela, que é hoje (1921) propriedade de Juvenal Raimundo de Vasconcelos. Também existiu neste sítio a Capela dos Santos Cosme e Damião, fundada em 1681 pelo médico António de França Gomes. Ainda ali se encontra, no lugar conhecido pelo nome de Cadeado, uma capela dedicada a São Francisco Xavier e construída, do ano de 1693, por Manuel da Silva Pinheiro.",
+    "categories": [
+        "religion",
+        "architecture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Juvenal Raimundo de Vasconcelos": [
+            "Proprietário da capela"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Ano em que a capela passou a ser propriedade de Juvenal Raimundo de Vasconcelos"
+        ],
+        "1681": [
+            "Fundação da Capela dos Santos Cosme e Damião"
+        ],
+        "1693": [
+            "Construção da capela dedicada a São Francisco Xavier"
+        ]
+    }
+}

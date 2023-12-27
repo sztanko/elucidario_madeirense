@@ -1,0 +1,47 @@
+{
+    "id": 2472,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Boa Hora (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Hora (Capelas de)",
+    "body": "A capela de Nossa Senhora da Boa Hora fica no sítio da Torre, da freguesia de Câmara de Lobos e é propriedade da condessa de Torre Bela (1921). Foi fundada pelo morgado António Correia Bettencourt Berenguer. Tinha capelão privativo. Com a mesma denominação, «por cima desta cidade», se levantava uma capela, construída em 1726 pelo capitão António de Carvalho Drumond e sua mulher D. Inacia Micaela Henriques, tendo a escritura de dotação a data de 22 de Maio de 1726.\n\nNo sítio da Fajã, da freguesia do Arco da Calheta, se erigiu uma capela consagrada a N. S. da Boa Hora, de que apenas restam algumas ruínas.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Torre": [
+            "Sítio"
+        ],
+        "Câmara de Lobos": [
+            "Freguesia"
+        ],
+        "Fajã": [
+            "Sítio"
+        ],
+        "Arco da Calheta": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "António Correia Bettencourt Berenguer": [
+            "Fundador da capela"
+        ],
+        "António de Carvalho Drumond": [
+            "Fundador da capela"
+        ],
+        "D. Inacia Micaela Henriques": [
+            "Fundadora da capela"
+        ]
+    },
+    "years": {
+        "1726": [
+            "Construção da capela por António de Carvalho Drumond"
+        ]
+    }
+}

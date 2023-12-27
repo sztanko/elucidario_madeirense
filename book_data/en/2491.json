@@ -1,0 +1,33 @@
+{
+    "id": 2491,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Fátima",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Fátima",
+    "body": "At the site of Pico do Galo, in the parish of Câmara de Lobos, Father António de Abreu Vieira founded a chapel of this invocation, which was consecrated on October 11, 1931, with donations collected in the parish.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Pico do Galo": [
+            "Locality on the island of Madeira"
+        ],
+        "Câmara de Lobos": [
+            "Locality on the island of Madeira"
+        ]
+    },
+    "people": {
+        "António de Abreu Vieira": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1931": [
+            "Year of the consecration of the chapel"
+        ]
+    }
+}

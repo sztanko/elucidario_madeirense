@@ -1,0 +1,32 @@
+{
+    "id": 3315,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sequeira (Dr. Mauricio Augusto de)",
+    "fl": "S",
+    "original_title": "Sequeira (Dr. Mauricio Augusto de)",
+    "body": "Nasceu no Funchal a 17 de Julho de 1845 e nesta cidade faleceu a 31 de Outubro de 1911. Era bacharel formado em filosofia e medicina pela Universidade de Coimbra e exerceu a profissão medica no Funchal, tendo também sido aqui professor da extinta Escola Medico-Cirurgica e da cadeira de física, química e historia natural no nosso liceu. Escreveu um compêndio de física para uso dos institutos secundários, que não chegou a dar á estampa, cremos que por haver perdido a vista alguns anos antes do seu falecimento e ter abandonado a partir de então os estudos científicos a que se dedicava. V. Mouraria.",
+    "categories": [
+        "health",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento e falecimento."
+        ]
+    },
+    "people": {
+        "Dr. Mauricio Augusto de Sequeira": [
+            "Bacharel formado em filosofia e medicina."
+        ]
+    },
+    "years": {
+        "1845": [
+            "Ano de nascimento."
+        ],
+        "1911": [
+            "Ano de falecimento."
+        ]
+    }
+}

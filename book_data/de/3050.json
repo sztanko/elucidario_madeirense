@@ -1,0 +1,22 @@
+{
+    "id": 3050,
+    "lang": "de",
+    "is_original": false,
+    "title": "Drei Könige (Bucht und Hafen)",
+    "fl": "D",
+    "original_title": "Reis Magos (Enseada e Porto dos)",
+    "body": "An der Küste der Gemeinde Caniço gibt es eine Bucht namens Drei Könige, die einen Strand und einen kleinen Hafen gleichen Namens hat, wo sich ein Fischerzentrum von einiger Bedeutung befindet.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "An der Küste"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

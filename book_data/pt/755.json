@@ -1,0 +1,26 @@
+{
+    "id": 755,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Caramanchão",
+    "fl": "C",
+    "original_title": "Caramanchão",
+    "body": "Sitio povoado da freguesia de Machico. Encontra-se ali a capela de São Cristovão, mandada edificar pelos filhos do morgado Cristovão Moniz de Meneses, em 1690, em virtude da paterna disposição testamentaria que a isso os obrigava.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {},
+    "people": {
+        "Cristovão Moniz de Meneses": [
+            "Morgado"
+        ]
+    },
+    "years": {
+        "1690": [
+            "Construção da capela de São Cristovão"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 3148,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sal",
+    "fl": "S",
+    "original_title": "Sal",
+    "body": "Nach den Schenkungsurkunden des Infanten D. Henrique durften nur die Begünstigten Salz auf dieser Insel und in Porto Santo verkaufen. Dieses Privileg verschwand nicht mit der Umwandlung der Lehen Madeiras in Oberlehen, aber es scheint in späterer Zeit wenig respektiert worden zu sein, denn am 6. Februar 1769 wurde eine Anweisung erlassen, dass der Bevollmächtigte des Marquis von Castello Melhor nicht gezwungen werden sollte, die Bevölkerung mit Salz zu versorgen, und jeder dieses Gut wie früher löschen und verkaufen könne.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Insel"
+        ]
+    },
+    "people": {
+        "D. Henrique": [
+            "Infant"
+        ],
+        "Marquês de Castello Melhor": [
+            "Bevollmächtigter"
+        ]
+    },
+    "years": {
+        "1769": [
+            "Erlass der Anweisung über die Salzversorgung"
+        ]
+    }
+}

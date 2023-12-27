@@ -1,0 +1,33 @@
+{
+    "id": 63,
+    "lang": "de",
+    "is_original": false,
+    "title": "Agrela (João Agostinho Pereira von)",
+    "fl": "A",
+    "original_title": "Agrela (João Agostinho Pereira de)",
+    "body": "Er wurde im Mai 1777 in Funchal geboren und gehörte einer alten und adligen Familie an, der das Amt des Stadtschreibers von Funchal im Jahr 1645 von König Johann IV. verliehen worden war. Dr. Álvaro de Azevedo zufolge war er einer der gebildetsten Madeirer seiner Zeit. Anfang des letzten Jahrhunderts ließ er die Abschrift der \"Saudades da Terra\" anfertigen, die Dr. Azevedo 1873 veröffentlichte.\n\n> Siehe Artikel \"Saudades da Terra\".\n\n\"Er war, so steht es im Diccionário Popular, sehr belesen und ein eifriger Erforscher der Geschichte; er verfasste eine Sammlung genealogischer Abhandlungen in 5 dicken, unveröffentlichten Bänden, die sich im Besitz seiner Erben befinden. Darin behandelt er alle adligen Familien, die sich auf Madeira niederließen, mit ihren Abstammungslinien sowie einige interessante Details. Die Arbeit zeugt von gründlicher Recherche, scharfem Verstand und großer Sorgfalt bei der Vermeidung von Fehlern - es ist sicher die elaborierteste und fehlerfreieste Abhandlung zur Geschichte Madeiras auf diesem Gebiet.\n\nDa er liberale Ideen vertrat, wurde er 1828 verhaftet und nach Lissabon gebracht, wo er ein Jahr auf der Fregatte D. Pedro und ein weiteres Jahr im Limoeiro-Gefängnis verbrachte. Schließlich wurde er für ein weiteres Jahr des Landes verwiesen. 1834 kehrte er in die Heimat zurück und starb im folgenden Jahr im Februar.\"",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Agostinho Pereira de Agrela": [
+            "Historiker und Erforscher der Geschichte"
+        ]
+    },
+    "years": {
+        "1777": [
+            "Geburt von João Agostinho Pereira de Agrela"
+        ],
+        "1645": [
+            "Verleihung des Amtes des Stadtschreibers von Funchal an einen Vorfahren von Pereira de Agrela"
+        ],
+        "1828": [
+            "Verhaftung von João Agostinho Pereira de Agrela in Lissabon"
+        ],
+        "1834": [
+            "Tod von João Agostinho Pereira de Agrela"
+        ]
+    }
+}

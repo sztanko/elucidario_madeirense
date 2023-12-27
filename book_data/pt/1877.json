@@ -1,0 +1,51 @@
+{
+    "id": 1877,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Juízes de Paz",
+    "fl": "J",
+    "original_title": "Juízes de Paz",
+    "body": "O decreto de 16 de Maio de 1832 criou um juiz de paz em cada uma das freguesias de que se compusessem os julgados, devendo o mesmo juiz ser eleito pelo povo. Eram destinados os juízes de paz a conciliar as partes, e de 1835 a 1840 desempenharam funções que pertenciam anteriormente aos juízes dos órfãos.\n\nO decreto de 29 de Março de 1890 determinou que os juízes de paz fossem de nomeação do Governo, e o de 5 de Junho de 1905 fixou a composição dos distritos de juízes de paz do Funchal, Ponta do Sol, Santa Cruz e São Vicente.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Ponta do Sol",
+        "Santa Cruz",
+        "São Vicente"
+    ],
+    "locations": {
+        "Funchal": [
+            "Cidade do Funchal"
+        ],
+        "Ponta do Sol": [
+            "Freguesia"
+        ],
+        "Santa Cruz": [
+            "Freguesia"
+        ],
+        "São Vicente": [
+            "Freguesia"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1832": [
+            "Criação do cargo de juiz de paz"
+        ],
+        "1835": [
+            "Início das funções dos juízes de paz"
+        ],
+        "1840": [
+            "Fim das funções dos juízes de paz"
+        ],
+        "1890": [
+            "Nomeação dos juízes de paz pelo Governo"
+        ],
+        "1905": [
+            "Fixação da composição dos distritos de juízes de paz"
+        ]
+    }
+}

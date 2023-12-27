@@ -1,0 +1,31 @@
+{
+    "id": 1449,
+    "lang": "de",
+    "is_original": false,
+    "title": "Festung S. Roque von Machico",
+    "fl": "F",
+    "original_title": "Forte de S. Roque de Machico",
+    "body": "Wurde während der philippinischen Herrschaft an der Mündung des Ribeirinho innerhalb der Bucht von Machico erbaut. Es lag neben dem Exerzierplatz von S. Roque.\n\n1695 war Pedro de Sousa Maciel der Kommandant.\n\nEs sind nur noch einige Mauerblöcke am Strand übrig geblieben.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "S. Roque"
+    ],
+    "locations": {
+        "Machico": [
+            "Mündung des Ribeirinho, Exerzierplatz von S. Roque"
+        ]
+    },
+    "people": {
+        "Pedro de Sousa Maciel": [
+            "Kommandant"
+        ]
+    },
+    "years": {
+        "1695": [
+            "Kommandant Pedro de Sousa Maciel"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 3464,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Teles de Meneses (Guilherme)",
+    "fl": "T",
+    "original_title": "Teles de Meneses (Guilherme)",
+    "body": "Nasceu na Madeira pelos anos de 1855, mas reside há muito em Portugal, sendo presentemente contador aposentado do antigo Tribunal de Contas, hoje Conselho Superior da Administração Financeira do Estado. Tendo vindo a esta ilha em 1894, residiu por alguns tempos na casa do Poiso e depois na do Areeiro, fazendo em ambas elas algumas observações meteorológicas, cujos resultados publicou mais tarde. Foi também administrador do concelho do Funchal, mas pouco tempo se demorou neste lugar por causa dum conflito que teve com o governador, por haver proibido em 7 de Março de 1896 que o povo se abastecesse das fontes de João Denis (1921). Publicou na 15ª série, n.° 6 (1896) do Boletim da Sociedade de Geografia de Lisboa, uma memória intitulada A Madeira e o dr. Douglas, que é uma resposta ao que este médico escreveu num folheto acerca das vantagens de Las Palmas sobre a Madeira, como estação de saúde para tuberculosos. O posto meteorológico do Areeiro, que nunca chegou a funcionar e a casa anexa, foram construídos sob a direcção de Guilherme Teles de Meneses. (1921)",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Poiso": [
+            "Localidade na ilha da Madeira"
+        ],
+        "Areeiro": [
+            "Localidade na ilha da Madeira"
+        ],
+        "Funchal": [
+            "Localidade na ilha da Madeira"
+        ],
+        "Las Palmas": [
+            "Localidade em Espanha"
+        ]
+    },
+    "people": {
+        "Guilherme Teles de Meneses": [
+            "Contador aposentado do antigo Tribunal de Contas, hoje Conselho Superior da Administração Financeira do Estado"
+        ]
+    },
+    "years": {
+        "1894": [
+            "Guilherme Teles de Meneses veio a esta ilha"
+        ],
+        "1896": [
+            "Conflito com o governador"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 154,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almanach Ecclesiasticum",
+    "fl": "A",
+    "original_title": "Almanach Ecclesiasticum",
+    "body": "Ha um calendário eclesiástico anual privativo desta diocese, destinado á direcção dos sacerdotes na recitação do oficio divino, celebração da missa, indicação das festas, etc.. Ha muitos anos que se imprime em Coimbra. Foi calendarista desta diocese o Dr. Antonio Rodrigues Porfirio Ribeiro de Vasconcelos, distinto lente de teologia na Universidade de Coimbra. O almanaque impresso mais antigo desta diocese, que conhecemos, é de 1858. Desde o ano de 1927 redige o Almanach Ecclesiasticum o padre José Augusto Rodrigues Amado.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Coimbra"
+        ],
+        "Universidade de Coimbra": [
+            "Universidade de Coimbra"
+        ]
+    },
+    "people": {
+        "Dr. Antonio Rodrigues Porfirio Ribeiro de Vasconcelos": [
+            "Calendarista desta diocese"
+        ],
+        "Padre José Augusto Rodrigues Amado": [
+            "Redator do Almanach Ecclesiasticum desde 1927"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Ano do almanaque mais antigo conhecido"
+        ]
+    }
+}

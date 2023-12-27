@@ -1,0 +1,31 @@
+{
+    "id": 3027,
+    "lang": "de",
+    "is_original": false,
+    "title": "Erholung (Die)",
+    "fl": "E",
+    "original_title": "Recreio (O)",
+    "body": "Diese Zeitung brachte 25 Ausgaben heraus, vom 1. Mai 1863 bis zum 13. Juli 1864, redigiert von Schülern unseres Gymnasiums.\n\nEs erschienen 43 Ausgaben einer Zeitung gleichen Namens vom 19. September 1897 bis zum 10. Juli 1898.",
+    "categories": [
+        "culture",
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1863": [
+            "Beginn der Veröffentlichung der Zeitung \"Erholung\", redigiert von Gymnasiasten"
+        ],
+        "1864": [
+            "Ende der Veröffentlichung der Zeitung \"Erholung\", redigiert von Gymnasiasten"
+        ],
+        "1897": [
+            "Beginn der Veröffentlichung einer Zeitung mit dem gleichen Titel \"Erholung\""
+        ],
+        "1898": [
+            "Ende der Veröffentlichung einer Zeitung mit dem gleichen Titel \"Erholung\""
+        ]
+    }
+}

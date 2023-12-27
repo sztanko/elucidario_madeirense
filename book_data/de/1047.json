@@ -1,0 +1,50 @@
+{
+    "id": 1047,
+    "lang": "de",
+    "is_original": false,
+    "title": "Costa Dias (Manuel da)",
+    "fl": "C",
+    "original_title": "Costa Dias (Manuel da)",
+    "body": "Er wurde in der Gemeinde Ponta do Pargo am 18. Oktober 1883 geboren und besuchte das Diözesanseminar, das Lyzeum in Funchal, das Technische Institut und die Militärakademie. Er verbrachte einige Zeit in Brasilien, bevor er sich am Lyzeum einschrieb, und während seiner Zeit als Schüler dieser Bildungseinrichtung gab er die republikanische Zeitung O Democrata heraus. Er leistete bald nach Abschluss seiner Militärausbildung Dienst in Afrika, war Dozent an der Kriegsakademie und vertrat Madeira im Parlament in der Legislaturperiode 1915 bis 1917. Veröffentlichungen: As subsistencias no exercito aliado anglo-luso, Lissabon, 1909; Colonizaçao dos Planaltos de Angola, Lissabon, 1913: Guerra Peninsular, 1808-1811; 0 Serviço de Subsistencias no Exercito Anglo-Luso, Bd. 1, 1913, Administração Militar, Bd. 1, 30. Aufl., 1918; Flandres, Bd. 1920. Er starb 1930 in Lissabon im Rang eines Majors der Militärverwaltung. Die „Diario da Madeira“ vom 12. Oktober 1930 veröffentlichte einen ausführlichen biografischen Artikel über diesen herausragenden Madeirer.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Pargo": [
+            "Geburtsort"
+        ],
+        "Funchal": [
+            "Studienort"
+        ]
+    },
+    "people": {
+        "Manuel da Costa Dias": [
+            "Vertreter Madeiras im Parlament, Autor mehrerer Werke"
+        ]
+    },
+    "years": {
+        "1883": [
+            "Geburt in der Gemeinde Ponta do Pargo"
+        ],
+        "1909": [
+            "Veröffentlichung von As subsistencias no exercito aliado anglo-luso"
+        ],
+        "1913": [
+            "Veröffentlichung von Colonizaçao dos Planaltos de Angola"
+        ],
+        "1915-1917": [
+            "Vertretung Madeiras im Parlament"
+        ],
+        "1918": [
+            "Veröffentlichung von Administração Militar"
+        ],
+        "1920": [
+            "Veröffentlichung von Flandres"
+        ],
+        "1930": [
+            "Tod in Lissabon"
+        ]
+    }
+}

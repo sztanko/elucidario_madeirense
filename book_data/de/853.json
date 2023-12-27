@@ -1,0 +1,39 @@
+{
+    "id": 853,
+    "lang": "de",
+    "is_original": false,
+    "title": "Friedhöfe",
+    "fl": "F",
+    "original_title": "Cemiterios",
+    "body": "Der älteste Friedhof Funchals, der zur Bestattung der Leichen katholischer Personen bestimmt war, ist der von S. Roque, der 1836 errichtet wurde. In diesem Jahr begannen auch die Arbeiten am Friedhof von Angustias, die erst 1838 abgeschlossen wurden. Der Friedhof von Santa Lazia stammt aus dem Jahr 1840 und der von S. Gonçalo aus dem Jahr 1841. Vor der Errichtung der Friedhöfe wurden die Leichen der Katholiken in den Kirchen oder auf deren Vorplätzen bestattet, obwohl es im Ort Angustias ein kleines Grundstück gab, das der Friedhof des Heiligen Hauses genannt wurde und zur Aufnahme der Leichen der Personen bestimmt war, die im Krankenhaus starben.\n\nDie Errichtung von Friedhöfen in einigen Landgemeinden verzögerte sich. Wie aus einer Zeitung jener Epoche hervorgeht, gab es 1862 in den Gemeinden S. Jorge und Arco de S. Jorge noch keine Bereiche für die Bestattung von Leichen. Am 19. August und 26. Oktober 1850 empfahl der Ratsherr José Silvestre Ribeiro den Gemeinderäten den Bau von Friedhöfen, da es an vielen Orten des Bezirks \"die abergläubische Praxis gab, Tote in Tempeln zu begraben\".\n\nDer Friedhof von Porto Santo wurde 1838 fertiggestellt und ist damit einer der ältesten des Archipels.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Ratsherr"
+        ]
+    },
+    "years": {
+        "1836": [
+            "Bau des Friedhofs S. Roque"
+        ],
+        "1838": [
+            "Fertigstellung des Friedhofs Angustias"
+        ],
+        "1840": [
+            "Bau des Friedhofs Santa Lazia"
+        ],
+        "1841": [
+            "Bau des Friedhofs S. Gonçalo"
+        ],
+        "1862": [
+            "Fehlen von Bereichen für die Bestattung von Leichen in den Gemeinden S. Jorge und Arco de S. Jorge"
+        ],
+        "1850": [
+            "Empfehlung für den Bau von Friedhöfen durch José Silvestre Ribeiro"
+        ]
+    }
+}

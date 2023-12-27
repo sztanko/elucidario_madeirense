@@ -1,0 +1,31 @@
+{
+    "id": 2538,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nova de Santa Maria (Rua)",
+    "fl": "N",
+    "original_title": "Nova de Santa Maria (Rua)",
+    "body": "Sensivelmente paralela à rua de Santa Maria e a pouca distancia desta, fica a rua Nova de Santa Maria, que foi aberta pouco depois da aluvião de 1803, existindo então ali apenas um pequeno beco. Entre as embocaduras destas duas ruas, ficava situada a igreja de Nossa Senhora do Calhau, ou de Santa Maria, que deu o nome ás mesmas ruas. Estende-se desde a margem da ribeira de João Gomes até ao largo das Bicas ou Torneiras, que é o começo da rua Bela de S. Tiago. Tem hoje o nome de Latino Coelho.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Maria": [
+            "Rua paralela"
+        ],
+        "Calhau": [
+            "Localização da igreja"
+        ]
+    },
+    "people": {
+        "Latino Coelho": [
+            "Nome atual da rua"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Aluvião"
+        ]
+    }
+}

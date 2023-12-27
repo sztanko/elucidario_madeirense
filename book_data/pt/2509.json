@@ -1,0 +1,53 @@
+{
+    "id": 2509,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Nazaré (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Nazaré (Capelas de)",
+    "body": "Há uma capela com este nome, na freguesia do Arco da Calheta, que foi a sede dum morgadio instituído pelas duas irmãs Antonia de Cristo e Leonarda do Horto na pessoa de seu sobrinho Francisco Friz de Barros Maciel. Foi este que edificou a capela pelo terceiro ou ultimo quartel do século XVII. Para ela fez trasladar em 1694 os restos mortais de seu tio o padre Inacio Barbosa da Silva, que era irmão das instituidoras do vinculo e que tinha sido um dos proprietários do prédio em que a capela se levantara. Tendo caído em grande ruína, foi esta capela reedificada em 1830 por Antonio João Barbosa de Matos e Câmara, descendente dos fundadores. Existe com a mesma denominação uma capela na freguesia de Câmara de Lobos, fundada em 1757 por Maria do Rosário Henriques, viúva de Pedro Bernardes Cardeiro. A respeito desta ou outra possuidora desta capela, dá o Dr. Alvaro de Azevedo a seguinte curiosa informação: \"É tradição entre os pescadores de Câmara de Lobos que no princípio deste século a morgada da Nazareth, armada de espadim, se collocava no alto onde é a capella; chamava os barcos de pesca que vinham entrando no porto; e, por privilegio ou abuso, delles tomava o peixe que queria e o pagava como lhe parecia.\" Existe ainda na freguesia de São Martinho, no sítio chamado da Nazaré, uma capela dedicada a esta invocação, que foi fundada por Martim Vaz no ano de 1627.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Câmara de Lobos",
+        "São Martinho"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Friz de Barros Maciel": [
+            "Fundador da capela na freguesia do Arco da Calheta"
+        ],
+        "Antonia de Cristo": [
+            "Uma das instituidoras do morgadio"
+        ],
+        "Leonarda do Horto": [
+            "Uma das instituidoras do morgadio"
+        ],
+        "Antonio João Barbosa de Matos e Câmara": [
+            "Descendente dos fundadores da capela na freguesia do Arco da Calheta"
+        ],
+        "Maria do Rosário Henriques": [
+            "Fundadora da capela na freguesia de Câmara de Lobos"
+        ],
+        "Martim Vaz": [
+            "Fundador da capela no sítio chamado da Nazaré"
+        ]
+    },
+    "years": {
+        "1694": [
+            "Trasladação dos restos mortais de padre Inacio Barbosa da Silva para a capela na freguesia do Arco da Calheta"
+        ],
+        "1757": [
+            "Fundação da capela na freguesia de Câmara de Lobos"
+        ],
+        "1627": [
+            "Fundação da capela no sítio chamado da Nazaré"
+        ]
+    }
+}

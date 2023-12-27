@@ -1,0 +1,23 @@
+{
+    "id": 350,
+    "lang": "en",
+    "is_original": false,
+    "title": "Azeda",
+    "fl": "A",
+    "original_title": "Azeda",
+    "body": "> In Madeira, it is the Rumex madèrensis, of the Polygonaceae family; in Porto Santo, it is the Scorpiurus sulcata, of the Leguminosae family. The former of these species is used internally, in infusion, to purify the blood, and can be used for salad, spinach, etc.; the latter is good quality forage. Scorpiurus sulcata is common in Madeira, where it is known by the name of cabreira.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island where Rumex madèrensis is found"
+        ],
+        "Porto Santo": [
+            "Island where Scorpiurus sulcata is found"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,29 @@
+{
+    "id": 58,
+    "lang": "de",
+    "is_original": false,
+    "title": "Afonso",
+    "fl": "A",
+    "original_title": "Afonso",
+    "body": "Ein sehr alter Familienname bei uns. João Afonso, über den wir unten sprechen, war einer der ersten Siedler dieser Insel. Zu Beginn des 16. Jahrhunderts gründeten Martim Afonso und seine Frau Isabel Afonso die Kapelle der Engel in der Pfarrei Canhas. Schon früher hatte ein Álvaro Afonso 1483 das Grundstück für den Bau des Barmherzigkeitsheims gespendet.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {},
+    "people": {
+        "João Afonso": [
+            "Früher Siedler der Insel"
+        ]
+    },
+    "years": {
+        "16. Jahrhundert": [
+            "Gründung der Kapelle der Engel durch Martim Afonso und Isabel Afonso"
+        ],
+        "1483": [
+            "Spende des Grundstücks für den Bau des Barmherzigkeitsheims durch Álvaro Afonso"
+        ]
+    }
+}

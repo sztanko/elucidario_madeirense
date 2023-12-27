@@ -1,0 +1,27 @@
+{
+    "id": 2690,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pavia (Padre Teodoro)",
+    "fl": "P",
+    "original_title": "Pavia (Padre Teodoro)",
+    "body": "In the year 1705, the book 'Il Primo Scuoprimento dell'isola di Madera fatto da Roberto Macico inglese...' was published in Tortona, Italy, translated from Portuguese and greatly expanded by Father Teodoro de Pavia. It is a volume of 190 pages, divided into two chapters, the first of which, which gave the title to the book, is the literal translation of the famous third 'Epanafora' by D. Francisco Manuel de Melo, first published in 1660 and subsequently reissued. As is known, it was due to this narrative by D. Francisco de Melo that the legendary adventure of Roberto Machim became well known and even achieved a certain status of historical truth among some more credulous writers. The second chapter of Father Pavia's book is of greater interest to the Madeirans, due to the information it provides regarding the second half of the 17th century and the beginning of the following century, while the first is a version of a well-known and widely commented work, especially in the scholarly annotations of the 'Saudades da Terra'.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Roberto Macico": [
+            "Author of the book 'Il Primo Scuoprimento dell'isola di Madera fatto da Roberto Macico inglese...'"
+        ],
+        "D. Francisco Manuel de Melo": [
+            "Author of the famous third 'Epanafora'"
+        ]
+    },
+    "years": {
+        "1705": [
+            "Publication of the book 'Il Primo Scuoprimento dell'isola di Madera fatto da Roberto Macico inglese...'"
+        ]
+    }
+}

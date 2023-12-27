@@ -1,0 +1,61 @@
+{
+    "id": 1245,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Escola Lancasteriana",
+    "fl": "E",
+    "original_title": "Escola Lancasteriana",
+    "body": "Foi o súbdito inglês José Phelps quem introduziu na Madeira o ensino mútuo pelo sistema de Lancaster. A Escola Lancasteriana, fundada em 1819, esteve primeiro numa casa situada ao Ribeirinho, passando daí para a Travessa do Surdo o depois para o prédio á Rua da Princesa, hoje 31 de Janeiro, onde está agora instalada a escola masculina da freguesia de Santa Luzia. Este prédio foi mandado construir pela Associação Funchalense destinada a promover o ensino mútuo, tendo o terreno sido adquirido por ela nos fins do ano de 1822. A Associação Funchalense destinada a promover o ensino mutuo foi fundada em 21 de Dezembro de 1821, tendo sido o seu primeiro tesoureiro o referido José Phelps e o seu primeiro presidente o cónego Lúcio Antonio Lopes Rocha. Esta associação promovia bailes e subscrições para obter os fundos de que necessitava para a sustentação da escola. Em 25 de Julho de 1827 dizia o director da aula de ensino mútuo, pertencente á Associação promotora desse ensino: “Esta aula tem tido desde a sua abertura no 1.º de Dezembro de 1823 até o presente, 275 alunos, e tem agora 78 e lugar para 305. Deve advertir-se que o terrível instrumento chamado palmatória é proscrito nesta aula, onde se conseguem os mesmos ou melhores resultados por meios mais brandos e ao mesmo tempo mais sensíveis ao amor próprio dos alunos“. A escola a que nos referimos era destinada a crianças do sexo masculino; houve, porém, uma outra destinada a meninas, estabelecida pelas snr.as Blackburn e Phelps. A sustentação desta ultima escola corria em 1850 por conta de uma sociedade de senhoras nacionais e estrangeiras, contribuindo o Governo com parte do ordenado da mestra, ao passo que a sustentação da escola masculina estava então a cargo do Estado, sendo pago por este o vencimento do respectivo professor. Desconhecemos o ano em que o sistema de Lancaster deixou de ser adoptado na antiga escola da rua da Princesa, mas é de supor que ele fosse banido dali em 1828 quando o professor Alexandre Luiz da Cunha se ausentou para a América. O edifício da antiga rua da Princesa, hoje 31 de Janeiro, foi consertado por conta do Estado em 1850, tendo corrido também por conta deste as obras da entrada do mesmo edifício, executadas em 1851 por ordem do governador José Silvestre Ribeiro. Em 1912 e 1914 mandou a Câmara fazer vários consertos na escola. Há uma publicação intitulada Relatório dos progressos da Escola Lancasteriana na Província da Madeira, que tem no fim a data de 6 de Fevereiro de 1823, onde se encontram interessantes informações sobre o método de ensino de Lancaster e a maneira como ele foi introduzido na ilha.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Ribeirinho": [
+            "Localização inicial da escola"
+        ],
+        "Travessa do Surdo": [
+            "Localização subsequente da escola"
+        ],
+        "Rua da Princesa": [
+            "Localização atual da escola"
+        ]
+    },
+    "people": {
+        "José Phelps": [
+            "Introduziu o ensino mútuo na Madeira"
+        ],
+        "Cónego Lúcio Antonio Lopes Rocha": [
+            "Primeiro presidente da Associação Funchalense"
+        ]
+    },
+    "years": {
+        "1819": [
+            "Fundação da Escola Lancasteriana"
+        ],
+        "1821": [
+            "Fundação da Associação Funchalense"
+        ],
+        "1823": [
+            "Publicação do Relatório dos progressos da Escola Lancasteriana"
+        ],
+        "1828": [
+            "Ano em que o sistema de Lancaster deixou de ser adotado na antiga escola da rua da Princesa"
+        ],
+        "1850": [
+            "Ano em que o edifício da rua da Princesa foi consertado por conta do Estado"
+        ],
+        "1851": [
+            "Ano em que as obras da entrada do edifício foram executadas por ordem do governador José Silvestre Ribeiro"
+        ],
+        "1912": [
+            "Ano em que a Câmara fez vários consertos na escola"
+        ],
+        "1914": [
+            "Ano em que a Câmara fez vários consertos na escola"
+        ]
+    }
+}

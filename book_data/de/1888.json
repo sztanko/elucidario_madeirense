@@ -1,0 +1,39 @@
+{
+    "id": 1888,
+    "lang": "de",
+    "is_original": false,
+    "title": "Justizausschuss",
+    "fl": "J",
+    "original_title": "Junta da Justiça",
+    "body": "Er wurde in diesem Archipel durch das Königliche Dekret vom 26. Oktober 1803 gegründet und bestand aus dem Gouverneur und Generalkapitän, dem Bezirksrichter, dem Friedensrichter und dem Richter oder Verwalter der Residuen und Kapellen. Wir wissen nicht, wie weit seine Befugnisse reichten, aber wir haben irgendwo gelesen, dass er sich mit den in der Grafschaft begangenen Verbrechen befasste und dass gegen seine Entscheidungen beim Obersten Gerichtshof in Lissabon Berufung eingelegt werden konnte. Aus unbekannten Gründen informierte der Gouverneur und Generalkapitän 1809 die Regierung des Mutterlandes, dass es angebracht sei, den Richter der Residuen und Kapellen aus dem Justizausschuss auszuschließen. Und 1824 beschwerte sich der Gouverneur bei den übergeordneten Behörden über die Exzesse, die der genannte Ausschuss begangen hatte, und schlug vor, das Königliche Dekret vom 15. Oktober 1810, das auf den Azoren den Strafjustizausschuss geschaffen hatte, auf diesen Archipel auszudehnen. Wir wissen nicht, wann er aufgelöst wurde, aber er war noch 1830 bei uns tätig.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Gouverneur und Generalkapitän": [
+            "Titel eines politischen und militärischen Amtes."
+        ],
+        "Bezirksrichter": [
+            "Für die Rechtsprechung in einem Bezirk zuständiger Richter."
+        ],
+        "Friedensrichter": [
+            "Richter mit Zuständigkeit außerhalb seines Wohnortes."
+        ],
+        "Richter oder Verwalter der Residuen und Kapellen": [
+            "Für die Verwaltung der Güter und Einkünfte verstorbener Personen ohne Erben zuständig."
+        ]
+    },
+    "years": {
+        "1803": [
+            "Gründung des Justizausschusses durch königliches Dekret."
+        ],
+        "1809": [
+            "Ausschluss des Richters der Residuen und Kapellen aus dem Justizausschuss."
+        ],
+        "1824": [
+            "Beschwerde des Gouverneurs über Exzesse des Justizausschusses."
+        ]
+    }
+}

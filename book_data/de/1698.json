@@ -1,0 +1,42 @@
+{
+    "id": 1698,
+    "lang": "de",
+    "is_original": false,
+    "title": "Heraldo da Madeira (O)",
+    "fl": "H",
+    "original_title": "Heraldo da Madeira (O)",
+    "body": "Diese Tageszeitung begann am 14. August 1904 zu erscheinen und stellte ihre Veröffentlichung am 14. August 1915 nach 3218 Ausgaben ein. In den ersten Jahren hatte sie acht Seiten und veröffentlichte sonntags Grafiken. Eine Zeit lang erschien von dieser Zeitung eine englischsprachige Ausgabe, die speziell für die Passagiere der ausländischen Dampfer bestimmt war, die den Hafen von Funchal anliefen. Diese Ausgabe erschien unregelmäßig.\n\nChefredakteur war Kapitän J. Reis Gomes. Hauptredakteur war Pater Fernando A. Silva und Redakteure waren die Leutnants A. Artur Sarmento und Jaime de Campos Ramalho.\n\nSie veröffentlichte eine beträchtliche Anzahl unveröffentlichter Schriften und wertvoller Dokumente, die für die Geschichte dieses Archipels von großem Interesse sind.",
+    "categories": [
+        "culture",
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem die Zeitung _Heraldo da Madeira_ veröffentlicht wurde und eine englischsprachige Ausgabe für die Passagiere ausländischer Dampfer herausgab."
+        ]
+    },
+    "people": {
+        "J. Reis Gomes": [
+            "Chefredakteur der Zeitung _Heraldo da Madeira_."
+        ],
+        "Fernando A. Silva": [
+            "Hauptredakteur der Zeitung _Heraldo da Madeira_."
+        ],
+        "A. Artur Sarmento": [
+            "Redakteur der Zeitung _Heraldo da Madeira_."
+        ],
+        "Jaime de Campos Ramalho": [
+            "Redakteur der Zeitung _Heraldo da Madeira_."
+        ]
+    },
+    "years": {
+        "1904": [
+            "Beginn der Veröffentlichung der Zeitung _Heraldo da Madeira_."
+        ],
+        "1915": [
+            "Einstellung der Veröffentlichung der Zeitung _Heraldo da Madeira_."
+        ]
+    }
+}

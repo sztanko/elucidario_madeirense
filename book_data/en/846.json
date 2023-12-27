@@ -1,0 +1,33 @@
+{
+    "id": 846,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cephalopods",
+    "fl": "C",
+    "original_title": "Cefalópodos",
+    "body": "There are several species of this class of mollusks, both coastal and pelagic or abyssal.\n\nThe most common are: the octopus (Octopus vulgaris), the squid (Loligo vulgaris), and the cuttlefish (Sepia officinalis), all of which are edible; the Spirula Peronii, which washes ashore in large numbers on beaches like Caniçal, Porto da Cruz, and Porto Santo; and the pelagic and edible flying squid (Ommastrephes sagittatus), common a few miles off the coast. Among the rarer species is the Argonauta argo, which has been seen in Porto Santo.\n\nAlexandre A. Girard cited 11 species of these mollusks, some of them doubtful, while Roberto B. Watson mentioned only the first four mentioned above, as well as the last one.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caniçal": [
+            "Location where the Spirula Peronii washes ashore"
+        ],
+        "Porto da Cruz": [
+            "Location where the Spirula Peronii washes ashore"
+        ],
+        "Porto Santo": [
+            "Location where the Spirula Peronii washes ashore and where the Argonauta argo was seen"
+        ]
+    },
+    "people": {
+        "Alexandre A. Girard": [
+            "Cited 11 species of cephalopods"
+        ],
+        "Roberto B. Watson": [
+            "Mentioned the four common species and the last one"
+        ]
+    },
+    "years": {}
+}

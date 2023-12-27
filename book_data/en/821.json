@@ -1,0 +1,31 @@
+{
+    "id": 821,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castelo Branco (José de Azevedo)",
+    "fl": "C",
+    "original_title": "Castelo Branco (José de Azevedo)",
+    "body": "His appointment as civil governor of this district was decreed on January 24, 1890, and he took office on the 30th of the same month and year. He was born in Vila Real on October 5, 1852, and graduated in medicine in 1878.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José de Azevedo Castelo Branco": [
+            "Civil governor of this district"
+        ]
+    },
+    "years": {
+        "1890": [
+            "Appointment as civil governor of this district"
+        ],
+        "1852": [
+            "Born in Vila Real on October 5, 1852"
+        ],
+        "1878": [
+            "Graduated in medicine in 1878"
+        ]
+    }
+}

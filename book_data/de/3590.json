@@ -1,0 +1,44 @@
+{
+    "id": 3590,
+    "lang": "de",
+    "is_original": false,
+    "title": "Vera Cruz (Kapelle von)",
+    "fl": "V",
+    "original_title": "Vera Cruz (Capela da)",
+    "body": "«João Gonsalves Zargo, sagt Frutuoso,... weiter unten an einigen sehr hohen Bergen vorbei, zeichnete er dort eine andere Kirche vom Heiligen Kreuz...». Der Entdecker hatte die Idee zur Gründung dieser Kapelle, obwohl sie erst später gebaut wurde, in einem Jahr, das unbekannt ist. Es ist jedoch eine der ältesten Kapellen des Bistums und wurde im Laufe der Zeit mehrmals umgebaut, so dass heute sicherlich nichts mehr vom ersten Bau übrig ist. Anfangs gehörte sie zur Pfarrei von Câmara de Lobos oder Ribeira Brava und begann, als Mitte des 16. Jahrhunderts die Gemeinde Campanário gegründet wurde, zu dieser zu gehören. Und seit 1848, als Quinta Grande eine eigenständige Pfarrei wurde, gehört die alte Kapelle vom Heiligen Kreuz zu dieser Gemeinde.\n\nSie befindet sich an dem Ort, der ihr den Namen gab und von dem aus man eine schöne und weite Aussicht genießt. Sie hat einige Male als Pfarrkirche gedient und rund um sie befindet sich der Friedhof der Gemeinde. Das Fest des Schutzpatrons zieht eine beträchtliche Anzahl von Menschen dorthin, besonders aus den umliegenden Gemeinden. (Siehe Quinta Grande).",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário",
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Pfarrei"
+        ],
+        "Ribeira Brava": [
+            "Pfarrei"
+        ],
+        "Campanário": [
+            "Gemeinde"
+        ],
+        "Quinta Grande": [
+            "Pfarrei"
+        ]
+    },
+    "people": {
+        "João Gonsalves Zargo": [
+            "Entdecker"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Quinta Grande wurde eigenständige Pfarrei"
+        ],
+        "16. Jahrhundert": [
+            "Zugehörigkeit zur Gemeinde Campanário"
+        ]
+    }
+}

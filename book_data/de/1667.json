@@ -1,0 +1,37 @@
+{
+    "id": 1667,
+    "lang": "de",
+    "is_original": false,
+    "title": "Guiomar (Aussichtspunkt von D.)",
+    "fl": "G",
+    "original_title": "Guiomar (Mirante de D.)",
+    "body": "In den alten Anweisungen zur Ankerung im Hafen von Funchal ist der Aussichtspunkt von D. Guiomar als leicht zu erkennender Orientierungspunkt für die Besatzungen der Schiffe markiert. Er befindet sich auf dem Landgut Quinta das Angústias, das dem Grafen Alexandre Carlos de Lambert gehörte (siehe entsprechenden Artikel) und am 19. August 1903 durch eine Urkunde an Dr. Julio Paulo de Freitas verkauft wurde. D. Guiomar, oder besser D. Guiomar Madalena Acciaioly, die Dame, die dem Aussichtspunkt des alten Landguts Quinta das Angústias ihren Namen gab, lebte Ende des 18. und Anfang des 19. Jahrhunderts. Ihr Besitz wurde aufgrund von Schulden bei der Staatskasse gepfändet. Ihr gehörte das Haus am Domplatz, wo sich das Gefängnis befand (siehe entsprechenden Artikel), und sie besaß andere Immobilien in der Stadt. Im Archiv der Marine und Übersee wird auf ein Schreiben des Gouverneurs D. José Manuel da Câmara an D. Rodrigo de Sousa Coutinho Bezug genommen, das sich auf die Übersendung von Wechseln der Finanzbehörde an das Königliche Schatzamt sowie auf Juwelen, Silber und Tapisserien bezieht, die zum Nachlass von D. Guiomar Madalena gehören.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hafen"
+        ],
+        "Quinta das Angústias": [
+            "Gehörte dem Grafen Alexandre Carlos de Lambert"
+        ]
+    },
+    "people": {
+        "Graf Alexandre Carlos de Lambert": [
+            "Besitzer des Landguts Quinta das Angústias"
+        ],
+        "Dr. Julio Paulo de Freitas": [
+            "Käufer des Landguts Quinta das Angústias"
+        ],
+        "D. Guiomar Madalena Acciaioly": [
+            "Dame, die dem Aussichtspunkt ihren Namen gab"
+        ]
+    },
+    "years": {
+        "1903": [
+            "Verkauf des Landguts Quinta das Angústias an Dr. Julio Paulo de Freitas"
+        ]
+    }
+}

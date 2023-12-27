@@ -1,0 +1,29 @@
+{
+    "id": 2904,
+    "lang": "en",
+    "is_original": false,
+    "title": "Povo (O)",
+    "fl": "P",
+    "original_title": "Povo (O)",
+    "body": "It began to be published on January 1, 1883, and ceased on February 4, 1888, with 260 issues.\nAnother periodical with the same title began its publication on January 31, 1907, and ceased on September 30, 1917, with 1248 issues. It was published weekly, but from December 15, 1910, to the end of October 1913, it was a daily newspaper.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1883": [
+            "Start of publication of the periodical"
+        ],
+        "1888": [
+            "Suspension of publication of the periodical"
+        ],
+        "1907": [
+            "Start of publication of the other periodical with the same title"
+        ],
+        "1917": [
+            "Suspension of publication of the other periodical with the same title"
+        ]
+    }
+}

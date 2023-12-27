@@ -1,0 +1,47 @@
+{
+    "id": 3386,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sondagens",
+    "fl": "S",
+    "original_title": "Sondagens",
+    "body": "> Madeira is surrounded by a fairly deep sea, with the sounding line reaching 4205 meters, 120 miles off the north coast of the island, and 3019 meters, 50 miles from the same coast, in the direction of the Azores. Between Madeira and the Canaries, the sounding line reached 4392 meters, and between Madeira and the coast of Africa, a short distance from the island, it reached 4071 meters. Between Madeira and Porto Santo, depths exceeding 2000 meters have been noted in some points, while between Madeira and the Azores, the sounding line has reached 4895 meters.\n>\n> The results of the numerous soundings carried out in the seas surrounding Madeira, Porto Santo, and the Desertas are recorded in the geo-hydrographic charts published by the engineer Antonio Pedro de Azevedo in 1877, 1879, and 1886.\n>\n> In the seas off Ponta do Pargo, there is a shoal about a mile and a half in length, from which the coastal boats are forced to move away when the winds blow from the west, and between Ponta de S. Lourenço and the Desertas, there is an underwater bank that is at a depth of 30 to 130 meters in its middle part.",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Açores": [
+            "Archipelago"
+        ],
+        "Porto Santo": [
+            "Island"
+        ],
+        "Desertas": [
+            "Islands"
+        ],
+        "Ponta do Pargo": [
+            "Locality"
+        ],
+        "S. Lourenço": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Engineer"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Publication of the geo-hydrographic charts by Antonio Pedro de Azevedo"
+        ],
+        "1879": [
+            "Publication of the geo-hydrographic charts by Antonio Pedro de Azevedo"
+        ],
+        "1886": [
+            "Publication of the geo-hydrographic charts by Antonio Pedro de Azevedo"
+        ]
+    }
+}

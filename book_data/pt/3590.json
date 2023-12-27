@@ -1,0 +1,44 @@
+{
+    "id": 3590,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vera Cruz (Capela da)",
+    "fl": "V",
+    "original_title": "Vera Cruz (Capela da)",
+    "body": "«João Gonsalves Zargo, diz Frutuoso,... passando mais abaixo a humas serras muito altas, ali traçou outra igreja da Vera-Cruz...». Pertence ao descobridor a ideia da fundação desta capela, embora somente mais tarde fosse construída, em ano que se ignora. É todavia uma das mais antigas capelas da diocese, tendo, através dos tempos, passado por diversas transformações, não se encontrando ali presentemente, por certo, cousa alguma da primeira edificação. Fez primitivamente parte da paróquia de Câmara de Lobos ou da Ribeira Brava, começando a pertencer á freguesia do Campanário quando esta foi criada por meados do século XVI. E desde o ano de 1848, em que a Quinta Grande ficou constituindo uma paróquia autónoma, pertence a esta freguesia a antiga capela da Vera-Cruz.\n\nFica no sítio a que ela mesma deu o nome, gozando-se dali um belo e vasto panorama. Tem algumas vezes servido de igreja paroquial e é em torno dela que se encontra o cemitério da freguesia. A festa do respectivo orago atrai ali uma considerável afluência de pessoas, especialmente das paróquias circunvizinhas. (Vid. Quinta Grande).",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário",
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Paróquia"
+        ],
+        "Ribeira Brava": [
+            "Paróquia"
+        ],
+        "Campanário": [
+            "Freguesia"
+        ],
+        "Quinta Grande": [
+            "Paróquia"
+        ]
+    },
+    "people": {
+        "João Gonsalves Zargo": [
+            "Descobridor"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Quinta Grande tornou-se paróquia autónoma"
+        ],
+        "Século XVI": [
+            "Pertencimento à freguesia do Campanário"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": 3066,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Revista literária",
+    "fl": "R",
+    "original_title": "Revista literária",
+    "body": "O primeiro numero desta revista publicou-se a 23 de Novembro de 1902 e o decimo, que foi o ultimo, a 15 de Fevereiro de 1903.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1902": [
+            "Publicação do primeiro número da revista literária"
+        ],
+        "1903": [
+            "Publicação do último número da revista literária"
+        ]
+    }
+}

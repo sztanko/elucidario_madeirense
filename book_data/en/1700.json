@@ -1,0 +1,42 @@
+{
+    "id": 1700,
+    "lang": "en",
+    "is_original": false,
+    "title": "Heredia",
+    "fl": "H",
+    "original_title": "Heredia",
+    "body": "The Spanish nobleman D. Antonio Herédia was part of the army that, under the command of the Duke of Alba, entered Portugal in 1580. In 1602, he came to Madeira as the captain of the Castilian Garrison Company, later becoming the commander of the same garrison, and later governed the entire archipelago in the absence of the effective governor. This is the origin of the Herédia family in Madeira, which had as its last representatives Francisco Correia Herédia, Antonio Correia Herédia, and Francisco Correia Herédia, Viscount of Ribeira Brava (see these names). D. Antonio Herédia and his descendants were connected to the most distinguished Madeiran families. The Heredia family incorporated the important estate of the Britos, whose main seat was in the parish of Ribeira Brava, in the chapel of Nossa Senhora da Apresentação, in the place that still bears this name. There was an adjoining large manor house, which was one of the largest residences outside of Funchal. The house and chapel have long since been demolished.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Main seat of the important estate of the Britos"
+        ]
+    },
+    "people": {
+        "D. Antonio Herédia": [
+            "Spanish nobleman"
+        ],
+        "Francisco Correia Herédia": [
+            "Last representative of the Herédia family"
+        ],
+        "Antonio Correia Herédia": [
+            "Last representative of the Herédia family"
+        ],
+        "Francisco Correia Herédia, Viscount of Ribeira Brava": [
+            "Last representative of the Herédia family"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Entry into Portugal under the command of the Duke of Alba"
+        ],
+        "1602": [
+            "Arrival in Madeira as the captain of the Castilian Garrison Company"
+        ]
+    }
+}

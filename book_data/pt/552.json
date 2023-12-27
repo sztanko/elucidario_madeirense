@@ -1,0 +1,30 @@
+{
+    "id": 552,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Brado d'Oeste",
+    "fl": "B",
+    "original_title": "Brado d'Oeste",
+    "body": "O terceiro jornal que, na Madeira, se publicou fora do Funchal e o primeiro publicado na vila da Ponta do Sol. Saiu o primeiro numero a 2 de Junho de 1909 e o ultimo, o 858, a 24 de Janeiro de 1918.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Local de publicação"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1909": [
+            "Primeira publicação"
+        ],
+        "1918": [
+            "Última publicação"
+        ]
+    }
+}

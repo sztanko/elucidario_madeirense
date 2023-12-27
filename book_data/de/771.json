@@ -1,0 +1,53 @@
+{
+    "id": 771,
+    "lang": "de",
+    "is_original": false,
+    "title": "Carlos (Campo de D.)",
+    "fl": "C",
+    "original_title": "Carlos (Campo de D.)",
+    "body": "Der alte Campo de D. Carlos, heute Campo do Almirante Reis, dessen Bau 1898 begann und 1901 abgeschlossen wurde, kostete die Gemeinde mehr als 24 Contos. Ziel war die Sanierung des Viertels Santa Maria Maior. Zur Finanzierung trugen die Regierung mit den Grundstücken der alten Festung S. Pedro, Teilen der Stadtmauer und vielleicht des Campo das Loucas oder de Challons sowie die Gemeinde mit den Grundstücken der Praça Academica und den sie südlich und östlich begrenzenden Straßen sowie der Rua dos Balcões und den inzwischen abgerissenen Hütten dieser alten Straße bei.\n\nDer Campo de D. Carlos dient militärischen Übungen. Die Rechte der Gemeinde sind in der am 4. September 1897 zwischen dem Kriegsministerium und dem Stadtrat geschlossenen öffentlichen Urkunde festgehalten.\n\nDas Ersuchen um die Genehmigung, den Platz oder das Feld, das der Stadtrat zu bauen beabsichtigte, nach dem verstorbenen König D. Carlos zu benennen, ist auf den 6. September 1897 datiert. Der neue Name Campo do Almirante Reis, unter dem das Gelände bekannt ist, wurde ihm 1911 von der ersten Kommission gegeben, die in den Sitzungssälen des Stadtrats von Funchal Platz nahm, nachdem die Republik im Land ausgerufen worden war.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Maria Maior": [
+            "Viertel Santa Maria Maior"
+        ],
+        "S. Pedro": [
+            "Grundstücke der alten Festung S. Pedro"
+        ],
+        "Praça Academica": [
+            "Grundstücke der Praça Academica"
+        ],
+        "Rua dos Balcões": [
+            "Grundstücke der Rua dos Balcões"
+        ]
+    },
+    "people": {
+        "D. Carlos": [
+            "Verstorbener König D. Carlos"
+        ],
+        "Ministerio da Guerra": [
+            "Geschlossen am 4. September 1897"
+        ],
+        "Camara Municipal": [
+            "Geschlossen am 4. September 1897"
+        ]
+    },
+    "years": {
+        "1898": [
+            "Baubeginn 1898"
+        ],
+        "1901": [
+            "Fertigstellung 1901"
+        ],
+        "1897": [
+            "Geschlossen am 4. September 1897"
+        ],
+        "1911": [
+            "Vergeben 1911"
+        ]
+    }
+}

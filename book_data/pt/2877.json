@@ -1,0 +1,45 @@
+{
+    "id": 2877,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Porto Santo (População, Superfície e Situação Geográfica da ilha do)",
+    "fl": "P",
+    "original_title": "Porto Santo (População, Superfície e Situação Geográfica da ilha do)",
+    "body": "Afirma Gaspar Frutuoso que em 1590 havia na ilha do Porto Santo uns 400 fogos, em que portanto habitavam cerca de 1.600 habitantes. Acerca desta afirmativa de Frutuoso, diz o dr. Alvaro de Azevedo: \"comquanto pareça haver nisto exageração, por constar dos Annais da Ilha do Porto Santo que em 1850 a população era de 1799 pessoas, isto é uns 450 fogos, e do censo feito em 1864 que os fogos eram 363 com 1425 habitantes, cremos ser exato o dito de Frutuoso; a ilha do Porto Santo só progrediu nos primeiros cento e cinquenta anos desde o descobrimento.\"\n\n| Ano  | Habitantes |\n|------|------------|\n| 1529 | 820        |\n| 1590 | 1.600      |\n| 1789 | 1.870      |\n| 1791 | 1.094      |\n| 1835 | 1.618      |\n| 1839 | 1.614      |\n| 1843 | 1.669      |\n| 1849 | 1.810      |\n| 1850 | 1.886      |\n| 1864 | 1.425      |\n| 1871 | 1.664      |\n| 1878 | 1.748      |\n| 1890 | 1.952      |\n| 1900 | 2.311      |\n| 1911 | 2.182      |\n| 1920 | 2.243      |\n| 1930 | 2.490      |\n| 1940 | 2.701      |\n\nSão, divergentes os dados apresentados para calcular-se a superfície do arquipélago, tendo o dr. Alvaro de Azevedo fixado o número de 500 quilômetros para a Madeira, 50 para o Porto Santo e 10 para as Desertas. O \"Censo da População\" relativo ao ano de 1930 diz que a superfície da ilha da Madeira é de 740Km2,62 quilômetros quadrados e a do Porto Santo de 42Km2,17. Lê-se nas \"Ilhas de Zargo\" (I-59) que estudos de caráter oficial realizados nos anos de 1937 a 1938 atribuem à Madeira a superfície de 728Km2 e 48Km2,8 à ilha do Porto Santo.\n\nSão igualmente discordantes os cálculos conhecidos acerca da sua situação geográfica. O ilustre comentador das Saudades da Terra apresenta alguns deles, dando preferência aos da carta geo-hidrográfica do general Antonio Pedro de Azevedo, que é o seguinte: 33°3'30\" de latitude norte e 7°45'27', de longitude oeste de Lisboa.",
+    "categories": [
+        "geography",
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Habitavam cerca de 1.600 habitantes em 1590, progrediu nos primeiros cento e cinquenta anos desde o descobrimento, superfície de 42Km2,17 em 1930 e 48Km2,8 em estudos de 1937 a 1938, situação geográfica de 33°3'30\" de latitude norte e 7°45'27' de longitude oeste de Lisboa"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Afirmou que em 1590 havia cerca de 1.600 habitantes na ilha do Porto Santo"
+        ],
+        "Alvaro de Azevedo": [
+            "Comentou sobre a população da ilha do Porto Santo e fixou a superfície do arquipélago"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Havia cerca de 400 fogos na ilha do Porto Santo"
+        ],
+        "1850": [
+            "População era de 1799 pessoas na ilha do Porto Santo"
+        ],
+        "1864": [
+            "Censo indicou 363 fogos com 1425 habitantes na ilha do Porto Santo"
+        ],
+        "1930": [
+            "Censo da População indicou a superfície da ilha da Madeira e do Porto Santo"
+        ],
+        "1937": [
+            "Estudos de caráter oficial realizados atribuíram superfície à Madeira e ao Porto Santo"
+        ]
+    }
+}

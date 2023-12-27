@@ -1,0 +1,34 @@
+{
+    "id": 2235,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Medicis (D. Cosme de)",
+    "fl": "M",
+    "original_title": "Medicis (D. Cosme de)",
+    "body": "Vivia no Funchal por meados do século XVIII, e era, segundo reza a tradição, homem abastado. Tendo convidado em certa ocasião varios amigos para passar o dia numa furna para leste do local onde está agora o lazareto, afim de se entregarem a varias diversões, encontraram todos aí a morte em virtude do desabamento dos terrenos superiores, escapando apenas, por se achar arastado da mesma furna, um negro que era criado de D. Cosme, o qual veio trazer à cidade a noticia da terrível catástrofe que havia presenciado.\n\nO local onde se deu a catástrofe, é conhecido dos marítimos pela designação de furna de D. Cosme.\n\nDe 1679 a 1684, frequentou a faculdade de teologia da Universidade de Coimbra o padre D. Zenóbio de Medicis, filho de D. Cosme de Medicis. É de crer portanto que o desastre se desse muito antes dos meados do século XVIII, pois que é pouco provável que nesta época fosse vivo ainda o dito D. Cosme de Medicis.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde D. Cosme de Medicis viveu"
+        ]
+    },
+    "people": {
+        "D. Cosme de Medicis": [
+            "Homem abastado que viveu no Funchal por meados do século XVIII"
+        ],
+        "D. Zenóbio de Medicis": [
+            "Filho de D. Cosme de Medicis, frequentou a faculdade de teologia da Universidade de Coimbra"
+        ]
+    },
+    "years": {
+        "1679": [
+            "Início do período em que o padre D. Zenóbio de Medicis frequentou a faculdade de teologia"
+        ],
+        "1684": [
+            "Fim do período em que o padre D. Zenóbio de Medicis frequentou a faculdade de teologia"
+        ]
+    }
+}

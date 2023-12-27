@@ -1,0 +1,43 @@
+{
+    "id": 3261,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Tiago (Kirche von)",
+    "fl": "S",
+    "original_title": "São Tiago (Igreja de)",
+    "body": "Der Bau der Kirche São Tiago wurde durch das feierliche Gelübde bestimmt (siehe Gelübde an São Tiago, das die Behörden, der Klerus und das Volk von Funchal im Jahr 1523 ablegten, als sich diese Insel \"in großen Stürmen & Seuchen & Hungersnöten & anderen vielen Leiden befand...\" Am 21. Juli des genannten Jahres wurde der Grundstein des Gebäudes gelegt, wie ein zeitgenössisches Dokument über den Erfolg besagt, dass \"am einundzwanzigsten Juli mit der Stadt und dem Domkapitel in feierlicher Prozession barfuß & Meister Gonçalo Martim mit dem Altarbild des seligen Apostels & gab den ersten Spatenstich in der Ecke der Kapelle auf der Evangelienseite, welches Haus auf einem Grundstück erbaut wurde, das Antonio Spindola für besagtes Haus gab...\". Über diesen Antonio Espinola sagt die Historia Insulana, dass er aus Genua stammte und von den ältesten Familien dieser Stadt abstammte, und dass einige Dogen dieser Republik zu seinen Vorfahren gehörten. König Manuel I. verlieh ihm \"ein Wappen und den Status eines Edelmannes seines Hauses. Er erhielt Ländereien in Santiago und anderen Orten zugewiesen; und schenkte durch eine Urkunde vom 30. April 1524 ein kleines Grundstück am Stadtrand, auf dem die Kapelle des Santiago, Schutzpatron der ganzen Insel, die Sakristei und der Vorhof gebaut wurden, unter der Bedingung, dass dort Personen seiner Familie begraben werden sollten und der Kaplan ein Vaterunser und ein Ave Maria für seine Seele beten sollte. Die Urkunde wurde auf Pergament geschrieben und befindet sich im Archiv des Domkapitels von Funchal\". Die Kirche São Tiago, heute Socorro genannt, in der 1803 der Sitz der Pfarrei Santa Maria Maior eingerichtet wurde, ist nicht der ursprüngliche Bau, von dem heute nichts mehr erhalten ist und der viel kleiner war als der jetzige. Sie wurde Jahre später wichtigen Reparaturen unterzogen und am 25. Juli 1632 vom Diözesanbischof D. Jeronimo Fernando geweiht. Ein Jahrhundert später beschloss der Stadtrat von Funchal, einen größeren Tempel zu errichten, da die alte Einsiedelei sehr baufällig war. 1752 wurde die alte Kapelle abgerissen und die Arbeiten 1768 abgeschlossen. Als die große Flut von 1803 die Kirche Nossa Senhora do Calhau (siehe diesen Namen) ins Meer spülte, wurde die Kirche São Tiago vom Stadtrat zur Nutzung als Pfarrkirche überlassen, unter der Bedingung, dass das Bild des Schutzpatrons der Stadt dort immer aufbewahrt würde. Über dem Portal der Kirche wurde damals eine Gedenktafel angebracht, die sich noch heute dort befindet und folgende Inschrift trägt: Hic lapis indicat liberalitatem senatus et populi hance cclesiam Fidelissimo Principi Regenti offerentium in locum parochiae per inundationem aquarum destructae Anno Domini MDCCCIII. Siehe Schutzpatrone.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Santiago": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Gonçalo Martim": [
+            "Chorleiter"
+        ],
+        "Antonio Spindola": [
+            "Stifter des Grundstücks für die Kirche"
+        ],
+        "Manuel I.": [
+            "König von Portugal"
+        ]
+    },
+    "years": {
+        "1523": [
+            "Jahr des feierlichen Gelübdes"
+        ],
+        "1803": [
+            "Jahr der großen Flut"
+        ]
+    }
+}

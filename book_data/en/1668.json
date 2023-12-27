@@ -1,0 +1,38 @@
+{
+    "id": 1668,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gulf Stream",
+    "fl": "G",
+    "original_title": "Gulf Stream",
+    "body": "This ocean current, originating in the Gulf of Mexico and advancing to Cape North and Spitzbergen, divides into several branches, one of which, more considerable than all the others, descends along the west coast of Africa. This branch, after following the E. direction, runs to S. S. W. between Madeira and the Canaries, at a speed of 12 to 16 miles per day. The Gulf of Mexico current raises the sea temperature and is the main cause of the large amount of water in the vapor state contained in the atmosphere of our archipelago. It is this current that transports the seeds of Guilandina, Mucuna, and Entada (sea beans or chestnuts) that sometimes appear in Porto da Cruz and on the island of Porto Santo.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Gulf of Mexico": [
+            "Origin of the ocean current"
+        ],
+        "Cape North": [
+            "Destination of the ocean current"
+        ],
+        "Spitzbergen": [
+            "Destination of the ocean current"
+        ],
+        "Madeira": [
+            "Location where the current passes"
+        ],
+        "Canaries": [
+            "Location where the current passes"
+        ],
+        "Porto da Cruz": [
+            "Location where the seeds of Guilandina, Mucuna, and Entada appear"
+        ],
+        "Porto Santo Island": [
+            "Location where the seeds of Guilandina, Mucuna, and Entada appear"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

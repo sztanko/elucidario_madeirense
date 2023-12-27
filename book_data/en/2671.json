@@ -1,0 +1,38 @@
+{
+    "id": 2671,
+    "lang": "en",
+    "is_original": false,
+    "title": "Passos (Francisco Carregal da Silva)",
+    "fl": "P",
+    "original_title": "Passos (Francisco Carregal da Silva)",
+    "body": "Born around 1878, he was the son of Manuel Antonio da Silva Passos and D. Maria Teresa Bastos Carregal da Silva Passos, and served as the Portuguese consul in Dakar. He had a degree in agricultural management and a wide collaboration in many newspapers and magazines in Lisbon, having written two booklets titled 'A Tagante' and 'O Escalpello'. He passed away in Lisbon on October 1, 1931.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Dakar": [
+            "Place of work"
+        ],
+        "Lisbon": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "Manuel Antonio da Silva Passos": [
+            "Father"
+        ],
+        "D. Maria Teresa Bastos Carregal da Silva Passos": [
+            "Mother"
+        ]
+    },
+    "years": {
+        "1878": [
+            "Year of birth"
+        ],
+        "1931": [
+            "Year of death"
+        ]
+    }
+}

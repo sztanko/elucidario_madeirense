@@ -1,0 +1,26 @@
+{
+    "id": 3633,
+    "lang": "en",
+    "is_original": false,
+    "title": "Villager",
+    "fl": "V",
+    "original_title": "Vilão",
+    "body": "It is the term generally adopted among us to designate the inhabitants of the countryside of this island. Almost always, a pejorative sense is attached to this word, because the people of Funchal consider the peasant to be in a very inferior social and mental situation, although in most cases, a flagrant injustice is practiced. The inhabitants of our countryside are ignorant, rude, and superstitious, just like those in the provinces of the mainland and the Azorean islands. And compared to the peasants of the suburban parishes and a considerable number of the city's own residents, they are not in a position of inferiority and have nothing to envy in terms of civilization, except in their clothing. The rural inhabitants of Madeira, almost entirely illiterate, live in great isolation in couples scattered throughout the mountain slopes, with no knowledge of villages among us, except for small and sparsely populated towns, thus being completely segregated from all social interaction and sheltered from the civilizing influences of the major population centers. Their ignorance and almost absolute isolation make them withdrawn and distrustful in their relationships with the gentlemen and inhabitants of the city, to which must be added a natural shyness born in large part from the absolute and sometimes despotic dependence that they have been under for centuries to the lords and landowners, who at one point owned two-thirds of the arable land in Madeira. This is why our countrymen are called sly. As we have already said elsewhere, it is generally recognized that the inhabitants of the countryside are of a peaceful and orderly nature. Devoted in their vast majority to agricultural work, which in this region is very arduous and painful due to the special conditions of the land, they toil from the break of dawn until the shadows of night fall, generally unconcerned and oblivious to anything other than the continuous toil of their laborious existence. Whether they find themselves in tight mediocrity or in a reasonable sufficiency of possessions, their lives flow serene and tranquil, fully conforming to their situation.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Countryside of this island"
+        ],
+        "Continente": [
+            "Provinces of the mainland"
+        ],
+        "Açores": [
+            "Azorean islands"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

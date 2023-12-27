@@ -1,0 +1,28 @@
+{
+    "id": 1443,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte de S. Pedro",
+    "fl": "F",
+    "original_title": "Forte de S. Pedro",
+    "body": "Also called Forte Novo. It was located in the curtain of Nossa Senhora do Calhau, at Corpo Santo. It had a Renaissance-style gate, surmounted by an inscription, topped by a crown ornamented and finely worked in white marble, showing that the fortification works ordered by the Captain-General Duarte Sodré Pereira on the Island were completed in 1707. This fort had a furnace for firing burning projectiles, which were taken out with iron tongs and inserted into the mouth of the loaded cannon with a wetted wad of tow. Due to the heat, the cannon fired, and the red-hot projectile reached the decks of wooden ships, causing damage and setting them on fire. It was demolished in 1897.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Nossa Senhora do Calhau",
+        "Corpo Santo"
+    ],
+    "locations": {},
+    "people": {
+        "Duarte Sodré Pereira": [
+            "Captain-General of the Island of Madeira"
+        ]
+    },
+    "years": {
+        "1707": [
+            "Conclusion of the fortification works"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1898,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kirkpatrick (R.)",
+    "fl": "K",
+    "original_title": "Kirkpatrick (R.)",
+    "body": "Naturforscher des Britischen Museums, der Madeira und Porto Santo besuchte und auf der letzteren Insel verschiedene zoologische Studien durchführte. Er schrieb eine kurze Arbeit mit dem Titel \"On Melia Normani, a sponge with a siliseous and calcareous skeleton\" (London, 1911). Die merkwürdige Schwammart, auf die in dieser Arbeit Bezug genommen wird, wurde vom madeirischen Naturforscher Adolfo C. de Noronha in den Meeren von Porto Santo gefunden. Kirkpatrick sagt in einer seiner Arbeiten, er habe in Porto Santo das Eozoon canadense, das älteste bekannte Fossil, gefunden, aber dieser Fund muss noch bestätigt werden.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Britisches Museum": [
+            "Naturforscher"
+        ]
+    },
+    "people": {
+        "Adolfo C. de Noronha": [
+            "Madeirischer Naturforscher"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Veröffentlichung der Arbeit \"On Melia Normani, a sponge with a siliseous and calcareous skeleton\""
+        ]
+    }
+}

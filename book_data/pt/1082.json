@@ -1,0 +1,32 @@
+{
+    "id": 1082,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cruz (Ponta da)",
+    "fl": "C",
+    "original_title": "Cruz (Ponta da)",
+    "body": "Um pouco a leste da Praia Formosa e a oeste do Ilhéu do Gorgulho no litoral da freguesia de São Martinho, encontra-se a chamada Ponta da Cruz, que por muitos é considerada o extremo oeste da baia do Funchal. Existiu ali um pequeno reduto, hoje desmantelado. Encontra-se nas suas imediações uma importante fabrica de conserva de peixe.",
+    "categories": [
+        "geography",
+        "architecture"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Praia Formosa": [
+            "Praia na Madeira"
+        ],
+        "Ilhéu do Gorgulho": [
+            "Ilhéu na Madeira"
+        ],
+        "São Martinho": [
+            "Freguesia na Madeira"
+        ],
+        "Funchal": [
+            "Cidade na Madeira"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

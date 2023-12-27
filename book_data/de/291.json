@@ -1,0 +1,29 @@
+{
+    "id": 291,
+    "lang": "de",
+    "is_original": false,
+    "title": "Akademischer Verein Funchal",
+    "fl": "A",
+    "original_title": "Associação Académica do Funchal",
+    "body": "Diese aufgelöste akademische Gesellschaft wurde am 1. Dezember 1884 in einem der Säle des Palácio de S. Lourenço eröffnet. Bei dieser Gelegenheit hielt der verstorbene Marcelino Ribeiro de Mendonça, damals Schüler des Lyzeums von Funchal, eine Rede. Die Zeitschrift O Académico war das Organ derselben Gesellschaft.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira."
+        ]
+    },
+    "people": {
+        "Marcelino Ribeiro de Mendonça": [
+            "Schüler des Lyzeums von Funchal"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Eröffnung des Akademischen Vereins Funchal"
+        ]
+    }
+}

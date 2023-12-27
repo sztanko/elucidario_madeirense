@@ -1,0 +1,27 @@
+{
+    "id": 2807,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Piorno",
+    "fl": "P",
+    "original_title": "Piorno",
+    "body": "Duas são as especies conhecidas por este nome na Madeira: a Genista maderensis e a G. virgata. A primeira é um arbusto ou pequena arvore de 1m,50 a 5 metros, com as fôlhas 3-foliadas e os folíolos pequenos, assetinado-pubescentes, raras vezes subglabros na pagina superior; a segunda é um arbusto que pode atingir 2m,50 de alto, com as fôlhas muito pequenas, afoliadas, assetinado-pubescentes e esbranquiçadas. Estas duas Leguminosas, pertencentes ambas á subfamilia das Papilionadas, têm flores amarelas, dispostas em racimos. A G. maderensis aparece nalgumas ravinas do interior e entre S. Vicente e S. Jorge; a G. virgata é freqüente nos arredores do Funchal, na Ribeira de Santa Luzia, no Jardiní da Serras etc.. A madeira desta especie, usada exclusivamente para embutidos, é pesada, dura e compacta, a principio dum branco amarelado, depois dum castanho avermelhado; a daquela, perfeitatnente desconhecida dos marceneiros é branca ou dum branco amarelado. A Genista maderensis, usada ás vezes para a nutrição dos animais domesticos, é, contrariamente ao que supôs Masferrer y Arquimbau, uma especie perfeitamente distinta da «gacia» de Canarias (Cytisus stenopetalus).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "S. Jorge"
+    ],
+    "locations": {
+        "Funchal": [
+            "Arredores onde a G. virgata é frequente"
+        ]
+    },
+    "people": {
+        "Masferrer y Arquimbau": [
+            "Supôs que a Genista maderensis era a mesma que a «gacia» de Canarias"
+        ]
+    },
+    "years": {}
+}

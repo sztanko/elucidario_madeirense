@@ -1,0 +1,37 @@
+{
+    "id": 2489,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Hoffnung (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Esperança (Capela de)",
+    "body": "Der Priester Manuel de Nóbrega gründete 1744 im Ort Vale Formoso in der Gemeinde Santa Luzia eine Kapelle zu Ehren Unserer Lieben Frau der Hoffnung. Die Stiftungsurkunde ist vom 11. Dezember desselben Jahres datiert. Sie wurde vor vielen Jahren abgerissen.\n\nMit derselben Widmung gab es eine Kapelle in der Gemeinde São Roque, die sehr alt war und Mittelpunkt einer alten Wallfahrt war. Der Oberstleutnant A. Artur Sarmento veröffentlichte in einer Broschüre eine ausführliche historische Abhandlung über diese Kapelle.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "São Roque"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Gemeinde"
+        ],
+        "São Roque": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Manuel de Nóbrega": [
+            "Priester"
+        ],
+        "A. Artur Sarmento": [
+            "Oberstleutnant"
+        ]
+    },
+    "years": {
+        "1744": [
+            "Gründung der Kapelle Unserer Lieben Frau der Hoffnung im Ort Vale Formoso"
+        ]
+    }
+}

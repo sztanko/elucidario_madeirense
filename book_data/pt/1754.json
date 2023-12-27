@@ -1,0 +1,30 @@
+{
+    "id": 1754,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Igreja",
+    "fl": "I",
+    "original_title": "Igreja",
+    "body": "Neste sítio da freguesia de Nossa Senhora do Monte encontram-se a igreja paroquial deste orago, onde se acha sepultado o imperador Carlos da Áustria falecido na quinta do Monte a 1 de Abril de 1922, e a capela de Nossa Senhora da Conceição, fundada há poucos anos pelo capitão José Sotero da Silva e hoje propriedade de José de Freitas Belmonte.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Nossa Senhora do Monte"
+    ],
+    "locations": {
+        "Nossa Senhora do Monte": [
+            "Freguesia onde se encontra a igreja paroquial"
+        ]
+    },
+    "people": {
+        "Carlos da Áustria": [
+            "Imperador falecido na quinta do Monte"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Falecimento do imperador Carlos da Áustria"
+        ]
+    }
+}

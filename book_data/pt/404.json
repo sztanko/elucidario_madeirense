@@ -1,0 +1,38 @@
+{
+    "id": 404,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Banks. (José)",
+    "fl": "B",
+    "original_title": "Banks. (José)",
+    "body": "Distinto botânico inglês falecido em Londres, com 80 anos de idade, a 19 de Maio de 1820. Esteve na Madeira desde 12 a 18 de Setembro de 1768, na qualidade de botânico da primeira expedição comandada pelo capitão Cook, tendo levado desta ilha grande numero de plantas em flor, assim como várias informações respeitantes a assuntos de historia natural. Dos manuscritos de Banks se vê que ele e o seu companheiro o Dr. Solander colheram na Madeira 255 espécies, a pesar da estação não ser das mais adequadas a explorações botânicas. O pequeno herbario dos dois naturalistas está depositado no Museu.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Londres": [
+            "Local de falecimento de José Banks"
+        ]
+    },
+    "people": {
+        "José Banks": [
+            "Botânico inglês"
+        ],
+        "Capitão Cook": [
+            "Comandante da expedição"
+        ],
+        "Dr. Solander": [
+            "Companheiro de José Banks"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Visita de José Banks à Madeira"
+        ],
+        "1820": [
+            "Falecimento de José Banks"
+        ]
+    }
+}

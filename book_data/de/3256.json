@@ -1,0 +1,47 @@
+{
+    "id": 3256,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Roque (Kirchspiel von)",
+    "fl": "S",
+    "original_title": "São Roque (Freguesia de)",
+    "body": "Die Ländereien, die derzeit diese Vorstadtpfarrei von Funchal bilden, gehörten ursprünglich zur Pfarrei der Kathedrale und danach zur Pfarrei São Pedro, was ebenfalls für die Pfarrei São Martinho der Fall war, wie an anderer Stelle in diesem Band bereits erwähnt wurde. Die beiden Pfarreien wurden von São Pedro im selben Jahr abgetrennt und das Dekret, das sie schuf, hat dasselbe Datum.\n\nDas königliche Dekret des Kardinals D. Henrique vom 3. März 1579 ermächtigte den Diözesanbischof D. Jerónimo Barreto, die Pfarrei São Roque zu gründen und dem jeweiligen Pfarrer ein jährliches Einkommen von 14.000 Réis in bar, einem halben Scheffel Weizen und einem Viertel Wein zuzuteilen. Das königliche Dekret vom 16. Januar 1589 erhöhte diese Vergütung auf 19.000 Réis in bar, einen halben Scheffel Weizen und ein Viertel Wein, dem durch ein Dekret vom 30. desselben Monats und Jahres weitere 3.000 Réis in bar und ein halber Scheffel Weizen hinzugefügt wurden.\n\nDiese Pfarrei erhielt ihren Namen von der kleinen Kapelle São Roque, die dort stand und wo der Sitz der neuen Pfarrei eingerichtet wurde. Die Einsiedelei wurde von den Bewohnern des Ortes in den Jahren vor der Gründung der Pfarrei erbaut. Dr. Álvaro Rodrigues de Azevedo schließt aus dem Beschluss des Finanzrates vom 19. Mai 1704, der den Bau der neuen Kirche und Sakristei für 795.000 Réis vergibt, dass die heutige Kirche in jenem Jahr errichtet wurde. Dieser Bau oder besser gesagt Erweiterung fand in der Kapelle statt, die noch heute unter dem Namen Igreja Paroquial (Pfarrkirche) bekannt ist und von der wir glauben, dass sie der Standort der ursprünglichen Kapelle São Roque war. Es scheint, dass dieser Bau nicht sehr solid war, denn um 1790 stürzte die Kirche ein und war für den Gottesdienst unbrauchbar.\n\nDer Bau der heutigen Kirche begann Anfang des 19. Jahrhunderts, aber ihr Bau zog sich lange hin. Die Bauarbeiten wurden etwa Mitte des Jahrhunderts abgeschlossen. In der Zwischenzeit diente sie seit den 1820er Jahren als Pfarrkirche.\n\nIn dieser Pfarrei gibt es die Kapellen Nossa Senhora da Conceição, Nossa Senhora da Alegria, Nossa Senhora do Rosário und Santana, und die längst verschwundene Nossa Senhora da Esperança, über die wir an anderer Stelle kurz berichten.\n\nDie wichtigsten Orte dieser Pfarrei sind: Achada, Muro da Coelha, Conceição, Fundoa, Igreja Velha, Calhau, Igreja Nova, Alegria, Bugiaria, Lombo Segundo, Lombo de João Boieiro und Santana.\nDie Einwohnerzahl beträgt 3289 (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Funchal",
+        "São Pedro",
+        "São Martinho"
+    ],
+    "locations": {
+        "Funchal": [
+            "Vorstadtpfarrei von Funchal"
+        ]
+    },
+    "people": {
+        "D. Henrique": [
+            "Kardinal D. Henrique"
+        ],
+        "D. Jerónimo Barreto": [
+            "Diözesanbischof D. Jerónimo Barreto"
+        ],
+        "Álvaro Rodrigues de Azevedo": [
+            "Dr. Álvaro Rodrigues de Azevedo"
+        ]
+    },
+    "years": {
+        "1579": [
+            "Errichtung der Pfarrei"
+        ],
+        "1704": [
+            "Beschluss des Finanzrates für den Bau der neuen Kirche und Sakristei"
+        ],
+        "1790": [
+            "Einsturz der Kirche"
+        ],
+        "1820": [
+            "Pfarrkirche"
+        ]
+    }
+}

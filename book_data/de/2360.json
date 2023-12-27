@@ -1,0 +1,34 @@
+{
+    "id": 2360,
+    "lang": "de",
+    "is_original": false,
+    "title": "Denkmal für João Fernandes Vieira",
+    "fl": "D",
+    "original_title": "Monumento a João Fernandes Vieira",
+    "body": "- Auf Initiative von Dr. Abel Capitolino Baptista wurde am 11. Mai 1924 auf dem alten Verfassungsplatz, heute Avenida Arriaga, ein bescheidenes Denkmal für diesen berühmten Madeirer eingeweiht. Neun Jahre später wurde die Büste samt Sockel in den Stadtpark versetzt, wo sie sich noch heute befindet.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Verfassungsplatz": [
+            "Ort auf Madeira"
+        ],
+        "Avenida Arriaga": [
+            "Ort auf Madeira"
+        ],
+        "Stadtpark": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "João Fernandes Vieira": [
+            "Berühmter Madeirer"
+        ]
+    },
+    "years": {
+        "1924": [
+            "Einweihung des Denkmals für João Fernandes Vieira"
+        ]
+    }
+}

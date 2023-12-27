@@ -1,0 +1,27 @@
+{
+    "id": 3388,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sorghum (Andropogon Sorghum)",
+    "fl": "S",
+    "original_title": "Sorgo (Andropogon Sorghum)",
+    "body": "> A grass introduced to Madeira in 1856. It is native to Tropical Asia and perhaps Africa, and was once quite cultivated in some parishes in the north of the island and in Ribeira Brava, where the juice extracted from its stems was used for making brandy. Sorghum, also known by the name of millet cane and canica, is good fodder, and its grain provides a flour that is used for human consumption in some countries.",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Locality"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1856": [
+            "Introduction of sorghum to Madeira"
+        ]
+    }
+}

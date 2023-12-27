@@ -1,0 +1,31 @@
+{
+    "id": 824,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castelo Branco (Pedro de)",
+    "fl": "C",
+    "original_title": "Castelo Branco (Pedro de)",
+    "body": "Pedro de Castelo Branco, Baron of S. Pedro, was born in Funchal on April 19, 1837, the son of Rear Admiral Joaquim Pedro de Castelo Branco. He held a doctorate in medicine from the University of Paris and worked as a senior official in the postal service for several years, later moving to the Ministry of Foreign Affairs and entering the diplomatic career. He served as a secretary of legation in various European capitals and as chargé d'affaires in Berlin and The Hague, being appointed as a plenipotentiary minister in Constantinople in 1891. He later served as chief of staff to the Minister of Foreign Affairs, and passed away in Lisbon on December 14, 1911.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Joaquim Pedro de Castelo Branco": [
+            "Father of Pedro de Castelo Branco"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Birth of Pedro de Castelo Branco"
+        ],
+        "1891": [
+            "Appointment as plenipotentiary minister in Constantinople"
+        ],
+        "1911": [
+            "Death of Pedro de Castelo Branco"
+        ]
+    }
+}

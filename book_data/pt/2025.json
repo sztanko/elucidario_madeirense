@@ -1,0 +1,29 @@
+{
+    "id": 2025,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo de D. Isabel",
+    "fl": "L",
+    "original_title": "Lombo de D. Isabel",
+    "body": "Sítio da freguesia de Santo António do Funchal, que entesta com o sítio do Vasco Gil e é atravessado pela estrada que conduz ao Curral das Freiras, ficando no seu cimo o lugar conhecido pelo nome de Estrela.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {
+        "Santo António do Funchal": [
+            "Freguesia de Santo António do Funchal"
+        ],
+        "Curral das Freiras": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "Vasco Gil": [
+            "Pessoa"
+        ]
+    },
+    "years": {}
+}

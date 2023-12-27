@@ -1,0 +1,30 @@
+{
+    "id": 1910,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mauereidechse (Lacerta dugesii)",
+    "fl": "M",
+    "original_title": "Lagartixa (Lacerta Dugesii)",
+    "body": "Kleine Echse, die auf Madeira sehr häufig vorkommt und großen Schaden an Weintrauben, Tomaten usw. anrichtet. Sie war bereits vor der Entdeckung der Insel dort heimisch, denn Gaspar Frutuoso erwähnt sie mit folgenden Worten: \"Auf dieser frischen Insel fand man keine andere Gattung von Tieren außer einigen kleinen Eidechsen so groß wie ein Finger, die keinen bemerkenswerten Schaden anrichten und nicht giftig sind.\" Frutuoso vermerkte die Eidechsen auch auf der Insel Porto Santo und der Naturforscher R. T. Lowe fand zwischen den Kalksteinen der Piedade die Kiefer eines kleinen Wirbeltieres, von dem Professor Owen feststellte, dass es sich um eine Echse handelte, ohne jedoch aufgrund mangelnden Vergleichsmaterials angeben zu können, ob sie mit der Madeira-Eidechse identisch war.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Insel"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiker"
+        ],
+        "R. T. Lowe": [
+            "Naturforscher"
+        ],
+        "Owen": [
+            "Professor"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,38 @@
+{
+    "id": 1161,
+    "lang": "de",
+    "is_original": false,
+    "title": "Deiche",
+    "fl": "D",
+    "original_title": "Diques",
+    "body": "Es sind Mauern aus vulkanischem Gestein, die durch das Eindringen der Schmelzmasse in die durch Erdbeben in bestehenden Gelände geöffneten Spalten gebildet wurden. Wenn Deiche an einem Ort häufig vorkommen, beweist dies, dass die vulkanische Aktivität dort mit großer Intensität stattfand.\n\nIm Curral das Freiras und in anderen Tälern im Inneren Madeiras gibt es eine große Anzahl von Deichen, und am Cabo Girão findet man vertikale und andere horizontale Deiche.\n\nDie Deiche enden manchmal spitz oben, es gibt aber auch einige, wie den am Hügel der Piedade an der Ponta de S. Lourenço, die an der Basis durch horizontale Gelände durchschnitten oder abgefangen werden.\n\nDer basaltische Deich, der auf dem Gipfel von Garajau einen Hügel oder Buckel bildet, hebt sich auf beiden Seiten dieser Landzunge ab und ist im östlichen Teil doppelt vorhanden, ebenso wie es doppelte Deiche im Ribeiro Frio gibt, im Teil der für das Meer freigegebenen Penha de Águia und an anderen Stellen, die wahrscheinlich aus einem erneuten Eindringen von Lava in die gleichen Spalten resultieren.\n\nEs gibt Deiche, die isoliert erscheinen, aufgrund der Zerstörung des Geländes durch Abtragung. Die Spitzen der Empinos nahe Curral bestehen aus isolierten Deichen, und im Ribeiro do Juncal, hoch über dem Ribeira da Metade, gibt es einen Deich unter den gleichen Bedingungen, etwa 45 Meter hoch und 18 Meter breit.\n\nMan nimmt an, dass bei den meisten Deichen Madeiras die Schmelzmasse von unten nach oben gedrückt wurde, aber bei dem bereits erwähnten Deich von Piedade und einem anderen im Ribeiro dos Piornais zwischen Caniço und Funchal scheint der gegenteilige Fall eingetreten zu sein, da beide an der Basis unterbrochen oder durchschnitten sind.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Curral das Freiras": [
+            "Ort mit einer großen Anzahl von Deichen"
+        ],
+        "Cabo Girão": [
+            "Man findet hier vertikale und andere horizontale Deiche"
+        ],
+        "Ponta de S. Lourenço": [
+            "Hügel von Piedade, Deiche werden an der Basis durch horizontale Gelände durchschnitten oder abgefangen"
+        ],
+        "Garajau": [
+            "Basaltdeich bildet einen Hügel oder Buckel auf dem Gipfel, hebt sich auf beiden Seiten dieser Landzunge ab und ist im östlichen Teil doppelt vorhanden"
+        ],
+        "Ribeiro Frio": [
+            "Doppelte Deiche im Teil der für das Meer freigegebenen Penha de Águia und an anderen Stellen, wahrscheinlich aus einem erneuten Eindringen von Lava in die gleichen Spalten"
+        ],
+        "Empinos": [
+            "Spitzen in der Nähe von Curral bestehen aus isolierten Deichen"
+        ],
+        "Ribeiro do Juncal": [
+            "Deich unter den gleichen Bedingungen, etwa 45 Meter hoch und 18 Meter breit"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,37 @@
+{
+    "id": 1267,
+    "lang": "en",
+    "is_original": false,
+    "title": "Espinola",
+    "fl": "E",
+    "original_title": "Espinola",
+    "body": "It is a noble and very ancient surname among us, and it comes from Antonio and Leonardo Espinola, close relatives, who came to this island in the first quarter of the 16th century. They were natives of Genoa and descendants of an ancient and noble family of this city. There are two branches: Espinolas of Adorno or Aderno, whose coat of arms, granted in 1513, consists of 'a field of gold and a fess of checkers of silver and red, and on it a branch of red thorns, and as a difference a blue martlet, an open silver helmet and the same branch as crest, a gold and red mantling'. The other branch, known by the name of Rosa or de la Rosa, has a coat of arms, granted on February 27, 1535, and its description does not differ from the previous one. Antonio Espinola had many sesmarias. On April 30, 1524, he donated a plot of land at the edge of the city, on which the chapel of São Tiago was built, with the condition that the chapel would be used as a burial place for his family members and the chaplain would say a 'Our Father' and a 'Hail Mary' for his soul, as stated by the annotator of the Insulana History.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "São Tiago"
+    ],
+    "locations": {
+        "Genoa": [
+            "City of origin of the Espinolas"
+        ]
+    },
+    "people": {
+        "Antonio Espinola": [
+            "Member of the Espinola family"
+        ]
+    },
+    "years": {
+        "1513": [
+            "Granting of the coat of arms to the Espinolas of Adorno or Aderno"
+        ],
+        "1535": [
+            "Granting of the coat of arms to the Espinolas of Rosa or de la Rosa"
+        ],
+        "1524": [
+            "Donation of land by Antonio Espinola for the construction of the chapel of São Tiago"
+        ]
+    }
+}

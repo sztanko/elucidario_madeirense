@@ -1,0 +1,55 @@
+{
+    "id": 1410,
+    "lang": "en",
+    "is_original": false,
+    "title": "Famine in Porto Santo",
+    "fl": "F",
+    "original_title": "Fome no Porto Santo",
+    "body": "The crisis that Madeira went through in 1847 also affected the neighboring island of Porto Santo. On several occasions, it was necessary to send aid in the form of goods and money, but despite this, 'the people could not resist such a great scourge, as the Annals of Porto Santo say, if it were not for the great abundance of fish, especially mackerel, which were sold at 50 for half a penny.' In 1802, 1806, 1815, 1816, and 1829, there were also famines in Porto Santo, and it was necessary to send aid in the form of goods. After 1847, that scourge was felt several more times on that island, for example, in 1850, 1854, 1855, and 1883. During the famine of 1850, Governor José Silvestre Ribeiro took on the responsibility of releasing the necessary funds from the public coffers to purchase 75 measures of cereals for the people of the neighboring island. He also managed to persuade two American warships that appeared in the port of Funchal to contribute 8 measures of corn for the same purpose. The prolonged droughts to which the island of Porto Santo is subject are the main cause of the misery and lack of sustenance that are noticed there in certain years. When the drought is severe, the harvests are insignificant, which constitutes the greatest of misfortunes in a country where a large part of the population lives solely on the resources provided by the land.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island"
+        ]
+    },
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Governor"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Crisis in Madeira"
+        ],
+        "1802": [
+            "Famine in Porto Santo"
+        ],
+        "1806": [
+            "Famine in Porto Santo"
+        ],
+        "1815": [
+            "Famine in Porto Santo"
+        ],
+        "1816": [
+            "Famine in Porto Santo"
+        ],
+        "1829": [
+            "Famine in Porto Santo"
+        ],
+        "1850": [
+            "Famine in Porto Santo"
+        ],
+        "1854": [
+            "Famine in Porto Santo"
+        ],
+        "1855": [
+            "Famine in Porto Santo"
+        ],
+        "1883": [
+            "Famine in Porto Santo"
+        ]
+    }
+}

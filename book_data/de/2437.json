@@ -1,0 +1,34 @@
+{
+    "id": 2437,
+    "lang": "de",
+    "is_original": false,
+    "title": "Neves (Dr. Cassiano das)",
+    "fl": "N",
+    "original_title": "Neves (Dr. Cassiano das)",
+    "body": "Er war Rechtsanwalt in der Stadt Lamego, als er 1877 in Porto eine Broschüre mit dem Titel Das kirchliche Begräbnis und die Selbstmörder veröffentlichte, die sich mit der Verweigerung der Bestattung auf dem Friedhof Nossa Senhora das Angústias in Funchal eines Mannes befasst, der sich am 4. März 1877 in dieser Stadt das Leben nahm. Es ist eine leidenschaftliche Verteidigung des Diözesanbischofs D. Manuel Agostinho Barreto. (Siehe Band I, Seite 71 und 130).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lamego": [
+            "Stadt, in der Dr. Cassiano das Neves Rechtsanwalt war"
+        ],
+        "Porto": [
+            "Ort der Veröffentlichung der Broschüre 'Das kirchliche Begräbnis und die Selbstmörder'"
+        ],
+        "Funchal": [
+            "Ort des in der Broschüre erwähnten Selbstmords"
+        ]
+    },
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Diözesanbischof, der in der Broschüre verteidigt wird"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Veröffentlichung der Broschüre 'Das kirchliche Begräbnis und die Selbstmörder'"
+        ]
+    }
+}

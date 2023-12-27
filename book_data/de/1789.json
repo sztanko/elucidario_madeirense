@@ -1,0 +1,25 @@
+{
+    "id": 1789,
+    "lang": "de",
+    "is_original": false,
+    "title": "Infante (Pico do)",
+    "fl": "I",
+    "original_title": "Infante (Pico do)",
+    "body": "Bergmassiv in der Gemeinde Santa Maria Maior, nördlich des Ortes Choupana.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Gemeinde"
+        ],
+        "Choupana": [
+            "Ort"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

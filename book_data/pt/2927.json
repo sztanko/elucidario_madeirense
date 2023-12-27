@@ -1,0 +1,36 @@
+{
+    "id": 2927,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Prim Garibaldi e Costa (João)",
+    "fl": "P",
+    "original_title": "Prim Garibaldi e Costa (João)",
+    "body": "Nasceu na freguesia do Porto do Moniz a 31 de Agosto de 1867 e é filho de António Tolentino da Costa e de D. Romana Augusta de Coito e Costa. Foi durante alguns anos administrador do concelho daquele nome e exerce ali atualmente o cargo de chefe da respectiva estação telegrafo-postal. Colaborou em alguns jornais do Funchal e teve uma especial e assídua colaboração no *Brado de Oeste*, publicado na vila da Ponta do Sol. Na qualidade de presidente da Associação Recreativa Porto-Monizense, proferiu ali um discurso que foi publicado em opúsculo, nesta cidade, com o titulo de Conferencia e dedicado ao conselheiro José Leite Monteiro (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto do Moniz"
+    ],
+    "locations": {
+        "Porto do Moniz": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "António Tolentino da Costa": [
+            "Pai de João Prim Garibaldi e Costa"
+        ],
+        "D. Romana Augusta de Coito e Costa": [
+            "Mãe de João Prim Garibaldi e Costa"
+        ],
+        "Conselheiro José Leite Monteiro": [
+            "Dedicatário do discurso de João Prim Garibaldi e Costa"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Ano de nascimento"
+        ]
+    }
+}

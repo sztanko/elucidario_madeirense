@@ -1,0 +1,30 @@
+{
+    "id": 2216,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mascarenhas (D. Francisco de)",
+    "fl": "M",
+    "original_title": "Mascarenhas (D. Francisco de)",
+    "body": "A sua nomeação para Governador e Capitão General da Madeira data de 31 de Julho de 1665 e tomou posse do lugar a 28 de Novembro do mesmo ano. Teve grandes dificuldades durante o seu governo e a 18 de Setembro de 1668 rebentou uma sedição popular, que o depôs do seu cargo, o prendeu e depois o fêz embarcar violentamente, como mais largamente se verá no artigo Motins Populares. Foi substituído interinamente pelo morgado Aires de Ornelas e Vasconcelos. Era filho do conde de Santa Cruz e tinha servido com valor na guerra da Restauração. Morreu a 25 de Fevereiro de 1699.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Aires de Ornelas e Vasconcelos": [
+            "Substituto interino como Governador e Capitão General"
+        ]
+    },
+    "years": {
+        "1665": [
+            "Nomeação como Governador e Capitão General"
+        ],
+        "1668": [
+            "Sedição popular que o depôs do cargo"
+        ],
+        "1699": [
+            "Falecimento"
+        ]
+    }
+}

@@ -1,0 +1,97 @@
+{
+    "id": 2988,
+    "lang": "en",
+    "is_original": false,
+    "title": "Estates",
+    "fl": "E",
+    "original_title": "Quintas",
+    "body": "It seems to us that the word 'quinta' has a special meaning here, which notably distinguishes it from the sense in which it is generally taken in the rest of our country. In Madeira, this term usually refers to a rustic and urban property, of greater or lesser extent, walled around its entire perimeter or at least a considerable part of it, always containing a good dwelling house, surrounded by gardens and shaded walks with masses of trees. It is accessed by a wrought iron gate, of a certain architectural grandeur, leading to a walkway that directly leads to the residence. Many estates include cultivated land for vineyards and sugarcane, vegetable gardens, orchards, and groves. Some of them have buildings for various agricultural services, stables, and caretaker's houses. The oldest ones, in addition to the noble house for living, have an attached chapel, once for the private use of their owners.\n\nThe most important and sumptuous estate on this island is the Palheiro Ferreiro, of which we have already given the news on page 43 of this volume, and next is the so-called Quinta do Monte, in the parish of the same name, which we have also discussed elsewhere (Volume II, page 461).\n\nAfter these, special mention should be made of the *Quinta Lambert* (See this name) and that of Vigia, Cruzes (See *Zargo's Residences*); that of S. João, on Rua das Maravilhas, the former manor of the S. João heirs, with its current owner, Dr. Rui Bettencourt da Câmara, having built the chapel of Nossa Senhora do Amparo and dos Remédios there in the year 1940; that of Vale, on Rua do Vale Formoso, which in other times had curious plants that Dr. Lippold occupied himself with in 1838, and Dr. Heer in 1852, with Dr. Grabham as its current owner (1921); that of Levada and that of Santa Luzia, the former belonging to the Blandy family and the latter to the Cossart family; that of Palmeira, owned by H. Hinton and whose vegetation was studied by Harcourt (See this name); that of Mãe dos Homens, on Caminho do Meio, owned by the Viscount of Cacongo; the Magnolia estate, on Travessa do Dr. Pita; the Olavo estate, on Caminho dos Saltos; the Pavão estate, on Rua da Imperatriz; the Maravilhas estate, at the end of the street of the same name; the Til estate, on the path of the same name; the Deão estate, also called the Stoddart estate because the English consul of that name lived there, and which the English usually call The Deanery (See Governing Board); the Achada estate, on the path of the same name, formerly owned by the English Penfold family; the Bela Vista estate, in the Nazaré area, in S. Martinho, the Sant'Ana estate, on the path to Monte, now owned by the Government as it was part of the assets of the Sanatorium Company; the Prazer and Belo Monte estates, in Nossa Senhora do Monte, both of which were formerly owned by the former English consul Murray and now the former is owned by Alfredo Guilherme Rodrigues, who has installed the 'Monte Palace Hotel' there (1921); the Laginhas estate, the Cova estate, and the Pico da Pedra estate, all three in the same parish; the Miradouro estate, in Choupana; the Choupana estate, which is said to have given its name to the place where it is located, the Viscount of Cacongo estate, in the same place; the Pico do Infante estate; the Vale Paraíso estate, owned by the viscount of that title and one of the most beautiful and vast in the parish of Camacha, its first owner being the Englishman Randall; the Ornelas estate, above the church of the same parish and owned by the current representative of the Caniço heirs (1921); the Tanquinhos estate, on the Caminho do Palheiro, owned by the heirs of Dr. José Antonio de Almada; the Alegria estate, in the area of the same name, in São Roque, owned by the Counts of Torre Bela; the Barão da Conceição estate, in Caniço, owned by Dr. Nuno Ferreira Jardim (1921); the Seixeiro, Aloisio, Bianchi, and Serrado das Ameixeiras estates, in Santo Antonio da Serra; etc., etc..",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Monte",
+        "São João",
+        "Vale Formoso",
+        "Levada",
+        "Santa Luzia",
+        "Palmeira",
+        "Mãe dos Homens",
+        "Achada",
+        "Nazaré",
+        "Sant'Ana",
+        "Prazer",
+        "Belo Monte",
+        "Laginhas",
+        "Cova",
+        "Pico da Pedra",
+        "Miradouro",
+        "Choupana",
+        "Pico do Infante",
+        "Vale Paraíso",
+        "Ornelas",
+        "Tanquinhos",
+        "Alegria",
+        "Barão da Conceição",
+        "Seixeiro",
+        "Aloisio",
+        "Bianchi",
+        "Serrado das Ameixeiras"
+    ],
+    "locations": {},
+    "people": {
+        "Rui Bettencourt da Câmara": [
+            "Owner of the S. João estate"
+        ],
+        "Dr. Lippold": [
+            "Studied the curious plants of the Vale estate in 1838"
+        ],
+        "Dr. Heer": [
+            "Studied the curious plants of the Vale estate in 1852"
+        ],
+        "Dr. Grabham": [
+            "Owner of the Vale estate in 1921"
+        ],
+        "H. Hinton": [
+            "Owner of the Palmeira estate"
+        ],
+        "Harcourt": [
+            "Studied the vegetation of the Palmeira estate"
+        ],
+        "Viscount of Cacongo": [
+            "Owner of the Mãe dos Homens estate"
+        ],
+        "Alfredo Guilherme Rodrigues": [
+            "Owner of the Prazer and Belo Monte estates"
+        ],
+        "Murray": [
+            "Former English consul and owner of the Prazer and Belo Monte estates"
+        ],
+        "Randall": [
+            "First owner of the Vale Paraíso estate"
+        ],
+        "Dr. José Antonio de Almada": [
+            "Owner of the Tanquinhos estate"
+        ],
+        "Counts of Torre Bela": [
+            "Owners of the Alegria estate"
+        ],
+        "Dr. Nuno Ferreira Jardim": [
+            "Owner of the Barão da Conceição estate"
+        ]
+    },
+    "years": {
+        "1940": [
+            "Construction of the chapel of Nossa Senhora do Amparo and dos Remédios on the S. João estate"
+        ],
+        "1838": [
+            "Dr. Lippold studied the curious plants of the Vale estate"
+        ],
+        "1852": [
+            "Dr. Heer studied the curious plants of the Vale estate"
+        ],
+        "1921": [
+            "Monte Palace Hotel installed on the Prazer estate"
+        ]
+    }
+}

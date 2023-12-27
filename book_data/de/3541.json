@@ -1,0 +1,27 @@
+{
+    "id": 3541,
+    "lang": "de",
+    "is_original": false,
+    "title": "Grabdenkmal",
+    "fl": "G",
+    "original_title": "Túmulo-Monumento",
+    "body": "So wird das Denkmal genannt, das im Friedhof Angústias zur Erinnerung an diejenigen errichtet wurde, die am 3. Dezember 1916 durch die Granaten eines deutschen U-Boots barbarisch ermordet wurden. Wir haben bereits eine kurze Beschreibung auf Seite 68 des ersten Bandes dieses Werkes gegeben, auf die wir den Leser verweisen. Die Übergabe an den Stadtrat dieser Gemeinde fand am 15. Dezember 1917 statt. Siehe Denkmäler.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Angústias": [
+            "Ort, an dem das Grabdenkmal errichtet wurde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1916": [
+            "Datum, an dem Menschen durch Granaten eines deutschen U-Boots getötet wurden"
+        ],
+        "1917": [
+            "Datum der Übergabe des Grabdenkmals an den Stadtrat"
+        ]
+    }
+}

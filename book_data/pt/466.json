@@ -1,0 +1,42 @@
+{
+    "id": 466,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Berenguer",
+    "fl": "B",
+    "original_title": "Berenguer",
+    "body": "Acima da villa, diz Frutuoso, pela terra dentro hum quarto de legoa, está o engenho dos Cabraes; e perto delle está outro do Dr. da Calheta Phisico, chamado Pedro Berenguer de Lemilhana, moço fidalgo e cavalleiro da Ordem de Christo. É dele que provem o apelido de Berenguer, e ainda hoje na Calheta conserva o nome de Lombo do Doutor uma parte considerável das terras de sesmaria que ali teve Pedro de Berenguer: Era natural de Valença, em Espanha, doutor em medicina e fidalgo da casa real. Veio para a Madeira no ultimo quartel do século XVI e estabeleceu se na freguesia da Calheta, onde instituiu um morgadio, que transmitiu aos seus descendentes. A ele ou a algum dos seus sucessores foi passada carta de brasão de armas, por alvará régio de 5 de Novembro de de 1524. São elas: campo vermelho e uma banda de azul perfilada de ouro e nela três flores de liz de prata, elmo de prata aberto, paquife de prata a vermelho, e por timbre um braço vestido de vermelho com uma das flores de liz na mão. O Dr. Pedro de Berenguer Lemilhana morreu na Calheta e foi sepultado no cruzeiro da capela mor da igreja paroquial desta freguesia. Um dos administradores desta casa vincular foi Gaspar Berenguer de Andrade, que se distinguiu na guerra do Brasil, pelo que teve o habito de Cristo e o foro de fidalgo. Com sua mulher D. Isabel de França fundou o convento de Nossa Senhora das Mercês (V. este nome), de que foram padroeiros e onde foram sepultados. Nasceu Gaspar Berenguer em 1603 e faleceu em 1691. Foram membros desta família Francisco Berenguer de Lemilhana, que durante 22 anos tomou parte nas guerras de Pernambuco, sendo agraciado com o habito de Cristo, Antonio de Andrade Berenguer, que se distinguiu nas guerras da Restauração e Bartolomeu de Melo Berenguer, que serviu com valentia e coragem nas campanhas do Maranhão.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Pedro Berenguer de Lemilhana": [
+            "Estabeleceu-se na freguesia da Calheta, instituiu um morgadio e transmitiu aos seus descendentes"
+        ],
+        "Gaspar Berenguer de Andrade": [
+            "Administrador da casa vincular, distinguiu-se na guerra do Brasil"
+        ],
+        "D. Isabel de França": [
+            "Fundou o convento de Nossa Senhora das Mercês"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Carta de brasão de armas passada a Pedro de Berenguer"
+        ],
+        "1603": [
+            "Nascimento de Gaspar Berenguer"
+        ],
+        "1691": [
+            "Falecimento de Gaspar Berenguer"
+        ]
+    }
+}

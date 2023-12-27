@@ -1,0 +1,43 @@
+{
+    "id": 3240,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sankt Laurentius Kapellen",
+    "fl": "S",
+    "original_title": "São Lourenço (Capelas de)",
+    "body": "In der Festung São Lourenço gab es eine Kapelle, die dem Märtyrer São Lourenço gewidmet war. Sie ist sehr alt und existierte bereits 1566, als französische Korsaren die Stadt plünderten. Sie hatte einen eigenen Kaplan. Die älteste Ernennung, die wir gefunden haben, ist vom 15. November 1641. Irgendwo haben wir gesehen, dass der Ratsherr José Silvestre Ribeiro am 3. Oktober 1846 inventarisiert hat, dass die Kapelle 36 Pfund Silbergegenstände besaß. Er ordnete an, sie in der Zentralkasse zu hinterlegen. Am 3. Dezember 1856 wurde eine neue Inventur durchgeführt, der neue Stücke hinzugefügt wurden, so dass das Gesamtgewicht nun 65 Pfund Silber betrug. Die Gewänder der Kapelle wurden 1856 der Kirche Achadas da Cruz geschenkt. \n\nDie Kapelle São Lourenço, die sich am gleichnamigen Ort in der Gemeinde Fajã da Ovelha befindet, ist sehr alt. Schon in den ersten Jahren des 16. Jahrhunderts war sie Sitz einer Kaplanei, die sich später in eine Pfarrei verwandelte. Sie diente bis zur Mitte des 18. Jahrhunderts als Pfarrkirche, als der neue Tempel gebaut wurde. Der Überlieferung nach gehörte diese Kapelle den Afonsos Jardins, die dort zu den ersten Siedlern und Grundbesitzern des Bergrückens waren, auf dem sich die Kapelle befindet.\n\nIn der Gemeinde Camacha gab es eine Kapelle, die São Lourenço gewidmet war und von Francisco Gonçalves Salgado erbaut worden sein soll. Sie war ziemlich alt und wurde 1676 zum Sitz der neuen Gemeinde, wobei sie sich in eine Pfarrkirche verwandelte. Ihr Schutzpatron blieb jedoch der der ursprünglichen Kapelle.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Camacha"
+    ],
+    "locations": {
+        "Fajã da Ovelha": [
+            "Gemeinde Fajã da Ovelha"
+        ],
+        "Camacha": [
+            "Gemeinde Camacha"
+        ]
+    },
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Ratsherr"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Französische Korsaren plünderten die Stadt"
+        ],
+        "1641": [
+            "Älteste Ernennung des Kaplans"
+        ],
+        "1846": [
+            "Inventur der Silbergegenstände durch Ratsherr José Silvestre Ribeiro"
+        ],
+        "1856": [
+            "Neue Inventur mit zusätzlichen Stücken"
+        ]
+    }
+}

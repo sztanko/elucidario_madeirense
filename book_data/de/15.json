@@ -1,0 +1,37 @@
+{
+    "id": 15,
+    "lang": "de",
+    "is_original": false,
+    "title": "Abreu (João Gomes de)",
+    "fl": "A",
+    "original_title": "Abreu (João Gomes de)",
+    "body": "Er war unter dem Namen João Gomes de Abreu da lha bekannt. Er war Kapitän eines Schiffes der Flotte, die 1506 nach Indien auslief. Er nahm an Kämpfen gegen die Mauren der Städte Brava und Socotra teil und segelte dann nach Cananor weiter, wo er nach Zeugnis von Gaspar Correia in den \\",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Indien": [
+            "Ort, nach dem João Gomes de Abreu 1506 auslief"
+        ],
+        "Brava": [
+            "Ort, an dem João Gomes de Abreu die Mauren bekämpfte"
+        ],
+        "Socotra": [
+            "Ort, an dem João Gomes de Abreu die Mauren bekämpfte"
+        ],
+        "Cananor": [
+            "Ort, an dem João Gomes de Abreu extreme Tapferkeit bewies"
+        ]
+    },
+    "people": {
+        "João Gomes de Abreu": [
+            "Kapitän des Schiffes, das 1506 nach Indien auslief, kämpfte gegen die Mauren und bewies extreme Tapferkeit in Cananor"
+        ]
+    },
+    "years": {
+        "1506": [
+            "Auslaufen von João Gomes de Abreu nach Indien"
+        ]
+    }
+}

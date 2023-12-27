@@ -1,0 +1,65 @@
+{
+    "id": 1767,
+    "lang": "en",
+    "is_original": false,
+    "title": "Islets",
+    "fl": "I",
+    "original_title": "Ilhéus",
+    "body": "The main islets adjacent to the coast of Madeira are, on the southern coast: Agostinho, Desembarcadouros and de Fora (Ponta de S. Lourenço), Santa Catarina (Santa Cruz), Ilhéu (bay of Funchal), Gorgulho and Praia (São Martinho), Campanário or Lapa (Campanário), Guincho (Ponta do Pargo); and on the northern coast those of Porto do Moniz called Mole and Negro (Porto do Moniz), those of Ribeira da Janela (Ribeira da Janela), those of Seixal, known by the names of Ceroulas and Guincho (Seixal), those of Boaventura or Preto and Vermelho (Boaventura). São Jorge (São Jorge), Rocha do Navio (Sant'ana), those of Faial, the main one being that of Faial (Faial), and Porto da Cruz (Porto da Cruz). See these names.\n\nThe main islets that surround the island of Porto Santo at no great distance are these: Cenouras, Baixo or da Cal, Cima or dos Dragoeiros, also called Farol, Fora or Rocha do Nordeste, Fonte or Fonte da Areia, and Ferro (See each of these names).\n\nIn the Desertas group, there is the islet of Furilhão or Prego do Mar (See these names), also known by the name of islet of Navio.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta de S. Lourenço": [
+            "Desembarcadouros and de Fora"
+        ],
+        "Santa Cruz": [
+            "Santa Catarina"
+        ],
+        "Funchal": [
+            "Ilhéu"
+        ],
+        "São Martinho": [
+            "Gorgulho and Praia"
+        ],
+        "Campanário": [
+            "Campanário or Lapa"
+        ],
+        "Ponta do Pargo": [
+            "Guincho"
+        ],
+        "Porto do Moniz": [
+            "Mole and Negro"
+        ],
+        "Ribeira da Janela": [
+            "Ribeira da Janela"
+        ],
+        "Seixal": [
+            "Ceroulas and Guincho"
+        ],
+        "Boaventura": [
+            "Preto and Vermelho"
+        ],
+        "São Jorge": [
+            "São Jorge"
+        ],
+        "Sant'ana": [
+            "Rocha do Navio"
+        ],
+        "Faial": [
+            "Main islet of Faial"
+        ],
+        "Porto da Cruz": [
+            "Porto da Cruz"
+        ],
+        "Porto Santo": [
+            "Cenouras, Baixo or da Cal, Cima or dos Dragoeiros, Farol, Fora or Rocha do Nordeste, Fonte or Fonte da Areia, Ferro"
+        ],
+        "Desertas": [
+            "Islet of Furilhão or Prego do Mar, islet of Navio"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

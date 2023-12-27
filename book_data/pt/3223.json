@@ -1,0 +1,30 @@
+{
+    "id": 3223,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Francisco (Rua de)",
+    "fl": "S",
+    "original_title": "São Francisco (Rua de)",
+    "body": "Estende-se desde a rua da Carreira, ou do Dr. Vieira, até a avenida do Dr. Manuel de Arriaga, e recebeu, em sessão da Câmara Municipal do Funchal de 6 de Julho de 1922, a denominação um tanto vaga de «rua 22 de Março de 1921», por ser nesta data que os arrojados aviadores portugueses Gago Coutinho e Sacadura Cabral fizeram a sua viagem aérea entre Lisboa e Madeira.\n\nBom seria que se restabelecesse o antigo nome da rua, visto o público não estar resolvido a reconhecer outro, e a Câmara ter prestado já homenagem aos dois referidos aviadores dando os seus nomes gloriosos a duas ruas desta cidade (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua da Carreira": [
+            "Rua"
+        ],
+        "Avenida do Dr. Manuel de Arriaga": [
+            "Avenida"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1922": [
+            "Denominação da rua"
+        ],
+        "1921": [
+            "Viagem aérea de Gago Coutinho e Sacadura Cabral"
+        ]
+    }
+}

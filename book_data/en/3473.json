@@ -1,0 +1,37 @@
+{
+    "id": 3473,
+    "lang": "en",
+    "is_original": false,
+    "title": "Terra (Ventura)",
+    "fl": "T",
+    "original_title": "Terra (Ventura)",
+    "body": "Portuguese architect who organized the plan for the improvements needed in the city of Funchal, in accordance with the municipal deliberations of November 21, 1912, and February 3, 1913. The Municipal Council and the Agricultural Board funded this work, which was received by the former corporation on November 19, 1915, along with two copies, one of which was sent to the Agricultural Board. It was the recently deceased architect Ventura Terra who drew up the plan for the former West Avenue, now Dr. Manuel de Arriaga Avenue, and among the improvements he suggested for the beautification of the city, was the construction of an avenue over the Santa Luzia stream. (1921)",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City where the improvements were carried out"
+        ]
+    },
+    "people": {
+        "Ventura Terra": [
+            "Portuguese architect"
+        ]
+    },
+    "years": {
+        "1912": [
+            "Municipal deliberations"
+        ],
+        "1913": [
+            "Municipal deliberations"
+        ],
+        "1915": [
+            "Receipt of the work by the Municipal Council"
+        ],
+        "1921": [
+            "Construction of the avenue over the Santa Luzia stream"
+        ]
+    }
+}

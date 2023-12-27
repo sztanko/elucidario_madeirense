@@ -1,0 +1,34 @@
+{
+    "id": 3289,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sauvaire",
+    "fl": "S",
+    "original_title": "Sauvaire",
+    "body": "«Este apelido de família, diz o anotador das Saudades, proveio de Honorato Sauvaire, natural de Marselha, e que veio para esta ilha da Madeira, como cônsul da França, por 1660». Diz a Biblioteca Açoreana que, na obra Description Nautique des Açores, por Charles Philipe de Kerhallet e publicada em Paris em 1865, vem citada a «Carta de 2 de Abril de 1721 sôbre a ilha vulcanica que então apareceu junto a S. Miguel, reconhecida pelo comandante da corveta inglesa Richard e Izabel, por Sauvaire, cônsul geral francês na Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Marselha": [
+            "Local de origem de Honorato Sauvaire"
+        ],
+        "S. Miguel": [
+            "Ilha vulcânica mencionada na carta de 2 de Abril de 1721"
+        ]
+    },
+    "people": {
+        "Honorato Sauvaire": [
+            "Cônsul da França na Madeira"
+        ]
+    },
+    "years": {
+        "1660": [
+            "Chegada de Honorato Sauvaire à Madeira"
+        ],
+        "1721": [
+            "Carta sôbre a ilha vulcânica junto a S. Miguel"
+        ]
+    }
+}

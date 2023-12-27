@@ -1,0 +1,43 @@
+{
+    "id": 1623,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gouveia (Cónego António Homem de)",
+    "fl": "G",
+    "original_title": "Gouveia (Cónego António Homem de)",
+    "body": "Nasceu na freguesia da Ponta do Pargo a 17 de Dezembro de 1869. Cursou o Seminário desta Diocese e ordenou-se de presbítero no ano de 1893. Por Carta Regia de 30 de Novembro de 1899 foi nomeado cónego da Sé do Funchal. Foi escrivão da Câmara Eclesiástica e tem exercido diversas comissões de serviço publico. Representou a Madeira em cortes nas sessões legislativas de 1905 a 1906, de 1906 e de 1906 a 1907. Dos discursos que proferiu no parlamento, foram três publicados em opúsculos com os títulos de A Escravidão da Igreja em Portugal, Lisboa, 1905, de que no mesmo ano se fez outra edição no Funchal, Necessidade do Descanso Dominical, Lisboa, 1907, e A Situaçao da Madeira, Lisboa, 1907.",
+    "categories": [
+        "history",
+        "religion",
+        "politics"
+    ],
+    "freguesias": [
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1869": [
+            "Nasceu Cónego António Homem de Gouveia"
+        ],
+        "1893": [
+            "Ordenou-se de presbítero"
+        ],
+        "1899": [
+            "Nomeado cónego da Sé do Funchal"
+        ],
+        "1905": [
+            "Representou a Madeira em cortes"
+        ],
+        "1906": [
+            "Representou a Madeira em cortes"
+        ],
+        "1907": [
+            "Representou a Madeira em cortes"
+        ]
+    }
+}

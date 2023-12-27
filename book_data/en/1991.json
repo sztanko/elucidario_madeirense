@@ -1,0 +1,45 @@
+{
+    "id": 1991,
+    "lang": "en",
+    "is_original": false,
+    "title": "City Limits",
+    "fl": "C",
+    "original_title": "Limites da Cidade",
+    "body": "The municipal ordinance of December 30, 1909, confirmed by the District Commission on August 3, 1911, established that the urban part of the Municipality of Funchal was the perimeter formed by the angles whose vertices are supported by the following points: 1st Hotel Reid to Estrada Monumental; 2nd Old Bridge of Ribeiro Seco; 3rd Intersection of R. do Arcebispo D. Aires with the Levada de Santa Luzia Road; 4th Intersection of the said Road with Avenida de Pedro José de Ornelas; 5th Intersection of the Caminho do Palheiro do Ferreiro with the Caminho do Terço; and 6th Mouth of the Ribeira de Gonçalo Aires. The connection between the 3rd and 4th vertices is supposed to be made by the polygonal line that follows all the sinuosities of the Levada de Santa Luzia Road.\n\nThe city limits were as follows, according to the charter of October 5, 1863: to the south, the beaches of Funchal bay; to the east, in the parish of Santa Maria Maior, the places of Louros, Forca, and Rochinha de Cima; to the north, in the parish of Santa Luzia, the places of Vale Formoso, Calçada da Torrinha, and Ponte do Deão; and to the west, in the parish of S. Pedro, the places of Pico, S. João da Ribeira, Maravilhas, Ribeiro Seco, and Ponte Monumental.\n\nBefore that charter, the city was limited by the hermitage of Santa Catarina, Ponte de S. Paulo, Castelo do Pico, Beco dos Arrifes up to the upper mill, church of Santa Luzia, Pena, Rochinha, and Encruzilhada da Forca, these limits being fixed by a commission appointed in a municipal session on December 19, 1809.\n\nThe city began to expand towards Ribeiro Seco and Caminho do Monte after the flood of 1803, due to the fact that many buildings in the city were ruined and there was a lack of housing for many families.\n\nIn its ordinary session of October 17, 1927, the Municipal Council decided to give the city an excessively vast area, extending it deeply into the suburban parishes and fixing its limits in the following terms, which, however, are not particularly clear; \"From the sea in a straight line to the connecting path of National Road No. 23 with the Old Path of S. Gonçalo, Path of the Church of S. Gonçalo, Path of Palheiro Ferreiro, Path of Terço, Path of Levada do Bom Sucesso, in a straight line to the Levada de Santa Luzia Road, from here in a straight line to the Wall of Coelha (north of Quinta Drolhe), Path of Água de Mel, Álamos, Bridge of Ribeira Grande, Quinta do Leme, Pilar, Avista-Navios, Path of São Martinho and do Amparo to Estrada Monumental and in a straight line to the sea\".\n\nWith these new limits, fixed to the city area, it almost doubled in size, taking truly exaggerated proportions. According to the municipal decision of 1909, the city included the parishes of Sé and Santa Luzia, almost the entire parish of São Pedro, and a considerable part of the parish of Santa Maria, hence called urban parishes. By the new city division of 1927, the district capital included the area established in 1909, plus the surface given to it by the suburban parishes of São Martinho, Santo António, São Roque, and São Gonçalo, with the parish of Monte being the only one not included in the recently established city limits. Its former area, which was estimated at about five hundred hectares, must currently reach an approximate area of 750. The truth is that the excessive expansion of the city did not escape the attention of the population, which continues to consider the logical and accurate limits set for the city of Funchal in 1909. The official population census for the year 1920 attributed 24,284 inhabitants to the city, a number that has since increased significantly, not only due to the natural population growth, but also due to the expansion that the city experienced in 1927, as already mentioned.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Sé",
+        "Santa Luzia",
+        "São Pedro",
+        "Santa Maria",
+        "São Martinho",
+        "Santo António",
+        "São Roque",
+        "São Gonçalo",
+        "Monte"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1909": [
+            "Municipal ordinance of December 30"
+        ],
+        "1911": [
+            "District Commission on August 3"
+        ],
+        "1863": [
+            "Charter of October 5"
+        ],
+        "1809": [
+            "Commission appointed in a municipal session on December 19"
+        ],
+        "1803": [
+            "Flood of 1803"
+        ],
+        "1927": [
+            "Ordinary session of October 17"
+        ]
+    }
+}

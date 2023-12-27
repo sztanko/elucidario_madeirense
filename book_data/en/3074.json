@@ -1,0 +1,78 @@
+{
+    "id": 3074,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ribeira da Janela (Freguesia da)",
+    "fl": "R",
+    "original_title": "Ribeira da Janela (Freguesia da)",
+    "body": "The most abundant and extensive watercourse, which forms itself in the interior of the island and amidst rugged mountains, and flows into the ocean, is the so-called Ribeira da Janela. Near its mouth, there is a small islet, 40 meters high, with a natural hole near the top, which effortlessly resembles a window open in the rock from a certain distance. This is the origin of the name given to this watercourse by the early settlers. The settlement or nucleus of inhabitants that formed on its banks naturally took the name it had. This is the origin of the name of the parish of Ribeira da Janela.\n\nThe lands that now form this parish belonged almost entirely to the parish of Porto do Moniz, with a smaller part of them belonging to the parish of Seixal. By the mid-16th century, there were already permanent residents on the slopes of the stream, with some couples on the right bank in the last quarter of the same century, which belonged to the parish of Porto Moniz.\n\nThe chapel of Nossa Senhora da Incarnação is said to have been founded in 1630 by António Fernandes and Manuel Rodrigues, who were residents there, and it is said that a few years later it was destroyed by a great flood. However, based on the documents we have examined, it is certain that the chapel was built by the people in 1699, with the endowment date of September 7 of that year. Was it a reconstruction or the original construction? We do not know, but we are inclined to believe that 1699 is the year of the first construction. In 1754, the hermitage was expanded, and permission for its blessing was granted on April 28 of that year. In 1852, the construction works for a new church were auctioned for the amount of 6,100$000 réis, but the construction works were not started. It was in the last quarter of the past century that the small temple underwent a major transformation. It was converted into a chancel, with the addition of the church body, and the respective works were completed in 1874. The following inscription is read on the portico: Made by the people and directed by Father Pombo in 1879. The then parish priest, Father Manuel da Silva Pombo, Dr. João Barbosa de Matos e Câmara, and José Teixeira Rebêlo, a landowner in this parish and representative of a noble and ancient family that owned entailed lands here, greatly contributed to this important work. In 1922, new and important repairs were carried out in this church, due to the efforts of the current parish priest, Father Manuel Vasconcelos da Incarnação (1921).\n\nThis chapel was served by a private chaplain until the diocesan prelate D. Fr. Manuel Coutinho, by provision of September 25, 1726, established a provisional curacy in it, which had its effective creation by royal decree of February 4, 1733, stating in that diploma that it had been created at the request of the vicar of Porto Moniz, Paulo Vieira Jardim, and assigning the annual salary of a barrel and a half of wine and a half a bushel of wheat to the curate. It was a curacy dependent on the vicarage of Porto do Moniz, but, like other curacies in this diocese, it gradually became independent of the mother church and became an autonomous parish. The first priest to exercise parish functions here was Father Inacio de Aguiar Sequeira.\n\nThe mountains of this parish are celebrated among us for the incomparable beauties found in them, with the well-known site of Fanal standing out, which, due to its wonderful lagoon, dense and towering grove, picturesque location, stunning landscapes, and crystalline waters, constitutes a place full of the greatest attractions and the most fascinating charms. Anyone who knows the natural beauties of this island well and has not crossed the mountains of Ribeira da Janela, is unaware of a new and most wonderful aspect of these same beauties.\n\nThe lands of this parish are remarkably fertile, abundantly producing all the agricultural products customarily cultivated in Madeira. Irrigation is carried out through the levadas of Cedros and Lombo Gordo. The construction of a new levada, the works for which were started many years ago, as mentioned elsewhere in this work, is projected for the near future (1921).\n\nThe main sites of this parish are: Casais de Baixo, Penedo, Casais da Igreja, Casais de Além, and Eira da Achada. It has 748 inhabitants (1921).\n\nAs a mere curiosity, it is worth mentioning that someone informed us that the inhabitants of Ribeira da Janela are very hardworking, deeply religious, intelligent, and... vengeful.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Porto do Moniz",
+        "Ribeira da Janela",
+        "Seixal"
+    ],
+    "locations": {
+        "Ribeira da Janela": [
+            "Watercourse that flows into the ocean, with a small islet near its mouth.",
+            "Parish located on the island of Madeira."
+        ]
+    },
+    "people": {
+        "António Fernandes": [
+            "Founder of the chapel of Nossa Senhora da Incarnação in 1630."
+        ],
+        "Manuel Rodrigues": [
+            "Founder of the chapel of Nossa Senhora da Incarnação in 1630."
+        ],
+        "Pe. Pombo": [
+            "Directed the transformation of the chapel in 1879."
+        ],
+        "Manuel da Silva Pombo": [
+            "Then parish priest who contributed to the transformation of the chapel."
+        ],
+        "Dr. João Barbosa de Matos e Câmara": [
+            "Contributed to the transformation of the chapel."
+        ],
+        "José Teixeira Rebêlo": [
+            "Landowner in this parish and representative of a noble and ancient family, who contributed to the transformation of the chapel."
+        ],
+        "Manuel Vasconcelos da Incarnação": [
+            "Current parish priest who carried out important repairs in the church in 1922."
+        ],
+        "D. Fr. Manuel Coutinho": [
+            "Diocesan prelate who established a provisional curacy in the chapel in 1726."
+        ],
+        "Paulo Vieira Jardim": [
+            "Vicar of Porto Moniz who requested the creation of the provisional curacy."
+        ],
+        "Inacio de Aguiar Sequeira": [
+            "First priest to exercise parish functions in the parish."
+        ]
+    },
+    "years": {
+        "1630": [
+            "Foundation of the chapel of Nossa Senhora da Incarnação."
+        ],
+        "1699": [
+            "Construction of the chapel of Nossa Senhora da Incarnação."
+        ],
+        "1754": [
+            "Expansion of the hermitage."
+        ],
+        "1852": [
+            "Construction works for a new church."
+        ],
+        "1874": [
+            "Completion of the transformation works of the chapel."
+        ],
+        "1879": [
+            "Transformation of the chapel directed by Pe. Pombo."
+        ],
+        "1922": [
+            "Carrying out of new and important repairs in the church."
+        ]
+    }
+}

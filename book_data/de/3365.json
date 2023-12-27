@@ -1,0 +1,54 @@
+{
+    "id": 3365,
+    "lang": "de",
+    "is_original": false,
+    "title": "Soares (João de Nóbrega)",
+    "fl": "S",
+    "original_title": "Soares (João de Nóbrega)",
+    "body": "Er wurde am 11. Juni 1831 in dieser Stadt geboren. Nachdem er einige Jahre das Gymnasium von Funchal besucht hatte, reiste er durch die portugiesischen Kolonien in Afrika und Nordamerika und kehrte 1855 in die Heimat zurück, wo er sich niederließ. Er war Grundschullehrer, Schreiber der Barmherzigen Bruderschaft und schließlich Angestellter der Tabaksteuerbehörde.\n\nEr widmete sich aktiv dem Literaturbetrieb und arbeitete umfangreich für viele Zeitschriften, insbesondere zu Themen mit einem im Wesentlichen literarischen Charakter. In der Poesie, im Drama, in Kurzgeschichten, in Reiseberichten etc. gab er überzeugende Beweise für seine Begabung für diese Literaturgattungen. Er war Direktor und Redakteur der Zeitschriften Revista Semanal, Semanario 0fficial und Flor do Oceano und arbeitete für viele Zeitungen wie A Pátria, A Imprensa und O Funchalense. Als 1876 der Kanoniker Alfredo César de Oliveira in dieser Stadt die Tageszeitung O Diário de Noticias gründete, wurde Nobrega Soares eingeladen, Redakteur dieser Zeitung zu werden, und arbeitete dort mehrere Jahre aktiv mit.\n\nIn Einzelbänden veröffentlichte er: Introducção à Geographia, 1859; Primeiras Noções de Moral, 1861 und eine weitere Ausgabe 1862; Contos e Viagens, 1867; Scenas e Comedias, 1865; Scenas e Phantasias, 1868; Qual dos dois?, 1862; Um quarto com duas camas, 1862; Chorographia da Madeira, 1862, von der noch zwei weitere Auflagen erschienen; und Grammatica da Lingua Portugueza, 1884. Er bereitete andere literarische Werke für den Druck vor, die jedoch nicht veröffentlicht wurden, einige davon werden im bibliographischen Wörterbuch von Inocencio F. da Silva erwähnt.\n\nEr starb am 22. September 1890 in Funchal.",
+    "categories": [
+        "history",
+        "culture",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburts- und Sterbeort"
+        ]
+    },
+    "people": {
+        "Alfredo César de Oliveira": [
+            "Gründer der Tageszeitung O Diário de Noticias"
+        ]
+    },
+    "years": {
+        "1859": [
+            "Veröffentlichung von 'Introducção à Geographia'"
+        ],
+        "1861": [
+            "Veröffentlichung von 'Primeiras Noções de Moral'"
+        ],
+        "1862": [
+            "Veröffentlichung von 'Qual dos dois?', 'Um quarto com duas camas', 'Chorographia da Madeira'"
+        ],
+        "1865": [
+            "Veröffentlichung von 'Scenas e Comedias'"
+        ],
+        "1867": [
+            "Veröffentlichung von 'Contos e Viagens'"
+        ],
+        "1868": [
+            "Veröffentlichung von 'Scenas e Phantasias'"
+        ],
+        "1876": [
+            "Gründung der Tageszeitung O Diário de Noticias"
+        ],
+        "1884": [
+            "Veröffentlichung von 'Grammatica da Lingua Portugueza'"
+        ],
+        "1890": [
+            "Tod"
+        ]
+    }
+}

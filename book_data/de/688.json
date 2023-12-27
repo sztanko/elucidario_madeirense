@@ -1,0 +1,30 @@
+{
+    "id": 688,
+    "lang": "de",
+    "is_original": false,
+    "title": "Câmara (José Bettencourt da)",
+    "fl": "C",
+    "original_title": "Câmara (José Bettencourt da)",
+    "body": "Er wurde am 19. April 1844 auf der Quinta do Descanso in der Gemeinde Santa Luzia geboren, die seinem Großvater väterlicherseits, dem Majoratsherrn Tristão Joaquim Bettencourt da Camara, gehörte, und starb am 19. Oktober 1875 in der Gemeinde Camara de Lobos, als er auf der Reise von Estreito da Calheta nach Funchal war. Er wurde nur 31 Jahre alt. Er arbeitete für verschiedene Zeitungen mit und zeigte eine bemerkenswerte Begabung für Literatur. Er widmete sich besonders genealogischen Studien und Heraldik und kannte sich gut mit den Abstammungslinien alter madeirischer Familien aus. Einige der Anmerkungen zu Saudades da Terra, die sich mit genealogischen Themen befassen, stammen von ihm. Zu diesem Thema bereitete er eine wertvolle Arbeit vor, die er jedoch nicht abschließen konnte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "Camara de Lobos"
+    ],
+    "locations": {},
+    "people": {
+        "Tristão Joaquim Bettencourt da Camara": [
+            "Großvater väterlicherseits"
+        ]
+    },
+    "years": {
+        "1844": [
+            "Geboren auf der Quinta do Descanso"
+        ],
+        "1875": [
+            "Gestorben in der Gemeinde Camara de Lobos"
+        ]
+    }
+}

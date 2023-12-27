@@ -1,0 +1,23 @@
+{
+    "id": 2764,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Peso",
+    "fl": "P",
+    "original_title": "Peso",
+    "body": "Medida que serve para determinar o pêso das cebolas. O pêso corresponde a 52 quilogramas, no Funchal, e a 50 quilogramas, no Caniço.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Corresponde a 52 quilogramas"
+        ],
+        "Caniço": [
+            "Corresponde a 50 quilogramas"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

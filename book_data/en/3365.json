@@ -1,0 +1,54 @@
+{
+    "id": 3365,
+    "lang": "en",
+    "is_original": false,
+    "title": "Soares (João de Nóbrega)",
+    "fl": "S",
+    "original_title": "Soares (João de Nóbrega)",
+    "body": "He was born in this city on June 11, 1831. After attending the Funchal lyceum for a few years, he traveled through Portuguese Africa and North America, returning to his homeland and settling there in 1855. He was a primary school teacher, clerk of the Holy House of Mercy, and finally an employee in the tobacco inspection department.\n\nHe actively dedicated himself to cultivating literature, with extensive contributions to many periodicals, especially on essentially literary subjects. In poetry, drama, tales, travel narratives, etc., he gave ample evidence of his aptitude for these genres of literature. He was the director and editor of the Revista Semanal, Semanario 0fficial, and Flor do Oceano, and collaborated in many newspapers such as A Pátria, A Imprensa, and O Funchalense. When in 1876 the canon Alfredo César de Oliveira founded the newspaper O Diário de Noticias in this city, Nobrega Soares was invited to be an editor of this newspaper and actively collaborated in it for several years.\n\nIn separate volumes, he published Introduction to Geography, 1859; First Notions of Morality, 1861, and another edition in 1862; Tales and Travels, 1867; Scenes and Comedies, 1865; Scenes and Phantasies, 1868; Which of the two?; 1862; - A room with two beds, 1862; Chorography of Madeira, 1862, of which two more editions were made; and Grammar of the Portuguese Language, 1884. He was preparing for publication other literary works that were not published, some of which are mentioned in the Bibliographic Dictionary of Inocencio F. da Silva.\n\nHe passed away in Funchal on September 22, 1890.",
+    "categories": [
+        "history",
+        "culture",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth and death"
+        ]
+    },
+    "people": {
+        "Alfredo César de Oliveira": [
+            "Founder of the newspaper O Diário de Noticias"
+        ]
+    },
+    "years": {
+        "1859": [
+            "Publication of 'Introduction to Geography'"
+        ],
+        "1861": [
+            "Publication of 'First Notions of Morality'"
+        ],
+        "1862": [
+            "Publication of 'Which of the two?', 'A room with two beds', 'Chorography of Madeira'"
+        ],
+        "1865": [
+            "Publication of 'Scenes and Comedies'"
+        ],
+        "1867": [
+            "Publication of 'Tales and Travels'"
+        ],
+        "1868": [
+            "Publication of 'Scenes and Phantasies'"
+        ],
+        "1876": [
+            "Foundation of the newspaper O Diário de Noticias"
+        ],
+        "1884": [
+            "Publication of 'Grammar of the Portuguese Language'"
+        ],
+        "1890": [
+            "Death"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 2624,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pacheco (Kanonikus António Aires)",
+    "fl": "P",
+    "original_title": "Pacheco (Cónego António Aires)",
+    "body": "Er ist Kanoniker der Kathedrale von Lissabon und gilt als einer der herausragendsten portugiesischen Kirchenredner. Geboren am 15. September 1854, stammt er aus Vilarouco im Distrikt Viseu. Er kam 1877 mit dem verstorbenen Prälaten D. Manuel Agostinho Barreto nach Madeira und studierte am hiesigen Priesterseminar Theologie, bevor er 1881 zum Priester geweiht wurde. Einige Jahre lang war er Professor und Rektor des Diözesanpriesterseminars, bis er 1888 zum Kanoniker an unserer Kathedrale ernannt und wenige Jahre später an die Patriarchalkathedrale von Lissabon versetzt wurde.\n\nAls Redakteur der Zeitung *A Verdade*, die er einige Jahre lang leitete, erwies er sich als brillanter und kraftvoller Journalist, insbesondere in seinen Schriften als gewandter Polemiker. In der Widerlegung der Broschüre *O Sudário Negro* veröffentlichte er 1882 eine 54-seitige Schrift mit dem Titel O Sudário Negro no banco dos réus. 1890 veranlasste er die Stadtverwaltung von Funchal, die Trauerrede zu veröffentlichen, die Kanonikus Aires Pacheco anlässlich der Exequien für König Ludwig I. im Dom gehalten hatte.\n\nEr verließ Madeira im Jahr 1890.",
+    "categories": [
+        "religion",
+        "education"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem Kanonikus António Aires Pacheco lebte."
+        ]
+    },
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Verstorbener Prälat, in dessen Begleitung Kanonikus António Aires Pacheco nach Madeira kam."
+        ]
+    },
+    "years": {
+        "1854": [
+            "Geburtsjahr von António Aires Pacheco."
+        ],
+        "1877": [
+            "Jahr, in dem António Aires Pacheco nach Madeira kam."
+        ],
+        "1881": [
+            "Jahr, in dem António Aires Pacheco zum Priester geweiht wurde."
+        ],
+        "1888": [
+            "Jahr, in dem er zum Domherrn der Kathedrale ernannt wurde."
+        ],
+        "1890": [
+            "Jahr, in dem er Madeira verließ."
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 2970,
+    "lang": "en",
+    "is_original": false,
+    "title": "Queimado (Pico)",
+    "fl": "Q",
+    "original_title": "Queimado (Pico)",
+    "body": "A place and a mountainous elevation roughly equidistant from Lombo do Mouro and Monte Medonho on the borders of the parish of Ribeira Brava and S. Vicente.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "S. Vicente"
+    ],
+    "locations": {
+        "Lombo do Mouro": [
+            "Parish of Ribeira Brava"
+        ],
+        "Monte Medonho": [
+            "Parish of S. Vicente"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

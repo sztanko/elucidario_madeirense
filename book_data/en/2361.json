@@ -1,0 +1,34 @@
+{
+    "id": 2361,
+    "lang": "en",
+    "is_original": false,
+    "title": "Monument to Our Lady of Peace",
+    "fl": "M",
+    "original_title": "Monumento a Nossa Senhora da Paz",
+    "body": "On November 1, 1923, the first stone was laid for the grand monument erected in Terreiro da Luta, in the parish of Monte, in honor of the Blessed Virgin under the invocation of Our Lady of Peace, which consists of a beautiful marble image, set on a plinth flanked by artistic bronze bas-reliefs alluding to the traditional belief in the appearance of the Blessed Virgin in that same location. Attached to the monument is a small and elegant chapel, where the holy sacrifice of the mass is frequently celebrated and other acts of worship. The erection of this monument is due to the fervent zeal and painstaking efforts of Father José Marques Jardim, who spared no effort or sacrifice to give it the grandeur and greatness that characterize it, even going abroad to raise donations to achieve the realization of this work. The solemn inauguration, which was attended by thousands of people from all over the island, took place under the presidency of the diocesan prelate on August 14, 1927.",
+    "categories": [
+        "religion",
+        "culture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Terreiro da Luta": [
+            "Location in Monte"
+        ]
+    },
+    "people": {
+        "José Marques Jardim": [
+            "Priest"
+        ]
+    },
+    "years": {
+        "1923": [
+            "Laying of the first stone of the monument to Our Lady of Peace"
+        ],
+        "1927": [
+            "Solemn inauguration of the monument to Our Lady of Peace"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 3146,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sacred Heart of Jesus (Chapel of)",
+    "fl": "S",
+    "original_title": "Sagrado Coração de Jesus (Capela do)",
+    "body": "In the area of Cardais, in the parish of Água de Pena, Canon Henrique Modesto de Bettencourt had a chapel dedicated to the Sacred Heart of Jesus built in 1907, on land he owned there.\n\nA chapel of this invocation was also founded a few years ago in the parish of Monte by Father Jorge de Faria e Castro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena",
+        "Monte"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Parish"
+        ],
+        "Monte": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Henrique Modesto de Bettencourt": [
+            "Canon"
+        ],
+        "Jorge de Faria e Castro": [
+            "Father"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Construction of the chapel in the area of Cardais"
+        ]
+    }
+}

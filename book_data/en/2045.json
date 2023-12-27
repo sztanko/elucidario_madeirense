@@ -1,0 +1,29 @@
+{
+    "id": 2045,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lopes",
+    "fl": "L",
+    "original_title": "Lopes",
+    "body": "«Diogo Lopes, from Estacada, as the annotator of the Saudades says, was one of the first settlers of the island of Madeira: he lived in Câmara de Lobos, in the place called Torre, and his sesmaria covered much of the land from Pico towards Funchal to Covão».",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Residence of Diogo Lopes"
+        ],
+        "Pico": [
+            "Mentioned location"
+        ]
+    },
+    "people": {
+        "Diogo Lopes": [
+            "One of the first settlers of the island of Madeira"
+        ]
+    },
+    "years": {}
+}

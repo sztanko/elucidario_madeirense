@@ -1,0 +1,32 @@
+{
+    "id": 1919,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lamaceiros",
+    "fl": "L",
+    "original_title": "Lamaceiros",
+    "body": "Sehr malerischer Ort in der Gemeinde Santo da Serra mit schönen Aussichten auf die Gemeinden Porto da Cruz, Faial und Santana. Er liegt drei Kilometer von der Pfarrkirche Santo da Serra entfernt. Bis zu diesem Ort fließen die Wässer der Levadas von Furado, Juncal, Nova do Furado oder dos Accionistas und Serra do Faial in einem gemeinsamen Aquädukt. Dort trennt sich das Wasser der ersten Levada ab und fließt in einer eigenen Leitung weiter, während das Wasser der zweiten Levada zur Gemeinde Porto da Cruz fließt. Die Wässer der beiden anderen Levadas fließen zusammen bis zum Ort Lombo da Raiz (siehe diesen Namen).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo da Serra",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Gemeinde"
+        ],
+        "Porto da Cruz": [
+            "Gemeinde"
+        ],
+        "Faial": [
+            "Gemeinde"
+        ],
+        "Santana": [
+            "Gemeinde"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

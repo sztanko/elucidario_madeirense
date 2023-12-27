@@ -1,0 +1,32 @@
+{
+    "id": 2540,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Novara (Fragata)",
+    "fl": "N",
+    "original_title": "Novara (Fragata)",
+    "body": "Este navio de guerra da marinha austríaca realizou uma viagem de circunnavegação nos anos de 1857 a 1859, tendo estado fundeado no nosso porto durante alguns dias. É muito apreciada a descrição desta viagem, tendo Latino Coelho traduzido e publicado na Revista Contemporânea a parte dessa descrição que se ocupa desta ilha, que é muito interessante e digna de ser lida. Foi reproduzida no n.° 2279 e seguintes do extinto Diário do Commercio, desta cidade.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto": [
+            "Nosso porto"
+        ]
+    },
+    "people": {
+        "Latino Coelho": [
+            "Tradutor e publicador"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Início da viagem"
+        ],
+        "1859": [
+            "Fim da viagem"
+        ]
+    }
+}

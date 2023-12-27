@@ -1,0 +1,31 @@
+{
+    "id": 452,
+    "lang": "en",
+    "is_original": false,
+    "title": "Battenberg (Príncipe de)",
+    "fl": "B",
+    "original_title": "Battenberg (Príncipe de)",
+    "body": "In January 1896, the English cruiser Blonde was in the port of Funchal, carrying the body of the Prince of Battenberg. This prince, who accompanied the English expedition to the Ashanti Country, died on a trip to this island where he intended to spend some time to restore his deteriorated health. He was married to Princess Beatriz, granddaughter of Queen Victoria of England.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Port where the English cruiser Blonde docked"
+        ]
+    },
+    "people": {
+        "Príncipe de Battenberg": [
+            "Deceased on a trip to the island of Madeira"
+        ],
+        "Princess Beatriz": [
+            "Granddaughter of Queen Victoria of England"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Death of the Prince of Battenberg"
+        ]
+    }
+}

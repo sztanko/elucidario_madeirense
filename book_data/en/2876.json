@@ -1,0 +1,39 @@
+{
+    "id": 2876,
+    "lang": "en",
+    "is_original": false,
+    "title": "Porto Santo (Village and Municipality)",
+    "fl": "P",
+    "original_title": "Porto Santo (Vila e Muncipio)",
+    "body": "The village of Porto Santo is also known by the name Baleira, and we have already provided information about it on page 117 of the 1st volume of this work, to which we refer the reader. Being the seat of a captaincy, its donataries had almost discretionary powers conferred by the letters of donation. However, being also the seat of a Municipality, it granted to the people, through their respective charters, certain privileges and rights that attenuated the attributions of the captain-donataries. In the letter of donation granted to Bartolomeu Perestrelo on November 1, 1446, as the donatary of Porto Santo, explicit reference is made to the charter that was to be given to the future village, which was created a few years after that date, but we have found no traces of that charter, which generally accompanied the establishment of new Municipalities. It must be supposed, however, that it would be modeled on the same basis as the charters of the other villages and Municipalities of this archipelago. In 1834, Porto Santo was considered a providence for the purpose of its administration, and João de Santana de Vasconcelos was the first providence, appointed by decree of the prefect of the province on August 9 of that year. With the administrative reform of 1835, the island of Porto Santo became a municipality, and the first administrator was João José de Alencastre, appointed on November 25 of the same year.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Village of Porto Santo"
+        ]
+    },
+    "people": {
+        "Bartolomeu Perestrelo": [
+            "Donatary of Porto Santo"
+        ],
+        "João de Santana de Vasconcelos": [
+            "First providence of Porto Santo"
+        ],
+        "João José de Alencastre": [
+            "First administrator of the island of Porto Santo"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Porto Santo considered a providence for the purpose of its administration"
+        ],
+        "1835": [
+            "Administrative reform, the island of Porto Santo became a municipality"
+        ]
+    }
+}

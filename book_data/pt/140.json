@@ -1,0 +1,30 @@
+{
+    "id": 140,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Algodoeiro",
+    "fl": "A",
+    "original_title": "Algodoeiro",
+    "body": "A cultura do Gossypium herbaceum foi tentada na Madeira nos princípios do século XIX e em oficio de 20 de Março de 1802 fazia saber o então ministro D. Rodrigo de Sousa Coutinho ao Capitão-General D. José Manuel da Câmara, que o Príncipe Regente conhecera com muita satisfação os progressos da mesma cultura na ilha. Era 1863 vieram novas sementes de algodoeiro para a Madeira, mas poucos foram os agricultores que se interessaram então pela cultura desta planta. O Gossypium arboreum também se desenvolve bem na região inferior da Madeira, mas tanto esta espécie como o G. Herbaceum, se acham agora, ao que parece perfeitamente extintos na ilha.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Rodrigo de Sousa Coutinho": [
+            "Ministro"
+        ],
+        "D. José Manuel da Câmara": [
+            "Capitão-General"
+        ]
+    },
+    "years": {
+        "1802": [
+            "Oficio de 20 de Março fazia saber o então ministro D. Rodrigo de Sousa Coutinho ao Capitão-General D. José Manuel da Câmara, que o Príncipe Regente conhecera com muita satisfação os progressos da mesma cultura na ilha"
+        ],
+        "1863": [
+            "Vieram novas sementes de algodoeiro para a Madeira"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": 1666,
+    "lang": "ua",
+    "is_original": false,
+    "title": "Гвіндасте (мис)",
+    "fl": "Г",
+    "original_title": "Guindaste (Ponta do)",
+    "body": "Цей мис розташований у приході Гаула, недалеко від невеликого порту Порту-Нову.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Мис": [
+            "Приході Гаула"
+        ],
+        "Порту-Нову": [
+            "Невеликий порт"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

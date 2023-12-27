@@ -1,0 +1,30 @@
+{
+    "id": 2511,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Paz (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Paz (Capela de)",
+    "body": "Foi fundada em 1621 pelo presbítero Jerónimo da Silva e ficava situada na freguesia de Santa Maria Maior.\n\nVid. Monumentos e Terreiro da Luta.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Jerónimo da Silva": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1621": [
+            "Ano de fundação da capela"
+        ]
+    }
+}

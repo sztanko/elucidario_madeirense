@@ -1,0 +1,41 @@
+{
+    "id": 1018,
+    "lang": "en",
+    "is_original": false,
+    "title": "Correia Henriques (José Anselmo)",
+    "fl": "C",
+    "original_title": "Correia Henriques (José Anselmo)",
+    "body": "José Anselmo Correia Henriques was born in the parish of Ribeira Brava around the year 1777. Although born out of wedlock, he belonged to an ancient and noble family of this island, being the natural son of Antonio João Correia Bettencourt Henriques and the brother of Fernando José Correia Brandão Bettencourt Henriques, Viscount of Torre Bela and minister of Portugal in Prussia and Sweden. We do not know what literary qualifications José Anselmo Correia Henriques possessed, but for the positions he held and the books he published, he must certainly have been a man of extraordinary talent and rare intellectual culture. Having pursued a diplomatic career and being a devoted cultivator of letters, he certainly received his education in some higher course or at least at the College of Nobles, where the dead languages Greek and Latin, the living languages French, English, and Italian, as well as history, mathematics, physics, drawing, architecture, horsemanship, fencing, etc., were taught at that time. He followed the diplomatic career, and we only know that he held the position of representative of Portugal to the Hanseatic cities, which, as is generally known, were Hamburg, Bremen, and others, which constituted a kind of confederation with diplomatic representation in almost all of Europe. Many of his literary works were printed in various European cities, and from this circumstance, it can perhaps be inferred that he had resided in some of them as a member of the diplomatic corps and had been part of the Portuguese legations in various foreign courts. It is very likely that the works published in Paris, London, Hamburg, Venice, and Christiania indicate the more or less prolonged stay of their author in those cities, in the exercise of consular or diplomatic functions. He was in Rio de Janeiro when the Portuguese court and government were established there, holding some positions of trust with the regent prince D. João. Among Correia Henriques' works mentioned by Inocencio, we will highlight his Poetic Works, of which he seems to have published only the first volume, the heroic-comic poems A Padeira de Aljubarrota and Perodana, the tragedy Revolução de Portugal, the comedy Escola de Escandalo, and many others, which, if not masterpieces in their genre, nevertheless reveal appreciable literary aptitudes and a great intellectual culture. He translated the poem Art of War by Frederick, king of Prussia, and also other works, and also published in London, in 1821, a political newspaper entitled O Zorragar das côrtes novas. He died in Lisbon in 1831 and was the father of the first Count of Seixal.",
+    "categories": [
+        "history",
+        "culture",
+        "art"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Antonio João Correia Bettencourt Henriques": [
+            "Father of José Anselmo Correia Henriques"
+        ],
+        "Fernando José Correia Brandão Bettencourt Henriques": [
+            "Brother of José Anselmo Correia Henriques"
+        ]
+    },
+    "years": {
+        "1777": [
+            "Birth of José Anselmo Correia Henriques"
+        ],
+        "1831": [
+            "Death of José Anselmo Correia Henriques"
+        ],
+        "1821": [
+            "Publication of the newspaper O Zorragar das côrtes novas"
+        ]
+    }
+}

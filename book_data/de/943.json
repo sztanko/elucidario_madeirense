@@ -1,0 +1,24 @@
+{
+    "id": 943,
+    "lang": "de",
+    "is_original": false,
+    "title": "Coleridge (Henry Nelson)",
+    "fl": "C",
+    "original_title": "Coleridge (Henry Nelson)",
+    "body": "Er befasste sich in seinem Buch \"Six Months in West Indias\" aus dem Jahr 1825 mit Madeira und Maria Clementina, einer Nonne des Klosters Santa Clara.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Maria Clementina": [
+            "Nonne des Klosters Santa Clara"
+        ]
+    },
+    "years": {
+        "1825": [
+            "Buch \"Six Months in West Indias\""
+        ]
+    }
+}

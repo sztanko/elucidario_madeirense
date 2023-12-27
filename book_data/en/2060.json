@@ -1,0 +1,30 @@
+{
+    "id": 2060,
+    "lang": "en",
+    "is_original": false,
+    "title": "Louros. Populated site of the parish of São Gonçalo",
+    "fl": "L",
+    "original_title": "Louros. Sítio povoado da freguesia de São Gonçalo",
+    "body": "In this place, there used to be a small chapel dedicated to Our Lady of the Incarnation, built in 1656 by Diogo Bernardes Branco. There is an Agricultural Post or experimental agricultural field known as the Louros Nursery, maintained by the General Board of the District.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Parish where the site of Louros is located"
+        ]
+    },
+    "people": {
+        "Diogo Bernardes Branco": [
+            "Builder of the chapel"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Construction of the chapel"
+        ]
+    }
+}

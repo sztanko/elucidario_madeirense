@@ -1,0 +1,34 @@
+{
+    "id": 2785,
+    "lang": "en",
+    "is_original": false,
+    "title": "Piedade",
+    "fl": "P",
+    "original_title": "Piedade",
+    "body": "Under the name of Monte Gordo or Piedade, there is an elevation overlooking the sea in the parish of Caniçal, with the chapel of Nossa Senhora da Piedade standing out at the top, which is visible from a great distance by ships approaching the coast. It is said to have been founded in the 16th century by Garcia Moniz, the first administrator of the morgadio of Caniçal, and its ownership passed to the entailed house of São Gil, which had its residence in the place of Calçada, in the parish of Santa Cruz.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniçal",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Caniçal": [
+            "Parish where the Piedade elevation is located"
+        ],
+        "Santa Cruz": [
+            "Parish where the residence of the entailed house of São Gil is located"
+        ]
+    },
+    "people": {
+        "Garcia Moniz": [
+            "First administrator of the morgadio of Caniçal"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Foundation of the chapel of Nossa Senhora da Piedade"
+        ]
+    }
+}

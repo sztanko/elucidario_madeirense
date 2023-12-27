@@ -1,0 +1,41 @@
+{
+    "id": 3127,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pilgerhäuser",
+    "fl": "P",
+    "original_title": "Romeiros (Casas de)",
+    "body": "Wir wissen, dass Pilgerhäuser an den folgenden Orten gebaut wurden: Monte, Santo Antonio da Serra und Piedade (Ponta de S. Lourenço).\n\nDas Pilgerhaus in Monte existierte bereits zwischen 1780 und 1790. In der Stadtratssitzung vom 31. Mai 1822 wurde erklärt, dass es zum Eigentum der Gemeinde gehört. Trotzdem beschloss der Stadtrat in der Sitzung vom 18. November 1846, ein Gebäude neben der Kirche in Monte \"als Zufluchtsort für Wanderer und zur Aufnahme der Tiere\" zu errichten, von dem wir nicht wissen, ob es tatsächlich gebaut wurde.\n\nDas Pilgerhaus von Santo António da Serra wurde 1808 auf Kosten mehrerer englischer Untertanen gebaut und befindet sich heute in Ruinen. Bis 1832 wurde es von englischen Kommissionen verwaltet, in denen die Namen Penfold, Selby, Leacock, Taylor und Gordon auftauchen.\n\nVon dem Haus, das dazu bestimmt war, Pilger aufzunehmen, die zur Kapelle Unserer Lieben Frau von Piedade in der Gemeinde Caniçal wallfahrteten, existieren heute keine Überreste mehr.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Santo Antonio da Serra"
+    ],
+    "locations": {
+        "Monte": [
+            "Ort, an dem sich das Pilgerhaus befand"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1780": [
+            "Existenz des Pilgerhauses in Monte"
+        ],
+        "1790": [
+            "Existenz des Pilgerhauses in Monte"
+        ],
+        "1808": [
+            "Bau des Pilgerhauses von Santo António da Serra"
+        ],
+        "1822": [
+            "Erklärung in der Stadtratssitzung über die Zugehörigkeit des Pilgerhauses zum Eigentum der Gemeinde"
+        ],
+        "1832": [
+            "Jahr, in dem die Verwaltung des Pilgerhauses von Santo António da Serra durch englische Kommissionen endete"
+        ],
+        "1846": [
+            "Beschluss des Stadtrats, ein Gebäude neben der Kirche in Monte zu errichten"
+        ]
+    }
+}

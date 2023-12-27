@@ -1,0 +1,39 @@
+{
+    "id": 2601,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ornelas de Vasconcelos (Ayres de)",
+    "fl": "O",
+    "original_title": "Ornelas de Vasconcelos (Ayres de)",
+    "body": "Em virtude da sedição popular que depôs e prendeu o governador Francisco de Mascarenhas (V. este nome), «foi Ayres de Ornellas eleito pela nobreza e pelo povo para governador e capitão-general, a 18 de Setembro de 1668. Neste elevado cargo o confirmou o príncipe regente D. Pedro e nele permaneceu até á posse do seu sucessor Ayres de Saldanha, no ano seguinte de 1669.\n\nFoi o sétimo avo dos distintos madeirenses o arcebispo D. Aires de Ornelas e o par do reino Agostinho de Ornelas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco de Mascarenhas": [
+            "Governador"
+        ],
+        "D. Pedro": [
+            "Príncipe regente"
+        ],
+        "Ayres de Saldanha": [
+            "Sucessor"
+        ],
+        "D. Aires de Ornelas": [
+            "Arcebispo"
+        ],
+        "Agostinho de Ornelas": [
+            "Par do reino"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Ayres de Ornellas eleito pela nobreza e pelo povo para governador e capitão-general"
+        ],
+        "1669": [
+            "Posse do seu sucessor Ayres de Saldanha"
+        ]
+    }
+}

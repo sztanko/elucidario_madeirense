@@ -1,0 +1,36 @@
+{
+    "id": 81,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aguiar (Rui Dias de)",
+    "fl": "A",
+    "original_title": "Aguiar (Rui Dias de)",
+    "body": "Era filho de Diogo Afonso de Aguiar e de D. Isabel Gonçalves da Câmara, terceira filha de Zarco. Casou com Leonor Homem de Sousa, filha de Garcia Homem de Sousa e de Catarina Gonçalves da Câmara, filha do descobridor da Madeira. Serviu muito tempo em Africa, onde se distinguiu pela sua bravura. Morreu valorosamente na fortaleza de Gué, defendendo-a dum ataque dos indígenas. Dele faz menção Manuel Tomás no seu poema a Insulana.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Diogo Afonso de Aguiar": [
+            "Pai de Rui Dias de Aguiar."
+        ],
+        "D. Isabel Gonçalves da Câmara": [
+            "Mãe de Rui Dias de Aguiar."
+        ],
+        "Leonor Homem de Sousa": [
+            "Esposa de Rui Dias de Aguiar."
+        ],
+        "Garcia Homem de Sousa": [
+            "Pai de Leonor Homem de Sousa."
+        ],
+        "Catarina Gonçalves da Câmara": [
+            "Mãe de Leonor Homem de Sousa."
+        ]
+    },
+    "years": {
+        "1918": [
+            "Morte de Rui Dias de Aguiar."
+        ]
+    }
+}

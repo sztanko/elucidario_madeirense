@@ -1,0 +1,26 @@
+{
+    "id": 2992,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quinzena Religiosa",
+    "fl": "Q",
+    "original_title": "Quinzena Religiosa",
+    "body": "Iniciou a sua publicação a I de Janeiro de 1901 e suspendeu a 15 de Setembro de 1910, dando 230 números.\n\nReapareceu em Fevereiro de 1911 e suspendeu em Janeiro de 1912, tendo sido publicados 24 números.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1901": [
+            "Ano de início da publicação da Quinzena Religiosa."
+        ],
+        "1910": [
+            "Ano em que a Quinzena Religiosa suspendeu a publicação."
+        ],
+        "1911": [
+            "Ano em que a Quinzena Religiosa reapareceu e suspendeu em 1912."
+        ]
+    }
+}

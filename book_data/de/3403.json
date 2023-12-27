@@ -1,0 +1,33 @@
+{
+    "id": 3403,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sousa Brasão (Manuel de)",
+    "fl": "S",
+    "original_title": "Sousa Brasão (Manuel de)",
+    "body": "Geboren in der Gemeinde S. Vicente am 21. April 1884, gestorben in seiner Residenz in der Festung S. Lourenço am 21. Dezember 1923. Er war Hauptmann der Militärverwaltung und diente von 1914 bis 1915 in Südangola und von 1916 bis 1917 in Mosambik. Am 10. Juli 1921 wurde er zum Abgeordneten für Madeira gewählt und arbeitete für verschiedene parteigebundene Zeitungen mit.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [
+        "S. Vicente"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Geburtsort"
+        ],
+        "Festung S. Lourenço": [
+            "Sterbeort"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1884": [
+            "Geburt von Manuel de Sousa Brasão"
+        ],
+        "1923": [
+            "Tod in der Festung S. Lourenço"
+        ]
+    }
+}

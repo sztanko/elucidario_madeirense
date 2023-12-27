@@ -1,0 +1,26 @@
+{
+    "id": 1035,
+    "lang": "en",
+    "is_original": false,
+    "title": "Corujeira",
+    "fl": "C",
+    "original_title": "Corujeira",
+    "body": "In this well-known place in the parish of Tabúa, there is an ancient chapel dedicated to the Mother of God, and the year of its foundation and the names of its founders are unknown. Destroyed by the violence of the rushing waters of the stream, it was rebuilt on the opposite bank to its original construction, in the year 1767.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Tabúa"
+    ],
+    "locations": {
+        "Tabúa": [
+            "Parish where Corujeira is located."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1767": [
+            "Rebuilding of the ancient chapel on the opposite bank to its original construction."
+        ]
+    }
+}

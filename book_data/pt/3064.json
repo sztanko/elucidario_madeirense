@@ -1,0 +1,29 @@
+{
+    "id": 3064,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Revista Judicial",
+    "fl": "R",
+    "original_title": "Revista Judicial",
+    "body": "Deu o primeiro numero a 27 de Julho de 1865 e o n.° 283 a 24 de Fevereiro de 1870. Também se publicou de 1874 a 1875.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1865": [
+            "Primeiro número da Revista Judicial"
+        ],
+        "1870": [
+            "Último número da Revista Judicial"
+        ],
+        "1874": [
+            "Publicação da Revista Judicial"
+        ],
+        "1875": [
+            "Publicação da Revista Judicial"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 643,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cais de Câmara de Lobos",
+    "fl": "C",
+    "original_title": "Cais de Câmara de Lobos",
+    "body": "The construction of this pier, under the government's responsibility, began in 1876; however, it was improved and expanded by the General Assembly in 1903.",
+    "categories": [
+        "geography",
+        "economy"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Location where the pier construction took place"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1876": [
+            "Start of the pier construction"
+        ],
+        "1903": [
+            "Improvements and expansions carried out by the General Assembly"
+        ]
+    }
+}

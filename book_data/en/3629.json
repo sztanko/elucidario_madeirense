@@ -1,0 +1,29 @@
+{
+    "id": 3629,
+    "lang": "en",
+    "is_original": false,
+    "title": "Village",
+    "fl": "V",
+    "original_title": "Vila",
+    "body": "A populated place in the parish of Ribeira Brava, which was known and still is by the name of Lugar. With the creation of the municipality in 1914 and the village in 1928, it began to be called Vila, and the headquarters of the respective municipality were installed there (see Ribeira Brava and other articles under this title).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Parish of Ribeira Brava"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1914": [
+            "Creation of the municipality"
+        ],
+        "1928": [
+            "Creation of the village"
+        ]
+    }
+}

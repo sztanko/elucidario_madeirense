@@ -1,0 +1,97 @@
+{
+    "id": 2988,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quintas",
+    "fl": "Q",
+    "original_title": "Quintas",
+    "body": "Parece-nos que a palavra quinta tem entre nós uma significação especial, que notavelmente a distingue do sentido em que em geral é tomada no resto do nosso país. Este termo, na Madeira, costuma designar uma propriedade rústica e urbana, de maior ou menor extensão, murada em todo o seu perímetro ou ao menos numa parte considerável dele, contendo sempre uma boa casa de habitação, rodeada de jardins e passeios assombreados com maciços de árvores. Dá-lhe acesso uma porta gradeada de ferro, de certo aparato arquitectónico, comunicando com um passeio, que directamente conduz á residência. Muitas quintas há que abrangem terrenos cultivados de vinha e cana-de-açúcar, hortas, pomares e arvoredos. Algumas delas possuem construções destinadas a diversos serviços agrícolas, estábulos e habitações dos caseiros, tendo as mais antigas, além da casa nobre de moradia, uma capela adjunta, outrora para uso privativo dos seus proprietários.\n\nA mais importante e sumptuosa quinta desta ilha é a do Palheiro Ferreiro, de que já demos a noticia a páginas 43 deste volume, e a seguir é a chamada Quinta do Monte, na freguesia deste nome de que também já noutro lugar nos ocupámos (Volume II, página 461).\n\nDepois destas, merecem referência especial a *Quinta Lambert* (Ver este nome) e a da Vigia, a das Cruzes (Ver *Moradias de Zargo* ); a de S. João, na rua das Maravilhas, antigo solar dos morgados de S. João, tendo o seu actual proprietário, dr. Rui Bettencourt da Câmara, feito ali edificar a capela de Nossa Senhora do Amparo e dos Remédios no ano de 1940, a do Vale, na rua do Vale Formoso, que possuiu noutras épocas curiosas plantas de que se ocuparam o Dr. Lippold, em 1838, e o Dr. Heer, em 1852, sendo o Dr. Grabham o seu actual proprietário (1921); a da Levada e a de Santa Luzia, esta pertencente á família Blandy e aquela á família Cossart; a da Palmeira, pertencente a H. Hinton e de cuja vegetação se ocupou Harcourt (Ver este nome); a da Mãe dos Homens, no Caminho do Meio que é proprietário o visconde de Cacongo; a quinta Magnolia, á travessa do Dr. Pita; a quinta Olavo, ao caminho dos Saltos; a quinta Pavão, na rua da Imperatriz; a das Maravilhas, no fim da rua deste nome; a do Til, no caminho deste nome; a do Deão, também denominada quinta Stoddart por nela ter residido o cônsul inglês deste nome e á qual os inglêses costumam chamar The Deanery (V. Junta Governativa); a da Achada, no caminho deste nome, pertencente outrora á família inglesa Penfold; a da Bela Vista, no sitio da Nazaré, em S. Martinho, a quinta Sant'Ana, no caminho do Monte, hoje propriedade do Governo por ter feito parte dos bens da Companhia dos Sanatórios; as quintas do Prazer e de Belo Monte, em Nossa Senhora do Monte, que foram ambas propriedade do antigo cônsul inglês Murray e pertencem, hoje a primeira a Alfredo Guilherme Rodrigues, que nela tem instalado o «Monte Palace Hotel» (1921) a quinta das Laginhas, a da Cova e a do Pico da Pedra, todas três na mesma freguesia; a do Miradouro, na Choupana; a da Choupana, que se diz ter dado o nome ao local onde está situada, a do Visconde de Cacongo, no mesmo sitio; a do Pico do Infante; a de Vale Paraíso, pertencente ao visconde deste título e que é das mais belas e vastas da freguesia da Camacha, havendo sido o seu primeiro proprietario o inglês Randall; a quinta Ornelas, acima da igreja da mesma freguesia e pertencente ao actual representante dos morgados do Caniço (1921); a dos Tanquinhos, no Caminho do Palheiro, que é propriedade dos herdeiros do Dr. José Antonio de Almada; a da Alegria, no sítio deste nome, em São Roque, pertencente aos condes de Torre Bela; a do Barão da Conceição, no Caniço, pertencente ao Dr. Nuno Ferreira Jardim (1921); as quintas do Seixeiro, Aloisio, Bianchi e Serrado das Ameixeiras, em Santo Antonio da Serra; etc., etc..",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Monte",
+        "São João",
+        "Vale Formoso",
+        "Levada",
+        "Santa Luzia",
+        "Palmeira",
+        "Mãe dos Homens",
+        "Achada",
+        "Nazaré",
+        "Sant'Ana",
+        "Prazer",
+        "Belo Monte",
+        "Laginhas",
+        "Cova",
+        "Pico da Pedra",
+        "Miradouro",
+        "Choupana",
+        "Pico do Infante",
+        "Vale Paraíso",
+        "Ornelas",
+        "Tanquinhos",
+        "Alegria",
+        "Barão da Conceição",
+        "Seixeiro",
+        "Aloisio",
+        "Bianchi",
+        "Serrado das Ameixeiras"
+    ],
+    "locations": {},
+    "people": {
+        "Rui Bettencourt da Câmara": [
+            "Proprietário da quinta de S. João"
+        ],
+        "Dr. Lippold": [
+            "Ocupou-se de curiosas plantas da quinta do Vale em 1838"
+        ],
+        "Dr. Heer": [
+            "Ocupou-se de curiosas plantas da quinta do Vale em 1852"
+        ],
+        "Dr. Grabham": [
+            "Proprietário da quinta do Vale em 1921"
+        ],
+        "H. Hinton": [
+            "Proprietário da quinta da Palmeira"
+        ],
+        "Harcourt": [
+            "Ocupou-se da vegetação da quinta da Palmeira"
+        ],
+        "Visconde de Cacongo": [
+            "Proprietário da quinta Mãe dos Homens"
+        ],
+        "Alfredo Guilherme Rodrigues": [
+            "Proprietário da quinta do Prazer e de Belo Monte"
+        ],
+        "Murray": [
+            "Antigo cônsul inglês e proprietário das quintas do Prazer e de Belo Monte"
+        ],
+        "Randall": [
+            "Primeiro proprietário da quinta de Vale Paraíso"
+        ],
+        "Dr. José Antonio de Almada": [
+            "Proprietário da quinta dos Tanquinhos"
+        ],
+        "Condes de Torre Bela": [
+            "Proprietários da quinta da Alegria"
+        ],
+        "Dr. Nuno Ferreira Jardim": [
+            "Proprietário da quinta do Barão da Conceição"
+        ]
+    },
+    "years": {
+        "1940": [
+            "Construção da capela de Nossa Senhora do Amparo e dos Remédios na quinta de S. João"
+        ],
+        "1838": [
+            "Dr. Lippold ocupou-se de curiosas plantas da quinta do Vale"
+        ],
+        "1852": [
+            "Dr. Heer ocupou-se de curiosas plantas da quinta do Vale"
+        ],
+        "1921": [
+            "Monte Palace Hotel instalado na quinta do Prazer"
+        ]
+    }
+}

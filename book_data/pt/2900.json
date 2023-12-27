@@ -1,0 +1,55 @@
+{
+    "id": 2900,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Porto Santo",
+    "fl": "P",
+    "original_title": "Porto Santo",
+    "body": "Esta estação instalada na ilha do mesmo nome junto á estação radio-telegráfica, foi montada em Julho de 1941 pelo então encarregado de posto do Funchal, Manuel Melquíades Alarques, ficando a fazer duas observações, ás 9 e 15 horas. Está apetrechada com os mesmos aparelhos e fornece os mesmos elementos das anteriores. O horario das observações é como o das restantes, ás, 6, 12 e 17 horas.\n\nExistem ainda os postos Termo-udometricos da Madalena do Mar, Queimadas, Ribeira Brava e Santo da Serra todos montados de Novembro de 1936 a Dezembro de 1938.\n\nAlém destes, temos os postos udometricos do Caramujo, Machico, Montado do Pereiro, Ponta do Pargo, Porto do Moniz, Rabaçal, Ribeiro Frio, Santa Cruz, Santo António, Canhas, Bica da Cana, Paul da Serra e S. Vicente. Destes postos, o mais antigo é o de Santa Cruz, montado em Novembro de 1936 e o mais moderno é o de S. Vicente montado em Maio de 1945.\n\nTodos os elementos dos serviços meteorológicos da Madeira são publicados mensalmente no resumo mensal do Observatório Central Meteorológico do Infante D. Luís de Lisboa, na informação meteorológica do Jornal das Frutas da Madeira e no Boletim Mensal do Funchal. Anualmente, todos estes elementos vêm publicados nos Anais do Observatório Central. O Observatório do Funchal publica diariamente um boletim donde constam as informações das estações do Funchal, Arieiro, Sanatorio, Santana, Lugar de Baixo e Porto Santo, e do posto do Santo da Serra.\n\nTodas estas estações e postos fazem parte do Serviço Nacional de Clima a cargo do Observatório Central Meteorológico de Lisboa, anexo á Faculdade de Ciências, de que é Director desde 1937 o sr. Doutor Herculano Amorim Ferreira, professor catedrático da mesma Faculdade.\n\nDeve-se o actual estado dos Serviços Meteorológicos da Madeira, ao grande impulso dado ao Serviço Nacional de Clima pelo actual Director do Observatório Central que se deslocou á Madeira em Junho de 1938 exclusivamente para estudar as necessidades deste Serviço. Com o mesmo fim, esteve também no Funchal, em Julho de 1941, o sr. Doutor Amaro Monteiro, Chefe dos Serviços de Clima do Observatório Central. Muitas destas estações estão montadas com material comprado pela Junta Geral do Distrito, da ilustre presidência do sr. Doutor João Abel de Freitas, e estão a cargo do pessoal dos Serviços de Agricultura, repartição que é superiormente dirigida pelo sr. Eng.° Agronomo Maurilio Ferraz e Silva. Também a Delegação da Junta Nacional das Frutas, então dirigida pelo sr. Eng.° Agronomo Antonio Teixeira de Sousa, montou alguns dos primeiros postos termo-udometricos que depois foram entregues á Direcção de Agricultura.\n\nDe notar é ainda a actuação desinteressada e valiosíssima dos srs. Doutor João d'Almada, já falecido, e Vice-Almirante Hugo C. de Lacerda Castelo Branco.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha do mesmo nome"
+        ]
+    },
+    "people": {
+        "Manuel Melquíades Alarques": [
+            "Encarregado de posto do Funchal"
+        ],
+        "Herculano Amorim Ferreira": [
+            "Director do Observatório Central"
+        ],
+        "Amaro Monteiro": [
+            "Chefe dos Serviços de Clima do Observatório Central"
+        ],
+        "João Abel de Freitas": [
+            "Presidência da Junta Geral do Distrito"
+        ],
+        "Maurilio Ferraz e Silva": [
+            "Superiormente dirigida dos Serviços de Agricultura"
+        ],
+        "Antonio Teixeira de Sousa": [
+            "Delegação da Junta Nacional das Frutas"
+        ]
+    },
+    "years": {
+        "1941": [
+            "Montada a estação na ilha do mesmo nome"
+        ],
+        "1936": [
+            "Montados os postos Termo-udometricos da Madalena do Mar, Queimadas, Ribeira Brava e Santo da Serra"
+        ],
+        "1937": [
+            "Herculano Amorim Ferreira torna-se Diretor do Observatório Central"
+        ],
+        "1938": [
+            "Grande impulso dado ao Serviço Nacional de Clima pelo atual Diretor do Observatório Central"
+        ],
+        "1945": [
+            "Montado o posto de S. Vicente"
+        ]
+    }
+}

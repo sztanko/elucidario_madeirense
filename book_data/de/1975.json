@@ -1,0 +1,35 @@
+{
+    "id": 1975,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lessa (Pater António João de)",
+    "fl": "L",
+    "original_title": "Lessa (Padre António João de)",
+    "body": "Dieser Priester wurde am 1. Juni 1774 in der Gemeinde Madalena do Mar geboren und starb am 12. April 1858 in der Stadt Rio de Janeiro. Er ging 1808 nach Brasilien, als er bereits Priester war, und ließ sich in der damals neu entstehenden Siedlung Cantagalo nieder, die sich innerhalb weniger Jahre zu einer großen Stadt entwickelte. Pater Lessa widmete sich der Politik und trug erheblich zur Unabhängigkeit Brasiliens bei. Er war Abgeordneter in zwei Legislaturperioden und genoss unter den Politikern seiner Zeit höchstes Ansehen. Verschiedene brasilianische Schriftsteller beziehen sich auf sein beharrliches Wirken in den Ereignissen, die der Unabhängigkeit vorausgingen, sowie in den politischen Kämpfen, die folgten. Er veröffentlichte ein Buch mit dem Titel Cartas de Cantagalo. Im Jahr 1929 schrieb und veröffentlichte sein Neffe Clado Ribeiro de Lessa ein 160 Seiten umfassendes Buch mit dem Titel Esboço Biográfico do Padre António João de Lessa, in dem er das bewegte Leben dieses madeirischen Priesters beschreibt.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Madalena do Mar"
+    ],
+    "locations": {},
+    "people": {
+        "Clado Ribeiro de Lessa": [
+            "Neffe von Pater António João de Lessa"
+        ]
+    },
+    "years": {
+        "1774": [
+            "Geburt von Pater António João de Lessa"
+        ],
+        "1808": [
+            "Abreise nach Brasilien"
+        ],
+        "1858": [
+            "Tod in Rio de Janeiro"
+        ],
+        "1929": [
+            "Veröffentlichung von Esboço Biográfico do Padre António João de Lessa"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 3063,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rechtszeitschrift",
+    "fl": "R",
+    "original_title": "Revista de Direito",
+    "body": "Von dieser vierzehntäglich erscheinenden Rechtszeitschrift wurden 13 Ausgaben veröffentlicht, wobei die erste am 15. November 1920 und die letzte am 15. Mai 1921 erschien. Redakteure und Eigentümer waren die Dres. Frederico de Freitas, Juvenal de Araújo und Pedro Pita.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Frederico de Freitas": [
+            "Redakteur und Eigentümer der Rechtszeitschrift"
+        ],
+        "Juvenal de Araújo": [
+            "Redakteur und Eigentümer der Rechtszeitschrift"
+        ],
+        "Pedro Pita": [
+            "Redakteur und Eigentümer der Rechtszeitschrift"
+        ]
+    },
+    "years": {
+        "1920": [
+            "Veröffentlichung der ersten Ausgabe der Rechtszeitschrift"
+        ],
+        "1921": [
+            "Veröffentlichung der letzten Ausgabe der Rechtszeitschrift"
+        ]
+    }
+}

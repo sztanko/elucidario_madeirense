@@ -1,0 +1,26 @@
+{
+    "id": 1233,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Equisetáceas",
+    "fl": "E",
+    "original_title": "Equisetáceas",
+    "body": "Estão representadas na Madeira por uma única espécie -- o Equisetum maximum, planta que se encontra nos logares encharcados em São Vicente, Ribeira de Santa Luzia, Ribeira de S. João, etc..",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Vicente": [
+            "Logares encharcados"
+        ],
+        "Ribeira de Santa Luzia": [
+            "Logares encharcados"
+        ],
+        "Ribeira de S. João": [
+            "Logares encharcados"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

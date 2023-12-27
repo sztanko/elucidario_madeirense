@@ -1,0 +1,46 @@
+{
+    "id": 628,
+    "lang": "de",
+    "is_original": false,
+    "title": "Alte Gefängnisstraße (Rua da)",
+    "fl": "A",
+    "original_title": "Cadeia Velha (Rua da)",
+    "body": "Dies ist die öffentliche Straße, die die Rua Direita direkt mit dem kleinen Platz der Karmeliterkirche verbindet, und zu der die Straßen Medinas und Monteiro Zugang haben. Ihr Name stammt daher, dass dort das alte Gefängnis der Stadt stand, das sich an der Kreuzung dieser Straße mit der Rua Direita befand, rechts für diejenigen, die sich von der Karmeliterkirche zu dieser letzten Straße begeben. In der Rua da Cadeia Velha befindet sich das Haus, das der Familie Oliveira gehörte, zu der João Francisco de Oliveira, Joaquim de Oliveira Alvares und Benjamim de Oliveira gehörten (siehe diese Namen), sowie andere. Paulo Perestrelo da Câmara behauptet, es sei eines der größten städtischen Gebäude in Funchal gewesen, dessen Bau Anfang des 18. Jahrhunderts datiert.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua Direita": [
+            "Öffentliche Straße in Funchal"
+        ],
+        "Largo da igreja do Carmo": [
+            "Öffentlicher Platz in Funchal"
+        ],
+        "Ruas dos Medinas": [
+            "Öffentliche Straßen in Funchal"
+        ],
+        "Rua do Monteiro": [
+            "Öffentliche Straße in Funchal"
+        ]
+    },
+    "people": {
+        "João Francisco de Oliveira": [
+            "Mitglied der Familie Oliveira"
+        ],
+        "Joaquim de Oliveira Alvares": [
+            "Mitglied der Familie Oliveira"
+        ],
+        "Benjamim de Oliveira": [
+            "Mitglied der Familie Oliveira"
+        ],
+        "Paulo Perestrelo da Câmara": [
+            "Behauptet, es sei eines der größten städtischen Gebäude in Funchal gewesen"
+        ]
+    },
+    "years": {
+        "18. Jahrhundert": [
+            "Bau des Hauses, das der Familie Oliveira gehörte"
+        ]
+    }
+}

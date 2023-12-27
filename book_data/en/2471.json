@@ -1,0 +1,42 @@
+{
+    "id": 2471,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora de Belém (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora de Belém (Capela de)",
+    "body": "In the parish of Câmara de Lobos, there was the chapel, now extinct, of Nossa Senhora de Belém, which was located in a place of the same name. It was founded in 1649 by Gaspar Vasconcelos Henriques and his wife D. Bernardina de Carvalho, with the deed of endowment of this chapel dated 9th February of the same year. Falling into ruins, it was rebuilt in 1758 by D. Francisco Inacio Telo de Meneses, a descendant of the founders. The new chapel was built a short distance from the old one and next to the residence, with which it communicated internally.\n\nIn the place of Referta, in Porto da Cruz, there was a chapel dedicated to Nossa Senhora de Belém, which later came to be called Nossa Senhora do Socorro. See N. Senhora do Socorro (Chapels of).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Locality in the Madeira Island"
+        ],
+        "Porto da Cruz": [
+            "Locality in the Madeira Island"
+        ]
+    },
+    "people": {
+        "Gaspar Vasconcelos Henriques": [
+            "Founder of the chapel"
+        ],
+        "D. Bernardina de Carvalho": [
+            "Wife of Gaspar Vasconcelos Henriques"
+        ],
+        "D. Francisco Inacio Telo de Meneses": [
+            "Descendant of the founders"
+        ]
+    },
+    "years": {
+        "1649": [
+            "Year of the chapel's foundation"
+        ],
+        "1758": [
+            "Year of the chapel's rebuilding"
+        ]
+    }
+}

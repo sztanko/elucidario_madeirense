@@ -1,0 +1,31 @@
+{
+    "id": 2450,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nola (António da)",
+    "fl": "N",
+    "original_title": "Nola (António da)",
+    "body": "This Genoese navigator visited Madeira in 1460, as mentioned in the account of the voyages by Diogo Gomes. 'After that,' Gomes says, 'we saw one of the Canary Islands called Palma, and from there we went to the island of Madeira. As I was eager to return to Portugal, I left and was blown by a contrary wind to the Azores, but António de Nola stayed in Madeira and, taking advantage of a more favorable wind, arrived in Portugal before me.'",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island visited by António da Nola"
+        ],
+        "Portugal": [
+            "Final destination of António da Nola"
+        ]
+    },
+    "people": {
+        "Diogo Gomes": [
+            "Author of the account of the voyages"
+        ]
+    },
+    "years": {
+        "1460": [
+            "Year of the visit to Madeira"
+        ]
+    }
+}

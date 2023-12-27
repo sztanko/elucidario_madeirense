@@ -1,0 +1,32 @@
+{
+    "id": 808,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castanheiro (Castanea sativa)",
+    "fl": "C",
+    "original_title": "Castanheiro (Castanea sativa)",
+    "body": "Cupulifera cultivada na Madeira desde a epoca em que esta ilha começou a ser povoada. Na Achada do Campanario via-se há anos um castanheiro cujo tronco media 10m,50 de circunferencia, e no sitio das Fontes, na Ribeira Brava, cremos existir ainda um outro, cujo tronco mede 11m,30, também de circunferencia. O castanheiro, muito menos frequente hoje do que outrora, produz além do fruto, que é consumido no país, uma boa madeira que tem muitas aplicações. Embora caracterize a 20. zona botanica da Madeira, que vai de 150 até 200 metros, pode viver também nas proximidades do litoral, tendo existido durante largos anos na fortaleza de S. Lourenço, um individuo que nunca deixava de frutificar na epoca propria. A produção anual da castanha na Madeira regula por 4:000 hectolitros.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Achada do Campanario": [
+            "Madeira"
+        ],
+        "Fontes": [
+            "Ribeira Brava"
+        ],
+        "S. Lourenço": [
+            "Fortaleza"
+        ]
+    },
+    "people": {},
+    "years": {
+        "Epoca": [
+            "Madeira começou a ser povoada"
+        ]
+    }
+}

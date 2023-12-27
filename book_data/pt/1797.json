@@ -1,0 +1,30 @@
+{
+    "id": 1797,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Instituição Filosófica e Mecânica",
+    "fl": "I",
+    "original_title": "Instituição Filosófica e Mecânica",
+    "body": "Com este título fundou-se no Funchal, em 1840, uma sociedade que tinha por fim fazer estudos científicos sobre a Madeira. Durou pouco tempo esta sociedade, tendo um dos seus membros, o engenheiro militar António Pedro de Azevedo, publicado na Flor do Oceano uma tradução da memória de James Smith sobre a geologia madeirense.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local da fundação da sociedade"
+        ]
+    },
+    "people": {
+        "António Pedro de Azevedo": [
+            "Membro da sociedade"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Fundação da sociedade"
+        ]
+    }
+}

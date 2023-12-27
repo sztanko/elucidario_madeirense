@@ -1,0 +1,47 @@
+{
+    "id": 2472,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Guten Stunde (Kapellen von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Boa Hora (Capelas de)",
+    "body": "Die Kapelle Unserer Lieben Frau der Guten Stunde befindet sich im Ort Torre in der Gemeinde Câmara de Lobos und gehört der Gräfin von Torre Bela (1921). Sie wurde vom Majoratsherrn António Correia Bettencourt Berenguer gegründet. Sie hatte einen privaten Kaplan. Mit der gleichen Bezeichnung „über dieser Stadt“ erhob sich eine Kapelle, die 1726 vom Hauptmann António de Carvalho Drumond und seiner Frau D. Inacia Micaela Henriques erbaut wurde, wobei die Stiftungsurkunde auf den 22. Mai 1726 datiert ist.\n\nIm Ort Fajã in der Gemeinde Arco da Calheta wurde eine Kapelle errichtet, die Unserer Lieben Frau der Guten Stunde geweiht ist, von der nur noch einige Ruinen übrig sind.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Torre": [
+            "Ort"
+        ],
+        "Câmara de Lobos": [
+            "Gemeinde"
+        ],
+        "Fajã": [
+            "Ort"
+        ],
+        "Arco da Calheta": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "António Correia Bettencourt Berenguer": [
+            "Gründer der Kapelle"
+        ],
+        "António de Carvalho Drumond": [
+            "Gründer der Kapelle"
+        ],
+        "D. Inacia Micaela Henriques": [
+            "Gründerin der Kapelle"
+        ]
+    },
+    "years": {
+        "1726": [
+            "Bau der Kapelle durch António de Carvalho Drumond"
+        ]
+    }
+}

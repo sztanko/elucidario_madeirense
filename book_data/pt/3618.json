@@ -1,0 +1,28 @@
+{
+    "id": 3618,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vigário (Ribeira do)",
+    "fl": "V",
+    "original_title": "Vigário (Ribeira do)",
+    "body": "Linha de água, que se lança no Oceano, a oeste da chamada vila de Câmara de Lobos. Próximo da sua foz, deu-se um grande desmoronamento de terras no dia 4 de Março de 1930, que, impelindo com violência as águas do mar pela entrada da ribeira, arrastaram no refluxo cerca de vinte pessoas, que ali encontraram morte desastrosa. Uma parte considerável desta ribeira é também conhecida pelo nome de ribeira da Caixa.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Oceano": [
+            "Local de desembocadura da Ribeira do Vigário"
+        ],
+        "Câmara de Lobos": [
+            "Vila próxima à Ribeira do Vigário"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1930": [
+            "Desmoronamento de terras e morte de vinte pessoas na Ribeira do Vigário"
+        ]
+    }
+}

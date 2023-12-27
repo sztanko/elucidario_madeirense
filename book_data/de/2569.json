@@ -1,0 +1,33 @@
+{
+    "id": 2569,
+    "lang": "de",
+    "is_original": false,
+    "title": "Oliveira (Kap von)",
+    "fl": "O",
+    "original_title": "Oliveira (Ponta da)",
+    "body": "An der Küste der Gemeinde Caniço gibt es eine Landzunge oder Kap namens Oliveira. Als die Entdecker João Gonçalves Zarco und Tristão Vaz ihre Kapitänschaften abgrenzten, wurde die Gebietsaufteilung durch eine ungefähr gerade Linie vorgenommen, die von der Oliveira-Spitze bis zur Tristão-Spitze verlief, wobei diese Punkte als die Enden ihrer Lehen betrachtet wurden. Am südöstlichen Ende wurde als Grenzmarkierung ein Olivenbaum gepflanzt, der angeblich eigens für diesen Zweck vom Festland auf Veranlassung des Infanten Heinrich geholt worden war. Daher rührt der Name des Kaps Oliveira.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Entdecker"
+        ],
+        "Tristão Vaz": [
+            "Entdecker"
+        ],
+        "Heinrich": [
+            "Infant"
+        ]
+    },
+    "years": {}
+}

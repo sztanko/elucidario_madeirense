@@ -1,0 +1,36 @@
+{
+    "id": 1231,
+    "lang": "de",
+    "is_original": false,
+    "title": "Epocha (A)",
+    "fl": "E",
+    "original_title": "Epocha (A)",
+    "body": "Die erste Zeitung mit diesem Titel, die in Funchal veröffentlicht wurde, erschien am 6. September 1886 und endete am 30. desselben Monats und Jahres nach acht Ausgaben. 1895 erschien eine andere Zeitung mit demselben Titel, die sechs Ausgaben herausbrachte, die erste am 14. Januar und die letzte am 21. Februar. Am 16. Juni 1912 erschien in Ponta do Sol eine weitere Zeitung mit demselben Titel, die dritte Zeitung, die in diesem Ort veröffentlicht wurde.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Funchal": [
+            "Veröffentlichungsort der ersten Zeitung"
+        ],
+        "Ponta do Sol": [
+            "Veröffentlichungsort der dritten Zeitung"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1886": [
+            "Veröffentlichung der ersten Zeitung mit dem Titel \"Epocha\""
+        ],
+        "1895": [
+            "Veröffentlichung einer anderen Zeitung mit demselben Titel"
+        ],
+        "1912": [
+            "Veröffentlichung der dritten Zeitung mit demselben Titel"
+        ]
+    }
+}

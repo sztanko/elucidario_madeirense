@@ -1,0 +1,31 @@
+{
+    "id": 127,
+    "lang": "de",
+    "is_original": false,
+    "title": "Freude",
+    "fl": "F",
+    "original_title": "Alegria",
+    "body": "An diesem Ort in der Gemeinde São Roque in Funchal befindet sich die Kapelle Unserer Lieben Frau der Freude, gegründet 1609 von Francisco de Abreu, die in das Haus Torre Bela integriert wurde, dem sie noch heute gehört.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque in Funchal": [
+            "Ort des Gebiets Freude"
+        ]
+    },
+    "people": {
+        "Francisco de Abreu": [
+            "Gründer der Kapelle Unserer Lieben Frau der Freude"
+        ]
+    },
+    "years": {
+        "1609": [
+            "Gründung der Kapelle Unserer Lieben Frau der Freude"
+        ]
+    }
+}

@@ -1,0 +1,72 @@
+{
+    "id": 671,
+    "lang": "en",
+    "is_original": false,
+    "title": "Camacho (Januario Vicente)",
+    "fl": "C",
+    "original_title": "Camacho (Januario Vicente)",
+    "body": "This distinguished Madeiran was born in Funchal in 1792 and was the son of artillery colonel Antonio Fernandes Camacho and D. Barbara Junqueiro Camacho. Ordained as a priest in 1815, he subsequently served as a parish priest in the parishes of Serra de Água, Ribeira Brava, and Santo Antonio in Funchal. It is said, although the basis for this claim is unknown, that when he was passed over in the competition for the vicarage of Santo Antonio, he complained to D. João VI about the injustice done to him. The king, recognizing the complainant's right, asked if there was another vacant position in Madeira that would suit him. Januário Camacho promptly replied: in Funchal, the only vacant position is that of deado. The anecdote goes on to say, as we take it, that D. João VI, unaware of what deado meant, immediately appointed Januario Vicente Camacho to the important position of dean of Funchal Cathedral. The central government presented the bishop to the diocese of Castelo Branco, but he was not confirmed by the Holy See, nor did he receive episcopal consecration. By decree of February 26, 1840, he was appointed governor of the Funchal diocese and elected capitular vicar on March 27 of the same year. Later, he held a similar position in the bishopric of Angra, styling himself in official documents as the bishop-elect of Castelo Branco, always preceding his name with the title of Dom, which was the custom and right adopted by Portuguese prelates. It seems that his episcopal administration in the diocese of the Azores was not the most exemplary. He represented Madeira in the Cortes during the legislature from 1848 to 1851, and had previously been elected several times as a deputy and substitute senator for this archipelago. In 1851, he was elevated to the peerage, a position that was not easily attained without the recognition of indisputable merits in the recipient. He died in Lisbon on December 22, 1872.",
+    "categories": [
+        "history",
+        "religion",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ],
+        "Serra de Água": [
+            "Place of parish service"
+        ],
+        "Ribeira Brava": [
+            "Place of parish service"
+        ],
+        "Santo Antonio": [
+            "Place of parish service"
+        ],
+        "Castelo Branco": [
+            "Diocese governed"
+        ],
+        "Angra": [
+            "Bishopric governed"
+        ],
+        "Lisbon": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "Antonio Fernandes Camacho": [
+            "Artillery colonel"
+        ],
+        "D. Barbara Junqueiro Camacho": [
+            "Mother of Januario Vicente Camacho"
+        ],
+        "D. João VI": [
+            "King of Portugal"
+        ],
+        "Januario Vicente Camacho": [
+            "Bishop-elect"
+        ]
+    },
+    "years": {
+        "1792": [
+            "Birth of Januario Vicente Camacho"
+        ],
+        "1815": [
+            "Ordination as a priest"
+        ],
+        "1840": [
+            "Appointment as governor of the Funchal diocese"
+        ],
+        "1848": [
+            "Representation of Madeira in the Cortes"
+        ],
+        "1851": [
+            "Elevation to the peerage"
+        ],
+        "1872": [
+            "Death of Januario Vicente Camacho"
+        ]
+    }
+}

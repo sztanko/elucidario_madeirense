@@ -1,0 +1,45 @@
+{
+    "id": 2918,
+    "lang": "en",
+    "is_original": false,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "Caminho Grande or Preces is a place in the parish of Câmara de Lobos. There is the chapel of Nossa Senhora das Preces, which gave the place its name, founded in 1683 by Father Francisco da Cunha e Mendonça. Also in the same place is the chapel of Nossa Senhora da Nazaré, built in 1757 by D. Maria do Rosário Henriques, widow of Pedro Bernardes Cordeiro. In the area known as Fonte da Rocha, there are still the ruins of an old chapel dedicated to São Cândido, commissioned by Canon Francisco Cândido Correia Henriques in 1732. It has 96 households and 516 inhabitants.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Caminho Grande": [
+            "Place in the parish of Câmara de Lobos"
+        ],
+        "Fonte da Rocha": [
+            "Location where there are still the ruins of an old chapel dedicated to São Cândido"
+        ]
+    },
+    "people": {
+        "Francisco da Cunha e Mendonça": [
+            "Founder of the chapel of Nossa Senhora das Preces"
+        ],
+        "D. Maria do Rosário Henriques": [
+            "Builder of the chapel of Nossa Senhora da Nazaré"
+        ],
+        "Canon Francisco Cândido Correia Henriques": [
+            "Commissioner of the old chapel dedicated to São Cândido"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Foundation of the chapel of Nossa Senhora das Preces"
+        ],
+        "1757": [
+            "Construction of the chapel of Nossa Senhora da Nazaré"
+        ],
+        "1732": [
+            "Commissioning of the old chapel dedicated to São Cândido"
+        ]
+    }
+}

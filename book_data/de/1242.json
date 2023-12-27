@@ -1,0 +1,44 @@
+{
+    "id": 1242,
+    "lang": "de",
+    "is_original": false,
+    "title": "Schule für Lotswesen",
+    "fl": "S",
+    "original_title": "Escola de Pilotagem",
+    "body": "An die Hafenkapitänerei dieser Stadt ist eine Schule für Lotswesen angegliedert, die durch Dekret vom 14. November 1917 gegründet wurde, als der Fregattenkapitän Arantes Pedroso Marineminister war. Die Gründung dieser Schule ist den unermüdlichen und fleißigen Bemühungen des Hafenkapitäns von Funchal, Fregattenkapitän Artur de Sales Henriques, zu verdanken, der mit ihrer Einrichtung beauftragt war und ihr einziger Lehrer war. Wie andere Schulen dieser Art dauert der Kurs zwei Jahre. Das erste Jahr umfasst die Fächer Arithmetik, Grundlagen der Algebra, ebene und räumliche Geometrie, ebenes Trigonometrie, Allgemeine Geografie, Kompass und geschätzte Navigation. Das zweite Jahr umfasst sphärische Trigonometrie, Allgemeine Astronomie, nautische Berechnungen, astronomische Navigation, Segel- und Dampfschiffsmanöver, Signale und Meteorologie.\n\nDer Kurs dieser Schule berechtigt zum Offizier der Handelsmarine und verleiht nach einiger Zeit auf See als Praktikanten das Patent als Lotse.\n\nIm Studienjahr 1917/1918 schrieben sich 17 Schüler ein, von denen 4 in das zweite Jahr versetzt wurden. 1919 schlossen die ersten 3 Schüler, die an dieser Schule die Lotsenprüfung ablegten, den Kurs ab. Die Schule wurde geschlossen.\n\nSchule für Haushaltsführung und Schöne Künste. Sie war für die Ausbildung von Mädchen bestimmt und wurde aufgrund eines Beschlusses des Generalrates vom 12. Februar 1913 gegründet. Sie nahm ihren Betrieb im Februar des folgenden Jahres auf.\n\nDort wurde Musik, Malerei, Zeichnen, Sprachen, Hygiene, Gymnastik, Tanz, Handarbeiten, Kochen, Gärtnerei, Arithmetik, Geografie usw. unterrichtet.\n\nDie Schule für Haushaltsführung befand sich im Gebäude des ehemaligen Priesterseminars Incarnação und wurde durch Beschluss des Generalrates vom 13. September 1919 aufgelöst. Dasselbe Gebäude wurde dieser Körperschaft für 9.000 Escudos im August 1919 überlassen. Seit September desselben Jahres sind dort die Büros des Generalrates untergebracht.\n\nDie Einnahmen und Ausgaben der Schule für Haushaltsführung und Schöne Künste in der Zeit von 1914 bis 1918 sind in der folgenden Tabelle aufgeführt:\n\n| Jahr | Einnahmen | Ausgaben |\n|------|------------|-----------|\n| 1914 |            |           |\n| 1915 | 1.060$71   | 10.999$92 |\n| 1916 | 1.433$51   | 10.975$85 |\n| 1917 | 1.551$37   | 12.738$96 |\n| 1918 | 704$65     | 3.994$06  |",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort der Schule für Lotswesen und der Schule für Haushaltsführung und Schöne Künste"
+        ]
+    },
+    "people": {
+        "Arantes Pedroso": [
+            "Marineminister bei Gründung der Schule für Lotswesen"
+        ],
+        "Artur de Sales Henriques": [
+            "Hafenkapitän von Funchal und mit Einrichtung der Schule für Lotswesen beauftragt"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Gründung der Schule für Lotswesen und Einschreibung von 17 Schülern"
+        ],
+        "1918": [
+            "Versetzung von 4 Schülern in das zweite Jahr"
+        ],
+        "1919": [
+            "Auflösung der Schule für Haushaltsführung und Schöne Künste und Überlassung des Gebäudes an den Generalrat"
+        ],
+        "1913": [
+            "Beschluss des Generalrates zur Gründung der Schule für Haushaltsführung und Schöne Künste"
+        ],
+        "1914": [
+            "Beginn des Betriebs der Schule für Haushaltsführung und Schöne Künste"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 603,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Кустарник Роша",
+    "fl": "К",
+    "original_title": "Buxo da Rocha",
+    "body": "Жители Мадейры дают это название Catha Dryandri, кустарнику из семейства Celastraceae, и Chamaemeles coriacea, кустарнику из семейства Rosaceae. Первый из этих кустарников встречается в Сан-Гонсалу, Сейшале и т. д.; второй - в окрестностях психиатрической больницы Камара Пештана, Прая-Формоза и т.д.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Gonçalo",
+        "Seixal",
+        "Praia Formosa"
+    ],
+    "locations": {
+        "Сан-Гонсалу": [
+            "Место, где растет кустарник Catha Dryandri"
+        ],
+        "Сейшал": [
+            "Место, где растет кустарник Catha Dryandri"
+        ],
+        "Психиатрическая больница Камара Пештана": [
+            "Место, где растет кустарник Chamaemeles coriacea"
+        ],
+        "Прая-Формоза": [
+            "Место, где растет кустарник Chamaemeles coriacea"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,53 @@
+{
+    "id": 3225,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Francisco Xavier (Capelas de)",
+    "fl": "S",
+    "original_title": "São Francisco Xavier (Capelas de)",
+    "body": "No sítio do Salão da freguesia da Calheta, onde chamam o Cadeado, encontra-se uma pequena capela com esta denominação, que está ainda consagrada ao serviço do culto. Foi fundada por Manuel da Silva Pinheiro em 1693, sendo a respectiva escritura de dotação de 7 de Agosto do mesmo ano. Pertence aos herdeiros de D. Vicencia Julia de França Doria (1921).\n\nTendo o mesmo orago, erigiu João Vieira de Afonseca uma capela na freguesia de Santa Cruz, no ano de 1684.\n\nDa mesma invocação, houve uma ermida na freguesia do Porto da Cruz, no sítio da Cruz da Guarda, cujo instituidor se ignora, tendo sido dos seus últimos possuidores João Francisco Moniz de Meneses Cabral e sua mulher D. Maria Isidora Alvares de Carvalho, que a legaram a seu sobrinho o padre Francisco Xavier de Sousa e Castro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta",
+        "Santa Cruz",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Calheta": [
+            "Freguesia da Calheta"
+        ],
+        "Santa Cruz": [
+            "Freguesia de Santa Cruz"
+        ],
+        "Porto da Cruz": [
+            "Freguesia do Porto da Cruz"
+        ]
+    },
+    "people": {
+        "Manuel da Silva Pinheiro": [
+            "Fundador da capela"
+        ],
+        "João Vieira de Afonseca": [
+            "Fundador da capela na freguesia de Santa Cruz"
+        ],
+        "João Francisco Moniz de Meneses Cabral": [
+            "Último possuidor da ermida na freguesia do Porto da Cruz"
+        ],
+        "D. Maria Isidora Alvares de Carvalho": [
+            "Última possuidora da ermida na freguesia do Porto da Cruz"
+        ],
+        "Francisco Xavier de Sousa e Castro": [
+            "Sobrinho do padre a quem a ermida foi legada"
+        ]
+    },
+    "years": {
+        "1693": [
+            "Fundação da capela por Manuel da Silva Pinheiro"
+        ],
+        "1684": [
+            "Ereção da capela por João Vieira de Afonseca na freguesia de Santa Cruz"
+        ]
+    }
+}

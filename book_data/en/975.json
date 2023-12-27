@@ -1,0 +1,31 @@
+{
+    "id": 975,
+    "lang": "en",
+    "is_original": false,
+    "title": "Confectionery",
+    "fl": "C",
+    "original_title": "Confeitaria",
+    "body": "The sugar industry in Madeira, which reached great development and a remarkable degree of perfection in the 15th and 16th centuries, led to the creation of the confectionery industry, which seems to have been very important here due to the quantity and, above all, the quality of its production. Dr. Rodrigues de Azevedo stated that since the 16th century, it was elevated to a true art and a valuable export industry, as shown in many diplomas transcribed in 'Saudades da Terra' and various passages mentioned there. In support of this statement, we cite the offering of the sacred college, entirely made of marzipan, made by the 31st captain-donor of Funchal to Pope Leo X, as described on page 208 of this Elucidario. The erudite annotator of Frutuoso's work returns to the subject in the article 'Madeira' from the Illustrated Universal Portuguese Dictionary, whose words we transcribe: '... the confectionery industry, created there, mainly in the convent of the nuns of Santa Clara, greatly developed during the 16th century, and finally became a true art, whose products became a valuable branch of export, as some diplomas and 'Saudades da Terra' attest.'",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Clara"
+    ],
+    "locations": {
+        "Funchal": [
+            "31st captain-donor of Funchal"
+        ]
+    },
+    "people": {
+        "Rodrigues de Azevedo": [
+            "Dr. Rodrigues de Azevedo"
+        ]
+    },
+    "years": {
+        "XVI": [
+            "The confectionery industry, created there"
+        ]
+    }
+}

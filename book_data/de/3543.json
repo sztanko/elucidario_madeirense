@@ -1,0 +1,57 @@
+{
+    "id": 3543,
+    "lang": "de",
+    "is_original": false,
+    "title": "Studentenkapelle der Universität Coimbra",
+    "fl": "S",
+    "original_title": "Tuna da Universidade de Coimbra",
+    "body": "Diese Studentenkapelle wurde von dem damaligen Jura-Studenten im fünften Jahr António Correia Caldeira Coelho geleitet. Sie kam am 22. März 1913 in Funchal an und reiste am 3. April desselben Jahres nach Lissabon weiter. Sie bestand aus 45 Studenten, die während ihres Aufenthalts in Funchal im Gebäude des ehemaligen Priesterseminars am Anfang des Weges zum Monte untergebracht waren. Die Kapelle wurde in dieser Stadt sehr gefeiert. Am Tag ihrer Ankunft wurde ihr nach einem kurzen Besuch im Rathaus bei den Vizegrafen von Geraz de Lima ein Willkommenstrunk offeriert. Zu Ehren der Kapelle gab es auch einen Ball im Palast von S. Lourenço, einen anderen im „Grémio dos Empregados do Comércio“, eine Feier in der Villa Choupana, Lunches im Casino Pavão, auf der Terrasse Terreiro da Luta und im Monte Palace Hotel etc. Die Studenten gaben zwei Vorstellungen im Theater und besuchten Portela, Santa Cruz und Machico.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "Sé"
+    ],
+    "locations": {
+        "Funchal": [
+            "Stadt, in der die Kapelle untergebracht war"
+        ],
+        "Monte": [
+            "Ort, an dem die Studenten untergebracht waren"
+        ],
+        "Rathaus": [
+            "Von der Kapelle besuchter Ort"
+        ],
+        "Villa Choupana": [
+            "Ort, an dem eine Feier zu Ehren der Kapelle stattfand"
+        ],
+        "Casino Pavão": [
+            "Ort, an dem ein Lunch zu Ehren der Kapelle stattfand"
+        ],
+        "Terrasse Terreiro da Luta": [
+            "Ort, an dem ein Lunch zu Ehren der Kapelle stattfand"
+        ],
+        "Monte Palace Hotel": [
+            "Ort, an dem ein Lunch zu Ehren der Kapelle stattfand"
+        ],
+        "Portela": [
+            "Von den Studenten besuchter Ort"
+        ],
+        "Santa Cruz": [
+            "Von den Studenten besuchter Ort"
+        ],
+        "Machico": [
+            "Von den Studenten besuchter Ort"
+        ]
+    },
+    "people": {
+        "António Correia Caldeira Coelho": [
+            "Leiter der Kapelle"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Jahr, in dem die Kapelle in Funchal ankam"
+        ]
+    }
+}

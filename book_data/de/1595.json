@@ -1,0 +1,41 @@
+{
+    "id": 1595,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gomes (António Gil)",
+    "fl": "G",
+    "original_title": "Gomes (António Gil)",
+    "body": "Antonio Gil Gomes wurde in der Gemeinde Arco de S. Jorge am 23. Juni 1803 geboren und starb in Funchal am 3. Juli 1868. Er war der Sohn von Kapitän João José Gil Gomes und Maria Justina Gil Gomes. Seine liberalen Ideen zwangen ihn 1828, Madeira zu verlassen, um den Verfolgungen und Schikanen zu entgehen, die einige seiner Freunde und Familienmitglieder erlitten. In Rio de Janeiro, wo er sich niederließ, widmete er sich der Lehrtätigkeit und arbeitete fleißig für verschiedene Zeitungen, er schrieb auch einige kleinere Werke, die er in dieser Stadt veröffentlichte. Nach der Einführung der repräsentativen Regierung kehrte er im August 1834 unverzüglich in seine Heimat zurück, wo er sich dem Studium und der Pflege der Literatur widmete, völlig abseits der Parteikämpfe lebend und fast völlig aus dem gesellschaftlichen Leben ausgeschlossen. In Funchal arbeitete er umfangreich bei vielen Zeitungen mit, die in dieser Stadt veröffentlicht wurden und in denen er bevorzugt wirtschaftliche Themen behandelte. Er veröffentlichte hier auch eine Broschüre über Zollreformen und ein Buch mit dem Titel Compilaçâo de Elementos de Filosofia Racional. Er genoss zu seiner Zeit den Ruf eines Mannes von nicht gewöhnlicher Intelligenz und umfassender Bildung.",
+    "categories": [
+        "history",
+        "society",
+        "education"
+    ],
+    "freguesias": [
+        "Arco de S. Jorge"
+    ],
+    "locations": {
+        "Arco de S. Jorge": [
+            "Geburtsort"
+        ],
+        "Funchal": [
+            "Sterbeort und Mitarbeit bei Zeitungen"
+        ]
+    },
+    "people": {
+        "António Gil Gomes": [
+            "Schriftsteller und Professor"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Ausreise aus Madeira"
+        ],
+        "1834": [
+            "Rückkehr nach Madeira"
+        ],
+        "1868": [
+            "Tod"
+        ]
+    }
+}

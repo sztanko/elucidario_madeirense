@@ -1,0 +1,35 @@
+{
+    "id": 3055,
+    "lang": "de",
+    "is_original": false,
+    "title": "Renton (Dr.)",
+    "fl": "R",
+    "original_title": "Renton (Dr.)",
+    "body": "Englischer Arzt, der viele Jahre auf Madeira lebte und eine Arbeit über die Vorteile des Inselklimas bei der Behandlung von Lungenkrankheiten im \"Edinburgh Medical and Surgical Journal\" (1827) veröffentlichte. Zusammen mit Dr. Heineken führte er von 1826 bis 1831 diverse meteorologische Beobachtungen in Funchal durch.",
+    "categories": [
+        "health",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem er diverse meteorologische Beobachtungen durchführte"
+        ]
+    },
+    "people": {
+        "Dr. Heineken": [
+            "Kollaborierte mit Dr. Renton bei den meteorologischen Beobachtungen"
+        ]
+    },
+    "years": {
+        "1827": [
+            "Dr. Renton veröffentlichte eine Arbeit über die Vorteile des Inselklimas bei der Behandlung von Lungenkrankheiten"
+        ],
+        "1826": [
+            "Beginn der Zusammenarbeit von Dr. Renton mit Dr. Heineken bei meteorologischen Beobachtungen"
+        ],
+        "1831": [
+            "Ende der Zusammenarbeit von Dr. Renton mit Dr. Heineken bei meteorologischen Beobachtungen"
+        ]
+    }
+}

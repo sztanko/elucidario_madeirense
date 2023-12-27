@@ -1,0 +1,31 @@
+{
+    "id": 2037,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo von São João",
+    "fl": "L",
+    "original_title": "Lombo de São João",
+    "body": "Bewohnter Ort der Gemeinde Ponta do Sol. Dort befindet sich die Kapelle von S. João, die dem Ort den Namen gab. Das Jahr ihres ursprünglichen Baus und wer ihr Gründer war, ist unbekannt. Sie war eine Majoratskapelle und gehörte dem Majorat Diogo Berenguer de França, der 1871 mit dem Titel Viscount von São João, nach diesem Ort benannt, ausgezeichnet wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Ort auf der Insel Madeira"
+        ]
+    },
+    "people": {
+        "Diogo Berenguer de França": [
+            "Inhaber eines Majorats"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Jahr, in dem Diogo Berenguer de França mit dem Titel Viscount von São João ausgezeichnet wurde"
+        ]
+    }
+}

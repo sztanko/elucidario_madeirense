@@ -1,0 +1,38 @@
+{
+    "id": 1208,
+    "lang": "de",
+    "is_original": false,
+    "title": "Graf von Ega",
+    "fl": "G",
+    "original_title": "Ega (Conde da)",
+    "body": "> Aires José Maria de Saldanha Albuquerque Matos e Noronha, 2. Graf von Ega, war der Sohn von Manuel de Saldanha de Albuquerque und wurde am 29. März 1755 in Funchal geboren, als sein Vater hier das Amt des Gouverneurs und General-Kapitäns dieses Archipels innehatte. Er wurde am 27. Mai desselben Jahres in der Kapelle des Palastes von São Lourenço getauft. Er bekleidete hohe öffentliche Ämter wie das des portugiesischen Botschafters in Madrid, aber sein Name wurde bekannter, weil er der Ehemann der berühmten Gräfin von Ega war, die die Geliebte von General Junot war, als dieser mit den Truppen der ersten französischen Invasion nach Portugal einmarschierte. Als Napoleons Truppen 1811 Portugal verließen, ging die ganze Familie des Grafen von Ega nach Frankreich, wo der Graf vom Kaiser eine jährliche Pension von sechzigtausend Francs erhielt, die er bis zum Sturz Napoleons bezog. Nachdem unsere Regierung dann gegen die Portugiesen in Frankreich vorgegangen war, wurde der Graf von Ega zum Tode verurteilt, aber dieses Urteil wurde nie vollstreckt, und 1823 wurde er von den Verbrechen, die man ihm zur Last legte, freigesprochen.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort von Aires José Maria de Saldanha Albuquerque Matos e Noronha"
+        ]
+    },
+    "people": {
+        "Aires José Maria de Saldanha Albuquerque Matos e Noronha": [
+            "2. Graf von Ega"
+        ],
+        "Manuel de Saldanha de Albuquerque": [
+            "Vater von Aires José Maria de Saldanha Albuquerque Matos e Noronha"
+        ]
+    },
+    "years": {
+        "1755": [
+            "Geburtsjahr von Aires José Maria de Saldanha Albuquerque Matos e Noronha"
+        ],
+        "1811": [
+            "Jahr, in dem die Familie des Grafen von Ega nach der ersten französischen Invasion nach Frankreich ging"
+        ],
+        "1823": [
+            "Jahr, in dem der Graf von Ega von den gegen ihn erhobenen Anklagen freigesprochen wurde"
+        ]
+    }
+}

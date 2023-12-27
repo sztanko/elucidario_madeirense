@@ -1,0 +1,41 @@
+{
+    "id": 2670,
+    "lang": "de",
+    "is_original": false,
+    "title": "António Romão dos Passos",
+    "fl": "A",
+    "original_title": "Passos (António Romão dos)",
+    "body": "Er wurde am 28. Februar 1866 in Ribeira Brava geboren, zog aber schon in jungen Jahren nach Portugal, wo er eine Mittelschule besuchte und am Instituto Geral de Agricultura studierte. Seit vielen Jahren ist er Agronom des Companhia Geral de Credito Predial Português. Er veröffentlichte den Nachruf auf den Ratsherrn João Inacio Ferreira Lapa, gehalten in der Feierstunde am 20. Mai 1905 in der Sociedade de Sciencias Agronomicas de Portugal, und unseres Wissens hat er auch eine Biografie des Botanikers und Agronomen D. Antonio Xavier Pereira Coutinho (1921) veröffentlicht.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Geburtsort"
+        ],
+        "Portugal": [
+            "Ort seiner Ausbildung"
+        ]
+    },
+    "people": {
+        "João Inacio Ferreira Lapa": [
+            "Erwähnte Persönlichkeit"
+        ],
+        "D. Antonio Xavier Pereira Coutinho": [
+            "Botaniker und Agronom"
+        ]
+    },
+    "years": {
+        "1866": [
+            "Geburtsjahr"
+        ],
+        "1905": [
+            "Jahr der Feierstunde"
+        ],
+        "1921": [
+            "Jahr der Veröffentlichung der Biografie"
+        ]
+    }
+}

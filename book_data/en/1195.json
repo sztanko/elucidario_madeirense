@@ -1,0 +1,39 @@
+{
+    "id": 1195,
+    "lang": "en",
+    "is_original": false,
+    "title": "Drumond de Meneses (Antero)",
+    "fl": "D",
+    "original_title": "Drumond de Meneses (Antero)",
+    "body": "He was the son of Servúlo Drumond de Meneses, born in Funchal on December 1, 1830, and obtained a doctorate in medicine from the faculty of Montpellier in 1856. He was a doctor for the party of the Municipal Chamber of Funchal and a physician of the Mutual Aid Association on September 4, 1862. He died in Lisbon on September 30, 1916. E.: L'Etiologie comme source du diagnostic médical, Montpellier, 1856.",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Birthplace of Antero Drumond de Meneses"
+        ],
+        "Montpellier": [
+            "Location where Antero Drumond de Meneses obtained a doctorate in medicine"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1830": [
+            "Birth of Antero Drumond de Meneses"
+        ],
+        "1856": [
+            "Obtaining a doctorate in medicine from the faculty of Montpellier"
+        ],
+        "1862": [
+            "Antero Drumond de Meneses became a physician of the Mutual Aid Association"
+        ],
+        "1916": [
+            "Death of Antero Drumond de Meneses"
+        ]
+    }
+}

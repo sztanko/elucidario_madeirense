@@ -1,0 +1,31 @@
+{
+    "id": 3206,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santos (Joaquim José de Faria)",
+    "fl": "S",
+    "original_title": "Santos (Joaquim José de Faria)",
+    "body": "Nasceu no Funchal a 21 de Janeiro de 1822 e desempenhou o cargo de escriturário da secretaria da Câmara. Colaborou no Archivista, Ordem, Baratissimo, Madeira e Verdade, e faleceu nesta cidade a 12 de Abril de 1886.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento."
+        ]
+    },
+    "people": {
+        "Joaquim José de Faria Santos": [
+            "Escriturário da secretaria da Câmara."
+        ]
+    },
+    "years": {
+        "1822": [
+            "Ano de nascimento."
+        ],
+        "1886": [
+            "Ano de falecimento."
+        ]
+    }
+}

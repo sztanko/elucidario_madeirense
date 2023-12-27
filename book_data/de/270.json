@@ -1,0 +1,25 @@
+{
+    "id": 270,
+    "lang": "de",
+    "is_original": false,
+    "title": "Arrebentão (Pico e sítio do)",
+    "fl": "A",
+    "original_title": "Arrebentão (Pico e sítio do)",
+    "body": "Diese Erhebung befindet sich in der Gemeinde Monte und erreicht eine Höhe von 1171 Metern. In ihrer Nähe liegt die gleichnamige Stelle, die von der Straße durchquert wird, die zu den Schutzhütten von Poiso führt.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Gemeinde, in der sich der Pico do Arrebentão befindet"
+        ],
+        "Poiso": [
+            "Ort der Schutzhütten"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

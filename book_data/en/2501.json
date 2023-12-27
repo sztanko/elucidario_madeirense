@@ -1,0 +1,26 @@
+{
+    "id": 2501,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora Mãe dos Homens",
+    "fl": "N",
+    "original_title": "Nossa Senhora Mãe dos Homens",
+    "body": "In Caminho do Meio, parish of Santa Maria Maior, there is a chapel with this invocation, which is owned by Viscount de Cacongo.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caminho do Meio"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Parish where the chapel is located"
+        ]
+    },
+    "people": {
+        "Viscount de Cacongo": [
+            "Owner of the chapel"
+        ]
+    },
+    "years": {}
+}

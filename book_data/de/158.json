@@ -1,0 +1,27 @@
+{
+    "id": 158,
+    "lang": "de",
+    "is_original": false,
+    "title": "Almeida",
+    "fl": "A",
+    "original_title": "Almeida",
+    "body": "„Die Frau von João Gonçalves Zargo, Constança Rodrigues, wird laut Dr. Alvaro de Azevedo von einigen Sá, von anderen Almeida genannt; tatsächlich führt das Haus Abrantes, das aus derselben Abstammung hervorgegangen ist, das Wappen der Almeidas. Nach Constança Rodrigues ist die erste Person, die wir mit diesem Nachnamen finden, Amador de Almeida, dem König Johann III. 1538 ein Wappen verlieh“.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Gonçalves Zargo": [
+            "Ehemann von Constança Rodrigues"
+        ],
+        "Constança Rodrigues": [
+            "Erste Person mit dem Nachnamen Almeida"
+        ]
+    },
+    "years": {
+        "1538": [
+            "König Johann III. verlieh Amador de Almeida ein Wappen"
+        ]
+    }
+}

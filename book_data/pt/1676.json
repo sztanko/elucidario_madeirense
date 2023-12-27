@@ -1,0 +1,24 @@
+{
+    "id": 1676,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Harcourt (Eduardo Vernon)",
+    "fl": "H",
+    "original_title": "Harcourt (Eduardo Vernon)",
+    "body": "E.: A Sketch of Madeira, with maps and views (Londres, 1850). Encontram-se nesta obra uma lista das aves madeirenses e várias notas meteorológicas, entre as quais as de W. V. Harcourt.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "W. V. Harcourt": [
+            "Autor das notas meteorológicas"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Publicação do livro"
+        ]
+    }
+}

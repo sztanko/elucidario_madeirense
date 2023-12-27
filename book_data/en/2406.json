@@ -1,0 +1,30 @@
+{
+    "id": 2406,
+    "lang": "en",
+    "is_original": false,
+    "title": "Museu Arqueológico",
+    "fl": "M",
+    "original_title": "Museu Arqueológico",
+    "body": "On January 26, 1915, the Municipal Council of Funchal authorized the removal of several objects belonging to it to the convent of Santa Clara in order to establish an archaeological museum, which could later undergo significant development. After this decision, several valuable objects that had been forgotten or neglected in the Municipal warehouses and other places were transported there. Among the objects removed to the convent were the shield and crown, made of marble, from the convent of S. Francisco, the wheel from the convent of Mercês, an inscription from the bridge of S. João, several paintings from the episcopal palace, the vestments from the chapel of the same palace, the shield, made of marble, from the old prison, the shield and crown, made of marble, from the Varadonros arch, the Latin inscription, in basalt, from the same arch, various items from the extinct hospital of S. Lazaro, the ancient measures from the workshop of inspections, the portrait of Canon Viveiros, founder of the convent of Incarnação, etc., etc..\n\nThe hostile attitude of the administrative committee of the Santa Casa da Misericórdia, presided over by Francisco Gomes de Gouveia, towards the establishment of the archaeological museum in the building of the extinct convent, and the lack of energy with which the Council asserted its rights to the possession of certain dependencies of the same building, led to the museum stagnating in its early stages, thus failing to provide the services that were expected of it. In January 1916, the Municipal Council even decided to appeal to the Government, requesting the concession of all the articles belonging to the convent of Santa Clara and possessing some historical value, in order to be kept in the archaeological museum. However, this show of interest in an establishment that, when properly set up, could well provide food for thought for erudite individuals, was the last we know of, and there was no further mention of properly storing numerous valuable objects that could deteriorate or be lost due to complete neglect. (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Gomes de Gouveia": [
+            "President of the administrative committee of the Santa Casa da Misericórdia"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Authorization by the Municipal Council of Funchal for the establishment of the archaeological museum"
+        ],
+        "1916": [
+            "Representation by the Municipal Council to the Government requesting the concession of articles belonging to the convent of Santa Clara for the archaeological museum"
+        ],
+        "1921": [
+            "Reference to the state of the archaeological museum"
+        ]
+    }
+}

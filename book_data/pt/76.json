@@ -1,0 +1,36 @@
+{
+    "id": 76,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aguiar (Joaquim Nunes de)",
+    "fl": "A",
+    "original_title": "Aguiar (Joaquim Nunes de)",
+    "body": "Este distinto engenheiro nasceu no Funchal nos fins do primeiro quartel do século passado e era filho natural de Diogo Teles de Meneses, director da nossa Alfândega. Terminados os estudos preparatórios, iniciou o seu curso de engenharia civil em Lisboa, e que depois concluiu em Paris com grande aproveitamento em 1848. Foi engenheiro da Câmara Municipal do Funchal de 1849 a 1850, sendo chamado em 1852 para as obras do caminho de ferro do norte, em que notavelmente assinalou o seu talento e amor ao trabalho. Seguidamente exerceu cargos importantes, como director das obras públicas de Viana, Braga e Porto, vogal do Conselho das Obras Públicas, director do Caminho de Ferro de leste e fiscal dos do norte, tendo ido ao estrangeiro varias vezes no desempenho de comissões de que foi encarregado pelo nosso governo. Era homem de grandes aptidões e de uma notável actividade, vindo a falecer no Funchal, por excesso de trabalho, a 14 de Novembro de 1877.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Diogo Teles de Meneses": [
+            "Diretor da Alfândega"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Conclusão do curso de engenharia civil em Paris"
+        ],
+        "1849": [
+            "Início como engenheiro da Câmara Municipal do Funchal"
+        ],
+        "1850": [
+            "Fim do cargo como engenheiro da Câmara Municipal do Funchal"
+        ],
+        "1852": [
+            "Chamado para as obras do caminho de ferro do norte"
+        ],
+        "1877": [
+            "Falecimento"
+        ]
+    }
+}

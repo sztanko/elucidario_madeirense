@@ -1,0 +1,53 @@
+{
+    "id": 2509,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Nazaré (Chapels of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Nazaré (Capelas de)",
+    "body": "There is a chapel with this name in the parish of Arco da Calheta, which was the seat of an entailed estate instituted by the two sisters Antonia de Cristo and Leonarda do Horto in the person of their nephew Francisco Friz de Barros Maciel. It was he who built the chapel in the third or last quarter of the 17th century. In 1694, he had the mortal remains of his uncle, Father Inacio Barbosa da Silva, transferred to the chapel, who was the brother of the founders of the entail and had been one of the owners of the property on which the chapel was built. Having fallen into great ruin, this chapel was rebuilt in 1830 by Antonio João Barbosa de Matos e Câmara, a descendant of the founders. There is another chapel with the same name in the parish of Câmara de Lobos, founded in 1757 by Maria do Rosário Henriques, widow of Pedro Bernardes Cardeiro. Regarding this or another owner of this chapel, Dr. Alvaro de Azevedo gives the following curious information: \"It is a tradition among the fishermen of Câmara de Lobos that at the beginning of this century, the morgada of Nazareth, armed with a sword, stood on the hill where the chapel is; she called the fishing boats entering the port; and, by privilege or abuse, she took the fish she wanted and paid for it as she saw fit.\" There is also a chapel in the parish of São Martinho, in a place called Nazaré, dedicated to this invocation, founded by Martim Vaz in the year 1627.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Câmara de Lobos",
+        "São Martinho"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Locality in the Madeira Island"
+        ]
+    },
+    "people": {
+        "Francisco Friz de Barros Maciel": [
+            "Founder of the chapel in the parish of Arco da Calheta"
+        ],
+        "Antonia de Cristo": [
+            "One of the founders of the entailed estate"
+        ],
+        "Leonarda do Horto": [
+            "One of the founders of the entailed estate"
+        ],
+        "Antonio João Barbosa de Matos e Câmara": [
+            "Descendant of the founders of the chapel in the parish of Arco da Calheta"
+        ],
+        "Maria do Rosário Henriques": [
+            "Founder of the chapel in the parish of Câmara de Lobos"
+        ],
+        "Martim Vaz": [
+            "Founder of the chapel in the place called Nazaré"
+        ]
+    },
+    "years": {
+        "1694": [
+            "Transfer of the mortal remains of Father Inacio Barbosa da Silva to the chapel in the parish of Arco da Calheta"
+        ],
+        "1757": [
+            "Foundation of the chapel in the parish of Câmara de Lobos"
+        ],
+        "1627": [
+            "Foundation of the chapel in the place called Nazaré"
+        ]
+    }
+}

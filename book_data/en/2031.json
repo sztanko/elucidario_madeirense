@@ -1,0 +1,36 @@
+{
+    "id": 2031,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo das Mercês",
+    "fl": "L",
+    "original_title": "Lombo das Mercês",
+    "body": "Site incorporated in the populated area of Florenças, in the parish of Arco da Calheta, which took its name from the chapel dedicated to Our Lady of Mercês, founded in 1650 by Gaspar Homem de El-Rei and his wife D. Isabel Florença, which was of entail institution. It is also stated that João Portes Homem built a chapel dedicated to Santa Maria Madalena in this place in the year 1684.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Parish of Arco da Calheta"
+        ]
+    },
+    "people": {
+        "Gaspar Homem de El-Rei": [
+            "Founder of the chapel of Our Lady of Mercês"
+        ],
+        "João Portes Homem": [
+            "Builder of the chapel dedicated to Santa Maria Madalena"
+        ]
+    },
+    "years": {
+        "1650": [
+            "Foundation of the chapel of Our Lady of Mercês"
+        ],
+        "1684": [
+            "Construction of the chapel dedicated to Santa Maria Madalena"
+        ]
+    }
+}

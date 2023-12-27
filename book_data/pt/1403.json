@@ -1,0 +1,37 @@
+{
+    "id": 1403,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Flores da Madeira",
+    "fl": "F",
+    "original_title": "Flores da Madeira",
+    "body": "O Dr. José Leite Monteiro e o cónego Alfredo César de Oliveira (V. estes nomes) publicaram em 1871 e 1872 dois volumes de 210 e 190 paginas, em que coligiram cerca de cem poesias de poetas madeirenses seus contemporâneos e a que puseram o título de Flores da Madeira. Esta colecção, que é um elemento valioso para o estudo da nossa literatura, mereceu as mais elogiosas referências ao eminente publicista Teofilo Braga num artigo que foi transcrito no n.° 5 do jornal A lâmpada, que se publicou nesta cidade no ano de 1872.\n\nFlorosa. Na Ribeira Brava e em outras freguesias dão este nome ao papinho.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Ribeira Brava"
+        ]
+    },
+    "people": {
+        "Dr. José Leite Monteiro": [
+            "Médico"
+        ],
+        "Cónego Alfredo César de Oliveira": [
+            "Cónego"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Publicação do primeiro volume de Flores da Madeira"
+        ],
+        "1872": [
+            "Publicação do segundo volume de Flores da Madeira"
+        ]
+    }
+}

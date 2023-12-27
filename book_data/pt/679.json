@@ -1,0 +1,42 @@
+{
+    "id": 679,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Câmara (D. Marta Celina Sauvayre da)",
+    "fl": "C",
+    "original_title": "Câmara (D. Marta Celina Sauvayre da)",
+    "body": "Pertence a uma nobre e distinta família madeirense, e é filha de João Sauvayre da Camara e de D. Matilde Lucia de Sant’Ana e Vasconcelos Moniz de Bettencourt, sendo neta da ilustre escritora madeirense, Viscondessa das Nogueiras, e sobrinha do nosso distinto patrício Jacinto de Sant’Ana e Vasconcelos, 21. visconde do mesmo título, dos quais nos ocuparemos neste Elucidario. D. Marta Celina da Camara nasceu no Funchal a 1 de Setembro de 1857, recebendo uma esmerada educação, em boa parte ministrada por sua ilustre avó, que era uma senhora de vasta erudição e que para uso de suas netas escreveu uma interessante e valiosa obra intitulada Diálogos entre uma avó e suas netas, que foi publicado em 1862. D. Maria Celina, depois de uma larga viagem que fez pela Europa e parte da Asia e da Africa, escreveu um livro que intitulou De Napoles a Jerusalem e que em 1889 foi publicado no Funchal, num volume de 196 paginas. D. Maria Celina Sauvayre da Câmara faleceu em Portugal a 21 de Fevereiro de 1929.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Sauvayre da Camara": [
+            "Pai"
+        ],
+        "D. Matilde Lucia de Sant’Ana e Vasconcelos Moniz de Bettencourt": [
+            "Mãe"
+        ],
+        "Viscondessa das Nogueiras": [
+            "Avó"
+        ],
+        "Jacinto de Sant’Ana e Vasconcelos": [
+            "Tio"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Nasceu no Funchal"
+        ],
+        "1862": [
+            "Obra intitulada Diálogos entre uma avó e suas netas publicada"
+        ],
+        "1889": [
+            "Livro De Napoles a Jerusalem publicado"
+        ],
+        "1929": [
+            "Faleceu em Portugal"
+        ]
+    }
+}

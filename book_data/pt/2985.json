@@ -1,0 +1,30 @@
+{
+    "id": 2985,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quinta de Santo António",
+    "fl": "Q",
+    "original_title": "Quinta de Santo António",
+    "body": "Sítio povoado da freguesia do Estreito de Câmara de Lobos. Existe ali uma capela dedicada a Santo António, edificada no ano de 1705 por Inácio Viana do Rego, com casa solarenga adjunta, que pertenceu ao morgadio dos Heredias, de que foi ultimo representante o visconde da Ribeira Brava.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {
+        "Estreito de Câmara de Lobos": [
+            "Freguesia onde se localiza a Quinta de Santo António."
+        ]
+    },
+    "people": {
+        "Inácio Viana do Rego": [
+            "Responsável pela edificação da capela dedicada a Santo António."
+        ]
+    },
+    "years": {
+        "1705": [
+            "Ano de edificação da capela dedicada a Santo António."
+        ]
+    }
+}

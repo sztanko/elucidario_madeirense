@@ -1,0 +1,27 @@
+{
+    "id": 1818,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jamboto",
+    "fl": "J",
+    "original_title": "Jamboto",
+    "body": "Sítio povoado da freguesia de Santo Antonio do Funchal. Este nome é a corrutela de João Boto, antigo povoador. Neste sítio se encontra uma nascente de água férrea, que em tempo adquiriu bastante nomeada, por se lhe atribuirem determinadas qualidades terapêuticas, tendo por isso a Câmara Municipal do Funchal mandado proceder á analise química e bacteriologica dessa água, sendo o resultado da mesma analise publicado num opúsculo no ano de 1900 e transcrito a pags. 119 e seguintes do livro *Paroquia de Santo Antonio da Ilha da Madeira* da autoria de um dos autores deste *Elucidario*.",
+    "categories": [
+        "geography",
+        "health"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Santo Antonio do Funchal": [
+            "Freguesia"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Resultado da mesma analise publicado"
+        ]
+    }
+}

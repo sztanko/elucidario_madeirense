@@ -1,0 +1,27 @@
+{
+    "id": 256,
+    "lang": "en",
+    "is_original": false,
+    "title": "Areias",
+    "fl": "A",
+    "original_title": "Areias",
+    "body": "This is the name given to the middle part of the island of Porto Santo, which is covered by a thick layer of sand. This sand originated from mounds located to the northwest of the island, and to prevent its advance, barriers of pine trees, reed canes, and paradise trees were made. In the area of Areias, there are large vine plantations.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island covered in sand"
+        ],
+        "Northwest of the island": [
+            "Origin of the sand mounds"
+        ],
+        "Area of Areias": [
+            "Large vine plantations"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

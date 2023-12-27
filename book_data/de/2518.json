@@ -1,0 +1,44 @@
+{
+    "id": 2518,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Freuden (Kapellen)",
+    "fl": "U",
+    "original_title": "Nossa Senhora dos Prazeres (Capelas de)",
+    "body": "Auf einem Grundstück in der Gemeinde Monte, das später zur Pfarrei Santa Luzia gehörte, gründete Tristão Gomes de Castro 1611 eine Kapelle mit der Widmung Unserer Lieben Frau der Freuden. Mit der gleichen Widmung gab es eine Kapelle in der Gemeinde Santa Maria Maior, die 1610 dem João Gomes de Castro unterstand. Wir wissen nicht, in welchem Jahr sie gegründet wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte",
+        "Santa Luzia",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Monte": [
+            "Gemeinde auf Madeira"
+        ],
+        "Santa Luzia": [
+            "Pfarrei auf Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Gemeinde auf Madeira"
+        ]
+    },
+    "people": {
+        "Tristão Gomes de Castro": [
+            "Gründer der Kapelle in der Gemeinde Monte"
+        ],
+        "João Gomes de Castro": [
+            "Verwalter der Kapelle in der Gemeinde Santa Maria Maior"
+        ]
+    },
+    "years": {
+        "1611": [
+            "Gründung der Kapelle in der Gemeinde Monte"
+        ],
+        "1610": [
+            "Jahr, in dem João Gomes de Castro Verwalter der Kapelle in der Gemeinde Santa Maria Maior war"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 3275,
+    "lang": "de",
+    "is_original": false,
+    "title": "Dr. Manuel Sardinha",
+    "fl": "D",
+    "original_title": "Sardinha (Dr. Manuel)",
+    "body": "Er wurde am 20. September 1865 in Funchal geboren und ist Arzt und Chirurg von der ehemaligen Medizinisch-Chirurgischen Schule dieser Stadt. Er war Gemeindearzt in Fajã da Ovelha und Ribeira Brava. Später wurde er zum Verwalter des Landdesinfektionspostens des Generalrates ernannt und ist derzeit pensioniert. Er hat verschiedene Zeitungsbeiträge verfasst, war Redakteur der Diário de Noticias und ist derzeitiger Direktor des Correio da Madeira. (1921) Seine jahrelange Mitarbeit im Almanach Bertrand als Löser mathematischer Probleme ist von unschätzbarem Wert und wurde dort auf außergewöhnlich ehrenvolle und herausragende Weise für Dr. Manuel Sardinha hervorgehoben.",
+    "categories": [
+        "health",
+        "society"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort von Dr. Manuel Sardinha am 20. September 1865"
+        ],
+        "Fajã da Ovelha": [
+            "Gemeindearzt in Fajã da Ovelha"
+        ],
+        "Ribeira Brava": [
+            "Gemeindearzt in Ribeira Brava"
+        ]
+    },
+    "people": {
+        "Dr. Manuel Sardinha": [
+            "Arzt, Chirurg, Redakteur, Zeitungsdirektor"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Geburtsjahr von Dr. Manuel Sardinha"
+        ],
+        "1921": [
+            "Jahr, in dem sich die Mitarbeit von Dr. Manuel Sardinha auszeichnete"
+        ]
+    }
+}

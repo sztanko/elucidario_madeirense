@@ -1,0 +1,42 @@
+{
+    "id": 3396,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa (Dr. Jacinto António de)",
+    "fl": "S",
+    "original_title": "Sousa (Dr. Jacinto António de)",
+    "body": "This distinguished professor at the University of Coimbra was born on January 3, 1818, on this island, the son of Eugenio Antonio de Sousa. He held a bachelor's degree in law and mathematics, and obtained his doctorate from the Faculty of Philosophy on July 6, 1858.\n\nHe was a professor of physics at the University and one of the most distinguished teachers of his time. As the director of the physics laboratory and the meteorological observatory, he provided these scientific establishments with the most remarkable services, giving a new direction to the work carried out there, after a trip he made to various countries in Europe.\n\nCommissioned by the Portuguese government, he visited various foreign universities and observatories, publishing remarkable reports on the observations and studies he conducted during his scientific missions. He was chosen as one of Portugal's representatives to observe the solar eclipse in Spain in 1860, with Dr. Simões de Carvalho stating 'he carried out this mission with great honor to his name, to the university, and to the country'.\n\nIn addition to other works, he wrote: report of a visit to the scientific establishments of Madrid, Paris, Brussels, London, Greenwich, and Kew, 1862; Meteorological observations made at the meteorological and magnetic observatory of the University of Coimbra, 1872; Meteorological Observations..., 1873, and Addendum to the Historical Memoir of the Faculty of Philosophy...1873. He was the director and editor of the scientific and literary magazine 0 Instituto, and a member of many national and foreign scientific associations. He died on August 15, 1880.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Eugenio Antonio de Sousa": [
+            "Father of Jacinto António de Sousa"
+        ],
+        "Dr. Simões de Carvalho": [
+            "Mentioned as praising Jacinto António de Sousa"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Birth of Jacinto António de Sousa"
+        ],
+        "1858": [
+            "Doctorate from the Faculty of Philosophy"
+        ],
+        "1860": [
+            "Observation of the solar eclipse in Spain"
+        ],
+        "1862": [
+            "Publication of the report of the visit to the scientific establishments of Madrid, Paris, Brussels, London, Greenwich, and Kew"
+        ],
+        "1872": [
+            "Publication of Meteorological observations made at the meteorological and magnetic observatory of the University of Coimbra"
+        ],
+        "1873": [
+            "Publication of Meteorological Observations... and Addendum to the Historical Memoir of the Faculty of Philosophy"
+        ]
+    }
+}

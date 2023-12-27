@@ -1,0 +1,48 @@
+{
+    "id": 1003,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cook (James)",
+    "fl": "C",
+    "original_title": "Cook (James)",
+    "body": "Depois da primeira viagem de circunnavegação realizada pelo nosso ilustre compatriota Fernão de Magalhãis, foi a segunda rota maritima em volta do mundo, a do grande navegador inglês James Cook, que mais assinalados serviços prestou á ciencia e que mais contribuíu para o alargamento dos conhecimentos geograficos.\n\nCook, na sua primeira viagem de circunnavegação, saíu das costas da Inglaterra a 26 de Agôsto de 1768, comandando o navio da marinha real inglêsa Endeavour, que no dia 13 de Setembro seguinte ancorou no pôrto do Funchal, fazendo-se de vela no dia 19, em direcção ao Rio de Janeiro.\n\nO capitão Cook foi muito obsequiado nesta cidade pelo consul ingles Cheap e pelo governador e capitão-general João Antonio de Sá Pereira.\n\nA bordo do Endeavour iam os naturalistas José Banks e o dr. Solander, encarregados de realizarem diversos estudos cientificos, e durante os poucos dias que se demoraram na Madeira procederam a varias pesquisas sôbre alguns ramos da historia natural, em que foram auxiliados pelo dr. Heberden, distinto medico inglês que então residia no Funchal.\n\nA descrição desta viagem de Cook refere-se a varios pontos interessantes dos nossos costumes, conventos e igrejas, meios de condução, comercio de vinhos, etc.. Causou grande impressão a Cook e aos dois sabios da expedicao uma capela que visitaram no convento de São Francisco, cujas paredes estavam literalmente cobertas de tibias, fémures e cranios humanos. A esta capela macabra se referem outros visitantes com grande estranheza, mas nao se trata dum caso singular, pois em outros conventos da Europa se encontravam também algumas capelas com as paredes guarnecidas de despojos humanos.\n\nOs numeros 462, 463 e 466 do antigo Heraldo da Madeira inserem a tradução da descrição da viagem de Cook, que merece ser lida.\n\nCook voltou á Madeira em 1772, na segunda viagem que realizou aos mares do sul, comandando desta vez a Resolução, tendo chegado ao pôrto do Funchal a 29 de Julho. Os naturalistas da expedição eram João Reinhold Forster e seu filho João Jorge, que durante os três dias que se demoraram na ilha observaram 96 plantas, algumas delas cultivadas. Da narrativa desta expedição consta que havia então na Madeira um numero prodigioso de negros e de mulatos, uns livres, outros escravos.\n\nConta Forster que os navios da primeira expedição do capitão Cook bombardearam a fortaleza do Ilhéu em 1768, por causa de um insulto feito ao pavilhão britanico, mas nem a narrativa de Hawkesworth, nem os documentos oficiais da epoca se referem a esse facto que, a ter-se dado, não afectou as boas relaçoes que havia então entre Portugal e a Inglaterra.\n\nO capitão Cook realizou uma terceira viagem em 1776, mas sem tocar na Madeira, morrendo numa das ilhas do arquipelago de Sandwich, num combate com os indigenas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Fernão de Magalhãis": [
+            "Navegador"
+        ],
+        "James Cook": [
+            "Navegador"
+        ],
+        "José Banks": [
+            "Naturalista"
+        ],
+        "Solander": [
+            "Naturalista"
+        ],
+        "Heberden": [
+            "Médico"
+        ],
+        "João Reinhold Forster": [
+            "Naturalista"
+        ],
+        "João Jorge": [
+            "Naturalista"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Primeira viagem de circunnavegação"
+        ],
+        "1772": [
+            "Segunda viagem aos mares do sul"
+        ],
+        "1776": [
+            "Terceira viagem"
+        ]
+    }
+}

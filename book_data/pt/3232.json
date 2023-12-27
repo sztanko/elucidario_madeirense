@@ -1,0 +1,48 @@
+{
+    "id": 3232,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São João Nepomuceno (Capela de)",
+    "fl": "S",
+    "original_title": "São João Nepomuceno (Capela de)",
+    "body": "João Nepomuceno de Freitas Leal, junto da casa de sua moradia no sítio do Folhadal, da freguesia do Porto da Cruz, fez construir esta capela no ano de 1776. É de 3 de Novembro deste ano a escritura da dotação da capela, imposta numa fazenda « onde chamam a porta do frade defronte do poiso, também defronte onde mora o dito frade Manuel de Gouveia, que houve de seu pai Pantaleão de Freitas Leal», segundo na mesma escritura se lê. Foi passada licença para ser benzida, a 3 de Março de 1786. Por breve pontificio datado do mesmo ano, foi concedida a esta capela a faculdade de altar privilegiado.\n\nQuando em 1800 foi criado o curato do Porto da Cruz, impôs-se ao cura a obrigação de residir nas imediações daquela capela e de nela celebrar os ofícios divinos. Esteve interdita desde 1812 a 1822, por o respectivo administrador a pretender subtrair á jurisdição paroquial.\n\nEsteve sempre na posse e administração da família Freitas Leal, tendo D. Luzia Leal, sobrinha do instituidor, legado o pequeno templo a D. Augusta Lomelino de Freitas Leal, esposa do conselheiro dr. João Baptista de Freitas Leal, sendo os sobrinhos destes, Antonio Lomelino Bianchi e irmãos, os seus actuais possuidores (1921).\nEsta capela acha-se bem conservada e nela se celebram os actos do culto.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Folhadal": [
+            "Sítio do Folhadal, freguesia do Porto da Cruz"
+        ],
+        "Porto da Cruz": [
+            "Freguesia do Porto da Cruz"
+        ]
+    },
+    "people": {
+        "João Nepomuceno de Freitas Leal": [
+            "Construtor da capela"
+        ],
+        "D. Luzia Leal": [
+            "Sobrinha do instituidor"
+        ],
+        "D. Augusta Lomelino de Freitas Leal": [
+            "Esposa do conselheiro dr. João Baptista de Freitas Leal"
+        ],
+        "Antonio Lomelino Bianchi": [
+            "Atual possuidor da capela"
+        ],
+        "João Baptista de Freitas Leal": [
+            "Conselheiro"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Construção da capela por João Nepomuceno de Freitas Leal"
+        ],
+        "1800": [
+            "Criação do curato do Porto da Cruz"
+        ]
+    }
+}

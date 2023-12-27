@@ -1,0 +1,40 @@
+{
+    "id": 3181,
+    "lang": "de",
+    "is_original": false,
+    "title": "João de Santana e Vasconcelos Moniz de Bettencourt",
+    "fl": "J",
+    "original_title": "Santana e Vasconcelos Moniz de Bettencourt (João de)",
+    "body": "Er wurde 1806 in Funchal geboren. Am 9. August 1834 wurde er zum Verwalter von Porto Santo ernannt und später zum Verwalter der Gemeinde der gleichen Insel, ein Amt, das er viele Jahre lang ausübte. Er war auch vom 8. bis 18. Januar 1862 kommissarischer Gouverneur des Bezirks Funchal. Er schrieb die Annalen der Gemeinde Porto Santo, deren Original sich im Archiv der gleichen Gemeinde befindet, und war einer der Männer, die dieser Insel die größten Dienste erwiesen. Er starb am 22. Juni 1874 in Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburts- und Sterbeort"
+        ],
+        "Porto Santo": [
+            "Ort seiner Ämter"
+        ]
+    },
+    "people": {
+        "João de Santana e Vasconcelos Moniz de Bettencourt": [
+            "Verwalter von Porto Santo, Verwalter der Gemeinde, kommissarischer Gouverneur des Bezirks Funchal, Schriftsteller"
+        ]
+    },
+    "years": {
+        "1806": [
+            "Geburt"
+        ],
+        "1834": [
+            "Ernennung zum Verwalter von Porto Santo"
+        ],
+        "1862": [
+            "Kommissarischer Gouverneur des Bezirks Funchal"
+        ],
+        "1874": [
+            "Tod"
+        ]
+    }
+}

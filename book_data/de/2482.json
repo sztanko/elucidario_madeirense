@@ -1,0 +1,40 @@
+{
+    "id": 2482,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau vom Berge Karmel (Kirche)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Carmo (Igreja de)",
+    "body": "Diese Kirche, die der Straße, in der sie sich befindet, ihren Namen gab, wurde Mitte des 17. Jahrhunderts erbaut. Das Grundstück für ihren Bau und die angrenzenden Häuser spendete der Hauptmann Roque Acciaioly de Vasconcelos. Die Apsis wurde auf Kosten des Priors des Dritten Ordens Unserer Lieben Frau vom Berge Karmel, Pedro Gonçalves Brandão, errichtet, und das Kirchenschiff auf Kosten der Brüder desselben Ordens. Der Bau begann im Jahr 1656 und wurde 1660 fertiggestellt.\n\nDer Dritte Orden Unserer Lieben Frau vom Berge Karmel wurde in dieser Stadt durch Pater Luís do Rosário de Vila Nova gegründet, den der Provinzial zu diesem Zweck auf diese Insel gesandt hatte. Er hatte seinen Sitz in der Kirche des Klosters der Menschwerdung und blieb dort bis zum Bau der neuen Kirche.\n\nAn die Karmelitenkirche war eine kleine Herberge oder Pilgerunterkunft angegliedert, die von Henrique Henriques de Noronha gegründet wurde. Dort lebten einige Karmelitenmönche, aber wir wissen nichts über die näheren Umstände der Existenz und Dauer dieser Herberge.\n\nAn den Seitenwänden der Apsis dieser Kirche befinden sich zwei schöne Mausoleen, die einzigen Kunstwerke von einigem Wert, die in den Kirchen dieser Insel existieren.\n\nUnter dieser Anrufung gab es eine Kapelle in der Gemeinde Campanário, die Teil eines Majorats war und 1658 von Domingos Rodrigues erbaut wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Campanário": [
+            "Ort auf der Insel Madeira"
+        ]
+    },
+    "people": {
+        "Roque Acciaioly de Vasconcelos": [
+            "Spender des Grundstücks für den Bau der Kirche"
+        ],
+        "Pedro Gonçalves Brandão": [
+            "Verantwortlich für die Kosten der Apsis"
+        ],
+        "Henrique Henriques de Noronha": [
+            "Gründer der Herberge oder Pilgerunterkunft"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Baubeginn der Karmelitenkirche"
+        ],
+        "1660": [
+            "Fertigstellung der Karmelitenkirche"
+        ],
+        "1658": [
+            "Bau der Kapelle in der Gemeinde Campanário"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2498,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau von Loreto (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Loreto (Capela de)",
+    "body": "Über diese Kapelle liest man in einem alten Buch aus dem Pfarrarchiv der Gemeinde Arco da Calheta folgende Passage: \"Diese Einsiedelei ist magnifique in ihrer Architektur und ihrem Bau, sie wurde zu Beginn dieser Gemeinde errichtet... ihr erster Gründer war ein angesehener Mann der sehr bekannten Familie Câmaras, wie das Wappen seiner Waffen über dem Haupteingang zeigt... In dieser Kapelle befindet sich der Kopf eines Majoratsverwalters, der viele Jahre von den Prioren der Esperança von Lissabon verwaltet wurde... und alle Ländereien, die der Bach Ribeiro do Ledo auf der Ostseite teilt...\". Henrique Henriques de Noronha gibt folgende weitere Erläuterungen: \"Pedro Gonsalves da Câmara, dritter Sohn des zweiten Donatarios João Gonsalves da Câmara, heiratete D. Joana de Eça, die Hofdame der Königin D. Catharina, Ehefrau von D. João 3. war... er baute das Kloster Esperança in Portugal wieder auf und errichtete die Kapelle Unserer Lieben Frau von Loreto in Arco da Calheta, wo er vornehme Häuser hatte, von denen heute nur noch Ruinen zu sehen sind: sein Porträt ist in dieser Einsiedelei zu sehen\". D. Joana de Sá hinterließ diese Kapelle und die dazugehörigen Ländereien den Nonnen des Klosters Esperança in Lissabon, die sie wiederum an Francisco Luís de Vasconcelos Bettencourt verkauften, der dort den Sitz eines Majorats einrichtete.\n\nAn einer Stelle haben wir gelesen, dass sie im Jahr 1510 erbaut wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Gemeinde Arco da Calheta"
+        ]
+    },
+    "people": {
+        "Pedro Gonsalves da Câmara": [
+            "Gründer der Kapelle"
+        ],
+        "D. Joana de Eça": [
+            "Hofdame der Königin D. Catharina, Ehefrau von D. João 3."
+        ],
+        "Francisco Luís de Vasconcelos Bettencourt": [
+            "Richtete den Sitz eines Majorats in der Kapelle ein"
+        ]
+    },
+    "years": {
+        "1510": [
+            "Bau der Kapelle"
+        ]
+    }
+}

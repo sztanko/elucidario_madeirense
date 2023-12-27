@@ -1,0 +1,32 @@
+{
+    "id": 2403,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Murray (Carlos)",
+    "fl": "M",
+    "original_title": "Murray (Carlos)",
+    "body": "Foi cônsul inglês na Madeira, no século XVIII. Fez construir a antiga fonte da Senhora, no Monte, que foi destruída pela queda dum grande castanheiro em 1896, e, apesar de protestante, mandou edificar a casa da residência paroquial na mesma freguesia e parte da dos romeiros.\n\nAuxiliou a realização de alguns melhoramentos públicos e contribuiu também generosamente para diversas obras em favor das classes mais desprotegidas do Funchal.\n\nNão deixa de oferecer algum interesse o dizer-se aqui que fez publicar à sua custa um curioso opúsculo intitulado «Avisos interessantes à humanidade ou Colecção de alguns artigos concernentes à restauração da vida dos afogados e outros casos de morte aparente...», traduzido da língua inglesa pelo poeta madeirense Francisco Manuel de Oliveira e impresso em Lisboa no ano de 1788.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Local onde Carlos Murray fez construir a antiga fonte da Senhora e a casa da residência paroquial."
+        ]
+    },
+    "people": {
+        "Francisco Manuel de Oliveira": [
+            "Poeta madeirense que traduziu o opúsculo publicado por Carlos Murray."
+        ]
+    },
+    "years": {
+        "1788": [
+            "Publicação do opúsculo «Avisos interessantes à humanidade ou Colecção de alguns artigos concernentes à restauração da vida dos afogados e outros casos de morte aparente...»"
+        ],
+        "1896": [
+            "Destruição da antiga fonte da Senhora no Monte pela queda dum grande castanheiro."
+        ]
+    }
+}

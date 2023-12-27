@@ -1,0 +1,31 @@
+{
+    "id": 470,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bertrand (Henrique de Price)",
+    "fl": "B",
+    "original_title": "Bertrand (Henrique de Price)",
+    "body": "Capitão de mar e guerra e comandante da fragata D. Pedro, que se achava no porto do Funchal por ocasião da proclamação do governo liberal nesta ilha no dia 5 de Junho de 1834. Fez parte do governo interino da Madeira, depois da saída de D. Alvaro da Costa de Macedo para a cidade de Lisboa.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto onde a fragata D. Pedro se encontrava"
+        ],
+        "Lisboa": [
+            "Cidade para onde D. Alvaro da Costa de Macedo se dirigiu"
+        ]
+    },
+    "people": {
+        "Henrique de Price Bertrand": [
+            "Comandante da fragata D. Pedro"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Proclamação do governo liberal na Madeira"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 1163,
+    "lang": "en",
+    "is_original": false,
+    "title": "Direita (Rua)",
+    "fl": "D",
+    "original_title": "Direita (Rua)",
+    "body": "Located in the Parish of Sé, it connects the Pelourinho square with Rua 31 de Janeiro, formerly known as Princesa street.\n\nIt is an old public road of small extension and secondary importance, when compared to other streets in this city. However, among the streets of old Funchal, it was one of the most important and also the longest, starting at Pelourinho and extending along the left bank of Ribeira de Santa Luzia to the vicinity of Torreão. Gaspar Frutuoso, speaking of it in 1590, says that it was 'a great and wide street and the largest in the city', adding that Bishop D. Jeronimo Barreto (1574-1585) had 'his very rich quarters there, with his fresh gardens'. The ancient street housed the church and hostel of São Bartolomeu and was the residence of some of the most qualified people in Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Sé"
+    ],
+    "locations": {
+        "Parish of Sé": [
+            "Location of the street"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historian who described the street in 1590"
+        ],
+        "D. Jeronimo Barreto": [
+            "Bishop who had rich quarters on the street"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Gaspar Frutuoso described the street as one of the most important and extensive in old Funchal"
+        ]
+    }
+}

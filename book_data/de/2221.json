@@ -1,0 +1,30 @@
+{
+    "id": 2221,
+    "lang": "de",
+    "is_original": false,
+    "title": "Masson (Francisco)",
+    "fl": "M",
+    "original_title": "Masson (Francisco)",
+    "body": "Dieser englische Botaniker kam im Mai 1776 nach Madeira und besuchte im folgenden Jahr die Azoren, wo er sich, wie wir glauben, bis Oktober 1778 aufhielt. Nachdem er in Westindien, England und Portugal gewesen war, kehrte er nach Madeira zurück, von wo er 1785 endgültig abreiste.\n\nMasson war der erste, der reguläre botanische Erkundungen im Archipel von Madeira durchführte und verschiedene eigenartige Arten dieses Teils des portugiesischen Territoriums bekannt machte. Er sandte Josef Banks wiederholt Exemplare der Flora unseres Archipels und schickte auch dem Sohn von Linné einige Pflanzen, die dieser beschrieb und veröffentlichte.\n\nIm Britischen Museum befinden sich viele der Pflanzen, die an Josef Banks geschickt wurden, und es gibt dort auch ein Manuskript mit dem Titel Massonii Flora Maderensis, das eine Kopie eines anderen zu sein scheint, das verloren ging und von Francisco Masson zusammengestellt wurde.\n\nÜber den Aufenthalt von Masson auf Madeira und die botanischen Arbeiten, die er hier durchführte, sollte der Artikel gelesen werden, der am 27. April 1915 im \"Heraldo da Madeira\" veröffentlicht wurde.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Masson": [
+            "Englischer Botaniker"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Ankunft auf Madeira"
+        ],
+        "1778": [
+            "Abreise von den Azoren"
+        ],
+        "1785": [
+            "Endgültige Abreise von Madeira"
+        ]
+    }
+}

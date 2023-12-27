@@ -1,0 +1,33 @@
+{
+    "id": 1347,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fazenda (Cónego Manuel Esteves)",
+    "fl": "F",
+    "original_title": "Fazenda (Cónego Manuel Esteves)",
+    "body": "Era natural da cidade da Covilhã e faleceu em Lisboa a 13 de Março de 1903, tendo 58 anos de idade. Em 1899 foi apresentado cónego da Sé do Funchal e nesta cidade se distinguiu como político e jornalista, tendo entre nós exercido várias comissões de serviço político.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Sé do Funchal"
+    ],
+    "locations": {
+        "Covilhã": [
+            "Cidade de Portugal."
+        ],
+        "Funchal": [
+            "Capital da Ilha da Madeira."
+        ]
+    },
+    "people": {
+        "Cónego Manuel Esteves": [
+            "Político, jornalista e cónego da Sé do Funchal."
+        ]
+    },
+    "years": {
+        "1899": [
+            "Ano em que foi apresentado cónego da Sé do Funchal."
+        ]
+    }
+}

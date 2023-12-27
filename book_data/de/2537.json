@@ -1,0 +1,27 @@
+{
+    "id": 2537,
+    "lang": "de",
+    "is_original": false,
+    "title": "Der Informierte (Der)",
+    "fl": "D",
+    "original_title": "Noticioso (O)",
+    "body": "Die erste Ausgabe erschien am 22. Oktober 1862 und die letzte am 22. Januar 1866.\n\nEs wurden 152 Ausgaben veröffentlicht. Der Hauptredakteur war Augusto César de Freitas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Augusto César de Freitas": [
+            "Hauptredakteur"
+        ]
+    },
+    "years": {
+        "1862": [
+            "Erste Ausgabe"
+        ],
+        "1866": [
+            "Letzte Ausgabe"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": 1340,
+    "lang": "en",
+    "is_original": false,
+    "title": "Farrobo (Joaquim Pedro Quintela, second count of)",
+    "fl": "F",
+    "original_title": "Farrobo (Joaquim Pedro Quintela, segundo conde do)",
+    "body": "He was born in Lisbon on May 18, 1823, and died there on July 28, 1882. He was appointed civil governor of Funchal on February 1, 1860, taking office on the 29th of the same month and year. He was in charge of the administration of this district for just over a year. Local tradition still preserves news of the brilliant and ostentatious parties that the counts of Farrobo held at the São Lourenço palace.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where Joaquim Pedro Quintela served as civil governor"
+        ]
+    },
+    "people": {
+        "Joaquim Pedro Quintela": [
+            "Second count of Farrobo"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Birth of Joaquim Pedro Quintela, second count of Farrobo"
+        ],
+        "1860": [
+            "Appointment as civil governor of Funchal"
+        ],
+        "1882": [
+            "Death of Joaquim Pedro Quintela, second count of Farrobo"
+        ]
+    }
+}

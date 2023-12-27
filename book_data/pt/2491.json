@@ -1,0 +1,33 @@
+{
+    "id": 2491,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Fátima",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Fátima",
+    "body": "No sítio do Pico do Galo, freguesia de Câmara de Lobos, fundou o padre António de Abreu Vieira, com donativos colhidos na paróquia, uma capela desta invocação, que foi benzida a 11 de Outubro de 1931.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Pico do Galo": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Câmara de Lobos": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "António de Abreu Vieira": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1931": [
+            "Ano de bênção da capela"
+        ]
+    }
+}

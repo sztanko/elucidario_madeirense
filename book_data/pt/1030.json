@@ -1,0 +1,23 @@
+{
+    "id": 1030,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cortado",
+    "fl": "C",
+    "original_title": "Cortado",
+    "body": "Sitio entre Sant’Ana e o Faial, donde se desfrutam soberbos panoramas sobre esta ultima freguesia e a Penha de Aguia. Quem sobe a ingreme ladeira que conduz ao Cortado, e transpõe o corte ou abertura que se encontra no alto dela, sente a impressão de que entra numa quinta, tão verdes e arborizadas são as margens do caminho que conduz daí a Sant’Ana.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Sant’Ana",
+        "Faial"
+    ],
+    "locations": {
+        "Sant’Ana": [
+            "Localidade situada entre Sant’Ana e o Faial."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

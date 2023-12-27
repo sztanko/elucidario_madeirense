@@ -1,0 +1,34 @@
+{
+    "id": 2750,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pereira de Sousa (Francisco Luis)",
+    "fl": "P",
+    "original_title": "Pereira de Sousa (Francisco Luis)",
+    "body": "He was born in Funchal on September 28, 1870, and is the son of the distinguished Madeiran writer Francisco Clementino de Sousa. Having enlisted in the army on November 3, 1888, he was appointed as a second lieutenant in the engineering corps on October 25, 1894, after having excelled in the former Polytechnic and Army schools. He was a professor of the 3rd section (natural sciences) of the Faculty of Sciences of the University of Lisbon and a member of the Mineralogy Society of France and other scientific associations. He dedicated himself especially to geological, mineralogical, and seismological studies, being the foremost authority in the latter in our country. His research on the effects of the 1755 earthquake is truly remarkable not only from a scientific point of view but also from a historical perspective. He authored several works, including studies on the geological effects of the 1755 earthquake, the general idea of the effects of the 1755 megasism in Portugal, and the demographic study of the districts of Faro, Beja, and Evora after the 1755 earthquake. He passed away in Lisbon on September 25, 1931.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Clementino de Sousa": [
+            "Madeiran writer"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Birth of Pereira de Sousa"
+        ],
+        "1888": [
+            "Enlistment in the army"
+        ],
+        "1894": [
+            "Appointment as second lieutenant in the engineering corps"
+        ],
+        "1755": [
+            "Effects of the earthquake"
+        ]
+    }
+}

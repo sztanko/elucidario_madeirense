@@ -1,0 +1,52 @@
+{
+    "id": 3461,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Telégrafo Submarino",
+    "fl": "T",
+    "original_title": "Telégrafo Submarino",
+    "body": "A Madeira está ligada a Portugal (Carcavelos) por dois cabos da «Western Telegraph Company» e a S. Vicente de Cabo Verde por dois cabos desta mesma companhia e um da «Eastern Telegraph Company», vindo este último cabo directamente da Grã Bretanha e prolongando-se até a Africa do Sul, tocando em S. Vicente de Cabo Verde, Ascensão e Santa Helena.\n\nA «Western Telegraph Company» veio substituir a «Brazilian Telegraph Company», que estabeleceu em 1874 o serviço telegráfico entre a Madeira e o Continente, como ficou dito a página 172 do volume I deste Elucidário, e que em 1883 ou 1884 fez lançar um segundo cabo, seguindo a mesma direcção do primeiro. Quanto ao cabo submarino da «Eastern Telegraph Company», foi estabelecido em virtude dum contrato assinado em 21 de Setembro de 190. (1921)",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ligação por cabos submarinos a Portugal e a S. Vicente de Cabo Verde"
+        ],
+        "Carcavelos": [
+            "Ligação por cabo submarino à Madeira"
+        ],
+        "S. Vicente de Cabo Verde": [
+            "Ligação por cabo submarino à Madeira"
+        ],
+        "Grã Bretanha": [
+            "Origem de um dos cabos submarinos que liga à Madeira"
+        ],
+        "Africa do Sul": [
+            "Destino final do cabo submarino que passa pela Madeira"
+        ],
+        "Ascensão": [
+            "Ponto de passagem do cabo submarino que liga à Madeira"
+        ],
+        "Santa Helena": [
+            "Ponto de passagem do cabo submarino que liga à Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1874": [
+            "Estabelecimento do serviço telegráfico entre a Madeira e o Continente pela «Brazilian Telegraph Company»"
+        ],
+        "1883": [
+            "Lançamento de um segundo cabo submarino pela «Brazilian Telegraph Company»"
+        ],
+        "1884": [
+            "Lançamento de um segundo cabo submarino pela «Brazilian Telegraph Company»"
+        ],
+        "190": [
+            "Estabelecimento do cabo submarino da «Eastern Telegraph Company»"
+        ]
+    }
+}

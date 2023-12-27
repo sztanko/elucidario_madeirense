@@ -1,0 +1,38 @@
+{
+    "id": 286,
+    "lang": "de",
+    "is_original": false,
+    "title": "Asilo dos Inválidos",
+    "fl": "A",
+    "original_title": "Asilo dos Inválidos",
+    "body": "1842 wurde in einigen Räumen des Erdgeschosses des Gebäudes der Barmherzigkeitsbruderschaft dieser Stadt eine bescheidene Wohltätigkeitseinrichtung gegründet, die damals den Namen Asilo dos Inválidos (Heim für Invalide) erhielt. Es war eine Neugründung der Heiligen Bruderschaft der Barmherzigkeit und wurde von deren Vorständen geleitet, aber das Heim war von der Stadtverwaltung von Funchal gegründet worden, die die offizielle Stelle war, die die Versorgung der Heimbewohner aufgrund eines Vertrags zwischen der Stadtverwaltung und der Verwaltung der Heiligen Bruderschaft aufrechterhielt. Wir wissen nicht, wann es aufgehört hat zu funktionieren, aber seine Existenz war von kurzer Dauer.\n\nProjekt eines Obdachlosenasyls. Der Zivile Gouverneur des Bezirks, Dr. Domingos Olavo Correia de Azevedo, ernannte durch Erlass vom 22. März 1844 eine Kommission unter dem Vorsitz von Dr. Antonio da Luz Pita mit Mauricio Castelo Branco als Sekretär, um die geeignetsten Mittel für die Einrichtung eines Obdachlosenasyls vorzuschlagen. Wir wissen nicht, welche Arbeiten diese Kommission möglicherweise vorgelegt hat, aber wir wissen, dass das Projekt des Obdachlosenheims nicht über eine glückliche und großzügige Idee hinausging und sonst nichts war.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ]
+    },
+    "people": {
+        "Domingos Olavo Correia de Azevedo": [
+            "Zivilgouverneur des Bezirks"
+        ],
+        "Antonio da Luz Pita": [
+            "Vorsitzender der Kommission zur Schaffung eines Obdachlosenheims"
+        ],
+        "Mauricio Castelo Branco": [
+            "Sekretär der Kommission zur Schaffung eines Obdachlosenheims"
+        ]
+    },
+    "years": {
+        "1842": [
+            "Gründung des Asilo dos Inválidos (Heim für Invalide)"
+        ],
+        "1844": [
+            "Ernennung der Kommission zur Vorlage geeigneter Mittel für die Einrichtung eines Obdachlosenheims"
+        ]
+    }
+}

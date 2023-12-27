@@ -1,0 +1,30 @@
+{
+    "id": 2980,
+    "lang": "de",
+    "is_original": false,
+    "title": "Landhaus Monte",
+    "fl": "L",
+    "original_title": "Quinta do Monte",
+    "body": "Auf dem Grundstück Pico in der Gemeinde Nossa Senhora do Monte befindet sich das gleichnamige Landhaus, auch bekannt als Landhaus Cossart, eine der prächtigsten Residenzen Madeiras, über die wir bereits auf Seite 461 des zweiten Bandes dieses Lexikons eine kurze Notiz gemacht haben.\n\nEs wurde sehr bekannt und wird seit der Zeit viel besucht, als der Kaiser Karl von Österreich dort einige Monate verbrachte und am 1. April 1922 dort sein Leben beendete. Im Haus seiner damaligen Residenz ließ der jetzige Eigentümer Luiz da Rocha Machado vor einigen Jahren eine schöne Kapelle zu Ehren des Heiligsten Herzens Jesu errichten, die dem Andenken des unglücklichen Kaisers gewidmet ist. Er war mit seiner Frau, Kaiserin Zita, an Bord des englischen Kreuzers Cardiff am 10. November 1921 auf Madeira angekommen und hatte im „Vila Vitoria“, einer Dependance der Hotels Reid, Quartier bezogen. Mit der Ankunft der kindlichen Prinzen, der Söhne des Kaiserpaares, in Funchal am 2. Februar 1922 zog die ganze kaiserliche Familie am 18. desselben Monats in das Landhaus Monte um, wo der unglückliche Kaiser, wie gesagt, am 1. April jenes Jahres starb. Am 5. wurde er in einer Seitenkapelle der Pfarrkirche von Monte beigesetzt, wo seine sterblichen Überreste noch ruhen, wobei sein Tod und sein Begräbnis in der ganzen Bevölkerung Funchals die tiefsten Gefühle der Trauer hervorriefen, die den Charakter einer regelrechten Staatstrauer annahmen. Kaiserin Zita verließ Madeira in Begleitung ihrer Kinder am 19. Mai 1922.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Nossa Senhora do Monte"
+    ],
+    "locations": {
+        "Pico": [
+            "Ort in der Gemeinde Nossa Senhora do Monte."
+        ]
+    },
+    "people": {
+        "Carlos de Áustria": [
+            "Kaiser, der im Landhaus Monte lebte und 1922 starb."
+        ]
+    },
+    "years": {
+        "1921": [
+            "Ankunft von Kaiser Karl von Österreich und seiner Frau auf Madeira"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 3362,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Soares",
+    "fl": "S",
+    "original_title": "Soares",
+    "body": "> Este apelido de familia procede de Diogo Soares, que foi donatario do Porto Santo, e de Manuel Soares que fundou na igreja de S. Pedro, em 1596, a capela da Senhora da Boa Morte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "S. Pedro"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Local relacionado com o apelido de família Soares"
+        ],
+        "S. Pedro": [
+            "Localização da capela da Senhora da Boa Morte"
+        ]
+    },
+    "people": {
+        "Diogo Soares": [
+            "Donatário do Porto Santo"
+        ],
+        "Manuel Soares": [
+            "Fundador da capela da Senhora da Boa Morte"
+        ]
+    },
+    "years": {
+        "1596": [
+            "Fundação da capela da Senhora da Boa Morte por Manuel Soares"
+        ]
+    }
+}

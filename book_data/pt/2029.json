@@ -1,0 +1,33 @@
+{
+    "id": 2029,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo da Igreja",
+    "fl": "L",
+    "original_title": "Lombo da Igreja",
+    "body": "Sítio povoado da freguesia do Estreito da Calheta. Costuma geralmente ser dividido em dois sítios: Igreja Acima e Igreja Abaixo, conforme a sua situação relativa á Igreja Paroquial. Fica neste sítio a capela de Nossa Senhora da Conceição, fundada por André de França e Andrade, pelos anos de 1672, que foi sede dum dos maiores morgadios da Madeira e que teve como último administrador o 1.° conde da Calçada (1812-1906).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Freguesia do Estreito da Calheta"
+        ]
+    },
+    "people": {
+        "André de França e Andrade": [
+            "Fundador da capela de Nossa Senhora da Conceição"
+        ]
+    },
+    "years": {
+        "1672": [
+            "Fundação da capela de Nossa Senhora da Conceição"
+        ],
+        "1812": [
+            "Administração do 1.° conde da Calçada"
+        ]
+    }
+}

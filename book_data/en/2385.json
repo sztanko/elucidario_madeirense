@@ -1,0 +1,47 @@
+{
+    "id": 2385,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mosteiro Novo",
+    "fl": "M",
+    "original_title": "Mosteiro Novo",
+    "body": "It is the building of the current Diocesan Seminary. (1921). The annotator of the 'Saudades' says that it was an attempt by Father Manuel Afonso Rocha and begun in 1654, intended for nuns, but it was never completed. In an old manuscript, we found some more detailed references to this projected monastery, which we will reproduce. On December 17, 1638, Canon Manuel Afonso Rocha, being bedridden due to a serious illness, called a notary to his presence and also requested the presence of the diocesan prelate D. Jerónimo Fernando, declaring that he had started a monastery, consisting of houses, workshops, a church, and a choir, under the invocation of St. Joseph, intended for religious men or women, with the condition of celebrating some masses and offices, but as it had not yet been completed, he entrusted its government and administration to the protection of the same prelate and his successors, asking them only to apply it to the said purpose or to a retreat for ladies or women of quality, and if that was not possible, to give the monastery with its church and houses to virtuous mendicant religious or others who could serve God better there. The request and conditions formulated by Canon Rocha were accepted, but as the income was scarce, the building was never used for the purpose intended by its founder. We also believe that the planned works were never completed, as it seems to us that there was never a church and choir there, but only a small chapel inside the house. In 1647, the diocesan prelate authorized the founder's nephews, Canon António Espranger Rocha, his brother Father Inacio Espranger, and some sisters of theirs to live in the building, and after their death, the house was occupied by their nephew, Canon António Espranger, who died in 1691. Some years later, around 1697, the Diocesan Seminary was installed there, which until then operated near the Episcopal Palace. The earthquake of 1748 greatly damaged the house of the Mosteiro Novo, which had to be abandoned, returning to serve as a Seminary, after being properly repaired, around 1760. In 1788, the Diocesan Seminary was transferred to the Jesuit college, and from there it returned to the Mosteiro Novo in 1801, when Madeira was occupied by English troops. It remained there until 1909, when it was installed in the spacious building erected in the vicinity of the convent of the Incarnation. The Seminary of this diocese was suppressed by the decree of April 20, 1911, but it continued to operate, unofficially, from that year, in the old house on the street of the Mosteiro Novo. (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1654": [
+            "Commencement of the Mosteiro Novo"
+        ],
+        "1638": [
+            "Beginning of the Mosteiro Novo"
+        ],
+        "1647": [
+            "Authorization for habitation in the building"
+        ],
+        "1697": [
+            "Installation of the Diocesan Seminary"
+        ],
+        "1748": [
+            "Earthquake damaged the house of the Mosteiro Novo"
+        ],
+        "1760": [
+            "Repair of the house of the Mosteiro Novo"
+        ],
+        "1788": [
+            "Transfer of the Diocesan Seminary"
+        ],
+        "1801": [
+            "Return of the Diocesan Seminary"
+        ],
+        "1909": [
+            "Installation near the convent of the Incarnation"
+        ],
+        "1911": [
+            "Suppression of the Diocesan Seminary"
+        ]
+    }
+}

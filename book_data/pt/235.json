@@ -1,0 +1,35 @@
+{
+    "id": 235,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aragão (Dr. João José de Freitas)",
+    "fl": "A",
+    "original_title": "Aragão (Dr. João José de Freitas)",
+    "body": "Nasceu no Funchal a 5 de Fevereiro de 1777 e cremos que pertencia á antiga e distinta família Aragão desta ilha. Pouco sabemos da sua biografia. Em 1821 exercia em Lisboa com proficiência a advocacia quando foi eleito deputado substituto pela Madeira, para as Cortes Constituintes que funcionaram de 1821 a 1822. Tendo falecido o deputado efectivo Dr. Antonio João Rodrigues Garcez, antes da verificação dos seus poderes, foi Freitas Aragão chamado a preencher a vacatura. Discursou algumas vezes em cortes, tanto em assuntos de caracter geral como em alguns respeitantes á Madeira. Na Galeria dos Deputados das Cortes Constituintes. . . de 1821 se diz que João José de Freitas Aragão #fallou pouco, votou bem, ha mostrado constantemente as melhores intenções e tem dado bastantes demonstrações de querer desempenhar os deveres que lhe foram incumbidos”. Faleceu em Lisboa a 20 de Setembro de 1842. Vem um necrologio de Freitas Aragão no n.° 197 da Gazeta dos Tribunaes.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento de João José de Freitas Aragão."
+        ],
+        "Lisboa": [
+            "Local de falecimento de João José de Freitas Aragão."
+        ]
+    },
+    "people": {
+        "Dr. Antonio João Rodrigues Garcez": [
+            "Deputado efetivo falecido antes da verificação dos seus poderes."
+        ]
+    },
+    "years": {
+        "1777": [
+            "Nascimento de João José de Freitas Aragão."
+        ],
+        "1821": [
+            "Eleição de João José de Freitas Aragão como deputado substituto pela Madeira."
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 1061,
+    "lang": "de",
+    "is_original": false,
+    "title": "Couto",
+    "fl": "C",
+    "original_title": "Couto",
+    "body": "Dieser Familienname stammt wahrscheinlich von Joane Anes de Couto Cardoso ab, der Ländereien in Paul und Jardim do Mar besaß und in letzterem Ort die Kapelle Santo Amaro gründete.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Paul",
+        "Jardim do Mar"
+    ],
+    "locations": {
+        "Paul": [
+            "Ort, an dem Joane Anes de Couto Cardoso Ländereien besaß"
+        ],
+        "Jardim do Mar": [
+            "Ort, an dem Joane Anes de Couto Cardoso Ländereien besaß und die Kapelle Santo Amaro gründete"
+        ]
+    },
+    "people": {
+        "Joane Anes de Couto Cardoso": [
+            "Person, die Ländereien besaß und die Kapelle Santo Amaro gründete"
+        ]
+    },
+    "years": {}
+}

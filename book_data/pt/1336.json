@@ -1,0 +1,38 @@
+{
+    "id": 1336,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Farol de São Lourenço",
+    "fl": "F",
+    "original_title": "Farol de São Lourenço",
+    "body": "Como se sabe tinha o nome de S. Lourenço o navio que João Gonçalves Zarco comandava por ocasião do descobrimento da Madeira, e ao demandar pela primeira vez aquela língua de terra, deu-lhe o mesmo nome da caravela que o conduzia. A extremidade desta ponta, ou antes um pequeno rochedo isolado que lhe fica fronteiro, foi sempre julgado o local mais apropriado para a montagem dum farol, pois que a sua acção iluminativa se estenderia por uma parte considerável do norte e sul da ilha, e ainda pela travessa que separa a Madeira do Porto Santo. Esse rochedo é um ilhéu adjacente á ponta, da qual está separado por um estreito boqueirão, apenas navegável para embarcações de pequena lotação.\n\nEm 1867 procedeu-se á organização do definitivo projecto e orçamento das obras deste farol, tendo os trabalhos da construção da respectiva casa e dependências anexas, começado em 1868 e terminado em princípios do ano de 1870.\n\nO farol é dioptrico ou lenticular, de segunda ordem, emitindo uma luz branca com clarões intermitentes de 30 em 30 segundos e avista-se a 25 milhas de distancia. Foi construído pela casa francesa Saulter e veio proceder ao seu assentamento o engenheiro Charles Trepardoux. O seu custo, incluindo o transporte e a montagem, foi de 8.370$00.\n\nA lanterna está colocada a 140 metros acima do nível do mar e fica a 32.° e 41, de latitude norte e 16.° e 39, de longitude oeste pelo observatório de Greenwich.\n\nComeçou a funcionar, iluminando pela primeira vez aquelas paragens, a 30 de Setembro de 1870.\n\nEstava satisfeita uma grande necessidade publica. As reclamações da navegação eram constantes e até pedidos de indemnização se tinham feito pelos prejuízos causados a muitas embarcações. Alguns navios naufragaram naquelas imediações, devendo especializar-se o encalhe do Forerunner, em Outubro de 1854.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Lourenço": [
+            "Local do descobrimento da Madeira por João Gonçalves Zarco"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Comandante do navio S. Lourenço por ocasião do descobrimento da Madeira"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Início das obras de construção do Farol de São Lourenço"
+        ],
+        "1868": [
+            "Continuação das obras de construção do Farol de São Lourenço"
+        ],
+        "1870": [
+            "Conclusão das obras de construção do Farol de São Lourenço"
+        ],
+        "1854": [
+            "Encalhe do navio Forerunner"
+        ]
+    }
+}

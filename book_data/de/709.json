@@ -1,0 +1,50 @@
+{
+    "id": 709,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kamelie (Camellia japonica)",
+    "fl": "K",
+    "original_title": "Camelia (Camellia japonica)",
+    "body": "Ein Strauch oder kleiner Baum aus der Familie der Ternströmiaceen, sehr häufig auf Madeira. Er stammt aus Japan und ist eine der schönsten Zierden der Landhäuser in Monte und Camacha. Er ist auch unter dem Namen Japanische Rose bekannt.\n\nAmerikanische Eisenbahn. Es gab eine zwischen dem ehemaligen Platz Praça da Constituição und Pombal, die aufgrund der Lizenz eingerichtet wurde, die der Stadtrat von Funchal José Ribeiro de Almeida und João Aluísio Virissimo für den Betrieb dieses Transportmittels in der Stadt erteilt hatte. Die Schienen, deren Verlegung 1896 begonnen hatte, wurden 1915 entfernt, nachdem der Betrieb der Wagen schon vorher, infolge der Verluste der Gesellschaft der Bergbahn von Monte, der der Stadtrat in der Sitzung vom 7. April 1902 die Konzession für die Strecke erteilt hatte, eingestellt worden war.\n\nDas Material der ursprünglichen Gesellschaft der Amerikanischen Eisenbahn wurde am 20. August 1900 von Manuel Betencourt Sardinha ersteigert und später der Gesellschaft der Bergbahn von Monte überlassen, der der Stadtrat den jährlichen Zuschuss von 300:00 Réis gewährte, der bis zum 31. März 1909 gezahlt wurde.\n\nDas Dekret vom 2. August 1902 genehmigte den Beschluss des Stadtrates von Funchal über die Bedingungen für die Ausschreibung der Konzession für den Bau und Betrieb der amerikanischen Eisenbahnen. Laut Art. 6 der Zuschlagsbedingungen, die das Dekret begleiten, stand es dem Konzessionsnehmer frei, das anzuwendende Zugsystem zu wählen, wobei er sich nach Belieben für Zugtiere, elektrischen Antrieb oder Druckluft entscheiden konnte.",
+    "categories": [
+        "biology",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Landhäuser"
+        ],
+        "Camacha": [
+            "Landhäuser"
+        ],
+        "Praça da Constituição": [
+            "Ehemaliger Platz"
+        ]
+    },
+    "people": {
+        "José Ribeiro de Almeida": [
+            "Betreiber der Amerikanischen Eisenbahn"
+        ],
+        "João Aluísio Virissimo": [
+            "Betreiber der Amerikanischen Eisenbahn"
+        ],
+        "Manuel Betencourt Sardinha": [
+            "Ersteigerer des Materials der ursprünglichen Gesellschaft der Amerikanischen Eisenbahn"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Beginn der Schienenverlegung"
+        ],
+        "1900": [
+            "Versteigerung des Materials der ursprünglichen Gesellschaft der Amerikanischen Eisenbahn"
+        ],
+        "1902": [
+            "Genehmigung des Beschlusses des Stadtrates von Funchal über die Bedingungen für die Ausschreibung der Konzession für den Bau und Betrieb der amerikanischen Eisenbahnen"
+        ],
+        "1909": [
+            "Zahlung des jährlichen Zuschusses von 300:00 Réis"
+        ]
+    }
+}

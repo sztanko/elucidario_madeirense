@@ -1,0 +1,27 @@
+{
+    "id": 1010,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cordeiro (Padre Antonio)",
+    "fl": "C",
+    "original_title": "Cordeiro (Padre Antonio)",
+    "body": "He was born in the city of Angra in the year 1641 and died in Lisbon on February 2, 1722. He joined the Society of Jesus and held very important positions in his order. He wrote and published several books in Latin and Portuguese, which are listed in the Bibliotheca lusitana. He is the author of the well-known work Historia Insulana, which is of great interest to the history of our archipelago and which we will address in a separate article.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Padre Antonio Cordeiro": [
+            "Author of the work Historia Insulana"
+        ]
+    },
+    "years": {
+        "1641": [
+            "Birth of Padre Antonio Cordeiro"
+        ],
+        "1722": [
+            "Death of Padre Antonio Cordeiro"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 3218,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Cristóvão (Chapels)",
+    "fl": "S",
+    "original_title": "São Cristóvão (Capelas)",
+    "body": "The chapel, located in the parish of Machico, in the place that took its name, was built by testamentary disposition of Cristóvão Moniz de Meneses, made in 1690, determining its construction. The date 1692 is engraved on the porch. In the parish of Ponta Delgada, on land that now belongs to the parish of Boaventura, stood the chapel of São Cristóvão, of ancient construction, as it appears from the parish archive of the former that it was already in poor condition in 1578, when it was administered by D. Maria de Leme. It underwent several repairs and was demolished in 1748. It gave its name to the place where it was built.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Ponta Delgada",
+        "Boaventura"
+    ],
+    "locations": {
+        "Machico": [
+            "Location where the chapel of São Cristóvão is situated"
+        ]
+    },
+    "people": {
+        "Cristóvão Moniz de Meneses": [
+            "Determined the construction of the chapel of São Cristóvão in 1690"
+        ]
+    },
+    "years": {
+        "1690": [
+            "Determination of the construction of the chapel of São Cristóvão"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 3632,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vila Mendo (Visconde de)",
+    "fl": "V",
+    "original_title": "Vila Mendo (Visconde de)",
+    "body": "Por decreto de 12 de Abril de 1881, foi o Visconde de Vila Mendo nomeado governador civil do Funchal, tendo tomado posse do lugar a 23 de Maio do mesmo ano. Serviu poucos meses. Foi segunda vez governador civil deste distrito, sendo nomeado por decreto de 10 de Novembro de 1882 e tomando posse do governo a 16 do mês e ano referidos. Como par electivo, representou a Madeira em cortes nas sessões legislativas de 1884 a 1887 e de 1890 a 1892. António de Gouveia Osório foi agraciado com o título de visconde de Vila Mendo, freguesia do distrito de Viseu onde tinha solar e morgadio herdados de seus maiores, tendo ali nascido no ano de 1826. Era bacharel em direito e vogal do Tribunal de Contas.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Viseu"
+    ],
+    "locations": {
+        "Funchal": [
+            "Distrito do Funchal"
+        ],
+        "Viseu": [
+            "Freguesia do distrito de Viseu"
+        ]
+    },
+    "people": {
+        "António de Gouveia Osório": [
+            "Agraciado com o título de visconde de Vila Mendo, nascido no ano de 1826, bacharel em direito e vogal do Tribunal de Contas"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Nomeação como governador civil do Funchal"
+        ],
+        "1882": [
+            "Segunda nomeação como governador civil deste distrito"
+        ],
+        "1884-1887": [
+            "Representação da Madeira em cortes"
+        ],
+        "1890-1892": [
+            "Representação da Madeira em cortes"
+        ]
+    }
+}

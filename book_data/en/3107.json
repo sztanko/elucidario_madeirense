@@ -1,0 +1,31 @@
+{
+    "id": 3107,
+    "lang": "en",
+    "is_original": false,
+    "title": "Roda dos Expostos",
+    "fl": "R",
+    "original_title": "Roda dos Expostos",
+    "body": "On January 14, 1820, the Municipal Council of Funchal decided to have a foundling wheel made in the house of the general wet nurse, as there was none in this city, and three years later, another one was made in Câmara de Lobos, in a house adjacent to the chapel of the Holy Spirit. The number of foundlings under the care of the Council was so high in the early 19th century that, on May 20, 1812, it was decided that the judge-alderman should have 'a summary of police' to list all the public women who were pregnant, in order to report their children and raise them.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Location of the second foundling wheel"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1820": [
+            "Creation of the foundling wheel in Funchal"
+        ],
+        "1812": [
+            "Resolution regarding pregnant women"
+        ]
+    }
+}

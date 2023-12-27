@@ -1,0 +1,34 @@
+{
+    "id": 125,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alecrins",
+    "fl": "A",
+    "original_title": "Alecrins",
+    "body": "Site of the parish of Santo Antonio do Funchal, where the chapel of Nossa Senhora da Quietação, built in 1670 by Lourenço de Matos Coutinho, once stood, who made it the seat of the Alecrins entail established in 1577, and today Dr. Rui Betencourt da Câmara is the representative of this entailed house.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Santo Antonio do Funchal": [
+            "Site of Alecrins"
+        ]
+    },
+    "people": {
+        "Lourenço de Matos Coutinho": [
+            "Founder of the chapel of Nossa Senhora da Quietação"
+        ]
+    },
+    "years": {
+        "1670": [
+            "Construction of the chapel of Nossa Senhora da Quietação"
+        ],
+        "1577": [
+            "Establishment of the Alecrins entail"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 2015,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lobo (Dom João)",
+    "fl": "L",
+    "original_title": "Lobo (D. João)",
+    "body": "Er war der erste Bischof, der auf diese Insel kam. Seit über 80 Jahren hatte die Kolonisierung des Archipels begonnen, und noch kein Prälat hatte die bischöflichen Funktionen ausgeübt. Der Vikar von Tomar oder besser der Großmeister des Christusordens, dem Madeira in geistlichen Dingen unterstand, sandte 1508 den Bischof Dom João Lobo, der alle Kirchen und Kapellen dieser Insel besuchte. Das Bistum Funchal wurde 1514 gegründet, so dass sich Dom João Lobos religiöse Mission auf die Ausübung der bischöflichen Funktionen beschränkte, d.h. Firmung, Weihe der Geistlichen, Segnung der liturgischen Gewänder und Gefäße, Weihe der Tempel usw., ohne sich in die Verwaltung kirchlicher Angelegenheiten, die Einhaltung der kanonischen Disziplin und die Unterdrückung begangener Missbräuche einzumischen, was allein dem Diözesanbischof zustand, der noch nicht existierte. Diese Aufgabe fiel damals Nuno Cão (siehe I-243) zu, ebenfalls Mitglied des Christusordens. Der erste geweihte (und nur wenige sind geweiht, sondern meistens nur gesegnet) Tempel auf dieser Insel war die Kapelle von Lombada do Esmeraldo in der Gemeinde Ponta do Sol. Noch heute liest man an einer der Innenwände des Gebäudes die Inschrift: Diese Kirche wurde von Dom João Lobo, Bischof von Taiere, am 27. August 1508 geweiht. Dieser Prälat kehrte nach Portugal zurück, nachdem er etwas mehr als ein Jahr auf dieser Insel verbracht hatte. Nach seinem Besuch erkannte man die Notwendigkeit der Schaffung eines Bistums auf diesem Archipel, das dann 1514 errichtet wurde, wie oben erwähnt. In dem ausgezeichneten Buch von Vieira Guimarães Die Christusorden, veröffentlicht 1901, lesen wir: Bereits 1508 sandte der Vikar von Tomar, um den Wünschen dieser Beschwerdeführer (die Gründung des Bistums Funchal) nachzukommen, den Titularbischof Dom João Lobo, der auf der Insel vom Großmeister Bruder Nuno Cão mit der gesamten Geistlichkeit empfangen und festlich begrüßt wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Gemeinde, in der sich die Kapelle von Lombada do Esmeraldo befindet"
+        ]
+    },
+    "people": {
+        "D. João Lobo": [
+            "Erster Bischof Madeiras"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Jahr des Besuchs von Bischof D. João Lobo auf Madeira"
+        ],
+        "1514": [
+            "Jahr der Gründung des Bistums Funchal"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 3240,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Lourenço (Capelas de)",
+    "fl": "S",
+    "original_title": "São Lourenço (Capelas de)",
+    "body": "Na fortaleza de São Lourenço havia uma capela dedicada ao mártir São Lourenço. É bastante antiga e já existia em 1566 ano em que os corsários franceses saquearam a cidade. Tinha capelão privativo, sendo de 15 de Novembro de 1641 o alvará mais antigo que encontramos da nomeação do mesmo capelão. Vimos algures que o conselheiro José Silvestre Ribeiro mandou a 3 de Outubro de 1846 proceder ao inventário dos objectos de prata pertencentes a esta capela que pesaram 36 libras, mandando-os depositar no Cofre Central. A 3 de Dezembro de 1856 procedeu-se a novo inventario, juntando-se-lhe novas peças, o que tudo pesou 65 libras de prata. Os paramentos da capela foram em 1856 oferecidos a igreja das Achadas da Cruz (V. Palácio de S. Lourenço).\n\nA capela de São Lourenço que fica no sítio do mesmo nome na Freguesia da Fajã da Ovelha é bastante antiga, pois que já nos primeiros anos do século XVI era sede duma capelania, que depois se transformou em paróquia. Serviu de igreja paroquial até meados do século XVIII, em que se construiu o novo templo. Consta de antiga tradição que esta capela pertencia aos Afonsos Jardins, que foram ali dos mais antigos colonizadores e proprietários da lombada em que a mesma capela se encontra.\n\nNa freguesia da Camacha havia uma capela dedicada a São Lourenço, que se afirma ter sido construída por Francisco Gonçalves Salgado. Era de construção bastante antiga e nela se estabeleceu a sede da nova freguesia em 1676, transformando-se em igreja paroquial, sendo ainda o seu orago o da primitiva capela.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Camacha"
+    ],
+    "locations": {
+        "Fajã da Ovelha": [
+            "Freguesia da Fajã da Ovelha"
+        ],
+        "Camacha": [
+            "Freguesia da Camacha"
+        ]
+    },
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Conselheiro"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Corsários franceses saquearam a cidade"
+        ],
+        "1641": [
+            "Alvará mais antigo da nomeação do mesmo capelão"
+        ],
+        "1846": [
+            "Conselheiro José Silvestre Ribeiro mandou proceder ao inventário dos objectos de prata pertencentes a esta capela"
+        ],
+        "1856": [
+            "Procedeu-se a novo inventario, juntando-se-lhe novas peças"
+        ]
+    }
+}

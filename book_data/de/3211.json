@@ -1,0 +1,30 @@
+{
+    "id": 3211,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santos Cosme e Damião (Kapelle)",
+    "fl": "S",
+    "original_title": "Santos Cosme e Damião (Capela dos)",
+    "body": "Unter dieser Anrufung gab es eine Kapelle im Ort Salão in der Gemeinde Calheta, die aber schon lange verschwunden ist. Sie wurde 1681 vom Chirurgen Antonio de França Gomes gegründet.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Salão": [
+            "Ort, an dem die Kapelle Santos Cosme e Damião stand."
+        ]
+    },
+    "people": {
+        "Antonio de França Gomes": [
+            "Chirurg und Gründer der Kapelle."
+        ]
+    },
+    "years": {
+        "1681": [
+            "Jahr der Gründung der Kapelle."
+        ]
+    }
+}

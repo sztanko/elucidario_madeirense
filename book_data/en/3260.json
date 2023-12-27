@@ -1,0 +1,38 @@
+{
+    "id": 3260,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Tiago (St. James) Fortress",
+    "fl": "S",
+    "original_title": "São Tiago (Fortaleza de)",
+    "body": "“This fortress,” says Dr. Álvaro Rodrigues de Azevedo in the notes to 'Saudades da Terra', “sits on a point of solid rock, further into the waters of the port than the adjacent beaches; thus, it watches over and protects them on either side; it is also the end of the curtain wall that extends to it by Cabo do Calhau. The original construction did not have the first battery that exists there: the original gateway is inside this, and has at the top, in the letter of the time, the era of 1614, to testify to the time of the work”. The São Tiago fortress was rebuilt in 1767, as seen from an inscription above the main gate, in the east-south corner of the entrance square, with the governor and captain-general José Correia de Sá having brought 50 pieces of artillery with all their belongings from London for its defense. Mountain Artillery Battery No. 3 is quartered at São Tiago Fortress. See Fortifications.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Tiago": [
+            "São Tiago Fortress"
+        ],
+        "Cabo do Calhau": [
+            "Location of the curtain wall"
+        ]
+    },
+    "people": {
+        "Dr. Álvaro Rodrigues de Azevedo": [
+            "Author of the notes to 'Saudades da Terra'"
+        ],
+        "José Correia de Sá": [
+            "Governor and captain-general"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Era of the original construction"
+        ],
+        "1767": [
+            "Year of the rebuilding"
+        ]
+    }
+}

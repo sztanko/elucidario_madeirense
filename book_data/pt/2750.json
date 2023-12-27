@@ -1,0 +1,34 @@
+{
+    "id": 2750,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pereira de Sousa (Francisco Luis)",
+    "fl": "P",
+    "original_title": "Pereira de Sousa (Francisco Luis)",
+    "body": "Nasceu no Funchal a 28 de Setembro de 1870 e é filho do distinto escritor madeirense Francisco Clementino de Sousa. Tendo-se alistado no exército a 3 de Novembro de 1888, foi despachado alferes de engenharia a 25 de Outubro de 1894, depois de haver cursado com muita distinção as antigas escolas Politecnica e do Exercito. Foi professor da 3.ª secção (ciencias naturais) da Faculdade de Ciencias da Universidade de Lisboa e membro da Sociedade de Mineralogia de França e doutras agremiações cientificas. Consagrou-se especialmente a estudos geologicos, mineralogicos e sismologicos, sendo nestes ultimos a maior autoridade do nosso país. As suas investigações sôbre os efeitos do terremoto de 1755 são verdadeiramente notaveis não só sob o ponto de vista cientifico, mas também sob o ponto de vista historico. E.: \n> Subsidios para o estudo dos calcareos do distrito de Lisboa\n> Elementos de geographia physica da Europa\n> Estudo Geologico do polygono de Tancos\n> Idêa geral dos calcareos empregados nas construçôes de Lisboa\n> Os calcareos do distrito de Leiria (1905); Os calcareos mais empregados em Portugal (1908)\n> Effeitos do terremoto de 1755 nas construções de Lisboa\n> Alguns trechos do relatorio do engenheiro Rego Lima sobre a sua missão ás minas de Cassinga em 1898\n> Le Raz de marée du grand tremblement de terre em 1755, en Portugal\n> Ideia geral dos effeitos do megasismo de 1755 em Portugal (1914)\n> Megasismo do 1.° de Novembro de 1755 em Portugal–distrito de Faro\n> O Terremoto do 1.° de Novembro de 1755 em Portugal e um estudo demografico–dos distritos de Faro, Beja e Evora (1919).\nFaleceu em Lisboa a 25 de Setembro de 1931.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Clementino de Sousa": [
+            "Escritor madeirense"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Nascimento de Pereira de Sousa"
+        ],
+        "1888": [
+            "Alistamento no exército"
+        ],
+        "1894": [
+            "Despachado alferes de engenharia"
+        ],
+        "1755": [
+            "Efeitos do terremoto"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 127,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alegria",
+    "fl": "A",
+    "original_title": "Alegria",
+    "body": "In this place in the parish of São Roque do Funchal, the chapel of Our Lady of Alegria, founded in 1609 by Francisco de Abreu, is located. It was later incorporated into the Torre Bela estate, to which it still belongs today.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Location of the Alegria site"
+        ]
+    },
+    "people": {
+        "Francisco de Abreu": [
+            "Founder of the chapel of Our Lady of Alegria"
+        ]
+    },
+    "years": {
+        "1609": [
+            "Foundation of the chapel of Our Lady of Alegria"
+        ]
+    }
+}

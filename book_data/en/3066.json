@@ -1,0 +1,23 @@
+{
+    "id": 3066,
+    "lang": "en",
+    "is_original": false,
+    "title": "Literary Magazine",
+    "fl": "L",
+    "original_title": "Revista literária",
+    "body": "The first issue of this magazine was published on November 23, 1902, and the tenth, which was the last, on February 15, 1903.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1902": [
+            "Publication of the first issue of the literary magazine"
+        ],
+        "1903": [
+            "Publication of the last issue of the literary magazine"
+        ]
+    }
+}

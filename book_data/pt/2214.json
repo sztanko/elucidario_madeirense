@@ -1,0 +1,26 @@
+{
+    "id": 2214,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Martius (C. Fred. Phil. de)",
+    "fl": "M",
+    "original_title": "Martius (C. Fred. Phil. de)",
+    "body": "Botânico alemão nascido em Erlangen, em 1794, e falecido em Munich, em 1868. Tendo feito parte da expedição scientifica organizada em 1817, pelos governos austriaco e bávaro para explorar o Brasil, visitou a Madeira nos fins do primeiro quartel do século XIX, mencionando nos seus trabalhos diversas especies botanicas encontradas tanto no Funchal, como em Nossa Senhora do Monte.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Nossa Senhora do Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local onde encontrou diversas espécies botânicas"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1817": [
+            "Participação na expedição científica para explorar o Brasil"
+        ]
+    }
+}

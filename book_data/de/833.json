@@ -1,0 +1,29 @@
+{
+    "id": 833,
+    "lang": "de",
+    "is_original": false,
+    "title": "Castro (Padre Francisco de)",
+    "fl": "C",
+    "original_title": "Castro (Padre Francisco de)",
+    "body": "Er war ein berühmter Prediger seiner Zeit und bekleidete verschiedene wichtige Ämter. Barbosa Machado sagt über ihn in der Biblioteca Lusitana: \"Francisco de Castro, gebürtig aus Funchal, der Hauptstadt der Insel Madeira, ein Priester mit einem tadellosen Leben, Magister der Künste, Doktor der Theologie der Universität von Evora, wo er Kollegiat des Kollegs Purificação war. Er war Vikar der Stiftskirche S. Pedro in Funchal, von wo aus er nach Cabo Verde ging, um Heilung für seine Lepra zu finden, und im Jahr 1665 starb. Von den vielen Predigten, die er hielt, wurden nur veröffentlicht Sermão da Conceição de Nossa Senhora, Rochella, 1656 und Sermão da Visitação da Mãe de Deus, Rochella, 1655. Inocencio sagt in seinem bibliographischen Wörterbuch, dass diese Predigten sehr selten sind, da er kein Exemplar davon finden konnte. Er war auch Pfarrer der Gemeinde Santo Antonio in Funchal.\"",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Barbosa Machado": [
+            "Autor der Biblioteca Lusitana"
+        ],
+        "Inocencio": [
+            "Autor des bibliographischen Wörterbuchs"
+        ]
+    },
+    "years": {
+        "1665": [
+            "Todesjahr"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 44,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Acre",
+    "fl": "A",
+    "original_title": "Acre",
+    "body": "Pelos anos de 1640, vivia no Porto Santo Guilherme Acre, donde procede este apelido de família, que julgamos extinto.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Local de residência"
+        ]
+    },
+    "people": {
+        "Guilherme Acre": [
+            "Vivia no Porto Santo"
+        ]
+    },
+    "years": {
+        "1640": [
+            "Época em que vivia no Porto Santo"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2498,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Loreto (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Loreto (Capela de)",
+    "body": "Regarding this chapel, the following passage is found in an old book from the parish archives of the Arco da Calheta: \"this chapel is magnificent in its architecture and construction, it was built at the beginning of this parish... its first founder was a distinguished man from the notable family of the Câmaras, as shown by the coat of arms above the main door... in this chapel is the head of a morgado that was administered for many years by the priors of Esperança de Lisboa... and all the estates that the Ribeiro do Ledo divides to the east...\" Henrique Henriques de Noronha provides further explanations: \"Pedro Gonsalves da Câmara, 3rd son of the second grantee João Gonsalves da Câmara, married D. Joana de Eça, who was a lady of Queen D. Catharina, wife of D. João 3rd... he rebuilt the monastery of Esperança in Portugal and made the chapel of Nossa Senhora do Loreto in Arco da Calheta, where he had noble houses, of which today only ruins are seen: his portrait is seen in that chapel.\" D. Joana de Sá left this chapel and the lands attached to it to the nuns of the convent of Esperança, in Lisbon, who in turn sold them to Francisco Luís de Vasconcelos Bettencourt, who established a morgadio there.\n\nSomewhere it is read that it was built in the year 1510.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Parish of Arco da Calheta"
+        ]
+    },
+    "people": {
+        "Pedro Gonsalves da Câmara": [
+            "Founder of the chapel"
+        ],
+        "D. Joana de Eça": [
+            "Lady of Queen D. Catharina, wife of D. João 3rd"
+        ],
+        "Francisco Luís de Vasconcelos Bettencourt": [
+            "Established a morgadio in the chapel"
+        ]
+    },
+    "years": {
+        "1510": [
+            "Construction of the chapel"
+        ]
+    }
+}

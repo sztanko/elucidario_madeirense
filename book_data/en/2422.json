@@ -1,0 +1,42 @@
+{
+    "id": 2422,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nascimento (João Cabral do)",
+    "fl": "N",
+    "original_title": "Nascimento (João Cabral do)",
+    "body": "He was born in Funchal on March 22, 1897, the son of João Crawford do Nascimento and D. Palmira Cabral do Nascimento. He attended the lyceum in this city and completed his law degree at the University of Coimbra in 1922. From a young age, he showed a strong inclination towards literature, particularly as a poet. He published the following poetic works:\n\n- 'As tres Princesas mortas \n> num Pa-Idovo em rulna', 1916,\n- 'Além-Mar', 1917,\n- 'Hora de Noa', 1917. He has contributed to various newspapers and magazines and was an editor for 'Restauraçãoo' in Coimbra (1921). When the District Archive was created in 1931, Dr. Cabral do Nascimento was appointed as its first director, and he soon published the magazine 'Arquivo Histórico da Madeira', to which he has been the main contributor and from which six volumes have already been released. In addition to the aforementioned, he published the following poetic works: 'Alguns Sonetos', 1924, 'Descaminho', 1926, 'Arrabalde', 1928, and 'Cancionelro', 1943. In prose, he wrote the following works: 'Documentos para a história das Capitanias da Madeira', 1930, 'Genealogia da Família Medina da Ilha da Madeira', 1930, and 'Apontamentos de História Insular', 1927.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Crawford do Nascimento": [
+            "Father of João Cabral do Nascimento"
+        ],
+        "D. Palmira Cabral do Nascimento": [
+            "Mother of João Cabral do Nascimento"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Birth of João Cabral do Nascimento"
+        ],
+        "1922": [
+            "Completion of law degree at the University of Coimbra"
+        ],
+        "1916": [
+            "Publication of the poetic work 'As tres Princesas mortas'"
+        ],
+        "1917": [
+            "Publication of the poetic works 'Além-Mar' and 'Hora de Noa'"
+        ],
+        "1921": [
+            "Editor of 'Restauraçãoo' in Coimbra"
+        ],
+        "1931": [
+            "Creation of the District Archive"
+        ]
+    }
+}

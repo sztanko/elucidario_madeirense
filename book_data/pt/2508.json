@@ -1,0 +1,33 @@
+{
+    "id": 2508,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Natividade (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Natividade (Capela de)",
+    "body": "No sítio do Faial, da freguesia de Santa Maria Maior, na quinta que tem aquele nome, se encontra a capela de Nossa Senhora da Natividade, ou do Faial, como é mais vulgarmente conhecida. Foi construída nas terras do vínculo instituído por Simão Acciaioly, que faleceu em 1544. Edificou esta capela Zenobio Acciaioly, seu filho e sucessor na administração do morgadio.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Faial": [
+            "Localizada na quinta do Faial, da freguesia de Santa Maria Maior."
+        ]
+    },
+    "people": {
+        "Simão Acciaioly": [
+            "Instituidor do vínculo onde foi construída a capela."
+        ],
+        "Zenobio Acciaioly": [
+            "Construtor da capela."
+        ]
+    },
+    "years": {
+        "1544": [
+            "Falecimento de Simão Acciaioly"
+        ]
+    }
+}

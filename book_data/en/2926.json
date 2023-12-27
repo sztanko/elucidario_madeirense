@@ -1,0 +1,28 @@
+{
+    "id": 2926,
+    "lang": "en",
+    "is_original": false,
+    "title": "Preston (Capitão Amias)",
+    "fl": "P",
+    "original_title": "Preston (Capitão Amias)",
+    "body": "Johnson says on page 187 of his Handbook for Madeira, that in 1595, some English ships, under the command of Captain Amias Preston, attacked and set fire to Porto Santo, despite the inhabitants offering to pay a large sum to prevent any harm to the island.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island attacked and set fire to by English ships"
+        ]
+    },
+    "people": {
+        "Captain Amias Preston": [
+            "Commander of the English ships"
+        ]
+    },
+    "years": {
+        "1595": [
+            "Attack and fire of Porto Santo"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 318,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Athias (Dr. Marck)",
+    "fl": "A",
+    "original_title": "Athias (Dr. Marck)",
+    "body": "Nasceu a 11 de Dezembro de 1876 e é doutor em medicina pela Faculdade de Paris e medico cirurgião pela Escola-Medica de Lisboa, tendo feito os seus estudos secundários no liceu do Funchal, onde se revelou sempre um estudante muito distinto. Desempenha as funções de primeiro assistente no Instituto Bacteriologico Câmara Pestana, de professor e bibliotecário na Faculdade de Medicina de Lisboa e de secretario na Sociedade Portuguesa de Sciencias Naturais. Escreveu um trabalho intitulado Anatomia da celula nervosa (Lisboa, 1905) e tem colaborado no boletim da Sociedade Portuguesa de Sciencias Naturais, Polytechnia etc., etc..",
+    "categories": [
+        "health",
+        "education",
+        "science"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Paris": [
+            "Faculdade de"
+        ],
+        "Lisboa": [
+            "Escola-Medica de"
+        ]
+    },
+    "people": {
+        "Dr. Marck Athias": [
+            "Doutor em medicina"
+        ]
+    },
+    "years": {
+        "1876": [
+            "Nasceu"
+        ],
+        "1905": [
+            "Trabalho intitulado Anatomia da celula nervosa"
+        ]
+    }
+}

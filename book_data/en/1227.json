@@ -1,0 +1,35 @@
+{
+    "id": 1227,
+    "lang": "en",
+    "is_original": false,
+    "title": "Entrada da Cidade",
+    "fl": "E",
+    "original_title": "Entrada da Cidade",
+    "body": "As the name itself indicates, it is truly the entrance to the capital of Madeira for those who, coming from outside the island, intend to enter this city. It was built about 80 years ago. The old entrance to the city was the Varadouros Gate (see this name), which was demolished in 1911. Prelates and former governors and captains-general made their official entrance there, which always had great and solemn pomp.\n\nThe current entrance to the city was once called Porto da Saúde and since October 27, 1910, it has been called Avenida João Gonçalves Zarco. There was a small and narrow street there, closed at its southern end by a rampart and one of the city gates. Near the gate, or very close to it, stood the so-called Casa da Saúde (see this name), which in the last quarter of the 18th century was either rebuilt or significantly expanded. It is the building where the Commercial Association, the Health Station, and the Port Captaincy were located for many years, a building that belonged to the Funchal City Council and was sold at public auction in 1914.\n\nOn January 12, 1838, the central government granted the City Council of this city authorization to demolish the gate and proceed with the widening of the alley there. The gate was demolished the following year, and subsequently the street was built, taking advantage of some lands belonging to the fortress of S. Lourenço and some huts to the east of this fortress. For the time it was built, it was a wide street, to which the plane trees, the proximity and view of the sea, and its connection to the public promenade gave a particular beauty.\n\nIn the extension of the City Entrance, the construction of a quay began in 1843, but the works were never completed. The current quay was built between 1889 and 1892. See Quay.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of Madeira"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Portuguese navigator"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Demolition of the Varadouros Gate"
+        ],
+        "1910": [
+            "Change of name to Avenida João Gonçalves Zarco"
+        ],
+        "1914": [
+            "Sale of the Casa da Saúde building at public auction"
+        ]
+    }
+}

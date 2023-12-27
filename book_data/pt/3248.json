@@ -1,0 +1,62 @@
+{
+    "id": 3248,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Pedro (Capela de)",
+    "fl": "S",
+    "original_title": "São Pedro (Capela de)",
+    "body": "No extremo ocidental da costa sul da ilha do Porto Santo se encontra uma pequena capela dedicada a São Pedro, que tinha adjunta uma pequena casa de romeiros. Celebra-se ali a festa anual do orago com grande concorrência dos habitantes daquela ilha.\n\nNa freguesia de Santa Cruz, a oeste da Vila e á beira da estrada, se levanta a capela de São Pedro, instituída por João Escorcio Drumond. Arrasada pela aluvião de 1803, foi alguns anos depois reconstruída pelo povo.\n\nNas proximidades da igreja paroquial da freguesia de São Jorge encontra-se uma capela dedicada a São Pedro. Estando em ruínas, foi restaurada pelo prelado D. Manuel Agostinho Barreto, em 1901, sendo por ele próprio benzida e restituída ao culto a 7 de Agosto do mesmo ano.\n\nNa freguesia do Porto Moniz, no lugar onde chamam Terra de São Pedro, houve uma pequena ermida com a invocação de São Pedro, de que nem restam vestígios.\n\nNo sítio dos Lamaceiros da mesma paróquia, encontra-se uma capela consagrada a São Pedro, para a qual foi transportada a imagem do Santo existente na outra capela da mesma invocação. Não é de construção recente, pois já em 1726 se encontrava em estado adiantado de ruína. Foi convenientemente consertada, alguns anos depois, por diligências de Manuel Rodrigues Amarelo. O terramoto de 1748 causou-lhe varias danificações, sendo logo reparada. Há ainda poucos anos que nela se realizaram obras importantes. Existe nesta capela uma imagem de Nossa Senhora do Monte, que é muito venerada.\n\nNesta capela se conserva sempre o Santíssimo Sacramento, estando quotidianamente e durante todo o dia abertas as portas do pequeno templo para as pessoas que o quiserem visitar (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "São Jorge",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Ilha do Porto Santo"
+        ],
+        "Santa Cruz": [
+            "Freguesia de Santa Cruz"
+        ],
+        "Vila": [
+            "Vila"
+        ],
+        "São Jorge": [
+            "Freguesia de São Jorge"
+        ],
+        "Porto Moniz": [
+            "Freguesia do Porto Moniz"
+        ],
+        "Lamaceiros": [
+            "Sítio dos Lamaceiros"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Instituidor da capela de São Pedro na freguesia de Santa Cruz"
+        ],
+        "D. Manuel Agostinho Barreto": [
+            "Prelado responsável pela restauração da capela de São Pedro na freguesia de São Jorge"
+        ],
+        "Manuel Rodrigues Amarelo": [
+            "Responsável pelo conserto da capela de São Pedro nos Lamaceiros"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Aluvião que arrasou a capela de São Pedro na freguesia de Santa Cruz"
+        ],
+        "1901": [
+            "Ano da restauração da capela de São Pedro na freguesia de São Jorge"
+        ],
+        "1726": [
+            "Ano em que a capela de São Pedro nos Lamaceiros se encontrava em estado adiantado de ruína"
+        ],
+        "1748": [
+            "Ano do terramoto que causou danificações na capela de São Pedro nos Lamaceiros"
+        ]
+    }
+}

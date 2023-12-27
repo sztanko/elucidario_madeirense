@@ -1,0 +1,27 @@
+{
+    "id": 3382,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Solander (Dr. Daniel Carlos)",
+    "fl": "S",
+    "original_title": "Solander (Dr. Daniel Carlos)",
+    "body": "Distinto naturalista sueco, discípulo de Lineu, nascido em Nordland a 28 de Fevereiro de 1736 e falecido em Londres, a 16 de Maio de 1782. V. Banks.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Lineu": [
+            "Botânico sueco"
+        ]
+    },
+    "years": {
+        "1736": [
+            "Nascimento de Daniel Carlos Solander"
+        ],
+        "1782": [
+            "Falecimento de Daniel Carlos Solander"
+        ]
+    }
+}

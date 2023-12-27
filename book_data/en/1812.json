@@ -1,0 +1,23 @@
+{
+    "id": 1812,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jaca de Pau (Grapsus minutus)",
+    "fl": "J",
+    "original_title": "Jaca de Pau (Grapsus minutus)",
+    "body": "A brachyuran crustacean brought to this island by the maritime currents, usually attached to wooden objects such as beams, planks, etc. It also lives on the carapaces of turtles that come to the waters of Madeira.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where the crustacean is found"
+        ],
+        "Waters of Madeira": [
+            "Location where the turtles are found"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

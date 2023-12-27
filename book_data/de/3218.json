@@ -1,0 +1,36 @@
+{
+    "id": 3218,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sankt Christophorus (Kapellen)",
+    "fl": "S",
+    "original_title": "São Cristóvão (Capelas)",
+    "body": "Die Kapelle, die sich in der Gemeinde Machico befindet, an der Stelle, die ihren Namen trägt, wurde gemäß der testamentarischen Verfügung von Cristóvão Moniz de Meneses aus dem Jahr 1690 erbaut, in der er ihren Bau bestimmte. Über dem Portal ist das Datum 1692 eingraviert. In der Gemeinde Ponta Delgada, auf einem Grundstück, das heute zur Pfarrei Boaventura gehört, stand die Kapelle Sankt Christophorus, ein alter Bau, denn es ist im Kirchenarchiv der ersten jener Gemeinden vermerkt, dass sie bereits 1578 in schlechtem Zustand war und Maria de Leme zu dieser Zeit ihre Verwalterin war. Sie wurde mehrmals renoviert und 1748 abgerissen. Sie gab dem Ort, an dem sie errichtet worden war, ihren Namen.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Ponta Delgada",
+        "Boaventura"
+    ],
+    "locations": {
+        "Machico": [
+            "Ort, an dem sich die Kapelle Sankt Christophorus befindet."
+        ]
+    },
+    "people": {
+        "Cristóvão Moniz de Meneses": [
+            "Bestimmte 1690 den Bau der Kapelle Sankt Christophorus."
+        ]
+    },
+    "years": {
+        "1690": [
+            "Bestimmung des Baus der Kapelle Sankt Christophorus."
+        ],
+        "1748": [
+            "Abriss der Kapelle"
+        ]
+    }
+}

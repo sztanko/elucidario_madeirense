@@ -1,0 +1,30 @@
+{
+    "id": 3224,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sao Francisco de Borja (Capela de)",
+    "fl": "S",
+    "original_title": "Sao Francisco de Borja (Capela de)",
+    "body": "It was the chapel of S. Francisco de Borja and not of S. Francisco Xavier, as stated in the Saudades, that D. Francisco de Vasconcelos erected in 1760, near the houses he owned, at the site of Cruz da Guarda, in the parish of Porto da Cruz. The respective deed is from May 2 of that year.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Locality where the chapel of São Francisco de Borja was erected."
+        ]
+    },
+    "people": {
+        "D. Francisco de Vasconcelos": [
+            "Erected the chapel of São Francisco de Borja in 1760."
+        ]
+    },
+    "years": {
+        "1760": [
+            "Erection of the chapel of São Francisco de Borja."
+        ]
+    }
+}

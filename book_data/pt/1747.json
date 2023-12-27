@@ -1,0 +1,40 @@
+{
+    "id": 1747,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Hospital Militar",
+    "fl": "H",
+    "original_title": "Hospital Militar",
+    "body": "Há mais de um século, quando adoeciam as praças da guarnição militar da Madeira eram recolhidas no Hospital da Santa Casa da Misericórdia desta cidade. Alegando carência de recursos e falta de sala apropriada para manter uma enfermaria destinada especialmente a esse fim, a direcção daquele estabelecimento ponderou, por mais de uma vez, ás estações superiores, a necessidade de um pequeno hospital independente e separado do da Santa Casa e apenas sujeito ás autoridades militares desta então província ultramarina. Por seu lado, os governadores e capitãis-generais apoiaram as propostas da Santa Casa, e insistiram pela criação de uma modesta casa hospitalar.\n\nNão se conhece o ano preciso da sua instalação, mas sabe-se que foi criado no período decorrido de 1820 a 1824. Do mês de Janeiro daquele ano existe um oficio enviado pelo governador e capitão-general Sebastião Xavier Botelho ao governo da metrópole, insistindo por essa criação, e do ano de 1824 há conhecimento de um documento oficial, contendo diversas referências respeitantes ao movimento do novo hospital, que teria sido estabelecido pouco anteriormente ao citado ano de 1824.\n\nConsta que foi primeiramente instalado num prédio urbano situado na rua do Castanheiro, conhecido pelo nome de Casa de D. Guiomar, edifício de certa amplitude mas cuja construção não fora inteiramente concluída e onde não teve uma larga permanência, passando depois a funcionar numa casa «á rua das Mercês, acima da capela do mesmo nome», isto é nas proximidades do actual edifício em que se encontra o estabelecimento de assistência publica denominado Auxilio Maternal.\n\nUma portaria, datada de 14 de Fevereiro de 1849, autorizou a mudança do hospital para a casa da rua da Rochinha de Baixo com servidão para a rua de São Tiago, onde funcionou até o ano próximo passado de 1938, que era uma propriedade particular e que passara à posse da Fazenda Publica por falta do pagamento das respectivas contribuições.\n\nAceita definitivamente a ideia do aproveitamento das diversas dependências do antigo hospital militar, como sendo o local mais apropriado para a construção do edifício destinado à instalação do nosso liceu, logo se empregaram as necessárias diligências para a aquisição do velho casarão da rua da Rochinha, que para aquele fim foi cedido á Junta Geral deste distrito pelo decreto de 5 de Setembro de 1936, com a faculdade desta corporação administrativa poder expropriar os terrenos circunjacentes, que se tornassem indispensáveis para essa projectada edificação.\n\nA Direcção Geral da Assistência Publica, por incumbência do Ministério da Guerra, propôs á provedoria da Santa Casa da Misericórdia do Funchal o internamento, no Hospital dos Marmeleiros, das praças e oficiais que carecessem de hospitalização, ao que a Mesa Gerente da mesma Santa Casa prontamente acedeu mediante o cumprimento de certas clausulas, que foram aceitas por aquela Direcção Geral de Assistência Publica.\n\nNos meses de Setembro e Outubro de 1938, em virtude da correspondência oficial trocada entre o Comando Militar da Madeira e a Mesa Gerente da Santa Casa da Misericórdia, ficaram definitivamente assentes as condições da admissão de doentes da guarnição militar desta ilha no Hospital dos Marmeleiros, tendo os primeiros doentes dado ali entrada no dia 22 de Novembro daquele ano.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha"
+        ]
+    },
+    "people": {
+        "Sebastião Xavier Botelho": [
+            "Governador e capitão-general"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Criação do hospital militar"
+        ],
+        "1824": [
+            "Referências respeitantes ao movimento do novo hospital"
+        ],
+        "1849": [
+            "Mudança do hospital para a casa da rua da Rochinha de Baixo"
+        ],
+        "1936": [
+            "Cedido á Junta Geral deste distrito o velho casarão da rua da Rochinha"
+        ],
+        "1938": [
+            "Correspondência oficial trocada entre o Comando Militar da Madeira e a Mesa Gerente da Santa Casa da Misericórdia"
+        ]
+    }
+}

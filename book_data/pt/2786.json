@@ -1,0 +1,32 @@
+{
+    "id": 2786,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Piedade",
+    "fl": "P",
+    "original_title": "Piedade",
+    "body": "Sitio povoado da freguesia do Jardim do Mar, onde se encontra a capela de Nossa Senhora da Piedade com solar adjunto,\n pertença da casa vinculada dos Coutos Cardosos. Foi instituída em 1730 pelo morgado João do Couto Cardoso e reedificada pelo\n seu sucessor Francisco João de Vasconcelos de Couto Cardoso no ano de 1825.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Jardim do Mar"
+    ],
+    "locations": {},
+    "people": {
+        "João do Couto Cardoso": [
+            "Fundador da capela"
+        ],
+        "Francisco João de Vasconcelos de Couto Cardoso": [
+            "Reedificador da capela"
+        ]
+    },
+    "years": {
+        "1730": [
+            "Instituição da capela"
+        ],
+        "1825": [
+            "Reedificação da capela"
+        ]
+    }
+}

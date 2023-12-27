@@ -1,0 +1,27 @@
+{
+    "id": 190,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Amaro (Padre)",
+    "fl": "A",
+    "original_title": "Amaro (Padre)",
+    "body": "Padre Amaro foi o nome dum celebre periódico que se publicou em Londres, em língua portuguesa, de 1820 a 1830, que teve como redactor principal o ilustre madeirense Joaquim José Ferreira de Freitas, que também é conhecido pelo nome de Padre Amaro e de quem nos ocuparemos no lugar competente.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Padre Amaro": [
+            "Redator principal do periódico"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Início da publicação do periódico em Londres"
+        ],
+        "1830": [
+            "Término da publicação do periódico em Londres"
+        ]
+    }
+}

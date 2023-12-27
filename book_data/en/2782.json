@@ -1,0 +1,43 @@
+{
+    "id": 2782,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pico (Fortress of)",
+    "fl": "P",
+    "original_title": "Pico (Fortaleza do)",
+    "body": "«The fortress of Pico, on the island of Porto Santo, was, as Dr. Azevedo says in the notes to Saudades da Terra, more of a refuge than a stronghold». Gaspar Frutuoso, in 1590, when referring to Pico do Castelo, does not say that there was a castle there, but that it was called so because it was in itself «strong and defensible.» The fortifications that existed there and are now destroyed were built during the Philippine rule, «after the terrible carnage and looting, as Mr. A. A. Sarmento says, carried out by the Moors in 1617». Thirty-something years ago, there were still remains of the old fortifications at the top of the peak and a cistern intended to supply water to those who took refuge there during pirate attacks. (1921). The fortress of Pico do Castelo had a constable during the time of Philip II, and in 1805, Governor Manuel Inacio de Avelar Brotero sent for the tiles that still covered the buildings, to use them in the repair of the town's barracks and his residence.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island where the fortress of Pico is located"
+        ]
+    },
+    "people": {
+        "Dr. Azevedo": [
+            "Author of the notes to Saudades da Terra"
+        ],
+        "Gaspar Frutuoso": [
+            "Historian"
+        ],
+        "Mr. A. A. Sarmento": [
+            "Source of information about the fortifications"
+        ],
+        "Manuel Inacio de Avelar Brotero": [
+            "Governor"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Gaspar Frutuoso discusses Pico do Castelo"
+        ],
+        "1617": [
+            "Carnage and looting by the Moors"
+        ],
+        "1805": [
+            "Governor Manuel Inacio de Avelar Brotero sends for the tiles"
+        ]
+    }
+}

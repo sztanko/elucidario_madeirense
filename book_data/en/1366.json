@@ -1,0 +1,33 @@
+{
+    "id": 1366,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fernando (Infante D.)",
+    "fl": "F",
+    "original_title": "Fernando (Infante D.)",
+    "body": "He was the son of King D. Duarte and inherited the lordship of the Madeira archipelago from his uncle, Infante D. Henrique, in 1460. He married his cousin, D. Beatriz, daughter of Infante D. João.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Duarte": [
+            "King of Portugal."
+        ],
+        "Infante D. Henrique": [
+            "Portuguese navigator, known as the Infante of Sagres."
+        ],
+        "D. Beatriz": [
+            "Cousin and wife of Infante D. Fernando."
+        ],
+        "Infante D. João": [
+            "Infante of Portugal."
+        ]
+    },
+    "years": {
+        "1460": [
+            "Inherited the lordship of the Madeira archipelago."
+        ]
+    }
+}

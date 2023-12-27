@@ -1,0 +1,31 @@
+{
+    "id": 1155,
+    "lang": "en",
+    "is_original": false,
+    "title": "Dillon (Frank)",
+    "fl": "D",
+    "original_title": "Dillon (Frank)",
+    "body": "He took various views of Madeira in 1848 and 1849, which were later published in London, under the following title: 'A Series of Views of Funchal and its Neighbourhood'.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the views"
+        ]
+    },
+    "people": {
+        "Frank Dillon": [
+            "Author of the views"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Production of the views"
+        ],
+        "1849": [
+            "Production of the views"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 1820,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jangão",
+    "fl": "J",
+    "original_title": "Jangão",
+    "body": "A populated place in the parish of Ponta do Sol. It was the seat of the ancient entail of Vale da Bica, established in 1522 by João Esmeraldo, of which the distinguished Madeiran, counselor Aires de Ornelas, was the last representative. There is also the chapel of Nossa Senhora da Piedade, founded by Antonio de Carvalhal Esmeraldo around 1670, which was restored in 1777 and in 1879 by the respective administrators Francisco de Ornelas de Vasconcelos and counselor Agostinho de Ornelas de Vasconcelos.\n\n## Lombada dos Esmeraldos.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Locality in the island of Madeira"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Founder of the entail of Vale da Bica"
+        ],
+        "Aires de Ornelas": [
+            "Last representative of the entail of Vale da Bica"
+        ],
+        "Antonio de Carvalhal Esmeraldo": [
+            "Founder of the chapel of Nossa Senhora da Piedade"
+        ]
+    },
+    "years": {
+        "1522": [
+            "Establishment of the entail of Vale da Bica"
+        ],
+        "1670": [
+            "Foundation of the chapel of Nossa Senhora da Piedade"
+        ],
+        "1777": [
+            "Restoration of the chapel of Nossa Senhora da Piedade"
+        ],
+        "1879": [
+            "Restoration of the chapel of Nossa Senhora da Piedade"
+        ]
+    }
+}

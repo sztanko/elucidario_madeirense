@@ -1,0 +1,30 @@
+{
+    "id": 2474,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Boa Nova (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Nova (Capela de)",
+    "body": "No sítio deste nome, da freguesia de São Gonçalo, se encontra a capela de Nossa Senhora da Boa Nova, que foi fundada em 1701 por Eusébio da Silva Barros.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Sítio da capela de Nossa Senhora da Boa Nova"
+        ]
+    },
+    "people": {
+        "Eusébio da Silva Barros": [
+            "Fundador da capela de Nossa Senhora da Boa Nova"
+        ]
+    },
+    "years": {
+        "1701": [
+            "Fundação da capela de Nossa Senhora da Boa Nova"
+        ]
+    }
+}

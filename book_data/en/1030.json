@@ -1,0 +1,23 @@
+{
+    "id": 1030,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cortado",
+    "fl": "C",
+    "original_title": "Cortado",
+    "body": "A location between Sant’Ana and Faial, from where one can enjoy superb panoramas over this last parish and the Penha de Aguia. Anyone who climbs the steep slope that leads to Cortado, and crosses the cut or opening found at the top of it, feels the impression of entering a farm, so green and wooded are the edges of the path that leads from there to Sant’Ana.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Sant’Ana",
+        "Faial"
+    ],
+    "locations": {
+        "Sant’Ana": [
+            "Location situated between Sant’Ana and Faial."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

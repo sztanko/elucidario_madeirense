@@ -1,0 +1,37 @@
+{
+    "id": 3473,
+    "lang": "de",
+    "is_original": false,
+    "title": "Terra (Ventura)",
+    "fl": "T",
+    "original_title": "Terra (Ventura)",
+    "body": "Portugiesischer Architekt, der den Verbesserungsplan für die Stadt Funchal gemäß den Beschlüssen des Stadtrats vom 21. November 1912 und 3. Februar 1913 ausarbeitete. Der Stadtrat und der Landwirtschaftsverband finanzierten die Kosten dieser Arbeit, die der Stadtrat am 19. November 1915 zusammen mit zwei Kopien erhielt, von denen eine an den Landwirtschaftsverband geschickt wurde.\n\nDer vor kurzem verstorbene Architekt Ventura Terra war es, der den Plan für die alte Westavenue, heute Dr. Manuel de Arriaga, anfertigte, und zu den von ihm zur Verschönerung der Stadt vorgeschlagenen Verbesserungen gehört der Bau einer Allee über dem Bach Santa Luzia. (1921)",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt, in der die Verbesserungen durchgeführt wurden"
+        ]
+    },
+    "people": {
+        "Ventura Terra": [
+            "Portugiesischer Architekt"
+        ]
+    },
+    "years": {
+        "1912": [
+            "Beschlüsse des Stadtrats"
+        ],
+        "1913": [
+            "Beschlüsse des Stadtrats"
+        ],
+        "1915": [
+            "Empfang der Arbeit durch den Stadtrat"
+        ],
+        "1921": [
+            "Bau der Allee über dem Bach Santa Luzia"
+        ]
+    }
+}

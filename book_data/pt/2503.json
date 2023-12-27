@@ -1,0 +1,30 @@
+{
+    "id": 2503,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora das Mercês (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Mercês (Capela de)",
+    "body": "O capitão Gaspar Homem de El-Rei e sua mulher D. Isabel Florença fundaram na freguesia do Arco da Calheta, no ano de 1650, uma capela dedicada a Nossa Senhora das Mercês que ficava no sítio chamado das Florenças.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Florenças": [
+            "Localizada na freguesia do Arco da Calheta, no sítio chamado das Florenças."
+        ]
+    },
+    "people": {
+        "Gaspar Homem de El-Rei": [
+            "Fundador da capela em 1650, juntamente com sua mulher D. Isabel Florença."
+        ]
+    },
+    "years": {
+        "1650": [
+            "Fundação da capela"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 40,
+    "lang": "de",
+    "is_original": false,
+    "title": "Achada de Santo António",
+    "fl": "A",
+    "original_title": "Achada de Santo António",
+    "body": "In der Gemeinde Santana gibt es einen Ort dieses Namens, an dem sich eine Kapelle befindet, die dem Heiligen Antonius gewidmet ist. Sie wurde Mitte des 16. Jahrhunderts gegründet und 1730 wiederaufgebaut.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Santana"
+    ],
+    "locations": {
+        "Santana": [
+            "Gemeinde, in der sich der Ort Achada de Santo António befindet"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1730": [
+            "Jahr des Wiederaufbaus der Kapelle, die dem Heiligen Antonius gewidmet ist"
+        ]
+    }
+}

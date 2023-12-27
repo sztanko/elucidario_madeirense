@@ -1,0 +1,28 @@
+{
+    "id": 3563,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Valente (Vapor)",
+    "fl": "V",
+    "original_title": "Valente (Vapor)",
+    "body": "A primeira embarcação a vapor empregada no serviço costeiro desta ilha foi o chamado Vapor Valente, que chegou ao Funchal, vindo de Inglaterra, no dia 1 de Setembro de 1872 e que deu á costa a 11 de Novembro de 1876. Houve a imprevidência de o deixar ancorado á terra do Ilhéu quando começava a soprar uma violenta tempestade do quadrante sul, indo de encontro á costa, por debaixo da quinta Lambert, onde foi inteiramente destruído.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1872": [
+            "Chegada do Vapor Valente ao Funchal."
+        ],
+        "1876": [
+            "Naufrágio do Vapor Valente."
+        ]
+    }
+}

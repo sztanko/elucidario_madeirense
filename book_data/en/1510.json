@@ -1,0 +1,35 @@
+{
+    "id": 1510,
+    "lang": "en",
+    "is_original": false,
+    "title": "Funda (Ribeira)",
+    "fl": "F",
+    "original_title": "Funda (Ribeira)",
+    "body": "It rises in the Picos da Silva and da Relva and separates the parishes of Estreito da Calheta and Prazeres, with the Mendes stream as its tributary.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Estreito da Calheta",
+        "Prazeres"
+    ],
+    "locations": {
+        "Picos da Silva": [
+            "Birthplace"
+        ],
+        "Relva": [
+            "Birthplace"
+        ],
+        "Estreito da Calheta": [
+            "Parish"
+        ],
+        "Prazeres": [
+            "Parish"
+        ],
+        "Mendes": [
+            "Tributary"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

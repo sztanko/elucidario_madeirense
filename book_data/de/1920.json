@@ -1,0 +1,43 @@
+{
+    "id": 1920,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lambert (Graf von)",
+    "fl": "L",
+    "original_title": "Lambert (Conde de)",
+    "body": "General Graf Alexandre Carlos de Lambert, Flügeladjutant der russischen Kaiserin, verbrachte einige Zeit auf Madeira und erwarb als Residenz die Quinta das Angústias in der Straße der Kaiserin Dona Amélia. Angeblich hatte Graf Lambert in Polen einen schweren Konflikt mit einem russischen General, dessen Namen wir nicht kennen. Sie vereinbarten, dass derjenige, dem das Los zufiele, Selbstmord durch Gift begehen müsse. Da das Los dem General zufiel, befolgte dieser sofort, was er unvernünftigerweise versprochen hatte. Kurz darauf reiste der Graf sehr bestürzt über den Ausgang des Konflikts, in den er verwickelt gewesen war, nach Madeira. Graf Lambert, geboren etwa 1816, war 1863 auf Madeira und besuchte in diesem Jahr Lissabon und London, kehrte aber im September nach Madeira zurück. Er starb um 1866.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel"
+        ],
+        "Polen": [
+            "Land"
+        ],
+        "Lissabon": [
+            "Stadt"
+        ],
+        "London": [
+            "Stadt"
+        ]
+    },
+    "people": {
+        "Alexandre Carlos de Lambert": [
+            "Flügeladjutant der russischen Kaiserin"
+        ]
+    },
+    "years": {
+        "1816": [
+            "Geburt von Alexandre Carlos de Lambert"
+        ],
+        "1863": [
+            "Besuch auf Madeira"
+        ],
+        "1866": [
+            "Tod von Alexandre Carlos de Lambert"
+        ]
+    }
+}

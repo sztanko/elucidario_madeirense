@@ -1,0 +1,31 @@
+{
+    "id": 2438,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nichols (Thomas)",
+    "fl": "N",
+    "original_title": "Nichols (Thomas)",
+    "body": "This Englishman, who resided in the Canaries from 1552 to 1561, wrote a brief description of Madeira, which was published in Astley's General Collection of Voyages and Travels in 1745.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Thomas Nichols": [
+            "Englishman who resided in the Canaries from 1552 to 1561"
+        ]
+    },
+    "years": {
+        "1552": [
+            "Thomas Nichols resided in the Canaries"
+        ],
+        "1561": [
+            "Thomas Nichols resided in the Canaries"
+        ],
+        "1745": [
+            "Publication of the brief description of Madeira in Astley's General Collection of Voyages and Travels"
+        ]
+    }
+}

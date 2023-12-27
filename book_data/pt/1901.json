@@ -1,0 +1,35 @@
+{
+    "id": 1901,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Kny (",
+    "fl": "K",
+    "original_title": "Kny (",
+    "body": "Dr. Leopoldo )\n.Botânico alemão que herborizou na Madeira durante o ano de 1860. As muscineas colhidas por ele e consideradas novas para a ciência, foram descritas pelo briologista A. Juratzka (V. este nome). E.:Ueber die Flora Oceanischer Inseln (Zeitschr der Gesellsch. fur Erdkunde , 1867).",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha onde o botânico alemão herborizou."
+        ]
+    },
+    "people": {
+        "Dr. Leopoldo Kny": [
+            "Botânico alemão responsável por herborizar na Madeira."
+        ],
+        "A. Juratzka": [
+            "Briologista responsável por descrever as muscineas colhidas por Kny."
+        ]
+    },
+    "years": {
+        "1860": [
+            "Ano em que o botânico alemão herborizou na Madeira."
+        ],
+        "1867": [
+            "Publicação do trabalho Ueber die Flora Oceanischer Inseln."
+        ]
+    }
+}

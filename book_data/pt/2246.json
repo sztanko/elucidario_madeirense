@@ -1,0 +1,35 @@
+{
+    "id": 2246,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Meireles (Visconde de)",
+    "fl": "M",
+    "original_title": "Meireles (Visconde de)",
+    "body": "Este distinto escritor e jornalista, que faleceu no ano de 1915, visitou varias vezes esta ilha, por cujas belezas naturais e benignidade de clima tinha a mais devotada admiração. Foi no ano de 1913, em que se demorou uma larga temporada nesta cidade, que advogou com brilho e valiosos argumentos a ideia da reconstrução da casa onde viveu Cristovão Colombo, como já noutro logar referimos (vol. 1, pág. 286 e s.). Também se ocupou do tríptico pintado em madeira, que existe na sacristia da igreja paroquial de São Pedro, dando a conhecer aos madeirenses a bela descrição que lhe dedicou o distinto escritor M. Teixeira Gomes, no seu livro \"Cartas sem moral nenhuma\".",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local visitado pelo Visconde de Meireles"
+        ]
+    },
+    "people": {
+        "Cristovão Colombo": [
+            "Habitante histórico da casa defendida pelo Visconde de Meireles"
+        ],
+        "M. Teixeira Gomes": [
+            "Escritor"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Falecimento"
+        ],
+        "1913": [
+            "Visita à ilha"
+        ]
+    }
+}

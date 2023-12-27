@@ -1,0 +1,35 @@
+{
+    "id": 700,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camara de Lôbos (Porto, Cais e Enseada de)",
+    "fl": "C",
+    "original_title": "Camara de Lôbos (Porto, Cais e Enseada de)",
+    "body": "Com a chamada Vila de Câmara de Lôbos, sede da freguesia e Concelho do mesmo nome, entesta uma pouco ampla mas pitoresca enseada, limitada por uma pequena praia de calhaus roliços e servida por um cais de desembarque, o qual foi construído em 1876 e notavelmente melhorado no ano de 1903. Tem este porto um movimento relativamente grande, por ser Câmara de Lôbos um importante centro piscatório, em cuja respectiva industria se ocupam alguns centenares de individuos. Fazem escala por este pôrto os vapores do Serviço costeiro maritimo. Fica a 4 milhas de distancia do pôrto do Funchal e a 3 do do Campanário.",
+    "categories": [
+        "geography",
+        "economy"
+    ],
+    "freguesias": [
+        "Câmara de Lôbos",
+        "Funchal",
+        "Campanário"
+    ],
+    "locations": {
+        "Vila de Câmara de Lôbos": [
+            "Sede da freguesia e Concelho do mesmo nome"
+        ],
+        "Câmara de Lôbos": [
+            "Importante centro piscatório"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1876": [
+            "Construção do cais de desembarque"
+        ],
+        "1903": [
+            "Melhoria do cais de desembarque"
+        ]
+    }
+}

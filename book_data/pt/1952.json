@@ -1,0 +1,33 @@
+{
+    "id": 1952,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ledo e Vinhatico",
+    "fl": "L",
+    "original_title": "Ledo e Vinhatico",
+    "body": "Sítio povoado da freguesia do Arco da Calheta. João Fernandes de Andrade, um dos mais antigos povoadores desta paróquia, fundou no sítio do Ledo, uma capela da invocação de Nossa Senhora do Lanço, que fez sede duma instituição vincular. Também ali existiu a capela de Nossa Senhora do Desterro, edificada por Rafael Esteves, no terceiro quartel do século XVII. Funciona neste sítio uma escola oficial de ensino elementar.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Freguesia na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "João Fernandes de Andrade": [
+            "Povoador da freguesia do Arco da Calheta"
+        ],
+        "Rafael Esteves": [
+            "Fundador da capela de Nossa Senhora do Desterro"
+        ]
+    },
+    "years": {
+        "Século XVII": [
+            "Construção da capela de Nossa Senhora do Desterro"
+        ]
+    }
+}

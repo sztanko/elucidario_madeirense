@@ -1,0 +1,23 @@
+{
+    "id": 1020,
+    "lang": "en",
+    "is_original": false,
+    "title": "Correio da Manhã (O)",
+    "fl": "C",
+    "original_title": "Correio da Manhã (O)",
+    "body": "It began to be published on August 31, 1884, and ended on March 14, 1886, with 502 issues released.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1884": [
+            "Start of the publication of Correio da Manhã"
+        ],
+        "1886": [
+            "End of the publication of Correio da Manhã"
+        ]
+    }
+}

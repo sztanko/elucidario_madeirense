@@ -1,0 +1,30 @@
+{
+    "id": 2976,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quinta das Freiras",
+    "fl": "Q",
+    "original_title": "Quinta das Freiras",
+    "body": "Sítio povoado da freguesia de Santo António do Funchal. Encontrava-se neste sítio a capela de Nossa Senhora das Brotas, fundada em 1678 por Manuel Martins Brandão, de que ainda existe um montão de escombros. Nela se acha o Cemitério Paroquial, construído em 1839 e muito ampliado no ano de 1903. Tem este cemitério capela privativa edificada no ano de 1844 e consagrada a Nossa Senhora da Luz.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Manuel Martins Brandão": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1678": [
+            "Fundação da capela de Nossa Senhora das Brotas"
+        ],
+        "1839": [
+            "Construção do Cemitério Paroquial"
+        ]
+    }
+}

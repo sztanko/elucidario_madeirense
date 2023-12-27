@@ -1,0 +1,34 @@
+{
+    "id": 2674,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Passos de Freitas (Dr. Manuel)",
+    "fl": "P",
+    "original_title": "Passos de Freitas (Dr. Manuel)",
+    "body": "Nasceu na Calheta a 3 de Março de 1872 e formou-se em direito na Universidade de Coimbra em 1896. É secretario aposentado da Junta Geral do Distrito e um musico muito distinto, sendo o director do grupo musical que tem o seu nome e o ensaiador do orfeão madeirense, que por diferentes vezes o publico funchalense tem tido ocasião de apreciar no teatro do Dr. Manuel de Arriaga.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Local de nascimento"
+        ],
+        "Universidade de Coimbra": [
+            "Local de estudos"
+        ],
+        "Funchal": [
+            "Local de atuação"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1872": [
+            "Ano de nascimento"
+        ],
+        "1896": [
+            "Ano de formatura"
+        ]
+    }
+}

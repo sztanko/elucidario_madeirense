@@ -1,0 +1,35 @@
+{
+    "id": 1658,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Guedes (Vasco)",
+    "fl": "G",
+    "original_title": "Guedes (Vasco)",
+    "body": "Vasco Guedes de Carvalho e Meneses, ao tempo em que era comandante militar da Madeira, foi nomeado governador civil deste distrito por decreto de 14 de Agosto de 1884, tendo tomado posse a 18 do mesmo mês.\n\nFoi governador geral de Angola e para justificar-se das acusações que lhe fizeram quando administrava aquela possessão ultramarina, publicou em 1882, no Funchal, um folheto intitulado *Apontamentos para a Historia de Angola*.\n\nMorreu em Abril de 1915.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "Vasco Guedes de Carvalho e Meneses": [
+            "Governador civil da Madeira, governador geral de Angola"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Nomeado governador civil da Madeira"
+        ],
+        "1882": [
+            "Publicação do folheto *Apontamentos para a Historia de Angola*"
+        ],
+        "1915": [
+            "Falecimento"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 1190,
+    "lang": "en",
+    "is_original": false,
+    "title": "Dragon Tree (Dracaena Draco)",
+    "fl": "D",
+    "original_title": "Dragoeiro (Dracaena Draco)",
+    "body": "A peculiar tree found in Madeira, the Canary Islands, and Cape Verde, reaching 6 to 15 meters in height; initially with single stems, later branching at the top, but with the branches always starting from the same height; elongated, linear terminal leaves; whitish flowers; globular, yellow berries.\n\nThis tree, almost extinct in Madeira, has long disappeared from Porto Santo, where, according to Frutuoso, its trunks were used to make boats in which 6 or 7 men could fish.\n\nIn ancient times, dragon's blood was extracted from the dragon tree by means of incisions, but today no one thinks of using the same tree for such a purpose, due to its extreme rarity.\n\nIt is not known that in Madeira there was ever a dragon tree with the dimensions of the famous dragon tree of Tenerife, destroyed by the storm of January 23, 1868; the largest known Madeiran specimen existed in the place of Pontinha de Cima, in Machico, and was knocked down by a storm on February 16, 1843. Its trunk, which someone measured, had a circumference of 5.40 meters and a length of 11.85 meters, which should have given the entire tree a total height of 15 to 16 meters, while the dragon tree of Tenerife, according to Broussonet, measured a little over 15 meters in circumference at the base, by 24.33 meters in height.\n\nTwo centuries-old dragon trees that could still be seen about 10 years ago in a farm in Monte, which belonged to the late Count of Calçada, were ordered to be uprooted by the current owner of the same farm, and the same fate befell another individual of the same species that existed at the entrance of “Quinta da Palmeira“, near Levada de Santa Luzia. The specimens in Monte were greatly admired by foreigners because of their beauty and large dimensions.\n\nIn the estates of Funchal and its suburbs, there are still several dragon trees, but outside of them, we only know of one specimen in Garajau, another in Caniço, another in Ribeira Brava, and a group of individuals in the place of Neves.",
+    "categories": [
+        "biology",
+        "geography"
+    ],
+    "freguesias": [
+        "Monte",
+        "Funchal",
+        "Garajau",
+        "Caniço",
+        "Ribeira Brava",
+        "Neves"
+    ],
+    "locations": {
+        "Machico": [
+            "Pontinha de Cima, in Machico"
+        ],
+        "Tenerife": [
+            "Famous dragon tree of Tenerife, destroyed by the storm of January 23, 1868"
+        ]
+    },
+    "people": {
+        "Frutuoso": [
+            "Frutuoso recounts the use of dragon tree trunks to make boats in Porto Santo"
+        ]
+    },
+    "years": {
+        "1868": [
+            "Destruction of the famous dragon tree of Tenerife"
+        ],
+        "1843": [
+            "Toppling of the largest known Madeiran specimen in the place of Pontinha de Cima, in Machico"
+        ]
+    }
+}

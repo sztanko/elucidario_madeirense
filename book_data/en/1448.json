@@ -1,0 +1,31 @@
+{
+    "id": 1448,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte de Nª Sª do Amparo",
+    "fl": "F",
+    "original_title": "Forte de Nª Sª do Amparo",
+    "body": "Of triangular design, it was built in 1706, at no expense to the Royal Treasury. According to an inscription, Francisco Dias Franco was responsible for the construction and was its first captain. Located near the promenade of Machico, it was the last to surrender during the landing of the Miguelist troops in 1828.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Machico promenade"
+        ]
+    },
+    "people": {
+        "Francisco Dias Franco": [
+            "First captain"
+        ]
+    },
+    "years": {
+        "1706": [
+            "Construction of the fort"
+        ],
+        "1828": [
+            "Landing of the Miguelist troops"
+        ]
+    }
+}

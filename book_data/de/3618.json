@@ -1,0 +1,28 @@
+{
+    "id": 3618,
+    "lang": "de",
+    "is_original": false,
+    "title": "Vigário (Bach von)",
+    "fl": "V",
+    "original_title": "Vigário (Ribeira do)",
+    "body": "Wasserlauf, der sich westlich der so genannten Stadt Câmara de Lobos in den Ozean ergießt. In seiner Nähe ereignete sich am 4. März 1930 ein großer Erdrutsch, bei dem die Meereswogen mit Gewalt in die Mündung des Baches strömten. Bei der Rückflut rissen sie etwa zwanzig Menschen mit, die dort einen katastrophalen Tod fanden. Ein beträchtlicher Teil dieses Baches ist auch unter dem Namen Bach von Caixa bekannt.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ozean": [
+            "Mündung des Vigário-Baches"
+        ],
+        "Câmara de Lobos": [
+            "Stadt in der Nähe des Vigário-Baches"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1930": [
+            "Erdrutsch und Tod von zwanzig Menschen am Vigário-Bach"
+        ]
+    }
+}

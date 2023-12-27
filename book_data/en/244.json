@@ -1,0 +1,55 @@
+{
+    "id": 244,
+    "lang": "en",
+    "is_original": false,
+    "title": "Araújo (Dr. Juvenal Henriques de)",
+    "fl": "A",
+    "original_title": "Araújo (Dr. Juvenal Henriques de)",
+    "body": "He was born in Funchal on November 21, 1892, the son of João Isidoro de Araújo Figueira and D. Virginia Henriques de Araújo. He completed his studies at our lyceum in 1909 and graduated from the Faculty of Law at the University of Coimbra in 1914. While a student at the University, he had extensive collaboration in various newspapers on the mainland and was one of the founders of the Imparcial, which was published in Coimbra. He served as director of the Diário da Madeira for several years and has collaborated in other Madeiran newspapers. He practices law and published a pamphlet entitled Acção de expropriação do Montado do Barreiro requerida pela Câmara Municipal do Funchal contra os proprietários do mesmo Montado, Funchal, 1917, 19 pages. He is a full professor at the Industrial and Commercial School “Antonio Augusto de Aguiar” and has held various public service commissions, currently (1939) serving as president of the board of the Commercial Association of Funchal. He was elected as a deputy for Madeira in 1922 and in successive legislatures, being part of the current Chamber of Deputies. In 1928, he published in a volume some of the speeches he delivered in Parliament, entitled Trabalhos Parlamentares.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ],
+        "Coimbra": [
+            "University of Coimbra"
+        ]
+    },
+    "people": {
+        "João Isidoro de Araújo Figueira": [
+            "Father of Juvenal Henriques de Araújo"
+        ],
+        "D. Virginia Henriques de Araújo": [
+            "Mother of Juvenal Henriques de Araújo"
+        ]
+    },
+    "years": {
+        "1892": [
+            "Birth of Juvenal Henriques de Araújo"
+        ],
+        "1909": [
+            "Completion of lyceum studies"
+        ],
+        "1914": [
+            "Graduation from the Faculty of Law at the University of Coimbra"
+        ],
+        "1917": [
+            "Publication of a pamphlet entitled Acção de expropriação do Montado do Barreiro requerida pela Câmara Municipal do Funchal contra os proprietários do mesmo Montado, Funchal, 19 pages"
+        ],
+        "1939": [
+            "Currently (1939) serving as president of the board of the Commercial Association of Funchal"
+        ],
+        "1922": [
+            "Election as a deputy for Madeira"
+        ],
+        "1928": [
+            "Publication in a volume of some of the speeches delivered in Parliament, entitled Trabalhos Parlamentares"
+        ]
+    }
+}

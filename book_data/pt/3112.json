@@ -1,0 +1,44 @@
+{
+    "id": 3112,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rodrigues (Dr. José Agostinho)",
+    "fl": "R",
+    "original_title": "Rodrigues (Dr. José Agostinho)",
+    "body": "Nasceu no Funchal a 1 de Outubro de 1864, é médico-cirúrgico pela Escola Médico-cirúrgica de Lisboa e foi despachado tenente-medico do exército a 15 de Novembro de 1894. Serviu por largos anos no regimento de infantaria n.° 27, e tem actualmente o posto de coronel, desempenhando o lugar de sub-director na Direcção Geral dos Serviços Médicos do Ministério da Guerra. Esteve em França com o C. E. P. e tem colaboração em vários jornais madeirenses. Publicou em 1890 a tese que defendeu quando concluiu o seu curso medico, e que se intitula *A opportunidade da laparotomia nas perfurações traumáticas gastro-intestinais* (1921).",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Nasceu no Funchal"
+        ],
+        "Lisboa": [
+            "Escola Médico-cirúrgica de Lisboa"
+        ],
+        "França": [
+            "Esteve em França com o C. E. P."
+        ]
+    },
+    "people": {
+        "Dr. José Agostinho Rodrigues": [
+            "Médico-cirúrgico pela Escola Médico-cirúrgica de Lisboa"
+        ],
+        "C. E. P.": [
+            "Esteve em França com o C. E. P."
+        ]
+    },
+    "years": {
+        "1864": [
+            "Nasceu"
+        ],
+        "1894": [
+            "Despachado tenente-medico do exército"
+        ],
+        "1921": [
+            "Publicou em 1890 a tese que defendeu"
+        ]
+    }
+}

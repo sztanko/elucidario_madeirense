@@ -1,0 +1,28 @@
+{
+    "id": 3566,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vapor",
+    "fl": "V",
+    "original_title": "Vapor",
+    "body": "O primeiro navio movido a vapor que visitou o porto do Funchal foi o Duke of York, da marinha mercante inglesa. Chegou aqui na primeira quinzena do mês de Maio de 1828, com grande número de passageiros que visitaram vários pontos da ilha.\n\nO Duke of York esteve também no Porto Santo, onde chegou a 15 de Maio, com 400 e tantos passageiros, alguns deles pessoas do Funchal. Estes passageiros desembarcaram naquela ilha pelas 11 horas do dia, e depois de verem os principais lugares embarcaram pelas 3 horas da tarde com destino á Madeira.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira."
+        ],
+        "Porto Santo": [
+            "Ilha do arquipélago da Madeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1828": [
+            "Chegada do Duke of York ao Funchal."
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 112,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alcoforado",
+    "fl": "A",
+    "original_title": "Alcoforado",
+    "body": "É apelido antigo e nobre, mas extinto ha muito na Madeira. O primeiro que entre nós usou dele foi Gonçalo Pinto Alcoforado, que veio para esta ilha pelos anos de 1500 e estabeleceu residência em Machico, onde morreu, tendo ali instituído um morgadio.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {},
+    "people": {
+        "Gonçalo Pinto Alcoforado": [
+            "Usou o apelido Alcoforado, estabeleceu residência em Machico, instituiu um morgadio"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Gonçalo Pinto Alcoforado veio para a ilha e estabeleceu residência em Machico"
+        ]
+    }
+}

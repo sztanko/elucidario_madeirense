@@ -1,0 +1,33 @@
+{
+    "id": 603,
+    "lang": "en",
+    "is_original": false,
+    "title": "Buxo da Rocha",
+    "fl": "B",
+    "original_title": "Buxo da Rocha",
+    "body": "The people of Madeira give this name to the Catha Dryandri, a shrub of the Celastraceae family, and to the Chamaemeles coriácea, a shrub of the Rosaceae family. The first of these shrubs can be found in S. Gonçalo, Seixal, etc.; the second near the Câmara Pestana Asylum, in Praia Formosa, etc.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Gonçalo",
+        "Seixal",
+        "Praia Formosa"
+    ],
+    "locations": {
+        "S. Gonçalo": [
+            "Location where the shrub Catha Dryandri can be found"
+        ],
+        "Seixal": [
+            "Location where the shrub Catha Dryandri can be found"
+        ],
+        "Câmara Pestana Asylum": [
+            "Location where the shrub Chamaemeles coriácea can be found"
+        ],
+        "Praia Formosa": [
+            "Location where the shrub Chamaemeles coriácea can be found"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

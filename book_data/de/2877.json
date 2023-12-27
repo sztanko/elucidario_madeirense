@@ -1,0 +1,45 @@
+{
+    "id": 2877,
+    "lang": "de",
+    "is_original": false,
+    "title": "Porto Santo (Bevölkerung, Fläche und geografische Lage der Insel)",
+    "fl": "P",
+    "original_title": "Porto Santo (População, Superfície e Situação Geográfica da ilha do)",
+    "body": "Gaspar Frutuoso behauptet, dass es im Jahr 1590 auf der Insel Porto Santo etwa 400 Haushalte gab, in denen also etwa 1.600 Einwohner lebten. Über diese Behauptung Frutuosos sagt Dr. Alvaro de Azevedo: \"Obwohl dies übertrieben erscheint, da aus den Annalen der Insel Porto Santo hervorgeht, dass die Bevölkerung im Jahr 1850 1799 Personen, d.h. etwa 450 Haushalte, betrug und aus der Volkszählung von 1864, dass es 363 Haushalte mit 1425 Einwohnern gab, glauben wir, dass Frutuosos Aussage korrekt ist; die Insel Porto Santo hat sich nur in den ersten hundertfünfzig Jahren seit ihrer Entdeckung weiterentwickelt.\"\n\n| Jahr | Einwohner |\n|------|-----------|\n| 1529 | 820       |\n| 1590 | 1.600     |\n| 1789 | 1.870     |\n| 1791 | 1.094     |\n| 1835 | 1.618     |\n| 1839 | 1.614     |\n| 1843 | 1.669     |\n| 1849 | 1.810     |\n| 1850 | 1.886     |\n| 1864 | 1.425     |\n| 1871 | 1.664     |\n| 1878 | 1.748     |\n| 1890 | 1.952     |\n| 1900 | 2.311     |\n| 1911 | 2.182     |\n| 1920 | 2.243     |\n| 1930 | 2.490     |\n| 1940 | 2.701     |\n\nDie Angaben zur Berechnung der Fläche des Archipels sind unterschiedlich, wobei Dr. Alvaro de Azevedo die Zahl von 500 Quadratkilometern für Madeira, 50 für Porto Santo und 10 für die Desertas festgelegt hat. Die \"Volkszählung\" für das Jahr 1930 gibt an, dass die Fläche der Insel Madeira 740Km2,62 Quadratkilometer und die von Porto Santo 42Km2,17 beträgt. In den \"Ilhas de Zargo\" (I-59) heißt es, dass offizielle Studien aus den Jahren 1937-1938 Madeira eine Fläche von 728Km2 und Porto Santo 48Km2,8 zuschreiben.\n\nEs gibt auch unterschiedliche Berechnungen der geografischen Lage. Der berühmte Kommentator der Saudades da Terra präsentiert einige davon und bevorzugt die der geohydrographischen Karte von General Antonio Pedro de Azevedo: 33°3'30\" nördlicher Breite und 7°45'27' westlicher Länge von Lissabon.",
+    "categories": [
+        "geography",
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Es lebten etwa 1.600 Einwohner im Jahr 1590, entwickelte sich in den ersten hundertfünfzig Jahren seit seiner Entdeckung, Fläche von 42Km2,17 im Jahr 1930 und 48Km2,8 in Studien von 1937 bis 1938, geografische Lage 33°3'30\" nördlicher Breite und 7°45'27' westlicher Länge von Lissabon"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Behauptete, dass es im Jahr 1590 etwa 1.600 Einwohner auf der Insel Porto Santo gab"
+        ],
+        "Alvaro de Azevedo": [
+            "Kommentierte die Bevölkerung der Insel Porto Santo und legte die Fläche des Archipels fest"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Es gab etwa 400 Haushalte auf der Insel Porto Santo"
+        ],
+        "1850": [
+            "Die Bevölkerung auf der Insel Porto Santo betrug 1799 Personen"
+        ],
+        "1864": [
+            "Volkszählung ergab 363 Haushalte mit 1425 Einwohnern auf der Insel Porto Santo"
+        ],
+        "1930": [
+            "Volkszählung gab die Fläche der Insel Madeira und Porto Santo an"
+        ],
+        "1937": [
+            "Offizielle Studien schrieben Madeira und Porto Santo Flächen zu"
+        ]
+    }
+}

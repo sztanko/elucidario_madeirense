@@ -1,0 +1,31 @@
+{
+    "id": 1948,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lazarettweg",
+    "fl": "L",
+    "original_title": "Lazareto (Caminho do)",
+    "body": "Er liegt in den Gemeinden Santa Maria Maior und S. Gonçalo und ist die Verlängerung des Socorro-Wegs, der im Norden die Grundstücke des Lazaretts von Gonçalo Aires begrenzt. Die Gasse, die in diesen Weg östlich des Pasto-Baches mündet, ist als Lazarett-Gasse bekannt. Am Südufer des Lazarettwegs und dem Meer zugewandt liegt der jüdische Friedhof mit einer hebräischen Inschrift am Eingang, die \"Wohnstatt des Lebens\" bedeutet und das Datum 5.611 trägt, was dem Jahr 1851 unserer Zeitrechnung entspricht.",
+    "categories": [
+        "health",
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "S. Gonçalo"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Liegt in der Gemeinde Santa Maria Maior"
+        ],
+        "S. Gonçalo": [
+            "Liegt in der Gemeinde S. Gonçalo"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "5.611 entspricht dem Jahr 1851 unserer Zeitrechnung"
+        ]
+    }
+}

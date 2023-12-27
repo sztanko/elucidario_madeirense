@@ -1,0 +1,36 @@
+{
+    "id": 149,
+    "lang": "de",
+    "is_original": false,
+    "title": "Almada (Antonio José de Sousa)",
+    "fl": "A",
+    "original_title": "Almada (Antonio José de Sousa)",
+    "body": "Wir wissen von der Existenz dieses Madeirensers durch das, was uns Pinheiro Chagas im Diccionario Popular und das Portugal-Wörterbuch über ihn sagen. Er wurde 1824 auf dieser Insel geboren und starb 1874 in Benfica. Er pflegte die Musen, scheint aber kein besonders inspirierter Dichter gewesen zu sein.\n\nNachdem er in Lissabon eine sehr reiche Frau geheiratet hatte, verprasste er in kurzer Zeit ein beträchtliches Vermögen. Danach widmete er sich verschiedenen Industrieunternehmen, bei denen ihm das Glück nicht allzu hold war. Während der 100-Tage-Regierung des Marschalls Saldanha war Sousa Almada Zivilgouverneur von Castelo Branco. Er hatte sehr feine Umgangsformen, sprach mehrere Sprachen fließend und besaß eine ungewöhnliche Kraft und einen ungewöhnlichen Mut, von dem er in verschiedenen Situationen seines unruhigen Lebens profitierte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Castelo Branco"
+    ],
+    "locations": {
+        "Benfica": [
+            "Ort, an dem er starb"
+        ]
+    },
+    "people": {
+        "Pinheiro Chagas": [
+            "Autor des Diccionario Popular"
+        ],
+        "Saldanha": [
+            "Marschall der 100-Tage-Regierung"
+        ]
+    },
+    "years": {
+        "1824": [
+            "Geburtsjahr"
+        ],
+        "1874": [
+            "Sterbejahr"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 961,
+    "lang": "de",
+    "is_original": false,
+    "title": "Companhia de Pescarias",
+    "fl": "C",
+    "original_title": "Companhia de Pescarias",
+    "body": "1792 gab es eine solche Gesellschaft in Funchal, die auf Initiative von Eduardo Watts gegründet wurde. Wir nehmen jedoch an, dass sie nicht lange Bestand hatte. Am 21. November 1822 wurde in dieser Stadt eine Fischereigesellschaft gegründet, die zwei Jahre später wieder verschwand, da sie ihren Mitgliedern Verluste beschert hatte.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ]
+    },
+    "people": {
+        "Eduardo Watts": [
+            "Initiative"
+        ]
+    },
+    "years": {
+        "1792": [
+            "Fischereigesellschaft in Funchal"
+        ],
+        "1822": [
+            "Gründung der Fischereigesellschaft"
+        ],
+        "1824": [
+            "Auflösung der Fischereigesellschaft"
+        ]
+    }
+}

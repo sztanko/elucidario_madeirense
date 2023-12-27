@@ -1,0 +1,36 @@
+{
+    "id": 1164,
+    "lang": "de",
+    "is_original": false,
+    "title": "Das Recht",
+    "fl": "D",
+    "original_title": "Direito (O)",
+    "body": "Die erste Ausgabe erschien am 21. Oktober 1857, die letzte, die 93., am 7. August 1859. Chefredakteur war Pedro Maria Gonçalves de Freitas.\n\nEine andere Zeitschrift mit dem gleichen Titel, die mit mehreren Unterbrechungen einige Jahrzehnte lang erschien, wurde von dem madeirischen Schriftsteller João Augusto de Ornelas gegründet und redigiert. Die 1. Ausgabe erschien am 2. November 1859.\n\nEine weitere Serie der gleichen Zeitschrift, bei der es sich unseres Wissens um die vierte handelt, wurde vom 20. April 1902 (Nr. 2511) bis zum 11. Januar 1911 (Nr. 5060) veröffentlicht.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pedro Maria Gonçalves de Freitas": [
+            "Chefredakteur der Zeitschrift"
+        ],
+        "João Augusto de Ornelas": [
+            "Gründer und Chefredakteur der Zeitschrift"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Erste Ausgabe der Zeitschrift"
+        ],
+        "1859": [
+            "Letzte Ausgabe der Zeitschrift"
+        ],
+        "1902": [
+            "Beginn einer weiteren Serie der Zeitschrift"
+        ],
+        "1911": [
+            "Ende einer weiteren Serie der Zeitschrift"
+        ]
+    }
+}

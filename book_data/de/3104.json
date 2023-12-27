@@ -1,0 +1,36 @@
+{
+    "id": 3104,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rocha de Gouveia (Gabriel)",
+    "fl": "R",
+    "original_title": "Rocha de Gouveia (Gabriel)",
+    "body": "Geboren in Arco da Calheta am 30. September 1887 als Sohn von Manuel Rocha de Gouveia und Maria Augusta Soares Rocha de Gouveia. Er studierte Agronomie in Lissabon, als er nach der Kriegserklärung Deutschlands an Portugal zum Militärdienst einberufen wurde. Nach seiner Beförderung zum Fähnrich ging er nach Frankreich, wo er am 13. Oktober 1917 im Schützengraben seinen Tod fand, während er sorglos mit anderen Offizieren sprach und von mehreren Granatsplittern getroffen wurde, die ihn auf der Stelle töteten.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "Manuel Rocha de Gouveia": [
+            "Vater"
+        ],
+        "Maria Augusta Soares Rocha de Gouveia": [
+            "Mutter"
+        ]
+    },
+    "years": {
+        "1887": [
+            "Geboren in Arco da Calheta"
+        ],
+        "1917": [
+            "Starb während des Ersten Weltkriegs in Frankreich"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2623,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pacheco",
+    "fl": "P",
+    "original_title": "Pacheco",
+    "body": "Dieser Familienname stammt von Antão Pacheco und dem Kommandeur Gomes Pacheco, Personen, die Mitte des 15. Jahrhunderts nach Madeira kamen. Pedro Pacheco, der Sohn von Gomes Pacheco, wies 1535 seine Adelsabstammung nach.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antão Pacheco": [
+            "Person, die Mitte des 15. Jahrhunderts nach Madeira kam"
+        ],
+        "Gomes Pacheco": [
+            "Kommandeur, der Mitte des 15. Jahrhunderts nach Madeira kam"
+        ],
+        "Pedro Pacheco": [
+            "Sohn von Gomes Pacheco, der 1535 seine Adelsabstammung nachwies"
+        ]
+    },
+    "years": {
+        "XV": [
+            "Ankunft von Antão Pacheco und Kommandeur Gomes Pacheco in Madeira"
+        ],
+        "1535": [
+            "Nachweis des Adels durch Pedro Pacheco"
+        ]
+    }
+}

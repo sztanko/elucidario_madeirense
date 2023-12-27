@@ -1,0 +1,33 @@
+{
+    "id": 3512,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Trapiche",
+    "fl": "T",
+    "original_title": "Trapiche",
+    "body": "Sítio da freguesia de Santo António do Funchal. Nele ficava a quinta do mesmo nome do sítio com uma excelente casa de campo e capela anexa, dedicada a Santana e São João e edificada no ano de 1814, sendo essa residência de construção mais antiga. Foi nesta quinta que, no ano de 1923, os beneméritos Irmãos de São João de Deus estabeleceram um hospital de alienados, com o nome de Casa de Saúde do Trapiche, de que já demos notícia em outro lugar desta obra.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {
+        "Santo António do Funchal": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Irmãos de São João de Deus": [
+            "Beneméritos"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Nele ficava a quinta do mesmo nome do sítio com uma excelente casa de campo e capela anexa, dedicada a Santana e São João e edificada no ano de 1814, sendo essa residência de construção mais antiga."
+        ],
+        "1923": [
+            "Foi nesta quinta que, no ano de 1923, os beneméritos Irmãos de São João de Deus estabeleceram um hospital de alienados, com o nome de Casa de Saúde do Trapiche, de que já demos notícia em outro lugar desta obra."
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 3241,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Lourenço (Fortress of)",
+    "fl": "S",
+    "original_title": "São Lourenço (Fortaleza de)",
+    "body": "It was originally a simple bulwark, with its construction seemingly initiated during the time of the fourth landowner João Gonçalves da Câmara. The works continued by order of the king during the rule of Simão Gonçalves da Câmara, the fifth landowner, as seen in the charter of September 2, 1542. When the invasion of French corsairs occurred in 1566, only the bulwark existed, but during the reign of King Sebastian, the fortress was already built, although it had a different appearance from what it presents today.\n\nThe fortress of S. Lourenço displays the coat of arms of Portugal and the emblematic sphere of D. Manuel on the eastern tower. At the time when Dr. Azevedo wrote the notes to the 'Saudades da Terra,' there was still a following inscription above the door of the destroyed chapel of the saint that gave the name to the fortification we are referring to:\n\nD. V. N. D.\n16 3 S\n\nAccording to Dr. Azevedo, this inscription seems to mean: DEO VOTA NOSTRO DOMINO, 1635, that is, VOTED TO OUR LORD GOD, IN THE YEAR 1635.\n\nThe coat of arms of Portugal and the sphere of D. Manuel were removed from the fortress after the establishment of the Republic, but about four years ago, they returned to their place, as it was recognized, albeit belatedly, that there was no reason to hide them from the public eye. What could not be restored to the same fortress was an image of São Lourenço that existed in a niche above the main door in the Largo da Restauração, as it had been removed from there and broken by some sailors of the navy, who were in Funchal in 1911 (1921).\n\nNear the location where the meteorological post stands, there was a chestnut tree that flourished and bore fruit every year for many years, giving its name to one of the bulwarks of the fortress.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "Dr. Azevedo": [
+            "Wrote the notes to the 'Saudades da Terra'"
+        ]
+    },
+    "years": {
+        "1542": [
+            "Initiation of the fortress construction"
+        ],
+        "1566": [
+            "Invasion of French corsairs"
+        ],
+        "1635": [
+            "Inscription: DEO VOTA NOSTRO DOMINO"
+        ],
+        "1911": [
+            "Navy sailors were in Funchal"
+        ]
+    }
+}

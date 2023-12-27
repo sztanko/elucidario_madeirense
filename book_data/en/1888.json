@@ -1,0 +1,39 @@
+{
+    "id": 1888,
+    "lang": "en",
+    "is_original": false,
+    "title": "Junta da Justiça",
+    "fl": "J",
+    "original_title": "Junta da Justiça",
+    "body": "It was created in this archipelago by the royal decree of the 26th of October, 1803, and consisted of the Governor and Captain General, the Corregidor of the District, the Judge of the Outlying District, and the Judge or Administrator of Residues and Chapels. We do not know the extent of its powers, but we have read somewhere that it was intended to 'judge the crimes committed in the district and that its decisions could be appealed to the Casa da Suplicação in Lisbon.' For reasons unknown to us, the Governor and Captain General informed the metropolis in 1809 that it was advisable to exclude the Judge of Residues and Chapels from the Junta da Justiça. In 1824, the Governor complained to the higher authorities about the excesses committed by the said Junta and proposed that the royal decree of the 15th of October, 1810, which created the Criminal Justice Board in the Azores, be extended to this archipelago. We do not know when it was abolished, but it was still functioning here in the year 1830.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Governor and Captain General": [
+            "Title of a political and military position."
+        ],
+        "Corregidor of the District": [
+            "Judicial position responsible for the administration of justice in a district."
+        ],
+        "Judge of the Outlying District": [
+            "Judge with jurisdiction outside the locality where he resides."
+        ],
+        "Judge or Administrator of Residues and Chapels": [
+            "Position responsible for the administration of the assets and income of deceased persons without heirs."
+        ]
+    },
+    "years": {
+        "1803": [
+            "Creation of the Junta da Justiça by royal decree."
+        ],
+        "1809": [
+            "Exclusion of the Judge of Residues and Chapels from the Junta da Justiça."
+        ],
+        "1824": [
+            "Complaint of the Governor about the excesses committed by the Junta da Justiça."
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": 2332,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Moniz (D. João Henriques)",
+    "fl": "M",
+    "original_title": "Moniz (D. João Henriques)",
+    "body": "Nasceu nesta cidade no ultimo quartel do século XVIII e era próximo parente do dr. Lourenço José Moniz, dr. Patricio Moniz e conselheiro Jaime Moniz, dos quais nos ocupamos neste Elucidário. Formou-se em canones pela Universidade de Coimbra tendo-se ordenado de presbítero no primeiro quartel do século passado. Exercia nesta diocese as funções de promotor eclesiástico, quando foi envolvido na alçada que veio a esta ilha em 1828, sendo no ano seguinte enviado prêso para Lisboa e dali deportado em 1830 para o arquipélago de Cabo Verde. Residiu alguns anos na ilha Brava, onde desempenhou funções paroquiais e onde prestou relevantes serviços à instrução, com a fundação de duas escolas. Restabelecido o governo constitucional, não regressou à pátria, tendo sido em 1835 nomeado governador do bispado de Cabo Verde. Em 1841, foi apresentado bispo daquela diocese, mas somente em 1844 é que veio a Lisboa receber a sagração episcopal. Teve um bem curto episcopado, pois chegou a Cabo Verde em Fevereiro de 1847 e morreu a 1 de Julho do mesmo ano. Julgou-se então que as contrariedades e perseguições que sofreu mal desembarcou na ilha de São Tiago, o arrastaram sem demora à sepultura. 0 cabido que era composto de um cónego preto e outro mulato, não quis conferir-lhe a posse do bispado, e o Governador, pela falta da posse legal, não o reconheceu como prelado e negou-se a abonar-lhe os respectivos honorários. No meio destas lutas e amarguras, sucumbiu ao ataque duma febre perniciosa, sendo sepultado no cemitério da Praia, sem que lhe fossem prestadas as honras civis e eclesiásticas a que tinha direito a sua elevada jerarquia. Não faltou quem afirmasse que o prelado fora vitima dum assassinato causado por envenenamento, que então se atribuiu a um seu próximo parente. D. João Henriques Moniz tinha sido eleito senador substituto pela Madeira para a sessão legislativa de 1840 a 1842.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cabo Verde": [
+            "Arquipélago onde foi deportado"
+        ]
+    },
+    "people": {
+        "Dr. Lourenço José Moniz": [
+            "Parente próximo"
+        ],
+        "Dr. Patricio Moniz": [
+            "Parente próximo"
+        ],
+        "Conselheiro Jaime Moniz": [
+            "Parente próximo"
+        ]
+    },
+    "years": {
+        "Século XVIII": [
+            "Nascimento"
+        ],
+        "1828": [
+            "Envolvimento na alçada que veio a esta ilha"
+        ],
+        "1829": [
+            "Envio para Lisboa"
+        ],
+        "1830": [
+            "Deportação para o arquipélago de Cabo Verde"
+        ],
+        "1835": [
+            "Nomeação como governador do bispado de Cabo Verde"
+        ],
+        "1841": [
+            "Apresentação como bispo da diocese de Cabo Verde"
+        ],
+        "1844": [
+            "Recebimento da sagração episcopal"
+        ],
+        "1847": [
+            "Chegada a Cabo Verde e morte"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 368,
+    "lang": "en",
+    "is_original": false,
+    "title": "Azinhal",
+    "fl": "A",
+    "original_title": "Azinhal",
+    "body": "We believe this surname is extinct among us. One of the first settlers of Madeira was Estevão do Azinhal, who in 1471 was part of the governance of the then town of Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where Estevão do Azinhal was part of the governance"
+        ]
+    },
+    "people": {
+        "Estevão do Azinhal": [
+            "Madeira settler"
+        ]
+    },
+    "years": {
+        "1471": [
+            "Participation in the governance of the town of Funchal"
+        ]
+    }
+}

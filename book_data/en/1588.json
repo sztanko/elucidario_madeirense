@@ -1,0 +1,25 @@
+{
+    "id": 1588,
+    "lang": "en",
+    "is_original": false,
+    "title": "Godman (Frederic du Cane)",
+    "fl": "G",
+    "original_title": "Godman (Frederic du Cane)",
+    "body": "In his book entitled Natural History of the Azores (London, 1870), he published a list, organized by W. Mitten, of the Muscineas of Madeira, the Canaries, and the Azores, as well as a work by H. C. Watson on Azorean botany, which contains some observations that may be beneficial to those studying the flora of our archipelago.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "W. Mitten": [
+            "Organizer of the list of Muscineas"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Publication of the book Natural History of the Azores"
+        ]
+    }
+}

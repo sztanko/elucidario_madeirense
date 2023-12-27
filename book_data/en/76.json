@@ -1,0 +1,36 @@
+{
+    "id": 76,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aguiar (Joaquim Nunes de)",
+    "fl": "A",
+    "original_title": "Aguiar (Joaquim Nunes de)",
+    "body": "This distinguished engineer was born in Funchal in the late first quarter of the last century and was the natural son of Diogo Teles de Meneses, director of our Customs. After completing his preparatory studies, he began his civil engineering course in Lisbon, which he later completed in Paris with great success in 1848. He was an engineer for the Municipal Council of Funchal from 1849 to 1850, and was called in 1852 to work on the northern railway, where he notably demonstrated his talent and dedication. He then held important positions, such as director of public works in Viana, Braga, and Porto, member of the Public Works Council, director of the eastern railway, and inspector of the northern railway, often traveling abroad on government missions. He was a man of great abilities and remarkable activity, and passed away in Funchal due to overwork on November 14, 1877.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Diogo Teles de Meneses": [
+            "Customs director"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Completion of civil engineering course in Paris"
+        ],
+        "1849": [
+            "Start as engineer for the Municipal Council of Funchal"
+        ],
+        "1850": [
+            "End of position as engineer for the Municipal Council of Funchal"
+        ],
+        "1852": [
+            "Called to work on the northern railway"
+        ],
+        "1877": [
+            "Passing away"
+        ]
+    }
+}

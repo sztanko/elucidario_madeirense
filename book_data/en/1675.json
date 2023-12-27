@@ -1,0 +1,27 @@
+{
+    "id": 1675,
+    "lang": "en",
+    "is_original": false,
+    "title": "Hann",
+    "fl": "H",
+    "original_title": "Hann",
+    "body": "Ref.: Klima der Azoren und der Madeira (Meteor. Zeitschr., 1871).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Azores": [
+            "Study location"
+        ],
+        "Madeira": [
+            "Study location"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1871": [
+            "Publication of the study"
+        ]
+    }
+}

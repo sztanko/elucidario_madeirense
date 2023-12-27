@@ -1,0 +1,25 @@
+{
+    "id": 1451,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Форт Сан-Бенту-да-Рибейра-Брава",
+    "fl": "Ф",
+    "original_title": "Forte de S. Bento da Ribeira Brava",
+    "body": "Построен по приказу губернатора Дуарти Содре Перейры для защиты места.",
+    "categories": [
+        "architecture",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Место"
+        ]
+    },
+    "people": {
+        "Duarte Sodré Pereira": [
+            "Губернатор"
+        ]
+    },
+    "years": {}
+}

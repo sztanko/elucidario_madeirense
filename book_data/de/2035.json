@@ -1,0 +1,40 @@
+{
+    "id": 2035,
+    "lang": "de",
+    "is_original": false,
+    "title": "Könige Berg",
+    "fl": "K",
+    "original_title": "Lombo dos Reis",
+    "body": "Bewohnter Ort in der Gemeinde Estreito da Calheta, in dem sich die Kapelle der Heiligen Drei Könige befindet, die Francisco Homem de Gouveia um 1529 gründete. Er machte sie zum Sitz des Majorats, das er einrichtete und das später in das Haus der Grundherren der Insel Porto Santo eingegliedert wurde. An derselben Stelle befindet sich die Kapelle Unserer Lieben Frau der Befreiung, die 1860 von D. Inácia Betencourt Perestrelo erbaut wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Ort auf Madeira"
+        ],
+        "Porto Santo": [
+            "Insel des Madeira-Archipels"
+        ]
+    },
+    "people": {
+        "Francisco Homem de Gouveia": [
+            "Gründer der Kapelle der Heiligen Drei Könige"
+        ],
+        "D. Inácia Betencourt Perestrelo": [
+            "Gründerin der Kapelle Unserer Lieben Frau der Befreiung"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Gründung der Kapelle der Heiligen Drei Könige"
+        ],
+        "1860": [
+            "Bau der Kapelle Unserer Lieben Frau der Befreiung"
+        ]
+    }
+}

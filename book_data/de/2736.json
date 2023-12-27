@@ -1,0 +1,31 @@
+{
+    "id": 2736,
+    "lang": "de",
+    "is_original": false,
+    "title": "Madeirische Wallfahrten",
+    "fl": "M",
+    "original_title": "Peregrinações Madeirenses",
+    "body": "Unter der Bezeichnung \"Madeirische Wallfahrten\" fanden in den Jahren 1923 und 1926 zwei Ausflüge statt, an denen einige hundert Personen dieses Archipels teilnahmen. Sie besuchten die berühmtesten Heiligtümer, Denkmäler und Museen in verschiedenen Ländern Europas. Über die erste veröffentlichte Pater Jacinto da C. Nunes eine interessante Beschreibung in zwanzig Artikeln, die in der Zeitschrift A Esperança in den Jahren 1924 und 1925 erschienen, und über die zweite veröffentlichte der bekannte Schriftsteller João dos Reis Gomes einen ausführlichen Bericht mit dem Titel \"Durch Frankreich, die Schweiz und Italien\", ein wunderbares und lehrreiches Reisebuch.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pater Jacinto da C. Nunes": [
+            "Autor der Beschreibung der Wallfahrten"
+        ],
+        "João dos Reis Gomes": [
+            "Schriftsteller des Berichts über die Wallfahrten"
+        ]
+    },
+    "years": {
+        "1923": [
+            "Erste Wallfahrt"
+        ],
+        "1926": [
+            "Zweite Wallfahrt"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 714,
+    "lang": "de",
+    "is_original": false,
+    "title": "Campanario (Hafen und Kai von)",
+    "fl": "C",
+    "original_title": "Campanario (Porto e Cais do)",
+    "body": "An der Küste der gleichnamigen Gemeinde befindet sich ein kleiner und schlechter Hafen, in dem 1909 ein unbedeutender Anleger gebaut wurde.\n\nEr ist auch unter dem Namen Hafen von Lapa bekannt. Er liegt 3 Seemeilen vom Hafen von Câmara de Lobos und 1,7 Seemeilen vom Hafen von Ribeira Brava entfernt.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Campanario",
+        "Camara de Lôbos",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Campanario": [
+            "Gemeinde mit einem kleinen und schlechten Hafen, auch bekannt als Hafen von Lapa"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1909": [
+            "Bau eines unbedeutenden Anlegers an der Küste der Gemeinde Campanario"
+        ]
+    }
+}

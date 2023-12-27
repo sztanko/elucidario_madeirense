@@ -1,0 +1,37 @@
+{
+    "id": 1267,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Espinola",
+    "fl": "E",
+    "original_title": "Espinola",
+    "body": "É apelido nobre e muito antigo entre nós, e provém de Antonio e Leonardo Espinola, próximos parentes, que vieram para esta Ilha no primeiro quartel do século XVI. Eram naturais de Génova e oriundos duma antiga e nobre família desta cidade. Há dois ramos: Espinolas de Adorno ou Aderno, cujo brasão de armas, concedido em 1513, consiste em “campo de ouro e uma faxa de escaques de prata e vermelho, e nela um ramo de espinhas vermelho, e por diferença uma marlota de azul, elmo de prata aberto e por timbre o mesmo ramo, paquife de ouro e vermelho“. O outro ramo, conhecido pelo nome de Rosa ou de la Rosa, tem brasão de armas, conferido a 27 de Fevereiro de 1535, e cuja descrição em nada difere da anterior. Antonio Espinola teve muitas terras de sesmaria. A 30 de Abril de 1524 doou um terreno na extremidade da cidade, no qual se se construiu a capela de São Tiago, com a condição de que na mesma se desse sepultura ás pessoas da sua família e o capelão pedisse um Padre Nosso e uma Ave - Maria por sua alma, segundo afirma o anotador da Historia Insulana.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "São Tiago"
+    ],
+    "locations": {
+        "Génova": [
+            "Cidade de origem dos Espinolas"
+        ]
+    },
+    "people": {
+        "Antonio Espinola": [
+            "Membro da família Espinola"
+        ]
+    },
+    "years": {
+        "1513": [
+            "Concessão do brasão de armas aos Espinolas de Adorno ou Aderno"
+        ],
+        "1535": [
+            "Concessão do brasão de armas aos Espinolas de Rosa ou de la Rosa"
+        ],
+        "1524": [
+            "Doação de terreno por Antonio Espinola para a construção da capela de São Tiago"
+        ]
+    }
+}

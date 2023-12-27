@@ -1,0 +1,39 @@
+{
+    "id": 1769,
+    "lang": "en",
+    "is_original": false,
+    "title": "Immaculate Heart of Mary (Chapel of)",
+    "fl": "I",
+    "original_title": "Imaculado Coração de Maria (Capela do)",
+    "body": "In 1918, a chapel of this invocation was begun at the site of Fajã do Penedo, in the parish of Boaventura, due to the initiative and strenuous efforts of D. Maria Margarida dos Anjos Ribeiro, who resides at the same site. It was solemnly blessed with great splendor on August 23, 1919, by the diocesan prelate D. António Manuel Pereira Ribeiro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {
+        "Fajã do Penedo": [
+            "Site"
+        ],
+        "Boaventura": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "D. Maria Margarida dos Anjos Ribeiro": [
+            "Initiator of the construction"
+        ],
+        "D. António Manuel Pereira Ribeiro": [
+            "Diocesan prelate"
+        ]
+    },
+    "years": {
+        "1918": [
+            "Start of the construction of the chapel"
+        ],
+        "1919": [
+            "Solemn blessing of the chapel"
+        ]
+    }
+}

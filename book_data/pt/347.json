@@ -1,0 +1,31 @@
+{
+    "id": 347,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Avila e Bolama (Duque de)",
+    "fl": "A",
+    "original_title": "Avila e Bolama (Duque de)",
+    "body": "> Antonio José de Avila, depois duque de Avila e Bolama, conhecido estadista português, foi por decreto de 5 de Setembro de 1846 nomeado comissário régio, com poderes discricionários, a fim de vir á ilha da Madeira sindicar dos graves acontecimentos que aqui se tinham dado por causa do proselitismo protestante do Dr. Roberto Kalley e de adoptar as previdências que a situação anormal em que se encontrava o distrito lhe aconselhasse. Antonio José de Avila saiu de Lisboa a 9 de Setembro, acompanhado de José Silvestre Ribeiro, que vinha nomeado governador civil. A 21 do mesmo mês suspendeu o governador civil interino e o administrador do concelho do Funchal e tomou outras medidas de administração. Saíu para Lisboa a 10 de Outubro, tendo José Silvestre tomado posse do seu governo a 7 do mesmo mês.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisboa": [
+            "Capital de Portugal."
+        ],
+        "Madeira": [
+            "Ilha onde ocorreram os graves acontecimentos mencionados."
+        ]
+    },
+    "people": {
+        "Antonio José de Avila": [
+            "Conhecido estadista português."
+        ]
+    },
+    "years": {
+        "1846": [
+            "Nomeação como comissário régio com poderes discricionários para sindicar dos graves acontecimentos na ilha da Madeira."
+        ]
+    }
+}

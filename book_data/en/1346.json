@@ -1,0 +1,45 @@
+{
+    "id": 1346,
+    "lang": "en",
+    "is_original": false,
+    "title": "Favila",
+    "fl": "F",
+    "original_title": "Favila",
+    "body": "Originally, this surname was spelled Favela and belonged to an ancient and noble family that settled on this island in the late 15th century. The first to use it among us was Fernão Favela, also known as the Old, who had served valiantly in Africa and had been a nobleman of the royal household. He married Beatriz Pires in Madeira and established the Piornais estate, with its headquarters at the chapel of Nossa Senhora da Ajuda, which he founded and where he was buried. He passed away in the year 1545, according to Henriques de Noronha, and in 1537, according to the date signed by Dr. Rodrigues de Azevedo. His son and successor was Antonio Favila, who died in 1601 and is buried in the chapel of Ajuda. D. Inez Moniz, born in 1553 and deceased in 1589, was the daughter of Antonio Favila and established an entail in favor of her niece D. Isabel Acciaioli de Vasconcelos, with the clause that it should perpetually pass to the eldest daughter, which is an extremely curious and, we believe, very rare circumstance, at least among us.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Piornais",
+        "Nossa Senhora da Ajuda"
+    ],
+    "locations": {},
+    "people": {
+        "Fernão Favela": [
+            "Nobleman of the royal household, settled in Madeira in the late 15th century."
+        ],
+        "Beatriz Pires": [
+            "Wife of Fernão Favela."
+        ],
+        "Antonio Favila": [
+            "Son and successor of Fernão Favela, buried in the chapel of Ajuda."
+        ],
+        "D. Inez Moniz": [
+            "Daughter of Antonio Favila, established an entail in favor of her niece D. Isabel Acciaioli de Vasconcelos."
+        ]
+    },
+    "years": {
+        "1545": [
+            "Death of Fernão Favela"
+        ],
+        "1601": [
+            "Death of Antonio Favila"
+        ],
+        "1553": [
+            "Birth of D. Inez Moniz"
+        ],
+        "1589": [
+            "Death of D. Inez Moniz"
+        ]
+    }
+}

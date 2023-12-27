@@ -1,0 +1,40 @@
+{
+    "id": 1734,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mensch",
+    "fl": "M",
+    "original_title": "Homem",
+    "body": "Dieser Familienname stammt von: Garcia Homem de Sousa, der Catarina Gonçalves da Câmara heiratete, Tochter von Zargo; Francisco Homem de Gouveia, Edelmann im Haus von D. Manuel, der im Estreito da Calheta lebte, wo er 1529 ein Majorat gründete; Francisco Homem d'El-Rei, der Anfang des 16. Jahrhunderts in Calheta lebte; und Rui Fernandes Homem, natürlicher Sohn von Fernão Homem und Neffe des erwähnten Garcia Homem de Sousa.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Estreito da Calheta": [
+            "Ort, an dem Francisco Homem de Gouveia lebte und 1529 ein Majorat gründete"
+        ],
+        "Calheta": [
+            "Ort, an dem Francisco Homem d'El-Rei Anfang des 16. Jahrhunderts lebte"
+        ]
+    },
+    "people": {
+        "Garcia Homem de Sousa": [
+            "Heiratete Catarina Gonçalves da Câmara, Tochter von Zargo"
+        ],
+        "Francisco Homem de Gouveia": [
+            "Edelmann im Haus von D. Manuel"
+        ],
+        "Francisco Homem d'El-Rei": [
+            "Lebte Anfang des 16. Jahrhunderts in Calheta"
+        ],
+        "Rui Fernandes Homem": [
+            "Natürlicher Sohn von Fernão Homem und Neffe des erwähnten Garcia Homem de Sousa"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Jahr, in dem Francisco Homem de Gouveia ein Majorat im Estreito da Calheta gründete"
+        ]
+    }
+}

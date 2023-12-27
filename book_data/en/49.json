@@ -1,0 +1,24 @@
+{
+    "id": 49,
+    "lang": "en",
+    "is_original": false,
+    "title": "Adams (J.)",
+    "fl": "A",
+    "original_title": "Adams (J.)",
+    "body": "An English doctor who, in 1802, obtained a license from the Governor and Captain General to vaccinate 4 to 6 foundlings every week, who were supposed to go to his house for this purpose. He was, apparently, the first doctor to administer the vaccine in Madeira. Ref.: A Guide to Madeira with an account of the Climate (London 1901).",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "J. Adams": [
+            "English doctor"
+        ]
+    },
+    "years": {
+        "1802": [
+            "License to administer vaccination"
+        ]
+    }
+}

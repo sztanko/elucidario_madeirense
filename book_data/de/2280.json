@@ -1,0 +1,50 @@
+{
+    "id": 2280,
+    "lang": "de",
+    "is_original": false,
+    "title": "Markthalle Union",
+    "fl": "M",
+    "original_title": "Mercado União",
+    "body": "Sie wurde 1835 an der Stelle errichtet, an der sich die Ruinen der Kirche Unserer Lieben Frau vom Kieselstein befanden. Am 12. Juni bat der Stadtrat um Erlaubnis beim Präfekten, den Turm und die Reste derselben Kirche abzureißen, obwohl das königliche Edikt vom 10. März 1805 ihre Erhaltung angeordnet hatte. Um die Markthalle zu vergrößern, erwarb der Stadtrat zwei Anwesen, eines gehörte Francisco João de Santa Clara e Brito und das andere der Bruderschaft des Allerheiligsten von Santa Maria Maior, die ebenfalls abgerissen werden sollten.\n\nObwohl der Markt bereits Ende 1835 in Betrieb war, wurde er erst Anfang 1839 mit einer Eisenarkade mit drei Toren geschlossen.\n\nAm 10. November 1910 beschloss der Stadtrat, den Markt União am Ende des Jahres aufzulösen und abzureißen, aber erst am 8. Juni 1911 wurde eine Ausschreibung für die Abbrucharbeiten eröffnet, die am 10. April desselben Jahres vergeben wurden.\n\nDie Einrichtungen des D. Pedro V.-Marktes, der speziell für den Verkauf von \"Gemüse und Kräutern\" bestimmt war, und des S. Pedro-Platzes, auf dem der gesamte in der Stadt konsumierte Fisch verkauft wurde, wurden sehr beengt. Diese gewichtigen Umstände sowie die dringende Notwendigkeit, die \"Meeresallee\" zu verlängern, rieten zum Bau neuer Märkte, die mit dem ständig wachsenden Bevölkerungszuwachs, den modernsten und strengsten Hygienevorschriften und der Weite und Bequemlichkeit, die diesen wichtigen Dienstleistungen verliehen werden sollte, in Einklang standen. Der Stadtrat von Funchal wagte sich an dieses Unterfangen und errichtete einen großartigen Bau, in dem diese vielfältigen Dienstleistungen in einem einzigen Gebäude untergebracht wurden, wenn auch in verschiedenen, geräumigen und unabhängigen Einrichtungen mit allen Bedingungen, die von der vollkommensten Organisation dieser Dienste verlangt wurden, so dass behauptet wurde, es sei in seiner Art die erste Einrichtung im ganzen Land.\n\nDas ausgewählte Gelände war ein großes Polygon innerhalb der Grenzen des Largo dos Lavradores, der Rua de Santo António oder do Hospital Velho, der Rua da Boa Viagem und der Rua Nova de Santa Maria oder de Latino Coelho, wobei der Haupteingang im alten Largo dos Lavradores eröffnet wurde.\n\nWie bereits erwähnt, wurden trotz der Vielfalt der zusammengelegten Dienste, die auf zwei verschiedenen Märkten erbracht wurden, dank der großen Kapazität der Einrichtungen und der speziellen und methodischen Organisation, die allem vorstand, alle Störungen und Antagonismen zwischen den verschiedenen gewerblichen und geschäftlichen Sektionen, die dort ihre Tätigkeit ausübten, vermieden.",
+    "categories": [
+        "economy",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Largo dos Lavradores": [
+            "Standort des neuen Marktes"
+        ],
+        "Rua de Santo António": [
+            "Grenze des Standorts"
+        ],
+        "Rua da Boa Viagem": [
+            "Grenze des Standorts"
+        ],
+        "Rua Nova de Santa Maria": [
+            "Grenze des Standorts"
+        ]
+    },
+    "people": {
+        "Francisco João de Santa Clara e Brito": [
+            "Eigentümer eines der abgerissenen Anwesen"
+        ],
+        "Servulo Drumond de Meneses": [
+            "Stadtrat im Jahr 1853"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Bau der Markthalle"
+        ],
+        "1839": [
+            "Schließung der Markthalle mit Eisenarkade"
+        ],
+        "1910": [
+            "Beschluss zur Auflösung und Abriss der Markthalle União"
+        ],
+        "1911": [
+            "Ausschreibung für Abrissarbeiten"
+        ]
+    }
+}

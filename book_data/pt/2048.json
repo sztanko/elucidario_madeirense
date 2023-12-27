@@ -1,0 +1,38 @@
+{
+    "id": 2048,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lopes Rocha (Dr. Vitúrio)",
+    "fl": "L",
+    "original_title": "Lopes Rocha (Dr. Vitúrio)",
+    "body": "Nasceu nesta cidade a 5 de Setembro de 1752, sendo filho de Antonio Lopes Rocha e irmão do deão Dr. João Francisco Lopes Rocha. Cursou na Universidade de Coimbra a Faculdade de Matemática e nela tomou o grau de doutor, recebendo o capelo a 24 de Dezembro de 1777. Fez concurso para lente e ali exerceu o magistério durante muitos anos. Sendo já jubilado e sócio da Academia Real das Sciencias, requereu o lugar de prefeito das Escolas Publicas da Madeira, cargo que não sabemos se chegou a desempenhar. Não conseguimos alcançar quaisquer outras informações a respeito deste madeirense.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Local onde cursou na Universidade"
+        ]
+    },
+    "people": {
+        "Dr. Vitúrio Lopes Rocha": [
+            "Nasceu nesta cidade a 5 de Setembro de 1752"
+        ],
+        "Antonio Lopes Rocha": [
+            "Pai de Dr. Vitúrio Lopes Rocha"
+        ],
+        "Dr. João Francisco Lopes Rocha": [
+            "Irmão de Dr. Vitúrio Lopes Rocha"
+        ]
+    },
+    "years": {
+        "1752": [
+            "Nascimento de Dr. Vitúrio Lopes Rocha"
+        ],
+        "1777": [
+            "Recebimento do capelo"
+        ]
+    }
+}

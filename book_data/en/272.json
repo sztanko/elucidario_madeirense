@@ -1,0 +1,27 @@
+{
+    "id": 272,
+    "lang": "en",
+    "is_original": false,
+    "title": "Arroz",
+    "fl": "A",
+    "original_title": "Arroz",
+    "body": "We are not aware of any attempts to cultivate rice on the island in the past, but we know that in 1918, a cultivator of this cereal from the Portuguese mainland conducted a successful trial of rice cultivation in the parish of São Vicente, resulting in an excellent and abundant production. For this reason, a representation was made to the Agricultural Board of Madeira, signed by several landowners of that parish, requesting special protection for the cultivation of this cereal. It seems that no further trials were carried out to develop this industry.",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [
+        "São Vicente"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Parish where the rice cultivation trial took place"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1918": [
+            "Realization of the rice cultivation trial in the parish of São Vicente"
+        ]
+    }
+}

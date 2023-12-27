@@ -1,0 +1,29 @@
+{
+    "id": 1632,
+    "lang": "en",
+    "is_original": false,
+    "title": "Graça",
+    "fl": "G",
+    "original_title": "Graça",
+    "body": "Site on the island of Porto Santo. There was an ancient chapel dedicated to Nossa Senhora da Graça, which gave the place its name. Being very ruined, its reconstruction on a larger scale than the original was initiated in the early 19th century, at the initiative of the governor of that island, Manuel Inacio de Avelar Brotero, but its rebuilding was never completed, and it is now reduced to a heap of ruins. It had the peculiarity of having an octagonal shape, and it is said to have reproduced in miniature a famous temple in Italy.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island"
+        ]
+    },
+    "people": {
+        "Manuel Inacio de Avelar Brotero": [
+            "Governor of the island of Porto Santo"
+        ]
+    },
+    "years": {
+        "Século XIX": [
+            "Initiation of the reconstruction of the ancient chapel dedicated to Nossa Senhora da Graça"
+        ]
+    }
+}

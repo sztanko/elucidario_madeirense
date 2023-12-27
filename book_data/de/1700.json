@@ -1,0 +1,42 @@
+{
+    "id": 1700,
+    "lang": "de",
+    "is_original": false,
+    "title": "Heredia",
+    "fl": "H",
+    "original_title": "Heredia",
+    "body": "Der spanische Adlige D. Antonio Herédia war Teil der Armee, die unter dem Kommando des Herzogs von Alba 1580 in Portugal einmarschierte. 1602 kam er als Hauptmann der Kompanie der spanischen Garnison nach Madeira und war später Kommandant derselben Garnison. Später regierte er den gesamten Archipel in Abwesenheit des eigentlichen Gouverneurs. Er ist der Stammvater der Familie Heredia auf Madeira, deren letzte Vertreter Francisco Correia Herédia, Antonio Correia Herédia und Francisco Correia Herédia, Viscount von Ribeira Brava waren (siehe dort). D. Antonio Herédia und seine Nachkommen verbanden sich mit den angesehensten Familien Madeiras. In die Familie Heredia wurde das bedeutende Majorat der Britos integriert, dessen Hauptsitz in der Gemeinde Ribeira Brava in der Kapelle Unserer Lieben Frau von der Darstellung lag, an dem Ort, der noch heute diesen Namen trägt. Daneben stand ein großes Herrenhaus, eines der größten Residenzen außerhalb von Funchal. Das Haus und die Kapelle wurden schon vor langer Zeit abgerissen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Hauptsitz des bedeutenden Majorats der Britos"
+        ]
+    },
+    "people": {
+        "D. Antonio Herédia": [
+            "Spanischer Adliger"
+        ],
+        "Francisco Correia Herédia": [
+            "Letzter Vertreter der Familie Herédia"
+        ],
+        "Antonio Correia Herédia": [
+            "Letzter Vertreter der Familie Herédia"
+        ],
+        "Francisco Correia Herédia, Viscount von Ribeira Brava": [
+            "Letzter Vertreter der Familie Herédia"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Eintritt in Portugal unter dem Kommando des Herzogs von Alba"
+        ],
+        "1602": [
+            "Ankunft auf Madeira als Hauptmann der Kompanie der spanischen Garnison"
+        ]
+    }
+}

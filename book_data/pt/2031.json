@@ -1,0 +1,36 @@
+{
+    "id": 2031,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo das Mercês",
+    "fl": "L",
+    "original_title": "Lombo das Mercês",
+    "body": "Sítio encorporado no sítio povoado das Florenças, na freguesia do Arco da Calheta, que tomou o nome da capela da invocação de Nossa Senhora das Mercês, fundada em 1650 por Gaspar Homem de El-Rei e sua mulher D. Isabel Florença, que era de instituição vincular. Também se afirma que João Portes Homem construiu neste sítio, no ano de 1684, uma capela dedicada a Santa Maria Madalena.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Freguesia do Arco da Calheta"
+        ]
+    },
+    "people": {
+        "Gaspar Homem de El-Rei": [
+            "Fundador da capela de Nossa Senhora das Mercês"
+        ],
+        "João Portes Homem": [
+            "Construtor da capela dedicada a Santa Maria Madalena"
+        ]
+    },
+    "years": {
+        "1650": [
+            "Fundação da capela de Nossa Senhora das Mercês"
+        ],
+        "1684": [
+            "Construção da capela dedicada a Santa Maria Madalena"
+        ]
+    }
+}

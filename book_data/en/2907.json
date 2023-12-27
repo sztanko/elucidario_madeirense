@@ -1,0 +1,41 @@
+{
+    "id": 2907,
+    "lang": "en",
+    "is_original": false,
+    "title": "Praça da Rainha",
+    "fl": "P",
+    "original_title": "Praça da Rainha",
+    "body": "It was built in 1839 on land that had previously been used to store boats and anchors belonging to the Military Train.\n\nIn May 1877, the square was granted to Dr. João da Câmara Leme Homem de Vasconcelos, a doctor in Funchal, as a nursery for white mulberry trees, and there was a large number of these trees there, as well as various facilities for the breeding and utilization of silkworms, but these sericultural experiments did not yield any encouraging results.\n\nThe pavilions that exist today on the site of the old Praça da Rainha began to be built in 1897, as a result of a concession made by the Municipal Council on May 30, 1895. The original concessionaires intended to establish a permanent bazaar of Madeiran industry and an exhibition of horticulture and floriculture in that area (1921).\n\nWithin the old Praça da Rainha, there was once a pond built for swimming exercises, but it was never used for this purpose, and to the west of the same square, there was another pond intended for the same purpose, but it was also never utilized. Both of these ponds were filled in many years ago.\n\nSince November 1910, the old Praça da Rainha has been called Praça do Marquês de Pombal.\n\nThe construction of the 'Avenida do Mar' caused the most considerable part of its area to disappear.\n\nThe name 'Praça da Rainha' was given in honor of Queen D. Maria II.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Praça da Rainha": [
+            "Built in 1839"
+        ]
+    },
+    "people": {
+        "João da Câmara Leme Homem de Vasconcelos": [
+            "Doctor in Funchal"
+        ]
+    },
+    "years": {
+        "1839": [
+            "Construction of Praça da Rainha"
+        ],
+        "1877": [
+            "Square granted to Dr. João da Câmara Leme Homem de Vasconcelos"
+        ],
+        "1895": [
+            "Concession for the construction of the pavilions"
+        ],
+        "1910": [
+            "Change of name to Praça do Marquês de Pombal"
+        ],
+        "1921": [
+            "Establishment of a permanent bazaar of Madeiran industry and an exhibition of horticulture and floriculture"
+        ]
+    }
+}

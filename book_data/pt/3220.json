@@ -1,0 +1,74 @@
+{
+    "id": 3220,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Filipe (Capela de)",
+    "fl": "S",
+    "original_title": "São Filipe (Capela de)",
+    "body": "O flamengo António de Leme teve terras de sesmaria na freguesia de Santo António, no sítio ainda hoje conhecido pelo nome de Quinta do Leme, e ali edificou uma casa e capela, a que o anotador das Saudades fixa o ano de 1536. Por documentos que tivemos ocasião de examinar, vemos que esta capela de São Filipe foi reconstruída em 1654 por Inacio da Câmara Leme, sucessor do fundador na administração deste vinculo. O terramoto de 1748 deixou-a em grande ruína tendo sido novamente reconstruída pelo seu administrador Francisco Aurelio da Câmara Leme no ano de 1752.\n\nNo sítio que ainda hoje conserva o nome de São Filipe, na freguesia de Santa Maria Maior, encontra-se, profanada e em adiantado estado de ruína, uma capela desta invocação, edificada no ano de 1562 por Filipe Gentil de Limoges, e que era a cabeça do morgadio por ele instituído naquele ano.\n\nJá em outro lugar dissemos que, nesta capela, ainda não ha muito se lia numa lage tumular a inscrição: = Sepultura dos inocentes que tiranamente mataram na Achada desta cidade. = 1621. Ignoramos os nomes dos indivíduos a que se refere esta inscrição e os motivos que determinaram aquelas mortes, mas é de supor que se trate de pessoas da família Limoges, a que a referida capela pertencia (1921).\n\nElementos colhidos posteriormente a esta data, permitem informar com segurança que a data inscrita na referida sepultura é de 1666 e que o epitáfio diz respeito ao enterramento que ali se fez das ossadas de muitas crianças mortas pela «ama dos expostos» dessa época, a qual recebendo os «enjeitados»» os matava e enterrava proximo da sua morada no conhecido sítio da Achada da freguesia de São Roque. Esta capela, que se encontrava em adiantado estado de ruína, foi restaurada pela sua proprietária, a condessa de Torre Bela, e benzida pelo prelado diocesano a 13 de Abril de 1925.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Santa Maria Maior",
+        "São Roque"
+    ],
+    "locations": {
+        "Santo António": [
+            "Freguesia"
+        ],
+        "Quinta do Leme": [
+            "Sítio"
+        ],
+        "Santa Maria Maior": [
+            "Freguesia"
+        ],
+        "Achada": [
+            "Sítio"
+        ],
+        "São Roque": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "António de Leme": [
+            "Flamengo"
+        ],
+        "Inacio da Câmara Leme": [
+            "Sucessor do fundador na administração deste vinculo"
+        ],
+        "Francisco Aurelio da Câmara Leme": [
+            "Administrador"
+        ],
+        "Filipe Gentil de Limoges": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1536": [
+            "Construção da capela"
+        ],
+        "1654": [
+            "Reconstrução da capela"
+        ],
+        "1748": [
+            "Terramoto que deixou a capela em ruína"
+        ],
+        "1752": [
+            "Reconstrução da capela"
+        ],
+        "1562": [
+            "Construção da capela por Filipe Gentil de Limoges"
+        ],
+        "1621": [
+            "Inscrição na lage tumular"
+        ],
+        "1666": [
+            "Data inscrita na sepultura"
+        ],
+        "1925": [
+            "Restauração da capela"
+        ]
+    }
+}

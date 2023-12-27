@@ -1,0 +1,44 @@
+{
+    "id": 1679,
+    "lang": "de",
+    "is_original": false,
+    "title": "Heberden (Dr. Thomas)",
+    "fl": "H",
+    "original_title": "Heberden (Dr. Thomas)",
+    "body": "Er war der Bruder des bekannten William Heberden und praktizierte als Arzt in Funchal, wo er bei der Masernepidemie von 1751 hervorragende Dienste leistete. Als Banks und Dr. Solander 1768 Madeira besuchten, versorgte er sie mit vielen Objekten der Naturgeschichte sowie mit einer Kopie seiner Beobachtungen über die Flora der Insel. Die beiden Naturforscher widmeten ihm die Gattung Heberdenia, die Aiton später mit der Gattung Ardisia zusammenführte. Die von Dr. Herberden in Funchal von 1747 bis 1751 durchgeführten meteorologischen Beobachtungen waren die ersten, die auf dieser Insel gemacht wurden, und wurden in Band X der Philosophical Transactions veröffentlicht.\n\nDr. Heberden führte auch einige astronomische Studien auf Madeira durch, die unter dem folgenden Titel in den Philosophical Transactions erschienen: Observations of immersions and emersions of Jupiter's first Satellite made at Funchal, in Madeira, 1763-1768.\n\nSiehe Krankheiten und Epidemien.",
+    "categories": [
+        "science",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem Dr. Thomas Heberden seinen ärztlichen Beruf ausübte und astronomische Studien durchführte"
+        ]
+    },
+    "people": {
+        "Banks": [
+            "Naturforscher"
+        ],
+        "Dr. Solander": [
+            "Naturforscher"
+        ],
+        "Aiton": [
+            "Führte die Gattung Heberdenia mit der Gattung Ardisia zusammen"
+        ]
+    },
+    "years": {
+        "1751": [
+            "Ende der von Dr. Herberden in Funchal durchgeführten meteorologischen Beobachtungen"
+        ],
+        "1768": [
+            "Ende der von Dr. Herberden auf Madeira durchgeführten astronomischen Beobachtungen"
+        ],
+        "1747": [
+            "Beginn der von Dr. Herberden in Funchal durchgeführten meteorologischen Beobachtungen"
+        ],
+        "1763": [
+            "Beginn der von Dr. Herberden auf Madeira durchgeführten astronomischen Beobachtungen"
+        ]
+    }
+}

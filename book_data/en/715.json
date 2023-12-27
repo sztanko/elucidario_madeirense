@@ -1,0 +1,28 @@
+{
+    "id": 715,
+    "lang": "en",
+    "is_original": false,
+    "title": "Campanario (Ribeira do)",
+    "fl": "C",
+    "original_title": "Campanario (Ribeira do)",
+    "body": "Also known as Ribeira da Lapa, it originates in Pico dos Terreiros, crosses the parish of Campanario, and flows into the port of the same name.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Campanario"
+    ],
+    "locations": {
+        "Pico dos Terreiros": [
+            "Place of origin"
+        ],
+        "Campanario": [
+            "Parish"
+        ],
+        "Port of the same name": [
+            "Outflow location"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

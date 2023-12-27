@@ -1,0 +1,53 @@
+{
+    "id": 771,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Carlos (Campo de D.)",
+    "fl": "C",
+    "original_title": "Carlos (Campo de D.)",
+    "body": "O antigo Campo de D. Carlos, hoje do Almirante Reis, começado em 1898 e concluido em 1901, custou ao Municipio mais de 24 contos e obedeceu á ideia de sanear o bairro de Santa Maria Maior. Para a sua construção contribuíram o Govêrno com os terrenos do antigo forte de S. Pedro, de parte da cortina da cidade e talvez do Campo das Loucas ou de Challons, e o Municipio com os da Praça Academica e ruas que a marginavam pelo sul e leste, e com os da Rua dos Balcões e dos casebres agora demolidos desta antiga rua.\n\nO Campo de D. Carlos serve para exercicios militares, e os direitos que sobre ele tem o Municipio, estão consignados na escritura publica celebrada em 4 de Setembro de 1897, entre o Ministerio da Guerra e a Camara Municipal.\n\nO pedido de autorização para ser dado o nome do falecido Rei D. Carlos ao campo ou praça que a Camara pretendia construir, tem a data de 6 de Setembro de 1897, e a nova denominação de Campo do Almirante Reis, por que o mesmo terreno é conhecido, foi-lhe dada em 1911 pela primeira comissão que se sentou nas cadeiras da vereação funchalense, depois de proclamado o govêrno republicano no país.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Maria Maior": [
+            "Bairro de Santa Maria Maior"
+        ],
+        "S. Pedro": [
+            "Terrenos do antigo forte de S. Pedro"
+        ],
+        "Praça Academica": [
+            "Terrenos da Praça Academica"
+        ],
+        "Rua dos Balcões": [
+            "Terrenos da Rua dos Balcões"
+        ]
+    },
+    "people": {
+        "D. Carlos": [
+            "Falecido Rei D. Carlos"
+        ],
+        "Ministerio da Guerra": [
+            "Celebrada em 4 de Setembro de 1897"
+        ],
+        "Camara Municipal": [
+            "Celebrada em 4 de Setembro de 1897"
+        ]
+    },
+    "years": {
+        "1898": [
+            "Começado em 1898"
+        ],
+        "1901": [
+            "Concluido em 1901"
+        ],
+        "1897": [
+            "Celebrada em 4 de Setembro de 1897"
+        ],
+        "1911": [
+            "Dada em 1911"
+        ]
+    }
+}

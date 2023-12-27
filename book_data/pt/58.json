@@ -1,0 +1,29 @@
+{
+    "id": 58,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Afonso",
+    "fl": "A",
+    "original_title": "Afonso",
+    "body": "Apelido de família muito antigo entre nós. João Afonso, de quem abaixo falamos, foi dos primitivos povoadores desta ilha. No princípio do século XVI, Martim Afonso e sua mulher Isabel Afonso fundaram a capela dos Anjos na paróquia dos Canhas. Já anteriormente um Álvaro Afonso doara em 1483 o terreno para a edificação da Misericórdia.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {},
+    "people": {
+        "João Afonso": [
+            "Primitivo povoador da ilha"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Fundação da capela dos Anjos por Martim Afonso e Isabel Afonso"
+        ],
+        "1483": [
+            "Doação do terreno para a edificação da Misericórdia por Álvaro Afonso"
+        ]
+    }
+}

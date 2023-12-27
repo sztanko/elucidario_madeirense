@@ -1,0 +1,37 @@
+{
+    "id": 2489,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Esperança (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Esperança (Capela de)",
+    "body": "O padre Manuel de Nóbrega fundou no sítio do\nVale Formoso, da freguesia de Santa Luzia, uma capela com a invocação de Nossa Senhora da Esperança, no\nano de 1744, tendo a escritura de dotação a data de 11 de Dezembro do mesmo ano. Foi demolida há muitos\nanos.\n\nHavia com a mesma invocação uma capela na freguesia de São Roque, que era bastante antiga e foi centro\nde uma antiga romagem. O tenente-coronel A. Artur Sarmento publicou em opúsculo uma desenvolvida\nnoticia histórica acerca desta capela.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "São Roque"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Freguesia"
+        ],
+        "São Roque": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Manuel de Nóbrega": [
+            "Padre"
+        ],
+        "A. Artur Sarmento": [
+            "Tenente-coronel"
+        ]
+    },
+    "years": {
+        "1744": [
+            "Fundação da capela de Nossa Senhora da Esperança no sítio do Vale Formoso"
+        ]
+    }
+}

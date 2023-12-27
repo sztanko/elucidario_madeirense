@@ -1,0 +1,80 @@
+{
+    "id": 2523,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau vom Rosenkranz (Kapellen von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Rosário (Capelas de)",
+    "body": "In der Gemeinde Campanário wurde 1748 eine Kapelle dieses Patronats vom Gutsherrn António Leandro da Câmara Leme gegründet. Die Stiftungsurkunde ist vom 18. Juli 1734 datiert, aber erst vierzehn Jahre später wurde sie begutachtet, damit dort Gottesdienste gefeiert werden konnten.\n\nAm rechten Ufer des Baches von Santa Luzia, an einem Ort namens Fundoa und innerhalb des Gebiets der Gemeinde São Roque, befindet sich eine Kapelle, die João da Paz de Castro im Jahr 1668 zu Ehren Unserer Lieben Frau vom Rosenkranz errichtet hat. Mit derselben Widmung errichtete Matias de Mendonça e Vasconcelos 1660 eine Kapelle in der Gemeinde Machico.\n\nIn der Gemeinde Santa Cruz gab es eine Kapelle mit dem Patronat Unserer Lieben Frau vom Rosenkranz, aber wir wissen nichts über ihren Gründer und ihr Erbauungsjahr.\n\nDie Kapelle Unserer Lieben Frau vom Rosenkranz im Ort Vargem der Gemeinde São Vicente ist von beachtlichen Ausmaßen. Die ursprüngliche Kapelle, die von José Caldeira gestiftet wurde, hat mehrere Umbauten und Erweiterungen erfahren. Der Pfarrer der Kirchengemeinde wohnt gewöhnlich in der Nähe dieser Kapelle und übt dort seine priesterlichen Funktionen aus.\n\nIn der Gemeinde São Jorge gab es eine Kapelle mit derselben Widmung, die im letzten Viertel des 17. Jahrhunderts von Pfarrer Matias Jorge Jardim gegründet und an der Stelle Ilha errichtet wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário",
+        "São Roque",
+        "Machico",
+        "Santa Cruz",
+        "São Vicente",
+        "São Jorge"
+    ],
+    "locations": {
+        "Campanário": [
+            "Ort auf Madeira"
+        ],
+        "Santa Luzia": [
+            "Ort auf Madeira"
+        ],
+        "São Roque": [
+            "Ort auf Madeira"
+        ],
+        "Machico": [
+            "Ort auf Madeira"
+        ],
+        "Santa Cruz": [
+            "Ort auf Madeira"
+        ],
+        "Vargem": [
+            "Ort auf Madeira"
+        ],
+        "São Vicente": [
+            "Ort auf Madeira"
+        ],
+        "São Jorge": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "António Leandro da Câmara Leme": [
+            "Gründer der Kapelle 1748"
+        ],
+        "João da Paz de Castro": [
+            "Erbauer der Kapelle 1668"
+        ],
+        "Matias de Mendonça e Vasconcelos": [
+            "Errichtete 1660 eine Kapelle"
+        ],
+        "José Caldeira": [
+            "Stifter der ursprünglichen Kapelle in São Vicente"
+        ],
+        "Pfarrer Matias Jorge Jardim": [
+            "Gründer der Kapelle in São Jorge"
+        ]
+    },
+    "years": {
+        "1748": [
+            "Gründung der Kapelle in Campanário"
+        ],
+        "1734": [
+            "Datum der Stiftungsurkunde"
+        ],
+        "1668": [
+            "Bau der Kapelle durch João da Paz de Castro"
+        ],
+        "1660": [
+            "Errichtung einer Kapelle durch Matias de Mendonça e Vasconcelos in Machico"
+        ],
+        "XVII": [
+            "Gründung der Kapelle in São Jorge"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 2028,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo Grande",
+    "fl": "L",
+    "original_title": "Lombo Grande",
+    "body": "An extensive hillside that extends from the parish of Curral das Freiras to the summit of the Torrinhas mountain range, being intersected by a road that leads to the parish of Boa Ventura. Before reaching the summit of Torrinhas, the road bifurcates, with one of the branches heading towards Pico Ruivo, which is the preferred route for ascending that eminence.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Curral das Freiras",
+        "Boa ventura"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Parish of Curral das Freiras"
+        ],
+        "Boa Ventura": [
+            "Parish of Boa Ventura"
+        ],
+        "Pico Ruivo": [
+            "Locality"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

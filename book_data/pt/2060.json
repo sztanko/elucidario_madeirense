@@ -1,0 +1,30 @@
+{
+    "id": 2060,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Louros. Sítio povoado da freguesia de São Gonçalo",
+    "fl": "L",
+    "original_title": "Louros. Sítio povoado da freguesia de São Gonçalo",
+    "body": "Existiu neste sítio uma pequena capela, consagrada a Nossa Senhora da Incarnação e construída, no ano de 1656, por Diogo Bernardes Branco. Encontra-se ali um Posto Agrário ou campo experimental agrícola, conhecido pelo nome de Viveiro dos Louros, que é mantido pela Junta Geral do Distrito.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Freguesia onde está localizado o sítio dos Louros"
+        ]
+    },
+    "people": {
+        "Diogo Bernardes Branco": [
+            "Construtor da capela"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Construção da capela"
+        ]
+    }
+}

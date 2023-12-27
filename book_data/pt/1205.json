@@ -1,0 +1,24 @@
+{
+    "id": 1205,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ecos da Madeira",
+    "fl": "E",
+    "original_title": "Ecos da Madeira",
+    "body": "Deu o seu primeiro numero a 22 de Janeiro de 1920 e publica-se na Ponta do Sol.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Sol": [
+            "Local de publicação do jornal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1920": [
+            "Publicação do primeiro número do jornal Ecos da Madeira"
+        ]
+    }
+}

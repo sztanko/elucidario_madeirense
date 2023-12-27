@@ -1,0 +1,56 @@
+{
+    "id": 2509,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau von Nazareth (Kapellen)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Nazaré (Capelas de)",
+    "body": "Es gibt eine Kapelle mit diesem Namen in der Gemeinde Arco da Calheta, die der Sitz einer Majorat war, das von den beiden Schwestern Antonia de Cristo und Leonarda do Horto zugunsten ihres Neffen Francisco Friz de Barros Maciel gegründet wurde. Dieser ließ die Kapelle im letzten Drittel des 17. Jahrhunderts errichten. 1694 ließ er die sterblichen Überreste seines Onkels Padre Inacio Barbosa da Silva, der der Bruder der Stifterinnen des Majorats war und einer der Eigentümer des Anwesens war, auf dem die Kapelle errichtet worden war, dorthin überführen. Nachdem sie in schweren Verfall geraten war, wurde diese Kapelle 1830 von Antonio João Barbosa de Matos e Câmara, einem Nachfahren der Gründer, wiederaufgebaut. Unter dem gleichen Namen gibt es eine Kapelle in der Gemeinde Câmara de Lobos, die 1757 von Maria do Rosário Henriques, der Witwe von Pedro Bernardes Cardeiro, gegründet wurde. In Bezug auf diese oder eine andere Besitzerin dieser Kapelle gibt Dr. Alvaro de Azevedo die folgende kuriose Information: \"Es ist eine Überlieferung unter den Fischern von Câmara de Lobos, dass die Majoratsherrin von Nazareth zu Beginn dieses Jahrhunderts, bewaffnet mit einem Degen, sich oben aufstellte, wo die Kapelle steht; sie rief die Fischerboote herbei, die in den Hafen einfuhren; und kraft eines Vorrechts oder Missbrauchs nahm sie den Fisch, den sie wollte, und bezahlte ihn, wie es ihr gefiel.\" Es gibt auch in der Gemeinde São Martinho an dem Ort Namens Nazaré eine Kapelle mit dieser Widmung, die 1627 von Martim Vaz gegründet wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Câmara de Lobos",
+        "São Martinho"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Ort auf Madeira"
+        ],
+        "Câmara de Lobos": [
+            "Gemeinde auf Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Friz de Barros Maciel": [
+            "Gründer der Kapelle in Arco da Calheta"
+        ],
+        "Antonia de Cristo": [
+            "Eine der Stifterinnen des Majorats"
+        ],
+        "Leonarda do Horto": [
+            "Eine der Stifterinnen des Majorats"
+        ],
+        "Antonio João Barbosa de Matos e Câmara": [
+            "Nachfahre der Gründer der Kapelle in Arco da Calheta"
+        ],
+        "Maria do Rosário Henriques": [
+            "Gründerin der Kapelle in Câmara de Lobos"
+        ],
+        "Martim Vaz": [
+            "Gründer der Kapelle im Ort Nazaré"
+        ]
+    },
+    "years": {
+        "1694": [
+            "Überführung der sterblichen Überreste von Padre Inacio Barbosa da Silva in die Kapelle in Arco da Calheta"
+        ],
+        "1757": [
+            "Gründung der Kapelle in Câmara de Lobos"
+        ],
+        "1627": [
+            "Gründung der Kapelle im Ort Nazaré"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "id": 3604,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vieira",
+    "fl": "V",
+    "original_title": "Vieira",
+    "body": "É apelido de gente fidalga e nobre, segundo diz Frutuoso. Em 1566, viviam no Funchal Manuel Vieira, síndico das freiras de Santa Clara, e um tal Favila Vieira, que Frutuoso apresenta como homem fidalgo, tendo pela mesma época exercido o cargo de meirinho da jurisdição de Machico um fidalgo chamado António Vieira, que casou com uma filha do donatário Diogo Teixeira. Há outros ramos da família Vieira, dois dos quais procedentes dos Açores, tendo um deles aparecido na Madeira no segundo quartel do século XIX, e começando o outro em Manuel Vieira de Afonseca, natural da ilha Terceira, que foi escrivão da Câmara do Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Clara",
+        "Machico"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de residência de Manuel Vieira, Favila Vieira, António Vieira, e outros ramos da família Vieira"
+        ],
+        "Machico": [
+            "Jurisdição onde António Vieira exerceu o cargo de meirinho"
+        ]
+    },
+    "people": {
+        "Manuel Vieira": [
+            "Síndico das freiras de Santa Clara"
+        ],
+        "Favila Vieira": [
+            "Homem fidalgo"
+        ],
+        "António Vieira": [
+            "Casado com uma filha do donatário Diogo Teixeira, exercendo o cargo de meirinho da jurisdição de Machico"
+        ],
+        "Manuel Vieira de Afonseca": [
+            "Escrivão da Câmara do Funchal"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Residência de Manuel Vieira e Favila Vieira no Funchal"
+        ],
+        "XIX": [
+            "Aparição de ramos da família Vieira na Madeira"
+        ]
+    }
+}

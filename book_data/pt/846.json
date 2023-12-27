@@ -1,0 +1,33 @@
+{
+    "id": 846,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cefalópodos",
+    "fl": "C",
+    "original_title": "Cefalópodos",
+    "body": "Há varias especies desta classe de moluscos, tanto costeiros como pelagicos ou abissais.\n\nAs mais comuns são: o polvo (Octopus vulgaris), a lula (Loligo vulgaris) e o choco (Sepia officinalis), todos estes comestiveis; a Spirula Peronii, que encalha em avultado numero nas praias, como Caniçal, Porto da Cruz e Pôrto Santo; e a pota (Ommastrephes sagittatus) pelagica e comestivel, comum a algumas milhas longe da costa. Entre os mais raros conta-se o Argonauta argo, que tem sido visto no Pôrto Santo.\n\nAlexandre A. Girard citou 11 especies destes moluscos, algumas delas duvidosas, enquanto Roberto B. Watson menciona somente as quatro primeiras acima referidas, assim como a ultima.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caniçal": [
+            "Local onde encalha a Spirula Peronii"
+        ],
+        "Porto da Cruz": [
+            "Local onde encalha a Spirula Peronii"
+        ],
+        "Pôrto Santo": [
+            "Local onde encalha a Spirula Peronii e onde foi visto o Argonauta argo"
+        ]
+    },
+    "people": {
+        "Alexandre A. Girard": [
+            "Citou 11 espécies de cefalópodos"
+        ],
+        "Roberto B. Watson": [
+            "Mencionou as quatro espécies comuns e a última"
+        ]
+    },
+    "years": {}
+}

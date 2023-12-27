@@ -1,0 +1,38 @@
+{
+    "id": 1098,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cunha (João Severo)",
+    "fl": "C",
+    "original_title": "Cunha (João Severo)",
+    "body": "He was born in Funchal on November 6, 1856. He is a colonel of engineering and was the president of the Municipal Chamber of Lisbon during the political situation of Pimenta de Castro. In addition to his collaboration in some magazines, he published: Espessura das abobadas (Thickness of vaults), 1895, Estudos sobre abobadas (Studies on vaults), 1897, and Esclarecimentos uteis aos mutuarios e pretendentes de mutuos da Companhia Geral do Credito Predial Portugues (Useful clarifications for borrowers and loan applicants of the Companhia Geral do Credito Predial Portugues), 1912.",
+    "categories": [
+        "history",
+        "politics",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of Madeira Island."
+        ],
+        "Lisbon": [
+            "Capital of Portugal."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1856": [
+            "Birth."
+        ],
+        "1895": [
+            "Publication of Espessura das abobadas."
+        ],
+        "1897": [
+            "Publication of Estudos sobre abobadas."
+        ],
+        "1912": [
+            "Publication of Esclarecimentos uteis aos mutuarios e pretendentes de mutuos da Companhia Geral do Credito Predial Portugues."
+        ]
+    }
+}

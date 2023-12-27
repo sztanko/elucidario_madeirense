@@ -1,0 +1,30 @@
+{
+    "id": 1272,
+    "lang": "en",
+    "is_original": false,
+    "title": "Esponjas",
+    "fl": "E",
+    "original_title": "Esponjas",
+    "body": "About 70 species of sponges have been collected in the seas of Madeira, many of them siliceous or calcareous, including the Melia Normani, discovered by Mr. Adolfo de Noronha in the seas of Porto Santo and described by Mr. Kirkpatrick, a naturalist from the British Museum. The largest species found so far in the archipelago's seas measures about 60 centimeters, has a shape somewhat like a bowl, and is made up of tightly interwoven glassy threads. When the fishermen's lines reach the great depths, they sometimes bring up sponges of the same nature as the one mentioned, caught on the hooks. At Ponta de São Lourenço, we have seen small fibrous sponges floating near the coast, certainly coming from the nearby depths. In issue 1289 of the Heraldo da Madeira, there is interesting information about the Melia Normani, the sponge of Porto Santo.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island in the Madeira archipelago"
+        ],
+        "Ponta de São Lourenço": [
+            "Locality on the Island of Madeira"
+        ]
+    },
+    "people": {
+        "Adolfo de Noronha": [
+            "Discoverer of the Melia Normani"
+        ],
+        "Mr. Kirkpatrick": [
+            "Naturalist from the British Museum"
+        ]
+    },
+    "years": {}
+}

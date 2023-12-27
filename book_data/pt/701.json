@@ -1,0 +1,34 @@
+{
+    "id": 701,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camara Eclesiastica",
+    "fl": "C",
+    "original_title": "Camara Eclesiastica",
+    "body": "É a reparticão por onde correm todos os negocios religiosos e eclesiasticos desta diocese. Deve ter sido criada no ano mesmo da criação do bispado, isto, é, em 1514, sendo, depois da alfandega, a mais antiga repartição publica existente neste arquipelago.\n\nO ordenado primitivo do seu escrivão era de três mil réis anuais, que por alvará regio de 28 de Outubro de 1564 foi elevado a oito mil reis, devendo certamente acrescentar-se a esse vencimento os respectivos emolumentos de repartição. Cremos que a sua organização era noutros tempos muito diferente da actual.\n\nO arquivo da camara eclesiastica continha documentos muito valiosos, não só para a historia da diocese, mas também do arquipelago madeirense, tendo um incendio que nele se deu por fins do seculo XVII, inutilizado a quasi totalidade desses documentos.\n\nEsta repartição eclesiastica tem estado sempre adjunta á residencia episcopal. Quando em virtude das disposições da lei da separação, foi o liceu instalado no paço episcopal em Janeiro de 1914, a camara eclesiastica mudou alguns meses antes para uma casa fronteira ao antigo seminario, á rua Julio da Silva Carvalho, que era pertença do mesmo seminario. Em Maio de 1918 foi instalada numa das dependencias do novo Paço Episcopal, ao largo do Ribeiro Real, e junto ao cemiterio britanico.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Arquivo da camara eclesiastica"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1514": [
+            "Criação da camara eclesiastica"
+        ],
+        "1564": [
+            "Aumento do ordenado do escrivão"
+        ],
+        "1914": [
+            "Instalação do liceu no paço episcopal"
+        ],
+        "1918": [
+            "Instalação da camara eclesiastica no novo Paço Episcopal"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 2286,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mesteres",
+    "fl": "M",
+    "original_title": "Mesteres",
+    "body": "The procurators of the mesteres, also called mesteres, were the mechanical officials who were part of the so-called Casa dos Vinte e Quatro. Every year, in January, the People's Judge presented to the Municipal Council the list of the four procurators of the mesteres who were to take part in the council's work, and they could be rejected if they did not have at least six years of experience in the same Casa.\n\nIn ancient times, the mesteres attended the council sessions, sitting in shallow chairs, next to a table independent of the councilors', but in 1803, Judge José Júlio Henriques Gordilho allowed them to sit at the council's table, which led to protests from the procurator of the concelho, João da Câmara Leme, who considered this concession demeaning to his noble status.\n\nOn August 7, 1811, the Council resolved that the mesteres should return to their former places, but they appealed against this decision and managed to have it annulled. The representatives of the mechanical trades did not attend the council meetings for about a year, as they felt aggrieved by the resolution taken by the councilors regarding them.\n\nThe mesteres were often looked down upon by the councilors in ancient times, who often insulted and humiliated them, but their situation improved considerably in the early 19th century, due to the profound social transformations that took place in our country before the emancipation movement of 1820.\n\nThe mesteres ceased to be part of the council after the proclamation of constitutional principles in Madeira in 1834, and the Casa dos Vinte e Quatro, of which they were representatives, was abolished by the decree of May 7 of the same year. The Constitutional Council, elected on November 3, 1822, did not have mesteres.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Júlio Henriques Gordilho": [
+            "Judge outside"
+        ],
+        "João da Câmara Leme": [
+            "Procurator of the concelho"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Permission to sit at the council's table"
+        ],
+        "1811": [
+            "Resolution for the mesteres to return to their former places"
+        ],
+        "1820": [
+            "Emancipation movement"
+        ],
+        "1822": [
+            "Election of the Constitutional Council"
+        ],
+        "1834": [
+            "Proclamation of constitutional principles"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 2537,
+    "lang": "en",
+    "is_original": false,
+    "title": "Noticioso (O)",
+    "fl": "N",
+    "original_title": "Noticioso (O)",
+    "body": "The first issue was released on October 22, 1862, and the last one on January 22, 1866. A total of 152 issues were published. Its main editor was Augusto César de Freitas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Augusto César de Freitas": [
+            "Main editor"
+        ]
+    },
+    "years": {
+        "1862": [
+            "First issue"
+        ],
+        "1866": [
+            "Last issue"
+        ]
+    }
+}

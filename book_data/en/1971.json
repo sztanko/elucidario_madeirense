@@ -1,0 +1,26 @@
+{
+    "id": 1971,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lentil (Lens culinaris)",
+    "fl": "L",
+    "original_title": "Lentilha (Lens culinaris)",
+    "body": "A leguminous plant frequently cultivated in Porto Santo and also found in Caniçal. The lentil cultivated in Caniço is the Vicia monanthos, which has 3-4-seeded pods, as opposed to the 2-seeded pods of the lentil from Porto Santo.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Caniço"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Frequent cultivation location"
+        ],
+        "Caniçal": [
+            "Cultivation location"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

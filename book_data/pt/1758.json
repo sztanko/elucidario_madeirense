@@ -1,0 +1,46 @@
+{
+    "id": 1758,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Igrejas Inglesas",
+    "fl": "I",
+    "original_title": "Igrejas Inglesas",
+    "body": "O terreno onde está a igreja anglicana da rua da Bela Vista foi comprado pela Feitoria Inglesa em 1810, por 5.435 dólares. Alguns anos mais tarde adquiriu a mesma Feitoria por 840 dólares, um outro terreno situado na mesma rua e contíguo àquele. A igreja ficou concluída em Março de 1822, tendo custado 40:000 dollares, importância esta que foi obtida por meio de subscrições e pela contribuição voluntária de 2 xelins e 6 dinheiros por cada pipa de vinho exportada pelos negociantes ingleses.\n\nEm 1848 estabeleceu-se na rua dos Aranhas uma outra igreja anglicana, da qual foi capelão o botânico Ricardo Tomás Lowe. Divergências havidas por questões religiosas entre os súbditos ingleses residentes na Madeira, deram lugar à abertura daquela igreja, onde durante 33 anos houve serviço religioso. A igreja escocesa, aberta em 1842 numa casa á travessa do Surdo, tem hoje edifício seu na rua do Conselheiro, junto do Jardim Municipal.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua da Bela Vista": [
+            "Local onde está situada a igreja anglicana"
+        ],
+        "Rua dos Aranhas": [
+            "Local onde foi estabelecida outra igreja anglicana"
+        ],
+        "Travessa do Surdo": [
+            "Local onde foi aberta a igreja escocesa"
+        ],
+        "Rua do Conselheiro": [
+            "Local onde se encontra o edifício da igreja escocesa, junto do Jardim Municipal"
+        ]
+    },
+    "people": {
+        "Ricardo Tomás Lowe": [
+            "Botânico e capelão da igreja anglicana na rua dos Aranhas"
+        ]
+    },
+    "years": {
+        "1810": [
+            "Compra do terreno onde está situada a igreja anglicana da rua da Bela Vista"
+        ],
+        "1822": [
+            "Conclusão da igreja anglicana da rua da Bela Vista"
+        ],
+        "1848": [
+            "Estabelecimento de outra igreja anglicana na rua dos Aranhas"
+        ],
+        "1842": [
+            "Abertura da igreja escocesa"
+        ]
+    }
+}

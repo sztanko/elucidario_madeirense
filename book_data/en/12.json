@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "lang": "en",
+    "is_original": false,
+    "title": "Abreu (Francisco Ferreira de)",
+    "fl": "A",
+    "original_title": "Abreu (Francisco Ferreira de)",
+    "body": "In 1828, he was the judge of the orphans of the captaincy of Machico, having previously held the positions of shipping overseer, clerk of overseas executions, and clerk of India and Mina. Arrested for liberal activities by order of the court that came to this island during the government of D. Miguel, he was sent to Lisbon aboard the brig *S. Boaventura+, and was sentenced, by a ruling on August 3, 1830, not to return to Madeira for 3 years. On June 23, 1838, he was appointed notary of the mortgage registry of the western district, and on June 11, 1841, clerk of the administration of the municipality of Funchal. Having resigned from the latter position to go to Cape Verde, he passed away in that archipelago in 1842, at a relatively young age. He served as the secretary of the Society of Friends of Sciences and Arts, and translated the Elementary Compendium of Political Economy by Adolfo Blanqui, and the Discourse on the revolutions of the globe's surface, by Baron Cuvier.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco Ferreira de Abreu": [
+            "Judge of the orphans of the captaincy of Machico, notary of the mortgage registry of the western district, clerk of the administration of the municipality of Funchal, secretary of the Society of Friends of Sciences and Arts"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Francisco Ferreira de Abreu becomes judge of the orphans of the captaincy of Machico"
+        ],
+        "1830": [
+            "Francisco Ferreira de Abreu's condemnation not to return to Madeira for 3 years"
+        ],
+        "1838": [
+            "Appointment of Francisco Ferreira de Abreu as notary of the mortgage registry of the western district"
+        ],
+        "1841": [
+            "Appointment of Francisco Ferreira de Abreu as clerk of the administration of the municipality of Funchal"
+        ],
+        "1842": [
+            "Passing away of Francisco Ferreira de Abreu in Cape Verde"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 3109,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rodrigues",
+    "fl": "R",
+    "original_title": "Rodrigues",
+    "body": "Die Personen mit diesem Familiennamen stammen: einige von Mem Rodrigues de Vasconcelos, verheiratet mit einer Tochter von Bartolomeu Perestrelo; andere von Garcia Rodrigues da Câmara, Vater von Aldonça Delgado, der Frau des 3. Gouverneurs von Porto Santo, die von diesem ermordet wurde; andere von João Rodrigues, der im 16. Jahrhundert lebte und in der Nähe von Calheta eine bevölkerte Farm hatte; und andere schließlich von João Rodrigues Neto, gestorben 1531, der in S. Martinho Landbesitz hatte und in der Straße mit dem Namen der Enkel, in der Gemeinde S. Pedro, starb.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "S. Martinho",
+        "S. Pedro"
+    ],
+    "locations": {
+        "Calheta": [
+            "In der Nähe von Calheta eine bevölkerte Farm"
+        ],
+        "S. Martinho": [
+            "Hatte Landbesitz in S. Martinho"
+        ],
+        "S. Pedro": [
+            "Starb in der Straße mit dem Namen der Enkel, in der Gemeinde S. Pedro"
+        ]
+    },
+    "people": {
+        "Mem Rodrigues de Vasconcelos": [
+            "Verheiratet mit einer Tochter von Bartolomeu Perestrelo"
+        ],
+        "Garcia Rodrigues da Câmara": [
+            "Vater von Aldonça Delgado, der Frau des 3. Gouverneurs von Porto Santo"
+        ],
+        "João Rodrigues Neto": [
+            "Gestorben 1531"
+        ]
+    },
+    "years": {
+        "1531": [
+            "Gestorben"
+        ]
+    }
+}

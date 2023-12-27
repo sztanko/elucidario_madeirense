@@ -1,0 +1,68 @@
+{
+    "id": 3228,
+    "lang": "en",
+    "is_original": false,
+    "title": "São João Baptista (Capelas de)",
+    "fl": "S",
+    "original_title": "São João Baptista (Capelas de)",
+    "body": "More commonly known by the name of São João da Ribeira, it is the chapel located on the right bank of the westernmost stream of Funchal, which over time has been called Santa Catarina, São Paulo, São Lazaro, Santo António, and São João, the latter being the current name. Some attribute the foundation of this chapel to João Gonçalves Zarco, undoubtedly one of the oldest in the diocese and one of the few from the 15th century that still exist, although nothing remains there from the original construction. The Franciscan friars, who accompanied the discoverer to this island, built a small cenobium next to the chapel and remained there until the construction of the Convent of São Francisco, built in the then town of Funchal. Frutuoso says that being 'the place deserted and a friar... hanged himself, these religious ordered a house below...'. This information differs from what the annotator of the Historia Insulana says, affirming that the Franciscans 'lived as hermits... and eleven years after the discovery, as their number increased... they gathered in congregation at the hospice and hermitage of S. João, which they began to build in 1432 with some alms and the work of their hands, without Zarco founding the hermitage...; in 1459 the religious left the hospice of São João and set off for Portugal...; fifteen years later, Fr. Rodrigo da Arruda arrived on the island..., who reinstated the community in the same hospice of São João... By 1476, the friars settled in S. Francisco'. These pieces of information from the dean Gonçalves de Andrade, which seem to us the most accurate, were collected from the Franciscan chronicles and are given by him as a refutation of the statements of Father Antonio Cordeiro. A violent flood of the stream destroyed the chapel and part of the adjacent hospice at the beginning of the 18th century, and the national estate proceeded to its reconstruction in the year 1720. The flood of 1803 also caused considerable damage. In 1762, the diocesan bishop D. Gaspar Afonso da Costa Brandão founded a confraternity of São João Baptista in this chapel, intended to maintain religious functions there, but we believe it did not have a long duration. In the mid-19th century, Antonio Ferreira Nogueira and Manuel Fernandes Jardim carried out important repair works there, at their own expense, restoring the chapel to the exercise of worship. In the past, it was the center of a popular pilgrimage, attracting pilgrims from all over the island. At present, the novenas and festivities of the patron saint are celebrated with remarkable splendor and a large influx of people from the city and its surroundings. Describing the place, the chapel, the village, and the festivals of the Holy Spirit that used to take place there, the Serões published an interesting and developed article by the Madeiran writer João dos Reis Gomes. In the place of Lombo de São João in the parish of Ponta do Sol, there is a chapel of the same invocation, the date of construction of which is unknown. It belonged to the Viscount of São João. In the year 1700, in the place of Serrado da Adega in the parish of Câmara de Lobos, António Correia Henriques and his wife D. Maria da Câmara founded the chapel of São João Baptista, to which they gave the respective endowment by public deed of June 17 of that year. In the Calheta stream, there is a ruined chapel of São João Baptista, built on the estate of São João, the headquarters of the entail instituted by Captain Manuel de Figueiroa, who was the founder of this chapel in the year 1651. Being very ruined, D. Guiomar Quiteria Betencourt de Atouguia proceeded to its reconstruction in 1770, being granted a license for its blessing on August 19 of the same year. There was a chapel dedicated to São João Baptista in the parish of Campanário, established in 1728 by Father João Betencourt da Câmara. In 1813, it was administered by the lord Luis Sauvayre. With the same invocation, there was a chapel in the parish of Santana, which was erected in 1660 by Canon Domingos Gonçalves de Alvarenga. It seems that there was another chapel of São João in the parish of Calheta, located in Lombo do Atouguia, which still exists, but is now known by the name of S. Pedro de Alcantara. It is possible that it originally had two invocations, which would not be unique in this island.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Câmara de Lobos",
+        "Campanário"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital of the island of Madeira"
+        ],
+        "Ponta do Sol": [
+            "Parish on the island of Madeira"
+        ],
+        "Câmara de Lobos": [
+            "Municipality on the island of Madeira"
+        ],
+        "Calheta": [
+            "Municipality on the island of Madeira"
+        ],
+        "Campanário": [
+            "Parish on the island of Madeira"
+        ],
+        "Santana": [
+            "Municipality on the island of Madeira"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Founder of the chapel"
+        ],
+        "D. Gaspar Afonso da Costa Brandão": [
+            "Diocesan bishop who founded a confraternity of São João Baptista in the chapel"
+        ]
+    },
+    "years": {
+        "1432": [
+            "Construction of the hermitage of S. João"
+        ],
+        "1459": [
+            "Departure of the religious from the hospice of São João to Portugal"
+        ],
+        "1476": [
+            "Installation of the friars in S. Francisco"
+        ],
+        "1700": [
+            "Foundation of the chapel of São João Baptista in the place of Serrado da Adega"
+        ],
+        "1728": [
+            "Establishment of the chapel dedicated to São João Baptista in the parish of Campanário"
+        ],
+        "1660": [
+            "Construction of the chapel of São João Baptista in the parish of Santana"
+        ],
+        "1813": [
+            "Administration of the chapel dedicated to São João Baptista in the parish of Campanário"
+        ]
+    }
+}

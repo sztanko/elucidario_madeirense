@@ -1,0 +1,32 @@
+{
+    "id": 836,
+    "lang": "en",
+    "is_original": false,
+    "title": "Catanho",
+    "fl": "C",
+    "original_title": "Catanho",
+    "body": "This surname comes from the brothers Kirio and Rafael Catanho, natives of Genoa. They justified their noble ancestry and enjoyed great prestige on this island. Kirio married D. Maria Cabral, daughter of the third grantee of Machico. Rafael Catanho was a knight of the Order of Christ and had the status of a nobleman of the royal household.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Genova": [
+            "City of origin of the brothers Kirio and Rafael Catanho"
+        ],
+        "Machico": [
+            "Locality where the third grantee owned lands"
+        ]
+    },
+    "people": {
+        "Kirio": [
+            "Brother of Rafael Catanho"
+        ],
+        "Rafael Catanho": [
+            "Knight of the Order of Christ"
+        ]
+    },
+    "years": {}
+}

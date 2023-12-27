@@ -1,0 +1,44 @@
+{
+    "id": 2697,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pedroso (João António)",
+    "fl": "P",
+    "original_title": "Pedroso (João António)",
+    "body": "He was a native of the parish of Santissimo nome de Jesus, in Odivelas, and the son of Francisco Antonio Pedroso and Inacia Joaquina. In 1823, while in Madeira, he was deported to Porto Santo for political reasons, where he later managed to be appointed as the clerk of the Municipal Chamber. He introduced the tamarisk tree to that island, a species that propagated there easily and provided great services to the inhabitants. He was a great friend of the English botanist Lowe, who dedicated his genus Pedrosia to him, which modern botanists include in the ancient genus Lotus. He collaborated in some Madeiran newspapers and died in Porto Santo at the age of 68 on March 29, 1869.",
+    "categories": [
+        "history",
+        "biology",
+        "politics"
+    ],
+    "freguesias": [
+        "Odivelas"
+    ],
+    "locations": {
+        "Santissimo nome de Jesus": [
+            "Parish of Odivelas"
+        ],
+        "Porto Santo": [
+            "Place of deportation and death"
+        ]
+    },
+    "people": {
+        "Francisco Antonio Pedroso": [
+            "Father of João António Pedroso"
+        ],
+        "Inacia Joaquina": [
+            "Mother of João António Pedroso"
+        ],
+        "Lowe": [
+            "English botanist"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Year in which he was deported to Porto Santo"
+        ],
+        "1869": [
+            "Death of João António Pedroso"
+        ]
+    }
+}

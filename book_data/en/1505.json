@@ -1,0 +1,33 @@
+{
+    "id": 1505,
+    "lang": "en",
+    "is_original": false,
+    "title": "Funchalense (The)",
+    "fl": "F",
+    "original_title": "Funchalense (O)",
+    "body": "Only three issues of this newspaper were published, from July 2 to 21, 1847. Another periodical with the same title, of which Dr. Sebastião Frederico Rodrigues Leal was the editor, ran for 103 issues from April 17, 1859, to June 13, 1861. A third newspaper with the same title, of which only 9 issues were published, ran from September 1 to October 26, 1886.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Sebastião Frederico Rodrigues Leal": [
+            "Editor"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Publication of three issues"
+        ],
+        "1859": [
+            "Publication of 103 issues"
+        ],
+        "1861": [
+            "Publication of 103 issues"
+        ],
+        "1886": [
+            "Publication of 9 issues"
+        ]
+    }
+}

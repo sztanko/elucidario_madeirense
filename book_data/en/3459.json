@@ -1,0 +1,36 @@
+{
+    "id": 3459,
+    "lang": "en",
+    "is_original": false,
+    "title": "Telephones",
+    "fl": "T",
+    "original_title": "Telefones",
+    "body": "The telephone network of Funchal was inaugurated on October 5, 1911, with the City Hall establishing, in 1908, the conditions under which it allowed the adaptation of part of the tower of the Town Hall to the central telephone station. The work for the same adaptation only began in the following year. The late João Augusto Pereira, a former deputy for Madeira, greatly contributed to the installation of the telephone services in Funchal.\n\nOn August 6, 1915, the City Hall decided to appeal to the government requesting the extension of the telephone network to the entire island, but this improvement has not yet been granted to Madeira. (1921)",
+    "categories": [
+        "history",
+        "science",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Inauguration of the telephone network in 1911 and adaptation of the tower of the Town Hall to the central telephone station"
+        ]
+    },
+    "people": {
+        "João Augusto Pereira": [
+            "Significantly contributed to the installation of the telephone services in Funchal"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Inauguration of the telephone network in Funchal"
+        ],
+        "1908": [
+            "City Hall established conditions for the adaptation of the tower of the Town Hall"
+        ],
+        "1915": [
+            "City Hall requested the extension of the telephone network to the entire island"
+        ]
+    }
+}

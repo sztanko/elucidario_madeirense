@@ -1,0 +1,55 @@
+{
+    "id": 3111,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rodrigues (Dr. António Feliciano)",
+    "fl": "R",
+    "original_title": "Rodrigues (Dr. António Feliciano)",
+    "body": "Seine Gymnasialkameraden nannten ihn Castilho, vielleicht wegen der Ähnlichkeit des Namens mit dem des großen Castilho und auch, weil er Verse machte, ein Name, der sich gehalten hat und den Dr. Feliciano Rodrigues manchmal selbst als Pseudonym in seinen Schriften verwendet. Er wurde am 9. Juni 1870 in dieser Stadt geboren. Nach seinem Abschluss an der Universität Coimbra 1897 eröffnete er in Funchal eine Anwaltskanzlei und bekleidete in diesem Bezirk auch interimistisch das Amt des Staatsanwalts. Er ist Sekretär des Gymnasiums und Beamter im Sekretariat des Generalrats des Bezirks (1921).\n\nNeben Beiträgen für verschiedene Zeitungen, sowohl in Prosa als auch in Versen, hat er die Gedichte veröffentlicht: *A Escola*, Coimbra, 1893; *A Consciência*, Funchal 1897; *Versos da Mocidade*, Funchal, 1903, 127 Seiten; *Versos para meus filhos*, Funchal, 1910, 118 Seiten; *C ollar de Vidrilhos*, Funchal, 1911, 54 Seiten; *Canção das lágrimas; e Sonetos*, Lissabon, 1916. In Prosa veröffentlichte er die Romane *O Cirurgião de Marinha e Martim de Freitas*, wobei Letzterer im *Heraldo da Madeira* erschienen ist. Er hat weitere fertige Arbeiten zum Druck (1921).\n\nEr starb in Funchal am 5. Februar 1925.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ],
+        "Coimbra": [
+            "Abschluss an der Universität Coimbra"
+        ],
+        "Lissabon": [
+            "Veröffentlichung von *Canção das lágrimas; e Sonetos*, Lissabon, 1916"
+        ],
+        "Heraldo da Madeira": [
+            "Letzterer erschien im *Heraldo da Madeira*"
+        ]
+    },
+    "people": {
+        "Dr. António Feliciano Rodrigues": [
+            "Seine Gymnasialkameraden nannten ihn Castilho"
+        ],
+        "Großen Castilho": [
+            "Ähnlichkeit des Namens mit dem des großen Castilho"
+        ],
+        "Martim de Freitas": [
+            "Romane *O Cirurgião de Marinha e Martim de Freitas*"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Geburt"
+        ],
+        "1897": [
+            "Abschluss an der Universität Coimbra"
+        ],
+        "1921": [
+            "Beamter im Sekretariat des Generalrats des Bezirks"
+        ],
+        "1925": [
+            "Tod"
+        ]
+    }
+}

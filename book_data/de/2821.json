@@ -1,0 +1,33 @@
+{
+    "id": 2821,
+    "lang": "de",
+    "is_original": false,
+    "title": "Brunnenplatz",
+    "fl": "B",
+    "original_title": "Poço (Largo do)",
+    "body": "Dies ist der Platz neben dem Feld des Admirals Reis, wo die Straße von Santa Maria mündet. Es gibt einen Brunnen mit einer gewissen architektonischen Pracht, der derzeit mit Wasser aus den Tornos versorgt wird, aber vor 1911 nur Grundwasser lieferte, das durch eine Pumpe aus dem Untergrund gewonnen wurde. In geringer Entfernung befand sich die alte Kirche Unserer Lieben Frau vom Kieselstein.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem sich der Brunnenplatz befindet"
+        ],
+        "Feld des Admirals Reis": [
+            "In der Nähe des Brunnenplatzes"
+        ],
+        "Straße von Santa Maria": [
+            "Mündet auf den Brunnenplatz"
+        ],
+        "Tornos": [
+            "Quelle, aus der der Brunnen gespeist wird"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1911": [
+            "Änderung der Wasserversorgung des Brunnens"
+        ]
+    }
+}

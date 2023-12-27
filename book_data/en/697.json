@@ -1,0 +1,39 @@
+{
+    "id": 697,
+    "lang": "en",
+    "is_original": false,
+    "title": "Camara (Simão Gonçalves da)",
+    "fl": "C",
+    "original_title": "Camara (Simão Gonçalves da)",
+    "body": "He was the son of João Gonçalves da Camara, the 6th captain-donatario of Funchal, and D. Maria de Alencastre. He was born in Lisbon and never came to this island. His father died in Almeirim, at the beginning of June 1580, when he was only six months old. He can be considered the 7th captain-donatario of Funchal, although he never took over the governance of the captaincy, which in 1582 came under the administration of governors-general, under the Philippine dominion. In the meantime, he and many of his successors retained the title of captain-donatario of Funchal, as seen in the provision of October 10, 1585, enjoying a considerable part of the substantial revenues that the donatarios had in this archipelago. Simão Gonçalves da Camara, who was the 3rd Count of Calheta, married D. Maria de Vasconcelos, daughter and heiress of the 1st Count of Castelo Melhor, and for this reason, the county of Calheta was incorporated into the House of Castelo Melhor, which later became a marquisate.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Gonçalves da Camara": [
+            "6th captain-donatario"
+        ],
+        "D. Maria de Alencastre": [
+            "Mother of Simão Gonçalves da Camara"
+        ],
+        "D. Maria de Vasconcelos": [
+            "Wife of Simão Gonçalves da Camara"
+        ],
+        "Iº. conde de Castelo Melhor": [
+            "Father of D. Maria de Vasconcelos"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Father died in Almeirim, at the beginning of June 1580"
+        ],
+        "1582": [
+            "Captaincy came under the administration of governors-general"
+        ],
+        "1585": [
+            "Provision of October 10, 1585"
+        ]
+    }
+}

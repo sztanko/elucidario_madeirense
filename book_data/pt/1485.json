@@ -1,0 +1,38 @@
+{
+    "id": 1485,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Freitas da Silva (Dr. João de)",
+    "fl": "F",
+    "original_title": "Freitas da Silva (Dr. João de)",
+    "body": "Nasceu em Lisboa em 1842, e é 1.° visconde de Monte Belo, medico cirurgião pela extinta escola medica do Funchal, doutor em medicina pela faculdade de Montpellier (1863) e guarda-mor da Estação de Saúde. Foi director do Lazareto de Gonçalo Aires e procurador á Junta Geral do Distrito. E.: De l'Affection bilieuse, thèse présentée et publiquement soutenue à la faculté de médicine de Montpellier. (1921).",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisboa": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local onde frequentou a extinta escola medica do Funchal"
+        ]
+    },
+    "people": {
+        "Dr. João de Freitas da Silva": [
+            "Nasceu em Lisboa em 1842, foi 1.° visconde de Monte Belo, médico cirurgião, diretor do Lazareto de Gonçalo Aires e procurador á Junta Geral do Distrito"
+        ]
+    },
+    "years": {
+        "1842": [
+            "Nascimento de Dr. João de Freitas da Silva"
+        ],
+        "1863": [
+            "Doutoramento em medicina pela faculdade de Montpellier"
+        ],
+        "1921": [
+            "Publicação de De l'Affection bilieuse"
+        ]
+    }
+}

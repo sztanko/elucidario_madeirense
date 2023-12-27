@@ -1,0 +1,40 @@
+{
+    "id": 3181,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santana e Vasconcelos Moniz de Bettencourt (João de)",
+    "fl": "S",
+    "original_title": "Santana e Vasconcelos Moniz de Bettencourt (João de)",
+    "body": "He was born in Funchal in 1806. On August 9, 1834, he was appointed as the administrator of Porto Santo, later becoming the administrator of the council of the same island, a position he held for many years. He also served as the interim Civil Governor of the Funchal district from January 8 to 18, 1862. He wrote the Annals of the Municipality of Porto Santo, the original of which is in the archive of the same municipality, and was one of the men who rendered the greatest services to that island. He passed away in Funchal on June 22, 1874.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth and death"
+        ],
+        "Porto Santo": [
+            "Place where he held positions"
+        ]
+    },
+    "people": {
+        "João de Santana e Vasconcelos Moniz de Bettencourt": [
+            "Administrator of Porto Santo, Administrator of the council, Interim Civil Governor of the Funchal district, Writer"
+        ]
+    },
+    "years": {
+        "1806": [
+            "Birth"
+        ],
+        "1834": [
+            "Appointment as administrator of Porto Santo"
+        ],
+        "1862": [
+            "Interim Civil Governor of the Funchal district"
+        ],
+        "1874": [
+            "Death"
+        ]
+    }
+}

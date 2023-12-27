@@ -1,0 +1,39 @@
+{
+    "id": 1225,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ausgesetzte",
+    "fl": "A",
+    "original_title": "Enjeitados",
+    "body": "1583 wurde die Verwaltung der Ausgesetzten dem Bischof übertragen, aber eine königliche Verordnung von 1685 übergab diese Verwaltung an den Generalgouverneur. Seit 1693 liegt die Aufsicht über die Findelkinder bei der Stadtverwaltung, wobei jedoch über viele Jahre hinweg die Zahlung an die Amme von einem jährlich von der Vierundzwanziger-Gilde gewählten Schatzmeister geleistet wurde, der zu diesem Zweck und für die Unterstützung der Aussätzigen ein Drittel der Einkünfte aus der Weinsteuer eintrieb. Am 7. Mai 1761 beschloss die Stadtverwaltung von Funchal, eine Anfrage an die Regierung zu richten, ob sie weiterhin erlauben sollte, dass der erwähnte Schatzmeister ein Drittel der Steuer eintreibe, da die Eintreibung der städtischen Einkünfte in die Zuständigkeit des Stadtschatzmeisters falle. Ein königliches Edikt von 1752 gewährte den Ammen der Findelkinder dieses Archipels die gleichen Privilegien, die denen von Lissabon zustanden. Aus alten Dokumenten geht hervor, dass die Stadtverwaltung von Funchal 1811 mit einem Mangel an Mitteln zur Unterstützung der Findelkinder zu kämpfen hatte, und noch im dritten Viertel des 19. Jahrhunderts erhielten die Ammen ihre Gehälter nicht pünktlich, was viele von ihnen veranlasste, ihre Rechnungen zu Niedrigpreisen an bestimmte Spekulanten zu verkaufen, die bei diesem Geschäft beträchtliche Summen verdienten. Das alte Findelkind-Rad befand sich im Gebäude des Heiligen Hauses der Barmherzigkeit, und dort setzten viele Mütter ihre Kinder aus, wenn sie sie aus Geldmangel oder aus einem anderen Grund nicht aufziehen konnten.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1583": [
+            "Verwaltung der Ausgesetzten dem Bischof übertragen"
+        ],
+        "1685": [
+            "Königliche Verordnung übergab Verwaltung an den Generalgouverneur"
+        ],
+        "1693": [
+            "Aufsicht über die Findelkinder bei der Stadtverwaltung"
+        ],
+        "1761": [
+            "Anfrage der Stadtverwaltung von Funchal an die Regierung"
+        ],
+        "1752": [
+            "Königliches Edikt gewährte den Ammen der Findelkinder dieses Archipels die gleichen Privilegien wie denen von Lissabon"
+        ],
+        "1811": [
+            "Mangel an Mitteln zur Unterstützung der Findelkinder"
+        ],
+        "19. Jahrhundert": [
+            "Ammen erhielten ihre Gehälter nicht pünktlich"
+        ]
+    }
+}

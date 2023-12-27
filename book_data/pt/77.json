@@ -1,0 +1,42 @@
+{
+    "id": 77,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aguiar (Padre Dr. José Gonçalves de)",
+    "fl": "A",
+    "original_title": "Aguiar (Padre Dr. José Gonçalves de)",
+    "body": "Na vila de Câmara de Lobos e de humildes progenitores nasceu José Gonçalves de Aguiar a 8 de Outubro de 1831, sendo filho legítimo de Vitorino Gonçalves Rocha e de Vitorina Rosa de Jesus. Usou, bem como alguns dos seus irmãos, do Apelido Aguiar, que era o do seu avô materno. Era aluno do Seminário do Funchal, quando devido à protecção que lhe dispensou a família russa Waxel, que então se encontrava na Madeira, foi cursar a faculdade de teologia na Universidade e nela concluiu a sua formatura em ano que não podemos precisar. Fixou pouco depois residência em Lisboa e ali permaneceu até o seu falecimento. Na capital desempenhou, entre outros cargos, o de desembargador da curia patriarcal e o de examinador pro-sinodal. Era homem muito aplicado ao estudo e de uma larga ilustração, sendo por isso muito considerado na capital e não menos ainda pelas suas qualidades de caracter e pela sua conduta como cidadão e como sacerdote. Colaborou em vários jornais e que nos conste publicou em separado: 0 Dogma da Imaculada Conceição de Maria Santíssima, Lisboa, 1880, de 40 pag., e o Tratado da Penitência, Lisboa, 1888, de XVI-849 pags. Consta que por mais duma vez foi convidado a aceitar uma mitra, mas recusou-se sempre a entrar no episcopado. Ignoramos a data do seu falecimento, que ocorreu em Lisboa, e ainda quaisquer outros pormenores da sua biografia.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Vitorino Gonçalves Rocha": [
+            "Pai"
+        ],
+        "Vitorina Rosa de Jesus": [
+            "Mãe"
+        ],
+        "Waxel": [
+            "Família russa que o protegeu"
+        ]
+    },
+    "years": {
+        "1831": [
+            "Nascimento"
+        ],
+        "1880": [
+            "Publicação de Dogma da Imaculada Conceição de Maria Santíssima"
+        ],
+        "1888": [
+            "Publicação de Tratado da Penitência"
+        ]
+    }
+}

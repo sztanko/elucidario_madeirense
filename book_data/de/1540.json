@@ -1,0 +1,26 @@
+{
+    "id": 1540,
+    "lang": "de",
+    "is_original": false,
+    "title": "Galinhas (Ribeira das)",
+    "fl": "G",
+    "original_title": "Galinhas (Ribeira das)",
+    "body": "Dieser Wasserlauf entspringt in der Gemeinde Fajã da Ovelha und mündet an der Küste der Gemeinde Paul do Mar, wo sich an seiner Mündung ein kleiner Hafen befindet, der Porto das Galinhas genannt wird.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Paul do Mar"
+    ],
+    "locations": {
+        "Fajã da Ovelha": [
+            "Quelle"
+        ],
+        "Paul do Mar": [
+            "Meeresküste"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,26 @@
+{
+    "id": 3226,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Gil (Capela de)",
+    "fl": "S",
+    "original_title": "São Gil (Capela de)",
+    "body": "Antão Alvares de Carvalho fundou em terras vinculadas que possuía na freguesia de Santa Cruz, uma capela consagrada a São Gil, no sítio que tem este nome.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Antão Alvares de Carvalho": [
+            "Fundador"
+        ]
+    },
+    "years": {}
+}

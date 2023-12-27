@@ -1,0 +1,31 @@
+{
+    "id": 2450,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nola (António da)",
+    "fl": "N",
+    "original_title": "Nola (António da)",
+    "body": "Este navegador genovês esteve na Madeira em 1460, segundo se lê na relação das viagens de Diogo Gomes. «Depois, diz Gomes, vimos uma das ilhas Canárias chamada Palma, e daí fomos á ilha da Madeira. Como estava ancioso por voltar a Portugal, saí e fui arrojado por um vento contrario para os Açores, mas António de Nola deixou-se ficar na Madeira, e, servindo-se dum vento mais favorável, chegou a Portugal antes de mim.»",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha visitada por António da Nola"
+        ],
+        "Portugal": [
+            "Destino final de António da Nola"
+        ]
+    },
+    "people": {
+        "Diogo Gomes": [
+            "Autor da relação das viagens"
+        ]
+    },
+    "years": {
+        "1460": [
+            "Ano da visita à Madeira"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 1425,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fontes Pereira de Melo (António Maria de)",
+    "fl": "F",
+    "original_title": "Fontes Pereira de Melo (António Maria de)",
+    "body": "Dieser bedeutende portugiesische Staatsmann war 1858 auf Madeira, kam am 10. September mit der Brigg Mariana an und reiste am 26. nach Kap Verde weiter. Fontes Pereira de Melo war damals Leutnant des Pionierkorps und besichtigte die Arbeiten am Aquädukt von Rabaçal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Mariana": [
+            "Brigg"
+        ],
+        "Kap Verde": [
+            "Reiseziel nach Madeira"
+        ],
+        "Rabaçal": [
+            "Aquäduktbaustelle"
+        ]
+    },
+    "people": {
+        "António Maria de Fontes Pereira de Melo": [
+            "Bedeutender portugiesischer Staatsmann"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Besuch auf Madeira"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 3679,
+    "lang": "de",
+    "is_original": false,
+    "title": "White (Roberto)",
+    "fl": "W",
+    "original_title": "White (Roberto)",
+    "body": "Ein britischer Staatsbürger, der einige Jahre auf Madeira lebte und 1851 eine interessante und wertvolle Arbeit mit dem Titel *Madeira, its climate and scenery* verfasste. 1850 und 1851 führte er meteorologische Beobachtungen in Funchal und Machico durch. 1857 erschien noch zu Whites Lebzeiten eine zweite Auflage seines Werkes, herausgegeben und ergänzt von James Yate Johnson (siehe diesen Namen).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Führte meteorologische Beobachtungen durch"
+        ]
+    },
+    "people": {
+        "Roberto White": [
+            "Britischer Staatsbürger"
+        ]
+    },
+    "years": {
+        "1851": [
+            "Veröffentlichung der Arbeit *Madeira, its climate and scenery*"
+        ],
+        "1850": [
+            "Führte meteorologische Beobachtungen durch"
+        ],
+        "1857": [
+            "Veröffentlichung der zweiten Auflage des Werkes"
+        ]
+    }
+}

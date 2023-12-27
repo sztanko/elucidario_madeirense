@@ -1,0 +1,32 @@
+{
+    "id": 2204,
+    "lang": "de",
+    "is_original": false,
+    "title": "Marquês de Pombal",
+    "fl": "M",
+    "original_title": "Marquês de Pombal",
+    "body": "Am 20. Januar 1776 wurden in der Kirche des Kollegiums mit größtem Pomp religiöse Zeremonien als Dank abgehalten, dass der Marquês de Pombal dem von dem Genuesen João Baptista Pele geplanten Verbrechen entkommen war, der in Lissabon hingerichtet wurde. Frei Inácio José de Varona predigte und deutete in seiner Rede, um den Marquês zu gefallen, der in derselben Zeremonie durch seinen Verwandten, Gouverneur Sá Pereira, vertreten wurde, an, dass die Jesuiten an dem erwähnten Verbrechen nicht unbeteiligt gewesen sein dürften. Die Kosten der religiösen Feierlichkeiten wurden von dem Königlichen Finanzausschuss der Insel Madeira getragen.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem die religiösen Zeremonien stattfanden."
+        ]
+    },
+    "people": {
+        "João Baptista Pele": [
+            "Genuese, der ein Verbrechen gegen den Marquês de Pombal plante."
+        ],
+        "Frei Inácio José de Varona": [
+            "Verantwortlich für die Predigt bei der religiösen Zeremonie."
+        ]
+    },
+    "years": {
+        "1776": [
+            "Jahr, in dem die Dankeszeremonien stattfanden."
+        ]
+    }
+}

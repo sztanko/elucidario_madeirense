@@ -1,0 +1,22 @@
+{
+    "id": 115,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Алкайди (Рибейру ду)",
+    "fl": "А",
+    "original_title": "Alcaide (Ribeiro do)",
+    "body": "Небольшой ручей в приходе Понта-ду-Паргу, впадающий в океан.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Понта-ду-Паргу": [
+            "Впадает в океан"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

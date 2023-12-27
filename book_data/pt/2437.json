@@ -1,0 +1,34 @@
+{
+    "id": 2437,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Neves (Dr. Cassiano das)",
+    "fl": "N",
+    "original_title": "Neves (Dr. Cassiano das)",
+    "body": "Era advogado na cidade de Lamego, quando em 1877 publicou no Porto um opúsculo intitulado A sepultura Eclesiástica e os Suicidas, que se ocupa da negação da sepultura no cemitério das Angustias do Funchal, a um indivíduo que se suicidou nesta cidade a 4 de Março de 1877. É uma defesa calorosa do prelado diocesano D. Manuel Agostinho Barreto. (V. vol. I, pág. 71 e 130).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lamego": [
+            "Cidade onde Dr. Cassiano das Neves era advogado"
+        ],
+        "Porto": [
+            "Local de publicação do opúsculo 'A sepultura Eclesiástica e os Suicidas'"
+        ],
+        "Funchal": [
+            "Local onde ocorreu o suicídio mencionado no opúsculo"
+        ]
+    },
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Prelado diocesano defendido no opúsculo"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Publicação do opúsculo 'A sepultura Eclesiástica e os Suicidas'"
+        ]
+    }
+}

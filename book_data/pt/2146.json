@@ -1,0 +1,33 @@
+{
+    "id": 2146,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Madeirense (0)",
+    "fl": "M",
+    "original_title": "Madeirense (0)",
+    "body": "Apareceram oitenta e sete números deste jornal, o primeiro a 30 de Janeiro de 1847 e o ultimo a 30 de Janeiro de 1849.\n\nCom o mesmo titulo, publicou-se outro jornal na Madeira, de que saíram setenta e sete números, o primeiro a 27 de Abril de 1918 e o ultimo a 23 de Janeiro de 1919.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local de publicação dos jornais"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1847": [
+            "Publicação do primeiro jornal"
+        ],
+        "1849": [
+            "Publicação do último jornal"
+        ],
+        "1918": [
+            "Publicação do primeiro jornal"
+        ],
+        "1919": [
+            "Publicação do último jornal"
+        ]
+    }
+}

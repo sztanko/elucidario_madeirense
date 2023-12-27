@@ -1,0 +1,51 @@
+{
+    "id": 229,
+    "lang": "de",
+    "is_original": false,
+    "title": "António Alfredo",
+    "fl": "A",
+    "original_title": "António Alfredo",
+    "body": "Antonio Alfredo de Santa Catarina Braga, ehemaliger Franziskaner, wurde im letzten Viertel des 18. Jahrhunderts in Porto geboren. Um 1820 verließ er das Kloster und wurde Weltpriester. In den Häusern seines Ordens lehrte er mit Glanz Philosophie und Theologie, er war zu seiner Zeit ein bemerkenswerter und berühmter Prediger. Wegen seiner liberalen Ideen verfolgt, wurde er nach Kap Verde deportiert und ging dann nach Brasilien, von wo aus er in sein Heimatland zurückkehrte, als die konstitutionelle Regierung eingesetzt wurde. Er wurde dann zum Domherrn der Kathedrale von Évora ernannt und später zum Gouverneur der Bistümer Bragança und Funchal sowie zu anderen wichtigen öffentlichen Ämtern. \n\nDurch Dekret vom 7. November 1834 wurde Antonio Alfredo zum weltlichen Gouverneur des Bistums Funchal ernannt, ein Amt, das er bis April 1840 innehatte. Durch Dekret vom 25. Februar desselben Jahres wurde er entlastet und mit der Wahrnehmung eines anderen öffentlichen Dienstes beauftragt. Er war ein Mann von seltenem Talent und weitreichender Bildung, wovon seine Zeitgenossen und die Reden, Hirtenbriefe und andere Einzelwerke zeugen, die er uns hinterlassen hat. Während seiner Amtszeit in dieser Diözese zeichnete er sich durch äußerste Rechtschaffenheit und skrupulöses Verhalten aus. Berühmt und skandalös war seine auffällige und feierliche persönliche Reise Anfang Juni 1835 ins Kloster St. Bernardino in Câmara de Lobos, um die dortige Verehrung von Bruder Pedro da Guarda, bekannt als der Heilige Diener Gottes, zu verbieten. Er ließ in seiner Gegenwart die Statue des demütigen Mönchs, die in einer Kapelle neben dem Kloster verehrt wurde, verbrennen. Er veröffentlichte damals einen Hirtenbrief, in dem jede Verehrung, die Bruder Pedro da Guarda zuteil werden könnte, verurteilt und verboten wurde.\n\nEr verließ die Insel am 14. April 1840 in Richtung Lissabon und wurde im selben Jahr zum Gouverneur des Bistums Bragança ernannt. Wenige Jahre später starb er in der Stadt Porto.\n\n1849 wurde posthum auf Betreiben eines Verwandten seine Miscellanea oder Sammlung verschiedener Schriften veröffentlicht, von der nur der erste Band erschien.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Porto": [
+            "Geburtsstadt und Sterbeort"
+        ],
+        "Kap Verde": [
+            "Ort der Deportation"
+        ],
+        "Brasilien": [
+            "Ort, an den er nach der Deportation ging"
+        ],
+        "Lissabon": [
+            "Ort, an den er 1840 von der Insel aus reiste"
+        ]
+    },
+    "people": {
+        "Antonio Alfredo de Santa Catarina Braga": [
+            "Ehemaliger Franziskaner, Weltpriester, Gouverneur der Bistümer Bragança und Funchal"
+        ],
+        "Bruder Pedro da Guarda": [
+            "Bekannt als der Heilige Diener Gottes"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Austritt Antonio Alfredos aus dem Kloster"
+        ],
+        "1834": [
+            "Ernennung von Antonio Alfredo zum weltlichen Gouverneur des Bistums Funchal"
+        ],
+        "1835": [
+            "Auffälliger und feierlicher Akt von Antonio Alfredo im Kloster St. Bernardino in Câmara de Lobos"
+        ],
+        "1840": [
+            "Abreise Antonio Alfredos von der Insel nach Lissabon"
+        ]
+    }
+}

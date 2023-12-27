@@ -1,0 +1,30 @@
+{
+    "id": 706,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camara Regional de Agricultura",
+    "fl": "C",
+    "original_title": "Camara Regional de Agricultura",
+    "body": "Foi criada pelo artigo 145 da lei de 9 de Julho de 1913, e extinta por ocasião de serem reorganizados os serviços agricolas, em Maio de 1918. Teve a sua primeira sessão (a de instalação) a 16 de Fevereiro de 1914 e a ultima a 16 de Junho de 1917.",
+    "categories": [
+        "politics",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1913": [
+            "Criação"
+        ],
+        "1918": [
+            "Extinção"
+        ],
+        "16 de Fevereiro de 1914": [
+            "Primeira sessão (a de instalação)"
+        ],
+        "16 de Junho de 1917": [
+            "Ultima sessão"
+        ]
+    }
+}

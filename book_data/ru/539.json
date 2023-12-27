@@ -1,0 +1,27 @@
+{
+    "id": 539,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Борге (О.)",
+    "fl": "Б",
+    "original_title": "Borge (O.)",
+    "body": "Определил водоросли, собранные доктором Линдманом в 1885 году, написав о них небольшую работу под названием Algologische Notizen Susswasseralgen aus Madeira (Ботанические заметки, 1911).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Доктор Линдман": [
+            "Собрал водоросли в 1885 году"
+        ]
+    },
+    "years": {
+        "1885": [
+            "Год, когда доктор Линдман собрал водоросли"
+        ],
+        "1911": [
+            "Algologische Notizen Susswasseralgen aus Madeira"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "id": 25,
+    "lang": "de",
+    "is_original": false,
+    "title": "Die Akademie",
+    "fl": "D",
+    "original_title": "Academia (A)",
+    "body": "Es wurden 29 Ausgaben veröffentlicht, vom 11. bis zum 28. Oktober 1900 und die letzte am 2. Juni 1901.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1900": [
+            "Veröffentlichung der Ausgabe 11"
+        ],
+        "1901": [
+            "Veröffentlichung der letzten Ausgabe"
+        ]
+    }
+}

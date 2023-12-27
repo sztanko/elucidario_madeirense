@@ -1,0 +1,28 @@
+{
+    "id": 3618,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vigário (Ribeira do)",
+    "fl": "V",
+    "original_title": "Vigário (Ribeira do)",
+    "body": "Watercourse that flows into the Ocean, west of the so-called village of Câmara de Lobos. Near its mouth, a major landslide occurred on March 4, 1930, which, with great force, pushed the seawater into the river entrance, dragging about twenty people to a disastrous death. A considerable part of this river is also known by the name of Ribeira da Caixa.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ocean": [
+            "Location where the Ribeira do Vigário flows into"
+        ],
+        "Câmara de Lobos": [
+            "Village near the Ribeira do Vigário"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1930": [
+            "Landslide and death of twenty people in Ribeira do Vigário"
+        ]
+    }
+}

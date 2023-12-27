@@ -1,0 +1,37 @@
+{
+    "id": 2809,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pires",
+    "fl": "P",
+    "original_title": "Pires",
+    "body": "Em 1566, vivia no Funchal um tal Gonçalo Pires, que exercia o emprêgo de escrivão dos contos e em 1471 tinham aqui residencia Diogo Pires e Francisco Pires, sendo possivel que fôssem estes três individuos que trouxessem o apelido de familia Pires para a Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde viviam Gonçalo Pires, Diogo Pires e Francisco Pires"
+        ]
+    },
+    "people": {
+        "Gonçalo Pires": [
+            "Vivia no Funchal em 1566 e exercia o emprêgo de escrivão dos contos"
+        ],
+        "Diogo Pires": [
+            "Tinha residência no Funchal em 1471"
+        ],
+        "Francisco Pires": [
+            "Tinha residência no Funchal em 1471"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Vivência de Gonçalo Pires no Funchal"
+        ],
+        "1471": [
+            "Residência de Diogo Pires e Francisco Pires no Funchal"
+        ]
+    }
+}

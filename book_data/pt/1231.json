@@ -1,0 +1,36 @@
+{
+    "id": 1231,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Epocha (A)",
+    "fl": "E",
+    "original_title": "Epocha (A)",
+    "body": "O primeiro periódico com este título que se publicou no Funchal, apareceu a 6 de Setembro de 1886 e acabou a 30 do mesmo mês e ano, tendo saído oito números. Com o mesmo título apareceu outro jornal em 1895, que deu seis números, o primeiro a 14 de Janeiro e o ultimo a 21 de Fevereiro. A 16 de Junho de 1912 apareceu na vila da Ponta do Sol um periódico ainda com o mesmo título, o qual foi o terceiro jornal que se publicou naquela vila.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de publicação do primeiro periódico"
+        ],
+        "Ponta do Sol": [
+            "Local de publicação do terceiro jornal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1886": [
+            "Publicação do primeiro periódico com o título 'Epocha'"
+        ],
+        "1895": [
+            "Publicação de outro jornal com o mesmo título"
+        ],
+        "1912": [
+            "Publicação do terceiro jornal com o mesmo título"
+        ]
+    }
+}

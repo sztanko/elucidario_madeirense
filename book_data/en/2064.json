@@ -1,0 +1,32 @@
+{
+    "id": 2064,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lugar de Baixo (Enseada e Porto do)",
+    "fl": "L",
+    "original_title": "Lugar de Baixo (Enseada e Porto do)",
+    "body": "At this location, there is a small cove with a beach that serves as a port, and sometimes it is preferable to disembark there rather than at the quays of Ponta do Sol and Ribeira Brava. On October 25, 1858, the Infante D. Luis, later king of Portugal, disembarked at this port because the sea conditions did not allow it at the quay of the town of Ponta do Sol.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Sol": [
+            "Town where the quay is located"
+        ],
+        "Ribeira Brava": [
+            "Town where the quay is located"
+        ]
+    },
+    "people": {
+        "Infante D. Luis": [
+            "Disembarked at the port on October 25, 1858"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Disembarkment of Infante D. Luis at the port"
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": 2209,
+    "lang": "de",
+    "is_original": false,
+    "title": "Martins (Dr. Frederico dos Santos)",
+    "fl": "M",
+    "original_title": "Martins (Dr. Frederico dos Santos)",
+    "body": "Er ist der Sohn des wohlhabenden Grundbesitzers Manuel Martins und wurde in dieser Stadt am 1. November 1869 geboren. Er hat einen Abschluss in Jura von der Universität Coimbra. Seit vielen Jahren lebt er in Lissabon, wo er erfolgreich als Anwalt tätig ist. Er vertrat Madeira im Parlament in den Sitzungsperioden 1902-1904, 1904 und 1906. In mehreren Broschüren hat er einige seiner juristischen Arbeiten zur Verteidigung verschiedener Zivil- und Handelssachen veröffentlicht. Er ist Autor der bemerkenswerten Arbeit \"Seerecht\", von der 1932 nur der erste Teil mit 383 Seiten veröffentlicht wurde.",
+    "categories": [
+        "politics",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Universität Coimbra"
+        ],
+        "Lissabon": [
+            "Wohnsitz in Lissabon"
+        ]
+    },
+    "people": {
+        "Manuel Martins": [
+            "Wohlhabender Grundbesitzer"
+        ]
+    },
+    "years": {
+        "1869": [
+            "Geburt von Frederico dos Santos Martins"
+        ],
+        "1902": [
+            "Vertretung Madeiras im Parlament"
+        ],
+        "1904": [
+            "Vertretung Madeiras im Parlament"
+        ],
+        "1906": [
+            "Vertretung Madeiras im Parlament"
+        ],
+        "1932": [
+            "Veröffentlichung des ersten Teils der Arbeit \"Seerecht\""
+        ]
+    }
+}

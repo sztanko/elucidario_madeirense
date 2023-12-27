@@ -1,0 +1,35 @@
+{
+    "id": 3356,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sloane (Dr. Hans)",
+    "fl": "S",
+    "original_title": "Sloane (Dr. Hans)",
+    "body": "English physician and naturalist born in Ireland in 1560, and died in Chelsea in 1753. He was in Madeira from October 21 to 23, 1687, and left his impressions on our island in his work entitled A Voyage to the Islands Madera Barbados, Jamaica, etc.. (London 1707-1725).",
+    "categories": [
+        "history",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Place visited by Dr. Hans Sloane"
+        ]
+    },
+    "people": {
+        "Dr. Hans Sloane": [
+            "English physician and naturalist"
+        ]
+    },
+    "years": {
+        "1560": [
+            "Birth of Dr. Hans Sloane"
+        ],
+        "1687": [
+            "Visit to Madeira"
+        ],
+        "1753": [
+            "Death of Dr. Hans Sloane"
+        ]
+    }
+}

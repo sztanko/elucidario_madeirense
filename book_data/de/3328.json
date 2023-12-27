@@ -1,0 +1,37 @@
+{
+    "id": 3328,
+    "lang": "de",
+    "is_original": false,
+    "title": "Silva",
+    "fl": "S",
+    "original_title": "Silva",
+    "body": "Es ist ein edler Familienname. Gonçalo Denis da Silva gründete die Kapelle der Armen Seelen in Santa Maria Maior kurz nach der Gründung der Kapelle des Heiligen Paulus, und Jordão de Freitas da Silva, der 1618 in Santa Cruz lebte, war der Enkel von Jordão de Freitas, aus dem Haus des Infanten D. Diogo, Herzog von Viseu.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Ort der Kapelle, die von Gonçalo Denis da Silva gegründet wurde"
+        ],
+        "Santa Cruz": [
+            "Wohnort von Jordão de Freitas da Silva"
+        ]
+    },
+    "people": {
+        "Gonçalo Denis da Silva": [
+            "Gründer der Kapelle der Armen Seelen"
+        ],
+        "Jordão de Freitas da Silva": [
+            "Enkel von Jordão de Freitas, aus dem Haus des Infanten D. Diogo, Herzog von Viseu"
+        ]
+    },
+    "years": {
+        "1618": [
+            "Jahr, in dem Jordão de Freitas da Silva in Santa Cruz lebte"
+        ]
+    }
+}

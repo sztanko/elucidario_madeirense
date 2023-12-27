@@ -1,0 +1,36 @@
+{
+    "id": 3251,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Pedro (Lombada, Ribeira e Capela de)",
+    "fl": "S",
+    "original_title": "São Pedro (Lombada, Ribeira e Capela de)",
+    "body": "Na freguesia de Santa Cruz, e não muito distanciada da respectiva vila, fica situada a Lombada de São Pedro ou de Santa Cruz, que é atravessada pela ribeira também chamada de São Pedro, mais vulgarmente conhecida pelo nome de Ribeira da Boaventura.\nNos princípios do século XVI, João Escorcio Drumond fez ali construir uma capela dedicada ao apóstolo S. Pedro, que a grande aluvião de 9 de Outubro de 1803 arrasou inteiramente, sendo pouco depois reedificada em lugar menos exposto á violência da corrente.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Freguesia de Santa Cruz"
+        ],
+        "Lombada de São Pedro": [
+            "Lombada de São Pedro ou de Santa Cruz"
+        ],
+        "Ribeira da Boaventura": [
+            "Ribeira também chamada de São Pedro"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Construtor da capela dedicada a São Pedro na Lombada de São Pedro"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Aluvião que arrasou a capela dedicada a São Pedro na Lombada de São Pedro"
+        ]
+    }
+}

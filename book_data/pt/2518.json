@@ -1,0 +1,44 @@
+{
+    "id": 2518,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora dos Prazeres (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora dos Prazeres (Capelas de)",
+    "body": "Em terreno da freguesia do Monte, que depois passou a pertencer á paróquia de Santa Luzia, fundou Tristão Gomes de Castro em 1611, uma capela com a invocação de Nossa Senhora dos Prazeres. Com igual invocação, houve uma capela na freguesia de Santa Maria Maior, que era vinculada e em 1610 tinha por administrador João Gomes de Castro. Ignoramos o ano da sua fundação.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte",
+        "Santa Luzia",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Monte": [
+            "Freguesia na Ilha da Madeira"
+        ],
+        "Santa Luzia": [
+            "Paróquia na Ilha da Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Freguesia na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Tristão Gomes de Castro": [
+            "Fundador da capela na freguesia do Monte"
+        ],
+        "João Gomes de Castro": [
+            "Administrador da capela na freguesia de Santa Maria Maior"
+        ]
+    },
+    "years": {
+        "1611": [
+            "Fundação da capela na freguesia do Monte"
+        ],
+        "1610": [
+            "Ano em que a capela na freguesia de Santa Maria Maior tinha por administrador João Gomes de Castro"
+        ]
+    }
+}

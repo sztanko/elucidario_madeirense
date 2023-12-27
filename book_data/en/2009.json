@@ -1,0 +1,31 @@
+{
+    "id": 2009,
+    "lang": "en",
+    "is_original": false,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "A populated area in the parish of Caniço. It took its name from a chapel that once existed there, dedicated to Our Lady of Livramento, which was the center of a popular pilgrimage, now transferred to the Parish Church. The foundation of this chapel is attributed to Sebastião de Oliveira around the mid-17th century, who had land grants there.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Parish of Caniço"
+        ]
+    },
+    "people": {
+        "Sebastião de Oliveira": [
+            "Attributed to the foundation of the chapel of Our Lady of Livramento"
+        ]
+    },
+    "years": {
+        "XVII": [
+            "Foundation of the chapel of Our Lady of Livramento"
+        ]
+    }
+}

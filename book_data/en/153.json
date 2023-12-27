@@ -1,0 +1,60 @@
+{
+    "id": 153,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almada (José Antonio de)",
+    "fl": "A",
+    "original_title": "Almada (José Antonio de)",
+    "body": "He was born in Machico on April 19, 1813. During the blockade of Madeira in May 1832, he fled to the naval division of the Queen. In 1833, he was promoted to sergeant and landed on the beaches of Mindelo as a soldier in the expedition led by D. Pedro IV. He witnessed the siege of Porto, was at Serra do Pilar, and took part in different actions and battles of the freedom campaigns, being wounded in Asseiceira on May 16, 1834. By decree of September 8, 1834, Queen D. Maria II saw fit to decorate him with the rank of knight of the Order of the Tower and Sword. He died in Funchal on May 2, 1885.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Machico"
+        ],
+        "Mindelo": [
+            "Mindelo"
+        ],
+        "Porto": [
+            "Porto"
+        ],
+        "Serra do Pilar": [
+            "Serra do Pilar"
+        ],
+        "Asseiceira": [
+            "Asseiceira"
+        ],
+        "Funchal": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "D. Pedro IV": [
+            "Expedition commander"
+        ],
+        "D. Maria II": [
+            "Queen who decorated him"
+        ]
+    },
+    "years": {
+        "1813": [
+            "Birth of José Antonio de Almada"
+        ],
+        "1832": [
+            "Blockade of Madeira"
+        ],
+        "1833": [
+            "Promotion to sergeant"
+        ],
+        "1834": [
+            "Wounded in Asseiceira"
+        ],
+        "1885": [
+            "Death of José Antonio de Almada"
+        ]
+    }
+}

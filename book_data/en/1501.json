@@ -1,0 +1,63 @@
+{
+    "id": 1501,
+    "lang": "en",
+    "is_original": false,
+    "title": "Funchal (District of)",
+    "fl": "F",
+    "original_title": "Funchal (Comarca do)",
+    "body": "It was only in the year 1767, with the permanent appointment of the judges and magistrates, that the administration of justice in this archipelago took on a regular form in harmony with the nature of the important services it provided. This situation persisted until the year 1838 with the creation of two districts, both based in the city of Funchal, which were named the western district and the eastern district. The former comprised the parishes of the municipality of Funchal, Câmara de Lobos, Ponta do Sol, Calheta, Porto do Moniz, and S. Vicente, with the exception of the parish of Sé, while the latter included the parish of Sé and the parishes of the municipalities of Santa Cruz, Machico, Sant'Ana, and Porto Santo.\n\nThe decree of November 12, 1875 profoundly altered the judicial division with the creation of the districts of Funchal, Ponta do Sol, Santa Cruz, and São Vicente. The Funchal district was established on November 16, 1876, and was divided into nine courts, comprising the parishes of the municipalities of Funchal and Câmara de Lobos.\n\nThe decree of June 22, 1927, which abolished the district of São Vicente, altered the division of the courts or justices of the peace of the Funchal district, which then consisted of the parishes of Arco de São Jorge, Câmara de Lobos, Campanário, Curral das Freiras, Estreito de Câmara de Lobos, Faial, Santa Luzia, Santa Maria Maior, São Pedro, São Roque, Monte, Porto Santo, Quinta Grande, Sant'Ana, Santo Antonio, São Jorge, São Martinho, and São Gonçalo, with one court for each of these parishes.\n\nThe extraordinary activity of this district led to the creation of another court, resulting in the Civil and Commercial Court and the Criminal Court, each with a judge at the head of the two courts, all regulated by the Decree of June 22, 1927, thus providing a remarkable service for the regular and fruitful exercise of justice. The Decree of June 29, 1933, restructured the provisions of the previous decree, establishing two courts of mixed jurisdiction under the names of the First Division Court of the Funchal District and the Second Division Court. This decree also created the Judicial Secretariat, with each court consisting of three sections, each section headed by a chief and an officer, and with a central section common to both courts with two chiefs, known as secretariat chiefs, one of whom is an assistant.\n\nThe complete list of magistrates who have served as judges in the Funchal districts from the year 1835 to the present time will be published in the articles under the titles of Judges.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Câmara de Lobos",
+        "Ponta do Sol",
+        "Calheta",
+        "Porto do Moniz",
+        "S. Vicente",
+        "Sé",
+        "Santa Cruz",
+        "Machico",
+        "Sant'Ana",
+        "Porto Santo",
+        "Arco de São Jorge",
+        "Campanário",
+        "Curral das Freiras",
+        "Estreito de Câmara de Lobos",
+        "Faial",
+        "Santa Luzia",
+        "Santa Maria Maior",
+        "São Pedro",
+        "São Roque",
+        "Monte",
+        "Quinta Grande",
+        "Sant'Ana",
+        "Santo Antonio",
+        "São Jorge",
+        "São Martinho",
+        "São Gonçalo"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1767": [
+            "Permanent appointment of the judges and magistrates"
+        ],
+        "1838": [
+            "Creation of two districts"
+        ],
+        "1875": [
+            "Creation of the districts of Funchal, Ponta do Sol, Santa Cruz, and São Vicente"
+        ],
+        "1876": [
+            "Establishment of the Funchal district"
+        ],
+        "1927": [
+            "Abolition of the district of São Vicente and alteration of the division of the courts"
+        ],
+        "1933": [
+            "Restructuring of the provisions of the previous decree"
+        ]
+    }
+}

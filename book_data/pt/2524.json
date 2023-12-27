@@ -1,0 +1,39 @@
+{
+    "id": 2524,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Salvação (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Salvação (Capelas de)",
+    "body": "No sítio dos Moinhos da freguesia do Caniço, e sobre terras da família Figueiroa de Albuquerque, se encontram ainda as ruínas da capela de Nossa Senhora da Salvação, que, lemos algures, ter sido fundada em 1614 por Francisco Morais de Aguiar. Com o mesmo nome havia no Funchal, «em um quintal de suas casas em que vivem ás fontes», uma capela construída por João de Bettencourt Henriques e sua mulher D. Antonia de Castelbranco.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Funchal": [
+            "Capital da Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Morais de Aguiar": [
+            "Possível fundador da capela"
+        ],
+        "João de Bettencourt Henriques": [
+            "Construtor da capela"
+        ],
+        "D. Antonia de Castelbranco": [
+            "Construtora da capela"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Possível fundação da capela de Nossa Senhora da Salvação"
+        ]
+    }
+}

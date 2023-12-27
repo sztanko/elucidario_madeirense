@@ -1,0 +1,24 @@
+{
+    "id": 3003,
+    "lang": "en",
+    "is_original": false,
+    "title": "Rajão",
+    "fl": "R",
+    "original_title": "Rajão",
+    "body": "A musical instrument with five strings, well known to the people of Madeira. The peasants tune it to the following notes: D, G, C, E, A, but the players in Funchal often tune the first three strings up an octave.\n\nAmong the good machete-rajão players that have existed in Funchal, the late Diogo Sarsfield, treasurer of the Directorate of Public Works of the District, is mentioned. See the esteemed book 'Tocares e Cantares da Ilha', by Carlos Santos.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place where the instrument is known and played"
+        ]
+    },
+    "people": {
+        "Diogo Sarsfield": [
+            "Machete-rajão player"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,38 @@
+{
+    "id": 2671,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Passos (Francisco Carregal da Silva)",
+    "fl": "P",
+    "original_title": "Passos (Francisco Carregal da Silva)",
+    "body": "Nasceu por 1878, é filho de Manuel Antonio da Silva Passos e de D. Maria Teresa Bastos Carregal da Silva Passos, e desempenhou o cargo de consul português em Dakar. Tinha o curso de regente agricola e uma larga colaboração em muitos jornais e revistas de Lisboa, havendo escrito dois folhetos com os titulos de a Tagante e O Escalpello. Faleceu em Lisboa, a 1 de Outubro de 1931.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Dakar": [
+            "Local de trabalho"
+        ],
+        "Lisboa": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "Manuel Antonio da Silva Passos": [
+            "Pai"
+        ],
+        "D. Maria Teresa Bastos Carregal da Silva Passos": [
+            "Mãe"
+        ]
+    },
+    "years": {
+        "1878": [
+            "Ano de nascimento"
+        ],
+        "1931": [
+            "Ano de falecimento"
+        ]
+    }
+}

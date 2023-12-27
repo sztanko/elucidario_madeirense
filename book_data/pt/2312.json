@@ -1,0 +1,32 @@
+{
+    "id": 2312,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mittermaier (Dr. Carlos)",
+    "fl": "M",
+    "original_title": "Mittermaier (Dr. Carlos)",
+    "body": "Medico alemão que esteve no Funchal de 1852 a 1854 e fêz aqui valiosas observações meteorológicas. E.:Madeira und seine Bedeutung als Heilungsort; Heidelberg, 1855.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Estadia de Dr. Carlos Mittermaier"
+        ]
+    },
+    "people": {
+        "Dr. Carlos Mittermaier": [
+            "Realizou valiosas observações meteorológicas no Funchal"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Dr. Carlos Mittermaier esteve no Funchal"
+        ],
+        "1854": [
+            "Dr. Carlos Mittermaier esteve no Funchal"
+        ]
+    }
+}

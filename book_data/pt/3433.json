@@ -1,0 +1,33 @@
+{
+    "id": 3433,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Tavares",
+    "fl": "T",
+    "original_title": "Tavares",
+    "body": "Por meados do século XV, vivia na Madeira Joana Tavares, que foi casada com Vasco Esteves, por alcunha o dos bons vinhos, e depois de 1580 estabeleceu-se nesta ilha Bernardo Tavares de Sousa, de origem fidalga, sendo de crer que destes dois troncos procedam os indivíduos com o apelido Tavares que aqui têm existido.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Joana Tavares": [
+            "Pessoa mencionada"
+        ],
+        "Vasco Esteves": [
+            "Marido de Joana Tavares"
+        ],
+        "Bernardo Tavares de Sousa": [
+            "Pessoa mencionada"
+        ]
+    },
+    "years": {
+        "Século XV": [
+            "Vivência de Joana Tavares na Madeira"
+        ],
+        "1580": [
+            "Estabelecimento de Bernardo Tavares de Sousa na ilha"
+        ]
+    }
+}

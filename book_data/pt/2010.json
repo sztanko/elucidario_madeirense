@@ -1,0 +1,37 @@
+{
+    "id": 2010,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "Sítio povoado da freguesia do Monte. O nome provém-lhe da capela da invocação de N. S. do Livramento, que ali se encontra, mandada construir por Inácio Ferreira Pinto, no ano de 1684, e reedificada um século mais tarde por João José Bettencourt de Freitas, sendo de instituição vincular. No mesmo sítio se acha uma capela consagrada ao Sagrado Coração de Jesus, construída há poucos anos pelo padre Jorge de Faria e Castro.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Freguesia do Monte"
+        ]
+    },
+    "people": {
+        "Inácio Ferreira Pinto": [
+            "Mandou construir a capela de N. S. do Livramento"
+        ],
+        "João José Bettencourt de Freitas": [
+            "Reedificou a capela de N. S. do Livramento"
+        ],
+        "Jorge de Faria e Castro": [
+            "Construiu a capela consagrada ao Sagrado Coração de Jesus"
+        ]
+    },
+    "years": {
+        "1684": [
+            "Construção da capela de N. S. do Livramento"
+        ]
+    }
+}

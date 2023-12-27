@@ -1,0 +1,52 @@
+{
+    "id": 2277,
+    "lang": "de",
+    "is_original": false,
+    "title": "Märkte",
+    "fl": "M",
+    "original_title": "Mercados",
+    "body": "– Markt von S. João. Er wurde am 24. Juni 1823 eingeweiht und sollte Verfassungsmarkt von S. João heißen, ein Name, der ihm nie gegeben wurde, da die Nachricht von der Wiederherstellung des Absolutismus infolge der Revolution vom 27. Mai desselben Jahres Madeira erreichte. Er befand sich dort, wo heute das Theater von „Dr. Manuel de Arriaga“ steht und wurde mit Geld gebaut, das von João de Carvalhal Esmeraldo, Präsident der ersten verfassungsgebenden Kammer, geliehen wurde.\n\nIn unseren Tagen war er unter der Bezeichnung „Alter Markt“ bekannt und wurde 1883 abgerissen, als die Gemeinde beschloss, das genannte Theater zu bauen. Innerhalb des Marktbereichs wurde 1878 der „Zirkus von Funchal“ gebaut, in dem einige Gesellschaften auftraten.\n\nDer S. João-Markt sollte zwischen den Straßen Hospital Velho und Nova de Santa Maria auf einem dort befindlichen Feld gebaut werden, das von der Stadtverwaltung und dem Ingenieuroberst Feliciano António de Matos am 15. Mai 1821 besichtigt wurde.\n \nDas Grundstück, auf dem der Markt errichtet wurde, gehörte den Franziskanermönchen und wurde der Stadtverwaltung am 24. Dezember 1822 verpachtet.\n\nEs scheint, dass der S. João-Markt für einige Zeit geschlossen war oder aufhörte, der Öffentlichkeit zu dienen, denn wir lesen irgendwo, dass er am 4. April 1846 wiedereröffnet wurde.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Standort des Theaters von „Dr. Manuel de Arriaga“"
+        ],
+        "Hospital Velho": [
+            "Eine der Straßen, wo der Markt gebaut werden sollte"
+        ],
+        "Nova de Santa Maria": [
+            "Eine der Straßen, wo der Markt gebaut werden sollte"
+        ]
+    },
+    "people": {
+        "João de Carvalhal Esmeraldo": [
+            "Präsident der ersten verfassungsgebenden Kammer"
+        ],
+        "Feliciano António de Matos": [
+            "Ingenieuroberst"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Nachricht von der Wiederherstellung des Absolutismus"
+        ],
+        "1883": [
+            "Abriss des Marktes"
+        ],
+        "1878": [
+            "Bau des „Zirkus von Funchal“"
+        ],
+        "1821": [
+            "Besichtigung des Standorts für den Marktbau"
+        ],
+        "1822": [
+            "Verpachtung des Grundstücks an die Stadtverwaltung"
+        ],
+        "1846": [
+            "Wiedereröffnung des Marktes"
+        ]
+    }
+}

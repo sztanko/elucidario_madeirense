@@ -1,0 +1,48 @@
+{
+    "id": 986,
+    "lang": "de",
+    "is_original": false,
+    "title": "Grundbuchämter",
+    "fl": "G",
+    "original_title": "Conservatorias do Registo Predial",
+    "body": "Im Archipel Madeira gibt es vier Grundbuchämter: das von Funchal, eingerichtet am 30. September 1880, das von Ponta do Sol, im selben Jahr gegründet, das von Santa Cruz, eingerichtet am 7. September 1910 und das von S. Vicente, eingerichtet am 24. November 1909. Das Grundbuchamt Funchal war zuständig für die Gemeinden Funchal, Câmara de Lôbos, Pôrto Santo, Santa Cruz, Machico und Sant’Ana, wurde aber durch die Einrichtung der Ämter in S. Vicente und Santa Cruz auf die ersten drei Gemeinden reduziert; das von Ponta do Sol war zuständig für die Gemeinden Ponta do Sol, Calheta, Pôrto do Moniz und S. Vicente und nach der Einrichtung des Amtes in S. Vicente auf die ersten beiden Gemeinden; das von Santa Cruz ist zuständig für die Gemeinden Santa Cruz und Machico und das von S. Vicente schließlich für die Gemeinden S. Vicente, Porto do Moniz und Sant’Ana. Die am 16. August 1914 geschaffene Gemeinde Ribeira Brava gehört zum Grundbuchamt Ponta do Sol. Vor 1880 gab es auf Madeira zwei Grundbuchämter: das östliche und das westliche. Das östliche umfasste den Gerichtsbezirk gleichen Namens mit der gesamten Gemeinde Funchal, das westliche die übrigen Gemeinden des westlichen Gerichtsbezirks. Die östlichen und westlichen Grundbuchämter wurden gemäß der Grundbuchverordnung vom 28. April 1870 geschaffen. Ihnen voraus gingen die Grundbuchämter, die am 11. April 1867 in jeder Gemeinde gemäß dem Dekret vom 13. Februar desselben Jahres eingerichtet worden waren. Sie standen unter der Verwaltung der Gemeindeverwaltungen und galten durch das Dekret vom 17. Dezember 1869, das spezielle Grundbuchämter in allen Gerichtsbezirken schuf, als aufgelöst. Die Grundbuchämter wurden durch das Gesetz vom 1. Juli 1863 geschaffen, aber erst am 1. April 1867 tatsächlich eingerichtet. Vor 1863 gab es in den Gemeindeverwaltungen die durch die Dekrete vom 26. Oktober 1836 und 3. Januar 1837 sowie weitere damit zusammenhängende Verordnungen eingeführten Hypotheken- und anderen Register.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Eingerichtet am 30. September 1880"
+        ],
+        "Ponta do Sol": [
+            "Im selben Jahr gegründet"
+        ],
+        "Santa Cruz": [
+            "Eingerichtet am 7. September 1910"
+        ],
+        "S. Vicente": [
+            "Eingerichtet am 24. November 1909"
+        ],
+        "Ribeira Brava": [
+            "Geschaffen am 16. August 1914"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1880": [
+            "Einrichtung des Grundbuchamtes Funchal"
+        ],
+        "1910": [
+            "Einrichtung des Grundbuchamtes Santa Cruz"
+        ],
+        "1909": [
+            "Einrichtung des Grundbuchamtes S. Vicente"
+        ],
+        "1914": [
+            "Schaffung der Gemeinde Ribeira Brava"
+        ],
+        "1867": [
+            "Einrichtung der östlichen und westlichen Grundbuchämter"
+        ]
+    }
+}

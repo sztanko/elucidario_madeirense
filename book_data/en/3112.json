@@ -1,0 +1,44 @@
+{
+    "id": 3112,
+    "lang": "en",
+    "is_original": false,
+    "title": "Rodrigues (Dr. José Agostinho)",
+    "fl": "R",
+    "original_title": "Rodrigues (Dr. José Agostinho)",
+    "body": "He was born in Funchal on October 1, 1864, and is a medical-surgical graduate of the Medical-Surgical School of Lisbon. He was appointed as a medical lieutenant in the army on November 15, 1894. He served for many years in the 27th infantry regiment and currently holds the rank of colonel, serving as the deputy director in the General Directorate of Medical Services of the Ministry of War. He was in France with the C. E. P. and has contributed to various newspapers in Madeira. In 1890, he published the thesis he defended upon completing his medical course, titled *A opportunidade da laparotomia nas perfurações traumáticas gastro-intestinais* (1921).",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Birthplace"
+        ],
+        "Lisbon": [
+            "Medical-Surgical School of Lisbon"
+        ],
+        "France": [
+            "Was in France with the C. E. P."
+        ]
+    },
+    "people": {
+        "Dr. José Agostinho Rodrigues": [
+            "Medical-surgical graduate of the Medical-Surgical School of Lisbon"
+        ],
+        "C. E. P.": [
+            "Was in France with the C. E. P."
+        ]
+    },
+    "years": {
+        "1864": [
+            "Birth"
+        ],
+        "1894": [
+            "Appointed as a medical lieutenant in the army"
+        ],
+        "1921": [
+            "Published the defended thesis in 1890"
+        ]
+    }
+}

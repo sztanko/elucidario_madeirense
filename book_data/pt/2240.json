@@ -1,0 +1,33 @@
+{
+    "id": 2240,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Medina e Vasconcelos (Sérvulo de Paula)",
+    "fl": "M",
+    "original_title": "Medina e Vasconcelos (Sérvulo de Paula)",
+    "body": "Era filho do poeta madeirense Francisco de Paula Medina e Vasconcelos, nasceu no Funchal por 1822 e foi empregado civil para as ilhas de Cabo Verde, com o governador D. José Miguel de Noronha, em 1845, falecendo ali por 1854. Publicou no Funchal, em 1845, um drama intitulado Amor e Pátria, que foi representado nesta cidade no teatro Concordia, em Agosto de 1844, foi redactor do \"Beija-Flôr\" e por 1851 foi em Cabo Verde redactor do \"Boletim Official\", onde publicou o romance \"Um filho chorado\".",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco de Paula Medina e Vasconcelos": [
+            "Poeta"
+        ]
+    },
+    "years": {
+        "1822": [
+            "Nascimento"
+        ],
+        "1845": [
+            "Publicação do drama \"Amor e Pátria\""
+        ],
+        "1854": [
+            "Falecimento"
+        ],
+        "1851": [
+            "Redator do \"Boletim Official\""
+        ]
+    }
+}

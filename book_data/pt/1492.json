@@ -1,0 +1,29 @@
+{
+    "id": 1492,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Frias",
+    "fl": "F",
+    "original_title": "Frias",
+    "body": "O pico onde se começou a construir em 1622 o castelo de S. João Baptista mais conhecido pelo nome de fortaleza do Pico, teve e tem ainda o nome de Pico dos Frias, que lhe foi dado por Romeu Frias, de nacionalidade italiana, que ali morou e ali teve terras de sesmaria, havendo sido um dos mais antigos povoadores desta ilha.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pico dos Frias": [
+            "Nome dado por Romeu Frias"
+        ]
+    },
+    "people": {
+        "Romeu Frias": [
+            "De nacionalidade italiana, um dos mais antigos povoadores da ilha"
+        ]
+    },
+    "years": {
+        "1622": [
+            "Início da construção do castelo de S. João Baptista"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": 2150,
+    "lang": "de",
+    "is_original": false,
+    "title": "Muttergottes (Kapellen von)",
+    "fl": "M",
+    "original_title": "Madre de Deus (Capelas da)",
+    "body": "Es ist ein kleiner typisch manuelinischer Tempel, der daher besonders interessant für Besucher ist, insbesondere wegen einiger Details seiner Bauweise. Er befindet sich in der Gemeinde Caniço an dem Ort, der ihm diesen Namen gab. Es ist ein Bau aus dem 16. Jahrhundert und es heißt, dass er von einer Familie Salvago gegründet wurde, die dort Ländereien als Lehen hatte. Dort finden immer noch Gottesdienste statt und er gehört (1921) den Erben von João Maurício de Gouveia.\n\nMit der gleichen Widmung gibt es eine Kapelle in der Gemeinde Tabua, die besser bekannt ist unter dem Namen Muttergottes. Wir wissen nicht, in welchem Jahr sie gebaut wurde, aber wir wissen, dass sie Mitte des 18. Jahrhunderts durch die Gewalt des nahegelegenen Bachs völlig zerstört wurde. Sie wurde 1767 am anderen Ufer des Baches an einer sichereren Stelle wiederaufgebaut und am 9. Dezember desselben Jahres begutachtet, damit dort Gottesdienste gefeiert werden konnten. Ein päpstliches Breve vom 22. Mai 1781 gewährt allen, die diese Kapelle am ersten Sonntag im Mai besuchen, einen vollkommenen Ablass.\n\nInacio Uzadamor do Rêgo und seine Frau ließen 1705 in der Gemeinde Estreito de Camara de Lobos eine Kapelle zu Ehren Unserer Lieben Frau, der Muttergottes, und des Wundertäters Sankt Antonius bauen. Am 5. Dezember desselben Jahres wurde die Erlaubnis erteilt, sie einzuweihen.",
+    "categories": [
+        "architecture",
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Tabua",
+        "Estreito de Camara de Lobos"
+    ],
+    "locations": {
+        "Caniço": [
+            "Gemeinde, in der sich der Tempel befindet"
+        ],
+        "Tabua": [
+            "Gemeinde, in der sich eine andere Kapelle mit der gleichen Widmung befindet"
+        ],
+        "Estreito de Camara de Lobos": [
+            "Gemeinde, in der eine weitere Kapelle zu Ehren Unserer Lieben Frau, der Muttergottes, gebaut wurde"
+        ]
+    },
+    "people": {
+        "João Maurício de Gouveia": [
+            "Erbe des Tempels im Jahr 1921"
+        ],
+        "Inacio Uzadamor do Rêgo": [
+            "Erbauer der Kapelle in der Gemeinde Estreito de Camara de Lobos"
+        ]
+    },
+    "years": {
+        "1705": [
+            "Bau der Kapelle in der Gemeinde Estreito de Camara de Lobos"
+        ],
+        "1767": [
+            "Wiederaufbau der Kapelle in der Gemeinde Tabua"
+        ],
+        "1781": [
+            "Gewährung eines vollkommenen Ablasses für Besucher der Kapelle in der Gemeinde Tabua"
+        ]
+    }
+}

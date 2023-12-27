@@ -1,0 +1,36 @@
+{
+    "id": 76,
+    "lang": "de",
+    "is_original": false,
+    "title": "Aguiar (Joaquim Nunes de)",
+    "fl": "A",
+    "original_title": "Aguiar (Joaquim Nunes de)",
+    "body": "Dieser angesehene Ingenieur wurde Ende des ersten Viertels des letzten Jahrhunderts in Funchal geboren und war der uneheliche Sohn von Diogo Teles de Meneses, dem Leiter unseres Zollamtes. Nach Abschluss seiner Vorbereitungsstudien begann er seinen Studiengang Bauingenieurwesen in Lissabon und schloss ihn 1848 mit Auszeichnung in Paris ab. Er war Stadtingenieur der Stadtverwaltung von Funchal von 1849 bis 1850. 1852 wurde er für die Arbeiten an der Nord-Eisenbahn berufen, bei der er sein Talent und seine Arbeitsliebe auf bemerkenswerte Weise unter Beweis stellte. Anschließend bekleidete er wichtige Positionen als Leiter der öffentlichen Arbeiten in Viana, Braga und Porto, Mitglied des Rates für öffentliche Arbeiten, Direktor der Ostbahn und Kontrolleur der Nord-Eisenbahnen. Er bereiste mehrmals im Auftrag unserer Regierung das Ausland. Er war ein Mann mit großen Fähigkeiten und bemerkenswerter Aktivität. Er starb in Funchal an Überarbeitung am 14. November 1877.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Diogo Teles de Meneses": [
+            "Leiter des Zollamtes"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Abschluss des Ingenieurstudiums in Paris"
+        ],
+        "1849": [
+            "Beginn als Stadtingenieur der Stadtverwaltung von Funchal"
+        ],
+        "1850": [
+            "Ende der Tätigkeit als Stadtingenieur der Stadtverwaltung von Funchal"
+        ],
+        "1852": [
+            "Berufung für die Arbeiten an der Nord-Eisenbahn"
+        ],
+        "1877": [
+            "Tod"
+        ]
+    }
+}

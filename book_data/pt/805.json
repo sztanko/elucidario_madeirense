@@ -1,0 +1,57 @@
+{
+    "id": 805,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Casas de Abrigo",
+    "fl": "C",
+    "original_title": "Casas de Abrigo",
+    "body": "As serras da Madeira, em virtude da sua grande altitude e ainda pelas distancias a que se encontram dos centros povoados, oferecem sempre um grave perigo aos viandantes que têm necessidade de as atravessar, quando nelas se desencadeiam tempestades, especialmente as chuvas torrenciais acompanhadas de fortes ventanias e de saraivada de granizo, sendo raros os invernos em que não se regista a morte de varios individuos, que sucubem á violencia dos temporais. Para acudir a esses caminhantes, por vezes imprudentes e desconhecendo o perigo a que facilmente se expõem, construiram-se nos pontos mais desabrigados das nossas serras umas pequenas casas, algumas delas já bastante antigas, que têm prestado assinalados serviços, livrando de morte certa a muitos individuos que nelas têm procurado abrigo, embora estejam desprovidas dos mais rudimentares meios de agasalho e de conforto a proporcionar aos que ali chegam acossados pelas tempestades. Damos uma nota das Casas de Abrigo existentes nas nossas serras, algumas das quais também se aplicam aos serviços da conservação das levadas e da inspeccão florestaL sendo bastante para lamentar que nem todas tenham o indispensavel pessoal para acudir eficazmente ao fim a que se destinam e que o seu estado de conservação deixe tanto a desejar. São elas: Casa do Caramujo, (V. este nome), ns serras de São Vicente; Casa do Lombo do Mouro (V. este nome), nas serras da freguesia da Ribeira Brava; Casa do Monte Medonho (V. este nome nas serras da freguesia de São Vicente; Casas do Rabaçal, no conhecido sitio do mesmo nome; Casa da Bica da Cana no planalto do Paul da Serra; Casa da Fajã das Nogueiras (V. este nome), nas serras do Faial, Casa das Queimadas (V. este nome), nas serras da freguesia de Santana, Casa do Ribeiro Frio (V. este nome) na freguesia de São Roque do Faial; Casa dos Alpires (V. este nome) no não muito distante do sitio da Choupana, no Funchal, e a do Poiso, no sitio deste nome, nas serras da freguesia da Camacha. Talvez seja esta a unica que verdadeiramente mereça o nome de Casa de Abrigo, pela sua capacidade, bom estado de conservação e relativo conforto que oferece aos que a procuram. Em outros pontos da serra existiram algumas pequenas casas de abrigo, que há muito foram destruidas pelo tempo e pela incuria do homem. O subdito inglês Roberto Page mandou construir nos principios do seculo XIX duas casas de abrigo nas montanhas, sendo uma no Paul da Serra e a outra na Ribeira das Cales mas a primeira destas casas há muito que não existe, e a segunda está servindo, depois de convenientemente reparada, para abrigo de guardas florestais. No Lombo da Raiz e nos Lamaceiros existem pequenos abrigos mandados construir pela Direcção das Obras Publicas do Funchal.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ribeira Brava",
+        "São Vicente",
+        "Faial",
+        "Santana",
+        "São Roque do Faial",
+        "Camacha"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Serras"
+        ],
+        "Ribeira Brava": [
+            "Serras"
+        ],
+        "Rabaçal": [
+            "Serras"
+        ],
+        "Faial": [
+            "Serras"
+        ],
+        "Santana": [
+            "Serras"
+        ],
+        "São Roque do Faial": [
+            "Serras"
+        ],
+        "Choupana": [
+            "Serras"
+        ],
+        "Camacha": [
+            "Serras"
+        ]
+    },
+    "people": {
+        "Roberto Page": [
+            "Subdito inglês"
+        ]
+    },
+    "years": {
+        "Seculo XIX": [
+            "Roberto Page mandou construir duas casas de abrigo nas montanhas"
+        ]
+    }
+}

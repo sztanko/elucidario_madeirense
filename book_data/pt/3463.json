@@ -1,0 +1,30 @@
+{
+    "id": 3463,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Teles",
+    "fl": "T",
+    "original_title": "Teles",
+    "body": "É apelido de boas famílias, mas ignora-se quem o trouxe a esta ilha. Em 1682, vivia na Madeira António Teles ou António Telo de Meneses fundador da capela de Santo António, em Santa Maria Maior.\n\nOs Teles de Meneses vêm de Vasco Moniz de Meneses e também, por bastardia, dos condes de Vila Pouca.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Madeira"
+        ]
+    },
+    "people": {
+        "António Teles": [
+            "Fundador da capela de Santo António"
+        ]
+    },
+    "years": {
+        "1682": [
+            "António Teles ou António Telo de Meneses vivia na Madeira e era o fundador da capela de Santo António"
+        ]
+    }
+}

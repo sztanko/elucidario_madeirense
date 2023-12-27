@@ -1,0 +1,28 @@
+{
+    "id": 3288,
+    "lang": "en",
+    "is_original": false,
+    "title": "Saúde (Rua da)",
+    "fl": "S",
+    "original_title": "Saúde (Rua da)",
+    "body": "This was the former name of the ancient City Entrance before 1838. On January 12, 1838, the Ministry of Finance authorized the Chamber to carry out works on the gate and street of Saúde, using part of the land belonging to the São Lourenço Palace and demolishing the wall that enclosed the same land on the east side, as well as the said gate. Only on February 8, 1839, did the chamber order the opening of the square for the construction of the City Entrance, with the works being awarded on the 22nd of the same month and year and starting shortly after. Today, the public roads between Rua dos Álamos and the old Rua do Príncipe are known by the names Rua da Saúde and Calçada da Saúde, due to the existence of a chapel dedicated to Nossa Senhora da Saúde (Our Lady of Health).",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Palácio de São Lourenço": [
+            "Location of the authorized works in 1838"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1838": [
+            "Authorization for works on the gate and street of Saúde"
+        ],
+        "1839": [
+            "Opening of the square for the construction of the City Entrance"
+        ]
+    }
+}

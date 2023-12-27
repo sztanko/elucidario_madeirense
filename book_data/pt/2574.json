@@ -1,0 +1,28 @@
+{
+    "id": 2574,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Omnès (Dr. Charles)",
+    "fl": "O",
+    "original_title": "Omnès (Dr. Charles)",
+    "body": "Este médico da marinha francesa ocupou-se do clima da Madeira no seu trabalho intituladoStations sanitaires de l'Atlantique occidental (Montpellier, 1888).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha"
+        ]
+    },
+    "people": {
+        "Dr. Charles Omnès": [
+            "Médico"
+        ]
+    },
+    "years": {
+        "1888": [
+            "Publicação de *Stations sanitaires de l'Atlantique occidental*"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 318,
+    "lang": "de",
+    "is_original": false,
+    "title": "Athias (Dr. Marck)",
+    "fl": "A",
+    "original_title": "Athias (Dr. Marck)",
+    "body": "Geboren am 11. Dezember 1876, Doktor der Medizin von der Fakultät Paris und Chirurg von der Medizinischen Schule Lissabon, nachdem er seine Sekundärausbildung am Lyzeum Funchal absolviert hatte, wo er sich immer als herausragender Student erwies. Er ist der erste Assistent am Bakteriologischen Institut Câmara Pestana, Professor und Bibliothekar an der Medizinischen Fakultät Lissabon und Sekretär der Portugiesischen Gesellschaft für Naturwissenschaften. Er schrieb eine Arbeit mit dem Titel Anatomie der Nervenzelle (Lissabon, 1905) und hat am Bulletin der Portugiesischen Gesellschaft für Naturwissenschaften, Polytechnia etc. mitgearbeitet.",
+    "categories": [
+        "health",
+        "education",
+        "science"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Paris": [
+            "Fakultät"
+        ],
+        "Lissabon": [
+            "Medizinische Schule"
+        ]
+    },
+    "people": {
+        "Dr. Marck Athias": [
+            "Doktor der Medizin"
+        ]
+    },
+    "years": {
+        "1876": [
+            "Geboren am"
+        ],
+        "1905": [
+            "Arbeit mit dem Titel Anatomie der Nervenzelle"
+        ]
+    }
+}

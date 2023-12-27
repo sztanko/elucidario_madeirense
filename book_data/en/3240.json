@@ -1,0 +1,43 @@
+{
+    "id": 3240,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Lourenço (Capelas de)",
+    "fl": "S",
+    "original_title": "São Lourenço (Capelas de)",
+    "body": "In the fortress of São Lourenço, there was a chapel dedicated to the martyr São Lourenço. It is quite old and already existed in 1566, the year in which the French corsairs looted the city. It had a private chaplain, and the oldest charter we found of the appointment of the same chaplain dates back to November 15, 1641. Somewhere we saw that the counselor José Silvestre Ribeiro ordered on October 3, 1846, the inventory of the silver objects belonging to this chapel, which weighed 36 pounds, and had them deposited in the Central Safe. On December 3, 1856, a new inventory was carried out, adding new pieces, which all weighed 65 pounds of silver. The vestments of the chapel were offered in 1856 to the church of Achadas da Cruz (See Palace of S. Lourenço).\n\nThe chapel of São Lourenço, located in the place of the same name in the Parish of Fajã da Ovelha, is quite old, as it was already the seat of a chaplaincy in the early years of the 16th century, which later became a parish. It served as a parish church until the mid-18th century, when the new temple was built. It is a long-standing tradition that this chapel belonged to the Afonsos Jardins, who were among the oldest colonizers and owners of the slope on which the chapel is located.\n\nIn the parish of Camacha, there was a chapel dedicated to São Lourenço, which is said to have been built by Francisco Gonçalves Salgado. It was quite old, and it became the seat of the new parish in 1676, becoming a parish church, and its patron saint is still that of the original chapel.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Camacha"
+    ],
+    "locations": {
+        "Fajã da Ovelha": [
+            "Parish of Fajã da Ovelha"
+        ],
+        "Camacha": [
+            "Parish of Camacha"
+        ]
+    },
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Counselor"
+        ]
+    },
+    "years": {
+        "1566": [
+            "French corsairs looted the city"
+        ],
+        "1641": [
+            "Oldest charter of the appointment of the same chaplain"
+        ],
+        "1846": [
+            "Counselor José Silvestre Ribeiro ordered the inventory of the silver objects belonging to this chapel"
+        ],
+        "1856": [
+            "New inventory was carried out, adding new pieces"
+        ]
+    }
+}

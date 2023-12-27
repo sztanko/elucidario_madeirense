@@ -1,0 +1,30 @@
+{
+    "id": 2985,
+    "lang": "en",
+    "is_original": false,
+    "title": "Quinta de Santo António",
+    "fl": "Q",
+    "original_title": "Quinta de Santo António",
+    "body": "A populated place in the parish of Estreito de Câmara de Lobos. There is a chapel dedicated to Santo António, built in the year 1705 by Inácio Viana do Rego, with an attached manor house that belonged to the entail of the Heredias, of which the last representative was the Viscount of Ribeira Brava.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {
+        "Estreito de Câmara de Lobos": [
+            "Parish where Quinta de Santo António is located."
+        ]
+    },
+    "people": {
+        "Inácio Viana do Rego": [
+            "Responsible for the construction of the chapel dedicated to Santo António."
+        ]
+    },
+    "years": {
+        "1705": [
+            "Year of construction of the chapel dedicated to Santo António."
+        ]
+    }
+}

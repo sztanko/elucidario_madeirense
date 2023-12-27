@@ -1,0 +1,29 @@
+{
+    "id": 273,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Arruda (Fr. Pedro de)",
+    "fl": "A",
+    "original_title": "Arruda (Fr. Pedro de)",
+    "body": "Guardião da comunidade franciscana de S. João da Ribeira, que levantou a primitiva igreja do convento de S. Francisco desta cidade, sagrada em 1554 pelo bispo D. Sancho Truxillo, de passagem na Madeira .",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "S. João da Ribeira": [
+            "Local da comunidade franciscana"
+        ]
+    },
+    "people": {
+        "Fr. Pedro de Arruda": [
+            "Guardião da comunidade franciscana de S. João da Ribeira"
+        ]
+    },
+    "years": {
+        "1554": [
+            "Sagração da primitiva igreja do convento de S. Francisco"
+        ]
+    }
+}

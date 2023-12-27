@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abreu (Francisco Ferreira de)",
+    "fl": "A",
+    "original_title": "Abreu (Francisco Ferreira de)",
+    "body": "Era, em 1828, juiz dos orfãos da capitania de Machico, tendo desempenhado antes os cargos de feitor de embarque, escrivão das execuções ultramarinas e escrivão da Índia e Mina. Preso por liberal, por ordem da alçada que veio a esta ilha durante o governo de D. Miguel, foi enviado para Lisboa a bordo do bergantim *S. Boaventura+, sendo condenado, por sentença de 3 de Agosto de 1830, a não voltar à Madeira durante 3 anos. Em 23 de Junho de 1838, foi nomeado tabelião do registo de hipotecas da comarca ocidental, e, em 11 de Junho de 1841, escrivão da administração do concelho do Funchal. Tendo renunciado este último cargo, por seguir para Cabo Verde, veio a falecer naquele arquipélago em 1842, em idade pouco avançada. Desempenhou o cargo de secretário da Sociedade dos Amigos das Sciencias e Artes, e traduziu o Compêndio Elementar de Economia Política, de Adolfo Blanqui, e o Discurso sobre as revoluções da superfície do globo, pelo barão de Cuvier.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco Ferreira de Abreu": [
+            "Juiz dos orfãos da capitania de Machico, tabelião do registo de hipotecas da comarca ocidental, escrivão da administração do concelho do Funchal, secretário da Sociedade dos Amigos das Sciencias e Artes"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Francisco Ferreira de Abreu torna-se juiz dos orfãos da capitania de Machico"
+        ],
+        "1830": [
+            "Condenação de Francisco Ferreira de Abreu a não voltar à Madeira durante 3 anos"
+        ],
+        "1838": [
+            "Nomeação de Francisco Ferreira de Abreu como tabelião do registo de hipotecas da comarca ocidental"
+        ],
+        "1841": [
+            "Nomeação de Francisco Ferreira de Abreu como escrivão da administração do concelho do Funchal"
+        ],
+        "1842": [
+            "Falecimento de Francisco Ferreira de Abreu em Cabo Verde"
+        ]
+    }
+}

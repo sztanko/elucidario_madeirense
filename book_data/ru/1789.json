@@ -1,0 +1,25 @@
+{
+    "id": 1789,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Инфанте (Пик)",
+    "fl": "И",
+    "original_title": "Infante (Pico do)",
+    "body": "Горный массив в приходе Санта-Мария-Майор к северу от местности Шупана.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Санта-Мария-Майор": [
+            "Приход"
+        ],
+        "Шупана": [
+            "Местность"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

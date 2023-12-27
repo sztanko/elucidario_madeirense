@@ -1,0 +1,48 @@
+{
+    "id": 986,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Conservatorias do Registo Predial",
+    "fl": "C",
+    "original_title": "Conservatorias do Registo Predial",
+    "body": "Há no arquipelago da Madeira quatro conservatorias do registo predial: a do Funchal, instalada em 30 de Setembro de 1880, a da Ponta do Sol, criada no mesmo ano, a de Santa Cruz, instalada em 7 de Setembro de 1910 e a de S. Vicente, instalada em 24 de Novembro de 1909. A conservatoria do Funchal tinha os concelhos do Funchal, Câmara de Lôbos, Pôrto Santo, Santa Cruz, Machico e Sant’Ana, mas pela instalação das conservatorias de S. Vicente e Santa Cruz, ficou reduzida aos três primeiros concelhos; a da Ponta do Sol tinha os concelhos da Ponta do Sol, Calheta, Pôrto do Moniz e S. Vicente, ficando constituída pelos dois primeiros concelhos, pela instalação da conservatoria de S. Vicente; a de Santa Cruz tem os concelhos de Santa Cruz e de Machico, e finalmente a de S. Vicente, tem os concelhos de S. Vicente, Porto do Moniz e Sant’Ana. O concelho da Ribeira Brava, criado em 16 de Agôsto de 1914, pertence á conservatoria da Ponta do Sol. Antes de 1880, havia na Madeira duas conservatorias: a oriental e a ocidental, aquela constituída pela área da comarca de igual denominação e abrangendo todo o conselho do Funchal, e esta formada pelos restantes concelhos da comarca ocidental. As Conservatorias Oriental e Ocidental foram estabelecidas em virtude do Regulamento do Registo Predial de 28 de Abril de 1870, aprovado por decreto de igual data. Precederam-nas as conservatorias que tinham sido instaladasBuma em cada concelhoBno 11. de Abril de 1867, de harmonia com o decreto de 13 de Fevereiro do mesmo ano, as quais estavam a cargo dos administradores do concelho, tendo sido consideradas extintas pelo decreto de 17 de Dezembro de 1869, que criou conservatorias privativas em tôdas as comarcas. As conservatorias foram criadas pela carta de lei de 1 de Julho de 1863, mas somente se procedeu á sua instalação no dia 1 de Abril de 1867. Antes de 1863 havia nas administrações dos concelhos os registos de hipotecas e outros, estabelecidos pelos decretos de 26 de Outubro de 1836 e 3 de Janeiro de 1837, e mais providencias correlativas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Instalada em 30 de Setembro de 1880"
+        ],
+        "Ponta do Sol": [
+            "Criada no mesmo ano"
+        ],
+        "Santa Cruz": [
+            "Instalada em 7 de Setembro de 1910"
+        ],
+        "S. Vicente": [
+            "Instalada em 24 de Novembro de 1909"
+        ],
+        "Ribeira Brava": [
+            "Criado em 16 de Agôsto de 1914"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1880": [
+            "Instalação da conservatoria do Funchal"
+        ],
+        "1910": [
+            "Instalação da conservatoria de Santa Cruz"
+        ],
+        "1909": [
+            "Instalação da conservatoria de S. Vicente"
+        ],
+        "1914": [
+            "Criação do concelho da Ribeira Brava"
+        ],
+        "1867": [
+            "Instalação das conservatorias Oriental e Ocidental"
+        ]
+    }
+}

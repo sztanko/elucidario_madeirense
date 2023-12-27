@@ -1,0 +1,50 @@
+{
+    "id": 709,
+    "lang": "en",
+    "is_original": false,
+    "title": "Camellia (Camellia japonica)",
+    "fl": "C",
+    "original_title": "Camelia (Camellia japonica)",
+    "body": "Shrub or small tree of the Theaceae family, very common in Madeira. It is native to Japan and one of the most beautiful ornaments of the estates of Monte and Camacha. It is also known by the name 'japonesa'.\n\nAmerican Railroad. There was one between the old Praça da Constituição and Pombal, established by virtue of the license granted by the Municipal Council to José Ribeiro de Almeida and João Aluísio Virissimo to operate this means of transportation in the city. The *rails+, whose installation had begun in 1896, were removed in 1915, with the car circulation having been suspended some time before, due to the losses suffered by the Monte Railway Company, to whom the Council had granted a license to operate the line, in a session on April 7, 1902.\n\nThe material from the original American Railroad company was auctioned off by Manuel Betencourt Sardinha on August 20, 1900, and later transferred to the Monte Railway Company, to whom the Council granted an annual subsidy of 300:00 réis, which was paid until March 31, 1909.\n\nThe decree of August 2, 1902, approved the resolution of the Municipal Council of Funchal regarding the conditions of the tender that was intended to be opened for the concession of the establishment and operation of the American railroads. According to article 6 of the award bases accompanying the same decree, the awardee was free to choose the traction system to be used, being able to decide indifferently on traction by cattle, electric locomotion, or even the use of compressed air.",
+    "categories": [
+        "biology",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Estates"
+        ],
+        "Camacha": [
+            "Estates"
+        ],
+        "Praça da Constituição": [
+            "Former location"
+        ]
+    },
+    "people": {
+        "José Ribeiro de Almeida": [
+            "Operator of the American Railroad"
+        ],
+        "João Aluísio Virissimo": [
+            "Operator of the American Railroad"
+        ],
+        "Manuel Betencourt Sardinha": [
+            "Auctioneer of the material from the original American Railroad company"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Start of the installation of the *rails+"
+        ],
+        "1900": [
+            "Auction of the material from the original American Railroad company"
+        ],
+        "1902": [
+            "Approval of the resolution of the Municipal Council of Funchal regarding the conditions of the tender for the concession of the establishment and operation of the American railroads"
+        ],
+        "1909": [
+            "Payment of the annual subsidy of 300:00 réis"
+        ]
+    }
+}

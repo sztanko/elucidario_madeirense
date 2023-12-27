@@ -1,0 +1,34 @@
+{
+    "id": 2427,
+    "lang": "en",
+    "is_original": false,
+    "title": "Coastal Navigation",
+    "fl": "C",
+    "original_title": "Navegação Costeira",
+    "body": "The law of July 27, 1893, which authorized the government to subsidize a regular steam navigation service between Lisbon and the Adjacent Islands, also allowed for the support of a similar service between the islands of each of the two archipelagos. By a provisional contract dated November 30 of the same year, concluded between the government and the commercial firm Bensaúde &-C.ª, regular routes were established between Madeira and Porto Santo by the small steamship \"Falcão\", owned by the Blandy house of Funchal. By the end of 1897, this commercial house initiated a coastal navigation service between Funchal and various ports in the south and north of Madeira, which constituted one of the most remarkable benefits provided to the main settlements throughout the island.",
+    "categories": [
+        "economy",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisbon": [
+            "Regular steam navigation service"
+        ],
+        "Adjacent Islands": [
+            "Regular steam navigation service"
+        ],
+        "Porto Santo": [
+            "Regular routes between Madeira and Porto Santo"
+        ],
+        "Funchal": [
+            "Regular routes between Madeira and Porto Santo, coastal navigation between Funchal and various ports in the south and north of Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1893": [
+            "Law authorizing the government to subsidize a regular steam navigation service"
+        ]
+    }
+}

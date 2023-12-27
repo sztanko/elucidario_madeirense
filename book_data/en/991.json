@@ -1,0 +1,35 @@
+{
+    "id": 991,
+    "lang": "en",
+    "is_original": false,
+    "title": "Constitutions of the Bishopric",
+    "fl": "C",
+    "original_title": "Constituições do Bispado",
+    "body": "Diocesan Constitutions are the laws and specific instructions of each diocese, intended for the execution and regulation of the general laws of the Church. The bishopric of Funchal also has its Constitutions, very ancient and completely obsolete, which currently only have a mere historical value. Rare copies appear today, but they are highly appreciated for the study of the religious customs of the time when these Constitutions were elaborated. The first edition is entitled 'Constituiçôes Synodaes do Bispado do Funchal. Feitas e ordenadas por D. Jeronimo Barreto, Bispo do dito Bispado, Lisboa, por Antonio Ribeiro, 1585, folio of XVI-188 pages'. They were elaborated in the diocesan council held in our Cathedral See on October 13, 1578, under the presidency of Bishop D. Jeronimo Barreto, and approved and ordered to be executed by the same prelate's decree of May 4, 1579. D. Luiz Figueiredo de Lemos convened and presided over a diocesan synod, which took place in the Cathedral See on June 29, 1597, and some Extravagant Constitutions were made, which were appended to the existing Constitutions and had episcopal approval, by provision of August 15, 1597. D. Luiz de Figueiredo printed the new Constitutions and had the old ones reprinted with the title 'Constituições synodaes do Bispado do Funchal, com as extravagantes novamente impressas, por mandado de D. Luiz de Figueiredo de Lemos, Bispo do dito Bispado. Lisboa, por Pedro Craesbeeck, 1601, folio of XX-188 pages'. At the end, the extravagances come with a new face and new numbering, with the title: 'Constituições Extravagantes do Bispado do Funchal, feitas e ordenadas por D. Luiz Figueiredo de Lemos. Lisboa, impresso por Pedro Craeesbeck. Ano X , folio of 54 pages'.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where the Diocesan Constitutions of the Bishopric were elaborated and approved."
+        ]
+    },
+    "people": {
+        "D. Jeronimo Barreto": [
+            "Bishop of the Bishopric of Funchal, responsible for the elaboration of the Constituições Synodaes."
+        ],
+        "D. Luiz Figueiredo de Lemos": [
+            "Bishop of the Bishopric of Funchal, responsible for the convocation and presidency of the diocesan synod, and for the elaboration of the Extravagant Constitutions."
+        ]
+    },
+    "years": {
+        "1578": [
+            "Elaboration of the Constituições Synodaes of the Bishopric of Funchal."
+        ],
+        "1597": [
+            "Holding of the diocesan synod and elaboration of the Extravagant Constitutions."
+        ]
+    }
+}

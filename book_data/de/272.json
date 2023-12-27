@@ -1,0 +1,27 @@
+{
+    "id": 272,
+    "lang": "de",
+    "is_original": false,
+    "title": "Arroz",
+    "fl": "A",
+    "original_title": "Arroz",
+    "body": "Uns ist nicht bekannt, dass auf dieser Insel zu einer anderen Zeit jemals ein Versuch unternommen wurde, Reis anzubauen, aber wir wissen, dass im Jahr 1918 in der Gemeinde São Vicente ein Reisbauer vom portugiesischen Festland lebte und dort einen Anbauversuch unternahm, der mit einer hervorragenden und reichlichen Ernte gekrönt wurde. Aus diesem Grund wurde der Landwirtschaftlichen Vereinigung Madeiras eine von mehreren Grundbesitzern dieser Gemeinde unterzeichnete Petition zugesandt, in der um besonderen Schutz für den Anbau dieses Getreides gebeten wurde. Es scheint uns, dass keine weiteren Versuche zur Nutzung dieser Industrie unternommen wurden.",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [
+        "São Vicente"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Gemeinde, in der der Reisanbauversuch durchgeführt wurde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1918": [
+            "Durchführung des Reisanbauversuchs in der Gemeinde São Vicente"
+        ]
+    }
+}

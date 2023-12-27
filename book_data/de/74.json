@@ -1,0 +1,31 @@
+{
+    "id": 74,
+    "lang": "de",
+    "is_original": false,
+    "title": "Eisenhaltige Wasser",
+    "fl": "E",
+    "original_title": "Águas férreas",
+    "body": "Von den verschiedenen eisenhaltigen Quellen, die es auf Madeira gibt, ist die bekannteste die von Jamboto in der Gemeinde Santo Antonio. Carlos Lepierre, der diese Quellen am 4. Juni 1900 analysierte, sagt, dass sie zur Gruppe der hyposalinen, chloridhaltigen und eisenhaltigen Wässer gehören und dass ihr wichtigstes Mineral Natriumchlorid ist, gefolgt von Eisenhydrogencarbonat, das in relativ großer Menge vorhanden ist (36 Milligramm, entsprechend 12,6 Milligramm Eisen). Lepierre fand auch Magnesium- und Calciumhydrogencarbonate mit kleinen Mengen von Sulfaten und Nitraten in den gleichen Wässern.\n\nNach demselben Analytiker sind die Wässer von Jamboto aus bakteriologischer Sicht sehr rein. Das Ergebnis von Lepierres Untersuchungen ist in einer Broschüre mit dem Titel enthalten, die vom Stadtrat von Funchal veröffentlicht wurde: Analyse Chimica e Bacteriologica da Água da Fonte Férrea-Jamboto, Santo Antonio- Funchal . . . (Funchal, 1900).",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Jamboto": [
+            "Gemeinde Santo Antonio"
+        ]
+    },
+    "people": {
+        "Carlos Lepierre": [
+            "Analytiker der Quellen von Jamboto"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Analyse der Eisenquellen von Jamboto durch Carlos Lepierre"
+        ]
+    }
+}

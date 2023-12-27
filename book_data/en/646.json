@@ -1,0 +1,25 @@
+{
+    "id": 646,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cais da Ponta do Sol",
+    "fl": "C",
+    "original_title": "Cais da Ponta do Sol",
+    "body": "Its construction began on May 8, 1848, and it seems to have been completed in 1850, with the expenses covered by the Municipal Council of Ponta do Sol.",
+    "categories": [
+        "transport"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1848": [
+            "Start of the construction of the Ponta do Sol pier"
+        ],
+        "1850": [
+            "Completion of the construction of the Ponta do Sol pier"
+        ]
+    }
+}

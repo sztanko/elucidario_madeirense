@@ -1,0 +1,31 @@
+{
+    "id": 2019,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombada do Loreto",
+    "fl": "L",
+    "original_title": "Lombada do Loreto",
+    "body": "Sítio povoado da freguesia do Arco da Calheta, onde se encontra a antiga capela de Nossa Senhora do Loreto, que é o centro duma concorrida romagem, afluindo ali muito povo de várias freguesias distantes e principalmente das paróquias circunvizinhas. Esta capela, apesar de pequena, tem um certo aparato arquitectónico e pena foi um que mal adaptado alpendre lhe prejudicasse a harmonia do conjunto. A sua construção data dos primeiros anos do século XVI, tendo sido fundada por Pedro Gonçalves da Câmara, neto de João Gonçalves Zargo, primeiro capitão-donatário do Funchal. Teve um grande solar adjunto, havendo o fundador feito ali a sede do importante morgadio que instituiu. Outros dão a capela e o vínculo instituídos por D. Joana de Eça, viúva do referido Pedro Gonçalves da Câmara, camareira-mor da rainha D. Catarina e padroeira do convento da Esperança, em Lisboa, onde foi sepultada. As freiras deste mosteiro possuíram muitas terras na freguesia do Arco da Calheta, que lhes foram legadas por D. Joana de Eça. Nas ruínas da Igreja do Convento da Esperança, foi encontrada, no primeiro quartel deste século, a sepultura da padroeira D. Joana de Eça.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Freguesia onde se localiza a Lombada do Loreto."
+        ]
+    },
+    "people": {
+        "Pedro Gonçalves da Câmara": [
+            "Fundador da capela de Nossa Senhora do Loreto."
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Época de construção da capela de Nossa Senhora do Loreto."
+        ]
+    }
+}

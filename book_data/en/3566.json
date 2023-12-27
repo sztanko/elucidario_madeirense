@@ -1,0 +1,28 @@
+{
+    "id": 3566,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vapor",
+    "fl": "V",
+    "original_title": "Vapor",
+    "body": "The first steam-powered ship to visit the port of Funchal was the Duke of York, from the English merchant navy. It arrived here in the first half of May 1828, with a large number of passengers who visited various points on the island.\n\nThe Duke of York also visited Porto Santo, where it arrived on May 15, with over 400 passengers, some of whom were from Funchal. These passengers disembarked on the island around 11 o'clock in the morning, and after visiting the main places, they embarked around 3 o'clock in the afternoon bound for Madeira.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of the Island of Madeira"
+        ],
+        "Porto Santo": [
+            "Island in the Madeira archipelago"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1828": [
+            "Arrival of the Duke of York in Funchal"
+        ]
+    }
+}

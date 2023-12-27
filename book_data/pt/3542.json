@@ -1,0 +1,32 @@
+{
+    "id": 3542,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Túmulos",
+    "fl": "T",
+    "original_title": "Túmulos",
+    "body": "Nas igrejas desta diocese não se encontram túmulos que, pela sua aparatosa arquitectura, riqueza dos seus mármores ou primores de ornamentação, despertem as atenções dos visitantes. Apenas nas paredes laterais da capela-mor da igreja do Carmo se encontram dois mausoléus, que, sem serem grandiosos e de notável primor artístico, são, no entretanto, considerados como uma obra de valor: que merece ser visitada e apreciada devidamente. Estes túmulos pertencem à família do fundador da igreja, e em duas placas de mármore preto se lêem os seguintes epitáfios S. de Pedro Gliz Brandão, e seu irmão Manuel Miz Brandão e seus herdeiros e S. de António de Carvalhal Esmeraldo, fidalgo da casa de S. M. de. e sua mulher D. Maria Brandão. Na igreja de Santa Clara, encontra-se o túmulo de Gaspar Mendes de Vasconcelos no qual se afirma estar sepultado o descobridor Gonçalves Zargo (volume II, página 31).",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Carmo",
+        "Santa Clara"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro Gliz Brandão": [
+            "Fundador da igreja"
+        ],
+        "Manuel Miz Brandão": [
+            "Irmão de Pedro Gliz Brandão"
+        ],
+        "António de Carvalhal Esmeraldo": [
+            "Fidalgo da casa de S. M. de. e marido de D. Maria Brandão"
+        ],
+        "Gaspar Mendes de Vasconcelos": [
+            "Sepultado no túmulo da igreja de Santa Clara"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,25 @@
+{
+    "id": 2543,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Novos (Os)",
+    "fl": "N",
+    "original_title": "Novos (Os)",
+    "body": "O primeiro numero deste jornal apareceu no dia 1.° de Maio de 1920, e o decimo, que\n\n supomos ser o ultimo, em Novembro do mesmo ano. Era redigido por alunos do liceu do Funchal, e veio\n\n substituir a Gente Nova.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1920": [
+            "Aparição do primeiro número do jornal 'Os Novos'"
+        ],
+        "Novembro": [
+            "Aparição do décimo número do jornal 'Os Novos'"
+        ]
+    }
+}

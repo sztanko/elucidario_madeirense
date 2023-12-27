@@ -1,0 +1,64 @@
+{
+    "id": 1565,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gaspar (Alfredo Rodrigues)",
+    "fl": "G",
+    "original_title": "Gaspar (Alfredo Rodrigues)",
+    "body": "He was born in this city on August 8, 1865, the son of Manuel Rodrigues Gaspar and D. Maria Augusta Gaspar. He completed the course of marine engineer in 1885 and the naval officer course in 1888, and is a captain of the navy and has been a professor at the Naval School since 1898. He has dedicated himself particularly to the study of ballistics and explosives, of which he is a professor, being considered a true authority in these matters. He represented our country at the congress of applied chemistry held in London in 1909 and made an important communication there on the Comparative study of some of the stability tests of explosives. . . He was elected as a deputy to the Constituent Assembly in 1911 and as a senator in 1913. In 1914 and 1915, he was the Minister of the Colonies, returning to manage the affairs of the same ministry in 1919, in the ministry presided over by Mr. Sá Cardoso. He was the president of the council of ministers in 1924. He died in Lisbon on November 30, 1938.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Manuel Rodrigues Gaspar": [
+            "Father of Gaspar (Alfredo Rodrigues)"
+        ],
+        "D. Maria Augusta Gaspar": [
+            "Mother of Gaspar (Alfredo Rodrigues)"
+        ],
+        "Mr. Sá Cardoso": [
+            "President of the ministry in 1919"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Birth of Gaspar (Alfredo Rodrigues)"
+        ],
+        "1885": [
+            "Completion of the marine engineer course"
+        ],
+        "1888": [
+            "Completion of the naval officer course"
+        ],
+        "1898": [
+            "Start as a professor at the Naval School"
+        ],
+        "1909": [
+            "Participation in the congress of applied chemistry in London"
+        ],
+        "1911": [
+            "Election as a deputy to the Constituent Assembly"
+        ],
+        "1913": [
+            "Election as a senator"
+        ],
+        "1914": [
+            "Minister of the Colonies"
+        ],
+        "1915": [
+            "Minister of the Colonies"
+        ],
+        "1919": [
+            "Management of the affairs of the Colonies"
+        ],
+        "1924": [
+            "Presidency of the council of ministers"
+        ],
+        "1938": [
+            "Death of Gaspar (Alfredo Rodrigues)"
+        ]
+    }
+}

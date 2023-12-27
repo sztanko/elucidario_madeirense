@@ -1,0 +1,39 @@
+{
+    "id": 131,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alexandre (Príncipe)",
+    "fl": "A",
+    "original_title": "Alexandre (Príncipe)",
+    "body": "Prince Alexandre of the Netherlands arrived in Madeira on the Dutch frigate Príncipe de Orange on November 20, 1847, and passed away at the Tomaz Burnett estate in Santa Luzia on February 20, 1848. His body was then taken aboard the Dutch steamer Phoenix on April 3 of the same year, which transported him to the Netherlands.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Madeira": [
+            "Place where Prince Alexandre of the Netherlands passed away"
+        ],
+        "Santa Luzia": [
+            "Location of the estate where Prince Alexandre passed away"
+        ]
+    },
+    "people": {
+        "Alexandre dos Países Baixos": [
+            "Prince who arrived in Madeira in 1847 and passed away in 1848"
+        ],
+        "Tomaz Burnett": [
+            "Owner of the estate where Prince Alexandre passed away"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Arrival of Prince Alexandre of the Netherlands in Madeira"
+        ],
+        "1848": [
+            "Death of Prince Alexandre of the Netherlands in Madeira and transportation of his body to the Netherlands"
+        ]
+    }
+}

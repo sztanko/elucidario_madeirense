@@ -1,0 +1,34 @@
+{
+    "id": 3292,
+    "lang": "en",
+    "is_original": false,
+    "title": "Schiffner (V.)",
+    "fl": "S",
+    "original_title": "Schiffner (V.)",
+    "body": "A Contribution to the Flora of Madeira, Tenerife, and Gran Canaria (Austrian Botanical Journal, 1901).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island"
+        ],
+        "Tenerife": [
+            "Island"
+        ],
+        "Gran Canaria": [
+            "Island"
+        ]
+    },
+    "people": {
+        "Schiffner": [
+            "Author"
+        ]
+    },
+    "years": {
+        "1901": [
+            "Publication of the article"
+        ]
+    }
+}

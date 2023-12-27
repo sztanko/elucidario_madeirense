@@ -1,0 +1,30 @@
+{
+    "id": 2273,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Menezesia",
+    "fl": "M",
+    "original_title": "Menezesia",
+    "body": "Genero de Protomicetaceas (Fungos) dedicado pelo distinto micologo frances o rev. C. Torrend a um dos autores dêste Elucidário, e que apenas compreende por enquanto uma unica espécie – a Menezesia setulosa – achada em Setembro de 1913 na freguesia do Monte, nos ramos em decomposição da Hedera Helix. Foi publicado a pag. 175 do vol. XI da Broteria (secção botânica).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Achada em Setembro de 1913"
+        ]
+    },
+    "people": {
+        "C. Torrend": [
+            "Distinto micologo frances"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Achada em Setembro"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 3196,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santa Teresa (Fr. Francisco de)",
+    "fl": "S",
+    "original_title": "Santa Teresa (Fr. Francisco de)",
+    "body": "Karmelitermönch aus Funchal, gestorben 1698. Veröffentlichungen: Alphabetum Theologicum.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Herkunftsort von Fr. Francisco de Santa Teresa"
+        ]
+    },
+    "people": {
+        "Fr. Francisco de Santa Teresa": [
+            "Karmelitermönch"
+        ]
+    },
+    "years": {
+        "1698": [
+            "Tod von Fr. Francisco de Santa Teresa"
+        ]
+    }
+}

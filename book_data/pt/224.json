@@ -1,0 +1,38 @@
+{
+    "id": 224,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Anjos",
+    "fl": "A",
+    "original_title": "Anjos",
+    "body": "Deu o nome a este sítio da freguesia dos Canhas a capela de Nossa Senhora dos Anjos, que é de construção bastante antiga e que foi mandada edificar, segundo uns, pela infanta D. Beatriz, como tutora de seu filho o grão mestre da Ordem de Cristo a que a Madeira pertencia no espiritual, e segundo outros por Martins Afonso, no ano de 1508. Era de grande devoção a imagem que se venerava nesta capela e dela se ocupa Fr. Agostinho de Santa Maria no vol. X do seu Santuário Mariano. O sítio dos Anjos, que é duma grande fertilidade e constitue a costa marítima da freguesia dos Canhas, já fez parte integrante da paróquia da Ponta do Sol.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Canhas",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Canhas": [
+            "Freguesia onde se localiza o sítio dos Anjos"
+        ],
+        "Ponta do Sol": [
+            "Paróquia à qual o sítio dos Anjos já fez parte integrante"
+        ]
+    },
+    "people": {
+        "D. Beatriz": [
+            "Possível mandante da construção da capela de Nossa Senhora dos Anjos"
+        ],
+        "Martins Afonso": [
+            "Possível mandante da construção da capela de Nossa Senhora dos Anjos"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Ano de possível construção da capela de Nossa Senhora dos Anjos"
+        ]
+    }
+}

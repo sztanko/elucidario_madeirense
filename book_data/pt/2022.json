@@ -1,0 +1,31 @@
+{
+    "id": 2022,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo da Apresentação",
+    "fl": "L",
+    "original_title": "Lombo da Apresentação",
+    "body": "Sítio povoado da freguesia da Ribeira Brava. Tomou o nome da capela de Nossa Senhora da Apresentação, que ali existiu, tendo anexo um grande solar que era a sede do morgadio instituído em 1524 por João Mendes de Brito e sua mulher Isabel Fernandes Tavares, de que foi último representante o visconde da Ribeira Brava.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Freguesia onde se localiza o Lombo da Apresentação."
+        ]
+    },
+    "people": {
+        "João Mendes de Brito": [
+            "Fundador do morgadio instituído em 1524."
+        ]
+    },
+    "years": {
+        "1524": [
+            "Ano de instituição do morgadio de João Mendes de Brito."
+        ]
+    }
+}

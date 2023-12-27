@@ -1,0 +1,32 @@
+{
+    "id": 1548,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gamboa",
+    "fl": "G",
+    "original_title": "Gamboa",
+    "body": "Este apelido \"procede, diz o anotador das Saudades, de Antonio Garcia Gamboa, natural da\n vila de Almeida, cavalleiro da Ordem de Christo, que foi comendador das miunças da ilha do Porto Santo e\n do dizimo do pescado da villa de Machico e da de Santa Cruz: teve este também o foro de fidalgo, e a\n propriedade do posto de sargento-mor da ilha da Madeira, em tempo de D. Sebastião.\"",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Machico",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Almeida": [
+            "Vila de origem"
+        ]
+    },
+    "people": {
+        "Antonio Garcia Gamboa": [
+            "Natural da vila de Almeida"
+        ]
+    },
+    "years": {
+        "D. Sebastião": [
+            "Tempo em que teve propriedade do posto de sargento-mor da ilha da Madeira"
+        ]
+    }
+}

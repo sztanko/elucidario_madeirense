@@ -1,0 +1,35 @@
+{
+    "id": 1975,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lessa (Padre António João de)",
+    "fl": "L",
+    "original_title": "Lessa (Padre António João de)",
+    "body": "Nasceu este sacerdote na freguesia da Madalena do Mar a 1 de Junho de 1774 e faleceu na cidade do Rio de Janeiro a 12 de Abril de 1858. Saiu para o Brasil no ano de 1808, sendo já presbítero, e fixou residência na então nascente povoação de Cantagalo, que dentro de poucos anos atingiu um grande desenvolvimento e se transformou na cidade do mesmo nome. 0 padre Lessa dedicou-se à política, tendo concorrido bastante para a independência do Brasil. Foi deputado em duas legislaturas e gozou do maior prestigio entre os políticos da sua época. Vários escritores brasileiros se referem à sua acção persistente nos acontecimentos que precederam a independência e ainda nas lutas políticas que se seguiram. Deixou impresso um livro intitulado Cartas de Cantagalo. No ano de 1929, o seu sobrinho Clado Ribeiro de Lessa escreveu e fez publicar um volume de 160 páginas a que deu o título de Esboço Biográfico do Padre António João de Lessa, e em que se descreve a vida agitada deste sacerdote madeirense.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Madalena do Mar"
+    ],
+    "locations": {},
+    "people": {
+        "Clado Ribeiro de Lessa": [
+            "Sobrinho de Padre António João de Lessa"
+        ]
+    },
+    "years": {
+        "1774": [
+            "Nascimento de Padre António João de Lessa"
+        ],
+        "1808": [
+            "Partida para o Brasil"
+        ],
+        "1858": [
+            "Falecimento na cidade do Rio de Janeiro"
+        ],
+        "1929": [
+            "Publicação do Esboço Biográfico do Padre António João de Lessa"
+        ]
+    }
+}

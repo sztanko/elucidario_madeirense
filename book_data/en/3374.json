@@ -1,0 +1,46 @@
+{
+    "id": 3374,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sociedade Funchalense dos Amigos das Ciências e Artes",
+    "fl": "S",
+    "original_title": "Sociedade Funchalense dos Amigos das Ciências e Artes",
+    "body": "It was founded at the Government Palace and had as its first president Dr. João Pedro de Freitas Pereira Drumond and as its first secretary Francisco Ferreira de Abreu. It had 28 effective members and 24 honorary members, numbers that symbolized the day of August 24, 1820, when the revolution broke out in Porto, and the day of January 28, 1821, when it was seconded in Madeira. There were also corresponding members, numbering 45. The first public session of the society took place on August 23, 1822.\n\nThe Sociedade Funchalense dos Amigos das Ciências e Artes, modeled after the Royal Academy of Sciences of Lisbon, lasted a short time, having disappeared in 1823, with the restoration of absolute government on the island. Its statutes and regulations were printed in 1822, in the press of the Patriota.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "Porto": [
+            "City"
+        ],
+        "Lisbon": [
+            "City"
+        ]
+    },
+    "people": {
+        "João Pedro de Freitas Pereira Drumond": [
+            "First president"
+        ],
+        "Francisco Ferreira de Abreu": [
+            "First secretary"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Day of the revolution in Porto"
+        ],
+        "1821": [
+            "Day of the revolution in Madeira"
+        ],
+        "1822": [
+            "First public session of the society"
+        ],
+        "1823": [
+            "Year of the disappearance of the society"
+        ]
+    }
+}

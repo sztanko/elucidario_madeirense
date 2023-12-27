@@ -1,0 +1,31 @@
+{
+    "id": 1646,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Green",
+    "fl": "G",
+    "original_title": "Green",
+    "body": "Dois astrónomos com este nome visitaram a Madeira, o primeiro em 1768, por ocasião da primeira viagem do capitão Cook, e o segundo em 1877. Este ultimo fez aqui algumas observações sobre o planeta Marte, que são mencionadas por Flammarion num dos seus trabalhos sobre astronomia.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Capitão Cook": [
+            "Realizou a primeira viagem à Madeira"
+        ],
+        "Flammarion": [
+            "Mencionou as observações sobre o planeta Marte"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Primeira visita à Madeira"
+        ],
+        "1877": [
+            "Segunda visita à Madeira"
+        ]
+    }
+}

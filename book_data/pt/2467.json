@@ -1,0 +1,37 @@
+{
+    "id": 2467,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora das Angústias (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Angústias (Capela de)",
+    "body": "Na freguesia de São Pedro, no sítio a que deu o nome, edificou Diogo da Costa de Quintal, no ano de 1662, uma capela consagrada a Nossa Senhora das Angústias. Há ali a quinta de Nossa Senhora das Angústias, mais conhecida pelo nome de quinta Lambert, que tem uma capela desta invocação, que talvez seja a reconstrução da antiga capela existente naquele sítio. Nesta quinta, residiu a princesa D. Maria Amélia, que ali morreu a 4 de Fevereiro de 1853.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Localização da capela de Nossa Senhora das Angústias"
+        ]
+    },
+    "people": {
+        "Diogo da Costa de Quintal": [
+            "Edificador da capela em 1662"
+        ],
+        "D. Maria Amélia": [
+            "Princesa que residiu na quinta e faleceu em 1853"
+        ]
+    },
+    "years": {
+        "1662": [
+            "Construção da capela"
+        ],
+        "1853": [
+            "Falecimento da princesa D. Maria Amélia"
+        ]
+    }
+}

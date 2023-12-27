@@ -1,0 +1,28 @@
+{
+    "id": 3390,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sousa (Afonso Caminha de Vasconcelos)",
+    "fl": "S",
+    "original_title": "Sousa (Afonso Caminha de Vasconcelos)",
+    "body": "Er war Graf von Calheta und zweiter Gouverneur von Funchal, nachdem er 1726 die Kapitänswürde erhalten hatte.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Ort"
+        ],
+        "Funchal": [
+            "Stadt"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1726": [
+            "Erhalt der Kapitänswürde durch Afonso Caminha de Vasconcelos Sousa"
+        ]
+    }
+}

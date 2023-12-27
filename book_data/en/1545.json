@@ -1,0 +1,31 @@
+{
+    "id": 1545,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gama",
+    "fl": "G",
+    "original_title": "Gama",
+    "body": "It seems that Dr. Lourenço Vaz Pereira da Gama was the first to use this family surname on the island. He came to Madeira in the early 16th century to serve as the administrator of deceased and absent persons. He was the father of Dr. Antonio da Gama, whom we discuss in this Elucidário.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Place where this family surname was used"
+        ]
+    },
+    "people": {
+        "Lourenço Vaz Pereira da Gama": [
+            "First to use this family surname on the island"
+        ],
+        "Dr. Antonio da Gama": [
+            "Son of Lourenço Vaz Pereira da Gama"
+        ]
+    },
+    "years": {
+        "16th century": [
+            "Came to Madeira in the early 16th century to serve as the administrator of deceased and absent persons"
+        ]
+    }
+}

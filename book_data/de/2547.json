@@ -1,0 +1,47 @@
+{
+    "id": 2547,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nunes",
+    "fl": "N",
+    "original_title": "Nunes",
+    "body": "Die erste in den madeirischen Chroniken erwähnte Person dieses Namens ist\n Fernão Nunes. Er lebte in Gaula und war mit Helena de Góis verheiratet, der Tochter von Lançarote Teixeira, dem vierten\n Sohn von Tristão Vaz, dem ersten Grundherrn von Machico.\n\n Im ersten Viertel des 16. Jahrhunderts lebte auf Porto Santo ein Bartolomeu Nunes, der der Vater des falschen Propheten\n Fernão Nunes war, über den wir an anderer Stelle dieses Lexikons berichten werden.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Gaula",
+        "Porto Santo",
+        "Machico"
+    ],
+    "locations": {
+        "Gaula": [
+            "Wohnort von Fernão Nunes"
+        ],
+        "Porto Santo": [
+            "Wohnort von Bartolomeu Nunes"
+        ]
+    },
+    "people": {
+        "Fernão Nunes": [
+            "In den madeirischen Chroniken erwähnte Person"
+        ],
+        "Helena de Góis": [
+            "Ehefrau von Fernão Nunes"
+        ],
+        "Lançarote Teixeira": [
+            "Vater von Helena de Góis"
+        ],
+        "Tristão Vaz": [
+            "Erster Grundherr von Machico"
+        ],
+        "Bartolomeu Nunes": [
+            "Person, die auf Porto Santo lebte"
+        ]
+    },
+    "years": {
+        "16. Jahrhundert": [
+            "Zeit, in der Bartolomeu Nunes lebte"
+        ]
+    }
+}

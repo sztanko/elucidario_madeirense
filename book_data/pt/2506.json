@@ -1,0 +1,36 @@
+{
+    "id": 2506,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Monte (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Monte (Capela de)",
+    "body": "Os moradores dos sítios do Lombo das Adegas e Terças, da freguesia da Ponta do Sol, pediram licença no ano de 1750 para construir uma capela, alegando a distancia a que moravam da igreja paroquial e o desejo que tinham de edificar um pequeno santuário destinado a guardar a veneranda imagem de Nossa Senhora do Monte, e prestar-lhe culto, que se achava num pequeno oratório coberto de colmo e sem a decência devida à mesma imagem. Teve escritura de dotação celebrada a 7 de Julho de 1750, sendo concedida licença para a respectiva benção a 15 de Setembro de 1751. Vinte e quatro anos depois foi acrescentada, procedendo-se à sua nova bênção a 10 de Junho de 1775.\n\nNa noite de 1 de Junho de 1810, forçaram as portas da capela e dali retiraram a imagem de Nossa Senhora, que colocaram a certa distancia, despojando a mesma imagem de todas as jóias que a ornavam, o que causou o maior sentimento de pesar em toda a população. Foi conduzida para a igreja paroquial e, depois de vários actos de desagravo, conduzida processionalmente e com a maior solenidade para a mesma capela, a 6 de Agosto de 1810.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Localizada nos sítios do Lombo das Adegas e Terças, da freguesia da Ponta do Sol."
+        ]
+    },
+    "people": {
+        "Moradores dos sítios do Lombo das Adegas e Terças": [
+            "Solicitaram a construção da capela em 1750."
+        ]
+    },
+    "years": {
+        "1750": [
+            "Construção da capela"
+        ],
+        "1775": [
+            "Nova bênção da capela"
+        ],
+        "1810": [
+            "Roubo da imagem de Nossa Senhora"
+        ]
+    }
+}

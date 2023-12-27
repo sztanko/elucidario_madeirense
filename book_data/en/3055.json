@@ -1,0 +1,35 @@
+{
+    "id": 3055,
+    "lang": "en",
+    "is_original": false,
+    "title": "Renton (Dr.)",
+    "fl": "R",
+    "original_title": "Renton (Dr.)",
+    "body": "_Dr._ An English physician who resided in Madeira for many years and published a work on the advantages of the island's climate in the treatment of pulmonary diseases in the _Edinburgh Medical and Surgical Journal_ (1827). He made various meteorological observations in Funchal, in collaboration with Dr. Heineken, from 1826 to 1831.",
+    "categories": [
+        "health",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Where he made various meteorological observations"
+        ]
+    },
+    "people": {
+        "Dr. Heineken": [
+            "Collaborated with Dr. Renton in the meteorological observations"
+        ]
+    },
+    "years": {
+        "1827": [
+            "Dr. Renton published a work on the advantages of the island's climate in the treatment of pulmonary diseases"
+        ],
+        "1826": [
+            "Dr. Renton began collaborating with Dr. Heineken in the meteorological observations"
+        ],
+        "1831": [
+            "Dr. Renton ended the collaboration with Dr. Heineken in the meteorological observations"
+        ]
+    }
+}

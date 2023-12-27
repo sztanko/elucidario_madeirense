@@ -1,0 +1,24 @@
+{
+    "id": 2757,
+    "lang": "de",
+    "is_original": false,
+    "title": "Perlen",
+    "fl": "P",
+    "original_title": "Pérolas",
+    "body": "Auf Madeira wurden kleine Perlen in der Haliotis tuberculata gefunden. 1909 wurde eine erbsengroße graue Perle in der Fächermuschel (Pina rudis) entdeckt.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem die Perlen gefunden wurden"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1909": [
+            "Entdeckung einer grauen Perle in der Fächermuschel (Pina rudis)"
+        ]
+    }
+}

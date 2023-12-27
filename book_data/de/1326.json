@@ -1,0 +1,29 @@
+{
+    "id": 1326,
+    "lang": "de",
+    "is_original": false,
+    "title": "Falke",
+    "fl": "F",
+    "original_title": "Falcão",
+    "body": "Es war der erste Dampfer, der regelmäßige Fahrten zwischen verschiedenen Häfen an der Südküste Madeiras einführte. Er kam am 27. Februar 1881 mit 40 Tonnen und 22 Pferdestärken in den Hafen von Funchal. Das Boot wurde von dem Unternehmen Blandy Brothers & Co in Auftrag gegeben.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hafen"
+        ]
+    },
+    "people": {
+        "Blandy Brothers & Co": [
+            "Beauftragte den Dampfer Falke"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Ankunft des Dampfers Falke im Hafen von Funchal"
+        ]
+    }
+}

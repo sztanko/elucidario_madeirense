@@ -1,0 +1,29 @@
+{
+    "id": 1824,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jardim (Lino Cassiano)",
+    "fl": "J",
+    "original_title": "Jardim (Lino Cassiano)",
+    "body": "Nasceu na freguesia de Santana e era medico-cirurgião pela Escola Medica desta cidade. Para poder exercer livremente a clinica no Brasil, defendeu tese perante a faculdade de medicina do Rio de Janeiro, publicando a sua dissertação com o título *Da Febre Biliosa.*. Rio de Janeiro, 1871.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Santana"
+    ],
+    "locations": {
+        "Santana": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Rio de Janeiro": [
+            "Cidade no Brasil"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1871": [
+            "Defesa da tese perante a faculdade de medicina do Rio de Janeiro"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2531,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau vom Leben (Kapellen von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Vida (Capelas de)",
+    "body": "Manuel Valente gründete 1679 in der Gemeinde São Pedro eine Kapelle, die Unserer Lieben Frau vom Leben geweiht war, von der wir nicht wissen, wo sie stand.\n\nAuf einem kleinen Vorsprung über dem Meer erhebt sich eine Kapelle derselben Widmung, die von Inês Teixeira in einem Jahr, das wir nicht kennen, gegründet wurde. Sie befindet sich im Ort Fajã do Mar.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Ort auf Madeira"
+        ],
+        "Fajã do Mar": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Manuel Valente": [
+            "Gründer der Kapelle 1679"
+        ],
+        "Inês Teixeira": [
+            "Gründerin der Kapelle in Fajã do Mar"
+        ]
+    },
+    "years": {
+        "1679": [
+            "Gründung der Kapelle in São Pedro"
+        ]
+    }
+}

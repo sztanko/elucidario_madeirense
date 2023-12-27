@@ -1,0 +1,40 @@
+{
+    "id": 2495,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Incarnação (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Incarnação (Capela de)",
+    "body": "No sítio dos Louros, da freguesia de São Gonçalo, segundo afirma o anotador das Saudades, houve uma capela desta invocação, tendo sido fundada por Diogo Bernardes Branco, no ano de 1656.\n\nNo sul da freguesia do Estreito de Câmara de Lobos, na partilha da paróquia de Câmara de Lobos, se encontra a capela de Nossa Senhora da Incarnação, que tem sobre o pórtico a data de 1671, que deve ser a da sua construção. Pertenceu ao morgado João José de Ornelas Cabral e é hoje propriedade de D. Maria Teresa Figueira.\n\n## Vid.\n\nConvento da Incarnação (1-306).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Gonçalo",
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Freguesia de São Gonçalo"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Freguesia do Estreito de Câmara de Lobos"
+        ],
+        "Câmara de Lobos": [
+            "Paróquia de Câmara de Lobos"
+        ]
+    },
+    "people": {
+        "Diogo Bernardes Branco": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Fundação da capela"
+        ],
+        "1671": [
+            "Construção da capela"
+        ]
+    }
+}

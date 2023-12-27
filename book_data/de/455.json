@@ -1,0 +1,50 @@
+{
+    "id": 455,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bédmar (Graf Vargas de)",
+    "fl": "B",
+    "original_title": "Bédmar (Conde de Vargas de)",
+    "body": "Dänischer Geologe, der die Geologie des Madeira-Archipels untersuchte. Veröffentlichungen: Zusammenfassung der geologischen Beobachtungen, die auf einer Reise zu den Inseln Madeira, Porto Santo und den Azoren in den Jahren 1835 und 1836 gemacht wurden (Lissabon, 1837). Eine zweite Ausgabe dieses Werkes wurde 1857 auf der Insel S. Miguel veröffentlicht.",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Vom Grafen Vargas de Bédmar untersuchter Archipel"
+        ],
+        "Porto Santo": [
+            "Vom Grafen Vargas de Bédmar untersuchte Insel"
+        ],
+        "Açores": [
+            "Vom Grafen Vargas de Bédmar untersuchter Archipel"
+        ],
+        "Lisboa": [
+            "Veröffentlichungsort des Werks „Zusammenfassung der geologischen Beobachtungen, die auf einer Reise zu den Inseln Madeira, Porto Santo und den Azoren in den Jahren 1835 und 1836 gemacht wurden“"
+        ],
+        "S. Miguel": [
+            "Insel, auf der die zweite Ausgabe des Werkes veröffentlicht wurde"
+        ]
+    },
+    "people": {
+        "Graf Vargas de Bédmar": [
+            "Dänischer Geologe"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Durchführung der geologischen Beobachtungen"
+        ],
+        "1836": [
+            "Durchführung der geologischen Beobachtungen"
+        ],
+        "1837": [
+            "Veröffentlichung des Werks „Zusammenfassung der geologischen Beobachtungen, die auf einer Reise zu den Inseln Madeira, Porto Santo und den Azoren in den Jahren 1835 und 1836 gemacht wurden“"
+        ],
+        "1857": [
+            "Veröffentlichung der zweiten Ausgabe des Werkes"
+        ]
+    }
+}

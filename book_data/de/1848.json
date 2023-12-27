@@ -1,0 +1,54 @@
+{
+    "id": 1848,
+    "lang": "de",
+    "is_original": false,
+    "title": "Jesus Maria José (Kapelle von)",
+    "fl": "J",
+    "original_title": "Jesus Maria José (Capela de)",
+    "body": "Sebastião Gonçalves Cordeiro und seine Frau Luzia de Ornelas gründeten 1694 die Kapelle Jesus-Maria-José in der Gemeinde Câmara de Lobos an der Stelle, die heute noch diesen Namen trägt. Die entsprechende Gründungsurkunde ist vom 10. Mai 1694.\n\nAn der Stelle Lombo do Doutor in der Gemeinde Calheta befand sich ebenfalls eine Kapelle Jesus-Maria-José, die 1708 von João de Andrade Berenguer Neto und seiner Frau D. Tomásia de França Andrade gegründet und mit einer öffentlichen Urkunde vom 30. Oktober desselben Jahres dotiert wurde.\n\nMit derselben Widmung gab es eine Kapelle in der Gemeinde Sé an einem Ort, den wir nicht näher bestimmen können. Sie wurde 1626 vom Kanonikus Manuel Afonso gegründet. Und Mateus da Gama Ferreira gründete in der Gemeinde Monte auf einem Grundstück, das später zur Gemeinde Santa Luzia gehörte, eine Kapelle, die ebenfalls Jesus-Maria-José gewidmet war. Ihr Bau muss vor 1676 gewesen sein, dem Jahr, in dem die Gemeinde Santa Luzia gegründet wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Calheta",
+        "Sé",
+        "Monte",
+        "Santa Luzia"
+    ],
+    "locations": {},
+    "people": {
+        "Sebastião Gonçalves Cordeiro": [
+            "Gründer der Kapelle Jesus-Maria-José"
+        ],
+        "Luzia de Ornelas": [
+            "Gründerin der Kapelle Jesus-Maria-José"
+        ],
+        "João de Andrade Berenguer Neto": [
+            "Gründer der Kapelle Jesus-Maria-José"
+        ],
+        "D. Tomásia de França Andrade": [
+            "Gründerin der Kapelle Jesus-Maria-José"
+        ],
+        "Kanonikus Manuel Afonso": [
+            "Gründer der Kapelle in der Gemeinde Sé"
+        ],
+        "Mateus da Gama Ferreira": [
+            "Gründer der Kapelle in der Gemeinde Monte"
+        ]
+    },
+    "years": {
+        "1694": [
+            "Gründung der Kapelle Jesus-Maria-José in der Gemeinde Câmara de Lobos"
+        ],
+        "1708": [
+            "Gründung der Kapelle Jesus-Maria-José an der Stelle Lombo do Doutor in der Gemeinde Calheta"
+        ],
+        "1626": [
+            "Gründung der Kapelle in der Gemeinde Sé"
+        ],
+        "1676": [
+            "Gründung der Gemeinde Santa Luzia"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 2818,
+    "lang": "en",
+    "is_original": false,
+    "title": "Planaltos",
+    "fl": "P",
+    "original_title": "Planaltos",
+    "body": "The plateaus or plains located in mountainous elevations cannot be many and of great surface, due to the relatively small area of this island and the incredibly rugged terrain that constitutes it in almost all its extension. From the Diccionario Universal Portuguez Ilustrado we transcribe: \"This island has four main plateaus: the Santo Antonio da Serra, or, commonly, the Santo da Serra, in which there is a lagoon, in the municipality of Machico; the Achada de Santa Ana, in the municipality of the same name; the Paul da Serra, or simply the Paul, which is the largest, on the borders of the municipalities of S. Vicente, Ponta do Sol, and Porto Moniz; finally, the plateau of Achadas da Cruz; or, merely the Achadas, in the municipality of Porto do Moniz, which is of smaller dimensions: the lagoon looks like an extinct crater; it measures 66 meters in diameter and 40 meters in depth. There are very beautiful valleys in the municipality\".",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santo Antonio da Serra": [
+            "Plateau"
+        ],
+        "Machico": [
+            "Municipality"
+        ],
+        "Achada de Santa Ana": [
+            "Plateau"
+        ],
+        "S. Vicente": [
+            "Municipality"
+        ],
+        "Ponta do Sol": [
+            "Municipality"
+        ],
+        "Porto Moniz": [
+            "Municipality"
+        ],
+        "Achadas da Cruz": [
+            "Plateau"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

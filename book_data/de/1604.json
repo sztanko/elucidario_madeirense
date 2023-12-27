@@ -1,0 +1,30 @@
+{
+    "id": 1604,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gonçalo Aires (Ribeira de)",
+    "fl": "G",
+    "original_title": "Gonçalo Aires (Ribeira de)",
+    "body": "Gaspar Frutuoso erzählt bei der Schilderung der ersten Erkundungsarbeiten zu Beginn der Besiedlung der Insel unter anderem die folgende Episode: \"Gonçalo Ayres ging mit seinen Gefährten drei Stunden lang das Land entlang, bis der Kapitän ungeduldig über ihre Verspätung wurde, als sie plötzlich den Bach hinunter kamen, mit Kränzen auf dem Kopf und Girlanden, und voller Freude erzählten, dass sie nichts Lebendiges außer Vögeln gefunden hätten; und so erhielt der Bach den Namen «Ribeira de Gonçalayres». Dieser Bach durchquert die Gemeinde São Gonçalo, und an seiner Mündung liegt das Lazarett Gonçalo Aires.\"",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Ribeira de Gonçalayres": [
+            "Durchquert die Gemeinde São Gonçalo"
+        ]
+    },
+    "people": {
+        "Gonçalo Aires": [
+            "Mit der Ribeira de Gonçalayres verbunden"
+        ],
+        "Lazarett": [
+            "An der Mündung der Ribeira de Gonçalayres gelegen"
+        ]
+    },
+    "years": {}
+}

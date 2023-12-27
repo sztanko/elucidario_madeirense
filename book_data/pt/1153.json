@@ -1,0 +1,35 @@
+{
+    "id": 1153,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Dibblee (Harrison)",
+    "fl": "D",
+    "original_title": "Dibblee (Harrison)",
+    "body": "Representante da Cruz Vermelha Americana, que chegou á Madeira a 6 de Novembro de 1918 no transporte Lake Forest, que trouxe para esta ilha 1465 sacos com semilha, 1047 com feijão, 3000 com farinha de milho e 10628 com milho em grão, remetidos por aquela benemérita sociedade, a pedido de Mr. Kemper, cônsul americano no Funchal. Este importante fornecimento de mantimentos constituiu um alto beneficio prestado á população madeirense, que lutava já com a fome, devido a estarem quasi esgotados os géneros destinados á sua subsistência. Em homenagem a Mr. Dibblee e ao cônsul americano, houve no dia 9 de Novembro um jantar no Palácio de S. Lourenço, em que tomaram parte 76 convivas, tendo-se realizado também duas manifestações populares, uma promovida pela Câmara Municipal e a outra pelas classes operarias, ambas com o fim de agradecer àqueles dois beneméritos estrangeiros o terem abastecido o nosso mercado do cereal necessário para o nosso consumo publico. Mr. Dibblee saiu para Norfolk (Virginia) a 17 de Novembro, e residiu, enquanto esteve no Funchal, no palacio de S. Lourenço.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha onde chegou o transporte Lake Forest"
+        ],
+        "Funchal": [
+            "Local onde Mr. Dibblee residiu"
+        ]
+    },
+    "people": {
+        "Mr. Dibblee": [
+            "Representante da Cruz Vermelha Americana"
+        ],
+        "Mr. Kemper": [
+            "Cônsul americano no Funchal"
+        ]
+    },
+    "years": {
+        "1918": [
+            "Mr. Dibblee chegou à Madeira"
+        ]
+    }
+}

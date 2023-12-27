@@ -1,0 +1,33 @@
+{
+    "id": 603,
+    "lang": "de",
+    "is_original": false,
+    "title": "Buxo da Rocha",
+    "fl": "B",
+    "original_title": "Buxo da Rocha",
+    "body": "Die Madeirenser geben diesen Namen der Catha Dryandri, einem Strauch aus der Familie der Celastraceae, und der Chamaemeles coriácea, einem Strauch aus der Familie der Rosaceae. Der erste dieser Sträucher findet sich in S. Gonçalo, Seixal usw.; der zweite in der Nähe der Nervenheilanstalt Câmara Pestana, Praia Formosa usw. ",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Gonçalo",
+        "Seixal",
+        "Praia Formosa"
+    ],
+    "locations": {
+        "S. Gonçalo": [
+            "Ort, an dem der Strauch Catha Dryandri vorkommt"
+        ],
+        "Seixal": [
+            "Ort, an dem der Strauch Catha Dryandri vorkommt"
+        ],
+        "Manicómio Câmara Pestana": [
+            "Ort, an dem der Strauch Chamaemeles coriácea vorkommt"
+        ],
+        "Praia Formosa": [
+            "Ort, an dem der Strauch Chamaemeles coriácea vorkommt"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

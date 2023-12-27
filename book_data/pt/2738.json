@@ -1,0 +1,42 @@
+{
+    "id": 2738,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pereira (César Atanásio da Silva)",
+    "fl": "P",
+    "original_title": "Pereira (César Atanásio da Silva)",
+    "body": "Nasceu no Funchal a 5 de Julho de 1864, sendo filho de José Marceliano Pereira e de D. Maria de Jesus da Silva e frequentou a Escola Politecnica e a Escola do Exercito, sendo despachado 2.° tenente de artilharia a 8 de Janeiro de 1891. Serviu no regimento de artilharia n.° 2, na companhia n.° 3 de artilharia de guarnição e no regimento de artilharia n.° 4, sendo requisitado em 1896 para uma comissão de serviço no Ultramar. Tendo partido para Lourenço Marques, chegou aí a 15 de Janeiro de 1897, oferecendo-se pouco depois para fazer parte da expedição militar organizada na Beira com o fim de castigar o Cambuenga. Entrou no combate de Gorongoza, em que se revelou um distinto e valente militar, tendo tido porém a infelicidade de ser atingido por uma bala que lhe fracturou a maxila inferior, ferimento este de que só se restabeleceu em Lisboa, depois de operado no hospital de S. José. Tendo voltado á Africa em 1889, depois de haver servido novamente em artilharia n.° 4, foi ali secretario da circunscrição de Manica, vindo a falecer em Macequece, em consequencia duma biliosa, a 27 de Maio de 1901. Era cavaleiro da ordem da Tôrre e Espada e possuía a medalha militar de prata de serviços distintos no Ultramar.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Marceliano Pereira": [
+            "Pai de César Atanásio da Silva Pereira"
+        ],
+        "D. Maria de Jesus da Silva": [
+            "Mãe de César Atanásio da Silva Pereira"
+        ]
+    },
+    "years": {
+        "1864": [
+            "Nascimento de César Atanásio da Silva Pereira"
+        ],
+        "1891": [
+            "Despacho como 2.° tenente de artilharia"
+        ],
+        "1896": [
+            "Comissão de serviço no Ultramar"
+        ],
+        "1897": [
+            "Partida para Lourenço Marques"
+        ],
+        "1889": [
+            "Retorno à África"
+        ],
+        "1901": [
+            "Falecimento de César Atanásio da Silva Pereira"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 1762,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ilhéu",
+    "fl": "I",
+    "original_title": "Ilhéu",
+    "body": "The islet known by this name is located at the western end of the port of Funchal and now (1921) forms one of the boundaries of the breakwater or sheltered harbor of Pontinha. It used to house the small fortress of Nossa Senhora da Conceição do Ilhéu, a red light beacon indicating the entrance to the port, and a semaphore station. It has been reproduced in engravings in numerous national and foreign works, in many magazines, on postcards, etc., and also frequently appears as a composition in Madeiran inlays, in sewing boxes, and other local woodworking products. Referring to the first exploration along the coastline by the discoverers, Gaspar Frutuoso says: 'at the cape of which (the Funchal valley) there were two islets, where they sought shelter because it was already late.' The two islets were the one currently called Ilhéu, although now connected to the land by the breakwater, and the one that ceased to have that name when the small fort of S. João da Pontinha was built in the late 18th century, and since then has also been connected to the land. Anyone familiar with the location knows that the two small islets were a short distance from each other. Francisco Manuel de Melo, in his *Epanaphoras de Varia Historia Portuguesa*, which deals with the supposed history of Machim, makes some erroneous references to these islets, to which the illustrious annotator of the Saudades opposes the following words: 'This fiction is no less, in its own way, than that Zargo 'took water and wood' on the two islets, which, in Melo's picturesque words, are the windbreaks of the port of Funchal. Of these two islets, the one farthest out to sea is still isolated in the waters as before (it was in 1873), and therefore retains the name Ilheo; the other, for many years now connected to the island's coast by strong walls, is therefore called Pontinha: both are rugged cliffs, lashed and swept by the waves in the southerly gales and storms, unfortunately not uncommon in this area; both, therefore, only have the vegetation of maritime slime and moss; both have no source of potable water; both, unshakeable witnesses testifying with their eternal nakedness against the assertion that they provided water and wood to Zargo and his companions. The fortress of Nossa Senhora da Conceição do Ilhéu was built around the mid-17th century (See *Fortifications*) and the respective chapel was ordered to be built by royal decree on November 9, 1682, with its own chaplain. See *Nossa Senhora da Conceição do Ilhéu (Chapel of*). The beacon on the islet began operating on May 18, 1866 (See *Lighthouses*). In 1890, the islet was definitively connected to the coast by means of a breakwater that joins those two points and constitutes the most significant part of the Pontinha breakwater.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Funchal": [
+            "Port"
+        ],
+        "Ponta da Pontinha": [
+            "Breakwater"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historian"
+        ],
+        "Francisco Manuel de Melo": [
+            "Writer"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Formation of the boundary of the Pontinha breakwater"
+        ],
+        "18th century": [
+            "Construction of the small fort of S. João da Pontinha"
+        ],
+        "1873": [
+            "Islet still isolated in the waters"
+        ],
+        "1866": [
+            "Start of operation of the islet's beacon"
+        ],
+        "1890": [
+            "Definitive connection of the islet to the coast"
+        ]
+    }
+}

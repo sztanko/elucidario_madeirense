@@ -1,0 +1,30 @@
+{
+    "id": 51,
+    "lang": "de",
+    "is_original": false,
+    "title": "Aderno (Ardisia excelsa)",
+    "fl": "A",
+    "original_title": "Aderno (Ardisia excelsa)",
+    "body": "Einheimischer Baum der Familie der Myrsinengewächse, der in den Bergen von S. Vicente, Ribeira da Janela, Porto da Cruz usw. vorkommt. Er hat ledrige, ganzrandige, durchscheinende Blätter, die am Rand rot gepunktet sind, und kleine grüne oder grünliche Blüten, die fast immer in extraaxillären Büscheln angeordnet sind. Seine Früchte sind klein, kugelförmig und rot, und sein Holz ist weiß oder etwas rosa, wellig und hart. Dieses Holz wurde früher für Kiele von Booten verwendet.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "Ribeira da Janela",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Einheimischer Baum"
+        ],
+        "Ribeira da Janela": [
+            "Einheimischer Baum"
+        ],
+        "Porto da Cruz": [
+            "Einheimischer Baum"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

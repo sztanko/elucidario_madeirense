@@ -1,0 +1,44 @@
+{
+    "id": 2478,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Calhau (Church of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Calhau (Igreja de)",
+    "body": "This church was known by several names. It was called Conceição de Baixo, to distinguish it from the chapel that Zarco had built in the place where the convent of Santa Clara was later erected, which was known by the name of Conceição de Cima; it was also called Santa Maria Maior, in contrast to the small church of Conceição de Cima, which was of smaller dimensions; and finally, it was named Nossa Senhora do Calhau, which was the name that endured the most, as it was located not far from the beach and in a place commonly called the calhau. Dr. G. Frutuoso says: \"Having settled in this place (Santa Catarina), where he sheltered his wife and children, Captain Zarco decided to build a church that would be the beginning and foundation of the town of Funchal; and because it was safe and well situated, he ordered it to be built by the sea at the end of the Funchal valley, along the first stream of this meadow, where the sea made a continuous flow of many pebbles and small stones, washed by the continuous waves that beat against it; and for this reason, this first church of Funchal was commonly called Nossa Senhora do Calhao, with its patron being the Nativity of the Virgin...\"\n\nIts construction began in 1438, when an important population nucleus had already been established beyond the left bank of the stream, which later was named João Gomes. A major flood that devastated the city in 1611 largely destroyed the church and the hospital attached to it, leading to the planning of a new temple in a more sheltered and secure location. It seems that this construction was not carried out immediately, as a note in the 'Saudades' mentions that the church was rebuilt between the years 1664 and 1688.\n\nAnother flood in 1707 caused various damages to the new church and destroyed a considerable part of the churchyard. However, the great flood of 1803 caused the church to collapse, leaving only a part of the chancel standing. The provision of March 10, 1805, determined that these ruins should be carefully preserved in the same state as they were left by the flood, as a reminder for future generations of the most disastrous event for the inhabitants of this island. However, this did not happen, because thirty-two years later, in December 1835, the Funchal City Council ordered the demolition of the remaining part of the old and historic church to build a fruit and vegetable market, which was named Mercado União and was constructed in 1835.\n\nDr. Gaspar Frutuoso's statement that the Calhau church was the first one built in Funchal is not accurate. According to the commentator of 'Saudades', the chapel of São Sebastião was the first one built here, and others affirm that the right of priority belongs to the chapel of Santa Catarina (see this name), which was built of wood next to the residence of João Gonçalves Zarco. We share this opinion, as we believe it is the one that comes closest to historical truth.\n\nThe flood of 1803, which swept the church of N. S. do Calhau into the sea, also destroyed the parish archive, which was important and contained valuable documents.\n\nAt the end of 1803, the parish seat was transferred to the church of Santiago, which was owned by the Municipal Council. See Santiago (Church of).\n\nIt is worth noting that the church of Nossa Senhora do Calhau was located on the left bank of the João Gomes stream, between the mouths of the current streets of Santa Maria and Rua Nova de Santa Maria or de Latino Coelho. A fruit and vegetable market was built on the site of the church, as mentioned earlier, and it was demolished a few years ago to widen the street that runs along the same stream. (See Markets).\n\nIt should also be noted that the old hospital, or one of its dependencies, was adjacent to this church, as clearly demonstrated by what is recorded in a book of provisions from the respective parish archive, the only one that survived the flood of 1803, where it is stated that within the church grounds, the cries of the sick could be heard, especially during the most painful operations or treatments.",
+    "categories": [
+        "history",
+        "religion",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "An important population nucleus beyond the left bank of the stream, which later was named João Gomes."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1438": [
+            "Construction of the church Nossa Senhora do Calhau began."
+        ],
+        "1611": [
+            "Major flood that largely destroyed the church and the hospital attached to it."
+        ],
+        "1664-1688": [
+            "Reconstruction of the church."
+        ],
+        "1707": [
+            "Another flood caused damages to the new church and destroyed a considerable part of the churchyard."
+        ],
+        "1803": [
+            "Great flood that caused the church to collapse, leaving only a part of the chancel standing."
+        ],
+        "1805": [
+            "Provision determined that the ruins of the church should be carefully preserved as a reminder of the event."
+        ],
+        "1835": [
+            "Demolition of the remaining part of the church for the construction of a fruit and vegetable market."
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 1521,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Furtado",
+    "fl": "F",
+    "original_title": "Furtado",
+    "body": "O apelido Furtado procede de Rodrigo Enes Furtado, que foi um dos mais antigos povoadores da Ponta do Sol e ali edificou uma capela na respectiva igreja paroquial, onde jaz sepultado, tendo falecido em 1486.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Local de povoamento"
+        ]
+    },
+    "people": {
+        "Rodrigo Enes Furtado": [
+            "Um dos mais antigos povoadores da Ponta do Sol"
+        ]
+    },
+    "years": {
+        "1486": [
+            "Falecimento de Rodrigo Enes Furtado"
+        ]
+    }
+}

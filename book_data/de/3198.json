@@ -1,0 +1,45 @@
+{
+    "id": 3198,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santo André Avelino (Kapelle)",
+    "fl": "S",
+    "original_title": "Santo André Avelino (Capela de)",
+    "body": "Im Ort Carvalhal in der Gemeinde Canhas befindet sich die Kapelle Santo André Avelino, die 1776 vom Hauptmann Carlos Nunes de Freitas da Silva und seiner Frau Ana Guiomar de Moura Acciaioly Lomelino gegründet wurde. Sie gehörte zum Anwesen des Grundherrn Nuno de Freitas Lomelino. An einer der Wände steht folgende vor wenigen Jahren angebrachte Inschrift: \"Geschenk von Jacintho Fernandes und fertiggestellt von José dos Reis und der Bevölkerung\". Über der Tür ist das Jahr 1774 eingemeißelt.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {
+        "Carvalhal": [
+            "Ort, an dem sich die Kapelle Santo André Avelino befindet"
+        ]
+    },
+    "people": {
+        "Carlos Nunes de Freitas da Silva": [
+            "Gründer der Kapelle Santo André Avelino"
+        ],
+        "Ana Guiomar de Moura Acciaioly Lomelino": [
+            "Ehefrau von Carlos Nunes de Freitas da Silva, beteiligt an der Gründung der Kapelle Santo André Avelino"
+        ],
+        "Nuno de Freitas Lomelino": [
+            "Besitzer des Anwesens, zu dem die Kapelle Santo André Avelino gehörte"
+        ],
+        "Jacintho Fernandes": [
+            "Stiftete die Inschrift in der Kapelle Santo André Avelino"
+        ],
+        "José dos Reis": [
+            "Vollendete die Inschrift in der Kapelle Santo André Avelino"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Gründungsjahr der Kapelle Santo André Avelino"
+        ],
+        "1774": [
+            "Jahr, das über der Tür der Kapelle Santo André Avelino eingemeißelt ist"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 54,
+    "lang": "en",
+    "is_original": false,
+    "title": "Administrators General",
+    "fl": "A",
+    "original_title": "Administradores Gerais",
+    "body": "António de Gamboa e Lis was, in 1837, the civil governor of Funchal, when an administrative reform gave the district governors the designation of General Administrators. After António de Gamboa e Lis, the baron of Lordelo and Dr. Domingos Olavo Correia de Azevedo were the general administrators of this district.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the administrative reform"
+        ]
+    },
+    "people": {
+        "António de Gamboa e Lis": [
+            "Civil Governor of Funchal"
+        ],
+        "Baron of Lordelo": [
+            "General Administrator"
+        ],
+        "Dr. Domingos Olavo Correia de Azevedo": [
+            "General Administrator"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Administrative reform"
+        ]
+    }
+}

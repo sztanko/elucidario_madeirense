@@ -1,0 +1,37 @@
+{
+    "id": 1343,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fauvel (Alberto). E",
+    "fl": "F",
+    "original_title": "Fauvel (Alberto). E",
+    "body": "Catalogue des Coléoptères des Iles de Madère, Porto Santo, et Desertas; Catalogue des Coléoptères des Iles Selvages; und Arachnides recueillis à l'Ile de Madère en 1896. Die ersten beiden Arbeiten wurden in der Revue d'Entomologie, 1897, veröffentlicht; die letzte im Bulletin de la Societe Entomologique de France, 1897.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel Madeira"
+        ],
+        "Porto Santo": [
+            "Insel Porto Santo"
+        ],
+        "Desertas": [
+            "Desertas-Inseln"
+        ],
+        "Selvages": [
+            "Selvagens-Inseln"
+        ]
+    },
+    "people": {
+        "Alberto Fauvel": [
+            "Entomologe"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Jahr, in dem die Arachniden auf der Insel Madeira gesammelt wurden"
+        ]
+    }
+}

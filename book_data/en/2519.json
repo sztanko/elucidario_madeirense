@@ -1,0 +1,38 @@
+{
+    "id": 2519,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora das Preces (Chapels of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Preces (Capelas de)",
+    "body": "The date of 1708 is inscribed on the altar of the Preces chapel in the parish of Santo António, which is probably the year of its construction. We believe that this chapel was a vested institution, with its administrator in 1770 being Captain Rodrigo da Costa, and in 1796, the landowner Joaquim Manuel de França. The chapel and the attached house were rebuilt in 1856 by their then owner D. Joana de Albuquerque e França, who passed away there on February 12, 1884. This chapel gave its name to the site on which it was erected.\n\nFather Francisco de Canha e Mendonça built the chapel of Nossa Senhora das Preces in the parish of Câmara de Lobos, at the site that later took this name. Its foundation dates back to the year 1683. It still exists, but remains closed for worship.\n\nIn the parish of Machico, there is a chapel also dedicated to Nossa Senhora das Preces, whose construction date is unknown, and which was rebuilt by António Tiago da Silva in the year 1884.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Câmara de lobos",
+        "Machico"
+    ],
+    "locations": {
+        "Santo António": [
+            "Locality in the Island of Madeira"
+        ],
+        "Câmara de Lobos": [
+            "Locality in the Island of Madeira"
+        ],
+        "Machico": [
+            "Locality in the Island of Madeira"
+        ]
+    },
+    "people": {
+        "Francisco de Canha e Mendonça": [
+            "Priest"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Probable construction date of the Preces chapel"
+        ]
+    }
+}

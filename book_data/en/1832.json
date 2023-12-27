@@ -1,0 +1,50 @@
+{
+    "id": 1832,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jardim Pequeno",
+    "fl": "J",
+    "original_title": "Jardim Pequeno",
+    "body": "This was the name of a small garden built in 1878, between the old Praça da Constituição and the site of the former convent of S. Francisco, now the Municipal Garden. This garden, which had some benches and beautiful vegetation, disappeared in 1914 when the construction of the West Avenue, now Dr. Manuel de Arriaga Avenue, began. In the location of the garden, there was once a fountain, the waters of which Governor D. Álvaro da Costa de Macedo diverted to the fortress of S. Lourenço. Before 1878, there was a square or plaza in the same location, surrounded by some trees. The basins of the fountain were requisitioned by the Municipal Council from the General Administrator in 1838 and are currently located in the square of S. Sebastião or Comercio. On the occasion of the inauguration of telegraphic communications with the mainland in 1874, there were brilliant illuminations in the old square of S. Francisco.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Praça da Constituição": [
+            "Location in Madeira"
+        ],
+        "Municipal Garden": [
+            "Location in Madeira"
+        ],
+        "West Avenue": [
+            "Location in Madeira"
+        ],
+        "Dr. Manuel de Arriaga": [
+            "Location in Madeira"
+        ],
+        "S. Lourenço": [
+            "Fortress in Madeira"
+        ],
+        "S. Sebastião": [
+            "Location in Madeira"
+        ]
+    },
+    "people": {
+        "D. Álvaro da Costa de Macedo": [
+            "Governor"
+        ]
+    },
+    "years": {
+        "1878": [
+            "Construction of Jardim Pequeno"
+        ],
+        "1914": [
+            "Disappearance of Jardim Pequeno"
+        ],
+        "1838": [
+            "Requisition of the basins of the fountain by the Municipal Council"
+        ]
+    }
+}

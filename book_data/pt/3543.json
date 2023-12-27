@@ -1,0 +1,57 @@
+{
+    "id": 3543,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Tuna da Universidade de Coimbra",
+    "fl": "T",
+    "original_title": "Tuna da Universidade de Coimbra",
+    "body": "Esta tuna presidida pelo então quintanista de direito António Correia Caldeira Coelho, chegou ao Funchal a 22 de Março de 1913 e saiu para Lisboa a 3 de Abril do mesmo ano. Era constituída por 45 estudantes, os quais durante o tempo da sua residência no Funchal, estiveram acomodados no edifício do extinto seminário no princípio do caminho do Monte. A tuna foi muito obsequiada nesta cidade, tendo-lhe sido oferecido no dia do desembarque e após uma curta visita aos Paços do Concelho, um copo d'agua, na residência dos viscondes de Geraz de Lima. Em honra da tuna houve também um baile no palácio de S. Lourenço, um outro no «Grémio dos Empregados do Comércio», uma festa na quinta da Choupana, lunchs no Casino Pavão, Terreiro da Luta e Monte Palace Hotel etc. Os estudantes deram duas récitas no teatro, e visitaram a Portela, Santa Cruz e Machico.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "Sé"
+    ],
+    "locations": {
+        "Funchal": [
+            "Cidade onde a tuna esteve hospedada"
+        ],
+        "Monte": [
+            "Local onde os estudantes estiveram acomodados"
+        ],
+        "Paços do Concelho": [
+            "Local visitado pela tuna"
+        ],
+        "Quinta da Choupana": [
+            "Local onde houve uma festa em honra da tuna"
+        ],
+        "Casino Pavão": [
+            "Local onde houve um lunch em honra da tuna"
+        ],
+        "Terreiro da Luta": [
+            "Local onde houve um lunch em honra da tuna"
+        ],
+        "Monte Palace Hotel": [
+            "Local onde houve um lunch em honra da tuna"
+        ],
+        "Portela": [
+            "Local visitado pelos estudantes"
+        ],
+        "Santa Cruz": [
+            "Local visitado pelos estudantes"
+        ],
+        "Machico": [
+            "Local visitado pelos estudantes"
+        ]
+    },
+    "people": {
+        "António Correia Caldeira Coelho": [
+            "Presidente da tuna"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Ano em que a tuna chegou ao Funchal"
+        ]
+    }
+}

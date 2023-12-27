@@ -1,0 +1,26 @@
+{
+    "id": 1872,
+    "lang": "en",
+    "is_original": false,
+    "title": "Juízes Eleitos",
+    "fl": "J",
+    "original_title": "Juízes Eleitos",
+    "body": "There were elected judges in the parishes, performing functions similar to those of the local judges under the absolute regime. They were created by the Judicial Reform of 1837 and abolished by the law of April 16, 1874. There were effective judges by the constitution of 1822.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1837": [
+            "Judicial Reform"
+        ],
+        "1874": [
+            "Abolition of elected judges"
+        ],
+        "1822": [
+            "Constitution with effective judges"
+        ]
+    }
+}

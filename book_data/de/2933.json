@@ -1,0 +1,50 @@
+{
+    "id": 2933,
+    "lang": "de",
+    "is_original": false,
+    "title": "Marokkanische Prinzessinnen",
+    "fl": "M",
+    "original_title": "Princesas Marroquinas",
+    "body": "Am 19. April 1793 lief ein marokkanisches Briggschiff mit der Ehefrau, drei Töchtern und zwei Söhnen von Prinz Muley Abdessalam sowie neun Konkubinen und einigen anderen hochrangigen Personen aus Marokko, darunter die Witwe des ehemaligen Kaisers Muley Ismael, im Hafen von Funchal ein.\n\nDie Gefolgschaft der Prinzenfamilie bestand aus zwei Kammerfrauen, einem Eunuchen, einem Steuermann, einem Sekretär, einem schwarzen Diener, der die Rolle eines Eunuchen übernahm, siebzehn musizierenden Dienerinnen, dreißig Dienern, siebzehn Frauen der Diener, einhundertneunzehn Sklaven, Sklavinnen und Kindern, elf maurischen Passagieren, einem Juden und einer Jüdin, einer Freundin des Steuermanns.\n\nMit der Besatzung waren über zweihundert Personen an Bord des Briggschiffs, die alle sehr beengt waren, sowohl wegen der Enge des Schiffes als auch wegen des Wassermangels.\n\nDas Briggschiff war auf dem Weg nach Salé, wo Muley Abessalam seine Familie vor den Gefahren des Bürgerkriegs schützen wollte, der damals das Reich von Marokko verwüstete. Da sie jedoch contrary Winds getroffen hatten, die sie von ihrem Zielhafen abgebracht hatten, sah sich der Kommandant gezwungen, Kurs auf den Hafen von Funchal zu nehmen, wo er wusste, dass er Ressourcen finden würde, um die Reise unter besseren Bedingungen fortsetzen zu können.\n\nDie Prinzessinnen wurden sowohl vom Gouverneur und Generalkapitän D. Diogo Forjaz Coutinho als auch vom marokkanischen Konsul Diogo Teles sehr gut empfangen. Erstere Autorität ließ zwei portugiesische Briggschiffe herrichten, auf die die Reisenden verteilt wurden; auf einem von ihnen schiffte sich auch der erwähnte Konsul ein, der die Absicht hatte, die Prinzessinnen bis Salé zu begleiten.\n\nDie Reise verlief nicht glücklich. Nachdem sie den Hafen von Funchal verlassen hatten, wurden die Schiffe von ihrem Kurs abgetrieben, so dass die Prinzessinnen auf der Insel S. Miguel an Land gehen mussten, von wo aus sie nach Lissabon weiterreisten und schließlich am 8. August an Bord von drei Schiffen, die die portugiesische Regierung zu ihrer Verfügung gestellt hatte, in ihr Land zurückkehrten.\n\nDer Konsul Domingos Teles begleitete die Prinzessinnen nur bis zur Insel S. Miguel und verließ sie dort, ohne sich die Mühe zu machen, sein Verhalten zu rechtfertigen.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hafen"
+        ],
+        "Salé": [
+            "Ursprüngliches Reiseziel"
+        ],
+        "S. Miguel": [
+            "Anlandestelle vor der Weiterreise nach Lissabon"
+        ]
+    },
+    "people": {
+        "Muley Abdessalam": [
+            "Prinz"
+        ],
+        "Muley Ismael": [
+            "Ehemaliger Kaiser"
+        ],
+        "D. Diogo Forjaz Coutinho": [
+            "Gouverneur und Generalkapitän"
+        ],
+        "Diogo Teles": [
+            "Marokkanischer Konsul"
+        ],
+        "Domingos Teles": [
+            "Konsul"
+        ]
+    },
+    "years": {
+        "1793": [
+            "Ankunft des marokkanischen Briggschiffs im Hafen von Funchal"
+        ],
+        "8. August": [
+            "Rückkehr der Prinzessinnen in ihr Land"
+        ]
+    }
+}

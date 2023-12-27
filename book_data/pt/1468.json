@@ -1,0 +1,31 @@
+{
+    "id": 1468,
+    "lang": "pt",
+    "is_original": true,
+    "title": "França e Vasconcelos (José Julio de)",
+    "fl": "F",
+    "original_title": "França e Vasconcelos (José Julio de)",
+    "body": "Nasceu na Boaventura em 1776, formou-se em direito na Universidade de Coimbra e foi advogado no Funchal, onde faleceu a 22 de Abril de 1859, Deixou manuscrito um Nobiliario Madeirense.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Boaventura": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1776": [
+            "Nascimento"
+        ],
+        "1859": [
+            "Falecimento"
+        ]
+    }
+}

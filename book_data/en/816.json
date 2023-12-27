@@ -1,0 +1,43 @@
+{
+    "id": 816,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castelo Branco (Camilo)",
+    "fl": "C",
+    "original_title": "Castelo Branco (Camilo)",
+    "body": "Our great novelist, in his book Eusebio Macario (referring to the 30th edition), added some pages about various points of poetic history, with an interesting chapter entitled The Legend of Machim from pages 245 to 275. Reflections on the life of Infante D. Henrique, by Mr. Richard Henry Major. This article includes the controversy between Camilo and Pinheiro Chagas about the legend of Machim and especially the origin of the name Machico, which is extremely interesting.\n\nThe action of the novel O Santo da Montanha takes place largely in Funchal, and refers to Madeiran things and people.\nIn the novel O Regicida, there is an interesting note about the ancestry of the bishop of Funchal, D. Jeronimo Fernando, who was the third grandson of Infante D. Fernando, father of King D. Manuel.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "Camilo": [
+            "Novelist"
+        ],
+        "Eusebio Macario": [
+            "Book"
+        ],
+        "Mr. Richard Henry Major": [
+            "Author"
+        ],
+        "Pinheiro Chagas": [
+            "Controversialist"
+        ],
+        "D. Henrique": [
+            "Infante"
+        ],
+        "D. Jeronimo Fernando": [
+            "Bishop"
+        ],
+        "D. Fernando": [
+            "Infante"
+        ]
+    },
+    "years": {}
+}

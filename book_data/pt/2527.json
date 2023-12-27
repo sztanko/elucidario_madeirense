@@ -1,0 +1,64 @@
+{
+    "id": 2527,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Socorro (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Socorro (Capelas de)",
+    "body": "Em adiantado estado de ruína e aplicada a usos profanos, se encontra no sítio da Azenha, da freguesia do Caniço, e junto duma casa de campo de antigos morgados, a capela de Nossa Senhora do Socorro, ignorando-se o nome do seu fundador e o ano da sua construção.\n\nDiz uma nota das Saudades que houve com esta invocação uma capela na freguesia do Estreito de Câmara de Lobos, fundada em 1684 por Maria de Aguiar, viúva de Gonçalo de Faria Leal.\n\nExistiu na freguesia dos Canhas, no sítio do Socorro, instituída por João Fernandes Linhares, em 1665, e na freguesia do Porto da Cruz existe com este orago uma ermida, que primitivamente teve o nome de Nossa Senhora de Belém. Não sabemos quem fosse o seu fundador, mas pertencia ao morgadio instituído pelo capitão Manuel Telo Moniz de Meneses, da casa da Lagoa da mesma freguesia, que depois se chamou o morgadio Torresão. Foi edificada por 1713 e acha-se em regular estado de conservação, sendo propriedade de D. Cristina de Campos Pinto Soares, residente em Lisboa (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Estreito de Câmara de Lobos",
+        "Canhas",
+        "Porto da Cruz",
+        "Lagoa"
+    ],
+    "locations": {
+        "Caniço": [
+            "Localidade na Madeira"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Localidade na Madeira"
+        ],
+        "Canhas": [
+            "Localidade na Madeira"
+        ],
+        "Porto da Cruz": [
+            "Localidade na Madeira"
+        ],
+        "Lagoa": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "Maria de Aguiar": [
+            "Fundadora da capela em Estreito de Câmara de Lobos"
+        ],
+        "Gonçalo de Faria Leal": [
+            "Marido de Maria de Aguiar"
+        ],
+        "João Fernandes Linhares": [
+            "Instituidor da capela em Canhas"
+        ],
+        "Manuel Telo Moniz de Meneses": [
+            "Instituidor do morgadio em Porto da Cruz"
+        ],
+        "D. Cristina de Campos Pinto Soares": [
+            "Proprietária em 1921"
+        ]
+    },
+    "years": {
+        "1684": [
+            "Fundação da capela em Estreito de Câmara de Lobos"
+        ],
+        "1665": [
+            "Instituição da capela em Canhas"
+        ],
+        "1713": [
+            "Edificação da ermida em Porto da Cruz"
+        ]
+    }
+}

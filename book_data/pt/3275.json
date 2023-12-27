@@ -1,0 +1,41 @@
+{
+    "id": 3275,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sardinha (Dr. Manuel)",
+    "fl": "S",
+    "original_title": "Sardinha (Dr. Manuel)",
+    "body": "Nasceu no Funchal a 20 de Setembro de 1865 e é medico-cirurgião pela extinta Escola Medico-Cirurgica desta cidade, tendo desempenhado os cargos de facultativo municipal na Fajã da Ovelha e Ribeira Brava. Foi nomeado depois administrador do Posto de Desinfecção Terrestre, a cargo da Junta Geral, achando-se ao presente aposentado. Tem colaboração varia em diferentes jornais, foi redactor do Diário de Noticias e é o actual director do Correio da Madeira. (1921), A sua colaboração durante alguns anos no Almanach Bertrand, como solucionador de problemas matemáticos, é valiosissima e tem ai sido posta em relevo duma maneira muito honrosa e excepcionalmente distinta para o Dr. Manuel Sardinha.",
+    "categories": [
+        "health",
+        "society"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Funchal": [
+            "Nasceu no Funchal a 20 de Setembro de 1865"
+        ],
+        "Fajã da Ovelha": [
+            "Desempenhado os cargos de facultativo municipal na Fajã da Ovelha"
+        ],
+        "Ribeira Brava": [
+            "Desempenhado os cargos de facultativo municipal na Ribeira Brava"
+        ]
+    },
+    "people": {
+        "Dr. Manuel Sardinha": [
+            "Médico-cirurgião, redator, diretor de jornal"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Nascimento de Dr. Manuel Sardinha"
+        ],
+        "1921": [
+            "Ano de destaque na colaboração de Dr. Manuel Sardinha"
+        ]
+    }
+}

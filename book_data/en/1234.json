@@ -1,0 +1,34 @@
+{
+    "id": 1234,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ermida",
+    "fl": "E",
+    "original_title": "Ermida",
+    "body": "Settled place in the parish of Santo da Serra. In this place, known as Alcoforado, Gil de Carvalho built a small hermitage in the second quarter of the 16th century, which gave the name to that place, conjecturing that it would be dedicated to the thaumaturge Saint Anthony. It belongs to the municipality of Machico.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Parish"
+        ],
+        "Machico": [
+            "Municipality"
+        ]
+    },
+    "people": {
+        "Gil de Carvalho": [
+            "Builder of the hermitage"
+        ]
+    },
+    "years": {
+        "16th century": [
+            "Construction of the hermitage"
+        ]
+    }
+}

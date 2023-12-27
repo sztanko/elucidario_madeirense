@@ -1,0 +1,42 @@
+{
+    "id": 1190,
+    "lang": "de",
+    "is_original": false,
+    "title": "Drachenbaum (Dracaena Draco)",
+    "fl": "D",
+    "original_title": "Dragoeiro (Dracaena Draco)",
+    "body": "Besonderer Baum Madeiras, der Kanaren und Kapverdes, 6 bis 15 Meter hoch; Stämme anfangs einfach, dann verzweigt an der Spitze, aber die Zweige gehen immer von der gleichen Höhe aus; längliche, lineare Endblätter; weißliche Blüten; kugelförmige, gelbe Beeren.\n\nDieser Baum, der auf Madeira fast ausgestorben ist, ist auf Porto Santo, wo er, wie Frutuoso erzählt, zum Bau von Booten verwendet wurde, in denen 6 bis 7 Männer fischen konnten, schon lange verschwunden.\n\nIn alten Zeiten wurde Drachenblut durch Einschnitte aus dem Drachenbaum gewonnen, aber heute denkt aufgrund seiner extremen Seltenheit niemand mehr daran, denselben Baum für diesen Zweck zu nutzen.\n\nEs ist nicht bekannt, dass es auf Madeira jemals einen Drachenbaum mit den Ausmaßen des berühmten Drachenbaums von Teneriffa gegeben hat, der durch den Sturm vom 23. Januar 1868 zerstört wurde; das größte madeirische Exemplar, von dem es Aufzeichnungen gibt, stand an der Stelle Pontinha de Cima in Machico und wurde bei einem Sturm am 16. Februar 1843 umgeworfen. Sein Stamm, den jemand vermessen haben soll, hatte einen Umfang von 5,40 m und eine Länge von 11,85 m, was für den gesamten Baum eine Gesamthöhe von 15 bis 16 Metern ergeben müsste, während der Drachenbaum von Teneriffa laut Broussonet etwas mehr als 15 Meter Umfang an der Basis bei einer Höhe von 24,33 m hatte.\n\nZwei jahrhundertealte Drachenbäume, die vor etwa 10 Jahren noch auf einem Landgut gesehen werden konnten, das dem verstorbenen Grafen von Calçada gehörte, wurden vom derzeitigen Eigentümer dieses Landguts entfernt, und dasselbe Schicksal ereilte ein anderes Exemplar der gleichen Art am Eingang der „Quinta da Palmeira“ an der Levada de Santa Luzia. Die Exemplare in Monte waren wegen ihrer Schönheit und Größe bei Ausländern sehr bewundert.\n\nIn den Landgütern von Funchal und den Vororten gibt es noch mehrere Drachenbäume, aber außerhalb davon kennen wir derzeit nur ein Exemplar in Garajau, ein weiteres in Caniço, ein weiteres in Ribeira Brava und eine Gruppe von Individuen an der Stelle von Neves.",
+    "categories": [
+        "biology",
+        "geography"
+    ],
+    "freguesias": [
+        "Monte",
+        "Funchal",
+        "Garajau",
+        "Caniço",
+        "Ribeira Brava",
+        "Neves"
+    ],
+    "locations": {
+        "Machico": [
+            "Ort Pontinha de Cima in Machico"
+        ],
+        "Teneriffa": [
+            "Berühmter Drachenbaum von Teneriffa, der durch den Sturm vom 23. Januar 1868 zerstört wurde"
+        ]
+    },
+    "people": {
+        "Frutuoso": [
+            "Frutuoso berichtet über die Verwendung von Drachenbaumstämmen zum Bau von Booten auf Porto Santo"
+        ]
+    },
+    "years": {
+        "1868": [
+            "Zerstörung des berühmten Drachenbaums von Teneriffa"
+        ],
+        "1843": [
+            "Umsturz des größten madeirischen Exemplars an der Stelle Pontinha de Cima in Machico"
+        ]
+    }
+}

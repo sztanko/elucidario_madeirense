@@ -1,0 +1,39 @@
+{
+    "id": 2876,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Porto Santo (Vila e Muncipio)",
+    "fl": "P",
+    "original_title": "Porto Santo (Vila e Muncipio)",
+    "body": "A vila do Porto Santo é também conhecida pelo nome de Baleira e dela já demos noticia a pag. 117 do 1.° vol. desta obra, para onde remetemos o leitor. Sendo sede duma capitania, tinham os seus donatarios os poderes quasi discricionarios que lhe conferiam as cartas de doação, mas sendo também a sede dum Município, dispensava este aos povos, por meio dos respectivos forais, certas regalias e privilegios que atenuavam as atribuïções dos capitães-donatarios. Na carta de doação concedida a Bartolomeu Perestrelo a 1 de Novembro de 1446, como donatario do Porto Santo; faz-se expressa referencia ao foral que havia de ser dado á futura vila, que foi criada poucos anos depois daquela data, mas não temos encontrado vestigios desse foral, que geralmente acompanhava o estabelecimento dos novos Municípios. Deve no entretanto supor-se que seria moldado em bases identicas ao das outras vilas e Municípios deste arquipélago.\n\nEm 1834, foi o Porto Santo considerado como uma provedoria para o efeito da sua administração, sendo João de Santana de Vasconcelos o primeiro provedor, nomeado por alvará do prefeito da provincia, de 9 de Agosto daquele ano. Com a reforma administrativa de 1835, passou a ilha do Porto Santo a constituir um concelho, sendo primeiro administrador João José de Alencastre, nomeado a 25 de Novembro do mesmo ano.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Vila do Porto Santo"
+        ]
+    },
+    "people": {
+        "Bartolomeu Perestrelo": [
+            "Donatario do Porto Santo"
+        ],
+        "João de Santana de Vasconcelos": [
+            "Primeiro provedor do Porto Santo"
+        ],
+        "João José de Alencastre": [
+            "Primeiro administrador da ilha do Porto Santo"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Porto Santo considerado como uma provedoria para o efeito da sua administração"
+        ],
+        "1835": [
+            "Reforma administrativa, passou a ilha do Porto Santo a constituir um concelho"
+        ]
+    }
+}

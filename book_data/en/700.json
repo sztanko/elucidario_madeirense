@@ -1,0 +1,35 @@
+{
+    "id": 700,
+    "lang": "en",
+    "is_original": false,
+    "title": "Camara de Lôbos (Porto, Cais e Enseada de)",
+    "fl": "C",
+    "original_title": "Camara de Lôbos (Porto, Cais e Enseada de)",
+    "body": "With the so-called Vila de Câmara de Lôbos, the seat of the parish and the Municipality of the same name, there is a small but picturesque cove, bordered by a small beach of smooth pebbles and served by a landing stage, which was built in 1876 and significantly improved in 1903. This port has a relatively large movement, as Câmara de Lôbos is an important fishing center, in whose respective industry several hundred individuals are employed. The steamers of the maritime coastal service call at this port. It is 4 miles away from the port of Funchal and 3 miles from Campanário.",
+    "categories": [
+        "geography",
+        "economy"
+    ],
+    "freguesias": [
+        "Câmara de Lôbos",
+        "Funchal",
+        "Campanário"
+    ],
+    "locations": {
+        "Vila de Câmara de Lôbos": [
+            "Seat of the parish and Municipality of the same name"
+        ],
+        "Câmara de Lôbos": [
+            "Important fishing center"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1876": [
+            "Construction of the landing stage"
+        ],
+        "1903": [
+            "Improvement of the landing stage"
+        ]
+    }
+}

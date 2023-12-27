@@ -1,0 +1,33 @@
+{
+    "id": 3183,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santa Brigida (Capela de)",
+    "fl": "S",
+    "original_title": "Santa Brigida (Capela de)",
+    "body": "Existiu na freguesia de São Pedro uma capela dedicada a Santa Brígida, fundada em 1668 por Antonio Maciel de Afonseca Cerveira. Ignora-se o sítio em que ficava situada. Nela se celebraram actos do culto no ano de 1754.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Freguesia onde existiu a capela"
+        ]
+    },
+    "people": {
+        "Antonio Maciel de Afonseca Cerveira": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Ano de fundação da capela"
+        ],
+        "1754": [
+            "Ano de celebração de atos do culto"
+        ]
+    }
+}

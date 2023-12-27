@@ -1,0 +1,39 @@
+{
+    "id": 960,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gefährten von Zargo",
+    "fl": "G",
+    "original_title": "Companheiros de Zargo",
+    "body": "Es wäre interessant, eine wenn auch kurze Nachricht über diejenigen zu geben, die die Risiken und Gefahren einer Besiedlung in weit entfernten und unbekannten Gegenden teilten, die Heimat verließen, den Ozean überquerten und die mühsame Kolonisierung des Madeira-Archipels begannen. Aus Informationen, die in alten Adelsbüchern und anderen handschriftlichen Quellen gesammelt wurden, stellte Dr. João Pedro de Freitas Drumond im ersten Viertel des letzten Jahrhunderts eine Liste einiger Personen zusammen, die João Gonçalves Zargo begleiteten oder zumindest seine Zeitgenossen bei der ursprünglichen Besiedlung waren. Die Namen von Gonçalo Aires Ferreira, Francisco Carvalhal, João Lourenço, Rui Pais, João Afonso, Antonio Gago, Lourenço Gomes, Francisco Alcoforado, Vasco Delgado, Alvaro Afonso, Aires Lordelo, Vasco Esteves, Manuel Afonso de Sanha und João do Prado können genannt werden. Viele dieser Personen erhielten Ländereien, die später in Majorate umgewandelt wurden und den Grundstock für einen Großteil der zahlreichen Majorate bildeten, die auf dieser Insel eingerichtet wurden. Sie waren die Stammväter alter Familien, die im Laufe der Zeit reich wurden und in den Adelsstand erhoben wurden.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Pedro de Freitas Drumond": [
+            "Historiker"
+        ],
+        "João Gonçalves Zargo": [
+            "Kolonisator"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Oidium Tuckeri richtete in den Weinbergen Madeiras große Schäden an"
+        ],
+        "1866": [
+            "Gründung der Zuckerfabrik Madeira"
+        ],
+        "1867": [
+            "Genehmigung der Statuten der Zuckerfabrik Madeira"
+        ],
+        "1870": [
+            "Abreise von João da Camara Leme von Madeira, um den Bau der Geräte und Maschinen der neuen Fabrik zu beauftragen"
+        ],
+        "1873": [
+            "Errichtung der großen Industrieanlage"
+        ]
+    }
+}

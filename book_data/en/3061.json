@@ -1,0 +1,31 @@
+{
+    "id": 3061,
+    "lang": "en",
+    "is_original": false,
+    "title": "Restauração (Largo da)",
+    "fl": "R",
+    "original_title": "Restauração (Largo da)",
+    "body": "It is the square where the main entrance to the São Lourenço fortress is located, and it was opened during the demolition of the grand theater, during the government of D. Alvaro da Costa Macedo. Before the disappearance of this theater, there were two narrow streets that flanked a part of the fortress walls and led to the main entrance. The name given to the square commemorates the restoration of the Constitutional Charter on June 5, 1834.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Lourenço fortress": [
+            "Where the main entrance is located"
+        ],
+        "Grand theater": [
+            "Which was demolished during the government of D. Alvaro da Costa Macedo"
+        ]
+    },
+    "people": {
+        "D. Alvaro da Costa Macedo": [
+            "Governed during the demolition of the grand theater"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Restoration of the Constitutional Charter"
+        ]
+    }
+}

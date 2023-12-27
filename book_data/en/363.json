@@ -1,0 +1,31 @@
+{
+    "id": 363,
+    "lang": "en",
+    "is_original": false,
+    "title": "Azevedo Lemos (José Antonio de)",
+    "fl": "A",
+    "original_title": "Azevedo Lemos (José Antonio de)",
+    "body": "Colonel-commander of the military expedition that came to Madeira in 1828. He had serious disagreements with the governor and captain-general, the infamous José Maria Monteiro, even going as far as wanting to attack him inside the fortress of S. Lourenco and pointing him out to the Miguelist government as a man who only listened to \"an infamous circle of individuals abominable for their vices and bad habits\".",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where he commanded the military expedition in 1828"
+        ],
+        "S. Lourenco": [
+            "Fortress where the incident with José Maria Monteiro occurred"
+        ]
+    },
+    "people": {
+        "José Antonio de Azevedo Lemos": [
+            "Colonel-commander of the military expedition"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Military expedition to Madeira"
+        ]
+    }
+}

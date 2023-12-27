@@ -1,0 +1,48 @@
+{
+    "id": 228,
+    "lang": "en",
+    "is_original": false,
+    "title": "Antoneida (A)",
+    "fl": "A",
+    "original_title": "Antoneida (A)",
+    "body": "By the Society of the First People of the World. Funchal, 1879. It is the work of Mr. João José Vieira, Luiz de Betencourt Miranda, Francisco João Moniz, Afonso Dias de Vasconcelos, João Silvestre Moniz, and Pedro Candido da Silveira, of whom only the first two are still alive. The Society of the First People of the World used to meet on a property in the Desterro area of the Monte parish, owned by the late Madeiran naturalist João Maria Moniz.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Desterro": [
+            "Monte parish"
+        ]
+    },
+    "people": {
+        "João José Vieira": [
+            "Author"
+        ],
+        "Luiz de Betencourt Miranda": [
+            "Author"
+        ],
+        "Francisco João Moniz": [
+            "Author"
+        ],
+        "Afonso Dias de Vasconcelos": [
+            "Author"
+        ],
+        "João Silvestre Moniz": [
+            "Author"
+        ],
+        "Pedro Candido da Silveira": [
+            "Author"
+        ],
+        "João Maria Moniz": [
+            "Late Madeiran naturalist"
+        ]
+    },
+    "years": {
+        "1879": [
+            "Publication of the work 'Antoneida (A)' by the Society of the First People of the World"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": 2346,
+    "lang": "en",
+    "is_original": false,
+    "title": "Monteiro (José Maria)",
+    "fl": "M",
+    "original_title": "Monteiro (José Maria)",
+    "body": "He was the first Miguelist governor to administer this archipelago. His appointment was on June 15, 1828, and on the 25th of the same month, the frigate Príncipe Real, which was carrying him, appeared in Funchal, but the Governor and Captain-General José Lúcio Travassos Valdês prevented his landing. As will be seen in the article Occupation of Madeira by the Miguelist troops, after this island was taken by the royalist forces, José Maria Monteiro disembarked and took office on August 24, 1828. His government was not long, but it was sadly marked by the abuses he committed and the vexations he inflicted on the archipelago's inhabitants. The ominous court that came to this island during his time, presided over by the judge Francisco António Maciel Monteiro, committed the greatest excesses and involved hundreds of individuals in its inquisitorial investigation, many of whom were arrested and exiled from this island, with many going to our overseas possessions. The emigration of people from all social classes who fled persecution was very significant, especially to England, Brazil, and North America. A considerable number of public officials were dismissed, many were arrested and sent to Lisbon. José Maria Monteiro became famous not only for the persecutions he directed against the liberals of this island but also for his lack of dignity and scruples, having at one point seized part of the money intended for the payment of the troops. It is said that during his frequent visits to the homes of the wealthy, accompanied by his henchmen, he seized everything of value he saw, and two of his sons also distinguished themselves in these exploits, being attributed a major theft at the Palheiro estate, owned by João de Carvalhal. José Maria Monteiro, who was a captain of the navy and held a palatine position with D. Miguel, left Madeira at the end of April 1830, after his successor D. Álvaro da Costa de Sousa Macedo had arrived. For his biography, see what we said on page 113 of vol. I and 95 of vol. II, when we spoke of Colonel José António de Azevedo Lemos and Joaquim Melchior Gonçalves.",
+    "categories": [
+        "history",
+        "politics",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Landing location"
+        ],
+        "England": [
+            "Destination of emigration"
+        ],
+        "Brazil": [
+            "Destination of emigration"
+        ],
+        "North America": [
+            "Destination of emigration"
+        ],
+        "Lisbon": [
+            "Destination for sending prisoners"
+        ],
+        "Palheiro estate": [
+            "Location of the theft"
+        ]
+    },
+    "people": {
+        "José Maria Monteiro": [
+            "First Miguelist governor"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Taking office"
+        ],
+        "1830": [
+            "Departure from Madeira"
+        ]
+    }
+}

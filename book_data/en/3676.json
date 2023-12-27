@@ -1,0 +1,37 @@
+{
+    "id": 3676,
+    "lang": "en",
+    "is_original": false,
+    "title": "Webb (Felipe Baker)",
+    "fl": "W",
+    "original_title": "Webb (Felipe Baker)",
+    "body": "A distinguished English botanist well known for his studies on the flora of the Canary Islands. He was born in Milford in 1793 and died in 1853, having spent several months in Madeira in 1828, studying the flora of this island. He also visited Porto Santo.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Milford": [
+            "Birthplace"
+        ],
+        "Madeira": [
+            "Study location"
+        ],
+        "Porto Santo": [
+            "Visited location"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1793": [
+            "Year of birth"
+        ],
+        "1853": [
+            "Year of death"
+        ],
+        "1828": [
+            "Year of study in Madeira"
+        ]
+    }
+}

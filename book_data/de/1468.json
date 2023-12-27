@@ -1,0 +1,31 @@
+{
+    "id": 1468,
+    "lang": "de",
+    "is_original": false,
+    "title": "Frankreich und Vasconcelos (José Julio von)",
+    "fl": "F",
+    "original_title": "França e Vasconcelos (José Julio de)",
+    "body": "Er wurde 1776 in Boaventura geboren, studierte Rechtswissenschaften an der Universität Coimbra und war Rechtsanwalt in Funchal, wo er am 22. April 1859 starb. Er hinterließ ein handschriftliches Nobiliario Madeirense.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Boaventura": [
+            "Geburtsort"
+        ],
+        "Funchal": [
+            "Sterbeort"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1776": [
+            "Geburt"
+        ],
+        "1859": [
+            "Tod"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 3179,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santana und Vasconcelos (Manuel de)",
+    "fl": "S",
+    "original_title": "Santana e Vasconcelos (Manuel de)",
+    "body": "Er wurde 1798 in Funchal geboren und starb in dieser Stadt am 23. Februar 1851. Er bekleidete das Amt des Verwaltungsleiters der Gemeinde und schrieb:\n\n*Aufruf an die Madeirer* (Lissabon, 1835) und *Historische Übersicht des antikatholischen Proselytismus auf der Insel Madeira durch Dr. Roberto Reid Kalley, schottischer Arzt, von 1838 bis heute* (Funchal, 1845).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburts- und Sterbeort"
+        ]
+    },
+    "people": {
+        "Manuel de Santana e Vasconcelos": [
+            "Verwaltungsleiter der Gemeinde, Schriftsteller"
+        ]
+    },
+    "years": {
+        "1798": [
+            "Geburt"
+        ],
+        "1851": [
+            "Tod"
+        ]
+    }
+}

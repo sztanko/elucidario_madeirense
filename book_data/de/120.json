@@ -1,0 +1,31 @@
+{
+    "id": 120,
+    "lang": "de",
+    "is_original": false,
+    "title": "Aldromar",
+    "fl": "A",
+    "original_title": "Aldromar",
+    "body": "Der Biskayer João Martins de Aldromar, der im Jahr 1500 in der Gemeinde Câmara de Lobos ansässig war, war die erste Person, von der bekannt ist, dass sie auf Madeira diesen Nachnamen verwendete. Es scheint uns, dass dieser Name in diesem Archipel ausgestorben ist.",
+    "categories": [
+        "history",
+        "biology"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Wohnort von João Martins de Aldromar"
+        ]
+    },
+    "people": {
+        "João Martins de Aldromar": [
+            "Erste Person, die den Nachnamen Aldromar auf Madeira verwendete"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Wohnort von João Martins de Aldromar in Câmara de Lobos"
+        ]
+    }
+}

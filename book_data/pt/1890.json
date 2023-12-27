@@ -1,0 +1,32 @@
+{
+    "id": 1890,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Junta da Real Fazenda da Ilha da Madeira",
+    "fl": "J",
+    "original_title": "Junta da Real Fazenda da Ilha da Madeira",
+    "body": "Havendo o Governador e Capitão-General deste arquipélago João Antonio de Sá Pereira ponderado ao governo da metrópole a maneira pouco zelosa como nesta ilha se arrecadavam varias receitas publicas, tendo-se até deixado de fazer a cobrança de algumas delas, foi, por carta regia de 6 de Abril de 1775, criada a Junta da Real Fazenda da Ilha da Madeira, que tinha por fim especial superintender na arrecadação de todos os impostos e contribuições. Era composta do Governador, como presidente, dum Escrivão, do Tesoureiro, do Corregedor e do Juiz de Fora. A Junta da Real Fazenda veio substituir a antiga Provedoria da Fazenda e funcionou até 6 de Agosto de 1834, tendo desde então até 30 de Junho de 1835 sido administrados os negócios da fazenda por uma comissão interina estabelecida pelo decreto de 23 de Junho de 1834, o qual extinguiu também a mesma Junta. No 1.° de Julho de 1835, passaram os negócios da fazenda para a gerência dum recebedor geral, sendo Francisco Correia Heredia quem primeiro desempenhou este lugar no Funchal.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "João Antonio de Sá Pereira": [
+            "Governador e Capitão-General do arquipélago da Madeira."
+        ],
+        "Francisco Correia Heredia": [
+            "Primeiro recebedor geral responsável pela gerência dos negócios da fazenda no Funchal."
+        ]
+    },
+    "years": {
+        "1775": [
+            "Criação da Junta da Real Fazenda da Ilha da Madeira."
+        ],
+        "1834": [
+            "Extinção da Junta da Real Fazenda."
+        ]
+    }
+}

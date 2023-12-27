@@ -1,0 +1,29 @@
+{
+    "id": 1770,
+    "lang": "en",
+    "is_original": false,
+    "title": "Imparcial (0)",
+    "fl": "I",
+    "original_title": "Imparcial (0)",
+    "body": "This newspaper began publishing on April 14, 1840, and suspended on June 20, 1846, after 300 issues.\n\nAnother newspaper with the same title was published, which ran for 40 issues, from July 8 to November 21, 1889.\n\nA newspaper with the same title was published on December 3, 1916, but only for a few issues.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1840": [
+            "Start of the newspaper's publication"
+        ],
+        "1846": [
+            "Suspension of the newspaper's publication"
+        ],
+        "1889": [
+            "Publication of another newspaper with the same title"
+        ],
+        "1916": [
+            "Publication of a newspaper with the same title"
+        ]
+    }
+}

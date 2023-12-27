@@ -1,0 +1,30 @@
+{
+    "id": 688,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Câmara (José Bettencourt da)",
+    "fl": "C",
+    "original_title": "Câmara (José Bettencourt da)",
+    "body": "Nasceu a 19 de Abril de 1844 na Quinta do Descanso, á freguesia de Santa Luzia, pertencente a seu avo paterno, o morgado Tristão Joaquim Bettencourt da Camara, e faleceu na freguesia de Camara de Lobos, a 19 de Outubro de 1875, quando vinha em viagem do Estreito da Calheta para esta cidade, tendo apenas 31 anos de idade. Teve uma valiosa colaboração em vários jornais, revelando notável aptidão para as letras. Dedicou-se em especial a estudos genealogicos e heráldicas, conhecendo largamente as linhagens das antigas familias madeirenses. Pertencem-lhe algumas das notas das Saudades da Terra, que se ocupam de assuntos genealogicos. Sôbre esta matéria preparava um trabalho valioso, que não chegou a concluir.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "Camara de Lobos"
+    ],
+    "locations": {},
+    "people": {
+        "Tristão Joaquim Bettencourt da Camara": [
+            "Avo paterno"
+        ]
+    },
+    "years": {
+        "1844": [
+            "Nasceu na Quinta do Descanso"
+        ],
+        "1875": [
+            "Faleceu na freguesia de Camara de Lobos"
+        ]
+    }
+}

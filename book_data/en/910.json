@@ -1,0 +1,33 @@
+{
+    "id": 910,
+    "lang": "en",
+    "is_original": false,
+    "title": "Clamor Publico (O)",
+    "fl": "C",
+    "original_title": "Clamor Publico (O)",
+    "body": "The first issue was published on May 22, 1854, and the last, which was the 170th, on January 20, 1858. Its editors were the Madeirans Antonio Correia Heredia, Dr. Antonio Gonçalves de Freitas, and Dr. Luiz de Freitas Branco.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antonio Correia Heredia": [
+            "Editor of O Clamor Publico"
+        ],
+        "Antonio Gonçalves de Freitas": [
+            "Editor of O Clamor Publico"
+        ],
+        "Luiz de Freitas Branco": [
+            "Editor of O Clamor Publico"
+        ]
+    },
+    "years": {
+        "1854": [
+            "First issue of O Clamor Publico"
+        ],
+        "1858": [
+            "Last issue of O Clamor Publico"
+        ]
+    }
+}

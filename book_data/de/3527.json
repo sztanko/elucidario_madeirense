@@ -1,0 +1,27 @@
+{
+    "id": 3527,
+    "lang": "de",
+    "is_original": false,
+    "title": "Verwaltungsgericht",
+    "fl": "V",
+    "original_title": "Tribunal Administrativo",
+    "body": "Die Verwaltungsgerichte wurden 1886 geschaffen und am 21. April 1892 wieder abgeschafft. Sie ersetzten die Bezirksräte und bestanden jeweils aus drei von der Regierung ernannten Richtern. Geheimes Gericht. So wurde eine Funchaler Zeitschrift genannt, die im Untergrund veröffentlicht wurde und keinen festen Erscheinungstag hatte. Es sind zwölf Ausgaben aus dem Jahr 1844 bekannt, aber es scheint, dass sie bereits 1841 erschien.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1886": [
+            "Schaffung der Verwaltungsgerichte"
+        ],
+        "1892": [
+            "Abschaffung der Verwaltungsgerichte"
+        ],
+        "1844": [
+            "Veröffentlichung der Zeitschrift Geheimes Gericht"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 1959,
+    "lang": "en",
+    "is_original": false,
+    "title": "Leite Monteiro (Parque)",
+    "fl": "L",
+    "original_title": "Leite Monteiro (Parque)",
+    "body": "It began to be built in 1894 on land purchased for 1,640,000 réis from João Baptista de Sousa, as a result of a decision made at the municipal session of August 2 of that year. Although it offers nothing extraordinary in terms of vegetation and ornaments, it is nevertheless a place that is visited with pleasure, either for its freshness and lushness or for the perspectives it offers. The fountain called Nossa Senhora, where a small image of the Virgin is seen, is made of marble and is located in the park, with a large square next to it, where the most beautiful plane trees on the island thrive. The old Nossa Senhora fountain, much more charming and picturesque than the current one, was destroyed in 1896 due to the fall of a large chestnut tree that overlooked it. The construction of the new fountain was awarded at the municipal session of August 12, 1897. Inside the fountain, there is a yellow metal plate with an inscription in English, which reads as follows: 'Carlos Murray, Consul General of H. M. British Isles of Madeira and Porto Santo, founder and first owner of the Quinta de Belo Monte, bought in the year 1776 the wasted water from this fountain from the morgado Henrique Felix de Freitas, for the sum of 5,000 reis annually, to be paid forever to the heirs of the said morgado; and ordered that this construction be made to better gather the waters, repair the fountain, and build the aqueduct and fountain on the roadside, all at his own expense, in the year of the Lord 1778. The Funchal City Council, at its session of August 22, 1895, named its president, Dr. José Leite Monteiro, the Monte park, but the municipal administrative committee, appointed after the proclamation of the Republic, annulled that decision at a session on October 27, 1910. On February 13, 1913, when Dr. Manuel Gregorio Pestana Junior was president of the municipal administrative committee, the original name of the park was restored, and this resolution was very well received by the people of Funchal.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Location of the park construction"
+        ]
+    },
+    "people": {
+        "João Baptista de Sousa": [
+            "Seller of the land for the park construction"
+        ],
+        "Carlos Murray": [
+            "Consul General of H. M. British Isles of Madeira and Porto Santo, founder and first owner of the Quinta de Belo Monte"
+        ]
+    },
+    "years": {
+        "1894": [
+            "Start of the park construction"
+        ],
+        "1896": [
+            "Destruction of the old Nossa Senhora fountain"
+        ],
+        "1897": [
+            "Award of the construction of the new fountain"
+        ],
+        "1776": [
+            "Purchase of the wasted water from the fountain by Carlos Murray from the morgado Henrique Felix de Freitas"
+        ]
+    }
+}

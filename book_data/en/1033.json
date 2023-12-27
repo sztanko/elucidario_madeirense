@@ -1,0 +1,34 @@
+{
+    "id": 1033,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cortez",
+    "fl": "C",
+    "original_title": "Cortez",
+    "body": "This family name comes from Manuel Afonso Cortez, a citizen of Porto, who married Ourana Lopes from Camara de Lobos, where he died in 1615.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pôrto": [
+            "Place of origin of Manuel Afonso Cortez"
+        ],
+        "Camara de Lobos": [
+            "Residence of Ourana Lopes"
+        ]
+    },
+    "people": {
+        "Manuel Afonso Cortez": [
+            "Citizen of Porto"
+        ],
+        "Ourana Lopes": [
+            "Resident in Camara de Lobos"
+        ]
+    },
+    "years": {
+        "1615": [
+            "Year of the death of Manuel Afonso Cortez"
+        ]
+    }
+}

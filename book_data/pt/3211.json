@@ -1,0 +1,30 @@
+{
+    "id": 3211,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santos Cosme e Damião (Capela dos)",
+    "fl": "S",
+    "original_title": "Santos Cosme e Damião (Capela dos)",
+    "body": "Com esta invocação existiu, mas há muito que desapareceu, uma capela no sítio do Salão, da freguesia da Calheta, que foi fundada em 1681 pelo cirurgião Antonio de França Gomes.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Salão": [
+            "Local onde existia a capela dos Santos Cosme e Damião."
+        ]
+    },
+    "people": {
+        "Antonio de França Gomes": [
+            "Cirurgião fundador da capela."
+        ]
+    },
+    "years": {
+        "1681": [
+            "Ano de fundação da capela."
+        ]
+    }
+}

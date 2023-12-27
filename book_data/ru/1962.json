@@ -1,0 +1,24 @@
+{
+    "id": 1962,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Леме (Гастон)",
+    "fl": "Л",
+    "original_title": "Lemay (Gaston)",
+    "body": "Пишет о Мадейре в своей книге \"A bord de la «Junon», voyage autour du monde\" (Париж, 1879).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Пишет о Мадейре в своей книге"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1879": [
+            "\"A bord de la «Junon», voyage autour du monde\""
+        ]
+    }
+}

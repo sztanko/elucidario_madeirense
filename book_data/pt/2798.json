@@ -1,0 +1,41 @@
+{
+    "id": 2798,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pinto",
+    "fl": "P",
+    "original_title": "Pinto",
+    "body": "Procede este apelido de familia de Lopo Fernandes Pinto e de Gonçalo Pinto Alcoforado, ambos de nobre ascendencia. O primeiro veio habitar na Madeira por meado do século XV e faleceu em 1500; o segundo passou a viver nesta ilha por 1500 e fêz assento em Machico onde faleceu. Lopo Fernandes Pinto teve terras de sesmaria em Santana e em S. Jorge.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santana",
+        "S. Jorge",
+        "Machico"
+    ],
+    "locations": {
+        "Madeira": [
+            "Ilha"
+        ],
+        "Machico": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "Lopo Fernandes Pinto": [
+            "Habitante na Madeira por meado do século XV, falecido em 1500"
+        ],
+        "Gonçalo Pinto Alcoforado": [
+            "Habitante na Madeira por 1500, falecido em Machico"
+        ]
+    },
+    "years": {
+        "Século XV": [
+            "Lopo Fernandes Pinto veio habitar na Madeira"
+        ],
+        "1500": [
+            "Falecimento de Lopo Fernandes Pinto e Gonçalo Pinto Alcoforado"
+        ]
+    }
+}

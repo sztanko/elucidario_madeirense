@@ -1,0 +1,44 @@
+{
+    "id": 3112,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rodrigues (Dr. José Agostinho)",
+    "fl": "R",
+    "original_title": "Rodrigues (Dr. José Agostinho)",
+    "body": "Er wurde am 1. Oktober 1864 in Funchal geboren und ist Chirurg von der medizinisch-chirurgischen Schule in Lissabon. Am 15. November 1894 wurde er zum Militärarzt der Armee ernannt. Er diente viele Jahre lang im 27. Infanterieregiment und hat derzeit den Rang eines Obersts inne. Er ist stellvertretender Direktor der Generaldirektion für medizinische Dienste im Kriegsministerium. Er war mit dem C.E.P. in Frankreich und hat bei verschiedenen madeirischen Zeitungen mitgearbeitet. 1890 veröffentlichte er die Doktorarbeit, die er verteidigte, als er sein Medizinstudium abschloss, mit dem Titel Die Gelegenheit der Laparotomie bei traumatischen Magen-Darm-Perforationen (1921).",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Wurde in Funchal geboren"
+        ],
+        "Lissabon": [
+            "Medizinisch-chirurgische Schule in Lissabon"
+        ],
+        "Frankreich": [
+            "War mit dem C.E.P. in Frankreich"
+        ]
+    },
+    "people": {
+        "Dr. José Agostinho Rodrigues": [
+            "Chirurg von der medizinisch-chirurgischen Schule in Lissabon"
+        ],
+        "C. E. P.": [
+            "War mit dem C.E.P. in Frankreich"
+        ]
+    },
+    "years": {
+        "1864": [
+            "Wurde geboren"
+        ],
+        "1894": [
+            "Zum Militärarzt der Armee ernannt"
+        ],
+        "1921": [
+            "Veröffentlichte 1890 die Doktorarbeit"
+        ]
+    }
+}

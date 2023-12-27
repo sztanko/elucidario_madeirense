@@ -1,0 +1,29 @@
+{
+    "id": 2028,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo Grande",
+    "fl": "L",
+    "original_title": "Lombo Grande",
+    "body": "Ausgedehnter Höhenrücken, der sich von der Gemeinde Curral das Freiras bis zum Gipfel des Serra das Torrinhas erstreckt und von einer Straße durchschnitten wird, die zur Gemeinde Boa Ventura führt. Bevor der Kamm der Torrinhas erreicht wird, teilt sich die Straße, wobei einer der Zweige in Richtung Pico Ruivo führt, was der bevorzugte Weg für den Aufstieg zu dieser Erhebung ist.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Curral das Freiras",
+        "Boa ventura"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Gemeinde Curral das Freiras"
+        ],
+        "Boa Ventura": [
+            "Gemeinde Boa Ventura"
+        ],
+        "Pico Ruivo": [
+            "Ort"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

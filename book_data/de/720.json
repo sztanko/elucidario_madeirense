@@ -1,0 +1,30 @@
+{
+    "id": 720,
+    "lang": "de",
+    "is_original": false,
+    "title": "Versuchsfelder",
+    "fl": "V",
+    "original_title": "Campos Experimentais",
+    "body": "Die Landwirtschaftsbehörde richtete ein Versuchsfeld in jeder der folgenden Ortschaften ein: Louros (Funchal), Ribeira Brava, Paul da Serra und Pôrto da Cruz. Das Versuchsfeld dieser letzten Ortschaft bestand nur kurze Zeit; was die übrigen betrifft, so war das in Ribeira Brava am erfolgreichsten, da es eine sehr große Anzahl ausgewählter Obstbäume an die Landwirte verteilte. In Paul da Serra wurden gute Ernten von Saatgut, Kohl, Rüben, Karotten, Gurken, Salat, Bohnen, Erbsen, Rote Bete usw. erzielt.",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Louros (Funchal)": [
+            "Ort"
+        ],
+        "Ribeira Brava": [
+            "Ort"
+        ],
+        "Paul da Serra": [
+            "Ort"
+        ],
+        "Pôrto da Cruz": [
+            "Ort"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

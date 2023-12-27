@@ -1,0 +1,33 @@
+{
+    "id": 3252,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Pedro de Alcântara (Capela de)",
+    "fl": "S",
+    "original_title": "São Pedro de Alcântara (Capela de)",
+    "body": "No sítio do Lombo do Atouguia da freguesia da Calheta, fica situada esta capela, que foi fundada no ano de 1783, por João Baptista Teixeira. A escritura de dotação é de 9 de Fevereiro de 1783 e a licença para ser benzida foi concedida a 13 de Outubro do mesmo ano.\n\n## V. São João Baptista (Capelas de).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Lombo do Atouguia": [
+            "Sítio do Lombo do Atouguia"
+        ],
+        "Calheta": [
+            "Freguesia da Calheta"
+        ]
+    },
+    "people": {
+        "João Baptista Teixeira": [
+            "Fundador da capela de São Pedro de Alcântara"
+        ]
+    },
+    "years": {
+        "1783": [
+            "Ano de fundação da capela de São Pedro de Alcântara"
+        ]
+    }
+}

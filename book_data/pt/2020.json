@@ -1,0 +1,31 @@
+{
+    "id": 2020,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo das Adegas",
+    "fl": "L",
+    "original_title": "Lombo das Adegas",
+    "body": "Sítio povoada da freguesia da Ponta do Sol. Pedro Delgado, antigo povoador, teve ali terras de sesmaria, que depois se converteram em uma instituição vincular. Provavelmente fundada por esta família, existiu ali um pequeno oratório dedicado a Santo Antonio, que no ano de 1853 foi ampliado e convertido em capela publica, sendo a terceira ermida dessa invocação que existe naquela paróquia.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Freguesia onde se localiza o Lombo das Adegas."
+        ]
+    },
+    "people": {
+        "Pedro Delgado": [
+            "Antigo povoador do Lombo das Adegas."
+        ]
+    },
+    "years": {
+        "1853": [
+            "Ano em que o oratório dedicado a Santo Antonio foi ampliado e convertido em capela pública."
+        ]
+    }
+}

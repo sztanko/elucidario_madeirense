@@ -1,0 +1,37 @@
+{
+    "id": 2502,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Wunder (Kapelle von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora das Maravilhas (Capela de)",
+    "body": "In der Quinta das Maravilhas, auf dem gleichnamigen Platz, gründeten Diogo Bettencourt Correia und seine Frau D. Catarina da Silva 1657 eine Kapelle mit dieser Anrufung. Die Stiftungsurkunde datiert vom 18. August desselben Jahres. Sie wurde 1736 von D. Mariana da Silva wiederaufgebaut, nachdem sie am 20. November des genannten Jahres zur Feier der Messe freigegeben worden war. Sie existiert nicht mehr.\n\nMit der gleichen Anrufung gab es eine Kapelle im Ort Passo in der Gemeinde Madalena do Mar.\n\nGaspar Betencourt de Andrade gründete 1658 eine weitere in der Gemeinde S. Pedro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Madalena do Mar",
+        "S. Pedro"
+    ],
+    "locations": {
+        "Maravilhas": [
+            "Gelegen in der Quinta das Maravilhas, auf dem gleichnamigen Platz."
+        ]
+    },
+    "people": {
+        "Diogo Bettencourt Correia": [
+            "Gründer der Kapelle 1657 zusammen mit seiner Frau D. Catarina da Silva."
+        ],
+        "D. Mariana da Silva": [
+            "Verantwortlich für den Wiederaufbau der Kapelle 1736."
+        ]
+    },
+    "years": {
+        "1657": [
+            "Gründung der Kapelle"
+        ],
+        "1736": [
+            "Wiederaufbau der Kapelle"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 1267,
+    "lang": "de",
+    "is_original": false,
+    "title": "Espinola",
+    "fl": "E",
+    "original_title": "Espinola",
+    "body": "Dies ist ein edler und sehr alter Familienname bei uns, der von Antonio und Leonardo Espinola abstammt, nahen Verwandten, die im ersten Viertel des 16. Jahrhunderts auf diese Insel kamen. Sie stammten aus Genua und waren Nachkommen einer alten und edlen Familie dieser Stadt. Es gibt zwei Linien: Die Espinolas von Adorno oder Aderno, deren Wappen 1513 verliehen wurde und das aus einem \"goldenen Feld und einem Balken mit silbernen und roten Schachfeldern besteht, auf dem sich ein roter Dornenzweig befindet, sowie als Unterschied ein blauer Überwurf, ein offener silberner Helm und als Helmzier derselbe Zweig, goldene und rote Helmdecken\" besteht. Der andere Zweig, bekannt unter dem Namen Rosa oder de la Rosa, erhielt am 27. Februar 1535 ein Wappen verliehen, dessen Beschreibung sich in nichts von der vorherigen unterscheidet. Antonio Espinola erhielt viel Land. Am 30. April 1524 stiftete er ein Grundstück am Stadtrand, auf dem die Kapelle São Tiago errichtet wurde, unter der Bedingung, dass dort Mitglieder seiner Familie bestattet würden und der Kaplan ein Vaterunser und ein Ave Maria für seine Seele beten sollte, wie der Kommentator der Historia Insulana behauptet.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "São Tiago"
+    ],
+    "locations": {
+        "Génova": [
+            "Herkunftsstadt der Espinolas"
+        ]
+    },
+    "people": {
+        "Antonio Espinola": [
+            "Mitglied der Familie Espinola"
+        ]
+    },
+    "years": {
+        "1513": [
+            "Verleihung des Wappens an die Espinolas von Adorno oder Aderno"
+        ],
+        "1535": [
+            "Verleihung des Wappens an die Espinolas von Rosa oder de la Rosa"
+        ],
+        "1524": [
+            "Schenkung des Grundstücks durch Antonio Espinola für den Bau der Kapelle São Tiago"
+        ]
+    }
+}

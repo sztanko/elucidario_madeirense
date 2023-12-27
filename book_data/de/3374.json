@@ -1,0 +1,46 @@
+{
+    "id": 3374,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gesellschaft der Freunde der Wissenschaften und Künste von Funchal",
+    "fl": "G",
+    "original_title": "Sociedade Funchalense dos Amigos das Ciências e Artes",
+    "body": "Sie wurde im Regierungspalast gegründet und ihr erster Präsident war Dr. João Pedro de Freitas Pereira Drumond und ihr erster Sekretär Francisco Ferreira de Abreu. Sie hatte 28 effektive Mitglieder und 24 Ehrenmitglieder, Zahlen, die den 24. August 1820 symbolisierten, an dem die Revolution in Porto ausbrach, und den 28. Januar 1821, an dem sie auf Madeira unterstützt wurde. Es gab auch korrespondierende Mitglieder, 45 an der Zahl. Die erste öffentliche Sitzung der Gesellschaft fand am 23. August 1822 statt.\n\nDie Gesellschaft der Freunde der Wissenschaften und Künste von Funchal, nach dem Vorbild der Königlichen Akademie der Wissenschaften von Lissabon modelliert, dauerte nicht lange und verschwand 1823 mit der Wiederherstellung der absoluten Regierung auf der Insel. Ihre Statuten und Vorschriften wurden 1822 in der Druckerei des Patrioten gedruckt.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ],
+        "Porto": [
+            "Stadt"
+        ],
+        "Lissabon": [
+            "Stadt"
+        ]
+    },
+    "people": {
+        "João Pedro de Freitas Pereira Drumond": [
+            "Erster Präsident"
+        ],
+        "Francisco Ferreira de Abreu": [
+            "Erster Sekretär"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Tag der Revolution in Porto"
+        ],
+        "1821": [
+            "Tag der Revolution auf Madeira"
+        ],
+        "1822": [
+            "Erste öffentliche Sitzung der Gesellschaft"
+        ],
+        "1823": [
+            "Jahr des Verschwindens der Gesellschaft"
+        ]
+    }
+}

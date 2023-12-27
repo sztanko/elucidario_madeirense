@@ -1,0 +1,22 @@
+{
+    "id": 3,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Тыквенная гора",
+    "fl": "Т",
+    "original_title": "Abóboras (Pico das)",
+    "body": "Возвышенность в приходе Камаша, достигающая 1453 метров в высоту.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Camacha"
+    ],
+    "locations": {
+        "Камаша": [
+            "Приход на Мадейре"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

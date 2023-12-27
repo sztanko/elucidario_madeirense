@@ -1,0 +1,25 @@
+{
+    "id": 1641,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Грант (У. Р. О.)",
+    "fl": "Г",
+    "original_title": "Grant (W. R. O.)",
+    "body": "Орнитолог Британского музея, который научно исследовал Селваженш. \nОпубликовал в журнале \n*The Ibis* в 1896 году, стр. 41-55, работу под названием \n*On the Birds observed in the Salvage Islands near Madeira*, а также в журналах \n*The Field* и \n*The Zoologist* отчет о своей поездке на Селваженш. Эта последняя работа, написанная в соавторстве с Сесилом Берингом, называется \n*An Expedition to Salvage Islands*.",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Сесил Беринг": [
+            "Соавтор Гранта (У. Р. О.)"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Публикация работы *On the Birds observed in the \nSalvage Islands near Madeira*"
+        ]
+    }
+}

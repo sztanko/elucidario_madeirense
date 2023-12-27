@@ -1,0 +1,44 @@
+{
+    "id": 1479,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Freire (Ascenso de Sequeira)",
+    "fl": "F",
+    "original_title": "Freire (Ascenso de Sequeira)",
+    "body": "Foi nomeado governador e capitão-general da Madeira a 15 de Outubro de 1803, tendo chegado ao Funchal a 5 de Dezembro seguinte e tomado posse a 8 do mesmo mês e ano, quando ainda se encontrava nesta cidade o seu antecessor D. José Manuel da Câmara. Veio acompanhado do desembargador Dr. Joaquim Antonio de Araújo, encarregado de proceder a uma sindicância acerca das graves desinteligências que se deram entre o governador e capitão-general D. José Manuel da Câmara e o bispo D. Luiz Rodrigues de Vilares. (V. estes nomes). Durante o seu governo, em virtude das guerras europeias, navios de guerra ingleses entravam frequentemente no nosso porto, conduzindo diversas embarcações, principalmente espanholas, que apresavam no alto-mar. Realizou-se nos anos de 1804 e 1805 o importante melhoramento do encanamento e construção das muralhas das três ribeiras que atravessam a cidade, sob a direcção do distinto engenheiro o brigadeiro Reinaldo Oudinot (V. este nome). Ascenso de Sequeira Freire saiu da Madeira depois da chegada do seu sucessor Pedro Fagundes Bacelar de Antas e Meneses, que tomou posse do lugar nos fins de Julho de 1807.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Chegada ao Funchal"
+        ]
+    },
+    "people": {
+        "Ascenso de Sequeira Freire": [
+            "Governador e capitão-general da Madeira"
+        ],
+        "D. José Manuel da Câmara": [
+            "Antecessor"
+        ],
+        "D. Luiz Rodrigues de Vilares": [
+            "Bispo"
+        ],
+        "Dr. Joaquim Antonio de Araújo": [
+            "Desembargador encarregado de proceder a uma sindicância"
+        ],
+        "Reinaldo Oudinot": [
+            "Distinto engenheiro o brigadeiro"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Nomeado governador e capitão-general da Madeira"
+        ],
+        "1804": [
+            "Realizou-se o importante melhoramento do encanamento e construção das muralhas das três ribeiras"
+        ]
+    }
+}

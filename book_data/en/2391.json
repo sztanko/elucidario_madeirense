@@ -1,0 +1,34 @@
+{
+    "id": 2391,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mouraria (Rua da)",
+    "fl": "M",
+    "original_title": "Mouraria (Rua da)",
+    "body": "It has been called (1921) Rua do Dr. Sequeira since March 8, 1917, and connects Rua da Carreira, or Dr. Vieira, with Largo de S. Pedro. The palace that belonged to the counts of Carvalhal is located on this street, where the Municipal Museum, the District Archive of Madeira, and the Municipal Library of Funchal are installed. In our opinion, the original name of the street should not have been changed, as it recalls the existence of a Moorish quarter in the area. A few years ago, it reverted to its original name.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Municipal Museum": [
+            "Installed in the palace that belonged to the counts of Carvalhal"
+        ],
+        "District Archive of Madeira": [
+            "Installed in the palace that belonged to the counts of Carvalhal"
+        ],
+        "Municipal Library of Funchal": [
+            "Installed in the palace that belonged to the counts of Carvalhal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1917": [
+            "Change of name to Rua do Dr. Sequeira"
+        ],
+        "1921": [
+            "Change of name to Rua da Mouraria"
+        ]
+    }
+}

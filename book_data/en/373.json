@@ -1,0 +1,30 @@
+{
+    "id": 373,
+    "lang": "en",
+    "is_original": false,
+    "title": "Badajeira",
+    "fl": "B",
+    "original_title": "Badajeira",
+    "body": "Shoal, southeast of Ilhéu de Fora (a short distance from Ponta de São Lourenço), where the steamers Forerunner, in October 1854, and Newton, on April 12, 1881, shipwrecked. Both of these shipwrecks occurred in calm seas, resulting in a large number of casualties.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilhéu de Fora": [
+            "Islet located southeast of Badajeira."
+        ],
+        "Ponta de São Lourenço": [
+            "Locality near Badajeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1854": [
+            "Shipwreck of the steamer Forerunner."
+        ],
+        "1881": [
+            "Shipwreck of the steamer Newton."
+        ]
+    }
+}

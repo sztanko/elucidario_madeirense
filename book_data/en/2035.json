@@ -1,0 +1,40 @@
+{
+    "id": 2035,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo dos Reis",
+    "fl": "L",
+    "original_title": "Lombo dos Reis",
+    "body": "A populated site in the parish of Estreito da Calheta, where the chapel of the Magi is located, founded by Francisco Homem de Gouveia around the year 1529, who made it the seat of the morgadio he established and which was later incorporated into the house of the island of Porto Santo's donataries. Also in the same place is the chapel dedicated to Our Lady of Deliverance, built by D. Inácia Betencourt Perestrelo in the year 1860.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Locality in the Madeira Island"
+        ],
+        "Porto Santo": [
+            "Island belonging to the Madeira archipelago"
+        ]
+    },
+    "people": {
+        "Francisco Homem de Gouveia": [
+            "Founder of the chapel of the Magi"
+        ],
+        "D. Inácia Betencourt Perestrelo": [
+            "Founder of the chapel of Our Lady of Deliverance"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Foundation of the chapel of the Magi"
+        ],
+        "1860": [
+            "Construction of the chapel of Our Lady of Deliverance"
+        ]
+    }
+}

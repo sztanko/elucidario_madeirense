@@ -1,0 +1,53 @@
+{
+    "id": 3419,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Superfície",
+    "fl": "S",
+    "original_title": "Superfície",
+    "body": "São bastante divergentes os cálculos feitos acerca da superfície de todo o arquipélago e em especial de cada uma das ilhas que o compõem. O Dr. Alvaro Rodrigues de Azevedo que versou este assunto com alguma largueza no notável artigo do Dicionario Universal Portuguez Ilustrado, diz que alguns autores computam em mais de mil quilómetros quadrados a área global do arquipelago, tendo-se posteriormente admitido que essa superfície se calculava em tôrno de 800 quilómetros, e termina por afirmar que os cálculos mais recentes e que julga mais aproximados da verdade dão a todo o arquipélago uma superfície de 560 quilómetros quadrados, tendo 500 quilómetros a ilha da Madeira, 50 a do Porto Santo e 10 o pequeno grupo das Desertas.\n\nEm vários documentos de caracter oficial e ainda recentemente no «Censo da População», publicado no ano corrente de 1934, se diz que a superfície da ilha da Madeira é de 740,62 quilómetros quadrados e a do Porto Santo de 42,17.\n\nA população, dando o «Censo já citado o número de 270 habitantes por cada quilómetro quadrado para a época atual.\n\n| Ano  | Habitantes por quilómetro quadrado |\n|------|------------------------------------|\n| 1864 | 135,9                             |\n| 1878 | 160,2                             |\n| 1890 | 164,5                             |\n| 1900 | 184,8                             |\n| 1911 | 208,8                             |\n| 1920 | 219,6                             |\n| 1930 | 270,3                             |",
+    "categories": [
+        "geography",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha com superfície de 740,62 quilómetros quadrados segundo o Censo da População de 1934."
+        ],
+        "Porto Santo": [
+            "Ilha com superfície de 42,17 quilómetros quadrados."
+        ],
+        "Desertas": [
+            "Pequeno grupo de ilhas com superfície de 10 quilómetros quadrados."
+        ]
+    },
+    "people": {
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Autor que discutiu a superfície do arquipélago da Madeira."
+        ]
+    },
+    "years": {
+        "1864": [
+            "135,9 habitantes por quilómetro quadrado."
+        ],
+        "1878": [
+            "160,2 habitantes por quilómetro quadrado."
+        ],
+        "1890": [
+            "164,5 habitantes por quilómetro quadrado."
+        ],
+        "1900": [
+            "184,8 habitantes por quilómetro quadrado."
+        ],
+        "1911": [
+            "208,8 habitantes por quilómetro quadrado."
+        ],
+        "1920": [
+            "219,6 habitantes por quilómetro quadrado."
+        ],
+        "1930": [
+            "270,3 habitantes por quilómetro quadrado."
+        ]
+    }
+}

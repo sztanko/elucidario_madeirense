@@ -1,0 +1,30 @@
+{
+    "id": 60,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Afonso (João)",
+    "fl": "A",
+    "original_title": "Afonso (João)",
+    "body": "Dos companheiros de Zarco na viagem da descoberta da Madeira, além de Tristão Vaz, conservaram as crónicas os nomes de Gonçalo Aires Ferreira, João Lourenço, Rui Pais e João Afonso, pertencentes a famílias nobres e que nesta ilha foram tronco de larga descendência. Chegados à baía de Machico, e feito aí o primeiro desembarque, prosseguiram no dia imediato na exploração da costa, ficando os navios ancorados naquele porto. Frutuoso faz menção dos batéis dirigidos por Gonçalves Zarco, Tristão Vaz e João Afonso, que, deixando a baía de Machico foram costeando todo o sul da Madeira em viagem de exploração. As frequentes referências feitas a João Afonso parecem dar a conhecer que se destaca dos seus companheiros por qualquer ascendente ou prestígio que sobre eles tivesse. João Afonso teve terras de sesmaria em Câmara de Lobos e nelas instituiu um morgadio, a que anexou a capela do Espírito Santo na Igreja de Nossa Senhora do Calhau, onde foi sepultado no último quartel século XV. É o tronco e o fundador da casa Torre Bela, uma das mais antigas e importantes da Madeira. Exerceu nesta ilha o cargo de almoxarife do Infante D. Henrique, arrecadando as receitas e impostos que lhe eram destinados.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Machico": [
+            "Baía onde João Afonso e seus companheiros fizeram o primeiro desembarque"
+        ]
+    },
+    "people": {
+        "João Afonso": [
+            "Explorador e tronco da casa Torre Bela"
+        ]
+    },
+    "years": {
+        "Século XV": [
+            "Sepultamento de João Afonso na capela do Espírito Santo"
+        ]
+    }
+}

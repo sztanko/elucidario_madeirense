@@ -1,0 +1,30 @@
+{
+    "id": 2976,
+    "lang": "de",
+    "is_original": false,
+    "title": "Quinta das Freiras",
+    "fl": "Q",
+    "original_title": "Quinta das Freiras",
+    "body": "Bewohnter Ort in der Pfarrei Santo António do Funchal. An diesem Ort befand sich die Kapelle Nossa Senhora das Brotas, die 1678 von Manuel Martins Brandão gegründet wurde und von der heute nur noch ein Haufen Trümmer übrig ist. Dort befindet sich der Pfarrfriedhof, der 1839 erbaut und im Jahr 1903 erheblich erweitert wurde. Dieser Friedhof hat eine eigene Kapelle, die im Jahr 1844 erbaut und Nossa Senhora da Luz geweiht wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Manuel Martins Brandão": [
+            "Gründer der Kapelle"
+        ]
+    },
+    "years": {
+        "1678": [
+            "Gründung der Kapelle Nossa Senhora das Brotas"
+        ],
+        "1839": [
+            "Bau des Pfarrfriedhofs"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2916,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "Lugar da freguesia de Machico, encravado no sitio povoado do Marco, que tomou o nome da capela de Nossa Senhora das Preces, fundada pelo cónego Agostinho de Góis e Meneses no ano de 1750 e reedificada por António Tiago da Silva em 1884.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Freguesia onde se encontra o lugar de Preces."
+        ]
+    },
+    "people": {
+        "Agostinho de Góis e Meneses": [
+            "Cónego fundador da capela de Nossa Senhora das Preces."
+        ],
+        "António Tiago da Silva": [
+            "Responsável pela reedificação da capela em 1884."
+        ]
+    },
+    "years": {
+        "1750": [
+            "Ano de fundação da capela de Nossa Senhora das Preces."
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 3539,
+    "lang": "en",
+    "is_original": false,
+    "title": "Tubarão (Carcharias microps)",
+    "fl": "T",
+    "original_title": "Tubarão (Carcharias microps)",
+    "body": "Fish of the Carcarida family, found in the seas of Madeira. According to Lowe, it is notable for the smallness of its eyes and has weak teeth in relation to its size, arranged in two series, similar in both jaws. The individuals examined by that naturalist measured 8 feet and 5 or inches in length. As informed by Mr. Adolfo de Noronha, the designation of 'tubarão' given to the species we are referring to is only known today to the fishermen of Caniçal (1921). Tuckey (T. KJ. V. Scientific Expeditions, page 410 of volume I of this Elucidário.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caniçal": [
+            "Place where the designation of 'tubarão' given to the species is known today"
+        ]
+    },
+    "people": {
+        "Lowe": [
+            "Naturalist who described the Tubarão"
+        ],
+        "Adolfo de Noronha": [
+            "Informed about the designation of 'tubarão'"
+        ]
+    },
+    "years": {
+        "1921": [
+            "The designation of 'tubarão' given to the species we are referring to is only known today to the fishermen of Caniçal"
+        ]
+    }
+}

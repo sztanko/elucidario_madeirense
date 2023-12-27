@@ -1,0 +1,29 @@
+{
+    "id": 226,
+    "lang": "en",
+    "is_original": false,
+    "title": "Anson (Jorge)",
+    "fl": "A",
+    "original_title": "Anson (Jorge)",
+    "body": "This famous English corsair and traveler passed through Madeira in September 1740, commanding a squadron of 8 ships, which was destined to capture and plunder Spanish ships in the Pacific Ocean.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location of passage"
+        ]
+    },
+    "people": {
+        "Jorge Anson": [
+            "English corsair and traveler"
+        ]
+    },
+    "years": {
+        "1740": [
+            "Passage through Madeira"
+        ]
+    }
+}

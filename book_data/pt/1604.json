@@ -1,0 +1,30 @@
+{
+    "id": 1604,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gonçalo Aires (Ribeira de)",
+    "fl": "G",
+    "original_title": "Gonçalo Aires (Ribeira de)",
+    "body": "Gaspar Frutuoso, ao referir-se aos primeiros trabalhos de exploração, quando se iniciou o povoamento desta ilha, conta, entre outros episódios, o seguinte: «Foi Gonçalo Ayres com os companheiros correndo a terra por espaço de três horas, no fim das quaes se agastava já o capitam com a tardança delles, senão quando, exque assomavam pela ribeira abaixo com capellas na cabeça, e enramados vinham fallando com muito prazer, que não achavam cousa viva, senão aves; e daqui ficou o nome a «Ribeira de Gonçalayres». Esta ribeira atravessa a freguesia de São Gonçalo, e na sua foz fica o lazareto chamado de Gonçalo Aires.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Ribeira de Gonçalayres": [
+            "Atravessa a freguesia de São Gonçalo"
+        ]
+    },
+    "people": {
+        "Ferreira (Gonçalo Aires)": [
+            "Relacionado com a Ribeira de Gonçalayres"
+        ],
+        "Lazareto": [
+            "Localizado na foz da Ribeira de Gonçalayres"
+        ]
+    },
+    "years": {}
+}

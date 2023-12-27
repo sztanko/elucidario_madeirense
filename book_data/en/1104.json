@@ -1,0 +1,28 @@
+{
+    "id": 1104,
+    "lang": "en",
+    "is_original": false,
+    "title": "Curral dos Romeiros",
+    "fl": "C",
+    "original_title": "Curral dos Romeiros",
+    "body": "Location in the parish of Monte, where the road leading to Choupana passes. Above the bridge of Curral, in Ribeira de João Gomes, there is a small but beautiful waterfall, which can be reached by following the levada that passes by the same bridge. Curral dos Romeiros is a place much visited by nationals and foreigners and is located at the bottom of a large valley, where pleasant impressions are gathered.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Parish"
+        ],
+        "Choupana": [
+            "Location"
+        ],
+        "Ribeira de João Gomes": [
+            "Location"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,28 @@
+{
+    "id": 2353,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Montluc (Pedro Beltrão de)",
+    "fl": "M",
+    "original_title": "Montluc (Pedro Beltrão de)",
+    "body": "Comandante dos corsários que saquearam a cidade do Funchal no ano de 1566 e que aqui faleceu em virtude duma ferida que recebeu num joelho. V. Saque dos Franceses.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local do saque"
+        ]
+    },
+    "people": {
+        "Pedro Beltrão de Montluc": [
+            "Comandante dos corsários"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Saque à cidade do Funchal"
+        ]
+    }
+}

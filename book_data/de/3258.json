@@ -1,0 +1,45 @@
+{
+    "id": 3258,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Sebastião (Kapellen von)",
+    "fl": "S",
+    "original_title": "São Sebastião (Capelas de)",
+    "body": "Die Kapelle São Sebastião in der Stadt Ponta do Sol, die sehr alt ist, gehörte der jeweiligen Stadtverwaltung. 1734 war sie entweiht und in einem fortgeschrittenen Zustand des Verfalls, so dass sie auf Kosten der Stadtverwaltung vollständig wiederaufgebaut wurde. Sie wurde für die Feier der Gottesdienste am 20. November 1734 besichtigt.\n\nAuf der Insel Porto Santo gab es eine Kapelle, die dem Märtyrer São Sebastião gewidmet war und sehr alt war.\n\nIn der Gemeinde Santa Cruz gab es eine Kapelle mit der gleichen Widmung, deren Baujahr unbekannt ist, ebenso wie der Name ihres Gründers.\n\nEs gab eine Kapelle São Sebastião in der Gemeinde São Jorge, deren Baujahr wir nicht kennen. Wir wissen jedoch, dass sie 1765 vom Pfarrer Francisco Marques de Mendonça wiederaufgebaut und am 11. September desselben Jahres geweiht wurde. In der Pfarrkirche befindet sich das kleine Bildnis des Heiligen, das ein bemerkenswertes Juwel der Bildhauerkunst ist.\n\n## V. Markt und Kapelle São Sebastião\nauf Seite 359 des zweiten Bandes.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Santa Cruz",
+        "São Jorge"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Stadt Ponta do Sol"
+        ],
+        "Porto Santo": [
+            "Insel Porto Santo"
+        ],
+        "Santa Cruz": [
+            "Gemeinde Santa Cruz"
+        ],
+        "São Jorge": [
+            "Gemeinde São Jorge"
+        ]
+    },
+    "people": {
+        "Francisco Marques de Mendonça": [
+            "Pfarrer, der für den Wiederaufbau der Kapelle São Sebastião in der Gemeinde São Jorge verantwortlich war"
+        ]
+    },
+    "years": {
+        "1734": [
+            "Jahr, in dem die Kapelle São Sebastião in Ponta do Sol wiederaufgebaut wurde"
+        ],
+        "1765": [
+            "Jahr des Wiederaufbaus der Kapelle São Sebastião in der Gemeinde São Jorge"
+        ]
+    }
+}

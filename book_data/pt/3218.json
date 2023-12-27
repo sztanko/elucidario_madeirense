@@ -1,0 +1,33 @@
+{
+    "id": 3218,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Cristóvão (Capelas)",
+    "fl": "S",
+    "original_title": "São Cristóvão (Capelas)",
+    "body": "A capela, que fica na freguesia de Machico, no sítio que dela tomou o nome, foi edificada em virtude de disposição testamentaria de Cristóvão Moniz de Meneses, feita em 1690, determinando a sua construção. No pórtico tem gravada a data de 1692. Na freguesia da Ponta Delgada, em terreno que hoje pertence á paróquia da Boaventura, se levantava a capela de São Cristóvão, de construção antiga, pois consta do arquivo paroquial da primeira daquelas freguesias que já em 1578 se encontrava em mau estado de conservação, sendo então D. Maria de Leme administradora dela. Sofreu varias reparações e foi demolida no ano de 1748. Deu o nome ao sítio em que fora edificada.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Ponta Delgada",
+        "Boaventura"
+    ],
+    "locations": {
+        "Machico": [
+            "Localidade onde fica a capela de São Cristóvão."
+        ]
+    },
+    "people": {
+        "Cristóvão Moniz de Meneses": [
+            "Determinou a construção da capela de São Cristóvão em 1690."
+        ]
+    },
+    "years": {
+        "1690": [
+            "Determinação da construção da capela de São Cristóvão."
+        ]
+    }
+}

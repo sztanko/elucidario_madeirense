@@ -1,0 +1,54 @@
+{
+    "id": 2473,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Boa Morte (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Morte (Capela de)",
+    "body": "In the parish of Câmara de Lobos, there is a chapel dedicated to Nossa Senhora da Boa Morte, which has been closed for worship for years. With the same name, there was a chapel in the parish of Ribeira Brava, founded by Francisco Fernandes and Brasia Fernandes, in a year that is unknown to us. In the parish of Calheta, at the location of Atouguia, there was also a chapel consecrated to N. S. da Boa Morte, which is mentioned somewhere with the name of N. S. da Piedade. Of this last chapel, built in the year 1661 by its founder Francisco Homem de Couto, there are no longer any traces, but the place where it was built is still called Boa Morte. In the parish of Ponta do Pargo, Custódio Nunes da Costa established a chapel dedicated to N. S. da Boa Morte in the year 1666.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Ribeira Brava",
+        "Calheta",
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Locality in the Madeira Island"
+        ],
+        "Ribeira Brava": [
+            "Locality in the Madeira Island"
+        ],
+        "Calheta": [
+            "Locality in the Madeira Island"
+        ],
+        "Ponta do Pargo": [
+            "Locality in the Madeira Island"
+        ]
+    },
+    "people": {
+        "Francisco Fernandes": [
+            "Founder of the chapel in Ribeira Brava"
+        ],
+        "Brasia Fernandes": [
+            "Wife of Francisco Fernandes"
+        ],
+        "Francisco Homem de Couto": [
+            "Founder of the chapel in Calheta"
+        ],
+        "Custódio Nunes da Costa": [
+            "Founder of the chapel in Ponta do Pargo"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Year of construction of the chapel in Calheta"
+        ],
+        "1666": [
+            "Year of foundation of the chapel in Ponta do Pargo"
+        ]
+    }
+}

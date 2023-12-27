@@ -1,0 +1,40 @@
+{
+    "id": 2092,
+    "lang": "de",
+    "is_original": false,
+    "title": "Machico (Bucht, Hafen und Pier)",
+    "fl": "M",
+    "original_title": "Machico (Enseada, Porto e Cais de)",
+    "body": "Abgesehen von den Buchten von Funchal, Porto Santo und Abra ist die Bucht von Machico die größte und malerischste des Archipels. Sie wird von einem schönen Strandabschnitt und zwei darüber liegenden Straßen gesäumt, die direkt in ein wunderschönes Tal münden, das sich über mehrere Kilometer an den grünen Ufern des Baches erstreckt. Das Stadtzentrum ist durch eine schöne, baumbestandene Straße mit der Anlegestelle verbunden, die an ruhigen Sommerabenden einen sehr angenehmen Spaziergang bietet. Etwa am südlichen Ende der Bucht, neben der Kapelle São Roque, wurde vor vielen Jahren eine Anlegestelle gebaut, die jedoch ganz aufgegeben wurde. Auf der anderen Seite der Bucht plante man den Bau eines Piers, wobei man eine dort befindliche Sandbank nutzte, mit einer Verbindungsstraße ins Landesinnere, und diese Arbeiten wurden in den Jahren 1870 bis 1873 durchgeführt. Da dieser Anlegeplatz als unzureichend angesehen wurde, wurde 1905 ein neuer, größerer Pier gebaut, der 1907 modifiziert und verbessert wurde. An den drei Punkten, die den Eingang dieser Bucht begrenzen, wurden Ende 1931 drei Leuchttürme aufgestellt, die den zahlreichen Fischerbooten, die nachts diese Bucht ansteuern, ausgezeichnete Dienste leisten. Dieser Hafen ist relativ weit, aber seicht, so dass der Zugang für Schiffe mit großer Tonnage nicht gestattet ist. Über dem Kai stand einst eine alte Festung, Forte do Desembarcadouro oder São João Baptista genannt, heute eine Ruine, auf deren Esplanade 1910 anlässlich der Cholera-Epidemie, die Madeira damals heimsuchte, ein Krankenhaus improvisiert wurde.\n\n> Siehe \"Desembarcadouro\"",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "São Roque"
+    ],
+    "locations": {
+        "Machico": [
+            "Größte und malerischste Bucht des Archipels"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1870": [
+            "Bau des Kais"
+        ],
+        "1873": [
+            "Fertigstellung der Kaiarbeiten"
+        ],
+        "1905": [
+            "Bau eines neuen Kais"
+        ],
+        "1907": [
+            "Verbesserungen am Kai"
+        ],
+        "1910": [
+            "Improvisation eines Krankenhauses auf der Esplanade der alten Festung"
+        ]
+    }
+}

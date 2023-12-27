@@ -1,0 +1,49 @@
+{
+    "id": 3688,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Zimbreiro (Juniperus phoenicea)",
+    "fl": "Z",
+    "original_title": "Zimbreiro (Juniperus phoenicea)",
+    "body": "Arbusto, raras vezes pequena árvore, de 1 a 5 metros, de tronco ordinariamente tortuoso; folhas escamiformes, embricadas, quasi sempre aplicadas; galbulas subglobosas, fuscas depois de maduras. Esta Pinacea tem sido achada na Rocha do Navio, em Santana, no Caminho de Larano (Porto da Cruz), etc.. No Porto Santo, onde foi outrora muito comum, só existia em 1903 um único indivíduo nas vertentes do Pico Branco. Produz madeira branca ou dum branco amarelado, muito menos aromática que a do cedro. \n\nOs sítios dos Zimbreiros no Paul do Mar e no Caniço, e do Zimbral de Areia e Zimbralinha no Porto Santo, derivam provavelmente os seus nomes de aí terem existido zimbreiros noutras épocas.",
+    "categories": [
+        "biology",
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Rocha do Navio": [
+            "Local onde a Pinacea foi encontrada"
+        ],
+        "Santana": [
+            "Local onde a Pinacea foi encontrada"
+        ],
+        "Caminho de Larano (Porto da Cruz)": [
+            "Local onde a Pinacea foi encontrada"
+        ],
+        "Porto Santo": [
+            "Local onde a Pinacea foi encontrada"
+        ],
+        "Paul do Mar": [
+            "Local onde os Zimbreiros estão situados"
+        ],
+        "Caniço": [
+            "Local onde os Zimbreiros estão situados"
+        ],
+        "Zimbral de Areia": [
+            "Local onde os Zimbreiros estão situados"
+        ],
+        "Zimbralinha": [
+            "Local onde os Zimbreiros estão situados"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1903": [
+            "Existia apenas um indivíduo nas vertentes do Pico Branco"
+        ]
+    }
+}

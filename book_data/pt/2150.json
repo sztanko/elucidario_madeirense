@@ -1,0 +1,48 @@
+{
+    "id": 2150,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Madre de Deus (Capelas da)",
+    "fl": "M",
+    "original_title": "Madre de Deus (Capelas da)",
+    "body": "É um pequeno templo de típica edificação manuelina, que por isso oferece particular interesse aos que o visitam e em especial por alguns detalhes da sua construção e que fica na freguesia do Caniço, no sítio a que deu aquele nome. É uma construção do século XVI e afirma-se que foi fundado por uma família Salvago, que ali teve terras de sesmaria. Nela se celebram ainda os actos do culto e pertence (1921) aos herdeiros de João Maurício de Gouveia.\n\nExiste com a mesma invocação uma capela na freguesia da Tabua, mais conhecida pelo nome de Mãe de Deus. Ignoramos o ano da sua construção, mas sabemos que por meado do século XVIII foi totalmente destruída pela violência da corrente da ribeira que lhe ficava próxima. Foi reconstruída por 1767 na outra margem da ribeira, em sitio mais seguro, sendo vistoriada a 9 de Dezembro do mesmo ano, para o efeito da celebração dos ofícios divinos. Um breve pontifício de 22 de Maio de 1781 concede indulgencia plenaria aos que visitarem esta capela no primeiro domingo de Maio.\n\nInacio Uzadamor do Rêgo e sua mulher fizeram construir em 1705 na freguesia do Estreito de Camara de Lobos, uma capela dedicada a Nossa Senhora da Madre de Deus e ao taumaturgo S. Antonio, sendo de 5 de Dezembro daquele ano a licença para ser benzida.",
+    "categories": [
+        "architecture",
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Tabua",
+        "Estreito de Camara de Lobos"
+    ],
+    "locations": {
+        "Caniço": [
+            "Freguesia onde se encontra o templo"
+        ],
+        "Tabua": [
+            "Freguesia onde existe outra capela com a mesma invocação"
+        ],
+        "Estreito de Camara de Lobos": [
+            "Freguesia onde foi construída outra capela dedicada a Nossa Senhora da Madre de Deus"
+        ]
+    },
+    "people": {
+        "João Maurício de Gouveia": [
+            "Herdeiro do templo em 1921"
+        ],
+        "Inacio Uzadamor do Rêgo": [
+            "Construtor da capela na freguesia do Estreito de Camara de Lobos"
+        ]
+    },
+    "years": {
+        "1705": [
+            "Construção da capela na freguesia do Estreito de Camara de Lobos"
+        ],
+        "1767": [
+            "Reconstrução da capela na freguesia da Tabua"
+        ],
+        "1781": [
+            "Concessão de indulgencia plenaria aos visitantes da capela na freguesia da Tabua"
+        ]
+    }
+}

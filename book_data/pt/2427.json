@@ -1,0 +1,34 @@
+{
+    "id": 2427,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Navegação Costeira",
+    "fl": "N",
+    "original_title": "Navegação Costeira",
+    "body": "A lei de 27 de Julho de 1893, que autorizou o governo a subsidiar um serviço regular de navegação a vapor entre Lisboa e as Ilhas Adjacentes, permitia que se auxiliasse também um serviço do mesmo género entre as ilhas de cada um dos dois arquipélagos. Por contrato provisório de 30 de Novembro do ano referido, celebrado entre o governo e a firma comercial Bensaúde &-C.ª. estabeleceram- se carreiras regulares entre a Madeira e Porto Santo feitas pelo pequeno vapor «Falcão», da casa Blandy do Funchal. Por fins de 1897, esta casa comercial iniciou um serviço de navegação costeira entre o Funchal e diversos portos do sul e do norte da Madeira, que constituiu um dos mais assinalados benefícios prestados ás principais povoações de toda a ilha.",
+    "categories": [
+        "economy",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisboa": [
+            "Serviço regular de navegação a vapor"
+        ],
+        "Ilhas Adjacentes": [
+            "Serviço regular de navegação a vapor"
+        ],
+        "Porto Santo": [
+            "Carreiras regulares entre a Madeira e Porto Santo"
+        ],
+        "Funchal": [
+            "Carreiras regulares entre a Madeira e Porto Santo, navegação costeira entre o Funchal e diversos portos do sul e do norte da Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1893": [
+            "Lei autorizando o governo a subsidiar um serviço regular de navegação a vapor"
+        ]
+    }
+}

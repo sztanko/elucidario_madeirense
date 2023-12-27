@@ -1,0 +1,41 @@
+{
+    "id": 2776,
+    "lang": "de",
+    "is_original": false,
+    "title": "Phelps (José)",
+    "fl": "P",
+    "original_title": "Phelps (José)",
+    "body": "Englischer Geschäftsmann, der gegen Ende des 18. Jahrhunderts nach Madeira kam. Er richtete auf eigene Kosten eine Schule nach dem Lancaster-System ein und trug wesentlich zur Gründung der Associação Funchalense do Ensino Mutuo bei, deren Schatzmeister er wurde. Er zog sich in den ersten Jahren des dritten Viertels des 19. Jahrhunderts nach England zurück und starb dort nach 1863. Siehe Lancaster-Schule, Page und Phelps (Straße von).",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort der Aktivität"
+        ],
+        "Funchal": [
+            "Ort der Aktivität"
+        ],
+        "England": [
+            "Ort des Todes"
+        ]
+    },
+    "people": {
+        "José Phelps": [
+            "Englischer Geschäftsmann"
+        ]
+    },
+    "years": {
+        "18. Jahrhundert": [
+            "Ankunft auf Madeira"
+        ],
+        "Drittes Viertel des 19. Jahrhunderts": [
+            "Rückzug nach England"
+        ],
+        "1863": [
+            "Todesjahr"
+        ]
+    }
+}

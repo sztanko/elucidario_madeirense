@@ -1,0 +1,36 @@
+{
+    "id": 1231,
+    "lang": "en",
+    "is_original": false,
+    "title": "Epoch (The)",
+    "fl": "E",
+    "original_title": "Epocha (A)",
+    "body": "The first newspaper with this title published in Funchal appeared on September 6, 1886, and ended on the 30th of the same month and year, with eight issues. Another newspaper with the same title appeared in 1895, which had six issues, the first on January 14 and the last on February 21. On June 16, 1912, a newspaper with the same title appeared in the village of Ponta do Sol, which was the third newspaper published in that village.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Funchal": [
+            "Location of the first newspaper publication"
+        ],
+        "Ponta do Sol": [
+            "Location of the third newspaper publication"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1886": [
+            "Publication of the first newspaper with the title 'Epoch'"
+        ],
+        "1895": [
+            "Publication of another newspaper with the same title"
+        ],
+        "1912": [
+            "Publication of the third newspaper with the same title"
+        ]
+    }
+}

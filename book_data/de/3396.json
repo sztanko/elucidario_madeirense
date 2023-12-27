@@ -1,0 +1,42 @@
+{
+    "id": 3396,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sousa (Dr. Jacinto António de)",
+    "fl": "S",
+    "original_title": "Sousa (Dr. Jacinto António de)",
+    "body": "Dieser herausragende Dozent der Universität Coimbra wurde auf dieser Insel am 3. Januar 1818 geboren und war der Sohn von Eugenio Antonio de Sousa. Er hatte einen Bachelor-Abschluss in Jura und Mathematik und promovierte am 6. Juli 1858 an der Philosophischen Fakultät.\n\nEr war Dozent am Lehrstuhl für Physik an der Universität und einer der angesehensten Professoren seiner Zeit. Als Direktor des physikalischen Kabinetts und des meteorologischen Observatoriums erwies er diesen wissenschaftlichen Einrichtungen die bemerkenswertesten Dienste, indem er nach einer Reise durch verschiedene europäische Länder eine neue Ausrichtung der dort durchgeführten Arbeiten vornahm.\n\nIm Auftrag der portugiesischen Regierung besuchte er verschiedene ausländische Universitäten und Observatorien und veröffentlichte bemerkenswerte Berichte über die Beobachtungen und Studien, die er im Rahmen seiner wissenschaftlichen Missionen durchführte. Er wurde als einer der Vertreter Portugals ausgewählt, um 1860 in Spanien die Sonnenfinsternis zu beobachten. Dr. Simões de Carvalho sagte, dass er diese Mission \"mit großer Ehre für seinen Namen, die Universität und das Land\" erfüllt habe.\n\nNeben anderen Arbeiten schrieb er: Bericht über einen Besuch der wissenschaftlichen Einrichtungen von Madrid, Paris, Brüssel, London, Greenwich und Kew, 1862; Meteorologische Beobachtungen am meteorologischen und magnetischen Observatorium der Universität Coimbra, 1872; Meteorologische Beobachtungen..., 1873, und Additamento á Memoria Histórica da faculdade de philosophia...1873. Er war Direktor und Redakteur der wissenschaftlichen und literarischen Zeitschrift O Instituto und Mitglied vieler nationaler und ausländischer wissenschaftlicher Vereinigungen. Er starb am 15. August 1880.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Eugenio Antonio de Sousa": [
+            "Vater von Jacinto António de Sousa"
+        ],
+        "Dr. Simões de Carvalho": [
+            "Erwähnt als Lob auf Jacinto António de Sousa"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Geburt von Jacinto António de Sousa"
+        ],
+        "1858": [
+            "Promotion an der Philosophischen Fakultät"
+        ],
+        "1860": [
+            "Beobachtung der Sonnenfinsternis in Spanien"
+        ],
+        "1862": [
+            "Veröffentlichung des Berichts über den Besuch wissenschaftlicher Einrichtungen in Madrid, Paris, Brüssel, London, Greenwich und Kew"
+        ],
+        "1872": [
+            "Veröffentlichung von Meteorologischen Beobachtungen am meteorologischen und magnetischen Observatorium der Universität Coimbra"
+        ],
+        "1873": [
+            "Veröffentlichung von Meteorologische Beobachtungen... und Additamento á Memoria Histórica da faculdade de philosophia"
+        ]
+    }
+}

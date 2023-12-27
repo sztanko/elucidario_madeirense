@@ -1,0 +1,33 @@
+{
+    "id": 2821,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Poço (Largo do)",
+    "fl": "P",
+    "original_title": "Poço (Largo do)",
+    "body": "É o largo junto do campo do Almirante Reis, onde desemboca a rua de Santa Maria. Tem um chafariz, com um certo aparato arquitectonico, que é abastecido actualmente com águas dos Tornos, mas que antes de 1911 só fornecia aguas subterraneas, que eram extraidas do subsolo por meio duma bomba. A curta distancia ficava a antiga igreja de Nossa Senhora do Calhau.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde está situado o Largo do Poço"
+        ],
+        "Campo do Almirante Reis": [
+            "Próximo ao Largo do Poço"
+        ],
+        "Rua de Santa Maria": [
+            "Desemboca no Largo do Poço"
+        ],
+        "Tornos": [
+            "Fonte de onde são abastecidas as águas do chafariz"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1911": [
+            "Mudança no abastecimento de águas do chafariz"
+        ]
+    }
+}

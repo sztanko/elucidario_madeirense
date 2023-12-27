@@ -1,0 +1,33 @@
+{
+    "id": 1505,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Funchalense (O)",
+    "fl": "F",
+    "original_title": "Funchalense (O)",
+    "body": "Deste jornal publicaram-se apenas três números, de 2 a 21 de Julho de 1847.\n\nCom o mesmo título se publicou outro periódico, de que foi redactor o Dr. Sebastião Frederico Rodrigues Leal, saindo 103 números de 17 de Abril de 1859 a 13 de Junho de 1861.\n\nUm terceiro jornal do mesmo título, de que apenas se publicaram 9 números, saiu de 1 de Setembro a 26 de Outubro de 1886.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Sebastião Frederico Rodrigues Leal": [
+            "Redator"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Publicação de três números"
+        ],
+        "1859": [
+            "Publicação de 103 números"
+        ],
+        "1861": [
+            "Publicação de 103 números"
+        ],
+        "1886": [
+            "Publicação de 9 números"
+        ]
+    }
+}

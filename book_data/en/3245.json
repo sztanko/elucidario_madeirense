@@ -1,0 +1,55 @@
+{
+    "id": 3245,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Paulo (Capelas de)",
+    "fl": "S",
+    "original_title": "São Paulo (Capelas de)",
+    "body": "The chapel of this invocation that exists in the square of São Paulo is one of the oldest on this island, and we believe it was the first one built after that of Santa Catarina (see this name). It was originally named São Pedro and São Paulo, but despite the fact that the seat of the São Pedro parish was established there, the second name endured through the ages and is still preserved today. Over the portico, the traditional keys or papal arms can still be seen, attesting to the ancient patronage or invocation of the chapel.\n\nIts founder was João Gonçalves Zarco, who built his second residence next to it, which is said to have been the first stone house built in Funchal, when he moved from Santa Catarina to there. See Moradias de Zargo.\n\nThe date of 1426 that is seen over the exterior door, which gives access to the small churchyard, evidently refers to the first construction.\n\nOver the centuries, the small and modest temple has undergone several repairs, with certainly nothing remaining of the original building. In 1871, a nearly complete reconstruction was carried out there.\n\nThe religious service in the chapel of São Paulo was conducted by the Franciscan friars until 1566, when the São Pedro parish was established, with its seat installed in the same chapel. This parish was abolished in 1579 and restored again in 1586, and it is not known whether the second installation of the parish was in this chapel or in any other. In 1879, a brotherhood with the name of the patron saint was organized there, and its statutes were approved by the higher authority of the district, by decree of March 13 of that year.\n\nIt was next to this chapel that the building destined to be the first hospital was erected, which had been donated for this purpose by the discoverer João Gonçalves Zarco, as already mentioned on page 366 of volume II.\n\nThere was a chapel dedicated to São Paulo in the parish of Porto do Moniz, of which some ruins still remain. It was founded by Father Paulo Vieira Jardim, parish priest of the same parish, who died there on February 15, 1776, and was buried in the chapel of which he was the founder. It was also called São Paulo and Almas.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro",
+        "Porto do Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ],
+        "Santa Catarina": [
+            "Santa Catarina"
+        ],
+        "Porto do Moniz": [
+            "Parish of Porto do Moniz"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Founder of the chapel"
+        ],
+        "Padre Paulo Vieira Jardim": [
+            "Parish priest of the parish of Porto do Moniz"
+        ]
+    },
+    "years": {
+        "1426": [
+            "Date over the exterior door"
+        ],
+        "1566": [
+            "Year in which the religious service in the chapel of São Paulo was conducted by the Franciscan friars"
+        ],
+        "1579": [
+            "Year in which the São Pedro parish was abolished"
+        ],
+        "1586": [
+            "Year in which the São Pedro parish was restored again"
+        ],
+        "1871": [
+            "Year in which a nearly complete reconstruction was carried out"
+        ],
+        "1879": [
+            "Year in which a brotherhood with the name of the patron saint was organized there"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 998,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Convento de Nossa Senhora da Porciuncula",
+    "fl": "C",
+    "original_title": "Convento de Nossa Senhora da Porciuncula",
+    "body": "Ficava este convento de religiosos franciscanos da freguesia da Ribeira Brava, a pequena distancia da igreja paroquial. Foi edificado pelos frades franciscanos em ano que não podemos determinar. Ainda há uma dezena de anos se viam algumas ruínas da casa conventual, e estavam de pé o frontispicio e parte do corpo da igreja, que não era de dimensões muito acanhadas. Sôbre o portico lia-se a data de 1730, que não sabemos se representa o ano da fundação do convento, ou da construção da igreja, o que nos parece mais provavel.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Freguesia onde ficava o convento"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1730": [
+            "Data inscrita sobre o portico"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2917,
+    "lang": "en",
+    "is_original": false,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "A populated area in the parish of Santo António do Funchal, where there is a chapel dedicated to Our Lady of Preces, built in 1768 and in 1770, was administered and perhaps founded by Captain Rodrigo da Costa, having been rebuilt in 1856 by its owner D. Joana de Albuquerque e França.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {
+        "Santo António do Funchal": [
+            "Parish where the populated area of Preces is located."
+        ]
+    },
+    "people": {
+        "Rodrigo da Costa": [
+            "Administrator and perhaps founder of the chapel of Our Lady of Preces in 1770."
+        ],
+        "D. Joana de Albuquerque e França": [
+            "Owner responsible for the rebuilding of the chapel in 1856."
+        ]
+    },
+    "years": {
+        "1768": [
+            "Year of construction of the chapel of Our Lady of Preces."
+        ],
+        "1770": [
+            "Year in which Rodrigo da Costa was the administrator and perhaps founder of the chapel."
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 2560,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Oliveira (Olea europaea)",
+    "fl": "O",
+    "original_title": "Oliveira (Olea europaea)",
+    "body": "Arbusto ou pequena arvore sempre verde, de folhas lanceolado-lineares (var. madeirensis) ou oblongas, obovadas, ovais ou arredondadas (var. buxifolia), que aparece no litoral da Madeira, no Porto Santo e no Ilhéu Chão. Produz uma madeira amarelada, com veios escuros, e pequenos frutos que não são aproveitados por serem pouco carnudos. É conhecido também pelo nome de zambujeiro. Umas oliveiras que vimos há anos no Porto Santo e cujos frutos eram aproveitados, embora fossem menos saborosos que os do Continente, procediam provavelmente de estacas importadas de Portugal e não de exemplares oriundos da ilha.(1921)",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Litoral"
+        ],
+        "Porto Santo": [
+            "Litoral"
+        ],
+        "Ilhéu Chão": [
+            "Litoral"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1921": [
+            "Observação das oliveiras no Porto Santo"
+        ]
+    }
+}

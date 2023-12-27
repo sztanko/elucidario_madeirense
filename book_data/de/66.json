@@ -1,0 +1,28 @@
+{
+    "id": 66,
+    "lang": "de",
+    "is_original": false,
+    "title": "Honigwasser (Bach von)",
+    "fl": "H",
+    "original_title": "Água de Mel (Ribeiro de)",
+    "body": "Kleiner Wasserlauf, der den gleichnamigen Ort in der Gemeinde São Roque durchquert und sich am linken Ufer des Baches Santo António im Ort Penteada ergießt.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Roque"
+    ],
+    "locations": {
+        "São Roque": [
+            "Gemeinde São Roque"
+        ],
+        "Santo António": [
+            "Bach Santo António"
+        ],
+        "Penteada": [
+            "Ort Penteada"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

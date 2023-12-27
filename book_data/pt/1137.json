@@ -1,0 +1,33 @@
+{
+    "id": 1137,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Desterro",
+    "fl": "D",
+    "original_title": "Desterro",
+    "body": "Sítio povoado da freguesia do Monte, em que se encontra uma capela dedicada a Nossa Senhora do Desterro, que foi fundada no ano de 1625 pelo cónego Jorge Furtado de Sousa e restaurada recentemente pelo Dr. Juvenal de Araújo seu actual proprietário.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Sítio povoado da freguesia do Monte"
+        ]
+    },
+    "people": {
+        "Jorge Furtado de Sousa": [
+            "Fundador da capela dedicada a Nossa Senhora do Desterro"
+        ],
+        "Dr. Juvenal de Araújo": [
+            "Restaurador da capela dedicada a Nossa Senhora do Desterro"
+        ]
+    },
+    "years": {
+        "1625": [
+            "Fundação da capela dedicada a Nossa Senhora do Desterro"
+        ]
+    }
+}

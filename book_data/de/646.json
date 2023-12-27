@@ -1,0 +1,25 @@
+{
+    "id": 646,
+    "lang": "de",
+    "is_original": false,
+    "title": "Hafen von Ponta do Sol",
+    "fl": "H",
+    "original_title": "Cais da Ponta do Sol",
+    "body": "Sein Bau begann am 8. Mai 1848 und scheint 1850 abgeschlossen worden zu sein, wobei die Baukosten von der Gemeindeverwaltung Ponta do Sol getragen wurden.",
+    "categories": [
+        "transport"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1848": [
+            "Baubeginn des Hafens von Ponta do Sol"
+        ],
+        "1850": [
+            "Fertigstellung des Hafens von Ponta do Sol"
+        ]
+    }
+}

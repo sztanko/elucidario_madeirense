@@ -1,0 +1,42 @@
+{
+    "id": 466,
+    "lang": "de",
+    "is_original": false,
+    "title": "Berenguer",
+    "fl": "B",
+    "original_title": "Berenguer",
+    "body": "Oberhalb des Dorfes, sagt Frutuoso, eine Viertelmeile landeinwärts, liegt die Zuckermühle von Cabraes; und in der Nähe liegt eine andere des Dr. da Calheta Phisico, namens Pedro Berenguer de Lemilhana, ein junger Edelmann und Ritter des Christusordens. Von ihm stammt der Nachname Berenguer ab, und noch heute in Calheta trägt ein beträchtlicher Teil der Ländereien, die Pedro de Berenguer dort hatte, den Namen Lombo do Doutor. Er stammte aus Valencia in Spanien, war Doktor der Medizin und Edelmann des Königshauses. Er kam im letzten Viertel des 16. Jahrhunderts nach Madeira und ließ sich in der Gemeinde Calheta nieder, wo er ein Majorat gründete, das er an seine Nachkommen weitergab. Ihm oder einem seiner Nachfolger wurde durch königlichen Erlass vom 5. November 1524 ein Wappenbrief verliehen. Es zeigt ein rotes Feld und ein blaues Band mit goldener Einfassung, darauf drei silberne Lilien, einen offenen silbernen Helm, rot-silberne Helmdecke und als Helmzier einen in Rot gekleideten Arm mit einer der Lilien in der Hand. Dr. Pedro de Berenguer Lemilhana starb in Calheta und wurde im Chor der Pfarrkirche dieser Gemeinde begraben. Einer der Verwalter dieses Fideikommisses war Gaspar Berenguer de Andrade, der sich im Brasilienkrieg auszeichnete, wofür er das Kreuz von Christus und den Status eines Edelmanns erhielt. Mit seiner Frau D. Isabel de França gründete er das Kloster Unserer Lieben Frau von Mercês (siehe diesen Namen), dessen Patrone sie waren und wo sie begraben liegen. Gaspar Berenguer wurde 1603 geboren und starb 1691. Mitglieder dieser Familie waren Francisco Berenguer de Lemilhana, der 22 Jahre lang an den Kriegen in Pernambuco teilnahm und mit dem Christusorden ausgezeichnet wurde, Antonio de Andrade Berenguer, der sich in den Restaurationskriegen auszeichnete, und Bartolomeu de Melo Berenguer, der in den Feldzügen in Maranhão tapfer und mutig diente.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Pedro Berenguer de Lemilhana": [
+            "Ließ sich in Calheta nieder, gründete ein Majorat und übertrug es an seine Nachkommen"
+        ],
+        "Gaspar Berenguer de Andrade": [
+            "Verwalter des Fideikommisses, zeichnete sich im Brasilienkrieg aus"
+        ],
+        "D. Isabel de França": [
+            "Gründete das Kloster Unserer Lieben Frau von Mercês"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Wappenbrief an Pedro de Berenguer übergeben"
+        ],
+        "1603": [
+            "Geburt von Gaspar Berenguer"
+        ],
+        "1691": [
+            "Tod von Gaspar Berenguer"
+        ]
+    }
+}

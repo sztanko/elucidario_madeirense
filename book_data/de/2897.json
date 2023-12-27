@@ -1,0 +1,27 @@
+{
+    "id": 2897,
+    "lang": "de",
+    "is_original": false,
+    "title": "Städtische Gesundheitsstation",
+    "fl": "S",
+    "original_title": "Posto Médico Municipal",
+    "body": "Sie nahm am 10. April 1889 ihren Betrieb auf und wurde von der Stadtverwaltung unter dem verstorbenen Vizegrafen von Ribeiro Real gegründet.\n\nDas Röntgengerät, das in der Gesundheitsstation vorhanden ist, wurde 1922 von der Stadtverwaltung erworben, nachdem ein anderes unbrauchbar geworden war.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Visconde do Ribeiro Real": [
+            "Verstorbener Vizegraf"
+        ]
+    },
+    "years": {
+        "1889": [
+            "Eröffnung der städtischen Gesundheitsstation"
+        ],
+        "1922": [
+            "Anschaffung des Röntgengeräts"
+        ]
+    }
+}

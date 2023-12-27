@@ -1,0 +1,50 @@
+{
+    "id": 3024,
+    "lang": "en",
+    "is_original": false,
+    "title": "Receitas e Despesas Municipais",
+    "fl": "R",
+    "original_title": "Receitas e Despesas Municipais",
+    "body": "The revenues of the Municipality of Funchal, which were around 81 contos in 1880 and close to 117 contos in 1890, rose to 130,744$00 in 1900, 171,156$00 in 1910, 357,081$00 in 1920, and 557,471$00 in 1922. These amounts include balances from previous years as well as various uncollected incomes. The revenues for 1920 and 1922 include amounts of 101,700$00 and 85,945$00 from the deposit of the city's sanitation works. In the economic years 1862 to 1863 and 1870 to 1871, the revenues were respectively 31,041$00 and 50,743$00, while in 1837, the revenue was estimated at 35,678$00. The expenses were 72,500$00 in 1880 and 98,500$00 in 1890, increasing to 105,758$00 in 1900, 152,786$00 in 1910, 246,471$00 in 1920, and 462,007$00 in 1922. In the economic years 1862 to 1863 and 1870 to 1871, the expenses rose to 27,325$00 and 30,073$00, respectively.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1880": [
+            "Expenses amounted to 72,500$00."
+        ],
+        "1890": [
+            "Expenses amounted to 98,500$00."
+        ],
+        "1900": [
+            "Expenses amounted to 105,758$00."
+        ],
+        "1910": [
+            "Expenses amounted to 152,786$00."
+        ],
+        "1920": [
+            "Expenses amounted to 246,471$00."
+        ],
+        "1922": [
+            "Expenses amounted to 462,007$00."
+        ],
+        "1862": [
+            "Expenses rose to 27,325$00."
+        ],
+        "1863": [
+            "Expenses rose to 30,073$00."
+        ],
+        "1870": [
+            "Expenses rose to 27,325$00."
+        ],
+        "1871": [
+            "Expenses rose to 30,073$00."
+        ],
+        "1837": [
+            "Revenue estimated at 35,678$00."
+        ]
+    }
+}

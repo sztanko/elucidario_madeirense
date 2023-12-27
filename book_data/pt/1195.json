@@ -1,0 +1,39 @@
+{
+    "id": 1195,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Drumond de Meneses (Antero)",
+    "fl": "D",
+    "original_title": "Drumond de Meneses (Antero)",
+    "body": "Era filho de Servúlo Drumond de Meneses, nasceu no Funchal a 1 de Dezembro de 1830 e tomou o grau de doutor em medicina na faculdade de Montpellier, em 1856. Foi medico do partido da Câmara Municipal do Funchal e facultativo da Associação de Socorros Mútuos 4 de Setembro de 1862. Faleceu em Lisboa a 30 de Setembro de 1916. E.: L'Etiologie comme source du diagnostic médical, Montpellier, 1856.",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento de Antero Drumond de Meneses"
+        ],
+        "Montpellier": [
+            "Local onde Antero Drumond de Meneses obteve o grau de doutor em medicina"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1830": [
+            "Nascimento de Antero Drumond de Meneses"
+        ],
+        "1856": [
+            "Obtenção do grau de doutor em medicina na faculdade de Montpellier"
+        ],
+        "1862": [
+            "Antero Drumond de Meneses tornou-se facultativo da Associação de Socorros Mútuos"
+        ],
+        "1916": [
+            "Falecimento de Antero Drumond de Meneses"
+        ]
+    }
+}

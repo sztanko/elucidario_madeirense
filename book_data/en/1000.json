@@ -1,0 +1,30 @@
+{
+    "id": 1000,
+    "lang": "en",
+    "is_original": false,
+    "title": "Convent of São Francisco da Calheta",
+    "fl": "C",
+    "original_title": "Convento de São Francisco da Calheta",
+    "body": "“The convent of the friars of S. Francisco, in Calheta, is said in a note from Saudades da Terra, to have been built around the year 1670, on land purchased by the devout Pedro Bettencourt de Athouguia, who later took the habit of a layman in the convent of S. Bernardino. It is private property because it was sold by the Public Treasury”.\n\nIt was the most modest of the convents in Madeira and always had a very small number of religious. The building was small, and the church was also of modest dimensions.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Location of the convent"
+        ]
+    },
+    "people": {
+        "Pedro Bettencourt de Athouguia": [
+            "Buyer of the land where the convent was built"
+        ]
+    },
+    "years": {
+        "1670": [
+            "Year in which the convent was built"
+        ]
+    }
+}

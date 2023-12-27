@@ -1,0 +1,38 @@
+{
+    "id": 3241,
+    "lang": "de",
+    "is_original": false,
+    "title": "Festung São Lourenço",
+    "fl": "F",
+    "original_title": "São Lourenço (Fortaleza de)",
+    "body": "Ursprünglich war es ein einfaches Bollwerk, dessen Bau anscheinend zu Zeiten des vierten Grundherrn João Gonçalves da Câmara begonnen und auf Befehl des Königs während der Regierungszeit von Simão Gonçalves da Câmara, dem fünften Grundherrn, fortgesetzt wurde, wie aus dem Erlass vom 11. September 1542 hervorgeht. Als 1566 die Invasion der französischen Korsaren erfolgte, existierte nur das Bollwerk, aber unter der Herrschaft von Dom Sebastian war die Festung bereits gebaut, wenn auch noch in anderer Form als heute. \n\nDie Festung São Lourenço zeigt auf dem östlichen Turm das portugiesische Wappen und die emblematische Kugel von Dom Manuel, und zu der Zeit, als Dr. Azevedo die Anmerkungen zu den Sehnsüchten des Landes schrieb, konnte man über der Tür der zerstörten Kapelle des Heiligen, der der Befestigung ihren Namen gab, auf die wir uns beziehen, noch die folgende Inschrift sehen: \n\nGott geweiht \n16 3 S\n\nDiese Inschrift bedeutet nach Dr. Azevedo: Gott geweiht im Jahr 1635. \n\nDas portugiesische Wappen und die Kugel von Dom Manuel wurden von der Festung entfernt, nachdem die Republik ausgerufen worden war, aber vor etwa vier Jahren kehrten sie an ihren Platz zurück, weil man, wenn auch spät, erkannt hat, dass es keinen Grund gibt, sie der Öffentlichkeit vorzuenthalten. Was nicht in die Festung zurückkehren konnte, war ein Bild des heiligen Laurentius, das sich in einer Nische über dem Haupttor am Platz der Wiederherstellung befand; es wurde von einigen Marinesoldaten der Kriegsmarine entfernt und zerstört, die 1911 in Funchal waren (1921). \n\nIn der Nähe der Stelle, wo sich heute die Wetterstation befindet, stand jahrelang eine Kastanie, die jedes Jahr blühte und Früchte trug und die einem der Bollwerke der Festung ihren Namen gab.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "Dr. Azevedo": [
+            "Schrieb die Anmerkungen zu den Sehnsüchten des Landes"
+        ]
+    },
+    "years": {
+        "1542": [
+            "Baubeginn der Festung"
+        ],
+        "1566": [
+            "Invasion der französischen Korsaren"
+        ],
+        "1635": [
+            "Inschrift: Gott geweiht"
+        ],
+        "1911": [
+            "Marinesoldaten der Kriegsmarine waren in Funchal"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 81,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aguiar (Rui Dias de)",
+    "fl": "A",
+    "original_title": "Aguiar (Rui Dias de)",
+    "body": "He was the son of Diogo Afonso de Aguiar and D. Isabel Gonçalves da Câmara, the third daughter of Zarco. He married Leonor Homem de Sousa, daughter of Garcia Homem de Sousa and Catarina Gonçalves da Câmara, the daughter of the discoverer of Madeira. He served for a long time in Africa, where he distinguished himself for his bravery. He valiantly died in the fortress of Gué, defending it from an attack by the indigenous people. Manuel Tomás mentions him in his poem to Insulana.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Diogo Afonso de Aguiar": [
+            "Father of Rui Dias de Aguiar."
+        ],
+        "D. Isabel Gonçalves da Câmara": [
+            "Mother of Rui Dias de Aguiar."
+        ],
+        "Leonor Homem de Sousa": [
+            "Wife of Rui Dias de Aguiar."
+        ],
+        "Garcia Homem de Sousa": [
+            "Father of Leonor Homem de Sousa."
+        ],
+        "Catarina Gonçalves da Câmara": [
+            "Mother of Leonor Homem de Sousa."
+        ]
+    },
+    "years": {
+        "1918": [
+            "Death of Rui Dias de Aguiar."
+        ]
+    }
+}

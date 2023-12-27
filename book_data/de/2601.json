@@ -1,0 +1,39 @@
+{
+    "id": 2601,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ornelas de Vasconcelos (Ayres de)",
+    "fl": "O",
+    "original_title": "Ornelas de Vasconcelos (Ayres de)",
+    "body": "Infolge der Volksaufstände, die den Gouverneur Francisco de Mascarenhas (siehe diesen Namen) absetzten und gefangennahmen, „wurde Ayres de Ornellas am 18. September 1668 von Adel und Volk zum Gouverneur und Generalkapitän gewählt. In diesem hohen Amt bestätigte ihn der Prinzregent D. Pedro, und er blieb darin bis zum Amtsantritt seines Nachfolgers Ayres de Saldanha im folgenden Jahr 1669.\n\nEr war der siebte Vorfahre der angesehenen Madeirenser, des Erzbischofs D. Aires de Ornelas und des Pairs des Königreichs Agostinho de Ornelas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco de Mascarenhas": [
+            "Gouverneur"
+        ],
+        "D. Pedro": [
+            "Prinzregent"
+        ],
+        "Ayres de Saldanha": [
+            "Nachfolger"
+        ],
+        "D. Aires de Ornelas": [
+            "Erzbischof"
+        ],
+        "Agostinho de Ornelas": [
+            "Pair des Königreichs"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Wahl von Ayres de Ornellas durch Adel und Volk zum Gouverneur und Generalkapitän"
+        ],
+        "1669": [
+            "Amtsantritt seines Nachfolgers Ayres de Saldanha"
+        ]
+    }
+}

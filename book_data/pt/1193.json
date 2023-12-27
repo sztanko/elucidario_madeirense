@@ -1,0 +1,42 @@
+{
+    "id": 1193,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Drumond (Inacio Correia)",
+    "fl": "D",
+    "original_title": "Drumond (Inacio Correia)",
+    "body": "Nasceu no Funchal por 1768, foi, nesta cidade escrivão da correição e esteve no Rio de Janeiro de 1818 a 1821, tendo desempenhado aí por algum tempo o cargo de procurador da Câmara Municipal. Escreveu e publicou no Rio de Janeiro alguns trabalhos poéticos, cujos títulos vêm mencionados nos tomos X e XI do Diccionario Bibliographico, de Inocencio Francisco da Silva. Faleceu em 1830.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento de Inacio Correia Drumond"
+        ],
+        "Rio de Janeiro": [
+            "Local onde Inacio Correia Drumond desempenhou cargos e publicou trabalhos poéticos"
+        ]
+    },
+    "people": {
+        "Inocencio Francisco da Silva": [
+            "Inocencio Francisco da Silva menciona os trabalhos poéticos de Inacio Correia Drumond"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Nascimento de Inacio Correia Drumond"
+        ],
+        "1818": [
+            "Inacio Correia Drumond esteve no Rio de Janeiro"
+        ],
+        "1821": [
+            "Inacio Correia Drumond esteve no Rio de Janeiro"
+        ],
+        "1830": [
+            "Falecimento de Inacio Correia Drumond"
+        ]
+    }
+}

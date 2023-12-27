@@ -1,0 +1,40 @@
+{
+    "id": 1411,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fonseca (Dr. Augusto de Arzila)",
+    "fl": "F",
+    "original_title": "Fonseca (Dr. Augusto de Arzila)",
+    "body": "Nasceu no Funchal a 21 de Outubro de 1853. Formou-se em 1883 na Universidade de Coimbra em filosofia e matemática, e em 1884 doutorou-se na ultima destas faculdades, havendo antes concluído o curso de infantaria na Escola do Exército, em que foi o primeiro classificado. Por ocasião do seu doutoramento publicou a sua These de mathematica pura e applicada. Em 1885 foi nomeado lente substituto da Universidade. Publicou: Princípios elementares de quaterniões à mecanica. Faleceu a 17 de Fevereiro de 1912.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Dr. Augusto de Arzila Fonseca": [
+            "Nasceu no Funchal"
+        ]
+    },
+    "years": {
+        "1853": [
+            "Nascimento"
+        ],
+        "1883": [
+            "Formou-se na Universidade de Coimbra"
+        ],
+        "1884": [
+            "Doutorou-se na Universidade de Coimbra"
+        ],
+        "1885": [
+            "Nomeado lente substituto da Universidade"
+        ],
+        "1912": [
+            "Falecimento"
+        ]
+    }
+}

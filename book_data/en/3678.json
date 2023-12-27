@@ -1,0 +1,31 @@
+{
+    "id": 3678,
+    "lang": "en",
+    "is_original": false,
+    "title": "Welwitsch (Dr. Frederico)",
+    "fl": "W",
+    "original_title": "Welwitsch (Dr. Frederico)",
+    "body": "A well-known Austrian botanist for his studies on the flora of Portugal and Angola. He visited Madeira in 1853, where he stayed for a very short time. In the previous year, he proposed to the government the creation of two acclimatization gardens, one in S. Paulo de Luanda and the other in Funchal, so that the latter would receive tropical plants intended for transportation to colder climates, and the plants from these climates that would be advantageous to cultivate in warmer regions. Once these plants adapted to our climate, it would be easy to make them thrive in countries colder or warmer than ours. The few plants collected by Welwitsch in Madeira in 1853 are in the herbarium of the Faculty of Sciences of the University of Lisbon. Works: *Aphorisms about the foundation of acclimatization gardens on the Island of Madeira and in Angola, in West Africa* (1921).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "S. Paulo de Luanda": [
+            "Proposal for the creation of an acclimatization garden"
+        ]
+    },
+    "people": {
+        "Dr. Frederico Welwitsch": [
+            "Austrian botanist"
+        ]
+    },
+    "years": {
+        "1853": [
+            "Visited Madeira"
+        ],
+        "1852": [
+            "Proposal to the government"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "id": 2047,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lopes Rocha (João Francisco)",
+    "fl": "L",
+    "original_title": "Lopes Rocha (João Francisco)",
+    "body": "Er war der Sohn von António Lopes Rocha und Dona Vitoria Maria Rocha und wurde am 18. Juli 1747 in der Pfarrgemeinde Sé in dieser Stadt geboren. Er schloss 1770 sein Kanonisches Rechtstudium an der Universität Coimbra ab und wurde im selben Jahr zum Priester geweiht. Durch ein königliches Dekret vom 30. Juli 1775 wurde er zum Pfarrer der Gemeinde Santa Maria Maior ernannt und einige Jahre später zum Domherrn unserer Kathedrale, in deren Domkapitel er später die Ämter des Erzdiakons und des Dekans ausübte. Mehrmals übernahm er die Funktion des Bistumsverwalters. Durch seine Gelehrsamkeit und seinen großen Einfluss genoss er bei uns das größte Ansehen und wurde von allen Gesellschaftsschichten dieser Stadt sehr geschätzt. Er hatte Auseinandersetzungen mit dem Diözesanbischof José da Costa Torres, vor allem anlässlich der Verfolgung der Geheimgesellschaften, deren Mitglied Lopes Rocha gewesen war (siehe Freimaurerei). Er schrieb damals einen ausführlichen Brief an den Staatsminister José Seabra da Silva, in dem er sich über die Verfolgungen beklagte, denen er ausgesetzt war und der, unabhängig von der Berechtigung seiner Beschwerden, ein Dokument ist, das eine große Unabhängigkeit des Charakters, eine nicht gewöhnliche Gelehrsamkeit und eine bemerkenswerte Schönheit und Korrektheit der Form offenbart. Dieser Brief aus dem Jahr 1793 wurde einige Zeit nach dem Tod seines Autors im Juli 1820 in der Londoner Zeitschrift „Campeão Portuguez“ veröffentlicht und nimmt dort etwa vierzig Seiten ein.\n\nDr. João Francisco Lopes Rocha starb am 8. Mai 1819 in dieser Stadt im Alter von 71 Jahren.",
+    "categories": [
+        "history",
+        "culture",
+        "religion"
+    ],
+    "freguesias": [
+        "Sé",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Sé": [
+            "Pfarrei, in der João Francisco Lopes Rocha geboren wurde"
+        ],
+        "Santa Maria Maior": [
+            "Pfarrei, in der João Francisco Lopes Rocha Pfarrer war"
+        ]
+    },
+    "people": {
+        "António Lopes Rocha": [
+            "Vater von João Francisco Lopes Rocha"
+        ],
+        "Dona Vitoria Maria Rocha": [
+            "Mutter von João Francisco Lopes Rocha"
+        ],
+        "José da Costa Torres": [
+            "Diözesanbischof, mit dem Lopes Rocha Auseinandersetzungen hatte"
+        ],
+        "José Seabra da Silva": [
+            "Staatsminister, an den Lopes Rocha einen Beschwerdebrief schrieb"
+        ]
+    },
+    "years": {
+        "1747": [
+            "Geburtsjahr von João Francisco Lopes Rocha"
+        ],
+        "1770": [
+            "Jahr, in dem João Francisco Lopes Rocha sein Kanonisches Rechtstudium abschloss und zum Priester geweiht wurde"
+        ],
+        "1793": [
+            "Jahr, in dem João Francisco Lopes Rocha einen Beschwerdebrief an den Staatsminister José Seabra da Silva schrieb"
+        ]
+    }
+}

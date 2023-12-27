@@ -1,0 +1,25 @@
+{
+    "id": 3098,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Робинс",
+    "fl": "Р",
+    "original_title": "Robins",
+    "body": "Английский ботаник, занимавшийся лесоразведением на Мадейре в 1774 году.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Остров"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1774": [
+            "Лесоразведение на Мадейре"
+        ]
+    }
+}

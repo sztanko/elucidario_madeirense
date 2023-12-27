@@ -1,0 +1,33 @@
+{
+    "id": 1137,
+    "lang": "de",
+    "is_original": false,
+    "title": "Desterro",
+    "fl": "D",
+    "original_title": "Desterro",
+    "body": "Besiedelter Ort in der Gemeinde Monte, in dem sich eine Kapelle befindet, die Nossa Senhora do Desterro gewidmet ist. Sie wurde im Jahr 1625 vom Kanoniker Jorge Furtado de Sousa gegründet und kürzlich von Dr. Juvenal de Araújo, ihrem derzeitigen Eigentümer, restauriert.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Besiedelter Ort in der Gemeinde Monte"
+        ]
+    },
+    "people": {
+        "Jorge Furtado de Sousa": [
+            "Gründer der der Nossa Senhora do Desterro gewidmeten Kapelle"
+        ],
+        "Dr. Juvenal de Araújo": [
+            "Restaurator der der Nossa Senhora do Desterro gewidmeten Kapelle"
+        ]
+    },
+    "years": {
+        "1625": [
+            "Gründung der der Nossa Senhora do Desterro gewidmeten Kapelle"
+        ]
+    }
+}

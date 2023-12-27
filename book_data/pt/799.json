@@ -1,0 +1,31 @@
+{
+    "id": 799,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Carvão de pedra",
+    "fl": "C",
+    "original_title": "Carvão de pedra",
+    "body": "Foram os negociantes ingleses Jacob Ruffy e Diogo Taylor que em 1838 estabeleceram no Funchal o primeiro deposito de carvão de pedra, pouco depois de ter começado a navegação a vapor de Inglaterra para as West-Indias, feita pela Mala Real Inglêsa.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde foi estabelecido o primeiro depósito de carvão de pedra"
+        ]
+    },
+    "people": {
+        "Jacob Ruffy": [
+            "Um dos negociantes ingleses responsáveis pelo primeiro depósito de carvão de pedra"
+        ],
+        "Diogo Taylor": [
+            "Um dos negociantes ingleses responsáveis pelo primeiro depósito de carvão de pedra"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Estabelecimento do primeiro depósito de carvão de pedra"
+        ]
+    }
+}

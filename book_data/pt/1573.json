@@ -1,0 +1,27 @@
+{
+    "id": 1573,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gente Nova",
+    "fl": "G",
+    "original_title": "Gente Nova",
+    "body": "Deu o primeiro numero a 15 de Outubro de 1919 e o ultimo, o decimo, a 20 de Março de 1920. Voltou a publicar-se em Fevereiro de 1921. Era um jornal redigido por alunos do liceu.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1919": [
+            "Início da publicação do jornal Gente Nova"
+        ],
+        "1920": [
+            "Fim da primeira publicação do jornal Gente Nova"
+        ],
+        "1921": [
+            "Reinício da publicação do jornal Gente Nova"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "id": 3210,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santos (Vitorino José dos)",
+    "fl": "S",
+    "original_title": "Santos (Vitorino José dos)",
+    "body": "Er wurde in Funchal am 29. Dezember 1863 geboren und war der Sohn von Augusto César dos Santos und Frau Isabel de Ornelas Santos. Er war Bauingenieur, nachdem er die entsprechenden Studien an den ehemaligen Polytechnischen Schulen und der Armee in Lissabon absolviert hatte. Er war Direktor der öffentlichen Bauarbeiten der Stadtverwaltung von Luanda und Chefingenieur der Abteilung für öffentliche Bauarbeiten der Provinz Angola. Nach seiner Rückkehr nach Funchal war er hier Bürgermeister und Polizeikommissar. Er ist Direktor und Professor an der Gewerbeschule Antonio Augusto de Aguiar und Leiter des 6. Bezirks der Technischen Dienste der Industrie in Funchal. In dieser letzten Funktion hat er mehrere Berichte verfasst, die im Industrie-Arbeitsblatt veröffentlicht wurden, von denen einige, wie die über Wohltätigkeitseinrichtungen und Berufsverbände, Stickereien, Kunsthandwerk, Flechtwerk und Intarsien, vollständige und sehr wertvolle Arbeiten sind. Er veröffentlichte auch ein Gedichtbuch mit dem Titel Tränen, von dem zwei Ausgaben erschienen, die erste in Funchal 1916, die zweite in Coimbra 1918 (1921). Er starb am 1. Oktober 1928.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ],
+        "Luanda": [
+            "Ort, an dem er öffentliche Bauarbeiten leitete"
+        ],
+        "Lissabon": [
+            "Ort des Studiums"
+        ],
+        "Coimbra": [
+            "Ort der Veröffentlichung des Gedichtbuchs"
+        ]
+    },
+    "people": {
+        "Augusto César dos Santos": [
+            "Vater"
+        ],
+        "Frau Isabel de Ornelas Santos": [
+            "Mutter"
+        ]
+    },
+    "years": {
+        "1863": [
+            "Geburtsjahr"
+        ],
+        "1916": [
+            "Jahr der ersten Ausgabe des Gedichtbuchs"
+        ],
+        "1918": [
+            "Jahr der zweiten Ausgabe des Gedichtbuchs"
+        ],
+        "1921": [
+            "Jahr der zweiten Ausgabe des Gedichtbuchs (alternatives Datum)"
+        ],
+        "1928": [
+            "Sterbejahr"
+        ]
+    }
+}

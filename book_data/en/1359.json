@@ -1,0 +1,33 @@
+{
+    "id": 1359,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fenologia",
+    "fl": "F",
+    "original_title": "Fenologia",
+    "body": "Dr. Heer studied Madeiran phenology in 1851, and C. A. Meneses from 1903 to 1912.\nSee the articles published by the latter in the Bulletin of the Society of Geography of Lisbon, in 1910, and in the Bulletin of the International Academy of Botanical Geography, in 1905, 1908, and 1912, where, in addition to various useful information, there is a list of works that should be consulted by those who want to know the times of leaf discoloration and leafing of some woody species cultivated on the island.\nCarlos A. de Meneses published a series of articles on this subject in the 'Diário da Madeira' in June 1910.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Heer": [
+            "Scholar of Madeiran phenology"
+        ],
+        "C. A. Meneses": [
+            "Scholar of Madeiran phenology"
+        ]
+    },
+    "years": {
+        "1851": [
+            "Study of Madeiran phenology by Dr. Heer"
+        ],
+        "1903": [
+            "Start of the study of Madeiran phenology by C. A. Meneses"
+        ],
+        "1912": [
+            "End of the study of Madeiran phenology by C. A. Meneses"
+        ]
+    }
+}

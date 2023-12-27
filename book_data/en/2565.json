@@ -1,0 +1,43 @@
+{
+    "id": 2565,
+    "lang": "en",
+    "is_original": false,
+    "title": "Oliveira (Francisco Manuel de)",
+    "fl": "O",
+    "original_title": "Oliveira (Francisco Manuel de)",
+    "body": "He enjoyed a certain reputation as a poet in his time, but today he is a completely forgotten name. Inocêncio classified him as a second-rate poet, saying that his compositions were not at all bad, and that he was responsible for making the first samples of a genre previously unknown in Portugal. The author of the *Portuguese Bibliographic Dictionary* refers to Oliveira's translation, using the English text, of various poems written in some oriental languages of India. Francisco Manuel de Oliveira was born on this island in the second quarter of the 18th century and died shortly before 1819. When the public philosophy class was created in this city in 1772, Francisco Manuel de Oliveira was appointed to this position, which he held for many years, being retired by decree of April 3, 1799. We believe that he was also a teacher at the Diocesan Seminary, as he delivered a speech at the opening of the classes in 1786. We do not know any other details of his life. Inocêncio da Silva gives the following list of works published by Oliveira: *Escolha de Poesias Orientaes. . . seguidas de outras varias rimas*, Lisbon, 1793, from 61-138 pages; *Colleção Poetica*, volume II, Lisbon, 1794, 173 pages, being the continuation of the previous volume; *Oração... na inauguração do Seminário do Funchal*, Lisbon, 1787, 40 pages; *Ensaio poetico sobre a harmonia do mundo...* Lisbon, 1805, 120 pages; *Princípios elementares da língua Inglesa. . . Lisbon, 1809, 255 pages; and the translation of *Avisos interessantes á humanidade*... Lisbon, 1788. A daughter of Francisco Manuel de Oliveira was granted, during the time of Governor Botelho, a subsidy equal to one third of the salary received by her father, due to his services and the misery to which she was reduced.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Inocêncio da Silva": [
+            "Literary critic"
+        ]
+    },
+    "years": {
+        "1772": [
+            "Creation of the public philosophy class"
+        ],
+        "1793": [
+            "Publication of *Escolha de Poesias Orientaes*"
+        ],
+        "1794": [
+            "Publication of *Colleção Poetica*"
+        ],
+        "1787": [
+            "Publication of *Oração... na inauguração do Seminário do Funchal*"
+        ],
+        "1805": [
+            "Publication of *Ensaio poetico sobre a harmonia do mundo*"
+        ],
+        "1809": [
+            "Publication of *Princípios elementares da língua Inglesa*"
+        ],
+        "1788": [
+            "Publication of the translation of *Avisos interessantes á humanidade*"
+        ]
+    }
+}

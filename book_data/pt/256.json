@@ -1,0 +1,27 @@
+{
+    "id": 256,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Areias",
+    "fl": "A",
+    "original_title": "Areias",
+    "body": "Assim chamam á parte media da ilha do Porto Santo, que se acha coberta de uma espessa\ncamada de areia. Esta areia teve origem nuns montículos que existem a noroeste da ilha, e para evitar o seu\navanço, fizeram-se bardos de pinheiros, canas de roca e árvores do paraíso. No sítio das Areias existem\ngrandes plantações de vinha.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha coberta de areia"
+        ],
+        "Noroeste da ilha": [
+            "Origem dos montículos de areia"
+        ],
+        "Sítio das Areias": [
+            "Existem grandes plantações de vinha"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

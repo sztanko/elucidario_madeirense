@@ -1,0 +1,51 @@
+{
+    "id": 2466,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau vom Beistand (Kapellen)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Amparo (Capelas de)",
+    "body": "An der Stelle Álamos in der Gemeinde Santo António erhebt sich die Kapelle Unserer Lieben Frau vom Beistand, die sich in einem ordentlichen Erhaltungszustand befindet und in der gelegentlich die Heilige Messe gefeiert wird. Der Ort, an dem sich die Kapelle befindet, liegt an der Grenze dieser Gemeinde und der von S. Roque, an der als Água de Mel bekannten Stelle, die die gemeinsame Bezeichnung für ein riesiges Grundstück war, das beiden Gemeinden gehörte. Auf dem Teil dieses Ortes, der innerhalb der Grenzen von Santo António liegt, befanden sich die Kapelle, ein großes Wohnhaus und andere Nebengebäude, die den Sitz der alten Stiftung Água de Mel bildeten.\n\nDer Anmerker der Saudades da Terra datiert die Gründung dieser Kapelle auf das Jahr 1698, aber wir neigen dazu, zu glauben, dass sie viel älter ist und vielleicht sogar zeitgleich mit der Stiftung des Fideikommisses entstanden ist, das aus dem letzten Viertel des 15. Jahrhunderts stammt. In der Zwischenzeit steht jedoch fest, dass Bartolomeu de Sá Machado, der Verwalter dieses Fideikommisses, sie im genannten Jahr 1698 errichten oder vielleicht besser wiederaufbauen ließ. \n\n(V. Bettencourt, I-139).\n\nD. Luísa de Mendonça, die Witwe von José de Seixas, ließ 1712 eine Kapelle zu Ehren Unserer Lieben Frau vom Beistand in der Gemeinde São Martinho errichten, die den Erben der Fideikommisse Sauvayres gehört, und in der Gemeinde Ponta do Pargo gibt es auch eine Kapelle mit derselben Bezeichnung, die dem Ort, an dem sie errichtet wurde, ihren Namen gab. Das Fest zu ihren Ehren, das dort jedes Jahr gefeiert wird, ist sehr beliebt. Ebenfalls Unserer Lieben Frau vom Beistand gewidmet, gründete Francisco Dias Franco 1692 eine Kapelle in der Gemeinde Machico.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "S. Roque",
+        "São Martinho",
+        "Ponta do Pargo",
+        "Machico"
+    ],
+    "locations": {
+        "Santo António": [
+            "Gemeinde"
+        ],
+        "S. Roque": [
+            "Gemeinde"
+        ],
+        "Água de Mel": [
+            "Ort"
+        ],
+        "São Martinho": [
+            "Gemeinde"
+        ],
+        "Ponta do Pargo": [
+            "Gemeinde"
+        ],
+        "Machico": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Bartolomeu de Sá Machado": [
+            "Verwalter des Fideikommisses"
+        ],
+        "D. Luísa de Mendonça": [
+            "Witwe von José de Seixas"
+        ],
+        "Francisco Dias Franco": [
+            "Gründer der Kapelle"
+        ]
+    },
+    "years": {}
+}

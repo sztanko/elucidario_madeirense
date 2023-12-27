@@ -1,0 +1,25 @@
+{
+    "id": 2093,
+    "lang": "de",
+    "is_original": false,
+    "title": "Machico (Sanitärstation)",
+    "fl": "M",
+    "original_title": "Machico (Estação sanitária de)",
+    "body": "Dieser Ort ist nicht nur wegen seiner besonderen Bedingungen, die ihn zu einem bevorzugten Ort für den Sommerurlaub machen, sondern auch wegen seiner ausgezeichneten Gesundheitseinrichtungen zu empfehlen. Das angenehme kühle und gemäßigte Klima, der schöne Badestrand und die gerühmten Heilwässer von São Roque mit ihren bekannten therapeutischen Eigenschaften machen ihn nach Porto Santo zur beliebtesten Sanitärstation des Archipels. Weitere Anziehungspunkte sind die natürlichen Schönheiten des malerischen Tals, in dem die malerische Stadt liegt, die Möglichkeit, kleine Ausflüge in die hübsche Gemeinde Santa Cruz und die bezaubernde Pfarrei Santo da Serra zu unternehmen, Seepromenaden nach Caniçal, Prainha und Ponta de São Lourenço, ein permanentes und komfortables Hotel, Mietunterkünfte und häufige und schnelle Verbindungen mit der Stadt Funchal usw.",
+    "categories": [
+        "health",
+        "geography"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz",
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Machico": [
+            "Bevorzugter Ort für den Sommerurlaub, ausgezeichnete Gesundheitseinrichtungen"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

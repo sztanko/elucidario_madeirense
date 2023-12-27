@@ -1,0 +1,33 @@
+{
+    "id": 2569,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Oliveira (Ponta da)",
+    "fl": "O",
+    "original_title": "Oliveira (Ponta da)",
+    "body": "Na costa marítima da freguesia do Caniço há uma saliência ou ponta que tem o nome de Oliveira. Quando os descobridores João Gonçalves Zarco e Tristão Vaz procederam á delimitação das suas capitanias, fez-se a divisão territorial delas por meio duma linha aproximadamente recta, que partindo da ponta da Oliveira se estendia até á ponta do Tristão, ficando estes pontos considerados como os extremos das suas donatárias. No extremo sueste se plantou, como marco divisório, uma estaca de oliveira, que se afirma ter sido mandada vir do continente expressamente para aquele fim, pelo infante D. Henrique. Deste facto provém ter aquela saliência de terra o nome de ponta da Oliveira.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Descobridor"
+        ],
+        "Tristão Vaz": [
+            "Descobridor"
+        ],
+        "D. Henrique": [
+            "Infante"
+        ]
+    },
+    "years": {}
+}

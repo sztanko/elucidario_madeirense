@@ -1,0 +1,46 @@
+{
+    "id": 3342,
+    "lang": "de",
+    "is_original": false,
+    "title": "Silva Pinheiro (Kanonikus Jerónimo Álvares da)",
+    "fl": "S",
+    "original_title": "Silva Pinheiro (Cónego Jerónimo Álvares da)",
+    "body": "Er wurde 1770 in der Gemeinde Calheta geboren und starb in dieser Stadt am 4. Juli 1861. Er wurde 1795 zum Priester geweiht und war Kanonikus unserer Kathedrale, wobei er hohe kirchliche Ämter wie die des Vikars Kapitulars und Gouverneurs dieses Bistums ausübte. Er war ein hervorragender und kraftvoller Journalist und schrieb unter dem Pseudonym Estrela do Norte viele Artikel im Patriota Funchalense, der ersten Zeitung, die bei uns veröffentlicht wurde. Er wurde verhaftet, weil er ein Anhänger liberaler Ideen war, aber es gelang ihm, aus dem Gefängnis zu fliehen und sich nach Brasilien abzusetzen, wo er bis 1834 blieb.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Geburtsort von Kanonikus Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "Funchal": [
+            "Sterbeort von Kanonikus Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "Brasilien": [
+            "Exilort von Kanonikus Jerónimo Álvares da Silva Pinheiro"
+        ]
+    },
+    "people": {
+        "Kanonikus Jerónimo Álvares da Silva Pinheiro": [
+            "Priester, Kanonikus und Journalist"
+        ]
+    },
+    "years": {
+        "1770": [
+            "Geburtsjahr von Kanonikus Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1795": [
+            "Jahr der Weihe von Kanonikus Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1861": [
+            "Sterbejahr von Kanonikus Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1834": [
+            "Jahr der Rückkehr von Kanonikus Jerónimo Álvares da Silva Pinheiro aus dem Exil in Brasilien"
+        ]
+    }
+}

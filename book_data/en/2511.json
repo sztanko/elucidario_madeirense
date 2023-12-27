@@ -1,0 +1,30 @@
+{
+    "id": 2511,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Paz (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Paz (Capela de)",
+    "body": "It was founded in 1621 by the priest Jerónimo da Silva and was located in the parish of Santa Maria Maior.\n\nSee Monuments and Terreiro da Luta.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Locality on the Island of Madeira"
+        ]
+    },
+    "people": {
+        "Jerónimo da Silva": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1621": [
+            "Year of the chapel's foundation"
+        ]
+    }
+}

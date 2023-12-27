@@ -1,0 +1,30 @@
+{
+    "id": 1495,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fritze (R.)",
+    "fl": "F",
+    "original_title": "Fritze (R.)",
+    "body": "Botanico alemão que herborizou na Madeira em 1879 e 1880. E.: Ueber die Farnvegetation\nder Insel Madeira (Jahresbericht der schlesischen Ges. fur vaterl. Kultur, (1881).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha onde realizou a herborização."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1879": [
+            "Ano de herborização"
+        ],
+        "1880": [
+            "Ano de herborização"
+        ],
+        "1881": [
+            "Ano de publicação do relatório"
+        ]
+    }
+}

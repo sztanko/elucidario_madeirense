@@ -1,0 +1,33 @@
+{
+    "id": 3372,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sociedade Esperança",
+    "fl": "S",
+    "original_title": "Sociedade Esperança",
+    "body": "Tinha por fim o estabelecimento dum teatro no Funchal para divertimento particular das familias dos sócios e das pessoas das suas relações. Os seus membros, segundo os estatutos, eram em numero de 40, podendo ter também sócios de mérito até o numero de 5. Os sócios ordinários pagavam a jóia de 10$000 réis e a mensalidade de 200 réis; os de mérito pagavam a mesma mensalidade, mas eram dispensados no pagamento da jóia.\n\nA Sociedade Esperança que se constituiu em 1858, tendo a princípio somente 18 membros, aprovou os seus estatutos a 15 de Fevereiro de 1860, estando os mesmos assinados pelos directores interinos Francisco Leandro Severim, João Maria da Silva Carvalho, Luís Alvares da Silva, Pedro Augusto da Silva Carvalho e João Alexandre de Carvalho. O decreto que aprovou os mesmos estatutos é de 10 de Maio do mesmo ano.\n\nSegundo se lê no Direito, de 4 de Dezembro de 1858, os referidos estatutos foram redigidos pelo sócio Nuno Dias de Vasconcelos e entre os membros fundadores da sociedade contavam-se também Julio Galhardo de Freitas, que tinha representado já no teatro Concórdia, e Pedro de Alcantara Góis, que havia feito a sua estreia numa récita levada a efeito na Escola Lancasteriana. V. Teatros.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Nuno Dias de Vasconcelos": [
+            "Redator dos estatutos"
+        ],
+        "Julio Galhardo de Freitas": [
+            "Representante no teatro Concórdia"
+        ],
+        "Pedro de Alcantara Góis": [
+            "Estreia numa récita na Escola Lancasteriana"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Constituição da Sociedade Esperança"
+        ],
+        "1860": [
+            "Aprovação dos estatutos"
+        ]
+    }
+}

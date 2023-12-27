@@ -1,0 +1,38 @@
+{
+    "id": 3241,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Lourenço (Fortaleza de)",
+    "fl": "S",
+    "original_title": "São Lourenço (Fortaleza de)",
+    "body": "Foi primitivamente um simples baluarte, tendo-se iniciado, ao que parece, a sua construção nos tempos do quarto donatario João Gonçalves da Câmara e prosseguido as obras por ordem do rei, durante o governo de Simão Gonçalves da Câmara, quinto donatario, como se vê do alvará de II de Setembro de 1542. Quando se deu a invasão dos corsários franceses, em 1566, somente existia o baluarte, mas no reinado de D. Sebastião, estava já construída a fortaleza, se bem que tivesse ainda um aspecto em diverso do que apresenta actualmente.\n\nA fortaleza de S. Lourenço ostenta no torreão de leste, as armas de Portugal e a esfera emblemática de D. Manuel, e, ao tempo em que o Dr. Azevedo escreveu as notas às Saudades da Terra, ainda se via sobre a porta da destruída capela do santo que deu o nome á fortificação a que nos referimos, a seguinte inscrição:\n\nD. V. N. D.\n16 3 S\n\nEsta inscrição, segundo o Dr. Azevedo, parece significar: DEO VOTA NOSTRO DOMINO, 1635, isto é, VOTADA A DEUS NOSSO SENHOR, NO ANO DE 1635.\n\nAs armas de Portugal e a esfera de D. Manuel foram retiradas da fortaleza, depois da implantação da Republica, mas há cerca de quatro anos que voltaram ao seu lugar, por se haver reconhecido, embora tardiamente, não haver razão alguma para oculta-las aos olhos do público. O que não pôde ser restituído á mesma fortaleza foi uma imagem de São Lourenço que existia num nicho; por cima da porta principal, no largo da Restauração, por haver sido arrancada dali e partida por alguns marinheiros da marinha de guerra, que estiveram no Funchal em 1911 (1921).\n\nPerto do local onde se ergue o posto meteorológico, existiu por largos anos um castanheiro que florescia e frutificava todos os anos, e que deu o nome a um dos baluartes da fortaleza.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "Dr. Azevedo": [
+            "Escreveu as notas às Saudades da Terra"
+        ]
+    },
+    "years": {
+        "1542": [
+            "Iniciado a construção da fortaleza"
+        ],
+        "1566": [
+            "Invasão dos corsários franceses"
+        ],
+        "1635": [
+            "Inscrição: DEO VOTA NOSTRO DOMINO"
+        ],
+        "1911": [
+            "Marinheiros da marinha de guerra estiveram no Funchal"
+        ]
+    }
+}

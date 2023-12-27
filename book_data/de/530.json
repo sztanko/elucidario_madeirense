@@ -1,0 +1,41 @@
+{
+    "id": 530,
+    "lang": "de",
+    "is_original": false,
+    "title": "Feuerwehr (Kompanie)",
+    "fl": "F",
+    "original_title": "Bombeiros (Companhia de)",
+    "body": "Sie wurde in der Stadtratssitzung von Funchal am 24. September 1888 organisiert, die Ernennung des Personals fand am 11. April 1889 statt. Die Satzung wurde vom Stadtrat am 4. April 1889 genehmigt. Um die ersten Feuerwehrleute von Funchal auszubilden, kam Luiz da Terra Viana, Feuerwehrmann aus Porto, der auf Kosten der Stadtverwaltung im Hotel do Carmo untergebracht war. Die ursprüngliche Kompanie löste sich 1906 auf, aber am 20. September desselben Jahres war bereits eine neue Kompanie organisiert, die von dem Posttelegrafenangestellten Alfredo Jorge Ferraz organisiert wurde.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem die Feuerwehrkompanie organisiert wurde"
+        ]
+    },
+    "people": {
+        "Luiz da Terra Viana": [
+            "Feuerwehrmann aus Porto, der die ersten Feuerwehrleute von Funchal ausbildete"
+        ],
+        "Alfredo Jorge Ferraz": [
+            "Posttelegrafenangestellter, der die neue Feuerwehrkompanie organisierte"
+        ]
+    },
+    "years": {
+        "1888": [
+            "Jahr der Organisation der Feuerwehr"
+        ],
+        "1889": [
+            "Jahr der Ernennung des Personals"
+        ],
+        "1906": [
+            "Jahr der Auflösung der ursprünglichen Kompanie"
+        ],
+        "20. September": [
+            "Datum der Bildung der neuen Kompanie"
+        ]
+    }
+}

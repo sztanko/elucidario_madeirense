@@ -1,0 +1,64 @@
+{
+    "id": 1565,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gaspar (Alfredo Rodrigues)",
+    "fl": "G",
+    "original_title": "Gaspar (Alfredo Rodrigues)",
+    "body": "Nasceu nesta cidade a 8 de Agosto de 1865, sendo filho de Manuel Rodrigues Gaspar e de D. Maria Augusta Gaspar. Concluiu o curso de engenheiro maquinista em 1885 e o de oficial de marinha em 1888, e é capitão de mar e guerra e desde 1898 lente da Escola Naval. Tem-se particularmente dedicado ao estudo da balística e explosivos de que é lente, sendo considerado nestas matérias como uma verdadeira autoridade. Representou o nosso país no congresso de química aplicada que em 1909 se realizou em Londres e ali fez uma importante comunicação sobre o Estudo comparativo de algumas das provas de estabilidade dos explosivos. . . Foi em 1911 eleito deputado ás Constituintes e senador em 1913. Em 1914 e 1915 foi ministro das colónias, voltando a gerir os negócios da mesma pasta em 1919, no ministério presidido pelo Sr. Sá Cardoso. Foi presidente do concelho de ministros no ano de 1924. Morreu em Lisboa a 30 de Novembro de 1938.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Manuel Rodrigues Gaspar": [
+            "Pai de Gaspar (Alfredo Rodrigues)"
+        ],
+        "D. Maria Augusta Gaspar": [
+            "Mãe de Gaspar (Alfredo Rodrigues)"
+        ],
+        "Sr. Sá Cardoso": [
+            "Presidente do ministério em 1919"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Nascimento de Gaspar (Alfredo Rodrigues)"
+        ],
+        "1885": [
+            "Conclusão do curso de engenheiro maquinista"
+        ],
+        "1888": [
+            "Conclusão do curso de oficial de marinha"
+        ],
+        "1898": [
+            "Início como lente da Escola Naval"
+        ],
+        "1909": [
+            "Participação no congresso de química aplicada em Londres"
+        ],
+        "1911": [
+            "Eleição como deputado ás Constituintes"
+        ],
+        "1913": [
+            "Eleição como senador"
+        ],
+        "1914": [
+            "Ministro das colónias"
+        ],
+        "1915": [
+            "Ministro das colónias"
+        ],
+        "1919": [
+            "Gestão dos negócios das colónias"
+        ],
+        "1924": [
+            "Presidência do concelho de ministros"
+        ],
+        "1938": [
+            "Falecimento de Gaspar (Alfredo Rodrigues)"
+        ]
+    }
+}

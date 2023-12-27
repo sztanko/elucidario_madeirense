@@ -1,0 +1,26 @@
+{
+    "id": 3226,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sankt Aegidius (Kapelle von)",
+    "fl": "S",
+    "original_title": "São Gil (Capela de)",
+    "body": "Antão Alvares de Carvalho gründete auf Ländereien, die er in der Gemeinde Santa Cruz besaß, eine Kapelle, die Sankt Aegidius gewidmet war, an der Stelle, die diesen Namen trägt.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Antão Alvares de Carvalho": [
+            "Gründer"
+        ]
+    },
+    "years": {}
+}

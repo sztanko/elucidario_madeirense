@@ -1,0 +1,33 @@
+{
+    "id": 1756,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Igreja",
+    "fl": "I",
+    "original_title": "Igreja",
+    "body": "Em o sítio deste nome da freguesia da Quinta Grande, na quinta do Pombal, encontra-se a capela de Santo António, mandada edificar pelo padre António Silvino Gonçalves de Andrade no ano de 1884, de que é actual proprietário o Dr. João Francisco de Almada.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Quinta Grande": [
+            "Freguesia da Quinta Grande"
+        ]
+    },
+    "people": {
+        "Padre António Silvino Gonçalves de Andrade": [
+            "Mandou edificar a capela de Santo António"
+        ],
+        "Dr. João Francisco de Almada": [
+            "Atual proprietário da capela de Santo António"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Edificação da capela de Santo António"
+        ]
+    }
+}

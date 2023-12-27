@@ -1,0 +1,59 @@
+{
+    "id": 3347,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Simões Soares (Daniel Telo)",
+    "fl": "S",
+    "original_title": "Simões Soares (Daniel Telo)",
+    "body": "É filho do falecido professor do liceu Daniel Simões Soares e nasceu na ilha do Porto Santo a 23 de Maio de 1864. Matriculou-se em 1875 no Colégio Militar, transitando daí para o liceu do Funchal, onde concluiu os preparatórios para a Escola do Exército. Despachado alferes para o Ultramar em 1885, serviu na província de Cabo Verde, onde entre outras comissões de serviço teve o comando militar na ilha de Santo Antão. Esteve na Guiné em 1891, onde tomou parte nas operações militares contra os papéis, e, depois de se haver reformado no posto de general, foi presidente da Câmara Municipal do concelho de Santa Catarina, na ilha de S: Tiago, administrador do concelho, etc.. Reside há anos no Funchal, onde desempenhou por três vezes o lugar de governador civil, tomando posse do lugar a 28 de Setembro de 1917, 21 de Junho de 1919 e 17 de Novembro de 1923. Foi também administrador do concelho do Funchal, comissário de policia, membro da extinta junta Agricola e senador pela Madeira, tendo sido eleito a 13 de Junho de 1915. É membro da actual Junta Geral do Distrito do Funchal e foi já presidente desta corporação administrativa (1921).",
+    "categories": [
+        "history",
+        "politics",
+        "society"
+    ],
+    "freguesias": [
+        "Santa Catarina"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Local de nascimento de Daniel Telo Simões Soares"
+        ],
+        "Funchal": [
+            "Local de residência de Daniel Telo Simões Soares"
+        ]
+    },
+    "people": {
+        "Daniel Simões Soares": [
+            "Professor do liceu"
+        ]
+    },
+    "years": {
+        "1864": [
+            "Nascimento de Daniel Telo Simões Soares"
+        ],
+        "1875": [
+            "Matrícula no Colégio Militar"
+        ],
+        "1885": [
+            "Despacho como alferes para o Ultramar"
+        ],
+        "1891": [
+            "Participação nas operações militares na Guiné"
+        ],
+        "1915": [
+            "Eleição como senador pela Madeira"
+        ],
+        "1917": [
+            "Posse como governador civil"
+        ],
+        "1919": [
+            "Posse como governador civil"
+        ],
+        "1921": [
+            "Presidência da Junta Geral do Distrito do Funchal"
+        ],
+        "1923": [
+            "Posse como governador civil"
+        ]
+    }
+}

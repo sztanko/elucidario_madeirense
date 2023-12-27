@@ -1,0 +1,22 @@
+{
+    "id": 1826,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Ботанический сад",
+    "fl": "Б",
+    "original_title": "Jardim Botânico",
+    "body": "Место в приходе Монте, где в начале прошлого века находился питомник растений, известный как Ботанический сад.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Монте": [
+            "Приход"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

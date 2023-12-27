@@ -1,0 +1,40 @@
+{
+    "id": 2752,
+    "lang": "en",
+    "is_original": false,
+    "title": "Peres (Damião)",
+    "fl": "P",
+    "original_title": "Peres (Damião)",
+    "body": "He was born in Lisbon on July 8, 1889. For several years, he was a teacher and rector of the high school in Funchal and is currently a lecturer at the Faculty of Arts of Porto. In addition to the works he published on D. Joao I and Portugal and the Schism, he brought to light in Funchal, in 1914, a pamphlet entitled A Madeira under the donatários, which is quite relevant to the history of this archipelago in the period until the beginning of the Filipino rule on this island (See II-100).\n\nHe is the author of important historical studies, among which his History of Portugal stands out.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisbon": [
+            "Capital of Portugal"
+        ],
+        "Funchal": [
+            "Capital of the Island of Madeira"
+        ],
+        "Porto": [
+            "City in the north of Portugal"
+        ]
+    },
+    "people": {
+        "D. Joao I": [
+            "King of Portugal"
+        ],
+        "Damião Peres": [
+            "Author of the mentioned works"
+        ]
+    },
+    "years": {
+        "1889": [
+            "Birth of Damião Peres"
+        ],
+        "1914": [
+            "Publication of the pamphlet"
+        ]
+    }
+}

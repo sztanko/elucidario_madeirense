@@ -1,0 +1,28 @@
+{
+    "id": 3031,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Reforma (A)",
+    "fl": "R",
+    "original_title": "Reforma (A)",
+    "body": "Deu o primeiro numero a 14 de Outubro de 1858 e o ultimo, o 80.º a 16 de Julho de 1861. Foi seu redactor João Escorcio Drumond da Câmara.",
+    "categories": [
+        "culture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Escorcio Drumond da Câmara": [
+            "Redactor do jornal 'A Reforma'"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Primeiro número do jornal 'A Reforma'"
+        ],
+        "1861": [
+            "Último número do jornal 'A Reforma'"
+        ]
+    }
+}

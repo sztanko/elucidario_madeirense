@@ -1,0 +1,41 @@
+{
+    "id": 1821,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jardim (Dr. Alberto Figueira)",
+    "fl": "J",
+    "original_title": "Jardim (Dr. Alberto Figueira)",
+    "body": "Born in this city on April 10, 1882, he was the son of the lawyer Dr. Nuno Ferreira Jardim and D. Isabel Figueira Jardim. He holds a law degree from the University of Coimbra and is a permanent professor at the Funchal Lyceum. Among the public service commissions he has served on are the member of the District General Assembly, president of its Executive Committee, member of the Municipal Council, and substitute Judge of this district. In addition to various contributions to some newspapers, he wrote the pamphlet *Madeira, the Pearl of the Atlantic* in English, Lisbon, 1914, and the poetry book *Amostras*, Funchal, 1915, and the tragedy in verse *Galateia*, Funchal, 1920.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of the Island of Madeira"
+        ]
+    },
+    "people": {
+        "Dr. Nuno Ferreira Jardim": [
+            "Lawyer"
+        ],
+        "D. Isabel Figueira Jardim": [
+            "Mother of Alberto Figueira Jardim"
+        ]
+    },
+    "years": {
+        "1882": [
+            "Birth of Alberto Figueira Jardim"
+        ],
+        "1914": [
+            "Publication of *Madeira, the Pearl of the Atlantic*"
+        ],
+        "1915": [
+            "Publication of *Amostras*"
+        ],
+        "1920": [
+            "Publication of *Galateia*"
+        ]
+    }
+}

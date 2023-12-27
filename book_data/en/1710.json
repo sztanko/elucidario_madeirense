@@ -1,0 +1,27 @@
+{
+    "id": 1710,
+    "lang": "en",
+    "is_original": false,
+    "title": "Guinea Grass",
+    "fl": "G",
+    "original_title": "Herva-da-Guiné",
+    "body": "A forage grass, cultivated and naturalized in Funchal and Santa Cruz. It has tall, hairy stems at the nodes, and narrow, loose, elongated clusters; gathered in panicles. It is an ancient plant in the land, as it was found by Masson in 1776. Its scientific name is Panicum Maximum.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Santa Cruz"
+    ],
+    "locations": {},
+    "people": {
+        "Masson": [
+            "Discoverer of Guinea Grass in 1776"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Discovery of Guinea Grass by Masson"
+        ]
+    }
+}

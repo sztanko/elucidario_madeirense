@@ -1,0 +1,30 @@
+{
+    "id": 1432,
+    "lang": "de",
+    "is_original": false,
+    "title": "Forerunner",
+    "fl": "F",
+    "original_title": "Forerunner",
+    "body": "Am Nachmittag des 25. Oktober 1854 verließ der englische Dampfer Forerunner, der von der afrikanischen Küste kam und nach England unterwegs war, mit vielen Offizieren der britischen Armee und dem Gouverneur von Sierra Leone an Bord den Hafen von Funchal. In Höhe der Landspitze Ponta de S. Lourenço, als es bereits Nacht war, lief das Schiff auf ein dort befindliches Riff namens A Badajeira und sank vollständig. Drei Passagiere und elf Besatzungsmitglieder kamen bei dem Untergang ums Leben. Ein Fischerboot aus Machico, das zufällig am Unglücksort vorbeifuhr, leistete hervorragende Rettungsarbeit für Passagiere und Besatzung. Die Männer des Bootes wurden von der portugiesischen Regierung in einer Verordnung gelobt und mit der Medaille der Königlichen Humanitären Gesellschaft ausgezeichnet.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ],
+        "Sierra Leone": [
+            "Land"
+        ],
+        "Machico": [
+            "Stadt"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1854": [
+            "Untergang des Dampfers Forerunner"
+        ]
+    }
+}

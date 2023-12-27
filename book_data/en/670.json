@@ -1,0 +1,36 @@
+{
+    "id": 670,
+    "lang": "en",
+    "is_original": false,
+    "title": "Camacho (Jacinto Augusto)",
+    "fl": "C",
+    "original_title": "Camacho (Jacinto Augusto)",
+    "body": "He was the son of Colonel Antonio Fernandes Camacho and was born in Funchal on January 3, 1815. Having emigrated with his family to the Azores to escape the persecution of the Miguelistas, he enlisted there as a cadet in the 3rd battalion of hunters and accompanied the expedition that landed on the beaches of Mindelo. He distinguished himself in various battles and was part of the forces sent to the Algarve under the command of the Duke of Terceira. He possessed the medal of the freedom campaigns, the Order of Aviz, and the habit of the Conception. Having been promoted to ensign in 1832, he reached the rank of brigadier general on May 8, 1877, and passed away in the city of Porto on June 7, 1885.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antonio Fernandes Camacho": [
+            "Colonel"
+        ],
+        "Duke of Terceira": [
+            "Commander"
+        ]
+    },
+    "years": {
+        "1815": [
+            "Birth of Jacinto Augusto Camacho"
+        ],
+        "1832": [
+            "Promotion to ensign"
+        ],
+        "1877": [
+            "Promotion to brigadier general"
+        ],
+        "1885": [
+            "Death of Jacinto Augusto Camacho"
+        ]
+    }
+}

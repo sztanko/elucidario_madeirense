@@ -1,0 +1,28 @@
+{
+    "id": 1614,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gorda (Ponta)",
+    "fl": "G",
+    "original_title": "Gorda (Ponta)",
+    "body": "Pequena saliência na costa marítima, não muito distanciada do ilhéu do Gorgulho e da Ponta da Cruz, na freguesia de São Martinho.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Gorgulho": [
+            "Ilhéu do Gorgulho"
+        ],
+        "Ponta da Cruz": [
+            "Ponta da Cruz"
+        ],
+        "São Martinho": [
+            "Freguesia de São Martinho"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

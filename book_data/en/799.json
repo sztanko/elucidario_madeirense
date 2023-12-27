@@ -1,0 +1,31 @@
+{
+    "id": 799,
+    "lang": "en",
+    "is_original": false,
+    "title": "Carvão de pedra",
+    "fl": "C",
+    "original_title": "Carvão de pedra",
+    "body": "It was the English merchants Jacob Ruffy and Diogo Taylor who established the first coal deposit in Funchal in 1838, shortly after the start of steam navigation from England to the West Indies, operated by the Royal Mail Steam Packet Company.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where the first coal deposit was established"
+        ]
+    },
+    "people": {
+        "Jacob Ruffy": [
+            "One of the English merchants responsible for the first coal deposit"
+        ],
+        "Diogo Taylor": [
+            "One of the English merchants responsible for the first coal deposit"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Establishment of the first coal deposit"
+        ]
+    }
+}

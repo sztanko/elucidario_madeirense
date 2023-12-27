@@ -1,0 +1,30 @@
+{
+    "id": 3221,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Filipe (Forte de)",
+    "fl": "S",
+    "original_title": "São Filipe (Forte de)",
+    "body": "This fort, built, it seems, during the Philippine rule, had its entrance through Largo do Pelourinho and was located between the rivers of Santa Luzia and João Gomes. It was ceded to the City Council as a result of a representation made by it to the Government on February 27, 1896, but this was only attended to many years later. The large building where the sweet cane squeezing factory on Largo do Pelourinho is located partly on the site of the old Fort of São Filipe (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pelourinho": [
+            "Square"
+        ],
+        "Santa Luzia": [
+            "River"
+        ],
+        "João Gomes": [
+            "River"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1896": [
+            "Cession to the City Council"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 530,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bombeiros (Companhia de)",
+    "fl": "B",
+    "original_title": "Bombeiros (Companhia de)",
+    "body": "It was organized during a session of the Municipal Council of Funchal on September 24, 1888, and the personnel were appointed on April 11, 1889. It has regulations approved by the Council on April 4, 1889. To train the first firefighters from Funchal, Luiz da Terra Viana, a firefighter from Porto, came to Madeira and was hosted by the Council at the Hotel do Carmo. The original company dissolved in 1906, but a new company was already established on September 20 of that year, organized by the postal telegraph employee Alfredo Jorge Ferraz.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where the Firefighters Company was organized"
+        ]
+    },
+    "people": {
+        "Luiz da Terra Viana": [
+            "Firefighter from Porto who trained the first firefighters from Funchal"
+        ],
+        "Alfredo Jorge Ferraz": [
+            "Postal telegraph employee who organized the new firefighters company"
+        ]
+    },
+    "years": {
+        "1888": [
+            "Year of organization of the Firefighters Company"
+        ],
+        "1889": [
+            "Year of personnel appointment"
+        ],
+        "1906": [
+            "Year of dissolution of the original company"
+        ],
+        "20 de Setembro": [
+            "Date of establishment of the new company"
+        ]
+    }
+}

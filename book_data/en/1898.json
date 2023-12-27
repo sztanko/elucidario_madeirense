@@ -1,0 +1,31 @@
+{
+    "id": 1898,
+    "lang": "en",
+    "is_original": false,
+    "title": "Kirkpatrick (R.)",
+    "fl": "K",
+    "original_title": "Kirkpatrick (R.)",
+    "body": "A naturalist from the British Museum who visited Madeira and Porto Santo, having conducted various zoological studies on the latter island. He wrote a short work entitled *On Melia Normani, a sponge with a siliceous and calcareous skeleton* (London, 1911). The curious sponge mentioned in this work was found by the Madeiran naturalist Adolfo C. de Noronha in the seas of Porto Santo. Kirkpatrick said in one of his works to have found in Porto Santo the *Eozoon canadense*, the oldest known fossil, but such a discovery lacks confirmation.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "British Museum": [
+            "Naturalist"
+        ]
+    },
+    "people": {
+        "Adolfo C. de Noronha": [
+            "Madeiran naturalist"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Publication of the work *On Melia Normani, a sponge with a siliceous and calcareous skeleton*"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 797,
+    "lang": "en",
+    "is_original": false,
+    "title": "Carvalho de Araújo (Street)",
+    "fl": "C",
+    "original_title": "Carvalho de Araújo (Rua)",
+    "body": "In a session of the administrative commission of the Municipal Council of Funchal on May 8, 1919, it was decided to name the old Aljube street after Captain-Lieutenant Carvalho de Araújo. This illustrious officer of our navy was the commander of the minesweeper Augusto de Castilho, which in October 1918 escorted the steamship San Miguel on its trip to the Azores, and heroically died at his post on the 15th of the same month, in the battle that the ship had to sustain with a German submarine, near that archipelago. The minesweeper was sunk, as it did not have artillery that could compete with that of the submarine, but the San Miguel was saved, along with all the passengers traveling from Madeira to the Azores.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City where Aljube street is located"
+        ],
+        "Azores": [
+            "Archipelago where the steamship San Miguel was traveling to"
+        ]
+    },
+    "people": {
+        "Carvalho de Araújo": [
+            "Captain-Lieutenant honored with the street name"
+        ]
+    },
+    "years": {
+        "1919": [
+            "Decision to name the street"
+        ]
+    }
+}

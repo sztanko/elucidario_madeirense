@@ -1,0 +1,28 @@
+{
+    "id": 14,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abreu (João de)",
+    "fl": "A",
+    "original_title": "Abreu (João de)",
+    "body": "Gaspar Correia, nas Lendas da Índia, refere se ao madeirense João de Abreu, que chegou à barra de Goa em Setembro de 1513 na armada do comando de João de Sousa Lima, e que, por terras do Oriente, se distinguiu em diversos recontros com os indianos, deixando nome ilustre nos anais das nossas lutas de além mar.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Goa": [
+            "Local onde João de Abreu chegou em Setembro de 1513"
+        ]
+    },
+    "people": {
+        "João de Abreu": [
+            "Madeirense que se distinguiu em diversos recontros com os indianos em terras do Oriente"
+        ]
+    },
+    "years": {
+        "1513": [
+            "Chegada de João de Abreu à barra de Goa"
+        ]
+    }
+}

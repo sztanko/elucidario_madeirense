@@ -1,0 +1,40 @@
+{
+    "id": 1014,
+    "lang": "en",
+    "is_original": false,
+    "title": "Corpos Calcareos da Piedade",
+    "fl": "C",
+    "original_title": "Corpos Calcareos da Piedade",
+    "body": "In the area of Piedade, in Ponta de S. Lourenço, numerous calcareous bodies resembling petrified trunks and branches of trees can be found, many of which have concentric layers similar to those found in certain woody plants. Some of these bodies extend at the bottom into a kind of root, with the shape and direction of the roots of dicotyledonous plants. Naturalists who have visited Piedade do not agree on how to explain the origin of these bodies. The botanist Lowe considered them as sandy-calcareous concretions; Macaulay, as a formation of corals from the Alcyonacea family; the geologist Smith, as simple molds obtained in spaces previously occupied by plants; and Mousinho de Albuquerque and Bowdich, as petrified remains of an ancient forest. This last explanation seems to be the only acceptable one, considering the shape and appearance of the bodies in question. As for the mineralization process, it should have consisted of a simple exchange of organic matter for inorganic matter, with the calcium carbonate particles taking the place of the plant particles as they decayed. The waters, dissolving part of the limestone, would promote this exchange by infiltrating the cavities left by the decomposition of the wood. If it is admitted that the northern coast, in the area of Piedade, extended into the sea in ancient times, forming a gentle slope, limited by a beach covered with calcareous sands, it can also be assumed that the winds, gradually carrying away these sands, would cover the inland and southern coast lands, providing the precise material for the aforementioned mineralization. The lands of Piedade are of volcanic origin, and in the adjacent cliffs, tuffs and basalt can be found. To the northwest of Pôrto Santo, there are calcareous bodies of the same nature as those of Piedade.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [
+        "Piedade",
+        "Pôrto Santo"
+    ],
+    "locations": {
+        "Piedade": [
+            "Ponta de S. Lourenço"
+        ]
+    },
+    "people": {
+        "Lowe": [
+            "Botanist"
+        ],
+        "Macaulay": [
+            "Naturalist"
+        ],
+        "Smith": [
+            "Geologist"
+        ],
+        "Mousinho de Albuquerque": [
+            "Naturalist"
+        ],
+        "Bowdich": [
+            "Naturalist"
+        ]
+    },
+    "years": {}
+}

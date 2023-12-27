@@ -1,0 +1,53 @@
+{
+    "id": 169,
+    "lang": "de",
+    "is_original": false,
+    "title": "Almude",
+    "fl": "A",
+    "original_title": "Almude",
+    "body": "Dieses alte Maß, obwohl illegal, wird auf Madeira immer noch verwendet, hauptsächlich beim Messen von Most und Rohrzucker. Es variiert von Gemeinde zu Gemeinde und entspricht laut den 1868 offiziell veröffentlichten Tabellen 17,520 Almudes in der Gemeinde Funchal; 17,580 in Câmara de Lobos; 17,400 in Ponta do Sol; 17,352 in Calheta; 17,328 in Santa Cruz; 17,568 in Machico; 17,556 in Porto Santo; 17,604 in Sant'Ana; 20,538 in S. Vicente und 20,272 in Porto Moniz. Der Durchschnitt beträgt 18.071, aber in Funchal gilt ein Almude allgemein als 17 Liter.",
+    "categories": [
+        "economy",
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Das Almude entspricht 17,520"
+        ],
+        "Câmara de Lobos": [
+            "Das Almude entspricht 17,580"
+        ],
+        "Ponta do Sol": [
+            "Das Almude entspricht 17,400"
+        ],
+        "Calheta": [
+            "Das Almude entspricht 17,352"
+        ],
+        "Santa Cruz": [
+            "Das Almude entspricht 17,328"
+        ],
+        "Machico": [
+            "Das Almude entspricht 17,568"
+        ],
+        "Porto Santo": [
+            "Das Almude entspricht 17,556"
+        ],
+        "Sant'Ana": [
+            "Das Almude entspricht 17,604"
+        ],
+        "S. Vicente": [
+            "Das Almude entspricht 20,538"
+        ],
+        "Porto Moniz": [
+            "Das Almude entspricht 20,272"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1868": [
+            "Offiziell veröffentlichte Tabellen über die Äquivalenz des Almudes in verschiedenen Gemeinden"
+        ]
+    }
+}

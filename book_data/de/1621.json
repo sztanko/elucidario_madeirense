@@ -1,0 +1,38 @@
+{
+    "id": 1621,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gorjão (Francisco Pedro de Meneses)",
+    "fl": "G",
+    "original_title": "Gorjão (Francisco Pedro de Meneses)",
+    "body": "Seine Ernennung zum Gouverneur und Generalhauptmann von Madeira erfolgte am 18. Mai 1737, und er trat sein Amt am 16. Juli desselben Jahres an. Er übte dieses Amt bis zum 27. Mai 1747 aus, als er diese Insel direkt in Richtung Maranhão verließ, um diese Provinz zu regieren. Die Flotte, die sich auf dem Weg dorthin befand und den neuen Bischof der gleichen Diözese, D. Fr. Francisco de São Tiago, an Bord hatte, machte in Funchal Zwischenhalt.\n\nAls Gouverneur von Madeira folgte ihm der Diözesanbischof D. João do Nascimento nach, der am 5. Mai 1747 ernannt wurde und das Amt bis 1751 ausübte. An anderer Stelle sahen wir, dass Francisco Pedro de Meneses Gorjão \"im Alter von 83 Jahren starb, erfüllt von Verdiensten für das Vaterland, wie aus der Grabplatte seines Grabes in der Kapelle der Quinta de S. Lourenço hervorgeht.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hafen, in dem die Flotte mit dem neuen Bischof Zwischenhalt machte"
+        ]
+    },
+    "people": {
+        "D. Fr. Francisco de São Tiago": [
+            "Neuer Bischof der gleichen Diözese"
+        ],
+        "D. João do Nascimento": [
+            "Diözesanbischof"
+        ]
+    },
+    "years": {
+        "1737": [
+            "Ernennung zum Gouverneur und Generalhauptmann von Madeira"
+        ],
+        "1747": [
+            "Nachfolge durch D. João do Nascimento"
+        ],
+        "1751": [
+            "D. João do Nascimento übte das Amt bis zu diesem Jahr aus"
+        ]
+    }
+}

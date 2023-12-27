@@ -1,0 +1,46 @@
+{
+    "id": 1758,
+    "lang": "en",
+    "is_original": false,
+    "title": "Igrejas Inglesas",
+    "fl": "I",
+    "original_title": "Igrejas Inglesas",
+    "body": "The land where the Anglican church on Rua da Bela Vista is located was purchased by the English Factory in 1810 for 5,435 dollars. A few years later, the same Factory acquired another piece of land on the same street adjacent to the church for 840 dollars. The church was completed in March 1822, at a cost of 40,000 dollars, which was obtained through subscriptions and the voluntary contribution of 2 shillings and 6 pence for each cask of wine exported by English merchants.\n\nIn 1848, another Anglican church was established on Rua dos Aranhas, where the chaplain was the botanist Ricardo Tomás Lowe. Religious differences among the English subjects residing in Madeira led to the opening of that church, where religious services were held for 33 years. The Scottish church, opened in 1842 in a house on Travessa do Surdo, now has its own building on Rua do Conselheiro, next to the Municipal Garden.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua da Bela Vista": [
+            "Location of the Anglican church"
+        ],
+        "Rua dos Aranhas": [
+            "Location where another Anglican church was established"
+        ],
+        "Travessa do Surdo": [
+            "Location where the Scottish church was opened"
+        ],
+        "Rua do Conselheiro": [
+            "Location of the building of the Scottish church, next to the Municipal Garden"
+        ]
+    },
+    "people": {
+        "Ricardo Tomás Lowe": [
+            "Botanist and chaplain of the Anglican church on Rua dos Aranhas"
+        ]
+    },
+    "years": {
+        "1810": [
+            "Purchase of the land where the Anglican church on Rua da Bela Vista is located"
+        ],
+        "1822": [
+            "Completion of the Anglican church on Rua da Bela Vista"
+        ],
+        "1848": [
+            "Establishment of another Anglican church on Rua dos Aranhas"
+        ],
+        "1842": [
+            "Opening of the Scottish church"
+        ]
+    }
+}

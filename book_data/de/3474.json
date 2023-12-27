@@ -1,0 +1,37 @@
+{
+    "id": 3474,
+    "lang": "de",
+    "is_original": false,
+    "title": "Terra do Baptista",
+    "fl": "T",
+    "original_title": "Terra do Baptista",
+    "body": "Besiedelte Stätte in der Gemeinde Porto da Cruz, 105 Feuerstellen und 651 Einwohner. Dort gab es eine Kapelle mit dem Patrozinium Unserer Lieben Frau des Glaubens, gegründet 1826 vom Grundherrn Diogo Dias de Orneias e Vasconcelos. Es gab auch eine Kapelle dem Heiligen Antonius geweiht, die der Familie Nunes Caldeira gehörte und um 1760 gegründet wurde. Dieser Ort gehörte zur Majoratsherrschaft, die der Genuese João Baptista aus der italienischen Familie Usodimare einrichtete, der eine Tochter des ersten Grundherrn von Machico, Tristão Vaz, heiratete. Letzter Vertreter war João Bettencourt Baptista.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Gemeinde, in der sich der Ort befindet"
+        ]
+    },
+    "people": {
+        "Diogo Dias de Orneias e Vasconcelos": [
+            "Grundherr, Gründer der Kapelle Unserer Lieben Frau des Glaubens"
+        ],
+        "João Baptista": [
+            "Genuese, der die Majoratsherrschaft einrichtete"
+        ]
+    },
+    "years": {
+        "1826": [
+            "Gründung der Kapelle Unserer Lieben Frau des Glaubens"
+        ],
+        "1760": [
+            "Gründung der Kapelle des Heiligen Antonius"
+        ]
+    }
+}

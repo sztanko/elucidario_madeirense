@@ -1,0 +1,53 @@
+{
+    "id": 420,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barca (Campo da)",
+    "fl": "B",
+    "original_title": "Barca (Campo da)",
+    "body": "The original Campo da Barca had its northern boundary on the slope that now leads to the Conde do Carvalhal Road and was ordered to be built by the Governor and Captain General Florencio José Correia de Melo, on land gratuitously ceded by João de Carvalhal Esmeraldo and Miguel Carvalho, and after being ceded, it was handed over to the Council on January 21, 1818, by order of the same governor.\n\nThe part of Campo da Barca north of the aforementioned slope was handed over to the Municipality by virtue of the Law of September 13, 1897, and the land now occupied by the Disinfection Post was gratuitously ceded by the Council to the General Board, in a session on March 12, 1903.\n\nCampo da Barca is and will always be known by this name, despite being called Campo de Miguel Bombarda since 1911. Before that, in 1897, the Council had resolved that it should be called Campo do Conselheiro José Luciano de Castro, but this decision was also not respected by the public, who generally did not respect the political sympathies of their councilors.\n\nCampo do Conde da Barca was the original name of the field we refer to, but the people, with their simplifying tendencies, turned this name into Campo da Barca. The Conde da Barca, whom Florencio José Correia de Melo wanted to pay homage to, was, as is known, Antonio de Araújo de Azevedo, who was our minister in The Hague and later the Portuguese plenipotentiary in France, during the negotiation of the treaty of August 10, 1907.\n\nCampo da Barca is located on the left bank of the Ribeira de João Gomes, and its southern boundary was the Larguinho de São João, where the streets of Oudinot, Infância, and Ornelas converge. The street that, as an extension of Avenida de João de Deus, crosses this field, divided it into two very distinct parts, with the southern part transformed into a square, named Tenerife, and in the north, there is the Land Disinfection Post, opened to the public in 1905, and the District Anti-Tuberculosis Dispensary, built in 1933. In front of this Dispensary stands the monument to the Conde do Canavial, which was located on Avenida do Doutor Manuel de Arriaga.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira de João Gomes": [
+            "Left bank"
+        ]
+    },
+    "people": {
+        "Florencio José Correia de Melo": [
+            "Governor and Captain General"
+        ],
+        "João de Carvalhal Esmeraldo": [
+            "Gratuitously ceded land"
+        ],
+        "Miguel Carvalho": [
+            "Gratuitously ceded land"
+        ],
+        "Miguel Bombarda": [
+            "Name attributed to the field since 1911"
+        ],
+        "Conde da Barca": [
+            "Antonio de Araújo de Azevedo, minister in The Hague and Portuguese plenipotentiary in France"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Handover to the Council"
+        ],
+        "1897": [
+            "Resolution to be called Campo do Conselheiro José Luciano de Castro"
+        ],
+        "1905": [
+            "Opening of the Land Disinfection Post"
+        ],
+        "1911": [
+            "Change to Campo de Miguel Bombarda"
+        ],
+        "1933": [
+            "Construction of the District Anti-Tuberculosis Dispensary"
+        ]
+    }
+}

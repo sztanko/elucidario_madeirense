@@ -1,0 +1,29 @@
+{
+    "id": 597,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bulwer (Rev. James)",
+    "fl": "B",
+    "original_title": "Bulwer (Rev. James)",
+    "body": "Veröffentlichte 1827 sechsundzwanzig prächtige Stiche verschiedener Orte der Insel Madeira.",
+    "categories": [
+        "art",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem die Stiche veröffentlicht wurden"
+        ]
+    },
+    "people": {
+        "Rev. James Bulwer": [
+            "Autor der 1827 veröffentlichten Stiche"
+        ]
+    },
+    "years": {
+        "1827": [
+            "Jahr der Veröffentlichung der Stiche"
+        ]
+    }
+}

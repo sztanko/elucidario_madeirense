@@ -1,0 +1,40 @@
+{
+    "id": 3049,
+    "lang": "en",
+    "is_original": false,
+    "title": "Reis Magos (Capela dos)",
+    "fl": "R",
+    "original_title": "Reis Magos (Capela dos)",
+    "body": "In Lombo dos Reis, in the parish of Estreito de Calheta, is the ancient chapel of the Reis Magos, established by Francisco Homem de Gouveia and his wife D. Isabel Afonso around 1529, making it the headquarters of an entailed estate. An article published in Brado d'Oeste on September 2, 1916, extensively covered this chapel and its attached entailed institution.\nThere is also a chapel dedicated to the Reis Magos in the parish of Ponta Delgada, which belonged to the Carvalhal family. It is of very ancient construction, as a document from 1577 mentions that it was already in poor condition. It was reconstructed in 1778 by João de Carvalhal Esmeraldo e Câmara, the administrator of the entailed estate to which it belonged. A few years ago, it was restored again and is now owned by João Fidélio de Canha.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito de Calheta",
+        "Ponta Delgada"
+    ],
+    "locations": {
+        "Lombo dos Reis": [
+            "In the parish of Estreito de Calheta"
+        ],
+        "Ponta Delgada": [
+            "In the parish of Ponta Delgada"
+        ]
+    },
+    "people": {
+        "Francisco Homem de Gouveia": [
+            "Established the ancient chapel of the Reis Magos"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Francisco Homem de Gouveia and his wife D. Isabel Afonso established the chapel of the Reis Magos"
+        ],
+        "1577": [
+            "Document mentions the poor condition of the chapel of the Reis Magos"
+        ],
+        "1778": [
+            "João de Carvalhal Esmeraldo e Câmara reconstructed the chapel of the Reis Magos"
+        ]
+    }
+}

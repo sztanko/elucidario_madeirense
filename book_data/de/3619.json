@@ -1,0 +1,35 @@
+{
+    "id": 3619,
+    "lang": "de",
+    "is_original": false,
+    "title": "Generalvikar",
+    "fl": "G",
+    "original_title": "Vigário Geral",
+    "body": "Obwohl die Diözese Funchal 1514 gegründet wurde, wurde das Amt des Generalvikars des Bistums erst 1570 geschaffen. König Sebastian von Portugal genehmigte am 30. August jenes Jahres in einem königlichen Erlass Bischof Jorge de Lemos die Einrichtung dieses kirchlichen Amtes, wobei dasselbe Dokument das jährliche Gehalt auf fünfzigtausend Réis festlegte.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem das Amt des Generalvikars des Bistums geschaffen wurde"
+        ]
+    },
+    "people": {
+        "König Sebastian": [
+            "Genehmigte Bischof Jorge de Lemos die Einrichtung des Amtes des Generalvikars des Bistums"
+        ],
+        "Bischof Jorge de Lemos": [
+            "Richtete das Amt des Generalvikars des Bistums ein"
+        ]
+    },
+    "years": {
+        "1514": [
+            "Datum der Gründung des Bistums Funchal"
+        ],
+        "1570": [
+            "Datum der Einrichtung des Amtes des Generalvikars des Bistums"
+        ]
+    }
+}

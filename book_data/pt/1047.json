@@ -1,0 +1,50 @@
+{
+    "id": 1047,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa Dias (Manuel da)",
+    "fl": "C",
+    "original_title": "Costa Dias (Manuel da)",
+    "body": "Nasceu na freguesia da Ponta do Pargo a 18 de Outubro de 1883 e frequentou o seminario diocesano, o liceu do Funchal, o instituto industrial e a escola do exercito. Esteve algum tempo no Brasil antes de se matricular no liceu, e enquanto aluno deste estabelecimento de instrução redigiu o jornal republicano O Democrata. Prestou serviços em Africa logo depois de concluir os seus estudos militares, foi lente da Escola de Guerra e representou a Madeira no Parlamento na sessão legislativa de 1915 a 1917. E.: As subsistencias no exercito aliado anglo-luso, Lisboa, 1909; Colonizaçao dos Planaltos de Angola, Lisboa, 1913: Guerra Peninsular, 1808-1811; 0 Serviço de Subsistencias no Exercito Anglo-Luso, I vol., 1913, Administração Militar, I vol., 30. ed., 1918; Flandres, I vol. 1920. Morreu em Lisboa no ano de 1930, sendo major da Administração Militar. O “Diario da Madeira” de 12 de Outubro de 1930 publicou um desenvolvido artigo biografico acêrca deste distinto madeirense.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Pargo": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local de estudo"
+        ]
+    },
+    "people": {
+        "Manuel da Costa Dias": [
+            "Representante da Madeira no Parlamento, autor de várias obras"
+        ]
+    },
+    "years": {
+        "1883": [
+            "Nascimento na freguesia da Ponta do Pargo"
+        ],
+        "1909": [
+            "Publicação de As subsistencias no exercito aliado anglo-luso"
+        ],
+        "1913": [
+            "Publicação de Colonizaçao dos Planaltos de Angola"
+        ],
+        "1915-1917": [
+            "Representação da Madeira no Parlamento"
+        ],
+        "1918": [
+            "Publicação de Administração Militar"
+        ],
+        "1920": [
+            "Publicação de Flandres"
+        ],
+        "1930": [
+            "Falecimento em Lisboa"
+        ]
+    }
+}

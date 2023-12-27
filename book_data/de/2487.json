@@ -1,0 +1,47 @@
+{
+    "id": 2487,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Verbannung (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Desterro (Capela de)",
+    "body": "An der Stelle, die heute diesen Namen und die gleiche Anrufung trägt, gründete der Kanoniker Jorge Furtado de Sousa im ersten Viertel des 17. Jahrhunderts eine Kapelle, deren heutiger Eigentümer der angesehene Madeirer Dr. Juvenal Henriques de Araújo ist. Sie wird häufig von Menschen aus verschiedenen Teilen der Insel besucht, und im Jahr 1942 wurde eine interessante historische Monographie über sie veröffentlicht.\n\nRaul Esteves errichtete am Ort Ledo in der Gemeinde Arco da Calheta im letzten Viertel des 17. Jahrhunderts eine Kapelle zu Ehren Unserer Lieben Frau der Verbannung, von der nur noch einige Ruinen übrig sind.\n\nEs gab auch eine Kapelle mit dem gleichen Patrozinium am Ort Ribeira Grande in der Gemeinde Machico, die 1661 vom Hauptmann Manuel Telo de Meneses gegründet wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Ribeira Grande",
+        "Machico"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Ort auf Madeira"
+        ],
+        "Ribeira Grande": [
+            "Ort auf Madeira"
+        ],
+        "Machico": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Jorge Furtado de Sousa": [
+            "Gründer der Kapelle am Ort des heutigen Unsere Liebe Frau der Verbannung"
+        ],
+        "Juvenal Henriques de Araújo": [
+            "Derzeitiger Eigentümer der Kapelle am Ort des heutigen Unsere Liebe Frau der Verbannung"
+        ],
+        "Raul Esteves": [
+            "Gründer der Kapelle am Ort Ledo in der Gemeinde Arco da Calheta"
+        ],
+        "Manuel Telo de Meneses": [
+            "Gründer der Kapelle am Ort Ribeira Grande in der Gemeinde Machico"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Gründungsjahr der Kapelle am Ort Ribeira Grande in der Gemeinde Machico"
+        ]
+    }
+}

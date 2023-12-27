@@ -1,0 +1,32 @@
+{
+    "id": 1548,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gamboa",
+    "fl": "G",
+    "original_title": "Gamboa",
+    "body": "Dieser Nachname \"stammt, sagt der Anmerker der Sehnsüchte, von Antonio Garcia Gamboa, gebürtig aus dem Dorf Almeida, Ritter des Christusordens, der Kommandant der Zehnten der Insel Porto Santo und des Fischzehnten der Stadt Machico und Santa Cruz war: Dieser hatte auch den Status eines Edelmanns und das Amt des Sergeant Majors der Insel Madeira zu Zeiten von König Sebastian.\"",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Machico",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Almeida": [
+            "Herkunftsort"
+        ]
+    },
+    "people": {
+        "Antonio Garcia Gamboa": [
+            "Gebürtig aus dem Dorf Almeida"
+        ]
+    },
+    "years": {
+        "D. Sebastião": [
+            "Zeit, in der er das Amt des Sergeant Majors der Insel Madeira innehatte"
+        ]
+    }
+}

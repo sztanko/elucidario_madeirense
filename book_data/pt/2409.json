@@ -1,0 +1,31 @@
+{
+    "id": 2409,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Museu do Liceu",
+    "fl": "M",
+    "original_title": "Museu do Liceu",
+    "body": "No edifício do liceu há um pequeno museu para instrução dos alunos do estabelecimento, onde se encontram além duma colecção conquiliologica e outra mineralógica, uma foca e algumas aves, peixes e exemplares botânicos. Estes objectos de historia natural foram adquiridos em 1913 e 1914, graças aos esforços do major Alberto Artur Sarmento, distinto professor de ciências naturais, tendo havido antes disso no liceu alguns exemplares zoológicos, cujo estado de conservação jà não era bom hà cerca de 40 anos. (1921).",
+    "categories": [
+        "education",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Alberto Artur Sarmento": [
+            "Distinto professor de ciências naturais"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Objectos de historia natural foram adquiridos"
+        ],
+        "1914": [
+            "Objectos de historia natural foram adquiridos"
+        ],
+        "1921": [
+            "Hà cerca de 40 anos"
+        ]
+    }
+}

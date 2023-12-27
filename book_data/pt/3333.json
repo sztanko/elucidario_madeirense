@@ -1,0 +1,30 @@
+{
+    "id": 3333,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Silva (Padre Júlio César Pereira da)",
+    "fl": "S",
+    "original_title": "Silva (Padre Júlio César Pereira da)",
+    "body": "Nasceu nesta ilha no ano de 1845 e faleceu em Lisboa a 19 de Abril de 1912. Era capelão do exército e cónego honorário da Sé de Viseu, tendo sido professor do seminário e do liceu de Beja. Colaborou em vários jornais e publicou alguns dos seus discursos em diversos opúsculos.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Sé de Viseu",
+        "Beja"
+    ],
+    "locations": {
+        "Lisboa": [
+            "Faleceu"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Nascimento"
+        ],
+        "1912": [
+            "Faleceu"
+        ]
+    }
+}

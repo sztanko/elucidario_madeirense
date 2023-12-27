@@ -1,0 +1,27 @@
+{
+    "id": 2492,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Fé (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Fé (Capelas de)",
+    "body": "In the parish of São Martinho, there was a chapel with this invocation, founded by Manuel Gonçalves Lisboa in the year 1668. It gave its name to the place where it was built.\n\nAt the Mirante da Terra do Baptista site, in the parish of Porto da Cruz, Diogo Dias de Ornelas e Vasconcellos, founded a chapel with the same invocation on November 25, 1825, the date of the endowment deed, and on August 11, 1826, the inspection for the license to celebrate religious acts. It no longer exists.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Locality where the chapel founded by Manuel Gonçalves Lisboa was located."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1668": [
+            "Year of the foundation of the Nossa Senhora da Fé chapel."
+        ]
+    }
+}

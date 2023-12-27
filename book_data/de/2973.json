@@ -1,0 +1,33 @@
+{
+    "id": 2973,
+    "lang": "de",
+    "is_original": false,
+    "title": "Quinta",
+    "fl": "Q",
+    "original_title": "Quinta",
+    "body": "Besiedelter Ort in der Gemeinde Caniço. Es gab dort ein Landgut oder Landsitz und es gibt noch die Kapelle Unserer Lieben Frau vom Trost, die zum dort gegen Ende des 15. Jahrhunderts von Álvaro de Ornelas gegründeten Majorat gehörten, eine der ältesten Erbfideikommisse Madeiras, dessen letzter Vertreter der Ratsherr Aires de Ornelas (1866-1930) war. Die Kapelle zur Tröstung wurde von Aires de Ornelas y Vasconcelos um 1591 erbaut und Mitte des 18. Jahrhunderts wiederaufgebaut (V.Garajau e Jangão).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Álvaro de Ornelas": [
+            "Gründer des Majorats"
+        ],
+        "Aires de Ornelas": [
+            "Letzter Vertreter"
+        ]
+    },
+    "years": {
+        "1591": [
+            "Bau der Kapelle zur Tröstung"
+        ]
+    }
+}

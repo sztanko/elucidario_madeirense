@@ -1,0 +1,23 @@
+{
+    "id": 1859,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jornal da Manhã",
+    "fl": "J",
+    "original_title": "Jornal da Manhã",
+    "body": "Publicaram-se cento e vinte e oito números deste jornal, tendo saído o primeiro numero a 6 de Fevereiro e o ultimo a 22 de Agosto de 1887.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "6 de Fevereiro": [
+            "Publicação do primeiro número do Jornal da Manhã"
+        ],
+        "22 de Agosto de 1887": [
+            "Publicação do último número do Jornal da Manhã"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 1919,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lamaceiros",
+    "fl": "L",
+    "original_title": "Lamaceiros",
+    "body": "Sítio muito pitoresco da freguesia do Santo da Serra, donde se disfrutam lindas vistas sobre as paróquias do Porto da Cruz, Faial e Santana. Fica a três quilómetros de distancia da Igreja Paroquial do Santo da Serra. Até este sítio correm, num aqueduto comum, as águas das levadas do Furado, Juncal, Nova do Furado ou dos Accionistas e a da Serra do Faial, passando, ali, a primeira para conduto próprio e a segunda para a freguesia do Porto da Cruz. As águas das outras duas levadas vão em conjunto até o sítio do Lombo da Raiz (V. este nome).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo da Serra",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Freguesia"
+        ],
+        "Porto da Cruz": [
+            "Freguesia"
+        ],
+        "Faial": [
+            "Paróquia"
+        ],
+        "Santana": [
+            "Paróquia"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

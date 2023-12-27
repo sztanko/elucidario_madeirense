@@ -1,0 +1,41 @@
+{
+    "id": 2454,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Norman (Dr. Alfred Merle)",
+    "fl": "N",
+    "original_title": "Norman (Dr. Alfred Merle)",
+    "body": "Distinto zoólogo inglês já falecido, que visitou a Madeira em 1897 e 1908. 0 naturalista inglês Kirkpatrick (V. este nome) dedicou-lhe a Merlia Normani, curiosa esponja encontrada pelo naturalista madeirense A. C. de Noronha, nos mares do Porto Santo. E.: The Land Isopoda of Madeira (1899) e The Polyzoa of Madeira and Neighbouring Islands (Linnean's Society's Journ.-Zool., XXX, 1909).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local visitado pelo Dr. Alfred Merle Norman"
+        ],
+        "Porto Santo": [
+            "Ilha onde foi encontrada a esponja Merlia Normani"
+        ]
+    },
+    "people": {
+        "Dr. Alfred Merle Norman": [
+            "Zoólogo inglês"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Ano da visita à Madeira"
+        ],
+        "1908": [
+            "Ano da visita à Madeira"
+        ],
+        "1899": [
+            "Publicação de The Land Isopoda of Madeira"
+        ],
+        "1909": [
+            "Publicação de The Polyzoa of Madeira and Neighbouring Islands"
+        ]
+    }
+}

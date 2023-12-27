@@ -1,0 +1,31 @@
+{
+    "id": 2465,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Alegria (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Alegria (Capela de)",
+    "body": "Na freguesia de São Roque, no sítio conhecido pelo nome de Alegria, fica a quinta deste nome, com casa e capela da invocação de Nossa Senhora da Alegria, pertencentes á família dos condes de Torre Bela. Foi esta capela fundada em 1609 por Francisco de Abreu. Celebra-se ali anualmente uma festa, que é muito concorrida pelos povos das circunvizinhanças.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque"
+    ],
+    "locations": {
+        "São Roque": [
+            "Localização da capela de Nossa Senhora da Alegria"
+        ]
+    },
+    "people": {
+        "Francisco de Abreu": [
+            "Fundador da capela em 1609"
+        ]
+    },
+    "years": {
+        "1609": [
+            "Fundação da capela"
+        ]
+    }
+}

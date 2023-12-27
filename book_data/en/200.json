@@ -1,0 +1,36 @@
+{
+    "id": 200,
+    "lang": "en",
+    "is_original": false,
+    "title": "Amoreira",
+    "fl": "A",
+    "original_title": "Amoreira",
+    "body": "In Madeira, there are Morus nigra (black mulberry) trees, whose soroses are edible and used to prepare mulberry syrup, used for gargling and for treating sore throats, and M. multicaulis (white mulberry) trees, whose leaves are used as food for silkworms. In May 1877, the Funchal City Council granted the Praça da Rainha (now Praça do Marquês de Pombal) as a nursery for white mulberry trees, and the late Count of Canavial even established the said nursery there, but it had a short duration. The cultivation of these mulberry trees is currently completely abandoned. The black mulberry is widely cultivated in Porto Santo.",
+    "categories": [
+        "biology",
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of Madeira"
+        ],
+        "Praça da Rainha": [
+            "Current Praça do Marquês de Pombal"
+        ],
+        "Porto Santo": [
+            "Island near Madeira"
+        ]
+    },
+    "people": {
+        "Conde de Canavial": [
+            "Deceased nobleman"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Granting of the Praça da Rainha as a nursery for white mulberry trees"
+        ]
+    }
+}

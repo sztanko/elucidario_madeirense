@@ -1,0 +1,27 @@
+{
+    "id": 272,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Arroz",
+    "fl": "A",
+    "original_title": "Arroz",
+    "body": "Não nos consta que, em outra época, se tivesse feito nesta ilha qualquer tentativa para a cultura do arroz, mas sabemos que no ano de 1918, achando-se na freguesia de São Vicente um cultivador daquele cereal, natural do continente português, procedeu ali a um ensaio dessa cultura, que foi coroada do melhor êxito com uma excelente e abundante produção. Por esse motivo foi dirigida á Junta Agrícola da Madeira uma representação assinada por vários proprietários daquela freguesia, pedindo especial protecção para a cultura desse cereal, parecendo-nos que não se realizaram novos ensaios para o aproveitamento dessa indústria.",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [
+        "São Vicente"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Freguesia onde se realizou o ensaio de cultura de arroz"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1918": [
+            "Realização do ensaio de cultura de arroz na freguesia de São Vicente"
+        ]
+    }
+}

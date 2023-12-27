@@ -1,0 +1,44 @@
+{
+    "id": 2744,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pereira (D. Mateus de Abreu)",
+    "fl": "P",
+    "original_title": "Pereira (D. Mateus de Abreu)",
+    "body": "We have found several references to this illustrious prelate as being a native of Madeira, where it is said he was born on August 8, 1756. We are unaware of any personal circumstances of his life until we see him presented as a bishop in the diocese of São Paulo, Brazil, in 1794, being confirmed by the Bull of Pius VI on June 17, 1795, and taking possession of the bishopric on May 31, 1797. He was a prelate who rendered distinguished services to his diocese, as Candido Mendes de Almada says in his work Brazilian Ecclesiastical Civil Law, that he contributed greatly to the independence of Brazil. Two speeches were published, delivered on the occasion of the celebrations held to commemorate the consecration anniversary of this prelate, one of them by the great orator Monte Alverne. He died in the city of São Paulo on March 5, 1824, and was buried in the respective Cathedral.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Place of birth of D. Mateus de Abreu Pereira"
+        ]
+    },
+    "people": {
+        "José Marceliano Pereira": [
+            "Father of D. Mateus de Abreu Pereira"
+        ],
+        "D. Maria de Jesus da Silva": [
+            "Mother of D. Mateus de Abreu Pereira"
+        ]
+    },
+    "years": {
+        "1756": [
+            "Birth of D. Mateus de Abreu Pereira"
+        ],
+        "1794": [
+            "Appointment as bishop in the diocese of São Paulo, Brazil"
+        ],
+        "1795": [
+            "Confirmation as bishop by the Bull of Pius VI"
+        ],
+        "1797": [
+            "Taking possession of the bishopric"
+        ],
+        "1824": [
+            "Death of D. Mateus de Abreu Pereira"
+        ]
+    }
+}

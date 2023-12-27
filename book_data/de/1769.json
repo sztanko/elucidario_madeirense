@@ -1,0 +1,39 @@
+{
+    "id": 1769,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unbeflecktes Herz Mariens (Kapelle)",
+    "fl": "U",
+    "original_title": "Imaculado Coração de Maria (Capela do)",
+    "body": "1918 begann der Bau einer Kapelle dieser Anrufung an der Stelle von Fajã do Penedo in der Gemeinde Boaventura auf Initiative und beharrliche Bemühungen von D. Maria Margarida dos Anjos Ribeiro, die am selben Ort wohnt. Sie wurde am 23. August 1919 feierlich vom Diözesanbischof D. António Manuel Pereira Ribeiro gesegnet.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {
+        "Fajã do Penedo": [
+            "Ort"
+        ],
+        "Boaventura": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "D. Maria Margarida dos Anjos Ribeiro": [
+            "Initiatorin des Baus"
+        ],
+        "D. António Manuel Pereira Ribeiro": [
+            "Diözesanbischof"
+        ]
+    },
+    "years": {
+        "1918": [
+            "Beginn des Kapellenbaus"
+        ],
+        "1919": [
+            "Feierliche Einweihung der Kapelle"
+        ]
+    }
+}

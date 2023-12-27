@@ -1,0 +1,35 @@
+{
+    "id": 1777,
+    "lang": "en",
+    "is_original": false,
+    "title": "Incense",
+    "fl": "I",
+    "original_title": "Incenso",
+    "body": "See Tree of Incense.\n\nMagnetic Inclination.\nIt was measured by A. P. de Azevedo and Soulier de Sauve on April 25, 1839, and by the same A. P. de Azevedo and the officials of the Rattermaker on December 20, 1846. The first observations made in the Praça Académica with Gambey's compass indicated an inclination of 59° 30; the second, made in the adro do Colégio with the 'Fox's Dipping' and the 'Intensity Instrument,' gave an inclination of 60° 40.\n\nOn February 4, 1872, and July 17, 1873, the officials of the Challenger found the inclination to be 56° 14' 1 N. and 55° 12 5 N., respectively. More recently, the distinguished Azorean meteorologist, Colonel Francisco Afonso Chaves, found the following magnetic inclinations: 54° 32' 5 N., on June 22, 1903, and 54° 22'7 N., on June 4, 1906. All these observations were made at the parade ground of the Colégio, with Colonel Chaves using the Abbadie-Brunner compass to determine the inclination.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1839": [
+            "Measurement of magnetic inclination"
+        ],
+        "1846": [
+            "Measurement of magnetic inclination"
+        ],
+        "1872": [
+            "Measurement of magnetic inclination"
+        ],
+        "1873": [
+            "Measurement of magnetic inclination"
+        ],
+        "1903": [
+            "Measurement of magnetic inclination"
+        ],
+        "1906": [
+            "Measurement of magnetic inclination"
+        ]
+    }
+}

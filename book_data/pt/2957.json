@@ -1,0 +1,50 @@
+{
+    "id": 2957,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Provedor da Fazenda",
+    "fl": "P",
+    "original_title": "Provedor da Fazenda",
+    "body": "Era um dos funcionários mais graduados que existiam no Funchal, sendo subordinado ao Conselho de Fazenda, tribunal criado por Filipe II de Espanha, em 20 de Novembro de 1591, e confirmado por lei de 22 de Dezembro de l761. Tinha a seu cargo a contabilidade da receita e despesa dos dinheiros públicos, e dirigiu a Alfandega do Funchal até 1775, como ficou dito a pág. 34 do vol. I deste Elucidário. A carta régia de 2 de Agosto de 1641 mandou que os juízes e oficiais da Câmara lhe prestassem auxilio sempre que preciso fosse, e determinou o mandado do Conselho da Fazenda de 11 de Janeiro de 1701 que pudesse chamar quaisquer oficiais ou soldados da milícia para depoimentos em matéria da fazenda real, independentemente de autorização do Governador. Podia mandar prender qualquer pessoa, sem licença do corregedor, e mandar vir da cadeia qualquer preso..., sendo assim preciso para qualquer diligencia da real fazenda, segundo se vê no mandado do Conselho da Fazenda de 10 de Março de 1735. A Provedoria da Fazenda foi extinta por carta régia de 6 de Abril de 1775, sendo substituída pela Junta da Real Fazenda, a qual já nos referimos neste Elucidário. O funcionário que desempenhava o cargo de provedor na época da extinção deste lugar, ficou sendo juiz da Alfandega, de harmonia era as determinações da Junta da Real Fazenda de 21 de Agosto de 1775. V. Junta da Real Fazenda.",
+    "categories": [
+        "economy",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Funcionários mais graduados"
+        ],
+        "Alfandega do Funchal": [
+            "Dirigiu até 1775"
+        ]
+    },
+    "people": {
+        "Filipe II de Espanha": [
+            "Criou o Conselho de Fazenda"
+        ],
+        "Governador": [
+            "Autorização para depoimentos em matéria da fazenda real"
+        ],
+        "Corregedor": [
+            "Licença para prender qualquer pessoa"
+        ]
+    },
+    "years": {
+        "1591": [
+            "Conselho de Fazenda criado"
+        ],
+        "1641": [
+            "Carta régia mandou auxilio da Câmara"
+        ],
+        "1701": [
+            "Mandado do Conselho da Fazenda"
+        ],
+        "1735": [
+            "Mandado do Conselho da Fazenda"
+        ],
+        "1775": [
+            "Extinção da Provedoria da Fazenda"
+        ]
+    }
+}

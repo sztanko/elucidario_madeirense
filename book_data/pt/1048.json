@@ -1,0 +1,33 @@
+{
+    "id": 1048,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa do Norte",
+    "fl": "C",
+    "original_title": "Costa do Norte",
+    "body": "A costa setentrional da Madeira, geralmente conhecida pelo nome de Costa do\n Norte, estende-se desde a Ponta do Tristão, a entestar com a região oeste da ilha, até o extremo da vertente\n norte da Ponta de São Lourenço que se prolonga pelo lado de leste. Algures se diz, e com tôda a\n propriedade, que é uma costa alpestre e penhascosa, figurando uma linha de altos penedos, semelhantes a\n uma enorme muralha de rocha com a base açoutada pelas ondas e o cimo coroado com a luxuriante verdura\nduma floresta nativa, pela raridade das praias e enseadas, e pela violencia dos ventos dos quadrantes do\n norte que ali sopram a maior parte do ano, é de todo inóspita para os navios e pouco segura para os barcos,\ntendo apenas dois portos de refugio contra o tempo, o do Pôrto da Cruz e o do Pôrto do Moniz, situados\naproximadamente nos extremos leste e oeste da mesma costa. Abrange esta as freguesias dos concelhos do\nPôrto do Moniz, São Vicente e Santana, e ainda a paroquia do Pôrto da Cruz e o litoral norte da paroquia do\nCaniçal, que pertencem ao concelho de Machico.\n\nO perimetro do litoral da Costa do Norte é descrito por Luiz da Silva Mousinho de Albuquerque nos\nseguintes termos: “A partir da Ponta do Pargo para o N. começa a Costa por correr primeiro na direcção de\nN. E. até a Ponta do Tristão, onde principia a Costa Setentrional da Ilha, dirigindo-se proximamente a E. S.\nE. até São Vicente, e de ali tomando a direcção E. N. E. até a Ponta de São Jorge, donde volta á direcção\ngeral de S. E. até o Pôrto da Cruz, quasi na origem setentrional da Ponta de São Lourenço, a qual termina a\nilha na sua extremidade oriental, estendendo-se para o mar com mui pequena largura por espaço de três\nmilhas proximamente, e na direcção de 0. e E.. Em quasi tôda a extensão deste litoral, o mar é profundo e\nlimpo de escolhos, exceptuando-se somente: 1º. Ba parte reintrante desta costa, onde há algumas baixas e\nrochedos ilhados, entre os quais sobressaiem o Ilhéu da Ribeira da Janela e o Ilhéu e baixa do Pôrto do\nMoniz; 2º.-a Ponta do Pargo, onde se estende ao mar um baixio, sôbre o qual a vaga rebenta com ventos\nmediocres, obrigando os barcos a afastar-se consideravelmente da terra para dobrá-la”.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Pôrto do Moniz",
+        "São Vicente",
+        "Santana",
+        "Pôrto da Cruz",
+        "Caniçal"
+    ],
+    "locations": {
+        "Ponta do Tristão": [
+            "Entestar com a região oeste da ilha"
+        ],
+        "Ponta de São Lourenço": [
+            "Extremo da vertente norte"
+        ]
+    },
+    "people": {
+        "Luiz da Silva Mousinho de Albuquerque": [
+            "Descreve o perimetro do litoral da Costa do Norte"
+        ]
+    },
+    "years": {}
+}

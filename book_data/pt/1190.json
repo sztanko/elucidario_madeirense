@@ -1,0 +1,42 @@
+{
+    "id": 1190,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Dragoeiro (Dracaena Draco)",
+    "fl": "D",
+    "original_title": "Dragoeiro (Dracaena Draco)",
+    "body": "Árvore peculiar da Madeira, Canárias e Cabo Verde, com 6 a 15 metros de alto; caules a princípio simples, depois ramosos no cimo, mas com os ramos partindo sempre da mesma altura; folhas terminais, alongadas, lineares; flores esbranquiçadas; bagas globosas, amarelas.\n\nEsta árvore, quasi extinta na Madeira, há muito que desapareceu do Porto Santo, onde, segundo conta Frutuoso, se faziam com os seus troncos barcos em que podiam pescar 6 ou 7 homens.\n\nEm antigos tempos extraía-se do dragoeiro, por meio de incisões, o sangue-drago, mas hoje ninguém pensa em utilizar a mesma árvore para tal fim, em razão da sua extrema raridade.\n\nNão consta que na Madeira se encontrasse nunca dragoeiro algum com as dimensões do celebre dragoeiro de Tenerife, destruído pelo temporal de 23 de Janeiro de 1868; o maior exemplar madeirense de que há noticia, existiu no sítio da Pontinha de Cima, em Machico, e foi derrubado por uma tempestade em 16 de Fevereiro de 1843. O seu caule, que alguém fez medir, tinha 5,m40 de circunferência e 11,m85 de comprimento, o que deveria dar para toda a árvore uma altura total de 15 a 16 metros, enquanto que o dragoeiro de Tenerife media, segundo Broussonet, um pouco mais de 15 metros de circunferência na base, por 24,m33 de altura.\n\nDois dragoeiros seculares que há cerca de 10 anos se viam ainda numa quinta do Monte, que pertencera ao falecido conde da Calçada, foram mandados arrancar pelo actual proprietário da mesma quinta, e o mesmo destino teve um outro indivíduo da mesma espécie que existia na entrada da “Quinta da Palmeira“, á Levada de Santa Luzia. Os exemplares do Monte eram muito admirados pelos estrangeiros por causa da sua beleza e grandes dimensões.\n\nNas quintas do Funchal e subúrbios encontram-se ainda vários dragoeiros, mas fora delas só conhecemos agora um exemplar no Garajau, outro no Caniço, outro na Ribeira Brava e um grupo de indivíduos no sítio das Neves.",
+    "categories": [
+        "biology",
+        "geography"
+    ],
+    "freguesias": [
+        "Monte",
+        "Funchal",
+        "Garajau",
+        "Caniço",
+        "Ribeira Brava",
+        "Neves"
+    ],
+    "locations": {
+        "Machico": [
+            "Sítio da Pontinha de Cima, em Machico"
+        ],
+        "Tenerife": [
+            "Celebre dragoeiro de Tenerife, destruído pelo temporal de 23 de Janeiro de 1868"
+        ]
+    },
+    "people": {
+        "Frutuoso": [
+            "Frutuoso conta sobre a utilização dos troncos de dragoeiro para fazer barcos em Porto Santo"
+        ]
+    },
+    "years": {
+        "1868": [
+            "Destruição do celebre dragoeiro de Tenerife"
+        ],
+        "1843": [
+            "Derrubada do maior exemplar madeirense no sítio da Pontinha de Cima, em Machico"
+        ]
+    }
+}

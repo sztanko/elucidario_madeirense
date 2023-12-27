@@ -1,0 +1,30 @@
+{
+    "id": 2720,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pencas",
+    "fl": "P",
+    "original_title": "Pencas",
+    "body": "This name is given to the very fertile variety of Cynara Cardunculus on the island of Porto Santo. The central parts of the leaves of this Composite are eaten raw by the inhabitants of that island, after being cleaned of thorns. This plant also exists in Caniçal and Piedade, where it is known by the name 'cardo-da-gente'.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Caniçal",
+        "Piedade"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Island"
+        ],
+        "Caniçal": [
+            "Locality"
+        ],
+        "Piedade": [
+            "Locality"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

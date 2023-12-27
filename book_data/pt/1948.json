@@ -1,0 +1,31 @@
+{
+    "id": 1948,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lazareto (Caminho do)",
+    "fl": "L",
+    "original_title": "Lazareto (Caminho do)",
+    "body": "Fica nas freguesias de Santa Maria Maior e S. Gonçalo e é prolongamento da calçada do Socorro, limitando pelo lado norte os terrenos do lazareto de Gonçalo Aires. A travessa que desemboca neste caminho, para leste do ribeiro do Pasto, é conhecida pelo nome de travessa do Lazareto. Na margem do lado sul do Caminho do lazareto e sobranceiro ao mar, fica o cemitério israelita, conservando na entrada uma inscrição em língua hebraica que significa «Habitação da Vida» e a data de 5.611, que corresponde ao ano de 1851 da nossa era.",
+    "categories": [
+        "health",
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "S. Gonçalo"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Fica nas freguesias de Santa Maria Maior"
+        ],
+        "S. Gonçalo": [
+            "Fica nas freguesias de S. Gonçalo"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "5.611, que corresponde ao ano de 1851 da nossa era"
+        ]
+    }
+}

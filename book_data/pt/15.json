@@ -1,0 +1,37 @@
+{
+    "id": 15,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abreu (João Gomes de)",
+    "fl": "A",
+    "original_title": "Abreu (João Gomes de)",
+    "body": "Era conhecido pelo nome de João Gomes de Abreu da lha. Foi capitão duma nau da armada que partiu para a Índia em 1506. Tomou parte nos combates contra os mouros das cidades de Brava e ilha do Socotorá e seguiu depois para Cananor, onde deu provas de extremada valentia, segundo o testemunho de Gaspar Correia nas Lendas da Índia.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Índia": [
+            "Local para onde João Gomes de Abreu partiu em 1506"
+        ],
+        "Brava": [
+            "Local onde João Gomes de Abreu combateu os mouros"
+        ],
+        "Socotorá": [
+            "Local onde João Gomes de Abreu combateu os mouros"
+        ],
+        "Cananor": [
+            "Local onde João Gomes de Abreu deu provas de extremada valentia"
+        ]
+    },
+    "people": {
+        "João Gomes de Abreu": [
+            "Capitão da nau que partiu para a Índia em 1506, participou nos combates contra os mouros e deu provas de extremada valentia em Cananor"
+        ]
+    },
+    "years": {
+        "1506": [
+            "Partida de João Gomes de Abreu para a Índia"
+        ]
+    }
+}

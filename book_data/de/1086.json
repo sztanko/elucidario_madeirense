@@ -1,0 +1,34 @@
+{
+    "id": 1086,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rotes Kreuz",
+    "fl": "R",
+    "original_title": "Cruz Vermelha",
+    "body": "Die Gründung einer Delegation des Roten Kreuzes in dieser Stadt ist der Initiative des verstorbenen madeirischen Arztes Eliseu de Sousa Drumond zu verdanken. Und nicht nur Funchal ist ihm diese Initiative schuldig, sondern auch die fleißigen und beharrlichen Bemühungen, die er selbstlos für die Einrichtung der Delegation aufwandte, sowie die exzellente Ausrichtung, die er all ihren ersten Diensten verlieh.\n\nDie erste Sitzung des Installationsausschusses fand am 14. November 1914 statt. Kurz darauf wurde der Vizegraf von Geraz de Lima, der stets größten Eifer und Hingabe für den Fortschritt der Gesellschaft zeigte, zum Präsidenten des Vorstands gewählt. \n\nDie ersten Ärzte, die für die Leitung der klinischen und chirurgischen Dienste der Rotkreuz-Delegation ernannt wurden, waren die Ärzte Eliseu de Sousa Drumond und Nuno de Vasconcelos Pôrto. Sie eröffneten sofort Kurse für Krankenpflege, um männliche und weibliche Krankenpfleger auszubilden und in kurzer Zeit ausreichend qualifiziertes Personal für die Durchführung der dringendsten und elementarsten Dienstleistungen vorzubereiten. Einige Tragen wurden dann beschafft und die ersten Träger angeworben, die eine angemessene Unterweisung erhielten.\n\nDie Einrichtung der Delegation in einem geeigneten Haus, in dem alle ihre Dienste zentralisiert und untergebracht werden konnten und in dem eine ständige medizinische Notfallstation eingerichtet werden konnte, war unerlässlich. Dieser legitime Wunsch der Gesellschaft wurde mit der Anmietung eines Gebäudes in der Rua dos Netos verwirklicht, und dort befindet sich heute die Delegation. Ihre Notfallstation, in der täglich chirurgische Eingriffe, Verbände, verschiedene medizinische Behandlungen usw. durchgeführt werden, hat relevante Dienste geleistet, und die Öffentlichkeit strömt dorthin, um die Vorteile zu nutzen, die die verdienstvolle Gesellschaft bietet. Es ist nur gerecht, die Art und Weise hervorzuheben, wie das gesamte Personal der Notfallstation, die Krankenschwestern und der ärztliche Leiter die Dienste erfüllt haben, die ihnen so uneigennützig anvertraut wurden. Dr. João Albino Rodrigues de Sousa, Leiter dieser Dienste, ist der gute Ruf zu verdanken, den die Notfallstation seit ihrer Einrichtung Anfang 1917 unter uns erworben hat.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort der Gründung der Rotkreuz-Delegation"
+        ]
+    },
+    "people": {
+        "Eliseu de Sousa Drumond": [
+            "Madeirischer Arzt, verantwortlich für die Gründung der Rotkreuz-Delegation"
+        ],
+        "Nuno de Vasconcelos Pôrto": [
+            "Zum Leiter der klinischen und chirurgischen Dienste ernannter Arzt"
+        ]
+    },
+    "years": {
+        "1914": [
+            "Erste Sitzung des Installationsausschusses"
+        ],
+        "1917": [
+            "Einrichtung der Notfallstation"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": 1801,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Insubordinações Militares",
+    "fl": "I",
+    "original_title": "Insubordinações Militares",
+    "body": "Apenas temos conhecimento das seguintes, ocorridas na ilha da Madeira: a de Julho de 1829, no regimento de infantaria n.° 13, por ter sido nomeado comandante interino um oficial estranho á corporação; a de 30 de Julho de 1852, no batalhão de caçadores n.° 6, sendo morto por essa ocasião o tenente Lapierre; e a 2 de Agosto de 1870, no batalhão de caçadores n.° 5, em seguida a uma revista de armamento. Guarnição Militar e Lapierre.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local das insubordinações militares"
+        ]
+    },
+    "people": {
+        "Lapierre": [
+            "Tenente morto durante a insubordinação militar"
+        ]
+    },
+    "years": {
+        "1829": [
+            "Insubordinação no regimento de infantaria n.° 13"
+        ],
+        "1852": [
+            "Insubordinação no batalhão de caçadores n.° 6"
+        ],
+        "1870": [
+            "Insubordinação no batalhão de caçadores n.° 5"
+        ]
+    }
+}

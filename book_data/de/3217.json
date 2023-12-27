@@ -1,0 +1,30 @@
+{
+    "id": 3217,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Cândido (Kapelle von)",
+    "fl": "S",
+    "original_title": "São Cândido (Capela de)",
+    "body": "An dem Ort, der Fonte da Rocha genannt wurde, in der Gemeinde Câmara de Lobos, baute der Kanoniker Francisco Cândido Correia Henriques im Jahr 1732 eine Kapelle zu Ehren des Märtyrers São Cândido, der er am 16. Mai desselben Jahres eine angemessene Schenkung machte. Sie befindet sich in Ruinen (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Fonte da Rocha": [
+            "Ort, an dem die Kapelle São Cândido erbaut wurde."
+        ]
+    },
+    "people": {
+        "Francisco Cândido Correia Henriques": [
+            "Baute die Kapelle São Cândido im Jahr 1732."
+        ]
+    },
+    "years": {
+        "1732": [
+            "Bau der Kapelle São Cândido"
+        ]
+    }
+}

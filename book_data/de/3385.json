@@ -1,0 +1,31 @@
+{
+    "id": 3385,
+    "lang": "de",
+    "is_original": false,
+    "title": "Somerville (Kapitän B. T.)",
+    "fl": "S",
+    "original_title": "Somerville (Capitão B. T.)",
+    "body": "> Die Offiziere des englischen Schiffes Argonauta haben unter der Leitung von Kapitän Somerville eine Karte der Selvagens-Inseln angefertigt mit dem folgenden Titel: North Atlantic Salvage Islands... 1915.\n>\n> Zusammen mit dieser Karte gibt es zwei weitere, die ebenfalls von denselben Offizieren angefertigt wurden, mit den folgenden Titeln: Piton Islands... 1915 und Great Salvage Island, 1915.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Argonauta": [
+            "Englisches Schiff"
+        ],
+        "Selvagens": [
+            "Inseln"
+        ]
+    },
+    "people": {
+        "Somerville": [
+            "Kapitän"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Anfertigung der Karten der Selvagens-Inseln"
+        ]
+    }
+}

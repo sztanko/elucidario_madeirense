@@ -1,0 +1,30 @@
+{
+    "id": 1154,
+    "lang": "de",
+    "is_original": false,
+    "title": "Diferença",
+    "fl": "D",
+    "original_title": "Diferença",
+    "body": "Besiedelte Stätte in der Gemeinde Faial, wo Manuel Carvalho Valdavesso, Schwiegersohn von Valentim de Ornelas e Vasconcelos, dem 7. Grundherrn von Penha de Águia, im Jahr 1725 eine Kapelle zu Ehren des Heiligen Aloisius errichtete.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Faial": [
+            "Gemeinde, in der sie sich befindet"
+        ]
+    },
+    "people": {
+        "Manuel Carvalho Valdavesso": [
+            "Schwiegersohn von Valentim de Ornelas e Vasconcelos, dem 7. Grundherrn von Penha de Águia"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Bau der Kapelle"
+        ]
+    }
+}

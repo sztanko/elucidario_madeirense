@@ -1,0 +1,41 @@
+{
+    "id": 3127,
+    "lang": "en",
+    "is_original": false,
+    "title": "Romeiros (Casas de)",
+    "fl": "R",
+    "original_title": "Romeiros (Casas de)",
+    "body": "To shelter the pilgrims, houses were known to have been built in the following locations: Monte, Santo Antonio da Serra, and Piedade (Ponta de S. Lourenço).\n\nThe Romeiros' house in Monte already existed between 1780 and 1790, and it was declared in a council session on May 31, 1822, to belong to the council's assets. Nevertheless, the Council decided, in a session on November 18, 1846, to have a building erected next to the church of Monte, 'as a shelter for travelers and to house the animals,' a building that we do not know if it was ever built.\n\nThe house of the pilgrims of Santo António da Serra was built in 1808, at the expense of various English subjects, and is now in ruins. It was administered until 1832 by English commissions, in which the names of Penfold, Selby, Leacock, Taylor, and Gordon appear.\n\nThere are no traces today of the house intended to shelter the devotees who went on pilgrimages to the chapel of Nossa Senhora da Piedade, in the parish of Caniçal.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Santo Antonio da Serra"
+    ],
+    "locations": {
+        "Monte": [
+            "Location where the Romeiros' house existed."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1780": [
+            "Existence of the Romeiros' house in Monte."
+        ],
+        "1790": [
+            "Existence of the Romeiros' house in Monte."
+        ],
+        "1808": [
+            "Construction of the house of the pilgrims of Santo António da Serra."
+        ],
+        "1822": [
+            "Declaration in a council session of the belonging of the Romeiros' house to the council's assets."
+        ],
+        "1832": [
+            "Year in which the house of the pilgrims of Santo António da Serra ceased to be administered by English commissions."
+        ],
+        "1846": [
+            "Council's decision to have a building erected next to the church of Monte."
+        ]
+    }
+}

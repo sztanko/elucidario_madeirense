@@ -1,0 +1,30 @@
+{
+    "id": 3596,
+    "lang": "de",
+    "is_original": false,
+    "title": "Viana",
+    "fl": "V",
+    "original_title": "Viana",
+    "body": "Dieser Familienname beginnt mit Afonso de Viana, der sich um 1500 in Caniço niederließ.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Ort, an dem Afonso de Viana sich um 1500 niederließ"
+        ]
+    },
+    "people": {
+        "Afonso de Viana": [
+            "Person, die sich um 1500 in Caniço niederließ"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Niederlassung von Afonso de Viana in Caniço"
+        ]
+    }
+}

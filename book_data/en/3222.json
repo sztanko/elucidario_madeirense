@@ -1,0 +1,59 @@
+{
+    "id": 3222,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Francisco (Capelas de)",
+    "fl": "S",
+    "original_title": "São Francisco (Capelas de)",
+    "body": "In ruins and long separated from the service of worship, the chapel of S. Francisco still exists in the parish of Calheta, which was the small church of the convent of Franciscan friars that once existed there. It belongs to Pedro César de Brito (1921).\n\nIn the parish of S. Pedro and on the way to Santo António, there was the chapel of S. Francisco, better known by the name of S. Francisco das Furnas. It was founded by Canon Pedro Correia Barbosa in the year 1697. It belonged to the morgado Jérvis de Atouguia. In the house adjacent to it, the Viscount of Atouguia (see this name) was born on July 7, 1797. Canon Pedro Correia Barbosa is the same person referred to on page 126 of volume I of this Elucidário.\n\nAmbrosio Vieira de Andrade erected a chapel dedicated to S. Francisco in the parish of Santa Luzia in the year 1675.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta",
+        "S. Pedro",
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Calheta": [
+            "Parish"
+        ],
+        "S. Pedro": [
+            "Parish"
+        ],
+        "Santo António": [
+            "Way"
+        ],
+        "S. Francisco das Furnas": [
+            "Alternative name"
+        ],
+        "Santa Luzia": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Pedro César de Brito": [
+            "Owner of the chapel"
+        ],
+        "Pedro Correia Barbosa": [
+            "Founder of the chapel"
+        ],
+        "Jérvis de Atouguia": [
+            "Morgado"
+        ],
+        "Ambrosio Vieira de Andrade": [
+            "Erected the chapel"
+        ]
+    },
+    "years": {
+        "1697": [
+            "Foundation of the chapel of S. Francisco das Furnas"
+        ],
+        "1797": [
+            "Birth of the Viscount of Atouguia"
+        ],
+        "1675": [
+            "Construction of the chapel dedicated to S. Francisco"
+        ]
+    }
+}

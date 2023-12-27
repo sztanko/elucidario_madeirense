@@ -1,0 +1,27 @@
+{
+    "id": 3546,
+    "lang": "pt",
+    "is_original": true,
+    "title": "União (A)",
+    "fl": "U",
+    "original_title": "União (A)",
+    "body": "Este jornal, da vila da Ponta do Sol, deu o primeiro número a 31 de Janeiro de 1918.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Vila onde foi publicado o jornal A União"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1918": [
+            "Publicação do primeiro número do jornal A União"
+        ]
+    }
+}

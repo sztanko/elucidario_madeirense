@@ -1,0 +1,47 @@
+{
+    "id": 1452,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte do Porto da Cruz",
+    "fl": "F",
+    "original_title": "Forte do Porto da Cruz",
+    "body": "É de 1708 e foi construído sobre a baía. Em 1804 foi desmantelado, sendo a guarnição existente mandada trabalhar na desobstrução da Ribeira de Machico.\n\nEm 1713 foi nomeado capitão deste forte João de Vasconcelos Uzel.\n\nForte de Santo António no Paul do Mar. Foi construído em 1754. Uma provisão do Conselho de Guerra, de 1761, manda aumentar ao condestável mais uma pipa de vinho ao ordenado anual de 12$ da sua criação.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz",
+        "Paul do Mar"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Baía"
+        ],
+        "Machico": [
+            "Ribeira de Machico, Paul do Mar"
+        ]
+    },
+    "people": {
+        "João de Vasconcelos Uzel": [
+            "Capitão"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Construção do forte"
+        ],
+        "1804": [
+            "Desmantelamento"
+        ],
+        "1713": [
+            "Capitão João de Vasconcelos Uzel"
+        ],
+        "1754": [
+            "Construção do Forte de Santo António"
+        ],
+        "1761": [
+            "Provisão do Conselho de Guerra"
+        ]
+    }
+}

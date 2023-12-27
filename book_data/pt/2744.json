@@ -1,0 +1,44 @@
+{
+    "id": 2744,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pereira (D. Mateus de Abreu)",
+    "fl": "P",
+    "original_title": "Pereira (D. Mateus de Abreu)",
+    "body": "Temos encontrado varias referencias a este ilustre prelado como sendo natural da Madeira, onde se diz haver nascido a 8 de Agosto de 1756. Desconhecemos quaisquer circunstancias pessoais da sua vida, até que o vemos em 1794 apresentado bispo na diocese de São Paulo, no Brasil, sendo confirmado por Bula de Pio VI, de 17 de Junho de 1795 e tendo tomado posse do bispado a 31 de Maio de 1797. Foi um prelado que prestou assinalados serviços á sua diocese, dizendo Candido Mendes de Almada, na sua obra Direito Civil Eclesiastico Brasileiro, que êle concorreu muito para a indepedencia do Brasil. Publicaram-se dois discursos, proferidos por ocasião das solenidades que se realizaram para festejar o aniversário da sagração deste prelado, sendo um deles do grande orador Monte Alverne. Faleceu na cidade de São Paulo a 5 de Março de 1824 e foi sepultado na respectiva Sé Catedral.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local de nascimento de D. Mateus de Abreu Pereira"
+        ]
+    },
+    "people": {
+        "José Marceliano Pereira": [
+            "Pai de D. Mateus de Abreu Pereira"
+        ],
+        "D. Maria de Jesus da Silva": [
+            "Mãe de D. Mateus de Abreu Pereira"
+        ]
+    },
+    "years": {
+        "1756": [
+            "Nascimento de D. Mateus de Abreu Pereira"
+        ],
+        "1794": [
+            "Nomeação como bispo na diocese de São Paulo, Brasil"
+        ],
+        "1795": [
+            "Confirmação como bispo por Bula de Pio VI"
+        ],
+        "1797": [
+            "Posse do bispado"
+        ],
+        "1824": [
+            "Falecimento de D. Mateus de Abreu Pereira"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 1061,
+    "lang": "en",
+    "is_original": false,
+    "title": "Couto",
+    "fl": "C",
+    "original_title": "Couto",
+    "body": "This family name probably originates from Joane Anes de Couto Cardoso, who had sesmaria lands in Paul and Jardim do Mar, and founded the chapel of Santo Amaro in the latter locality.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Paul",
+        "Jardim do Mar"
+    ],
+    "locations": {
+        "Paul": [
+            "Locality where Joane Anes de Couto Cardoso had sesmaria lands."
+        ],
+        "Jardim do Mar": [
+            "Locality where Joane Anes de Couto Cardoso had sesmaria lands and founded the chapel of Santo Amaro."
+        ]
+    },
+    "people": {
+        "Joane Anes de Couto Cardoso": [
+            "Person who had sesmaria lands and founded the chapel of Santo Amaro."
+        ]
+    },
+    "years": {}
+}

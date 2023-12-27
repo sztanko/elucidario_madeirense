@@ -1,0 +1,49 @@
+{
+    "id": 1483,
+    "lang": "de",
+    "is_original": false,
+    "title": "Freitas",
+    "fl": "F",
+    "original_title": "Freitas",
+    "body": "Es ist ein sehr alter Spitzname unter uns. Einer der ersten, der ihn benutzte, war Gonçalo de Freitas, der sich im Ort Santa Cruz niederließ und dort seinen Wohnsitz auf dem Gut hatte, das Torre genannt wurde. Er war Edelmann des Königlichen Hauses und Oberjägermeister des Infanten D. Fernando. Seine Tochter Catarina de Freitas richtete ein Majorat auf dem Land ein, das sie von ihrem Vater im Ort geerbt hatte, der später den Namen Santa Catarina erhielt. Gonçalo de Freitas Sohn João de Freitas genoss die Privilegien des ererbten Adels seines Vaters. Ein altes Adelshandbuch sagt, dass er im Auftrag des Königs die Kirche do Salvador in Santa Cruz baute und dafür die Kapelle derselben Kirche als seine Grabstätte erhielt, in Anerkennung seiner Dienste und der Ausgaben, die er für die besagte Kirche getätigt hatte. Einer seiner Söhne namens Jordão de Freitas zeichnete sich in Indien tapfer aus und war dort Herr einer Insel und Kapitän von Moluco. Mitglied dieser Familie war João de Freitas da Silva, der 1631 auf dieser Insel auf eigene Kosten eine Kompanie von 100 Männern organisierte und mit ihr nach Pernambuco ging, wo ihn die Holländer töteten.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Madalena"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Ort, an dem sich Gonçalo de Freitas niederließ und seine Residenz auf dem Gut Torre hatte"
+        ],
+        "Santa Catarina": [
+            "Ort, der später den Namen Santa Catarina erhielt, wo Catarina de Freitas ein Majorat einrichtete"
+        ],
+        "Madalena": [
+            "Ort, an dem João Rodrigues de Freitas Ländereien zur Urbarmachung hatte und 1523 starb"
+        ]
+    },
+    "people": {
+        "Gonçalo de Freitas": [
+            "Ließ sich in Santa Cruz nieder, war Edelmann des Königlichen Hauses und Oberjägermeister des Infanten D. Fernando"
+        ],
+        "Catarina de Freitas": [
+            "Richtete ein Majorat auf dem Land ein, das sie von ihrem Vater im Ort geerbt hatte, der später den Namen Santa Catarina erhielt"
+        ],
+        "João de Freitas": [
+            "Sohn von Gonçalo de Freitas, genoss die Privilegien des ererbten Adels seines Vaters"
+        ],
+        "Jordão de Freitas": [
+            "Zeichnete sich in Indien tapfer aus und war dort Herr einer Insel und Kapitän von Moluco"
+        ],
+        "João de Freitas da Silva": [
+            "Organisierte auf dieser Insel auf eigene Kosten eine Kompanie von 100 Männern und diente in Pernambuco"
+        ]
+    },
+    "years": {
+        "1523": [
+            "Tod von João Rodrigues de Freitas"
+        ]
+    }
+}

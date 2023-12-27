@@ -1,0 +1,45 @@
+{
+    "id": 3198,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santo André Avelino (Capela de)",
+    "fl": "S",
+    "original_title": "Santo André Avelino (Capela de)",
+    "body": "In the place of Carvalhal in the parish of Canhas, there is the chapel of Santo André Avelino, founded in 1776 by Captain Carlos Nunes de Freitas da Silva and his wife D. Ana Guiomar de Moura Acciaioly Lomelino. It belonged to the house of the morgado Nuno de Freitas Lomelino. On one of the walls, there is this inscription, placed there a few years ago: Offered by Jacintho Fernandes and completed by José dos Reis and Povo». On the stonework of the door, there is the date 1774.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {
+        "Carvalhal": [
+            "Location where the chapel of Santo André Avelino exists"
+        ]
+    },
+    "people": {
+        "Carlos Nunes de Freitas da Silva": [
+            "Founder of the chapel of Santo André Avelino"
+        ],
+        "D. Ana Guiomar de Moura Acciaioly Lomelino": [
+            "Wife of Carlos Nunes de Freitas da Silva, participated in the foundation of the chapel of Santo André Avelino"
+        ],
+        "Nuno de Freitas Lomelino": [
+            "Owner of the house to which the chapel of Santo André Avelino belonged"
+        ],
+        "Jacintho Fernandes": [
+            "Offered the inscription in the chapel of Santo André Avelino"
+        ],
+        "José dos Reis": [
+            "Completed the inscription in the chapel of Santo André Avelino"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Year of the foundation of the chapel of Santo André Avelino"
+        ],
+        "1774": [
+            "Year engraved on the stonework of the door of the chapel of Santo André Avelino"
+        ]
+    }
+}

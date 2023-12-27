@@ -1,0 +1,26 @@
+{
+    "id": 3058,
+    "lang": "de",
+    "is_original": false,
+    "title": "Requeme (Sebastes Kuhlii)",
+    "fl": "R",
+    "original_title": "Requeme (Sebastes Kuhlii)",
+    "body": "Ein Fisch aus der Familie der Skorpionfische, der in Tiefen zwischen 100 und 250 Klaftern gefangen wird. In Câmara de Lobos ist er als Chapado und auf Porto Santo als Vermelho bekannt. Es ist keine seltene Art und lebt an felsigen Stellen. Sein Fleisch hat einen angenehmen Geschmack.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Wo er als Chapado bekannt ist"
+        ],
+        "Porto Santo": [
+            "Wo er als Vermelho bekannt ist"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

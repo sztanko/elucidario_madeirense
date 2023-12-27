@@ -1,0 +1,45 @@
+{
+    "id": 3114,
+    "lang": "en",
+    "is_original": false,
+    "title": "Rodrigues (Manuel)",
+    "fl": "R",
+    "original_title": "Rodrigues (Manuel)",
+    "body": "Our compatriot had a quite eventful life, as seen in some works that focus on him. He was born in Funchal on November 25, 1697, and died in Lisbon in the second half of the 18th century, in a year that we cannot specify, being the son of Francisco Maria dos Ramos and D. Josefa Maria Pereira. At the age of 15, he embarked for Rio de Janeiro in the company of his uncle, Captain Manuel Neto Barreto. He enrolled in the seminary of Cachoeira, revealing himself as a very talented student. In 1715, he enlisted in the regiment of the master field Manuel de Almeida Castelo, and went to the colony of Sacramento. Shortly after, he left the army and joined the Order of St. Francis, where he professed in 1719, having studied philosophy and theology at the convent of Córdova, in the interior of Argentina. He accompanied Fr. José de Cardena on a trip to the province of Santa Fé and traveled to other countries. Upon learning of his father's death and the abandonment in which his three sisters had been left, he promptly set off for Lisbon to support them. As the author of the article in the 'Missionário Popular' says, Manuel Rodrigues must have had an 'adventurous and probably stormy life, because it was certainly no mere chance that made him successively a seminarian in Rio de Janeiro, a squadron leader in the colony of Sacramento, a Franciscan in Buenos Aires, a philosophy student in Córdova, and a preacher in Lisbon! In the capital, he dedicated himself to the ministry of preaching and gained fame as one of the most acclaimed orators of his time. Barbosa Machado and Inocêncio list the many sermons and speeches he published, from 1732 to 1757, including the funeral oration he delivered on the occasion of the death of D. João V.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Maria dos Ramos": [
+            "Father of Manuel Rodrigues"
+        ],
+        "D. Josefa Maria Pereira": [
+            "Mother of Manuel Rodrigues"
+        ],
+        "Manuel Neto Barreto": [
+            "Uncle of Manuel Rodrigues"
+        ],
+        "Fr. José de Cardena": [
+            "Travel companion of Manuel Rodrigues"
+        ],
+        "D. João V": [
+            "Deceased person on the occasion of whom Manuel Rodrigues delivered a funeral oration"
+        ]
+    },
+    "years": {
+        "1697": [
+            "Manuel Rodrigues was born in Funchal"
+        ],
+        "1715": [
+            "Manuel Rodrigues enlisted in the regiment of the master field Manuel de Almeida Castelo"
+        ],
+        "1719": [
+            "Manuel Rodrigues professed in the Order of St. Francis"
+        ],
+        "1732-1757": [
+            "Manuel Rodrigues published many sermons and speeches, including the funeral oration on the occasion of the death of D. João V"
+        ]
+    }
+}

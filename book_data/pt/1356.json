@@ -1,0 +1,28 @@
+{
+    "id": 1356,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Feitoria Britânica",
+    "fl": "F",
+    "original_title": "Feitoria Britânica",
+    "body": "Foi criada antes de 1774 e extinta em 31 de Dezembro de 1838. Sustentava uma enfermaria especial para inglêses no Hospital da Santa Casa, e prestou, enquanto existiu, vários outros serviços á colónia britanica nesta ilha.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Hospital da Santa Casa": [
+            "Instituição hospitalar na Ilha da Madeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1774": [
+            "Criação da Feitoria Britânica."
+        ],
+        "1838": [
+            "Extinção da Feitoria Britânica."
+        ]
+    }
+}

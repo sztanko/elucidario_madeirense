@@ -1,0 +1,28 @@
+{
+    "id": 842,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gazella",
+    "fl": "G",
+    "original_title": "Gazella",
+    "body": "This distinguished musician, who was a professor to King D. Luiz I, visited Madeira in 1850 and gave several concerts here.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where the musician gave concerts in 1850"
+        ]
+    },
+    "people": {
+        "D. Luiz I": [
+            "King for whom the musician was a professor"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Year in which the musician visited Madeira"
+        ]
+    }
+}

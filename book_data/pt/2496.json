@@ -1,0 +1,30 @@
+{
+    "id": 2496,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora de Jesus (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora de Jesus (Capela de)",
+    "body": "Com o orago de Nossa Senhora de Jesus, a primeira capela que temos encontrado, diz o Dr. Álvaro de Azevedo, é a que fundou João Bettencourt de Atouguia na freguesia de São Martinho, no ano de 1656.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Localidade onde foi fundada a capela de Nossa Senhora de Jesus."
+        ]
+    },
+    "people": {
+        "João Bettencourt de Atouguia": [
+            "Fundador da capela de Nossa Senhora de Jesus."
+        ]
+    },
+    "years": {
+        "1656": [
+            "Ano de fundação da capela de Nossa Senhora de Jesus."
+        ]
+    }
+}

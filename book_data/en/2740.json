@@ -1,0 +1,35 @@
+{
+    "id": 2740,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pereira (Father Eduardo Clemente Nunes)",
+    "fl": "P",
+    "original_title": "Pereira (Padre Eduardo Clemente Nunes)",
+    "body": "He was born in the parish of Camara de Lôbos on November 23, 1887, and was ordained as a priest in the Republic's mainland in 1913. He was a teacher at the Funchal lyceum and has collaborated in various newspapers in this city. His works include: *Delenda est Carthago*, speech, 1913, 37 pages; *Golpes*, collection of poems, 1914, 151 pages; *Manual of Our Lady of Carmo and Saint Thereza*, translation, 323 pages; *How to Win*, 1 volume and *Ilhas de Zargo*, 2 volumes.",
+    "categories": [
+        "history",
+        "culture",
+        "education"
+    ],
+    "freguesias": [
+        "Camara de Lôbos"
+    ],
+    "locations": {
+        "Camara de Lôbos": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Father Eduardo Clemente Nunes Pereira": [
+            "Birth, ordination, and literary works"
+        ]
+    },
+    "years": {
+        "1887": [
+            "Birth"
+        ],
+        "1913": [
+            "Ordination as a priest"
+        ]
+    }
+}

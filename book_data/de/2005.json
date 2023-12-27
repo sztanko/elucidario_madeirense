@@ -1,0 +1,31 @@
+{
+    "id": 2005,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lira (Padre Manuel de)",
+    "fl": "L",
+    "original_title": "Lira (Padre Manuel de)",
+    "body": "Dieser madeirische Priester war einige Zeit in Algier gefangen, wo er den anderen Gefangenen große Dienste erwies, indem er sie mit der evangelischsten Nächstenliebe behandelte und versorgte. Er stammte aus einer alten Familie aus Calheta, wo er geboren wurde und wo er in der ersten Hälfte des 17. Jahrhunderts starb. Er war mit dem Kanoniker António Veloso de Lira verwandt (siehe diesen Namen).",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Algier": [
+            "Ort, an dem er gefangen war"
+        ]
+    },
+    "people": {
+        "Antonio Veloso de Lira": [
+            "Kanoniker"
+        ]
+    },
+    "years": {
+        "17. Jahrhundert": [
+            "Zeitraum, in dem er starb"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 430,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barreiros (Stadion)",
+    "fl": "B",
+    "original_title": "Barreiros (Estádio dos)",
+    "body": "In der Gemeinde São Martinho, im Ort Ribeiro Seco de Cima, wo sie Barreiros nennen, liegt ein ausgezeichnetes Sportplatzgelände, bekannt als Estádio dos Barreiros, das eine Fläche von etwa 18.000 Quadratmetern hat und im Jahr 1927 feierlich eingeweiht wurde.",
+    "categories": [
+        "sports"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Gemeinde"
+        ],
+        "Ribeiro Seco de Cima": [
+            "Lage des Stadions"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1927": [
+            "Einweihung des Estádio dos Barreiros"
+        ]
+    }
+}

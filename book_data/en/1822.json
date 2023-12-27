@@ -1,0 +1,43 @@
+{
+    "id": 1822,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jardim (Dr. Manuel Gomes)",
+    "fl": "J",
+    "original_title": "Jardim (Dr. Manuel Gomes)",
+    "body": "He was born in the parish of Porto do Moniz on January 9, 1881. After completing the course at the Diocesan Seminary, he attended the Gregorian University in Rome, and was ordained a priest in 1904. In 1921, he was appointed canon of the Funchal Cathedral. For years, he has been a professor at the seminary of this diocese. He has had various collaborations in some newspapers, and is currently (1921) the director of *Vida Diocesana*. His sacred speeches have been published in booklets – *Sermon to the Most Holy Sacrament*, Funchal, 1912 and *Funeral Oration at the obsequies of the S. Pontiff Pio X*, Lisbon, 1915, and in a volume *The Dawn of Redemption*. He is the author of remarkable works of religious controversy *The Reasons of Protestantism*, *The Existence of God in the light of science and reason*, and *The Church and Protestantism*. In defense of the restitution of the building of the Seminary of the Incarnation to the Diocesan Commission of Worship of Funchal, he wrote the booklet *The Legality of Decree No. 13,514*.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Porto do Moniz"
+    ],
+    "locations": {
+        "Porto do Moniz": [
+            "Locality in the Madeira Island"
+        ],
+        "Funchal": [
+            "Capital of Madeira Island"
+        ]
+    },
+    "people": {
+        "S. Pontiff Pio X": [
+            "Pope of the Catholic Church"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Birth of Manuel Gomes Jardim"
+        ],
+        "1904": [
+            "Ordination as a priest"
+        ],
+        "1912": [
+            "Publication of *Sermon to the Most Holy Sacrament*"
+        ],
+        "1915": [
+            "Publication of *Funeral Oration at the obsequies of the S. Pontiff Pio X*"
+        ]
+    }
+}

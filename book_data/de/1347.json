@@ -1,0 +1,33 @@
+{
+    "id": 1347,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fazenda (Domherr Manuel Esteves)",
+    "fl": "F",
+    "original_title": "Fazenda (Cónego Manuel Esteves)",
+    "body": "Er stammte aus der Stadt Covilhã und starb am 13. März 1903 in Lissabon im Alter von 58 Jahren. 1899 wurde er zum Domherrn der Kathedrale von Funchal ernannt. In dieser Stadt zeichnete er sich als Politiker und Journalist aus und hatte bei uns verschiedene politische Dienstaufträge.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Sé do Funchal"
+    ],
+    "locations": {
+        "Covilhã": [
+            "Stadt in Portugal."
+        ],
+        "Funchal": [
+            "Hauptstadt der Insel Madeira."
+        ]
+    },
+    "people": {
+        "Domherr Manuel Esteves": [
+            "Politiker, Journalist und Domherr der Kathedrale von Funchal."
+        ]
+    },
+    "years": {
+        "1899": [
+            "Jahr, in dem er zum Domherrn der Kathedrale von Funchal ernannt wurde."
+        ]
+    }
+}

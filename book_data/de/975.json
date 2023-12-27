@@ -1,0 +1,31 @@
+{
+    "id": 975,
+    "lang": "de",
+    "is_original": false,
+    "title": "Konditorei",
+    "fl": "K",
+    "original_title": "Confeitaria",
+    "body": "Die Zuckerindustrie in Madeira, die im 15. und 16. Jahrhundert eine große Entwicklung und auch einen bemerkenswerten Grad an Perfektion erreichte, führte zur Schaffung der Konditoreiindustrie, die unter uns aufgrund der Menge und vor allem der Qualität ihrer Herstellung sehr wichtig gewesen zu sein scheint, wie Dr. Rodrigues de Azevedo sagt, dass sie seit dem 16. Jahrhundert zu einer wahren Kunst und einem wertvollen Exportgewerbe erhoben wurde, wie aus vielen in den Saudades da Terra transkribierten Urkunden und verschiedenen dort erwähnten Auszügen hervorgeht. Zur Bestätigung dieser Behauptung zitieren wir das Angebot des gesamten Kollegiums, das aus Marzipan hergestellt wurde, das der 31. Hauptmann-Donatär von Funchal Papst Leo X. gemacht hat, wie auf Seite 208 dieses Elucidario beschrieben wird. Der gelehrte Anmerker des Werkes von Frutuoso befasst sich erneut mit dem Thema im Artikel Madeira des Diccionario Universal Portuguez Illustrado, dessen Worte wir abschreiben: \"...die dort geschaffene Konditoreiindustrie, die sich vor allem im Kloster der Nonnen von Santa Clara im Laufe des 16. Jahrhunderts stark entwickelte und schließlich zu einer wahren Kunst wurde, deren Produkte ein wertvoller Exportzweig wurden, wie einige Urkunden und die Saudades da Terra bezeugen\".",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Clara"
+    ],
+    "locations": {
+        "Funchal": [
+            "31. Hauptmann-Donatär von Funchal"
+        ]
+    },
+    "people": {
+        "Rodrigues de Azevedo": [
+            "Sagt Dr. Rodrigues de Azevedo"
+        ]
+    },
+    "years": {
+        "XVI": [
+            "Die dort geschaffene Konditoreiindustrie"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 853,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cemeteries",
+    "fl": "C",
+    "original_title": "Cemiterios",
+    "body": "The oldest cemetery in Funchal, intended for the burial of Catholic individuals, is that of S. Roque, built in 1836, with the construction of the Angustias cemetery beginning in the same year and only being completed in 1838. The Santa Lazia cemetery dates back to 1840, and the S. Gonçalo cemetery to 1841. Before the establishment of cemeteries, the bodies of Catholics were buried in churches or in their churchyards, although in the Angustias area there was a small plot of land called the Santa Casa cemetery, intended to receive the bodies of individuals who died in the hospital.\n\nThe establishment of cemeteries in some rural municipalities was delayed, with a newspaper of the time reporting that in 1862 there were still no areas designated for the burial of bodies in the parishes of S. Jorge and Arco de S. Jorge. On August 19 and October 26, 1850, Counselor José Silvestre Ribeiro recommended to the Municipal Councils the construction of cemeteries, as in many areas of the district there was 'the superstitious practice of burying the dead inside the temples.'\n\nThe cemetery of Porto Santo was completed in 1838, making it one of the oldest in the archipelago.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Counselor"
+        ]
+    },
+    "years": {
+        "1836": [
+            "Construction of the S. Roque cemetery"
+        ],
+        "1838": [
+            "Completion of the Angustias cemetery"
+        ],
+        "1840": [
+            "Construction of the Santa Lazia cemetery"
+        ],
+        "1841": [
+            "Construction of the S. Gonçalo cemetery"
+        ],
+        "1862": [
+            "Lack of designated burial areas in the parishes of S. Jorge and Arco de S. Jorge"
+        ],
+        "1850": [
+            "Recommendation for the construction of cemeteries by José Silvestre Ribeiro"
+        ]
+    }
+}

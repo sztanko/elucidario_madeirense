@@ -1,0 +1,27 @@
+{
+    "id": 55,
+    "lang": "de",
+    "is_original": false,
+    "title": "Die Rührende (Geschichte)",
+    "fl": "D",
+    "original_title": "Affecting (The)",
+    "body": "Die Geschichte von Lionel und Arabella, die die Insel Madeira entdeckten und dort umkamen; mit der Reise von Juan Gonzalves Zarco, der die Entdeckung der Insel abschloss. \"Aus dem Portugiesischen\". London, 1756.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Lionel und Arabella": [
+            "Entdecker der Insel Madeira"
+        ],
+        "Juan Gonzalves Zarco": [
+            "Beendete die Entdeckung der Insel Madeira"
+        ]
+    },
+    "years": {
+        "1756": [
+            "Veröffentlichung des Buches"
+        ]
+    }
+}

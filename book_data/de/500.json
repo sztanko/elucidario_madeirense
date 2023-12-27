@@ -1,0 +1,23 @@
+{
+    "id": 500,
+    "lang": "de",
+    "is_original": false,
+    "title": "Boa Nova (A)",
+    "fl": "B",
+    "original_title": "Boa Nova (A)",
+    "body": "Die erste Ausgabe dieser Zeitung erschien am 2. Februar 1912, die 171., die letzte, am 10. Juli desselben Jahres.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1912": [
+            "Erscheinen der ersten Ausgabe der Zeitung"
+        ],
+        "10. Juli": [
+            "Erscheinen der letzten Ausgabe der Zeitung"
+        ]
+    }
+}

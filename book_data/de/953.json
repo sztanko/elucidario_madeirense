@@ -1,0 +1,38 @@
+{
+    "id": 953,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bezirkskommission",
+    "fl": "B",
+    "original_title": "Comissão Distrital",
+    "body": "Die Bezirkskommissionen kamen als Ersatz für die Generalräte, als diese durch das Dekret vom 6. August 1892 abgeschafft wurden. Sie hatten nach den Gesetzen von 1895 und 1896 Zuständigkeiten in der Verwaltungsgerichtsbarkeit und bestanden aus dem Gouverneur als Vorsitzendem, dem Verwaltungsrichter und drei Mitgliedern, die von den Gemeinderäten gewählt wurden.\n\nDie Bezirkskommission von Funchal hörte nach der Organisation und den Zuständigkeiten auf zu bestehen, die im Gesetz von 1896 erwähnt werden, nachdem durch das Dekret vom 8. August 1901 die im Gesetz vom 12. Juni 1901 für die Azoren-Bezirke vorgesehene Sonderorganisation auf diesen Bezirk angewandt wurde.\n\n„Die in den Verwaltungsgesetzen von 1878 und 1886 erwähnten Bezirkskommissionen bestanden aus drei Anwälten, die von den Generalräten auf ihrer ersten Sitzung nach der Wahl ernannt wurden und somit nur einfache Vertreter dieser Körperschaften waren.“\n\nDas Gesetz vom 7. August 1913 verlieh den Exekutivkommissionen (ehemalige Bezirkskommissionen) als Vertreter der Generalräte die Zuständigkeit für die Prüfung der Abrechnungen von Bruderschaften, Laienbruderschaften etc. und die Genehmigung der Haushalte dieser Körperschaften.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "6. August 1892": [
+            "Abschaffung der Generalräte"
+        ],
+        "1895": [
+            "Zuständigkeiten in der Verwaltungsgerichtsbarkeit"
+        ],
+        "1896": [
+            "Zuständigkeiten in der Verwaltungsgerichtsbarkeit"
+        ],
+        "8. August 1901": [
+            "Anwendung der Sonderorganisation für die Azoren-Bezirke"
+        ],
+        "12. Juni 1901": [
+            "Gesetz, das die Sonderorganisation für die Azoren-Bezirke ermöglichte"
+        ],
+        "7. August 1913": [
+            "Verleihung von Zuständigkeiten an die Exekutivkommissionen"
+        ]
+    }
+}

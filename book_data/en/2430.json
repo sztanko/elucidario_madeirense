@@ -1,0 +1,32 @@
+{
+    "id": 2430,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nery (Travessa do)",
+    "fl": "N",
+    "original_title": "Nery (Travessa do)",
+    "body": "Located in the parish of Santa Maria, it took its name from Canon Vicente Nery da Silva, who resided there. It was widened and is now a street that connects Bela de S. Tiago street with Conde de Carvalhal road, being named Caminho do Acciaioly.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Maria"
+    ],
+    "locations": {
+        "Santa Maria": [
+            "Parish where the Nery alley was located"
+        ],
+        "Bela de S. Tiago": [
+            "Location of one end of the street that connects with Nery alley"
+        ],
+        "Conde de Carvalhal": [
+            "Location of the other end of the street that connects with Nery alley"
+        ]
+    },
+    "people": {
+        "Canon Vicente Nery da Silva": [
+            "Person who gave name to Nery alley"
+        ]
+    },
+    "years": {}
+}

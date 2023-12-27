@@ -1,0 +1,34 @@
+{
+    "id": 3398,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sousa (Dr. José de Barros e)",
+    "fl": "S",
+    "original_title": "Sousa (Dr. José de Barros e)",
+    "body": "Nasceu na freguesia de Câmara de Lobos a 1 de Março de 1859. Foi delegado do procurador régio na comarca da Ponta do Sol, juiz na comarca de Santa Cruz e é hoje juiz da Relação do Porto. Publicou um opúsculo, de que já se fizeram três edições, intitulado Preceitos de Moral da Infância (1921). Morreu na cidade do Porto em Dezembro de 1930.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Ponta do Sol",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1859": [
+            "Nascimento de José de Barros e Sousa"
+        ],
+        "1921": [
+            "Publicação de Preceitos de Moral da Infância"
+        ],
+        "1930": [
+            "Falecimento na cidade do Porto"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": 520,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Boletim Eclesiástico da Madeira",
+    "fl": "B",
+    "original_title": "Boletim Eclesiástico da Madeira",
+    "body": "Era uma publicação mensal, tendo saído o primeiro numero no mês de Março de 1912 e o ultimo em Fevereiro de 1919.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "Março de 1912": [
+            "Saída do primeiro número"
+        ],
+        "Fevereiro de 1919": [
+            "Saída do último número"
+        ]
+    }
+}

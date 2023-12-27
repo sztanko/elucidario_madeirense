@@ -1,0 +1,31 @@
+{
+    "id": 3107,
+    "lang": "de",
+    "is_original": false,
+    "title": "Findelkinderdrehscheibe",
+    "fl": "F",
+    "original_title": "Roda dos Expostos",
+    "body": "Am 14. Januar 1820 beschloss der Stadtrat von Funchal, eine Findelkinderdrehscheibe im Haus der Amme zu errichten, da es in dieser Stadt keine gab. Drei Jahre später ließ er eine weitere in Câmara de Lobos errichten, in einem Haus neben der Kapelle des Heiligen Geistes. Die Zahl der Findelkinder, die zu Beginn des 19. Jahrhunderts zu Lasten des Rates gingen, war so groß, dass der Rat am 20. Mai 1812 beschloss, dass der Richter-Beigeordnete \"ein Polizeiprotokoll\" führen sollte, um alle öffentlichen Frauen aufzulisten, die schwanger waren, damit sie Rechenschaft über ihre Kinder ablegen und sie aufziehen konnten.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Ort der zweiten Findelkinderdrehscheibe"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1820": [
+            "Einrichtung der Findelkinderdrehscheibe in Funchal"
+        ],
+        "1812": [
+            "Beschluss über schwangere Frauen"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": 2495,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Incarnação (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Incarnação (Capela de)",
+    "body": "At the site of Louros, in the parish of São Gonçalo, according to the annotator of Saudades, there was a chapel of this invocation, which was founded by Diogo Bernardes Branco in 1656. In the south of the parish of Estreito de Câmara de Lobos, in the division of the parish of Câmara de Lobos, is the chapel of Nossa Senhora da Incarnação, which has the date 1671 on the portico, which must be the year of its construction. It belonged to the estate of João José de Ornelas Cabral and is now the property of D. Maria Teresa Figueira.\n\n## See\n\nConvento da Incarnação (1-306).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Gonçalo",
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Parish of São Gonçalo"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Parish of Estreito de Câmara de Lobos"
+        ],
+        "Câmara de Lobos": [
+            "Parish of Câmara de Lobos"
+        ]
+    },
+    "people": {
+        "Diogo Bernardes Branco": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Foundation of the chapel"
+        ],
+        "1671": [
+            "Construction of the chapel"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1444,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte da Penha de França",
+    "fl": "F",
+    "original_title": "Forte da Penha de França",
+    "body": "Era uma obra avançada, defendendo a enseada do Ribeiro Seco, e construída em 1712, sendo 1.° condestavel Manuel de Ceia. Em 1801 foi ali aquartelada parte da tropa inglesa, do coronel Clinton.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeiro Seco": [
+            "Enseada defendida pelo forte"
+        ]
+    },
+    "people": {
+        "Manuel de Ceia": [
+            "1.° condestavel"
+        ]
+    },
+    "years": {
+        "1712": [
+            "Construção do forte"
+        ],
+        "1801": [
+            "Aquartelamento da tropa inglesa"
+        ]
+    }
+}

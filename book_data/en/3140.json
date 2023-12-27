@@ -1,0 +1,31 @@
+{
+    "id": 3140,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sá (José Correia de)",
+    "fl": "S",
+    "original_title": "Sá (José Correia de)",
+    "body": "His appointment as Governor and Captain-General of Madeira is dated May 17, 1758, and he took office on May 27, 1759. This governor ordered the arrest and embarkation of the Jesuits on this island, as well as the seizure and leasing of their assets, according to the orders issued by the Marquis of Pombal. He served until October 1767.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Correia de Sá": [
+            "Governor and Captain-General of Madeira."
+        ]
+    },
+    "years": {
+        "1758": [
+            "Appointment as Governor and Captain-General of Madeira."
+        ],
+        "1759": [
+            "Assumption of office."
+        ],
+        "1767": [
+            "End of service as governor."
+        ]
+    }
+}

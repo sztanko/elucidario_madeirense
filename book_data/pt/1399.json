@@ -1,0 +1,39 @@
+{
+    "id": 1399,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Figueiroa de Albuquerque (Luiz)",
+    "fl": "F",
+    "original_title": "Figueiroa de Albuquerque (Luiz)",
+    "body": "Nasceu nesta cidade a 4 de Fevereiro de 1828 e morreu no Caniço a 13 de Dezembro de 1904, sendo filho do tenente-coronel Luiz Agostinho Figueiroa de Albuquerque e de D. Maria Vicencia de Freitas Bettencourt. Era homem de não vulgar ilustração, que principalmente adquiriu na sua longa permanência no estrangeiro e em especial na capital da França. Dedicou-se particularmente a estudos económicos, publicando um volume sobre esta matéria e muitos artigos dispersos nos jornais. Exerceu os logares de presidente da Câmara Municipal do Funchal, de secretario geral deste distrito e do de Ponta Delgada, de presidente da comissão administrativa da Misericordia desta cidade e de vogal do antigo Conselho de Distrito, tendo também desempenhado interinamente o lugar de Governador Civil deste arquipelago. Foi colaborador do antigo jornal o Povo e de outros periódicos, publicando em separado os dois volumes Tratado Elementar de Economia Politica, de 171 pag., e o Compêndio Elementar do Novo Systema Geral de Pesos e Medidas, de 166 pag..",
+    "categories": [
+        "history",
+        "economy",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ],
+        "Caniço": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "Luiz Agostinho Figueiroa de Albuquerque": [
+            "Tenente-coronel"
+        ],
+        "D. Maria Vicencia de Freitas Bettencourt": [
+            "Mãe de Luiz Figueiroa de Albuquerque"
+        ]
+    },
+    "years": {
+        "1904": [
+            "Morte de Luiz Figueiroa de Albuquerque"
+        ],
+        "1915": [
+            "Publicação do Compêndio Elementar do Novo Systema Geral de Pesos e Medidas"
+        ]
+    }
+}

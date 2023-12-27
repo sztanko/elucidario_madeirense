@@ -1,0 +1,27 @@
+{
+    "id": 2845,
+    "lang": "de",
+    "is_original": false,
+    "title": "Leuchtturm Ponta do Pargo",
+    "fl": "L",
+    "original_title": "Ponta do Pargo (Farol da)",
+    "body": "Auf der Spitze der Küstenvorsprungs, der als Ponta do Pargo bekannt ist und wo man die Vigia nennt, erhebt sich das Gebäude des Leuchtturms, dessen Existenz schon lange gefordert wurde, aber erst 1922 Realität wurde, als diese Küste zu leuchten begann. Irgendwo liest man, dass dieser Leuchtturm „drei aufeinanderfolgende weiße Lichtbündel mit einer Stärke von 5.500 Kerzen, jeweils 0,5 Sekunden, in Abständen von 3,5 Sekunden ausstrahlt“.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Pargo": [
+            "Küstenvorsprung"
+        ],
+        "Vigia": [
+            "Benachbarter Ort"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1922": [
+            "Bau des Leuchtturms und Beginn der Küstenbeleuchtung"
+        ]
+    }
+}

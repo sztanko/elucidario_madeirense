@@ -1,0 +1,31 @@
+{
+    "id": 797,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Carvalho de Araújo (Rua)",
+    "fl": "C",
+    "original_title": "Carvalho de Araújo (Rua)",
+    "body": "Em sessão da comissão administrativa da Camara Municipal do Funchal de 8 de Maio de 1919, foi deliberado dar o nome do capitao-tenente Carvalho de Araújo, á antiga rua do Aljube. Este ilustre oficial da nossa marinha de guerra era o comandante do caça-minas Augusto de Castilho que em Outubro de 1918 comboiou o vapor San Miguel na sua viagem para os Açores tendo morrido heroicamente no seu pôsto no dia 15 do mesmo mês, no combate que o navio teve de sustentar com um submarino alemão, nas proximidades daquele arquipelago. O caça-minas foi metido a pique, por não ter artilharia que pudesse competir com a do submarino, mas o San Mignel salvou-se, e com ele todos os passageiros que seguiam da Madeira para os Açôres.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade onde a rua do Aljube está localizada"
+        ],
+        "Açores": [
+            "Arquipélago para onde o vapor San Miguel estava viajando"
+        ]
+    },
+    "people": {
+        "Carvalho de Araújo": [
+            "Capitao-tenente homenageado com o nome da rua"
+        ]
+    },
+    "years": {
+        "1919": [
+            "Decisão de dar o nome da rua"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "id": 3131,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Róscio (Francisco João)",
+    "fl": "R",
+    "original_title": "Róscio (Francisco João)",
+    "body": "Temos conhecimento deste madeirense pelo que dele largamente nos diz Sousa Viterbo, a páginas 477 e seguintes do *Diccionario Historico e Documental dos Architectos, Engenheiros e Construtores Portugueses*. Nasceu Francisco Róscio nesta ilha por 1740, sendo filho de Manuel Gonçalves Róscio, natural de Tenerife, e de Maria da Graça Rodrigues Jardim, natural da freguesia do Arco da Calheta. Cursou em Lisboa a Academia Militar, e em 1762 foi despachado ajudante de infantaria. Seguidamente prestou serviço como engenheiro militar nas praças de Alméida e Elvas; revelando uma notável competência, pelo que foi elogiado pelo abalizado engenheiro Jacques Funk, que do estrangeiro viera expressamente dirigir as obras das nossas fortificações. Fez Róscio depois parte duma comissão de engenheiros mandada ao Brasil e ali também deu provas da sua actividade e do seu saber. Depois de 12 anos de ausência, regressou a Portugal, voltando novamente ao Brasil para desempenhar a importante missão de comissário das demarcações do sul do Brasil, que desempenhou com o maior zelo e competência, apesar das enormes dificuldades que então surgiram. A sua energia e a sua rara habilidade manifestaram-se brilhantemente em São Pedro do Sul, como governador deste estado, perante as ameaças do governador espanhol marquês de Sobremontes, impedindo a marcha invasora das suas tropas e conseguindo depois estabelecer a paz, conquistando para Portugal cerca de duzentas léguas quadradas de terreno. Morreu no Brasil a 10 de Outubro de 1805, depois duma existência muito agitada e cheia de trabalhos, prestando ao seu país os mais assinalados serviços. Deixou duas obras manuscritas que se ocupam especialmente dos seus trabalhos científicos e comissões gue desempenhou, de que Sousa Viterbo traz minuciosas noticias.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Tenerife": [
+            "Natural de Tenerife"
+        ],
+        "Lisboa": [
+            "Cursou em Lisboa a Academia Militar"
+        ],
+        "Alméida": [
+            "Prestou serviço como engenheiro militar nas praças de Alméida"
+        ],
+        "Elvas": [
+            "Prestou serviço como engenheiro militar nas praças de Elvas"
+        ],
+        "Brasil": [
+            "Fez Róscio depois parte duma comissão de engenheiros mandada ao Brasil e ali também deu provas da sua actividade e do seu saber. Depois de 12 anos de ausência, regressou a Portugal, voltando novamente ao Brasil para desempenhar a importante missão de comissário das demarcações do sul do Brasil"
+        ]
+    },
+    "people": {
+        "Manuel Gonçalves Róscio": [
+            "Natural de Tenerife"
+        ],
+        "Maria da Graça Rodrigues Jardim": [
+            "Natural da freguesia do Arco da Calheta"
+        ],
+        "Jacques Funk": [
+            "Abalizado engenheiro Jacques Funk"
+        ]
+    },
+    "years": {
+        "1740": [
+            "Nasceu Francisco Róscio nesta ilha por 1740"
+        ],
+        "1762": [
+            "Em 1762 foi despachado ajudante de infantaria"
+        ],
+        "1805": [
+            "Morreu no Brasil a 10 de Outubro de 1805"
+        ]
+    }
+}

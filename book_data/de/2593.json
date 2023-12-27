@@ -1,0 +1,50 @@
+{
+    "id": 2593,
+    "lang": "de",
+    "is_original": false,
+    "title": "Orgel von Santa Clara",
+    "fl": "O",
+    "original_title": "Órgão de Santa Clara",
+    "body": "Unter dieser Überschrift veröffentlichte die „Diário de Noticias“ aus Funchal am 22. November 1924 einen kleinen Artikel, der damals besonderes Interesse weckte und dessen historische Behauptung nicht angezweifelt wurde. Wir geben ihn vollständig wieder und verweisen auf die Artikel Kloster von Santa Clara und Söhne und Schwiegersöhne von Zarco, die zu diesem Thema einige nützliche Erläuterungen bieten.\n\n> „Die alte Orgel des ehemaligen Klosters von Santa Clara, die seit Jahren demontiert war, wurde repariert. Mit dieser Arbeit wurden die bekannten und angesehenen Musiker Herren César R. Nascimento und Guilherme H. Lino beauftragt, die diese Aufgabe gerade abgeschlossen haben.\n\n> Und schon morgen wird das uralte Instrument im Gottesdienst zu Ehren der heiligen Cäcilia, Schutzpatronin der Musiker, erklingen, den eine Gruppe von Gläubigen in jener Kirche feiern lässt.\n\n> Die Herren César Nascimento und Guilherme Lino führten Nachforschungen im Inneren der Orgel durch und stellten fest, dass sie von den Söhnen João Gonçalves Zarcos in Auftrag gegeben und 1498, 79 Jahre nach der Entdeckung Madeiras durch ihren Vater, dem genannten Kloster geschenkt wurde.\n\n> Dieses Instrument ist also 426 Jahre alt und wird wegen seines Alters als Reliquie betrachtet.\n\n> Aus diesem Grund bemühten sich die Restauratoren, gewissenhafte Künstler, sehr um seine Instandsetzung, obwohl sie angesichts des schlechten Zustands der Orgel, die man fast als unbrauchbar bezeichnen konnte, kurz davor standen, die Arbeit aufzugeben.\n\n> Nach einer mühsamen Arbeit, bei der sie neben viel Geduld ihr umfangreiches künstlerisches Wissen einsetzen mussten, ist es ihnen gelungen, das Werk zu einem guten Abschluss zu bringen und dabei die wichtigsten Teile der alten Orgel zu erhalten, um ihren Alterswert nicht zu schmälern.\n\n> Die Wurmlöcher wurden geschickt ausgefüllt. Die Instandsetzung, die vor einigen Tagen abgeschlossen wurde, hatte im Oktober 1923 begonnen.\n\n> Diese Orgel wurde vor Jahren zusammen mit anderen Gütern der Kongregationen versteigert und vom Herrn Dr. Romano Santa Clara Gomes erworben, der sie lange Zeit in einem Nebengebäude des ehemaligen Klosters aufbewahrte.\n\n> Im vergangenen Jahr schenkte er sie der Bruderschaft von Santa Clara, damit sie repariert und für den Gottesdienst in jenem Tempel verwendet werden konnte.\n\n> Daraufhin beauftragte Herr Raimundo de Freitas, der würdige Verwalter jenes Tempels, die Herren Cesar Nascimento und Guilherme Lino mit der Reparatur.\n\n> Dieselben Künstler reparierten im vergangenen Jahr auch die 1499 von König Manuel I. gestiftete Orgel der Pfarrkirche von Machico, die sich ebenfalls in einem fast unbrauchbaren Zustand befand. Es ist nun ein schönes Instrument von unschätzbarem Wert, da es 425 Jahre alt ist.\n\n> Wie bekannt ist, gilt die Kirche von Santa Clara, die am 12. Dezember 1917 von einer Granate des U-Boots getroffen wurde, das Funchal bombardierte, und dabei schwer beschädigt wurde, als nationales Denkmal. Ihre Erhaltung obliegt der Stadtverwaltung.“",
+    "categories": [
+        "art",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Clara": [
+            "Kirche in Funchal"
+        ]
+    },
+    "people": {
+        "César R. Nascimento": [
+            "Musiker"
+        ],
+        "Guilherme H. Lino": [
+            "Musiker"
+        ],
+        "João Gonçalves Zarco": [
+            "Entdecker Madeiras"
+        ],
+        "Romano Santa Clara Gomes": [
+            "Konservator"
+        ],
+        "Raimundo de Freitas": [
+            "Konservator"
+        ]
+    },
+    "years": {
+        "1924": [
+            "Veröffentlichung des Artikels in „Diário de Noticias“ aus Funchal"
+        ],
+        "1498": [
+            "Bau der Orgel durch die Söhne von João Gonçalves Zarco"
+        ],
+        "1923": [
+            "Beginn der Reparatur der Orgel"
+        ],
+        "1917": [
+            "Angriff auf die Kirche Santa Clara"
+        ]
+    }
+}

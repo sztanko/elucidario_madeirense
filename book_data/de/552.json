@@ -1,0 +1,30 @@
+{
+    "id": 552,
+    "lang": "de",
+    "is_original": false,
+    "title": "Westlicher Schrei",
+    "fl": "W",
+    "original_title": "Brado d'Oeste",
+    "body": "Die dritte Zeitung, die auf Madeira außerhalb von Funchal und die erste in Ponta do Sol veröffentlicht wurde. Die erste Ausgabe erschien am 2. Juni 1909 und die letzte, die 858., am 24. Januar 1918.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Ort der Veröffentlichung"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1909": [
+            "Erste Veröffentlichung"
+        ],
+        "1918": [
+            "Letzte Veröffentlichung"
+        ]
+    }
+}

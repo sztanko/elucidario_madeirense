@@ -1,0 +1,37 @@
+{
+    "id": 3146,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sagrado Coração de Jesus (Capela do)",
+    "fl": "S",
+    "original_title": "Sagrado Coração de Jesus (Capela do)",
+    "body": "No sítio dos Cardais, da freguesia de Água de Pena, fez o cónego Henrique Modesto de\nBettencourt construir no ano de 1907, em terras que ali possuía, uma capela consagrada ao sagrado Coração de Jesus.\n\nFoi também há poucos anos fundada na freguesia do Monte, pelo padre Jorge de Faria e Castro uma capela desta invocação.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena",
+        "Monte"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Freguesia"
+        ],
+        "Monte": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Henrique Modesto de Bettencourt": [
+            "Cónego"
+        ],
+        "Jorge de Faria e Castro": [
+            "Padre"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Construção da capela no sítio dos Cardais"
+        ]
+    }
+}

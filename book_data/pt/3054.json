@@ -1,0 +1,28 @@
+{
+    "id": 3054,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rendell (J.M.)",
+    "fl": "R",
+    "original_title": "Rendell (J.M.)",
+    "body": "(J.M.) E.:Concise Handbook of the Island of Madeira, with a plan of Funchal and map of the Island ; Londres, 1881, I\nvol.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde o livro foi publicado"
+        ]
+    },
+    "people": {
+        "J.M. Rendell": [
+            "Autor do livro"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Ano de publicação do livro"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 1790,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Inferno (Ribeira do)",
+    "fl": "I",
+    "original_title": "Inferno (Ribeira do)",
+    "body": "Nasce nas serras da freguesia de São Vicente e separa esta freguesia da do Seixal, lançando-se no oceano. Nas margens desta ribeira e nos pontos interiores dela, encontram-se alguns dos pontos da nossa mais arrebatadora paisagem, deparando-se ali frequentemente com os mais horrorosos e profundos despenhadeiros. O caudal desta ribeira alimenta uma levada, que fertiliza as terras da freguesia de São Vicente.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Seixal"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Freguesia onde a Ribeira do Inferno nasce"
+        ],
+        "Seixal": [
+            "Freguesia que a Ribeira do Inferno separa de São Vicente"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

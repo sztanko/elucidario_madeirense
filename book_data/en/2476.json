@@ -1,0 +1,46 @@
+{
+    "id": 2476,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Bom Sucesso (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Bom Sucesso (Capelas de)",
+    "body": "At the extreme limit of the parish of Câmara de Lobos and Estreito de Câmara de Lobos, towards the west, in the place called Garachico, is the chapel of Nossa Senhora do Bom Sucesso, which is considered to belong to the latter of these parishes. The chapel had the peculiarity of having its altar within the limits of one of those parishes and its door opening onto the lands of the other neighboring parish. It seems that in times further away from us, doubts arose about the parish to which the chapel should belong, and there were even jurisdictional conflicts between the respective parish priests. It was built in the early 17th century by Manuel João Ferreira, especially intended for his son, Father Francisco Luís Ferreira, to celebrate mass there. Years later, it was expanded by the local residents.\n\nThere is also a chapel dedicated to Nossa Senhora do Bom Sucesso in the place called Lombo da Estrela, in the parish of Calheta, founded in 1683 by Lourenço da Costa. In the parish of Santa Maria Maior, on the side of the road known as Caminho do Meio, there is another chapel with the same invocation, which belongs to the Funchal City Council, as well as the adjacent house, where an official school is located. We do not know the name of the founder of this last chapel or the year it was acquired by the Funchal City Council.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Câmara de Lobos": [
+            "Locality in the Madeira Island"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Locality in the Madeira Island"
+        ],
+        "Garachico": [
+            "Locality in the Madeira Island"
+        ],
+        "Calheta": [
+            "Locality in the Madeira Island"
+        ],
+        "Santa Maria Maior": [
+            "Locality in the Madeira Island"
+        ],
+        "Funchal": [
+            "Capital of the Madeira Island"
+        ]
+    },
+    "people": {
+        "Manuel João Ferreira": [
+            "Builder of the chapel"
+        ],
+        "Francisco Luís Ferreira": [
+            "Son of Manuel João Ferreira, priest who celebrated mass in the chapel"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Year of the foundation of the chapel in the parish of Calheta"
+        ]
+    }
+}

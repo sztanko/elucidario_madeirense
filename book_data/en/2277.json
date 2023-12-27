@@ -1,0 +1,52 @@
+{
+    "id": 2277,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mercados",
+    "fl": "M",
+    "original_title": "Mercados",
+    "body": "– Market of S. João. It was inaugurated on June 24, 1823, and was supposed to be called the Constitutional Market of S. João, a name that was not given to it because the news of the restoration of the absolutist regime arrived in Madeira as a result of the revolution of May 27 of the same year. It was located where the theater of 'Dr. Manuel de Arriaga' stands today, having been built with money borrowed by João de Carvalhal Esmeraldo, president of the first Constitutional Chamber.\n\nIn our days, it was known by the name 'Feira Velha' and was demolished in 1883, when the Municipality decided to build the aforementioned theater. Inside the market enclosure, the 'Circo Funchalense' was built in 1878, where some companies worked.\n\nThe market called S. João was supposed to be built between the streets of Hospital Velho and Nova de Santa Maria, in a field that existed there, which was inspected by the Chamber and Lieutenant Colonel of Engineering Feliciano António de Matos on May 15, 1821.\n\nThe land where the market was built belonged to the friars of S. Francisco and was leased to the Chamber on December 24, 1822.\n\nIt seems that the market of S. João was closed or ceased to serve the public for some time, as we read somewhere that it was reopened on April 4, 1846.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the theater of 'Dr. Manuel de Arriaga'"
+        ],
+        "Hospital Velho": [
+            "One of the streets where the market was supposed to be built"
+        ],
+        "Nova de Santa Maria": [
+            "One of the streets where the market was supposed to be built"
+        ]
+    },
+    "people": {
+        "João de Carvalhal Esmeraldo": [
+            "President of the first Constitutional Chamber"
+        ],
+        "Feliciano António de Matos": [
+            "Lieutenant Colonel of Engineering"
+        ]
+    },
+    "years": {
+        "1823": [
+            "News of the restoration of the absolutist regime"
+        ],
+        "1883": [
+            "Demolition of the market"
+        ],
+        "1878": [
+            "Construction of the 'Circo Funchalense'"
+        ],
+        "1821": [
+            "Inspection of the location for the construction of the market"
+        ],
+        "1822": [
+            "Leasing of the land to the Chamber"
+        ],
+        "1846": [
+            "Reopening of the market"
+        ]
+    }
+}

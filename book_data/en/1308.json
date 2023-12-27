@@ -1,0 +1,35 @@
+{
+    "id": 1308,
+    "lang": "en",
+    "is_original": false,
+    "title": "Faial (Ribeira do)",
+    "fl": "F",
+    "original_title": "Faial (Ribeira do)",
+    "body": "It rises near Pico Ruivo and receives the tributary streams of Ribeiro Frio and da Metade, crossing the parish of Faial and flowing into it. In the years from 1907 to 1910, the longest bridge in Madeira was built over this stream, which had long been considered one of the greatest needs to be met in district public works. The respective deck rests on several arches and measures about 130 meters in length.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Pico Ruivo": [
+            "Elevation"
+        ],
+        "Ribeiro Frio": [
+            "Stream"
+        ],
+        "Faial": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1907": [
+            "Construction of the bridge over Ribeira do Faial"
+        ],
+        "1910": [
+            "Construction of the bridge over Ribeira do Faial"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 2235,
+    "lang": "de",
+    "is_original": false,
+    "title": "Medicis (D. Cosme de)",
+    "fl": "M",
+    "original_title": "Medicis (D. Cosme de)",
+    "body": "Er lebte Mitte des 18. Jahrhunderts in Funchal und war der Überlieferung nach ein wohlhabender Mann. Als er eines Tages mehrere Freunde zu einem Ausflug in eine Höhle östlich des heutigen Lazaretts eingeladen hatte, um sich dort verschiedenen Vergnügungen hinzugeben, fanden alle aufgrund eines Einsturzes des darüberliegenden Geländes den Tod. Nur ein Schwarzer, der Diener von D. Cosme war und sich außerhalb der Höhle befand, entkam und brachte die Nachricht von der schrecklichen Katastrophe, der er beigewohnt hatte, in die Stadt.\n\nDer Ort, an dem sich die Katastrophe ereignete, ist den Seeleuten unter dem Namen \"Höhle des D. Cosme\" bekannt.\n\nZwischen 1679 und 1684 besuchte der Priester D. Zenóbio de Medicis, Sohn von D. Cosme de Medicis, die theologische Fakultät der Universität Coimbra. Es ist daher anzunehmen, dass sich das Unglück lange vor der Mitte des 18. Jahrhunderts ereignete, da es unwahrscheinlich ist, dass der genannte D. Cosme de Medicis zu dieser Zeit noch am Leben war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem D. Cosme de Medicis lebte"
+        ]
+    },
+    "people": {
+        "D. Cosme de Medicis": [
+            "Wohlhabender Mann, der Mitte des 18. Jahrhunderts in Funchal lebte"
+        ],
+        "D. Zenóbio de Medicis": [
+            "Sohn von D. Cosme de Medicis, besuchte die theologische Fakultät der Universität Coimbra"
+        ]
+    },
+    "years": {
+        "1679": [
+            "Beginn der Zeit, in der Pater D. Zenóbio de Medicis die theologische Fakultät besuchte"
+        ],
+        "1684": [
+            "Ende der Zeit, in der Pater D. Zenóbio de Medicis die theologische Fakultät besuchte"
+        ]
+    }
+}

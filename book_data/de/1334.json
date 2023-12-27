@@ -1,0 +1,35 @@
+{
+    "id": 1334,
+    "lang": "de",
+    "is_original": false,
+    "title": "Leuchttürme",
+    "fl": "L",
+    "original_title": "Faróis",
+    "body": "Erst in der Mitte des dritten Viertels des vergangenen Jahrhunderts dachte man ernsthaft an die Beleuchtung der Küsten unseres Archipels. Zuvor hatte es verschiedene Versuche gegeben, aber ohne nennenswerte Ergebnisse.\n\nAm 25. Juni 1861 legten die madeirischen Abgeordneten António Gonçalves de Freitas, Luiz de Freitas Branco und D. Luiz da Câmara Leme dem Parlament einen Gesetzesentwurf vor, der den Bau eines Drehfeuers an der Ponta de S. Lourenço und eines Festfeuers auf der Ilhéu da Pontinha genehmigte. Auch dieser neue Versuch blieb erfolglos.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilhéu da Pontinha": [
+            "Ort, an dem der Bau eines Festfeuers versucht wurde"
+        ]
+    },
+    "people": {
+        "António Gonçalves de Freitas": [
+            "Abgeordneter für Madeira"
+        ],
+        "Luiz de Freitas Branco": [
+            "Abgeordneter für Madeira"
+        ],
+        "D. Luiz da Câmara Leme": [
+            "Abgeordneter für Madeira"
+        ]
+    },
+    "years": {
+        "1861": [
+            "Vorlage des Gesetzesentwurfs zum Bau von Leuchttürmen auf Madeira"
+        ]
+    }
+}

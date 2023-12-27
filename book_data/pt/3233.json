@@ -1,0 +1,32 @@
+{
+    "id": 3233,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São João (Ribeira de )",
+    "fl": "S",
+    "original_title": "São João (Ribeira de )",
+    "body": "(Ribeira de ). Nasce nas serras da freguesia de Santo António e desemboca no Oceano, no sítio de São Lazaro, da freguesia de São Pedro, sendo uma das três caudalosas ribeiras que atravessam a cidade do Funchal. A parte dela que corta a freguesia de Santo António tem o nome de Ribeira Grande ou de Santo António. Noutros tempos foi também chamada de São Francisco, São Paulo, Santa Catarina e São Lazaro. Em documentos antigos, encontram-se todos estes nomes.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo António",
+        "São Pedro"
+    ],
+    "locations": {
+        "Santo António": [
+            "Freguesia de Santo António"
+        ],
+        "São Lazaro": [
+            "Sítio de São Lazaro, freguesia de São Pedro"
+        ],
+        "São Pedro": [
+            "Freguesia de São Pedro"
+        ],
+        "Funchal": [
+            "Cidade do Funchal"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,42 @@
+{
+    "id": 77,
+    "lang": "de",
+    "is_original": false,
+    "title": "Aguiar (Pater Dr. José Gonçalves de)",
+    "fl": "A",
+    "original_title": "Aguiar (Padre Dr. José Gonçalves de)",
+    "body": "José Gonçalves de Aguiar wurde am 8. Oktober 1831 in Câmara de Lobos als legitimer Sohn von Vitorino Gonçalves Rocha und Vitorina Rosa de Jesus in bescheidenen Verhältnissen geboren. Er sowie einige seiner Geschwister benutzten den Nachnamen Aguiar, der der seiner Großmutter mütterlicherseits war. Er war Seminarist in Funchal, als ihm dank der Protektion der russischen Familie Waxel, die sich damals auf Madeira aufhielt, ein Theologiestudium an der Universität ermöglicht wurde, das er in einem Jahr abschloss, das wir nicht genau feststellen können. Kurz darauf ließ er sich in Lissabon nieder, wo er bis zu seinem Tod blieb. In der Hauptstadt bekleidete er unter anderem die Ämter eines Richters am Patriarchalhof und eines prosynodalen Prüfers. Er war sehr studienbeflissen und hatte eine breite Bildung, weshalb er in der Hauptstadt sehr geschätzt wurde, nicht weniger aber auch wegen seines Charakters und seines Verhaltens als Bürger und Priester. Er arbeitete bei mehreren Zeitungen mit und veröffentlichte nach unserem Wissen im Eigenverlag: Das Dogma der Unbefleckten Empfängnis Mariens, Lissabon, 1880, 40 S., und Die Beichte, Lissabon, 1888, XVI-849 S. Es heißt, dass ihm mehrmals eine Mitra angeboten wurde, er sich aber stets weigerte, Bischof zu werden. Uns sind weder das Datum seines Todes in Lissabon noch sonstige Einzelheiten seiner Biografie bekannt.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "Vitorino Gonçalves Rocha": [
+            "Vater"
+        ],
+        "Vitorina Rosa de Jesus": [
+            "Mutter"
+        ],
+        "Waxel": [
+            "Russische Familie, die ihn protegierte"
+        ]
+    },
+    "years": {
+        "1831": [
+            "Geburt"
+        ],
+        "1880": [
+            "Veröffentlichung von Dogma der Unbefleckten Empfängnis Mariens"
+        ],
+        "1888": [
+            "Veröffentlichung von Die Beichte"
+        ]
+    }
+}

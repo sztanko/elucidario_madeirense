@@ -1,0 +1,37 @@
+{
+    "id": 2010,
+    "lang": "en",
+    "is_original": false,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "A populated place in the parish of Monte. The name comes from the chapel dedicated to N. S. do Livramento, which was built by Inácio Ferreira Pinto in 1684 and rebuilt a century later by João José Bettencourt de Freitas, being of vincular institution. In the same place, there is a chapel consecrated to the Sacred Heart of Jesus, built a few years ago by Father Jorge de Faria e Castro.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Parish of Monte"
+        ]
+    },
+    "people": {
+        "Inácio Ferreira Pinto": [
+            "Commissioned the construction of the chapel of N. S. do Livramento"
+        ],
+        "João José Bettencourt de Freitas": [
+            "Rebuilt the chapel of N. S. do Livramento"
+        ],
+        "Jorge de Faria e Castro": [
+            "Built the chapel consecrated to the Sacred Heart of Jesus"
+        ]
+    },
+    "years": {
+        "1684": [
+            "Construction of the chapel of N. S. do Livramento"
+        ]
+    }
+}

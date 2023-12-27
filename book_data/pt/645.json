@@ -1,0 +1,27 @@
+{
+    "id": 645,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cais da Ribeira Brava",
+    "fl": "C",
+    "original_title": "Cais da Ribeira Brava",
+    "body": "Foi mandado construir pela mesma corporação de 1904 a 1908.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Construção do cais"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Construção iniciada"
+        ],
+        "1908": [
+            "Construção concluída"
+        ]
+    }
+}

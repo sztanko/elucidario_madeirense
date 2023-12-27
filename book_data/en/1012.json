@@ -1,0 +1,56 @@
+{
+    "id": 1012,
+    "lang": "en",
+    "is_original": false,
+    "title": "Corografia",
+    "fl": "C",
+    "original_title": "Corografia",
+    "body": "For the study of the chorography of this archipelago and each of its constituent islands, in addition to the elements found scattered in various works, notably in the Diccionario Universal Portugues illutrado, the following pamphlets have been published: Chorographia da Madeira, by João de Nobrega Soares, first published in 1862 and last in 1882, Chorographia do Archipelago da Madeira, by Dr. Alvaro Rodrigues de Azevedo, 1873, and Corografia Elementar do Arquipelago da Madeira, by Major Alberto Artur Sarmento, 1912, the latter being the most comprehensive study we have on the subject. As was done in past years, some elementary notions of the chorography of the region should be taught again in the schools of this district. This teaching became mandatory among us, with four editions of a regional chorography being produced in a period of 20 years, for a population of just over a hundred thousand inhabitants, where the illiteracy rate was quite high. To serve as a text for teaching the chorography of Madeira in the schools of this archipelago, the Autonomous General Council published a new and much improved edition in 1937, adapted for this purpose, of the pamphlet by Lieutenant Colonel Alberto Artur Sarmento, which is a very valuable work and well deserving of a reissue. On the same subject, the co-author of this Elucidario, Father Fernando A. Silva, published in 1934 an extensive study entitled Dicionario Corografico do Arquipelago da Madeira in a volume of 310 pages.",
+    "categories": [
+        "geography",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where the chorography of Madeira is studied"
+        ],
+        "Madeira": [
+            "Archipelago studied in chorography"
+        ]
+    },
+    "people": {
+        "João de Nobrega Soares": [
+            "Author of Chorographia da Madeira"
+        ],
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Author of Chorographia do Archipelago da Madeira"
+        ],
+        "Major Alberto Artur Sarmento": [
+            "Author of Corografia Elementar do Arquipelago da Madeira"
+        ],
+        "Pe. Fernando A. Silva": [
+            "Co-author of Dicionario Corografico do Arquipelago da Madeira"
+        ]
+    },
+    "years": {
+        "1862": [
+            "First edition of Chorographia da Madeira by João de Nobrega Soares"
+        ],
+        "1882": [
+            "Last edition of Chorographia da Madeira by João de Nobrega Soares"
+        ],
+        "1873": [
+            "Publication of Chorographia do Archipelago da Madeira by Dr. Alvaro Rodrigues de Azevedo"
+        ],
+        "1912": [
+            "Publication of Corografia Elementar do Arquipelago da Madeira by Major Alberto Artur Sarmento"
+        ],
+        "1937": [
+            "Publication of the new edition of the chorography of Madeira by the Autonomous General Council"
+        ],
+        "1934": [
+            "Publication of Dicionario Corografico do Arquipelago da Madeira by Pe. Fernando A. Silva"
+        ]
+    }
+}

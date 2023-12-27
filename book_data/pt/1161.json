@@ -1,0 +1,38 @@
+{
+    "id": 1161,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Diques",
+    "fl": "D",
+    "original_title": "Diques",
+    "body": "São muros de rochas vulcanicas formados pela penetração da matéria em fusão nas fendas abertas por abalos de terra em terrenos preexistentes. Quando os diques são abundantes numa localidade, prova isso que a acção vulcanica se fez sentir aí com grande intensidade.\n\nNo Curral das Freiras e noutros vales do interior da Madeira, há grande numero de diques, e no Cabo Girão encontra-se diques verticais e outros horizontais.\n\nOs diques terminam ás vezes em ponta no alto, havendo também alguns, como o do montículo da Piedade, na Ponta de S. Lourenço, que são cortados ou interceptados na base por terrenos horizontais.\n\nO dique basaltico que forma um cabeço ou mamilo no alto do Garajau, distingue-se dum e doutro lado deste cabo, sendo duplo na parte leste, havendo também diques duplos no Ribeiro Frio, na parte da Penha de Águia soltada para o mar e noutros pontos, os quais procedem provavelmente duma nova penetração da lava nas mesmas fendas.\n\nHá diques que aparecem isolados, devido á destruíção dos terrenos pelas desnudação. Os picos dos Empinos, perto do Curral, são constituídos por diques isolados, e no Ribeiro do Juncal, no alto da Ribeira da Metade, há um dique nas mesmas condições, com cerca de 45 metros de alto e 18 de largo.\n\nSupõe-se que na maior parte dos diques da Madeira, a matéria em fusão foi impelida da parte inferior para a superior, mas no já citado dique da Piedade, e num outro que existe no Ribeiro dos Piornais, entre o Caniço e o Funchal, parece que se deu o caso contrario, visto ambos serem interrompidos ou cortados na base.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Curral das Freiras": [
+            "Localidade com grande numero de diques"
+        ],
+        "Cabo Girão": [
+            "Encontra-se diques verticais e outros horizontais"
+        ],
+        "Ponta de S. Lourenço": [
+            "Montículo da Piedade, diques cortados ou interceptados na base por terrenos horizontais"
+        ],
+        "Garajau": [
+            "Dique basaltico forma um cabeço ou mamilo no alto, distingue-se dum e doutro lado deste cabo, sendo duplo na parte leste"
+        ],
+        "Ribeiro Frio": [
+            "Diques duplos na parte da Penha de Águia soltada para o mar e noutros pontos, provavelmente duma nova penetração da lava nas mesmas fendas"
+        ],
+        "Empinos": [
+            "Picos perto do Curral, constituídos por diques isolados"
+        ],
+        "Ribeiro do Juncal": [
+            "Dique nas mesmas condições, com cerca de 45 metros de alto e 18 de largo"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

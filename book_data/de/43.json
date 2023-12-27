@@ -1,0 +1,41 @@
+{
+    "id": 43,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ausrufung der Monarchen",
+    "fl": "A",
+    "original_title": "Aclamações de monarcas",
+    "body": "Aus dem Buch der Exequien und Ausrufungen, das sich im Archiv der Stadtverwaltung von Funchal befindet, geht hervor, dass Josef I. am 4. Januar 1751 zum König ausgerufen wurde; Maria I. am 29. Juni 1777; Johann VI. am 7. April 1818; Peter V. am 7. September 1855; Ludwig I. am 20. Januar 1862; Karl I. am 28. Dezember 1889 und Manuel II. am 6. Mai 1908. Das genannte Buch erwähnt nicht das Datum, an dem Maria II. in Funchal zur Königin ausgerufen wurde, aber man weiß, dass diese Zeremonie sowie die Anerkennung der Verfassung am 6. Juni 1834 im Rathaus stattfanden. Wie wir im Artikel Wiederherstellung Portugals sehen werden, fand die Ausrufung Johanns IV. am 11. Januar 1641 statt. 1855 wurde in dieser Stadt eine Broschüre mit dem Titel Ausrufung Seiner Majestät König Peter V. in Funchal veröffentlicht, die eine Beschreibung der damals stattgefundenen Feierlichkeiten ist. Für die Ausrufung der Könige wurde ein Umzug organisiert, an dem alle Beamten teilnahmen und der durch verschiedene Straßen der Stadt zog, wobei er an verschiedenen Punkten Halt machte, damit die Stadträte dort nach der üblichen Zeremonie den Namen des neuen regierenden Monarchen verkündeten. Dieser Umzug wurde nur bei der Ausrufung Manuels II. nicht organisiert.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1751": [
+            "Josef I. zum König ausgerufen"
+        ],
+        "1777": [
+            "Maria I. zur Königin ausgerufen"
+        ],
+        "1818": [
+            "Johann VI. zum König ausgerufen"
+        ],
+        "1855": [
+            "Peter V. zum König ausgerufen"
+        ],
+        "1862": [
+            "Ludwig I. zum König ausgerufen"
+        ],
+        "1889": [
+            "Karl I. zum König ausgerufen"
+        ],
+        "1908": [
+            "Manuel II. zum König ausgerufen"
+        ],
+        "1834": [
+            "Anerkennung der Verfassung"
+        ]
+    }
+}

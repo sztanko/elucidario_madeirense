@@ -1,0 +1,33 @@
+{
+    "id": 3395,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sousa (Garcia Homem de)",
+    "fl": "S",
+    "original_title": "Sousa (Garcia Homem de)",
+    "body": "Foi um dos fidalgos mandados pelo rei a esta ilha para casar com as filhas de João Gonçalves Zargo, tendo-se unido à terceira filha deste, que se chamava Catarina Gonçalves da Câmara. Teve terras de sesmaria em São Martinho e Santo Antonio, e fez o solar acastelado de Santo Amaro para se defender de seus cunhados, com quem teve pendências por motivos que não são hoje bem conhecidos. Era, diz o Dr. Azevedo, homem orgulhoso e violento (Vid. Santo Amaro (capelas de)).\n\nDiz Henrique Henriques de Noronha que Garcia Homem de Sousa descendia de Pedro Homem, um dos doze cavaleiros que foram a Inglaterra.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Martinho": [
+            "Local de terras de sesmaria"
+        ],
+        "Santo Antonio": [
+            "Local de terras de sesmaria"
+        ],
+        "Santo Amaro": [
+            "Local do solar acastelado"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zargo": [
+            "Pai das filhas casadas com Garcia Homem de Sousa"
+        ],
+        "Catarina Gonçalves da Câmara": [
+            "Terceira filha de João Gonçalves Zargo"
+        ]
+    },
+    "years": {}
+}

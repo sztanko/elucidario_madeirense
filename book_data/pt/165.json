@@ -1,0 +1,40 @@
+{
+    "id": 165,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almeida (D. Maria Helena Jervis de Atouguia e)",
+    "fl": "A",
+    "original_title": "Almeida (D. Maria Helena Jervis de Atouguia e)",
+    "body": "Nasceu no Funchal no ano de 1847 e pertenceu a uma antiga família madeirense. Em 1907 reuniu e publicou num volume de 114 pag. algumas das suas poesias, sob o pseudónimo de Bertha de Ataide e a que deu o título de Mosaicos. Este livro de que se fez 20 edição em 1909, é prefaciado pelo ilustre escritor padre Sena Freitas. No livro Poetisas Portuguesas, publicado em 1917, onde se encontram algumas composições poéticas da Sr.0 D. Maria Helena de Atouguia, diz que em breve deve aparecer a 30 edição dos Mosaicos. Faleceu em Lisboa no mês de Maio de 1928.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Nasceu"
+        ]
+    },
+    "people": {
+        "D. Maria Helena Jervis de Atouguia": [
+            "Poetisa"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Nasceu no Funchal"
+        ],
+        "1907": [
+            "Reuniu e publicou poesias"
+        ],
+        "1909": [
+            "Fez 20 edição dos Mosaicos"
+        ],
+        "1917": [
+            "Publicado livro Poetisas Portuguesas"
+        ],
+        "1928": [
+            "Faleceu em Lisboa"
+        ]
+    }
+}

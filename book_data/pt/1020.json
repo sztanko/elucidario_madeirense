@@ -1,0 +1,23 @@
+{
+    "id": 1020,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Correio da Manhã (O)",
+    "fl": "C",
+    "original_title": "Correio da Manhã (O)",
+    "body": "Começou a publicar-se a 31 de Agôsto de 1884 e terminou a 14 de Março de 1886, tendo saído 502 numeros.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1884": [
+            "Início da publicação do Correio da Manhã"
+        ],
+        "1886": [
+            "Término da publicação do Correio da Manhã"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2508,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Natividade (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Natividade (Capela de)",
+    "body": "In the area of Faial, in the parish of Santa Maria Maior, on the estate of the same name, stands the chapel of Nossa Senhora da Natividade, or do Faial, as it is more commonly known. It was built on the lands of the endowment instituted by Simão Acciaioly, who passed away in 1544. Zenobio Acciaioly, his son and successor in the administration of the entailed estate, built this chapel.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Faial": [
+            "Located in the estate of Faial, in the parish of Santa Maria Maior."
+        ]
+    },
+    "people": {
+        "Simão Acciaioly": [
+            "Institutor of the endowment where the chapel was built."
+        ],
+        "Zenobio Acciaioly": [
+            "Builder of the chapel."
+        ]
+    },
+    "years": {
+        "1544": [
+            "Death of Simão Acciaioly"
+        ]
+    }
+}

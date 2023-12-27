@@ -1,0 +1,29 @@
+{
+    "id": 2284,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mesquita",
+    "fl": "M",
+    "original_title": "Mesquita",
+    "body": "Dieser Familienname stammt von Pedro Ferreira de Mesquita, der 1662 in Ponta do Sol lebte und dort die Kapelle Nossa Senhora dos Milagres gründete, und von einem gewissen António de Mesquita, einem Einheimischen von Mallorca, der aus uns unbekannten Gründen auf diese Insel kam.\n\nV. Esprânger.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro Ferreira de Mesquita": [
+            "Gründer der Kapelle Nossa Senhora dos Milagres"
+        ],
+        "António de Mesquita": [
+            "Einheimischer von Mallorca"
+        ]
+    },
+    "years": {
+        "1662": [
+            "Gründung der Kapelle Nossa Senhora dos Milagres"
+        ]
+    }
+}

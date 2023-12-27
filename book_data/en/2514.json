@@ -1,0 +1,30 @@
+{
+    "id": 2514,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Perpétuo Socorro (",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Perpétuo Socorro (",
+    "body": "Chapel). In the year 1244, Francisco de Freitas Correia built a chapel of this invocation in the place of Queimada in the parish of Água de Pena.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena"
+    ],
+    "locations": {
+        "Queimada": [
+            "Located in the parish of Água de Pena."
+        ]
+    },
+    "people": {
+        "Francisco de Freitas Correia": [
+            "Builder of the chapel in 1244."
+        ]
+    },
+    "years": {
+        "1244": [
+            "Construction of the chapel"
+        ]
+    }
+}

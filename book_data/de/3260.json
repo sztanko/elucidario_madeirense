@@ -1,0 +1,38 @@
+{
+    "id": 3260,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Tiago (Festung)",
+    "fl": "S",
+    "original_title": "São Tiago (Fortaleza de)",
+    "body": "«Diese Festung, sagt Dr. Álvaro Rodrigues de Azevedo in seinen Anmerkungen zu Saudades da Terra, liegt auf einer festen Felsspitze, die weiter in die Hafengewässer hineinragt als die angrenzenden Strände; dadurch überwacht und schützt sie den Hafen auf beiden Seiten; darüber hinaus bildet sie den Abschluss des Mauerrings, der sich bis dahin über das Cabo do Calhau erstreckt. Der ursprüngliche Bau hatte nicht die erste Batterie, die dort existiert: das ursprüngliche Portal befindet sich innerhalb dieser und hat oben, in einem zeitgenössischen Schriftzug, die Zeitangabe 1614, was bezeugt, wann das Werk errichtet wurde».\n\nDie Festung São Tiago wurde 1767 neu aufgebaut, wie aus einer Inschrift über dem Haupttor an der Ost-Süd-Ecke des Eingangsplatzes hervorgeht. Der Gouverneur und Hauptmann-General José Correia de Sá ließ 50 Kanonen samt Zubehör aus London kommen zur Verteidigung der Festung.\n\nIn der Festung São Tiago ist die 3. Gebirgsartillerie-Batterie stationiert. Siehe Festungen.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Tiago": [
+            "Festung São Tiago"
+        ],
+        "Cabo do Calhau": [
+            "Lage des Mauerrings"
+        ]
+    },
+    "people": {
+        "Dr. Álvaro Rodrigues de Azevedo": [
+            "Autor der Anmerkungen zu Saudades da Terra"
+        ],
+        "José Correia de Sá": [
+            "Gouverneur und Hauptmann-General"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Baujahr der ursprünglichen Konstruktion"
+        ],
+        "1767": [
+            "Jahr des Wiederaufbaus"
+        ]
+    }
+}

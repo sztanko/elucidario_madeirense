@@ -1,0 +1,50 @@
+{
+    "id": 709,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camelia (Camellia japonica)",
+    "fl": "C",
+    "original_title": "Camelia (Camellia japonica)",
+    "body": "Arbusto ou pequena arvore da familia das Ternstroemiaceas, muito frequente na Madeira. É originario do Japão e um dos mais belos ornamentos das quintas do Monte e da Camacha. Também é conhecido pelo nome de japonesa.\n\nCaminho de Ferro Americano. Houve um entre a antiga Praça da Constituição e o Pombal, estabelecido em virtude da licença concedida pela Camara Municipal a José Ribeiro de Almeida e João Aluísio Virissimo para explorarem esse meio de condução na cidade. Os *rails+, cuja colocação havia sido iniciada em 1896, foram arrancados em 1915, tendo a circulação dos carros sido suspensa tempos antes, em consequencia dos prejuizos sofridos pela companhia do Caminho de Ferro do Monte, a quem a Camara concedera licença para explorar a linha, em sessão de 7 de Abril de 1902.\n\nO material da primitiva emprêsa do Caminho de Ferro Americano, foi arrematado por Manuel Betencourt Sardinha em 20 de Agosto de 1900 e cedido mais tarde á Companhia do Caminho de Ferro do Monte, a quem a Camara concedeu o subsidio anual de 300:00 réis, que foi pago até 31 de Março de 1909.\n\nO decreto de 2 de Agôsto de 1902 aprovou a deliberação da Camara Municipal do Funchal acêrca das condições do concurso que se pretendia abrir para a concessão do estabelecimento e exploração dos caminhos de ferro americanos. Segundo o art. 6º. das bases da adjudicação que acompanham o mesmo decreto, ficava livre ao adjudicatario a escolha do sistema de tracção a empregar, podendo indiferentemente decidir-se pela tracção a gado, pela locomoção electrica ou ainda pelo emprêgo do ar comprimido.",
+    "categories": [
+        "biology",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Quintas"
+        ],
+        "Camacha": [
+            "Quintas"
+        ],
+        "Praça da Constituição": [
+            "Antiga localidade"
+        ]
+    },
+    "people": {
+        "José Ribeiro de Almeida": [
+            "Explorador do Caminho de Ferro Americano"
+        ],
+        "João Aluísio Virissimo": [
+            "Explorador do Caminho de Ferro Americano"
+        ],
+        "Manuel Betencourt Sardinha": [
+            "Arrematador do material da primitiva emprêsa do Caminho de Ferro Americano"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Início da colocação dos *rails+"
+        ],
+        "1900": [
+            "Arrematação do material da primitiva emprêsa do Caminho de Ferro Americano"
+        ],
+        "1902": [
+            "Aprovação da deliberação da Camara Municipal do Funchal acêrca das condições do concurso para a concessão do estabelecimento e exploração dos caminhos de ferro americanos"
+        ],
+        "1909": [
+            "Pagamento do subsidio anual de 300:00 réis"
+        ]
+    }
+}

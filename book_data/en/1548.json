@@ -1,0 +1,32 @@
+{
+    "id": 1548,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gamboa",
+    "fl": "G",
+    "original_title": "Gamboa",
+    "body": "This surname \"comes, says the annotator of the Saudades, from Antonio Garcia Gamboa, a native of the town of Almeida, a knight of the Order of Christ, who was commander of the miunças of the island of Porto Santo and of the tithe of the fish of the town of Machico and that of Santa Cruz: he also had the status of a nobleman, and the property of the post of sergeant-major of the island of Madeira, in the time of King D. Sebastião.\"",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Machico",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Almeida": [
+            "Town of origin"
+        ]
+    },
+    "people": {
+        "Antonio Garcia Gamboa": [
+            "Native of the town of Almeida"
+        ]
+    },
+    "years": {
+        "D. Sebastião": [
+            "Time when he had the property of the post of sergeant-major of the island of Madeira"
+        ]
+    }
+}

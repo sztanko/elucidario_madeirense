@@ -1,0 +1,31 @@
+{
+    "id": 108,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Albuquerque (Major Joaquim Mousinho de)",
+    "fl": "A",
+    "original_title": "Albuquerque (Major Joaquim Mousinho de)",
+    "body": "Chegou ao Funchal, vindo de Moçambique, onde desempenhara o cargo de comissário régio, a 7 de Dezembro de 1897, tendo aqui uma brilhante recepção. Houve em sua honra um jantar no Palácio de S. Lourenço, musica e iluminação no Jardim Municipal e uma marche Aux flambeaux, promovida pela classe académica. Partiu para Lisboa a 12 de Dezembro.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localidade na Madeira"
+        ],
+        "Moçambique": [
+            "País"
+        ]
+    },
+    "people": {
+        "Major Joaquim Mousinho de Albuquerque": [
+            "Comissário régio"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Ano de partida para Lisboa"
+        ]
+    }
+}

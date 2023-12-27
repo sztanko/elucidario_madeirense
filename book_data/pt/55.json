@@ -1,0 +1,27 @@
+{
+    "id": 55,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Affecting (The)",
+    "fl": "A",
+    "original_title": "Affecting (The)",
+    "body": "The Story of Lionel and Arabella who first discovered of Island of Madeira and perished there; with the voyage of Juan Gonzalves Zarco, who completed the discovery of the Island. “From the Portuguese”. Londres, 1756.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Lionel and Arabella": [
+            "Descobridores da Ilha da Madeira"
+        ],
+        "Juan Gonzalves Zarco": [
+            "Completou a descoberta da Ilha da Madeira"
+        ]
+    },
+    "years": {
+        "1756": [
+            "Publicação do livro"
+        ]
+    }
+}

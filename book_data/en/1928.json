@@ -1,0 +1,34 @@
+{
+    "id": 1928,
+    "lang": "en",
+    "is_original": false,
+    "title": "Langerhans (Dr. Paul)",
+    "fl": "L",
+    "original_title": "Langerhans (Dr. Paul)",
+    "body": "He studied the worms of Madeira in the Zeitschrift für wissenschaftliche Zoologie (1879-84) and wrote a small book entitled Handbuch fur Madeira (Berlin, 1884).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island"
+        ],
+        "Berlin": [
+            "City"
+        ]
+    },
+    "people": {
+        "Dr. Paul Langerhans": [
+            "Scientist"
+        ]
+    },
+    "years": {
+        "1879-84": [
+            "Publication of the articles on the worms of Madeira"
+        ],
+        "1884": [
+            "Publication of the book Handbuch fur Madeira"
+        ]
+    }
+}

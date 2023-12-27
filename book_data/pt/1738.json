@@ -1,0 +1,32 @@
+{
+    "id": 1738,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Hora Oficial",
+    "fl": "H",
+    "original_title": "Hora Oficial",
+    "body": "Foi estabelecida pelo decreto n.° 2.922 de 30 de Dezembro de 1916. Em 31 de Janeiro do ano imediato pediu a autoridade militar à Câmara que o Relogio da Sé fosse adiantado uma hora, ás 23 horas, sendo atendida esta requisição, mas com a declaração feita pelo presidente o Dr. Fernando Tolentino da Costa, de que não reconhecia em tal medida utilidade alguma para a Madeira.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde foi estabelecida a Hora Oficial"
+        ],
+        "Sé": [
+            "Local onde o Relógio da Sé foi adiantado uma hora"
+        ]
+    },
+    "people": {
+        "Dr. Fernando Tolentino da Costa": [
+            "Presidente que declarou não reconhecer utilidade na medida de adiantar o Relógio da Sé uma hora"
+        ]
+    },
+    "years": {
+        "1916": [
+            "Ano de estabelecimento da Hora Oficial"
+        ]
+    }
+}

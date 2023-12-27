@@ -1,0 +1,28 @@
+{
+    "id": 717,
+    "lang": "de",
+    "is_original": false,
+    "title": "Campo de Baixo",
+    "fl": "C",
+    "original_title": "Campo de Baixo",
+    "body": "Bewohnter Ort auf der Insel Porto Santo mit einer Kapelle zur Anrufung des Heiligen Geistes, die ziemlich alt ist, aber im ersten Viertel des 19. Jahrhunderts vom Hauptmann Sebastião Antonio Drumond wiederaufgebaut wurde. Es hat 35 Haushalte und Einwohner.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Insel Porto Santo": [
+            "Bewohnter Ort"
+        ]
+    },
+    "people": {
+        "Sebastião Antonio Drumond": [
+            "Hauptmann, der die Kapelle des Heiligen Geistes im frühen 19. Jahrhundert wiederaufbaute"
+        ]
+    },
+    "years": {
+        "19. Jahrhundert": [
+            "Wiederaufbau der Kapelle des Heiligen Geistes"
+        ]
+    }
+}

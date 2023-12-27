@@ -1,0 +1,70 @@
+{
+    "id": 3237,
+    "lang": "en",
+    "is_original": false,
+    "title": "São José (Capelas de)",
+    "fl": "S",
+    "original_title": "São José (Capelas de)",
+    "body": "In the parish of Ribeira Brava and a short distance from the parish church, there was a chapel dedicated to St. Joseph, which the author of the 'Saudades da Terra' notes was founded by Luís Gonçalves da Silva in the year 1710. By 1905, it was still standing, although in an advanced state of ruin, and had the date 1709 above the portico. On April 15, 1750, a license was granted for its consecration, and at that time its administrator was the ensign Tomé João Pimentel. It was only consecrated in 1750, or was it a reconstruction? We do not know. However, it is certain that a license was granted for the consecration on April 15, 1750, as we had the opportunity to verify from an authentic document.\n\nThere was a chapel dedicated to St. Joseph in the parish of Calheta, the founder and year of construction of which we cannot determine. However, we know that the earthquake of 1748 left it very ruined, and that Francisco Agostinho de Figueiroa e Vasconcelos, its administrator and of the attached estate, had it rebuilt in 1776, moving it to a safer location, but in the vicinity of the original construction. In order to be able to celebrate the acts of worship, it was inspected by the ecclesiastical authority on June 3, 1776.\n\nIn the same parish and with the same dedication, there is now an elegant chapel built in 1915, in the Vale da Bica site, by Dr. Manuel dos Passos Freitas, next to the residence he owns there (1921).\n\nWith the invocation of St. Joseph, there was a chapel on the island of Porto Santo, founded in 1681 by Estevão Bettencourt Perestrelo, governor of the same island. The deed of endowment of this chapel is dated July 7, 1681.\n\nFather António Gonçalves Franco founded a chapel dedicated to St. Joseph in 1730, in the parish of Machico, which is now in ruins.\n\nIn the parish of Santa Cruz, there was a chapel consecrated to St. Joseph, whose founder and year of construction are entirely unknown to us.\n\nIn the early years of the second quarter of this century, a chapel of the same invocation was built in the picturesque site of Achada in the parish of Camacha.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Calheta",
+        "Machico",
+        "Santa Cruz",
+        "Camacha"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Located in the parish of Ribeira Brava"
+        ],
+        "Calheta": [
+            "Located in the parish of Calheta"
+        ],
+        "Vale da Bica": [
+            "Site where a chapel was built in 1915"
+        ],
+        "Porto Santo": [
+            "Island where a chapel was founded in 1681"
+        ],
+        "Machico": [
+            "Located in the parish of Machico"
+        ],
+        "Santa Cruz": [
+            "Located in the parish of Santa Cruz"
+        ],
+        "Achada da Camacha": [
+            "Site where a chapel was built in the early years of the second quarter of the century"
+        ]
+    },
+    "people": {
+        "Luís Gonçalves da Silva": [
+            "Founder of the chapel dedicated to St. Joseph in the parish of Ribeira Brava"
+        ],
+        "Francisco Agostinho de Figueiroa e Vasconcelos": [
+            "Administrator of the chapel dedicated to St. Joseph in the parish of Calheta"
+        ],
+        "Dr. Manuel dos Passos Freitas": [
+            "Commissioned the construction of a chapel in 1915 in the Vale da Bica site"
+        ]
+    },
+    "years": {
+        "1710": [
+            "Foundation of the chapel dedicated to St. Joseph in the parish of Ribeira Brava"
+        ],
+        "1750": [
+            "License granted for the consecration of the chapel dedicated to St. Joseph in the parish of Ribeira Brava"
+        ],
+        "1748": [
+            "Earthquake that left the chapel dedicated to St. Joseph in the parish of Calheta very ruined"
+        ],
+        "1776": [
+            "Rebuilding of the chapel dedicated to St. Joseph in the parish of Calheta"
+        ],
+        "1915": [
+            "Construction of a chapel dedicated to St. Joseph in the Vale da Bica site"
+        ]
+    }
+}

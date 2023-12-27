@@ -1,0 +1,40 @@
+{
+    "id": 2752,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Peres (Damião)",
+    "fl": "P",
+    "original_title": "Peres (Damião)",
+    "body": "Nasceu em Lisboa a 8 de Julho de 1889. Foi durante alguns anos professor e reitor do liceu do Funchal e é actualmente lente da Faculdade de Letras do Porto. Além dos trabalhos que publicou sôbre D. Joao I e Portugal e o Schisma, deu á luz da publicidade no Funchal, em 1914, um opusculo intitulado A Madeira sob os donatarios, que interessa bastante á historia deste arquipélago no periodo decorrido até o comêço do dominio filipino nesta ilha (Vid. II-100).\n\nÉ autor de importantes estudos historicos entre os quais sobressai a sua Historia de Portugal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisboa": [
+            "Capital de Portugal"
+        ],
+        "Funchal": [
+            "Capital da Ilha da Madeira"
+        ],
+        "Porto": [
+            "Cidade no norte de Portugal"
+        ]
+    },
+    "people": {
+        "D. Joao I": [
+            "Rei de Portugal"
+        ],
+        "Damião Peres": [
+            "Autor dos trabalhos mencionados"
+        ]
+    },
+    "years": {
+        "1889": [
+            "Nascimento de Damião Peres"
+        ],
+        "1914": [
+            "Publicação do opúsculo"
+        ]
+    }
+}

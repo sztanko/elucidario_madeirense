@@ -1,0 +1,27 @@
+{
+    "id": 3382,
+    "lang": "en",
+    "is_original": false,
+    "title": "Solander (Dr. Daniel Carlos)",
+    "fl": "S",
+    "original_title": "Solander (Dr. Daniel Carlos)",
+    "body": "Distinguished Swedish naturalist, a disciple of Linnaeus, born in Nordland on February 28, 1736, and died in London on May 16, 1782. See Banks.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Linnaeus": [
+            "Swedish botanist"
+        ]
+    },
+    "years": {
+        "1736": [
+            "Birth of Daniel Carlos Solander"
+        ],
+        "1782": [
+            "Death of Daniel Carlos Solander"
+        ]
+    }
+}

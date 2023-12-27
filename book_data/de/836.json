@@ -1,0 +1,32 @@
+{
+    "id": 836,
+    "lang": "de",
+    "is_original": false,
+    "title": "Catanho",
+    "fl": "C",
+    "original_title": "Catanho",
+    "body": "Bei uns stammt dieser Nachname von den Brüdern Kirio und Rafael Catanho, gebürtig aus Genua. Sie belegten ihre adlige Abstammung und genossen auf dieser Insel großes Ansehen. Kirio heiratete Maria Cabral, Tochter des dritten Grundherrn von Machico. Rafael Catanho war Ritter des Christusordens und hatte den Status eines Edelmannes des Königshauses.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Genua": [
+            "Herkunftsstadt der Brüder Kirio und Rafael Catanho"
+        ],
+        "Machico": [
+            "Ort, an dem der dritte Grundherr Land besaß"
+        ]
+    },
+    "people": {
+        "Kirio": [
+            "Bruder von Rafael Catanho"
+        ],
+        "Rafael Catanho": [
+            "Ritter des Christusordens"
+        ]
+    },
+    "years": {}
+}

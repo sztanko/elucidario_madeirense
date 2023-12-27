@@ -1,0 +1,47 @@
+{
+    "id": 2385,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mosteiro Novo",
+    "fl": "M",
+    "original_title": "Mosteiro Novo",
+    "body": "É o edifício do actual Seminàrio Diocesano. (1921). Diz o anotador das Saudades que foi uma tentativa do padre Manuel Afonso Rocha e principiado por 1654, destinando-se a freiras, mas que nunca chegou a ser concluído. Em um antigo manuscrito encontrámos mais algumas detalhadas referências a esse projectado mosteiro, que vamos reproduzir. A 17 de Dezembro de 1638, o cónego Manuel Afonso Rocha, encontrando-se retido no leito por doença grave, chamou à sua presença um tabelião e solicitou também a comparência do prelado diocesano D. Jerónimo Fernando, declarando que tinha dado começo a um mosteiro, composto de casas, oficinas, igreja e coro, sob a invocação de S. José, destinado a religiosos ou religiosas, sob a cláusula da celebração de algumas missas e ofícios, mas que não o tendo ainda concluído, entregava o seu governo e administração à protecção do mesmo prelado e seus sucessores, pedindo-lhes somente o aplicassem ao dito fim ou a um recolhimento para damas ou mulheres de qualidade, e que se isso não fosse possível, se desse o mosteiro com sua igreja e casas a religiosos virtuosos mendicantes ou outros que ali fizessem mais serviço a Deus. O pedido e as condições formuladas pelo cónego Rocha foram aceitos, mas escasseando as rendas, nunca se deu ao edifício a aplicação que lhe destinara o seu instituído. Também julgamos que as obras projectadas não chegaram a ser concluídas, pois nos parece que nunca ali existiu uma igreja e seu coro, mas apenas uma pequena capela no interior da casa. Em 1647, autorizou o prelado diocesano que os sobrinhos do fundador, o cónego António Espranger Rocha, seu irmão o padre Inacio Espranger e umas irmãs destes habitassem no edifício, tendo depois da morte deles ocupado a casa um seu sobrinho, o cónego António Espranger, que faleceu em 1691. Alguns anos depois, por 1697, foi ali instalado o Seminário Diocesano, que até então funcionava junto do Paço Episcopal. O terramoto de 1748, deixou muito danificada a casa do Mosteiro Novo, que teve de ser abandonada, voltando a servir de Seminário, depois de convenientemente reparada, pelos anos de 1760. No ano de 1788, foi o Seminário Diocesano transferido para o colégio dos Jesuítas, e dali regressou novamente ao Mosteiro Novo em 1801, quando a Madeira foi ocupada pelas tropas inglesas. Ali permaneceu até o ano de 1909, em que foi instalado no amplo edifício levantado na cerca do convento da Incarnação. Foi suprimido o Seminário desta diocese pelo decreto de 20 de abril de 1911, mas continuou a funcionar, sem carácter oficial, desde aquele ano, na antiga casa da rua do Mosteiro Novo. (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1654": [
+            "Principiado o Mosteiro Novo"
+        ],
+        "1638": [
+            "Início do Mosteiro Novo"
+        ],
+        "1647": [
+            "Autorização para habitação no edifício"
+        ],
+        "1697": [
+            "Instalação do Seminário Diocesano"
+        ],
+        "1748": [
+            "Terramoto danificou a casa do Mosteiro Novo"
+        ],
+        "1760": [
+            "Reparação da casa do Mosteiro Novo"
+        ],
+        "1788": [
+            "Transferência do Seminário Diocesano"
+        ],
+        "1801": [
+            "Regresso do Seminário Diocesano"
+        ],
+        "1909": [
+            "Instalação na cerca do convento da Incarnação"
+        ],
+        "1911": [
+            "Supressão do Seminário Diocesano"
+        ]
+    }
+}

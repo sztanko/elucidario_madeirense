@@ -1,0 +1,24 @@
+{
+    "id": 852,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cemiterio Israelita",
+    "fl": "C",
+    "original_title": "Cemiterio Israelita",
+    "body": "Located in the eastern part of the city, on the way to Lazareto. At the entrance, there is an inscription in Hebrew, which means 'dwelling of life', and the date 5.611, corresponding to the year 1851 of the Christian era.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lazareto": [
+            "Location of the Jewish cemetery"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "Construction date"
+        ]
+    }
+}

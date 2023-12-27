@@ -1,0 +1,35 @@
+{
+    "id": 1153,
+    "lang": "en",
+    "is_original": false,
+    "title": "Dibblee (Harrison)",
+    "fl": "D",
+    "original_title": "Dibblee (Harrison)",
+    "body": "Representative of the American Red Cross, who arrived in Madeira on November 6, 1918, on the Lake Forest transport, which brought 1465 sacks of wheat, 1047 of beans, 3000 of cornmeal, and 10628 of corn, sent by that benevolent society, at the request of Mr. Kemper, the American consul in Funchal. This important supply of provisions constituted a great benefit to the people of Madeira, who were already struggling with hunger, as the supplies intended for their subsistence were almost exhausted. In honor of Mr. Dibblee and the American consul, a dinner was held on November 9 at the São Lourenço Palace, attended by 76 guests. There were also two popular demonstrations, one promoted by the Municipal Chamber and the other by the working classes, both aimed at thanking these two foreign benefactors for supplying our market with the cereal necessary for our public consumption. Mr. Dibblee left for Norfolk (Virginia) on November 17 and resided, while in Funchal, at the São Lourenço Palace.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island where the Lake Forest transport arrived"
+        ],
+        "Funchal": [
+            "Place where Mr. Dibblee resided"
+        ]
+    },
+    "people": {
+        "Mr. Dibblee": [
+            "Representative of the American Red Cross"
+        ],
+        "Mr. Kemper": [
+            "American consul in Funchal"
+        ]
+    },
+    "years": {
+        "1918": [
+            "Mr. Dibblee arrived in Madeira"
+        ]
+    }
+}

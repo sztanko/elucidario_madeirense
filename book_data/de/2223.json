@@ -1,0 +1,56 @@
+{
+    "id": 2223,
+    "lang": "de",
+    "is_original": false,
+    "title": "Städtischer Schlachthof",
+    "fl": "S",
+    "original_title": "Matadouro Municipal",
+    "body": "Der alte städtische Schlachthof wurde 1851 in der Nähe des Fischmarktes (Praça de S. Pedro) gebaut. Er erfüllte gut den Zweck, für den er bestimmt war, und verfügte über reichlich Wasser für seine Reinigung.\n\nEs gibt einen Beschluss des Stadtrats aus dem Jahr 1495, in dem die Metzger angewiesen werden, das Vieh am Cabo do Calhau zu schlachten und abzuhäuten, aber am 20. Mai 1791 beschloss der Stadtrat, einen Kostenvoranschlag für den Bau eines Schlachthofs neben dem Haus des Almotacé zu erstellen, und bat 1795 die Königliche Schatzkammer um ein Darlehen von 400$000 Réis für denselben Bau. Am 9. September 1825 wurde der Schlachthof auf Anordnung der Gemeinde in die Nähe des Baches von Santa Luzia verlegt, wobei die Almotacés ermächtigt wurden, \"die Metzger und Gerber\" zu bestrafen, die außerhalb des neuen Ortes, der ihnen zugewiesen worden war, Vieh schlachteten.\n\nSchon 1446 gab es in Funchal einen Metzgerladen und ein Haus zum Verkauf von Fleisch, und aus dem Ratsbuch des Jahres 1488 geht hervor, dass das Fleischerhaus zu dieser Zeit in Richtung Santa Catarina lag.\n\nDer Schlachthof von 1851 wurde abgerissen und durch den heutigen städtischen Schlachthof ersetzt, der aus dem Jahr 1941 datiert und am rechten Ufer des Baches João Gomes liegt, in der Verlängerung der alten Gasse Beco do Cascalho, und ein modernes und geräumiges Gebäude ist, das nicht nur mit der notwendigen Weite für die vollständige Durchführung aller ihm eigentümlichen Dienstleistungen gebaut wurde, sondern auch in Übereinstimmung mit den strengsten Vorschriften der Hygiene.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [
+        "Santa Catarina"
+    ],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ],
+        "Cabo do Calhau": [
+            "Ort"
+        ],
+        "Santa Luzia": [
+            "Bach"
+        ],
+        "João Gomes": [
+            "Bach"
+        ],
+        "Beco do Cascalho": [
+            "Gasse"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "Bau des alten Schlachthofs"
+        ],
+        "1495": [
+            "Beschluss des Stadtrats"
+        ],
+        "1791": [
+            "Beschluss des Stadtrats"
+        ],
+        "1795": [
+            "Darlehensantrag"
+        ],
+        "1825": [
+            "Verlegung des Schlachthofs"
+        ],
+        "1446": [
+            "Existenz eines Metzgerladens in Funchal"
+        ],
+        "1488": [
+            "Lage des Fleischerhauses"
+        ]
+    }
+}

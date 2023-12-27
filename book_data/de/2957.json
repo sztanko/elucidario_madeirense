@@ -1,0 +1,44 @@
+{
+    "id": 2957,
+    "lang": "de",
+    "is_original": false,
+    "title": "Schatzmeister",
+    "fl": "S",
+    "original_title": "Provedor da Fazenda",
+    "body": "Er war einer der ranghöchsten Beamten in Funchal und unterstand dem Finanzrat, einem Gericht, das von Philipp II. von Spanien am 20. November 1591 gegründet und durch ein Gesetz vom 22. Dezember 1761 bestätigt wurde. Er war für die Buchführung über die Einnahmen und Ausgaben der öffentlichen Gelder zuständig und leitete bis 1775 den Funchaler Zoll, wie auf Seite 34 Bd. I dieses Lexikons erwähnt. Das königliche Dekret vom 2. August 1641 ordnete an, dass die Richter und Beamten der Stadtverwaltung ihm immer dann Hilfe leisten sollten, wenn dies erforderlich sei, und die Anordnung des Finanzrates vom 11. Januar 1701 bestimmte, dass er Beamte oder Soldaten der Miliz für Zeugenaussagen in Angelegenheiten der königlichen Finanzen vorladen könne, unabhängig von der Genehmigung des Gouverneurs. Er konnte Personen verhaften lassen, ohne die Erlaubnis des Korregidors einzuholen, und Gefangene aus dem Gefängnis vorladen, wenn dies für Maßnahmen des königlichen Fiskus erforderlich war, wie aus der Anordnung des Finanzrates vom 10. März 1735 hervorgeht. Die Schatzmeisterei wurde durch ein königliches Dekret vom 6. April 1775 abgeschafft und durch den Königlichen Finanzrat ersetzt, auf den wir bereits in diesem Lexikon verwiesen haben. Der Beamte, der das Amt des Schatzmeisters zum Zeitpunkt der Abschaffung dieser Stelle innehatte, wurde gemäß den Bestimmungen des Königlichen Finanzrates vom 21. August 1775 Richter am Zoll.",
+    "categories": [
+        "economy",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Einer der ranghöchsten Beamten in Funchal"
+        ]
+    },
+    "people": {
+        "Philipp II. von Spanien": [
+            "Gründete den Finanzrat"
+        ],
+        "Gouverneurs": [
+            "Genehmigung für Zeugenaussagen"
+        ]
+    },
+    "years": {
+        "1591": [
+            "Gründung des Finanzrates"
+        ],
+        "1641": [
+            "Königliches Dekret über Hilfe der Stadtverwaltung"
+        ],
+        "1701": [
+            "Anordnung des Finanzrates"
+        ],
+        "1735": [
+            "Anordnung des Finanzrates"
+        ],
+        "1775": [
+            "Abschaffung der Schatzmeisterei"
+        ]
+    }
+}

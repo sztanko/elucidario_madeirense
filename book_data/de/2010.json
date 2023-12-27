@@ -1,0 +1,37 @@
+{
+    "id": 2010,
+    "lang": "de",
+    "is_original": false,
+    "title": "Befreiung",
+    "fl": "B",
+    "original_title": "Livramento",
+    "body": "Besiedelte Stätte in der Gemeinde Monte. Der Name stammt von der Kapelle Unserer Lieben Frau der Befreiung, die sich dort befindet und 1684 von Inácio Ferreira Pinto erbaut und ein Jahrhundert später von João José Bettencourt de Freitas wiederaufgebaut wurde. Sie ist Teil eines Fideikommisses. Am selben Ort befindet sich eine Kapelle, die dem Heiligsten Herzen Jesu geweiht und vor einigen Jahren von Pfarrer Jorge de Faria e Castro erbaut wurde.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Gemeinde Monte"
+        ]
+    },
+    "people": {
+        "Inácio Ferreira Pinto": [
+            "Ließ die Kapelle Unserer Lieben Frau der Befreiung erbauen"
+        ],
+        "João José Bettencourt de Freitas": [
+            "Baute die Kapelle Unserer Lieben Frau der Befreiung wieder auf"
+        ],
+        "Jorge de Faria e Castro": [
+            "Baute die dem Heiligsten Herzen Jesu geweihte Kapelle"
+        ]
+    },
+    "years": {
+        "1684": [
+            "Bau der Kapelle Unserer Lieben Frau der Befreiung"
+        ]
+    }
+}

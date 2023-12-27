@@ -1,0 +1,26 @@
+{
+    "id": 3650,
+    "lang": "en",
+    "is_original": false,
+    "title": "Virtudes",
+    "fl": "V",
+    "original_title": "Virtudes",
+    "body": "A populated place in the parish of São Martinho, which took its name from the chapel of Nossa Senhora das Virtudes located there, ordered to be built in 1661 by Francisco de Vasconcelos Bettencourt, having been rebuilt by the mid-19th century. In the same place is the chapel of Santana, whose founder and year of construction are unknown.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco de Vasconcelos Bettencourt": [
+            "Founder of the chapel of Nossa Senhora das Virtudes"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Construction of the chapel of Nossa Senhora das Virtudes"
+        ]
+    }
+}

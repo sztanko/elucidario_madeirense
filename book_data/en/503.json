@@ -1,0 +1,26 @@
+{
+    "id": 503,
+    "lang": "en",
+    "is_original": false,
+    "title": "Boaventura (Porto da)",
+    "fl": "B",
+    "original_title": "Boaventura (Porto da)",
+    "body": "At the mouth of the Porco or Boaventura stream, there is a rocky beach, adjacent to the small port of the same name. It is close to Ponta Delgada, less than a mile away.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Ponta Delgada"
+    ],
+    "locations": {
+        "Boaventura": [
+            "Locality where the Porto da Boaventura is located"
+        ],
+        "Ponta Delgada": [
+            "Locality close to Porto da Boaventura"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

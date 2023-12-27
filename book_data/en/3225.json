@@ -1,0 +1,53 @@
+{
+    "id": 3225,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Francisco Xavier (Capelas de)",
+    "fl": "S",
+    "original_title": "São Francisco Xavier (Capelas de)",
+    "body": "In the place called Salão in the parish of Calheta, known as Cadeado, there is a small chapel with this name, which is still consecrated for worship. It was founded by Manuel da Silva Pinheiro in 1693, and the respective endowment deed is dated August 7 of the same year. It belongs to the heirs of D. Vicencia Julia de França Doria (1921).\n\nHaving the same patron saint, João Vieira de Afonseca erected a chapel in the parish of Santa Cruz in 1684.\n\nThere was also a hermitage with the same invocation in the parish of Porto da Cruz, in the place of Cruz da Guarda, whose founder is unknown, and it was owned by João Francisco Moniz de Meneses Cabral and his wife D. Maria Isidora Alvares de Carvalho, who bequeathed it to their nephew, Father Francisco Xavier de Sousa e Castro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta",
+        "Santa Cruz",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Calheta": [
+            "Parish of Calheta"
+        ],
+        "Santa Cruz": [
+            "Parish of Santa Cruz"
+        ],
+        "Porto da Cruz": [
+            "Parish of Porto da Cruz"
+        ]
+    },
+    "people": {
+        "Manuel da Silva Pinheiro": [
+            "Founder of the chapel"
+        ],
+        "João Vieira de Afonseca": [
+            "Founder of the chapel in the parish of Santa Cruz"
+        ],
+        "João Francisco Moniz de Meneses Cabral": [
+            "Last owner of the hermitage in the parish of Porto da Cruz"
+        ],
+        "D. Maria Isidora Alvares de Carvalho": [
+            "Last owner of the hermitage in the parish of Porto da Cruz"
+        ],
+        "Francisco Xavier de Sousa e Castro": [
+            "Nephew of the priest to whom the hermitage was bequeathed"
+        ]
+    },
+    "years": {
+        "1693": [
+            "Foundation of the chapel by Manuel da Silva Pinheiro"
+        ],
+        "1684": [
+            "Erection of the chapel by João Vieira de Afonseca in the parish of Santa Cruz"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 2983,
+    "lang": "en",
+    "is_original": false,
+    "title": "Quinta dos Reis",
+    "fl": "Q",
+    "original_title": "Quinta dos Reis",
+    "body": "A populated area in the parish of Monte. On this site, on a small hill, stands an old manor resembling an ancient rock castle, with an attached chapel dedicated to the Three Wise Men, built in 1554 by Duarte Mendes de Vasconcelos. Also found in this area is a chapel dedicated to the Child Jesus.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {},
+    "people": {
+        "Duarte Mendes de Vasconcelos": [
+            "Builder of the chapel dedicated to the Three Wise Men"
+        ]
+    },
+    "years": {
+        "1554": [
+            "Construction of the chapel dedicated to the Three Wise Men"
+        ]
+    }
+}

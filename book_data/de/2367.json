@@ -1,0 +1,28 @@
+{
+    "id": 2367,
+    "lang": "de",
+    "is_original": false,
+    "title": "Moquet",
+    "fl": "M",
+    "original_title": "Moquet",
+    "body": "Ein wahrscheinlich englischer Reisender namens Moquet besuchte Madeira im Jahr 1601. Er schrieb eine Arbeit über die Insel, die wir nicht gesehen haben und deren Titel uns nicht bekannt ist.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel im Atlantik, die Moquet 1601 besuchte"
+        ]
+    },
+    "people": {
+        "Moquet": [
+            "Englischer Reisender"
+        ]
+    },
+    "years": {
+        "1601": [
+            "Besuch Moquets auf Madeira"
+        ]
+    }
+}

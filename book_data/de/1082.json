@@ -1,0 +1,32 @@
+{
+    "id": 1082,
+    "lang": "de",
+    "is_original": false,
+    "title": "Cruz (Ponta da)",
+    "fl": "C",
+    "original_title": "Cruz (Ponta da)",
+    "body": "Etwas östlich der Praia Formosa und westlich des Ilhéu do Gorgulho an der Küste der Gemeinde São Martinho befindet sich die so genannte Ponta da Cruz, die von vielen als das westliche Ende der Bucht von Funchal angesehen wird. Dort gab es ein kleines Fort, das heute abgerissen ist. In der Nähe befindet sich eine bedeutende Fischkonservenfabrik.",
+    "categories": [
+        "geography",
+        "architecture"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Praia Formosa": [
+            "Strand auf Madeira"
+        ],
+        "Ilhéu do Gorgulho": [
+            "Inselchen vor Madeira"
+        ],
+        "São Martinho": [
+            "Gemeinde auf Madeira"
+        ],
+        "Funchal": [
+            "Stadt auf Madeira"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

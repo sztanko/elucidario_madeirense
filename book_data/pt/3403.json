@@ -1,0 +1,33 @@
+{
+    "id": 3403,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sousa Brasão (Manuel de)",
+    "fl": "S",
+    "original_title": "Sousa Brasão (Manuel de)",
+    "body": "Nasceu na freguesia de S. Vicente a 21 de Abril de 1884 e faleceu na sua residência, na fortaleza de S. Lourenço, a 21 de Dezembro de 1923. Era capitão da Administração Militar e serviu no sul de Angola de 1914 a 1915, e em Moçambique de 1916 a 1917. Foi eleito deputado pela Madeira em 10 de Julho de 1921 e colaborou em vários jornais de facção partidária.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [
+        "S. Vicente"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Local de nascimento"
+        ],
+        "Fortaleza de S. Lourenço": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1884": [
+            "Nascimento de Manuel de Sousa Brasão"
+        ],
+        "1923": [
+            "Falecimento na fortaleza de S. Lourenço"
+        ]
+    }
+}

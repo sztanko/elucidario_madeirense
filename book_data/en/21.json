@@ -1,0 +1,31 @@
+{
+    "id": 21,
+    "lang": "en",
+    "is_original": false,
+    "title": "Abruzos (Duke of)",
+    "fl": "A",
+    "original_title": "Abruzos (Duque dos)",
+    "body": "He was last in Madeira in 1907, as the commander of the cruiser Etna. He was offered a hunt by the owners of the Deserta Grande island, and in Funchal, an official ball by Governor D. Bernardo da Costa. The Duke of Abruzos refers to Madeira several times in some of the writings he published.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where the Duke of Abruzos was in 1907"
+        ],
+        "Deserta Grande": [
+            "Location where the Duke of Abruzos was offered a hunt"
+        ]
+    },
+    "people": {
+        "Duke of Abruzos": [
+            "Commander of the cruiser Etna, visited Madeira in 1907"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Visit of the Duke of Abruzos to Madeira"
+        ]
+    }
+}

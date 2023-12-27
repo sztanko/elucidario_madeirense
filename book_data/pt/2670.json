@@ -1,0 +1,41 @@
+{
+    "id": 2670,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Passos (António Romão dos)",
+    "fl": "P",
+    "original_title": "Passos (António Romão dos)",
+    "body": "Nasceu na Ribeira Brava a 28 de Fevereiro de 1866, mas foi em tenra idade para Portugal, onde frequentou estudos secundarios e o Instituto Geral de Agricultura. É há muitos anos agronomo da Companhia Geral de Credito Predial Português. Publicou o Elogio do Conselheiro João Inacio Ferreira Lapa, proferido na sessâo solene de 20 de Maio de 1905 na Sociedade de Sciencias Agronomicas de Portugal, e consta-nos ter também dado a lume uma biografia do sabio botanico e agronomo D. Antonio Xavier Pereira Coutinho (1921).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Local de nascimento"
+        ],
+        "Portugal": [
+            "Local de estudos"
+        ]
+    },
+    "people": {
+        "Conselheiro João Inacio Ferreira Lapa": [
+            "Personalidade mencionada"
+        ],
+        "D. Antonio Xavier Pereira Coutinho": [
+            "Sábio botânico e agrónomo"
+        ]
+    },
+    "years": {
+        "1866": [
+            "Ano de nascimento"
+        ],
+        "1905": [
+            "Ano da sessão solene"
+        ],
+        "1921": [
+            "Ano da publicação da biografia"
+        ]
+    }
+}

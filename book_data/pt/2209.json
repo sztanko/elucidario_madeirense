@@ -1,0 +1,44 @@
+{
+    "id": 2209,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Martins (Dr. Frederico dos Santos)",
+    "fl": "M",
+    "original_title": "Martins (Dr. Frederico dos Santos)",
+    "body": "É filho do abastado proprietário Manuel Martins, nasceu nesta cidade a 1 de Novembro de 1869 e é bacharel formado em direito pela Universidade de Coimbra. Há muitos anos que estabeleceu residência em Lisboa, onde exerce distintamente a advocacia. Representou a Madeira em cortes nas sessões legislativas de 1902-1904 1904 e 1906. Em vários opúsculos, tem publicado alguns dos seus trabalhos jurídicos na defesa de diversas causas civis e comerciais. É autor do notável trabalho «Direito Comercial Maritimo», de que apenas se publicou a primeira parte em um volume de 383 páginas, no ano de 1932.",
+    "categories": [
+        "politics",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Universidade de Coimbra"
+        ],
+        "Lisboa": [
+            "Residência em Lisboa"
+        ]
+    },
+    "people": {
+        "Manuel Martins": [
+            "Abastado proprietário"
+        ]
+    },
+    "years": {
+        "1869": [
+            "Nascimento de Frederico dos Santos Martins"
+        ],
+        "1902": [
+            "Representação da Madeira em cortes"
+        ],
+        "1904": [
+            "Representação da Madeira em cortes"
+        ],
+        "1906": [
+            "Representação da Madeira em cortes"
+        ],
+        "1932": [
+            "Publicação da primeira parte do trabalho «Direito Comercial Maritimo»"
+        ]
+    }
+}

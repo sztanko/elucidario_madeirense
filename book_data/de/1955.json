@@ -1,0 +1,30 @@
+{
+    "id": 1955,
+    "lang": "de",
+    "is_original": false,
+    "title": "Leiria (Júlio Augusto)",
+    "fl": "L",
+    "original_title": "Leiria (Júlio Augusto)",
+    "body": "Militäringenieur vom Festland, der die Positionen des Direktors der öffentlichen Bauarbeiten im Bezirk Funchal und Professor der ersten drei Mathematikjahre an unserem Gymnasium innehatte. Er veröffentlichte 1871 eine Karte der Insel Madeira, auf die wir bereits in diesem Elucidário Bezug genommen haben, und schrieb 1874 eine Broschüre mit dem folgenden Titel: Zwei Worte von Júlio Augusto Leiria als Antwort auf die Broschüre mit dem Titel \"Das Krankenhaus Santa Isabel in der Stadt Funchal\". Diesem Beamten ist der Beginn seines Baus zu verdanken. Er starb im Januar 1878 in Coimbra im Alter von etwa 50 Jahren.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Júlio Augusto Leiria": [
+            "Militäringenieur"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Veröffentlichung der Karte der Insel Madeira"
+        ],
+        "1874": [
+            "Veröffentlichung der Broschüre Zwei Worte von Júlio Augusto Leiria als Antwort auf die Broschüre mit dem Titel \"Das Krankenhaus Santa Isabel in der Stadt Funchal\""
+        ],
+        "1878": [
+            "Tod in Coimbra"
+        ]
+    }
+}

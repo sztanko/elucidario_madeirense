@@ -1,0 +1,30 @@
+{
+    "id": 92,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alamos",
+    "fl": "A",
+    "original_title": "Alamos",
+    "body": "A populated place in the parish of Santo Antonio do Funchal. The chapel of Nossa Senhora do Amparo is located there, built in 1698 by Bartolomeu de Sá Machado, whose estate and adjoining lands constituted the headquarters of the 'morgadio' of Água de Mel, one of the oldest Vincular institutions in Madeira, of which the second Count of Carvalhal was the last representative. In this place, known as the Til, there were entailed lands, under the direct administration of a Velosa family.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Santo Antonio do Funchal": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "Bartolomeu de Sá Machado": [
+            "Builder of the chapel of Nossa Senhora do Amparo"
+        ]
+    },
+    "years": {
+        "1698": [
+            "Construction of the chapel of Nossa Senhora do Amparo"
+        ]
+    }
+}

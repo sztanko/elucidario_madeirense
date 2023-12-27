@@ -1,0 +1,38 @@
+{
+    "id": 318,
+    "lang": "en",
+    "is_original": false,
+    "title": "Athias (Dr. Marck)",
+    "fl": "A",
+    "original_title": "Athias (Dr. Marck)",
+    "body": "He was born on December 11, 1876, and holds a doctorate in medicine from the Faculty of Paris and is a medical surgeon from the Medical School of Lisbon, having completed his secondary studies at the Funchal lyceum, where he always proved to be a very distinguished student. He serves as the first assistant at the Câmara Pestana Bacteriological Institute, as a professor and librarian at the Faculty of Medicine of Lisbon, and as secretary at the Portuguese Society of Natural Sciences. He wrote a work entitled Anatomy of the Nerve Cell (Lisbon, 1905) and has collaborated in the bulletin of the Portuguese Society of Natural Sciences, Polytechnia, etc., etc..",
+    "categories": [
+        "health",
+        "education",
+        "science"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Paris": [
+            "Faculty of"
+        ],
+        "Lisbon": [
+            "Medical School of"
+        ]
+    },
+    "people": {
+        "Dr. Marck Athias": [
+            "Doctor of Medicine"
+        ]
+    },
+    "years": {
+        "1876": [
+            "Birth"
+        ],
+        "1905": [
+            "Work entitled Anatomy of the Nerve Cell"
+        ]
+    }
+}

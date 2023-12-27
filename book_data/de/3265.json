@@ -1,0 +1,51 @@
+{
+    "id": 3265,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Vicente (Stadt und Gemeinde)",
+    "fl": "S",
+    "original_title": "São Vicente (Vila e Município de)",
+    "body": "Es ist bekannt, dass die Städte Funchal, Machico und Porto Santo Mitte des 15. Jahrhunderts gegründet wurden und Santa Cruz, Ponta do Sol und Calheta zu Beginn des 16. Jahrhunderts. Im Laufe des 17. Jahrhunderts wurde auf Madeira keine Stadt gegründet, São Vicente wurde im zweiten Viertel des 18. Jahrhunderts geschaffen.\n\nDas Gebiet von São Vicente, das Ende des 15. Jahrhunderts zur Pfarrei erhoben wurde, war eine der Gemeinden im Norden Madeiras, die seit den frühesten Zeiten der Kolonisation an Bedeutung gewann und wo die Bevölkerung am dichtesten wurde. Es ist noch heute die bevölkerungsreichste von allen. Es gehörte zur Kapitänie Machico und die Stadt gleichen Namens war der Sitz der gesamten öffentlichen Verwaltung. Die Menschen im Norden der Insel waren gezwungen, lange und gefährliche Fußmärsche zu unternehmen, um in die Hauptstadt ihrer Kapitänie zu gelangen, wenn zwingende Umstände dies erforderlich machten.\n\nDa viele Gemeinden an der Nordküste leichtere und häufigere Verbindungen mit Funchal hatten, versuchten die Menschen dieser Pfarreien mehrmals, sich der Gerichtsbarkeit der Kapitänie Machico zu entziehen und in die von Funchal eingegliedert zu werden oder die Schaffung einer Gemeinde mit Sitz in São Vicente zu erreichen, die diese und andere benachbarte Gemeinden umfassen sollte.\n\nDer legitime Wunsch der Menschen im Norden wurde 1744 mit der Gründung der Stadt São Vicente erfüllt. Dr. Alvaro Rodrigues de Azevedo macht keinerlei Andeutung auf dieses Ereignis und kannte sicherlich nicht das Dokument, das die Gemeinde São Vicente in den Rang einer Stadt erhob. Das betreffende königliche Dekret vom 25. August 1744 ist ein umfangreiches und überaus interessantes Dokument. Es wurde erstmals 1902 in den Nummern 14 ff. der Zeitschrift A Revista Madeirense veröffentlicht.\n\nNach Einführung der konstitutionellen Regierung wurde Madeira in Gemeinden eingeteilt, wobei die bestehende Einteilung in Städte oder Gemeinden grundlegend geändert wurde. Der Rat von São Vicente wurde 1835 gebildet und bestand wie heute aus den Gemeinden Boaventura, Ponta Delgada und São Vicente. Das Dekret vom 10. Dezember 1867 hob die Gemeinde Porto Moniz auf und gliederte die Gemeinden Seixal, Ribeira da Janela und Porto Moniz in die von São Vicente ein. Kurz darauf wurde die aufgelöste Gemeinde Porto Moniz wiederhergestellt. Diese Gemeinde wurde durch das Dekret vom 18. November 1895 erneut aufgehoben und durch das Dekret vom 13. Januar 1898 wiederhergestellt, so dass die Gemeinden Seixal, Ribeira da Janela und Porto Moniz für kurze Zeit wieder Teil der Gemeinde São Vicente waren.\n\nDa die Stadt São Vicente in einem engen Raum liegt und aus einer begrenzten Anzahl von Einwohnern besteht, konnte sie sich nicht so entwickeln, wie es ihrer Stellung als Sitz eines Gerichtsbezirks, mit den Ehren einer Stadt, als Hauptort einer Gemeinde und Zentrum eines kommunalen Gerichtsbezirks entspricht. Es ist daher zweckmäßig, sie an einem Ort mit mehr Fläche anzusiedeln, der die Bildung eines bedeutenden Bevölkerungszentrums um die Gemeindeverwaltung ermöglicht, wie es andernorts üblich ist. Die Idee, den Sitz der Gemeinde an einen geeigneteren Ort zu verlegen, ist nicht neu. 1929 befasste sich der Gemeindeverwaltungsausschuss eingehend mit dieser Angelegenheit, wählte einen Ort aus und entwarf einen Plan für die künftige Stadt. Es ist zu erwarten, dass der ehemalige Gerichtsbezirk wiederhergestellt wird, was dem Ort, an dem sich möglicherweise eine Siedlung bilden wird, große Bedeutung verleihen wird.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Ponta Delgada",
+        "São Vicente",
+        "Seixal",
+        "Ribeira da Janela",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt seiner Kapitänie"
+        ],
+        "Machico": [
+            "Kapitänie Machico"
+        ]
+    },
+    "people": {
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Kannte sicherlich nicht das Dokument, das die Gemeinde São Vicente in den Rang einer Stadt erhob"
+        ]
+    },
+    "years": {
+        "1744": [
+            "Gründung der Stadt São Vicente"
+        ],
+        "1835": [
+            "Einrichtung des Rates von São Vicente"
+        ],
+        "1867": [
+            "Aufhebung der Gemeinde Porto Moniz"
+        ],
+        "1895": [
+            "Aufhebung der Gemeinde São Vicente"
+        ],
+        "1898": [
+            "Wiederherstellung der Gemeinde São Vicente"
+        ]
+    }
+}

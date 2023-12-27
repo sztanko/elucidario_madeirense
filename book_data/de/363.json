@@ -1,0 +1,31 @@
+{
+    "id": 363,
+    "lang": "de",
+    "is_original": false,
+    "title": "Azevedo Lemos (José Antonio de)",
+    "fl": "A",
+    "original_title": "Azevedo Lemos (José Antonio de)",
+    "body": "Oberst und Kommandant der Militärexpedition, die 1828 nach Madeira kam. Er hatte ernsthafte Meinungsverschiedenheiten mit dem Gouverneur und Generalkapitän, dem berüchtigten José Maria Monteiro, und wollte ihn sogar in der Festung S. Lourenco angreifen und der miguelistischen Regierung als Mann melden, der nur auf \"einen infamen Kreis abscheulicher Individuen mit Lastern und schlechten Sitten\" höre.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem er die Militärexpedition 1828 befehligte"
+        ],
+        "S. Lourenco": [
+            "Festung, in der sich der Zwischenfall mit José Maria Monteiro ereignete"
+        ]
+    },
+    "people": {
+        "José Antonio de Azevedo Lemos": [
+            "Oberst und Kommandant der Militärexpedition"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Militärexpedition nach Madeira"
+        ]
+    }
+}

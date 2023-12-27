@@ -1,0 +1,31 @@
+{
+    "id": 67,
+    "lang": "de",
+    "is_original": false,
+    "title": "Água(Ponta da)",
+    "fl": "Á",
+    "original_title": "Água(Ponta da)",
+    "body": "Diese Landspitze oder Küstenvorsprung liegt an der Küste der Gemeinde Câmara de Lobos in der Nähe des Cabo Girão, in gleichem Abstand von Fajã das Pedras und Fajã dos Asnos.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Gemeinde Câmara de Lobos"
+        ],
+        "Cabo Girão": [
+            "Cabo Girão"
+        ],
+        "Fajã das Pedras": [
+            "Fajã das Pedras"
+        ],
+        "Fajã dos Asnos": [
+            "Fajã dos Asnos"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

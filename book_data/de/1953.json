@@ -1,0 +1,27 @@
+{
+    "id": 1953,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gesetzgebung",
+    "fl": "G",
+    "original_title": "Legislação",
+    "body": "In dem kleinen Artikel der ersten Ausgabe dieses Werks mit dem Titel Gesetzgebung haben wir gesagt, dass wir im \"Anhang\" eine zusammenfassende Übersicht der Gesetze und Verordnungen über diesen Archipel geben würden, als wertvollen Beitrag zum Studium der Maßnahmen, die die Regierungen des Mutterlandes in der öffentlichen Verwaltung Madeiras im Laufe von fünf Jahrhunderten getroffen haben. Der \"Anhang\", der den dritten Band des \"Madeira-Kompendiums\" bilden sollte, wurde nie veröffentlicht, und in dieser neuen Ausgabe kann dieses Versäumnis aufgrund des zu großen Umfangs, den eine Zusammenfassung dieser Gesetzgebung einnehmen würde, nicht behoben werden. Diese Lücke wurde teilweise mit der Veröffentlichung des Buches \"Der Madeira-Archipel in der portugiesischen Gesetzgebung\" von Pater Fernando Augusto da Silva geschlossen, in dem eine Zusammenfassung dieser Gesetze und Verordnungen aus der Zeit von 1934 bis 1939 zusammen mit einem ausführlichen Sachregister und Anmerkungen zu finden ist, die mehr als hundert Seiten des genannten Buches einnehmen. Bei einer zweiten Auflage dieses Werkes sollte eine Zusammenfassung der Gesetzgebung hinzugefügt werden, die vor der konstitutionellen Periode erlassen wurde, zu der die gelehrten Anmerkungen der \"Sehnsüchte nach der Heimat\" ein reichhaltiges Repertoire bieten, zusätzlich zu mehreren alten Sammlungen portugiesischer Gesetzgebung, insbesondere die Arbeiten von José Anastacio de Figueiredo und José Justino de Andrade e Silva.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Fernando Augusto da Silva": [
+            "Autor des Buches \"Der Madeira-Archipel in der portugiesischen Gesetzgebung\""
+        ]
+    },
+    "years": {
+        "1934": [
+            "Beginn des Zeitraums, der von der Zusammenfassung der Gesetze und Verordnungen abgedeckt wird"
+        ],
+        "1939": [
+            "Ende des Zeitraums, der von der Zusammenfassung der Gesetze und Verordnungen abgedeckt wird"
+        ]
+    }
+}

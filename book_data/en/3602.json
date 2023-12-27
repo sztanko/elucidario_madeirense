@@ -1,0 +1,37 @@
+{
+    "id": 3602,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vidal (Captain A. T. E.)",
+    "fl": "V",
+    "original_title": "Vidal (Capitão A. T. E.)",
+    "body": "> He visited the Madeira archipelago in the steamship Styx, of which he was the commander, in 1842 and 1843. He was responsible for the survey of a map of the islands of Madeira, Porto Santo, and Desertas, published in 1843. Captain Vidal, of the British navy, was greatly assisted in the work he had to carry out by Captain of Engineers Antonio Pedro de Azevedo. See Geographical Charts.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Visited in 1842 and 1843"
+        ],
+        "Porto Santo": [
+            "Visited in 1842 and 1843"
+        ],
+        "Desertas": [
+            "Visited in 1842 and 1843"
+        ]
+    },
+    "people": {
+        "Captain A. T. E. Vidal": [
+            "Commander of the steamship Styx, responsible for the survey of the map of the islands of Madeira, Porto Santo, and Desertas"
+        ]
+    },
+    "years": {
+        "1842": [
+            "Visit to the Madeira archipelago"
+        ],
+        "1843": [
+            "Publication of the map of the islands of Madeira, Porto Santo, and Desertas"
+        ]
+    }
+}

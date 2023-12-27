@@ -1,0 +1,33 @@
+{
+    "id": 3481,
+    "lang": "en",
+    "is_original": false,
+    "title": "Tierno (João)",
+    "fl": "T",
+    "original_title": "Tierno (João)",
+    "body": "He was the livestock superintendent in Funchal and published in 1897, in the Bulletin of the Directorate General of Agriculture, 6th year, no. 11, a work entitled Report of the Veterinarian of Funchal, in which he presents some meteorological, geological, and botanical data, largely extracted from national and foreign works that deal with Madeira. In the distribution of plants by zones in that work, there are lapses that are difficult to explain, even pointing out the folhadeiro as a characteristic species of the high peaks of Madeira, when it is certain that such a species does not go beyond the valleys of the interior, being very frequent in the parish of Camacha. The meteorological observations that Mr. Tierno claims to have carried out in the shelters of Ser do Faial, Vale da Lapa, and Paul da Serra, from 1888 to 1890, are not recorded in any register, and the caretakers of these shelters have declared to us that they had no knowledge of them, which we find extraordinary. (1921)",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Camacha"
+    ],
+    "locations": {
+        "Funchal": [
+            "Place of work of João Tierno"
+        ],
+        "Camacha": [
+            "Mentioned parish"
+        ]
+    },
+    "people": {
+        "João Tierno": [
+            "Livestock superintendent"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Publication of João Tierno's work"
+        ]
+    }
+}

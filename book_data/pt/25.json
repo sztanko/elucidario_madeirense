@@ -1,0 +1,23 @@
+{
+    "id": 25,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Academia (A)",
+    "fl": "A",
+    "original_title": "Academia (A)",
+    "body": "Publicaram se 29 números, sendo o 11 a 28 de Outubro de 1900 e o último a 2 de Junho de 1901.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1900": [
+            "Publicação do número 11"
+        ],
+        "1901": [
+            "Publicação do último número"
+        ]
+    }
+}

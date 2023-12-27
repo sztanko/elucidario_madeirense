@@ -1,0 +1,35 @@
+{
+    "id": 700,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kammer von Lôbos (Hafen, Kai und Bucht)",
+    "fl": "K",
+    "original_title": "Camara de Lôbos (Porto, Cais e Enseada de)",
+    "body": "Mit dem so genannten Dorf Kammer von Lôbos, Sitz der gleichnamigen Gemeinde und des gleichnamigen Kreises, grenzt eine etwas weitläufige, aber malerische Bucht an, die durch einen kleinen Kiesstrand begrenzt und durch einen 1876 erbauten und 1903 erheblich verbesserten Anlegesteg bedient wird. Dieser Hafen hat eine relativ große Bewegung, da Kammer von Lôbos ein wichtiger Fischereihafen ist, in dessen jeweiliger Industrie einige Hundert Menschen beschäftigt sind. Diesem Hafen legen die Küstendampfer an. Er liegt 4 Seemeilen von Funchal und 3 Seemeilen von Campanário entfernt.",
+    "categories": [
+        "geography",
+        "economy"
+    ],
+    "freguesias": [
+        "Câmara de Lôbos",
+        "Funchal",
+        "Campanário"
+    ],
+    "locations": {
+        "Dorf Kammer von Lôbos": [
+            "Sitz der gleichnamigen Gemeinde und des gleichnamigen Kreises"
+        ],
+        "Kammer von Lôbos": [
+            "Wichtiger Fischereihafen"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1876": [
+            "Bau des Anlegestegs"
+        ],
+        "1903": [
+            "Verbesserung des Anlegestegs"
+        ]
+    }
+}

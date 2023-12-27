@@ -1,0 +1,32 @@
+{
+    "id": 955,
+    "lang": "de",
+    "is_original": false,
+    "title": "Zivilpolizeikommissariat Funchal",
+    "fl": "Z",
+    "original_title": "Comissariado de Policia Civil do Funchal",
+    "body": "Es wurde am 1. September 1878 eingerichtet. Der erste Polizeikommissar war Pedro de Alcantara Góis, der 1877 ernannt, aber bereits seit dem 3. August 1864 das Amt des Polizeidirektors von Funchal ausübte.\n\nSiehe Polizei.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro de Alcantara Góis": [
+            "Erster Polizeikommissar"
+        ]
+    },
+    "years": {
+        "1. September 1878": [
+            "Einrichtung des Zivilpolizeikommissariats Funchal"
+        ],
+        "1877": [
+            "Ernennung von Pedro de Alcantara Góis zum Polizeikommissar"
+        ],
+        "3. August 1864": [
+            "Beginn der Amtsausübung als Polizeidirektor von Funchal durch Pedro de Alcantara Góis"
+        ]
+    }
+}

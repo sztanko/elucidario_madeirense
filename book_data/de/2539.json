@@ -1,0 +1,26 @@
+{
+    "id": 2539,
+    "lang": "de",
+    "is_original": false,
+    "title": "Neues Dorf oder Dorf der Königin",
+    "fl": "N",
+    "original_title": "Nova Aldeia ou Aldeia da Rainha",
+    "body": "Siedlung, die durch königliches Dekret vom 18. Dezember 1768 in der Gemeinde Santo da Serra gegründet und aus mehreren Familien der Insel Porto Santo bestand, die sich dorthin umsiedelten und denen die Regierung des Mutterlandes verschiedene Vergünstigungen gewährte. Diese neue Siedlung hatte jedoch keine lange Existenz.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Gemeinde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1768": [
+            "Gründung der Siedlung"
+        ]
+    }
+}

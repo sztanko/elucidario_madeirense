@@ -1,0 +1,45 @@
+{
+    "id": 3620,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vigia (Quinta)",
+    "fl": "V",
+    "original_title": "Vigia (Quinta)",
+    "body": "It is considered one of the most beautiful estates in Madeira, not so much for the sumptuousness of the residence and gardens that surround it, but for its enviable location overlooking the sea, reminiscent of many of the rich and splendid villas of the famous Côte d'Azur. It currently belongs to the State and was part of the properties owned on this island by the former Sanatorium Company, which was concessioned to Prince Frederico de Hohenlohe (see Sanatoriums). The queen Adelaide of England, the empress Isabel of Austria, the unfortunate archduke Maximiliano, later emperor of Mexico, and the prince of Oldenburgo, among others, resided in this estate.\n\nThe Vigia estate served as accommodation for the Republican Guard forces that were in Madeira until May 1922, and in August 1971, a bill was presented in parliament for the transfer of the same estate to a house for journalists.\nThe name of the estate probably comes from the existence of a lookout there, that is, a station intended to give an alarm about corsairs or any other enemy ships, and to prevent smuggling. The Vigia estate originally belonged to the wealthy Englishman Ricardo Davies, who came to Madeira in the late 19th century.",
+    "categories": [
+        "history",
+        "culture",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Côte d'Azur": [
+            "Coastal region in the southeast of France"
+        ]
+    },
+    "people": {
+        "Frederico de Hohenlohe": [
+            "Prince and concessionaire of the Sanatorium Company"
+        ],
+        "Adelaide": [
+            "Queen of England"
+        ],
+        "Isabel": [
+            "Empress of Austria"
+        ],
+        "Maximiliano": [
+            "Archduke and emperor of Mexico"
+        ],
+        "Oldenburgo": [
+            "Prince"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Republican Guard forces were at the Vigia Estate"
+        ],
+        "1971": [
+            "Bill for the transfer of the Vigia Estate to a house for journalists was presented in parliament"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 15,
+    "lang": "en",
+    "is_original": false,
+    "title": "Abreu (João Gomes de)",
+    "fl": "A",
+    "original_title": "Abreu (João Gomes de)",
+    "body": "He was known by the name of João Gomes de Abreu da Ilha. He was the captain of a ship in the fleet that set sail for India in 1506. He took part in the battles against the Moors of the cities of Brava and the island of Socotra, and then went on to Cananor, where he showed extreme bravery, according to the testimony of Gaspar Correia in the Lendas da Índia.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "India": [
+            "Place where João Gomes de Abreu set sail for in 1506"
+        ],
+        "Brava": [
+            "Place where João Gomes de Abreu fought the Moors"
+        ],
+        "Socotra": [
+            "Place where João Gomes de Abreu fought the Moors"
+        ],
+        "Cananor": [
+            "Place where João Gomes de Abreu showed extreme bravery"
+        ]
+    },
+    "people": {
+        "João Gomes de Abreu": [
+            "Captain of the ship that set sail for India in 1506, participated in battles against the Moors, and showed extreme bravery in Cananor"
+        ]
+    },
+    "years": {
+        "1506": [
+            "Departure of João Gomes de Abreu for India"
+        ]
+    }
+}

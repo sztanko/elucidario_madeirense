@@ -1,0 +1,52 @@
+{
+    "id": 3110,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rodrigues (Adolfo de Sousa)",
+    "fl": "R",
+    "original_title": "Rodrigues (Adolfo de Sousa)",
+    "body": "Este distinto pintor, que uma morte prematura e a pertinaz doença dos últimos tempos da sua existência não permitiram que manifestasse toda a pujança do seu talento, nasceu no Funchal a 13 de Janeiro de 1867 e morreu na cidade de Lisboa, a 9 de Março de 1908.\n\nTinha o curso da Academia das Belas Artes, onde sempre obteve classificações elevadas, notabilizando-se no estudo da pintura histórica, em que ganhou o primeiro prémio com o quadro Hero e Leandro. Estudou esta especialidade com José Ferreira Chaves, indo depois a Paris aperfeiçoar-se com Paul Laurens e Benjamin Constant. No 2.° ano do curso da Academia, tinha também alcançado o prémio «Anunciação». Na exposição do Grémio Artístico, em Lisboa, ganhou em 1895 a terceira medalha. Tomou parte em varias exposições, tendo figurado nelas, entre outros, os seus quadros Tentação de Cristo e Bom Samaritano.\n\nFez o retrato do rei D. Carlos, que esteve na sala das sessões da Câmara Municipal do Funchal, o do nosso ilustre patrício Agostinho de Ornelas e Vasconcelos, etc . etc., e tinha as palmas académicas da Academia de França e a comenda de Isabel a Católica, de Espanha.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Nasceu no Funchal"
+        ],
+        "Lisboa": [
+            "Morreu na cidade de Lisboa"
+        ]
+    },
+    "people": {
+        "Adolfo de Sousa Rodrigues": [
+            "Distinto pintor"
+        ],
+        "José Ferreira Chaves": [
+            "Especialidade com José Ferreira Chaves"
+        ],
+        "Paul Laurens": [
+            "Aperfeiçoar-se com Paul Laurens"
+        ],
+        "Benjamin Constant": [
+            "Aperfeiçoar-se com Benjamin Constant"
+        ],
+        "D. Carlos": [
+            "Retrato do rei D. Carlos"
+        ],
+        "Agostinho de Ornelas e Vasconcelos": [
+            "Retrato do nosso ilustre patrício Agostinho de Ornelas e Vasconcelos"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Nasceu"
+        ],
+        "1908": [
+            "Morreu"
+        ],
+        "1895": [
+            "Ganhou em 1895 a terceira medalha"
+        ]
+    }
+}

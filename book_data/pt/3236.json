@@ -1,0 +1,40 @@
+{
+    "id": 3236,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Jorge (Ilhéu, Ponta, Porto e Ribeira de)",
+    "fl": "S",
+    "original_title": "São Jorge (Ilhéu, Ponta, Porto e Ribeira de)",
+    "body": "O pequeno ilhéu de S. Jorge fica próximo da costa marítima da freguesia do mesmo nome e quási em frente do respectivo porto.\n\nA saliência que na costa setentrional da Madeira mais avança pelo mar, tem o nome de Ponta de São Jorge e fica no litoral da freguesia do mesmo nome. No extremo desta ponta, onde chamam a Vigia, descobrem-se todas as sinuosidades da costa marítima desde a freguesia do Porto da Cruz até a do Porto do Moniz, merecendo ser visitado este lugar.\n\nOnde chamam a Ponta Gorda, construiu-se um cais de 1904 a 1910, que por meio duma vereda ficou ligado á estrada central que estabelece comunicação entre as freguesias de Santana e São Jorge.\n\nA ribeira nasce nas imediações do Pico Ruivo e atravessa a freguesia de São Jorge, desaguando no porto do mesmo nome. Tem como afluentes os ribeiros do Canário, Grande e Lombo da Furna.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Jorge",
+        "Porto da Cruz",
+        "Santana"
+    ],
+    "locations": {
+        "Ilhéu de S. Jorge": [
+            "Próximo da costa marítima da freguesia de São Jorge"
+        ],
+        "Ponta de São Jorge": [
+            "Litoral da freguesia de São Jorge"
+        ],
+        "Ponta Gorda": [
+            "Local onde foi construído um cais de 1904 a 1910"
+        ],
+        "Porto do Moniz": [
+            "Localizado na costa marítima"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Construção do cais"
+        ],
+        "1910": [
+            "Conclusão da construção do cais"
+        ]
+    }
+}

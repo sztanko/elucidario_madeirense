@@ -1,0 +1,33 @@
+{
+    "id": 2023,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo do Atouguia",
+    "fl": "L",
+    "original_title": "Lombo do Atouguia",
+    "body": "A populated place in the parish of Calheta, named after the former settler Luís de Atouguia, who had land grants there and established an entailed estate. In this place, there used to be a chapel dedicated to Our Lady of Good Death, founded by Francisco Homem de Couto in 1661. Also, the chapel of São Pedro de Alcantara, formerly known as São João Baptista, was built there in 1783 by João Baptista Teixeira. Additionally, in the same place, known as Vargem de Baixo, António Moniz de Meneses and his wife D. Catarina de Meneses built a chapel dedicated to Our Lady of Pity in 1657.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Parish of Calheta"
+        ]
+    },
+    "people": {
+        "Luís de Atouguia": [
+            "Former settler"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Foundation of the chapel dedicated to Our Lady of Good Death"
+        ],
+        "1783": [
+            "Construction of the chapel of São Pedro de Alcantara"
+        ]
+    }
+}

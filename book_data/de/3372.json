@@ -1,0 +1,33 @@
+{
+    "id": 3372,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gesellschaft Hoffnung",
+    "fl": "G",
+    "original_title": "Sociedade Esperança",
+    "body": "Sie hatte zum Ziel, ein Theater in Funchal für die private Unterhaltung der Familien der Mitglieder und der Personen aus ihrem Umfeld einzurichten. Nach den Statuten hatten die Mitglieder eine Zahl von 40, wobei es auch bis zu 5 Ehrenmitglieder geben konnte. Die ordentlichen Mitglieder zahlten eine Aufnahmegebühr von 10$000 Réis und einen monatlichen Beitrag von 200 Réis; die Ehrenmitglieder zahlten den gleichen Monatsbeitrag, waren aber von der Zahlung der Aufnahmegebühr befreit.\n\nDie Gesellschaft Hoffnung, die 1858 mit zunächst nur 18 Mitgliedern gegründet wurde, genehmigte ihre Statuten am 15. Februar 1860. Diese waren von den kommissarischen Direktoren Francisco Leandro Severim, João Maria da Silva Carvalho, Luís Alvares da Silva, Pedro Augusto da Silva Carvalho und João Alexandre de Carvalho unterzeichnet. Das Dekret zur Genehmigung dieser Statuten ist vom 10. Mai desselben Jahres.\n\nWie im Direito vom 4. Dezember 1858 zu lesen ist, wurden die genannten Statuten vom Mitglied Nuno Dias de Vasconcelos verfasst. Zu den Gründungsmitgliedern der Gesellschaft gehörten auch Julio Galhardo de Freitas, der bereits im Theater Concórdia aufgetreten war, und Pedro de Alcantara Góis, der sein Debüt bei einer Aufführung in der Lancasterianischen Schule gegeben hatte. Siehe Theater.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Nuno Dias de Vasconcelos": [
+            "Verfasser der Statuten"
+        ],
+        "Julio Galhardo de Freitas": [
+            "Schauspieler im Theater Concórdia"
+        ],
+        "Pedro de Alcantara Góis": [
+            "Debüt bei einer Aufführung in der Lancasterianischen Schule"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Gründung der Gesellschaft Hoffnung"
+        ],
+        "1860": [
+            "Genehmigung der Statuten"
+        ]
+    }
+}

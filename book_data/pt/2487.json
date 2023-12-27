@@ -1,0 +1,47 @@
+{
+    "id": 2487,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Desterro (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Desterro (Capela de)",
+    "body": "No sítio que tem hoje este nome e com igual invocação, fundou o cónego Jorge Furtado de Sousa, no primeiro quartel do século XVII, uma capela, de que é actual proprietário o distinto madeirense Dr. Juvenal Henriques de Araújo. É frequentemente visitada por pessoas de diversos pontos da ilha e no ano de 1942 foi publicada a respeito dela uma interessante monografia histórica.\n\nRaul Esteves, no sítio do Ledo da freguesia do Arco da Calheta e no ultimo quartel do século XVII, fez edificar uma capela dedicada a Nossa Senhora do Desterro, de que apenas restam algumas ruínas.\n\nTambém existiu uma capela da mesma invocação no sítio da Ribeira Grande, freguesia de Machico, fundada no ano de 1661 pelo capitão Manuel Telo de Meneses.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Ribeira Grande",
+        "Machico"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Ribeira Grande": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Machico": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Jorge Furtado de Sousa": [
+            "Fundador da capela no sítio que tem hoje o nome de Nossa Senhora do Desterro"
+        ],
+        "Juvenal Henriques de Araújo": [
+            "Atual proprietário da capela no sítio que tem hoje o nome de Nossa Senhora do Desterro"
+        ],
+        "Raul Esteves": [
+            "Fundador da capela no sítio do Ledo da freguesia do Arco da Calheta"
+        ],
+        "Manuel Telo de Meneses": [
+            "Fundador da capela no sítio da Ribeira Grande, freguesia de Machico"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Ano de fundação da capela no sítio da Ribeira Grande, freguesia de Machico"
+        ]
+    }
+}

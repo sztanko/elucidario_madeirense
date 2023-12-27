@@ -1,0 +1,44 @@
+{
+    "id": 1679,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Heberden (Dr. Thomas)",
+    "fl": "H",
+    "original_title": "Heberden (Dr. Thomas)",
+    "body": "Era irmão do bem conhecido William Heberden e exerceu a profissão medica no Funchal, tendo prestado excelentes serviços por ocasião da epidemia de sarampo de 1751. Quando Banks e o Dr. Solander visitaram a Madeira em 1768, forneceu-lhes muitos objectos de historia natural, assim como uma copia das suas observações sôbre a flora da ilha. Dedicaram-lhe os dois naturalistas o género Heberdenia, reunido por Aiton, mais tarde, ao género Ardisia. As observações meteorológicas feitas pelo Dr. Herberden, no Funchal, desde 1747 a 1751, foram as primeiras que se realizaram nesta ilha, tendo sido publicadas no vol. X das Philosophical Transactions.\n\nO Dr. Heberden fez também alguns estudos astronómicos na Madeira, tendo aparecido nas Philosophical Transactions um trabalho seu com o seguinte título: Observations of immersions and emersions of Jupiter's first Satellite made at Funchal, in Madeira, 1763-1768.\n\nV. Doenças e Epidemias.",
+    "categories": [
+        "science",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde Dr. Thomas Heberden exerceu a profissão médica e realizou estudos astronômicos"
+        ]
+    },
+    "people": {
+        "Banks": [
+            "Naturalista"
+        ],
+        "Dr. Solander": [
+            "Naturalista"
+        ],
+        "Aiton": [
+            "Reuniu o género Heberdenia ao género Ardisia"
+        ]
+    },
+    "years": {
+        "1751": [
+            "Término das observações meteorológicas feitas pelo Dr. Herberden no Funchal"
+        ],
+        "1768": [
+            "Término das observações astronômicas feitas pelo Dr. Herberden na Madeira"
+        ],
+        "1747": [
+            "Início das observações meteorológicas feitas pelo Dr. Herberden no Funchal"
+        ],
+        "1763": [
+            "Início das observações astronômicas feitas pelo Dr. Herberden na Madeira"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2917,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "Sitio povoado da freguesia de Santo António do Funchal, em que se encontra uma capela da invocação de Nossa Senhora das Preces, construída em 1768 e de que, em 1770, era administrador e talvez fundador o capitão Rodrigo da Costa, tendo sido reedificada em 1856 pela sua proprietária D. Joana de Albuquerque e França.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {
+        "Santo António do Funchal": [
+            "Freguesia onde se encontra o sitio povoado de Preces."
+        ]
+    },
+    "people": {
+        "Rodrigo da Costa": [
+            "Administrador e talvez fundador da capela de Nossa Senhora das Preces em 1770."
+        ],
+        "D. Joana de Albuquerque e França": [
+            "Proprietária responsável pela reedificação da capela em 1856."
+        ]
+    },
+    "years": {
+        "1768": [
+            "Ano de construção da capela de Nossa Senhora das Preces."
+        ],
+        "1770": [
+            "Ano em que Rodrigo da Costa era administrador e talvez fundador da capela."
+        ]
+    }
+}

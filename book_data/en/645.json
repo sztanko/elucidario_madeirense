@@ -1,0 +1,27 @@
+{
+    "id": 645,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cais da Ribeira Brava",
+    "fl": "C",
+    "original_title": "Cais da Ribeira Brava",
+    "body": "It was ordered to be built by the same corporation from 1904 to 1908.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Construction of the pier"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Construction initiated"
+        ],
+        "1908": [
+            "Construction completed"
+        ]
+    }
+}

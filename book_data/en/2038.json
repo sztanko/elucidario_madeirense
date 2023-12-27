@@ -1,0 +1,31 @@
+{
+    "id": 2038,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo de São João",
+    "fl": "L",
+    "original_title": "Lombo de São João",
+    "body": "A populated place in the parish of Ribeira Brava, which took its name from the chapel, dedicated to São João Baptista, located there. The year of its first construction is unknown, but it is known that it was rebuilt in 1750 by the ensign Tomé João Pimenta, administrator of the entail to which the chapel belonged.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Locality in the Island of Madeira"
+        ]
+    },
+    "people": {
+        "Tomé João Pimenta": [
+            "Ensign and administrator of the entail"
+        ]
+    },
+    "years": {
+        "1750": [
+            "Year in which the chapel was rebuilt"
+        ]
+    }
+}

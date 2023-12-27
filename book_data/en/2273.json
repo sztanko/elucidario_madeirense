@@ -1,0 +1,30 @@
+{
+    "id": 2273,
+    "lang": "en",
+    "is_original": false,
+    "title": "Menezesia",
+    "fl": "M",
+    "original_title": "Menezesia",
+    "body": "A genus of Protomyces (Fungi) dedicated by the distinguished French mycologist Rev. C. Torrend to one of the authors of this Elucidário, and which currently includes only a single species - Menezesia setulosa - found in September 1913 in the parish of Monte, on the decomposing branches of Hedera Helix. It was published on page 175 of vol. XI of Broteria (botanical section).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Found in September 1913"
+        ]
+    },
+    "people": {
+        "C. Torrend": [
+            "Distinguished French mycologist"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Found in September"
+        ]
+    }
+}

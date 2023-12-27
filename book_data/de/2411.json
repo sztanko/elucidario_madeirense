@@ -1,0 +1,53 @@
+{
+    "id": 2411,
+    "lang": "de",
+    "is_original": false,
+    "title": "Das Seminar-Museum",
+    "fl": "D",
+    "original_title": "Museu do Seminário",
+    "body": "Das sogenannte Seminar-Museum, das einzige Museum von unbestreitbarem wissenschaftlichem Wert auf Funchal, wurde 1882 von dem deutschen Priester Pater Ernesto Schmitz, damals Professor an dieser Bildungseinrichtung, gegründet. Es war viele Jahre lang dem Bischöflichen Seminar angegliedert und wurde erst kürzlich in das Haus am Largo do Visconde do Ribeiro Real neben der Residenz des Diözesanprälaten verlegt, wo es sich derzeit (1921) befindet.\n\nDas Seminar-Museum ist ein Naturkundemuseum, in dem die Fauna, Flora und Mineralien des Archipels vertreten sind. In Bezug auf die Fauna sind die ornithologischen, ichthyologischen und konchyliologischen Sammlungen sowie die Korallensammlungen und die einiger Insektengruppen erwähnenswert; und in Bezug auf die Flora sind die Moos- und Gefäßpflanzensammlungen von verstorbener James Y. Johnson, die Flechten- und Pilzsammlungen von Pater Jaime de Gouveia Barreto und die von Pater Ernesto Schmitz organisierte Meeresalgen-Sammlung aufgrund ihrer Bedeutung empfehlenswert. Die Gefäßpflanzensammlung wurde in letzter Zeit dank der Forschung des jungen madeirischen Botanikers José Gonçalves da Costa sehr verbessert.\n\nPater Ernesto Schmitz, der dem Seminar-Museum so viele Dienste geleistet hat, leitete es bis Juni 1908. Derzeitiger Direktor ist Pater Jaime Barreto, ein hervorragender Naturforscher, der das Werk seines berühmten Lehrers zu erhalten und voranzutreiben wusste (1921).\n\nDas naturwissenschaftliche Museum des Diözesanseminars befindet sich derzeit im Gebäude der Inkarnation unter der kompetenten Leitung von Kanonikus Jaime de Gouveia Barreto, Professor und Rektor desselben Seminars.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Visconde do Ribeiro Real": [
+            "Standort des Hauses, in dem sich das Seminar-Museum 1921 befand"
+        ],
+        "Prelado Diocesano": [
+            "Residenz des Diözesanprälaten, wo sich das Seminar-Museum 1921 befand"
+        ],
+        "Inkarnation": [
+            "Gebäude, in dem sich das naturwissenschaftliche Museum des Diözesanseminars 1921 befand"
+        ]
+    },
+    "people": {
+        "Pater Ernesto Schmitz": [
+            "Gründer des Seminar-Museums"
+        ],
+        "James Y. Johnson": [
+            "Verantwortlich für die Moos- und Gefäßpflanzensammlungen"
+        ],
+        "Pater Jaime de Gouveia Barreto": [
+            "Verantwortlich für die Flechten- und Pilzsammlungen, aktueller Direktor des Seminar-Museums"
+        ],
+        "José Gonçalves da Costa": [
+            "Junger madeirischer Botaniker, verantwortlich für die Verbesserung der Gefäßpflanzensammlung"
+        ]
+    },
+    "years": {
+        "1882": [
+            "Gründung des Seminar-Museums"
+        ],
+        "1908": [
+            "Ende der Leitung des Seminar-Museums durch Pater Ernesto Schmitz"
+        ],
+        "1921": [
+            "Verweis auf die Situation des Seminar-Museums"
+        ]
+    }
+}

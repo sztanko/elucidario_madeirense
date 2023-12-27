@@ -1,0 +1,29 @@
+{
+    "id": 291,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Associação Académica do Funchal",
+    "fl": "A",
+    "original_title": "Associação Académica do Funchal",
+    "body": "Esta extinta sociedade académica foi inaugurada no dia 1 de Dezembro de 1884, numa das salas do Palácio de S. Lourenço, discursando por essa ocasião o falecido Marcelino Ribeiro de Mendonça, então aluno do liceu do Funchal. O jornal O Académico era orgão da mesma sociedade.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da ilha da Madeira."
+        ]
+    },
+    "people": {
+        "Marcelino Ribeiro de Mendonça": [
+            "Aluno do liceu do Funchal."
+        ]
+    },
+    "years": {
+        "1884": [
+            "Inauguração da Associação Académica do Funchal."
+        ]
+    }
+}

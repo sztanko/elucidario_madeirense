@@ -1,0 +1,37 @@
+{
+    "id": 3392,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sousa (Francisco de)",
+    "fl": "S",
+    "original_title": "Sousa (Francisco de)",
+    "body": "> Im Jahr 1877 wurde in der Stadt Ponta Delgada eine Broschüre mit dem folgenden Titel veröffentlicht: Abhandlung über die Neuen Inseln und ihre Entdeckung usw. von Francisco de Sousa, Faktor Seiner Majestät des Königs in der Hauptstadt Funchal auf der Insel Madeira... und die Portugiesen, die von Vianna und den Azoren kamen, um das Neuland von Kabeljau zu besiedeln... Im Jahr des Herrn 1570. Von diesem Flugblatt wurde 1884 in Ponta Delgada eine zweite Auflage gemacht.\n>\n> Der Autor dieser Broschüre war ein Einheimischer dieser Insel.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta Delgada": [
+            "Stadt"
+        ],
+        "Funchal": [
+            "Stadt"
+        ],
+        "Vianna": [
+            "Ort"
+        ],
+        "Açores": [
+            "Archipel"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1877": [
+            "Veröffentlichung der Broschüre von Francisco de Sousa"
+        ],
+        "1570": [
+            "Jahr der Abhandlung über die Neuen Inseln"
+        ]
+    }
+}

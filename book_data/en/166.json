@@ -1,0 +1,35 @@
+{
+    "id": 166,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almeida (Paulo Dias de)",
+    "fl": "A",
+    "original_title": "Almeida (Paulo Dias de)",
+    "body": "An engineer and corresponding member of the Funchal Society of Friends of Sciences and Arts. As he was a member of the constitutional party, he was arrested and sent aboard the frigate Príncipe D. Pedro as soon as the governor José Maria Monteiro arrived on this island, and was later sent to Lisbon aboard the charrua Orestes as a political prisoner sentenced by the jurisdiction that came to this island in 1828.\n\nHe drew up the general plan of the island of Madeira at the beginning of the 19th century and left a manuscript entitled 'Description of the Island of Madeira in general and of each of its parishes, towns, and places in particular, its productions, number of households and inhabitants; and the current state of its fortifications; 1817'. This manuscript was published in the Archive of the Navy and Overseas, vol. II, with drawings of the fortifications, uniforms of the militia troops, and popular customs.\n\nHaving been sentenced, for political reasons, to exile in Africa, he died there shortly before 1834.",
+    "categories": [
+        "history",
+        "culture",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Paulo Dias de Almeida": [
+            "Engineer and corresponding member of the Funchal Society of Friends of Sciences and Arts, political prisoner, and author of a manuscript about Madeira"
+        ],
+        "José Maria Monteiro": [
+            "Governor who ordered the arrest of Paulo Dias de Almeida"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Paulo Dias de Almeida was arrested and sent to Lisbon as a political prisoner"
+        ],
+        "1817": [
+            "Paulo Dias de Almeida left a manuscript entitled 'Description of the Island of Madeira'"
+        ],
+        "1834": [
+            "Paulo Dias de Almeida died in exile in Africa shortly before this year"
+        ]
+    }
+}

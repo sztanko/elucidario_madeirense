@@ -1,0 +1,37 @@
+{
+    "id": 2840,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ponta Delgada (Ponta e Portos de)",
+    "fl": "P",
+    "original_title": "Ponta Delgada (Ponta e Portos de)",
+    "body": "Nesta freguesia, há uma saliencia da costa maritima que tem o nome de Ponta Delgada. Nas suas mais proximas imediações, ficam um pequeno Porto e uma limitada praia, que servem esta paróquia e as da Boaventura e Arco de São Jorge. Por 1908, construíu-se ali uma curta rampa, que dá acesso a pequena praia, afim de facilitar o transporte de mercadorias. Há também uma praia pouco extensa, no sitio chamado Passo da Areia.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ponta Delgada",
+        "Boaventura",
+        "Arco de São Jorge"
+    ],
+    "locations": {
+        "Ponta Delgada": [
+            "Saliencia da costa maritima"
+        ],
+        "Boaventura": [
+            "Freguesia próxima"
+        ],
+        "Arco de São Jorge": [
+            "Freguesia próxima"
+        ],
+        "Passo da Areia": [
+            "Localidade com praia pouco extensa"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1908": [
+            "Construção da curta rampa para facilitar o transporte de mercadorias"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 1195,
+    "lang": "de",
+    "is_original": false,
+    "title": "Drumond de Meneses (Antero)",
+    "fl": "D",
+    "original_title": "Drumond de Meneses (Antero)",
+    "body": "Er war der Sohn von Servúlo Drumond de Meneses, wurde am 1. Dezember 1830 in Funchal geboren und promovierte 1856 an der Fakultät in Montpellier zum Doktor der Medizin. Er war Arzt der Stadtratsfraktion von Funchal und Facharzt der Hilfsgesellschaft 4 de Setembro de 1862. Er starb am 30. September 1916 in Lissabon. Veröffentlichungen: L'Etiologie comme source du diagnostic médical, Montpellier, 1856.",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort von Antero Drumond de Meneses"
+        ],
+        "Montpellier": [
+            "Ort, an dem Antero Drumond de Meneses zum Doktor der Medizin promoviert wurde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1830": [
+            "Geburt von Antero Drumond de Meneses"
+        ],
+        "1856": [
+            "Promotion zum Doktor der Medizin an der Fakultät in Montpellier"
+        ],
+        "1862": [
+            "Antero Drumond de Meneses wurde Facharzt der Hilfsgesellschaft"
+        ],
+        "1916": [
+            "Tod von Antero Drumond de Meneses"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "id": 1049,
+    "lang": "en",
+    "is_original": false,
+    "title": "South Coast",
+    "fl": "S",
+    "original_title": "Costa do Sul",
+    "body": "The southern coast of Madeira, commonly known as the South Coast, stretches from the prominent coastal point called Ponta do Pargo to the tip of Ponta de São Lourenço. The southern region is very mild and picturesque, with more coves and landing places, which, along with the shelter against the prevailing winds provided by the island's mass, ensures that ships and boats find safety on this coast, unlike the northern coast, as is the case in the bay of Funchal. The parishes of the municipalities of Calheta, Ponta do Sol, Ribeira Brava, Camara de Lôbos, Funchal, Santa Cruz, and Machico are located on this southern coast, with the exception of the parish of Porto da Cruz and the northern coast of Caniçal, which belong to the latter of those municipalities.\n\nThe aforementioned Mousinho de Albuquerque, referring to the maritime coast of the South Coast, says, \"Starting from Ponta do Pargo, the southern coast of the island runs southeast to Ponta do Jardim, presenting in this extension some small shallows and rocks very close to the coast, particularly in front of Paúl do Mar and the same Jardim. Then the coast follows the direction of E. S. E. to Ponta do Sol, and from there to Ponta da Cruz, the southernmost of the island, it generally runs, disregarding the sinuosities and minor points, in the direction E. S. E\n¼\nE.. From Ponta da Cruz to Cabo Garajau, where the bay of Funchal is located, the direction of the coast is approximately E\n¼\nN., and after this Cape and up to the Picos da Atalaia Point, this becomes sensibly E. N. E., and from there to Caniçal at the origin of Ponta de São Lourenço, the general direction of the coast is N. N. E\n¼\nE. Along almost the entire length of the coastline of this Coast, the sea is deep and free of shallows, with the exception of the Ilhéu do Gorgulho, Baixa do Carneiro, the fortified islet, and the end of Ponta de São Lourenço surrounded by some isolated rocks and small rocky outcrops that are covered by the waters.\"",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Calheta",
+        "Ponta do Sol",
+        "Ribeira Brava",
+        "Camara de Lôbos",
+        "Funchal",
+        "Santa Cruz",
+        "Machico"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Prominent coastal point"
+        ],
+        "Ponta de São Lourenço": [
+            "Tip of Ponta de São Lourenço"
+        ],
+        "Paúl do Mar": [
+            "Some small shallows and rocks very close to the coast"
+        ],
+        "Ponta do Jardim": [
+            "Some small shallows and rocks very close to the coast"
+        ],
+        "Ponta do Sol": [
+            "Direction of E. S. E"
+        ],
+        "Ponta da Cruz": [
+            "Southernmost of the island"
+        ],
+        "Cabo Garajau": [
+            "Bay of Funchal"
+        ],
+        "Picos da Atalaia": [
+            "General direction of the coast N. N. E\n¼\nE"
+        ],
+        "Caniçal": [
+            "Origin of Ponta de São Lourenço"
+        ]
+    },
+    "people": {
+        "Mousinho de Albuquerque": [
+            "Refers to the maritime coast of the South Coast"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,25 @@
+{
+    "id": 2913,
+    "lang": "en",
+    "is_original": false,
+    "title": "Prainha",
+    "fl": "P",
+    "original_title": "Prainha",
+    "body": "A small beach on the coast of the parish of Caniçal, which stands out from the rest of the beaches in Madeira, as it is made of sand, while all the others are made of pebbles. It is located at the bottom of a picturesque cove, quite popular among the holidaymakers from the town of Machico.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Caniçal"
+    ],
+    "locations": {
+        "Caniçal": [
+            "Coastal parish where the small beach of Prainha is located."
+        ],
+        "Machico": [
+            "Town whose holidaymakers visit the beach of Prainha."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,42 @@
+{
+    "id": 3193,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santa Maria Madalena (Capelas de)",
+    "fl": "S",
+    "original_title": "Santa Maria Madalena (Capelas de)",
+    "body": "If one leaves Funchal and follows the path to Santo António, about two kilometers from the city center, one comes across the ruins of an old and dilapidated chapel by the roadside. From this heap of rubble, the ruined facade still stands tall, as if defying the fury of the centuries, with its ogival portal, revealing its antiquity and the characteristic of constructions from a glorious era. It is one of the rare vestiges of the Manueline style that still remain on this island. This is the chapel of Santa Maria Madalena, which gave its name to the place, more commonly known by the popular simplification of Madalena. After Santo Amaro, it is the oldest chapel in the parish of Santo Antonio, although we lack the precise elements to determine its founding date, which does not seem to be later than the first quarter of the 16th century. However, the earliest reference we find to it is from 1593, the year it was granted a fee. It was also, after the aforementioned chapel of Santo Amaro, the most important in that parish due to its antiquity, dimensions, and architectural style, as well as the devotion shown by the faithful to its patron saint, even possessing its own relatively important assets for the maintenance of its cult, which we do not know of any other chapel in this parish having. José Machado de Miranda, by public deed of March 11, 1684, took on the role of patron of this chapel, ordering its reconstruction and endowing it with an annual fee of four thousand réis, imposed on the Quinta das Maravilhas. Important repairs were made in 1732, 1766, and 1773, but by 1820 its state of ruin was already advanced. In the place of Florenças in the parish of Arco da Calheta, there was a chapel of the same invocation, founded by João Portes Homem de El-Rei and his wife D. Maria de Sousa, in the year 1684. The chapel of Santa Maria Madalena in the parish of Porto Moniz is one of the oldest in the north of Madeira. It has undergone several repairs and additions over time and is now a chapel of considerable dimensions. It was enlarged in 1789 and had a new addition a few years ago. There was a beautiful oil painting representing the patron saint, which was not properly preserved and was completely lost. It can be said that it is the seat of the curacy of the parish, with a residence next to the chapel, intended for the respective curate. There is a cemetery in its vicinity. It is the center of an ancient and popular pilgrimage, which takes place in the month of July each year, and in the past, a fair was held there with a large appearance of cattle.",
+    "categories": [
+        "history",
+        "religion",
+        "architecture"
+    ],
+    "freguesias": [
+        "Santo Antonio",
+        "Arco da Calheta",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "Santo Antonio": [
+            "Parish"
+        ],
+        "Arco da Calheta": [
+            "Parish"
+        ],
+        "Porto Moniz": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "José Machado de Miranda": [
+            "Took on the role of patron of this chapel"
+        ],
+        "João Portes Homem": [
+            "Founded by"
+        ]
+    },
+    "years": {}
+}

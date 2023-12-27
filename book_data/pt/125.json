@@ -1,0 +1,34 @@
+{
+    "id": 125,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alecrins",
+    "fl": "A",
+    "original_title": "Alecrins",
+    "body": "Sítio da freguesia de Santo Antonio do Funchal, onde existiu a capela de Nossa Senhora da Quietação edificada em 1670, por Lourenço de Matos Coutinho, que nela fez sede do morgadio dos Alecrins instituído no ano de 1577, sendo hoje o Dr. Rui Betencourt da Câmara o representante desta casa vinculada.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Santo Antonio do Funchal": [
+            "Local do sítio Alecrins"
+        ]
+    },
+    "people": {
+        "Lourenço de Matos Coutinho": [
+            "Fundador da capela de Nossa Senhora da Quietação"
+        ]
+    },
+    "years": {
+        "1670": [
+            "Construção da capela de Nossa Senhora da Quietação"
+        ],
+        "1577": [
+            "Instituição do morgadio dos Alecrins"
+        ]
+    }
+}

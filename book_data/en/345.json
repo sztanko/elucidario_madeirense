@@ -1,0 +1,28 @@
+{
+    "id": 345,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aviceiro ou Fonte do Aviceiro",
+    "fl": "A",
+    "original_title": "Aviceiro ou Fonte do Aviceiro",
+    "body": "Location in the parish of Santo Antonio, a short distance from Lombo de D. Isabel, on the road leading to Curral das Freiras.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Santo Antonio": [
+            "Parish located on the island of Madeira"
+        ],
+        "Lombo de D. Isabel": [
+            "Locality on the island of Madeira"
+        ],
+        "Curral das Freiras": [
+            "Locality on the island of Madeira"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

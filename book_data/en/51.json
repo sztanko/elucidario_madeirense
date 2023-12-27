@@ -1,0 +1,30 @@
+{
+    "id": 51,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aderno (Ardisia excelsa)",
+    "fl": "A",
+    "original_title": "Aderno (Ardisia excelsa)",
+    "body": "An indigenous tree of the family Mirsineaceas, found in the mountains of S. Vicente, Ribeira da Janela, Porto da Cruz, etc. It has leathery, entire, transparent leaves with red spots on the edges, and small green or whitish-green flowers, usually grouped in extra-axillary clusters. Its fruits are small, globular, and red, and its wood is white or slightly pink, wavy, and hard. This wood was once used for boat keels.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "Ribeira da Janela",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Indigenous tree"
+        ],
+        "Ribeira da Janela": [
+            "Indigenous tree"
+        ],
+        "Porto da Cruz": [
+            "Indigenous tree"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

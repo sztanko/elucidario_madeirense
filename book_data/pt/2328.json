@@ -1,0 +1,35 @@
+{
+    "id": 2328,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Moniz",
+    "fl": "M",
+    "original_title": "Moniz",
+    "body": "É apelido de família muito antigo entre nós. Dos primeiros povoadores vindos do continente, diz o anotador das Saudades, estabeleceu-se nesta ilha Vasco Martins Moniz de Meneses, que teve sesmaria no Caniço, sendo fidalgo da casa real e filho segundo de Henrique Moniz, alcaide-mor de Silves, e de sua mulher D. Inês de Meneses, filha de Gonçalo Nunes Barreto, alcaide-mor de Faro, o qual teve grande casa na vila de Machico, e, por testamento aprovado em 1489, instituiu morgado da sua terça, tendo morrido em 1510 na vila do Torrão. De Vasco Martins Moniz se ocupa largamente Nicolau Florentino (António Maria de Freitas) no seu opúsculo A mulher de Colombo, enaltecendo-lhe os feitos e as qualidades, dizendo que na vila de Machico, onde se instalara, se distinguira de quantos portugueses e estrangeiros ali viviam, por sua generosidade, pela fidalguia de seu trato e pelo fausto principesco de sua casa, cujas comodidades e atractivos não o enervaram, pelo contrario sempre que o rei e o país lhe reclamavam os serviços, ele deixava a família para acudir com o seu braço e muitas vezes com a sua bolsa. Era filha de Vasco Moniz a mulher do primeiro donatário do Porto Santo, Bartolomeu Perestrelo, por nome D. Isabel Moniz, tendo deste consorcio nascido D. Felipa Moniz, mulher do grande navegador Cristovão Colombo. De todas estas personagens se ocupa também com largueza o citado folheto de Nicolau Florentino. Para a Madeira também veio Francisco Moniz, o Velho, natural do Algarve, que deu o nome à freguesia do Porto Moniz ou antes Porto do Moniz, onde teve terras de sesmaria. Não sabemos se a família Moniz, a que pertenceram os distintos madeirenses Lourenço José Moniz, João Henriques Moniz, Patrício Moniz, Jaime Constantino de Freitas Moniz e João Maria Moniz (V. estes nomes) é oriunda de Vasco Moniz ou de Francisco Moniz a que acima nos referimos.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Moniz"
+    ],
+    "locations": {},
+    "people": {
+        "Vasco Martins Moniz de Meneses": [
+            "Estabeleceu-se nesta ilha e teve sesmaria no Caniço, sendo fidalgo da casa real e filho segundo de Henrique Moniz, alcaide-mor de Silves"
+        ],
+        "D. Inês de Meneses": [
+            "Mulher de Vasco Martins Moniz de Meneses, filha de Gonçalo Nunes Barreto, alcaide-mor de Faro"
+        ],
+        "Nicolau Florentino (António Maria de Freitas)": [
+            "Autor do opúsculo A mulher de Colombo"
+        ]
+    },
+    "years": {
+        "1489": [
+            "Instituição do morgado da terça por Gonçalo Nunes Barreto"
+        ],
+        "1510": [
+            "Morte de Vasco Martins Moniz de Meneses"
+        ]
+    }
+}

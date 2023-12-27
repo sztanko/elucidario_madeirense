@@ -1,0 +1,34 @@
+{
+    "id": 2674,
+    "lang": "de",
+    "is_original": false,
+    "title": "Passos de Freitas (Dr. Manuel)",
+    "fl": "P",
+    "original_title": "Passos de Freitas (Dr. Manuel)",
+    "body": "Er wurde am 3. März 1872 in Calheta geboren und promovierte 1896 in Jura an der Universität Coimbra. Er ist pensionierter Sekretär des Generalrats des Bezirks und ein sehr angesehener Musiker. Er ist der Leiter der Musikgruppe, die seinen Namen trägt, und der Dirigent des madeirischen Chors, den das Publikum in Funchal mehrmals im Theater von Dr. Manuel de Arriaga zu hören bekam.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Geburtsort"
+        ],
+        "Universität Coimbra": [
+            "Studienort"
+        ],
+        "Funchal": [
+            "Ort der Auftritte"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1872": [
+            "Geburtsjahr"
+        ],
+        "1896": [
+            "Jahr des Abschlusses"
+        ]
+    }
+}

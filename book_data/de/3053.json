@@ -1,0 +1,72 @@
+{
+    "id": 3053,
+    "lang": "de",
+    "is_original": false,
+    "title": "Uhren",
+    "fl": "U",
+    "original_title": "Relógios",
+    "body": "Neben der Kathedrale von Funchal gibt es Uhren, die der Öffentlichkeit die Zeit anzeigen, an folgenden Orten:\\\n\\\nS. Martinho, Monte, Camacha, Santa Cruz, Ponta do Sol, Canhas und Estreito da Calheta (1921). Im Turm der Pfarrkirche von Machico gab es einst eine Uhr, die 1824 aufhörte zu funktionieren.\\\n\\\nDie Uhr der Kirche S. Martinho wurde 1922 eingeweiht; die der Kirche von Monte wurde zu Lebzeiten des verstorbenen Vikars Kanonikus Francisco José Rodrigues de Almada von der Kirchenfabrik erworben; die von Camacha (siehe diesen Namen), die sich in einem Turm am Ort Achada befindet, und die von Santa Cruz wurden gestiftet, diese vom verstorbenen R. Blandy und jene von Dr. Grabham; die von Canhas, die sich in der Wasserleitung von Poiso befindet, gehört den Erben dieser Wasserleitung; und die von Estreito da Calheta wurde von einer Gruppe von Jungen aus dieser Gemeinde gestiftet, die in Südafrika abwesend waren. Im Turm der Kirche von Porto Santo gibt es seit 1899 eine von der Stadtverwaltung erworbene Uhr.\\\n\\\nDie heutige Kathedralenuhr wurde der Stadtverwaltung vom Dr. M. Grabham in der Sitzung vom 3. August 1914 geschenkt, kam aber erst am 8. November 1921 an Bord des Dampfers Walmer Castle auf Madeira an. Sie wurde am 23. Februar 1922 vom Diözesanbischof gesegnet; bei der Zeremonie war der verstorbene österreichische Kaiser Karl von Habsburg anwesend. Am 27. Juli desselben Jahres erklärte der Vizepräsident des Rates, dass die Uhr bereits an die Gemeinde übergeben worden sei und dass die Anbringung zweier Zeiger, die letzte Arbeit daran, am 30. Juni abgeschlossen worden sei.\n\nDie alte Kathedralenuhr, die am 6. Dezember 1921 abmontiert wurde, um die von Dr. Grabham gestiftete Uhr anzubringen, wurde 1775 während der Regierungszeit von João Antonio de Sá Pereira in Auftrag gegeben und trägt in ihrem Mechanismus die folgende Inschrift: ",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "S. Martinho",
+        "Monte",
+        "Camacha",
+        "Santa Cruz",
+        "Ponta do Sol",
+        "Canhas",
+        "Estreito da Calheta",
+        "Machico"
+    ],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "S. Martinho": [
+            "Gemeinde auf der Insel Madeira"
+        ],
+        "Monte": [
+            "Ort auf der Insel Madeira"
+        ],
+        "Camacha": [
+            "Ort auf der Insel Madeira"
+        ],
+        "Santa Cruz": [
+            "Landkreis auf der Insel Madeira"
+        ],
+        "Ponta do Sol": [
+            "Landkreis auf der Insel Madeira"
+        ],
+        "Canhas": [
+            "Ort auf der Insel Madeira"
+        ],
+        "Estreito da Calheta": [
+            "Ort auf der Insel Madeira"
+        ],
+        "Machico": [
+            "Landkreis auf der Insel Madeira"
+        ],
+        "Porto Santo": [
+            "Insel des Madeira-Archipels"
+        ]
+    },
+    "people": {
+        "Dr. M. Grabham": [
+            "Schenkte die Kathedrale-Uhr dem Stadtrat"
+        ],
+        "Dr. Grabham": [
+            "Schenkte die Uhr von Camacha"
+        ],
+        "R. Blandy": [
+            "Schenkte die Uhr von Santa Cruz"
+        ],
+        "Dr. Grabham á Câmara Municipal": [
+            "Schenkte die Kathedraluhr dem Stadtrat"
+        ],
+        "Prelado Diocesano": [
+            "Weihte die Kathedraluhr ein"
+        ]
+    },
+    "years": {}
+}

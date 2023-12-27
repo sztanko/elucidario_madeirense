@@ -1,0 +1,45 @@
+{
+    "id": 2918,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "Caminho Grande ou Preces, sitio da freguesia de Câmara de Lobos. Ali se encontra a capela de Nossa Senhora das Preces, que deu o nome ao lugar, fundada no ano de 1683 pelo padre Francisco da Cunha e Mendonça. Também no mesmo sitio se acha a capela de Nossa Senhora da Nazaré, construída, no ano de 1757, por D. Maria do Rosário Henriques, viúva de Pedro Bernardes Cordeiro. No lugar conhecido pelo nome de Fonte da Rocha, existem ainda os escombros duma antiga capela dedicada a São Cândido e mandada edificar pelo cónego Francisco Cândido Correia Henriques, no ano de 1732. Tem 96 fogos e 516 habitantes.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Caminho Grande": [
+            "Sitio da freguesia de Câmara de Lobos"
+        ],
+        "Fonte da Rocha": [
+            "Lugar onde existem os escombros duma antiga capela dedicada a São Cândido"
+        ]
+    },
+    "people": {
+        "Francisco da Cunha e Mendonça": [
+            "Fundador da capela de Nossa Senhora das Preces"
+        ],
+        "D. Maria do Rosário Henriques": [
+            "Construtora da capela de Nossa Senhora da Nazaré"
+        ],
+        "Cónego Francisco Cândido Correia Henriques": [
+            "Mandante da antiga capela dedicada a São Cândido"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Fundação da capela de Nossa Senhora das Preces"
+        ],
+        "1757": [
+            "Construção da capela de Nossa Senhora da Nazaré"
+        ],
+        "1732": [
+            "Edificação da antiga capela dedicada a São Cândido"
+        ]
+    }
+}

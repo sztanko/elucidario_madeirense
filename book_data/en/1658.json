@@ -1,0 +1,35 @@
+{
+    "id": 1658,
+    "lang": "en",
+    "is_original": false,
+    "title": "Guedes (Vasco)",
+    "fl": "G",
+    "original_title": "Guedes (Vasco)",
+    "body": "Vasco Guedes de Carvalho e Meneses, when he was the military commander of Madeira, was appointed civil governor of this district by decree of August 14, 1884, and took office on the 18th of the same month. He was the general governor of Angola and to justify himself from the accusations made against him when he administered that overseas possession, he published in 1882, in Funchal, a pamphlet entitled *Apontamentos para a Historia de Angola*. He passed away in April 1915.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "Vasco Guedes de Carvalho e Meneses": [
+            "Civil governor of Madeira, general governor of Angola"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Appointment as civil governor of Madeira"
+        ],
+        "1882": [
+            "Publication of the pamphlet *Apontamentos para a Historia de Angola*"
+        ],
+        "1915": [
+            "Passing away"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 3338,
+    "lang": "de",
+    "is_original": false,
+    "title": "Silva (Pedro da)",
+    "fl": "S",
+    "original_title": "Silva (Pedro da)",
+    "body": "Dieser Generalgouverneur Madeiras war unter dem Spitznamen Mole bekannt. Seine Ernennung erfolgte am 30. Mai 1618 und die Amtsübernahme am 6. Juli desselben Jahres. Später wurde er Gouverneur von Indien und starb dort am 24. Juni 1639.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Indien": [
+            "Gouverneur"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1618": [
+            "Ernennung"
+        ],
+        "6. Juli desselben Jahres": [
+            "Amtsübernahme"
+        ],
+        "1639": [
+            "Tod"
+        ]
+    }
+}

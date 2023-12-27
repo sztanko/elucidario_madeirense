@@ -1,0 +1,28 @@
+{
+    "id": 1322,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fajã do Penedo",
+    "fl": "F",
+    "original_title": "Fajã do Penedo",
+    "body": "Sítio povoado da freguesia da Boaventura. Existiu ali uma pequena ermida da invocação de Sant'Ana, edificada no ano de 1768 pelo morgado Antonio Francisco de Caires, tendo sido demolida pouco depois de 1840. D. Maria dos Anjos Ribeiro fez construir neste sítio, no ano de 1919, uma capela consagrada ao Imaculado Coração de Maria.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1768": [
+            "Construção da ermida de Sant'Ana"
+        ],
+        "1840": [
+            "Demolição da ermida de Sant'Ana"
+        ],
+        "1919": [
+            "Construção da capela consagrada ao Imaculado Coração de Maria"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "id": 1040,
+    "lang": "en",
+    "is_original": false,
+    "title": "Costa (Daniel da)",
+    "fl": "C",
+    "original_title": "Costa (Daniel da)",
+    "body": "Speaking of the Bishop of Funchal, D. Luiz Figueiredo de Lemos, Gaspar Frutuoso says:\n\n“From his illustrious lineage, I will point out a chapter, which was later composed by the most learned Doctor Daniel da Costa, Physician to His Majesty, a noble person of great learning and virtues, residing in the city of Funchal, to further clarify the nobility, life, virtues, and customs of the same Lord.” Barbosa Machado says that the cited writing was entitled Contra ponto, or Life of the VII Bishop of Funchal, and was included in the History of the Islands.\n\nCosta (D. Rodrigo da). His appointment as governor and captain-general of this archipelago dates back to December 2, 1689, and he took office on October 20, 1690.\n\nIn 1702, he was appointed governor of Bahia, and in 1707, viceroy of India. He was the son of the Count of Soure and died in 1722.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City where Daniel da Costa resided"
+        ]
+    },
+    "people": {
+        "D. Luiz Figueiredo de Lemos": [
+            "Bishop of Funchal"
+        ],
+        "Daniel da Costa": [
+            "Physician to His Majesty, residing in the city of Funchal"
+        ],
+        "D. Rodrigo da Costa": [
+            "Governor and captain-general of the archipelago"
+        ]
+    },
+    "years": {
+        "1689": [
+            "Year of D. Rodrigo da Costa's appointment as governor and captain-general of the archipelago"
+        ],
+        "1690": [
+            "Year of D. Rodrigo da Costa's assumption of office as governor and captain-general of the archipelago"
+        ],
+        "1702": [
+            "Year of D. Rodrigo da Costa's appointment as governor of Bahia"
+        ],
+        "1707": [
+            "Year of D. Rodrigo da Costa's appointment as viceroy of India"
+        ],
+        "1722": [
+            "Year of D. Rodrigo da Costa's death"
+        ]
+    }
+}

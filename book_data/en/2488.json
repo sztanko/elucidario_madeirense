@@ -1,0 +1,43 @@
+{
+    "id": 2488,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora das Dores",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Dores",
+    "body": "The parish cemeteries of Santa Cruz and Câmara de Lobos, and the Angústias in Funchal (now closed), have chapels for their exclusive religious service, all dedicated to Nossa Senhora das Dores. The first was built in the last quarter of the 19th century, and the latter in the year 1844.\n\nThe chapel of the Hospício da Princesa Dona Maria Amélia, intended for the service of the patients interned there, also dedicated to Nossa Senhora das Dores, with the exquisite image offered by the unfortunate prince Maximiliano, later emperor of Mexico, who was barbarously executed there in 1867.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Parish"
+        ],
+        "Câmara de Lobos": [
+            "Parish"
+        ],
+        "Funchal": [
+            "Angústias"
+        ]
+    },
+    "people": {
+        "Maximiliano": [
+            "Prince, emperor of Mexico"
+        ]
+    },
+    "years": {
+        "XIX": [
+            "Construction of the first chapel in the parishes of Santa Cruz and Câmara de Lobos"
+        ],
+        "1844": [
+            "Construction of the last chapel in the parishes of Santa Cruz and Câmara de Lobos"
+        ],
+        "1867": [
+            "Execution of Prince Maximiliano"
+        ]
+    }
+}

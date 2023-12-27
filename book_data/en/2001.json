@@ -1,0 +1,24 @@
+{
+    "id": 2001,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lippold (Dr.)",
+    "fl": "L",
+    "original_title": "Lippold (Dr.)",
+    "body": "German botanist who collected plants in Madeira in 1838. He wrote an article in the Gardner's Magazine, in October 1838, about the gardens of Dr. Renton's house on the island of Madeira.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Renton": [
+            "Owner of the mentioned gardens"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Collected plants in Madeira"
+        ]
+    }
+}

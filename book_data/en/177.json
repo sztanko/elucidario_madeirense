@@ -1,0 +1,58 @@
+{
+    "id": 177,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alvares (Joaquim de Oliveira)",
+    "fl": "A",
+    "original_title": "Alvares (Joaquim de Oliveira)",
+    "body": "He was born in Madeira on November 16, 1776, and graduated in mathematics and philosophy from the University of Coimbra. In 1798, he was appointed as a 2nd lieutenant in the navy, and two years later, he distinguished himself in a battle off the coast of the Algarve, between a small Portuguese caíque, of which he was the commander, and a French corsair ship. Proposed for promotion due to the bravery he had shown during the battle, in which he was nevertheless defeated, he later served in the squadron of the Marquis of Nisa, and in 1804 we find him in Brazil, having switched from the navy to the army and holding the position of captain of artillery in the legion of volunteers of São Paulo. He participated in the campaigns of Montevideo, defeated the forces of the famous Artigas on October 27, 1816, in the battle of Carumbé, and on January 4 of the following year, he distinguished himself in the battle of Catalan. In reward for these services, he was given the effective rank of brigadier, the Order of Aviz, and in 1816, the rank of field marshal. After the independence of Brazil, he remained in that empire, having been the minister of war, effective field marshal, officer of the Order of the Southern Cross, and lieutenant general. He lived in London from 1830 to 1835, and having received a very large inheritance there, he made his wealth available to the Brazilian government to pay the interest on bonds in a time of need. Having gone to Paris in 1835 in search of relief for his sufferings, he died there, at the age of 59, and is buried in the Père Lachaise cemetery. He was a man of broad knowledge and left unpublished a significant work entitled 'Estatística do Brasil' (Statistics of Brazil). In volume 2 of the Dicionário Popular, there are interesting biographical data about Marshal Joaquim de Oliveira Alvares, who was the brother of Counselor João Francisco de Oliveira, another illustrious son of our land.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ],
+        "Coimbra": [
+            "Place where he graduated in mathematics and philosophy"
+        ],
+        "Algarve": [
+            "Place where he distinguished himself in a battle"
+        ]
+    },
+    "people": {
+        "Antão Alvares de Carvalho": [
+            "One of the first settlers"
+        ],
+        "Luiz Alvares da Costa": [
+            "Founder of the original convent of São Francisco in Funchal"
+        ],
+        "Pedro Alvares": [
+            "Judge of the Funchal Chamber"
+        ],
+        "João Alvares": [
+            "Ancestor of the famous grammarian Father Manuel Alvares"
+        ],
+        "Joaquim de Oliveira Alvares": [
+            "Field marshal, minister of war, and author of the work 'Estatística do Brasil'"
+        ],
+        "João Francisco de Oliveira": [
+            "Counselor and illustrious son of Madeira"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Year of birth"
+        ],
+        "1798": [
+            "Appointment as 2nd lieutenant in the navy"
+        ],
+        "1804": [
+            "Year in which he was in Brazil"
+        ],
+        "1816": [
+            "Year in which he defeated the forces of the famous Artigas"
+        ]
+    }
+}

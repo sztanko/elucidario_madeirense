@@ -1,0 +1,29 @@
+{
+    "id": 226,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Anson (Jorge)",
+    "fl": "A",
+    "original_title": "Anson (Jorge)",
+    "body": "Este celebre corsário e viajante inglês passou pela Madeira em Setembro de 1740, comandando uma esquadra composta de 8 navios, que se destinava a tomar e saquear embarcações espanholas no Oceano Pacifico.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local de passagem"
+        ]
+    },
+    "people": {
+        "Jorge Anson": [
+            "Corsário e viajante inglês"
+        ]
+    },
+    "years": {
+        "1740": [
+            "Passagem pela Madeira"
+        ]
+    }
+}

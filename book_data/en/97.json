@@ -1,0 +1,32 @@
+{
+    "id": 97,
+    "lang": "en",
+    "is_original": false,
+    "title": "Albergaria e Capela de S. Bartolomeu",
+    "fl": "A",
+    "original_title": "Albergaria e Capela de S. Bartolomeu",
+    "body": "Attached to the church of the same name and founded by Gonçalo Anes de Velosa in 1497, for poor clerics. The first Jesuits stayed there before the foundation of the College. It was visited by the blessed martyr Fr. Inacio de Azevedo. It was located on Rua Direita, which then extended along the left bank of the Santa Luzia stream to the vicinity of the current Ponte do Torreão.\n\n## V. Anes (Gonçalo).",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponte do Torreão": [
+            "Location in Madeira"
+        ],
+        "Santa Luzia": [
+            "Location in Madeira"
+        ]
+    },
+    "people": {
+        "Gonçalo Anes de Velosa": [
+            "Founder of the chapel of S. Bartolomeu"
+        ]
+    },
+    "years": {
+        "1497": [
+            "Foundation of the chapel of S. Bartolomeu"
+        ]
+    }
+}

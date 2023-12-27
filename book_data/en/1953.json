@@ -1,0 +1,27 @@
+{
+    "id": 1953,
+    "lang": "en",
+    "is_original": false,
+    "title": "Legislation",
+    "fl": "L",
+    "original_title": "Legislação",
+    "body": "In the brief article of the first edition of this work, entitled Legislation, we stated that we would provide in the 'Supplement' a summary of the legislative decrees promulgated concerning this archipelago, as a valuable resource for studying the measures adopted by the governments of the Metropolis in the public administration of Madeira, over the long period of five centuries. The 'Supplement', which would form the third volume of the 'Elucidário Madeirense', was not published, and in this new edition, that deficiency cannot be remedied due to the excessive space that the publication of a summary of that legislation would occupy. The aforementioned deficiency was partially remedied with the publication of the book 'The Madeira Archipelago in Portuguese Legislation', authored by Father Fernando Augusto da Silva, which contains a summary of these legislative decrees from the period between 1934 and 1939, accompanied by a detailed index and annotations, occupying more than a hundred pages of the aforementioned book. If a second edition of this work were to be made, a summary of the legislation promulgated prior to the period of constitutionalism should be added, for which the erudite notes of the 'Saudades da Terra' offer an abundant repertoire, in addition to various old collections of Portuguese legislation, and especially the works of José Anastacio de Figueiredo and José Justino de Andrade e Silva.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Fernando Augusto da Silva": [
+            "Author of the book 'The Madeira Archipelago in Portuguese Legislation'"
+        ]
+    },
+    "years": {
+        "1934": [
+            "Start of the period covered by the summary of legislative decrees"
+        ],
+        "1939": [
+            "End of the period covered by the summary of legislative decrees"
+        ]
+    }
+}

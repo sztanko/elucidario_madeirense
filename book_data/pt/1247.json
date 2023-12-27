@@ -1,0 +1,42 @@
+{
+    "id": 1247,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Escola Normal",
+    "fl": "E",
+    "original_title": "Escola Normal",
+    "body": "A escola distrital de habilitação para o magistério primário foi estabelecida pelo decreto de 10 de Maio de 1900, depois de se haver reconhecido a necessidade da criação dum estabelecimento de instrução desta natureza num distrito insular como o nosso, e numa época em que já se fazia sentir a falta de professores suficientemente habilitados para a regência das escolas que se achavam vagas e ainda daquelas que porventura viessem a vagar. Em Outubro de 1900 abriram matrícula 37 alunos, e a Escola começou a funcionar no dia 10 do mês e ano referidos. Em Julho do ano seguinte realizaram-se os exames de passagem do 1.º ano do curso, tendo obtido aprovação 26 alunos. Foi primeiro e único director deste estabelecimento o Dr. Pedro José Lomelino, e seus primeiros professores Constantino Silvano Pereira, Francisco Augusto da Silva, Manuel José Varela, D. Maria da Piedade Oliveira e o já referido director. A Escola foi instalada num edifício á rua dos Aranhas e ali funcionou sempre, sendo nesta mesma casa que também funciona agora (1922) a Escola de Ensino Primário Superior. Por decreto de 24 de Dezembro de 1901 foram extintas as escolas distritais de habilitação para o magistério primário e convertidas em escolas normais, passando o curso, que era de dois anos, a ser de três, ficando a Escola do Funchal com o mesmo pessoal docente e com o mesmo numero de disciplinas que anteriormente tinha. O decreto de 10 de Maio de 1919 extinguiu todas as escolas normais do país, com excepção das de Lisboa, Porto e Coimbra, e transformou-as em Escolas Primarias Superiores, ficando uma delas com sua sede no Funchal. A Escola Normal desta cidade, nos seus dezanove anos de existencia, habilitou 172 professores de instrução primaria de ambos os sexos.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pedro José Lomelino": [
+            "Diretor da Escola Normal"
+        ],
+        "Constantino Silvano Pereira": [
+            "Professor da Escola Normal"
+        ],
+        "Francisco Augusto da Silva": [
+            "Professor da Escola Normal"
+        ],
+        "Manuel José Varela": [
+            "Professor da Escola Normal"
+        ],
+        "D. Maria da Piedade Oliveira": [
+            "Professora da Escola Normal"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Abertura da Escola Normal"
+        ],
+        "1901": [
+            "Extinção das escolas distritais de habilitação para o magistério primário e conversão em escolas normais"
+        ],
+        "1919": [
+            "Extinção das escolas normais do país, com exceção das de Lisboa, Porto e Coimbra, e transformação em Escolas Primarias Superiores"
+        ]
+    }
+}

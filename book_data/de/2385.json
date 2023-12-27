@@ -1,0 +1,60 @@
+{
+    "id": 2385,
+    "lang": "de",
+    "is_original": false,
+    "title": "Neues Kloster",
+    "fl": "N",
+    "original_title": "Mosteiro Novo",
+    "body": "Es ist das Gebäude des heutigen Diözesanseminars. (1921). Der Anmerker der Saudades sagt, dass es ein Versuch des Priesters Manuel Afonso Rocha war, der 1654 begonnen wurde und für Nonnen bestimmt war, aber nie fertiggestellt wurde. In einem alten Manuskript fanden wir einige weitere detaillierte Verweise auf dieses geplante Kloster, die wir reproduzieren werden. Am 17. Dezember 1638 rief der Kanoniker Manuel Afonso Rocha, der wegen einer schweren Krankheit ans Bett gefesselt war, einen Notar zu sich und bat auch um die Anwesenheit des Diözesanbischofs D. Jerónimo Fernando. Er erklärte, dass er mit dem Bau eines Klosters begonnen habe, das aus Häusern, Werkstätten, einer Kirche und einem Chor bestehe und dem heiligen Josef gewidmet sei. Es sei für Mönche oder Nonnen bestimmt, unter der Bedingung, einige Messen und Ämter zu feiern. Da er es jedoch noch nicht fertiggestellt habe, übergebe er dessen Leitung und Verwaltung dem Schutz desselben Prälaten und seiner Nachfolger. Er bat sie lediglich, es für den genannten Zweck oder als Zufluchtsort für Damen oder Frauen von Stand zu verwenden. Sollte dies nicht möglich sein, möge man das Kloster mit seiner Kirche und den Häusern frommen Bettelmönchen oder anderen übergeben, die Gott dort besser dienen würden. Das Ersuchen und die Bedingungen des Kanonikers Rocha wurden angenommen, aber da die Einkünfte knapp waren, wurde dem Gebäude nie die Anwendung zuteil, die ihm sein Stifter bestimmt hatte. Wir glauben auch, dass die geplanten Arbeiten nie abgeschlossen wurden, denn es scheint uns, dass es dort nie eine Kirche mit Chor gab, sondern nur eine kleine Kapelle im Inneren des Hauses. 1647 genehmigte der Diözesanbischof, dass die Neffen des Stifters, der Kanoniker António Espranger Rocha, sein Bruder Pater Inacio Espranger und einige ihrer Schwestern das Gebäude bewohnen durften. Nach ihrem Tod bewohnte ein Neffe namens Kanoniker António Espranger, der 1691 starb, das Haus. Einige Jahre später, etwa 1697, wurde dort das Diözesanseminar untergebracht, das bis dahin neben dem bischöflichen Palast untergebracht war. Das Erdbeben von 1748 beschädigte das Haus des Neuen Klosters schwer, so dass es aufgegeben werden musste. Nach entsprechender Instandsetzung diente es ab etwa 1760 wieder als Seminar. 1788 wurde das Diözesanseminar in das Jesuitenkolleg verlegt. 1801, als Madeira von englischen Truppen besetzt war, kehrte es wieder in das Neue Kloster zurück. Dort blieb es bis 1909, als es in dem großen Gebäudekomplex im Klostergarten der Inkarnation untergebracht wurde. Das Seminar dieser Diözese wurde durch Dekret vom 20. April 1911 aufgehoben, funktionierte aber weiterhin inoffiziell ab jenem Jahr im alten Haus in der Straße des Neuen Klosters. (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Manuel Afonso Rocha": [
+            "Kanoniker, der das Neue Kloster gründete"
+        ],
+        "D. Jerónimo Fernando": [
+            "Diözesanbischof zur Zeit der Gründung des Neuen Klosters"
+        ],
+        "António Espranger Rocha": [
+            "Neffe des Gründers, Kanoniker"
+        ],
+        "Inacio Espranger": [
+            "Bruder des Kanonikers António Espranger Rocha"
+        ]
+    },
+    "years": {
+        "1654": [
+            "Beginn des Baus des Neuen Klosters"
+        ],
+        "1638": [
+            "Gründung des Neuen Klosters"
+        ],
+        "1647": [
+            "Erlaubnis zur Bewohnung des Gebäudes"
+        ],
+        "1697": [
+            "Einrichtung des Diözesanseminars"
+        ],
+        "1748": [
+            "Erdbeben beschädigte das Haus des Neuen Klosters"
+        ],
+        "1760": [
+            "Instandsetzung des Hauses des Neuen Klosters"
+        ],
+        "1788": [
+            "Verlegung des Diözesanseminars"
+        ],
+        "1801": [
+            "Rückkehr des Diözesanseminars"
+        ],
+        "1909": [
+            "Unterbringung im Klostergarten der Inkarnation"
+        ],
+        "1911": [
+            "Aufhebung des Diözesanseminars"
+        ]
+    }
+}

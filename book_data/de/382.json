@@ -1,0 +1,25 @@
+{
+    "id": 382,
+    "lang": "de",
+    "is_original": false,
+    "title": "Balancal",
+    "fl": "B",
+    "original_title": "Balancal",
+    "body": "Ort der Gemeinde São Gonçalo, der das Landgut Palheiro Ferreiro an seinem südlichen Ende begrenzt und von wo aus man eine erstaunliche Aussicht auf das Amphitheater der Stadt Funchal und ihrer Vororte hat.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Gemeinde, in der sich der Ort Balancal befindet."
+        ],
+        "Funchal": [
+            "Stadt in der Nähe des Ortes Balancal."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

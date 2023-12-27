@@ -1,0 +1,31 @@
+{
+    "id": 1444,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fort Penha de França",
+    "fl": "F",
+    "original_title": "Forte da Penha de França",
+    "body": "Es handelte sich um ein vorgelagertes Bauwerk zum Schutz der Bucht von Ribeiro Seco, das 1712 errichtet wurde. Der erste Konstabler war Manuel de Ceia. 1801 wurde dort ein Teil der englischen Truppen unter Oberst Clinton einquartiert.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeiro Seco": [
+            "Geschützte Bucht"
+        ]
+    },
+    "people": {
+        "Manuel de Ceia": [
+            "Erster Konstabler"
+        ]
+    },
+    "years": {
+        "1712": [
+            "Bau des Forts"
+        ],
+        "1801": [
+            "Einquartierung englischer Truppen"
+        ]
+    }
+}

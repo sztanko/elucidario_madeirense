@@ -1,0 +1,38 @@
+{
+    "id": 844,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cedro",
+    "fl": "C",
+    "original_title": "Cedro",
+    "body": "Varias resinosas pertencentes á familia das Pinaceas recebem este nome na Madeira, sendo dentre elas a mais frequente o Juniperus glauca, conhecido vulgarmente pela designação de cedro de Goa ou das barracas.\n\nO cedro da ilha é o Juniperus Oxycedrus subespecie madeirensis, arbusto ou pequena arvore de 4-7 metros, com as flores dióicas, os ramusculos pendentes, as fôlhas lineares ou linear-lanceoladas, ternadas, com 2 riscas brancas na pagina superior, e as gálbulas subglobosas e de ordinario amarelas. Este cedro, cultivado nas quintas do Monte, Camacha e Santo da Serra, mas quasi extinto nas serras da Madeira, produz uma madeira aromatica e leve muito apreciada pelos marceneiros. O tecto da Sé Catedral foi construído com esta madeira, e a ser certo o que diz Manuel Tomás na Insulana, serviu ela também para edificar a primeira casa sobradada que houve no Funchal. O oleo de cade é produzido pelo J. Oxycedrus.",
+    "categories": [
+        "biology",
+        "architecture"
+    ],
+    "freguesias": [
+        "Monte",
+        "Camacha",
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Monte": [
+            "Local de cultivo do cedro"
+        ],
+        "Camacha": [
+            "Local de cultivo do cedro"
+        ],
+        "Santo da Serra": [
+            "Local de cultivo do cedro"
+        ],
+        "Funchal": [
+            "Utilização da madeira na construção da primeira casa sobradada"
+        ]
+    },
+    "people": {
+        "Manuel Tomás": [
+            "Mencionado na Insulana"
+        ]
+    },
+    "years": {}
+}

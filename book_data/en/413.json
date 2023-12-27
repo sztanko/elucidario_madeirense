@@ -1,0 +1,30 @@
+{
+    "id": 413,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barbosa de Matos e Câmara (João)",
+    "fl": "B",
+    "original_title": "Barbosa de Matos e Câmara (João)",
+    "body": "Born on this island, he was a law graduate from the University of Coimbra. He represented Madeira in the parliament during the legislative session from 1858 to 1869 and passed away in Funchal on May 28, 1906.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Barbosa de Matos e Câmara": [
+            "Represented Madeira in the parliament during the legislative session from 1858 to 1869"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Legislative session"
+        ],
+        "1869": [
+            "Legislative session"
+        ],
+        "1906": [
+            "Passed away in Funchal on May 28"
+        ]
+    }
+}

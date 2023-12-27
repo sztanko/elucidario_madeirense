@@ -1,0 +1,33 @@
+{
+    "id": 2493,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau zur Glorie (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Glória (Capela de)",
+    "body": "Diese Kapelle wurde 1599 von Henrique de Bettencourt in der Gemeinde Campanário gegründet. 1823 war der Grundherr Luís Correia ihr Verwalter. Sie wurde vor wenigen Jahren von der Gräfin von Torre Bela restauriert, der sie gehört (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário"
+    ],
+    "locations": {
+        "Campanário": [
+            "Ort, an dem Henrique de Bettencourt die Kapelle Unsere Liebe Frau zur Glorie gründete"
+        ]
+    },
+    "people": {
+        "Henrique de Bettencourt": [
+            "Gründer der Kapelle Unsere Liebe Frau zur Glorie"
+        ]
+    },
+    "years": {
+        "1599": [
+            "Gründungsjahr der Kapelle Unsere Liebe Frau zur Glorie"
+        ],
+        "1823": [
+            "Jahr, in dem Luís Correia Verwalter der Kapelle war"
+        ]
+    }
+}

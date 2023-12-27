@@ -1,0 +1,33 @@
+{
+    "id": 63,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Agrela (João Agostinho Pereira de)",
+    "fl": "A",
+    "original_title": "Agrela (João Agostinho Pereira de)",
+    "body": "Nasceu no Funchal em Maio de 1777, e pertencia a uma antiga e nobre família, que tinha a propriedade do lugar de escrivão da Câmara do Funchal, concedida por D. João IV em 1645 a um dos ascendentes de Pereira de Agrela. Diz o Dr. Álvaro de Azevedo que era um dos madeirenses mais eruditos do seu tempo. Foi ele que, no princípio do século passado, mandou extrair a cópia das Saudades da Terra, que serviu de texto à publicação que desta obra fez o Dr. Azevedo em 1873.\n\n> V. artigo Saudades da Terra.\n\n\"Era homem, diz o Diccionário Popular, muito lido e grande investigador de antiguidades; escreveu uma colecção de memórias genealógicas, que existem inéditas em 5 grossos volumes em poder dos seus herdeiros, e que trata de todas as famílias nobres que se passaram à ilha da Madeira e suas gerações, com bastantes curiosidades relativas a algumas delas. Esta obra revela aturado estudo de um espírito curioso e uma critica esclarecida, sendo certamente a mais expurgada de erros e a mais desenvolvida que se encontra neste ramo da história daquela ilha.\n\nComo professasse ideias liberais, foi preso em 1828 e enviado para Lisboa, onde esteve na fragata D. Pedro um ano, e na cadeia do Limoeiro outro ano, sendo por fim condenado a não voltar à Madeira por mais um ano. Regressando à pátria em 1834, aqui faleceu no ano imediato, no mês de Fevereiro.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Agostinho Pereira de Agrela": [
+            "Historiador e investigador de antiguidades"
+        ]
+    },
+    "years": {
+        "1777": [
+            "Nascimento de João Agostinho Pereira de Agrela"
+        ],
+        "1645": [
+            "Concessão da propriedade do lugar de escrivão da Câmara do Funchal a um dos ascendentes de Pereira de Agrela"
+        ],
+        "1828": [
+            "Prisão de João Agostinho Pereira de Agrela em Lisboa"
+        ],
+        "1834": [
+            "Falecimento de João Agostinho Pereira de Agrela"
+        ]
+    }
+}

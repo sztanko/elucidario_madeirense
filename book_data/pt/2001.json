@@ -1,0 +1,24 @@
+{
+    "id": 2001,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lippold (Dr.)",
+    "fl": "L",
+    "original_title": "Lippold (Dr.)",
+    "body": "Botânico alemão que herborizou na Madeira em 1838. Escreveu no Gardner's Magazine, de Outubro de 1838, uma noticia sôbre os jardins da casa do Dr. Renton, na ilha da Madeira.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Renton": [
+            "Proprietário dos jardins mencionados"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Herborizou na Madeira"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 2512,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Pena (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Pena (Capela de)",
+    "body": "Em terreno pertencente então à freguesia do Monte, se erigiu em 1657 a capela desta invocação, que teve por fundadores a Duarte Mendes de Miranda e sua mulher D. Beatriz de Vasconcelos, dotando-a por escritura pública de 20 de Setembro do mesmo ano. O terramoto de 1748 deixou a capela muito arruinada, tendo sido logo reconstruída por António José Espinola, neto dos fundadores, que a mudou para local mais apropriado, nas imediações da primitiva construção.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Localizada em terreno pertencente à freguesia do Monte."
+        ]
+    },
+    "people": {
+        "Duarte Mendes de Miranda": [
+            "Fundador da capela em 1657, juntamente com sua mulher D. Beatriz de Vasconcelos."
+        ],
+        "António José Espinola": [
+            "Responsável pela reconstrução da capela após o terramoto de 1748."
+        ]
+    },
+    "years": {
+        "1657": [
+            "Fundação da capela"
+        ],
+        "1748": [
+            "Terramoto que deixou a capela arruinada"
+        ]
+    }
+}

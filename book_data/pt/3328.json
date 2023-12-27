@@ -1,0 +1,37 @@
+{
+    "id": 3328,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Silva",
+    "fl": "S",
+    "original_title": "Silva",
+    "body": "É nobre apelido de família. Gonçalo Denis da Silva fundou a ermida das Almas Pobres, em Santa Maria Maior, pouco depois\nda fundação da capela de S. Paulo, e Jordão de Freitas da Silva, que vivia em Santa Cruz no ano de 1618, era neto de Jordão de\nFreitas, da casa do infante D. Diogo, duque de Viseu.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Local da ermida fundada por Gonçalo Denis da Silva"
+        ],
+        "Santa Cruz": [
+            "Local de residência de Jordão de Freitas da Silva"
+        ]
+    },
+    "people": {
+        "Gonçalo Denis da Silva": [
+            "Fundador da ermida das Almas Pobres"
+        ],
+        "Jordão de Freitas da Silva": [
+            "Neto de Jordão de Freitas, da casa do infante D. Diogo, duque de Viseu"
+        ]
+    },
+    "years": {
+        "1618": [
+            "Ano de residência de Jordão de Freitas da Silva em Santa Cruz"
+        ]
+    }
+}

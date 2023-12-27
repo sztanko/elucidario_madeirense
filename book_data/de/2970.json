@@ -1,0 +1,26 @@
+{
+    "id": 2970,
+    "lang": "de",
+    "is_original": false,
+    "title": "Queimado (Pico)",
+    "fl": "Q",
+    "original_title": "Queimado (Pico)",
+    "body": "Ort und Berg zwischen Lombo do Mouro in der Gemeinde Ribeira Brava und Monte Medonho in der Gemeinde S. Vicente gelegen.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "S. Vicente"
+    ],
+    "locations": {
+        "Lombo do Mouro": [
+            "Gemeinde Ribeira Brava"
+        ],
+        "Monte Medonho": [
+            "Gemeinde S. Vicente"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

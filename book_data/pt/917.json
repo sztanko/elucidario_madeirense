@@ -1,0 +1,30 @@
+{
+    "id": 917,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Clube Restauração",
+    "fl": "C",
+    "original_title": "Clube Restauração",
+    "body": "Foi fundado em Maio de 1879 na casa do extinto Clube União, á avenida “Manuel de Arriaga”, antiga praça da Constituição. Os seus estatutos foram aprovados por alvará do Governador Civil de 12 de Agôsto de 1889 e reformados pela assembleia geral em 21 de Fevereiro de 1897.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde o Clube Restauração foi fundado"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1879": [
+            "Fundação do Clube Restauração"
+        ],
+        "1889": [
+            "Aprovação dos estatutos do Clube Restauração"
+        ],
+        "1897": [
+            "Reformação dos estatutos do Clube Restauração"
+        ]
+    }
+}

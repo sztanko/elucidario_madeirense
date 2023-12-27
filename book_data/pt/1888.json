@@ -1,0 +1,39 @@
+{
+    "id": 1888,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Junta da Justiça",
+    "fl": "J",
+    "original_title": "Junta da Justiça",
+    "body": "Foi criada neste arquipélago pelo alvará régio de 26 de Outubro de 1803 e compunha-se do Governador e Capitão General, do Corregedor da Comarca, do juiz de Fora e do Juiz ou Provedor dos Resíduos e Capelas. Ignoramos qual fosse a extensão das suas atribuições, mas lemos algures que ela se destinava a «conhecer os crimes cometidos na comarca e que das suas deliberações havia recurso para a Casa da Suplicação, em Lisboa. O Governador e Capitão-General por motivos que desconhecemos, informava em 1809 o governo da metrópole que convinha excluir da Junta da Justiça o Juiz dos Resíduos e Capelas. E em 1824, queixava-se o Governador ás estações superiores dos excessos cometidos pela referida Junta e propunha que se tornasse extensivo a este arquipélago o alvará régio de 15 de Outubro de 1810 que criara nos Açores a Junta da Justiça Criminal. Não sabemos quando foi extinta, mas ainda funcionava entre nós no ano de 1830.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Governador e Capitão-General": [
+            "Título de um cargo político e militar."
+        ],
+        "Corregedor da Comarca": [
+            "Cargo judicial responsável pela administração da justiça em uma comarca."
+        ],
+        "Juiz de Fora": [
+            "Juiz com jurisdição fora da localidade onde reside."
+        ],
+        "Juiz ou Provedor dos Resíduos e Capelas": [
+            "Cargo responsável pela administração dos bens e rendas de pessoas falecidas sem herdeiros."
+        ]
+    },
+    "years": {
+        "1803": [
+            "Criação da Junta da Justiça pelo alvará régio."
+        ],
+        "1809": [
+            "Exclusão do Juiz dos Resíduos e Capelas da Junta da Justiça."
+        ],
+        "1824": [
+            "Queixa do Governador sobre os excessos cometidos pela Junta da Justiça."
+        ]
+    }
+}

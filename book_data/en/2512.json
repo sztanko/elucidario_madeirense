@@ -1,0 +1,34 @@
+{
+    "id": 2512,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Pena (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Pena (Capela de)",
+    "body": "The chapel of this invocation was erected in 1657 on land belonging to the parish of Monte. It was founded by Duarte Mendes de Miranda and his wife D. Beatriz de Vasconcelos, who endowed it by public deed on September 20 of the same year. The earthquake of 1748 left the chapel in ruins, and it was soon rebuilt by António José Espinola, grandson of the founders, who moved it to a more suitable location near the original construction.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Located on land belonging to the parish of Monte."
+        ]
+    },
+    "people": {
+        "Duarte Mendes de Miranda": [
+            "Founder of the chapel in 1657, along with his wife D. Beatriz de Vasconcelos."
+        ],
+        "António José Espinola": [
+            "Responsible for the reconstruction of the chapel after the 1748 earthquake."
+        ]
+    },
+    "years": {
+        "1657": [
+            "Foundation of the chapel"
+        ],
+        "1748": [
+            "Earthquake that left the chapel in ruins"
+        ]
+    }
+}

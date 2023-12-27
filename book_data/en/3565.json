@@ -1,0 +1,40 @@
+{
+    "id": 3565,
+    "lang": "en",
+    "is_original": false,
+    "title": "Valhadolid (Padre Francisco)",
+    "fl": "V",
+    "original_title": "Valhadolid (Padre Francisco)",
+    "body": "Despite any claims to the contrary, Madeira has not been the birthplace of individuals who have left a renowned name in the annals of musical art in our country. Only Father Francisco Valhadolid enjoyed great renown in his time, as mentioned very honorably by Barbosa Machado in the *Bibliotheca Lusitana*, Joaquim de Vasconcelos in his work *Os Músicos Portugueses*, and probably Ernesto Vieira will also mention him in the *Dicionário dos Músicos Portugueses*, which we cannot verify at the moment.\n\nIt has been doubted whether he was a native of this island, perhaps due to the strange surname he used, but having lived for many years in Lisbon, in the parish of Santos-o-Velho, and having died there, and the respective death record stating that he was a native of Madeira, it is to be believed that the priest who recorded this information had knowledge of the birthplace of his colleague, who resided for many years within the limits of his parish.\n\nValhadolid is said to have been born in 1640, and to have died in the parish of Santos on July 17, 1700, where he is buried. Joaquim de Vasconcelos says that in Funchal he was a disciple of Canon Manuel Fernandes in composition, and in Lisbon of the distinguished musician João Alves Frovo in counterpoint. He dedicated himself to sacred music and left many compositions, which Vasconcelos enumerates and which were considered in his time as productions of great artistic value. He was working on a work entitled *Mistérios da música*, both practical and speculative, when death surprised him. He had a rich musical library, which seems to have been completely lost.\n\nHe was a secular priest and for many years held the position of music teacher at the archiepiscopal seminary of Lisbon.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Barbosa Machado": [
+            "Historian"
+        ],
+        "Joaquim de Vasconcelos": [
+            "Author of *Os Músicos Portugueses*"
+        ],
+        "Ernesto Vieira": [
+            "Author of *Dicionário dos Músicos Portugueses*"
+        ],
+        "Manuel Fernandes": [
+            "Canon"
+        ],
+        "João Alves Frovo": [
+            "Musician"
+        ]
+    },
+    "years": {
+        "1640": [
+            "Valhadolid's birth"
+        ],
+        "1700": [
+            "Valhadolid's death"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 2550,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nunes (Padre Manuel)",
+    "fl": "N",
+    "original_title": "Nunes (Padre Manuel)",
+    "body": "He was born in the parish of Paul do Mar in the year 1848 and died in the parish of São Gonçalo, where he was the parish priest, on December 28, 1892. He was one of our most distinguished sacred orators, and his speeches were notable for their elegant style and linguistic correctness. He brilliantly cultivated poetry, especially the satirical genre, in which he became well known among us, with compositions that rival those of our Nicolau Tolentino.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Paul do Mar",
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Paul do Mar": [
+            "Birthplace of Padre Manuel Nunes"
+        ],
+        "São Gonçalo": [
+            "Place of death of Padre Manuel Nunes"
+        ]
+    },
+    "people": {
+        "Padre Manuel Nunes": [
+            "Distinguished sacred orator and poet"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Birth of Padre Manuel Nunes"
+        ],
+        "1892": [
+            "Death of Padre Manuel Nunes"
+        ]
+    }
+}

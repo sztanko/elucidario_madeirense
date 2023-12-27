@@ -1,0 +1,32 @@
+{
+    "id": 1208,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ega (Conde da)",
+    "fl": "E",
+    "original_title": "Ega (Conde da)",
+    "body": "> Aires José Maria de Saldanha Albuquerque Matos e Noronha, 2.- conde da Ega, era filho de Manuel de Saldanha de Albuquerque e nasceu no Funchal a 29 de Março de 1755, quando seu pai exercia aqui o cargo de governador e capitão-general deste arquipelago, tendo sido baptizado na capela do palácio de São Lourenço, a 27 de Maio do mesmo ano. Exerceu elevados cargos públicos, como o de embaixador de Portugal em Madrid, mas ficou sendo mais conhecido o seu nome por ser marido da celebre condessa da Ega, que foi amante do general Junot, quando este entrou em Portugal, comandando as tropas da primeira invasão francesa. Quando as tropas de Napoleão saíram de Portugal em 1811, toda a família do conde de Ega foi para França, onde o conde recebeu do imperador uma pensão de sessenta mil francos anuais, que usufruiu até á queda de Napoleão. Tendo então o nosso governo procedido contra os portugueses que estavam em França, foi o conde da Ega condenado á morte, mas esta sentença nunca se executou, e em 1823 foi absolvido dos crimes que lhe imputavam.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Aires José Maria de Saldanha Albuquerque Matos e Noronha": [
+            "2.- conde da Ega"
+        ],
+        "Manuel de Saldanha de Albuquerque": [
+            "Pai de Aires José Maria de Saldanha Albuquerque Matos e Noronha"
+        ]
+    },
+    "years": {
+        "1755": [
+            "Nascimento de Aires José Maria de Saldanha Albuquerque Matos e Noronha"
+        ]
+    }
+}

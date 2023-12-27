@@ -1,0 +1,69 @@
+{
+    "id": 2043,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Longevidade",
+    "fl": "L",
+    "original_title": "Longevidade",
+    "body": "Em 1911, havia em todo o distrito do Funchal 586 homens e 868 mulheres com mais de 80 anos, distribuídos do modo seguinte:\n\n| Localidade         | Varões | Fêmeas |\n|--------------------|--------|--------|\n| Funchal            | 142    | 273    |\n| Câmara de Lobos    | 75     | 111    |\n| Ponta do Sol       | 76     | 122    |\n| Calheta            | 67     | 111    |\n| Porto do Moniz     | 22     | 29     |\n| S. Vicente         | 37     | 31     |\n| Santana            | 41     | 32     |\n| Machico            | 33     | 57     |\n| Santa Cruz         | 84     | 94     |\n| Porto Santo        | 9      | 8      |\n\nDestes indivíduos, 385 varões e 578 fêmeas tinham de 80 a 85 anos: 126 varões e 177 fêmeas, de 85 anos; 56 varões e 76 fêmeas, de 90 a 95; 14 varões e 32 fêmeas, de 95 a 100; 5 varões e 3 fêmeas, de 100 a 105; e 2 femeas de mais de 105 anos. Em 1911, vivia na Achada dos Judeus em S. Vicente, uma mulher com 109 anos.\n\nA proporção dos indivíduos de 80 a 100 ou mais anos, por 1000 habitantes, era a seguinte no referido ano de 1911:\n\n| Localidade         | Proporção por 1000 habitantes |\n|--------------------|-------------------------------|\n| Funchal            | 8,24                          |\n| Câmara de Lobos    | 9,23                          |\n| Ponta do Sol       | 9,84                          |\n| Calheta            | 8,88                          |\n| Porto do Moniz     | 11,62                         |\n| S. Vicente         | 7,96                          |\n| Santana            | 7,20                          |\n| Machico            | 6,46                          |\n| Santa Cruz         | 8,90                          |\n| Porto Santa        | 7,79                          |\n\nEm Março de 1920, morreu na Madeira um homem com 101 anos, em Setembro um outro com 106 anos, e em Dezembro uma mulher 103.\n\nO Dr. Mittermaier calculou em 35,16 anos a duração média da vida humana no Funchal, mas, segundo alguns cálculos que fizemos há tempos, essa duração média eleva-se a 39,8. O Dr. Heberden que esteve na Madeira no século XVIII calculou em 39 anos a duração média da vida humana em toda a ilha.\n\nSobre a longevidade no Continente e nas Ilhas Adjacentes, consulte-se o Censo da População n.° I de Dezembro de 1911 (parte 4.ª); Lisboa, 1914.",
+    "categories": [
+        "society",
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade onde havia 142 varões e 273 fêmeas com mais de 80 anos em 1911"
+        ],
+        "Câmara de Lobos": [
+            "Localidade com 75 varões e 111 fêmeas com mais de 80 anos em 1911"
+        ],
+        "Ponta do Sol": [
+            "Localidade com 76 varões e 122 fêmeas com mais de 80 anos em 1911"
+        ],
+        "Calheta": [
+            "Localidade com 67 varões e 111 fêmeas com mais de 80 anos em 1911"
+        ],
+        "Porto do Moniz": [
+            "Localidade com 22 varões e 29 fêmeas com mais de 80 anos em 1911"
+        ],
+        "S. Vicente": [
+            "Localidade com 37 varões e 31 fêmeas com mais de 80 anos em 1911, incluindo uma mulher com 109 anos na Achada dos Judeus"
+        ],
+        "Santana": [
+            "Localidade com 41 varões e 32 fêmeas com mais de 80 anos em 1911"
+        ],
+        "Machico": [
+            "Localidade com 33 varões e 57 fêmeas com mais de 80 anos em 1911"
+        ],
+        "Santa Cruz": [
+            "Localidade com 84 varões e 94 fêmeas com mais de 80 anos em 1911"
+        ],
+        "Porto Santo": [
+            "Localidade com 9 varões e 8 fêmeas com mais de 80 anos em 1911"
+        ]
+    },
+    "people": {
+        "Dr. Mittermaier": [
+            "Calculou em 35,16 anos a duração média da vida humana no Funchal"
+        ],
+        "Dr. Heberden": [
+            "Calculou em 39 anos a duração média da vida humana em toda a ilha da Madeira no século XVIII"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Ano em que foi realizado o censo que indicou a distribuição de pessoas com mais de 80 anos no distrito do Funchal"
+        ],
+        "1920": [
+            "Ano em que morreram três pessoas centenárias na Madeira"
+        ],
+        "1775": [
+            "Data da carta régia que apresentou João Francisco Lopes Rocha como pároco na freguesia de Santa Maria Maior"
+        ],
+        "1819": [
+            "Falecimento do Dr. João Francisco Lopes Rocha"
+        ]
+    }
+}

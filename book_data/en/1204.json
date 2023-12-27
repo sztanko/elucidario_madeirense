@@ -1,0 +1,28 @@
+{
+    "id": 1204,
+    "lang": "en",
+    "is_original": false,
+    "title": "Echo de Santa Cruz",
+    "fl": "E",
+    "original_title": "Echo de Santa Cruz",
+    "body": "The first issue was released on September 24, 1877, and issue 14 on March 30, 1878. It was composed and printed in the town of Santa Cruz and was the first newspaper published in Madeira outside the capital of the district.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Cruz": [
+            "Town where the newspaper was composed and printed"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1877": [
+            "Publication of the first issue of the newspaper Echo de Santa Cruz"
+        ],
+        "1878": [
+            "Publication of issue 14 of the newspaper Echo de Santa Cruz"
+        ]
+    }
+}

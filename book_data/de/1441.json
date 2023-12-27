@@ -1,0 +1,30 @@
+{
+    "id": 1441,
+    "lang": "de",
+    "is_original": false,
+    "title": "Festung S. Felipe da Praça",
+    "fl": "F",
+    "original_title": "Forte de S. Felipe da Praça",
+    "body": "Auf Befehl des Gouverneurs Bischof D. Jerónimo Fernando 1628 zwischen den Mündungen des Baches Ribeira de João Gomes und Ribeira de Santa Luzia und südlich des Prangers, an der Stelle, wo sich ein großes Sägewerk befand, dessen Holz für ein kastilisches Kriegsschiff verwendet wurde, erbaut. 1754 war Hauptmann Roque João Acciaioly Konstabler. Vom Kriegsministerium verkauft, wich es einem großen Lagerhaus.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Jerónimo Fernando": [
+            "Befahl den Bau der Festung S. Felipe da Praça"
+        ],
+        "Hauptmann Roque João Acciaioly": [
+            "War 1754 Konstabler der Festung S. Felipe da Praça"
+        ]
+    },
+    "years": {
+        "1628": [
+            "Festung S. Felipe da Praça wurde auf Befehl von Gouverneur Bischof D. Jerónimo Fernando erbaut"
+        ],
+        "1754": [
+            "Hauptmann Roque João Acciaioly war Konstabler der Festung S. Felipe da Praça"
+        ]
+    }
+}

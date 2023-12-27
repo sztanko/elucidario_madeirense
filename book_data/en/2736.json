@@ -1,0 +1,31 @@
+{
+    "id": 2736,
+    "lang": "en",
+    "is_original": false,
+    "title": "Peregrinações Madeirenses",
+    "fl": "P",
+    "original_title": "Peregrinações Madeirenses",
+    "body": "Under the name 'Peregrinações Madeirenses', two excursions took place in 1923 and 1926, in which several hundred people from this archipelago took part, visiting the most famous sanctuaries, monuments, and museums in various countries in Europe. Regarding the first one, Father Jacinto da C. Nunes published an interesting description in twenty articles, included in the magazine *A Esperança*, from the years 1924 and 1925, and for the second one, the well-known writer João dos Reis Gomes published an extensive account under the title 'Através da França, Suíça e Itália', which is a splendid and instructive travel book.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Father Jacinto da C. Nunes": [
+            "Author of the description of the pilgrimages"
+        ],
+        "João dos Reis Gomes": [
+            "Writer of the account of the pilgrimages"
+        ]
+    },
+    "years": {
+        "1923": [
+            "Realization of the first pilgrimage"
+        ],
+        "1926": [
+            "Realization of the second pilgrimage"
+        ]
+    }
+}

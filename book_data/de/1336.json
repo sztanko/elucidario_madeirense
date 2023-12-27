@@ -1,0 +1,38 @@
+{
+    "id": 1336,
+    "lang": "de",
+    "is_original": false,
+    "title": "Leuchtturm von São Lourenço",
+    "fl": "L",
+    "original_title": "Farol de São Lourenço",
+    "body": "Wie bekannt ist, hatte das Schiff, das João Gonçalves Zarco bei der Entdeckung Madeiras kommandierte, den Namen S. Lourenço, und als er zum ersten Mal an jenes Land herankam, gab er ihm denselben Namen wie die Karavelle, die ihn dorthin gebracht hatte. Die Spitze dieser Landzunge, genauer ein kleiner, isolierter Felsen, der ihr vorgelagert ist, wurde immer als der geeignetste Ort für die Errichtung eines Leuchtturms angesehen, da sein Licht einen beträchtlichen Teil des Nordens und Südens der Insel sowie die Meerenge zwischen Madeira und Porto Santo abdecken würde. Dieser Felsen ist eine Insel in der Nähe der Landspitze, von der er durch eine enge Meerenge getrennt ist, die nur für kleine Boote schiffbar ist.\n\nIm Jahr 1867 wurde mit der Organisation des endgültigen Projekts und Kostenvoranschlags für den Bau dieses Leuchtturms begonnen. Die Bauarbeiten für das Gebäude und die dazugehörigen Nebengebäude starteten 1868 und wurden Anfang 1870 abgeschlossen.\n\nDer Leuchtturm ist ein dioptrischer oder linsenförmiger Leuchtturm zweiter Ordnung, der alle 30 Sekunden weißes Licht mit unterbrochenen Lichtblitzen aussendet und in einer Entfernung von 25 Seemeilen sichtbar ist. Er wurde von der französischen Firma Saulter gebaut, die Montage wurde vom Ingenieur Charles Trepardoux durchgeführt. Die Kosten, einschließlich Transport und Montage, beliefen sich auf 8.370$00.\n\nDie Laterne befindet sich 140 Meter über dem Meeresspiegel, auf 32° 41′ nördlicher Breite und 16° 39′ westlicher Länge bezogen auf das Observatorium von Greenwich.\n\nAm 30. September 1870 nahm er seinen Betrieb auf und beleuchtete zum ersten Mal jene Gegend.\n\nDamit war ein großes öffentliches Bedürfnis befriedigt. Die Forderungen der Schifffahrt waren beständig, und es waren sogar Entschädigungsforderungen für die vielen Havarien gestellt worden. Einige Schiffe waren in der Nähe gesunken, insbesondere die Strandung der Forerunner im Oktober 1854 ist hervorzuheben.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Lourenço": [
+            "Ort der Entdeckung Madeiras durch João Gonçalves Zarco"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Kommandant des Schiffes S. Lourenço bei der Entdeckung Madeiras"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Beginn des Baus des Leuchtturms von São Lourenço"
+        ],
+        "1868": [
+            "Fortsetzung des Baus des Leuchtturms von São Lourenço"
+        ],
+        "1870": [
+            "Fertigstellung des Baus des Leuchtturms von São Lourenço"
+        ],
+        "1854": [
+            "Strandung des Schiffes Forerunner"
+        ]
+    }
+}

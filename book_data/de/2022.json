@@ -1,0 +1,31 @@
+{
+    "id": 2022,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo da Apresentação",
+    "fl": "L",
+    "original_title": "Lombo da Apresentação",
+    "body": "Besiedelter Ort in der Gemeinde Ribeira Brava. Er wurde nach der Kapelle Nossa Senhora da Apresentação benannt, die dort stand und zu der ein großes Herrenhaus gehörte, der Sitz der Majoratsherrschaft, die 1524 von João Mendes de Brito und seiner Frau Isabel Fernandes Tavares gegründet wurde, deren letzter Vertreter der Vizconde da Ribeira Brava war.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Gemeinde, in der sich Lombo da Apresentação befindet."
+        ]
+    },
+    "people": {
+        "João Mendes de Brito": [
+            "Gründer der 1524 gegründeten Majoratsherrschaft."
+        ]
+    },
+    "years": {
+        "1524": [
+            "Jahr der Gründung der Majoratsherrschaft von João Mendes de Brito."
+        ]
+    }
+}

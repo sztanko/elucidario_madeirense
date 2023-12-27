@@ -1,0 +1,29 @@
+{
+    "id": 1824,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jardim (Lino Cassiano)",
+    "fl": "J",
+    "original_title": "Jardim (Lino Cassiano)",
+    "body": "He was born in the parish of Santana and was a medical surgeon from the Medical School of this city. In order to practice medicine freely in Brazil, he defended a thesis before the medical faculty of Rio de Janeiro, publishing his dissertation under the title *Da Febre Biliosa.*. Rio de Janeiro, 1871.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Santana"
+    ],
+    "locations": {
+        "Santana": [
+            "Locality on the Island of Madeira"
+        ],
+        "Rio de Janeiro": [
+            "City in Brazil"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1871": [
+            "Defense of the thesis before the medical faculty of Rio de Janeiro"
+        ]
+    }
+}

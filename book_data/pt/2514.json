@@ -1,0 +1,30 @@
+{
+    "id": 2514,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Perpétuo Socorro (",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Perpétuo Socorro (",
+    "body": "Capela de).No ano de 1244 fez Francisco de Freitas Correia edificar uma capela desta invocação no sítio da Queimada da freguesia de Água de Pena.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena"
+    ],
+    "locations": {
+        "Queimada": [
+            "Localizada na freguesia de Água de Pena."
+        ]
+    },
+    "people": {
+        "Francisco de Freitas Correia": [
+            "Construtor da capela em 1244."
+        ]
+    },
+    "years": {
+        "1244": [
+            "Construção da capela"
+        ]
+    }
+}

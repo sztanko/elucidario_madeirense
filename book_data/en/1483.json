@@ -1,0 +1,49 @@
+{
+    "id": 1483,
+    "lang": "en",
+    "is_original": false,
+    "title": "Freitas",
+    "fl": "F",
+    "original_title": "Freitas",
+    "body": "This is a very ancient surname among us. One of the first to use it was Gonçalo de Freitas, who settled in the place of Santa Cruz and lived there, in the estate called Torre. He was a nobleman of the Royal House and the chief huntsman of Infante D. Fernando. His daughter Catarina de Freitas established an entailed estate in the land she inherited from her father in the place that later became known as Santa Catarina. Gonçalo de Freitas had a son, João de Freitas, who enjoyed the privileges of nobility inherited from his father. An old nobiliary record states that by order of the king, he built the church of Salvador in Santa Cruz and for this reason was granted the chapel of the same church for his burial place, in recognition of his services and the expenses he had made in the said church. A son of his, named Jordão de Freitas, distinguished himself valorously in India and became the lord of an island and captain of Moluccas. A member of this family was João de Freitas da Silva, who in 1631 organized a company of 100 men on this island at his own expense and served in Pernambuco, where he was killed by the Dutch.\n\nAnother family with the same surname and also very ancient existed on this island, descending from João Rodrigues de Freitas, a native of Algarve, who had sesmaria lands in Madalena and died there in 1523, being buried in the church founded there by Henrique Alemão, with whose widow, named Isabel Lopes, he had married. They established an entailed estate there, which later became an important household and had as its last representative the entailed lord Nuno de Freitas Lomelino.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Madalena"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Locality where Gonçalo de Freitas settled and lived, in the estate called Torre"
+        ],
+        "Santa Catarina": [
+            "Place that was named Santa Catarina, where Catarina de Freitas established an entailed estate"
+        ],
+        "Madalena": [
+            "Locality where João Rodrigues de Freitas had sesmaria lands and died in 1523"
+        ]
+    },
+    "people": {
+        "Gonçalo de Freitas": [
+            "Settled in the place of Santa Cruz, was a nobleman of the Royal House and the chief huntsman of Infante D. Fernando"
+        ],
+        "Catarina de Freitas": [
+            "Established an entailed estate in the land she inherited from her father in the place that later became known as Santa Catarina"
+        ],
+        "João de Freitas": [
+            "Son of Gonçalo de Freitas, enjoyed the privileges of nobility inherited from his father"
+        ],
+        "Jordão de Freitas": [
+            "Distinguished himself valorously in India and became the lord of an island and captain of Moluccas"
+        ],
+        "João de Freitas da Silva": [
+            "Organized a company of 100 men on this island in 1631 and served in Pernambuco"
+        ]
+    },
+    "years": {
+        "1523": [
+            "Death of João Rodrigues de Freitas"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 1455,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte de S. Francisco",
+    "fl": "F",
+    "original_title": "Forte de S. Francisco",
+    "body": "Foi mandado edificar na vila de Santa Cruz, pelo bispo governador D. Fr. João do Nascimento em 1749, aplicando para essa obra o dinheiro proveniente das multas que pagavam as ordenanças por falta de serviço de vigias.",
+    "categories": [
+        "architecture",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Cruz": [
+            "Vila"
+        ]
+    },
+    "people": {
+        "D. Fr. João do Nascimento": [
+            "Bispo governador"
+        ]
+    },
+    "years": {
+        "1749": [
+            "Construção do forte"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "id": 1452,
+    "lang": "de",
+    "is_original": false,
+    "title": "Festung von Porto da Cruz",
+    "fl": "F",
+    "original_title": "Forte do Porto da Cruz",
+    "body": "Sie wurde 1708 über der Bucht erbaut. 1804 wurde sie demontiert und die dort stationierte Garnison sollte bei der Räumung des Bachs von Machico helfen.\n\n1713 wurde João de Vasconcelos Uzel zum Kapitän dieser Festung ernannt.\n\nFestung Santo António in Paul do Mar. Sie wurde 1754 erbaut. Eine Verordnung des Kriegsrats von 1761 befahl, dem Konstabler zusätzlich zu seinem jährlichen Gehalt von 12$ noch ein Fass Wein zu geben.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz",
+        "Paul do Mar"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Bucht"
+        ],
+        "Machico": [
+            "Bach von Machico, Paul do Mar"
+        ]
+    },
+    "people": {
+        "João de Vasconcelos Uzel": [
+            "Kapitän"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Bau der Festung"
+        ],
+        "1804": [
+            "Abriss"
+        ],
+        "1713": [
+            "Kapitän João de Vasconcelos Uzel"
+        ],
+        "1754": [
+            "Bau der Festung Santo António"
+        ],
+        "1761": [
+            "Verordnung des Kriegsrats"
+        ]
+    }
+}

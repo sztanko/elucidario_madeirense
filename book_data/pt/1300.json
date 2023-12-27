@@ -1,0 +1,29 @@
+{
+    "id": 1300,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Facho (Pico do)",
+    "fl": "F",
+    "original_title": "Facho (Pico do)",
+    "body": "Sobranceiro á vila de Machico e a 330m de altitude, encontra-se esta elevação montanhosa, cujo cume domina os terrenos que formam a freguesia do Caniçal e o formoso vale por onde corre a ribeira daquela vila. Existiu ali um posto semafórico, que comunicava com outro estabelecido no chamado Pico do Telégrafo, na freguesia do Caniço.\n\nAlgures se diz que no alto do Pico há uma pequena fonte, cujas águas sobem quando sobe a maré e descem quando esta desce. Este fenómeno parece ser devido á existência dum canal interior, entre o reservatório da fonte e a costa, canal em que o mar penetra mais quando sobe a maré. É o ar existente neste canal que, afluindo ao reservatório da fonte, provoca provavelmente a elevação do nível das águas que se observa durante o preamar nas costas de Machico (V. Picos).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Caniçal",
+        "Caniço"
+    ],
+    "locations": {
+        "Machico": [
+            "Vila"
+        ],
+        "Caniçal": [
+            "Freguesia"
+        ],
+        "Caniço": [
+            "Freguesia"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

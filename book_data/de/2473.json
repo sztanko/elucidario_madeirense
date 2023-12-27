@@ -1,0 +1,54 @@
+{
+    "id": 2473,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau vom Guten Tod (Kapelle von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Boa Morte (Capela de)",
+    "body": "In der Gemeinde Câmara de Lobos gibt es eine Kapelle mit der Widmung Unserer Lieben Frau vom Guten Tod, die seit Jahren für den Gottesdienst geschlossen ist.\n\nMit der gleichen Bezeichnung gab es eine Kapelle in der Gemeinde Ribeira Brava, die von Francisco Fernandes und Brasia Fernandes in einem Jahr gegründet wurde, das wir nicht kennen, und in der Gemeinde Calheta gab es im Ort Atouguia auch eine Kapelle, die Unserer Lieben Frau vom Guten Tod geweiht war und an anderer Stelle auch unter dem Namen Unsere Liebe Frau von der Barmherzigkeit erwähnt wird. Von dieser letzten Kapelle, deren Bau auf das Jahr 1661 datiert ist und deren Gründer Francisco Homem de Couto war, gibt es heute nicht einmal mehr Überreste, aber der Ort, an dem sie errichtet wurde, wird immer noch Boa Morte (Guter Tod) genannt.\n\nIn der Gemeinde Ponta do Pargo gründete Custódio Nunes da Costa 1666 eine Kapelle zu Ehren Unserer Lieben Frau vom Guten Tod.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Ribeira Brava",
+        "Calheta",
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Ort auf Madeira"
+        ],
+        "Ribeira Brava": [
+            "Ort auf Madeira"
+        ],
+        "Calheta": [
+            "Ort auf Madeira"
+        ],
+        "Ponta do Pargo": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Fernandes": [
+            "Gründer der Kapelle in Ribeira Brava"
+        ],
+        "Brasia Fernandes": [
+            "Ehefrau von Francisco Fernandes"
+        ],
+        "Francisco Homem de Couto": [
+            "Gründer der Kapelle in Calheta"
+        ],
+        "Custódio Nunes da Costa": [
+            "Gründer der Kapelle in Ponta do Pargo"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Baujahr der Kapelle in Calheta"
+        ],
+        "1666": [
+            "Gründungsjahr der Kapelle in Ponta do Pargo"
+        ]
+    }
+}

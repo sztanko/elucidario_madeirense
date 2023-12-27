@@ -1,0 +1,44 @@
+{
+    "id": 461,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bélgica (Rei da)",
+    "fl": "B",
+    "original_title": "Bélgica (Rei da)",
+    "body": "O rei Leopoldo da Bélgica visitou o Funchal em 1897, tendo desembarcado a 17 de Setembro e saído para Canárias a 19 do mesmo mes. Esteve no Monte, na Eira do Serrado e nalguns outros pontos perto da cidade. O príncipe Alberto, depois rei da Bélgica na sua viagem ao Cabo da Boa Esperança e ao Estado Livre do Congo, visitou a Madeira a 30 de Abril de 1909, sendo cumprimentado pelas autoridades superiores do distrito.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local visitado pelo rei Leopoldo da Bélgica"
+        ],
+        "Canárias": [
+            "Local para onde o rei Leopoldo da Bélgica saiu após visitar o Funchal"
+        ],
+        "Monte": [
+            "Local visitado pelo rei Leopoldo da Bélgica"
+        ],
+        "Eira do Serrado": [
+            "Local visitado pelo rei Leopoldo da Bélgica"
+        ]
+    },
+    "people": {
+        "Leopoldo da Bélgica": [
+            "Rei da Bélgica"
+        ],
+        "Alberto": [
+            "Príncipe, depois rei da Bélgica"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Visita do rei Leopoldo da Bélgica ao Funchal"
+        ],
+        "1909": [
+            "Visita do príncipe Alberto à Madeira"
+        ]
+    }
+}

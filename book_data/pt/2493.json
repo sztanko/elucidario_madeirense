@@ -1,0 +1,33 @@
+{
+    "id": 2493,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Glória (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Glória (Capela de)",
+    "body": "Henrique de Bettencourt fundou esta capela em 1599 na freguesia do Campanário. Em 1823 era seu administrador o morgado Luís Correia. Foi há poucos anos restaurada pela condessa de Torre Bela, a quem pertence (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário"
+    ],
+    "locations": {
+        "Campanário": [
+            "Localidade onde foi fundada a capela por Henrique de Bettencourt."
+        ]
+    },
+    "people": {
+        "Henrique de Bettencourt": [
+            "Fundador da capela Nossa Senhora da Glória."
+        ]
+    },
+    "years": {
+        "1599": [
+            "Ano de fundação da capela Nossa Senhora da Glória."
+        ],
+        "1823": [
+            "Ano em que Luís Correia era administrador da capela."
+        ]
+    }
+}

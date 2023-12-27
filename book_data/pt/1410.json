@@ -1,0 +1,55 @@
+{
+    "id": 1410,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fome no Porto Santo",
+    "fl": "F",
+    "original_title": "Fome no Porto Santo",
+    "body": "A crise que a Madeira atravessou no ano de 1847 também se fez sentir na vizinha ilha do Porto Santo. Por diferentes vezes foi preciso enviar para ali socorros em géneros e em dinheiro, mas a pesar disso, «decerto não poderia o povo resistir a tão grande flagelo, dizem os Annais do Porto Santo, a não ser a grandissima abundância de peixe, principalmente cavalas, que se chegaram a vender a 50 por meio tostão». Em 1802 em 1806, em 1815, em 1816 e em 1829 houve também fome no Porto Santo, tendo sido preciso enviar para ali socorros em géneros, e depois de 1847 ainda aquele flagelo se fez sentir mais algumas vezes naquela ilha, como por exemplo em 1850, em 1854, em 1855 e em 1883. Por ocasião da fome de 1850 tomou o Governador José Silvestre Ribeiro sobre si a responsabilidade de mandar sair dos cofres públicos o dinheiro preciso para a compra de 75 moios de cereais destinados ao povo da vizinha ilha, assim como conseguiu que dois vasos de guerra americanos que apareceram no porto do Funchal contribuíssem com 8 moios de milho para o mesmo fim. As estiagens prolongadas a que está sujeita a ilha do Porto Santo são a causa principal da miséria e da falta de subsistências que se notam ali em certos anos. Quando é grande a seca, são insignificantes as colheitas, o que constitue a maior das desgraças num país em que uma grande parte da população vive apenas dos recursos que fornecem as terras.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha"
+        ]
+    },
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Governador"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Crise na Madeira"
+        ],
+        "1802": [
+            "Houve fome no Porto Santo"
+        ],
+        "1806": [
+            "Houve fome no Porto Santo"
+        ],
+        "1815": [
+            "Houve fome no Porto Santo"
+        ],
+        "1816": [
+            "Houve fome no Porto Santo"
+        ],
+        "1829": [
+            "Houve fome no Porto Santo"
+        ],
+        "1850": [
+            "Houve fome no Porto Santo"
+        ],
+        "1854": [
+            "Houve fome no Porto Santo"
+        ],
+        "1855": [
+            "Houve fome no Porto Santo"
+        ],
+        "1883": [
+            "Houve fome no Porto Santo"
+        ]
+    }
+}

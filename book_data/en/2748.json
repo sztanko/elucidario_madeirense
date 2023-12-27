@@ -1,0 +1,36 @@
+{
+    "id": 2748,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pereira da Silva (Father José)",
+    "fl": "P",
+    "original_title": "Pereira da Silva (Padre José)",
+    "body": "He was born in Porto on March 19, 1874, joined the Lazarists congregation in 1890, and was ordained as a priest in 1898. In the same year, he came to Madeira, where he was a teacher and eventually vice-rector of the Seminary. He left for Hamburg and from there to Paris on October 21, 1910, passing away in the latter city on June 14, 1922. He authored: *To the memory of Leâo XIII*; funeral prayer delivered at the Cathedral on November 12, 1903; Funchal, 34 pages.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Leâo XIII": [
+            "Pope of the Catholic Church"
+        ]
+    },
+    "years": {
+        "1874": [
+            "Birth of Father José Pereira da Silva"
+        ],
+        "1890": [
+            "Entry into the Lazarists congregation"
+        ],
+        "1898": [
+            "Ordination as a priest"
+        ],
+        "1910": [
+            "Departure for Hamburg"
+        ],
+        "1922": [
+            "Passing away in Paris"
+        ]
+    }
+}

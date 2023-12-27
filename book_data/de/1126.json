@@ -1,0 +1,72 @@
+{
+    "id": 1126,
+    "lang": "de",
+    "is_original": false,
+    "title": "Politisch Deportierte",
+    "fl": "P",
+    "original_title": "Deportados Politicos",
+    "body": "Anlässlich des Aufstands, der am 4. Februar 1844 in Tôrres Vedras stattfand, um die Regierung von Costa Cabral zu stürzen, wurden 23 Aufständische verhaftet und nach Madeira geschickt, darunter die Anwälte António Maria Ribeiro da Costa Holtreman und Leonel Tavares Cabral, der Handelsgerichtsrichter Lourenço de Oliveira Grijó, der Kanoniker Dr. Manuel Joaquim Cardoso Castelo Branco und acht Armeeoffiziere. Diese politischen Gefangenen kamen auf der Brigg Douro an, die am 20. April in Funchal eintraf und in der Festung des Ilhéu untergebracht wurden; die übrigen kamen mit dem Cutter Andorinha, der am 28. desselben Monats hier ankam und in der Festung des Pico untergebracht wurden. Sie wurden alle freigelassen, sobald die inoffizielle Nachricht vom Scheitern des Aufstands von Torres Vedras in Madeira eintraf. Im Jahr 1919, nach der monarchistischen Revolution zu Beginn dieses Jahres, kamen neue politische Gefangene nach Funchal, die hier auf dem Dampfer Africa der Empresa Nacional de Navegação ankamen, der als Kriegstransporter eingesetzt wurde. Diese 289 Gefangenen, die von einer Marineeinheit begleitet wurden, gingen am 8. Mai an Land, drei Tage nach der Ankunft der Africa, und wurden im Lazarett von Gonçalo Aires untergebracht. Unter den Gefangenen befanden sich der ehemalige Minister João de Azevedo Coutinho, der Ex-Oberst João de Almeida, der Graf von Sucena, der Graf von Arrochela, der Viscount von Siqueira und João Moreira de Almeida. In Funchal blieb eine Streitmacht von 30 Marineinfanteristen und ein Sergeant, um das Lazarett zu bewachen, und es kam ein Infanteriedetachement hinzu, das von einem Leutnant geführt wurde. Auf Anordnung des Hafenkapitäns wurde das Befahren und Verweilen jeglicher Schiffe in der Meereszone, die von der Festung São Tiago und dem Kap Garajau begrenzt wird, verboten. Trotz dieser Vorsichtsmaßnahmen kam es am 3. Juni zum Verschwinden von 8 Gefangenen, darunter der Graf von Sucena, und später stellte sich heraus, dass sie alle mit dem Motorboot Glafiberta, das dem Sportler Humberto dos Passos gehörte, der die Flucht organisiert hatte, in Las Palmas angekommen waren. Über die Art und Weise, wie die Flucht stattfand, lesen wir in einer Zeitung Folgendes: „An einem schönen Nachmittag verließen fast alle im Lazarett von Funchal internierten politischen Gefangenen das Gebäude unter dem Vorwand, frische Luft zu schnappen, und versammelten sich auf dem Strandstreifen direkt darunter. Die Wachen beschränkten sich darauf, sie von den Fenstern des Lazaretts aus zu beobachten. Sie sangen, tanzten, riefen Hurra, und als der Lärm seinen Höhepunkt erreichte und die Wachen von der Ausgelassenheit abgelenkt waren, näherte sich ein Boot von der Glafiberta dem Strand und nahm ohne Eile die 8 Gefangenen auf... Stunden später fuhr das Motorboot, geschleppt von der Milano der Firma Blandy (die nicht wusste, welche Art von Dienst sie ihrem Schlepper anvertraut hatte), in Richtung der Desertas und später nach Süden in Richtung der Kanaren.“ Mit den acht Gefangenen ging auch der Eigentümer der Glafiberta, der Tage zuvor beim Hafenkapitän die Erlaubnis beantragt hatte, mit seinem Boot eine Inselrundfahrt zu machen. Von den übrigen im Lazarett untergebrachten Gefangenen wurden 7 aufgrund eines Telegramms des Kriegsministers vom 13. Mai freigelassen, und alle anderen wurden zwischen Juni und August auf verschiedenen Schiffen, die in Funchal anlegten, nach Lissabon gebracht. Der Dampfer Moçambique transportierte die letzten der 280 Gefangenen, die am 8. Mai in Funchal gelandet waren.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Tôrres Vedras": [
+            "Stadt"
+        ],
+        "Funchal": [
+            "Stadt"
+        ],
+        "Madeira": [
+            "Insel"
+        ],
+        "Porto Santo": [
+            "Insel"
+        ],
+        "Desertas": [
+            "Insel"
+        ],
+        "Lazareto de Gonçalo Aires": [
+            "Ort"
+        ],
+        "Las Palmas": [
+            "Stadt"
+        ],
+        "Canárias": [
+            "Insel"
+        ]
+    },
+    "people": {
+        "António Maria Ribeiro da Costa Holtreman": [
+            "Anwalt"
+        ],
+        "Leonel Tavares Cabral": [
+            "Anwalt"
+        ],
+        "Lourenço de Oliveira Grijó": [
+            "Handelsgerichtsrichter"
+        ],
+        "Manuel Joaquim Cardoso Castelo Branco": [
+            "Kanoniker"
+        ],
+        "João de Azevedo Coutinho": [
+            "Ehemaliger Minister"
+        ],
+        "João de Almeida": [
+            "Ex-Oberst"
+        ],
+        "Conde de Sucena": [
+            "Adelstitel"
+        ],
+        "Conde de Arrochela": [
+            "Adelstitel"
+        ],
+        "Visconde de Siqueira": [
+            "Adelstitel"
+        ],
+        "João Moreira de Almeida": [
+            "Person"
+        ]
+    },
+    "years": {}
+}

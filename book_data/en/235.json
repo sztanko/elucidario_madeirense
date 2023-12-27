@@ -1,0 +1,35 @@
+{
+    "id": 235,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aragão (Dr. João José de Freitas)",
+    "fl": "A",
+    "original_title": "Aragão (Dr. João José de Freitas)",
+    "body": "He was born in Funchal on February 5, 1777, and we believe he belonged to the ancient and distinguished Aragão family of this island. Little is known about his biography. In 1821, he practiced law proficiently in Lisbon when he was elected substitute deputy for Madeira to the Constituent Courts that functioned from 1821 to 1822. Having died, the effective deputy Dr. Antonio João Rodrigues Garcez, before the verification of his powers, Freitas Aragão was called to fill the vacancy. He spoke a few times in the courts, both on general matters and on some related to Madeira. In the Gallery of Deputies of the Constituent Courts of 1821, it is said that João José de Freitas Aragão 'spoke little, voted well, has constantly shown the best intentions, and has given ample evidence of wanting to fulfill the duties entrusted to him.' He died in Lisbon on September 20, 1842. There is an obituary of Freitas Aragão in issue no. 197 of the Gazeta dos Tribunaes.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth of João José de Freitas Aragão."
+        ],
+        "Lisbon": [
+            "Place of death of João José de Freitas Aragão."
+        ]
+    },
+    "people": {
+        "Dr. Antonio João Rodrigues Garcez": [
+            "Deceased effective deputy before the verification of his powers."
+        ]
+    },
+    "years": {
+        "1777": [
+            "Birth of João José de Freitas Aragão."
+        ],
+        "1821": [
+            "Election of João José de Freitas Aragão as substitute deputy for Madeira."
+        ]
+    }
+}

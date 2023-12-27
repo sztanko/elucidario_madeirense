@@ -1,0 +1,28 @@
+{
+    "id": 362,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Azevedo Júnior (Dr. Correia de)",
+    "fl": "A",
+    "original_title": "Azevedo Júnior (Dr. Correia de)",
+    "body": "Diz o Diccionario Bibliographico que este madeirense se doutorou na faculdade de medicina do Rio de Janeiro e que ali defendeu teses em 1852, publicando-as naquela cidade num opúsculo de XII-68-II pag.. Nada mais sabemos a seu respeito.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rio de Janeiro": [
+            "Local onde se doutorou na faculdade de medicina"
+        ]
+    },
+    "people": {
+        "Dr. Correia de Azevedo Júnior": [
+            "Fez doutoramento na faculdade de medicina do Rio de Janeiro"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Defesa de teses na faculdade de medicina do Rio de Janeiro"
+        ]
+    }
+}

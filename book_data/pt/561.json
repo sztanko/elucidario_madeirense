@@ -1,0 +1,39 @@
+{
+    "id": 561,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Branco (Alfredo de Castro de Freitas)",
+    "fl": "B",
+    "original_title": "Branco (Alfredo de Castro de Freitas)",
+    "body": "Nasceu no Funchal no dia 1 de Janeiro de 1890 e é filho de Luiz de Freitas Branco e de D. Ana Augusta de Castro de Freitas Leal Branco. Além de varia colaboração em diversos jornais, tem publicado: O Destino, 1916, de 63 pag.; Antiga Clara, 1916, de 31 pag.; No Exílio. Scenas da vida dos conspiradores monarchicos, 1917, de 77 pag.; Charcos, 1917, de 46 pag.; A acção do estado nas suas relações com a egreja catholica. Conferencia, 1917, de 16 pag.; Res Lusitanae, tradução, 1914; Auto da Primavera, 1919, de 22 pag.; Madrinha de Guerra, 1919, de 44 pag.; A Confidencia, 1919; A Flora Madeirense na Medicina Popular, 1935; A Estada de Cristovam Colombo na Madeira, 1936 e Os Lusiadas e a Madeira.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Alfredo de Castro de Freitas Branco": [
+            "Nascido no Funchal, filho de Luiz de Freitas Branco e de D. Ana Augusta de Castro de Freitas Leal Branco, colaborador em diversos jornais, autor de várias obras"
+        ]
+    },
+    "years": {
+        "1890": [
+            "Nascimento de Alfredo de Castro de Freitas Branco"
+        ],
+        "1916": [
+            "Publicação de O Destino e Antiga Clara"
+        ],
+        "1917": [
+            "Publicação de No Exílio. Scenas da vida dos conspiradores monarchicos, Charcos, A acção do estado nas suas relações com a egreja catholica. Conferencia"
+        ],
+        "1919": [
+            "Publicação de Auto da Primavera, Madrinha de Guerra, A Confidencia"
+        ],
+        "1935": [
+            "Publicação de A Flora Madeirense na Medicina Popular"
+        ],
+        "1936": [
+            "Publicação de A Estada de Cristovam Colombo na Madeira, Os Lusiadas e a Madeira"
+        ]
+    }
+}

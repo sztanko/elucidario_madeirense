@@ -1,0 +1,36 @@
+{
+    "id": 2027,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo da Estrela",
+    "fl": "L",
+    "original_title": "Lombo da Estrela",
+    "body": "Besiedelter Ort in der Gemeinde Calheta. Hier befindet sich die Kapelle Nossa Senhora do Bom Sucesso, die 1683 von Lourenço da Costa erbaut wurde. An dieser Stelle befand sich die alte Kapelle Nossa Senhora da Estrela, in der beim Zeitpunkt der Gründung der Gemeinde der Sitz der Pfarrei eingerichtet wurde, wie wir im Artikel über die Gemeinde Calheta erwähnt haben. An diesem Ort gab es auch eine Kapelle mit der Widmung an die Heilige Quitéria, die 1724 von João Homem de Abreu erbaut wurde. Oft wurde geplant, den Sitz der Stadt Calheta an diesen Ort zu verlegen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Gemeinde Calheta"
+        ]
+    },
+    "people": {
+        "Lourenço da Costa": [
+            "Person"
+        ],
+        "João Homem de Abreu": [
+            "Person"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Bau der Kapelle Nossa Senhora do Bom Sucesso"
+        ],
+        "1724": [
+            "Bau der Kapelle der Heiligen Quitéria"
+        ]
+    }
+}

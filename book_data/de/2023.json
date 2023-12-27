@@ -1,0 +1,45 @@
+{
+    "id": 2023,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo von Atouguia",
+    "fl": "L",
+    "original_title": "Lombo do Atouguia",
+    "body": "Bewohnter Ort der Gemeinde Calheta, benannt nach dem früheren Siedler Luís de Atouguia, dem hier Ländereien übertragen wurden, wo er ein Majorat gründete. An diesem Ort gab es eine Kapelle zur Verehrung Unserer Lieben Frau vom Guten Tod, gegründet von Francisco Homem de Couto im Jahr 1661, und hier befindet sich auch die Kapelle des Heiligen Petrus von Alcântara, ebenfalls bekannt als Johannes der Täufer, die 1783 von João Baptista Teixeira errichtet wurde. An diesem Ort, wo man Vargem de Baixo nannte, ließen António Moniz de Meneses und seine Frau D. Catarina de Meneses im Jahr 1657 eine Kapelle zu Ehren Unserer Lieben Frau der Barmherzigkeit errichten.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Gemeinde Calheta"
+        ]
+    },
+    "people": {
+        "Luís de Atouguia": [
+            "Früherer Siedler"
+        ],
+        "Francisco Homem de Couto": [
+            "Gründer der Kapelle Unserer Lieben Frau vom Guten Tod"
+        ],
+        "João Baptista Teixeira": [
+            "Erbauer der Kapelle des Heiligen Petrus von Alcântara"
+        ],
+        "António Moniz de Meneses": [
+            "Ließ mit seiner Frau eine Kapelle zu Ehren Unserer Lieben Frau der Barmherzigkeit errichten"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Gründung der Kapelle Unserer Lieben Frau vom Guten Tod"
+        ],
+        "1783": [
+            "Bau der Kapelle des Heiligen Petrus von Alcântara"
+        ],
+        "1657": [
+            "Bau der Kapelle Unserer Lieben Frau der Barmherzigkeit"
+        ]
+    }
+}

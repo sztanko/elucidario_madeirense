@@ -1,0 +1,28 @@
+{
+    "id": 1023,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Correio do Funchal",
+    "fl": "C",
+    "original_title": "Correio do Funchal",
+    "body": "Iniciou a sua publicação a 2 de Janeiro de 1897 e suspendeu a 2 de Janeiro de\n\n 1899, tendo saído 587 numeros.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde o Correio do Funchal foi publicado."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1897": [
+            "Início da publicação do Correio do Funchal."
+        ],
+        "1899": [
+            "Suspensão da publicação do Correio do Funchal."
+        ]
+    }
+}

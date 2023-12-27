@@ -1,0 +1,45 @@
+{
+    "id": 2546,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Núncio",
+    "fl": "N",
+    "original_title": "Núncio",
+    "body": "Em 25 de Julho de 1808, chegou casualmente à Madeira, vindo de Londres, o enviado de S.\n Santidade em Lisboa, o qual desembarcou na Pontinha, dirigindo-se em seguida á Catedral, onde ouviu a\n missa das 10 horas. Depois de ter visitado a igreja, meteu-se numa cadeirinha e seguiu para o paço\n episcopal. Deixou a ilha no dia 28, tendo durante a sua curta residência aqui, conferido ordens menores a\n alguns estudantes, visto não estar o bispo no Funchal, e dado ao deão os poderes necessários para conceder\n algumas dispensas para casamentos. A sua saída salvaram todas as fortalezas da cidade.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Londres": [
+            "Cidade de onde o enviado de S. Santidade em Lisboa chegou à Madeira"
+        ],
+        "Pontinha": [
+            "Local de desembarque do enviado de S. Santidade em Lisboa"
+        ],
+        "Catedral": [
+            "Local onde o enviado de S. Santidade em Lisboa ouviu a missa"
+        ],
+        "Funchal": [
+            "Cidade onde o bispo não estava durante a residência do enviado de S. Santidade em Lisboa"
+        ],
+        "Paço episcopal": [
+            "Local para onde o enviado de S. Santidade em Lisboa se dirigiu após visitar a igreja"
+        ],
+        "Ilha": [
+            "Madeira"
+        ],
+        "Cidade": [
+            "Funchal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1808": [
+            "Chegada do enviado de S. Santidade em Lisboa à Madeira"
+        ],
+        "28": [
+            "Saída do enviado de S. Santidade em Lisboa da ilha"
+        ]
+    }
+}

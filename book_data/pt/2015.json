@@ -1,0 +1,34 @@
+{
+    "id": 2015,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lobo (D. João)",
+    "fl": "L",
+    "original_title": "Lobo (D. João)",
+    "body": "Foi o primeiro bispo que veio a esta ilha. Havia mais de 80 anos que começara a colonização do arquipélago e ainda nenhum prelado desempenhara as funções episcopais. O vigário de Tomar ou antes o mestrado da Ordem de Cristo, a que a Madeira pertencia no espiritual, enviou em 1508 o bispo D. João Lobo, que visitou todas as igrejas e principais capelas desta ilha. O bispado do Funchal foi criado em 1514 e portanto D. João Lobo limitou a sua missão religiosa apenas ao exercício das funções prelatícias, isto é crismar, ordenar os clérigos, benzer os paramentos e vasos liturgicos, consagrar os templos, etc., não tendo qualquer interferência na administração dos negócios eclesiásticos, na observância da disciplina canónica e na repressão dos abusos cometidos, o que somente competia ao bispo diocesano, que não existia ainda, cabendo então esse encargo ao representante da Ordem de Cristo, que nesse tempo era já Nuno Cão (V. I-243), freire da mesma Ordem. O primeiro templo sagrado (e poucos há que sejam sagrados, mas sim apenas benzidos) nesta ilha foi a capela da Lombada do Esmeraldo, na freguesia da Ponta do Sol, e ainda actualmente numa das paredes interiores do edifício se lê a seguinte inscrição: Esta igreja foi consagrada por D. João Lobo, Bispo de Taiere, aos 27 de Agosto de 1508. Este prelado regressou a Portugal depois de ter estado pouco mais de um ano nesta ilha. Foi depois da sua visita, que mais de perto se reconheceu a necessidade da criação duma diocese neste arquipélago, que só veio a estabelecer-se no ano de 1514, como acima fica dito. No excelente livro de Vieira Guimarães A Ordem de Cristo, publicado em 1901, lemos o seguinte: Já em 1508 para satisfazer os desejos destes reclamantes (a criação do bispado do Funchal), o Vigário de Tomar lhes enviou o bispo de anel D. João Lobo, que foi esperada na ilha pelo mestre Frei Nuno Cão, com toda a clerezia e lhe fizeram muitas festas».",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Freguesia onde se encontra a capela da Lombada do Esmeraldo"
+        ]
+    },
+    "people": {
+        "D. João Lobo": [
+            "Primeiro bispo da Madeira"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Ano da visita do bispo D. João Lobo à Madeira"
+        ],
+        "1514": [
+            "Ano da criação do bispado do Funchal"
+        ]
+    }
+}

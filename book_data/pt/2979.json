@@ -1,0 +1,42 @@
+{
+    "id": 2979,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quinta do Leme",
+    "fl": "Q",
+    "original_title": "Quinta do Leme",
+    "body": "Sítio povoado da freguesia de Santo António do Funchal. Existe ali um antigo solar e capela anexa, que foram sede do morgadio dos Lemes, instituído por Pedro de Leme antes de 1550, tendo sido o último representante directo Francisco Aurélio da Câmara, que, morrendo sem descendência, passou a administração desta casa vinculada a seu sobrinho João de Carvalhal Esmeraldo, I.° conde do Carvalhal. A capela dedicada ao mártir São Filipe, foi construída em 1536 por António de Leme e reedificada em 1654 por Inácio da Câmara Leme, sendo ainda reconstruída, bem como a casa solarenga adjunta, no ano de 1752, em virtude do estado de grande ruína, em que a deixara o terramoto de 1748. Estando há anos profanada, foi restituída ao exercício do culto do ano de 1942.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro de Leme": [
+            "Instituidor do morgadio"
+        ],
+        "Francisco Aurélio da Câmara": [
+            "Último representante"
+        ]
+    },
+    "years": {
+        "1536": [
+            "Construção da capela dedicada ao mártir São Filipe"
+        ],
+        "1654": [
+            "Reedificação da capela"
+        ],
+        "1752": [
+            "Reconstrução da casa solarenga adjunta"
+        ],
+        "1748": [
+            "Terramoto"
+        ],
+        "1942": [
+            "Restituição ao exercício do culto"
+        ]
+    }
+}

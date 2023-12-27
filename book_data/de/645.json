@@ -1,0 +1,27 @@
+{
+    "id": 645,
+    "lang": "de",
+    "is_original": false,
+    "title": "Hafen von Ribeira Brava",
+    "fl": "H",
+    "original_title": "Cais da Ribeira Brava",
+    "body": "Er wurde von derselben Körperschaft von 1904 bis 1908 errichtet.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Bau des Hafens"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Baubeginn"
+        ],
+        "1908": [
+            "Fertigstellung"
+        ]
+    }
+}

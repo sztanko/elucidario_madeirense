@@ -1,0 +1,28 @@
+{
+    "id": 1899,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Kirwan",
+    "fl": "K",
+    "original_title": "Kirwan",
+    "body": "Publicou uns dados meteorológicos referentes ao Funchal, de que fez menção Bowdich nas Excursions in Madeira (Londres 1825).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira."
+        ]
+    },
+    "people": {
+        "Bowdich": [
+            "Possível autor ou figura relevante relacionada às Excursions in Madeira."
+        ]
+    },
+    "years": {
+        "1825": [
+            "Menção dos dados meteorológicos referentes ao Funchal nas Excursions in Madeira."
+        ]
+    }
+}

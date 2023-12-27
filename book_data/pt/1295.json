@@ -1,0 +1,38 @@
+{
+    "id": 1295,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Execuções Capitais",
+    "fl": "E",
+    "original_title": "Execuções Capitais",
+    "body": "Escassas noticias possuímos acerca de execuções capitais que se tivessem dado neste arquipelago, determinadas por sentença publica. Já alguém julgou que o sítio conhecido pelo nome de Forca, na freguesia de Santa Maria Maior, fora o lugar onde se executara uma sentença capital, em que a forca tivesse sido o instrumento de suplício aplicado ao criminoso. Não sabemos, e até nos inclinamos a acreditar que a explicação dada para justificar o nome daquele sítio não tem fundamento sério.\n\nFalando o Dr. Gaspar Frutuoso de João Rodrigues Castelhano, que teve terras de sesmaria na freguesia do Estreito da Calheta, diz o seguinte: “teve muitos escravos, cinco dos quaes lhe mataram um feitor; elle os entregou á justiça e foram enforcados na villa da Calheta“.\n\nNa dominação filipina, pelo ano de 1582, foi enforcado no Funchal, segundo afirma Rebêlo da Silva, o religioso Fr. João do Espírito Santo, acusado de incitar o povo a seguir o partido de D. Antonio, Prior do Crato.\n\nEm Dezembro de 1813, quando esta ilha se achava ocupada por tropas britanicas, foi enforcado nesta cidade um soldado inglês por haver assassinado um sargento seu compatriota. Contra esta execução, que ofendia os direitos da soberania portuguesa, protestou o então governador e capitão general do arquipelago Luiz Beltrão, sem que o general Gordon, comandante das forças inglesas, atendesse a sua reclamação.\n\nNo alvorecer do século XVII foi enforcado em efígie no largo do Pelourinho desta cidade, um indivíduo chamado Francisco Rodrigues Jardim, de origem plebeia, por ter raptado uma senhora, por nome D. Maria de Ornelas, pertencente a antigas e nobres famílias madeirenses. Se não houvesse, pela fuga, escapado á acção das justiças, lá teria expiado na força a ousadia do seu crime.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "Estreito da Calheta"
+    ],
+    "locations": {},
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiador"
+        ],
+        "João Rodrigues Castelhano": [
+            "Proprietário de terras"
+        ],
+        "Fr. João do Espírito Santo": [
+            "Religioso"
+        ],
+        "D. Antonio": [
+            "Prior do Crato"
+        ],
+        "Luiz Beltrão": [
+            "Governador e capitão general do arquipelago"
+        ],
+        "Francisco Rodrigues Jardim": [
+            "Indivíduo de origem plebeia"
+        ]
+    },
+    "years": {}
+}

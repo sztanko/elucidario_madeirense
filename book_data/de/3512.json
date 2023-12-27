@@ -1,0 +1,33 @@
+{
+    "id": 3512,
+    "lang": "de",
+    "is_original": false,
+    "title": "Trapiche",
+    "fl": "T",
+    "original_title": "Trapiche",
+    "body": "Ort in der Gemeinde Santo António do Funchal. Dort befand sich das Landgut gleichen Namens mit einem hervorragenden Landhaus und einer Kapelle, die Santana und São João geweiht und 1814 erbaut worden war. Dieses Anwesen war älteren Datums. Auf diesem Landgut errichteten die verdienstvollen Barmherzigen Brüder vom hl. Johannes von Gott im Jahr 1923 eine Irrenanstalt mit dem Namen Casa de Saúde do Trapiche, über die wir an anderer Stelle in diesem Werk berichtet haben.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {
+        "Santo António do Funchal": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Barmherzige Brüder vom hl. Johannes von Gott": [
+            "Verdienstvoll"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Dort befand sich das Landgut gleichen Namens mit einem hervorragenden Landhaus und einer Kapelle, die Santana und São João geweiht und 1814 erbaut worden war."
+        ],
+        "1923": [
+            "Auf diesem Landgut errichteten die verdienstvollen Barmherzigen Brüder vom hl. Johannes von Gott im Jahr 1923 eine Irrenanstalt mit dem Namen Casa de Saúde do Trapiche, über die wir an anderer Stelle in diesem Werk berichtet haben."
+        ]
+    }
+}

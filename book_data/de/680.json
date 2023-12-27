@@ -1,0 +1,30 @@
+{
+    "id": 680,
+    "lang": "de",
+    "is_original": false,
+    "title": "Câmara (D. Mariana von Alencastre und)",
+    "fl": "C",
+    "original_title": "Câmara (D. Mariana de Alencastre e)",
+    "body": "Sie wurde auch D. Mariana von Vasconcelos und Camara Alencastre genannt und war die Tochter von Simão Gonçalves da Camara, 3. Graf von Calheta und 7. Kapitän-Donatär von Funchal. Nachdem ihr Bruder João Gonçalves da Câmara, 8. Donatär, ohne Nachkommen gestorben war, folgte D. Mariana von Alencastre im Haus der Grafschaft Calheta nach und wurde als 9. Donatärin von Funchal angesehen. Sie war Kammerfrau der Königin Maria Francisca von Savoyen und ein altes Manuskript sagt, dass sie sehr darauf bedacht war, die Einheimischen der Insel zu verteidigen und zu schützen, indem sie alle mit besonderer Liebe behandelte. Sie starb am 15. April 1689.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Simão Gonçalves da Camara": [
+            "Vater"
+        ],
+        "João Gonçalves da Câmara": [
+            "Bruder"
+        ],
+        "D. Maria Francisca von Savoyen": [
+            "Königin"
+        ]
+    },
+    "years": {
+        "1689": [
+            "Todesdatum"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": 835,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castro (D. Manuel de Portugal e)",
+    "fl": "C",
+    "original_title": "Castro (D. Manuel de Portugal e)",
+    "body": "Foi o governador e capitão-general escolhido para a Madeira depois de D. João VI se proclamar rei absoluto. A sua nomeação é de Julho de 1823 e tomou posse a 28 de Agôsto seguinte. No dia 26 do mesmo mês chegou ao Funchal, acompanhado do regimento de infantaria nº. 7, dum destacamento de artilharia e de uma alçada composta de seis magistrados, que vinha sindicar dos actos das pessoas desafectas ao govêrno absoluto. Fêz demolir com grande solenidade os alicerces do monumento que a 28 de Janeiro de 1822 se lançaram em frente da igreja da Sé. Mas em Agôsto de 1826 festejou também solenemente e com grande aparato a Carta Constitucional e o govêrno representativo. Foi boa a sua administração e esforçou-se, quanto em si cabia, por moderar as violencias dos ministros da alçada, que não poucas arbitrariedades e vexames praticaram no exercicio do seu cargo. A ponte e rampa de D. Manuel foram dados o seu nome, por terem sido construídas durante o seu govêrno. Saiu da Madeira a 6 de Maio de 1828. Em 1827 foi nomeado vice-rei da India, onde fêz um excelente govêrno, tendo saído desta ilha pouco depois do dia 27 de Abril daquele ano, em que chegou ao Funchal o seu sucessor José Lucio Travassos Valdez. Em 1853 o vapor de guerra Infante D. Luiz conduziu á Madeira D. Manuel de Portugal e Castro, como representante de D. Maria II, e o barão da Foz, como representante do rei D. Fernando, que vieram, em nome de suas majestades, apresentar á imperatriz D. Amelia as suas condolencias pela morte da princesa D. Maria Amelia e acompanhar a Lisboa os despojos mortais da mesma malograda princesa. D. Manuel de Portugal e Castro, que era filho do marquês de Valença, nasceu a 5 de Novembro de 1787, e morreu a 13 de Julho de 1854. Foi ministro de estado e par do reino e exerceu outros cargos importantes.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da ilha da Madeira"
+        ],
+        "India": [
+            "Vice-reinado"
+        ]
+    },
+    "people": {
+        "D. João VI": [
+            "Rei de Portugal"
+        ],
+        "José Lucio Travassos Valdez": [
+            "Sucessor de D. Manuel de Portugal e Castro"
+        ],
+        "D. Maria II": [
+            "Rainha de Portugal"
+        ],
+        "D. Fernando": [
+            "Rei de Portugal"
+        ],
+        "D. Amelia": [
+            "Imperatriz"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Nomeação como governador e capitão-general"
+        ],
+        "1826": [
+            "Festejo da Carta Constitucional e govêrno representativo"
+        ],
+        "1827": [
+            "Nomeação como vice-rei da India"
+        ],
+        "1853": [
+            "Condução à Madeira como representante de D. Maria II"
+        ]
+    }
+}

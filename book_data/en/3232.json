@@ -1,0 +1,48 @@
+{
+    "id": 3232,
+    "lang": "en",
+    "is_original": false,
+    "title": "São João Nepomuceno (Capela de)",
+    "fl": "S",
+    "original_title": "São João Nepomuceno (Capela de)",
+    "body": "João Nepomuceno de Freitas Leal, near his residence in the area of Folhadal, in the parish of Porto da Cruz, built this chapel in 1776. The endowment deed of the chapel, imposed on a farm \"where they call the door of the friar in front of the resting place, also in front where the said friar Manuel de Gouveia lives, which he inherited from his father Pantaleão de Freitas Leal\", is dated November 3 of that year. Permission to be blessed was granted on March 3, 1786. By a pontifical brief dated the same year, this chapel was granted the faculty of a privileged altar.\n\nWhen the curacy of Porto da Cruz was created in 1800, the priest was obliged to reside in the vicinity of that chapel and to celebrate divine services there. It was closed from 1812 to 1822, as the respective administrator sought to evade parish jurisdiction.\n\nIt has always been in the possession and administration of the Freitas Leal family, with D. Luzia Leal, niece of the founder, bequeathing the small temple to D. Augusta Lomelino de Freitas Leal, wife of the councilor Dr. João Baptista de Freitas Leal, and their nephews, Antonio Lomelino Bianchi and siblings, being its current owners (1921). This chapel is well preserved and religious acts are celebrated there.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Folhadal": [
+            "Folhadal area, parish of Porto da Cruz"
+        ],
+        "Porto da Cruz": [
+            "Parish of Porto da Cruz"
+        ]
+    },
+    "people": {
+        "João Nepomuceno de Freitas Leal": [
+            "Builder of the chapel"
+        ],
+        "D. Luzia Leal": [
+            "Niece of the founder"
+        ],
+        "D. Augusta Lomelino de Freitas Leal": [
+            "Wife of the councilor Dr. João Baptista de Freitas Leal"
+        ],
+        "Antonio Lomelino Bianchi": [
+            "Current owner of the chapel"
+        ],
+        "João Baptista de Freitas Leal": [
+            "Councilor"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Construction of the chapel by João Nepomuceno de Freitas Leal"
+        ],
+        "1800": [
+            "Creation of the curacy of Porto da Cruz"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 613,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cabo",
+    "fl": "C",
+    "original_title": "Cabo",
+    "body": "Sítio povoado e muito pitoresco da freguesia da Ponta do Pargo, onde se encontra uma capela dedicada a Nossa Senhora da Boa Morte, construída por Custódio Nunes da Costa no ano de 1666.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Povoado e muito pitoresco"
+        ]
+    },
+    "people": {
+        "Custódio Nunes da Costa": [
+            "Construída por"
+        ]
+    },
+    "years": {
+        "1666": [
+            "Construída a capela"
+        ]
+    }
+}

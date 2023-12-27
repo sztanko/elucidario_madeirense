@@ -1,0 +1,39 @@
+{
+    "id": 2265,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Meneses",
+    "fl": "M",
+    "original_title": "Meneses",
+    "body": "Procede este apelido de família de Vasco Martins Moniz de Meneses, fidalgo da casa real, que teve sesmaria no Caniço e grande casa na vila de Machico, tendo instituído morgado da sua terça por testamento aprovado em 1498, e de Antonio Telo de Meneses ou António Teles, fundador da capela de Santo António, na freguesia de Santa Maria Maior. Os Teles de Meneses vêm por bastardia dos condes de Vila Pouca, segundo a opinião do falecido genealogista madeirense José Bettencourt da Camara.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Caniço": [
+            "Localidade"
+        ],
+        "Machico": [
+            "Vila na Ilha da Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Vasco Martins Moniz de Meneses": [
+            "Fidalgo da casa real"
+        ],
+        "Antonio Telo de Meneses": [
+            "Fundador da capela de Santo António"
+        ]
+    },
+    "years": {
+        "1498": [
+            "Aprovação do testamento de Vasco Martins Moniz de Meneses"
+        ]
+    }
+}

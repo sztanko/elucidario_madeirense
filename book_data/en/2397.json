@@ -1,0 +1,41 @@
+{
+    "id": 2397,
+    "lang": "en",
+    "is_original": false,
+    "title": "Municipalities",
+    "fl": "M",
+    "original_title": "Municípios",
+    "body": "Of the 11 municipalities in the Madeira archipelago, 7 were established by the absolute government, 3 by the constitutional government, and 1 by the republican government. The first group includes the municipalities of Funchal, Machico, Porto Santo, Ponta do Sol, Calheta, Santa Cruz, and S. Vicente, the second group includes Câmara de Lobos, Santana, and Porto do Moniz, and the third group only includes Ribeira Brava. The municipality of Funchal already existed in 1450, as in that year the donatary was ordered to propose to the senate the individuals from whom the alderman should be chosen, and it is to be supposed that the municipalities of Machico and Porto Santo were created around the same time or shortly thereafter, as their towns are mentioned in tradition as being primitive. The municipality of Ponta do Sol was established in 1501, and that of Calheta in the year 1502, for which purpose the municipality of Funchal, which extended in the 15th century from Ponta do Tristão to Ribeira do Caniço, limited in the interior by the mountain range that runs from this stream to the same point, was divided. The municipality of Machico, constituted by the remaining part of the island, was also divided in 1515, the year in which the municipality of Santa Cruz was established. The municipality of S. Vicente was only created in 1743. The municipalities of Câmara de Lobos, Santana, and Porto do Moniz date back to 1835, when the provincial prefect ordered, in his decree of August 10 of that year, that the municipal elections, which were to take place throughout the archipelago on October 4, be presided over in the first of those municipalities by a councilor from the Funchal council, in the second by a councilor from the Machico council, and in the third by a councilor from the S. Vicente council. The electors of the Funchal council elected 7 councilors on that occasion; those of Porto Santo, 3; and those of the remaining municipalities, 5. The municipalities of Câmara de Lobos, Santa Cruz, and Santana were extinguished by the decree of December 10, 1867, and reinstated shortly thereafter; the municipality of Porto do Moniz was extinguished by this same decree, which was in force for a very short time, and by the decrees of November 7, 1849, and November 18, 1895, being already reinstated in 1855 and at the beginning of the year 1898. The municipality of Ribeira Brava, the most modern in the archipelago, was created by the decree of August 16, 1914. The aforementioned decree of December 10, 1867, which extinguished the councils of Câmara de Lobos, Santana, Santa Cruz, and Porto do Moniz, divided the archipelago into 6 councils, with 21 civil parishes and 50 ecclesiastical parishes. (See Administrative organization). The establishment of municipal government in the archipelago in the 15th and 16th centuries was a useful provision for the people, despite the undemocratic nature of the laws by which the ancient municipalities were governed. Under this new government, the people felt stronger and happier because they understood that, above the will and caprices of the donataries and nobles, were the laws that established individual freedoms and privileges. If the councilors did not respect the municipal laws or oppressed the people with their actions or resolutions, there was the right to appeal to the king, who in ancient times rarely failed to heed the complaints of his oppressed vassals. It is to be supposed that the donataries did not view the installation of municipal corporations with favor, as they were being deprived of a part of the jurisdiction they exercised under perfectly legal concessions, but, more prudent than the nobles of the time of D. João II, they did not offer any serious resistance to the royal will, thus allowing a measure to be carried out that must be considered as the first step towards the annihilation of the privileges of the high nobility and the enhancement of monarchical power in the archipelago.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1450": [
+            "Order for the donatary to propose to the senate the individuals from whom the alderman should be chosen"
+        ],
+        "1501": [
+            "Establishment of the municipality of Ponta do Sol"
+        ],
+        "1502": [
+            "Establishment of the municipality of Calheta"
+        ],
+        "1515": [
+            "Division of the municipality of Machico"
+        ],
+        "1743": [
+            "Creation of the municipality of S. Vicente"
+        ],
+        "1835": [
+            "Municipalities of Câmara de Lobos, Santana, and Porto do Moniz date back"
+        ],
+        "1867": [
+            "Municipalities of Câmara de Lobos, Santa Cruz, and Santana were extinguished"
+        ],
+        "1914": [
+            "Creation of the municipality of Ribeira Brava"
+        ]
+    }
+}

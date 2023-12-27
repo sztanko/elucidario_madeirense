@@ -1,0 +1,30 @@
+{
+    "id": 643,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cais de Câmara de Lobos",
+    "fl": "C",
+    "original_title": "Cais de Câmara de Lobos",
+    "body": "As obras deste cais, a cargo do governo, começaram em 1876; foram porém melhoradas e acrescentadas pela Junta Geral em 1903.",
+    "categories": [
+        "geography",
+        "economy"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Localidade onde as obras do cais foram realizadas"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1876": [
+            "Início das obras do cais"
+        ],
+        "1903": [
+            "Melhorias e acréscimos realizados pela Junta Geral"
+        ]
+    }
+}

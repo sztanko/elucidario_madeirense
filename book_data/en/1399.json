@@ -1,0 +1,39 @@
+{
+    "id": 1399,
+    "lang": "en",
+    "is_original": false,
+    "title": "Figueiroa de Albuquerque (Luiz)",
+    "fl": "F",
+    "original_title": "Figueiroa de Albuquerque (Luiz)",
+    "body": "Born in this city on February 4, 1828, and died in Caniço on December 13, 1904, he was the son of Lieutenant Colonel Luiz Agostinho Figueiroa de Albuquerque and D. Maria Vicencia de Freitas Bettencourt. He was a man of extraordinary erudition, mainly acquired during his long stay abroad, especially in the capital of France. He dedicated himself particularly to economic studies, publishing a volume on this subject and many articles scattered in newspapers. He held the positions of president of the Municipal Council of Funchal, general secretary of this district and of Ponta Delgada, president of the administrative committee of the Misericordia of this city, and member of the former District Council, also temporarily serving as Civil Governor of this archipelago. He was a collaborator of the former newspaper 'O Povo' and other periodicals, publishing separately the two volumes 'Tratado Elementar de Economia Politica', of 171 pages, and 'Compêndio Elementar do Novo Systema Geral de Pesos e Medidas', of 166 pages.",
+    "categories": [
+        "history",
+        "economy",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "Caniço": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "Luiz Agostinho Figueiroa de Albuquerque": [
+            "Lieutenant colonel"
+        ],
+        "D. Maria Vicencia de Freitas Bettencourt": [
+            "Mother of Luiz Figueiroa de Albuquerque"
+        ]
+    },
+    "years": {
+        "1904": [
+            "Death of Luiz Figueiroa de Albuquerque"
+        ],
+        "1915": [
+            "Publication of 'Compêndio Elementar do Novo Systema Geral de Pesos e Medidas'"
+        ]
+    }
+}

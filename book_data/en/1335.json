@@ -1,0 +1,27 @@
+{
+    "id": 1335,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ilhéu Lighthouse",
+    "fl": "I",
+    "original_title": "Farolim do Ilhéu",
+    "body": "It was a small fixed light beacon, with little illuminating power, which, not too long ago, was frequently called the 'ember of the islet'. It served as a reference point for the vessels heading to the port of Funchal and began operating on May 18, 1866.\n\nIt was replaced by a new lighthouse on August 1, 1931.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilhéu": [
+            "Reference point for vessels heading to the port of Funchal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1866": [
+            "Start of operation of the Ilhéu Lighthouse"
+        ],
+        "1931": [
+            "Replacement by a new lighthouse"
+        ]
+    }
+}

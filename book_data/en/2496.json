@@ -1,0 +1,30 @@
+{
+    "id": 2496,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora de Jesus (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora de Jesus (Capela de)",
+    "body": "With the patronage of Nossa Senhora de Jesus, the first chapel we have found, as Dr. Álvaro de Azevedo says, is the one founded by João Bettencourt de Atouguia in the parish of São Martinho, in the year 1656.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Location where the chapel of Nossa Senhora de Jesus was founded."
+        ]
+    },
+    "people": {
+        "João Bettencourt de Atouguia": [
+            "Founder of the chapel of Nossa Senhora de Jesus."
+        ]
+    },
+    "years": {
+        "1656": [
+            "Year of foundation of the chapel of Nossa Senhora de Jesus."
+        ]
+    }
+}

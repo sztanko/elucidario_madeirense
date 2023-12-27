@@ -1,0 +1,35 @@
+{
+    "id": 488,
+    "lang": "de",
+    "is_original": false,
+    "title": "Zuckerrohrbohrer",
+    "fl": "Z",
+    "original_title": "Bicho da cana",
+    "body": "Es handelt sich um die Larve der Nonagria Sacchari, eines Insekts aus der Ordnung der Schmetterlinge (Lepidoptera). Bereits 1502 verwüstete diese Larve die Zuckerrohrplantagen Madeiras, denn in jenem Jahr, am 15. November, wurde ein königlicher Brief an die Richter und Ratsmitglieder des Stadtrats von Funchal geschickt, in dem die Verwendung von Asche zur Vernichtung des Zuckerrohrbohrers empfohlen wurde. Am 29. Juni 1509 kam ein weiterer königlicher Brief, der die Ankunft eines Fernão Rodrigues auf dieser Insel ankündigte, der beauftragt war, Abhilfe gegen den Bohrer zu schaffen, der in den Zuckerrohren schädlich ist... was zu so viel Verlust und Schaden führt, und empfahl, dass derselbe Fernão Rodrigues wie ein Mann seines Dienstes beherbergt und entlohnt werden sollte.\n\nTrotz dieser Maßnahmen begann der Zuckerrohrbohrer erst 1887 aufgrund des erbitterten Kampfes ohne Unterlass, den ihm die Iridomyrmex humilis, eine aus Demerara importierte Ameisenart, lieferte, zu verschwinden. Vor der zufälligen Einführung dieser Ameise auf Madeira verwendeten die Züchter brennende Fackeln, mit denen sie nachts die mit Zuckerrohr bepflanzten Felder abgingen, damit das Insekt angezogen wurde und in der Flamme verendete. \n\nDie Larve der Nonagria Sacchari lebt im Inneren der Zuckerrohrstängel, wo sie Galerien anlegt, die sie mit der Außenwelt verbindet. Die Wände der Galerien werden hart und die angrenzenden Gewebe nehmen eine rötliche Farbe an und beginnen schnell zu gären. Sie tritt hauptsächlich im Sommer auf, aber nach der Einführung der Ameise ist sie auf Madeira selten geworden.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Fernão Rodrigues": [
+            "Beauftragter zur Bekämpfung des Zuckerrohrbohrers"
+        ]
+    },
+    "years": {
+        "1502": [
+            "Verwüstung der Zuckerrohrplantagen"
+        ],
+        "1509": [
+            "Ankündigung der Ankunft von Fernão Rodrigues"
+        ],
+        "1887": [
+            "Beginn des Verschwindens des Zuckerrohrbohrers"
+        ]
+    }
+}

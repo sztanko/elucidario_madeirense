@@ -1,0 +1,31 @@
+{
+    "id": 2019,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombada do Loreto",
+    "fl": "L",
+    "original_title": "Lombada do Loreto",
+    "body": "Besiedelter Ort in der Gemeinde Arco da Calheta, wo sich die alte Kapelle Unserer Lieben Frau von Loreto befindet, die das Zentrum einer viel besuchten Wallfahrt ist, zu der viel Volk aus verschiedenen entfernten Gemeinden und vor allem aus den umliegenden Pfarreien strömt. Diese Kapelle hat trotz ihrer geringen Größe eine gewisse architektonische Pracht, und es ist schade, dass ein schlecht angepasster Vorbau ihre harmonische Gesamtheit beeinträchtigt. Ihr Bau datiert aus den ersten Jahren des 16. Jahrhunderts. Sie wurde von Pedro Gonçalves da Câmara gegründet, einem Enkel von João Gonçalves Zargo, dem ersten Hauptmann-Donatär von Funchal. Sie hatte ein großes Solar angeschlossen, wobei der Gründer dort den Sitz des wichtigen Majorats eingerichtet hatte, das er einrichtete. Andere geben die Kapelle und das Lehen von D. Joana de Eça gestiftet, der Witwe des genannten Pedro Gonçalves da Câmara, Oberhofmeisterin der Königin D. Catarina und Patronin des Klosters Esperança in Lissabon, wo sie begraben wurde. Die Nonnen dieses Klosters besaßen viel Land in der Gemeinde Arco da Calheta, das ihnen von D. Joana de Eça vermacht wurde. In den Ruinen der Klosterkirche Esperança wurde im ersten Viertel dieses Jahrhunderts das Grab der Patronin D. Joana de Eça gefunden.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Gemeinde, in der sich die Lombada do Loreto befindet."
+        ]
+    },
+    "people": {
+        "Pedro Gonçalves da Câmara": [
+            "Gründer der Kapelle Unserer Lieben Frau von Loreto"
+        ]
+    },
+    "years": {
+        "16. Jahrhundert": [
+            "Bauzeit der Kapelle Unserer Lieben Frau von Loreto"
+        ]
+    }
+}

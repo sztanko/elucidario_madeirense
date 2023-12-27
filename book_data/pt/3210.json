@@ -1,0 +1,36 @@
+{
+    "id": 3210,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santos (Vitorino José dos)",
+    "fl": "S",
+    "original_title": "Santos (Vitorino José dos)",
+    "body": "Nasceu no Funchal a 29 de Dezembro de 1863, sendo filho de Augusto César dos Santos e de D. Isabel de Ornelas Santos, e é engenheiro civil, tendo feito os respectivos estudos nas antigas escolas Politécnica e do Exército, em Lisboa. Foi director das obras publicas, municipais de Luanda e engenheiro-chefe de secção das obras publicas da província de Angola, e depois de regressar ao Funchal foi aqui administrador do concelho e comissário de policia. É director e professor da Escola Industrial Antonio Augusto de Aguiar e chefe da 6ª. Circunscrição dos Serviços Técnicos da Indústria, no Funchal, tendo escrito no exercício deste ultimo cargo vários relatórios que foram publicados no *Boletim de Trabalho Industrial*, alguns dos quais, como os que dizem respeito a instituições de beneficência e associações de classe, bordados, artefactos, obras de verga e embutidos, são trabalhos completos e bastante valiosos. Publicou também um livro de versos, intitulado *Lágrimas*, de que se fizeram duas edições, a primeira no Funchal, em 1916, a segunda em Coimbra, em 1918 (1921). Faleceu a 1 de Outubro de 1928.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Augusto César dos Santos": [
+            "Pai"
+        ],
+        "D. Isabel de Ornelas Santos": [
+            "Mãe"
+        ]
+    },
+    "years": {
+        "1863": [
+            "Ano de nascimento"
+        ],
+        "1928": [
+            "Ano de falecimento"
+        ]
+    }
+}

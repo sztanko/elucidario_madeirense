@@ -1,0 +1,31 @@
+{
+    "id": 799,
+    "lang": "de",
+    "is_original": false,
+    "title": "Steinkohle",
+    "fl": "S",
+    "original_title": "Carvão de pedra",
+    "body": "Die englischen Kaufleute Jacob Ruffy und Diogo Taylor waren es, die 1838 in Funchal die erste Steinkohlenniederlage einrichteten, kurz nachdem der Dampfschiffsverkehr zwischen England und Westindien mit der Britischen Königlichen Post begonnen hatte.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem die erste Steinkohlenniederlage eingerichtet wurde"
+        ]
+    },
+    "people": {
+        "Jacob Ruffy": [
+            "Einer der englischen Kaufleute, die für die erste Steinkohlenniederlage verantwortlich waren"
+        ],
+        "Diogo Taylor": [
+            "Einer der englischen Kaufleute, die für die erste Steinkohlenniederlage verantwortlich waren"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Einrichtung der ersten Steinkohlenniederlage"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 2524,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Salvação (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Salvação (Capelas de)",
+    "body": "At the site of Moinhos in the parish of Caniço, and on the lands of the Figueiroa de Albuquerque family, the ruins of the chapel of Nossa Senhora da Salvação can still be found, which, as we read somewhere, was founded in 1614 by Francisco Morais de Aguiar. With the same name, there was a chapel in Funchal, 'in a backyard of his houses where the fountains are', built by João de Bettencourt Henriques and his wife D. Antonia de Castelbranco.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Locality in the Madeira Island"
+        ],
+        "Funchal": [
+            "Capital of the Madeira Island"
+        ]
+    },
+    "people": {
+        "Francisco Morais de Aguiar": [
+            "Possible founder of the chapel"
+        ],
+        "João de Bettencourt Henriques": [
+            "Builder of the chapel"
+        ],
+        "D. Antonia de Castelbranco": [
+            "Builder of the chapel"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Possible foundation of the chapel of Nossa Senhora da Salvação"
+        ]
+    }
+}

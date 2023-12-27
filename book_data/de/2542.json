@@ -1,0 +1,26 @@
+{
+    "id": 2542,
+    "lang": "de",
+    "is_original": false,
+    "title": "Neuigkeiten (Die)",
+    "fl": "N",
+    "original_title": "Novidades (As)",
+    "body": "Unter diesem Titel wurde in Funchal eine Zeitung veröffentlicht, deren erste Ausgabe am 26. Juli 1866 erschien.\n\nEine andere Zeitung, die hier unter dem gleichen Titel veröffentlicht wurde, erschien am 18. November 1881 und brachte sechsundzwanzig Ausgaben heraus, deren letzte am 24. Dezember 1882.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1866": [
+            "Veröffentlichung der Zeitung 'Neuigkeiten'"
+        ],
+        "1881": [
+            "Veröffentlichung der anderen Zeitung 'Neuigkeiten'"
+        ],
+        "1882": [
+            "Letzte Ausgabe der Zeitung 'Neuigkeiten'"
+        ]
+    }
+}

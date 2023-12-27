@@ -1,0 +1,37 @@
+{
+    "id": 1343,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fauvel (Alberto). And",
+    "fl": "F",
+    "original_title": "Fauvel (Alberto). E",
+    "body": "Catalog of the Beetles of the Islands of Madeira, Porto Santo, and Desertas; Catalog of the Beetles of the Selvages Islands; and Arachnids collected on the Island of Madeira in 1896. The first two works were published in the Revue d'Entomologie, 1897; the last one in the Bulletin de la Societe Entomologique de France, 1897.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island of Madeira"
+        ],
+        "Porto Santo": [
+            "Island of Porto Santo"
+        ],
+        "Desertas": [
+            "Desertas Islands"
+        ],
+        "Selvages": [
+            "Selvages Islands"
+        ]
+    },
+    "people": {
+        "Alberto Fauvel": [
+            "Entomologist"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Year in which the Arachnids were collected on the Island of Madeira"
+        ]
+    }
+}

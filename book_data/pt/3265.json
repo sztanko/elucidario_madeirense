@@ -1,0 +1,51 @@
+{
+    "id": 3265,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Vicente (Vila e Município de)",
+    "fl": "S",
+    "original_title": "São Vicente (Vila e Município de)",
+    "body": "Sabe-se que as vilas do Funchal, Machico e Porto Santo foram criadas por meados do século XV e as de Santa Cruz, Ponta do Sol e Calheta em princípios do século XVI. Durante o século XVII não se estabeleceu vila alguma na Madeira, sendo a de São Vicente criada no segundo quartel do século XVIII.\n\nO lugar de São Vicente, constituído em paróquia por fins do século XV, foi das freguesias, do norte da Madeira que desde os tempos primitivos da colonização adquiriu maior importância e onde a população se tornou mais densa, sendo ainda hoje a mais populosa de todas. Pertencia á capitania de Machico e a vila deste nome era a sede de toda a administração pública, vendo-se os povos do norte da ilha forçados a longas e perigosas caminhadas para chegarem á capital da sua capitania, quando imperiosas circunstancias a isso os obrigassem.\n\nComo eram mais fáceis e frequentes as comunicações de muitas freguesias da costa-norte com o Funchal, pretenderam varias vezes os povos daquelas paróquias subtrair-se à jurisdição da capitania de Machico e serem incorporados na do Funchal, ou então obter a criação dum município com sede em São Vicente e que abrangesse esta e outras freguesias circunvizinhas.\n\nAquele legitimo desejo dos povos do norte só foi alcançado em 1744 com a criação da vila de São Vicente. 0 Dr. Alvaro Rodrigues de Azevedo não faz a menor referência aquele facto e por certo desconhecia o diploma que elevou a freguesia de São Vicente á categoria de vila. 0 respectivo alvará régio, que é documento extenso e sobremaneira interessante, tem a data de 25 de Agosto de 1744 e foi pela primeira vez publicado no numero 14 e seguintes do jornal A Revista Madeirense, do ano de 1902.\n\nCom a implantação do governo constitucional, procedeu-se á divisão deste arquipélago por concelhos, tendo sido profundamente alterada a divisão então existente por vilas ou municípios. 0 conselho de São Vicente instalou-se em 1835 e era composto, como ainda o é ao presente, pelas freguesias de Boaventura, Ponta Delgada e São Vicente. 0 decreto de 10 de Dezembro de 1867 suprimiu o concelho do Porto Moniz, e incorporou no de São Vicente as freguesias do Seixal, Ribeira da Janela e Porto Moniz, sendo pouco depois restaurado o extinto concelho do Porto Moniz. Este conselho foi novamente suprimido pelo decreto de 18 de Novembro de 1895 e também de novo restaurado pelo decreto de 13 de Janeiro de 1898, tendo, neste curto período de tempo, as freguesias do Seixal, Ribeira da Janela e Porto Moniz feito mais uma vez parte do concelho de São Vicente.\n\nFicando a vila de São Vicente situada em um apertado recinto e estando constituída por um limitado numero de moradores, não tem tido a expansão e o desenvolvimento compatíveis com as circunstancias de haver sido a sede de uma comarca, de gozar as honrarias de Vila, capital de um concelho e centro de um Julgado Municipal, impondo-se a conveniência da sua instalação em local de mais vasta área, que permita formação de um importante núcleo populacional em volta das repartições municipais e concelhias como geralmente acontece em outras localidades. Não é recente a ideia da transferência da sede do concelho para sítio mais acomodado a esse fim, e ainda no ano de 1929 a Comissão Administrativa do Município se ocupou desse assunto com devotado interesse, chegando a fazer-se a escolha desse local e a ser esboçado o plano da futura vila. É de presumir que venha a restaurar-se a antiga comarca, dando valiosa importância à povoação que porventura haja de criar-se.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Ponta Delgada",
+        "São Vicente",
+        "Seixal",
+        "Ribeira da Janela",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital da sua capitania"
+        ],
+        "Machico": [
+            "Capitania de Machico"
+        ]
+    },
+    "people": {
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Desconhecia o diploma que elevou a freguesia de São Vicente á categoria de vila"
+        ]
+    },
+    "years": {
+        "1744": [
+            "Criação da vila de São Vicente"
+        ],
+        "1835": [
+            "Instalação do conselho de São Vicente"
+        ],
+        "1867": [
+            "Supressão do concelho do Porto Moniz"
+        ],
+        "1895": [
+            "Supressão do concelho de São Vicente"
+        ],
+        "1898": [
+            "Restauração do concelho de São Vicente"
+        ]
+    }
+}

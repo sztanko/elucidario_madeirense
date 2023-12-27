@@ -1,0 +1,38 @@
+{
+    "id": 1605,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gonçalves (Kommandeur Manuel)",
+    "fl": "G",
+    "original_title": "Gonçalves (Comendador Manuel)",
+    "body": "Er war ein intelligenter und aktiver Kaufmann aus Funchal, der durch sein unternehmerisches Genie und seine weitreichende Initiative seiner Heimatstadt ausgezeichnete Dienste leistete, und seine Handlungen wären noch umfassender und hilfreicher gewesen, wenn ihn nicht ein erbitterter Krieg an der Verwirklichung seiner Pläne gehindert hätte. Groß waren die Bemühungen, die er unternahm, um den lokalen Handel aus dem Einfluss bestimmter ausländischer Häuser zu befreien, die die kommerziellen und industriellen Aktivitäten der einheimischen Kaufleute erstickten. Die Organisation der Sanatoriumsgesellschaft ist hauptsächlich seiner Anstrengung zu verdanken, wie ausführlicher im entsprechenden Artikel dargelegt wird. Als Direktor der Bergbahngesellschaft Monte realisierte er die wichtige Verbesserung der Verlängerung des Aufzugs vom Monte bis zum Terreiro da Luta und ließ dort ein ausgezeichnetes Restaurant errichten, das mit ähnlichen Einrichtungen im Ausland konkurrieren konnte. Kommandeur Gonçalves wurde 1867 in Funchal geboren und starb am 18. August 1916 in der Gemeinde Monte.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ],
+        "Monte": [
+            "Sterbeort"
+        ]
+    },
+    "people": {
+        "Gonçalves (Kommandeur Manuel)": [
+            "Intelligenter und aktiver Kaufmann"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Geburtsjahr"
+        ],
+        "1916": [
+            "Sterbejahr"
+        ]
+    }
+}

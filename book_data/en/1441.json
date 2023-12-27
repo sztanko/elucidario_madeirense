@@ -1,0 +1,30 @@
+{
+    "id": 1441,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fort of S. Felipe da Praça",
+    "fl": "F",
+    "original_title": "Forte de S. Felipe da Praça",
+    "body": "Ordered to be built by the bishop governor D. Jerónimo Fernando in 1628, between the mouths of the Ribeira de João Gomes and Santa Luzia and to the south of the Pelourinho, on the site where there was a large 'til' tree whose wood was used in a Castilian warship. In 1754, Captain Roque João Acciaioly was the constable. Sold by the Ministry of War, it gave way to a large warehouse.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Jerónimo Fernando": [
+            "Ordered the construction of the Fort of S. Felipe da Praça"
+        ],
+        "Captain Roque João Acciaioly": [
+            "Was the constable of the Fort of S. Felipe da Praça in 1754"
+        ]
+    },
+    "years": {
+        "1628": [
+            "Fort of S. Felipe da Praça was ordered to be built by the bishop governor D. Jerónimo Fernando"
+        ],
+        "1754": [
+            "Captain Roque João Acciaioly was the constable of the Fort of S. Felipe da Praça"
+        ]
+    }
+}

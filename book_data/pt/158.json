@@ -1,0 +1,27 @@
+{
+    "id": 158,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almeida",
+    "fl": "A",
+    "original_title": "Almeida",
+    "body": "“A mulher de João Gonçalves Zargo, Constança Rodrigues, diz o Dr. Alvaro de Azevedo, é por uns designada de Sá, por outros, de Almeida; e, com effeito, a casa de Abrantes, proveniente da mesma ascendência, usa as armas dos Almeidas. Depois de Constança Rodrigues, a primeira pessoa que achamos com este appellido é Amador de Almeida, ao qual D. João III deu brazão de armas em 1538”.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Gonçalves Zargo": [
+            "Marido de Constança Rodrigues"
+        ],
+        "Constança Rodrigues": [
+            "Primeira pessoa encontrada com o sobrenome Almeida"
+        ]
+    },
+    "years": {
+        "1538": [
+            "D. João III deu brasão de armas a Amador de Almeida"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 1435,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fornos de Algodres (João Maria de Abreu Castelo Branco Cardoso e Melo, 1. Vizegraf und 1. Graf von).",
+    "fl": "F",
+    "original_title": "Fornos de Algodres (João Maria de Abreu Castelo Branco Cardoso e Melo, Iº visconde e Iº conde de).",
+    "body": "Er wurde 1789 geboren und starb am 7. Januar 1878. Er wurde am 13. November 1852 zum Zivilgouverneur dieses Bezirks ernannt, als er Vizegraf von Fornos de Algodres war, und bekleidete dieses Amt etwa ein Jahr lang.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Maria de Abreu Castelo Branco Cardoso e Melo": [
+            "Zivilgouverneur"
+        ]
+    },
+    "years": {
+        "1789": [
+            "Geburt"
+        ],
+        "1878": [
+            "Tod"
+        ],
+        "1852": [
+            "Ernennung zum Vizegrafen von Fornos de Algodres"
+        ]
+    }
+}

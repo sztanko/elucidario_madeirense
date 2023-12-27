@@ -1,0 +1,56 @@
+{
+    "id": 1012,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Corografia",
+    "fl": "C",
+    "original_title": "Corografia",
+    "body": "Para o estudo da corografia deste arquipelago e de cada uma das ilhas que o compõem, além dos elementos que se encontram dispersos em varias obras, nomeadamente no Diccionario Universal Portugues illutrado, existem publicados os seguintes opusculos: Chorographia da Madeira, por João de Nobrega Soares, de que se fêz a primeira edição em 1862 e a quarta e ultima em 1882, Chorographia do Archipelago da Madeira, pelo dr. Alvaro Rodrigues de Azevedo, 1873, e Corografia Elementar do Arquipelago da Madeira, pelo major Alberto Artur Sarmento, 1912, sendo o ultimo o mais completo estudo que possuímos sôbre o assunto.\n\nA exemplo do que se fêz em anos já passados, deveria novamente ministrar-se no ensino das escolas deste distrito algumas noções elementares da corografia da região. Esse ensino chegou a ser obrigatorio entre nós, fazendo-se quatro edições duma corografia de caracter regional, no periodo de 20 anos, para uma população pouco superior a cem mil habitantes e onde era muito consideravel a percentagem do analfabetismo.\n\nPara servir de texto no ensino da corografia da Madeira nas escolas deste arquipélago, fêz a Junta Geral Autonoma publicar no ano de 1937 uma nova édição, muito melhorada e adaptada àquele fim, do opusculo do sr. tenente-coronel Alberto Artur Sarmento, que é um trabalho bastante valioso e que bem merecia ser reeditado.\n\nSôbre a mesma materia tinha o co-autor deste Elucidario Pe. Fernando A. Silva publicado em 1934 um desenvolvido estudo subordinado ao titulo Dicionario Corografico do Arquipelago da Madeira num volume de 310 paginas.",
+    "categories": [
+        "geography",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localidade onde a corografia da Madeira é estudada"
+        ],
+        "Madeira": [
+            "Arquipélago estudado na corografia"
+        ]
+    },
+    "people": {
+        "João de Nobrega Soares": [
+            "Autor da Chorographia da Madeira"
+        ],
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Autor da Chorographia do Archipelago da Madeira"
+        ],
+        "Major Alberto Artur Sarmento": [
+            "Autor da Corografia Elementar do Arquipelago da Madeira"
+        ],
+        "Pe. Fernando A. Silva": [
+            "Co-autor do Dicionario Corografico do Arquipelago da Madeira"
+        ]
+    },
+    "years": {
+        "1862": [
+            "Primeira edição da Chorographia da Madeira por João de Nobrega Soares"
+        ],
+        "1882": [
+            "Última edição da Chorographia da Madeira por João de Nobrega Soares"
+        ],
+        "1873": [
+            "Publicação da Chorographia do Archipelago da Madeira pelo Dr. Alvaro Rodrigues de Azevedo"
+        ],
+        "1912": [
+            "Publicação da Corografia Elementar do Arquipelago da Madeira pelo Major Alberto Artur Sarmento"
+        ],
+        "1937": [
+            "Publicação da nova edição da corografia da Madeira pela Junta Geral Autonoma"
+        ],
+        "1934": [
+            "Publicação do Dicionario Corografico do Arquipelago da Madeira por Pe. Fernando A. Silva"
+        ]
+    }
+}

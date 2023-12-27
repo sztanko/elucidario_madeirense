@@ -1,0 +1,46 @@
+{
+    "id": 615,
+    "lang": "en",
+    "is_original": false,
+    "title": "Submarine Cable",
+    "fl": "S",
+    "original_title": "Cabo submarino",
+    "body": "It was on September 26, 1874, that this archipelago was definitively endowed with a very important and long-desired improvement in its connection to the metropolis through electric telegraphy. It was an English company that, under a contract with the Portuguese government, proceeded with the laying of the cable and the installation of the respective telegraphic facilities, having the right to operate for a period of 99 years, without any charges to the Portuguese state. On November 12, 1872, the respective contract was signed between the Portuguese government and Mr. Jules Despecher, representative of the Mainteneuse and Falmouth and Malte companies. The cable should be moored near the mouth of the Tagus, in the city of Funchal, and on one of the islands of Cape Verde, and it should start operating before September 30, 1873. On August 22, 1874, the English steamer Seine left Lisbon, tasked with laying the submarine cable across the ocean, which was to connect this island to the European continent. After 11 days of travel, employed in the cable laying work, it broke about 100 miles from Madeira, at which point the steamer headed for Funchal to disembark some passengers and stock up on coal and supplies, arriving at our port on September 3. After the necessary delay, the Seine set out to resume the interrupted work, returning to Funchal a few days later and immediately anchoring the cable to the land. On September 24, some telegrams were exchanged with the capital, but the public service began on the 26th, on which day the first telegraphic dispatch was sent to King D. Luiz I. The first telegram received in this city was from the Portuguese monarch to the civil governor of the district, congratulating him on the realization of such an important improvement. On that day, various demonstrations of joy took place, with a brilliant illumination at the city entrance and the old Constitution square, music, fireworks, etc.. Cables. There are two cables in Madeira: Cabo Garajau and Cabo Girão. The former extends about 120 meters over the sea; the latter is less prominent and has at its base an eroded shoe or plateau, where one can walk at low tide. Cabo Girão, so named because it was the point where the boats turned in the first reconnaissance trip of the island, is one of the highest maritime eminences on the globe; Cabo Garajau, which derives its name from the large number of terns (Sterna hirundo) that the first explorers found there, is much less elevated, with its crest 126 meters above sea level. At Cabo Girão, there are numerous dykes that cut through the tuffs, scoria, and lavas, and at Cabo Garajau, there is a quite remarkable basaltic dyke, also noting numerous basaltic encrustations in the yellow tuff of the lands near the beach to the west of Garajau and the ravines and eminences located to the east of Cabo Girão, which are rich in botanical species, some of which are not found in other locations on the island.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Tagus": [
+            "River in Portugal"
+        ],
+        "Funchal": [
+            "City on the island of Madeira"
+        ],
+        "Cape Verde": [
+            "Archipelago off the northwest coast of Africa"
+        ]
+    },
+    "people": {
+        "Mr. Jules Despecher": [
+            "Representative of the Mainteneuse and Falmouth and Malte companies"
+        ],
+        "King D. Luiz I": [
+            "Portuguese monarch"
+        ]
+    },
+    "years": {
+        "1874": [
+            "The first telegram received in this city was from the Portuguese monarch to the civil governor of the district"
+        ],
+        "1872": [
+            "The respective contract was signed between the Portuguese government and Mr. Jules Despecher, representative of the Mainteneuse and Falmouth and Malte companies"
+        ],
+        "1873": [
+            "It should start operating before September 30"
+        ],
+        "1908": [
+            "Was ordered to be built by the General Assembly"
+        ]
+    }
+}

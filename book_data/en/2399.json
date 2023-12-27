@@ -1,0 +1,48 @@
+{
+    "id": 2399,
+    "lang": "en",
+    "is_original": false,
+    "title": "Muralhas das Ribeiras",
+    "fl": "M",
+    "original_title": "Muralhas das Ribeiras",
+    "body": "There have long been walls on the banks of some streams in order to prevent water from eroding the land or causing floods in the settlements. On June 28, 1613, the Municipal Council of Funchal protested against various acts of Governor D. Manuel Pereira Coutinho, especially against the way he opposed the direction of the works of the streams 'with a manifest violation of royal provisions', and the ordinances of January 4, 1660, August 9, 1747, and July 18, 1748 respectively ordered the construction of shelter walls in the streams of Ribeira Brava, Santa Cruz, and Machico.\n\nThese walls were built, but apparently not with the necessary security, as on July 24, 1756, the Provedor da Fazenda wrote to Diogo de Mendonça Corte Real about the need to rebuild these walls.\n\nOn May 30, 1772, Captain of Engineers Domingos Rodrigues Martins was called to the Municipal Council of Funchal to organize the budget for the reconstruction of the stream walls, without which the same Council could not request the Monarch to carry out this improvement, and the Report of the Damages caused by the Storm that occurred on the night of October 9, 1803 on the island of Madeira, published on page 723 of 'Saudades da Terra', alludes to the destruction by the waters of 'high and strong walls, made of stone and lime on the eastern and western banks of the three streams, for the safety of the city', which shows that something was done in the said year of 1772, or shortly thereafter, to secure Funchal against the danger of floods.\n\nThe current walls of the city's streams were initiated or greatly improved in 1804, under the direction of Brigadier Reinaldo Oudinot, who also proposed the execution of various urgent works in the streams of Santa Cruz, Machico, Porto da Cruz, Calheta, Madalena, Ponta do Sol, Ribeira Brava, and Tábua, some of which were carried out. On December 9, 1804, the aforementioned brigadier communicated to Viscount of Anadia 'that the rains had caused great floods in the streams, which had shown the effectiveness and solidity of the works already built both in Funchal and in Machico, Santa Cruz, Ponta do Sol, and in the parishes of Tábua and Madalena.'\n\nIn 1806, several houses on the banks of the João Gomes and Santa Luzia streams were demolished for the construction of the new walls, and it can be seen from information provided on December 28, 1814 to António de Araújo e Azevedo that on that date some works were still pending in these streams and in that of S. João for the city to be completely defended against floods.\n\nA part of the wall of the Machico stream was raised after the flood of 1842, and in 1847 and 1848, the wall of the Santa Luzia stream was built, which is located near the fish market, and the walls of the João Gomes stream, which are located near the mouth and the Campo da Barca, but it is unknown if such works were executed for the first time then. In 1847, some stone arrangements were made in Ribeira Brava, and more solid works were carried out there recently, in order to protect the village from the danger of floods.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1613": [
+            "Protest by the Municipal Council of Funchal"
+        ],
+        "1660": [
+            "Ordinance for the construction of shelter walls in the streams of Ribeira Brava, Santa Cruz, and Machico"
+        ],
+        "1756": [
+            "Letter from the Provedor da Fazenda to Diogo de Mendonça Corte Real about the need for rebuilding the walls"
+        ],
+        "1772": [
+            "Initiation or improvement of the stream walls of the city"
+        ],
+        "1803": [
+            "Destruction by the waters of high and strong walls made of stone and lime on the eastern and western banks of the three streams"
+        ],
+        "1804": [
+            "Initiation or improvement of the stream walls of the city"
+        ],
+        "1806": [
+            "Demolition of houses on the banks of the João Gomes and Santa Luzia streams"
+        ],
+        "1842": [
+            "Raising of the part of the wall of the Machico stream after the flood"
+        ],
+        "1847": [
+            "Construction of the wall of the Santa Luzia stream and the walls of the João Gomes stream"
+        ],
+        "1848": [
+            "Construction of the walls of the João Gomes stream"
+        ]
+    }
+}

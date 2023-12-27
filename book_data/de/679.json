@@ -1,0 +1,42 @@
+{
+    "id": 679,
+    "lang": "de",
+    "is_original": false,
+    "title": "Câmara (Frau Marta Celina Sauvayre da)",
+    "fl": "C",
+    "original_title": "Câmara (D. Marta Celina Sauvayre da)",
+    "body": "Sie gehört einer edlen und angesehenen madeirischen Familie an und ist die Tochter von João Sauvayre da Camara und Frau Matilde Lucia de Sant’Ana e Vasconcelos Moniz de Bettencourt. Sie ist die Enkelin der berühmten madeirischen Schriftstellerin, Viscountess von Nogueiras, und die Nichte unseres angesehenen Landsmannes Jacinto de Sant’Ana e Vasconcelos, 21. Viscount desselben Titels, über die wir in diesem Elucidario berichten werden. Frau Marta Celina da Camara wurde am 1. September 1857 in Funchal geboren und erhielt eine sorgfältige Erziehung, zu einem großen Teil von ihrer berühmten Großmutter, einer Dame von weitreichender Gelehrsamkeit, die für ihre Enkelinnen ein interessantes und wertvolles Werk mit dem Titel Dialoge zwischen einer Großmutter und ihren Enkelinnen verfasste, das 1862 veröffentlicht wurde. Nach einer ausgedehnten Reise durch Europa, Teile Asiens und Afrikas schrieb Frau Maria Celina ein Buch mit dem Titel Von Neapel nach Jerusalem, das 1889 in Funchal in einem 196 Seiten umfassenden Band veröffentlicht wurde. Frau Maria Celina Sauvayre da Câmara verstarb am 21. Februar 1929 in Portugal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Sauvayre da Camara": [
+            "Vater"
+        ],
+        "Frau Matilde Lucia de Sant’Ana e Vasconcelos Moniz de Bettencourt": [
+            "Mutter"
+        ],
+        "Viscountess von Nogueiras": [
+            "Großmutter"
+        ],
+        "Jacinto de Sant’Ana e Vasconcelos": [
+            "Onkel"
+        ]
+    },
+    "years": {
+        "1857": [
+            "In Funchal geboren"
+        ],
+        "1862": [
+            "Werk Dialoge zwischen einer Großmutter und ihren Enkelinnen veröffentlicht"
+        ],
+        "1889": [
+            "Buch Von Neapel nach Jerusalem veröffentlicht"
+        ],
+        "1929": [
+            "In Portugal verstorben"
+        ]
+    }
+}

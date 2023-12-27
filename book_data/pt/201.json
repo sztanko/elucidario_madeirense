@@ -1,0 +1,31 @@
+{
+    "id": 201,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Amoreiras",
+    "fl": "A",
+    "original_title": "Amoreiras",
+    "body": "Sítio da freguesia do Arco da Calheta em que se encontra a capela de Nossa Senhora da Conceição, fundada no ano de 1911, pelo padre José Marcelino de Freitas e onde já existiu uma capela da mesma invocação mandada edificar por Isabel de Abreu nos princípios do século XVI.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Freguesia na Madeira"
+        ]
+    },
+    "people": {
+        "José Marcelino de Freitas": [
+            "Padre"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Fundação da capela de Nossa Senhora da Conceição"
+        ]
+    }
+}

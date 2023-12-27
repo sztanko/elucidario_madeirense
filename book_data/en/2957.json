@@ -1,0 +1,50 @@
+{
+    "id": 2957,
+    "lang": "en",
+    "is_original": false,
+    "title": "Provedor da Fazenda",
+    "fl": "P",
+    "original_title": "Provedor da Fazenda",
+    "body": "This was one of the highest-ranking officials in Funchal, subordinate to the Council of Finance, a court created by Philip II of Spain on November 20, 1591, and confirmed by law on December 22, 1761. He was responsible for the accounting of public revenue and expenditure, and directed the Customs of Funchal until 1775, as mentioned on page 34 of volume I of this Elucidário. The royal charter of August 2, 1641, ordered the judges and officials of the Council to provide him with assistance whenever necessary, and the mandate of the Council of Finance of January 11, 1701, allowed him to summon any officials or soldiers of the militia for testimony in matters of royal finance, without the authorization of the Governor. He could arrest anyone without the corregidor's permission, and order the release of any prisoner from jail..., as necessary for any royal finance proceedings, as seen in the mandate of the Council of Finance of March 10, 1735. The Provedoria da Fazenda was abolished by royal charter on April 6, 1775, being replaced by the Junta da Real Fazenda, which we have already mentioned in this Elucidário. The official who held the position of provedor at the time of the abolition of this office became the judge of the Customs, in accordance with the determinations of the Junta da Real Fazenda of August 21, 1775. See Junta da Real Fazenda.",
+    "categories": [
+        "economy",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Highest-ranking officials"
+        ],
+        "Alfandega do Funchal": [
+            "Directed until 1775"
+        ]
+    },
+    "people": {
+        "Philip II of Spain": [
+            "Created the Council of Finance"
+        ],
+        "Governor": [
+            "Authorization for testimony in matters of royal finance"
+        ],
+        "Corregidor": [
+            "Permission to arrest anyone"
+        ]
+    },
+    "years": {
+        "1591": [
+            "Council of Finance created"
+        ],
+        "1641": [
+            "Royal charter ordered assistance from the Council"
+        ],
+        "1701": [
+            "Mandate of the Council of Finance"
+        ],
+        "1735": [
+            "Mandate of the Council of Finance"
+        ],
+        "1775": [
+            "Abolition of the Provedoria da Fazenda"
+        ]
+    }
+}

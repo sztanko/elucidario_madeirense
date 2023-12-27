@@ -1,0 +1,31 @@
+{
+    "id": 3205,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santos (Duarte Joaquim dos)",
+    "fl": "S",
+    "original_title": "Santos (Duarte Joaquim dos)",
+    "body": "Dieser herausragende Musiker und Komponist wurde in Elvas geboren, lebte aber einige Jahre in Funchal und starb dort im Alter von 54 Jahren am 24. Mai 1855. (Siehe Heraldo da Madeira vom 14. Juli 1910).",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Elvas": [
+            "Geburtsort"
+        ],
+        "Funchal": [
+            "Wohn- und Sterbeort"
+        ]
+    },
+    "people": {
+        "Duarte Joaquim dos Santos": [
+            "Musiker und Komponist"
+        ]
+    },
+    "years": {
+        "1855": [
+            "Todesjahr"
+        ]
+    }
+}

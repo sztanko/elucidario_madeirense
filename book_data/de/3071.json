@@ -1,0 +1,60 @@
+{
+    "id": 3071,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ribeira Brava (Gemeinde und Stadt)",
+    "fl": "R",
+    "original_title": "Ribeira Brava (Município e Vila da)",
+    "body": "Wie wir bereits bei Moniz und Câmara de Lobos erwähnt haben, hatte sie nie den Status einer Stadt, obwohl ihr oft, sogar vor der Gründung des Rates, eine solche Bezeichnung gegeben wurde.\nAuf Seite 213 des ersten Bandes dieses Werks sagten wir bereits, dass es auf Madeira sieben Orte gab, darunter Ribeira Brava. Der wichtigste Ort dieses Ortes wird noch heute \"Lugar\" genannt und dient als Sitz der Kirchengemeinde und der Kommune (1921).\nDie Gemeinde Ribeira Brava ist die jüngste Gründung. Sie besteht erst seit neun Jahren (1921), denn sie wurde 1914 gegründet. Ihre feierliche Einweihung fand am 2. August desselben Jahres statt. Sie besteht aus den Kirchengemeinden Ribeira Brava, Serra de Água und Tabua, die von der Gemeinde Ponta do Sol abgetrennt wurden, sowie der Kirchengemeinde Campanário, die von der Gemeinde Câmara de Lobos getrennt wurde. Sie hat 12.800 Einwohner. Ihr Wappen zeigt das Fort São Bento am Eingang des Ortes in der Straße, die zum Hafen führt.\nIn der Hauptstadt dieser Gemeinde wurde durch Erlass vom 31. August 1915 ein Schulbezirk geschaffen, der heute seinen Sitz in Funchal hat (1921).\nDie Gemeinde Ribeira Brava wurde durch Erlass vom 6. Mai 1914 gegründet und ihr Sitz durch Erlass vom 26. Mai 1928 zur Stadt erhoben.\nDer unter dem Namen Lugar bekannte Ort ist der bevölkerungsreichste und geschäftigste der Kirchengemeinde. Er grenzt an den Hafen und hat eine leichte und häufige Verbindung zu anderen Orten. Er konnte nicht anders, als zum Sitz der neuen Gemeinde und der neuen Stadt gewählt zu werden. Die Stadt umfasst den genannten Ort Lugar sowie Calvário, Bagaceira und Moinhos. Innerhalb ihres Gebiets liegen das Rathaus und andere kommunale Einrichtungen, die Pfarrkirche, zwei öffentliche Grundschulen, eine für jedes Geschlecht, die Telegrafen- und Poststation, die Telefonzelle, das Standesamt, die Steuerstelle, der Sitz eines medizinischen Bezirks, der Friedhof der Kirchengemeinde, der Anlegesteg, das kleine Fort São Bento, die Ruinen der Kirche des ehemaligen Franziskanerklosters usw.\nVor etwa vierzig Jahren richtete die damalige Landwirtschaftskammer hier eine landwirtschaftliche Versuchsstation ein, die vielleicht die einzige der damals auf Madeira eingerichteten Stationen war, die von praktischem Nutzen war. Als dieser Bezirk in zwei Schulbezirke für Grundschulbildung, West und Ost, aufgeteilt wurde, hatte einer von ihnen seinen Sitz in Ribeira Brava, der bald darauf nach Funchal verlegt und 1923 aufgehoben wurde.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Serra de Água",
+        "Tabua",
+        "Campanário"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Ort, Sitz der Kirchengemeinde und Gemeinde"
+        ],
+        "Serra de Água": [
+            "Kirchengemeinde"
+        ],
+        "Tabua": [
+            "Kirchengemeinde"
+        ],
+        "Campanário": [
+            "Kirchengemeinde"
+        ],
+        "Ponta do Sol": [
+            "Gemeinde"
+        ],
+        "Câmara de Lobos": [
+            "Gemeinde"
+        ],
+        "Funchal": [
+            "Stadt"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1914": [
+            "Gründung der Gemeinde Ribeira Brava"
+        ],
+        "1915": [
+            "Einrichtung eines Schulbezirks im Hauptort"
+        ],
+        "1921": [
+            "Feierliche Einweihung der Gemeinde"
+        ],
+        "1923": [
+            "Aufhebung eines Schulbezirks in Ribeira Brava"
+        ],
+        "1928": [
+            "Sitz zur Stadt erhoben"
+        ]
+    }
+}

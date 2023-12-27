@@ -1,0 +1,31 @@
+{
+    "id": 1448,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte de Nª Sª do Amparo",
+    "fl": "F",
+    "original_title": "Forte de Nª Sª do Amparo",
+    "body": "De traçado triangular, foi construído em 1706, sem despesa para a Fazenda Real.\n\nConforme uma inscrição, correu com a obra dele Francisco Dias Franco, que foi o seu primeiro capitão.\n\nFica junto ao passeio de Machico e foi o ultimo a se render por ocasião do desembarque das tropas miguelistas, em 1828.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Passeio de Machico"
+        ]
+    },
+    "people": {
+        "Francisco Dias Franco": [
+            "Primeiro capitão"
+        ]
+    },
+    "years": {
+        "1706": [
+            "Construção do forte"
+        ],
+        "1828": [
+            "Desembarque das tropas miguelistas"
+        ]
+    }
+}

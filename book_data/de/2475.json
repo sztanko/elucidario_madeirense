@@ -1,0 +1,62 @@
+{
+    "id": 2475,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Guten Reise (Kapellen von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Boa Viagem (Capelas de)",
+    "body": "An der Stelle Carne Azeda in der Gemeinde Santa Luzia gründeten Manuel Pestana Teixeira und seine Frau Francisca Xavier da Conceição im Jahr 1711 eine Kapelle mit dieser Anrufung. Sie wurde am 28. Juni desselben Jahres für die Feier der Kultushandlungen begutachtet.\n\nIn der Gemeinde Santa Maria Maior gab es in der Straße, die noch heute den Namen Boa Viagem (Gute Reise) trägt, eine Kapelle mit der gleichen Anrufung, die von Bento da Veiga gegründet wurde. Wir wissen nicht, wann sie gegründet wurde, aber wir wissen, dass es sich um einen sehr alten Bau handelte. Irgendwo haben wir gelesen, dass es sich um ein Gebäude mit interessanter und charakteristischer Bauweise handelte, sowie um ein angrenzendes Haus. Es wird behauptet, dass sich in diesem Haus der erste Zoll und später die erste Fleischerei der Gemeinde befanden. Die entweihte Kapelle, die sich heute in der Straße Boa Viagem befindet, ist nicht die Kapelle dieses Namens, auf die wir uns hier beziehen.\n\nUnsere Liebe Frau der Guten Fahrt (Kapelle von). Diese Kapelle befindet sich in der Gemeinde Campanário und wurde 1672 von dem Grundherrn Jerónimo de Atouguia Bettencourt und seiner Frau D. Catarina Espranger gegründet. Die Stiftungsurkunde ist auf den 27. Juni jenes Jahres datiert. 1762 wurde sie vom Priester Francisco Nicolau de Brito wiederaufgebaut, der zu dieser Zeit einem Bruder dieses Geistlichen gehörte. Heute gehört sie Feliciano de Brito Correia, einem Vertreter dieser Familie (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "Santa Maria Maior",
+        "Campanário"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Ort auf Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Ort auf Madeira"
+        ],
+        "Campanário": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Manuel Pestana Teixeira": [
+            "Gründer der Kapelle in der Gemeinde Santa Luzia"
+        ],
+        "Francisca Xavier da Conceição": [
+            "Ehefrau von Manuel Pestana Teixeira"
+        ],
+        "Bento da Veiga": [
+            "Gründer der Kapelle in der Gemeinde Santa Maria Maior"
+        ],
+        "Jerónimo de Atouguia Bettencourt": [
+            "Gründer der Kapelle in Campanário"
+        ],
+        "D. Catarina Espranger": [
+            "Ehefrau von Jerónimo de Atouguia Bettencourt"
+        ],
+        "Padre Francisco Nicolau de Brito": [
+            "Verantwortlich für den Wiederaufbau der Kapelle"
+        ]
+    },
+    "years": {
+        "1711": [
+            "Gründungsjahr der Kapelle in der Gemeinde Santa Luzia"
+        ],
+        "1672": [
+            "Gründungsjahr der Kapelle in Campanário"
+        ],
+        "1762": [
+            "Jahr des Wiederaufbaus der Kapelle in Campanário"
+        ],
+        "1921": [
+            "Jahr, in dem die Kapelle Feliciano de Brito Correia gehörte"
+        ]
+    }
+}

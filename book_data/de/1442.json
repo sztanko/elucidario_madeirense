@@ -1,0 +1,35 @@
+{
+    "id": 1442,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fort Santo António da Alfândega",
+    "fl": "F",
+    "original_title": "Forte de Santo António da Alfândega",
+    "body": "Der Befehl, eine Bastion in die Umfassungsmauer des Zollhofes und in den Hof selbst zu bauen, erfolgte 1644. Ziel war es, den Strand unter Kreuzfeuer zu nehmen. Das Zollhofstor wurde für einen bequemeren \"Ein- und Ausgang der Waren\" geöffnet.\n\nDiese Festung hatte 11 Kanonenscharten. Der Ort wurde später in Lagerhäuser umgewandelt. Folgende Inschrift ist erhalten: \"Manuel de Sousa Mascarenhas, Gouverneur und Generalkapitän dieser Insel Madeira, ließ diese Redoute und ihre Tore im Auftrag Seiner Majestät im Jahr 1645 bauen. Zolldirektor war Manuel Vieira Cardoso.\"",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Alfândega Grande": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Manuel de Sousa Mascarenhas": [
+            "Gouverneur und Generalkapitän der Insel Madeira"
+        ],
+        "Manuel Vieira Cardoso": [
+            "Zolldirektor"
+        ]
+    },
+    "years": {
+        "1644": [
+            "Befehl zum Bau einer Bastion"
+        ],
+        "1645": [
+            "Bau der Redoute und Tore"
+        ]
+    }
+}

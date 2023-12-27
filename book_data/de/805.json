@@ -1,0 +1,57 @@
+{
+    "id": 805,
+    "lang": "de",
+    "is_original": false,
+    "title": "Schutzhütten",
+    "fl": "S",
+    "original_title": "Casas de Abrigo",
+    "body": "Die Berge Madeiras sind aufgrund ihrer großen Höhe und der Entfernung zu den bewohnten Zentren immer eine ernste Gefahr für Wanderer, die sie bei aufziehenden Stürmen, insbesondere bei starken Regenfällen mit heftigen Windböen und Hagelschauern, überqueren müssen. Selten vergeht ein Winter ohne Todesfälle mehrerer Personen, die dem Unwetter zum Opfer fallen. Um diesen manchmal unvorsichtigen Wanderern, die die Gefahr nicht kennen, der sie sich leicht aussetzen, zu helfen, wurden an den am meisten exposed Stellen unserer Berge einige kleine Hütten gebaut, von denen einige ziemlich alt sind. Sie haben hervorragende Dienste geleistet und viele Menschen vor dem sicheren Tod gerettet, auch wenn sie ohne grundlegende Annehmlichkeiten und Komfort für diejenigen sind, die dort vor Stürmen Schutz suchen. Wir geben einen Überblick über die bestehenden Schutzhütten in unseren Bergen, von denen einige auch für die Instandhaltung der Bewässerungskanäle und die Forstinspektion genutzt werden. Es ist sehr bedauerlich, dass nicht alle über die unerlässliche Ausrüstung und Personal verfügen, um ihrem Zweck wirksam gerecht zu werden, und dass ihr Erhaltungszustand so viel zu wünschen übrig lässt. Sie sind: Casa do Caramujo (siehe Stichwort) in den Bergen von São Vicente; Casa do Lombo do Mouro (siehe Stichwort) in den Bergen der Gemeinde Ribeira Brava; Casa do Monte Medonho (siehe Stichwort) in den Bergen der Gemeinde São Vicente; Casas do Rabaçal an der gleichnamigen Stelle; Casa da Bica da Cana auf dem Hochplateau Paul da Serra; Casa da Fajã das Nogueiras (siehe Stichwort) in den Bergen von Faial, Casa das Queimadas (siehe Stichwort) in den Bergen der Gemeinde Santana, Casa do Ribeiro Frio (siehe Stichwort) in der Gemeinde São Roque do Faial; Casa dos Alpires (siehe Stichwort) nicht weit vom Ort Choupana in Funchal und die in Poiso, an der gleichnamigen Stelle in den Bergen der Gemeinde Camacha. Dies ist vielleicht die einzige, die den Namen Schutzhütte wirklich verdient, aufgrund ihrer Kapazität, ihres guten Erhaltungszustands und der relativen Annehmlichkeiten, die sie denjenigen bietet, die sie aufsuchen. An anderen Bergstellen gab es einige kleine Schutzhütten, die seit langem durch die Zeit und die Nachlässigkeit des Menschen zerstört wurden. Der englische Untertan Robert Page ließ Anfang des 19. Jahrhunderts zwei Schutzhütten in den Bergen bauen, eine auf dem Paul da Serra und die andere in Ribeira das Cales, aber die erste dieser Hütten existiert schon lange nicht mehr, und die zweite dient, nach entsprechender Instandsetzung, als Unterschlupf für Förster.\n\nIn Lombo da Raiz und Lamaceiros gibt es kleine Unterstände, die vom Straßenbauamt Funchal errichtet wurden.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ribeira Brava",
+        "São Vicente",
+        "Faial",
+        "Santana",
+        "São Roque do Faial",
+        "Camacha"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Berge"
+        ],
+        "Ribeira Brava": [
+            "Berge"
+        ],
+        "Rabaçal": [
+            "Berge"
+        ],
+        "Faial": [
+            "Berge"
+        ],
+        "Santana": [
+            "Berge"
+        ],
+        "São Roque do Faial": [
+            "Berge"
+        ],
+        "Choupana": [
+            "Berge"
+        ],
+        "Camacha": [
+            "Berge"
+        ]
+    },
+    "people": {
+        "Roberto Page": [
+            "Englischer Untertan"
+        ]
+    },
+    "years": {
+        "19. Jahrhundert": [
+            "Robert Page ließ zwei Schutzhütten in den Bergen bauen"
+        ]
+    }
+}

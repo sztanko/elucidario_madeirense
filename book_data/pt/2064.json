@@ -1,0 +1,32 @@
+{
+    "id": 2064,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lugar de Baixo (Enseada e Porto do)",
+    "fl": "L",
+    "original_title": "Lugar de Baixo (Enseada e Porto do)",
+    "body": "No sítio deste nome, há uma pequena enseada entestando com uma praia, que lhe serve de porto, sendo algumas vezes preferível, ali o desembarque do que no cais da Ponta do Sol e da Ribeira Brava. Neste porto desembarcou, no dia 25 de Outubro de 1858, o infante D. Luis, depois rei de Portugal, por o estado do mar não permitir fazê-lo no cais da vila da Ponta do Sol.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Sol": [
+            "Vila onde está localizado o cais"
+        ],
+        "Ribeira Brava": [
+            "Vila onde está localizado o cais"
+        ]
+    },
+    "people": {
+        "Infante D. Luis": [
+            "Desembarcou no porto em 25 de Outubro de 1858"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Desembarque do infante D. Luis no porto"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 1431,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forel (Dr.)",
+    "fl": "F",
+    "original_title": "Forel (Dr.)",
+    "body": "Ocupou-se das formigas do arquipelago da Madeira nos Mittheilungen der Schweiz Entom Gesellschaft. As espécies estudadas pelo Dr. Forel foram colhidas pelo Revº Padre E. Schmitz.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Arquipélago"
+        ]
+    },
+    "people": {
+        "Dr. Forel": [
+            "Cientista"
+        ],
+        "Revº Padre E. Schmitz": [
+            "Responsável pela colheita das espécies"
+        ]
+    },
+    "years": {}
+}

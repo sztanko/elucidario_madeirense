@@ -1,0 +1,41 @@
+{
+    "id": 1821,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jardim (Dr. Alberto Figueira)",
+    "fl": "J",
+    "original_title": "Jardim (Dr. Alberto Figueira)",
+    "body": "Nasceu nesta cidade a 10 de Abril de 1882, sendo filho do advogado Dr. Nuno Ferreira Jardim e de D. Isabel Figueira Jardim. É bacharel formado em direito pela Universidade de Coimbra e professor efectivo do Liceu do Funchal. Entre as comissões de serviço publico que tem desempenhado, contam-se as de vogal da Junta Geral do Distrito, de presidente da Comissão Executiva da mesma Junta, de membro da Câmara Municipal e de Juiz substituto desta comarca. Além de varia colaboração em alguns jornais, escreveu na língua inglesa o opúsculo *Madeira, the Pearl of the Atlantic*, Lisboa, 1914, e em português o livro de poesias *Amostras*, Funchal, 1915 e a tragédia em verso *Galateia*, Funchal, 1920.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Dr. Nuno Ferreira Jardim": [
+            "Advogado"
+        ],
+        "D. Isabel Figueira Jardim": [
+            "Mãe de Alberto Figueira Jardim"
+        ]
+    },
+    "years": {
+        "1882": [
+            "Nascimento de Alberto Figueira Jardim"
+        ],
+        "1914": [
+            "Publicação de *Madeira, the Pearl of the Atlantic*"
+        ],
+        "1915": [
+            "Publicação de *Amostras*"
+        ],
+        "1920": [
+            "Publicação de *Galateia*"
+        ]
+    }
+}

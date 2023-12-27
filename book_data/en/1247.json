@@ -1,0 +1,42 @@
+{
+    "id": 1247,
+    "lang": "en",
+    "is_original": false,
+    "title": "Escola Normal",
+    "fl": "E",
+    "original_title": "Escola Normal",
+    "body": "The district school for primary teaching qualification was established by the decree of May 10, 1900, after the need for creating an educational institution of this nature in an island district like ours was recognized, at a time when the lack of sufficiently qualified teachers for the vacant schools and those that might become vacant was already being felt. In October 1900, 37 students enrolled, and the School began operating on the 10th of that month and year. In July of the following year, the exams for the 1st year of the course were held, with 26 students passing. Dr. Pedro José Lomelino was the first and only director of this institution, and its first teachers were Constantino Silvano Pereira, Francisco Augusto da Silva, Manuel José Varela, D. Maria da Piedade Oliveira, and the aforementioned director. The School was located in a building on Rua dos Aranhas and always operated there. It is in this same building that the School of Higher Primary Education also operates now (1922). By decree of December 24, 1901, the district schools for primary teaching qualification were abolished and converted into normal schools, with the course, which was two years long, extended to three years. The Funchal School retained the same teaching staff and the same number of subjects it had before. The decree of May 10, 1919 abolished all normal schools in the country, except those in Lisbon, Porto, and Coimbra, and transformed them into Higher Primary Schools, with one of them having its headquarters in Funchal. In its nineteen years of existence, the Normal School of this city qualified 172 primary education teachers of both sexes.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pedro José Lomelino": [
+            "Director of the Normal School"
+        ],
+        "Constantino Silvano Pereira": [
+            "Teacher at the Normal School"
+        ],
+        "Francisco Augusto da Silva": [
+            "Teacher at the Normal School"
+        ],
+        "Manuel José Varela": [
+            "Teacher at the Normal School"
+        ],
+        "D. Maria da Piedade Oliveira": [
+            "Teacher at the Normal School"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Opening of the Normal School"
+        ],
+        "1901": [
+            "Abolition of the district schools for primary teaching qualification and conversion into normal schools"
+        ],
+        "1919": [
+            "Abolition of normal schools in the country, except those in Lisbon, Porto, and Coimbra, and transformation into Higher Primary Schools"
+        ]
+    }
+}

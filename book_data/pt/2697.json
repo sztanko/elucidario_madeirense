@@ -1,0 +1,44 @@
+{
+    "id": 2697,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pedroso (João António)",
+    "fl": "P",
+    "original_title": "Pedroso (João António)",
+    "body": "Era natural da freguesia do Santissimo nome de Jesus, de Odivelas, e filho de Francisco Antonio Pedroso e de Inacia Joaquina. Achando-se na Madeira em 1823, foi por motivos politicos deportado para o Porto Santo, onde conseguiu ser nomeado mais tarde escrivão da Camara Municipal. Introduziu naquela ilha a tamargueira, essencia que se propagou ali com facilidade e presta aos habitantes grandes serviços, e foi um grande amigo do botanico inglês Lowe, que lhe dedicou o seu genero Pedrosia, que os botanicos modernos incluem no antigo genero Lotus. Colaborou nalguns jornais madeirenses e faleceu no Porto Santo, com 68 anos, a 29 de Março de 1869.",
+    "categories": [
+        "history",
+        "biology",
+        "politics"
+    ],
+    "freguesias": [
+        "Odivelas"
+    ],
+    "locations": {
+        "Santissimo nome de Jesus": [
+            "Freguesia de Odivelas"
+        ],
+        "Porto Santo": [
+            "Local de deportação e falecimento"
+        ]
+    },
+    "people": {
+        "Francisco Antonio Pedroso": [
+            "Pai de João António Pedroso"
+        ],
+        "Inacia Joaquina": [
+            "Mãe de João António Pedroso"
+        ],
+        "Lowe": [
+            "Botânico inglês"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Ano em que foi deportado para o Porto Santo"
+        ],
+        "1869": [
+            "Falecimento de João António Pedroso"
+        ]
+    }
+}

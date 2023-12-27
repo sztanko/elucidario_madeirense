@@ -1,0 +1,36 @@
+{
+    "id": 3251,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Pedro (Lombada, Ribeira e Capela de)",
+    "fl": "S",
+    "original_title": "São Pedro (Lombada, Ribeira e Capela de)",
+    "body": "In der Gemeinde Santa Cruz und nicht weit entfernt von der jeweiligen Stadt liegt die Lombada de São Pedro oder de Santa Cruz, durch die auch der Ribeira de São Pedro fließt, der gemeinhin unter dem Namen Ribeira da Boaventura bekannt ist.\nAnfang des 16. Jahrhunderts ließ João Escorcio Drumond dort eine Kapelle errichten, die dem Apostel Petrus geweiht war, die aber die große Flut vom 9. Oktober 1803 völlig zerstörte. Kurz darauf wurde sie an einem weniger exponierten Ort gegen die Gewalt des Stroms wiederaufgebaut.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Gemeinde Santa Cruz"
+        ],
+        "Lombada de São Pedro": [
+            "Lombada de São Pedro oder de Santa Cruz"
+        ],
+        "Ribeira da Boaventura": [
+            "Auch Ribeira de São Pedro genannter Fluss"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Erbauer der dem Heiligen Petrus geweihten Kapelle auf der Lombada de São Pedro"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Flut, die die dem Heiligen Petrus geweihte Kapelle auf der Lombada de São Pedro zerstörte"
+        ]
+    }
+}

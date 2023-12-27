@@ -1,0 +1,33 @@
+{
+    "id": 2386,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mota Freitas (Carlos Elói)",
+    "fl": "M",
+    "original_title": "Mota Freitas (Carlos Elói)",
+    "body": "Nasceu nesta cidade a 1 de Dezembro de 1894, tendo concluído o curso da Escola Naval no ano de 1917. Fazia parte, como aspirante de marinha, da guarnição do caça-minas Augusto Castilho, que comboiava o vapor São Miguel, em viagem da Madeira para os Açores, quando o caça-minas foi traiçoeiramente atacado e metido a pique por um submarino alemão, no dia 14 de Outubro de 1918, morrendo, entre outros, o seu bravo comandante e o nosso patrício Mota Freitas. A heróica resistência do Augusto de Castilho pôs o vapor São Miguel ao abrigo da investida do submarino alemão, salvando-se o vapor português e todos os seus tripulantes e passageiros. Quem quiser ter um mais largo conhecimento dessa horrível tragédia, leia o interessante opúsculo 200 milhas a remos, escrito pelo tenente Luís José Simões, testemunha presencial de todos aqueles acontecimentos. Foi vitima sobrevivente do ataque do submarino alemão, o nosso patrício Samuel da Conceição Vieira, então aspirante de marinha. O governo concedeu ao aspirante Mota e Freitas a Cruz de Guerra de 1ª. classe, e a Câmara Municipal do Funchal, em sessão de 8 de Maio de 1919, resolveu dar o nome do mesmo aspirante à antiga travessa da Sacristia em Santa Maria Maior. Em Outubro de 1921, constituiu-se uma comissão que pretende levantar um modesto monumento ao aspirante Mota e Freitas, tendo sido expostas pela mesma ocasião na Santa Casa da Misericórdia, as insígnias da Cruz de Guerra, concedidas ao mesmo aspirante após a sua morte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Augusto Castilho": [
+            "Comandante do caça-minas"
+        ],
+        "Luís José Simões": [
+            "Tenente, testemunha presencial dos acontecimentos"
+        ],
+        "Samuel da Conceição Vieira": [
+            "Vitima sobrevivente do ataque do submarino alemão"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Conclusão do curso da Escola Naval"
+        ],
+        "1918": [
+            "Ataque do submarino alemão"
+        ]
+    }
+}

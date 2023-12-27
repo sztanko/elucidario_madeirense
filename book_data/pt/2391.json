@@ -1,0 +1,34 @@
+{
+    "id": 2391,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mouraria (Rua da)",
+    "fl": "M",
+    "original_title": "Mouraria (Rua da)",
+    "body": "Chama-se (1921) desde 8 de Março de 1917 rua do Dr. Sequeira, e comunica a rua da Carreira, ou do Dr. Vieira, com o largo de S. Pedro. Fica nesta rua o palácio que pertenceu aos condes do Carvalhal e onde se encontram instalados o Museu Municipal, o Arquivo Distrital da Madeira e a Biblioteca Municipal do Funchal. No nosso entender, o primitivo nome da rua não devia ser alterado, visto relembrar o ter havido no local um bairro de mouros. Há poucos anos, voltou a ter o primitivo nome.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Museu Municipal": [
+            "Instalado no palácio que pertenceu aos condes do Carvalhal"
+        ],
+        "Arquivo Distrital da Madeira": [
+            "Instalado no palácio que pertenceu aos condes do Carvalhal"
+        ],
+        "Biblioteca Municipal do Funchal": [
+            "Instalada no palácio que pertenceu aos condes do Carvalhal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1917": [
+            "Mudança de nome para rua do Dr. Sequeira"
+        ],
+        "1921": [
+            "Mudança de nome para rua da Mouraria"
+        ]
+    }
+}

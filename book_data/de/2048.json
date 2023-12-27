@@ -1,0 +1,38 @@
+{
+    "id": 2048,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lopes Rocha (Dr. Vitúrio)",
+    "fl": "L",
+    "original_title": "Lopes Rocha (Dr. Vitúrio)",
+    "body": "Er wurde in dieser Stadt am 5. September 1752 geboren und war der Sohn von Antonio Lopes Rocha und Bruder von Dekan Dr. João Francisco Lopes Rocha. Er studierte Mathematik an der Universität Coimbra und promovierte dort, wobei er am 24. Dezember 1777 seine Kappe erhielt. Er bewarb sich um eine Dozentenstelle und unterrichtete dort viele Jahre. Als er bereits im Ruhestand und Mitglied der Königlichen Akademie der Wissenschaften war, bewarb er sich um den Posten des Leiters der Öffentlichen Schulen Madeiras, von dem wir nicht wissen, ob er ihn jemals innehatte. Wir konnten keine weiteren Informationen über diesen Madeirer finden.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Ort, an dem er an der Universität studierte"
+        ]
+    },
+    "people": {
+        "Dr. Vitúrio Lopes Rocha": [
+            "Wurde in dieser Stadt am 5. September 1752 geboren"
+        ],
+        "Antonio Lopes Rocha": [
+            "Vater von Dr. Vitúrio Lopes Rocha"
+        ],
+        "Dr. João Francisco Lopes Rocha": [
+            "Bruder von Dr. Vitúrio Lopes Rocha"
+        ]
+    },
+    "years": {
+        "1752": [
+            "Geburt von Dr. Vitúrio Lopes Rocha"
+        ],
+        "1777": [
+            "Erhalt der Kappe"
+        ]
+    }
+}

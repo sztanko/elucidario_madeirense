@@ -1,0 +1,23 @@
+{
+    "id": 39,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Achada de Gaula",
+    "fl": "A",
+    "original_title": "Achada de Gaula",
+    "body": "Sítio povoado e bastante pitoresco da freguesia de Gaula, e que compreende os lugares da Achada de Cima e da Achada de Baixo, que merecem ser visitados, encontrando se ali uma escola oficial de instrução primária.",
+    "categories": [
+        "geography",
+        "education"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Gaula": [
+            "Freguesia onde se localiza o sítio povoado da Achada de Gaula."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

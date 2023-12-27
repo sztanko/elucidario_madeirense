@@ -1,0 +1,30 @@
+{
+    "id": 305,
+    "lang": "de",
+    "is_original": false,
+    "title": "Assomadouro",
+    "fl": "A",
+    "original_title": "Assomadouro",
+    "body": "Ort in der Gemeinde Prazeres, von dem aus man eine schöne Aussicht auf die Küste mit dem Jardim do Mar bis zur Gemeinde Fajã da Ovelha hat.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Prazeres",
+        "Jardim do Mar",
+        "Fajã da Ovelha"
+    ],
+    "locations": {
+        "Prazeres": [
+            "Schöne Aussicht auf die Küste"
+        ],
+        "Jardim do Mar": [
+            "Schöne Aussicht auf die Küste"
+        ],
+        "Fajã da Ovelha": [
+            "Schöne Aussicht auf die Küste"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,33 @@
+{
+    "id": 802,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Casa dos Pobres Desamparados",
+    "fl": "C",
+    "original_title": "Casa dos Pobres Desamparados",
+    "body": "Era um asilo com caracter particular, administrado pelo seu fundador José Fernandes Velosa. Destinava-se a recolher e sustentar um certo numero de pobres de ambos os sexos, e existiu desde 1897, sendo as esmolas, os legados e o produto de algumas festas, as suas principais fontes de receita.\n\nO estabelecimento, que a principio só recebia homens, começou em 1895 sob a designação de “Albergue Nocturno“, tendo o primeiro pobre a quem o sr. Velosa concedeu proteccão, sido recolhido por ele em sua casa numa noite do mês de Dezembro de 1894. O seu fundador faleceu a 30 de Janeiro de 1934.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Fernandes Velosa": [
+            "Fundador e administrador do asilo"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Ano de início do asilo"
+        ],
+        "1895": [
+            "Início do asilo sob a designação de 'Albergue Nocturno'"
+        ],
+        "1894": [
+            "Primeiro pobre recolhido pelo sr. Velosa"
+        ],
+        "1934": [
+            "Falecimento do fundador"
+        ]
+    }
+}

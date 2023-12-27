@@ -1,0 +1,62 @@
+{
+    "id": 3248,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Pedro (Chapel of)",
+    "fl": "S",
+    "original_title": "São Pedro (Capela de)",
+    "body": "At the western end of the south coast of Porto Santo Island, there is a small chapel dedicated to São Pedro, which had an attached small pilgrim's house. The annual feast of the patron saint is celebrated there with a large attendance of the inhabitants of that island.\n\nIn the parish of Santa Cruz, to the west of the town and by the roadside, stands the chapel of São Pedro, established by João Escorcio Drumond. Destroyed by the flood of 1803, it was rebuilt by the people a few years later.\n\nIn the vicinity of the parish church of São Jorge, there is a chapel dedicated to São Pedro. In ruins, it was restored by the prelate D. Manuel Agostinho Barreto in 1901, being blessed and restored to worship by him on August 7 of the same year.\n\nIn the parish of Porto Moniz, in the place called Terra de São Pedro, there was a small hermitage with the invocation of São Pedro, of which no traces remain.\n\nIn the place of Lamaceiros in the same parish, there is a chapel consecrated to São Pedro, to which the image of the Saint from the other chapel of the same invocation was transported. It is not of recent construction, as it was already in an advanced state of ruin in 1726. It was conveniently repaired a few years later by the efforts of Manuel Rodrigues Amarelo. The earthquake of 1748 caused several damages, which were promptly repaired. Important works were carried out in it just a few years ago. In this chapel, there is an image of Nossa Senhora do Monte, which is highly venerated.\n\nThe Blessed Sacrament is always kept in this chapel, and the doors of the small temple are open daily and throughout the day for those who wish to visit (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "São Jorge",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Porto Santo Island"
+        ],
+        "Santa Cruz": [
+            "Santa Cruz parish"
+        ],
+        "Vila": [
+            "Town"
+        ],
+        "São Jorge": [
+            "São Jorge parish"
+        ],
+        "Porto Moniz": [
+            "Porto Moniz parish"
+        ],
+        "Lamaceiros": [
+            "Lamaceiros site"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Founder of the chapel of São Pedro in the parish of Santa Cruz"
+        ],
+        "D. Manuel Agostinho Barreto": [
+            "Prelate responsible for the restoration of the chapel of São Pedro in the parish of São Jorge"
+        ],
+        "Manuel Rodrigues Amarelo": [
+            "Responsible for the repair of the chapel of São Pedro in Lamaceiros"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Flood that destroyed the chapel of São Pedro in the parish of Santa Cruz"
+        ],
+        "1901": [
+            "Year of the restoration of the chapel of São Pedro in the parish of São Jorge"
+        ],
+        "1726": [
+            "Year in which the chapel of São Pedro in Lamaceiros was in an advanced state of ruin"
+        ],
+        "1748": [
+            "Year of the earthquake that caused damages to the chapel of São Pedro in Lamaceiros"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2026,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo do Doutor",
+    "fl": "L",
+    "original_title": "Lombo do Doutor",
+    "body": "Sítio povoado da freguesia da Calheta. Deu-lhe o nome o doutor Pedro Berenguer de Lemilhana, que ali instituiu um morgadio. Era natural de Espanha e moço fidalgo da casa real. Existiu neste sítio a capela de Jesus-Maria-José, fundada em 1708, por João de Andrade Berenguer Neto, descendente do doutor Pedro Berenguer. Também houve neste sítio a capela de Santa Catarina, construída por Rodrigo Enes no ano de 1505. Fica neste sítio o conhecido lugar do Vale da Bica.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Freguesia da Calheta"
+        ]
+    },
+    "people": {
+        "Pedro Berenguer de Lemilhana": [
+            "Doutor que deu nome ao sítio"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Fundação da capela de Jesus-Maria-José"
+        ],
+        "1505": [
+            "Construção da capela de Santa Catarina"
+        ]
+    }
+}

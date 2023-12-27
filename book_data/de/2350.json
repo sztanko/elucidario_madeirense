@@ -1,0 +1,31 @@
+{
+    "id": 2350,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sparkasse",
+    "fl": "S",
+    "original_title": "Montepio",
+    "body": "So wurde eine Einrichtung genannt, die 1825 oder 1826 von João de Carvalhal zur Aufnahme armer und respektabler Witwen gegründet wurde. Die Gebäude der Sparkasse befanden sich im östlichen Teil der Netos-Straße.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Standort der Gebäude der Sparkasse"
+        ]
+    },
+    "people": {
+        "João de Carvalhal": [
+            "Gründer der Sparkasse"
+        ]
+    },
+    "years": {
+        "1825": [
+            "Gründung der Sparkasse"
+        ],
+        "1826": [
+            "Gründung der Sparkasse"
+        ]
+    }
+}

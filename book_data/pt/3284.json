@@ -1,0 +1,32 @@
+{
+    "id": 3284,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sarsfield (Eduardo da Rocha)",
+    "fl": "S",
+    "original_title": "Sarsfield (Eduardo da Rocha)",
+    "body": "(Eduardo da Rocha) É natural do Porto e filho do madeirense coronel Alexandre José Sarsfield. Foi nomeado Governador Civil do distrito do Funchal por decreto de 18 de Maio de 1922, tomando posse do lugar no dia 28 do mesmo mês e ano.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto": [
+            "Local de nascimento de Eduardo da Rocha Sarsfield"
+        ],
+        "Funchal": [
+            "Distrito onde Eduardo da Rocha Sarsfield foi nomeado Governador Civil"
+        ]
+    },
+    "people": {
+        "Alexandre José Sarsfield": [
+            "Pai de Eduardo da Rocha Sarsfield"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Eduardo da Rocha Sarsfield foi nomeado Governador Civil do distrito do Funchal"
+        ]
+    }
+}

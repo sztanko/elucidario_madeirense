@@ -1,0 +1,53 @@
+{
+    "id": 3419,
+    "lang": "en",
+    "is_original": false,
+    "title": "Surface",
+    "fl": "S",
+    "original_title": "Superfície",
+    "body": "The calculations made about the surface area of the entire archipelago and especially of each of its islands are quite divergent. Dr. Alvaro Rodrigues de Azevedo, who discussed this subject at some length in the remarkable article of the Illustrated Portuguese Universal Dictionary, says that some authors estimate the total area of the archipelago at over a thousand square kilometers, and it was later admitted that this surface area was around 800 square kilometers, and he concludes by affirming that the most recent calculations, which he considers to be closer to the truth, give the entire archipelago a surface area of 560 square kilometers, with 500 kilometers for the island of Madeira, 50 for Porto Santo, and 10 for the small group of the Desertas.\n\nIn various official documents and even recently in the 'Population Census', published in the current year of 1934, it is stated that the surface area of the island of Madeira is 740.62 square kilometers and that of Porto Santo is 42.17.\n\nThe population, according to the 'Census' mentioned, gives the number of 270 inhabitants per square kilometer for the current period.\n\n| Year | Inhabitants per square kilometer |\n|------|---------------------------------|\n| 1864 | 135.9                           |\n| 1878 | 160.2                           |\n| 1890 | 164.5                           |\n| 1900 | 184.8                           |\n| 1911 | 208.8                           |\n| 1920 | 219.6                           |\n| 1930 | 270.3                           |",
+    "categories": [
+        "geography",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island with a surface area of 740.62 square kilometers according to the Population Census of 1934."
+        ],
+        "Porto Santo": [
+            "Island with a surface area of 42.17 square kilometers."
+        ],
+        "Desertas": [
+            "Small group of islands with a surface area of 10 square kilometers."
+        ]
+    },
+    "people": {
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Author who discussed the surface area of the Madeira archipelago"
+        ]
+    },
+    "years": {
+        "1864": [
+            "135.9 inhabitants per square kilometer"
+        ],
+        "1878": [
+            "160.2 inhabitants per square kilometer"
+        ],
+        "1890": [
+            "164.5 inhabitants per square kilometer"
+        ],
+        "1900": [
+            "184.8 inhabitants per square kilometer"
+        ],
+        "1911": [
+            "208.8 inhabitants per square kilometer"
+        ],
+        "1920": [
+            "219.6 inhabitants per square kilometer"
+        ],
+        "1930": [
+            "270.3 inhabitants per square kilometer"
+        ]
+    }
+}

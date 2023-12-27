@@ -1,0 +1,39 @@
+{
+    "id": 678,
+    "lang": "en",
+    "is_original": false,
+    "title": "Câmara (D. José Manuel da)",
+    "fl": "C",
+    "original_title": "Câmara (D. José Manuel da)",
+    "body": "On May 8, 1800, he was appointed governor and captain general of this archipelago, taking office on December 4 of the same year. Two important events occurred during his government: the occupation of this island by British troops (see Occupation of Madeira by British troops) and the terrible flood of October 9, 1803 (see Avalanches). He had conflicts with the prelate D. Luiz Rodrigues de Vilares, banishing him to the parish of Santo da Serra (see the article referring to this prelate). Among the accusations made against the bishop, it is highlighted that he was a freemason and had frequent meetings with various members of secret societies. The prelate and the governor were summoned to Lisbon, D. José Manuel da Câmara was dismissed, and D. Luiz Rodrigues de Vilares continued in the exercise of his ministry. The judge Dr. Joaquim Antonio de Araujo came to Madeira to investigate the governor's actions. He left Madeira on December 10, 1803, and his successor Ascenso de Sequeira Freire had already arrived on the island.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Banishing him to the parish of"
+        ]
+    },
+    "people": {
+        "D. Luiz Rodrigues de Vilares": [
+            "Prelate"
+        ],
+        "D. José Manuel da Câmara": [
+            "Governor"
+        ],
+        "Joaquim Antonio de Araujo": [
+            "Judge"
+        ]
+    },
+    "years": {
+        "1800": [
+            "Appointed governor and captain general"
+        ],
+        "1803": [
+            "Terrible flood"
+        ]
+    }
+}

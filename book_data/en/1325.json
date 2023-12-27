@@ -1,0 +1,38 @@
+{
+    "id": 1325,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fajãs",
+    "fl": "F",
+    "original_title": "Fajãs",
+    "body": "There is a parish known by the name of Fajã da Ovelha, and in the parishes of S. Gonçalo, Faial, S. Jorge, S. Vicente, Porto do Moniz, Ponta do Pargo, Arco da Calheta, Estreito da Calheta, Canhas, Ribeira Brava, Campanário, Curral, etc., there are more or less extensive and more or less ancient fajãs. Fajã da Ovelha, in the parish of the same name, Fajã dos Padres (Campanário), Fajã dos Asnos or do Gregorio (Câmara de Lobos), and Fajã da Areia (S. Vicente) are the most well-known on the island. Regarding the collapse of the land, it is worth mentioning that Lugar de Baixo has been much larger since 1804, as in that year, a large part of the lands of Lombada fell towards the sea, forming an extensive and productive plain. The impact of the fall, according to Dr. Azevedo, was such that the sea rose from its level along the entire adjacent coast, and the shock of the fall was felt both on land and at sea, more than 10 kilometers away. The sea entered far into the village of Ponta do Sol. The late Antonio Pedro de Azevedo found a letter written in 1689 that mentioned the displacement of land. In April 1856, a considerable expanse of land shifted in Machico, causing all the huts built on it to collapse, and in 1894, a large crack occurred in Deserta Grande, causing the sea to advance and retreat significantly in some points of the southern coast of Madeira, similar to what had happened during the earthquake of 1755. Fajãs are frequent in certain ravines in the interior, having caused some of them to deviate more or less considerably from the original direction of the waters. When these fajãs are near settlements, they are usually taken advantage of because they are generally very productive, but the torrents sometimes devastate and erode them during the winter season, and can even destroy them if they are very low or imperfectly consolidated. Fajãzinha de Bento. A place in the parish of Serra d'Agua, where the Municipal Council of Funchal owned a small property, which was sold with the government's authorization on April 25, 1918.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Campanário",
+        "Câmara de Lobos",
+        "S. Vicente",
+        "Serra d'Agua"
+    ],
+    "locations": {
+        "Madeira": [
+            "Island located in the Atlantic Ocean, of volcanic origin and part of Portugal."
+        ],
+        "Ponta do Sol": [
+            "Village located on the island of Madeira."
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Deceased who found a letter written in 1689 mentioning the displacement of land."
+        ]
+    },
+    "years": {
+        "1804": [
+            "Year in which a large part of the lands of Lombada fell towards the sea, forming an extensive and productive plain."
+        ]
+    }
+}

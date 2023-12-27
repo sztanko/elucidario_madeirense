@@ -1,0 +1,31 @@
+{
+    "id": 1986,
+    "lang": "de",
+    "is_original": false,
+    "title": "Braunkohle",
+    "fl": "B",
+    "original_title": "Lignite",
+    "body": "Im Ribeiro do Meio, im Tal von S. Jorge, etwa 300 Meter über dem Meeresspiegel, sind seit vielen Jahren zwei Flöze oder Lagerstätten von unreiner Braunkohle bekannt. Diese Braunkohle ist mit verschiedenen Schichten von Tuff und Ton assoziiert, in einer der Schichten wurden in Hülle und Fülle fossile Blätter von Dikotyledonen und Farnen gefunden. Da die Lagerstätten von einer dicken Basaltschicht mit mehr als 300 Metern Höhe und Schlacken bedeckt sind, scheint es offensichtlich, dass es an diesem Ort früher eine reichhaltige Landvegetation gab, lange bevor die vulkanischen Formationen entstanden, die sie jetzt bedecken.\n\nDie Beschaffenheit der Tuffe, die die Braunkohle begleiten, und einige der nahegelegenen Agglomerate lassen laut Lyell vermuten, dass es in der Nähe der Lagerstätten einst eine Reihe von Ausbrüchen gab. Es ist also nicht unmöglich, dass sich die Braunkohle und die Blätter in einem Krater angesammelt haben und durch die Erosion des Tals später freigelegt wurden.\n\nEs wird gesagt, dass die Analyse der Braunkohle aus S. Jorge 60% Kohle und 30% Asche ergab.\n\nDiese Braunkohle, die über lange Jahre aufgrund von Erdrutschen in den oberen Schichten begraben war, wurde 1917 erneut freigelegt.\nSiehe auch: Lagerstätten von Blättern und Gefäßpflanzen.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [
+        "S. Jorge"
+    ],
+    "locations": {
+        "Ribeiro do Meio": [
+            "Gelegen im Tal von S. Jorge, etwa 300 Meter über dem Meeresspiegel"
+        ]
+    },
+    "people": {
+        "Lyell": [
+            "Autor"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Wiederentdeckung der Braunkohle"
+        ]
+    }
+}

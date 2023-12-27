@@ -1,0 +1,30 @@
+{
+    "id": 1309,
+    "lang": "de",
+    "is_original": false,
+    "title": "Faial",
+    "fl": "F",
+    "original_title": "Faial",
+    "body": "Ort in der Gemeinde Santa Maria Maior, wo sich die Kapelle Unserer Lieben Frau von der Geburt befindet, bekannt als Kapelle Faial, gegründet von Zenobio Acciaioli im Jahr 1582 und einst Sitz eines alten Majorats.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Faial": [
+            "Ort in der Gemeinde Santa Maria Maior"
+        ]
+    },
+    "people": {
+        "Zenobio Acciaioli": [
+            "Gründer der Kapelle Unserer Lieben Frau von der Geburt"
+        ]
+    },
+    "years": {
+        "1582": [
+            "Gründung der Kapelle Unserer Lieben Frau von der Geburt"
+        ]
+    }
+}

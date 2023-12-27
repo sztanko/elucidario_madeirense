@@ -1,0 +1,36 @@
+{
+    "id": 1980,
+    "lang": "en",
+    "is_original": false,
+    "title": "Léveillê (Hector)",
+    "fl": "L",
+    "original_title": "Léveillê (Hector)",
+    "body": "Distinguished French botanist born on March 13, 1863, and died in Le Mans on November 25, 1918. He wrote the following works on the Madeiran flora: Les Onotheracées de Madère (Le Monde des Plantes, October, 1896); A propos de deux plantes de Madere (Idem, October 1897); and Les Renonculacées, Geraniacées et Haloragées de Madere (Idem, February, 1898). He did not visit Madeira, and the necessary materials for the studies he conducted on the flora of this island were provided to him by one of the authors of this Elucidário.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Hector Léveillê": [
+            "Botanist"
+        ]
+    },
+    "years": {
+        "1863": [
+            "Birth"
+        ],
+        "1918": [
+            "Death"
+        ],
+        "1896": [
+            "Publication of Les Onotheracées de Madère"
+        ],
+        "1897": [
+            "Publication of A propos de deux plantes de Madere"
+        ],
+        "1898": [
+            "Publication of Les Renonculacées, Geraniacées et Haloragées de Madere"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": 3111,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rodrigues (Dr. António Feliciano)",
+    "fl": "R",
+    "original_title": "Rodrigues (Dr. António Feliciano)",
+    "body": "Os seus companheiros do liceu chamavam-no Castilho, talvez pela analogia do nome com o do grande Castilho e ainda por fazer versos, nome que tem perdurado e que o próprio Dr. Feliciano Rodrigues por vezes adopta, como pseudónimo, nos seus escritos. Nasceu nesta cidade a 9 de Junho de 1870. Concluída a sua formatura na Universidade de Coimbra, em 1897, abriu banca de advogado no Funchal, e nesta comarca tem exercido também o cargo de delegado interino», do procurador da republica. É secretario do liceu e oficial da secretaria da Junta Geral do distrito (1921).\n\nAlém de colaboração em diversos jornais, tanto em prosa como em verso, tem publicado os poemetos: *A Escola*, Coimbra, 1893; *A Consciência*, Funchal 1897; *Versos da Mocidade*, Funchal, 1903, de 127 páginas; *Versos para meus filhos*, Funchal, 1910, de 118 páginas; *C ollar de Vidrilhos*, Funchal, 1911, de 54 páginas; *Canção das lágrimas; e Sonetos*, Lisboa, 1916. Em prosa, publicou *O Cirurgião de Marinha e Martim de Freitas*, romances, tendo aparecido este ultimo no *Heraldo da Madeira*. Tem outros trabalhos prontos a dar á estampa(1921).\n\nFaleceu no Funchal a 5 de Fevereiro de 1925.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Nasceu no Funchal"
+        ],
+        "Coimbra": [
+            "Formatura na Universidade de Coimbra"
+        ],
+        "Lisboa": [
+            "Publicou *Canção das lágrimas; e Sonetos*, Lisboa, 1916"
+        ],
+        "Heraldo da Madeira": [
+            "Aparecido este ultimo no *Heraldo da Madeira*"
+        ]
+    },
+    "people": {
+        "Dr. António Feliciano Rodrigues": [
+            "Seus companheiros do liceu chamavam-no Castilho"
+        ],
+        "Grande Castilho": [
+            "Analogia do nome com o do grande Castilho"
+        ],
+        "Martim de Freitas": [
+            "Romances, tendo aparecido este ultimo no *Heraldo da Madeira*"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Nasceu"
+        ],
+        "1897": [
+            "Formatura na Universidade de Coimbra"
+        ],
+        "1921": [
+            "Oficial da secretaria da Junta Geral do distrito"
+        ],
+        "1925": [
+            "Faleceu"
+        ]
+    }
+}

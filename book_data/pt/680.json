@@ -1,0 +1,30 @@
+{
+    "id": 680,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Câmara (D. Mariana de Alencastre e)",
+    "fl": "C",
+    "original_title": "Câmara (D. Mariana de Alencastre e)",
+    "body": "Também se chamou D. Mariana de Vasconcelos e Camara Alencastre, e era filha de Simão Gonçalves da Camara, 3º. conde da Calheta e 7º. capitão-donatario do Funchal. Tendo seu irmão João Gonçalves da Câmara, 8º. donatario, falecido sem descendência, sucedeu D. Mariana de Alencastre na casa do condado da Calheta, sendo considerada 9º. donataria do Funchal. Foi camareira da rainha D. Maria Francisca de Sabóia, e diz um antigo manuscrito que era acérrima em defender e amparar os naturais da ilha, tratando a todos com especial amor. Faleceu a 15 de Abril de 1689.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Simão Gonçalves da Camara": [
+            "Pai"
+        ],
+        "João Gonçalves da Câmara": [
+            "Irmão"
+        ],
+        "D. Maria Francisca de Sabóia": [
+            "Rainha"
+        ]
+    },
+    "years": {
+        "1689": [
+            "Faleceu"
+        ]
+    }
+}

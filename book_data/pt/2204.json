@@ -1,0 +1,32 @@
+{
+    "id": 2204,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Marquês de Pombal",
+    "fl": "M",
+    "original_title": "Marquês de Pombal",
+    "body": "No dia 20 de Janeiro de 1776, celebraram-se com a maior pompa cerimonias religiosas na igreja do Colégio, em acção de graças por ter o marquês de Pombal escapado ao crime planeado pelo genovês João Baptista Pele, que foi justiçado em Lisboa. Pregou Frei Inácio José de Varona que, para agradar ao Marquês, representado na mesma cerimonia pelo seu parente o Governador Sá Pereira, deu a entender no seu discurso que os jesuítas não deviam ter sido estranhos ao referido crime. As despesas com as festas religiosas correram por conta da Real Junta da Fazenda da Ilha da Madeira.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde ocorreram as cerimônias religiosas."
+        ]
+    },
+    "people": {
+        "João Baptista Pele": [
+            "Genovês que planeou o crime contra o marquês de Pombal."
+        ],
+        "Frei Inácio José de Varona": [
+            "Responsável por pregar na cerimonia religiosa."
+        ]
+    },
+    "years": {
+        "1776": [
+            "Ano em que ocorreram as cerimônias religiosas em ação de graças."
+        ]
+    }
+}

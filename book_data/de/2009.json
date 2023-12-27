@@ -1,0 +1,31 @@
+{
+    "id": 2009,
+    "lang": "de",
+    "is_original": false,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "Besiedelte Stelle in der Gemeinde Caniço. Der Name stammt von einer Kapelle, die dort stand und Unserer Lieben Frau vom Loskauf geweiht war. Sie war das Zentrum einer viel besuchten Wallfahrt, die heute in die Pfarrkirche verlegt ist. Man schreibt die Gründung dieser Kapelle Sebastian de Oliveira um die Mitte des 17. Jahrhunderts zu, der dort Ländereien in Pacht hatte.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Gemeinde Caniço"
+        ]
+    },
+    "people": {
+        "Sebastião de Oliveira": [
+            "Wird die Gründung der Kapelle Unserer Lieben Frau vom Loskauf zugeschrieben"
+        ]
+    },
+    "years": {
+        "XVII": [
+            "Gründung der Kapelle Unserer Lieben Frau vom Loskauf"
+        ]
+    }
+}

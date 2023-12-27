@@ -1,0 +1,28 @@
+{
+    "id": 3687,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ziegler (J. M.)",
+    "fl": "Z",
+    "original_title": "Ziegler (J. M.)",
+    "body": "Publicou oPhysical Map of the Island of Madeira (1856) que é considerado como uma das melhores cartas da nossa ilha que têm aparecido até o presente.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilha da Madeira": [
+            "Local onde o mapa foi publicado"
+        ]
+    },
+    "people": {
+        "J. M. Ziegler": [
+            "Autor do mapa"
+        ]
+    },
+    "years": {
+        "1856": [
+            "Publicação do Physical Map of the Island of Madeira"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 2967,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Кеймада (мыс)",
+    "fl": "К",
+    "original_title": "Queimada (Ponta da)",
+    "body": "Этот мыс расположен на побережье между приходами Машику и Агуа-ди-Пена.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Machico",
+        "Água de Pena"
+    ],
+    "locations": {
+        "Машику": [
+            "Приход"
+        ],
+        "Агуа-ди-Пена": [
+            "Приход"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,43 @@
+{
+    "id": 3084,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ribeiro (Manuel)",
+    "fl": "R",
+    "original_title": "Ribeiro (Manuel)",
+    "body": "Nasceu em Lisboa a 31 de Agosto de 1861, mas reside desde criança no Funchal. Tem colaborado em diferentes jornais e é poeta de merecimento, sendo autor dos seguintes opúsculos: Flores Agrestes, Funchal, 1903, de 67 páginas; Pyrilampos, Funchal, 1905, de 56 páginas; Outomnaes, Funchal, 1910, de 55 páginas; e Poentes, Funchal, 1913, de 96 páginas. O verdadeiro nome deste poeta é Mardónio da Câmara; Manuel Ribeiro é apenas um pseudónimo, mas que ele adoptou para todas as suas produções literárias.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisboa": [
+            "Local de nascimento de Manuel Ribeiro"
+        ],
+        "Funchal": [
+            "Local de residência de Manuel Ribeiro"
+        ]
+    },
+    "people": {
+        "Manuel Ribeiro": [
+            "Poeta e colaborador em jornais"
+        ]
+    },
+    "years": {
+        "1861": [
+            "Nascimento de Manuel Ribeiro"
+        ],
+        "1903": [
+            "Publicação do opúsculo Flores Agrestes"
+        ],
+        "1905": [
+            "Publicação do opúsculo Pyrilampos"
+        ],
+        "1910": [
+            "Publicação do opúsculo Outomnaes"
+        ],
+        "1913": [
+            "Publicação do opúsculo Poentes"
+        ]
+    }
+}

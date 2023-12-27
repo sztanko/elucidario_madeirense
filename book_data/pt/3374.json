@@ -1,0 +1,46 @@
+{
+    "id": 3374,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sociedade Funchalense dos Amigos das Ciências e Artes",
+    "fl": "S",
+    "original_title": "Sociedade Funchalense dos Amigos das Ciências e Artes",
+    "body": "Foi fundada no Palácio do Governo e teve por primeiro presidente o Dr. João Pedro de Freitas Pereira Drumond e por primeiro secretario Francisco Ferreira de Abreu. Tinha 28 sócios efectivos e 24 honorários, números estes que simbolizavam o dia 24 de Agosto do 1820, em que a revolução rebentara no Porto, e o dia 28 de Janeiro de 1821, em que ela foi secundada na Madeira. Havia também sócios correspondentes, em número de 45. A primeira sessão pública da sociedade teve lugar em 23 de Agosto de 1822.\n\nA Sociedade Funchalense dos Amigos das Ciências e Artes, modelada pela Academia Real das Ciências de Lisboa, durou pouco tempo, tendo desaparecido em 1823, com a restauração do governo absoluto na ilha. Os seus estatutos e regulamentos foram impressos em 1822, na imprensa do Patriota.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ],
+        "Porto": [
+            "Cidade"
+        ],
+        "Lisboa": [
+            "Cidade"
+        ]
+    },
+    "people": {
+        "João Pedro de Freitas Pereira Drumond": [
+            "Primeiro presidente"
+        ],
+        "Francisco Ferreira de Abreu": [
+            "Primeiro secretario"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Dia da revolução no Porto"
+        ],
+        "1821": [
+            "Dia da revolução na Madeira"
+        ],
+        "1822": [
+            "Primeira sessão pública da sociedade"
+        ],
+        "1823": [
+            "Ano do desaparecimento da sociedade"
+        ]
+    }
+}

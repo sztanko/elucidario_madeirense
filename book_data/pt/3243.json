@@ -1,0 +1,43 @@
+{
+    "id": 3243,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Luís (Capelas de)",
+    "fl": "S",
+    "original_title": "São Luís (Capelas de)",
+    "body": "Com esta invocação, existiu uma capela no sítio da Diferença, da freguesia do Faial, que tinha sido fundada por Manuel de Carvalho Valdavesso, Juiz dos orfãos no Funchal, e sua mulher D. Luisa Maria de Vasconcelos França e Noronha, filha de Valentim de Ornelas e Vasconcelos, 7.° morgado da Penha de Águia. A escritura da dotação imposta numa propriedade da freguesia de São Martinho, é de 1 de Outubro de 1725, e, portanto a sua construção é aproximadamente desta época.\n\nJunto do antigo Paço Episcopal, construiu o bispo D. Luis Figueiredo de Lemos (volume II, pagina 30) a capela de São Luís e ali foi sepultado em 1608. Afirma-se que a sua sepultura foi violada. Quando por 1882 a capela se adaptou á instalação de uma escola, foram as cinzas deste prelado depositadas na capela interior do Paço e anos depois trasladadas para a Sé Catedral, sendo sôbre elas colocada a lápide que se encontrava no centro da capela onde primitivamente se haviam sepultado os restos mortais do mesmo prelado. A capela, que tem um belo pórtico artisticamente lavrado em cantaria rija, está há muitos anos profanada.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Faial",
+        "São Martinho"
+    ],
+    "locations": {
+        "Faial": [
+            "Freguesia do Faial"
+        ],
+        "Funchal": [
+            "Funchal"
+        ],
+        "São Martinho": [
+            "Freguesia de São Martinho"
+        ]
+    },
+    "people": {
+        "Manuel de Carvalho Valdavesso": [
+            "Juiz dos orfãos no Funchal"
+        ],
+        "D. Luisa Maria de Vasconcelos França e Noronha": [
+            "Mulher de Manuel de Carvalho Valdavesso"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Escritura da dotação imposta numa propriedade da freguesia de São Martinho"
+        ],
+        "1608": [
+            "Sepultura do bispo D. Luis Figueiredo de Lemos"
+        ]
+    }
+}

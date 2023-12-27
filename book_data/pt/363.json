@@ -1,0 +1,31 @@
+{
+    "id": 363,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Azevedo Lemos (José Antonio de)",
+    "fl": "A",
+    "original_title": "Azevedo Lemos (José Antonio de)",
+    "body": "Coronel-comandante da expedição militar que veio á Madeira em 1828. Teve serias desinteligências com o governador e capitão-general, o tristemente celebre José Maria Monteiro, chegando a querer agredi-lo dentro da fortaleza de S. Lourenco e a apontá-lo ao governo miguelista como homem que só ouvia “uma infame roda de indivíduos abomináveis por seus vícios e maus costumes\".",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde comandou a expedição militar em 1828"
+        ],
+        "S. Lourenco": [
+            "Fortaleza onde ocorreu o incidente com José Maria Monteiro"
+        ]
+    },
+    "people": {
+        "José Antonio de Azevedo Lemos": [
+            "Coronel-comandante da expedição militar"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Expedição militar à Madeira"
+        ]
+    }
+}

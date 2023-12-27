@@ -1,0 +1,40 @@
+{
+    "id": 1014,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kalkgesteine von Piedade",
+    "fl": "K",
+    "original_title": "Corpos Calcareos da Piedade",
+    "body": "Am Ort Piedade, an der Ponta de S. Lourenço, finden sich zahlreiche kalkige Körper mit dem Aussehen versteinerter Baumstämme und -äste, von denen viele konzentrische Schichten ähnlich denen bestimmter holziger Pflanzen aufweisen. Einige dieser Körper setzen sich im unteren Teil in eine Art Wurzel fort, mit der Form und Richtung der Wurzeln zweikeimblättriger Pflanzen. Die Naturforscher, welche die Piedade besucht haben, sind sich über die Erklärung für den Ursprung dieser Körper nicht einig. Der Botaniker Lowe hielt sie für sandig-kalkige Konkretionen; Macaulay für eine Bildung korallenartiger Alcyonacea; der Geologe Smith für einfache Abgüsse von zuvor von Pflanzen besetzten Hohlräumen; und Mousinho de Albuquerque sowie Bowdich für versteinerte Überreste eines alten Waldes. Diese letzte Erklärung erscheint uns als die einzig akzeptable, wenn man Form und Aussehen der beschriebenen Körper beachtet. Bei der Versteinerung dürfte es sich um einen einfachen Austausch organischer durch anorganische Materie gehandelt haben, wobei die Kalziumkarbonat-Partikel allmählich die Stelle der sich zersetzenden Pflanzenteilchen einnahmen. Das Wasser, welches einen Teil des Kalksteins auflöste, dürfte diesen Austausch gefördert haben, indem es in die durch die Holzzersetzung freiwerdenden Hohlräume eindrang. Wenn man annimmt, dass die Nordküste bei Piedade sich in früheren Zeiten ins Meer hinein erstreckte und einen flachen Hang mit einem von Kalksand bedeckten Strand bildete, lässt sich auch annehmen, dass die Winde diesen Sand allmählich forttrugen und ins Landesinnere und an die Südküste verfrachteten, und so das Material für die Versteinerung lieferten. Die Böden von Piedade sind vulkanischen Ursprungs, und in den benachbarten Steilküsten finden sich Tuffe und Basalt. Nordwestlich von Porto Santo existieren Kalkkörper derselben Art wie in Piedade.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [
+        "Piedade",
+        "Pôrto Santo"
+    ],
+    "locations": {
+        "Piedade": [
+            "Ponta de S. Lourenço"
+        ]
+    },
+    "people": {
+        "Lowe": [
+            "Botaniker"
+        ],
+        "Macaulay": [
+            "Naturforscher"
+        ],
+        "Smith": [
+            "Geologe"
+        ],
+        "Mousinho de Albuquerque": [
+            "Naturforscher"
+        ],
+        "Bowdich": [
+            "Naturforscher"
+        ]
+    },
+    "years": {}
+}

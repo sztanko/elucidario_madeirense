@@ -1,0 +1,36 @@
+{
+    "id": 3362,
+    "lang": "de",
+    "is_original": false,
+    "title": "Soares",
+    "fl": "S",
+    "original_title": "Soares",
+    "body": "> Dieser Familienname stammt von Diogo Soares, der Donatär von Porto Santo war, und von Manuel Soares, der 1596 in der Kirche S. Pedro die Kapelle Unserer Lieben Frau vom Guten Tod gründete.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "S. Pedro"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Mit dem Familiennamen Soares verbundener Ort"
+        ],
+        "S. Pedro": [
+            "Standort der Kapelle Unserer Lieben Frau vom Guten Tod"
+        ]
+    },
+    "people": {
+        "Diogo Soares": [
+            "Donatär von Porto Santo"
+        ],
+        "Manuel Soares": [
+            "Gründer der Kapelle Unserer Lieben Frau vom Guten Tod"
+        ]
+    },
+    "years": {
+        "1596": [
+            "Gründung der Kapelle Unserer Lieben Frau vom Guten Tod durch Manuel Soares"
+        ]
+    }
+}

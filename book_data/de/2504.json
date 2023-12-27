@@ -1,0 +1,40 @@
+{
+    "id": 2504,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Wunder (Kapellen von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora dos Milagres (Capelas de)",
+    "body": "Brás de Freitas da Silva baute 1661 in der Gemeinde Monte, auf Ländereien seines Majorats, eine Kapelle zu Ehren Unserer Lieben Frau der Wunder, und der Anmerkungsschreiber der Saudades erwähnt eine Kapelle gleichen Patronats, die 1662 von Pedro Ferreira de Mesquita in der Gemeinde Ponta do Sol gegründet wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Monte": [
+            "In der Gemeinde Monte gelegen, auf Ländereien des Majorats von Brás de Freitas da Silva"
+        ],
+        "Ponta do Sol": [
+            "In der Gemeinde Ponta do Sol gelegen"
+        ]
+    },
+    "people": {
+        "Brás de Freitas da Silva": [
+            "Erbauer der Kapelle 1661"
+        ],
+        "Pedro Ferreira de Mesquita": [
+            "Gründer der Kapelle 1662"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Bau der Kapelle"
+        ],
+        "1662": [
+            "Gründung der Kapelle"
+        ]
+    }
+}

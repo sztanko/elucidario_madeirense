@@ -1,0 +1,47 @@
+{
+    "id": 3386,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sondagens",
+    "fl": "S",
+    "original_title": "Sondagens",
+    "body": "> A Madeira está rodeada de um mar bastante profundo, tendo a sonda descido a 4205 metros, a 120 milhas da costa do norte da ilha, e a 3019 metros, a 50 milhas da mesma costa, na direcção dos Açores. Entre a Madeira e Canárias, a sonda desceu até 4392 metros, e entre a Madeira e a costa d'Africa, a curta distância da ilha, a 4071 metros. Entre a Madeira e Porto Santo, têm sido notadas nalguns pontos profundidades superiores a 2000 metros, ao passo que, entre a Madeira e os Açores, viu-se a sonda descer já a 4895 metros.\n>\n> Os resultados das numerosas sondagens realizadas nos mares que banham a Madeira, Porto Santo e Desertas, constam das cartas geo-hidrograficas publicadas pelo engenheiro Antonio Pedro de Azevedo em 1877, 1879 e 1886.\n>\n> Nos mares da Ponta do Pargo, há um baixio com cerca de milha e meia de extensão, do qual os barcos costeiros são obrigados a afastar-se, quando os ventos sopram do lado de oeste, e entre a ponta de S. Lourenço e as Desertas há um banco submarino que na sua parte media está na profundidade de 30 a 130 metros.",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Açores": [
+            "Arquipélago"
+        ],
+        "Porto Santo": [
+            "Ilha"
+        ],
+        "Desertas": [
+            "Ilhas"
+        ],
+        "Ponta do Pargo": [
+            "Localidade"
+        ],
+        "S. Lourenço": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Engenheiro"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Publicação das cartas geo-hidrograficas por Antonio Pedro de Azevedo"
+        ],
+        "1879": [
+            "Publicação das cartas geo-hidrograficas por Antonio Pedro de Azevedo"
+        ],
+        "1886": [
+            "Publicação das cartas geo-hidrograficas por Antonio Pedro de Azevedo"
+        ]
+    }
+}

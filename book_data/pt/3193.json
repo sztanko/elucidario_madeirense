@@ -1,0 +1,42 @@
+{
+    "id": 3193,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santa Maria Madalena (Capelas de)",
+    "fl": "S",
+    "original_title": "Santa Maria Madalena (Capelas de)",
+    "body": "Quem sair do Funchal e seguir o caminho de Santo António, depara á beira da estrada, a uns dois quilómetros do centro da cidade, com as ruínas duma velha e desmantelada capela. Desse montão de escombros, ergue-se ainda altaneiro, como a desafiar a fúria dos séculos, o arruinado frontispício, com o seu pórtico em ogiva, denunciando a sua antiguidade e a característica das construções duma época de glórias. É um dos raros vestígios do estilo manuelino que ainda restam nesta ilha.\n\nEsta é a capela de Santa Maria Madalena, que deu o nome ao sítio, mais comummente conhecido pela simplificação popular de Madalena. Depois de Santo Amaro, é a capela mais antiga da freguesia de Santo Antonio, escasseando-nos, porém, os precisos elementos para determinar-lhe a época da sua fundação, que não nos parece ser posterior ao primeiro quartel do século XVI. No entretanto, a referência mais remota que a ela encontramos é de 1593, ano em que lhe foi feita a doação dum foro. Era também, depois da referida capela de Santo Amaro, a mais importante daquela freguesia pela sua antiguidade, pelas suas dimensões e estilo arquitectónico, e ainda pela devoção que os fiéis manifestavam pela sua padroeira, chegando a possuir bens próprios, de relativa importância, para a manutenção do seu culto, o que não nos consta que outra capela desta freguesia tivesse.\n\nJosé Machado de Miranda, por escritura publica de 11 de Março de 1684, tomou o encargo de padroeiro desta capela, mandando-a reconstruir e dotando-a com um foro de quatro mil réis anuais, imposto na quinta das Maravilhas. Nos anos de 1732, 1766 e 1773 se fizeram nela importantes repairos, mas em 1820 era já adiantado o seu estado de ruína.\n\nNo sítio das Florenças da freguesia do Arco da Calheta, havia uma capela da mesma invocação, fundada por João Portes Homem de El-Rei e sua mulher D. Maria de Sousa, no ano de 1684.\nA capela de Santa Maria Madalena da freguezia do Porto Moniz é uma das mais antigas do norte da Madeira. Tem sofrido através dos tempos vários reparos e acrescentamentos, e é hoje uma capela de não acanhadas dimensões. Foi ampliada no ano de 1789 e ainda há poucos anos teve novo acrescentamento. Nela se encontrava um belo quadro a óleo, representando a padroeira, que não foi conservado convenientemente e que de todo se perdeu. Pode dizer-se que é ali a sede do curato da freguesia, tendo junto da capela casa de residência, destinada ao respectivo coadjutor. Há um cemitério nas suas imediações.\n\nÉ o centro duma antiga e concorrida romagem, que se realiza no mês de Julho de cada ano, e outrora fazia-se ali uma feira em que aparecia muito gado.",
+    "categories": [
+        "history",
+        "religion",
+        "architecture"
+    ],
+    "freguesias": [
+        "Santo Antonio",
+        "Arco da Calheta",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ],
+        "Santo Antonio": [
+            "Freguesia"
+        ],
+        "Arco da Calheta": [
+            "Freguesia"
+        ],
+        "Porto Moniz": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "José Machado de Miranda": [
+            "Tomou o encargo de padroeiro desta capela"
+        ],
+        "João Portes Homem": [
+            "Fundada por"
+        ]
+    },
+    "years": {}
+}

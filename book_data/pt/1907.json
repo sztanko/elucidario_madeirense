@@ -1,0 +1,43 @@
+{
+    "id": 1907,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Laboratório de Bacteriologia e Higiene",
+    "fl": "L",
+    "original_title": "Laboratório de Bacteriologia e Higiene",
+    "body": "Foi criado pelo decreto de 17 de Maio de 1904, a pedido da Junta Geral deste distrito, a cujo cargo ficaram a sua instalação e as despesas do seu funcionamento. O seu pessoal compunha-se então de um médico-chefe, um preparador e um servente, tendo as exigências do serviço obrigado a aumentar posteriormente o quadro desse pessoal.\n\nO seu primeiro director foi o Dr. António Balbino do Rego, que os lamentáveis acontecimentos ocorridos no Funchal em Janeiro de 1906 obrigaram a abandonar o exercício desse cargo, que desempenhara com muito zelo e reconhecida competência. Passou a exercer, interinamente, o lugar de director o preparador Dr. António Capelo.\n\nPelo decreto de 22 de Dezembro de 1939, foi remodelado o serviço deste Laboratório, que ficou com uma secção de análises bacteriológicas e clínicas e outra de análises químicas e tecnológicas, sendo o seu pessoal constituído por um director-médico bacteriologista, um químico analista, um preparador, um ajudante de preparador e dois auxiliares de laboratório.\n\nO distinto bacteriologista Dr. Vicente Henriques de Gouveia, já muito conhecido pelos seus notáveis trabalhos de laboratório, foi contratado para director-médico no ano de 1931 e nomeado definitivamente para este lugar a 5 de Novembro de 1940.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. António Balbino do Rego": [
+            "Primeiro diretor do Laboratório de Bacteriologia e Higiene"
+        ],
+        "Dr. António Capelo": [
+            "Preparador e diretor interino do Laboratório de Bacteriologia e Higiene"
+        ],
+        "Dr. Vicente Henriques de Gouveia": [
+            "Bacteriologista e diretor-médico do Laboratório de Bacteriologia e Higiene"
+        ]
+    },
+    "years": {
+        "1904": [
+            "Criação do Laboratório de Bacteriologia e Higiene"
+        ],
+        "1906": [
+            "Acontecimentos ocorridos no Funchal em Janeiro de 1906"
+        ],
+        "1939": [
+            "Remodelação do serviço do Laboratório de Bacteriologia e Higiene"
+        ],
+        "1931": [
+            "Contratação do Dr. Vicente Henriques de Gouveia como diretor-médico do Laboratório de Bacteriologia e Higiene"
+        ],
+        "1940": [
+            "Nomeação definitiva do Dr. Vicente Henriques de Gouveia como diretor-médico do Laboratório de Bacteriologia e Higiene"
+        ]
+    }
+}

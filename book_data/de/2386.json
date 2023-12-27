@@ -1,0 +1,33 @@
+{
+    "id": 2386,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mota Freitas (Carlos Elói)",
+    "fl": "M",
+    "original_title": "Mota Freitas (Carlos Elói)",
+    "body": "Er wurde in dieser Stadt am 1. Dezember 1894 geboren und schloss 1917 den Kurs an der Marineschule ab. Als Marineschüler gehörte er zur Besatzung des Minenjägers Augusto Castilho, der den Dampfer São Miguel auf der Fahrt von Madeira nach den Azoren eskortierte, als der Minenjäger am 14. Oktober 1918 von einem deutschen U-Boot hinterhältig angegriffen und versenkt wurde. Dabei starben unter anderem sein tapferer Kommandant und unser Landsmann Mota Freitas. Der heldenhafte Widerstand der Augusto Castilho brachte den portugiesischen Dampfer São Miguel vor dem Angriff des deutschen U-Boots in Sicherheit, so dass sich der portugiesische Dampfer und alle seine Besatzungsmitglieder und Passagiere retten konnten. Wer mehr über diese schreckliche Tragödie erfahren möchte, sollte die interessante Broschüre 200 Meilen mit Rudern lesen, die von Leutnant Luís José Simões geschrieben wurde, einem Augenzeugen all dieser Ereignisse. Unser Landsmann Samuel da Conceição Vieira, damals Marineschüler, war ein Überlebender des Angriffs des deutschen U-Boots. Die Regierung verlieh dem Marineschüler Mota e Freitas posthum das Kriegskreuz 1. Klasse, und der Stadtrat von Funchal beschloss in der Sitzung vom 8. Mai 1919, die alte Gasse Sacristia in Santa Maria Maior nach demselben Marineschüler zu benennen. Im Oktober 1921 bildete sich ein Komitee mit der Absicht, ein bescheidenes Denkmal für den Marineschüler Mota e Freitas zu errichten. Bei dieser Gelegenheit wurden im Heiligen Haus der Barmherzigkeit die Insignien des Kriegskreuzes ausgestellt, die demselben Marineschüler nach seinem Tod verliehen worden waren.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Augusto Castilho": [
+            "Kommandant des Minenjägers"
+        ],
+        "Luís José Simões": [
+            "Leutnant, Augenzeuge der Ereignisse"
+        ],
+        "Samuel da Conceição Vieira": [
+            "Überlebender des Angriffs des deutschen U-Boots"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Abschluss an der Marineschule"
+        ],
+        "1918": [
+            "Angriff des deutschen U-Boots"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 1234,
+    "lang": "de",
+    "is_original": false,
+    "title": "Einsiedelei",
+    "fl": "E",
+    "original_title": "Ermida",
+    "body": "Besiedelter Ort in der Gemeinde Santo da Serra. An diesem Ort, der Alcoforado genannt wird, errichtete Gil de Carvalho im zweiten Viertel des 16. Jahrhunderts eine kleine Einsiedelei, die diesem Ort seinen Namen gab. Es wird vermutet, dass sie dem Wundertäter Santo Antonio geweiht war. Sie gehört zur Gemeinde Machico.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Gemeinde"
+        ],
+        "Machico": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Gil de Carvalho": [
+            "Erbauer der Einsiedelei"
+        ]
+    },
+    "years": {
+        "16. Jahrhundert": [
+            "Bau der Einsiedelei"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": 2095,
+    "lang": "de",
+    "is_original": false,
+    "title": "Machico (Pfarrkirche von)",
+    "fl": "M",
+    "original_title": "Machico (Igreja Paroquial de)",
+    "body": "Es wurde behauptet, dass die Christus-Kapelle (siehe Bd. I, S. 332), heute die Kapelle Unserer Lieben Frau von den Wundern, in der Stadt Machico die erste Kirche war, die auf dieser Insel errichtet wurde. Wir widersprechen dieser Behauptung (siehe Santa Catarina, Kapelle von) und sind sogar der Meinung, dass sie nicht einmal die erste war, die in dieser Gemeinde errichtet wurde. Als Tristão Vaz sich in Machico niederließ, ließ er ohne Verzug eine kleine Kapelle bauen, die er später erweiterte und verbesserte. In ihr wurde der Sitz der Gemeinde eingerichtet, als diese Mitte des 15. Jahrhunderts gegründet wurde.\n\nDie heutige Kirche scheint, obwohl sehr alt, nicht der ursprüngliche Tempel zu sein, in dem das Zentrum der neuen Pfarrei eingerichtet wurde. Es ist eine beständige Überlieferung, dass die weißen Marmorsäulen des schönen Seitenportals vom König D. Manuel gestiftet wurden. Da dieser 1521 starb, kann man vermuten, dass der Bau nicht viel früher als in jenem Jahr errichtet wurde. Eine alte Handschrift datiert diesen Bau auf das Jahr 1499. An einer Stelle heißt es, dass die dicken Stützen, die die Außenwände verstärken, von der ursprünglichen Konstruktion zu stammen scheinen.\n \nDiese Kirche hat im Laufe der Zeit bedeutende Reparaturen und einige Veränderungen im Inneren erfahren, insbesondere bei den Altären, wobei sie in ihren Grundzügen die Form des ursprünglichen Baus bewahrt hat. In den Jahren 1683, 1698 und 1713 wurden bemerkenswerte Reparaturen durchgeführt, wobei die Arbeiten im Chorraum nach 1698 hervorgehoben werden müssen. Der Glockenturm wurde 1844 wegen drohenden Einsturzes abgerissen und 1853 wieder aufgebaut. In diesem Turm gab es eine alte Uhr, die vor 1609 errichtet wurde und 1824 stehen blieb.\n\nDer Bogen und die Gewölbe der Sakramentskapelle und der Kapelle des hl. Johannes sind im gotischen Stil gehalten und besonders die Decke der ersteren ist von bemerkenswerter Schönheit und Perfektion. Die Bögen des Chorraums und einer Kapelle auf der Evangelienseite sind manuelinisch.\n\nÜber dem Altar der Sakramentskapelle befindet sich ein auf Holztafeln gemaltes Bild, das die Anbetung der Heiligen Drei Könige darstellt und zweifellos ein Meisterwerk der Kunst ist. Ein alter, ausgezeichneter Professor unserer Gewerbeschule sagte darüber:\n\n\\",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {},
+    "people": {
+        "Tristão Vaz": [
+            "Ließ sich in Machico nieder und baute eine kleine Kapelle, die er später erweiterte und verbesserte. In ihr wurde Mitte des 15. Jahrhunderts der Sitz der Kirchengemeinde eingerichtet, als diese gegründet wurde."
+        ],
+        "D. Manuel": [
+            "Stiftete die marmornen Säulen des schönen Seitenportals der heutigen Kirche.",
+            "Monarch"
+        ],
+        "D. Branca Teixeira": [
+            "Stiftete die Kapelle des Allerheiligsten Sakraments mit dem Kunstwerk der Heiligen Drei Könige."
+        ]
+    },
+    "years": {
+        "1521": [
+            "Tod von D. Manuel"
+        ],
+        "1499": [
+            "Jahr der Errichtung der heutigen Kirche"
+        ],
+        "1683": [
+            "Bedeutende Reparaturen an der Kirche"
+        ],
+        "1698": [
+            "Bedeutende Reparaturen an der Kirche"
+        ],
+        "1713": [
+            "Bedeutende Reparaturen an der Kirche"
+        ],
+        "1844": [
+            "Abbruch des Glockenturms wegen Einsturzgefahr"
+        ],
+        "1853": [
+            "Wiederaufbau des Glockenturms"
+        ],
+        "1857": [
+            "Reparatur der Kirchenorgel"
+        ]
+    }
+}

@@ -1,0 +1,60 @@
+{
+    "id": 710,
+    "lang": "en",
+    "is_original": false,
+    "title": "Caminho de Ferro do Monte",
+    "fl": "C",
+    "original_title": "Caminho de Ferro do Monte",
+    "body": "It was Antonio Joaquim Marques, from Lisbon, who first came up with the idea of establishing a rack railway or funicular between Funchal and Monte. The proposal he presented to the municipal council was accepted on February 17, 1887. Engineer Raul Mesnier conducted some studies since 1886 to establish the best plan for the execution of the project. However, unforeseen difficulties arose, leading Marques to transfer the concession he had obtained to Captain Manuel Alexandre de Sousa, a native of Madeira. This transfer was allowed by the council in a session on July 24, 1890.\n\nOn January 22, 1891, the project for the construction of the funicular was approved by the council. At that time, the Railway Company was already established due to a contract signed with the aforementioned concessionaire, and shortly after, construction began at the Confeiteira site, where there were significant retaining walls to be built. According to the contract between the council and the railway company, the expropriation of the necessary land for the establishment of the railway line was to be carried out by the municipality, with the expenses being covered by the company. The road would belong to the company for 99 years, after which it would become public.\n\nThe first section of the railway, between Pombal and Levada de Santa Luzia, was inaugurated on July 16, 1893, and on August 5, 1894, trips between Pombal and Atalhinho began, accompanied by lively celebrations in the parish of Monte. Initially, the works were supervised by Captain Manuel Alexandre de Sousa, the company's technical inspector. However, after his services were dispensed with on August 29, 1893, the supervision of the works was then entrusted to the civil engineers Anibal and Adriano Trigo, who had to correct some errors made by their predecessor.\n\nFrom the report and accounts of the Railway Directorate for the year 1894, it is seen that an important amount of 44,899,679 réis was spent on the works up to the Atalhinho site, with 2,229,210 réis being used for the lowering of a section of the road that had a steeper incline than the locomotives could overcome.\n\nIn a general meeting of the Railway Company of Monte on July 12, 1910, it was decided to extend the railway line to Terreiro da Luta, and on August 4 of the same year, the council sanctioned this decision. This part of the line and the large restaurant built at that site were inaugurated on June 24, 1912.\n\nThe railway line between Pombal and Monte covers a distance of 2500 meters, and between Pombal and Terreiro da Luta, it is 3850 meters long.\n\nFinancial difficulties faced by the Railway Company during the opening of the road and the laying of the railway line to Monte forced it to resort to credit twice and to not distribute dividends to shareholders for a long time. However, the company's situation has been regularized for a long time, despite the considerable losses suffered during the war, due to the diversion of navigation from our port and the exorbitant price of coal (1923).\n\nThis line extends from Pombal, where the main station and the company's offices are located, to Terreiro da Luta, which is its terminus, about fifteen hundred meters away from the Parish Church of Monte and at an altitude of 850 meters above sea level. The total length of the line is approximately four kilometers, with some stops along its route and a station at the Fonte site. The company maintains a car service to the various stations and stops, which becomes more frequent on certain days when there is a greater influx of tourists. At Terreiro da Luta, at the end of the line, where one can enjoy one of the most wonderful panoramas, the Railway Company operates an excellent restaurant, magnificently installed and rivaling the best of its kind abroad.\n\nOn September 10, 1919, shortly after 6 o'clock in the evening, a major explosion occurred in the boiler of one of the locomotives of the Monte Railway, while the train was traveling between Levada and Livramento on an uphill journey. Out of about 56 people on board the car and the locomotive, 4 died at the time of the explosion, and many were seriously injured. Due to this disaster, trips to Monte were suspended until February 1, 1920, which significantly affected the interests of the Company.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {},
+    "people": {
+        "Antonio Joaquim Marques": [
+            "Pioneer in proposing to establish a rack railway or funicular between Funchal and Monte"
+        ],
+        "Raul Mesnier": [
+            "Engineer responsible for studies since 1886 to establish the best plan for the execution of the project"
+        ],
+        "Manuel Alexandre de Sousa": [
+            "Captain native of Madeira, to whom the concession for the construction of the funicular was transferred"
+        ],
+        "Anibal e Adriano Trigo": [
+            "Civil engineers responsible for supervising the works after the dismissal of Captain Manuel Alexandre de Sousa"
+        ]
+    },
+    "years": {
+        "1887": [
+            "Acceptance of the proposal to establish a rack railway or funicular between Funchal and Monte"
+        ],
+        "1890": [
+            "Transfer of the concession for the construction of the funicular to Captain Manuel Alexandre de Sousa"
+        ],
+        "1891": [
+            "Approval of the project for the construction of the funicular by the council"
+        ],
+        "1893": [
+            "Inauguration of the first section of the Railway, between Pombal and Levada de Santa Luzia"
+        ],
+        "1894": [
+            "Commencement of trips between Pombal and Atalhinho"
+        ],
+        "1910": [
+            "Decision to extend the railway line to Terreiro da Luta"
+        ],
+        "1912": [
+            "Inauguration of the part of the line and the large restaurant built at Terreiro da Luta"
+        ],
+        "1919": [
+            "Major explosion in the boiler of one of the locomotives of the Monte Railway"
+        ],
+        "1920": [
+            "Suspension of trips to Monte"
+        ]
+    }
+}

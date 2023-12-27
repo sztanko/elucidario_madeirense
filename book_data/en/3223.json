@@ -1,0 +1,30 @@
+{
+    "id": 3223,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Francisco (Rua de)",
+    "fl": "S",
+    "original_title": "São Francisco (Rua de)",
+    "body": "It extends from Rua da Carreira, or Dr. Vieira Street, to Avenida do Dr. Manuel de Arriaga, and received the somewhat vague designation of 'March 22, 1921 Street' in a session of the Municipal Council of Funchal on July 6, 1922, as this was the date when the daring Portuguese aviators Gago Coutinho and Sacadura Cabral made their aerial trip between Lisbon and Madeira.\n\nIt would be good to restore the old name of the street, as the public is not inclined to recognize another, and the Council has already paid tribute to the two aforementioned aviators by giving their glorious names to two streets in this city (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua da Carreira": [
+            "Street"
+        ],
+        "Avenida do Dr. Manuel de Arriaga": [
+            "Avenue"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1922": [
+            "Designation of the street"
+        ],
+        "1921": [
+            "Aerial trip of Gago Coutinho and Sacadura Cabral"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 2520,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Quietação (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Quietação (Capela de)",
+    "body": "No sítio dos Alecrins, da freguesia de Santo António, ficava a capela de Nossa Senhora da Quietação, de que hoje nem restam vestígios. Era mais conhecida pelo nome de capela dos Alecrins, e até, numa referência a ela feita no ano de 1680, se lhe chamava igreja dos Alecrins, apesar das suas acanhadas dimensões. A denominação pouco vulgar de Quietaçâo provém da circunstancia de ter a capela como orago o mistério que representa o sossego e a tranquilidade que, no retiro da casa de Nazaré, gozava a Santíssima Virgem em companhia do Menino Jesus e do patriarca S. José.\n\nForam Lourenço de Matos Coutinho e sua mulher D. Mariana de Ornelas de Vasconcelos que no ano de 1670 fundaram esta capela, em cumprimento dum voto que haviam feito à Santíssima Virgem, na quinta que possuíam no sítio dos Alecrins e que tinham herdado de seu pai e sogro, o morgado Bento de Matos Coutinho, o qual por sua vez a houvera, por compra, de Simão Gonçalves da Câmara e Jorge da Câmara Esmeraldo. Foi nesta quinta e capela que em 1677 o seu fundador instituiu o morgadio dos Alecrins. Deste morgadio é hoje representante o Dr. Rui Bettencourt da Câmara (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António"
+    ],
+    "locations": {
+        "Santo António": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Lourenço de Matos Coutinho": [
+            "Fundador da capela"
+        ],
+        "D. Mariana de Ornelas de Vasconcelos": [
+            "Fundadora da capela"
+        ],
+        "Simão Gonçalves da Câmara": [
+            "Antigo proprietário da quinta"
+        ]
+    },
+    "years": {
+        "1670": [
+            "Fundação da capela de Nossa Senhora da Quietação"
+        ],
+        "1677": [
+            "Instituição do morgadio dos Alecrins"
+        ]
+    }
+}

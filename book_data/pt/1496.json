@@ -1,0 +1,31 @@
+{
+    "id": 1496,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Frutas",
+    "fl": "F",
+    "original_title": "Frutas",
+    "body": "A não ser o cultivo cuidado e metódico da vinha e da bananeira, pode duma maneira genérica afirmar-se que neste arquipélago não existe a cultura das árvores de fruto, a pesar das especiais condições climatéricas permitirem uma excelente e abundante produção e a situação geográfica da Madeira favorecer uma fácil exportação das frutas para diversos países estrangeiros e colónias portuguesas. É certo que se encontram muitas árvores frutíferas de variadas qualidades e de quasi todas as regiões e ainda dos climas tropicais, mas são geralmente abandonadas ao desenvolvimento que lhes dá a própria natureza, sem o tratamento adequado que a experiência e a ciência lhes possam ministrar. O verdadeiro pomar é quasi inteiramente desconhecido entre nós, aparecendo as fruteiras espalhadas no meio das outras culturas, como sendo de geração espontânea e sem merecer a atenção e os cuidados da maior parte dos agricultores. No entretanto, força é confessar que nos últimos anos tem-se modificado bastante essa situação e já o cultivo das árvores de fruto se pode considerar como um factor apreciável na economia do distrito. Promulgaram-se algumas medidas legislativas, especialmente determinadas pela cultura e exportação da banana, que presentemente representa um dos mais importantes elementos da riqueza publica da Madeira. O Decreto de 5 de Junho de 1935 criou no Funchal o Grémio de Exportadores de Frutas e Produtos Hortícolas, outro decreto da mesma data estabeleceu nesta cidade uma Delegação da Junta Nacional de Frutas, e os decretos de 21 de Agosto de 1938 e de 16 de Maio de 1939 adoptaram algumas medidas de protecção á exportação daqueles produtos.",
+    "categories": [
+        "economy",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local do Grémio de Exportadores de Frutas e Produtos Hortícolas"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1935": [
+            "Ano de criação da Delegação da Junta Nacional de Frutas"
+        ],
+        "1938": [
+            "Ano de adoção de medidas de proteção à exportação de produtos"
+        ],
+        "1939": [
+            "Ano de adoção de medidas de proteção à exportação de produtos"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "id": 3604,
+    "lang": "de",
+    "is_original": false,
+    "title": "Vieira",
+    "fl": "V",
+    "original_title": "Vieira",
+    "body": "Laut Frutuoso ist dies ein Nachname adliger und edler Menschen. 1566 lebten in Funchal Manuel Vieira, Syndikus der Nonnen von Santa Clara, und ein gewisser Favila Vieira, den Frutuoso als Edelmann vorstellt. Um dieselbe Zeit übte in Machico ein Edelmann namens António Vieira, der eine Tochter des Donatärs Diogo Teixeira heiratete, das Amt des Gerichtsdieners aus. Es gibt andere Zweige der Familie Vieira, zwei davon von den Azoren, wobei einer im zweiten Viertel des 19. Jahrhunderts auf Madeira erschien und der andere mit Manuel Vieira de Afonseca begann, der von der Insel Terceira stammte und Schreiber der Stadtverwaltung von Funchal war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Clara",
+        "Machico"
+    ],
+    "locations": {
+        "Funchal": [
+            "Wohnort von Manuel Vieira, Favila Vieira, António Vieira und anderen Zweigen der Familie Vieira"
+        ],
+        "Machico": [
+            "Gerichtsbarkeit, in der António Vieira das Amt des Gerichtsdieners ausübte"
+        ]
+    },
+    "people": {
+        "Manuel Vieira": [
+            "Syndikus der Nonnen von Santa Clara"
+        ],
+        "Favila Vieira": [
+            "Edelmann"
+        ],
+        "António Vieira": [
+            "Verheiratet mit einer Tochter des Donatärs Diogo Teixeira, Ausübung des Amtes des Gerichtsdieners der Gerichtsbarkeit von Machico"
+        ],
+        "Manuel Vieira de Afonseca": [
+            "Schreiber der Stadtverwaltung von Funchal"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Wohnsitz von Manuel Vieira und Favila Vieira in Funchal"
+        ],
+        "XIX": [
+            "Auftauchen von Zweigen der Familie Vieira auf Madeira"
+        ]
+    }
+}

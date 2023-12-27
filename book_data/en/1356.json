@@ -1,0 +1,28 @@
+{
+    "id": 1356,
+    "lang": "en",
+    "is_original": false,
+    "title": "Feitoria Britânica",
+    "fl": "F",
+    "original_title": "Feitoria Britânica",
+    "body": "It was established before 1774 and abolished on December 31, 1838. It maintained a special infirmary for the English at the Hospital da Santa Casa and provided various other services to the British colony on this island.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Hospital da Santa Casa": [
+            "Hospital institution in the Madeira Island."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1774": [
+            "Establishment of the British Factory"
+        ],
+        "1838": [
+            "Abolition of the British Factory"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 2621,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ovington (John)",
+    "fl": "O",
+    "original_title": "Ovington (John)",
+    "body": "Clérigo e viajante inglês, que foi capelão de Jaime II. No livro que publicou intitulado *A voyage to Suratt in the year 1689* (Londres 1696), ocupa-se da Madeira, acerca da qual dá informações que seriam curiosas, se entre elas se não encontrassem varias mentiras mais ou menos grosseiras. A título de curiosidade, damos a seguir a tradução da narração que ele faz dum «contratempo» que teve a gente do navio, antes de deixar o porto do Funchal.\n\n«Tendo faltado á chamada alguns dos nossos marinheiros supusemos que tivessem caído em poder dos jesuítas, os quais, zelosos por alargar a sua fé, aproveitam todos os ensejos para converter os estrangeiros. Enviou-se uma carta ao Governador pedindo a restituição dos nossos homens, mas ele parece que não tinha autoridade sobre aquela ordem.\n\n«Resolveu então o nosso comandante fazer um desembarque na praia, acompanhado de 14 homens armados, afim de substituir por pescadores os marinheiros de que necessitava.\n\nUm feliz acaso deparou-lhe, porem, um barquinho que trazia ao Funchal um abade e um vigário, os quais com grande surpresa sua se viram aprisionados pela tripulação do nosso escaler.\n\n«Fizemos com que imediatamente eles escrevessem ao governador, narrando-lhe as circunstancias em que se achavam, ao mesmo tempo que era enviada uma nota ao nosso cônsul afim de a transmitir á autoridade, exigindo-lhe a permuta dos prisioneiros.\n\n«A questão ia-se azedando porque a noticia da prisão dos padres punha em risco os comerciantes ingleses, estabelecidos no Funchal, mas felizmente tudo se harmonizou, recuperando nós os nossos marinheiros e sendo os padres enviados para terra, onde foram recebidos com grande regozijo da população».\n\nSe a prisão dos tripulantes do navio britânico se deu realmente, como conta Ovington, o mais provável é que ela fosse devida não a zelo dos jesuítas pela conversão dos estrangeiros, mas a zelo dos ingleses pelo culto ao deus Baco, do que poderia resultar a intervenção do alcaide, a cargo de quem estava nessa época a direcção dos serviços da manutenção da ordem na cidade.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto de saída do navio britânico"
+        ]
+    },
+    "people": {
+        "Jaime II": [
+            "Monarca"
+        ],
+        "Ovington": [
+            "Clérigo e viajante inglês"
+        ],
+        "Jesuítas": [
+            "Religiosos"
+        ]
+    },
+    "years": {
+        "1689": [
+            "Ano da viagem de Ovington"
+        ]
+    }
+}

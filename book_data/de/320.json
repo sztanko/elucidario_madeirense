@@ -1,0 +1,29 @@
+{
+    "id": 320,
+    "lang": "de",
+    "is_original": false,
+    "title": "Atkins (John)",
+    "fl": "A",
+    "original_title": "Atkins (John)",
+    "body": "Marinechirurg, der Madeira 1720 besuchte. Verf.: A Voyage to Guinea, Brasil and the West Indies, Madeira, Cape Verde... (London 1837).",
+    "categories": [
+        "health",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Hat besucht"
+        ]
+    },
+    "people": {
+        "John Atkins": [
+            "Marinechirurg"
+        ]
+    },
+    "years": {
+        "1720": [
+            "Hat besucht"
+        ]
+    }
+}

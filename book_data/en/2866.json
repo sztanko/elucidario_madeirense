@@ -1,0 +1,45 @@
+{
+    "id": 2866,
+    "lang": "en",
+    "is_original": false,
+    "title": "Porto do Moniz (Municipality of)",
+    "fl": "P",
+    "original_title": "Porto do Moniz (Muncipio do)",
+    "body": "As we have already noted regarding the Municipality of Camara de Lôbos, the Porto de Moniz was never a town, but only the seat of the council that was established there in 1835. The people of the locality and neighboring parishes sometimes wanted the place of Porto Moniz to be elevated to the status of a town, but these efforts were unsuccessful.\n\nThe Porto do Moniz, like all the localities in the north of the island, belonged to the town and Municipality of Machico. When the Municipality and town of São Vicente were created in 1743, it then became an integral part of the new Municipality. In 1817, the engineer and inspector of public works, Paulo Dias d'Almeida, made the government of the Metropole aware of the need to create the Municipality of Porto do Moniz, and the governor and captain-general D. Manuel de Portugal e Castro favorably informed the higher authorities on April 10, 1825, about the petition that the people had made in that regard, which was merely the satisfaction of old aspirations, already expressed on other occasions. The new Municipality would be composed, according to the request made at that time, of the parishes of Seixal, Ribeira da Janela, Porto Moniz, and Ponta do Pargo, with the boundaries being the João Delgado stream, from the sea to the top of Paul da Serra, in the parish of Seixal, and the Marinheiros stream to the Fonte do Bispo mountain range, in the parish of Ponta do Pargo.\n\nOnly with the establishment of the constitutional government and the municipal division that took place in this district was the municipality of Porto Moniz created, with its seat in the parish of the same name, and it was then composed of this and the parishes of Seixal, Ribeira da Janela, Achadas da Cruz, and Ponta do Pargo.\n\nThis municipality was created in 1835, and its installation took place on October 31 of the same year, with its first administrator being Captain Tomás João Perestrelo da Camara and the first president of the Municipal Council Administrative Commission being Navy Captain Teodoro Moniz de Bettencourt.\n\nThe municipality of Porto Moniz has been abolished and restored several times. It was abolished in 1849 and restored a few years later. By the decree of December 10, 1867, the municipalities of Camara de Lôbos, Santana, and Porto Moniz were abolished, and they were reinstated shortly thereafter. The decree of November 18, 1895 again abolished this municipality, which was restored by the decree of January 13, 1898, and its reinstallation took place on February 13 of the same year.\n\nThe parish of Ponta do Pargo was separated from the municipality of Porto Moniz and annexed to that of Calheta by the decree of June 20, 1871.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Seixal",
+        "Ribeira da Janela",
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Machico": [
+            "Town and Municipality of Machico"
+        ]
+    },
+    "people": {
+        "Paulo Dias d'Almeida": [
+            "Engineer and inspector of public works"
+        ],
+        "D. Manuel de Portugal e Castro": [
+            "Governor and captain-general"
+        ]
+    },
+    "years": {
+        "1743": [
+            "Creation of the Municipality and town of São Vicente"
+        ],
+        "1817": [
+            "Need to create the Municipality of Porto do Moniz"
+        ],
+        "1825": [
+            "Petition made by the people in that regard"
+        ],
+        "1835": [
+            "Creation of the municipality of Porto Moniz"
+        ]
+    }
+}

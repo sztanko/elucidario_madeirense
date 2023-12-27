@@ -1,0 +1,38 @@
+{
+    "id": 3143,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sabão (Rua do)",
+    "fl": "S",
+    "original_title": "Sabão (Rua do)",
+    "body": "It is one of the oldest streets in Funchal and connects Rua do Comercio or dos Ferreiros with Rua da Alfândega. In a session of the Municipal Council on July 6, 1922, it was given the rather vague name of \"Rua 17 de Junho de 1922\", as this was the date when the daring aviators Gago Coutinho and Sacadura Cabral completed their aerial journey between Lisbon and Rio de Janeiro.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Locality in Madeira"
+        ],
+        "Rua do Comercio": [
+            "Street in Funchal"
+        ],
+        "Rua da Alfândega": [
+            "Street in Funchal"
+        ]
+    },
+    "people": {
+        "Gago Coutinho": [
+            "Aviator"
+        ],
+        "Sacadura Cabral": [
+            "Aviator"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Completion of the aerial journey between Lisbon and Rio de Janeiro"
+        ]
+    }
+}

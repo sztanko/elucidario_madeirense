@@ -1,0 +1,31 @@
+{
+    "id": 201,
+    "lang": "en",
+    "is_original": false,
+    "title": "Amoreiras",
+    "fl": "A",
+    "original_title": "Amoreiras",
+    "body": "Site of the parish of Arco da Calheta where the chapel of Nossa Senhora da Conceição is located, founded in the year 1911 by Father José Marcelino de Freitas, and where there was once a chapel of the same invocation ordered to be built by Isabel de Abreu in the early 16th century.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Parish in Madeira"
+        ]
+    },
+    "people": {
+        "José Marcelino de Freitas": [
+            "Priest"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Foundation of the chapel of Nossa Senhora da Conceição"
+        ]
+    }
+}

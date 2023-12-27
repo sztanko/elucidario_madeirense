@@ -1,0 +1,38 @@
+{
+    "id": 2961,
+    "lang": "en",
+    "is_original": false,
+    "title": "Quadra (D. Manuel de la)",
+    "fl": "Q",
+    "original_title": "Quadra (D. Manuel de la)",
+    "body": "He was born in Spain in the year 1835 and died in Funchal on April 3, 1903. From 1897 until the date of his death, he served as a contracted professor at our Industrial School. He was a distinguished portrait painter, and there are several oil paintings by his hand in this island.",
+    "categories": [
+        "art",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Spain": [
+            "Place of birth"
+        ],
+        "Funchal": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "D. Manuel de la Quadra": [
+            "Portrait painter"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Year of birth"
+        ],
+        "1897": [
+            "Start of service as a contracted professor"
+        ],
+        "1903": [
+            "Year of death"
+        ]
+    }
+}

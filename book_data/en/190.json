@@ -1,0 +1,27 @@
+{
+    "id": 190,
+    "lang": "en",
+    "is_original": false,
+    "title": "Amaro (Padre)",
+    "fl": "A",
+    "original_title": "Amaro (Padre)",
+    "body": "Padre Amaro was the name of a famous periodical published in London, in the Portuguese language, from 1820 to 1830, with the illustrious Madeiran Joaquim José Ferreira de Freitas as its main editor, also known by the name of Padre Amaro, whom we will address in the appropriate place.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Padre Amaro": [
+            "Chief editor of the periodical"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Start of the publication of the periodical in London"
+        ],
+        "1830": [
+            "End of the publication of the periodical in London"
+        ]
+    }
+}

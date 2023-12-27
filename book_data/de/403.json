@@ -1,0 +1,28 @@
+{
+    "id": 403,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bang up",
+    "fl": "B",
+    "original_title": "Bang up",
+    "body": "Name einer Yacht, die 1829 auf Madeira und Porto Santo war. Der Eigentümer dieses Schiffes schrieb einen Bericht über die Reise zur zweiten dieser Inseln, der ins Portugiesische übersetzt und in der Zeitung Diário do Comercio, einer alten Zeitung aus Funchal, veröffentlicht wurde.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Die Yacht war hier"
+        ],
+        "Porto Santo": [
+            "Die Yacht war hier"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1829": [
+            "Die Yacht war auf Madeira und Porto Santo"
+        ]
+    }
+}

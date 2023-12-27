@@ -1,0 +1,33 @@
+{
+    "id": 2240,
+    "lang": "en",
+    "is_original": false,
+    "title": "Medina e Vasconcelos (Sérvulo de Paula)",
+    "fl": "M",
+    "original_title": "Medina e Vasconcelos (Sérvulo de Paula)",
+    "body": "He was the son of the Madeiran poet Francisco de Paula Medina e Vasconcelos, born in Funchal around 1822, and was a civil servant for the Cape Verde islands, with Governor D. José Miguel de Noronha, in 1845, where he died around 1854. In 1845, he published a drama entitled Amor e Pátria in Funchal, which was performed in this city at the Concordia theater in August 1844. He was the editor of \"Beija-Flôr\" and by 1851, he was the editor of \"Boletim Official\" in Cape Verde, where he published the novel \"Um filho chorado\".",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco de Paula Medina e Vasconcelos": [
+            "Poet"
+        ]
+    },
+    "years": {
+        "1822": [
+            "Birth"
+        ],
+        "1845": [
+            "Publication of the drama \"Amor e Pátria\""
+        ],
+        "1854": [
+            "Death"
+        ],
+        "1851": [
+            "Editor of \"Boletim Official\""
+        ]
+    }
+}

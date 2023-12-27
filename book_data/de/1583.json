@@ -1,0 +1,33 @@
+{
+    "id": 1583,
+    "lang": "de",
+    "is_original": false,
+    "title": "Giraldes",
+    "fl": "G",
+    "original_title": "Giraldes",
+    "body": "„Diesen Nachnamen brachte der Florentiner Dr. Pedro Giraldes mit, der von 1500 bis 1535 in Calheta lebte. In diesem letzten Jahr gründete er dort die Barmherzigkeitsbruderschaft, deren erster Vorsteher er war“.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Ort, an dem Dr. Pedro Giraldes lebte"
+        ]
+    },
+    "people": {
+        "Dr. Pedro Giraldes": [
+            "Lebte in Calheta und gründete die Barmherzigkeitsbruderschaft"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Beginn der Zeit, in der Dr. Pedro Giraldes in Calheta lebte"
+        ],
+        "1535": [
+            "Ende der Zeit, in der Dr. Pedro Giraldes in Calheta lebte"
+        ]
+    }
+}

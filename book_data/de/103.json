@@ -1,0 +1,28 @@
+{
+    "id": 103,
+    "lang": "de",
+    "is_original": false,
+    "title": "Albuquerque",
+    "fl": "A",
+    "original_title": "Albuquerque",
+    "body": "Ein edler und alter Familienname auf dieser Insel. Er stammt von Dona Sebastiana de Albuquerque ab, die um 1570 Jacinto de Freitas aus dem Hause der Freitas da Madalena heiratete. Diese Dona Sebastiana stammt von Don Afonso Teles de Meneses ab, dem Besiedler der Stadt Albuquerque in Spanien.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madalena": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "D. Sebastiana de Albuquerque": [
+            "Stammmutter der Familie Albuquerque"
+        ]
+    },
+    "years": {
+        "1570": [
+            "Jahr der Heirat mit Jacinto de Freitas"
+        ]
+    }
+}

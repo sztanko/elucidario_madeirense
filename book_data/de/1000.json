@@ -1,0 +1,30 @@
+{
+    "id": 1000,
+    "lang": "de",
+    "is_original": false,
+    "title": "Franziskanerkloster von Calheta",
+    "fl": "F",
+    "original_title": "Convento de São Francisco da Calheta",
+    "body": "„Das Franziskanerkloster von Calheta, heißt es in einer Notiz der Saudades da Terra, wurde um 1670 hauptsächlich durch Spenden auf einem Grundstück errichtet, das der fromme Pedro Bettencourt de Athouguia gekauft hatte, der später im Kloster S. Bernardino Laienbruder wurde. Es ist Privateigentum, weil es vom Finanzministerium verkauft wurde.“\n\nEs war das bescheidenste Kloster Madeiras und hatte immer nur eine sehr kleine Zahl von Mönchen. Das Gebäude war klein und auch die Kirche hatte nur beschränkte Ausmaße.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Standort des Klosters"
+        ]
+    },
+    "people": {
+        "Pedro Bettencourt de Athouguia": [
+            "Käufer des Grundstücks, auf dem das Kloster errichtet wurde"
+        ]
+    },
+    "years": {
+        "1670": [
+            "Jahr, in dem das Kloster errichtet wurde"
+        ]
+    }
+}

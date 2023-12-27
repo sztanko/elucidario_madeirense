@@ -1,0 +1,31 @@
+{
+    "id": 3444,
+    "lang": "de",
+    "is_original": false,
+    "title": "Teck (Príncipes de)",
+    "fl": "T",
+    "original_title": "Teck (Príncipes de)",
+    "body": "Prinz Alexander von Teck und seine Frau Prinzessin Alice machten am 8. Januar 1924 auf ihrer Reise nach Kapstadt an Bord des englischen Dampfers Wimdsor Castle einen Zwischenstopp in Funchal. Ihnen wurden militärische Ehren erwiesen. Sie waren auf der Praça do Terreiro da Luta, wo sie ein Picknick machten, danach fuhren sie mit Ochsenkarren hinunter nach Funchal und schifften sich kurz nach Mittag wieder ein.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort des Zwischenstopps"
+        ]
+    },
+    "people": {
+        "Alexandre de Teck": [
+            "Prinz"
+        ],
+        "Alice": [
+            "Prinzessin"
+        ]
+    },
+    "years": {
+        "1924": [
+            "Besuch in Funchal"
+        ]
+    }
+}

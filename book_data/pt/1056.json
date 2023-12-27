@@ -1,0 +1,33 @@
+{
+    "id": 1056,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Coutinho",
+    "fl": "C",
+    "original_title": "Coutinho",
+    "body": "Este apelido de familia procede de Luiz Fernandes de Matos Coutinho, que passou á Madeira cêrca de 1580 e teve aqui grande casa de comercio. Este Luiz Coutinho era filho do cavaleiro Antonio Vaz de Matos, que acompanhou Afonso de Albuquerque á India. A Capela de Nossa Senhora da Quietação, em Santo Antonio, foi fundada por Loureuço de Matos Coutinho, em 1670, o qual descendia provavelmente do referido Luiz Coutinho.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Madeira": [
+            "Local de estabelecimento da família Coutinho"
+        ]
+    },
+    "people": {
+        "Luiz Fernandes de Matos Coutinho": [
+            "Estabelecedor na Madeira, descendente de Antonio Vaz de Matos"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Chegada de Luiz Fernandes de Matos Coutinho à Madeira"
+        ],
+        "1670": [
+            "Fundação da Capela de Nossa Senhora da Quietação"
+        ]
+    }
+}

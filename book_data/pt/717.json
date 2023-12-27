@@ -1,0 +1,28 @@
+{
+    "id": 717,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Campo de Baixo",
+    "fl": "C",
+    "original_title": "Campo de Baixo",
+    "body": "Sitio povoado da Ilha do Pôrto Santo, onde se encontra uma capela da invocação do Divino Espirito Santo, de construção bastante antiga, mas reedificada no primeiro quartel do seculo XIX pelo capitão Sebastião Antonio Drumond. Tem 35 fogos e habitantes.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilha do Pôrto Santo": [
+            "Sitio povoado"
+        ]
+    },
+    "people": {
+        "Sebastião Antonio Drumond": [
+            "Capitão"
+        ]
+    },
+    "years": {
+        "Século XIX": [
+            "Reedificação da capela do Divino Espirito Santo"
+        ]
+    }
+}

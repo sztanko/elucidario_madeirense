@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alabama",
+    "fl": "A",
+    "original_title": "Alabama",
+    "body": "Este celebre navio de corso, ao serviço dos insurrectos do sul da Republica dos Estados Unidos da América, por ocasião da guerra civil que rebentou naquele país, esteve no porto do Funchal e depois ao abrigo das costas da ilha do Porto Santo, a reparar avarias, fugido da perseguição tenaz que lhe faziam alguns navios partidários do governo do norte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto no sul da Ilha da Madeira."
+        ],
+        "Porto Santo": [
+            "Ilha do arquipélago da Madeira."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

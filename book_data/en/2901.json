@@ -1,0 +1,53 @@
+{
+    "id": 2901,
+    "lang": "en",
+    "is_original": false,
+    "title": "Posturas",
+    "fl": "P",
+    "original_title": "Posturas",
+    "body": "As is known, the Municipal Councils have the right to establish within the area of their municipalities certain local legal precepts in harmony with the general laws of the country, precepts that must be strictly observed and whose transgression implies the imposition of various penalties. In this archipelago and prior to the year 1834, it was not uncommon for these exclusive codes of laws or Municipal Regulations to clash with some decrees issued by the central power, leading the higher authorities to intervene energetically and coerce the municipal councils into full compliance with these decrees.\n\nAll the Municipal Councils in this archipelago, at various times, established and enforced many \"regulations\", with some of them being published in the press.\n\nIn an attempt at \"codification\", we have news that in the years 1841, 1842, 1856, 1890, 1897, and 1900, respectively, the Municipal Councils of Santana, Calheta, Machico, Porto do Moniz, São Vicente, and Ponta do Sol had their regulations, then in force, printed in pamphlets, which was a wise measure for good municipal administration.\n\nIn 1912, the Municipal Council of Funchal had the \"Código de Posturas do Município do Funchal\", a collection of the regulations then in force, published in a 245-page volume, most of which are still in force, with the oldest one dating back to 1881. It is an excellent codification work, especially coordinated by the secretary of the Council, Luís Betencourt Miranda.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Santana",
+        "Calheta",
+        "Machico",
+        "Porto do Moniz",
+        "São Vicente",
+        "Ponta do Sol",
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Luís Betencourt Miranda": [
+            "Secretary of the Municipal Council of Funchal"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Year in which the Municipal Councils began to establish local legal precepts"
+        ],
+        "1841": [
+            "Printing of the regulations in force by the Municipal Council of Santana"
+        ],
+        "1842": [
+            "Printing of the regulations in force by the Municipal Council of Calheta"
+        ],
+        "1856": [
+            "Printing of the regulations in force by the Municipal Council of Machico"
+        ],
+        "1890": [
+            "Printing of the regulations in force by the Municipal Council of Porto do Moniz"
+        ],
+        "1897": [
+            "Printing of the regulations in force by the Municipal Council of São Vicente"
+        ],
+        "1900": [
+            "Printing of the regulations in force by the Municipal Council of Ponta do Sol"
+        ],
+        "1912": [
+            "Publication of the \"Código de Posturas do Município do Funchal\""
+        ]
+    }
+}

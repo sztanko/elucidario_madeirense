@@ -1,0 +1,23 @@
+{
+    "id": 1859,
+    "lang": "de",
+    "is_original": false,
+    "title": "Morgenzeitung",
+    "fl": "M",
+    "original_title": "Jornal da Manhã",
+    "body": "Es wurden einhundertachtundzwanzig Ausgaben dieser Zeitung veröffentlicht, wobei die erste Ausgabe am 6. Februar und die letzte am 22. August 1887 erschien.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "6. Februar": [
+            "Veröffentlichung der ersten Ausgabe der Morgenzeitung"
+        ],
+        "22. August 1887": [
+            "Veröffentlichung der letzten Ausgabe der Morgenzeitung"
+        ]
+    }
+}

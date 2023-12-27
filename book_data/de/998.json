@@ -1,0 +1,26 @@
+{
+    "id": 998,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kloster Unserer Lieben Frau von Porciuncula",
+    "fl": "K",
+    "original_title": "Convento de Nossa Senhora da Porciuncula",
+    "body": "Dieses Franziskanerkloster lag in der Gemeinde Ribeira Brava, ein kurzes Stück von der Pfarrkirche entfernt. Es wurde von den Franziskanerbrüdern in einem Jahr erbaut, das wir nicht bestimmen können. Noch vor etwa zehn Jahren konnte man einige Ruinen des Klostergebäudes sehen, und die Fassade und ein Teil des Kirchenschiffs standen noch, was keine allzu bescheidenen Ausmaße hatte. Über dem Portikus stand die Jahreszahl 1730, von der wir nicht wissen, ob sie das Jahr der Gründung des Klosters oder den Bau der Kirche darstellt, was uns wahrscheinlicher erscheint.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Gemeinde mit Kloster"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1730": [
+            "Datum über dem Portikus"
+        ]
+    }
+}

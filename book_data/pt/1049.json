@@ -1,0 +1,56 @@
+{
+    "id": 1049,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa do Sul",
+    "fl": "C",
+    "original_title": "Costa do Sul",
+    "body": "A costa meridional da Madeira, vulgarmente chamada Costa do Sul, alonga-se desde a\n acentuada saliencia do litoral que tem o nome da Ponta do Pargo até o extremo da Ponta de São Lourenço.\n A região do sul é muito amena e pitoresca, tem mais enseadas e lugares de desembarque, o que junto ao\n abrigo que contra os ventos dominantes produz a massa geral da ilha, faz com que os navios e os barcos\n encontrem nesta costa a segurança que a do norte lhes nega, como acontece na baía do Funchal. Ficam\n nesta costa do sul as freguesias dos concelhos da Calheta, Ponta do Sol, Ribeira Brava, Camara de Lôbos,\n Funchal, Santa Cruz e Machico, com excepção da freguesia do Porto da Cruz e o litoral-norte do Caniçal,\n pertencentes ao ultimo daqueles concelhos.\n\nO citado Mousinho de Albuquerque, referindo-se ao litoral maritimo da Costa Sul, diz “Partindo da Ponta\n do Pargo, corre a costa meridional da Ilha ao S. E. até a Ponta do Jardim, apresentando nesta extensão\n algumas pequenas baixas e penedos mui proximo á mesma Costa, particularmente diante do Paúl do Mar e\ndo mesmo Jardim. Segue depois a costa a direcção do E. S. E. até a Ponta do Sol, e de ali até a Ponta da\n Cruz, a mais meridional da Ilha, corre na generalidade, e prescindindo das sinuosidades e pontos menores,\n na direcção E. S. E\n¼\nE.. Da Ponta da Cruz até o Cabo Garajau, onde se acha a baía do Funchal, é a direcção\n da costa proximamente E\n¼\nN., e passado este Cabo e até a Ponta dos Picos da Atalaia torna-se esta\n sensivelmente E. N. E., e de ali até o Caniçal na origem da Ponta de São Lourenço é a mesma direcção geral\n da Costa N. N. E\n¼\nE. Em quasi tôda a extensão do litoral desta Costa o mar é fundo e livre de baixios com\n excepção do Ilhéu do Gorgulho, Baixa do Carneiro, o Ilhéu fortificado e a extremidade da Ponta de São\n Lourenço circundada de alguns rochedos ilhados e pequenos cabeços de rocha que as aguas cobrem”.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Calheta",
+        "Ponta do Sol",
+        "Ribeira Brava",
+        "Camara de Lôbos",
+        "Funchal",
+        "Santa Cruz",
+        "Machico"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Acentuada saliencia do litoral"
+        ],
+        "Ponta de São Lourenço": [
+            "Extremo da Ponta de São Lourenço"
+        ],
+        "Paúl do Mar": [
+            "Algumas pequenas baixas e penedos mui proximo á mesma Costa"
+        ],
+        "Ponta do Jardim": [
+            "Algumas pequenas baixas e penedos mui proximo á mesma Costa"
+        ],
+        "Ponta do Sol": [
+            "Direcção do E. S. E"
+        ],
+        "Ponta da Cruz": [
+            "Mais meridional da Ilha"
+        ],
+        "Cabo Garajau": [
+            "Baía do Funchal"
+        ],
+        "Ponta dos Picos da Atalaia": [
+            "Direcção geral da Costa N. N. E\n¼\nE"
+        ],
+        "Caniçal": [
+            "Origem da Ponta de São Lourenço"
+        ]
+    },
+    "people": {
+        "Mousinho de Albuquerque": [
+            "Refere-se ao litoral maritimo da Costa Sul"
+        ]
+    },
+    "years": {}
+}

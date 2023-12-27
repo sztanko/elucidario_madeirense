@@ -1,0 +1,35 @@
+{
+    "id": 2740,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pereira (Padre Eduardo Clemente Nunes)",
+    "fl": "P",
+    "original_title": "Pereira (Padre Eduardo Clemente Nunes)",
+    "body": "Nasceu na freguesia de Camara de Lôbos a 23 de Novembro de 1887 e ordenou-se de presbitero no Continente da República no ano de 1913. Foi professor do liceu do Funchal e tem colaborado em diversos jornais desta cidade. São da sua autoria: *Delenda est Carthago*, discurso, 1913, de 37 pag; *Golpes*, colecção de poesias, 1914, de 151 pag.; *Manual de Nossa Senhora do Carmo e Santa Thereza*, tradução, de 323 pag.; *Como se Vence*, 1 vol. e *Ilhas de Zargo*, 2 volumes.",
+    "categories": [
+        "history",
+        "culture",
+        "education"
+    ],
+    "freguesias": [
+        "Camara de Lôbos"
+    ],
+    "locations": {
+        "Camara de Lôbos": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Padre Eduardo Clemente Nunes Pereira": [
+            "Nascimento, ordenação e obras literárias"
+        ]
+    },
+    "years": {
+        "1887": [
+            "Nascimento"
+        ],
+        "1913": [
+            "Ordenação como presbitero"
+        ]
+    }
+}

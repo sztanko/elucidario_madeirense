@@ -1,0 +1,52 @@
+{
+    "id": 2277,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mercados",
+    "fl": "M",
+    "original_title": "Mercados",
+    "body": "– Mercado de S. João. Foi inaugurado no dia 24 de Junho de 1823 e devia chamar-se Mercado Constitucional de S. João, nome êste que não chegou a ser-lhe dado por ter chegado á Madeira a noticia do restabelecimento do regimen absolutista, em virtude da revolução de 27 de Maio do mesmo ano. Ficava no local onde se ergue hoje o teatro do «Dr. Manuel de Arriaga», tendo sido construído com dinheiro emprestado por João de Carvalhal Esmeraldo, presidente da primeira Camara Constitucional.\n\nEra conhecido em nossos dias pela denominação de «Feira Velha» e foi demolido em 1883, quando a Municipalidade resolveu construir o referido teatro. Dentro do recinto do mercado, construiu-se em 1878 o «Circo Funchalense», onde trabalharam algumas companhias.\n\nO mercado chamado de S. João esteve para ser construído entre as ruas do Hospital Velho e Nova de Santa Maria, num campo que ali existia, o qual chegou a ser vistoriado pela Camara e o tenente-coronel de engenharia Feliciano António de Matos em 15 de Maio de 1821.\n\nO terreno onde o mercado foi edificado pertencia aos frades de S. Francisco e foi aforado à Câmara em 24 de Dezembro de 1822.\n\nParece que o mercado de S. João esteve encerrado ou deixou de servir o público durante algum tempo, pois lemos algures que ele foi reaberto a 4 de Abril de 1846.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localização do teatro do «Dr. Manuel de Arriaga»"
+        ],
+        "Hospital Velho": [
+            "Uma das ruas onde o mercado esteve para ser construído"
+        ],
+        "Nova de Santa Maria": [
+            "Uma das ruas onde o mercado esteve para ser construído"
+        ]
+    },
+    "people": {
+        "João de Carvalhal Esmeraldo": [
+            "Presidente da primeira Camara Constitucional"
+        ],
+        "Feliciano António de Matos": [
+            "Tenente-coronel de engenharia"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Noticia do restabelecimento do regimen absolutista"
+        ],
+        "1883": [
+            "Demolição do mercado"
+        ],
+        "1878": [
+            "Construção do «Circo Funchalense»"
+        ],
+        "1821": [
+            "Vistoria do local para construção do mercado"
+        ],
+        "1822": [
+            "Aforamento do terreno à Câmara"
+        ],
+        "1846": [
+            "Reabertura do mercado"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 794,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Carvalho (João da Silva)",
+    "fl": "C",
+    "original_title": "Carvalho (João da Silva)",
+    "body": "Nasceu no Funchal a 16 de Outubro de 1821 e exerceu com muita proficiencia o magisterio primario nesta cidade durante perto de 60 anos, tendo fundado o seu primeiro colegio em 2 de Outubro de 1845, associado a Augusto Correia de Sampaio, também já falecido. A Camara Municipal em atenção aos seus serviços concedeu-lhe nos ultimos anos da sua vida a pensão anual de 240:000 réis. Colaborou no Estudo, na Ordem e noutros periodicos, foi membro da Camara Municipal e da Comissão Distrital, e publicou em 1867, com um prefacio seu, a obra de Januario Justiniano de Nobrega sôbre a visita da Imperatriz do Brasil á Madeira. Faleceu no Funchal a 9 de Julho de 1903.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Augusto Correia de Sampaio": [
+            "Cofundador do primeiro colegio de João da Silva Carvalho"
+        ]
+    },
+    "years": {
+        "1821": [
+            "Nascimento de João da Silva Carvalho"
+        ],
+        "1845": [
+            "Fundação do primeiro colegio"
+        ],
+        "1867": [
+            "Publicação da obra de Januario Justiniano de Nobrega"
+        ]
+    }
+}

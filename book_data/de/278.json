@@ -1,0 +1,40 @@
+{
+    "id": 278,
+    "lang": "de",
+    "is_original": false,
+    "title": "Arvelos",
+    "fl": "A",
+    "original_title": "Arvelos",
+    "body": "Die ersten, von denen bekannt ist, dass sie diesen Nachnamen auf Madeira benutzten, sind Diogo de Arvelos, der sich um 1490 in Machico niederließ, und Pedro Gonçalves de Arvelos, der 1569 in Santa Cruz das Amt des Richters bekleidete. Beide waren Adlige.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Machico": [
+            "Ort, an dem sich Diogo de Arvelos niederließ"
+        ],
+        "Santa Cruz": [
+            "Ort, an dem Pedro Gonçalves de Arvelos das Amt des Richters bekleidete"
+        ]
+    },
+    "people": {
+        "Diogo de Arvelos": [
+            "Ließ sich in Machico nieder"
+        ],
+        "Pedro Gonçalves de Arvelos": [
+            "Bekleidete das Amt des Richters in Santa Cruz"
+        ]
+    },
+    "years": {
+        "1490": [
+            "Diogo de Arvelos ließ sich in Machico nieder"
+        ],
+        "1569": [
+            "Pedro Gonçalves de Arvelos bekleidete das Amt des Richters in Santa Cruz"
+        ]
+    }
+}

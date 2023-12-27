@@ -1,0 +1,28 @@
+{
+    "id": 2551,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nunes da Mata (José)",
+    "fl": "N",
+    "original_title": "Nunes da Mata (José)",
+    "body": "Er war 1920 auf Madeira und veröffentlichte 1921 in Lissabon eine 24-seitige Broschüre mit dem Titel Luftverkehr zwischen Portugal und der Insel Madeira.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Veröffentlichungsort"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1920": [
+            "Besuch auf Madeira"
+        ],
+        "1921": [
+            "Veröffentlichung der Broschüre"
+        ]
+    }
+}

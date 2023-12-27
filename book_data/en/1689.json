@@ -1,0 +1,45 @@
+{
+    "id": 1689,
+    "lang": "en",
+    "is_original": false,
+    "title": "Henriques (Father João Mauricio)",
+    "fl": "H",
+    "original_title": "Henriques (Padre João Mauricio)",
+    "body": "He was born in this city on March 22, 1852, the son of António Gomes Henriques and D. Ana Rosa de Sousa Henriques, and died in Lisbon on December 16, 1901. He attended the lyceum and the seminary of Funchal, and was ordained a priest in the year 1877. After serving ecclesiastical functions as the parish priest of Santa Cruz and the parish priest of Achadas da Cruz and Santana, he was appointed a military chaplain by decree of March 2, 1885, serving for some time in the Algarve and then in 1887, providing service in Funchal, in the 12th hunters regiment and later in the 27th infantry. He collaborated in some Madeiran newspapers and was the editor of the Diário de Noticias of this city. In 1909, he published in Funchal a 104-page booklet, entitled Brief Historical and Descriptive Notice of the extinct 12th hunters regiment.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Achadas da Cruz",
+        "Santana"
+    ],
+    "locations": {
+        "Lisbon": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "António Gomes Henriques": [
+            "Father"
+        ],
+        "D. Ana Rosa de Sousa Henriques": [
+            "Mother"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Birth"
+        ],
+        "1877": [
+            "Ordination as a priest"
+        ],
+        "1885": [
+            "Appointment as a military chaplain"
+        ],
+        "1909": [
+            "Publication of the booklet"
+        ]
+    }
+}

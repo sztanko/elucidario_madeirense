@@ -1,0 +1,44 @@
+{
+    "id": 2697,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pedroso (João António)",
+    "fl": "P",
+    "original_title": "Pedroso (João António)",
+    "body": "Er stammte aus der Gemeinde Santissimo nome de Jesus in Odivelas und war der Sohn von Francisco Antonio Pedroso und Inacia Joaquina. Als er sich 1823 auf Madeira aufhielt, wurde er aus politischen Gründen auf Porto Santo verbannt, wo er später zum Gemeindeschreiber der Stadtverwaltung ernannt wurde. Er führte auf dieser Insel den Johannisbrotbaum ein, der sich dort leicht ausbreitete und den Einwohnern große Dienste leistet, und war ein enger Freund des britischen Botanikers Lowe, der ihm seine Gattung Pedrosia widmete, die moderne Botaniker in die alte Gattung Lotus einordnen. Er arbeitete für einige madeirische Zeitschriften mit und starb auf Porto Santo im Alter von 68 Jahren am 29. März 1869.",
+    "categories": [
+        "history",
+        "biology",
+        "politics"
+    ],
+    "freguesias": [
+        "Odivelas"
+    ],
+    "locations": {
+        "Santissimo nome de Jesus": [
+            "Gemeinde in Odivelas"
+        ],
+        "Porto Santo": [
+            "Ort der Verbannung und des Todes"
+        ]
+    },
+    "people": {
+        "Francisco Antonio Pedroso": [
+            "Vater von João António Pedroso"
+        ],
+        "Inacia Joaquina": [
+            "Mutter von João António Pedroso"
+        ],
+        "Lowe": [
+            "Britischer Botaniker"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Jahr der Verbannung nach Porto Santo"
+        ],
+        "1869": [
+            "Tod von João António Pedroso"
+        ]
+    }
+}

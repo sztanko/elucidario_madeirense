@@ -1,0 +1,47 @@
+{
+    "id": 3386,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sondierungen",
+    "fl": "S",
+    "original_title": "Sondagens",
+    "body": "> Madeira ist von einem sehr tiefen Meer umgeben, wobei die Sonde bis auf 4205 Meter in einer Entfernung von 120 Seemeilen von der Nordküste der Insel und bis auf 3019 Meter in einer Entfernung von 50 Seemeilen von derselben Küste in Richtung der Azoren hinabgelassen wurde. Zwischen Madeira und den Kanarischen Inseln sank die Sonde bis auf 4392 Meter und zwischen Madeira und der Küste Afrikas, in geringer Entfernung von der Insel, auf 4071 Meter. Zwischen Madeira und Porto Santo wurden stellenweise Tiefen von mehr als 2000 Metern festgestellt, während zwischen Madeira und den Azoren die Sonde bereits bis auf 4895 Meter hinabsank.\n>\n> Die Ergebnisse der zahlreichen Lotungen, die in den Meeren um Madeira, Porto Santo und Desertas durchgeführt wurden, sind in den geohydrographischen Karten enthalten, die der Ingenieur Antonio Pedro de Azevedo 1877, 1879 und 1886 veröffentlichte.\n>\n> In den Meeren bei Ponta do Pargo gibt es eine etwa eineinhalb Meilen lange Untiefe, der sich die Küstenschiffe ausweichen müssen, wenn die Winde von Westen her wehen, und zwischen der Ponta de S. Lourenço und den Desertas gibt es eine Unterwasserbank, die in ihrer mittleren Tiefe 30 bis 130 Meter misst.",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Azoren": [
+            "Archipel"
+        ],
+        "Porto Santo": [
+            "Insel"
+        ],
+        "Desertas": [
+            "Inseln"
+        ],
+        "Ponta do Pargo": [
+            "Ort"
+        ],
+        "S. Lourenço": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Ingenieur"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Veröffentlichung der geohydrographischen Karten durch Antonio Pedro de Azevedo"
+        ],
+        "1879": [
+            "Veröffentlichung der geohydrographischen Karten durch Antonio Pedro de Azevedo"
+        ],
+        "1886": [
+            "Veröffentlichung der geohydrographischen Karten durch Antonio Pedro de Azevedo"
+        ]
+    }
+}

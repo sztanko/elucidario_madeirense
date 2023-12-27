@@ -1,0 +1,46 @@
+{
+    "id": 628,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cadeia Velha (Rua da)",
+    "fl": "C",
+    "original_title": "Cadeia Velha (Rua da)",
+    "body": "This is the public road that directly connects Rua Direita with the small square of the Carmo church, and it is accessed by the Medinas and Monteiro streets. Its name originated from the former city jail located at the intersection formed by this street and Rua Direita, to the right of those heading from the Carmo church towards the latter street. The house that belonged to the Oliveira family is located on Rua da Cadeia Velha, whose members included João Francisco de Oliveira, Joaquim de Oliveira Alvares, and Benjamim de Oliveira (see these names), among others. Paulo Perestrelo da Câmara asserts that it was one of the largest urban properties in Funchal, and its construction is believed to date back to the early 18th century.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua Direita": [
+            "Public road in Funchal"
+        ],
+        "Largo da igreja do Carmo": [
+            "Public space in Funchal"
+        ],
+        "Ruas dos Medinas": [
+            "Public roads in Funchal"
+        ],
+        "Rua do Monteiro": [
+            "Public road in Funchal"
+        ]
+    },
+    "people": {
+        "João Francisco de Oliveira": [
+            "Member of the Oliveira family"
+        ],
+        "Joaquim de Oliveira Alvares": [
+            "Member of the Oliveira family"
+        ],
+        "Benjamim de Oliveira": [
+            "Member of the Oliveira family"
+        ],
+        "Paulo Perestrelo da Câmara": [
+            "Asserts that it was one of the largest urban properties in Funchal"
+        ]
+    },
+    "years": {
+        "Século XVIII": [
+            "Construction of the house that belonged to the Oliveira family"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 1605,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gonçalves (Comendador Manuel)",
+    "fl": "G",
+    "original_title": "Gonçalves (Comendador Manuel)",
+    "body": "Foi um inteligente e activo comerciante do Funchal, que pelo seu génio empreendedor e de rasgada iniciativa prestou excelentes serviços á sua terra, e mais ampla e prestimosa seria a sua acção se uma acintosa guerra não tivesse entravado a realização dos seus projectos. Foram grandes e frutuosas as diligências que empregou para libertar o comercio local da influencia de certas casas estrangeiras, que asfixiavam as actividades comerciais e industriais dos negociantes naturais desta ilha. Deve-se principalmente ao seu esforço a organização da Companhia dos Sanatórios, como mais largamente se verá no artigo que lhe será dedicado. Como director da Companhia de Ferro do Monte, realizou o importante melhoramento do prolongamento do elevador desde o Monte até o Terreiro da Luta, e fez construir ali um excelente restaurante, que rivalizava com os estabelecimentos congéneres existentes no estrangeiro. O comendador Gonçalves nasceu no Funchal por 1867 e faleceu na freguesia do Monte a 18 de Agosto de 1916.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ],
+        "Monte": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "Gonçalves (Comendador Manuel)": [
+            "Inteligente e activo comerciante"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Ano de nascimento"
+        ],
+        "1916": [
+            "Ano de falecimento"
+        ]
+    }
+}

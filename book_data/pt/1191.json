@@ -1,0 +1,27 @@
+{
+    "id": 1191,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Driver (John)",
+    "fl": "D",
+    "original_title": "Driver (John)",
+    "body": "Letters from Madeira in 1834, Londres, 1838 e Historical and descriptive account of the Island of Madeira, and guide to Visitors. Esta ultima obra anda anexa á do Dr. Mason sobre o clima da Madeira, publicada em 1850.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Mason": [
+            "Dr. Mason publicou uma obra sobre o clima da Madeira em 1850"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Publicação de Letters from Madeira"
+        ],
+        "1850": [
+            "Publicação da obra sobre o clima da Madeira"
+        ]
+    }
+}

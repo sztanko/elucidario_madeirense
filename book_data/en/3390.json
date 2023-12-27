@@ -1,0 +1,28 @@
+{
+    "id": 3390,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa (Afonso Caminha de Vasconcelos)",
+    "fl": "S",
+    "original_title": "Sousa (Afonso Caminha de Vasconcelos)",
+    "body": "He was the Count of Calheta and the 2nd Donatary of Funchal, having received the captaincy in 1726.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Locality"
+        ],
+        "Funchal": [
+            "City"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1726": [
+            "Receipt of the captaincy by Afonso Caminha de Vasconcelos Sousa"
+        ]
+    }
+}

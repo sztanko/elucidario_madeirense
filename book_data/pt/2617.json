@@ -1,0 +1,32 @@
+{
+    "id": 2617,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Outeiro",
+    "fl": "O",
+    "original_title": "Outeiro",
+    "body": "Sitio povoado da freguesia dos Canhas. Existiu ali uma capela com as invocações de Nossa Senhora e Santana, erigida em 1733 por Manuel Rodrigues de Canha.\n\nJosé Francisco Cabral de Noronha e sua mulher D. Maria Trindade de Noronha fizeram há poucos anos construir neste sitio uma capela dedicada ao Sagrado Coração de Jesus.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {},
+    "people": {
+        "Manuel Rodrigues de Canha": [
+            "Erigiu a capela"
+        ],
+        "José Francisco Cabral de Noronha": [
+            "Construiu a capela dedicada ao Sagrado Coração de Jesus"
+        ],
+        "D. Maria Trindade de Noronha": [
+            "Construiu a capela dedicada ao Sagrado Coração de Jesus"
+        ]
+    },
+    "years": {
+        "1733": [
+            "Construção da capela com as invocações de Nossa Senhora e Santana"
+        ]
+    }
+}

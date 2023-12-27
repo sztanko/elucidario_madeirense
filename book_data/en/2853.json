@@ -1,0 +1,65 @@
+{
+    "id": 2853,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pontas",
+    "fl": "P",
+    "original_title": "Pontas",
+    "body": "The main points are: S. Lourenço in the municipality of Machico, which has several secondary points such as Furado, Abra, Dedais, Rosto, etc.; Queimada, in the same municipality; Santa Catarina, Guindaste, Atalaia, and Oliveira, in the municipality of Santa Cruz; Cruz, in the municipality of Funchal; Agua, in the municipality of Camara de Lôbos; Sol, in the municipality of Ponta do Sol; Galé and Pargo, in the municipality of Calheta; Tristão, in the municipality of Porto do Moniz; Delgada, in the municipality of S. Vicente; and S. Jorge, Santana, and Cortado, in the municipality of Santana (See these names).\n\nThe main points of the island of Porto Santo are: Incão, Frades, Branca, Cruz, Varadouros, Furado, and Calheta. (See Porto Santo).\n\nIn the Desertas, there are: the point of Agulha, in Bugio, and Boqueirão, Pedregal, Norte, and Rocha Negra, in Deserta Grande (See Desertas and Cabos).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "S. Lourenço": [
+            "Machico municipality"
+        ],
+        "Queimada": [
+            "Machico municipality"
+        ],
+        "Santa Catarina": [
+            "Santa Cruz municipality"
+        ],
+        "Guindaste": [
+            "Santa Cruz municipality"
+        ],
+        "Atalaia": [
+            "Santa Cruz municipality"
+        ],
+        "Oliveira": [
+            "Santa Cruz municipality"
+        ],
+        "Cruz": [
+            "Funchal municipality"
+        ],
+        "Agua": [
+            "Camara de Lôbos municipality"
+        ],
+        "Sol": [
+            "Ponta do Sol municipality"
+        ],
+        "Galé": [
+            "Calheta municipality"
+        ],
+        "Pargo": [
+            "Calheta municipality"
+        ],
+        "Tristão": [
+            "Porto do Moniz municipality"
+        ],
+        "Delgada": [
+            "S. Vicente municipality"
+        ],
+        "S. Jorge": [
+            "Santana municipality"
+        ],
+        "Porto Santo": [
+            "Island of Porto Santo"
+        ],
+        "Desertas": [
+            "Point of Agulha in Bugio, and Boqueirão, Pedregal, Norte, and Rocha Negra in Deserta Grande"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

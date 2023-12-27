@@ -1,0 +1,34 @@
+{
+    "id": 79,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aguiar (D. Nuno)",
+    "fl": "A",
+    "original_title": "Aguiar (D. Nuno)",
+    "body": "Dr. Alvaro Rodrigues de Azevedo appoints him as D. Martinho de Aguiar, but in various chronicles and nobiliaries, and in the interesting memoir of Paiva Manso about the Esquadras de Marrocos, his name is generally cited as D. Nuno de Aguiar. It is affirmed that he was born in the parish of S. Martinho and was the son of Diogo de Aguiar and the grandson of João Gonçalves Zargo, the first captain-donor of Funchal. He was a Cistercian monk and held important ecclesiastical positions. He accompanied King D. Afonso V to Africa in the conquest of Arzila and Tangier, and when the latter diocese was created, he obtained his appointment as its prelate. He sought to annex the archipelago of Madeira to his bishopric, but this was strongly opposed by Infanta D. Beatriz, as the guardian of her son D. Diogo, Grand Master of the Order of Christ, supported by the monarch and the donors of this island. D. Nuno de Aguiar remained in his diocese for a short time and after twenty years of episcopacy, he died on the Portuguese mainland in the year 1491.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "S. Martinho"
+    ],
+    "locations": {
+        "S. Martinho": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Diogo de Aguiar": [
+            "Father"
+        ],
+        "João Gonçalves Zargo": [
+            "Grandfather"
+        ]
+    },
+    "years": {
+        "1491": [
+            "Death"
+        ]
+    }
+}

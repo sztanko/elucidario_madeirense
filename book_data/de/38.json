@@ -1,0 +1,28 @@
+{
+    "id": 38,
+    "lang": "de",
+    "is_original": false,
+    "title": "Achada",
+    "fl": "A",
+    "original_title": "Achada",
+    "body": "Kleine Hochebene in der Gemeinde Camacha in der Nähe der Pfarrkirche, in deren Umkreis sich ein isolierter Turm mit Uhr und eine kleine Kapelle befinden, die 1924 dem heiligen Josef geweiht wurde. Es ist ein malerischer Ort, der von Besuchern dieser Gemeinde viel besucht wird. Früher war er unter den auf Madeira ansässigen Ausländern als Fußballspiel bekannt und diente für verschiedene Sportspiele. Er gibt Zugang zu dem alten und angenehmen Anwesen Grabham, in dem sich das Hotel des Ortes befindet.",
+    "categories": [
+        "geography",
+        "culture",
+        "sports"
+    ],
+    "freguesias": [
+        "Camacha"
+    ],
+    "locations": {
+        "Camacha": [
+            "Gemeinde, in der sich das Hochplateau Achada befindet."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1924": [
+            "Jahr, in dem die kleine Kapelle dem heiligen Josef geweiht wurde."
+        ]
+    }
+}

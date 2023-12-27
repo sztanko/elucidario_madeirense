@@ -1,0 +1,30 @@
+{
+    "id": 519,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Boieiro (Puffinus anglorum)",
+    "fl": "B",
+    "original_title": "Boieiro (Puffinus anglorum)",
+    "body": "Palmipede marinho não muito vulgar nestas ilhas. Frequenta o alto mar durante o dia, recolhendo à terra pela noite adiante. Como ave diurna, é chamado boieiro pelos homens do mar, como ave nocturna, é em toda a Madeira conhecido como estrapagado, papagarro ou patagarro, designações onomatopaicas, que imitam menos mal a sua voz característica. Cria nas Desertas e nas rochas pouco acessíveis da Madeira, como o Curral das Freiras, Areeiro e Penha de Águia. A postura é dum só ovo, dum branco puro; deposto num buraco dos rochedos. Para muita gente é ave de mau agouro. Segundo a crença popular, haverá morte próxima entre os moradores duma habitação, sempre que nela vá pousar um patagarro ao fazer a excurção nocturna das montanhas para o mar, ou vice versa. Emigra ausentando se do arquipelago durante o inverno, para voltar nos fins de Fevereiro ou princípios de Marco.",
+    "categories": [
+        "biology",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Desertas": [
+            "Local de criação do boieiro"
+        ],
+        "Curral das Freiras": [
+            "Local de criação do boieiro"
+        ],
+        "Areeiro": [
+            "Local de criação do boieiro"
+        ],
+        "Penha de Águia": [
+            "Local de criação do boieiro"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

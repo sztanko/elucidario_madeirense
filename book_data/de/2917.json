@@ -1,0 +1,39 @@
+{
+    "id": 2917,
+    "lang": "de",
+    "is_original": false,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "Besiedelte Stelle in der Gemeinde Santo António do Funchal, in der sich eine Kapelle zu Ehren Unserer Lieben Frau von Preces befindet, die 1768 erbaut und 1770 von ihrem Verwalter und möglicherweise Gründer, Kapitän Rodrigo da Costa, verwaltet wurde. Sie wurde 1856 von ihrer Eigentümerin D. Joana de Albuquerque e França wiederaufgebaut.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {
+        "Santo António do Funchal": [
+            "Gemeinde, in der sich die besiedelte Stelle Preces befindet"
+        ]
+    },
+    "people": {
+        "Rodrigo da Costa": [
+            "Verwalter und möglicher Gründer der Kapelle Unserer Lieben Frau von Preces im Jahr 1770"
+        ],
+        "D. Joana de Albuquerque e França": [
+            "Eigentümerin, die für den Wiederaufbau der Kapelle im Jahr 1856 verantwortlich war"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Jahr des Baus der Kapelle Unserer Lieben Frau von Preces"
+        ],
+        "1770": [
+            "Jahr, in dem Rodrigo da Costa Verwalter und möglicher Gründer der Kapelle war"
+        ],
+        "1856": [
+            "Jahr des Wiederaufbaus der Kapelle durch D. Joana de Albuquerque e França"
+        ]
+    }
+}

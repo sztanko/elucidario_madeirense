@@ -1,0 +1,28 @@
+{
+    "id": 842,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gazella",
+    "fl": "G",
+    "original_title": "Gazella",
+    "body": "Dieser bekannte Musiker, der Lehrer von König Ludwig I. war, war 1850 auf Madeira und gab hier einige Konzerte.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem der Musiker 1850 einige Konzerte gab"
+        ]
+    },
+    "people": {
+        "D. Luiz I": [
+            "König, für den der Musiker Lehrer war"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Jahr, in dem der Musiker auf Madeira war"
+        ]
+    }
+}

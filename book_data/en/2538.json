@@ -1,0 +1,31 @@
+{
+    "id": 2538,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nova de Santa Maria (Rua)",
+    "fl": "N",
+    "original_title": "Nova de Santa Maria (Rua)",
+    "body": "Roughly parallel to the street of Santa Maria and a short distance from it, is the Rua Nova de Santa Maria, which was opened shortly after the flood of 1803, when there was only a small alley there. Between the mouths of these two streets, stood the church of Nossa Senhora do Calhau, or of Santa Maria, which gave its name to these streets. It extends from the bank of the João Gomes stream to the largo das Bicas or Torneiras, which is the beginning of the Bela de S. Tiago street. It is now named Latino Coelho.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Maria": [
+            "Parallel street"
+        ],
+        "Calhau": [
+            "Location of the church"
+        ]
+    },
+    "people": {
+        "Latino Coelho": [
+            "Current name of the street"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Flood"
+        ]
+    }
+}

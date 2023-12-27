@@ -1,0 +1,35 @@
+{
+    "id": 3488,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Tolentino da Costa (Dr. Fernando)",
+    "fl": "T",
+    "original_title": "Tolentino da Costa (Dr. Fernando)",
+    "body": "Nasceu no Porto do Moniz a 10 de Fevereiro de 1873 e cursou o liceu e a Escola Médico-Cirúrgica do Funchal, tendo concluído o curso médico em 1897. Foi facultativo em S. Tomé e na Trafariat e médico dos vapores portugueses de J. M. Andressen, do Porto. Fez parte da comissão administrativa da Câmara Municipal do Funchal durante o governo do conselheiro João Franco e foi mais tarde, depois da República, presidente da mesma Câmara, sendo por iniciativa sua que se fez a demolição do edifício da cadeia do largo da Sé, reclamada durante mais de meio século pela imprensa e pelo público funchalense. Tem sido presidente da comissão executiva da Junta Geral do Distrito e fez parte da antiga Junta Agrícola, sendo devido a uma proposta sua que esta última corporação fez publicar a Flora do Archipelago da Madeira, em 1914 (1921).",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto do Moniz": [
+            "Local de nascimento de Dr. Fernando Tolentino da Costa"
+        ],
+        "Funchal": [
+            "Local onde cursou o liceu e a Escola Médico-Cirúrgica"
+        ]
+    },
+    "people": {
+        "Dr. Fernando Tolentino da Costa": [
+            "Médico e político"
+        ]
+    },
+    "years": {
+        "1873": [
+            "Nascimento de Dr. Fernando Tolentino da Costa"
+        ],
+        "1897": [
+            "Conclusão do curso médico"
+        ]
+    }
+}

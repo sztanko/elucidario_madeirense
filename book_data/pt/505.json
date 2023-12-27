@@ -1,0 +1,25 @@
+{
+    "id": 505,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bôca das Voltas",
+    "fl": "B",
+    "original_title": "Bôca das Voltas",
+    "body": "Sítio entre o Pico do Arco e o do Canário, de onde parte um caminho que conduz à Ribeira da Boaventura. A Boca das Voltas está a cerca de 750 metros acima do nível do mar.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {
+        "Pico do Arco": [
+            "Localização próxima à Boca das Voltas"
+        ],
+        "Ribeira da Boaventura": [
+            "Local para onde o caminho da Boca das Voltas conduz"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

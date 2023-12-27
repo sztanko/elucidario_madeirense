@@ -1,0 +1,38 @@
+{
+    "id": 1295,
+    "lang": "de",
+    "is_original": false,
+    "title": "Hinrichtungen",
+    "fl": "H",
+    "original_title": "Execuções Capitais",
+    "body": "Wir haben nur wenige Informationen über Hinrichtungen auf diesen Inseln, die durch ein öffentliches Urteil angeordnet wurden. Es wurde bereits vermutet, dass der Ort namens Galgen in der Gemeinde Santa Maria Maior der Ort war, an dem ein Todesurteil vollstreckt wurde, bei dem der Galgen das Hinrichtungswerkzeug war, das gegen den Verbrecher eingesetzt wurde. Wir wissen es nicht, und neigen sogar dazu, zu glauben, dass die zur Rechtfertigung des Namens dieses Ortes gegebene Erklärung keine ernsthafte Grundlage hat.\n\nIn Bezug auf João Rodrigues Castelhano, der Ländereien in der Gemeinde Estreito da Calheta in Pacht hatte, sagt Dr. Gaspar Frutuoso Folgendes: \"Er hatte viele Sklaven, von denen fünf einen Verwalter von ihm töteten; er übergab sie der Justiz und sie wurden in Calheta gehängt\".\n\nWährend der Herrschaft Philipps II. wurde 1582 in Funchal nach Angaben von Rebêlo da Silva der Geistliche Fr. João do Espírito Santo gehängt, der beschuldigt wurde, das Volk aufgefordert zu haben, der Partei von D. Antonio, dem Prior von Crato, zu folgen.\n\nIm Dezember 1813, als diese Insel von britischen Truppen besetzt war, wurde in dieser Stadt ein englischer Soldat gehängt, weil er einen Sergeanten seines Landes ermordet hatte. Gegen diese Hinrichtung, die die Rechte der portugiesischen Souveränität verletzte, protestierte der damalige Gouverneur und Generalhauptmann des Archipels, Luiz Beltrão, ohne dass General Gordon, der Befehlshaber der englischen Streitkräfte, auf seinen Einspruch einging.\n\nZu Beginn des 17. Jahrhunderts wurde Francisco Rodrigues Jardim, ein Mann niederer Herkunft, in effigie auf dem Platz Pelourinho in dieser Stadt gehängt, weil er eine Dame namens D. Maria de Ornelas, die alten und edlen madeirischen Familien angehörte, entführt hatte. Wäre er nicht durch seine Flucht dem Zugriff der Justizbehörden entgangen, hätte er dort seine Verwegenheit mit dem Leben bezahlt.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "Estreito da Calheta"
+    ],
+    "locations": {},
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiker"
+        ],
+        "João Rodrigues Castelhano": [
+            "Landbesitzer"
+        ],
+        "Fr. João do Espírito Santo": [
+            "Geistlicher"
+        ],
+        "D. Antonio": [
+            "Prior von Crato"
+        ],
+        "Luiz Beltrão": [
+            "Gouverneur und Generalhauptmann des Archipels"
+        ],
+        "Francisco Rodrigues Jardim": [
+            "Mann niederer Herkunft"
+        ]
+    },
+    "years": {}
+}

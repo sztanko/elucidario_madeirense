@@ -1,0 +1,34 @@
+{
+    "id": 1425,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fontes Pereira de Melo (António Maria de)",
+    "fl": "F",
+    "original_title": "Fontes Pereira de Melo (António Maria de)",
+    "body": "Este notável estadista português esteve na Madeira em 1858, chegando aqui a 10 de Setembro, no bergantim Mariana, e partindo para Cabo Verde, no mesmo navio, no dia 26. Fontes Pereira de Melo que era então tenente de engenharia, visitou as obras da levada do Rabaçal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Mariana": [
+            "Bergantim"
+        ],
+        "Cabo Verde": [
+            "Destino após a visita à Madeira"
+        ],
+        "Rabaçal": [
+            "Obras da levada"
+        ]
+    },
+    "people": {
+        "António Maria de Fontes Pereira de Melo": [
+            "Notável estadista português"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Visita à Madeira"
+        ]
+    }
+}

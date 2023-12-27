@@ -1,0 +1,33 @@
+{
+    "id": 129,
+    "lang": "de",
+    "is_original": false,
+    "title": "Deutscher (Heinrich)",
+    "fl": "D",
+    "original_title": "Alemão (Henrique)",
+    "body": "Der heute ausgestorbene Nachname Deutscher, so sagt der Anmerker der Saudades da Terra den Adelsbüchern folgend, *stammt von Heinrich Deutscher, einer legendären Figur aus den frühen Zeiten der Kolonisierung dieser Insel Madeira. Es wurde gesagt, dass er ein polnischer Prinz war und nach der in 1444 verlorenen Schlacht von Varna zwischen Ladislaus IV. und Murad II. gelobt hatte, als Pilger über Land zu reisen, und zum Ritter vom Heiligen Katharinenberg vom Sinai geschlagen worden war. Als er auf die Insel Madeira kam, gab ihm João Gonçalves Zargo an der später so genannten Stelle Magdalena do Mar durch eine Urkunde, die am 29. April 1457 durch Infant D. Heinrich und am 18. Mai desselben Jahres durch Alfons V. bestätigt wurde, ein großes Sesmarialand. In der Tat gründete Heinrich Deutscher dort einen großen bevölkerten Bauernhof mit einer Kapelle zu Ehren der Heiligen Maria Magdalena, nach der der Ort benannt wurde. Er heiratete Senhorina Anes und starb auf tragische Weise, als er auf dem Weg von Funchal nach Magdalena in seinem Boot von einem Erdrutsch vom Cabo Girão erschlagen wurde. Seine Frau heiratete später João Rodrigues de Freitas. Noch heute gibt es oberhalb der Stadt Ponta do Sol die Fajã do Allemão, die das Volk korrupt als Fajã do Limão bezeichnet.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Magdalena do Mar": [
+            "Großes Sesmarialand, durch eine Urkunde am 29. April 1457 durch Infant D. Heinrich und am 18. Mai desselben Jahres durch Alfons V. bestätigt"
+        ]
+    },
+    "people": {
+        "Heinrich Deutscher": [
+            "Legendäre Figur aus den frühen Zeiten der Kolonisierung dieser Insel Madeira"
+        ]
+    },
+    "years": {
+        "1444": [
+            "Verlorene Schlacht von Varna zwischen Ladislaus IV. und Murad II."
+        ],
+        "1457": [
+            "Heinrich Deutscher gründete einen großen bevölkerten Bauernhof mit einer Kapelle zu Ehren der Heiligen Maria Magdalena"
+        ]
+    }
+}

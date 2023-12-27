@@ -1,0 +1,30 @@
+{
+    "id": 2474,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Boa Nova (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Nova (Capela de)",
+    "body": "In the place of this name, in the parish of São Gonçalo, is the chapel of Nossa Senhora da Boa Nova, founded in 1701 by Eusébio da Silva Barros.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Site of the chapel of Nossa Senhora da Boa Nova"
+        ]
+    },
+    "people": {
+        "Eusébio da Silva Barros": [
+            "Founder of the chapel of Nossa Senhora da Boa Nova"
+        ]
+    },
+    "years": {
+        "1701": [
+            "Foundation of the chapel of Nossa Senhora da Boa Nova"
+        ]
+    }
+}

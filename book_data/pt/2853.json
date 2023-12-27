@@ -1,0 +1,65 @@
+{
+    "id": 2853,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pontas",
+    "fl": "P",
+    "original_title": "Pontas",
+    "body": "As principais pontas são: a de S. Lourenço no concelho de Machico, na qual há diversas pontas secundarias, tais como a do Furado, a da Abra, a dos Dedais, a do Rosto, etc.; a da Queimada, no mesmo concelho; a de Santa Catarina, a do Guindaste, a da Atalaia e a da Oliveira, no concelho de Santa Cruz; a da Cruz, no concelho do Funchal; a de Agua, no concelho de Camara de Lôbos; a do Sol, no concelho da Ponta do Sol; a da Galé e a do Pargo, no concelho da Calheta; a do Tristão, no concelho do Porto do Moniz; a Delgada, no concelho de S. Vicente; e a de S. Jorge, de Santana e do Cortado, no concelho de Santana (Vid. estes nomes).\n\nAs principais pontas da ilha do Porto Santo são: a do Incão, a dos Frades, a Branca, a da Cruz, a dos Varadouros, a do Furado e a da Calheta. (Vid. Porto Santo).\n\nNas Desertas há a assinalar: a ponta da Agulha, no Bugio, e a do Boqueirão, do Pedregal, do Norte e da Rocha Negra, na Deserta Grande (V. Desertas e Cabos).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "S. Lourenço": [
+            "Concelho de Machico"
+        ],
+        "Queimada": [
+            "Concelho de Machico"
+        ],
+        "Santa Catarina": [
+            "Concelho de Santa Cruz"
+        ],
+        "Guindaste": [
+            "Concelho de Santa Cruz"
+        ],
+        "Atalaia": [
+            "Concelho de Santa Cruz"
+        ],
+        "Oliveira": [
+            "Concelho de Santa Cruz"
+        ],
+        "Cruz": [
+            "Concelho do Funchal"
+        ],
+        "Agua": [
+            "Concelho de Camara de Lôbos"
+        ],
+        "Sol": [
+            "Concelho da Ponta do Sol"
+        ],
+        "Galé": [
+            "Concelho da Calheta"
+        ],
+        "Pargo": [
+            "Concelho da Calheta"
+        ],
+        "Tristão": [
+            "Concelho do Porto do Moniz"
+        ],
+        "Delgada": [
+            "Concelho de S. Vicente"
+        ],
+        "S. Jorge": [
+            "Concelho de Santana"
+        ],
+        "Porto Santo": [
+            "Ilha do Porto Santo"
+        ],
+        "Desertas": [
+            "Ponta da Agulha, no Bugio, e a do Boqueirão, do Pedregal, do Norte e da Rocha Negra, na Deserta Grande"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,37 @@
+{
+    "id": 2549,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nunes (Filipe José)",
+    "fl": "N",
+    "original_title": "Nunes (Filipe José)",
+    "body": "Er wurde 1824 in der Gemeinde Monte geboren und starb in dieser Stadt um 1890. Er war viele Jahre lang Pfarrer der Gemeinde Sé und genoss den Ehrentitel eines Honorarkanonikers. Er besaß eine ungewöhnliche Bildung und zeichnete sich als Journalist aus, insbesondere bei der Zeitung \"O Popular\", wobei er in der Presse oft erbitterte Kämpfe führte, bei denen die Übertreibungen in der Sprache bisweilen an die Schmähreden von José Agostinho de Macedo erinnerten. Zur Zeit seines Todes lag eine Sammlung geistlicher Reden zur Veröffentlichung bereit, die jedoch nie gedruckt wurde.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Monte",
+        "Sé"
+    ],
+    "locations": {
+        "Monte": [
+            "Geburtsort von Filipe José Nunes"
+        ],
+        "Cidade": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "Filipe José Nunes": [
+            "Journalist und Pfarrer der Gemeinde Sé"
+        ]
+    },
+    "years": {
+        "1824": [
+            "Geburt von Filipe José Nunes"
+        ],
+        "1890": [
+            "Tod von Filipe José Nunes"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 1865,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jews",
+    "fl": "J",
+    "original_title": "Judeus",
+    "body": "There were Jews in Madeira in the 15th century, and many of them, willingly or unwillingly, embraced Christianity after the barbaric decree of the expulsion of the sons of Israel, published by D. Manuel in December 1496. However, this conversion did not protect the old Hebrew families from harshness and persecution, and long before 1547, the year in which the Court of the Holy Office was definitively established in Portugal, the new Christians of this island suffered many grievances and violence due to the spirit of intolerance that prevailed in our country. In the islands of the Azores and Madeira, as Alexandre Herculano says in 'The Origin and Establishment of the Inquisition in Portugal,' in these small tracts of land, as if lost in the solitudes of the Atlantic, the insults and accusations of Judaism were repeated, easily supported by witnesses who were later proven to be false. 'The judicial instruments presented by the new Christians in Rome in 1544, which are found in Symicta, vol. 31, fol. 137 and following,' add a note by the same author. It is worth noting that D. Diogo Pinheiro, Bishop of Funchal, always upheld the true principles of evangelical tolerance in all matters related to the unfortunate Hebrews in the councils of King D. Manuel. 'The trials for crimes of Judaism,' says Herculano, 'which apparently fell under his jurisdiction, or which he was ordered to judge, ended as a rule, with the release of the defendants. Having witnessed the history of the conversion of the Jews, he was deeply convinced that such conversion was nothing but brutal violence. For him, the fact of the imposed baptism had no validity, and the converts remained as Jewish as they were before.' In the 'Notes and Chapters' that the Infante D. Fernando sent in 1461 to João Gonçalves da Câmara and the knights, squires, judges, attorneys, and good men of the captaincy of Funchal, the following is read: 'Regarding your request that Jews and Genoese not trade in this island as buyers and renters, as it causes destruction in the land where they operate, I am pleased to maintain the manner that the said lord infante, my father, had.' The petition addressed to the infante reveals that as early as 1461, there was a certain animosity against the Israelites in Madeira, an animosity that only became clear later, when the intolerance and fanaticism of D. Manuel came to open the way to the persecutions suffered by the members of this proscribed race, even when they accepted baptism to avoid expulsion from the country.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Manuel": [
+            "King of Portugal"
+        ],
+        "D. Diogo Pinheiro": [
+            "Bishop of Funchal"
+        ],
+        "Alexandre Herculano": [
+            "Historian"
+        ]
+    },
+    "years": {
+        "1496": [
+            "Expulsion of the Jews from Portugal"
+        ],
+        "1547": [
+            "Establishment of the Court of the Holy Office in Portugal"
+        ],
+        "1461": [
+            "Year of the petition addressed to Infante D. Fernando"
+        ]
+    }
+}

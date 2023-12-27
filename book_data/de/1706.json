@@ -1,0 +1,45 @@
+{
+    "id": 1706,
+    "lang": "de",
+    "is_original": false,
+    "title": "Hermenegildo Capelo (Straße)",
+    "fl": "H",
+    "original_title": "Hermenegildo Capelo (Rua)",
+    "body": "Das Gelände, auf dem sich heute der Jardim Municipal, die Hermenegildo Capelo Straße und der Standort des Manuel de Arriaga Theaters befinden, bildete den alten Innenhof des Franziskanerklosters. Trotz des Widerstands der Franziskanermönche wurde dort 1814 eine Straße eröffnet, die den Namen Rua dos Frades erhielt. 1823 ließ die Stadtverwaltung auf dem Gelände, auf dem später das Theater gebaut wurde, einen Markt errichten, so dass die angrenzende Straße den Namen Rua do Mercado de S. João erhielt. 1885, anlässlich der Durchreise der Entdecker Hermenegildo Capelo und Roberto Ivens auf der Insel, beschloss die Stadtverwaltung, die Straßen, die den Jardim Municipal im Süden und Norden säumen, nach ihnen zu benennen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Jardim Municipal": [
+            "Gelände, auf dem sich heute der Jardim Municipal befindet"
+        ],
+        "Theater Manuel de Arriaga": [
+            "Standort des Manuel de Arriaga Theaters"
+        ],
+        "Franziskanerkloster": [
+            "Alter Innenhof des Franziskanerklosters"
+        ]
+    },
+    "people": {
+        "Hermenegildo Capelo": [
+            "Entdecker"
+        ],
+        "Roberto Ivens": [
+            "Entdecker"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Eröffnung der Straße mit dem Namen Rua dos Frades"
+        ],
+        "1823": [
+            "Bau des Marktes durch die Stadtverwaltung"
+        ],
+        "1885": [
+            "Beschluss der Stadtverwaltung zur Benennung der Straßen, die den Jardim Municipal säumen"
+        ]
+    }
+}

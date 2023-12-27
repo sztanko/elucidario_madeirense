@@ -1,0 +1,36 @@
+{
+    "id": 1989,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lima e Cunha (Henrique de)",
+    "fl": "L",
+    "original_title": "Lima e Cunha (Henrique de)",
+    "body": "He was born in Barreiro on the 15th of March 1843 and died in S. Pedro de Sintra on the 17th of October 1915. He was an artillery officer, commanded, as a captain, the 3rd artillery company, was a drawing teacher at the Funchal lyceum, and served on a commission in the Directorate of Public Works of the district. E.: Plan of improvements for the island of Madeira, Lisbon, 1879, pamphlet.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Barreiro": [
+            "Place of birth"
+        ],
+        "S. Pedro de Sintra": [
+            "Place of death"
+        ],
+        "Funchal": [
+            "Place where he was a drawing teacher"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1843": [
+            "Birth"
+        ],
+        "1915": [
+            "Death"
+        ],
+        "1879": [
+            "Publication of the Plan of improvements for the island of Madeira"
+        ]
+    }
+}

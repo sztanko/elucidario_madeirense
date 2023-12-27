@@ -1,0 +1,34 @@
+{
+    "id": 1068,
+    "lang": "de",
+    "is_original": false,
+    "title": "Krater",
+    "fl": "K",
+    "original_title": "Cratera",
+    "body": "Die wenigen Krater, die auf Madeira leicht zu erkennen sind, befinden sich nicht in den höchsten Regionen der Insel, wo sie sicherlich einst existierten, sondern in den mittleren und unteren Regionen. Der bekannteste Krater Madeiras ist der von Santo da Serra, etwa 600 Meter über dem Meeresspiegel. Sein höchster Punkt liegt 60 bis 70 Meter über dem umliegenden Gelände. Er ist nicht sehr tief, im Winter mit Wasser gefüllt, und in ihm wachsen einige Pflanzen, die für sumpfige Orte typisch sind. In Porto do Moniz nahe Terra Chã befindet sich ebenfalls ein Krater sowie ein doppelter Krater in Fanal. Der Krater von Porto do Moniz hat wie der von Santo Antonio da Serra einen Kegel, eine Besonderheit, die man in Fanal nicht beobachten kann. In der Nähe von Caniço gibt es drei Kegel mit unvollkommenen Kratern, und in Caniçal einen Kegel mit einem Krater auf einer Seite. Auf dem Pico da Irandaia westlich von Funchal in der Nähe der Kirche S. Roque finden sich ebenfalls Spuren von Kratern. Die Krater von Santo Antonio da Serra, Porto do Moniz und Fanal sind unter der Bezeichnung Lagunen bekannt. Einige Geologen betrachten das Curral das Freiras als einen Krater, andere als ein Erosions-Tal. Carlos Lyell, der letzterer Meinung ist, sagt in seinen \"Elementos de Geologia\", dass er im Curral keine Anzeichen vulkanischer Aktivität gefunden habe und dass dieser Ort sowie Ribeira da Janela und Serra de Agua tiefe Täler seien, die von der bergigsten Region der Insel ausstrahlen.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Caniçal"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Krater etwa 600 Meter über dem Meeresspiegel"
+        ],
+        "Porto do Moniz": [
+            "Krater nahe Terra Chã"
+        ],
+        "Fanal": [
+            "Ort mit doppeltem Krater"
+        ]
+    },
+    "people": {
+        "Carlos Lyell": [
+            "Geologe, der Curral das Freiras für ein Erosionstal hält"
+        ]
+    },
+    "years": {}
+}

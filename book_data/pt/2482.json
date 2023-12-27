@@ -1,0 +1,40 @@
+{
+    "id": 2482,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Carmo (Igreja de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Carmo (Igreja de)",
+    "body": "Esta igreja, que deu o nome á rua em que fica situada, foi construída por meado do século XVII. Doou o terreno para a sua construção e casas anexas o capitão Roque Acciaioly de Vasconcelos, sendo a capela-mor feita a expensas do prior da Ordem Terceira do Carmo, Pedro Gonçalves Brandão, e o corpo do edifício á custa dos irmãos da mesma Ordem. Começou a ser edificada no ano de 1656 e só foi dada por concluída em 1660.\n\nA Ordem Terceira do Carmo foi estabelecida nesta cidade pelo padre Luís do Rosário de Vila Nova, que o provincial mandou para esse fim a esta ilha, e teve sua sede na igreja do convento da Incarnação, e ali permaneceu até á construção da nova igreja.\n\nA igreja do Carmo teve anexo um pequeno hospício ou albergaria, fundado por Henrique Henriques de Noronha. Ali estiveram alguns religiosos carmelitas, mas desconhecemos quaisquer outras circunstancias que digam respeito à existência e duração deste hospício.\n\nNas paredes laterais da capela-mor desta igreja encontram-se dois belos mausoléus, os únicos de algum valor artístico, que existem nos templos desta ilha.\n\nDesta invocação existiu uma capela na freguesia do Campanário, que era de instituição vincular e que foi edificada em 1658 por Domingos Rodrigues.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Campanário": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Roque Acciaioly de Vasconcelos": [
+            "Doador do terreno para a construção da igreja"
+        ],
+        "Pedro Gonçalves Brandão": [
+            "Responsável pelas despesas da capela-mor"
+        ],
+        "Henrique Henriques de Noronha": [
+            "Fundador do hospício ou albergaria"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Ano de início da construção da igreja do Carmo"
+        ],
+        "1660": [
+            "Ano de conclusão da construção da igreja do Carmo"
+        ],
+        "1658": [
+            "Ano de edificação da capela na freguesia do Campanário"
+        ]
+    }
+}

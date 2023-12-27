@@ -1,0 +1,43 @@
+{
+    "id": 1959,
+    "lang": "de",
+    "is_original": false,
+    "title": "Leite Monteiro (Park)",
+    "fl": "L",
+    "original_title": "Leite Monteiro (Parque)",
+    "body": "Der Bau begann 1894 auf Grundstücken, die für 1.640.000 Réis von João Baptista de Sousa gekauft wurden, gemäß einem Beschluss der Stadtratssitzung vom 2. August jenes Jahres. Obwohl der Park hinsichtlich der Vegetation und Gestaltung nichts Außergewöhnliches bietet, ist er dennoch ein Ort, den man gerne besucht, sowohl wegen seiner Frische und Üppigkeit als auch wegen der Ausblicke, die er bietet. Die Quelle mit dem Namen Unserer Lieben Frau, an der man eine kleine Marienstatue sieht, besteht aus Marmor und befindet sich im Park. Daneben gibt es einen großen Platz mit prächtigen Platanen, den schönsten, die wir auf der Insel kennen. Die alte Quelle Unserer Lieben Frau, die viel anmutiger und malerischer war als die heutige, wurde 1896 infolge des Einsturzes einer großen Kastanie, die direkt über ihr stand, zerstört. Die Arbeiten zum Einbau der neuen Quelle wurden in der Stadtratssitzung vom 12. August 1897 vergeben. Im Inneren der Quelle befindet sich eine gelbe Metallplatte mit folgender englischer Inschrift: „Carlos Murray, Generalkonsul Ihrer Britischen Majestät auf den Inseln Madeira und Porto Santo, Gründer und erster Eigentümer der Quinta de Belo Monte, kaufte 1776 das verschwendete Wasser dieser Quelle vom Grundherrn Henrique Felix de Freitas für jährlich 5.000 Réis, zahlbar auf immer an die Erben des genannten Grundherrn. Er ordnete an, dass diese Anlage errichtet wird, um das Wasser besser zu sammeln, die Quelle instand zu setzen, den Aquädukt und die Straßenquelle zu errichten, alles auf seine Kosten im Jahr des Herrn 1778.“ Der Stadtrat von Funchal gab dem Park in seiner Sitzung vom 22. August 1895 den Namen seines Präsidenten Dr. José Leite Monteiro. Die nach Ausrufung der Republik ernannte kommunale Verwaltungskommission hob diesen Beschluss jedoch in ihrer Sitzung vom 27. Oktober 1910 auf. Am 13. Februar 1913 wurde unter dem Vorsitz des Verwaltungskommissionspräsidenten Dr. Manuel Gregorio Pestana Júnior der ursprüngliche Name des Parks wiederhergestellt, was in der Bevölkerung von Funchal auf sehr positive Resonanz stieß.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem der Park gebaut wurde"
+        ]
+    },
+    "people": {
+        "João Baptista de Sousa": [
+            "Verkäufer der Grundstücke für den Bau des Parks"
+        ],
+        "Carlos Murray": [
+            "Generalkonsul Ihrer Britischen Majestät auf den Inseln Madeira und Porto Santo, Gründer und erster Eigentümer der Quinta de Belo Monte"
+        ]
+    },
+    "years": {
+        "1894": [
+            "Baubeginn des Parks"
+        ],
+        "1896": [
+            "Zerstörung der alten Quelle Unserer Lieben Frau"
+        ],
+        "1897": [
+            "Vergabe der Arbeiten für den Einbau der neuen Quelle"
+        ],
+        "1776": [
+            "Kauf des verschwendeten Wassers dieser Quelle durch Carlos Murray vom Grundherrn Henrique Felix de Freitas"
+        ]
+    }
+}

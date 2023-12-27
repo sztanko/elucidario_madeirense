@@ -1,0 +1,38 @@
+{
+    "id": 221,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Anes (Gonçalo)",
+    "fl": "A",
+    "original_title": "Anes (Gonçalo)",
+    "body": "Gonçalo Anes ou Gonçalo Anes de Velosa foi um dos primeiros povoadores desta ilha. Nasceu em Celorico e tinha sido escudeiro do infante D. Fernando filho do rei D. Duarte. Foi o fundador da igreja de S. Bartolomeu, junto da qual instituiu um hospício para clérigos pobres, que parece não chegou nunca a funcionar. Servia para alojamento dos missionários que tocavam na Madeira e se dirigiam para a Índia e para o Brasil. Foi nesta casa e igreja que os Jesuítas se instalaram quando em 1570 vieram para a Madeira e ali permaneceram até á edificação do Colégio de S. João Evangelista. Gonçalo Anes instituiu um vinculo com obrigação de celebrar-se uma missa na referida igreja em todas as sextas-feiras, sufragando a alma do Infante D. Fernando. Morreu Gonçalo Anes em 1497 e foi sepultado na igreja de que fora o fundador. A capela de S. Bartolomeu ficava na margem esquerda da Ribeira de Santa Luzia e na Rua Direita, que em outros tempos se estendia até a altura da actual Ponte do Torreão.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Bartolomeu",
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Celorico": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Gonçalo Anes": [
+            "Um dos primeiros povoadores da ilha"
+        ],
+        "Infante D. Fernando": [
+            "Filho do rei D. Duarte"
+        ]
+    },
+    "years": {
+        "1570": [
+            "Chegada dos Jesuítas à Madeira"
+        ],
+        "1497": [
+            "Morte de Gonçalo Anes"
+        ]
+    }
+}

@@ -1,0 +1,47 @@
+{
+    "id": 433,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barreto (Padre Jaime de Gouveia)",
+    "fl": "B",
+    "original_title": "Barreto (Padre Jaime de Gouveia)",
+    "body": "Nasceu no Porto do Moniz a 13 de Maio de 1887 e\nfrequentou o Seminário Episcopal do Funchal, tomando ordens de presbítero em 1910. Tendo coadjuvado o\nRev. Padre Ernesto Schmitz na preparação e determinação dos exemplares de historia natural existentes no\nmuseu do Seminário, adquiriu uma certa predilecção por este género de trabalhos, sendo por isso\nencarregado mais tarde da direcção do mesmo museu, quando o referido sacerdote se ausentou para\nJerusalém. Colheu grande numero de líquenes e de fungos madeirenses, tendo aqueles sido estudados pelo\nProfessor Navas e estes pelo Professor Torrend, e é sócio da Sociedade de Ciências Naturais de Saragoça.\nTendo sido chamado para frequentar a escola de oficiais milicianos em Lisboa enquanto durou o estado de\nguerra entre Portugal e a Alemanha, conseguiu ser despachado alferes capelão do Corpo Expedicionário\nPortuguês em França, partindo para aquele país a 23 de Maio de 1918, tendo regressado à pátria em Junho\nde 1919.\n\nÉ professor do Seminário Diocesano e director dos gabinetes de ciências naturais do mesmo\nestabelecimento de ensino. Foi agraciado com o título de monsenhor e é cónego da Sé do Funchal.",
+    "categories": [
+        "biology",
+        "history",
+        "religion",
+        "education",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto do Moniz": [
+            "Nasceu no"
+        ],
+        "Funchal": [
+            "Frequentou o Seminário Episcopal do"
+        ],
+        "Jerusalém": [
+            "Ausentou para"
+        ],
+        "Lisboa": [
+            "Enquanto durou o estado de guerra entre Portugal e a Alemanha"
+        ],
+        "França": [
+            "Partindo para aquele país a 23 de Maio de 1918, tendo regressado à pátria em Junho de 1919"
+        ]
+    },
+    "people": {
+        "Padre Jaime de Gouveia Barreto": [
+            "Nasceu no Porto do Moniz a 13 de Maio de 1887 e é professor do Seminário Diocesano e director dos gabinetes de ciências naturais do mesmo estabelecimento de ensino"
+        ]
+    },
+    "years": {
+        "1910": [
+            "Tomando ordens de presbítero"
+        ],
+        "1918": [
+            "Partindo para aquele país a 23 de Maio, tendo regressado à pátria em Junho de 1919"
+        ]
+    }
+}

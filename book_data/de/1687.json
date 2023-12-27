@@ -1,0 +1,36 @@
+{
+    "id": 1687,
+    "lang": "de",
+    "is_original": false,
+    "title": "Henriques (Jordão Mauricio)",
+    "fl": "H",
+    "original_title": "Henriques (Jordão Mauricio)",
+    "body": "Er ist der Sohn von António Maria Henriques, besuchte das Gymnasium und den Hochschulabschluss in Literatur und wurde am 15. Oktober 1880 in Funchal geboren. Er war Schreiber Dolmetscher der Gesundheitsstation und Lehrer an der Höheren Grundschule, war auch Vertretungslehrer am Gymnasium. Er war Redakteur der ehemaligen Diário Popular und hatte eine breite und wertvolle Mitarbeit in anderen madeirischen Zeitungen, seine Schriften zeichnen sich durch eine raffinierte literarische Form aus.\n\nEr veröffentlichte 1922 ein Buch mit dem Titel _Da Pátria e da Escola_. Nachdem er die diplomatische Laufbahn eingeschlagen hatte, arbeitete er einige Jahre im Außenministerium und ist derzeit Generalkonsul von Portugal in Rio de Janeiro.",
+    "categories": [
+        "culture",
+        "education",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort von Jordão Mauricio Henriques und Ort, an dem er verschiedene berufliche Funktionen ausübte."
+        ],
+        "Rio de Janeiro": [
+            "Ort, an dem Jordão Mauricio Henriques Generalkonsul von Portugal ist."
+        ]
+    },
+    "people": {
+        "António Maria Henriques": [
+            "Vater von Jordão Mauricio Henriques."
+        ]
+    },
+    "years": {
+        "1880": [
+            "Geburt von Jordão Mauricio Henriques."
+        ],
+        "1922": [
+            "Veröffentlichung des Buches _Da Pátria e da Escola_ von Jordão Mauricio Henriques."
+        ]
+    }
+}

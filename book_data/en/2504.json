@@ -1,0 +1,40 @@
+{
+    "id": 2504,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora dos Milagres (Chapels of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora dos Milagres (Capelas de)",
+    "body": "Brás de Freitas da Silva built a chapel dedicated to Nossa Senhora dos Milagres in the parish of Monte, on the lands of his entailed estate, in the year 1661, and the annotator of the Saudades mentions a chapel of the same invocation, founded in 1662 by Pedro Ferreira de Mesquita, in the parish of Ponta do Sol.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Monte": [
+            "Located in the parish of Monte, on the lands of the entailed estate of Brás de Freitas da Silva."
+        ],
+        "Ponta do Sol": [
+            "Located in the parish of Ponta do Sol."
+        ]
+    },
+    "people": {
+        "Brás de Freitas da Silva": [
+            "Builder of the chapel in 1661"
+        ],
+        "Pedro Ferreira de Mesquita": [
+            "Founder of the chapel in 1662"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Construction of the chapel"
+        ],
+        "1662": [
+            "Foundation of the chapel"
+        ]
+    }
+}

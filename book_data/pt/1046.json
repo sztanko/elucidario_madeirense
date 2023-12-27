@@ -1,0 +1,24 @@
+{
+    "id": 1046,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa de Cima",
+    "fl": "C",
+    "original_title": "Costa de Cima",
+    "body": "É conhecido por este nome o litoral do sul da Madeira, que se acha a leste do Funchal, denominação que abrange tôdas as freguesias que formam os concelhos de Santa Cruz e Machico, com excepção da freguesia do Pôrto da Cruz, que fica na costa do norte da ilha.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Machico",
+        "Pôrto da Cruz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Ponto de referência"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

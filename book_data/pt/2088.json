@@ -1,0 +1,28 @@
+{
+    "id": 2088,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Machado",
+    "fl": "M",
+    "original_title": "Machado",
+    "body": "Frutuoso faz referencia ao pico de Lopo Machado, sobre a ermida de Nossa Senhora das Neves, mas diz o dr. Azevedo que o apelido Machado procede de João Machado de Miranda, natural de Guimarães, que passou á Madeira a chamado de seu tio Bartolomeu Machado, por não ter herdeiros de sua mulher D. Francisca Velosa, tendo ambos instituído um morgado de seus bens na descendência do dito sobrinho.",
+    "categories": [
+        "history",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Guimarães": [
+            "Cidade de origem de João Machado de Miranda"
+        ]
+    },
+    "people": {
+        "Frutuoso": [
+            "Historiador que faz referência ao pico de Lopo Machado"
+        ],
+        "Dr. Azevedo": [
+            "Fonte que menciona a origem do apelido Machado"
+        ]
+    },
+    "years": {}
+}

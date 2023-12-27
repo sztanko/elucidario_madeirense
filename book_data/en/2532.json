@@ -1,0 +1,26 @@
+{
+    "id": 2532,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora das Virtudes (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Virtudes (Capela de)",
+    "body": "In the place and estate of Virtudes, in the parish of São Martinho, Francisco de Vasconcelos Bettencourt built a chapel with the invocation of Nossa Senhora das Virtudes in the year 1661.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco de Vasconcelos Bettencourt": [
+            "Builder of the chapel"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Construction of the chapel"
+        ]
+    }
+}

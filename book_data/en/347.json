@@ -1,0 +1,31 @@
+{
+    "id": 347,
+    "lang": "en",
+    "is_original": false,
+    "title": "Avila e Bolama (Duke of)",
+    "fl": "A",
+    "original_title": "Avila e Bolama (Duque de)",
+    "body": "> Antonio José de Avila, later Duke of Avila e Bolama, a renowned Portuguese statesman, was appointed by decree on September 5, 1846, as a royal commissioner with discretionary powers to come to the island of Madeira to investigate the serious events that had occurred there due to the Protestant proselytism of Dr. Roberto Kalley, and to take the precautions that the abnormal situation in the district advised. Antonio José de Avila left Lisbon on September 9, accompanied by José Silvestre Ribeiro, who was appointed civil governor. On the 21st of the same month, he suspended the interim civil governor and the council administrator of Funchal, and took other administrative measures. He left for Lisbon on October 10, with José Silvestre taking office as governor on the 7th of the same month.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisbon": [
+            "Capital of Portugal."
+        ],
+        "Madeira": [
+            "Island where the serious events mentioned occurred."
+        ]
+    },
+    "people": {
+        "Antonio José de Avila": [
+            "Renowned Portuguese statesman"
+        ]
+    },
+    "years": {
+        "1846": [
+            "Appointment as royal commissioner with discretionary powers to investigate the serious events on the island of Madeira"
+        ]
+    }
+}

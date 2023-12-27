@@ -1,0 +1,40 @@
+{
+    "id": 3236,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sankt Georg (Insel, Kap, Hafen und Fluss)",
+    "fl": "S",
+    "original_title": "São Jorge (Ilhéu, Ponta, Porto e Ribeira de)",
+    "body": "Die kleine Insel Sankt Georg liegt in der Nähe der Küste der Gemeinde gleichen Namens und fast gegenüber dem jeweiligen Hafen.\n\nDas Kap, das an der nördlichen Küste Madeiras am weitesten ins Meer hinausragt, heißt Kap Sankt Georg und liegt an der Küste der Gemeinde gleichen Namens. Am äußersten Ende dieses Kaps, wo man den Ausguck nennt, erkennt man alle Windungen der Küste von der Gemeinde Porto da Cruz bis zur Gemeinde Porto do Moniz, dieser Ort ist einen Besuch wert.\n\nWo man Ponta Gorda nennt, wurde von 1904 bis 1910 ein Kai gebaut, der über einen Pfad mit der Zentralstraße verbunden ist, die die Gemeinden Santana und São Jorge verbindet.\n\nDer Fluss entspringt in der Nähe des Pico Ruivo und durchquert die Gemeinde São Jorge, mündet in den Hafen gleichen Namens. Zu seinen Zuflüssen gehören die Bäche von Canário, Grande und Lombo da Furna.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Jorge",
+        "Porto da Cruz",
+        "Santana"
+    ],
+    "locations": {
+        "Insel Sankt Georg": [
+            "In der Nähe der Küste der Gemeinde São Jorge"
+        ],
+        "Kap Sankt Georg": [
+            "Küste der Gemeinde São Jorge"
+        ],
+        "Ponta Gorda": [
+            "Ort, an dem von 1904 bis 1910 ein Kai gebaut wurde"
+        ],
+        "Hafen von Moniz": [
+            "An der Küste gelegen"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Bau des Kais"
+        ],
+        "1910": [
+            "Fertigstellung des Kais"
+        ]
+    }
+}

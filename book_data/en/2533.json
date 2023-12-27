@@ -1,0 +1,29 @@
+{
+    "id": 2533,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Vitória (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Vitória (Capela de)",
+    "body": "On the literal road from Funchal to Câmara de Lobos, on the left bank of the Socorridos stream, stands the chapel of Nossa Senhora da Vitória, located at the end of the parish of São Martinho. The annotator of the _Saudades_ marks the year 1594 as the year of its construction and says it was founded by Francisco de Bettencourt on the lands of the estate he established there. It was rebuilt in a year that we cannot determine, and about forty years ago, it was extended and notable repair works were carried out.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Funchal": [
+            "Leads to Câmara de Lobos"
+        ],
+        "Câmara de Lobos": [
+            "On the left bank of the Socorridos stream"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1594": [
+            "Construction of the chapel"
+        ]
+    }
+}

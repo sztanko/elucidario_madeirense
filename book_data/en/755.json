@@ -1,0 +1,26 @@
+{
+    "id": 755,
+    "lang": "en",
+    "is_original": false,
+    "title": "Caramanchão",
+    "fl": "C",
+    "original_title": "Caramanchão",
+    "body": "A populated place in the parish of Machico. There is the chapel of São Cristovão, ordered to be built by the sons of the morgado Cristovão Moniz de Meneses in 1690, due to the paternal testamentary disposition that obliged them to do so.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {},
+    "people": {
+        "Cristovão Moniz de Meneses": [
+            "Morgado"
+        ]
+    },
+    "years": {
+        "1690": [
+            "Construction of the chapel of São Cristovão"
+        ]
+    }
+}

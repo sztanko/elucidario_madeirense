@@ -1,0 +1,40 @@
+{
+    "id": 1411,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fonseca (Dr. Augusto de Arzila)",
+    "fl": "F",
+    "original_title": "Fonseca (Dr. Augusto de Arzila)",
+    "body": "He was born in Funchal on October 21, 1853. In 1883, he graduated from the University of Coimbra in philosophy and mathematics, and in 1884, he obtained his doctorate in the latter faculty, having previously completed the infantry course at the Army School, where he was the top student. Upon obtaining his doctorate, he published his thesis on pure and applied mathematics. In 1885, he was appointed substitute professor at the University. He published: 'Princípios elementares de quaterniões à mecanica'. He passed away on February 17, 1912.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Dr. Augusto de Arzila Fonseca": [
+            "Born in Funchal"
+        ]
+    },
+    "years": {
+        "1853": [
+            "Birth"
+        ],
+        "1883": [
+            "Graduation from the University of Coimbra"
+        ],
+        "1884": [
+            "Doctorate from the University of Coimbra"
+        ],
+        "1885": [
+            "Appointment as substitute professor at the University"
+        ],
+        "1912": [
+            "Death"
+        ]
+    }
+}

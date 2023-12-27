@@ -1,0 +1,25 @@
+{
+    "id": 900,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cima (Ilhéu de)",
+    "fl": "C",
+    "original_title": "Cima (Ilhéu de)",
+    "body": "Ilhéu a lés-sueste do Pôrto Santo, onde existe um farol instalado em 1900. Está separado da ilha pelo chamado Boqueirão de Cima.\n\nEncontram-se nele algumas conchas fosseis, e é conhecido também pelo nome de Ilhéu dos Dragoeiros, embora estas arvores desaparecessem completamente não só do ilhéu, mas também de tôda a ilha do Pôrto Santo.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pôrto Santo": [
+            "Ilhéu a lés-sueste"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Farol instalado"
+        ]
+    }
+}

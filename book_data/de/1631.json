@@ -1,0 +1,27 @@
+{
+    "id": 1631,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gnade",
+    "fl": "G",
+    "original_title": "Graça",
+    "body": "Ort in der Gemeinde Machico in der Nähe der Stadt, wo sich die Kapelle Unserer Lieben Frau der Gnade befindet. Man weiß nicht, wann sie erbaut wurde. Bekannt ist, dass sie sehr alt ist und 1750 von der entsprechenden Bruderschaft wieder aufgebaut wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Gemeinde mit der Kapelle Unserer Lieben Frau der Gnade"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1750": [
+            "Kapelle Unserer Lieben Frau der Gnade wurde wiederaufgebaut"
+        ]
+    }
+}

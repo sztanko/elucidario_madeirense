@@ -1,0 +1,28 @@
+{
+    "id": 1445,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fort Loures",
+    "fl": "F",
+    "original_title": "Forte de Loures",
+    "body": "Der Überlieferung nach wurde es im 17. Jahrhundert von einem Privatmann erbaut. Es überblickte die Bucht von Gonçalo Aires und die Mündung des Baches. Schon zu Zeiten des Generalgouverneurs Dom Diogo Coutinho ohne Bedeutung, plante dieser dort eine Seidenfabrik zu errichten.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Gonçalo Aires": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Dom Diogo Coutinho": [
+            "Generalgouverneur"
+        ]
+    },
+    "years": {
+        "17. Jahrhundert": [
+            "Bau"
+        ]
+    }
+}

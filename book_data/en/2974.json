@@ -1,0 +1,31 @@
+{
+    "id": 2974,
+    "lang": "en",
+    "is_original": false,
+    "title": "Quinta",
+    "fl": "Q",
+    "original_title": "Quinta",
+    "body": "Site of the settlement of the parish of Quinta Grande. In this place is the Quinta do Pomar, and in it a chapel dedicated to Santo António, founded by Father António Silvino Gonçalves de Andrade in the year 1883, and there is also an official primary school. In this place, known as Ponta da Quinta, there was a small chapel dedicated to Our Lady, of which no traces remain.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Quinta Grande": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "António Silvino Gonçalves de Andrade": [
+            "Founder of the chapel of Santo António"
+        ]
+    },
+    "years": {
+        "1883": [
+            "Foundation of the chapel of Santo António"
+        ]
+    }
+}

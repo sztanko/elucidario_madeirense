@@ -1,0 +1,28 @@
+{
+    "id": 1204,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Echo de Santa Cruz",
+    "fl": "E",
+    "original_title": "Echo de Santa Cruz",
+    "body": "Saiu o primeiro numero a 24 de Setembro de 1877 e o numero 14 a 30 de Março de 1878. Era composto e impresso na vila de Santa Cruz e foi o primeiro jornal que na Madeira se publicou fora da capital do distrito.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Cruz": [
+            "Vila onde foi composto e impresso o jornal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1877": [
+            "Publicação do primeiro número do jornal Echo de Santa Cruz"
+        ],
+        "1878": [
+            "Publicação do número 14 do jornal Echo de Santa Cruz"
+        ]
+    }
+}

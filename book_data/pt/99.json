@@ -1,0 +1,24 @@
+{
+    "id": 99,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Albertis (Capitão Eurico)",
+    "fl": "A",
+    "original_title": "Albertis (Capitão Eurico)",
+    "body": "Coligiu algas na ilha da Madeira, no ano de 1882. As suas colecções foram estudadas por Piccone dois anos mais tarde.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Capitão Eurico Albertis": [
+            "Coleccionador de algas na Madeira"
+        ]
+    },
+    "years": {
+        "1882": [
+            "Ano de colecção de algas"
+        ]
+    }
+}

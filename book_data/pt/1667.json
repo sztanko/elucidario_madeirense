@@ -1,0 +1,37 @@
+{
+    "id": 1667,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Guiomar (Mirante de D.)",
+    "fl": "G",
+    "original_title": "Guiomar (Mirante de D.)",
+    "body": "Nas antigas instruções sobre o modo de ancorar no porto do Funchal vem assinalado o mirante de D. Guiomar por ser ponto fácil de distinguir e de reconhecer de bordo das embarcações. Está situado na quinta das Angústias que pertenceu ao Conde Alexandre Carlos de Lambert (V. este nome) e foi vendida ao Dr. Julio Paulo de Freitas, por escritura de 19 de Agosto de 1903. D. Guiomar, ou melhor D. Guiomar Madalena Acciaioly, a senhora que deu o nome ao mirante da antiga quinta das Angústias, viveu nos fins do século XVIII e princípios do XIX, e teve os seus bens penhorados por dividas á Fazenda Nacional. Pertencia-lhe a casa do largo da Sé, agora demolida, onde esteve a cadeia (V. este nome), e possuía outros prédios na cidade. No Archivo da Marinha e Ultramar faz-se referência a um oficio do governador D. José Manuel da Câmara para D. Rodrigo de Sousa Coutinho, relativo á remessa de letras da junta da Fazenda para o Real Erário e de jóias, pratas e tapeçarias pertencentes á herança de D. Guiomar Madalena.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto"
+        ],
+        "Quinta das Angústias": [
+            "Pertenceu ao Conde Alexandre Carlos de Lambert"
+        ]
+    },
+    "people": {
+        "Conde Alexandre Carlos de Lambert": [
+            "Proprietário da quinta das Angústias"
+        ],
+        "Dr. Julio Paulo de Freitas": [
+            "Comprador da quinta das Angústias"
+        ],
+        "D. Guiomar Madalena Acciaioly": [
+            "Senhora que deu o nome ao mirante"
+        ]
+    },
+    "years": {
+        "1903": [
+            "Venda da quinta das Angústias ao Dr. Julio Paulo de Freitas"
+        ]
+    }
+}

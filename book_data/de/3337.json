@@ -1,0 +1,38 @@
+{
+    "id": 3337,
+    "lang": "de",
+    "is_original": false,
+    "title": "Silva (Nicolau Francisco Xavier da)",
+    "fl": "S",
+    "original_title": "Silva (Nicolau Francisco Xavier da)",
+    "body": "Er wurde in der Gemeinde Santa Maria Maior dieser Stadt in den letzten Jahren des 17. Jahrhunderts geboren und war der Sohn von José da Silva Pimenta und Josefa Maria Teixeira. Er starb am 17. August 1754 in Lissabon. Er promovierte 1725 in Kanonischem Recht an der Universität Coimbra und unterrichtete dort einige Jahre lang. Er ließ sich in Lissabon nieder, wo er sich mit Glanz der Anwaltspraxis und dem Studium der Literatur widmete. Er hinterließ mehrere unveröffentlichte Werke und veröffentlichte Puro e affectuoso sacrificio (Lissabon, 1724) und die Dankesrede an die Königliche Akademie, die in deren Sammlung veröffentlicht wurde. Er war ordentliches Mitglied der Königlichen Akademie für Geschichte und mit der Abfassung einer Geschichte der Untersuchungen beauftragt, die er nicht abschließen konnte und die unveröffentlicht blieb. Er galt als einer der gelehrtesten Männer seiner Zeit. Es gelang ihm, eine ausgewählte Bibliothek zusammenzustellen, die vom Monarchen gekauft und den Grundstock der Bibliothek von Ajuda bildete.",
+    "categories": [
+        "history",
+        "culture",
+        "education"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Geburtsort von Nicolau Francisco Xavier da Silva"
+        ],
+        "Lissabon": [
+            "Sterbeort von Nicolau Francisco Xavier da Silva"
+        ]
+    },
+    "people": {
+        "Nicolau Francisco Xavier da Silva": [
+            "Doktor und Schriftsteller"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Promotionsjahr von Nicolau Francisco Xavier da Silva"
+        ],
+        "1754": [
+            "Sterbejahr von Nicolau Francisco Xavier da Silva"
+        ]
+    }
+}

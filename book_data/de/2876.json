@@ -1,0 +1,39 @@
+{
+    "id": 2876,
+    "lang": "de",
+    "is_original": false,
+    "title": "Porto Santo (Stadt und Gemeinde)",
+    "fl": "P",
+    "original_title": "Porto Santo (Vila e Muncipio)",
+    "body": "Die Stadt Porto Santo ist auch unter dem Namen Baleira bekannt, über die wir bereits auf Seite 117 des 1. Bandes dieses Werks berichtet haben, auf den wir den Leser verweisen. Als Sitz einer Kapitänschaft hatten ihre Begünstigten die fast willkürlichen Befugnisse, die ihnen die Schenkungsurkunden verliehen, aber als Sitz einer Gemeinde gewährten diese ihren Einwohnern durch entsprechende Freibriefe bestimmte Vergünstigungen und Privilegien, die die Befugnisse der Kapitäne abschwächten Spender. In der Schenkungsurkunde, die Bartolomeu Perestrelo am 1. November 1446 als Begünstigter von Porto Santo gewährt wurde; Es wird ausdrücklich auf die Freibriefe Bezug genommen, die der zukünftigen Stadt gegeben werden sollten, die wenige Jahre nach diesem Datum gegründet wurde, aber wir haben keine Spuren dieser Freibriefe gefunden, die im Allgemeinen die Einrichtung neuer Gemeinden begleiteten. Es muss jedoch angenommen werden, dass sie auf der Grundlage identischer Grundsätze wie die anderen Städte und Gemeinden dieses Archipels geformt wurden.\n\nIm Jahr 1834 wurde Porto Santo für Verwaltungszwecke als Gerichtsbarkeit betrachtet, wobei João de Santana de Vasconcelos der erste Verwalter war, der durch Erlass des Präfekten der Provinz vom 9. August jenes Jahres ernannt wurde. Mit der Verwaltungsreform von 1835 wurde die Insel Porto Santo zu einer Gemeinde, wobei João José de Alencastre der erste Verwalter war, der am 25. November desselben Jahres ernannt wurde.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Stadt Porto Santo"
+        ]
+    },
+    "people": {
+        "Bartolomeu Perestrelo": [
+            "Begünstigter von Porto Santo"
+        ],
+        "João de Santana de Vasconcelos": [
+            "Erster Verwalter von Porto Santo"
+        ],
+        "João José de Alencastre": [
+            "Erster Verwalter der Insel Porto Santo"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Porto Santo als Gerichtsbarkeit für Verwaltungszwecke betrachtet"
+        ],
+        "1835": [
+            "Verwaltungsreform, Insel Porto Santo wurde zu einer Gemeinde"
+        ]
+    }
+}

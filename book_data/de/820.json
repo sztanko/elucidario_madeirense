@@ -1,0 +1,27 @@
+{
+    "id": 820,
+    "lang": "de",
+    "is_original": false,
+    "title": "Castelo Branco (João de Abreu)",
+    "fl": "C",
+    "original_title": "Castelo Branco (João de Abreu)",
+    "body": "Er war Gouverneur und Generalkapitän von Madeira. Seine Ernennung datiert vom 7. August 1733 und er trat das Amt am 21. April 1734 an.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João de Abreu Castelo Branco": [
+            "Gouverneur und Generalkapitän von Madeira"
+        ]
+    },
+    "years": {
+        "1733": [
+            "Ernennung zum Gouverneur und Generalkapitän von Madeira"
+        ],
+        "1734": [
+            "Amtsantritt"
+        ]
+    }
+}

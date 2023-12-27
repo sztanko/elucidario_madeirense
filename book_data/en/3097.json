@@ -1,0 +1,28 @@
+{
+    "id": 3097,
+    "lang": "en",
+    "is_original": false,
+    "title": "Roberts (Lord)",
+    "fl": "R",
+    "original_title": "Roberts (Lord)",
+    "body": "This distinguished English general, who eventually secured England's dominion in Transvaal, had a brilliant reception on his passage through this island on December 26, 1900, on his return to his homeland from South Africa.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Transval": [
+            "Region"
+        ],
+        "South Africa": [
+            "Country"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Passage through the island"
+        ]
+    }
+}

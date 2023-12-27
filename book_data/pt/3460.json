@@ -1,0 +1,40 @@
+{
+    "id": 3460,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Telegrafia sem fios",
+    "fl": "T",
+    "original_title": "Telegrafia sem fios",
+    "body": "No edifício da estação telegráfica do Funchal, existe um posto de telegrafia sem fios inaugurado no dia 2 de Junho de 1922, tendo os trabalhos de montagem dos aparelhos levado uns 15 dias. A primeira experiência fez-se no dia 1 de Junho, estabelecendo-se a comunicação com um vapor inglês à distância de 150 milhas, e com um vapor português à distância de 400 milhas. Também se comunicou com a estação de Las Palmas, nas ilhas Canárias.\n\nDurante o período da guerra europeia, funcionou por conta do governo inglês um posto de telegrafia sem fios na quinta Santana, sendo as notícias que ele recebia do exterior transmitidas diariamente, por intermédio dos jornais, ao público funchalense. O posto da quinta Santana deixou de funcionar a 2 de Abril de 1919.\n\nPor despacho do Ministério das Finanças, foi, em 12 de Dezembro de 1921, autorizada a instalação dum posto rádio-telegráfico na quinta Santana, mas tal instalação nunca chegou a realizar-se.\n\nEm 1912, contratou-se com a Companhia Marconi o estabelecimento de vários postos de telegrafia sem fios no país, um dos quais na Madeira, nada se tendo feito, porém, pelo motivo do nosso governo haver faltado às obrigações que contraíra, e em 1922 foi o mesmo governo autorizado pelo Congresso da República a contratar com a dita Companhia o estabelecimento duma rede rádio-telegráfica, devendo ela começar por instalar e explorar por sua conta, sem qualquer encargo para o Estado, postos de telegrafia sem fios em Lisboa, Açores Madeira, Cabo Verde, Angola e Moçambique. (1921)",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Existência de um posto de telegrafia sem fios inaugurado em 1922 e comunicação estabelecida com vapores e a estação de Las Palmas"
+        ],
+        "Quinta Santana": [
+            "Funcionamento de um posto de telegrafia sem fios durante a guerra europeia e autorização para instalação de um posto rádio-telegráfico que não se realizou"
+        ],
+        "Las Palmas": [
+            "Comunicação estabelecida com o posto de telegrafia sem fios do Funchal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1922": [
+            "Inauguração do posto de telegrafia sem fios e comunicação com vapores e Las Palmas"
+        ],
+        "1919": [
+            "Cessação de funcionamento do posto de telegrafia sem fios na quinta Santana"
+        ],
+        "1921": [
+            "Autorização para instalação de um posto rádio-telegráfico na quinta Santana e contrato com a Companhia Marconi para estabelecimento de postos de telegrafia sem fios"
+        ],
+        "1912": [
+            "Contrato com a Companhia Marconi para estabelecimento de postos de telegrafia sem fios"
+        ]
+    }
+}

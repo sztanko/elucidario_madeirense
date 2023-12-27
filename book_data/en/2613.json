@@ -1,0 +1,33 @@
+{
+    "id": 2613,
+    "lang": "en",
+    "is_original": false,
+    "title": "Oudinot (Reinaldo)",
+    "fl": "O",
+    "original_title": "Oudinot (Reinaldo)",
+    "body": "After the great flood that devastated Madeira on October 9, 1803, the Government of the Metropolis sent the brigadier Reinaldo Oudinot to this island to oversee the public works that were then carried out, especially in the construction and repair of the walls of the three rivers that cross the city. He arrived in Funchal on February 19, 1804, and died here on February 11, 1807. He rendered excellent services not only due to the great activity he displayed in the works he directed, but also due to the proven competence he showed in the exercise of the commission he came to fulfill among us.\n\nOn September 9, 1805, he sent a detailed map of the city of Funchal and its bay to the Viscount of Anadia, and began the general map of Madeira, which was completed by Paulo Dias de Almeida.\n\nHe wrote some Instructions of which a copy existed that disappeared in the archive of the Municipal Chamber of Funchal. In 1837, copies of the same Instructions were provided by the same Chamber to the Parish Councils of the Municipality.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Reinaldo Oudinot": [
+            "Brigadier"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Great flood that devastated Madeira"
+        ],
+        "1804": [
+            "Arrival in Funchal"
+        ],
+        "1805": [
+            "Sending of the map of the city of Funchal and its bay"
+        ],
+        "1807": [
+            "Death"
+        ]
+    }
+}

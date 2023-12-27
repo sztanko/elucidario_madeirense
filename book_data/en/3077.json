@@ -1,0 +1,50 @@
+{
+    "id": 3077,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ribeira dos Socorridos",
+    "fl": "R",
+    "original_title": "Ribeira dos Socorridos",
+    "body": "It is one of the most important watercourses on this island. It serves as the dividing line between the parishes of São Martinho and Santo Antonio on the left bank, and Câmara de Lobos and Estreito de Câmara de Lobos on the right bank. São Martinho and Câmara de Lobos border the mouth of the stream. It originates in the interior of the island, in the place called Torrinhas, and crosses the parish of Curral das Freiras. During the first exploration made along the coast by João Gonçalves Zargo, some of his companions who disembarked at the mouth of this stream were being dragged by the force of the current. The captain promptly came to their aid, and \"they were rescued and free from danger... and from this the name... Ribeira dos Socorridos remained, as the author of Saudades says.\"",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Martinho",
+        "Santo Antonio",
+        "Câmara de Lobos",
+        "Estreito de Câmara de Lobos",
+        "Curral das Freiras"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Parish on the left bank of Ribeira dos Socorridos"
+        ],
+        "Santo Antonio": [
+            "Parish on the left bank of Ribeira dos Socorridos"
+        ],
+        "Câmara de Lobos": [
+            "Parish on the right bank of Ribeira dos Socorridos"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Parish on the right bank of Ribeira dos Socorridos"
+        ],
+        "Curral das Freiras": [
+            "Parish crossed by Ribeira dos Socorridos"
+        ],
+        "Torrinhas": [
+            "Place of origin of Ribeira dos Socorridos"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zargo": [
+            "Conducted the first exploration along the coast"
+        ]
+    },
+    "years": {
+        "15th century": [
+            "Birth of Ribeira dos Socorridos"
+        ]
+    }
+}

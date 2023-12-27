@@ -1,0 +1,57 @@
+{
+    "id": 3543,
+    "lang": "en",
+    "is_original": false,
+    "title": "Tuna da Universidade de Coimbra",
+    "fl": "T",
+    "original_title": "Tuna da Universidade de Coimbra",
+    "body": "This musical group, led by the then fifth-year law student António Correia Caldeira Coelho, arrived in Funchal on March 22, 1913, and left for Lisbon on April 3 of the same year. It was made up of 45 students, who, during their time in Funchal, were accommodated in the building of the extinct seminary at the beginning of the Monte path. The tuna was very well received in this city, having been offered a glass of water on the day of disembarkation and after a short visit to the Town Hall, at the residence of the Viscounts of Geraz de Lima. In honor of the tuna, there was also a ball at the palace of S. Lourenço, another at the \"Grémio dos Empregados do Comércio\", a party at the quinta da Choupana, lunches at the Casino Pavão, Terreiro da Luta, and Monte Palace Hotel, etc. The students gave two performances at the theater and visited Portela, Santa Cruz, and Machico.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "Sé"
+    ],
+    "locations": {
+        "Funchal": [
+            "City where the tuna was accommodated"
+        ],
+        "Monte": [
+            "Location where the students were accommodated"
+        ],
+        "Paços do Concelho": [
+            "Location visited by the tuna"
+        ],
+        "Quinta da Choupana": [
+            "Location where a party was held in honor of the tuna"
+        ],
+        "Casino Pavão": [
+            "Location where a lunch was held in honor of the tuna"
+        ],
+        "Terreiro da Luta": [
+            "Location where a lunch was held in honor of the tuna"
+        ],
+        "Monte Palace Hotel": [
+            "Location where a lunch was held in honor of the tuna"
+        ],
+        "Portela": [
+            "Location visited by the students"
+        ],
+        "Santa Cruz": [
+            "Location visited by the students"
+        ],
+        "Machico": [
+            "Location visited by the students"
+        ]
+    },
+    "people": {
+        "António Correia Caldeira Coelho": [
+            "President of the tuna"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Year in which the tuna arrived in Funchal"
+        ]
+    }
+}

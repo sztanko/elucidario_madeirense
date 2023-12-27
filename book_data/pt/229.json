@@ -1,0 +1,51 @@
+{
+    "id": 229,
+    "lang": "pt",
+    "is_original": true,
+    "title": "António Alfredo",
+    "fl": "A",
+    "original_title": "António Alfredo",
+    "body": "Antonio Alfredo de Santa Catarina Braga, egresso franciscano, nasceu na cidade do Porto no ultimo quartel do século XVIII. Por 1820 abandonou o convento, fazendo-se clérigo secular. Nas casas da sua ordem regeu com brilho as cadeiras de filosofia e teologia, foi no seu tempo um notável e afamado pregador. Perseguido pelas suas ideias liberais, foi deportado para Cabo Verde, seguindo depois para o Brasil, donde regressou á pátria quando se estabeleceu o governo constitucional, sendo então nomeado cónego da Sé de Évora e mais tarde governador dos bispados de Bragança e Funchal, e tendo exercido outras importantes comissões de serviço publico.\n\nPor decreto de 7 de Novembro de 1834 foi Antonio Alfredo nomeado governador temporal do bispado do Funchal, lugar que exerceu até Abril de 1840, tendo por decreto de 25 de Fevereiro deste ultimo ano sido exonerado e encarregado de desempenhar outra comissão de serviço. Era homem de raro talento e vasta ilustração de que dão testemunho os seus contemporâneos e os discursos, pastorais e outros escritos avulsos que nos legou, mas não deixou no entretanto assinalada a sua passagem no governo desta diocese pela mais austera probidade e escrupuloso proceder. Tornou-se celebre, causando grave escândalo, o acto aparatoso e solene de ir pessoalmente ao convento de S. Bernardino, em Câmara de Lobos, em princípios de Junho de 1835, a fim de proibir o culto que ali se prestava a Fr. Pedro da Guarda, conhecido pelo nome de Santo Servo de Deus, fazendo queimar na sua presença a estátua do humilde religioso, que se venerava numa capela junto ao convento. Publicou então uma pastoral, em que se condenava e proibia todo o culto que porventura se pretendesse prestar a Fr. Pedro da Guarda.\n\nSaiu desta ilha para Lisboa a 14 de Abril de 1840 e no mesmo ano foi nomeado governador do bispado de Bragança, vindo a morrer poucos anos depois na cidade do Porto.\n\nEm 1849 publicou-se póstuma, por diligências dum parente, a sua Miscellanea ou colecção de vários escritos, de que apenas saiu o primeiro volume.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Porto": [
+            "Cidade de nascimento e local de falecimento"
+        ],
+        "Cabo Verde": [
+            "Local para onde foi deportado"
+        ],
+        "Brasil": [
+            "Local para onde seguiu depois de ser deportado"
+        ],
+        "Lisboa": [
+            "Local para onde saiu da ilha em 1840"
+        ]
+    },
+    "people": {
+        "Antonio Alfredo de Santa Catarina Braga": [
+            "Egresso franciscano, clérigo secular, governador dos bispados de Bragança e Funchal"
+        ],
+        "Fr. Pedro da Guarda": [
+            "Conhecido pelo nome de Santo Servo de Deus"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Abandono do convento por Antonio Alfredo"
+        ],
+        "1834": [
+            "Nomeação de Antonio Alfredo como governador temporal do bispado do Funchal"
+        ],
+        "1835": [
+            "Acto aparatoso e solene de Antonio Alfredo no convento de S. Bernardino em Câmara de Lobos"
+        ],
+        "1840": [
+            "Saída de Antonio Alfredo da ilha para Lisboa"
+        ]
+    }
+}

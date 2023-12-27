@@ -1,0 +1,36 @@
+{
+    "id": 1989,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lima e Cunha (Henrique de)",
+    "fl": "L",
+    "original_title": "Lima e Cunha (Henrique de)",
+    "body": "Nasceu no Barreiro a 15 de Março de 1843 e faleceu em S. Pedro de Sintra a 17 de Outubro de 1915. Era oficial de artilharia, comandou, sendo capitão, a companhia n.° 3 de artilharia de guarnição, foi professor de desenho no liceu do Funchal e desempenhou uma comissão na Direcção das Obras Publicas do distrito. E.: Plano de melhoramentos para a ilha da Madeira, Lisboa, 1879, folheto.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Barreiro": [
+            "Local de nascimento"
+        ],
+        "S. Pedro de Sintra": [
+            "Local de falecimento"
+        ],
+        "Funchal": [
+            "Local onde foi professor de desenho"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1843": [
+            "Nascimento"
+        ],
+        "1915": [
+            "Falecimento"
+        ],
+        "1879": [
+            "Publicação do Plano de melhoramentos para a ilha da Madeira"
+        ]
+    }
+}

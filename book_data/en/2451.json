@@ -1,0 +1,55 @@
+{
+    "id": 2451,
+    "lang": "en",
+    "is_original": false,
+    "title": "Street Names",
+    "fl": "S",
+    "original_title": "Nomes de Ruas",
+    "body": "On June 19, 1890, the City Council, at the proposal of councilman Dr. José Joaquim de Freitas, decided to give the names of various illustrious sons of this land to the streets that would be opened in the future. However, despite being quite sensible, this decision has rarely been followed, as can be easily verified by walking through the city and reading the names with which different public roads have been baptized or christened in modern times.\n\nIn order for the name of a deceased citizen to appear at the corner of a street, we believe that more than just the sympathies of the councilors for the memory of the same citizen are required. It is also necessary that, while alive, this citizen rendered some services to the country or to his land, without which such a tribute becomes ridiculous for both the honoree and those who pay it.\n\nDr. Álvaro Rodrigues de Azevedo, the erudite annotator of the 'Saudades da Terra,' the man who, through his historical works, became so worthy of the recognition of the people of Madeira, does not have a street named after him in this city, despite the president of this corporation declaring, in a session of the Municipal Council on January 27, 1898, his desire to confer with his colleagues about the tribute that the Municipality should pay to that wise professor. And so many illustrious sons of this land, such as Baltasar Dias, João António Monteiro, Nicolau Bettencourt Pita, Francisco de Paula Medina e Vasconcelos, Marceliano Ribeiro de Mendonça, Francisco de Andrade Justino António de Freitas, José Ferreira Pestana, Jaime Moniz, etc., are also forgotten due to the ignorance or lack of spirit and justice of the administrative bodies!\n\nIt is not advisable to annul everything that is worthy of criticism or ridicule that has been done in the last thirty or forty years regarding the naming of streets, in order to avoid increasing the confusion that already exists on this subject (1921). However, we believe it is of the utmost convenience that from now on, what was resolved in the council session of June 19, 1890, be fulfilled whenever a street or public road is opened or inaugurated.\n\nMunicipal councils must use the utmost circumspection in the right granted to them to name the streets and paths of the Municipality, not only to avoid giving a less flattering idea of their intelligence and judgment, but also to prevent harm to their constituents, many of whom we have heard bitter complaints from about the abusive replacement of old names given to public roads by others that have no reason to be adopted or perpetuated (1921).",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. José Joaquim de Freitas": [
+            "Councilman"
+        ],
+        "Dr. Álvaro Rodrigues de Azevedo": [
+            "Erudite annotator of the 'Saudades da Terra'"
+        ],
+        "Baltasar Dias": [
+            "Illustrious son"
+        ],
+        "João António Monteiro": [
+            "Illustrious son"
+        ],
+        "Nicolau Bettencourt Pita": [
+            "Illustrious son"
+        ],
+        "Francisco de Paula Medina e Vasconcelos": [
+            "Illustrious son"
+        ],
+        "Marceliano Ribeiro de Mendonça": [
+            "Illustrious son"
+        ],
+        "Francisco de Andrade Justino António de Freitas": [
+            "Illustrious son"
+        ],
+        "José Ferreira Pestana": [
+            "Illustrious son"
+        ],
+        "Jaime Moniz": [
+            "Illustrious son"
+        ]
+    },
+    "years": {
+        "1890": [
+            "City Council resolution to give the names of illustrious sons to the streets"
+        ],
+        "1898": [
+            "Municipal Council session to honor Dr. Álvaro Rodrigues de Azevedo"
+        ]
+    }
+}

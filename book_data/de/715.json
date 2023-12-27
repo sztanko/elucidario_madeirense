@@ -1,0 +1,28 @@
+{
+    "id": 715,
+    "lang": "de",
+    "is_original": false,
+    "title": "Campanario (Bach)",
+    "fl": "C",
+    "original_title": "Campanario (Ribeira do)",
+    "body": "Auch unter dem Namen Ribeira da Lapa bekannt. Entspringt auf dem Pico dos Terreiros, durchfließt die Gemeinde Campanario und mündet in den gleichnamigen Hafen.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Campanario"
+    ],
+    "locations": {
+        "Pico dos Terreiros": [
+            "Ursprung"
+        ],
+        "Campanario": [
+            "Gemeinde"
+        ],
+        "Gleichnamigen Hafen": [
+            "Mündung"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

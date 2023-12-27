@@ -1,0 +1,32 @@
+{
+    "id": 1082,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cruz (Ponta da)",
+    "fl": "C",
+    "original_title": "Cruz (Ponta da)",
+    "body": "A little east of Praia Formosa and west of Ilhéu do Gorgulho on the coast of the parish of São Martinho, lies the so-called Ponta da Cruz, which is considered by many to be the westernmost point of Funchal's bay. There used to be a small fort there, now dismantled. In its vicinity, there is an important fish canning factory.",
+    "categories": [
+        "geography",
+        "architecture"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Praia Formosa": [
+            "Beach in Madeira"
+        ],
+        "Ilhéu do Gorgulho": [
+            "Islet in Madeira"
+        ],
+        "São Martinho": [
+            "Parish in Madeira"
+        ],
+        "Funchal": [
+            "City in Madeira"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,37 @@
+{
+    "id": 675,
+    "lang": "en",
+    "is_original": false,
+    "title": "Câmara (Alfredo Bettencourt da)",
+    "fl": "C",
+    "original_title": "Câmara (Alfredo Bettencourt da)",
+    "body": "He was born in Funchal on April 21, 1857, and for many years, he was a private primary education teacher. He authored 'Gramatica Portuguesa, em harmonia com a reforma ortografica ultimamente publicada' (Portuguese Grammar, in harmony with the recently published spelling reform), Funchal, 1912, 240 pages, and 'Exercícios sobre a conjugação dos verbos regulares e irregulares...' (Exercises on the conjugation of regular and irregular verbs), 10th part, Funchal, 1915, 64 pages, 20th part, Funchal, 1915, 64 pages. He passed away in Funchal on January 26, 1921.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth and death"
+        ]
+    },
+    "people": {
+        "Alfredo Bettencourt da": [
+            "Teacher and author"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Alfredo Bettencourt da was born"
+        ],
+        "1912": [
+            "Publication of 'Gramatica Portuguesa, em harmonia com a reforma ortografica ultimamente publicada'"
+        ],
+        "1915": [
+            "Publication of 'Exercícios sobre a conjugação dos verbos regulares e irregulares'"
+        ],
+        "1921": [
+            "Alfredo Bettencourt da passed away"
+        ]
+    }
+}

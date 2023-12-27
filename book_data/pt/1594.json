@@ -1,0 +1,32 @@
+{
+    "id": 1594,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Goldschmidt (Julius)",
+    "fl": "G",
+    "original_title": "Goldschmidt (Julius)",
+    "body": "Este medico alemão, que durante muitos anos residiu no Funchal, habitava em Paris, onde tinha larga clinica, quando rebentou a guerra em 1914. Ocupando-se de cousas madeirenses, publicou os *folhetos Die lepra auf Madeira*, 1891, *Madère Étudiée comme station d'hiver*, 1880, e *Madère étudiée comme station d'hiver et d'été*, 1884. Faleceu no ano de 1924.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Residência"
+        ]
+    },
+    "people": {
+        "Julius Goldschmidt": [
+            "Médico alemão"
+        ]
+    },
+    "years": {
+        "1914": [
+            "Guerra"
+        ],
+        "1924": [
+            "Falecimento"
+        ]
+    }
+}

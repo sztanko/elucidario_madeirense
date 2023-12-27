@@ -1,0 +1,33 @@
+{
+    "id": 1256,
+    "lang": "en",
+    "is_original": false,
+    "title": "Esmeraldo (Rua do)",
+    "fl": "E",
+    "original_title": "Esmeraldo (Rua do)",
+    "body": "It derives its name from João Esmeraldo (see this name), who had large houses there. It runs parallel to Rua do Sabão, with which it communicates through Travessa de Cristovão Colombo, and extends from Rua da Alfândega to Rua do Comercio.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua do Sabão": [
+            "Parallel to Rua do Esmeraldo"
+        ],
+        "Travessa de Cristovão Colombo": [
+            "Connects Rua do Esmeraldo with Rua do Sabão"
+        ],
+        "Rua da Alfândega": [
+            "Initial end of Rua do Esmeraldo"
+        ],
+        "Rua do Comercio": [
+            "Final end of Rua do Esmeraldo"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Owner of the large houses on Rua do Esmeraldo"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1299,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Facheiro",
+    "fl": "F",
+    "original_title": "Facheiro",
+    "body": "No primitivo sistema militar da defesa da costa havia o cargo de facheiro, encarregado de acender fogueiras no cimo dos picos para avisar as povoações de que velas inimigas estavam á vista. Esta usança durou até o governo de D. Diogo Pereira Forjaz Coutinho, e recordam-na o nome do Pico do Facho, em Machico e Porto Santo.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Pico do Facho": [
+            "Localidade em Machico e Porto Santo"
+        ]
+    },
+    "people": {
+        "D. Diogo Pereira Forjaz Coutinho": [
+            "Governo até 1801"
+        ]
+    },
+    "years": {
+        "1801": [
+            "Fim do cargo de facheiro"
+        ]
+    }
+}

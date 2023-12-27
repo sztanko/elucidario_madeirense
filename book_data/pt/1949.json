@@ -1,0 +1,39 @@
+{
+    "id": 1949,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Leal",
+    "fl": "L",
+    "original_title": "Leal",
+    "body": "É antigo apelido de família, principalmente no Porto da Cruz. Antonio de Almada casou com Isabel Rodrigues Leal, desta freguesia, por meado do século XVI, e em 1684, Maria de Aguiar, viúva de Gonçalo de Faria Leal, instituiu a capela de Nossa Senhora do Socorro no Estreito de Câmara de Lobos. Um membro dessa família, por nome João Nepomuceno de Freitas Leal, fundou no ano de 1770 uma capela dedicada a S. João Nepomuceno, no sítio do Lombo dos Leais, da referida freguesia do Porto da Cruz.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz",
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {},
+    "people": {
+        "Antonio de Almada": [
+            "Casou com Isabel Rodrigues Leal"
+        ],
+        "Maria de Aguiar": [
+            "Viúva de Gonçalo de Faria Leal"
+        ],
+        "João Nepomuceno de Freitas Leal": [
+            "Fundou no ano de 1770 uma capela dedicada a S. João Nepomuceno"
+        ]
+    },
+    "years": {
+        "XVI": [
+            "Antonio de Almada casou com Isabel Rodrigues Leal"
+        ],
+        "1684": [
+            "Maria de Aguiar, viúva de Gonçalo de Faria Leal, instituiu a capela de Nossa Senhora do Socorro"
+        ],
+        "1770": [
+            "Fundou no ano de 1770 uma capela dedicada a S. João Nepomuceno"
+        ]
+    }
+}

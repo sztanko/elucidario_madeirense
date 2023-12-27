@@ -1,0 +1,28 @@
+{
+    "id": 294,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Associação das Damas de Caridade",
+    "fl": "A",
+    "original_title": "Associação das Damas de Caridade",
+    "body": "Foi fundada em Janeiro de 1876, tendo sido os seus iniciadores o capelão da igreja de S. Luiz de Lisboa, e a Superiora do Hospício da Princesa D. Maria Amelia, do Funchal. Os fins principais desta associação são proteger e socorrer no domicilio as pessoas pobres e doentes, e nomeadamente as mães que por falta de meios não possam amamentar seus filhos.",
+    "categories": [
+        "society",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Capelão da igreja de S. Luiz de Lisboa": [
+            "Iniciador da associação"
+        ],
+        "Superiora do Hospício da Princesa D. Maria Amelia": [
+            "Iniciadora da associação"
+        ]
+    },
+    "years": {
+        "1876": [
+            "Fundação da associação"
+        ]
+    }
+}

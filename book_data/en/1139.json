@@ -1,0 +1,34 @@
+{
+    "id": 1139,
+    "lang": "en",
+    "is_original": false,
+    "title": "Diabinho (João Nunes)",
+    "fl": "D",
+    "original_title": "Diabinho (João Nunes)",
+    "body": "He was born in Funchal on March 16, 1850, and for many years, he was employed at the semaphore station on Ilhéu, a position from which he retired. He is well known as a charadist, having collaborated in the Almanach de Lembranças and other publications. He invented and built a device called the alarm-clock translator and is a man of undeniable artistic abilities, as evidenced by several other works he has executed. He passed away on January 11, 1927.\n\nDiário da Madeira. It was published from November 3, 1880, to December 15, 1881, with 281 issues.\n\nUnder the same title, another newspaper began to be published on January 1, 1912, which is still in publication. Its first director was Francisco Bento de Gouveia, followed by Dr. Juvenal Henriques de Araújo and Major J. Reis Gomes.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "João Nunes": [
+            "Born in Funchal, worked at the semaphore station on Ilhéu, and passed away on January 11, 1927"
+        ]
+    },
+    "years": {
+        "1880": [
+            "Start of the publication of Diário da Madeira"
+        ],
+        "1881": [
+            "End of the publication of Diário da Madeira"
+        ],
+        "1912": [
+            "Start of the publication of another newspaper under the same title"
+        ]
+    }
+}

@@ -1,0 +1,65 @@
+{
+    "id": 2899,
+    "lang": "en",
+    "is_original": false,
+    "title": "Weather Stations",
+    "fl": "W",
+    "original_title": "Postos Meteorológicos",
+    "body": "The meteorological station in Funchal, established in the fortress of S. Lourenço, began operating in January 1865, under the direction of the late military engineer Antonio Pedro de Azevedo. It is located at an altitude of 21m,2, and is subordinate to the Observatory of Infante D. Luís, with which it corresponds telegraphically every day. Observations are made at 6 and 9 o'clock in the morning, at 3 and 5 o'clock in the afternoon, and at 9 o'clock at night, with this last observation being optional (1921).\n\nBefore this schedule came into effect, observations were made at 7 and 9 o'clock in the morning, at noon, at 3 o'clock in the afternoon, and at 9 o'clock at night.\n\nIn 1901, a room for the station's archive was built, and in 1913, a terrace was built over the same station, which is accessed by an external staircase. These two improvements were carried out on the recommendation of the 1st assistant, Colonel Eduardo Agostinho Pereira, who passed away on September 22, 1918.\n\nThe Funchal Meteorological Station is equipped with a barograph, a psychrometer, an anemometer, an Adie barometer, an August psychrometer, maximum and minimum thermometers, an evaporimeter, a udometer, etc. The station usually provides the press with a daily bulletin with information about wind direction, sky conditions, pressure, temperature, and the amount of rainfall in the last 24 hours (1921).\n\nNear Pico do Areeiro and at an altitude of 1700 meters above sea level, a wooden house was built in 1895 to serve as a meteorological station and residence for the observers. However, this establishment, which cost the State about 5 contos de réis, never came into operation, due to the indifference with which governments and administrative bodies generally regard scientific services.\n\nThe aforementioned house, which was under the responsibility of the Directorate of Public Works, was handed over to the Agricultural Board of Madeira on August 13, 1913, to install a meteorological station, and it passed into the possession of the General Board of the District when that corporation was dissolved. The ministerial order authorizing the delivery of the Areeiro building to the Agricultural Board is dated April 19, 1913.\n\nThe tower where the compartment for the meteorological instruments was located, and which was accessed by an external staircase, was demolished by the strong gales of February 25 and 26, 1920.\n\nThe above is a verbatim transcription of what is found on page 326 of vol. II of the first edition of this Elucidário, to which we can now add the following valuable information, which was kindly provided to us by the current director of the Funchal Meteorological Station, Antonio Feliciano de Castilho, thus expanding on the old elements already known.\n\n\"The old Station now has the status of a Meteorological Observatory, still located in the Palace of S. Lourenço, but on the verge of being transferred to its own building. It has been significantly expanded in its equipment and functions. It is headed by a first assistant of the Observatory of Infante D. Luis and has the technical supervision of all the other stations and posts in the Archipelago. The current head of the Observatory is the first assistant Antonio Feliciano Pinto Pacheco de Novais Barreto e Castilho.\n\nIts equipment now consists of an Adie barometer, a barograph, a psychrometer, a hygrograph, a thermograph, a udometer and a udograph, a maximum and a minimum thermometer, an ordinary thermometer and another for maximum temperature in the sun, an anemograph, two heliographs, a solarimeter, and an evaporimeter.\n\nObservations are made at 6, 12, and 17 o'clock to determine temperatures, humidity, winds, pressures, insolation, weather conditions, etc..\n\n## Areeiro\n\nNear Pico do Areeiro and at an altitude of 1610 meters, the Areeiro meteorological station is installed. At this location, a house was already built in 1895 to serve as a station and residence for the personnel in charge of the service, but for various reasons, it never came into operation (See *Areeiro*). In November 1936, a thermo-udometric station started operating there, providing data on rainfall and temperatures. In December 1939, this station was expanded, and it had the following equipment: A barometer, a barograph, a psychrometer, a maximum and a minimum thermometer, a udometer, a weather vane, an anemometer. The observation schedule was at 9 and 15 o'clock, collecting data on pressures, temperatures, humidity, wind, rain, visibility, and weather evolution. In January 1942, the observations were made at 6, 12, and 17 o'clock. In addition to the Funchal station, we also have the following: This station, due to its importance, is on the verge of being installed in its own building, becoming part of the international service.\n\n## Encumeada de S. Vicente, Santana, Lugar de Baixo, and Sanatorio do Monte\n\n: These stations, set up in June 1941, January 1942, June 1941, and June 1941, respectively, make three observations per day, at 6, 12, and 17 o'clock, collecting the following data: temperatures, humidity, rainfall, visibility, evaporation, wind direction, and speed. For this purpose, they are equipped with maximum and minimum thermometers, a psychrometer, a thermohygrograph, a udometer, an evaporimeter, and a weather vane. At Sanatorio do Monte, there is also a heliograph that provides information on insolation. Both the Encumeada and Santana stations had been operating as thermo-udometric stations since December 1938.",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "It is located at an altitude of 21m,2, and is subordinate to the Observatory of Infante D. Luís, with which it corresponds telegraphically every day. Observations are made at 6 and 9 o'clock in the morning, at 3 and 5 o'clock in the afternoon, and at 9 o'clock at night, with this last observation being optional (1921)."
+        ],
+        "Pico do Areeiro": [
+            "At an altitude of 1700 meters above sea level, a wooden house was built in 1895 to serve as a meteorological station and residence for the observers. However, this establishment, which cost the State about 5 contos de réis, never came into operation, due to the indifference with which governments and administrative bodies generally regard scientific services."
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Military engineer"
+        ],
+        "Eduardo Agostinho Pereira": [
+            "1st assistant, colonel"
+        ],
+        "Antonio Feliciano de Castilho": [
+            "Current director of the Funchal Meteorological Station"
+        ],
+        "Antonio Feliciano Pinto Pacheco de Novais Barreto e Castilho": [
+            "First assistant of the Observatory of Infante D. Luis"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Start of operation of the Funchal meteorological station in the fortress of S. Lourenço"
+        ],
+        "1901": [
+            "Construction of a room for the station's archive"
+        ],
+        "1913": [
+            "Construction of a terrace over the same station"
+        ],
+        "1895": [
+            "Construction of a wooden house to serve as a meteorological station and residence for the observers construction of the house to serve as a station and residence for the personnel in charge of the service"
+        ],
+        "1920": [
+            "Demolition of the tower where the compartment for the meteorological instruments was located"
+        ],
+        "1936": [
+            "Start of operation of the thermo-udometric station"
+        ],
+        "1939": [
+            "Expansion of the station with new equipment"
+        ],
+        "1941": [
+            "Installation of the Encumeada de S. Vicente, Santana, Lugar de Baixo, and Sanatorio do Monte stations"
+        ],
+        "1942": [
+            "Change in the observation schedule"
+        ]
+    }
+}

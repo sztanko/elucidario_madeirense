@@ -1,0 +1,44 @@
+{
+    "id": 461,
+    "lang": "en",
+    "is_original": false,
+    "title": "Belgium (King of)",
+    "fl": "B",
+    "original_title": "Bélgica (Rei da)",
+    "body": "King Leopold of Belgium visited Funchal in 1897, having disembarked on September 17 and left for the Canary Islands on the 19th of the same month. He visited Monte, Eira do Serrado, and some other points near the city. Prince Albert, later King of Belgium, visited Madeira on April 30, 1909, and was greeted by the district's senior authorities.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location visited by King Leopold of Belgium"
+        ],
+        "Canary Islands": [
+            "Location where King Leopold of Belgium departed to after visiting Funchal"
+        ],
+        "Monte": [
+            "Location visited by King Leopold of Belgium"
+        ],
+        "Eira do Serrado": [
+            "Location visited by King Leopold of Belgium"
+        ]
+    },
+    "people": {
+        "Leopold of Belgium": [
+            "King of Belgium"
+        ],
+        "Albert": [
+            "Prince, later King of Belgium"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Visit of King Leopold of Belgium to Funchal"
+        ],
+        "1909": [
+            "Visit of Prince Albert to Madeira"
+        ]
+    }
+}

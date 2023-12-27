@@ -1,0 +1,34 @@
+{
+    "id": 1086,
+    "lang": "en",
+    "is_original": false,
+    "title": "Red Cross",
+    "fl": "R",
+    "original_title": "Cruz Vermelha",
+    "body": "The initiative to create a Red Cross delegation in this city is owed to the late Madeiran doctor Eliseu de Sousa Drumond. Not only is Funchal indebted to him for this initiative, but also for the diligent and persevering efforts he selflessly employed to establish the delegation, and for the excellent guidance he provided for all its initial services.\n\nThe first meeting of the installing committee took place on November 14, 1914. Shortly thereafter, the Viscount of Geraz de Lima was elected president of the board, and he always showed the greatest zeal and dedication to the society's progress.\n\nThe first doctors appointed to direct the clinical and surgical services of the Red Cross delegation were Drs. Eliseu de Sousa Drumond and Nuno de Vasconcelos Pôrto. They immediately started courses in basic nursing to train and educate male and female nurses, and within a short time, they prepared personnel sufficiently qualified to perform the most urgent and elementary services. They then obtained some stretchers and enlisted the first stretcher-bearers, who received proper training.\n\nIt became essential to establish the delegation in a suitable house, where all its services could be centralized and accommodated, and where a permanent medical aid post could be established. This legitimate aspiration of the Society was realized with the leasing of a building on Rua dos Netos, where the delegation is now located. Its medical aid post, where surgical operations, dressings, various medical treatments, etc., are performed every day, has provided significant services, and the public comes there to benefit from the assistance provided by the benevolent Society. It is only fair to highlight the way in which all the personnel at the aid post, the nurses, and the medical director have carried out the services entrusted to them so selflessly. It is to Dr. João Albino Rodrigues de Sousa, head of these services, that the good reputation gained by the aid post since its establishment in early 1917 is owed.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the creation of the Red Cross delegation"
+        ]
+    },
+    "people": {
+        "Eliseu de Sousa Drumond": [
+            "Madeiran doctor responsible for the creation of the Red Cross delegation"
+        ],
+        "Nuno de Vasconcelos Pôrto": [
+            "Doctor appointed to direct the clinical and surgical services"
+        ]
+    },
+    "years": {
+        "1914": [
+            "Holding of the first meeting of the installing committee"
+        ],
+        "1917": [
+            "Establishment of the aid post"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 3402,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sousa (Manuel Alexandre de)",
+    "fl": "S",
+    "original_title": "Sousa (Manuel Alexandre de)",
+    "body": "Dieser Infanterieoffizier wurde am 2. Februar 1856 in Funchal geboren und starb am 17. November 1903 in Lissabon im Rang eines Majors. Er war technischer Inspektor der Eisenbahngesellschaft Monte und obwohl ihm einige Fehler beim Bau der Straße zwischen Pombal und Atalhinho zugeschrieben werden, steht fest, dass er durch seine Aktivität und seinen anerkannten Eifer maßgeblich dazu beitrug, den Bau dieser Straßen voranzutreiben. Er war auch der Konzessionär für den Bau und Betrieb der Wasserleitungen auf Madeira, wie auf Seite 248 dieses Bandes zu sehen ist, und später Direktor des Gefängnisses Limoeiro. Er führte eine ausgedehnte Pressepolemik mit dem Ingenieur Adriano Augusto Trigo und plante einen Aufzug zwischen dem Largo de S. Pedro und dem Weg Achada zu errichten. (Siehe II-248).",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "Adriano Augusto Trigo": [
+            "Ingenieur, mit dem er eine Polemik führte"
+        ]
+    },
+    "years": {
+        "1856": [
+            "Geburt von Manuel Alexandre de Sousa"
+        ],
+        "1903": [
+            "Tod in Lissabon"
+        ]
+    }
+}

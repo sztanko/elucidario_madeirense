@@ -1,0 +1,31 @@
+{
+    "id": 1545,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gama",
+    "fl": "G",
+    "original_title": "Gama",
+    "body": "Parece ter sido o Dr. Lourenço Vaz Pereira da Gama o primeiro que nesta ilha usou este apelido\n\n de família. Passou à Madeira nos princípios do século XVI a exercer o lugar de provedor de defuntos e\n\n ausentes. Foi pai do Dr. Antonio da Gama, de quem nos ocupamos nesteElucidário .",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde usou este apelido de família"
+        ]
+    },
+    "people": {
+        "Lourenço Vaz Pereira da Gama": [
+            "Primeiro que nesta ilha usou este apelido de família"
+        ],
+        "Dr. Antonio da Gama": [
+            "Filho de Lourenço Vaz Pereira da Gama"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Passou à Madeira nos princípios do século XVI a exercer o lugar de provedor de defuntos e ausentes"
+        ]
+    }
+}

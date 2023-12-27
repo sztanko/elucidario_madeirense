@@ -1,0 +1,38 @@
+{
+    "id": 1485,
+    "lang": "en",
+    "is_original": false,
+    "title": "Freitas da Silva (Dr. João de)",
+    "fl": "F",
+    "original_title": "Freitas da Silva (Dr. João de)",
+    "body": "He was born in Lisbon in 1842 and is the 1st Viscount of Monte Belo, a surgeon by the extinct medical school of Funchal, a doctor in medicine from the faculty of Montpellier (1863), and the chief health officer. He was the director of the Lazareto de Gonçalo Aires and procurator to the General Board of the District. E.: De l'Affection bilieuse, thesis presented and publicly defended at the faculty of medicine of Montpellier (1921).",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisbon": [
+            "Place of birth"
+        ],
+        "Funchal": [
+            "Location where he attended the extinct medical school of Funchal"
+        ]
+    },
+    "people": {
+        "Dr. João de Freitas da Silva": [
+            "Born in Lisbon in 1842, he was the 1st Viscount of Monte Belo, a surgeon, director of the Lazareto de Gonçalo Aires, and procurator to the General Board of the District"
+        ]
+    },
+    "years": {
+        "1842": [
+            "Birth of Dr. João de Freitas da Silva"
+        ],
+        "1863": [
+            "Doctorate in medicine from the faculty of Montpellier"
+        ],
+        "1921": [
+            "Publication of De l'Affection bilieuse"
+        ]
+    }
+}

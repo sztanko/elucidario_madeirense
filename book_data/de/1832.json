@@ -1,0 +1,50 @@
+{
+    "id": 1832,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kleiner Garten",
+    "fl": "K",
+    "original_title": "Jardim Pequeno",
+    "body": "So wurde ein kleiner Garten genannt, der 1878 zwischen dem alten Verfassungsplatz und der Mauer des ehemaligen Klosters S. Francisco, heute Stadtpark, gebaut wurde. Dieser Garten, in dem es einige Bänke und eine schöne Vegetation gab, verschwand 1914, als mit dem Bau der West Avenue, heute Dr. Manuel de Arriaga, begonnen wurde. An der Stelle des Gartens gab es einst einen Brunnen, dessen Wasser der Gouverneur D. Álvaro da Costa de Macedo in die Festung S. Lourenço umleiten ließ, und vor 1878 gab es an derselben Stelle einen Platz oder Platz, um den herum einige Bäume zu sehen waren. Die Brunnenbecken wurden 1838 vom Verwalter an den Stadtrat angefordert und befinden sich derzeit auf dem Platz S. Sebastião oder Comercio. Anlässlich der Einweihung der Telegrafenverbindungen mit dem Festland im Jahr 1874 gab es brillante Beleuchtungen auf dem alten Platz S. Francisco.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Verfassungsplatz": [
+            "Ort auf Madeira"
+        ],
+        "Stadtpark": [
+            "Ort auf Madeira"
+        ],
+        "West Avenue": [
+            "Ort auf Madeira"
+        ],
+        "Dr. Manuel de Arriaga": [
+            "Ort auf Madeira"
+        ],
+        "S. Lourenço": [
+            "Festung auf Madeira"
+        ],
+        "S. Sebastião": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "D. Álvaro da Costa de Macedo": [
+            "Gouverneur"
+        ]
+    },
+    "years": {
+        "1878": [
+            "Bau des Kleinen Gartens"
+        ],
+        "1914": [
+            "Verschwinden des Kleinen Gartens"
+        ],
+        "1838": [
+            "Anforderung der Brunnenbecken durch den Stadtrat"
+        ]
+    }
+}

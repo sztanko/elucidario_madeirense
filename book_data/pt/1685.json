@@ -1,0 +1,32 @@
+{
+    "id": 1685,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Henriques (Dr. Júlio Augusto)",
+    "fl": "H",
+    "original_title": "Henriques (Dr. Júlio Augusto)",
+    "body": "Esteve na Madeira a 25 de Junho de 1903, por ocasião da viagem cientifica que fez à ilha de S. Tomé, tendo visitado o Monte e diversos pontos da cidade. O Dr. Júlio A. Henriques nasceu em Cabeceira de Bastos a 17 de Janeiro de 1838 e era lente jubilado da cadeira de botânica da Universidade de Coimbra, e um dos mais distintos naturalistas do nosso país.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cabeceira de Bastos": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Dr. Júlio A. Henriques": [
+            "Lente jubilado da cadeira de botânica da Universidade de Coimbra"
+        ]
+    },
+    "years": {
+        "1903": [
+            "Visita à Madeira"
+        ],
+        "1838": [
+            "Nascimento de Dr. Júlio A. Henriques"
+        ]
+    }
+}

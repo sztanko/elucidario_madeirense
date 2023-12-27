@@ -1,0 +1,35 @@
+{
+    "id": 488,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bicho da cana",
+    "fl": "B",
+    "original_title": "Bicho da cana",
+    "body": "The bicho da cana is the larva of the Nonagria Sacchari, an insect of the order Lepidoptera. As early as 1502, this larva devastated the sugarcane plantations in Madeira. In that year, on November 15, a royal letter was sent to the judges and councilors of the Municipal Council of Funchal, recommending the use of ash to destroy the bicho da cana. On June 29, 1509, a new royal letter announced the arrival on this island of a Fernão Rodrigues, tasked with finding a remedy to kill the insect that infests the canes... causing so much loss and damage, and recommending that Fernão Rodrigues be hosted and rewarded as his services deserved.\n\nDespite these measures, it was only in 1887 that the bicho da cana began to disappear, due to the relentless war waged against it by the Iridomyrmex humilis, a species of ant imported from Demerara. Before the purely accidental introduction of this ant to Madeira, the farmers used to light torches and walk through the sugarcane fields at night so that the insects would fall and die on the flames.\n\nThe larva of the Nonagria Sacchari lives inside the sugarcane stalks, where it creates galleries that connect to the outside. The walls of the galleries become hard, and the adjacent tissues turn reddish and quickly ferment. It mainly appears during the summer, but after the introduction of the ant, it became rare on the island of Madeira.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "Fernão Rodrigues": [
+            "Tasked with finding a remedy to kill the bicho that infests the canes"
+        ]
+    },
+    "years": {
+        "1502": [
+            "Devastation of the sugarcane plantations"
+        ],
+        "1509": [
+            "Announcement of the arrival of Fernão Rodrigues"
+        ],
+        "1887": [
+            "Start of the disappearance of the bicho da cana"
+        ]
+    }
+}

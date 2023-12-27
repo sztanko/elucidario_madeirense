@@ -1,0 +1,26 @@
+{
+    "id": 1233,
+    "lang": "en",
+    "is_original": false,
+    "title": "Equisetáceas",
+    "fl": "E",
+    "original_title": "Equisetáceas",
+    "body": "They are represented in Madeira by a single species - Equisetum maximum, a plant found in waterlogged areas in São Vicente, Ribeira de Santa Luzia, Ribeira de S. João, etc.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Vicente": [
+            "Waterlogged areas"
+        ],
+        "Ribeira de Santa Luzia": [
+            "Waterlogged areas"
+        ],
+        "Ribeira de S. João": [
+            "Waterlogged areas"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

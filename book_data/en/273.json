@@ -1,0 +1,29 @@
+{
+    "id": 273,
+    "lang": "en",
+    "is_original": false,
+    "title": "Arruda (Fr. Pedro de)",
+    "fl": "A",
+    "original_title": "Arruda (Fr. Pedro de)",
+    "body": "Guardian of the Franciscan community of S. João da Ribeira, who raised the original church of the convent of S. Francisco in this city, consecrated in 1554 by the passing bishop D. Sancho Truxillo, in Madeira.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "S. João da Ribeira": [
+            "Location of the Franciscan community"
+        ]
+    },
+    "people": {
+        "Fr. Pedro de Arruda": [
+            "Guardian of the Franciscan community of S. João da Ribeira"
+        ]
+    },
+    "years": {
+        "1554": [
+            "Consecration of the original church of the convent of S. Francisco"
+        ]
+    }
+}

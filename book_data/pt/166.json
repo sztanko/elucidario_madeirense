@@ -1,0 +1,35 @@
+{
+    "id": 166,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almeida (Paulo Dias de)",
+    "fl": "A",
+    "original_title": "Almeida (Paulo Dias de)",
+    "body": "Engenheiro e sócio correspondente da Sociedade Funchalense dos Amigos das Sciencias e Artes. Como militasse no partido constitucional, foi preso e mandado para bordo da fragata Príncipe D. Pedro, mal chegou a esta ilha o governador José Maria Monteiro, sendo depois enviado para Lisboa a bordo da charrua Orestes, na qualidade de preso político pronunciado pela alçada que veio a esta ilha em 1828.\n\nLevantou a planta geral da ilha da Madeira no princípio do século XIX, e deixou um manuscrito intitulado Descripção da Ilha da Madeira em geral e de cada huma das suas freguesias, villas e logares em particular, suas producções, numero de fogos e seus habitantes; e estado actual das suas fortificações; 1817. Este manuscrito foi publicado no Archivo da Marinha e Ultramar, vol. II, com desenhos das fortificações, figurinos das tropas milicianas e costumes populares.\n\nTendo sido condenado, por motivos políticos, a degredo em Africa, ali morreu pouco antes de 1834.",
+    "categories": [
+        "history",
+        "culture",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Paulo Dias de Almeida": [
+            "Engenheiro e sócio correspondente da Sociedade Funchalense dos Amigos das Sciencias e Artes, preso político e autor de um manuscrito sobre a Madeira"
+        ],
+        "José Maria Monteiro": [
+            "Governador que mandou prender Paulo Dias de Almeida"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Paulo Dias de Almeida foi preso e enviado para Lisboa como preso político"
+        ],
+        "1817": [
+            "Paulo Dias de Almeida deixou um manuscrito intitulado Descripção da Ilha da Madeira"
+        ],
+        "1834": [
+            "Paulo Dias de Almeida morreu em degredo na África pouco antes deste ano"
+        ]
+    }
+}

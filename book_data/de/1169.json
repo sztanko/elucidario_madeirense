@@ -1,0 +1,30 @@
+{
+    "id": 1169,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bezirk Funchal (Der)",
+    "fl": "B",
+    "original_title": "Districto do Funchal (O)",
+    "body": "Die Veröffentlichung begann am 16. Januar 1864 und endete am 5. August 1865 nach 66 Ausgaben.\n\nEine andere Zeitung mit demselben Titel wurde vom 24. Mai 1877 bis zum 24. April 1878 mit 23 Ausgaben veröffentlicht.",
+    "categories": [
+        "culture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1864": [
+            "Beginn der Veröffentlichung der Zeitung 'Bezirk Funchal (Der)'."
+        ],
+        "1865": [
+            "Ende der Veröffentlichung der Zeitung 'Bezirk Funchal (Der)'."
+        ],
+        "1877": [
+            "Beginn der Veröffentlichung einer anderen Zeitung mit demselben Titel 'Bezirk Funchal (Der)'."
+        ],
+        "1878": [
+            "Ende der Veröffentlichung der zweiten Zeitung 'Bezirk Funchal (Der)'."
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 3558,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vacina",
+    "fl": "V",
+    "original_title": "Vacina",
+    "body": "Parece que foi o medico da corte, o Dr. Domaire, quem primeiro fez na Madeira experiências de vacinação contra as bexigas, tendo-se-lhe seguido o Dr. Adams, ao qual já nos referimos a páginas 16 do volume I deste Elucidário. Num requerimento despachado favoravelmente pelo Governador e apresentado á Câmara Municipal em sessão de 27 de Outubro de 1802, pedia o Dr. Adams que «de oito em oito dias lhe mandassem quatro expostos, para neles ensaiar a vacina contra as bexigas», tendo o mesmo médico num relatório escrito em inglês, mas que foi traduzido pelo major intérprete Francisco Manuel Patrone, apresentado o resultado das experiências a que procedera. Depois do Dr. Adams, procedeu a vacinações o medico madeirense Dr. António Caetano de Freitas, o qual em dois relatórios, um escrito em 1804 e o outro em 1807, deu também conta do que havia observado. Em 1815, estabeleceu a Câmara, em virtude de portaria do governador, que todos os meses houvesse vacina para os expostos, aplicada pelo físico-mor, e em sessão de 7 de Junho de 1823, resolveu a mesma corporação que se convidassem por meio de editais os pais de família a mandar seus filhos a vacinar ao hospital, onde havia «um estabelecimento gratuito para esse fim, criado no ano passado pelos cuidados da Câmara, de acordo com os guardas-móres de saúde e o provedor do mesmo hospital.» Parece, pois, que só de 1822 ou de 1823 em diante é que o emprego da vacina começou a generalizar-se na Madeira, embora se saiba que antes disso eram os expostos vacinados, e que em 1804, quando muita gente punha ainda em duvida a utilidade das inoculações, já o governador Sequeira Freire as aconselhava a toda a gente, como o único meio eficaz de evitar o contagio e a propagação da varíola.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Domaire": [
+            "Médico da corte"
+        ],
+        "Dr. Adams": [
+            "Médico"
+        ],
+        "Francisco Manuel Patrone": [
+            "Major intérprete"
+        ],
+        "Dr. António Caetano de Freitas": [
+            "Médico madeirense"
+        ],
+        "Sequeira Freire": [
+            "Governador"
+        ]
+    },
+    "years": {
+        "1802": [
+            "Requerimento do Dr. Adams à Câmara Municipal"
+        ],
+        "1804": [
+            "Relatório do Dr. António Caetano de Freitas"
+        ],
+        "1807": [
+            "Relatório do Dr. António Caetano de Freitas"
+        ],
+        "1815": [
+            "Estabelecimento mensal de vacina pela Câmara"
+        ],
+        "1823": [
+            "Resolução da Câmara para vacinação de crianças"
+        ]
+    }
+}

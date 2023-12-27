@@ -1,0 +1,25 @@
+{
+    "id": 895,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cidrão (Ribeiro do)",
+    "fl": "C",
+    "original_title": "Cidrão (Ribeiro do)",
+    "body": "Ribeiro da freguesia do Curral das Freiras, afluente da caudalosa Ribeira dos Socorridos.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Curral das Freiras"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Freguesia onde está localizado o Ribeiro do Cidrão"
+        ],
+        "Ribeira dos Socorridos": [
+            "Importante rio na região"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

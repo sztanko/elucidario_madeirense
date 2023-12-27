@@ -1,0 +1,34 @@
+{
+    "id": 3063,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Revista de Direito",
+    "fl": "R",
+    "original_title": "Revista de Direito",
+    "body": "Desta revista de Jurisprudência se publicaram quinzenalmente treze números, sendo o primeiro a 15 de Novembro de 1920 e o ultimo a 15 de Maio de 1921. Foram seus redactores e proprietários os Drs. Frederico de Freitas, Juvenal de Araújo e Pedro Pita.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Frederico de Freitas": [
+            "Redactor e proprietário da Revista de Direito"
+        ],
+        "Juvenal de Araújo": [
+            "Redactor e proprietário da Revista de Direito"
+        ],
+        "Pedro Pita": [
+            "Redactor e proprietário da Revista de Direito"
+        ]
+    },
+    "years": {
+        "1920": [
+            "Publicação do primeiro número da Revista de Direito"
+        ],
+        "1921": [
+            "Publicação do último número da Revista de Direito"
+        ]
+    }
+}

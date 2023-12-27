@@ -1,0 +1,31 @@
+{
+    "id": 1447,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fort of S. João Baptista",
+    "fl": "F",
+    "original_title": "Forte de S. João Baptista",
+    "body": "Also known as the Anchorage and Landing Place. It was built on a rocky point to the east of Machico Bay in 1708.\n\nIt fired upon the war brig of the Miguelist squadron, Infante D. Sebastião, on August 22, 1828, causing slight damage.\n\nIn 1910, wooden houses were built on the esplanade and adapted for a cholera hospital.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Machico Bay"
+        ]
+    },
+    "people": {
+        "Infante D. Sebastião": [
+            "Miguelist"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Construction of the fort"
+        ],
+        "1828": [
+            "Firing upon the war brig"
+        ]
+    }
+}

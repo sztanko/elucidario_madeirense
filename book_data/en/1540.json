@@ -1,0 +1,26 @@
+{
+    "id": 1540,
+    "lang": "en",
+    "is_original": false,
+    "title": "Galinhas (Ribeira das)",
+    "fl": "G",
+    "original_title": "Galinhas (Ribeira das)",
+    "body": "This watercourse originates in the parish of Fajã da Ovelha and flows into the coastal area of the parish of Paul do Mar, where there is a small port at its mouth, called the Porto das Galinhas.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Paul do Mar"
+    ],
+    "locations": {
+        "Fajã da Ovelha": [
+            "Source"
+        ],
+        "Paul do Mar": [
+            "Coastal area"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

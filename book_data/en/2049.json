@@ -1,0 +1,38 @@
+{
+    "id": 2049,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lordelo (José da Fonseca e Gouveia, baron of)",
+    "fl": "L",
+    "original_title": "Lordelo (José da Fonseca e Gouveia, barão de)",
+    "body": "This district chief was the second to be appointed General Administrator among us. The decree of his appointment is dated April 28, 1838, and he took office on September 14 of the same year, having arrived in Funchal three days earlier. He was relieved of his duties, at his request, by decree of November 14, 1840. The Baron of Lordelo was born in 1792 and died on January 30, 1863, being ennobled with the barony on October 10, 1838.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where he took office as General Administrator"
+        ]
+    },
+    "people": {
+        "José da Fonseca e Gouveia, baron of Lordelo": [
+            "District chief, General Administrator"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Enoblement with the barony"
+        ],
+        "1840": [
+            "Relief from duties"
+        ],
+        "1792": [
+            "Birth of the Baron of Lordelo"
+        ],
+        "1863": [
+            "Death of the Baron of Lordelo"
+        ]
+    }
+}

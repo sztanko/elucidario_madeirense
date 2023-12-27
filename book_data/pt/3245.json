@@ -1,0 +1,55 @@
+{
+    "id": 3245,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Paulo (Capelas de)",
+    "fl": "S",
+    "original_title": "São Paulo (Capelas de)",
+    "body": "A capela desta invocação que existe no largo de São Paulo, é das mais antigas desta ilha e cremos que a primeira edificada depois da de Santa Catarina (V. este nome). Teve primitivamente o nome de São Pedro e São Paulo mas, apesar de nela se ter estabelecido a sede da freguesia de São Pedro, foi a segunda denominação a que perdurou através dos tempos e que actualmente se conserva. Sôbre o pórtico se vêem ainda as tradicionais chaves ou armas pontificias a atestarem o orago ou a invocação antiga da capela.\n\nFoi seu fundador João Gonçalves Zarco, que junto dela levantou a sua segunda moradia, que se afirma haver sido a primeira casa de pedra construída no Funchal, transferindo-se então de Santa Catarina para ali. Vid. Moradias de Zargo.\n\nA data de 1426 que se lê sobre a porta exterior, que dá acesso ao pequeno adro, refere-se evidentemente á primeira construção.\n\nNo decorrer dos séculos, tem o pequeno e modesto templo sofrido varias reparações, não restando certamente cousa alguma da edificação primitiva. Em 1871, se procedeu ali a uma quase completa reconstrução.\n\nO serviço do culto era exercido na capela de São Paulo pelos religiosos franciscanos até o ano de 1566, em que foi criada a freguesia de São Pedro, cuja sede se instalou na mesma capela. Esta paróquia foi extinta no ano de 1579 e novamente restaurada em 1586, não se sabendo se a segunda instalação da freguesia se fêz nesta ou em outra qualquer capela. Em 1879, organizou ali uma confraria com a denominação do orago, que teve seus estatutos aprovados pela autoridade superior do distrito, por alvará de 13 de Março daquele ano.\n\nFoi junto desta capela que se levantou o edifício destinado ao primeiro hospital, e que para este fim havia sido doado pelo descobridor João Gonçalves Zargo, como já fica referido a página 366 do volume II.\n\nExistiu uma capela da invocação de São Paulo na freguesia do Porto do Moniz, de que ainda restam algumas ruínas. Foi fundada pelo padre Paulo Vieira Jardim, pároco da mesma freguesia, que ali faleceu a 15 de Fevereiro de 1776, sendo sepultado na capela de que foi o instituidor. Também se chamava de S. Paulo e Almas.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro",
+        "Porto do Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ],
+        "Santa Catarina": [
+            "Santa Catarina"
+        ],
+        "Porto do Moniz": [
+            "Freguesia do Porto do Moniz"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Fundador da capela"
+        ],
+        "Padre Paulo Vieira Jardim": [
+            "Pároco da freguesia do Porto do Moniz"
+        ]
+    },
+    "years": {
+        "1426": [
+            "Data sobre a porta exterior"
+        ],
+        "1566": [
+            "Ano em que o serviço do culto era exercido na capela de São Paulo pelos religiosos franciscanos"
+        ],
+        "1579": [
+            "Ano em que a paróquia de São Pedro foi extinta"
+        ],
+        "1586": [
+            "Ano em que a paróquia de São Pedro foi novamente restaurada"
+        ],
+        "1871": [
+            "Ano em que se procedeu a uma quase completa reconstrução"
+        ],
+        "1879": [
+            "Ano em que organizou ali uma confraria com a denominação do orago"
+        ]
+    }
+}

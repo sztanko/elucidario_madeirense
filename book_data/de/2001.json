@@ -1,0 +1,24 @@
+{
+    "id": 2001,
+    "lang": "de",
+    "is_original": false,
+    "title": "Dr. Lippold",
+    "fl": "D",
+    "original_title": "Lippold (Dr.)",
+    "body": "Deutscher Botaniker, der 1838 auf Madeira Pflanzen sammelte. Er schrieb im Oktober 1838 im Gardner's Magazine einen Artikel über die Gärten des Hauses von Dr. Renton auf der Insel Madeira.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Renton": [
+            "Besitzer der erwähnten Gärten"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Sammelte Pflanzen auf Madeira"
+        ]
+    }
+}

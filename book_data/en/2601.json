@@ -1,0 +1,39 @@
+{
+    "id": 2601,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ornelas de Vasconcelos (Ayres de)",
+    "fl": "O",
+    "original_title": "Ornelas de Vasconcelos (Ayres de)",
+    "body": "Due to the popular sedition that deposed and imprisoned Governor Francisco de Mascarenhas (see this name), Ayres de Ornellas was elected by the nobility and the people as governor and captain-general on September 18, 1668. This elevated position was confirmed by the regent prince D. Pedro, and he remained in it until the possession of his successor Ayres de Saldanha, the following year of 1669.\n\nHe was the seventh ancestor of the distinguished Madeirans Archbishop D. Aires de Ornelas and the peer of the realm Agostinho de Ornelas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco de Mascarenhas": [
+            "Governor"
+        ],
+        "D. Pedro": [
+            "Regent prince"
+        ],
+        "Ayres de Saldanha": [
+            "Successor"
+        ],
+        "D. Aires de Ornelas": [
+            "Archbishop"
+        ],
+        "Agostinho de Ornelas": [
+            "Peer of the realm"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Ayres de Ornellas elected by the nobility and the people as governor and captain-general"
+        ],
+        "1669": [
+            "Possession of his successor Ayres de Saldanha"
+        ]
+    }
+}

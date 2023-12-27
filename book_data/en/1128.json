@@ -1,0 +1,58 @@
+{
+    "id": 1128,
+    "lang": "en",
+    "is_original": false,
+    "title": "Desacato e Roubo na Igreja do Estreito",
+    "fl": "D",
+    "original_title": "Desacato e Roubo na Igreja do Estreito",
+    "body": "During the night of November 6th to 7th, 1829, the church of Estreito de Nossa Senhora da Graça de Câmara de Lobos was broken into, and various sacred vessels, some silver crowns, a gold chain with the image of Our Lady, a silver flower with red stones, a processional cross, 2 silver lamps, etc., were stolen. The consecrated hosts in the tabernacle were consumed by the thieves. Six of the perpetrators of this crime were sentenced by the Lisbon Court of Appeal on March 6th, 1830, to be strangled at the Sodré quay, and 2 were sentenced to perpetual exile in Africa. The defendants sentenced to the ultimate penalty were: José Marreiros, infantry anspeçada 2, Jacinto Fernandes, laborer, Manuel de Sequeira, laborer, Januario Soares, infantry soldier 13, João Rodrigues, known as Espera Diabos, laborer, and José de Andrade, known as Rangido, gang member, the first and fourth being natives of Portugal and the rest from Madeira. The last three defendants, in addition to the death penalty, were sentenced to be dragged from the prison to the gallows, and after their death, their heads were to be cut off and displayed on posts for three days. The defendants sentenced to perpetual exile were Francisco de Sales Rodrigues, goldsmith, and Timoteo da Graça, laborer, both natives of Madeira, with the sentence of death against the defendant José Marreiros later commuted to exile in Africa.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Estreito de Nossa Senhora da Graça": [
+            "Locality where the robbery occurred"
+        ],
+        "Câmara de Lobos": [
+            "Locality where the robbery occurred"
+        ],
+        "Lisbon": [
+            "Location where the sentence was pronounced"
+        ]
+    },
+    "people": {
+        "José Marreiros": [
+            "Sentenced to be strangled"
+        ],
+        "Jacinto Fernandes": [
+            "Laborer sentenced for robbery"
+        ],
+        "Manuel de Sequeira": [
+            "Laborer sentenced for robbery"
+        ],
+        "Januario Soares": [
+            "Soldier sentenced for robbery"
+        ],
+        "João Rodrigues": [
+            "Laborer sentenced for robbery"
+        ],
+        "José de Andrade": [
+            "Gang member sentenced for robbery"
+        ],
+        "Francisco de Sales Rodrigues": [
+            "Goldsmith sentenced to perpetual exile"
+        ],
+        "Timoteo da Graça": [
+            "Laborer sentenced to perpetual exile"
+        ]
+    },
+    "years": {
+        "1829": [
+            "Year of the robbery"
+        ],
+        "1830": [
+            "Year of the sentence"
+        ]
+    }
+}

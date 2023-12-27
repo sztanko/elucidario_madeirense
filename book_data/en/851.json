@@ -1,0 +1,49 @@
+{
+    "id": 851,
+    "lang": "en",
+    "is_original": false,
+    "title": "British Cemetery",
+    "fl": "B",
+    "original_title": "Cemitério Britânico",
+    "body": "The original British cemetery was located where the Largo do Conde do Ribeiro Real is now, at the end of Rua 5 de Junho. The authorization granting the necessary permission to the English subjects to build a cemetery for the burial of their dead is dated January 3, 1761, but it was only on September 10, 1767, that the land intended for this purpose was acquired. Before the construction of the aforementioned cemetery, the bodies of non-Catholic foreigners who died in Funchal were thrown into the sea.\n\nThe current British cemetery was built in 1808 and expanded in 1852 and 1889. The oldest part of this cemetery was acquired for the burial of English soldiers who died in Funchal while Madeira was occupied by British troops, while the newer part began to be used only when the Funchal City Council needed to demolish the original cemetery to connect Rua 5 de Junho with Rua da Carreira. The transfer of this latter cemetery by the administrators of the British Chapel and Cemetery took place in August 1888, with the City Council undertaking to make the necessary efforts to facilitate the removal of the mortal remains existing in that area to a plot adjacent to the current cemetery, a plot that the same administrators had not been able to use for the expansion of the cemetery due to lack of the necessary licenses. The last burial in the cemetery where the Largo do Conde do Ribeiro Real is today took place in July 1885.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Largo do Conde do Ribeiro Real": [
+            "Location of the original British cemetery"
+        ],
+        "Rua 5 de Junho": [
+            "Location of the original British cemetery"
+        ],
+        "Carreira": [
+            "Location of the newer part of the British cemetery"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1761": [
+            "Authorization granting permission for the construction of the cemetery"
+        ],
+        "1767": [
+            "Acquisition of the land"
+        ],
+        "1808": [
+            "Construction of the cemetery"
+        ],
+        "1852": [
+            "Expansion of the cemetery"
+        ],
+        "1889": [
+            "Expansion of the cemetery"
+        ],
+        "1888": [
+            "Transfer of the current cemetery"
+        ],
+        "1885": [
+            "Last burial in the original cemetery"
+        ]
+    }
+}

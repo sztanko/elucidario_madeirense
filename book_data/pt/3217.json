@@ -1,0 +1,30 @@
+{
+    "id": 3217,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Cândido (Capela de)",
+    "fl": "S",
+    "original_title": "São Cândido (Capela de)",
+    "body": "No sítio que chamavam Fonte da Rocha da freguesia de Câmara de Lobos, construiu o cónego Francisco Cândido Correia Henriques, no ano de 1732, uma capela consagrada ao mártir São Cândido, a que fez a conveniente dotação a 16 de Maio do sobredito ano. Encontra-se em ruínas (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Fonte da Rocha": [
+            "Localidade onde foi construída a capela de São Cândido."
+        ]
+    },
+    "people": {
+        "Francisco Cândido Correia Henriques": [
+            "Construiu a capela de São Cândido em 1732."
+        ]
+    },
+    "years": {
+        "1732": [
+            "Construção da capela de São Cândido."
+        ]
+    }
+}

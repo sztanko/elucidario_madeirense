@@ -1,0 +1,26 @@
+{
+    "id": 118,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aldeia da Rainha",
+    "fl": "A",
+    "original_title": "Aldeia da Rainha",
+    "body": "Povoação criada na freguesia de Santo Antonio da Serra no tempo de D. Maria I, com famílias vindas da ilha do Porto Santo, que não teve larga duração.\n\nVid. Santo da Serra.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio da Serra"
+    ],
+    "locations": {
+        "Santo Antonio da Serra": [
+            "Povoação criada no tempo de D. Maria I"
+        ]
+    },
+    "people": {},
+    "years": {
+        "D. Maria I": [
+            "Tempo de criação da povoação"
+        ]
+    }
+}

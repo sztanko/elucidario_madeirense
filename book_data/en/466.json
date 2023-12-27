@@ -1,0 +1,42 @@
+{
+    "id": 466,
+    "lang": "en",
+    "is_original": false,
+    "title": "Berenguer",
+    "fl": "B",
+    "original_title": "Berenguer",
+    "body": "Above the town, Frutuoso says, about a quarter of a league inland, is the mill of the Cabraes; and near it is another one belonging to Dr. da Calheta, a Physician, named Pedro Berenguer de Lemilhana, a young nobleman and knight of the Order of Christ. It is from him that the surname Berenguer comes, and even today in Calheta, a considerable part of the land of the sesmaria that Pedro de Berenguer had is still called Lombo do Doutor: He was a native of Valença, in Spain, a doctor of medicine and a nobleman of the royal household. He came to Madeira in the last quarter of the 16th century and settled in the parish of Calheta, where he established an entailed estate, which he passed on to his descendants. A coat of arms was granted to him or one of his successors by royal decree on November 5, 1524. They are: red field and a blue band outlined in gold with three silver fleur-de-lis, open silver helmet, silver and red mantling, and as crest, an arm dressed in red with one of the fleur-de-lis in hand. Dr. Pedro de Berenguer Lemilhana died in Calheta and was buried in the main chapel of the parish church of this parish. One of the administrators of this entailed estate was Gaspar Berenguer de Andrade, who distinguished himself in the war in Brazil, for which he was granted the habit of Christ and the status of a nobleman. With his wife D. Isabel de França, he founded the convent of Nossa Senhora das Mercês (see this name), of which they were patrons and where they were buried. Gaspar Berenguer was born in 1603 and died in 1691. Members of this family included Francisco Berenguer de Lemilhana, who took part in the wars of Pernambuco for 22 years, being honored with the habit of Christ, Antonio de Andrade Berenguer, who distinguished himself in the wars of the Restoration, and Bartolomeu de Melo Berenguer, who served with bravery and courage in the campaigns of Maranhão.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Pedro Berenguer de Lemilhana": [
+            "Established himself in the parish of Calheta, established an entailed estate and passed it on to his descendants"
+        ],
+        "Gaspar Berenguer de Andrade": [
+            "Administrator of the entailed estate, distinguished himself in the war in Brazil"
+        ],
+        "D. Isabel de França": [
+            "Founded the convent of Nossa Senhora das Mercês"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Grant of coat of arms to Pedro de Berenguer"
+        ],
+        "1603": [
+            "Birth of Gaspar Berenguer"
+        ],
+        "1691": [
+            "Death of Gaspar Berenguer"
+        ]
+    }
+}

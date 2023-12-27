@@ -1,0 +1,31 @@
+{
+    "id": 3327,
+    "lang": "de",
+    "is_original": false,
+    "title": "Shackleton (Ernest)",
+    "fl": "S",
+    "original_title": "Shackleton (Ernest)",
+    "body": "Dieser bekannte englische Entdecker war vom 16. bis 19. Oktober 1921 auf Madeira, als er sich an Bord der Quest auf dem Weg in die antarktischen Regionen befand. Er starb im Alter von 47 Jahren am 5. Januar 1922, als sich sein Schiff in der Nähe der Insel South Georgia befand.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Von Shackleton besuchte Insel"
+        ]
+    },
+    "people": {
+        "Ernest Shackleton": [
+            "Englischer Entdecker"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Shackletons Besuch auf Madeira"
+        ],
+        "1922": [
+            "Shackletons Tod"
+        ]
+    }
+}

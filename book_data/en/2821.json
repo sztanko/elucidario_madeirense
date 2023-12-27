@@ -1,0 +1,33 @@
+{
+    "id": 2821,
+    "lang": "en",
+    "is_original": false,
+    "title": "Poço (Largo do)",
+    "fl": "P",
+    "original_title": "Poço (Largo do)",
+    "body": "It is the square next to Campo do Almirante Reis, where Rua de Santa Maria ends. It has a fountain, with a certain architectural flair, which is currently supplied with water from Tornos, but before 1911, it only provided groundwater, which was extracted from the subsoil by means of a pump. A short distance away was the old church of Nossa Senhora do Calhau.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where Largo do Poço is situated"
+        ],
+        "Campo do Almirante Reis": [
+            "Near Largo do Poço"
+        ],
+        "Rua de Santa Maria": [
+            "Ends at Largo do Poço"
+        ],
+        "Tornos": [
+            "Source from which the fountain is supplied with water"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1911": [
+            "Change in the water supply of the fountain"
+        ]
+    }
+}

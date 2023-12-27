@@ -1,0 +1,43 @@
+{
+    "id": 1959,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Leite Monteiro (Parque)",
+    "fl": "L",
+    "original_title": "Leite Monteiro (Parque)",
+    "body": "Principiou a ser construído em 1894 em terrenos comprados por 1.640.000 réis a João Baptista de Sousa, em virtude de deliberação tomada na sessão camarária de 2 de Agosto daquele ano, e embora no que diz respeito a vegetação e ornamentos nada ofereça de extraordinário, é no entretanto um local que se visita com prazer, já pela sua frescura e viçosidade já pelas perspectivas que dele se desfrutam. A fonte chamada de Nossa Senhora e onde se vê uma pequena imagem da Virgem, é de mármore e está situada no parque, existindo junto dela um amplo largo, onde vegetam os mais belos platanos que conhecemos na ilha. A antiga fonte de Nossa Senhora, muito mais engraçada e pitoresca do que a actual, foi destruída em 1896, em virtude da queda dum grande castanheiro que lhe ficava sobranceiro, tendo as obras de assentamento da nova fonte sido arrematadas em sessão camarária de 12 de Agosto de 1897. No interior da fonte, encontra-se uma lâmina de metal amarelo, com uma inscrição em inglês, que diz o seguinte: «Carlos Murray, cônsul geral de S. M. Britânica nas ilhas da Madeira e Porto Santo, fundador e primeiro proprietário da quinta de Belo Monte, comprou no ano de 1776 a água desperdiçada desta fonte ao morgado Henrique Felix de Freitas, pela quantia de 5:000 reis anuais, para ser paga por todo o sempre aos herdeiros do dito morgado; e ordenou que se fizesse esta construção para melhor se juntarem as águas, se reparar a fonte e se edificar o aqueduto e fonte na margem da estrada, tudo à sua custa, no ano do Senhor de 1778. A Câmara Municipal do Funchal, em sua sessão de 22 de Agosto de 1895, deu o nome do seu presidente, o Dr. José Leite Monteiro, ao parque do Monte, mas a comissão administrativa municipal, nomeada após a proclamação da Republica, anulou essa deliberação, em sessão de 27 de Outubro de 1910. Em 13 de Fevereiro de 1913, sendo presidente da comissão administrativa municipal o Dr. Manuel Gregorio Pestana Júnior, foi restabelecido o primitivo nome do parque, tendo sido esta resolução muito bem recebida pelo público funchalense.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de construção do parque"
+        ]
+    },
+    "people": {
+        "João Baptista de Sousa": [
+            "Vendedor dos terrenos para a construção do parque"
+        ],
+        "Carlos Murray": [
+            "Cônsul geral de S. M. Britânica nas ilhas da Madeira e Porto Santo, fundador e primeiro proprietário da quinta de Belo Monte"
+        ]
+    },
+    "years": {
+        "1894": [
+            "Início da construção do parque"
+        ],
+        "1896": [
+            "Destruição da antiga fonte de Nossa Senhora"
+        ],
+        "1897": [
+            "Arrematação das obras de assentamento da nova fonte"
+        ],
+        "1776": [
+            "Compra da água desperdiçada desta fonte por Carlos Murray ao morgado Henrique Felix de Freitas"
+        ]
+    }
+}

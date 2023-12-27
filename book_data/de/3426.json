@@ -1,0 +1,31 @@
+{
+    "id": 3426,
+    "lang": "de",
+    "is_original": false,
+    "title": "Tafelholzbach (Ribeira da)",
+    "fl": "T",
+    "original_title": "Tabua (Ribeira da)",
+    "body": "Er durchquert die Gemeinde Tábua von Norden nach Süden und mündet in deren Küste. Seinen Ursprung hat er an den Hängen von Pico das Pedras am Rande der Hochebene Paul da Serra, in ihn mündet der Zufluss Ribeiro do Barqueiro.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Tábua"
+    ],
+    "locations": {
+        "Tábua": [
+            "Gemeinde, die der Ribeira da Tábua von Norden nach Süden durchquert."
+        ],
+        "Pico das Pedras": [
+            "Ursprungsort der Ribeira da Tábua."
+        ],
+        "Paul da Serra": [
+            "Ort in der Nähe des Ursprungs der Ribeira da Tábua."
+        ],
+        "Barqueiro": [
+            "Zufluss, der in die Ribeira da Tábua mündet."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

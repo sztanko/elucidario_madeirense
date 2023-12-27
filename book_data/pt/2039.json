@@ -1,0 +1,40 @@
+{
+    "id": 2039,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo das Têrças",
+    "fl": "L",
+    "original_title": "Lombo das Têrças",
+    "body": "Sítio povoado da freguesia da Ponta do Sol, onde se acha a capela de Nossa Senhora do Monte, construída pelo povo em 1751 e acrescentada no ano de 1775, tendo sido objecto duma grande profanação no mês de Junho de 1810. Existiu ali uma capela dedicada a São Caetano, construída em 1780 por António de Carvalhal Esmeraldo e Alencastre.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "António de Carvalhal Esmeraldo e Alencastre": [
+            "Construtor da capela de São Caetano"
+        ]
+    },
+    "years": {
+        "1751": [
+            "Ano de construção da capela de Nossa Senhora do Monte"
+        ],
+        "1775": [
+            "Ano de acréscimo à capela de Nossa Senhora do Monte"
+        ],
+        "1810": [
+            "Ano da profanação da capela de Nossa Senhora do Monte"
+        ],
+        "1780": [
+            "Ano de construção da capela de São Caetano"
+        ]
+    }
+}

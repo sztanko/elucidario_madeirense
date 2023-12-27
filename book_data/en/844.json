@@ -1,0 +1,38 @@
+{
+    "id": 844,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cedar",
+    "fl": "C",
+    "original_title": "Cedro",
+    "body": "Several resinous plants belonging to the Pinaceae family are called by this name in Madeira, among them the most common is the Juniperus glauca, commonly known as the cedar of Goa or das barracas.\n\nThe cedar of the island is the Juniperus Oxycedrus subspecies madeirensis, a shrub or small tree of 4-7 meters, with dioecious flowers, drooping branchlets, linear or linear-lanceolate leaves, ternate, with 2 white stripes on the upper side, and subglobose and usually yellowish cones. This cedar, cultivated in the estates of Monte, Camacha, and Santo da Serra, but almost extinct in the mountains of Madeira, produces an aromatic and light wood highly appreciated by carpenters. The ceiling of the Cathedral was built with this wood, and if what Manuel Tomás says in the Insulana is true, it also served to build the first two-story house in Funchal. Cade oil is produced by J. Oxycedrus.",
+    "categories": [
+        "biology",
+        "architecture"
+    ],
+    "freguesias": [
+        "Monte",
+        "Camacha",
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Monte": [
+            "Location of cedar cultivation"
+        ],
+        "Camacha": [
+            "Location of cedar cultivation"
+        ],
+        "Santo da Serra": [
+            "Location of cedar cultivation"
+        ],
+        "Funchal": [
+            "Use of the wood in the construction of the first two-story house"
+        ]
+    },
+    "people": {
+        "Manuel Tomás": [
+            "Mentioned in the Insulana"
+        ]
+    },
+    "years": {}
+}

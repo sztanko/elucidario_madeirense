@@ -1,0 +1,36 @@
+{
+    "id": 3231,
+    "lang": "de",
+    "is_original": false,
+    "title": "São João de Latrão (Kapelle)",
+    "fl": "S",
+    "original_title": "São João de Latrão (Capela de)",
+    "body": "Diese Kapelle, die vor etwa zwanzig Jahren (1921) vollständig abgerissen wurde und schon lange zuvor völlig verfallen war, befand sich an der Stelle, die ihren Namen trägt. Sie wurde von Nuno Fernandes Cardoso und seiner Frau Leonor Dias in Auftrag gegeben, die in ihrem 1511 verfassten Testament den Lehenhof São João de Latrão einrichteten, der nach der Kapelle benannt wurde, die ihm als Sitz diente. Mit Bezug auf dieses Testament heißt es bei den Anmerkungen zu den \"Saudades\": \"Diese Urkunde, von der wir eine Kopie haben, ist ein Muster ihrer Art, was die gesunde Rechtschaffenheit, die Aufrichtigkeit des Glaubens und die tugendhafte Stolz angeht, die sie diktiert hat. Die moralische und historische Daseinsberechtigung der Lehenhöfe hat in jener ehrwürdigen Urkunde eine sehr ehrenvolle Bestätigung. Der reine Typus der gebundenen Institutionen ist dort zu finden. Unsere Zeit kann sie offensichtlich nicht akzeptieren. Aber der gerechte und aufgeklärte Historiker beurteilt sie nach einem subtileren und erhabeneren Maßstab als der bloßen Gegenüberstellung von Vergangenheit und Gegenwart\".\n\nDer letzte Vertreter dieses gebundenen Hauses war Nuno Fernandes Cardoso e Vasconcelos, der Großvater von Luis Cardoso de Castro e Abreu, derzeit Professor in der Gemeinde Gaula (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Gaula": [
+            "Gemeinde Gaula"
+        ]
+    },
+    "people": {
+        "Nuno Fernandes Cardoso": [
+            "Beauftragte den Bau der Kapelle"
+        ],
+        "Leonor Dias": [
+            "Ehefrau von Nuno Fernandes Cardoso"
+        ],
+        "Luis Cardoso de Castro e Abreu": [
+            "Derzeitiger Professor der Gemeinde Gaula"
+        ]
+    },
+    "years": {
+        "1511": [
+            "Testament von Nuno Fernandes Cardoso und Leonor Dias"
+        ]
+    }
+}

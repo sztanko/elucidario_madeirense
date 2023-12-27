@@ -1,0 +1,39 @@
+{
+    "id": 2162,
+    "lang": "en",
+    "is_original": false,
+    "title": "Malheiro de Melo (Patrício)",
+    "fl": "M",
+    "original_title": "Malheiro de Melo (Patrício)",
+    "body": "He was born in Funchal on March 17, 1791, and died in the parish of Caniço on May 18, 1942. He took an active part in the movement of January 28, 1821, which resulted in the proclamation of the Constitution in Madeira. He was a member of the first Constitutional Council of Funchal and consul of Prussia. Pronounced by the jurisdiction that came to Madeira in 1828, he was not arrested because he had left for abroad, from where he only returned after the constitutional government was restored in the country.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ],
+        "Caniço": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "Patrício Malheiro de Melo": [
+            "Active participant in the movement of January 28, 1821"
+        ]
+    },
+    "years": {
+        "1791": [
+            "Year of birth"
+        ],
+        "1942": [
+            "Year of death"
+        ],
+        "1821": [
+            "Year of the January 28 movement"
+        ]
+    }
+}

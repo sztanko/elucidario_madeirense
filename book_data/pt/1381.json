@@ -1,0 +1,31 @@
+{
+    "id": 1381,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ferreiros",
+    "fl": "F",
+    "original_title": "Ferreiros",
+    "body": "Pequeno sítio também chamado Quinta dos Ferreiros, na freguesia da Calheta, onde existiu uma capela dedicada a Nossa Senhora da Penha, construída em 1682 pelo dr. Manuel Fernandes Gomes.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Freguesia na Ilha da Madeira."
+        ]
+    },
+    "people": {
+        "Dr. Manuel Fernandes Gomes": [
+            "Construtor da capela dedicada a Nossa Senhora da Penha."
+        ]
+    },
+    "years": {
+        "1682": [
+            "Construção da capela dedicada a Nossa Senhora da Penha."
+        ]
+    }
+}

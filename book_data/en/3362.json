@@ -1,0 +1,36 @@
+{
+    "id": 3362,
+    "lang": "en",
+    "is_original": false,
+    "title": "Soares",
+    "fl": "S",
+    "original_title": "Soares",
+    "body": "> This family name comes from Diogo Soares, who was the lord of Porto Santo, and from Manuel Soares, who founded the chapel of Senhora da Boa Morte in the church of S. Pedro in 1596.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "S. Pedro"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Location related to the Soares family name"
+        ],
+        "S. Pedro": [
+            "Location of the chapel of Senhora da Boa Morte"
+        ]
+    },
+    "people": {
+        "Diogo Soares": [
+            "Lord of Porto Santo"
+        ],
+        "Manuel Soares": [
+            "Founder of the chapel of Senhora da Boa Morte"
+        ]
+    },
+    "years": {
+        "1596": [
+            "Foundation of the chapel of Senhora da Boa Morte by Manuel Soares"
+        ]
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "id": 3248,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Pedro (Kapelle von)",
+    "fl": "S",
+    "original_title": "São Pedro (Capela de)",
+    "body": "Am westlichen Ende der Südküste der Insel Porto Santo befindet sich eine kleine Kapelle, die São Pedro gewidmet ist und an die eine kleine Pilgerherberge angegliedert war. Dort findet alljährlich ein Fest zu Ehren des Kirchenpatrons statt, das von den Bewohnern dieser Insel zahlreich besucht wird.\n\nIn der Gemeinde Santa Cruz westlich der Stadt befindet sich am Straßenrand die Kapelle São Pedro, die von João Escorcio Drumond gestiftet wurde. Sie wurde durch eine Flutwelle 1803 zerstört und einige Jahre später vom Volk wiederaufgebaut.\n\nIn der Nähe der Pfarrkirche der Gemeinde São Jorge befindet sich eine Kapelle, die São Pedro gewidmet ist. Da sie in Ruinen lag, wurde sie 1901 von Bischof D. Manuel Agostinho Barreto restauriert und am 7. August desselben Jahres von ihm selbst eingeweiht und wieder dem Gottesdienst übergeben.\n\nIn der Gemeinde Porto Moniz gab es an einem Ort namens Terra de São Pedro eine kleine Einsiedelei, die São Pedro gewidmet war, von der aber keine Spuren mehr vorhanden sind.\n\nAn einem Ort namens Lamaceiros in derselben Gemeinde befindet sich eine Kapelle, die São Pedro geweiht ist. Dorthin wurde das Bildnis des Heiligen aus einer anderen Kapelle mit demselben Patrozinium überführt. Sie ist nicht neu, denn schon 1726 befand sie sich in einem fortgeschrittenen Ruinzustand. Einige Jahre später wurde sie auf Betreiben von Manuel Rodrigues Amarelo ordnungsgemäß instand gesetzt. Das Erdbeben von 1748 verursachte einige Schäden, die aber bald behoben wurden. Vor einigen Jahren wurden dort wichtige Arbeiten durchgeführt. In dieser Kapelle befindet sich ein Bildnis Unserer Lieben Frau vom Berge, das sehr verehrt wird.\n\nIn dieser Kapelle wird ständig das Allerheiligste aufbewahrt. Die Türen der kleinen Kirche stehen den ganzen Tag offen für Besucher (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "São Jorge",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Insel Porto Santo"
+        ],
+        "Santa Cruz": [
+            "Gemeinde Santa Cruz"
+        ],
+        "São Jorge": [
+            "Gemeinde São Jorge"
+        ],
+        "Porto Moniz": [
+            "Gemeinde Porto Moniz"
+        ],
+        "Lamaceiros": [
+            "Ort Lamaceiros"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Stifter der Kapelle São Pedro in der Gemeinde Santa Cruz"
+        ],
+        "D. Manuel Agostinho Barreto": [
+            "Bischof, der für die Restaurierung der Kapelle São Pedro in der Gemeinde São Jorge verantwortlich war"
+        ],
+        "Manuel Rodrigues Amarelo": [
+            "Verantwortlicher für die Instandsetzung der Kapelle São Pedro in Lamaceiros"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Flutwelle, die die Kapelle São Pedro in der Gemeinde Santa Cruz zerstörte"
+        ],
+        "1901": [
+            "Jahr der Restaurierung der Kapelle São Pedro in der Gemeinde São Jorge"
+        ],
+        "1726": [
+            "Jahr, in dem sich die Kapelle São Pedro in Lamaceiros in einem fortgeschrittenen Ruinzustand befand"
+        ],
+        "1748": [
+            "Jahr des Erdbebens, das Schäden an der Kapelle São Pedro in Lamaceiros verursachte"
+        ]
+    }
+}

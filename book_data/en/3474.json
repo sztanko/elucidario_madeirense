@@ -1,0 +1,37 @@
+{
+    "id": 3474,
+    "lang": "en",
+    "is_original": false,
+    "title": "Terra do Baptista",
+    "fl": "T",
+    "original_title": "Terra do Baptista",
+    "body": "A populated place in the parish of Porto da Cruz, with 105 tenancies and 651 inhabitants. There was a chapel dedicated to Nossa Senhora da Fé, founded by the morgado Diogo Dias de Orneias e Vasconcelos in the year 1826. There also existed a chapel dedicated to Santo António, belonging to the Nunes Caldeira family, and founded around 1760. This place belonged to the morgadio instituted by the Genoese João Baptista of the Italian Usodimare family, who married a son of the first donatary of Machico, Tristão Vaz, and of which the last representative was João Bettencourt Baptista.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Parish where the place is located"
+        ]
+    },
+    "people": {
+        "Diogo Dias de Orneias e Vasconcelos": [
+            "Morgado founder of the chapel of Nossa Senhora da Fé"
+        ],
+        "João Baptista": [
+            "Genoese who instituted the morgadio"
+        ]
+    },
+    "years": {
+        "1826": [
+            "Foundation of the chapel of Nossa Senhora da Fé"
+        ],
+        "1760": [
+            "Foundation of the chapel of Santo António"
+        ]
+    }
+}

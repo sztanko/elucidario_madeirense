@@ -1,0 +1,45 @@
+{
+    "id": 1706,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Hermenegildo Capelo (Rua)",
+    "fl": "H",
+    "original_title": "Hermenegildo Capelo (Rua)",
+    "body": "Os terrenos que actualmente formam o Jardim Municipal, a rua Hermengildo Capelo e o local onde se levanta o teatro Manuel de Arriaga, constituíam a antiga cerca do convento de S. Francisco. A pesar da oposição dos religiosos franciscanos abriu-se ali a rua no ano de 1814, que ficou tendo o nome de Rua dos Frades. Em 1823 foi patente ao publico o mercado mandado construir pela câmara desta cidade no local que depois se destinou ao teatro, passando a rua adjacente a ter a denominação de Rua do Mercado de S. João. No ano de 1885, por ocasião da passagem nesta ilha dos exploradores Hermenegildo Capelo e Roberto Ivens (V. estes nomes), deliberou a câmara municipal dar os seus nomes ás ruas que ladeiam pelo sul e norte o Jardim Municipal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Jardim Municipal": [
+            "Terrenos que atualmente formam o Jardim Municipal"
+        ],
+        "Teatro Manuel de Arriaga": [
+            "Local onde se levanta o teatro Manuel de Arriaga"
+        ],
+        "Convento de S. Francisco": [
+            "Antiga cerca do convento de S. Francisco"
+        ]
+    },
+    "people": {
+        "Hermenegildo Capelo": [
+            "Explorador"
+        ],
+        "Roberto Ivens": [
+            "Explorador"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Abertura da rua com o nome de Rua dos Frades"
+        ],
+        "1823": [
+            "Construção do mercado pela câmara desta cidade"
+        ],
+        "1885": [
+            "Deliberação da câmara municipal para dar nomes às ruas que ladeiam o Jardim Municipal"
+        ]
+    }
+}

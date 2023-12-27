@@ -1,0 +1,30 @@
+{
+    "id": 2263,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mendonça",
+    "fl": "M",
+    "original_title": "Mendonça",
+    "body": "Este apelido de família procede talvez de descendentes dos donatários do Porto Santo e de Machico, visto Bartolomeu Perestrelo, primeiro donatário daquela ilha, ter casado com Beatriz Furtado de Mendonça e João Teixeira, terceiro filho de Tristão Vaz, haver casado com Filipa de Mendonça Furtado, de quem houve Tristão de Mendonça.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha"
+        ],
+        "Machico": [
+            "Cidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Bartolomeu Perestrelo": [
+            "Primeiro donatário do Porto Santo"
+        ],
+        "João Teixeira": [
+            "Terceiro filho de Tristão Vaz"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2531,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Vida (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Vida (Capelas de)",
+    "body": "Manuel Valente founded in 1679, in the parish of São Pedro, a chapel consecrated to Nossa Senhora da Vida, which we do not know where it was located. On a small hill overlooking the sea stands a chapel of the same invocation, founded by Inês Teixeira, in a year that we do not know. It is located in the place of Fajã do Mar.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Locality in Madeira"
+        ],
+        "Fajã do Mar": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "Manuel Valente": [
+            "Founder of the chapel in 1679"
+        ],
+        "Inês Teixeira": [
+            "Founder of the chapel in Fajã do Mar"
+        ]
+    },
+    "years": {
+        "1679": [
+            "Foundation of the chapel in São Pedro"
+        ]
+    }
+}

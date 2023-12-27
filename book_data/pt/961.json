@@ -1,0 +1,34 @@
+{
+    "id": 961,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Companhia de Pescarias",
+    "fl": "C",
+    "original_title": "Companhia de Pescarias",
+    "body": "Existia uma no Funchal em 1792, criada por iniciativa de Eduardo Watts, mas supomos que teve curta duração, e em 21 de Novembro de 1822 fundou-se nesta cidade uma sociedade piscatoria, que desapareceu dois anos depois, por haver dado prejuízo aos seus membros.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ]
+    },
+    "people": {
+        "Eduardo Watts": [
+            "Iniciativa"
+        ]
+    },
+    "years": {
+        "1792": [
+            "Companhia de Pescarias no Funchal"
+        ],
+        "1822": [
+            "Fundação da sociedade piscatoria"
+        ],
+        "1824": [
+            "Desaparecimento da sociedade piscatoria"
+        ]
+    }
+}

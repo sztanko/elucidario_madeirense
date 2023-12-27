@@ -1,0 +1,38 @@
+{
+    "id": 1295,
+    "lang": "en",
+    "is_original": false,
+    "title": "Execuções Capitais",
+    "fl": "E",
+    "original_title": "Execuções Capitais",
+    "body": "We have scarce information about capital executions that have taken place in this archipelago, determined by public sentence. Some have thought that the place known by the name of Forca, in the parish of Santa Maria Maior, was the location where a capital sentence was carried out, with the gallows being the instrument of punishment applied to the criminal. We do not know, and we even tend to believe that the explanation given to justify the name of that place has no serious basis.\n\nSpeaking of Dr. Gaspar Frutuoso about João Rodrigues Castelhano, who had sesmaria lands in the parish of Estreito da Calheta, he says the following: 'he had many slaves, five of whom killed a foreman; he handed them over to justice and they were hanged in the town of Calheta.'\n\nIn the Philippine domination, around the year 1582, according to Rebêlo da Silva, the friar Fr. João do Espírito Santo was hanged in Funchal, accused of inciting the people to follow the party of D. Antonio, Prior do Crato.\n\nIn December 1813, when this island was occupied by British troops, an English soldier was hanged in this city for having murdered a sergeant of his own nationality. Against this execution, which offended the rights of Portuguese sovereignty, the then governor and captain general of the archipelago, Luiz Beltrão, protested, without General Gordon, commander of the English forces, heeding his complaint.\n\nAt the dawn of the 17th century, an individual named Francisco Rodrigues Jardim, of plebeian origin, was hanged in effigy in the Pelourinho square of this city, for having abducted a lady named D. Maria de Ornelas, belonging to ancient and noble Madeiran families. If he had not escaped the action of justice by fleeing, he would have expiated his audacious crime there with force.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "Estreito da Calheta"
+    ],
+    "locations": {},
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historian"
+        ],
+        "João Rodrigues Castelhano": [
+            "Landowner"
+        ],
+        "Fr. João do Espírito Santo": [
+            "Religious figure"
+        ],
+        "D. Antonio": [
+            "Prior do Crato"
+        ],
+        "Luiz Beltrão": [
+            "Governor and captain general of the archipelago"
+        ],
+        "Francisco Rodrigues Jardim": [
+            "Individual of plebeian origin"
+        ]
+    },
+    "years": {}
+}

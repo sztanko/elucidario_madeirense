@@ -1,0 +1,49 @@
+{
+    "id": 2290,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Miguéis (Alfredo Vital)",
+    "fl": "M",
+    "original_title": "Miguéis (Alfredo Vital)",
+    "body": "Nasceu nesta cidade a 28 de Abril de 1883. Começou a sua educação artística na Escola Industrial do Funchal, e tendo-se matriculado na Academia Real de Belas Artes em 1889 ali completou o seu curso de pintura histórica com o ilustre pintor Columbano Bordalo Pinheiro no ano de 1911. Durante o curso, foi várias vezes premiado e obteve uma medalha na conclusão dele. Em 1914, fez concurso para professor das Escolas Industriais, sendo em 1915 nomeado professor para a Escola Industrial de Setúbal e em 1917 transferido para a Escola Industrial do Funchal.\n\nEm 1912, obteve aprovação no concurso do Premio Valmor para pensionista no estrangeiro, seguindo nesse ano para Madrid e fixando-se depois em Paris, onde permaneceu até 1914 no estudo e aperfeiçoamento da sua arte.\n\nApresentou pela primeira vez os seus trabalhos na exposição na Sociedade Nacional de Belas Artes, de Lisboa, em 1910, e concorreu também às exposições dos anos de 1911, 1915, 1916, 1917 e 1919, obtendo ali os prémios de menção honrosa, três terceiras medalhas e a segunda medalha no ano de 1916. Foi admitido na exposição do Salon, de Paris, em 1913, 1914 e 1922. Realizou exposições dos seus trabalhos no Funchal e em Setúbal, e foi um dos expositores na Primeira Exposição de pintura e Escultura, que se fez nesta cidade em 1922.\n\nOs seus quadros\n> *Jardim do Luxemburgo* (1915),\n> *A Taça de Leite* (1916) e\n> *a Torre de Jesus em Setubal*\nforam adquiridos pelo Estado para o Museu Nacional de Arte Contemporanea.\nFaleceu no Funchal a 9 de Julho de 1943.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade de nascimento e falecimento"
+        ],
+        "Setúbal": [
+            "Local de trabalho como professor"
+        ]
+    },
+    "people": {
+        "Columbano Bordalo Pinheiro": [
+            "Ilustre pintor"
+        ]
+    },
+    "years": {
+        "1883": [
+            "Ano de nascimento"
+        ],
+        "1889": [
+            "Ano de matrícula na Academia Real de Belas Artes"
+        ],
+        "1911": [
+            "Ano de conclusão do curso de pintura histórica"
+        ],
+        "1914": [
+            "Ano de estudo e aperfeiçoamento da arte em Paris"
+        ],
+        "1915": [
+            "Ano de nomeação como professor para a Escola Industrial de Setúbal"
+        ],
+        "1917": [
+            "Ano de transferência para a Escola Industrial do Funchal"
+        ],
+        "1922": [
+            "Ano da Primeira Exposição de pintura e Escultura na cidade"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 2453,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Norça (Tamus edulis)",
+    "fl": "N",
+    "original_title": "Norça (Tamus edulis)",
+    "body": "Dioscoriacea volúvel indígena, cultivada nas Achadas da Cruz e no Porto do Moniz, por causa dos seus tubérculos alimentares. No estado espontâneo só tem sido achada no Garajau. Frutuoso menciona-a no Porto Santo, onde está agora perfeitamente extinta. Tem flores dióicas, purpúreas, e folhas cordiformes, acuminadas, com 9 nervuras.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Achadas da Cruz": [
+            "Local de cultivo"
+        ],
+        "Porto do Moniz": [
+            "Local de cultivo"
+        ],
+        "Garajau": [
+            "Local onde foi achada no estado espontâneo"
+        ],
+        "Porto Santo": [
+            "Local onde foi mencionada por Frutuoso"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

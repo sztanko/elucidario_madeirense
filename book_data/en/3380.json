@@ -1,0 +1,33 @@
+{
+    "id": 3380,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sociedade Protectora dos Animais Domésticos",
+    "fl": "S",
+    "original_title": "Sociedade Protectora dos Animais Domésticos",
+    "body": "It was established on January 6, 1897, and legalized by decree on May 6 of the same year, being considered of public utility by decree on March 16, 1914. It has benefactor members and subscribers, and the fees, which were originally 10 cents, were raised to 50 cents in 1921.\n\nThere was another society with the same name, which was established at Hotel Miles, on Rua do Carmo, on March 1, 1880.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1897": [
+            "Establishment of the society"
+        ],
+        "1914": [
+            "Consideration of public utility"
+        ],
+        "1921": [
+            "Increase in fees"
+        ],
+        "1880": [
+            "Establishment of the other society"
+        ]
+    }
+}

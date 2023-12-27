@@ -1,0 +1,30 @@
+{
+    "id": 150,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almada (D. Lourenço de)",
+    "fl": "A",
+    "original_title": "Almada (D. Lourenço de)",
+    "body": "This governor and captain general of Madeira was appointed on August 4, 1687, and took office on April 13, 1688. He was also the general governor of Angola and one of the provinces of Brazil. He was a descendant of D. Alvaro Vaz de Almada and died on May 2, 1729.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Alvaro Vaz de Almada": [
+            "Ancestor of D. Lourenço de Almada"
+        ]
+    },
+    "years": {
+        "1687": [
+            "Appointment as governor and captain general of Madeira"
+        ],
+        "1688": [
+            "Assumption of office"
+        ],
+        "1729": [
+            "Year of death"
+        ]
+    }
+}

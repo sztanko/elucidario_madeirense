@@ -1,0 +1,34 @@
+{
+    "id": 2785,
+    "lang": "de",
+    "is_original": false,
+    "title": "Piedade",
+    "fl": "P",
+    "original_title": "Piedade",
+    "body": "Mit dem Namen Monte Gordo oder da Piedade gibt es eine Anhöhe über dem Meer in der Gemeinde Caniçal, auf deren Gipfel sich die Kapelle Unserer Lieben Frau von Piedade befindet, die von Schiffen, die auf die Küste zusteuern, aus großer Entfernung gesichtet wird. Es wird behauptet, dass sie im 16. Jahrhundert von Garcia Moniz, dem ersten Verwalter des Grundbesitzes von Caniçal, gegründet wurde. Danach ging ihr Besitz an das Haus São Gil über, das seinen Stammsitz im Ort Calçada in der Gemeinde Santa Cruz hatte.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniçal",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Caniçal": [
+            "Gemeinde, in der sich die Anhöhe Piedade befindet"
+        ],
+        "Santa Cruz": [
+            "Gemeinde, in der sich der Stammsitz des Hauses São Gil befand"
+        ]
+    },
+    "people": {
+        "Garcia Moniz": [
+            "Erster Verwalter des Grundbesitzes von Caniçal"
+        ]
+    },
+    "years": {
+        "16. Jahrhundert": [
+            "Gründung der Kapelle Unserer Lieben Frau von Piedade"
+        ]
+    }
+}

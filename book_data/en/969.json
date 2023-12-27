@@ -1,0 +1,32 @@
+{
+    "id": 969,
+    "lang": "en",
+    "is_original": false,
+    "title": "Conceição (Largo da)",
+    "fl": "C",
+    "original_title": "Conceição (Largo da)",
+    "body": "It is commonly called Largo das Babosas. The new name comes from the chapel of Nossa Senhora da Conceição erected there in 1906, especially intended to commemorate the semi-centenary of the definition of the dogma of the Immaculate Conception, and which became known by the name of Capela-Monumento. The erection of this Chapel is mainly due to Comendador Luiz Betencourt Miranda, secretary of the Funchal City Council. From this square, there is a stunning view over the Ribeira de João Gomes and Curral dos Romeiros.",
+    "categories": [
+        "culture",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira de João Gomes": [
+            "View"
+        ],
+        "Curral dos Romeiros": [
+            "View"
+        ]
+    },
+    "people": {
+        "Luiz Betencourt Miranda": [
+            "Responsible for the erection of the Chapel"
+        ]
+    },
+    "years": {
+        "1906": [
+            "Construction of the Chapel"
+        ]
+    }
+}

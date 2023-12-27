@@ -1,0 +1,31 @@
+{
+    "id": 2229,
+    "lang": "de",
+    "is_original": false,
+    "title": "Maximilian von Habsburg",
+    "fl": "M",
+    "original_title": "Maximiliano de Habsburgo",
+    "body": "Er ist der Bruder des verstorbenen Ex-Kaisers von Österreich und Ex-Königs von Ungarn Karl von Habsburg und kam am 17. April 1922 mit dem englischen Dampfer Kenilworth Castle nach Madeira und wohnte im Monte im Haus seiner Schwägerin, der Ex-Kaiserin Zita.\n\nEr fuhr am 26. April 1922 mit dem englischen Dampfer Arcoma nach Lissabon und von dort nach Spanien.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Karl von Habsburg": [
+            "Ex-Kaiser von Österreich und Ex-König von Ungarn"
+        ],
+        "Zita": [
+            "Ex-Kaiserin"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Ankunft auf und Abreise von Madeira"
+        ]
+    }
+}

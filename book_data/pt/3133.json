@@ -1,0 +1,30 @@
+{
+    "id": 3133,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rosmaninho",
+    "fl": "R",
+    "original_title": "Rosmaninho",
+    "body": "Os madeirenses dão este nome á Santolina Chamaecyparissus, planta da família das Compostas cultivada nalguns jardins do Funchal, Camacha e Monte, e à Lavandula pedunculata, L. viridis e L. dentata, plantas da família das Labiadas, as duas primeiras espontâneas e a ultima cultivada e subespontanea na ilha. Todas estas espécies são aromáticas e podem usar-se em banhos e fricções; os capítulos da santolina podem ser empregados como tónico.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Camacha",
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Cultivada nalguns jardins do Funchal"
+        ],
+        "Camacha": [
+            "Cultivada nalguns jardins do Camacha"
+        ],
+        "Monte": [
+            "Cultivada nalguns jardins do Monte"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

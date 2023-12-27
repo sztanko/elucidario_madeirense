@@ -1,0 +1,33 @@
+{
+    "id": 32,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Acciaioly (Padre Carlos)",
+    "fl": "A",
+    "original_title": "Acciaioly (Padre Carlos)",
+    "body": "O seu nome era Carlos Acciaioly Ferraz de Noronha, tendo nascido na paróquia de Santana a 15 de Julho de 1845, e falecido no Funchal a 1 de Fevereiro de 1924. Exerceu funções paroquiais em algumas freguesias desta ilha, e foi, durante bastantes anos, professor do Seminário Diocesano, havendo se distinguido como um notável orador sagrado. Cultivou com brilho a prosa e a poesia, especialmente no género jocoso e satírico, sendo os seus escritos lidos com o maior apreço. Tornou se muito conhecido entre nós e bastante lembrado pelos seus contemporâneos, particularmente pelos seus ditos de espírito, em que alcançou uma verdadeira celebridade, reproduzindo se ainda hoje com frequência os casos e as anedotas em que sobressaíam as frases cheias da mais espontânea e cintilante graça.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Santana"
+    ],
+    "locations": {
+        "Santana": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Nascimento"
+        ],
+        "1924": [
+            "Falecimento"
+        ]
+    }
+}

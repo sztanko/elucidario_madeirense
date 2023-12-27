@@ -1,0 +1,62 @@
+{
+    "id": 2475,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Boa Viagem (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Viagem (Capelas de)",
+    "body": "No sítio da Carne Azeda da freguesia de Santa Luzia, fundaram uma capela desta invocação Manuel Pestana Teixeira e sua mulher Francisca Xavier da Conceição no ano de 1711, sendo vistoriada, para o efeito da celebração dos actos do culto, a 28 de Junho do mesmo ano.\n\nNa freguesia de Santa Maria Maior, na rua que ainda hoje conserva o nome de Boa Viagem, se erguia uma capela da mesma invocação, fundada por Bento da Veiga. Ignoramos a data da sua fundação, mas sabemos que era construção muito antiga. Algures lemos que era um edifício de interessante e característica construção, e bem assim uma casa que lhe ficava contígua. Afirma-se que nesta casa se instalou a primeira alfândega e depois o primeiro açougue do concelho. A capela profanada que hoje se encontra na rua da Boa Viagem, não é a capela desta invocação a que aqui nos referimos.\n\nNossa Senhora do Bom Despacho (Capela de). Existe esta capela na freguesia do Campanário, fundada no ano de 1672 pelo morgado Jerónimo de Atouguia Bettencourt e sua mulher D. Catarina Espranger, tendo a escritura de dotação a data de 27 de Junho daquele ano. Em 1762, foi reedificada pelo padre Francisco Nicolau de Brito, pertencendo então a capela a um irmão deste sacerdote. Pertence hoje a Feliciano de Brito Correia, representante desta família (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "Santa Maria Maior",
+        "Campanário"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Campanário": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Manuel Pestana Teixeira": [
+            "Fundador da capela na freguesia de Santa Luzia"
+        ],
+        "Francisca Xavier da Conceição": [
+            "Esposa de Manuel Pestana Teixeira"
+        ],
+        "Bento da Veiga": [
+            "Fundador da capela na freguesia de Santa Maria Maior"
+        ],
+        "Jerónimo de Atouguia Bettencourt": [
+            "Fundador da capela no Campanário"
+        ],
+        "D. Catarina Espranger": [
+            "Esposa de Jerónimo de Atouguia Bettencourt"
+        ],
+        "Padre Francisco Nicolau de Brito": [
+            "Responsável pela reedificação da capela"
+        ]
+    },
+    "years": {
+        "1711": [
+            "Ano de fundação da capela na freguesia de Santa Luzia"
+        ],
+        "1672": [
+            "Ano de fundação da capela no Campanário"
+        ],
+        "1762": [
+            "Ano de reedificação da capela no Campanário"
+        ],
+        "1921": [
+            "Ano em que a capela pertencia a Feliciano de Brito Correia"
+        ]
+    }
+}

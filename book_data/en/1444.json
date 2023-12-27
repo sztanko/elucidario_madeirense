@@ -1,0 +1,31 @@
+{
+    "id": 1444,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte da Penha de França",
+    "fl": "F",
+    "original_title": "Forte da Penha de França",
+    "body": "It was an advanced work, defending the Ribeiro Seco cove, and was built in 1712, with Manuel de Ceia as the 1st constable. In 1801, part of the English troops, under Colonel Clinton, were quartered there.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeiro Seco": [
+            "Cove defended by the fort"
+        ]
+    },
+    "people": {
+        "Manuel de Ceia": [
+            "1st constable"
+        ]
+    },
+    "years": {
+        "1712": [
+            "Construction of the fort"
+        ],
+        "1801": [
+            "Quartering of the English troops"
+        ]
+    }
+}

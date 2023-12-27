@@ -1,0 +1,29 @@
+{
+    "id": 1757,
+    "lang": "en",
+    "is_original": false,
+    "title": "Igreja Velha",
+    "fl": "I",
+    "original_title": "Igreja Velha",
+    "body": "In the parish of São Roque do Funchal, there is a place of this name, and there was even an ancient chapel dedicated to S. Roque, which served as a parish church from 1579 to 1790, the year in which it collapsed, already in an advanced state of ruin.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Parish where the site of the Igreja Velha is located"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1579": [
+            "Start of the period in which the chapel dedicated to S. Roque served as a parish church"
+        ],
+        "1790": [
+            "Collapse of the chapel"
+        ]
+    }
+}

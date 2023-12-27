@@ -1,0 +1,30 @@
+{
+    "id": 3224,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sao Francisco de Borja (Capela de)",
+    "fl": "S",
+    "original_title": "Sao Francisco de Borja (Capela de)",
+    "body": "Era de S. Francisco de Borja e não de S. Francisco Xavier, como se lê nas Saudades, a capela que no sítio da Cruz da Guarda, da freguesia do Porto da Cruz, fez erigir D. Francisco de Vasconcelos no ano de 1760, junto das casas que ali possuía. A respectiva escritura é de 2 de Maio daquele ano.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Localidade onde foi erigida a capela de São Francisco de Borja."
+        ]
+    },
+    "people": {
+        "D. Francisco de Vasconcelos": [
+            "Erigiu a capela de São Francisco de Borja no ano de 1760."
+        ]
+    },
+    "years": {
+        "1760": [
+            "Erigida a capela de São Francisco de Borja."
+        ]
+    }
+}

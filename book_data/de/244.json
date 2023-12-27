@@ -1,0 +1,55 @@
+{
+    "id": 244,
+    "lang": "de",
+    "is_original": false,
+    "title": "Araújo (Dr. Juvenal Henriques de)",
+    "fl": "A",
+    "original_title": "Araújo (Dr. Juvenal Henriques de)",
+    "body": "Er wurde in Funchal am 21. November 1892 geboren und war der Sohn von João Isidoro de Araújo Figueira und Virginia Henriques de Araújo. Er schloss 1909 sein Gymnasium ab und 1914 sein Jurastudium an der Universität Coimbra. Als Student veröffentlichte er in mehreren Zeitungen auf dem Festland und war einer der Gründer der Imparcial, die in Coimbra erschien. Er war mehrere Jahre in der Leitung des Diário da Madeira und hat auch für andere madeirische Zeitungen geschrieben.\n\nEr ist als Anwalt tätig und veröffentlichte eine Broschüre mit dem Titel Acção de expropriação do Montado do Barreiro requerida pela Câmara Municipal do Funchal contra os proprietários do mesmo Montado, Funchal, 1917, mit 19 Seiten.\n\nEr ist effektiver Professor an der Industrie- und Handelsschule „Antonio Augusto de Aguiar“ und hat verschiedene öffentliche Aufgaben wahrgenommen. Derzeit (1939) ist er Präsident des Vorstands der Handelskammer von Funchal.\n\nEr wurde 1922 als Abgeordneter für Madeira gewählt und in aufeinanderfolgenden Legislaturperioden, er ist Mitglied der derzeitigen Abgeordnetenkammer. 1928 veröffentlichte er einige seiner im Parlament gehaltenen Reden in einem Band mit dem Titel Trabalhos Parlamentares.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ],
+        "Coimbra": [
+            "Universität Coimbra"
+        ]
+    },
+    "people": {
+        "João Isidoro de Araújo Figueira": [
+            "Vater von Juvenal Henriques de Araújo"
+        ],
+        "D. Virginia Henriques de Araújo": [
+            "Mutter von Juvenal Henriques de Araújo"
+        ]
+    },
+    "years": {
+        "1892": [
+            "Geburt von Juvenal Henriques de Araújo"
+        ],
+        "1909": [
+            "Abschluss des Gymnasiums"
+        ],
+        "1914": [
+            "Abschluss des Jurastudiums an der Universität Coimbra"
+        ],
+        "1917": [
+            "Veröffentlichung einer Broschüre mit dem Titel Acção de expropriação do Montado do Barreiro requerida pela Câmara Municipal do Funchal contra os proprietários do mesmo Montado, Funchal, mit 19 Seiten"
+        ],
+        "1939": [
+            "Derzeit Präsident des Vorstands der Handelskammer von Funchal"
+        ],
+        "1922": [
+            "Wahl zum Abgeordneten für Madeira"
+        ],
+        "1928": [
+            "Veröffentlichung einiger seiner im Parlament gehaltenen Reden in einem Band mit dem Titel Trabalhos Parlamentares"
+        ]
+    }
+}

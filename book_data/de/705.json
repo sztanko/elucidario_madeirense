@@ -1,0 +1,31 @@
+{
+    "id": 705,
+    "lang": "de",
+    "is_original": false,
+    "title": "Camara Pestana (João da)",
+    "fl": "C",
+    "original_title": "Camara Pestana (João da)",
+    "body": "Er ist der Bruder des verstorbenen Bakteriologen Dr. Luiz da Camara Pestana und wurde am 17. Oktober 1871 in Funchal geboren. Er ist Agraringenieur, war Generaldirektor für Landwirtschaft und wurde am 13. November 1913 als Abgeordneter für Madeira gewählt. Im Mai des folgenden Jahres trat er zurück, da er für einen anderen Wahlkreis zum Senator gewählt worden war. Er hat bei verschiedenen landwirtschaftlichen Zeitschriften mitgearbeitet und ist Mitglied der Portugiesischen Gesellschaft für Naturwissenschaften, in deren Bulletin er folgende Artikel veröffentlicht hat: La Gangrène humide de la racine du Chataignier (Band II., 1907) und Destruction du Lecanium hesperidum L. par le Sporotrichum globuliferum Spegazzini (Band 2, 1908).",
+    "categories": [
+        "biology",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Luiz da Camara Pestana": [
+            "Bakteriologe"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Geburt"
+        ],
+        "1913": [
+            "Wahl zum Abgeordneten für Madeira"
+        ],
+        "1914": [
+            "Rücktritt als Abgeordneter"
+        ]
+    }
+}

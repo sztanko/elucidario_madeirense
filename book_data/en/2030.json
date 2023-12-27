@@ -1,0 +1,33 @@
+{
+    "id": 2030,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo dos Leais",
+    "fl": "L",
+    "original_title": "Lombo dos Leais",
+    "body": "Site of the parish of Porto da Cruz incorporated in the populated site of Folhadal. In this place is the chapel of São João Nepomuceno, founded by João Nepomuceno de Freitas Leal, in the year 1770. Near the chapel is an excellent house, belonging to the ancient Leal family, from which this place took its name.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Parish of Porto da Cruz"
+        ],
+        "Folhadal": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "João Nepomuceno de Freitas Leal": [
+            "Founder of the chapel of São João Nepomuceno"
+        ]
+    },
+    "years": {
+        "1770": [
+            "Foundation of the chapel of São João Nepomuceno"
+        ]
+    }
+}

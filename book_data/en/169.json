@@ -1,0 +1,53 @@
+{
+    "id": 169,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almude",
+    "fl": "A",
+    "original_title": "Almude",
+    "body": "This ancient measure, despite being illegal, is still used in Madeira, mainly for measuring must and sugarcane juice. It varies from municipality to municipality, and according to the tables officially published in 1868, the almude in the municipality of Funchal is equivalent to 17.520; in the municipality of Câmara de Lobos, to 17.580; in the municipality of Ponta do Sol, to 17.400; in the municipality of Calheta, to 17.352; in the municipality of Santa Cruz, to 17.328; in the municipality of Machico, to 17.568; in the municipality of Porto Santo, to 17.556; in the municipality of Sant'Ana, to 17.604; in the municipality of S. Vicente, to 20.538, and in the municipality of Porto Moniz, to 20.272. The average is 18.071, but in the municipality of Funchal, the almude is generally considered equivalent to 17 liters.",
+    "categories": [
+        "economy",
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "The almude is equivalent to 17.520"
+        ],
+        "Câmara de Lobos": [
+            "The almude is equivalent to 17.580"
+        ],
+        "Ponta do Sol": [
+            "The almude is equivalent to 17.400"
+        ],
+        "Calheta": [
+            "The almude is equivalent to 17.352"
+        ],
+        "Santa Cruz": [
+            "The almude is equivalent to 17.328"
+        ],
+        "Machico": [
+            "The almude is equivalent to 17.568"
+        ],
+        "Porto Santo": [
+            "The almude is equivalent to 17.556"
+        ],
+        "Sant'Ana": [
+            "The almude is equivalent to 17.604"
+        ],
+        "S. Vicente": [
+            "The almude is equivalent to 20.538"
+        ],
+        "Porto Moniz": [
+            "The almude is equivalent to 20.272"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1868": [
+            "Officially published tables on the equivalence of the almude in different municipalities"
+        ]
+    }
+}

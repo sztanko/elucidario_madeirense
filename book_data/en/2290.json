@@ -1,0 +1,49 @@
+{
+    "id": 2290,
+    "lang": "en",
+    "is_original": false,
+    "title": "Miguéis (Alfredo Vital)",
+    "fl": "M",
+    "original_title": "Miguéis (Alfredo Vital)",
+    "body": "He was born in this city on April 28, 1883. He began his artistic education at the Escola Industrial do Funchal, and after enrolling in the Royal Academy of Fine Arts in 1889, he completed his course in historical painting with the illustrious painter Columbano Bordalo Pinheiro in 1911. During the course, he was awarded several times and received a medal upon its completion. In 1914, he competed for the position of teacher at the Escolas Industriais, and in 1915, he was appointed as a teacher at the Escola Industrial de Setúbal, later transferring to the Escola Industrial do Funchal in 1917.\n\nIn 1912, he was approved in the Valmor Prize competition as a foreign pensioner, going to Madrid that year and later settling in Paris, where he remained until 1914 to study and perfect his art.\n\nHe first exhibited his works at the exhibition at the Sociedade Nacional de Belas Artes, in Lisbon, in 1910, and also participated in the exhibitions of the years 1911, 1915, 1916, 1917, and 1919, receiving honorable mention awards, three third medals, and the second medal in 1916. He was admitted to the Salon exhibition in Paris in 1913, 1914, and 1922. He held exhibitions of his works in Funchal and Setúbal, and was one of the exhibitors at the First Exhibition of Painting and Sculpture held in this city in 1922.\n\nHis paintings\n> *Jardim do Luxemburgo* (1915),\n> *A Taça de Leite* (1916), and\n> *a Torre de Jesus em Setubal*\nwere acquired by the State for the National Museum of Contemporary Art.\nHe passed away in Funchal on July 9, 1943.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City of birth and death"
+        ],
+        "Setúbal": [
+            "Place of work as a teacher"
+        ]
+    },
+    "people": {
+        "Columbano Bordalo Pinheiro": [
+            "Illustrious painter"
+        ]
+    },
+    "years": {
+        "1883": [
+            "Year of birth"
+        ],
+        "1889": [
+            "Year of enrollment in the Royal Academy of Fine Arts"
+        ],
+        "1911": [
+            "Year of completion of the course in historical painting"
+        ],
+        "1914": [
+            "Year of study and perfection of art in Paris"
+        ],
+        "1915": [
+            "Year of appointment as a teacher at the Escola Industrial de Setúbal"
+        ],
+        "1917": [
+            "Year of transfer to the Escola Industrial do Funchal"
+        ],
+        "1922": [
+            "Year of the First Exhibition of Painting and Sculpture in the city"
+        ]
+    }
+}

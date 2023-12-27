@@ -1,0 +1,67 @@
+{
+    "id": 3450,
+    "lang": "en",
+    "is_original": false,
+    "title": "Teixeira (Diogo)",
+    "fl": "T",
+    "original_title": "Teixeira (Diogo)",
+    "body": "He was the son of Tristão Teixeira and was the 4th captain donatary of Machico. Due to being mentally incapacitated, D. João III revoked the captaincy in 1538, and as he did not leave a male heir or any other legitimate heir to succeed him in the same captaincy by his death in 1540, it was donated in 1541 to António da Silveira, former captain of Diu.\nTeixeira (Canon Feliciano João). He was born in the parish of Ponta do Sol on January 2, 1843, and was the brother of Drs. João Augusto Teixeira and Nuno Silvestre Teixeira, whom we have discussed in this Elucidaria. He was a canon of the Funchal Cathedral and a professor at the Seminary, and in this city, he held various public service positions. He represented Madeira in Parliament in the legislative sessions from 1880 to 1881 and from 1887 to 1889. Transferred to the archiepiscopal See of Évora, he died in that city on May 2, 1896. His mortal remains lie in the cemetery of the parish of Ponta do Sol.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Machico": [
+            "Place of action"
+        ],
+        "Ponta do Sol": [
+            "Place of birth and death"
+        ],
+        "Funchal": [
+            "Place of action"
+        ],
+        "Évora": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "Diogo Teixeira": [
+            "4th captain donatary of Machico"
+        ],
+        "Canon Feliciano João Teixeira": [
+            "Canon of the Funchal Cathedral and a professor at the Seminary, representative of Madeira in Parliament"
+        ]
+    },
+    "years": {
+        "1538": [
+            "Loss of the captaincy"
+        ],
+        "1540": [
+            "Death"
+        ],
+        "1541": [
+            "Donation of the captaincy"
+        ],
+        "1843": [
+            "Birth"
+        ],
+        "1880": [
+            "Representation in Parliament"
+        ],
+        "1881": [
+            "Representation in Parliament"
+        ],
+        "1887": [
+            "Representation in Parliament"
+        ],
+        "1889": [
+            "Representation in Parliament"
+        ],
+        "1896": [
+            "Death"
+        ]
+    }
+}

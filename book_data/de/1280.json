@@ -1,0 +1,47 @@
+{
+    "id": 1280,
+    "lang": "de",
+    "is_original": false,
+    "title": "Star (Sturnus vulgaris)",
+    "fl": "S",
+    "original_title": "Estorninho (Sturnus vulgaris)",
+    "body": "Vogel der Familie der Stare, der die Inseln dieses Archipels während der Winterzeit unveränderlich besucht. Es ist ein geselliger Vogel, der manchmal in recht zahlreichen Schwärmen gesehen wird.\n\n## Straße und Denkmalbrücke\n\nDie Brücke über den Ribeiro Sêco und die Straße, die sich daran anschließt und zur Gemeinde Câmara de Lobos führt, sind allgemein unter den Namen Denkmalbrücke und Denkmalstraße bekannt, weil das ursprüngliche Bauprojekt dem Gedanken folgte, sie als ein Denkmal zu Ehren des portugiesischen Königs Dom Pedro IV. zu betrachten. Sie sollten seinen Namen tragen und waren dazu bestimmt, seine Rolle als Befreierkönig bei uns zu würdigen. Sein Waffengefährte und engagierter Freund Luiz da Silva Mousinho de Albuquerque, der erste Gouverneur Madeiras in der konstitutionellen Periode, war es, der 1835 dieses Projekt konzipierte, das er in seiner kurzen Amtszeit an der Spitze dieses Bezirks nur anstoßen konnte. In Bezug auf dieses Thema sagt Servulo Drumond de Meneses:\n\n> \"Gleich beim Verlassen der Stadt nach Westen trifft man auf eine große Schlucht, die durch die Wasserläufe gebildet wurde, und auf deren Grund der Ribeiro Secco fließt. Diese Schlucht beabsichtigte Herr Mousinho d'Albuquerque mit einer Hängebrücke zu überqueren; zu diesem Zweck begann er mit dem Bau von zwei gigantischen Pfeilern, abgesehen von den sehr starken Widerlagern auf jeder Seite der Schlucht. Die Idee bestand darin, ein Denkmal zur Erinnerung an den unsterblichen Herzog von Braganza, den großmütigen Befreier der Portugiesen, zu errichten, und dementsprechend sollte das Werk großartig und monumental sein. Es geschah jedoch, dass nach der Abreise von Herrn Mousinho de Albuquerque von der Insel die bereits begonnenen Arbeiten nicht mehr vorankamen, so dass die lobenswerten und patriotischen Absichten des illustren Gouverneurs von Madeira, der unermüdlich und beharrlich nicht nur einen großen Impuls für das Werk gegeben, sondern auch viele Materialien zusammengetragen hatte, die schließlich verloren gingen, für lange Zeit zunichte gemacht wurden.\"\n\nDer Zivilgouverneur Baron von Lordelo (1838-1840) versuchte lobenswerterweise, die begonnenen Arbeiten fortzusetzen, konnte aber die Schwierigkeiten, die sich bei der Ausführung dieses Werks ergaben, nicht überwinden. Diese Ehre wurde dem verdienstvollsten und berühmtesten Gouverneur dieses Archipels, dem Ratsherrn José Silvestre Ribeiro zuteil, der nach beharrlichen Anstrengungen dieses große Unterfangen zu Ende bringen konnte. Die Bauarbeiten begannen am 6. März 1848 und waren Ende des Jahres fast abgeschlossen.\n\nDer Ratsherr José Silvestre eröffnete zu diesem Zweck eine öffentliche Zeichnung, die mehr als drei Contos einbrachte, und die Stadtverwaltung von Funchal steuerte etwa zwei Contos bei.\n\nDer Generalsekretär der Zivilregierung von Funchal, Servulo Drumond de Meneses, veröffentlichte 1848 eine Broschüre mit dem Titel Sammlung von Dokumenten zum Bau der Brücke über den Ribeiro Secco, die sehr interessante Informationen über dieses Werk enthält, das, ohne den Namen Denkmal zu verdienen, dennoch eine wichtige Verbesserung war, die seit langem gefordert wurde und ein großes öffentliches Bedürfnis befriedigte. Die Straße, die die Fortsetzung der Brücke bildet, wurde damals nur angelegt und schritt in ihrer Fertigstellung sehr langsam voran, und die Steinbrücke über den Bach der Socorridos wurde am 5. Juni 1848 begonnen.",
+    "categories": [
+        "biology",
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Ribeiro Sêco": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "D. Pedro IV": [
+            "König von Portugal"
+        ],
+        "Luiz da Silva Mousinho de Albuquerque": [
+            "Erster Gouverneur Madeiras in der konstitutionellen Periode"
+        ],
+        "Servulo Drumond de Meneses": [
+            "Generalsekretär der Zivilregierung von Funchal"
+        ],
+        "Baron von Lordelo": [
+            "Zivilgouverneur (1838-1840)"
+        ],
+        "José Silvestre Ribeiro": [
+            "Ratsherr und Gouverneur des Archipels"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Konzeption des Projekts der Denkmalbrücke und Denkmalstraße"
+        ],
+        "1848": [
+            "Beginn der Bauarbeiten an der Brücke über den Ribeiro Secco"
+        ]
+    }
+}

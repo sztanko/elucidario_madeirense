@@ -1,0 +1,28 @@
+{
+    "id": 925,
+    "lang": "de",
+    "is_original": false,
+    "title": "Internationaler Club von Funchal",
+    "fl": "I",
+    "original_title": "Clube Internacional do Funchal",
+    "body": "Er besetzte das Haus des verstorbenen Grafen von Carvalhal in der Rua da Mouraria. Seine Statuten datieren vom 22. August 1896. Er bestand nicht lange.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua da Mouraria": [
+            "Haus des verstorbenen Grafen von Carvalhal"
+        ]
+    },
+    "people": {
+        "Graf von Carvalhal": [
+            "Verstorben"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Datum der Statuten"
+        ]
+    }
+}

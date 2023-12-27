@@ -1,0 +1,36 @@
+{
+    "id": 200,
+    "lang": "de",
+    "is_original": false,
+    "title": "Maulbeere",
+    "fl": "M",
+    "original_title": "Amoreira",
+    "body": "Auf Madeira gibt es die Morus nigra (schwarze Maulbeere), deren Früchte essbar sind und zur Herstellung des Arrobe de amoras verwendet werden, das bei Halsschmerzen als Gurgelmittel eingesetzt wird, sowie die M. multicaulis (weiße Maulbeere), deren Blätter als Nahrung für Seidenraupen dienen. Im Mai 1877 räumte die Stadtverwaltung von Funchal der Praça da Rainha (heute Praça do Marquês de Pombal) für eine Baumschule mit weißen Maulbeerbäumen ein. Der verstorbene Graf von Canavial richtete dort auch die genannte Baumschule ein, die jedoch nur kurze Zeit bestand. Der Anbau dieser Maulbeerbäume ist heutzutage völlig vernachlässigt. Die schwarze Maulbeere wird sehr häufig auf Porto Santo angebaut.",
+    "categories": [
+        "biology",
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt von Madeira"
+        ],
+        "Praça da Rainha": [
+            "Heutiger Praça do Marquês de Pombal"
+        ],
+        "Porto Santo": [
+            "Insel in der Nähe von Madeira"
+        ]
+    },
+    "people": {
+        "Graf von Canavial": [
+            "Verstorbener Adliger"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Einräumung der Praça da Rainha für eine Baumschule mit weißen Maulbeerbäumen"
+        ]
+    }
+}

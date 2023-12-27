@@ -1,0 +1,23 @@
+{
+    "id": 3214,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Bartolomeu (Ribeira e Porto de)",
+    "fl": "S",
+    "original_title": "São Bartolomeu (Ribeira e Porto de)",
+    "body": "A ribeira que tem este nome nasce no planalto do Paul da Serra e serve de linha divisória das freguesias da Calheta e Estreito da Calheta indo lançar-se no Oceano. Na sua foz, há um insignificante porto, conhecido pelo nome de Porto da Ribeira, pouco distanciado da Ponta da Galé.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Calheta",
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Paul da Serra": [
+            "Nasce a ribeira que serve de linha divisória das freguesias da Calheta e Estreito da Calheta."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

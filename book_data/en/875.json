@@ -1,0 +1,28 @@
+{
+    "id": 875,
+    "lang": "en",
+    "is_original": false,
+    "title": "Charcot (Jean)",
+    "fl": "C",
+    "original_title": "Charcot (Jean)",
+    "body": "He arrived in Funchal on September 12, 1908. He commanded the expedition that explored the Antarctic regions aboard the Pourquoi pas?.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location mentioned in the text."
+        ]
+    },
+    "people": {
+        "Jean Charcot": [
+            "Explorer mentioned in the text."
+        ]
+    },
+    "years": {
+        "1908": [
+            "Year in which Jean Charcot arrived in Funchal."
+        ]
+    }
+}

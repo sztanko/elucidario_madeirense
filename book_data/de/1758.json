@@ -1,0 +1,46 @@
+{
+    "id": 1758,
+    "lang": "de",
+    "is_original": false,
+    "title": "Englische Kirchen",
+    "fl": "E",
+    "original_title": "Igrejas Inglesas",
+    "body": "Das Grundstück, auf dem sich die anglikanische Kirche in der Rua da Bela Vista befindet, wurde 1810 von der Englischen Faktorei für 5.435 Dollar gekauft. Einige Jahre später erwarb dieselbe Faktorei für 840 Dollar ein weiteres Grundstück in derselben Straße, das an jenes angrenzte. Die Kirche wurde im März 1822 fertiggestellt. Sie kostete 40.000 Dollar, ein Betrag, der durch Abonnements und durch die freiwilligen Beiträge von 2 Schillingen und 6 Pence pro von englischen Kaufleuten exportiertes Weinfass aufgebracht wurde.\n\n1848 wurde in der Rua dos Aranhas eine weitere anglikanische Kirche gegründet, deren Kaplan der Botaniker Ricardo Tomás Lowe war. Religiöse Meinungsverschiedenheiten zwischen den auf Madeira ansässigen englischen Untertanen führten zur Eröffnung jener Kirche, in der 33 Jahre lang Gottesdienst gehalten wurde. Die 1842 in einem Haus in der Travessa do Surdo eröffnete schottische Kirche hat heute ein eigenes Gebäude in der Rua do Conselheiro neben dem Jardim Municipal.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua da Bela Vista": [
+            "Ort der anglikanischen Kirche"
+        ],
+        "Rua dos Aranhas": [
+            "Ort einer weiteren anglikanischen Kirche"
+        ],
+        "Travessa do Surdo": [
+            "Ort der Eröffnung der schottischen Kirche"
+        ],
+        "Rua do Conselheiro": [
+            "Ort des Gebäudes der schottischen Kirche neben dem Jardim Municipal"
+        ]
+    },
+    "people": {
+        "Ricardo Tomás Lowe": [
+            "Botaniker und Kaplan der anglikanischen Kirche in der Rua dos Aranhas"
+        ]
+    },
+    "years": {
+        "1810": [
+            "Kauf des Grundstücks der anglikanischen Kirche in der Rua da Bela Vista"
+        ],
+        "1822": [
+            "Fertigstellung der anglikanischen Kirche in der Rua da Bela Vista"
+        ],
+        "1848": [
+            "Gründung einer weiteren anglikanischen Kirche in der Rua dos Aranhas"
+        ],
+        "1842": [
+            "Eröffnung der schottischen Kirche"
+        ]
+    }
+}

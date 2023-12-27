@@ -1,0 +1,31 @@
+{
+    "id": 2229,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Maximiliano de Habsburgo",
+    "fl": "M",
+    "original_title": "Maximiliano de Habsburgo",
+    "body": "É irmão do falecido ex-imperador de Áustria e ex-rei da Hungria Carlos de Habsburgo, e chegou á Madeira a 17 de Abril de 1922, no vapor inglês Kenilworth Castle, indo hospedar-se no Monte, na casa de sua cunhada a ex-imperatriz Zita.\n\nSaiu para Lisboa no vapor inglês Arcoma, a 26 de Abril de 1922, seguindo dali para Espanha.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Local"
+        ]
+    },
+    "people": {
+        "Carlos de Habsburgo": [
+            "Ex-imperador de Áustria e ex-rei da Hungria"
+        ],
+        "Zita": [
+            "Ex-imperatriz"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Chegada e saída da Madeira"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 2720,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pencas",
+    "fl": "P",
+    "original_title": "Pencas",
+    "body": "É conhecida por este nome na ilha do Porto Santo a variedade feracissima da Cynara Cardunculus. As partes centrais das fôlhas desta Composta são comidas cruas pelos habitantes daquela ilha, depois de limpas dos espinhos. Esta planta existe também no Caniçal e Piedade, onde é conhecida pelo nome de cardo-da-gente.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Caniçal",
+        "Piedade"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Ilha"
+        ],
+        "Caniçal": [
+            "Localidade"
+        ],
+        "Piedade": [
+            "Localidade"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

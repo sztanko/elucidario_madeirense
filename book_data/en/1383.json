@@ -1,0 +1,41 @@
+{
+    "id": 1383,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ferro",
+    "fl": "F",
+    "original_title": "Ferro",
+    "body": "There is a large amount of this mineral in the archipelago, but it is in compounds that are not worth exploring. When it presents a higher percentage, it is only in tiny veins, such as the beautiful specular iron blades in the rock overlooking the dock of Ponta do Sol and in the internal linings of lava channels, as in the furnas of Cavalum in Machico and in the Cardais in S. Vicente.\n\nIt is due to the iron salts that most of the rocks on our slopes disintegrate, thus preparing new lands (poios), letting them crumble due to the action of natural agents and retaining them in small cultivation trays.\n\nIt is the iron that gives the brownish color to the linings of the basalt blocks, the red color to the lands called massapês, and also the laterites that streak the rocks, especially on the coast, interspersed between two basaltic layers.\n\nIt is granular in tuffs in Canhas, cellular in Madalena do Mar, and lamellar on clays in Sant'Ana and S. Jorge, with the appearance of scrap and in dissolution in the water of some springs, such as in Jamboto, in S. Antonio. S.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Sol": [
+            "Rock overlooking the dock"
+        ],
+        "Machico": [
+            "Furnas of Cavalum"
+        ],
+        "S. Vicente": [
+            "Cardais"
+        ],
+        "Canhas": [
+            "Tuffs"
+        ],
+        "Madalena do Mar": [
+            "Cellular"
+        ],
+        "Sant'Ana": [
+            "On clays"
+        ],
+        "S. Jorge": [
+            "On clays"
+        ],
+        "S. Antonio": [
+            "Water of some springs"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

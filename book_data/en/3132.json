@@ -1,0 +1,29 @@
+{
+    "id": 3132,
+    "lang": "en",
+    "is_original": false,
+    "title": "Roseira",
+    "fl": "R",
+    "original_title": "Roseira",
+    "body": "The only spontaneous rose in Madeira is the Rosa canina, but there are other species of rose bushes in the gardens, some of them truly remarkable for the size and color of their flowers. The Rosa gallica, Rosa indica, and Rosa damascena are the most cultivated species in Funchal, but apart from these, many others are found in the gardens, such as the Rosa moschata, Rosa Banksiae, Rosa centifolia, Rosa alba, etc. The Rosa multiflora is frequent in the gardens of S. Martinho and Santo Antonio, apparently a naturalized species that requires no care from man. Rose essential oil is extracted from the petals of Rosa centifolia, and the petals of Rosa gallica form the basis of rose preserve, a medicine that is administered with advantage in diarrhea and tuberculosis. Everblooming rose bushes are common in Madeira.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Martinho",
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Funchal": [
+            "Most cultivated in Funchal"
+        ],
+        "S. Martinho": [
+            "In the gardens of S. Martinho"
+        ],
+        "Santo Antonio": [
+            "In the gardens of Santo Antonio"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

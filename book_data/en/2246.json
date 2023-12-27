@@ -1,0 +1,35 @@
+{
+    "id": 2246,
+    "lang": "en",
+    "is_original": false,
+    "title": "Meireles (Viscount of)",
+    "fl": "M",
+    "original_title": "Meireles (Visconde de)",
+    "body": "This distinguished writer and journalist, who passed away in 1915, visited this island several times, having the most devoted admiration for its natural beauty and mild climate. It was in 1913, during a long stay in this city, that he advocated with brilliance and valuable arguments the idea of reconstructing the house where Christopher Columbus lived, as we have mentioned elsewhere (vol. 1, page 286 and following). He also took an interest in the wooden triptych, which is in the sacristy of the parish church of São Pedro, making known to the people of Madeira the beautiful description dedicated to it by the distinguished writer M. Teixeira Gomes, in his book \"Cartas sem moral nenhuma\".",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island visited by the Viscount of Meireles"
+        ]
+    },
+    "people": {
+        "Christopher Columbus": [
+            "Historical inhabitant of the house defended by the Viscount of Meireles"
+        ],
+        "M. Teixeira Gomes": [
+            "Writer"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Year of passing"
+        ],
+        "1913": [
+            "Year of visit to the island"
+        ]
+    }
+}

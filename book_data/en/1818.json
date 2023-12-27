@@ -1,0 +1,27 @@
+{
+    "id": 1818,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jamboto",
+    "fl": "J",
+    "original_title": "Jamboto",
+    "body": "Settlement in the parish of Santo Antonio do Funchal. This name is a corruption of João Boto, an ancient settler. In this place, there is a spring of ferruginous water, which at one time acquired quite a reputation due to the attributed therapeutic qualities. For this reason, the Municipal Chamber of Funchal had the chemical and bacteriological analysis of this water carried out, and the result of the analysis was published in a booklet in the year 1900 and transcribed on pages 119 and following of the book *Parish of Santo Antonio of the Island of Madeira* authored by one of the authors of this *Elucidario*.",
+    "categories": [
+        "geography",
+        "health"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Santo Antonio do Funchal": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Result of the analysis published"
+        ]
+    }
+}

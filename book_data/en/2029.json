@@ -1,0 +1,33 @@
+{
+    "id": 2029,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo da Igreja",
+    "fl": "L",
+    "original_title": "Lombo da Igreja",
+    "body": "Lombo da Igreja is a populated place in the parish of Estreito da Calheta. It is usually divided into two places: Igreja Acima and Igreja Abaixo, according to their relative position to the Parish Church. In this place is the chapel of Nossa Senhora da Conceição, founded by André de França e Andrade around 1672, which was the headquarters of one of the largest estates in Madeira and was last administered by the 1st Count of Calçada (1812-1906).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Parish of Estreito da Calheta"
+        ]
+    },
+    "people": {
+        "André de França e Andrade": [
+            "Founder of the chapel of Nossa Senhora da Conceição"
+        ]
+    },
+    "years": {
+        "1672": [
+            "Foundation of the chapel of Nossa Senhora da Conceição"
+        ],
+        "1812": [
+            "Administration by the 1st Count of Calçada"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 464,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bemposta",
+    "fl": "B",
+    "original_title": "Bemposta",
+    "body": "Sítio da freguesia de Água de Pena. Nele ficava a sede do morgadio instituído por João Afonso Escudeiro em 1512. Era natural do continente do reino e veio para esta ilha pelos anos de 1450. Procedia de nobre ascendência e foram lhe aqui reconhecidos os seus foros de fidalgo. Morreu em 1512, em avançada idade, e por testamento feito a 21 de Junho do mesmo ano, instituiu o vinculo da Bemposta, na freguesia de Água de Pena, e o de S. Lazaro, na freguesia de Santa Cruz. A primeira administradora do morgadio da Bemposta foi D. Catarina Anes Escudeiro, filha de José Afonso, que casou com Lopo Franco de Monção, assim chamado por ser natural da vila deste nome. Passou este à Madeira por 1480, e em 1515 foi primeiro juiz da Câmara de Santa Cruz. Na administração do morgadio da Bemposta sucedeu seu filho João Lopes Franco, e na quinta e capela de S. Lazaro uma filha por nome Maria Franco. O terceiro administrador do morgadio da Bemposta foi Diogo Lopes Tavares, que também herdou o vinculo de S. Lazaro por D. Maria Franco ter morrido sem descendência. Tinha esta família jazigo no antigo convento de Santa Cruz, onde ainda não há muitos anos se encontrava a respectiva lápide tumular com um escudo em que se viam as armas dos Tavares e dos Borralhos.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Água de Pena",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "João Afonso Escudeiro": [
+            "Instituiu o morgadio da Bemposta em 1512"
+        ],
+        "D. Catarina Anes Escudeiro": [
+            "Primeira administradora do morgadio da Bemposta"
+        ],
+        "Lopo Franco de Monção": [
+            "Casou com D. Catarina Anes Escudeiro"
+        ],
+        "João Lopes Franco": [
+            "Filho de D. Catarina Anes Escudeiro, sucedeu na administração do morgadio da Bemposta"
+        ],
+        "Maria Franco": [
+            "Filha de D. Catarina Anes Escudeiro, sucedeu na quinta e capela de S. Lazaro"
+        ],
+        "Diogo Lopes Tavares": [
+            "Terceiro administrador do morgadio da Bemposta"
+        ]
+    },
+    "years": {
+        "1450": [
+            "João Afonso Escudeiro veio para a ilha"
+        ],
+        "1512": [
+            "João Afonso Escudeiro instituiu o vinculo da Bemposta"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": 1510,
+    "lang": "de",
+    "is_original": false,
+    "title": "Funda (Fluss)",
+    "fl": "F",
+    "original_title": "Funda (Ribeira)",
+    "body": "Entspringt in den Bergen Picos da Silva und Picos da Relva und trennt die Gemeinden Estreito da Calheta und Prazeres. Der Fluss Mendes mündet als Nebenfluss.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Estreito da Calheta",
+        "Prazeres"
+    ],
+    "locations": {
+        "Picos da Silva": [
+            "Quellgebiet"
+        ],
+        "Relva": [
+            "Quellgebiet"
+        ],
+        "Estreito da Calheta": [
+            "Gemeinde"
+        ],
+        "Prazeres": [
+            "Gemeinde"
+        ],
+        "Mendes": [
+            "Nebenfluss"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

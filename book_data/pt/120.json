@@ -1,0 +1,31 @@
+{
+    "id": 120,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aldromar",
+    "fl": "A",
+    "original_title": "Aldromar",
+    "body": "O biscainho João Martins de Aldromar, que em 1500 residia na freguesia de Câmara de Lobos, foi a primeira pessoa de que ha noticia ter usado deste apelido na Madeira. Parece-nos que é apelido extinto neste arquipélago.",
+    "categories": [
+        "history",
+        "biology"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Local de residência de João Martins de Aldromar"
+        ]
+    },
+    "people": {
+        "João Martins de Aldromar": [
+            "Primeira pessoa a usar o apelido Aldromar na Madeira"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Residência de João Martins de Aldromar em Câmara de Lobos"
+        ]
+    }
+}

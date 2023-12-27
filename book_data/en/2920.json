@@ -1,0 +1,30 @@
+{
+    "id": 2920,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pregador da Camara",
+    "fl": "P",
+    "original_title": "Pregador da Camara",
+    "body": "The Municipal Chamber of Funchal once had a preacher who was paid a salary and was obliged to deliver sermons on official festivities. In 1831, the priest fr. José de Jesus was appointed as the preacher of the Chamber, and before him, fr. João José da Purificação had held that position, appointed in 1829, with an annual salary of 24,000 réis.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Fr. José de Jesus": [
+            "Appointed as the preacher of the Chamber in 1831"
+        ],
+        "Fr. João José da Purificação": [
+            "Appointed as the preacher of the Chamber in 1829"
+        ]
+    },
+    "years": {
+        "1831": [
+            "Appointment of fr. José de Jesus as the preacher of the Chamber"
+        ],
+        "1829": [
+            "Appointment of fr. João José da Purificação as the preacher of the Chamber"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 1769,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Imaculado Coração de Maria (Capela do)",
+    "fl": "I",
+    "original_title": "Imaculado Coração de Maria (Capela do)",
+    "body": "Em 1918 se começou a construir uma capela desta invocação no sítio da Fajã do Penedo, da freguesia da Boaventura, devido á iniciativa e aturados esforços de D. Maria Margarida dos Anjos Ribeiro, que reside no mesmo sítio. Foi solenemente benzida e com notável brilho, a 23 de Agosto de 1919, pelo prelado diocesano D. António Manuel Pereira Ribeiro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {
+        "Fajã do Penedo": [
+            "Sítio"
+        ],
+        "Boaventura": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "D. Maria Margarida dos Anjos Ribeiro": [
+            "Iniciadora da construção"
+        ],
+        "D. António Manuel Pereira Ribeiro": [
+            "Prelado diocesano"
+        ]
+    },
+    "years": {
+        "1918": [
+            "Início da construção da capela"
+        ],
+        "1919": [
+            "Bênção solene da capela"
+        ]
+    }
+}

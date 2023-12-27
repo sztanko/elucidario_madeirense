@@ -1,0 +1,31 @@
+{
+    "id": 21,
+    "lang": "de",
+    "is_original": false,
+    "title": "Herzog von Abruzzen",
+    "fl": "H",
+    "original_title": "Abruzos (Duque dos)",
+    "body": "Er war zuletzt 1907 als Kommandant des Kreuzers Etna auf Madeira. Die Eigentümer der Deserta Grande luden ihn zu einer Jagd ein, und der Gouverneur D. Bernardo da Costa bot ihm in Funchal einen offiziellen Ball an. Der Herzog von Abruzzen bezieht sich in einigen seiner veröffentlichten Schriften mehrmals auf Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem der Herzog von Abruzzen 1907 war"
+        ],
+        "Deserta Grande": [
+            "Ort, an dem dem Herzog von Abruzzen eine Jagd angeboten wurde"
+        ]
+    },
+    "people": {
+        "Herzog von Abruzzen": [
+            "Kommandant des Kreuzers Etna, war 1907 auf Madeira"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Besuch des Herzogs von Abruzzen auf Madeira"
+        ]
+    }
+}

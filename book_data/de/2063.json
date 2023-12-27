@@ -1,0 +1,41 @@
+{
+    "id": 2063,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lugar de Baixo",
+    "fl": "L",
+    "original_title": "Lugar de Baixo",
+    "body": "Ort in der Gemeinde Ponta do Sol, zwischen dem Dorf und der Gemeinde Tábua gelegen. Es ist eine der vielen Terrassen, die sich an der Küste durch den Einsturz des darüber liegenden Geländes gebildet haben. \"Der Lugar de Baixo ist seit 1804\", sagt der Anmerker der Saudades, \"viel größer als früher, weil in jenem Jahr ein großer Teil des Geländes der Lombada, das sich darüber befindet, durch die Stürme der vorangegangenen Jahre gespalten wurde und zur Meeresseite hin abrutschte und dort eine ausgedehnte und fruchtbare Ebene bildete. Der Stoß des Sturzes war so stark, dass das Meer entlang der gesamten angrenzenden Küste über seinen Normalstand anstieg und die Erschütterung sowohl an Land als auch auf See in einer Entfernung von mehr als zehn Kilometern gespürt wurde: das Meer drang weit in das Dorf Ponta do Sol ein\". Der Lugar de Baixo war Teil des großen Anwesens Lombada dos Esmeraldos, aber als João Esmeraldo starb und eine neue Aufteilung zwischen seinen beiden Söhnen und der Witwe Águeda de Abreu vorgenommen wurde, behielt diese das Anwesen Lugar de Baixo als Teil ihrer Mitgift. Es ist möglich, dass es nach ihrem Tod an das Majorat des Heiligen Geistes zurückfiel, sicher ist, dass es zu einem Zeitpunkt, den wir nicht kennen, dazugehörte. Es wurde etwa zur gleichen Zeit wie die Lombada öffentlich versteigert und von den englischen Kaufleuten A. Criorgi & C.a ersteigert. Dort befindet sich die Kapelle des heiligen Antonius mit einem schönen angebauten Haus, mit der wir uns an anderer Stelle in diesem Werk befassen werden.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Tábua"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Gemeinde"
+        ],
+        "Tábua": [
+            "Gemeinde"
+        ],
+        "Lombada dos Esmeraldos": [
+            "Großes Anwesen"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Eigentümer des großen Anwesens Lombada dos Esmeraldos"
+        ],
+        "Águeda de Abreu": [
+            "Witwe von João Esmeraldo"
+        ]
+    },
+    "years": {
+        "1804": [
+            "Vergrößerung von Lugar de Baixo durch Erdrutsch von Lombada"
+        ]
+    }
+}

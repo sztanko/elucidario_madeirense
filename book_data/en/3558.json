@@ -1,0 +1,49 @@
+{
+    "id": 3558,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vaccine",
+    "fl": "V",
+    "original_title": "Vacina",
+    "body": "It seems that it was the court physician, Dr. Domaire, who first conducted vaccination experiments against smallpox in Madeira, followed by Dr. Adams, whom we have already mentioned on page 16 of Volume I of this Elucidário. In a petition favorably dispatched by the Governor and presented to the Municipal Council in a session on October 27, 1802, Dr. Adams requested that 'every eight days, four exposed individuals be sent to him to test the smallpox vaccine,' and the same doctor, in a report written in English but translated by the chief interpreter Major Francisco Manuel Patrone, presented the results of the experiments he had conducted. After Dr. Adams, the Madeiran physician Dr. António Caetano de Freitas proceeded with the vaccinations, and in two reports, one written in 1804 and the other in 1807, he also reported on what he had observed. In 1815, the Council established, by virtue of the governor's decree, that there should be a monthly vaccination for the exposed individuals, administered by the chief physician, and in a session on June 7, 1823, the same corporation resolved to invite parents through announcements to have their children vaccinated at the hospital, where 'a free establishment for this purpose had been created last year by the care of the Council, in accordance with the health guards and the hospital's provider.' It seems, therefore, that only from 1822 or 1823 onwards did the use of the vaccine begin to spread in Madeira, although it is known that before that, the exposed individuals were vaccinated, and that in 1804, when many people still doubted the usefulness of inoculations, Governor Sequeira Freire already advised everyone to use them as the only effective means to prevent the contagion and spread of smallpox.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Domaire": [
+            "Court physician"
+        ],
+        "Dr. Adams": [
+            "Physician"
+        ],
+        "Francisco Manuel Patrone": [
+            "Chief interpreter"
+        ],
+        "Dr. António Caetano de Freitas": [
+            "Madeiran physician"
+        ],
+        "Sequeira Freire": [
+            "Governor"
+        ]
+    },
+    "years": {
+        "1802": [
+            "Dr. Adams' petition to the Municipal Council"
+        ],
+        "1804": [
+            "Report by Dr. António Caetano de Freitas"
+        ],
+        "1807": [
+            "Report by Dr. António Caetano de Freitas"
+        ],
+        "1815": [
+            "Monthly establishment of vaccination by the Council"
+        ],
+        "1823": [
+            "Council's resolution for children's vaccination"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 824,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castelo Branco (Pedro de)",
+    "fl": "C",
+    "original_title": "Castelo Branco (Pedro de)",
+    "body": "Pedro de Castelo Branco, barão de S. Pedro, nasceu no Funchal a 19\nde Abril de 1837, sendo filho do contra-almirante Joaquim Pedro de Castelo Branco. Era doutor em\nmedicina pela Universidade de Paris e foi por alguns anos empregado superior dos correios, passando\ndepois para o Ministerio dos Negocios Estrangeiros e entrando na carreira diplomatica. Serviu como\nsecretario de legação em varias capitais da Europa e como encarregado de negocios em Berlim e na Haia,\nsendo nomeado em 1891 ministro plenipotenciario em Constantinopla. Desempenhou mais tarde o cargo de\nchefe do gabinete do Ministro dos Negocios Estrangeiros, vindo a falecer em Lisboa a 14 de Dezembro de\n1911.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Joaquim Pedro de Castelo Branco": [
+            "Pai de Pedro de Castelo Branco"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Nascimento de Pedro de Castelo Branco"
+        ],
+        "1891": [
+            "Nomeação como ministro plenipotenciario em Constantinopla"
+        ],
+        "1911": [
+            "Falecimento de Pedro de Castelo Branco"
+        ]
+    }
+}

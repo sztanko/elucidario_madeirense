@@ -1,0 +1,29 @@
+{
+    "id": 2743,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pereira (Padre Joaquim Placido)",
+    "fl": "P",
+    "original_title": "Pereira (Padre Joaquim Placido)",
+    "body": "Nasceu na freguesia do Seixal a 10 de Dezembro de 1885 e ordenou-se de presbítero em 1909. Tem exercido funções eclesiasticas em varias freguesias da diocese. Além da sua colaboração em alguns jornais, publicou em Lisboa o livro intituladoNossa Senhora do Monte, Padroeira da Ilha da Madeira .",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Seixal"
+    ],
+    "locations": {
+        "Seixal": [
+            "Local de nascimento de Padre Joaquim Placido Pereira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1885": [
+            "Nascimento de Padre Joaquim Placido Pereira"
+        ],
+        "1909": [
+            "Ordenação como presbítero"
+        ]
+    }
+}

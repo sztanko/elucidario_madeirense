@@ -1,0 +1,38 @@
+{
+    "id": 3337,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Silva (Nicolau Francisco Xavier da)",
+    "fl": "S",
+    "original_title": "Silva (Nicolau Francisco Xavier da)",
+    "body": "Nasceu na freguesia de Santa Maria Maior desta cidade nos últimos anos do século XVII,\nsendo filho de José da Silva Pimenta e de Josefa Maria Teixeira, e morreu em Lisboa a 17 de Agosto de 1754. Doutorou-se na\nfaculdade de cânones da Universidade de Coimbra no ano de 1725 e ali exerceu interinamente o magistério universitário durante\nalguns anos. Fixou residência em Lisboa, dedicando-se com brilho ao exercício do foro e ao cultivo das letras, deixando várias obras\ninéditas e tendo publicado o Puro e affectuoso sacrificio (Lisboa, 1724) e a Oração de agradecimento à Academia Real, publicada na\nColecção da mesma Academia. Foi sócio efectivo da Academia Real de Historia e por ela encarregado de escrever a história das\ninquirições, que não chegou a completar e que ficou inédita. Era considerado como um dos homens mais eruditos do seu tempo.\nConseguiu reünir uma selecta biblioteca, que foi comprada pelo monarca e que constituiu o núcleo da biblioteca da Ajuda.",
+    "categories": [
+        "history",
+        "culture",
+        "education"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Local de nascimento de Nicolau Francisco Xavier da Silva"
+        ],
+        "Lisboa": [
+            "Local de falecimento de Nicolau Francisco Xavier da Silva"
+        ]
+    },
+    "people": {
+        "Nicolau Francisco Xavier da Silva": [
+            "Doutor e escritor"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Ano de doutoramento de Nicolau Francisco Xavier da Silva"
+        ],
+        "1754": [
+            "Ano de falecimento de Nicolau Francisco Xavier da Silva"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 2536,
+    "lang": "en",
+    "is_original": false,
+    "title": "Notaries",
+    "fl": "N",
+    "original_title": "Notários",
+    "body": "The notarial service in this archipelago certainly should have followed the phases of the Kingdom's mainland, apart from any modifications that local circumstances might have advised. Nevertheless, it is interesting to note that in Funchal in 1579 there were no less than 21 judicial notaries, 8 notaries, and 6 inquisitors, which was truly extraordinary for a population that, throughout the island, then amounted to twenty-five thousand inhabitants. Let's hear Frutuoso: \"And because in Funchal, a city that his ancestors (the 5th captain-donor) founded, there were twenty-one judicial notaries and eight notaries and six inquisitors, King D. Henrique, in the year 1579, for certain reasons that moved him and for more service to God, decided to reduce them to ten judicial scribes, and four notaries and three inquisitors who now serve (in 1590)....\" It is worth noting that in the seats of the other captaincies and in the villages, already created, of Machico, Santa Cruz, Ponta do Sol, Calheta, and Porto Santo, there were also judicial officials with the same attributions as those of Funchal. In the jurisdiction of Funchal, Cardinal D. Henrique reduced the number of scribes from 35 to 17!",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz",
+        "Ponta do Sol",
+        "Calheta",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Funchal": [
+            "City that his ancestors (the 5th captain-donor) founded"
+        ]
+    },
+    "people": {
+        "Frutuoso": [
+            "Historian"
+        ]
+    },
+    "years": {
+        "1579": [
+            "Number of notaries in Funchal"
+        ],
+        "1590": [
+            "Number of judicial scribes, notaries, and inquisitors"
+        ]
+    }
+}

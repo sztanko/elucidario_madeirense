@@ -1,0 +1,25 @@
+{
+    "id": 895,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cidrão (Ribeiro do)",
+    "fl": "C",
+    "original_title": "Cidrão (Ribeiro do)",
+    "body": "Stream in the parish of Curral das Freiras, a tributary of the mighty Ribeira dos Socorridos.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Curral das Freiras"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Parish where the Ribeiro do Cidrão is located"
+        ],
+        "Ribeira dos Socorridos": [
+            "Important river in the region"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

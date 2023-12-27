@@ -1,0 +1,50 @@
+{
+    "id": 3024,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kommunale Einnahmen und Ausgaben",
+    "fl": "K",
+    "original_title": "Receitas e Despesas Municipais",
+    "body": "Die Einnahmen der Gemeinde Funchal, die 1880 etwa 81 Konten und 1890 fast 117 Konten betrugen, stiegen 1900 auf 130.744$, 1910 auf 171.156$, 1920 auf 357.081$ und 1922 auf 557.471$, wobei in diesen Beträgen die Salden der Vorjahre sowie verschiedene nicht eingezogene Einnahmen enthalten sind. In den Einnahmen von 1920 und 1922 sind die Beträge von 101.700$ bzw. 85.945$ aus der Hinterlegung der Sanierungsarbeiten der Stadt enthalten. In den Wirtschaftsjahren 1862 bis 1863 und 1870 bis 1871 beliefen sich die Einnahmen jeweils auf 31.041$ bzw. 50.743$, während sie 1837 auf 35.678$ veranschlagt wurden. Die Ausgaben betrugen 1880 72.500$ und 1890 98.500$, dann 105.758$ im Jahr 1900, 152.786$ im Jahr 1910, 246.471$ im Jahr 1920 und 462.007$ im Jahr 1922. In den Wirtschaftsjahren 1862 bis 1863 und 1870 bis 1871 stiegen die Ausgaben jeweils auf 27.325$ und 30.073$.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1880": [
+            "Ausgaben betrugen 72.500$"
+        ],
+        "1890": [
+            "Ausgaben betrugen 98.500$"
+        ],
+        "1900": [
+            "Ausgaben betrugen 105.758$"
+        ],
+        "1910": [
+            "Ausgaben betrugen 152.786$"
+        ],
+        "1920": [
+            "Ausgaben betrugen 246.471$"
+        ],
+        "1922": [
+            "Ausgaben betrugen 462.007$"
+        ],
+        "1862": [
+            "Ausgaben stiegen auf 27.325$"
+        ],
+        "1863": [
+            "Ausgaben stiegen auf 30.073$"
+        ],
+        "1870": [
+            "Ausgaben stiegen auf 27.325$"
+        ],
+        "1871": [
+            "Ausgaben stiegen auf 30.073$"
+        ],
+        "1837": [
+            "Einnahmen veranschlagt auf 35.678$"
+        ]
+    }
+}

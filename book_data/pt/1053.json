@@ -1,0 +1,53 @@
+{
+    "id": 1053,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa Torres (D. José da)",
+    "fl": "C",
+    "original_title": "Costa Torres (D. José da)",
+    "body": "A D. Gaspar Afonso da Costa Brandão sucedeu na cadeira episcopal do Funchal o prelado D. José da Costa Tôrres. Nasceu na cidade de Setubal a 11 de Agôsto de 1741 e era doutor em canones pela Universidade de Coimbra. Foi confirmado bispo da Madeira por Pio VI, em Novembro de 1786, e tomou posse desta diocese a 18 de Setembro de 1787. Como prelado do Funchal deixou assinalada a sua passagem nesta ilha pela perseguição que moveu á maçonaria, de acôrdo com o governador e o capitão general e em virtude de ordens emanadas do govêrno central. No entretanto afirma-se que exorbitou das ordens recebidas, tendo o proprio govêrno da metropole que intervir nos excessos praticados pelo prelado. Entre os perseguidos contava-se o deão da Sé do Funchal dr. João Francisco Lopes Rocha, que a tal proposito escreveu uma longa carta ao ministro José Seabra da Silva, queixando-se das prepotencias cometidas por D. José Tôrres, carta que é documento por muitos titulos interessante e que foi publicada em 1822, em Londres, no Campeâo Portugues. A 22 de Junho de 1796 foi transferido para a Sé de Elvas. Quando já se preparava para deixar a Madeira, teve que antecipar apressadamente a sua saída e abandonar esta ilha, diz um documento da época, “na noite de 6 de Outubro de 1796, sem se despedir de pessoa alguma, nem do Santissimo Sacramento: e até agora ignora-se o motivo deste afectado embarque de noite e por portas travessas“. Foi em 1806 nomeado arcebispo de Braga e ali morreu alguns anos depois, tendo 72 anos de idade.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Setubal": [
+            "Cidade de nascimento"
+        ]
+    },
+    "people": {
+        "Gaspar Afonso da Costa Brandão": [
+            "Antecessor na cadeira episcopal do Funchal"
+        ],
+        "Pio VI": [
+            "Papa que confirmou D. José da Costa Tôrres como bispo da Madeira"
+        ],
+        "João Francisco Lopes Rocha": [
+            "Deão da Sé do Funchal"
+        ],
+        "José Seabra da Silva": [
+            "Ministro"
+        ]
+    },
+    "years": {
+        "1741": [
+            "Ano de nascimento"
+        ],
+        "1786": [
+            "Confirmação como bispo da Madeira por Pio VI"
+        ],
+        "1787": [
+            "Tomada de posse da diocese"
+        ],
+        "1796": [
+            "Transferência para a Sé de Elvas"
+        ],
+        "1806": [
+            "Nomeação como arcebispo de Braga"
+        ],
+        "1822": [
+            "Publicação da carta de João Francisco Lopes Rocha em Londres"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 379,
+    "lang": "de",
+    "is_original": false,
+    "title": "Baixo (Ilhéu de)",
+    "fl": "B",
+    "original_title": "Baixo (Ilhéu de)",
+    "body": "Diese Insel, auch als Ilhéu da Cal bekannt, liegt nahe der Insel Porto Santo, von der sie durch einen Kanal oder eine Meerenge namens Boqueirão de Baixo getrennt ist. Sie befindet sich am südlichen Ende der Insel und markiert die westliche Grenze der weitläufigen Bucht gegenüber dem Ort Calheta. Seit Jahrhunderten wird von dieser Insel der gesamte Kalkstein abgebaut, der den Rohstoff für die Herstellung von Kalk liefert, der beim Bau madeirischer Gebäude verwendet wird. Für den Abbau folgt man dem jeweiligen Erzgang und bildet lange Stollen mit hohen Säulen oder Pfeilern, um Einstürze zu verhindern. Der Abbau erfolgt an verschiedenen Stellen, wobei jede Gruppe von Arbeitern, die an den verschiedenen Orten, an denen Kalkstein abgebaut wird, als \"Rancho\" bezeichnet wird. Dieser Kalkstein wird besteuert, wenn er nach Madeira exportiert wird, wobei die Steuer im Zollamt von Funchal erhoben wird und eine der wertvollsten Einnahmequellen der Stadtverwaltung von Porto Santo darstellt. Diese Insel ist relativ groß und es gibt immer noch viele Kaninchen, obwohl sie ständig der Wilderei ausgesetzt sind. Das Land der Insel hat Hebungen erfahren, was durch das Vorkommen von Kalkstein weit über dem Meeresspiegel und durch Muscheln, Korallen und steinähnliche Strandfunde in der Formation belegt wird. Die Fossilien stammen aus dem oberen Miozän und etwa fünfzig Arten wurden sowohl im Kalkstein als auch in den angrenzenden Tuffen gefunden, darunter Bryozoen, Korallen, Seeigel, Muscheln und Schnecken, die von Carlos Mayer in Hartungs Werk über die Geologie des Archipels beschrieben wurden. Die Kalksteinformation ist von unterseeischen Laven bedeckt. An den Küsten der Insel gibt es einige Höhlen mit Salzausblühungen und in Portinho gibt es einige große Ausgrabungen in Tuffen und eine Zisterne, deren Wasser aufgrund der Durchlässigkeit des Gesteins stark salzhaltig ist.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Insel Porto Santo": [
+            "Benachbart zur Insel Ilhéu de Baixo"
+        ],
+        "Calheta": [
+            "Ort gegenüber der Insel Ilhéu de Baixo"
+        ],
+        "Funchal": [
+            "Ort, an dem die Steuer auf Kalkstein erhoben wird"
+        ]
+    },
+    "people": {
+        "Carlos Mayer": [
+            "Beschrieb etwa fünfzig Arten von Fossilien in Hartungs Werk über die Geologie des Archipels"
+        ]
+    },
+    "years": {}
+}

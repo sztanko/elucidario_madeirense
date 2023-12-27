@@ -1,0 +1,34 @@
+{
+    "id": 1447,
+    "lang": "de",
+    "is_original": false,
+    "title": "Forte de S. João Baptista",
+    "fl": "F",
+    "original_title": "Forte de S. João Baptista",
+    "body": "Auch Ancoradouro und Desembarcadouro genannt. Es wurde 1708 auf einer Felsspitze östlich der Bucht von Machico gebaut.\n\nEs feuerte am 22. August 1828 auf die Kriegsbrigg der Miguelisten-Flotte, Infante D. Sebastião, und beschädigte sie leicht.\n\n1910 wurden auf der Esplanade Holzhäuser gebaut und es wurde für Cholerakranke adaptiert.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Bucht von Machico"
+        ]
+    },
+    "people": {
+        "Infante D. Sebastião": [
+            "Miguelist"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Bau des Forts"
+        ],
+        "1828": [
+            "Beschuss der Kriegsbrigg"
+        ],
+        "1910": [
+            "Umbau zum Cholerakrankenhaus"
+        ]
+    }
+}

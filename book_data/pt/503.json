@@ -1,0 +1,26 @@
+{
+    "id": 503,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Boaventura (Porto da)",
+    "fl": "B",
+    "original_title": "Boaventura (Porto da)",
+    "body": "Na foz da ribeira do Porco ou Boaventura, há uma praia pedregosa, entestando com o pequeno porto que tem aquele nome. Fica próximo da Ponta Delgada, donde dista menos duma milha.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Ponta Delgada"
+    ],
+    "locations": {
+        "Boaventura": [
+            "Localidade onde se encontra o Porto da Boaventura"
+        ],
+        "Ponta Delgada": [
+            "Localidade próxima ao Porto da Boaventura"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

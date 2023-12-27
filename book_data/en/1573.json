@@ -1,0 +1,27 @@
+{
+    "id": 1573,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gente Nova",
+    "fl": "G",
+    "original_title": "Gente Nova",
+    "body": "The first issue was released on October 15, 1919, and the last, the tenth, on March 20, 1920. It was published again in February 1921. It was a newspaper written by high school students.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1919": [
+            "Start of the publication of the Gente Nova newspaper"
+        ],
+        "1920": [
+            "End of the first publication of the Gente Nova newspaper"
+        ],
+        "1921": [
+            "Resumption of the publication of the Gente Nova newspaper"
+        ]
+    }
+}

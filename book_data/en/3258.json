@@ -1,0 +1,45 @@
+{
+    "id": 3258,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Sebastião (Chapels of)",
+    "fl": "S",
+    "original_title": "São Sebastião (Capelas de)",
+    "body": "The chapel of São Sebastião in the town of Ponta do Sol, which is of ancient construction, was the property of the respective municipal council. In 1734, it was found desecrated and in an advanced state of ruin, being entirely rebuilt at the expense of the same council. It was inspected, for the purpose of celebrating divine services, on November 20, 1734.\n\nOn the island of Porto Santo, there was a chapel dedicated to the martyr São Sebastião, which was very ancient.\n\nThere was a chapel with the same invocation in the parish of Santa Cruz, the year of its construction and the name of its founder being unknown.\n\nThere was a chapel of São Sebastião in the parish of São Jorge, the year of construction of which is unknown. In the meantime, we know that it was rebuilt by the parish priest Francisco Marques de Mendonça in the year 1765, being blessed on September 11 of the same year. The small image of the saint, a remarkable work of sculpture, is found in the parish church.\n\n## See Market and chapel of São Sebastião\non page 359 of volume II.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Santa Cruz",
+        "São Jorge"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Town of Ponta do Sol"
+        ],
+        "Porto Santo": [
+            "Island of Porto Santo"
+        ],
+        "Santa Cruz": [
+            "Parish of Santa Cruz"
+        ],
+        "São Jorge": [
+            "Parish of São Jorge"
+        ]
+    },
+    "people": {
+        "Francisco Marques de Mendonça": [
+            "Parish priest responsible for the reconstruction of the chapel of São Sebastião in the parish of São Jorge"
+        ]
+    },
+    "years": {
+        "1734": [
+            "Year in which the chapel of São Sebastião in Ponta do Sol was rebuilt"
+        ],
+        "1765": [
+            "Year of the reconstruction of the chapel of São Sebastião in the parish of São Jorge"
+        ]
+    }
+}

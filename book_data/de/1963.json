@@ -1,0 +1,32 @@
+{
+    "id": 1963,
+    "lang": "de",
+    "is_original": false,
+    "title": "Leme (João da Câmara)",
+    "fl": "L",
+    "original_title": "Leme (João da Câmara)",
+    "body": "Er wurde 1865 in Funchal geboren und bekleidete das Amt des Pförtners der Zivilverwaltung. In dieser Stadt veröffentlichte er 1887 einen Band mit Gedichten, 83 Seiten, mit dem Titel \"Amor e Pátria\". Bei seinem Erscheinen wurde in der Presse behauptet, dass das Büchlein ein vollständiges Plagiat sei, zusammengestellt aus verschiedenen portugiesischen Dichtern, insbesondere Almeida Garrett.",
+    "categories": [
+        "history",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "João da Câmara Leme": [
+            "Dichter"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Geburt in Funchal"
+        ],
+        "1887": [
+            "Veröffentlichung des Gedichtbandes Amor e Pátria"
+        ]
+    }
+}

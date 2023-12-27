@@ -1,0 +1,26 @@
+{
+    "id": 3058,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Requeme (Sebastes Kuhlii)",
+    "fl": "R",
+    "original_title": "Requeme (Sebastes Kuhlii)",
+    "body": "Peixe triglida que é pescado numa profundidade que varia entre 100 e 250 braças. Em Câmara de\n Lobos é conhecido pelo nome de chapado e no Porto Santo pelo de vermelho. Não é espécie rara e vive nos sítios rochosos. A sua\n carne tem sabor agradável.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Onde é conhecido pelo nome de chapado"
+        ],
+        "Porto Santo": [
+            "Onde é conhecido pelo nome de vermelho"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

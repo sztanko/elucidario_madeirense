@@ -1,0 +1,42 @@
+{
+    "id": 2781,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pico (Burg von S. João do)",
+    "fl": "P",
+    "original_title": "Pico (Castelo de S. João do)",
+    "body": "«Die Burg von S. João, auf dem Pico, sagt Dr. Azevedo, liegt nordwestlich der Stadt Funchal, hoch über ihr und dem Hafen, auf dem Gipfel des Pico dos Frias. Dieser Punkt und der der Pena wurden bereits in der Verordnung von D. Sebastião als Festungspunkte für die Landverteidigung bezeichnet; aber die philippinische Befestigung wurde vielleicht auch für die Seeverteidigung gebaut. Zwei der Manuskripte, die wir über die Geschichte dieses Archipels besitzen, berichten, dass die Burg von Pico vom Generalgouverneur D. Francisco Henriques begonnen wurde: Dieser übernahm die Regierung am 28. Oktober 1622 und starb am 23. Juli 1624; eine Gedenktafel auf dem Exerzierplatz erinnert an den Generalgouverneur Luiz de Miranda Henriques Pinto als Erbauer des Restes des Werkes; und dieser trat laut jenen Manuskripten am 6. Juni 1636 in die Regierung ein und verließ sie am gleichen Tag 1640; es ist also klar, dass die Burg von S. João, auf dem Pico, zwischen 1622 und 1640 erbaut wurde».\n\nOben auf der Außentür, die das an die Festung angrenzende Gelände verschließt, liest man die Jahreszahl 1632, und man weiß, dass der Spanier Benedicto Catalão per Brief vom 4. Dezember 1655 Leutnant dieser Festung wurde, nachdem er 30 Jahre lang zur spanischen Garnison auf dieser Insel gehört hatte.\n\nWir sagten auf Seite 184 des 1. Bandes dieses Werkes, dass die Stadtverwaltung nicht in der Lage war, die Konzession der Festung von Pico zu nutzen, die sie von der Regierung für 10 Jahre zur vorübergehenden Unterbringung des Bezirksgefängnisses erhalten hatte, aber was wir nicht sagten, ist, dass viele Jahre zuvor, 1821, die Gefangenen in dieselbe Festung verlegt worden waren, wo sie bis zur Fertigstellung der Anpassungsarbeiten für das Gefängnis im unteren Teil des heute abgerissenen Gebäudes am Domplatz, das Eigentum von D. Guiomar Madalena Acciaioly war, blieben.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Francisco Henriques": [
+            "Generalgouverneur, der den Bau der Burg von Pico begann"
+        ],
+        "Luiz de Miranda Henriques Pinto": [
+            "Generalgouverneur, der den Rest der Burg von Pico erbaute"
+        ],
+        "Benedicto Catalão": [
+            "Spanischer Leutnant der Festung von Pico"
+        ]
+    },
+    "years": {
+        "1622": [
+            "Jahr, in dem D. Francisco Henriques die Regierung übernahm"
+        ],
+        "1624": [
+            "Jahr, in dem D. Francisco Henriques starb"
+        ],
+        "1632": [
+            "Jahreszahl über der Außentür der Festung"
+        ],
+        "1655": [
+            "Jahr, in dem Benedicto Catalão Leutnant der Festung von Pico wurde"
+        ],
+        "1821": [
+            "Jahr, in dem die Gefangenen in die Festung von Pico verlegt wurden"
+        ]
+    }
+}

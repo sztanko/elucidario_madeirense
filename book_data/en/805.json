@@ -1,0 +1,57 @@
+{
+    "id": 805,
+    "lang": "en",
+    "is_original": false,
+    "title": "Casas de Abrigo",
+    "fl": "C",
+    "original_title": "Casas de Abrigo",
+    "body": "The mountains of Madeira, due to their great altitude and the distances from populated centers, always pose a serious danger to travelers who need to cross them when storms occur, especially torrential rains accompanied by strong winds and hailstorms. It is rare for winters to pass without the death of several individuals succumbing to the violence of the storms. To assist these sometimes imprudent travelers who are unaware of the danger to which they easily expose themselves, small houses were built in the most exposed points of our mountains, some of them quite old, which have provided remarkable services, saving many individuals seeking shelter in them from certain death, even though they are devoid of the most rudimentary means of shelter and comfort for those who arrive there chased by the storms. We provide a list of the Shelter Houses existing in our mountains, some of which also serve the purposes of maintaining the levadas and forest inspection. It is regrettable that not all of them have the necessary staff to effectively fulfill their purpose and that their state of preservation leaves much to be desired. They are: Casa do Caramujo (see this name) in the mountains of São Vicente; Casa do Lombo do Mouro (see this name) in the mountains of the parish of Ribeira Brava; Casa do Monte Medonho (see this name) in the mountains of the parish of São Vicente; Casas do Rabaçal, in the well-known site of the same name; Casa da Bica da Cana on the plateau of Paul da Serra; Casa da Fajã das Nogueiras (see this name) in the mountains of Faial; Casa das Queimadas (see this name) in the mountains of the parish of Santana; Casa do Ribeiro Frio (see this name) in the parish of São Roque do Faial; Casa dos Alpires (see this name) not far from the site of Choupana, in Funchal, and the one in Poiso, in the site of the same name, in the mountains of the parish of Camacha. Perhaps this is the only one that truly deserves the name of Shelter House, due to its capacity, good state of preservation, and relative comfort it offers to those who seek it. In other parts of the mountains, there were some small shelter houses, which have long been destroyed by time and the neglect of man. The English subject Roberto Page had two shelter houses built in the mountains in the early 19th century, one in Paul da Serra and the other in Ribeira das Cales, but the first of these houses no longer exists, and the second, after being properly repaired, is serving as a shelter for forest guards. In Lombo da Raiz and in Lamaceiros, there are small shelters built by the Directorate of Public Works of Funchal.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ribeira Brava",
+        "São Vicente",
+        "Faial",
+        "Santana",
+        "São Roque do Faial",
+        "Camacha"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Mountains"
+        ],
+        "Ribeira Brava": [
+            "Mountains"
+        ],
+        "Rabaçal": [
+            "Mountains"
+        ],
+        "Faial": [
+            "Mountains"
+        ],
+        "Santana": [
+            "Mountains"
+        ],
+        "São Roque do Faial": [
+            "Mountains"
+        ],
+        "Choupana": [
+            "Mountains"
+        ],
+        "Camacha": [
+            "Mountains"
+        ]
+    },
+    "people": {
+        "Roberto Page": [
+            "English subject"
+        ]
+    },
+    "years": {
+        "Seculo XIX": [
+            "Roberto Page had two shelter houses built in the mountains"
+        ]
+    }
+}

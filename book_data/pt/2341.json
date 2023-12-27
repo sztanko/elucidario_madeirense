@@ -1,0 +1,29 @@
+{
+    "id": 2341,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Monte Gordo e Boa Morte",
+    "fl": "M",
+    "original_title": "Monte Gordo e Boa Morte",
+    "body": "Sítio povoado da freguesia da Ribeira Brava. Existiu ali uma capela dedicada a Nossa Senhora da Boa Morte, que deu o nome ao lugar, construída por Francisco Fernandes e Brásia Fernandes, em ano que se ignora.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Francisco Fernandes": [
+            "Construtor da capela"
+        ],
+        "Brásia Fernandes": [
+            "Construtora da capela"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,44 @@
+{
+    "id": 1099,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cunha (José Ribeiro da)",
+    "fl": "C",
+    "original_title": "Cunha (José Ribeiro da)",
+    "body": "É de 9 de Abril de 1896 o decreto da sua nomeação para governador civil deste distrito, tendo tomado posse a 23 de Maio do dito ano. Por decreto de 13 de Junho de 1901, foi segunda vez nomeado governador civil da Madeira e tomou posse do logar a 15 do mês e ano referidos. Neste periodo do seu govêrno, recebeu a visita dos reis de Portugal D. Carlos e D. Maria Amelia, sendo pôr essa ocasião agraciado com a gran-cruz da Conceição. Exerceu pela terceira vez o mesmo cargo, para que foi nomeado por decreto de 22 de Maio de 1906, havendo tomado posse a 29 do dito mês e ano. Foi pela quarta vez nomeado governador civil da Madeira, por decreto de 27 de Junho de 1910 e tomou posse a 13 do mês de Julho seguinte. Foi o ultimo governador civil efectivo no regimen monarquico e representou a Madeira no parlamento na legislatura de 1908 a 1910. Morreu em Lisboa a 14 de Maio de 1915, vitima da revolução que nesse dia rebentou naquela cidade.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisboa": [
+            "Capital de Portugal."
+        ]
+    },
+    "people": {
+        "D. Carlos": [
+            "Rei de Portugal."
+        ],
+        "D. Maria Amelia": [
+            "Rainha de Portugal."
+        ]
+    },
+    "years": {
+        "1896": [
+            "Nomeação para governador civil deste distrito."
+        ],
+        "1901": [
+            "Segunda nomeação para governador civil da Madeira."
+        ],
+        "1906": [
+            "Terceira nomeação para governador civil da Madeira."
+        ],
+        "1910": [
+            "Quarta nomeação para governador civil da Madeira."
+        ],
+        "1908": [
+            "Representação da Madeira no parlamento."
+        ]
+    }
+}

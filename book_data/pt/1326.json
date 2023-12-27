@@ -1,0 +1,29 @@
+{
+    "id": 1326,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Falcão",
+    "fl": "F",
+    "original_title": "Falcão",
+    "body": "Foi o primeiro vapor que estabeleceu viagens regulares entre diversos portos da costa sul da Madeira. Chegou ao porto do Funchal a 27 de Fevereiro de 1881, sendo um barco de 40 toneladas e da força de 22 cavalos, mandado vir pela casa Blandy Brothers & Cª.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto"
+        ]
+    },
+    "people": {
+        "Blandy Brothers & Cª": [
+            "Mandou vir o vapor Falcão"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Chegada do vapor Falcão ao porto do Funchal"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 470,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bertrand (Henrique de Price)",
+    "fl": "B",
+    "original_title": "Bertrand (Henrique de Price)",
+    "body": "Marinekapitän und Kommandant der Fregatte D. Pedro, die sich zum Zeitpunkt der Ausrufung der liberalen Regierung auf Madeira am 5. Juni 1834 im Hafen von Funchal befand. Er war Teil der provisorischen Regierung Madeiras nach der Abreise von D. Alvaro da Costa de Macedo nach Lissabon.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hafen, in dem sich die Fregatte D. Pedro befand"
+        ],
+        "Lissabon": [
+            "Stadt, in die D. Alvaro da Costa de Macedo abreiste"
+        ]
+    },
+    "people": {
+        "Henrique de Price Bertrand": [
+            "Kommandant der Fregatte D. Pedro"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Ausrufung der liberalen Regierung auf Madeira"
+        ]
+    }
+}

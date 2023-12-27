@@ -1,0 +1,27 @@
+{
+    "id": 3500,
+    "lang": "de",
+    "is_original": false,
+    "title": "Torrend (Pater Camilo)",
+    "fl": "T",
+    "original_title": "Torrend (Padre Camilo)",
+    "body": "Hervorragender französischer Mykologe, der für seine Studien über Pilze aus Portugal und Madeira sehr bekannt ist. Er ist Mitglied der Gesellschaft Jesu und hat in Lissabon, Belgien und Brasilien unterrichtet. Er veröffentlichte drei Beiträge zum Studium madeirischer Pilze in den Bänden VIII, X und XI von Broteria (1909-1913).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pater Camilo Torrend": [
+            "Französischer Mykologe, Mitglied der Gesellschaft Jesu"
+        ]
+    },
+    "years": {
+        "1909": [
+            "Veröffentlichung von Band VIII von Broteria"
+        ],
+        "1913": [
+            "Veröffentlichung von Band XI von Broteria"
+        ]
+    }
+}

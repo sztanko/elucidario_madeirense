@@ -1,0 +1,67 @@
+{
+    "id": 2510,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora das Neves (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Neves (Capela de)",
+    "body": "Referring to this chapel, Frutuoso says: '... there is a church of Nossa Senhora das Neves, in view of Funchal, on a point called Garajao, a league before reaching the city.' It is very old and one of the few chapels from the 16th century that still stand, although it has undergone some modifications over time. It was founded by João Afonso Mealheiro and his wife Catarina de Sá. Speaking of him, Dr. Rodrigues de Azevedo says: '... he was one of the first settlers of the island of Madeira, and had a land grant in Ribeira-Secca, from São Gonçallo to Caniço. His wife Catharina de Sá, or Pires, made the morgadio das Neves, and left it to her nephew, the almoxarife João Cabral; but by the part of the royal estate, the same morgadio was sold, for payment of the balance; Lopo Machado de Goes bought it, and again instituted his son Bartholomeu Machado.' Somewhere we read that in 1692, this chapel passed into the possession of D. Guiomar Castelo Branco, daughter of Gaspar Vilela and married to Antonio Correia. In the last quarter of the 19th century, the English merchant João Blandy purchased this chapel and the adjacent lands to border the magnificent property of Palheiro Ferreiro, also acquired by the same merchant. João Blandy made significant repairs to the chapel and expanded its churchyard. The chapel of Neves gave its name to the place, was the seat of a curacy, and the parish of São Gonçalo was installed in it when it was created. On page 80 of Saudades da Terra, the ingenuous Gaspar Frutuoso tells the story of the struggle that a clergyman had near this chapel with the devil, who tried to throw the clergyman into the sea from the heights of the Garajau rock.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Funchal",
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital of the Island of Madeira"
+        ],
+        "Ribeira-Secca": [
+            "Locality in the Island of Madeira"
+        ],
+        "São Gonçallo": [
+            "Locality in the Island of Madeira"
+        ],
+        "Caniço": [
+            "Locality in the Island of Madeira"
+        ],
+        "Garajao": [
+            "Point in the Island of Madeira"
+        ],
+        "Palheiro Ferreiro": [
+            "Property in the Island of Madeira"
+        ]
+    },
+    "people": {
+        "João Afonso Mealheiro": [
+            "Founder of the chapel"
+        ],
+        "Catarina de Sá": [
+            "Wife of João Afonso Mealheiro"
+        ],
+        "Lopo Machado de Goes": [
+            "Buyer of the morgadio das Neves"
+        ],
+        "Bartholomeu Machado": [
+            "Son of Lopo Machado de Goes"
+        ],
+        "D. Guiomar Castelo Branco": [
+            "Owner of the chapel in 1692"
+        ],
+        "Gaspar Vilela": [
+            "Father of D. Guiomar Castelo Branco"
+        ],
+        "Antonio Correia": [
+            "Husband of D. Guiomar Castelo Branco"
+        ],
+        "João Blandy": [
+            "English merchant who purchased the chapel"
+        ]
+    },
+    "years": {
+        "1692": [
+            "Transfer of the chapel to the possession of D. Guiomar Castelo Branco"
+        ]
+    }
+}

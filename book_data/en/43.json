@@ -1,0 +1,41 @@
+{
+    "id": 43,
+    "lang": "en",
+    "is_original": false,
+    "title": "Acclamations of Monarchs",
+    "fl": "A",
+    "original_title": "Aclamações de monarcas",
+    "body": "From the Book of Exequies and Acclamations, existing in the archive of the Municipal Council of Funchal, it is recorded that D. José I was acclaimed king in the city of Funchal on January 4, 1751; D. Maria I, on June 29, 1777; D. João VI, on April 7, 1818; D. Pedro V, on September 7, 1855; D. Luiz I, on January 20, 1862; D. Carlos I, on December 28, 1889; and D. Manuel II, on May 6, 1908. The said book does not mention the day on which D. Maria II was proclaimed queen in the city of Funchal, but it is known that this ceremony, as well as the recognition of the Constitution, took place at the Town Hall on June 6, 1834. As we will see in the article Restoration of Portugal, the acclamation of D. João IV took place on January 11, 1641. In 1855, a pamphlet entitled Aclamação de S. M. F. o Sr. D. Pedro V, no Funchal, was published in this city, which describes the festivities that took place at that time. For the acclamation of the kings, a procession was organized, incorporating all the official entities, which paraded through various streets of the city, stopping at various points for the councilors to announce there, with the ceremonial style, the name of the new reigning monarch. This procession ceased to be organized only at the acclamation of D. Manuel II.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1751": [
+            "D. José I acclaimed king"
+        ],
+        "1777": [
+            "D. Maria I acclaimed queen"
+        ],
+        "1818": [
+            "D. João VI acclaimed king"
+        ],
+        "1855": [
+            "D. Pedro V acclaimed king"
+        ],
+        "1862": [
+            "D. Luiz I acclaimed king"
+        ],
+        "1889": [
+            "D. Carlos I acclaimed king"
+        ],
+        "1908": [
+            "D. Manuel II acclaimed king"
+        ],
+        "1834": [
+            "Recognition of the Constitution"
+        ]
+    }
+}

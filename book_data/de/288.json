@@ -1,0 +1,30 @@
+{
+    "id": 288,
+    "lang": "de",
+    "is_original": false,
+    "title": "Altenheim",
+    "fl": "A",
+    "original_title": "Asilo dos Velhinhos",
+    "body": "Es wurde im August 1900 aufgrund der Bemühungen des verstorbenen Diözesanbischofs D. Manuel Agostinho Barreto und des Paters Antonio José de Macedo gegründet. Zuerst befand es sich in einem Gebäude in der Calçada do Socorro, aber da dieses Gebäude nicht mehr als vierzig alte Menschen beherbergen konnte, zog das Altenheim in ein großes Haus in der Rua das Hortas um, wo es sich noch befindet.\n\nDas Altenheim beherbergte anfangs fünfundzwanzig Arme, aber 1910 hatte es fünfundsiebzig Insassen, davon fünfundzwanzig Männer und fünfzig Frauen. Die Dienste des Hauses wurden von sechs Ordensschwestern versehen, zwei Portugiesinnen und vier Ausländerinnen, die von einigen der kräftigeren Insassen unterstützt wurden. \n\nNachdem die Vertreibung der Kleinen Schwestern der Armen nach der Ausrufung der Republik angeordnet worden war, beschloss der Generalrat, die Kosten des Altenheims zu übernehmen, und seine Dienste werden jetzt von Angestellten bezahlt, die von derselben Körperschaft bezahlt werden.\n\nDas gesamte in der Altenheim gefundene Mobiliar wurde 1910 in einer öffentlichen Auktion verkauft, wobei ein Teil davon vom Generalrat ersteigert wurde, der ihm die vorherige Verwendung gab.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Diözesanbischof"
+        ],
+        "Padre Antonio José de Macedo": [
+            "Priester"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Gründung des Altenheims"
+        ],
+        "1910": [
+            "Erhöhung der Zahl der Insassen"
+        ]
+    }
+}

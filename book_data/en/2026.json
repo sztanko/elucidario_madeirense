@@ -1,0 +1,33 @@
+{
+    "id": 2026,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo do Doutor",
+    "fl": "L",
+    "original_title": "Lombo do Doutor",
+    "body": "A populated place in the parish of Calheta. It was named by Doctor Pedro Berenguer de Lemilhana, who established an entailed estate there. He was a native of Spain and a nobleman of the royal household. In this place, there existed the chapel of Jesus-Maria-José, founded in 1708 by João de Andrade Berenguer Neto, a descendant of Doctor Pedro Berenguer. There was also the chapel of Santa Catarina in this place, built by Rodrigo Enes in the year 1505. In this place is the well-known location of Vale da Bica.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Parish of Calheta"
+        ]
+    },
+    "people": {
+        "Pedro Berenguer de Lemilhana": [
+            "Doctor who gave the place its name"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Foundation of the chapel of Jesus-Maria-José"
+        ],
+        "1505": [
+            "Construction of the chapel of Santa Catarina"
+        ]
+    }
+}

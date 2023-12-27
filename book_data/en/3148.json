@@ -1,0 +1,31 @@
+{
+    "id": 3148,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sal",
+    "fl": "S",
+    "original_title": "Sal",
+    "body": "According to the donation letters of Infante D. Henrique, only the grantees could sell salt on this island and Porto Santo. This privilege did not disappear with the transformation of the Madeira grants into alcaidarias-mores, but it seems that it was little respected in the last times. Therefore, on February 6, 1769, a notice was issued stating that the procurator of the Marquis of Castello Melhor should not be obliged to supply salt to the population, and anyone could unload and sell this product, as was previously practiced.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island"
+        ]
+    },
+    "people": {
+        "D. Henrique": [
+            "Infante"
+        ],
+        "Marquis of Castello Melhor": [
+            "Procurator"
+        ]
+    },
+    "years": {
+        "1769": [
+            "Issuance of the notice regarding the supply of salt"
+        ]
+    }
+}

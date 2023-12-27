@@ -1,0 +1,40 @@
+{
+    "id": 2035,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo dos Reis",
+    "fl": "L",
+    "original_title": "Lombo dos Reis",
+    "body": "Sítio povoado da freguesia do Estreito da Calheta, em que se encontra a capela dos Reis Magos, fundada por Francisco Homem de Gouveia, pelos anos de 1529, que ali fez a sede do morgadio que instituiu e que mais tarde foi encorporado na casa dos donatários da ilha do Porto Santo. Acha-se no mesmo sítio a capela da invocação de Nossa Senhora do Livramento, edificada por D. Inácia Betencourt Perestrelo, no ano de 1860.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Porto Santo": [
+            "Ilha pertencente ao arquipélago da Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Homem de Gouveia": [
+            "Fundador da capela dos Reis Magos"
+        ],
+        "D. Inácia Betencourt Perestrelo": [
+            "Fundadora da capela de Nossa Senhora do Livramento"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Fundação da capela dos Reis Magos"
+        ],
+        "1860": [
+            "Edificação da capela de Nossa Senhora do Livramento"
+        ]
+    }
+}

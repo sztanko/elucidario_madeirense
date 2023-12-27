@@ -1,0 +1,24 @@
+{
+    "id": 648,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cais do Porto do Moniz",
+    "fl": "C",
+    "original_title": "Cais do Porto do Moniz",
+    "body": "It was built by the Junta Geral in 1916. Before that, there was a natural landing place in Porto do Moniz, and later a staircase was built by the same corporation for the embarkation and disembarkation of passengers at high tide.",
+    "categories": [
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto do Moniz": [
+            "Before the construction of the pier, there was a natural landing place."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1916": [
+            "Construction of the pier at Porto do Moniz."
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 1432,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forerunner",
+    "fl": "F",
+    "original_title": "Forerunner",
+    "body": "On the afternoon of October 25, 1854, the English steamship Forerunner departed from the port of Funchal, coming from the African coast and bound for England, carrying many British army officers and the governor of Sierra Leone. When near the tip of S. Lourenço, already at night, the steamship struck a shoal known as Badajeira, completely submerging and resulting in the death of three passengers and eleven crew members. A boat from Machico that happened to be passing by the scene of the accident provided the best services in rescuing the passengers and crew, and the men from the boat were praised by the Portuguese Government in an official notice and were decorated with the medal of the Royal Humanistic Society.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "Sierra Leone": [
+            "Country"
+        ],
+        "Machico": [
+            "City"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1854": [
+            "Shipwreck of the steamship Forerunner"
+        ]
+    }
+}

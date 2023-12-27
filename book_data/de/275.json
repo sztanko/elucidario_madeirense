@@ -1,0 +1,27 @@
+{
+    "id": 275,
+    "lang": "de",
+    "is_original": false,
+    "title": "Die Kunst des Stehlens",
+    "fl": "D",
+    "original_title": "Arte de Furtar",
+    "body": "Der Autor dieses Werkes scheint auf Madeira gewesen zu sein, denn er weist auf einige Ereignisse hin, die hier zur Zeit des Generalgouverneurs Bischof D. Jeronimo Fernando stattfanden, d.h. zwischen 1624 und 1634.\n\nDie Kunst des Stehlens, die viele dem Pater Antonio Vieira zuschreiben wollten, ist nicht sein Werk, sondern das eines Schriftstellers von Verdienst, der den Stil und die Phrase des berühmten portugiesischen Jesuiten nachzuahmen wusste.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Jeronimo Fernando": [
+            "Generalgouverneur des Archipels"
+        ]
+    },
+    "years": {
+        "1624": [
+            "Beginn der Amtszeit des Generalgouverneurs D. Jeronimo Fernando"
+        ],
+        "1634": [
+            "Ende der Amtszeit des Generalgouverneurs D. Jeronimo Fernando"
+        ]
+    }
+}

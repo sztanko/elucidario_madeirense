@@ -1,0 +1,33 @@
+{
+    "id": 2525,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Saúde (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Saúde (Capela de)",
+    "body": "In the street of Saúde, in the parish of São Pedro, near the Marquês square, there is still, although not open for worship, the chapel of this invocation, which was founded by Dr. Pedro Cardoso Valdavesso and his wife D. Maria Gondim in 1659, with the deed of endowment dated January 4 of that year.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "Dr. Pedro Cardoso Valdavesso": [
+            "Founder of the chapel in 1659"
+        ],
+        "D. Maria Gondim": [
+            "Founder of the chapel in 1659"
+        ]
+    },
+    "years": {
+        "1659": [
+            "Foundation of the chapel"
+        ]
+    }
+}

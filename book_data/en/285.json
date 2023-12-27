@@ -1,0 +1,40 @@
+{
+    "id": 285,
+    "lang": "en",
+    "is_original": false,
+    "title": "Asilo da Infância",
+    "fl": "A",
+    "original_title": "Asilo da Infância",
+    "body": "The establishment of an asylum for the destitute orphans of Funchal is owed to the first governor of Madeira during the period of constitutionalism, the illustrious Luiz da Silva Mousinho de Albuquerque. Despite the brevity of his term, which lasted from August 1834 to September 1835, he did not neglect any essential point of public administration. He took the initiative to create an asylum for the destitute orphans of Funchal, finding in his wife, D. Ana Mascarenhas de Ataíde, the most active and effective collaborator in this benevolent endeavor. The idea, which was new and met a great public need, was widely accepted and greeted by the entire population of Funchal with the most enthusiastic excitement, which unfortunately did not last long. Four months after Luiz Mousinho's arrival on the island, in mid-December 1834, the new charitable institution began to operate, temporarily housed in some of the dependencies of the São Lourenço Palace, under the immediate supervision and caring direction of its founders. It housed up to 120 children and remained relatively prosperous during the time its initiators remained on the island. It was also due to the initial impetus that a house located in Campo da Barca and belonging to the National Estate was obtained by decree on January 13, 1836 for the relocation of the asylum, which operated there for several years and ceased to exist at a time that cannot be precisely determined. After the absence of Luiz Mousinho de Albuquerque and his dedicated and benevolent wife, the work they had created with such dedication and affection began to slowly decline until it completely extinguished, leaving only the blessed memory of its illustrious founders. José Silvestre Ribeiro considered himself, in the founding of the Mendicidade Asylum of Funchal, only the continuator of Mousinho's work, and even today, in the vestibule of the building of the same asylum, there are two paintings, already quite damaged by time, representing Luiz da Silva Mousinho de Albuquerque and his wife D. Ana de Mascarenhas e Ataíde, which must be religiously preserved and also properly retouched. Project of an Asylum in Angústias. In 1837, once again, the Municipal Council of Funchal decided to found an asylum to shelter the elderly and the invalids who beg in the streets of the city. Having communicated this resolution to the central government, it was praised by a decree on June 7, 1838. For the realization of this lofty and humanitarian idea, the council promptly undertook the construction of a suitable building, choosing the land where the Mendicidade and Orphans Asylum now stands, which the first Count of Carvalhal had ceded for this purpose shortly before his death. The construction work, carried out according to the plan and project elaborated by the director of public works, engineer Vicente de Paula Teixeira, began on August 8, 1837, with the municipality spending approximately thirteen million reis on this construction. The building was almost completed, but it was not used for the purpose for which it was originally intended. It did not open its doors to the asylum residents because the council that had taken that initiative or the one that succeeded it in the council seats abandoned the idea of creating the asylum, for reasons that are entirely unknown.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Luiz da Silva Mousinho de Albuquerque": [
+            "First governor of Madeira during the period of constitutionalism"
+        ],
+        "D. Ana Mascarenhas de Ataíde": [
+            "Wife of Luiz da Silva Mousinho de Albuquerque"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Beginning of Luiz Mousinho's term as governor of Madeira"
+        ],
+        "1835": [
+            "End of Luiz Mousinho's term as governor of Madeira"
+        ],
+        "1836": [
+            "Decree for the relocation of the asylum"
+        ],
+        "1837": [
+            "Decision to found an asylum for the elderly and invalids in Funchal"
+        ],
+        "1838": [
+            "Praise of the resolution to found the asylum by the central government"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 379,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Baixo (Ilhéu de)",
+    "fl": "B",
+    "original_title": "Baixo (Ilhéu de)",
+    "body": "Este ilhéu, tambem conhecido pelo nome de Ilhéu da Cal, está adjacente à Ilha do Porto Santo, da qual se acha separado por um canal ou boqueirão, chamado Boqueirão de Baixo. Fica situado no extremo sul da ilha e no limite oeste da vasta baía, fronteiro ao sitio da Calheta. É deste ilhéu que desde há seculos se extrai e continua ainda a extrair se toda a pedra calcarea, que fornece a materia prima para o fabrico da cal empregada nas construções madeirenses. Para a extração dela, segue se a orientação do respectivo filão formando se extensas galerias, com altas colunas ou pilastras destinadas a evitar desmoronamentos. A exploração faz se em diversos pontos, dando se o nome de rancho a cada grupo de operarios empregados nos diversos logares em que se faz a extracção da pedra calcarea. Esta pedra é tributada ao ser exportada para a Madeira, fazendo se a cobrança do respectivo imposto na alfandega do Funchal, e constitue uma das mais apreciaveis receitas da Camara Municipal do Porto Santo. Este ilhéu é de relativa extensão e ainda ali se encontram abundantes coelhos, a pesar da contínua caça furtiva que fazem a esses roedores. Os terrenos do ilhéu sofreram levantamentos, o que é comprovado pela presença do calcareo muito acima do nivel do mar, e pelas conchas marinas, corais e pedras semelhantes ás das praias, que aparecem na formação. Os fósseis são da época miocenica superior, tendo sido achadas tanto no calcareo, como nos tufos adjacentes, cerca de cinquenta especies, entre os briozoarios, corais, ouriços, moluscos lamelibranquiados e gasteropodes, que foram descritas por Carlos Mayer na obra de Hartung sobre a geologia do arquipelago. A formação calcarea está coberta por lavas supramarinas. Nas costas do ilhéu há algumas furnas onde se observam estalactites salinas, e no Portinho há umas grandes escavações abertas pelo homem nos tufos, e uma cisterna cujas aguas são fortemente salgadas por causa da permeabilidade da rocha.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilha do Porto Santo": [
+            "Adjacente ao Ilhéu de Baixo"
+        ],
+        "Calheta": [
+            "Sitio fronteiro ao Ilhéu de Baixo"
+        ],
+        "Funchal": [
+            "Local da cobrança do imposto sobre a pedra calcarea"
+        ]
+    },
+    "people": {
+        "Carlos Mayer": [
+            "Descreveu cerca de cinquenta especies de fósseis na obra de Hartung sobre a geologia do arquipelago"
+        ]
+    },
+    "years": {}
+}

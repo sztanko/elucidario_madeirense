@@ -1,0 +1,63 @@
+{
+    "id": 1501,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Funchal (Comarca do)",
+    "fl": "F",
+    "original_title": "Funchal (Comarca do)",
+    "body": "Somente no ano de 1767, com a nomeação de caracter permanente dos juízes de fora e dos corregedores, é que a administração da justiça neste arquipélago tomou uma feição regular de harmonia com a natureza dos importantes serviços que desempenhava. Perdurou esta situação até o ano de 1838 com a criação de duas comarcas, ambas com sede na cidade do Funchal, que ficaram denominadas comarca ocidental e comarca oriental, compreendendo a primeira as freguesias do concelho do Funchal, Câmara de Lobos, Ponta do Sol, Calheta, Porto do Moniz e S. Vicente, com excepção da paróquia da Sé, e abrangendo a segunda a freguesia da Sé e as paróquias dos concelhos de Santa Cruz, Machico, Sant'Ana e Porto Santo.\n\nO decreto de 12 de Novembro de 1875 alterou profundamente a divisão judicial com a criação das comarcas do Funchal, Ponta do Sol, Santa Cruz e São Vicente. A do Funchal instalou-se no dia 16 de Novembro de 1876 e foi dividida em nove julgados, compreendendo as freguesias dos concelhos do Funchal e de Câmara de Lobos.\n\nO decreto de 22 de Junho de 1927, que extinguiu a comarca de São Vicente, alterou a divisão dos julgados ou juízes de paz da comarca do Funchal, que então ficaram compostos pelas freguesias do Arco de São Jorge, Câmara de Lobos, Campanário, Curral das Freiras, Estreito de Câmara de Lobos, Faial, Santa Luzia, Santa Maria Maior, São Pedro, São Roque, Monte, Porto Santo, Quinta Grande, Sant'Ana, Santo Antonio, São Jorge, São Martinho e São Gonçalo, constituindo um julgado cada uma destas freguesias.\n\nO extraordinário movimento desta comarca determinou a criação de mais um juízo, passando a haver o Juizo Cível e Comercial e o Juizo criminal, com um juiz á frente de cada um dos dois tribunais, o que tudo foi regulado pelo Decreto de 22 de Junho de 1927 e prestando-se deste modo um assinalado serviço ao regular e profícuo exercício da justiça. O Decreto de 29 de Junho de 1933 remodelou as disposições do decreto anterior, estabelecendo duas varas de competência mixta com a denominação de Juizo de Direito da Primeira Vara da Comarca do Funchal e de juizo de Direito da Segunda Vara. Por esse decreto foi criada a Secretaria Judicial, sendo cada Vara constituída por três secções e cada secção por um chefe e um oficial, e havendo ainda uma secção central comum ás duas varas com dois chefes, que tem a denominação de chefes de secretaria, sendo um adjunto.\n\nA relação completa dos magistrados que têm exercido as funções de juízes de direito nas comarcas do Funchal desde o ano de 1835 até á época actual será publicada nos artigos subordinados aos títulos de Juizes.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Câmara de Lobos",
+        "Ponta do Sol",
+        "Calheta",
+        "Porto do Moniz",
+        "S. Vicente",
+        "Sé",
+        "Santa Cruz",
+        "Machico",
+        "Sant'Ana",
+        "Porto Santo",
+        "Arco de São Jorge",
+        "Campanário",
+        "Curral das Freiras",
+        "Estreito de Câmara de Lobos",
+        "Faial",
+        "Santa Luzia",
+        "Santa Maria Maior",
+        "São Pedro",
+        "São Roque",
+        "Monte",
+        "Quinta Grande",
+        "Sant'Ana",
+        "Santo Antonio",
+        "São Jorge",
+        "São Martinho",
+        "São Gonçalo"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1767": [
+            "Nomeação de caracter permanente dos juízes de fora e dos corregedores"
+        ],
+        "1838": [
+            "Criação de duas comarcas"
+        ],
+        "1875": [
+            "Criação das comarcas do Funchal, Ponta do Sol, Santa Cruz e São Vicente"
+        ],
+        "1876": [
+            "Instalação da comarca do Funchal"
+        ],
+        "1927": [
+            "Extinção da comarca de São Vicente e alteração da divisão dos julgados"
+        ],
+        "1933": [
+            "Remodelação das disposições do decreto anterior"
+        ]
+    }
+}

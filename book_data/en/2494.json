@@ -1,0 +1,56 @@
+{
+    "id": 2494,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Graça (Chapels of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Graça (Capelas de)",
+    "body": "The chapel of N. S. da Graça was one of the oldest in Porto Santo. In the early 19th century, under the auspices of Manuel Inácio de Avelar Brotero, governor of that island, its reconstruction was undertaken due to its dilapidated state, but it was never completed. It was not of modest dimensions and it is affirmed that it was a tiny reproduction of a famous sanctuary in Italy. It had the singularity of being octagonal on the inside. The walls still remain, partly dismantled by the action of time and the vandalism of men.\n\nIn the town of Machico, there is a chapel dedicated to Nossa Senhora da Graça, of which we only know that it is quite old and was rebuilt by the respective brotherhood in the year 1750.\n\nWith the same invocation, there was a chapel in the parish of Santa Cruz, erected in 1520 by Pedro Alvares de Almada.\n\nIn the parish of Sé 'located near Ribeirinho of this city', the prebendary Domingos de Andrade e Alvarenga built a chapel with the invocation of Nossa Senhora da Graça in the year 1699.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz",
+        "Sé"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Locality where the ancient chapel of Nossa Senhora da Graça was located."
+        ],
+        "Machico": [
+            "Locality where a chapel dedicated to Nossa Senhora da Graça is located."
+        ],
+        "Santa Cruz": [
+            "Locality where a chapel dedicated to Nossa Senhora da Graça existed."
+        ],
+        "Sé": [
+            "Locality where a chapel with the invocation of Nossa Senhora da Graça was built."
+        ]
+    },
+    "people": {
+        "Manuel Inácio de Avelar Brotero": [
+            "Governor of the island of Porto Santo who undertook the reconstruction of the chapel of Nossa Senhora da Graça."
+        ],
+        "Pedro Alvares de Almada": [
+            "Erected the chapel of Nossa Senhora da Graça in the parish of Santa Cruz."
+        ],
+        "Domingos de Andrade e Alvarenga": [
+            "Built the chapel with the invocation of Nossa Senhora da Graça in the parish of Sé."
+        ]
+    },
+    "years": {
+        "Século passado": [
+            "Period in which the reconstruction of the chapel of Nossa Senhora da Graça in Porto Santo was undertaken."
+        ],
+        "1750": [
+            "Year of the reconstruction of the chapel dedicated to Nossa Senhora da Graça in Machico."
+        ],
+        "1520": [
+            "Year of the erection of the chapel of Nossa Senhora da Graça in the parish of Santa Cruz."
+        ],
+        "1699": [
+            "Year of the construction of the chapel with the invocation of Nossa Senhora da Graça in the parish of Sé."
+        ]
+    }
+}

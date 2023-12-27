@@ -1,0 +1,30 @@
+{
+    "id": 1521,
+    "lang": "de",
+    "is_original": false,
+    "title": "Furtado",
+    "fl": "F",
+    "original_title": "Furtado",
+    "body": "Der Nachname Furtado stammt von Rodrigo Enes Furtado ab, der einer der ältesten Siedler von Ponta do Sol war und dort eine Kapelle in der jeweiligen Pfarrkirche errichtete, in der er begraben liegt. Er starb 1486.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Siedlungsort"
+        ]
+    },
+    "people": {
+        "Rodrigo Enes Furtado": [
+            "Einer der ältesten Siedler von Ponta do Sol"
+        ]
+    },
+    "years": {
+        "1486": [
+            "Tod von Rodrigo Enes Furtado"
+        ]
+    }
+}

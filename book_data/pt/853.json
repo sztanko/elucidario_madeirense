@@ -1,0 +1,39 @@
+{
+    "id": 853,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cemiterios",
+    "fl": "C",
+    "original_title": "Cemiterios",
+    "body": "O mais antigo cemiterio do Funchal, destinado ao enterramento dos cadaveres dos individuos catolicos, é o de S. Roque, construído em 1836, tendo começado neste mesmo ano as obras do cemiterio das Angustias, as quais só ficaram concluídas em 1838. 0 cemiterio de Santa Lazia é de 1840 e o de S. Gonçalo de 1841. Antes do estabelecimento dos cemiterios, eram os cadaveres dos catolicos sepultados nas igrejas ou nos adros destas, havendo todavia no sitio das Angustias um pequeno terreno a que chamavam o cemiterio da Santa Casa, destinado a receber os cadaveres dos individuos que faleciam no hospital.\n\nO estabelecimento de cemiterios nalguns concelhos rurais foi demorado, lendo-se num jornal da epoca, que em 1862 não havia ainda nas freguesias de S. Jorge e do Arco de S. Jorge recintos destinados á inumação dos cadaveres. Em 19 de Agôsto e 26 de Outubro de 1850 recomendou o Conselheiro José Silvestre Ribeiro ás Camaras Municipais a construção de cemiterios, visto existir em muitos pontos do distrito “a pratica supersticiosa de enterrar os mortos dentro dos templos”.\n\nO cemiterio do Pôrto Santo foi acabado em 1838, sendo, por conseguinte, um dos mais antigos do arquipelago.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Conselheiro"
+        ]
+    },
+    "years": {
+        "1836": [
+            "Construção do cemiterio de S. Roque"
+        ],
+        "1838": [
+            "Conclusão das obras do cemiterio das Angustias"
+        ],
+        "1840": [
+            "Construção do cemiterio de Santa Lazia"
+        ],
+        "1841": [
+            "Construção do cemiterio de S. Gonçalo"
+        ],
+        "1862": [
+            "Falta de recintos destinados á inumação dos cadaveres nas freguesias de S. Jorge e do Arco de S. Jorge"
+        ],
+        "1850": [
+            "Recomendação de construção de cemiterios por José Silvestre Ribeiro"
+        ]
+    }
+}

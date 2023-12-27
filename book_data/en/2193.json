@@ -1,0 +1,30 @@
+{
+    "id": 2193,
+    "lang": "en",
+    "is_original": false,
+    "title": "March (João Howard)",
+    "fl": "M",
+    "original_title": "March (João Howard)",
+    "body": "In the article 'Ingleses' (page 164), we have already made a slight reference to John Howard March, stating that he was of English nationality, although he was born in the United States of America and was a subject of that country. He was a wealthy merchant in Funchal, having served as the American consul on several occasions. He became renowned among us for the acts of great benevolence he performed, not only by generously assisting the poverty of this land and some of the charitable institutions, but also by contributing liberally to the realization of various public improvements, the support of schools, etc. Despite professing the Protestant religion, he rebuilt the church of Santo da Serra and the vast churchyard that surrounds it. In 1828, he lent the necessary money for the payment of the Miguelist troops who had taken possession of Funchal, while also sheltering many constitutionalists in his home to protect them from the persecutions of the absolutists. During the famine crisis that devastated this island in the years 1846 and 1847, he provided relevant services and greatly contributed to the success of the subscriptions opened in this archipelago and abroad in favor of the poor of Madeira. Because he was a republican, the Portuguese government at that time could not bestow upon him any of the degrees of the existing military orders, and so a special gold medal was minted to reward the relevant services provided by that North American subject.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "John Howard March": [
+            "Wealthy merchant in Funchal, American consul, performed acts of great benevolence, rebuilt the church of Santo da Serra, lent money for the payment of the Miguelist troops, provided relevant services during the famine crisis"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Lent the necessary money for the payment of the Miguelist troops, sheltered many constitutionalists in his home to protect them from the persecutions of the absolutists"
+        ],
+        "1846": [
+            "Famine crisis"
+        ],
+        "1847": [
+            "Famine crisis"
+        ]
+    }
+}

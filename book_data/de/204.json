@@ -1,0 +1,31 @@
+{
+    "id": 204,
+    "lang": "de",
+    "is_original": false,
+    "title": "Amparo",
+    "fl": "A",
+    "original_title": "Amparo",
+    "body": "An diesem Ort in der Gemeinde São Martinho befindet sich die Kapelle Nossa Senhora do Amparo, die zum ehemaligen Majorat der Familie Sauvaire gehörte und 1712 von D. Luísa de Mendonça gegründet wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Gemeinde auf Madeira"
+        ]
+    },
+    "people": {
+        "D. Luísa de Mendonça": [
+            "Gründerin der Kapelle"
+        ]
+    },
+    "years": {
+        "1712": [
+            "Gründung der Kapelle Nossa Senhora do Amparo"
+        ]
+    }
+}

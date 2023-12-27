@@ -1,0 +1,33 @@
+{
+    "id": 2569,
+    "lang": "en",
+    "is_original": false,
+    "title": "Oliveira (Ponta da)",
+    "fl": "O",
+    "original_title": "Oliveira (Ponta da)",
+    "body": "On the coastline of the parish of Caniço, there is a protrusion or point called Oliveira. When the discoverers João Gonçalves Zarco and Tristão Vaz delimited their captaincies, the territorial division was made by means of an approximately straight line, which, starting from the point of Oliveira, extended to the point of Tristão, with these points being considered the extremes of their grants. At the southeast end, an olive stake was planted as a boundary marker, which is said to have been brought from the mainland specifically for this purpose by Infante D. Henrique. This fact is the reason why that land protrusion is called Ponta da Oliveira.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Discoverer"
+        ],
+        "Tristão Vaz": [
+            "Discoverer"
+        ],
+        "D. Henrique": [
+            "Infante"
+        ]
+    },
+    "years": {}
+}

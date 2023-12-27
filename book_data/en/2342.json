@@ -1,0 +1,34 @@
+{
+    "id": 2342,
+    "lang": "en",
+    "is_original": false,
+    "title": "Monte Medonho",
+    "fl": "M",
+    "original_title": "Monte Medonho",
+    "body": "Site in the mountain range of the parish of São Vicente where the Monte Medonho levada originates, which irrigates the parishes of Ribeira Brava and Tábua since 1908, having previously fertilized the lands of the parish of São Vicente.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ribeira Brava",
+        "Tábua"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Parish"
+        ],
+        "Ribeira Brava": [
+            "Parish"
+        ],
+        "Tábua": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1908": [
+            "Year of the start of irrigation"
+        ]
+    }
+}

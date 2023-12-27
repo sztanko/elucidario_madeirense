@@ -1,0 +1,31 @@
+{
+    "id": 1468,
+    "lang": "en",
+    "is_original": false,
+    "title": "França e Vasconcelos (José Julio de)",
+    "fl": "F",
+    "original_title": "França e Vasconcelos (José Julio de)",
+    "body": "He was born in Boaventura in 1776, graduated in law from the University of Coimbra, and practiced as a lawyer in Funchal, where he died on April 22, 1859. He left behind a manuscript titled 'Nobiliario Madeirense.'",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Boaventura": [
+            "Place of birth"
+        ],
+        "Funchal": [
+            "Place of death"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1776": [
+            "Birth"
+        ],
+        "1859": [
+            "Death"
+        ]
+    }
+}

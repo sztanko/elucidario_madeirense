@@ -1,0 +1,31 @@
+{
+    "id": 2465,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Alegria (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Alegria (Capela de)",
+    "body": "In the parish of São Roque, in the place known by the name of Alegria, is the estate of the same name, with a house and a chapel dedicated to Our Lady of Alegria, belonging to the family of the counts of Torre Bela. This chapel was founded in 1609 by Francisco de Abreu. An annual festival is celebrated there, which is very popular among the people of the surrounding areas.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque"
+    ],
+    "locations": {
+        "São Roque": [
+            "Location of the chapel of Nossa Senhora da Alegria"
+        ]
+    },
+    "people": {
+        "Francisco de Abreu": [
+            "Founder of the chapel in 1609"
+        ]
+    },
+    "years": {
+        "1609": [
+            "Foundation of the chapel"
+        ]
+    }
+}

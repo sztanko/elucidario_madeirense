@@ -1,0 +1,38 @@
+{
+    "id": 1621,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gorjão (Francisco Pedro de Meneses)",
+    "fl": "G",
+    "original_title": "Gorjão (Francisco Pedro de Meneses)",
+    "body": "A sua nomeação para governador e capitão-general da Madeira foi de 18 de Maio de 1737 e tomou posse a 16 de Julho do mesmo ano. Exerceu este lugar até o dia 27 de Maio de 1747, em que saiu desta ilha directamente para o Maranhão, a governar aquela província, tocando no Funchal a frota que para ali se dirigia e que conduzia o novo bispo da mesma diocese, D. Fr. Francisco de São Tiago.\n\nNo cargo de governador da Madeira, sucedeu-lhe o bispo diocesano D. João do Nascimento, que foi nomeado a 5 de Maio de 1747 e exerceu o lugar até o ano de 1751. Vimos algures que Francisco Pedro de Meneses Gorjão «falleceu na idade de 83 anos, cheio de serviços pela pátria, como consta da lápide da sua sepultura existente na capella da quinta de S. Lourenço.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Tocou a frota que conduzia o novo bispo da mesma diocese"
+        ]
+    },
+    "people": {
+        "D. Fr. Francisco de São Tiago": [
+            "Bispo da mesma diocese"
+        ],
+        "D. João do Nascimento": [
+            "Bispo diocesano"
+        ]
+    },
+    "years": {
+        "1737": [
+            "Nomeação para governador e capitão-general da Madeira"
+        ],
+        "1747": [
+            "Sucedido por D. João do Nascimento"
+        ],
+        "1751": [
+            "D. João do Nascimento exerceu o lugar até este ano"
+        ]
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "id": 1225,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Enjeitados",
+    "fl": "E",
+    "original_title": "Enjeitados",
+    "body": "Em 1583 ficou a administração dos enjeitados a cargo do Bispo, mas uma provisão regia, de 1685, passou esta administração para o Governador Geral. Desde 1693 que a superintendencia dos expostos está a cargo da Câmara, tendo porém durante largos anos o pagamento ás amas sido feito por um tesoureiro eleito anualmente pela casa dos Vinte e Quatro, o qual para esse fim e para o sustento dos lazaros, cobrava a têrça parte da renda da imposição do vinho. Em 7 de Maio de 1761 resolveu a Câmara do Funchal dirigir uma consulta ao Governo sobre se devia continuar a permitir que o aludido tesoureiro arrecadasse o terço da imposição, visto competir ao tesoureiro do Concelho a cobrança das rendas municipais. Um alvará régio, de 1752, concedeu ás amas de expostos deste arquipelago os mesmos privilégios que usufruíam as de Lisboa. Vê-se de antigos documentos que em 1811 a Câmara do Funchal lutava com falta de recursos para sustentar os expostos, e ainda no terceiro quartel do século XIX as amas não recebiam em dia os seus salários, o que levou muitas delas a venderem as suas contas por baixo preço a certos especuladores, que ganharam nesta transacção somas importantes. A antiga roda dos expostos ou enjeitados estava no edifício da Santa Casa da Misericórdia, sendo aí que muitas mãis abandonavam os filhos, quando por falta de meios ou outra qualquer causa os não podiam criar.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1583": [
+            "Administração dos enjeitados a cargo do Bispo"
+        ],
+        "1685": [
+            "Provisão regia passou administração para o Governador Geral"
+        ],
+        "1693": [
+            "Superintendencia dos expostos a cargo da Câmara"
+        ],
+        "1761": [
+            "Consulta da Câmara do Funchal ao Governo"
+        ],
+        "1752": [
+            "Alvará régio concedeu ás amas de expostos deste arquipelago os mesmos privilégios que usufruíam as de Lisboa"
+        ],
+        "1811": [
+            "Falta de recursos para sustentar os expostos"
+        ],
+        "XIX": [
+            "Amas não recebiam em dia os seus salários"
+        ]
+    }
+}

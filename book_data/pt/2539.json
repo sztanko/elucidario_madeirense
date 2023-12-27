@@ -1,0 +1,26 @@
+{
+    "id": 2539,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nova Aldeia ou Aldeia da Rainha",
+    "fl": "N",
+    "original_title": "Nova Aldeia ou Aldeia da Rainha",
+    "body": "Povoação fundada por alvará régio de 18 de Dezembro de 1768 na freguesia do Santo da Serra e constituída por vários casais da ilha do Porto Santo, que para ali se transferiram e aos quais o governo da metrópole concedeu diversas regalias, não tendo porém uma larga existência esta nova povoação.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Freguesia"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1768": [
+            "Fundação da povoação"
+        ]
+    }
+}

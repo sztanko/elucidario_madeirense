@@ -1,0 +1,30 @@
+{
+    "id": 3662,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Voluntários Realistas",
+    "fl": "V",
+    "original_title": "Voluntários Realistas",
+    "body": "O corpo de Voluntários Realistas Urbanos da Madeira foi instituído em 1828 pelo capitão-general José Maria Monteiro, mas segundo se vê dum ofício dirigido por D. Álvaro da Costa de Macedo ao conde de Basto em 9 de Setembro de 1831, esse corpo, que devia ter 4 companhias, só chegou a ter uma, para a qual o mesmo D. Álvaro reclamou os privilégios e regalias concedidos aos Voluntários do Reino pelo decreto de 26 de Setembro de 1828. Segundo o plano do capitão-general Monteiro, o corpo devia ter um major-comandante, havendo em cada companhia 1 tenente, 1 alferes, 10 sargentos, 1 furriel, 2 cabos, 2 anspeçadas e 52 soldados.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Maria Monteiro": [
+            "Capitão-general"
+        ],
+        "D. Álvaro da Costa de Macedo": [
+            "Autor do ofício"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Instituição do corpo"
+        ],
+        "1831": [
+            "Ofício de D. Álvaro da Costa de Macedo"
+        ]
+    }
+}

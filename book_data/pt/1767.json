@@ -1,0 +1,65 @@
+{
+    "id": 1767,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ilhéus",
+    "fl": "I",
+    "original_title": "Ilhéus",
+    "body": "Os principais ilhéus adjacentes ao litoral da Madeira são, na costa meridional: Agostinho,\nDesembarcadouros e de Fora (Ponta de S. Lourenço), Santa Catarina (Santa Cruz), Ilhéu (baía do Funchal),\nGorgulho e Praia (São Martinho), Campanário ou Lapa (Campanário), Guincho, (Ponta do Pargo); e na\ncosta setentrional os do Porto do Moniz chamados Mole e Negro (Porto do Moniz), os da Ribeira da Janela\n(Ribeira da Janela), os do Seixal, conhecidos pelos nomes de Ceroulas e Guincho, (Seixal), os da Boaventura\nou Preto e Vermelho (Boaventura). São Jorge (São Jorge), Rocha do Navio (Sant'ana), os do Faial, sendo o\nprincipal o do Faial (Faial), e Porto da Cruz (Porto da Cruz). Vid. estes nomes.\n\nOs principais ilhéus, que, a não grande distancia da costa, rodeiam a ilha do Porto Santo são estes: o das\nCenouras, o de Baixo ou da Cal, o de Cima ou dos Dragoeiros e hoje chamado também do Farol, o de Fora\nou Rocha do Nordeste, o da Fonte ou Fonte da Areia e o de Ferro (V. cada um destes nomes).\n\nNo grupo das Desertas encontra-se o ilhéu do Furilhão ou Prego do Mar (V. estes nomes), também\nconhecido pelo nome de ilhéu do Navio.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta de S. Lourenço": [
+            "Desembarcadouros e de Fora"
+        ],
+        "Santa Cruz": [
+            "Santa Catarina"
+        ],
+        "Funchal": [
+            "Ilhéu"
+        ],
+        "São Martinho": [
+            "Gorgulho e Praia"
+        ],
+        "Campanário": [
+            "Campanário ou Lapa"
+        ],
+        "Ponta do Pargo": [
+            "Guincho"
+        ],
+        "Porto do Moniz": [
+            "Mole e Negro"
+        ],
+        "Ribeira da Janela": [
+            "Ribeira da Janela"
+        ],
+        "Seixal": [
+            "Ceroulas e Guincho"
+        ],
+        "Boaventura": [
+            "Preto e Vermelho"
+        ],
+        "São Jorge": [
+            "São Jorge"
+        ],
+        "Sant'ana": [
+            "Rocha do Navio"
+        ],
+        "Faial": [
+            "Principal ilhéu do Faial"
+        ],
+        "Porto da Cruz": [
+            "Porto da Cruz"
+        ],
+        "Porto Santo": [
+            "Cenouras, Baixo ou da Cal, Cima ou dos Dragoeiros, Farol, Fora ou Rocha do Nordeste, Fonte ou Fonte da Areia, Ferro"
+        ],
+        "Desertas": [
+            "Ilhéu do Furilhão ou Prego do Mar, ilhéu do Navio"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

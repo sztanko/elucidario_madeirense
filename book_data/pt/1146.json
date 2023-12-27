@@ -1,0 +1,29 @@
+{
+    "id": 1146,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Diário Popular",
+    "fl": "D",
+    "original_title": "Diário Popular",
+    "body": "Iniciou a sua publicação a 18 de Dezembro de 1882 e suspendeu a 25 de Novembro de 1888, tendo saído 282 números.\n\nSaiu outro jornal com o mesmo nome a 1 de Julho de 1897, cuja publicação suspendeu a 24 de Dezembro de 1911, tendo dado 137 numeros.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1882": [
+            "Início da publicação do Diário Popular"
+        ],
+        "1888": [
+            "Suspensão da publicação do Diário Popular"
+        ],
+        "1897": [
+            "Início da publicação de outro jornal com o mesmo nome"
+        ],
+        "1911": [
+            "Suspensão da publicação do outro jornal com o mesmo nome"
+        ]
+    }
+}

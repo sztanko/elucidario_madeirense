@@ -1,0 +1,52 @@
+{
+    "id": 3110,
+    "lang": "en",
+    "is_original": false,
+    "title": "Rodrigues (Adolfo de Sousa)",
+    "fl": "R",
+    "original_title": "Rodrigues (Adolfo de Sousa)",
+    "body": "This distinguished painter, whose premature death and the persistent illness of his later years did not allow him to fully manifest the power of his talent, was born in Funchal on January 13, 1867, and died in the city of Lisbon on March 9, 1908.\n\nHe attended the Academy of Fine Arts, where he always obtained high marks, standing out in the study of historical painting, in which he won the first prize with the painting Hero and Leander. He studied this specialty with José Ferreira Chaves, and then went to Paris to perfect his skills with Paul Laurens and Benjamin Constant. In the 2nd year of the course at the Academy, he also won the prize 'Annunciation'. At the exhibition of the Grémio Artístico in Lisbon, he won the third medal in 1895. He participated in several exhibitions, and among others, his paintings Temptation of Christ and Good Samaritan were featured.\n\nHe painted the portrait of King D. Carlos, which was displayed in the session hall of the Funchal City Hall, and that of our illustrious compatriot Agostinho de Ornelas e Vasconcelos, etc., and had the academic palms of the Academy of France and the Order of Isabella the Catholic, from Spain.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Birthplace"
+        ],
+        "Lisbon": [
+            "City of death"
+        ]
+    },
+    "people": {
+        "Adolfo de Sousa Rodrigues": [
+            "Distinguished painter"
+        ],
+        "José Ferreira Chaves": [
+            "Specialized with José Ferreira Chaves"
+        ],
+        "Paul Laurens": [
+            "Perfected his skills with Paul Laurens"
+        ],
+        "Benjamin Constant": [
+            "Perfected his skills with Benjamin Constant"
+        ],
+        "D. Carlos": [
+            "Portrait of King D. Carlos"
+        ],
+        "Agostinho de Ornelas e Vasconcelos": [
+            "Portrait of our illustrious compatriot Agostinho de Ornelas e Vasconcelos"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Birth"
+        ],
+        "1908": [
+            "Death"
+        ],
+        "1895": [
+            "Won the third medal in 1895"
+        ]
+    }
+}

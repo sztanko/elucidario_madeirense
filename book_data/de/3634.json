@@ -1,0 +1,68 @@
+{
+    "id": 3634,
+    "lang": "de",
+    "is_original": false,
+    "title": "Städte",
+    "fl": "S",
+    "original_title": "Vilas",
+    "body": "Die ersten Ortschaften dieses Archipels, die aufgrund ihrer Entwicklung und als Sitz der drei Kapitäne zu Städten erhoben wurden, tragen die Namen\n\n> Funchal\n\n, (II-59),\n\n> Machico\n\n, (II-298) und \n\n> Baleira\n\n (I -117). Trotz seiner Forschungsarbeiten konnte der gelehrte Kommentator der \"Saudades da Terra\" weder die Urkunden dieser Gründung noch die genauen Daten, an denen sie stattfand, finden, aber er vermutet mit größter Wahrscheinlichkeit, dass dies im Jahr 1451 gewesen sei, wie bereits in den Artikeln über diese Städte erwähnt wurde. Funchal, das aufgrund seiner Lage, seines Klimas, der Fruchtbarkeit des Bodens, der Weite des Hafens und anderer wertvoller Umstände rasch eine ungewöhnliche Bevölkerungsentwicklung erreichte, wurde durch das königliche Dekret vom 21. August 1508 zur Stadt erhoben, das auf Seite 61 des zweiten Bandes dieses Werkes abgedruckt ist.\n\nDas Dekret vom 2. Dezember 1501 schuf die Stadt und Gemeinde Ponta do Sol, die sich vom Kirchspiel Tabua bis zu den Achadas da Cruz erstreckte (siehe III-99). Bald wurde sie durch die Erhebung des Kirchspiels Calheta zur\n\nDas Kirchspiel Santa Cruz, das bald mit Machico rivalisierte, wurde durch das königliche Dekret vom 1. Juli 1502 zu einer Gemeinde mit Stadtrechten (siehe I-191).\n\nStadt und Gemeinde durch das königliche Dekret vom 1. Juli 1502 zu recht kleinen Ausmaßen reduziert.\n\nTrotz des Widerstands des Gerichtsbezirks Machico und dessen Hauptmanns wurde das Kirchspiel Santa Cruz durch das königliche Dekret vom 26. Juni 1515 zur Stadt mit Stadtrechten erhoben (siehe III-246).\n\nDie ständigen Beschwerden verschiedener Kirchspiele an der Nordküste Madeiras führten zur Gründung der Stadt São Vicente mit Sitz im gleichnamigen Kirchspiel durch das königliche Schreiben vom 25. August 1744, obwohl die Gemeinde Machico dieser Gründung ernsthafte Schwierigkeiten bereitet hatte (siehe III-282).\n\nDer Gemeindebezirk Ribeira Brava mit Sitz in dieser Kirchengemeinde wurde durch Dekret vom 6. Mai 1914 geschaffen, die entsprechende Stadt durch Dekret vom 26. März 1929. Dies ist die achte und letzte in diesem Archipel gegründete Stadt.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Tabua",
+        "Achadas da Cruz",
+        "Calheta",
+        "São Vicente",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Funchal": [
+            "Lage, Klima, Bodenfruchtbarkeit, Hafenausdehnung"
+        ],
+        "Ponta do Sol": [
+            "Gebiet von der Kirchengemeinde Tabua bis Achadas da Cruz"
+        ],
+        "Santa Cruz": [
+            "Konkurrierte mit Machico"
+        ],
+        "São Vicente": [
+            "Nordküste Madeiras"
+        ],
+        "Ribeira Brava": [
+            "Sitz in dieser Kirchengemeinde"
+        ]
+    },
+    "people": {
+        "Gelehrter Kommentator der \"Saudades da Terra\"": [
+            "Weder die Urkunden dieser Gründung noch die genauen Daten, an denen sie stattfand, finden"
+        ]
+    },
+    "years": {
+        "1451": [
+            "Vermutet mit größter Wahrscheinlichkeit, dass dies im Jahr 1451 gewesen sei"
+        ],
+        "1508": [
+            "Wurde durch das königliche Dekret vom 21. August 1508 zur Stadt erhoben"
+        ],
+        "1501": [
+            "Dekret vom 2. Dezember 1501"
+        ],
+        "1502": [
+            "Durch das königliche Dekret vom 1. Juli 1502"
+        ],
+        "1515": [
+            "Durch das königliche Dekret vom 26. Juni 1515"
+        ],
+        "1744": [
+            "Durch das königliche Schreiben vom 25. August 1744"
+        ],
+        "1914": [
+            "Dekret vom 6. Mai 1914"
+        ],
+        "1929": [
+            "Dekret vom 26. März 1929"
+        ]
+    }
+}

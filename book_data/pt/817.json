@@ -1,0 +1,46 @@
+{
+    "id": 817,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castelo Branco (D. Joana de)",
+    "fl": "C",
+    "original_title": "Castelo Branco (D. Joana de)",
+    "body": "É a mais distinta poetisa madeirense. Nasceu na freguesia do Faial a 23 de Junho de 1856 e é filha de Caetano Velosa de Ornelas Castelo Branco e de D. Maria Rosa de Freitas. Há já muitos anos que reside em Lisboa. Tem colaboração em prosa e verso em varios jornais. Em volume publicou As Minhas Flores, Lisboa, 1905, de 94 paginas, e Fluctuaçôes, Lisboa, 1910, de 88 paginas. Faleceu em Lisboa no ano de 1920.",
+    "categories": [
+        "culture",
+        "history"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Faial": [
+            "Freguesia"
+        ],
+        "Lisboa": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "Caetano Velosa de Ornelas Castelo Branco": [
+            "Pai"
+        ],
+        "D. Maria Rosa de Freitas": [
+            "Mãe"
+        ]
+    },
+    "years": {
+        "1856": [
+            "Nascimento"
+        ],
+        "1905": [
+            "Publicação de As Minhas Flores"
+        ],
+        "1910": [
+            "Publicação de Fluctuaçôes"
+        ],
+        "1920": [
+            "Falecimento"
+        ]
+    }
+}

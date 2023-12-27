@@ -1,0 +1,27 @@
+{
+    "id": 256,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sandflächen",
+    "fl": "S",
+    "original_title": "Areias",
+    "body": "So nennt man den mittleren Teil der Insel Porto Santo, der mit einer dicken Sandschicht bedeckt ist. Dieser Sand stammt von Hügeln im Nordwesten der Insel und um sein Vordringen zu verhindern, wurden Barrieren aus Kiefern, Zuckerrohrschilf und Paradiesbäumen errichtet. Im Gebiet der Sandflächen gibt es große Weinanpflanzungen.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Mit Sand bedeckte Insel"
+        ],
+        "Nordwesten der Insel": [
+            "Ursprung der Sandhügel"
+        ],
+        "Gebiet der Sandflächen": [
+            "Große Weinanpflanzungen"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

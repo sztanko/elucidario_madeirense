@@ -1,0 +1,30 @@
+{
+    "id": 916,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Clube Aliança",
+    "fl": "C",
+    "original_title": "Clube Aliança",
+    "body": "Foi fundado por 1867 e acabou em 1879 ou 1880, tendo estado primeiro numa casa ao principio da rua de João Tavira, e por fim num predio á rua da Alfandega. Não temos conhecimento dos seus estatutos.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde o Clube Aliança foi fundado"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1867": [
+            "Fundação do Clube Aliança"
+        ],
+        "1879": [
+            "Fim do Clube Aliança"
+        ],
+        "1880": [
+            "Fim do Clube Aliança"
+        ]
+    }
+}

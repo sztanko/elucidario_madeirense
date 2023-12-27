@@ -1,0 +1,29 @@
+{
+    "id": 2533,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nossa Senhora da Vitória (Kapelle)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Vitória (Capela de)",
+    "body": "An der Küstenstraße von Funchal nach Câmara de Lobos auf der linken Seite des Baches Ribeira dos Socorridos befindet sich die Kapelle Nossa Senhora da Vitória, die sich am Ende der Gemeinde São Martinho befindet. Der Anmerker der Saudades vermerkt das Jahr 1594 als das ihrer Errichtung und sagt, sie sei von Francisco de Bettencourt auf dem Land des Majorats gegründet worden, das er dort eingerichtet habe. Sie wurde in einem nicht näher bestimmbaren Jahr neu aufgebaut, und vor etwa vierzig Jahren wurde sie erweitert und es wurden bemerkenswerte Reparaturarbeiten durchgeführt.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Funchal": [
+            "Führt nach Câmara de Lobos"
+        ],
+        "Câmara de Lobos": [
+            "Auf der linken Seite des Baches Ribeira dos Socorridos"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1594": [
+            "Bau der Kapelle"
+        ]
+    }
+}

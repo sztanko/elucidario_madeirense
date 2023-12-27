@@ -1,0 +1,41 @@
+{
+    "id": 117,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Álcool",
+    "fl": "Á",
+    "original_title": "Álcool",
+    "body": "O álcool usado desde velha data no tratamento dos vinhos tradicionais da Madeira e que a estes confere o sabor e o “bouquet” especiais que os caracterizaram, provinha principalmente da destilação directa da cana ou dos melaços do fabrico do açúcar. A cana Bourbon dava em cada 34 quilogramas um galão de aguardente em 30 graus Cartier, sendo esta aguardente vendida a l.000 réis o galão, para os vinhos, muitos dos quais eram exportados para o estrangeiro. Também se extraia algum álcool de melaço importado, o qual estava sujeito ao direito de 23 réis por quilograma.\n\nCom o desaparecimento da cana sacarina da Madeira, passou esta ilha a importar álcool dos Açores, continuando porém a mandar vir muito melaço do estrangeiro, para o fim indicado. Em 1900 importava a Madeira ainda cerca de 2.000 ponches de melaço (o ponche comporta 100 a 120 galões), cada um dos quais produzia 40 a 50 galões de álcool em 40 graus (restilo).\n\nO decreto de 24 de Setembro de 1903 reduziu a 6 réis o direito de 30 réis que era exigido pelo decreto de 30 de Setembro de 1895 por cada quilograma de melaço estrangeiro importado para álcool, e o decreto de 11 de Março de 1911 manteve essa redução, nos casos de haver falta de álcool de cana, ou dos resíduos do fabrico do açúcar não chegarem para a extracção do álcool destinado ao tempero dos vinhos. Estabeleceu mais este ultimo decreto que o preso do álcool destinado ao tratamento dos vinhos não poderia ser superior a 2,60 réis por grau centesimal e por litro á temperatura de 15 graus.\n\nSó ás empresas que se dedicam á indústria de açúcar e álcool na Madeira é, permitido, pelo regime em vigor, produzir álcool para vinificação e para os usos farmacêuticos. É produto que se distingue pela sua excepcional pureza.\n\n“O decreto n.° 23.847, de 14 de Maio de 1934, só permite a destilação do alcool directamente do sumo da cana quando não haja ou se preveja que não haverá residuos do fabrico do açúcar para o álcool necessário. O decreto n.° 27.912, de 31 de Julho de 1937, no intuito de promover um justo equilíbrio entre os preços da cana sacarina e os do álcool e aguardente, fixou o preso de 7$50 por cada litro de álcool vendido pela fabrica ao armazém central da Alfândega, que o fornecerá, por seu turno, aos viticultores, aos exportadores de vinho e ás farmácias, com o aumento de $50 por litro.\n\nAs quantidades de álcool produzidas pelas fabricas matriculadas nos anos de 1912 a 1917, constam do mapa seguinte:\n\n| Ano  | Quantidade, Litros |\n|------|------------------|\n| 1912 | 729.543 |\n| 1913 | 769.064 |\n| 1914 | 737.725 |\n| 1915 | 552.901 |\n| 1916 | 813.235 |\n| 1917 | 497.505 |\n\nO decreto de 11 de Março de 1911 e o Regulamento de Produção e do Comercio de Vinhos da Madeira, aprovado Por decreto de 8 de Novembro de 1913, fixaram em 55 litros a quantidade de álcool a usar em cada 500 litros de vinho, mas convém notar que o vinho não destinado á exportação sofre muitas vezes uma alcoolização incompleta, havendo casos em que não se lhe adiciona álcool algum. O regulamento de 11 de Março de 1909 tinha limitado a 50 litros por cada 500 de vinho, a venda de qualquer álcool para vinificação.",
+    "categories": [
+        "economy",
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha a importar álcool dos Açores e a mandar vir melaço do estrangeiro para a produção de álcool"
+        ],
+        "Açores": [
+            "Local de onde a Madeira passou a importar álcool"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Importava cerca de 2.000 ponches de melaço"
+        ],
+        "1903": [
+            "Decreto reduziu o direito por quilograma de melaço estrangeiro importado para álcool"
+        ],
+        "1911": [
+            "Decreto manteve a redução do direito por quilograma de melaço estrangeiro e estabeleceu o preço máximo do álcool para vinificação"
+        ],
+        "1934": [
+            "Decreto permitiu a destilação do álcool diretamente do sumo da cana em certas condições"
+        ],
+        "1937": [
+            "Decreto fixou o preço por litro de álcool vendido pela fábrica ao armazém central da Alfândega"
+        ]
+    }
+}

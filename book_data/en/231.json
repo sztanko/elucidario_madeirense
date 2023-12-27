@@ -1,0 +1,30 @@
+{
+    "id": 231,
+    "lang": "en",
+    "is_original": false,
+    "title": "Presentation",
+    "fl": "P",
+    "original_title": "Apresentação",
+    "body": "At the location of Lombo da Apresentação in the parish of Ribeira Brava, there was a chapel dedicated to Nossa Senhora da Apresentação, founded in 1524 by João Mendes de Brito. It was later incorporated into the Heredias' entailed estate, the last representative of which was the Viscount of Ribeira Brava.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Lombo da Apresentação": [
+            "Location in the parish of Ribeira Brava"
+        ]
+    },
+    "people": {
+        "João Mendes de Brito": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Foundation of the chapel of Nossa Senhora da Apresentação by João Mendes de Brito"
+        ]
+    }
+}

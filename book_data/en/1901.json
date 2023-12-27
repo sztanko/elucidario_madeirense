@@ -1,0 +1,35 @@
+{
+    "id": 1901,
+    "lang": "en",
+    "is_original": false,
+    "title": "Kny (Dr. Leopoldo)",
+    "fl": "K",
+    "original_title": "Kny (",
+    "body": "Dr. Leopoldo Kny was a German botanist who collected plants in Madeira during the year 1860. The mosses he collected and considered new to science were described by the bryologist A. Juratzka (see this name). Ref.: Ueber die Flora Oceanischer Inseln (Zeitschr der Gesellsch. fur Erdkunde, 1867).",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island where the German botanist collected plants."
+        ]
+    },
+    "people": {
+        "Dr. Leopoldo Kny": [
+            "German botanist responsible for collecting plants in Madeira."
+        ],
+        "A. Juratzka": [
+            "Bryologist responsible for describing the mosses collected by Kny."
+        ]
+    },
+    "years": {
+        "1860": [
+            "Year in which the German botanist collected plants in Madeira."
+        ],
+        "1867": [
+            "Publication of the work Ueber die Flora Oceanischer Inseln."
+        ]
+    }
+}

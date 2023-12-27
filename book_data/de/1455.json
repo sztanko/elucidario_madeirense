@@ -1,0 +1,29 @@
+{
+    "id": 1455,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fort S. Francisco",
+    "fl": "F",
+    "original_title": "Forte de S. Francisco",
+    "body": "Es wurde 1749 auf Anordnung des Gouverneurs Bischof D. Fr. João do Nascimento in der Stadt Santa Cruz erbaut, wobei das Geld aus den Geldstrafen verwendet wurde, die die Milizsoldaten für das Versäumnis des Wachdienstes zahlen mussten.",
+    "categories": [
+        "architecture",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Cruz": [
+            "Stadt"
+        ]
+    },
+    "people": {
+        "D. Fr. João do Nascimento": [
+            "Gouverneur Bischof"
+        ]
+    },
+    "years": {
+        "1749": [
+            "Bau des Forts"
+        ]
+    }
+}

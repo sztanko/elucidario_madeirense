@@ -1,0 +1,25 @@
+{
+    "id": 1789,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Infante (Pico do)",
+    "fl": "I",
+    "original_title": "Infante (Pico do)",
+    "body": "Elevação montanhosa, na freguesia de Santa Maria Maior, ao norte do sítio da Choupana.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Freguesia"
+        ],
+        "Choupana": [
+            "Sítio"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

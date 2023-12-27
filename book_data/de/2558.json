@@ -1,0 +1,43 @@
+{
+    "id": 2558,
+    "lang": "de",
+    "is_original": false,
+    "title": "Oldenburg (Prinz von)",
+    "fl": "O",
+    "original_title": "Oldenburgo (Principe de)",
+    "body": "Prinz Nikolai Friedrich August von Oldenburg, Generalleutnant der russischen Armee, hielt sich etwa zwei Jahre lang (1884-1885) auf Madeira auf und wurde bei uns sehr bekannt durch das pompöse und prunkvolle Leben, das er führte, durch die blendenden Feste, die in seiner Residenz stattfanden, und durch die Wohltätigkeitsakte, die er häufig vollbrachte.\n\nEr war es, der in Paris die französische Übersetzung des Romans von Herculano veröffentlichte \n<i>– Eurico, der Presbyter</i> – die von der Vizcondessa das \nNogueiras angefertigt worden war.\n\nPrinz von Oldenburg wohnte in der Villa „Vigia“ und hatte zwei Kosaken in seinem Dienst, ausgezeichnete Reiter, die immer wenn sie ausritten, von den Einwohnern Funchals neugierig beäugt wurden.\nEr starb im Januar 1886 in Genf.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem sich Prinz Nikolai Friedrich August von Oldenburg zwei Jahre lang aufhielt"
+        ],
+        "Paris": [
+            "Ort, an dem die französische Übersetzung des Romans von Herculano veröffentlicht wurde"
+        ],
+        "Villa „Vigia“": [
+            "Wohnsitz von Prinz von Oldenburg"
+        ],
+        "Funchal": [
+            "Ort, an dem die Kosaken im Dienste des Prinzen von Oldenburg neugierig beäugt wurden"
+        ],
+        "Genf": [
+            "Sterbeort von Prinz von Oldenburg"
+        ]
+    },
+    "people": {
+        "Nikolai Friedrich August von Oldenburg": [
+            "Generalleutnant der russischen Armee"
+        ]
+    },
+    "years": {
+        "1884-1885": [
+            "Zeitraum, in dem sich Prinz von Oldenburg auf Madeira aufhielt"
+        ],
+        "Januar 1886": [
+            "Sterbedatum von Prinz von Oldenburg"
+        ]
+    }
+}

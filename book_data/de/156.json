@@ -1,0 +1,35 @@
+{
+    "id": 156,
+    "lang": "de",
+    "is_original": false,
+    "title": "Seelenkapellen",
+    "fl": "S",
+    "original_title": "Almas (Capelas das)",
+    "body": "In der Gemeinde Ribeira Brava errichtete der Bottcher Antonio Rodrigues Jardim im Jahr 1652 an einem heute unbekannten Ort eine kleine Einsiedelei, die den Seelen des Fegefeuers gewidmet war.\n\nAn der Stelle Vargem in der Gemeinde Estreito de Câmara de Lobos befindet sich eine Kapelle mit derselben Widmung, deren Gründer und Baujahr unbekannt sind.\n\nIn der Gemeinde Calheta gibt es eine Seelenkapelle, zu der keine weiteren Einzelheiten bekannt sind.\n\nUm 1710 errichtete das Volk eine kleine Seelenkapelle auf dem Vorplatz der Pfarrkirche der Gemeinde Estreito de Câmara de Lobos, die abgerissen wurde.\n\nAuch an die Pfarrkirche der Gemeinde Ponta do Sol wurde eine Kapelle mit derselben Widmung angebaut, die 1925 auf Anordnung des Stadtrats zur Straßenverbreiterung abgerissen wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Estreito de Câmara de Lobos",
+        "Calheta",
+        "Ponta do Sol"
+    ],
+    "locations": {},
+    "people": {
+        "Antonio Rodrigues Jardim": [
+            "Gründer der Einsiedelei, die den Seelen des Fegefeuers gewidmet war"
+        ]
+    },
+    "years": {
+        "1652": [
+            "Gründung der Einsiedelei, die den Seelen des Fegefeuers gewidmet war, durch Antonio Rodrigues Jardim"
+        ],
+        "1710": [
+            "Bau einer kleinen Seelenkapelle auf dem Vorplatz der Pfarrkirche der Gemeinde Estreito de Câmara de Lobos"
+        ],
+        "1925": [
+            "Abriss der ebenfalls dem Fegefeuer gewidmeten Kapelle neben der Pfarrkirche der Gemeinde Ponta do Sol"
+        ]
+    }
+}

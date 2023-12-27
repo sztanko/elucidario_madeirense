@@ -1,0 +1,40 @@
+{
+    "id": 3460,
+    "lang": "de",
+    "is_original": false,
+    "title": "Drahtlose Telegrafie",
+    "fl": "D",
+    "original_title": "Telegrafia sem fios",
+    "body": "Im Gebäude der Telegrafenstation von Funchal gibt es eine drahtlose Telegrafenstation, die am 2. Juni 1922 eingeweiht wurde. Die Montage der Geräte dauerte etwa 15 Tage. Der erste Test fand am 1. Juni statt, wobei die Kommunikation mit einem englischen Schiff in einer Entfernung von 150 Meilen und mit einem portugiesischen Schiff in einer Entfernung von 400 Meilen hergestellt wurde. Es gab auch eine Verbindung mit der Station von Las Palmas auf den Kanarischen Inseln.\n\nWährend des Ersten Weltkriegs betrieb die britische Regierung auf dem Anwesen Quinta Santana eine drahtlose Telegrafenstation. Die Nachrichten, die sie aus dem Ausland erhielt, wurden über die Zeitungen täglich an die Öffentlichkeit von Funchal weitergegeben. Die Station von Quinta Santana stellte ihren Betrieb am 2. April 1919 ein.\n \nDurch einen Beschluss des Finanzministeriums wurde am 12. Dezember 1921 die Einrichtung einer Funktelegrafenstation in Quinta Santana genehmigt, aber diese Einrichtung wurde nie verwirklicht.\n\nIm Jahr 1912 wurde mit der Marconi Company der Aufbau mehrerer drahtloser Telegrafenstationen im Land vereinbart, von denen eine auf Madeira sein sollte. Es wurde jedoch nichts getan, da unsere Regierung ihren Verpflichtungen nicht nachgekommen war. 1922 wurde der Regierung vom Kongress der Republik die Ermächtigung erteilt, mit der Gesellschaft einen Vertrag über den Aufbau eines Funktelegrafennetzes abzuschließen. Sie sollte auf eigene Kosten, ohne jegliche Belastung für den Staat, Funktelegrafenstationen in Lissabon, den Azoren, Madeira, Kap Verde, Angola und Mosambik einrichten und betreiben.",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Existenz einer 1922 eingeweihten drahtlosen Telegrafenstation und Kommunikation mit Schiffen und der Station Las Palmas"
+        ],
+        "Quinta Santana": [
+            "Betrieb einer drahtlosen Telegrafenstation während des Ersten Weltkriegs und Genehmigung für die Einrichtung einer Funktelegrafenstation, die nie verwirklicht wurde"
+        ],
+        "Las Palmas": [
+            "Kommunikation mit der drahtlosen Telegrafenstation von Funchal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1922": [
+            "Einweihung der drahtlosen Telegrafenstation und Kommunikation mit Schiffen und Las Palmas"
+        ],
+        "1919": [
+            "Einstellung des Betriebs der drahtlosen Telegrafenstation in Quinta Santana"
+        ],
+        "1921": [
+            "Genehmigung für die Einrichtung einer Funktelegrafenstation in Quinta Santana und Vertrag mit der Marconi Company für den Aufbau drahtloser Telegrafenstationen"
+        ],
+        "1912": [
+            "Vertrag mit der Marconi Company für den Aufbau drahtloser Telegrafenstationen"
+        ]
+    }
+}

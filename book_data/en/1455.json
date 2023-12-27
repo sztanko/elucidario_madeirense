@@ -1,0 +1,29 @@
+{
+    "id": 1455,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte de S. Francisco",
+    "fl": "F",
+    "original_title": "Forte de S. Francisco",
+    "body": "It was ordered to be built in the town of Santa Cruz, by the bishop governor D. Fr. João do Nascimento in 1749, using the money from the fines paid by the militias for lack of watch service.",
+    "categories": [
+        "architecture",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Cruz": [
+            "Town"
+        ]
+    },
+    "people": {
+        "D. Fr. João do Nascimento": [
+            "Bishop governor"
+        ]
+    },
+    "years": {
+        "1749": [
+            "Construction of the fort"
+        ]
+    }
+}

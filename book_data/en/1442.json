@@ -1,0 +1,35 @@
+{
+    "id": 1442,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte de Santo António da Alfândega",
+    "fl": "F",
+    "original_title": "Forte de Santo António da Alfândega",
+    "body": "The order to make a salient in the circumvallation walls and in the courtyard of the Alfândega Grande dates back to 1644, with the aim of firing on the beach with crossfire, and the Alfândega gate was opened for greater convenience in the 'loading and unloading of goods'.\n\nThis fort had 11 gunports, a location later transformed into warehouses, with the following inscription: 'Manuel de Sousa Mascarenhas, being governor and captain general of this Island of Madeira, ordered the construction of this redoubt and its gates by order of His Majesty in the year 1645, with Manuel Vieira Cardoso as the provider'.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Alfândega Grande": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "Manuel de Sousa Mascarenhas": [
+            "Governor and captain general of the Island of Madeira"
+        ],
+        "Manuel Vieira Cardoso": [
+            "Provider"
+        ]
+    },
+    "years": {
+        "1644": [
+            "Order to make a salient in the walls"
+        ],
+        "1645": [
+            "Construction of the redoubt and its gates"
+        ]
+    }
+}

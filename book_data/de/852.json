@@ -1,0 +1,24 @@
+{
+    "id": 852,
+    "lang": "de",
+    "is_original": false,
+    "title": "Israelitischer Friedhof",
+    "fl": "I",
+    "original_title": "Cemiterio Israelita",
+    "body": "Er befindet sich im Osten der Stadt auf dem Weg zum Lazarett. Am Eingang befindet sich eine hebräische Inschrift, die \"Wohnstätte des Lebens\" bedeutet, sowie das Datum 5.611, was dem Jahr 1851 der christlichen Zeitrechnung entspricht.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lazarett": [
+            "Standort des israelitischen Friedhofs"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "Baujahr"
+        ]
+    }
+}

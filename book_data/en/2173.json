@@ -1,0 +1,24 @@
+{
+    "id": 2173,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mangra dos Carvalhos",
+    "fl": "M",
+    "original_title": "Mangra dos Carvalhos",
+    "body": "White spots that appear on the leaves of oak trees and are produced by *Oidium quercinum*, a fungus of the family Mucedinaceae. It was first observed in 1909, in the oak trees of Monte. The species has likely spread through conidia carried by the winds.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Location where it was first observed."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1909": [
+            "Year of the first observation."
+        ]
+    }
+}

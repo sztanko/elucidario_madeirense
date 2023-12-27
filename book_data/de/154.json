@@ -1,0 +1,34 @@
+{
+    "id": 154,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kirchenkalender",
+    "fl": "K",
+    "original_title": "Almanach Ecclesiasticum",
+    "body": "Es gibt einen jährlichen kirchlichen Kalender, der speziell für diese Diözese bestimmt ist und der Geistlichen bei der Rezitation des Gottesdienstes, der Feier der Messe, der Angabe der Feiertage usw. als Leitfaden dient. Er wird seit vielen Jahren in Coimbra gedruckt. Kalendarist dieser Diözese war Dr. Antonio Rodrigues Porfirio Ribeiro de Vasconcelos, ein herausragender Theologieprofessor an der Universität Coimbra. Der älteste gedruckte Kalender dieser Diözese, den wir kennen, stammt aus dem Jahr 1858. Seit 1927 wird der Kirchenkalender vom Priester José Augusto Rodrigues Amado redigiert.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Coimbra"
+        ],
+        "Universität Coimbra": [
+            "Universität Coimbra"
+        ]
+    },
+    "people": {
+        "Dr. Antonio Rodrigues Porfirio Ribeiro de Vasconcelos": [
+            "Kalendarist dieser Diözese"
+        ],
+        "Priester José Augusto Rodrigues Amado": [
+            "Redakteur des Kirchenkalenders seit 1927"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Jahr des ältesten bekannten Kalenders"
+        ]
+    }
+}

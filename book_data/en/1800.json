@@ -1,0 +1,51 @@
+{
+    "id": 1800,
+    "lang": "en",
+    "is_original": false,
+    "title": "Education",
+    "fl": "E",
+    "original_title": "Instrução",
+    "body": "Naturally and logically, public education in this archipelago followed approximately the same phases as that of the mainland kingdom. In its fundamental lines, the history of one is the history of the other.\n\nHigher education was represented among us with the creation of the Medical-Surgical School of Funchal in 1837, which ended in 1910 (See *Medical-Surgical School*). In some locations in Madeira, the lack of doctors is already being felt (1921), and it will soon be significant. It can certainly be affirmed that, not too far from now, what the governor and captain general of this archipelago said to the metropolis government in 1824 will be true: that in Porto Santo and the fields of Madeira there was no surgeon-operator and that \"only a miserable bloodletter was found, many of those who called him to treat and cure their ailments have been victims of his incompetence.\" Our Medical School should have been reorganized in its original organization and curriculum, making the teaching of the subjects taught there more fruitful, but the needs of the island districts did not recommend its extinction, which was mainly due, as it is said, to the imposition of the public health director, Dr. Ricardo Jorge.\nSpecial education was taught among us with the teaching of theology at the Diocesan Seminary, from its foundation in the last quarter of the 16th century (See *Seminary*). There were also special courses in theology at the convent of S. Francisco and at the College of the Jesuits, for the private use of the respective religious. Special courses include the drawing and painting class, created in 1810, the drawing class that operated in this city for several years, supported by the Municipal Chamber of Funchal, and the Industrial School, established in 1889, of which we have already given detailed information in the article Industrial School António Augusto de Aguiar. In the first quarter of the last century, there was a course of military studies in this city, the organization, operation, and duration of which we are completely unaware of. As special education courses, we must also mention the Normal School (See this name), which lasted from 1900 to 1910, the Higher Primary School (See this name), created in 1919, and the Pilotage School (See this name), which began operating in 1914.\nThe first public secondary education classes that existed among us were those that the Jesuits taught at their College of S. João Evangelista and which consisted of Latin, philosophy, rhetoric, and literature. We do not know when they started operating, but they already existed in 1590, as the author of the Saudades refers to them, and ended with the expulsion of those religious in 1759. This secondary course was known by the name of Aulas do Pátio, as it operated in an interior courtyard, which was a dependency of the college. It was located on Rua do Estudo, and in the same building, some secondary classes continued to be taught after the expulsion of the Jesuits, with the same denomination of Aulas do Pátio. It was still in the same building that in 1837 the lyceum of this city was established (See Lyceum), which remained there for about 50 years. We cannot specify the time that elapsed between the expulsion of the Jesuits and the continuation of the Aulas do Pátio, nor can we say whether these courses operated continuously until the establishment of our lyceum. In 1772, public classes of philosophy, Latin, mathematics, and rhetoric were created, and by 1825, those of French and English (See Secondary Classes), leading to the supposition that this creation was intended to make up for the lack of classes taught by the Jesuits, so it must then be admitted that there was an interruption in these courses in the period from 1759 to 1772. Regarding primary education, read the article Primary Schools, in which this subject is treated with some development.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Ricardo Jorge": [
+            "Public health director"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Establishment of the lyceum of this city"
+        ],
+        "1910": [
+            "End of the Normal School"
+        ],
+        "1921": [
+            "Lack of doctors in some locations in Madeira"
+        ],
+        "1900": [
+            "Beginning of the Normal School"
+        ],
+        "1919": [
+            "Creation of the Higher Primary School"
+        ],
+        "1914": [
+            "Start of the Pilotage School"
+        ],
+        "1590": [
+            "Existence of the first public secondary education classes"
+        ],
+        "1759": [
+            "Expulsion of the Jesuits and end of the Aulas do Pátio"
+        ],
+        "1772": [
+            "Creation of public classes of philosophy, Latin, mathematics, and rhetoric"
+        ],
+        "1825": [
+            "Creation of classes of French and English"
+        ]
+    }
+}

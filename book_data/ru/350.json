@@ -1,0 +1,23 @@
+{
+    "id": 350,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Щавель",
+    "fl": "Щ",
+    "original_title": "Azeda",
+    "body": "> Мадейрский щавель - это Rumex madèrensis из семейства Polygonaceae; щавель Порту-Санту - это Scorpiurus sulcata из семейства Leguminosae. Первый вид используется внутрь в виде настоя для очищения крови и может служить для салата, щавеля и т.д.; второй - высококачественный корм. Scorpiurus sulcata часто встречается на Мадейре, где он известен под названием козлиная трава.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Остров, где встречается Rumex madèrensis."
+        ],
+        "Порту-Санту": [
+            "Остров, где встречается Scorpiurus sulcata."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

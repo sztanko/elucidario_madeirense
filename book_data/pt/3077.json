@@ -1,0 +1,50 @@
+{
+    "id": 3077,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ribeira dos Socorridos",
+    "fl": "R",
+    "original_title": "Ribeira dos Socorridos",
+    "body": "É um dos mais importantes cursos de água desta ilha. Serve de linha divisória às freguesias de São Martinho e Santo Antonio, que ficam na margem esquerda, e às de Câmara de Lobos e Estreito de Câmara de Lobos, situadas na margem direita. São Martinho e Câmara de Lobos limitam a foz da ribeira. Nasce no interior da ilha, no sítio das Torrinhas, e atravessa a freguesia do Curral das Freiras. Na primeira exploração que João Gonçalves Zargo fez ao longo da costa, tendo alguns dos seus companheiros desembarcado na foz desta ribeira, iam sendo arrastados pela violência da corrente. O capitão prontamente lhes acudiu e «foram socorridos e livres do perigo... e daqui ficou o nome... de Ribeira dos Socorridos, diz o autor das Saudades.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Martinho",
+        "Santo Antonio",
+        "Câmara de Lobos",
+        "Estreito de Câmara de Lobos",
+        "Curral das Freiras"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Freguesia na margem esquerda da Ribeira dos Socorridos"
+        ],
+        "Santo Antonio": [
+            "Freguesia na margem esquerda da Ribeira dos Socorridos"
+        ],
+        "Câmara de Lobos": [
+            "Freguesia na margem direita da Ribeira dos Socorridos"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Freguesia na margem direita da Ribeira dos Socorridos"
+        ],
+        "Curral das Freiras": [
+            "Freguesia atravessada pela Ribeira dos Socorridos"
+        ],
+        "Torrinhas": [
+            "Local de nascimento da Ribeira dos Socorridos"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zargo": [
+            "Realizou a primeira exploração ao longo da costa"
+        ]
+    },
+    "years": {
+        "Século XV": [
+            "Nascimento da Ribeira dos Socorridos"
+        ]
+    }
+}

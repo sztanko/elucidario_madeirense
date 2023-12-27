@@ -1,0 +1,27 @@
+{
+    "id": 3357,
+    "lang": "de",
+    "is_original": false,
+    "title": "Smith (Chetien)",
+    "fl": "S",
+    "original_title": "Smith (Chetien)",
+    "body": "> Norwegischer Botaniker, geboren im Oktober 1785, gestorben im Kongo am 21. September 1816. Siehe Buch.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Buch": [
+            "Referenz, die hinzugefügt werden muss"
+        ]
+    },
+    "years": {
+        "1785": [
+            "Geburt von Chetien Smith"
+        ],
+        "1816": [
+            "Tod von Chetien Smith"
+        ]
+    }
+}

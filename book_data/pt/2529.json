@@ -1,0 +1,30 @@
+{
+    "id": 2529,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Vale (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Vale (Capela de)",
+    "body": "No sítio do Vale Formoso da freguesia de Santa Luzia, fundou António Vogado uma capela no ano de 1726, a que deu a invocação de Nossa Senhora do Vale e que dotou por escritura publica de 4 de Junho do dito ano.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "António Vogado": [
+            "Fundador da capela em 1726"
+        ]
+    },
+    "years": {
+        "1726": [
+            "Fundação da capela"
+        ]
+    }
+}

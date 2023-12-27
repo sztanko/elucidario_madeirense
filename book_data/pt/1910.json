@@ -1,0 +1,30 @@
+{
+    "id": 1910,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lagartixa (Lacerta Dugesii)",
+    "fl": "L",
+    "original_title": "Lagartixa (Lacerta Dugesii)",
+    "body": "Pequeno réptil muito frequente na Madeira e que causa grandes estragos nas uvas, tomates, etc.. Já existia na ilha antes do descobrimento, pois que a ele se refere Gaspar Frutuoso nos seguintes termos: «nesta fresca ilha se não achou outro género de bichos senão humas lagartixas pequenas tamanhas de hum dedo, que não fazem damno notável, nem são peçonhentas». Frutuoso também assinalou as lagartixas na ilha do Porto Santo (V. Saudades, pag. 50) e o naturalista R. T. Lowe encontrou entre os corpos calcarios da Piedade as maxilas dum pequeno vertebrado que o professor Owen viu ser um réptil, não podendo porém declarar, por falta de materiais para comparação, se era idêntico à lagartixa madeirense.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiador"
+        ],
+        "R. T. Lowe": [
+            "Naturalista"
+        ],
+        "Owen": [
+            "Professor"
+        ]
+    },
+    "years": {}
+}

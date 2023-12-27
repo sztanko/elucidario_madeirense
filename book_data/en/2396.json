@@ -1,0 +1,28 @@
+{
+    "id": 2396,
+    "lang": "en",
+    "is_original": false,
+    "title": "Municipality (Praça do)",
+    "fl": "M",
+    "original_title": "Município (Praça do)",
+    "body": "The former Largo do Colégio is now called by this name. The churchyard of St. John the Evangelist was partially demolished in early 1836 to build the Largo do Colégio. Its broadening, the isolation of the Town Hall, freeing it from the adjacent buildings, the construction of the impressive fountain, and other significant improvements there date back to the years 1943 and 1944.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Town Hall": [
+            "Isolated and freed from the adjacent buildings"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1836": [
+            "Demolition of the churchyard of St. John the Evangelist"
+        ],
+        "1943": [
+            "Implementation of improvements in the square"
+        ]
+    }
+}

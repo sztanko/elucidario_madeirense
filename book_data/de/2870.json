@@ -1,0 +1,98 @@
+{
+    "id": 2870,
+    "lang": "de",
+    "is_original": false,
+    "title": "Porto Santo (Insel von)",
+    "fl": "P",
+    "original_title": "Porto Santo (Ilha do)",
+    "body": "Die Insel Porto Santo, die, laut Frutuoso, so benannt wurde, weil Gonçalves Zarco und Tristão Vaz sich dort vor einem heftigen Sturm retteten, wie bereits erwähnt, der sie \\\n\nFür die Bewässerung des Landes von Porto Santo gibt es mehrere Brunnen, die von Privatpersonen gegraben wurden, aus denen das Wasser mittels Schöpfrädern gefördert wird. Ohne diese Ressource wären vielleicht viele Böden brach liegen gelassen worden, die jetzt gute Ernten bringen, da auf dieser Insel häufig Wassermangel herrscht.\n\nPorto Santo, dessen Bevölkerung 2.701 Einwohner (1940) zählt, ist in vielerlei Hinsicht ein interessanter und kurioser Ort mit bestimmten Gebräuchen und Sitten, die auf Madeira zumindest heutzutage unbekannt sind. Wenn häufigere Dampferverbindungen zu dieser Insel eingerichtet würden und der Besucher dort den durch die moderne Zivilisation geforderten Komfort vorfände, ist anzunehmen, dass das Land des Archipels, auf dem Zarco und Tristão Vaz als erste an Land gingen, das heute fast unbekannt ist, zu bestimmten Zeiten zu einem Treffpunkt für Madeirenser und Ausländer werden könnte, die entweder die heilende Wirkung des Wassers der Fontinha bei Magenbeschwerden ausprobieren oder die hervorragenden Möglichkeiten als Badeort nutzen möchten, die dieselbe Erde bietet. 1919 wurde Porto Santo mit der wichtigen Verbesserung einer Funktelegrafenstation ausgestattet, die am 17. März jenes Jahres eingeweiht wurde und die Isolation brach, in der diese Insel lebte, insbesondere in der Wintersaison.",
+    "categories": [
+        "geography",
+        "biology",
+        "history"
+    ],
+    "freguesias": [
+        "Nossa Senhora da Piedade"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Die Insel Porto Santo misst 11,4 Kilometer in der Länge und 7 Kilometer in der Breite. Ihre Fläche wird auf etwa 50 Quadratkilometer geschätzt. Sie liegt mit ihren äußersten Inselchen zwischen 32° 59' 40\" und 33° 7' 50\" nördlicher Breite und zwischen 16° 16' 30\" und 16° 24' 35\" westlicher Länge von Greenwich. Ihre Hauptstadt ist Vila Baleira oder Porto Santo, gelegen am Ende einer weiten und schönen Bucht, geschützt vor Winden aus SO bis NW durch den Westen."
+        ]
+    },
+    "people": {
+        "Gonçalves Zarco": [
+            "Portugiesischer Seefahrer"
+        ],
+        "Tristão Vaz": [
+            "Portugiesischer Seefahrer"
+        ],
+        "Frutuoso": [
+            "Portugiesischer Historiker"
+        ],
+        "D. José I": [
+            "König von Portugal"
+        ],
+        "Nicolau Bettencourt Perestrelo": [
+            "Gouverneur von Porto Santo"
+        ],
+        "Manuel da Camara Perestrelo de Noronha": [
+            "Gouverneur von Porto Santo"
+        ],
+        "Manuel Ferreira Nobre": [
+            "Gouverneur von Porto Santo"
+        ],
+        "João Baptista Rofe": [
+            "Gouverneur von Porto Santo"
+        ],
+        "Joaquim Bernardino Bianchordi": [
+            "Gouverneur von Porto Santo"
+        ],
+        "Manuel Inacio de Avelar Brotero": [
+            "Gouverneur von Porto Santo"
+        ],
+        "João de Alvelo Leiria": [
+            "Gouverneur von Porto Santo"
+        ],
+        "Joaquim de Freitas Aragão": [
+            "Gouverneur von Porto Santo"
+        ],
+        "Cosme Damião da Cunha Fidié": [
+            "Gouverneur von Porto Santo"
+        ],
+        "José Crisóstomo de Freitas e Sousa": [
+            "Gouverneur von Porto Santo"
+        ],
+        "Francisco Ladislau Correia": [
+            "Gouverneur von Porto Santo"
+        ],
+        "João Pinto Carneiro": [
+            "Gouverneur von Porto Santo"
+        ],
+        "José Caetano Peixoto": [
+            "Gouverneur von Porto Santo"
+        ],
+        "João Antonio Pedroso": [
+            "Führte den Johannisbrotbaum in Porto Santo ein"
+        ],
+        "Antonio Schiappa de Azevedo": [
+            "Forstaufseher von Porto Santo"
+        ],
+        "Vidal": [
+            "Führte zahlreiche Bohrungen in den Meeren von Porto Santo durch"
+        ],
+        "Cockerell": [
+            "Erwähnte die ältesten Fossilienablagerungen auf der Insel"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Einführung des Johannisbrotbaums in Porto Santo"
+        ],
+        "1838": [
+            "Eröffnung des Friedhofs von Porto Santo"
+        ],
+        "1919": [
+            "Porto Santo wurde mit der wichtigen Verbesserung einer Funktelegrafenstation ausgestattet, die am 17. März jenes Jahres eingeweiht wurde"
+        ]
+    }
+}

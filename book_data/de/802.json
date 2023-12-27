@@ -1,0 +1,33 @@
+{
+    "id": 802,
+    "lang": "de",
+    "is_original": false,
+    "title": "Casa dos Pobres Desamparados",
+    "fl": "C",
+    "original_title": "Casa dos Pobres Desamparados",
+    "body": "Es war ein Asyl mit besonderem Charakter, das von seinem Gründer José Fernandes Velosa verwaltet wurde. Es diente dazu, eine bestimmte Anzahl armer Menschen beiderlei Geschlechts aufzunehmen und zu versorgen. Es bestand seit 1897, wobei Almosen, Vermächtnisse und der Erlös einiger Feste die Haupteinnahmequellen waren.\n\nDie Einrichtung, die anfangs nur Männer aufnahm, begann 1895 unter der Bezeichnung \"Albergue Nocturno\". Der erste Arme, dem Herr Velosa Schutz gewährte, wurde im Dezember 1894 bei ihm zu Hause aufgenommen. Der Gründer starb am 30. Januar 1934.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Fernandes Velosa": [
+            "Gründer und Verwalter des Asyls"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Gründungsjahr des Asyls"
+        ],
+        "1895": [
+            "Beginn des Asyls unter dem Namen \"Albergue Nocturno\""
+        ],
+        "1894": [
+            "Aufnahme des ersten Armen durch Herrn Velosa"
+        ],
+        "1934": [
+            "Tod des Gründers"
+        ]
+    }
+}

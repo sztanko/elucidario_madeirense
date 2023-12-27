@@ -1,0 +1,41 @@
+{
+    "id": 591,
+    "lang": "de",
+    "is_original": false,
+    "title": "Buch (Leopold von)",
+    "fl": "B",
+    "original_title": "Buch (Leopoldo von)",
+    "body": "Deutscher Geologe und Botaniker, geboren am 25. April 1774 in Stolp in Uckermark, gestorben am 4. März 1853 in Berlin. Er besuchte Madeira im Jahr 1811 zusammen mit dem norwegischen Botaniker Chetien Smith. Die beiden Naturforscher landeten am 26. April in Funchal und reisten am 2. des folgenden Monats nach den Kanarischen Inseln weiter. Buchs und Smiths Beobachtungen auf unserer Insel wurden in der Schrift Narrative of an Expedition to explore the River Zaire... in 1816, under the direction of Captain J. K Tuckey (London, 1818) festgehalten. Das Werk Verzeichniss der auf Madeira wildwachsenden Pflanzen, das fast alle Botaniker Leopold von Buch zuschreiben, stammt nicht von ihm, sondern von Roberto Brown. Dies liegt daran, dass es in das von jenem 1825 unter dem Titel Physicalische Beschreibung der Canarischen Inseln veröffentlichte Buch aufgenommen wurde.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel, die Leopold von Buch besuchte"
+        ]
+    },
+    "people": {
+        "Chetien Smith": [
+            "Norwegischer Botaniker, der Madeira zusammen mit Leopold von Buch besuchte"
+        ],
+        "Roberto Brown": [
+            "Autor des Werks Verzeichniss der auf Madeira wildwachsenden Pflanzen"
+        ]
+    },
+    "years": {
+        "1774": [
+            "Geburt von Leopold von Buch"
+        ],
+        "1853": [
+            "Tod von Leopold von Buch"
+        ],
+        "1811": [
+            "Besuch von Leopold von Buch auf Madeira"
+        ],
+        "1816": [
+            "Veröffentlichung der Beobachtungen von Buch und Smith über Madeira"
+        ]
+    }
+}

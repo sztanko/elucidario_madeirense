@@ -1,0 +1,31 @@
+{
+    "id": 470,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bertrand (Henrique de Price)",
+    "fl": "B",
+    "original_title": "Bertrand (Henrique de Price)",
+    "body": "Captain of the line and commander of the frigate D. Pedro, which was in the port of Funchal at the time of the proclamation of the liberal government on this island on June 5, 1834. He was part of the interim government of Madeira after the departure of D. Alvaro da Costa de Macedo for the city of Lisbon.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Port where the frigate D. Pedro was located"
+        ],
+        "Lisbon": [
+            "City to which D. Alvaro da Costa de Macedo went"
+        ]
+    },
+    "people": {
+        "Henrique de Price Bertrand": [
+            "Commander of the frigate D. Pedro"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Proclamation of the liberal government in Madeira"
+        ]
+    }
+}

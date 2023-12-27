@@ -1,0 +1,33 @@
+{
+    "id": 1760,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ilha",
+    "fl": "I",
+    "original_title": "Ilha",
+    "body": "A populated place in the parish of S. Jorge. There was a small chapel there dedicated to Nossa Senhora da Piedade, built in the last quarter of the 18th century by Father Matias Jorge Jardim. This place was part of an entailed estate instituted by Jorge Pinto in 1559, of which the last administrator was the Azorean Laureano da Câmara Falcão, known as the 'morgado' of the Ilha, who sold these lands to the respective tenant farmers some decades ago. The name given to this place comes from the fact that it is surrounded by the river, which, bifurcating, rejoins at the same point.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "S. Jorge"
+    ],
+    "locations": {
+        "S. Jorge": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Matias Jorge Jardim": [
+            "Priest"
+        ]
+    },
+    "years": {
+        "1559": [
+            "Institution of the entailed estate by Jorge Pinto"
+        ],
+        "18th century": [
+            "Construction of the chapel"
+        ]
+    }
+}

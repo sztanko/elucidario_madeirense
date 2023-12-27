@@ -1,0 +1,31 @@
+{
+    "id": 834,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castro (Dr. José de)",
+    "fl": "C",
+    "original_title": "Castro (Dr. José de)",
+    "body": "This well-known politician, who a few years ago was the prime minister, was in Madeira from October 8, 1884, to June 2, 1885. He was one of the defenders of the republicans prosecuted in the district of Ponta do Sol, because of the events that took place in Ribeira Brava on July 29, 1884, which resulted in the death of some people. He wrote a pamphlet narrating these events, entitled 'As Victimas d’ElRey, Historia dos processos movidos contra os perseguidos politicos da ilha da Madeira, desde 29 de junho de 1884 ate o ano de 1885'.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Ribeira Brava"
+    ],
+    "locations": {},
+    "people": {
+        "José de Castro": [
+            "Well-known politician"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Presence in Madeira"
+        ],
+        "1885": [
+            "Stay in Madeira"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 2904,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Povo (O)",
+    "fl": "P",
+    "original_title": "Povo (O)",
+    "body": "Começou a publicar-se a 1 de Janeiro de 1883 e suspendeu a 4 de Fevereiro de 1888 dando 260 números.\nOutro periódico com o mesmo titulo iniciou a sua publicação a 31 de Janeiro de 1907 e suspendeu a 30 de Setembro de 1917, dando 1248 números. Publicava-se semanalmente, mas de 15 de Dezembro de 1910 a fins de Outubro de 1913 foi jornal diário.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1883": [
+            "Início da publicação do periódico"
+        ],
+        "1888": [
+            "Suspensão da publicação do periódico"
+        ],
+        "1907": [
+            "Início da publicação do outro periódico com o mesmo título"
+        ],
+        "1917": [
+            "Suspensão da publicação do outro periódico com o mesmo título"
+        ]
+    }
+}

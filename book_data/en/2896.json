@@ -1,0 +1,28 @@
+{
+    "id": 2896,
+    "lang": "en",
+    "is_original": false,
+    "title": "Posto Marítimo de Desinfecção",
+    "fl": "P",
+    "original_title": "Posto Marítimo de Desinfecção",
+    "body": "Since 1901, there has been a small maritime disinfection post in Pontinha. The amounts resulting from the disinfections, after deducting the expenses for the purchase of disinfectants, constitute revenue for the General Board, and it is the responsibility of this corporation to pay the rent for the house where the post operates. The personnel of the post, consisting of an inspector and a guard, is paid by the Government (1921).",
+    "categories": [
+        "health",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pontinha": [
+            "Location where there has been a small maritime disinfection post since 1901"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Establishment of a maritime disinfection post in Pontinha"
+        ],
+        "1921": [
+            "The personnel of the maritime disinfection post was paid by the Government"
+        ]
+    }
+}

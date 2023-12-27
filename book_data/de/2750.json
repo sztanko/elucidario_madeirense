@@ -1,0 +1,34 @@
+{
+    "id": 2750,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pereira de Sousa (Francisco Luis)",
+    "fl": "P",
+    "original_title": "Pereira de Sousa (Francisco Luis)",
+    "body": "Er wurde am 28. September 1870 in Funchal geboren und ist der Sohn des angesehenen madeirischen Schriftstellers Francisco Clementino de Sousa. Nach seiner Einschreibung in die Armee am 3. November 1888 wurde er am 25. Oktober 1894 zum Fähnrich der Pioniere ernannt, nachdem er die alten Polytechnischen und Militärschulen mit großer Auszeichnung absolviert hatte. Er war Professor der 3. Sektion (Naturwissenschaften) der Fakultät für Naturwissenschaften der Universität Lissabon und Mitglied der Mineralogischen Gesellschaft Frankreichs und anderer wissenschaftlicher Vereinigungen. Er widmete sich besonders geologischen, mineralogischen und seismologischen Studien und ist in letzteren die größte Autorität unseres Landes. Seine Untersuchungen über die Auswirkungen des Erdbebens von 1755 sind nicht nur vom wissenschaftlichen, sondern auch vom historischen Standpunkt aus wirklich bemerkenswert. \n\nEr starb am 25. September 1931 in Lissabon.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Clementino de Sousa": [
+            "Madeirischer Schriftsteller"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Geburt von Pereira de Sousa"
+        ],
+        "1888": [
+            "Einschreibung in die Armee"
+        ],
+        "1894": [
+            "Ernennung zum Fähnrich der Pioniere"
+        ],
+        "1755": [
+            "Auswirkungen des Erdbebens"
+        ]
+    }
+}

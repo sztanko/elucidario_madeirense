@@ -1,0 +1,31 @@
+{
+    "id": 2538,
+    "lang": "de",
+    "is_original": false,
+    "title": "Neustraße von Santa Maria",
+    "fl": "N",
+    "original_title": "Nova de Santa Maria (Rua)",
+    "body": "Ungefähr parallel zur Straße von Santa Maria und in geringer Entfernung liegt die Neustraße von Santa Maria, die kurz nach der Flut von 1803 angelegt wurde, als es dort nur eine kleine Gasse gab. Zwischen den Einmündungen dieser beiden Straßen lag die Kirche Unserer Lieben Frau vom Kieselstrand oder Santa Maria, die den Straßen ihren Namen gab. Sie erstreckt sich vom Ufer des Baches João Gomes bis zum Platz der Wasserhähne oder Brunnen, der der Anfang der Schönen Straße des Heiligen Jakobus ist. Heute heißt sie Latino Coelho.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Maria": [
+            "Parallele Straße"
+        ],
+        "Kieselstrand": [
+            "Standort der Kirche"
+        ]
+    },
+    "people": {
+        "Latino Coelho": [
+            "Heutiger Name der Straße"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Flut"
+        ]
+    }
+}

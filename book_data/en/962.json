@@ -1,0 +1,40 @@
+{
+    "id": 962,
+    "lang": "en",
+    "is_original": false,
+    "title": "Companhia Fabril de Açucar Madeirense",
+    "fl": "C",
+    "original_title": "Companhia Fabril de Açucar Madeirense",
+    "body": "It was only in the last thirty years that the spirit of associationism took root in this ungrateful soil of Madeira, where even the great industrial, commercial, or agricultural initiatives have failed or struggled with difficulties of all kinds. There are many examples, and among them, the remarkable foundation of the Madeiran Sugar Factory Company stands out. In 1852, the Oidium Tuckeri caused the greatest damage to the Madeiran vineyards and reduced wine production to very limited proportions. This was followed by a terrible economic crisis, considered one of the greatest calamities to have befallen this archipelago. New agricultural crops were then considered. Sugar cane, which had only temporarily ceased to be cultivated in Madeira and had been one of its best sources of revenue in the past, began to be more intensively cultivated and soon became a new and powerful source of wealth. The development of this important and rewarding crop should have been matched by the sugar manufacturing and distillation industry, which had always been very deficient here and at the time was completely inadequate to meet the needs of the occasion. It was then that Dr. João da Camara Leme Homem de Vasconcelos, perhaps the most illustrious son of Madeira, appeared with the bold initiative of founding a large industrial establishment, intended to convert the raw material of sugarcane into sugar and spirits, using the best processes available at the time, especially in France. It was on June 27, 1866, that the foundations were laid for the creation of the company, which would carry out the realization of that meritorious enterprise. A decree of April 10, 1867, approved the statutes of the Madeiran Sugar Factory Company and authorized the establishment of its industrial and manufacturing plant. Several and sometimes insurmountable difficulties arose, and it was only on July 20, 1870, that Dr. Camara Leme left Madeira to contract the construction of the machinery and equipment for the new factory. On March 23, 1873, the solemn and definitive installation of the large industrial establishment took place, which was of great grandeur and was presided over by the diocesan prelate and our illustrious compatriot D. Aires de Ornelas de Vasconcelos. The new enterprise did not meet general expectations. Serious management errors, and even more so, an unfair and fierce war waged against the company's management, in which local politics played a part, caused the grand initiative of Dr. João da Camara Leme, later Count of Canavial, to founder within a few years. It is worth noting here that, despite everything that was said in the press and elsewhere, Dr. Camara Leme emerged unscathed from the quagmire of accusations and calumnies in which they tried to tarnish the austerity of his prestigious name. Several pamphlets were published and many issues related to the function and administration of the Madeiran Sugar Factory Company were debated in the journalistic press.",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João da Camara Leme Homem de Vasconcelos": [
+            "Founder of the Madeiran Sugar Factory Company"
+        ],
+        "D. Aires de Ornelas de Vasconcelos": [
+            "Diocesan prelate"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Oidium Tuckeri caused damage to the Madeiran vineyards"
+        ],
+        "1866": [
+            "Foundation of the Madeiran Sugar Factory Company"
+        ],
+        "1867": [
+            "Approval of the statutes of the Madeiran Sugar Factory Company"
+        ],
+        "1870": [
+            "Departure of João da Camara Leme from Madeira to contract the construction of the machinery and equipment for the new factory"
+        ],
+        "1873": [
+            "Installation of the large industrial establishment"
+        ]
+    }
+}

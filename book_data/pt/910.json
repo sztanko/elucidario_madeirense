@@ -1,0 +1,33 @@
+{
+    "id": 910,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Clamor Publico (O)",
+    "fl": "C",
+    "original_title": "Clamor Publico (O)",
+    "body": "Deu o primeiro numero a 22 de Maio de 1854 e o ultimo, que foi o 170, a 20 de Janeiro de 1858. Foram seus redactores os madeirenses Antonio Correia Heredia, dr. Antonio Gonçalves de Freitas e dr. Luiz de Freitas Branco.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antonio Correia Heredia": [
+            "Redator de O Clamor Publico"
+        ],
+        "Antonio Gonçalves de Freitas": [
+            "Redator de O Clamor Publico"
+        ],
+        "Luiz de Freitas Branco": [
+            "Redator de O Clamor Publico"
+        ]
+    },
+    "years": {
+        "1854": [
+            "Primeiro número de O Clamor Publico"
+        ],
+        "1858": [
+            "Último número de O Clamor Publico"
+        ]
+    }
+}

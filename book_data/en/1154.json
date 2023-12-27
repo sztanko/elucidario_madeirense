@@ -1,0 +1,30 @@
+{
+    "id": 1154,
+    "lang": "en",
+    "is_original": false,
+    "title": "Diferença",
+    "fl": "D",
+    "original_title": "Diferença",
+    "body": "A populated place in the parish of Faial, where Manuel Carvalho Valdavesso, son-in-law of Valentim de Ornelas e Vasconcelos, 7th lord of Penha de Águia, built a chapel dedicated to São Luiz in the year 1725.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Faial": [
+            "Parish where it is located"
+        ]
+    },
+    "people": {
+        "Manuel Carvalho Valdavesso": [
+            "Son-in-law of Valentim de Ornelas e Vasconcelos, 7th lord of Penha de Águia"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Construction of the chapel"
+        ]
+    }
+}

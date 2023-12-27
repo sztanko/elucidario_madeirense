@@ -1,0 +1,41 @@
+{
+    "id": 3127,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Romeiros (Casas de)",
+    "fl": "R",
+    "original_title": "Romeiros (Casas de)",
+    "body": "Para abrigo dos romeiros, sabemos terem sido construídas casas nas seguintes localidades: Monte, Santo Antonio da Serra e Piedade (Ponta de S. Lourenço).\n\nA casa dos Romeiros, no Monte, já existia entre 1780 e 1790, tendo sido declarado em sessão camarária de 31 de Maio de 1822 pertencer ela aos bens do concelho. Não obstante isto, resolveu a Câmara, em sessão de 18 de Novembro de 1846 mandar levantar um prédio junto da igreja do Monte, «para asilo dos viandantes e para recolher as bestas», prédio que não sabemos se chegou a ser construído.\n\nA casa dos romeiros de Santo António da Serra foi construída em 1808, a expensas de vários súbditos ingleses, achando-se agora em ruínas. Foi administrada até 1832 por comissões inglesas, em que aparecem os nomes de Penfold, Selby, Leacock, Taylor e Gordon.\n\nDa casa destinada a recolher os devotos que iam em romarias á capela de Nossa Senhora da Piedade, na freguesia do Caniçal, não existem hoje vestígios.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Santo Antonio da Serra"
+    ],
+    "locations": {
+        "Monte": [
+            "Localidade onde existia a casa dos Romeiros."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1780": [
+            "Existência da casa dos Romeiros no Monte."
+        ],
+        "1790": [
+            "Existência da casa dos Romeiros no Monte."
+        ],
+        "1808": [
+            "Construção da casa dos romeiros de Santo António da Serra."
+        ],
+        "1822": [
+            "Declaração em sessão camarária da pertença da casa dos Romeiros aos bens do concelho."
+        ],
+        "1832": [
+            "Ano em que a casa dos romeiros de Santo António da Serra deixou de ser administrada por comissões inglesas."
+        ],
+        "1846": [
+            "Decisão da Câmara de mandar levantar um prédio junto da igreja do Monte."
+        ]
+    }
+}

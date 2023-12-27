@@ -1,0 +1,80 @@
+{
+    "id": 2523,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Rosário (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Rosário (Capelas de)",
+    "body": "Na freguesia do Campanário foi fundada uma capela desta invocação em 1748 pelo morgado António Leandro da Câmara Leme. A escritura de dotação é de 18 de Julho de 1734, mas só foi vistoriada catorze anos depois, para nela se poderem celebrar os actos do culto.\n\nNa margem direita da ribeira de Santa Luzia, no lugar onde chamam a Fundoa e dentro da área da freguesia de São Roque, se encontra uma capela dedicada a Nossa Senhora do Rosário, que foi construída por João da Paz de Castro no ano de 1668, e com a mesma invocação erigiu Matias de Mendonça e Vasconcelos uma capela na freguesia de Machico, no ano de 1660.\n\nNa freguesia de Santa Cruz existiu uma capela com o orago de Nossa Senhora do Rosário, mas nada sabemos acerca do seu fundador e ano de sua construção.\n\nNão é de pequenas dimensões a capela de Nossa Senhora do Rosário que existe no sítio da Vargem, da freguesia de São Vicente. A capela primitiva, que foi instituída por José Caldeira, tem sofrido varias modificações e acrescentamentos. O cura da paróquia reside habitualmente nas proximidades desta capela e ali exerce as funções do culto religioso.\n\nHouve uma capela da mesma invocação na freguesia de São Jorge, que foi fundada no ultimo quartel do século XVII pelo padre Matias Jorge Jardim, e ficava no sítio da Ilha.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário",
+        "São Roque",
+        "Machico",
+        "Santa Cruz",
+        "São Vicente",
+        "São Jorge"
+    ],
+    "locations": {
+        "Campanário": [
+            "Localidade na Madeira"
+        ],
+        "Santa Luzia": [
+            "Localidade na Madeira"
+        ],
+        "São Roque": [
+            "Localidade na Madeira"
+        ],
+        "Machico": [
+            "Localidade na Madeira"
+        ],
+        "Santa Cruz": [
+            "Localidade na Madeira"
+        ],
+        "Vargem": [
+            "Localidade na Madeira"
+        ],
+        "São Vicente": [
+            "Localidade na Madeira"
+        ],
+        "São Jorge": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "António Leandro da Câmara Leme": [
+            "Fundador da capela em 1748"
+        ],
+        "João da Paz de Castro": [
+            "Construtor da capela em 1668"
+        ],
+        "Matias de Mendonça e Vasconcelos": [
+            "Erigiu uma capela em 1660"
+        ],
+        "José Caldeira": [
+            "Instituidor da capela primitiva em São Vicente"
+        ],
+        "Padre Matias Jorge Jardim": [
+            "Fundador da capela em São Jorge"
+        ]
+    },
+    "years": {
+        "1748": [
+            "Fundação da capela no Campanário"
+        ],
+        "1734": [
+            "Data da escritura de dotação"
+        ],
+        "1668": [
+            "Construção da capela por João da Paz de Castro"
+        ],
+        "1660": [
+            "Erigida uma capela por Matias de Mendonça e Vasconcelos em Machico"
+        ],
+        "XVII": [
+            "Fundação da capela em São Jorge"
+        ]
+    }
+}

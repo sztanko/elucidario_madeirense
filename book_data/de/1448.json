@@ -1,0 +1,31 @@
+{
+    "id": 1448,
+    "lang": "de",
+    "is_original": false,
+    "title": "Festung Unserer Lieben Frau vom Schutz",
+    "fl": "F",
+    "original_title": "Forte de Nª Sª do Amparo",
+    "body": "Von dreieckigem Grundriss wurde sie 1706 ohne Kosten für die königliche Schatzkammer erbaut.\n\nLaut einer Inschrift leitete Francisco Dias Franco, der ihr erster Hauptmann war, die Arbeit daran.\n\nSie liegt in der Nähe der Promenade von Machico und war die letzte, die sich bei der Landung der miguelistischen Truppen 1828 ergab.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Promenade von Machico"
+        ]
+    },
+    "people": {
+        "Francisco Dias Franco": [
+            "Erster Hauptmann"
+        ]
+    },
+    "years": {
+        "1706": [
+            "Bau der Festung"
+        ],
+        "1828": [
+            "Landung der miguelistischen Truppen"
+        ]
+    }
+}

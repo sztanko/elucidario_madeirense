@@ -1,0 +1,43 @@
+{
+    "id": 3109,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rodrigues",
+    "fl": "R",
+    "original_title": "Rodrigues",
+    "body": "Os indivíduos com este apelido de família procedem: uns de Mem Rodrigues de Vasconcelos, casado com uma filha de Bartolomeu Perestrelo; outros, de Garcia Rodrigues da Câmara, pai de Aldonça Delgado, a mulher do 3.° donatário do Porto Santo, que foi por este assassinada; outros, de João Rodrigues, que viveu no século XVI e teve uma fazenda povoada perto da Calheta; e outros, finalmente, de João Rodrigues Neto, falecido em 1531, que teve sesmaria em S. Martinho e morreu na rua chamada dos Netos, na freguesia de S. Pedro.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "S. Martinho",
+        "S. Pedro"
+    ],
+    "locations": {
+        "Calheta": [
+            "Povoada perto da Calheta"
+        ],
+        "S. Martinho": [
+            "Teve sesmaria em S. Martinho"
+        ],
+        "S. Pedro": [
+            "Morreu na rua chamada dos Netos, na freguesia de S. Pedro"
+        ]
+    },
+    "people": {
+        "Mem Rodrigues de Vasconcelos": [
+            "Casado com uma filha de Bartolomeu Perestrelo"
+        ],
+        "Garcia Rodrigues da Câmara": [
+            "Pai de Aldonça Delgado, a mulher do 3.° donatário do Porto Santo"
+        ],
+        "João Rodrigues Neto": [
+            "Falecido em 1531"
+        ]
+    },
+    "years": {
+        "1531": [
+            "Falecido"
+        ]
+    }
+}

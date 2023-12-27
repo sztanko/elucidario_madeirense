@@ -1,0 +1,28 @@
+{
+    "id": 103,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Albuquerque",
+    "fl": "A",
+    "original_title": "Albuquerque",
+    "body": "É nobre e antigo apelido de família nesta ilha. Provém de D. Sebastiana de Albuquerque, que casou com Jacinto de Freitas, da casa dos Freitas da Madalena, pelos anos de 1570. Esta D. Sebastiana procede de D. Afonso Teles de Meneses, povoador da vila de Albuquerque em Espanha.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madalena": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "D. Sebastiana de Albuquerque": [
+            "Matriarca da família Albuquerque"
+        ]
+    },
+    "years": {
+        "1570": [
+            "Ano de casamento com Jacinto de Freitas"
+        ]
+    }
+}

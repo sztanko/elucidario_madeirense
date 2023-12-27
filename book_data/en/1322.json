@@ -1,0 +1,28 @@
+{
+    "id": 1322,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fajã do Penedo",
+    "fl": "F",
+    "original_title": "Fajã do Penedo",
+    "body": "A populated place in the parish of Boaventura. There was a small chapel dedicated to Sant'Ana, built in 1768 by the landowner Antonio Francisco de Caires, which was demolished shortly after 1840. D. Maria dos Anjos Ribeiro built a chapel dedicated to the Immaculate Heart of Mary at this site in 1919.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1768": [
+            "Construction of the chapel of Sant'Ana"
+        ],
+        "1840": [
+            "Demolition of the chapel of Sant'Ana"
+        ],
+        "1919": [
+            "Construction of the chapel dedicated to the Immaculate Heart of Mary"
+        ]
+    }
+}

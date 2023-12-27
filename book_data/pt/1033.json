@@ -1,0 +1,34 @@
+{
+    "id": 1033,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cortez",
+    "fl": "C",
+    "original_title": "Cortez",
+    "body": "Este apelido de familia procede de Manuel Afonso Cortez, cidadão do Pôrto, que casou com Ourana Lopes, de Camara de Lobos, onde morreu em 1615.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pôrto": [
+            "Local de origem de Manuel Afonso Cortez"
+        ],
+        "Camara de Lobos": [
+            "Local de residência de Ourana Lopes"
+        ]
+    },
+    "people": {
+        "Manuel Afonso Cortez": [
+            "Cidadão do Pôrto"
+        ],
+        "Ourana Lopes": [
+            "Residente em Camara de Lobos"
+        ]
+    },
+    "years": {
+        "1615": [
+            "Ano da morte de Manuel Afonso Cortez"
+        ]
+    }
+}

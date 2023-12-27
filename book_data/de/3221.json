@@ -1,0 +1,30 @@
+{
+    "id": 3221,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Filipe (Fort)",
+    "fl": "S",
+    "original_title": "São Filipe (Forte de)",
+    "body": "Dieses Fort, das anscheinend während der philippinischen Herrschaft erbaut wurde, hatte seinen Eingang am Pelourinho-Platz und lag zwischen den Bächen Santa Luzia und João Gomes. Es wurde der Stadtverwaltung aufgrund einer Petition überlassen, die diese am 27. Februar 1896 an die Regierung richtete, aber erst viel später berücksichtigt wurde. Das große Gebäude, in dem sich die Zuckerrohrfabrik am Pelourinho-Platz befindet, steht zum Teil auf dem Gelände des alten Forts São Filipe (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pelourinho": [
+            "Platz"
+        ],
+        "Santa Luzia": [
+            "Bach"
+        ],
+        "João Gomes": [
+            "Bach"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1896": [
+            "Überlassung an die Stadtverwaltung"
+        ]
+    }
+}

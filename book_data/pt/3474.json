@@ -1,0 +1,37 @@
+{
+    "id": 3474,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Terra do Baptista",
+    "fl": "T",
+    "original_title": "Terra do Baptista",
+    "body": "Sítio povoado da freguesia do Porto da Cruz, 105 foros e 651 habitantes. Ali existiu uma capela da invocação de Nossa Senhora da Fé, fundada pelo morgado Diogo Dias de Orneias e Vasconcelos, no ano de 1826. Também ali existiu uma capela dedicada a Santo António, pertencente à família Nunes Caldeira, e fundada por 1760. Este sítio pertenceu ao morgadio instituído pelo genovês João Baptista da família italiana Usodimare, que casou com um filho do primeiro donatário de Machico, Tristão Vaz e de que foi último representante João Bettencourt Baptista.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Freguesia onde se localiza o sítio"
+        ]
+    },
+    "people": {
+        "Diogo Dias de Orneias e Vasconcelos": [
+            "Morgado fundador da capela de Nossa Senhora da Fé"
+        ],
+        "João Baptista": [
+            "Genovês que instituiu o morgadio"
+        ]
+    },
+    "years": {
+        "1826": [
+            "Fundação da capela de Nossa Senhora da Fé"
+        ],
+        "1760": [
+            "Fundação da capela de Santo António"
+        ]
+    }
+}

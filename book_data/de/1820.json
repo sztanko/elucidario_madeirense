@@ -1,0 +1,45 @@
+{
+    "id": 1820,
+    "lang": "de",
+    "is_original": false,
+    "title": "Jangão",
+    "fl": "J",
+    "original_title": "Jangão",
+    "body": "Bewohnter Ort der Gemeinde Ponta do Sol. Es war der Sitz der alten Majoratsherrschaft Vale da Bica, die 1522 von João Esmeraldo gegründet und deren letzter Vertreter der angesehene Madeirer Ratsherr Aires de Ornelas war. Dort befindet sich die Kapelle Nossa Senhora da Piedade, die um 1670 von Antonio de Carvalhal Esmeraldo gegründet und 1777 sowie 1879 von den jeweiligen Verwaltern Francisco de Ornelas de Vasconcelos und dem Ratsherrn Agostinho de Ornelas de Vasconcelos restauriert wurde.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Gründer der Majoratsherrschaft Vale da Bica"
+        ],
+        "Aires de Ornelas": [
+            "Letzter Vertreter der Majoratsherrschaft Vale da Bica"
+        ],
+        "Antonio de Carvalhal Esmeraldo": [
+            "Gründer der Kapelle Nossa Senhora da Piedade"
+        ]
+    },
+    "years": {
+        "1522": [
+            "Gründung der Majoratsherrschaft Vale da Bica"
+        ],
+        "1670": [
+            "Gründung der Kapelle Nossa Senhora da Piedade"
+        ],
+        "1777": [
+            "Restaurierung der Kapelle Nossa Senhora da Piedade"
+        ],
+        "1879": [
+            "Restaurierung der Kapelle Nossa Senhora da Piedade"
+        ]
+    }
+}

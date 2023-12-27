@@ -1,0 +1,30 @@
+{
+    "id": 967,
+    "lang": "en",
+    "is_original": false,
+    "title": "Conceição",
+    "fl": "C",
+    "original_title": "Conceição",
+    "body": "A populated place in the parish of São Roque do Funchal. In this place, there is a chapel dedicated to Our Lady of Conceição, built in the year 1700 by Canon Antonio Lopes de Andrade.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Antonio Lopes de Andrade": [
+            "Builder of the chapel"
+        ]
+    },
+    "years": {
+        "1700": [
+            "Construction of the chapel"
+        ]
+    }
+}

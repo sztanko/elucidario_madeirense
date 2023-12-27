@@ -1,0 +1,30 @@
+{
+    "id": 2920,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pregador da Camara",
+    "fl": "P",
+    "original_title": "Pregador da Camara",
+    "body": "A Câmara Municipal do Funchal teve outrora um pregador a quem pagava ordenado e que era obrigado a fazer os sermões nas festividades oficiais. Em 1831 foi nomeado pregador da Câmara o padre fr. José de Jesus, tendo antes dele desempenhado esse cargo fr. João José da Purificação, nomeado em 1829, com o ordenado de 24$000 réis anuais.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Fr. José de Jesus": [
+            "Nomeado pregador da Câmara em 1831"
+        ],
+        "Fr. João José da Purificação": [
+            "Nomeado pregador da Câmara em 1829"
+        ]
+    },
+    "years": {
+        "1831": [
+            "Nomeação de fr. José de Jesus como pregador da Câmara"
+        ],
+        "1829": [
+            "Nomeação de fr. João José da Purificação como pregador da Câmara"
+        ]
+    }
+}

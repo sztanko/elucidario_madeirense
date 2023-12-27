@@ -1,0 +1,26 @@
+{
+    "id": 1235,
+    "lang": "en",
+    "is_original": false,
+    "title": "Erva Arroz",
+    "fl": "E",
+    "original_title": "Erva Arroz",
+    "body": "Common name for Sedum farinosum and S. nudum, indigenous plants of the Crassulaceae family. The first species is found in Torrinhas, near Paul da Serra, etc.; the second is common along the entire northern coast.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Torrinhas": [
+            "Location of the plant"
+        ],
+        "Paul da Serra": [
+            "Location of the plant"
+        ],
+        "Northern coast": [
+            "Location of the plant"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

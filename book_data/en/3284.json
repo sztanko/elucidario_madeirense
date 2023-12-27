@@ -1,0 +1,32 @@
+{
+    "id": 3284,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sarsfield (Eduardo da Rocha)",
+    "fl": "S",
+    "original_title": "Sarsfield (Eduardo da Rocha)",
+    "body": "(Eduardo da Rocha) He is a native of Porto and the son of the Madeiran Colonel Alexandre José Sarsfield. He was appointed Civil Governor of the district of Funchal by decree of May 18, 1922, taking office on the 28th of the same month and year.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto": [
+            "Birthplace of Eduardo da Rocha Sarsfield"
+        ],
+        "Funchal": [
+            "District where Eduardo da Rocha Sarsfield was appointed Civil Governor"
+        ]
+    },
+    "people": {
+        "Alexandre José Sarsfield": [
+            "Father of Eduardo da Rocha Sarsfield"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Eduardo da Rocha Sarsfield was appointed Civil Governor of the district of Funchal"
+        ]
+    }
+}

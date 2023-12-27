@@ -1,0 +1,48 @@
+{
+    "id": 2346,
+    "lang": "de",
+    "is_original": false,
+    "title": "Monteiro (José Maria)",
+    "fl": "M",
+    "original_title": "Monteiro (José Maria)",
+    "body": "Er war der erste miguelistische Gouverneur, der diesen Archipel verwaltete. Seine Ernennung datiert vom 15. Juni 1828, und am 25. desselben Monats erschien in Funchal die Fregatte Príncipe Real, die ihn transportierte, aber deren Landung der Gouverneur und Generalkapitän José Lúcio Travassos Valdês verhinderte. Wie im Artikel Besetzung Madeiras durch miguelistische Truppen erwähnt, landete José Maria Monteiro nach der Einnahme der Insel durch royalistische Streitkräfte und übernahm am 24. August 1828 sein Amt. Seine Regierungszeit war nicht lang, aber sie war traurigerweise gekennzeichnet durch Willkür und Demütigungen, die er den Einwohnern des Archipels zufügte. Das ominöse Sondergericht, das zu dieser Zeit auf die Insel kam und unter dem Vorsitz des Richters Francisco António Maciel Monteiro stand, beging die schlimmsten Exzesse und verwickelte Hunderte von Personen in seine inquisitorische Untersuchung, von denen viele verhaftet und von der Insel verbannt wurden, nicht wenige in unsere überseeischen Besitzungen. Die Auswanderung von Menschen aller Gesellschaftsschichten, die vor Verfolgung flohen, war sehr groß, vor allem nach England, Brasilien und Nordamerika. Eine beträchtliche Anzahl von Beamten wurde entlassen, viele wurden verhaftet und nach Lissabon geschickt. José Maria Monteiro wurde nicht nur durch die Verfolgung der Liberalen auf dieser Insel berüchtigt, sondern auch durch seinen Mangel an Würde und Skrupeln. Bei einer Gelegenheit bemächtigte er sich sogar eines Teils des Geldes, das für die Bezahlung der Truppen bestimmt war. Es heißt, dass er bei den häufigen Besuchen in den Wohnungen der Verfolgten, begleitet von Schergen, alles an sich nahm, was er von einigem Wert fand. Auch zwei seiner Söhne zeichneten sich in diesen Heldentaten aus, denen ein großer Raubzug im Landgut Palheiro zugeschrieben wird, das João de Carvalhal gehörte. José Maria Monteiro, der Kapitän zur See und Kriegskapitän war und ein Hofamt bei Dom Miguel innehatte, verließ Madeira Ende April 1830, kurz nach der Ankunft seines Nachfolgers Dom Álvaro da Costa de Sousa Macedo. Für seine Biographie siehe Seite 113, Band I und Seite 95, Band II, wo wir über Oberst José António de Azevedo Lemos und Joaquim Melchior Gonçalves sprechen.",
+    "categories": [
+        "history",
+        "politics",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ankunftsort"
+        ],
+        "England": [
+            "Auswanderungsziel"
+        ],
+        "Brasilien": [
+            "Auswanderungsziel"
+        ],
+        "Nordamerika": [
+            "Auswanderungsziel"
+        ],
+        "Lissabon": [
+            "Bestimmungsort für Gefangene"
+        ],
+        "Palheiro Anwesen": [
+            "Ort des Raubzugs"
+        ]
+    },
+    "people": {
+        "José Maria Monteiro": [
+            "Erster miguelistischer Gouverneur"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Amtsübernahme"
+        ],
+        "1830": [
+            "Abreise von Madeira"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 1346,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Favila",
+    "fl": "F",
+    "original_title": "Favila",
+    "body": "Primitivamente teve este apelido a grafia de Favela, que pertence a uma antiga e nobre família que se estabeleceu nesta ilha nos fins do século XV. O primeiro que o usou entre nós foi Fernão Favela, chamado o Velho, que tinha servido valorosamente em Africa e que fora fidalgo da casa real. Casou na Madeira com Beatriz Pires e instituíu o morgadio dos Piornais, com sede na capela de Nossa Senhora da Ajuda, por ele fundada e onde foi sepultado, tendo falecido no ano de 1545, segundo diz Henriques de Noronha, e em 1537, conforme a data assinada pelo Dr. Rodrigues de Azevedo. Foi seu filho e sucessor Antonio Favila, que morreu em 1601 e jaz sepultado na capela da Ajuda. D. Inez Moniz, que nasceu em 1553 e morreu em 1589 era filha de Antonio Favila e instituiu um morgadio a favor de sua sobrinha D. Isabel Acciaioli de Vasconcelos, com a clausula de andar perpetuamente na filha primogénita, o que é uma circunstancia em extremo curiosa e cremos que muito rara, ao menos entre nós.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Piornais",
+        "Nossa Senhora da Ajuda"
+    ],
+    "locations": {},
+    "people": {
+        "Fernão Favela": [
+            "Fidalgo da casa real, estabelecido na Madeira nos fins do século XV."
+        ],
+        "Beatriz Pires": [
+            "Esposa de Fernão Favela."
+        ],
+        "Antonio Favila": [
+            "Filho e sucessor de Fernão Favela, sepultado na capela da Ajuda."
+        ],
+        "D. Inez Moniz": [
+            "Filha de Antonio Favila, instituiu um morgadio a favor de sua sobrinha D. Isabel Acciaioli de Vasconcelos."
+        ]
+    },
+    "years": {
+        "1545": [
+            "Falecimento de Fernão Favela."
+        ],
+        "1601": [
+            "Morte de Antonio Favila."
+        ],
+        "1553": [
+            "Nascimento de D. Inez Moniz."
+        ],
+        "1589": [
+            "Falecimento de D. Inez Moniz."
+        ]
+    }
+}

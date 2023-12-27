@@ -1,0 +1,40 @@
+{
+    "id": 3460,
+    "lang": "en",
+    "is_original": false,
+    "title": "Wireless Telegraphy",
+    "fl": "W",
+    "original_title": "Telegrafia sem fios",
+    "body": "In the building of the telegraph station in Funchal, there is a wireless telegraphy station inaugurated on June 2, 1922, with the installation work taking about 15 days. The first experiment took place on June 1, establishing communication with an English steamer at a distance of 150 miles, and with a Portuguese steamer at a distance of 400 miles. Communication was also established with the station in Las Palmas, in the Canary Islands.\n\nDuring the period of the European war, a wireless telegraphy station operated on behalf of the English government at Quinta Santana, and the news it received from abroad was transmitted daily to the people of Funchal through the newspapers. The Quinta Santana station ceased to operate on April 2, 1919.\n\nBy order of the Ministry of Finance, the installation of a radio-telegraph station at Quinta Santana was authorized on December 12, 1921, but such installation never took place.\n\nIn 1912, a contract was made with the Marconi Company for the establishment of several wireless telegraphy stations in the country, one of which was in Madeira, but nothing was done due to our government failing to fulfill the obligations it had contracted. In 1922, the same government was authorized by the Congress of the Republic to contract with the said Company for the establishment of a radio-telegraph network, and it should begin by installing and operating at its own expense, without any cost to the State, wireless telegraphy stations in Lisbon, the Azores, Madeira, Cape Verde, Angola, and Mozambique. (1921)",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Existence of a wireless telegraphy station inaugurated in 1922 and communication established with steamers and the station in Las Palmas"
+        ],
+        "Quinta Santana": [
+            "Operation of a wireless telegraphy station during the European war and authorization for the installation of a radio-telegraph station that never took place"
+        ],
+        "Las Palmas": [
+            "Communication established with the wireless telegraphy station in Funchal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1922": [
+            "Inauguration of the wireless telegraphy station and communication with steamers and Las Palmas"
+        ],
+        "1919": [
+            "Cessation of operation of the wireless telegraphy station at Quinta Santana"
+        ],
+        "1921": [
+            "Authorization for the installation of a radio-telegraph station at Quinta Santana and contract with the Marconi Company for the establishment of wireless telegraphy stations"
+        ],
+        "1912": [
+            "Contract with the Marconi Company for the establishment of wireless telegraphy stations"
+        ]
+    }
+}

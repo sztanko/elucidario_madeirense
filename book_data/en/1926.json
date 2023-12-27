@@ -1,0 +1,39 @@
+{
+    "id": 1926,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lampreia (João de Oliveira Sá Camelo)",
+    "fl": "L",
+    "original_title": "Lampreia (João de Oliveira Sá Camelo)",
+    "body": "He was born in Funchal around 1864 and is the son of the distinguished Madeiran Francisco Joaquim de Sá Camelo Lampreia (see this name). He attended the former Commercial Institute of Lisbon and pursued a diplomatic career, being appointed as an attaché to the legations of Stockholm and Copenhagen in 1883. In 1890, he went to Rome as an embassy secretary and remained there for several years, serving several times as chargé d'affaires. After serving in the Madrid legation, he moved to Rio de Janeiro in 1896 as the first secretary. By decree of September 8, 1900, he was appointed as an extraordinary envoy and minister plenipotentiary to Brazil, a position he held for several years. He rendered significant services to his country there, while also gathering around his name the warmest sympathies not only of the important Portuguese colony, but also of the highest individuals of the Brazilian Republic. With the establishment of the new political regime, he left the diplomatic career, residing in the city of Rio de Janeiro engaged in the active commercial life. He passed away in the city of Rio de Janeiro on July 11, 1943.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Joaquim de Sá Camelo Lampreia": [
+            "Father of João de Oliveira Sá Camelo Lampreia"
+        ]
+    },
+    "years": {
+        "1864": [
+            "Birth of João de Oliveira Sá Camelo Lampreia"
+        ],
+        "1883": [
+            "Appointment as attaché to the legations of Stockholm and Copenhagen"
+        ],
+        "1890": [
+            "Move to Rome as an embassy secretary"
+        ],
+        "1896": [
+            "Transfer to Rio de Janeiro as the first secretary"
+        ],
+        "1900": [
+            "Appointment as an extraordinary envoy and minister plenipotentiary to Brazil"
+        ],
+        "1943": [
+            "Death in the city of Rio de Janeiro"
+        ]
+    }
+}

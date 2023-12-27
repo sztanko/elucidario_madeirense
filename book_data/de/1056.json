@@ -1,0 +1,33 @@
+{
+    "id": 1056,
+    "lang": "de",
+    "is_original": false,
+    "title": "Coutinho",
+    "fl": "C",
+    "original_title": "Coutinho",
+    "body": "Dieser Familienname stammt von Luiz Fernandes de Matos Coutinho ab, der um 1580 nach Madeira kam und hier ein großes Handelshaus hatte. Dieser Luiz Coutinho war der Sohn des Ritters Antonio Vaz de Matos, der Afonso de Albuquerque nach Indien begleitete. Die Kapelle Nossa Senhora da Quietação in Santo Antonio wurde 1670 von Loureuço de Matos Coutinho gegründet, der wahrscheinlich ein Nachfahre des besagten Luiz Coutinho war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Madeira": [
+            "Ort der Ansiedlung der Familie Coutinho"
+        ]
+    },
+    "people": {
+        "Luiz Fernandes de Matos Coutinho": [
+            "Siedler auf Madeira, Nachfahre von Antonio Vaz de Matos"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Ankunft von Luiz Fernandes de Matos Coutinho auf Madeira"
+        ],
+        "1670": [
+            "Gründung der Kapelle Nossa Senhora da Quietação"
+        ]
+    }
+}

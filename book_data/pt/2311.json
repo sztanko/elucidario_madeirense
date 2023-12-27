@@ -1,0 +1,29 @@
+{
+    "id": 2311,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mitten (William)",
+    "fl": "M",
+    "original_title": "Mitten (William)",
+    "body": "Briologista inglês que estudou as Muscineas colhidas por James Yate Johnson na Madeira. O seu herbário foi adquirido pelo Jardim Botânico de Nova York, em 1906, segundo se lê numa carta escrita pelo professor Cockerell ao zoologo madeirense A. C. de Noronha. E.: Contributions to the cryptogamic flora of the Atlantic Islands. (Linnean Society's Journ. Bot., VIII). V. Godman.",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Nova York": [
+            "Jardim Botânico de Nova York"
+        ]
+    },
+    "people": {
+        "James Yate Johnson": [
+            "Colheu as Muscineas estudadas por William Mitten"
+        ]
+    },
+    "years": {
+        "1906": [
+            "Aquisição do herbário de William Mitten pelo Jardim Botânico de Nova York"
+        ]
+    }
+}

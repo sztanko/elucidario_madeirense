@@ -1,0 +1,28 @@
+{
+    "id": 2455,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Norman (Capitão Francisco N.)",
+    "fl": "N",
+    "original_title": "Norman (Capitão Francisco N.)",
+    "body": "Botânico inglês que herborizou na Madeira em 1860 e a quem Lowe dedicou o género Normania, incluído mais tarde no género Solanum.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde herborizou"
+        ]
+    },
+    "people": {
+        "Lowe": [
+            "Dedicou o género Normania, incluído mais tarde no género Solanum"
+        ]
+    },
+    "years": {
+        "1860": [
+            "Herborização na Madeira"
+        ]
+    }
+}

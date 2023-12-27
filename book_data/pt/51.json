@@ -1,0 +1,30 @@
+{
+    "id": 51,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aderno (Ardisia excelsa)",
+    "fl": "A",
+    "original_title": "Aderno (Ardisia excelsa)",
+    "body": "Árvore indígena da família das Mirsineaceas, que se encontra nas serras de S. Vicente, da Ribeira da Janela, do Porto da Cruz, etc.. Tem folhas coriaceas, inteiras, transparentes e pontoadas de vermelho nas margens, e pequenas flores verdes ou esverdinhadas, reunidas em fascículos quasi sempre extra axilares. Os seus frutos são pequenos, globosos e vermelhos, e a sua madeira é branca ou um pouco rosada, ondeada e dura. Esta madeira servia outrora para quilhas de botes.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "Ribeira da Janela",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Árvore indígena"
+        ],
+        "Ribeira da Janela": [
+            "Árvore indígena"
+        ],
+        "Porto da Cruz": [
+            "Árvore indígena"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

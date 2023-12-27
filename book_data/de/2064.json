@@ -1,0 +1,32 @@
+{
+    "id": 2064,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lugar de Baixo (Bucht und Hafen)",
+    "fl": "L",
+    "original_title": "Lugar de Baixo (Enseada e Porto do)",
+    "body": "An diesem Ort gibt es eine kleine Bucht mit einem Strand, der als Hafen dient. Manchmal ist die Landung dort vorzuziehen gegenüber den Kais von Ponta do Sol und Ribeira Brava. In diesem Hafen ging am 25. Oktober 1858 Infant D. Luis, der spätere König von Portugal, an Land, da wegen des Seegangs die Landung am Kai des Ortes Ponta do Sol nicht möglich war.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Sol": [
+            "Ort mit Kai"
+        ],
+        "Ribeira Brava": [
+            "Ort mit Kai"
+        ]
+    },
+    "people": {
+        "Infant D. Luis": [
+            "Ging am 25. Oktober 1858 im Hafen an Land"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Landung von Infant D. Luis im Hafen"
+        ]
+    }
+}

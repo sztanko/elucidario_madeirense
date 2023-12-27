@@ -1,0 +1,30 @@
+{
+    "id": 231,
+    "lang": "de",
+    "is_original": false,
+    "title": "Darstellung",
+    "fl": "D",
+    "original_title": "Apresentação",
+    "body": "An der Stelle Lombo da Apresentação in der Gemeinde Ribeira Brava gab es eine Kapelle zur Verehrung Unserer Lieben Frau, die 1524 von João Mendes de Brito gegründet wurde. Sie wurde in das Majoratshaus der Familie Heredias integriert, deren letzter Vertreter der Vizconde da Ribeira Brava war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Lombo da Apresentação": [
+            "Ort in der Gemeinde Ribeira Brava"
+        ]
+    },
+    "people": {
+        "João Mendes de Brito": [
+            "Gründer der Kapelle"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Gründung der Kapelle Unserer Lieben Frau durch João Mendes de Brito"
+        ]
+    }
+}

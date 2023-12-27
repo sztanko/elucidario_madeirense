@@ -1,0 +1,29 @@
+{
+    "id": 1459,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fothergill (Dr.)",
+    "fl": "F",
+    "original_title": "Fothergill (Dr.)",
+    "body": "Er empfahl in einer Arbeit mit dem Titel On consumption medical observations, 1775 Personen, die an Lungenkrankheiten litten, das Klima Madeiras aufzusuchen.",
+    "categories": [
+        "health",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Klima"
+        ]
+    },
+    "people": {
+        "Dr. Fothergill": [
+            "Arzt"
+        ]
+    },
+    "years": {
+        "1775": [
+            "Veröffentlichung von On consumption medical observations"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2029,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo da Igreja",
+    "fl": "L",
+    "original_title": "Lombo da Igreja",
+    "body": "Besiedelter Ort in der Gemeinde Estreito da Calheta. Gewöhnlich wird er in zwei Orte unterteilt: Igreja Acima und Igreja Abaixo, je nach ihrer Lage relativ zur Pfarrkirche. Hier befindet sich die Kapelle Unserer Lieben Frau der Empfängnis, die um 1672 von André de França e Andrade gegründet wurde. Sie war der Sitz eines der größten Majorate Madeiras und ihr letzter Verwalter war der 1. Graf von Calçada (1812-1906).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Gemeinde Estreito da Calheta"
+        ]
+    },
+    "people": {
+        "André de França e Andrade": [
+            "Gründer der Kapelle Unserer Lieben Frau der Empfängnis"
+        ]
+    },
+    "years": {
+        "1672": [
+            "Gründung der Kapelle Unserer Lieben Frau der Empfängnis"
+        ],
+        "1812": [
+            "Verwaltung durch den 1. Grafen von Calçada"
+        ]
+    }
+}

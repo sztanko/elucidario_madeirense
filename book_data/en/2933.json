@@ -1,0 +1,50 @@
+{
+    "id": 2933,
+    "lang": "en",
+    "is_original": false,
+    "title": "Princesas Marroquinas",
+    "fl": "P",
+    "original_title": "Princesas Marroquinas",
+    "body": "On April 19, 1793, a Moroccan brigantine arrived at the port of Funchal, carrying on board the wife, three daughters, and two sons of Prince Muley Abdessalam, as well as nine of his concubines and some other high-ranking people in Morocco, including the widow of the former emperor Muley Ismael. The prince's entourage consisted of two ladies-in-waiting, a eunuch, a leading sailor, a secretary, a black gatekeeper acting as a eunuch, seventeen female musicians, thirty servants, seventeen servant women, one hundred and nineteen slaves, eleven Moorish passengers, a Jew, and a Jewish friend of the sailor. Including the crew, there were over two hundred people on board the brigantine, all greatly inconvenienced by the small size of the ship and the lack of water on board. The brigantine was heading for Salé, where Muley Abessalam intended to protect his family from the dangers of the civil war then ravaging the empire of Morocco. However, encountering adverse winds that took them away from their destination port, the commander was forced to take it to the port of Funchal, where he knew he would find resources to continue the journey in better conditions. The princesses were warmly received in Funchal by the governor and captain-general D. Diogo Forjaz Coutinho, as well as by the Moroccan consul Diogo Teles. The local authority arranged for two Portuguese brigantines to be prepared, on which the travelers were distributed, with the consul also boarding one of them, intending to accompany the princesses to Salé. The journey was not successful. After the ships deviated from their course upon leaving the port of Funchal, the princesses had to disembark on the island of S. Miguel, from where they went to Lisbon, finally returning to their country on August 8, aboard three vessels made available to them by the Portuguese government. Consul Domingos Teles only accompanied the princesses to the island of S. Miguel, leaving them there without bothering to justify his actions.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Port"
+        ],
+        "Salé": [
+            "Original destination of the journey"
+        ],
+        "S. Miguel": [
+            "Disembarkation location before heading to Lisbon"
+        ]
+    },
+    "people": {
+        "Muley Abdessalam": [
+            "Prince"
+        ],
+        "Muley Ismael": [
+            "Former emperor"
+        ],
+        "D. Diogo Forjaz Coutinho": [
+            "Governor and captain-general"
+        ],
+        "Diogo Teles": [
+            "Moroccan consul"
+        ],
+        "Domingos Teles": [
+            "Consul"
+        ]
+    },
+    "years": {
+        "1793": [
+            "Arrival of the Moroccan brigantine at the port of Funchal"
+        ],
+        "8 de Agosto": [
+            "Return of the princesses to their country"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 67,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Água(Ponta da)",
+    "fl": "Á",
+    "original_title": "Água(Ponta da)",
+    "body": "Fica esta ponta ou saliência de costa sita no litoral da freguesia de Câmara de Lobos, nas proximidades do Cabo Girão, e equidistante da Fajã das Pedras e da Fajã dos Asnos.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Freguesia de Câmara de Lobos"
+        ],
+        "Cabo Girão": [
+            "Cabo Girão"
+        ],
+        "Fajã das Pedras": [
+            "Fajã das Pedras"
+        ],
+        "Fajã dos Asnos": [
+            "Fajã dos Asnos"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

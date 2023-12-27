@@ -1,0 +1,33 @@
+{
+    "id": 3187,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santa Cruz (Bucht, Hafen, Kai und Fluss)",
+    "fl": "S",
+    "original_title": "Santa Cruz (Enseada, Porto, Cais e Ribeira de)",
+    "body": "Der Hafen von Santa Cruz besteht aus einer relativ großen Bucht, die Frutuoso eine \"schöne Bucht\" nannte. Sie wird teilweise von einem felsigen Strand gesäumt, an dem es bei gutem Wetter für Boote mit geringer Tragfähigkeit einfach ist, an Land zu gehen. An der Stelle der Bucht, an der sich nahe der Küste eine Sandbank befindet, wurde diese 1845 für den Bau einer kleinen Anlegestelle genutzt, die 1870 verbessert wurde. Der heutige Kai mit umfangreicheren Abmessungen und besseren Voraussetzungen für den Hafenbetrieb wurde 1908-1909 vom Distriktrat in Auftrag gegeben, wobei die Arbeiten, die bereits zuvor durchgeführt worden waren, genutzt wurden. Die Stadt Santa Cruz wird von dem gleichnamigen Fluss durchquert, der seinen Ursprung in der Gemeinde Santo da Serra hat und in den Ozean mündet.",
+    "categories": [
+        "geography",
+        "transport"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Ort mit Hafen, Kai und Fluss"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Jahr des Baus der kleinen Anlegestelle"
+        ],
+        "1870": [
+            "Jahr der Verbesserung der Anlegestelle"
+        ],
+        "1908-1909": [
+            "Jahr des Baus des heutigen Kais"
+        ]
+    }
+}

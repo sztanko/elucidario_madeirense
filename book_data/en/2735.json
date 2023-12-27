@@ -1,0 +1,28 @@
+{
+    "id": 2735,
+    "lang": "en",
+    "is_original": false,
+    "title": "Perdiz",
+    "fl": "P",
+    "original_title": "Perdiz",
+    "body": "The partridge of Madeira is the Caccabis rufa, of the Fasianida family; that of Porto Santo is the Caccabis petrosa, of the same family. The former inhabits the coastal slopes and the interior, where nests with 17, 19, and 21 eggs are found; the latter is a species introduced in 1900, but which multiplied rapidly in Porto Santo. The Madeiran partridge is a species that can now be considered rare (1921).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Introduced in 1900"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Introduction of the species"
+        ],
+        "1921": [
+            "Species that can now be considered rare"
+        ]
+    }
+}

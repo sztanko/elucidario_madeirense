@@ -1,0 +1,34 @@
+{
+    "id": 2089,
+    "lang": "de",
+    "is_original": false,
+    "title": "Machado (Dr. Vicente Cândido)",
+    "fl": "M",
+    "original_title": "Machado (Dr. Vicente Cândido)",
+    "body": "Er wurde am 3. Oktober 1855 in Funchal geboren und starb in dieser Stadt am 23. November 1911. 1880 schloss er sein Medizinstudium an der Universität Paris ab. Nach seiner Rückkehr nach Madeira führte er am 2. Oktober desselben Jahres erfolgreich eine heikle chirurgische Operation am verstorbenen Prälaten D. Manuel Agostinho Barreto durch, was ihm schnell großes Ansehen als hervorragender Arzt und Chirurg verschaffte. Er verteidigte seine Doktorarbeit \"E'ssai sur les oreillons sous-maxillaires\" und veröffentlichte 1884 in einer Polemik mit Graf Canavial die Streitschrift \"Resposta ao folheto do dr. João da Camara Leme Homem de Vasconcellos...\".",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Verstorbener Prälat"
+        ],
+        "Dr. João da Camara Leme Homem de Vasconcellos": [
+            "Autor der polemischen Broschüre"
+        ]
+    },
+    "years": {
+        "1855": [
+            "Geburtsjahr"
+        ],
+        "1880": [
+            "Abschluss des Medizinstudiums in Paris"
+        ],
+        "1884": [
+            "Veröffentlichung der Streitschrift \"Resposta ao folheto...\""
+        ]
+    }
+}

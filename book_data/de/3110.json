@@ -1,0 +1,52 @@
+{
+    "id": 3110,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rodrigues (Adolfo de Sousa)",
+    "fl": "R",
+    "original_title": "Rodrigues (Adolfo de Sousa)",
+    "body": "Dieser hervorragende Maler, dessen vorzeitiger Tod und die hartnäckige Krankheit in den letzten Jahren seines Lebens es nicht zuließen, dass er die ganze Kraft seines Talents zeigte, wurde am 13. Januar 1867 in Funchal geboren und starb am 9. März 1908 in der Stadt Lissabon.\n\nEr hatte einen Abschluss der Academia das Belas Artes, wo er immer hohe Noten erhielt. Er zeichnete sich im Studium der Historienmalerei aus, in der er mit dem Gemälde Hero und Leandro den ersten Preis gewann. Diese Spezialität studierte er bei José Ferreira Chaves und ging dann nach Paris, um sich bei Paul Laurens und Benjamin Constant weiterzubilden. Im 2. Jahr des Akademiekurses hatte er auch den Preis \"Anunciação\" gewonnen. Bei der Ausstellung des Grémio Artístico in Lissabon gewann er 1895 die dritte Medaille. Er nahm an verschiedenen Ausstellungen teil, auf denen unter anderem seine Gemälde Die Versuchung Christi und Der barmherzige Samariter zu sehen waren.\n\nEr malte das Porträt von König D. Carlos, das sich im Sitzungssaal der Stadtverwaltung von Funchal befand, das unseres berühmten Landsmannes Agostinho de Ornelas e Vasconcelos etc. etc. und hatte die Palmes académiques der Académie française und den Orden de Isabel la Católica aus Spanien.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Wurde in Funchal geboren"
+        ],
+        "Lisboa": [
+            "Starb in der Stadt Lissabon"
+        ]
+    },
+    "people": {
+        "Adolfo de Sousa Rodrigues": [
+            "Hervorragender Maler"
+        ],
+        "José Ferreira Chaves": [
+            "Studierte diese Spezialität bei José Ferreira Chaves"
+        ],
+        "Paul Laurens": [
+            "Bildete sich weiter bei Paul Laurens"
+        ],
+        "Benjamin Constant": [
+            "Bildete sich weiter bei Benjamin Constant"
+        ],
+        "D. Carlos": [
+            "Malte das Porträt von König D. Carlos"
+        ],
+        "Agostinho de Ornelas e Vasconcelos": [
+            "Das Porträt unseres berühmten Landsmannes Agostinho de Ornelas e Vasconcelos"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Wurde geboren"
+        ],
+        "1908": [
+            "Starb"
+        ],
+        "1895": [
+            "Gewann 1895 die dritte Medaille"
+        ]
+    }
+}

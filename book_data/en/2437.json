@@ -1,0 +1,34 @@
+{
+    "id": 2437,
+    "lang": "en",
+    "is_original": false,
+    "title": "Neves (Dr. Cassiano das)",
+    "fl": "N",
+    "original_title": "Neves (Dr. Cassiano das)",
+    "body": "He was a lawyer in the city of Lamego when in 1877 he published in Porto a pamphlet entitled 'A sepultura Eclesiástica e os Suicidas', which deals with the denial of burial in the Angustias cemetery in Funchal to an individual who committed suicide in this city on March 4, 1877. It is a passionate defense of the diocesan prelate D. Manuel Agostinho Barreto. (See vol. I, p. 71 and 130).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lamego": [
+            "City where Dr. Cassiano das Neves was a lawyer"
+        ],
+        "Porto": [
+            "Location of the publication of the pamphlet 'A sepultura Eclesiástica e os Suicidas'"
+        ],
+        "Funchal": [
+            "Location where the mentioned suicide in the pamphlet occurred"
+        ]
+    },
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Diocesan prelate defended in the pamphlet"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Publication of the pamphlet 'A sepultura Eclesiástica e os Suicidas'"
+        ]
+    }
+}

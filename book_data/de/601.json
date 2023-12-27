@@ -1,0 +1,30 @@
+{
+    "id": 601,
+    "lang": "de",
+    "is_original": false,
+    "title": "Busk (George)",
+    "fl": "B",
+    "original_title": "Busk (George)",
+    "body": "Professor und Naturforscher, der sich mit den Moostierchen Madeiras befasste. Seine Studien basierten auf Materialien, die ihm von James Y. Johnson von der Insel geschickt wurden. Diese frühesten bekannten Arbeiten über diesen Bereich der Naturgeschichte Madeiras nennen insgesamt 45 Arten und wurden unter folgenden Titeln veröffentlicht: Zoophytology (Quart. Journ. Micros Sc. VI 1858); On Some Madeiran Polyzoa (Ebd., VI und VII, 1858 und 1859); und Catalogue of the Polyzoa collected by J. Y. Johnson, Esq. at Madeira, in the years 1859 and 1860 (Ebd., VIII und IX, 1860 und 1861).\n\n## V. Moostiere.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "James Y. Johnson": [
+            "Person, die Materialien für Busks Studien zur Verfügung stellte"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Veröffentlichung von Zoophytology"
+        ],
+        "1859": [
+            "Veröffentlichung von On Some Madeiran Polyzoa"
+        ],
+        "1860": [
+            "Veröffentlichung von Catalogue of the Polyzoa collected by J. Y. Johnson, Esq. at Madeira"
+        ]
+    }
+}

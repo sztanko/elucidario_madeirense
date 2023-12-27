@@ -1,0 +1,30 @@
+{
+    "id": 373,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Badajeira",
+    "fl": "B",
+    "original_title": "Badajeira",
+    "body": "Baixio, a sudeste do Ilhéu de Fora (a pequena distancia da Ponta de São Lourenço), onde naufragaram o vapor Forerunner, em Outubro de 1854, e o vapor Newton, a 12 de Abril de 1881. Ambos estes naufrágios se deram estando o mar tranquilo, tendo perecido no primeiro grande numero pessoas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilhéu de Fora": [
+            "Ilhéu localizado a sudeste da Badajeira."
+        ],
+        "Ponta de São Lourenço": [
+            "Localidade próxima da Badajeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1854": [
+            "Naufrágio do vapor Forerunner."
+        ],
+        "1881": [
+            "Naufrágio do vapor Newton."
+        ]
+    }
+}

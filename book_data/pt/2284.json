@@ -1,0 +1,29 @@
+{
+    "id": 2284,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mesquita",
+    "fl": "M",
+    "original_title": "Mesquita",
+    "body": "Este apelido de família procede de Pedro Ferreira de Mesquita que em 1662 vivia na Ponta do Sol e aí fundou a capela de Nossa Senhora dos Milagres, e de um tal António de Mesquita, natural de Malhorca, que, por motivos que nos são desconhecidos, veio ter a esta ilha.\n\nV. Esprânger.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro Ferreira de Mesquita": [
+            "Fundador da capela de Nossa Senhora dos Milagres"
+        ],
+        "António de Mesquita": [
+            "Natural de Malhorca"
+        ]
+    },
+    "years": {
+        "1662": [
+            "Fundação da capela de Nossa Senhora dos Milagres"
+        ]
+    }
+}

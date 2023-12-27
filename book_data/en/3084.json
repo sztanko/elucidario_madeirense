@@ -1,0 +1,43 @@
+{
+    "id": 3084,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ribeiro (Manuel)",
+    "fl": "R",
+    "original_title": "Ribeiro (Manuel)",
+    "body": "He was born in Lisbon on August 31, 1861, but has lived in Funchal since childhood. He has collaborated in different newspapers and is a deserving poet, being the author of the following booklets: Flores Agrestes, Funchal, 1903, 67 pages; Pyrilampos, Funchal, 1905, 56 pages; Outomnaes, Funchal, 1910, 55 pages; and Poentes, Funchal, 1913, 96 pages. The true name of this poet is Mardónio da Câmara; Manuel Ribeiro is just a pseudonym that he adopted for all his literary productions.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisbon": [
+            "Birthplace of Manuel Ribeiro"
+        ],
+        "Funchal": [
+            "Residence of Manuel Ribeiro"
+        ]
+    },
+    "people": {
+        "Manuel Ribeiro": [
+            "Poet and newspaper collaborator"
+        ]
+    },
+    "years": {
+        "1861": [
+            "Birth of Manuel Ribeiro"
+        ],
+        "1903": [
+            "Publication of the booklet Flores Agrestes"
+        ],
+        "1905": [
+            "Publication of the booklet Pyrilampos"
+        ],
+        "1910": [
+            "Publication of the booklet Outomnaes"
+        ],
+        "1913": [
+            "Publication of the booklet Poentes"
+        ]
+    }
+}

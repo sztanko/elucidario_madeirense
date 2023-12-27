@@ -1,0 +1,29 @@
+{
+    "id": 2341,
+    "lang": "en",
+    "is_original": false,
+    "title": "Monte Gordo e Boa Morte",
+    "fl": "M",
+    "original_title": "Monte Gordo e Boa Morte",
+    "body": "A populated place in the parish of Ribeira Brava. There was a chapel dedicated to Our Lady of Boa Morte, which gave the place its name, built by Francisco Fernandes and Brásia Fernandes, in a year that is unknown.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Francisco Fernandes": [
+            "Builder of the chapel"
+        ],
+        "Brásia Fernandes": [
+            "Builder of the chapel"
+        ]
+    },
+    "years": {}
+}

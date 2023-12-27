@@ -1,0 +1,38 @@
+{
+    "id": 1336,
+    "lang": "en",
+    "is_original": false,
+    "title": "Farol de São Lourenço",
+    "fl": "F",
+    "original_title": "Farol de São Lourenço",
+    "body": "As is known, the ship commanded by João Gonçalves Zarco at the time of the discovery of Madeira was named S. Lourenço, and when it first reached that strip of land, it was given the same name as the caravel that brought it. The tip of this point, or rather a small isolated rock facing it, was always considered the most suitable location for the installation of a lighthouse, as its illuminating action would extend over a considerable part of the north and south of the island, and even across the passage that separates Madeira from Porto Santo. This rock is an islet adjacent to the point, from which it is separated by a narrow channel, navigable only for small vessels.\n\nIn 1867, the definitive project and budget for the construction of this lighthouse were drawn up, and the construction of the respective house and annexed dependencies began in 1868, being completed in early 1870.\n\nThe lighthouse is dioptric or lenticular, of the second order, emitting a white light with intermittent flashes every 30 seconds and visible from a distance of 25 miles. It was built by the French company Saulter, and the engineer Charles Trepardoux came to carry out its installation. Its cost, including transportation and assembly, was 8,370$00.\n\nThe lantern is placed 140 meters above sea level and is located at 32° and 41' north latitude and 16° and 39' west longitude by the Greenwich Observatory.\n\nIt began operating, illuminating those parts for the first time, on September 30, 1870.\n\nA great public need was satisfied. Navigation complaints were constant, and even requests for compensation had been made for the damage caused to many vessels. Some ships ran aground in those vicinity, notably the grounding of the Forerunner in October 1854.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Lourenço": [
+            "Location of the discovery of Madeira by João Gonçalves Zarco"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Commander of the ship S. Lourenço at the time of the discovery of Madeira"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Start of the construction works of the São Lourenço Lighthouse"
+        ],
+        "1868": [
+            "Continuation of the construction works of the São Lourenço Lighthouse"
+        ],
+        "1870": [
+            "Completion of the construction works of the São Lourenço Lighthouse"
+        ],
+        "1854": [
+            "Grounding of the ship Forerunner"
+        ]
+    }
+}

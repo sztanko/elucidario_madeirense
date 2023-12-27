@@ -1,0 +1,31 @@
+{
+    "id": 421,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barcelos. (Pico dos)",
+    "fl": "B",
+    "original_title": "Barcelos. (Pico dos)",
+    "body": "A populated place in the parish of Santo Antonio do Funchal. Known by the same name, it is home to a small hill, which is now a must-see attraction for all tourists visiting Madeira. The lands that stretch from Ponta do Garajau to Cabo Girão form a vast semicircle, in the center of which rises the eminence of Pico dos Barcelos, offering one of the most attractive and beautiful panoramas that can possibly be presented to any visitor. The road that leads there, built in 1917, facilitates access to this location, which is almost always frequented by numerous national and foreign visitors. It seems that this place took its name from Diogo Barcelos, one of the original settlers who owned some tracts of land there.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Pico dos Barcelos": [
+            "Must-see attraction for all tourists visiting Madeira"
+        ]
+    },
+    "people": {
+        "Diogo Barcelos": [
+            "One of the original settlers who owned some tracts of land there"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Construction of the road that leads there"
+        ]
+    }
+}

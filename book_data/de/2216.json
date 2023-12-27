@@ -1,0 +1,30 @@
+{
+    "id": 2216,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mascarenhas (D. Francisco de)",
+    "fl": "M",
+    "original_title": "Mascarenhas (D. Francisco de)",
+    "body": "Seine Ernennung zum Gouverneur und Generalkapitän von Madeira datiert vom 31. Juli 1665, er trat sein Amt am 28. November desselben Jahres an. Während seiner Amtszeit hatte er große Schwierigkeiten, und am 18. September 1668 brach ein Volksaufstand aus, der ihn absetzte, gefangen nahm und dann gewaltsam einschiffte, wie ausführlicher unter Volksaufstände zu lesen ist. Er wurde interimistisch durch den Grundbesitzer Aires de Ornelas e Vasconcelos ersetzt. Er war ein Sohn des Grafen von Santa Cruz und hatte sich im Restaurationskrieg tapfer geschlagen. Er starb am 25. Februar 1699.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Aires de Ornelas e Vasconcelos": [
+            "Provisorischer Ersatz als Gouverneur und Generalkapitän"
+        ]
+    },
+    "years": {
+        "1665": [
+            "Ernennung zum Gouverneur und Generalkapitän"
+        ],
+        "1668": [
+            "Volksaufstand, der ihn absetzte"
+        ],
+        "1699": [
+            "Tod"
+        ]
+    }
+}

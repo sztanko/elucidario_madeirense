@@ -1,0 +1,40 @@
+{
+    "id": 2051,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lotteries",
+    "fl": "L",
+    "original_title": "Lotarias",
+    "body": "The Santa Casa da Misericórdia of this city had, on several occasions, the authority to establish a lottery aimed at assisting with the expenses of this charitable institution. The first lottery of which we have knowledge was granted by the royal decree of April 5, 1803, with a value of thirty contos de réis and divided into six thousand tickets at the price of five thousand réis each. The management of this lottery was overseen by the magistrate of the district, the judge from outside the district, and three other individuals appointed by the governor and captain-general. The draw was supposed to take place several times a year, but it seems that it never got off the ground. Through the efforts of the administrator of the Santa Casa, the illustrious Madeiran Dr. João Francisco de Oliveira, a new concession was granted to the Funchal charity in 1823, with the revenue from the lottery intended to be used for repairs to the Orphanage and to transform this establishment into a house of education for respectable girls from both the city and the distant villages. The proposal of the administrator, with a favorable report from the Governor, easily obtained the necessary royal licenses for the realization of the mentioned lottery, but it seems that this lottery had a short duration. By royal letter of September 12, 1857, the Misericórdia obtained another concession, which benefited them for a few years. The grand prize of the lottery varied greatly in value, having been 400,000 réis, 500,000 réis, 600,000 réis, 800,000 réis, and 1,000,000 réis. In May 1865, there were 2,400 tickets and 488 prizes, with the top three prizes being 800, 200, and 100 thousand réis; and in January 1868, there were 1,800 tickets, 600 of which were winners, with one prize of 400, another of 100, and a third of 50 thousand réis. Each ticket cost 1,000 réis and the smaller prizes were 1,200 réis. In the early 19th century, the rebuilders of the Teatro Grande were assisted by the government with the concession of an annual lottery, with a grand prize of 3 contos de réis. In the minutes of the session of the Municipal Chamber of Funchal on January 12, 1814, reference is made to \"a lottery that took place in this city for the benefit of the lepers\", but no other information can be gathered about this lottery, which, it seems, was promoted by the Municipality in order to obtain means to improve the conditions of those patients.",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. João Francisco de Oliveira": [
+            "Administrator of the Santa Casa"
+        ],
+        "D. Manuel Agostinho Barreto": [
+            "Deceased prelate"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Granting of the first lottery"
+        ],
+        "1823": [
+            "New concession to the Funchal charity"
+        ],
+        "1857": [
+            "Concession obtained by the Misericórdia"
+        ],
+        "1865": [
+            "Lottery with 2,400 tickets and 488 prizes"
+        ],
+        "1868": [
+            "Lottery with 1,800 tickets, 600 winners"
+        ]
+    }
+}

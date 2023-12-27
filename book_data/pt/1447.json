@@ -1,0 +1,31 @@
+{
+    "id": 1447,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte de S. João Baptista",
+    "fl": "F",
+    "original_title": "Forte de S. João Baptista",
+    "body": "Chamado também do Ancoradouro e do Desembarcadouro. Foi construído sobre uma ponta de rocha a leste da baía de Machico, em 1708.\n\nFez fogo sobre o brigue de guerra da esquadra miguelista, Infante D. Sebastião, em 22 de Agosto de 1828, danificando-o ligeiramente.\n\nEm 1910 foram construídas, na esplanada, casas de madeira e adaptado para hospital de coléricos.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Baía de Machico"
+        ]
+    },
+    "people": {
+        "Infante D. Sebastião": [
+            "Miguelista"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Construção do forte"
+        ],
+        "1828": [
+            "Fogo sobre o brigue de guerra"
+        ]
+    }
+}

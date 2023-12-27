@@ -1,0 +1,29 @@
+{
+    "id": 833,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castro (Padre Francisco de)",
+    "fl": "C",
+    "original_title": "Castro (Padre Francisco de)",
+    "body": "He was a renowned preacher of his time and held various important positions. Barbosa Machado in the Biblioteca Lusitana says of him: \"Francisco de Castro, a native of the city of Funchal, the capital of the island of Madeira, a priest of blameless life, a master in arts, a doctor in Theology from the University of Evora, where he was a colleague of the college of Purificação. He was a vicar of the collegiate church of S. Pedro in the city of Funchal, and then went to Cape Verde to seek a remedy for leprosy, and passed to a better life in the year 1665. Of the many sermons he preached, only the Sermon of the Conception of Our Lady, Rochella, 1656 and the Sermon of the Visitation of the Mother of God, Rochella, 1655, were published. Inocencio says in his Diccionario Bibliographico that these sermons are very rare, as he did not come across any copies of them. He was also the parish priest of the parish of Santo Antonio in Funchal.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Barbosa Machado": [
+            "Author of the Biblioteca Lusitana"
+        ],
+        "Inocencio": [
+            "Author of the Diccionario Bibliographico"
+        ]
+    },
+    "years": {
+        "1665": [
+            "Passage to a better life"
+        ]
+    }
+}

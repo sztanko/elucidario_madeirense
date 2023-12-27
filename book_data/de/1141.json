@@ -1,0 +1,23 @@
+{
+    "id": 1141,
+    "lang": "de",
+    "is_original": false,
+    "title": "Diário da Tarde",
+    "fl": "D",
+    "original_title": "Diário da Tarde",
+    "body": "Es erschienen 305 Ausgaben dieser Zeitung, die erste am 17. Dezember 1881 und die letzte am 30. Dezember 1882.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1881": [
+            "Beginn der Veröffentlichung des Diário da Tarde"
+        ],
+        "1882": [
+            "Ende der Veröffentlichung des Diário da Tarde"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": 355,
+    "lang": "en",
+    "is_original": false,
+    "title": "Azevedo (Antonio Pedro de)",
+    "fl": "A",
+    "original_title": "Azevedo (Antonio Pedro de)",
+    "body": "He was born in Caminha on February 7, 1814, and visited Madeira for the first time during the usurpation, at which time he was a infantry ensign. After completing his engineering degree following the restoration of the Charter, he returned to this island, where he held the position of director of Public Works for the District for many years. In 1842 and 1843, together with the officers of the British warship Styx, he surveyed the charts of Porto Santo, Madeira, and the Desertas, which were published in 1877, 1879, and 1886, respectively. He passed away in Lisbon on August 10, 1889, at which time he held the rank of retired division general.",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caminha": [
+            "Birthplace of Antonio Pedro de Azevedo."
+        ],
+        "Madeira": [
+            "Island where Antonio Pedro de Azevedo held the position of director of Public Works for the District."
+        ],
+        "Porto Santo": [
+            "Island where the charts were surveyed."
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Infantry ensign who held the position of director of Public Works for the District."
+        ]
+    },
+    "years": {
+        "1814": [
+            "Year of birth of Antonio Pedro de Azevedo"
+        ],
+        "1842": [
+            "Year in which the charts of Porto Santo, Madeira, and the Desertas were surveyed"
+        ],
+        "1843": [
+            "Year in which the charts of Porto Santo, Madeira, and the Desertas were surveyed"
+        ],
+        "1877": [
+            "Year of publication of the charts of Porto Santo"
+        ],
+        "1879": [
+            "Year of publication of the charts of Madeira"
+        ],
+        "1886": [
+            "Year of publication of the charts of the Desertas"
+        ],
+        "1889": [
+            "Year of death of Antonio Pedro de Azevedo"
+        ]
+    }
+}

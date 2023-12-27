@@ -1,0 +1,41 @@
+{
+    "id": 1383,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ferro",
+    "fl": "F",
+    "original_title": "Ferro",
+    "body": "Encontra-se no arquipélago grande quantidade deste mineral, porém em compostos que não vale a pena explorar, e quando apresenta maior percentagem é apenas em diminutos filões, como as lindas lâminas de ferro especular na rocha sobranceira ao cais da Ponta do Sol e em revestimentos internos de canais de lava, como nas furnas do Cavalum, em Machico, e na dos Cardais, em S. Vicente.\n\nÉ devido aos sais de ferro que a maior parte das rochas das nossas encostas se desagregam, e assim se dá a preparação das novas terras (poios), deixando-as esboroar pela acção dos agentes naturais e retendo-as em pequenos tabuleiros de cultivo.\n\nÉ o ferro que dá a cor pardacenta dos revestimentos dos blocos de basalto, a cor vermelha ás terras chamadas de massapês e ainda as laterites que listam as rochas, especialmente no literal, intercaladas entre duas assentadas basalticas.\n\nEncontra-se granular entre tufos nos Canhas, celular na Madalena do Mar, e lamelar sobre argilas em Sant'Ana e S. Jorge, com a aparência de sucata e em dissolução na água de algumas fontes, como na do Jamboto, em S. Antonio. S.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Sol": [
+            "Rocha sobranceira ao cais"
+        ],
+        "Machico": [
+            "Furnas do Cavalum"
+        ],
+        "S. Vicente": [
+            "Furnas dos Cardais"
+        ],
+        "Canhas": [
+            "Tufos"
+        ],
+        "Madalena do Mar": [
+            "Celular"
+        ],
+        "Sant'Ana": [
+            "Sobre argilas"
+        ],
+        "S. Jorge": [
+            "Sobre argilas"
+        ],
+        "S. Antonio": [
+            "Água de algumas fontes"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

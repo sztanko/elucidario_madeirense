@@ -1,0 +1,46 @@
+{
+    "id": 2476,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Bom Sucesso (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Bom Sucesso (Capelas de)",
+    "body": "No extremo limite da freguesia de Câmara de Lobos e Estreito de Câmara de Lobos, para os lados de oeste, no sítio de Garachico, se encontra a capela de Nossa Senhora do Bom Sucesso, que é considerada como pertencendo à ultima destas paróquias. Dava-se a singularidade de ter esta capela o seu altar levantado dentro dos limites duma daquelas freguesias e a porta abrir-se sobre terrenos da outra paróquia limítrofe, Parece que em tempos mais afastados de nós se suscitaram duvidas acerca da freguesia a que deveria pertencer a capela, tendo-se até dado conflitos de jurisdição entre os respectivos párocos. Foi construída nos princípios do século XVII por Manuel João Ferreira e especialmente destinada a nela celebrar missa seu filho o padre Francisco Luís Ferreira. Foi há anos acrescentada pelos moradores do lugar.\n\nExiste também uma capela consagrada a Nossa Senhora do Bom Sucesso, no sítio do Lombo da Estrela; da freguesia da Calheta, fundada em 1683 por Lourenço da Costa, e na freguesia de Santa Maria Maior, á margem da estrada conhecida pelo nome de Caminho do Meio, se encontra uma outra capela da mesma invocação, que pertence á Câmara Municipal do Funchal, bem como a casa que lhe fica anexa, onde se acha instalada uma escola oficial. Desconhecemos o nome do fundador desta ultima capela e o ano em que foi adquirida pela Câmara do Funchal.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Câmara de Lobos": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Garachico": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Calheta": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Funchal": [
+            "Capital da Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Manuel João Ferreira": [
+            "Construtor da capela"
+        ],
+        "Francisco Luís Ferreira": [
+            "Filho de Manuel João Ferreira, padre que celebrava missa na capela"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Ano de fundação da capela da freguesia da Calheta"
+        ]
+    }
+}

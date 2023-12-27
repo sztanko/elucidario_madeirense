@@ -1,0 +1,33 @@
+{
+    "id": 2525,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Saúde (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Saúde (Capela de)",
+    "body": "Na rua da Saúde, da freguesia de São Pedro, próximo do largo do Marquês, se encontra ainda, embora não aberta ao exercício do culto, a capela desta invocação, que foi fundada pelo Dr. Pedro Cardoso Valdavesso e sua mulher D. Maria Gondim em 1659, sendo de 4 de Janeiro deste ano a data da escritura da dotação.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "Dr. Pedro Cardoso Valdavesso": [
+            "Fundador da capela em 1659"
+        ],
+        "D. Maria Gondim": [
+            "Fundadora da capela em 1659"
+        ]
+    },
+    "years": {
+        "1659": [
+            "Fundação da capela"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 1668,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gulf Stream",
+    "fl": "G",
+    "original_title": "Gulf Stream",
+    "body": "Esta corrente oceânica que tem origem no golfo do México e avança até o Cabo Norte e Spitzberg, divide-se em vários ramos, um dos quais, mais considerável que todos os outros, desce ao longo da costa ocidental de Africa. Este ramo depois de seguir a direcção E., corre para S. S. W. entre a Madeira e Canárias, com uma velocidade de 12 a 16 milhas por dia. A corrente do Golfo do México eleva a temperatura do mar e é a causa principal da grande quantidade de água no estado de vapor, que contém a atmosfera do nosso arquipélago. É essa corrente que transporta as sementes de Guilandina, Mucuna e Entada (favas ou castanhas do mar) que aparecem ás vezes no Porto da Cruz e na ilha do Porto Santo.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Golfo do México": [
+            "Origem da corrente oceânica"
+        ],
+        "Cabo Norte": [
+            "Destino da corrente oceânica"
+        ],
+        "Spitzberg": [
+            "Destino da corrente oceânica"
+        ],
+        "Madeira": [
+            "Local onde a corrente passa"
+        ],
+        "Canárias": [
+            "Local onde a corrente passa"
+        ],
+        "Porto da Cruz": [
+            "Local onde aparecem as sementes de Guilandina, Mucuna e Entada"
+        ],
+        "Ilha do Porto Santo": [
+            "Local onde aparecem as sementes de Guilandina, Mucuna e Entada"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

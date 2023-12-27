@@ -1,0 +1,31 @@
+{
+    "id": 632,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cahus",
+    "fl": "C",
+    "original_title": "Cahus",
+    "body": "É apelido de família de origem francesa, que, diz o dr. Pereira Drumond, procede de João Cahus, natural da cidade de Ruão, em França, e que por 1580 se estabeleceu no Funchal, como negociante. É hoje apelido extinto.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ruão": [
+            "Cidade em França"
+        ],
+        "Funchal": [
+            "Cidade na ilha da Madeira"
+        ]
+    },
+    "people": {
+        "João Cahus": [
+            "Negociante"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Estabeleceu no Funchal"
+        ]
+    }
+}

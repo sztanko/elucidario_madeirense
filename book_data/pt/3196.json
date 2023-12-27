@@ -1,0 +1,29 @@
+{
+    "id": 3196,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santa Teresa (Fr. Francisco de)",
+    "fl": "S",
+    "original_title": "Santa Teresa (Fr. Francisco de)",
+    "body": "Frade carmelita natural do Funchal e falecido em 1698. E.: Alphabetum Theologicum .",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de origem de Fr. Francisco de Santa Teresa"
+        ]
+    },
+    "people": {
+        "Fr. Francisco de Santa Teresa": [
+            "Frade carmelita"
+        ]
+    },
+    "years": {
+        "1698": [
+            "Falecimento de Fr. Francisco de Santa Teresa"
+        ]
+    }
+}

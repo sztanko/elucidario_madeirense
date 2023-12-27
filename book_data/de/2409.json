@@ -1,0 +1,31 @@
+{
+    "id": 2409,
+    "lang": "de",
+    "is_original": false,
+    "title": "Museum des Gymnasiums",
+    "fl": "M",
+    "original_title": "Museu do Liceu",
+    "body": "Im Gebäude des Gymnasiums gibt es ein kleines Museum zur Ausbildung der Schüler der Einrichtung, in dem sich neben einer Schneckensammlung und einer Mineralsammlung ein Seehund und einige Vögel, Fische und botanische Exemplare befinden. Diese Objekte der Naturgeschichte wurden 1913 und 1914 dank der Bemühungen von Major Alberto Artur Sarmento, einem hervorragenden Professor für Naturwissenschaften, erworben. Zuvor gab es im Gymnasium einige zoologische Exemplare, deren Erhaltungszustand vor etwa 40 Jahren jedoch nicht mehr gut war. (1921).",
+    "categories": [
+        "education",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Alberto Artur Sarmento": [
+            "Hervorragender Professor für Naturwissenschaften"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Objekte der Naturgeschichte wurden erworben"
+        ],
+        "1914": [
+            "Objekte der Naturgeschichte wurden erworben"
+        ],
+        "1921": [
+            "Vor etwa 40 Jahren"
+        ]
+    }
+}

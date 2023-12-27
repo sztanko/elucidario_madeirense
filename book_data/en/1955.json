@@ -1,0 +1,30 @@
+{
+    "id": 1955,
+    "lang": "en",
+    "is_original": false,
+    "title": "Leiria (Júlio Augusto)",
+    "fl": "L",
+    "original_title": "Leiria (Júlio Augusto)",
+    "body": "Júlio Augusto Leiria, a military engineer from the mainland, served as the director of public works for the Funchal district and as a professor for the first three years of mathematics at our lyceum. In 1871, he published a map of the island of Madeira, as mentioned in this Elucidário, and in 1874, he wrote a pamphlet titled: Duas palavras de Júlio Augusto Leiria em resposta ao folheto intitulado «O Hospital de Santa Isabel da cidade do Funchal». He passed away in Coimbra in January 1878, at the age of around 50.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Júlio Augusto Leiria": [
+            "Military engineer"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Publication of the map of the island of Madeira"
+        ],
+        "1874": [
+            "Publication of the pamphlet Duas palavras de Júlio Augusto Leiria em resposta ao folheto intitulado «O Hospital de Santa Isabel da cidade do Funchal»"
+        ],
+        "1878": [
+            "Passing away in Coimbra"
+        ]
+    }
+}

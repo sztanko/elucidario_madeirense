@@ -1,0 +1,75 @@
+{
+    "id": 2590,
+    "lang": "de",
+    "is_original": false,
+    "title": "Steuerorganisation",
+    "fl": "S",
+    "original_title": "Organização Fiscal",
+    "body": "In der Stadt Funchal gibt es die Finanzdirektion, die aus zwei Abteilungen besteht: der Distriktabteilung für Finanzen und der Abteilung für Steuerprüfung (ehemals Steuerinspektion). Letztere Abteilung, einst autonom, hängt heute wie die Distriktabteilung vom Finanzdirektor ab.\n\nDas Distrikt Funchal ist 1. Klasse, daher sollte der Finanzdirektor die Kategorie eines Dienstleiters haben. Der Finanzdirektor wurde auch schon Finanzinspektor, Schatzdelegierter und Finanzinspektor genannt.\n\nIn jeder Gemeinde gibt es eine kommunale Finanzabteilung und eine Abteilung für Steuerprüfung. Die Gemeinde Funchal ist 1. Klasse, Calheta 2. Klasse, Ponta do Sol und Santa Cruz 3. Klasse und die übrigen 4. Klasse.\n\nDas Zollamt Funchal, das heute direkt von der Generaldirektion der Zollämter abhängt, war eine Zeit lang eine einfache Delegation des Zollamts Ponta Delgada (Azoren) und danach eine Delegation des Zollamts Lissabon. Das Dekret vom 21. April 1892 gewährte ihm die Autonomie, derer es sich erfreut. Das Dekret vom 29. Dezember 1887, das das Land in drei Bezirke - Lissabon, Porto und Ponta Delgada - aufteilte und Funchal zu einer Delegation dieses letzten Bezirks machte, wurde in dieser Stadt mit allgemeinem Missfallen aufgenommen und war vielleicht aus diesem Grund nur kurze Zeit in Kraft.\n\nDas Dekret Nr. 4560 vom 8. Juli 1918 richtete Abfertigungsstellen in Porto Santo, Câmara de Lobos und Machico ein, aber diese Bestimmung wurde noch nicht umgesetzt.\n\nDas Zollamt Funchal hat die Steuerwache Nr. 1 mit folgenden Abteilungen: Funchal, Machico und Porto Santo. Die Steuerposten am Lazareto-Kai, Zollamt-Kai, Ponta da Cruz, Praça de S. Pedro, Ribeira Brava, Câmara de Lobos, Ponta do Sol, Calheta, Paul, Pôrto Moniz, S. Vicente und Ajuda gehören zur Abteilung Funchal; die von Machico, Reis Magos, Santa Cruz und Porto da Cruz zur Abteilung Machico; und der von Porto Santo zur Abteilung Porto Santo.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Calheta": [
+            "Ort auf Madeira"
+        ],
+        "Ponta do Sol": [
+            "Ort auf Madeira"
+        ],
+        "Santa Cruz": [
+            "Ort auf Madeira"
+        ],
+        "Porto Santo": [
+            "Insel vor Madeira"
+        ],
+        "Câmara de Lobos": [
+            "Ort auf Madeira"
+        ],
+        "Machico": [
+            "Ort auf Madeira"
+        ],
+        "Ribeira Brava": [
+            "Ort auf Madeira"
+        ],
+        "Ponta da Cruz": [
+            "Ort auf Madeira"
+        ],
+        "Praça de S. Pedro": [
+            "Platz in Funchal"
+        ],
+        "Paul": [
+            "Ort auf Madeira"
+        ],
+        "Pôrto Moniz": [
+            "Ort auf Madeira"
+        ],
+        "S. Vicente": [
+            "Ort auf Madeira"
+        ],
+        "Ajuda": [
+            "Ort auf Madeira"
+        ],
+        "Reis Magos": [
+            "Ort auf Madeira"
+        ],
+        "Porto da Cruz": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1892": [
+            "Autonomie des Zollamts Funchal"
+        ],
+        "1887": [
+            "Einteilung Portugals in Zollbezirke"
+        ],
+        "1918": [
+            "Einrichtung von Abfertigungsstellen außerhalb von Funchal"
+        ]
+    }
+}

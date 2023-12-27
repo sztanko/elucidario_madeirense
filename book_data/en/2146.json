@@ -1,0 +1,33 @@
+{
+    "id": 2146,
+    "lang": "en",
+    "is_original": false,
+    "title": "Madeirense (0)",
+    "fl": "M",
+    "original_title": "Madeirense (0)",
+    "body": "Eighty-seven issues of this newspaper appeared, the first on January 30, 1847, and the last on January 30, 1849.\n\nUnder the same title, another newspaper was published in Madeira, from which seventy-seven issues were released, the first on April 27, 1918, and the last on January 23, 1919.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location of the newspapers' publication"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1847": [
+            "Publication of the first newspaper"
+        ],
+        "1849": [
+            "Publication of the last newspaper"
+        ],
+        "1918": [
+            "Publication of the first newspaper"
+        ],
+        "1919": [
+            "Publication of the last newspaper"
+        ]
+    }
+}

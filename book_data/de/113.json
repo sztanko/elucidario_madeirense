@@ -1,0 +1,36 @@
+{
+    "id": 113,
+    "lang": "de",
+    "is_original": false,
+    "title": "Alcoforado (Francisco)",
+    "fl": "A",
+    "original_title": "Alcoforado (Francisco)",
+    "body": "Edelmann des Infanten D. Henrique. Er schrieb die Beschreibung der Entdeckung der Insel Madeira, die nie gedruckt wurde und von der D. Francisco Manuel de Melo sagte, dass er das Original wie einen kostbaren Schatz besitze. Es gibt eine französische Übersetzung dieses Werks mit dem folgenden Titel: Relation historique de la découverte de l'isle de Madère, Paris 1671. Es wurde auch ins Englische übersetzt unter dem folgenden Titel: The First discovery of the island of Madeira, London, 1675. Die französische Übersetzung von 1671 wurde in einer vor etwa 50 Jahren in Paris veröffentlichten Ausgabe nachgedruckt, die aus einem offensichtlichen Irrtum das Datum 1671 trägt, obwohl es aus den 1860er Jahren stammen muss. Inocencio berichtet von einer anderen englischen Übersetzung im Britischen Museum, die sich von der oben genannten unterscheidet und den Titel trägt An Historical Account of the discovery of the Island of Madeira abridged from the Portuguese original, to which is added an Account of the present state of the Island, in a Letter to a Friend. London, 1750. Diese Version wird zu Recht Dr. Johns zugeschrieben.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Wohnsitz von Gonçalo Pinto Alcoforado"
+        ]
+    },
+    "people": {
+        "Francisco Alcoforado": [
+            "Edelmann des Infanten D. Henrique, Autor der Beschreibung der Entdeckung der Insel Madeira"
+        ]
+    },
+    "years": {
+        "1671": [
+            "Französische Übersetzung von Relation historique de la découverte de l'isle de Madère"
+        ],
+        "1675": [
+            "Englische Übersetzung von The First Discovery of the Island of Madeira"
+        ],
+        "1850": [
+            "Englische Übersetzung von An Historical Account of the Discovery of the Island of Madeira"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 2896,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Posto Marítimo de Desinfecção",
+    "fl": "P",
+    "original_title": "Posto Marítimo de Desinfecção",
+    "body": "Desde 1901 que existe na Pontinha um pequeno posto marítimo de desinfecção. As importâncias provenientes das desinfecções, depois de deduzidas as despesas com a compra dos desinfetantes, constituem receita da Junta Geral, estando a cargo desta corporação o pagamento do aluguer da casa onde funciona o posto. O pessoal do posto, constituído por um fiscal e um guarda, é pago pelo Governo (1921).",
+    "categories": [
+        "health",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pontinha": [
+            "Local onde existe um pequeno posto marítimo de desinfecção desde 1901"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Foi estabelecido um posto marítimo de desinfecção na Pontinha"
+        ],
+        "1921": [
+            "O pessoal do posto marítimo de desinfecção era pago pelo Governo"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 79,
+    "lang": "de",
+    "is_original": false,
+    "title": "Aguiar (D. Nuno)",
+    "fl": "A",
+    "original_title": "Aguiar (D. Nuno)",
+    "body": "Dr. Alvaro Rodrigues de Azevedo nennt ihn D. Martinho de Aguiar, aber in verschiedenen Chroniken und Adelsverzeichnissen sowie in der interessanten Denkschrift von Paiva Manso über die Marokko-Flotten wird sein Name allgemein als D. Nuno de Aguiar angegeben. Es wird behauptet, dass er in der Gemeinde S. Martinho geboren wurde und der Sohn von Diogo de Aguiar sowie Enkel von João Gonçalves Zargo, dem ersten Hauptmann und Lehnsherrn von Funchal, war. Er war Zisterziensermönch und bekleidete wichtige kirchliche Ämter. Er begleitete König D. Afonso V. nach Afrika bei der Eroberung von Arzila und Tanger, und als dann dieses letzte Bistum gegründet wurde, erhielt er seine Ernennung zum Prälaten. Er beabsichtigte, den Madeira-Archipel seinem Bistum anzugliedern, aber dem widersetzte sich energisch die Infantin D. Beatriz als Vormund ihres Sohnes D. Diogo, Großmeister des Christusordens, unterstützt vom Monarchen und den Lehnsherren dieser Insel. D. Nuno de Aguiar blieb nur kurze Zeit in seiner Diözese und starb nach zwanzig Jahren im Bischofsamt 1491 auf dem portugiesischen Festland.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "S. Martinho"
+    ],
+    "locations": {
+        "S. Martinho": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "Diogo de Aguiar": [
+            "Vater"
+        ],
+        "João Gonçalves Zargo": [
+            "Großvater"
+        ]
+    },
+    "years": {
+        "1491": [
+            "Tod"
+        ]
+    }
+}

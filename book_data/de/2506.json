@@ -1,0 +1,36 @@
+{
+    "id": 2506,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau vom Berg (Kapelle von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Monte (Capela de)",
+    "body": "Die Bewohner der Orte Lombo das Adegas und Terças in der Gemeinde Ponta do Sol beantragten im Jahr 1750 die Erlaubnis zum Bau einer Kapelle. Sie führten die Entfernung zur Pfarrkirche an sowie den Wunsch, ein kleines Heiligtum für das ehrwürdige Bild Unserer Lieben Frau vom Berg zu errichten, um es angemessen zu verehren. Das Bild befand sich zu der Zeit in einem kleinen Schilfdach-Oratorium ohne die gebührende Würde. Die Stiftungsurkunde wurde am 7. Juli 1750 unterzeichnet. Die Erlaubnis für die Einweihung wurde am 15. September 1751 erteilt. Vierundzwanzig Jahre später wurde sie erweitert und am 10. Juni 1775 neu eingeweiht.\n\nIn der Nacht des 1. Juni 1810 brachen Unbekannte in die Kapelle ein, entfernten das Bild Unserer Lieben Frau, brachten es in einiger Entfernung unter und beraubten es all seines Schmucks, was große Trauer in der Bevölkerung auslöste. Es wurde in die Pfarrkirche gebracht und nach verschiedenen Sühneakten am 6. August 1810 in einer feierlichen Prozession unter großer Anteilnahme wieder in die Kapelle zurückgetragen.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Gelegen in den Orten Lombo das Adegas und Terças der Gemeinde Ponta do Sol."
+        ]
+    },
+    "people": {
+        "Bewohner der Orte Lombo das Adegas und Terças": [
+            "Beantragten 1750 den Bau der Kapelle."
+        ]
+    },
+    "years": {
+        "1750": [
+            "Bau der Kapelle"
+        ],
+        "1775": [
+            "Neue Einweihung der Kapelle"
+        ],
+        "1810": [
+            "Diebstahl des Bildes Unserer Lieben Frau"
+        ]
+    }
+}

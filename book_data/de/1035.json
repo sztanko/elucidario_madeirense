@@ -1,0 +1,26 @@
+{
+    "id": 1035,
+    "lang": "de",
+    "is_original": false,
+    "title": "Corujeira",
+    "fl": "C",
+    "original_title": "Corujeira",
+    "body": "An diesem bekannten Ort in der Gemeinde Tabúa befindet sich eine alte Kapelle, die Maria geweiht ist. Das Gründungsjahr und die Namen der Gründer sind unbekannt. Die Kapelle wurde durch die Gewalt des reißenden Baches zerstört und 1767 am gegenüberliegenden Ufer wiederaufgebaut.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Tabúa"
+    ],
+    "locations": {
+        "Tabúa": [
+            "Gemeinde, in der sich Corujeira befindet"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1767": [
+            "Wiederaufbau der alten Kapelle am gegenüberliegenden Ufer"
+        ]
+    }
+}

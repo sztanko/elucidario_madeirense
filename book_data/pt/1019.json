@@ -1,0 +1,23 @@
+{
+    "id": 1019,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Correio da Madeira (O)",
+    "fl": "C",
+    "original_title": "Correio da Madeira (O)",
+    "body": "Deu o 11. numero a 3 de Fevereiro de 1849 e o ultimo a 9 de Agôsto de 1851. Sairam 132 numeros.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1849": [
+            "3 de Fevereiro"
+        ],
+        "1851": [
+            "9 de Agôsto"
+        ]
+    }
+}

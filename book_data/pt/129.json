@@ -1,0 +1,33 @@
+{
+    "id": 129,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alemão (Henrique)",
+    "fl": "A",
+    "original_title": "Alemão (Henrique)",
+    "body": "O apelido de Alemão, hoje extinto, diz o anotador das Saudades da Terra seguindo os nobiliarios *procede de Henrique Allemão, personagem legendário dos primitivos tempos da colonização desta ilha da Madeira. Delle se dizia que era príncipe polaco, e que, perdida em 1444 a batalha de Varna por Ladislao IV contra Amurato II, fizera voto de peregrinar a terra, e fora armado cavalleiro de Santa Catarina do Monte Sinae. Vindo á ilha da Madeira, João Gonçalves Zargo lhe deu, no sítio depois chamado a Magdalena do Mar, largo terreno de sesmaria, por carta que foi confirmada pelo Infante D. Henrique em 29 de Abril de 1457, e por D. Afonso V em 18 de Maio do mesmo ano. Com effeito, Henrique Allemão ahi fundou grande fazenda povoada, com capela de invocação de Santa Maria Magdalena, da qual veio o nome ao logar. Casou com Senhorina Anes, e morreu desastradamente esmagado por uma quebrada que do Cabo Gyrão cahiu sobre o barco em que elle hia da cidade do Funchal para a Magdalena. Sua mulher casou depois com João Rodrigues de Freitas. Ainda agora ha, acima da villa da Ponta do Sol, a Fajã do Allemão, que o povo corruptamente denomina do Limão.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Magdalena do Mar": [
+            "Largo terreno de sesmaria, por carta que foi confirmada pelo Infante D. Henrique em 29 de Abril de 1457, e por D. Afonso V em 18 de Maio do mesmo ano"
+        ]
+    },
+    "people": {
+        "Henrique Allemão": [
+            "Personagem legendário dos primitivos tempos da colonização desta ilha da Madeira"
+        ]
+    },
+    "years": {
+        "1444": [
+            "Perdida a batalha de Varna por Ladislao IV contra Amurato II"
+        ],
+        "1457": [
+            "Henrique Allemão fundou grande fazenda povoada, com capela de invocação de Santa Maria Magdalena"
+        ]
+    }
+}

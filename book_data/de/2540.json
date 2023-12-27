@@ -1,0 +1,32 @@
+{
+    "id": 2540,
+    "lang": "de",
+    "is_original": false,
+    "title": "Novara (Fregatte)",
+    "fl": "N",
+    "original_title": "Novara (Fragata)",
+    "body": "Dieses Kriegsschiff der österreichischen Marine unternahm in den Jahren 1857 bis 1859 eine Weltumsegelung und lag für einige Tage in unserem Hafen vor Anker. Die Beschreibung dieser Reise ist sehr geschätzt, wobei Latino Coelho den Teil dieser Beschreibung, der sich mit dieser Insel befasst und sehr interessant und lesenswert ist, übersetzt und in der Zeitschrift Revista Contemporânea veröffentlicht hat. Sie wurde in Nr. 2279 ff. der eingestellten Zeitung Diário do Commercio dieser Stadt nachgedruckt.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Hafen": [
+            "Unserer Hafen"
+        ]
+    },
+    "people": {
+        "Latino Coelho": [
+            "Übersetzer und Herausgeber"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Beginn der Reise"
+        ],
+        "1859": [
+            "Ende der Reise"
+        ]
+    }
+}

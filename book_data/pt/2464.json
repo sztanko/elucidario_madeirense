@@ -1,0 +1,43 @@
+{
+    "id": 2464,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Ajuda (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Ajuda (Capela de)",
+    "body": "Quasi à margem da estrada que conduz da Ponte Monumental á vila de Câmara de Lobos, se encontra a capela de Nossa Senhora da Ajuda, construída por Fernão Favila, na fazenda que possuía em São Martinho, instituindo nela a sede dum morgadio. Este Fernão Favila era fidalgo da casa real e combateu valorosamente em Africa, estabelecendo-se depois nesta ilha, onde casou com Beatriz Pires. Afirmam, porém, outros linhagistas que foi Antonio Favila, filho de Fernão Favila, o instituïdor do morgado dos Piornais, com sede na capela da Ajuda, onde jaz sepultado, tendo falecido no mes de Outubro de 1545. O conselheiro Manuel José Vieira, sendo proprietário desta capela, procedeu nela a importantes restaurações em 1876, havendo sido benzida a 16 de Agosto do referido ano.\n\nEm 1916, publicou o proprietário desta capela, Manuel José de Perestrelo Favila Vieira um opúsculo de 15 páginas, intitulado A Interdição da capela de N. S. da Ajuda na freguesia de São Martinho. Antecedentes e exposição de factos. que se ocupa do interdito lançado na mesma capela pelo prelado diocesano D. António Manuel Pereira Ribeiro, pelo facto de ser recusada a visita do mesmo prelado a esta capela, por ocasião da visitação canónica que fez á freguesia de São Martinho no ano de 1916. Alguns meses depois, foi levantado o interdito, sendo a capela restituída ao serviço do culto.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Vila próxima à capela de Nossa Senhora da Ajuda"
+        ],
+        "São Martinho": [
+            "Localização da capela de Nossa Senhora da Ajuda"
+        ]
+    },
+    "people": {
+        "Fernão Favila": [
+            "Fidalgo da casa real e instituidor do morgado dos Piornais"
+        ],
+        "Antonio Favila": [
+            "Filho de Fernão Favila, instituidor do morgado dos Piornais"
+        ]
+    },
+    "years": {
+        "1545": [
+            "Falecimento de Antonio Favila"
+        ],
+        "1876": [
+            "Ano das importantes restaurações na capela"
+        ],
+        "1916": [
+            "Interdição da capela de N. S. da Ajuda na freguesia de São Martinho"
+        ]
+    }
+}

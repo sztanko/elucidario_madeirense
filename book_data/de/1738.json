@@ -1,0 +1,32 @@
+{
+    "id": 1738,
+    "lang": "de",
+    "is_original": false,
+    "title": "Offizielle Zeit",
+    "fl": "O",
+    "original_title": "Hora Oficial",
+    "body": "Sie wurde durch das Dekret Nr. 2.922 vom 30. Dezember 1916 eingeführt. Am 31. Januar des folgenden Jahres bat die Militärbehörde den Stadtrat, die Uhr der Kathedrale um eine Stunde auf 23 Uhr vorzustellen, was auch geschah, jedoch mit der Erklärung des Vorsitzenden Dr. Fernando Tolentino da Costa, dass er in dieser Maßnahme keinen Nutzen für Madeira sah.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem die offizielle Zeit eingeführt wurde"
+        ],
+        "Kathedrale": [
+            "Ort, an dem die Kathedralenuhr um eine Stunde vorgestellt wurde"
+        ]
+    },
+    "people": {
+        "Dr. Fernando Tolentino da Costa": [
+            "Vorsitzender, der erklärte, keinen Nutzen in der Maßnahme der einstündigen Vorstellung der Kathedralenuhr zu sehen"
+        ]
+    },
+    "years": {
+        "1916": [
+            "Jahr der Einführung der offiziellen Zeit"
+        ]
+    }
+}

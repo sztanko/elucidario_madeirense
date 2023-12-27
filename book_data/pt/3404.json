@@ -1,0 +1,31 @@
+{
+    "id": 3404,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sousa e Silva (Antonio Augusto de)",
+    "fl": "S",
+    "original_title": "Sousa e Silva (Antonio Augusto de)",
+    "body": "Foi nomeado governador civil deste distrito por decreto de 26 de Abril de 1894 e tomou posse do lugar a 17 de Maio do mesmo ano. Como inspector de obras, publicou o Relatório da inspecção às obras públicas do distrito do Funchal no anno de 1891... Lisboa 1893, de 41 páginas. Publicou sôbre o mesmo assunto outro desenvolvido relatório referente ao ano de 1892.",
+    "categories": [
+        "politics",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Distrito onde exerceu funções"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1894": [
+            "Nomeação como governador civil do distrito do Funchal"
+        ],
+        "1891": [
+            "Publicação do Relatório da inspecção às obras públicas do distrito do Funchal"
+        ],
+        "1892": [
+            "Publicação de outro relatório referente ao ano de 1892"
+        ]
+    }
+}

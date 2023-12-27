@@ -1,0 +1,48 @@
+{
+    "id": 2150,
+    "lang": "en",
+    "is_original": false,
+    "title": "Madre de Deus (Capelas da)",
+    "fl": "M",
+    "original_title": "Madre de Deus (Capelas da)",
+    "body": "It is a small temple of typical Manueline architecture, which therefore offers particular interest to visitors, especially for some details of its construction, and is located in the parish of Caniço, in the place that gave it its name. It is a 16th-century construction and it is affirmed that it was founded by a Salvago family, who had land grants there. Acts of worship are still celebrated there and it belongs (1921) to the heirs of João Maurício de Gouveia.\n\nThere is a chapel with the same invocation in the parish of Tabua, better known by the name of Mãe de Deus. We do not know the year of its construction, but we know that around the mid-18th century it was completely destroyed by the violence of the nearby stream. It was rebuilt by 1767 on the other side of the stream, in a safer place, being inspected on December 9 of the same year, for the celebration of divine services. A papal brief of May 22, 1781 grants plenary indulgence to those who visit this chapel on the first Sunday of May.\n\nInacio Uzadamor do Rêgo and his wife built a chapel dedicated to Our Lady of Madre de Deus and the thaumaturge St. Anthony in 1705 in the parish of Estreito de Camara de Lobos, with the license to be blessed on December 5 of that year.",
+    "categories": [
+        "architecture",
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Tabua",
+        "Estreito de Camara de Lobos"
+    ],
+    "locations": {
+        "Caniço": [
+            "Parish where the temple is located"
+        ],
+        "Tabua": [
+            "Parish where another chapel with the same invocation exists"
+        ],
+        "Estreito de Camara de Lobos": [
+            "Parish where another chapel dedicated to Our Lady of Madre de Deus was built"
+        ]
+    },
+    "people": {
+        "João Maurício de Gouveia": [
+            "Heir of the temple in 1921"
+        ],
+        "Inacio Uzadamor do Rêgo": [
+            "Builder of the chapel in the parish of Estreito de Camara de Lobos"
+        ]
+    },
+    "years": {
+        "1705": [
+            "Construction of the chapel in the parish of Estreito de Camara de Lobos"
+        ],
+        "1767": [
+            "Reconstruction of the chapel in the parish of Tabua"
+        ],
+        "1781": [
+            "Granting of plenary indulgence to visitors of the chapel in the parish of Tabua"
+        ]
+    }
+}

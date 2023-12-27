@@ -1,0 +1,32 @@
+{
+    "id": 2617,
+    "lang": "en",
+    "is_original": false,
+    "title": "Outeiro",
+    "fl": "O",
+    "original_title": "Outeiro",
+    "body": "A populated area in the parish of Canhas. There was once a chapel there dedicated to Our Lady and Saint Anne, erected in 1733 by Manuel Rodrigues de Canha. José Francisco Cabral de Noronha and his wife, D. Maria Trindade de Noronha, built a chapel dedicated to the Sacred Heart of Jesus in this area a few years ago.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {},
+    "people": {
+        "Manuel Rodrigues de Canha": [
+            "Erected the chapel"
+        ],
+        "José Francisco Cabral de Noronha": [
+            "Built the chapel dedicated to the Sacred Heart of Jesus"
+        ],
+        "D. Maria Trindade de Noronha": [
+            "Built the chapel dedicated to the Sacred Heart of Jesus"
+        ]
+    },
+    "years": {
+        "1733": [
+            "Construction of the chapel dedicated to Our Lady and Saint Anne"
+        ]
+    }
+}

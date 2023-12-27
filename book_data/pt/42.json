@@ -1,0 +1,28 @@
+{
+    "id": 42,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ackermann (Eugène)",
+    "fl": "A",
+    "original_title": "Ackermann (Eugène)",
+    "body": "A este autor, pertence o livro L'Ile de Madère considerée au point de vue científico et économique, Rixheim (Alsace) 1910, de 145 pgs, que se ocupa da formação geológica da nossa ilha, da constituição dos seus terrenos, das riquezas minerais e seu aproveitamento, dos costumes dos seus habitantes etc..",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Alsace": [
+            "Localidade onde foi publicado o livro de Eugène Ackermann."
+        ]
+    },
+    "people": {
+        "Eugène Ackermann": [
+            "Autor do livro L'Ile de Madère considerée au point de vue científico et économique."
+        ]
+    },
+    "years": {
+        "1910": [
+            "Ano de publicação do livro L'Ile de Madère considerée au point de vue científico et économique."
+        ]
+    }
+}

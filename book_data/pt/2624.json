@@ -1,0 +1,43 @@
+{
+    "id": 2624,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pacheco (Cónego António Aires)",
+    "fl": "P",
+    "original_title": "Pacheco (Cónego António Aires)",
+    "body": "É cónego da Sé de Lisboa e considerado como um dos mais distintos oradores sagrados portugueses. Nasceu a 15 de Setembro de 1854 e é natural de Vilarouco, no distrito de Viseu. Veio para a Madeira em 1877, na companhia do falecido prelado D. Manuel Agostinho Barreto, e no Seminário desta cidade frequentou o curso teológico, tendo-se ordenado de presbítero no ano de 1881. Foi durante alguns anos professor e reitor do Seminário Diocesano, tendo sido no ano de 1888 apresentado cónego na nossa Sé Catedral e alguns anos depois transferido para a Sé Patriarcal de Lisboa.\n\nComo redactor do jornal *A Verdade*, que dirigiu durante alguns anos, revelou-se um brilhante e vigoroso jornalista, assinalando-se sobretudo nos seus escritos como um hábil polemista. Refutando o folheto *O Sudário Negro*, publicou em 1882 um opúsculo de 54 páginas, intitulado O Sudário Negro no banco dos réus. Em 1890, fez a Câmara Municipal do Funchal publicar a oração fúnebre que o cónego Aires Pacheco proferiu na Sé Catedral por ocasião das exéquias do rei D. Luís I.\n\nSaiu da Madeira no ano de 1890.",
+    "categories": [
+        "religion",
+        "education"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Madeira": [
+            "Local onde residiu o cónego António Aires Pacheco."
+        ]
+    },
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Prelado falecido na companhia do qual o cónego António Aires Pacheco veio para a Madeira."
+        ]
+    },
+    "years": {
+        "1854": [
+            "Ano de nascimento de António Aires Pacheco."
+        ],
+        "1877": [
+            "Ano em que António Aires Pacheco veio para a Madeira."
+        ],
+        "1881": [
+            "Ano em que António Aires Pacheco se ordenou de presbítero."
+        ],
+        "1888": [
+            "Ano em que foi apresentado cónego na Sé Catedral."
+        ],
+        "1890": [
+            "Ano em que saiu da Madeira."
+        ]
+    }
+}

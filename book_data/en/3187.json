@@ -1,0 +1,33 @@
+{
+    "id": 3187,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santa Cruz (Enseada, Porto, Cais e Ribeira de)",
+    "fl": "S",
+    "original_title": "Santa Cruz (Enseada, Porto, Cais e Ribeira de)",
+    "body": "The port of Santa Cruz is formed by a relatively extensive cove, which Frutuoso called a 'beautiful bay', partly bordered by a rocky beach, where it is easy, in fair weather, for small boats to access. At the point of the bay where, near the coast, there is a reef, it was used to build a small landing stage in the year 1845, which was improved in 1870. The current dock, of larger proportions and in better conditions to serve the port traffic, was ordered to be built by the General Board of the District in the year 1908-1909, taking advantage of the work that had already been done. The town of Santa Cruz is crossed by the river of the same name, which originates in the parish of Santo da Serra and flows into the ocean.",
+    "categories": [
+        "geography",
+        "transport"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Locality with port, dock, and river"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Year of construction of the small landing stage"
+        ],
+        "1870": [
+            "Year of improvement of the landing stage"
+        ],
+        "1908-1909": [
+            "Year of construction of the current dock"
+        ]
+    }
+}

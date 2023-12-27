@@ -1,0 +1,34 @@
+{
+    "id": 2391,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mouraria (Straße)",
+    "fl": "M",
+    "original_title": "Mouraria (Rua da)",
+    "body": "Seit dem 8. März 1917 heißt sie (1921) Straße Dr. Sequeira und verbindet die Straße da Carreira oder Dr. Vieira mit dem Largo de S. Pedro. In dieser Straße befindet sich der Palast, der den Grafen von Carvalhal gehörte und in dem heute das Städtische Museum, das Bezirksarchiv Madeira und die Städtische Bibliothek von Funchal untergebracht sind. Unserer Meinung nach hätte der ursprüngliche Name der Straße nicht geändert werden sollen, da er an die Existenz eines Maurenviertels an diesem Ort erinnert. Vor wenigen Jahren erhielt die Straße ihren ursprünglichen Namen zurück.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Städtisches Museum": [
+            "Im Palast der ehemaligen Grafen von Carvalhal untergebracht"
+        ],
+        "Bezirksarchiv Madeira": [
+            "Im Palast der ehemaligen Grafen von Carvalhal untergebracht"
+        ],
+        "Städtische Bibliothek von Funchal": [
+            "Im Palast der ehemaligen Grafen von Carvalhal untergebracht"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1917": [
+            "Umbenennung in Straße Dr. Sequeira"
+        ],
+        "1921": [
+            "Umbenennung in Mouraria-Straße"
+        ]
+    }
+}

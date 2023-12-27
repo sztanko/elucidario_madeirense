@@ -1,0 +1,40 @@
+{
+    "id": 365,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Azevedo Ramos (Nicasio de)",
+    "fl": "A",
+    "original_title": "Azevedo Ramos (Nicasio de)",
+    "body": "Nasceu em Tondela a 2 de Outubro de 1862 e chegou á Madeira a 23 de Janeiro de 1885. Foi redactor principal do jornal republicano A Lucta e foi cirurgião dentista pela escola-medica de Lisboa, tendo exercido muitos anos esta profissão no Funchal.\n\nE.: Discurso proferido nas solemnes exequias de Elias Garcia, celebradas no templo da loja Liberdade, aos 18 de Julho de 1891 (Funchal, 1891, folh.).\n\nFaleceu no Funchal a 8 de Janeiro de 1927.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Tondela": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local de exercício da profissão e falecimento"
+        ]
+    },
+    "people": {
+        "Nicasio de Azevedo Ramos": [
+            "Redator principal do jornal A Lucta e cirurgião dentista"
+        ]
+    },
+    "years": {
+        "1862": [
+            "Nascimento"
+        ],
+        "1885": [
+            "Chegada à Madeira"
+        ],
+        "1891": [
+            "Discurso proferido nas exéquias de Elias Garcia"
+        ],
+        "1927": [
+            "Falecimento"
+        ]
+    }
+}

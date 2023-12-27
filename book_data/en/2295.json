@@ -1,0 +1,31 @@
+{
+    "id": 2295,
+    "lang": "en",
+    "is_original": false,
+    "title": "Maize (Zea Mays)",
+    "fl": "M",
+    "original_title": "Milho (Zea Mays)",
+    "body": "A grass native to America, whose introduction to the island is much later than that of wheat, barley, and rye. The porridge made from maize flour constitutes the basis of the diet for two-thirds of the Madeiran population, and the grain is used to feed the livestock and poultry. The panicle formed by the male flowers (maize tassel) and the stems and leaves of the plant can also be given to the livestock, while the bracts surrounding the female inflorescence are usually used to fill mattresses. This inflorescence or spadix is called the cob; the silks of the maize are the long styles or filaments that terminate the ovary. Maize cultivation is ancient in Madeira, but it was in 1847 that Laureano da Câmara Falcão, better known by the name of 'morgado da Ilha' (site of the parish of S. Jorge), developed it in the parishes of Santana and S. Jorge, bringing some farmers from the Azores to teach the cultivation methods adopted in that archipelago. The results he obtained from his endeavor were quite flattering, and to encourage maize cultivation among us, the law of July 22, 1853, exempted the produce from the payment of tithes. The production of maize in the archipelago does not exceed 6,000 hectoliters, and it is necessary to import about 11 million hectoliters to meet the consumption demands throughout the district (1921).",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [
+        "Santana",
+        "S. Jorge"
+    ],
+    "locations": {},
+    "people": {
+        "Laureano da Câmara Falcão": [
+            "Developed maize cultivation in the parishes of Santana and S. Jorge"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Laureano da Câmara Falcão developed maize cultivation in the parishes of Santana and S. Jorge"
+        ],
+        "1853": [
+            "Law exempting the produce from the payment of tithes"
+        ]
+    }
+}

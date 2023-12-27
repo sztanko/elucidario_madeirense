@@ -1,0 +1,36 @@
+{
+    "id": 2506,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Monte (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Monte (Capela de)",
+    "body": "The residents of the areas of Lombo das Adegas and Terças, in the parish of Ponta do Sol, requested permission in the year 1750 to build a chapel, citing the distance they lived from the parish church and their desire to build a small sanctuary to house the venerable image of Nossa Senhora do Monte and to worship her, which was housed in a small thatched oratory without the due decency for the same image. The endowment deed was celebrated on July 7, 1750, and permission for its blessing was granted on September 15, 1751. Twenty-four years later, an addition was made, and a new blessing was performed on June 10, 1775.\n\nOn the night of June 1, 1810, the doors of the chapel were forced open, and the image of Nossa Senhora was taken from there and placed at a certain distance, stripped of all the jewels that adorned it, causing great sorrow throughout the population. It was taken to the parish church and, after several acts of reparation, was processionally and with great solemnity taken back to the same chapel on August 6, 1810.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Located in the areas of Lombo das Adegas and Terças, in the parish of Ponta do Sol."
+        ]
+    },
+    "people": {
+        "Residents of the areas of Lombo das Adegas and Terças": [
+            "Requested the construction of the chapel in 1750."
+        ]
+    },
+    "years": {
+        "1750": [
+            "Construction of the chapel"
+        ],
+        "1775": [
+            "New blessing of the chapel"
+        ],
+        "1810": [
+            "Theft of the image of Nossa Senhora"
+        ]
+    }
+}

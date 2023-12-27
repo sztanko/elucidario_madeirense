@@ -1,0 +1,26 @@
+{
+    "id": 2969,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Queimadas",
+    "fl": "Q",
+    "original_title": "Queimadas",
+    "body": "Sítio pitoresco na serra da freguesia de Santana, onde se encontra uma pequena casa de abrigo para os viandantes e que é ponto obrigado de passagem para os que pretendem visitar o surpreendente e arrebatador lugar do Caldeirão Verde, situado na freguesia de São Jorge.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "São Jorge"
+    ],
+    "locations": {
+        "Santana": [
+            "Serra"
+        ],
+        "Caldeirão Verde": [
+            "Freguesia de São Jorge"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,29 @@
+{
+    "id": 2045,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lopes",
+    "fl": "L",
+    "original_title": "Lopes",
+    "body": "«Diogo Lopes, da Estacada, diz o anotador das Saudades, foi um dos primeiros povoadores da ilha da Madeira: morou em Câmara de Lobos, no sítio da Torre, e era sua sesmaria boa parte do terreno que fica do Pico para o lado do Funchal até o Covão».",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Local de residência de Diogo Lopes"
+        ],
+        "Pico": [
+            "Local mencionado"
+        ]
+    },
+    "people": {
+        "Diogo Lopes": [
+            "Um dos primeiros povoadores da ilha da Madeira"
+        ]
+    },
+    "years": {}
+}

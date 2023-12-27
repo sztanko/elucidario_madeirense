@@ -1,0 +1,25 @@
+{
+    "id": 895,
+    "lang": "de",
+    "is_original": false,
+    "title": "Cidrão (Ribeiro do)",
+    "fl": "C",
+    "original_title": "Cidrão (Ribeiro do)",
+    "body": "Bach in der Gemeinde Curral das Freiras, ein Zufluss des reißenden Ribeira dos Socorridos.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Curral das Freiras"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Gemeinde, in der der Ribeiro do Cidrão liegt"
+        ],
+        "Ribeira dos Socorridos": [
+            "Wichtiger Fluss in der Region"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

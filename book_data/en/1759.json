@@ -1,0 +1,37 @@
+{
+    "id": 1759,
+    "lang": "en",
+    "is_original": false,
+    "title": "Igrejinha (Rua da)",
+    "fl": "I",
+    "original_title": "Igrejinha (Rua da)",
+    "body": "It had as its boundaries the largo do Colégio and the rua das Pretas. At its end, where the largo da Igrejinha is now located, stood the chapel of Nossa Senhora da Piedade, or, as it was commonly called, the Igrejinha, founded in 1613 by Domingos Rodrigues Garcez and demolished by the City Council in 1836.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Largo do Colégio": [
+            "Boundary of the rua da Igrejinha"
+        ],
+        "Rua das Pretas": [
+            "Boundary of the rua da Igrejinha"
+        ],
+        "Largo da Igrejinha": [
+            "Location where the chapel of Nossa Senhora da Piedade stood"
+        ]
+    },
+    "people": {
+        "Domingos Rodrigues Garcez": [
+            "Founder of the chapel of Nossa Senhora da Piedade"
+        ]
+    },
+    "years": {
+        "1613": [
+            "Foundation of the chapel of Nossa Senhora da Piedade"
+        ],
+        "1836": [
+            "Demolition of the chapel by the City Council"
+        ]
+    }
+}

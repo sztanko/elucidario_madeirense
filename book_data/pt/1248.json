@@ -1,0 +1,61 @@
+{
+    "id": 1248,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Escola Primaria Superior",
+    "fl": "E",
+    "original_title": "Escola Primaria Superior",
+    "body": "O decreto de 10 de Maio de 1919 extinguiu ou antes transformou a Escola Normal desta cidade em Escola Primaria Superior. Os professores da Escola Normal passaram a fazer parte do corpo docente do novo estabelecimento de instrução, sendo o respectivo quadro completado com mais oito professores e ficando assim constituído: Pedro José Lomelino, diretor, Constantino Silvano Pereira, Francisco Augusto da Silva, Manuel José Varela, Jordão Mauricio Henriques, Adolfo de Sousa Brasão, Jorge Silvio Pelico de Oliveira Neto, Francisco dos Anjos França, Domingos dos Reis Costa, Manuel José da Fonseca, D. Maria Clara do Monte Falco Brito Figueiroa e D. Maria Julieta de Brito Figueiroa. A nova escola começou a funcionar no mês de Outubro de 1919. Foi extinta pelo decreto de 15 de Junho de 1926.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pedro José Lomelino": [
+            "Diretor da Escola Primaria Superior"
+        ],
+        "Constantino Silvano Pereira": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Francisco Augusto da Silva": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Manuel José Varela": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Jordão Mauricio Henriques": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Adolfo de Sousa Brasão": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Jorge Silvio Pelico de Oliveira Neto": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Francisco dos Anjos França": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Domingos dos Reis Costa": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Manuel José da Fonseca": [
+            "Professor da Escola Primaria Superior"
+        ],
+        "Maria Clara do Monte Falco Brito Figueiroa": [
+            "Professora da Escola Primaria Superior"
+        ],
+        "Maria Julieta de Brito Figueiroa": [
+            "Professora da Escola Primaria Superior"
+        ]
+    },
+    "years": {
+        "1919": [
+            "Transformação da Escola Normal em Escola Primaria Superior e início do seu funcionamento"
+        ],
+        "1926": [
+            "Extinção da Escola Primaria Superior"
+        ]
+    }
+}

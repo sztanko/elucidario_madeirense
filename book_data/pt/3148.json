@@ -1,0 +1,31 @@
+{
+    "id": 3148,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sal",
+    "fl": "S",
+    "original_title": "Sal",
+    "body": "Pelas cartas de doação do infante D. Henrique, só os donatários podiam vender sal nesta ilha e no Porto Santo. Este privilegio\nnão desapareceu com a transformação das donatárias da Madeira em alcaidarias-mores, mas parece que era pouco respeitado nos\núltimos tempos, pois que, em 6 de Fevereiro de 1769, foi expedido um aviso para que o procurador do marquês de Castello Melhor\nnão fosse obrigado a fornecer de sal a população e qualquer pessoa pudesse descarregar e vender esse género, como se praticava\nanteriormente.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha"
+        ]
+    },
+    "people": {
+        "D. Henrique": [
+            "Infante"
+        ],
+        "Marquês de Castello Melhor": [
+            "Procurador"
+        ]
+    },
+    "years": {
+        "1769": [
+            "Expedição do aviso sobre o fornecimento de sal"
+        ]
+    }
+}

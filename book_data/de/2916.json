@@ -1,0 +1,33 @@
+{
+    "id": 2916,
+    "lang": "de",
+    "is_original": false,
+    "title": "Preces",
+    "fl": "P",
+    "original_title": "Preces",
+    "body": "Ort in der Gemeinde Machico, eingebettet in der besiedelten Gegend Marco, der nach der Kapelle Unserer Lieben Frau der Bitten benannt wurde, die 1750 vom Kanoniker Agostinho de Góis e Meneses gegründet und 1884 von António Tiago da Silva wiederaufgebaut wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Gemeinde, in der sich der Ort Preces befindet"
+        ]
+    },
+    "people": {
+        "Agostinho de Góis e Meneses": [
+            "Kanoniker, Gründer der Kapelle Unserer Lieben Frau der Bitten"
+        ],
+        "António Tiago da Silva": [
+            "Verantwortlich für den Wiederaufbau der Kapelle im Jahr 1884"
+        ]
+    },
+    "years": {
+        "1750": [
+            "Jahr der Gründung der Kapelle Unserer Lieben Frau der Bitten"
+        ]
+    }
+}

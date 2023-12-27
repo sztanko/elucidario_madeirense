@@ -1,0 +1,56 @@
+{
+    "id": 2366,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nationale Denkmäler",
+    "fl": "N",
+    "original_title": "Monumentos Nacionais",
+    "body": "– Die Kathedrale von Funchal war das einzige Gebäude, das als Nationaldenkmal galt, obwohl es andere Gebäude geben sollte, die in diese Zahl aufgenommen werden sollten. Im „Diario do Governo“ vom 24. September 1940 und vom 18. August 1943 wurden die vollständigen Listen der als Nationaldenkmäler und als „Gebäude von öffentlichem Interesse“ eingestuften Gebäude veröffentlicht, die in unserem ganzen Land existieren. In Bezug auf diesen Bezirk wurden neben der Kathedrale der Palast von S. Lourenço, die Kirche und die Abhängigkeiten des Klosters Santa Clara, die Kirche São Evangelista (Kolleg) und das Zollhaus als Nationaldenkmäler betrachtet.\n\nAls „Gebäude von öffentlichem Interesse“ gelten die folgenden Gebäude:\n- Häuser von Dona Mecia, der Konsuln, der Ornelas und der Bischofspalast mit angeschlossener Kapelle, Kapellen der Menschwerdung, São Paulo, Nazaré und Heiliger Geist sowie die Festungen São João Baptista, Ilhéu und São Tiago, alle in der Stadt Funchal, Kapelle der Heiligen Drei Könige in der Gemeinde Estreito da Calheta, Pfarrkirche, Kapelle der Wunder und São Roques und die Festungen Santo Amaro und São João in der Gemeinde Machico, Pfarrkirchen der Gemeinden Ponta do Sol, Ribeira Brava und Santa Cruz und Kapelle Madre de Deus in der Gemeinde Caniço.\n\nFolgende Kunstwerke wurden ebenfalls als von öffentlichem Interesse erklärt:\n- Taufbrunnen aus dem 16. Jahrhundert im Mudéjar-Stil in der Kirche von Ponta do Sol.\n- Holzskulptur, die die Anbetung der Heiligen Drei Könige mit dreizehn Figuren im Hochrelief, 16. Jahrhundert, in der Kapelle der Heiligen Drei Könige in Estreito da Calheta darstellt.\n- Fenster des Hauses von Kolumbus, das in einem privaten Garten der Stadt Funchal aufbewahrt wird, ein manuelinisches Werk, das gesammelt wurde, als die Stadtverwaltung das Anwesen des Flamen João Esmeraldo, in dem Kolumbus gelebt haben soll, abreißen ließ.\n- Gemälde auf Holz:\n  - Santiago-Tafel, die sich auf dem Hauptaltar der Kirche Socorro in Funchal befindet.\n  - Triptychon der Sakristei derselben Kirche.\n  - Aposteltafel derselben Sakristei, die sich unter dem Triptychon befindet.\n  - Drei Tafeln (S. Paulo, S. Pedro und Santo André), die in der Sakristei der Kirche S. Pedro in Funchal aufbewahrt werden.\n  - Drei Tafeln (Verkündigung, Geburt, St. Anna und St. Joachim) der neuen Kirche S. Martinho in Funchal (in einer Kapelle auf der Epistelseite).\n  - Tafel (Christusemblem) der privaten Kapelle Unserer Lieben Frau vom Trost in Funchal.\n  - Triptychon (Abnahme vom Kreuz) der Kirche von Ribeira Brava an der linken Seitenwand der Hauptkapelle.\n  - Tafel (Anbetung der Weisen) an der linken Seitenwand des Kirchenschiffs derselben Kirche.\n  - Tafel Unserer Lieben Frau vom Beistand am Altar desselben Namens der Kathedrale von Funchal.",
+    "categories": [
+        "architecture",
+        "culture"
+    ],
+    "freguesias": [
+        "Machico",
+        "Estreito da Calheta",
+        "Ponta do Sol",
+        "Ribeira Brava",
+        "Santa Cruz",
+        "Caniço"
+    ],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Machico": [
+            "Gemeinde auf der Insel Madeira"
+        ],
+        "Ponta do Sol": [
+            "Gemeinde auf der Insel Madeira"
+        ],
+        "Ribeira Brava": [
+            "Gemeinde auf der Insel Madeira"
+        ],
+        "Santa Cruz": [
+            "Gemeinde auf der Insel Madeira"
+        ],
+        "Estreito da Calheta": [
+            "Gemeinde auf der Insel Madeira"
+        ],
+        "Caniço": [
+            "Gemeinde auf der Insel Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1939": [
+            "Einweihung des Denkmals für Dr. Alexandre da Cunha Teles in den Gärten des Armen- und Waisenhauses"
+        ],
+        "1940": [
+            "Veröffentlichung der vollständigen Listen der als Nationaldenkmäler und als „Gebäude von öffentlichem Interesse“ eingestuften Gebäude"
+        ],
+        "1943": [
+            "Veröffentlichung der vollständigen Listen der als Nationaldenkmäler und als „Gebäude von öffentlichem Interesse“ eingestuften Gebäude"
+        ]
+    }
+}

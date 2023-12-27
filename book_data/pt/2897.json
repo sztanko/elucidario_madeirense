@@ -1,0 +1,27 @@
+{
+    "id": 2897,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Posto Médico Municipal",
+    "fl": "P",
+    "original_title": "Posto Médico Municipal",
+    "body": "Começou a funcionar no dia 10 de Abril de 1889, e foi criado pela Câmara Municipal da presidência do falecido visconde do Ribeiro Real.\n\nO aparelho de raios X que existe no posto médico, foi adquirido pela Câmara em 1922, tendo ali havido outro que se inutilizou.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Visconde do Ribeiro Real": [
+            "Falecido"
+        ]
+    },
+    "years": {
+        "1889": [
+            "Funcionamento do Posto Médico Municipal"
+        ],
+        "1922": [
+            "Aquisição do aparelho de raios X"
+        ]
+    }
+}

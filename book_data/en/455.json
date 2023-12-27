@@ -1,0 +1,50 @@
+{
+    "id": 455,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bédmar (Conde de Vargas de)",
+    "fl": "B",
+    "original_title": "Bédmar (Conde de Vargas de)",
+    "body": "A Danish geologist who studied the geology of the Madeira archipelago. He published a second edition of this work on the island of S. Miguel in 1857.",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Archipelago studied by Conde de Vargas de Bédmar"
+        ],
+        "Porto Santo": [
+            "Island studied by Conde de Vargas de Bédmar"
+        ],
+        "Açores": [
+            "Archipelago studied by Conde de Vargas de Bédmar"
+        ],
+        "Lisboa": [
+            "Location of publication of the work 'Resumo das observações geológica feitas em uma viagem ás ilhas da Madeira, Porto Santo e Açores nos annos de 1835 e 1836'"
+        ],
+        "S. Miguel": [
+            "Island of publication of the second edition of the work"
+        ]
+    },
+    "people": {
+        "Conde de Vargas de Bédmar": [
+            "Danish geologist"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Conduction of geological observations"
+        ],
+        "1836": [
+            "Conduction of geological observations"
+        ],
+        "1837": [
+            "Publication of the work 'Resumo das observações geológica feitas em uma viagem ás ilhas da Madeira, Porto Santo e Açores nos annos de 1835 e 1836'"
+        ],
+        "1857": [
+            "Publication of the second edition of the work"
+        ]
+    }
+}

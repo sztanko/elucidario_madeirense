@@ -1,0 +1,35 @@
+{
+    "id": 2746,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pereira Reis (António)",
+    "fl": "P",
+    "original_title": "Pereira Reis (António)",
+    "body": "Nasceu no Funchal a 27 de Abril de 1866 e formou-se em direito na Universidade de Coimbra em 1892, tendo feito antes o curso teologico no Seminario Episcopal do Funchal. Tem exercido a profissão de advogado em Lisboa, onde é bastante conhecido, e colaborou no antigo jornal O Tempo e noutros periodicos da capital. Fêz parte do antigo partido constituinte e mais tarde do henriquista, filiando-se no partido democratico depois da implantação da republica em Portugal. No ministerio que se constituíu em Março de 1916, logo depois da declaração de guerra da Alemanha, foi-lhe confiada a pasta do interior, a qual deixou nos fins de Maio do mesmo ano. Tem publicado alguns dos seus trabalhos jurídicos.",
+    "categories": [
+        "history",
+        "politics",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento de António Pereira Reis"
+        ],
+        "Lisboa": [
+            "Local onde António Pereira Reis exerce a profissão de advogado"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1866": [
+            "Nascimento de António Pereira Reis"
+        ],
+        "1892": [
+            "António Pereira Reis formou-se em direito na Universidade de Coimbra"
+        ],
+        "1916": [
+            "António Pereira Reis foi confiada a pasta do interior no ministerio que se constituíu"
+        ]
+    }
+}

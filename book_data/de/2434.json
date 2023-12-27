@@ -1,0 +1,31 @@
+{
+    "id": 2434,
+    "lang": "de",
+    "is_original": false,
+    "title": "Straße der Enkel (Rua dos Netos)",
+    "fl": "S",
+    "original_title": "Netos (Rua dos)",
+    "body": "Sie erstreckt sich von der Rua de S. Pedro bis zur Ponte Nova über den Bach Santa Luzia, aber früher endete sie an der heutigen Rua do Comercio, damals Rua dos Ferreiros, während der Teil, der vom östlichen Ufer des Baches Santa Luzia begrenzt wird, zur Rua da Ponte Nova gehört. Namensgeber dieser Straße war João Rodrigues Neto Calassa, der vom Festland kam, sich auf der Insel niederließ und hier 1531 starb. Er wohnte in der Straße, die seinen Namen trägt.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponte Nova": [
+            "Über den Bach Santa Luzia"
+        ],
+        "Santa Luzia": [
+            "Bach, über den die Rua dos Netos verläuft"
+        ]
+    },
+    "people": {
+        "João Rodrigues Neto Calassa": [
+            "Person, nach der die Rua dos Netos benannt ist"
+        ]
+    },
+    "years": {
+        "1531": [
+            "Tod von João Rodrigues Neto Calassa"
+        ]
+    }
+}

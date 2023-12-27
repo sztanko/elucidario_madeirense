@@ -1,0 +1,27 @@
+{
+    "id": 3546,
+    "lang": "de",
+    "is_original": false,
+    "title": "União (A)",
+    "fl": "U",
+    "original_title": "União (A)",
+    "body": "Diese Zeitung aus Ponta do Sol veröffentlichte ihre erste Ausgabe am 31. Januar 1918.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Ort, an dem die Zeitung A União veröffentlicht wurde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1918": [
+            "Veröffentlichung der ersten Ausgabe der Zeitung A União"
+        ]
+    }
+}

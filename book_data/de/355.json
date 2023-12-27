@@ -1,0 +1,53 @@
+{
+    "id": 355,
+    "lang": "de",
+    "is_original": false,
+    "title": "Azevedo (Antonio Pedro de)",
+    "fl": "A",
+    "original_title": "Azevedo (Antonio Pedro de)",
+    "body": "> Geboren am 7. Februar 1814 in Caminha und besuchte Madeira zum ersten Mal zu Zeiten der Usurpation als Fähnrich der Infanterie. Nach Abschluss des Ingenieurstudiums nach der Wiederherstellung der Charta kehrte er auf diese Insel zurück, wo er jahrelang das Amt des Direktors der öffentlichen Bauwerke des Bezirks bekleidete. Er hob 1842 und 1843 gemeinsam mit den Offizieren des britischen Kriegsdampfers Styx die Karten von Porto Santo, Madeira und Desertas auf, die 1877, 1879 bzw. 1886 veröffentlicht wurden. Er starb am 10. August 1889 in Lissabon als pensionierter Generalleutnant.",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caminha": [
+            "Geburtsort von Antonio Pedro de Azevedo."
+        ],
+        "Madeira": [
+            "Insel, auf der Antonio Pedro de Azevedo das Amt des Direktors der öffentlichen Bauwerke des Bezirks bekleidete."
+        ],
+        "Porto Santo": [
+            "Insel, auf der die Karten aufgenommen wurden."
+        ]
+    },
+    "people": {
+        "Antonio Pedro de Azevedo": [
+            "Infanteriefähnrich, der das Amt des Direktors der öffentlichen Bauwerke des Bezirks bekleidete."
+        ]
+    },
+    "years": {
+        "1814": [
+            "Geburtsjahr von Antonio Pedro de Azevedo"
+        ],
+        "1842": [
+            "Jahr, in dem er die Karten von Porto Santo, Madeira und Desertas aufnahm"
+        ],
+        "1843": [
+            "Jahr, in dem er die Karten von Porto Santo, Madeira und Desertas aufnahm"
+        ],
+        "1877": [
+            "Jahr der Veröffentlichung der Karten von Porto Santo"
+        ],
+        "1879": [
+            "Jahr der Veröffentlichung der Karten von Madeira"
+        ],
+        "1886": [
+            "Jahr der Veröffentlichung der Karten von Desertas"
+        ],
+        "1889": [
+            "Sterbejahr von Antonio Pedro de Azevedo"
+        ]
+    }
+}

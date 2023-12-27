@@ -1,0 +1,32 @@
+{
+    "id": 2003,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lira",
+    "fl": "L",
+    "original_title": "Lira",
+    "body": "É apelido ainda hoje comum nalgumas freguesias desta ilha. Na Calheta, houve uma família nobre deste apelido, á qual pertenceram o cónego Antonio Veloso de Lira e o padre Manuel de Lira (V. estes nomes). Dizem alguns nobiliarios que provém de Teresa de Lira, mulher de D. Afonso de Aragão dos fins do século XV, tendo o filho destes, por nome Lopo Dias, adoptado aquele apelido, que desde então se tem mantido na ilha.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {},
+    "people": {
+        "Antonio Veloso de Lira": [
+            "Cónego"
+        ],
+        "Manuel de Lira": [
+            "Padre"
+        ],
+        "Teresa de Lira": [
+            "Mulher de D. Afonso de Aragão"
+        ]
+    },
+    "years": {
+        "Século XV": [
+            "Origem do apelido"
+        ]
+    }
+}

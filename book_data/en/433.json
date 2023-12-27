@@ -1,0 +1,47 @@
+{
+    "id": 433,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barreto (Padre Jaime de Gouveia)",
+    "fl": "B",
+    "original_title": "Barreto (Padre Jaime de Gouveia)",
+    "body": "He was born in Porto do Moniz on May 13, 1887, and attended the Episcopal Seminary of Funchal, taking orders as a priest in 1910. Having assisted Rev. Father Ernesto Schmitz in the preparation and determination of the natural history specimens in the museum of the Seminary, he acquired a certain predilection for this kind of work, and was later entrusted with the direction of the same museum when the aforementioned priest left for Jerusalem. He collected a large number of lichens and Madeiran fungi, the former being studied by Professor Navas and the latter by Professor Torrend, and is a member of the Society of Natural Sciences of Zaragoza. Having been called to attend the school of militia officers in Lisbon during the state of war between Portugal and Germany, he managed to be dispatched as a chaplain ensign of the Portuguese Expeditionary Corps in France, leaving for that country on May 23, 1918, and returning to the homeland in June 1919. He is a professor at the Diocesan Seminary and director of the natural sciences cabinets of the same educational institution. He was awarded the title of monsignor and is a canon of the Funchal Cathedral.",
+    "categories": [
+        "biology",
+        "history",
+        "religion",
+        "education",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto do Moniz": [
+            "Born in"
+        ],
+        "Funchal": [
+            "Attended the Episcopal Seminary of"
+        ],
+        "Jerusalem": [
+            "Left for"
+        ],
+        "Lisbon": [
+            "During the state of war between Portugal and Germany"
+        ],
+        "France": [
+            "Leaving for that country on May 23, 1918, and returning to the homeland in June 1919"
+        ]
+    },
+    "people": {
+        "Padre Jaime de Gouveia Barreto": [
+            "Born in Porto do Moniz on May 13, 1887, and is a professor at the Diocesan Seminary and director of the natural sciences cabinets of the same educational institution"
+        ]
+    },
+    "years": {
+        "1910": [
+            "Taking orders as a priest"
+        ],
+        "1918": [
+            "Leaving for that country on May 23, returning to the homeland in June 1919"
+        ]
+    }
+}

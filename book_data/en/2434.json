@@ -1,0 +1,31 @@
+{
+    "id": 2434,
+    "lang": "en",
+    "is_original": false,
+    "title": "Netos (Rua dos)",
+    "fl": "N",
+    "original_title": "Netos (Rua dos)",
+    "body": "It extends from the street of S. Pedro to Ponte Nova, over the Santa Luzia stream, but formerly had its end at the street of Ferreiros, now Comercio, with the part bounded on the east side by the aforementioned Santa Luzia stream falling within the street of Ponte Nova. This public road was named after João Rodrigues Neto Calassa, who, coming from the mainland, settled on this island and died here in 1531, having resided on the street that bears his name.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponte Nova": [
+            "Over the Santa Luzia stream"
+        ],
+        "Santa Luzia": [
+            "Stream over which Rua dos Netos extends"
+        ]
+    },
+    "people": {
+        "João Rodrigues Neto Calassa": [
+            "Person after whom Rua dos Netos was named"
+        ]
+    },
+    "years": {
+        "1531": [
+            "Death of João Rodrigues Neto Calassa"
+        ]
+    }
+}

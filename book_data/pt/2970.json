@@ -1,0 +1,26 @@
+{
+    "id": 2970,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Queimado (Pico)",
+    "fl": "Q",
+    "original_title": "Queimado (Pico)",
+    "body": "Lugar e elevação montanhosa sensivelmente eqüidistante do Lombo do Mouro e do Monte Medonho nos limites da freguesia da Ribeira Brava e de S. Vicente.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "S. Vicente"
+    ],
+    "locations": {
+        "Lombo do Mouro": [
+            "Freguesia da Ribeira Brava"
+        ],
+        "Monte Medonho": [
+            "Freguesia de S. Vicente"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

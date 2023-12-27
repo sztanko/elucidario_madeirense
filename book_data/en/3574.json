@@ -1,0 +1,31 @@
+{
+    "id": 3574,
+    "lang": "en",
+    "is_original": false,
+    "title": "Varona (Fr. Inácio José)",
+    "fl": "V",
+    "original_title": "Varona (Fr. Inácio José)",
+    "body": "He belonged to the Carmelite order and preached at the Church of the College during the pompous festivities held there in thanksgiving for the Marquis of Pombal's escape from the planned crime by the Genoese João Batista Pelle, who was executed on October 11, 1775. Fr. Inácio's speech was published under the title: *Oração na acção de graças que a Real Junta da Fazenda da ilha da Madeira fez celebrar pela prodigiosa conservação da muito necessária vida do Illustrissimo e Excelentissimo Senhor Marquez de Pombal Sebastiâo José de Carvalho e Mello na egreja de São João Evangelista da cidade do Funchal em 20 de Janeiro dirigida pelo seu presidente o Illustrissimo e Excellentissimo Senhor João Antonio de Sá Pereira, do concelho de S. M. Fidelissima, Senhor d'Alverca, Alcaide Mor de Monte Mor o Velho, Comendador da Ordem de Christo, Governador e Capitão General desta Ilha da Madeira, Lisbon, 1776, 23 pages.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Birthplace of Varona (Fr. Inácio José)"
+        ]
+    },
+    "people": {
+        "João Batista Pelle": [
+            "Genoese"
+        ]
+    },
+    "years": {
+        "1775": [
+            "Execution of João Batista Pelle"
+        ]
+    }
+}

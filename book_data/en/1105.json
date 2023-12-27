@@ -1,0 +1,32 @@
+{
+    "id": 1105,
+    "lang": "en",
+    "is_original": false,
+    "title": "Curso de Desenho",
+    "fl": "C",
+    "original_title": "Curso de Desenho",
+    "body": "There was a drawing course supported by the Municipal Council in Funchal, which was inaugurated on October 1, 1877, and abolished in a council session on September 1, 1892. The course was directed by the deceased José Maria Teixeira de Agrela, the director of the municipal works of the Concelho.",
+    "categories": [
+        "education",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the course"
+        ]
+    },
+    "people": {
+        "José Maria Teixeira de Agrela": [
+            "Director of the course"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Year of inauguration"
+        ],
+        "1892": [
+            "Year of abolition"
+        ]
+    }
+}

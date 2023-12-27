@@ -1,0 +1,68 @@
+{
+    "id": 3228,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São João Baptista (Capelas de)",
+    "fl": "S",
+    "original_title": "São João Baptista (Capelas de)",
+    "body": "Mais vulgarmente conhecida pelo nome de São João da Ribeira é a capela que fica situada na margem direita da ribeira mais ocidental do Funchal, que no decorrer dos tempos tem sido chamada ribeira de Santa Catarina, de São Paulo, de São Lazaro, de Santo António e de São João, sendo esta ultima a denominação que actualmente conserva. Alguns atribuem a fundação desta capela a João Gonçalves Zarco, sendo sem duvida das mais antigas da diocese e uma das poucas do século XV que ainda existem, embora nada se conserve ali da construção primitiva. Os religiosos franciscanos, que acompanharam o descobridor a esta ilha, construíram junto à capela um pequeno cenobio e ali se conservaram até a construção do convento de São Francisco, levantado na então vila do Funchal. Diz Frutuoso que sendo «o logar ermo e nelle um frade... se enforcou, estes religiosos ordenaram uma casa em baixo...». Desta noticia difere o que diz o anotador da Historia Insulana, afirmando que os franciscanos «viviam como ermitas... e onze anos depois da descoberta, augmentando-se o numero delles... reuniram-se em congregação no hospício e ermida de S. João, que começaram a edificar em 1432 com algumas esmolas e trabalhos das suas mãos, sem que o Zargo fundasse a ermida...; em 1459 deixaram os religiosos o hospício de São João e seguiram viagem para Portugal...; passados quinze anos chegou à ilha Fr. Rodrigo da Arruda..., o qual instaurou a comunidade no mesmo hospício de São João... Por 1476 instalaram-se os frades em S. Francisco». Estas informações do deão Gonçalves de Andrade, que nos parecem as mais exactas, foram colhidas nas crónicas franciscanas e são por ele dadas como refutação das afirmações do padre Antonio Cordeiro. Uma impetuosa enchente da ribeira destruiu a capela e parte do hospício adjunto no princípio do século XVIII, tendo a fazenda nacional procedido á sua reconstrução no ano de 1720. A aluvião de 1803 também lhes causou estragos consideráveis. Em 1762, fundou nesta capela o bispo diocesano D. Gaspar Afonso da Costa Brandão uma confraria de São João Baptista, destinada a manter ali as funções religiosas, mas que julgamos não ter tido uma larga duração. Por meados do século passado, Antonio Ferreira Nogueira e Manuel Fernandes Jardim realizaram ali, á sua custa, importantes obras de reparação, restituindo a capela ao exercício do culto. Noutros tempos era ela o centro duma concorrida romagem, acudindo ali romeiros de toda a ilha. Na actualidade, fazem-se as novenas e festividade do orago com notável brilho e grande afluência de pessoas da cidade e seus arredores. Descrevendo o lugar, a capela, o arraial e as festas do Espírito Santo que noutro tempo ali se realizam, publicaram os Serões um interessante e desenvolvido artigo da autoria do escritor madeirense João dos Reis Gomes. No sítio do Lombo de São João da freguesia da Ponta do Sol, existe uma capela da mesma invocação, cuja data de construção ignoramos. Pertenceu ao visconde de São João. No ano de 1700, no sítio do Serrado da Adega da freguesia de Câmara de Lobos, fundaram António Correia Henriques e sua mulher D. Maria da Câmara a capela de São João Baptista, a que deram a respectiva dotação por escritura pública de 17 de Junho daquele ano. Na ribeira da Calheta, existe em ruínas a capela de São João Baptista, edificada na quinta de São João, sede do vínculo instituído pelo capitão Manuel de Figueiroa, que foi o fundador desta capela no ano de 1651. Encontrando-se muito arruinada, procedeu à sua reconstrução em 1770, D. Guiomar Quiteria Betencourt de Atouguia, viúva de João Albuquerque e Freitas, sendo concedida licença para a sua bênção a 19 de Agosto do mesmo ano. Existiu na freguesia do Campanário uma capela dedicada a São João Baptista, instituída em 1728 pelo padre João Betencourt da Câmara. Em 1813, era administrada pelo morgado Luís Sauvayre. Com a mesma invocação, houve uma capela na freguesia de Santana, que foi erigida em 1660 pelo cónego Domingos Gonçalves de Alvarenga. Parece que havia outra capela de São João na freguesia da Calheta, situada no Lombo do Atouguia, que ainda existe, mas que é hoje conhecida pelo nome de S. Pedro de Alcantara. É possível que primitivamente tivesse duas invocações, o que não seria caso único nesta ilha.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Câmara de Lobos",
+        "Campanário"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital da ilha da Madeira"
+        ],
+        "Ponta do Sol": [
+            "Freguesia na ilha da Madeira"
+        ],
+        "Câmara de Lobos": [
+            "Município na ilha da Madeira"
+        ],
+        "Calheta": [
+            "Município na ilha da Madeira"
+        ],
+        "Campanário": [
+            "Freguesia na ilha da Madeira"
+        ],
+        "Santana": [
+            "Município na ilha da Madeira"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Fundador da capela"
+        ],
+        "D. Gaspar Afonso da Costa Brandão": [
+            "Bispo diocesano que fundou uma confraria de São João Baptista na capela"
+        ]
+    },
+    "years": {
+        "1432": [
+            "Construção da ermida de S. João"
+        ],
+        "1459": [
+            "Saída dos religiosos do hospício de São João para Portugal"
+        ],
+        "1476": [
+            "Instalação dos frades em S. Francisco"
+        ],
+        "1700": [
+            "Fundação da capela de São João Baptista no sítio do Serrado da Adega"
+        ],
+        "1728": [
+            "Instituição da capela dedicada a São João Baptista na freguesia do Campanário"
+        ],
+        "1660": [
+            "Construção da capela de São João Baptista na freguesia de Santana"
+        ],
+        "1813": [
+            "Administração da capela dedicada a São João Baptista na freguesia do Campanário"
+        ]
+    }
+}

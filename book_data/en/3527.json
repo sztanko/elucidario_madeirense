@@ -1,0 +1,27 @@
+{
+    "id": 3527,
+    "lang": "en",
+    "is_original": false,
+    "title": "Tribunal Administrativo",
+    "fl": "T",
+    "original_title": "Tribunal Administrativo",
+    "body": "The Administrative Courts were created by the 1886 code and abolished by the decree of April 21, 1892. They replaced the District Councils, each of these courts being composed of three magistrates appointed by decree of the Government. Secret Tribunal. This was the name of a Funchal periodical that was published clandestinely and did not have a set distribution day. Twelve issues are known, all from the year 1844, but it seems to have appeared in 1841.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1886": [
+            "Creation of the Administrative Courts"
+        ],
+        "1892": [
+            "Abolition of the Administrative Courts"
+        ],
+        "1844": [
+            "Publication of the periodical Secret Tribunal"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 2409,
+    "lang": "en",
+    "is_original": false,
+    "title": "Museu do Liceu",
+    "fl": "M",
+    "original_title": "Museu do Liceu",
+    "body": "In the school building, there is a small museum for the instruction of the students of the establishment, where, in addition to a collection of conchological and mineralogical specimens, there is a seal and some birds, fish, and botanical specimens. These natural history objects were acquired in 1913 and 1914, thanks to the efforts of Major Alberto Artur Sarmento, a distinguished natural sciences professor. Before that, there were some zoological specimens in the school, the state of conservation of which was not good about 40 years ago (1921).",
+    "categories": [
+        "education",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Alberto Artur Sarmento": [
+            "Distinguished professor of natural sciences"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Acquisition of natural history objects"
+        ],
+        "1914": [
+            "Acquisition of natural history objects"
+        ],
+        "1921": [
+            "About 40 years ago"
+        ]
+    }
+}

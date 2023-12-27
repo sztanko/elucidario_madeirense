@@ -1,0 +1,23 @@
+{
+    "id": 3001,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Raio da Madeira (O)",
+    "fl": "R",
+    "original_title": "Raio da Madeira (O)",
+    "body": "Saíram 73 números, sendo o primeiro a 9 de Setembro de 1864 e o último a 8 de Fevereiro de 1866.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1864": [
+            "Publicação do primeiro número"
+        ],
+        "1866": [
+            "Publicação do último número"
+        ]
+    }
+}

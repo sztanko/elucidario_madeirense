@@ -1,0 +1,42 @@
+{
+    "id": 1247,
+    "lang": "de",
+    "is_original": false,
+    "title": "Normalschule",
+    "fl": "N",
+    "original_title": "Escola Normal",
+    "body": "Die Bezirksschule zur Qualifizierung für die Grundschullehrerausbildung wurde durch das Dekret vom 10. Mai 1900 gegründet, nachdem die Notwendigkeit der Schaffung einer Bildungseinrichtung dieser Art in einem Inselbezirk wie dem unseren erkannt worden war. Zu dieser Zeit fehlte es bereits an ausreichend qualifizierten Lehrern, um die freien Stellen an den Schulen zu besetzen sowie die Stellen, die möglicherweise frei werden würden. Im Oktober 1900 meldeten sich 37 Schüler an, und die Schule nahm am 10. des genannten Monats und Jahres ihren Betrieb auf. Im Juli des folgenden Jahres fanden die Prüfungen für den Übergang in das 2. Jahr des Kurses statt, die 26 Schüler bestanden. Der erste und einzige Direktor dieser Einrichtung war Dr. Pedro José Lomelino. Seine ersten Lehrer waren Constantino Silvano Pereira, Francisco Augusto da Silva, Manuel José Varela, Frau Maria da Piedade Oliveira und der bereits erwähnte Direktor. Die Schule war in einem Gebäude in der Straße Rua dos Aranhas untergebracht und blieb dort immer. In diesem selben Haus befindet sich heute (1922) auch die Höhere Grundschule. Durch ein Dekret vom 24. Dezember 1901 wurden die Bezirksschulen zur Qualifizierung für die Grundschullehrerausbildung aufgelöst und in Normalschulen umgewandelt. Der bisher zweijährige Kurs wurde auf drei Jahre verlängert. Das Lehrpersonal und die Fächer der Schule in Funchal blieben dieselben wie zuvor. Das Dekret vom 10. Mai 1919 hob alle Normalschulen des Landes mit Ausnahme derer in Lissabon, Porto und Coimbra auf und wandelte sie in Höhere Grundschulen um. Eine davon erhielt ihren Sitz in Funchal. Die Normalschule dieser Stadt bildete in ihren neunzehn Jahren des Bestehens 172 Grundschullehrer beiderlei Geschlechts aus.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pedro José Lomelino": [
+            "Direktor der Normalschule"
+        ],
+        "Constantino Silvano Pereira": [
+            "Lehrer an der Normalschule"
+        ],
+        "Francisco Augusto da Silva": [
+            "Lehrer an der Normalschule"
+        ],
+        "Manuel José Varela": [
+            "Lehrer an der Normalschule"
+        ],
+        "D. Maria da Piedade Oliveira": [
+            "Lehrerin an der Normalschule"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Eröffnung der Normalschule"
+        ],
+        "1901": [
+            "Auflösung der Bezirksschulen zur Qualifizierung für die Grundschullehrerausbildung und Umwandlung in Normalschulen"
+        ],
+        "1919": [
+            "Auflösung aller Normalschulen des Landes mit Ausnahme derer in Lissabon, Porto und Coimbra und Umwandlung in Höhere Grundschulen"
+        ]
+    }
+}

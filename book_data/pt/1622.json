@@ -1,0 +1,35 @@
+{
+    "id": 1622,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gourlay (Dr. William)",
+    "fl": "G",
+    "original_title": "Gourlay (Dr. William)",
+    "body": "Médico inglês que veio para a Madeira em 1792 e aqui residiu por espaço de 18 anos. E.: Observations on the Natural History, climate and diseases of Madeira during a period of eighteen years, London, 1811. A exactidão das observações meteorológicas publicadas na obra de Gourlay e referentes ao período que vai de 1793 a 1803, tem sido posta em duvida por alguns autores, entre os quais o distinto médico português Dr. Barral.",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde residiu por espaço de 18 anos"
+        ]
+    },
+    "people": {
+        "Dr. Barral": [
+            "Distinto médico português"
+        ]
+    },
+    "years": {
+        "1792": [
+            "Dr. William Gourlay veio para a Madeira"
+        ],
+        "1793": [
+            "Início das observações meteorológicas"
+        ],
+        "1803": [
+            "Fim das observações meteorológicas"
+        ]
+    }
+}

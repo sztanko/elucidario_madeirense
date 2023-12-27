@@ -1,0 +1,43 @@
+{
+    "id": 3583,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Veiga Pestana (Alferes João Paulo da)",
+    "fl": "V",
+    "original_title": "Veiga Pestana (Alferes João Paulo da)",
+    "body": "Era filho de João Pestana Santos e de D. Carlota Amalia Drumond da Veiga Pestana, e nasceu no Funchal a 25 de Dezembro de 1895. Tendo concluído em 1913 os estudos preparatórios no liceu desta cidade, matriculou-se na Faculdade de Ciências da Universidade de Coimbra afim de seguir o curso de engenharia civil, mas chamado a alistar-se no exército em 1916, após a entrada de Portugal na Grande Guerra, foi logo convocado para a escola de oficiais milicianos, em virtude das suas habitações cientificas, sendo colocado como aspirante a oficial em infantaria 30, a 1 de Maio de 1917, e despachado alferes a 5 de Setembro do mesmo ano. Mobilizado para fazer parte do C. E. P. em França, partiu para aquele país a 11 de Setembro do mesmo ano, encontrando ali morte gloriosa na batalha do Lys, em 9 de Abril de 1918, depois de haver passado sete meses nas trincheiras e de haver dado aí inúmeras provas do seu brio e valor militares. A imprensa de Portugal referiu-se largamente ao malogrado oficial João Paulo da Veiga Pestana e a Ilustração Portuguesa publicou-lhe o retrato, fazendo-o acompanhar de alguns dados biográficos. A Câmara Municipal do Funchal, em sessão de 10 de Abril de 1919, deu o nome do alferes Veiga Pestana á antiga rua das Hortas, tendo representado «isto uma singela mas merecida consagração ao jovem oficial que, convidado a fugir quando o perigo mais se aproximava, respondeu, olhos fitos na Pátria: Fuja quem quizer; eu fico no cumprimento do dever».",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "João Pestana Santos": [
+            "Pai de João Paulo da Veiga Pestana"
+        ],
+        "D. Carlota Amalia Drumond da Veiga Pestana": [
+            "Mãe de João Paulo da Veiga Pestana"
+        ]
+    },
+    "years": {
+        "1895": [
+            "Nascimento de João Paulo da Veiga Pestana"
+        ],
+        "1913": [
+            "Conclusão dos estudos preparatórios"
+        ],
+        "1916": [
+            "Alistamento no exército"
+        ],
+        "1917": [
+            "Promoção a alferes"
+        ],
+        "1918": [
+            "Morte na batalha do Lys"
+        ]
+    }
+}

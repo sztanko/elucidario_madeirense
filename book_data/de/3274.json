@@ -1,0 +1,42 @@
+{
+    "id": 3274,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sardine (Pater Alfredo de Paula)",
+    "fl": "S",
+    "original_title": "Sardinha (Padre Alfredo de Paula)",
+    "body": "Er wurde in Funchal am 2. April 1861 geboren und starb in der Gemeinde Arco da Calheta am 23. Mai 1897. Er studierte am Liceu und Seminar dieser Stadt und wurde 1885 zum Priester geweiht. Er übte pfarrliche Funktionen in den Gemeinden Santana, Faial, Fajã da Ovelha und Arco da Calheta aus. Er zeigte eine entschiedene Neigung für Literatur, sowohl in Prosa als auch in Versen, aber Unglück und Krankheiten ließen ihn leider nicht ausdauernden literarischen Arbeiten nachgehen, obwohl vom seinem unbestreitbaren Talent und der Kultur seines Geistes viel zu erwarten war. In Zeitungen hinterließ er verschiedene Schriften, insbesondere in der Wahrheit, deren Redakteur er war. Er schrieb viele Gedichte, von denen einige sehr populär waren und heute noch von einigen seiner Zeitgenossen rezitiert und gesungen werden. Er hatte bemerkenswerte Qualitäten als Redner und veröffentlichte 1894 die Broschüre Rede, gehalten im Saal der Katholischen Vereinigung von Funchal....",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [
+        "Santana",
+        "Faial",
+        "Fajã da Ovelha",
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Funchal": [
+            "Er wurde in Funchal am 2. April 1861 geboren"
+        ],
+        "Arco da Calheta": [
+            "Starb in der Gemeinde Arco da Calheta am 23. Mai 1897"
+        ]
+    },
+    "people": {
+        "Padre Alfredo de Paula": [
+            "Priester, Schriftsteller, Redakteur"
+        ]
+    },
+    "years": {
+        "1861": [
+            "Geburt von Pater Alfredo de Paula"
+        ],
+        "1885": [
+            "Priesterweihe"
+        ],
+        "1897": [
+            "Tod von Pater Alfredo de Paula"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 3621,
+    "lang": "de",
+    "is_original": false,
+    "title": "Wachposten",
+    "fl": "W",
+    "original_title": "Vigias",
+    "body": "Es waren, sagt Dr. Azevedo, \"militärische und gleichzeitig steuerliche Stationen, die das Meer, die Küsten und Strände überwachten, um Alarm wegen Korsaren oder anderen feindlichen Schiffen zu schlagen und Schmuggel zu verhindern. Die Wachposten wurden von den Menschen in kleinen festen Häusern eingerichtet, die extra so gebaut waren, dass sie dem Meer standhalten und Überraschungen verhindern konnten. König Sebastian gab ihnen 1567 eine Verordnung, die im Band V, Blatt 105 des Stadtarchivs von Funchal registriert ist, und legte 1569 per Erlass fest, dass niemand von diesem Dienst befreit war\".",
+    "categories": [
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort des Stadtarchivs von Funchal"
+        ]
+    },
+    "people": {
+        "König Sebastian": [
+            "König von Portugal"
+        ]
+    },
+    "years": {
+        "1567": [
+            "Verordnung von König Sebastian für die Wachposten"
+        ],
+        "1569": [
+            "Erlass von König Sebastian über den Dienst der Wachposten"
+        ]
+    }
+}

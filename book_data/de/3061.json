@@ -1,0 +1,31 @@
+{
+    "id": 3061,
+    "lang": "de",
+    "is_original": false,
+    "title": "Restaurierung (Largo da)",
+    "fl": "R",
+    "original_title": "Restauração (Largo da)",
+    "body": "Dies ist der Platz, an dem sich der Haupteingang der Festung S. Lourenço befindet und der anlässlich des Abrisses des großen Theaters zur Zeit der Regierung von D. Alvaro da Costa Macedo eröffnet wurde. Bevor dieses Theater verschwand, gab es zwei enge Straßen, die einen Teil der Festungsmauern flankierten und zum Haupteingang dieser führten. Der Name des Platzes erinnert an die Wiederherstellung der Verfassungscharta am 5. Juni 1834.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Festung S. Lourenço": [
+            "Wo sich der Haupteingang befindet"
+        ],
+        "Großes Theater": [
+            "Das zur Zeit der Regierung von D. Alvaro da Costa Macedo abgerissen wurde"
+        ]
+    },
+    "people": {
+        "D. Alvaro da Costa Macedo": [
+            "Regierte zur Zeit des Abrisses des großen Theaters"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Wiederherstellung der Verfassungscharta"
+        ]
+    }
+}

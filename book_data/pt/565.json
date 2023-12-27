@@ -1,0 +1,33 @@
+{
+    "id": 565,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Branco (João Soares)",
+    "fl": "B",
+    "original_title": "Branco (João Soares)",
+    "body": "É de Janeiro de 1906 o decreto da sua nomeação para governador civil da Madeira, tendo tomado posse a 30 dos referidos mês e ano. Foi deputado pela Madeira na sessão legislativa de 1908 a 1910. Em 1915 publicou em Lisboa um opúsculo de 103 paginas, intitulado A Nova Questão Hinton, que contém uma colecção de artigos publicados no jornal O Paiz. Foi ministro e lente da Escola do Exército. Faleceu em Lisboa a 4 de Fevereiro de 1927.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1906": [
+            "Nomeação para governador civil da Madeira"
+        ],
+        "1915": [
+            "Publicação do opúsculo A Nova Questão Hinton"
+        ],
+        "1908": [
+            "Deputado pela Madeira"
+        ],
+        "1910": [
+            "Fim da sessão legislativa"
+        ],
+        "1927": [
+            "Falecimento em Lisboa"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 1495,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fritze (R.)",
+    "fl": "F",
+    "original_title": "Fritze (R.)",
+    "body": "German botanist who collected plants in Madeira in 1879 and 1880. Ref.: Ueber die Farnvegetation der Insel Madeira (Jahresbericht der schlesischen Ges. fur vaterl. Kultur, (1881).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island where the plant collection took place."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1879": [
+            "Year of plant collection"
+        ],
+        "1880": [
+            "Year of plant collection"
+        ],
+        "1881": [
+            "Year of publication of the report"
+        ]
+    }
+}

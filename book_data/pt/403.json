@@ -1,0 +1,28 @@
+{
+    "id": 403,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bang up",
+    "fl": "B",
+    "original_title": "Bang up",
+    "body": "Nome dum iate que esteve na Madeira e Porto Santo em 1829. 0 proprietário deste navio\nescreveu uma descrição da viagem que fez à segunda destas ilhas, que foi traduzida e publicada no Diário do\nComercio, antigo jornal funchalense.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Esteve na"
+        ],
+        "Porto Santo": [
+            "Esteve na"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1829": [
+            "Esteve na Madeira e Porto Santo"
+        ]
+    }
+}

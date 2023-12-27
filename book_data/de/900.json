@@ -1,0 +1,25 @@
+{
+    "id": 900,
+    "lang": "de",
+    "is_original": false,
+    "title": "Cima (Insel)",
+    "fl": "C",
+    "original_title": "Cima (Ilhéu de)",
+    "body": "Eine Insel südöstlich von Porto Santo, auf der sich ein 1900 installierter Leuchtturm befindet. Sie ist von der Insel durch die sogenannte Meerenge von Cima getrennt.\n\nAuf ihr finden sich einige fossile Muscheln, und sie ist auch unter dem Namen Ilhéu dos Dragoeiros bekannt, obwohl diese Bäume nicht nur von der Insel, sondern auch von der ganzen Insel Porto Santo völlig verschwunden sind.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Insel südöstlich davon"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Installation des Leuchtturms"
+        ]
+    }
+}

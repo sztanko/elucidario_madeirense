@@ -1,0 +1,51 @@
+{
+    "id": 2047,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lopes Rocha (João Francisco)",
+    "fl": "L",
+    "original_title": "Lopes Rocha (João Francisco)",
+    "body": "Era filho de António Lopes Rocha e de D. Vitoria Maria Rocha e nasceu na freguesia da Sé desta cidade a 18 de Julho de 1747. Concluíu a formatura em cânones na Universidade de Coimbra em 1770 e no mesmo ano se ordenou de presbítero. Por carta régia de 30 de Julho de 1775, foi apresentado pároco na freguesia de Santa Maria Maior e alguns anos mais tarde nomeado cónego da nossa Sé Catedral, em cujo corpo capitular exerceu depois os cargos de arcediago e deão. Desempenhou por mais duma vez as funções de governador do Bispado. Pela sua ilustração e grande influencia, gozou entre nós do maior prestígio, sendo muito considerado por todas as classes sociais desta terra. Teve lutas com o prelado diocesano D. José da Costa Torres, principalmente por ocasião da perseguição movida ás sociedades secretas de que Lopes Rocha tinha sido membro (V. Maçonaria). Escreveu então ao Ministro de Estado José Seabra da Silva uma extensa carta, queixando-se das perseguições de que estava sendo vitima, que, independentemente da justiça que porventura lhe pudesse assistir, é um documento que revela, por parte do seu autor, uma grande independência de carácter, uma não invulgar ilustração e uma notável beleza e correcção da forma. Esta carta, escrita no ano de 1793, foi publicada em Londres no Campeão Portuguez do mês de Julho de 1820, algum tempo depois da morte do seu autor, ocupando cerca de quarenta paginas daquela revista.\n\nO Dr. João Francisco Lopes Rocha faleceu nesta cidade a 8 de Maio de 1819, tendo 71 anos de idade.",
+    "categories": [
+        "history",
+        "culture",
+        "religion"
+    ],
+    "freguesias": [
+        "Sé",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Sé": [
+            "Freguesia onde nasceu João Francisco Lopes Rocha"
+        ],
+        "Santa Maria Maior": [
+            "Freguesia onde foi pároco João Francisco Lopes Rocha"
+        ]
+    },
+    "people": {
+        "António Lopes Rocha": [
+            "Pai de João Francisco Lopes Rocha"
+        ],
+        "D. Vitoria Maria Rocha": [
+            "Mãe de João Francisco Lopes Rocha"
+        ],
+        "D. José da Costa Torres": [
+            "Prelado diocesano com quem Lopes Rocha teve lutas"
+        ],
+        "José Seabra da Silva": [
+            "Ministro de Estado a quem Lopes Rocha escreveu uma carta queixando-se de perseguições"
+        ]
+    },
+    "years": {
+        "1747": [
+            "Nascimento de João Francisco Lopes Rocha"
+        ],
+        "1770": [
+            "Ano em que João Francisco Lopes Rocha concluiu a formatura em cânones e se ordenou de presbítero"
+        ],
+        "1793": [
+            "Ano em que João Francisco Lopes Rocha escreveu uma carta ao Ministro de Estado José Seabra da Silva"
+        ]
+    }
+}

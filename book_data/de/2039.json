@@ -1,0 +1,40 @@
+{
+    "id": 2039,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo das Têrças",
+    "fl": "L",
+    "original_title": "Lombo das Têrças",
+    "body": "Besiedelte Stelle in der Gemeinde Ponta do Sol mit der Kapelle Nossa Senhora do Monte, die 1751 vom Volk erbaut und 1775 erweitert wurde. Sie wurde im Juni 1810 schwer entweiht. Dort gab es auch eine Kapelle gewidmet dem Heiligen Caetano, die 1780 von António de Carvalhal Esmeraldo e Alencastre erbaut wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "António de Carvalhal Esmeraldo e Alencastre": [
+            "Erbauer der Kapelle des Heiligen Caetano"
+        ]
+    },
+    "years": {
+        "1751": [
+            "Jahr, in dem die Kapelle Nossa Senhora do Monte erbaut wurde"
+        ],
+        "1775": [
+            "Jahr, in dem die Kapelle Nossa Senhora do Monte erweitert wurde"
+        ],
+        "1810": [
+            "Jahr, in dem die Kapelle Nossa Senhora do Monte entweiht wurde"
+        ],
+        "1780": [
+            "Jahr, in dem die Kapelle des Heiligen Caetano erbaut wurde"
+        ]
+    }
+}

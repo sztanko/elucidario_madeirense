@@ -1,0 +1,43 @@
+{
+    "id": 3109,
+    "lang": "en",
+    "is_original": false,
+    "title": "Rodrigues",
+    "fl": "R",
+    "original_title": "Rodrigues",
+    "body": "Individuals with this family name are descended from: some from Mem Rodrigues de Vasconcelos, married to a daughter of Bartolomeu Perestrelo; others, from Garcia Rodrigues da Câmara, father of Aldonça Delgado, the wife of the 3rd donatary of Porto Santo, who was murdered by her; others, from João Rodrigues, who lived in the 16th century and had a populated estate near Calheta; and finally, others from João Rodrigues Neto, who died in 1531, had a sesmaria in S. Martinho, and died on the street called dos Netos, in the parish of S. Pedro.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "S. Martinho",
+        "S. Pedro"
+    ],
+    "locations": {
+        "Calheta": [
+            "Populated estate near Calheta"
+        ],
+        "S. Martinho": [
+            "Had a sesmaria in S. Martinho"
+        ],
+        "S. Pedro": [
+            "Died on the street called dos Netos, in the parish of S. Pedro"
+        ]
+    },
+    "people": {
+        "Mem Rodrigues de Vasconcelos": [
+            "Married to a daughter of Bartolomeu Perestrelo"
+        ],
+        "Garcia Rodrigues da Câmara": [
+            "Father of Aldonça Delgado, the wife of the 3rd donatary of Porto Santo"
+        ],
+        "João Rodrigues Neto": [
+            "Died in 1531"
+        ]
+    },
+    "years": {
+        "1531": [
+            "Death"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 194,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ameixoeira",
+    "fl": "A",
+    "original_title": "Ameixoeira",
+    "body": "It is the name of a parish located about 6 kilometers from Lisbon, in the municipality of Olivais. Pinho Leal, in his dictionary Portugal Antigo e Moderno, vol. I, p. 195, states that this parish belonged to the Lumiar parish and was called Funchal, adding that the old chapel of Nossa Senhora do Funchal served as the mother church until it was rebuilt and expanded in 1664. Pinho Leal further states the following: 'It is said that the original chapel was founded in memory of a great victory that the Christians obtained here against the Moors. It is also said that this chaplaincy already existed in the time of the Goths and that a Moor named Mixo or Mixio gave the name to this settlement (which until the 17th century was called Mixoeira, having previously been called Funchal, as I have already said).' Pinho Leal also provides the information that 'Ameixoeira, under the name of Funchal, was a village in the Lumiar parish; but on June 6, 1536, it became independent...' Is there any correlation between the ancient place of Funchal in Amendoeira and the primitive settlement, later a town and then a city of Funchal? We do not know.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ameixoeira",
+        "Lumiar"
+    ],
+    "locations": {
+        "Lisbon": [
+            "Located in Portugal"
+        ],
+        "Olivais": [
+            "Located in Portugal"
+        ],
+        "Lumiar": [
+            "Located in Portugal"
+        ],
+        "Funchal": [
+            "Located in Madeira"
+        ]
+    },
+    "people": {
+        "Pinho Leal": [
+            "Portuguese historian"
+        ]
+    },
+    "years": {
+        "1664": [
+            "Reconstruction of the chapel of Nossa Senhora do Funchal"
+        ],
+        "1536": [
+            "Ameixoeira became independent"
+        ]
+    }
+}

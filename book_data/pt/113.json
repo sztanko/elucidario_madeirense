@@ -1,0 +1,36 @@
+{
+    "id": 113,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alcoforado (Francisco)",
+    "fl": "A",
+    "original_title": "Alcoforado (Francisco)",
+    "body": "Escudeiro do Infante D. Henrique. Escreveu a Relação do Descobrimento da Ilha da Madeira, que nunca foi impressa e de que D. Francisco Manuel de Melo dizia ter em seu poder o original, como jóia preciosa. Ha uma tradução francesa desta obra, com o seguinte título: Relation historique de la découverte de l'isle de Madère, Paris 1671. Também foi traduzida em inglês, sob o título seguinte: The First discovery of the island of Madeira, Londres, 1675. A tradução francesa de 1671 foi reproduzida numa edição feita em Paris há cerca de 50 anos, que por visível engano traz a data de 1671, quando deve ser de mil oitocentos e sessenta e tantos. Inocencio dá noticia doutra tradução inglesa, que existe no Museu Britanico diversa da que fica mencionada e que se intitula An Historical Account of the discovery of the Island of Madeira abridged from the Portuguese original, to which is added an Account of the present state of the Island, in a Letter to a Friend. London, 17 50. Esta versão é com todo o fundamento atribuída ao Dr. Johns.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Residência de Gonçalo Pinto Alcoforado"
+        ]
+    },
+    "people": {
+        "Francisco Alcoforado": [
+            "Escudeiro do Infante D. Henrique, autor da Relação do Descobrimento da Ilha da Madeira"
+        ]
+    },
+    "years": {
+        "1671": [
+            "Tradução francesa de Relation historique de la découverte de l'isle de Madère"
+        ],
+        "1675": [
+            "Tradução em inglês de The First discovery of the island of Madeira"
+        ],
+        "1850": [
+            "Tradução inglesa de An Historical Account of the discovery of the Island of Madeira"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2030,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo dos Leais",
+    "fl": "L",
+    "original_title": "Lombo dos Leais",
+    "body": "Sítio da freguesia do Porto da Cruz encorporado no sítio povoado do Folhadal. Fica neste sítio a capela de São João Nepomuceno, fundada por João Nepomuceno de Freitas Leal, no ano de 1770. Próximo da capela se encontra uma excelente casa de habitação, pertencente á antiga família Leal, de que este sítio tomou o nome.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Freguesia do Porto da Cruz"
+        ],
+        "Folhadal": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "João Nepomuceno de Freitas Leal": [
+            "Fundador da capela de São João Nepomuceno"
+        ]
+    },
+    "years": {
+        "1770": [
+            "Fundação da capela de São João Nepomuceno"
+        ]
+    }
+}

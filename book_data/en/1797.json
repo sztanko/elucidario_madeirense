@@ -1,0 +1,30 @@
+{
+    "id": 1797,
+    "lang": "en",
+    "is_original": false,
+    "title": "Instituição Filosófica e Mecânica",
+    "fl": "I",
+    "original_title": "Instituição Filosófica e Mecânica",
+    "body": "Under this title, a society was founded in Funchal in 1840, with the aim of conducting scientific studies on Madeira. This society lasted a short time, and one of its members, the military engineer António Pedro de Azevedo, published in Flor do Oceano a translation of James Smith's paper on Madeiran geology.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Location of the society's foundation"
+        ]
+    },
+    "people": {
+        "António Pedro de Azevedo": [
+            "Member of the society"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Foundation of the society"
+        ]
+    }
+}

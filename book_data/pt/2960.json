@@ -1,0 +1,31 @@
+{
+    "id": 2960,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pterégio",
+    "fl": "P",
+    "original_title": "Pterégio",
+    "body": "Esta moléstia, a que também chamam unha do olho, foi apontada como frequente na Madeira, ha cerca de 170 anos, pelo dr. Heberden, médico ingles, tendo-nos declarado o dr. Alfredo Ernesto Rodrigues, distinto especialista em moléstias de olhos, que ela continua a aparecer em larga escala na ilha, sendo caracterizada por um engrossamento de parte da conjuntiva, que se manifesta quase sempre no angulo interno do olho (1921).",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Apontada como frequente"
+        ]
+    },
+    "people": {
+        "Dr. Heberden": [
+            "Apontou como frequente na Madeira"
+        ],
+        "Dr. Alfredo Ernesto Rodrigues": [
+            "Declarou que continua a aparecer em larga escala na ilha"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Caracterização da moléstia"
+        ]
+    }
+}

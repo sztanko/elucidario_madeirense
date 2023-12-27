@@ -1,0 +1,30 @@
+{
+    "id": 3211,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santos Cosme e Damião (Capela dos)",
+    "fl": "S",
+    "original_title": "Santos Cosme e Damião (Capela dos)",
+    "body": "With this invocation, there used to be, but has long since disappeared, a chapel in the area of Salão, in the parish of Calheta, which was founded in 1681 by the surgeon Antonio de França Gomes.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Salão": [
+            "Location where the chapel of Santos Cosme e Damião used to exist."
+        ]
+    },
+    "people": {
+        "Antonio de França Gomes": [
+            "Surgeon and founder of the chapel."
+        ]
+    },
+    "years": {
+        "1681": [
+            "Year of the chapel's foundation."
+        ]
+    }
+}

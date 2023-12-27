@@ -1,0 +1,33 @@
+{
+    "id": 2369,
+    "lang": "en",
+    "is_original": false,
+    "title": "Morais",
+    "fl": "M",
+    "original_title": "Morais",
+    "body": "This family name originates from João de Morais, one of the first settlers of Madeira who lived in Machico, where he had a land grant. His eldest son, Sebastião de Morais, the Elder, justified his nobility in 1508, as stated by the annotator of the 'Saudades.'",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Parish on the island of Madeira"
+        ]
+    },
+    "people": {
+        "João de Morais": [
+            "One of the first settlers of Madeira"
+        ],
+        "Sebastião de Morais, the Elder": [
+            "Eldest son of João de Morais"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Justification of the nobility of Sebastião de Morais, the Elder"
+        ]
+    }
+}

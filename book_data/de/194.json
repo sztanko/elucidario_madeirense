@@ -1,0 +1,43 @@
+{
+    "id": 194,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ameixoeira",
+    "fl": "A",
+    "original_title": "Ameixoeira",
+    "body": "Es ist der Name einer Gemeinde, die etwa 6 Kilometer von Lissabon entfernt im Gemeindebezirk Olivais liegt. Pinho Leal sagt in seinem Wörterbuch Portugal Antigo e Moderno, Bd. I, S. 195, dass diese Pfarrei zur Gemeinde Lumiar gehörte und den Namen Funchal trug, und fügt hinzu, dass die alte Kapelle Unserer Lieben Frau von Funchal bis 1664 als Pfarrkirche diente, als sie wiederaufgebaut und erweitert wurde. Pinho Leal sagt wörtlich folgendes: \"Es wird gesagt, dass die ursprüngliche Kapelle zur Erinnerung an einen großen Sieg errichtet wurde, den die Christen hier gegen die Mauren errungen haben. Es wird auch gesagt, dass diese Kaplanei bereits zu Zeiten der Goten existierte und ein Maure namens Mixo oder Mixio diesem Ort seinen Namen gab (der bis zum 17. Jahrhundert Mixoeira hieß, nachdem er zuvor Funchal geheißen hatte, wie bereits erwähnt).\" Pinho Leal gibt auch die Information, dass \"Ameixoeira, mit dem Namen Funchal, ein Dorf der Gemeinde Lumiar war; aber am 6. Juni 1536 wurde es unabhängig...\" Gibt es einen Zusammenhang zwischen dem uralten Ort Funchal in Amendoeira und der ursprünglichen Siedlung, später Stadt und dann Stadt Funchal? Wir wissen es nicht.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ameixoeira",
+        "Lumiar"
+    ],
+    "locations": {
+        "Lissabon": [
+            "In Portugal gelegen"
+        ],
+        "Olivais": [
+            "In Portugal gelegen"
+        ],
+        "Lumiar": [
+            "In Portugal gelegen"
+        ],
+        "Funchal": [
+            "Auf Madeira gelegen"
+        ]
+    },
+    "people": {
+        "Pinho Leal": [
+            "Portugiesischer Historiker"
+        ]
+    },
+    "years": {
+        "1664": [
+            "Wiederaufbau der Kapelle Unserer Lieben Frau von Funchal"
+        ],
+        "1536": [
+            "Ameixoeira wurde unabhängig"
+        ]
+    }
+}

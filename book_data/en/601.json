@@ -1,0 +1,30 @@
+{
+    "id": 601,
+    "lang": "en",
+    "is_original": false,
+    "title": "Busk (George)",
+    "fl": "B",
+    "original_title": "Busk (George)",
+    "body": "Professor and naturalist who studied the Polyzoa of Madeira, basing his studies on materials provided to him from here by James Y. Johnson. These works, the oldest known on this branch of Madeira's natural history, mention a total of 45 species and were published under the following titles: Zoophytology (Quart. Journ. Micros Sc. VI 1858); On Some Madeiran Polyzoa (Ibid., VI and VII, 1858 and 1859); and Catalogue of the Polyzoa collected by J. Y. Johnson, Esq. at Madeira, in the years 1859 and 1860 (Ibid., VIII and IX, 1860 and 1861).\n\n## See Briozoarios.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "James Y. Johnson": [
+            "Person who provided materials for Busk's studies"
+        ]
+    },
+    "years": {
+        "1858": [
+            "Publication of Zoophytology"
+        ],
+        "1859": [
+            "Publication of On Some Madeiran Polyzoa"
+        ],
+        "1860": [
+            "Publication of Catalogue of the Polyzoa collected by J. Y. Johnson, Esq. at Madeira"
+        ]
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "id": 3283,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sarsfield (Alexandre José)",
+    "fl": "S",
+    "original_title": "Sarsfield (Alexandre José)",
+    "body": "He was born in the parish of São Pedro in this city on September 17, 1856, the son of Guilherme Henrique Sarsfield and D. Cândida de Ornelas Sarsfield. He attended the Funchal lyceum and the Military School, pursuing a military career, and has been a reserve colonel for years (1921). As a captain, he took part in the expedition to our East Africa in 1894, being present at the battle of Coolela and the capture of Manjacaze. He was chief of staff of the Ministry of War and military attaché to the Portuguese legation in Paris. In addition to various public service commissions, both civil and military, he also served as civil governor of Guarda and as a deputy for Madeira in the legislatures of 1902-1904, 1904, and 1906. He has had extensive collaboration in various newspapers and magazines, including the Revista de Educação e Ensino, Revista de Infantaria, Revista Militar, Revolução de Setembro, Primeiro de Janeiro, and Diário de Noticias, in Lisbon. In recent years, he has contributed extensively to the Diario da Madeira. He published several pamphlets on colonial and military subjects, as well as the books 'Leitura para meus filhos' and 'Educação.' He has two volumes ready for publication (1921). He was a prosecutor in the first military council of the 1st Military Division, is an officer of the orders of the Tower and Sword, of Saint James, of Saint Benedict of Avis, and of Our Lady of the Conception of Vila Viçosa, and has, among others, the silver medal for overseas service and the silver medal to commemorate the expedition to Mozambique in 1894 and 1895. He also has the cross of the 2nd class of Military Merit, from Spain, and is a grand cross of the Order of Isabella the Catholic, of the same country, and an officer of the Legion of Honor, of France (1921). He passed away in December 1926.",
+    "categories": [
+        "history",
+        "biology"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {},
+    "people": {
+        "Guilherme Henrique Sarsfield": [
+            "Father of Alexandre José Sarsfield"
+        ],
+        "D. Cândida de Ornelas Sarsfield": [
+            "Mother of Alexandre José Sarsfield"
+        ]
+    },
+    "years": {
+        "1856": [
+            "Birth of Alexandre José Sarsfield"
+        ],
+        "1894": [
+            "Participation in the expedition to East Africa"
+        ],
+        "1902-1904": [
+            "Deputy for Madeira"
+        ],
+        "1904": [
+            "Deputy for Madeira"
+        ],
+        "1906": [
+            "Deputy for Madeira"
+        ],
+        "1921": [
+            "Reserve colonel status and publication of books"
+        ]
+    }
+}

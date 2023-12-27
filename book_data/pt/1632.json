@@ -1,0 +1,29 @@
+{
+    "id": 1632,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Graça",
+    "fl": "G",
+    "original_title": "Graça",
+    "body": "Sítio da ilha do Porto Santo. Nela existiu uma antiga capela, dedicada a Nª Sª da Graça, que deu o nome ao local. Achando-se muito arruinada, foi iniciada a sua reconstrução em proporções maiores do que a primitiva, nos princípios do século XIX, por iniciativa do governador daquela ilha Manuel Inacio de Avelar Brotero, mas não chegou a concluir-se a sua reedificação, estando hoje reduzida a um montão de ruínas. Oferecia a singularidade de ter a forma octogonal, dizendo-se que reproduziria em miniatura um celebre templo de Itália.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha"
+        ]
+    },
+    "people": {
+        "Manuel Inacio de Avelar Brotero": [
+            "Governador da ilha do Porto Santo"
+        ]
+    },
+    "years": {
+        "Século XIX": [
+            "Iniciada a reconstrução da antiga capela dedicada a Nª Sª da Graça"
+        ]
+    }
+}

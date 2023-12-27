@@ -1,0 +1,31 @@
+{
+    "id": 2020,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo das Adegas",
+    "fl": "L",
+    "original_title": "Lombo das Adegas",
+    "body": "A populated place in the parish of Ponta do Sol. Pedro Delgado, a former settler, had land there as a land grant, which later became an entailed institution. Probably founded by this family, there was a small oratory dedicated to Saint Anthony, which in 1853 was expanded and converted into a public chapel, being the third hermitage of that invocation in that parish.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Parish where Lombo das Adegas is located."
+        ]
+    },
+    "people": {
+        "Pedro Delgado": [
+            "Former settler of Lombo das Adegas."
+        ]
+    },
+    "years": {
+        "1853": [
+            "Year in which the oratory dedicated to Saint Anthony was expanded and converted into a public chapel."
+        ]
+    }
+}

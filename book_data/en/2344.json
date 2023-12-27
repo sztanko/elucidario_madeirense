@@ -1,0 +1,29 @@
+{
+    "id": 2344,
+    "lang": "en",
+    "is_original": false,
+    "title": "Monteiro (Rua do)",
+    "fl": "M",
+    "original_title": "Monteiro (Rua do)",
+    "body": "It is a small street that starts from Rua da Cadeia Velha, in front of the mouth of Rua dos Medinas, and ends at Rua '31 de Janeiro', on the left bank of the Santa Luzia stream. It is almost parallel to Rua do Phelps. Some members of the old Monteiro family lived there, giving the small street its name.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cadeia Velha": [
+            "Street"
+        ],
+        "Medinas": [
+            "Street"
+        ],
+        "31 de Janeiro": [
+            "Street"
+        ],
+        "Santa Luzia": [
+            "Stream"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

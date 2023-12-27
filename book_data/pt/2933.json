@@ -1,0 +1,50 @@
+{
+    "id": 2933,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Princesas Marroquinas",
+    "fl": "P",
+    "original_title": "Princesas Marroquinas",
+    "body": "A 19 de Abril de 1793, arribou ao porto do Funchal um bergantim marroquino, trazendo a seu bordo a\nesposa, três filhas e dois filhos do principe Muley Abdessalam, bem como nove concubinas deste e algumas outras pessoas de alta\ncategoria em Marrocos, entre as quais se contava a viúva do antigo imperador Muley Ismael.\n\nA comitiva da família do príncipe era constituída por duas camareiras, um eunuco, um arrais condutor, um secretario, um preto\nporteiro, fazendo as vezes de eunuco, dezassete criadas musicas trinta criados, dezassete mulheres dos criados, cento e dezanove\nescravos, escravas e filhos, onze passageiros moiros, um judeu e uma judia, amiga do arrais.\n\nContando com os tripulantes, havia a bordo do bergantim mais de duzentas pessoas, que vinham todas imensamente incomodadas,\ntanto pela pequenez do navio como pela falta de agua que havia a bordo.\n\nO bergantim dirigia-se para Salé, onde Muley Abessalam pretendia pôr a sua família ao abrigo dos perigos da guerra civil que\nassolava então o império de Marrocos, mas tendo encontrado ventos contrários que o afastaram do porto do seu destino, viu-se o\nseu comandante obrigado a conduzi-lo ao porto do Funchal, onde sabia que encontraria recursos para poder continuar a viagem em\nmelhores condições.\n\nAs princesas foram muito bem recebidas no Funchal tanto pelo governador e capitão-general D. Diogo Forjaz Coutinho como pelo\ncônsul marroquino Diogo Teles, tendo aquela autoridade mandado aprontar dois bergantins portugueses, pelos quais fêz distribuir\nos viajantes, embarcando também em um dêles o referido consul, o qual se propunha acompanhar as princesas até Salé.\n\nA viagem não foi feliz. Afastados os navios da sua derrota depois de deixarem o porto do Funchal, tiveram as princesas de\ndesembarcar na ilha de S. Miguel, donde passaram a Lisboa, retirando finalmente para o seu país no dia 8 de Agosto, a bordo de\ntres embarcações que o governo português pusera á sua disposição.\n\nO cônsul Domingos Teles só acompanhou as princesas até a ilha de S. Miguel, abandonando-as aí, sem se dar ao incomodo de\njustificar o seu procedimento.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto"
+        ],
+        "Salé": [
+            "Destino original da viagem"
+        ],
+        "S. Miguel": [
+            "Local de desembarque antes de seguir para Lisboa"
+        ]
+    },
+    "people": {
+        "Muley Abdessalam": [
+            "Príncipe"
+        ],
+        "Muley Ismael": [
+            "Antigo imperador"
+        ],
+        "D. Diogo Forjaz Coutinho": [
+            "Governador e capitão-general"
+        ],
+        "Diogo Teles": [
+            "Cônsul marroquino"
+        ],
+        "Domingos Teles": [
+            "Cônsul"
+        ]
+    },
+    "years": {
+        "1793": [
+            "Chegada do bergantim marroquino ao porto do Funchal"
+        ],
+        "8 de Agosto": [
+            "Retorno das princesas para o seu país"
+        ]
+    }
+}

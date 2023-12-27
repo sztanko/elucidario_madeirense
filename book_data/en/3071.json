@@ -1,0 +1,60 @@
+{
+    "id": 3071,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ribeira Brava (Municipality and Town of)",
+    "fl": "R",
+    "original_title": "Ribeira Brava (Município e Vila da)",
+    "body": "As we have already mentioned before about Porto do Moniz and Câmara de Lobos, it never had the status of a town, although it was often referred to as such, even before the creation of the council. On page 213 of volume I of this work, we mentioned that there were seven places in Madeira, including Ribeira Brava, and to this day, the most important site in this locality, known as 'Lugar,' serves as the parish and council seat (1921). The municipality of Ribeira Brava is the most recent creation, only nine years old (1921), as it was established in 1914. Its formal installation took place on August 2nd of that year. It consists of the parishes of Ribeira Brava, Serra de Água, and Tabua, which were separated from the council of Ponta do Sol, and the parish of Campanário, separated from the council of Câmara de Lobos. Its population is 12,800 inhabitants. Its coat of arms features the fort of São Bento, located at the entrance of the village, on the street leading to the pier. By decree of August 31, 1915, a school district was established in the municipality, which now has its headquarters in the city of Funchal (1921). The municipality of Ribeira Brava was created by the decree of May 6, 1914, and its headquarters were elevated to the status of a town by the decree of May 26, 1928. The site known as 'Lugar,' being the most populous and bustling in the parish, bordering the port and having easy and frequent communication with other locations, could not help but be chosen as the seat of the new municipality and town. It includes the aforementioned site of 'Lugar' and also Calvário, Bagaceira, and Moinhos. Within its area are the Municipal Hall, other municipal offices, the Parish Church, two official primary schools, one for each gender, the Telegraph-Postal Station, and the Telephone Booth. The Civil Registry Office, the Fiscal Post, the headquarters of a Medical Party, the Parish Cemetery, the landing pier, the small fort of São Bento, and the ruins of the church of the former Franciscan convent are also within its area. Forty years ago, the extinct Agricultural Board established an experimental agriculture field in this locality, perhaps the only one of those established in Madeira at that time that has been of some practical use. When this district was divided into two primary school districts, western and eastern, one of them had its headquarters in Ribeira Brava, which was shortly after transferred to the city of Funchal, and that district was abolished in 1923.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Serra de Água",
+        "Tabua",
+        "Campanário"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Locality, parish, and council seat"
+        ],
+        "Serra de Água": [
+            "Parish"
+        ],
+        "Tabua": [
+            "Parish"
+        ],
+        "Campanário": [
+            "Parish"
+        ],
+        "Ponta do Sol": [
+            "Council"
+        ],
+        "Câmara de Lobos": [
+            "Council"
+        ],
+        "Funchal": [
+            "City"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1914": [
+            "Establishment of the municipality of Ribeira Brava"
+        ],
+        "1915": [
+            "Establishment of a school district in the municipality"
+        ],
+        "1921": [
+            "Formal installation of the municipality"
+        ],
+        "1923": [
+            "Abolition of a school district in Ribeira Brava"
+        ],
+        "1928": [
+            "Elevation of the headquarters to the status of a town"
+        ]
+    }
+}

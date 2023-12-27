@@ -1,0 +1,30 @@
+{
+    "id": 60,
+    "lang": "de",
+    "is_original": false,
+    "title": "Afonso (João)",
+    "fl": "A",
+    "original_title": "Afonso (João)",
+    "body": "Von Zarcos Gefährten auf der Entdeckungsreise nach Madeira haben die Chroniken neben Tristão Vaz auch die Namen Gonçalo Aires Ferreira, João Lourenço, Rui Pais und João Afonso überliefert, die adligen Familien angehörten und auf dieser Insel Stammväter einer breiten Nachkommenschaft wurden. Als sie in der Bucht von Machico ankamen und dort die erste Landung machten, setzten sie am nächsten Tag die Erkundung der Küste fort, während die Schiffe in diesem Hafen vor Anker lagen. Frutuoso erwähnt die Boote unter der Leitung von Gonçalves Zarco, Tristão Vaz und João Afonso, die die Bucht von Machico verließen und die gesamte Südküste Madeiras auf einer Erkundungsreise umrundeten. Die häufigen Verweise auf João Afonso scheinen anzuzeigen, dass er sich durch irgendeine Vormachtstellung oder ein Ansehen von seinen Gefährten abhebt. João Afonso erhielt Sesmarias in Câmara de Lobos und gründete dort ein Majorat, dem er die Kapelle des Heiligen Geistes in der Kirche Unserer Lieben Frau vom Felsen angliederte, wo er im letzten Viertel des 15. Jahrhunderts begraben wurde. Er ist der Stammvater und Gründer des Hauses Torre Bela, eines der ältesten und bedeutendsten Madeiras. Er übte auf dieser Insel das Amt des Schatzmeisters des Infanten D. Henrique aus und erhob die Einkünfte und Steuern, die ihm zugewiesen waren.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Machico": [
+            "Bucht, in der João Afonso und seine Gefährten die erste Landung machten"
+        ]
+    },
+    "people": {
+        "João Afonso": [
+            "Entdecker und Stammvater des Hauses Torre Bela"
+        ]
+    },
+    "years": {
+        "15. Jahrhundert": [
+            "Bestattung von João Afonso in der Kapelle des Heiligen Geistes"
+        ]
+    }
+}

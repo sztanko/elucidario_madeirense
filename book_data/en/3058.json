@@ -1,0 +1,26 @@
+{
+    "id": 3058,
+    "lang": "en",
+    "is_original": false,
+    "title": "Requeme (Sebastes Kuhlii)",
+    "fl": "R",
+    "original_title": "Requeme (Sebastes Kuhlii)",
+    "body": "A gurnard fish that is caught at a depth ranging from 100 to 250 fathoms. In Câmara de Lobos, it is known by the name 'chapado', and in Porto Santo, by the name 'vermelho'. It is not a rare species and lives in rocky areas. Its flesh has a pleasant taste.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Where it is known by the name 'chapado'"
+        ],
+        "Porto Santo": [
+            "Where it is known by the name 'vermelho'"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

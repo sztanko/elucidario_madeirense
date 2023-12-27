@@ -1,0 +1,32 @@
+{
+    "id": 1450,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte do Caniçal",
+    "fl": "F",
+    "original_title": "Forte do Caniçal",
+    "body": "Ordered to be built in the 1st quarter of the 18th century, after a pirate landing in that village. In 1758, João de Morais Perestrelo was the captain of this fort. It was located on the cove.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caniçal": [
+            "Village"
+        ]
+    },
+    "people": {
+        "João de Morais Perestrelo": [
+            "Captain"
+        ]
+    },
+    "years": {
+        "18th century": [
+            "Construction of the fort"
+        ],
+        "1758": [
+            "Captain João de Morais Perestrelo"
+        ]
+    }
+}

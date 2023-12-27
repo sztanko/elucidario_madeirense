@@ -1,0 +1,39 @@
+{
+    "id": 1151,
+    "lang": "de",
+    "is_original": false,
+    "title": "Dias Ferreira (José)",
+    "fl": "D",
+    "original_title": "Dias Ferreira (José)",
+    "body": "Dieser herausragende Politiker und Rechtswissenschaftler kam am 7. März 1873 in Funchal an, wo er einige Monate blieb. Er wohnte in der Quinta Bianchi im Ortsteil Nazaré in S. Martinho, die heute im Besitz der Erben von Manuel José de Favila Vieira ist und damals dem verstorbenen Kaufmann Augusto César de Bianchi gehörte, später Vizegraf von Bianchi.\n\nDer Rechtsberater José Dias Ferreira wurde am 30. November 1837 geboren und starb am 9. September 1907 in Vidago.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Funchal": [
+            "Stadt, in der er sich aufhielt"
+        ],
+        "S. Martinho": [
+            "Ort, an dem er wohnte"
+        ]
+    },
+    "people": {
+        "José Dias Ferreira": [
+            "Herausragender Politiker und Rechtswissenschaftler"
+        ]
+    },
+    "years": {
+        "1873": [
+            "Ankunft in Funchal"
+        ],
+        "1837": [
+            "Geburt"
+        ],
+        "1907": [
+            "Tod"
+        ]
+    }
+}

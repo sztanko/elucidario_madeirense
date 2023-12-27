@@ -1,0 +1,43 @@
+{
+    "id": 3632,
+    "lang": "de",
+    "is_original": false,
+    "title": "Vila Mendo (Visconde de)",
+    "fl": "V",
+    "original_title": "Vila Mendo (Visconde de)",
+    "body": "Durch Dekret vom 12. April 1881 wurde der Viscount von Vila Mendo zum Zivilgouverneur von Funchal ernannt; er trat das Amt am 23. Mai desselben Jahres an. Er diente nur wenige Monate. Zum zweiten Mal wurde er durch Dekret vom 10. November 1882 zum Zivilgouverneur dieses Bezirks ernannt und trat das Amt am 16. des genannten Monats und Jahres an. Als Pair vertrat er Madeira in den Parlamentssitzungen der Jahre 1884 bis 1887 und 1890 bis 1892. António de Gouveia Osório wurde mit dem Titel eines Viscount von Vila Mendo belehnt, einer Gemeinde im Bezirk Viseu, wo er einen geerbten Landsitz und ein Majorat besaß und 1826 geboren wurde. Er war Bachelor des Rechts und Mitglied des Rechnungshofs.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Viseu"
+    ],
+    "locations": {
+        "Funchal": [
+            "Bezirk Funchal"
+        ],
+        "Viseu": [
+            "Gemeinde im Bezirk Viseu"
+        ]
+    },
+    "people": {
+        "António de Gouveia Osório": [
+            "Mit dem Titel eines Viscount von Vila Mendo belehnt, 1826 geboren, Bachelor des Rechts und Mitglied des Rechnungshofs"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Ernennung zum Zivilgouverneur von Funchal"
+        ],
+        "1882": [
+            "Zweite Ernennung zum Zivilgouverneur dieses Bezirks"
+        ],
+        "1884-1887": [
+            "Vertretung Madeiras im Parlament"
+        ],
+        "1890-1892": [
+            "Vertretung Madeiras im Parlament"
+        ]
+    }
+}

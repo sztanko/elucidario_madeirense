@@ -1,0 +1,36 @@
+{
+    "id": 3459,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Telefones",
+    "fl": "T",
+    "original_title": "Telefones",
+    "body": "A rede telefónica do Funchal foi inaugurada no dia 5 de Outubro de 1911, tendo a Câmara Municipal estabelecido, em 1908, as condições em que permitia a adaptação de parte da torre dos Paços do Concelho a estação central dos telefones. Os trabalhos da mesma adaptação só se iniciaram no ano imediato. Para a montagem dos serviços telefónicos do Funchal, muito concorreu o falecido João Augusto Pereira, antigo deputado pela Madeira.\n\nEm 6 de Agosto de 1915, resolveu a Câmara Municipal representar ao governo pedindo que a rede telefónica se estendesse a toda a ilha, mas este melhoramento não foi ainda concedido à Madeira. (1921)",
+    "categories": [
+        "history",
+        "science",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Inauguração da rede telefónica em 1911 e adaptação da torre dos Paços do Concelho para estação central dos telefones"
+        ]
+    },
+    "people": {
+        "João Augusto Pereira": [
+            "Contribuiu significativamente para a montagem dos serviços telefónicos do Funchal"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Inauguração da rede telefónica do Funchal"
+        ],
+        "1908": [
+            "Câmara Municipal estabeleceu condições para adaptação da torre dos Paços do Concelho"
+        ],
+        "1915": [
+            "Câmara Municipal pediu a extensão da rede telefónica para toda a ilha"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 3239,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Lázaro (Capela de)",
+    "fl": "S",
+    "original_title": "São Lázaro (Capela de)",
+    "body": "Havia uma capela desta invocação na freguesia de Santa Cruz, que foi instituída por João Afonso Escudeiro no princípio do século XVI (V. Bemposta).\n\nTem a mesma invocação a capela do antigo, hospital de São Lazaro, hoje cadeia civil (1921).\n\nV. Hospital de São Lázaro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Localizada na freguesia de Santa Cruz"
+        ]
+    },
+    "people": {
+        "João Afonso Escudeiro": [
+            "Instituidor da capela dedicada a São Lázaro na freguesia de Santa Cruz"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Instituição da capela dedicada a São Lázaro na freguesia de Santa Cruz"
+        ]
+    }
+}

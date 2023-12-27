@@ -1,0 +1,30 @@
+{
+    "id": 1017,
+    "lang": "en",
+    "is_original": false,
+    "title": "Correia",
+    "fl": "C",
+    "original_title": "Correia",
+    "body": "We have already dedicated a small article to João Afonso, a companion of Zarco, who was the head of a noble and distinguished family on this island. He also had the surname Correia, which he passed on to his descendants, and they were the first to use it on this island. João Afonso had a son named Antonio Correia, who was born in Madeira in 1457 and is said by various genealogists to have died in 1572, at the age of approximately 115 years. This Antonio Correia was a valiant knight who fought bravely in Africa, especially in Arzila and Safim, where he maintained a large number of men and horses at his own expense. The old Madeiran chronicles speak of him with great praise.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Afonso": [
+            "Companion of Zarco"
+        ],
+        "Antonio Correia": [
+            "Valiant knight who fought bravely in Africa, especially in Arzila and Safim"
+        ]
+    },
+    "years": {
+        "1457": [
+            "Birth of Antonio Correia"
+        ],
+        "1572": [
+            "Death of Antonio Correia"
+        ]
+    }
+}

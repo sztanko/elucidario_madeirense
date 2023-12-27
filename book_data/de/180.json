@@ -1,0 +1,31 @@
+{
+    "id": 180,
+    "lang": "de",
+    "is_original": false,
+    "title": "Alvares da Silva (Anibal)",
+    "fl": "A",
+    "original_title": "Alvares da Silva (Anibal)",
+    "body": "Er wurde am 29. Mai 1819 in Funchal geboren und war der Sohn von Vitorino Alvares da Silva. Schon früh ließ er sich in der damaligen Stadt Setúbal nieder, wo sein Vater das Amt des Oberzollinspektors im Zollamt bekleidete. Nach Abschluss seines Jurastudiums mit bemerkenswerter Auszeichnung eröffnete er in seiner Wahlheimat eine Anwaltskanzlei und wurde dank seines seltenen Talents, seines Charakters und anderer wertvoller Eigenschaften zum einflussreichsten Mann Setúbals. Er war dort mehrmals Bürgermeister und ebenso oft Abgeordneter. Die Dienste, die er diesem Ort erwies, waren von größter Bedeutung, weshalb Setúbal ihn als großen Wohltäter betrachtet und die Errichtung eines Denkmals zu seinen Ehren erwägt. Er starb am 8. Dezember 1408 in Lissabon, wo er viele Jahre mit großem Renommee als Anwalt tätig gewesen war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort."
+        ],
+        "Setúbal": [
+            "Ort, an dem er sich niederließ und als Bürgermeister Einfluss ausübte."
+        ]
+    },
+    "people": {
+        "Vitorino Alvares da Silva": [
+            "Vater von Anibal Alvares da Silva."
+        ]
+    },
+    "years": {
+        "1819": [
+            "Geburtsjahr."
+        ]
+    }
+}

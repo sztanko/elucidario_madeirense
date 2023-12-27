@@ -1,0 +1,27 @@
+{
+    "id": 800,
+    "lang": "en",
+    "is_original": false,
+    "title": "Casa de Saúde",
+    "fl": "C",
+    "original_title": "Casa de Saúde",
+    "body": "This was formerly called the small house at the entrance of the city, where for many years the Port Captaincy and the Commercial Association were accommodated. The time when this house was built is unknown, but it is known that on June 15, 1771, the City Council contributed with 100,000 réis for the construction of a new house near the Saúde, intended as the residence of the standard-bearer, and that on July 13 of the same year, it gave another 100,000 réis for the same work.\n\nIt was customary in other times for the chief guards to wait at the Casa da Saúde for the letters from the ships that arrived at our port. The chief guards were appointed by the City Council, and they were not required to have a medical degree, as is the case today. In addition to the chief guards, there was an interpreter at the Casa da Saúde, also appointed by the City Council, who had an annual salary of 17 réis.\n\nThe Casa da Saúde served as the Town Hall from 1784 until the end of the 18th century or the beginning of the 19th century, and despite being a municipal building, it was ceded by the government to the City Council, which sold it in 1914, being auctioned off by the firms Luiz da Rocha Machado & Co. and W. Winton for the amount of 22,800,000 réis.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1771": [
+            "City Council contributed with 100,000 réis for the construction of a new house near the Saúde, intended as the residence of the standard-bearer, and that on July 13 of the same year, it gave another 100,000 réis for the same work."
+        ],
+        "1784": [
+            "Casa da Saúde served as the Town Hall"
+        ],
+        "1914": [
+            "Was ceded by the government to the City Council, which sold it, being auctioned off by the firms Luiz da Rocha Machado & Co. and W. Winton for the amount of 22,800,000 réis."
+        ]
+    }
+}

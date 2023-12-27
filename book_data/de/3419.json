@@ -1,0 +1,53 @@
+{
+    "id": 3419,
+    "lang": "de",
+    "is_original": false,
+    "title": "Oberfläche",
+    "fl": "O",
+    "original_title": "Superfície",
+    "body": "Es gibt ziemlich unterschiedliche Berechnungen über die Gesamtfläche des Archipels und insbesondere jeder der Inseln, aus denen er besteht. Dr. Alvaro Rodrigues de Azevedo, der dieses Thema in dem bemerkenswerten Artikel des Dicionario Universal Portuguez Ilustrado ausführlich behandelt hat, sagt, dass einige Autoren die globale Fläche des Archipels auf mehr als tausend Quadratkilometer berechnen, später wurde angenommen, dass diese Fläche um 800 Quadratkilometer beträgt, und er behauptet schließlich, dass die neuesten Berechnungen, von denen er annimmt, dass sie der Wahrheit am nächsten kommen, dem gesamten Archipel eine Fläche von 560 Quadratkilometern geben, wobei die Insel Madeira 500 Quadratkilometer, Porto Santo 50 und die kleine Gruppe der Desertas 10 hat.\n\nIn verschiedenen offiziellen Dokumenten und noch vor kurzem in der \"Volkszählung\", die in diesem Jahr 1934 veröffentlicht wurde, heißt es, dass die Fläche der Insel Madeira 740,62 Quadratkilometer und die von Porto Santo 42,17 beträgt.\n\nDie Bevölkerungsdichte betrug laut der bereits zitierten \"Volkszählung\" 270 Einwohner pro Quadratkilometer zur damaligen Zeit.\n\n| Jahr | Einwohner pro Quadratkilometer |\n|------|--------------------------------|\n| 1864 | 135,9                         |\n| 1878 | 160,2                         |\n| 1890 | 164,5                         |\n| 1900 | 184,8                         |\n| 1911 | 208,8                         |\n| 1920 | 219,6                         |\n| 1930 | 270,3                         |",
+    "categories": [
+        "geography",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel mit einer Fläche von 740,62 Quadratkilometern laut der Volkszählung von 1934."
+        ],
+        "Porto Santo": [
+            "Insel mit einer Fläche von 42,17 Quadratkilometern."
+        ],
+        "Desertas": [
+            "Kleine Inselgruppe mit einer Fläche von 10 Quadratkilometern."
+        ]
+    },
+    "people": {
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Autor, der die Fläche des Madeira-Archipels diskutiert hat."
+        ]
+    },
+    "years": {
+        "1864": [
+            "135,9 Einwohner pro Quadratkilometer."
+        ],
+        "1878": [
+            "160,2 Einwohner pro Quadratkilometer."
+        ],
+        "1890": [
+            "164,5 Einwohner pro Quadratkilometer."
+        ],
+        "1900": [
+            "184,8 Einwohner pro Quadratkilometer."
+        ],
+        "1911": [
+            "208,8 Einwohner pro Quadratkilometer."
+        ],
+        "1920": [
+            "219,6 Einwohner pro Quadratkilometer."
+        ],
+        "1930": [
+            "270,3 Einwohner pro Quadratkilometer."
+        ]
+    }
+}

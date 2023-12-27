@@ -1,0 +1,69 @@
+{
+    "id": 3195,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santa Quitéria (Capelas de)",
+    "fl": "S",
+    "original_title": "Santa Quitéria (Capelas de)",
+    "body": "Falando da capela desta invocação, diz o Dr. Álvaro de Azevedo que foi fundada por Simão de Nobrega, no Curral das Freiras, no que há visível engano. Esta capela ficava na freguesia de Santo António e foi construída pelo alferes Simão de Nobrega e Sousa e sua mulher Maria Tavares de Sousa, na quinta que possuiam no sítio do Pico do Cardo, daquela freguesia. No Curral das Freiras apenas existiu a ermida de Santo Antonio, mandada edificar pelas religiosas do convento de Santa Clara. A capela de Santa Quiteria foi edificada no ano de 1727, sendo de 3 de Julho deste ano a respectiva escritura de dotação. Em 1814, encontrava-se profanada e já havia muitos anos que nela se não celebravam os actos do culto. Deu o nome ao sítio em que foi construída.\n\nHouve outra capela da mesma invocação no sítio do Lombo da Estrela, na freguesia da Calheta, fundada em 1724 por João Homem de Abreu e sua mulher D. Ana Quiteria ou Luzia. A escritura de dotação é de 30 de Maio daquele ano.\n\nFundada pelo padre João da Silva Alves, existiu uma capela de Santa Quiteria na freguesia da Madalena do Mar.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Calheta",
+        "Madalena do Mar"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Apenas existiu a ermida de Santo Antonio"
+        ],
+        "Santo António": [
+            "Local da construção da capela de Santa Quitéria"
+        ],
+        "Pico do Cardo": [
+            "Sítio onde Simão de Nobrega e Sousa e sua mulher Maria Tavares de Sousa possuíam uma quinta"
+        ],
+        "Lombo da Estrela": [
+            "Sítio onde foi fundada outra capela de Santa Quitéria"
+        ],
+        "Calheta": [
+            "Freguesia onde foi fundada outra capela de Santa Quitéria"
+        ],
+        "Madalena do Mar": [
+            "Freguesia onde existiu uma capela de Santa Quitéria"
+        ]
+    },
+    "people": {
+        "Simão de Nobrega": [
+            "Fundador da capela de Santa Quitéria no Curral das Freiras"
+        ],
+        "Maria Tavares de Sousa": [
+            "Esposa de Simão de Nobrega, participou na construção da capela de Santa Quitéria"
+        ],
+        "João Homem de Abreu": [
+            "Fundador da capela de Santa Quitéria no Lombo da Estrela"
+        ],
+        "D. Ana Quiteria": [
+            "Esposa de João Homem de Abreu, participou na construção da capela de Santa Quitéria"
+        ],
+        "João da Silva Alves": [
+            "Fundador da capela de Santa Quitéria na freguesia da Madalena do Mar"
+        ]
+    },
+    "years": {
+        "1727": [
+            "Ano de edificação da capela de Santa Quitéria no Curral das Freiras"
+        ],
+        "1814": [
+            "Ano em que a capela de Santa Quitéria no Curral das Freiras encontrava-se profanada"
+        ],
+        "1724": [
+            "Ano de fundação da capela de Santa Quitéria no Lombo da Estrela"
+        ],
+        "30 de Maio": [
+            "Data da escritura de dotação da capela de Santa Quitéria no Lombo da Estrela"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 2063,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lugar de Baixo",
+    "fl": "L",
+    "original_title": "Lugar de Baixo",
+    "body": "Lugar de Baixo is a place in the parish of Ponta do Sol, located between the town and the parish of Tábua. It is one of the many coastal fajãs formed by the falling of overhanging land. 'The Logar de Baixo has been much larger since 1804,' says the annotator of the Saudades, 'because in that year, a large part of the lands of Lombada, which overlooks it, split by the storms of previous years, fell towards the sea, forming there an extensive and productive field. The impact of the fall was such that the sea rose from its level along the entire adjacent coast, and the shock was felt both on land and at sea, more than ten kilometers away: the sea entered deep into the town of Ponta do Sol.' Lugar de Baixo was part of the large property of Lombada dos Esmeraldos (see this name), but when, upon the death of João Esmeraldo, new divisions were made between his two sons and the widow Águeda de Abreu, she reserved the property of Lugar de Baixo for herself as an integral part of her dowry. It is possible that it reverted to the morgadio of Santo Espírito upon her death, and it is certain that it was incorporated into it at a time that we do not know. It was sold at public auction around the same time as Lombada, and was acquired by the English merchants A. Criorgi & Co. There is the chapel of Santo António, with a beautiful attached house, which we will discuss elsewhere in this work.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Tábua"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Parish"
+        ],
+        "Tábua": [
+            "Parish"
+        ],
+        "Lombada dos Esmeraldos": [
+            "Large property"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Owner of the large property Lombada dos Esmeraldos"
+        ],
+        "Águeda de Abreu": [
+            "Widow of João Esmeraldo"
+        ]
+    },
+    "years": {
+        "1804": [
+            "Increase of Logar de Baixo due to the fall of lands from Lombada"
+        ]
+    }
+}

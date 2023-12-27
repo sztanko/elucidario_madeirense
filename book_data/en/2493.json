@@ -1,0 +1,33 @@
+{
+    "id": 2493,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Glória (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Glória (Capela de)",
+    "body": "Henrique de Bettencourt founded this chapel in 1599 in the parish of Campanário. In 1823, its administrator was the morgado Luís Correia. It was restored a few years ago by the Countess of Torre Bela, who owns it (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário"
+    ],
+    "locations": {
+        "Campanário": [
+            "Location where the Chapel of Nossa Senhora da Glória was founded by Henrique de Bettencourt"
+        ]
+    },
+    "people": {
+        "Henrique de Bettencourt": [
+            "Founder of the Chapel of Nossa Senhora da Glória"
+        ]
+    },
+    "years": {
+        "1599": [
+            "Year of the foundation of the Chapel of Nossa Senhora da Glória"
+        ],
+        "1823": [
+            "Year when Luís Correia was the administrator of the chapel"
+        ]
+    }
+}

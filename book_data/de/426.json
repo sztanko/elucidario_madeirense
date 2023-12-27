@@ -1,0 +1,33 @@
+{
+    "id": 426,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barredo (António Pereira)",
+    "fl": "B",
+    "original_title": "Barredo (António Pereira)",
+    "body": "Er folgte Tristão Vaz da Veiga im Amt des Generalgouverneurs von Madeira nach. (Siehe diesen Namen) Er wurde am 30. Dezember 1590 ernannt und trat sein Amt am 21. August 1591 an. Er diente bis zum 20. April 1595.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Tristão Vaz da Veiga": [
+            "Vorgänger"
+        ],
+        "António Pereira Barredo": [
+            "Am 30. Dezember 1590 ernannt, diente bis zum 20. April 1595"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Ernannt"
+        ],
+        "1591": [
+            "Amtseinführung"
+        ],
+        "1595": [
+            "Diente bis"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2011,
+    "lang": "en",
+    "is_original": false,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "Site of the parish of Ponta do Sol, where there is a chapel dedicated to Our Lady of the same name, ordered to be built by Diogo Ferreira de Mesquita and his wife D. Isabel de Meneses, in the year 1656, the seat of an entailed estate instituted by them, being descendants of the German nobleman Adriano Spranger, who owned sesmaria lands in that area.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Parish where the site of Livramento is located."
+        ]
+    },
+    "people": {
+        "Diogo Ferreira de Mesquita": [
+            "Founder of the chapel dedicated to Our Lady of Livramento."
+        ],
+        "D. Isabel de Meneses": [
+            "Wife of Diogo Ferreira de Mesquita."
+        ],
+        "Adriano Spranger": [
+            "German nobleman and descendant of the founders of the entailed estate."
+        ]
+    },
+    "years": {
+        "1656": [
+            "Year of construction of the chapel dedicated to Our Lady of Livramento."
+        ]
+    }
+}

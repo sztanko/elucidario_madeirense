@@ -1,0 +1,59 @@
+{
+    "id": 3192,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santa Maria (D. Fr. José de)",
+    "fl": "S",
+    "original_title": "Santa Maria (D. Fr. José de)",
+    "body": "This pious bishop of Funchal was the son of Luís de Saldanha, a viador of the household of Queen D. Luísa de Gusmão, and D. Violante de Mendonça. Embracing the monastic life, he entered the Capuchin order and served as a lecturer in arts and theology, as well as in other important positions.\n\nD. Pedro 2nd appointed him bishop of this diocese in 1689, being confirmed by Pope Alexander VIII on March 6, 1690. On November 25 of that year, he received episcopal consecration from the hands of Cardinal de Lencastre.\n\nIn March 1691, he entered his diocese, dedicating himself entirely to the shepherding of his flock. He visited the parishes of his bishopric several times, despite the roughness of the roads and the difficulty of transportation and accommodations in the places he visited. He was very zealous in the observance of the teaching of Christian doctrine, having a pastoral printed in which this matter was regulated and imposed with all rigor. He convened a council in the diocese, in which serious provisions were taken regarding many points of ecclesiastical discipline that had long fallen into disuse.\n\nD. Fr. José de Santa Maria was of a resigned and kind nature and suffered with true Christian humility the abuses and vexations of the Captain-General D. Rodrigo da Costa, who, in addition to his atrabilious and despotic nature, had the manifest protection of his relatives, who belonged to the first nobility and held the highest positions in the nation.\n\nAfter a short episcopate of five years, he requested and obtained his transfer, being placed in one of the main sees of the Kingdom, in consideration of his great merits and virtues. Transferred to the bishopric of Porto, he died there, with the reputation of a saint, on October 26, 1708, according to D. Antonio Caetano de Sousa.\n\nHe left Madeira on September 15, 1696, the day he left the episcopal administration of this diocese.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Calheta",
+        "Madalena do Mar"
+    ],
+    "locations": {},
+    "people": {
+        "Luís de Saldanha": [
+            "Viador of the household of Queen D. Luísa de Gusmão"
+        ],
+        "D. Violante de Mendonça": [
+            "Mother of D. Fr. José de Santa Maria"
+        ],
+        "D. Luísa de Gusmão": [
+            "Queen"
+        ],
+        "D. Pedro 2nd": [
+            "Appointed D. Fr. José de Santa Maria bishop of the diocese"
+        ],
+        "Alexandre VIII": [
+            "Confirmed D. Fr. José de Santa Maria as bishop of the diocese"
+        ],
+        "D. Rodrigo da Costa": [
+            "Captain-General who caused vexations to D. Fr. José de Santa Maria"
+        ],
+        "D. Antonio Caetano de Sousa": [
+            "Affirms the date of the death of D. Fr. José de Santa Maria"
+        ]
+    },
+    "years": {
+        "1689": [
+            "D. Fr. José de Santa Maria was appointed bishop of the diocese"
+        ],
+        "1690": [
+            "D. Fr. José de Santa Maria was confirmed as bishop of the diocese"
+        ],
+        "1691": [
+            "D. Fr. José de Santa Maria entered his diocese"
+        ],
+        "1696": [
+            "D. Fr. José de Santa Maria left Madeira"
+        ],
+        "1708": [
+            "D. Fr. José de Santa Maria died in the bishopric of Porto"
+        ]
+    }
+}

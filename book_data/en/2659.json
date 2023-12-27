@@ -1,0 +1,29 @@
+{
+    "id": 2659,
+    "lang": "en",
+    "is_original": false,
+    "title": "Paredes",
+    "fl": "P",
+    "original_title": "Paredes",
+    "body": "A populated place in the parish of Arco da Calheta. The chapel of Nossa Senhora da Nazaré, which is located there, was erected in the last quarter of the 17th century by Francisco de Barros Maciel, and was completely rebuilt in the year 1830 by António João Barbosa de Matos e Camara, a descendant of the founder. It is a vincular institution, of which the aforementioned Francisco de Barros Maciel was the first administrator.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco de Barros Maciel": [
+            "Founder of the chapel of Nossa Senhora da Nazaré"
+        ]
+    },
+    "years": {
+        "XVII": [
+            "Construction of the chapel of Nossa Senhora da Nazaré"
+        ],
+        "1830": [
+            "Reconstruction of the chapel of Nossa Senhora da Nazaré"
+        ]
+    }
+}

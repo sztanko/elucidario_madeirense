@@ -1,0 +1,28 @@
+{
+    "id": 715,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Campanario (Ribeira do)",
+    "fl": "C",
+    "original_title": "Campanario (Ribeira do)",
+    "body": "Conhecida também por Ribeira da Lapa, nasce no Pico dos Terreiros, atravessa a paroquia do Campanario e desagua no pôrto deste nome.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Campanario"
+    ],
+    "locations": {
+        "Pico dos Terreiros": [
+            "Local de nascimento"
+        ],
+        "Campanario": [
+            "Paroquia"
+        ],
+        "Pôrto deste nome": [
+            "Local de desagua"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

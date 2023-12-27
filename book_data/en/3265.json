@@ -1,0 +1,51 @@
+{
+    "id": 3265,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Vicente (Village and Municipality of)",
+    "fl": "S",
+    "original_title": "São Vicente (Vila e Município de)",
+    "body": "It is known that the villages of Funchal, Machico, and Porto Santo were established by the mid-15th century, and those of Santa Cruz, Ponta do Sol, and Calheta in the early 16th century. During the 17th century, no village was established in Madeira, and São Vicente was created in the second quarter of the 18th century.\n\nThe place of São Vicente, established as a parish by the end of the 15th century, was one of the parishes in the north of Madeira that acquired greater importance from the early days of colonization, where the population became denser, and it is still the most populous today. It belonged to the captaincy of Machico, and the village of the same name was the seat of all public administration, forcing the people of the north of the island to long and dangerous walks to reach the capital of their captaincy when imperative circumstances required it.\n\nAs the communications between many parishes on the north coast and Funchal were easier and more frequent, the people of those parishes often sought to escape the jurisdiction of the captaincy of Machico and be incorporated into that of Funchal, or to obtain the creation of a municipality with its seat in São Vicente, encompassing this and other neighboring parishes.\n\nThe legitimate desire of the people of the north was only achieved in 1744 with the creation of the village of São Vicente. Dr. Alvaro Rodrigues de Azevedo makes no reference to this fact and certainly was unaware of the decree that elevated the parish of São Vicente to the status of a village. The respective royal charter, which is an extensive and exceedingly interesting document, is dated August 25, 1744, and was first published in issue number 14 and following of the journal A Revista Madeirense, in the year 1902.\n\nWith the establishment of the constitutional government, this archipelago was divided into municipalities, profoundly altering the existing division by villages or municipalities. The council of São Vicente was installed in 1835 and was composed, as it still is today, of the parishes of Boaventura, Ponta Delgada, and São Vicente. The decree of December 10, 1867, abolished the council of Porto Moniz and incorporated the parishes of Seixal, Ribeira da Janela, and Porto Moniz into that of São Vicente, and shortly thereafter the extinct council of Porto Moniz was restored. This council was again abolished by the decree of November 18, 1895, and also restored by the decree of January 13, 1898, with the parishes of Seixal, Ribeira da Janela, and Porto Moniz once again becoming part of the council of São Vicente in this short period of time.\n\nAs the village of São Vicente is located in a confined area and is composed of a limited number of residents, it has not had the expansion and development commensurate with the circumstances of being the seat of a district, enjoying the honors of a village, the capital of a municipality, and the center of a Municipal Court, necessitating the convenience of its installation in a more spacious area, allowing for the formation of an important population center around the municipal and council offices, as generally happens in other locations. The idea of transferring the seat of the municipality to a more suitable location is not recent, and as early as 1929, the Administrative Commission of the Municipality dealt with this matter with devoted interest, even choosing the location and outlining the plan for the future village. It is presumed that the ancient district will be restored, giving valuable importance to the settlement that may be created.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Ponta Delgada",
+        "São Vicente",
+        "Seixal",
+        "Ribeira da Janela",
+        "Porto Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital of its captaincy"
+        ],
+        "Machico": [
+            "Captaincy of Machico"
+        ]
+    },
+    "people": {
+        "Dr. Alvaro Rodrigues de Azevedo": [
+            "Was unaware of the decree that elevated the parish of São Vicente to the status of a village"
+        ]
+    },
+    "years": {
+        "1744": [
+            "Creation of the village of São Vicente"
+        ],
+        "1835": [
+            "Installation of the council of São Vicente"
+        ],
+        "1867": [
+            "Abolition of the council of Porto Moniz"
+        ],
+        "1895": [
+            "Abolition of the council of São Vicente"
+        ],
+        "1898": [
+            "Restoration of the council of São Vicente"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": 837,
+    "lang": "en",
+    "is_original": false,
+    "title": "Catanho de Meneses (Dr. João)",
+    "fl": "C",
+    "original_title": "Catanho de Meneses (Dr. João)",
+    "body": "He was born in the parish of Faial on April 17, 1854, and enrolled in the law school of the University of Coimbra in 1874, completing the course in 1879. He then moved to Lisbon, where he set up a law practice. He represented Madeira in the Cortes during the legislatures of 1890, 1897 to 1899, 1900, and 1905 to 1906. At that time, he was a member of the Progressive Party, but after the establishment of the republican institutions in the country, he joined the Democratic Party and became the Minister of Justice in 1915, in the ministry led by Dr. José de Castro. He left the ministry when Germany declared war on Portugal.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Faial": [
+            "Birthplace"
+        ]
+    },
+    "people": {
+        "Dr. José de Castro": [
+            "President of the ministry in which João Catanho served as Minister of Justice"
+        ]
+    },
+    "years": {
+        "1854": [
+            "Year of birth"
+        ],
+        "1874": [
+            "Year of enrollment in the law school"
+        ],
+        "1879": [
+            "Year of completion of the law course"
+        ],
+        "1890": [
+            "Year of representation of Madeira in the Cortes"
+        ]
+    }
+}

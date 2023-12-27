@@ -1,0 +1,30 @@
+{
+    "id": 3133,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rosmarin",
+    "fl": "R",
+    "original_title": "Rosmaninho",
+    "body": "Die Madeirenser geben diesen Namen der Santolina Chamaecyparissus, einer Pflanze aus der Familie der Korbblütler, die in einigen Gärten von Funchal, Camacha und Monte kultiviert wird, sowie der Lavandula pedunculata, L. viridis und L. dentata, Pflanzen aus der Familie der Lippenblütler, von denen die ersten beiden auf der Insel wild wachsen und die letzte kultiviert und halbwild ist. All diese Arten sind aromatisch und können für Bäder und Einreibungen verwendet werden; die Blütenköpfe der Santolina können als Tonikum eingesetzt werden.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Camacha",
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "In einigen Gärten kultiviert"
+        ],
+        "Camacha": [
+            "In einigen Gärten kultiviert"
+        ],
+        "Monte": [
+            "In einigen Gärten kultiviert"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

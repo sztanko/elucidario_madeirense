@@ -1,0 +1,28 @@
+{
+    "id": 102,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Álbum Madeirense",
+    "fl": "Á",
+    "original_title": "Álbum Madeirense",
+    "body": "Poesias de diversos autores madeirenses, colegidas por Francisco Vieira. Funchal, 1884, I vol. de 225 paginas.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Vieira": [
+            "Coleccionador de poesias madeirenses"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Ano de publicação"
+        ]
+    }
+}

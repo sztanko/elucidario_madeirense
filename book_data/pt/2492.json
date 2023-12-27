@@ -1,0 +1,27 @@
+{
+    "id": 2492,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Fé (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Fé (Capelas de)",
+    "body": "Ficava na freguesia de São Martinho uma capela com esta invocação, fundada por Manuel Gonçalves Lisboa no ano de 1668. Deu o nome ao sítio em que foi edificada.\n\nNo sítio do Mirante da Terra do Baptista, na freguesia do Porto da Cruz fundou o morgado Diogo Dias de Ornelas e Vasconcellos uma capela da mesma invocação, sendo de 25 de Novembro de 1825 a data da escritura de dotação e de 11 de Agosto de 1826 a vistoria para a licença de nela se poderem celebrar os atos do culto. Já não existe.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Localidade onde ficava a capela fundada por Manuel Gonçalves Lisboa."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1668": [
+            "Ano de fundação da capela Nossa Senhora da Fé."
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 3389,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sousa",
+    "fl": "S",
+    "original_title": "Sousa",
+    "body": "> Há, segundo parece, dois ramos deste apelido: um procede de Rui de Sousa, fidalgo da casa de D. João II, que casou nesta ilha com Constança Cabral, filha de Diogo Cabral e de Brites Gonçalves da Câmara, filha de Zargo; o outro deriva de Antão Alvares de Sousa, cavaleiro nobre, que fez assento em Santa Cruz, pelos anos de 1480.\n>\n> Garcia Homem de Sousa, genro de Zargo, teve uma filha que se chamou Leonor Homem e casou com Duarte Pestana.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "Rui de Sousa": [
+            "Fidalgo"
+        ],
+        "Constança Cabral": [
+            "Filha de Diogo Cabral e de Brites Gonçalves da Câmara"
+        ],
+        "Antão Alvares de Sousa": [
+            "Cavaleiro nobre"
+        ],
+        "Garcia Homem de Sousa": [
+            "Genro de Zargo"
+        ],
+        "Leonor Homem": [
+            "Filha de Garcia Homem de Sousa"
+        ]
+    },
+    "years": {
+        "1480": [
+            "Assentamento de Antão Alvares de Sousa em Santa Cruz"
+        ]
+    }
+}

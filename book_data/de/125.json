@@ -1,0 +1,34 @@
+{
+    "id": 125,
+    "lang": "de",
+    "is_original": false,
+    "title": "Alecrins",
+    "fl": "A",
+    "original_title": "Alecrins",
+    "body": "Ort in der Gemeinde Santo Antonio in Funchal, wo die Kapelle Unserer Lieben Frau vom Frieden stand, die 1670 von Lourenço de Matos Coutinho erbaut wurde, der sie zum Sitz der Alecrins-Majorat machte, das 1577 gegründet wurde und dessen derzeitiger Vertreter Dr. Rui Betencourt da Câmara ist.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Santo Antonio in Funchal": [
+            "Ort des Ortes Alecrins"
+        ]
+    },
+    "people": {
+        "Lourenço de Matos Coutinho": [
+            "Gründer der Kapelle Unserer Lieben Frau vom Frieden"
+        ]
+    },
+    "years": {
+        "1670": [
+            "Bau der Kapelle Unserer Lieben Frau vom Frieden"
+        ],
+        "1577": [
+            "Gründung des Alecrins-Majorats"
+        ]
+    }
+}

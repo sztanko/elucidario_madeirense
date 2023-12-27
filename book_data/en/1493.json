@@ -1,0 +1,28 @@
+{
+    "id": 1493,
+    "lang": "en",
+    "is_original": false,
+    "title": "Friderichsen (K)",
+    "fl": "F",
+    "original_title": "Friderichsen (K)",
+    "body": "Danish botanist who identified the species of the genus Rubus collected by Dr. Vahl in Madeira. Ref.: Rubi fra Madeira (Bot. Tidsskrift, 1905).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where the species of the genus Rubus were collected"
+        ]
+    },
+    "people": {
+        "K. Friderichsen": [
+            "Danish botanist who identified the species of the genus Rubus collected by Dr. Vahl in Madeira"
+        ]
+    },
+    "years": {
+        "1905": [
+            "Publication of Rubi fra Madeira"
+        ]
+    }
+}

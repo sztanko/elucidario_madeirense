@@ -1,0 +1,31 @@
+{
+    "id": 3027,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Recreio (O)",
+    "fl": "R",
+    "original_title": "Recreio (O)",
+    "body": "Deu este Jornal 25 números, de 1 de Maio de 1863 a 13 de Julho de 1864, sendo redigido pelos alunos do nosso liceu.\n\nSaíram 43 números dum jornal que, com o mesmo título, se publicou de 19 de Setembro de 1897 a 10 de Julho de 1898.",
+    "categories": [
+        "culture",
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1863": [
+            "Início da publicação do jornal 'Recreio' redigido pelos alunos do liceu"
+        ],
+        "1864": [
+            "Fim da publicação do jornal 'Recreio' redigido pelos alunos do liceu"
+        ],
+        "1897": [
+            "Início da publicação de um jornal com o mesmo título 'Recreio'"
+        ],
+        "1898": [
+            "Fim da publicação de um jornal com o mesmo título 'Recreio'"
+        ]
+    }
+}

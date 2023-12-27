@@ -1,0 +1,60 @@
+{
+    "id": 153,
+    "lang": "de",
+    "is_original": false,
+    "title": "Almada (José Antonio de)",
+    "fl": "A",
+    "original_title": "Almada (José Antonio de)",
+    "body": "Er wurde am 19. April 1813 in Machico geboren. Bei der Blockade Madeiras im Mai 1832 floh er zur Flottendivision der Königin. 1833 wurde er zum Feldwebel befördert und landete als Soldat der von Dom Pedro IV. kommandierten Expedition an den Stränden von Mindelo. Er nahm an der Belagerung von Porto teil, war in Serra do Pilar und war an verschiedenen Aktionen und Kämpfen der Freiheitskampagnen beteiligt. Er wurde am 16. Mai 1834 in Asseiceira verwundet. Durch Dekret vom 8. September 1834 sah Königin Maria II. es als angemessen an, ihn mit dem Ritterkreuz des Ordens vom Turm und Schwert auszuzeichnen. Er starb am 2. Mai 1885 in Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Machico"
+        ],
+        "Mindelo": [
+            "Mindelo"
+        ],
+        "Porto": [
+            "Porto"
+        ],
+        "Serra do Pilar": [
+            "Serra do Pilar"
+        ],
+        "Asseiceira": [
+            "Asseiceira"
+        ],
+        "Funchal": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "D. Pedro IV": [
+            "Kommandant der Expedition"
+        ],
+        "D. Maria II": [
+            "Königin, die ihn auszeichnete"
+        ]
+    },
+    "years": {
+        "1813": [
+            "Geburt von José Antonio de Almada"
+        ],
+        "1832": [
+            "Blockade Madeiras"
+        ],
+        "1833": [
+            "Beförderung zum Feldwebel"
+        ],
+        "1834": [
+            "Verwundung in Asseiceira"
+        ],
+        "1885": [
+            "Tod von José Antonio de Almada"
+        ]
+    }
+}

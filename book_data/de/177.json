@@ -1,0 +1,58 @@
+{
+    "id": 177,
+    "lang": "de",
+    "is_original": false,
+    "title": "Alvares (Joaquim de Oliveira)",
+    "fl": "A",
+    "original_title": "Alvares (Joaquim de Oliveira)",
+    "body": "Er wurde auf Madeira am 16. November 1776 geboren und studierte Mathematik und Philosophie an der Universität Coimbra. 1798 wurde er zum Leutnant der Marine ernannt und zwei Jahre später zeichnete er sich in einem Gefecht vor der Küste der Algarve aus, zwischen einem kleinen portugiesischen Kaiq, dessen Kommandant er war, und einem französischen Kaperschiff. Für den Mut, den er während des Kampfes gezeigt hatte, aus dem er allerdings als Verlierer hervorgegangen war, wurde er für eine Beförderung vorgeschlagen. Danach diente er in der Flotte des Marquês de Nisa und 1804 finden wir ihn in Brasilien, wo er die Marine gegen die Armee eingetauscht hatte und den Rang eines Hauptmanns der Artillerie in der Freiwilligenlegion von S. Paulo bekleidete. Er nahm an den Feldzügen von Montevideo teil, besiegte am 27. Oktober 1816 die Streitkräfte des berühmten Artigas in der Schlacht von Carumbé und zeichnete sich am 4. Januar des folgenden Jahres in der Schlacht von Catalan aus. Als Belohnung für diese Dienste wurde er zum Brigadier befördert, erhielt den Orden von Aviz und 1816 den Rang eines Feldmarschalls. Nach der Unabhängigkeit Brasiliens blieb er in diesem Reich, war dort Kriegsminister, Feldmarschall, Offizier des Kreuzordens und Generalleutnant. Er lebte von 1830 bis 1835 in London und nachdem er dort ein sehr großes Erbe erhalten hatte, stellte er seinen Reichtum der brasilianischen Regierung zur Verfügung, damit diese in Zeiten der Not die Zinsen der Inskriptionen bezahlen konnte. 1835 ging er nach Paris, um Linderung für seine Leiden zu suchen, und starb dort im Alter von 59 Jahren. Er ist auf dem Friedhof Père Lachaise begraben. Er war ein Mann mit weiter Bildung und hinterließ ein unveröffentlichtes umfangreiches Werk mit dem Titel \"Statistik Brasiliens\". Im 2. Band des Dicionário Popular finden sich interessante biografische Angaben über Marschall Joaquim de Oliveira Alvares, der der Bruder des Rates João Francisco de Oliveira war, eines anderen berühmten Sohnes unseres Landes.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort."
+        ],
+        "Coimbra": [
+            "Ort, an dem er in Mathematik und Philosophie promoviert wurde."
+        ],
+        "Algarve": [
+            "Ort, an dem er sich in einem Gefecht auszeichnete."
+        ]
+    },
+    "people": {
+        "Antão Alvares de Carvalho": [
+            "Einer der ersten Siedler."
+        ],
+        "Luiz Alvares da Costa": [
+            "Gründer des ursprünglichen Franziskanerklosters in Funchal."
+        ],
+        "Pedro Alvares": [
+            "Richter der Stadtverwaltung von Funchal."
+        ],
+        "João Alvares": [
+            "Vorfahre des berühmten Grammatikers Pater Manuel Alvares."
+        ],
+        "Joaquim de Oliveira Alvares": [
+            "Feldmarschall, Kriegsminister und Autor des Werkes \"Statistik Brasiliens\"."
+        ],
+        "João Francisco de Oliveira": [
+            "Berater und berühmter Sohn Madeiras."
+        ]
+    },
+    "years": {
+        "1776": [
+            "Geburtsjahr."
+        ],
+        "1798": [
+            "Ernennung zum Leutnant der Marine."
+        ],
+        "1804": [
+            "Jahr, in dem er in Brasilien war."
+        ],
+        "1816": [
+            "Jahr, in dem er die Streitkräfte des berühmten Artigas besiegte."
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1961,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lemann (Dr. Carlos)",
+    "fl": "L",
+    "original_title": "Lemann (Dr. Carlos)",
+    "body": "Botânico inglês que veio para a Madeira em 1837 e saiu desta ilha, com destino a Londres, a 19 de Maio de 1838. As plantas por ele colhidas nesta ilha e nas Canárias, estão no Jardim de Kew e na Universidade de Cambridge. V. Hooker.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha onde Dr. Carlos Lemann coletou plantas"
+        ]
+    },
+    "people": {
+        "Dr. Carlos Lemann": [
+            "Botânico inglês"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Chegada do Dr. Carlos Lemann à Madeira"
+        ],
+        "1838": [
+            "Partida do Dr. Carlos Lemann da Madeira"
+        ]
+    }
+}

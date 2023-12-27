@@ -1,0 +1,32 @@
+{
+    "id": 3621,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lookouts",
+    "fl": "L",
+    "original_title": "Vigias",
+    "body": "According to Dr. Azevedo, they were 'military and fiscal stations that watched the sea, coasts, and beaches in order to sound the alarm for corsairs or any other enemy ships, and to prevent smuggling. The lookouts were manned by the people, in small strong houses, purposefully built to withstand the sea and prevent surprises. In 1567, D. Sebastião regulated them, a regulation that is recorded in volume V, page 105, of the Archive of the Funchal City Council, and, by royal decree of 1569, he determined that no one would be exempt from this service.'",
+    "categories": [
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the Archive of the Funchal City Council"
+        ]
+    },
+    "people": {
+        "D. Sebastião": [
+            "King of Portugal"
+        ]
+    },
+    "years": {
+        "1567": [
+            "Regulation given by D. Sebastião to the lookouts"
+        ],
+        "1569": [
+            "Royal decree of D. Sebastião regarding the service of the lookouts"
+        ]
+    }
+}

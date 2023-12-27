@@ -1,0 +1,26 @@
+{
+    "id": 118,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aldeia da Rainha",
+    "fl": "A",
+    "original_title": "Aldeia da Rainha",
+    "body": "A settlement created in the parish of Santo Antonio da Serra during the time of D. Maria I, with families coming from the island of Porto Santo, which did not last long.\n\nSee Santo da Serra.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio da Serra"
+    ],
+    "locations": {
+        "Santo Antonio da Serra": [
+            "Settlement created during the time of D. Maria I"
+        ]
+    },
+    "people": {},
+    "years": {
+        "D. Maria I": [
+            "Time of the settlement's creation"
+        ]
+    }
+}

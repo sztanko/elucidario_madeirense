@@ -1,0 +1,33 @@
+{
+    "id": 1494,
+    "lang": "en",
+    "is_original": false,
+    "title": "Frigorifico",
+    "fl": "F",
+    "original_title": "Frigorifico",
+    "body": "The extinct Agricultural Board intended to establish a refrigeration plant in Funchal, acquiring a plot of land for this purpose between the old streets of Conceição and Hortas, now Correia Heredia and Alferes Veiga Pestana, for the amount of 10,500$00. The machinery for the same establishment cost 6,000$00 and in facilities, walls, opening of the communication between the two mentioned streets, etc., around 500,000 were spent until 1915. Despite being a facility capable of providing good services, the refrigeration plant never started operating, and in a session of the Agricultural Board on August 23, 1918, it was resolved to hand over to the Municipal Council the street where the buildings intended for it were constructed. (1921).",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [
+        "Sé",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Funchal": [
+            "Location of the refrigeration plant"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1915": [
+            "Year of expenditure of around 500,000"
+        ],
+        "1918": [
+            "Year of the resolution of the Agricultural Board"
+        ],
+        "1921": [
+            "Year of the article's source"
+        ]
+    }
+}

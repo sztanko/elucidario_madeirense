@@ -1,0 +1,44 @@
+{
+    "id": 1099,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cunha (José Ribeiro da)",
+    "fl": "C",
+    "original_title": "Cunha (José Ribeiro da)",
+    "body": "His appointment as civil governor of this district was decreed on April 9, 1896, and he took office on May 23 of that year. By decree of June 13, 1901, he was appointed civil governor of Madeira for the second time and took office on the 15th of the same month and year. During his term of office, he received a visit from the kings of Portugal, D. Carlos and D. Maria Amelia, and on that occasion, he was honored with the Grand Cross of the Order of the Immaculate Conception. He held the same position for the third time, having been appointed by decree of May 22, 1906, and took office on the 29th of that month and year. He was appointed civil governor of Madeira for the fourth time by decree of June 27, 1910, and took office on July 13 of the following month. He was the last effective civil governor in the monarchical regime and represented Madeira in the parliament during the legislature from 1908 to 1910. He died in Lisbon on May 14, 1915, a victim of the revolution that broke out in that city on that day.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisbon": [
+            "Capital of Portugal."
+        ]
+    },
+    "people": {
+        "D. Carlos": [
+            "King of Portugal."
+        ],
+        "D. Maria Amelia": [
+            "Queen of Portugal."
+        ]
+    },
+    "years": {
+        "1896": [
+            "Appointment as civil governor of this district."
+        ],
+        "1901": [
+            "Second appointment as civil governor of Madeira."
+        ],
+        "1906": [
+            "Third appointment as civil governor of Madeira."
+        ],
+        "1910": [
+            "Fourth appointment as civil governor of Madeira."
+        ],
+        "1908": [
+            "Representation of Madeira in the parliament."
+        ]
+    }
+}

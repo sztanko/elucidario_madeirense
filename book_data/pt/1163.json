@@ -1,0 +1,33 @@
+{
+    "id": 1163,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Direita (Rua)",
+    "fl": "D",
+    "original_title": "Direita (Rua)",
+    "body": "Fica na Freguesia da Sé, e comunica o largo do Pelourinho com a rua 31 de Janeiro, outrora da Princesa.\n\nÉ uma antiga via publica de pequena extensão e de importância secundaria, se a compararmos com outras ruas desta cidade. Foi no entretanto, entre as ruas do antigo Funchal, uma das mais importantes e também das mais extensas, começando no Pelourinho e estendendo-se pela margem esquerda da Ribeira de Santa Luzia até ás proximidades do Torreão. Gaspar Frutuoso falando dela, em 1590, diz que era “uma grande e larga rua e que era a maior da cidade“, acrescentando que o bispo D. Jeronimo Barreto (1574-1585) tinha nela “seus aposentos muito ricos, com seus frescos jardins“. Nesta antiga rua ficava a igreja e albergaria de São Bartolomeu e nela tinha casa de moradia algumas das mais qualificadas pessoas do Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Sé"
+    ],
+    "locations": {
+        "Freguesia da Sé": [
+            "Localização da rua"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiador que descreve a rua em 1590"
+        ],
+        "D. Jeronimo Barreto": [
+            "Bispo que tinha aposentos ricos na rua"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Gaspar Frutuoso descreve a rua como uma das mais importantes e extensas do antigo Funchal"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 2037,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo de São João",
+    "fl": "L",
+    "original_title": "Lombo de São João",
+    "body": "Sítio povoado da freguesia da Ponta do Sol. Nele se encontra a capela de S. João, que deu o nome ao lugar. Ignora-se o ano da sua primitiva construção e quem fosse o seu fundador. Era de instituição vincular e pertenceu ao morgado Diogo Berenguer de França, que em 1871 foi agraciado com o título de visconde de São João, tomado deste sítio.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Diogo Berenguer de França": [
+            "Morgado vincular"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Ano em que Diogo Berenguer de França foi agraciado com o título de visconde de São João"
+        ]
+    }
+}

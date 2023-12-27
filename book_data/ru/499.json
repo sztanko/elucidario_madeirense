@@ -1,0 +1,23 @@
+{
+    "id": 499,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Блоксам (Джеймс Маккензи)",
+    "fl": "Б",
+    "original_title": "Bloxam (James Mackenzie)",
+    "body": "Автор книг: The Climate of the Island Madeira (Лондон, 1855) и The Church of England in Madeira (Лондон, 1857).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1855": [
+            "Публикация книги 'The Climate of the Island Madeira' в Лондоне"
+        ],
+        "1857": [
+            "Публикация книги 'The Church of England in Madeira' в Лондоне"
+        ]
+    }
+}

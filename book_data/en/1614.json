@@ -1,0 +1,28 @@
+{
+    "id": 1614,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gorda (Ponta)",
+    "fl": "G",
+    "original_title": "Gorda (Ponta)",
+    "body": "A small protrusion on the coastal area, not far from the islet of Gorgulho and Ponta da Cruz, in the parish of São Martinho.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Gorgulho": [
+            "Islet of Gorgulho"
+        ],
+        "Ponta da Cruz": [
+            "Ponta da Cruz"
+        ],
+        "São Martinho": [
+            "Parish of São Martinho"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

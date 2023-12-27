@@ -1,0 +1,67 @@
+{
+    "id": 3450,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Teixeira (Diogo)",
+    "fl": "T",
+    "original_title": "Teixeira (Diogo)",
+    "body": "Era filho de Tristão Teixeira e foi o 4.° capitão donatário de Machico. Por ser homem mentecapto, tirou--lhe D. João III a capitania em 1538, e como por sua morte, em 1540, não lhe ficasse filho varão ou outro qualquer herdeiro legítimo que lhe sucedesse na mesma capitania, foi esta doada em 1541 a António da Silveira, antigo capitão de Diu.\nTeixeira (Cónego Feliciano João). Nasceu na freguesia da Ponta do Sol, a 2 de Janeiro de 1843, e era irmão dos drs. João Augusto Teixeira e Nuno Silvestre Teixeira, de quem nos ocupámos neste Elucidaria. Foi cónego da Sé do Funchal e professor do Seminário, e nesta cidade exerceu várias comissões de serviço público. Representou a Madeira no Parlamento, nas sessões legislativas de 1880 a 1881 e de 1887 a 1889. Transferido para a Sé arquiepiscopal de Évora, faleceu naquela cidade no dia 2 de Maio de 1896 Os seus despojos mortais jazem no cemitério da freguesia da Ponta do Sol.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Machico": [
+            "Local de atuação"
+        ],
+        "Ponta do Sol": [
+            "Local de nascimento e falecimento"
+        ],
+        "Funchal": [
+            "Local de atuação"
+        ],
+        "Évora": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "Diogo Teixeira": [
+            "4.° capitão donatário de Machico"
+        ],
+        "Cónego Feliciano João Teixeira": [
+            "Cónego da Sé do Funchal e professor do Seminário, representante da Madeira no Parlamento"
+        ]
+    },
+    "years": {
+        "1538": [
+            "Perda da capitania"
+        ],
+        "1540": [
+            "Morte"
+        ],
+        "1541": [
+            "Doação da capitania"
+        ],
+        "1843": [
+            "Nascimento"
+        ],
+        "1880": [
+            "Representação no Parlamento"
+        ],
+        "1881": [
+            "Representação no Parlamento"
+        ],
+        "1887": [
+            "Representação no Parlamento"
+        ],
+        "1889": [
+            "Representação no Parlamento"
+        ],
+        "1896": [
+            "Falecimento"
+        ]
+    }
+}

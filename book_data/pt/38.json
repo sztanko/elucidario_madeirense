@@ -1,0 +1,28 @@
+{
+    "id": 38,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Achada",
+    "fl": "A",
+    "original_title": "Achada",
+    "body": "Pequeno planalto da freguesia da Camacha, nas proximidades da igreja paroquial, em cujo perímetro se encontram uma torre isolada com seu relógio e uma pequena capela dedicada a S. José e construída no ano de 1924. É lugar pitoresco e bastante frequentado pelas pessoas que visitam aquela freguesia. Em outro tempo, era muito conhecido, entre os estrangeiros residentes na Madeira, pelo nome de Jogo da Bola e servia para diversos jogos desportivos. Dá acesso à antiga e aprazível quinta Grabham, em que se acha instalado o hotel da localidade.",
+    "categories": [
+        "geography",
+        "culture",
+        "sports"
+    ],
+    "freguesias": [
+        "Camacha"
+    ],
+    "locations": {
+        "Camacha": [
+            "Freguesia onde se localiza o pequeno planalto da Achada."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1924": [
+            "Ano de construção da pequena capela dedicada a S. José."
+        ]
+    }
+}

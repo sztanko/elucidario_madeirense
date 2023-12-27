@@ -1,0 +1,25 @@
+{
+    "id": 270,
+    "lang": "en",
+    "is_original": false,
+    "title": "Arrebentão (Pico e sítio do)",
+    "fl": "A",
+    "original_title": "Arrebentão (Pico e sítio do)",
+    "body": "This eminence is located in the parish of Monte and reaches a height of 1171 meters. In its vicinity is the site of the same name, which is crossed by the road that leads to the Poiso shelter houses.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Parish where the Pico do Arrebentão is located"
+        ],
+        "Poiso": [
+            "Location of the shelter houses"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

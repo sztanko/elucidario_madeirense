@@ -1,0 +1,37 @@
+{
+    "id": 1667,
+    "lang": "en",
+    "is_original": false,
+    "title": "Guiomar (Mirante de D.)",
+    "fl": "G",
+    "original_title": "Guiomar (Mirante de D.)",
+    "body": "In the old instructions on how to anchor in the port of Funchal, the viewpoint of D. Guiomar is marked as an easily distinguishable point from the deck of the ships. It is located in the Quinta das Angústias, which belonged to Count Alexandre Carlos de Lambert (see this name) and was sold to Dr. Julio Paulo de Freitas by deed of August 19, 1903. D. Guiomar, or rather D. Guiomar Madalena Acciaioly, the lady who gave her name to the viewpoint of the old Quinta das Angústias, lived in the late 18th and early 19th centuries and had her assets seized due to debts to the National Treasury. She owned the house in Largo da Sé, now demolished, where the prison (see this name) was located, and had other properties in the city. The Navy and Overseas Archive makes reference to an official letter from Governor D. José Manuel da Câmara to D. Rodrigo de Sousa Coutinho, regarding the dispatch of letters from the Finance Board to the Royal Treasury and of jewelry, silver, and tapestries belonging to the inheritance of D. Guiomar Madalena.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Port"
+        ],
+        "Quinta das Angústias": [
+            "Belonged to Count Alexandre Carlos de Lambert"
+        ]
+    },
+    "people": {
+        "Count Alexandre Carlos de Lambert": [
+            "Owner of Quinta das Angústias"
+        ],
+        "Dr. Julio Paulo de Freitas": [
+            "Buyer of Quinta das Angústias"
+        ],
+        "D. Guiomar Madalena Acciaioly": [
+            "Lady who gave her name to the viewpoint"
+        ]
+    },
+    "years": {
+        "1903": [
+            "Sale of Quinta das Angústias to Dr. Julio Paulo de Freitas"
+        ]
+    }
+}

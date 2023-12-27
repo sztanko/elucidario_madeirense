@@ -1,0 +1,47 @@
+{
+    "id": 2487,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Desterro (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Desterro (Capela de)",
+    "body": "In the place that now bears this name and with the same invocation, Canon Jorge Furtado de Sousa founded a chapel in the early 17th century, of which the distinguished Madeiran Dr. Juvenal Henriques de Araújo is the current owner. It is frequently visited by people from various parts of the island, and in 1942, an interesting historical monograph about it was published.\n\nRaul Esteves, in the area of Ledo in the parish of Arco da Calheta, built a chapel dedicated to Nossa Senhora do Desterro in the late 17th century, of which only a few ruins remain.\n\nThere was also a chapel of the same invocation in the area of Ribeira Grande, parish of Machico, founded in 1661 by Captain Manuel Telo de Meneses.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Ribeira Grande",
+        "Machico"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Locality in the Madeira Island"
+        ],
+        "Ribeira Grande": [
+            "Locality in the Madeira Island"
+        ],
+        "Machico": [
+            "Locality in the Madeira Island"
+        ]
+    },
+    "people": {
+        "Jorge Furtado de Sousa": [
+            "Founder of the chapel in the place that now bears the name Nossa Senhora do Desterro"
+        ],
+        "Juvenal Henriques de Araújo": [
+            "Current owner of the chapel in the place that now bears the name Nossa Senhora do Desterro"
+        ],
+        "Raul Esteves": [
+            "Founder of the chapel in the area of Ledo in the parish of Arco da Calheta"
+        ],
+        "Manuel Telo de Meneses": [
+            "Founder of the chapel in the area of Ribeira Grande, parish of Machico"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Year of the foundation of the chapel in the area of Ribeira Grande, parish of Machico"
+        ]
+    }
+}

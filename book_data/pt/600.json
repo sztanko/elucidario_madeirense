@@ -1,0 +1,28 @@
+{
+    "id": 600,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Burgess (Dr.)",
+    "fl": "B",
+    "original_title": "Burgess (Dr.)",
+    "body": "Escreveu um artigo no Association Medical Journal, em que pretendeu negar, sem nunca ter vindo à Madeira, a eficácia do clima desta ilha no tratamento das moléstias pulmonares. A este artigo respondeu J. Mackenzie Bloxam em duas brochuras, sob a forma de cartas, dirigidas ao Dr. Lund.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha mencionada no artigo de Burgess"
+        ]
+    },
+    "people": {
+        "J. Mackenzie Bloxam": [
+            "Autor das brochuras em resposta ao artigo de Burgess"
+        ],
+        "Dr. Lund": [
+            "Destinatário das cartas de J. Mackenzie Bloxam"
+        ]
+    },
+    "years": {}
+}

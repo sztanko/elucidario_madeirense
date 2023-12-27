@@ -1,0 +1,33 @@
+{
+    "id": 2521,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Heilmittel (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora dos Remédios (Capela de)",
+    "body": "In der Gemeinde Santa Cruz, im Ort Moreno, befindet sich eine Kapelle, die Unserer Lieben Frau der Heilmittel gewidmet ist. Sie wurde 1690 vom Vikar Manuel Ferreira Teixeira erbaut und nicht im Jahr 1610, wie der Anmerker der Saudades sagt.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Gemeinde auf der Insel Madeira"
+        ],
+        "Moreno": [
+            "Ort in der Gemeinde Santa Cruz"
+        ]
+    },
+    "people": {
+        "Manuel Ferreira Teixeira": [
+            "Vikar, der die Kapelle erbaute"
+        ]
+    },
+    "years": {
+        "1690": [
+            "Bau der Kapelle"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 3143,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sabão (Rua do)",
+    "fl": "S",
+    "original_title": "Sabão (Rua do)",
+    "body": "Es ist eine der ältesten Straßen von Funchal und verbindet die Rua do Comercio oder dos Ferreiros mit der Rua da Alfândega. In der Sitzung des Stadtrats vom 6. Juli 1922 erhielt sie die etwas vage Bezeichnung \"Straße 17. Juni 1922\", da an diesem Tag die kühnen Flieger Gago Coutinho und Sacadura Cabral ihre Luftreise zwischen Lissabon und Rio de Janeiro beendeten.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort auf Madeira"
+        ],
+        "Rua do Comercio": [
+            "Straße in Funchal"
+        ],
+        "Rua da Alfândega": [
+            "Straße in Funchal"
+        ]
+    },
+    "people": {
+        "Gago Coutinho": [
+            "Flieger"
+        ],
+        "Sacadura Cabral": [
+            "Flieger"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Abschluss des Fluges zwischen Lissabon und Rio de Janeiro."
+        ]
+    }
+}

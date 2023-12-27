@@ -1,0 +1,31 @@
+{
+    "id": 1449,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte de S. Roque de Machico",
+    "fl": "F",
+    "original_title": "Forte de S. Roque de Machico",
+    "body": "Built during the Philippine dominion, at the mouth of Ribeirinho within the bay of Machico. It was located near the S. Roque parade ground.\n\nIn 1695, Pedro de Sousa Maciel was the constable.\n\nOnly a few blocks of the walls remain on the beach.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "S. Roque"
+    ],
+    "locations": {
+        "Machico": [
+            "Mouth of Ribeirinho, S. Roque parade ground"
+        ]
+    },
+    "people": {
+        "Pedro de Sousa Maciel": [
+            "Constable"
+        ]
+    },
+    "years": {
+        "1695": [
+            "Pedro de Sousa Maciel serving as constable"
+        ]
+    }
+}

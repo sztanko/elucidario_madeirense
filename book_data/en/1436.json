@@ -1,0 +1,44 @@
+{
+    "id": 1436,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forster (João Reinhold)",
+    "fl": "F",
+    "original_title": "Forster (João Reinhold)",
+    "body": "This German botanist and his son João Jorge Adão Forster accompanied Captain Cook on his second voyage to the southern seas, arriving at the port of Funchal on July 29, 1772. The specimens of the plants they collected on this island are in the herbariums of the University of Kiel and the Museum of Natural History in Paris. Forster's son dealt with some Madeiran plants in two works entitled Plantae Atlanticae (Goetting, 1787) and Herbarium Australe (Goetting, 1797).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "University of Kiel": [
+            "Institution"
+        ],
+        "Museum of Natural History in Paris": [
+            "Institution"
+        ]
+    },
+    "people": {
+        "João Reinhold Forster": [
+            "Botanist"
+        ],
+        "João Jorge Adão Forster": [
+            "Botanist"
+        ]
+    },
+    "years": {
+        "1772": [
+            "Arrival at the port of Funchal"
+        ],
+        "1787": [
+            "Publication of Plantae Atlanticae"
+        ],
+        "1797": [
+            "Publication of Herbarium Australe"
+        ]
+    }
+}

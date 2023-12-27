@@ -1,0 +1,61 @@
+{
+    "id": 1229,
+    "lang": "de",
+    "is_original": false,
+    "title": "Epidemien",
+    "fl": "E",
+    "original_title": "Epanaphoras. Epidemias.",
+    "body": "> V. Melo (D. Francisco Manuel de)\n\nDie Epidemien, die auf Madeira den traurigsten Eindruck aufgrund der Todesfälle hinterließen, waren folgende: die Pest, die vor 1521 begann und bis 1538 andauerte; die Masernepidemie von 1751; die Pockenepidemien von 1815 und 1873 sowie die Cholera-Epidemien von 1856, 1910 und 1911.\n\nDa wir uns in speziellen Artikeln mit den Pest- und Cholera-Epidemien befassen, sprechen wir hier nur über die oben erwähnten Masern- und Pockenepidemien. Wir beziehen uns nicht auf andere Epidemien, die es auf dieser Insel ebenfalls gab, da sie einerseits weniger bedeutend waren und andererseits bereits in dem Artikel \"Krankheiten\" in diesem Lexikon erwähnt wurden.\n\nIn dem Buch des Dr. Julião Fernandes da Silva mit dem Titel \"Kritische Abhandlung über die Heilmethoden der Ärzte von Funchal\" finden sich wertvolle Informationen über die Masernepidemie, die 1751 auf Madeira wütete. \"Überall herrschten Tränen, wo die Herzen am zartesten waren; überall Angst, wo die Gefahr unmittelbar war; und überall traurige Szenen bei der Überführung der Leichen zu den Gräbern\", sagte Dr. Fernandes da Silva.\n\nWährend einige Ärzte Aderlässe, Kältebehandlungen verordneten und den Masernkranken den Gebrauch von Wasser erlaubten, verschrieben andere das Gegenteil und gaben, laut Dr. Fernandes da Silva, den mit dieser Behandlung therapierten Patienten weniger Medikamente. \n\nDie Befürworter der Aderlässe waren nur Dr. Silva und der zu der Zeit auf Madeira ansässige berühmte Dr. Heberden. Letzterer heilte, wenn die Behauptung des erwähnten Autors zutrifft, über zweihundert Masernkranke, ohne dass ein einziger Patient starb. Die Sturheit einiger Ärzte, den Kranken kein Wasser zu geben, so fügt Dr. Silva hinzu, war der einzige Grund für die vielen Todesfälle auf der Insel. Über die Pockenepidemie von 1815 sagt Dr. Heineken, dass sie von einem Schiff aus Kap Verde eingeschleppt wurde und etwa 2.000 Menschenleben forderte. Damals, und noch lange danach, war der Nutzen der Impfung in unserer Bevölkerung kaum bekannt, was sicherlich der Hauptgrund dafür ist, dass die erwähnte Epidemie bei uns so verheerend war. (Siehe Adams und Impfung).\n\nDie Epidemie von 1872 und 1873 forderte 1.007 Opfer und war nach der von 1815 die verheerendste auf dieser Insel. Ein Passagier der \"Maria Pia\", der im Oktober 1872 aus Lissabon kam und ins Krankenhaus eingeliefert wurde, brachte die Krankheit nach Madeira. Sie dauerte bis Ende 1873 oder Anfang 1874 und richtete vor allem in den Gemeinden Funchal, Santa Cruz, Calheta und Câmara de Lobos große Schäden an. Die Pocken traten auf Madeira auch nach 1873 gelegentlich auf, aber dank der Verbreitung der Impfung und bestimmter angemessener Maßnahmen der Behörden nahm die Krankheit nie wieder das Ausmaß der früheren Epidemien an. 1907 starben viele Pockenkranke in Funchal, aber die Epidemie dauerte nicht lange und erreichte nicht die Intensität der Epidemien von 1815 und 1873, da die Patienten, die nicht zu Hause isoliert werden konnten, ab einem bestimmten Zeitpunkt in das Lazarett eingewiesen wurden. Dort erhielten sie von aufopferungsvollen und kompetenten Ärzten und Krankenschwestern eine Pflege und Fürsorge, die ihnen in ihren Wohnungen nicht zuteil geworden wäre.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Julião Fernandes da Silva": [
+            "Arzt"
+        ],
+        "Dr. Heberden": [
+            "Arzt"
+        ],
+        "Dr. Silva": [
+            "Arzt"
+        ],
+        "Dr. Heineken": [
+            "Arzt"
+        ]
+    },
+    "years": {
+        "1521": [
+            "Pestepidemie"
+        ],
+        "1538": [
+            "Pestepidemie"
+        ],
+        "1751": [
+            "Masernepidemie"
+        ],
+        "1815": [
+            "Pockenepidemie"
+        ],
+        "1873": [
+            "Pockenepidemie"
+        ],
+        "1856": [
+            "Cholera-Epidemie"
+        ],
+        "1910": [
+            "Cholera-Epidemie"
+        ],
+        "1911": [
+            "Cholera-Epidemie"
+        ],
+        "1872": [
+            "Pockenepidemie"
+        ],
+        "1907": [
+            "Pockenepidemie"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2973,
+    "lang": "en",
+    "is_original": false,
+    "title": "Quinta",
+    "fl": "Q",
+    "original_title": "Quinta",
+    "body": "A populated area in the parish of Caniço. There was a farm or country house there, and the chapel of Nossa Senhora da Consolação still exists, belonging to the entailed estate created there in the late 15th century by Álvaro de Ornelas, which was one of the oldest entailed institutions in Madeira and had as its last representative the counselor Aires de Ornelas (1866-1930). The Consolação chapel was built by Aires de Ornelas e Vasconcelos around 1591 and rebuilt around the mid-18th century (V.Garajau and Jangão).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Álvaro de Ornelas": [
+            "Creator of the entailed estate"
+        ],
+        "Aires de Ornelas": [
+            "Last representative"
+        ]
+    },
+    "years": {
+        "1591": [
+            "Construction of the Consolação chapel"
+        ]
+    }
+}

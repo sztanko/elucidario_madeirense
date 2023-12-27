@@ -1,0 +1,67 @@
+{
+    "id": 152,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almada (Dr. José de)",
+    "fl": "A",
+    "original_title": "Almada (Dr. José de)",
+    "body": "He is the son of Dr. José Antonio de Almada, whom we have mentioned above, and D. Margarida de Ornelas de Almada, born in Funchal on February 23, 1880. He pursued his secondary studies in this city and in Switzerland, and completed his law degree at the University of Coimbra in 1903. He is the Deputy Director-General of the Political and Civil Administration of the Ministry of the Colonies and serves as Colonial Consultant at the Ministry of Foreign Affairs. He has mainly distinguished himself in the performance of important public service commissions within and outside the country, particularly the missions with which our governments have entrusted him in London, in the State of South Africa, in Geneva with the League of Nations, etc., defending the interests of Portugal in lengthy negotiations with the governments of various foreign countries. In the course of these missions, he has published many reports and studies written in French and English, and also published a book entitled 'Impressions of South Africa'. He came to Madeira in 1927 to study the so-called 'Lombada da Ponta do Sol', as can be seen in detail in the pamphlet entitled 'A Lombada dos Esmeraldos na Ilha da Madeira' published in 1933 by Father Fernando Augusto da Silva.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ],
+        "Coimbra": [
+            "University of Coimbra"
+        ],
+        "London": [
+            "London"
+        ],
+        "South Africa": [
+            "State of South Africa"
+        ],
+        "Geneva": [
+            "Geneva"
+        ],
+        "League of Nations": [
+            "League of Nations"
+        ],
+        "Madeira": [
+            "Madeira"
+        ],
+        "Lombada da Ponta do Sol": [
+            "Lombada da Ponta do Sol"
+        ]
+    },
+    "people": {
+        "Dr. José Antonio de Almada": [
+            "Father of Dr. José de Almada"
+        ],
+        "D. Margarida de Ornelas de Almada": [
+            "Mother of Dr. José de Almada"
+        ],
+        "Father Fernando Augusto da Silva": [
+            "Author of the pamphlet 'A Lombada dos Esmeraldos na Ilha da Madeira'"
+        ]
+    },
+    "years": {
+        "1880": [
+            "Birth of Dr. José de Almada"
+        ],
+        "1903": [
+            "Completion of law degree at the University of Coimbra"
+        ],
+        "1927": [
+            "Study of the 'Lombada da Ponta do Sol'"
+        ],
+        "1933": [
+            "Publication of the pamphlet 'A Lombada dos Esmeraldos na Ilha da Madeira'"
+        ]
+    }
+}

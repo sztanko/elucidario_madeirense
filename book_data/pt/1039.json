@@ -1,0 +1,34 @@
+{
+    "id": 1039,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa",
+    "fl": "C",
+    "original_title": "Costa",
+    "body": "Há dois ramos desta familia, um procedente de Luiz Alvares da Costa e outro de Nuno da Costa. Luiz Alvares da Costa veio para a Madeira no tempo de D. Afonso V e aqui foi vedor e provedor da fazenda real, e fundou o convento de S. Francisco, do Funchal; Nuno da Costa foi um dos primeiros povoadores de Machico e um dos procuradores desta vila e da de Santa Cruz perante o rei, para a celebração do foral de Machico, em 1515.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Machico": [
+            "Localidade onde Nuno da Costa foi um dos primeiros povoadores."
+        ]
+    },
+    "people": {
+        "Luiz Alvares da Costa": [
+            "Vedor e provedor da fazenda real, fundador do convento de S. Francisco, do Funchal."
+        ],
+        "Nuno da Costa": [
+            "Um dos primeiros povoadores de Machico, procurador de Machico e Santa Cruz perante o rei."
+        ]
+    },
+    "years": {
+        "1515": [
+            "Ano da celebração do foral de Machico."
+        ]
+    }
+}

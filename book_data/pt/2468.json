@@ -1,0 +1,56 @@
+{
+    "id": 2468,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora dos Anjos (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora dos Anjos (Capela de)",
+    "body": "«Ha nesta freguesia (a Madalena), diz Frutuoso, huma ermida de Nossa Senhora dos Anjos, que, tirando ser pequena, he huma rica casa, com um retábulo pequeno e fresco, e bem ornado, junto do qual está huma fresca fonte debaixo de huns seixos, entre huns canaviais de assucar de mui fermosas canas. . O Dr. Álvaro de Azevedo dá esta capela como fundada em 1508 por Martim Afonso e sua mulher Isabel Afonso, que ali instituíram um morgadio a favor de seu filho Diogo Martins de Canha, chamado o Cavaleiro. Diz, porém, o anotador da História Insulana que a capela dos Anjos foi mandada construir em 1474 pela infanta D. Beatriz, como tutora de seu filho, o grão-mestre da Ordem de Cristo, a que este arquipélago pertencia no espiritual. A imagem que se venera nesta capela era de grande devoção dos fieis, consagrando-lhe Frei Agostinho de Santa Maria um capítulo no vol. X do seu Santuário Mariano. O sítio onde fica a capela, que tem o nome de Anjos, é notável pela fertilidade do seu solo, pertencendo hoje á freguesia dos Canhas, mas em tempos fez parte da freguesia da Ponta do Sol. Esta capela foi restaurada pela sua então proprietária D. Júlia de França Neto no ano de 1892 e consagrada ao uso do culto a 10 de Dezembro do mesmo ano.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Madalena",
+        "Canhas",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Madalena": [
+            "Freguesia"
+        ],
+        "Canhas": [
+            "Freguesia"
+        ],
+        "Ponta do Sol": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Martim Afonso": [
+            "Fundador da capela"
+        ],
+        "Isabel Afonso": [
+            "Fundadora da capela"
+        ],
+        "Diogo Martins de Canha": [
+            "Beneficiário do morgadio"
+        ],
+        "D. Beatriz": [
+            "Possível mandante da construção da capela"
+        ],
+        "D. Júlia de França Neto": [
+            "Restauradora da capela"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Fundação da capela"
+        ],
+        "1474": [
+            "Possível data de construção da capela"
+        ],
+        "1892": [
+            "Restauração da capela"
+        ]
+    }
+}

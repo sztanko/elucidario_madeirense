@@ -1,0 +1,46 @@
+{
+    "id": 818,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castelo Branco (D. José de Sousa)",
+    "fl": "C",
+    "original_title": "Castelo Branco (D. José de Sousa)",
+    "body": "This worthy and zealous prelate from Funchal was born in the city of Leiria and was the son of Heitor Vaz de Castelo Branco and D. Luzia Maria da Silva e Ataíde, belonging to ancient and noble families of that city.\n\nAfter holding some important positions, he was appointed prelate of Funchal by D. Pedro II in 1697, receiving the episcopal consecration in Lisbon on June 29, 1698, from the hands of the inquisitor-general bishop D. Frei José de Lencastre.\n\nHe did not delay in going to his bishopric, first, at the request of the monarch, he went to Mazagão, where he arrived on August 10, 1698, to perform the episcopal ministry functions there. In that city, where many Portuguese who were scattered in various parts of the Moroccan continent gathered, he was the target of great demonstrations of appreciation and joy, and after a few days of delay, he set off for his diocese, arriving in this city on August 29 of that year.\n\nDuring the 19 years he resided in this bishopric, he always showed an irreproachable conduct and was extremely zealous in the fulfillment of his episcopal duties. He pastorally visited his entire diocese several times and adopted severe measures to maintain ecclesiastical discipline and correct some serious abuses that were being committed at that time.\n\nA staunch defender of the privileges and prerogatives enjoyed by the church, he had to fight with the governor and captain-general João da Costa e Ataide and with the finance administrator Manuel Mexia Galvão, with the government of the metropolis sending the magistrate Diogo Salter de Macedo to Madeira to investigate the conflict that had occurred between those authorities, resulting in a sentence in favor of the prelate and a harsh censure of the acts of the governor and finance administrator.\n\nHe dedicated himself to genealogical studies and left unpublished some works, which are listed in the Biblioteca Lusitana.\n\nDue to illness, he embarked for the mainland on July 16, 1717, and never returned to the diocese, having resigned from the mitre four years later.\n\nHe died in 1746, having been the 141st bishop of this diocese.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Pedro II": [
+            "Monarch"
+        ],
+        "D. Frei José de Lencastre": [
+            "Inquisitor-general bishop"
+        ],
+        "João da Costa e Ataide": [
+            "Governor and captain-general"
+        ],
+        "Manuel Mexia Galvão": [
+            "Finance administrator"
+        ],
+        "Diogo Salter de Macedo": [
+            "Magistrate"
+        ]
+    },
+    "years": {
+        "1697": [
+            "Appointed prelate of Funchal"
+        ],
+        "1698": [
+            "Arrival in Funchal"
+        ],
+        "1717": [
+            "Departure for the mainland"
+        ],
+        "1746": [
+            "Death"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 2557,
+    "lang": "en",
+    "is_original": false,
+    "title": "Occupation of Porto Santo by the Constitutional Troops",
+    "fl": "O",
+    "original_title": "Ocupação do Porto Santo pelas Tropas Constitucionais",
+    "body": "On April 4, 1832, Porto Santo was occupied by a constitutional force of 60 artillery soldiers, who arrived from Terceira Island on the war brig Conde de Vila Flor and the war schooner Terceira. The force was commanded by Captain Bento José de Oliveira, who immediately proclaimed Queen D. Maria II on the island. On the 7th of the same month, the frigate D. Maria II arrived at Porto Santo, returning from the blockade of Madeira, carrying Admiral Sertorio, the future prefect Luís da Silva Mousinho de Albuquerque, the dean of Funchal Cathedral, Januário Vicente Camacho, and other constitutionalists. The occupation lasted until May 5, when the mentioned force and the other people who had disembarked on the island departed for the Azores. In addition to the 60 soldiers already mentioned, 104 volunteers who had fled from Madeira to join the constitutional army also embarked. While the expedition remained in Porto Santo, some ships were captured, and their cargo served to supply the inhabitants, who were already suffering from hunger, both because the island's production in the previous year had been scarce and because it was impossible to bring provisions from Madeira due to the blockade. There was great peace in Porto Santo during the occupation, due to the discipline of the troops and the vigilance exercised by Mousinho de Albuquerque and the officers under his command. On May 29, after the departure of the constitutional troops, the yacht Bomfim arrived at Porto Santo from Madeira, carrying Judge Esperança Freire, the inspector of Trem José Joaquim de Amorim, the engineer Pegado, and a detachment of 30 infantry soldiers, commanded by Ensign António Pedro de Azevedo, proceeding immediately to acclaim D. Miguel and all returning to Madeira on the same night. D. Maria II was again acclaimed on the island of Porto Santo on June 7, 1834.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Terceira Island, Azores, Madeira"
+        ]
+    },
+    "people": {
+        "Bento José de Oliveira": [
+            "Captain"
+        ],
+        "Luís da Silva Mousinho de Albuquerque": [
+            "Prefect"
+        ],
+        "Januário Vicente Camacho": [
+            "Dean of Funchal Cathedral"
+        ],
+        "Esperança Freire": [
+            "Judge"
+        ],
+        "José Joaquim de Amorim": [
+            "Inspector of Trem"
+        ],
+        "Pegado": [
+            "Engineer"
+        ],
+        "António Pedro de Azevedo": [
+            "Ensign"
+        ]
+    },
+    "years": {
+        "1832": [
+            "Occupation of Porto Santo by the Constitutional Troops"
+        ],
+        "1834": [
+            "Acclamation of D. Maria II on the island of Porto Santo"
+        ]
+    }
+}

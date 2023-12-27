@@ -1,0 +1,30 @@
+{
+    "id": 3662,
+    "lang": "en",
+    "is_original": false,
+    "title": "Voluntários Realistas",
+    "fl": "V",
+    "original_title": "Voluntários Realistas",
+    "body": "The Urban Royal Volunteers Corps of Madeira was established in 1828 by the Captain-General José Maria Monteiro, but according to a letter written by D. Álvaro da Costa de Macedo to the Count of Basto on September 9, 1831, this corps, which was supposed to have 4 companies, only ended up having one, for which the same D. Álvaro claimed the privileges and benefits granted to the Volunteers of the Kingdom by the decree of September 26, 1828. According to the plan of Captain-General Monteiro, the corps was to have a major-commander, with 1 lieutenant, 1 ensign, 10 sergeants, 1 corporal, 2 lance corporals, and 52 soldiers in each company.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Maria Monteiro": [
+            "Captain-General"
+        ],
+        "D. Álvaro da Costa de Macedo": [
+            "Author of the letter"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Establishment of the corps"
+        ],
+        "1831": [
+            "Letter from D. Álvaro da Costa de Macedo"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 2690,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pavia (Pater Teodoro)",
+    "fl": "P",
+    "original_title": "Pavia (Padre Teodoro)",
+    "body": "Im Jahr 1705 wurde in Tortona, Italien, das Buch «Il Primo Scuoprimento dell'isola di Madera fatto da Roberto Macico inglese...» veröffentlicht, übersetzt aus dem Portugiesischen und stark erweitert von Pater Teodoro de Pavia. Es ist ein 190-seitiges Buch in zwei Kapiteln. Das erste Kapitel, das dem Buch den Titel gab, ist die wörtliche Übersetzung der berühmten dritten «Epanafora» von D. Francisco Manuel de Melo, die erstmals 1660 veröffentlicht und später neu aufgelegt wurde. Wie bekannt ist, war es dieser Bericht von D. Francisco de Melo, der dazu führte, dass die legendäre Geschichte von Roberto Machim sehr bekannt wurde und bei einigen allzu leichtgläubigen Schriftstellern sogar einen gewissen Anschein historischer Wahrheit erlangte. Das zweite Kapitel von Pater Pavias Buch ist für Madeirenser von größerem Interesse, da es uns Nachrichten aus der zweiten Hälfte des 17. Jahrhunderts und dem Beginn des folgenden Jahrhunderts übermittelt, während das erste Kapitel die Übersetzung eines allseits bekannten und viel kommentierten Werkes ist, insbesondere in den gelehrten Anmerkungen der «Saudades da Terra».",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Tortona": [
+            "Ort der Veröffentlichung des Buches"
+        ]
+    },
+    "people": {
+        "Roberto Macico": [
+            "Autor des Buches «Il Primo Scuoprimento dell'isola di Madera fatto da Roberto Macico inglese...»"
+        ],
+        "D. Francisco Manuel de Melo": [
+            "Autor der berühmten dritten «Epanafora»"
+        ]
+    },
+    "years": {
+        "1705": [
+            "Veröffentlichung des Buches «Il Primo Scuoprimento dell'isola di Madera fatto da Roberto Macico inglese...»"
+        ]
+    }
+}

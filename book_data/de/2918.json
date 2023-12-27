@@ -1,0 +1,45 @@
+{
+    "id": 2918,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gebete",
+    "fl": "G",
+    "original_title": "Preces",
+    "body": "Caminho Grande oder Preces, Ort in der Gemeinde Câmara de Lobos. Dort befindet sich die Kapelle Unserer Lieben Frau von den Preces, die dem Ort seinen Namen gab und 1683 von Pater Francisco da Cunha e Mendonça gegründet wurde. Ebenfalls am gleichen Ort befindet sich die Kapelle Unserer Lieben Frau von Nazaré, die 1757 von D. Maria do Rosário Henriques, der Witwe von Pedro Bernardes Cordeiro, erbaut wurde. An einem Ort namens Fonte da Rocha befinden sich außerdem die Ruinen einer alten Kapelle, die São Cândido gewidmet war und 1732 vom Kanoniker Francisco Cândido Correia Henriques erbaut wurde. Der Ort hat 96 Häuser und 516 Einwohner.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Caminho Grande": [
+            "Ort in der Gemeinde Câmara de Lobos"
+        ],
+        "Fonte da Rocha": [
+            "Ort, an dem sich die Ruinen einer alten Kapelle befinden, die São Cândido gewidmet war"
+        ]
+    },
+    "people": {
+        "Francisco da Cunha e Mendonça": [
+            "Gründer der Kapelle Unserer Lieben Frau von den Preces"
+        ],
+        "D. Maria do Rosário Henriques": [
+            "Erbauerin der Kapelle Unserer Lieben Frau von Nazaré"
+        ],
+        "Kanoniker Francisco Cândido Correia Henriques": [
+            "Auftraggeber für den Bau der alten Kapelle, die São Cândido gewidmet war"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Gründung der Kapelle Unserer Lieben Frau von den Preces"
+        ],
+        "1757": [
+            "Bau der Kapelle Unserer Lieben Frau von Nazaré"
+        ],
+        "1732": [
+            "Bau der alten Kapelle, die São Cândido gewidmet war"
+        ]
+    }
+}

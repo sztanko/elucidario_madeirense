@@ -1,0 +1,37 @@
+{
+    "id": 354,
+    "lang": "en",
+    "is_original": false,
+    "title": "Azevedo (Americo Olavo Correia de)",
+    "fl": "A",
+    "original_title": "Azevedo (Americo Olavo Correia de)",
+    "body": "> He was born in Funchal on December 16, 1881, and was part of the Portuguese troops who fought in France alongside the Allies as an infantry captain. He was decorated with the War Cross and the 30th class of the Order of the Tower and Sword for acts of bravery during the campaign. Having been taken prisoner by the Germans in the great battle on April 9, 1918, he only returned to Portugal in early 1919, being elected as a deputy for Funchal in the elections held on May 11 of the same year.",
+    "categories": [
+        "history",
+        "sports"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital of the island of Madeira."
+        ],
+        "France": [
+            "Country where Americo Olavo Correia de Azevedo fought alongside the Allies."
+        ]
+    },
+    "people": {
+        "Americo Olavo Correia de Azevedo": [
+            "Infantry captain who fought in France alongside the Allies and was elected as a deputy for Funchal."
+        ]
+    },
+    "years": {
+        "1881": [
+            "Year of birth of Americo Olavo Correia de Azevedo"
+        ],
+        "1918": [
+            "Year in which he was taken prisoner by the Germans."
+        ]
+    }
+}

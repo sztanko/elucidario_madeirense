@@ -1,0 +1,32 @@
+{
+    "id": 3090,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ribeiro Seco (Praça do)",
+    "fl": "R",
+    "original_title": "Ribeiro Seco (Praça do)",
+    "body": "Fica junto da ponte Monumental e na margem esquerda do ribeiro Seco, tendo sido construída pouco\n depois de 1850. Tem hoje o nome de Largo de António Nobre.\n\nVid. Nobre (António).",
+    "categories": [
+        "geography",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeiro Seco": [
+            "Localidade"
+        ],
+        "Ponte Monumental": [
+            "Ponte"
+        ]
+    },
+    "people": {
+        "António Nobre": [
+            "Pessoa"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Construção da praça"
+        ]
+    }
+}

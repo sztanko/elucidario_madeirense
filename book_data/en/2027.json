@@ -1,0 +1,36 @@
+{
+    "id": 2027,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo da Estrela",
+    "fl": "L",
+    "original_title": "Lombo da Estrela",
+    "body": "A populated place in the parish of Calheta. In this place is the chapel of Nossa Senhora do Bom Sucesso, built by Lourenço da Costa in 1683. The old chapel of Nossa Senhora da Estrela was located in this place, where the parish headquarters were established at the time of its creation, as mentioned in the article on the parish of Calheta. There was also a chapel dedicated to Santa Quitéria in this place, built in 1724 by João Homem de Abreu. There have been many proposals to move the headquarters of the town of Calheta to this place.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Parish of Calheta"
+        ]
+    },
+    "people": {
+        "Lourenço da Costa": [
+            "Person"
+        ],
+        "João Homem de Abreu": [
+            "Person"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Construction of the chapel of Nossa Senhora do Bom Sucesso"
+        ],
+        "1724": [
+            "Construction of the chapel of Santa Quitéria"
+        ]
+    }
+}

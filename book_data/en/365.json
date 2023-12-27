@@ -1,0 +1,40 @@
+{
+    "id": 365,
+    "lang": "en",
+    "is_original": false,
+    "title": "Azevedo Ramos (Nicasio de)",
+    "fl": "A",
+    "original_title": "Azevedo Ramos (Nicasio de)",
+    "body": "He was born in Tondela on October 2, 1862, and arrived in Madeira on January 23, 1885. He was the chief editor of the republican newspaper A Lucta and was a dental surgeon from the medical school of Lisbon, practicing this profession in Funchal for many years.\n\nRef.: Speech delivered at the solemn obsequies of Elias Garcia, held at the temple of the Liberdade lodge, on July 18, 1891 (Funchal, 1891, folh.).\n\nHe passed away in Funchal on January 8, 1927.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Tondela": [
+            "Birthplace"
+        ],
+        "Funchal": [
+            "Place of professional practice and passing"
+        ]
+    },
+    "people": {
+        "Nicasio de Azevedo Ramos": [
+            "Chief editor of the newspaper A Lucta and dental surgeon"
+        ]
+    },
+    "years": {
+        "1862": [
+            "Birth"
+        ],
+        "1885": [
+            "Arrival in Madeira"
+        ],
+        "1891": [
+            "Speech delivered at the obsequies of Elias Garcia"
+        ],
+        "1927": [
+            "Passing"
+        ]
+    }
+}

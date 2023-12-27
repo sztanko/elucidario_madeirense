@@ -1,0 +1,34 @@
+{
+    "id": 3391,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa (Ernesto Venceslau de)",
+    "fl": "S",
+    "original_title": "Sousa (Ernesto Venceslau de)",
+    "body": "Born in Funchal on September 28, 1879. He wrote the Poema antipuniceo (Funchal, 1904) and worked as a typographer, while also collaborating in the Cruz, Esperança, Voz do Operario, and Direito. He used to sign his works with the pseudonym E. Tarolo. He passed away at the Hospice of Princess D. Maria Amelia on December 25, 1913.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "Hospice of Princess D. Maria Amelia": [
+            "Institution"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1879": [
+            "Birth of Ernesto Venceslau de Sousa"
+        ],
+        "1904": [
+            "Publication of the Poema antipuniceo"
+        ],
+        "1913": [
+            "Death of Ernesto Venceslau de Sousa"
+        ]
+    }
+}

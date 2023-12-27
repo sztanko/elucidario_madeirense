@@ -1,0 +1,31 @@
+{
+    "id": 1904,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Крон (доктор Роланд Э.С.)",
+    "fl": "К",
+    "original_title": "Krohn (Dr. Roland E.S.)",
+    "body": " (доктор Роланд Э.С.)\nАнглийский врач русского происхождения, который несколько лет практиковал на Мадейре. Автор книг *Die Hygiene auf Funchal in Madeira* (Archiv für Schiffs und Tropen-Hygiene, том III, 1899) и *Führer durch Madeira*, Берлин, 1906.\n\nУмер в санатории в Швейцарии от туберкулеза легких около 1908 года.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Доктор Роланд Э.С. Крон": [
+            "Английский врач русского происхождения"
+        ]
+    },
+    "years": {
+        "1899": [
+            "Публикация книги *Die Hygiene auf Funchal in Madeira* доктором Роландом Э.С. Кроном"
+        ],
+        "1906": [
+            "Публикация книги *Führer durch Madeira* доктором Роландом Э.С. Кроном"
+        ],
+        "1908": [
+            "Смерть доктора Роланда Э.С. Крона"
+        ]
+    }
+}

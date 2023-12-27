@@ -1,0 +1,37 @@
+{
+    "id": 1167,
+    "lang": "en",
+    "is_original": false,
+    "title": "Distâncias marítimas",
+    "fl": "D",
+    "original_title": "Distâncias marítimas",
+    "body": "The distance between the ports of Lisbon and Funchal is generally estimated at 520 nautical miles.\n\nThe place on the African coast closest to Madeira is Cabo Cantim, with a distance of 350 nautical miles separating these two points.\n\nThe stretch of sea that separates the islands of Madeira and Porto Santo, known as Travessa, has a length of 21 and a half miles, between Ilhéu de Fora (Ponta de São Lourenço) and Ilhéu de Baixo (Porto Santo). The distance between the port of the city of Funchal and the port of the town of Porto Santo is approximately 41 miles.\n\nReferring especially to a table organized by the merchant navy officer Afonso Coelho, we will provide an overview of the approximate distances between the various ports of this archipelago, with the numbers expressing the number of miles and their decimal fractions:\n\n| Origin Port | Destination Port | Distance, miles |\n|--------------|------------------|-----------------|\n| Funchal | Câmara de Lobos | 4.0 |\n| Câmara de Lobos | Campanario | 3.0 |\n| Campanário | Ribeira Brava | 1.7 |\n| Ribeira Brava | Ponta do Sol | 2.1 |\n| Ponta do Sol | Fajã do Mar | 2.4 |\n| Fajã do Mar | Calheta | 2.3 |\n| Calheta | Jardim do Mar | 2.1 |\n| Jardim do Mar | Paul do Mar | 1.2 |\n| Paul | Pesqueiro | 2.3 |\n| Pesqueiro | Ponta do Pargo | 0.7 |\n| Ponta do Pargo | Porto do Moniz | 7.5 |\n| Porto do Moniz | Seixal | 4.0 |\n| Seixal | S. Vicente | 3.0 |\n| S. Vicente | Ponta Delgada | 3.6 |\n| Ponta Delgada | São Jorge | 4.0 |\n| São Jorge | Faial | 3.2 |\n| Faial | Porto da Cruz | 2.5 |\n| Porto da Cruz | Ponta de São Lourenço | 9.3 |\n| Ponta de São Lourenço | Caniçal | 4.0 |\n| Caniçal | Machico | 1.6 |\n| Machico | Santa Cruz | 4.3 |\n| Santa Cruz | Porto Novo | 2.0 |\n| Porto Novo | Funchal | 5.9 |\n| Funchal | Garajau | 2.9 |\n| Garajau | Ponta da Oliveira | 1.1 |\n| Ponta da Oliveira | Ilhéu de Fora | 10.6 |\n| Ilhéu de Fora | Ilhéu de Baixo | 4.3 |\n| Ilhéu de Baixo | Porto Santo | 21.5 |\n| Funchal | Deserta Grande | 21.5 |\n| Funchal | Ilhéu Chão | 19.0 |",
+    "categories": [
+        "geography",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisbon": [
+            "Port with a distance of 520 nautical miles from Funchal."
+        ],
+        "Funchal": [
+            "Port with various nautical distances to other ports and locations, including Lisbon, Porto Santo, and Cabo Cantim."
+        ],
+        "Cabo Cantim": [
+            "Place on the African coast closest to Madeira, 350 nautical miles away."
+        ],
+        "Porto Santo": [
+            "Island separated from Madeira by a 21 and a half mile stretch of sea, known as Travessa."
+        ],
+        "Ponta de São Lourenço": [
+            "Reference point for the maritime distance to Ilhéu de Baixo (Porto Santo)."
+        ]
+    },
+    "people": {
+        "Afonso Coelho": [
+            "Merchant navy officer who organized the table of nautical distances between the ports of the Madeira archipelago."
+        ]
+    },
+    "years": {}
+}

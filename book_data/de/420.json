@@ -1,0 +1,53 @@
+{
+    "id": 420,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barca (Campo da)",
+    "fl": "B",
+    "original_title": "Barca (Campo da)",
+    "body": "Das ursprüngliche Campo da Barca hatte seine nördliche Grenze an der Rampe, die heute zur Straße des Grafen von Carvalhal führt, und wurde vom Gouverneur und Generalhauptmann Florencio José Correia de Melo in Auftrag gegeben, auf von João de Carvalhal Esmeraldo und Miguel Carvalho kostenlos zur Verfügung gestellten Grundstücken. Nach der Schenkung wurde es am 21. Januar 1818 gemäß einer Verordnung desselben Gouverneurs dem Stadtrat übergeben.\n\nDer nördlich der genannten Rampe gelegene Teil des Campo da Barca wurde der Gemeinde gemäß dem Gesetz vom 13. September 1897 übergeben. Das jetzt vom Desinfektionsamt besetzte Gelände wurde vom Stadtrat in der Sitzung vom 12. März 1903 kostenlos an den Generalrat übergeben.\n\nDas Campo da Barca ist und wird immer unter diesem Namen bekannt sein, obwohl es seit 1911 Campo de Miguel Bombarda heißt. Davor, 1897, hatte der Stadtrat beschlossen, dass es Campo do Conselheiro José Luciano de Castro heißen sollte, aber diese Entscheidung wurde von der Öffentlichkeit, die im Allgemeinen wenig Respekt vor den politischen Sympathien ihrer Stadträte hat, nicht akzeptiert.\n\nUrsprünglich hieß das Feld, auf das wir uns beziehen, Campo do Conde da Barca, aber das Volk mit seiner Neigung zur Vereinfachung machte daraus den Namen Campo da Barca. Der Conde da Barca, dem Florencio José Correia de Melo Tribut zollen wollte, war, wie bekannt ist, Antonio de Araújo de Azevedo, der unser Minister in Den Haag und später portugiesischer Bevollmächtigter in Frankreich bei den Verhandlungen über den Vertrag vom 10. August 1907 war.\n\nDas Campo da Barca liegt am linken Ufer des Ribeira de João Gomes und hatte als südliche Grenze den Larguinho de São João, wo die Straßen Oudinot, Infância und Ornelas münden. Die Straße, die im Verlängerung der Avenida de João de Deus dieses Feld durchquert, teilte es in zwei sehr unterschiedliche Teile. Der südliche Teil wurde in einen Platz verwandelt, der den Namen Tenerife trägt, und im nördlichen Teil befinden sich die 1905 eröffnete Landdesinfektionsstelle und die 1933 errichtete Bezirkstuberkulose-Ambulanz. Gegenüber dieser Ambulanz erhebt sich das Denkmal für den Grafen von Canavial, das sich auf der Avenida do Doutor Manuel de Arriaga befand.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira de João Gomes": [
+            "Linkes Ufer"
+        ]
+    },
+    "people": {
+        "Florencio José Correia de Melo": [
+            "Gouverneur und Generalhauptmann"
+        ],
+        "João de Carvalhal Esmeraldo": [
+            "Stellte Grundstücke kostenlos zur Verfügung"
+        ],
+        "Miguel Carvalho": [
+            "Stellte Grundstücke kostenlos zur Verfügung"
+        ],
+        "Miguel Bombarda": [
+            "Name seit 1911"
+        ],
+        "Conde da Barca": [
+            "Antonio de Araújo de Azevedo, Minister in Den Haag und portugiesischer Bevollmächtigter in Frankreich"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Übergabe an den Stadtrat"
+        ],
+        "1897": [
+            "Beschluss, es Campo do Conselheiro José Luciano de Castro zu nennen"
+        ],
+        "1905": [
+            "Eröffnung der Landdesinfektionsstelle"
+        ],
+        "1911": [
+            "Umbenennung in Campo de Miguel Bombarda"
+        ],
+        "1933": [
+            "Bau der Bezirkstuberkulose-Ambulanz"
+        ]
+    }
+}

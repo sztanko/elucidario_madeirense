@@ -1,0 +1,37 @@
+{
+    "id": 2502,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora das Maravilhas (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Maravilhas (Capela de)",
+    "body": "In the Quinta das Maravilhas, in the square of the same name, Diogo Bettencourt Correia and his wife D. Catarina da Silva founded a chapel of this invocation in 1657, with an endowment deed dated August 18 of the same year. It was rebuilt in 1736 by D. Mariana da Silva, and was inspected for the celebration of Mass on November 20 of the same year. It no longer exists.\n\nWith the same invocation, there was a chapel at the Passo site in the parish of Madalena do Mar.\n\nGaspar Betencourt de Andrade established another one in 1658 in the parish of S. Pedro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Madalena do Mar",
+        "S. Pedro"
+    ],
+    "locations": {
+        "Maravilhas": [
+            "Located in the Quinta das Maravilhas, in the square of the same name."
+        ]
+    },
+    "people": {
+        "Diogo Bettencourt Correia": [
+            "Founder of the chapel in 1657, along with his wife D. Catarina da Silva."
+        ],
+        "D. Mariana da Silva": [
+            "Responsible for the reconstruction of the chapel in 1736."
+        ]
+    },
+    "years": {
+        "1657": [
+            "Foundation of the chapel"
+        ],
+        "1736": [
+            "Reconstruction of the chapel"
+        ]
+    }
+}

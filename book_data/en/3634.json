@@ -1,0 +1,68 @@
+{
+    "id": 3634,
+    "lang": "en",
+    "is_original": false,
+    "title": "Villages",
+    "fl": "V",
+    "original_title": "Vilas",
+    "body": "The first localities of this archipelago that, due to their development and serving as the seat of the three captaincies, were elevated to the category of villages have the names of\n\n> Funchal\n\n, (II-59),\n\n> Machico\n\n, (II-298) and\n\n> Baleira\n\n (I -117). Despite his research, the erudite commentator of the 'Saudades da Terra' was unable to find the diplomas of this creation and even the precise dates on which it occurred, but he conjectures with the most secure probabilities that it may have been around the year 1451, as already mentioned in the articles referring to these villages. The one in Funchal, which due to its location, climate, fertility of the soil, the expanse of the port, and other appreciable circumstances, soon achieved an unusual population growth, was elevated to the category of city by the royal charter of August 21, 1508, which is transcribed on page 61 of volume II of this work.\n\nThe charter of December 2, 1501 created the village and municipality of Ponta do Sol, which extended its area from the parish of Tabua to the parish of Achadas da Cruz (See III-99), soon being reduced to very limited proportions with the elevation of the parish of Calheta to\n\nThe parish of Santa Cruz, which soon rivaled that of Machico, became a municipality with the status of a village by the royal charter of July 1, 1502 (See I-191). royal charter of June 26, 1515, despite the opposition raised by the district of Machico and by the head of this captaincy (See III-246).\n\nThe constant complaints of various parishes on the northern coast of Madeira led to the creation of the Village of São Vicente, with its seat in the parish of the same name, by virtue of the royal charter of August 25, 1744, although the municipality of Machico had offered serious difficulties to this creation (See III-282).\n\nThe municipality of Ribeira Brava, with its seat in this parish, was created by the decree of May 6, 1914, and the respective village by the decree of March 26, 1929, this being the eighth and last village established in this archipelago.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Tabua",
+        "Achadas da Cruz",
+        "Calheta",
+        "São Vicente",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Funchal": [
+            "Location, climate, fertility of the soil, expanse of the port"
+        ],
+        "Ponta do Sol": [
+            "Area from the parish of Tabua to the parish of Achadas da Cruz"
+        ],
+        "Santa Cruz": [
+            "Rivaled that of Machico"
+        ],
+        "São Vicente": [
+            "Northern coast of Madeira"
+        ],
+        "Ribeira Brava": [
+            "Seat in this parish"
+        ]
+    },
+    "people": {
+        "Erudite commentator of the 'Saudades da Terra'": [
+            "Unable to find the diplomas of this creation and even the precise dates on which it occurred"
+        ]
+    },
+    "years": {
+        "1451": [
+            "May have been around the year of 1451"
+        ],
+        "1508": [
+            "Was elevated to the category of city by the royal charter of August 21, 1508"
+        ],
+        "1501": [
+            "Charter of December 2, 1501"
+        ],
+        "1502": [
+            "By the royal charter of July 1, 1502"
+        ],
+        "1515": [
+            "Royal charter of June 26, 1515"
+        ],
+        "1744": [
+            "Royal charter of August 25, 1744"
+        ],
+        "1914": [
+            "Created by the decree of May 6, 1914"
+        ],
+        "1929": [
+            "By the decree of March 26, 1929"
+        ]
+    }
+}

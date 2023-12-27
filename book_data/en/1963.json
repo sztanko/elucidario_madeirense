@@ -1,0 +1,32 @@
+{
+    "id": 1963,
+    "lang": "en",
+    "is_original": false,
+    "title": "Leme (João da Câmara)",
+    "fl": "L",
+    "original_title": "Leme (João da Câmara)",
+    "body": "He was born in Funchal in the year 1865 and held the position of gatekeeper of the Civil Government. In this city, he published a volume of poetry in 1887, with 83 pages, entitled Amor e Pátria (Love and Homeland). Upon its release, it was asserted in the press that the booklet was a complete plagiarism, foraged from various Portuguese poets, particularly from Almeida Garrett.",
+    "categories": [
+        "history",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "João da Câmara Leme": [
+            "Poet"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Birth in Funchal"
+        ],
+        "1887": [
+            "Publication of the volume of poetry Amor e Pátria"
+        ]
+    }
+}

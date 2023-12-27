@@ -1,0 +1,29 @@
+{
+    "id": 2025,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo de D. Isabel",
+    "fl": "L",
+    "original_title": "Lombo de D. Isabel",
+    "body": "A place in the parish of Santo António do Funchal, which borders the place of Vasco Gil and is crossed by the road that leads to Curral das Freiras, with the place known by the name of Estrela at its top.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {
+        "Santo António do Funchal": [
+            "Parish of Santo António do Funchal"
+        ],
+        "Curral das Freiras": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "Vasco Gil": [
+            "Person"
+        ]
+    },
+    "years": {}
+}

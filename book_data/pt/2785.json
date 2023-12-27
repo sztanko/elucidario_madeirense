@@ -1,0 +1,34 @@
+{
+    "id": 2785,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Piedade",
+    "fl": "P",
+    "original_title": "Piedade",
+    "body": "Com o nome de Monte Gordo ou da Piedade, existe uma elevação sobranceira ao mar, na freguesia do Caniçal, destacando-se no alto a capela de Nossa Senhora da Piedade, que é avistada a grande distancia pelos navios que demandam a costa. Afirma-se que foi fundada no século XVI por Garcia Moniz, primeiro administrador do morgado do Caniçal, passando a sua posse para a casa vinculada de São Gil, que tinha o seu solar no sitio da Calçada, na freguesia de Santa Cruz.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniçal",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Caniçal": [
+            "Freguesia onde se localiza a elevação da Piedade"
+        ],
+        "Santa Cruz": [
+            "Freguesia onde se localiza o solar da casa vinculada de São Gil"
+        ]
+    },
+    "people": {
+        "Garcia Moniz": [
+            "Primeiro administrador do morgado do Caniçal"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Fundação da capela de Nossa Senhora da Piedade"
+        ]
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "id": 119,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Алдонса (Кальяу и порту да)",
+    "fl": "А",
+    "original_title": "Aldonça (Calhau e Porto da)",
+    "body": "Небольшой порт с коротким пляжем на побережье прихода Гаула.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Гаула": [
+            "Приход"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

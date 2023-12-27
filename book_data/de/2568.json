@@ -1,0 +1,31 @@
+{
+    "id": 2568,
+    "lang": "de",
+    "is_original": false,
+    "title": "Oliveira (João Nepomuceno de)",
+    "fl": "O",
+    "original_title": "Oliveira (João Nepomuceno de)",
+    "body": "Er wurde 1783 in Funchal geboren und starb 1846. Er war der Sohn des madeirischen Schriftstellers Francisco Manuel de Oliveira. Er veröffentlichte ein kleines Gedichtbuch und die portugiesische Übersetzung von zwei Novellen aus dem Französischen, wie uns das Historische Archiv Madeiras informiert.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Manuel de Oliveira": [
+            "Schriftsteller"
+        ]
+    },
+    "years": {
+        "1783": [
+            "Geburt von João Nepomuceno de Oliveira"
+        ],
+        "1846": [
+            "Tod von João Nepomuceno de Oliveira"
+        ]
+    }
+}

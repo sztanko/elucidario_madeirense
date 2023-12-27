@@ -1,0 +1,35 @@
+{
+    "id": 1510,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Funda (Ribeira)",
+    "fl": "F",
+    "original_title": "Funda (Ribeira)",
+    "body": "Nasce nos Picos da Silva e da Relva e separa as freguesias do Estreito da Calheta e dos Prazeres, tendo como afluente o ribeiro do Mendes.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Estreito da Calheta",
+        "Prazeres"
+    ],
+    "locations": {
+        "Picos da Silva": [
+            "Local de nascimento"
+        ],
+        "Relva": [
+            "Local de nascimento"
+        ],
+        "Estreito da Calheta": [
+            "Freguesia"
+        ],
+        "Prazeres": [
+            "Freguesia"
+        ],
+        "Mendes": [
+            "Afluente"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

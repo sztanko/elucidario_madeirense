@@ -1,0 +1,23 @@
+{
+    "id": 1143,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Diário do Commercio",
+    "fl": "D",
+    "original_title": "Diário do Commercio",
+    "body": "Publicou-se o primeiro numero a 1 de Outubro de 1891 e o ultimo a 8 de Setembro de 1896, tendo saido 8 números.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1891": [
+            "Início da publicação do Diário do Commercio"
+        ],
+        "1896": [
+            "Término da publicação do Diário do Commercio"
+        ]
+    }
+}

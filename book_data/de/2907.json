@@ -1,0 +1,41 @@
+{
+    "id": 2907,
+    "lang": "de",
+    "is_original": false,
+    "title": "Königin-Platz",
+    "fl": "K",
+    "original_title": "Praça da Rainha",
+    "body": "Er wurde 1839 auf einem Grundstück errichtet, das zuvor zur Aufbewahrung von Booten und Ankern der Marine gedient hatte.\n\nIm Mai 1877 wurde der Platz Dr. João da Câmara Leme Homem de Vasconcelos, einem Arzt in Funchal, als Baumschule für weiße Maulbeerbäume überlassen. Es gab dort eine große Anzahl dieser Bäume sowie verschiedene Einrichtungen für die Zucht und Nutzung des Seidenraupen, aber ohne dass sich aus diesen Seidenbauversuchen ermutigende Ergebnisse ergaben.\n \nDie Pavillons, die heute auf dem Gelände des ehemaligen Königin-Platzes stehen, wurden 1897 in Übereinstimmung mit einer Konzession errichtet, die der Stadtrat am 30. Mai 1895 erteilt hatte. Die ursprünglichen Konzessionsnehmer beabsichtigten, in diesem Bereich einen ständigen Basar für madeirische Industrie und eine Ausstellung für Gartenbau und Blumen (1921) einzurichten.\n\nInnerhalb des ehemaligen Königin-Platzes gab es einst einen Teich für Schwimmübungen, der jedoch nie für diesen Zweck genutzt wurde, und westlich desselben Platzes gab es einen anderen Teich für denselben Zweck, der ebenfalls nie genutzt wurde. Beide Teiche wurden vor vielen Jahren zugeschüttet.\n\nSeit November 1910 heißt der ehemalige Königin-Platz Marquês-de-Pombal-Platz.\n\nDer Bau der „Meeresallee“ ließ den größten Teil seiner Fläche verschwinden.\n\nDer Name „Königin-Platz“ wurde zu Ehren der Königin Maria II. vergeben.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Königin-Platz": [
+            "1839 errichtet"
+        ]
+    },
+    "people": {
+        "João da Câmara Leme Homem de Vasconcelos": [
+            "Arzt in Funchal"
+        ]
+    },
+    "years": {
+        "1839": [
+            "Bau des Königin-Platzes"
+        ],
+        "1877": [
+            "Platz Dr. João da Câmara Leme Homem de Vasconcelos überlassen"
+        ],
+        "1895": [
+            "Konzession für den Bau der Pavillons"
+        ],
+        "1910": [
+            "Umbenennung in Marquês-de-Pombal-Platz"
+        ],
+        "1921": [
+            "Einrichtung eines ständigen Basars für madeirische Industrie und einer Gartenbau- und Blumenausstellung"
+        ]
+    }
+}

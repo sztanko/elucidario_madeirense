@@ -1,0 +1,27 @@
+{
+    "id": 2983,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quinta dos Reis",
+    "fl": "Q",
+    "original_title": "Quinta dos Reis",
+    "body": "Sítio povoado da freguesia do Monte. Neste sítio, sobre um pequeno morro, levanta-se, lembrando um antigo castelo roqueiro, um velho solar com uma capela anexa, dedicada aos Santos Reis Magos e construída em 1554 por Duarte Mendes de Vasconcelos. Também se encontra neste sítio uma capela da invocação do Menino Jesus.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {},
+    "people": {
+        "Duarte Mendes de Vasconcelos": [
+            "Construtor da capela dedicada aos Santos Reis Magos"
+        ]
+    },
+    "years": {
+        "1554": [
+            "Construção da capela dedicada aos Santos Reis Magos"
+        ]
+    }
+}

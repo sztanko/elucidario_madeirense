@@ -1,0 +1,43 @@
+{
+    "id": 2488,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Schmerzen",
+    "fl": "U",
+    "original_title": "Nossa Senhora das Dores",
+    "body": "Die Pfarrfriedhöfe der Gemeinden Santa Cruz und Câmara de Lobos sowie der Friedhof Angústias in Funchal (heute geschlossen) haben Kapellen für den ausschließlichen religiösen Dienst auf den Friedhöfen, alle geweiht Unserer Lieben Frau der Schmerzen. Die erste wurde im letzten Viertel des 19. Jahrhunderts gebaut, die letzte 1844.\n\nAuch die Kapelle des Krankenhauses Princesa Dona Maria Amélia, die den dort untergebrachten Patienten dient, ist Unserer Lieben Frau der Schmerzen geweiht. Das prächtige Bildnis wurde vom unglücklichen Prinzen Maximilian gestiftet, der später Kaiser von Mexiko wurde und dort 1867 auf barbarische Weise erschossen wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Gemeinde"
+        ],
+        "Câmara de Lobos": [
+            "Gemeinde"
+        ],
+        "Funchal": [
+            "Angústias"
+        ]
+    },
+    "people": {
+        "Maximilian": [
+            "Prinz, Kaiser von Mexiko"
+        ]
+    },
+    "years": {
+        "XIX": [
+            "Bau der ersten Kapelle in den Gemeinden Santa Cruz und Câmara de Lobos"
+        ],
+        "1844": [
+            "Bau der letzten Kapelle in den Gemeinden Santa Cruz und Câmara de Lobos"
+        ],
+        "1867": [
+            "Erschießung von Prinz Maximilian"
+        ]
+    }
+}

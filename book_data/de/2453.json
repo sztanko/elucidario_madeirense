@@ -1,0 +1,29 @@
+{
+    "id": 2453,
+    "lang": "de",
+    "is_original": false,
+    "title": "Norça (Tamus edulis)",
+    "fl": "N",
+    "original_title": "Norça (Tamus edulis)",
+    "body": "Einheimische Dioscoriacea-Kletterpflanze, die in Achadas da Cruz und Porto do Moniz wegen ihrer essbaren Knollen angebaut wird. Im wilden Zustand wurde sie nur in Garajau gefunden. Frutuoso erwähnt sie auf Porto Santo, wo sie jetzt völlig ausgestorben ist. Sie hat zweihäusige, purpurfarbene Blüten und herzförmige, zugespitzte Blätter mit 9 Nerven.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Achadas da Cruz": [
+            "Anbaugebiet"
+        ],
+        "Porto do Moniz": [
+            "Anbaugebiet"
+        ],
+        "Garajau": [
+            "Ort, an dem sie wild gefunden wurde"
+        ],
+        "Porto Santo": [
+            "Ort, an dem Frutuoso sie erwähnt"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

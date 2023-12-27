@@ -1,0 +1,46 @@
+{
+    "id": 628,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cadeia Velha (Rua da)",
+    "fl": "C",
+    "original_title": "Cadeia Velha (Rua da)",
+    "body": "É a via publica que directamente comunica a rua Direita com o pequeno largo da igreja do Carmo, e a ela dão acesso as ruas dos Medinas e do Monteiro. Proveio o seu nome de ali ter existido a antiga cadeia da cidade, que ficava no ângulo de intersecção formado por esta rua e pela rua Direita, à direita de quem se dirige da igreja do Carmo para esta ultima rua. Na rua da Cadeia Velha fica a casa que pertenceu à família Oliveira, de que foram membros João Francisco de Oliveira, Joaquim de Oliveira Alvares e Benjamim de Oliveira (V. estes nomes), além de outros, e que Paulo Perestrelo da Câmara afirma ser dos maiores prédios urbanos que havia no Funchal, e cuja construção deve datar dos princípios do século XVIII.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua Direita": [
+            "Via pública no Funchal"
+        ],
+        "Largo da igreja do Carmo": [
+            "Espaço público no Funchal"
+        ],
+        "Ruas dos Medinas": [
+            "Vias públicas no Funchal"
+        ],
+        "Rua do Monteiro": [
+            "Via pública no Funchal"
+        ]
+    },
+    "people": {
+        "João Francisco de Oliveira": [
+            "Membro da família Oliveira"
+        ],
+        "Joaquim de Oliveira Alvares": [
+            "Membro da família Oliveira"
+        ],
+        "Benjamim de Oliveira": [
+            "Membro da família Oliveira"
+        ],
+        "Paulo Perestrelo da Câmara": [
+            "Afirma ser dos maiores prédios urbanos que havia no Funchal"
+        ]
+    },
+    "years": {
+        "Século XVIII": [
+            "Construção da casa que pertenceu à família Oliveira"
+        ]
+    }
+}

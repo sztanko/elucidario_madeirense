@@ -1,0 +1,34 @@
+{
+    "id": 2470,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Apresentação (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Apresentação (Capela de)",
+    "body": "O sítio da freguesia da Ribeira Brava, hoje conhecido pelo nome de Lombo da Apresentação, tomou este nome da capela que ali se erguia e que tinha a invocação de nossa Senhora da Apresentação. Foi fundada por Isabel Fernandes Tavares, no ano de 1524 nas terras vinculadas que ali possuía. Esta capela encorporou-se depois na casa da família Heredia. Junto da ermida levantava-se uma sumptuosa residência de que já nem restam vestígios.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Freguesia"
+        ],
+        "Lombo da Apresentação": [
+            "Sítio"
+        ]
+    },
+    "people": {
+        "Isabel Fernandes Tavares": [
+            "Fundadora da capela"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Fundação da capela por Isabel Fernandes Tavares"
+        ]
+    }
+}

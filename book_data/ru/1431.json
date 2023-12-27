@@ -1,0 +1,27 @@
+{
+    "id": 1431,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Форель (доктор)",
+    "fl": "Ф",
+    "original_title": "Forel (Dr.)",
+    "body": "Изучал муравьев архипелага Мадейра в Mittheilungen der Schweiz Entom Gesellschaft. Виды, изученные доктором Форелем, были собраны отцом Э. Шмитцем.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Архипелаг"
+        ]
+    },
+    "people": {
+        "Доктор Форель": [
+            "Ученый"
+        ],
+        "Отец Э. Шмитц": [
+            "Ответственный за сбор образцов видов"
+        ]
+    },
+    "years": {}
+}

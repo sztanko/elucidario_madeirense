@@ -1,0 +1,34 @@
+{
+    "id": 587,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bruce (James)",
+    "fl": "B",
+    "original_title": "Bruce (James)",
+    "body": "Famous English traveler born in 1730 and died in 1794. He is known for the discovery of the islands of Madeira and Porto Santo in the work that was translated into French by J. H. Castera, with the following title: 'Voyage aux sources du Nil en Nubie et en Abyssinie pendant les annés de 1768, 1769, 1770, 1771 et 1772' (London, 1791).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island discovered by James Bruce"
+        ]
+    },
+    "people": {
+        "J. H. Castera": [
+            "Translator of James Bruce's work into French"
+        ]
+    },
+    "years": {
+        "1730": [
+            "Birth of James Bruce"
+        ],
+        "1794": [
+            "Death of James Bruce"
+        ],
+        "1768-1772": [
+            "Period of exploration of the islands of Madeira and Porto Santo by James Bruce"
+        ]
+    }
+}

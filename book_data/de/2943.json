@@ -1,0 +1,35 @@
+{
+    "id": 2943,
+    "lang": "de",
+    "is_original": false,
+    "title": "Prozession der Kerzen, Litaneien und Kreuzweg in Ponta do Sol",
+    "fl": "P",
+    "original_title": "Procissão das Candeias, das Ladainhas e da Via Sacra, na Ponta do Sol",
+    "body": "In dem oben erwähnten Artikel heißt es, dass diese Prozessionen einst in Ponta do Sol stattfanden. Die Litanei-Prozession fand im Mai statt und zog laut einem Dokument aus dem Jahr 1600 am ersten Tag zur Kirche Unserer Lieben Frau von Piedade in Canhas, am zweiten Tag zur Kapelle des Heiligen Geistes in Lombada und am dritten Tag zur Kapelle des heiligen Sebastian im Dorf. 1607 ordnete die Stadtverwaltung an, dass die Prozession am ersten Tag zur Kapelle des Heiligen Geistes, am zweiten Tag zur Kapelle Unserer Lieben Frau von Piedade (Jangão?) und am dritten Tag zur Kapelle des heiligen Sebastian gehen sollte. Die Gemeindemitglieder von N. S. da Piedade (Canhas) und Madalena do Mar waren von der Teilnahme an der Prozession befreit, da diese in ihren Gemeinden stattfand. Der Autor des erwähnten Artikels sagt, dass die Prozessionen des Kreuzwegs außerhalb der Kirche um 1830 herum endeten. Als sie noch stattfanden, verließen sie das Pfarrkirche, durchquerten die Straßen des Dorfes bis zur Kapelle Unserer Lieben Frau vom Loskauf in Lombo das Adegas und zur Kapelle des heiligen Amaro in Lombada. Es gab Kreuze in den Straßen und auf den Wegen, die diese Prozessionen entlang liefen, und auf dem Weg nach Lombada gibt es eine Höhle namens Furna do Calvario, die eine Station dieser Prozessionen war.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Canhas",
+        "Lombada",
+        "Madalena do Mar"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Früherer Ort dieser Prozessionen"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1600": [
+            "Erwähntes Dokument"
+        ],
+        "1607": [
+            "Anordnung durch die Stadtverwaltung"
+        ],
+        "1830": [
+            "Ende der Prozessionen des Kreuzwegs außerhalb der Kirche"
+        ]
+    }
+}

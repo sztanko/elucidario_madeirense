@@ -1,0 +1,29 @@
+{
+    "id": 53,
+    "lang": "de",
+    "is_original": false,
+    "title": "Verwalter der Gemeinde",
+    "fl": "V",
+    "original_title": "Administradores do Concelho",
+    "body": "Die ersten Verwalter der Gemeinde wurden 1835 ernannt, aber vor ihnen gab es die Aufseher, die ähnliche Funktionen wie die Verwalter ausübten. Der erste Aufseher der Gemeinde Funchal war Januário Cardoso de Melo, der am 16. August 1834 sein Amt antrat.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Januário Cardoso de Melo": [
+            "Erster Aufseher der Gemeinde Funchal"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Ernennung der ersten Verwalter der Gemeinde"
+        ],
+        "1834": [
+            "Amtsantritt von Januário Cardoso de Melo als Aufseher der Gemeinde Funchal"
+        ]
+    }
+}

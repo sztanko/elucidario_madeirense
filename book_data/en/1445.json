@@ -1,0 +1,28 @@
+{
+    "id": 1445,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forte de Loures",
+    "fl": "F",
+    "original_title": "Forte de Loures",
+    "body": "It is a tradition that it was ordered to be built by a private individual in the 17th century. It overlooked the bay of Gonçalo Aires and the mouth of the river. Already of little importance in the time of the captain-general D. Diogo Coutinho, he intended to set up a silk factory there.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Gonçalo Aires": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "D. Diogo Coutinho": [
+            "Captain-general"
+        ]
+    },
+    "years": {
+        "17th century": [
+            "Construction"
+        ]
+    }
+}

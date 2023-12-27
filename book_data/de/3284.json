@@ -1,0 +1,32 @@
+{
+    "id": 3284,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sarsfield (Eduardo da Rocha)",
+    "fl": "S",
+    "original_title": "Sarsfield (Eduardo da Rocha)",
+    "body": "(Eduardo da Rocha) Er stammt aus Porto und ist der Sohn des Madeirensers Oberst Alexandre José Sarsfield. Er wurde durch Dekret vom 18. Mai 1922 zum Gouverneur des Bezirks Funchal ernannt. Er trat sein Amt am 28. desselben Monats und Jahres an.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto": [
+            "Geburtsort von Eduardo da Rocha Sarsfield"
+        ],
+        "Funchal": [
+            "Bezirk, in dem Eduardo da Rocha Sarsfield zum Gouverneur ernannt wurde"
+        ]
+    },
+    "people": {
+        "Alexandre José Sarsfield": [
+            "Vater von Eduardo da Rocha Sarsfield"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Ernennung von Eduardo da Rocha Sarsfield zum Gouverneur des Bezirks Funchal"
+        ]
+    }
+}

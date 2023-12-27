@@ -1,0 +1,40 @@
+{
+    "id": 1734,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Homem",
+    "fl": "H",
+    "original_title": "Homem",
+    "body": "Este apelido de família procede: de Garcia Homem de Sousa, que casou com Catarina Gonçalves da Câmara, filha de Zargo; de Francisco Homem de Gouveia, fidalgo da casa de D. Manuel e que viveu no Estreito da Calheta, onde instituiu um morgado em 1529; de Francisco Homem d'El-Rei, que viveu na Calheta, no princípio do século XVI; e de Rui Fernandes Homem, filho natural de Fernão Homem e sobrinho do referido Garcia Homem de Sousa.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Estreito da Calheta": [
+            "Local onde Francisco Homem de Gouveia viveu e instituiu um morgado em 1529"
+        ],
+        "Calheta": [
+            "Local onde Francisco Homem d'El-Rei viveu no princípio do século XVI"
+        ]
+    },
+    "people": {
+        "Garcia Homem de Sousa": [
+            "Casou com Catarina Gonçalves da Câmara, filha de Zargo"
+        ],
+        "Francisco Homem de Gouveia": [
+            "Fidalgo da casa de D. Manuel"
+        ],
+        "Francisco Homem d'El-Rei": [
+            "Viveu na Calheta no princípio do século XVI"
+        ],
+        "Rui Fernandes Homem": [
+            "Filho natural de Fernão Homem e sobrinho do referido Garcia Homem de Sousa"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Ano em que Francisco Homem de Gouveia instituiu um morgado no Estreito da Calheta"
+        ]
+    }
+}

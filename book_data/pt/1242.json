@@ -1,0 +1,44 @@
+{
+    "id": 1242,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Escola de Pilotagem",
+    "fl": "E",
+    "original_title": "Escola de Pilotagem",
+    "body": "Adjunta à Capitania do Porto desta cidade funciona uma Escola de Pilotagem, que foi criada por decreto de 14 de Novembro de 1917, sendo ministro da marinha o capitão de fragata Arantes Pedroso. A criação desta escola deve-se aos aturados e diligentes esforços do capitão do porto do Funchal, o capitão de fragata Artur de Sales Henriques, que foi o encarregado da sua instalação e que dela tem sido o único professor. O seu curso, como as demais escolas desta natureza, é de dois anos, constando o primeiro das disciplinas de aritmética, princípios de álgebra, geometria plana e no espaço, trigonometria rectilínea, geografia geral, agulhas e navegação estimada, e o segundo de trigonometria esférica, astronomia geral, cálculos náuticos, navegação astronómica, manobra à vela e a vapor, sinais e meteorologia.\n\nO curso desta escola habilita para oficiais de marinha mercante, conferindo carta de piloto, depois dos aspirantes terem um certo tempo de navegação como praticantes.\n\nNo ano letivo de 1917 a 1918 matricularam-se 17 alunos, alcançando 4 passagem para o segundo ano. Em 1919 concluíram o curso 3 alunos, os primeiros que nesta escola se habilitaram a obter a carta de piloto. Foi extinta.\n\nEscola de Utilidades e Belas Artes. Era destinada à instrução de crianças do sexo feminino, e foi estabelecida em virtude de uma deliberação da Junta Geral, tomada em 12 de Fevereiro de 1913, começando a funcionar em Fevereiro do ano imediato.\n\nEnsinava-se ali música, pintura, desenho, línguas, higiene, ginástica, dança, lavores, cozinha, jardinagem e horticultura, aritmética, geografia, etc..\n\nA Escola de Utilidades funcionava no edifício do antigo Seminário à Incarnação, e foi extinta por deliberação da Junta Geral de 13 de Setembro de 1919, sendo o mesmo edifício cedido a esta corporação pela quantia de 9 contos, em Agosto de 1919. Desde Setembro do mesmo ano que estão ali instaladas as repartições da Junta Geral.\n\nA receita e despesa da Escola de Utilidades e Belas Artes no período que vai de 1914 a 1918 constam do seguinte mapa:\n\n| Ano  | Receita     | Despesa     |\n|------|-------------|-------------|\n| 1914 |             |             |\n| 1915 | 1.060$71    | 10.999$92   |\n| 1916 | 1.433$51    | 10.975$85   |\n| 1917 | 1.551$37    | 12.738$96   |\n| 1918 | 704$65      | 3.994$06    |",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde funcionava a Escola de Pilotagem e a Escola de Utilidades e Belas Artes"
+        ]
+    },
+    "people": {
+        "Arantes Pedroso": [
+            "Ministro da marinha na criação da Escola de Pilotagem"
+        ],
+        "Artur de Sales Henriques": [
+            "Capitão do porto do Funchal e encarregado da instalação da Escola de Pilotagem"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Criação da Escola de Pilotagem e matrícula de 17 alunos"
+        ],
+        "1918": [
+            "Passagem de 4 alunos para o segundo ano"
+        ],
+        "1919": [
+            "Extinção da Escola de Utilidades e Belas Artes e cessão do edifício à Junta Geral"
+        ],
+        "1913": [
+            "Deliberação da Junta Geral para estabelecimento da Escola de Utilidades e Belas Artes"
+        ],
+        "1914": [
+            "Início do funcionamento da Escola de Utilidades e Belas Artes"
+        ]
+    }
+}

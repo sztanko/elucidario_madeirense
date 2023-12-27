@@ -1,0 +1,31 @@
+{
+    "id": 343,
+    "lang": "en",
+    "is_original": false,
+    "title": "Avezac",
+    "fl": "A",
+    "original_title": "Avezac",
+    "body": "The distinguished geographer and historian Pascoal Avezac Macaya (1799-1875) in his work Iles d'Afrique, which enjoys great reputation, dealt quite extensively with the Madeiran archipelago, giving us a summary description of its discovery, geological constitution, waters, climate, vegetation, fauna, inhabitants, industry, commerce, customs, etc. Despite the deficiencies it contains and the sometimes less secure assessments of things and facts, it is undoubtedly a very interesting study that is not read without considerable benefit. P. de Avezac had Gabriel de Gorat and Oscar Marc Carthy as collaborators in his work. In nineteen issues of the old Diario do Comercio, from January to April 1909, a translation of Avezac's study was published.",
+    "categories": [
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pascoal Avezac Macaya": [
+            "Geographer and historian"
+        ]
+    },
+    "years": {
+        "1799": [
+            "Birth of Pascoal Avezac Macaya"
+        ],
+        "1875": [
+            "Death of Pascoal Avezac Macaya"
+        ],
+        "1909": [
+            "Publication of the translation of Avezac's study"
+        ]
+    }
+}

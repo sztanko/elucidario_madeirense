@@ -1,0 +1,33 @@
+{
+    "id": 3380,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gesellschaft zum Schutz der Haustiere",
+    "fl": "G",
+    "original_title": "Sociedade Protectora dos Animais Domésticos",
+    "body": "Sie wurde am 6. Januar 1897 gegründet und am 6. Mai desselben Jahres für gesetzmäßig erklärt. Am 16. März 1914 wurde sie für gemeinnützig erklärt. Sie hat Fördermitglieder und Abonnenten. Die ursprünglichen Beiträge von 10 Cent wurden 1921 auf 50 Cent erhöht.\n\nEs gab eine andere Gesellschaft mit demselben Namen, die am 1. März 1880 im Hotel Miles in der Carmostraße eröffnet wurde.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1897": [
+            "Gründung der Gesellschaft"
+        ],
+        "1914": [
+            "Anerkennung des öffentlichen Nutzens"
+        ],
+        "1921": [
+            "Erhöhung der Beiträge"
+        ],
+        "1880": [
+            "Eröffnung der anderen Gesellschaft"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": 1332,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Faria (José Cupertino de)",
+    "fl": "F",
+    "original_title": "Faria (José Cupertino de)",
+    "body": "Nasceu no Funchal por 1866 e é filho de Manuel de Faria e de D. Maria Isabel Fernandes de Faria. Frequentou o Seminário desta diocese, cujos preparatórios não chegou a concluir, alistando-se depois no exército. Há muito que saiu desta ilha, e residiu largos anos na cidade de Setúbal. Foi ali que em 1901 publicou um volume de 202 paginas, intitulado O Arquipelago da Madeira, que contém muitos erros e inexactidões.",
+    "categories": [
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade de nascimento de José Cupertino de Faria"
+        ],
+        "Setúbal": [
+            "Cidade onde residiu José Cupertino de Faria"
+        ]
+    },
+    "people": {
+        "Manuel de Faria": [
+            "Pai de José Cupertino de Faria"
+        ],
+        "D. Maria Isabel Fernandes de Faria": [
+            "Mãe de José Cupertino de Faria"
+        ]
+    },
+    "years": {
+        "1901": [
+            "Publicação do volume O Arquipelago da Madeira por José Cupertino de Faria"
+        ]
+    }
+}

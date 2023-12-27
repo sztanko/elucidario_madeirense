@@ -1,0 +1,30 @@
+{
+    "id": 3333,
+    "lang": "en",
+    "is_original": false,
+    "title": "Silva (Father Júlio César Pereira da)",
+    "fl": "S",
+    "original_title": "Silva (Padre Júlio César Pereira da)",
+    "body": "He was born on this island in the year 1845 and passed away in Lisbon on April 19, 1912. He was a military chaplain and honorary canon of the Sé de Viseu, and was a teacher at the seminary and lyceum of Beja. He collaborated in various newspapers and published some of his speeches in various pamphlets.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Sé de Viseu",
+        "Beja"
+    ],
+    "locations": {
+        "Lisbon": [
+            "Place of passing away"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Birth"
+        ],
+        "1912": [
+            "Passing away"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 286,
+    "lang": "en",
+    "is_original": false,
+    "title": "Asilo dos Inválidos",
+    "fl": "A",
+    "original_title": "Asilo dos Inválidos",
+    "body": "In 1842, a modest charity establishment was set up in some dependencies on the ground floor of the Misericórdia building in this city, which was then given the name Asilo dos Inválidos. It was an adjunct creation of the Holy House of Mercy and was managed by its governing bodies, but the asylum had been founded by the Municipal Chamber of Funchal, which was the official entity that supported the maintenance of the inmates, under a contract between the same chamber and the administration of the Holy House. We do not know when it ceased to function, but its existence was of short duration.\n\nProject for a Beggar's Asylum. The Civil Governor of the district, Dr. Domingos Olavo Correia de Azevedo, by decree of March 22, 1844, appointed a commission, chaired by Dr. Antonio da Luz Pita and with Mauricio Castelo Branco as secretary, to propose the most suitable means for the creation of an asylum for the sheltering of beggars. We do not know what work this commission may have presented, but we know that the asylum project was nothing more than a successful and generous idea, and nothing more.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of the island of Madeira."
+        ]
+    },
+    "people": {
+        "Domingos Olavo Correia de Azevedo": [
+            "Civil Governor of the district."
+        ],
+        "Antonio da Luz Pita": [
+            "Chairman of the commission for the creation of a beggar's asylum."
+        ],
+        "Mauricio Castelo Branco": [
+            "Secretary of the commission for the creation of a beggar's asylum."
+        ]
+    },
+    "years": {
+        "1842": [
+            "Establishment of the Asilo dos Inválidos."
+        ],
+        "1844": [
+            "Appointment of the commission to propose the most suitable means for the creation of an asylum for the sheltering of beggars."
+        ]
+    }
+}

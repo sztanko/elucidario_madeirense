@@ -1,0 +1,54 @@
+{
+    "id": 3131,
+    "lang": "de",
+    "is_original": false,
+    "title": "Róscio (Francisco João)",
+    "fl": "R",
+    "original_title": "Róscio (Francisco João)",
+    "body": "Wir wissen von diesem Madeirer durch das, was Sousa Viterbo ausführlich über ihn auf den Seiten 477 ff. des \"Diccionario Historico e Documental dos Architectos, Engenheiros e Construtores Portugueses\" sagt. Francisco Róscio wurde auf dieser Insel um 1740 geboren und war der Sohn von Manuel Gonçalves Róscio, gebürtig aus Teneriffa, und Maria da Graça Rodrigues Jardim, gebürtig aus der Gemeinde Arco da Calheta. Er studierte an der Militärakademie in Lissabon und wurde 1762 zum Infanterieadjutanten ernannt. Anschließend diente er als Militäringenieur in den Garnisonen von Almeida und Elvas. Durch seine bemerkenswerte Kompetenz, für die er vom angesehenen Ingenieur Jacques Funk gelobt wurde, der extra aus dem Ausland gekommen war, um die Arbeiten an unseren Befestigungen zu leiten, machte er auf sich aufmerksam. Róscio war später Teil einer Kommission von Ingenieuren, die nach Brasilien geschickt wurden, wo er ebenfalls seine Aktivität und sein Wissen unter Beweis stellte. Nach 12 Jahren Abwesenheit kehrte er nach Portugal zurück, um erneut nach Brasilien zu reisen, um dort die wichtige Mission als Kommissar für die Demarkation im Süden Brasiliens zu übernehmen, die er trotz der enormen Schwierigkeiten, die damals auftraten, mit größtem Eifer und Kompetenz ausführte. Seine Energie und seltene Geschicklichkeit manifestierten sich in São Pedro do Sul brillant, als Gouverneur dieses Staates angesichts der Drohungen des spanischen Gouverneurs Marquis de Sobremontes, der den Einmarsch seiner Truppen verhinderte und später Frieden schloss, wodurch er für Portugal etwa 200 Quadratmeilen Land gewann. Er starb in Brasilien am 10. Oktober 1805 nach einem sehr bewegten Leben voller Arbeit, in dem er seinem Land die bedeutendsten Dienste geleistet hatte. Er hinterließ zwei handschriftliche Werke, die sich vor allem mit seinen wissenschaftlichen Arbeiten und den Kommissionen befassen, die er ausgeführt hatte, über die Sousa Viterbo ausführliche Informationen gibt.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Teneriffa": [
+            "Geburtsort von Manuel Gonçalves Róscio"
+        ],
+        "Lissabon": [
+            "Studium an der Militärakademie"
+        ],
+        "Almeida": [
+            "Diente als Militäringenieur"
+        ],
+        "Elvas": [
+            "Diente als Militäringenieur"
+        ],
+        "Brasilien": [
+            "Mitglied einer Ingenieurkommission, die nach Brasilien geschickt wurde; später erneut in Brasilien als Kommissar tätig"
+        ]
+    },
+    "people": {
+        "Manuel Gonçalves Róscio": [
+            "Aus Teneriffa"
+        ],
+        "Maria da Graça Rodrigues Jardim": [
+            "Aus der Gemeinde Arco da Calheta"
+        ],
+        "Jacques Funk": [
+            "Angesehener Ingenieur"
+        ]
+    },
+    "years": {
+        "1740": [
+            "Geburtsjahr"
+        ],
+        "1762": [
+            "Ernennung zum Infanterieadjutanten"
+        ],
+        "1805": [
+            "Todesjahr"
+        ]
+    }
+}

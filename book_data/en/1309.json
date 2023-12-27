@@ -1,0 +1,30 @@
+{
+    "id": 1309,
+    "lang": "en",
+    "is_original": false,
+    "title": "Faial",
+    "fl": "F",
+    "original_title": "Faial",
+    "body": "Site of the parish of Santa Maria Maior, where the chapel of Nossa Senhora da Natividade is located, known by the name of Faial Chapel, founded by Zenobio Acciaioli in 1582 and which was the seat of an ancient estate.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Faial": [
+            "Site of the parish of Santa Maria Maior"
+        ]
+    },
+    "people": {
+        "Zenobio Acciaioli": [
+            "Founder of the chapel of Nossa Senhora da Natividade"
+        ]
+    },
+    "years": {
+        "1582": [
+            "Foundation of the chapel of Nossa Senhora da Natividade"
+        ]
+    }
+}

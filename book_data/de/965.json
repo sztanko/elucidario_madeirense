@@ -1,0 +1,34 @@
+{
+    "id": 965,
+    "lang": "de",
+    "is_original": false,
+    "title": "Conceição",
+    "fl": "C",
+    "original_title": "Conceição",
+    "body": "Ort der Gemeinde Estreito da Calheta, wo sich eine Kapelle befindet, die Nossa Senhora da Conceição gewidmet ist. Sie wurde 1673 von André de França e Andrade erbaut und war Sitz eines der größten Majorate Madeiras. Der letzte Vertreter dieses an das Haus gebundenen Geschlechts war Diogo de Ornelas de França Carvalhal Frasão Figueiroa, 11. Viscount und Graf von Calçada. (Siehe diesen Namen).",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Ort der Gemeinde"
+        ]
+    },
+    "people": {
+        "André de França e Andrade": [
+            "Erbauer der Kapelle"
+        ],
+        "Diogo de Ornelas de França Carvalhal Frasão Figueiroa": [
+            "Letzter Vertreter des an das Haus gebundenen Geschlechts, 11. Viscount und Graf von Calçada"
+        ]
+    },
+    "years": {
+        "1673": [
+            "Bau der Kapelle Nossa Senhora da Conceição"
+        ]
+    }
+}

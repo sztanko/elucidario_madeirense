@@ -1,0 +1,34 @@
+{
+    "id": 2261,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mendes (Coelho)",
+    "fl": "M",
+    "original_title": "Mendes (Coelho)",
+    "body": "About forty years ago, a man with the surname Coelho Mendes, from the Azores, lived in Funchal. In this city, around 1885, he published a volume of poetry titled 'Flores Agrestes', and also published a small pamphlet in a controversy he sustained with the canon Aires Pacheco. Under the title 'Flores Agrestes', João Fortunato de Oliveira had already published a volume of poetry in Funchal in the year 1860, and many years later, in 1903, Manuel Ribeiro also published a small volume of verses with the same title.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City on the island of Madeira"
+        ]
+    },
+    "people": {
+        "Aires Pacheco": [
+            "Canon"
+        ]
+    },
+    "years": {
+        "1885": [
+            "Publication of the volume of poetry 'Flores Agrestes' by Coelho Mendes"
+        ],
+        "1860": [
+            "Publication of the volume of poetry by João Fortunato de Oliveira"
+        ],
+        "1903": [
+            "Publication of the volume of verses by Manuel Ribeiro"
+        ]
+    }
+}

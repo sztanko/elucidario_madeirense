@@ -1,0 +1,49 @@
+{
+    "id": 172,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alqueire",
+    "fl": "A",
+    "original_title": "Alqueire",
+    "body": "| Municipality      | Capacity, liters |\n|------------------|--------------------|\n| Calheta          | 13,712             |\n| Câmara de Lobos  | 14,078             |\n| Funchal          | 13,865             |\n| Machico          | 13,912             |\n| Ponta do Sol     | 13,756             |\n| Porto do Moniz   | 13,861             |\n| Porto Santo      | 13,883             |\n| Sant'Ana         | 13,973             |\n| Santa Cruz       | 13,776             |\n| S. Vicente       | 13,917             |\n\nToday, the most common average is 13.8.",
+    "categories": [
+        "economy",
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Alqueire capacity is 13,712 liters"
+        ],
+        "Câmara de Lobos": [
+            "Alqueire capacity is 14,078 liters"
+        ],
+        "Funchal": [
+            "Alqueire capacity is 13,865 liters"
+        ],
+        "Machico": [
+            "Alqueire capacity is 13,912 liters"
+        ],
+        "Ponta do Sol": [
+            "Alqueire capacity is 13,756 liters"
+        ],
+        "Porto do Moniz": [
+            "Alqueire capacity is 13,861 liters"
+        ],
+        "Porto Santo": [
+            "Alqueire capacity is 13,883 liters"
+        ],
+        "Sant'Ana": [
+            "Alqueire capacity is 13,973 liters"
+        ],
+        "Santa Cruz": [
+            "Alqueire capacity is 13,776 liters"
+        ],
+        "S. Vicente": [
+            "Alqueire capacity is 13,917 liters"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

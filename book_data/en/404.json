@@ -1,0 +1,38 @@
+{
+    "id": 404,
+    "lang": "en",
+    "is_original": false,
+    "title": "Banks. (José)",
+    "fl": "B",
+    "original_title": "Banks. (José)",
+    "body": "Distinguished English botanist who passed away in London at the age of 80 on May 19, 1820. He was in Madeira from September 12 to 18, 1768, as the botanist of the first expedition led by Captain Cook, taking a large number of flowering plants from this island, as well as various information regarding natural history subjects. From Banks' manuscripts, it is seen that he and his companion Dr. Solander collected 255 species in Madeira, despite the season not being the most suitable for botanical explorations. The small herbarium of the two naturalists is deposited in the Museum.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "London": [
+            "Location of José Banks' passing"
+        ]
+    },
+    "people": {
+        "José Banks": [
+            "English botanist"
+        ],
+        "Captain Cook": [
+            "Expedition leader"
+        ],
+        "Dr. Solander": [
+            "Companion of José Banks"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Visit of José Banks to Madeira"
+        ],
+        "1820": [
+            "Passing of José Banks"
+        ]
+    }
+}

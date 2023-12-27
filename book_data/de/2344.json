@@ -1,0 +1,29 @@
+{
+    "id": 2344,
+    "lang": "de",
+    "is_original": false,
+    "title": "Monteiro (Rua do)",
+    "fl": "M",
+    "original_title": "Monteiro (Rua do)",
+    "body": "Dies ist eine kleine Straße, die von der Rua da Cadeia Velha gegenüber der Einmündung der Rua dos Medinas abzweigt und an der Rua \"31 de Janeiro\" am linken Ufer des Baches Ribeira de Santa Luzia endet. Sie verläuft fast parallel zur Rua do Phelps. Dort wohnten einige Mitglieder der alten Familie Monteiro, die der kleinen Straße ihren Namen gaben.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cadeia Velha": [
+            "Straße"
+        ],
+        "Medinas": [
+            "Straße"
+        ],
+        "31 de Janeiro": [
+            "Straße"
+        ],
+        "Santa Luzia": [
+            "Bach"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

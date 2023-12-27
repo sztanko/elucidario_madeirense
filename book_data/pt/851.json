@@ -1,0 +1,49 @@
+{
+    "id": 851,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cemitério Britânico",
+    "fl": "C",
+    "original_title": "Cemitério Britânico",
+    "body": "O primitivo cemiterio britanico ficava no local onde está agora o Largo do Conde do Ribeiro Real, ao fim da Rua 5 de Junho. A portaria concedendo aos subditos inglêses a necessaria licença para construírem um cemiterio para sepultura dos seus mortos, tem a data de 3 de Janeiro de 1761, mas só a 10 de Setembro de 1767 é que foi adquirido o terreno destinado a esse fim. Antes da construção do referido cemiterio, eram lançados ao mar os cadaveres dos estrangeiros não catolicos, falecidos no Funchal.\n\nO actual cemiterio britanico foi construído em 1808 e acrescentado em 1852 e 1889. A parte mais antiga deste cemiterio, foi adquirida para enterramento dos soldados inglêses falecidos no Funchal, enquanto a Madeira esteve ocupada por tropas britanicas, ao passo que a parte mais moderna só principiou a ser utilizada quando a Camara Municipal do Funchal teve necessidade de demolir o primitivo cemiterio, para fazer comunicar a Rua 5 de Junho com a da Carreira. A cedencia deste ultimo cemiterio por parte dos administradores da Capela e Cemiterio Britanicos, fez-se em Agôsto de 1888, tendo-se obrigado a Camara a empregar as necessarias diligencias para facilitar a remoção dos restos mortais existentes naquele recinto para um terreno contiguo ao cemiterio actual, terreno que os mesmos administradores não tinham até então podido aplicar ao alargamento do mesmo cemiterio por falta das necessarias licenças. O ultimo enterramento no cemiterio onde está hoje o Largo do Conde do Ribeiro Real, fêz-se em Julho de 1885.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Largo do Conde do Ribeiro Real": [
+            "Local do primitivo cemiterio britanico"
+        ],
+        "Rua 5 de Junho": [
+            "Local do primitivo cemiterio britanico"
+        ],
+        "Carreira": [
+            "Local da parte mais moderna do cemiterio britanico"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1761": [
+            "Portaria concedendo licença para construção do cemiterio"
+        ],
+        "1767": [
+            "Aquisição do terreno"
+        ],
+        "1808": [
+            "Construção do cemiterio"
+        ],
+        "1852": [
+            "Acrescento ao cemiterio"
+        ],
+        "1889": [
+            "Acrescento ao cemiterio"
+        ],
+        "1888": [
+            "Cedencia do cemiterio atual"
+        ],
+        "1885": [
+            "Ultimo enterramento no cemiterio primitivo"
+        ]
+    }
+}

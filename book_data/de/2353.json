@@ -1,0 +1,28 @@
+{
+    "id": 2353,
+    "lang": "de",
+    "is_original": false,
+    "title": "Montluc (Pedro Beltrão de)",
+    "fl": "M",
+    "original_title": "Montluc (Pedro Beltrão de)",
+    "body": "Kommandant der Korsaren, die 1566 die Stadt Funchal plünderten und der hier aufgrund einer Knieverletzung starb. Siehe Plünderung der Franzosen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort der Plünderung"
+        ]
+    },
+    "people": {
+        "Pedro Beltrão de Montluc": [
+            "Kommandant der Korsaren"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Plünderung der Stadt Funchal"
+        ]
+    }
+}

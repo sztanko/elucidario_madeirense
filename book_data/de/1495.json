@@ -1,0 +1,30 @@
+{
+    "id": 1495,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fritze (R.)",
+    "fl": "F",
+    "original_title": "Fritze (R.)",
+    "body": "Deutscher Botaniker, der 1879 und 1880 auf Madeira botanisierte. Veröffentlichung: Ueber die Farnvegetation der Insel Madeira (Jahresbericht der schlesischen Ges. fur vaterl. Kultur, (1881)).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel, auf der er botanisierte."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1879": [
+            "Jahr der Botanisierung"
+        ],
+        "1880": [
+            "Jahr der Botanisierung"
+        ],
+        "1881": [
+            "Jahr der Veröffentlichung des Berichts"
+        ]
+    }
+}

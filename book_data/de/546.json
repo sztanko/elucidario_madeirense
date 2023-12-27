@@ -1,0 +1,35 @@
+{
+    "id": 546,
+    "lang": "de",
+    "is_original": false,
+    "title": "Botelho (Alberto de Sousa)",
+    "fl": "B",
+    "original_title": "Botelho (Alberto de Sousa)",
+    "body": "Er vertrat diesen Archipel in den Parlamentsitzungen der Jahre 1901 sowie 1902 bis 1904.\n\nEr war Artillerieoffizier und Dozent an der ehemaligen Heeres-Akademie.\n\nEr starb am 28. Dezember 1903 in Funchal.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort des Ablebens"
+        ]
+    },
+    "people": {
+        "Alberto de Sousa Botelho": [
+            "Vertreter des Archipels im Parlament"
+        ]
+    },
+    "years": {
+        "1901": [
+            "Teilnahme an den Parlamentsitzungen"
+        ],
+        "1902": [
+            "Teilnahme an den Parlamentsitzungen"
+        ],
+        "1903": [
+            "Tod"
+        ]
+    }
+}

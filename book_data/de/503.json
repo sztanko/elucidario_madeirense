@@ -1,0 +1,26 @@
+{
+    "id": 503,
+    "lang": "de",
+    "is_original": false,
+    "title": "Boaventura (Hafen von)",
+    "fl": "B",
+    "original_title": "Boaventura (Porto da)",
+    "body": "An der Mündung des Baches Porco oder Boaventura gibt es einen felsigen Strand, der an den gleichnamigen kleinen Hafen grenzt. Er liegt in der Nähe von Ponta Delgada, weniger als eine Meile entfernt.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Ponta Delgada"
+    ],
+    "locations": {
+        "Boaventura": [
+            "Ort, an dem sich der Hafen von Boaventura befindet"
+        ],
+        "Ponta Delgada": [
+            "Ort in der Nähe des Hafens von Boaventura"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

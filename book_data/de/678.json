@@ -1,0 +1,39 @@
+{
+    "id": 678,
+    "lang": "de",
+    "is_original": false,
+    "title": "Câmara (D. José Manuel da)",
+    "fl": "C",
+    "original_title": "Câmara (D. José Manuel da)",
+    "body": "Am 8. Mai 1800 wurde er zum Gouverneur und Generalkapitän dieses Archipels ernannt und trat sein Amt am 4. Dezember desselben Jahres an. Während seiner Amtszeit ereigneten sich zwei wichtige Ereignisse: die Besetzung dieser Insel durch britische Truppen (siehe Besetzung Madeiras durch englische Truppen) und die schreckliche Flut vom 9. Oktober 1803 (siehe Überschwemmungen). Er hatte Auseinandersetzungen mit Prälat D. Luiz Rodrigues de Vilares, den er in die Gemeinde Santo da Serra verbannte (siehe entsprechenden Artikel). Unter den Anschuldigungen gegen den Bischof ist hervorzuheben, dass er ein Freimaurer war und häufige Zusammenkünfte mit verschiedenen Mitgliedern geheimer Gesellschaften hatte. Der Prälat und der Gouverneur wurden nach Lissabon gerufen, D. José Manuel da Câmara wurde entlassen und D. Luiz Rodrigues de Vilares blieb im Amt. Der Richter Dr. Joaquim Antonio de Araujo kam nach Madeira, um die Handlungen des Gouverneurs zu untersuchen. Er verließ Madeira am 10. Dezember 1803, zu der Zeit war bereits sein Nachfolger Ascenso de Sequeira Freire auf der Insel angekommen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Verbannte ihn in die Gemeinde"
+        ]
+    },
+    "people": {
+        "D. Luiz Rodrigues de Vilares": [
+            "Prälat"
+        ],
+        "D. José Manuel da Câmara": [
+            "Gouverneur"
+        ],
+        "Joaquim Antonio de Araujo": [
+            "Richter"
+        ]
+    },
+    "years": {
+        "1800": [
+            "Zum Gouverneur und Generalkapitän ernannt"
+        ],
+        "1803": [
+            "Schreckliche Flut"
+        ]
+    }
+}

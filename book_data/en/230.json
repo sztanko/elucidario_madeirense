@@ -1,0 +1,27 @@
+{
+    "id": 230,
+    "lang": "en",
+    "is_original": false,
+    "title": "Antozoarios",
+    "fl": "A",
+    "original_title": "Antozoarios",
+    "body": "The following authors have studied these marine animals, also known as corallians: James Yate Johnson, who, among other works, wrote: 'Notes of the Sea-Anemones of Madeira, With Descriptions of New Species' (Proceedings of the Zoological Society of London, 1861); 'Description of a Second Species of Acanthagorgia from Madeira' (Idem, 1861); 'Descriptions of some New Corals from Madeira' (Idem, 1862); 'Description of Two Corals from Madeira, belonging to the genera Trimnoa and Mopsea' (Idem, 1862); 'Description of a New Species of Flexible Coral belonging to the Genus Juncella obtained at Madeira' (Idem, 1863); 'Notes on the Coralliidae of Madeira, With Descriptions of two new Species' (Idem, 1899). J. E. Gray published: 'Notice of a Second Species of Paragorgia discovered in Madeira by James Yate Johnson' (Annals and Magazine of Natural History, 1862). P. Martin Duncan wrote: 'On some recent Corals from Madeira' (Proceedings of the Zoological Society of London, 1882).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "James Yate Johnson": [
+            "Researcher and author of several works on sea anemones in Madeira."
+        ]
+    },
+    "years": {
+        "1861": [
+            "Publication of 'Notes of the Sea-Anemones of Madeira' by James Yate Johnson"
+        ],
+        "1862": [
+            "Publication of 'Descriptions of some New Corals from Madeira' by James Yate Johnson"
+        ]
+    }
+}

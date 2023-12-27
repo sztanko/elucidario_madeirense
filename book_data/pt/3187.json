@@ -1,0 +1,33 @@
+{
+    "id": 3187,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santa Cruz (Enseada, Porto, Cais e Ribeira de)",
+    "fl": "S",
+    "original_title": "Santa Cruz (Enseada, Porto, Cais e Ribeira de)",
+    "body": "O porto de Santa Cruz é formado por uma enseada de relativa extensão, que Frutuoso chamou uma «formosa angra», sendo em parte ladeada por uma praia pedregosa, onde se torna fácil, com tempo bonançoso, o acesso de barcos de pequena lotação. No ponto da baía em que, junto à costa, se encontra uma restinga, foi esta aproveitada para a construção dum pequeno desembarcadouro, que se fez no ano de 1845, tendo sido melhorado em 1870. O cais actual, de mais amplas proporções e em melhores condições de servir o movimento do porto, foi mandado construir pela Junta Geral do Distrito no ano de 1908-1909, tendo sido aproveitados os trabalhos que já anteriormente tinham sido realizados. A vila de Santa Cruz é atravessada pela ribeira do mesmo nome, que tem sua origem na freguesia do Santo da Serra e desemboca no oceano.",
+    "categories": [
+        "geography",
+        "transport"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Localidade com porto, cais e ribeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Ano de construção do pequeno desembarcadouro"
+        ],
+        "1870": [
+            "Ano de melhoria do desembarcadouro"
+        ],
+        "1908-1909": [
+            "Ano de construção do cais atual"
+        ]
+    }
+}

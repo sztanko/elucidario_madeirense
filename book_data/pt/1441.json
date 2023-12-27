@@ -1,0 +1,30 @@
+{
+    "id": 1441,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte de S. Felipe da Praça",
+    "fl": "F",
+    "original_title": "Forte de S. Felipe da Praça",
+    "body": "Mandado construir pelo bispo governador D. Jerónimo Fernando, em 1628, entre as fozes da Ribeira de João Gomes e de Santa Luzia e ao sul do Pelourinho, no local onde existiu um grande til cuja madeira foi empregada numa nau de guerra castelhana. Em 1754 era condestavel o capitão Roque João Acciaioly. Vendido pelo Ministério da Guerra, deu lugar a um grande armazém.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Jerónimo Fernando": [
+            "Mandou construir o Forte de S. Felipe da Praça"
+        ],
+        "Capitão Roque João Acciaioly": [
+            "Era condestavel do Forte de S. Felipe da Praça em 1754"
+        ]
+    },
+    "years": {
+        "1628": [
+            "Forte de S. Felipe da Praça foi mandado construir pelo bispo governador D. Jerónimo Fernando"
+        ],
+        "1754": [
+            "Capitão Roque João Acciaioly era condestavel do Forte de S. Felipe da Praça"
+        ]
+    }
+}

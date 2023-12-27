@@ -1,0 +1,30 @@
+{
+    "id": 3175,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santana (Município de)",
+    "fl": "S",
+    "original_title": "Santana (Município de)",
+    "body": "The municipality of Santana has its headquarters in the parish of the same name and was established in 1835. The municipalities of Câmara de Lobos, Santa Cruz, Porto do Moniz, and Santana were abolished by the decree of December 10, 1867, but this decree was not fully implemented because those municipalities were restored shortly after. The municipality of Santana was composed, since its creation, of the parishes of Arco de São Jorge, São Jorge, Santana, Faial, São Roque, and Porto da Cruz, but the parish of Porto da Cruz was detached from it by decree of October 19, 1852, and then became part of the municipality of Machico.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "Arco de São Jorge",
+        "São Jorge",
+        "Faial",
+        "São Roque"
+    ],
+    "locations": {
+        "Santana": [
+            "Headquarters of the municipality"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1835": [
+            "Installation of the municipality"
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 2422,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nascimento (João Cabral do)",
+    "fl": "N",
+    "original_title": "Nascimento (João Cabral do)",
+    "body": "Geboren in Funchal am 22. März 1897 als Sohn von João Crawford do Nascimento und Palmira Cabral do Nascimento. Er besuchte das Gymnasium dieser Stadt und schloss 1922 sein Jurastudium an der Universität Coimbra ab. Schon früh zeigte er eine ausgeprägte Neigung zur Literatur und profilierte sich besonders als Dichter. Er veröffentlichte folgende Gedichtbände:\n\n> As tres Princesas mortas \n> num Pa-Idovo em rulna», 1916,\n> Além-Mar, 1917,\n> Hora de Noa, 1917. \n\nEr arbeitete bei verschiedenen Zeitungen und Zeitschriften mit und war Redakteur der Restauraçãoo in Coimbra (1921). Nach der Gründung des Distriktarchivs 1931 wurde Dr. Cabral do Nascimento zu dessen erstem Direktor ernannt. Bald darauf gab er die Zeitschrift „Arquivo Histórico da Madeira“ heraus, zu der er der wichtigste Mitarbeiter war und von der bereits sechs Bände erschienen sind. Neben dem Genannten veröffentlichte er folgende Gedichtbände: „Alguns Sonetos“, 1924, „Descaminho“, 1926, „Arrabalde“, 1928 und „Cancionelro“, 1943 sowie folgende Prosawerke: „Documentos para a histórla das Capitanias da Madeira“, 1930, „Genealogia da Familia Medina da Ilha da Madeira“, 1930 und „Apontamentos de História Insular“, 1927.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Crawford do Nascimento": [
+            "Vater von João Cabral do Nascimento"
+        ],
+        "D. Palmira Cabral do Nascimento": [
+            "Mutter von João Cabral do Nascimento"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Geburt von João Cabral do Nascimento"
+        ],
+        "1922": [
+            "Abschluss des Jurastudiums an der Universität Coimbra"
+        ],
+        "1916": [
+            "Veröffentlichung des Gedichtbandes 'As tres Princesas mortas'"
+        ],
+        "1917": [
+            "Veröffentlichung der Gedichtbände 'Além-Mar' und 'Hora de Noa'"
+        ],
+        "1921": [
+            "Redakteur der Restauraçãoo in Coimbra"
+        ],
+        "1931": [
+            "Gründung des Distriktarchivs"
+        ]
+    }
+}

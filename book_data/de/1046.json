@@ -1,0 +1,24 @@
+{
+    "id": 1046,
+    "lang": "de",
+    "is_original": false,
+    "title": "Costa de Cima",
+    "fl": "C",
+    "original_title": "Costa de Cima",
+    "body": "So wird die Südküste Madeiras östlich von Funchal bezeichnet, mit Ausnahme der Gemeinde Porto da Cruz an der Nordküste.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Machico",
+        "Pôrto da Cruz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Bezugspunkt"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

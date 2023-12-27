@@ -1,0 +1,43 @@
+{
+    "id": 2801,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pinto Coelho (Frederico)",
+    "fl": "P",
+    "original_title": "Pinto Coelho (Frederico)",
+    "body": "Era filho de Joaquim Pinto Coelho e de D. Maria Carlota de Ornelas Linhares Pinto Coelho, e nasceu no Funchal a 28 de Maio de 1851. Foi amanuense da Administração do Concelho do Funchal e secretario da Administração do Concelho de Evora, tendo depois de se aposentar neste ultimo cargo voltado á Madeira, onde desempenhou por algum tempo o cargo de administrador do concelho de Camara de Lobos. Foi redactor e colaborador de diversos jornais madeirenses, e em 1881 publicou no Funchal um opusculo de 40 pag. intitulado Sudario Negro, que é uma diatribe contra o prelado D. Manuel Agostinho Barreto. A êle respondeu o padre Antonio Aires Pacheco com o folheto O Sudario Negro no banco dos réus. Faleceu no Funchal a 2 de Janeiro de 1916.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Evora",
+        "Camara de Lobos"
+    ],
+    "locations": {},
+    "people": {
+        "Joaquim Pinto Coelho": [
+            "Pai de Frederico Pinto Coelho"
+        ],
+        "D. Maria Carlota de Ornelas Linhares Pinto Coelho": [
+            "Mãe de Frederico Pinto Coelho"
+        ],
+        "Frederico Pinto Coelho": [
+            "Filho de Joaquim Pinto Coelho e D. Maria Carlota de Ornelas Linhares Pinto Coelho"
+        ],
+        "D. Manuel Agostinho Barreto": [
+            "Prelado"
+        ]
+    },
+    "years": {
+        "1851": [
+            "Nascimento de Frederico Pinto Coelho"
+        ],
+        "1881": [
+            "Publicação do opusculo Sudario Negro"
+        ],
+        "1916": [
+            "Falecimento de Frederico Pinto Coelho"
+        ]
+    }
+}

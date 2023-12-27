@@ -1,0 +1,23 @@
+{
+    "id": 3066,
+    "lang": "de",
+    "is_original": false,
+    "title": "Literarische Zeitschrift",
+    "fl": "L",
+    "original_title": "Revista literária",
+    "body": "Die erste Ausgabe dieser Zeitschrift wurde am 23. November 1902 veröffentlicht und die zehnte, die auch die letzte war, am 15. Februar 1903.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1902": [
+            "Veröffentlichung der ersten Ausgabe der literarischen Zeitschrift"
+        ],
+        "1903": [
+            "Veröffentlichung der letzten Ausgabe der literarischen Zeitschrift"
+        ]
+    }
+}

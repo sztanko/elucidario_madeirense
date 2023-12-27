@@ -1,0 +1,36 @@
+{
+    "id": 2011,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "Sítio da freguesia da Ponta do Sol, em que se encontra uma capela dedicada a Nossa Senhora do mesmo nome e mandada construir por Diogo Ferreira de Mesquita e sua mulher D. Isabel de Meneses, no ano de 1656, sede dum morgadio por eles instituído, sendo descendentes do fidalgo alemão Adriano Spranger, que por ali possuía terras de sesmaria.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Freguesia onde se encontra o sítio do Livramento."
+        ]
+    },
+    "people": {
+        "Diogo Ferreira de Mesquita": [
+            "Fundador da capela dedicada a Nossa Senhora do Livramento."
+        ],
+        "D. Isabel de Meneses": [
+            "Esposa de Diogo Ferreira de Mesquita."
+        ],
+        "Adriano Spranger": [
+            "Fidalgo alemão descendente dos fundadores do morgadio."
+        ]
+    },
+    "years": {
+        "1656": [
+            "Ano de construção da capela dedicada a Nossa Senhora do Livramento."
+        ]
+    }
+}

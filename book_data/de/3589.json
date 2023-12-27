@@ -1,0 +1,26 @@
+{
+    "id": 3589,
+    "lang": "de",
+    "is_original": false,
+    "title": "Winde",
+    "fl": "W",
+    "original_title": "Ventos",
+    "body": "Intensität und prozentuale Häufigkeit der Winde an der Ponta de São Lourenço. Aus einer Studie des hervorragenden Marineoffiziers C. Pinto Basto Carreiro haben wir die folgenden interessanten Daten extrahiert:\n\nBrisen Mäßige Starke Stürmische\n\nN 1% 85% 12% 2%\nNNE - 70% 30% -\nNE 0,8% 84% 15% 0,2%\nENE - 75% 25% -\nE - 89% 11% -\nESE - 83% 17% -\nSE - 86% 13.6% -\nSSE - 54.5% 45.5% -\nS - 74% 23% 3%\nSSW - 30% 66% 4%\nSW - 46% 50% 46%\nWSW -\nW - 76% 23% 1%\nWNW -\n78% 22% -\nNW - 85% 14% 1%\nNNW - 76% 22% 2%\n\nPassatwinde nennt man die ganzjährig regelmäßig aus einer und der anderen Richtung in Äquatornähe wehenden Winde, die auf der Nordhalbkugel aus Nordost und auf der Südhalbkugel aus Südost kommen.\n\nIm Nordatlantik machen sich die Passatwinde deutlich bis zur Insel Madeira bemerkbar, manchmal sogar südlich der iberischen Halbinsel. Sie wehen ziemlich regelmäßig bis nahe an den Äquator. \n\nZwischen den Passatwinden der Nord- und der Südhalbkugel liegt die Zone der äquatorialen Windstillen. In den höheren Luftschichten wehen oberhalb der Passatwinde Gegenpassatwinde in umgekehrter Richtung.\n\nPROZENTUALE VERTEILUNG DER IN S. LOURENÇO IN DEN JAHREN 1930, 1931 UND 1932 BEOBACHTETEN WINDE\n\nAus der Grafik der in São Lourenço beobachteten Windhäufigkeiten ist ersichtlich, dass die vorherrschenden Winde aus Norden, Nordosten und Nordwesten kommen. Am seltensten treten Winde aus Ost-Südosten, Süd-Südosten, West-Südwesten und West-Nordwesten auf. Die Winde werden in São Lourenço und nicht in Funchal beobachtet, da die Winde in der Bucht nicht repräsentativ sind, es sei denn, sie kommen aus südlichen Richtungen. Aus südlichen Richtungen sind Südwest- und Südostwinde am häufigsten.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1930": [
+            "Beobachtung des Diagramms der in São Lourenço beobachteten Windhäufigkeiten"
+        ],
+        "1931": [
+            "Beobachtung des Diagramms der in São Lourenço beobachteten Windhäufigkeiten"
+        ],
+        "1932": [
+            "Beobachtung des Diagramms der in São Lourenço beobachteten Windhäufigkeiten"
+        ]
+    }
+}

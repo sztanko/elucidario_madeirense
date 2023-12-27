@@ -1,0 +1,30 @@
+{
+    "id": 706,
+    "lang": "de",
+    "is_original": false,
+    "title": "Regionale Landwirtschaftskammer",
+    "fl": "R",
+    "original_title": "Camara Regional de Agricultura",
+    "body": "Sie wurde durch Artikel 145 des Gesetzes vom 9. Juli 1913 geschaffen und im Zuge der Reorganisation der landwirtschaftlichen Dienste im Mai 1918 wieder aufgelöst. Ihre erste Sitzung (die Gründungssitzung) fand am 16. Februar 1914 statt, die letzte am 16. Juni 1917.",
+    "categories": [
+        "politics",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1913": [
+            "Gründung"
+        ],
+        "1918": [
+            "Auflösung"
+        ],
+        "16. Februar 1914": [
+            "Erste Sitzung (Gründungssitzung)"
+        ],
+        "16. Juni 1917": [
+            "Letzte Sitzung"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 1017,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Correia",
+    "fl": "C",
+    "original_title": "Correia",
+    "body": "Já consagrámos um pequeno artigo a João Afonso, companheiro de Zarco, que nesta ilha foi tronco duma nobre e distinta familia. Também teve o apelido de Correia, que transmitiu aos seus descendentes, e foram estes os primeiros que o usaram nesta ilha. Teve João Afonso um filho por nome Antonio Correia, que nasceu na Madeira em 1457 e que varios linhagistas afirmam ter morrido en 1572, contando aproximadamente 115 anos. Foi este Antonio Correia um esforçado cavaleiro que militou valorosamente em Africa, principalmente em Arzila e Safim, tendo ali mantido á sua custa um numero avultado de homens e cavalos. A ele se referem com alevantado elogio as antigas cronicas madeirenses.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Afonso": [
+            "Companheiro de Zarco"
+        ],
+        "Antonio Correia": [
+            "Esforçado cavaleiro que militou valorosamente em Africa, principalmente em Arzila e Safim"
+        ]
+    },
+    "years": {
+        "1457": [
+            "Nascimento de Antonio Correia"
+        ],
+        "1572": [
+            "Morte de Antonio Correia"
+        ]
+    }
+}

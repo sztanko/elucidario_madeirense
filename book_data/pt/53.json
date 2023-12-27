@@ -1,0 +1,29 @@
+{
+    "id": 53,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Administradores do Concelho",
+    "fl": "A",
+    "original_title": "Administradores do Concelho",
+    "body": "Os primeiros administradores do concelho foram nomeados em 1835, mas antes deles houve os provedores, que desempenhavam funções idênticas às dos administradores. O primeiro provedor do concelho do Funchal foi Januário Cardoso de Melo, que tomou posse do lugar em 16 de Agosto de 1834.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Januário Cardoso de Melo": [
+            "Primeiro provedor do concelho do Funchal"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Nomeação dos primeiros administradores do concelho"
+        ],
+        "1834": [
+            "Posse de Januário Cardoso de Melo como provedor do concelho do Funchal"
+        ]
+    }
+}

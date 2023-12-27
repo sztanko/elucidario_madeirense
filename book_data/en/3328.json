@@ -1,0 +1,37 @@
+{
+    "id": 3328,
+    "lang": "en",
+    "is_original": false,
+    "title": "Silva",
+    "fl": "S",
+    "original_title": "Silva",
+    "body": "A noble family name. Gonçalo Denis da Silva founded the chapel of Almas Pobres in Santa Maria Maior, shortly after the foundation of the chapel of S. Paulo, and Jordão de Freitas da Silva, who lived in Santa Cruz in the year 1618, was the grandson of Jordão de Freitas, from the house of Infante D. Diogo, Duke of Viseu.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Location of the chapel founded by Gonçalo Denis da Silva"
+        ],
+        "Santa Cruz": [
+            "Residence of Jordão de Freitas da Silva"
+        ]
+    },
+    "people": {
+        "Gonçalo Denis da Silva": [
+            "Founder of the chapel of Almas Pobres"
+        ],
+        "Jordão de Freitas da Silva": [
+            "Grandson of Jordão de Freitas, from the house of Infante D. Diogo, Duke of Viseu"
+        ]
+    },
+    "years": {
+        "1618": [
+            "Year of residence of Jordão de Freitas da Silva in Santa Cruz"
+        ]
+    }
+}

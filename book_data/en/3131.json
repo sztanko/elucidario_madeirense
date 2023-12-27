@@ -1,0 +1,54 @@
+{
+    "id": 3131,
+    "lang": "en",
+    "is_original": false,
+    "title": "Róscio (Francisco João)",
+    "fl": "R",
+    "original_title": "Róscio (Francisco João)",
+    "body": "We have knowledge of this Madeiran from the extensive account provided by Sousa Viterbo, on pages 477 and following in the *Diccionario Historico e Documental dos Architectos, Engenheiros e Construtores Portugueses*. Francisco Róscio was born on this island around 1740, the son of Manuel Gonçalves Róscio, a native of Tenerife, and Maria da Graça Rodrigues Jardim, from the parish of Arco da Calheta. He attended the Military Academy in Lisbon and in 1762 was appointed as an infantry aide. He then served as a military engineer in the garrisons of Alméida and Elvas, demonstrating remarkable competence and earning praise from the distinguished engineer Jacques Funk, who had come from abroad specifically to oversee the construction of our fortifications. Róscio later became part of a commission of engineers sent to Brazil, where he also demonstrated his activity and knowledge. After 12 years of absence, he returned to Portugal and then went back to Brazil to carry out the important mission of commissioner for the demarcations of southern Brazil, which he performed with great zeal and competence despite the enormous difficulties that arose. His energy and rare skill were brilliantly demonstrated in São Pedro do Sul, where he served as governor of this state, facing the threats of the Spanish governor Marquês de Sobremontes, preventing the invasion of his troops and later establishing peace, thereby gaining for Portugal an area of about two hundred square leagues. He died in Brazil on October 10, 1805, after a very eventful and laborious life, rendering the most remarkable services to his country. He left behind two handwritten works that especially deal with his scientific work and the commissions he carried out, about which Sousa Viterbo provides detailed information.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Tenerife": [
+            "Native of Tenerife"
+        ],
+        "Lisbon": [
+            "Attended the Military Academy in Lisbon"
+        ],
+        "Alméida": [
+            "Served as a military engineer in the garrisons of Alméida"
+        ],
+        "Elvas": [
+            "Served as a military engineer in the garrisons of Elvas"
+        ],
+        "Brazil": [
+            "Became part of a commission of engineers sent to Brazil and also demonstrated his activity and knowledge there. After 12 years of absence, he returned to Portugal and then went back to Brazil to carry out the important mission of commissioner for the demarcations of southern Brazil"
+        ]
+    },
+    "people": {
+        "Manuel Gonçalves Róscio": [
+            "Native of Tenerife"
+        ],
+        "Maria da Graça Rodrigues Jardim": [
+            "From the parish of Arco da Calheta"
+        ],
+        "Jacques Funk": [
+            "Distinguished engineer Jacques Funk"
+        ]
+    },
+    "years": {
+        "1740": [
+            "Francisco Róscio was born on this island around 1740"
+        ],
+        "1762": [
+            "Appointed as an infantry aide in 1762"
+        ],
+        "1805": [
+            "Died in Brazil on October 10, 1805"
+        ]
+    }
+}

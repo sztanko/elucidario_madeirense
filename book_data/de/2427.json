@@ -1,0 +1,34 @@
+{
+    "id": 2427,
+    "lang": "de",
+    "is_original": false,
+    "title": "Küstenschifffahrt",
+    "fl": "K",
+    "original_title": "Navegação Costeira",
+    "body": "Das Gesetz vom 27. Juli 1893, das die Regierung ermächtigte, einen regelmäßigen Dampfschifffahrtsdienst zwischen Lissabon und den angrenzenden Inseln zu subventionieren, erlaubte auch die Unterstützung eines ähnlichen Dienstes zwischen den Inseln der beiden Archipele. In einem vorläufigen Vertrag vom 30. November des genannten Jahres, der zwischen der Regierung und der Handelsfirma Bensaúde & Co. geschlossen wurde, wurden regelmäßige Verbindungen zwischen Madeira und Porto Santo mit dem kleinen Dampfer \"Falcão\" des Hauses Blandy aus Funchal eingerichtet. Ende 1897 begann dieses Handelshaus mit einem Küstenschifffahrtsdienst zwischen Funchal und verschiedenen Häfen im Süden und Norden Madeiras, was einen der bedeutendsten Vorteile für die wichtigsten Ortschaften der gesamten Insel darstellte.",
+    "categories": [
+        "economy",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lissabon": [
+            "Regelmäßiger Dampfschifffahrtsdienst"
+        ],
+        "Angrenzende Inseln": [
+            "Regelmäßiger Dampfschifffahrtsdienst"
+        ],
+        "Porto Santo": [
+            "Regelmäßige Verbindungen zwischen Madeira und Porto Santo"
+        ],
+        "Funchal": [
+            "Regelmäßige Verbindungen zwischen Madeira und Porto Santo, Küstenschifffahrt zwischen Funchal und verschiedenen Häfen im Süden und Norden Madeiras"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1893": [
+            "Gesetz zur Genehmigung der Subventionierung eines regelmäßigen Dampfschifffahrtsdienstes durch die Regierung"
+        ]
+    }
+}

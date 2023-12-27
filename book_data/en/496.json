@@ -1,0 +1,33 @@
+{
+    "id": 496,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bispo (Rua do)",
+    "fl": "B",
+    "original_title": "Bispo (Rua do)",
+    "body": "The former name of the current Gomes Freire Street. This name comes from the fact that the prelates of Funchal had their official residence there. Since January 1914, our lyceum has been installed in the episcopal palace (see this name). In this street is the old manor house of the Ornelas family, of which the representative today is Counselor Aires de Ornelas de Vasconcelos, which was built in the last quarter of the 17th century by the morgado Aires de Ornelas. It is also the headquarters of the important and flourishing mutual aid association 4 de Setembro de 1863 (see this name). Also located in this street is the chapel of São Luiz (see this name).",
+    "categories": [
+        "history",
+        "architecture",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Gomes Freire": [
+            "Street currently known as Rua do Bispo"
+        ],
+        "Funchal": [
+            "Location where the prelates had their official residence"
+        ]
+    },
+    "people": {
+        "Aires de Ornelas de Vasconcelos": [
+            "Representative of the Ornelas family"
+        ]
+    },
+    "years": {
+        "1914": [
+            "Installation of the lyceum on Rua do Bispo"
+        ]
+    }
+}

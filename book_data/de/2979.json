@@ -1,0 +1,42 @@
+{
+    "id": 2979,
+    "lang": "de",
+    "is_original": false,
+    "title": "Quinta do Leme",
+    "fl": "Q",
+    "original_title": "Quinta do Leme",
+    "body": "Besiedelter Ort in der Gemeinde Santo António do Funchal. Dort befindet sich ein alter Landsitz und eine angegliederte Kapelle, die Sitz des Leme-Majorats waren, das von Pedro de Leme vor 1550 eingerichtet wurde. Der letzte direkte Vertreter war Francisco Aurélio da Câmara, der ohne Nachkommen starb, so dass die Verwaltung dieses gebundenen Hauses an seinen Neffen João de Carvalhal Esmeraldo, den 1. Grafen von Carvalhal, überging. Die Kapelle, die dem Märtyrer São Filipe geweiht ist, wurde 1536 von António de Leme erbaut und 1654 von Inácio da Câmara Leme wiederaufgebaut. Sie wurde zusammen mit dem angrenzenden Herrenhaus 1752 wegen des Ruinzustands, in dem sie das Erdbeben von 1748 zurückgelassen hatte, erneut aufgebaut. Nachdem sie jahrelang entweiht gewesen war, wurde sie 1942 wieder dem Gottesdienst geweiht.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro de Leme": [
+            "Stifter des Majorats"
+        ],
+        "Francisco Aurélio da Câmara": [
+            "Letzter Vertreter"
+        ]
+    },
+    "years": {
+        "1536": [
+            "Bau der Kapelle, die dem Märtyrer São Filipe geweiht ist"
+        ],
+        "1654": [
+            "Wiederaufbau der Kapelle"
+        ],
+        "1752": [
+            "Wiederaufbau des Herrenhauses"
+        ],
+        "1748": [
+            "Erdbeben"
+        ],
+        "1942": [
+            "Wiedereinweihung"
+        ]
+    }
+}

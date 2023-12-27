@@ -1,0 +1,33 @@
+{
+    "id": 1048,
+    "lang": "en",
+    "is_original": false,
+    "title": "Costa do Norte",
+    "fl": "C",
+    "original_title": "Costa do Norte",
+    "body": "The northern coast of Madeira, generally known as the North Coast, extends from Ponta do Tristão, bordering the western region of the island, to the end of the northern slope of Ponta de São Lourenço, which extends to the east. It is often said, and with all propriety, that it is an alpine and rocky coast, resembling a line of high rocks, similar to an enormous rock wall with the base whipped by the waves and the top crowned with the luxuriant greenery of a native forest, due to the rarity of beaches and coves, and the violence of the winds from the northern quadrants that blow there for most of the year, it is entirely inhospitable for ships and not very safe for boats, having only two harbors of refuge against the weather, the Pôrto da Cruz and the Pôrto do Moniz, located approximately at the eastern and western ends of the same coast. This area includes the parishes of the municipalities of Pôrto do Moniz, São Vicente, and Santana, as well as the parish of Pôrto da Cruz and the northern coast of the parish of Caniçal, which belong to the municipality of Machico.\n\nThe perimeter of the North Coast is described by Luiz da Silva Mousinho de Albuquerque in the following terms: “Starting from Ponta do Pargo to the N., the Coast begins by running first in the direction of N.E. to Ponta do Tristão, where the Northern Coast of the Island begins, heading approximately E.S.E. to São Vicente, and from there taking the direction E.N.E. to Ponta de São Jorge, where it turns to the general direction of S.E. to Pôrto da Cruz, almost at the northern origin of Ponta de São Lourenço, which ends the island at its eastern extremity, extending to the sea with a very small width for about three miles, and in the direction of 0. and E.. In almost the entire extension of this coast, the sea is deep and free of rocks, except: 1st. In the reentrant part of this coast, where there are some shallows and isolated rocks, among which stand out the Ilhéu da Ribeira da Janela and the Ilhéu and shallow of Pôrto do Moniz; 2nd. -Ponta do Pargo, where a shoal extends to the sea, over which the waves break with moderate winds, forcing the boats to move considerably away from the land to double it”.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Pôrto do Moniz",
+        "São Vicente",
+        "Santana",
+        "Pôrto da Cruz",
+        "Caniçal"
+    ],
+    "locations": {
+        "Ponta do Tristão": [
+            "Bordering the western region of the island"
+        ],
+        "Ponta de São Lourenço": [
+            "End of the northern slope"
+        ]
+    },
+    "people": {
+        "Luiz da Silva Mousinho de Albuquerque": [
+            "Describes the perimeter of the North Coast"
+        ]
+    },
+    "years": {}
+}

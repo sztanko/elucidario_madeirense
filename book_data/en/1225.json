@@ -1,0 +1,39 @@
+{
+    "id": 1225,
+    "lang": "en",
+    "is_original": false,
+    "title": "Enjeitados",
+    "fl": "E",
+    "original_title": "Enjeitados",
+    "body": "In 1583, the administration of the foundlings was entrusted to the Bishop, but a royal provision in 1685 transferred this administration to the Governor General. Since 1693, the supervision of the foundlings has been the responsibility of the City Council, although for many years the payment to the wet nurses was made by a treasurer elected annually by the House of Twenty-Four, who, for this purpose and for the support of the lepers, collected one-third of the revenue from the wine tax. On May 7, 1761, the Funchal City Council decided to submit a consultation to the Government on whether the aforementioned treasurer should continue to collect the third of the tax, considering that the collection of municipal revenues was the responsibility of the Council's treasurer. A royal decree in 1752 granted the wet nurses of foundlings in this archipelago the same privileges enjoyed by those in Lisbon. It can be seen from ancient documents that in 1811, the Funchal City Council struggled with a lack of resources to support the foundlings, and even in the third quarter of the 19th century, the wet nurses did not receive their salaries on time, which led many of them to sell their accounts at a low price to certain speculators, who made significant profits in this transaction. The old wheel for foundlings or abandoned children was in the building of the Santa Casa da Misericórdia, where many mothers abandoned their children when, due to a lack of means or any other reason, they could not raise them.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1583": [
+            "Administration of the foundlings entrusted to the Bishop"
+        ],
+        "1685": [
+            "Royal provision transferred administration to the Governor General"
+        ],
+        "1693": [
+            "Supervision of the foundlings became the responsibility of the City Council"
+        ],
+        "1761": [
+            "Consultation of the Funchal City Council with the Government"
+        ],
+        "1752": [
+            "Royal decree granted the wet nurses of foundlings in this archipelago the same privileges as those in Lisbon"
+        ],
+        "1811": [
+            "Lack of resources to support the foundlings"
+        ],
+        "XIX": [
+            "Wet nurses did not receive their salaries on time"
+        ]
+    }
+}

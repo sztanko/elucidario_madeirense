@@ -1,0 +1,35 @@
+{
+    "id": 1308,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Faial (Ribeira do)",
+    "fl": "F",
+    "original_title": "Faial (Ribeira do)",
+    "body": "Nasce nas proximidades do Pico Ruivo e recebe como torrentes subsidiarias as ribeiras do Ribeiro Frio e da Metade, atravessando a freguesia do Faial e ali desembocando. Nos anos decorridos de 1907 a 1910,- construiu-se sobre esta ribeira a mais extensa ponte que se encontra na Madeira e que há muito era considerada como uma das maiores necessidades a satisfazer em obras publicas distritais. Assenta o respectivo tabuleiro sobre diversos arcos e mede cerca de 130 metros de comprimento.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Pico Ruivo": [
+            "Elevação"
+        ],
+        "Ribeiro Frio": [
+            "Ribeira"
+        ],
+        "Faial": [
+            "Freguesia"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1907": [
+            "Construção da ponte sobre a Ribeira do Faial"
+        ],
+        "1910": [
+            "Construção da ponte sobre a Ribeira do Faial"
+        ]
+    }
+}

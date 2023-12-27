@@ -1,0 +1,35 @@
+{
+    "id": 2943,
+    "lang": "en",
+    "is_original": false,
+    "title": "Procissão das Candeias, das Ladainhas e da Via Sacra, na Ponta do Sol",
+    "fl": "P",
+    "original_title": "Procissão das Candeias, das Ladainhas e da Via Sacra, na Ponta do Sol",
+    "body": "It is read in the article to which we referred earlier, that these processions were once celebrated in Ponta do Sol. The procession of Ladainhas took place in May, and, according to a document from 1600, on the first day it went to the church of Nossa Senhora da Piedade, in Canhas, on the second day to the chapel of the Holy Spirit, in Lombada, and on the third day to the chapel of S. Sebastião, in the village. In 1607, the Chamber ordered that the same procession should go on the first day to the chapel of the Holy Spirit, on the second day to that of Nossa Senhora da Piedade (Jangão?) and on the third day to that of S. Sebastião, with the parishioners of N. S. da Piedade (Canhas) and Madalena do Mar being exempt from attending the procession as it took place in their parishes. The processions of the Via Sacra outside the church ended, says the author of the mentioned article, around the time of 1830. When they took place, they left the parish church, went through the streets of the village, going to the chapel of Nossa Senhora do Livramento, in Lombo das Adegas, and to the chapel of Santo Amaro, in Lombada. There were crosses placed in the streets and paths traveled by these processions, and on the Caminho da Lombada there is a cave with the name of the Calvary cave, which was a station of these processions.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Canhas",
+        "Lombada",
+        "Madalena do Mar"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "These processions were once celebrated here"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1600": [
+            "Mentioned document"
+        ],
+        "1607": [
+            "Chamber ordered the same procession"
+        ],
+        "1830": [
+            "Processions of the Via Sacra outside the church ended"
+        ]
+    }
+}

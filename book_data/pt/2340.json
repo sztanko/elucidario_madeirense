@@ -1,0 +1,28 @@
+{
+    "id": 2340,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Monte Belo (Visconde de)",
+    "fl": "M",
+    "original_title": "Monte Belo (Visconde de)",
+    "body": "Faleceu no Funchal a 17 de Fevereiro de 1922. V. Freitas da Silva (João de).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "João de Freitas da Silva": [
+            "Visconde de Monte Belo"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Ano de falecimento"
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "id": 3279,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sarmento (José)",
+    "fl": "S",
+    "original_title": "Sarmento (José)",
+    "body": "Era filho de José Sarmento e de D. Maria de Oliveira Sarmento, e faleceu no Funchal, donde era natural, a 13 de Fevereiro de 1905, contando 63 anos de idade. Foi pianista afamado e organista na Sé Catedral tendo desempenhado também o lugar de professor de musica no Seminário Episcopal. Teve íntimas relações com Platão de Vackcel, também musico muito distinto, e colaborou em diferentes jornais do Funchal, dando testemunho os seus artigos das grandes aptidões literárias que possuía.",
+    "categories": [
+        "art",
+        "society"
+    ],
+    "freguesias": [
+        "Sé Catedral",
+        "Seminário Episcopal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Faleceu no Funchal, onde era natural"
+        ]
+    },
+    "people": {
+        "José Sarmento": [
+            "Pianista, organista, professor de música"
+        ]
+    },
+    "years": {
+        "1905": [
+            "Falecimento de José Sarmento"
+        ]
+    }
+}

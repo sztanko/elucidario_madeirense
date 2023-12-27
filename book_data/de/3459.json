@@ -1,0 +1,36 @@
+{
+    "id": 3459,
+    "lang": "de",
+    "is_original": false,
+    "title": "Telefone",
+    "fl": "T",
+    "original_title": "Telefones",
+    "body": "Das Telefonnetz von Funchal wurde am 5. Oktober 1911 eingeweiht. 1908 hatte die Stadtverwaltung die Bedingungen festgelegt, unter denen ein Teil des Turms des Rathauses für die Telefonzentrale adaptiert werden durfte. Die entsprechenden Umbauarbeiten begannen im folgenden Jahr. Für den Aufbau der Telefondienste in Funchal hat der verstorbene João Augusto Pereira, ehemaliger Abgeordneter für Madeira, viel beigetragen.\n\nAm 6. August 1915 beschloss der Stadtrat, die Regierung zu bitten, das Telefonnetz auf die ganze Insel auszudehnen, aber diese Verbesserung wurde Madeira noch nicht gewährt. (1921)",
+    "categories": [
+        "history",
+        "science",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Einweihung des Telefonnetzes 1911 und Anpassung des Turms des Rathauses für die Telefonzentrale"
+        ]
+    },
+    "people": {
+        "João Augusto Pereira": [
+            "Hat wesentlich zum Aufbau der Telefondienste in Funchal beigetragen"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Einweihung des Telefonnetzes von Funchal"
+        ],
+        "1908": [
+            "Stadtverwaltung legte Bedingungen für die Anpassung des Rathhausturms fest"
+        ],
+        "1915": [
+            "Stadtrat bat um Ausdehnung des Telefonnetzes auf die ganze Insel"
+        ]
+    }
+}

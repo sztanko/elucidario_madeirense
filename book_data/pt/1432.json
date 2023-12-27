@@ -1,0 +1,30 @@
+{
+    "id": 1432,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forerunner",
+    "fl": "F",
+    "original_title": "Forerunner",
+    "body": "Na tarde do dia 25 de Outubro de 1854 saiu do porto do Funchal o vapor inglês Forerunner, procedente da costa de Africa e com destino á Inglaterra, conduzindo muitos oficiais do exército britanico e o governador de Serra Leoa. Na altura da ponta de S. Lourenço, sendo já noite, topou o vapor com um baixio que ali há, denominado a Badajeira, submergindo-se completamente e morrendo no naufrágio três passageiros e onze tripulantes. Um barco de Machico que passava casualmente no local do sinistro, prestou os melhores serviços no salvamento dos passageiros e tripulantes, sendo os homens do barco elogiados pelo Governo Português em portaria, e condecorados com a medalha da Real Sociedade Humanistica.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ],
+        "Serra Leoa": [
+            "País"
+        ],
+        "Machico": [
+            "Cidade"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1854": [
+            "Naufrágio do vapor Forerunner"
+        ]
+    }
+}

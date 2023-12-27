@@ -1,0 +1,31 @@
+{
+    "id": 3262,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Vicente (Capela de)",
+    "fl": "S",
+    "original_title": "São Vicente (Capela de)",
+    "body": "In a solitary block of basalt, found at the mouth of the stream that crosses the village of São Vicente, the people built a chapel dedicated to the martyr São Vicente in 1692, as stated by Dr. Alvaro de Azevedo. This unique little chapel is well known through engravings in various national and foreign works, as well as through postcards.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "São Vicente"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Village"
+        ]
+    },
+    "people": {
+        "Alvaro de Azevedo": [
+            "Dr."
+        ]
+    },
+    "years": {
+        "1692": [
+            "Construction of the chapel"
+        ]
+    }
+}

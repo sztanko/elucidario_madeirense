@@ -1,0 +1,34 @@
+{
+    "id": 3679,
+    "lang": "pt",
+    "is_original": true,
+    "title": "White (Roberto)",
+    "fl": "W",
+    "original_title": "White (Roberto)",
+    "body": "Súbdito inglês que residiu alguns anos na Madeira e que escreveu em 1851 um interessante e valioso trabalho intitulado *Madeira, its climate and scenery*. Em 1850 e 1851, fez observações meteorológicas no Funchal e em Machico. Em 1857, ainda em vida de White, apareceu uma segunda edição da sua obra, editada e acrescentada por James Yate Johnson (V. este nome).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Fez observações meteorológicas"
+        ]
+    },
+    "people": {
+        "Roberto White": [
+            "Súbdito inglês"
+        ]
+    },
+    "years": {
+        "1851": [
+            "Publicação do trabalho *Madeira, its climate and scenery*"
+        ],
+        "1850": [
+            "Fez observações meteorológicas"
+        ],
+        "1857": [
+            "Publicação da segunda edição da obra"
+        ]
+    }
+}

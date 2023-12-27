@@ -1,0 +1,40 @@
+{
+    "id": 837,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Catanho de Meneses (Dr. João)",
+    "fl": "C",
+    "original_title": "Catanho de Meneses (Dr. João)",
+    "body": "Nasceu na freguesia do Faial a 17 de Abril de 1854 e matriculou-se em 1874 na faculdade de direito da Universidade de Coimbra, cujo curso concluíu em 1879. Veio em seguida para Lisboa, onde assentou banca de advogado. Representou a Madeira em cortes nas legislaturas de 1890, 1897 a 1899, 1900 e 1905 a 1906. Militava então no partido progressista, mas depois da implantação das instituições republicanas no país, filiou-se no partido democratico, vindo a ser ministro da justiça em 1915, no ministerio presidido pelo Dr. José de Castro. Saíu do ministerio por ocasião da declaração de guerra da Alemanha a Portugal.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Faial": [
+            "Localidade de nascimento"
+        ]
+    },
+    "people": {
+        "Dr. José de Castro": [
+            "Presidente do ministério em que João Catanho foi ministro da justiça"
+        ]
+    },
+    "years": {
+        "1854": [
+            "Ano de nascimento"
+        ],
+        "1874": [
+            "Ano de matrícula na faculdade de direito"
+        ],
+        "1879": [
+            "Ano de conclusão do curso de direito"
+        ],
+        "1890": [
+            "Ano de representação da Madeira em cortes"
+        ]
+    }
+}

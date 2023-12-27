@@ -1,0 +1,33 @@
+{
+    "id": 13,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abreu (Francisco Jorge de)",
+    "fl": "A",
+    "original_title": "Abreu (Francisco Jorge de)",
+    "body": "Nasceu no Funchal a 23 de Abril de 1878, e frequentou o liceu e os três primeiros anos da Escola Médico Cirúrgica desta cidade. Colaborou no antigo jornal funchalense o Diário Popular, e foi director do Século de Lisboa, e do Primeiro de Janeiro do Porto, tendo sido antes um dos redactores de A Capital. Além de muitos artigos disseminados pelos referidos jornais, traduziu alguns romances, publicados em Folhetim, e várias peças teatrais.\n\nPublicou em volumes separados A Revolução Portuguesa, a 31 de Janeiro (Porto 1891), Lisboa, 1912, de 178 pags.; A Revolução Portuguesa, o 5 de Outubro (Lisboa 1910), Lisboa,1912, de 208 pags. e a Boémia Jornalística. Faleceu no Porto a 7 de Junho de 1932.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Jorge de Abreu": [
+            "Colaborador do Diário Popular, diretor do Século de Lisboa e do Primeiro de Janeiro do Porto, redator de A Capital, tradutor de romances e peças teatrais."
+        ]
+    },
+    "years": {
+        "1878": [
+            "Nascimento de Francisco Jorge de Abreu"
+        ],
+        "1891": [
+            "Publicação de A Revolução Portuguesa, a 31 de Janeiro"
+        ],
+        "1910": [
+            "Publicação de A Revolução Portuguesa, o 5 de Outubro"
+        ],
+        "1912": [
+            "Publicação de A Revolução Portuguesa, a 31 de Janeiro e A Revolução Portuguesa, o 5 de Outubro"
+        ]
+    }
+}

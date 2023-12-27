@@ -1,0 +1,59 @@
+{
+    "id": 3363,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Soares (Padre Caetano Alberto)",
+    "fl": "S",
+    "original_title": "Soares (Padre Caetano Alberto)",
+    "body": "> Era filho de Antonio Soares Felgueiras e de D. Ana de Oliveira, e nasceu na freguesia do Porto da Cruz a 23 de Maio de 1790. Vindo para o Funchal em tenra idade, para casa de seu padrinho o cónego Caetano Alberto de Araujo, fez nesta cidade os estudos preparatórios de humanidades e o curso de teologia no Seminário Diocesano. Ordenou-se de presbítero e seguiu imediatamente para Coimbra, onde se matriculou na faculdade de leis, concluindo a sua formatura no ano de 1820 ou pouco depois. Exercia no Funchal a advocacia e regia a cadeira de latinidade, quando em 1826 foi eleito deputado pela Madeira, tendo tomado assento em cortes e residido em Lisboa, até o ano de 1828, em que se ausentou para o Rio de Janeiro, receando ser vitima das perseguições que o governo absoluto começava então a fazer contra os adeptos das ideias liberais.\n> Fixando residência na capital do Brasil, naturalizou-se cidadão brasileiro e logo se dedicou à carreira do foro, tendo ali alcançado nomeada como um distinto advogado. Exerceu várias comissões de serviço público e entre elas as de juiz dos orfãos, advogado da Casa Imperial, presidente do Instituto dos Advogados, etc.. Tendo o governo brasileiro oferecido o prémio de um conto de réis ao autor do melhor projecto de um código civil, foi o Dr. Caetano Alberto Soares nomeado membro da comissão encarregada de emitir parecer acerca do projecto apresentado.\n> O Dr. Soares teve o infortúnio de ser assaltado pela cegueira, continuando, apesar disso, no exercício da advocacia, em que notavelmente se distinguiu. Devido a essa circunstância, não deixou trabalhos impressos, além duma memória lida no Instituto dos Advogados e publicada no ano de 1848.\n> Faleceu no Rio de Janeiro a 28 de Fevereiro de 1867.",
+    "categories": [
+        "history",
+        "politics",
+        "education"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Local de nascimento de Padre Caetano Alberto Soares"
+        ],
+        "Funchal": [
+            "Local onde Padre Caetano Alberto Soares fez os estudos preparatórios"
+        ],
+        "Coimbra": [
+            "Local onde Padre Caetano Alberto Soares se matriculou na faculdade de leis"
+        ],
+        "Lisboa": [
+            "Local onde Padre Caetano Alberto Soares residiu após ser eleito deputado pela Madeira"
+        ],
+        "Rio de Janeiro": [
+            "Local de residência e falecimento de Padre Caetano Alberto Soares"
+        ]
+    },
+    "people": {
+        "Antonio Soares Felgueiras": [
+            "Pai de Padre Caetano Alberto Soares"
+        ],
+        "D. Ana de Oliveira": [
+            "Mãe de Padre Caetano Alberto Soares"
+        ],
+        "Caetano Alberto de Araujo": [
+            "Padrinho de Padre Caetano Alberto Soares"
+        ]
+    },
+    "years": {
+        "1790": [
+            "Nascimento de Padre Caetano Alberto Soares"
+        ],
+        "1826": [
+            "Eleição de Padre Caetano Alberto Soares como deputado pela Madeira"
+        ],
+        "1828": [
+            "Saída de Padre Caetano Alberto Soares para o Rio de Janeiro"
+        ],
+        "1867": [
+            "Falecimento de Padre Caetano Alberto Soares"
+        ]
+    }
+}

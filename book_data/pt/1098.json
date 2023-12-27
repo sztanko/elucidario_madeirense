@@ -1,0 +1,38 @@
+{
+    "id": 1098,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cunha (João Severo)",
+    "fl": "C",
+    "original_title": "Cunha (João Severo)",
+    "body": "Nasceu no Funchal a 6 de Novembro de 1856. É coronel de engenharia e foi presidente da Camara Municipal de Lisboa na situação politica de Pimenta de Castro. Além da colaboração que teve em algumas revistas, publicou: Espessura das abobadas, 1895, Estudos sobre abobadas, 1897, e Esclarecimentos uteis aos mutuarios e pretendentes de mutuos da Companhia Geral do Credito Predial Portugues, 1912.",
+    "categories": [
+        "history",
+        "politics",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira."
+        ],
+        "Lisboa": [
+            "Capital de Portugal."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1856": [
+            "Nascimento."
+        ],
+        "1895": [
+            "Publicação de Espessura das abobadas."
+        ],
+        "1897": [
+            "Publicação de Estudos sobre abobadas."
+        ],
+        "1912": [
+            "Publicação de Esclarecimentos uteis aos mutuarios e pretendentes de mutuos da Companhia Geral do Credito Predial Portugues."
+        ]
+    }
+}

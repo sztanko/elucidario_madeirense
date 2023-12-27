@@ -1,0 +1,49 @@
+{
+    "id": 851,
+    "lang": "de",
+    "is_original": false,
+    "title": "Britischer Friedhof",
+    "fl": "B",
+    "original_title": "Cemitério Britânico",
+    "body": "Der ursprüngliche britische Friedhof befand sich an der Stelle, an der sich jetzt der Largo do Conde do Ribeiro Real am Ende der Rua 5 de Junho befindet. Die Genehmigung, die den britischen Untertanen die notwendige Erlaubnis erteilte, einen Friedhof zum Begräbnis ihrer Toten zu errichten, ist auf den 3. Januar 1761 datiert, aber erst am 10. September 1767 wurde das für diesen Zweck vorgesehene Grundstück erworben. Vor dem Bau des genannten Friedhofs wurden die Leichen der nicht-katholischen Ausländer, die in Funchal starben, ins Meer geworfen.\n\nDer heutige britische Friedhof wurde 1808 errichtet und 1852 und 1889 erweitert. Der älteste Teil dieses Friedhofs wurde zum Begräbnis britischer Soldaten erworben, die in Funchal starben, während Madeira von britischen Truppen besetzt war, während der modernere Teil erst zu genutzt wurde, als die Stadtverwaltung von Funchal den ursprünglichen Friedhof abreißen musste, um die Rua 5 de Junho mit der Rua da Carreira zu verbinden. Die Überlassung dieses letzten Friedhofs durch die Verwalter der britischen Kapelle und des britischen Friedhofs erfolgte im August 1888, wobei sich der Stadtrat verpflichtete, die notwendigen Anstrengungen zu unternehmen, um die Überführung der sterblichen Überreste von diesem Gelände auf ein an den heutigen Friedhof angrenzendes Gelände zu erleichtern, ein Gelände, das die gleichen Verwalter bis dahin mangels der notwendigen Genehmigungen nicht für die Erweiterung des Friedhofs nutzen konnten. Die letzte Bestattung auf dem Friedhof, wo heute der Largo do Conde do Ribeiro Real ist, fand im Juli 1885 statt.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Largo do Conde do Ribeiro Real": [
+            "Ort des ursprünglichen britischen Friedhofs"
+        ],
+        "Rua 5 de Junho": [
+            "Ort des ursprünglichen britischen Friedhofs"
+        ],
+        "Carreira": [
+            "Ort des moderneren Teils des britischen Friedhofs"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1761": [
+            "Genehmigung für den Bau des Friedhofs"
+        ],
+        "1767": [
+            "Grundstückserwerb"
+        ],
+        "1808": [
+            "Bau des Friedhofs"
+        ],
+        "1852": [
+            "Erweiterung des Friedhofs"
+        ],
+        "1889": [
+            "Erweiterung des Friedhofs"
+        ],
+        "1888": [
+            "Überlassung des heutigen Friedhofs"
+        ],
+        "1885": [
+            "Letzte Bestattung auf dem ursprünglichen Friedhof"
+        ]
+    }
+}

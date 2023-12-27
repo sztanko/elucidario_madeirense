@@ -1,0 +1,39 @@
+{
+    "id": 211,
+    "lang": "de",
+    "is_original": false,
+    "title": "Andrade",
+    "fl": "A",
+    "original_title": "Andrade",
+    "body": "Die Brüder João Fernandes de Andrade und Diogo Fernandes de Andrade, Adlige aus Galicien, waren die ersten, die diesen Nachnamen auf diese Insel brachten. Sie erhielten viel Land in Arco da Calheta und ließen sich dort nieder. König Johann II. gewährte dem Ersteren am 20. Februar 1485 per Dekret das Recht auf folgendes Wappen: \"In einem goldenen Feld ein Kentaur, zur Hälfte Mann, zur Hälfte Pferd, der Mann nackt, das Pferd zwischen Zaumzeug und dunkel kastanienbraun mit einem rot bewaffneten Bogen in den Händen und einer silbernen Sehne, der Pfeil grün befiedert, silberner Helm mit Zacken, goldenes und grünes Helmkleinod und als Helmzier der halbe Kentaur mit seinem Bogen\".\n\nDiogo Fernandes de Andrade verkaufte seinem Bruder die Ländereien, die er in Arco besaß, und kehrte nach Galicien zurück, um den Besitz eines Erbes einzufordern, das seiner Mutter gehört hatte, was er jedoch nicht erreichen konnte, da es in den Besitz der Krone übergegangen war.\n\nJoão Fernandes de Andrade, später als João Fernandes do Arco bekannt, weil er in dieser Gemeinde gelebt und dort viel Land besessen hatte, gründete ein Majorat, dessen Sitz die Kapelle Unserer Lieben Frau vom Trost war. Er starb am 9. April 1527 und wurde dort begraben, auf dessen Grabstein folgende Inschrift stand: \"Hier ruhen João Fernandes und Beatriz de Abreu, seine Frau, die ersten Gründer dieses Bogens\". \n\nSeinem Neffen Fernão Dias de Andrade, dem Sohn seines Bruders Diogo, wurde das Wappen, das seinem Onkel gewährt worden war, durch König Johann III. in einer Urkunde vom 17. April 1528 bestätigt. Es ist vollständig im Nobiliario de Henriques de Noronha enthalten, von dem sich eine Kopie in der Bibliothek von Funchal befindet.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Sie erhielten viel Land in Arco da Calheta und ließen sich dort nieder"
+        ]
+    },
+    "people": {
+        "João Fernandes de Andrade": [
+            "Später als João Fernandes do Arco bekannt, weil er in dieser Gemeinde gelebt und dort viel Land besessen hatte"
+        ],
+        "Diogo Fernandes de Andrade": [
+            "Bruder von João Fernandes de Andrade"
+        ]
+    },
+    "years": {
+        "1485": [
+            "König Johann II. gewährte dem Ersteren per Dekret das Recht auf folgendes Wappen"
+        ],
+        "1527": [
+            "João Fernandes de Andrade starb am 9. April und wurde dort begraben"
+        ],
+        "1528": [
+            "Seinem Neffen Fernão Dias de Andrade wurde das Wappen bestätigt"
+        ]
+    }
+}

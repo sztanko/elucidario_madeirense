@@ -1,0 +1,32 @@
+{
+    "id": 1450,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte do Caniçal",
+    "fl": "F",
+    "original_title": "Forte do Caniçal",
+    "body": "Mandado construir no 1º. quartel do século XVIII, depois de um desembarque de piratas naquela povoação. Em 1758 era capitão deste forte João de Morais Perestrelo. Ficava sobre a enseada.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caniçal": [
+            "Povoação"
+        ]
+    },
+    "people": {
+        "João de Morais Perestrelo": [
+            "Capitão"
+        ]
+    },
+    "years": {
+        "Século XVIII": [
+            "Construção do forte"
+        ],
+        "1758": [
+            "Capitão João de Morais Perestrelo"
+        ]
+    }
+}

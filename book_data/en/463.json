@@ -1,0 +1,32 @@
+{
+    "id": 463,
+    "lang": "en",
+    "is_original": false,
+    "title": "Belle Poule",
+    "fl": "B",
+    "original_title": "Belle Poule",
+    "body": "The French war frigate Belle Poule and the corvette Favorite anchored in the port of Funchal on July 24, 1840, carrying on board the mission led by Prince de Joinville, destined for the island of Saint Helena, with the purpose of exhuming the mortal remains of Emperor Napoleon and transporting them to France. As is known, Napoleon passed through Madeira aboard the English ship Northumberland on August 24, 1815, when he was being taken as a prisoner in exile to Saint Helena (see Napoleon). The expedition led by Prince de Joinville did not stop in Madeira on its return to Europe. The chief and other members of this mission attended some festivities held in their honor in Funchal. The Belle Poule left Madeira on July 27, heading towards the Canary Islands. See Joinville (Prince de).",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Port where the French war frigate Belle Poule and the corvette Favorite anchored"
+        ]
+    },
+    "people": {
+        "Prince de Joinville": [
+            "Mission leader"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Anchoring of the French war frigate Belle Poule and the corvette Favorite in the port of Funchal"
+        ],
+        "1815": [
+            "Passage of Napoleon in Madeira aboard the English ship Northumberland"
+        ]
+    }
+}

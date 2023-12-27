@@ -1,0 +1,34 @@
+{
+    "id": 2342,
+    "lang": "de",
+    "is_original": false,
+    "title": "Monte Medonho",
+    "fl": "M",
+    "original_title": "Monte Medonho",
+    "body": "Ort im Gebirge der Gemeinde São Vicente, wo der Wasserkanal Monte Medonho entspringt, der seit 1908 die Gemeinden Ribeira Brava und Tábua bewässert, nachdem er zuvor die Ländereien der Gemeinde São Vicente fruchtbar gemacht hatte.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ribeira Brava",
+        "Tábua"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Gemeinde"
+        ],
+        "Ribeira Brava": [
+            "Gemeinde"
+        ],
+        "Tábua": [
+            "Gemeinde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1908": [
+            "Jahr des Beginns der Bewässerung"
+        ]
+    }
+}

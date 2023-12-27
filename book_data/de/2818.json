@@ -1,0 +1,38 @@
+{
+    "id": 2818,
+    "lang": "de",
+    "is_original": false,
+    "title": "Hochebenen",
+    "fl": "H",
+    "original_title": "Planaltos",
+    "body": "Die Hochebenen oder Ebenen in gebirgigen Höhenlagen können aufgrund der relativ kleinen Fläche dieser Insel und des unwahrscheinlich unregelmäßigen Geländes, das sie in fast ihrer gesamten Ausdehnung ausmacht, nicht sehr groß und ausgedehnt sein. Aus dem Diccionario Universal Portuguez Ilustrado zitieren wir: \"Diese Insel hat vier Haupthochebenen: die von Santo Antonio da Serra oder im Volksmund Santo da Serra, auf der sich ein See befindet, in der Gemeinde Machico; die von Achada de Santa Ana in der gleichnamigen Gemeinde; die von Paul da Serra oder einfach Paul, die die größte ist, an den Grenzen der Gemeinden S. Vicente, Ponta do Sol und Porto Moniz; und schließlich die Hochebene von Achadas da Cruz oder einfach die Achadas in der Gemeinde Porto do Moniz, die die kleinste ist: der See sieht aus wie ein erloschener Krater; er misst 66 Meter im Durchmesser und 40 Meter in der Tiefe. Es gibt wunderschöne Wiesen in der Gemeinde.\"",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santo Antonio da Serra": [
+            "Hochebene"
+        ],
+        "Machico": [
+            "Gemeinde"
+        ],
+        "Achada de Santa Ana": [
+            "Hochebene"
+        ],
+        "S. Vicente": [
+            "Gemeinde"
+        ],
+        "Ponta do Sol": [
+            "Gemeinde"
+        ],
+        "Porto Moniz": [
+            "Gemeinde"
+        ],
+        "Achadas da Cruz": [
+            "Hochebene"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

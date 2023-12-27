@@ -1,0 +1,36 @@
+{
+    "id": 200,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Amoreira",
+    "fl": "A",
+    "original_title": "Amoreira",
+    "body": "Existem na Madeira a Morus nigra (amoreira negra) cujas soroses são comestíveis e servem para a preparação do arrobe de amoras usado em gargarejos, nas esquinencias, e a M. multicaulis (amoreira branca) cujas folhas servem para alimento do bicho da seda. A Câmara Municipal do Funchal concedeu em Maio de 1877, a Praça da Rainha (hoje Praça do Marquês de Pombal) para viveiro de de amoreiras brancas, tendo o falecido Conde de Canavial chegado a estabelecer ali o referido viveiro, o qual teve pouca duração. A cultura destas amoreiras está votada na actualidade ao mais completo abandono. A amoreira negra é muito cultivada no Porto Santo.",
+    "categories": [
+        "biology",
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Madeira"
+        ],
+        "Praça da Rainha": [
+            "Atual Praça do Marquês de Pombal"
+        ],
+        "Porto Santo": [
+            "Ilha próxima à Madeira"
+        ]
+    },
+    "people": {
+        "Conde de Canavial": [
+            "Falecido nobre"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Concessão da Praça da Rainha para viveiro de amoreiras brancas"
+        ]
+    }
+}

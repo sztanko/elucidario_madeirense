@@ -1,0 +1,31 @@
+{
+    "id": 2450,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nola (António da)",
+    "fl": "N",
+    "original_title": "Nola (António da)",
+    "body": "Dieser genuesische Seefahrer war 1460 auf Madeira, wie aus dem Reisebericht von Diogo Gomes hervorgeht. \"Danach\", sagt Gomes, \"sahen wir eine der kanarischen Inseln namens Palma, und von dort segelten wir zur Insel Madeira. Da ich begierig war, nach Portugal zurückzukehren, brach ich auf und wurde durch widrige Winde zu den Azoren getrieben, aber António de Nola blieb auf Madeira und kam dank günstigerer Winde vor mir in Portugal an.\"",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel, die António da Nola besuchte"
+        ],
+        "Portugal": [
+            "Endziel von António da Nolas Reise"
+        ]
+    },
+    "people": {
+        "Diogo Gomes": [
+            "Verfasser des Reiseberichts"
+        ]
+    },
+    "years": {
+        "1460": [
+            "Jahr des Besuchs auf Madeira"
+        ]
+    }
+}

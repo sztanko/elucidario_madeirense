@@ -1,0 +1,51 @@
+{
+    "id": 1800,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Instrução",
+    "fl": "I",
+    "original_title": "Instrução",
+    "body": "Como é natural e lógico que tivesse acontecido, a instrução publica neste arquipélago seguiu aproximadamente as fases da do continente do reino. Nas suas linhas fundamentais, a historia de uma é a historia da outra.\n\nA instrução superior teve representação entre nós com a criação da Escola Médico-cirúrgica do Funchal, em 1837, que acabou no ano de 1910 (V. *Escola Médico-cirúrgica*).\nNalgumas localidades da Madeira, já se está fazendo sentir (1921) a falta de médicos, que dentro de pouco tempo será grande, podendo, decerto, em época não muito afastada de nós, afirmar-se o que em 1824 dizia ao governo da metrópole o governador e capitão general deste arquipélago: que no Porto Santo e nos campos da Madeira não havia nenhum cirurgião operador e que «apenas se encontrava algum miserável sangrador, de cuja competência teem sido vitimas muitos dos que o chamaram para o trato e curativo das suas molestais». A nossa Escola Medica deveria ter sido remodelada na sua organização primitiva e quadro das suas aulas, tornando-se mais profícuo o ensino das matérias ali professadas, mas as necessidades dos distritos insulares não aconselhavam a sua extinção, que foi principalmente devida, segundo se afirma, a imposição do director de saúde publica, o Dr. Ricardo Jorge.\nA instrução especial foi professada entre nós com o ensino da teologia no Seminário Diocesano, a partir da fundação deste no ultimo quartel do século XVI (V. *Seminário*). Também havia cursos especiais de teologia no convento de S. Francisco e no Colégio dos Jesuítas, para uso privativo dos respectivos religiosos. Como cursos especiais se podem considerar a aula de desenho e pintura, criada em 1810, a aula de desenho que durante alguns anos funcionou nesta cidade, sustentada pela Câmara Municipal do Funchal, e a Escola Industrial, estabelecida em 1889, de que tudo já demos desenvolvida noticia no artigo Escola Industrial António Augusto de Aguiar. No primeiro quartel do século passado existiu nesta cidade um curso de estudos militares, cuja organização, funcionamento e tempo da sua existência desconhecemos por completo. Como cursos de instrução especial devemos ainda citar a Escola Normal (V. este nome), que durou de 1900 a 1910, a Escola Primaria Superior (V. este nome), criada em 1919, e a Escola de Pilotagem ( V. este nome), que começou a funcionar no ano de 1914.\nAs primeiras aulas de instrução secundaria de carácter publico que houve entre nós, foram as que os jesuítas regeram no seu Colégio de S. João Evangelista e que constavam de latim, filosofia, retórica e literatura. Não sabemos quando começaram a funcionar, mas já existiam em 1590, pois a elas se refere o autor das Saudades, e terminaram com a expulsão daqueles religiosos no ano de 1759. Foi este curso secundário conhecido pelo nome de Aulas do Pátio, por funcionar num pátio interior, que era uma de pendência do colégio. Ficava situado na rua do Estudo e no mesmo edifício continuaram a ser regidas algumas aulas secundarias depois da expulsão dos jesuítas, com a mesma denominação de Aulas do Pátio. E foi ainda no mesmo edifício que em 1837 se estabeleceu o liceu desta cidade (V. Liceu), que ali permaneceu cerca de 50 anos. Não podemos precisar que tempo mediaria entre a expulsão dos jesuítas e a continuação das Aulas do Patio e nem também sabemos dizer se esses cursos funcionaram ininterruptamente até o estabelecimento do nosso liceu. Em 1772 foram criadas as aulas publicas de filosofia, latinidade, matemática e retórica, e por 1825 as de francês e inglês (V. Aulas Secundarias), levando tudo a supor que essa criação se destinasse a suprir a falta das aulas regidas pelos jesuítas, devendo então admitir-se que houve uma interrupção nesses cursos no período decorrido de 1759 a 1772. Com relação à instrução primaria, leia-se o artigo Escolas Primárias, em que este assunto é tratado com algum desenvolvimento.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Ricardo Jorge": [
+            "Diretor de saúde publica"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Estabelecimento do liceu desta cidade"
+        ],
+        "1910": [
+            "Fim da Escola Normal"
+        ],
+        "1921": [
+            "Falta de médicos em algumas localidades da Madeira"
+        ],
+        "1900": [
+            "Inicio da Escola Normal"
+        ],
+        "1919": [
+            "Criação da Escola Primaria Superior"
+        ],
+        "1914": [
+            "Inicio da Escola de Pilotagem"
+        ],
+        "1590": [
+            "Existência das primeiras aulas de instrução secundaria"
+        ],
+        "1759": [
+            "Expulsão dos jesuítas e fim das Aulas do Pátio"
+        ],
+        "1772": [
+            "Criação das aulas publicas de filosofia, latinidade, matemática e retórica"
+        ],
+        "1825": [
+            "Criação das aulas de francês e inglês"
+        ]
+    }
+}

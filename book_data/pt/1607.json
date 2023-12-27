@@ -1,0 +1,50 @@
+{
+    "id": 1607,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Gonçalves (Joaquim Melchior)",
+    "fl": "G",
+    "original_title": "Gonçalves (Joaquim Melchior)",
+    "body": "Foi membro da primeira Câmara Constitucional do Funchal, capitão de ordenanças e sócio correspondente da Sociedade dos Amigos das Sciencias e Artes. Condenado pela alçada que veio à Madeira em 1823 a quatro anos de degredo para as ilhas de Cabo Verde, partiu para ali, voltando, porém à pátria em 1826. Constitucional exaltadíssimo, foi pronunciado pela alçada mandada á Madeira em 1828, mas não chegou desta vez a ser preso por se ter homiziado. Conta-se que tendo Melchior Gonçalves saído em certa noite para visitar alguns amigos, se encontrou no Largo da Sé com um bando de quadrilheiros, dirigidos pelo Governador José Maria Monteiro. Reconhecendo que lhe era impossível fugir, tomou a resolução de se dirigir ao referido governador, e declarando-lhe que andava em sua busca para lhe fazer uma comunicação que só por ele devia ser ouvida, pediu-lhe que para poder falar livremente fizesse retirar os quadrilheiros para uma certa distancia. Tendo o pedido sido satisfeito, dispunha-se o governador a ouvir a comunicação que Melchior Gonçalves tinha a fazer-lhe, quando este lhe atirou rapidamente alguns socos que o prostaram, fugindo em seguida, sem que os quadrilheiros, que logo correram em sua perseguição, conseguissem alcançá-lo. Ignoramos as datas do nascimento e do falecimento de Francisco Melchior Gonçalves, mas diz-nos pessoa da sua família que era natural do Campanário e que emigrou antes de 1834 para o Brasil, onde morreu. Gonçalves (Moisés). Era cirurgião-dentista por uma escola de Nova Iorque, tendo exercido durante muitos anos a clinica dentária na cidade de Lisboa com grande clientela e sendo então considerado o mais distinto da sua classe. Em 1895 publicou o importante trabalho «Os Dentes Humanos» num volume de 198 paginas. Era natural da vila de Santa Cruz.",
+    "categories": [
+        "history",
+        "biology"
+    ],
+    "freguesias": [
+        "Campanário",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Campanário": [
+            "Freguesia do Campanário"
+        ],
+        "Cabo Verde": [
+            "Ilhas de Cabo Verde"
+        ],
+        "Lisboa": [
+            "Cidade de Lisboa"
+        ],
+        "Santa Cruz": [
+            "Vila de Santa Cruz"
+        ]
+    },
+    "people": {
+        "Joaquim Melchior Gonçalves": [
+            "Membro da Câmara Constitucional do Funchal, capitão de ordenanças e sócio correspondente da Sociedade dos Amigos das Sciencias e Artes"
+        ],
+        "Moisés Gonçalves": [
+            "Cirurgião-dentista e autor do trabalho «Os Dentes Humanos»"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Condenação a quatro anos de degredo para as ilhas de Cabo Verde"
+        ],
+        "1826": [
+            "Retorno à pátria"
+        ],
+        "1828": [
+            "Pronunciamento pela alçada mandada á Madeira"
+        ]
+    }
+}

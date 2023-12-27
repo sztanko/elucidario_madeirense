@@ -1,0 +1,31 @@
+{
+    "id": 452,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Battenberg (Príncipe de)",
+    "fl": "B",
+    "original_title": "Battenberg (Príncipe de)",
+    "body": "Em Janeiro de 1896 esteve no porto do Funchal o cruzador inglês Blonde, que conduzia o cadáver do príncipe de Battenberg. Este príncipe que acompanhara a expedição inglesa ao País dos Ashantis, morreu em viagem para esta ilha onde tencionava passar uns tempos para restabelecer a sua deteriorada saúde. Era casado com a princesa Beatriz, neta da Rainha Vitoria, de Inglaterra.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto onde o cruzador inglês Blonde atracou"
+        ]
+    },
+    "people": {
+        "Príncipe de Battenberg": [
+            "Falecido em viagem para a ilha da Madeira"
+        ],
+        "Princesa Beatriz": [
+            "Neta da Rainha Vitoria, de Inglaterra"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Morte do príncipe de Battenberg"
+        ]
+    }
+}

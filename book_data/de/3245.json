@@ -1,0 +1,55 @@
+{
+    "id": 3245,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Paulo (Kapellen von)",
+    "fl": "S",
+    "original_title": "São Paulo (Capelas de)",
+    "body": "Die Kapelle dieses Patrons, die sich auf dem Platz von São Paulo befindet, ist eine der ältesten auf dieser Insel und wir glauben, dass sie die erste war, die nach der von Santa Catarina (siehe diesen Namen) erbaut wurde. Sie trug ursprünglich den Namen São Pedro und São Paulo, aber trotz der Tatsache, dass sich dort der Sitz der Gemeinde São Pedro befand, war es die zweite Bezeichnung, die über die Zeiten erhalten blieb und die sich bis heute erhalten hat. Über dem Portal sieht man immer noch die traditionellen Schlüssel oder päpstlichen Wappen, die den Schutzpatron oder die alte Anrufung der Kapelle bezeugen.\n\nIhr Gründer war João Gonçalves Zarco, der in ihrer Nähe sein zweites Haus errichtete, von dem gesagt wird, dass es das erste steinerne Haus in Funchal war. Er zog damals von Santa Catarina dorthin um. Siehe Wohnungen von Zarco.\n\nDas Datum 1426, das über der Außentür steht, die zum kleinen Vorhof führt, bezieht sich offensichtlich auf den ersten Bau.\n\nIm Laufe der Jahrhunderte hat die kleine und bescheidene Kirche mehrere Renovierungen erfahren, von denen sicherlich nichts vom ursprünglichen Gebäude übrig geblieben ist. 1871 wurde dort ein fast vollständiger Wiederaufbau durchgeführt.\n\nDer Gottesdienst wurde in der Kapelle São Paulo bis zum Jahr 1566 von den Franziskanermönchen ausgeübt, als die Gemeinde São Pedro gegründet wurde, deren Sitz sich in der gleichen Kapelle befand. Diese Pfarrei wurde 1579 aufgelöst und 1586 wiederhergestellt, wobei nicht bekannt ist, ob die zweite Einrichtung der Gemeinde in dieser oder einer anderen Kapelle stattfand. 1879 gründete eine Bruderschaft mit der Bezeichnung des Schutzpatrons dort eine Bruderschaft, deren Statuten am 13. März desselben Jahres von der Oberbehörde des Bezirks genehmigt wurden.\n\nIn der Nähe dieser Kapelle wurde das Gebäude für das erste Krankenhaus errichtet, das zu diesem Zweck vom Entdecker João Gonçalves Zarco gespendet worden war, wie bereits auf Seite 366 des zweiten Bandes erwähnt.\n\nEs gab eine Kapelle mit der Anrufung von São Paulo in der Gemeinde Porto do Moniz, von der noch einige Ruinen übrig sind. Sie wurde vom Pfarrer Paulo Vieira Jardim gegründet, der am 15. Februar 1776 starb und in der Kapelle begraben wurde, die er gestiftet hatte. Sie wurde auch São Paulo und Seelen genannt.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro",
+        "Porto do Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Funchal"
+        ],
+        "Santa Catarina": [
+            "Santa Catarina"
+        ],
+        "Porto do Moniz": [
+            "Gemeinde Porto do Moniz"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zarco": [
+            "Gründer der Kapelle"
+        ],
+        "Pfarrer Paulo Vieira Jardim": [
+            "Pfarrer der Gemeinde Porto do Moniz"
+        ]
+    },
+    "years": {
+        "1426": [
+            "Datum über der Außentür"
+        ],
+        "1566": [
+            "Jahr, in dem der Gottesdienst in der Kapelle São Paulo von den Franziskanermönchen ausgeübt wurde"
+        ],
+        "1579": [
+            "Jahr, in dem die Gemeinde São Pedro aufgelöst wurde"
+        ],
+        "1586": [
+            "Jahr, in dem die Gemeinde São Pedro wiederhergestellt wurde"
+        ],
+        "1871": [
+            "Jahr, in dem ein fast vollständiger Wiederaufbau durchgeführt wurde"
+        ],
+        "1879": [
+            "Jahr, in dem eine Bruderschaft mit der Bezeichnung des Schutzpatrons gegründet wurde"
+        ]
+    }
+}

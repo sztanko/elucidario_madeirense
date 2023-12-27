@@ -1,0 +1,56 @@
+{
+    "id": 2468,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora dos Anjos (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora dos Anjos (Capela de)",
+    "body": "«In this parish (Madalena), says Frutuoso, there is a chapel of Nossa Senhora dos Anjos, which, although small, is a rich house, with a small and fresh altarpiece, well adorned, next to which there is a cool spring under some pebbles, among some sugar cane fields of very beautiful canes. Dr. Álvaro de Azevedo gives this chapel as founded in 1508 by Martim Afonso and his wife Isabel Afonso, who established an entail in favor of their son Diogo Martins de Canha, called the Knight. However, the annotator of the Insulana History states that the chapel of the Anjos was ordered to be built in 1474 by the Infanta D. Beatriz, as the guardian of her son, the grand master of the Order of Christ, to which this archipelago belonged spiritually. The image venerated in this chapel was greatly revered by the faithful, with Frei Agostinho de Santa Maria dedicating a chapter to it in vol. X of his Santuário Mariano. The site where the chapel is located, named Anjos, is remarkable for the fertility of its soil, belonging today to the parish of Canhas, but in the past, it was part of the parish of Ponta do Sol. This chapel was restored by its then owner D. Júlia de França Neto in the year 1892 and consecrated for worship on December 10 of the same year.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Madalena",
+        "Canhas",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Madalena": [
+            "Parish"
+        ],
+        "Canhas": [
+            "Parish"
+        ],
+        "Ponta do Sol": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Martim Afonso": [
+            "Founder of the chapel"
+        ],
+        "Isabel Afonso": [
+            "Founder of the chapel"
+        ],
+        "Diogo Martins de Canha": [
+            "Beneficiary of the entail"
+        ],
+        "D. Beatriz": [
+            "Possible commissioner of the chapel's construction"
+        ],
+        "D. Júlia de França Neto": [
+            "Restorer of the chapel"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Foundation of the chapel"
+        ],
+        "1474": [
+            "Possible date of the chapel's construction"
+        ],
+        "1892": [
+            "Restoration of the chapel"
+        ]
+    }
+}

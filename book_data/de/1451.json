@@ -1,0 +1,25 @@
+{
+    "id": 1451,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fort S. Bento da Ribeira Brava",
+    "fl": "F",
+    "original_title": "Forte de S. Bento da Ribeira Brava",
+    "body": "Auf Befehl des Gouverneurs Duarte Sodré Pereira zum Schutz des Ortes erbaut.",
+    "categories": [
+        "architecture",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Duarte Sodré Pereira": [
+            "Gouverneur"
+        ]
+    },
+    "years": {}
+}

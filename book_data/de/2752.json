@@ -1,0 +1,40 @@
+{
+    "id": 2752,
+    "lang": "de",
+    "is_original": false,
+    "title": "Peres (Damião)",
+    "fl": "P",
+    "original_title": "Peres (Damião)",
+    "body": "Er wurde am 8. Juli 1889 in Lissabon geboren. Er war einige Jahre lang Professor und Rektor des Lyzeums in Funchal und ist derzeit Professor an der Philosophischen Fakultät in Porto. Neben den Arbeiten, die er über D. João I. und Portugal und das Schisma veröffentlicht hat, veröffentlichte er 1914 in Funchal eine Broschüre mit dem Titel \"A Madeira sob os donatarios\", die für die Geschichte dieses Archipels in der Zeit bis zum Beginn der philippinischen Herrschaft auf dieser Insel sehr interessant ist (siehe II-100).\n\nEr ist Autor wichtiger historischer Studien, unter denen seine \"Historia de Portugal\" hervorsticht.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lissabon": [
+            "Hauptstadt von Portugal"
+        ],
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Porto": [
+            "Stadt im Norden Portugals"
+        ]
+    },
+    "people": {
+        "D. João I": [
+            "König von Portugal"
+        ],
+        "Damião Peres": [
+            "Autor der erwähnten Arbeiten"
+        ]
+    },
+    "years": {
+        "1889": [
+            "Geburt von Damião Peres"
+        ],
+        "1914": [
+            "Veröffentlichung der Broschüre"
+        ]
+    }
+}

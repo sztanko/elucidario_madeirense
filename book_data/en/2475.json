@@ -1,0 +1,62 @@
+{
+    "id": 2475,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Boa Viagem (Chapels of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Viagem (Capelas de)",
+    "body": "In the place called Carne Azeda in the parish of Santa Luzia, Manuel Pestana Teixeira and his wife Francisca Xavier da Conceição founded a chapel of this invocation in 1711, which was inspected for the purpose of celebrating the acts of worship on June 28 of the same year.\n\nIn the parish of Santa Maria Maior, on the street that still bears the name Boa Viagem, there was a chapel of the same invocation, founded by Bento da Veiga. We do not know the date of its foundation, but we know it was a very old construction. Somewhere we read that it was a building of interesting and characteristic construction, as well as a house adjacent to it. It is affirmed that the first customs house and later the first butcher's shop in the municipality were installed in this house. The desecrated chapel that is now found on Boa Viagem street is not the chapel of this invocation to which we refer here.\n\nNossa Senhora do Bom Despacho (Chapel of). This chapel exists in the parish of Campanário, founded in 1672 by the lord Jerónimo de Atouguia Bettencourt and his wife D. Catarina Espranger, with the endowment deed dated June 27 of that year. In 1762, it was rebuilt by Father Francisco Nicolau de Brito, at that time belonging to a brother of this priest. It now belongs to Feliciano de Brito Correia, a representative of this family (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "Santa Maria Maior",
+        "Campanário"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Locality in the Madeira Island"
+        ],
+        "Santa Maria Maior": [
+            "Locality in the Madeira Island"
+        ],
+        "Campanário": [
+            "Locality in the Madeira Island"
+        ]
+    },
+    "people": {
+        "Manuel Pestana Teixeira": [
+            "Founder of the chapel in the parish of Santa Luzia"
+        ],
+        "Francisca Xavier da Conceição": [
+            "Wife of Manuel Pestana Teixeira"
+        ],
+        "Bento da Veiga": [
+            "Founder of the chapel in the parish of Santa Maria Maior"
+        ],
+        "Jerónimo de Atouguia Bettencourt": [
+            "Founder of the chapel in Campanário"
+        ],
+        "D. Catarina Espranger": [
+            "Wife of Jerónimo de Atouguia Bettencourt"
+        ],
+        "Father Francisco Nicolau de Brito": [
+            "Responsible for the rebuilding of the chapel"
+        ]
+    },
+    "years": {
+        "1711": [
+            "Year of the foundation of the chapel in the parish of Santa Luzia"
+        ],
+        "1672": [
+            "Year of the foundation of the chapel in Campanário"
+        ],
+        "1762": [
+            "Year of the rebuilding of the chapel in Campanário"
+        ],
+        "1921": [
+            "Year in which the chapel belonged to Feliciano de Brito Correia"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": 2092,
+    "lang": "en",
+    "is_original": false,
+    "title": "Machico (Enseada, Porto e Cais de)",
+    "fl": "M",
+    "original_title": "Machico (Enseada, Porto e Cais de)",
+    "body": "Apart from the bays of Funchal, Pôrto Santo, and Abra, the Machico cove is the most extensive and picturesque in the archipelago. It is bordered by a beautiful stretch of beach and two roads that overlook it, directly facing a beautiful valley that extends along the verdant banks of the river for several kilometers. The center of the village is connected to the landing pier by a beautiful tree-lined road, offering the most pleasant walk on calm summer afternoons. Approximately at the southern end of the cove, near the chapel of São Roque, a landing pier was built many years ago, which was completely abandoned. On the other side of the bay, the construction of a pier was planned, taking advantage of a reef that exists there, with a connecting road to the interior of the village, and these works were carried out from 1870 to 1873. Considering that the old landing pier was insufficient, a new and larger pier was built in 1905, which underwent modifications and improvements in 1907. At the three points that delimit the entrance to this bay, three small lighthouses were placed at the end of 1931, which are providing excellent service to the numerous fishing boats that call at this cove during the night. This port is relatively extensive but shallow, so access to large capacity vessels is not permitted. Overlooking the location of the pier, there was an old fort, called the Desembarcadouro or São João Baptista, now dismantled, on whose esplanade a hospital was improvised in 1910, during the cholera epidemic that devastated Madeira at that time.\n\n> See Desembarcadouro",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "São Roque"
+    ],
+    "locations": {
+        "Machico": [
+            "The most extensive and picturesque cove in the archipelago"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1870": [
+            "Construction of the pier"
+        ],
+        "1873": [
+            "Completion of the pier works"
+        ],
+        "1905": [
+            "Construction of a new pier"
+        ],
+        "1907": [
+            "Modifications and improvements to the pier"
+        ],
+        "1910": [
+            "Improvisation of a hospital on the esplanade of the old fort"
+        ]
+    }
+}

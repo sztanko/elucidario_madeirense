@@ -1,0 +1,36 @@
+{
+    "id": 3231,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São João de Latrão (Capela de)",
+    "fl": "S",
+    "original_title": "São João de Latrão (Capela de)",
+    "body": "Esta capela, que foi completamente demolida há cerca de vinte anos (1921) e que já muito antes estava de todo em ruínas, ficava no sítio a que ela mesma deu o nome. Foi mandada construir por Nuno Fernandes Cardoso e sua mulher Leonor Dias, que, por testamento feito em 1511, instituíram o morgadio de São João de Latrão, que tomou o nome da capela que lhe serviu de sede. Referindo-se a esse testamento, diz o anotador das *Saudades*: «Este testamento, do qual temos copia, é modelo do género, pela probidade sã, ingenuidade de crença, e virtuosa altivez que o dictou. A razão de ser, moral e histórica, dos morgados tem naquelle venerando diploma honrosissimo padrão abonatório. O puro typo das instituições vinculares está alli. O nosso tempo não pode acceital-as, é evidente. Mas o historiador justo e esclarecido ajuíza por outra bitola mais subtil e elevada do que a mera confrontação do pretérito com o presente».\n\nO último representante desta casa vinculada foi Nuno Fernandes Cardoso e Vasconcelos, avô de Luis Cardoso de Castro e Abreu, actual professor da freguesia de Gaula (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Gaula": [
+            "Freguesia de Gaula"
+        ]
+    },
+    "people": {
+        "Nuno Fernandes Cardoso": [
+            "Mandou construir a capela"
+        ],
+        "Leonor Dias": [
+            "Esposa de Nuno Fernandes Cardoso"
+        ],
+        "Luis Cardoso de Castro e Abreu": [
+            "Atual professor da freguesia de Gaula"
+        ]
+    },
+    "years": {
+        "1511": [
+            "Testamento de Nuno Fernandes Cardoso e Leonor Dias"
+        ]
+    }
+}

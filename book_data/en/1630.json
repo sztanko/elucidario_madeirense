@@ -1,0 +1,32 @@
+{
+    "id": 1630,
+    "lang": "en",
+    "is_original": false,
+    "title": "Grabham (Dr. Michael)",
+    "fl": "G",
+    "original_title": "Grabham (Dr. Michael)",
+    "body": "An English doctor born on January 11, 1840, who resided in Funchal for many years. He published *The Climate and resources of Madeira*, London, 1870 and *Materia Atlantica*, London, 1901. This latter work, written in Portuguese, was intended to serve as a guide for people visiting this island, on the occasion of the visit of the kings of Portugal. Dr. Grabham published some articles in the London press about Madeira.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Residence for many years"
+        ]
+    },
+    "people": {
+        "Dr. Michael Grabham": [
+            "English doctor"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Dr. Michael Grabham published *The Climate and resources of Madeira* in 1870"
+        ],
+        "1901": [
+            "Dr. Michael Grabham published *Materia Atlantica* in 1901"
+        ]
+    }
+}

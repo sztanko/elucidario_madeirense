@@ -1,0 +1,43 @@
+{
+    "id": 1822,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jardim (Dr. Manuel Gomes)",
+    "fl": "J",
+    "original_title": "Jardim (Dr. Manuel Gomes)",
+    "body": "Nasceu na freguesia do Porto do Moniz a 9 de Janeiro de 1881. Concluído o curso do Seminário Diocesano, frequentou em Roma a Universidade Gregoriana, tendo-se ordenado de presbítero no ano de 1904. Em 1921 foi nomeado cónego da Sé do Funchal. Há anos que é professor do Seminário desta diocese. Tem tido varia colaboração nalguns jornais, sendo actualmente (1921) o director da *Vida Diocesana*. Dos seus discursos sacros estão publicados em opúsculos–Sermão ao Santíssimo Sacramento, Funchal, 1912 e *Oração Fúnebre nas exéquias do S. Pontífice Pio X*, Lisboa, 1915 e num volume *A Aurora da Redenção*. É autor dos notáveis trabalhos de polémica religiosa *As Razões do Protestantismo*, *A Existencia de Deus á luz da sciencia e da razão* e *A Igreja e o Protestantismo*. Em defesa da restituição do edifício do Seminário da Incarnação á Comissão Diocesana do Culto do Funchal escreveu o opúsculo A Legalidade do Decreto n ° 13.514.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Porto do Moniz"
+    ],
+    "locations": {
+        "Porto do Moniz": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Funchal": [
+            "Capital da Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "S. Pontífice Pio X": [
+            "Papa da Igreja Católica"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Nascimento de Manuel Gomes Jardim"
+        ],
+        "1904": [
+            "Ordenação de presbítero"
+        ],
+        "1912": [
+            "Publicação de *Sermão ao Santíssimo Sacramento*"
+        ],
+        "1915": [
+            "Publicação de *Oração Fúnebre nas exéquias do S. Pontífice Pio X*"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 156,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almas (Capelas das)",
+    "fl": "A",
+    "original_title": "Almas (Capelas das)",
+    "body": "In the parish of Ribeira Brava, in a location that is now unknown, the cooper Antonio Rodrigues Jardim founded a small chapel dedicated to the Souls of Purgatory in the year 1652.\n\nIn the location of Vargem in the parish of Estreito de Câmara de Lobos, there is a chapel with the same invocation, but the founder and year of construction are unknown.\n\nThere is a chapel of Almas in the parish of Calheta, with no further details known about it.\n\nAround 1710, the people built a small chapel of Almas in the churchyard of the parish church of Estreito de Câmara de Lobos, which was later demolished.\n\nAdjacent to the parish church of Ponta do Sol, a chapel of the same invocation was built, which was ordered to be demolished by the Municipal Council around 1925 to widen the street of Dr. João Augusto Teixeira.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Estreito de Câmara de Lobos",
+        "Calheta",
+        "Ponta do Sol"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1652": [
+            "Foundation of the chapel dedicated to the Souls of Purgatory by Antonio Rodrigues Jardim"
+        ],
+        "1710": [
+            "Construction of a small chapel of Almas in the churchyard of the parish church of Estreito de Câmara de Lobos"
+        ],
+        "1925": [
+            "Demolition of the chapel of the same invocation adjacent to the parish church of Ponta do Sol"
+        ]
+    }
+}

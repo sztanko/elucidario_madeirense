@@ -1,0 +1,41 @@
+{
+    "id": 1595,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gomes (António Gil)",
+    "fl": "G",
+    "original_title": "Gomes (António Gil)",
+    "body": "Antonio Gil Gomes was born in the parish of Arco de S. Jorge on June 23, 1803, and died in Funchal on July 3, 1868, being the son of Captain João José Gil Gomes and D. Maria Justina Gil Gomes. His liberal ideas forced him to leave Madeira in 1828, avoiding the persecutions and harassment suffered by some of his friends and family members. In Rio de Janeiro, where he settled, he devoted himself to teaching and collaborated regularly in various newspapers, also writing some pamphlets, which he published in that city. Upon the establishment of the representative government, he promptly returned to his homeland, arriving in August 1834, and dedicated himself to the study and cultivation of literature, living entirely removed from party struggles and almost entirely segregated from social life. In Funchal, he had a significant contribution to many newspapers published in this city, focusing mainly on economic subjects. He also published a pamphlet on customs reforms and a book entitled Compilation of Elements of Rational Philosophy. In his time, he enjoyed the reputation of a man of extraordinary intelligence and extensive knowledge.",
+    "categories": [
+        "history",
+        "society",
+        "education"
+    ],
+    "freguesias": [
+        "Arco de S. Jorge"
+    ],
+    "locations": {
+        "Arco de S. Jorge": [
+            "Place of birth"
+        ],
+        "Funchal": [
+            "Place of death and newspaper collaboration"
+        ]
+    },
+    "people": {
+        "António Gil Gomes": [
+            "Man of letters and professor"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Departure from Madeira"
+        ],
+        "1834": [
+            "Return to Madeira"
+        ],
+        "1868": [
+            "Death"
+        ]
+    }
+}

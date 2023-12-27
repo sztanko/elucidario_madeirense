@@ -1,0 +1,28 @@
+{
+    "id": 14,
+    "lang": "de",
+    "is_original": false,
+    "title": "Abreu (João de)",
+    "fl": "A",
+    "original_title": "Abreu (João de)",
+    "body": "Gaspar Correia erwähnt in seinen Legenden von Indien den Madeirer João de Abreu, der im September 1513 mit der Flotte unter dem Kommando von João de Sousa Lima in der Bucht von Goa ankam und sich in verschiedenen Zusammenstößen mit den Indern im Orient auszeichnete, wodurch er einen berühmten Namen in den Annalen unserer Kämpfe jenseits des Meeres hinterließ.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Goa": [
+            "Ort, an dem João de Abreu im September 1513 ankam"
+        ]
+    },
+    "people": {
+        "João de Abreu": [
+            "Madeirer, der sich in verschiedenen Zusammenstößen mit den Indern im Orient auszeichnete"
+        ]
+    },
+    "years": {
+        "1513": [
+            "Ankunft von João de Abreu in der Bucht von Goa"
+        ]
+    }
+}

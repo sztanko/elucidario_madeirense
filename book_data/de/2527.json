@@ -1,0 +1,64 @@
+{
+    "id": 2527,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau vom Beistand (Kapellen von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Socorro (Capelas de)",
+    "body": "In einem fortgeschrittenen Zustand des Verfalls und für profane Zwecke verwendet, befindet sie sich an der Stelle Azenha, in der Gemeinde Caniço, neben einem Landhaus ehemaliger Majoratsherren, die Kapelle Unserer Lieben Frau vom Beistand. Weder der Name des Gründers noch das Jahr des Baus sind bekannt.\n\nEine Notiz der Sehnsüchte besagt, dass es mit dieser Anrufung eine Kapelle in der Gemeinde Estreito de Câmara de Lobos gab, die 1684 von Maria de Aguiar, der Witwe von Gonçalo de Faria Leal, gegründet wurde.\n\nEs gab in der Gemeinde Canhas, an der Stelle Socorro, eine von João Fernandes Linhares im Jahr 1665 errichtete Kapelle, und in der Gemeinde Porto da Cruz gibt es mit diesem Patronat eine Einsiedelei, die ursprünglich den Namen Unserer Lieben Frau von Bethlehem trug. Wir wissen nicht, wer der Gründer war, aber sie gehörte zum Majorat, das der Hauptmann Manuel Telo Moniz de Meneses, aus dem Haus Lagoa der gleichen Gemeinde, errichtet hatte, das später Majorat Torresão genannt wurde. Sie wurde um 1713 erbaut und befindet sich in einem ordentlichen Erhaltungszustand. Sie ist Eigentum von D. Cristina de Campos Pinto Soares, die in Lissabon ansässig ist (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Estreito de Câmara de Lobos",
+        "Canhas",
+        "Porto da Cruz",
+        "Lagoa"
+    ],
+    "locations": {
+        "Caniço": [
+            "Ort auf Madeira"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Ort auf Madeira"
+        ],
+        "Canhas": [
+            "Ort auf Madeira"
+        ],
+        "Porto da Cruz": [
+            "Ort auf Madeira"
+        ],
+        "Lagoa": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Maria de Aguiar": [
+            "Gründerin der Kapelle in Estreito de Câmara de Lobos"
+        ],
+        "Gonçalo de Faria Leal": [
+            "Ehemann von Maria de Aguiar"
+        ],
+        "João Fernandes Linhares": [
+            "Stifter der Kapelle in Canhas"
+        ],
+        "Manuel Telo Moniz de Meneses": [
+            "Stifter des Majorats in Porto da Cruz"
+        ],
+        "D. Cristina de Campos Pinto Soares": [
+            "Eigentümerin 1921"
+        ]
+    },
+    "years": {
+        "1684": [
+            "Gründung der Kapelle in Estreito de Câmara de Lobos"
+        ],
+        "1665": [
+            "Errichtung der Kapelle in Canhas"
+        ],
+        "1713": [
+            "Bau der Einsiedelei in Porto da Cruz"
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": 2478,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Calhau (Igreja de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Calhau (Igreja de)",
+    "body": "Foi conhecida esta igreja por várias denominações. Chamava-se-lhe Conceição de Baixo, para a distinguir da capela que Zarco edificara no local onde depois se levantou o convento de Santa Clara, e que era conhecida pelo nome de Conceição de Cima; também se lhe chamou Santa Maria Maior, em contraposição á pequena igreja de Conceição de Cima, que era de mais acanhadas dimensões; e teve finalmente o nome de Nossa Senhora do Calhau, que foi o que mais perdurou, por estar situada não longe da praia e num lugar a que comummente chamavam o calhau. E a tal propósito diz o Dr. G. Frutuoso: «Feita pousada neste logar (Santa Catarina), em que agasalhou sua mulher e filhos, entendeo o capitam Zargo em fazer huma igreja que fosse princípio e fundamento da villa do Funchal; e por estar segura e bem assentada, a mandou ordenar á beira do mar no cabo do valle do Funchal, ao longo da primeira ribeira deste prado, onde fazia o mar continuo á corrente da ribeira huma abra de muitos calhaos e seixos miudos, lavados da continuação das ondas delle, que nella batiam; e por esta razão houve nome esta primeira igreja do Funchal vulgarmente Nossa Senhora do Calhao, sendo seu orago a Natividade da Virgem ...»\n\nA sua construção começou por 1438, quando já então se havia constituído um importante núcleo de população para além da margem esquerda da ribeira, que depois teve o nome de João Gomes. Uma grande aluvião que assolou a cidade no ano de 1611, destruiu em boa parte a igreja e o hospital que lhe ficava anexo, sendo então projectada a construção dum novo templo em local mais abrigado e seguro. Parece que esta edificação se não fez desde logo, pois diz uma nota das Saudades que a igreja foi reconstruída entre os anos de 1664 e 1688.\n\nOutra enchente ocorrida em 1707, causou varias danificações na nova igreja e destruiu uma parte considerável do adro, havendo-se então realizado obras importantes na muralha que punha o templo ao abrigo da corrente impetuosa da ribeira. Isto não obstou a que a grande cheia de 1803 fizesse abater a igreja, deixando-lhe apenas de pé uma parte da capela-mor. A provisão de 10 de Março de 1805 determinou que se conservassem cuidadosamente estas ruínas no mesmo estado em que as deixara a aluvião, como lembrança, para os vindouros, do acontecimento que mais funesto fôra para os habitantes desta ilha. Não aconteceu, porém, assim, porque trinta e dois anos depois, isto é no mês de Dezembro de 1835, mandou a Câmara do Funchal demolir a parte que restava ainda da velha e histórica igreja, para ali se edificar um mercado de frutas e hortaliças, que teve o nome de Mercado União e cuja construção se realizou no ano de 1835.\n\nNão é exacta a afirmativa do Dr. Gaspar Frutuoso quando diz que a igreja do Calhau foi a primeira edificada no Funchal. Segundo o anotador das Saudades, foi a capela de São Sebastião a primeira que aqui se levantou, afirmando outros que o direito de prioridade pertence á capela de Santa Catarina (V. este nome), construída de madeira junto à moradia de João Gonçalves Zargo, compartilhando nós desta opinião, por julgarmos ser a que mais se aproxima da verdade histórica.\n\nA aluvião de 1803 arrastando para o mar a igreja de N. S. do Calhau, destruiu conjuntamente o arquivo paroquial, que era importante e continha documentos de valor.\n\nA sede da paróquia passou em fins do ano de 1803 para a igreja de Santiago, que era propriedade da Câmara Municipal. Vid. Santiago (Igreja de).\n\nConvém aqui advertir que a igreja de Nossa Senhora do Calhau ficava situada na margem esquerda da ribeira de João Gomes, entre as embocaduras das actuais rua de Santa Maria e rua Nova de Santa Maria ou de Latino Coelho. No local onde se erguia a igreja foi construído, como já fica referido, um mercado de frutas e hortaliças, que há poucos anos se demoliu para o alargamento da rua que margina a mesma ribeira. (V. Mercados).\n\nTambém notaremos que o antigo hospital, ou uma das suas dependências, ficava contíguo a esta igreja, como claramente se demonstra com o que se acha exarado num livro de provimentos do respectivo arquivo paroquial, único que escapou da aluvião de 1803, lendo-se ali que no recinto da igreja, com grave perturbação dos fiéis, se ouviam os gritos dos doentes, sobretudo por ocasião das operações ou dos curativos mais dolorosos.",
+    "categories": [
+        "history",
+        "religion",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Importante núcleo de população para além da margem esquerda da ribeira, que depois teve o nome de João Gomes."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1438": [
+            "Construção da igreja Nossa Senhora do Calhau começou."
+        ],
+        "1611": [
+            "Grande aluvião que destruiu em boa parte a igreja e o hospital que lhe ficava anexo."
+        ],
+        "1664-1688": [
+            "Reconstrução da igreja."
+        ],
+        "1707": [
+            "Outra enchente causou danificações na nova igreja e destruiu uma parte considerável do adro."
+        ],
+        "1803": [
+            "Grande cheia que fez abater a igreja, deixando-lhe apenas de pé uma parte da capela-mor."
+        ],
+        "1805": [
+            "Provisão determinou que se conservassem cuidadosamente as ruínas da igreja como lembrança do acontecimento."
+        ],
+        "1835": [
+            "Demolição da parte restante da igreja para a construção de um mercado de frutas e hortaliças."
+        ]
+    }
+}

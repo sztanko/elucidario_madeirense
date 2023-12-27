@@ -1,0 +1,40 @@
+{
+    "id": 2464,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau von der Hilfe (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Ajuda (Capela de)",
+    "body": "Fast am Rand der Straße, die von der Denkmalsbrücke zum Dorf Câmara de Lobos führt, befindet sich die Kapelle Unserer Lieben Frau von der Hilfe, die von Fernão Favila auf dem Bauernhof errichtet wurde, den er in São Martinho besaß. Dort richtete er den Sitz eines Fideikommisses ein. Dieser Fernão Favila war ein Edelmann des Königshauses und kämpfte tapfer in Afrika. Danach ließ er sich auf dieser Insel nieder, wo er Beatriz Pires heiratete. Andere Genealogen behaupten jedoch, dass es Antonio Favila, der Sohn von Fernão Favila, war, der das Fideikommiss von Piornais mit Sitz in der Hilfe-Kapelle einrichtete, wo er begraben liegt. Er starb im Oktober 1545. Der Ratsherr Manuel José Vieira führte als Eigentümer dieser Kapelle 1876 umfangreiche Restaurierungsarbeiten durch. Die Kapelle wurde am 16. August desselben Jahres geweiht.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Dorf in der Nähe der Kapelle Unserer Lieben Frau von der Hilfe"
+        ],
+        "São Martinho": [
+            "Standort der Kapelle Unserer Lieben Frau von der Hilfe"
+        ]
+    },
+    "people": {
+        "Fernão Favila": [
+            "Edelmann des Königshauses und Gründer des Fideikommisses von Piornais"
+        ],
+        "Antonio Favila": [
+            "Sohn von Fernão Favila, Gründer des Fideikommisses von Piornais"
+        ]
+    },
+    "years": {
+        "1545": [
+            "Tod von Antonio Favila"
+        ],
+        "1876": [
+            "Jahr der umfangreichen Restaurierungsarbeiten an der Kapelle"
+        ]
+    }
+}

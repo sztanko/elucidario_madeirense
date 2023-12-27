@@ -1,0 +1,30 @@
+{
+    "id": 1910,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lagartixa (Lacerta Dugesii)",
+    "fl": "L",
+    "original_title": "Lagartixa (Lacerta Dugesii)",
+    "body": "A small reptile very common in Madeira and which causes great damage to grapes, tomatoes, etc. It existed on the island before its discovery, as Gaspar Frutuoso refers to it in the following terms: 'in this cool island, no other kind of creatures was found except for some small lizards the size of a finger, which do not cause noticeable damage, nor are they venomous.' Frutuoso also mentioned the lizards on the island of Porto Santo (See Saudades, page 50), and the naturalist R. T. Lowe found among the calcareous bodies of Piedade the jaws of a small vertebrate that Professor Owen saw to be a reptile, but could not declare, due to lack of materials for comparison, whether it was identical to the Madeiran lizard.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historian"
+        ],
+        "R. T. Lowe": [
+            "Naturalist"
+        ],
+        "Owen": [
+            "Professor"
+        ]
+    },
+    "years": {}
+}

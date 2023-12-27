@@ -1,0 +1,32 @@
+{
+    "id": 1105,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Curso de Desenho",
+    "fl": "C",
+    "original_title": "Curso de Desenho",
+    "body": "Houve no Funchal um curso de desenho sustentado pela Camara Municipal, que foi inaugurado no dia 1 de Outubro de 1877 e extinto em sessão camararia de 1 de Setembro de 1892. Regia este curso o director das obras municipais do Concelho, o falecido José Maria Teixeira de Agrela.",
+    "categories": [
+        "education",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local do curso"
+        ]
+    },
+    "people": {
+        "José Maria Teixeira de Agrela": [
+            "Diretor do curso"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Ano de inauguração"
+        ],
+        "1892": [
+            "Ano de extinção"
+        ]
+    }
+}

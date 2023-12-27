@@ -1,0 +1,48 @@
+{
+    "id": 3232,
+    "lang": "de",
+    "is_original": false,
+    "title": "São João Nepomuceno (Kapelle)",
+    "fl": "S",
+    "original_title": "São João Nepomuceno (Capela de)",
+    "body": "João Nepomuceno de Freitas Leal ließ im Jahr 1776 diese Kapelle neben seinem Wohnhaus im Ort Folhadal in der Gemeinde Porto da Cruz errichten. Die Stiftungsurkunde der Kapelle ist vom 3. November dieses Jahres datiert, belastet mit einem Gut \"wo sie die Tür des Paters gegenüber der Tenne nennen, ebenfalls gegenüber, wo der besagte Pater Manuel de Gouveia wohnt, den er von seinem Vater Pantaleão de Freitas Leal geerbt hat\", wie in derselben Urkunde zu lesen ist. Die Erlaubnis, sie einzuweihen, wurde am 3. März 1786 erteilt. Durch päpstliches Breve aus demselben Jahr wurde dieser Kapelle das Privileg eines privilegierten Altars verliehen.\n\nAls im Jahr 1800 die Pfarrei von Porto da Cruz gegründet wurde, wurde dem Pfarrer die Verpflichtung auferlegt, in der Nähe dieser Kapelle zu residieren und darin die Gottesdienste zu feiern. Sie war von 1812 bis 1822 geschlossen, weil der jeweilige Verwalter sie der Pfarrgerichtsbarkeit entziehen wollte.\n\nSie stand immer im Besitz und unter der Verwaltung der Familie Freitas Leal. Dona Luzia Leal, Nichte des Stifters, vermachte die kleine Kirche Dona Augusta Lomelino de Freitas Leal, der Frau des Rates Dr. João Baptista de Freitas Leal. Deren Neffen Antonio Lomelino Bianchi und Geschwister sind derzeit die Besitzer (1921).\nDiese Kapelle ist gut erhalten und es werden darin Kultushandlungen gefeiert.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Folhadal": [
+            "Ort Folhadal, Gemeinde Porto da Cruz"
+        ],
+        "Porto da Cruz": [
+            "Gemeinde Porto da Cruz"
+        ]
+    },
+    "people": {
+        "João Nepomuceno de Freitas Leal": [
+            "Erbauer der Kapelle"
+        ],
+        "D. Luzia Leal": [
+            "Nichte des Stifters"
+        ],
+        "D. Augusta Lomelino de Freitas Leal": [
+            "Frau des Rates Dr. João Baptista de Freitas Leal"
+        ],
+        "Antonio Lomelino Bianchi": [
+            "Aktueller Besitzer der Kapelle"
+        ],
+        "João Baptista de Freitas Leal": [
+            "Rat"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Bau der Kapelle durch João Nepomuceno de Freitas Leal"
+        ],
+        "1800": [
+            "Gründung der Pfarrei Porto da Cruz"
+        ]
+    }
+}

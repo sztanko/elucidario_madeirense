@@ -1,0 +1,26 @@
+{
+    "id": 2539,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nova Aldeia ou Aldeia da Rainha",
+    "fl": "N",
+    "original_title": "Nova Aldeia ou Aldeia da Rainha",
+    "body": "A settlement founded by royal decree on December 18, 1768, in the parish of Santo da Serra, and consisting of several households from the island of Porto Santo, who transferred there and to whom the mainland government granted various privileges. However, this new settlement did not have a long existence.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1768": [
+            "Foundation of the settlement"
+        ]
+    }
+}

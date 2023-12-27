@@ -1,0 +1,31 @@
+{
+    "id": 2295,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Milho (Zea Mays)",
+    "fl": "M",
+    "original_title": "Milho (Zea Mays)",
+    "body": "Graminea originaria da América, cuja introdução na ilha é muito posterior á do trigo, cevada e centeio. A papa da farinha de milho constitui a base de alimentaçao de dois terços da população madeirense e o grão serve para sustento do gado e das aves. A panícula formada pelas flores masculinas (bandeira do milho) e os caules e fôlhas da planta podem também ser dados aos gados, ao passo que as brácteas que rodeiam a inflorescencia feminina costumam ser aproveitadas para encher colchões. Esta inflorescencia ou espadice recebe o nome de maçaroca; as barbas do milho são os longos estiletes ou filamentos que terminam o ovario. A cultura do milho é antiga na Madeira, mas foi em 1847 que Laureano da Câmara Falcão, mais conhecido pelo nome de morgado da Ilha (sitio da freguesia de S. Jorge), a desenvolveu nas freguesias de Santana e S. Jorge, mandando vir para este fim do arquipélago dos Açores alguns agricultores que ensinaram aqui os processos de cultura adoptados naquele arquipélago. Os resultados que ele tirou do seu empreendimento foram bastante lisonjeiros, e para animar a cultura do milho entre nós, apareceu a lei de 22 de Julho de 1853, que isentou do pagamento dos dízimos o que fosse produzido na terra. A produção do milho no arquipélago não vai além de 6.000 hectolitros, sendo necessário importar cerca de 11 milhões de hectolitros para satisfazer às exigências do consumo em todo o distrito (1921).",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [
+        "Santana",
+        "S. Jorge"
+    ],
+    "locations": {},
+    "people": {
+        "Laureano da Câmara Falcão": [
+            "Desenvolveu a cultura do milho nas freguesias de Santana e S. Jorge"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Laureano da Câmara Falcão desenvolveu a cultura do milho nas freguesias de Santana e S. Jorge"
+        ],
+        "1853": [
+            "Lei que isentou do pagamento dos dízimos o que fosse produzido na terra"
+        ]
+    }
+}

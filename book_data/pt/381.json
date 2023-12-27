@@ -1,0 +1,31 @@
+{
+    "id": 381,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Baker (Alice)",
+    "fl": "B",
+    "original_title": "Baker (Alice)",
+    "body": "E.: A Summer in the Azores With a Glimpse of Madeira, Boston, 1882.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Azores": [
+            "Grupo de ilhas no Atlântico Norte."
+        ],
+        "Madeira": [
+            "Ilha no Oceano Atlântico."
+        ]
+    },
+    "people": {
+        "Alice Baker": [
+            "Autora do livro 'A Summer in the Azores With a Glimpse of Madeira'."
+        ]
+    },
+    "years": {
+        "1882": [
+            "Ano de publicação do livro 'A Summer in the Azores With a Glimpse of Madeira'."
+        ]
+    }
+}

@@ -1,0 +1,44 @@
+{
+    "id": 1479,
+    "lang": "en",
+    "is_original": false,
+    "title": "Freire (Ascenso de Sequeira)",
+    "fl": "F",
+    "original_title": "Freire (Ascenso de Sequeira)",
+    "body": "He was appointed governor and captain-general of Madeira on October 15, 1803, having arrived in Funchal on December 5 of the same year and taken office on the 8th of the same month and year, while his predecessor D. José Manuel da Câmara was still in the city. He was accompanied by the magistrate Dr. Joaquim Antonio de Araújo, tasked with conducting an inquiry into the serious disagreements that occurred between the governor and captain-general D. José Manuel da Câmara and Bishop D. Luiz Rodrigues de Vilares. (See these names). During his government, due to the European wars, English warships frequently entered our port, bringing various vessels, mainly Spanish, which they captured on the high seas. The important improvement of the water supply system and the construction of the walls of the three streams that run through the city took place in 1804 and 1805, under the direction of the distinguished engineer, Brigadier Reinaldo Oudinot (See this name). Ascenso de Sequeira Freire left Madeira after the arrival of his successor Pedro Fagundes Bacelar de Antas e Meneses, who took office at the end of July 1807.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Arrival in Funchal"
+        ]
+    },
+    "people": {
+        "Ascenso de Sequeira Freire": [
+            "Governor and captain-general of Madeira"
+        ],
+        "D. José Manuel da Câmara": [
+            "Predecessor"
+        ],
+        "D. Luiz Rodrigues de Vilares": [
+            "Bishop"
+        ],
+        "Dr. Joaquim Antonio de Araújo": [
+            "Magistrate tasked with conducting an inquiry"
+        ],
+        "Reinaldo Oudinot": [
+            "Distinguished engineer, Brigadier"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Appointed governor and captain-general of Madeira"
+        ],
+        "1804": [
+            "Important improvement of the water supply system and construction of the walls of the three streams"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 843,
+    "lang": "de",
+    "is_original": false,
+    "title": "Zwiebel (Allium cepa)",
+    "fl": "Z",
+    "original_title": "Cebola (Allium cepa)",
+    "body": "Liliengewächs, das aus Turkestan stammt und auf Madeira weit verbreitet ist.\n\nDie Madeirer nennen die jungen Pflanzen und Samen cebolinho. Die Zwiebel wird neben ihrer kulinarischen Verwendung auch in der Medizin eingesetzt, wobei sie roh mit kalter Milch bei Wassersucht verwendet werden kann und gekocht oder gebacken als Umschlag bei Neuralgien und bestimmten Tumoren. Madeira exportierte 1911 1.171.678 kg Zwiebeln, 1912 899.895 kg, 1913 874.385 kg und 1914 861.697 kg. Der Export geht fast ausschließlich nach Demerara und die britischen Westindischen Inseln.",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Demerara": [
+            "Exportziel für Zwiebeln"
+        ],
+        "Die britischen Westindischen Inseln": [
+            "Exportziel für Zwiebeln"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1911": [
+            "Export von 1.171.678 kg Zwiebeln"
+        ],
+        "1912": [
+            "Export von 899.895 kg Zwiebeln"
+        ],
+        "1913": [
+            "Export von 874.385 kg Zwiebeln"
+        ],
+        "1914": [
+            "Export von 861.697 kg Zwiebeln"
+        ]
+    }
+}

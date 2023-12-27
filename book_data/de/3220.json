@@ -1,0 +1,74 @@
+{
+    "id": 3220,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Filipe (Kapelle von)",
+    "fl": "S",
+    "original_title": "São Filipe (Capela de)",
+    "body": "Der Flame António de Leme erhielt Ländereien in der Gemeinde Santo António an der Stelle, die heute noch als Quinta do Leme bekannt ist. Dort errichtete er ein Haus und eine Kapelle, von der der Anmerker der Saudades das Jahr 1536 festlegt. Aus Dokumenten, die wir untersuchen konnten, geht hervor, dass diese Kapelle São Filipe 1654 von Inacio da Câmara Leme wiederaufgebaut wurde, dem Nachfolger des Gründers in der Verwaltung dieses Anwesens. Das Erdbeben von 1748 ließ sie in große Ruinen fallen, so dass sie 1752 von ihrem Verwalter Francisco Aurelio da Câmara Leme wiederaufgebaut werden musste.\n\nAn der Stelle, die heute noch den Namen São Filipe in der Gemeinde Santa Maria Maior trägt, befindet sich eine dieser Anrufung geweihte, entweihte und in einem fortgeschrittenen Zustand des Verfalls befindliche Kapelle, die 1562 von Filipe Gentil de Limoges erbaut wurde und das Oberhaupt der von ihm in jenem Jahr gegründeten Majorat war.\n\nAn anderer Stelle haben wir bereits gesagt, dass auf einer Grabplatte in dieser Kapelle bis vor kurzem die Inschrift zu lesen war: \"Grab der Unschuldigen, die in der Achada dieser Stadt tyrannisch ermordet wurden. 1621.\" Wir wissen nicht, auf welche Personen sich diese Inschrift bezieht und welche Gründe zu diesen Todesfällen geführt haben, aber es ist anzunehmen, dass es sich um Personen der Familie Limoges handelt, der die genannte Kapelle gehörte (1921).\n\nSpätere Erkenntnisse ermöglichen es, mit Sicherheit zu sagen, dass das Datum, das auf dem genannten Grab eingraviert ist, 1666 ist und dass sich die Inschrift auf die dortige Bestattung der Gebeine vieler Kinder bezieht, die von der \"Amme der Findelkinder\" jener Zeit getötet und in der Nähe ihres Wohnsitzes im bekannten Ort Achada in der Gemeinde São Roque begraben wurden. Diese Kapelle, die sich in einem fortgeschrittenen Zustand des Verfalls befand, wurde von ihrer Eigentümerin, der Gräfin von Torre Bela, restauriert und am 13. April 1925 vom Diözesanbischof geweiht.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Santa Maria Maior",
+        "São Roque"
+    ],
+    "locations": {
+        "Santo António": [
+            "Gemeinde"
+        ],
+        "Quinta do Leme": [
+            "Ort"
+        ],
+        "Santa Maria Maior": [
+            "Gemeinde"
+        ],
+        "Achada": [
+            "Ort"
+        ],
+        "São Roque": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "António de Leme": [
+            "Flame"
+        ],
+        "Inacio da Câmara Leme": [
+            "Nachfolger des Gründers in der Verwaltung dieses Anwesens"
+        ],
+        "Francisco Aurelio da Câmara Leme": [
+            "Verwalter"
+        ],
+        "Filipe Gentil de Limoges": [
+            "Gründer der Kapelle"
+        ]
+    },
+    "years": {
+        "1536": [
+            "Bau der Kapelle"
+        ],
+        "1654": [
+            "Wiederaufbau der Kapelle"
+        ],
+        "1748": [
+            "Erdbeben, das die Kapelle in Ruinen zurückließ"
+        ],
+        "1752": [
+            "Wiederaufbau der Kapelle"
+        ],
+        "1562": [
+            "Bau der Kapelle durch Filipe Gentil de Limoges"
+        ],
+        "1621": [
+            "Inschrift auf der Grabplatte"
+        ],
+        "1666": [
+            "Datum, das auf dem Grab eingraviert ist"
+        ],
+        "1925": [
+            "Restaurierung der Kapelle"
+        ]
+    }
+}

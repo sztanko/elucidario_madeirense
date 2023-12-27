@@ -1,0 +1,40 @@
+{
+    "id": 207,
+    "lang": "en",
+    "is_original": false,
+    "title": "Anais do Município",
+    "fl": "A",
+    "original_title": "Anais do Município",
+    "body": "The ordinance of November 8, 1848 imposed on the Municipal Councils the obligation to possess a book entitled Anais do Município and to enter in it, in the month of March of each year, a summary of all the events, notes, and information that might be of interest to the history of the respective municipality. The illustrious civil governor of this archipelago, José Silvestre Ribeiro, who never neglected any matter that could contribute to the material and intellectual progress of his administered people, raised the observance of that ordinance in his circulars to the councils and administrators of the district on January 3, 1848, and January 22, 1850, in which, with the most persuasive reasons, he showed the advantages and the necessity of carrying out that governmental measure. Few municipalities, starting with the capital of the district, complied with that so useful and necessary determination.\n\nWe only know that the councils of Porto Santo, Machico, and Calheta had written their annals, although in subsequent years they omitted their continuation, not complying with the law in its entirety and thus making its observance almost entirely useless.\n\nIn Porto Santo, the respective council administrator João de Sant'Ana e Vasconcelos was the one who in 1848 collected the necessary notes and gave the final editing to the annals of that municipality. It is a valuable work and can be considered as an interesting monograph about the island of Porto Santo, both from a historical point of view and also in terms of the description of the island, statistics of its productions, population, customs, etc. Despite its deficiencies, it is a work that greatly honors the memory of its author. It was fully published in Heraldo da Madeira in the months of January, February, and March of 1906, and some excerpts had been published much earlier in the Diário de Noticias of this city.\n\nLess complete, but also interesting and with valuable data for the history of the municipality, are the annals of Machico, which seem to have been written by José Antonio de Almada, a native of that town and who was a clerk of the court in the district of Funchal. They remained unpublished until 1906, when, in November, they were fully published in Heraldo da Madeira.\n\nThere is also mention of the annals of the municipality of Calheta, which remain unpublished and contain some valuable elements for the history of that municipality.\n\nThe Funchal Council first entrusted the writing of its annals to Marceliano Ribeiro de Mendonça, then to Francisco de Andrade, and finally to Augusto César de Freitas, the second one refused to write them, and the first and the third did nothing, although it is not known that they had refused to perform such a service.\n\nIn a session on October 7, 1897, the Council approved a proposal from its president for there to be a book in the municipal archive describing in detail the history of all the major works, resolutions, and improvements carried out by the Municipality, but this decision was never implemented, for reasons that we ignore. The book intended for the annals ordered to be organized by Counselor Silvestre Ribeiro still exists in the Municipal Archive, perfectly blank.\n\nWater analysis. The results of the analysis of the various waters of Madeira are contained in the following booklets:\n1.° Chemical and bacteriological analysis of the Fonte Férrea do Jamboto (Funchal, 1900).\n2.° Chemical analysis of drinking waters from various sources in the city of Funchal (Funchal, 1900). It contains the analysis of the sources of João Diniz, Campo da Barca, Ribeira de Santa Luzia, and Corujeira de Baixo.\n3.° Chemical and bacteriological analysis of the waters of the Tornos springs (Funchal, 1900)\nThe waters of S. Roque, in Machico, and Fontinha, in Porto Santo, were also analyzed, and the results of these analyses were published in Heraldo da Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Machico",
+        "Calheta",
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "José Silvestre Ribeiro": [
+            "Civil governor of the archipelago"
+        ],
+        "João de Sant'Ana e Vasconcelos": [
+            "Council administrator of Porto Santo"
+        ],
+        "José Antonio de Almada": [
+            "Clerk of the court in the district of Funchal"
+        ],
+        "Marceliano Ribeiro de Mendonça": [
+            "Responsible for the writing of the annals of the municipality of Funchal"
+        ],
+        "Francisco de Andrade": [
+            "Responsible for the writing of the annals of the municipality of Funchal"
+        ],
+        "Augusto César de Freitas": [
+            "Responsible for the writing of the annals of the municipality of Funchal"
+        ]
+    },
+    "years": {}
+}

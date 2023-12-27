@@ -1,0 +1,32 @@
+{
+    "id": 1963,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Leme (João da Câmara)",
+    "fl": "L",
+    "original_title": "Leme (João da Câmara)",
+    "body": "Nasceu no Funchal no ano de 1865 e desempenhou o cargo de porteiro do Governo Civil. Publicou nesta cidade, em 1887, um volume de poesias, de 83 pag., com o título de Amor e Pátria. Por ocasião do seu aparecimento, afirmou-se na imprensa que o opúsculo era um completo plagiato, forrageado em diversos poetas portugueses e nomeadamente em Almeida Garrett.",
+    "categories": [
+        "history",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "João da Câmara Leme": [
+            "Poeta"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Nascimento no Funchal"
+        ],
+        "1887": [
+            "Publicação do volume de poesias Amor e Pátria"
+        ]
+    }
+}

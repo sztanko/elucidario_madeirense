@@ -1,0 +1,30 @@
+{
+    "id": 552,
+    "lang": "en",
+    "is_original": false,
+    "title": "Brado d'Oeste",
+    "fl": "B",
+    "original_title": "Brado d'Oeste",
+    "body": "The third newspaper published in Madeira, outside of Funchal, and the first published in the town of Ponta do Sol. The first issue was released on June 2, 1909, and the last, number 858, on January 24, 1918.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Publication location"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1909": [
+            "First publication"
+        ],
+        "1918": [
+            "Last publication"
+        ]
+    }
+}

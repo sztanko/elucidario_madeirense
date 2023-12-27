@@ -1,0 +1,56 @@
+{
+    "id": 2494,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Gnade (Kapellen)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Graça (Capelas de)",
+    "body": "Die Kapelle Unserer Lieben Frau der Gnade war eine der ältesten Kapellen von Porto Santo. Zu Beginn des letzten Jahrhunderts wurde unter der Schirmherrschaft von Manuel Inácio de Avelar Brotero, dem Gouverneur dieser Insel, mit ihrem Wiederaufbau begonnen, da sie sich in einem ruinösen Zustand befand. Der Bau wurde jedoch nie vollendet. Sie soll nicht klein gewesen sein und es heißt, sie sei eine verkleinerte Nachbildung eines berühmten Heiligtums in Italien gewesen. Auffallend war ihre oktogonale Form im Inneren. Von den Mauern, die teilweise durch die Zeit und den Vandalismus der Menschen beschädigt wurden, stehen noch Reste.\n\nIn der Stadt Machico gibt es eine Kapelle, die Unserer Lieben Frau der Gnade gewidmet ist. Wir wissen nur, dass sie sehr alt ist und 1750 von der entsprechenden Bruderschaft wiederaufgebaut wurde. \n\nMit der gleichen Widmung gab es in der Gemeinde Santa Cruz eine 1520 von Pedro Alvares de Almada errichtete Kapelle. \n\nIn der Gemeinde Sé errichtete der Kantor Domingos de Andrade e Alvarenga 1699 in der Nähe des Ribeirinho eine Kapelle zu Ehren Unserer Lieben Frau der Gnade.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz",
+        "Sé"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Ort, an dem sich die alte Kapelle Unserer Lieben Frau der Gnade befand"
+        ],
+        "Machico": [
+            "Ort, an dem sich eine Kapelle befindet, die Unserer Lieben Frau der Gnade gewidmet ist"
+        ],
+        "Santa Cruz": [
+            "Ort, an dem es eine Kapelle zu Ehren Unserer Lieben Frau der Gnade gab"
+        ],
+        "Sé": [
+            "Ort, an dem eine Kapelle zu Ehren Unserer Lieben Frau der Gnade errichtet wurde"
+        ]
+    },
+    "people": {
+        "Manuel Inácio de Avelar Brotero": [
+            "Gouverneur der Insel Porto Santo, der den Wiederaufbau der Kapelle Unserer Lieben Frau der Gnade veranlasste"
+        ],
+        "Pedro Alvares de Almada": [
+            "Errichtete die Kapelle Unserer Lieben Frau der Gnade in der Gemeinde Santa Cruz"
+        ],
+        "Domingos de Andrade e Alvarenga": [
+            "Errichtete 1699 die Kapelle zu Ehren Unserer Lieben Frau der Gnade in der Gemeinde Sé"
+        ]
+    },
+    "years": {
+        "Letzten Jahrhunderts": [
+            "Zeitraum, in dem mit dem Wiederaufbau der Kapelle Unserer Lieben Frau der Gnade in Porto Santo begonnen wurde"
+        ],
+        "1750": [
+            "Jahr des Wiederaufbaus der Kapelle, die Unserer Lieben Frau der Gnade in Machico gewidmet ist"
+        ],
+        "1520": [
+            "Jahr der Errichtung der Kapelle Unserer Lieben Frau der Gnade in der Gemeinde Santa Cruz"
+        ],
+        "1699": [
+            "Jahr der Errichtung der Kapelle zu Ehren Unserer Lieben Frau der Gnade in der Gemeinde Sé"
+        ]
+    }
+}

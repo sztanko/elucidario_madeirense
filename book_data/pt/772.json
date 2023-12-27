@@ -1,0 +1,31 @@
+{
+    "id": 772,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Carmo",
+    "fl": "C",
+    "original_title": "Carmo",
+    "body": "Sitio povoado da freguesia do Campanario. Existiu ali uma capela consagrada a Nossa Senhora do Carmo, que deu o nome ao sitio, fundada em 1658 por Domingos Rodrigues, sendo de instituição vincular e sede dum morgadio. Tem 15 fogos e 73 habitantes.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Campanario"
+    ],
+    "locations": {
+        "Campanario": [
+            "Freguesia do Campanario"
+        ]
+    },
+    "people": {
+        "Domingos Rodrigues": [
+            "Fundador da capela consagrada a Nossa Senhora do Carmo"
+        ]
+    },
+    "years": {
+        "1658": [
+            "Fundada em 1658"
+        ]
+    }
+}

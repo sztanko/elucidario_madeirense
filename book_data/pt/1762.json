@@ -1,0 +1,49 @@
+{
+    "id": 1762,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ilhéu",
+    "fl": "I",
+    "original_title": "Ilhéu",
+    "body": "É entre nós conhecido por este nome o ilhéu que fica situado no extremo e a oeste do porto do Funchal e que hoje (1921) constitui um dos limites do molhe ou porto de abrigo da Pontinha. Nele se achava a pequena fortaleza de Nossa Senhora da Conceição do ilhéu, um farol de luz vermelha, ele indicava a entrada do porto, e um posto semafórico. Tem sido reproduzido pela gravura em inúmeras obras nacionais e estrangeiras, em muitas revistas, em bilhetes postais, etc., e também figura frequentemente como composição nos embutidos madeirenses, em caixas de costura e outros produtos de marcenaria local. Referindo-se á primeira exploração através da costa marítima, feita pelos descobridores, diz Gaspar Frutuoso: «no cabo do qual (o vale do Funchal) estão dous ilhéus, onde se foram abrigar por ser já tarde». Os dois ilhéus eram o que actualmente se chama Ilhéu embora hoje ligado á terra por meio do molhe, e o que deixou de ter esse nome quando se construiu o pequeno forte de S. João da Pontinha, nos fins do século XVIII, e que desde então ficou também em ligação com a terra. Quem conhece o local, sabe que os dois pequenos ilhéus se encontravam a curta distancia um do outro. Francisco Manuel de Melo nas suas *Epanaphoras de Varia Historia Portuguesa*, em que se ocupa da suposta historia de Machim, faz umas erróneas referências a estes ilhéus, ás quais o ilustre anotador das Saudades contrapõe as seguintes palavras: «Corre parelhas com esta a não menor ficção, no seu tanto, de que Zargo «tomou água e lenha» nos dois ilhéus, que, no dizer pittoresco de Melo, são os guardaventos do porto do Funchal. Desses dois ilhéus, o mais ao mar, é ainda agora insulado nas águas como dantes (era em 1873), pelo qual conserva o nome Ilheo; o outro desde muitos tempos ligado ao litoral da ilha por fortes paredões, tem, por isso, a denominação de Pontinha: ambos são escalvados penhascos, açoitados e varridos pelas vagas nas levadias e tempestades do quadrante do sul, infelizmente não raras nesta paragem; ambos, por isso, só teem a vegetação do limo e musgo marítimos; ambos são sem nascente alguma de água potável; ambos, inabaláveis testemunhas a deporem com a sua eterna nudez contra a afirmativa de terem eles dado água e lenha a Zargo e seus companheiros. Fortaleza de Nossa Senhora da Conceição do Ilhéu foi construída por meados do século XVII (V. *Fortificações*) e a respectiva capela foi mandada edificar por alvará régio de 9 de Novembro de 1682, tendo seu capelão privativo. V. *Nossa Senhora da Conceição do Ilhéu (Capela de*). O farolim do ilhéu começou a funcionar a 18 de Maio de 1866 (V. *Faróis*). Em 1890 ficou o ilhéu definitivamente ligado ao litoral por meio de um quebra-mar que une aqueles dois pontos e que constitui a parte mais considerável do molhe da Pontinha.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Funchal": [
+            "Porto"
+        ],
+        "Ponta da Pontinha": [
+            "Molhe"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiador"
+        ],
+        "Francisco Manuel de Melo": [
+            "Escritor"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Constituição do limite do molhe da Pontinha"
+        ],
+        "Século XVIII": [
+            "Construção do pequeno forte de S. João da Pontinha"
+        ],
+        "1873": [
+            "Ilhéu ainda insulado nas águas"
+        ],
+        "1866": [
+            "Início do funcionamento do farolim do ilhéu"
+        ],
+        "1890": [
+            "Ligação definitiva do ilhéu ao litoral"
+        ]
+    }
+}

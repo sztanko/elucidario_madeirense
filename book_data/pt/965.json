@@ -1,0 +1,31 @@
+{
+    "id": 965,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Conceição",
+    "fl": "C",
+    "original_title": "Conceição",
+    "body": "Sitio da freguesia do Estreito da Calheta, onde existe uma capela dedicada a Nossa Senhora da Conceição, construida em 1673 por André de França e Andrade e que foi sede dum dos maiores morgadios da Madeira, tendo sido ultimo representante desta casa vinculada Diogo de Ornelas de França Carvalhal Frasão Figueiroa, 11. visconde e conde da Calçada. (Vide este nome).",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "Sitio da freguesia"
+        ]
+    },
+    "people": {
+        "André de França e Andrade": [
+            "Construtor da capela"
+        ]
+    },
+    "years": {
+        "1673": [
+            "Construida a capela dedicada a Nossa Senhora da Conceição"
+        ]
+    }
+}

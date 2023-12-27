@@ -1,0 +1,45 @@
+{
+    "id": 6,
+    "lang": "en",
+    "is_original": false,
+    "title": "Abreu",
+    "fl": "A",
+    "original_title": "Abreu",
+    "body": "The first person to have used this surname on this island seems to have been Brites or Beatriz de Abreu, daughter of Rui de Abreu, the alcaide mor of Elvas, who married João Fernandes do Arco, so called for owning many sesmaria lands in Arco da Calheta, whom we will discuss in a special article. Their children took the mother's surname, and some of them distinguished themselves in Africa and India. Among the daughters, we find the celebrated Isabel de Abreu (see this name) and Águeda de Abreu, wife of João Esmeraldo, the owner of Lombada da Ponta do Sol. To this family belongs António de Abreu, the discoverer of the Moluccas (see this name).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Lombada da Ponta do Sol"
+    ],
+    "locations": {
+        "Elvas": [
+            "City in Portugal"
+        ],
+        "Arco da Calheta": [
+            "Locality in Madeira"
+        ],
+        "Lombada da Ponta do Sol": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "Brites ou Beatriz de Abreu": [
+            "Daughter of Rui de Abreu, alcaide mor of Elvas"
+        ],
+        "João Fernandes do Arco": [
+            "Owner of many sesmaria lands in Arco da Calheta"
+        ],
+        "Isabel de Abreu": [
+            "Celebrated figure"
+        ],
+        "Águeda de Abreu": [
+            "Wife of João Esmeraldo, the owner of Lombada da Ponta do Sol"
+        ],
+        "António de Abreu": [
+            "Discoverer of the Moluccas"
+        ]
+    },
+    "years": {}
+}

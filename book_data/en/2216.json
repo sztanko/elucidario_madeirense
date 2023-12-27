@@ -1,0 +1,30 @@
+{
+    "id": 2216,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mascarenhas (D. Francisco de)",
+    "fl": "M",
+    "original_title": "Mascarenhas (D. Francisco de)",
+    "body": "His appointment as Governor and Captain General of Madeira dates back to July 31, 1665, and he took office on November 28 of the same year. He faced great difficulties during his government, and on September 18, 1668, a popular sedition broke out, which deposed him from his position, arrested him, and then forcibly made him embark, as will be seen more fully in the article Motins Populares. He was temporarily replaced by morgado Aires de Ornelas e Vasconcelos. He was the son of the count of Santa Cruz and had served with valor in the War of Restoration. He died on February 25, 1699.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Aires de Ornelas e Vasconcelos": [
+            "Interim substitute as Governor and Captain General"
+        ]
+    },
+    "years": {
+        "1665": [
+            "Appointment as Governor and Captain General"
+        ],
+        "1668": [
+            "Popular sedition that deposed him from office"
+        ],
+        "1699": [
+            "Death"
+        ]
+    }
+}

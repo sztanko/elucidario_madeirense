@@ -1,0 +1,31 @@
+{
+    "id": 74,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Águas férreas",
+    "fl": "Á",
+    "original_title": "Águas férreas",
+    "body": "Das várias nascentes de água férrea que existem na Madeira, a mais conhecida é a do Jamboto; na freguesia de Santo Antonio. O Sr. Carlos Lepierre que analisou as águas desta nascente em 4 de Junho de 1900, diz que elas pertencem ao grupo das águas hipossalinas, cloretadas e férreas, e que a sua mineralização mais importante é o cloreto de sódio, seguindo-se-lhe o bicarbonato de ferro, que se encontra em quantidade relativamente grande (36 miligramas, correspondentes a 12,6 miligramas de ferro). O Sr. Lepierre encontrou ainda nas mesmas águas bicarbonatos de magnesia e de cal, com pequenas quantidades de sulfatos e nitratos.\n\nAs águas do Jamboto são, segundo o mesmo analista, muito puras sob o ponto de vista bacteriologico. O resultado das investigações a que procedeu o Sr. Lepierre consta de um folheto com o seguinte título, mandado publicar pela Câmara Municipal do Funchal: Analyse Chimica e Bacteriologica da Água da Fonte Férrea-Jamboto, Santo Antonio- Funchal, Madeira . . . (Funchal,1900).",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Jamboto": [
+            "Freguesia de Santo Antonio"
+        ]
+    },
+    "people": {
+        "Carlos Lepierre": [
+            "Analista das águas da nascente do Jamboto"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Análise das águas da Fonte Férrea-Jamboto por Carlos Lepierre"
+        ]
+    }
+}

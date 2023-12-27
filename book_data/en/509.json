@@ -1,0 +1,26 @@
+{
+    "id": 509,
+    "lang": "en",
+    "is_original": false,
+    "title": "Boca dos Corregos",
+    "fl": "B",
+    "original_title": "Boca dos Corregos",
+    "body": "A site near Pico Grande, from where the Curral das Freiras and the valley of Serra d'Agua can be seen. It is about 1300 meters above sea level.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pico Grande": [
+            "Locality"
+        ],
+        "Curral das Freiras": [
+            "Locality"
+        ],
+        "Serra d'Agua": [
+            "Valley"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

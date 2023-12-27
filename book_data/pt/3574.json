@@ -1,0 +1,31 @@
+{
+    "id": 3574,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Varona (Fr. Inácio José)",
+    "fl": "V",
+    "original_title": "Varona (Fr. Inácio José)",
+    "body": "Pertencia á ordem dos Carmelitas e pregou na igreja do Colégio por ocasião das festas pomposas que ali se realizaram em acção de graças por ter o Marquês de Pombal escapado ao crime planeado pelo genovês João Batista Pelle, que foi justiçado no dia 11 de Outubro de 1775. 0 discurso de fr. Inacio foi publicado e tem o seguinte título: *Oração na acção de graças que a Real Junta da Fazenda da ilha da Madeira fez celebrar pela prodigiosa conservação da muito necessária vida do Illustrissimo e Excelentissimo Senhor Marquez de Pombal Sebastiâo José de Carvalho e Mello na egreja de São João Evangelista da cidade do Funchal em 20 de Janeiro dirigida pelo seu presidente o Illustrissimo e Excellentissimo Senhor João Antonio de Sá Pereira, do concelho de S. M. Fidelissima, Senhor d'Alverca, Alcaide Mor de Monte Mor o Velho, Comendador da Ordem de Christo, Governador e Capitão General desta Ilha da Madeira, Lisboa, 1776, 23 páginas.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Nascimento de Varona (Fr. Inácio José)"
+        ]
+    },
+    "people": {
+        "João Batista Pelle": [
+            "Genovês"
+        ]
+    },
+    "years": {
+        "1775": [
+            "Justiçamento de João Batista Pelle"
+        ]
+    }
+}

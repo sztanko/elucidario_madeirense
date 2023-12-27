@@ -1,0 +1,27 @@
+{
+    "id": 40,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Achada de Santo António",
+    "fl": "A",
+    "original_title": "Achada de Santo António",
+    "body": "Na freguesia de Santana há um sítio com esse nome, onde existe uma capela dedicada a Santo António, fundada por meados do século XVI e reconstruída no ano de 1730.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Santana"
+    ],
+    "locations": {
+        "Santana": [
+            "Freguesia onde se localiza o sítio da Achada de Santo António."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1730": [
+            "Ano de reconstrução da capela dedicada a Santo António."
+        ]
+    }
+}

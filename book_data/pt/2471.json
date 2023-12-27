@@ -1,0 +1,42 @@
+{
+    "id": 2471,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora de Belém (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora de Belém (Capela de)",
+    "body": "Na freguesia de Câmara de Lobos, havia a capela, hoje extinta, de Nossa Senhora de Belém, que ficava no sítio deste nome. Foi fundada em 1649 por Gaspar Vasconcelos Henriques e sua mulher D. Bernardina de Carvalho, sendo de 9 de Fevereiro do mesmo ano a escritura em que fizeram a dotação desta capela. Caindo em ruínas, foi reedificada em 1758 por D. Francisco Inacio Telo de Meneses, descendente dos fundadores. A nova capela foi construída a pequena distancia da antiga e junto da casa de residência, com a qual comunicava interiormente.\n\nNo sítio da Referta, no Porto da Cruz, existia uma capela com a invocação de Nossa Senhora de Belém, que depois passou a chamar-se de Nossa Senhora do Socorro. V. N. Senhora do Socorro (Capelas de).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Porto da Cruz": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Gaspar Vasconcelos Henriques": [
+            "Fundador da capela"
+        ],
+        "D. Bernardina de Carvalho": [
+            "Esposa de Gaspar Vasconcelos Henriques"
+        ],
+        "D. Francisco Inacio Telo de Meneses": [
+            "Descendente dos fundadores"
+        ]
+    },
+    "years": {
+        "1649": [
+            "Ano de fundação da capela"
+        ],
+        "1758": [
+            "Ano de reedificação da capela"
+        ]
+    }
+}

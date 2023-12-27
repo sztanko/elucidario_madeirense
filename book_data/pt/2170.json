@@ -1,0 +1,32 @@
+{
+    "id": 2170,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mangas (Manuel Júlio Tôrres)",
+    "fl": "M",
+    "original_title": "Mangas (Manuel Júlio Tôrres)",
+    "body": "É filho do coronel Manuel Júlio Torres Mangas, que foi governador civil e comandante militar da Madeira por ocasião do movimento revolucionário que se deu nesta cidade na manhã de 29 de Abril de 1847, proclamando os princípios da Junta do Porto (V. Junta Governativa). De Manuel Júlio Torres Mangas, filho, apenas sabemos o que nos diz Brito Aranha no vol. XVI do Diccionario Bibliographico. Nasceu no Funchal em 1835 e exerceu varios cargos publicos na metrópole e no ultramar. Foi jornalista e colaborou no *Jornal do Porto, Verdade, Ecco Popular, Nacional, Alemtejano* e *Jardim Literario*. Escreveu um opusculo intitulado Vida do Visconde de Almeida Garrett, principe dos poetas no século XIX.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento."
+        ]
+    },
+    "people": {
+        "Manuel Júlio Torres Mangas": [
+            "Filho do coronel Manuel Júlio Torres Mangas."
+        ]
+    },
+    "years": {
+        "1835": [
+            "Ano de nascimento."
+        ],
+        "1847": [
+            "Ano do movimento revolucionário."
+        ]
+    }
+}

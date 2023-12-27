@@ -1,0 +1,30 @@
+{
+    "id": 109,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Albuquerque (Manuel Saldanha da Gama)",
+    "fl": "A",
+    "original_title": "Albuquerque (Manuel Saldanha da Gama)",
+    "body": "Foi nomeado governador e capitão general da Madeira a 6 de Março de 1754 e tomou posse a 16 de Maio do mesmo ano. Chamado a Lisboa em Fevereiro de 1757 para exercer um importante cargo, foi feito Conde da Ega e em seguida nomeado vice-rei da Índia. Acusado de ter cometido abusos no exercício deste cargo, foi preso e só depois da sua morte é que uma sentença dos tribunais reabilitou a sua memória. Morreu a 6 de Dezembro de 1771. Quando se ausentou desta ilha para Lisboa foi substituído no governo da Madeira pelo bispo diocesano D. Gaspar Afonso da Costa Brandão em conformidade com as leis então vigentes.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Manuel Saldanha da Gama": [
+            "Governador e capitão general da Madeira, Conde da Ega, vice-rei da Índia, faleceu em 1771"
+        ]
+    },
+    "years": {
+        "1754": [
+            "Nomeado governador e capitão general da Madeira"
+        ],
+        "1757": [
+            "Chamado a Lisboa para exercer um importante cargo"
+        ],
+        "1771": [
+            "Manuel Saldanha da Gama faleceu"
+        ]
+    }
+}

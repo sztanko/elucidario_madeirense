@@ -1,0 +1,46 @@
+{
+    "id": 3604,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vieira",
+    "fl": "V",
+    "original_title": "Vieira",
+    "body": "Vieira is the surname of a noble and aristocratic family, as Frutuoso states. In 1566, Manuel Vieira, the legal representative of the nuns of Santa Clara, and a certain Favila Vieira lived in Funchal. Frutuoso presents Favila Vieira as a nobleman. Around the same time, a nobleman named António Vieira, who married a daughter of the donatary Diogo Teixeira, held the position of bailiff in the jurisdiction of Machico. There are other branches of the Vieira family, two of which originated from the Azores, with one of them appearing in Madeira in the second quarter of the 19th century, and the other starting with Manuel Vieira de Afonseca, a native of Terceira Island, who was a clerk of the Funchal Council.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Clara",
+        "Machico"
+    ],
+    "locations": {
+        "Funchal": [
+            "Place of residence of Manuel Vieira, Favila Vieira, António Vieira, and other branches of the Vieira family"
+        ],
+        "Machico": [
+            "Jurisdiction where António Vieira held the position of bailiff"
+        ]
+    },
+    "people": {
+        "Manuel Vieira": [
+            "Legal representative of the nuns of Santa Clara"
+        ],
+        "Favila Vieira": [
+            "Nobleman"
+        ],
+        "António Vieira": [
+            "Married to a daughter of the donatary Diogo Teixeira, held the position of bailiff in the jurisdiction of Machico"
+        ],
+        "Manuel Vieira de Afonseca": [
+            "Clerk of the Funchal Council"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Residence of Manuel Vieira and Favila Vieira in Funchal"
+        ],
+        "XIX": [
+            "Appearance of branches of the Vieira family in Madeira"
+        ]
+    }
+}

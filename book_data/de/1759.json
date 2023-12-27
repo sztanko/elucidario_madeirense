@@ -1,0 +1,37 @@
+{
+    "id": 1759,
+    "lang": "de",
+    "is_original": false,
+    "title": "Igrejinha (Rua da)",
+    "fl": "I",
+    "original_title": "Igrejinha (Rua da)",
+    "body": "Sie grenzte an den Largo do Colégio und die Rua das Pretas. Am Ende der Straße, an der Stelle, wo heute der Largo da Igrejinha ist, befand sich die Kapelle Nossa Senhora da Piedade oder, wie man im Volksmund sagte, die Igrejinha, die 1613 von Domingos Rodrigues Garcez gegründet und 1836 von der Stadtverwaltung abgerissen wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Largo do Colégio": [
+            "Grenze der Rua da Igrejinha"
+        ],
+        "Rua das Pretas": [
+            "Grenze der Rua da Igrejinha"
+        ],
+        "Largo da Igrejinha": [
+            "Ort der Kapelle Nossa Senhora da Piedade"
+        ]
+    },
+    "people": {
+        "Domingos Rodrigues Garcez": [
+            "Gründer der Kapelle Nossa Senhora da Piedade"
+        ]
+    },
+    "years": {
+        "1613": [
+            "Gründung der Kapelle Nossa Senhora da Piedade"
+        ],
+        "1836": [
+            "Abriss der Kapelle durch die Stadtverwaltung"
+        ]
+    }
+}

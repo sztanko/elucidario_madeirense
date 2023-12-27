@@ -1,0 +1,30 @@
+{
+    "id": 1654,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nationalgarde",
+    "fl": "N",
+    "original_title": "Guarda Nacional",
+    "body": "Durch Alvará des Präfekten und Militärgouverneurs von Madeira vom 1. September 1834 wurde eine Kommission ernannt, um die Volkszählung und namentliche Erfassung aller Personen durchzuführen, die gemäß dem Dekret vom 29. März desselben Jahres Teil der Nationalgarde sein sollten, aber Ende 1835 war diese Garde trotz der bereits gewählten und von den zuständigen Behörden genehmigten Offiziere noch nicht ordnungsgemäß organisiert.\n\nAnscheinend bestand in den ersten Zeiten eine gewisse Angst, den Angehörigen der Nationalgarde Waffen zu geben, da befürchtet wurde, dass nicht alle von ihnen der verfassungsmäßigen Sache zugetan waren.\n \nDie Verordnung vom 19. März 1835 ordnete die Bildung eines Bataillons Jäger der Nationalgarde auf Madeira an, das 1836 endgültig gebildet wurde, wobei seine Offiziere und Unteroffiziere am 10. Januar dieses letzten Jahres auf einer Versammlung auf dem Verfassungsplatz gewählt wurden.\n\nDie Stadtverwaltung schickte dem Gouverneur die Liste der gewählten Offiziere, damit dieser sie der Regierungsbilligung vorlegte. Alle zwei Jahre fanden Wahlen statt, und der erste Kommandant des Jägerbataillons der Nationalgarde war Valentim de Freitas Leal.\n\nDie Nationalgarde von Funchal hatte eine Fahne, die ihr am 14. Januar 1835 von D. Ana Mascarenhas e Ataíde geschenkt worden war.\n\nDie Nationalgarden wurden durch das Gesetz vom 7. Oktober 1846 aufgelöst.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Valentim de Freitas Leal": [
+            "Erster Kommandant des Jägerbataillons der Nationalgarde"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Alvará des Präfekten und Militärgouverneurs von Madeira"
+        ],
+        "1835": [
+            "Ende 1835 war diese Garde noch nicht ordnungsgemäß organisiert"
+        ],
+        "1836": [
+            "Jägerbataillon der Nationalgarde endgültig gebildet"
+        ]
+    }
+}

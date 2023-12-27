@@ -1,0 +1,41 @@
+{
+    "id": 530,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bombeiros (Companhia de)",
+    "fl": "B",
+    "original_title": "Bombeiros (Companhia de)",
+    "body": "Ficou organizada em sessão da Camara Municipal do Funchal de 24 de Setembro de 1888, tendo lugar a nomeação do pessoal no dia 11 de Abril de 1889. Tem regulamento aprovado pela Câmara em 4 de Abril de 1889. Para instruir os primeiros bombeiros funchalenses, veio à Madeira Luiz da Terra Viana, bombeiro do Porto, que esteve hospedado por conta da Câmara no Hotel do Carmo. A primitiva companhia dissolveu se em 1906, mas em 20 de Setembro desse ano estava já constituída uma nova companhia, organizada pelo empregado telegrafo postal Alfredo Jorge Ferraz.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde foi organizada a Companhia de Bombeiros"
+        ]
+    },
+    "people": {
+        "Luiz da Terra Viana": [
+            "Bombeiro do Porto que instruiu os primeiros bombeiros funchalenses"
+        ],
+        "Alfredo Jorge Ferraz": [
+            "Empregado telegrafo postal que organizou a nova companhia de bombeiros"
+        ]
+    },
+    "years": {
+        "1888": [
+            "Ano de organização da Companhia de Bombeiros"
+        ],
+        "1889": [
+            "Ano de nomeação do pessoal"
+        ],
+        "1906": [
+            "Ano de dissolução da primitiva companhia"
+        ],
+        "20 de Setembro": [
+            "Data de constituição da nova companhia"
+        ]
+    }
+}

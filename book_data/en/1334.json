@@ -1,0 +1,35 @@
+{
+    "id": 1334,
+    "lang": "en",
+    "is_original": false,
+    "title": "Faróis",
+    "fl": "F",
+    "original_title": "Faróis",
+    "body": "It was only in the mid-third quarter of the last century that the lighting of the coasts of our archipelago was truly considered. Several attempts had been made previously, but without appreciable results.\n\nOn June 25, 1861, the Madeira deputies Antonio Gonçalves de Freitas, Luiz de Freitas Branco, and D. Luiz da Câmara Leme presented a bill in parliament authorizing the construction of a rotating lighthouse at Ponta de S. Lourenço and a fixed lighthouse on Ilhéu da Pontinha. This new attempt also proved to be fruitless.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilhéu da Pontinha": [
+            "Location where an attempt was made to build a fixed lighthouse."
+        ]
+    },
+    "people": {
+        "Antonio Gonçalves de Freitas": [
+            "Deputy for Madeira"
+        ],
+        "Luiz de Freitas Branco": [
+            "Deputy for Madeira"
+        ],
+        "D. Luiz da Câmara Leme": [
+            "Deputy for Madeira"
+        ]
+    },
+    "years": {
+        "1861": [
+            "Presentation of the bill for the construction of lighthouses in Madeira."
+        ]
+    }
+}

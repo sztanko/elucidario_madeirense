@@ -1,0 +1,32 @@
+{
+    "id": 3542,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gräber",
+    "fl": "G",
+    "original_title": "Túmulos",
+    "body": "In den Kirchen dieser Diözese findet man keine Gräber, die durch ihre prunkvolle Architektur, den Reichtum ihrer Marmorarbeiten oder die Feinheiten ihrer Verzierungen die Aufmerksamkeit der Besucher auf sich ziehen. Lediglich an den Seitenwänden der Hauptkapelle der Karmeliterkirche befinden sich zwei Mausoleen, die, ohne großartig und von bemerkenswerter künstlerischer Qualität zu sein, immerhin als ein Werk angesehen werden, das es wert ist, besucht und angemessen gewürdigt zu werden. Diese Gräber gehören der Familie des Gründers der Kirche, und auf zwei schwarzen Marmorplatten sind die folgenden Epitaphe zu lesen: S. de Pedro Gliz Brandão und sein Bruder Manuel Miz Brandão und ihre Erben und S. de António de Carvalhal Esmeraldo, Edelmann im Haus Seiner Majestät des Königs und seine Frau D. Maria Brandão. In der Kirche Santa Clara befindet sich das Grabmal von Gaspar Mendes de Vasconcelos, in dem behauptet wird, der Entdecker Gonçalves Zargo (Band II, Seite 31) sei dort begraben.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Carmo",
+        "Santa Clara"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro Gliz Brandão": [
+            "Gründer der Kirche"
+        ],
+        "Manuel Miz Brandão": [
+            "Bruder von Pedro Gliz Brandão"
+        ],
+        "António de Carvalhal Esmeraldo": [
+            "Edelmann im Haus Seiner Majestät des Königs und Ehemann von D. Maria Brandão"
+        ],
+        "Gaspar Mendes de Vasconcelos": [
+            "Begraben im Grabmal der Kirche Santa Clara"
+        ]
+    },
+    "years": {}
+}

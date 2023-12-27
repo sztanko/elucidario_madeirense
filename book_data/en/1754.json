@@ -1,0 +1,30 @@
+{
+    "id": 1754,
+    "lang": "en",
+    "is_original": false,
+    "title": "Church",
+    "fl": "C",
+    "original_title": "Igreja",
+    "body": "In this location in the parish of Nossa Senhora do Monte, we find the parish church of this patronage, where the Emperor Charles of Austria, who passed away at Quinta do Monte on April 1, 1922, is buried. Also, the chapel of Nossa Senhora da Conceição, founded a few years ago by Captain José Sotero da Silva and now owned by José de Freitas Belmonte.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Nossa Senhora do Monte"
+    ],
+    "locations": {
+        "Nossa Senhora do Monte": [
+            "Parish where the parish church is located"
+        ]
+    },
+    "people": {
+        "Charles of Austria": [
+            "Emperor who passed away at Quinta do Monte"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Death of Emperor Charles of Austria"
+        ]
+    }
+}

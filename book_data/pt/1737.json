@@ -1,0 +1,28 @@
+{
+    "id": 1737,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Hooker (William)",
+    "fl": "H",
+    "original_title": "Hooker (William)",
+    "body": "Na sua obra intitulada Niger-Flora encontra-se uma lista de plantas da Madeira, organizada por ele, á qual se segue uma outra do Dr. C. Lemann, relativa também a plantas desta ilha. No volume VI (1847) do Journal of Botany foi publicado um artigo de W. Hooker intitulado Notes on Madeira Plants.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde foi organizada a lista de plantas"
+        ]
+    },
+    "people": {
+        "William Hooker": [
+            "Autor da obra Niger-Flora"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Ano de publicação do artigo Notes on Madeira Plants"
+        ]
+    }
+}

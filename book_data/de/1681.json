@@ -1,0 +1,28 @@
+{
+    "id": 1681,
+    "lang": "de",
+    "is_original": false,
+    "title": "Heineken (Dr. Carlos)",
+    "fl": "H",
+    "original_title": "Heineken (Dr. Carlos)",
+    "body": "Englischer Arzt, der 9 Jahre lang in Funchal lebte und hier am 4. Januar 1830 starb. In einem Artikel, der in Band XII (1824) des Medical Repository veröffentlicht wurde, und in einem anderen Text, der in Rambles in Madeira erschien, empfiehlt er das Klima von Funchal zur Behandlung von Lungenkrankheiten. Während seines Aufenthalts auf der Insel machte er viele meteorologische Beobachtungen, die für das Verständnis unseres Klimas von großem Wert sind.",
+    "categories": [
+        "health",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort, an dem Dr. Carlos Heineken lebte und starb"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1830": [
+            "Tod von Dr. Carlos Heineken in Funchal"
+        ],
+        "1824": [
+            "Veröffentlichung eines Artikels in Band XII des Medical Repository"
+        ]
+    }
+}

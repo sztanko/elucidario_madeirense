@@ -1,0 +1,29 @@
+{
+    "id": 597,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bulwer (Rev. James)",
+    "fl": "B",
+    "original_title": "Bulwer (Rev. James)",
+    "body": "In 1827, he published twenty-six superb engravings of various points on the island of Madeira.",
+    "categories": [
+        "art",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where the engravings were published"
+        ]
+    },
+    "people": {
+        "Rev. James Bulwer": [
+            "Author of the engravings published in 1827"
+        ]
+    },
+    "years": {
+        "1827": [
+            "Year of publication of the engravings"
+        ]
+    }
+}

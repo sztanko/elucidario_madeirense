@@ -1,0 +1,28 @@
+{
+    "id": 3238,
+    "lang": "en",
+    "is_original": false,
+    "title": "São José (Fort of)",
+    "fl": "S",
+    "original_title": "São José (Forte de)",
+    "body": "The fort of São José on the island of Porto Santo was ordered to be built by the Marquês de Pombal, and in commemoration of the king's name, it was dedicated to that saint. It now belongs to the company Águas do Porto Santo, having been auctioned for 5,225,000 on May 18, 1923 (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island of Porto Santo"
+        ]
+    },
+    "people": {
+        "Marquês de Pombal": [
+            "Ordered the construction of the fort"
+        ]
+    },
+    "years": {
+        "1923": [
+            "Auction of the fort for 5,225,000"
+        ]
+    }
+}

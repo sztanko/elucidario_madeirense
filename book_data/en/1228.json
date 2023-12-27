@@ -1,0 +1,26 @@
+{
+    "id": 1228,
+    "lang": "en",
+    "is_original": false,
+    "title": "Entrosa",
+    "fl": "E",
+    "original_title": "Entrosa",
+    "body": "This is the name of a steep escarpment, which, rising from the right bank near the mouth of the Porco stream in Boaventura, goes to meet the parish of Arco de São Jorge. This ravine is crossed by a winding path that connects the two parishes and is a section of the road that surrounds Madeira near its coast.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Arco de São Jorge"
+    ],
+    "locations": {
+        "Boaventura": [
+            "Steep escarpment, mouth of the Porco stream"
+        ],
+        "Arco de São Jorge": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

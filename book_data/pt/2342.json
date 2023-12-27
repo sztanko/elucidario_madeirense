@@ -1,0 +1,34 @@
+{
+    "id": 2342,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Monte Medonho",
+    "fl": "M",
+    "original_title": "Monte Medonho",
+    "body": "Sítio da serra da freguesia de São Vicente onde tem origem a levada do Monte Medonho, que irriga as freguesias da Ribeira Brava e da Tábua desde o ano de 1908, tendo anteriormente fertilizado os terrenos da freguesia de São Vicente.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ribeira Brava",
+        "Tábua"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Freguesia"
+        ],
+        "Ribeira Brava": [
+            "Freguesia"
+        ],
+        "Tábua": [
+            "Freguesia"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1908": [
+            "Ano de início da irrigação"
+        ]
+    }
+}

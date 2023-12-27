@@ -1,0 +1,58 @@
+{
+    "id": 177,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alvares (Joaquim de Oliveira)",
+    "fl": "A",
+    "original_title": "Alvares (Joaquim de Oliveira)",
+    "body": "Nasceu na Madeira a 16 de Novembro de 1776 e formou-se em matemática e filosofia na Universidade de Coimbra. Em 1798 foi nomeado 2.° tenente da armada, e dois anos depois distinguiu-se num combate que houve nas costas do Algarve, entre um pequeno caíque português, de que era comandante, e um navio corsario francês. Proposto para a promoção pela bravura de que dera provas durante a luta, da qual todavia saíra vencido, serviu depois na esquadra do Marquês de Nisa, e em 1804 vamos encontra-lo no Brasil, tendo trocado a marinha pelo exército e ocupando o posto de capitão de artilharia da legião de voluntários de S. Paulo. Fez as campanhas de Montevideu, derrotou a 27 de Outubro de 1816 as forças do celebre Artigas, no combate de Carumbé, e em 4 de Janeiro do ano seguinte distinguiu-se na batalha de Catalan. Em recompensa destes serviços deram-lhe o posto de brigadeiro efectivo, a comenda de Aviz e, em 1816, o posto de marechal de campo graduado. Depois da independência do Brasil, ficou naquele império, tendo sido ali ministro da guerra, marechal de campo efectivo, oficial da Ordem do Cruzeiro e tenente general. Viveu em Londres de 1830 a 1835, e tendo recebido ali uma avultadissima herança, pôs a sua riqueza á disposição do governo brasileiro, para este, numa ocasião de apuros, pagar os juros das inscrições. Tendo ido a Paris em 1835, em procura de alívios para os seus padecimentos, ali faleceu, contando 59 anos de idade, estando sepultado no cemitério do Père Lachaise. Era homem de larga ilustração e deixou inédita uma obra de vulto intitulada Estatística do Brasil. No tomo 2.° do Dicionário Popular encontram-se interessantes dados biográficos do marechal Joaquim de Oliveira Alvares, que era irmão do Conselheiro João Francisco de Oliveira, outro filho ilustre da nossa terra.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento."
+        ],
+        "Coimbra": [
+            "Local onde se formou em matemática e filosofia."
+        ],
+        "Algarve": [
+            "Local onde se distinguiu num combate."
+        ]
+    },
+    "people": {
+        "Antão Alvares de Carvalho": [
+            "Um dos primeiros povoadores."
+        ],
+        "Luiz Alvares da Costa": [
+            "Fundador do primitivo convento de S. Francisco no Funchal."
+        ],
+        "Pedro Alvares": [
+            "Juiz da Câmara do Funchal."
+        ],
+        "João Alvares": [
+            "Ascendente do celebre gramático Padre Manuel Alvares."
+        ],
+        "Joaquim de Oliveira Alvares": [
+            "Marechal de campo, ministro da guerra e autor da obra 'Estatística do Brasil'."
+        ],
+        "João Francisco de Oliveira": [
+            "Conselheiro e filho ilustre da Madeira."
+        ]
+    },
+    "years": {
+        "1776": [
+            "Ano de nascimento."
+        ],
+        "1798": [
+            "Nomeação como 2.° tenente da armada."
+        ],
+        "1804": [
+            "Ano em que esteve no Brasil."
+        ],
+        "1816": [
+            "Ano em que derrotou as forças do celebre Artigas."
+        ]
+    }
+}

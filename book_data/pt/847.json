@@ -1,0 +1,38 @@
+{
+    "id": 847,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Celestino Emidio (Manuel)",
+    "fl": "C",
+    "original_title": "Celestino Emidio (Manuel)",
+    "body": "Foi durante alguns anos juiz da comarca do Funchal e representou a Madeira em côrtes, na sessão legislativa de 1880 a 1881. Nasceu em 1812 e morreu em 1898.\n\nFoi Celestino Emidio que, como juiz, presidiu ao celebre julgamento do famigerado facinora João Brandão.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Comarca onde foi juiz"
+        ]
+    },
+    "people": {
+        "João Brandão": [
+            "Famigerado facínora"
+        ]
+    },
+    "years": {
+        "1880": [
+            "Participação na sessão legislativa"
+        ],
+        "1881": [
+            "Participação na sessão legislativa"
+        ],
+        "1812": [
+            "Ano de nascimento"
+        ],
+        "1898": [
+            "Ano de falecimento"
+        ]
+    }
+}

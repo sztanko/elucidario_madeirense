@@ -1,0 +1,27 @@
+{
+    "id": 1631,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Graça",
+    "fl": "G",
+    "original_title": "Graça",
+    "body": "Sítio da freguesia de Machico, nas imediações da Vila, onde se encontra a capela de Nossa Senhora da Graça, ignorando-se a época da sua construção. Sabe-se que é bastante antiga e que foi reedificada pela respectiva irmandade no ano de 1750.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Freguesia onde se encontra a capela de Nossa Senhora da Graça"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1750": [
+            "Capela de Nossa Senhora da Graça foi reedificada"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 3676,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Webb (Felipe Baker)",
+    "fl": "W",
+    "original_title": "Webb (Felipe Baker)",
+    "body": "Distinto botânico inglês muito conhecido pelos seus estudos sôbre a flora das Canárias. Nasceu em Milford em 1793 e morreu em 1853, tendo estado na Madeira, em 1828, onde se demorou alguns meses, com o fim de estudar a flora desta ilha. Visitou também o Porto Santo.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Milford": [
+            "Local de nascimento"
+        ],
+        "Madeira": [
+            "Local de estudo"
+        ],
+        "Porto Santo": [
+            "Local visitado"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1793": [
+            "Ano de nascimento"
+        ],
+        "1853": [
+            "Ano de morte"
+        ],
+        "1828": [
+            "Ano de estudo na Madeira"
+        ]
+    }
+}

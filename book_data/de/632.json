@@ -1,0 +1,31 @@
+{
+    "id": 632,
+    "lang": "de",
+    "is_original": false,
+    "title": "Cahus",
+    "fl": "C",
+    "original_title": "Cahus",
+    "body": "Es ist der Familienname französischer Herkunft, der, so Dr. Pereira Drumond, von João Cahus abstammt, einem Einwohner der Stadt Rouen in Frankreich, der sich 1580 als Kaufmann in Funchal niederließ. Heute ist es ein ausgestorbener Name.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rouen": [
+            "Stadt in Frankreich"
+        ],
+        "Funchal": [
+            "Stadt auf der Insel Madeira"
+        ]
+    },
+    "people": {
+        "João Cahus": [
+            "Kaufmann"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Ließ sich in Funchal nieder"
+        ]
+    }
+}

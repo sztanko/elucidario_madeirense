@@ -1,0 +1,38 @@
+{
+    "id": 286,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Asilo dos Inválidos",
+    "fl": "A",
+    "original_title": "Asilo dos Inválidos",
+    "body": "Em 1842 estabeleceu-se nalgumas dependências do rés-do-chão do edifício da Misericórdia desta cidade, um modesto estabelecimento de caridade, a que então se deu o nome de Asilo dos Inválidos. Era uma criação adjunta á Santa Casa da Misericórdia e dirigida pelos seus corpos gerentes, mas tinha o asilo sido fundado pela Câmara Municipal do Funchal, que era a entidade oficial que mantinha a sustentação dos asilados, em virtude de contrato celebrado entre a mesma câmara e a administração da Santa Casa. Ignoramos quando deixou de funcionar, mas a sua existência foi de curta duração.\n\nProjecto de um Asilo para Mendigos. O Governador Civil do distrito Dr. Domingos Olavo Correia de Azevedo, por alvará de 22 de Março de 1844, nomeou uma comissão, presidida pelo Dr. Antonio da Luz Pita e que teve como secretario Mauricio Castelo Branco, para propor os meios mais adequados á criação de um asilo destinado ao albergamento dos mendigos. Ignoramos que trabalhos chegou esta comissão porventura a apresentar, mas sabemos que o projecto do asilo não passou duma feliz e generosa ideia, e nada mais.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da ilha da Madeira."
+        ]
+    },
+    "people": {
+        "Domingos Olavo Correia de Azevedo": [
+            "Governador Civil do distrito."
+        ],
+        "Antonio da Luz Pita": [
+            "Presidente da comissão para a criação de um asilo para mendigos."
+        ],
+        "Mauricio Castelo Branco": [
+            "Secretário da comissão para a criação de um asilo para mendigos."
+        ]
+    },
+    "years": {
+        "1842": [
+            "Estabelecimento do Asilo dos Inválidos."
+        ],
+        "1844": [
+            "Nomeação da comissão para propor os meios mais adequados á criação de um asilo destinado ao albergamento dos mendigos."
+        ]
+    }
+}

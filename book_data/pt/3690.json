@@ -1,0 +1,65 @@
+{
+    "id": 3690,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Zita (Ex-Imperatriz)",
+    "fl": "Z",
+    "original_title": "Zita (Ex-Imperatriz)",
+    "body": "Chegou à Madeira, acompanhada do ex-imperador de Austria Carlos de Habsburgo, a 19 de Novembro de 1921, cerca das 10 horas e meia da manhã, no cruzador inglês Cardiff, tendo os dois esposos desembarcado na Pontinha e seguido daí para a «Vila Vitoria», onde fixaram residência. Em Janeiro de 1922 saíu a ex-imperatriz da ilha para ir buscar seus filhos que se achavam a educar na Suiça, regressando no dia 2 de Fevereiro, em companhia dos príncipes Francisco Oto, Adelaide Maria, Roberto Carlos e Carlos Luís, e passando toda a família a residir na freguesia do Monte, na quinta do banqueiro Luís da Rocha Machado, a partir do dia 18 do mesmo mês. \n\nO ex-imperador Carlos faleceu na freguesia do Monte, a 1 de Abril de 1922, sendo o seu corpo depositado na igreja paroquial a 5 do mesmo mês, tendo a ex-imperatriz por tal motivo resolvido deixar a ilha, donde efectivamente saiu a 19 de Maio do referido ano, no transatlântico Infanta Isabel de Bourbon, que se dirigia para Cádis. Antes de deixar o Monte, orou a ex-imperatriz por largo tempo junto do túmulo do seu esposo, havendo assistido também ás exéquias solenes, sufragando a alma do ex-imperador, que se realizaram na Sé Catedral no dia 27 de Abril.",
+    "categories": [
+        "history",
+        "society",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Madeira": [
+            "Local onde a ex-imperatriz chegou"
+        ],
+        "Ponta da Pontinha": [
+            "Local onde a ex-imperatriz desembarcou"
+        ],
+        "Vila Vitoria": [
+            "Local onde a ex-imperatriz fixou residência"
+        ],
+        "Monte": [
+            "Freguesia onde a ex-imperatriz e sua família passaram a residir"
+        ],
+        "Igreja paroquial": [
+            "Local onde o corpo do ex-imperador foi depositado"
+        ],
+        "Sé Catedral": [
+            "Local onde as exéquias solenes foram realizadas"
+        ]
+    },
+    "people": {
+        "Carlos de Habsburgo": [
+            "Ex-imperador de Austria"
+        ],
+        "Francisco Oto": [
+            "Príncipe"
+        ],
+        "Adelaide Maria": [
+            "Princesa"
+        ],
+        "Roberto Carlos": [
+            "Príncipe"
+        ],
+        "Carlos Luís": [
+            "Príncipe"
+        ],
+        "Luís da Rocha Machado": [
+            "Banqueiro"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Chegada à Madeira"
+        ],
+        "1922": [
+            "Saída da ex-imperatriz da ilha"
+        ]
+    }
+}

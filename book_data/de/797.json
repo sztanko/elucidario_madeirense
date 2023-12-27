@@ -1,0 +1,31 @@
+{
+    "id": 797,
+    "lang": "de",
+    "is_original": false,
+    "title": "Carvalho de Araújo Straße",
+    "fl": "C",
+    "original_title": "Carvalho de Araújo (Rua)",
+    "body": "In der Sitzung der Verwaltungskommission der Stadtverwaltung von Funchal am 8. Mai 1919 wurde beschlossen, der früheren Straße Aljube den Namen des Korvettenkapitäns Carvalho de Araújo zu geben. Dieser illustre Offizier unserer Kriegsmarine war der Kommandant des Minenjägers Augusto de Castilho, der im Oktober 1918 das Schiff San Miguel auf seiner Reise zu den Azoren eskortierte. Am 15. desselben Monats starb er heldenhaft auf seinem Posten beim Gefecht, das das Schiff mit einem deutschen U-Boot in der Nähe dieses Archipels führen musste. Der Minenjäger wurde versenkt, da er keine Artillerie hatte, die mit der des U-Boots konkurrieren konnte, aber die San Miguel rettete sich, und mit ihr alle Passagiere, die von Madeira zu den Azoren reisten.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt, in der sich die Straße Aljube befindet"
+        ],
+        "Azoren": [
+            "Archipel, zu dem das Schiff San Miguel unterwegs war"
+        ]
+    },
+    "people": {
+        "Carvalho de Araújo": [
+            "Korvettenkapitän, nach dem die Straße benannt wurde"
+        ]
+    },
+    "years": {
+        "1919": [
+            "Beschluss, der Straße den Namen zu geben"
+        ]
+    }
+}

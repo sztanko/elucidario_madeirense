@@ -1,0 +1,37 @@
+{
+    "id": 2467,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora das Angústias (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Angústias (Capela de)",
+    "body": "In the parish of São Pedro, in the place that gave it its name, Diogo da Costa de Quintal built a chapel dedicated to Nossa Senhora das Angústias in 1662. There is the estate of Nossa Senhora das Angústias, better known by the name of Quinta Lambert, which has a chapel of this invocation, which may be the reconstruction of the old chapel in that place. In this estate, Princess D. Maria Amélia resided, and she died there on February 4, 1853.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Location of the chapel of Nossa Senhora das Angústias"
+        ]
+    },
+    "people": {
+        "Diogo da Costa de Quintal": [
+            "Builder of the chapel in 1662"
+        ],
+        "D. Maria Amélia": [
+            "Princess who resided in the estate and died in 1853"
+        ]
+    },
+    "years": {
+        "1662": [
+            "Construction of the chapel"
+        ],
+        "1853": [
+            "Death of Princess D. Maria Amélia"
+        ]
+    }
+}

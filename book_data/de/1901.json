@@ -1,0 +1,35 @@
+{
+    "id": 1901,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kny (Dr. Leopold)",
+    "fl": "K",
+    "original_title": "Kny (",
+    "body": "Deutscher Botaniker, der 1860 ein Jahr lang auf Madeira Pflanzen sammelte. Die von ihm gesammelten und der Wissenschaft unbekannten Moose wurden vom Bryologen A. Juratzka beschrieben (siehe diesen Namen). Veröffentlichung: Ueber die Flora Oceanischer Inseln (Zeitschr der Gesellsch. fur Erdkunde, 1867).",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel, auf der der deutsche Botaniker Pflanzen sammelte"
+        ]
+    },
+    "people": {
+        "Dr. Leopold Kny": [
+            "Deutscher Botaniker, der auf Madeira Pflanzen sammelte"
+        ],
+        "A. Juratzka": [
+            "Bryologe, der die von Kny gesammelten Moose beschrieb"
+        ]
+    },
+    "years": {
+        "1860": [
+            "Jahr, in dem der deutsche Botaniker auf Madeira Pflanzen sammelte"
+        ],
+        "1867": [
+            "Veröffentlichung der Arbeit Ueber die Flora Oceanischer Inseln"
+        ]
+    }
+}

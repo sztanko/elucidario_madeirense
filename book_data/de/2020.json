@@ -1,0 +1,31 @@
+{
+    "id": 2020,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo das Adegas",
+    "fl": "L",
+    "original_title": "Lombo das Adegas",
+    "body": "Besiedelter Ort in der Gemeinde Ponta do Sol. Pedro Delgado, ein früherer Siedler, hatte dort Ländereien, die sich später in eine Stiftung verwandelten. Wahrscheinlich von dieser Familie gegründet, gab es dort eine kleine Kapelle zu Ehren des Heiligen Antonius, die 1853 erweitert und in eine öffentliche Kapelle umgewandelt wurde. Es war die dritte Kapelle dieser Widmung, die in dieser Pfarrei existierte.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Gemeinde, in der Lombo das Adegas liegt."
+        ]
+    },
+    "people": {
+        "Pedro Delgado": [
+            "Früherer Siedler von Lombo das Adegas."
+        ]
+    },
+    "years": {
+        "1853": [
+            "Jahr, in dem die Kapelle zu Ehren des Heiligen Antonius erweitert und in eine öffentliche Kapelle umgewandelt wurde."
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 2023,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo do Atouguia",
+    "fl": "L",
+    "original_title": "Lombo do Atouguia",
+    "body": "Sítio Povoado da freguesia da Calheta, tomando o nome do antigo povoador Luís de Atouguia, que ali teve terras de sesmaria, onde instituiu um morgadio. Existiu neste sítio uma capela da invocação de Nossa Senhora da Boa Morte, fundada por Francisco Homem de Couto, no ano de 1661, e ainda ali se encontra a capela de São Pedro de Alcantara, conhecida também em outro tempo por São João Baptista, mandada edificar em 1783 por João Baptista Teixeira. Neste mesmo sítio, onde chamavam a Vargem de Baixo, António Moniz de Meneses e sua mulher D. Catarina de Meneses, fizeram construir, no ano de 1657, uma capela consagrada a Nossa Senhora da Piedade.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Freguesia da Calheta"
+        ]
+    },
+    "people": {
+        "Luís de Atouguia": [
+            "Antigo povoador"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Fundação da capela da invocação de Nossa Senhora da Boa Morte"
+        ],
+        "1783": [
+            "Edificação da capela de São Pedro de Alcantara"
+        ]
+    }
+}

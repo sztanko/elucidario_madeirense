@@ -1,0 +1,40 @@
+{
+    "id": 148,
+    "lang": "de",
+    "is_original": false,
+    "title": "Almada",
+    "fl": "A",
+    "original_title": "Almada",
+    "body": "Der erste, der diesen Namen trug und nach Madeira kam, war Pedro Alvares de Almada, aus Guimarãis, Sohn von Alvaro de Almada und Neffe des berühmten Grafen von Avranches, D. Alvaro Vaz de Almada. Pedro de Almada lebte in der Stadt Santa Cruz und war dort einer der wichtigsten Beamten der Stadtverwaltung. Der angesehene Kommentator der Saudades da Terra sagt, dass er in Santa Cruz die Kirche Unserer Lieben Frau von Graça gründete, von der wir keine Kenntnis haben.\n\nEinige Adelsbücher sagen, dass einer der ersten, die den Namen Almada trugen, Antonio de Almada war, der Mitte des 16. Jahrhunderts Isabel Rodrigues Leal aus der Gemeinde Porto da Cruz heiratete.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Stadt, in der Pedro Alvares de Almada lebte"
+        ]
+    },
+    "people": {
+        "Pedro Alvares de Almada": [
+            "Der erste, der den Namen Almada auf Madeira trug"
+        ],
+        "Alvaro de Almada": [
+            "Vater von Pedro Alvares de Almada"
+        ],
+        "D. Alvaro Vaz de Almada": [
+            "Onkel von Pedro Alvares de Almada"
+        ],
+        "Antonio de Almada": [
+            "Einer der ersten Träger des Namens Almada"
+        ]
+    },
+    "years": {
+        "16. Jahrhundert": [
+            "Zeit, in der Antonio de Almada Isabel Rodrigues Leal heiratete"
+        ]
+    }
+}

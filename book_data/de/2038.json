@@ -1,0 +1,31 @@
+{
+    "id": 2038,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo de São João",
+    "fl": "L",
+    "original_title": "Lombo de São João",
+    "body": "Besiedelte Stelle in der Gemeinde Ribeira Brava, die ihren Namen von der dort befindlichen Kapelle Johannes des Täufers erhielt. Das Jahr ihres ersten Baus ist unbekannt, aber man weiß, dass sie 1750 vom Fähnrich Tomé João Pimenta, dem Verwalter des Fideikommisses, dem die Kapelle gehörte, wiederaufgebaut wurde.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Tomé João Pimenta": [
+            "Fähnrich und Verwalter des Fideikommisses"
+        ]
+    },
+    "years": {
+        "1750": [
+            "Jahr, in dem die Kapelle wiederaufgebaut wurde"
+        ]
+    }
+}

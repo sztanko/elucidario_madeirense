@@ -1,0 +1,33 @@
+{
+    "id": 3481,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Tierno (João)",
+    "fl": "T",
+    "original_title": "Tierno (João)",
+    "body": "Foi intendente de pecuária no Funchal e publicou em 1897, no Boletim da Direcção Geral de Agricultura, 6.° ano, n.° 11, um trabalho intitulado Relatório do Veterinário do Funchal, em que apresenta alguns dados meteorológicos, geológicos e botânicos, extraídos em grande parte das obras nacionais e estrangeiras que se ocupam da Madeira. Na distribuição das plantas por zonas, há nessa obra lapsos difíceis de explicar, chegando-se a apontar o folhadeiro como espécie característica dos altos cumes madeirenses, quando é certo que tal espécie não vai além dos vales do interior, sendo muito frequente na freguesia da Camacha. As observações meteorológicas que o sr. Tierno dá como realizadas nas casas de abrigo da Ser do Faial, Vale da Lapa e Paul da Serra, desde 1888 até 1890t não constam de registo algum, havendo-nos declarado os encarregados das mesmas casas não terem tido conhecimento delas, o que achamos extraordinário. (1921)",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Camacha"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de trabalho de João Tierno"
+        ],
+        "Camacha": [
+            "Freguesia mencionada"
+        ]
+    },
+    "people": {
+        "João Tierno": [
+            "Intendente de pecuária"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Publicação do trabalho de João Tierno"
+        ]
+    }
+}

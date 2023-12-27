@@ -1,0 +1,38 @@
+{
+    "id": 2997,
+    "lang": "de",
+    "is_original": false,
+    "title": "Raddi (Giuseppe)",
+    "fl": "R",
+    "original_title": "Raddi (Giuseppe)",
+    "body": "Italienischer Botaniker, geboren am 9. Juli 1770 in Florenz, gestorben am 6. September 1829 in Rhodos. Er besuchte Madeira auf seiner Reise nach Brasilien und verfasste eine kleine Arbeit mit dem Titel Brevi Osservazioni sull' Isola di Madeira (Florenz, 1821).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Florenz": [
+            "Geburtsstadt"
+        ],
+        "Rhodos": [
+            "Sterbeort"
+        ],
+        "Brasilien": [
+            "Während seiner Reise nach Madeira besucht"
+        ],
+        "Madeira": [
+            "Von Raddi besucht"
+        ]
+    },
+    "people": {
+        "Giuseppe Raddi": [
+            "Italienischer Botaniker"
+        ]
+    },
+    "years": {
+        "1821": [
+            "Veröffentlichung von Brevi Osservazioni sull' Isola di Madeira"
+        ]
+    }
+}

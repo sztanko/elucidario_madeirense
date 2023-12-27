@@ -1,0 +1,50 @@
+{
+    "id": 195,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Amelia (Imperatriz D.)",
+    "fl": "A",
+    "original_title": "Amelia (Imperatriz D.)",
+    "body": "A Imperatriz do Brasil D. Amelia, viúva de D. Pedro IV, e sua filha a princesa D. Maria Amelia chegaram ao Funchal no dia 28 de Agosto de 1852 na fragata da marinha de guerra D. Fernando, que vinha acompanhada pela corveta D. João I e pelo vapor de guerra D. Luiz. Era comandante da esquadra o capitão de mar e guerra José Maria de Sousa Soares, e servia de almirante a fragata D. Fernando. A recepção foi imponentissima, impressionando profundamente a imperatriz e a princesa, que, a pesar de gravemente doente, se mostrou, desde o desembarque na Pontinha até á Quinta das Angústias, onde estabeleceu residência, sempre alegre e sorridente á vista de tantas demonstrações de apreço e de carinho, que lhe prodigalizavam os habitantes desta cidade. Todos sabem que a princesa D. Maria Amélia não encontrou nos ares balsâmicos da Madeira e na benignidade do seu clima os alívios que se esperavam. Depois de cinco meses e alguns dias de permanência entre nós sucumbiu aos estragos da terrível tuberculose pulmonar, na madrugada do dia 4 de Fevereiro de 1853. A princesa, dizem insuspeitas testemunhas contemporâneas, era de uma bondade inigualável e despertava em todos que a viam ou dela se aproximavam a mais viva e apaixonada simpatia e por isso a sua morte produziu em toda a população funchalense um sentimento de profundissimo pesar, que durante muitos anos perdurou entre nós. O embarque da imperatriz, no seu regresso a Lisboa, acompanhando o féretro que continha os restos mortais da princesa sua filha, realizou-se no dia 6 de Maio de 1853. Foi um prestito imponente, em que se não viam olhos enxutos. Desde o mais modesto popular até á desolada imperatriz, choravam todos copioso pranto. Parecia que se dera uma grande calamidade. Esta morte, como todos sabem, determinou a fundação do Hospício da Princesa D. Maria Amelia de que em outra ocasião falaremos. A imperatriz D. Amelia faleceu em Lisboa a 26 de Janeiro de 1873.",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localizada na Madeira"
+        ],
+        "Lisboa": [
+            "Localizada em Portugal"
+        ],
+        "Quinta das Angústias": [
+            "Localizada na Madeira"
+        ],
+        "Ponte da Pontinha": [
+            "Localizada na Madeira"
+        ]
+    },
+    "people": {
+        "D. Amelia": [
+            "Imperatriz do Brasil"
+        ],
+        "D. Pedro IV": [
+            "Imperador do Brasil"
+        ],
+        "D. Maria Amelia": [
+            "Princesa"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Chegada ao Funchal"
+        ],
+        "1853": [
+            "Morte da princesa D. Maria Amelia"
+        ],
+        "1873": [
+            "Falecimento da imperatriz D. Amelia"
+        ]
+    }
+}

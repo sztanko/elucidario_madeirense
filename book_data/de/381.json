@@ -1,0 +1,31 @@
+{
+    "id": 381,
+    "lang": "de",
+    "is_original": false,
+    "title": "Baker (Alice)",
+    "fl": "B",
+    "original_title": "Baker (Alice)",
+    "body": "E.: Ein Sommer auf den Azoren mit einem Blick auf Madeira, Boston, 1882.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Azoren": [
+            "Inselgruppe im Nordatlantik."
+        ],
+        "Madeira": [
+            "Insel im Atlantischen Ozean."
+        ]
+    },
+    "people": {
+        "Alice Baker": [
+            "Autorin des Buches \"Ein Sommer auf den Azoren mit einem Blick auf Madeira\"."
+        ]
+    },
+    "years": {
+        "1882": [
+            "Veröffentlichungsjahr des Buches \"Ein Sommer auf den Azoren mit einem Blick auf Madeira\"."
+        ]
+    }
+}

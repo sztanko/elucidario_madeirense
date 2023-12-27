@@ -1,0 +1,31 @@
+{
+    "id": 2316,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Moinhos",
+    "fl": "M",
+    "original_title": "Moinhos",
+    "body": "Sitio povoado da freg. do Caniço. 68 f. e 368 h. Neste sitio existem ainda as ruínas duma capela da invocação de Nossa Senhora de Salvação, fundada em 1614 por Francisco Morais de Aguiar.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Freguesia do Caniço"
+        ]
+    },
+    "people": {
+        "Francisco Morais de Aguiar": [
+            "Fundador da capela de Nossa Senhora de Salvação em Moinhos"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Fundação da capela de Nossa Senhora de Salvação em Moinhos"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 843,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cebola (Allium cepa)",
+    "fl": "C",
+    "original_title": "Cebola (Allium cepa)",
+    "body": "Liliacea originaria do Turquestão, muito cultivada na Madeira.\n\nAs plantas novas e ás sementes chamam os madeirenses cebolinho. A cebola além dos seus usos culinarios, é empregada na medicina, podendo servir crua e misturada com leite frio no tratamento da hidropisia, e cozida ou assada, como cataplasma no tratamento das nevralgias e de certos tumores. A Madeira exportou 1:171:678 kgs. de cebolas em 1911, 899:895 kgs. em 1912, 874:385 kgs. em 1913 e 861:697 em 1914. A exportação faz-se quasi exclusivamente para Demerara e Antilhas inglêsas.",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Demerara": [
+            "Destino da exportação de cebolas"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1911": [
+            "Exportação de 1:171:678 kgs. de cebolas"
+        ],
+        "1912": [
+            "Exportação de 899:895 kgs. de cebolas"
+        ],
+        "1913": [
+            "Exportação de 874:385 kgs. de cebolas"
+        ],
+        "1914": [
+            "Exportação de 861:697 kgs. de cebolas"
+        ]
+    }
+}

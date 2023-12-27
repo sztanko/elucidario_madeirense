@@ -1,0 +1,29 @@
+{
+    "id": 226,
+    "lang": "de",
+    "is_original": false,
+    "title": "Anson (George)",
+    "fl": "A",
+    "original_title": "Anson (Jorge)",
+    "body": "Dieser berühmte englische Freibeuter und Reisende kam im September 1740 mit einer Flotte von 8 Schiffen, die sich zum Überfall und Plündern spanischer Schiffe im Pazifik aufmachte, über Madeira.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Durchreiseort"
+        ]
+    },
+    "people": {
+        "George Anson": [
+            "Englischer Freibeuter und Reisender"
+        ]
+    },
+    "years": {
+        "1740": [
+            "Durchreise über Madeira"
+        ]
+    }
+}

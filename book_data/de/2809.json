@@ -1,0 +1,37 @@
+{
+    "id": 2809,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pires",
+    "fl": "P",
+    "original_title": "Pires",
+    "body": "1566 lebte in Funchal ein gewisser Gonçalo Pires, der das Amt des Buchhalters ausübte, und 1471 hatten Diogo Pires und Francisco Pires hier ihren Wohnsitz, so dass es möglich ist, dass diese drei Personen den Familiennamen Pires nach Madeira brachten.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Wohnort von Gonçalo Pires, Diogo Pires und Francisco Pires"
+        ]
+    },
+    "people": {
+        "Gonçalo Pires": [
+            "Lebte 1566 in Funchal und übte das Amt des Buchhalters aus"
+        ],
+        "Diogo Pires": [
+            "Hatte 1471 Wohnsitz in Funchal"
+        ],
+        "Francisco Pires": [
+            "Hatte 1471 Wohnsitz in Funchal"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Wohnort von Gonçalo Pires in Funchal"
+        ],
+        "1471": [
+            "Wohnsitz von Diogo Pires und Francisco Pires in Funchal"
+        ]
+    }
+}

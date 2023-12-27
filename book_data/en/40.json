@@ -1,0 +1,27 @@
+{
+    "id": 40,
+    "lang": "en",
+    "is_original": false,
+    "title": "Achada de Santo António",
+    "fl": "A",
+    "original_title": "Achada de Santo António",
+    "body": "In the parish of Santana, there is a place with this name, where there is a chapel dedicated to Santo António, founded around the mid-16th century and rebuilt in the year 1730.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Santana"
+    ],
+    "locations": {
+        "Santana": [
+            "Parish where the place of Achada de Santo António is located."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1730": [
+            "Year of the reconstruction of the chapel dedicated to Santo António."
+        ]
+    }
+}

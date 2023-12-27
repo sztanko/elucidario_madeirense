@@ -1,0 +1,23 @@
+{
+    "id": 500,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Boa Nova (A)",
+    "fl": "B",
+    "original_title": "Boa Nova (A)",
+    "body": "Saíu o 1.1 numero deste jornal a 2 de Fevereiro de 1912 e o 171, que foi o ultimo a 10 de Julho do mesmo ano.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1912": [
+            "Lançamento do primeiro número do jornal"
+        ],
+        "10 de Julho": [
+            "Lançamento do último número do jornal"
+        ]
+    }
+}

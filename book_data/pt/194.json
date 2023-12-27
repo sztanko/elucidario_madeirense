@@ -1,0 +1,43 @@
+{
+    "id": 194,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ameixoeira",
+    "fl": "A",
+    "original_title": "Ameixoeira",
+    "body": "É o nome duma freguesia que fica a cerca de 6 quilómetros de Lisboa, no concelho dos Olivais. Pinho Leal no seu dicionário Portugal Antigo e Moderno, vol. I.°, a pag. 195, diz que esta paróquia pertenceu á freguesia do Lumiar e tinha o nome de Funchal, acrescentando que a antiga capela de Nossa Senhora do Funchal serviu de igreja matriz até que em 1664 foi reedificada e ampliada. Afirma mais ainda Pinho Leal textualmente o seguinte: “Diz-se que a capela primitiva foi fundada em memória duma grande victoria que obtiveram aqui os christãos contra os mouros. Diz-se também que esta capelania já existia no tempo dos godos e que um mouro chamado Mixo ou Mixio dera o nome - esta povoação (que até ao século XVII se chamava Mixoeira, tendo-se antes chamado Funchal, como já disse)”. Dá também Pinho Leal a informação que “a Ameixoeira, com o nome de Funchal, era uma aldeia da freguesia do Lumiar; mas em 6 de Junho de 1536 tornou-se independente...” Haverá alguma correlação entre o antiquíssimo lugar do Funchal na Amendoeira e a primitiva povoação, depois vila e depois cidade do Funchal? Não sabemos.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ameixoeira",
+        "Lumiar"
+    ],
+    "locations": {
+        "Lisboa": [
+            "Localizada em Portugal"
+        ],
+        "Olivais": [
+            "Localizada em Portugal"
+        ],
+        "Lumiar": [
+            "Localizada em Portugal"
+        ],
+        "Funchal": [
+            "Localizada na Madeira"
+        ]
+    },
+    "people": {
+        "Pinho Leal": [
+            "Historiador português"
+        ]
+    },
+    "years": {
+        "1664": [
+            "Reconstrução da capela de Nossa Senhora do Funchal"
+        ],
+        "1536": [
+            "Ameixoeira tornou-se independente"
+        ]
+    }
+}

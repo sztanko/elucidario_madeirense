@@ -1,0 +1,43 @@
+{
+    "id": 1920,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lambert (Conde de)",
+    "fl": "L",
+    "original_title": "Lambert (Conde de)",
+    "body": "O general conde Alexandre Carlos de Lambert, ajudante de campo da imperatriz da Rússia, passou alguns tempos na Madeira, tendo adquirido para sua residência a quinta das Angústias, à Rua da Imperatriz D. Amélia.## Segundo se afirma, o conde de Lambert teve um grave conflito na Polónia com um general russo, cujo nome ignoramos, acabando os dois por convencionar que aquele a quem coubesse em sorte deveria suicidar-se, tomando uma poção venenosa. Tendo a sorte sido adversa ao general, imediatamente cumpriu aquilo a que insensatamente se obrigara, retirando o conde pouco tempo depois para a Madeira imensamente desgostoso com o desfecho do conflito em que se vira envolvido.## O conde de Lambert, que nasceu por 1816, estava na Madeira em 1863, tendo visitado Lisboa e Londres neste ano, mas voltando à Madeira no mês de Setembro. Faleceu pelos anos de 1866.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha"
+        ],
+        "Polónia": [
+            "País"
+        ],
+        "Lisboa": [
+            "Cidade"
+        ],
+        "Londres": [
+            "Cidade"
+        ]
+    },
+    "people": {
+        "Alexandre Carlos de Lambert": [
+            "Ajudante de campo da imperatriz da Rússia"
+        ]
+    },
+    "years": {
+        "1816": [
+            "Nascimento de Alexandre Carlos de Lambert"
+        ],
+        "1863": [
+            "Visita à Madeira"
+        ],
+        "1866": [
+            "Falecimento de Alexandre Carlos de Lambert"
+        ]
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "id": 1040,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa (Daniel da)",
+    "fl": "C",
+    "original_title": "Costa (Daniel da)",
+    "body": "Falando do bispo do Funchal D. Luiz Figueiredo de Lemos, diz Gaspar Frutuoso:\n\n“Da sua illustre progenie apontarei um capitulo, que delle depois com alto estylo compoz o doctississimo Doutor Daniel da Costa, Medico de Sua Magestade, pessoa nobre, de grandes letras e virtudes, residente na cidade do Funchal, para mayor claresa da fidalguia, vida, virtudes e costumes do mesmo Senhor”. Barbosa Machado diz que o escrito citado se intitulava Contra ponto, ou Vida do VII Bispo do Funchal, e andava inserto na Historia das Ilhas.\n\nCosta (D. Rodrigo da). A sua nomeação para governador e capitão-general deste arquipelago data de 2 de Dezembro de 1689, tendo tomado posse a 20 de Outubro dc 1690.\n\nEm 1702 foi nomeado governador da Baía e em 1707 vice-rei da India. Era filho do conde de Soure e morreu em 1722.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade onde residiu Daniel da Costa."
+        ]
+    },
+    "people": {
+        "D. Luiz Figueiredo de Lemos": [
+            "Bispo do Funchal."
+        ],
+        "Daniel da Costa": [
+            "Médico de Sua Magestade, residente na cidade do Funchal."
+        ],
+        "D. Rodrigo da Costa": [
+            "Governador e capitão-general do arquipélago."
+        ]
+    },
+    "years": {
+        "1689": [
+            "Ano da nomeação de D. Rodrigo da Costa para governador e capitão-general do arquipélago."
+        ],
+        "1690": [
+            "Ano da posse de D. Rodrigo da Costa como governador e capitão-general do arquipélago."
+        ],
+        "1702": [
+            "Ano da nomeação de D. Rodrigo da Costa como governador da Baía."
+        ],
+        "1707": [
+            "Ano da nomeação de D. Rodrigo da Costa como vice-rei da India."
+        ],
+        "1722": [
+            "Ano do falecimento de D. Rodrigo da Costa."
+        ]
+    }
+}

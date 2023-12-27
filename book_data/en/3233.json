@@ -1,0 +1,32 @@
+{
+    "id": 3233,
+    "lang": "en",
+    "is_original": false,
+    "title": "São João (Ribeira de )",
+    "fl": "S",
+    "original_title": "São João (Ribeira de )",
+    "body": "(Ribeira de ). It rises in the mountains of the parish of Santo António and flows into the Ocean at the site of São Lazaro, in the parish of São Pedro, being one of the three major streams that cross the city of Funchal. The part of it that crosses the parish of Santo António is called Ribeira Grande or Santo António. In the past, it was also called São Francisco, São Paulo, Santa Catarina, and São Lazaro. In old documents, all these names are found.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo António",
+        "São Pedro"
+    ],
+    "locations": {
+        "Santo António": [
+            "Parish of Santo António"
+        ],
+        "São Lazaro": [
+            "Site in the parish of São Pedro"
+        ],
+        "São Pedro": [
+            "Parish of São Pedro"
+        ],
+        "Funchal": [
+            "City of Funchal"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

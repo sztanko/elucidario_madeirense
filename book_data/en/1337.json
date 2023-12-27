@@ -1,0 +1,24 @@
+{
+    "id": 1337,
+    "lang": "en",
+    "is_original": false,
+    "title": "Farol do Porto Santo",
+    "fl": "F",
+    "original_title": "Farol do Porto Santo",
+    "body": "After the construction of the S. Lourenço lighthouse, the construction of a lighthouse on the island of Porto Santo was always recognized as a first and most urgent necessity. The lack of illumination of those coasts caused several disasters, with loss of lives and vessels, as mentioned in the Annals of that island. Some studies were carried out and projects and budgets were organized, but forty years after the S. Lourenço lighthouse began operating, the lighthouse on the neighboring island of Porto Santo began to illuminate those areas, within a radius of eleven miles. The chosen location was a small islet, known by the name of Ilhéu de Cima, separated from the island of Porto Santo by a narrow and short channel. The lantern is situated 118 meters above sea level. It was a fixed white light, visible at a distance of 11 miles. It began operating in the year 1901. It has provided relevant services to navigation and especially to the vessels that marked the port of Funchal.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Island of Porto Santo"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Start of operation of the Porto Santo lighthouse"
+        ]
+    }
+}

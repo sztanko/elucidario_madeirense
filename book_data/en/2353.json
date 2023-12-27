@@ -1,0 +1,28 @@
+{
+    "id": 2353,
+    "lang": "en",
+    "is_original": false,
+    "title": "Montluc (Pedro Beltrão de)",
+    "fl": "M",
+    "original_title": "Montluc (Pedro Beltrão de)",
+    "body": "Commander of the corsairs who plundered the city of Funchal in the year 1566 and who died here as a result of a wound he received in the knee. See French raid.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the raid"
+        ]
+    },
+    "people": {
+        "Pedro Beltrão de Montluc": [
+            "Commander of the corsairs"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Raid on the city of Funchal"
+        ]
+    }
+}

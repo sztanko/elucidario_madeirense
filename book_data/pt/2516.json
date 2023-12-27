@@ -1,0 +1,30 @@
+{
+    "id": 2516,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Pilar (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Pilar (Capela de)",
+    "body": "No caminho e sítio do Pilar, da freguesia de São Martinho, se encontra a quinta e capela daquela denominação, que foi fundada no ano de 1676 por Gonçalo de Freitas Drumond. É hoje propriedade do Dr. Romano de Santa Clara Gomes (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Freguesia na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Gonçalo de Freitas Drumond": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1676": [
+            "Fundação da capela"
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "id": 2366,
+    "lang": "en",
+    "is_original": false,
+    "title": "National Monuments",
+    "fl": "N",
+    "original_title": "Monumentos Nacionais",
+    "body": "– The Funchal Cathedral was the only building considered a national monument, although there were other buildings that should have been included in this number. In the 'Diario do Governo' of September 24, 1940, and August 18, 1943, complete lists of buildings classified as national monuments and as 'public interest properties' existing throughout the country were published. Regarding this district, in addition to the Cathedral, the Palace of S. Lourenço, Church and dependencies of the Santa Clara monastery, church of São Evangelista (Colégio), and the Customs House were considered national monuments.\n\nAs 'public interest properties', the following buildings are included:\n- Houses of Dona Mecia, Cônsules, Ornelas, and Episcopal Palace and annexed chapel, Chapels of Incarnação, São Paulo, Nazaré, and do Espírito Santo, and forts of São João Baptista, Ilhéu, and São Tiago, all in the city of Funchal, Chapel of Reis Magos in the parish of Estreito da Calheta, Parish Church, Chapel of Milagres and São Roque, and forts of Santo Amaro and São João in the parish of Machico, Parish Churches of Ponta do Sol, Ribeira Brava, and Santa Cruz, and Chapel of Madre de Deus in the parish of Caniço.\n\nThe following works of art were also considered of public interest:\n- 16th-century baptismal font, in Mudejar style, existing in the church of Ponta do Sol.\n- Wooden sculpture representing the Adoration of the Magi, with thirteen high relief figures, 16th century, existing in the chapel of Reis Magos, in Estreito da Calheta.\n- Window from the House of Columbus, preserved in a private garden in the city of Funchal, Manueline work collected when the City Council ordered the demolition of the property of the Flemish João Esmeraldo, where it is said that Columbus lived.\n- Paintings on wood:\n  - Panel of Santiago, placed on the main altar of the church of Socorro, Funchal.\n  - Triptych of the sacristy of the same church.\n  - Panel of the Apostles, from the same sacristy, which is placed below the triptych.\n  - Three panels (S. Paulo, S. Pedro, and Santo André) preserved in the sacristy of the church of S. Pedro, Funchal.\n  - Three panels (Annunciation, Nativity, Santa Ana, and S. Joaquim) of the new church of S. Martinho, Funchal (placed in a chapel on the side of the epistle).\n  - Panel (emblem of Christ) of the private chapel of Nossa Senhora da Consolação in Funchal.\n  - Triptych (Descent from the Cross) of the church of Ribeira Brava, on the left side wall of the chancel.\n  - Panel (Adoration of the Magi) on the left side wall of the body of the same church.\n  - Panel of Nossa Senhora do Amparo on the altar of the same name of the Funchal Cathedral.",
+    "categories": [
+        "architecture",
+        "culture"
+    ],
+    "freguesias": [
+        "Machico",
+        "Estreito da Calheta",
+        "Ponta do Sol",
+        "Ribeira Brava",
+        "Santa Cruz",
+        "Caniço"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital of the island of Madeira"
+        ],
+        "Machico": [
+            "Parish on the island of Madeira"
+        ],
+        "Ponta do Sol": [
+            "Parish on the island of Madeira"
+        ],
+        "Ribeira Brava": [
+            "Parish on the island of Madeira"
+        ],
+        "Santa Cruz": [
+            "Parish on the island of Madeira"
+        ],
+        "Estreito da Calheta": [
+            "Parish on the island of Madeira"
+        ],
+        "Caniço": [
+            "Parish on the island of Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1939": [
+            "Inauguration of the monument to Dr. Alexandre da Cunha Teles in the gardens of the Mendicidade and Orphans Asylum"
+        ],
+        "1940": [
+            "Publication of the complete lists of buildings classified as national monuments and as 'public interest properties'"
+        ],
+        "1943": [
+            "Publication of the complete lists of buildings classified as national monuments and as 'public interest properties'"
+        ]
+    }
+}

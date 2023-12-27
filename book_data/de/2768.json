@@ -1,0 +1,33 @@
+{
+    "id": 2768,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pestana (Joaquim)",
+    "fl": "P",
+    "original_title": "Pestana (Joaquim)",
+    "body": "Er wurde in der Gemeinde Câmara de Lobos am 24. Dezember 1840 geboren und war ein hervorragender Dichter, dessen Verse in einigen Zeitungen in Funchal und Ponta Delgada sowie in den Jahrbüchern Novo Almanach de Lembranças Luso-Brasileiro, Almanach das Senhoras, Almanach Madeirense und Almanach de Lembranças Madeirense verstreut waren. Er hinterließ ein Manuskript mit dem Titel Dornen und Blumen, in dem viele seiner in verschiedenen Almanachen und Zeitungen veröffentlichten Gedichte gesammelt sein sollen. Er starb in der Gemeinde Câmara de Lobos am 6. Februar 1909. Das Novo Almanach de Lembranças Luso-Brasileiro, für das er 38 Jahre lang gearbeitet hatte, veröffentlichte ein Porträt des unglücklichen madeirischen Lyrikers sowie eine kurze Notiz über ihn.",
+    "categories": [
+        "art",
+        "history"
+    ],
+    "freguesias": [
+        "Camara de Lôbos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Geburtsort"
+        ],
+        "Funchal": [
+            "Ort, an dem seine Verse veröffentlicht wurden"
+        ],
+        "Ponta Delgada": [
+            "Ort, an dem seine Verse veröffentlicht wurden"
+        ]
+    },
+    "people": {
+        "1909": [
+            "Sterbejahr"
+        ]
+    },
+    "years": {}
+}

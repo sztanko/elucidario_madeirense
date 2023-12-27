@@ -1,0 +1,23 @@
+{
+    "id": 83,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nadel. (Spitze der)",
+    "fl": "N",
+    "original_title": "Agulha. (Ponta da)",
+    "body": "Es ist der südlichste Punkt des Madeira-Archipels. Es liegt am südlichen Ende von Bugio, der südlichsten der drei Inseln, die die Desertas-Gruppe bilden.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Bugio": [
+            "Südliches Ende des Madeira-Archipels"
+        ],
+        "Desertas": [
+            "Gruppe der drei Inseln"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

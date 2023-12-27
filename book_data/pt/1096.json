@@ -1,0 +1,31 @@
+{
+    "id": 1096,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cunha (Bartolomeu de Vasconcelos da)",
+    "fl": "C",
+    "original_title": "Cunha (Bartolomeu de Vasconcelos da)",
+    "body": "Nomeado governador e capitão general da Madeira a 21 de Agôsto de 1651, havendo tomado posse a 16 de Outubro do mesmo ano. Diz Barbosa Machado que escreveu varios sonetos ao nascimento do Infante D. Pedro, á morte de D. Maria de Ataíde e a Manuel de Galhegos. É pai do distinto poeta e escritor Troilo de Vasconcelos da Cunha, que nasceu no Funchal em 1654. (V. este nome).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira."
+        ]
+    },
+    "people": {
+        "Troilo de Vasconcelos da Cunha": [
+            "Distinguido poeta e escritor, filho de Bartolomeu de Vasconcelos da Cunha."
+        ]
+    },
+    "years": {
+        "1651": [
+            "Nomeação como governador e capitão general da Madeira."
+        ],
+        "1654": [
+            "Nascimento de Troilo de Vasconcelos da Cunha."
+        ]
+    }
+}

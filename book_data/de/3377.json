@@ -1,0 +1,28 @@
+{
+    "id": 3377,
+    "lang": "de",
+    "is_original": false,
+    "title": "Patriotische Gesellschaft",
+    "fl": "P",
+    "original_title": "Sociedade Patriótica",
+    "body": "Im Jahr 1821 gab es in Funchal eine Gesellschaft mit dieser Bezeichnung, deren Vizepräsident Brigadegeneral Jorge Frederico Lecor war.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ]
+    },
+    "people": {
+        "Jorge Frederico Lecor": [
+            "Vizepräsident"
+        ]
+    },
+    "years": {
+        "1821": [
+            "Existenz der Gesellschaft"
+        ]
+    }
+}

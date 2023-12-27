@@ -1,0 +1,25 @@
+{
+    "id": 1900,
+    "lang": "en",
+    "is_original": false,
+    "title": "Knowler (M.)",
+    "fl": "K",
+    "original_title": "Knowler (M.)",
+    "body": "A distinguished British subject who visited this island in 1845. He delivered a series of six lectures on dramatic poetry in Funchal, in the English language, which caused a real sensation due to the eloquence, brilliance of form, and profound knowledge of the subject. It is said that they were published in England, containing several references to the author's stay in Madeira.",
+    "categories": [
+        "culture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the lectures"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Visit to the island and delivery of lectures on dramatic poetry"
+        ]
+    }
+}

@@ -1,0 +1,37 @@
+{
+    "id": 411,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barbeito da Silva (João)",
+    "fl": "B",
+    "original_title": "Barbeito da Silva (João)",
+    "body": "This army officer was born in Funchal on August 3, 1855. In 1889, he published in Lisbon two booklets entitled 'Practical School of Infantry and Cavalry; infantry section, cantonment' and 'Practical School of Infantry and Cavalry; infantry section, bivouacs'. He passed away in Lisbon in the year 1932.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "Lisbon": [
+            "City"
+        ]
+    },
+    "people": {
+        "João Barbeito da Silva": [
+            "Army officer"
+        ]
+    },
+    "years": {
+        "1855": [
+            "Born in Funchal"
+        ],
+        "1889": [
+            "Published in Lisbon"
+        ],
+        "1932": [
+            "Passed away in Lisbon"
+        ]
+    }
+}

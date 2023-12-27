@@ -1,0 +1,30 @@
+{
+    "id": 720,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Campos Experimentais",
+    "fl": "C",
+    "original_title": "Campos Experimentais",
+    "body": "A Junta Agricola estabeleceu um campo experimental em cada uma das seguintes localidades: Louros (Funchal), Ribeira Brava, Paul da Serra e Pôrto da Cruz. O campo experimental desta ultima localidade durou pouco tempo; pelo que toca aos restantes, o que melhores resultados deu foi o da Ribeira Brava, que chegou a distribuir pelos agricultores um grandissimo numero de exemplares seleccionados de arvores frutiferas. No Paul da Serra obtiveram-se boas colheitas de semilhas, couves, nabos, cenouras, pepinos, alfaces, feijão, ervilhas, beterrabas, etc..",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Louros (Funchal)": [
+            "Localidade"
+        ],
+        "Ribeira Brava": [
+            "Localidade"
+        ],
+        "Paul da Serra": [
+            "Localidade"
+        ],
+        "Pôrto da Cruz": [
+            "Localidade"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

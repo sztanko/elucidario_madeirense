@@ -1,0 +1,31 @@
+{
+    "id": 1818,
+    "lang": "de",
+    "is_original": false,
+    "title": "Jamboto",
+    "fl": "J",
+    "original_title": "Jamboto",
+    "body": "Besiedelte Stelle in der Gemeinde Santo Antonio do Funchal. Dieser Name ist die Verballhornung von João Boto, einem früheren Siedler. An dieser Stelle befindet sich eine eisenhaltige Quelle, die einmal einen guten Ruf hatte, da man ihr bestimmte therapeutische Eigenschaften zuschrieb. Aus diesem Grund ließ die Stadtverwaltung von Funchal eine chemische und bakteriologische Analyse dieses Wassers durchführen, deren Ergebnis im Jahr 1900 in einer Broschüre veröffentlicht und auf den Seiten 119 ff. des Buches *Paroquia de Santo Antonio da Ilha da Madeira* eines der Autoren dieses *Elucidario* abgedruckt wurde.",
+    "categories": [
+        "geography",
+        "health"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Santo Antonio do Funchal": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "João Boto": [
+            "Früherer Siedler, dessen Name zu Jamboto verballhornt wurde"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Jahr, in dem die Ergebnisse der Wasseranalyse von Jamboto veröffentlicht wurden"
+        ]
+    }
+}

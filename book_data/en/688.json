@@ -1,0 +1,30 @@
+{
+    "id": 688,
+    "lang": "en",
+    "is_original": false,
+    "title": "Câmara (José Bettencourt da)",
+    "fl": "C",
+    "original_title": "Câmara (José Bettencourt da)",
+    "body": "He was born on April 19, 1844, at Quinta do Descanso, in the parish of Santa Luzia, belonging to his paternal grandfather, the morgado Tristão Joaquim Bettencourt da Câmara, and passed away in the parish of Câmara de Lobos on October 19, 1875, while traveling from Estreito da Calheta to this city, at the young age of 31. He had a valuable collaboration in various newspapers, showing remarkable aptitude for literature. He dedicated himself especially to genealogical and heraldic studies, having extensive knowledge of the lineages of the ancient Madeiran families. Some of the notes in the 'Saudades da Terra' belong to him, dealing with genealogical subjects. He was preparing a valuable work on this subject, which he did not manage to complete.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "Camara de Lobos"
+    ],
+    "locations": {},
+    "people": {
+        "Tristão Joaquim Bettencourt da Câmara": [
+            "Paternal grandfather"
+        ]
+    },
+    "years": {
+        "1844": [
+            "Born at Quinta do Descanso"
+        ],
+        "1875": [
+            "Passed away in the parish of Câmara de Lobos"
+        ]
+    }
+}

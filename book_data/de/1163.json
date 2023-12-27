@@ -1,0 +1,33 @@
+{
+    "id": 1163,
+    "lang": "de",
+    "is_original": false,
+    "title": "Direita (Straße)",
+    "fl": "D",
+    "original_title": "Direita (Rua)",
+    "body": "Sie liegt in der Gemeinde Sé und verbindet den Largo do Pelourinho mit der Straße 31 de Janeiro, früher da Princesa.\n\nEs ist eine alte Straße von geringer Länge und sekundärer Bedeutung, verglichen mit anderen Straßen dieser Stadt. Sie war jedoch eine der wichtigsten und längsten Straßen des alten Funchal, beginnend am Pelourinho und sich entlang des linken Ufers des Ribeira de Santa Luzia bis in die Nähe des Torreão erstreckend. Gaspar Frutuoso erwähnt sie 1590 als \"eine große und breite Straße, die größte der Stadt\", und fügt hinzu, dass Bischof D. Jeronimo Barreto (1574-1585) dort \"sehr prunkvolle Gemächer mit schönen Gärten\" hatte. In dieser alten Straße befanden sich die Kirche und Herberge São Bartolomeu, und einige der angesehensten Personen Funchals hatten dort ihre Wohnhäuser.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Sé"
+    ],
+    "locations": {
+        "Gemeinde Sé": [
+            "Lage der Straße"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiker, der die Straße 1590 beschreibt"
+        ],
+        "D. Jeronimo Barreto": [
+            "Bischof mit prunkvollen Gemächern in der Straße"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Gaspar Frutuoso beschreibt die Straße als eine der wichtigsten und längsten des alten Funchal"
+        ]
+    }
+}

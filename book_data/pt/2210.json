@@ -1,0 +1,31 @@
+{
+    "id": 2210,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Martins (Dr. João Augusto)",
+    "fl": "M",
+    "original_title": "Martins (Dr. João Augusto)",
+    "body": "Medico militar do quadro do Ultramar, já falecido. Era natural de Cabo Verde e tinha o curso da Escola Medica de Lisboa. E.: A Madeira e o seu clima, Lisboa, 1901, de 10 páginas e Madeira, Cabo Verde e Guiné, Lisboa, 1891, de 271 páginas. Esta ultima obra recomenda-se pela correcção, elegância e graça espontânea com que se acha escrita.",
+    "categories": [
+        "health",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cabo Verde": [
+            "Naturalidade de João Augusto Martins"
+        ],
+        "Lisboa": [
+            "Escola Medica de Lisboa"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Publicação de «A Madeira e o seu clima»"
+        ],
+        "1891": [
+            "Publicação de «Madeira, Cabo Verde e Guiné»"
+        ]
+    }
+}

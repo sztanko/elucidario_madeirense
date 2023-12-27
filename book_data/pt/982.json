@@ -1,0 +1,24 @@
+{
+    "id": 982,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Conselho de Prefeitura",
+    "fl": "C",
+    "original_title": "Conselho de Prefeitura",
+    "body": "Foi criado pelo decreto de 6 de Maio de 1832 e funcionava junto do prefeito da Provincia. O codigo administrativo de 1836, que criou o conselho de distrito, fêz desaparecer o antigo conselho de prefeitura.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1832": [
+            "Criação do Conselho de Prefeitura"
+        ],
+        "1836": [
+            "Desaparecimento do antigo conselho de prefeitura"
+        ]
+    }
+}

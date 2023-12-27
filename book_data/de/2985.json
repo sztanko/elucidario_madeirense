@@ -1,0 +1,30 @@
+{
+    "id": 2985,
+    "lang": "de",
+    "is_original": false,
+    "title": "Landgut von Santo António",
+    "fl": "L",
+    "original_title": "Quinta de Santo António",
+    "body": "Besiedelte Stätte in der Gemeinde Estreito de Câmara de Lobos. Dort gibt es eine Kapelle, die 1705 von Inácio Viana do Rego zu Ehren des heiligen Antonius mit einem angrenzenden Herrenhaus erbaut wurde. Sie gehörte zum Majorat der Heredias, dessen letzter Vertreter der Viscount von Ribeira Brava war.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {
+        "Estreito de Câmara de Lobos": [
+            "Gemeinde, in der sich das Landgut von Santo António befindet"
+        ]
+    },
+    "people": {
+        "Inácio Viana do Rego": [
+            "Verantwortlich für den Bau der dem heiligen Antonius geweihten Kapelle"
+        ]
+    },
+    "years": {
+        "1705": [
+            "Jahr, in dem die dem heiligen Antonius geweihte Kapelle erbaut wurde"
+        ]
+    }
+}

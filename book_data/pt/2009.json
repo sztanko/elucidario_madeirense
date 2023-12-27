@@ -1,0 +1,31 @@
+{
+    "id": 2009,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "Sítio povoado da freguesia do Caniço. Tomou o nome duma capela, que ali existiu, dedicada a Nossa Senhora do Livramento e que foi centro duma concorrida romagem, transferida hoje para a Igreja Paroquial. Atribui-se a fundação desta capela a Sebastião de Oliveira por meados do século XVII, que teve ali terras de sesmaria.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Freguesia do Caniço"
+        ]
+    },
+    "people": {
+        "Sebastião de Oliveira": [
+            "Atribui-se a fundação da capela de Nossa Senhora do Livramento"
+        ]
+    },
+    "years": {
+        "XVII": [
+            "Fundação da capela de Nossa Senhora do Livramento"
+        ]
+    }
+}

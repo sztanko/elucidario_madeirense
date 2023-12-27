@@ -1,0 +1,31 @@
+{
+    "id": 2017,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombada",
+    "fl": "L",
+    "original_title": "Lombada",
+    "body": "Lombada is a populated place in the parish of Santa Cruz. The old chapel of São Pedro that exists there was built by João Escorcio Drumond in the early 16th century and was located on the bank of the Ribeira da Boaventura. Destroyed by the great flood of 1803, it was soon rebuilt in a location less exposed to the violence of the current. It is affirmed that in this place, in the year 1670, D. Maria do Rosário de Arvelos erected a chapel dedicated to Nossa Senhora da Penha de França, which has long since disappeared.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Builder of the old chapel of São Pedro"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Year of the great flood that destroyed the old chapel of São Pedro"
+        ]
+    }
+}

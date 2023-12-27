@@ -1,0 +1,30 @@
+{
+    "id": 3662,
+    "lang": "de",
+    "is_original": false,
+    "title": "Königliche Freiwillige",
+    "fl": "K",
+    "original_title": "Voluntários Realistas",
+    "body": "Das Korps der Königlichen Städtischen Freiwilligen der Madeira wurde 1828 vom Generalgouverneur José Maria Monteiro gegründet, aber wie aus einem Schreiben von D. Álvaro da Costa de Macedo an Graf von Basto vom 9. September 1831 hervorgeht, bestand dieses Korps, das 4 Kompanien haben sollte, nur aus einer Kompanie, für die D. Álvaro die dem Königlichen Freiwilligenkorps durch Dekret vom 26. September 1828 gewährten Privilegien und Vergünstigungen beanspruchte. Laut dem Plan des Generalgouverneurs Monteiro sollte das Korps einen Kommandanten Major haben, und jede Kompanie sollte 1 Leutnant, 1 Fähnrich, 10 Unteroffiziere, 1 Fourier, 2 Korporale, 2 Hornisten und 52 Soldaten haben.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Maria Monteiro": [
+            "Generalgouverneur"
+        ],
+        "D. Álvaro da Costa de Macedo": [
+            "Verfasser des Schreibens"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Gründung des Korps"
+        ],
+        "1831": [
+            "Schreiben von D. Álvaro da Costa de Macedo"
+        ]
+    }
+}

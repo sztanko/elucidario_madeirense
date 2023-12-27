@@ -1,0 +1,39 @@
+{
+    "id": 12,
+    "lang": "de",
+    "is_original": false,
+    "title": "Abreu (Francisco Ferreira de)",
+    "fl": "A",
+    "original_title": "Abreu (Francisco Ferreira de)",
+    "body": "Er war 1828 Richter für Waisenkinder der Kapitänschaft von Machico, nachdem er zuvor die Ämter des Verschiffungsfaktors, des Gerichtsvollziehers für überseeische Vollstreckungen und des Gerichtsschreibers von Indien und Guinea bekleidet hatte. Als Liberaler auf Befehl des Hohen Gerichts, das während der Regierung Dom Miguels auf diese Insel kam, verhaftet, wurde er an Bord der Brigg *S. Boaventura+ nach Lissabon geschickt und am 3. August 1830 zu drei Jahren Verbannung von Madeira verurteilt. Am 23. Juni 1838 wurde er zum Grundbuchbeamten des westlichen Gerichtsbezirks ernannt, und am 11. Juni 1841 zum Gerichtsschreiber der Verwaltung der Gemeinde Funchal. Nach seinem Rücktritt von letzterem Amt zog er nach Cabo Verde, wo er 1842 in noch nicht sehr hohem Alter starb. Er war Sekretär der Gesellschaft der Freunde der Wissenschaften und Künste und übersetzte den Elementaren Grundriss der Politischen Ökonomie von Adolfo Blanqui und die Abhandlung über die Umwälzungen auf der Erdoberfläche des Barons von Cuvier.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco Ferreira de Abreu": [
+            "Richter für Waisenkinder der Kapitänschaft von Machico, Grundbuchbeamter des westlichen Gerichtsbezirks, Gerichtsschreiber der Verwaltung der Gemeinde Funchal, Sekretär der Gesellschaft der Freunde der Wissenschaften und Künste"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Francisco Ferreira de Abreu wird Richter für Waisenkinder der Kapitänschaft von Machico"
+        ],
+        "1830": [
+            "Verurteilung von Francisco Ferreira de Abreu zu drei Jahren Verbannung von Madeira"
+        ],
+        "1838": [
+            "Ernennung von Francisco Ferreira de Abreu zum Grundbuchbeamten des westlichen Gerichtsbezirks"
+        ],
+        "1841": [
+            "Ernennung von Francisco Ferreira de Abreu zum Gerichtsschreiber der Verwaltung der Gemeinde Funchal"
+        ],
+        "1842": [
+            "Tod von Francisco Ferreira de Abreu in Cabo Verde"
+        ]
+    }
+}

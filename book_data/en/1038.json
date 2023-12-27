@@ -1,0 +1,31 @@
+{
+    "id": 1038,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cosson (E)",
+    "fl": "C",
+    "original_title": "Cosson (E)",
+    "body": "E: Catalog of the plants collected by G. Mandon in 1865 and 1866 on the islands of Madeira and Porto Santo. (Bull. de la Soc. Bot. de France, vol. XV, 1868).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island where the mentioned plants were collected."
+        ]
+    },
+    "people": {
+        "G. Mandon": [
+            "Person responsible for collecting the plants in 1865 and 1866."
+        ]
+    },
+    "years": {
+        "1865": [
+            "Year in which the mentioned plants were collected."
+        ],
+        "1866": [
+            "Year in which the mentioned plants were collected."
+        ]
+    }
+}

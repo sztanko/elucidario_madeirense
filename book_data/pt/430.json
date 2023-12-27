@@ -1,0 +1,29 @@
+{
+    "id": 430,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barreiros (Estádio dos)",
+    "fl": "B",
+    "original_title": "Barreiros (Estádio dos)",
+    "body": "Na freguesia de São Martinho, no sítio do Ribeiro Seco de Cima, onde chamam os Barreiros, fica um excelente campo de jogos desportivos, conhecido pelo nome de Estádio dos Barreiros, que tem a superfície aproximada de 18.000 metros quadrados e que foi solenemente inaugurado no ano de 1927.",
+    "categories": [
+        "sports"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Freguesia"
+        ],
+        "Ribeiro Seco de Cima": [
+            "Localização do estádio"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1927": [
+            "Inauguração do Estádio dos Barreiros"
+        ]
+    }
+}

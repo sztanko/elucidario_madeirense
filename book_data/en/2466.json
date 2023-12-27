@@ -1,0 +1,51 @@
+{
+    "id": 2466,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Amparo (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Amparo (Capelas de)",
+    "body": "In the place of Álamos in the parish of Santo António, stands the chapel of Nossa Senhora do Amparo, which is in a good state of preservation, and the Holy Sacrifice of the Mass is celebrated there from time to time. The location of the chapel is part of both the parish of Santo António and that of S. Roque, in a place known by the name Água de Mel, which was a common denomination for a vast area belonging to both parishes. In the part of this place within the limits of Santo António, there stood the chapel, a large dwelling, and other dependencies, which constituted the headquarters of the old entailed institution called Água de Mel.\n\nThe annotator of the 'Saudades da Terra' fixes the year 1698 as the foundation year of this chapel, but we are inclined to believe that it is much older and perhaps even contemporary with the establishment of the entailed estate, which dates back to the last quarter of the 15th century. However, it is certain that Bartolomeu de Sá Machado, the administrator of this entail, had it built or, perhaps better, rebuilt in the mentioned year of 1698.\n\n(See Bettencourt, I-139).\n\nD. Luísa de Mendonça, widow of José de Seixas, had a chapel dedicated to Nossa Senhora do Amparo built in the year 1712 in the parish of São Martinho, which belongs to the heirs of the Sauvayres entailed estates, and in the parish of Ponta do Pargo, there is also a chapel with the same name, which gave the name to the place where it is built. The festivity celebrated there every year is very popular. Francisco Dias Franco also founded a chapel in the parish of Machico in the year 1692, dedicated to Nossa Senhora do Amparo.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "S. Roque",
+        "São Martinho",
+        "Ponta do Pargo",
+        "Machico"
+    ],
+    "locations": {
+        "Santo António": [
+            "Parish"
+        ],
+        "S. Roque": [
+            "Parish"
+        ],
+        "Água de Mel": [
+            "Place"
+        ],
+        "São Martinho": [
+            "Parish"
+        ],
+        "Ponta do Pargo": [
+            "Parish"
+        ],
+        "Machico": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Bartolomeu de Sá Machado": [
+            "Administrator of the entail"
+        ],
+        "D. Luísa de Mendonça": [
+            "Widow of José de Seixas"
+        ],
+        "Francisco Dias Franco": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {}
+}

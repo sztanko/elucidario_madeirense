@@ -1,0 +1,33 @@
+{
+    "id": 3395,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa (Garcia Homem de)",
+    "fl": "S",
+    "original_title": "Sousa (Garcia Homem de)",
+    "body": "He was one of the noblemen sent by the king to this island to marry the daughters of João Gonçalves Zargo, and he married the third daughter, Catarina Gonçalves da Câmara. He received sesmaria lands in São Martinho and Santo Antonio, and built the fortified manor of Santo Amaro to defend himself from his brothers-in-law, with whom he had disputes for reasons that are not well known today. Dr. Azevedo said he was a proud and violent man (see Santo Amaro (chapels)).\n\nHenrique Henriques de Noronha said that Garcia Homem de Sousa was descended from Pedro Homem, one of the twelve knights who went to England.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Martinho": [
+            "Location of sesmaria lands"
+        ],
+        "Santo Antonio": [
+            "Location of sesmaria lands"
+        ],
+        "Santo Amaro": [
+            "Location of the fortified manor"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zargo": [
+            "Father of the daughters married to Garcia Homem de Sousa"
+        ],
+        "Catarina Gonçalves da Câmara": [
+            "Third daughter of João Gonçalves Zargo"
+        ]
+    },
+    "years": {}
+}

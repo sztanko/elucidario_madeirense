@@ -1,0 +1,45 @@
+{
+    "id": 3198,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santo André Avelino (Capela de)",
+    "fl": "S",
+    "original_title": "Santo André Avelino (Capela de)",
+    "body": "No sítio do Carvalhal da freguesia dos Canhas, existe a capela de Santo André Avelino, fundada em 1776 pelo capitão Carlos Nunes de Freitas da Silva e sua mulher D. Ana Guiomar de Moura Acciaioly Lomelino. Pertencia à casa do morgado Nuno de Freitas Lomelino. Numa das paredes se lê esta inscrição, ali posta há poucos anos: Oferecida por Jacintho Fernandes e concluida por José dos Reis e Povo». Na cantaria da porta tem a data de 1774.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {
+        "Carvalhal": [
+            "Local onde existe a capela de Santo André Avelino"
+        ]
+    },
+    "people": {
+        "Carlos Nunes de Freitas da Silva": [
+            "Fundador da capela de Santo André Avelino"
+        ],
+        "D. Ana Guiomar de Moura Acciaioly Lomelino": [
+            "Esposa de Carlos Nunes de Freitas da Silva, participou na fundação da capela de Santo André Avelino"
+        ],
+        "Nuno de Freitas Lomelino": [
+            "Proprietário da casa a que a capela de Santo André Avelino pertencia"
+        ],
+        "Jacintho Fernandes": [
+            "Ofereceu a inscrição na capela de Santo André Avelino"
+        ],
+        "José dos Reis": [
+            "Concluiu a inscrição na capela de Santo André Avelino"
+        ]
+    },
+    "years": {
+        "1776": [
+            "Ano de fundação da capela de Santo André Avelino"
+        ],
+        "1774": [
+            "Ano gravado na cantaria da porta da capela de Santo André Avelino"
+        ]
+    }
+}

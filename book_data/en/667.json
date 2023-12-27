@@ -1,0 +1,28 @@
+{
+    "id": 667,
+    "lang": "en",
+    "is_original": false,
+    "title": "Callejon (D. Ventura de)",
+    "fl": "C",
+    "original_title": "Callejon (D. Ventura de)",
+    "body": "Spanish consul on the island of Madeira. He wrote a report about Columbus' stay on this island in the Ilustracion Espanola y Americana (n1. 38 of October 15, 1878).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island where D. Ventura de Callejon was the Spanish consul."
+        ]
+    },
+    "people": {
+        "Colombo": [
+            "Reference to Columbus' stay on the island of Madeira."
+        ]
+    },
+    "years": {
+        "1878": [
+            "Date of the report written by D. Ventura de Callejon about Columbus' stay on the island of Madeira."
+        ]
+    }
+}

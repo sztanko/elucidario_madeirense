@@ -1,0 +1,40 @@
+{
+    "id": 365,
+    "lang": "de",
+    "is_original": false,
+    "title": "Azevedo Ramos (Nicasio de)",
+    "fl": "A",
+    "original_title": "Azevedo Ramos (Nicasio de)",
+    "body": "Er wurde am 2. Oktober 1862 in Tondela geboren und kam am 23. Januar 1885 nach Madeira. Er war Chefredakteur der republikanischen Zeitung A Lucta und Zahnarzt von der medizinischen Schule von Lissabon und übte diesen Beruf viele Jahre in Funchal aus.\n\nVeröffentlichungen: Rede bei der feierlichen Beerdigung von Elias Garcia, gehalten im Tempel der Loge Liberdade, am 18. Juli 1891 (Funchal, 1891, Blatt).\n\nEr starb in Funchal am 8. Januar 1927.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Tondela": [
+            "Geburtsort"
+        ],
+        "Funchal": [
+            "Ort der Berufsausübung und des Todes"
+        ]
+    },
+    "people": {
+        "Nicasio de Azevedo Ramos": [
+            "Chefredakteur der Zeitung A Lucta und Zahnarzt"
+        ]
+    },
+    "years": {
+        "1862": [
+            "Geburt"
+        ],
+        "1885": [
+            "Ankunft auf Madeira"
+        ],
+        "1891": [
+            "Rede bei der Beerdigung von Elias Garcia"
+        ],
+        "1927": [
+            "Tod"
+        ]
+    }
+}

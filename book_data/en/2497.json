@@ -1,0 +1,83 @@
+{
+    "id": 2497,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Livramento (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Livramento (Capelas de)",
+    "body": "In the parish of Caniço, there was a chapel dedicated to Nossa Senhora do Livramento, in the place that still bears this name today. It was the subject of an ancient and popular pilgrimage, which still takes place at the parish church, since the time when the chapel was demolished, of which there are no traces today. It seems to have been built around the mid-17th century, and its foundation is attributed to Sebastião de Oliveira, who owned land in that place.\n\nWith the same invocation, we also know of a chapel in the parish of Ponta do Sol, another in the parish of Monte, another in the parish of Estreito da Calheta, and a fourth in the parish of S. Vicente.\n\nThe first of these chapels was ordered to be built by Diogo Ferreira de Mesquita and his wife D. Isabel de Meneses, in 1656, being endowed by a deed of September 14 of the same year; the second was built by Inácio Ferreira Pinto in 1684, and rebuilt a century later by João José Bettencourt de Freitas, with the inspection for the celebration of worship taking place on July 5, 1784; the third, of recent foundation, was ordered to be built by D. Inacia Bettencourt Perestrelo in the year 1858, with the canonical inspection taking place on September 11 of the same year and the fourth was erected in 1685 by Father Manue1 Gomes Garcês.\n\nThe chapel of Nossa Senhora do Livramento in the parish of Estreito da Calheta is currently (1921) owned by Francisco Bettencourt Pimenta and is located in Lombo dos Reis.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Ponta do Sol",
+        "Monte",
+        "Estreito da Calheta",
+        "S. Vicente",
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Caniço": [
+            "Parish of Caniço"
+        ],
+        "Ponta do Sol": [
+            "Parish of Ponta do Sol"
+        ],
+        "Monte": [
+            "Parish of Monte"
+        ],
+        "Estreito da Calheta": [
+            "Parish of Estreito da Calheta"
+        ],
+        "S. Vicente": [
+            "Parish of S. Vicente"
+        ]
+    },
+    "people": {
+        "Sebastião de Oliveira": [
+            "Founder of the chapel"
+        ],
+        "Diogo Ferreira de Mesquita": [
+            "Ordered the construction of the first chapel"
+        ],
+        "Inácio Ferreira Pinto": [
+            "Built the second chapel"
+        ],
+        "João José Bettencourt de Freitas": [
+            "Rebuilt the second chapel"
+        ],
+        "D. Inacia Bettencourt Perestrelo": [
+            "Ordered the construction of the third chapel"
+        ],
+        "Manue1 Gomes Garcês": [
+            "Erected the last chapel"
+        ],
+        "Francisco Bettencourt Pimenta": [
+            "Owner of the chapel in Estreito da Calheta"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Construction of the first chapel"
+        ],
+        "1684": [
+            "Construction of the second chapel"
+        ],
+        "1784": [
+            "Inspection for the celebration of worship in the second chapel"
+        ],
+        "1858": [
+            "Construction of the third chapel"
+        ],
+        "1860": [
+            "Canonical inspection of the third chapel"
+        ],
+        "1685": [
+            "Construction of the last chapel"
+        ],
+        "1921": [
+            "Year in which the chapel in Estreito da Calheta was owned by Francisco Bettencourt Pimenta"
+        ]
+    }
+}

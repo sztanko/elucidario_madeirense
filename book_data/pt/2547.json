@@ -1,0 +1,47 @@
+{
+    "id": 2547,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nunes",
+    "fl": "N",
+    "original_title": "Nunes",
+    "body": "O primeiro indivíduo deste apelido de que fazem menção as crónicas madeirenses chamava-se\n Fernão Nunes, e residiu em Gaula, tendo casado com Helena de Góis, filha de Lançarote Teixeira, quarto\n filho de Tristão Vaz, primeiro donatario de Machico.\n\n No primeiro quartel do século XVI, vivia no Porto Santo um Bartolomeu Nunes, que foi pai do falso profeta\n Fernão Nunes, de que falaremos noutro lugar deste Elucidário.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Gaula",
+        "Porto Santo",
+        "Machico"
+    ],
+    "locations": {
+        "Gaula": [
+            "Local de residência de Fernão Nunes"
+        ],
+        "Porto Santo": [
+            "Local de residência de Bartolomeu Nunes"
+        ]
+    },
+    "people": {
+        "Fernão Nunes": [
+            "Indivíduo mencionado nas crónicas madeirenses"
+        ],
+        "Helena de Góis": [
+            "Esposa de Fernão Nunes"
+        ],
+        "Lançarote Teixeira": [
+            "Pai de Helena de Góis"
+        ],
+        "Tristão Vaz": [
+            "Primeiro donatario de Machico"
+        ],
+        "Bartolomeu Nunes": [
+            "Indivíduo que vivia no Porto Santo"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Época em que vivia Bartolomeu Nunes"
+        ]
+    }
+}

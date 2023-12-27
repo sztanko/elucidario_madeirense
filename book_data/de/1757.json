@@ -1,0 +1,29 @@
+{
+    "id": 1757,
+    "lang": "de",
+    "is_original": false,
+    "title": "Igreja Velha",
+    "fl": "I",
+    "original_title": "Igreja Velha",
+    "body": "In der Gemeinde São Roque do Funchal befindet sich ein Ort dieses Namens, und es gab sogar eine alte Kapelle, die dem heiligen Rochus geweiht war und von 1579 bis 1790 als Pfarrkirche diente, als sie bereits in einem fortgeschrittenen Ruinzustand war und einstürzte.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Gemeinde, in der sich der Ort Igreja Velha befindet"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1579": [
+            "Beginn der Zeit, in der die dem heiligen Rochus geweihte Kapelle als Pfarrkirche diente"
+        ],
+        "1790": [
+            "Einsturz der Kapelle"
+        ]
+    }
+}

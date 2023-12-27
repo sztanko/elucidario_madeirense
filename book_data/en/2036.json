@@ -1,0 +1,37 @@
+{
+    "id": 2036,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo do Salão",
+    "fl": "L",
+    "original_title": "Lombo do Salão",
+    "body": "A populated place in the parish of Calheta. With the invocation of Santo António dos Milagres, there is a small chapel there, which is now (1921) owned by Juvenal Raimundo de Vasconcelos. There also used to be the Chapel of Saints Cosme and Damião, founded in 1681 by the physician António de França Gomes. Still there, in a place known as Cadeado, is a chapel dedicated to São Francisco Xavier, built in 1693 by Manuel da Silva Pinheiro.",
+    "categories": [
+        "religion",
+        "architecture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Locality in the Madeira Island"
+        ]
+    },
+    "people": {
+        "Juvenal Raimundo de Vasconcelos": [
+            "Owner of the chapel"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Year in which the chapel became the property of Juvenal Raimundo de Vasconcelos"
+        ],
+        "1681": [
+            "Foundation of the Chapel of Saints Cosme and Damião"
+        ],
+        "1693": [
+            "Construction of the chapel dedicated to São Francisco Xavier"
+        ]
+    }
+}

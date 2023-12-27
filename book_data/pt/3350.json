@@ -1,0 +1,30 @@
+{
+    "id": 3350,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sindicato Agrícola Estreitense",
+    "fl": "S",
+    "original_title": "Sindicato Agrícola Estreitense",
+    "body": "Foi estabelecido em 1918 no Estreito de Câmara de Lobos, tendo os seus estatutos sido publicados no Diário do Governo de 20 de Dezembro do mesmo ano. Em 2 de Marco de 1919, elegeu os seus corpos gerentes. Destina-se a tratar dos interêsses agrícolas dos seus associados e da aquisição de adubos, sementes, maquinas, insecticidas, etc. (1921).",
+    "categories": [
+        "economy",
+        "society"
+    ],
+    "freguesias": [
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {
+        "Estreito de Câmara de Lobos": [
+            "Local de estabelecimento do Sindicato Agrícola Estreitense"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1918": [
+            "Estabelecimento do Sindicato Agrícola Estreitense"
+        ],
+        "1919": [
+            "Eleição dos corpos gerentes"
+        ]
+    }
+}

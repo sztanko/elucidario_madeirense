@@ -1,0 +1,69 @@
+{
+    "id": 2202,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Marques (Dr. Vasco Gonçalves)",
+    "fl": "M",
+    "original_title": "Marques (Dr. Vasco Gonçalves)",
+    "body": "Nasceu no Funchal a 29 de Agôsto de 1877, sendo filho do dr. Joaquim Gonçalves Marques e de D. Maria Gonçalves Marques e é medico-cirurgião pela extinta Escola Médico-cirúrgica desta cidade, tendo concluído o respectivo curso em 1897. Foi por algum tempo facultativo no Seixal, passando depois para o Porto do Moniz, na qualidade de medico do partido da Câmara, e conservando-se naquela localidade até 1904, ano em que foi nomeado secretario da policia de emigração no Funchal, cargo que desempenhou até depois da implantação da Republica no nosso país. Tendo-se filiado, sendo ainda bastante novo, no partido regenerador, prestou-lhe sempre os mais assinalados serviços, quer nas lutas eleitorais que nos tempos da monarquia se empenharam no concelho do Pôrto do Moniz, onde possuía grande influencia política, quer na imprensa do mesmo partido, e em especial no Direito, onde durante alguns anos escreveu inúmeros artigos, em que revelou apreciados dotes de jornalista. Proclamada a Republica e dissolvidos os velhos partidos monárquicos, filiou-se o dr. Vasco Marques no partido democrático, que tinha por chefe o dr. Afonso Costa, continuando a revelar sob o novo regímen as suas altas faculdades mentais e a sua rija tempera de combatente. Redigiu o Liberal e o Democrata, e foi administrador do concelho do Funchal em 1912 e 1913, tendo depois da morte do Visconde da Ribeira Brava, sido eleito presidente da comissão distrital do referido partido. Em 1920, íngressou no partido republicano da Reconstituição Nacional, onde desempenha agora cargo idêntico ao que tinha ultimamente na comissão distrital do partido Republicano Português (1921). Quatro vezes tem o dr. Vasco Marques sido eleito senador pela Madeira: em 13 de Junho de 1915, 11 de Maio de 1919, 10 de Julho de 1921 e 29 de Janeiro de 1922. No seio da representação nacional, tem proferido muitos discursos, advogando os interesses deste arquipélago. Como presidente quer da Junta Geral, quer da comissão executiva desta corporação, muitos serviços tem prestado à sua terra, devendo-se-lhe o grande incremento tomado pela viação distrital nos últimos anos, a aquisição do edifício da Incarnação, onde esteve instalado o Seminário Episcopal, e da casa que serve de asilo dos velhinhos, a construção dum novo pavilhão no manicómio Camara Pestana, etc., etc.. No plano de melhoramentos que êle e a comissão executiva da Junta Geral delinearam e pretendiam levar a efeito, vemos assinaladas a construção de varias estradas novas e as reparações de que carecem muitas das existentes, a captação de aguas para irrigação, a rearborização das serras da Madeira, a construção dum bairro moderno, etc., etc.. O dr. Vasco Marques prestou excelentes serviços no Porto Santo, por ocasião duma epidemia que se manifestou naquela ilha, e no Porto do Moniz, onde, como dissemos, esteve por largos anos, deixou imensas simpatias pela maneira como soube desempenhar as funções do seu cargo. Foi também durante alguns tempos professor de alemão no liceu do Funchal e em 4 de Outubro de 1897 alistou-se no corpo de oficiais medicos da reserva, tendo presentemente no exercito o posto de capitão miliciano (1921).",
+    "categories": [
+        "history",
+        "politics",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento."
+        ],
+        "Seixal": [
+            "Local onde foi facultativo por algum tempo."
+        ],
+        "Porto do Moniz": [
+            "Local onde foi médico do partido da Câmara e onde esteve por largos anos."
+        ]
+    },
+    "people": {
+        "Joaquim Gonçalves Marques": [
+            "Pai de Vasco Gonçalves Marques."
+        ],
+        "D. Maria Gonçalves Marques": [
+            "Mãe de Vasco Gonçalves Marques."
+        ],
+        "Afonso Costa": [
+            "Chefe do partido democrático."
+        ]
+    },
+    "years": {
+        "1877": [
+            "Nascimento de Vasco Gonçalves Marques."
+        ],
+        "1897": [
+            "Conclusão do curso de medico-cirurgião."
+        ],
+        "1904": [
+            "Nomeação como secretario da policia de emigração no Funchal."
+        ],
+        "1912": [
+            "Administração do concelho do Funchal."
+        ],
+        "1913": [
+            "Administração do concelho do Funchal."
+        ],
+        "1915": [
+            "Eleição como senador pela Madeira."
+        ],
+        "1919": [
+            "Eleição como senador pela Madeira."
+        ],
+        "1920": [
+            "Íngresso no partido republicano da Reconstituição Nacional."
+        ],
+        "1921": [
+            "Cargo no partido Republicano Português."
+        ],
+        "1922": [
+            "Eleição como senador pela Madeira."
+        ]
+    }
+}

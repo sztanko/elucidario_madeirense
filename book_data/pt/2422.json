@@ -1,0 +1,42 @@
+{
+    "id": 2422,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nascimento (João Cabral do)",
+    "fl": "N",
+    "original_title": "Nascimento (João Cabral do)",
+    "body": "Nasceu no Funchal a 22 de Março de 1897 e é filho de João Crawford do Nascimento e de D. Palmira Cabral do Nascimento. Cursou o liceu desta cidade e concluiu em 1922 a sua formatura em direito na Universidade de Coimbra. Revelou desde novo uma decidida inclinação para as letras, afirmando-se especialmente como poeta. Publicou em verso os opúsculos\n\n> As tres Princesas mortas \n> num Pa-Idovo em rulna», 1916,\n> Além-Mar, 1917,\n> Hora de Noa, 1917. Tem colaborado em vários jornais e revistas e foi redactor da\n> Restauraçãoo, de Coimbra (1921). Criado o Arquivo Distrital em 1931, foi o dr. Cabral do Nascimento nomeado seu primeiro director, e logo fez publicar a revista «Arquivo Histórico da Madeira», de que tern sido o principal colaborador e da qual já saíram seis volumes. Além do que fica indicado, publicou, em verso, «Alguns Sonetos», 1924, «Descaminho», 1926, «Arrabalde», 1928, e «Cancionelro», 1943, e, em prosa, os seguintes escritos, «Documentos para a histórla das Capitanias da Madeira», 1930, «Genealogia da Familia Medina da Ilha da Madeira», 1930, e «Apontamentos de História Insular», 1927.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Crawford do Nascimento": [
+            "Pai de João Cabral do Nascimento"
+        ],
+        "D. Palmira Cabral do Nascimento": [
+            "Mãe de João Cabral do Nascimento"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Nascimento de João Cabral do Nascimento"
+        ],
+        "1922": [
+            "Conclusão da formatura em direito na Universidade de Coimbra"
+        ],
+        "1916": [
+            "Publicação do opúsculo 'As tres Princesas mortas'"
+        ],
+        "1917": [
+            "Publicação dos opúsculos 'Além-Mar' e 'Hora de Noa'"
+        ],
+        "1921": [
+            "Redator da Restauraçãoo, de Coimbra"
+        ],
+        "1931": [
+            "Criação do Arquivo Distrital"
+        ]
+    }
+}

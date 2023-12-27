@@ -1,0 +1,44 @@
+{
+    "id": 1679,
+    "lang": "en",
+    "is_original": false,
+    "title": "Heberden (Dr. Thomas)",
+    "fl": "H",
+    "original_title": "Heberden (Dr. Thomas)",
+    "body": "He was the brother of the well-known William Heberden and practiced medicine in Funchal, providing excellent services during the measles epidemic of 1751. When Banks and Dr. Solander visited Madeira in 1768, he supplied them with many natural history objects, as well as a copy of his observations on the island's flora. The two naturalists dedicated the genus Heberdenia, later merged by Aiton into the genus Ardisia, to him. The meteorological observations made by Dr. Herberden in Funchal from 1747 to 1751 were the first to be carried out on the island and were published in vol. X of the Philosophical Transactions.\n\nDr. Heberden also conducted some astronomical studies in Madeira, and a work of his titled: Observations of immersions and emersions of Jupiter's first Satellite made at Funchal, in Madeira, 1763-1768, appeared in the Philosophical Transactions.",
+    "categories": [
+        "science",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place where Dr. Thomas Heberden practiced medicine and conducted astronomical studies"
+        ]
+    },
+    "people": {
+        "Banks": [
+            "Naturalist"
+        ],
+        "Dr. Solander": [
+            "Naturalist"
+        ],
+        "Aiton": [
+            "Merged the genus Heberdenia into the genus Ardisia"
+        ]
+    },
+    "years": {
+        "1751": [
+            "End of the meteorological observations made by Dr. Herberden in Funchal"
+        ],
+        "1768": [
+            "End of the astronomical observations made by Dr. Herberden in Madeira"
+        ],
+        "1747": [
+            "Start of the meteorological observations made by Dr. Herberden in Funchal"
+        ],
+        "1763": [
+            "Start of the astronomical observations made by Dr. Herberden in Madeira"
+        ]
+    }
+}

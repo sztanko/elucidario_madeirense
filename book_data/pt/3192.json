@@ -1,0 +1,59 @@
+{
+    "id": 3192,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santa Maria (D. Fr. José de)",
+    "fl": "S",
+    "original_title": "Santa Maria (D. Fr. José de)",
+    "body": "Este piedoso bispo do Funchal era filho de Luís de Saldanha, viador da casa da rainha D. Luísa de Gusmão, e de D. Violante de Mendonça. Abraçando a vida monástica, entrou na ordem dos Capuchos e ali foi lente de artes e teologia, e exerceu ainda outros cargos importantes.\n\nD. Pedro 2.° nomeou-o bispo desta diocese em 1689, sendo confirmado pelo papa Alexandre VIII a 6 de Março de 1690. A 25 de Novembro deste ano, recebeu a sagração episcopal das mãos do cardial de Lencastre.\n\nEm Março de 1691 deu entrada na sua diocese, dedicando-se inteiramente á pastoreação do seu rebanho. Visitou varias vezes as paróquias do seu bispado, apesar da aspereza dos caminhos e da dificuldade de transportes e acomodações nos lugares que percorria. Foi muito zeloso na observância do ensino da doutrina cristã mandando imprimir uma pastoral, em que esta matéria era regulada e imposta com todo o rigor. Fez reunir um concilio na diocese, em que se tomaram sérias providencias acerca de muitos pontos da disciplina eclesiástica que há muito tinham caído em desuso.\n\nD. Fr. José de Santa Maria era de índole resignada e bondosa e sofreu com verdadeira humildade cristã as prepotências e vexames do capitão-general D. Rodrigo da Costa, que além do seu génio atrabiliario e despótico contava com a manifesta protecção dos seus parentes, que pertenciam à primeira nobreza e ocupavam os mais elevados cargos da nação.\n\nDepois dum curto episcopado de cinco anos, solicitou e obteve a sua transferência, sendo colocado numa das principais sés do Reino, em atenção aos seus grandes méritos e virtudes. Transferido para o bispado do Porto, ali morreu, com opinião de santo, a 26 de Outubro de 1708, segundo afirma D. Antonio Caetano de Sousa.\n\nSaiu da Madeira a 15 de Setembro de 1696, dia em que deixou a administração episcopal desta diocese.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Calheta",
+        "Madalena do Mar"
+    ],
+    "locations": {},
+    "people": {
+        "Luís de Saldanha": [
+            "Viador da casa da rainha D. Luísa de Gusmão"
+        ],
+        "D. Violante de Mendonça": [
+            "Mãe de D. Fr. José de Santa Maria"
+        ],
+        "D. Luísa de Gusmão": [
+            "Rainha"
+        ],
+        "D. Pedro 2.°": [
+            "Nomeou D. Fr. José de Santa Maria bispo da diocese"
+        ],
+        "Alexandre VIII": [
+            "Confirmou D. Fr. José de Santa Maria como bispo da diocese"
+        ],
+        "D. Rodrigo da Costa": [
+            "Capitão-general que causou vexames a D. Fr. José de Santa Maria"
+        ],
+        "D. Antonio Caetano de Sousa": [
+            "Afirma a data da morte de D. Fr. José de Santa Maria"
+        ]
+    },
+    "years": {
+        "1689": [
+            "D. Fr. José de Santa Maria foi nomeado bispo da diocese"
+        ],
+        "1690": [
+            "D. Fr. José de Santa Maria foi confirmado como bispo da diocese"
+        ],
+        "1691": [
+            "D. Fr. José de Santa Maria deu entrada na sua diocese"
+        ],
+        "1696": [
+            "D. Fr. José de Santa Maria saiu da Madeira"
+        ],
+        "1708": [
+            "D. Fr. José de Santa Maria morreu no bispado do Porto"
+        ]
+    }
+}

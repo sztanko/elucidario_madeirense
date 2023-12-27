@@ -1,0 +1,31 @@
+{
+    "id": 613,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kap",
+    "fl": "K",
+    "original_title": "Cabo",
+    "body": "Ein bevölkertes und sehr malerisches Gebiet in der Gemeinde Ponta do Pargo, wo sich eine Kapelle befindet, die Nossa Senhora da Boa Morte gewidmet ist. Sie wurde 1666 von Custódio Nunes da Costa erbaut.",
+    "categories": [
+        "geography",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Bevölkertes und sehr malerisches Gebiet"
+        ]
+    },
+    "people": {
+        "Custódio Nunes da Costa": [
+            "Erbauer der Kapelle"
+        ]
+    },
+    "years": {
+        "1666": [
+            "Baujahr der Kapelle"
+        ]
+    }
+}

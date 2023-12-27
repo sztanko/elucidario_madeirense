@@ -1,0 +1,43 @@
+{
+    "id": 2782,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pico (Festung)",
+    "fl": "P",
+    "original_title": "Pico (Fortaleza do)",
+    "body": "„Die Festung Pico auf der Insel Porto Santo war, so sagt Dr. Azevedo in seinen Anmerkungen zu Saudades da Terra, eher eine Zuflucht als eine Festung“, schreibt Gaspar Frutuoso 1590 über den Pico do Castelo, ohne zu erwähnen, dass es dort eine Burg gab, aber dass der Ort aufgrund seiner Beschaffenheit „stark und verteidigungsfähig“ war. Die dort existierenden und heute zerstörten Befestigungen wurden während der philippinischen Herrschaft errichtet, „nach dem schrecklichen Gemetzel und der Plünderung durch die Mauren 1617“, so A. A. Sarmento. Vor gut 30 Jahren gab es auf dem Gipfel des Berges noch Reste der alten Befestigungen und eine Zisterne, die dazu diente, jene mit Wasser zu versorgen, die sich bei Piratenüberfällen dorthin zurückzogen. (1921) Der Gouverneur Manuel Inacio de Avelar Brotero ließ 1805 die noch vorhandenen Ziegeln der Anlage für Reparaturen an der Kaserne und seiner Residenz in der Stadt holen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Insel mit der Festung Pico"
+        ]
+    },
+    "people": {
+        "Dr. Azevedo": [
+            "Autor der Anmerkungen zu Saudades da Terra"
+        ],
+        "Gaspar Frutuoso": [
+            "Historiker"
+        ],
+        "A. A. Sarmento": [
+            "Autor der Informationen über die Befestigungen"
+        ],
+        "Manuel Inacio de Avelar Brotero": [
+            "Gouverneur"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Gaspar Frutuoso behandelt Pico do Castelo"
+        ],
+        "1617": [
+            "Gemetzel und Plünderung durch Mauren"
+        ],
+        "1805": [
+            "Entfernung von Ziegeln durch Gouverneur Manuel Inacio de Avelar Brotero"
+        ]
+    }
+}

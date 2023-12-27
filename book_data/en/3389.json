@@ -1,0 +1,43 @@
+{
+    "id": 3389,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa",
+    "fl": "S",
+    "original_title": "Sousa",
+    "body": "> There seem to be two branches of this surname: one comes from Rui de Sousa, a nobleman of the household of King D. João II, who married Constança Cabral in this island, daughter of Diogo Cabral and Brites Gonçalves da Câmara, daughter of Zargo; the other derives from Antão Alvares de Sousa, a noble knight, who settled in Santa Cruz around 1480.\n>\n> Garcia Homem de Sousa, son-in-law of Zargo, had a daughter named Leonor Homem, who married Duarte Pestana.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Locality"
+        ]
+    },
+    "people": {
+        "Rui de Sousa": [
+            "Nobleman"
+        ],
+        "Constança Cabral": [
+            "Daughter of Diogo Cabral and Brites Gonçalves da Câmara"
+        ],
+        "Antão Alvares de Sousa": [
+            "Noble knight"
+        ],
+        "Garcia Homem de Sousa": [
+            "Son-in-law of Zargo"
+        ],
+        "Leonor Homem": [
+            "Daughter of Garcia Homem de Sousa"
+        ]
+    },
+    "years": {
+        "1480": [
+            "Settlement of Antão Alvares de Sousa in Santa Cruz"
+        ]
+    }
+}

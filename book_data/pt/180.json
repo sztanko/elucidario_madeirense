@@ -1,0 +1,31 @@
+{
+    "id": 180,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alvares da Silva (Anibal)",
+    "fl": "A",
+    "original_title": "Alvares da Silva (Anibal)",
+    "body": "Nasceu no Funchal a 29 de Maio de 1819, sendo filho de Vitorino Alvares da Silva. Cedo fixou a sua residência na então vila de Setúbal, onde seu pai exerceu o lugar de guarda-mor da Alfândega. Concluído com notável brilho o curso de direito, estabeleceu-se na sua pátria adoptiva como advogado, conseguindo pelo seu raro talento, austeridade de caracter e outras apreciáveis qualidades, ser a maior influência de Setúbal. Foi ali presidente da Câmara, tendo sido eleito por várias vezes deputado. Foram importantíssimos os serviços que prestou àquela localidade, que o tem na conta de um grande benemérito, e pensa-se em levantar ali um monumento á sua memória. Morreu em Lisboa, onde advogara muitos anos com grande nomeada, a 8 de Dezembro de 1408.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento."
+        ],
+        "Setúbal": [
+            "Local onde fixou residência e exerceu influência como presidente da Câmara."
+        ]
+    },
+    "people": {
+        "Vitorino Alvares da Silva": [
+            "Pai de Anibal Alvares da Silva."
+        ]
+    },
+    "years": {
+        "1819": [
+            "Ano de nascimento."
+        ]
+    }
+}

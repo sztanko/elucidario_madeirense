@@ -1,0 +1,50 @@
+{
+    "id": 2269,
+    "lang": "de",
+    "is_original": false,
+    "title": "Meneses (D. João de)",
+    "fl": "M",
+    "original_title": "Meneses (D. João de)",
+    "body": "Er war Generalgouverneur von Madeira und trat sein Amt im Januar 1634 an. Er zeichnete sich in den Unabhängigkeitskriegen aus und war Gouverneur von Porto. Dr. Rodrigues de Azevedo sagt von ihm, dass er ein heimlicher aber standhafter Feind der Herrschaft der Filipes war, so sehr, dass er, als er zur Zeit der Revolution vom 1. Dezember 1640 in Lissabon in Madrid war, in diese Stadt floh, als er in Burgos verhaftet wurde, und es nach fünf Jahren schaffte, zu entkommen und in den Dienst von D. João IV. zu treten. Er starb 1649 in Holland.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel"
+        ],
+        "Porto": [
+            "Stadt in Portugal"
+        ],
+        "Madrid": [
+            "Stadt in Spanien"
+        ],
+        "Lissabon": [
+            "Stadt in Portugal"
+        ],
+        "Burgos": [
+            "Stadt in Spanien"
+        ],
+        "Holland": [
+            "Land"
+        ]
+    },
+    "people": {
+        "Rodrigues de Azevedo": [
+            "Historiker"
+        ]
+    },
+    "years": {
+        "1634": [
+            "Amtsantritt als Generalgouverneur von Madeira"
+        ],
+        "1640": [
+            "Revolution vom 1. Dezember"
+        ],
+        "1649": [
+            "Tod in Holland"
+        ]
+    }
+}

@@ -1,0 +1,63 @@
+{
+    "id": 1501,
+    "lang": "de",
+    "is_original": false,
+    "title": "Funchal (Bezirk)",
+    "fl": "F",
+    "original_title": "Funchal (Comarca do)",
+    "body": "Erst im Jahr 1767, mit der dauerhaften Ernennung der Richter und Korrektoren, nahm die Rechtsprechung auf diesem Archipel eine regelmäßige Form an, die der Natur der wichtigen Dienste entsprach, die sie erfüllte. Diese Situation dauerte bis zum Jahr 1838 mit der Schaffung von zwei Bezirken an, beide mit Sitz in der Stadt Funchal, die westlicher Bezirk und östlicher Bezirk genannt wurden. Ersterer umfasste die Gemeinden des Landkreises Funchal, Câmara de Lobos, Ponta do Sol, Calheta, Porto do Moniz und S. Vicente, mit Ausnahme der Pfarrei Sé, letzterer die Pfarrei Sé und die Gemeinden der Landkreise Santa Cruz, Machico, Sant'Ana und Porto Santo.\n\nDas Dekret vom 12. November 1875 änderte die Gerichtseinteilung grundlegend mit der Schaffung der Gerichtsbezirke Funchal, Ponta do Sol, Santa Cruz und São Vicente. Der von Funchal wurde am 16. November 1876 eingerichtet und in neun Gerichte unterteilt, die die Gemeinden der Landkreise Funchal und Câmara de Lobos umfassten.\n\nDas Dekret vom 22. Juni 1927, das den Gerichtsbezirk São Vicente aufhob, änderte die Aufteilung der Friedensgerichte des Gerichtsbezirks Funchal, die damals aus den Gemeinden Arco de São Jorge, Câmara de Lobos, Campanário usw. bestanden, wobei jede dieser Gemeinden ein Gericht bildete.\n\nDas außergewöhnliche Arbeitsaufkommen dieses Bezirks führte zur Schaffung eines weiteren Gerichts, so dass es jetzt ein Zivil- und Handelsgericht und ein Strafgericht mit je einem Richter an der Spitze der beiden Gerichte gab, was durch das Dekret vom 22. Juni 1927 geregelt wurde und damit einen bemerkenswerten Dienst an der ordnungsgemäßen und fruchtbaren Rechtsprechung leistete. Das Dekret vom 29. Juni 1933 überarbeitete die Bestimmungen des vorherigen Dekrets und richtete zwei Gerichte mit gemeinsamer Zuständigkeit ein, das Gericht der ersten Instanz des Gerichtsbezirks Funchal und das Gericht der zweiten Instanz.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Câmara de Lobos",
+        "Ponta do Sol",
+        "Calheta",
+        "Porto do Moniz",
+        "S. Vicente",
+        "Sé",
+        "Santa Cruz",
+        "Machico",
+        "Sant'Ana",
+        "Porto Santo",
+        "Arco de São Jorge",
+        "Campanário",
+        "Curral das Freiras",
+        "Estreito de Câmara de Lobos",
+        "Faial",
+        "Santa Luzia",
+        "Santa Maria Maior",
+        "São Pedro",
+        "São Roque",
+        "Monte",
+        "Quinta Grande",
+        "Sant'Ana",
+        "Santo Antonio",
+        "São Jorge",
+        "São Martinho",
+        "São Gonçalo"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1767": [
+            "Dauerhafte Ernennung der Richter und Korrektoren"
+        ],
+        "1838": [
+            "Schaffung von zwei Gerichtsbezirken"
+        ],
+        "1875": [
+            "Schaffung der Gerichtsbezirke Funchal, Ponta do Sol, Santa Cruz und São Vicente"
+        ],
+        "1876": [
+            "Einrichtung des Gerichtsbezirks Funchal"
+        ],
+        "1927": [
+            "Aufhebung des Gerichtsbezirks São Vicente und Änderung der Aufteilung der Friedensgerichte"
+        ],
+        "1933": [
+            "Überarbeitung der Bestimmungen des vorherigen Dekrets"
+        ]
+    }
+}

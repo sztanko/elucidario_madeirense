@@ -1,0 +1,37 @@
+{
+    "id": 2502,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora das Maravilhas (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Maravilhas (Capela de)",
+    "body": "Na quinta das Maravilhas, no largo do mesmo nome, fundaram em 1657 uma capela desta invocação, Diogo Bettencourt Correia e sua mulher D. Catarina da Silva, tendo escritura de dotação de 18 de Agosto do mesmo ano. Foi reconstruída em 1736 por D. Mariana da Silva, havendo sido vistoriada para nela se poder celebrar missa, a 20 de Novembro do ano referido. Já não existe.\n\nCom igual invocação, existiu uma capela no sítio do Passo da freguesia da Madalena do Mar.\n\nGaspar Betencourt de Andrade instituiu outra em 1658 na freguesia de S. Pedro.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Madalena do Mar",
+        "S. Pedro"
+    ],
+    "locations": {
+        "Maravilhas": [
+            "Localizada na quinta das Maravilhas, no largo do mesmo nome."
+        ]
+    },
+    "people": {
+        "Diogo Bettencourt Correia": [
+            "Fundador da capela em 1657, juntamente com sua mulher D. Catarina da Silva."
+        ],
+        "D. Mariana da Silva": [
+            "Responsável pela reconstrução da capela em 1736."
+        ]
+    },
+    "years": {
+        "1657": [
+            "Fundação da capela"
+        ],
+        "1736": [
+            "Reconstrução da capela"
+        ]
+    }
+}

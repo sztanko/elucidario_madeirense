@@ -1,0 +1,32 @@
+{
+    "id": 1919,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lamaceiros",
+    "fl": "L",
+    "original_title": "Lamaceiros",
+    "body": "A very picturesque site in the parish of Santo da Serra, from where beautiful views of the parishes of Porto da Cruz, Faial, and Santana can be enjoyed. It is three kilometers away from the Parish Church of Santo da Serra. Up to this site, the waters of the Furado, Juncal, Nova do Furado or dos Accionistas, and Serra do Faial levadas run in a common aqueduct, with the first one going to its own conduit and the second one to the parish of Porto da Cruz. The waters of the other two levadas go together to the site of Lombo da Raiz (see this name).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo da Serra",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Parish"
+        ],
+        "Porto da Cruz": [
+            "Parish"
+        ],
+        "Faial": [
+            "Parish"
+        ],
+        "Santana": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

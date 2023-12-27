@@ -1,0 +1,34 @@
+{
+    "id": 1928,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Langerhans (Dr. Paul)",
+    "fl": "L",
+    "original_title": "Langerhans (Dr. Paul)",
+    "body": "Ocupou-se dos vermes da Madeira no Zeitschrift für wissenschaftliche Zoologie (1879-84) e escreveu um pequeno livro intitulado Handbuch fur Madeira, (Berlin, 1884).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha"
+        ],
+        "Berlim": [
+            "Cidade"
+        ]
+    },
+    "people": {
+        "Dr. Paul Langerhans": [
+            "Cientista"
+        ]
+    },
+    "years": {
+        "1879-84": [
+            "Publicação dos artigos sobre os vermes da Madeira"
+        ],
+        "1884": [
+            "Publicação do livro Handbuch fur Madeira"
+        ]
+    }
+}

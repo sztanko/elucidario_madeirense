@@ -1,0 +1,31 @@
+{
+    "id": 3061,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Restauração (Largo da)",
+    "fl": "R",
+    "original_title": "Restauração (Largo da)",
+    "body": "É o largo onde está a entrada principal da fortaleza de S. Lourenço e que foi aberta por ocasião da\n demolição do teatro grande, no tempo do governo de D. Alvaro da Costa Macedo. Antes de desaparecer este teatro, havia duas\n estreitas ruas que ladeavam uma parte das muralhas da fortaleza e que conduziam á entrada principal desta. O nome dado ao largo\n recorda a restauração da Carta Constitucional, no dia 5 de Junho de 1834.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Fortaleza de S. Lourenço": [
+            "Onde está a entrada principal"
+        ],
+        "Teatro grande": [
+            "Que foi demolido no tempo do governo de D. Alvaro da Costa Macedo"
+        ]
+    },
+    "people": {
+        "D. Alvaro da Costa Macedo": [
+            "Governou no tempo da demolição do teatro grande"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Restauração da Carta Constitucional"
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "id": 172,
+    "lang": "de",
+    "is_original": false,
+    "title": "Alqueire",
+    "fl": "A",
+    "original_title": "Alqueire",
+    "body": "| Gemeinde         | Kapazität, Liter |\n|------------------|------------------|\n| Calheta          | 13.712           |\n| Câmara de Lobos  | 14.078           |\n| Funchal          | 13.865           |\n| Machico          | 13.912           |\n| Ponta do Sol     | 13.756           |\n| Porto do Moniz   | 13.861           |\n| Porto Santo      | 13.883           |\n| Sant'Ana         | 13.973           |\n| Santa Cruz       | 13.776           |\n| S. Vicente       | 13.917           |\n\nHeute beträgt der Durchschnitt meist 13,8.",
+    "categories": [
+        "economy",
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Fassungsvermögen des Alqueire beträgt 13.712 Liter"
+        ],
+        "Câmara de Lobos": [
+            "Fassungsvermögen des Alqueire beträgt 14.078 Liter"
+        ],
+        "Funchal": [
+            "Fassungsvermögen des Alqueire beträgt 13.865 Liter"
+        ],
+        "Machico": [
+            "Fassungsvermögen des Alqueire beträgt 13.912 Liter"
+        ],
+        "Ponta do Sol": [
+            "Fassungsvermögen des Alqueire beträgt 13.756 Liter"
+        ],
+        "Porto do Moniz": [
+            "Fassungsvermögen des Alqueire beträgt 13.861 Liter"
+        ],
+        "Porto Santo": [
+            "Fassungsvermögen des Alqueire beträgt 13.883 Liter"
+        ],
+        "Sant'Ana": [
+            "Fassungsvermögen des Alqueire beträgt 13.973 Liter"
+        ],
+        "Santa Cruz": [
+            "Fassungsvermögen des Alqueire beträgt 13.776 Liter"
+        ],
+        "S. Vicente": [
+            "Fassungsvermögen des Alqueire beträgt 13.917 Liter"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

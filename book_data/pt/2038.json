@@ -1,0 +1,31 @@
+{
+    "id": 2038,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo de São João",
+    "fl": "L",
+    "original_title": "Lombo de São João",
+    "body": "Sítio povoado da freguesia da Ribeira Brava, que tomou o nome da capela, ali existente, da invocação de São João Baptista. Ignora-se o ano da sua primeira construção, mas sabe-se que foi reedificada em 1750 pelo alferes Tomé João Pimenta administrador do vinculo a que a mesma capela pertencia.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Tomé João Pimenta": [
+            "Alferes e administrador do vínculo"
+        ]
+    },
+    "years": {
+        "1750": [
+            "Ano em que a capela foi reedificada"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 2503,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora das Mercês (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Mercês (Capela de)",
+    "body": "Captain Gaspar Homem de El-Rei and his wife D. Isabel Florença founded a chapel dedicated to Nossa Senhora das Mercês in the parish of Arco da Calheta in the year 1650, which was located in a place called Florenças.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Florenças": [
+            "Located in the parish of Arco da Calheta, in a place called Florenças."
+        ]
+    },
+    "people": {
+        "Gaspar Homem de El-Rei": [
+            "Founder of the chapel in 1650, along with his wife D. Isabel Florença."
+        ]
+    },
+    "years": {
+        "1650": [
+            "Foundation of the chapel"
+        ]
+    }
+}

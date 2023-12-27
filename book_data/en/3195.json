@@ -1,0 +1,69 @@
+{
+    "id": 3195,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santa Quitéria (Chapels of)",
+    "fl": "S",
+    "original_title": "Santa Quitéria (Capelas de)",
+    "body": "Regarding the chapel of this invocation, Dr. Álvaro de Azevedo states that it was founded by Simão de Nobrega in Curral das Freiras, which is a visible mistake. This chapel was located in the parish of Santo António and was built by the ensign Simão de Nobrega e Sousa and his wife Maria Tavares de Sousa, on the estate they owned in the Pico do Cardo area of that parish. In Curral das Freiras, there was only the hermitage of Santo Antonio, ordered to be built by the nuns of the convent of Santa Clara. The chapel of Santa Quiteria was built in the year 1727, with the respective endowment deed dated July 3 of that year. In 1814, it was found desecrated and had not been used for worship for many years. It gave its name to the place where it was built.\n\nThere was another chapel of the same invocation in the area of Lombo da Estrela, in the parish of Calheta, founded in 1724 by João Homem de Abreu and his wife D. Ana Quiteria or Luzia. The endowment deed is dated May 30 of that year.\n\nFounded by Father João da Silva Alves, there was a chapel of Santa Quiteria in the parish of Madalena do Mar.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Calheta",
+        "Madalena do Mar"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Only the hermitage of Santo Antonio existed"
+        ],
+        "Santo António": [
+            "Location of the construction of the chapel of Santa Quitéria"
+        ],
+        "Pico do Cardo": [
+            "Area where Simão de Nobrega e Sousa and his wife Maria Tavares de Sousa owned an estate"
+        ],
+        "Lombo da Estrela": [
+            "Area where another chapel of Santa Quitéria was founded"
+        ],
+        "Calheta": [
+            "Parish where another chapel of Santa Quitéria was founded"
+        ],
+        "Madalena do Mar": [
+            "Parish where a chapel of Santa Quitéria existed"
+        ]
+    },
+    "people": {
+        "Simão de Nobrega": [
+            "Founder of the chapel of Santa Quitéria in Curral das Freiras"
+        ],
+        "Maria Tavares de Sousa": [
+            "Wife of Simão de Nobrega, involved in the construction of the chapel of Santa Quitéria"
+        ],
+        "João Homem de Abreu": [
+            "Founder of the chapel of Santa Quitéria in Lombo da Estrela"
+        ],
+        "D. Ana Quiteria": [
+            "Wife of João Homem de Abreu, involved in the construction of the chapel of Santa Quitéria"
+        ],
+        "João da Silva Alves": [
+            "Founder of the chapel of Santa Quitéria in the parish of Madalena do Mar"
+        ]
+    },
+    "years": {
+        "1727": [
+            "Year of the construction of the chapel of Santa Quitéria in Curral das Freiras"
+        ],
+        "1814": [
+            "Year in which the chapel of Santa Quitéria in Curral das Freiras was found desecrated"
+        ],
+        "1724": [
+            "Year of the foundation of the chapel of Santa Quitéria in Lombo da Estrela"
+        ],
+        "30 de Maio": [
+            "Date of the endowment deed of the chapel of Santa Quitéria in Lombo da Estrela"
+        ]
+    }
+}

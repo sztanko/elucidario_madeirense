@@ -1,0 +1,31 @@
+{
+    "id": 1381,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ferreiros",
+    "fl": "F",
+    "original_title": "Ferreiros",
+    "body": "A small place also called Quinta dos Ferreiros, in the parish of Calheta, where there was a chapel dedicated to Our Lady of Penha, built in 1682 by Dr. Manuel Fernandes Gomes.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Parish on the Island of Madeira."
+        ]
+    },
+    "people": {
+        "Dr. Manuel Fernandes Gomes": [
+            "Builder of the chapel dedicated to Our Lady of Penha."
+        ]
+    },
+    "years": {
+        "1682": [
+            "Construction of the chapel dedicated to Our Lady of Penha."
+        ]
+    }
+}

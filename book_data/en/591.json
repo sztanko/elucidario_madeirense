@@ -1,0 +1,41 @@
+{
+    "id": 591,
+    "lang": "en",
+    "is_original": false,
+    "title": "Buch (Leopoldo von)",
+    "fl": "B",
+    "original_title": "Buch (Leopoldo von)",
+    "body": "A German geologist and botanist born in Stolp, in Uekermark, on April 25, 1774, and died in Berlin on March 4, 1853. He visited Madeira, in the company of the Norwegian botanist Chetien Smith, in 1811, and the two naturalists landed in Funchal on April 26 and left for the Canary Islands on the 2nd of the following month. Buch and Smith's observations on our island were recorded in the 'Narrative of an Expedition to explore the River Zaire... in 1816, under the direction of Captain J. K Tuckey' (London, 1818). It is Roberto Brown, and not Leopoldo von Buch, who authored the work entitled 'Verzeichniss der auf Madeira wildwachsenden Pflanzen', which almost all botanists attribute to the latter author for the reason of having been included in the work he published in 1825, under the title 'Physicalische Beschreibung der Canarischen Inseln'.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island visited by Leopoldo von Buch"
+        ]
+    },
+    "people": {
+        "Chetien Smith": [
+            "Norwegian botanist who visited Madeira with Leopoldo von Buch"
+        ],
+        "Roberto Brown": [
+            "Author of the work entitled 'Verzeichniss der auf Madeira wildwachsenden Pflanzen'"
+        ]
+    },
+    "years": {
+        "1774": [
+            "Birth of Leopoldo von Buch"
+        ],
+        "1853": [
+            "Death of Leopoldo von Buch"
+        ],
+        "1811": [
+            "Visit of Leopoldo von Buch to Madeira"
+        ],
+        "1816": [
+            "Publication of Buch and Smith's observations in Madeira"
+        ]
+    }
+}

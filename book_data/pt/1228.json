@@ -1,0 +1,26 @@
+{
+    "id": 1228,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Entrosa",
+    "fl": "E",
+    "original_title": "Entrosa",
+    "body": "Assim se chama a uma aprumada escarpa, que, subindo da margem direita e próximo da foz da ribeira do Porco, na Boaventura, vai entestar com a freguesia do Arco de São Jorge. Esta ravina é atravessada por um caminho em torcicolo, que liga as duas freguesias e que é um trecho da estrada que circunda a Madeira próximo do seu litoral.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Arco de São Jorge"
+    ],
+    "locations": {
+        "Boaventura": [
+            "Aprumada escarpa, foz da ribeira do Porco"
+        ],
+        "Arco de São Jorge": [
+            "Freguesia"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

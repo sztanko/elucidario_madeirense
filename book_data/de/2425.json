@@ -1,0 +1,30 @@
+{
+    "id": 2425,
+    "lang": "de",
+    "is_original": false,
+    "title": "Navás (Pater Longinos)",
+    "fl": "N",
+    "original_title": "Navás (Padre Longinos)",
+    "body": "Hervorragender spanischer Flechtenkundler, Mitglied der Gesellschaft Jesu, der die Flechten untersuchte, die ihm von der Insel von Pater Jaime de Gouveia Barreto und einem der Autoren dieses Lexikons geschickt wurden. In der Arbeit, die er unter dem Titel Sinopsis de los Liquenes de las islas de Madera (Broteria, Bd. IX bis XI, 1910-1913) veröffentlichte, werden 203 Arten aufgeführt, von denen einige nur in den Arbeiten anderer Flechtenkundler erwähnt werden. Siehe Flechten.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Jaime de Gouveia Barreto": [
+            "Pater, der die Flechten zur Untersuchung schickte"
+        ],
+        "Pater Longinos Navás": [
+            "Hervorragender spanischer Flechtenkundler"
+        ]
+    },
+    "years": {
+        "1910": [
+            "Veröffentlichte die Arbeit mit dem Titel Sinopsis de los Liquenes de las islas de Madera"
+        ],
+        "1913": [
+            "Veröffentlichte die Arbeit mit dem Titel Sinopsis de los Liquenes de las islas de Madera"
+        ]
+    }
+}

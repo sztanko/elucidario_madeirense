@@ -1,0 +1,27 @@
+{
+    "id": 800,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Casa de Saúde",
+    "fl": "C",
+    "original_title": "Casa de Saúde",
+    "body": "Assim chamavam outrora á pequena casa á Entrada da Cidade, onde durante largos anos estiveram acomodados a Capitania do Pôrto e a Associação Comercial. Desconhece-se a epoca em que esta casa foi construída, mas sabe-se que a 15 de Junho de 1771 a Camara concorreu com 100:000 réis para a edificação duma nova casa junto da da Saúde, destinada a residencia do porta-bandeira, e que a 13 de Julho do mesmo ano deu mais 100:000 réis para a mesma obra.\n\nEra uso noutras epocas os guardas-mores esperarem na Casa da Saúde que lhes fôssem apresentadas as cartas dos navios que chegavam ao nosso pôrto. Os guardas-mores eram nomeados pela Camara, e não se lhes exigia um curso medico, como sucede actualmente. Além dos guardas-mores, havia na Casa da Saúde um interprete, nomeado também pela Camara, o qual tinha o vencimento de 17 réis anuais.\n\nA Casa da Saúde serviu de Paços do Concelho desde 1784 até os fins do seculo XVIII ou principios do XIX, e a pesar de ser edificio municipal, foi cedida pelo governo á Camara, que a vendeu em 1914, sendo arrematada pelas firmas Luiz da Rocha Machado & Cº. e W. Winton pela quantia de 22.800.000 réis.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1771": [
+            "Camara concorreu com 100:000 réis para a edificação duma nova casa junto da da Saúde, destinada a residencia do porta-bandeira, e que a 13 de Julho do mesmo ano deu mais 100:000 réis para a mesma obra."
+        ],
+        "1784": [
+            "Casa da Saúde serviu de Paços do Concelho"
+        ],
+        "1914": [
+            "Foi cedida pelo governo á Camara, que a vendeu, sendo arrematada pelas firmas Luiz da Rocha Machado & Cº. e W. Winton pela quantia de 22.800.000 réis."
+        ]
+    }
+}

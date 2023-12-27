@@ -1,0 +1,59 @@
+{
+    "id": 3222,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Francisco (Kapellen von)",
+    "fl": "S",
+    "original_title": "São Francisco (Capelas de)",
+    "body": "In der Gemeinde Calheta gibt es immer noch die Kapelle von S. Francisco, die die kleine Kirche des Franziskanerklosters war, das es dort gab. Sie ist verfallen und schon lange nicht mehr für Gottesdienste in Gebrauch. Sie gehört Pedro César de Brito (1921).\n\nIn der Gemeinde S. Pedro und auf dem Weg nach Santo António gab es die Kapelle S. Francisco, die auch unter dem Namen S. Francisco das Furnas bekannter ist. Sie wurde 1697 vom Kanoniker Pedro Correia Barbosa gegründet. Sie gehörte zum Majorat Jérvis de Atouguia. In dem angeschlossenen Haus wurde der Viscount von Atouguia (siehe diesen Namen) am 7. Juli 1797 geboren. Der Kanoniker Pedro Correia Barbosa ist derselbe, auf den wir auf Seite 126 des ersten Bandes dieses Elucidário Bezug nehmen.\n\nAmbrosio Vieira de Andrade errichtete 1675 in der Gemeinde Santa Luzia eine Kapelle, die S. Francisco gewidmet war.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta",
+        "S. Pedro",
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Calheta": [
+            "Gemeinde"
+        ],
+        "S. Pedro": [
+            "Gemeinde"
+        ],
+        "Santo António": [
+            "Weg"
+        ],
+        "S. Francisco das Furnas": [
+            "Alternativer Name"
+        ],
+        "Santa Luzia": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Pedro César de Brito": [
+            "Besitzer der Kapelle"
+        ],
+        "Pedro Correia Barbosa": [
+            "Gründer der Kapelle"
+        ],
+        "Jérvis de Atouguia": [
+            "Majoratsherr"
+        ],
+        "Ambrosio Vieira de Andrade": [
+            "Errichtete die Kapelle"
+        ]
+    },
+    "years": {
+        "1697": [
+            "Gründung der Kapelle S. Francisco das Furnas"
+        ],
+        "1797": [
+            "Geburt des Viscount von Atouguia"
+        ],
+        "1675": [
+            "Bau der Kapelle, die S. Francisco gewidmet war"
+        ]
+    }
+}

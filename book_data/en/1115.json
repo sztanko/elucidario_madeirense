@@ -1,0 +1,94 @@
+{
+    "id": 1115,
+    "lang": "en",
+    "is_original": false,
+    "title": "Declinação da Agulha",
+    "fl": "D",
+    "original_title": "Declinação da Agulha",
+    "body": "It is the angle formed by the magnetic meridian with the astronomical meridian.\n\nIn Funchal, this angle was 15º 30' W. in 1768 (Dr. Heberden); 21º 32' W. in 1829 (Penny Cyclop.); 21º W. in 1835 (Wyld); 21º W. in 1843 (Vidal); 20º 57 1/2' W. in 1851 (A. P. de Azevedo); 20º 56' W. in 1861 (Friesach); 19º 55' W. in 1885 (Mapa do Almirantado); and 19 (cid:1187) W. in 1892 (idem).\n\nAccording to the officers of the Challenger, the declination was 18º 25' W. on February 4, 1872, and 20º 33' W. on July 17, 1873. Colonel Francisco Afonso de Chaves, who in 1903 (June 22) and in 1906 (June 4) also made magnetic observations in Funchal, found that in the first of these years the declination was 20º 31'30\" W. and in the second 20º 36' 55'' W.\n\nOn November 14, 1842, the magnetic variation in Porto Santo was 24º 38' 12\", as stated in the chart of that island by the late General Antonio Pedro de Azevedo.\n\nBory, who visited Madeira in 1755 and published an account of his trip in the Histoire et Mémoires de L'Académie Royale des Sciences pour l'an 1772, says that “the variation of the magnetic needle, which our position and the lack of a meridian prevented us from knowing on land, was often observed on board the Cometa; it ranged between 10º 35' W. and 11º 55'', which gives an average result of 11º 3/4.”",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "15º 30' W. in 1768, 21º 32' W. in 1829, 21º W. in 1835, 21º W. in 1843, 20º 57 1/2' W. in 1851, 20º 56' W. in 1861, 19º 55' W. in 1885, 19 (cid:1187) W. in 1892"
+        ],
+        "Porto Santo": [
+            "24º 38' 12\" in 1842"
+        ]
+    },
+    "people": {
+        "Dr. Heberden": [
+            "Observed the declination in 1768"
+        ],
+        "Penny Cyclop.": [
+            "Observed the declination in 1829"
+        ],
+        "Wyld": [
+            "Observed the declination in 1835"
+        ],
+        "Vidal": [
+            "Observed the declination in 1843"
+        ],
+        "A. P. de Azevedo": [
+            "Observed the declination in 1851"
+        ],
+        "Friesach": [
+            "Observed the declination in 1861"
+        ],
+        "Mapa do Almirantado": [
+            "Observed the declination in 1885"
+        ],
+        "Colonel Francisco Afonso de Chaves": [
+            "Made magnetic observations in 1872 and 1873"
+        ],
+        "Bory": [
+            "Visited Madeira in 1755"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Declination of 15º 30' W."
+        ],
+        "1829": [
+            "Declination of 21º 32' W."
+        ],
+        "1835": [
+            "Declination of 21º W."
+        ],
+        "1843": [
+            "Declination of 21º W."
+        ],
+        "1851": [
+            "Declination of 20º 57 1/2' W."
+        ],
+        "1861": [
+            "Declination of 20º 56' W."
+        ],
+        "1885": [
+            "Declination of 19º 55' W."
+        ],
+        "1892": [
+            "Declination of 19 (cid:1187) W."
+        ],
+        "4 de Fevereiro de 1872": [
+            "Declination of 18º 25' W."
+        ],
+        "17 de Julho de 1873": [
+            "Declination of 20º 33' W."
+        ],
+        "22 de Junho de 1903": [
+            "Declination of 20º 31'30\" W."
+        ],
+        "4 de Junho de 1906": [
+            "Declination of 20º 36' 55'' W."
+        ],
+        "14 de Novembro de 1842": [
+            "Magnetic variation in Porto Santo of 24º 38' 12\""
+        ],
+        "1755": [
+            "Bory visited Madeira"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 1756,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kirche",
+    "fl": "K",
+    "original_title": "Igreja",
+    "body": "In der Ortschaft dieses Namens in der Gemeinde Quinta Grande, auf dem Anwesen Pombal, befindet sich die Kapelle des Heiligen Antonius, die 1884 vom Priester António Silvino Gonçalves de Andrade erbaut wurde und deren derzeitiger Eigentümer Dr. João Francisco de Almada ist.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Quinta Grande": [
+            "Gemeinde Quinta Grande"
+        ]
+    },
+    "people": {
+        "Priester António Silvino Gonçalves de Andrade": [
+            "Ließ die Kapelle des Heiligen Antonius erbauen"
+        ],
+        "Dr. João Francisco de Almada": [
+            "Derzeitiger Eigentümer der Kapelle des Heiligen Antonius"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Bau der Kapelle des Heiligen Antonius"
+        ]
+    }
+}

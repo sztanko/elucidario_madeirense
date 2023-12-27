@@ -1,0 +1,29 @@
+{
+    "id": 1459,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fothergill (Dr.)",
+    "fl": "F",
+    "original_title": "Fothergill (Dr.)",
+    "body": "Aconselhou as pessoas afectadas de molestias pulmonares a procurarem o clima da Madeira, num trabalho que tem por título On consumption medical observations, 1775.",
+    "categories": [
+        "health",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Clima"
+        ]
+    },
+    "people": {
+        "Dr. Fothergill": [
+            "Médico"
+        ]
+    },
+    "years": {
+        "1775": [
+            "Publicação de On consumption medical observations"
+        ]
+    }
+}

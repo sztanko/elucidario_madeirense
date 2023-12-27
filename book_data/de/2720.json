@@ -1,0 +1,30 @@
+{
+    "id": 2720,
+    "lang": "de",
+    "is_original": false,
+    "title": "Karden",
+    "fl": "K",
+    "original_title": "Pencas",
+    "body": "Die sehr fruchtbare Varietät der Cynara cardunculus ist auf der Insel Porto Santo unter diesem Namen bekannt. Die Bewohner dieser Insel essen nach Entfernung der Dornen die zentralen Teile der Blätter dieser Korbblütler roh. Diese Pflanze kommt auch in Caniçal und Piedade vor, wo sie unter dem Namen cardo-da-gente bekannt ist.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Caniçal",
+        "Piedade"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Insel"
+        ],
+        "Caniçal": [
+            "Ort"
+        ],
+        "Piedade": [
+            "Ort"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

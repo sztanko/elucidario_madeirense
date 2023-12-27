@@ -1,0 +1,32 @@
+{
+    "id": 3621,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vigias",
+    "fl": "V",
+    "original_title": "Vigias",
+    "body": "Eram, diz o Dr. Azevedo, «estações militares e simultaneamente fiscais, que vigiavam o mar, as costas e praias, afim de darem alarme de corsários ou de quaisquer outros navios inimigos, e evitar contrabandos. As vigias eram feitas pelos povos, em pequenas casas fortes, de propósito construídas para resistir ao mar, e evitar surpresas. D. Sebastião deu-lhes regimento em 1567, que está registado no tomo V, fls. 105, do Archivo da Câmara do Funchal, e, por alvará de 1569, determinou que ninguém fosse isento deste serviço».",
+    "categories": [
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local do Arquivo da Câmara do Funchal"
+        ]
+    },
+    "people": {
+        "D. Sebastião": [
+            "Rei de Portugal"
+        ]
+    },
+    "years": {
+        "1567": [
+            "Regimento dado por D. Sebastião às vigias"
+        ],
+        "1569": [
+            "Alvará de D. Sebastião sobre o serviço das vigias"
+        ]
+    }
+}

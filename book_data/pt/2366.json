@@ -1,0 +1,56 @@
+{
+    "id": 2366,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Monumentos Nacionais",
+    "fl": "M",
+    "original_title": "Monumentos Nacionais",
+    "body": "– A Sé Catedral do Funchal era o único edifício considerado como monumento nacional, apesar de haver outros edifícios que deveriam ser incluídos nesse numero. No «Diario do Governo» de 24 de Setembro de 1940 e de 18 de Agosto de 1943, foram publicadas as relações completas dos edifícios classificados como monumentos nacionais e como «imóveis de interesse publico» existentes em todo o nosso pais. Com respeito a este distrito, ficaram considerados como monumentos nacionais, além da Sé Catedral, o Palácio de S. Lourenço, Igreja e dependências do mosteiro de Santa Clara, igreja de São Evangelista (Colégio) e Casa da Alfândega.\n\nComo «imóveis de interesse publico» contam-se os seguintes edifícios:\n- Casas de Dona Mecia, dos Cônsules, dos Ornelas e Paço Episcopal e capela anexa, Capelas da Incarnação, São Paulo, Nazaré e do Espírito Santo, e fortes de São João Baptista, Ilhéu e São Tiago, todos na cidade do Funchal, Capela dos Reis Magos na freguesia do Estreito da Calheta, Igreja Paroquial, Capela dos Milagres e de São Roque e fortes de Santo Amaro e de São João na freguesia de Machico, Igrejas Paroquiais das freguesias da Ponta do Sol, Ribeira Brava e Santa Cruz e Capela da Madre de Deus na freguesia do Caniço.\n\nForam também considerados de interesse publico as seguintes obras de arte:\n- Pia baptismal do século XVI, em estilo mudéjar, existente na igreja de Ponta do Sol.\n- Escultura em madeira representando a Adoração dos Reis Magos, com treze figuras em alto relevo, século XVI, existente na capela dos Reis Magos, no Estreito da Calheta.\n- Janela da Casa de Colombo, que se conserva num Jardim particular da cidade do Funchal, obra manuelina recolhida quando a Câmara Municipal mandou demolir a propriedade do flamengo João Esmeraldo, onde se diz ter habitado Colombo.\n- Pinturas sobre madeira:\n  - Painel de Santiago, colocado no altar-mor da igreja do Socorro, do Funchal.\n  - Tríptico da sacristia da mesma igreja.\n  - Painel dos Apóstolos, da mesma sacristia, que se encontra colocado por debaixo do tríptico.\n  - Três painéis (S. Paulo, S. Pedro e Santo André) que se conservam na sacristia da igreja de S. Pedro, do Funchal.\n  - Três painéis (Anunciação, Natividade, Santa Ana e S. Joaquim) da igreja nova de S. Martinho, do Funchal (colocados numa capela do lado da epístola).\n  - Painel (emblema de Cristo) da capela particular da Nossa Senhora da Consolação do Funchal.\n  - Tríptico (Descida da Cruz) da igreja da Ribeira Brava, na parede lateral esquerda da capela-mor.\n  - Painel (Adoração dos Magos) na parede lateral esquerda do corpo da mesma igreja.\n  - Painel de Nossa Senhora do Amparo no altar do mesmo nome da Sé do Funchal.",
+    "categories": [
+        "architecture",
+        "culture"
+    ],
+    "freguesias": [
+        "Machico",
+        "Estreito da Calheta",
+        "Ponta do Sol",
+        "Ribeira Brava",
+        "Santa Cruz",
+        "Caniço"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital da ilha da Madeira"
+        ],
+        "Machico": [
+            "Freguesia na ilha da Madeira"
+        ],
+        "Ponta do Sol": [
+            "Freguesia na ilha da Madeira"
+        ],
+        "Ribeira Brava": [
+            "Freguesia na ilha da Madeira"
+        ],
+        "Santa Cruz": [
+            "Freguesia na ilha da Madeira"
+        ],
+        "Estreito da Calheta": [
+            "Freguesia na ilha da Madeira"
+        ],
+        "Caniço": [
+            "Freguesia na ilha da Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1939": [
+            "Inauguração do monumento ao Dr. Alexandre da Cunha Teles nos jardins do Asilo de Mendicidade e Orfãos"
+        ],
+        "1940": [
+            "Publicação das relações completas dos edifícios classificados como monumentos nacionais e como «imóveis de interesse publico»"
+        ],
+        "1943": [
+            "Publicação das relações completas dos edifícios classificados como monumentos nacionais e como «imóveis de interesse publico»"
+        ]
+    }
+}

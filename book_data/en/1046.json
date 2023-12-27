@@ -1,0 +1,24 @@
+{
+    "id": 1046,
+    "lang": "en",
+    "is_original": false,
+    "title": "Costa de Cima",
+    "fl": "C",
+    "original_title": "Costa de Cima",
+    "body": "This name refers to the southern coast of Madeira, located to the east of Funchal, encompassing all the parishes that make up the municipalities of Santa Cruz and Machico, with the exception of the parish of Porto da Cruz, which is on the north coast of the island.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Machico",
+        "Pôrto da Cruz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Reference point"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

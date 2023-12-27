@@ -1,0 +1,30 @@
+{
+    "id": 2526,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Saúde do Monte Olivete (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Saúde do Monte Olivete (Capela de)",
+    "body": "Diz uma nota das Saudades da Terra que esta capela, situada na freguesia de Santa Maria Maior, fora edificada no morgadio instituído por Pedro Lopes de Vasconcelos no ano de 1675. Já não existe e desconhecemos o lugar em que ficava situada.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "Pedro Lopes de Vasconcelos": [
+            "Instituidor do morgadio em 1675"
+        ]
+    },
+    "years": {
+        "1675": [
+            "Instituição do morgadio"
+        ]
+    }
+}

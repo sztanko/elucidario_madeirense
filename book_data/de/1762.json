@@ -1,0 +1,49 @@
+{
+    "id": 1762,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kleine Insel",
+    "fl": "K",
+    "original_title": "Ilhéu",
+    "body": "So wird bei uns die kleine Insel genannt, die sich am äußersten westlichen Ende des Hafens von Funchal befindet und die heute (1921) eine der Begrenzungen des Wellenbrechers oder des geschützten Hafens von Pontinha bildet. Auf ihr befanden sich die kleine Festung Nossa Senhora da Conceição do Ilhéu, ein roter Leuchtturm, der den Eingang zum Hafen anzeigte, und eine Semaphorstation. Sie wurde in zahlreichen nationalen und ausländischen Werken, in vielen Zeitschriften, auf Ansichtskarten usw. reproduziert und erscheint auch häufig als Motiv in madeirischen Intarsien, Nähkästen und anderen Erzeugnissen der lokalen Tischlerei. Bezugnehmend auf die erste Erkundung entlang der Meeresküste durch die Entdecker sagt Gaspar Frutuoso: \"am Ende des Tals (des Funchaltals) befinden sich zwei kleine Inseln, in deren Schutz sie sich wegen der späten Stunde zurückzogen\". Die beiden kleinen Inseln waren die, die heute Kleine Insel genannt wird, obwohl sie heute durch den Wellenbrecher mit dem Festland verbunden ist, und die, die aufhörte, diesen Namen zu tragen, als Ende des 18. Jahrhunderts das kleine Fort S. João da Pontinha gebaut wurde und seitdem ebenfalls mit dem Festland verbunden ist. Wer den Ort kennt, weiß, dass die beiden kleinen Inseln in geringer Entfernung voneinander lagen. Francisco Manuel de Melo bezieht sich in seinen \"Epanaphoras de Varia Historia Portuguesa\", in denen er sich mit der angeblichen Geschichte von Machim befasst, irrtümlich auf diese Inseln, wozu der illustre Kommentator der \"Saudades\" folgendes entgegnet: \"Ebenso fiktiv ist in gewisser Hinsicht die Behauptung, dass Zargo \"Wasser und Brennholz\" auf den beiden Inseln genommen hat, die nach der malerischen Beschreibung von Melo die Wellenbrecher des Hafens von Funchal sind. Von diesen beiden Inseln ist die dem Meer zugewandte immer noch von den Gewässern umgeben wie früher (1873), weshalb sie den Namen Kleine Insel behalten hat; die andere ist seit langem durch starke Mauern mit der Küste der Insel verbunden, weshalb sie Pontinha genannt wird: Beide sind kahle Felsen, die bei Südwind, der hier leider nicht selten auftritt, von Wellen gepeitscht und ausgehöhlt werden; beide haben deshalb nur eine Vegetation aus Seetang und Moos; beide haben keine Quelle mit Trinkwasser; beide sind unerschütterliche Zeugen, die mit ihrer ewigen Kahlheit gegen die Behauptung aussagen, dass sie Zargo und seinen Gefährten Wasser und Brennholz gegeben haben. Die Festung Nossa Senhora da Conceição do Ilhéu wurde Mitte des 17. Jahrhunderts gebaut (siehe Festungen) und der Bau der entsprechenden Kapelle wurde durch königliches Dekret vom 9. November 1682 angeordnet; sie hatte ihren eigenen Kaplan. Siehe Nossa Senhora da Conceição do Ilhéu (Kapelle). Das Leuchtfeuer auf der Kleinen Insel nahm am 18. Mai 1866 seinen Betrieb auf (siehe Leuchttürme). 1890 wurde die Kleine Insel durch einen Wellenbrecher, der diese beiden Punkte verbindet und den größten Teil des Pontinha-Wellenbrechers bildet, endgültig mit dem Festland verbunden.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Funchal": [
+            "Hafen"
+        ],
+        "Pontinha": [
+            "Wellenbrecher"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiker"
+        ],
+        "Francisco Manuel de Melo": [
+            "Schriftsteller"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Festlegung der Begrenzung des Wellenbrechers Pontinha"
+        ],
+        "18. Jahrhundert": [
+            "Bau des kleinen Forts S. João da Pontinha"
+        ],
+        "1873": [
+            "Kleine Insel immer noch von Wasser umgeben"
+        ],
+        "1866": [
+            "Inbetriebnahme des Leuchtturms auf der Kleinen Insel"
+        ],
+        "1890": [
+            "Endgültige Verbindung der Kleinen Insel mit dem Festland"
+        ]
+    }
+}

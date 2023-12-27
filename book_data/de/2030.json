@@ -1,0 +1,33 @@
+{
+    "id": 2030,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo dos Leais",
+    "fl": "L",
+    "original_title": "Lombo dos Leais",
+    "body": "Ort in der Gemeinde Porto da Cruz, der in den bewohnten Ort Folhadal eingegliedert ist. An diesem Ort befindet sich die Kapelle São João Nepomuceno, die 1770 von João Nepomuceno de Freitas Leal gegründet wurde. In der Nähe der Kapelle befindet sich ein ausgezeichnetes Wohnhaus, das der alten Familie Leal gehört, von der dieser Ort seinen Namen bekommen hat.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Gemeinde Porto da Cruz"
+        ],
+        "Folhadal": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "João Nepomuceno de Freitas Leal": [
+            "Gründer der Kapelle São João Nepomuceno"
+        ]
+    },
+    "years": {
+        "1770": [
+            "Gründung der Kapelle São João Nepomuceno"
+        ]
+    }
+}

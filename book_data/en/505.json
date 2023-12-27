@@ -1,0 +1,25 @@
+{
+    "id": 505,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bôca das Voltas",
+    "fl": "B",
+    "original_title": "Bôca das Voltas",
+    "body": "A location between the Pico do Arco and the Pico do Canário, from where a path leads to the Ribeira da Boaventura. The Boca das Voltas is about 750 meters above sea level.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {
+        "Pico do Arco": [
+            "Location near Boca das Voltas"
+        ],
+        "Ribeira da Boaventura": [
+            "Location to which the path from Boca das Voltas leads"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

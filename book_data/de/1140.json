@@ -1,0 +1,23 @@
+{
+    "id": 1140,
+    "lang": "de",
+    "is_original": false,
+    "title": "Diário da Manhã",
+    "fl": "D",
+    "original_title": "Diário da Manhã",
+    "body": "Die erste Ausgabe wurde am 8. Juli 1882 veröffentlicht und die letzte, die 129. Ausgabe, am 7. Dezember desselben Jahres.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1882": [
+            "Jahr der Veröffentlichung der ersten Ausgabe"
+        ],
+        "7. Dezember": [
+            "Datum der Veröffentlichung der letzten Ausgabe"
+        ]
+    }
+}

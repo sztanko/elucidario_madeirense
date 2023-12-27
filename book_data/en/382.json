@@ -1,0 +1,25 @@
+{
+    "id": 382,
+    "lang": "en",
+    "is_original": false,
+    "title": "Balancal",
+    "fl": "B",
+    "original_title": "Balancal",
+    "body": "Place in the parish of São Gonçalo, which borders the quinta of Palheiro Ferreiro at its southern end and from where there is a surprising panorama of the amphitheater of the city of Funchal and its suburbs.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Parish where the place of Balancal is located."
+        ],
+        "Funchal": [
+            "City near the place of Balancal."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

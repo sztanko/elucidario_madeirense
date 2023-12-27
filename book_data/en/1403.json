@@ -1,0 +1,37 @@
+{
+    "id": 1403,
+    "lang": "en",
+    "is_original": false,
+    "title": "Flores da Madeira",
+    "fl": "F",
+    "original_title": "Flores da Madeira",
+    "body": "Dr. José Leite Monteiro and Canon Alfredo César de Oliveira (See these names) published in 1871 and 1872 two volumes of 210 and 190 pages, in which they collected about a hundred poems by contemporary Madeiran poets, titled Flores da Madeira. This collection, which is a valuable element for the study of our literature, received the most laudatory references from the eminent publicist Teofilo Braga in an article that was transcribed in issue no. 5 of the newspaper A lâmpada, published in this city in 1872.\n\nFlorosa. In Ribeira Brava and in other parishes, this name is given to the papinho.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Ribeira Brava"
+        ]
+    },
+    "people": {
+        "Dr. José Leite Monteiro": [
+            "Physician"
+        ],
+        "Canon Alfredo César de Oliveira": [
+            "Canon"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Publication of the first volume of Flores da Madeira"
+        ],
+        "1872": [
+            "Publication of the second volume of Flores da Madeira"
+        ]
+    }
+}

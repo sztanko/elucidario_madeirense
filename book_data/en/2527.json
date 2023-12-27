@@ -1,0 +1,64 @@
+{
+    "id": 2527,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Socorro (Chapels of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Socorro (Capelas de)",
+    "body": "In an advanced state of ruin and used for secular purposes, the chapel of Nossa Senhora do Socorro is located in the Azenha site, in the parish of Caniço, next to an old manor house, and the name of its founder and the year of its construction are unknown.\n\nAccording to a note in the Saudades, there was a chapel with this invocation in the parish of Estreito de Câmara de Lobos, founded in 1684 by Maria de Aguiar, widow of Gonçalo de Faria Leal.\n\nThere was one in the parish of Canhas, in the Socorro site, established by João Fernandes Linhares in 1665, and in the parish of Porto da Cruz, there is a hermitage with this patronage, which originally had the name of Nossa Senhora de Belém. We do not know who its founder was, but it belonged to the estate established by Captain Manuel Telo Moniz de Meneses, from the house of Lagoa in the same parish, which was later called the Torresão estate. It was built by 1713 and is in a good state of preservation, being the property of D. Cristina de Campos Pinto Soares, residing in Lisbon (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Estreito de Câmara de Lobos",
+        "Canhas",
+        "Porto da Cruz",
+        "Lagoa"
+    ],
+    "locations": {
+        "Caniço": [
+            "Locality in Madeira"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Locality in Madeira"
+        ],
+        "Canhas": [
+            "Locality in Madeira"
+        ],
+        "Porto da Cruz": [
+            "Locality in Madeira"
+        ],
+        "Lagoa": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "Maria de Aguiar": [
+            "Founder of the chapel in Estreito de Câmara de Lobos"
+        ],
+        "Gonçalo de Faria Leal": [
+            "Husband of Maria de Aguiar"
+        ],
+        "João Fernandes Linhares": [
+            "Establisher of the chapel in Canhas"
+        ],
+        "Manuel Telo Moniz de Meneses": [
+            "Establisher of the estate in Porto da Cruz"
+        ],
+        "D. Cristina de Campos Pinto Soares": [
+            "Owner in 1921"
+        ]
+    },
+    "years": {
+        "1684": [
+            "Foundation of the chapel in Estreito de Câmara de Lobos"
+        ],
+        "1665": [
+            "Establishment of the chapel in Canhas"
+        ],
+        "1713": [
+            "Construction of the hermitage in Porto da Cruz"
+        ]
+    }
+}

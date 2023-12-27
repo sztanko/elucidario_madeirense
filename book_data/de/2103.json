@@ -1,0 +1,48 @@
+{
+    "id": 2103,
+    "lang": "de",
+    "is_original": false,
+    "title": "Madeira (A)",
+    "fl": "M",
+    "original_title": "Madeira (A)",
+    "body": "Es erschienen 43 Ausgaben dieser Zeitung vom 2. April 1857 bis zum 30. Januar 1858. Die Redakteure waren João de Sant'Ana e Vasconcelos und Dr. Alvaro Rodrigues de Azevedo. Unter dem gleichen Titel wurde eine andere Zeitung veröffentlicht, die 23 Ausgaben vom 16. Juni bis 22. September 1894 herausbrachte. Am 30. April 1897 begann die Veröffentlichung einer Zeitung mit dem gleichen Titel, die am 13. Dezember 1899 nach 259 Ausgaben eingestellt wurde. Die Redakteure waren Francisco Gomes de Gouveia Júnior und Pater Fernando A. Silva.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João de Sant'Ana": [
+            "Redakteur der Zeitung"
+        ],
+        "Vasconcelos": [
+            "Redakteur der Zeitung"
+        ],
+        "Alvaro Rodrigues de Azevedo": [
+            "Redakteur der Zeitung"
+        ],
+        "Francisco Gomes de Gouveia Júnior": [
+            "Redakteur der Zeitung"
+        ],
+        "Pater Fernando A. Silva": [
+            "Redakteur der Zeitung"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Zeitung A Madeira veröffentlicht"
+        ],
+        "1858": [
+            "Zeitung A Madeira veröffentlicht"
+        ],
+        "1894": [
+            "Andere Zeitung A Madeira veröffentlicht"
+        ],
+        "1897": [
+            "Zeitung A Madeira veröffentlicht"
+        ],
+        "1899": [
+            "Zeitung A Madeira eingestellt"
+        ]
+    }
+}

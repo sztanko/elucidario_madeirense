@@ -1,0 +1,28 @@
+{
+    "id": 2367,
+    "lang": "en",
+    "is_original": false,
+    "title": "Moquet",
+    "fl": "M",
+    "original_title": "Moquet",
+    "body": "Traveler, probably English, who visited Madeira in 1601. He wrote a work about this island that we have not seen, and whose title is unknown to us.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island in the Atlantic Ocean"
+        ]
+    },
+    "people": {
+        "Moquet": [
+            "English traveler"
+        ]
+    },
+    "years": {
+        "1601": [
+            "Visit of Moquet to Madeira"
+        ]
+    }
+}

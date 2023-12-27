@@ -1,0 +1,32 @@
+{
+    "id": 2403,
+    "lang": "en",
+    "is_original": false,
+    "title": "Murray (Carlos)",
+    "fl": "M",
+    "original_title": "Murray (Carlos)",
+    "body": "He was the English consul in Madeira in the 18th century. He had the old fountain of Senhora built in Monte, which was destroyed by the fall of a large chestnut tree in 1896, and despite being a Protestant, he had the parish residence house built in the same parish and part of the pilgrims' house.\n\nHe assisted in the implementation of some public improvements and also generously contributed to various works in favor of the most unprotected classes in Funchal.\n\nIt is not without some interest to mention here that he had published at his own expense a curious pamphlet entitled 'Interesting notices to humanity or Collection of some articles concerning the restoration of the lives of the drowned and other cases of apparent death...', translated from the English language by the Madeiran poet Francisco Manuel de Oliveira and printed in Lisbon in the year 1788.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Location where Carlos Murray had the old fountain of Senhora and the parish residence house built."
+        ]
+    },
+    "people": {
+        "Francisco Manuel de Oliveira": [
+            "Madeiran poet who translated the pamphlet published by Carlos Murray."
+        ]
+    },
+    "years": {
+        "1788": [
+            "Publication of the pamphlet 'Interesting notices to humanity or Collection of some articles concerning the restoration of the lives of the drowned and other cases of apparent death...'"
+        ],
+        "1896": [
+            "Destruction of the old fountain of Senhora in Monte by the fall of a large chestnut tree."
+        ]
+    }
+}

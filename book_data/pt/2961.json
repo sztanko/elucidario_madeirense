@@ -1,0 +1,38 @@
+{
+    "id": 2961,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quadra (D. Manuel de la)",
+    "fl": "Q",
+    "original_title": "Quadra (D. Manuel de la)",
+    "body": "Nasceu em Espanha no ano de 1835 e morreu no Funchal a 3 de Abril de 1903. De 1897 até a datas do seu falecimento, serviu como professor contratado na nossa Escola Industrial. Foi um distinto pintor retratista, existindo nesta ilha vários quadros a óleo devidos ao seu pincel.",
+    "categories": [
+        "art",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Espanha": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "D. Manuel de la Quadra": [
+            "Pintor retratista"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Ano de nascimento"
+        ],
+        "1897": [
+            "Início do serviço como professor contratado"
+        ],
+        "1903": [
+            "Ano do falecimento"
+        ]
+    }
+}

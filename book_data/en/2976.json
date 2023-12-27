@@ -1,0 +1,30 @@
+{
+    "id": 2976,
+    "lang": "en",
+    "is_original": false,
+    "title": "Quinta das Freiras",
+    "fl": "Q",
+    "original_title": "Quinta das Freiras",
+    "body": "A populated place in the parish of Santo António do Funchal. The chapel of Nossa Senhora das Brotas was located in this place, founded in 1678 by Manuel Martins Brandão, of which there are still heaps of rubble. It houses the Parish Cemetery, built in 1839 and greatly expanded in 1903. This cemetery has a private chapel built in 1844 and consecrated to Nossa Senhora da Luz.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Manuel Martins Brandão": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1678": [
+            "Foundation of the chapel of Nossa Senhora das Brotas"
+        ],
+        "1839": [
+            "Construction of the Parish Cemetery"
+        ]
+    }
+}

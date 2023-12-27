@@ -1,0 +1,29 @@
+{
+    "id": 1778,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Independente (O)",
+    "fl": "I",
+    "original_title": "Independente (O)",
+    "body": "(O)\nA 20 de Agosto de 1846 saiu o primeiro numero deste jornal e o ultimo a 15 de Maio de 1847, tendo-se publicado trinta e seis números.\n\nCom o mesmo título publicaram-se oito números de um jornal, que durou de 22 de Julho a 20 de Agosto de 1881.\n\nHouve um terceiro jornal com o mesmo título, que teve pouca duração, tendo saído o primeiro numero a 19 de Agosto de 1915.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1846": [
+            "Publicação do primeiro número do jornal O Independente"
+        ],
+        "1847": [
+            "Publicação do último número do jornal O Independente"
+        ],
+        "1881": [
+            "Publicação de oito números de um jornal com o mesmo título"
+        ],
+        "1915": [
+            "Publicação do primeiro número do terceiro jornal O Independente"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": 1245,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lancaster-Schule",
+    "fl": "L",
+    "original_title": "Escola Lancasteriana",
+    "body": "Der englische Untertan José Phelps führte den gegenseitigen Unterricht nach dem Lancaster-System auf Madeira ein. Die 1819 gegründete Lancaster-Schule befand sich zuerst in einem Haus am Ribeirinho, zog dann in die Travessa do Surdo und später in das Gebäude an der heutigen Rua da Princesa, 31 de Janeiro, wo sich jetzt die Knabenschule der Gemeinde Santa Luzia befindet. Dieses Gebäude wurde von der Funchalense-Vereinigung zur Förderung des gegenseitigen Unterrichts errichtet, die das Grundstück Ende 1822 erworben hatte. Die Funchalense-Vereinigung zur Förderung des gegenseitigen Unterrichts wurde am 21. Dezember 1821 gegründet. Ihr erster Schatzmeister war der erwähnte José Phelps und ihr erster Präsident der Kanoniker Lúcio Antonio Lopes Rocha. Diese Vereinigung veranstaltete Bälle und Sammlungen, um die Mittel zu beschaffen, die sie zur Unterhaltung der Schule benötigte. Am 25. Juli 1827 sagte der Direktor der Schule für gegenseitigen Unterricht, die der Vereinigung zur Förderung dieser Art von Unterricht gehörte: \"Diese Schule hat seit ihrer Eröffnung am 1. Dezember 1823 bis heute 275 Schüler gehabt und hat jetzt 78 und Platz für 305. Es sei darauf hingewiesen, dass das schreckliche Instrument namens Rohrstock in dieser Schule verboten ist, wo mit sanfteren und gleichzeitig dem Selbstwertgefühl der Schüler zuträglicheren Mitteln die gleichen oder bessere Ergebnisse erzielt werden.\" Die erwähnte Schule war für Jungen bestimmt; es gab jedoch eine andere für Mädchen, die von Frau Blackburn und Frau Phelps eingerichtet wurde. Der Unterhalt dieser letzten Schule wurde 1850 von einer Gesellschaft einheimischer und ausländischer Damen getragen, während die Regierung einen Teil des Gehalts der Lehrerin beisteuerte, während der Unterhalt der Knabenschule damals vom Staat getragen wurde, der das Gehalt des jeweiligen Lehrers bezahlte. Wir wissen nicht, in welchem Jahr das Lancaster-System in der alten Schule in der Rua da Princesa aufgegeben wurde, aber wir können annehmen, dass es dort 1828 abgeschafft wurde, als der Lehrer Alexandre Luiz da Cunha nach Amerika ging. Das Gebäude der ehemaligen Rua da Princesa, heute 31 de Janeiro, wurde 1850 auf Staatskosten renoviert, ebenso die Arbeiten am Eingang desselben Gebäudes, die 1851 auf Anordnung des Gouverneurs José Silvestre Ribeiro ausgeführt wurden. 1912 und 1914 ließ die Stadtverwaltung mehrere Reparaturen an der Schule durchführen. Es gibt eine Veröffentlichung mit dem Titel Bericht über die Fortschritte der Lancaster-Schule in der Provinz Madeira, datiert auf den 6. Februar 1823, die interessante Informationen über Lancasters Lehrmethode und die Art und Weise enthält, wie sie auf der Insel eingeführt wurde.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Ribeirinho": [
+            "Ursprünglicher Standort der Schule"
+        ],
+        "Travessa do Surdo": [
+            "Späterer Standort der Schule"
+        ],
+        "Rua da Princesa": [
+            "Aktueller Standort der Schule"
+        ]
+    },
+    "people": {
+        "José Phelps": [
+            "Führte den gegenseitigen Unterricht in Madeira ein"
+        ],
+        "Kanoniker Lúcio Antonio Lopes Rocha": [
+            "Erster Präsident der Funchalense-Vereinigung"
+        ]
+    },
+    "years": {
+        "1819": [
+            "Gründungsjahr der Lancaster-Schule"
+        ],
+        "1821": [
+            "Gründungsjahr der Funchalense-Vereinigung"
+        ],
+        "1823": [
+            "Veröffentlichung des Berichts über die Fortschritte der Lancaster-Schule"
+        ],
+        "1828": [
+            "Jahr, in dem das Lancaster-System in der alten Schule der Rua da Princesa aufgegeben wurde"
+        ],
+        "1850": [
+            "Jahr, in dem das Gebäude der Rua da Princesa auf Staatskosten renoviert wurde"
+        ],
+        "1851": [
+            "Jahr, in dem auf Anordnung des Gouverneurs José Silvestre Ribeiro Arbeiten am Eingang des Gebäudes durchgeführt wurden"
+        ],
+        "1912": [
+            "Jahr, in dem die Stadtverwaltung mehrere Reparaturen an der Schule durchführen ließ"
+        ],
+        "1914": [
+            "Jahr, in dem die Stadtverwaltung mehrere Reparaturen an der Schule durchführen ließ"
+        ]
+    }
+}

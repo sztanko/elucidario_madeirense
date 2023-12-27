@@ -1,0 +1,23 @@
+{
+    "id": 88,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alabama",
+    "fl": "A",
+    "original_title": "Alabama",
+    "body": "This famous corsair ship, in service of the insurgents in the southern Republic of the United States of America, was in the port of Funchal and later took refuge off the coast of the island of Porto Santo to repair damages, fleeing the relentless pursuit by some ships loyal to the northern government.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Port in the south of the Madeira Island."
+        ],
+        "Porto Santo": [
+            "Island in the Madeira archipelago."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

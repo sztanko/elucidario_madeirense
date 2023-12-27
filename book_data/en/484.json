@@ -1,0 +1,87 @@
+{
+    "id": 484,
+    "lang": "en",
+    "is_original": false,
+    "title": "Libraries",
+    "fl": "L",
+    "original_title": "Bibliotecas",
+    "body": "The only public library in Funchal is the Municipal Library, established by a resolution on January 12, 1838. It began with 193 volumes of the Enciclopédia Metódica, purchased from the heirs of the Conde de Carvalhal, and by 1850, it had 2,000 volumes. The collection grew to 2,096 volumes in 1851, 2,496 in 1863, 10,351 in 1889, 10,812 in 1902, 10,929 in 1904, 11,035 in 1908, 21,641 in 1915, 21,786 in 1916, and 21,874 in 1917. In 1913, the library received a donation of 9,863 volumes from the English subjects Mr. William and Alfredo Reid, which constituted the library of the deceased municipal librarian João Joaquim de Freitas and were acquired by the same gentlemen with the express purpose of enriching the municipal establishment. In 1863, the Funchal library received 21 crates with 3,050 volumes from the Deposito das Livrarias dos Conventos, which were extinct by Decree of May 28, 1834, and before that, it had received a large number of volumes from the library of the Convent of S. Francisco. The latter are mostly in a very poor state of preservation. There are no incunabula in the Funchal Library, and as for manuscripts, only copies of the Nobiliario de Henriques de Noronha and book 2.1 of the Saudades da Terra by Dr. Gaspar Frutuoso are found there, along with the originals of the Historical and Geographical Documents about the island of Madeira by Dr. João Pedro de Freitas Pereira Drumond and the Notes for the Genealogy of various Madeiran Families by Felisberto Bettencourt Miranda. The creation of the Municipal Library is mainly due to the illustrious Madeiran Servulo Drumond de Meneses, who, as the President of the Funchal City Council, employed the most commendable efforts for this purpose. It was opened to the public on December 8, 1838, and its respective Regulations were published in the newspaper A Flor on the 7th of the same month and year. For seven years, the library service was under the responsibility of the Secretary of the Council, and in 1845, the position of librarian was created, which was successively held by Antonio Joaquim Teles, Joaquim Antonio de Sá, José Joaquim de Freitas, Carlos Azevedo de Meneses, and Adolfo César de Noronha. The library's activity is shown in the following table: Library Reading Readers Volumes Readers Volumes 1900 1905 1910 1915 1534 1916 The library of the former Medical Surgical School is in the building of the Misericórdia Hospital and consists of about 600 volumes, 140 of which were donated by Dr. Nathaniel Lister from London, with the condition that they would be transferred to the Santa Casa in case the same school was extinct. This condition was approved by the Government in a Decree of the Ministry of the Kingdom on December 17, 1844. In 1913, the Government authorized the incorporation of the Medical School library into the Municipal Library of Funchal, but the transfer of the books did not take place due to lack of space to accommodate them. The Episcopal Seminary has a library mainly consisting of theological works, and the English club has about 4,000 volumes, many of which are works about Madeira. There are also libraries in the barracks of the 27th Infantry Regiment and in the Central Lyceum of Funchal. Additionally, a private individual, Mr. João Eleuterio Martins, owner of the Diário de Noticias, possesses the best known collections of newspapers published in Madeira and foreign books related to this island. The Utile Dulci library, located in a building on Dr. Vieira Street, has about 1,700 volumes that anyone can read, paying two cents weekly and making a deposit of thirty cents, which is refunded upon returning the requested book. It is essential to add some new information to what is stated in this brief article. The library of the extinct Medical Surgical School of Funchal was incorporated into the Municipal Library, and in recent years, many bibliographic items have been acquired, currently (1938) totaling 31,000 printed volumes. In 1938, the daytime reading was attended by 2,304 readers, who consulted 2,480 volumes, and in the nighttime reading of the same year, there were 2,086 readers, who consulted 2,225 volumes. Also, in the same year, the reading in homes was attended by 151 readers who requested 313 volumes. The nighttime reading, which is arousing considerable interest among the public, was established in July 1934.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Servulo Drumond de Meneses": [
+            "Illustrious Madeiran"
+        ],
+        "Antonio Joaquim Teles": [
+            "Librarian"
+        ],
+        "Joaquim Antonio de Sá": [
+            "Librarian"
+        ],
+        "José Joaquim de Freitas": [
+            "Librarian"
+        ],
+        "Carlos Azevedo de Meneses": [
+            "Librarian"
+        ],
+        "Adolfo César de Noronha": [
+            "Librarian"
+        ],
+        "Dr. Nathaniel Lister de Londres": [
+            "Dr."
+        ],
+        "João Eleuterio Martins": [
+            "Owner of Diário de Noticias"
+        ]
+    },
+    "years": {
+        "1838": [
+            "Establishment of the Municipal Library"
+        ],
+        "1850": [
+            "2,000 volumes"
+        ],
+        "1851": [
+            "2,096 volumes"
+        ],
+        "1863": [
+            "2,496 volumes"
+        ],
+        "1889": [
+            "10,351 volumes"
+        ],
+        "1902": [
+            "10,812 volumes"
+        ],
+        "1904": [
+            "10,929 volumes"
+        ],
+        "1908": [
+            "11,035 volumes"
+        ],
+        "1913": [
+            "Authorization to incorporate the library of the Medical School into the Municipal Library of Funchal"
+        ],
+        "1915": [
+            "21,641 volumes"
+        ],
+        "1916": [
+            "21,786 volumes"
+        ],
+        "1917": [
+            "21,874 volumes"
+        ],
+        "1845": [
+            "Creation of the position of librarian"
+        ],
+        "1844": [
+            "Approval of the condition for the transfer of books from the Medical Surgical School"
+        ],
+        "1938": [
+            "Attendance of 2,304 readers in daytime reading, consulting 2,480 volumes, and 2,086 readers in nighttime reading, consulting 2,225 volumes. In the same year, 151 readers requested 313 volumes for home reading. The nighttime reading, which is arousing considerable interest among the public, was established in July 1934."
+        ]
+    }
+}

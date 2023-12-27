@@ -1,0 +1,33 @@
+{
+    "id": 1256,
+    "lang": "de",
+    "is_original": false,
+    "title": "Smaragdgasse (Rua do Esmeraldo)",
+    "fl": "S",
+    "original_title": "Esmeraldo (Rua do)",
+    "body": "Die Gasse wurde nach João Esmeraldo (siehe Eintrag) benannt, der dort große Wohnhäuser besaß. Sie verläuft parallel zur Seifenstraße (Rua do Sabão), mit der sie durch die Christoph-Kolumbus-Querstraße (Travessa de Cristovão Colombo) verbunden ist, und erstreckt sich von der Zollstraße (Rua da Alfândega) bis zur Handelsstraße (Rua do Comercio).",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua do Sabão": [
+            "Verläuft parallel zur Smaragdgasse"
+        ],
+        "Travessa de Cristovão Colombo": [
+            "Verbindet die Smaragdgasse mit der Seifenstraße"
+        ],
+        "Rua da Alfândega": [
+            "Anfang der Smaragdgasse"
+        ],
+        "Rua do Comercio": [
+            "Ende der Smaragdgasse"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Besitzer großer Wohnhäuser in der Smaragdgasse"
+        ]
+    },
+    "years": {}
+}

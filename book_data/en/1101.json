@@ -1,0 +1,48 @@
+{
+    "id": 1101,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cunha (Troilo de Vasconcelos da)",
+    "fl": "C",
+    "original_title": "Cunha (Troilo de Vasconcelos da)",
+    "body": "Today, it is a completely unknown name among us, but in its time, it gained remarkable renown as a poet and writer. Those who dedicate themselves to more in-depth studies of our literary history are familiar with the pages dedicated to him by Barbosa Machado in the Bibliotheca Lusitana and Costa e Silva in the Critical Essay of Portuguese Poets. He was born in Funchal in 1654, at a time when his father, Bartolomeu de Vasconcelos, held the position of governor and captain-general of this archipelago. He devoted himself to the profound study of the humanities, revealing his extensive knowledge of languages, especially Greek and Latin. He also dedicated himself to the study of various theological questions, which he wanted to address in his poetic compositions, especially in the work entitled 'The Mirror of the Invisible', in which he reveals great qualities as a poet, but whose subject, unsuitable for treatment in verse, made this poem difficult to understand and devoid of the splendor that should adorn compositions of this nature, despite, as Inocencio says, the purity of the style and not being very tainted by the defects of the Gongoristic school, which then dominated our literature.\n\nHe translated the Latin poem of Justin into the vernacular, titled 'Lusitanus Justin', and left many unpublished prose and verse compositions.\n\nHe held very important positions, such as secretary of the Junta dos Tres Estados, among others. He died in Lisbon on August 4, 1729.",
+    "categories": [
+        "history",
+        "culture",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Birthplace of Troilo de Vasconcelos da Cunha in 1654 and where his father held the position of governor and captain-general of the Madeira archipelago."
+        ],
+        "Lisbon": [
+            "Place where Troilo de Vasconcelos da Cunha died on August 4, 1729."
+        ]
+    },
+    "people": {
+        "Troilo de Vasconcelos da Cunha": [
+            "Poet and writer born in Funchal in 1654, author of 'The Mirror of the Invisible' and translator of 'Lusitanus Justin'."
+        ],
+        "Bartolomeu de Vasconcelos": [
+            "Father of Troilo de Vasconcelos da Cunha and governor and captain-general of the Madeira archipelago at the time of his son's birth."
+        ],
+        "Barbosa Machado": [
+            "Author who dedicates pages to Troilo de Vasconcelos da Cunha in his work 'Bibliotheca Lusitana'."
+        ],
+        "Costa e Silva": [
+            "Author who mentions Troilo de Vasconcelos da Cunha in the 'Critical Essay of Portuguese Poets'."
+        ],
+        "Inocencio": [
+            "Commentator who speaks about the work of Troilo de Vasconcelos da Cunha, highlighting the purity of the style and the defects of the Gongoristic school."
+        ]
+    },
+    "years": {
+        "1654": [
+            "Birth of Troilo de Vasconcelos da Cunha in Funchal."
+        ],
+        "1729": [
+            "Death of Troilo de Vasconcelos da Cunha in Lisbon."
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "id": 679,
+    "lang": "en",
+    "is_original": false,
+    "title": "Câmara (D. Marta Celina Sauvayre da)",
+    "fl": "C",
+    "original_title": "Câmara (D. Marta Celina Sauvayre da)",
+    "body": "She belongs to a noble and distinguished Madeiran family, and is the daughter of João Sauvayre da Camara and D. Matilde Lucia de Sant’Ana e Vasconcelos Moniz de Bettencourt, being the granddaughter of the illustrious Madeiran writer, Viscountess das Nogueiras, and the niece of our distinguished compatriot Jacinto de Sant’Ana e Vasconcelos, 21st viscount of the same title, both of whom we will discuss in this Elucidario. D. Marta Celina da Camara was born in Funchal on September 1, 1857, receiving a careful education, much of which was provided by her illustrious grandmother, who was a lady of vast erudition and who wrote an interesting and valuable work titled Dialogues between a grandmother and her granddaughters, which was published in 1862 for the use of her granddaughters. After a long journey through Europe and parts of Asia and Africa, D. Maria Celina wrote a book entitled From Naples to Jerusalem, which was published in Funchal in 1889, in a volume of 196 pages. D. Maria Celina Sauvayre da Câmara passed away in Portugal on February 21, 1929.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Sauvayre da Camara": [
+            "Father"
+        ],
+        "D. Matilde Lucia de Sant’Ana e Vasconcelos Moniz de Bettencourt": [
+            "Mother"
+        ],
+        "Viscountess das Nogueiras": [
+            "Grandmother"
+        ],
+        "Jacinto de Sant’Ana e Vasconcelos": [
+            "Uncle"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Born in Funchal"
+        ],
+        "1862": [
+            "Work entitled Dialogues between a grandmother and her granddaughters published"
+        ],
+        "1889": [
+            "Book From Naples to Jerusalem published"
+        ],
+        "1929": [
+            "Passed away in Portugal"
+        ]
+    }
+}

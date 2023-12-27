@@ -1,0 +1,30 @@
+{
+    "id": 2768,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pestana (Joaquim)",
+    "fl": "P",
+    "original_title": "Pestana (Joaquim)",
+    "body": "Nasceu na freguesia de Camara de Lôbos a 24 de Dezembro de 1840 e foi um distinto poeta, estando os seus versos disseminados por alguns periodicos do Funchal e da cidade de Ponta Delgada, e pelos anuarios Novo Almanach de Lembranças Luso-Brasileiro, Almanach das Senhoras, Almanach Madeirense e Almanach de Lembranças Madeirense. Deixou manuscrito um livro intitulado Espinhos e Flores, onde se diz que estão reünidas muitas das suas poesias publicadas em varios almanaques e jornais. Faleceu na freguesia de Camara de Lôbos a 6 de Fevereiro de 1909, tendo o Novo Almanach de Lembranças Luso-Brasileiro, de que êle fôra o colaborador durante 38 anos, publicado o retrato do desditoso lirico madeirense, assim como uma pequena noticia a seu respeito.",
+    "categories": [
+        "art",
+        "history"
+    ],
+    "freguesias": [
+        "Camara de Lôbos"
+    ],
+    "locations": {
+        "Camara de Lôbos": [
+            "Local de nascimento"
+        ],
+        "Funchal": [
+            "Local onde os seus versos foram disseminados"
+        ]
+    },
+    "people": {
+        "1909": [
+            "Faleceu"
+        ]
+    },
+    "years": {}
+}

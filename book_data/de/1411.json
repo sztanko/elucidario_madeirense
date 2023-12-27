@@ -1,0 +1,40 @@
+{
+    "id": 1411,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fonseca (Dr. Augusto de Arzila)",
+    "fl": "F",
+    "original_title": "Fonseca (Dr. Augusto de Arzila)",
+    "body": "Er wurde am 21. Oktober 1853 in Funchal geboren. 1883 schloss er sein Studium der Philosophie und Mathematik an der Universität Coimbra ab und promovierte 1884 in letzterer Fakultät, nachdem er zuvor den Infanteriekurs an der Heeresschule als Jahrgangsbester abgeschlossen hatte. Anlässlich seiner Promotion veröffentlichte er seine mathematische These in reiner und angewandter Mathematik. 1885 wurde er zum außerordentlichen Professor der Universität ernannt. Veröffentlichungen: Elementare Prinzipien der Quaternionen zur Mechanik. Er starb am 17. Februar 1912.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "Dr. Augusto de Arzila Fonseca": [
+            "Wurde in Funchal geboren"
+        ]
+    },
+    "years": {
+        "1853": [
+            "Geburt"
+        ],
+        "1883": [
+            "Abschluss an der Universität Coimbra"
+        ],
+        "1884": [
+            "Promotion an der Universität Coimbra"
+        ],
+        "1885": [
+            "Ernennung zum außerordentlichen Professor"
+        ],
+        "1912": [
+            "Tod"
+        ]
+    }
+}

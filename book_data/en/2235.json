@@ -1,0 +1,34 @@
+{
+    "id": 2235,
+    "lang": "en",
+    "is_original": false,
+    "title": "Medicis (D. Cosme de)",
+    "fl": "M",
+    "original_title": "Medicis (D. Cosme de)",
+    "body": "He lived in Funchal in the mid-18th century and was, according to tradition, a wealthy man. Having once invited several friends to spend the day in a cave to the east of the location where the lazaretto now stands, in order to engage in various amusements, they all met their death due to the collapse of the upper grounds, with only a black man who was a servant of D. Cosme escaping from the same cave, bringing the news of the terrible catastrophe he had witnessed to the city. The location of the catastrophe is known to sailors by the name 'D. Cosme's cave.' From 1679 to 1684, D. Zenóbio de Medicis, son of D. Cosme de Medicis, attended the Faculty of Theology at the University of Coimbra. It is therefore likely that the disaster occurred long before the mid-18th century, as it is unlikely that the aforementioned D. Cosme de Medicis was still alive at that time.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place where D. Cosme de Medicis lived"
+        ]
+    },
+    "people": {
+        "D. Cosme de Medicis": [
+            "Wealthy man who lived in Funchal in the mid-18th century"
+        ],
+        "D. Zenóbio de Medicis": [
+            "Son of D. Cosme de Medicis, attended the Faculty of Theology at the University of Coimbra"
+        ]
+    },
+    "years": {
+        "1679": [
+            "Start of the period when D. Zenóbio de Medicis attended the Faculty of Theology"
+        ],
+        "1684": [
+            "End of the period when D. Zenóbio de Medicis attended the Faculty of Theology"
+        ]
+    }
+}

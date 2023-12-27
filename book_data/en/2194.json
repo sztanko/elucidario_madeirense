@@ -1,0 +1,34 @@
+{
+    "id": 2194,
+    "lang": "en",
+    "is_original": false,
+    "title": "Tides",
+    "fl": "T",
+    "original_title": "Marés",
+    "body": "On page 378 of the 1st volume of the work 'Ilhas de Zargo', the following information is found, which we take the liberty of transcribing verbatim: \n\n> 'Regarding the movement of the tides in Madeira, we were kindly provided with these reliable notes by the Hydrographic Mission of the Adjacent Islands: \n\nDuring high tide, the waters come from the south quadrants, during low tide, from the northeast quadrant. \n\nThe flood waters divide on the south coast of Madeira, flowing towards the west and from the zone from Ponta do Sol to Ponta do Jardim do Mar. From this point to Ponta do Pargo, the maritime currents generally develop from the northwest near the coast. The respective currents have parallel or slightly inclined directions towards the coast, sometimes being quite strong offshore (approximately 500 meters deep). Near the points, they become stronger, sometimes leading to the meeting of waters as observed at Ponta do Pargo and especially at Ponta de S. Lourenço, where their speeds reach about 2 miles in spring tides. \n\nThe flood currents are mainly felt on the south coast, at Pontas do Pargo and S. Lourenço, and also on the northwest coast, at Ponta do Tristão and near Ilhéu Mole (Porto do Moniz). \n\nThe ebb waters produce strong currents to the S.S.W. at Ponta de S. Lourenço, to the west at Ponta de S. Jorge, and to the S.W. at Ilhéu Mole and Ponta do Tristão. The waters flow almost parallel to the coast from Ponta de S. Jorge to Ilhéu Mole, that is, on the north coast; on the northeast coast, the currents are null or very weak, except in the depths of Ponta do Barlavento. \n\nThe ebb currents are mainly felt on the north coast, especially at Ponta de S. Lourenço and Ilhéu Mole, where they reach speeds of 1.5 miles in spring tides. \n\nDuring neap tides, the currents are generally null or very weak. These currents are influenced by the prevailing winds and barometric conditions of the North Atlantic. \n\nIn Funchal, the flood currents are mainly felt, which have slightly inclined directions towards the coast (E.N.E.) and reach speeds of about 1.2 miles in spring tides, at about half tide. The ebb currents are generally null or very weak, with the waters flowing to E.N.E. and sometimes to the west. \n\nIn Porto do Moniz, both the flood and ebb currents are felt during spring tides, but mainly during the flood, reverse currents and water stocks occur at the beginning inside the port, with the waters flowing more directly during the ebb, at a speed of 1 mile. In Porto da Cruz, the currents are generally quite weak or null. \n\nOn the Island of Porto Santo, the maritime currents reach higher speeds during spring tides, flowing from the south quadrants during the flood, and from the northeast quadrant during the ebb. They are mainly felt at the South Point of Ilhéu de Cima, where the waters flow to the N.E. in spring tides, at a speed of 1 mile during the flood, and at 1.5 during the ebb. At the Point of Ilhéu de Baixo, during the flood, they flow to the west or east at a speed of 1 mile in spring tides, during the ebb. \n\nThe tides are very regular, with two high tides and two low tides daily. The values of the harmonic and non-harmonic constants are those of the tables determined by the Hydrographic Mission of the Adjacent Islands. By comparing the values of the port establishments, the differences between the times of high and low tides of the respective ports are obtained.' These tables are included on page 380 and following of Ilhas de Zargo. \n\nSince 1939, the 'Junta Autonoma dos Portos do Arquipélago da Madeira' has been annually publishing an interesting booklet entitled 'Tabela das Marés no Porto do Funchal', in which from January 1st to December 31st, the precise heights of high and low tides are indicated at specific times, taken in the morning and afternoon within the port of Funchal. These data are preceded by the following warnings: \n\n'This table was calculated by the Hydrological Mission of the Adjacent Islands, based on the records from 1937, provided by the tide gauge of the same Mission, installed at Molhe da Pontinha. The heights of the tide table are referred to the hydrographic zero plane, which is located 1.40 meters below the average oceanic level (1937) and 4.138 meters below the mark of the level of the Hydrographic Mission of the Adjacent Islands existing on the upper edge of its tide gauge. - The times are of legal time of Funchal (Greenwich Mean Time minus one hour). \n\nThe 'tide elements' in the port of Funchal, indicated there, are: height unit 1.06m, maximum observed amplitude 2.58m, average deduced amplitude 1.53m, minimum observed amplitude 0.55m, maximum daily inequality in height, 0.25m, and the 'port establishment' at 0h32m. \n\nThe port establishment, or the time of high tide of the spring tides, is in Funchal, according to the geographical chart of General Antonio Pedro de Azevedo, at 12h48m, with a tide elevation of 2.28m.'",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "In Funchal, the flood currents are mainly felt, which have slightly inclined directions towards the coast (E.N.E.) and reach speeds of about 1.2 miles in spring tides, at about half tide. The ebb currents are generally null or very weak, with the waters flowing to E.N.E. and sometimes to the west."
+        ],
+        "Porto do Moniz": [
+            "In Porto do Moniz, both the flood and ebb currents are felt during spring tides, but mainly during the flood, reverse currents and water stocks occur at the beginning inside the port, with the waters flowing more directly during the ebb, at a speed of 1 mile."
+        ],
+        "Porto da Cruz": [
+            "In Porto da Cruz, the currents are generally quite weak or null."
+        ],
+        "Ilha do Porto Santo": [
+            "On the Island of Porto Santo, the maritime currents reach higher speeds during spring tides, flowing from the south quadrants during the flood, and from the northeast quadrant during the ebb."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1939": [
+            "The 'Junta Autonoma dos Portos do Arquipélago da Madeira' has been annually publishing an interesting booklet entitled 'Tabela das Marés no Porto do Funchal', in which from January 1st to December 31st, the precise heights of high and low tides are indicated at specific times, taken in the morning and afternoon within the port of Funchal. These data are preceded by the following warnings:",
+            "'This table was calculated by the Hydrological Mission of the Adjacent Islands, based on the records from 1937"
+        ]
+    }
+}

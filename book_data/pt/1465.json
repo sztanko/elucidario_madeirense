@@ -1,0 +1,33 @@
+{
+    "id": 1465,
+    "lang": "pt",
+    "is_original": true,
+    "title": "França",
+    "fl": "F",
+    "original_title": "França",
+    "body": "Pouco depois da descoberta, veio para esta ilha André Gonçalves, conhecido pelo nome de Polonês, que se estabeleceu no Estreito da Calheta e ali teve terras de sesmaria. Seu filho João de França, que foi o que introduziu este apelido nesta ilha, teve muita fazenda e boa casa no Estreito, sendo o fundador da primitiva igreja desta freguesia, onde fez a sede do morgadio que instituiu. Morreu em 1511 e foi sepultado na igreja de que era fundador e padroeiro. Foi ultimo representante deste morgadio, um dos maiores da ilha, o conde da Calçada, que faleceu em 1906.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "André Gonçalves estabeleceu-se no Estreito da Calheta"
+        ]
+    },
+    "people": {
+        "André Gonçalves": [
+            "Conhecido pelo nome de Polonês"
+        ],
+        "João de França": [
+            "Introduziu o apelido França na ilha"
+        ]
+    },
+    "years": {
+        "1511": [
+            "João de França morreu"
+        ]
+    }
+}

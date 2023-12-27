@@ -1,0 +1,67 @@
+{
+    "id": 2510,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora das Neves (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Neves (Capela de)",
+    "body": "Referindo-se a esta capela, diz Frutuoso: «... está huma igreja de Nossa Senhora das Neves, á vista do Funchal, sobre huma ponta que se chama o Garajao, huma legoa antes de chegar á cidade.» É muito antiga e das poucas capelas do século XVI que ainda restam de pé, embora tenha sofrido algumas modificações no decorrer dos tempos. Foi fundada por João Afonso Mealheiro e sua mulher Catarina de Sá. Falando dele, diz o Dr. Rodrigues de Azevedo: « . . . foi um dos primeiros povoadores da ilha da Madeira, e teve sesmaria na Ribeira-Secca, de S. Gonçallo, até o Caniço. Sua mulher Catharina de Sá, ou Pires, fez o morgado das Neves, e o deixou a seu sobrinho, o almoxarife João Cabral; mas por parte da fazenda real foi o mesmo morgado vendido, para pagamento de alcance; comprou-o Lopo Machado de Goes, e de novo o instituiu seu filho Bartholomeu Machado». Lemos algures que em 1692 passou esta capela à posse de D. Guiomar Castelo Branco, filha de Gaspar Vilela e casada com Antonio Correia. No último quartel do século XIX, o comerciante inglês João Blandy fez compra desta capela e terras adjacentes a entestarem com a magnífica propriedade do Palheiro Ferreiro, também adquirida pelo mesmo comerciante. João Blandy fez importantes reparos na capela e alargou o respectivo adro. A capela das Neves deu o nome ao sítio, foi a sede dum curato e nela se instalou a paróquia de São Gonçalo, por ocasião da sua criação. A pág. 80 das Saudades da Terra, conta o ingénuo Gaspar Frutuoso a luta que nas proximidades desta capela teve um clérigo com o diabo, que tentou lançar ao mar o eclesiástico das alturas da rocha do Garajau.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Funchal",
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira"
+        ],
+        "Ribeira-Secca": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "São Gonçallo": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Caniço": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Garajao": [
+            "Ponta na Ilha da Madeira"
+        ],
+        "Palheiro Ferreiro": [
+            "Propriedade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "João Afonso Mealheiro": [
+            "Fundador da capela"
+        ],
+        "Catarina de Sá": [
+            "Esposa de João Afonso Mealheiro"
+        ],
+        "Lopo Machado de Goes": [
+            "Comprador do morgado das Neves"
+        ],
+        "Bartholomeu Machado": [
+            "Filho de Lopo Machado de Goes"
+        ],
+        "D. Guiomar Castelo Branco": [
+            "Possuidora da capela em 1692"
+        ],
+        "Gaspar Vilela": [
+            "Pai de D. Guiomar Castelo Branco"
+        ],
+        "Antonio Correia": [
+            "Marido de D. Guiomar Castelo Branco"
+        ],
+        "João Blandy": [
+            "Comerciante inglês que comprou a capela"
+        ]
+    },
+    "years": {
+        "1692": [
+            "Transferência da capela para a posse de D. Guiomar Castelo Branco"
+        ]
+    }
+}

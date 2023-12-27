@@ -1,0 +1,33 @@
+{
+    "id": 3395,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sousa (Garcia Homem de)",
+    "fl": "S",
+    "original_title": "Sousa (Garcia Homem de)",
+    "body": "Er war einer der Adligen, die der König auf diese Insel schickte, um die Töchter von João Gonçalves Zargo zu heiraten. Er verband sich mit der dritten Tochter, die Catarina Gonçalves da Câmara hieß. Er erhielt Sesmarias-Ländereien in São Martinho und Santo Antonio und baute den befestigten Landsitz Santo Amaro, um sich vor seinen Schwägern zu verteidigen, mit denen er Streitigkeiten hatte, deren Gründe heute nicht mehr genau bekannt sind. Er war, so Dr. Azevedo, ein stolzer und gewalttätiger Mann (siehe Santo Amaro (Kapellen von)).\n\nHenrique Henriques de Noronha sagt, dass Garcia Homem de Sousa von Pedro Homem abstammte, einem der zwölf Ritter, die nach England geschickt wurden.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Martinho": [
+            "Ort der Sesmarias-Ländereien"
+        ],
+        "Santo Antonio": [
+            "Ort der Sesmarias-Ländereien"
+        ],
+        "Santo Amaro": [
+            "Ort des befestigten Landsitzes"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zargo": [
+            "Vater der Töchter, die Garcia Homem de Sousa heiratete"
+        ],
+        "Catarina Gonçalves da Câmara": [
+            "Dritte Tochter von João Gonçalves Zargo"
+        ]
+    },
+    "years": {}
+}

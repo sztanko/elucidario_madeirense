@@ -1,0 +1,33 @@
+{
+    "id": 496,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bischofstraße (Rua do)",
+    "fl": "B",
+    "original_title": "Bispo (Rua do)",
+    "body": "Die frühere Bezeichnung der heutigen Gomes-Freire-Straße. Dieser Name stammt von den Prälaten von Funchal, die dort ihren offiziellen Wohnsitz hatten. Im Bischofspalast (siehe diesen Namen) befindet sich unser Gymnasium seit Januar 1914. In dieser Straße befindet sich das alte Herrenhaus der Familie Ornelas, deren heutiger Vertreter der Ratsherr Aires de Ornelas de Vasconcelos ist, das im letzten Viertel des 17. Jahrhunderts vom Majoratsherrn Aires de Ornelas erbaut wurde. Hier befindet sich auch der Sitz der wichtigen und blühenden Hilfsvereinigung 4. September 1863 (siehe diesen Namen). Ebenfalls in dieser Straße befindet sich die Kapelle São Luiz (siehe diesen Namen).",
+    "categories": [
+        "history",
+        "architecture",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Gomes Freire": [
+            "Die heutige Straße, die früher Rua do Bispo hieß"
+        ],
+        "Funchal": [
+            "Ort, an dem die Prälaten ihren offiziellen Wohnsitz hatten"
+        ]
+    },
+    "people": {
+        "Aires de Ornelas de Vasconcelos": [
+            "Vertreter der Familie Ornelas"
+        ]
+    },
+    "years": {
+        "1914": [
+            "Einweihung des Gymnasiums in der Bischofstraße"
+        ]
+    }
+}

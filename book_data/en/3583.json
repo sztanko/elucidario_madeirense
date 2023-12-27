@@ -1,0 +1,43 @@
+{
+    "id": 3583,
+    "lang": "en",
+    "is_original": false,
+    "title": "Veiga Pestana (Alferes João Paulo da)",
+    "fl": "V",
+    "original_title": "Veiga Pestana (Alferes João Paulo da)",
+    "body": "He was the son of João Pestana Santos and D. Carlota Amalia Drumond da Veiga Pestana, and was born in Funchal on December 25, 1895. Having completed his preparatory studies at the lyceum of this city in 1913, he enrolled in the Faculty of Sciences at the University of Coimbra to pursue a degree in civil engineering, but when called to enlist in the army in 1916, after Portugal's entry into the Great War, he was immediately called to the school of militia officers, due to his scientific qualifications, being appointed as an infantry ensign in the 30th regiment on May 1, 1917, and promoted to lieutenant on September 5 of the same year. Mobilized to join the Portuguese Expeditionary Corps in France, he left for that country on September 11 of the same year, meeting a glorious death in the battle of Lys on April 9, 1918, after spending seven months in the trenches and giving numerous proofs of his military valor and honor. The Portuguese press extensively reported on the unfortunate officer João Paulo da Veiga Pestana, and the Ilustração Portuguesa published his portrait, accompanied by some biographical data. The Municipal Council of Funchal, in a session on April 10, 1919, named the street formerly known as Rua das Hortas after Lieutenant Veiga Pestana, representing 'a simple but well-deserved tribute to the young officer who, when invited to flee as danger approached, replied, with his eyes fixed on the Homeland: Let whoever wants to flee; I will stay in the fulfillment of duty'.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "João Pestana Santos": [
+            "Father of João Paulo da Veiga Pestana"
+        ],
+        "D. Carlota Amalia Drumond da Veiga Pestana": [
+            "Mother of João Paulo da Veiga Pestana"
+        ]
+    },
+    "years": {
+        "1895": [
+            "Birth of João Paulo da Veiga Pestana"
+        ],
+        "1913": [
+            "Completion of preparatory studies"
+        ],
+        "1916": [
+            "Enlistment in the army"
+        ],
+        "1917": [
+            "Promotion to lieutenant"
+        ],
+        "1918": [
+            "Death in the battle of Lys"
+        ]
+    }
+}

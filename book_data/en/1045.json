@@ -1,0 +1,25 @@
+{
+    "id": 1045,
+    "lang": "en",
+    "is_original": false,
+    "title": "Costa de Baixo",
+    "fl": "C",
+    "original_title": "Costa de Baixo",
+    "body": "The coastal area of Madeira, located to the west of Funchal, is commonly called Costa de Baixo, encompassing all the parishes along this coast, which are part of the municipalities of Camara de Lôbos, Ribeira Brava, Ponta do Sol, and Calheta.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Camara de Lôbos",
+        "Ribeira Brava",
+        "Ponta do Sol",
+        "Calheta"
+    ],
+    "locations": {
+        "Funchal": [
+            "Point of reference"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

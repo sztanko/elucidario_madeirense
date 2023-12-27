@@ -1,0 +1,27 @@
+{
+    "id": 2537,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Noticioso (O)",
+    "fl": "N",
+    "original_title": "Noticioso (O)",
+    "body": "Saiu o primeiro numero a 22 de Outubro de 1862 e o ultimo a 22 de Janeiro de 1866.\n\nPublicaram-se 152 números. Foi seu principal redactor Augusto César de Freitas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Augusto César de Freitas": [
+            "Principal redactor"
+        ]
+    },
+    "years": {
+        "1862": [
+            "Primeiro número"
+        ],
+        "1866": [
+            "Último número"
+        ]
+    }
+}

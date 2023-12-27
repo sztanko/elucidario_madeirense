@@ -1,0 +1,115 @@
+{
+    "id": 1178,
+    "lang": "de",
+    "is_original": false,
+    "title": "Krankheiten",
+    "fl": "K",
+    "original_title": "Doenças",
+    "body": "Die vorherrschenden Krankheiten auf Madeira sind Tuberkulose, Durchfallerkrankungen, organische Herzerkrankungen, Schlaganfälle und andere Gehirnerkrankungen, Lungenentzündungen und Bronchitis. Von 3631 Todesfällen im Jahr 1917 im Bezirk Funchal waren 263 auf Lungentuberkulose, 11 auf Tuberkulose der Hirnhäute, 17 auf andere Tuberkulosen, 890 auf Durchfall und Darmentzündungen (nur 382 der Verstorbenen waren über 2 Jahre alt), 246 auf organische Herzerkrankungen, 239 auf Kongestionen, Hirnblutungen und Erweichungen, 167 auf akute Bronchitis, 40 auf chronische Bronchitis, 155 auf Lungenentzündung und 105 auf andere Krankheiten des Atmungssystems zurückzuführen.\n\nKrebs tritt häufig in verschiedenen Organen auf, ebenso akute und chronische Hepatitis, akutes und chronisches Rheuma, Skrofulose, bestimmte Hautkrankheiten und anhaltendes Fieber in verschiedenen Formen, hauptsächlich gastriques und ataxo-dynamisches Fieber, sind auf der Insel ebenfalls nicht selten. Im Jahr 1917 starben im gesamten Archipel 91 Menschen an Krebs und anderen bösartigen Tumoren. \n\nElephantiasis tritt an verschiedenen Orten Madeiras auf, hauptsächlich bei Individuen der unteren Schichten. Die Gemeinden Ponta do Sol und Ponta do Pargo weisen den höchsten Prozentsatz an betroffenen Einwohnern dieser Krankheit auf.\n\nMasern und Pocken sind einige Male in epidemischer Form auf Madeira aufgetreten, immer durch Ansteckung von Personen von außerhalb. Unter den Pockenepidemien seien die von 1801, 1815 mit über 2000 Toten auf der ganzen Insel, 1858, 1859, 1870, 1873 und 1907 erwähnt; unter den Masernepidemien die von 1751, die eine bemerkenswerte Sterblichkeit verursachte, 1816 und 1884.\n\n1905 trat die Beulenpest (siehe diesen Namen) auf Madeira auf, aber ohne epidemischen Charakter, und 1907 gab es 14 Todesfälle in der Gemeinde Santo António, die angeblich auf ansteckende Lungenentzündung zurückzuführen waren.  Die Cholera (siehe diesen Namen) besuchte uns 1856 und 1910, die Tollwut (siehe diesen Namen) 1892, Scharlach 1814, 1825 und 1864, die Grippe, mit vielen Fällen von Lungenentzündung, 1884, die zerebrospinale Meningitis, epidemisch, 1904 und die Spanische Grippe (eine Art Grippe) und Lungengrippe 1919. Über diese beiden letzten Krankheiten schrieb Dr. Nuno Silvestre Teixeira einen bemerkenswerten Bericht, der im Dezember 1919 in der Zeitung Diário de Notícias veröffentlicht wurde. \n\nDer Name Grippe, der der in Madeira häufig auftretenden Grippe gegeben wurde, war bereits im zweiten Viertel des 19. Jahrhunderts bei uns bekannt, wie aus Dokumenten im Archiv der Stadtverwaltung von Funchal hervorgeht.\n\n1847 gab es viele Reizungen des Verdauungstraktes aufgrund von Hunger, mit hoher Sterblichkeit, und 1888 traten viele Fälle einer besonderen Anämie in der Gemeinde Porto da Cruz auf, die nach Angaben des verstorbenen Arztes Dr. Vicente Cândido Machado auf den Hakenwurm Anchylostomum intestinale zurückzuführen waren. 1893 entwickelte sich eine Typhus-Epidemie in der Gemeinde Porto do Moniz, der eine große Anzahl von Menschen zum Opfer fiel. Keuchhusten tritt nur selten epidemisch auf, ebenso wie Kropf.\n\nAuf Madeira gibt es keine endemischen Krankheiten; es gibt lediglich die in allen Ländern verbreiteten Krankheiten, die sich hier generell in milder Form zeigen. Das von den Kritikern des Inselklimas erwähnte Madeira-Fieber ist lediglich eine Magenverstimmung, die gelegentlich Ausländer befällt, die in großen Mengen bestimmte Früchte essen, die es im Norden Europas nicht gibt.\n\nUnzureichende Kleidung, mangelhafte Ernährung, Alkoholmissbrauch und bestimmte unentschuldbare Nachlässigkeiten in der Hygiene führen dazu, dass Personen der unteren Schichten im Allgemeinen anfälliger für die vorherrschenden Krankheiten der Insel sind als Personen der begünstigten Schichten. Nichtsdestotrotz ist die Sterblichkeitsrate dieser Krankheiten im Vergleich zu anderen Ländern für Madeira recht günstig, was sehr zur Milde unseres Klimas und der natürlichen Widerstandskraft unserer Rasse beiträgt.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Ponta do Pargo",
+        "Santo Antonio",
+        "Porto da Cruz",
+        "Pôrto do Moniz"
+    ],
+    "locations": {
+        "Funchal": [
+            "Bezirk Funchal"
+        ],
+        "Ponta do Pargo": [
+            "Gemeinden Ponta do Sol und Ponta do Pargo"
+        ],
+        "Ponta do Sol": [
+            "Gemeinden Ponta do Sol und Ponta do Pargo"
+        ],
+        "Santo António": [
+            "Gemeinde Santo António"
+        ],
+        "Porto da Cruz": [
+            "Gemeinde Porto da Cruz"
+        ],
+        "Pôrto do Moniz": [
+            "Gemeinde Porto do Moniz"
+        ]
+    },
+    "people": {
+        "Dr. Nuno Silvestre Teixeira": [
+            "Arzt"
+        ],
+        "Dr. Vicente Cândido Machado": [
+            "Verstorbener Arzt"
+        ]
+    },
+    "years": {
+        "1801": [
+            "Pockenepidemie von 1801"
+        ],
+        "1815": [
+            "Pockenepidemie von 1815"
+        ],
+        "1858": [
+            "Pockenepidemie von 1858"
+        ],
+        "1859": [
+            "Pockenepidemie von 1859"
+        ],
+        "1870": [
+            "Pockenepidemie von 1870"
+        ],
+        "1873": [
+            "Pockenepidemie von 1873"
+        ],
+        "1907": [
+            "1907 gab es 14 Todesfälle in der Gemeinde Santo António"
+        ],
+        "1751": [
+            "Masernepidemie von 1751"
+        ],
+        "1816": [
+            "Masernepidemie von 1816"
+        ],
+        "1884": [
+            "Die Grippe, mit vielen Fällen von Lungenentzündung, 1884"
+        ],
+        "1905": [
+            "1905 trat die Beulenpest auf"
+        ],
+        "1856": [
+            "Die Cholera besuchte uns 1856"
+        ],
+        "1910": [
+            "Die Cholera besuchte uns 1910"
+        ],
+        "1892": [
+            "Die Tollwut 1892"
+        ],
+        "1814": [
+            "Scharlach 1814"
+        ],
+        "1825": [
+            "Scharlach 1825"
+        ],
+        "1864": [
+            "Scharlach 1864"
+        ],
+        "1904": [
+            "Die zerebrospinale Meningitis, epidemisch, 1904"
+        ],
+        "1919": [
+            "Die Spanische Grippe (eine Art Grippe) und Lungengrippe 1919"
+        ],
+        "1847": [
+            "1847 gab es viele Reizungen des Verdauungstraktes aufgrund von Hunger"
+        ],
+        "1888": [
+            "1888 traten viele Fälle einer besonderen Anämie in der Gemeinde Porto da Cruz auf"
+        ],
+        "1893": [
+            "1893 entwickelte sich eine Typhus-Epidemie in der Gemeinde Porto do Moniz"
+        ]
+    }
+}

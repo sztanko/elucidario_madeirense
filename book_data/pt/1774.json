@@ -1,0 +1,27 @@
+{
+    "id": 1774,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Imprensa Livre (A )",
+    "fl": "I",
+    "original_title": "Imprensa Livre (A )",
+    "body": "Deu noventa e um números, tendo saído o primeiro a 29 de Agosto de 1868 e o ultimo a 24 de Dezembro de 1870. Foi seu redactor o Dr. José Leite Monteiro.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. José Leite Monteiro": [
+            "Redator"
+        ]
+    },
+    "years": {
+        "1868": [
+            "Início da publicação do jornal"
+        ],
+        "1870": [
+            "Fim da publicação do jornal"
+        ]
+    }
+}

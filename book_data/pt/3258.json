@@ -1,0 +1,45 @@
+{
+    "id": 3258,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Sebastião (Capelas de)",
+    "fl": "S",
+    "original_title": "São Sebastião (Capelas de)",
+    "body": "A capela de São Sebastião da vila da Ponta do Sol, que é de antiga construção, era propriedade da respectiva câmara municipal. Em 1734, encontrava-se profanada e em adiantado estado de ruína, sendo inteiramente reconstruída a expensas da mesma câmara. Foi vistoriada, para o efeito da celebração dos oficios divinos, a 20 de Novembro de 1734.\n\nNa ilha do Porto Santo existiu uma capela dedicada ao mártir São Sebastião, que era muito antiga.\n\nHouve uma capela com a mesma invocação na freguesia de Santa Cruz, ignorando-se o ano da sua construção e o nome do seu fundador.\n\nExistiu uma capela de São Sebastião na freguesia de São Jorge, cujo ano de construção ignoramos. No entretanto sabemos que foi reedificada pelo pároco Francisco Marques de Mendonça no ano de 1765, sendo benzida a 11 de Setembro do mesmo ano. Encontra-se na igreja paroquial a pequena imagem do santo, que é um notável primor de escultura.\n\n## V. Mercado e capela de São Sebastião\na páginas 359 do volume II.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Santa Cruz",
+        "São Jorge"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Vila da Ponta do Sol"
+        ],
+        "Porto Santo": [
+            "Ilha do Porto Santo"
+        ],
+        "Santa Cruz": [
+            "Freguesia de Santa Cruz"
+        ],
+        "São Jorge": [
+            "Freguesia de São Jorge"
+        ]
+    },
+    "people": {
+        "Francisco Marques de Mendonça": [
+            "Pároco responsável pela reconstrução da capela de São Sebastião na freguesia de São Jorge"
+        ]
+    },
+    "years": {
+        "1734": [
+            "Ano em que a capela de São Sebastião da Ponta do Sol foi reconstruída"
+        ],
+        "1765": [
+            "Ano da reconstrução da capela de São Sebastião na freguesia de São Jorge"
+        ]
+    }
+}

@@ -1,0 +1,53 @@
+{
+    "id": 2411,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Museu do Seminário",
+    "fl": "M",
+    "original_title": "Museu do Seminário",
+    "body": "O chamado museu do Seminário, o único de incontestável valor cientifico que existe no Funchal, foi criado em 1882 pelo sacerdote alemão padre Ernesto Schmitz, então professor daquele estabelecimento de instrução. Esteve por largos anos anexo ao Seminário Episcopal, sendo de recente data a sua transferência para a casa ao largo do Visconde do Ribeiro Real, junto da residência do Prelado Diocesano, onde se acha presentemente (1921).\n\nO museu do Seminário é de historia natural, e nele estão representados a fauna, a flora e os minerais do arquipélago. Pelo que respeita à fauna, são dignas de menção as colecções ornitologicas, ictiologicas e conquiliologicas, e ainda as de coraliarios e as de alguns grupos de insectos; e pelo que respeita à flora, recomendam-se pela sua importância as colecções de muscineas e fanerogamicas, feitas pelo falecido James Y. Johnson, as de líquenes e fungos feitas pelo padre Jaime de Gouveia Barreto e a de algas marinhas, organizada pelo padre Ernesto Schmitz. A colecção de fanerogamicas tem sido muito melhorada nestes últimos tempos, graças às pesquisas do jovem botânico madeirense José Gonçalves da Costa.\n\nO padre Ernesto Schmitz, que tantos serviços prestou ao museu do Seminário, dirigiu-o até Junho de 1908, sendo actual director do mesmo estabelecimento o padre Jaime Barreto, um distinto naturalista, que tem sabido conservar e fazer progredir a obra iniciada pelo seu ilustre mestre (1921).\n\nO museu de ciências naturais do Seminário Diocesano acha-se actualmente, instalado no edifício da Incarnação, sob a proficiente direcção do cónego Jaime de Gouveia Barreto, professor e reitor do mesmo Seminário.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da ilha da Madeira"
+        ],
+        "Visconde do Ribeiro Real": [
+            "Localização da casa onde o museu do Seminário se encontra em 1921"
+        ],
+        "Prelado Diocesano": [
+            "Residência do Prelado Diocesano, onde o museu do Seminário se encontra em 1921"
+        ],
+        "Incarnação": [
+            "Edifício onde o museu de ciências naturais do Seminário Diocesano está instalado em 1921"
+        ]
+    },
+    "people": {
+        "Padre Ernesto Schmitz": [
+            "Criador do museu do Seminário"
+        ],
+        "James Y. Johnson": [
+            "Responsável pelas colecções de muscineas e fanerogamicas"
+        ],
+        "Padre Jaime de Gouveia Barreto": [
+            "Responsável pelas colecções de líquenes e fungos, atual diretor do museu do Seminário"
+        ],
+        "José Gonçalves da Costa": [
+            "Jovem botânico madeirense responsável pela melhoria da colecção de fanerogamicas"
+        ]
+    },
+    "years": {
+        "1882": [
+            "Criação do museu do Seminário"
+        ],
+        "1908": [
+            "Fim da direção do padre Ernesto Schmitz no museu do Seminário"
+        ],
+        "1921": [
+            "Referência à situação do museu do Seminário"
+        ]
+    }
+}

@@ -1,0 +1,54 @@
+{
+    "id": 1848,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jesus Maria José (Capela de)",
+    "fl": "J",
+    "original_title": "Jesus Maria José (Capela de)",
+    "body": "Sebastião Gonçalves Cordeiro e sua mulher Luzia de Ornelas fundaram em 1694 a capela de Jesus-Maria-José, na freguesia de Câmara de Lobos, no sítio que hoje conserva aquele nome. A respectiva escritura de dotação é de 10 de Maio de 1694.\n\nNo sítio do Lombo do Doutor, na freguesia da Calheta, também se encontrava uma capela de Jesus-Maria-José, fundada em 1708 por João de Andrade Berenguer Neto e sua mulher D. Tomásia de França Andrade, que a dotaram por escritura publica de 30 de Outubro daquele ano.\n\nCom a mesma invocação existiu uma capela na freguesia da Sé, em local que não podemos determinar, fundada em 1626 pelo cónego Manuel Afonso, e Mateus da Gama Ferreira fundou na freguesia do Monte, em terreno que depois passou a pertencer á freguesia de Santa Luzia, uma capela consagrada igualmente a Jesus-Maria-José. A sua construção deve ser anterior a 1676, ano em que foi criada a freguesia de Santa Luzia.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Calheta",
+        "Sé",
+        "Monte",
+        "Santa Luzia"
+    ],
+    "locations": {},
+    "people": {
+        "Sebastião Gonçalves Cordeiro": [
+            "Fundador da capela de Jesus-Maria-José"
+        ],
+        "Luzia de Ornelas": [
+            "Fundadora da capela de Jesus-Maria-José"
+        ],
+        "João de Andrade Berenguer Neto": [
+            "Fundador da capela de Jesus-Maria-José"
+        ],
+        "D. Tomásia de França Andrade": [
+            "Fundadora da capela de Jesus-Maria-José"
+        ],
+        "Cónego Manuel Afonso": [
+            "Fundador da capela na freguesia da Sé"
+        ],
+        "Mateus da Gama Ferreira": [
+            "Fundador da capela na freguesia do Monte"
+        ]
+    },
+    "years": {
+        "1694": [
+            "Fundação da capela de Jesus-Maria-José na freguesia de Câmara de Lobos"
+        ],
+        "1708": [
+            "Fundação da capela de Jesus-Maria-José no sítio do Lombo do Doutor na freguesia da Calheta"
+        ],
+        "1626": [
+            "Fundação da capela na freguesia da Sé"
+        ],
+        "1676": [
+            "Criação da freguesia de Santa Luzia"
+        ]
+    }
+}

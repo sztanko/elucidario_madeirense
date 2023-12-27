@@ -1,0 +1,38 @@
+{
+    "id": 1940,
+    "lang": "en",
+    "is_original": false,
+    "title": "Larica (Antonio Augusto)",
+    "fl": "L",
+    "original_title": "Larica (Antonio Augusto)",
+    "body": "He was the son of Fortunato Leandro Larica, born in Funchal in 1831, and obtained a doctorate in medicine from the faculty of Montpellier in 1852. For many years, he was the chief guardian of the health station in Funchal and died in this city on May 22, 1903. Ref.: Apprécier les méthodes opératoires de la fistule vésico-vaginale, thesis presented and publicly defended at the Faculty of Medicine of Montpellier on April 26, 1852 (Montpellier, 1852).",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City on the Island of Madeira"
+        ],
+        "Montpellier": [
+            "City in France"
+        ]
+    },
+    "people": {
+        "Fortunato Leandro Larica": [
+            "Father of Antonio Augusto Larica"
+        ]
+    },
+    "years": {
+        "1831": [
+            "Year of birth"
+        ],
+        "1852": [
+            "Year of obtaining a doctorate in medicine"
+        ],
+        "1903": [
+            "Year of death"
+        ]
+    }
+}

@@ -1,0 +1,55 @@
+{
+    "id": 2332,
+    "lang": "en",
+    "is_original": false,
+    "title": "Moniz (D. João Henriques)",
+    "fl": "M",
+    "original_title": "Moniz (D. João Henriques)",
+    "body": "He was born in this city in the last quarter of the 18th century and was a close relative of Dr. Lourenço José Moniz, Dr. Patricio Moniz, and Counselor Jaime Moniz, all of whom we discuss in this Elucidário. He graduated in canons from the University of Coimbra and was ordained a priest in the first quarter of the last century. He was serving as an ecclesiastical promoter in this diocese when he was involved in the jurisdiction that came to this island in 1828, being sent to Lisbon the following year and then deported to the archipelago of Cape Verde in 1830. He resided for several years on the island of Brava, where he performed parish duties and provided relevant services to education by founding two schools. When the constitutional government was restored, he did not return to his homeland and was appointed governor of the bishopric of Cape Verde in 1835. In 1841, he was appointed bishop of that diocese, but it was only in 1844 that he came to Lisbon to receive episcopal consecration. His episcopate was very short, as he arrived in Cape Verde in February 1847 and died on July 1 of the same year. It was believed at the time that the adversities and persecutions he suffered upon landing on the island of São Tiago quickly led him to the grave. The chapter, which was composed of a black canon and a mulatto one, refused to grant him possession of the bishopric, and the Governor, due to the lack of legal possession, did not recognize him as a prelate and refused to endorse his respective fees. Amidst these struggles and bitterness, he succumbed to an attack of a pernicious fever and was buried in the cemetery of Praia, without being given the civil and ecclesiastical honors to which his high rank entitled him. Some claimed that the prelate was a victim of an assassination caused by poisoning, which was then attributed to one of his close relatives. D. João Henriques Moniz had been elected substitute senator for Madeira for the legislative session from 1840 to 1842.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cabo Verde": [
+            "Archipelago where he was deported"
+        ]
+    },
+    "people": {
+        "Dr. Lourenço José Moniz": [
+            "Close relative"
+        ],
+        "Dr. Patricio Moniz": [
+            "Close relative"
+        ],
+        "Counselor Jaime Moniz": [
+            "Close relative"
+        ]
+    },
+    "years": {
+        "Século XVIII": [
+            "Birth"
+        ],
+        "1828": [
+            "Involvement in the jurisdiction that came to this island"
+        ],
+        "1829": [
+            "Sent to Lisbon"
+        ],
+        "1830": [
+            "Deportation to the archipelago of Cape Verde"
+        ],
+        "1835": [
+            "Appointment as governor of the bishopric of Cape Verde"
+        ],
+        "1841": [
+            "Appointment as bishop of the diocese of Cape Verde"
+        ],
+        "1844": [
+            "Receiving of episcopal consecration"
+        ],
+        "1847": [
+            "Arrival in Cape Verde and death"
+        ]
+    }
+}

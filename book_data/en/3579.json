@@ -1,0 +1,38 @@
+{
+    "id": 3579,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vaz (Padre Fernando Carlos de Meneses )",
+    "fl": "V",
+    "original_title": "Vaz (Padre Fernando Carlos de Meneses )",
+    "body": "Padre Fernando Carlos de Meneses. Born in the parish of Santana on February 1, 1884. He attended the Seminary of this diocese and was ordained a priest in 1909. He is currently the parish priest of the Porto da Cruz parish. In the Correio da Madeira, he published well-elaborated articles containing historical information about some parishes in the north of this island. In the parish archive of Faial, he recently discovered the birth record of the illustrious Madeiran João Fernandes Vieira, the parish of his birth being previously unknown, despite the painstaking investigations that had been made in that regard (1921).\n\nPadre Fernando Vaz, who devotes his leisure time to various genealogical studies intended for publication, is the grandson of the distinguished Madeiran genealogist João Agostinho Pereira de Agrela (volume I, page 20 and volume II, page 435).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santana",
+        "Porto da Cruz",
+        "Faial"
+    ],
+    "locations": {
+        "Santana": [
+            "Birthplace of Padre Fernando Carlos de Meneses"
+        ]
+    },
+    "people": {
+        "Padre Fernando Carlos de Meneses": [
+            "Parish priest of Porto da Cruz, grandson of the distinguished Madeiran genealogist João Agostinho Pereira de Agrela"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Birth of Padre Fernando Carlos de Meneses"
+        ],
+        "1909": [
+            "Ordination of priest of Padre Fernando Carlos de Meneses"
+        ],
+        "1921": [
+            "Discovery of the birth record of the illustrious Madeiran João Fernandes Vieira"
+        ]
+    }
+}

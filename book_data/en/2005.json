@@ -1,0 +1,31 @@
+{
+    "id": 2005,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lira (Padre Manuel de)",
+    "fl": "L",
+    "original_title": "Lira (Padre Manuel de)",
+    "body": "This Madeiran priest was held captive in Algiers for some time, where he provided great services to the other captives, treating and assisting them with the most evangelical charity. He belonged to an ancient family from Calheta, where he was born and where he passed away in the first half of the 17th century. He was a relative of Canon António Veloso de Lira (see this name).",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Algiers": [
+            "Location where he was held captive"
+        ]
+    },
+    "people": {
+        "Antonio Veloso de Lira": [
+            "Canon"
+        ]
+    },
+    "years": {
+        "17th century": [
+            "Period in which he passed away"
+        ]
+    }
+}

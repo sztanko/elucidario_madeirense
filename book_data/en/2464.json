@@ -1,0 +1,43 @@
+{
+    "id": 2464,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Ajuda (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Ajuda (Capela de)",
+    "body": "Almost on the edge of the road that leads from the Monumental Bridge to the town of Câmara de Lobos, is the chapel of Nossa Senhora da Ajuda, built by Fernão Favila on the estate he owned in São Martinho, establishing it as the seat of an entailed estate. This Fernão Favila was a nobleman of the royal household and fought valiantly in Africa, later settling on this island, where he married Beatriz Pires. However, other genealogists affirm that it was Antonio Favila, son of Fernão Favila, who established the entailed estate of Piornais, with the seat in the chapel of Ajuda, where he is buried, having passed away in October 1545. Counselor Manuel José Vieira, being the owner of this chapel, carried out significant restorations in 1876, and it was blessed on August 16 of that year.\n\nIn 1916, the owner of this chapel, Manuel José de Perestrelo Favila Vieira, published a 15-page booklet entitled The Interdiction of the chapel of N. S. da Ajuda in the parish of São Martinho. Antecedents and exposition of facts, which deals with the interdict imposed on the same chapel by the diocesan prelate D. António Manuel Pereira Ribeiro, due to the refusal of the prelate's visit to this chapel, on the occasion of the canonical visitation he made to the parish of São Martinho in 1916. A few months later, the interdict was lifted, and the chapel was restored to the service of worship.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Town near the chapel of Nossa Senhora da Ajuda"
+        ],
+        "São Martinho": [
+            "Location of the chapel of Nossa Senhora da Ajuda"
+        ]
+    },
+    "people": {
+        "Fernão Favila": [
+            "Nobleman of the royal household and founder of the entailed estate of Piornais"
+        ],
+        "Antonio Favila": [
+            "Son of Fernão Favila, founder of the entailed estate of Piornais"
+        ]
+    },
+    "years": {
+        "1545": [
+            "Death of Antonio Favila"
+        ],
+        "1876": [
+            "Year of significant restorations in the chapel"
+        ],
+        "1916": [
+            "Interdiction of the chapel of N. S. da Ajuda in the parish of São Martinho"
+        ]
+    }
+}

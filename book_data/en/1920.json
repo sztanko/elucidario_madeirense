@@ -1,0 +1,43 @@
+{
+    "id": 1920,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lambert (Count of)",
+    "fl": "L",
+    "original_title": "Lambert (Conde de)",
+    "body": "General Count Alexandre Carlos de Lambert, aide-de-camp to the Empress of Russia, spent some time in Madeira, having acquired the Quinta das Angústias, on Rua da Imperatriz D. Amélia, as his residence.## It is said that Count Lambert had a serious conflict in Poland with a Russian general, whose name we do not know, and both agreed that the one who drew the short straw should commit suicide by taking a poisonous potion. As luck would have it, the general was the unfortunate one, and immediately fulfilled the foolish obligation, with the Count withdrawing shortly afterwards to Madeira, immensely displeased with the outcome of the conflict in which he had become involved.## Count Lambert, who was born around 1816, was in Madeira in 1863, having visited Lisbon and London that year, but returning to Madeira in September. He passed away around 1866.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island"
+        ],
+        "Poland": [
+            "Country"
+        ],
+        "Lisbon": [
+            "City"
+        ],
+        "London": [
+            "City"
+        ]
+    },
+    "people": {
+        "Alexandre Carlos de Lambert": [
+            "Aide-de-camp to the Empress of Russia"
+        ]
+    },
+    "years": {
+        "1816": [
+            "Birth of Alexandre Carlos de Lambert"
+        ],
+        "1863": [
+            "Visit to Madeira"
+        ],
+        "1866": [
+            "Death of Alexandre Carlos de Lambert"
+        ]
+    }
+}

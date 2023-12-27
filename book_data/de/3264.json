@@ -1,0 +1,44 @@
+{
+    "id": 3264,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Vicente (Gemeindegericht)",
+    "fl": "S",
+    "original_title": "São Vicente (Julgado Municipal de)",
+    "body": "Das Gemeindegericht São Vicente mit Sitz in der gleichnamigen Gemeinde und Stadt wurde per Dekret vom 24. Oktober 1931 geschaffen und umfasst die Gemeinden São Vicente, Ponta Delgada und Boaventura, die zusammen die entsprechende Gemeinde bilden. 1926 war der Gerichtsbezirk São Vicente aufgehoben worden, der durch Dekret vom 12. November 1875 eingerichtet und am 16. November 1876 in Betrieb genommen worden war.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ponta Delgada",
+        "Boaventura"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Stadt"
+        ],
+        "Ponta Delgada": [
+            "Gemeinde"
+        ],
+        "Boaventura": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "D. Manuel": [
+            "Der König"
+        ]
+    },
+    "years": {
+        "1931": [
+            "Gründung des Gemeindegerichts São Vicente"
+        ],
+        "1926": [
+            "Auflösung des Gerichtsbezirks São Vicente"
+        ],
+        "1875": [
+            "Einrichtung des Gerichtsbezirks São Vicente"
+        ]
+    }
+}

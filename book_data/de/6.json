@@ -1,0 +1,45 @@
+{
+    "id": 6,
+    "lang": "de",
+    "is_original": false,
+    "title": "Abreu",
+    "fl": "A",
+    "original_title": "Abreu",
+    "body": "Die erste Person, die auf dieser Insel diesen Nachnamen zu verwenden scheint, war Brites oder Beatriz de Abreu, Tochter von Rui de Abreu, Oberbefehlshaber von Elvas, die João Fernandes do Arco heiratete, so genannt wegen des Besitzes vieler Ländereien in Arco da Calheta, über den wir in einem besonderen Artikel sprechen werden. Ihre Kinder nahmen den Nachnamen der Mutter an und einige von ihnen zeichneten sich in Afrika und Indien aus. Zu den Töchtern gehören die berühmte Isabel de Abreu (siehe diesen Namen) und Águeda de Abreu, Ehefrau von João Esmeraldo, dem Besitzer der Lombada da Ponta do Sol. Dieser Familie gehört António de Abreu an, der Entdecker der Molukken. (Siehe diesen Namen).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Lombada da Ponta do Sol"
+    ],
+    "locations": {
+        "Elvas": [
+            "Stadt in Portugal"
+        ],
+        "Arco da Calheta": [
+            "Ort auf Madeira"
+        ],
+        "Lombada da Ponta do Sol": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Brites ou Beatriz de Abreu": [
+            "Tochter von Rui de Abreu, Oberbefehlshaber von Elvas"
+        ],
+        "João Fernandes do Arco": [
+            "Besitzer vieler Ländereien in Arco da Calheta"
+        ],
+        "Isabel de Abreu": [
+            "Berühmte Figur"
+        ],
+        "Águeda de Abreu": [
+            "Ehefrau von João Esmeraldo, dem Besitzer der Lombada da Ponta do Sol"
+        ],
+        "António de Abreu": [
+            "Entdecker der Molukken"
+        ]
+    },
+    "years": {}
+}

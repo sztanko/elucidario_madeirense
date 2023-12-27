@@ -1,0 +1,33 @@
+{
+    "id": 1391,
+    "lang": "en",
+    "is_original": false,
+    "title": "Figueira (Dr. João Joaquim)",
+    "fl": "F",
+    "original_title": "Figueira (Dr. João Joaquim)",
+    "body": "He graduated in 1837 from the Faculty of Medicine in Montpellier, defending the thesis Etude de l'accouchement premature artificiel, which he printed in a 59-page pamphlet. He rendered outstanding services in France during a cholera epidemic and was therefore honored with a medal of honor. In Madeira, where he practiced clinical medicine for many years, he was the physician of the Funchal Municipal Council party. He died in 1859 or shortly thereafter.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Montpellier": [
+            "Location of the medical school"
+        ]
+    },
+    "people": {
+        "Dr. João Joaquim Figueira": [
+            "Physician"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Graduation from the medical school"
+        ],
+        "1859": [
+            "Death"
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "id": 1666,
+    "lang": "de",
+    "is_original": false,
+    "title": "Guindaste (Ponta do)",
+    "fl": "G",
+    "original_title": "Guindaste (Ponta do)",
+    "body": "Diese Küstenvorsprung liegt in der Gemeinde Gaula, nicht weit entfernt vom kleinen Hafen Porto Novo.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Ponta do": [
+            "Gemeinde Gaula"
+        ],
+        "Porto Novo": [
+            "Kleiner Hafen"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

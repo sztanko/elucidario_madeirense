@@ -1,0 +1,38 @@
+{
+    "id": 2519,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora das Preces (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora das Preces (Capelas de)",
+    "body": "No altar da capela das Preces da freguesia de Santo António, se lê a data de 1708, que é provavelmente a da sua construção. Julgamos que esta capela era de instituição vincular, sendo em 1770 seu administrador o capitão Rodrigo da Costa e em 1796 o morgado Joaquim Manuel de França. A capela e a casa anexa foram reconstruídas em 1856 pela sua então proprietária D. Joana de Albuquerque e França, que ali faleceu a 12 de Fevereiro de 1884. Esta capela deu o nome ao sítio em que foi erigida.\n\nO padre Francisco de Canha e Mendonça fez construir, na freguesia de Câmara de lobos, a capela de Nossa Senhora das Preces, no sítio que depois tomou este nome. Data a sua fundação do ano de 1683. Ainda existe, mas conserva-se fechada ao exercício do culto.\n\nNa freguesia de Machico se encontra uma capela dedicada também a Nossa Senhora das Preces, cuja data de construção ignoramos e que foi reedificada por António Tiago da Silva, no ano de 1884.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Câmara de lobos",
+        "Machico"
+    ],
+    "locations": {
+        "Santo António": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Câmara de lobos": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Machico": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Francisco de Canha e Mendonça": [
+            "Padre"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Data provável de construção da capela das Preces"
+        ]
+    }
+}

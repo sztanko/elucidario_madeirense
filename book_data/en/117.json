@@ -1,0 +1,41 @@
+{
+    "id": 117,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alcohol",
+    "fl": "A",
+    "original_title": "Álcool",
+    "body": "Alcohol has been used for a long time in the treatment of traditional Madeira wines, giving them the special flavor and bouquet that characterize them. It mainly came from the direct distillation of sugarcane or molasses from sugar production. The Bourbon cane yielded one gallon of brandy at 30 degrees Cartier for every 34 kilograms, and this brandy was sold for 1,000 réis per gallon for the wines, many of which were exported abroad. Some alcohol was also extracted from imported molasses, which was subject to a duty of 23 réis per kilogram.\n\nWith the disappearance of sugarcane from Madeira, the island began to import alcohol from the Azores, but continued to import a lot of molasses from abroad for this purpose. In 1900, Madeira still imported about 2,000 ponches of molasses (each ponche holds 100 to 120 gallons), each of which produced 40 to 50 gallons of alcohol at 40 degrees (restilo).\n\nThe decree of September 24, 1903 reduced the duty on foreign molasses imported for alcohol from 30 réis to 6 réis per kilogram, and the decree of March 11, 1911 maintained this reduction in cases where there was a shortage of sugarcane alcohol, or when the sugar production residues were not enough for the extraction of alcohol intended for wine tempering. This latter decree also established that the price of alcohol intended for wine treatment could not exceed 2.60 réis per centesimal degree and per liter at a temperature of 15 degrees.\n\nOnly the companies dedicated to the sugar and alcohol industry in Madeira are allowed, under the current regime, to produce alcohol for winemaking and pharmaceutical uses. It is a product distinguished by its exceptional purity.\n\n“Decree No. 23,847 of May 14, 1934, only allows the distillation of alcohol directly from sugarcane juice when there is no or it is anticipated that there will be no sugar production residues for the necessary alcohol. Decree No. 27,912 of July 31, 1937, in order to promote a fair balance between the prices of sugarcane and alcohol and brandy, set the price at 7.50$ for each liter of alcohol sold by the factory to the central warehouse of the Customs, which will then supply it to the winegrowers, wine exporters, and pharmacies, with an increase of 50 cents per liter.\n\nThe quantities of alcohol produced by the registered factories from 1912 to 1917 are shown in the following table:\n\n| Year | Quantity, Liters |\n|------|------------------|\n| 1912 | 729,543 |\n| 1913 | 769,064 |\n| 1914 | 737,725 |\n| 1915 | 552,901 |\n| 1916 | 813,235 |\n| 1917 | 497,505 |\n\nThe decree of March 11, 1911 and the Regulation of Production and Trade of Madeira Wines, approved by decree of November 8, 1913, set the quantity of alcohol to be used in every 500 liters of wine at 55 liters, but it is worth noting that wine not intended for export often undergoes incomplete alcoholization, with cases where no alcohol is added. The regulation of March 11, 1909 had limited the sale of any alcohol for winemaking to 50 liters per 500 liters of wine.",
+    "categories": [
+        "economy",
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island that began to import alcohol from the Azores and continued to import molasses from abroad for alcohol production"
+        ],
+        "Azores": [
+            "Location from which Madeira began to import alcohol"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1900": [
+            "Imported about 2,000 ponches of molasses"
+        ],
+        "1903": [
+            "Decree reduced the duty per kilogram of foreign molasses imported for alcohol"
+        ],
+        "1911": [
+            "Decree maintained the reduction of the duty per kilogram of foreign molasses and established the maximum price of alcohol for winemaking"
+        ],
+        "1934": [
+            "Decree allowed the distillation of alcohol directly from sugarcane juice under certain conditions"
+        ],
+        "1937": [
+            "Decree set the price per liter of alcohol sold by the factory to the central warehouse of the Customs"
+        ]
+    }
+}

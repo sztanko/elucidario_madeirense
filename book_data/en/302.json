@@ -1,0 +1,27 @@
+{
+    "id": 302,
+    "lang": "en",
+    "is_original": false,
+    "title": "Real Vinicultural Association of Madeira",
+    "fl": "R",
+    "original_title": "Associação Vinícola da Madeira (Real)",
+    "body": "This association, founded in 1900, lasted a short time, with the Municipal Council granting it an annual subsidy of 100,000 reis on October 11 of that year. On July 12, 1909, a meeting was held to discuss the organization of a wine company or association in Madeira, but despite the goodwill shown by some landowners, the company was not established, thus the island continued to suffer the disastrous effects of the fatal decline in the price of its wines. As early as May 6, 1774, there was consideration for the creation of a wine company in Madeira, as a letter was read in a session of the Municipal Council alluding to the advantages that would result for our island from the establishment of a company or society that would advocate for the interests of Madeiran viticulture.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1900": [
+            "Foundation of the Real Vinicultural Association of Madeira"
+        ],
+        "1909": [
+            "Meeting to organize a wine company or association in Madeira"
+        ],
+        "1774": [
+            "Consideration for the creation of a wine company in Madeira"
+        ]
+    }
+}

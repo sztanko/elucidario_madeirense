@@ -1,0 +1,36 @@
+{
+    "id": 670,
+    "lang": "de",
+    "is_original": false,
+    "title": "Camacho (Jacinto Augusto)",
+    "fl": "C",
+    "original_title": "Camacho (Jacinto Augusto)",
+    "body": "Er war der Sohn von Oberst Antonio Fernandes Camacho und wurde am 3. Januar 1815 in Funchal geboren. Nachdem er mit seiner Familie auf die Azoren emigriert war, um den Verfolgungen der Miguelisten zu entgehen, meldete er sich dort als Kadett im 3. Jägerbataillon und begleitete die Expedition, die in Mindelo an Land ging. Er zeichnete sich in mehreren Kämpfen aus und gehörte zu den Streitkräften, die unter dem Kommando des Herzogs von Terceira nach Algarve geschickt wurden. Er besaß die Medaille der Freiheitskämpfe, den Orden von Aviz und das Gewand der Empfängnis. Nach seiner Beförderung zum Fähnrich im Jahr 1832 erreichte er am 8. Mai 1877 den Rang eines Brigadegenerals und starb am 7. Juni 1885 in der Stadt Porto.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antonio Fernandes Camacho": [
+            "Oberst"
+        ],
+        "Herzog von Terceira": [
+            "Kommandant"
+        ]
+    },
+    "years": {
+        "1815": [
+            "Geburt von Jacinto Augusto Camacho"
+        ],
+        "1832": [
+            "Beförderung zum Fähnrich"
+        ],
+        "1877": [
+            "Beförderung zum Brigadegeneral"
+        ],
+        "1885": [
+            "Tod von Jacinto Augusto Camacho"
+        ]
+    }
+}

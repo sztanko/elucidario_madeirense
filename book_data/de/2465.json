@@ -1,0 +1,31 @@
+{
+    "id": 2465,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Freude (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Alegria (Capela de)",
+    "body": "In der Gemeinde São Roque, an dem als Alegria bekannten Ort, liegt das gleichnamige Anwesen mit Haus und Kapelle Unserer Lieben Frau der Freude, die der Familie der Grafen von Torre Bela gehören. Diese Kapelle wurde 1609 von Francisco de Abreu gegründet. Dort findet jährlich ein Fest statt, das von den Menschen der Umgebung sehr gut besucht wird.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque"
+    ],
+    "locations": {
+        "São Roque": [
+            "Standort der Kapelle Unserer Lieben Frau der Freude"
+        ]
+    },
+    "people": {
+        "Francisco de Abreu": [
+            "Gründer der Kapelle im Jahr 1609"
+        ]
+    },
+    "years": {
+        "1609": [
+            "Gründung der Kapelle"
+        ]
+    }
+}

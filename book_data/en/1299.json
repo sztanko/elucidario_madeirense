@@ -1,0 +1,31 @@
+{
+    "id": 1299,
+    "lang": "en",
+    "is_original": false,
+    "title": "Facheiro",
+    "fl": "F",
+    "original_title": "Facheiro",
+    "body": "In the primitive military system for coastal defense, there was the position of 'facheiro', responsible for lighting fires on the hilltops to warn the settlements that enemy sails were in sight. This practice lasted until the government of D. Diogo Pereira Forjaz Coutinho, and it is remembered by the name of Pico do Facho, in Machico and Porto Santo.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Pico do Facho": [
+            "Location in Machico and Porto Santo"
+        ]
+    },
+    "people": {
+        "D. Diogo Pereira Forjaz Coutinho": [
+            "Governor until 1801"
+        ]
+    },
+    "years": {
+        "1801": [
+            "End of the position of facheiro"
+        ]
+    }
+}

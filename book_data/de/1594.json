@@ -1,0 +1,32 @@
+{
+    "id": 1594,
+    "lang": "de",
+    "is_original": false,
+    "title": "Goldschmidt (Julius)",
+    "fl": "G",
+    "original_title": "Goldschmidt (Julius)",
+    "body": "Dieser deutsche Arzt, der viele Jahre lang in Funchal lebte, wohnte in Paris, wo er eine große Praxis hatte, als 1914 der Krieg ausbrach. Er beschäftigte sich mit madeirischen Themen und veröffentlichte die Broschüren \"Die Lepra auf Madeira\", 1891, \"Madère Étudiée comme station d'hiver\", 1880, und \"Madère étudiée comme station d'hiver et d'été\", 1884. Er starb 1924.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Wohnort"
+        ]
+    },
+    "people": {
+        "Julius Goldschmidt": [
+            "Deutscher Arzt"
+        ]
+    },
+    "years": {
+        "1914": [
+            "Kriegsausbruch"
+        ],
+        "1924": [
+            "Tod"
+        ]
+    }
+}

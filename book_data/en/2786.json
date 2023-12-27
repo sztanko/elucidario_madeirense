@@ -1,0 +1,32 @@
+{
+    "id": 2786,
+    "lang": "en",
+    "is_original": false,
+    "title": "Piedade",
+    "fl": "P",
+    "original_title": "Piedade",
+    "body": "Piedade is a populated place in the parish of Jardim do Mar, where the chapel of Nossa Senhora da Piedade with an adjacent manor is located, belonging to the entailed estate of the Coutos Cardosos family. It was established in 1730 by the trustee João do Couto Cardoso and rebuilt by his successor Francisco João de Vasconcelos de Couto Cardoso in 1825.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Jardim do Mar"
+    ],
+    "locations": {},
+    "people": {
+        "João do Couto Cardoso": [
+            "Founder of the chapel"
+        ],
+        "Francisco João de Vasconcelos de Couto Cardoso": [
+            "Rebuilder of the chapel"
+        ]
+    },
+    "years": {
+        "1730": [
+            "Establishment of the chapel"
+        ],
+        "1825": [
+            "Rebuilding of the chapel"
+        ]
+    }
+}

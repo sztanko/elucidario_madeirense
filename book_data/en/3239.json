@@ -1,0 +1,30 @@
+{
+    "id": 3239,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Lázaro Chapel",
+    "fl": "S",
+    "original_title": "São Lázaro (Capela de)",
+    "body": "There was a chapel of this invocation in the parish of Santa Cruz, which was instituted by João Afonso Escudeiro at the beginning of the 16th century (See Bemposta).\n\nThe chapel of the former Saint Lazarus hospital, now a civil prison (1921), has the same invocation.\n\nSee Saint Lazarus Hospital.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Located in the parish of Santa Cruz"
+        ]
+    },
+    "people": {
+        "João Afonso Escudeiro": [
+            "Institutor of the chapel dedicated to São Lázaro in the parish of Santa Cruz"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Institution of the chapel dedicated to São Lázaro in the parish of Santa Cruz"
+        ]
+    }
+}

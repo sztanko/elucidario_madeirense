@@ -1,0 +1,34 @@
+{
+    "id": 1241,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Escola de Geometria e Trigonometria",
+    "fl": "E",
+    "original_title": "Escola de Geometria e Trigonometria",
+    "body": "Nos fins de 1760 e especialmente destinada aos que seguiam a carreira das armas, criou-se no Funchal uma Escola de Geometria e Trigonometria, que se instalou no Colégio dos Jesuítas, hoje quartel do batalhão de infantaria n. 19 e que teve como primeiros professores o sargento-mor Francisco de Alincourt e o engenheiro Francisco Salustiano da Costa. Passados nove anos, isto é, em 1769, o governador e capitão - general João Antonio de Sá Pereira, comunicava ao governo da metrópole os bons resultados obtidos com o funcionamento desta escola. Ignoramos quando deixou de existir e quaisquer outras circunstâncias que lhe digam respeito.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco de Alincourt": [
+            "Primeiro professor da Escola de Geometria e Trigonometria"
+        ],
+        "Francisco Salustiano da Costa": [
+            "Primeiro professor da Escola de Geometria e Trigonometria"
+        ],
+        "João Antonio de Sá Pereira": [
+            "Governador e capitão-general que comunicou os bons resultados da escola ao governo da metrópole"
+        ]
+    },
+    "years": {
+        "1760": [
+            "Criação da Escola de Geometria e Trigonometria no Funchal"
+        ],
+        "1769": [
+            "Comunicação de bons resultados da escola ao governo da metrópole"
+        ]
+    }
+}

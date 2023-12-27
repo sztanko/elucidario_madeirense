@@ -1,0 +1,33 @@
+{
+    "id": 1583,
+    "lang": "en",
+    "is_original": false,
+    "title": "Giraldes",
+    "fl": "G",
+    "original_title": "Giraldes",
+    "body": "This surname was brought by the Florentine Dr. Pedro Giraldes, who lived in Calheta from 1500 to 1535, and in the latter year he established the Misericordia there, of which he was the first provider.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Place where Dr. Pedro Giraldes lived"
+        ]
+    },
+    "people": {
+        "Dr. Pedro Giraldes": [
+            "Lived in Calheta and established the Misericordia"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Start of the period in which Dr. Pedro Giraldes lived in Calheta"
+        ],
+        "1535": [
+            "End of the period in which Dr. Pedro Giraldes lived in Calheta"
+        ]
+    }
+}

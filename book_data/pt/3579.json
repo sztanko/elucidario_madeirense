@@ -1,0 +1,38 @@
+{
+    "id": 3579,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vaz (Padre Fernando Carlos de Meneses )",
+    "fl": "V",
+    "original_title": "Vaz (Padre Fernando Carlos de Meneses )",
+    "body": "Padre Fernando Carlos de Meneses. Nasceu na freguesia de Santana a 1 de Fevereiro de 1884. Cursou o Seminário desta diocese e ordenou-se de presbítero no ano de 1909. É actualmente pároco da freguesia do Porto da Cruz. No Correio da Madeira, publicou uns bem elaborados artigos, contendo notícias históricas acerca de algumas freguesias do norte desta ilha. No arquivo paroquial do Faial, descobriu há pouco o assento de nascimento do ilustre madeirense João Fernandes Vieira, sendo antes disso desconhecida a freguesia da sua naturalidade, apesar das aturadas investigações que nesse sentido tinham sido feitas (1921).\n\nO Padre Fernando Vaz, que consagra os seus ócios a diversos estudos genealógicos destinados a ser publicados, é neto do distinto linhagista madeirense João Agostinho Pereira de Agrela (volume I, página 20 e volume II, página 435).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santana",
+        "Porto da Cruz",
+        "Faial"
+    ],
+    "locations": {
+        "Santana": [
+            "Local de nascimento de Padre Fernando Carlos de Meneses"
+        ]
+    },
+    "people": {
+        "Padre Fernando Carlos de Meneses": [
+            "Pároco da freguesia do Porto da Cruz, neto do distinto linhagista madeirense João Agostinho Pereira de Agrela"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Nascimento de Padre Fernando Carlos de Meneses"
+        ],
+        "1909": [
+            "Ordenação de presbítero de Padre Fernando Carlos de Meneses"
+        ],
+        "1921": [
+            "Descoberta do assento de nascimento do ilustre madeirense João Fernandes Vieira"
+        ]
+    }
+}

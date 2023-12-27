@@ -1,0 +1,44 @@
+{
+    "id": 3264,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Vicente (Julgado Municipal de)",
+    "fl": "S",
+    "original_title": "São Vicente (Julgado Municipal de)",
+    "body": "O julgado Municipal de São Vicente, com sede na freguesia e vila do mesmo nome, foi criado por decreto de 24 de Outubro de 1931 e compreende as freguesias de São Vicente, Ponta Delgada e Boaventura, que constituem o respectivo concelho. No ano de 1926 fôra extinta a comarca de São Vicente, que tinha sido estabelecida por decreto de 12 de Novembro de 1875 e cuja instalação se fizera no dia 16 de Novembro de 1876.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ponta Delgada",
+        "Boaventura"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Vila"
+        ],
+        "Ponta Delgada": [
+            "Freguesia"
+        ],
+        "Boaventura": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "D. Manuel": [
+            "El-rei"
+        ]
+    },
+    "years": {
+        "1931": [
+            "Criação do julgado Municipal de São Vicente"
+        ],
+        "1926": [
+            "Extinção da comarca de São Vicente"
+        ],
+        "1875": [
+            "Estabelecimento da comarca de São Vicente"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 1894,
+    "lang": "en",
+    "is_original": false,
+    "title": "Justiça (A)",
+    "fl": "J",
+    "original_title": "Justiça (A)",
+    "body": "It began to be published on March 27, 1858, and ended its publication on June 26, 1861, with issue 166. Its editor was Bernardo Francisco Lobato Machado.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Bernardo Francisco Lobato Machado": [
+            "Editor of the publication."
+        ]
+    },
+    "years": {
+        "1858": [
+            "Start of publication"
+        ],
+        "1861": [
+            "End of publication"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 224,
+    "lang": "de",
+    "is_original": false,
+    "title": "Anjos",
+    "fl": "A",
+    "original_title": "Anjos",
+    "body": "Diesen Ort in der Gemeinde Canhas hat die Kapelle Unserer Lieben Frau der Engel ihren Namen gegeben, die ziemlich alt ist und laut einigen auf Geheiß der Infantin D. Beatriz als Vormund ihres Sohnes, des Großmeisters des Christusordens, dem Madeira im Geistlichen unterstand, und laut anderen von Martins Afonso im Jahr 1508 errichtet wurde. Das Bild, das in dieser Kapelle verehrt wurde, war sehr beliebt und Pater Agostinho de Santa Maria befasst sich damit im 10. Band seines Marienheiligtums. Der Ort Anjos, der sehr fruchtbar ist und die Küste der Gemeinde Canhas bildet, war früher integraler Bestandteil der Pfarrei Ponta do Sol.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Canhas",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Canhas": [
+            "Gemeinde, in der sich der Ort Anjos befindet"
+        ],
+        "Ponta do Sol": [
+            "Pfarrei, zu der der Ort Anjos früher gehörte"
+        ]
+    },
+    "people": {
+        "D. Beatriz": [
+            "Mögliche Auftraggeberin für den Bau der Kapelle Unserer Lieben Frau der Engel"
+        ],
+        "Martins Afonso": [
+            "Möglicher Auftraggeber für den Bau der Kapelle Unserer Lieben Frau der Engel"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Mögliches Baujahr der Kapelle Unserer Lieben Frau der Engel"
+        ]
+    }
+}

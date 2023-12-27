@@ -1,0 +1,25 @@
+{
+    "id": 1045,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Costa de Baixo",
+    "fl": "C",
+    "original_title": "Costa de Baixo",
+    "body": "A costa maritima da Madeira, que fica a oeste do Funchal, é comummente chamada Costa de Baixo, compreendendo esta designação tôdas as freguesias que se encontram na mesma costa, e que são as que constituem os concelhos de Camara de Lôbos, Ribeira Brava Ponta do Sol e Calheta.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Camara de Lôbos",
+        "Ribeira Brava",
+        "Ponta do Sol",
+        "Calheta"
+    ],
+    "locations": {
+        "Funchal": [
+            "Ponto de referência"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

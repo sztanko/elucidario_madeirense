@@ -1,0 +1,37 @@
+{
+    "id": 2852,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ponta do Tristão",
+    "fl": "P",
+    "original_title": "Ponta do Tristão",
+    "body": "It is located in the parish of Porto do Moniz and a short distance from Santa Maria Madalena. On both sides of it, there are some beaches with large pebbles, which are very poor landing places.\n\nPonta do Tristão constituted one of the boundaries of the division of the two captaincies of Funchal and Machico, as we have already mentioned elsewhere (1-244).\n\nBoth the point and the nearby Tristão stream, which separates the parish of Porto Moniz from the parish of Achadas, have only recently been explored from a botanical point of view, where the naturalist J. Gonçalves da Costa found the *Beta vulgaris var. maritima*, the *Ononis Costae*, the *Carex pendula*, the *Carex elata*, the *Allium vineale*, the *Polypodium drepanum*, etc. etc..",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Porto do Moniz",
+        "Santa Maria Madalena",
+        "Achadas"
+    ],
+    "locations": {
+        "Ponta do Tristão": [
+            "Parish of Porto do Moniz"
+        ],
+        "Santa Maria Madalena": [
+            "Short distance"
+        ],
+        "Porto Moniz": [
+            "Parish of Porto Moniz"
+        ],
+        "Achadas": [
+            "Parish of Achadas"
+        ]
+    },
+    "people": {
+        "J. Gonçalves da Costa": [
+            "Naturalist"
+        ]
+    },
+    "years": {}
+}

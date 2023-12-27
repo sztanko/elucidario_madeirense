@@ -1,0 +1,43 @@
+{
+    "id": 1439,
+    "lang": "de",
+    "is_original": false,
+    "title": "Festung S. Tiago",
+    "fl": "F",
+    "original_title": "Fortaleza de S. Tiago",
+    "body": "Sie wurde während der philippinischen Herrschaft auf einer Felsspitze östlich des Hafens errichtet. Über dem ursprünglichen Portal ist das Datum 1614 angegeben. Nach der Restauration wurde sie vergrößert und erhielt eine neue Außenmauer und ein Außentor als Abschluss der Stadtmauern. 1697 wurde Manuel Telo Catanho de Meneses zum Ehrenhauptmann dieser Festung ernannt, mit der Verpflichtung, sie sauber und mit Wachen zu halten. 1767 wurde sie erneut modifiziert, wie aus einer dort befindlichen Inschrift hervorgeht: \"Diese Festung wurde wiederaufgebaut und erweitert, als José Correia de Sá Gouverneur und Generalkapitän dieser Insel war. Für die Festung ließ er 1767 fünfzig Kanonen mit aller Munition aus London kommen.\n\nAls die englischen Truppen Madeira zu Beginn des letzten Jahrhunderts besetzten, wurde die Festung von britischen Artilleristen bemannt. 1803 war dort der Grundbesitzer João de Freitas da Silva inhaftiert, der aus dem Kloster S. Bernardino geflohen war, \"wohin er geschickt worden war, um in den Grundlagen der christlichen Lehre unterwiesen zu werden\" - ein interessantes Dokument, das im Heraldo da Madeira Nr. 441 veröffentlicht wurde.\n\nDerzeit dient sie als Kaserne für die 3. Gebirgsartilleriebatterie. (1921)",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "S. Bernardino"
+    ],
+    "locations": {
+        "London": [
+            "Hauptstadt des Vereinigten Königreichs"
+        ]
+    },
+    "people": {
+        "Manuel Telo Catanho de Meneses": [
+            "Ehrenhauptmann"
+        ],
+        "José Correia de Sá": [
+            "Gouverneur und Generalkapitän der Insel"
+        ],
+        "João de Freitas da Silva": [
+            "Grundbesitzer"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Bau der Festung"
+        ],
+        "1697": [
+            "Ernennung von Manuel Telo Catanho de Meneses zum Ehrenhauptmann"
+        ],
+        "1767": [
+            "Wiederaufbau und Erweiterung der Festung"
+        ]
+    }
+}

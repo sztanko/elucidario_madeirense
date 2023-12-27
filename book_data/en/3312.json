@@ -1,0 +1,38 @@
+{
+    "id": 3312,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sena Freitas (Cónego José Joaquim)",
+    "fl": "S",
+    "original_title": "Sena Freitas (Cónego José Joaquim)",
+    "body": "This well-known writer and orator was born on the island of São Miguel in 1840 and died in the city of Rio de Janeiro on December 22, 1913. He visited Funchal many times and delivered several speeches here, some of which are included in his work 'The Word of the Sower'. In the pamphlet 'The News' at the pillory, he addresses various matters concerning Madeira. Canon Sena Freitas wrote some beautiful descriptive articles about Funchal. His mortal remains, brought from Brazil, were temporarily placed in the old chapel of Santa Isabel at the Hospital da Misericórdia do Funchal for a few days, where solemn funeral rites were held. On March 2, 1925, they were transported to the island of São Miguel, where they were laid to rest.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Miguel": [
+            "Birthplace"
+        ],
+        "Funchal": [
+            "Frequent visits to Funchal"
+        ]
+    },
+    "people": {
+        "Cónego José Joaquim Sena Freitas": [
+            "Renowned writer and orator"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Birth on the island of São Miguel"
+        ],
+        "1913": [
+            "Death in the city of Rio de Janeiro"
+        ],
+        "1925": [
+            "Transport of mortal remains to the island of São Miguel"
+        ]
+    }
+}

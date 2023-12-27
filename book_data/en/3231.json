@@ -1,0 +1,36 @@
+{
+    "id": 3231,
+    "lang": "en",
+    "is_original": false,
+    "title": "São João de Latrão (Chapel of)",
+    "fl": "S",
+    "original_title": "São João de Latrão (Capela de)",
+    "body": "This chapel, which was completely demolished about twenty years ago (1921) and had long been in ruins, was located in the place that gave it its name. It was ordered to be built by Nuno Fernandes Cardoso and his wife Leonor Dias, who, by will made in 1511, established the entail of São João de Latrão, which took the name of the chapel that served as its headquarters. Referring to this will, the annotator of *Saudades* says: \"This will, of which we have a copy, is a model of its kind, for its sound probity, ingenuous belief, and virtuous pride that dictated it. The moral and historical reasons for the entails have in that venerable diploma a most honorable and commendable standard. The pure type of the entail institutions is there. Our time cannot accept them, it is evident. But the fair and enlightened historian judges by another more subtle and elevated measure than the mere comparison of the past with the present\".\n\nThe last representative of this entailed house was Nuno Fernandes Cardoso e Vasconcelos, grandfather of Luis Cardoso de Castro e Abreu, the current parish priest of Gaula (1921).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Gaula": [
+            "Parish of Gaula"
+        ]
+    },
+    "people": {
+        "Nuno Fernandes Cardoso": [
+            "Ordered the construction of the chapel"
+        ],
+        "Leonor Dias": [
+            "Wife of Nuno Fernandes Cardoso"
+        ],
+        "Luis Cardoso de Castro e Abreu": [
+            "Current parish priest of Gaula"
+        ]
+    },
+    "years": {
+        "1511": [
+            "Will of Nuno Fernandes Cardoso and Leonor Dias"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 1680,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Heer (Dr. Osvaldo)",
+    "fl": "H",
+    "original_title": "Heer (Dr. Osvaldo)",
+    "body": "Botânico e paleontólogo suíço, que esteve na Madeira desde o inverno de 1850 á primavera de 1851. E.: Remarques sur la manière de végéter des arbres de l'Europe et des Etats Unis transportés à Madère (Bot. Zeitung 1853); Ueber die fossilen Pflanzen von St. George in Madeira (Zurich, 1855); e Der Renton-Garten in Funchal (Gartenflora Deutschlands und der Schweiz). Faleceu em Lausanne em 1883.",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde Dr. Osvaldo Heer esteve como botânico e paleontólogo"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1850": [
+            "Início da estadia de Dr. Osvaldo Heer na Madeira"
+        ],
+        "1851": [
+            "Término da estadia de Dr. Osvaldo Heer na Madeira"
+        ],
+        "1853": [
+            "Publicação de Remarques sur la manière de végéter des arbres de l'Europe et des Etats Unis transportés à Madère"
+        ],
+        "1855": [
+            "Publicação de Ueber die fossilen Pflanzen von St. George in Madeira"
+        ]
+    }
+}

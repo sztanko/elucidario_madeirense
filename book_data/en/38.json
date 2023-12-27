@@ -1,0 +1,28 @@
+{
+    "id": 38,
+    "lang": "en",
+    "is_original": false,
+    "title": "Achada",
+    "fl": "A",
+    "original_title": "Achada",
+    "body": "A small plateau in the parish of Camacha, near the parish church, within which there is an isolated tower with its clock and a small chapel dedicated to S. José, built in the year 1924. It is a picturesque place and quite popular with people visiting that parish. In the past, it was well known among foreigners residing in Madeira by the name of Jogo da Bola and was used for various sports. It provides access to the old and pleasant Grabham estate, where the local hotel is located.",
+    "categories": [
+        "geography",
+        "culture",
+        "sports"
+    ],
+    "freguesias": [
+        "Camacha"
+    ],
+    "locations": {
+        "Camacha": [
+            "Parish where the small plateau of Achada is located"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1924": [
+            "Year of construction of the small chapel dedicated to S. José"
+        ]
+    }
+}

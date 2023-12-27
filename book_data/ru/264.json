@@ -1,0 +1,35 @@
+{
+    "id": 264,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Армитидж (Элеонора)",
+    "fl": "А",
+    "original_title": "Armitage (Eleonora)",
+    "body": "Английский ботаник, которая коллекционировала растения на Мадейре в начале 1909 года.\nОна собрала коллекцию мхов, которую изучил Г. Н. Диксон. Армитидж написала следующие работы: Some Madeira Hepaficae (Журнал ботаники, 1910); Intensive Cultivation in Madeira (Журнал Королевского садоводческого общества, 1910); и On the Habitats and frequencies of some Madeira Bryophytes (Журнал экологии, VI, 1918).",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Место, где она собирала гербарий."
+        ]
+    },
+    "people": {
+        "Г. Н. Диксон": [
+            "Изучил собранную ею коллекцию мхов."
+        ]
+    },
+    "years": {
+        "1909": [
+            "Сбор гербария на Мадейре."
+        ],
+        "1910": [
+            "Публикация работ Some Madeira Hepaficae и Intensive Cultivation in Madeira."
+        ],
+        "1918": [
+            "Публикация работы On the Habitats and frequencies of some Madeira Bryophytes."
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 140,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cotton Plant",
+    "fl": "C",
+    "original_title": "Algodoeiro",
+    "body": "The cultivation of Gossypium herbaceum was attempted in Madeira in the early 19th century, and in a letter dated March 20, 1802, the then minister D. Rodrigo de Sousa Coutinho informed the Captain-General D. José Manuel da Câmara that the Prince Regent had learned with great satisfaction about the progress of this cultivation on the island. In 1863, new cotton plant seeds arrived in Madeira, but few farmers showed interest in the cultivation of this plant at that time. Gossypium arboreum also thrives in the lower region of Madeira, but both this species and G. Herbaceum seem to be perfectly extinct on the island.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Rodrigo de Sousa Coutinho": [
+            "Minister"
+        ],
+        "D. José Manuel da Câmara": [
+            "Captain-General"
+        ]
+    },
+    "years": {
+        "1802": [
+            "Letter dated March 20, in which the then minister D. Rodrigo de Sousa Coutinho informed the Captain-General D. José Manuel da Câmara that the Prince Regent had learned with great satisfaction about the progress of this cultivation on the island"
+        ],
+        "1863": [
+            "Arrival of new cotton plant seeds in Madeira"
+        ]
+    }
+}

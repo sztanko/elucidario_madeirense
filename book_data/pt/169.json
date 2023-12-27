@@ -1,0 +1,53 @@
+{
+    "id": 169,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almude",
+    "fl": "A",
+    "original_title": "Almude",
+    "body": "Esta antiga medida, a pesar de ilegal, ainda é usada na Madeira, principalmente na medição dos mostos e da garapa. Varia de concelho para concelho, e segundo as tabelas publicadas oficialmente em 1868, equivale o almude do concelho do Funchal, a 17,520; no concelho de Câmara de Lobos, a 17,580; no concelho da Ponta do Sol, a 17,400; no concelho da Calheta, a 17,352; no concelho de Santa Cruz, a 17,328; no concelho de Machico, a 17,568; no concelho do Porto Santo, a 17,556; no concelho de Sant'Ana, a 17,604; no concelho de S. Vicente, a 20,538, e no concelho do Porto Moniz, a 20,272. A média é 18 071, mas no concelho do Funchal considera-se geralmente o almude equivalente a 17 litros.",
+    "categories": [
+        "economy",
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "O almude equivale a 17,520"
+        ],
+        "Câmara de Lobos": [
+            "O almude equivale a 17,580"
+        ],
+        "Ponta do Sol": [
+            "O almude equivale a 17,400"
+        ],
+        "Calheta": [
+            "O almude equivale a 17,352"
+        ],
+        "Santa Cruz": [
+            "O almude equivale a 17,328"
+        ],
+        "Machico": [
+            "O almude equivale a 17,568"
+        ],
+        "Porto Santo": [
+            "O almude equivale a 17,556"
+        ],
+        "Sant'Ana": [
+            "O almude equivale a 17,604"
+        ],
+        "S. Vicente": [
+            "O almude equivale a 20,538"
+        ],
+        "Porto Moniz": [
+            "O almude equivale a 20,272"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1868": [
+            "Tabelas publicadas oficialmente sobre a equivalência do almude em diferentes concelhos"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 3178,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santana und Vasconcelos (João von)",
+    "fl": "S",
+    "original_title": "Santana e Vasconcelos (João de)",
+    "body": "Er wurde 1825 in Funchal geboren und begann seine öffentliche Laufbahn als Grundschullehrer in Porto Santo. 1856 wurde er zum kommissarischen Schreiber der Stadtverwaltung von Funchal ernannt und erhielt am 3. Januar 1859 durch königlichen Erlass die endgültige Ernennung für diesen Posten. Er arbeitete für madeirische Zeitungen wie A Discussão, A Madeira, O Semanário Official etc. mit und veröffentlichte in letzterer einige interessante Artikel über die Kolonie. Er war Ritter des Ordens vom Turm und Schwert für seine Verdienste während der Cholera-Epidemie von 1856 in Funchal und war jahrelang Chef der ehemaligen Regenerationspartei auf Madeira. Er starb am 27. Dezember 1892 in Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburts- und Sterbeort"
+        ]
+    },
+    "people": {
+        "João von Santana und Vasconcelos": [
+            "Grundschullehrer, kommissarischer Schreiber der Stadtverwaltung von Funchal, Mitarbeiter madeirischer Zeitungen, Chef der ehemaligen Regenerationspartei auf Madeira"
+        ]
+    },
+    "years": {
+        "1825": [
+            "Geburt"
+        ],
+        "1856": [
+            "Ernennung zum kommissarischen Schreiber der Stadtverwaltung von Funchal"
+        ],
+        "1859": [
+            "Endgültige Ernennung zum Schreiber"
+        ]
+    }
+}

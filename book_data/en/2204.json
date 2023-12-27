@@ -1,0 +1,32 @@
+{
+    "id": 2204,
+    "lang": "en",
+    "is_original": false,
+    "title": "Marquês de Pombal",
+    "fl": "M",
+    "original_title": "Marquês de Pombal",
+    "body": "On January 20, 1776, religious ceremonies of the greatest pomp were celebrated in the church of the College, in thanksgiving for the escape of the Marquês de Pombal from the planned crime by the Genoese João Baptista Pele, who was executed in Lisbon. Friar Inácio José de Varona preached, and to please the Marquês, represented in the same ceremony by his relative Governor Sá Pereira, he insinuated in his speech that the Jesuits should not have been strangers to the aforementioned crime. The expenses for the religious festivities were covered by the Royal Treasury of Madeira Island.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where the religious ceremonies took place."
+        ]
+    },
+    "people": {
+        "João Baptista Pele": [
+            "Genoese who planned the crime against the Marquês de Pombal."
+        ],
+        "Friar Inácio José de Varona": [
+            "Responsible for preaching at the religious ceremony."
+        ]
+    },
+    "years": {
+        "1776": [
+            "Year in which the religious ceremonies of thanksgiving took place."
+        ]
+    }
+}

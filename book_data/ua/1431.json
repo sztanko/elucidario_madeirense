@@ -1,0 +1,27 @@
+{
+    "id": 1431,
+    "lang": "ua",
+    "is_original": false,
+    "title": "Форель (доктор)",
+    "fl": "Ф",
+    "original_title": "Forel (Dr.)",
+    "body": "Він вивчав мурах Мадейрського архіпелагу в Mittheilungen der Schweiz Entom Gesellschaft. Види, вивчені доктором Форелем, були зібрані отцем Е. Шмітцем.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Архіпелаг"
+        ]
+    },
+    "people": {
+        "Доктор Форель": [
+            "Вчений"
+        ],
+        "Отець Е. Шмітц": [
+            "Відповідальний за збір видів"
+        ]
+    },
+    "years": {}
+}

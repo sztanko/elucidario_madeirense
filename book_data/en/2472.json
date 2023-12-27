@@ -1,0 +1,47 @@
+{
+    "id": 2472,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Boa Hora (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Hora (Capelas de)",
+    "body": "The chapel of Nossa Senhora da Boa Hora is located in the area of Torre, in the parish of Câmara de Lobos, and is owned by the Countess of Torre Bela (1921). It was founded by the landowner António Correia Bettencourt Berenguer. It had a private chaplain. With the same name, 'above this city', there was a chapel built in 1726 by Captain António de Carvalho Drumond and his wife D. Inacia Micaela Henriques, with the endowment deed dated May 22, 1726.\n\nIn the area of Fajã, in the parish of Arco da Calheta, a chapel was erected dedicated to N. S. da Boa Hora, of which only a few ruins remain.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Torre": [
+            "Area"
+        ],
+        "Câmara de Lobos": [
+            "Parish"
+        ],
+        "Fajã": [
+            "Area"
+        ],
+        "Arco da Calheta": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "António Correia Bettencourt Berenguer": [
+            "Founder of the chapel"
+        ],
+        "António de Carvalho Drumond": [
+            "Founder of the chapel"
+        ],
+        "D. Inacia Micaela Henriques": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1726": [
+            "Construction of the chapel by António de Carvalho Drumond"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 1459,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fothergill (Dr.)",
+    "fl": "F",
+    "original_title": "Fothergill (Dr.)",
+    "body": "He advised people affected by pulmonary diseases to seek the climate of Madeira, in a work titled 'On consumption medical observations, 1775.'",
+    "categories": [
+        "health",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Climate"
+        ]
+    },
+    "people": {
+        "Dr. Fothergill": [
+            "Physician"
+        ]
+    },
+    "years": {
+        "1775": [
+            "Publication of 'On consumption medical observations'"
+        ]
+    }
+}

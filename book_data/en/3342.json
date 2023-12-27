@@ -1,0 +1,46 @@
+{
+    "id": 3342,
+    "lang": "en",
+    "is_original": false,
+    "title": "Silva Pinheiro (Cónego Jerónimo Álvares da)",
+    "fl": "S",
+    "original_title": "Silva Pinheiro (Cónego Jerónimo Álvares da)",
+    "body": "He was born in the parish of Calheta in the year 1770 and died in this city on July 4, 1861. He was ordained a priest in 1795 and was a canon of our Cathedral, having held high ecclesiastical positions, such as vicar capitular and governor of this diocese. He was a distinguished and vigorous journalist and, under the pseudonym 'Estrela do Norte' (North Star), wrote many articles in the 'Patriota Funchalense,' the first newspaper published among us. He was arrested for being a supporter of liberal ideas, but managed to escape from prison and went into exile in Brazil, where he remained until the year 1834. He always enjoyed a great deal of prestige and influence on this island.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Birthplace of Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "Funchal": [
+            "Place of death of Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "Brasil": [
+            "Place of exile of Cónego Jerónimo Álvares da Silva Pinheiro"
+        ]
+    },
+    "people": {
+        "Cónego Jerónimo Álvares da Silva Pinheiro": [
+            "Priest, canon, and journalist"
+        ]
+    },
+    "years": {
+        "1770": [
+            "Year of birth of Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1795": [
+            "Year of ordination of Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1861": [
+            "Year of death of Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1834": [
+            "Year of return of Cónego Jerónimo Álvares da Silva Pinheiro from prison in Brazil"
+        ]
+    }
+}

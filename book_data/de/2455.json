@@ -1,0 +1,28 @@
+{
+    "id": 2455,
+    "lang": "de",
+    "is_original": false,
+    "title": "Norman (Kapitän Francisco N.)",
+    "fl": "N",
+    "original_title": "Norman (Capitão Francisco N.)",
+    "body": "Englischer Botaniker, der 1860 auf Madeira Pflanzen sammelte und dem Lowe die Gattung Normania widmete, die später in die Gattung Solanum aufgenommen wurde.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem er Pflanzen sammelte"
+        ]
+    },
+    "people": {
+        "Lowe": [
+            "Widmete die Gattung Normania, die später in die Gattung Solanum aufgenommen wurde"
+        ]
+    },
+    "years": {
+        "1860": [
+            "Pflanzensammlung auf Madeira"
+        ]
+    }
+}

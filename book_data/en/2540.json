@@ -1,0 +1,32 @@
+{
+    "id": 2540,
+    "lang": "en",
+    "is_original": false,
+    "title": "Novara (Frigate)",
+    "fl": "N",
+    "original_title": "Novara (Fragata)",
+    "body": "This warship of the Austrian navy undertook a circumnavigation voyage from 1857 to 1859, anchoring in our port for a few days. The description of this voyage is highly appreciated, and Latino Coelho translated and published the part of this description that deals with this island in the Contemporary Review, which is very interesting and worth reading. It was reproduced in issue no. 2279 and subsequent issues of the defunct Diário do Commercio of this city.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto": [
+            "Our port"
+        ]
+    },
+    "people": {
+        "Latino Coelho": [
+            "Translator and publisher"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Start of the voyage"
+        ],
+        "1859": [
+            "End of the voyage"
+        ]
+    }
+}

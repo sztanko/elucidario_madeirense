@@ -1,0 +1,30 @@
+{
+    "id": 305,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Assomadouro",
+    "fl": "A",
+    "original_title": "Assomadouro",
+    "body": "Sítio da freguesia dos Prazeres, de onde se descortina uma bela paisagem da costa marítima, que se alarga desde o Jardim do Mar até á freguesia da Fajã da Ovelha.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Prazeres",
+        "Jardim do Mar",
+        "Fajã da Ovelha"
+    ],
+    "locations": {
+        "Prazeres": [
+            "Belo paisagem da costa marítima"
+        ],
+        "Jardim do Mar": [
+            "Belo paisagem da costa marítima"
+        ],
+        "Fajã da Ovelha": [
+            "Belo paisagem da costa marítima"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

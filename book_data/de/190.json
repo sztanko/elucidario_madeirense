@@ -1,0 +1,27 @@
+{
+    "id": 190,
+    "lang": "de",
+    "is_original": false,
+    "title": "Amaro (Pater)",
+    "fl": "A",
+    "original_title": "Amaro (Padre)",
+    "body": "Pater Amaro war der Name einer berühmten portugiesischsprachigen Zeitung, die von 1820 bis 1830 in London veröffentlicht wurde und deren Chefredakteur der angesehene Madeirer Joaquim José Ferreira de Freitas war, der auch unter dem Namen Pater Amaro bekannt ist und über den wir an geeigneter Stelle berichten werden.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pater Amaro": [
+            "Chefredakteur der Zeitung"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Beginn der Veröffentlichung der Zeitung in London"
+        ],
+        "1830": [
+            "Ende der Veröffentlichung der Zeitung in London"
+        ]
+    }
+}

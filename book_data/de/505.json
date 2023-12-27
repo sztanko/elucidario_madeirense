@@ -1,0 +1,25 @@
+{
+    "id": 505,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bôca das Voltas",
+    "fl": "B",
+    "original_title": "Bôca das Voltas",
+    "body": "Ort zwischen dem Pico do Arco und dem Pico do Canário, von wo aus ein Weg zur Ribeira da Boaventura führt. Die Bôca das Voltas liegt etwa 750 Meter über dem Meeresspiegel.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Boaventura"
+    ],
+    "locations": {
+        "Pico do Arco": [
+            "In der Nähe der Bôca das Voltas"
+        ],
+        "Ribeira da Boaventura": [
+            "Ort, zu dem der Weg von der Bôca das Voltas führt"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,32 @@
+{
+    "id": 463,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Belle Poule",
+    "fl": "B",
+    "original_title": "Belle Poule",
+    "body": "A fragata de guerra francesa Belle Poule e a corveta Favorite ancoraram no porto do Funchal no dia 24 de Julho de 1840, trazendo a seu bordo a missão que tinha por chefe o príncipe de Joinville e que se destinava à ilha de Santa Helena, com o fim de proceder à exumação dos restos mortais do imperador Napoleão e de os conduzir a França. Como se sabe, Napoleão passou na Madeira a bordo da nau inglesa Northumberland no dia 24 de Agosto de 1815, quando ia preso e desterrado para Santa Helena (V. Napoleão). A expedição comandada pelo príncipe de Joinville não tocou na Madeira no seu regresso à Europa. O chefe e outros membros desta missão assistiram no Funchal a algumas festas dadas em sua honra. A Belle Poule saiu da Madeira a 27 de Julho, em direcção às Canárias. V. Joinville (Príncipe de).",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Porto onde a fragata de guerra francesa Belle Poule e a corveta Favorite ancoraram"
+        ]
+    },
+    "people": {
+        "Príncipe de Joinville": [
+            "Chefe da missão"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Ancoragem da fragata de guerra francesa Belle Poule e da corveta Favorite no porto do Funchal"
+        ],
+        "1815": [
+            "Passagem de Napoleão na Madeira a bordo da nau inglesa Northumberland"
+        ]
+    }
+}

@@ -1,0 +1,67 @@
+{
+    "id": 2308,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Misericórdia de Santa Cruz",
+    "fl": "M",
+    "original_title": "Misericórdia de Santa Cruz",
+    "body": "–\n\n*O Boletim do Trabalho Industrial* n.° 95, que já por mais duma vez deixámos citado, insere uma muito interessante e quanto possível completa noticia acerca desta Misericórdia, que vamos integralmente transcrever:\n\n>Parece averiguado que esta instituição de beneficência se fundou em principio do século XVI, na vila de Santa Cruz, tendo sido levantado o edifício próprio no ano de 1520. É, fora da cidade do Funchal, o estabelecimento mais importante no seu género, e foi de sua origem talhado com amplas acomodações em relação ao meio que servia.\n\n>Tendo sido cuidado e conservado, ainda hoje (1920) proporciona serviços de hospitalização a enfermos pobres, em razoáveis condições de conforto, o que se não da em nenhum outro concelho rural do distrito.\n\n>Entre os provàveis instituidores deste Hospital, criado pela Santa Casa da Misericórdia de Santa Cruz, citam-se como irmãos mesàrios de maior condição os nomes de Manuel da Costa Moniz, José Bettencourt de Freitas, Diogo Lopes Fernandes, António Mendes Bettencourt, António Baptista Spínola e Marcos de Aragão.\n\n>0 edificio desta Misericórdia experimentou importantes trabalhos de reparação nos anos de 1759, 1786 e 1892, a expensas da caridade pública, sem o que jà teria desaparecido; e em 1908 foi de novo reparado por ordem e conta do Estado.\n\n>Este edifício consta duma casa de dois pavimentos com uma grande capela e muitos compartimentos, como sejam amplas enfermarias, sala para farmácia, alguns outros quartos, casas de banho, etc., e casas de desinfecção e mortuària.\n\n>Dadas as dimensões e o estado do edifício, maiores e melhores serviços de hospitalização podia ele prestar, se os seus rendimentos o permitissem. Estes, porém, são muito escassos e para muito pouco dão, se a caridade pública os não acompanhar e vier regularmente ajudando.\n\n>Assim, os rendimentos próprios desta Misericórdia orçam por pouco mais de 200$ anuais, e é evidente que este valor, não acrescido dos auxílios da beneficência publica, para muito pouco pode chegar, mormente considerando-se nos maiores encargos que sempre resultam da conservação e exploração dum edifício de amplas dimensões.\n\n>Esta Misericórdia tem estatutos aprovados pelo Governo Civil do Funchal em 1889.\n\n>Em 1910 a direcção e prestação de todos os serviços internos e de enfermaria no hospital desta Misericórdia estavam a cargo das irmãs hospitaleiras franciscanas, que ali prestaram bons serviços, e que foram as mesmas que improvisaram um hospital no Lazareto de Gonçalo Aires, na cidade do Funchal, quando da última epidemia de variola que assolou a Madeira.\n\n>Tendo sido suprimido o serviço destas religiosas, continuou o Hospital da Misericórdia funcionando sob a direcção duma mesa gerente eleita de entre os irmãos da Confraria de Santa Isabel, e com o concurso do pessoal de enfermaria e farmácia que ficou sendo parcialmente o mesmo que existia, mas secularizado.\n\n>Os serviços de farmàcia passaram porém a ser dados de arrendamento, continuando no entanto o mesmo pessoal manipulador empregado na Misericórdia.\n\n>Em 1913 a receita desta Misericórdia foi de 1.034$68, incluindo um saldo de 640$ do ano anterior, sendo a respectiva despesa de igual valor e onde se compreende a verba de 400$ gastos em reparos da capela do Hospital.\n\n>O pessoal do estabelecimento compreende um médico com 36$, um escrituràrio com 36$ e duas enfermeiras a 30$, tudo anualmente.\n\n>O movimento de doentes foi em 1913 de 14 doentes, 6 homens e 8 mulheres, dos quais melhoraram 9, faleceram 3 e ficaram em tratamento 2.\n\n>Do exposto se vê, que relativamente pequenos são os serviços que este hospital pode prestar ou a respectiva Misericórdia, mas que dadas as recomendàveis condições da sua instalação, bem digno era de protecção eficaz que lhe permitisse aumentar a hospitalização e benefícios que proporciona, correspondendo assim melhor às necessidades crescentes do meio que serve, que é hoje uma vila das mais importantes do distrito, sede de concelho e de comarca.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Vila"
+        ]
+    },
+    "people": {
+        "Manuel da Costa Moniz": [
+            "Provável instituidor do Hospital"
+        ],
+        "José Bettencourt de Freitas": [
+            "Provável instituidor do Hospital"
+        ],
+        "Diogo Lopes Fernandes": [
+            "Provável instituidor do Hospital"
+        ],
+        "António Mendes Bettencourt": [
+            "Provável instituidor do Hospital"
+        ],
+        "António Baptista Spínola": [
+            "Provável instituidor do Hospital"
+        ],
+        "Marcos de Aragão": [
+            "Provável instituidor do Hospital"
+        ]
+    },
+    "years": {
+        "1520": [
+            "Levantamento do edifício próprio"
+        ],
+        "1759": [
+            "Importantes trabalhos de reparação"
+        ],
+        "1786": [
+            "Importantes trabalhos de reparação"
+        ],
+        "1892": [
+            "Importantes trabalhos de reparação"
+        ],
+        "1908": [
+            "Reparação por ordem e conta do Estado"
+        ],
+        "1889": [
+            "Aprovação dos estatutos pelo Governo Civil do Funchal"
+        ],
+        "1910": [
+            "Direcção e prestação de todos os serviços internos e de enfermaria a cargo das irmãs hospitaleiras franciscanas"
+        ],
+        "1913": [
+            "Receita da Misericórdia"
+        ]
+    }
+}

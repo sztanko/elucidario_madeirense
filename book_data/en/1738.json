@@ -1,0 +1,32 @@
+{
+    "id": 1738,
+    "lang": "en",
+    "is_original": false,
+    "title": "Official Time",
+    "fl": "O",
+    "original_title": "Hora Oficial",
+    "body": "It was established by decree no. 2,922 of December 30, 1916. On January 31 of the following year, the military authority asked the Chamber to advance the clock of the Sé by one hour, at 23 hours, this request was granted, but with the declaration made by the president Dr. Fernando Tolentino da Costa, that he did not recognize any usefulness in such a measure for Madeira.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where the Official Time was established"
+        ],
+        "Sé": [
+            "Location where the clock of the Sé was advanced by one hour"
+        ]
+    },
+    "people": {
+        "Dr. Fernando Tolentino da Costa": [
+            "President who declared not to recognize the usefulness of advancing the clock of the Sé by one hour"
+        ]
+    },
+    "years": {
+        "1916": [
+            "Year of establishment of the Official Time"
+        ]
+    }
+}

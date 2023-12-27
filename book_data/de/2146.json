@@ -1,0 +1,33 @@
+{
+    "id": 2146,
+    "lang": "de",
+    "is_original": false,
+    "title": "Madeirense (0)",
+    "fl": "M",
+    "original_title": "Madeirense (0)",
+    "body": "Es erschienen 87 Ausgaben dieser Zeitung, die erste am 30. Januar 1847 und die letzte am 30. Januar 1849.\n\nUnter dem gleichen Titel wurde auf Madeira eine andere Zeitung veröffentlicht, von der 77 Ausgaben erschienen, die erste am 27. April 1918 und die letzte am 23. Januar 1919.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort der Veröffentlichung der Zeitungen"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1847": [
+            "Veröffentlichung der ersten Zeitung"
+        ],
+        "1849": [
+            "Veröffentlichung der letzten Zeitung"
+        ],
+        "1918": [
+            "Veröffentlichung der ersten Zeitung"
+        ],
+        "1919": [
+            "Veröffentlichung der letzten Zeitung"
+        ]
+    }
+}

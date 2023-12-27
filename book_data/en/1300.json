@@ -1,0 +1,29 @@
+{
+    "id": 1300,
+    "lang": "en",
+    "is_original": false,
+    "title": "Facho (Pico do)",
+    "fl": "F",
+    "original_title": "Facho (Pico do)",
+    "body": "Overlooking the town of Machico and at an altitude of 330m, this mountainous elevation dominates the terrain that forms the parish of Caniçal and the beautiful valley through which the stream of that town flows. There was a semaphore post there, which communicated with another established on the so-called Pico do Telégrafo, in the parish of Caniço.\n\nSomewhere it is said that at the top of the Pico there is a small spring, whose waters rise when the tide rises and fall when it recedes. This phenomenon seems to be due to the existence of an internal channel, between the reservoir of the spring and the coast, a channel into which the sea penetrates more when the tide rises. It is the air in this channel that, flowing into the spring's reservoir, probably causes the rise in the water level observed during high tide on the coasts of Machico (See Picos).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Caniçal",
+        "Caniço"
+    ],
+    "locations": {
+        "Machico": [
+            "Town"
+        ],
+        "Caniçal": [
+            "Parish"
+        ],
+        "Caniço": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

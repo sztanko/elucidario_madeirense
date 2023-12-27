@@ -1,0 +1,40 @@
+{
+    "id": 1734,
+    "lang": "en",
+    "is_original": false,
+    "title": "Homem",
+    "fl": "H",
+    "original_title": "Homem",
+    "body": "This family name originates from: Garcia Homem de Sousa, who married Catarina Gonçalves da Câmara, daughter of Zargo; from Francisco Homem de Gouveia, a nobleman of the house of D. Manuel who lived in Estreito da Calheta, where he established an entail in 1529; from Francisco Homem d'El-Rei, who lived in Calheta at the beginning of the 16th century; and from Rui Fernandes Homem, the natural son of Fernão Homem and nephew of the aforementioned Garcia Homem de Sousa.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Estreito da Calheta": [
+            "Location where Francisco Homem de Gouveia lived and established an entail in 1529"
+        ],
+        "Calheta": [
+            "Location where Francisco Homem d'El-Rei lived at the beginning of the 16th century"
+        ]
+    },
+    "people": {
+        "Garcia Homem de Sousa": [
+            "Married Catarina Gonçalves da Câmara, daughter of Zargo"
+        ],
+        "Francisco Homem de Gouveia": [
+            "Nobleman of the house of D. Manuel"
+        ],
+        "Francisco Homem d'El-Rei": [
+            "Lived in Calheta at the beginning of the 16th century"
+        ],
+        "Rui Fernandes Homem": [
+            "Natural son of Fernão Homem and nephew of the aforementioned Garcia Homem de Sousa"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Year in which Francisco Homem de Gouveia established an entail in Estreito da Calheta"
+        ]
+    }
+}

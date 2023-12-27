@@ -1,0 +1,50 @@
+{
+    "id": 2269,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Meneses (D. João de)",
+    "fl": "M",
+    "original_title": "Meneses (D. João de)",
+    "body": "Foi Governador Geral da Madeira, tendo tomado posse em Janeiro de 1634. Distinguiu-se nas guerras da restauração e foi Governador do Porto. Diz dele o dr. Rodrigues de Azevedo que era oculto mas firme inimigo do domínio dos Filipes, a ponto de que, estando em Madrid ao tempo da revolução do 1.° de Dezembro de 1640, feita em Lisboa, fugiu para esta cidade, quando foi preso em Burgos, conseguindo no fim de cinco anos escapar-se e pôr-se ao serviço de D. João IV. Morreu na Holanda em 1649.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha"
+        ],
+        "Porto": [
+            "Cidade em Portugal"
+        ],
+        "Madrid": [
+            "Cidade em Espanha"
+        ],
+        "Lisboa": [
+            "Cidade em Portugal"
+        ],
+        "Burgos": [
+            "Cidade em Espanha"
+        ],
+        "Holanda": [
+            "País"
+        ]
+    },
+    "people": {
+        "Rodrigues de Azevedo": [
+            "Historiador"
+        ]
+    },
+    "years": {
+        "1634": [
+            "Posse como Governador Geral da Madeira"
+        ],
+        "1640": [
+            "Revolução do 1.° de Dezembro"
+        ],
+        "1649": [
+            "Morte na Holanda"
+        ]
+    }
+}

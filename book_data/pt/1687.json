@@ -1,0 +1,36 @@
+{
+    "id": 1687,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Henriques (Jordão Mauricio)",
+    "fl": "H",
+    "original_title": "Henriques (Jordão Mauricio)",
+    "body": "É filho de António Maria Henriques, frequentou o liceu e o Curso Superior de Letras e nasceu no Funchal a 15 de Outubro de 1880. Foi escrivão interprete da Estação de Saúde e professor da Escola Primaria Superior, tendo também sido professor interino do Liceu. Foi redactor do antigo Diário Popular e teve uma larga e valiosa colaboração em outros jornais madeirenses, distinguindo-se os seus escritos por uma requintada forma literária.\n\nPublicou em 1922 um livro intitulado _Da Pátria e da Escola_. Tendo seguido a carreira diplomática, prestou serviço durante alguns anos no Ministério dos Negócios Estrangeiros, sendo atualmente cônsul geral de Portugal na cidade do Rio de Janeiro.",
+    "categories": [
+        "culture",
+        "education",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento de Jordão Mauricio Henriques e onde exerceu diversas funções profissionais."
+        ],
+        "Rio de Janeiro": [
+            "Local onde Jordão Mauricio Henriques é cônsul geral de Portugal."
+        ]
+    },
+    "people": {
+        "António Maria Henriques": [
+            "Pai de Jordão Mauricio Henriques."
+        ]
+    },
+    "years": {
+        "1880": [
+            "Nascimento de Jordão Mauricio Henriques."
+        ],
+        "1922": [
+            "Publicação do livro _Da Pátria e da Escola_ por Jordão Mauricio Henriques."
+        ]
+    }
+}

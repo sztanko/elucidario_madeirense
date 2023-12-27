@@ -1,0 +1,32 @@
+{
+    "id": 3090,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ribeiro Seco (Praça do)",
+    "fl": "R",
+    "original_title": "Ribeiro Seco (Praça do)",
+    "body": "Liegt in der Nähe der Monumentalbrücke am linken Ufer des Ribeiro Seco. Sie wurde kurz nach 1850 erbaut. Heute trägt sie den Namen Largo de António Nobre.\n\nSiehe Nobre (António).",
+    "categories": [
+        "geography",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeiro Seco": [
+            "Ort"
+        ],
+        "Ponte Monumental": [
+            "Brücke"
+        ]
+    },
+    "people": {
+        "António Nobre": [
+            "Person"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Bau des Platzes"
+        ]
+    }
+}

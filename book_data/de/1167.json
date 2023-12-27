@@ -1,0 +1,37 @@
+{
+    "id": 1167,
+    "lang": "de",
+    "is_original": false,
+    "title": "Seefahrt Distanzen",
+    "fl": "S",
+    "original_title": "Distâncias marítimas",
+    "body": "Die Entfernung zwischen den Häfen von Lissabon und Funchal wird im Allgemeinen mit 520 Seemeilen angegeben.\n\nDer Ort an der afrikanischen Küste, der Madeira am nächsten liegt, ist Kap Cantim, wobei die Entfernung zwischen diesen beiden Punkten 350 Seemeilen beträgt.\n\nDie Meeresausdehnung zwischen den Inseln Madeira und Porto Santo, bekannt als Travessa, ist 21,5 Seemeilen lang zwischen Ilhéu de Fora (Ponta de São Lourenço) und Ilhéu de Baixo (Porto Santo). Die Entfernung zwischen dem Hafen der Stadt Funchal und dem der Stadt Porto Santo beträgt etwa 41 Seemeilen.\n\nInsbesondere anhand einer vom Handelsmarineoffizier Afonso Coelho erstellten Tabelle geben wir eine ungefähre Angabe der Entfernungen zwischen den verschiedenen Häfen dieses Archipels, wobei die Zahlen die Anzahl der Seemeilen und ihrer Dezimalbrüche angeben:\n\n| Herkunftshafen | Zielhafen | Entfernung, Seemeilen |\n|-----------------|------------------|-------------------|\n| Funchal | Câmara de Lobos | 4,0 |\n| Câmara de Lobos | Campanario | 3,0 |\n| Campanário | Ribeira Brava | 1,7 |\n| Ribeira Brava | Ponta do Sol | 2,1 |\n| Ponta do Sol | Fajã do Mar | 2,4 |\n| Fajã do Mar | Calheta | 2,3 |\n| Calheta | Jardim do Mar | 2,1 |\n| Jardim do Mar | Paul do Mar | 1,2 |\n| Paul | Pesqueiro | 2,3 |\n| Pesqueiro | Ponta do Pargo | 0,7 |\n| Ponta do Pargo | Porto do Moniz | 7,5 |\n| Porto do Moniz | Seixal | 4,0 |\n| Seixal | S. Vicente | 3,0 |\n| S. Vicente | Ponta Delgada | 3,6 |\n| Ponta Delgada | São Jorge | 4,0 |\n| São Jorge | Faial | 3,2 |\n| Faial | Porto da Cruz | 2,5 |\n| Porto da Cruz | Ponta de São Lourenço | 9,3 |\n| Ponta de São Lourenço | Caniçal | 4,0 |\n| Caniçal | Machico | 1,6 |\n| Machico | Santa Cruz | 4,3 |\n| Santa Cruz | Porto Novo | 2,0 |\n| Porto Novo | Funchal | 5,9 |\n| Funchal | Garajau | 2,9 |\n| Garajau | Ponta da Oliveira | 1,1 |\n| Ponta da Oliveira | Ilhéu de Fora | 10,6 |\n| Ilhéu de Fora | Ilhéu de Baixo | 4,3 |\n| Ilhéu de Baixo | Porto Santo | 21,5 |\n| Funchal | Deserta Grande | 21,5 |\n| Funchal | Ilhéu Chão | 19,0 |",
+    "categories": [
+        "geography",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lissabon": [
+            "Hafen mit einer Entfernung von 520 Seemeilen vom Funchal."
+        ],
+        "Funchal": [
+            "Hafen mit verschiedenen Seefahrt Distanzen zu anderen Häfen und Orten, einschließlich Lissabon, Porto Santo und Kap Cantim."
+        ],
+        "Kap Cantim": [
+            "Ort an der afrikanischen Küste, der Madeira am nächsten liegt, 350 Seemeilen entfernt."
+        ],
+        "Porto Santo": [
+            "Insel, die durch 21,5 Seemeilen Meeresausdehnung von Madeira getrennt ist, bekannt als Travessa."
+        ],
+        "Ponta de São Lourenço": [
+            "Referenzpunkt für die Seefahrt Distanz bis Ilhéu de Baixo (Porto Santo)."
+        ]
+    },
+    "people": {
+        "Afonso Coelho": [
+            "Handelsmarineoffizier, der die Tabelle mit den Seefahrt Distanzen zwischen den Häfen des Madeira-Archipels erstellt hat."
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,32 @@
+{
+    "id": 277,
+    "lang": "en",
+    "is_original": false,
+    "title": "Auxiliary Artillery",
+    "fl": "A",
+    "original_title": "Artilharia Auxiliar",
+    "body": "The auxiliary artillery corps of Madeira, established in 1805, had, according to the regulations given to it by Luiz da Silva Mousinho de Albuquerque on November 12, 1834, a staff and fifteen companies, the former being made up of a lieutenant colonel or major commander, a captain or subordinate assistant, and a sergeant assistant. Fourteen of the mentioned companies belonged to Madeira and one to Porto Santo, with four of those having their barracks in Funchal.\n\nThe main service of the auxiliary artillery consisted of the garrison, guard, and surveillance of the batteries, forts, watchtowers, and accessible points along the archipelago's coast.\n\nIn the times of absolute government, it was customary for young men from the first families of Funchal to enlist as cadets in the auxiliary artillery corps, which then had an officer from the line troops as its commander, with all lieutenants and ensigns being militiamen.\n\nThe auxiliary artillery corps, or the 'papoilas', was abolished by the Decree of February 3, 1868.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Luiz da Silva Mousinho de Albuquerque": [
+            "Gave the regulations to the auxiliary artillery corps"
+        ]
+    },
+    "years": {
+        "1805": [
+            "Establishment of the auxiliary artillery corps"
+        ],
+        "12 de Novembro de 1834": [
+            "Date of the regulations given by Luiz da Silva Mousinho de Albuquerque"
+        ],
+        "3 de Fevereiro de 1868": [
+            "Abolition of the auxiliary artillery corps"
+        ]
+    }
+}

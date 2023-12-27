@@ -1,0 +1,61 @@
+{
+    "id": 1229,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Epanaphoras. Epidemias.",
+    "fl": "E",
+    "original_title": "Epanaphoras. Epidemias.",
+    "body": "> V. Melo (D. Francisco Manuel de)\n\nAs que mais triste recordação deixaram na Madeira pela mortalidade que causaram, foram as seguintes: a da peste, que começou antes de 1521 e durou até 1538; a do sarampo, em 1751; a das bexigas, em 1815 e em 1873; e a da colera-morbus em 1856 e em 1910 e 1911.\n\nComo nos ocupamos em artigos especiais das epidemias da peste e da colera-morbus, falaremos aqui tão somente das epidemias de sarampo e de bexigas acima mencionadas, não nos referindo a outras que têm havido também nesta ilha porque, além de menos importantes, foram assinaladas já no artigo Doenças, publicado neste Elucidário.\n\nNo livro de Dr. Julião Fernandes da Silva intitulado Carta critica sobre o método curativo dos médicos funchalenses, encontram-se informações valiosas sôbre a epidemia de sarampo que grassou na Madeira no ano de 1751. “Tudo era pranto, dizia o Dr. Fernandes da Silva, onde os corações eram mais ternos; tudo pavor onde o perigo era contingente; e tudo fúnebres espectáculos nas pias conduções dos cadaveres para as sepulturas“.\n\nEnquanto alguns médicos aplicavam as sangrias, os medicamentos frios e permitiam o uso da água aos indivíduos atacados de sarampo, outros prescreviam o tratamento contrario, dando-se o caso, segundo afirma o Dr. Fernandes da Silva, de ter sido menor a mortalidade entre os doentes submetidos aquele regimen.\n\nOs médicos partidários da sangria eram apenas o Dr. Silva e o celebre Dr. Heberden, a esse tempo residente na Madeira, tendo chegado este ultimo, a ser exacto o que afirma o aludido autor, a curar mais de duzentas pessoas atacadas de sarampo, sem que perigasse doente algum. A teimosia de alguns médicos em não darem água aos doentes, acrescenta o Dr. Silva, foi o único motivo das muitas mortes que houve na ilha. Sôbre a epidemia da varíola de 1815, diz o Dr. Heineken que foi trazida por um navio vindo de Cabo Verde, e que vitimou cerca de 2.000 pessoas. A esse tempo, e mesmo muito depois, a utilidade da vacina era ainda pouco conhecida do nosso povo, sendo esta, decerto, a principal razão porque a referida epidemia foi tão mortífera entre nós. (V. Adams e Vacina).\n\nA epidemia de 1872 e 1873 vitimou 1007 indivíduos, sendo depois da de 1815 a que mais estragos causou nesta ilha. Foi um passageiro do Maria Pia, vindo de Lisboa em Outubro de 1872 e que recolheu ao Hospital Civil, quem trouxe a moléstia para a Madeira, tendo esta durado até os fins de 1873 ou princípios de 1874, e feito grandes estragos especialmente nos concelhos do Funchal, Santa Cruz, Calheta e Câmara de Lobos. A varíola algumas vezes apareceu na Madeira depois de 1873, mas mercê da vulgarização da vacina e de certas medidas acertadas adoptadas pelas autoridades, nunca mais tomou o incremento das antigas epidemias. Em 1907 morreram muitos variolosos no Funchal, mas a epidemia durou pouco tempo e não chegou a adquirir a intensidade das de 1815 e 1873, devido aos doentes que não podiam ser isolados em suas casas terem recolhido ao Lazareto a partir duma certa época, onde encontraram da parte dos médicos e de enfermeiras desveladas e conhecedoras do seu mister, cuidados e atenções que não lhes seriam dispensados nos seus domicílios.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Julião Fernandes da Silva": [
+            "Médico"
+        ],
+        "Dr. Heberden": [
+            "Médico"
+        ],
+        "Dr. Silva": [
+            "Médico"
+        ],
+        "Dr. Heineken": [
+            "Médico"
+        ]
+    },
+    "years": {
+        "1521": [
+            "Peste"
+        ],
+        "1538": [
+            "Peste"
+        ],
+        "1751": [
+            "Epidemia de sarampo"
+        ],
+        "1815": [
+            "Epidemia de varíola"
+        ],
+        "1873": [
+            "Epidemia de varíola"
+        ],
+        "1856": [
+            "Colera-morbus"
+        ],
+        "1910": [
+            "Colera-morbus"
+        ],
+        "1911": [
+            "Colera-morbus"
+        ],
+        "1872": [
+            "Epidemia de varíola"
+        ],
+        "1907": [
+            "Epidemia de varíola"
+        ]
+    }
+}

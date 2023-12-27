@@ -1,0 +1,42 @@
+{
+    "id": 1193,
+    "lang": "de",
+    "is_original": false,
+    "title": "Drumond (Inacio Correia)",
+    "fl": "D",
+    "original_title": "Drumond (Inacio Correia)",
+    "body": "Er wurde 1768 in Funchal geboren und war in dieser Stadt Gerichtsschreiber und zwischen 1818 und 1821 in Rio de Janeiro, wo er einige Zeit das Amt des Stadtrats bekleidete. Er schrieb und veröffentlichte einige poetische Werke in Rio de Janeiro, deren Titel in den Bänden X und XI des Diccionario Bibliographico von Inocencio Francisco da Silva erwähnt werden. Er starb 1830.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort von Inacio Correia Drumond"
+        ],
+        "Rio de Janeiro": [
+            "Ort, an dem Inacio Correia Drumond Ämter innehatte und poetische Werke veröffentlichte"
+        ]
+    },
+    "people": {
+        "Inocencio Francisco da Silva": [
+            "Inocencio Francisco da Silva erwähnt die poetischen Werke von Inacio Correia Drumond"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Geburt von Inacio Correia Drumond"
+        ],
+        "1818": [
+            "Inacio Correia Drumond war in Rio de Janeiro"
+        ],
+        "1821": [
+            "Inacio Correia Drumond war in Rio de Janeiro"
+        ],
+        "1830": [
+            "Tod von Inacio Correia Drumond"
+        ]
+    }
+}

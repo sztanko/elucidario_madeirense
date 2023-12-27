@@ -1,0 +1,41 @@
+{
+    "id": 3275,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sardinha (Dr. Manuel)",
+    "fl": "S",
+    "original_title": "Sardinha (Dr. Manuel)",
+    "body": "He was born in Funchal on September 20, 1865, and is a medical surgeon from the extinct Medical-Surgical School of this city, having held the position of municipal physician in Fajã da Ovelha and Ribeira Brava. He was later appointed administrator of the Land Disinfection Post, under the responsibility of the General Board, and is currently retired. He has collaborated in various newspapers, was editor of Diário de Noticias, and is the current director of Correio da Madeira. (1921). His collaboration for several years in the Almanach Bertrand, as a solver of mathematical problems, is extremely valuable and has been highlighted in a very honorable and exceptionally distinguished manner for Dr. Manuel Sardinha.",
+    "categories": [
+        "health",
+        "society"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Funchal": [
+            "Born in Funchal on September 20, 1865"
+        ],
+        "Fajã da Ovelha": [
+            "Held the position of municipal physician in Fajã da Ovelha"
+        ],
+        "Ribeira Brava": [
+            "Held the position of municipal physician in Ribeira Brava"
+        ]
+    },
+    "people": {
+        "Dr. Manuel Sardinha": [
+            "Medical surgeon, editor, newspaper director"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Birth of Dr. Manuel Sardinha"
+        ],
+        "1921": [
+            "Year of highlight in the collaboration of Dr. Manuel Sardinha"
+        ]
+    }
+}

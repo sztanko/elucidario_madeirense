@@ -1,0 +1,44 @@
+{
+    "id": 2209,
+    "lang": "en",
+    "is_original": false,
+    "title": "Martins (Dr. Frederico dos Santos)",
+    "fl": "M",
+    "original_title": "Martins (Dr. Frederico dos Santos)",
+    "body": "Dr. Frederico dos Santos Martins is the son of the wealthy landowner Manuel Martins, born in this city on November 1, 1869, and a law graduate from the University of Coimbra. He has been residing in Lisbon for many years, where he has distinctively practiced law. He represented Madeira in the Cortes during the legislative sessions of 1902-1904, 1904, and 1906. In several pamphlets, he has published some of his legal works in defense of various civil and commercial causes. He is the author of the remarkable work 'Maritime Commercial Law', of which only the first part was published in a volume of 383 pages in the year 1932.",
+    "categories": [
+        "politics",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "University of Coimbra"
+        ],
+        "Lisbon": [
+            "Residence in Lisbon"
+        ]
+    },
+    "people": {
+        "Manuel Martins": [
+            "Wealthy landowner"
+        ]
+    },
+    "years": {
+        "1869": [
+            "Birth of Frederico dos Santos Martins"
+        ],
+        "1902": [
+            "Representation of Madeira in the Cortes"
+        ],
+        "1904": [
+            "Representation of Madeira in the Cortes"
+        ],
+        "1906": [
+            "Representation of Madeira in the Cortes"
+        ],
+        "1932": [
+            "Publication of the first part of the work 'Maritime Commercial Law'"
+        ]
+    }
+}

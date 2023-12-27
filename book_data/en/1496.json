@@ -1,0 +1,31 @@
+{
+    "id": 1496,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fruits",
+    "fl": "F",
+    "original_title": "Frutas",
+    "body": "Apart from the careful and methodical cultivation of the vine and the banana tree, it can be generally stated that there is no cultivation of fruit trees in this archipelago, despite the special climatic conditions allowing for excellent and abundant production and the geographical location of Madeira favoring easy export of fruits to various foreign countries and Portuguese colonies. It is true that many fruit trees of various qualities from almost all regions and even tropical climates are found, but they are generally left to develop on their own, without the proper treatment that experience and science could provide. The true orchard is almost entirely unknown to us, with fruit trees appearing scattered among other crops, as if they were of spontaneous generation and without deserving the attention and care of most farmers. However, it must be admitted that in recent years this situation has changed considerably, and the cultivation of fruit trees can now be considered a significant factor in the district's economy. Some legislative measures have been enacted, especially related to the cultivation and export of bananas, which currently represent one of the most important elements of Madeira's public wealth. The Decree of June 5, 1935, established the Guild of Fruit and Vegetable Exporters in Funchal, another decree of the same date established a Delegation of the National Fruit Board in this city, and the decrees of August 21, 1938, and May 16, 1939, adopted some measures to protect the export of these products.",
+    "categories": [
+        "economy",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location of the Guild of Fruit and Vegetable Exporters"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1935": [
+            "Year of establishment of the Delegation of the National Fruit Board"
+        ],
+        "1938": [
+            "Year of adoption of measures to protect the export of products"
+        ],
+        "1939": [
+            "Year of adoption of measures to protect the export of products"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2966,
+    "lang": "en",
+    "is_original": false,
+    "title": "Queimada",
+    "fl": "Q",
+    "original_title": "Queimada",
+    "body": "It is a populated place in the parish of Água de Pena belonging to the municipality of Machico. In this place and in the year 1924, Francisco de Freitas Correia had a chapel dedicated to Our Lady of Perpetual Help built, the first of this invocation to be built in Madeira.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Parish"
+        ],
+        "Machico": [
+            "Municipality"
+        ],
+        "Madeira": [
+            "Location of the construction of the chapel"
+        ]
+    },
+    "people": {
+        "Francisco de Freitas Correia": [
+            "Commissioned the construction of the chapel"
+        ]
+    },
+    "years": {
+        "1924": [
+            "Year of the construction of the chapel"
+        ]
+    }
+}

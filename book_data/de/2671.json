@@ -1,0 +1,38 @@
+{
+    "id": 2671,
+    "lang": "de",
+    "is_original": false,
+    "title": "Passos (Francisco Carregal da Silva)",
+    "fl": "P",
+    "original_title": "Passos (Francisco Carregal da Silva)",
+    "body": "Geboren um 1878, Sohn von Manuel Antonio da Silva Passos und Maria Teresa Bastos Carregal da Silva Passos, war portugiesischer Konsul in Dakar. Er hatte einen Abschluss als Landwirtschaftsmeister und veröffentlichte in vielen Zeitungen und Zeitschriften in Lissabon, darunter zwei Broschüren mit den Titeln A Tagante und O Escalpello. Er starb am 1. Oktober 1931 in Lissabon.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Dakar": [
+            "Arbeitsort"
+        ],
+        "Lissabon": [
+            "Sterbeort"
+        ]
+    },
+    "people": {
+        "Manuel Antonio da Silva Passos": [
+            "Vater"
+        ],
+        "Maria Teresa Bastos Carregal da Silva Passos": [
+            "Mutter"
+        ]
+    },
+    "years": {
+        "1878": [
+            "Geburtsjahr"
+        ],
+        "1931": [
+            "Sterbejahr"
+        ]
+    }
+}

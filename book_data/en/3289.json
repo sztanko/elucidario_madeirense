@@ -1,0 +1,34 @@
+{
+    "id": 3289,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sauvaire",
+    "fl": "S",
+    "original_title": "Sauvaire",
+    "body": "The family name Sauvaire, according to the annotator of the 'Saudades', originated from Honorato Sauvaire, a native of Marseille, who came to the island of Madeira as the French consul around 1660. The Açoreana Library states that in the work 'Description Nautique des Açores', by Charles Philipe de Kerhallet and published in Paris in 1865, there is a mention of a 'Letter of April 2, 1721 about the volcanic island that appeared near S. Miguel, recognized by the commander of the English corvette Richard and Izabel, by Sauvaire, the French consul general in Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Marseille": [
+            "Place of origin of Honorato Sauvaire"
+        ],
+        "S. Miguel": [
+            "Volcanic island mentioned in the letter of April 2, 1721"
+        ]
+    },
+    "people": {
+        "Honorato Sauvaire": [
+            "Consul of France in Madeira"
+        ]
+    },
+    "years": {
+        "1660": [
+            "Arrival of Honorato Sauvaire in Madeira"
+        ],
+        "1721": [
+            "Letter about the volcanic island near S. Miguel"
+        ]
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "id": 2498,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Loreto (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Loreto (Capela de)",
+    "body": "Acerca desta capela se lê num antigo livro do arquivo paroquial da freguesia do Arco da Calheta o seguinte trecho: «esta ermida é magnífica por sua architectura e fabrico, foi feita nos princípios desta freguesia... foi seu primeiro fundador homem ilustre da notabilissima família dos Câmaras, como mostra o escudo das suas armas no alto da porta principal. . . nesta capela está a cabeça dum morgado que administraram muitos anos os priores da Esperança de Lisboa... e são todas as fazendas que divide o Ribeiro do Ledo para a banda de leste. . . . ». Henrique Henriques de Noronha dá mais os seguintes esclarecimentos: «Pedro Gonsalves da Câmara, filho 3.° do segundo donatario João Gonsalves da Câmara casou com D. Joana de Eça, que foi dama da rainha D. Catharina, mulher de D. João 3.°. . . reedificou o mosteiro da Esperança, em Portugal e fez a ermida de Nossa Senhora do Loreto, no Arco da Calheta, aonde teve nobres casas, de que se não vê hoje mais que ruínas: vê-se o seu retrato naquela ermida». Deixou D. Joana de Sá esta capela e as terras que lhe ficavam anexas ás freiras do convento da Esperança, de Lisboa, que, por seu turno as venderam a Francisco Luís de Vasconcelos Bettencourt, instituindo este ali a sede dum morgadio.\n\nLemos algures que foi construída no ano de 1510.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Freguesia do Arco da Calheta"
+        ]
+    },
+    "people": {
+        "Pedro Gonsalves da Câmara": [
+            "Fundador da capela"
+        ],
+        "D. Joana de Eça": [
+            "Dama da rainha D. Catharina, mulher de D. João 3.°"
+        ],
+        "Francisco Luís de Vasconcelos Bettencourt": [
+            "Instituiu a sede dum morgadio na capela"
+        ]
+    },
+    "years": {
+        "1510": [
+            "Construção da capela"
+        ]
+    }
+}

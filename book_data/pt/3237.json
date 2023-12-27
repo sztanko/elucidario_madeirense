@@ -1,0 +1,70 @@
+{
+    "id": 3237,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São José (Capelas de)",
+    "fl": "S",
+    "original_title": "São José (Capelas de)",
+    "body": "Na freguesia da Ribeira Brava e a pequena distancia da igreja paroquial, erguia-se uma capela dedicada a S. José, que o anotador das Saudades da Terra diz ter sido fundada por Luís Gonçalves da Silva no ano de 1710. Por 1905, estava ainda de pé, embora em adiantado estado de ruína e tinha sobre o pórtico a data de 1709. A 15 de Abril de 1750, foi concedida licença para ser benzida e era então seu administrador o alferes Tomé João Pimentel. Somente foi benzida em 1750 ou tratar-se-á duma reconstrução? Não sabemos. No entretanto é certo que foi dada licença para a bênção em 15 de Abril de 1750, como tivemos ocasião de verificar á vista dum documento autêntico.\n\nExistia na freguesia da Calheta uma capela dedicada a São José, cujo fundador e ano não podemos determinar. Sabemos, porém, que o terramoto de 1748 a deixou muito arruinada e que Francisco Agostinho de Figueiroa e Vasconcelos, seu administrador e do vínculo a ela anexo, a mandou reedificar em 1776 mudando-a para sítio mais seguro, mas nas proximidades da construção primitiva. Para nela se poderem celebrar os actos do culto, foi vistoriada pela autoridade eclesiástica a 3 de Junho de 1776.\n\nNa mesma freguesia e com igual denominação existe hoje uma elegante capela mandada edificar em 1915, no sítio do Vale da Bica, pelo Dr. Manuel dos Passos Freitas, junto da casa de residência que ali possui (1921).\n\nCom a invocação de São José, houve uma capela na ilha do Porto Santo, fundada em 1681 por Estevão Bettencourt Perestrelo governador da mesma ilha. A escritura da dotação desta capela é de 7 de Julho de 1681.\n\nO padre António Gonçalves Franco fundou em 1730, na freguesia de Machico, uma capela dedicada a São José, que hoje está em ruínas.\n\nNa freguesia de Santa Cruz existiu uma capela consagrada a São José, cujo instituidor e ano de construção nos são inteiramente desconhecidos.\n\nNos princípios do segundo quartel deste século, construiu-se uma capela da mesma invocação no pitoresco sítio da Achada da freguesia da Camacha.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Calheta",
+        "Machico",
+        "Santa Cruz",
+        "Camacha"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Localizada na freguesia da Ribeira Brava"
+        ],
+        "Calheta": [
+            "Localizada na freguesia da Calheta"
+        ],
+        "Vale da Bica": [
+            "Sítio onde foi edificada uma capela em 1915"
+        ],
+        "Porto Santo": [
+            "Ilha onde foi fundada uma capela em 1681"
+        ],
+        "Machico": [
+            "Localizada na freguesia de Machico"
+        ],
+        "Santa Cruz": [
+            "Localizada na freguesia de Santa Cruz"
+        ],
+        "Achada da Camacha": [
+            "Sítio onde foi construída uma capela no segundo quartel do século"
+        ]
+    },
+    "people": {
+        "Luís Gonçalves da Silva": [
+            "Fundador da capela dedicada a S. José na freguesia da Ribeira Brava"
+        ],
+        "Francisco Agostinho de Figueiroa e Vasconcelos": [
+            "Administrador da capela dedicada a São José na freguesia da Calheta"
+        ],
+        "Dr. Manuel dos Passos Freitas": [
+            "Mandou edificar uma capela em 1915 no sítio do Vale da Bica"
+        ]
+    },
+    "years": {
+        "1710": [
+            "Fundação da capela dedicada a S. José na freguesia da Ribeira Brava"
+        ],
+        "1750": [
+            "Licença concedida para a bênção da capela dedicada a S. José na freguesia da Ribeira Brava"
+        ],
+        "1748": [
+            "Terramoto que deixou a capela dedicada a São José na freguesia da Calheta arruinada"
+        ],
+        "1776": [
+            "Reedificação da capela dedicada a São José na freguesia da Calheta"
+        ],
+        "1915": [
+            "Edificação de uma capela dedicada a São José no sítio do Vale da Bica"
+        ]
+    }
+}

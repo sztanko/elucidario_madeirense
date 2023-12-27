@@ -1,0 +1,23 @@
+{
+    "id": 24,
+    "lang": "de",
+    "is_original": false,
+    "title": "Akademie",
+    "fl": "A",
+    "original_title": "Academia",
+    "body": "Unter diesem Titel wurde in dieser Stadt eine von Schülern des Lyzeums verfasste Zeitung veröffentlicht, von der am 4. Dezember 1910 die Nr. 11 und am 16. März 1911 die letzte Nr. 8 erschien.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1910": [
+            "Erscheinungsdatum der Nr. 11 der Zeitschrift Akademie"
+        ],
+        "1911": [
+            "Erscheinungsdatum der letzten Ausgabe der Zeitschrift Akademie"
+        ]
+    }
+}

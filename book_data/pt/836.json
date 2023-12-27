@@ -1,0 +1,32 @@
+{
+    "id": 836,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Catanho",
+    "fl": "C",
+    "original_title": "Catanho",
+    "body": "Procede entre nós este apelido dos irmãos Kirio e Rafael Catanho, naturais de Genova. Justificaram a sua ascendencia nobre e gozaram de grande prestigio nesta ilha. Kirio casou com D. Maria Cabral, filha do terceiro donatario de Machico. Rafael Catanho foi cavaleiro da ordem de Cristo e teve fôro de fidalgo da casa real.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Genova": [
+            "Cidade de origem dos irmãos Kirio e Rafael Catanho"
+        ],
+        "Machico": [
+            "Localidade onde o terceiro donatario era dono de terras"
+        ]
+    },
+    "people": {
+        "Kirio": [
+            "Irmão de Rafael Catanho"
+        ],
+        "Rafael Catanho": [
+            "Cavaleiro da ordem de Cristo"
+        ]
+    },
+    "years": {}
+}

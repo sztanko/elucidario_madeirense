@@ -1,0 +1,34 @@
+{
+    "id": 1352,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Feio (Dr. Carlos José Barata Pinto)",
+    "fl": "F",
+    "original_title": "Feio (Dr. Carlos José Barata Pinto)",
+    "body": "Foi nomeado governador civil do Funchal por decreto de 18 de Dezembro de 1917 e tomou posse no mesmo dia em que chegou a esta ilha, a 5 de Fevereiro de 1918.\n\nSaiu para Lisboa a 12 de Março do mesmo ano, tendo pouco depois pedido a sua exoneração.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital da Ilha da Madeira."
+        ],
+        "Lisboa": [
+            "Capital de Portugal."
+        ]
+    },
+    "people": {
+        "Dr. Carlos José Barata Pinto": [
+            "Governador civil do Funchal."
+        ]
+    },
+    "years": {
+        "1917": [
+            "Nomeação como governador civil do Funchal."
+        ],
+        "1918": [
+            "Tomada de posse como governador civil do Funchal."
+        ]
+    }
+}

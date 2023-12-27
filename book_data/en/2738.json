@@ -1,0 +1,42 @@
+{
+    "id": 2738,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pereira (César Atanásio da Silva)",
+    "fl": "P",
+    "original_title": "Pereira (César Atanásio da Silva)",
+    "body": "He was born in Funchal on July 5, 1864, the son of José Marceliano Pereira and D. Maria de Jesus da Silva. He attended the Polytechnic School and the Military School, being appointed as a 2nd lieutenant of artillery on January 8, 1891. He served in artillery regiment no. 2, in garrison artillery company no. 3, and in artillery regiment no. 4, being requisitioned in 1896 for a service commission in the Overseas. Having departed for Lourenço Marques, he arrived there on January 15, 1897, soon offering to be part of the military expedition organized in Beira to punish the Cambuenga. He participated in the Gorongoza combat, where he proved to be a distinguished and brave soldier, but unfortunately was hit by a bullet that fractured his lower jaw. He only recovered in Lisbon after being operated on at the S. José Hospital. Having returned to Africa in 1889, after serving again in artillery regiment no. 4, he was the secretary of the Manica district, and passed away in Macequece, due to a bilious condition, on May 27, 1901. He was a knight of the Order of the Tower and Sword and possessed the military silver medal for distinguished services in the Overseas.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Marceliano Pereira": [
+            "Father of César Atanásio da Silva Pereira"
+        ],
+        "D. Maria de Jesus da Silva": [
+            "Mother of César Atanásio da Silva Pereira"
+        ]
+    },
+    "years": {
+        "1864": [
+            "Birth of César Atanásio da Silva Pereira"
+        ],
+        "1891": [
+            "Appointment as 2nd lieutenant of artillery"
+        ],
+        "1896": [
+            "Service commission in the Overseas"
+        ],
+        "1897": [
+            "Departure for Lourenço Marques"
+        ],
+        "1889": [
+            "Return to Africa"
+        ],
+        "1901": [
+            "Death of César Atanásio da Silva Pereira"
+        ]
+    }
+}

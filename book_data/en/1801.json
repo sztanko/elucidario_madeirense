@@ -1,0 +1,35 @@
+{
+    "id": 1801,
+    "lang": "en",
+    "is_original": false,
+    "title": "Military Insubordinations",
+    "fl": "M",
+    "original_title": "Insubordinações Militares",
+    "body": "We only have knowledge of the following insubordinations that occurred on the island of Madeira: in July 1829, in the 13th infantry regiment, because an officer who was a stranger to the corporation was appointed as interim commander; on July 30, 1852, in the 6th hunters battalion, when Lieutenant Lapierre was killed; and on August 2, 1870, in the 5th hunters battalion, following a weapons inspection. Military Garrison and Lapierre.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location of the military insubordinations"
+        ]
+    },
+    "people": {
+        "Lapierre": [
+            "Lieutenant killed during the military insubordination"
+        ]
+    },
+    "years": {
+        "1829": [
+            "Insubordination in the 13th infantry regiment"
+        ],
+        "1852": [
+            "Insubordination in the 6th hunters battalion"
+        ],
+        "1870": [
+            "Insubordination in the 5th hunters battalion"
+        ]
+    }
+}

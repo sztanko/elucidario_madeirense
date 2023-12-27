@@ -1,0 +1,37 @@
+{
+    "id": 267,
+    "lang": "en",
+    "is_original": false,
+    "title": "Arquimbau (Ramon Masferrer y)",
+    "fl": "A",
+    "original_title": "Arquimbau (Ramon Masferrer y)",
+    "body": "A physician from the Barcelona school, born in Vich on May 15, 1850, and died in the Philippines on April 5, 1884. Author of: Catalogo razonado de la Flora de Tenerife y notas sobre la Flora de todo el arquipélago Canario, Madeira e demais islas de aquela región botánica (no place or date of publication).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Barcelona": [
+            "Place of education of Ramon Masferrer y Arquimbau"
+        ],
+        "Vich": [
+            "Birthplace of Ramon Masferrer y Arquimbau"
+        ],
+        "Filipinas": [
+            "Place of death of Ramon Masferrer y Arquimbau"
+        ]
+    },
+    "people": {
+        "Ramon Masferrer y Arquimbau": [
+            "Physician educated at the Barcelona school"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Birth of Ramon Masferrer y Arquimbau"
+        ],
+        "1884": [
+            "Death of Ramon Masferrer y Arquimbau"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 3650,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Virtudes",
+    "fl": "V",
+    "original_title": "Virtudes",
+    "body": "Sítio povoado da freguesia de São Martinho, que tomou o nome da capela de Nossa Senhora das Virtudes ali existente, mandada edificar em 1661 por Francisco de Vasconcelos Bettencourt, tendo sido reconstruída por meados do século XIX. No mesmo sítio se encontra a capela de Santana, cujo fundador e ano de construção ignoramos.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco de Vasconcelos Bettencourt": [
+            "Fundador da capela de Nossa Senhora das Virtudes"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Construção da capela de Nossa Senhora das Virtudes"
+        ]
+    }
+}

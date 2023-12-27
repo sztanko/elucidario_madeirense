@@ -1,0 +1,27 @@
+{
+    "id": 1723,
+    "lang": "en",
+    "is_original": false,
+    "title": "Hypersthene",
+    "fl": "H",
+    "original_title": "Hiperstenite",
+    "body": "Johnson points out this rock, belonging to the diabase group, in Porto da Cruz, but this discovery seems not to be confirmed by the observations of modern geologists who have visited the locality. According to Gagel, essexite and madeirite appear in that locality, rocks that probably correspond to the Hypersthene of Johnson. See Geology.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto da Cruz": [
+            "Location where Hypersthene was pointed out by Johnson"
+        ]
+    },
+    "people": {
+        "Johnson": [
+            "Author of the pointing out of Hypersthene in Porto da Cruz"
+        ],
+        "Gagel": [
+            "Geologist who mentioned essexite and madeirite in the locality"
+        ]
+    },
+    "years": {}
+}

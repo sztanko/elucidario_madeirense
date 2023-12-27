@@ -1,0 +1,29 @@
+{
+    "id": 1178,
+    "lang": "en",
+    "is_original": false,
+    "title": "Diseases",
+    "fl": "D",
+    "original_title": "Doenças",
+    "body": "The prevalent diseases in Madeira are tuberculosis, diarrhea, organic heart lesions, strokes and other brain diseases, pneumonia, and bronchitis. Out of 3631 deaths in the Funchal District in 1917, 263 were due to lung tuberculosis, 11 to meningeal tuberculosis, 17 to other forms of tuberculosis, 890 to diarrhea and enteritis (only 382 of the deceased were over 2 years old), 246 to organic heart lesions, 239 to congestions, cerebral hemorrhages, and softening, 167 to acute bronchitis, 40 to chronic bronchitis, 155 to pneumonia, and 105 to other respiratory diseases.\n\nCancer often affects different organs, and acute and chronic hepatitis, acute and chronic rheumatism, scrofula, certain skin diseases, and various forms of continuous fevers, especially gastric and ataxo-dynamic, are also not uncommon on the island. In 1917, 91 individuals died of cancer and other malignant tumors in the entire archipelago.\n\nElephantiasis appears in several locations in Madeira, mainly affecting individuals from the lower classes. The parishes of Ponta do Sol and Ponta do Pargo have the highest percentage of individuals affected by this disease.\n\nMeasles and smallpox have occasionally appeared in Madeira in epidemic form, always spreading through the contagion of individuals coming from outside. Among the smallpox epidemics, we can mention those of 1801, 1815 (which caused over 2000 deaths throughout the island), 1858, 1859, 1870, 1873, and 1907; and among the measles epidemics, those of 1751 (which caused a notable mortality), 1816, and 1884.\nIn 1905, bubonic plague (see this name) manifested itself in Madeira, but without an epidemic character, and in 1907, there were 14 deaths in the parish of Santo Antonio, reportedly due to infectious pneumonias. Cholera (see this name) visited us in 1856 and 1910, rabies (see this name) in 1892, scarlet fever in 1814, 1825, and 1864, influenza with many cases of pneumonia in 1884, cerebrospinal meningitis, in epidemic form, in 1904, and the Spanish flu (a type of influenza) and pneumonic flu in 1919. Dr. Nuno Silvestre Teixeira wrote a remarkable report on these last two diseases, which began to be published in the Diário de Noticias in December 1919.\nThe term influenza, now given to the flu that has frequently appeared in Madeira, was already known among us in the second quarter of the 19th century, as seen in documents recorded in the archive of the Funchal City Council.\nIn 1847, there were many irritative affections of the digestive system caused by hunger, resulting in high mortality, and in 1888, there were many cases of a special anemia in the parish of Porto da Cruz, reportedly caused by Anchylostomum intestinale, according to the late physician Dr. Vicente Cândido Machado. In 1893, there was an epidemic of typhoid fever in the parish of Pôrto do Moniz, which caused a large number of deaths. Whooping cough rarely develops on the island in epidemic form, the same can be said about mumps or mumps.\nThere are no endemic diseases in Madeira; there are simply common diseases found in all countries, which generally present themselves with a benign character. The Madeira fever, mentioned by detractors of the island's climate, is simply a gastric embarrassment that occasionally affects foreigners who eat certain fruits that do not exist in Northern Europe in large quantities. The insufficiency of clothing, a weak diet, the abuse of alcoholic beverages, and certain inexcusable neglect in cleanliness make individuals from the lower classes generally more susceptible to the prevalent diseases on the island than individuals from the more fortunate classes. However, the proportion of mortality caused by these diseases compared to other countries is quite favorable to Madeira, greatly influenced by the mildness of our climate and the natural vigor and resistance of our race.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Ponta do Pargo",
+        "Santo Antonio",
+        "Porto da Cruz",
+        "Pôrto do Moniz"
+    ],
+    "locations": {},
+    "people": {
+        "Dr. Nuno Silvestre Teixeira": [
+            "Physician"
+        ],
+        "Dr. Vicente Cândido Machado": [
+            "Physician"
+        ]
+    },
+    "years": {}
+}

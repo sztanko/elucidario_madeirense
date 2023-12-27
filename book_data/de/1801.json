@@ -1,0 +1,35 @@
+{
+    "id": 1801,
+    "lang": "de",
+    "is_original": false,
+    "title": "Militärische Meutereien",
+    "fl": "M",
+    "original_title": "Insubordinações Militares",
+    "body": "Wir kennen nur die folgenden, die auf der Insel Madeira stattfanden: die vom Juli 1829 im Infanterieregiment Nr. 13, weil ein Offizier zum kommissarischen Kommandeur ernannt wurde, der nicht der Truppe angehörte; die vom 30. Juli 1852 im Jägerbataillon Nr. 6, bei der Leutnant Lapierre getötet wurde; und die vom 2. August 1870 im Jägerbataillon Nr. 5 nach einer Waffenschau. Militärgarnison und Lapierre.",
+    "categories": [
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ort der militärischen Meutereien"
+        ]
+    },
+    "people": {
+        "Lapierre": [
+            "Getöteter Leutnant während der Meuterei"
+        ]
+    },
+    "years": {
+        "1829": [
+            "Meuterei im Infanterieregiment Nr. 13"
+        ],
+        "1852": [
+            "Meuterei im Jägerbataillon Nr. 6"
+        ],
+        "1870": [
+            "Meuterei im Jägerbataillon Nr. 5"
+        ]
+    }
+}

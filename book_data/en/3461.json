@@ -1,0 +1,52 @@
+{
+    "id": 3461,
+    "lang": "en",
+    "is_original": false,
+    "title": "Submarine Telegraph",
+    "fl": "S",
+    "original_title": "Telégrafo Submarino",
+    "body": "Madeira is connected to Portugal (Carcavelos) by two cables from the 'Western Telegraph Company' and to S. Vicente de Cabo Verde by two cables from the same company and one from the 'Eastern Telegraph Company', the latter cable coming directly from Great Britain and extending to South Africa, touching S. Vicente de Cabo Verde, Ascension, and St. Helena.\n\nThe 'Western Telegraph Company' replaced the 'Brazilian Telegraph Company', which established the telegraphic service between Madeira and the Mainland in 1874, as mentioned on page 172 of volume I of this Elucidário, and in 1883 or 1884, laid a second cable following the same direction. As for the submarine cable of the 'Eastern Telegraph Company', it was established under a contract signed on September 21, 190. (1921)",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Connection by submarine cables to Portugal and S. Vicente de Cabo Verde"
+        ],
+        "Carcavelos": [
+            "Connection by submarine cable to Madeira"
+        ],
+        "S. Vicente de Cabo Verde": [
+            "Connection by submarine cable to Madeira"
+        ],
+        "Great Britain": [
+            "Origin of one of the submarine cables that connects to Madeira"
+        ],
+        "South Africa": [
+            "Final destination of the submarine cable that passes through Madeira"
+        ],
+        "Ascension": [
+            "Passing point of the submarine cable that connects to Madeira"
+        ],
+        "St. Helena": [
+            "Passing point of the submarine cable that connects to Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1874": [
+            "Establishment of the telegraphic service between Madeira and the Mainland by the 'Brazilian Telegraph Company'"
+        ],
+        "1883": [
+            "Laying of a second submarine cable by the 'Brazilian Telegraph Company'"
+        ],
+        "1884": [
+            "Laying of a second submarine cable by the 'Brazilian Telegraph Company'"
+        ],
+        "190": [
+            "Establishment of the submarine cable of the 'Eastern Telegraph Company'"
+        ]
+    }
+}

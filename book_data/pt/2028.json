@@ -1,0 +1,29 @@
+{
+    "id": 2028,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo Grande",
+    "fl": "L",
+    "original_title": "Lombo Grande",
+    "body": "Extensa lomba que da freguesia do Curral das Freiras se estende até o cume da serra das Torrinhas, sendo cortada por uma estrada que se dirige á freguesia da Boa ventura. Antes de atingir-se a cumeada das Torrinhas, bifurca-se a estrada, tomando um dos ramais a direcção do Pico Ruivo, que é o caminho preferido para a ascensão daquela eminência.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Curral das Freiras",
+        "Boa ventura"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Freguesia do Curral das Freiras"
+        ],
+        "Boa ventura": [
+            "Freguesia da Boa ventura"
+        ],
+        "Pico Ruivo": [
+            "Localidade"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

@@ -1,0 +1,51 @@
+{
+    "id": 1877,
+    "lang": "en",
+    "is_original": false,
+    "title": "Justices of the Peace",
+    "fl": "J",
+    "original_title": "Juízes de Paz",
+    "body": "The decree of May 16, 1832, created a justice of the peace in each of the parishes that made up the judiciaries, and the same judge was to be elected by the people. The justices of the peace were intended to reconcile the parties, and from 1835 to 1840, they performed functions that previously belonged to the judges of the orphans.\n\nThe decree of March 29, 1890, determined that the justices of the peace would be appointed by the Government, and the decree of June 5, 1905, fixed the composition of the districts of justices of the peace of Funchal, Ponta do Sol, Santa Cruz, and São Vicente.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Ponta do Sol",
+        "Santa Cruz",
+        "São Vicente"
+    ],
+    "locations": {
+        "Funchal": [
+            "City of Funchal"
+        ],
+        "Ponta do Sol": [
+            "Parish"
+        ],
+        "Santa Cruz": [
+            "Parish"
+        ],
+        "São Vicente": [
+            "Parish"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1832": [
+            "Creation of the office of justice of the peace"
+        ],
+        "1835": [
+            "Start of the functions of the justices of the peace"
+        ],
+        "1840": [
+            "End of the functions of the justices of the peace"
+        ],
+        "1890": [
+            "Appointment of the justices of the peace by the Government"
+        ],
+        "1905": [
+            "Establishment of the composition of the districts of justices of the peace"
+        ]
+    }
+}

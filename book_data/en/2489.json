@@ -1,0 +1,37 @@
+{
+    "id": 2489,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora da Esperança (Chapel of)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Esperança (Capela de)",
+    "body": "Father Manuel de Nóbrega founded a chapel with the invocation of Nossa Senhora da Esperança at the Vale Formoso site, in the parish of Santa Luzia, in the year 1744, with the endowment deed dated December 11 of the same year. It was demolished many years ago.\n\nThere was a chapel with the same invocation in the parish of São Roque, which was quite old and was the center of an ancient pilgrimage. Lieutenant Colonel A. Artur Sarmento published an extensive historical account of this chapel in a pamphlet.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Luzia",
+        "São Roque"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Parish"
+        ],
+        "São Roque": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Manuel de Nóbrega": [
+            "Priest"
+        ],
+        "A. Artur Sarmento": [
+            "Lieutenant colonel"
+        ]
+    },
+    "years": {
+        "1744": [
+            "Foundation of the chapel of Nossa Senhora da Esperança at the Vale Formoso site"
+        ]
+    }
+}

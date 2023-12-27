@@ -1,0 +1,37 @@
+{
+    "id": 1694,
+    "lang": "de",
+    "is_original": false,
+    "title": "Henry (Paul)",
+    "fl": "H",
+    "original_title": "Henry (Paul)",
+    "body": "Offizier der französischen Kriegsmarine, gestorben in Peking am 30. Juli 1900 bei der Besetzung der Stadt durch die alliierten Armeen. Er war im Oktober 1895 auf Madeira an Bord des Schiffes Iphigénie und im Oktober 1896 sowie im Juni 1897 an Bord der Melpomène. R. Bazin befasst sich in seinem Buch L'enseigne de vaisseau Paul Henry mit dem Aufenthalt dieses Offiziers auf Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Peking": [
+            "Ort des Todes"
+        ]
+    },
+    "people": {
+        "R. Bazin": [
+            "Autor des Buches"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Tod in Peking"
+        ],
+        "1895": [
+            "Aufenthalt auf Madeira an Bord des Schiffes Iphigénie"
+        ],
+        "1896": [
+            "Aufenthalt auf Madeira an Bord der Melpomène"
+        ],
+        "1897": [
+            "Aufenthalt auf Madeira an Bord der Melpomène"
+        ]
+    }
+}

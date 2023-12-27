@@ -1,0 +1,31 @@
+{
+    "id": 1299,
+    "lang": "de",
+    "is_original": false,
+    "title": "Facheiro",
+    "fl": "F",
+    "original_title": "Facheiro",
+    "body": "Im ursprünglichen militärischen System zur Verteidigung der Küste gab es das Amt des Facheiro, der dafür zuständig war, auf den Berggipfeln Feuer zu entzünden, um die Ortschaften zu warnen, dass feindliche Segel in Sicht waren. Diese Praxis dauerte bis zur Regierung von D. Diogo Pereira Forjaz Coutinho an und ist noch im Namen des Pico do Facho in Machico und Porto Santo präsent.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Pico do Facho": [
+            "Ort in Machico und Porto Santo"
+        ]
+    },
+    "people": {
+        "D. Diogo Pereira Forjaz Coutinho": [
+            "Regierung bis 1801"
+        ]
+    },
+    "years": {
+        "1801": [
+            "Ende des Amtes des Facheiro"
+        ]
+    }
+}

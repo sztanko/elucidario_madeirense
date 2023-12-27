@@ -1,0 +1,37 @@
+{
+    "id": 1512,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fundoa",
+    "fl": "F",
+    "original_title": "Fundoa",
+    "body": "Sítio povoado da freguesia de São Roque do Funchal. Neste sítio e na margem direita da Ribeira de Santa Luzia, encontra-se a capela de Nossa Senhora do Rosário, edificada por João da Paz de Castro no ano de 1668. Os jesuítas tiveram ali uma residência com capela privada e terras circunjacentes.\n\nNeste sítio se encontrava um importante reservatório de águas potáveis que, por meio dum extenso aqueduto, eram conduzidas para o centro da cidade e especialmente destinadas ao abastecimento do antigo hospital da Misericórdia e outros edifícios. Foi mandado construir pelo então provedor o bispo D. Fr. Joaquim de Meneses e Ataíde no ano de 1817 e dirigido pelo engenheiro Paulo Dias de Almeida, sendo considerado na época como uma valiosa obra debaixo do ponto vista técnico.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "João da Paz de Castro": [
+            "Edificador da capela de Nossa Senhora do Rosário"
+        ],
+        "D. Fr. Joaquim de Meneses e Ataíde": [
+            "Provedor"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Edificação da capela de Nossa Senhora do Rosário"
+        ],
+        "1817": [
+            "Construção do reservatório de águas potáveis"
+        ]
+    }
+}

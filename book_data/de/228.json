@@ -1,0 +1,48 @@
+{
+    "id": 228,
+    "lang": "de",
+    "is_original": false,
+    "title": "Die Antoneida",
+    "fl": "D",
+    "original_title": "Antoneida (A)",
+    "body": "Von der Gesellschaft der Ersten Menschen der Welt. Funchal, 1879. Es ist ein Werk der Herren João José Vieira, Luiz de Betencourt Miranda, Francisco João Moniz, Afonso Dias de Vasconcelos, João Silvestre Moniz und Pedro Candido da Silveira, von denen nur die beiden ersten noch leben. Die Gesellschaft der Ersten Menschen der Welt traf sich auf einem Anwesen im Ort Desterro in der Gemeinde Monte, das dem verstorbenen madeirischen Naturforscher João Maria Moniz gehörte.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Desterro": [
+            "Gemeinde Monte"
+        ]
+    },
+    "people": {
+        "João José Vieira": [
+            "Autor"
+        ],
+        "Luiz de Betencourt Miranda": [
+            "Autor"
+        ],
+        "Francisco João Moniz": [
+            "Autor"
+        ],
+        "Afonso Dias de Vasconcelos": [
+            "Autor"
+        ],
+        "João Silvestre Moniz": [
+            "Autor"
+        ],
+        "Pedro Candido da Silveira": [
+            "Autor"
+        ],
+        "João Maria Moniz": [
+            "Verstorbener madeirischer Naturforscher"
+        ]
+    },
+    "years": {
+        "1879": [
+            "Veröffentlichung des Werkes 'Die Antoneida' durch die Gesellschaft der Ersten Menschen der Welt"
+        ]
+    }
+}

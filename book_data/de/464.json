@@ -1,0 +1,49 @@
+{
+    "id": 464,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bemposta",
+    "fl": "B",
+    "original_title": "Bemposta",
+    "body": "Ort in der Gemeinde Água de Pena. Dort befand sich der Sitz des Lehenhofs, den João Afonso Escudeiro 1512 einrichtete. Er stammte aus dem Festland des Königreichs und kam um 1450 auf diese Insel. Er entstammte edler Abkunft, und hier wurden ihm seine Rechte als Edelmann zuerkannt. Er starb 1512 in hohem Alter und richtete in seinem Testament vom 21. Juni desselben Jahres den Lehenhof Bemposta in der Gemeinde Água de Pena und den des Heiligen Lazarus in der Gemeinde Santa Cruz ein. Die erste Verwalterin des Lehenhofs Bemposta war D. Catarina Anes Escudeiro, Tochter von José Afonso. Sie heiratete Lopo Franco de Monção, der so genannt wurde, weil er aus der Stadt gleichen Namens stammte. Er kam um 1480 nach Madeira. 1515 war er der erste Richter der Stadtverwaltung von Santa Cruz. In der Verwaltung des Lehenhofs Bemposta folgte ihr Sohn João Lopes Franco, und in dem Landgut und der Kapelle des Heiligen Lazarus eine Tochter namens Maria Franco. Der dritte Verwalter des Lehenhofs Bemposta war Diogo Lopes Tavares, der auch den Lehenhof des Heiligen Lazarus erbte, da D. Maria Franco ohne Nachkommen starb. Diese Familie hatte eine Grabstätte im ehemaligen Kloster von Santa Cruz, wo noch vor wenigen Jahren die entsprechende Grabplatte mit einem Wappen zu sehen war, das die Wappen der Tavares und der Borralhos zeigte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Água de Pena",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "João Afonso Escudeiro": [
+            "Richtete 1512 den Lehenhof Bemposta ein"
+        ],
+        "D. Catarina Anes Escudeiro": [
+            "Erste Verwalterin des Lehenhofs Bemposta"
+        ],
+        "Lopo Franco de Monção": [
+            "Heiratete D. Catarina Anes Escudeiro"
+        ],
+        "João Lopes Franco": [
+            "Sohn von D. Catarina Anes Escudeiro, Nachfolger in der Verwaltung des Lehenhofs Bemposta"
+        ],
+        "Maria Franco": [
+            "Tochter von D. Catarina Anes Escudeiro, Nachfolgerin im Landgut und in der Kapelle des Heiligen Lazarus"
+        ],
+        "Diogo Lopes Tavares": [
+            "Dritter Verwalter des Lehenhofs Bemposta"
+        ]
+    },
+    "years": {
+        "1450": [
+            "Ankunft von João Afonso Escudeiro auf der Insel"
+        ],
+        "1512": [
+            "João Afonso Escudeiro richtete den Lehenhof Bemposta ein"
+        ]
+    }
+}

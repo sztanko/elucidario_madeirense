@@ -1,0 +1,43 @@
+{
+    "id": 3583,
+    "lang": "de",
+    "is_original": false,
+    "title": "Veiga Pestana (Fähnrich João Paulo da)",
+    "fl": "V",
+    "original_title": "Veiga Pestana (Alferes João Paulo da)",
+    "body": "Er war der Sohn von João Pestana Santos und D. Carlota Amalia Drumond da Veiga Pestana und wurde am 25. Dezember 1895 in Funchal geboren. Nachdem er 1913 seine Vorbereitungsstudien am Lyzeum dieser Stadt abgeschlossen hatte, immatrikulierte er sich an der Fakultät für Wissenschaften der Universität Coimbra, um Bauingenieurwesen zu studieren, wurde aber 1916, nach dem Eintritt Portugals in den Großen Krieg, zum Militärdienst einberufen und aufgrund seiner wissenschaftlichen Qualifikationen sofort zur Offiziersschule berufen. Am 1. Mai 1917 wurde er als Fähnrichsanwärter der Infanterie 30 ernannt und am 5. September desselben Jahres zum Fähnrich befördert. Zur Teilnahme am Portugiesischen Expeditionskorps in Frankreich abkommandiert, reiste er am 11. September desselben Jahres in dieses Land, wo er am 9. April 1918 in der Schlacht an der Lys den Heldentod fand, nachdem er sieben Monate in den Schützengräben verbracht und dort zahlreiche Beweise seines Mutes und soldatischen Könnens gegeben hatte. Die portugiesische Presse widmete dem unglücklichen Offizier João Paulo da Veiga Pestana ausführliche Artikel, und die Illustração Portuguesa veröffentlichte sein Porträt zusammen mit einigen biografischen Angaben. Der Stadtrat von Funchal benannte in seiner Sitzung vom 10. April 1919 die ehemalige Straße Rua das Hortas nach Fähnrich Veiga Pestana und würdigte damit \"diese bescheidene aber verdiente Weihe an den jungen Offizier, der, als die Gefahr näher rückte, aufgefordert, zu fliehen, mit dem Blick auf das Vaterland antwortete: Möge fliehen, wer will; ich bleibe in Erfüllung meiner Pflicht\".",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "João Pestana Santos": [
+            "Vater von João Paulo da Veiga Pestana"
+        ],
+        "D. Carlota Amalia Drumond da Veiga Pestana": [
+            "Mutter von João Paulo da Veiga Pestana"
+        ]
+    },
+    "years": {
+        "1895": [
+            "Geburt von João Paulo da Veiga Pestana"
+        ],
+        "1913": [
+            "Abschluss der Vorbereitungsstudien"
+        ],
+        "1916": [
+            "Einstellung in die Armee"
+        ],
+        "1917": [
+            "Beförderung zum Fähnrich"
+        ],
+        "1918": [
+            "Tod in der Schlacht an der Lys"
+        ]
+    }
+}

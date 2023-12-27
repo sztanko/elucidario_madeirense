@@ -1,0 +1,36 @@
+{
+    "id": 2027,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo da Estrela",
+    "fl": "L",
+    "original_title": "Lombo da Estrela",
+    "body": "Sítio povoado da freguesia da Calheta. Encontra-se neste sítio a capela de Nossa Senhora do Bom Sucesso, edificada por Lourenço da Costa em 1683. Ficava neste sítio a antiga capela de Nossa Senhora da Estrela, onde se instalou a sede da paróquia, por ocasião da sua criação, como deixámos dito no artigo referente à freguesia da Calheta. Também existiu neste sítio uma capela de invocação de Santa Quitéria, construída no ano de 1724, por João Homem de Abreu. Muitas vezes se tem projectado a mudança da sede da vila da Calheta para este sítio.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Freguesia da Calheta"
+        ]
+    },
+    "people": {
+        "Lourenço da Costa": [
+            "Pessoa"
+        ],
+        "João Homem de Abreu": [
+            "Pessoa"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Edificação da capela de Nossa Senhora do Bom Sucesso"
+        ],
+        "1724": [
+            "Construção da capela de Santa Quitéria"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 802,
+    "lang": "en",
+    "is_original": false,
+    "title": "Casa dos Pobres Desamparados",
+    "fl": "C",
+    "original_title": "Casa dos Pobres Desamparados",
+    "body": "It was a particular asylum, administered by its founder José Fernandes Velosa. It was intended to shelter and support a certain number of poor people of both sexes and existed since 1897, with alms, legacies, and the proceeds of some festivals being its main sources of income.\n\nThe establishment, which initially only received men, began in 1895 under the designation of 'Albergue Nocturno', with the first poor person to whom Mr. Velosa granted protection being sheltered by him in his house on a night in December 1894. Its founder passed away on January 30, 1934.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Fernandes Velosa": [
+            "Founder and administrator of the asylum"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Year of the asylum's inception"
+        ],
+        "1895": [
+            "Inception of the asylum under the designation of 'Albergue Nocturno'"
+        ],
+        "1894": [
+            "First poor person sheltered by Mr. Velosa"
+        ],
+        "1934": [
+            "Founder's passing"
+        ]
+    }
+}

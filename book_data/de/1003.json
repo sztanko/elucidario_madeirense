@@ -1,0 +1,48 @@
+{
+    "id": 1003,
+    "lang": "de",
+    "is_original": false,
+    "title": "Cook (James)",
+    "fl": "C",
+    "original_title": "Cook (James)",
+    "body": "Nach der ersten Weltumsegelung durch unseren berühmten Landsmann Ferdinand Magellan war die zweite Seereise um die Welt die des großen englischen Seefahrers James Cook, der der Wissenschaft herausragende Dienste leistete und am meisten zum Ausbau geografischer Kenntnisse beitrug.\n\nCook verließ bei seiner ersten Weltumsegelung am 26. August 1768 die Küste Englands und kommandierte das Schiff Endeavour der britischen Marine, das am 13. September im Hafen von Funchal vor Anker ging und am 19. in Richtung Rio de Janeiro auslief.\n\nKapitän Cook wurde in der Stadt vom englischen Konsul Cheap und vom Gouverneur und Generalhauptmann João Antonio de Sá Pereira sehr freundlich empfangen.\n\nAn Bord der Endeavour waren die Naturforscher Joseph Banks und Dr. Solander, die mit verschiedenen wissenschaftlichen Studien beauftragt waren. Während der wenigen Tage, die sie auf Madeira verbrachten, führten sie verschiedene Untersuchungen zur Naturgeschichte durch, unterstützt von Dr. Heberden, einem angesehenen englischen Arzt, der damals in Funchal lebte.\n\nDer Bericht dieser Reise Cooks bezieht sich auf verschiedene interessante Punkte unserer Bräuche, Klöster und Kirchen, Transportmittel, Weinhandel usw. Cook und die beiden Gelehrten der Expedition waren sehr beeindruckt von einer Kapelle im Franziskanerkloster, deren Wände buchstäblich mit menschlichen Schienbeinen, Oberschenkelknochen und Schädeln bedeckt waren. Andere Besucher beziehen sich auch mit großem Erstaunen auf diese makabre Kapelle, aber es handelt sich nicht um einen Einzelfall, denn auch in anderen europäischen Klöstern gab es einige Kapellen mit menschlichen Überresten an den Wänden.\n\nDie Nummern 462, 463 und 466 des alten Heraldo da Madeira enthalten die Übersetzung der Beschreibung von Cooks Reise, die es wert ist, gelesen zu werden.\n\nCook kam 1772 auf seiner zweiten Reise in die Südsee, diesmal das Schiff Resolution kommandierend, wieder nach Madeira und lief am 29. Juli in den Hafen von Funchal ein. Die Naturforscher der Expedition waren Johann Reinhold Forster und sein Sohn Johann Georg, die während der drei Tage, die sie auf der Insel verbrachten, 96 Pflanzen beobachteten, von denen einige kultiviert wurden. Aus dem Bericht dieser Expedition geht hervor, dass es damals auf Madeira eine ungeheure Anzahl von Schwarzen und Mulatten gab, von denen einige frei, andere versklavt waren.\n\nForster berichtet, dass Schiffe der ersten Expedition von Kapitän Cook 1768 die Festung auf der Ilhéu wegen einer Beleidigung der britischen Flagge bombardierten, aber weder der Bericht von Hawkesworth noch die amtlichen Dokumente jener Zeit beziehen sich auf diese Tatsache, die, wenn sie eingetreten wäre, die guten Beziehungen zwischen Portugal und England nicht beeinträchtigt hätte.\n\nKapitän Cook unternahm 1776 eine dritte Reise, ohne Madeira anzulaufen, und starb auf einer der Inseln des Sandwich-Archipels in einem Gefecht mit Eingeborenen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Ferdinand Magellan": [
+            "Berühmter Landsmann, Seefahrer"
+        ],
+        "James Cook": [
+            "Seefahrer"
+        ],
+        "Joseph Banks": [
+            "Naturforscher"
+        ],
+        "Solander": [
+            "Naturforscher"
+        ],
+        "Heberden": [
+            "Arzt"
+        ],
+        "Johann Reinhold Forster": [
+            "Naturforscher"
+        ],
+        "Johann Georg": [
+            "Naturforscher"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Erste Weltumsegelung"
+        ],
+        "1772": [
+            "Zweite Reise in die Südsee"
+        ],
+        "1776": [
+            "Dritte Reise"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "id": 1877,
+    "lang": "de",
+    "is_original": false,
+    "title": "Friedensrichter",
+    "fl": "F",
+    "original_title": "Juízes de Paz",
+    "body": "Das Dekret vom 16. Mai 1832 schuf in jeder Gemeinde eines Gerichtsbezirks einen Friedensrichter, der vom Volk gewählt werden sollte. Die Friedensrichter sollten die Parteien versöhnen und von 1835 bis 1840 Funktionen ausüben, die zuvor den Waisenrichtern oblagen.\n\nDas Dekret vom 29. März 1890 bestimmte, dass die Friedensrichter von der Regierung ernannt werden sollten, und das vom 5. Juni 1905 legte die Zusammensetzung der Friedensrichterbezirke von Funchal, Ponta do Sol, Santa Cruz und São Vicente fest.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Ponta do Sol",
+        "Santa Cruz",
+        "São Vicente"
+    ],
+    "locations": {
+        "Funchal": [
+            "Stadt Funchal"
+        ],
+        "Ponta do Sol": [
+            "Gemeinde"
+        ],
+        "Santa Cruz": [
+            "Gemeinde"
+        ],
+        "São Vicente": [
+            "Gemeinde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1832": [
+            "Schaffung des Amtes des Friedensrichters"
+        ],
+        "1835": [
+            "Beginn der Amtszeit der Friedensrichter"
+        ],
+        "1840": [
+            "Ende der Amtszeit der Friedensrichter"
+        ],
+        "1890": [
+            "Ernennung der Friedensrichter durch die Regierung"
+        ],
+        "1905": [
+            "Festlegung der Zusammensetzung der Friedensrichterbezirke"
+        ]
+    }
+}

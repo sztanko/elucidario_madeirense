@@ -1,0 +1,69 @@
+{
+    "id": 2043,
+    "lang": "en",
+    "is_original": false,
+    "title": "Longevity",
+    "fl": "L",
+    "original_title": "Longevidade",
+    "body": "In 1911, there were 586 men and 868 women over 80 years old in the entire district of Funchal, distributed as follows:\n\n| Location           | Males | Females |\n|--------------------|-------|---------|\n| Funchal            | 142   | 273     |\n| Câmara de Lobos    | 75    | 111     |\n| Ponta do Sol       | 76    | 122     |\n| Calheta            | 67    | 111     |\n| Porto do Moniz     | 22    | 29      |\n| S. Vicente         | 37    | 31      |\n| Santana            | 41    | 32      |\n| Machico            | 33    | 57      |\n| Santa Cruz         | 84    | 94      |\n| Porto Santo        | 9     | 8       |\n\nOf these individuals, 385 males and 578 females were between 80 and 85 years old; 126 males and 177 females were 85 years old; 56 males and 76 females were between 90 and 95; 14 males and 32 females were between 95 and 100; 5 males and 3 females were between 100 and 105; and 2 females were over 105 years old. In 1911, there was a 109-year-old woman living in Achada dos Judeus in S. Vicente.\n\nThe proportion of individuals aged 80 to 100 or more, per 1000 inhabitants, was as follows in the year 1911:\n\n| Location           | Proportion per 1000 inhabitants |\n|--------------------|---------------------------------|\n| Funchal            | 8.24                            |\n| Câmara de Lobos    | 9.23                            |\n| Ponta do Sol       | 9.84                            |\n| Calheta            | 8.88                            |\n| Porto do Moniz     | 11.62                           |\n| S. Vicente         | 7.96                            |\n| Santana            | 7.20                            |\n| Machico            | 6.46                            |\n| Santa Cruz         | 8.90                            |\n| Porto Santo        | 7.79                            |\n\nIn March 1920, a man aged 101 died in Madeira, in September another aged 106, and in December a woman aged 103.\n\nDr. Mittermaier calculated the average human lifespan in Funchal to be 35.16 years, but according to some calculations we made some time ago, this average lifespan rises to 39.8. Dr. Heberden, who was in Madeira in the 18th century, calculated the average human lifespan on the entire island to be 39 years.\n\nFor information on longevity in the Mainland and Adjacent Islands, refer to the Population Census No. I of December 1911 (part 4th); Lisbon, 1914.",
+    "categories": [
+        "society",
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City where there were 142 males and 273 females over 80 years old in 1911"
+        ],
+        "Câmara de Lobos": [
+            "Locality with 75 males and 111 females over 80 years old in 1911"
+        ],
+        "Ponta do Sol": [
+            "Locality with 76 males and 122 females over 80 years old in 1911"
+        ],
+        "Calheta": [
+            "Locality with 67 males and 111 females over 80 years old in 1911"
+        ],
+        "Porto do Moniz": [
+            "Locality with 22 males and 29 females over 80 years old in 1911"
+        ],
+        "S. Vicente": [
+            "Locality with 37 males and 31 females over 80 years old in 1911, including a 109-year-old woman in Achada dos Judeus"
+        ],
+        "Santana": [
+            "Locality with 41 males and 32 females over 80 years old in 1911"
+        ],
+        "Machico": [
+            "Locality with 33 males and 57 females over 80 years old in 1911"
+        ],
+        "Santa Cruz": [
+            "Locality with 84 males and 94 females over 80 years old in 1911"
+        ],
+        "Porto Santo": [
+            "Locality with 9 males and 8 females over 80 years old in 1911"
+        ]
+    },
+    "people": {
+        "Dr. Mittermaier": [
+            "Calculated the average human lifespan in Funchal to be 35.16 years"
+        ],
+        "Dr. Heberden": [
+            "Calculated the average human lifespan on the entire island of Madeira to be 39 years in the 18th century"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Year in which the census was conducted, indicating the distribution of people over 80 years old in the district of Funchal"
+        ],
+        "1920": [
+            "Year in which three centenarians died in Madeira"
+        ],
+        "1775": [
+            "Date of the royal charter presenting João Francisco Lopes Rocha as parish priest in the parish of Santa Maria Maior"
+        ],
+        "1819": [
+            "Death of Dr. João Francisco Lopes Rocha"
+        ]
+    }
+}

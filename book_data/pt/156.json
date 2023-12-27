@@ -1,0 +1,31 @@
+{
+    "id": 156,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almas (Capelas das)",
+    "fl": "A",
+    "original_title": "Almas (Capelas das)",
+    "body": "Na freguesia da Ribeira Brava, em sítio que hoje se ignora, fundou o tanoeiro Antonio Rodrigues Jardim, no ano de 1652, uma pequena ermida dedicada às Almas do Purgatório.\n\nNo sítio da Vargem da freguesia do Estreito de Câmara de Lobos encontra-se uma capela da mesma invocação, cujos fundador e ano de construção se desconhecem.\n\nExiste uma capela das Almas na freguesia da Calheta, ignorando-se quaisquer outras circunstâncias que lhe digam respeito.\n\nPor 1710, edificou o povo uma pequena capela das Almas no adro da igreja paroquial da freguesia do Estreito de Câmara de Lobos, que foi demolida.\n\nTambém contígua á igreja paroquial da freguesia da Ponta do Sol se construiu uma capela de igual invocação, que foi mandada demolir pela Câmara Municipal por 1925 para alargamento da rua do Dr. João Augusto Teixeira.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Estreito de Câmara de Lobos",
+        "Calheta",
+        "Ponta do Sol"
+    ],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1652": [
+            "Fundação da ermida dedicada às Almas do Purgatório por Antonio Rodrigues Jardim"
+        ],
+        "1710": [
+            "Edificação de uma pequena capela das Almas no adro da igreja paroquial da freguesia do Estreito de Câmara de Lobos"
+        ],
+        "1925": [
+            "Demolição da capela de igual invocação contígua á igreja paroquial da freguesia da Ponta do Sol"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 3350,
+    "lang": "de",
+    "is_original": false,
+    "title": "Landwirtschaftliche Genossenschaft Estreitense",
+    "fl": "L",
+    "original_title": "Sindicato Agrícola Estreitense",
+    "body": "Sie wurde 1918 in Estreito de Câmara de Lobos gegründet und ihre Statuten wurden im Amtsblatt vom 20. Dezember desselben Jahres veröffentlicht. Am 2. März 1919 wählte sie ihre Leitungsgremien. Sie soll sich um die landwirtschaftlichen Interessen ihrer Mitglieder und den Erwerb von Dünger, Saatgut, Maschinen, Insektiziden usw. kümmern (1921).",
+    "categories": [
+        "economy",
+        "society"
+    ],
+    "freguesias": [
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {
+        "Estreito de Câmara de Lobos": [
+            "Ort der Gründung der landwirtschaftlichen Genossenschaft Estreitense"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1918": [
+            "Gründung der landwirtschaftlichen Genossenschaft Estreitense"
+        ],
+        "1919": [
+            "Wahl der Leitungsgremien"
+        ]
+    }
+}

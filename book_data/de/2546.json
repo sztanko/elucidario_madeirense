@@ -1,0 +1,45 @@
+{
+    "id": 2546,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nuntius",
+    "fl": "N",
+    "original_title": "Núncio",
+    "body": "Am 25. Juli 1808 kam zufällig der Gesandte Seiner Heiligkeit in Lissabon, der aus London kam, auf Madeira an. Er landete in Pontinha und begab sich dann zur Kathedrale, wo er die 10-Uhr-Messe hörte. Nachdem er die Kirche besichtigt hatte, setzte er sich in eine Sänfte und fuhr zum Bischofspalast. Er verließ die Insel am 28., nach einem kurzen Aufenthalt, während dessen er einigen Studenten die niederen Weihen erteilte, da der Bischof nicht in Funchal war, und dem Dekan die erforderlichen Vollmachten zur Erteilung einiger Ehedispensen gab. Bei seiner Abreise salutierten alle Festungen der Stadt.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "London": [
+            "Stadt, aus der der päpstliche Nuntius in Lissabon kam"
+        ],
+        "Pontinha": [
+            "Anlegestelle des päpstlichen Nuntius in Lissabon"
+        ],
+        "Kathedrale": [
+            "Ort, an dem der päpstliche Nuntius in Lissabon die Messe hörte"
+        ],
+        "Funchal": [
+            "Stadt, in der der Bischof während des Aufenthalts des päpstlichen Nuntius nicht anwesend war"
+        ],
+        "Bischofspalast": [
+            "Ort, zu dem sich der päpstliche Nuntius nach dem Besuch der Kirche begab"
+        ],
+        "Insel": [
+            "Madeira"
+        ],
+        "Stadt": [
+            "Funchal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1808": [
+            "Ankunft des päpstlichen Nuntius in Lissabon auf Madeira"
+        ],
+        "28": [
+            "Abreise des päpstlichen Nuntius von der Insel"
+        ]
+    }
+}

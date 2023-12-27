@@ -1,0 +1,31 @@
+{
+    "id": 3107,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Roda dos Expostos",
+    "fl": "R",
+    "original_title": "Roda dos Expostos",
+    "body": "A 14 de Janeiro de 1820, resolveu a Câmara Municipal do Funchal mandar fazer uma roda de expostos na casa da ama geral, visto não haver nenhuma nesta cidade, e três anos depois mandou fazer outra em Câmara de Lobos, numa casa contígua à capela do Espírito Santo. Era tão avultado o numero de expostos a cargo da Câmara nos princípios do século XIX, que, em 20 de Maio de 1812, resolveu ela que o juiz-vereador tivesse «um sumario de policia» para apontar todas as mulheres publicas que estivessem grávidas, afim de darem conta dos seus filhos e os criarem.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Local da segunda roda de expostos"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1820": [
+            "Criação da roda de expostos no Funchal"
+        ],
+        "1812": [
+            "Resolução sobre mulheres grávidas"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 442,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barruncho (José Maria Smith)",
+    "fl": "B",
+    "original_title": "Barruncho (José Maria Smith)",
+    "body": "Das Wörterbuch Portugal sagt, dass dieser angesehene Offizier unserer Armee englischer Abstammung war und 1839 in Funchal geboren wurde. Er starb in Lissabon im Rang eines Generals am 26. Juli 1898.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ]
+    },
+    "people": {
+        "José Maria Smith Barruncho": [
+            "Armeeoffizier"
+        ]
+    },
+    "years": {
+        "1839": [
+            "Geburt in Funchal"
+        ],
+        "1898": [
+            "Tod in Lissabon"
+        ]
+    }
+}

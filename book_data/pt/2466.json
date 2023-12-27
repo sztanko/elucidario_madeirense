@@ -1,0 +1,51 @@
+{
+    "id": 2466,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Amparo (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Amparo (Capelas de)",
+    "body": "No sítio dos Álamos da freguesia de Santo António, se levanta a capela de Nossa Senhora do Amparo, que se acha em regular estado de conservação, celebrando-se ali de quando em quando o Santo Sacrifício da Missa. O local em que se encontra a capela fica na partilha desta freguesia e da de S. Roque, no sítio conhecido pelo nome de Água de Mel, que era denominação comum a um vasto terreno pertencente a ambas as paróquias. Na parte deste sítio, compreendida nos limites de Santo António, erguiam-se a capela, grande casa de habitação e outras dependências, que constituíam a sede da antiga instituição vincular chamada de Água de Mel.\n\nO anotador das Saudades da Terra, fixa o ano de 1698 como o da fundação desta capela, mas inclinamo-nos a acreditar que ela é muito mais antiga e talvez mesmo coeva da instituição do morgado, que data do ultimo quartel do século XV. No entretanto, é certo que Bartolomeu de Sá Machado, administrador deste vinculo, a fez edificar ou, talvez melhor, reconstruir no ano referido de 1698.\n\n(V. Bettencourt, I-139).\n\nD. Luísa de Mendonça, viúva de José de Seixas, fez edificar no ano de 1712 uma capela dedicada a Nossa Senhora do Amparo, na freguesia de São Martinho, a qual pertence aos herdeiros dos morgados Sauvayres, e na freguesia da Ponta do Pargo existe também uma capela com a mesma denominação, que deu o nome ao sítio onde está edificada. É muito concorrida a festividade que ali se celebra todos os anos. Dedicada a Nossa Senhora do Amparo, fundou ainda Francisco Dias Franco uma capela na freguesia de Machico no ano de 1692.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António",
+        "S. Roque",
+        "São Martinho",
+        "Ponta do Pargo",
+        "Machico"
+    ],
+    "locations": {
+        "Santo António": [
+            "Freguesia"
+        ],
+        "S. Roque": [
+            "Freguesia"
+        ],
+        "Água de Mel": [
+            "Sítio"
+        ],
+        "São Martinho": [
+            "Freguesia"
+        ],
+        "Ponta do Pargo": [
+            "Freguesia"
+        ],
+        "Machico": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Bartolomeu de Sá Machado": [
+            "Administrador do vinculo"
+        ],
+        "D. Luísa de Mendonça": [
+            "Viúva de José de Seixas"
+        ],
+        "Francisco Dias Franco": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {}
+}

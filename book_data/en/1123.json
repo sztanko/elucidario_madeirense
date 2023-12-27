@@ -1,0 +1,26 @@
+{
+    "id": 1123,
+    "lang": "en",
+    "is_original": false,
+    "title": "Dendrites",
+    "fl": "D",
+    "original_title": "Dendrites",
+    "body": "Infiltrations, usually of manganese and iron salts, found inside lamellar fracture rocks, with the appearance of pressed algae and mosses and a dark color. They are common in the trachytes of Serra de Nossa Senhora, in Pôrto Santo, and rare in the basaltic slabs of S. Martinho.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Serra de Nossa Senhora": [
+            "Located in Pôrto Santo"
+        ],
+        "Pôrto Santo": [
+            "Island of Madeira"
+        ],
+        "S. Martinho": [
+            "Locality where basaltic slabs are rare"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

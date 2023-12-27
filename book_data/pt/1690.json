@@ -1,0 +1,30 @@
+{
+    "id": 1690,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Henriques (Padre Leão)",
+    "fl": "H",
+    "original_title": "Henriques (Padre Leão)",
+    "body": "Nasceu na freguesia da Ponta do Sol no primeiro quartel do século XVI, sendo filho de D. João Henriques e de D. Filipa de Noronha. Era próximo parente do padre Luiz Gonçalves da Câmara (V. este nome), celebre aio de D. Sebastião, e descendia de João Gonçalves Zargo, o ilustre descobridor da Madeira. Estudou cânones em Paris e em Coimbra, e foi o primeiro reitor da Universidade de Évora. Abraçou o instituto da Companhia de Jesus ainda em tempo do fundador, tendo mantido com ele estreitas relações de amizade e dele directamente recebido provas da mais alta consideração e apreço. Exerceu na sua ordem os mais elevados cargos como os de reitor dos colégios de Coimbra e Évora, provincial, delegado em Roma, etc.. Foi durante muitos anos confessor e conselheiro do cardial e rei D. Henrique, junto de quem gozou de muito prestigio e influencia. Teve uma grande nomeada na sua época como homem de vasta erudição e de extraordinário talento. Os seus biografos referem-se particularmente aos sentimentos da mais generosa e ardente caridade de que era dotado, tendo para com os pobres e infelizes as mais requintadas expansões de carinho e ternura de que é susceptível o coração humano. Morreu em Lisboa a 8 de Abril de 1589.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. João Henriques": [
+            "Pai de Padre Leão Henriques"
+        ],
+        "D. Filipa de Noronha": [
+            "Mãe de Padre Leão Henriques"
+        ],
+        "Padre Luiz Gonçalves da Câmara": [
+            "Parente próximo de Padre Leão Henriques, celebre aio de D. Sebastião"
+        ]
+    },
+    "years": {
+        "1589": [
+            "Falecimento de Padre Leão Henriques"
+        ]
+    }
+}

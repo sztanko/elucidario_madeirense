@@ -1,0 +1,33 @@
+{
+    "id": 1434,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ants",
+    "fl": "A",
+    "original_title": "Formigas",
+    "body": "Seven species of ants have been found in Madeira, the most common of which is Iridomyrmex humilis, originating from the intertropical regions of America and introduced from Demerara in 1886 or 1887. This species, which first appeared in Funchal, is now spread throughout almost the entire low-lying region of the island, reaching altitudes of over 500 meters in some places. The old Madeiran ant, Pheidole megacephala or Oecophthora pusilla, also found in Europe, has gradually disappeared from the island after it was invaded by Iridomyrmex humilis. No peculiar species is known in Madeira or Porto Santo, but there are two varieties that seem to be specific to the former of these islands, which are Plagiolepis pygmaea var. Schmitzii and Tepinoma erraticum var. maderense. The Stenamma structor, found over 40 years ago in the Municipal Garden, appears to be an introduced species. The Monomorium Salomonis found in the Selvagens does not appear in Madeira, while the M. carbonarium has been found on this island, not far from the coast. Although Dr. Heer published a curious description of the Oecophthora pusilla in the mid-19th century, it was only much later, thanks to the investigations of the Reverend Father Schmitz, that the ants of Madeira became regularly known. The species collected in our archipelago were first studied by Dr. Forel (see this name) and later by Reverend Schmitz, in an article published in the Annaes de Sciencias Naturaes, do Porto, and reproduced in issues 5,709 and 5,713 of Diário de Noticias, do Funchal, in March 1896.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Heer": [
+            "Published a curious description of the Oecophthora pusilla"
+        ],
+        "Reverend Father Schmitz": [
+            "Investigated the ants of Madeira"
+        ]
+    },
+    "years": {
+        "1886": [
+            "Iridomyrmex humilis was introduced to Madeira"
+        ],
+        "1887": [
+            "Iridomyrmex humilis was introduced to Madeira"
+        ],
+        "1896": [
+            "The ants of Madeira were described in the Annaes de Sciencias Naturaes, do Porto"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 3175,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santana (Município de)",
+    "fl": "S",
+    "original_title": "Santana (Município de)",
+    "body": "O concelho ou município de Santana tem a sua sede na freguesia do mesmo nome e foi instalado no ano de 1835. Os concelhos de Câmara de Lobos, Santa Cruz, Porto do Moniz e Santana, foram extintos pelo decreto de 10 de Dezembro de 1867, mas este diploma não chegou a ter inteira execução, porque aqueles concelhos se restauraram pouco depois. O concelho de Santana era composto, desde a sua criação, das freguesias do Arco de São Jorge, São Jorge, Santana, Faial, São Roque e Porto da Cruz, tendo sido, porém, dele desanexada a freguesia do Porto da Cruz por decreto de 19 de Outubro da 1852, passando então esta paróquia a fazer parte do concelho de Machico.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "Arco de São Jorge",
+        "São Jorge",
+        "Faial",
+        "São Roque"
+    ],
+    "locations": {
+        "Santana": [
+            "Sede do concelho"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1835": [
+            "Instalação do concelho"
+        ]
+    }
+}

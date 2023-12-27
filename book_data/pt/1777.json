@@ -1,0 +1,35 @@
+{
+    "id": 1777,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Incenso",
+    "fl": "I",
+    "original_title": "Incenso",
+    "body": "V. Árvore do Incenso.\n\nInclinação Magnética.\nFoi medida por A. P. de Azevedo e Soulier de Sauve, a 25 de Abril de 1839, e pelo mesmo A. P. de Azevedo e os oficiais do Rattermaker, a 20 de Dezembro de 1846. As primeiras observações feitas na Praça Académica com a bússola de Gambey, acusaram a inclinação de 59° 30; as segundas, feitas no adro do Colégio com o «Fox's Dipping» e o «Intensity Instrument», deram a inclinação de 60º 40.\n\nEm 4 de Fevereiro de 1872 e 17 de Julho de 1873, acharam os oficiais da Challenger, respectivamente, a inclinação 56° 14' 1 N. e 55° 12 5 N.. Mais recentemente, achou o distinto meteorologista açoreano, Sr. coronel Francisco Afonso Chaves, as seguintes inclinações magnéticas: 54° 32' 5 N., em 22 de Junho de 1903, e 54° 22'7 N., em 4 de Junho de 1906. Todas estas observações foram realizadas na parada do quartel do Colégio, tendo-se servido o Sr. coronel Chaves da bússola Abbadie-Brunner para o conhecimento da inclinação.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1839": [
+            "Medição da inclinação magnética"
+        ],
+        "1846": [
+            "Medição da inclinação magnética"
+        ],
+        "1872": [
+            "Medição da inclinação magnética"
+        ],
+        "1873": [
+            "Medição da inclinação magnética"
+        ],
+        "1903": [
+            "Medição da inclinação magnética"
+        ],
+        "1906": [
+            "Medição da inclinação magnética"
+        ]
+    }
+}

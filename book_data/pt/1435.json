@@ -1,0 +1,30 @@
+{
+    "id": 1435,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fornos de Algodres (João Maria de Abreu Castelo Branco Cardoso e Melo, Iº visconde e Iº conde de).",
+    "fl": "F",
+    "original_title": "Fornos de Algodres (João Maria de Abreu Castelo Branco Cardoso e Melo, Iº visconde e Iº conde de).",
+    "body": "Nasceu em 1789 e morreu a 7 de Janeiro de 1878. Foi nomeado governador civil deste distrito, sendo visconde de Fornos de Algodres, a 13 de Novembro de 1852, tendo exercido este cargo cerca dum ano.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Maria de Abreu Castelo Branco Cardoso e Melo": [
+            "Governador civil"
+        ]
+    },
+    "years": {
+        "1789": [
+            "Nascimento"
+        ],
+        "1878": [
+            "Morte"
+        ],
+        "1852": [
+            "Nomeação como visconde de Fornos de Algodres"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "id": 2034,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo da Raiz",
+    "fl": "L",
+    "original_title": "Lombo da Raiz",
+    "body": "A place in the parish of Santo da Serra, where a small house can serve as a shelter for those passing by, and where the waters of the Levada da Serra are also separated for their own aqueduct. These waters irrigate the parishes of Caniço, São Gonçalo, and Santa Maria Maior. These waters come in common, up to Lombo da Raiz, with those of the Levada do Juncal destined for the parishes of Santo da Serra, Água de Pena, and Santa Cruz, and with those of the Levada Nova do Furado, which fertilizes the lands of the parish of Santa Cruz.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo da Serra",
+        "Caniço",
+        "São Gonçalo",
+        "Santa Maria Maior",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Locality in Madeira"
+        ],
+        "Caniço": [
+            "Locality in Madeira"
+        ],
+        "São Gonçalo": [
+            "Locality in Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Locality in Madeira"
+        ],
+        "Santa Cruz": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

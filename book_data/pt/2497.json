@@ -1,0 +1,83 @@
+{
+    "id": 2497,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Livramento (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Livramento (Capelas de)",
+    "body": "Levantava-se na freguesia do Caniço uma capela dedicada a Nossa Senhora do Livramento, no sítio que ainda hoje conserva este nome. Foi objecto duma antiga e concorrida romagem, que ainda actualmente se faz á igreja paroquial, desde o tempo em que se demoliu a capela, da qual nem hoje restam vestígios. Parece ter sido construída por meados do século XVII, atribuindo-se a sua fundação a Sebastião de Oliveira, que possuía terras naquele sítio.\n\nCom a mesma invocação, conhecemos ainda uma capela na freguesia da Ponta do Sol, outra na freguesia do Monte, outra na freguesia do Estreito da Calheta e uma quarta na freguesia de S. Vicente.\n\nA primeira destas capelas foi mandada construir por Diogo Ferreira de Mesquita e sua mulher D. Isabel de Meneses, em 1656, sendo dotada por escritura de 14 de Setembro do mesmo ano; a segunda foi edificada por Inácio Ferreira Pinto, em 1684, e reconstruída um século depois por João José Bettencourt de Freitas, realizando-se a vistoria para nela se poderem realizar os actos do culto a 5 de Julho de 1784; a terceira, que é de recente fundação, foi mandada construir por D. Inacia Bettencourt Perestrelo no ano de 1858, sendo de 11 de Setembro do mesmo ano a escritura de dotação e de 17 de Abril de 1860 a vistoria canónica; e a ultima foi erigida em 1685 pelo padre Manue1 Gomes Garcês.\n\nA capela de Nossa Senhora do Livramento da freguesia do Estreito da Calheta, é hoje (1921) propriedade de Francisco Bettencourt Pimenta e está situada no Lombo dos Reis.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Ponta do Sol",
+        "Monte",
+        "Estreito da Calheta",
+        "S. Vicente",
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Caniço": [
+            "Freguesia do Caniço"
+        ],
+        "Ponta do Sol": [
+            "Freguesia da Ponta do Sol"
+        ],
+        "Monte": [
+            "Freguesia do Monte"
+        ],
+        "Estreito da Calheta": [
+            "Freguesia do Estreito da Calheta"
+        ],
+        "S. Vicente": [
+            "Freguesia de S. Vicente"
+        ]
+    },
+    "people": {
+        "Sebastião de Oliveira": [
+            "Fundador da capela"
+        ],
+        "Diogo Ferreira de Mesquita": [
+            "Mandou construir a primeira capela"
+        ],
+        "Inácio Ferreira Pinto": [
+            "Edificou a segunda capela"
+        ],
+        "João José Bettencourt de Freitas": [
+            "Reconstruiu a segunda capela"
+        ],
+        "D. Inacia Bettencourt Perestrelo": [
+            "Mandou construir a terceira capela"
+        ],
+        "Manue1 Gomes Garcês": [
+            "Erigiu a última capela"
+        ],
+        "Francisco Bettencourt Pimenta": [
+            "Proprietário da capela do Estreito da Calheta"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Construção da primeira capela"
+        ],
+        "1684": [
+            "Construção da segunda capela"
+        ],
+        "1784": [
+            "Vistoria para realização dos atos do culto na segunda capela"
+        ],
+        "1858": [
+            "Construção da terceira capela"
+        ],
+        "1860": [
+            "Vistoria canónica da terceira capela"
+        ],
+        "1685": [
+            "Construção da última capela"
+        ],
+        "1921": [
+            "Ano em que a capela do Estreito da Calheta era propriedade de Francisco Bettencourt Pimenta"
+        ]
+    }
+}

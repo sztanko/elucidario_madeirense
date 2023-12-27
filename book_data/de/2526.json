@@ -1,0 +1,30 @@
+{
+    "id": 2526,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau von der Gesundheit vom Berg Olivete (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Saúde do Monte Olivete (Capela de)",
+    "body": "Eine Notiz in den \"Saudades da Terra\" besagt, dass diese Kapelle, die sich in der Gemeinde Santa Maria Maior befand, im Jahr 1675 im Zuge des Majorats errichtet wurde, das Pedro Lopes de Vasconcelos gestiftet hatte. Sie existiert nicht mehr, und wir wissen nicht, wo sie stand.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Pedro Lopes de Vasconcelos": [
+            "Stifter des Majorats 1675"
+        ]
+    },
+    "years": {
+        "1675": [
+            "Stiftung des Majorats"
+        ]
+    }
+}

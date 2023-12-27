@@ -1,0 +1,30 @@
+{
+    "id": 305,
+    "lang": "en",
+    "is_original": false,
+    "title": "Assomadouro",
+    "fl": "A",
+    "original_title": "Assomadouro",
+    "body": "A place in the parish of Prazeres, from where a beautiful landscape of the coastal area can be seen, stretching from Jardim do Mar to the parish of Fajã da Ovelha.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Prazeres",
+        "Jardim do Mar",
+        "Fajã da Ovelha"
+    ],
+    "locations": {
+        "Prazeres": [
+            "Beautiful landscape of the coastal area"
+        ],
+        "Jardim do Mar": [
+            "Beautiful landscape of the coastal area"
+        ],
+        "Fajã da Ovelha": [
+            "Beautiful landscape of the coastal area"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

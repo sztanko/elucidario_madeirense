@@ -1,0 +1,35 @@
+{
+    "id": 1270,
+    "lang": "en",
+    "is_original": false,
+    "title": "Espírito Santo (Fr. João do)",
+    "fl": "E",
+    "original_title": "Espírito Santo (Fr. João do)",
+    "body": "Portuguese friar who was hanged in Funchal, dressed in lay clothes, in 1582 or shortly thereafter, for inciting the people of this island to follow the party of D. Antonio, prior of Crato. Fr. João do Espírito Santo had been in Angra before coming to Funchal, and he is referred to in the 'Relação das coisas que aconteceram na cidade d'Angra, ilha Terceira, depois que se perdeu el-rei D. Sebastião'. This account was published in vol XIII. page 159, of the Panorama.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of the Island of Madeira"
+        ],
+        "Angra": [
+            "City on Terceira Island"
+        ]
+    },
+    "people": {
+        "D. Antonio": [
+            "Prior of Crato"
+        ],
+        "D. Sebastião": [
+            "King of Portugal"
+        ]
+    },
+    "years": {
+        "1582": [
+            "Fr. João do Espírito Santo was hanged in Funchal"
+        ]
+    }
+}

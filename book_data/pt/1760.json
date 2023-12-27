@@ -1,0 +1,33 @@
+{
+    "id": 1760,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Ilha",
+    "fl": "I",
+    "original_title": "Ilha",
+    "body": "Sítio povoado da freguesia de S. Jorge. Houve ali uma pequena capela da invocação de Nª. Sª. da Piedade, construída no ultimo quartel do século XVIII pelo padre Matias Jorge Jardim. Fazia este sítio parte de um morgadio instituído por Jorge Pinto, em 1559, de que foi ultimo administrador o açoreano Laureano da Câmara Falcão, chamado o morgado da Ilha, que há algumas dezenas de anos vendeu estas terras aos respectivos caseiros. O nome dado a este sítio provém da circunstancia de ser rodeado pela ribeira que, bifurcando-se, se torna a ajuntar-se num mesmo ponto.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "S. Jorge"
+    ],
+    "locations": {
+        "S. Jorge": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "Matias Jorge Jardim": [
+            "Padre"
+        ]
+    },
+    "years": {
+        "1559": [
+            "Instituição do morgadio por Jorge Pinto"
+        ],
+        "Século XVIII": [
+            "Construção da capela"
+        ]
+    }
+}

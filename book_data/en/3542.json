@@ -1,0 +1,32 @@
+{
+    "id": 3542,
+    "lang": "en",
+    "is_original": false,
+    "title": "Tombs",
+    "fl": "T",
+    "original_title": "Túmulos",
+    "body": "In the churches of this diocese, there are no tombs that, due to their ostentatious architecture, richness of their marbles, or exquisite ornamentation, attract the attention of visitors. Only in the side walls of the main chapel of the Carmo church, there are two mausoleums, which, although not grandiose and of remarkable artistic excellence, are nevertheless considered a valuable work that deserves to be properly visited and appreciated. These tombs belong to the family of the church's founder, and on two black marble plaques, the following epitaphs are read: S. de Pedro Gliz Brandão, and his brother Manuel Miz Brandão and their heirs, and S. de António de Carvalhal Esmeraldo, a nobleman of the house of S. M., and his wife D. Maria Brandão. In the church of Santa Clara, there is the tomb of Gaspar Mendes de Vasconcelos, in which it is said that the discoverer Gonçalves Zargo is buried (volume II, page 31).",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Carmo",
+        "Santa Clara"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro Gliz Brandão": [
+            "Founder of the church"
+        ],
+        "Manuel Miz Brandão": [
+            "Brother of Pedro Gliz Brandão"
+        ],
+        "António de Carvalhal Esmeraldo": [
+            "Nobleman of the house of S. M. and husband of D. Maria Brandão"
+        ],
+        "Gaspar Mendes de Vasconcelos": [
+            "Buried in the tomb of the church of Santa Clara"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,35 @@
+{
+    "id": 3488,
+    "lang": "en",
+    "is_original": false,
+    "title": "Tolentino da Costa (Dr. Fernando)",
+    "fl": "T",
+    "original_title": "Tolentino da Costa (Dr. Fernando)",
+    "body": "Dr. Fernando Tolentino da Costa was born in Porto do Moniz on February 10, 1873. He attended high school and the Medical-Surgical School of Funchal, completing his medical degree in 1897. He worked as a medical officer in São Tomé and Trafariat, and as a physician for the Portuguese steamers of J. M. Andressen from Porto. He was part of the administrative commission of the Municipal Chamber of Funchal during the government of Counselor João Franco and later, after the Republic, became the president of the same Chamber. It was through his initiative that the demolition of the building of the prison in Largo da Sé was carried out, a demand that had been made by the press and the people of Funchal for over half a century. He has been the president of the executive committee of the General Board of the District and was part of the former Agricultural Board. It was due to his proposal that this latter corporation published the Flora do Archipelago da Madeira in 1914 (1921).",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto do Moniz": [
+            "Birthplace of Dr. Fernando Tolentino da Costa"
+        ],
+        "Funchal": [
+            "Location where he attended high school and the Medical-Surgical School"
+        ]
+    },
+    "people": {
+        "Dr. Fernando Tolentino da Costa": [
+            "Physician and politician"
+        ]
+    },
+    "years": {
+        "1873": [
+            "Birth of Dr. Fernando Tolentino da Costa"
+        ],
+        "1897": [
+            "Completion of his medical degree"
+        ]
+    }
+}

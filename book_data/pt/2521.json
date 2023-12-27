@@ -1,0 +1,33 @@
+{
+    "id": 2521,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora dos Remédios (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora dos Remédios (Capela de)",
+    "body": "Na freguesia de Santa Cruz, no sítio do Moreno, se encontra uma capela dedicada a Nossa Senhora dos Remédios. Foi edificada pelo vigário Manuel Ferreira Teixeira em 1690 e não no ano de 1610, como diz o anotador das Saudades.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Freguesia na Ilha da Madeira"
+        ],
+        "Moreno": [
+            "Sítio na freguesia de Santa Cruz"
+        ]
+    },
+    "people": {
+        "Manuel Ferreira Teixeira": [
+            "Vigário que edificou a capela"
+        ]
+    },
+    "years": {
+        "1690": [
+            "Edificação da capela"
+        ]
+    }
+}

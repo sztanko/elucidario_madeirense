@@ -1,0 +1,32 @@
+{
+    "id": 3315,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sequeira (Dr. Mauricio Augusto de)",
+    "fl": "S",
+    "original_title": "Sequeira (Dr. Mauricio Augusto de)",
+    "body": "He was born in Funchal on July 17, 1845, and passed away in this city on October 31, 1911. He was a bachelor graduated in philosophy and medicine from the University of Coimbra and practiced medicine in Funchal. He also taught at the former Medical-Surgical School and the subjects of physics, chemistry, and natural history at our high school. He wrote a compendium of physics for use in secondary institutes, which he did not manage to publish, we believe, because he lost his sight a few years before his death and abandoned scientific studies from then on. See Mouraria.",
+    "categories": [
+        "health",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth and death."
+        ]
+    },
+    "people": {
+        "Dr. Mauricio Augusto de Sequeira": [
+            "Bachelor graduated in philosophy and medicine."
+        ]
+    },
+    "years": {
+        "1845": [
+            "Year of birth."
+        ],
+        "1911": [
+            "Year of death."
+        ]
+    }
+}

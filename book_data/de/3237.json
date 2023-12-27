@@ -1,0 +1,70 @@
+{
+    "id": 3237,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sankt Josef (Kapellen von)",
+    "fl": "S",
+    "original_title": "São José (Capelas de)",
+    "body": "In der Gemeinde Ribeira Brava und in kleiner Entfernung von der Pfarrkirche erhob sich eine Kapelle, die Sankt Josef gewidmet war und die der Anmerker der Saudades da Terra sagt, 1710 von Luís Gonçalves da Silva gegründet worden zu sein. 1905 stand sie noch, obwohl in einem fortgeschrittenen Ruinzustand, und hatte über dem Portal die Jahreszahl 1709. Am 15. April 1750 wurde die Erlaubnis erteilt, sie einzuweihen, und ihr Verwalter war damals Fähnrich Tomé João Pimentel. Wurde sie erst 1750 eingeweiht oder handelte es sich um einen Wiederaufbau? Wir wissen es nicht. Jedenfalls ist sicher, dass am 15. April 1750 die Erlaubnis zur Einweihung erteilt wurde, wie wir anhand eines authentischen Dokuments feststellen konnten.\n\nIn der Gemeinde Calheta gab es eine Kapelle, die Sankt Josef gewidmet war, deren Gründer und Jahr wir nicht bestimmen können. Wir wissen jedoch, dass das Erdbeben von 1748 sie sehr ruiniert zurückließ und dass ihr Verwalter Francisco Agostinho de Figueiroa e Vasconcelos sie 1776 an einem sichereren, wenn auch nahegelegenen Ort wiederaufbauen ließ. Damit dort Gottesdienste gefeiert werden konnten, wurde sie am 3. Juni 1776 von der kirchlichen Behörde besichtigt.\n\nIn derselben Gemeinde und mit der gleichen Widmung gibt es heute eine elegante Kapelle, die 1915 im malerischen Tal von Vale da Bica auf Anweisung von Dr. Manuel dos Passos Freitas neben seinem dortigen Wohnsitz erbaut wurde (1921).\n\nMit der Anrufung des Heiligen Josef gab es eine Kapelle auf der Insel Porto Santo, die 1681 vom Gouverneur der Insel, Estevão Bettencourt Perestrelo, gegründet wurde. Die Stiftungsurkunde dieser Kapelle ist vom 7. Juli 1681.\n\nDer Priester António Gonçalves Franco gründete 1730 in der Gemeinde Machico eine Kapelle, die Sankt Josef gewidmet war und heute in Ruinen liegt.\n\nIn der Gemeinde Santa Cruz gab es eine Kapelle, die Sankt Josef geweiht war, deren Stifter und Baujahr uns völlig unbekannt sind.\n\nIn der ersten Hälfte des zweiten Jahrzehnts dieses Jahrhunderts wurde in der malerischen Lage von Achada in der Gemeinde Camacha eine Kapelle mit der gleichen Widmung erbaut.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava",
+        "Calheta",
+        "Machico",
+        "Santa Cruz",
+        "Camacha"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "In der Gemeinde Ribeira Brava gelegen"
+        ],
+        "Calheta": [
+            "In der Gemeinde Calheta gelegen"
+        ],
+        "Vale da Bica": [
+            "Ort, an dem 1915 eine Kapelle erbaut wurde"
+        ],
+        "Porto Santo": [
+            "Insel, auf der 1681 eine Kapelle gegründet wurde"
+        ],
+        "Machico": [
+            "In der Gemeinde Machico gelegen"
+        ],
+        "Santa Cruz": [
+            "In der Gemeinde Santa Cruz gelegen"
+        ],
+        "Achada da Camacha": [
+            "Ort, an dem im zweiten Jahrzehnt des Jahrhunderts eine Kapelle erbaut wurde"
+        ]
+    },
+    "people": {
+        "Luís Gonçalves da Silva": [
+            "Gründer der Kapelle, die Sankt Josef in der Gemeinde Ribeira Brava gewidmet war"
+        ],
+        "Francisco Agostinho de Figueiroa e Vasconcelos": [
+            "Verwalter der Kapelle, die Sankt Josef in der Gemeinde Calheta gewidmet war"
+        ],
+        "Dr. Manuel dos Passos Freitas": [
+            "Beauftragte 1915 den Bau einer Kapelle im Tal von Vale da Bica"
+        ]
+    },
+    "years": {
+        "1710": [
+            "Gründung der Kapelle, die Sankt Josef in der Gemeinde Ribeira Brava gewidmet war"
+        ],
+        "1750": [
+            "Genehmigung zur Einweihung der Kapelle, die Sankt Josef in der Gemeinde Ribeira Brava gewidmet war"
+        ],
+        "1748": [
+            "Erdbeben, das die Kapelle, die Sankt Josef in der Gemeinde Calheta gewidmet war, in Ruinen zurückließ"
+        ],
+        "1776": [
+            "Wiederaufbau der Kapelle, die Sankt Josef in der Gemeinde Calheta gewidmet war"
+        ],
+        "1915": [
+            "Bau einer Kapelle, die Sankt Josef im Tal von Vale da Bica gewidmet war"
+        ]
+    }
+}

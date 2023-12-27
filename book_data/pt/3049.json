@@ -1,0 +1,40 @@
+{
+    "id": 3049,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Reis Magos (Capela dos)",
+    "fl": "R",
+    "original_title": "Reis Magos (Capela dos)",
+    "body": "No Lombo dos Reis, na freguesia do Estreito de Calheta, se encontra a antiga capela dos Reis Magos,\n instituída por Francisco Homem de Gouveia e sua mulher D. Isabel Afonso pelos anos de 1529, fazendo dela a sede dum morgadio.\n Desta capela e instituição vincular anexa, se ocupou largamente um artigo publicado no Brado d'Oeste, de 2 de Setembro de 1916.\n Existe também na freguesia da Ponta Delgada uma capela dedicada aos Reis Magos, que pertenceu á casa Carvalhal. É de\n construção muito antiga, pois um documento de 1577 diz que já então se achava ela em mau estado de conservação. Foi\n reconstruída em 1778 por João de Carvalhal Esmeraldo e Câmara, administrador do vinculo a que ela pertencia. Há poucos anos foi\nde novo restaurada, sendo hoje propriedade de João Fidélio de Canha.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito de Calheta",
+        "Ponta Delgada"
+    ],
+    "locations": {
+        "Lombo dos Reis": [
+            "Na freguesia do Estreito de Calheta"
+        ],
+        "Ponta Delgada": [
+            "Na freguesia da Ponta Delgada"
+        ]
+    },
+    "people": {
+        "Francisco Homem de Gouveia": [
+            "Instituiu a antiga capela dos Reis Magos"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Francisco Homem de Gouveia e sua mulher D. Isabel Afonso instituíram a capela dos Reis Magos"
+        ],
+        "1577": [
+            "Documento menciona o mau estado de conservação da capela dos Reis Magos"
+        ],
+        "1778": [
+            "João de Carvalhal Esmeraldo e Câmara reconstruíram a capela dos Reis Magos"
+        ]
+    }
+}

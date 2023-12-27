@@ -1,0 +1,54 @@
+{
+    "id": 2473,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Boa Morte (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Boa Morte (Capela de)",
+    "body": "Existe na freguesia de Câmara de Lobos uma capela com a invocagao de Nossa Senhora da Boa Morte, que ha anos se acha fechada ao serviço do culto.\n\nCom a mesma denominagao houve uma capela na fregeusia da Ribeira Brava, fundada por Francisco Fernandes e Brasia Fernandes, em ano que ignoramos, e na freguesia da Ca-lheta, no sitio do Atouguia, houve também uma capela consagrada a N. S. da Boa Morte, que encontramos mencionada algures com o nome de N. S. da Piedade. Desta ultima capela, cuja construgao data do ano de 1661, tendo sido seu fundador Francisco Homem de Couto, nem restam hoje vestigios, mas ainda se chama da Boa Morte o sitio onde ela foi edificada.\n\nNa freguesia da Ponta do Pargo instituiu Custódio Nunes da Costa uma capela dedicada a N. S. da Boa Morte, no ano de 1666.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Ribeira Brava",
+        "Calheta",
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Ribeira Brava": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Calheta": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Ponta do Pargo": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Fernandes": [
+            "Fundador da capela na Ribeira Brava"
+        ],
+        "Brasia Fernandes": [
+            "Esposa de Francisco Fernandes"
+        ],
+        "Francisco Homem de Couto": [
+            "Fundador da capela na Calheta"
+        ],
+        "Custódio Nunes da Costa": [
+            "Fundador da capela na Ponta do Pargo"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Ano de construção da capela na Calheta"
+        ],
+        "1666": [
+            "Ano de fundação da capela na Ponta do Pargo"
+        ]
+    }
+}

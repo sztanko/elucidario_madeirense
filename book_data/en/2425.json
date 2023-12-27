@@ -1,0 +1,30 @@
+{
+    "id": 2425,
+    "lang": "en",
+    "is_original": false,
+    "title": "Navás (Padre Longinos)",
+    "fl": "N",
+    "original_title": "Navás (Padre Longinos)",
+    "body": "A distinguished Spanish lichenologist, belonging to the Society of Jesus, who studied the lichens sent to him from this island by Father Jaime de Gouveia Barreto and one of the authors of this Elucidário. In the work he published, entitled 'Sinopsis de los Liquenes de las islas de Madera' (Broteria, vol. IX to XI, 1910-1913), 203 species are indicated, some of which are mentioned only in the works of other lichenologists. See Liquenes.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Jaime de Gouveia Barreto": [
+            "Priest who sent the lichens for study"
+        ],
+        "Padre Longinos Navás": [
+            "Distinguished Spanish lichenologist"
+        ]
+    },
+    "years": {
+        "1910": [
+            "Published work entitled 'Sinopsis de los Liquenes de las islas de Madera'"
+        ],
+        "1913": [
+            "Published work entitled 'Sinopsis de los Liquenes de las islas de Madera'"
+        ]
+    }
+}

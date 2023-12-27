@@ -1,0 +1,58 @@
+{
+    "id": 1128,
+    "lang": "de",
+    "is_original": false,
+    "title": "Missachtung und Raub in der Kirche von Estreito",
+    "fl": "M",
+    "original_title": "Desacato e Roubo na Igreja do Estreito",
+    "body": "In der Nacht vom 6. auf den 7. November 1829 wurde die Kirche Nossa Senhora da Graça in Estreito de Câmara de Lobos aufgebrochen und verschiedene heilige Gefäße, einige silberne Kronen, eine goldene Kette mit dem Bild Unserer Lieben Frau, eine silberne Blume mit roten Steineinfassungen, ein Prozessionskreuz, 2 silberne Lampen usw. gestohlen. Die Partikel im Tabernakel wurden von den Dieben verzehrt. Von den Tätern dieses Verbrechens wurden 6 durch ein Urteil des Obersten Gerichtshofs Lissabon vom 6. März 1830 zum Strang auf dem Kai von Sodré und 2 zu lebenslanger Verbannung nach Afrika verurteilt. Die zum Tode Verurteilten waren: José Marreiros, Infanteriesoldat, Jacinto Fernandes, Arbeiter, Manuel de Sequeira, Arbeiter, Januario Soares, Infanteriesoldat, João Rodrigues, genannt Espera Diabos, Arbeiter, und José de Andrade, genannt Rangido, Bandit. Der erste und vierte waren gebürtige Portugiesen, die übrigen von Madeira. Die letzten drei Angeklagten wurden zusätzlich zur Todesstrafe durch Strangulierung zum Schleifen vom Gefängnis zum Schafott verurteilt, anschließend sollten ihre Köpfe abgeschlagen und drei Tage lang zur Abschreckung aufgestellt werden. Zu lebenslanger Verbannung nach Afrika wurden der Goldschmied Francisco de Sales Rodrigues und der Arbeiter Timoteo da Graça, beide gebürtige Madeirenser, verurteilt. Das Oberste Gericht milderte später das Todesurteil gegen José Marreiros in eine Gefängnisstrafe um.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Estreito de Nossa Senhora da Graça": [
+            "Ort des Raubes"
+        ],
+        "Câmara de Lobos": [
+            "Ort des Raubes"
+        ],
+        "Lissabon": [
+            "Ort des Urteilsspruchs"
+        ]
+    },
+    "people": {
+        "José Marreiros": [
+            "Zum Strang verurteilt"
+        ],
+        "Jacinto Fernandes": [
+            "Wegen Raubes verurteilter Arbeiter"
+        ],
+        "Manuel de Sequeira": [
+            "Wegen Raubes verurteilter Arbeiter"
+        ],
+        "Januario Soares": [
+            "Wegen Raubes verurteilter Soldat"
+        ],
+        "João Rodrigues": [
+            "Wegen Raubes verurteilter Arbeiter"
+        ],
+        "José de Andrade": [
+            "Wegen Raubes verurteilter Bandit"
+        ],
+        "Francisco de Sales Rodrigues": [
+            "Zu lebenslanger Verbannung verurteilter Goldschmied"
+        ],
+        "Timoteo da Graça": [
+            "Zu lebenslanger Verbannung verurteilter Arbeiter"
+        ]
+    },
+    "years": {
+        "1829": [
+            "Jahr des Raubes"
+        ],
+        "1830": [
+            "Jahr des Urteilsspruchs"
+        ]
+    }
+}

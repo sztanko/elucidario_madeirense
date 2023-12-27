@@ -1,0 +1,40 @@
+{
+    "id": 550,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bowdich (T. E.)",
+    "fl": "B",
+    "original_title": "Bowdich (T. E.)",
+    "body": "English naturalist and traveler who visited Madeira in 1823, staying from October 14 to 26. The results of Bowdich's studies on the fauna, flora, geology, and meteorology of Madeira and Porto Santo are recorded in a work that was only published after his death, titled 'Excursions in Madeira and Porto Santo, during the autumn of 1823' (London, 1825). This curious work, for many reasons, but containing many inaccuracies, was translated into French and published in Paris in 1826. Bowdich passed away on January 10, 1824.",
+    "categories": [
+        "biology",
+        "geography",
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Study location"
+        ]
+    },
+    "people": {
+        "T. E. Bowdich": [
+            "English naturalist and traveler"
+        ]
+    },
+    "years": {
+        "1823": [
+            "Stay in Madeira"
+        ],
+        "1825": [
+            "Publication of the work"
+        ],
+        "1826": [
+            "Translation into French"
+        ],
+        "1824": [
+            "Death"
+        ]
+    }
+}

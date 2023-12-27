@@ -1,0 +1,39 @@
+{
+    "id": 697,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camara (Simão Gonçalves da)",
+    "fl": "C",
+    "original_title": "Camara (Simão Gonçalves da)",
+    "body": "Era filho de João Gonçalves da Camara, 6º. capitão-donatario do Funchal e de D. Maria de Alencastre. Nasceu em Lisboa e nunca veio a esta ilha. Seu pai morreu em Almeirim, no principio de Junho de 1580, tendo ele apenas seis meses de idade. Pode considerar-se o 7º. capitão-donatario do Funchal, embora nunca tivesse assumido o govêrno da donataria, que em 1582 passou a ser administrada por governadores gerais, sob o dominio filipino. No entretanto conservou, e ainda muitos dos seus sucessores, o titulo de capitão-donatario do Funchal, como se vê da provisão de 10 de Outubro de 1585, usufruindo uma parte consideravel das avultadas rendas que tinham os donatarios neste arquipelago. Simão Gonçalves da Camara, que foi o 3º. conde da Calheta, casou com D. Maria de Vasconcelos, filha e herdeira do Iº. conde de Castelo Melhor e por este motivo ficou o condado da Calheta encorporado na casa Castelo Melhor, que depois passou a marquesado.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Gonçalves da Camara": [
+            "6º. capitão-donatario"
+        ],
+        "D. Maria de Alencastre": [
+            "Mãe de Simão Gonçalves da Camara"
+        ],
+        "D. Maria de Vasconcelos": [
+            "Esposa de Simão Gonçalves da Camara"
+        ],
+        "Iº. conde de Castelo Melhor": [
+            "Pai de D. Maria de Vasconcelos"
+        ]
+    },
+    "years": {
+        "1580": [
+            "Pai morreu em Almeirim, no principio de Junho de 1580"
+        ],
+        "1582": [
+            "Donataria passou a ser administrada por governadores gerais"
+        ],
+        "1585": [
+            "Provisão de 10 de Outubro de 1585"
+        ]
+    }
+}

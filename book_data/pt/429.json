@@ -1,0 +1,51 @@
+{
+    "id": 429,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barreiro (Fonte do)",
+    "fl": "B",
+    "original_title": "Barreiro (Fonte do)",
+    "body": "Pequena fonte nas proximidades do sopé do Pico Ruivo, e a cerca de 1870 metros acima do nível do mar. No verão fornece muito pouca água.\n\nCremos não haver outra fonte na Madeira, tão altamente situada como a do Barreiro. A sua água, que tivemos ocasião de beber nos meses de Julho e Agosto, é límpida e muito fresca.\n\nBarreiro (Montado do). Estende se desde o Ribeiro do Pisão até o Terreiro das Águas, tem terrenos para pinheiros e árvores agrestes e terrenos para pastagens. Ha nele algumas matas de loureiros e urzes. O Montado do Barreiro é abundantissimo em águas tendo aí a sua origem a levada do Barreiro e alguns dos mananciais que concorrem para alimentar as levadas de Santa Luzia das Hortas, de D. Isabel, etc.. As nascentes dos Tornos, sobranceiras á Ribeira de Santa Luzia ficam no referido montado.\n\nO fluxo total das águas do montado do Barreiro é, segundo os peritos que as mediram há poucos anos, de 4:140 litros por minuto pertencendo 512 litros à levada do Barreiro 2:728 litros à Ribeira de Santa Luzia e levadas que tem nela sua origem, e 900 litros às nascentes dos Tornos, sendo estas ultimas águas destinadas pela Câmara ao abastecimento da cidade. As obras de canalização das águas dos Tornos até um reservatório no sítio dos Saltos, ficaram concluídas a 22 de Outubro de 1910, achando se apenas iniciados os demais trabalhos, que consistem em conduzir as mesmas águas até a cidade. Pretendiam os proprietários do Montado do Barreiro que a Câmara lhes pagasse pela expropriação dos terrenos do mesmo montado e respectivas águas, exceptuando as da levada do Barreiro, a indemnização de 38.751.700, mas esta importância ficou reduzida, em virtude de sentença judicial, a 4.216.307, que ao que nos consta, se não acham ainda integralmente pagos. A este assunto interessam particularmente os opúsculos A Expropriação do Montado do Barreiro . . . por Pedro de Góis Pita e a Acção de expropriação do Montado do Barreiro requerida pela Câmara do Funchal por Juvenal Henriques de Araújo.",
+    "categories": [
+        "geography",
+        "history",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pico Ruivo": [
+            "Pequena fonte nas proximidades do sopé"
+        ],
+        "Ribeiro do Pisão": [
+            "Estende se desde o Ribeiro do Pisão até o Terreiro das Águas"
+        ],
+        "Santa Luzia das Hortas": [
+            "Alguns dos mananciais que concorrem para alimentar as levadas"
+        ],
+        "D. Isabel": [
+            "Alguns dos mananciais que concorrem para alimentar as levadas"
+        ],
+        "Tornos": [
+            "Nascentes dos Tornos, sobranceiras á Ribeira de Santa Luzia"
+        ]
+    },
+    "people": {
+        "Pedro de Góis Pita": [
+            "Autor do opúsculo A Expropriação do Montado do Barreiro"
+        ],
+        "Juvenal Henriques de Araújo": [
+            "Requerente da Acção de expropriação do Montado do Barreiro"
+        ]
+    },
+    "years": {
+        "1854": [
+            "Publicou em Lisboa a obra intitulada Noticia sobre o clima do Funchal e sua influencia do tratamento da phthisica pulmonar"
+        ],
+        "1870": [
+            "Cerca de 1870 metros acima do nível do mar"
+        ],
+        "1910": [
+            "Concluídas a 22 de Outubro de 1910 as obras de canalização das águas dos Tornos"
+        ]
+    }
+}

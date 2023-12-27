@@ -1,0 +1,36 @@
+{
+    "id": 1092,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cumiada de S. Vicente",
+    "fl": "C",
+    "original_title": "Cumiada de S. Vicente",
+    "body": "Está a 1000 metros acima do nivel do mar, e é ponto de onde em dias claros se avista tanto o norte como o sul da Madeira. A estrada que conduz de Camara de Lôbos á Cumiada, passando pela Ribeira Brava, foi inaugurada em 1916. Perto da Cumiada de S. Vicente encontra-se o Lycopodium complanatum, licopodiacea rarissima na Madeira.",
+    "categories": [
+        "geography",
+        "history",
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "Camara de Lôbos",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Freguesia no norte da Ilha da Madeira."
+        ],
+        "Camara de Lôbos": [
+            "Freguesia na costa sul da Ilha da Madeira."
+        ],
+        "Ribeira Brava": [
+            "Freguesia na costa sul da Ilha da Madeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1916": [
+            "Inauguração da estrada que conduz de Camara de Lôbos á Cumiada, passando pela Ribeira Brava."
+        ]
+    }
+}

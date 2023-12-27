@@ -1,0 +1,50 @@
+{
+    "id": 3077,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ribeira dos Socorridos",
+    "fl": "R",
+    "original_title": "Ribeira dos Socorridos",
+    "body": "Es ist einer der wichtigsten Wasserläufe dieser Insel. Er dient als Grenze zwischen den Gemeinden São Martinho und Santo Antonio auf der linken Seite und den Gemeinden Câmara de Lobos und Estreito de Câmara de Lobos auf der rechten Seite. São Martinho und Câmara de Lobos grenzen an die Mündung des Flusses. Er entspringt im Landesinneren auf dem Grundstück Torrinhas und durchquert die Gemeinde Curral das Freiras. Bei der ersten Erkundung, die João Gonçalves Zargo entlang der Küste unternahm, wären einige seiner Gefährten, die an der Mündung dieses Flusses gelandet waren, von der Strömung mitgerissen worden. Der Kapitän eilte ihnen sofort zu Hilfe, und „sie wurden gerettet und der Gefahr entkommen... und daher kommt der Name... Ribeira dos Socorridos, sagt der Autor von Saudades.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Martinho",
+        "Santo Antonio",
+        "Câmara de Lobos",
+        "Estreito de Câmara de Lobos",
+        "Curral das Freiras"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Gemeinde auf der linken Seite des Ribeira dos Socorridos"
+        ],
+        "Santo Antonio": [
+            "Gemeinde auf der linken Seite des Ribeira dos Socorridos"
+        ],
+        "Câmara de Lobos": [
+            "Gemeinde auf der rechten Seite des Ribeira dos Socorridos"
+        ],
+        "Estreito de Câmara de Lobos": [
+            "Gemeinde auf der rechten Seite des Ribeira dos Socorridos"
+        ],
+        "Curral das Freiras": [
+            "Gemeinde, durch die der Ribeira dos Socorridos fließt"
+        ],
+        "Torrinhas": [
+            "Ursprung des Ribeira dos Socorridos"
+        ]
+    },
+    "people": {
+        "João Gonçalves Zargo": [
+            "Führte die erste Erkundung entlang der Küste durch"
+        ]
+    },
+    "years": {
+        "15. Jahrhundert": [
+            "Ursprung des Ribeira dos Socorridos"
+        ]
+    }
+}

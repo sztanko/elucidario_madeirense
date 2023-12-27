@@ -1,0 +1,39 @@
+{
+    "id": 2771,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pestana Junior (Dr. Manuel Gregório)",
+    "fl": "P",
+    "original_title": "Pestana Junior (Dr. Manuel Gregório)",
+    "body": "Er wurde auf der Insel Porto Santo am 16. August 1886 geboren und ist der Sohn von Manuel Gregorio Pestana und Carolina dos Ramos Pestana. Er hat einen Bachelor-Abschluss in Jura von der Universität Coimbra und praktiziert als Anwalt in den Gerichtsbezirken dieser Insel. Er hat bei uns verschiedene öffentliche Dienstleistungen ausgeübt. Er vertrat Madeira in der ersten verfassunggebenden Versammlung, die von 1911 bis 1915 tagte, und in der Legislaturperiode 1915 bis 1917. Seine Mitarbeit in verschiedenen Zeitungen ist umfangreich und er veröffentlichte die Broschüren O Problema Sacarino und Reconhecimento do Arquipelago da Madeira (1921). Er war Finanzminister und 1928 veröffentlichte er die interessante und gelehrte historische Studie mit dem Titel D. Cristobal Colom ou Symam Palha.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Manuel Gregorio Pestana": [
+            "Vater von Pestana Junior"
+        ],
+        "D. Carolina dos Ramos Pestana": [
+            "Mutter von Pestana Junior"
+        ]
+    },
+    "years": {
+        "1886": [
+            "Geburt von Pestana Junior"
+        ],
+        "1911": [
+            "Teilnahme an der ersten verfassunggebenden Versammlung"
+        ],
+        "1915": [
+            "Teilnahme an der Legislaturperiode"
+        ],
+        "1921": [
+            "Veröffentlichung der Broschüren O Problema Sacarino und Reconhecimento do Arquipelago da Madeira"
+        ],
+        "1928": [
+            "Veröffentlichung der historischen Studie mit dem Titel D. Cristobal Colom ou Symam Palha"
+        ]
+    }
+}

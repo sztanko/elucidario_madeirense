@@ -1,0 +1,37 @@
+{
+    "id": 3677,
+    "lang": "de",
+    "is_original": false,
+    "title": "Wuellerstorf-Urbair (Kommodore)",
+    "fl": "W",
+    "original_title": "Wuellerstorf-Urbair (Comodoro)",
+    "body": "Er war der Kommandant der österreichischen Fregatte Novara, die 1857-1859 eine Weltumsegelung unternahm. In seinem Werk \"Reise der Oesterreichischen Fregatte Novara um die Erde\" (Wien, 1861) zollt der Kommodore Wuellerstorf-Urbair Madeira höchste Bewunderung. Dieses Kapitel, soweit es sich auf Madeira bezieht, wurde von João Felix Pereira übersetzt und in der Zeitschrift \"Lampada\" veröffentlicht. Es gibt auch eine Übersetzung von José Maria Latino Coelho in der Zeitschrift \"Revista Contemporânea\".",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Führte meteorologische Beobachtungen durch"
+        ]
+    },
+    "people": {
+        "Kommodore Wuellerstorf-Urbair": [
+            "Kommandant der österreichischen Fregatte Novara"
+        ]
+    },
+    "years": {
+        "1857": [
+            "Weltumsegelung"
+        ],
+        "1858": [
+            "Weltumsegelung"
+        ],
+        "1859": [
+            "Weltumsegelung"
+        ],
+        "1861": [
+            "Veröffentlichung des Werks \"Reise der Oesterreichischen Fregatte Novara um die Erde\""
+        ]
+    }
+}

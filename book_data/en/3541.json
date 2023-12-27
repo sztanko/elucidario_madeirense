@@ -1,0 +1,27 @@
+{
+    "id": 3541,
+    "lang": "en",
+    "is_original": false,
+    "title": "Túmulo-Monumento",
+    "fl": "T",
+    "original_title": "Túmulo-Monumento",
+    "body": "This is the name given to the monument erected in the cemetery of Angústias, in memory of those who were brutally killed by the grenades of a German submarine on December 3, 1916. We have already provided a brief account of it on page 68 of Volume I of this work, to which we refer the reader. It was handed over to the Municipal Council of this municipality on December 15, 1917. See Monuments.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Angústias": [
+            "Location where the Túmulo-Monumento monument was erected"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1916": [
+            "Date on which people were killed by the grenades of a German submarine"
+        ],
+        "1917": [
+            "Date on which the Túmulo-Monumento monument was handed over to the Municipal Council"
+        ]
+    }
+}

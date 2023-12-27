@@ -1,0 +1,51 @@
+{
+    "id": 1800,
+    "lang": "de",
+    "is_original": false,
+    "title": "Bildung",
+    "fl": "B",
+    "original_title": "Instrução",
+    "body": "Wie natürlich und logisch war, dass die öffentliche Bildung auf diesem Archipel ungefähr die Phasen des Festlandes des Königreichs durchlief. In ihren Grundzügen ist die Geschichte der einen die Geschichte der anderen.\n\nDie Hochschulbildung war bei uns durch die Gründung der Medizinisch-Chirurgischen Schule von Funchal im Jahr 1837 vertreten, die 1910 endete (siehe *Medizinisch-Chirurgische Schule*).\nIn einigen Orten Madeiras macht sich bereits (1921) der Mangel an Ärzten bemerkbar, der in Kürze groß sein wird und sicher in nicht allzu ferner Zukunft behauptet werden kann, was 1824 der Gouverneur und Generalkapitän dieses Archipels der Metropole sagte: dass es auf Porto Santo und in den ländlichen Gebieten Madeiras keinen operierenden Chirurgen gab und dass \"sich nur ein erbärmlicher Blutsauger befand, dessen Kompetenz viele derer zum Opfer gefallen sind, die ihn zur Behandlung und Heilung ihrer Leiden gerufen haben\". Unsere Medizinschule hätte in ihrer ursprünglichen Organisation und ihrem Lehrplan überarbeitet werden sollen, um den Unterricht der dort gelehrten Fächer fruchtbarer zu gestalten, aber die Bedürfnisse der Inselbezirke rieten nicht zu ihrer Abschaffung, die in erster Linie, wie behauptet wird, auf Druck des Leiters der öffentlichen Gesundheit, Dr. Ricardo Jorge, erfolgte.\n\nDie Fachausbildung wurde bei uns mit dem Theologieunterricht am Diözesanseminar seit dessen Gründung im letzten Viertel des 16. Jahrhunderts (siehe *Seminar*) unterrichtet. Es gab auch spezielle Theologiekurse im Franziskanerkloster und im Jesuitenkolleg ausschließlich für die jeweiligen Ordensleute. Als Spezialkurse können der 1810 eingerichtete Zeichen- und Malunterricht, der Zeichenunterricht, der einige Jahre lang in dieser Stadt mit Unterstützung der Stadtverwaltung von Funchal stattfand, und die 1889 gegründete Industrieschule (*siehe Industrie*) betrachtet werden, über die wir bereits ausführliche Informationen gegeben haben. Im ersten Viertel des vergangenen Jahrhunderts gab es in dieser Stadt einen Militärausbildungsgang, dessen Organisation, Funktionsweise und Dauer wir völlig unbekannt sind. Als Kurse der Fachausbildung müssen wir auch die Normalschule (siehe diesen Namen) nennen, die von 1900 bis 1910 bestand, die 1919 gegründete Höhere Grundschule (siehe diesen Namen) und die 1914 gegründete Flugschule (siehe Flugschule).\n\nDie ersten Kurse für öffentliche Sekundarschulbildung bei uns waren diejenigen, die die Jesuiten an ihrem Kolleg St. Johannes Evangelist leiteten und die aus Latein, Philosophie, Rhetorik und Literatur bestanden. Wir wissen nicht, wann sie begannen zu funktionieren, aber sie existierten bereits 1590, denn der Autor der \"Saudades\" bezieht sich auf sie, und sie endeten mit der Ausweisung dieser Ordensleute im Jahr 1759. Dieser Sekundarkurs war unter dem Namen \"Hofklassen\" bekannt, da er in einem Innenhof stattfand, der zu einer Abhängigkeit des Kollegs gehörte. Es befand sich in der Studienstraße und im selben Gebäude wurden einige Sekundarklassen auch nach der Ausweisung der Jesuiten unter der gleichen Bezeichnung \"Hofklassen\" weitergeführt. Und es war noch im selben Gebäude, dass 1837 das Lyzeum dieser Stadt (siehe Lyzeum) eingerichtet wurde, das dort etwa 50 Jahre blieb. Wir können nicht genau angeben, wie viel Zeit zwischen der Ausweisung der Jesuiten und der Fortsetzung der \"Hofklassen\" verging, und wir wissen auch nicht, ob diese Kurse bis zur Einrichtung unseres Lyzeums ununterbrochen funktionierten. 1772 wurden die öffentlichen Kurse für Philosophie, Latein, Mathematik und Rhetorik geschaffen, und um 1825 die für Französisch und Englisch (siehe Sekundarschulen), was alles darauf hindeutet, dass diese Schaffung dazu diente, das Fehlen der von den Jesuiten geleiteten Kurse auszugleichen, so dass man dann annehmen muss, dass es in der Zeit von 1759 bis 1772 eine Unterbrechung dieser Kurse gab. In Bezug auf die Grundschulbildung lesen Sie den Artikel Grundschulen, in dem dieses Thema etwas ausführlicher behandelt wird.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Ricardo Jorge": [
+            "Leiter der öffentlichen Gesundheit"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Einrichtung des Lyzeums dieser Stadt"
+        ],
+        "1910": [
+            "Ende der Normalschule"
+        ],
+        "1921": [
+            "Ärztemangel in einigen Orten Madeiras"
+        ],
+        "1900": [
+            "Beginn der Normalschule"
+        ],
+        "1919": [
+            "Gründung der Höheren Grundschule"
+        ],
+        "1914": [
+            "Beginn der Flugschule"
+        ],
+        "1590": [
+            "Existenz der ersten Kurse für öffentliche Sekundarschulbildung"
+        ],
+        "1759": [
+            "Ausweisung der Jesuiten und Ende der \"Hofklassen\""
+        ],
+        "1772": [
+            "Einrichtung öffentlicher Kurse für Philosophie, Latein, Mathematik und Rhetorik"
+        ],
+        "1825": [
+            "Einrichtung von Kursen für Französisch und Englisch"
+        ]
+    }
+}

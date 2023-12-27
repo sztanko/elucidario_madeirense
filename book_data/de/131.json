@@ -1,0 +1,39 @@
+{
+    "id": 131,
+    "lang": "de",
+    "is_original": false,
+    "title": "Alexander (Prinz)",
+    "fl": "A",
+    "original_title": "Alexandre (Príncipe)",
+    "body": "Prinz Alexander der Niederlande kam am 20. November 1847 mit der niederländischen Fregatte Prinz von Oranien nach Madeira und starb dort am 20. Februar 1848 auf dem Landsitz von Tomaz Burnett in Santa Luzia. Seine Leiche wurde am 3. April desselben Jahres an Bord des niederländischen Dampfers Phoenix gebracht, der sie in die Niederlande brachte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Madeira": [
+            "Ort, an dem Prinz Alexander der Niederlande starb"
+        ],
+        "Santa Luzia": [
+            "Ort des Landsitzes, auf dem Prinz Alexander starb"
+        ]
+    },
+    "people": {
+        "Alexander der Niederlande": [
+            "Prinz, der 1847 nach Madeira kam und 1848 starb"
+        ],
+        "Tomaz Burnett": [
+            "Besitzer des Landsitzes, auf dem Prinz Alexander starb"
+        ]
+    },
+    "years": {
+        "1847": [
+            "Ankunft von Prinz Alexander der Niederlande auf Madeira"
+        ],
+        "1848": [
+            "Tod von Prinz Alexander der Niederlande auf Madeira und Transport seiner Leiche in die Niederlande"
+        ]
+    }
+}

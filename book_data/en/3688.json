@@ -1,0 +1,49 @@
+{
+    "id": 3688,
+    "lang": "en",
+    "is_original": false,
+    "title": "Zimbreiro (Juniperus phoenicea)",
+    "fl": "Z",
+    "original_title": "Zimbreiro (Juniperus phoenicea)",
+    "body": "Shrub, rarely a small tree, 1 to 5 meters tall, with a usually twisted trunk; scale-like, imbricated leaves, almost always appressed; subglobose, brownish cones when ripe. This Pinacea has been found at Rocha do Navio, in Santana, on the Caminho de Larano (Porto da Cruz), etc. In Porto Santo, where it was once very common, there was only one individual in 1903 on the slopes of Pico Branco. It produces white or yellowish-white wood, much less aromatic than cedar wood. The places named Zimbreiros in Paul do Mar and Caniço, and Zimbral de Areia and Zimbralinha in Porto Santo, probably derive their names from the presence of junipers in other times.",
+    "categories": [
+        "biology",
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Rocha do Navio": [
+            "Location where the Pinacea was found"
+        ],
+        "Santana": [
+            "Location where the Pinacea was found"
+        ],
+        "Caminho de Larano (Porto da Cruz)": [
+            "Location where the Pinacea was found"
+        ],
+        "Porto Santo": [
+            "Location where the Pinacea was found"
+        ],
+        "Paul do Mar": [
+            "Location where the Junipers are situated"
+        ],
+        "Caniço": [
+            "Location where the Junipers are situated"
+        ],
+        "Zimbral de Areia": [
+            "Location where the Junipers are situated"
+        ],
+        "Zimbralinha": [
+            "Location where the Junipers are situated"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1903": [
+            "There was only one individual on the slopes of Pico Branco"
+        ]
+    }
+}

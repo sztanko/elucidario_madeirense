@@ -1,0 +1,28 @@
+{
+    "id": 3466,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Telo de Meneses (Luís)",
+    "fl": "T",
+    "original_title": "Telo de Meneses (Luís)",
+    "body": "Nasceu na Madeira, sendo filho de Gaspar Lopes Cortez, e, tendo seguido a carreira das armas, veio a morrer na batalha de Montijo a 26 de Maio de 1644. Era então capitão de infantaria.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Gaspar Lopes Cortez": [
+            "Pai"
+        ]
+    },
+    "years": {
+        "1644": [
+            "Morte na batalha de Montijo"
+        ]
+    }
+}

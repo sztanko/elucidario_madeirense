@@ -1,0 +1,35 @@
+{
+    "id": 3318,
+    "lang": "en",
+    "is_original": false,
+    "title": "Serpa Pinto (Alexandre Alberto da Rocha)",
+    "fl": "S",
+    "original_title": "Serpa Pinto (Alexandre Alberto da Rocha)",
+    "body": "This well-known explorer of the Dark Continent was in Funchal around the year 1875, serving as captain in the extinct 12th hunters battalion. He was a close friend of the late Major Daniel Simões Soares, also an officer of the same regiment, with whom he planned an exploration trip to Southern Africa, which never materialized.\n\nSerpa Pinto was born on April 20, 1846, and died on December 28, 1900. The account of his adventurous journey in the African continent is found in the book he wrote, entitled A Carabina d'el-rei.",
+    "categories": [
+        "history",
+        "sports"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place where Serpa Pinto stayed."
+        ]
+    },
+    "people": {
+        "Alexandre Alberto da Rocha Serpa Pinto": [
+            "Explorer of the Dark Continent."
+        ]
+    },
+    "years": {
+        "1875": [
+            "Year in which he was in Funchal."
+        ],
+        "1846": [
+            "Year of birth."
+        ],
+        "1900": [
+            "Year of death."
+        ]
+    }
+}

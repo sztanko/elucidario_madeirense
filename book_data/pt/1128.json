@@ -1,0 +1,58 @@
+{
+    "id": 1128,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Desacato e Roubo na Igreja do Estreito",
+    "fl": "D",
+    "original_title": "Desacato e Roubo na Igreja do Estreito",
+    "body": "Na noite de 6 para 7 de Novembro de 1829 foi arrombada a igreja do Estreito de Nossa Senhora da Graça de Câmara de Lobos, sendo roubados dali diferentes vasos sagrados, algumas coroas de prata, 1 cordão de ouro com a imagem de Nossa Senhora, 1 flor de prata com engaste de pedras encarnadas, 1 cruz processional, 2 lâmpadas de prata, etc.. As partículas que se achavam no sacrario foram consumidas pelos ladrões. Dos autores deste crime, 6 foram condenados por sentença da Relação de Lisboa, de 6 de Março de 1830 a serem garrotados no cais de Sodré, e 2 a degredo perpetuo para Africa. Os réus condenados á pena ultima foram os seguintes: José Marreiros, anspeçada de infantaria 2, Jacinto Fernandes, trabalhador, Manuel de Sequeira, trabalhador, Januario Soares, soldado de infantaria 13, João Rodrigues, o Espera Diabos, trabalhador, e José de Andrade, o Rangido, quadrilheiro, sendo o primeiro e o quarto naturais de Portugal e os restantes da Madeira. Os três últimos réus, além da pena de garrote, foram condenados a serem arrastados desde a cadeia até ao patíbulo, devendo depois de mortos terem as cabeças cortadas, a fim de serem expostas em postes durante três dias. Os réus condenados a degredo perpetuo foram Francisco de Sales Rodrigues, ourives, e Timoteo da Graça, trabalhador, ambos naturais da Madeira, tendo a relação comutado depois em sentença de degredo para a Africa, a sentença de morte proferida contra o réu José Marreiros.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Estreito de Nossa Senhora da Graça": [
+            "Localidade onde ocorreu o roubo"
+        ],
+        "Câmara de Lobos": [
+            "Localidade onde ocorreu o roubo"
+        ],
+        "Lisboa": [
+            "Local onde foi proferida a sentença"
+        ]
+    },
+    "people": {
+        "José Marreiros": [
+            "Condenado à pena de garrote"
+        ],
+        "Jacinto Fernandes": [
+            "Trabalhador condenado por roubo"
+        ],
+        "Manuel de Sequeira": [
+            "Trabalhador condenado por roubo"
+        ],
+        "Januario Soares": [
+            "Soldado condenado por roubo"
+        ],
+        "João Rodrigues": [
+            "Trabalhador condenado por roubo"
+        ],
+        "José de Andrade": [
+            "Quadrilheiro condenado por roubo"
+        ],
+        "Francisco de Sales Rodrigues": [
+            "Ourives condenado a degredo perpetuo"
+        ],
+        "Timoteo da Graça": [
+            "Trabalhador condenado a degredo perpetuo"
+        ]
+    },
+    "years": {
+        "1829": [
+            "Ano do roubo"
+        ],
+        "1830": [
+            "Ano da sentença"
+        ]
+    }
+}

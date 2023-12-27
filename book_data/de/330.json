@@ -1,0 +1,26 @@
+{
+    "id": 330,
+    "lang": "de",
+    "is_original": false,
+    "title": "Zeichen- und Malunterricht.\nSekundarunterricht.",
+    "fl": "Z",
+    "original_title": "Aula de Desenho e Pintura.\nAulas secundarias.",
+    "body": "_V. Industrieschule\n\nVor der Gründung des Lyzeums in Funchal gab es in dieser Stadt die folgenden Kurse: Mathematik, Philosophie, Rhetorik, Französisch und Englisch, Lateinische Grammatik und Latinität. Der Professor für Mathematik hatte 1821 ein Jahresgehalt von 500.000 Réis; der für Philosophie 460.000 Réis; der für Rhetorik 440.000 Réis; der für lateinische Grammatik 400.000 Réis und der für Latinität 400.000 Réis. Der Vertreter des ersten dieser Lehrstühle hatte ein Gehalt von 250.000 Réis; der des zweiten 230.000 Réis und die des dritten und fünften jeweils 200.000 Réis. Der Professor für lateinische Grammatik scheint keinen Vertreter gehabt zu haben. All diese Kurse, mit Ausnahme des Französisch- und Englischkurses, wurden aufgrund des Gesetzes vom 6. November 1772 eingerichtet, das auch einen Griechischkurs einrichtete, der jedoch nie zustande kam. Der Französisch- und Englischkurs wurde zu Zeiten des Gouverneurs D. Manuel de Portugal e Castro eingerichtet. Es gab auch einen speziellen Zeichenkurs, der 1810 eingerichtet wurde und dessen Professor 600.000 Réis pro Jahr erhielt.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1821": [
+            "Der Professor für Mathematik hatte ein Jahresgehalt von 500.000 Réis"
+        ],
+        "1810": [
+            "Es wurde ein spezieller Zeichenkurs eingerichtet, dessen Professor 600.000 Réis pro Jahr erhielt"
+        ],
+        "1772": [
+            "Es wurde auch ein Griechischkurs eingerichtet, der jedoch nie zustande kam"
+        ]
+    }
+}

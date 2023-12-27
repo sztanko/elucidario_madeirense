@@ -1,0 +1,34 @@
+{
+    "id": 1068,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cratera",
+    "fl": "C",
+    "original_title": "Cratera",
+    "body": "As poucas crateras faceis de reconhecer que existem na Madeira, não se encontram nas partes mais elevadas da ilha, onde certamente existiram outrora, mas sim nas regiões média e inferior. A mais conhecida das crateras madeirenses é a do Santo da Serra, a cêrca de 600 metros acima do nivel do mar, e cujo ponto mais elevado está a 60 ou 70 metros acima dos terrenos adjacentes. É pouco profunda, contém agua no inverno e no interior dela vivem algumas plantas proprias dos logares encharcados. Encontra-se também uma cratera no Pôrto do Moniz, perto da Terra Chã, e outra no Fanal, sendo dupla a desta ultima localidade. A cratera do Pôrto do Moniz, como a de Santo Antonio da Serra, tem um cone, particularidade esta que se não observa na do Fanal. Nas vizinhanças do Caniço há três cones com crateras imperfeitas, e no Caniçal há um cone tendo num dos lados uma cratera. No Pico da Irandaia, para oeste do Funchal e nas proximidades da igreja de S. Roque, também se encontram vestigios de crateras. As crateras de Santo Antonio da Serra, Pôrto do Moniz e Fanal são conhecidas pela denominação de lagoas. O Curral das Freiras é considerado por alguns geologos como uma cratera, e por outros como um vale de erosão. Carlos Lyell, que perfilha esta ultima opinião, diz nos seus Elementos de Geologia que não encontrou no Curral indicios de acções vulcanicas, e que essa localidade, assim como a Ribeira da Janela e a Serra de Agua, são vales profundos que irradiam da região mais montanhosa da ilha.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Caniçal"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Cratera a cerca de 600 metros acima do nivel do mar"
+        ],
+        "Pôrto do Moniz": [
+            "Cratera perto da Terra Chã"
+        ],
+        "Fanal": [
+            "Localidade com cratera dupla"
+        ]
+    },
+    "people": {
+        "Carlos Lyell": [
+            "Geologo que considera o Curral das Freiras como um vale de erosão"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,30 @@
+{
+    "id": 428,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barreirinha",
+    "fl": "B",
+    "original_title": "Barreirinha",
+    "body": "A small beach located to the east of the Santiago fortress and downstream from the parish church of Santa Maria Maior. It was suitable for a bathing beach, which the Funchal City Council made easily accessible in 1939, improving the location and the path leading there.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santiago",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santiago Fortress": [
+            "West of the beach"
+        ],
+        "Parish Church of Santa Maria Maior": [
+            "Upstream from the beach"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1939": [
+            "Improvement of access to the beach"
+        ]
+    }
+}

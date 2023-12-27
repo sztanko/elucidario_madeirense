@@ -1,0 +1,34 @@
+{
+    "id": 1684,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Henriques (D. Francisco)",
+    "fl": "H",
+    "original_title": "Henriques (D. Francisco)",
+    "body": "Foi nomeado governador geral da Madeira a 20 de Julho de 1622 e tomou posse a 28 de Outubro do mesmo ano. Era natural desta ilha e nela morreu, quando exercia o cargo de governador, a 27 de Junho de 1624 e jaz sepultado na igreja do Colégio. Por sua morte ficou exercendo interinamente as funções de governador geral o bispo diocesano D. Jerónimo. Fernando, que foi confirmado no logar por Carta Regia de 3 de Agosto de 1624.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [
+        "Colégio"
+    ],
+    "locations": {
+        "Madeira": [
+            "Local de nascimento e governação de D. Francisco Henriques"
+        ]
+    },
+    "people": {
+        "D. Jerónimo": [
+            "Bispo diocesano"
+        ]
+    },
+    "years": {
+        "1622": [
+            "Nomeação de D. Francisco Henriques como governador geral da Madeira"
+        ],
+        "1624": [
+            "Morte de D. Francisco Henriques"
+        ]
+    }
+}

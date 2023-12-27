@@ -1,0 +1,38 @@
+{
+    "id": 1605,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gonçalves (Comendador Manuel)",
+    "fl": "G",
+    "original_title": "Gonçalves (Comendador Manuel)",
+    "body": "He was an intelligent and active merchant from Funchal, who, due to his enterprising spirit and initiative, rendered excellent services to his homeland. His action would have been even more extensive and beneficial if a deliberate war had not hindered the realization of his projects. He made great and fruitful efforts to free the local trade from the influence of certain foreign houses that stifled the commercial and industrial activities of the native merchants of this island. It was mainly due to his efforts that the Sanatorium Company was organized, as will be seen more fully in the article dedicated to him. As director of the Monte Iron Company, he carried out the important improvement of extending the cable car from Monte to Terreiro da Luta, and built an excellent restaurant there, which rivaled similar establishments abroad. Comendador Gonçalves was born in Funchal around 1867 and died in the parish of Monte on August 18, 1916.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Monte"
+    ],
+    "locations": {
+        "Funchal": [
+            "Birthplace"
+        ],
+        "Monte": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "Gonçalves (Comendador Manuel)": [
+            "Intelligent and active merchant"
+        ]
+    },
+    "years": {
+        "1867": [
+            "Year of birth"
+        ],
+        "1916": [
+            "Year of death"
+        ]
+    }
+}

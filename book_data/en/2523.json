@@ -1,0 +1,80 @@
+{
+    "id": 2523,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Rosário (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Rosário (Capelas de)",
+    "body": "In the parish of Campanário, a chapel of this invocation was founded in 1748 by the morgado António Leandro da Câmara Leme. The endowment deed is from July 18, 1734, but it was only inspected fourteen years later, so that the acts of worship could be celebrated there.\n\nOn the right bank of the Santa Luzia stream, in the place called Fundoa and within the area of ​​the parish of São Roque, there is a chapel dedicated to Nossa Senhora do Rosário, which was built by João da Paz de Castro in the year 1668, and with the same invocation, Matias de Mendonça e Vasconcelos erected a chapel in the parish of Machico, in the year 1660.\n\nIn the parish of Santa Cruz, there was a chapel with the patronage of Nossa Senhora do Rosário, but we know nothing about its founder and the year of its construction.\n\nThe chapel of Nossa Senhora do Rosário in the Vargem, in the parish of São Vicente, is not of small dimensions. The original chapel, instituted by José Caldeira, has undergone several modifications and additions. The parish priest usually resides near this chapel and there he performs the functions of religious worship.\n\nThere was a chapel of the same invocation in the parish of São Jorge, founded in the last quarter of the 17th century by Father Matias Jorge Jardim, and it was located in the place of Ilha.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário",
+        "São Roque",
+        "Machico",
+        "Santa Cruz",
+        "São Vicente",
+        "São Jorge"
+    ],
+    "locations": {
+        "Campanário": [
+            "Locality in Madeira"
+        ],
+        "Santa Luzia": [
+            "Locality in Madeira"
+        ],
+        "São Roque": [
+            "Locality in Madeira"
+        ],
+        "Machico": [
+            "Locality in Madeira"
+        ],
+        "Santa Cruz": [
+            "Locality in Madeira"
+        ],
+        "Vargem": [
+            "Locality in Madeira"
+        ],
+        "São Vicente": [
+            "Locality in Madeira"
+        ],
+        "São Jorge": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "António Leandro da Câmara Leme": [
+            "Founder of the chapel in 1748"
+        ],
+        "João da Paz de Castro": [
+            "Builder of the chapel in 1668"
+        ],
+        "Matias de Mendonça e Vasconcelos": [
+            "Erected a chapel in 1660"
+        ],
+        "José Caldeira": [
+            "Institutor of the original chapel in São Vicente"
+        ],
+        "Father Matias Jorge Jardim": [
+            "Founder of the chapel in São Jorge"
+        ]
+    },
+    "years": {
+        "1748": [
+            "Foundation of the chapel in Campanário"
+        ],
+        "1734": [
+            "Date of the endowment deed"
+        ],
+        "1668": [
+            "Construction of the chapel by João da Paz de Castro"
+        ],
+        "1660": [
+            "Erection of a chapel by Matias de Mendonça e Vasconcelos in Machico"
+        ],
+        "XVII": [
+            "Foundation of the chapel in São Jorge"
+        ]
+    }
+}

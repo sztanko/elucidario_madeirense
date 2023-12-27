@@ -1,0 +1,35 @@
+{
+    "id": 1270,
+    "lang": "de",
+    "is_original": false,
+    "title": "Espírito Santo (Fr. João do)",
+    "fl": "E",
+    "original_title": "Espírito Santo (Fr. João do)",
+    "body": "Ein portugiesischer Mönch, der in Funchal in bürgerlicher Kleidung im Jahr 1582 oder kurz danach gehängt wurde, weil er die Bevölkerung dieser Insel dazu angestiftet hatte, der Partei von D. Antonio, dem Prior von Crato, zu folgen. Fr. João do Espírito Santo war vor seiner Ankunft in Funchal in Angra gewesen, und auf ihn bezieht sich die Relação das coisas que aconteceram na cidade d'Angra, ilha Terceira, depois que se perdeu el-rei D. Sebastião em Africa. Diese Beschreibung wurde im Band XIII, S. 159 des Panorama veröffentlicht.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Angra": [
+            "Stadt auf der Insel Terceira"
+        ]
+    },
+    "people": {
+        "D. Antonio": [
+            "Prior von Crato"
+        ],
+        "D. Sebastião": [
+            "König von Portugal"
+        ]
+    },
+    "years": {
+        "1582": [
+            "Fr. João do Espírito Santo wurde in Funchal gehängt"
+        ]
+    }
+}

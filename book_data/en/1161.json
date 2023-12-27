@@ -1,0 +1,38 @@
+{
+    "id": 1161,
+    "lang": "en",
+    "is_original": false,
+    "title": "Dykes",
+    "fl": "D",
+    "original_title": "Diques",
+    "body": "These are walls of volcanic rocks formed by the penetration of molten material into the fissures opened by earth tremors in pre-existing terrains. When dykes are abundant in a locality, it proves that volcanic action has been felt there with great intensity.\n\nIn Curral das Freiras and in other valleys in the interior of Madeira, there are a large number of dykes, and at Cabo Girão, there are vertical dykes and other horizontal ones.\n\nSometimes, dykes end in a point at the top, and there are also some, like the one at the mound of Piedade, in Ponta de S. Lourenço, that are cut or intercepted at the base by horizontal terrains.\n\nThe basaltic dyke that forms a hill or nipple at the top of Garajau is distinguished on both sides of this cape, being double on the eastern side. There are also double dykes in Ribeiro Frio, in the part of Penha de Águia released towards the sea, and in other points, which probably resulted from a new penetration of lava into the same fissures.\n\nThere are isolated dykes due to the destruction of terrains by erosion. The peaks of Empinos, near Curral, are made up of isolated dykes, and in Ribeiro do Juncal, at the top of Ribeira da Metade, there is a dyke under the same conditions, about 45 meters high and 18 meters wide.\n\nIt is believed that in most of the dykes in Madeira, the molten material was propelled from the lower part to the upper part, but in the aforementioned dyke of Piedade, and in another one that exists in Ribeiro dos Piornais, between Caniço and Funchal, it seems that the opposite was the case, as both are interrupted or cut at the base.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Curral das Freiras": [
+            "Locality with a large number of dykes"
+        ],
+        "Cabo Girão": [
+            "Vertical and horizontal dykes"
+        ],
+        "Ponta de S. Lourenço": [
+            "Mound of Piedade, dykes cut or intercepted at the base by horizontal terrains"
+        ],
+        "Garajau": [
+            "Basaltic dyke forms a hill or nipple at the top, distinguished on both sides of this cape, double on the eastern side"
+        ],
+        "Ribeiro Frio": [
+            "Double dykes in the part of Penha de Águia released towards the sea and in other points, probably from a new penetration of lava into the same fissures"
+        ],
+        "Empinos": [
+            "Peaks near Curral, made up of isolated dykes"
+        ],
+        "Ribeiro do Juncal": [
+            "Dyke under the same conditions, about 45 meters high and 18 meters wide"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

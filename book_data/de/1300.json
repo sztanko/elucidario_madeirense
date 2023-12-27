@@ -1,0 +1,29 @@
+{
+    "id": 1300,
+    "lang": "de",
+    "is_original": false,
+    "title": "Facho (Bergspitze)",
+    "fl": "F",
+    "original_title": "Facho (Pico do)",
+    "body": "Diese Bergspitze liegt 330 m über dem Ort Machico und beherrscht das Gebiet der Gemeinde Caniçal und das schöne Tal, durch das der Bach von Machico fließt. Dort gab es einen optischen Telegrafen, der mit einem anderen auf dem so genannten Berg Pico do Telégrafo in der Gemeinde Caniço kommunizierte.\n\nEs wird irgendwo gesagt, dass es auf dem Gipfel des Berges eine kleine Quelle gibt, deren Wasser mit der Flut steigt und fällt. Dieses Phänomen scheint auf die Existenz eines unterirdischen Kanals zwischen dem Quellbecken und der Küste zurückzuführen zu sein, in den das Meer bei Flut eindringt. Es ist die in diesem Kanal befindliche Luft, die in das Quellbecken strömt und wahrscheinlich den Anstieg des Wasserspiegels während der Flut an der Küste von Machico verursacht (siehe Berge).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Caniçal",
+        "Caniço"
+    ],
+    "locations": {
+        "Machico": [
+            "Ort"
+        ],
+        "Caniçal": [
+            "Gemeinde"
+        ],
+        "Caniço": [
+            "Gemeinde"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

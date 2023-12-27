@@ -1,0 +1,56 @@
+{
+    "id": 1049,
+    "lang": "de",
+    "is_original": false,
+    "title": "Südküste",
+    "fl": "S",
+    "original_title": "Costa do Sul",
+    "body": "Die Südküste Madeiras, umgangssprachlich Südküste genannt, erstreckt sich von der markanten Ausbuchtung der Küste namens Ponta do Pargo bis zur Spitze von Ponta de São Lourenço. Die Region im Süden ist sehr angenehm und malerisch, hat mehr Buchten und Anlandeplätze, was zusammen mit dem Schutz vor den vorherrschenden Winden, den die Hauptinselmasse bietet, dazu führt, dass Schiffe und Boote an dieser Küste die Sicherheit finden, die ihnen die Nordküste verwehrt, wie in der Bucht von Funchal. An dieser Südküste liegen die Gemeinden der Landkreise Calheta, Ponta do Sol, Ribeira Brava, Camara de Lôbos, Funchal, Santa Cruz und Machico, mit Ausnahme der Gemeinde Porto da Cruz und der Nordküste von Caniçal, die zum letzten dieser Landkreise gehören.\n\nDer bereits erwähnte Mousinho de Albuquerque sagt in Bezug auf die Meeresküste der Südküste: \"Von der Ponta do Pargo verläuft die Südküste der Insel nach Südosten bis zur Ponta do Jardim und weist in diesem Abschnitt einige kleine Untiefen und Felsen sehr nahe an der Küste auf, insbesondere vor Paúl do Mar und Jardim selbst. Die Küste verläuft dann in Richtung Ost-Südost bis Ponta do Sol und von dort bis Ponta da Cruz, der südlichsten Spitze der Insel, verläuft sie im Allgemeinen und abgesehen von kleineren Einbuchtungen und Punkten in Richtung Ost-Südost bis Ost. Von Ponta da Cruz bis Kap Garajau, wo sich die Bucht von Funchal befindet, verläuft die Küste ungefähr nach Nordosten, und nach dem Kap und bis Ponta dos Picos da Atalaia wird sie merklich nach Ost-Nordost, und von dort bis Caniçal am Ursprung von Ponta de São Lourenço verläuft die Küste generell nach Nord-Nordost bis Ost. Auf fast der gesamten Ausdehnung dieses Küstenabschnitts ist das Meer tief und frei von Untiefen, mit Ausnahme des Ilhéu do Gorgulho, der Baixa do Carneiro, der befestigten Ilhéu und des Endes von Ponta de São Lourenço, das von einigen felsigen Inseln und kleinen Felsköpfen umgeben ist, die das Wasser bedeckt.\"",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Calheta",
+        "Ponta do Sol",
+        "Ribeira Brava",
+        "Camara de Lôbos",
+        "Funchal",
+        "Santa Cruz",
+        "Machico"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Markante Ausbuchtung der Küste"
+        ],
+        "Ponta de São Lourenço": [
+            "Spitze von Ponta de São Lourenço"
+        ],
+        "Paúl do Mar": [
+            "Einige kleine Untiefen und Felsen sehr nahe an der Küste"
+        ],
+        "Ponta do Jardim": [
+            "Einige kleine Untiefen und Felsen sehr nahe an der Küste"
+        ],
+        "Ponta do Sol": [
+            "Richtung Ost-Südost"
+        ],
+        "Ponta da Cruz": [
+            "Südlichste Spitze der Insel"
+        ],
+        "Cabo Garajau": [
+            "Bucht von Funchal"
+        ],
+        "Ponta dos Picos da Atalaia": [
+            "Richtung generell Nord-Nordost bis Ost"
+        ],
+        "Caniçal": [
+            "Ursprung von Ponta de São Lourenço"
+        ]
+    },
+    "people": {
+        "Mousinho de Albuquerque": [
+            "Bezieht sich auf die Meeresküste der Südküste"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,46 @@
+{
+    "id": 723,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lavakanäle",
+    "fl": "L",
+    "original_title": "Canais de Lava",
+    "body": "An verschiedenen Stellen Madeiras finden sich Höhlen, die in basaltischem Lavagestein ausgehöhlt sind, im Allgemeinen aus jüngerem Datum, die durch einen Mechanismus gebildet wurden, der in bestimmten vulkanischen Regionen der Erde, wie den Azoren und Sandwichinseln, zur Entstehung ähnlicher Formationen geführt hat.\n\nEin schmaler Strom noch flüssiger Lava, eingebettet in Schlamm oder Schlacke, rutschte an einem Hang oder einer Schlucht entlang, während sich die Außenseite, die einen Großteil der Hitze durch Ausstrahlung verlor, verfestigte und den Kern bei einer Temperatur beließ, die noch hoch genug war, um die Fließfähigkeit aufrechtzuerhalten.\n\nSo entstand ein Kanal, in dem Behälter und Inhalt von derselben Beschaffenheit waren, mit dem wesentlichen Unterschied der ungleichen Temperatur.\n\nNachdem der pastöse Kern erschöpft war, blieb diese Art vulkanischer Kanalisation zurück, deren vollkommenstes Beispiel auf Madeira die Höhle nahe der Mündung des Baches von S. Vicente ist, die etwa 80 Meter lang und 4 bis 5 Meter breit sein könnte.\n\nIn Montado dos Pessegueiros, einem Ort der gleichen Gemeinde S. Vicente, und in Pôrto do Moniz gibt es auch solche Kanäle in modernen Lavaströmen, und an der Südküste, sowohl östlich als auch westlich von Funchal, sind die Überreste von Tunneln dieser Art zu sehen, meist auf Meeresniveau.\n\nDas Fojo, eine tiefe Höhle, die hinter der Küstenlinie etwas östlich von Ponta da Cruz in brüchigem Tuff ausgehöhlt ist, scheint das Ergebnis von Erosion und dem Einsturz eines Lava-Tunnels zu sein, der in früheren Zeiten dort vorbeiführte und ins Meer mündete, dessen Ruinen heute, in Blöcken geschwärzter Lava verwirrt aufgehäuft, glatte Oberflächen mit langen parallelen Rillen aufweisen, die die Wände von Lava-Tunneln kennzeichnen. Das Meerwasser, das durch eine marine Erosionshöhle in der Nähe eindrang und das unter dem Kanal liegende Gestein angegriffen hatte, hätte den besagten Einsturz verursacht, unterstützt vom Regenwasser, das in die Grube strömt und den Tuff auslaugt und dessen Umfang erweitert.\n\nZwischen Fojo und Ponta Gorda, nicht weit von der Muralha dos Franceses, sind ähnliche Überreste anderer eingestürzter Kanäle zu sehen, umgeben wie das Fojo von gelbem Schlackentuff.\n\nVon der Decke einiger dieser Tunnel hängen, wie Stalaktiten oder batavische Tränen, merkwürdige Auswüchse verglasten Lavas, die die Flüssigkeit des Gesteins unter dem Einfluss einer sehr hohen Temperatur bezeugen. Bemerkenswerte Exemplare dieser Auswüchse, bemerkenswert wegen ihrer Größe und bizarren Form, wurden in einer Höhle des Baches von Janela gefunden.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "S. Vicente"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Ort der Höhle"
+        ],
+        "Montado dos Pessegueiros": [
+            "Ort mit Lavakanälen"
+        ],
+        "Pôrto do Moniz": [
+            "Ort mit Lavakanälen"
+        ],
+        "Funchal": [
+            "Ort mit Überresten von Lavatunneln"
+        ],
+        "Ponta da Cruz": [
+            "Ort nahe des Fojo"
+        ],
+        "Fojo": [
+            "Tiefe Höhle hinter der Küste"
+        ],
+        "Ponta Gorda": [
+            "Ort mit Überresten von Lavakanälen"
+        ],
+        "Muralha dos Franceses": [
+            "Ort nahe Überresten von Lavakanälen"
+        ],
+        "Janela": [
+            "Ort einer Höhle mit Lava-Auswüchsen"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

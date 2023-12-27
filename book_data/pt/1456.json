@@ -1,0 +1,25 @@
+{
+    "id": 1456,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Forte de S. José da Ilha do Porto Santo",
+    "fl": "F",
+    "original_title": "Forte de S. José da Ilha do Porto Santo",
+    "body": "Construído no governo pombalino a dentro da vila, tendo casa para residência dos governadores.\n\nAcha-se cedido actualmente á guarda fiscal.(1921)",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Vila"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1921": [
+            "Cedido à guarda fiscal"
+        ]
+    }
+}

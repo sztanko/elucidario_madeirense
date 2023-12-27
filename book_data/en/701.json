@@ -1,0 +1,34 @@
+{
+    "id": 701,
+    "lang": "en",
+    "is_original": false,
+    "title": "Camara Eclesiastica",
+    "fl": "C",
+    "original_title": "Camara Eclesiastica",
+    "body": "It is the department where all religious and ecclesiastical affairs of this diocese are handled. It must have been created in the same year as the creation of the bishopric, that is, in 1514, and after the customs house, it is the oldest public department in this archipelago.\n\nThe original salary of its clerk was three thousand réis annually, which by royal decree of October 28, 1564, was raised to eight thousand réis, and certainly the respective emoluments of the department should be added to this salary. We believe that its organization was very different from the current one in other times.\n\nThe archive of the ecclesiastical chamber contained very valuable documents, not only for the history of the diocese, but also for the Madeiran archipelago, and a fire that occurred there at the end of the 17th century rendered almost all of these documents unusable.\n\nThis ecclesiastical department has always been attached to the episcopal residence. When, as a result of the provisions of the law of separation, the lyceum was installed in the episcopal palace in January 1914, the ecclesiastical chamber moved a few months earlier to a house opposite the old seminary, on Rua Julio da Silva Carvalho, which belonged to the same seminary. In May 1918, it was installed in one of the dependencies of the new Episcopal Palace, at Largo do Ribeiro Real, and next to the British cemetery.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Archive of the ecclesiastical chamber"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1514": [
+            "Creation of the ecclesiastical chamber"
+        ],
+        "1564": [
+            "Increase in the clerk's salary"
+        ],
+        "1914": [
+            "Installation of the lyceum in the episcopal palace"
+        ],
+        "1918": [
+            "Installation of the ecclesiastical chamber in the new Episcopal Palace"
+        ]
+    }
+}

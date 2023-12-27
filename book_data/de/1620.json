@@ -1,0 +1,29 @@
+{
+    "id": 1620,
+    "lang": "de",
+    "is_original": false,
+    "title": "Käfer (Ort und Insel Gorgulho)",
+    "fl": "K",
+    "original_title": "Gorgulho (Sítio e Ilhéu do)",
+    "body": "Ort an der Küste westlich der Stadt und in der Gemeinde S. Martinho, wo eine kleine Festung stand, die heute völlig in Ruinen liegt. Der Gorgulho ist aufgrund der Lavaströme in der Nähe der genannten Festung geologisch interessant. Es gibt dort eine Eisentreppe und eine geneigte Ebene, die von der Wilson Company gebaut wurden. An diesem Ort ließ der Stadtrat von Funchal im Jahr 1932 ein öffentliches Schwimmbecken für das Baden und Schwimmübungen bauen, das mit Meerwasser gespeist wird. An diesem Ort und in geringer Entfernung zur Küste befindet sich eine kleine Insel namens Gorgulho.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "S. Martinho"
+    ],
+    "locations": {
+        "Ort an der Küste": [
+            "Lage: westlich der Stadt, Gemeinde S. Martinho"
+        ],
+        "Insel Gorgulho": [
+            "Lage: in der Nähe der Küste"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1932": [
+            "Bau des öffentlichen Schwimmbeckens"
+        ]
+    }
+}

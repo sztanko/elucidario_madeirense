@@ -1,0 +1,41 @@
+{
+    "id": 3440,
+    "lang": "de",
+    "is_original": false,
+    "title": "Theater des guten Geschmacks",
+    "fl": "T",
+    "original_title": "Teatro de Bom Gosto",
+    "body": "Es scheint, dass die Existenz des wichtigen und prachtvollen Veranstaltungsortes Teatro Grande (siehe diesen Namen) in Funchal den Bau eines neuen Theaters namens Theater des guten Geschmacks nicht rechtfertigte, das nur wenige Meter entfernt errichtet wurde. Wir wissen nicht genau, wann es gebaut wurde, aber wir vermuten, dass es zwischen 1818 und 1820 gewesen sein muss, da es bereits 1821 existierte. Es befand sich zwischen der Rua de São Francisco und dem Gebäude der Barmherzigkeit (1921) mit Zugang zu dieser Straße und zur Seite der ehemaligen Öffentlichen Promenade. Wir wissen nicht, welche Gründe den Bau dieses neuen Theaters begründeten, aber wir hörten vor Jahren, dass dies hauptsächlich eine Laune des ersten Grafen von Carvalhal gewesen sei.\n\nWir wissen nicht, ob er derjenige war, der den Bau in Auftrag gab, aber wir wissen, dass es ihm gehörte und dass er bei seiner Rückkehr aus dem Exil Ende 1834 umfangreiche Reparaturen vornehmen ließ, wobei es in ein ordentliches Theater mit 18 Logen erster Klasse und 6 zweiter Klasse, 230 Plätzen im Parkett und zwei Balkonen, einer für Männer und einer für Frauen, umgewandelt wurde. Man teilte uns mit, dass es größer war als das alte Teatro Esperança und dass es im Inneren einen angenehmen und attraktiven Anblick bot.\n\nWir wissen nicht, wann es geschlossen wurde und keine Theateraufführungen mehr stattfanden. Wir wissen nur, dass 1838 noch eine Aufführung stattfand, und irgendwo heißt es, dass es zu dieser Zeit bereits in einem fortgeschrittenen Ruinzustand gewesen sei, was sich kaum mit den Reparaturen vereinbaren lässt, die auf Anweisung des Grafen von Carvalhal vorgenommen wurden, wie oben erwähnt.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Standort des Theaters des guten Geschmacks"
+        ]
+    },
+    "people": {
+        "Ersten Grafen von Carvalhal": [
+            "Möglicherweise verantwortlich für den Bau und die Reparaturen des Theaters des guten Geschmacks"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Mögliches Baujahr des Theaters des guten Geschmacks"
+        ],
+        "1820": [
+            "Mögliches Baujahr des Theaters des guten Geschmacks"
+        ],
+        "1821": [
+            "Bestätigte Existenz des Theaters des guten Geschmacks"
+        ],
+        "1834": [
+            "Reparaturen am Theater des guten Geschmacks"
+        ],
+        "1838": [
+            "Letzte Aufführung im Theater des guten Geschmacks"
+        ]
+    }
+}

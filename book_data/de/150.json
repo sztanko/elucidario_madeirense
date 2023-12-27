@@ -1,0 +1,30 @@
+{
+    "id": 150,
+    "lang": "de",
+    "is_original": false,
+    "title": "Almada (D. Lourenço de)",
+    "fl": "A",
+    "original_title": "Almada (D. Lourenço de)",
+    "body": "Dieser Gouverneur und General-Kapitän von Madeira wurde am 4. August 1687 ernannt und trat sein Amt am 13. April 1688 an. Er war auch Generalgouverneur von Angola und einer Provinz Brasiliens. Er stammte von D. Alvaro Vaz de Almada ab und starb am 2. Mai 1729.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Alvaro Vaz de Almada": [
+            "Vorfahre von D. Lourenço de Almada"
+        ]
+    },
+    "years": {
+        "1687": [
+            "Ernennung zum Gouverneur und General-Kapitän Madeiras"
+        ],
+        "1688": [
+            "Amtsantritt"
+        ],
+        "1729": [
+            "Todesjahr"
+        ]
+    }
+}

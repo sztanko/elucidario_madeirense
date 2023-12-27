@@ -1,0 +1,31 @@
+{
+    "id": 1898,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Kirkpatrick (R.)",
+    "fl": "K",
+    "original_title": "Kirkpatrick (R.)",
+    "body": "Naturalista do Museu Britanico que visitou a Madeira e Porto Santo, tendo feito na última destas ilhas diferentes estudos zoológicos. Escreveu um pequeno trabalho intitulado *On Melia Normani, a sponge with a siliseous and calcareous skeleton* (Londres, 1911). A curiosa esponja de que se faz menção neste trabalho, foi encontrada pelo naturalista madeirense Adolfo C. de Noronha nos mares do Porto Santo. Kirkpatrick diz num dos seus trabalhos ter achado no Porto Santo o *Eozoon canadense*, o mais antigo fóssil conhecido, mas tal descoberta carece de confirmação.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [
+        "Porto Santo"
+    ],
+    "locations": {
+        "Museu Britanico": [
+            "Naturalista"
+        ]
+    },
+    "people": {
+        "Adolfo C. de Noronha": [
+            "Naturalista madeirense"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Publicação do trabalho *On Melia Normani, a sponge with a siliseous and calcareous skeleton*"
+        ]
+    }
+}

@@ -1,0 +1,51 @@
+{
+    "id": 229,
+    "lang": "en",
+    "is_original": false,
+    "title": "António Alfredo",
+    "fl": "A",
+    "original_title": "António Alfredo",
+    "body": "Antonio Alfredo de Santa Catarina Braga, a former Franciscan, was born in the city of Porto in the late 18th century. Around 1820, he left the convent and became a secular cleric. He brilliantly taught philosophy and theology in his order's houses and was a notable and renowned preacher in his time. Persecuted for his liberal ideas, he was deported to Cape Verde, later moving to Brazil, from where he returned to his homeland when the constitutional government was established. He was then appointed canon of the Évora Cathedral and later governor of the bishoprics of Bragança and Funchal, and held other important public service commissions.\n\nBy decree of November 7, 1834, Antonio Alfredo was appointed temporal governor of the Funchal bishopric, a position he held until April 1840, when he was relieved of his duties by decree of February 25 of that year and assigned to another service commission. He was a man of rare talent and vast knowledge, as attested by his contemporaries and the speeches, pastoral letters, and other written works he left behind, but his tenure as governor of this diocese was not marked by the most austere probity and scrupulous conduct. His act of personally going to the convent of S. Bernardino in Câmara de Lobos in early June 1835 to prohibit the worship of Fr. Pedro da Guarda, known as the Holy Servant of God, and having the statue of the humble religious burned in his presence, became famous and caused serious scandal. He then published a pastoral letter condemning and prohibiting any worship that might be given to Fr. Pedro da Guarda.\n\nHe left the island for Lisbon on April 14, 1840, and in the same year was appointed governor of the Bragança bishopric, where he died a few years later in the city of Porto.\n\nIn 1849, his 'Miscellanea' or collection of various writings was posthumously published, through the efforts of a relative, of which only the first volume was released.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Porto": [
+            "City of birth and place of death"
+        ],
+        "Cape Verde": [
+            "Location to which he was deported"
+        ],
+        "Brazil": [
+            "Location to which he went after being deported"
+        ],
+        "Lisbon": [
+            "Location to which he left the island in 1840"
+        ]
+    },
+    "people": {
+        "Antonio Alfredo de Santa Catarina Braga": [
+            "Former Franciscan, secular cleric, governor of the bishoprics of Bragança and Funchal"
+        ],
+        "Fr. Pedro da Guarda": [
+            "Known as the Holy Servant of God"
+        ]
+    },
+    "years": {
+        "1820": [
+            "Antonio Alfredo's departure from the convent"
+        ],
+        "1834": [
+            "Antonio Alfredo's appointment as temporal governor of the Funchal bishopric"
+        ],
+        "1835": [
+            "Antonio Alfredo's solemn act at the convent of S. Bernardino in Câmara de Lobos"
+        ],
+        "1840": [
+            "Antonio Alfredo's departure from the island to Lisbon"
+        ]
+    }
+}

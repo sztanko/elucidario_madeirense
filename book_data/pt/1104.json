@@ -1,0 +1,28 @@
+{
+    "id": 1104,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Curral dos Romeiros",
+    "fl": "C",
+    "original_title": "Curral dos Romeiros",
+    "body": "Sitio na freguesia do Monte, onde passa a estrada que conduz á Choupana. Acima da ponte do Curral, na Ribeira de João Gomes, há uma pequena, mas bonita queda de agua, á qual se chega seguindo a levada que passa junto da mesma ponte. O Curral dos Romeiros é sitio muito visitado por nacionais e estrangeiros e fica no fundo dum grande vale, onde se colhem gratas impressões.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Freguesia"
+        ],
+        "Choupana": [
+            "Localidade"
+        ],
+        "Ribeira de João Gomes": [
+            "Localidade"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

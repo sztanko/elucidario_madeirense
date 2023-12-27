@@ -1,0 +1,24 @@
+{
+    "id": 1337,
+    "lang": "de",
+    "is_original": false,
+    "title": "Leuchtturm von Porto Santo",
+    "fl": "L",
+    "original_title": "Farol do Porto Santo",
+    "body": "Nach dem Leuchtturm von S. Lourenço wurde der Bau eines Leuchtturms auf der Insel Porto Santo als erstes und dringendstes Bedürfnis angesehen. Der Mangel an Beleuchtung dieser Küsten führte zu mehreren Unglücken mit Verlust von Menschenleben und Schiffen, wie in den Annalen dieser Insel erwähnt. Es wurden einige Studien durchgeführt und Projekte sowie Kostenvoranschläge organisiert, aber vierzig Jahre nach Inbetriebnahme des Leuchtturms von S. Lourenço begann der Leuchtturm der benachbarten Insel Porto Santo, diese Gegend in einem Radius von elf Seemeilen zu beleuchten. Der gewählte Ort war eine kleine Insel, bekannt unter dem Namen Ilhéu de Cima, die durch eine schmale und kurze Meerenge von der Insel Porto Santo getrennt ist. Die Laterne befindet sich 118 Meter über dem Meeresspiegel. Es war ein weißes Festfeuer, das in 11 Seemeilen Entfernung zu sehen ist. Es nahm 1901 seinen Betrieb auf. Es hat der Schifffahrt und insbesondere den Schiffen, die den Hafen von Funchal ansteuerten, wertvolle Dienste geleistet.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Insel Porto Santo"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Inbetriebnahme des Leuchtturms von Porto Santo"
+        ]
+    }
+}

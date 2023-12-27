@@ -1,0 +1,32 @@
+{
+    "id": 2430,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nery (Gasse)",
+    "fl": "N",
+    "original_title": "Nery (Travessa do)",
+    "body": "Sie lag in der Gemeinde Santa Maria und wurde nach dem Kanoniker Vicente Nery da Silva benannt, der dort wohnte. Sie wurde verbreitert und ist heute eine Straße, die die Straße Bela de S. Tiago mit der Straße des Grafen Carvalhal verbindet. Sie heißt jetzt Caminho do Acciaioly.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Maria"
+    ],
+    "locations": {
+        "Santa Maria": [
+            "Gemeinde, in der sich die Gasse Nery befand"
+        ],
+        "Bela de S. Tiago": [
+            "Lage einer der Enden der Straße, die mit der Gasse Nery verbunden ist"
+        ],
+        "Graf Carvalhal": [
+            "Lage des anderen Endes der Straße, die mit der Gasse Nery verbunden ist"
+        ]
+    },
+    "people": {
+        "Kanoniker Vicente Nery da Silva": [
+            "Person, nach der die Gasse Nery benannt wurde"
+        ]
+    },
+    "years": {}
+}

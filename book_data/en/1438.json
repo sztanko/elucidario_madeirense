@@ -1,0 +1,43 @@
+{
+    "id": 1438,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fort of S. Lourenço",
+    "fl": "F",
+    "original_title": "Fortaleza de S. Lourenço",
+    "body": "Initiated in the reign of D. Manuel, as a simple bulwark, it was successively modified in the reigns of D. João III and D. Sebastião, and completed during the Philippine dominion. In 1566, it was stormed by pirates from the north, whose wall was only 12 palms high, and Montluc, having taken possession of a house opposite, ordered the cubelo and other parts of the fort to be riddled, and then, after the gate of the bulwark was forced, 250 individuals, including defenders and people who had taken refuge there, were put to the sword. In the eastern tower, in carved stonework, it has the arms of Portugal, the ducal crown, two emblematic spheres of D. Manuel, and a cross of Christ. In the northern bulwark, in white marble, it had the arms of Castile, over which the arms of Portugal were later inserted, and the salient was cut in 1917, to align with Dr. Manuel de Arriaga Avenue. Inside the enclosure of the Old Fortress, the chapel of S. Lourenço was built in 1635, and from then on it was called the Fort of S. Lourenço. The charter of the 1st constable is from June 20, 1566, in favor of Gonçalo Fernandes, who came from Lisbon. It was garrisoned by 24 bombardiers at 30 réis daily, increasing to 80 réis in 1753. The 1st chaplain was Father José da Costa, in 1641, to whom 44 were given, as was done to any soldier when enlisting, and he had the salary of a gunner, with the obligation to say mass there on Sundays and holy days. Several public buildings were constructed in the Fort of S. Lourenço, around the large internal quadrangular courtyard and the northern bulwark. (See Palace of S. Lourenço).",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Manuel": [
+            "King of Portugal"
+        ],
+        "D. João III": [
+            "King of Portugal"
+        ],
+        "D. Sebastião": [
+            "King of Portugal"
+        ],
+        "Montluc": [
+            "Pirate"
+        ],
+        "Gonçalo Fernandes": [
+            "Constable"
+        ]
+    },
+    "years": {
+        "1566": [
+            "Stormed by pirates"
+        ],
+        "1635": [
+            "Construction of the chapel of S. Lourenço"
+        ],
+        "1753": [
+            "Increase in the salary of the bombardiers"
+        ]
+    }
+}

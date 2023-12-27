@@ -1,0 +1,37 @@
+{
+    "id": 1167,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Distâncias marítimas",
+    "fl": "D",
+    "original_title": "Distâncias marítimas",
+    "body": "A distancia entre os portos de Lisboa e Funchal é geralmente computada em 520 milhas marítimas.\n\nO lugar da costa africana que fica mais próximo da Madeira é o Cabo Cantim, sendo de 350 milhas a distancia que separa esses dois pontos.\n\nA extensão de mar, que separa as ilhas da Madeira e Porto Santo, conhecida pelo nome de Travessa, tem o cumprimento de 21 milhas e meia, entre o Ilhéu de Fora (Ponta de São Lourenço) e o Ilhéu de Baixo (Porto Santo). A distancia entre o porto da cidade do Funchal e o da vila do Porto Santo é aproximadamente de 41 milhas.\n\nSocorrendo-nos especialmente duma tabela organizada pelo oficial da marinha mercante Afonso Coelho, vamos dar uma nota das distancias aproximadas existentes entre os diversos portos deste arquipelago, exprimindo os algarismos o numero de milhas e suas fracções decimais:\n\n| Porto de Origem | Porto de Destino | Distância, milhas |\n|-----------------|------------------|-------------------|\n| Funchal | Câmara de Lobos | 4,0 |\n| Câmara de Lobos | Campanario | 3,0 |\n| Campanário | Ribeira Brava | 1,7 |\n| Ribeira Brava | Ponta do Sol | 2,1 |\n| Ponta do Sol | Fajã do Mar | 2,4 |\n| Fajã do Mar | Calheta | 2,3 |\n| Calheta | Jardim do Mar | 2,1 |\n| Jardim do Mar | Paul do Mar | 1,2 |\n| Paul | Pesqueiro | 2,3 |\n| Pesqueiro | Ponta do Pargo | 0,7 |\n| Ponta do Pargo | Porto do Moniz | 7,5 |\n| Porto do Moniz | Seixal | 4,0 |\n| Seixal | S. Vicente | 3,0 |\n| S. Vicente | Ponta Delgada | 3,6 |\n| Ponta Delgada | São Jorge | 4,0 |\n| São Jorge | Faial | 3,2 |\n| Faial | Porto da Cruz | 2,5 |\n| Porto da Cruz | Ponta de São Lourenço | 9,3 |\n| Ponta de São Lourenço | Caniçal | 4,0 |\n| Caniçal | Machico | 1,6 |\n| Machico | Santa Cruz | 4,3 |\n| Santa Cruz | Porto Novo | 2,0 |\n| Porto Novo | Funchal | 5,9 |\n| Funchal | Garajau | 2,9 |\n| Garajau | Ponta da Oliveira | 1,1 |\n| Ponta da Oliveira | Ilhéu de Fora | 10,6 |\n| Ilhéu de Fora | Ilhéu de Baixo | 4,3 |\n| Ilhéu de Baixo | Porto Santo | 21,5 |\n| Funchal | Deserta Grande | 21,5 |\n| Funchal | Ilhéu Chão | 19,0 |",
+    "categories": [
+        "geography",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lisboa": [
+            "Porto com uma distância de 520 milhas marítimas do Funchal."
+        ],
+        "Funchal": [
+            "Porto com diversas distâncias marítimas para outros portos e localidades, incluindo Lisboa, Porto Santo e Cabo Cantim."
+        ],
+        "Cabo Cantim": [
+            "Lugar da costa africana mais próximo da Madeira, a 350 milhas de distância."
+        ],
+        "Porto Santo": [
+            "Ilha separada da Madeira por 21 milhas e meia de extensão de mar, conhecida como Travessa."
+        ],
+        "Ponta de São Lourenço": [
+            "Ponto de referência para a distância marítima até o Ilhéu de Baixo (Porto Santo)."
+        ]
+    },
+    "people": {
+        "Afonso Coelho": [
+            "Oficial da marinha mercante que organizou a tabela de distâncias marítimas entre os portos do arquipélago da Madeira."
+        ]
+    },
+    "years": {}
+}

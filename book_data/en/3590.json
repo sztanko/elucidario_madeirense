@@ -1,0 +1,44 @@
+{
+    "id": 3590,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vera Cruz (Capela da)",
+    "fl": "V",
+    "original_title": "Vera Cruz (Capela da)",
+    "body": "«João Gonsalves Zargo, says Frutuoso,... passing further down to some very high mountains, there he traced another church of Vera-Cruz...». The idea of founding this chapel belongs to the discoverer, although it was only built later, in a year that is unknown. However, it is one of the oldest chapels in the diocese, having undergone various transformations over time, and certainly nothing remains there from the original building. It originally belonged to the parish of Câmara de Lobos or Ribeira Brava, beginning to belong to the parish of Campanário when it was created around the mid-16th century. And since 1848, when Quinta Grande became an autonomous parish, the old chapel of Vera-Cruz has belonged to this parish.\n\nIt is located in the place that gave it its name, enjoying a beautiful and vast panorama from there. It has sometimes served as a parish church, and it is around it that the cemetery of the parish is located. The feast of its patron saint attracts a considerable number of people there, especially from the surrounding parishes. (See Quinta Grande).",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário",
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Parish"
+        ],
+        "Ribeira Brava": [
+            "Parish"
+        ],
+        "Campanário": [
+            "Parish"
+        ],
+        "Quinta Grande": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "João Gonsalves Zargo": [
+            "Discoverer"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Quinta Grande became an autonomous parish"
+        ],
+        "Século XVI": [
+            "Belonging to the parish of Campanário"
+        ]
+    }
+}

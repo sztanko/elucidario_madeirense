@@ -1,0 +1,27 @@
+{
+    "id": 3527,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Tribunal Administrativo",
+    "fl": "T",
+    "original_title": "Tribunal Administrativo",
+    "body": "Os Tribunais Administrativos foram criados pelo código de 1886 e extintos pelo decreto de 21 de Abril de 1892. Vieram substituir os Conselhos de Distrito, sendo cada um dos mesmos tribunais composto de três magistrados nomeados por decreto do Governo. Tribunal Secreto. Assim se denominava um periódico funchalense que se publicou clandestinamente e não tinha dia certo de distribuição. Conhecem-se doze números, todos do ano de 1844, mas parece que apareceu em 1841.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1886": [
+            "Criação dos Tribunais Administrativos"
+        ],
+        "1892": [
+            "Extinção dos Tribunais Administrativos"
+        ],
+        "1844": [
+            "Publicação do periódico Tribunal Secreto"
+        ]
+    }
+}

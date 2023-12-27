@@ -1,0 +1,56 @@
+{
+    "id": 3367,
+    "lang": "en",
+    "is_original": false,
+    "title": "Soares (Urbano Canuto)",
+    "fl": "S",
+    "original_title": "Soares (Urbano Canuto)",
+    "body": "He was born in Funchal on January 19, 1894, and holds a bachelor's degree in literature from the University of Lisbon, currently serving as an ordinary professor of the first group at the Faculty of Arts at the University of Porto. Works: The school slang of Casa Pia, in collaboration with Dr. Aurelio da Costa Ferreira (Aguia, 1914, and Anais da Casa Pia, 1915); Language and popular traditions of the Madeira archipelago (Revista Lusitana, 1915); Epifanio Dias (speech delivered at the grave of this professor, Revista Lusitana, 1917); and Philological Essays, a Portuguese manuscript from the 16th century and the Guanche problem (Revista da Faculdade de Letras do Porto, 1920). He is preparing several other works, including a translation of Aristophanes' Clouds, preceded by a study on Socrates. On April 19, 1921, when the degree of doctor was conferred at the Faculty of Sciences of Porto to Marshal José Joffre, Generalissimo Armando Dias, and General Horácio Smith Durrien, Dr. Urbano Soares delivered a Latin oration that was highly appreciated by connoisseurs of that language, and drafted the doctoral letters of those military men (1921).",
+    "categories": [
+        "education",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Dr. Aurelio da Costa Ferreira": [
+            "Collaborator of Urbano Canuto Soares"
+        ],
+        "Epifanio Dias": [
+            "Professor honored in a speech by Urbano Canuto Soares"
+        ],
+        "José Joffre": [
+            "Marshal awarded the degree of doctor"
+        ],
+        "Armando Dias": [
+            "Generalissimo awarded the degree of doctor"
+        ],
+        "Horácio Smith Durrien": [
+            "General awarded the degree of doctor"
+        ]
+    },
+    "years": {
+        "1894": [
+            "Year of birth"
+        ],
+        "1914": [
+            "Publication of 'The school slang of Casa Pia'"
+        ],
+        "1915": [
+            "Publication of 'Language and popular traditions of the Madeira archipelago', 'Anais da Casa Pia'"
+        ],
+        "1917": [
+            "Speech delivered at the grave of Epifanio Dias"
+        ],
+        "1920": [
+            "Publication of 'Philological Essays, a Portuguese manuscript from the 16th century and the Guanche problem'"
+        ],
+        "1921": [
+            "Conferment of the degree of doctor to José Joffre, Armando Dias, and Horácio Smith Durrien"
+        ]
+    }
+}

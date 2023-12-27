@@ -1,0 +1,49 @@
+{
+    "id": 1483,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Freitas",
+    "fl": "F",
+    "original_title": "Freitas",
+    "body": "É apelido muito antigo entre nós. Um dos primeiros que o usou foi Gonçalo de Freitas, que fez assentamento no lugar de Santa Cruz e ali teve moradia, na quinta chamada da Torre. Era fidalgo da Casa Real e monteiro-mor do infante D. Fernando. Sua filha Catarina de Freitas instituiu um morgadio na terra que herdou de seu pai no sítio que depois teve o nome de Santa Catarina. De Gonçalo de Freitas foi filho João de Freitas, que gozou os privilégios de nobreza herdados de seu pai, dizendo um antigo nobiliário que por ordem de el-rei fez a igreja do Salvador em Santa Cruz e por isso teve a mercê da capela da mesma igreja para seu jazigo, em atenção aos seus serviços e aos gastos que na dita igreja havia feito. Um filho deste, por nome Jordão de Freitas, distinguiu-se valorosamente na Índia e foi ali senhor duma ilha e capitão de Moluco. Foi membro desta família João de Freitas da Silva, que em 1631 organizou nesta ilha uma companhia de 100 homens á sua custa e com ela foi servir em Pernambuco, onde os holandeses o mataram.\n\nOutra família do mesmo apelido e também muito antiga houve nesta ilha, que procede de João Rodrigues de Freitas, natural do Algarve, que teve terras de sesmaria na Madalena e ali morreu em 1523, sendo sepultado na igreja que ali fundara Henrique Alemão, com cuja viúva, por nome Isabel Lopes, tinha contraído matrimónio. Instituíram ali um morgadio, que depois foi uma importante casa e que teve como ultimo representante o morgado Nuno de Freitas Lomelino.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Madalena"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Localidade onde Gonçalo de Freitas fez assentamento e teve moradia, na quinta chamada da Torre"
+        ],
+        "Santa Catarina": [
+            "Sítio que recebeu o nome de Santa Catarina, onde Catarina de Freitas instituiu um morgadio"
+        ],
+        "Madalena": [
+            "Localidade onde João Rodrigues de Freitas teve terras de sesmaria e morreu em 1523"
+        ]
+    },
+    "people": {
+        "Gonçalo de Freitas": [
+            "Fez assentamento no lugar de Santa Cruz, era fidalgo da Casa Real e monteiro-mor do infante D. Fernando"
+        ],
+        "Catarina de Freitas": [
+            "Instituiu um morgadio na terra que herdou de seu pai no sítio que depois teve o nome de Santa Catarina"
+        ],
+        "João de Freitas": [
+            "Filho de Gonçalo de Freitas, gozou os privilégios de nobreza herdados de seu pai"
+        ],
+        "Jordão de Freitas": [
+            "Distinguiu-se valorosamente na Índia e foi senhor duma ilha e capitão de Moluco"
+        ],
+        "João de Freitas da Silva": [
+            "Organizou uma companhia de 100 homens nesta ilha e serviu em Pernambuco"
+        ]
+    },
+    "years": {
+        "1523": [
+            "Morte de João Rodrigues de Freitas"
+        ]
+    }
+}

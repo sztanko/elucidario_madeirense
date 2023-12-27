@@ -1,0 +1,37 @@
+{
+    "id": 3602,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vidal (Capitão A. T. E.)",
+    "fl": "V",
+    "original_title": "Vidal (Capitão A. T. E.)",
+    "body": "> Visitou no vapor Styx, do qual era comandante, o arquipélago da Madeira em 1842 e 1843. Deve-se-lhe o levantamento duma carta das ilhas da Madeira, Porto Santo e Desertas, publicada em 1843. 0 capitão Vidal, da marinha de guerra britânica, foi muito coadjuvado nos trabalhos a que teve de proceder, pelo capitão de engenheiros Antonio Pedro de Azevedo. V. Cartas Geográficas.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Visitado em 1842 e 1843"
+        ],
+        "Porto Santo": [
+            "Visitado em 1842 e 1843"
+        ],
+        "Desertas": [
+            "Visitado em 1842 e 1843"
+        ]
+    },
+    "people": {
+        "Capitão A. T. E. Vidal": [
+            "Comandante do vapor Styx, responsável pelo levantamento da carta das ilhas da Madeira, Porto Santo e Desertas"
+        ]
+    },
+    "years": {
+        "1842": [
+            "Visita ao arquipélago da Madeira"
+        ],
+        "1843": [
+            "Publicação da carta das ilhas da Madeira, Porto Santo e Desertas"
+        ]
+    }
+}

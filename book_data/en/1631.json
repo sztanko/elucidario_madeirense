@@ -1,0 +1,27 @@
+{
+    "id": 1631,
+    "lang": "en",
+    "is_original": false,
+    "title": "Graça",
+    "fl": "G",
+    "original_title": "Graça",
+    "body": "A place in the parish of Machico, in the vicinity of the town, where the chapel of Nossa Senhora da Graça is located, and the time of its construction is unknown. It is known to be quite old and was rebuilt by the respective brotherhood in the year 1750.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Parish where the chapel of Nossa Senhora da Graça is located"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1750": [
+            "Chapel of Nossa Senhora da Graça was rebuilt"
+        ]
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "id": 986,
+    "lang": "en",
+    "is_original": false,
+    "title": "Land Registry Offices",
+    "fl": "L",
+    "original_title": "Conservatorias do Registo Predial",
+    "body": "In the Madeira archipelago, there are four land registry offices: Funchal, established on September 30, 1880; Ponta do Sol, created in the same year; Santa Cruz, established on September 7, 1910; and S. Vicente, established on November 24, 1909. The Funchal land registry office covered the municipalities of Funchal, Câmara de Lôbos, Pôrto Santo, Santa Cruz, Machico, and Sant’Ana, but with the installation of the S. Vicente and Santa Cruz land registry offices, it was reduced to the first three municipalities. The Ponta do Sol land registry office covered the municipalities of Ponta do Sol, Calheta, Pôrto do Moniz, and S. Vicente, but with the installation of the S. Vicente land registry office, it was left with only the first two municipalities. The Santa Cruz land registry office covers the municipalities of Santa Cruz and Machico, and finally, the S. Vicente land registry office covers the municipalities of S. Vicente, Porto do Moniz, and Sant’Ana. The municipality of Ribeira Brava, created on August 16, 1914, belongs to the Ponta do Sol land registry office. Before 1880, there were two land registry offices in Madeira: the eastern and the western, the former covering the area of the district of the same name and including the entire municipality of Funchal, and the latter formed by the remaining municipalities of the western district. The Eastern and Western Land Registry Offices were established under the Regulation of the Land Registry of April 28, 1870, approved by a decree of the same date. They were preceded by the land registry offices that had been installed in each municipality on April 11, 1867, in accordance with the decree of February 13 of the same year, which were under the responsibility of the municipal administrators and were considered extinct by the decree of December 17, 1869, which created exclusive land registry offices in all districts. The land registry offices were created by the royal charter of July 1, 1863, but their installation only took place on April 1, 1867. Before 1863, there were mortgage and other records in the municipal administrations, established by the decrees of October 26, 1836, and January 3, 1837, and other related provisions.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Established on September 30, 1880"
+        ],
+        "Ponta do Sol": [
+            "Created in the same year"
+        ],
+        "Santa Cruz": [
+            "Established on September 7, 1910"
+        ],
+        "S. Vicente": [
+            "Established on November 24, 1909"
+        ],
+        "Ribeira Brava": [
+            "Created on August 16, 1914"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1880": [
+            "Establishment of the Funchal land registry office"
+        ],
+        "1910": [
+            "Establishment of the Santa Cruz land registry office"
+        ],
+        "1909": [
+            "Establishment of the S. Vicente land registry office"
+        ],
+        "1914": [
+            "Creation of the municipality of Ribeira Brava"
+        ],
+        "1867": [
+            "Establishment of the Eastern and Western Land Registry Offices"
+        ]
+    }
+}

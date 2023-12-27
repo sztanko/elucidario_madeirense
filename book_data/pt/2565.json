@@ -1,0 +1,43 @@
+{
+    "id": 2565,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Oliveira (Francisco Manuel de)",
+    "fl": "O",
+    "original_title": "Oliveira (Francisco Manuel de)",
+    "body": "Gozou no seu tempo de certa nomeada como poeta, sendo hoje um nome inteiramente esquecido. Inocêncio classificou-o como poeta de segunda ordem, dizendo que as suas composições não eram de todo más, e que se lhe devia a obrigação de tornar conhecidas em Portugal as primeiras amostras de um género até então de todo ignorado. Refere-se o autor do *Dicionário Bibliográfico Português*, á tradução que fez Oliveira, valendo-se do texto inglês, de varias poesias escritas nalgumas línguas orientais da Índia. Francisco Manuel de Oliveira nasceu nesta ilha no segundo quartel do século XVIII e morreu pouco antes de 1819. Quando em 1772 se criou nesta cidade a aula pública de filosofia, foi Francisco Manuel de Oliveira provido desta cadeira, que regeu muitos anos, tendo sido jubilado por portaria de 3 de Abril de 1799. Julgamos que também foi professor do Seminário Diocesano, por isso que ali proferiu um discurso na abertura das aulas no ano de 1786. Não conhecemos outras circunstâncias da sua vida. Inocêncio da Silva dá a seguinte relação das obras publicadas por Oliveira: *Escolha de Poesias Orientaes. . . seguidas de outras varias rimas*, Lisboa, 1793, de 61-138 pag.; *Colleção Poetica*, tomo II, Lisboa, 1794, de 173 pág., sendo a continuação do volume antecedente; *Oração... na inauguração do Seminário do Funchal*, Lisboa, 1787, de 40 pág.; *Ensaio poetico sobre a harmonia do mundo...* Lisboa, 1805, de 120 pág.; *Princípios elementares da língua Inglesa. . . Lisboa, 1809, de 255 pág.; e a tradução dos *Avisos interessantes á humanidade*... Lisboa, 1788. A uma filha de Francisco Manuel de Oliveira, foi concedida nos tempos do governador Botelho uma subvenção igual a um terço do ordenado que recebia o pai, em razão dos serviços deste e da miséria a que ela se achava reduzida.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Inocêncio da Silva": [
+            "Crítico literário"
+        ]
+    },
+    "years": {
+        "1772": [
+            "Criação da aula pública de filosofia"
+        ],
+        "1793": [
+            "Publicação de *Escolha de Poesias Orientaes*"
+        ],
+        "1794": [
+            "Publicação de *Colleção Poetica*"
+        ],
+        "1787": [
+            "Publicação de *Oração... na inauguração do Seminário do Funchal*"
+        ],
+        "1805": [
+            "Publicação de *Ensaio poetico sobre a harmonia do mundo*"
+        ],
+        "1809": [
+            "Publicação de *Princípios elementares da língua Inglesa*"
+        ],
+        "1788": [
+            "Publicação da tradução dos *Avisos interessantes á humanidade*"
+        ]
+    }
+}

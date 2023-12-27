@@ -1,0 +1,23 @@
+{
+    "id": 1140,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Diário da Manhã",
+    "fl": "D",
+    "original_title": "Diário da Manhã",
+    "body": "O primeiro número publicou-se a 8 de Julho de 1882 e o ultimo que foi o numero 129, a 7 de Dezembro do mesmo ano.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1882": [
+            "Ano da publicação do primeiro número"
+        ],
+        "7 de Dezembro": [
+            "Data da publicação do último número"
+        ]
+    }
+}

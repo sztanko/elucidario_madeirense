@@ -1,0 +1,32 @@
+{
+    "id": 1890,
+    "lang": "de",
+    "is_original": false,
+    "title": "Junta da Real Fazenda da Ilha da Madeira",
+    "fl": "J",
+    "original_title": "Junta da Real Fazenda da Ilha da Madeira",
+    "body": "Nachdem der Gouverneur und Kapitän-General dieses Archipels, João Antonio de Sá Pereira, der Regierung der Metropole die nachlässige Art und Weise dargelegt hatte, wie auf dieser Insel verschiedene öffentliche Einnahmen erhoben wurden, und man sogar aufgehört hatte, einige davon einzuziehen, wurde durch königliches Schreiben vom 6. April 1775 die Junta da Real Fazenda da Ilha da Madeira geschaffen, deren besonderer Zweck es war, die Erhebung aller Steuern und Abgaben zu überwachen. Sie bestand aus dem Gouverneur als Präsidenten, einem Schreiber, dem Schatzmeister, dem Corregedor und dem Juiz de Fora. Die Junta da Real Fazenda ersetzte die alte Provedoria da Fazenda und funktionierte bis zum 6. August 1834, wobei die Geschäfte der Fazenda von da an bis zum 30. Juni 1835 von einer Übergangskommission verwaltet wurden, die durch das Dekret vom 23. Juni 1834 eingerichtet wurde, welches auch die Junta auflöste. Am 1. Juli 1835 gingen die Geschäfte der Fazenda in die Verwaltung eines Generalrezipienten über, wobei Francisco Correia Heredia der erste war, der diese Position in Funchal innehatte.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "João Antonio de Sá Pereira": [
+            "Gouverneur und Kapitän-General des Archipels Madeira."
+        ],
+        "Francisco Correia Heredia": [
+            "Erster Generalrezipient, der für die Verwaltung der Finanzgeschäfte in Funchal verantwortlich war."
+        ]
+    },
+    "years": {
+        "1775": [
+            "Gründung der Junta da Real Fazenda da Ilha da Madeira."
+        ],
+        "1834": [
+            "Auflösung der Junta da Real Fazenda."
+        ]
+    }
+}

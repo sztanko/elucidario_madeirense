@@ -1,0 +1,33 @@
+{
+    "id": 1465,
+    "lang": "en",
+    "is_original": false,
+    "title": "França",
+    "fl": "F",
+    "original_title": "França",
+    "body": "Shortly after the discovery, André Gonçalves, known as Polonês, came to this island and settled in Estreito da Calheta, where he had sesmaria lands. His son João de França, who was the one who introduced this surname to the island, had a lot of property and a good house in Estreito, being the founder of the original church of this parish, where he made the seat of the morgadio he instituted. He died in 1511 and was buried in the church of which he was the founder and patron. The last representative of this morgadio, one of the largest on the island, was the count of Calçada, who died in 1906.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Estreito da Calheta": [
+            "André Gonçalves settled in Estreito da Calheta"
+        ]
+    },
+    "people": {
+        "André Gonçalves": [
+            "Known as Polonês"
+        ],
+        "João de França": [
+            "Introduced the surname França to the island"
+        ]
+    },
+    "years": {
+        "1511": [
+            "Death of João de França"
+        ]
+    }
+}

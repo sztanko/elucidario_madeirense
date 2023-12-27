@@ -1,0 +1,40 @@
+{
+    "id": 2773,
+    "lang": "en",
+    "is_original": false,
+    "title": "Peste",
+    "fl": "P",
+    "original_title": "Peste",
+    "body": "The scourge of the plague that repeatedly ravaged Portugal in ancient times also made itself felt with great intensity in Madeira in the first and second quarters of the 16th century. Frutuoso, the historian of the islands, refers to it in the following terms: \"In the year 1521, when King D. Manuel died, there was a great mortality from the plague in Funchal, from which may God protect us; and because for years it had been in the city, Captain Simão Gonçalves and the City Council elected by lots as the Patron Saint of the same city the Apostle Santiago Menor, at the end of which they made him a good house, where they went in procession. And because, despite this, the plague did not cease, in the year of the Lord 1538, God inspired everyone, as in one heart, that there should be no more Moorish or Minor Guards, and in the same procession that was made on his day, the first of May, they proclaimed that all the sick of this disease, and the healthy, should be mixed together in his house, where they offered the Guard's staffs on the altar, which are there today as a memorial; and when they returned, the sick were all healthy; and from that day until today, by the merits of the Blessed Santiago, there has been no more plague on the island of Madeira, blessed be the Lord! For this reason, in memory of this mercy, there is a great feast to this Saint on his day, as if it were Corpus Christi.\" From what Frutuoso says on page 221 of Saudades da Terra, it is seen that the plague that devastated the city of Funchal did not reach the town of Machico, since there the bishop D. Ambrosio and two visitors were there until the day of S. Tiago, in the month of May, when \"the danger of the contagious disease passed, the same visitors came to the city and carried out their duties throughout the island, not with the affection in which the bishopric was raised, but with great rigor and harshness...\" Bishop D. Ambrosio returned to Portugal as soon as he fulfilled the mission he had been entrusted with in Madeira; as for the two visitors, they were less fortunate, since, having escaped the plague, they died in a shipwreck on the coast of Sines, when they were also returning to the kingdom, after having committed the greatest violence in the island to undo \"the calluses that vices had made in the souls of the delinquents,\" as Dr. Gaspar Frutuoso says.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "City where there was a great mortality from the plague in 1521"
+        ],
+        "Machico": [
+            "Town that was not affected by the plague that devastated Funchal"
+        ]
+    },
+    "people": {
+        "El-Rey D. Manuel": [
+            "King of Portugal who died in 1521"
+        ],
+        "Captain Simão Gonçalves": [
+            "Responsible for electing the Patron Saint of the city of Funchal"
+        ],
+        "Bishop D. Ambrosio": [
+            "Bishop who was in Machico during the plague"
+        ]
+    },
+    "years": {
+        "1521": [
+            "Year of the great mortality from the plague in Funchal"
+        ],
+        "1538": [
+            "Year in which there was no more plague on the island of Madeira"
+        ]
+    }
+}

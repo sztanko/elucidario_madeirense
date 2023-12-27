@@ -1,0 +1,31 @@
+{
+    "id": 2210,
+    "lang": "de",
+    "is_original": false,
+    "title": "Martins (Dr. João Augusto)",
+    "fl": "M",
+    "original_title": "Martins (Dr. João Augusto)",
+    "body": "Militärarzt im Überseedienst, bereits verstorben. Er stammte aus Kap Verde und hatte seinen Abschluss von der Medizinischen Hochschule Lissabon. Veröffentlichungen: A Madeira e o seu clima, Lissabon, 1901, 10 Seiten und Madeira, Cabo Verde e Guiné, Lissabon, 1891, 271 Seiten. Letzteres Werk ist empfehlenswert aufgrund der Korrektheit, Eleganz und natürlichen Anmut, mit der es geschrieben wurde.",
+    "categories": [
+        "health",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Kap Verde": [
+            "Herkunft von João Augusto Martins"
+        ],
+        "Lissabon": [
+            "Medizinische Hochschule Lissabon"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Veröffentlichung von \"A Madeira e o seu clima\""
+        ],
+        "1891": [
+            "Veröffentlichung von \"Madeira, Cabo Verde e Guiné\""
+        ]
+    }
+}

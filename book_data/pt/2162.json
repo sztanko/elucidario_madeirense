@@ -1,0 +1,39 @@
+{
+    "id": 2162,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Malheiro de Melo (Patrício)",
+    "fl": "M",
+    "original_title": "Malheiro de Melo (Patrício)",
+    "body": "Nasceu no Funchal a 17 de Março de 1791 e faleceu na freguesia do Caniço a 18 de Maio de 1942. Tomou parte activa no movimento de 28 de Janeiro de 1821, de que resultou ser proclamada a Constituição na Madeira, e foi membro da primeira Câmara Constitucional do Funchal e cônsul da Prússia. Pronunciado pela alçada que veio à Madeira em 1828, não chegou a ser prêso por se ter ausentado para o estrangeiro, donde só regressou depois de restabelecido o governo constitucional no pais.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Funchal": [
+            "Localidade de nascimento."
+        ],
+        "Caniço": [
+            "Localidade de falecimento."
+        ]
+    },
+    "people": {
+        "Patrício Malheiro de Melo": [
+            "Participante ativo no movimento de 28 de Janeiro de 1821."
+        ]
+    },
+    "years": {
+        "1791": [
+            "Ano de nascimento."
+        ],
+        "1942": [
+            "Ano de falecimento."
+        ],
+        "1821": [
+            "Ano do movimento de 28 de Janeiro."
+        ]
+    }
+}

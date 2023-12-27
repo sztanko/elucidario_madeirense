@@ -1,0 +1,31 @@
+{
+    "id": 819,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castelo Branco (Eduardo Ernesto de)",
+    "fl": "C",
+    "original_title": "Castelo Branco (Eduardo Ernesto de)",
+    "body": "Nasceu no Funchal a 17 de Março de 1840 e morreu em Lisboa a 4 de Fevereiro de 1905, sendo filho do contra-almirante Joaquim Pedro de Castelo Branco. Assentou praça em 1857, atingindo o pôsto de general, e pertencia á arma de artilharia. A sua grande obra foi a fundação do Museu de Artilharia a que dedicou tôda a actividade do seu espirito, conseguindo elevá-lo a par dos estabelecimentos similares da Europa. Para isso trabalhou afanosamente e ainda dispendeu do seu bôlso particular somas avultadas, quando o erario publico se tornava avaro para a realização dos melhoramentos que ele julgava indispensaveis. Escreveu o Catalogo do Museu de Artilharia de Lisboa.",
+    "categories": [
+        "history",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Joaquim Pedro de Castelo Branco": [
+            "Contra-almirante"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Nascimento"
+        ],
+        "1857": [
+            "Assentou praça"
+        ],
+        "1905": [
+            "Morte"
+        ]
+    }
+}

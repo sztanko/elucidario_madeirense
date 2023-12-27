@@ -1,0 +1,46 @@
+{
+    "id": 3342,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Silva Pinheiro (Cónego Jerónimo Álvares da)",
+    "fl": "S",
+    "original_title": "Silva Pinheiro (Cónego Jerónimo Álvares da)",
+    "body": "Nasceu na freguesia da Calheta no ano de 1770 e faleceu nesta cidade a 4 de Julho\nde 1861. Ordenou-se de presbítero em 1795 e foi cónego da nossa Sé Catedral, tendo exercido elevados cargos eclesiásticos, como os\nde vigário capitular e governador deste bispado. Foi um distinto e vigoroso jornalista e com o pseudónimo Estrela do Norte\nescreveu muitos artigos no Patriota Funchalense, o primeiro jornal que se publicou entre nós. Foi preso, por ser partidário das\nideias liberais, mas conseguiu fugir da prisão e ausentar-se para o Brasil, onde permaneceu até o ano de 1834. Gozou sempre nesta\nilha de muito prestigio e influencia.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Local de nascimento de Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "Funchal": [
+            "Local de falecimento de Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "Brasil": [
+            "Local de exílio de Cónego Jerónimo Álvares da Silva Pinheiro"
+        ]
+    },
+    "people": {
+        "Cónego Jerónimo Álvares da Silva Pinheiro": [
+            "Presbítero, cónego e jornalista"
+        ]
+    },
+    "years": {
+        "1770": [
+            "Ano de nascimento de Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1795": [
+            "Ano de ordenação de Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1861": [
+            "Ano de falecimento de Cónego Jerónimo Álvares da Silva Pinheiro"
+        ],
+        "1834": [
+            "Ano de retorno de Cónego Jerónimo Álvares da Silva Pinheiro da prisão no Brasil"
+        ]
+    }
+}

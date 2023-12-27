@@ -1,0 +1,37 @@
+{
+    "id": 1390,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Figueira",
+    "fl": "F",
+    "original_title": "Figueira",
+    "body": "Foi Pedro Figueira, natural da ilha do Faial e filho de João Figueira e de Aldonça Fernandes, um dos primeiros que nesta ilha usaram este apelido, tendo-se aqui estabelecido pelos anos de 1500. Um seu filho, por nome Manuel Figueira instituiu um vinculo nesta ilha. O Dr. Álvaro de Azevedo dá a estes o nome de Figueiró, mas em vários nobiliários temos encontrado o apelido Figueira referido aos indivíduos que ficam mencionados, acrescentando o mesmo comentador das Saudades ignorar quem fosse o primeiro que introduziu este apelido nesta ilha. É certo que também Alvaro Figueira foi um dos primeiros povoadores da Madeira e teve terras de sesmaria em Câmara de Lobos.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Faial": [
+            "Ilha de origem de Pedro Figueira"
+        ],
+        "Câmara de Lobos": [
+            "Terras de sesmaria"
+        ]
+    },
+    "people": {
+        "Pedro Figueira": [
+            "Um dos primeiros a usar o apelido Figueira na ilha"
+        ],
+        "Manuel Figueira": [
+            "Instituiu um vínculo nesta ilha"
+        ],
+        "Dr. Álvaro de Azevedo": [
+            "Comentador das Saudades"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Estabelecimento de Pedro Figueira na ilha"
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "id": 2969,
+    "lang": "en",
+    "is_original": false,
+    "title": "Queimadas",
+    "fl": "Q",
+    "original_title": "Queimadas",
+    "body": "A picturesque site in the mountains of the parish of Santana, where there is a small shelter for travelers and is a mandatory stop for those who want to visit the astonishing and breathtaking place of Caldeirão Verde, located in the parish of São Jorge.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "São Jorge"
+    ],
+    "locations": {
+        "Santana": [
+            "Mountainous area"
+        ],
+        "Caldeirão Verde": [
+            "Parish of São Jorge"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

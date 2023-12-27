@@ -1,0 +1,30 @@
+{
+    "id": 3338,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Silva (Pedro da)",
+    "fl": "S",
+    "original_title": "Silva (Pedro da)",
+    "body": "Este governador-geral da Madeira era conhecido pela alcunha de Mole. A sua nomeação é de 30 de Maio de 1618 e a posse de 6 de Julho do mesmo ano. Foi depois governador da Índia e ali morreu a 24 de Junho de 1639.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Índia": [
+            "Governador"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1618": [
+            "Nomeação"
+        ],
+        "6 de Julho do mesmo ano": [
+            "Posse"
+        ],
+        "1639": [
+            "Morreu"
+        ]
+    }
+}

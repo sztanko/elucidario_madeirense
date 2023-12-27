@@ -1,0 +1,30 @@
+{
+    "id": 231,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Apresentação",
+    "fl": "A",
+    "original_title": "Apresentação",
+    "body": "No sítio do Lombo da Apresentação da freguesia da Ribeira Brava existiu uma capela da invocação de Nossa Senhora da Apresentação, que foi fundada em 1524 por João Mendes de Brito, havendo-se incorporado na casa vinculada dos Heredias, que teve como ultimo representante o visconde da Ribeira Brava.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Lombo da Apresentação": [
+            "Sítio da freguesia da Ribeira Brava"
+        ]
+    },
+    "people": {
+        "João Mendes de Brito": [
+            "Fundador da capela"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Fundação da capela da Nossa Senhora da Apresentação por João Mendes de Brito"
+        ]
+    }
+}

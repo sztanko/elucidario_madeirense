@@ -1,0 +1,39 @@
+{
+    "id": 2265,
+    "lang": "en",
+    "is_original": false,
+    "title": "Meneses",
+    "fl": "M",
+    "original_title": "Meneses",
+    "body": "This family name comes from Vasco Martins Moniz de Meneses, a nobleman of the royal household, who had a land grant in Caniço and a large house in the town of Machico, having established a majorat for his third by will approved in 1498, and from Antonio Telo de Meneses or António Teles, founder of the chapel of Santo António, in the parish of Santa Maria Maior. The Teles de Meneses come from the illegitimate line of the counts of Vila Pouca, according to the opinion of the late Madeiran genealogist José Bettencourt da Camara.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Caniço": [
+            "Locality"
+        ],
+        "Machico": [
+            "Town in the Madeira Island"
+        ],
+        "Santa Maria Maior": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Vasco Martins Moniz de Meneses": [
+            "Nobleman of the royal household"
+        ],
+        "Antonio Telo de Meneses": [
+            "Founder of the chapel of Santo António"
+        ]
+    },
+    "years": {
+        "1498": [
+            "Approval of the will of Vasco Martins Moniz de Meneses"
+        ]
+    }
+}

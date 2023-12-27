@@ -1,0 +1,34 @@
+{
+    "id": 3402,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa (Manuel Alexandre de)",
+    "fl": "S",
+    "original_title": "Sousa (Manuel Alexandre de)",
+    "body": "This infantry officer was born in Funchal on February 2, 1856, and died in Lisbon on November 17, 1903, holding the rank of major at the time. He was the technical inspector of the Monte Railway Company and, despite being attributed with some errors in the construction of the road between Pombal and Atalhinho, the fact is that he contributed significantly, through his activity and recognized zeal, to the progress of these works. He was also the concessionaire of the construction and operation of the Madeiran levadas, as seen on page 248 of this volume, and later the director of the Limoeiro prison. He engaged in a lengthy controversy through the press with the engineer Adriano Augusto Trigo and attempted to establish an elevator between Largo de S. Pedro and the Achada path. (See II-248).",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Adriano Augusto Trigo": [
+            "Engineer with whom he engaged in controversy"
+        ]
+    },
+    "years": {
+        "1856": [
+            "Birth of Manuel Alexandre de Sousa"
+        ],
+        "1903": [
+            "Death in Lisbon"
+        ]
+    }
+}

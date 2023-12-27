@@ -1,0 +1,28 @@
+{
+    "id": 2455,
+    "lang": "en",
+    "is_original": false,
+    "title": "Norman (Capitão Francisco N.)",
+    "fl": "N",
+    "original_title": "Norman (Capitão Francisco N.)",
+    "body": "An English botanist who collected plants in Madeira in 1860 and to whom Lowe dedicated the genus Normania, later included in the genus Solanum.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where he collected plants"
+        ]
+    },
+    "people": {
+        "Lowe": [
+            "Dedicated the genus Normania, later included in the genus Solanum"
+        ]
+    },
+    "years": {
+        "1860": [
+            "Plant collection in Madeira"
+        ]
+    }
+}

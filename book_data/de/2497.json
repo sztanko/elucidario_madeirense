@@ -1,0 +1,83 @@
+{
+    "id": 2497,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Befreiung (Kapellen von)",
+    "fl": "U",
+    "original_title": "Nossa Senhora do Livramento (Capelas de)",
+    "body": "In der Gemeinde Caniço gab es eine Kapelle, die Unserer Lieben Frau der Befreiung gewidmet war, an der Stelle, die noch heute diesen Namen trägt. Sie war Ziel einer alten und beliebten Wallfahrt, die noch heute zur Pfarrkirche stattfindet, seit die Kapelle abgerissen wurde, von der heute nicht einmal mehr Überreste existieren. Sie scheint Mitte des 17. Jahrhunderts erbaut worden zu sein, wobei ihre Gründung Sebastião de Oliveira zugeschrieben wird, der Ländereien an jenem Ort besaß.\n\nMit derselben Widmung kennen wir noch eine Kapelle in der Gemeinde Ponta do Sol, eine andere in der Gemeinde Monte, eine weitere in der Gemeinde Estreito da Calheta und eine vierte in der Gemeinde S. Vicente.\n\nDie erste dieser Kapellen wurde von Diogo Ferreira de Mesquita und seiner Frau D. Isabel de Meneses im Jahr 1656 erbaut. Sie wurde mit einer Schenkungsurkunde vom 14. September desselben Jahres ausgestattet; die zweite wurde 1684 von Inácio Ferreira Pinto errichtet und ein Jahrhundert später von João José Bettencourt de Freitas wiederaufgebaut. Die Besichtigung, damit in ihr Kultushandlungen durchgeführt werden konnten, fand am 5. Juli 1784 statt; die dritte, die erst vor kurzem gegründet wurde, wurde 1858 im Auftrag von D. Inacia Bettencourt Perestrelo erbaut. Die Schenkungsurkunde datiert vom 11. September desselben Jahres, die kanonische Besichtigung vom 17. April 1860; und die letzte wurde 1685 vom Priester Manue1 Gomes Garcês errichtet.\n\nDie Kapelle Unserer Lieben Frau der Befreiung in der Gemeinde Estreito da Calheta gehört heute (1921) Francisco Bettencourt Pimenta und befindet sich in Lombo dos Reis.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caniço",
+        "Ponta do Sol",
+        "Monte",
+        "Estreito da Calheta",
+        "S. Vicente",
+        "Estreito da Calheta"
+    ],
+    "locations": {
+        "Caniço": [
+            "Gemeinde Caniço"
+        ],
+        "Ponta do Sol": [
+            "Gemeinde Ponta do Sol"
+        ],
+        "Monte": [
+            "Gemeinde Monte"
+        ],
+        "Estreito da Calheta": [
+            "Gemeinde Estreito da Calheta"
+        ],
+        "S. Vicente": [
+            "Gemeinde S. Vicente"
+        ]
+    },
+    "people": {
+        "Sebastião de Oliveira": [
+            "Gründer der Kapelle"
+        ],
+        "Diogo Ferreira de Mesquita": [
+            "Ließ die erste Kapelle bauen"
+        ],
+        "Inácio Ferreira Pinto": [
+            "Errichtete die zweite Kapelle"
+        ],
+        "João José Bettencourt de Freitas": [
+            "Baute die zweite Kapelle wieder auf"
+        ],
+        "D. Inacia Bettencourt Perestrelo": [
+            "Ließ die dritte Kapelle bauen"
+        ],
+        "Manue1 Gomes Garcês": [
+            "Errichtete die letzte Kapelle"
+        ],
+        "Francisco Bettencourt Pimenta": [
+            "Besitzer der Kapelle in Estreito da Calheta"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Bau der ersten Kapelle"
+        ],
+        "1684": [
+            "Bau der zweiten Kapelle"
+        ],
+        "1784": [
+            "Besichtigung für die Durchführung der Kultushandlungen in der zweiten Kapelle"
+        ],
+        "1858": [
+            "Bau der dritten Kapelle"
+        ],
+        "1860": [
+            "Kanonische Besichtigung der dritten Kapelle"
+        ],
+        "1685": [
+            "Bau der letzten Kapelle"
+        ],
+        "1921": [
+            "Jahr, in dem die Kapelle in Estreito da Calheta Francisco Bettencourt Pimenta gehörte"
+        ]
+    }
+}

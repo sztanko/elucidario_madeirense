@@ -1,0 +1,28 @@
+{
+    "id": 2760,
+    "lang": "de",
+    "is_original": false,
+    "title": "Perry",
+    "fl": "P",
+    "original_title": "Perry",
+    "body": "Laut Dr. Azevedo auf Seite 529 der Saudades stammt der Familienname Perry von dem Engländer Perry, der 1650 Kaufmann in Funchal war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort der geschäftlichen Tätigkeit"
+        ]
+    },
+    "people": {
+        "Dr. Azevedo": [
+            "Informationsquelle"
+        ]
+    },
+    "years": {
+        "1650": [
+            "Jahr der geschäftlichen Tätigkeit"
+        ]
+    }
+}

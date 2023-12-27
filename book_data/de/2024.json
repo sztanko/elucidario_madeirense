@@ -1,0 +1,31 @@
+{
+    "id": 2024,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo dos Canhas",
+    "fl": "L",
+    "original_title": "Lombo dos Canhas",
+    "body": "Besiedelter Ort in der Gemeinde Canhas. Dort gab es die Kapelle Unserer Lieben Frau der Verkündigung oder Inkarnation, die 1696 von João Rodrigues da Câmara und seiner Frau D. Isabel César da Câmara wiederaufgebaut und eine Zeit lang als Pfarrkirche genutzt wurde.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {
+        "Canhas": [
+            "Gemeinde, in der sich Lombo dos Canhas befindet"
+        ]
+    },
+    "people": {
+        "João Rodrigues da Câmara": [
+            "Verantwortlich für den Wiederaufbau der Kapelle Unserer Lieben Frau der Verkündigung"
+        ]
+    },
+    "years": {
+        "1696": [
+            "Jahr des Wiederaufbaus der Kapelle Unserer Lieben Frau der Verkündigung"
+        ]
+    }
+}

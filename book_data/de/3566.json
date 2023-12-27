@@ -1,0 +1,28 @@
+{
+    "id": 3566,
+    "lang": "de",
+    "is_original": false,
+    "title": "Dampfschiff",
+    "fl": "D",
+    "original_title": "Vapor",
+    "body": "Das erste Dampfschiff, das den Hafen von Funchal besuchte, war die Duke of York der englischen Handelsmarine. Sie kam in der ersten Maihälfte 1828 mit einer großen Anzahl von Passagieren an, die verschiedene Orte auf der Insel besuchten.\n\nDie Duke of York war auch auf Porto Santo, wo sie am 15. Mai mit über 400 Passagieren ankam, von denen einige aus Funchal kamen. Diese Passagiere gingen dort gegen 11 Uhr von Bord und besichtigten nach ihrer Ankunft die wichtigsten Orte. Um 15 Uhr stachen sie wieder in Richtung Madeira in See.",
+    "categories": [
+        "transport",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Porto Santo": [
+            "Insel des Madeira-Archipels"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1828": [
+            "Ankunft der Duke of York in Funchal"
+        ]
+    }
+}

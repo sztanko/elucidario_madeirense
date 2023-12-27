@@ -1,0 +1,29 @@
+{
+    "id": 833,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castro (Padre Francisco de)",
+    "fl": "C",
+    "original_title": "Castro (Padre Francisco de)",
+    "body": "Foi afamado prègador do seu tempo e exerceu diversos cargos importantes. Diz dele Barbosa Machado na Biblioteca Lusitana: “Francisco de Castro, natural da cidade do Funchal, capital da ilha da Madeira, presbytero de vida inculpavel, mestre em artes, doutor em Theologia pela Universidade de Evora, onde foi collegial do collegio da Purificação. Foi vigario da collegiada de S. Pedro da cidade do Funchal, donde passando a Cabo Verde a buscar remedio para o mal da lepra, passou a melhor vida em o anno de 1665. De muitos sermões que pregou, somente se fizeram publicar Sermão da Conceição de Nossa Senhora, Rochella, 1656 e Sermão da Visitação da Mãe de Deus, Rochella, 1655-. Inocencio diz no seu Diccionario Bibliographico que estes sermões são rarissimos, pois que não deparou com exemplar algum deles. Também foi pároco da freguesia de Santo Antonio do Funchal.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Barbosa Machado": [
+            "Autor da Biblioteca Lusitana"
+        ],
+        "Inocencio": [
+            "Autor do Diccionario Bibliographico"
+        ]
+    },
+    "years": {
+        "1665": [
+            "Passagem para melhor vida"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": 1153,
+    "lang": "de",
+    "is_original": false,
+    "title": "Dibblee (Harrison)",
+    "fl": "D",
+    "original_title": "Dibblee (Harrison)",
+    "body": "Vertreter des Amerikanischen Roten Kreuzes, der am 6. November 1918 mit dem Transportschiff Lake Forest auf Madeira ankam, das dieser Insel 1465 Säcke mit Saatgut, 1047 mit Bohnen, 3000 mit Maismehl und 10628 mit Mais in Körnern brachte, gesandt von dieser verdienstvollen Gesellschaft auf Ersuchen von Herrn Kemper, dem amerikanischen Konsul in Funchal. Diese wichtige Lebensmittellieferung war der madeirischen Bevölkerung, die bereits mit dem Hunger kämpfte, da die Lebensmittel zur Versorgung der Bevölkerung fast aufgebraucht waren, ein großer Dienst. Zu Ehren von Herrn Dibblee und des amerikanischen Konsuls gab es am 9. November ein Bankett im Palast von S. Lourenço mit 76 Gästen. Es fanden auch zwei Volksdemonstrationen statt, eine veranstaltet von der Stadtverwaltung und die andere von den Arbeiterklassen, beide mit dem Ziel, diesen beiden verdienstvollen Ausländern für die Versorgung unseres Marktes mit dem für unseren öffentlichen Verbrauch benötigten Getreide zu danken. Herr Dibblee verließ Funchal am 17. November in Richtung Norfolk (Virginia) und wohnte während seines Aufenthalts in Funchal im Palast von S. Lourenço.",
+    "categories": [
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel, auf der das Transportschiff Lake Forest ankam"
+        ],
+        "Funchal": [
+            "Ort, an dem Herr Dibblee wohnte"
+        ]
+    },
+    "people": {
+        "Herrn Dibblee": [
+            "Vertreter des Amerikanischen Roten Kreuzes"
+        ],
+        "Herrn Kemper": [
+            "Amerikanischer Konsul in Funchal"
+        ]
+    },
+    "years": {
+        "1918": [
+            "Ankunft von Herrn Dibblee auf Madeira"
+        ]
+    }
+}

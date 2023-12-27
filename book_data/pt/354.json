@@ -1,0 +1,37 @@
+{
+    "id": 354,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Azevedo (Americo Olavo Correia de)",
+    "fl": "A",
+    "original_title": "Azevedo (Americo Olavo Correia de)",
+    "body": "> Nasceu no Funchal a 16 de Dezembro de 1881 e fez parte, como capitão de infantaria, das tropas portuguesas que se bateram em França ao lado dos aliados, sendo condecorado com a Cruz de Guerra e com a 30 classe da ordem da Torre e Espada por actos de bravura praticados durante a campanha. Tendo ficado prisioneiro dos alemãis na grande batalha do dia 9 de Abril de 1918, só voltou a Portugal nos princípios de 1919, sendo eleito deputado pelo Funchal nas eleições que se realizaram em 11 de Maio do mesmo ano.",
+    "categories": [
+        "history",
+        "sports"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Capital da ilha da Madeira."
+        ],
+        "França": [
+            "País onde Americo Olavo Correia de Azevedo se bateu ao lado dos aliados."
+        ]
+    },
+    "people": {
+        "Americo Olavo Correia de Azevedo": [
+            "Capitão de infantaria que se bateu em França ao lado dos aliados e foi eleito deputado pelo Funchal."
+        ]
+    },
+    "years": {
+        "1881": [
+            "Ano de nascimento de Americo Olavo Correia de Azevedo"
+        ],
+        "1918": [
+            "Ano em que ficou prisioneiro dos alemães."
+        ]
+    }
+}

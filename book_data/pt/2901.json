@@ -1,0 +1,53 @@
+{
+    "id": 2901,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Posturas",
+    "fl": "P",
+    "original_title": "Posturas",
+    "body": "Como é sabido, têm as Câmaras Municipais o direito de estabelecer dentro da área dos seus concelhos determinados preceitos legais de carácter local em harmonia com as leis gerais do país, preceitos que devem ser rigorosamente observados e cuja transgressão implica a imposição de diversas penalidades. Neste arquipélago e anteriormente ao ano de 1834 não raro acontecia que esses códigos privativos de leis ou Posturas Municipais colidiam com alguns decretos emanados do poder central, levando as autoridades superiores a intervir energicamente e a coagir as vereações concelhias ao inteiro cumprimento desses decretos.\n\nTodas as Câmaras deste arquipélago e em diversas épocas estabeleceram e fizeram observar muitas «posturas», sendo algumas delas publicadas pela imprensa.\n\nNuma tentativa de «codificação», temos noticia de que nos anos de 1841, 1842, 1856, 1890, 1897 e 1900, respectivamente, as Câmaras Municipais de Santana, Calheta, Machico, Porto do Moniz, São Vicente e Ponta do Sol, fizeram imprimir em opúsculos as suas posturas, então vigentes, o que representa uma acertada medida para a boa administração municipal.\n\nNo ano de 1912, fez a Câmara Municipal do Funchal publicar em volume de 245 paginas o Código de Posturas do Município do Funchal, que é uma colecção das posturas que nesse tempo vigoravam e que na sua grande maioria ainda vigoram, sendo a mais antiga referente ao ano de 1881. É um excelente trabalho de codificação, especialmente coordenado pelo secretário da Câmara, Luís Betencourt Miranda.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Santana",
+        "Calheta",
+        "Machico",
+        "Porto do Moniz",
+        "São Vicente",
+        "Ponta do Sol",
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Luís Betencourt Miranda": [
+            "Secretário da Câmara Municipal do Funchal"
+        ]
+    },
+    "years": {
+        "1834": [
+            "Ano em que as Câmaras Municipais passaram a estabelecer preceitos legais de carácter local"
+        ],
+        "1841": [
+            "Impressão das posturas vigentes pela Câmara Municipal de Santana"
+        ],
+        "1842": [
+            "Impressão das posturas vigentes pela Câmara Municipal de Calheta"
+        ],
+        "1856": [
+            "Impressão das posturas vigentes pela Câmara Municipal de Machico"
+        ],
+        "1890": [
+            "Impressão das posturas vigentes pela Câmara Municipal de Porto do Moniz"
+        ],
+        "1897": [
+            "Impressão das posturas vigentes pela Câmara Municipal de São Vicente"
+        ],
+        "1900": [
+            "Impressão das posturas vigentes pela Câmara Municipal de Ponta do Sol"
+        ],
+        "1912": [
+            "Publicação do Código de Posturas do Município do Funchal"
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "id": 820,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castelo Branco (João de Abreu)",
+    "fl": "C",
+    "original_title": "Castelo Branco (João de Abreu)",
+    "body": "Foi governador e capitão-general da Madeira, datando a sua nomeação de 7 de Agôsto de 1733 e tendo tomado posse do logar a 21 de Abril de 1734.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João de Abreu Castelo Branco": [
+            "Governador e capitão-general da Madeira"
+        ]
+    },
+    "years": {
+        "1733": [
+            "Nomeação como governador e capitão-general da Madeira"
+        ],
+        "1734": [
+            "Tomou posse do logar"
+        ]
+    }
+}

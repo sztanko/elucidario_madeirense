@@ -1,0 +1,31 @@
+{
+    "id": 1646,
+    "lang": "en",
+    "is_original": false,
+    "title": "Green",
+    "fl": "G",
+    "original_title": "Green",
+    "body": "Two astronomers with this name visited Madeira, the first in 1768, on the occasion of Captain Cook's first voyage, and the second in 1877. The latter made some observations here about the planet Mars, which are mentioned by Flammarion in one of his works on astronomy.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Captain Cook": [
+            "Made the first visit to Madeira"
+        ],
+        "Flammarion": [
+            "Mentioned the observations about the planet Mars"
+        ]
+    },
+    "years": {
+        "1768": [
+            "First visit to Madeira"
+        ],
+        "1877": [
+            "Second visit to Madeira"
+        ]
+    }
+}

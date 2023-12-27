@@ -1,0 +1,31 @@
+{
+    "id": 421,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barcelos. (Pico dos)",
+    "fl": "B",
+    "original_title": "Barcelos. (Pico dos)",
+    "body": "Sítio povoado da freguesia de Santo Antonio do Funchal. Conhecido com o\nmesmo nome, nele se levanta um pequeno morro, que é hoje ponto obrigado de atracção para todos os\nturistas que visitam a Madeira. Os terrenos que longamente se estendem desde a Ponta do Garajau até ao\nCabo Girão formam um vasto semicírculo, em cujo diâmetro e no centro deste se ergue a eminência do Pico\ndos Barcelos, contemplando se deste ponto um dos mais atraentes e formosos panoramas, que seja\nporventura possível oferecer se à vista de qualquer visitante. A estrada que ali conduz, construída em 1917,\nfacilita o acesso deste local, quasi frequentado a toda a hora por inúmeros visitantes nacionais e\nestrangeiros. Parece que este sítio tirou o nome de Diogo Barcelos um dos primitivos povoadores, que por\nali possuía alguns tractos de terreno.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Pico dos Barcelos": [
+            "Ponto obrigado de atracção para todos os\nturistas que visitam a Madeira"
+        ]
+    },
+    "people": {
+        "Diogo Barcelos": [
+            "Um dos primitivos povoadores, que por\nali possuía alguns tractos de terreno"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Construída a estrada que ali conduz"
+        ]
+    }
+}

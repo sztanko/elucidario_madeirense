@@ -1,0 +1,33 @@
+{
+    "id": 3403,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sousa Brasão (Manuel de)",
+    "fl": "S",
+    "original_title": "Sousa Brasão (Manuel de)",
+    "body": "He was born in the parish of S. Vicente on April 21, 1884, and passed away at his residence in the fortress of S. Lourenço on December 21, 1923. He was a captain of the Military Administration and served in southern Angola from 1914 to 1915, and in Mozambique from 1916 to 1917. He was elected as a deputy for Madeira on July 10, 1921, and collaborated in several newspapers of a partisan nature.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [
+        "S. Vicente"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Birthplace"
+        ],
+        "Fortaleza de S. Lourenço": [
+            "Place of death"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1884": [
+            "Birth of Manuel de Sousa Brasão"
+        ],
+        "1923": [
+            "Death at the fortress of S. Lourenço"
+        ]
+    }
+}

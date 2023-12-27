@@ -1,0 +1,33 @@
+{
+    "id": 2552,
+    "lang": "de",
+    "is_original": false,
+    "title": "Öffentliche Distriktarbeiten",
+    "fl": "Ö",
+    "original_title": "Obras Públicas Distritais",
+    "body": "Über Jahrhunderte gab es für die von der Regierung des Mutterlandes angeordneten Verbesserungen wie den Bau der Kathedrale und verschiedener Kirchen, die militärischen Befestigungen, einige öffentliche Gebäude, die Straßen und andere keine zentrale Stelle, die sie angemessen beaufsichtigte und leitete, nicht nur in Bezug auf ihre Verwaltung, sondern auch in Bezug auf die technische Ausführung der verschiedenen auszuführenden Arbeiten. Dieser Service wurde über verschiedene öffentliche Stellen wie das Sekretariat der obersten Regierung des Archipels, die örtlichen Militärchefs, die Finanzverwaltung und die Gemeinden abgewickelt, wobei aus Lissabon Ingenieure oder Techniker zur Leitung größerer Arbeiten geschickt wurden. Erst 1852 wurde in Funchal eine Abteilung mit dem Namen «Direktion der öffentlichen Distriktarbeiten» geschaffen, die mit der Leitung und Verwaltung all dieser Arbeiten betraut wurde. Die Zentralregierung gewährte einen immer sehr begrenzten und von Jahr zu Jahr variierenden Jahresetat, trotz der ständigen Anträge, die von dieser Insel aus gestellt wurden. An der Spitze dieser Abteilung stand ein Ingenieur mit dem erforderlichen Personal. Sie wurde oft von Beamten geleitet, die ihren Namen mit wichtigen öffentlichen Verbesserungen verbanden, wie z. B. Major Tibério Blanc, Hauptmann Júlio Augusto de Leiria und Ingenieur Henrique de Lima e Cunha und andere. Diese Situation dauerte bis 1901, als diesem Bezirk die Verwaltungsautonomie gewährt wurde und alle Dienste, die von jener Abteilung durchgeführt wurden, an die Abteilung für öffentliche Arbeiten des Generalrates übergingen, die dann aufgelöst wurde.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Tibério Blanc": [
+            "Ingenieur"
+        ],
+        "Júlio Augusto de Leiria": [
+            "Hauptmann"
+        ],
+        "Henrique de Lima e Cunha": [
+            "Ingenieur"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Gründung der Abteilung \"Direktion der öffentlichen Distriktarbeiten\""
+        ],
+        "1901": [
+            "Gewährung der Verwaltungsautonomie an diesen Bezirk"
+        ]
+    }
+}

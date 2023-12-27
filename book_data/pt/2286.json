@@ -1,0 +1,39 @@
+{
+    "id": 2286,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Mesteres",
+    "fl": "M",
+    "original_title": "Mesteres",
+    "body": "Os procuradores dos mesteres ou mesteres, como também eram chamados, eram os oficiais mecânicos que faziam parte da chamada Casa dos Vinte e Quatro. Todos os anos, em Janeiro, o Juiz do Povo apresentava à Câmara Municipal a pauta dos quatro procuradores dos mesteres que deviam tomar parte nos trabalhos da vereação, os quais podiam ser rejeitados quando não tivessem seis anos pelo menos de exercício na mesma Casa.\n\nEm antigos tempos, assistiam os mesteres ás sessões camararias, sentados em cadeiras rasas, junto duma mesa independente da dos vereadores, mas em 1803 permitiu-lhes o Juiz de Fora José Júlio Henriques Gordilho que se sentassem à mesa das vereações, o que deu motivo a protestos do procurador do concelho João da Câmara Leme, que considerou essa concessão aviltante para a sua qualidade de fidalgo.\n\nEm 7 de Agosto de 1811, deliberou a Câmara que os mesteres voltassem a ocupar os seus antigos lugares, mas, tendo eles interposto recurso dessa resolução, conseguiram que ela fosse anulada. Os representantes dos ofícios mecânicos deixaram durante cerca dum ano de assistir ás reuniões camarárias, por se haverem considerado agravados com a deliberação tomada a seu respeito pelos vereadores.\n\nOs mesteres eram em antigos tempos mal vistos pelos vereadores, que chegavam muitas vezes a insultá-los e humilhá-los, mas nos princípios do século XIX melhorou bastante a sua situação, devido às profundas transformações sociais que se operaram no nosso país antes do movimento emancipador de 1820.\n\nOs mesteres deixaram de fazer parte das vereações depois da proclamação dos princípios constitucionais na Madeira, em 1834, tendo a Casa dos Vinte e Quatro de que eles eram representantes, sido extinta pelo decreto de 7 de Maio do mesmo ano. A Câmara Constitucional, eleita em 3 de Novembro de 1822, não tinha mesteres.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "José Júlio Henriques Gordilho": [
+            "Juiz de Fora"
+        ],
+        "João da Câmara Leme": [
+            "Procurador do concelho"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Permissão para se sentarem à mesa das vereações"
+        ],
+        "1811": [
+            "Deliberação para os mesteres voltarem a ocupar os seus antigos lugares"
+        ],
+        "1820": [
+            "Movimento emancipador"
+        ],
+        "1822": [
+            "Eleição da Câmara Constitucional"
+        ],
+        "1834": [
+            "Proclamação dos princípios constitucionais"
+        ]
+    }
+}

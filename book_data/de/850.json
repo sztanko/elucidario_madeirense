@@ -1,0 +1,28 @@
+{
+    "id": 850,
+    "lang": "de",
+    "is_original": false,
+    "title": "Friedhofsgasse (Beco do Cemiterio)",
+    "fl": "F",
+    "original_title": "Cemiterio (Beco do)",
+    "body": "Befand sich dort, wo heute die Rua 5 de Junho ist, mit den Quergassen Violetas, Malvas, Alecrim, Papoilas und Aldeia. Die Hütten der Gasse und der vier letzteren Quergassen begannen 1887 abgerissen zu werden, aber die Arbeiten in der Rua 5 de Junho wurden erst 1892 abgeschlossen. Sowohl die Gasse als auch die genannten Quergassen waren einfache Gassen, gesäumt von kleinen, ungesunden und hässlichen Behausungen.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua 5 de Junho": [
+            "Ort"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1887": [
+            "Beginn des Abrisses"
+        ],
+        "1892": [
+            "Abschluss der Arbeiten"
+        ]
+    }
+}

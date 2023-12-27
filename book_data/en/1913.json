@@ -1,0 +1,32 @@
+{
+    "id": 1913,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lobsters",
+    "fl": "L",
+    "original_title": "Lagostas",
+    "body": "Designation given to the Scyllarus latus and the Palinurus vulgaris, macrurous crustaceans that are caught in shallow waters, the former characterized by long and thick antennas, and the latter by foliaceous and short antennas. The second species, also called crayfish or spiny lobster, is less common than the first, and is caught like it, either by diving or accidentally in nets and other gear. The Arctus ursus, occasionally found in the seas of Funchal and Porto Santo, is not considered edible. In the \"Diário de Notícias\" of Funchal on October 26, 1927, Adolfo César de Noronha published an extensive and interesting article about these crustaceans under the title \"The Lobster of Madeira\".",
+    "categories": [
+        "biology",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Seas"
+        ],
+        "Porto Santo": [
+            "Seas"
+        ]
+    },
+    "people": {
+        "Adolfo César de Noronha": [
+            "Author"
+        ]
+    },
+    "years": {
+        "1927": [
+            "Publication of the article \"The Lobster of Madeira\""
+        ]
+    }
+}

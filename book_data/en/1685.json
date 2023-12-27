@@ -1,0 +1,32 @@
+{
+    "id": 1685,
+    "lang": "en",
+    "is_original": false,
+    "title": "Henriques (Dr. Júlio Augusto)",
+    "fl": "H",
+    "original_title": "Henriques (Dr. Júlio Augusto)",
+    "body": "He was in Madeira on June 25, 1903, during the scientific trip he made to the island of São Tomé, having visited Monte and various points of the city. Dr. Júlio A. Henriques was born in Cabeceira de Bastos on January 17, 1838, and was a retired professor of botany at the University of Coimbra, and one of the most distinguished naturalists in our country.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cabeceira de Bastos": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Dr. Júlio A. Henriques": [
+            "Retired professor of botany at the University of Coimbra"
+        ]
+    },
+    "years": {
+        "1903": [
+            "Visit to Madeira"
+        ],
+        "1838": [
+            "Birth of Dr. Júlio A. Henriques"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 1383,
+    "lang": "de",
+    "is_original": false,
+    "title": "Eisen",
+    "fl": "E",
+    "original_title": "Ferro",
+    "body": "Es gibt auf dem Archipel eine große Menge dieses Minerals, aber in Verbindungen, die sich nicht lohnen abzubauen. Wenn es in höheren Prozentsätzen vorkommt, dann nur in winzigen Adern, wie die schönen Eisenspiegeleisen-Lamellen im Fels über dem Kai von Ponta do Sol und in der inneren Auskleidung von Lavaströmen, wie in den Höhlen von Cavalum in Machico und in der Cardais-Höhle in S. Vicente.\n\nEs sind die Eisensalze, die den größten Teil der Felsen an unseren Hängen zerfallen lassen. So entsteht die Vorbereitung neuer Böden (poios), indem man sie durch die Einwirkung natürlicher Kräfte zerbröckeln lässt und sie in kleinen Terrassen für den Anbau zurückhält.\n\nEs ist das Eisen, das den braunen Überzug der Basaltblöcke, die rote Farbe der sogenannten Massapê-Erden und auch die Laterite verleiht, die die Felsen besonders an der Küste durchsetzen, zwischen zwei Basaltschichten eingelagert.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta do Sol": [
+            "Fels über dem Kai"
+        ],
+        "Machico": [
+            "Cavalum Höhlen"
+        ],
+        "S. Vicente": [
+            "Cardais Höhle"
+        ],
+        "Canhas": [
+            "Zwischen Tuffen"
+        ],
+        "Madalena do Mar": [
+            "Körnig"
+        ],
+        "Sant'Ana": [
+            "Über Ton"
+        ],
+        "S. Jorge": [
+            "Über Ton"
+        ],
+        "S. Antonio": [
+            "Wasser einiger Quellen"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

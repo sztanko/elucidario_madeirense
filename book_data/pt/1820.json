@@ -1,0 +1,45 @@
+{
+    "id": 1820,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Jangão",
+    "fl": "J",
+    "original_title": "Jangão",
+    "body": "Sítio povoado da freguesia da Ponta do Sol. Era a sede do antigo morgadio do Vale da Bica, instituído em 1522 por João Esmeraldo e de que foi ultimo representante o distinto madeirense conselheiro Aires de Ornelas. Encontra-se ali e fazia parte desta casa vinculada a capela de Nossa Senhora da Piedade, fundada por Antonio de Carvalhal Esmeraldo pelos anos de 1670, tendo sido restaurada em 1777 e em 1879 pelos respectivos administradores Francisco de Ornelas de Vasconcelos e o conselheiro Agostinho de Ornelas de Vasconcelos.\n\n## Lombada dos Esmeraldos.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {
+        "João Esmeraldo": [
+            "Fundador do morgadio do Vale da Bica"
+        ],
+        "Aires de Ornelas": [
+            "Último representante do morgadio do Vale da Bica"
+        ],
+        "Antonio de Carvalhal Esmeraldo": [
+            "Fundador da capela de Nossa Senhora da Piedade"
+        ]
+    },
+    "years": {
+        "1522": [
+            "Instituição do morgadio do Vale da Bica"
+        ],
+        "1670": [
+            "Fundação da capela de Nossa Senhora da Piedade"
+        ],
+        "1777": [
+            "Restauração da capela de Nossa Senhora da Piedade"
+        ],
+        "1879": [
+            "Restauração da capela de Nossa Senhora da Piedade"
+        ]
+    }
+}

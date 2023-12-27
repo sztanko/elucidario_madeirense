@@ -1,0 +1,54 @@
+{
+    "id": 1848,
+    "lang": "en",
+    "is_original": false,
+    "title": "Jesus Maria José (Capela de)",
+    "fl": "J",
+    "original_title": "Jesus Maria José (Capela de)",
+    "body": "Sebastião Gonçalves Cordeiro and his wife Luzia de Ornelas founded the chapel of Jesus-Maria-José in 1694 in the parish of Câmara de Lobos, in the place that still bears that name. The respective endowment deed is dated May 10, 1694.\n\nIn the place of Lombo do Doutor, in the parish of Calheta, there was also a chapel of Jesus-Maria-José, founded in 1708 by João de Andrade Berenguer Neto and his wife D. Tomásia de França Andrade, who endowed it by public deed on October 30 of that year.\n\nWith the same invocation, there was a chapel in the parish of Sé, in a location that we cannot determine, founded in 1626 by the canon Manuel Afonso, and Mateus da Gama Ferreira founded a chapel in the parish of Monte, on land that later became part of the parish of Santa Luzia, also consecrated to Jesus-Maria-José. Its construction must be prior to 1676, the year in which the parish of Santa Luzia was created.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos",
+        "Calheta",
+        "Sé",
+        "Monte",
+        "Santa Luzia"
+    ],
+    "locations": {},
+    "people": {
+        "Sebastião Gonçalves Cordeiro": [
+            "Founder of the chapel of Jesus-Maria-José"
+        ],
+        "Luzia de Ornelas": [
+            "Founder of the chapel of Jesus-Maria-José"
+        ],
+        "João de Andrade Berenguer Neto": [
+            "Founder of the chapel of Jesus-Maria-José"
+        ],
+        "D. Tomásia de França Andrade": [
+            "Founder of the chapel of Jesus-Maria-José"
+        ],
+        "Canon Manuel Afonso": [
+            "Founder of the chapel in the parish of Sé"
+        ],
+        "Mateus da Gama Ferreira": [
+            "Founder of the chapel in the parish of Monte"
+        ]
+    },
+    "years": {
+        "1694": [
+            "Foundation of the chapel of Jesus-Maria-José in the parish of Câmara de Lobos"
+        ],
+        "1708": [
+            "Foundation of the chapel of Jesus-Maria-José in the place of Lombo do Doutor in the parish of Calheta"
+        ],
+        "1626": [
+            "Foundation of the chapel in the parish of Sé"
+        ],
+        "1676": [
+            "Creation of the parish of Santa Luzia"
+        ]
+    }
+}

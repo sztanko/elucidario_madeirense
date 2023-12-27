@@ -1,0 +1,30 @@
+{
+    "id": 150,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almada (D. Lourenço de)",
+    "fl": "A",
+    "original_title": "Almada (D. Lourenço de)",
+    "body": "Este governador e capitão general da Madeira foi nomeado a 4 de\nAgosto de 1687 e tomou posse a 13 de Abril de 1688.\n\nFoi também governador geral de Angola e duma das províncias do Brasil.\n\nEra descendente de D. Alvaro Vaz de Almada e morreu a 2 de Maio de 1729.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Alvaro Vaz de Almada": [
+            "Antepassado de D. Lourenço de Almada"
+        ]
+    },
+    "years": {
+        "1687": [
+            "Nomeação como governador e capitão general da Madeira"
+        ],
+        "1688": [
+            "Tomada de posse"
+        ],
+        "1729": [
+            "Ano de falecimento"
+        ]
+    }
+}

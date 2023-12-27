@@ -1,0 +1,49 @@
+{
+    "id": 3558,
+    "lang": "de",
+    "is_original": false,
+    "title": "Impfung",
+    "fl": "I",
+    "original_title": "Vacina",
+    "body": "Es scheint, dass der Leibarzt Dr. Domaire der erste war, der auf Madeira Experimente mit Pockenimpfungen durchführte, gefolgt von Dr. Adams, auf den wir bereits auf Seite 16 von Band I dieses Elucidário verwiesen haben. In einem Antrag, der vom Gouverneur genehmigt und der Stadtratssitzung vom 27. Oktober 1802 vorgelegt wurde, bat Dr. Adams darum, \"ihm alle acht Tage vier Findelkinder zu schicken, um an ihnen den Pockenimpfstoff zu testen\", wobei derselbe Arzt in einem auf Englisch verfassten, aber vom Dolmetschermajor Francisco Manuel Patrone übersetzten Bericht die Ergebnisse der Experimente, die er durchgeführt hatte, vorlegte. Nach Dr. Adams führte der madeirische Arzt Dr. António Caetano de Freitas Impfungen durch, der in zwei Berichten, einem aus dem Jahr 1804 und einem aus dem Jahr 1807, ebenfalls über seine Beobachtungen berichtete. 1815 richtete der Stadtrat aufgrund einer Anordnung des Gouverneurs ein, dass es jeden Monat Impfungen für Findelkinder durch den leitenden Arzt geben sollte, und in der Sitzung vom 7. Juni 1823 beschloss dieselbe Körperschaft, die Eltern durch Edikte einzuladen, ihre Kinder im Krankenhaus impfen zu lassen, wo es \"eine im vergangenen Jahr auf Betreiben des Rates in Absprache mit den Obergesundheitswächtern und dem Leiter desselben Krankenhauses eingerichtete kostenlose Einrichtung zu diesem Zweck\" gab. Es scheint also, dass die Verwendung des Impfstoffs auf Madeira erst ab 1822 oder 1823 allgemein üblich wurde, obwohl bekannt ist, dass zuvor bereits Findelkinder geimpft wurden und dass der Gouverneur Sequeira Freire bereits 1804, als viele Leute den Nutzen der Inokulationen noch anzweifelten, sie als das einzige wirksame Mittel empfahl, um eine Ansteckung und Ausbreitung der Pocken zu verhindern.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Domaire": [
+            "Leibarzt"
+        ],
+        "Dr. Adams": [
+            "Arzt"
+        ],
+        "Francisco Manuel Patrone": [
+            "Dolmetschermajor"
+        ],
+        "Dr. António Caetano de Freitas": [
+            "Madeirischer Arzt"
+        ],
+        "Sequeira Freire": [
+            "Gouverneur"
+        ]
+    },
+    "years": {
+        "1802": [
+            "Antrag von Dr. Adams an den Stadtrat"
+        ],
+        "1804": [
+            "Bericht von Dr. António Caetano de Freitas"
+        ],
+        "1807": [
+            "Bericht von Dr. António Caetano de Freitas"
+        ],
+        "1815": [
+            "Einrichtung monatlicher Impfungen durch den Stadtrat"
+        ],
+        "1823": [
+            "Beschluss des Stadtrats zur Impfung von Kindern"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 167,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almeida (Vasco de)",
+    "fl": "A",
+    "original_title": "Almeida (Vasco de)",
+    "body": "Nasceu no Funchal. E.: Arte de criar os bichos de seda... tradução do francês e italiano, Funchal, 1870, de 61 pag.",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento de Vasco de Almeida"
+        ]
+    },
+    "people": {
+        "Vasco de Almeida": [
+            "Autor da obra 'Arte de criar os bichos de seda...'"
+        ]
+    },
+    "years": {
+        "1870": [
+            "Publicação da obra 'Arte de criar os bichos de seda...' por Vasco de Almeida"
+        ]
+    }
+}

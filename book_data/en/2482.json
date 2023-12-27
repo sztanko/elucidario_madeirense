@@ -1,0 +1,40 @@
+{
+    "id": 2482,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nossa Senhora do Carmo (Igreja de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Carmo (Igreja de)",
+    "body": "This church, which gave its name to the street where it is located, was built around the mid-17th century. The land for its construction and the adjoining houses were donated by Captain Roque Acciaioly de Vasconcelos, with the chancel being built at the expense of the prior of the Third Order of Carmo, Pedro Gonçalves Brandão, and the main body of the building at the cost of the brothers of the same Order. Construction began in 1656 and was only completed in 1660.\n\nThe Third Order of Carmo was established in this city by Father Luís do Rosário de Vila Nova, whom the provincial sent to this island for this purpose, and it had its headquarters in the church of the convent of Incarnação, where it remained until the construction of the new church.\n\nThe Carmo church had an annexed small hospice or shelter, founded by Henrique Henriques de Noronha. Some Carmelite friars stayed there, but we are unaware of any other circumstances regarding the existence and duration of this hospice.\n\nOn the side walls of the chancel of this church, there are two beautiful mausoleums, the only ones of some artistic value that exist in the temples of this island.\n\nThere was a chapel of this invocation in the parish of Campanário, which was a vested institution and was built in 1658 by Domingos Rodrigues.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Campanário": [
+            "Locality on the Island of Madeira"
+        ]
+    },
+    "people": {
+        "Roque Acciaioly de Vasconcelos": [
+            "Donor of the land for the construction of the church"
+        ],
+        "Pedro Gonçalves Brandão": [
+            "Responsible for the expenses of the chancel"
+        ],
+        "Henrique Henriques de Noronha": [
+            "Founder of the hospice or shelter"
+        ]
+    },
+    "years": {
+        "1656": [
+            "Year when the construction of the Carmo church began"
+        ],
+        "1660": [
+            "Year when the construction of the Carmo church was completed"
+        ],
+        "1658": [
+            "Year of the construction of the chapel in the parish of Campanário"
+        ]
+    }
+}

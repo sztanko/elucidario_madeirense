@@ -1,0 +1,41 @@
+{
+    "id": 1821,
+    "lang": "de",
+    "is_original": false,
+    "title": "Jardim (Dr. Alberto Figueira)",
+    "fl": "J",
+    "original_title": "Jardim (Dr. Alberto Figueira)",
+    "body": "Er wurde in dieser Stadt am 10. April 1882 geboren und ist der Sohn des Rechtsanwalts Dr. Nuno Ferreira Jardim und von D. Isabel Figueira Jardim. Er hat einen Bachelor-Abschluss in Jura von der Universität Coimbra und ist effektiver Professor am Liceu do Funchal. Zu den öffentlichen Ämtern, die er bekleidet hat, gehören die eines Mitglieds des Generalrats des Bezirks, des Präsidenten des Exekutivausschusses desselben Rates, eines Mitglieds des Stadtrats und eines Richters dieses Gerichtsbezirks. Neben verschiedenen Beiträgen in einigen Zeitungen schrieb er auf Englisch die Broschüre *Madeira, the Pearl of the Atlantic*, Lissabon, 1914, und auf Portugiesisch das Gedichtbuch *Amostras*, Funchal, 1915 und die Tragödie in Versen *Galateia*, Funchal, 1920.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ]
+    },
+    "people": {
+        "Dr. Nuno Ferreira Jardim": [
+            "Rechtsanwalt"
+        ],
+        "D. Isabel Figueira Jardim": [
+            "Mutter von Alberto Figueira Jardim"
+        ]
+    },
+    "years": {
+        "1882": [
+            "Geburt von Alberto Figueira Jardim"
+        ],
+        "1914": [
+            "Veröffentlichung von *Madeira, the Pearl of the Atlantic*"
+        ],
+        "1915": [
+            "Veröffentlichung von *Amostras*"
+        ],
+        "1920": [
+            "Veröffentlichung von *Galateia*"
+        ]
+    }
+}

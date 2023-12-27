@@ -1,0 +1,52 @@
+{
+    "id": 1921,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lambert (Quinta)",
+    "fl": "L",
+    "original_title": "Lambert (Quinta)",
+    "body": "No artigo consagrado ao cemitério das Angústias, dissemos que Daniel da Costa Quintal fundara em 1662, em terras do seu morgadio, a capela de Nossa Senhora das Angústias, que deu o nome à rua que lhe passa próxima e ainda aos sítios das suas imediações. Não podemos agora precisar, como também já notámos, se a capela de Nossa Senhora das Angústias, existente na quinta do mesmo nome (Lambert), é a reconstrução da antiga ermida de igual invocação e se porventura era ali que ficaria situada a propriedade de Daniel da Costa Quintal. Quer-nos parecer que sim. A quinta das Angústias quando passou à posse de Nicolau Hemiterio de la Tuelière e depois a do conde de Lambert, sofreu grandes melhoramentos na casa, na capela e terrenos adjacentes, tornando-se uma das mais aprazíveis e confortáveis vivendas do Funchal, A rainha Adelaide de Inglaterra (V. este nome) residiu nesta quinta de 3 de Novembro de 1847 a 11 de Abril de 1848 e o duque de Leuchtenberg (V. este nome) também ali residiu de 27 de Agosto de 1849 a 23 de Abril de 1850. A imperatriz viúva do Brasil, D. Amélia (V. este nome), acompanhada de sua filha a princesa D. Maria Amélia (V. este nome), estabeleceu ali residência a 28 de Agosto de 1852. A malograda princesa faleceu nesta casa a 4 de Fevereiro de 1853. Três meses depois, a 6 de Maio, saiu da capela da quinta o féretro que continha os despojos mortais da princesa e que era seguido pela imperatriz, realizando-se o embarque no cais da Pontinha.## A quinta das Angústias foi comprada pelo Dr. Júlio Paulo de Freitas à condessa de Lambert, Luísa Margarida de Loucosme Bredes, e seus filhos, pela quantia de 4:000 libras, em 19 de Agosto de 1903. Era nesta quinta que ficava o conhecido mirante de D. Guiomar (V. este nome).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade"
+        ],
+        "Ponta Delgada": [
+            "Cidade"
+        ]
+    },
+    "people": {
+        "Daniel da Costa Quintal": [
+            "Fundador da capela de Nossa Senhora das Angústias"
+        ]
+    },
+    "years": {
+        "1662": [
+            "Fundação da capela de Nossa Senhora das Angústias"
+        ],
+        "1847": [
+            "Residência da rainha Adelaide de Inglaterra"
+        ],
+        "1848": [
+            "Residência da rainha Adelaide de Inglaterra"
+        ],
+        "1849": [
+            "Residência do duque de Leuchtenberg"
+        ],
+        "1850": [
+            "Residência do duque de Leuchtenberg"
+        ],
+        "1852": [
+            "Estabelecimento de residência da imperatriz viúva do Brasil, D. Amélia"
+        ],
+        "1853": [
+            "Falecimento da princesa D. Maria Amélia"
+        ],
+        "1903": [
+            "Compra da quinta das Angústias pelo Dr. Júlio Paulo de Freitas"
+        ]
+    }
+}

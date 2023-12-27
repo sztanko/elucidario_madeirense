@@ -1,0 +1,27 @@
+{
+    "id": 1261,
+    "lang": "de",
+    "is_original": false,
+    "title": "Hoffnung",
+    "fl": "H",
+    "original_title": "Esperança",
+    "body": "Monatliche Zeitschrift der Studenten des Diözesanseminars. Die erste Ausgabe erschien im Dezember 1907 und die letzte im November 1908.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Diözesanseminar": [
+            "Ort, an dem die Zeitschrift Hoffnung produziert wurde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1907": [
+            "Veröffentlichung der ersten Ausgabe der Zeitschrift Hoffnung"
+        ],
+        "1908": [
+            "Veröffentlichung der letzten Ausgabe der Zeitschrift Hoffnung"
+        ]
+    }
+}

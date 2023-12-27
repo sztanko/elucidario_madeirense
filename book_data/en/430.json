@@ -1,0 +1,29 @@
+{
+    "id": 430,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barreiros (Estádio dos)",
+    "fl": "B",
+    "original_title": "Barreiros (Estádio dos)",
+    "body": "In the parish of São Martinho, at the site of Ribeiro Seco de Cima, known as Barreiros, there is an excellent sports field, known as Estádio dos Barreiros, with an approximate area of 18,000 square meters, which was solemnly inaugurated in 1927.",
+    "categories": [
+        "sports"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "São Martinho": [
+            "Parish"
+        ],
+        "Ribeiro Seco de Cima": [
+            "Location of the stadium"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1927": [
+            "Inauguration of Estádio dos Barreiros"
+        ]
+    }
+}

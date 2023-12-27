@@ -1,0 +1,31 @@
+{
+    "id": 772,
+    "lang": "de",
+    "is_original": false,
+    "title": "Karmel",
+    "fl": "K",
+    "original_title": "Carmo",
+    "body": "Besiedelter Ort in der Gemeinde Campanario. Dort gab es eine Kapelle, die Unserer Lieben Frau auf dem Berge Karmel geweiht war. Sie gab dem Ort seinen Namen. Sie wurde 1658 von Domingos Rodrigues gegründet. Es war eine Stiftung und der Sitz eines Fideikommisses. Der Ort hat 15 Häuser und 73 Einwohner.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Campanario"
+    ],
+    "locations": {
+        "Campanario": [
+            "Gemeinde Campanario"
+        ]
+    },
+    "people": {
+        "Domingos Rodrigues": [
+            "Gründer der der Gottesmutter vom Berge Karmel geweihten Kapelle"
+        ]
+    },
+    "years": {
+        "1658": [
+            "Gegründet 1658"
+        ]
+    }
+}

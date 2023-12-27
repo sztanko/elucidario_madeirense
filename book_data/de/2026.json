@@ -1,0 +1,33 @@
+{
+    "id": 2026,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo do Doutor",
+    "fl": "L",
+    "original_title": "Lombo do Doutor",
+    "body": "Besiedelter Ort in der Gemeinde Calheta. Der Ort wurde von Dr. Pedro Berenguer de Lemilhana benannt, der dort ein Majorat gründete. Er stammte aus Spanien und war Edelknabe des Königshauses. An diesem Ort gab es die 1708 von João de Andrade Berenguer Neto gegründete Kapelle Jesus-Maria-José, einem Nachfahren von Dr. Pedro Berenguer. An diesem Ort gab es auch die Kapelle Santa Catarina, die 1505 von Rodrigo Enes erbaut wurde. In diesem Ort liegt auch der bekannte Ort Vale da Bica.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Gemeinde Calheta"
+        ]
+    },
+    "people": {
+        "Pedro Berenguer de Lemilhana": [
+            "Arzt, der dem Ort seinen Namen gab"
+        ]
+    },
+    "years": {
+        "1708": [
+            "Gründung der Kapelle Jesus-Maria-José"
+        ],
+        "1505": [
+            "Bau der Kapelle Santa Catarina"
+        ]
+    }
+}

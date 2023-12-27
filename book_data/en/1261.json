@@ -1,0 +1,27 @@
+{
+    "id": 1261,
+    "lang": "en",
+    "is_original": false,
+    "title": "Esperança",
+    "fl": "E",
+    "original_title": "Esperança",
+    "body": "Monthly magazine for the students of the Diocesan Seminary. The first issue was released in December 1907 and the last in November 1908.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Diocesan Seminary": [
+            "Location where the Esperança magazine was produced"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1907": [
+            "Release of the first issue of the Esperança magazine"
+        ],
+        "1908": [
+            "Release of the last issue of the Esperança magazine"
+        ]
+    }
+}

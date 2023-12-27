@@ -1,0 +1,56 @@
+{
+    "id": 2223,
+    "lang": "en",
+    "is_original": false,
+    "title": "Matadouro Municipal",
+    "fl": "M",
+    "original_title": "Matadouro Municipal",
+    "body": "The old municipal slaughterhouse was built in 1851, next to the Fish Market (Praça de S. Pedro). It fulfilled its purpose well and had plenty of water for cleaning.\n\nThere is a municipal deliberation from the year 1495, ordering the butchers to slaughter and skin the cattle at Cabo do Calhau, but on May 20, 1791, the City Council resolved to budget for the construction of a slaughterhouse near the Almotaceria house, having requested a loan of 400,000 réis from the Royal Treasury in 1795 to carry out the same construction. On September 9, 1825, the slaughterhouse was transferred by order of the municipality to the vicinity of the Santa Luzia stream, and the almotacés were authorized to punish 'the magarefes and skinners' who slaughtered cattle outside the new location assigned to them.\n\nAs early as 1446, there was a butchery and a house for the sale of meats in Funchal, and it can be seen from the book of the vereações of the year 1488 that the butchery house was located at that time towards Santa Catarina.\n\nThe 1851 slaughterhouse was demolished and replaced by the current Municipal Slaughterhouse, which dates from 1941 and is located on the right bank of the Ribeira de João Gomes, in the extension of the old Beco do Cascalho, and is a modern and spacious building, constructed not only with the necessary vastness for the complete execution of all the services that are peculiar to it, but also in obedience to the strictest hygiene precepts.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [
+        "Santa Catarina"
+    ],
+    "locations": {
+        "Funchal": [
+            "City"
+        ],
+        "Cabo do Calhau": [
+            "Location"
+        ],
+        "Ribeira de Santa Luzia": [
+            "Location"
+        ],
+        "Ribeira de João Gomes": [
+            "Location"
+        ],
+        "Beco do Cascalho": [
+            "Location"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "Construction of the old slaughterhouse"
+        ],
+        "1495": [
+            "Municipal deliberation"
+        ],
+        "1791": [
+            "City Council resolution"
+        ],
+        "1795": [
+            "Loan request"
+        ],
+        "1825": [
+            "Transfer of the slaughterhouse"
+        ],
+        "1446": [
+            "Existence of a butchery in Funchal"
+        ],
+        "1488": [
+            "Location of the butchery house"
+        ]
+    }
+}

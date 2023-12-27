@@ -1,0 +1,29 @@
+{
+    "id": 2533,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Vitória (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Vitória (Capela de)",
+    "body": "Na estrada literal que do Funchal conduz a Câmara de Lobos e na margem esquerda da ribeira dos Socorridos, se encontra a capela de Nossa Senhora da Vitória, que fica no extremo da freguesia de São Martinho. O anotador das _Saudades_ assinala o ano de 1594 como o da sua construção e diz ter sido fundada por Francisco de Bettencourt nas terras do morgadio que ali instituiu. Foi reconstruída em ano que não podemos determinar, e há aproximadamente quarenta anos que se procedeu ao seu acrescentamento e nela se fizeram notáveis obras de reparação.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Martinho"
+    ],
+    "locations": {
+        "Funchal": [
+            "Conduz a Câmara de Lobos"
+        ],
+        "Câmara de Lobos": [
+            "Na margem esquerda da ribeira dos Socorridos"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1594": [
+            "Construção da capela"
+        ]
+    }
+}

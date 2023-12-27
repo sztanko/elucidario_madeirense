@@ -1,0 +1,30 @@
+{
+    "id": 428,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barreirinha",
+    "fl": "B",
+    "original_title": "Barreirinha",
+    "body": "Pequena praia que fica situada a leste da fortaleza de Santiago e a jusante da igreja paroquial de Santa Maria Maior. Prestava se a ser uma praia de banhos, que a Câmara do Funchal tornou de fácil acesso no ano de 1939, melhorando o local e o caminho que lá conduz.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santiago",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Fortaleza de Santiago": [
+            "Oeste da praia"
+        ],
+        "Igreja paroquial de Santa Maria Maior": [
+            "A montante da praia"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1939": [
+            "Melhoria do acesso à praia"
+        ]
+    }
+}

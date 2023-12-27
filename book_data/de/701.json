@@ -1,0 +1,34 @@
+{
+    "id": 701,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kirchenkammer",
+    "fl": "K",
+    "original_title": "Camara Eclesiastica",
+    "body": "Dies ist die Abteilung, über die alle religiösen und kirchlichen Angelegenheiten dieser Diözese laufen. Sie muss im Jahr der Gründung des Bistums selbst, d.h. 1514, gegründet worden sein und ist nach dem Zollamt die älteste bestehende öffentliche Einrichtung in diesem Archipel. \n\nDas ursprüngliche Gehalt seines Schreibers betrug dreitausend Réis pro Jahr, das durch königliches Dekret vom 28. Oktober 1564 auf achttausend Réis erhöht wurde, wobei sicherlich die jeweiligen Gebühreneinnahmen der Behörde hinzukommen müssen. Wir glauben, dass seine Organisation in früheren Zeiten sehr unterschiedlich von der heutigen war.\n\nDas Archiv der Kirchenkammer enthielt sehr wertvolle Dokumente, nicht nur für die Geschichte des Bistums, sondern auch des Madeira-Archipels. Ein Brand, der sich dort gegen Ende des 17. Jahrhunderts ereignete, machte fast alle diese Dokumente unbrauchbar.\n\nDiese kirchliche Behörde war immer an den Bischofssitz angegliedert. Als aufgrund der Bestimmungen des Trennungsgesetzes das Lyzeum im Januar 1914 im Bischofspalast eingerichtet wurde, zog die Kirchenkammer einige Monate zuvor in ein Haus gegenüber dem ehemaligen Priesterseminar an der Rua Julio da Silva Carvalho, das dem Priesterseminar gehörte. Im Mai 1918 wurde sie in einem Anbau des neuen Bischofspalastes am Largo do Ribeiro Real und neben dem britischen Friedhof untergebracht.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Archiv der Kirchenkammer"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1514": [
+            "Gründung der Kirchenkammer"
+        ],
+        "1564": [
+            "Gehaltserhöhung für den Schreiber"
+        ],
+        "1914": [
+            "Einrichtung des Lyzeums im Bischofspalast"
+        ],
+        "1918": [
+            "Einrichtung der Kirchenkammer im neuen Bischofspalast"
+        ]
+    }
+}

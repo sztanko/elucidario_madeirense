@@ -1,0 +1,36 @@
+{
+    "id": 2531,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora da Vida (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora da Vida (Capelas de)",
+    "body": "Manuel Valente fundou em 1679, na freguesia de São Pedro, uma capela consagrada a Nossa Senhora da Vida, que não sabemos onde ficava.\n\nNuma pequena eminência sobranceira ao mar se ergue uma capela da mesma invocação, que foi fundada por Inês Teixeira, em ano que ignoramos. Fica no sítio da Fajã do Mar.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Localidade na Madeira"
+        ],
+        "Fajã do Mar": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "Manuel Valente": [
+            "Fundador da capela em 1679"
+        ],
+        "Inês Teixeira": [
+            "Fundadora da capela em Fajã do Mar"
+        ]
+    },
+    "years": {
+        "1679": [
+            "Fundação da capela em São Pedro"
+        ]
+    }
+}

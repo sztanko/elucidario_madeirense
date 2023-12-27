@@ -1,0 +1,34 @@
+{
+    "id": 54,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Administradores Gerais",
+    "fl": "A",
+    "original_title": "Administradores Gerais",
+    "body": "António de Gamboa e Lis era, em 1837, governador civil do Funchal, quando uma reforma administrativa deu aos governadores dos distritos a denominação de Administradores Gerais. Depois de António de Gamboa e Lis foram administradores gerais deste distrito o barão de Lordelo e o Dr. Domingos Olavo Correia de Azevedo.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local da reforma administrativa"
+        ]
+    },
+    "people": {
+        "António de Gamboa e Lis": [
+            "Governador civil do Funchal"
+        ],
+        "Barão de Lordelo": [
+            "Administrador geral"
+        ],
+        "Dr. Domingos Olavo Correia de Azevedo": [
+            "Administrador geral"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Reforma administrativa"
+        ]
+    }
+}

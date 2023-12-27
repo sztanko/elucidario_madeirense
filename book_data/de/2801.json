@@ -1,0 +1,43 @@
+{
+    "id": 2801,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pinto Coelho (Frederico)",
+    "fl": "P",
+    "original_title": "Pinto Coelho (Frederico)",
+    "body": "Er war der Sohn von Joaquim Pinto Coelho und Maria Carlota de Ornelas Linhares Pinto Coelho und wurde am 28. Mai 1851 in Funchal geboren. Er war Schreiber der Stadtverwaltung von Funchal und Sekretär der Stadtverwaltung von Evora. Nach seiner Pensionierung in dieser letzten Position kehrte er nach Madeira zurück, wo er einige Zeit lang das Amt des Verwalters der Gemeinde Câmara de Lobos bekleidete. Er war Redakteur und Mitarbeiter verschiedener madeirischer Zeitungen und veröffentlichte 1881 in Funchal eine 40-seitige Broschüre mit dem Titel \"Sudario Negro\", eine Polemik gegen den Prälaten Manuel Agostinho Barreto. Pater António Aires Pacheco antwortete darauf mit der Broschüre \"O Sudario Negro no banco dos réus\". Er starb am 2. Januar 1916 in Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Funchal",
+        "Evora",
+        "Camara de Lobos"
+    ],
+    "locations": {},
+    "people": {
+        "Joaquim Pinto Coelho": [
+            "Vater von Frederico Pinto Coelho"
+        ],
+        "Maria Carlota de Ornelas Linhares Pinto Coelho": [
+            "Mutter von Frederico Pinto Coelho"
+        ],
+        "Frederico Pinto Coelho": [
+            "Sohn von Joaquim Pinto Coelho und Maria Carlota de Ornelas Linhares Pinto Coelho"
+        ],
+        "Manuel Agostinho Barreto": [
+            "Prälat"
+        ]
+    },
+    "years": {
+        "1851": [
+            "Geburt von Frederico Pinto Coelho"
+        ],
+        "1881": [
+            "Veröffentlichung der Broschüre \"Sudario Negro\""
+        ],
+        "1916": [
+            "Tod von Frederico Pinto Coelho"
+        ]
+    }
+}

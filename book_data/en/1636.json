@@ -1,0 +1,32 @@
+{
+    "id": 1636,
+    "lang": "en",
+    "is_original": false,
+    "title": "Grande (Eduardo)",
+    "fl": "G",
+    "original_title": "Grande (Eduardo)",
+    "body": "He was a native of Portalegre and was an agronomist attached to the Civil Government of Funchal, and later became its general secretary. He also held the position of member of the administrative commission of the Santa Casa da Misericórdia. He wrote a report that was presented to the former Agricultural Society of Funchal, and was published in 1865. This report, despite having some deficiencies, contains several curious pieces of information about the agricultural state of Madeira at the time it was published.\n\nEduardo Grande passed away in Lisbon around 1881.",
+    "categories": [
+        "history",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Portalegre": [
+            "Birthplace"
+        ],
+        "Funchal": [
+            "Location where he was attached to the Civil Government"
+        ]
+    },
+    "people": {
+        "Eduardo Grande": [
+            "Agronomist attached to the Civil Government of Funchal, general secretary of the same Civil Government, member of the administrative commission of the Santa Casa da Misericórdia"
+        ]
+    },
+    "years": {
+        "1865": [
+            "Publication of the report on the agricultural state of Madeira"
+        ]
+    }
+}

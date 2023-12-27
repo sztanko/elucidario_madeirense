@@ -1,0 +1,44 @@
+{
+    "id": 2255,
+    "lang": "de",
+    "is_original": false,
+    "title": "Melo (Florencio José Correia de)",
+    "fl": "M",
+    "original_title": "Melo (Florencio José Correia de)",
+    "body": "Am 12. Oktober 1814 wurde er zum Gouverneur und Generalkapitän dieses Archipels ernannt. Er kam am 16. April 1815 in Funchal an und trat sein Amt am 22. April an. Er kam wenige Monate nach dem Abzug der englischen Truppen von dieser Insel nach Madeira, die während der langen Zeit von 7 Jahren für große Indisziplin bei den Garnisonstruppen und eine schwere Unordnung und Störung aller öffentlichen Dienste gesorgt hatten. Correia de Melo gelang es, diese Missbräuche soweit wie möglich zu korrigieren, und leistete ausgezeichnete Dienste in der öffentlichen Verwaltung des Archipels. Während seiner Amtszeit kamen Kaiser Napoleon am 23. August 1815 auf dem Weg in seine Verbannung nach St. Helena und Prinzessin Leopoldina am 11. September desselben Jahres, die sich auf dem Weg nach Brasilien befand, um den Kronprinzen D. Pedro zu heiraten und der Florencio de Melo einen glanzvollen Empfang bereitete (siehe Napoleon auf Madeira und Prinzessin Leopoldina), über Madeira. Florencio José Correia de Melo übergab das Amt des Gouverneurs von Madeira persönlich an seinen Nachfolger und verließ diese Insel in der zweiten Hälfte des Monats Mai 1819.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort auf Madeira"
+        ],
+        "Santa Helena": [
+            "Ort wohin Napoleon verbannt wurde"
+        ],
+        "Brasilien": [
+            "Land wohin Prinzessin Leopoldina reiste"
+        ]
+    },
+    "people": {
+        "Napoleon": [
+            "Kaiser"
+        ],
+        "Prinzessin Leopoldina": [
+            "Braut des Kronprinzen D. Pedro"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Ernennung von Florencio José Correia de Melo zum Gouverneur und Generalkapitän von Madeira"
+        ],
+        "1815": [
+            "Ankunft von Florencio José Correia de Melo in Funchal und Amtsantritt"
+        ],
+        "1819": [
+            "Abreise von Florencio José Correia de Melo von Madeira"
+        ]
+    }
+}

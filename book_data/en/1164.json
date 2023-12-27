@@ -1,0 +1,36 @@
+{
+    "id": 1164,
+    "lang": "en",
+    "is_original": false,
+    "title": "Direito (O)",
+    "fl": "D",
+    "original_title": "Direito (O)",
+    "body": "The first issue was published on October 21, 1857, and the last, which was the 93rd, on August 7, 1859. Its editor was Pedro Maria Gonçalves de Freitas.\n\nAnother newspaper with the same title was published with several interruptions for several decades, its founder and main editor being the Madeiran writer João Augusto de Ornelas. The 1st issue was released on November 2, 1859.\n\nAnother series of the same newspaper, which we believe to be the fourth, was published from April 20, 1902 (issue 2511) to January 11, 1911 (issue 5060).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Pedro Maria Gonçalves de Freitas": [
+            "Newspaper editor"
+        ],
+        "João Augusto de Ornelas": [
+            "Founder and main editor of the newspaper"
+        ]
+    },
+    "years": {
+        "1857": [
+            "First issue of the newspaper"
+        ],
+        "1859": [
+            "Last issue of the newspaper"
+        ],
+        "1902": [
+            "Start of another series of the newspaper"
+        ],
+        "1911": [
+            "End of another series of the newspaper"
+        ]
+    }
+}

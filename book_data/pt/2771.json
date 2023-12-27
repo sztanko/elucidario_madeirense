@@ -1,0 +1,39 @@
+{
+    "id": 2771,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pestana Junior (Dr. Manuel Gregório)",
+    "fl": "P",
+    "original_title": "Pestana Junior (Dr. Manuel Gregório)",
+    "body": "Nasceu na ilha do Porto Santo a 16 de Agosto de 1886 e é filho de Manuel Gregorio Pestana e de D. Carolina dos Ramos Pestana. É bacharel formado em direito pela Universidade de Coimbra e exerce a advocacia nas comarcas desta ilha. Tem exercido entre nós varias comissões de serviço público. Representou a Madeira nas primeiras constituintes que funcionaram de 1911 a 1915 e na sessão legislativa de 1915 a 1917. É vasta a sua colaboração em diversos jornais e publicou os folhetos *O Problema Sacarino* e *Reconhecimento do Arquipelago da Madeira* (1921). Foi ministro das Finanças e em 1928 publicou o interessante e erudito estudo historico intitulado D. Cristobal Colom ou Symam Palha.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Manuel Gregorio Pestana": [
+            "Pai de Pestana Junior"
+        ],
+        "D. Carolina dos Ramos Pestana": [
+            "Mãe de Pestana Junior"
+        ]
+    },
+    "years": {
+        "1886": [
+            "Nascimento de Pestana Junior"
+        ],
+        "1911": [
+            "Participação nas primeiras constituintes"
+        ],
+        "1915": [
+            "Participação na sessão legislativa"
+        ],
+        "1921": [
+            "Publicação dos folhetos *O Problema Sacarino* e *Reconhecimento do Arquipelago da Madeira*"
+        ],
+        "1928": [
+            "Publicação do estudo historico intitulado D. Cristobal Colom ou Symam Palha"
+        ]
+    }
+}

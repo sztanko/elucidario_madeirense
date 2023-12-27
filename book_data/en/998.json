@@ -1,0 +1,26 @@
+{
+    "id": 998,
+    "lang": "en",
+    "is_original": false,
+    "title": "Convent of Nossa Senhora da Porciuncula",
+    "fl": "C",
+    "original_title": "Convento de Nossa Senhora da Porciuncula",
+    "body": "This convent of Franciscan friars was located in the parish of Ribeira Brava, a short distance from the parish church. It was built by the Franciscan friars in a year that we cannot determine. Just over a decade ago, some ruins of the convent house could still be seen, and the facade and part of the church body were standing, which was not of very small dimensions. The portico bore the date 1730, which we do not know if it represents the year of the convent's foundation or the construction of the church, which seems more likely to us.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Parish where the convent was located"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1730": [
+            "Date inscribed on the portico"
+        ]
+    }
+}

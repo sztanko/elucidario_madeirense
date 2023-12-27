@@ -1,0 +1,23 @@
+{
+    "id": 500,
+    "lang": "en",
+    "is_original": false,
+    "title": "Boa Nova (A)",
+    "fl": "B",
+    "original_title": "Boa Nova (A)",
+    "body": "The first issue of this newspaper was released on February 2, 1912, and the 171st, which was the last, on July 10 of the same year.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1912": [
+            "Release of the first issue of the newspaper"
+        ],
+        "10 de Julho": [
+            "Release of the last issue of the newspaper"
+        ]
+    }
+}

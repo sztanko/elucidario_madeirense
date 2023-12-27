@@ -1,0 +1,23 @@
+{
+    "id": 2764,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gewicht",
+    "fl": "G",
+    "original_title": "Peso",
+    "body": "Maß, das zur Bestimmung des Gewichts von Zwiebeln dient. Das Gewicht entspricht 52 Kilogramm in Funchal und 50 Kilogramm in Caniço.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Entspricht 52 Kilogramm"
+        ],
+        "Caniço": [
+            "Entspricht 50 Kilogramm"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

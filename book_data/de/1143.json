@@ -1,0 +1,23 @@
+{
+    "id": 1143,
+    "lang": "de",
+    "is_original": false,
+    "title": "Diário do Commercio",
+    "fl": "D",
+    "original_title": "Diário do Commercio",
+    "body": "Die erste Ausgabe erschien am 1. Oktober 1891 und die letzte am 8. September 1896. Insgesamt erschienen 8 Ausgaben.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1891": [
+            "Beginn der Veröffentlichung des Diário do Commercio"
+        ],
+        "1896": [
+            "Ende der Veröffentlichung des Diário do Commercio"
+        ]
+    }
+}

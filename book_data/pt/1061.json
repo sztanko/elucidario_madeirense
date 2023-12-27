@@ -1,0 +1,30 @@
+{
+    "id": 1061,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Couto",
+    "fl": "C",
+    "original_title": "Couto",
+    "body": "Este apelido de familia procede provavelmente de Joane Anes de Couto Cardoso, que teve terras de sesmaria no Paul e Jardim do Mar, e fundou nesta ultima localidade a capela de Santo Amaro.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Paul",
+        "Jardim do Mar"
+    ],
+    "locations": {
+        "Paul": [
+            "Localidade onde Joane Anes de Couto Cardoso teve terras de sesmaria."
+        ],
+        "Jardim do Mar": [
+            "Localidade onde Joane Anes de Couto Cardoso teve terras de sesmaria e fundou a capela de Santo Amaro."
+        ]
+    },
+    "people": {
+        "Joane Anes de Couto Cardoso": [
+            "Pessoa que teve terras de sesmaria e fundou a capela de Santo Amaro."
+        ]
+    },
+    "years": {}
+}

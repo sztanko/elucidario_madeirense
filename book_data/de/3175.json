@@ -1,0 +1,30 @@
+{
+    "id": 3175,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santana (Município de)",
+    "fl": "S",
+    "original_title": "Santana (Município de)",
+    "body": "Die Gemeinde Santana hat ihren Sitz in der gleichnamigen Gemeinde und wurde 1835 gegründet. Die Gemeinden Câmara de Lobos, Santa Cruz, Porto do Moniz und Santana wurden durch Dekret vom 10. Dezember 1867 aufgelöst, aber dieses Gesetz wurde nie vollständig umgesetzt, da diese Gemeinden kurz darauf wiederhergestellt wurden. Die Gemeinde Santana bestand seit ihrer Gründung aus den Gemeinden Arco de São Jorge, São Jorge, Santana, Faial, São Roque und Porto da Cruz. Letztere wurde jedoch durch Dekret vom 19. Oktober 1852 ausgegliedert und kam zur Gemeinde Machico.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santana",
+        "Arco de São Jorge",
+        "São Jorge",
+        "Faial",
+        "São Roque"
+    ],
+    "locations": {
+        "Santana": [
+            "Sitz der Gemeinde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1835": [
+            "Gründung der Gemeinde"
+        ]
+    }
+}

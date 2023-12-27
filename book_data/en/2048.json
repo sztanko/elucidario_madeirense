@@ -1,0 +1,38 @@
+{
+    "id": 2048,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lopes Rocha (Dr. Vitúrio)",
+    "fl": "L",
+    "original_title": "Lopes Rocha (Dr. Vitúrio)",
+    "body": "He was born in this city on September 5, 1752, the son of Antonio Lopes Rocha and the brother of the dean Dr. João Francisco Lopes Rocha. He attended the Faculty of Mathematics at the University of Coimbra and obtained his doctorate, receiving the capelo on December 24, 1777. He competed for a teaching position and taught there for many years. After retiring and becoming a member of the Royal Academy of Sciences, he applied for the position of prefect of the Public Schools of Madeira, a position that we do not know if he ever held. We were unable to obtain any other information about this Madeiran.",
+    "categories": [
+        "history",
+        "education"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Where he attended the University"
+        ]
+    },
+    "people": {
+        "Dr. Vitúrio Lopes Rocha": [
+            "Born in this city on September 5, 1752"
+        ],
+        "Antonio Lopes Rocha": [
+            "Father of Dr. Vitúrio Lopes Rocha"
+        ],
+        "Dr. João Francisco Lopes Rocha": [
+            "Brother of Dr. Vitúrio Lopes Rocha"
+        ]
+    },
+    "years": {
+        "1752": [
+            "Birth of Dr. Vitúrio Lopes Rocha"
+        ],
+        "1777": [
+            "Receiving of the capelo"
+        ]
+    }
+}

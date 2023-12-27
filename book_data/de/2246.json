@@ -1,0 +1,35 @@
+{
+    "id": 2246,
+    "lang": "de",
+    "is_original": false,
+    "title": "Meireles (Viscount)",
+    "fl": "M",
+    "original_title": "Meireles (Visconde de)",
+    "body": "Dieser hervorragende Schriftsteller und Journalist, der 1915 verstarb, besuchte diese Insel, deren natürliche Schönheit und mildes Klima er sehr bewunderte, mehrmals. Es war 1913, als er sich für eine längere Zeit in dieser Stadt aufhielt und die Idee des Wiederaufbaus des Hauses, in dem Christoph Kolumbus gelebt hatte, wie wir an anderer Stelle bereits erwähnt haben (Bd. 1, S. 286 ff.), mit Glanz und wertvollen Argumenten vertrat. Er befasste sich auch mit dem auf Holz gemalten Triptychon, das in der Sakristei der Pfarrkirche São Pedro existiert, und machte den Madeirensern die schöne Beschreibung bekannt, die ihm der hervorragende Schriftsteller M. Teixeira Gomes in seinem Buch \\",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Von Viscount Meireles besuchte Insel"
+        ]
+    },
+    "people": {
+        "Cristovão Colombo": [
+            "Historischer Bewohner des von Viscount Meireles verteidigten Hauses"
+        ],
+        "M. Teixeira Gomes": [
+            "Schriftsteller"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Todesjahr"
+        ],
+        "1913": [
+            "Inselbesuch"
+        ]
+    }
+}

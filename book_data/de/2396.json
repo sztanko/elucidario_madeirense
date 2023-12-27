@@ -1,0 +1,28 @@
+{
+    "id": 2396,
+    "lang": "de",
+    "is_original": false,
+    "title": "Município (Praça do)",
+    "fl": "M",
+    "original_title": "Município (Praça do)",
+    "body": "Der frühere Platz Colégio hat jetzt diesen Namen. Der Vorplatz der Kirche São João Evangelista wurde Anfang 1836 teilweise abgerissen, um den Platz Colégio zu bauen. Seine starke Erweiterung, die Isolierung des Rathauses, indem es von den angrenzenden Gebäuden befreit wurde, der Bau des prunkvollen Brunnens und andere wertvolle Verbesserungen, die dort durchgeführt wurden, datieren aus den Jahren 1943 und 1944.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rathaus": [
+            "Isoliert und von den angrenzenden Gebäuden befreit"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1836": [
+            "Abriss des Vorplatzes der Kirche São João Evangelista"
+        ],
+        "1943": [
+            "Durchführung von Verbesserungen auf dem Platz"
+        ]
+    }
+}

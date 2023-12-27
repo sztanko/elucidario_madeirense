@@ -1,0 +1,39 @@
+{
+    "id": 1949,
+    "lang": "en",
+    "is_original": false,
+    "title": "Leal",
+    "fl": "L",
+    "original_title": "Leal",
+    "body": "It is an ancient family name, mainly in Porto da Cruz. Antonio de Almada married Isabel Rodrigues Leal from this parish around the mid-16th century. In 1684, Maria de Aguiar, widow of Gonçalo de Faria Leal, established the chapel of Nossa Senhora do Socorro in Estreito de Câmara de Lobos. A member of this family, named João Nepomuceno de Freitas Leal, founded a chapel dedicated to S. João Nepomuceno in 1770 in the place of Lombo dos Leais, in the mentioned parish of Porto da Cruz.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Porto da Cruz",
+        "Estreito de Câmara de Lobos"
+    ],
+    "locations": {},
+    "people": {
+        "Antonio de Almada": [
+            "Married Isabel Rodrigues Leal"
+        ],
+        "Maria de Aguiar": [
+            "Widow of Gonçalo de Faria Leal"
+        ],
+        "João Nepomuceno de Freitas Leal": [
+            "Founded a chapel dedicated to S. João Nepomuceno in 1770"
+        ]
+    },
+    "years": {
+        "XVI": [
+            "Antonio de Almada married Isabel Rodrigues Leal"
+        ],
+        "1684": [
+            "Maria de Aguiar, widow of Gonçalo de Faria Leal, established the chapel of Nossa Senhora do Socorro"
+        ],
+        "1770": [
+            "Founded a chapel dedicated to S. João Nepomuceno"
+        ]
+    }
+}

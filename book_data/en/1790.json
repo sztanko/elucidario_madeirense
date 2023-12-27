@@ -1,0 +1,26 @@
+{
+    "id": 1790,
+    "lang": "en",
+    "is_original": false,
+    "title": "Inferno (Ribeira do)",
+    "fl": "I",
+    "original_title": "Inferno (Ribeira do)",
+    "body": "It rises in the mountains of the parish of São Vicente and separates this parish from that of Seixal, flowing into the ocean. On the banks of this stream and in its interior points, some of the most breathtaking landscapes can be found, often encountering the most horrifying and deep cliffs. The flow of this stream feeds a levada, which fertilizes the lands of the parish of São Vicente.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Seixal"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Parish where the Ribeira do Inferno rises"
+        ],
+        "Seixal": [
+            "Parish that the Ribeira do Inferno separates from São Vicente"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

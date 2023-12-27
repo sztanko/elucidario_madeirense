@@ -1,0 +1,27 @@
+{
+    "id": 1454,
+    "lang": "en",
+    "is_original": false,
+    "title": "Reduto de S. Jorge",
+    "fl": "R",
+    "original_title": "Reduto de S. Jorge",
+    "body": "Located in the parish of S. Jorge. In 1785, its captain was Francisco Manuel Jardim Telo de Meneses.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [
+        "S. Jorge"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco Manuel Jardim Telo de Meneses": [
+            "Captain"
+        ]
+    },
+    "years": {
+        "1785": [
+            "Francisco Manuel Jardim Telo de Meneses was the captain"
+        ]
+    }
+}

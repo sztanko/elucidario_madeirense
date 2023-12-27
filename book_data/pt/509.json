@@ -1,0 +1,26 @@
+{
+    "id": 509,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Boca dos Corregos",
+    "fl": "B",
+    "original_title": "Boca dos Corregos",
+    "body": "Sítio nas proximidades do Pico Grande, de onde se avista o Curral das Freiras e o vale da Serra d'Agua. Está a cerca de 1300 metros acima do nível do mar.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pico Grande": [
+            "Localidade"
+        ],
+        "Curral das Freiras": [
+            "Localidade"
+        ],
+        "Serra d'Agua": [
+            "Vale"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

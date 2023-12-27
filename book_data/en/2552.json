@@ -1,0 +1,33 @@
+{
+    "id": 2552,
+    "lang": "en",
+    "is_original": false,
+    "title": "Obras Públicas Distritais",
+    "fl": "O",
+    "original_title": "Obras Públicas Distritais",
+    "body": "For centuries, the improvements ordered by the Government of the metropolis, such as the construction of the Cathedral See and various churches, military fortifications, some public buildings, roads, and others, did not have a central department to oversee and guide them appropriately, not only from the point of view of their administration but also with respect to the technical direction of the various works to be carried out. This service was carried out through various public departments, such as the secretariat of the superior Government of the archipelago, the local military chiefs, the treasury administration, and the municipalities, with engineers or technicians sent from Lisbon to direct the most important works. It was only in the year 1852 that a department called 'Direcção das Obras Públicas Distritais' was created in Funchal, responsible for directing and administering all these works, with the central Government granting an annual budget, always very limited and variable from year to year, despite the constant requests made from this island. This department was headed by an engineer and had the necessary staff, often being directed by officials who left their names associated with important public improvements, such as the engineers Major Tibério Blanc, Captains Júlio Augusto de Leiria and Henrique de Lima e Cunha, and others. This situation persisted until the year 1901, when administrative autonomy was granted to this district, and all the services that were under that department were transferred to the public works department of the Junta Geral, which was then abolished.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Tibério Blanc": [
+            "Engineer"
+        ],
+        "Júlio Augusto de Leiria": [
+            "Captain"
+        ],
+        "Henrique de Lima e Cunha": [
+            "Engineer"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Creation of the department 'Direcção das Obras Públicas Distritais'"
+        ],
+        "1901": [
+            "Granting of administrative autonomy to this district"
+        ]
+    }
+}

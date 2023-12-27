@@ -1,0 +1,51 @@
+{
+    "id": 429,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barreiro (Quelle von)",
+    "fl": "B",
+    "original_title": "Barreiro (Fonte do)",
+    "body": "Kleine Quelle in der Nähe des Fußes des Pico Ruivo, etwa 1870 Meter über dem Meeresspiegel. Im Sommer liefert sie sehr wenig Wasser.\n\nWir glauben nicht, dass es auf Madeira eine andere Quelle gibt, die so hoch gelegen ist wie die von Barreiro. Ihr Wasser, das wir im Juli und August trinken konnten, ist klar und sehr frisch.\n\nBarreiro (Wald von). Erstreckt sich vom Ribeiro do Pisão bis zum Terreiro das Águas, hat Kiefernwälder und wilde Bäume sowie Weideland. Es gibt dort einige Lorbeer- und Heidewälder. Der Wald von Barreiro ist sehr wasserreich, dort entspringen der Barreiro-Kanal und einige der Quellen, die die Kanäle von Santa Luzia das Hortas, von D. Isabel usw. speisen. Die Quellen von Tornos oberhalb des Baches von Santa Luzia befinden sich in diesem Wald.\n\nDer Gesamtdurchfluss der Gewässer des Barreiro-Waldes beträgt laut den Experten, die sie vor einigen Jahren gemessen haben, 4140 Liter pro Minute, wovon 512 Liter auf den Barreiro-Kanal, 2728 Liter auf den Bach von Santa Luzia und die Kanäle, die dort entspringen, und 900 Liter auf die Quellen von Tornos entfallen, wobei dieses letzte Wasser vom Stadtrat für die Wasserversorgung der Stadt bestimmt ist. Die Verrohrung der Gewässer von Tornos bis zu einem Reservoir am Ort der Wasserfälle wurde am 22. Oktober 1910 abgeschlossen, während die übrigen Arbeiten zur Leitung dieses Wassers in die Stadt erst begonnen haben. Die Eigentümer des Barreiro-Waldes verlangten, dass die Stadtverwaltung ihnen für die Enteignung der Ländereien des Waldes und der jeweiligen Gewässer, mit Ausnahme des Barreiro-Kanals, eine Entschädigung von 38.751.700 Escudos zahlt, aber dieser Betrag wurde aufgrund eines Gerichtsurteils auf 4.216.307 Escudos reduziert, die, soweit uns bekannt ist, noch nicht vollständig bezahlt sind. Zu diesem Thema sind die Broschüren A Expropriação do Montado do Barreiro . . . von Pedro de Góis Pita und Acção de expropriação do Montado do Barreiro requerida pela Câmara do Funchal von Juvenal Henriques de Araújo von besonderem Interesse.",
+    "categories": [
+        "geography",
+        "history",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pico Ruivo": [
+            "Kleine Quelle in der Nähe des Fußes des Pico Ruivo"
+        ],
+        "Ribeiro do Pisão": [
+            "Erstreckt sich vom Ribeiro do Pisão bis zum Terreiro das Águas"
+        ],
+        "Santa Luzia das Hortas": [
+            "Einige der Quellen, die die Kanäle speisen"
+        ],
+        "D. Isabel": [
+            "Einige der Quellen, die die Kanäle speisen"
+        ],
+        "Tornos": [
+            "Die Quellen von Tornos oberhalb des Baches von Santa Luzia"
+        ]
+    },
+    "people": {
+        "Pedro de Góis Pita": [
+            "Autor der Broschüre A Expropriação do Montado do Barreiro"
+        ],
+        "Juvenal Henriques de Araújo": [
+            "Antragsteller der Acção de expropriação do Montado do Barreiro"
+        ]
+    },
+    "years": {
+        "1854": [
+            "Veröffentlichte 1854 in Lissabon das Werk mit dem Titel Noticia sobre o clima do Funchal e sua influencia do tratamento da phthisica pulmonar"
+        ],
+        "1870": [
+            "Etwa 1870 Meter über dem Meeresspiegel"
+        ],
+        "1910": [
+            "Die Verrohrung der Gewässer von Tornos wurde am 22. Oktober 1910 abgeschlossen"
+        ]
+    }
+}

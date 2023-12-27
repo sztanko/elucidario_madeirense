@@ -1,0 +1,33 @@
+{
+    "id": 3252,
+    "lang": "de",
+    "is_original": false,
+    "title": "Sankt Peter von Alcantara (Kapelle von)",
+    "fl": "S",
+    "original_title": "São Pedro de Alcântara (Capela de)",
+    "body": "An der Stelle von Lombo do Atouguia in der Gemeinde Calheta befindet sich diese Kapelle, die 1783 von João Baptista Teixeira gegründet wurde. Die Stiftungsurkunde ist vom 9. Februar 1783 und die Erlaubnis, sie einzuweihen, wurde am 13. Oktober desselben Jahres erteilt.\n\n## V. Sankt Johannes der Täufer (Kapellen von).",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Lombo do Atouguia": [
+            "Ort Lombo do Atouguia"
+        ],
+        "Calheta": [
+            "Gemeinde Calheta"
+        ]
+    },
+    "people": {
+        "João Baptista Teixeira": [
+            "Gründer der Kapelle Sankt Peter von Alcantara"
+        ]
+    },
+    "years": {
+        "1783": [
+            "Gründungsjahr der Kapelle Sankt Peter von Alcantara"
+        ]
+    }
+}

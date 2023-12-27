@@ -1,0 +1,38 @@
+{
+    "id": 224,
+    "lang": "en",
+    "is_original": false,
+    "title": "Anjos",
+    "fl": "A",
+    "original_title": "Anjos",
+    "body": "The place known as Anjos in the parish of Canhas was named after the chapel of Nossa Senhora dos Anjos, which is of quite ancient construction. According to some, it was ordered to be built by the Infanta D. Beatriz, as the guardian of her son, the grand master of the Order of Christ, to which Madeira belonged spiritually. Others believe it was ordered to be built by Martins Afonso in the year 1508. The image venerated in this chapel was greatly revered, and Friar Agostinho de Santa Maria wrote about it in volume X of his Santuário Mariano. The Anjos area, which is highly fertile and constitutes the coastal area of the Canhas parish, was once an integral part of the parish of Ponta do Sol.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Canhas",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Canhas": [
+            "Parish where the Anjos area is located"
+        ],
+        "Ponta do Sol": [
+            "Parish to which the Anjos area once belonged"
+        ]
+    },
+    "people": {
+        "D. Beatriz": [
+            "Possible commissioner of the construction of the chapel of Nossa Senhora dos Anjos"
+        ],
+        "Martins Afonso": [
+            "Possible commissioner of the construction of the chapel of Nossa Senhora dos Anjos"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Possible year of construction of the chapel of Nossa Senhora dos Anjos"
+        ]
+    }
+}

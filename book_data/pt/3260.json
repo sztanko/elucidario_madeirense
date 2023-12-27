@@ -1,0 +1,38 @@
+{
+    "id": 3260,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Tiago (Fortaleza de)",
+    "fl": "S",
+    "original_title": "São Tiago (Fortaleza de)",
+    "body": "«Esta fortaleza, diz o Dr. Álvaro Rodrigues de Azevedo nas notas ás Saudades da Terra, assenta sobre uma ponta de rocha firme, mais entrada nas águas do porto que as praias adjacentes; pelo que as vigia e protege para um e outro lado; é, além disso, o fecho da cortina de muralha que até ela se prolonga pelo Cabo do Calhau. A originária construção não tinha a primeira bataria que lá existe: o pórtico primitivo está a dentro desta, e tem no alto, em letra do tempo, a era de 1614, a testificar o quando da obra».\n\nA fortaleza de São Tiago foi reedificada em 1767, segundo se vê duma inscrição que está sobre a porta principal, no ângulo leste-sul do largo da entrada, tendo o governador e capitão-general José Correia de Sá mandado vir de Londres 50 peças de artilharia com todos os seus pertences, para defesa dela.\n\nA bataria n.° 3 de Artilharia de Montanha está aquartelada na fortaleza de São Tiago. V. Fortificações.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Tiago": [
+            "Fortaleza de São Tiago"
+        ],
+        "Cabo do Calhau": [
+            "Localização da cortina de muralha"
+        ]
+    },
+    "people": {
+        "Dr. Álvaro Rodrigues de Azevedo": [
+            "Autor das notas ás Saudades da Terra"
+        ],
+        "José Correia de Sá": [
+            "Governador e capitão-general"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Era da originária construção"
+        ],
+        "1767": [
+            "Ano da reedificação"
+        ]
+    }
+}

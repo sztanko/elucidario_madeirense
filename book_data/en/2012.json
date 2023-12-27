@@ -1,0 +1,30 @@
+{
+    "id": 2012,
+    "lang": "en",
+    "is_original": false,
+    "title": "Livramento",
+    "fl": "L",
+    "original_title": "Livramento",
+    "body": "Site in the parish of São Vicente. There is a chapel there, dedicated to Our Lady of Livramento, which gave the place its name, having been founded by Father Manuel Gomes Garcês in the year 1683.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Vicente"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "Manuel Gomes Garcês": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1683": [
+            "Year of the chapel's foundation, Nossa Senhora do Livramento"
+        ]
+    }
+}

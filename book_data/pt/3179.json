@@ -1,0 +1,31 @@
+{
+    "id": 3179,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Santana e Vasconcelos (Manuel de)",
+    "fl": "S",
+    "original_title": "Santana e Vasconcelos (Manuel de)",
+    "body": "Nasceu no Funchal em 1798 e faleceu nesta cidade a 23 de Fevereiro de 1851. Desempenhou o cargo de administrador do concelho e escreveu:\n\n*Clamor aos madeirenses* (Lisboa, 1835) e *Revista histórica do proselitismo anti-catholico na ilha Madeira pelo dr. Roberto Reid Kalley, medico escocez, desde 1838 até hoje* (Funchal, 1845).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento e falecimento"
+        ]
+    },
+    "people": {
+        "Manuel de Santana e Vasconcelos": [
+            "Administrador do concelho, Escritor"
+        ]
+    },
+    "years": {
+        "1798": [
+            "Nascimento"
+        ],
+        "1851": [
+            "Falecimento"
+        ]
+    }
+}

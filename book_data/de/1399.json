@@ -1,0 +1,39 @@
+{
+    "id": 1399,
+    "lang": "de",
+    "is_original": false,
+    "title": "Figueiroa von Albuquerque (Luiz)",
+    "fl": "F",
+    "original_title": "Figueiroa de Albuquerque (Luiz)",
+    "body": "Er wurde in dieser Stadt am 4. Februar 1828 geboren und starb in Caniço am 13. Dezember 1904. Er war der Sohn von Oberstleutnant Luiz Agostinho Figueiroa von Albuquerque und Maria Vicencia de Freitas Bettencourt. Er war ein Mann von nicht gewöhnlicher Bildung, die er vor allem während seines langen Auslandsaufenthalts und insbesondere in der französischen Hauptstadt erworben hatte. Er widmete sich insbesondere wirtschaftlichen Studien und veröffentlichte ein Buch zu diesem Thema sowie viele Artikel in Zeitungen. Er bekleidete die Ämter des Bürgermeister von Funchal, des Generalsekretärs dieses Bezirks und des von Ponta Delgada, des Präsidenten des Verwaltungsrates der Barmherzigkeit dieser Stadt und des Mitglieds des ehemaligen Bezirksrates. Er übte auch vorübergehend das Amt des Gouverneurs dieses Archipels aus. Er war Mitarbeiter der ehemaligen Zeitung O Povo und anderer Periodika. Er veröffentlichte die zwei separaten Bände Elementarer Traktat der Politischen Ökonomie mit 171 Seiten und Das Elementare Kompendium des Neuen Allgemeinen Systems von Gewichten und Maßen mit 166 Seiten.",
+    "categories": [
+        "history",
+        "economy",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ],
+        "Caniço": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Luiz Agostinho Figueiroa von Albuquerque": [
+            "Oberstleutnant"
+        ],
+        "Maria Vicencia de Freitas Bettencourt": [
+            "Mutter von Luiz Figueiroa von Albuquerque"
+        ]
+    },
+    "years": {
+        "1904": [
+            "Tod von Luiz Figueiroa von Albuquerque"
+        ],
+        "1915": [
+            "Veröffentlichung von Das Elementare Kompendium des Neuen Allgemeinen Systems von Gewichten und Maßen"
+        ]
+    }
+}

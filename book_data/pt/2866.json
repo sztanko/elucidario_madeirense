@@ -1,0 +1,45 @@
+{
+    "id": 2866,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Porto do Moniz (Muncipio do)",
+    "fl": "P",
+    "original_title": "Porto do Moniz (Muncipio do)",
+    "body": "Como já fizemos notar relativamente ao Município de Camara de Lôbos, nunca o Porto de Moniz foi vila, mas apenas a sede do concelho que ali se instalou no ano de 1835. Pretenderam por vezes os povos da localidade e freguesias limitrofes que o lugar do Porto Moniz fosse elevado á categoria de vila, mas essas diligencias não passaram de tentativas infrutiferas.\n\nO Porto do Moniz, como tôdas as localidades do norte da ilha, pertencia á vila e Município de Machico. Ouando em 1743 se criou o Município e vila de São Vicente, começou então a fazer parte integrante do novo Município. Em 1817, o engenheiro e inspector dos serviços de obras públicas Paulo Dias d'Almeida fazia sentir ao governo da Metropole a necessidade da criação do Município do Porto do Moniz, e o governador e capitão-general D. Manuel de Portugal e Castro informava favoravelmente, em oficio dirigido ás estações superiores a 10 de Abril de 1825, a petição que os povos haviam feito naquele sentido, que era apenas a satisfação de antigas aspiraçoes, já em outras ocasiões manifestadas. O novo Município ficaria composto, segundo o pedido então feito, das freguesias do Seixal, Ribeira da Janela, Porto Moniz e Ponta do Pargo, tendo como limites a ribeira de João Delgado, do mar até ao alto do Paul da Serra, na freguesia do Seixal, e a ribeira dos Marinheiros até a serra da Fonte do Bispo, na freguesia da Ponta do Pargo.\n\nSomente com a implantação do governo constitucional e com a divisão concelhia a que se procedeu neste distrito é que se criou o concelho do Porto Moniz, com sede na freguesia do mesmo nome e que ficou então composto desta e das paroquias do Seixal, Ribeira da Janela, Achadas da Cruz e Ponta do Pargo.\n\nEste concelho foi criado no ano de 1835, realizando-se a sua instalação no dia 31 de Outubro do mesmo ano, sendo seu primeiro administrador o capitão Tomás João Perestrelo da Camara e primeiro presidente da Comissão Administrativa da Camara Municipal o capitão de marinha Teodoro Moniz de Bettencourt.\n\nTem sido extinto e varias vezes restaurado o concelho do Porto Moniz. Foi suprimido em 1849 e restaurado poucos anos depois. Pelo decreto de 10 de Dezembro de 1867 foram extintos os concelhos de Camara de Lôbos, Santana e Porto Moniz, sendo restabelecidos passado pouco tempo. O decreto de 18 de Novembro de 1895 de novo suprimiu este concelho, que foi restaurado pelo decreto de 13 de Janeiro de 1898, realizando-se a sua reinstalação a 13 de Fevereiro do mesmo ano.\n\nA freguesia da Ponta do Pargo foi desmembrada do concelho do Porto Moniz e anexada ao da Calheta por decreto de 20 de Junho de 1871.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Seixal",
+        "Ribeira da Janela",
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Machico": [
+            "Vila e Município de Machico"
+        ]
+    },
+    "people": {
+        "Paulo Dias d'Almeida": [
+            "Engenheiro e inspector dos serviços de obras públicas"
+        ],
+        "D. Manuel de Portugal e Castro": [
+            "Governador e capitão-general"
+        ]
+    },
+    "years": {
+        "1743": [
+            "Criação do Município e vila de São Vicente"
+        ],
+        "1817": [
+            "Necessidade da criação do Município do Porto do Moniz"
+        ],
+        "1825": [
+            "Petição que os povos haviam feito naquele sentido"
+        ],
+        "1835": [
+            "Criação do concelho do Porto Moniz"
+        ]
+    }
+}

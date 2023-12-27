@@ -1,0 +1,33 @@
+{
+    "id": 1366,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fernando (Infante D.)",
+    "fl": "F",
+    "original_title": "Fernando (Infante D.)",
+    "body": "Era filho do rei D. Duarte e herdou de seu tio o infante D. Henrique o senhorio do arquipélago da Madeira, em 1460. Casou com sua prima D. Beatriz, filha do infante D. João.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Duarte": [
+            "Rei de Portugal."
+        ],
+        "Infante D. Henrique": [
+            "Navegador português, conhecido como o Infante de Sagres."
+        ],
+        "D. Beatriz": [
+            "Prima e esposa de Infante D. Fernando."
+        ],
+        "Infante D. João": [
+            "Infante de Portugal."
+        ]
+    },
+    "years": {
+        "1460": [
+            "Herdou o senhorio do arquipélago da Madeira."
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": 148,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almada",
+    "fl": "A",
+    "original_title": "Almada",
+    "body": "O primeiro que deste apelido usou e que veio á Madeira foi Pedro Alvares de Almada, oriundo\nde Guimarãis, filho de Alvaro de Almada e sobrinho do celebre conde de Avranches, D. Alvaro Vaz de\nAlmada. Pedro de Almada residiu na vila de Santa Cruz e foi ali um dos principais oficiais da Câmara. Diz o\nilustre anotador das Saudades da Terra que fundou em Santa Cruz a igreja de Nossa Senhora da Graça, da\nqual não temos noticia alguma.\n\nDizem alguns nobiliarios que um dos primeiros que usou o apelido de Almada foi Antonio de Almada, que\npor meados do século XVI, casou com Isabel Rodrigues Leal, da freguesia do Porto da Cruz.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Vila onde Pedro Alvares de Almada residiu"
+        ]
+    },
+    "people": {
+        "Pedro Alvares de Almada": [
+            "Primeiro a usar o apelido Almada na Madeira"
+        ],
+        "Alvaro de Almada": [
+            "Pai de Pedro Alvares de Almada"
+        ],
+        "D. Alvaro Vaz de Almada": [
+            "Tio de Pedro Alvares de Almada"
+        ],
+        "Antonio de Almada": [
+            "Um dos primeiros a usar o apelido Almada"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Época em que Antonio de Almada casou com Isabel Rodrigues Leal"
+        ]
+    }
+}

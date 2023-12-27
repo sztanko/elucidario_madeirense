@@ -1,0 +1,37 @@
+{
+    "id": 2840,
+    "lang": "en",
+    "is_original": false,
+    "title": "Ponta Delgada (Point and Ports of)",
+    "fl": "P",
+    "original_title": "Ponta Delgada (Ponta e Portos de)",
+    "body": "In this parish, there is a protrusion of the coastline called Ponta Delgada. In its closest vicinity, there is a small port and a limited beach, which serve this parish and those of Boaventura and Arco de São Jorge. In 1908, a short ramp was built there, providing access to a small beach to facilitate the transport of goods. There is also a small, not very extensive beach at a place called Passo da Areia.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ponta Delgada",
+        "Boaventura",
+        "Arco de São Jorge"
+    ],
+    "locations": {
+        "Ponta Delgada": [
+            "Coastal protrusion"
+        ],
+        "Boaventura": [
+            "Nearby parish"
+        ],
+        "Arco de São Jorge": [
+            "Nearby parish"
+        ],
+        "Passo da Areia": [
+            "Location with a not very extensive beach"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1908": [
+            "Construction of the short ramp to facilitate the transport of goods"
+        ]
+    }
+}

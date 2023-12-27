@@ -1,0 +1,25 @@
+{
+    "id": 270,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Arrebentão (Pico e sítio do)",
+    "fl": "A",
+    "original_title": "Arrebentão (Pico e sítio do)",
+    "body": "Encontra-se esta eminência na freguesia do Monte e atinge a altura de 1171 metros. Nas suas imediações fica o sítio do mesmo nome, que é atravessado pela estrada que conduz ás casas de abrigo do Poiso.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Freguesia onde se encontra o Pico do Arrebentão"
+        ],
+        "Poiso": [
+            "Local das casas de abrigo"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

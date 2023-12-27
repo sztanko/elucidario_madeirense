@@ -1,0 +1,34 @@
+{
+    "id": 2406,
+    "lang": "de",
+    "is_original": false,
+    "title": "Archäologisches Museum",
+    "fl": "A",
+    "original_title": "Museu Arqueológico",
+    "body": "Am 26. Januar 1915 beschloss der Stadtrat von Funchal, die Überführung mehrerer ihm gehörender Objekte in das Kloster Santa Clara zu genehmigen, um den Grundstein für die Gründung eines archäologischen Museums zu legen, das später eine große Entwicklung erfahren könnte. Nach dieser Entscheidung wurden mehrere schätzenswerte Objekte, die in den Lagerhäusern der Stadtverwaltung und an anderen Orten vergessen oder missachtet worden waren, dorthin überführt. Zu den in das Kloster überführten Objekten gehören der Schild und die Krone aus Marmor des Franziskanerklosters, das Rad des Klosters der Barmherzigen Brüder, eine Inschrift von der Brücke S. João, mehrere Gemälde aus dem Bischofspalast, die Ausstattung der Kapelle desselben Palastes, der Marmorschild des alten Gefängnisses, der Marmorschild und die Krone des Triumphbogens Varadonros, die lateinische Basaltinschrift desselben Bogens, verschiedene Gegenstände des ehemaligen Lazarus-Hospitals, die alten Maße der Eichbehörde, das Porträt des Kanonikers Viveiros, Gründer des Inkarnationsklosters, usw.\n\nDer erbitterte Kampf, den der Verwaltungsausschuss des Heiligen Hauses der Barmherzigkeit unter dem Vorsitz von Francisco Gomes de Gouveia gegen die Einrichtung des archäologischen Museums im Gebäude des ehemaligen Klosters führte, und der mangelnde Nachdruck, mit dem der Stadtrat seine Ansprüche auf den Besitz bestimmter Abteilungen desselben Gebäudes geltend machte, führten dazu, dass diese Einrichtung gleich zu Beginn ins Stocken geriet und somit nicht die Dienste leisten konnte, die man von ihr erwarten durfte. Im Januar 1916 beschloss der Stadtrat noch, die Regierung um die Gewährung aller dem Kloster Santa Clara gehörenden Gegenstände von historischem Wert zu bitten, damit sie im archäologischen Museum aufbewahrt werden können, aber dieser Beweis des Interesses an einer Einrichtung, die bei angemessener Ausstattung durchaus geeignet gewesen wäre, den Wissensdurst gebildeter Menschen zu stillen, war der letzte, von dem wir Kenntnis haben. Danach wurde nicht mehr davon gesprochen, zahlreiche wertvolle Gegenstände, die sich in völliger Vernachlässigung befinden und verderben oder verloren gehen können, ordnungsgemäß unterzubringen. (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Francisco Gomes de Gouveia": [
+            "Vorsitzender des Verwaltungsausschusses des Heiligen Hauses der Barmherzigkeit"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Genehmigung des Stadtrats von Funchal zur Gründung des archäologischen Museums"
+        ],
+        "1916": [
+            "Ersuchen des Stadtrats an die Regierung um Gewährung von Gegenständen aus dem Kloster Santa Clara für das Museum"
+        ],
+        "1921": [
+            "Verweis auf den Zustand des archäologischen Museums"
+        ]
+    }
+}

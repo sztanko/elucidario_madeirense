@@ -1,0 +1,30 @@
+{
+    "id": 1309,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Faial",
+    "fl": "F",
+    "original_title": "Faial",
+    "body": "Sítio da freguesia de Santa Maria Maior, onde se encontra a capela de Nossa Senhora da Natividade, conhecida pelo nome de capela do Faial, fundada por Zenobio Acciaioli em 1582 e que foi sede dum antigo morgadio.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Faial": [
+            "Sítio da freguesia de Santa Maria Maior"
+        ]
+    },
+    "people": {
+        "Zenobio Acciaioli": [
+            "Fundador da capela de Nossa Senhora da Natividade"
+        ]
+    },
+    "years": {
+        "1582": [
+            "Fundação da capela de Nossa Senhora da Natividade"
+        ]
+    }
+}

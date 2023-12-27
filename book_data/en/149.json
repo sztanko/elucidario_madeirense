@@ -1,0 +1,36 @@
+{
+    "id": 149,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almada (Antonio José de Sousa)",
+    "fl": "A",
+    "original_title": "Almada (Antonio José de Sousa)",
+    "body": "We have knowledge of the existence of this Madeiran from what is said about him in the Diccionario Popular by Pinheiro Chagas and the dictionary Portugal. He was born on this island in 1824 and died in Benfica in 1874. He cultivated the muses, but seems not to have been a poet of great inspiration. \n\nAfter marrying a very wealthy lady in Lisbon, he squandered a substantial fortune in a short time. He then engaged in various industrial enterprises, in which he was not very favored by fortune. During the Hundred Days government of Marshal Saldanha, Sousa Almada was the civil governor of Castelo Branco. He was a man of the finest manners, spoke several languages with ease, and possessed an uncommon strength and courage, all of which he knew how to use to his advantage in various moments of his eventful life.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Castelo Branco"
+    ],
+    "locations": {
+        "Benfica": [
+            "Place where he died"
+        ]
+    },
+    "people": {
+        "Pinheiro Chagas": [
+            "Author of the Diccionario Popular"
+        ],
+        "Saldanha": [
+            "Marshal of the Hundred Days government"
+        ]
+    },
+    "years": {
+        "1824": [
+            "Year of birth"
+        ],
+        "1874": [
+            "Year of death"
+        ]
+    }
+}

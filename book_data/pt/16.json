@@ -1,0 +1,28 @@
+{
+    "id": 16,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abreu (Lopo de)",
+    "fl": "A",
+    "original_title": "Abreu (Lopo de)",
+    "body": "Este madeirense passou à Índia em 1504, na armada comandada por Lopo Soares, e ali praticou feitos de valor.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Índia": [
+            "Local para onde Lopo de Abreu passou em 1504"
+        ]
+    },
+    "people": {
+        "Lopo de Abreu": [
+            "Madeirense que passou à Índia em 1504 e praticou feitos de valor"
+        ]
+    },
+    "years": {
+        "1504": [
+            "Passagem de Lopo de Abreu à Índia"
+        ]
+    }
+}

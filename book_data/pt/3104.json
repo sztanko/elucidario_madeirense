@@ -1,0 +1,36 @@
+{
+    "id": 3104,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rocha de Gouveia (Gabriel)",
+    "fl": "R",
+    "original_title": "Rocha de Gouveia (Gabriel)",
+    "body": "Nasceu no Arco da Calheta a 30 de Setembro de 1887, sendo filho de Manuel Rocha de Gouveia e de D. Maria Augusta Soares Rocha de Gouveia. Frequentava em Lisboa o curso de agronomia, quando foi chamado a alistar-se no exército, após a declaração de guerra da Alemanha a Portugal. Tendo sido despachado alferes, partiu para França, onde encontrou a morte no dia 13 de Outubro de 1917, achando-se de serviço nas trincheiras. Diz-se que conversava descuidadamente com outros oficiais, quando foi atingido por vários estilhaços de granada, que o mataram instantaneamente.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "Manuel Rocha de Gouveia": [
+            "Pai"
+        ],
+        "D. Maria Augusta Soares Rocha de Gouveia": [
+            "Mãe"
+        ]
+    },
+    "years": {
+        "1887": [
+            "Nasceu no Arco da Calheta"
+        ],
+        "1917": [
+            "Morreu na França durante a Primeira Guerra Mundial"
+        ]
+    }
+}

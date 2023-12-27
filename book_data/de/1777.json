@@ -1,0 +1,45 @@
+{
+    "id": 1777,
+    "lang": "de",
+    "is_original": false,
+    "title": "Weihrauch",
+    "fl": "W",
+    "original_title": "Incenso",
+    "body": "V. Weihrauchbaum.\n\nMagnetische Neigung.\nSie wurde von A. P. de Azevedo und Soulier de Sauve am 25. April 1839 gemessen und vom selben A. P. de Azevedo und den Offizieren der Rattermaker am 20. Dezember 1846. Die ersten Beobachtungen, die auf dem Akademischen Platz mit Gambey's Kompass gemacht wurden, zeigten eine Neigung von 59° 30'; die zweiten, die im Hof des Kollegs mit dem \"Fox's Dipping\" und dem \"Intensity Instrument\" gemacht wurden, ergaben eine Neigung von 60° 40'.\n\nAm 4. Februar 1872 und am 17. Juli 1873 fanden die Offiziere der Challenger jeweils eine Neigung von 56° 14' 1 N. und 55° 12 5 N. In jüngerer Zeit fand der hervorragende azorische Meteorologe Oberst Francisco Afonso Chaves die folgenden magnetischen Neigungen: 54° 32' 5 N. am 22. Juni 1903 und 54° 22'7 N. am 4. Juni 1906. Alle diese Beobachtungen wurden auf dem Exerzierplatz des Kollegquartiers durchgeführt, wobei Oberst Chaves das Abbadie-Brunner-Kompass zur Bestimmung der Neigung verwendete.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "A. P. de Azevedo": [
+            "Messung der magnetischen Neigung"
+        ],
+        "Soulier de Sauve": [
+            "Messung der magnetischen Neigung"
+        ],
+        "Francisco Afonso Chaves": [
+            "Messung der magnetischen Neigung"
+        ]
+    },
+    "years": {
+        "1839": [
+            "Messung der magnetischen Neigung"
+        ],
+        "1846": [
+            "Messung der magnetischen Neigung"
+        ],
+        "1872": [
+            "Messung der magnetischen Neigung"
+        ],
+        "1873": [
+            "Messung der magnetischen Neigung"
+        ],
+        "1903": [
+            "Messung der magnetischen Neigung"
+        ],
+        "1906": [
+            "Messung der magnetischen Neigung"
+        ]
+    }
+}

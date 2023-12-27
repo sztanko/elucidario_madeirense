@@ -1,0 +1,46 @@
+{
+    "id": 817,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castelo Branco (D. Joana de)",
+    "fl": "C",
+    "original_title": "Castelo Branco (D. Joana de)",
+    "body": "She is the most distinguished Madeiran poetess. She was born in the parish of Faial on June 23, 1856, and is the daughter of Caetano Velosa de Ornelas Castelo Branco and D. Maria Rosa de Freitas. She has been residing in Lisbon for many years. She has contributed prose and poetry to various newspapers. She published the volumes 'As Minhas Flores', Lisbon, 1905, with 94 pages, and 'Fluctuaçôes', Lisbon, 1910, with 88 pages. She passed away in Lisbon in the year 1920.",
+    "categories": [
+        "culture",
+        "history"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Faial": [
+            "Parish"
+        ],
+        "Lisbon": [
+            "City"
+        ]
+    },
+    "people": {
+        "Caetano Velosa de Ornelas Castelo Branco": [
+            "Father"
+        ],
+        "D. Maria Rosa de Freitas": [
+            "Mother"
+        ]
+    },
+    "years": {
+        "1856": [
+            "Year of birth"
+        ],
+        "1905": [
+            "Publication of 'As Minhas Flores'"
+        ],
+        "1910": [
+            "Publication of 'Fluctuaçôes'"
+        ],
+        "1920": [
+            "Year of death"
+        ]
+    }
+}

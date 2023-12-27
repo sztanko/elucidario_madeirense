@@ -1,0 +1,27 @@
+{
+    "id": 2807,
+    "lang": "en",
+    "is_original": false,
+    "title": "Piorno",
+    "fl": "P",
+    "original_title": "Piorno",
+    "body": "There are two species known by this name in Madeira: Genista maderensis and G. virgata. The first is a shrub or small tree from 1.50 to 5 meters tall, with 3-foliate leaves and small, silky-pubescent leaflets, rarely subglabrous on the upper surface; the second is a shrub that can reach 2.50 meters in height, with very small, leafless, silky-pubescent and whitish leaves. These two legumes, both belonging to the subfamily of Papilionaceae, have yellow flowers arranged in clusters. G. maderensis appears in some ravines in the interior and between S. Vicente and S. Jorge; G. virgata is common in the surroundings of Funchal, in the Ribeira de Santa Luzia, in the Jardiní da Serras, etc. The wood of this species, used exclusively for inlays, is heavy, hard, and compact, initially whitish-yellow, then reddish-brown; that of the other, perfectly unknown to cabinetmakers, is white or whitish-yellow. Genista maderensis, sometimes used for the nutrition of domestic animals, is, contrary to what Masferrer y Arquimbau supposed, a perfectly distinct species from the 'gacia' of the Canary Islands (Cytisus stenopetalus).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "S. Jorge"
+    ],
+    "locations": {
+        "Funchal": [
+            "Surroundings where G. virgata is common"
+        ]
+    },
+    "people": {
+        "Masferrer y Arquimbau": [
+            "Supposed that Genista maderensis was the same as the 'gacia' of the Canary Islands"
+        ]
+    },
+    "years": {}
+}

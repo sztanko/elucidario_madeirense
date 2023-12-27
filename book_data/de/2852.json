@@ -1,0 +1,37 @@
+{
+    "id": 2852,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ponta do Tristão",
+    "fl": "P",
+    "original_title": "Ponta do Tristão",
+    "body": "Sie liegt in der Gemeinde Porto do Moniz und in kurzer Entfernung von Santa Maria Madalena. Auf beiden Seiten gibt es einige Kiesstrände, die sehr schlechte Anlandestellen sind.\n\nDie Ponta do Tristão bildete eine der Grenzen zwischen den beiden Kapitänschaften Funchal und Machico, wie wir bereits an anderer Stelle erwähnten (1-244).\n\nSowohl die Landzunge als auch der nahe gelegene Fluss Tristão, der die Gemeinde Porto Moniz von den Achadas trennt, wurden erst vor kurzem vom Naturforscher J. Gonçalves da Costa unter botanischen Gesichtspunkten untersucht. Dabei wurden dort die Beta vulgaris var. maritima, die Ononis Costae, die Carex pendula, die Carex elata, die Allium vineale, die Polypodium drepanum usw. gefunden.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Porto do Moniz",
+        "Santa Maria Madalena",
+        "Achadas"
+    ],
+    "locations": {
+        "Ponta do Tristão": [
+            "Gemeinde Porto do Moniz"
+        ],
+        "Santa Maria Madalena": [
+            "In kurzer Entfernung"
+        ],
+        "Porto Moniz": [
+            "Gemeinde Porto do Moniz"
+        ],
+        "Achadas": [
+            "Gemeinde Achadas"
+        ]
+    },
+    "people": {
+        "J. Gonçalves da Costa": [
+            "Naturforscher"
+        ]
+    },
+    "years": {}
+}

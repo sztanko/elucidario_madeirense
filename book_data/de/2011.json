@@ -1,0 +1,36 @@
+{
+    "id": 2011,
+    "lang": "de",
+    "is_original": false,
+    "title": "Befreiung",
+    "fl": "B",
+    "original_title": "Livramento",
+    "body": "Ort der Gemeinde Ponta do Sol, in dem sich eine Kapelle befindet, die Unserer Lieben Frau vom Livramento gewidmet ist und 1656 von Diogo Ferreira de Mesquita und seiner Frau D. Isabel de Meneses erbaut wurde, Sitz eines Fideikommisses, das von ihnen gegründet wurde. Sie waren Nachkommen des deutschen Edelmanns Adriano Spranger, der dort Ländereien als Lehen besaß.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Gemeinde, in der sich der Ort Livramento befindet."
+        ]
+    },
+    "people": {
+        "Diogo Ferreira de Mesquita": [
+            "Gründer der Kapelle, die Unserer Lieben Frau vom Livramento gewidmet ist."
+        ],
+        "D. Isabel de Meneses": [
+            "Ehefrau von Diogo Ferreira de Mesquita."
+        ],
+        "Adriano Spranger": [
+            "Deutscher Edelmann, von dem die Gründer des Fideikommisses abstammten."
+        ]
+    },
+    "years": {
+        "1656": [
+            "Jahr, in dem die Kapelle Unserer Lieben Frau vom Livramento erbaut wurde."
+        ]
+    }
+}

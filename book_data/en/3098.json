@@ -1,0 +1,25 @@
+{
+    "id": 3098,
+    "lang": "en",
+    "is_original": false,
+    "title": "Robins",
+    "fl": "R",
+    "original_title": "Robins",
+    "body": "An English botanist who planted trees in Madeira in 1774.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Island"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1774": [
+            "Tree planting in Madeira"
+        ]
+    }
+}

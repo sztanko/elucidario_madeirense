@@ -1,0 +1,43 @@
+{
+    "id": 2624,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pacheco (Cónego António Aires)",
+    "fl": "P",
+    "original_title": "Pacheco (Cónego António Aires)",
+    "body": "He is a canon of the Lisbon Cathedral and considered one of the most distinguished Portuguese sacred orators. He was born on September 15, 1854, in Vilarouco, in the district of Viseu. He came to Madeira in 1877, in the company of the late prelate D. Manuel Agostinho Barreto, and attended the theological course at the Seminary of this city, being ordained a priest in 1881. For several years, he was a professor and rector of the Diocesan Seminary, and in 1888, he was appointed as a canon in our Cathedral and transferred to the Patriarchal Cathedral of Lisbon a few years later.\n\nAs the editor of the newspaper *A Verdade*, which he directed for several years, he revealed himself as a brilliant and vigorous journalist, particularly standing out in his writings as a skillful polemicist. In refuting the pamphlet *The Black Shroud*, he published in 1882 a 54-page booklet entitled 'The Black Shroud in the dock'. In 1890, he had the Funchal City Council publish the funeral oration that Canon Aires Pacheco delivered at the Cathedral on the occasion of the obsequies of King D. Luís I.\n\nHe left Madeira in 1890.",
+    "categories": [
+        "religion",
+        "education"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Madeira": [
+            "Place where Canon António Aires Pacheco resided."
+        ]
+    },
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Deceased prelate in whose company Canon António Aires Pacheco came to Madeira."
+        ]
+    },
+    "years": {
+        "1854": [
+            "Year of António Aires Pacheco's birth"
+        ],
+        "1877": [
+            "Year in which António Aires Pacheco came to Madeira"
+        ],
+        "1881": [
+            "Year in which António Aires Pacheco was ordained a priest"
+        ],
+        "1888": [
+            "Year in which he was appointed as a canon in the Cathedral"
+        ],
+        "1890": [
+            "Year in which he left Madeira"
+        ]
+    }
+}

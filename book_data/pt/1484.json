@@ -1,0 +1,31 @@
+{
+    "id": 1484,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Freitas (Augusto César de). F",
+    "fl": "F",
+    "original_title": "Freitas (Augusto César de). F",
+    "body": "Foi um homem de raro talento e de notáveis aptidões literárias, a quem a adversidade feriu duramente, não permitindo que os seus dotes de espírito brilhassem e fossem apreciados como realmente o mereciam. Pouco conhecemos da sua biografia, a pesar de se tratar dum contemporâneo. Sabemos que foi professor de instrução primaria e que se dedicou ao jornalismo, revelando notáveis qualidades de escritor. No Funchal foi redactor do Noticioso e do Paiz, e em Lisboa colaborou no Parlamento, Conservador e Monitor Portuguez, a par dos primeiros jornalistas, segundo afirma uma testemunha do tempo. Foi companheiro na redacção da Revolução de Setembro, do nosso primeiro jornalista António Rodrigues de Sampaio que muito o apreciava. Morreu abandonado na enxerga dum hospital em 21 de Dezembro de 1874.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localidade onde foi redator do Noticioso e do Paiz"
+        ],
+        "Lisboa": [
+            "Localidade onde colaborou no Parlamento, Conservador e Monitor Portuguez"
+        ]
+    },
+    "people": {
+        "Augusto César de Freitas": [
+            "Foi um homem de raro talento e de notáveis aptidões literárias, dedicando-se ao jornalismo e revelando notáveis qualidades de escritor"
+        ]
+    },
+    "years": {
+        "1874": [
+            "Morte de Augusto César de Freitas"
+        ]
+    }
+}

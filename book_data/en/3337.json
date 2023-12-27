@@ -1,0 +1,38 @@
+{
+    "id": 3337,
+    "lang": "en",
+    "is_original": false,
+    "title": "Silva (Nicolau Francisco Xavier da)",
+    "fl": "S",
+    "original_title": "Silva (Nicolau Francisco Xavier da)",
+    "body": "He was born in the parish of Santa Maria Maior in this city in the late 17th century, the son of José da Silva Pimenta and Josefa Maria Teixeira, and died in Lisbon on August 17, 1754. He obtained a doctorate in the faculty of canons at the University of Coimbra in 1725 and temporarily taught at the university for several years. He settled in Lisbon, dedicating himself with brilliance to the practice of law and the cultivation of letters, leaving several unpublished works and having published the 'Puro e affectuoso sacrificio' (Lisbon, 1724) and the 'Oração de agradecimento à Academia Real', published in the Collection of the same Academy. He was an effective member of the Royal Academy of History and was entrusted by it to write the history of the inquisitions, which he did not complete and remained unpublished. He was considered one of the most erudite men of his time. He managed to gather a select library, which was bought by the monarch and formed the nucleus of the Ajuda library.",
+    "categories": [
+        "history",
+        "culture",
+        "education"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Birthplace of Nicolau Francisco Xavier da Silva"
+        ],
+        "Lisbon": [
+            "Place of death of Nicolau Francisco Xavier da Silva"
+        ]
+    },
+    "people": {
+        "Nicolau Francisco Xavier da Silva": [
+            "Doctor and writer"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Year of doctorate of Nicolau Francisco Xavier da Silva"
+        ],
+        "1754": [
+            "Year of death of Nicolau Francisco Xavier da Silva"
+        ]
+    }
+}

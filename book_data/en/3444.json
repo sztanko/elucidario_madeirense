@@ -1,0 +1,31 @@
+{
+    "id": 3444,
+    "lang": "en",
+    "is_original": false,
+    "title": "Teck (Princes of)",
+    "fl": "T",
+    "original_title": "Teck (Príncipes de)",
+    "body": "Prince Alexander of Teck and his wife, Princess Alice, passed through Funchal on January 8, 1924, aboard the English steamer Windsor Castle, bound for the Cape of Good Hope. They were given military honors. They visited Terreiro da Luta, where they had lunch, then descended to Funchal in wicker carriages and embarked shortly after noon.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Passing through location"
+        ]
+    },
+    "people": {
+        "Alexandre de Teck": [
+            "Prince"
+        ],
+        "Alice": [
+            "Princess"
+        ]
+    },
+    "years": {
+        "1924": [
+            "Visit to Funchal"
+        ]
+    }
+}

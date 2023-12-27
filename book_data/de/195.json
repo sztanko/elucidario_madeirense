@@ -1,0 +1,50 @@
+{
+    "id": 195,
+    "lang": "de",
+    "is_original": false,
+    "title": "Amelia (Kaiserin)",
+    "fl": "A",
+    "original_title": "Amelia (Imperatriz D.)",
+    "body": "Die brasilianische Kaiserin Amelia, Witwe von Pedro IV., und ihre Tochter Prinzessin Maria Amelia kamen am 28. August 1852 in Funchal auf der Fregatte der Kriegsmarine D. Fernando an, die von der Korvette D. João I. und dem Kriegsdampfer D. Luiz begleitet wurde. Kommandant der Flottille war der Kapitän zur See José Maria de Sousa Soares, und die Fregatte D. Fernando diente als Flaggschiff. Der Empfang war überwältigend und beeindruckte die Kaiserin und Prinzessin zutiefst, die trotz schwerer Krankheit vom Landungssteg Pontinha bis zur Quinta das Angústias, wo sie residierten, angesichts der vielen Bekundungen von Wertschätzung und Zuneigung der Einwohner immer fröhlich und lächelnd wirkten. Wie bekannt ist, fand Prinzessin Maria Amelia in der balsamischen Luft Madeiras und dem milden Klima nicht die erhoffte Linderung. Nach fünf Monaten und einigen Tagen unter uns erlag sie den Verwüstungen der schrecklichen Lungentuberkulose am Morgen des 4. Februar 1853. Die Prinzessin, sagen zeitgenössische, vertrauenswürdige Zeugen, war von beispielloser Güte und weckte bei allen, die sie sahen oder sich ihr näherten, die lebhafteste und leidenschaftlichste Sympathie, so dass ihr Tod in der ganzen Bevölkerung von Funchal ein Gefühl tiefster Trauer hervorrief, das sich hier viele Jahre hielt. Die Einschiffung der Kaiserin auf ihrer Rückreise nach Lissabon zusammen mit dem Sarg, der die sterblichen Überreste ihrer Tochter barg, fand am 6. Mai 1853 statt. Es war eine eindrucksvolle Prozession, bei der kein Auge trocken blieb. Vom bescheidensten Bürger bis zur untröstlichen Kaiserin weinten alle hemmungslos. Es schien, als habe sich eine große Katastrophe ereignet. Dieser Tod, wie allgemein bekannt, führte zur Gründung des Waisenhauses Prinzessin Maria Amelia, über das wir ein anderes Mal sprechen werden. Kaiserin Amelia starb am 26. Januar 1873 in Lissabon.",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Auf Madeira gelegen"
+        ],
+        "Lissabon": [
+            "In Portugal gelegen"
+        ],
+        "Quinta das Angústias": [
+            "Auf Madeira gelegen"
+        ],
+        "Pontinha": [
+            "Auf Madeira gelegen"
+        ]
+    },
+    "people": {
+        "Amelia": [
+            "Kaiserin von Brasilien"
+        ],
+        "Pedro IV.": [
+            "Kaiser von Brasilien"
+        ],
+        "Maria Amelia": [
+            "Prinzessin"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Ankunft in Funchal"
+        ],
+        "1853": [
+            "Tod von Prinzessin Maria Amelia"
+        ],
+        "1873": [
+            "Tod von Kaiserin Amelia"
+        ]
+    }
+}

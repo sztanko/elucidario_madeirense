@@ -1,0 +1,36 @@
+{
+    "id": 149,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almada (Antonio José de Sousa)",
+    "fl": "A",
+    "original_title": "Almada (Antonio José de Sousa)",
+    "body": "Temos conhecimento da existência deste madeirense pelo\nque dele nos dizem o Diccionario Popular, de Pinheiro Chagas, e o dicionário Portugal. Nasceu nesta ilha\nem 1824 e morreu em Benfica em 1874. Cultivou as musas, mas parece não ter sido poeta de grande\ninspiração.\n\nCasando em Lisboa com uma senhora riquissima, desbaratou dentro de pouco tempo uma avultada fortuna.\nEntregou-se depois a diversas empresas industriais, em que não foi muito favorecido pela fortuna. No\ngoverno dos Cem Dias, do marechal Saldanha, foi Sousa Almada governador civil de Castelo Branco.\nEra homem do mais fino trato, falava com facilidade varias línguas e possuía uma força e uma coragem não\nvulgares, do que tudo soube aproveitar com vantagem em vários lances da sua agitada existência.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Castelo Branco"
+    ],
+    "locations": {
+        "Benfica": [
+            "Local onde faleceu"
+        ]
+    },
+    "people": {
+        "Pinheiro Chagas": [
+            "Autor do Diccionario Popular"
+        ],
+        "Saldanha": [
+            "Marechal do governo dos Cem Dias"
+        ]
+    },
+    "years": {
+        "1824": [
+            "Ano de nascimento"
+        ],
+        "1874": [
+            "Ano de falecimento"
+        ]
+    }
+}

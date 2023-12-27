@@ -1,0 +1,28 @@
+{
+    "id": 362,
+    "lang": "en",
+    "is_original": false,
+    "title": "Azevedo Júnior (Dr. Correia de)",
+    "fl": "A",
+    "original_title": "Azevedo Júnior (Dr. Correia de)",
+    "body": "According to the Bibliographic Dictionary, this Madeiran obtained his doctorate from the medical faculty of Rio de Janeiro, where he defended theses in 1852, which were published in that city in a pamphlet of XII-68-II pages. We have no further information about him.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rio de Janeiro": [
+            "Location where he obtained his doctorate from the medical faculty"
+        ]
+    },
+    "people": {
+        "Dr. Correia de Azevedo Júnior": [
+            "Obtained his doctorate from the medical faculty of Rio de Janeiro"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Defense of theses at the medical faculty of Rio de Janeiro"
+        ]
+    }
+}

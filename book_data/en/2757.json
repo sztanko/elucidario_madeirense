@@ -1,0 +1,24 @@
+{
+    "id": 2757,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pérolas",
+    "fl": "P",
+    "original_title": "Pérolas",
+    "body": "In Madeira, small pearls have been found in the Haliotis tuberculata. In 1909, a gray pearl the size of a pea was found in the fan shell (Pina rudis).",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where the pearls were found"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1909": [
+            "Discovery of a gray pearl in the fan shell (Pina rudis)"
+        ]
+    }
+}

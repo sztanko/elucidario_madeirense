@@ -1,0 +1,26 @@
+{
+    "id": 1872,
+    "lang": "de",
+    "is_original": false,
+    "title": "Juízes Eleitos",
+    "fl": "J",
+    "original_title": "Juízes Eleitos",
+    "body": "Es gab sie in den Gemeinden, und sie übten ähnliche Funktionen aus wie die Friedensrichter unter dem absoluten Regime. Sie wurden durch die Justizreform von 1837 geschaffen und durch das Gesetz vom 16. April 1874 abgeschafft. Es gab effektive Richter nach der Verfassung von 1822.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1837": [
+            "Justizreform"
+        ],
+        "1874": [
+            "Abschaffung der gewählten Richter"
+        ],
+        "1822": [
+            "Verfassung mit effektiven Richtern"
+        ]
+    }
+}

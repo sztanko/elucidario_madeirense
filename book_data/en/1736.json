@@ -1,0 +1,29 @@
+{
+    "id": 1736,
+    "lang": "en",
+    "is_original": false,
+    "title": "Homenagem de Desagravo ao Redemptor do Mundo",
+    "fl": "H",
+    "original_title": "Homenagem de Desagravo ao Redemptor do Mundo",
+    "body": "A single issue of a newspaper published on October 26, 1913 by the Catholic Youth of Funchal, in a large format and with 24 pages.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where the newspaper was published"
+        ]
+    },
+    "people": {
+        "Catholic Youth": [
+            "Responsible for the publication of the newspaper"
+        ]
+    },
+    "years": {
+        "1913": [
+            "Year of publication of the newspaper"
+        ]
+    }
+}

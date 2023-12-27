@@ -1,0 +1,38 @@
+{
+    "id": 2076,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mac Euen (Carlos)",
+    "fl": "M",
+    "original_title": "Mac Euen (Carlos)",
+    "body": "Amerikaner, gebürtig aus Philadelphia, der zwischen Dezember 1848 und Mai 1849 meteorologische Beobachtungen auf dem Anwesen Hollway machte. Diese Beobachtungen sind in das 1850 von Dr. Mason veröffentlichte Werk über das Klima Madeiras aufgenommen.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Philadelphia": [
+            "Geburtsort von Carlos Mac Euen"
+        ],
+        "Hollway Anwesen": [
+            "Ort der meteorologischen Beobachtungen von Carlos Mac Euen"
+        ]
+    },
+    "people": {
+        "Carlos Mac Euen": [
+            "Amerikaner, gebürtig aus Philadelphia, der zwischen Dezember 1848 und Mai 1849 meteorologische Beobachtungen auf dem Anwesen Hollway machte."
+        ]
+    },
+    "years": {
+        "1848": [
+            "Zeitraum der Beobachtungen auf Hollway"
+        ],
+        "1849": [
+            "Zeitraum der Beobachtungen auf Hollway"
+        ],
+        "1850": [
+            "Veröffentlichung von Dr. Masons Werk über das Klima Madeiras"
+        ]
+    }
+}

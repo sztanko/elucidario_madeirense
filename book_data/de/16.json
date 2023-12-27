@@ -1,0 +1,28 @@
+{
+    "id": 16,
+    "lang": "de",
+    "is_original": false,
+    "title": "Abreu (Lopo de)",
+    "fl": "A",
+    "original_title": "Abreu (Lopo de)",
+    "body": "Dieser Madeirer segelte 1504 mit der Flotte unter dem Kommando von Lopo Soares nach Indien und beging dort heldenhafte Taten.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Indien": [
+            "Ort, an den Lopo de Abreu 1504 segelte"
+        ]
+    },
+    "people": {
+        "Lopo de Abreu": [
+            "Madeirer, der 1504 nach Indien segelte und dort heldenhafte Taten beging"
+        ]
+    },
+    "years": {
+        "1504": [
+            "Überfahrt von Lopo de Abreu nach Indien"
+        ]
+    }
+}

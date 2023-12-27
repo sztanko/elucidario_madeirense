@@ -1,0 +1,31 @@
+{
+    "id": 127,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alegria",
+    "fl": "A",
+    "original_title": "Alegria",
+    "body": "Neste sítio da freguesia de São Roque do Funchal encontra-se a capela de Nossa Senhora da Alegria, fundada em 1609, por Francisco de Abreu, a qual se incorporou na casa Torre Bela, a que ainda hoje pertence.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Local do sítio Alegria"
+        ]
+    },
+    "people": {
+        "Francisco de Abreu": [
+            "Fundador da capela de Nossa Senhora da Alegria"
+        ]
+    },
+    "years": {
+        "1609": [
+            "Fundação da capela de Nossa Senhora da Alegria"
+        ]
+    }
+}

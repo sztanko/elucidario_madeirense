@@ -1,0 +1,27 @@
+{
+    "id": 2897,
+    "lang": "en",
+    "is_original": false,
+    "title": "Municipal Medical Post",
+    "fl": "M",
+    "original_title": "Posto Médico Municipal",
+    "body": "It began operating on April 10, 1889, and was created by the Municipal Chamber during the presidency of the late Viscount of Ribeiro Real.\n\nThe X-ray machine at the medical post was acquired by the Chamber in 1922, and there was another one there that became unusable.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Viscount of Ribeiro Real": [
+            "Deceased"
+        ]
+    },
+    "years": {
+        "1889": [
+            "Commencement of the Municipal Medical Post's operation"
+        ],
+        "1922": [
+            "Acquisition of the X-ray machine"
+        ]
+    }
+}

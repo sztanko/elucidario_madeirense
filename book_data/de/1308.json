@@ -1,0 +1,35 @@
+{
+    "id": 1308,
+    "lang": "de",
+    "is_original": false,
+    "title": "Faial (Fluss von)",
+    "fl": "F",
+    "original_title": "Faial (Ribeira do)",
+    "body": "Entspringt in der Nähe des Pico Ruivo und nimmt als Nebenflüsse die Bäche von Ribeiro Frio und Metade auf, durchquert die Gemeinde Faial und mündet dort. In den Jahren 1907 bis 1910 wurde über diesen Fluss die umfangreichste Brücke erbaut, die es auf Madeira gibt und die seit langem als eine der größten Notwendigkeiten für Infrastrukturprojekte in der Region angesehen wurde. Das Brückendeck ruht auf mehreren Bögen und misst etwa 130 Meter.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Faial"
+    ],
+    "locations": {
+        "Pico Ruivo": [
+            "Berg"
+        ],
+        "Ribeiro Frio": [
+            "Fluss"
+        ],
+        "Faial": [
+            "Gemeinde"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1907": [
+            "Brückenbau über den Fluss Faial"
+        ],
+        "1910": [
+            "Brückenbau über den Fluss Faial"
+        ]
+    }
+}

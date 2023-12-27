@@ -1,0 +1,33 @@
+{
+    "id": 2521,
+    "lang": "en",
+    "is_original": false,
+    "title": "Our Lady of Remedies (Chapel of)",
+    "fl": "O",
+    "original_title": "Nossa Senhora dos Remédios (Capela de)",
+    "body": "In the parish of Santa Cruz, in the place called Moreno, there is a chapel dedicated to Our Lady of Remedies. It was built by the vicar Manuel Ferreira Teixeira in 1690 and not in the year 1610, as the annotator of the Saudades says.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Parish in Madeira"
+        ],
+        "Moreno": [
+            "Place in the parish of Santa Cruz"
+        ]
+    },
+    "people": {
+        "Manuel Ferreira Teixeira": [
+            "Vicar who built the chapel"
+        ]
+    },
+    "years": {
+        "1690": [
+            "Construction of the chapel"
+        ]
+    }
+}

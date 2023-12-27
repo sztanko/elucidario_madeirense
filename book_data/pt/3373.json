@@ -1,0 +1,37 @@
+{
+    "id": 3373,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sociedade Filantrópica Académica de Coimbra",
+    "fl": "S",
+    "original_title": "Sociedade Filantrópica Académica de Coimbra",
+    "body": "A iniciativa da fundação desta benemérita sociedade, que tantos serviços tem prestado aos estudantes pobres, deve-se ao estudante da faculdade de direito Feliciano Augusto de Brito Correia, natural da Madeira. A reunião académica em que primeiro se tratou da organização da sociedade teve lugar a 23 de Dezembro de 1849, sendo o mesmo estudante eleito membro da comissão encarregada de apresentar as bases dos estatutos pelos quais deveria reger-se a nova agremiação. A Sociedade Filantrópica Académica só teve os seus estatutos aprovados pelo governo em 26 de Maio de 1852.\n\nO Dr. Feliciano Augusto de Brito Correia foi delegado do procurador régio no Funchal, tendo falecido a 9 de Janeiro de 1871, com 54 anos incompletos, pois que nascera a 29 de Outubro de 1817.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "Cidade"
+        ]
+    },
+    "people": {
+        "Feliciano Augusto de Brito Correia": [
+            "Estudante da faculdade de direito, delegado do procurador régio no Funchal"
+        ]
+    },
+    "years": {
+        "1849": [
+            "Reunião académica em que primeiro se tratou da organização da sociedade"
+        ],
+        "1852": [
+            "Estatutos aprovados pelo governo"
+        ],
+        "1817": [
+            "Ano de nascimento de Feliciano Augusto de Brito Correia"
+        ],
+        "1871": [
+            "Ano de falecimento de Feliciano Augusto de Brito Correia"
+        ]
+    }
+}

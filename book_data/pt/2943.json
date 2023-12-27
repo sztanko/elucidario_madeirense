@@ -1,0 +1,35 @@
+{
+    "id": 2943,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Procissão das Candeias, das Ladainhas e da Via Sacra, na Ponta do Sol",
+    "fl": "P",
+    "original_title": "Procissão das Candeias, das Ladainhas e da Via Sacra, na Ponta do Sol",
+    "body": "Lê-se no artigo a que atrás nos referimos, que se celebravam outrora estas procissões na Ponta do Sol. A procissão das Ladainhas realizava-se em Maio, e, segundo um documento de 1600, ia no primeiro dia á igreja de Nossa Senhora da Piedade, nos Canhas, no segundo, á capela do Espírito Santo, na Lombada, e no terceiro, á capela de S. Sebastião, na vila. Em 1607, ordenou a Câmara que a mesma procissão se dirigisse no primeiro dia á capela do Espirito Santo, no segundo, á de Nossa Senhora da Piedade (Jangão?) e no terceiro, á de S. Sebastião, ficando os fregueses de N. S. da Piedade (Canhas) e da Madalena do Mar dispensados de vir á procissão por esta se realizar nas suas paroquias. As procissões da Via Sacra fora da igreja acabaram, diz o autor do mencionado artigo, pela época de 1830. No tempo em que elas se realizavam, saíam do templo paroquial, percorriam as ruas da vila, indo até a capela de Nossa Senhora do Livramento, no Lombo das Adegas, e até a capela de Santo Amaro, na Lombada. Havia cruzes colocadas nas ruas e caminhos percorridos por estas procissões e no Caminho da Lombada há uma furna com o nome de furna do Calvario, que era uma estação das mesmas procissões.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Canhas",
+        "Lombada",
+        "Madalena do Mar"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Celebravam outrora estas procissões"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1600": [
+            "Documento mencionado"
+        ],
+        "1607": [
+            "Câmara ordenou a mesma procissão"
+        ],
+        "1830": [
+            "Procissões da Via Sacra fora da igreja acabaram"
+        ]
+    }
+}

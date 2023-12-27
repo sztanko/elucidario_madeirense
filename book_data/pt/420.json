@@ -1,0 +1,53 @@
+{
+    "id": 420,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barca (Campo da)",
+    "fl": "B",
+    "original_title": "Barca (Campo da)",
+    "body": "O primitivo Campo da Barca tinha o seu limite norte na rampa que conduz hoje à Estrada do Conde do Carvalhal, e foi mandado construir pelo Governador e Capitão General Florencio José Correia de Melo, sobre terrenos cedidos gratuitamente por João de Carvalhal Esmeraldo e Miguel Carvalho, sendo, depois de cedido, entregue à Câmara em 21 de Janeiro de 1818, em virtude de portaria do mesmo governador.\n\nA parte do Campo da Barca ao norte da referida rampa, foi entregue ao Município em virtude da Carta de Lei de 13 de Setembro de 1897, tendo o terreno ocupado agora pelo Posto de Desinfecção sido cedida gratuitamente pela Câmara à Junta Geral, em sessão de 12 de Março de 1903.\n\nO Campo da Barca é e será conhecido sempre por este nome, a pesar de se chamar desde 1911 Campo de Miguel Bombarda. Antes disso, em 1897, resolvera a Câmara que ela se chamasse Campo do Conselheiro José Luciano de Castro, mas esta deliberação também não foi acatada pelo publico, pouco respeitador em geral das simpatias políticas dos seus vereadores.\n\nCampo do Conde da Barca se chamou primitivamente o campo a que nos referimos, mas o povo com as suas tendências simplificadoras converteu esse nome no de Campo da Barca. O Conde da Barca a quem Florencio José Correia de Melo quis prestar homenagem, era, como se sabe, Antonio de Araújo de Azevedo, que foi nosso ministro na Haia e depois plenipotenciário português em França, por ocasião da negociação do tratado de 10 de Agosto de 1907.\n\nO Campo da Barca fica na margem esquerda da Ribeira de João Gomes, e tinha como limite sul o Larguinho de São João, onde desembocam as Ruas do Oudinot, Infância e Ornelas. A rua, que no prolongamento da Avenida de João de Deus, atravessa este Campo, dividiu o em duas partes bem distintas, sendo a do sul transformada numa Praça, que tem o nome de Tenerife, e na do norte encontram se o Posto de Desinfecção Terrestre, aberto ao serviço publico em 1905, e o Dispensário Anti Tuberculoso Distrital, construído no ano de 1933. Em frente deste Dispensário se levanta o monumento ao Conde do Canavial, que se encontrava na Avenida do Doutor Manuel de Arriaga.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira de João Gomes": [
+            "Margem esquerda"
+        ]
+    },
+    "people": {
+        "Florencio José Correia de Melo": [
+            "Governador e Capitão General"
+        ],
+        "João de Carvalhal Esmeraldo": [
+            "Cedeu terrenos gratuitamente"
+        ],
+        "Miguel Carvalho": [
+            "Cedeu terrenos gratuitamente"
+        ],
+        "Miguel Bombarda": [
+            "Nome atribuído ao Campo desde 1911"
+        ],
+        "Conde da Barca": [
+            "Antonio de Araújo de Azevedo, ministro na Haia e plenipotenciário português em França"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Entrega à Câmara"
+        ],
+        "1897": [
+            "Resolução para se chamar Campo do Conselheiro José Luciano de Castro"
+        ],
+        "1905": [
+            "Abertura do Posto de Desinfecção Terrestre"
+        ],
+        "1911": [
+            "Mudança para Campo de Miguel Bombarda"
+        ],
+        "1933": [
+            "Construção do Dispensário Anti Tuberculoso Distrital"
+        ]
+    }
+}

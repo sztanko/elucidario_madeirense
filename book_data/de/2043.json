@@ -1,0 +1,69 @@
+{
+    "id": 2043,
+    "lang": "de",
+    "is_original": false,
+    "title": "Langlebigkeit",
+    "fl": "L",
+    "original_title": "Longevidade",
+    "body": "Im Jahr 1911 gab es im gesamten Bezirk Funchal 586 Männer und 868 Frauen über 80 Jahre, wie folgt verteilt:\n\n| Ort            | Männer | Frauen |\n|--------------------|--------|--------|\n| Funchal            | 142    | 273    |\n| Câmara de Lobos    | 75     | 111    |\n| Ponta do Sol       | 76     | 122    |\n| Calheta            | 67     | 111    |\n| Porto do Moniz     | 22     | 29     |\n| S. Vicente         | 37     | 31     |\n| Santana            | 41     | 32     |\n| Machico            | 33     | 57     |\n| Santa Cruz         | 84     | 94     |\n| Porto Santo        | 9      | 8      |\n\nVon diesen Individuen waren 385 Männer und 578 Frauen zwischen 80 und 85 Jahren alt: 126 Männer und 177 Frauen waren 85 Jahre alt; 56 Männer und 76 Frauen zwischen 90 und 95; 14 Männer und 32 Frauen zwischen 95 und 100; 5 Männer und 3 Frauen zwischen 100 und 105; und 2 Frauen waren über 105 Jahre alt. Im Jahr 1911 lebte in Achada dos Judeus in S. Vicente eine 109-jährige Frau.\n\nDie Anzahl der Einwohner zwischen 80 und 100 Jahren oder älter pro 1000 Einwohner war im Jahr 1911 wie folgt:\n\n| Ort               | Anzahl pro 1000 Einwohner |\n|--------------------|-------------------------------|\n| Funchal            | 8,24                          |\n| Câmara de Lobos    | 9,23                          |\n| Ponta do Sol       | 9,84                          |\n| Calheta            | 8,88                          |\n| Porto do Moniz     | 11,62                         |\n| S. Vicente         | 7,96                          |\n| Santana            | 7,20                          |\n| Machico            | 6,46                          |\n| Santa Cruz         | 8,90                          |\n| Porto Santa        | 7,79                         |\n\nIm März 1920 starb auf Madeira ein 101-jähriger Mann, im September ein 106-Jähriger und im Dezember eine 103-jährige Frau.\n\nDr. Mittermaier berechnete die durchschnittliche Lebenserwartung in Funchal mit 35,16 Jahren, aber nach einigen Berechnungen, die wir vor einiger Zeit durchgeführt haben, beläuft sich dieser Durchschnitt auf 39,8 Jahre. Dr. Heberden, der im 18. Jahrhundert auf Madeira war, berechnete die durchschnittliche Lebenserwartung auf der gesamten Insel mit 39 Jahren.\n\nWeitere Informationen zur Langlebigkeit auf dem Festland und den angrenzenden Inseln finden Sie im Volkszählungsbericht Nr. I vom Dezember 1911 (Teil 4); Lissabon, 1914.",
+    "categories": [
+        "society",
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt mit 142 Männern und 273 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "Câmara de Lobos": [
+            "Ort mit 75 Männern und 111 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "Ponta do Sol": [
+            "Ort mit 76 Männern und 122 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "Calheta": [
+            "Ort mit 67 Männern und 111 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "Porto do Moniz": [
+            "Ort mit 22 Männern und 29 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "S. Vicente": [
+            "Ort mit 37 Männern und 31 Frauen über 80 Jahren im Jahr 1911, einschließlich einer 109-jährigen Frau in Achada dos Judeus"
+        ],
+        "Santana": [
+            "Ort mit 41 Männern und 32 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "Machico": [
+            "Ort mit 33 Männern und 57 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "Santa Cruz": [
+            "Ort mit 84 Männern und 94 Frauen über 80 Jahren im Jahr 1911"
+        ],
+        "Porto Santo": [
+            "Ort mit 9 Männern und 8 Frauen über 80 Jahren im Jahr 1911"
+        ]
+    },
+    "people": {
+        "Dr. Mittermaier": [
+            "Berechnete die durchschnittliche Lebenserwartung in Funchal mit 35,16 Jahren"
+        ],
+        "Dr. Heberden": [
+            "Berechnete die durchschnittliche Lebenserwartung auf der gesamten Insel Madeira im 18. Jahrhundert mit 39 Jahren"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Jahr, in dem die Volkszählung durchgeführt wurde, die die Verteilung der über 80-Jährigen im Bezirk Funchal zeigte"
+        ],
+        "1920": [
+            "Jahr, in dem drei Hundertjährige auf Madeira starben"
+        ],
+        "1775": [
+            "Jahr des königlichen Erlasses zur Ernennung von João Francisco Lopes Rocha als Pfarrer der Gemeinde Santa Maria Maior"
+        ],
+        "1819": [
+            "Todesjahr von Dr. João Francisco Lopes Rocha"
+        ]
+    }
+}

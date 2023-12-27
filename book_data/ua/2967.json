@@ -1,0 +1,26 @@
+{
+    "id": 2967,
+    "lang": "ua",
+    "is_original": false,
+    "title": "Мис Спалений",
+    "fl": "М",
+    "original_title": "Queimada (Ponta da)",
+    "body": "Цей мис розташований на узбережжі між парафіями Машику та Агуа-де-Пена.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Machico",
+        "Água de Pena"
+    ],
+    "locations": {
+        "Машику": [
+            "Парафія"
+        ],
+        "Агуа-де-Пена": [
+            "Парафія"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

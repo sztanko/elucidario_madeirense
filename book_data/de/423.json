@@ -1,0 +1,43 @@
+{
+    "id": 423,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barradas (Diogo)",
+    "fl": "B",
+    "original_title": "Barradas (Diogo)",
+    "body": "Indem Gaspar Frutuoso über die Töchter von Tristão Teixeira, dem ersten Gouverneur von Machico, spricht, fügt er, ohne einen engen Zusammenhang mit dem Vorangegangenen zu haben, Folgendes hinzu: Und dieser Kapitän Tristam, wegen eines Unglücks, das in seinem Haus einem Tristam Barradas zustieß, einem Mann, der für einen Edelmann gehalten wurde, den dieser Kapitän bestrafte und in Ketten an einer Mühle Mehl mahlen ließ. Der König befahl ihm, an den Hof zu kommen und seine Tochter Catharina Teixeira mitzubringen (wie oben erwähnt): Er war in Lissabon wegen der Bestrafung des Barradas inhaftiert und wurde durch Urteil auf die Insel Príncipe verbannt, und bevor er ging, verheiratete der König seine Tochter sehr ehrenhaft: Einige Jahre verbrachte er in diesem Exil, am Ende derer der König ihn kommen ließ und ihn wieder als Gouverneur eingesetzt hat, und er regierte noch viele Jahre danach.\n\nEs ist eine interessante Episode über die Bräuche der Zeit, die das despotische Macht der Gouverneure in den frühen Zeiten der Kolonisierung zeigt, deren bürgerliche und strafrechtliche Befugnisse so weitreichend waren, dass sie nur die Beurteilung von Mord oder Verstümmelung ausschlossen, wie im Artikel über die Gerichtsverwaltung nachzulesen ist.\n\nIn Bezug auf die oben zusammengefasste Episode sollte das Dokument gelesen werden, das auf Seite 138 der Ausgabe von Saudades da Terra von 1925 transkribiert ist, das überaus interessant ist und uns eine annähernde Vorstellung davon vermittelt, wie zu Zeiten der Gouverneure Recht gesprochen wurde.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Machico": [
+            "Gouverneurschaft"
+        ],
+        "Lissabon": [
+            "Ort der Inhaftierung"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Autor von Saudades da Terra"
+        ],
+        "Tristão Teixeira": [
+            "Erster Gouverneur von Machico"
+        ],
+        "Tristam Barradas": [
+            "Für einen Edelmann gehaltener Mann"
+        ],
+        "Catharina Teixeira": [
+            "Tochter von Tristão Teixeira"
+        ],
+        "El Rey": [
+            "Bezug auf den König"
+        ]
+    },
+    "years": {
+        "1925": [
+            "Ausgabe von Saudades da Terra"
+        ]
+    }
+}

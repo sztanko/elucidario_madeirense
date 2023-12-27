@@ -1,0 +1,45 @@
+{
+    "id": 2546,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nuncio",
+    "fl": "N",
+    "original_title": "Núncio",
+    "body": "On July 25, 1808, the envoy of His Holiness in Lisbon arrived in Madeira, coming from London. He disembarked at Pontinha and then headed to the Cathedral, where he attended the 10 o'clock mass. After visiting the church, he got into a sedan chair and went to the episcopal palace. He left the island on the 28th, and during his short stay here, he conferred minor orders on some students, as the bishop was not in Funchal, and gave the dean the necessary powers to grant some marriage dispensations. His departure saved all the fortresses of the city.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "London": [
+            "City from which the envoy of His Holiness in Lisbon arrived in Madeira"
+        ],
+        "Pontinha": [
+            "Place of disembarkation of the envoy of His Holiness in Lisbon"
+        ],
+        "Cathedral": [
+            "Place where the envoy of His Holiness in Lisbon attended mass"
+        ],
+        "Funchal": [
+            "City where the bishop was not present during the stay of the envoy of His Holiness in Lisbon"
+        ],
+        "Episcopal palace": [
+            "Place where the envoy of His Holiness in Lisbon went after visiting the church"
+        ],
+        "Island": [
+            "Madeira"
+        ],
+        "City": [
+            "Funchal"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1808": [
+            "Arrival of the envoy of His Holiness in Lisbon in Madeira"
+        ],
+        "28": [
+            "Departure of the envoy of His Holiness in Lisbon from the island"
+        ]
+    }
+}

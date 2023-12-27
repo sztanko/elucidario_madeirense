@@ -1,0 +1,34 @@
+{
+    "id": 2361,
+    "lang": "de",
+    "is_original": false,
+    "title": "Denkmal für Unsere Liebe Frau des Friedens",
+    "fl": "D",
+    "original_title": "Monumento a Nossa Senhora da Paz",
+    "body": "Am 1. November 1923 wurde der Grundstein für das großartige Denkmal gelegt, das zu Ehren der Heiligsten Jungfrau unter der Anrufung Unserer Lieben Frau des Friedens auf dem Terreiro da Luta in der Gemeinde Monte errichtet wurde. Es besteht aus einer ausgezeichneten Marmorstatue, die auf einem Sockel mit künstlerischen Bronzereliefs ruht, die sich auf den traditionellen Glauben an die Erscheinung der Allerheiligsten Jungfrau an diesem Ort beziehen. Angegliedert an das Denkmal erhebt sich eine kleine und elegante Kapelle, in der häufig die heilige Messe und andere Kulthandlungen gefeiert werden. Die Errichtung dieses Denkmals ist dem brennenden Eifer und den unermüdlichen Bemühungen von Pfarrer José Marques Jardim zu verdanken, der sich den größten Opfern nicht entzog, damit es die Imposanz und Größe erhielt, die es kennzeichnen, und sogar ins Ausland reiste, um Spenden für die Verwirklichung dieses Werks zu sammeln. Die feierliche Einweihung, die in größter Pracht erfolgte und zu der Tausende von Menschen aus allen Teilen der Insel strömten, fand unter dem Vorsitz des Diözesanbischofs am 14. August 1927 statt.",
+    "categories": [
+        "religion",
+        "culture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Terreiro da Luta": [
+            "Ort in Monte"
+        ]
+    },
+    "people": {
+        "José Marques Jardim": [
+            "Priester"
+        ]
+    },
+    "years": {
+        "1923": [
+            "Grundsteinlegung für das Denkmal Unserer Lieben Frau des Friedens"
+        ],
+        "1927": [
+            "Feierliche Einweihung des Denkmals Unserer Lieben Frau des Friedens"
+        ]
+    }
+}

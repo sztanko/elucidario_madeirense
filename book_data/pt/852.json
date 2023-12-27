@@ -1,0 +1,24 @@
+{
+    "id": 852,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Cemiterio Israelita",
+    "fl": "C",
+    "original_title": "Cemiterio Israelita",
+    "body": "Fica na parte leste da cidade, no caminho do Lazareto. Tem na entrada uma inscrição em hebraico, que quere dizer “habitação da vida”, e a data 5.611, correspondente ao ano 1851 da era cristã.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lazareto": [
+            "Localização do cemiterio israelita"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "Data de construção"
+        ]
+    }
+}

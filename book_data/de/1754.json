@@ -1,0 +1,30 @@
+{
+    "id": 1754,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kirche",
+    "fl": "K",
+    "original_title": "Igreja",
+    "body": "An diesem Ort in der Gemeinde Unserer Lieben Frau auf dem Berge befinden sich die Pfarrkirche dieses Patrons, in der Kaiser Karl von Österreich begraben liegt, der am 1. April 1922 in der Villa auf dem Berg starb, und die Kapelle Unserer Lieben Frau der Empfängnis, die vor wenigen Jahren vom Kapitän José Sotero da Silva gegründet und heute Eigentum von José de Freitas Belmonte ist.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Nossa Senhora do Monte"
+    ],
+    "locations": {
+        "Unserer Lieben Frau auf dem Berge": [
+            "Gemeinde, in der sich die Pfarrkirche befindet"
+        ]
+    },
+    "people": {
+        "Karl von Österreich": [
+            "In der Villa auf dem Berg verstorbener Kaiser"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Tod von Kaiser Karl von Österreich"
+        ]
+    }
+}

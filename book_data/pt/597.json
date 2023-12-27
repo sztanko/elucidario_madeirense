@@ -1,0 +1,29 @@
+{
+    "id": 597,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bulwer (Rev. James)",
+    "fl": "B",
+    "original_title": "Bulwer (Rev. James)",
+    "body": "Publicou em 1827 vinte e seis soberbas gravuras de vários pontos da ilha da Madeira.",
+    "categories": [
+        "art",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde foram publicadas as gravuras"
+        ]
+    },
+    "people": {
+        "Rev. James Bulwer": [
+            "Autor das gravuras publicadas em 1827"
+        ]
+    },
+    "years": {
+        "1827": [
+            "Ano de publicação das gravuras"
+        ]
+    }
+}

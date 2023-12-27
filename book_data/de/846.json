@@ -1,0 +1,33 @@
+{
+    "id": 846,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kopffüßer",
+    "fl": "K",
+    "original_title": "Cefalópodos",
+    "body": "Es gibt verschiedene Arten dieser Klasse von Weichtieren, sowohl Küsten- als auch pelagische oder Tiefseearten.\n\nDie häufigsten sind: der gemeine Krake (Octopus vulgaris), der gemeine Kalmar (Loligo vulgaris) und die Gewöhnliche Sepia (Sepia officinalis), alle essbar; die Spirula Peronii, die in großer Zahl an Stränden wie Caniçal, Porto da Cruz und Pôrto Santo strandet; und der pelagische und essbare Pfeilkalmar (Ommastrephes sagittatus), der einige Meilen vor der Küste häufig vorkommt. Zu den selteneren Arten gehört der Papierboot (Argonauta argo), der im Pôrto Santo gesehen wurde.\n\nAlexandre A. Girard nannte 11 Arten dieser Weichtiere, von denen einige zweifelhaft sind, während Roberto B. Watson nur die oben genannten vier sowie die letzte Art erwähnt.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Caniçal": [
+            "Ort, an dem die Spirula Peronii strandet"
+        ],
+        "Porto da Cruz": [
+            "Ort, an dem die Spirula Peronii strandet"
+        ],
+        "Pôrto Santo": [
+            "Ort, an dem die Spirula Peronii strandet und wo der Argonauta argo gesehen wurde"
+        ]
+    },
+    "people": {
+        "Alexandre A. Girard": [
+            "Nannte 11 Arten von Kopffüßern"
+        ],
+        "Roberto B. Watson": [
+            "Erwähnte die vier häufigen Arten und die letzte"
+        ]
+    },
+    "years": {}
+}

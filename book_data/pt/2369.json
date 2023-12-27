@@ -1,0 +1,33 @@
+{
+    "id": 2369,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Morais",
+    "fl": "M",
+    "original_title": "Morais",
+    "body": "Este apelido de família procede de João de Morais, um dos primeiros povoadores da Madeira e que viveu em Machico, em cujos campos teve sesmaria. Seu filho primogénito, Sebastião de Morais, o Velho, justificou sua nobreza em 1508, segundo afirma o anotador das Saudades.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Freguesia na ilha da Madeira"
+        ]
+    },
+    "people": {
+        "João de Morais": [
+            "Um dos primeiros povoadores da Madeira"
+        ],
+        "Sebastião de Morais, o Velho": [
+            "Filho primogénito de João de Morais"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Justificação da nobreza de Sebastião de Morais, o Velho"
+        ]
+    }
+}

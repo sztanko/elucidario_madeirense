@@ -1,0 +1,28 @@
+{
+    "id": 2896,
+    "lang": "de",
+    "is_original": false,
+    "title": "Seequarantänestation",
+    "fl": "S",
+    "original_title": "Posto Marítimo de Desinfecção",
+    "body": "Seit 1901 gibt es in Pontinha eine kleine Seequarantänestation. Die Einnahmen aus den Desinfektionen fließen nach Abzug der Ausgaben für den Kauf von Desinfektionsmitteln als Einnahme an die Allgemeine Versammlung, die auch die Miete für das Gebäude zahlt, in dem die Station untergebracht ist. Das Personal der Station, bestehend aus einem Kontrolleur und einem Wächter, wird von der Regierung bezahlt (1921).",
+    "categories": [
+        "health",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pontinha": [
+            "Ort, an dem seit 1901 eine kleine Seequarantänestation existiert"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Einrichtung einer Seequarantänestation in Pontinha"
+        ],
+        "1921": [
+            "Das Personal der Seequarantänestation wurde von der Regierung bezahlt"
+        ]
+    }
+}

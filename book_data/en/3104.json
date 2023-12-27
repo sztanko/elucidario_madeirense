@@ -1,0 +1,36 @@
+{
+    "id": 3104,
+    "lang": "en",
+    "is_original": false,
+    "title": "Rocha de Gouveia (Gabriel)",
+    "fl": "R",
+    "original_title": "Rocha de Gouveia (Gabriel)",
+    "body": "He was born in Arco da Calheta on September 30, 1887, the son of Manuel Rocha de Gouveia and D. Maria Augusta Soares Rocha de Gouveia. He was attending the agronomy course in Lisbon when he was called to enlist in the army after Germany declared war on Portugal. Having been appointed as a second lieutenant, he left for France, where he met his death on October 13, 1917, while on duty in the trenches. It is said that he was casually conversing with other officers when he was hit by several grenade fragments, which killed him instantly.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Manuel Rocha de Gouveia": [
+            "Father"
+        ],
+        "D. Maria Augusta Soares Rocha de Gouveia": [
+            "Mother"
+        ]
+    },
+    "years": {
+        "1887": [
+            "Birth in Arco da Calheta"
+        ],
+        "1917": [
+            "Death in France during World War I"
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "id": 3321,
+    "lang": "en",
+    "is_original": false,
+    "title": "Serra e Moura (Tomás Nunes de)",
+    "fl": "S",
+    "original_title": "Serra e Moura (Tomás Nunes de)",
+    "body": "He was appointed civil governor of Madeira by decree of December 29, 1883, and took office on January 9, 1884.\n\nAs an effective peer of the realm, he represented this archipelago in parliament during the legislative session from 1887 to 1889.\n\nHe died in Lisbon on March 26, 1917, being a retired judge of the Supreme Court of Justice.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where he was civil governor."
+        ]
+    },
+    "people": {
+        "Tomás Nunes de Serra e Moura": [
+            "Civil governor of Madeira and retired judge of the Supreme Court of Justice."
+        ]
+    },
+    "years": {
+        "1883": [
+            "Year in which he was appointed civil governor of Madeira."
+        ],
+        "1884": [
+            "Year in which he took office as civil governor of Madeira."
+        ],
+        "1887": [
+            "Year in which he represented Madeira in parliament."
+        ],
+        "1889": [
+            "Year in which he represented Madeira in parliament."
+        ],
+        "1917": [
+            "Year of death."
+        ]
+    }
+}

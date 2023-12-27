@@ -1,0 +1,43 @@
+{
+    "id": 2782,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pico (Fortaleza do)",
+    "fl": "P",
+    "original_title": "Pico (Fortaleza do)",
+    "body": "«A fortaleza do Pico, na ilha do Porto Santo, era, diz o dr. Azevedo nas notas ás Saudades da Terra, mais um refugio que uma praça». Gaspar Frutuoso tratando em 1590 do Pico do Castelo, não diz que nele houvesse castelo, mas que lhe davam este nome por ser de si mesmo «forte e defensavel.» As fortificações que ali existiram e estão hoje destruídas, foram levantadas durante o governo filipino «após a terrivel carnificina e pilhagem, diz o sr. A. A. Sarmento, efectuadas pelos mouros em 1617». Há trinta e tantos anos havia ainda no alto do pico restos das antigas fortificações e uma cisterna destinada a abastecer de água aqueles que aí se refugiavam por ocasião das investidas dos piratas. (1921). A fortaleza do Pico do Castelo teve condestavel no tempo de Felipe II e em 1805 mandou o governador Manuel Inacio de Avelar Brotero buscar lá a telha que cobria ainda as edificações, para a aproveitar no consêrto do quartel da vila e da sua residencia.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Ilha onde se localiza a fortaleza do Pico"
+        ]
+    },
+    "people": {
+        "Dr. Azevedo": [
+            "Autor das notas ás Saudades da Terra"
+        ],
+        "Gaspar Frutuoso": [
+            "Historiador"
+        ],
+        "Sr. A. A. Sarmento": [
+            "Autor das informações sobre as fortificações"
+        ],
+        "Manuel Inacio de Avelar Brotero": [
+            "Governador"
+        ]
+    },
+    "years": {
+        "1590": [
+            "Gaspar Frutuoso trata do Pico do Castelo"
+        ],
+        "1617": [
+            "Carnificina e pilhagem pelos mouros"
+        ],
+        "1805": [
+            "Busca de telha pelo governador Manuel Inacio de Avelar Brotero"
+        ]
+    }
+}

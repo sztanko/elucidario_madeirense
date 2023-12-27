@@ -1,0 +1,37 @@
+{
+    "id": 2536,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Notários",
+    "fl": "N",
+    "original_title": "Notários",
+    "body": "O serviço do notariado ou do tabelionato neste arquipélago deveria certamente ter seguido as fases do do Continente do Reino, á parte quaisquer modificações que as circunstancias locais aconselhassem. Não deixa no entanto de ser interessante notar neste lugar que no Funchal havia em 1579 nada menos que 21 tabeliães do judicial, 8 de notas e 6 inquiridores, o que era verdadeiramente extraordinário para uma população que, em toda a ilha, orçava então por vinte e cinco mil habitantes. Ouçamos Frutuoso: «E, porque no Funchal, cidade que seus avós (do 5.º capitão-donatario) fundaram, havia vinte e hum tabeliães do judicial e outo das notas e seis enqueridores, houve El-Rey D. Henrique por bem, no ano de 1579, por certos respeitos que a isso o moveram e por mais serviço de Deos, reduzilos em dez escrivães do judicial, e quatro notários e três enqueredores que agora servem (em 1590)....» Convém advertir que nas sedes das outras capitanias e nas vilas, já então criadas, de Machico, Santa Cruz, Ponta do Sol, Calheta e Porto Santo, também existiam oficiais de justiça com iguais atribuições aos do Funchal. Na jurisdição do Funchal, reduziu o cardeal D. Henrique de 35 a 17 o numero de escrivaes!",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz",
+        "Ponta do Sol",
+        "Calheta",
+        "Porto Santo"
+    ],
+    "locations": {
+        "Funchal": [
+            "Cidade que seus avós (do 5.º capitão-donatario) fundaram"
+        ]
+    },
+    "people": {
+        "Frutuoso": [
+            "Historiador"
+        ]
+    },
+    "years": {
+        "1579": [
+            "Número de tabeliães no Funchal"
+        ],
+        "1590": [
+            "Número de escrivães do judicial, notários e enqueredores"
+        ]
+    }
+}

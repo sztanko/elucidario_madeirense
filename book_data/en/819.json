@@ -1,0 +1,31 @@
+{
+    "id": 819,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castelo Branco (Eduardo Ernesto de)",
+    "fl": "C",
+    "original_title": "Castelo Branco (Eduardo Ernesto de)",
+    "body": "Eduardo Ernesto de Castelo Branco was born in Funchal on March 17, 1840, and died in Lisbon on February 4, 1905, being the son of Rear Admiral Joaquim Pedro de Castelo Branco. He enlisted in 1857, reaching the rank of general, and belonged to the artillery corps. His great work was the founding of the Artillery Museum, to which he dedicated all the activity of his spirit, managing to elevate it to the level of similar establishments in Europe. He worked tirelessly for this cause and even spent large sums from his own pocket when the public treasury became stingy for the improvements that he deemed essential. He wrote the Catalog of the Artillery Museum of Lisbon.",
+    "categories": [
+        "history",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Joaquim Pedro de Castelo Branco": [
+            "Rear Admiral"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Birth"
+        ],
+        "1857": [
+            "Enlistment"
+        ],
+        "1905": [
+            "Death"
+        ]
+    }
+}

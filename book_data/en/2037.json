@@ -1,0 +1,31 @@
+{
+    "id": 2037,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo de São João",
+    "fl": "L",
+    "original_title": "Lombo de São João",
+    "body": "Settlement in the parish of Ponta do Sol. It is home to the chapel of S. João, which gave the place its name. The year of its original construction and its founder are unknown. It was a vincular institution and belonged to the estate of Diogo Berenguer de França, who in 1871 was granted the title of Viscount of São João, taken from this location.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Locality on the island of Madeira"
+        ]
+    },
+    "people": {
+        "Diogo Berenguer de França": [
+            "Vincular estate owner"
+        ]
+    },
+    "years": {
+        "1871": [
+            "Year in which Diogo Berenguer de França was granted the title of Viscount of São João"
+        ]
+    }
+}

@@ -1,0 +1,40 @@
+{
+    "id": 148,
+    "lang": "en",
+    "is_original": false,
+    "title": "Almada",
+    "fl": "A",
+    "original_title": "Almada",
+    "body": "The first to use this surname and who came to Madeira was Pedro Alvares de Almada, from Guimarães, son of Alvaro de Almada and nephew of the famous count of Avranches, D. Alvaro Vaz de Almada. Pedro de Almada resided in the town of Santa Cruz and was one of the main officials of the Chamber. The illustrious annotator of the 'Saudades da Terra' states that he founded the church of Nossa Senhora da Graça in Santa Cruz, of which we have no further information. Some genealogists say that one of the first to use the surname Almada was Antonio de Almada, who around the mid-16th century married Isabel Rodrigues Leal, from the parish of Porto da Cruz.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Town where Pedro Alvares de Almada resided"
+        ]
+    },
+    "people": {
+        "Pedro Alvares de Almada": [
+            "First to use the surname Almada in Madeira"
+        ],
+        "Alvaro de Almada": [
+            "Father of Pedro Alvares de Almada"
+        ],
+        "D. Alvaro Vaz de Almada": [
+            "Uncle of Pedro Alvares de Almada"
+        ],
+        "Antonio de Almada": [
+            "One of the first to use the surname Almada"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Period when Antonio de Almada married Isabel Rodrigues Leal"
+        ]
+    }
+}

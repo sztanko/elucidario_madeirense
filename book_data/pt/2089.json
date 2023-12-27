@@ -1,0 +1,34 @@
+{
+    "id": 2089,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Machado (Dr. Vicente Cândido)",
+    "fl": "M",
+    "original_title": "Machado (Dr. Vicente Cândido)",
+    "body": "Nasceu no Funchal a 3 de Outubro de 1855 e morreu nesta cidade a 23 de Novembro de 1911. Concluiu a formatura na faculdade de medicina de Paris em 1880. Regressando á Madeira, realizou com o melhor êxito no dia 2 de Outubro do mesmo ano uma melindrosa operação cirúrgica na pessoa do falecido prelado D. Manuel Agostinho Barreto, o que logo lhe deu grande nomeada como distinto medico e operador. Defendeu e publicou a tese E'ssai sur les oreillons sous-maxillaires, e em polémica com o conde de Canavial publicou em 1884 o opusculo Resposta ao folheto do dr. João da Camara Leme Homem de Vasconcellos. . .",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Manuel Agostinho Barreto": [
+            "Falecido prelado"
+        ],
+        "Dr. João da Camara Leme Homem de Vasconcellos": [
+            "Autor do folheto polémico"
+        ]
+    },
+    "years": {
+        "1855": [
+            "Nascimento"
+        ],
+        "1880": [
+            "Conclusão da formatura na faculdade de medicina de Paris"
+        ],
+        "1884": [
+            "Publicação do opusculo Resposta ao folheto do dr. João da Camara Leme Homem de Vasconcellos"
+        ]
+    }
+}

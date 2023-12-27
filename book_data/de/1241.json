@@ -1,0 +1,34 @@
+{
+    "id": 1241,
+    "lang": "de",
+    "is_original": false,
+    "title": "Schule für Geometrie und Trigonometrie",
+    "fl": "S",
+    "original_title": "Escola de Geometria e Trigonometria",
+    "body": "Ende 1760 wurde in Funchal speziell für diejenigen, die eine militärische Laufbahn einschlugen, eine Schule für Geometrie und Trigonometrie gegründet, die im Jesuitenkolleg, dem heutigen Kasernement des Infanteriebataillons Nr. 19, untergebracht war. Erste Professoren waren der Sergeant Francisco de Alincourt und der Ingenieur Francisco Salustiano da Costa. Neun Jahre später, 1769, teilte Gouverneur und Hauptmann-General João Antonio de Sá Pereira der Zentralregierung die guten Ergebnisse mit, die mit dieser Schule erzielt worden waren. Wir wissen nicht, wann sie aufgehört hat zu existieren oder sonstige Einzelheiten.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco de Alincourt": [
+            "Erster Professor der Schule für Geometrie und Trigonometrie"
+        ],
+        "Francisco Salustiano da Costa": [
+            "Erster Professor der Schule für Geometrie und Trigonometrie"
+        ],
+        "João Antonio de Sá Pereira": [
+            "Gouverneur und Hauptmann-General, der der Zentralregierung die guten Ergebnisse der Schule mitteilte"
+        ]
+    },
+    "years": {
+        "1760": [
+            "Gründung der Schule für Geometrie und Trigonometrie in Funchal"
+        ],
+        "1769": [
+            "Mitteilung guter Ergebnisse an die Zentralregierung"
+        ]
+    }
+}

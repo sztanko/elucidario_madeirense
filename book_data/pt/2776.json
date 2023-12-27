@@ -1,0 +1,41 @@
+{
+    "id": 2776,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Phelps (José)",
+    "fl": "P",
+    "original_title": "Phelps (José)",
+    "body": "Homem de negocio inglês, que veio para a Madeira nos fins do século XVIII. Estabeleceu á sua custa uma escola pelo sistema de Lancaster e concorreu bastante para a fundação da Associação Funchalense do Ensino Mutuo, da qual foi eleito tesoureiro. Retirou para Inglaterra nos principios do terceiro quartel do século XIX e aí faleceu depois de 1863. V. Escola Lancasteriana, Page e Phelps (Rua do).",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local de atividade"
+        ],
+        "Funchal": [
+            "Local de atividade"
+        ],
+        "Inglaterra": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "José Phelps": [
+            "Homem de negócios inglês"
+        ]
+    },
+    "years": {
+        "Século XVIII": [
+            "Período de chegada à Madeira"
+        ],
+        "Terceiro quartel do século XIX": [
+            "Período de retirada para Inglaterra"
+        ],
+        "1863": [
+            "Ano de falecimento"
+        ]
+    }
+}

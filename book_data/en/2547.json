@@ -1,0 +1,47 @@
+{
+    "id": 2547,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nunes",
+    "fl": "N",
+    "original_title": "Nunes",
+    "body": "The first individual of this surname mentioned in Madeiran chronicles was called Fernão Nunes, and he lived in Gaula, having married Helena de Góis, daughter of Lançarote Teixeira, the fourth son of Tristão Vaz, the first lord of Machico. In the first quarter of the 16th century, there lived in Porto Santo a Bartolomeu Nunes, who was the father of the false prophet Fernão Nunes, whom we will discuss elsewhere in this Elucidário.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Gaula",
+        "Porto Santo",
+        "Machico"
+    ],
+    "locations": {
+        "Gaula": [
+            "Residence of Fernão Nunes"
+        ],
+        "Porto Santo": [
+            "Residence of Bartolomeu Nunes"
+        ]
+    },
+    "people": {
+        "Fernão Nunes": [
+            "Individual mentioned in Madeiran chronicles"
+        ],
+        "Helena de Góis": [
+            "Wife of Fernão Nunes"
+        ],
+        "Lançarote Teixeira": [
+            "Father of Helena de Góis"
+        ],
+        "Tristão Vaz": [
+            "First lord of Machico"
+        ],
+        "Bartolomeu Nunes": [
+            "Individual who lived in Porto Santo"
+        ]
+    },
+    "years": {
+        "Século XVI": [
+            "Time when Bartolomeu Nunes lived"
+        ]
+    }
+}

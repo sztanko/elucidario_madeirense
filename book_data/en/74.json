@@ -1,0 +1,31 @@
+{
+    "id": 74,
+    "lang": "en",
+    "is_original": false,
+    "title": "Águas férreas",
+    "fl": "Á",
+    "original_title": "Águas férreas",
+    "body": "Among the various iron-rich water springs in Madeira, the most well-known is the Jamboto spring in the parish of Santo Antonio. Mr. Carlos Lepierre, who analyzed the water from this spring on June 4, 1900, stated that it belongs to the group of hyposaline, chlorinated, and iron-rich waters, with its most important mineralization being sodium chloride, followed by a relatively large amount of iron bicarbonate (36 milligrams, corresponding to 12.6 milligrams of iron). Mr. Lepierre also found magnesium and calcium bicarbonates in the same water, along with small amounts of sulfates and nitrates.\n\nAccording to the same analyst, the Jamboto waters are very pure from a bacteriological point of view. The results of the investigations carried out by Mr. Lepierre are detailed in a booklet titled Analyse Chimica e Bacteriologica da Água da Fonte Férrea-Jamboto, Santo Antonio- Funchal, Madeira . . . (Funchal, 1900), published by the Municipal Council of Funchal.",
+    "categories": [
+        "geography",
+        "science"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Jamboto": [
+            "Parish of Santo Antonio"
+        ]
+    },
+    "people": {
+        "Carlos Lepierre": [
+            "Analyst of the waters from the Jamboto spring"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Analysis of the waters from the Fonte Férrea-Jamboto by Carlos Lepierre"
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "id": 102,
+    "lang": "de",
+    "is_original": false,
+    "title": "Madeira-Album",
+    "fl": "M",
+    "original_title": "Álbum Madeirense",
+    "body": "Gedichte verschiedener madeirischer Autoren, gesammelt von Francisco Vieira. Funchal, 1884, 1 Band, 225 Seiten.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Vieira": [
+            "Sammler madeirischer Gedichte"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Jahr der Veröffentlichung"
+        ]
+    }
+}

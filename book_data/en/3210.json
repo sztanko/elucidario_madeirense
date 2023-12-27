@@ -1,0 +1,36 @@
+{
+    "id": 3210,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santos (Vitorino José dos)",
+    "fl": "S",
+    "original_title": "Santos (Vitorino José dos)",
+    "body": "He was born in Funchal on December 29, 1863, the son of Augusto César dos Santos and D. Isabel de Ornelas Santos, and is a civil engineer, having studied at the former Polytechnic and Army schools in Lisbon. He was the director of public municipal works in Luanda and chief engineer of the public works section of the province of Angola, and after returning to Funchal, he was the administrator of the municipality and police commissioner. He is the director and teacher at the Antonio Augusto de Aguiar Industrial School and head of the 6th Technical Services Circumscription of Industry in Funchal, having written several reports in this latter position that were published in the *Boletim de Trabalho Industrial*, some of which, such as those related to charitable institutions and trade associations, embroidery, artifacts, wickerwork, and inlays, are complete and quite valuable works. He also published a book of verses, entitled *Lágrimas*, of which two editions were made, the first in Funchal in 1916, and the second in Coimbra in 1918 (1921). He died on October 1, 1928.",
+    "categories": [
+        "education"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Augusto César dos Santos": [
+            "Father"
+        ],
+        "D. Isabel de Ornelas Santos": [
+            "Mother"
+        ]
+    },
+    "years": {
+        "1863": [
+            "Year of birth"
+        ],
+        "1928": [
+            "Year of death"
+        ]
+    }
+}

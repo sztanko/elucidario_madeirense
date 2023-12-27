@@ -1,0 +1,26 @@
+{
+    "id": 2481,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora do Carmo (Capela de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora do Carmo (Capela de)",
+    "body": "O mercador Domingos Rodrigues, natural de Guimarães, construiu em 1658, na quinta que possuía na freguesia do Campanário, a capela de Nossa Senhora do Carmo.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Campanário"
+    ],
+    "locations": {},
+    "people": {
+        "Domingos Rodrigues": [
+            "Mercador"
+        ]
+    },
+    "years": {
+        "1658": [
+            "Construção da capela de Nossa Senhora do Carmo"
+        ]
+    }
+}

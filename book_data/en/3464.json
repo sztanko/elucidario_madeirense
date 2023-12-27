@@ -1,0 +1,41 @@
+{
+    "id": 3464,
+    "lang": "en",
+    "is_original": false,
+    "title": "Teles de Meneses (Guilherme)",
+    "fl": "T",
+    "original_title": "Teles de Meneses (Guilherme)",
+    "body": "He was born in Madeira around 1855, but has long resided in Portugal, currently retired as an accountant from the former Court of Auditors, now the Superior Council of State Financial Administration. Having come to this island in 1894, he lived for some time in the Poiso house and later in the Areeiro house, making some meteorological observations in both places, the results of which he later published. He was also the administrator of the Funchal council, but did not stay in this position for long due to a conflict he had with the governor, who on March 7, 1896, prohibited the people from obtaining water from the João Denis springs (1921). In the 15th series, no. 6 (1896) of the Bulletin of the Society of Geography of Lisbon, he published a memoir entitled A Madeira and Dr. Douglas, which is a response to what this doctor wrote in a pamphlet about the advantages of Las Palmas over Madeira as a health resort for tuberculosis patients. The meteorological station at Areeiro, which never became operational, and the attached house were built under the direction of Guilherme Teles de Meneses. (1921)",
+    "categories": [
+        "history",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Poisio": [
+            "Locality on the island of Madeira"
+        ],
+        "Areeiro": [
+            "Locality on the island of Madeira"
+        ],
+        "Funchal": [
+            "Locality on the island of Madeira"
+        ],
+        "Las Palmas": [
+            "Location in Spain"
+        ]
+    },
+    "people": {
+        "Guilherme Teles de Meneses": [
+            "Retired accountant from the former Court of Auditors, now the Superior Council of State Financial Administration"
+        ]
+    },
+    "years": {
+        "1894": [
+            "Guilherme Teles de Meneses came to this island"
+        ],
+        "1896": [
+            "Conflict with the governor"
+        ]
+    }
+}

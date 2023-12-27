@@ -1,0 +1,32 @@
+{
+    "id": 2403,
+    "lang": "de",
+    "is_original": false,
+    "title": "Murray (Carlos)",
+    "fl": "M",
+    "original_title": "Murray (Carlos)",
+    "body": "Er war britischer Konsul auf Madeira im 18. Jahrhundert. Er ließ den alten Brunnen Senhora in Monte bauen, der 1896 durch den Sturz einer großen Kastanie zerstört wurde, und obwohl Protestant, ließ er das Pfarrhaus in derselben Gemeinde und einen Teil des Pilgerhauses bauen.\n\nEr half bei der Durchführung einiger öffentlicher Verbesserungen und trug auch großzügig zu verschiedenen Projekten zugunsten der am stärksten benachteiligten Klassen in Funchal bei.\n\nEs ist erwähnenswert, dass er auf eigene Kosten eine kuriose Broschüre mit dem Titel „Interessante Hinweise an die Menschheit oder Sammlung einiger Artikel über die Wiederbelebung Ertrunkener und anderer Fälle von Scheintod...“ veröffentlichen ließ, die vom madeirischen Dichter Francisco Manuel de Oliveira aus dem Englischen übersetzt und 1788 in Lissabon gedruckt wurde.",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Monte": [
+            "Ort, an dem Carlos Murray den alten Brunnen Senhora und das Pfarrhaus bauen ließ."
+        ]
+    },
+    "people": {
+        "Francisco Manuel de Oliveira": [
+            "Madeirischer Dichter, der die von Carlos Murray veröffentlichte Broschüre übersetzte."
+        ]
+    },
+    "years": {
+        "1788": [
+            "Veröffentlichung der Broschüre „Interessante Hinweise an die Menschheit oder Sammlung einiger Artikel über die Wiederbelebung Ertrunkener und anderer Fälle von Scheintod...\""
+        ],
+        "1896": [
+            "Zerstörung des alten Brunnens Senhora in Monte durch den Sturz einer großen Kastanie."
+        ]
+    }
+}

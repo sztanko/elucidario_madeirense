@@ -1,0 +1,26 @@
+{
+    "id": 1035,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Corujeira",
+    "fl": "C",
+    "original_title": "Corujeira",
+    "body": "Neste conhecido sitio da freguesia da Tabúa, encontra-se uma antiga capela que tem a invocação da Mãi de Deus, ignorando-se o ano da sua fundação e o nome dos seus instituidores. Arrasada pela violencia das aguas caudalosas da ribeira, foi reedificada na margem oposta á da sua primeira construção, no ano de 1767.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Tabúa"
+    ],
+    "locations": {
+        "Tabúa": [
+            "Freguesia onde se localiza a Corujeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1767": [
+            "Reedificação da antiga capela na margem oposta à sua primeira construção."
+        ]
+    }
+}

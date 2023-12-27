@@ -1,0 +1,31 @@
+{
+    "id": 379,
+    "lang": "en",
+    "is_original": false,
+    "title": "Baixo (Ilhéu de)",
+    "fl": "B",
+    "original_title": "Baixo (Ilhéu de)",
+    "body": "This islet, also known as Ilhéu da Cal, is adjacent to the island of Porto Santo, from which it is separated by a channel or strait called Boqueirão de Baixo. It is located at the southern end of the island and on the western limit of the vast bay, facing the site of Calheta. It is from this islet that for centuries, and still today, all the limestone used as raw material for the construction of Madeira is extracted. To extract it, the orientation of the respective vein is followed, forming extensive galleries with high columns or pillars designed to prevent collapses. The extraction takes place at various points, and each group of workers employed in the various places where limestone is extracted is called a \"rancho.\" This limestone is taxed when exported to Madeira, and the respective tax is collected at the customs of Funchal, constituting one of the most valuable revenues of the Municipal Council of Porto Santo. This islet is of relative extension and still has abundant rabbits, despite the continuous poaching of these rodents. The islet's terrain has undergone uplifts, as evidenced by the presence of limestone well above sea level, and by the presence of marine shells, corals, and stones similar to those found on beaches in the formation. The fossils are from the upper Miocene period, and about fifty species have been found, including bryozoans, corals, sea urchins, bivalve mollusks, and gastropods, which were described by Carlos Mayer in Hartung's work on the geology of the archipelago. The limestone formation is covered by supramarine lavas. On the islet's coasts, there are some caves where salt stalactites are observed, and in Portinho, there are large excavations made by man in the tuffs, and a cistern whose waters are strongly salty due to the permeability of the rock.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilha do Porto Santo": [
+            "Adjacent to Ilhéu de Baixo"
+        ],
+        "Calheta": [
+            "Site facing Ilhéu de Baixo"
+        ],
+        "Funchal": [
+            "Location of the limestone tax collection"
+        ]
+    },
+    "people": {
+        "Carlos Mayer": [
+            "Described about fifty fossil species in Hartung's work on the geology of the archipelago"
+        ]
+    },
+    "years": {}
+}

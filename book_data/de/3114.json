@@ -1,0 +1,45 @@
+{
+    "id": 3114,
+    "lang": "de",
+    "is_original": false,
+    "title": "Rodrigues (Manuel)",
+    "fl": "R",
+    "original_title": "Rodrigues (Manuel)",
+    "body": "Dieses Mitglied unserer Gemeinschaft hatte, wie wir einigen Werken entnehmen können, die sich mit ihm befassen, ein ziemlich bewegtes Leben. Er wurde am 25. November 1697 in Funchal geboren und starb in der zweiten Hälfte des 18. Jahrhunderts in Lissabon, in einem Jahr, das wir nicht genau bestimmen können. Seine Eltern waren Francisco Maria dos Ramos und D. Josefa Maria Pereira. Im Alter von 15 Jahren schiffte er sich nach Rio de Janeiro ein, um seinem Onkel, Kapitän Manuel Neto Barreto, Gesellschaft zu leisten. Er immatrikulierte sich am Priesterseminar von Cachoeira und erwies sich als äußerst talentierter Student. 1715 trat er in das Regiment des Obersten Manuel de Almeida Castelo ein und begab sich zur Kolonie Sacramento. Kurz darauf verließ er die Armee und trat 1719 in den Orden der Franziskaner ein. Er studierte Philosophie und Theologie im Kloster von Córdoba im Landesinneren Argentiniens. Er begleitete Pater José de Cardena auf einer Reise in die Provinz Santa Fé und bereiste andere Länder. Als er vom Tod seines Vaters und von der Notlage erfuhr, in der seine drei Schwestern zurückgeblieben waren, machte er sich ohne Verzug auf den Weg nach Lissabon, um ihnen Beistand zu leisten. Wie der Autor des Artikels im Missionário Popular sagt, muss Manuel Rodrigues ein „abenteuerliches und wahrscheinlich stürmisches Leben“ gehabt haben, denn es war sicher kein Zufall, dass er „der Reihe nach Seminarist in Rio de Janeiro, Unteroffizier in der Kolonie Sacramento, Franziskaner in Buenos Aires, Philosophiestudent in Córdoba und Prediger in Lissabon“ war! In der Hauptstadt widmete er sich dem Predigtamt und erwarb sich den Ruf eines der gefeiertsten Redner seiner Zeit. Barbosa Machado und Inocêncio listen die vielen Predigten und Reden auf, die er in der Zeit von 1732 bis 1757 veröffentlichte, darunter auch die Trauerrede, die er beim Tod von König Johann V. hielt.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Maria dos Ramos": [
+            "Vater von Manuel Rodrigues"
+        ],
+        "D. Josefa Maria Pereira": [
+            "Mutter von Manuel Rodrigues"
+        ],
+        "Manuel Neto Barreto": [
+            "Onkel von Manuel Rodrigues"
+        ],
+        "Pater José de Cardena": [
+            "Reisebegleiter von Manuel Rodrigues"
+        ],
+        "König Johann V.": [
+            "Verstorbener, zu dessen Tod Manuel Rodrigues eine Trauerrede hielt"
+        ]
+    },
+    "years": {
+        "1697": [
+            "Geburt von Manuel Rodrigues in Funchal"
+        ],
+        "1715": [
+            "Manuel Rodrigues trat in das Regiment des Obersten Manuel de Almeida Castelo ein"
+        ],
+        "1719": [
+            "Manuel Rodrigues legte die Profess im Franziskanerorden ab"
+        ],
+        "1732-1757": [
+            "Veröffentlichung zahlreicher Predigten und Reden durch Manuel Rodrigues, einschließlich der Trauerrede beim Tod von König Johann V."
+        ]
+    }
+}

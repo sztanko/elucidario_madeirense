@@ -1,0 +1,36 @@
+{
+    "id": 3251,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Pedro (Lombada, Ribeira e Capela de)",
+    "fl": "S",
+    "original_title": "São Pedro (Lombada, Ribeira e Capela de)",
+    "body": "In the parish of Santa Cruz, not far from the respective town, is located the Lombada de São Pedro or de Santa Cruz, which is crossed by the stream also called São Pedro, more commonly known as Ribeira da Boaventura.\nIn the early 16th century, João Escorcio Drumond had a chapel dedicated to the apostle St. Peter built there, which was completely destroyed by the great flood on October 9, 1803, and was soon after rebuilt in a less exposed location to the violence of the current.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santa Cruz": [
+            "Parish of Santa Cruz"
+        ],
+        "Lombada de São Pedro": [
+            "Lombada de São Pedro or de Santa Cruz"
+        ],
+        "Ribeira da Boaventura": [
+            "Stream also known as São Pedro"
+        ]
+    },
+    "people": {
+        "João Escorcio Drumond": [
+            "Builder of the chapel dedicated to St. Peter in Lombada de São Pedro"
+        ]
+    },
+    "years": {
+        "1803": [
+            "Flood that destroyed the chapel dedicated to St. Peter in Lombada de São Pedro"
+        ]
+    }
+}

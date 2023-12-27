@@ -1,0 +1,32 @@
+{
+    "id": 2170,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mangas (Manuel Júlio Tôrres)",
+    "fl": "M",
+    "original_title": "Mangas (Manuel Júlio Tôrres)",
+    "body": "He is the son of Colonel Manuel Júlio Torres Mangas, who was the civil governor and military commander of Madeira during the revolutionary movement that took place in this city on the morning of April 29, 1847, proclaiming the principles of the Junta do Porto (see Governing Junta). About Manuel Júlio Torres Mangas, the only information we have is what Brito Aranha tells us in vol. XVI of the Bibliographic Dictionary. He was born in Funchal in 1835 and held various public positions in the mainland and overseas. He was a journalist and contributed to *Jornal do Porto, Verdade, Ecco Popular, Nacional, Alemtejano,* and *Jardim Literario.* He wrote a booklet entitled 'Vida do Visconde de Almeida Garrett, prince of poets in the 19th century.'",
+    "categories": [
+        "history",
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Manuel Júlio Torres Mangas": [
+            "Son of Colonel Manuel Júlio Torres Mangas"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Year of birth"
+        ],
+        "1847": [
+            "Year of the revolutionary movement"
+        ]
+    }
+}

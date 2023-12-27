@@ -1,0 +1,43 @@
+{
+    "id": 2688,
+    "lang": "de",
+    "is_original": false,
+    "title": "Paul do Mar",
+    "fl": "P",
+    "original_title": "Paul do Mar",
+    "body": "An anderer Stelle haben wir bereits angemerkt, dass Gaspar Frutuoso im Jahr 1590 eine zusammenfassende Beschreibung der wichtigsten Pfarrgemeinden und Orte an der Südwestküste Madeiras liefert, wobei er sich auf die Orte Jardim do Mar und Paul do Mar bezieht und ihnen nur die Bezeichnungen Jardim und Paul gibt, ohne dass wir wissen, ob sie in den frühen Zeiten der Kolonisation so bekannt waren und ohne die später hinzugefügte Bezeichnung \\",
+    "categories": [
+        "geography",
+        "history",
+        "economy"
+    ],
+    "freguesias": [
+        "Paul do Mar",
+        "Jardim do Mar",
+        "Prazeres",
+        "Estreito da Calheta",
+        "Machico",
+        "Camara de Lôbos"
+    ],
+    "locations": {
+        "Paul do Mar": [
+            "Pfarrgemeinde an der Südwestküste Madeiras, bekannt für ihre Fischereiaktivität und die Produktion landwirtschaftlicher Erzeugnisse. Es war auch der Standort einer Fischkonservenfabrik und von Salinen, die jedoch aufgrund der geringen Ernte aufgegeben wurden. Die Bevölkerung betrug 1911 1.586 Einwohner."
+        ]
+    },
+    "people": {
+        "João Anes de Couto Cardoso": [
+            "Einer der ältesten Siedler der Pfarrgemeinde Paul do Mar, der viele Ländereien in Erbpacht hatte und die Kapelle Santo Amaro gründete, die später als Pfarrkirche diente."
+        ]
+    },
+    "years": {
+        "1912": [
+            "Gründung der Mädchenschule in Paul do Mar."
+        ],
+        "1911": [
+            "Jahr der Volkszählung, die eine Bevölkerung von 1.586 Einwohnern in Paul do Mar registrierte."
+        ],
+        "1944": [
+            "Jahr der Einweihung der Fischerhaussiedlung in Paul do Mar."
+        ]
+    }
+}

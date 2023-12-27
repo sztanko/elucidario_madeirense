@@ -1,0 +1,27 @@
+{
+    "id": 1261,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Esperança",
+    "fl": "E",
+    "original_title": "Esperança",
+    "body": "Revista mensal dos estudantes do Seminário Diocesano. Saíu o primeiro numero em Dezembro de 1907 e o ultimo em Novembro de 1908.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Seminário Diocesano": [
+            "Local onde a revista Esperança era produzida"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1907": [
+            "Lançamento do primeiro número da revista Esperança"
+        ],
+        "1908": [
+            "Lançamento do último número da revista Esperança"
+        ]
+    }
+}

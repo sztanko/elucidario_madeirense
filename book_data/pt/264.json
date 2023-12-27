@@ -1,0 +1,35 @@
+{
+    "id": 264,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Armitage (Eleonora)",
+    "fl": "A",
+    "original_title": "Armitage (Eleonora)",
+    "body": "Botânica inglêsa que herborizou na Madeira nos princípios do ano de 1909.\nFez uma colecção de musgos, que foi estudada por H. N. Dixon, e escreveu os trabalhos seguintes: Some\nMadeira Hepaficae (Journ. of Botany, 1910); Intensive Cultivation in Madeira (Journ. of Royal Hortic. Soc.,\n1910); e On the Habitats and frequencies of some Madeira Bryophytes (Journ. of Ecology, VI, 1918).",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde herborizou"
+        ]
+    },
+    "people": {
+        "H. N. Dixon": [
+            "Estudou a colecção de musgos"
+        ]
+    },
+    "years": {
+        "1909": [
+            "Herborização na Madeira"
+        ],
+        "1910": [
+            "Publicação de Some Madeira Hepaficae e Intensive Cultivation in Madeira"
+        ],
+        "1918": [
+            "Publicação de On the Habitats and frequencies of some Madeira Bryophytes"
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "id": 1760,
+    "lang": "de",
+    "is_original": false,
+    "title": "Ilha",
+    "fl": "I",
+    "original_title": "Ilha",
+    "body": "Besiedelter Ort in der Gemeinde S. Jorge. Dort gab es eine kleine Kapelle Unserer Lieben Frau vom Schmerz, die im letzten Viertel des 18. Jahrhunderts vom Priester Matias Jorge Jardim erbaut wurde. Dieser Ort war Teil eines Majorats, das 1559 von Jorge Pinto gegründet wurde und dessen letzter Verwalter Laureano da Câmara Falcão, genannt der Majoratsherr von Ilha, war, der diese Ländereien vor einigen Jahrzehnten an die jeweiligen Pächter verkaufte. Der Name dieses Ortes rührt daher, dass er von dem Bach umgeben ist, der sich gabelt und an der gleichen Stelle wieder vereint.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "S. Jorge"
+    ],
+    "locations": {
+        "S. Jorge": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "Matias Jorge Jardim": [
+            "Priester"
+        ]
+    },
+    "years": {
+        "1559": [
+            "Gründung des Majorats durch Jorge Pinto"
+        ],
+        "18. Jahrhundert": [
+            "Bau der Kapelle"
+        ]
+    }
+}

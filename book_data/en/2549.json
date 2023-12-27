@@ -1,0 +1,37 @@
+{
+    "id": 2549,
+    "lang": "en",
+    "is_original": false,
+    "title": "Nunes (Filipe José)",
+    "fl": "N",
+    "original_title": "Nunes (Filipe José)",
+    "body": "He was born in the parish of Monte in 1824 and died in this city around 1890. For many years, he was the parish priest of Sé and enjoyed the title of honorary canon. He had an uncommon culture and distinguished himself as a journalist, especially in the newspaper \"O Popular\", engaging in fierce battles in the press, where at times the language excesses were reminiscent of the diatribes of José Agostinho de Macedo. He had a collection of sacred speeches ready to be published at the time of his death, which was not printed.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Monte",
+        "Sé"
+    ],
+    "locations": {
+        "Monte": [
+            "Birthplace of Filipe José Nunes"
+        ],
+        "City": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "Filipe José Nunes": [
+            "Journalist and parish priest of Sé"
+        ]
+    },
+    "years": {
+        "1824": [
+            "Birth of Filipe José Nunes"
+        ],
+        "1890": [
+            "Death of Filipe José Nunes"
+        ]
+    }
+}

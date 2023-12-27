@@ -1,0 +1,30 @@
+{
+    "id": 1000,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Convento de São Francisco da Calheta",
+    "fl": "C",
+    "original_title": "Convento de São Francisco da Calheta",
+    "body": "“0 convento de frades de S. Francisco, da Calheta, diz-se numa nota das Saudades da Terra, foi por meio de esmolas levantado cerca do anno de 1670, em terreno comprado pelo devoto Pedro Bettencourt de Athouguia, o qual, depois tomou o habito de leigo no convento de S. Bernardino. É propriedade particular porque foi vendido pela Fazenda Publica”.\n\nEra o mais modesto dos conventos da Madeira e teve sempre um numero muito reduzido de religiosos. Era pequeno o edificio e também a igreja era de acanhadas dimensões.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Localização do convento"
+        ]
+    },
+    "people": {
+        "Pedro Bettencourt de Athouguia": [
+            "Comprador do terreno onde foi levantado o convento"
+        ]
+    },
+    "years": {
+        "1670": [
+            "Ano em que foi levantado o convento"
+        ]
+    }
+}

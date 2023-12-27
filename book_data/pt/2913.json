@@ -1,0 +1,25 @@
+{
+    "id": 2913,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Prainha",
+    "fl": "P",
+    "original_title": "Prainha",
+    "body": "Pequena praia no litoral da freguesia do Caniçal, que se distingue das restantes da Madeira, por ser formada de areia, enquanto todas as outras são de calhaus rolados. Fica ao fundo duma pitoresca enseada, bastante visitada pelos veraneantes da vila de Machico.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Caniçal"
+    ],
+    "locations": {
+        "Caniçal": [
+            "Freguesia no litoral onde se encontra a pequena praia de Prainha."
+        ],
+        "Machico": [
+            "Vila cujos veraneantes visitam a praia de Prainha."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

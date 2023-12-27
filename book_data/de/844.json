@@ -1,0 +1,38 @@
+{
+    "id": 844,
+    "lang": "de",
+    "is_original": false,
+    "title": "Zeder",
+    "fl": "Z",
+    "original_title": "Cedro",
+    "body": "Verschiedene Nadelhölzer aus der Familie der Kieferngewächse werden auf Madeira Zeder genannt, wobei die häufigste die Juniperus glauca ist, die allgemein als Goa-Zeder oder Hütten-Zeder bekannt ist.\n\nDie Insel-Zeder ist die Juniperus Oxycedrus Unterart madeirensis, ein Strauch oder kleiner Baum von 4-7 Metern, mit zweihäusigen Blüten, hängenden Zweigen, linearen oder linear-lanzettlichen, dreizähligen Blättern mit 2 weißen Streifen auf der Oberseite und fast kugeligen, gewöhnlich gelben Zapfen. Diese Zeder, die in den Gärten von Monte, Camacha und Santo da Serra kultiviert, aber in den Bergen Madeiras fast ausgestorben ist, liefert ein aromatisches, leichtes Holz, das von Tischlern sehr geschätzt wird. Die Decke der Kathedrale wurde aus diesem Holz gebaut, und wenn Manuel Tomás in der Insulana Recht hat, wurde es auch verwendet, um das erste Stockwerkhaus zu bauen, das es in Funchal gab. Das Zedernöl wird von J. Oxycedrus produziert.",
+    "categories": [
+        "biology",
+        "architecture"
+    ],
+    "freguesias": [
+        "Monte",
+        "Camacha",
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Monte": [
+            "Anbaugebiet der Zeder"
+        ],
+        "Camacha": [
+            "Anbaugebiet der Zeder"
+        ],
+        "Santo da Serra": [
+            "Anbaugebiet der Zeder"
+        ],
+        "Funchal": [
+            "Verwendung des Holzes beim Bau des ersten Stockwerkhauses"
+        ]
+    },
+    "people": {
+        "Manuel Tomás": [
+            "Erwähnt in der Insulana"
+        ]
+    },
+    "years": {}
+}

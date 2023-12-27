@@ -1,0 +1,34 @@
+{
+    "id": 2361,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Monumento a Nossa Senhora da Paz",
+    "fl": "M",
+    "original_title": "Monumento a Nossa Senhora da Paz",
+    "body": "– A 1 de Novembro de 1923, se lançou a primeira pedra do grandioso monumento erigido no Terreiro da Luta, à freguesia do Monte, em honra da Santíssima Virgem sob a invocação de Nossa Senhora da Paz, que consta de uma primorosa imagem em mármore, assentada em um plinto ladeado por artísticos baixos-relevos fundidos em bronze e alusivos à tradicional crença do aparecimento da Virgem Santíssima naquele mesmo local. Anexo ao monumento, ergue-se uma pequena e elegante ermida, em que frequentemente se celebra o santo sacrifício da missa e outros actos do culto. A erecção deste monumento deve-se ao acendrado zelo e aturados esforços do padre José Marques Jardim, que não se poupou aos maiores sacrifícios para que ele revestisse a imponência e o aspecto de grandeza que o caracterizam, indo até o estrangeiro angariar donativos para conseguir a realização desta obra. A inauguração solene, que revestiu o maior aparato e a que acorreram milhares de pessoas vindas de todos os pontos da ilha, realizou-se sob a presidência do prelado diocesano a 14 de Agosto do ano de 1927.",
+    "categories": [
+        "religion",
+        "culture"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Terreiro da Luta": [
+            "Local em Monte"
+        ]
+    },
+    "people": {
+        "José Marques Jardim": [
+            "Padre"
+        ]
+    },
+    "years": {
+        "1923": [
+            "Lançamento da primeira pedra do monumento a Nossa Senhora da Paz"
+        ],
+        "1927": [
+            "Inauguração solene do monumento a Nossa Senhora da Paz"
+        ]
+    }
+}

@@ -1,0 +1,61 @@
+{
+    "id": 1245,
+    "lang": "en",
+    "is_original": false,
+    "title": "Escola Lancasteriana",
+    "fl": "E",
+    "original_title": "Escola Lancasteriana",
+    "body": "The English subject José Phelps introduced the mutual teaching system by Lancaster to Madeira. The Lancasterian School, founded in 1819, was initially located in a house at Ribeirinho, then moved to Travessa do Surdo, and later to the building on Rua da Princesa, now 31 de Janeiro, where the boys' school of the parish of Santa Luzia is currently located. This building was constructed by the Funchal Association aimed at promoting mutual teaching, with the land being acquired by them at the end of 1822. The Funchal Association aimed at promoting mutual teaching was founded on December 21, 1821, with the aforementioned José Phelps as its first treasurer and Canon Lúcio Antonio Lopes Rocha as its first president. This association organized dances and subscriptions to obtain the necessary funds for the school's maintenance. On July 25, 1827, the director of the mutual teaching class, belonging to the Association promoting this teaching, said: 'This class has had 275 students from its opening on December 1, 1823, until now, with 78 students currently and space for 305. It should be noted that the terrible instrument called the paddle is banned in this class, where the same or better results are achieved by gentler means, which are at the same time more sensitive to the students' self-esteem.' The school we refer to was intended for male children; however, there was another one for girls, established by the ladies Blackburn and Phelps. The maintenance of this latter school in 1850 was the responsibility of a society of national and foreign ladies, with the Government contributing to the salary of the teacher, while the maintenance of the boys' school was then the responsibility of the State, with the teacher's salary being paid by the State. We are unaware of the year when the Lancaster system ceased to be adopted in the former school on Rua da Princesa, but it is presumed that it was banned from there in 1828 when the teacher Alexandre Luiz da Cunha left for America. The building on the former Rua da Princesa, now 31 de Janeiro, was repaired by the State in 1850, and the entrance works of the same building were also carried out by the State in 1851 by order of Governor José Silvestre Ribeiro. In 1912 and 1914, the Municipality had several repairs made to the school. There is a publication titled 'Report on the progress of the Lancasterian School in the Province of Madeira,' which has the date of February 6, 1823, at the end, containing interesting information about the Lancaster teaching method and how it was introduced on the island.",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Ribeirinho": [
+            "Initial location of the school"
+        ],
+        "Travessa do Surdo": [
+            "Subsequent location of the school"
+        ],
+        "Rua da Princesa": [
+            "Current location of the school"
+        ]
+    },
+    "people": {
+        "José Phelps": [
+            "Introduced the mutual teaching system to Madeira"
+        ],
+        "Canon Lúcio Antonio Lopes Rocha": [
+            "First president of the Funchal Association"
+        ]
+    },
+    "years": {
+        "1819": [
+            "Foundation of the Lancasterian School"
+        ],
+        "1821": [
+            "Foundation of the Funchal Association aimed at promoting mutual teaching"
+        ],
+        "1823": [
+            "Publication of the Report on the progress of the Lancasterian School"
+        ],
+        "1828": [
+            "Year when the Lancaster system ceased to be adopted in the former school on Rua da Princesa"
+        ],
+        "1850": [
+            "Year when the building on Rua da Princesa was repaired by the State"
+        ],
+        "1851": [
+            "Year when the entrance works of the building were carried out by order of Governor José Silvestre Ribeiro"
+        ],
+        "1912": [
+            "Year when the Municipality had several repairs made to the school"
+        ],
+        "1914": [
+            "Year when the Municipality had several repairs made to the school"
+        ]
+    }
+}

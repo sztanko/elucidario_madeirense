@@ -1,0 +1,25 @@
+{
+    "id": 382,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Balancal",
+    "fl": "B",
+    "original_title": "Balancal",
+    "body": "Logar da freguesia de São Gonçalo, que limita a quinta do Palheiro Ferreiro pelo seu extremo sul e donde se descortina um surpreendente panorama sobre o anfiteatro da cidade do Funchal e seus suburbios.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "São Gonçalo": [
+            "Freguesia onde se encontra o logar do Balancal."
+        ],
+        "Funchal": [
+            "Cidade próxima do logar do Balancal."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

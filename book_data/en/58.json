@@ -1,0 +1,29 @@
+{
+    "id": 58,
+    "lang": "en",
+    "is_original": false,
+    "title": "Afonso",
+    "fl": "A",
+    "original_title": "Afonso",
+    "body": "A very ancient family name among us. João Afonso, whom we will discuss below, was one of the early settlers of this island. In the early 16th century, Martim Afonso and his wife Isabel Afonso founded the chapel of the Anjos in the parish of Canhas. Previously, Álvaro Afonso had donated the land for the construction of the Misericórdia in 1483.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {},
+    "people": {
+        "João Afonso": [
+            "Early settler of the island"
+        ]
+    },
+    "years": {
+        "16th century": [
+            "Foundation of the chapel of the Anjos by Martim Afonso and Isabel Afonso"
+        ],
+        "1483": [
+            "Donation of the land for the construction of the Misericórdia by Álvaro Afonso"
+        ]
+    }
+}

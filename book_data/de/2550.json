@@ -1,0 +1,37 @@
+{
+    "id": 2550,
+    "lang": "de",
+    "is_original": false,
+    "title": "Nunes (Pater Manuel)",
+    "fl": "N",
+    "original_title": "Nunes (Padre Manuel)",
+    "body": "Er wurde 1848 in der Gemeinde Paul do Mar geboren und starb am 28. Dezember 1892 in der Gemeinde São Gonçalo, wo er Pfarrer war. Er war einer unserer herausragendsten geistlichen Redner, dessen Ansprachen durch Eleganz der Form und sprachliche Korrektheit bemerkenswert waren. Er kultivierte mit Glanz die Dichtkunst, insbesondere die satirische Gattung, in der er bei uns sehr bekannt wurde und Kompositionen schuf, die mit denen unseres Nicolau Tolentino mithalten können.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Paul do Mar",
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Paul do Mar": [
+            "Geburtsort von Pater Manuel Nunes"
+        ],
+        "São Gonçalo": [
+            "Sterbeort von Pater Manuel Nunes"
+        ]
+    },
+    "people": {
+        "Pater Manuel Nunes": [
+            "Herausragender geistlicher Redner und Dichter"
+        ]
+    },
+    "years": {
+        "1848": [
+            "Geburt von Pater Manuel Nunes"
+        ],
+        "1892": [
+            "Tod von Pater Manuel Nunes"
+        ]
+    }
+}

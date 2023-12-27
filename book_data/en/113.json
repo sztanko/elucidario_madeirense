@@ -1,0 +1,36 @@
+{
+    "id": 113,
+    "lang": "en",
+    "is_original": false,
+    "title": "Alcoforado (Francisco)",
+    "fl": "A",
+    "original_title": "Alcoforado (Francisco)",
+    "body": "Squire of Infante D. Henrique. He wrote the Relação do Descobrimento da Ilha da Madeira, which was never printed, and of which D. Francisco Manuel de Melo claimed to have the original in his possession as a precious jewel. There is a French translation of this work, with the following title: Relation historique de la découverte de l'isle de Madère, Paris 1671. It was also translated into English, under the following title: The First discovery of the island of Madeira, London, 1675. The French translation of 1671 was reproduced in an edition published in Paris about 50 years ago, which mistakenly bears the date of 1671, when it should be from the eighteen-sixties. Inocencio mentions another English translation, which is in the British Museum and is titled An Historical Account of the discovery of the Island of Madeira abridged from the Portuguese original, to which is added an Account of the present state of the Island, in a Letter to a Friend. London, 1750. This version is rightly attributed to Dr. Johns.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Residence of Gonçalo Pinto Alcoforado"
+        ]
+    },
+    "people": {
+        "Francisco Alcoforado": [
+            "Squire of Infante D. Henrique, author of the Relação do Descobrimento da Ilha da Madeira"
+        ]
+    },
+    "years": {
+        "1671": [
+            "French translation of Relation historique de la découverte de l'isle de Madère"
+        ],
+        "1675": [
+            "English translation of The First discovery of the island of Madeira"
+        ],
+        "1850": [
+            "English translation of An Historical Account of the discovery of the Island of Madeira"
+        ]
+    }
+}

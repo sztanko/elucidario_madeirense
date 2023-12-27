@@ -1,0 +1,94 @@
+{
+    "id": 1115,
+    "lang": "de",
+    "is_original": false,
+    "title": "Deklination der Nadel",
+    "fl": "D",
+    "original_title": "Declinação da Agulha",
+    "body": "Das ist der Winkel, den der magnetische Meridian mit dem astronomischen Meridian bildet.\n\nIn Funchal betrug dieser Winkel 15° 30' W. im Jahr 1768 (Dr. Heberden); 21° 32' W. im Jahr 1829 (Penny Cyclop.); 21° W. im Jahr 1835 (Wyld); 21° W. im Jahr 1843 (Vidal); 20° 57 1/2' W. im Jahr 1851 (A. P. de Azevedo); 20° 56' W. im Jahr 1861 (Friesach); 19° 55' W. im Jahr 1885 (Admiralitätskarte); und 19° W. im Jahr 1892 (ebd.).\n\nLaut Offizieren der Challenger betrug die Deklination 18° 25' W. am 4. Februar 1872 und 20° 33' W. am 17. Juli 1873. Der Oberst Francisco Afonso de Chaves, der 1903 (22. Juni) und 1906 (4. Juni) ebenfalls magnetische Beobachtungen in Funchal anstellte, fand heraus, dass die Deklination im ersten dieser Jahre 20° 31'30\" W. und im zweiten 20° 36' 55'' W. betrug.\n\nAm 14. November 1842 betrug die magnetische Abweichung auf Porto Santo 24° 38' 12\", wie auf der Karte dieser Insel des verstorbenen General Antonio Pedro de Azevedo zu lesen ist.\n\nBory, der Madeira 1755 besuchte und den Bericht seiner Reise in der Histoire et Mémoires de L'Académie Royale des Sciences pour l'an 1772 veröffentlichte, sagt, dass \"die Abweichung der Magnetnadel, die unsere Position und der Mangel an einem Meridian uns daran hinderten, an Land zu erkennen, oft an Bord der Cometa beobachtet wurde; sie schwankte zwischen 10° 35' W. und 11° 55'', was ein Durchschnittsergebnis von 11° 3/4 ergibt.\"",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "15° 30' W. im Jahr 1768, 21° 32' W. im Jahr 1829, 21° W. im Jahr 1835, 21° W. im Jahr 1843, 20° 57 1/2' W. im Jahr 1851, 20° 56' W. im Jahr 1861, 19° 55' W. im Jahr 1885, 19° W. im Jahr 1892"
+        ],
+        "Porto Santo": [
+            "24° 38' 12\" im Jahr 1842"
+        ]
+    },
+    "people": {
+        "Dr. Heberden": [
+            "Beobachtete die Deklination 1768"
+        ],
+        "Penny Cyclop.": [
+            "Beobachtete die Deklination 1829"
+        ],
+        "Wyld": [
+            "Beobachtete die Deklination 1835"
+        ],
+        "Vidal": [
+            "Beobachtete die Deklination 1843"
+        ],
+        "A. P. de Azevedo": [
+            "Beobachtete die Deklination 1851"
+        ],
+        "Friesach": [
+            "Beobachtete die Deklination 1861"
+        ],
+        "Admiralitätskarte": [
+            "Beobachtete die Deklination 1885"
+        ],
+        "Oberst Francisco Afonso de Chaves": [
+            "Führte magnetische Beobachtungen 1872 und 1873 durch"
+        ],
+        "Bory": [
+            "Besuchte Madeira 1755"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Deklination von 15° 30' W."
+        ],
+        "1829": [
+            "Deklination von 21° 32' W."
+        ],
+        "1835": [
+            "Deklination von 21° W."
+        ],
+        "1843": [
+            "Deklination von 21° W."
+        ],
+        "1851": [
+            "Deklination von 20° 57 1/2' W."
+        ],
+        "1861": [
+            "Deklination von 20° 56' W."
+        ],
+        "1885": [
+            "Deklination von 19° 55' W."
+        ],
+        "1892": [
+            "Deklination von 19° W."
+        ],
+        "4. Februar 1872": [
+            "Deklination von 18° 25' W."
+        ],
+        "17. Juli 1873": [
+            "Deklination von 20° 33' W."
+        ],
+        "22. Juni 1903": [
+            "Deklination von 20° 31'30\" W."
+        ],
+        "4. Juni 1906": [
+            "Deklination von 20° 36' 55'' W."
+        ],
+        "14. November 1842": [
+            "Magnetische Abweichung auf Porto Santo von 24° 38' 12\""
+        ],
+        "1755": [
+            "Bory besuchte Madeira"
+        ]
+    }
+}

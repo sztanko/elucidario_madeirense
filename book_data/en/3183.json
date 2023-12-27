@@ -1,0 +1,33 @@
+{
+    "id": 3183,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santa Brigida (Chapel of)",
+    "fl": "S",
+    "original_title": "Santa Brigida (Capela de)",
+    "body": "There was a chapel dedicated to Santa Brígida in the parish of São Pedro, founded in 1668 by Antonio Maciel de Afonseca Cerveira. It is unknown where it was located. Acts of worship were celebrated there in the year 1754.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Parish where the chapel existed"
+        ]
+    },
+    "people": {
+        "Antonio Maciel de Afonseca Cerveira": [
+            "Founder of the chapel"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Year of the chapel's foundation"
+        ],
+        "1754": [
+            "Year of celebration of acts of worship"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 442,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barruncho (José Maria Smith)",
+    "fl": "B",
+    "original_title": "Barruncho (José Maria Smith)",
+    "body": "According to the dictionary Portugal, this distinguished officer of our army was of English origin and was born in Funchal in 1839, and died in Lisbon, as a general, on July 26, 1898.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Birthplace"
+        ]
+    },
+    "people": {
+        "José Maria Smith Barruncho": [
+            "Officer of the army"
+        ]
+    },
+    "years": {
+        "1839": [
+            "Birth in Funchal"
+        ],
+        "1898": [
+            "Death in Lisbon"
+        ]
+    }
+}

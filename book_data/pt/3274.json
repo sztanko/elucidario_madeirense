@@ -1,0 +1,42 @@
+{
+    "id": 3274,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sardinha (Padre Alfredo de Paula)",
+    "fl": "S",
+    "original_title": "Sardinha (Padre Alfredo de Paula)",
+    "body": "Nasceu no Funchal a 2 de Abril de 1861 e faleceu na freguesia do Arco da Calheta a 23 de Maio de 1897. Cursou o Liceu e o Seminário desta cidade, e ordenou-se de presbítero no ano de 1885. Exerceu funções paroquiais nas freguesias de Santana, Faial, Fajã da Ovelha e Arco da Calheta. Revelara uma decidida vocação para as letras, tanto na prosa como no verso, mas o infortúnio e as doenças não o deixaram infelizmente dedicar-se a aturados labores literários, havendo muito a esperar do seu incontestável talento e da cultura do seu espírito. Pelos jornais, deixou dispersos vários escritos, especialmente na Verdade, de que foi redactor. Escreveu muitas poesias, algumas das quais tiveram grande voga e ainda hoje são recitadas e cantadas por alguns dos seus contemporâneos. Tinha notáveis qualidades de orador e publicou em 1894 o folheto Discurso recitado na sala da Associação Católica do Funchal....",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [
+        "Santana",
+        "Faial",
+        "Fajã da Ovelha",
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Funchal": [
+            "Nasceu no Funchal a 2 de Abril de 1861"
+        ],
+        "Arco da Calheta": [
+            "Faleceu na freguesia do Arco da Calheta a 23 de Maio de 1897"
+        ]
+    },
+    "people": {
+        "Padre Alfredo de Paula": [
+            "Presbítero, escritor, redator"
+        ]
+    },
+    "years": {
+        "1861": [
+            "Nascimento de Padre Alfredo de Paula"
+        ],
+        "1885": [
+            "Ordenação de presbítero"
+        ],
+        "1897": [
+            "Falecimento de Padre Alfredo de Paula"
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "id": 249,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Archivo Literario (0)",
+    "fl": "A",
+    "original_title": "Archivo Literario (0)",
+    "body": "Publicou-se o primeiro numero a 15 de Abril de 1863 e o 241, que foi o ultimo, a 2 de Novembro do mesmo ano. Foi João de Nobrega Soares o seu principal redactor.",
+    "categories": [
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João de Nobrega Soares": [
+            "Principal redactor"
+        ]
+    },
+    "years": {
+        "1863": [
+            "Publicação do último número"
+        ]
+    }
+}

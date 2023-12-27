@@ -1,0 +1,61 @@
+{
+    "id": 1229,
+    "lang": "en",
+    "is_original": false,
+    "title": "Epanaphoras. Epidemias.",
+    "fl": "E",
+    "original_title": "Epanaphoras. Epidemias.",
+    "body": "> See Melo (D. Francisco Manuel de)\n\nThe ones that left the saddest memory in Madeira due to the mortality they caused were the following: the plague, which began before 1521 and lasted until 1538; the measles epidemic in 1751; the smallpox epidemics in 1815 and 1873; and the cholera morbus epidemic in 1856 and in 1910 and 1911.\n\nAs we deal with specific articles on the plague and cholera morbus epidemics, we will only talk here about the aforementioned measles and smallpox epidemics, not referring to others that have also occurred on this island because, besides being less important, they have already been mentioned in the article on Diseases, published in this Elucidário.\n\nIn the book by Dr. Julião Fernandes da Silva entitled Carta critica sobre o método curativo dos médicos funchalenses, valuable information about the measles epidemic that raged in Madeira in the year 1751 can be found. \"Everything was tears,\" said Dr. Fernandes da Silva, \"where the hearts were more tender; everything was fear where the danger was contingent; and all were mournful spectacles in the pious processions of the corpses to the graves.\" \n\nWhile some doctors applied bloodletting, cold medicines, and allowed the use of water to individuals suffering from measles, others prescribed the opposite treatment, with the case, according to Dr. Fernandes da Silva, that the mortality among patients subjected to that regimen was lower.\n\nThe doctors in favor of bloodletting were only Dr. Silva and the famous Dr. Heberden, who was then residing in Madeira, the latter having, as the aforementioned author affirms, cured more than two hundred people suffering from measles without any patient being in danger. The stubbornness of some doctors in not giving water to the patients, adds Dr. Silva, was the only reason for the many deaths that occurred on the island. Regarding the smallpox epidemic of 1815, Dr. Heineken said that it was brought by a ship from Cape Verde and claimed about 2,000 lives. At that time, and even long after, the usefulness of the vaccine was still little known to our people, this being certainly the main reason why the aforementioned epidemic was so deadly among us. (See Adams and Vaccine).\n\nThe epidemic of 1872 and 1873 claimed 1007 lives, being after the one in 1815 the one that caused the most damage on this island. A passenger from the Maria Pia, coming from Lisbon in October 1872 and admitted to the Civil Hospital, brought the disease to Madeira, which lasted until the end of 1873 or the beginning of 1874, and caused great damage especially in the municipalities of Funchal, Santa Cruz, Calheta, and Câmara de Lobos. Smallpox sometimes appeared in Madeira after 1873, but thanks to the popularization of the vaccine and certain measures taken by the authorities, it never again reached the intensity of the old epidemics. In 1907, many smallpox patients died in Funchal, but the epidemic lasted a short time and did not reach the intensity of those of 1815 and 1873, due to the fact that patients who could not be isolated in their homes were admitted to the Lazaretto from a certain period, where they received from the doctors and knowledgeable and caring nurses, care and attention that would not have been given to them in their homes.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Julião Fernandes da Silva": [
+            "Doctor"
+        ],
+        "Dr. Heberden": [
+            "Doctor"
+        ],
+        "Dr. Silva": [
+            "Doctor"
+        ],
+        "Dr. Heineken": [
+            "Doctor"
+        ]
+    },
+    "years": {
+        "1521": [
+            "Plague"
+        ],
+        "1538": [
+            "Plague"
+        ],
+        "1751": [
+            "Measles epidemic"
+        ],
+        "1815": [
+            "Smallpox epidemic"
+        ],
+        "1873": [
+            "Smallpox epidemic"
+        ],
+        "1856": [
+            "Cholera morbus"
+        ],
+        "1910": [
+            "Cholera morbus"
+        ],
+        "1911": [
+            "Cholera morbus"
+        ],
+        "1872": [
+            "Smallpox epidemic"
+        ],
+        "1907": [
+            "Smallpox epidemic"
+        ]
+    }
+}

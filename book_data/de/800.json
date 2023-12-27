@@ -1,0 +1,27 @@
+{
+    "id": 800,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gesundheitshaus",
+    "fl": "G",
+    "original_title": "Casa de Saúde",
+    "body": "So nannte man einst das kleine Haus am Stadteingang, in dem über viele Jahre hinweg die Hafenkapitänerei und die Handelskammer untergebracht waren. Das Baudatum dieses Hauses ist unbekannt, aber man weiß, dass die Stadtverwaltung am 15. Juni 1771 100.000 Réis für den Bau eines neuen Hauses neben dem Gesundheitshaus beisteuerte, das als Residenz für den Fahnenträger dienen sollte, und dass sie am 13. Juli desselben Jahres weitere 100.000 Réis für dasselbe Bauvorhaben gab.\n\nEs war in früheren Zeiten üblich, dass die Oberaufseher im Gesundheitshaus darauf warteten, dass ihnen die Briefe der in unseren Hafen einlaufenden Schiffe vorgelegt wurden. Die Oberaufseher wurden vom Stadtrat ernannt, und von ihnen wurde kein Medizinstudium verlangt, wie dies heutzutage der Fall ist. Neben den Oberaufsehern gab es im Gesundheitshaus einen Dolmetscher, der ebenfalls vom Stadtrat ernannt wurde und ein Jahresgehalt von 17 Réis bezog.\n\nDas Gesundheitshaus diente von 1784 bis Ende des 18. oder Anfang des 19. Jahrhunderts als Rathaus, und obwohl es sich um ein Gebäude der Stadt handelte, wurde es von der Regierung dem Stadtrat überlassen, der es 1914 verkaufte. Es wurde von den Firmen Luiz da Rocha Machado & Co. und W. Winton für 22.800.000 Réis ersteigert.",
+    "categories": [
+        "architecture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1771": [
+            "Die Stadtverwaltung steuerte 100.000 Réis für den Bau eines neuen Hauses bei"
+        ],
+        "1784": [
+            "Das Gesundheitshaus diente als Rathaus"
+        ],
+        "1914": [
+            "Es wurde verkauft und von den Firmen Luiz da Rocha Machado & Co. und W. Winton für 22.800.000 Réis ersteigert"
+        ]
+    }
+}

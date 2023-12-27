@@ -1,0 +1,42 @@
+{
+    "id": 2979,
+    "lang": "en",
+    "is_original": false,
+    "title": "Quinta do Leme",
+    "fl": "Q",
+    "original_title": "Quinta do Leme",
+    "body": "A populated place in the parish of Santo António do Funchal. There is an ancient manor house and an attached chapel, which were the seat of the Lemes estate, established by Pedro de Leme before 1550. The last direct representative was Francisco Aurélio da Câmara, who, dying without descendants, passed the administration of this entailed house to his nephew João de Carvalhal Esmeraldo, 1st count of Carvalhal. The chapel dedicated to the martyr São Filipe was built in 1536 by António de Leme and rebuilt in 1654 by Inácio da Câmara Leme, and was further reconstructed, as well as the adjacent manor house, in 1752, due to the great ruin caused by the earthquake of 1748. Having been desecrated for years, it was restored to the exercise of worship in 1942.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santo António do Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Pedro de Leme": [
+            "Founder of the entailed estate"
+        ],
+        "Francisco Aurélio da Câmara": [
+            "Last direct representative"
+        ]
+    },
+    "years": {
+        "1536": [
+            "Construction of the chapel dedicated to the martyr São Filipe"
+        ],
+        "1654": [
+            "Rebuilding of the chapel"
+        ],
+        "1752": [
+            "Reconstruction of the adjacent manor house"
+        ],
+        "1748": [
+            "Earthquake"
+        ],
+        "1942": [
+            "Restoration to the exercise of worship"
+        ]
+    }
+}

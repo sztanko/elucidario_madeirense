@@ -1,0 +1,44 @@
+{
+    "id": 1436,
+    "lang": "de",
+    "is_original": false,
+    "title": "Forster (Johann Reinhold)",
+    "fl": "F",
+    "original_title": "Forster (João Reinhold)",
+    "body": "Dieser deutsche Botaniker und sein Sohn Johann Georg Adam Forster begleiteten Kapitän Cook auf seiner zweiten Reise in die Südsee und kamen am 29. Juli 1772 im Hafen von Funchal an. Die Pflanzenexemplare, die sie auf dieser Insel sammelten, befinden sich in den Herbarien der Universität Kiel und des Naturhistorischen Museums in Paris. Forsters Sohn behandelt einige madeirische Pflanzen in zwei Werken mit den Titeln Plantae Atlanticae (Göttingen, 1787) und Herbarium Australe (Göttingen, 1797).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Stadt"
+        ],
+        "Universität Kiel": [
+            "Institution"
+        ],
+        "Naturhistorisches Museum in Paris": [
+            "Institution"
+        ]
+    },
+    "people": {
+        "Johann Reinhold Forster": [
+            "Botaniker"
+        ],
+        "Johann Georg Adam Forster": [
+            "Botaniker"
+        ]
+    },
+    "years": {
+        "1772": [
+            "Ankunft im Hafen von Funchal"
+        ],
+        "1787": [
+            "Veröffentlichung von Plantae Atlanticae"
+        ],
+        "1797": [
+            "Veröffentlichung von Herbarium Australe"
+        ]
+    }
+}

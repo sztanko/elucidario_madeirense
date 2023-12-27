@@ -1,0 +1,30 @@
+{
+    "id": 140,
+    "lang": "de",
+    "is_original": false,
+    "title": "Baumwolle",
+    "fl": "B",
+    "original_title": "Algodoeiro",
+    "body": "Der Anbau von Gossypium herbaceum wurde auf Madeira zu Beginn des 19. Jahrhunderts versucht, und in einem Schreiben vom 20. März 1802 teilte der damalige Minister D. Rodrigo de Sousa Coutinho dem Generalgouverneur D. José Manuel da Câmara mit, dass der Prinzregent mit großer Zufriedenheit die Fortschritte desselben Anbaus auf der Insel zur Kenntnis genommen habe. 1863 kamen neue Baumwollsamen nach Madeira, aber nur wenige Landwirte interessierten sich damals für den Anbau dieser Pflanze. Gossypium arboreum gedeiht auch gut in der unteren Region Madeiras, aber sowohl diese Art als auch G. Herbaceum scheinen heute auf der Insel völlig ausgestorben zu sein.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "D. Rodrigo de Sousa Coutinho": [
+            "Minister"
+        ],
+        "D. José Manuel da Câmara": [
+            "Generalgouverneur"
+        ]
+    },
+    "years": {
+        "1802": [
+            "Schreiben vom 20. März, in dem der damalige Minister D. Rodrigo de Sousa Coutinho dem Generalgouverneur D. José Manuel da Câmara mitteilte, dass der Prinzregent mit großer Zufriedenheit die Fortschritte desselben Anbaus auf der Insel zur Kenntnis genommen habe"
+        ],
+        "1863": [
+            "Neue Baumwollsamen kamen nach Madeira"
+        ]
+    }
+}

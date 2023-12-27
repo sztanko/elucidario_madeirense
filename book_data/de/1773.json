@@ -1,0 +1,27 @@
+{
+    "id": 1773,
+    "lang": "de",
+    "is_original": false,
+    "title": "Die Presse",
+    "fl": "D",
+    "original_title": "Imprensa (A )",
+    "body": "Von dieser Zeitung erschienen siebenunddreißig Ausgaben vom 24. Juli 1862 bis zum 29. November 1863. Ihr Redakteur war Alipio Augusto Ferreira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Alipio Augusto Ferreira": [
+            "Redakteur"
+        ]
+    },
+    "years": {
+        "1862": [
+            "Beginn der Veröffentlichung der Zeitung"
+        ],
+        "1863": [
+            "Ende der Veröffentlichung der Zeitung"
+        ]
+    }
+}

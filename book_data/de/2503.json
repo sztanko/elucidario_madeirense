@@ -1,0 +1,30 @@
+{
+    "id": 2503,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kapelle Unserer Lieben Frau der Barmherzigkeit",
+    "fl": "K",
+    "original_title": "Nossa Senhora das Mercês (Capela de)",
+    "body": "Der Hauptmann Gaspar Homem de El-Rei und seine Frau D. Isabel Florença gründeten 1650 in der Gemeinde Arco da Calheta eine Kapelle zu Ehren Unserer Lieben Frau der Barmherzigkeit, die sich an dem als Florenças bekannten Ort befand.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Florenças": [
+            "Gelegen in der Gemeinde Arco da Calheta, an dem als Florenças bekannten Ort."
+        ]
+    },
+    "people": {
+        "Gaspar Homem de El-Rei": [
+            "Gründer der Kapelle 1650, zusammen mit seiner Frau D. Isabel Florença."
+        ]
+    },
+    "years": {
+        "1650": [
+            "Gründung der Kapelle"
+        ]
+    }
+}

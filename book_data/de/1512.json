@@ -1,0 +1,37 @@
+{
+    "id": 1512,
+    "lang": "de",
+    "is_original": false,
+    "title": "Fundoa",
+    "fl": "F",
+    "original_title": "Fundoa",
+    "body": "Besiedelter Ort der Gemeinde São Roque do Funchal. An diesem Ort und am rechten Ufer des Baches Santa Luzia befindet sich die Kapelle Unserer Lieben Frau vom Rosenkranz, die 1668 von João da Paz de Castro erbaut wurde. Die Jesuiten hatten dort eine Residenz mit privater Kapelle und umliegenden Ländereien.\n\nAn diesem Ort befand sich ein wichtiger Trinkwasserspeicher, der durch ein ausgedehntes Aquädukt in die Innenstadt und insbesondere zur Versorgung des alten Krankenhauses der Barmherzigkeit und anderer Gebäude geleitet wurde. Er wurde 1817 auf Anweisung des damaligen Verwalters, des Bischofs D. Fr. Joaquim de Meneses e Ataíde, gebaut und vom Ingenieur Paulo Dias de Almeida geleitet. Er galt damals als wertvolles Bauwerk aus technischer Sicht.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Roque do Funchal"
+    ],
+    "locations": {
+        "São Roque do Funchal": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "João da Paz de Castro": [
+            "Erbauer der Kapelle Unserer Lieben Frau vom Rosenkranz"
+        ],
+        "D. Fr. Joaquim de Meneses e Ataíde": [
+            "Verwalter"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Bau der Kapelle Unserer Lieben Frau vom Rosenkranz"
+        ],
+        "1817": [
+            "Bau des Trinkwasserspeichers"
+        ]
+    }
+}

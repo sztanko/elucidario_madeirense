@@ -1,0 +1,26 @@
+{
+    "id": 1971,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lentilha (Lens culinaris)",
+    "fl": "L",
+    "original_title": "Lentilha (Lens culinaris)",
+    "body": "Leguminosa-papilionada frequentemente cultivada no Porto Santo e que aparece também no Caniçal. A lentilha cultivada no Caniço é a Vicia monanthos, a qual tem vagens 3-4-espermicas, e não 2-espermicas, como acontece na lentilha do Porto Santo.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Porto Santo",
+        "Caniço"
+    ],
+    "locations": {
+        "Porto Santo": [
+            "Local de cultivo frequente"
+        ],
+        "Caniçal": [
+            "Local de cultivo"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

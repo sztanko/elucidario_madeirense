@@ -1,0 +1,45 @@
+{
+    "id": 2877,
+    "lang": "en",
+    "is_original": false,
+    "title": "Porto Santo (Population, Surface, and Geographical Location of the Island)",
+    "fl": "P",
+    "original_title": "Porto Santo (População, Superfície e Situação Geográfica da ilha do)",
+    "body": "Gaspar Frutuoso stated that in 1590, there were about 400 households on the island of Porto Santo, with approximately 1,600 inhabitants. Regarding this statement by Frutuoso, Dr. Alvaro de Azevedo said: \"Although this may seem exaggerated, as it is recorded in the Annals of the Island of Porto Santo that in 1850 the population was 1,799 people, approximately 450 households, and from the census conducted in 1864, there were 363 households with 1,425 inhabitants, we believe Frutuoso's statement to be accurate; the island of Porto Santo only progressed in the first hundred and fifty years since its discovery.\" The data presented to calculate the surface area of the archipelago are divergent, with Dr. Alvaro de Azevedo estimating the area of 500 square kilometers for Madeira, 50 for Porto Santo, and 10 for the Desertas. The \"Population Census\" for the year 1930 states that the surface area of the island of Madeira is 740 square kilometers and that of Porto Santo is 42.17 square kilometers. According to the \"Islands of Zargo\" (I-59), official studies conducted from 1937 to 1938 attribute a surface area of 728 square kilometers to Madeira and 48.8 square kilometers to the island of Porto Santo. The calculations known about their geographical location are also conflicting. The distinguished commentator of the \"Saudades da Terra\" presents some of them, giving preference to those from the geo-hydrographic chart of General Antonio Pedro de Azevedo, which are as follows: 33°3'30\" north latitude and 7°45'27' west longitude of Lisbon.",
+    "categories": [
+        "geography",
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Approximately 1,600 inhabitants in 1590, progressed in the first hundred and fifty years since its discovery, surface area of 42.17 square kilometers in 1930 and 48.8 square kilometers in studies from 1937 to 1938, geographical location of 33°3'30\" north latitude and 7°45'27' west longitude of Lisbon"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Stated that there were about 1,600 inhabitants on the island of Porto Santo in 1590"
+        ],
+        "Alvaro de Azevedo": [
+            "Commented on the population of the island of Porto Santo and estimated the surface area of the archipelago"
+        ]
+    },
+    "years": {
+        "1590": [
+            "About 400 households on the island of Porto Santo"
+        ],
+        "1850": [
+            "Population was 1,799 people on the island of Porto Santo"
+        ],
+        "1864": [
+            "Census indicated 363 households with 1,425 inhabitants on the island of Porto Santo"
+        ],
+        "1930": [
+            "Population Census indicated the surface area of the island of Madeira and Porto Santo"
+        ],
+        "1937": [
+            "Official studies conducted attributed surface area to Madeira and Porto Santo"
+        ]
+    }
+}

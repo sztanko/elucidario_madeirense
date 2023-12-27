@@ -1,0 +1,31 @@
+{
+    "id": 2434,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Netos (Rua dos)",
+    "fl": "N",
+    "original_title": "Netos (Rua dos)",
+    "body": "Estende-se desde a rua de S. Pedro até à Ponte Nova, sobre a ribeira de Santa Luzia, mas antigamente tinha o seu términus na rua dos Ferreiros, hoje do Comercio, ficando compreendida na rua da Ponte Nova a parte que é limitada do lado leste pela referida ribeira de Santa Luzia. Deu o nome a esta via publica João Rodrigues Neto Calassa, que, vindo do continente, se estabeleceu nesta ilha e aqui morreu em 1531, tendo residido na rua que tem o seu nome.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponte Nova": [
+            "Sobre a ribeira de Santa Luzia"
+        ],
+        "Santa Luzia": [
+            "Ribeira sobre a qual a rua dos Netos se estende"
+        ]
+    },
+    "people": {
+        "João Rodrigues Neto Calassa": [
+            "Pessoa que deu nome à rua dos Netos"
+        ]
+    },
+    "years": {
+        "1531": [
+            "Morte de João Rodrigues Neto Calassa"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 2210,
+    "lang": "en",
+    "is_original": false,
+    "title": "Martins (Dr. João Augusto)",
+    "fl": "M",
+    "original_title": "Martins (Dr. João Augusto)",
+    "body": "A military doctor in the Overseas cadre, already deceased. He was a native of Cape Verde and had graduated from the Medical School of Lisbon. Works: 'Madeira and its climate,' Lisbon, 1901, 10 pages, and 'Madeira, Cape Verde and Guinea,' Lisbon, 1891, 271 pages. This latter work is recommended for the correctness, elegance, and spontaneous grace with which it is written.",
+    "categories": [
+        "health",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Cape Verde": [
+            "Birthplace of João Augusto Martins"
+        ],
+        "Lisbon": [
+            "Medical School of Lisbon"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1901": [
+            "Publication of 'Madeira and its climate'"
+        ],
+        "1891": [
+            "Publication of 'Madeira, Cape Verde and Guinea'"
+        ]
+    }
+}

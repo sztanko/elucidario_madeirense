@@ -1,0 +1,45 @@
+{
+    "id": 6,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Abreu",
+    "fl": "A",
+    "original_title": "Abreu",
+    "body": "A primeira pessoa que nesta ilha parece ter usado este apelido, foi Brites ou Beatriz de Abreu, filha de Rui de Abreu, alcaide mor de Elvas, a qual casou com João Fernandes do Arco, assim chamado por possuir muitas terras de sesmaria no Arco da Calheta e de quem falaremos em artigo especial. Os seus filhos tomaram o apelido da mãe e alguns deles distinguiram se na Africa e na Índia. Entre as filhas, contam se a celebrada Isabel de Abreu (V. este nome) e Águeda de Abreu, mulher de João Esmeraldo, o possuidor da Lombada da Ponta do Sol. A esta família, pertence António de Abreu, o descobridor das Molucas. (V. este nome).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta",
+        "Lombada da Ponta do Sol"
+    ],
+    "locations": {
+        "Elvas": [
+            "Cidade em Portugal"
+        ],
+        "Arco da Calheta": [
+            "Localidade na Madeira"
+        ],
+        "Lombada da Ponta do Sol": [
+            "Localidade na Madeira"
+        ]
+    },
+    "people": {
+        "Brites ou Beatriz de Abreu": [
+            "Filha de Rui de Abreu, alcaide mor de Elvas"
+        ],
+        "João Fernandes do Arco": [
+            "Possuidor de muitas terras de sesmaria no Arco da Calheta"
+        ],
+        "Isabel de Abreu": [
+            "Celebrada figura"
+        ],
+        "Águeda de Abreu": [
+            "Mulher de João Esmeraldo, o possuidor da Lombada da Ponta do Sol"
+        ],
+        "António de Abreu": [
+            "Descobridor das Molucas"
+        ]
+    },
+    "years": {}
+}

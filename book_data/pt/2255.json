@@ -1,0 +1,44 @@
+{
+    "id": 2255,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Melo (Florencio José Correia de)",
+    "fl": "M",
+    "original_title": "Melo (Florencio José Correia de)",
+    "body": "Data de 12 de Outubro de 1814 a sua nomeação para Governador e Capitão-General deste arquipélago, tendo chegado ao Funchal a 16 de Abril de 1815 e tomado posse do seu lugar a 22 de Abril. Chegou à Madeira poucos meses depois da saída das tropas inglesas desta ilha, que, durante o longo período de 7 anos, levaram a maior indisciplina às forças da guarnição e uma grave desordem e perturbação a todos os serviços públicos. Correia de Melo conseguiu quanto possível corrigir esses abusos e prestou excelentes serviços na administração pública do arquipélago. Durante o seu governo, passaram na Madeira o imperador Napoleão, a 23 de Agosto de 1815, em direcção ao seu desterro de Santa Helena, e a princesa Leopoldina, a 11 de Setembro do mesmo ano, que se dirigia ao Brasil a contrair matrimónio com o Principe Real D. Pedro e a quem Florencio de Melo fez uma brilhante recepção (V. *Napoleão na Madeira* e *Princesa Leopoldina*). Florencio José Correia de Melo fez pessoalmente entrega do governo da Madeira ao seu sucessor e saiu desta ilha na segunda quinzena do mês de Maio de 1819.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localidade na Madeira"
+        ],
+        "Santa Helena": [
+            "Localidade para onde Napoleão foi desterrado"
+        ],
+        "Brasil": [
+            "País para onde a princesa Leopoldina se dirigia"
+        ]
+    },
+    "people": {
+        "Napoleão": [
+            "Imperador"
+        ],
+        "Princesa Leopoldina": [
+            "Noiva do Principe Real D. Pedro"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Nomeação de Florencio José Correia de Melo como Governador e Capitão-General da Madeira"
+        ],
+        "1815": [
+            "Chegada de Florencio José Correia de Melo ao Funchal e posse do cargo"
+        ],
+        "1819": [
+            "Saída de Florencio José Correia de Melo da Madeira"
+        ]
+    }
+}

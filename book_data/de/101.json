@@ -1,0 +1,24 @@
+{
+    "id": 101,
+    "lang": "de",
+    "is_original": false,
+    "title": "Literarisches Album",
+    "fl": "L",
+    "original_title": "Álbum Literário",
+    "body": "Dies ist ein 200-seitiger Band, der 1885 in Funchal veröffentlicht wurde und verschiedene Prosatexte sowie Gedichte enthält.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1885": [
+            "Veröffentlichungsjahr"
+        ]
+    }
+}

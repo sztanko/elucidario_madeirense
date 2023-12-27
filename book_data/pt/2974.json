@@ -1,0 +1,31 @@
+{
+    "id": 2974,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Quinta",
+    "fl": "Q",
+    "original_title": "Quinta",
+    "body": "Sítio do povoado da freguesia da Quinta Grande. Fica neste sítio a Quinta do Pomar e nela uma capela da invocação de Santo António, fundada pelo padre António Silvino Gonçalves de Andrade no ano de 1883, e ali também se encontra uma escola oficial de ensino primário. Neste sítio, onde chamam a Ponta da Quinta, existiu uma pequena ermida dedicada à Virgem Nossa Senhora, de que já nem restam vestígios.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Quinta Grande": [
+            "Freguesia"
+        ]
+    },
+    "people": {
+        "António Silvino Gonçalves de Andrade": [
+            "Fundador da capela de Santo António"
+        ]
+    },
+    "years": {
+        "1883": [
+            "Fundação da capela de Santo António"
+        ]
+    }
+}

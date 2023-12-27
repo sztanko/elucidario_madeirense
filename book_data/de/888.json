@@ -1,0 +1,23 @@
+{
+    "id": 888,
+    "lang": "de",
+    "is_original": false,
+    "title": "Chronik (Die)",
+    "fl": "C",
+    "original_title": "Chronica (A)",
+    "body": "Die 11. Ausgabe erschien am 3. März 1838 und die letzte, die 96., am 28. Dezember 1839.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1838": [
+            "Jahr der Veröffentlichung der 11. Ausgabe der Chronik."
+        ],
+        "1839": [
+            "Jahr der Veröffentlichung der letzten Ausgabe (96) der Chronik."
+        ]
+    }
+}

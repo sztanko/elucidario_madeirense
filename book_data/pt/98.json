@@ -1,0 +1,30 @@
+{
+    "id": 98,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Albers (Joan. Christ.)",
+    "fl": "A",
+    "original_title": "Albers (Joan. Christ.)",
+    "body": "Naturalista alemão que esteve na Madeira de Outubro de 1850 a Junho de 1851. E.: Malacographia maderensis, Berolini, 1854.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Joan. Christ. Albers": [
+            "Naturalista alemão"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Período de estadia na Madeira"
+        ],
+        "1851": [
+            "Período de estadia na Madeira"
+        ],
+        "1854": [
+            "Publicação de Malacographia maderensis"
+        ]
+    }
+}

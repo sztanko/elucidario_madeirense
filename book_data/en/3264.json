@@ -1,0 +1,44 @@
+{
+    "id": 3264,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Vicente (Municipal Court of)",
+    "fl": "S",
+    "original_title": "São Vicente (Julgado Municipal de)",
+    "body": "The Municipal Court of São Vicente, with its headquarters in the parish and town of the same name, was created by decree on October 24, 1931, and comprises the parishes of São Vicente, Ponta Delgada, and Boaventura, which constitute the respective municipality. In 1926, the São Vicente district was abolished, which had been established by decree on November 12, 1875, and its installation took place on November 16, 1876.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "São Vicente",
+        "Ponta Delgada",
+        "Boaventura"
+    ],
+    "locations": {
+        "São Vicente": [
+            "Town"
+        ],
+        "Ponta Delgada": [
+            "Parish"
+        ],
+        "Boaventura": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "D. Manuel": [
+            "The king"
+        ]
+    },
+    "years": {
+        "1931": [
+            "Creation of the Municipal Court of São Vicente"
+        ],
+        "1926": [
+            "Abolition of the São Vicente district"
+        ],
+        "1875": [
+            "Establishment of the São Vicente district"
+        ]
+    }
+}

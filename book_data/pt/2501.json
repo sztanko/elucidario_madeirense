@@ -1,0 +1,26 @@
+{
+    "id": 2501,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora Mãe dos Homens",
+    "fl": "N",
+    "original_title": "Nossa Senhora Mãe dos Homens",
+    "body": "No Caminho do Meio, freguesia de Santa Maria Maior, existe uma capela com esta invocação, que é propriedade do Visconde de Cacongo.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Caminho do Meio"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Freguesia onde existe a capela"
+        ]
+    },
+    "people": {
+        "Visconde de Cacongo": [
+            "Proprietário da capela"
+        ]
+    },
+    "years": {}
+}

@@ -1,0 +1,32 @@
+{
+    "id": 969,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Conceição (Largo da)",
+    "fl": "C",
+    "original_title": "Conceição (Largo da)",
+    "body": "É vulgarmente chamado Largo das Babosas. A nova denomição provém-lhe da capela de Nossa Senhora da Conceição ali erigida no ano de 1906, especialmente destinada a comemorar o semi-centenario da definição do dogma da Imaculada Conceição e que ficou sendo conhecida pelo nome de Capela-Monumento. Ao comendador Luiz Betencourt Miranda, secretario da Camara Municipal do Funchal, se deve principalmente a erecção desta Capela. Deste largo desfruta-se uma surpreendente vista sôbre a Ribeira de João Gomes e Curral dos Romeiros.",
+    "categories": [
+        "culture",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira de João Gomes": [
+            "Vista"
+        ],
+        "Curral dos Romeiros": [
+            "Vista"
+        ]
+    },
+    "people": {
+        "Luiz Betencourt Miranda": [
+            "Responsável pela erecção da Capela"
+        ]
+    },
+    "years": {
+        "1906": [
+            "Construção da Capela"
+        ]
+    }
+}

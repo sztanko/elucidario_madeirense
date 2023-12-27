@@ -1,0 +1,28 @@
+{
+    "id": 44,
+    "lang": "de",
+    "is_original": false,
+    "title": "Acre",
+    "fl": "A",
+    "original_title": "Acre",
+    "body": "Um 1640 lebte Guilherme Acre auf Porto Santo, woher dieser Familienname stammt, von dem wir annehmen, dass er ausgestorben ist.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto Santo": [
+            "Wohnort"
+        ]
+    },
+    "people": {
+        "Guilherme Acre": [
+            "Lebte auf Porto Santo"
+        ]
+    },
+    "years": {
+        "1640": [
+            "Zeit, als er auf Porto Santo lebte"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 834,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Castro (Dr. José de)",
+    "fl": "C",
+    "original_title": "Castro (Dr. José de)",
+    "body": "Este conhecido politico, que ainda há poucos anos foi presidente do conselho de ministros, esteve na Madeira desde 8 de Outubro de 1884 até 2 de Junho de 1885. Foi um dos defensores dos republicanos processados na comarca da Ponta do Sol, por causa dos acontecimentos que se deram na Ribeira Brava no dia 29 de Julho de 1884 e de que resultou a morte de alguns populares. Escreveu um folheto narrando esses acontecimentos, intitulado As Victimas d’ElRey, Historia dos processos movidos contra os perseguidos politicos da ilha da Madeira, desde 29 de junho de 1884 ate o ano de 1885.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [
+        "Ponta do Sol",
+        "Ribeira Brava"
+    ],
+    "locations": {},
+    "people": {
+        "José de Castro": [
+            "Conhecido politico"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Presença na Madeira"
+        ],
+        "1885": [
+            "Permanência na Madeira"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 442,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Barruncho (José Maria Smith)",
+    "fl": "B",
+    "original_title": "Barruncho (José Maria Smith)",
+    "body": "Diz o dicionário Portugal que este distinto oficial do nosso exército era de origem inglesa e que nascera no Funchal em 1839, tendo falecido em Lisboa, no posto de general, a 26 de Julho de 1898.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ]
+    },
+    "people": {
+        "José Maria Smith Barruncho": [
+            "Oficial do exército"
+        ]
+    },
+    "years": {
+        "1839": [
+            "Nascimento no Funchal"
+        ],
+        "1898": [
+            "Falecimento em Lisboa"
+        ]
+    }
+}

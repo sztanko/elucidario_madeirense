@@ -1,0 +1,29 @@
+{
+    "id": 2311,
+    "lang": "en",
+    "is_original": false,
+    "title": "Mitten (William)",
+    "fl": "M",
+    "original_title": "Mitten (William)",
+    "body": "An English bryologist who studied the Muscineas collected by James Yate Johnson in Madeira. His herbarium was acquired by the New York Botanical Garden in 1906, as stated in a letter written by Professor Cockerell to the Madeiran zoologist A. C. de Noronha. Ref.: Contributions to the cryptogamic flora of the Atlantic Islands. (Linnean Society's Journ. Bot., VIII). V. Godman.",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "New York": [
+            "New York Botanical Garden"
+        ]
+    },
+    "people": {
+        "James Yate Johnson": [
+            "Collected the Muscineas studied by William Mitten"
+        ]
+    },
+    "years": {
+        "1906": [
+            "Acquisition of William Mitten's herbarium by the New York Botanical Garden"
+        ]
+    }
+}

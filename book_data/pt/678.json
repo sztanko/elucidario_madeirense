@@ -1,0 +1,39 @@
+{
+    "id": 678,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Câmara (D. José Manuel da)",
+    "fl": "C",
+    "original_title": "Câmara (D. José Manuel da)",
+    "body": "A 8 de Maio de 1800 foi nomeado governador e capitão general deste arquipelago e tomou posse deste cargo a 4 de Dezembro do mesmo ano. Dois importantes acontecimentos ocorreram durante o seu governo: a ocupação desta ilha por tropas britanicas (V. Ocupação ds Madeira por tropas inglesas) e a terrível inundação de 9 de Outubro de 1803 (V. A1uviões). Teve lutas com o prelado D. Luiz Rodrigues de Vilares, desterrando-o para a freguesia do Santo da Serra (V. o artigo referente a este prelado). Entre as acusações feitas ao bispo, salienta-se a de que ele era pedreiro livre e tinha frequentes conciliábulos com vários membros das sociedades secretas. O prelado e o governador foram chamados a Lisboa sendo demitido D. José Manuel da Câmara e continuando D. Luiz Rodrigues de Vilares no exercício do seu ministério. Veio á Madeira sindicar dos actos do governador, o desembargador dr. Joaquim Antonio de Araujo. Saíu da Madeira a 10 de Dezembro de 1803, tendo já chegado a esta ilha o seu sucessor Ascenso de Sequeira Freire.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santo da Serra"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Desterrando-o para a freguesia do"
+        ]
+    },
+    "people": {
+        "D. Luiz Rodrigues de Vilares": [
+            "Prelado"
+        ],
+        "D. José Manuel da Câmara": [
+            "Governador"
+        ],
+        "Joaquim Antonio de Araujo": [
+            "Desembargador"
+        ]
+    },
+    "years": {
+        "1800": [
+            "Nomeado governador e capitão general"
+        ],
+        "1803": [
+            "Terrível inundação"
+        ]
+    }
+}

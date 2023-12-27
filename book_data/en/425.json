@@ -1,0 +1,30 @@
+{
+    "id": 425,
+    "lang": "en",
+    "is_original": false,
+    "title": "Barral (Dr. Francisco Antonio)",
+    "fl": "B",
+    "original_title": "Barral (Dr. Francisco Antonio)",
+    "body": "This distinguished clinician and lecturer at the Medical School of Lisbon accompanied Empress D. Amelia to Madeira in 1852 as the attending physician of the ill-fated Princess D. Maria Amelia, who died in this city on February 4, 1853. (See Amelia (Empress D.) and Hospices of Princess D. Maria Amélia). Dr. Barral was one of the most dedicated assistants of Empress D. Amélia in the provisional foundation of the Hospice, which began operating in a house on Rua do Castanheiro. In 1854, Dr. Barral published in Lisbon a 347-page volume entitled Noticia sobre o clima do Funchal e sua influencia do tratamento da phthisica pulmonar, which is considered a very valuable work on the subject. This work was translated into French by Dr. P. Garnier and published in Paris in 1858 under the title Climat de Madère et son influence thérapeutique sur la pthisie pulmonaire.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. Francisco Antonio Barral": [
+            "Attending physician of the ill-fated Princess D. Maria Amelia"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Accompanied Empress D. Amelia to Madeira"
+        ],
+        "1853": [
+            "Died in this city on February 4, 1853"
+        ],
+        "1854": [
+            "Published in Lisbon the work entitled Noticia sobre o clima do Funchal e sua influencia do tratamento da phthisica pulmonar"
+        ]
+    }
+}

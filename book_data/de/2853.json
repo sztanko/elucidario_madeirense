@@ -1,0 +1,65 @@
+{
+    "id": 2853,
+    "lang": "de",
+    "is_original": false,
+    "title": "Kaps",
+    "fl": "K",
+    "original_title": "Pontas",
+    "body": "Die wichtigsten Kaps sind: Kap S. Lourenço in der Gemeinde Machico, an dem es mehrere Nebenkaps gibt, wie Kap Furado, Kap da Abra, Kap dos Dedais, Kap do Rosto usw.; Kap da Queimada in derselben Gemeinde; Kap Santa Catarina, Kap do Guindaste, Kap da Atalaia und Kap da Oliveira in der Gemeinde Santa Cruz; Kap da Cruz in der Gemeinde Funchal; Kap de Agua in der Gemeinde Camara de Lôbos; Kap do Sol in der Gemeinde Ponta do Sol; Kap da Galé und Kap do Pargo in der Gemeinde Calheta; Kap do Tristão in der Gemeinde Porto do Moniz; Kap Delgada in der Gemeinde S. Vicente und Kap S. Jorge, Kap de Santana und Kap do Cortado in der Gemeinde Santana (siehe diese Namen).\n\nDie wichtigsten Kaps der Insel Porto Santo sind: Kap do Incão, Kap dos Frades, Kap Branca, Kap da Cruz, Kap dos Varadouros, Kap do Furado und Kap da Calheta. (Siehe Porto Santo).\n\nAuf den Desertas sind zu nennen: Kap da Agulha auf Bugio und Kap do Boqueirão, Kap do Pedregal, Kap do Norte und Kap da Rocha Negra auf Deserta Grande (siehe Desertas und Kaps).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "S. Lourenço": [
+            "Gemeinde Machico"
+        ],
+        "Queimada": [
+            "Gemeinde Machico"
+        ],
+        "Santa Catarina": [
+            "Gemeinde Santa Cruz"
+        ],
+        "Guindaste": [
+            "Gemeinde Santa Cruz"
+        ],
+        "Atalaia": [
+            "Gemeinde Santa Cruz"
+        ],
+        "Oliveira": [
+            "Gemeinde Santa Cruz"
+        ],
+        "Cruz": [
+            "Gemeinde Funchal"
+        ],
+        "Agua": [
+            "Gemeinde Camara de Lôbos"
+        ],
+        "Sol": [
+            "Gemeinde Ponta do Sol"
+        ],
+        "Galé": [
+            "Gemeinde Calheta"
+        ],
+        "Pargo": [
+            "Gemeinde Calheta"
+        ],
+        "Tristão": [
+            "Gemeinde Porto do Moniz"
+        ],
+        "Delgada": [
+            "Gemeinde S. Vicente"
+        ],
+        "S. Jorge": [
+            "Gemeinde Santana"
+        ],
+        "Porto Santo": [
+            "Insel Porto Santo"
+        ],
+        "Desertas": [
+            "Kap da Agulha auf Bugio und Kap do Boqueirão, Kap do Pedregal, Kap do Norte und Kap da Rocha Negra auf Deserta Grande"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

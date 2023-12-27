@@ -1,0 +1,37 @@
+{
+    "id": 2036,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo do Salão",
+    "fl": "L",
+    "original_title": "Lombo do Salão",
+    "body": "Bewohnter Ort in der Gemeinde Calheta. Dort befindet sich in einem Tal namens Vale dos Amores eine kleine Kapelle mit dem Patronat des Heiligen Antonius von Padua, die 1921 Juvenal Raimundo de Vasconcelos gehörte. Es gab dort auch die Kapelle der Heiligen Cosmas und Damian, die 1681 vom Arzt António de França Gomes gegründet wurde. An einem Ort namens Cadeado steht noch eine Kapelle, die dem Heiligen Franz Xaver geweiht und 1693 von Manuel da Silva Pinheiro erbaut wurde.",
+    "categories": [
+        "religion",
+        "architecture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Ort auf Madeira"
+        ]
+    },
+    "people": {
+        "Juvenal Raimundo de Vasconcelos": [
+            "Besitzer der Kapelle"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Jahr, in dem die Kapelle in den Besitz von Juvenal Raimundo de Vasconcelos überging"
+        ],
+        "1681": [
+            "Gründung der Kapelle der Heiligen Cosmas und Damian"
+        ],
+        "1693": [
+            "Bau der Kapelle des Heiligen Franz Xaver"
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "id": 2743,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pereira (Padre Joaquim Placido)",
+    "fl": "P",
+    "original_title": "Pereira (Padre Joaquim Placido)",
+    "body": "Er wurde am 10. Dezember 1885 in der Gemeinde Seixal geboren und 1909 zum Priester geweiht. Er hat kirchliche Aufgaben in verschiedenen Gemeinden der Diözese ausgeübt. Neben seiner Mitarbeit bei einigen Zeitungen veröffentlichte er in Lissabon das Buch mit dem Titel Nossa Senhora do Monte, Padroeira da Ilha da Madeira.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Seixal"
+    ],
+    "locations": {
+        "Seixal": [
+            "Geburtsort von Padre Joaquim Placido Pereira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1885": [
+            "Geburt von Padre Joaquim Placido Pereira"
+        ],
+        "1909": [
+            "Weihe zum Priester"
+        ]
+    }
+}

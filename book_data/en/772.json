@@ -1,0 +1,31 @@
+{
+    "id": 772,
+    "lang": "en",
+    "is_original": false,
+    "title": "Carmo",
+    "fl": "C",
+    "original_title": "Carmo",
+    "body": "A populated place in the parish of Campanario. There was a chapel dedicated to Nossa Senhora do Carmo, which gave the place its name, founded in 1658 by Domingos Rodrigues, being of entailment institution and the seat of an entailed estate. It has 15 households and 73 inhabitants.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Campanario"
+    ],
+    "locations": {
+        "Campanario": [
+            "Parish of Campanario"
+        ]
+    },
+    "people": {
+        "Domingos Rodrigues": [
+            "Founder of the chapel dedicated to Nossa Senhora do Carmo"
+        ]
+    },
+    "years": {
+        "1658": [
+            "Founded in 1658"
+        ]
+    }
+}

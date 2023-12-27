@@ -1,0 +1,31 @@
+{
+    "id": 3385,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Somerville (Capitão B. T.)",
+    "fl": "S",
+    "original_title": "Somerville (Capitão B. T.)",
+    "body": "> Os oficiais do navio inglês Argonauta levantaram, sob a direcção do capitão Somerville, uma carta das ilhas Selvagens, que tem o seguinte título: North Atlantic Salvage Islands. . . 1915.\n>\n> Junto desta carta, há duas outras levantadas também pelos mesmos oficiais, com os títulos seguintes: Piton Islands. . . 1915, e Great Salvage Island, 1915.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Argonauta": [
+            "Navio inglês"
+        ],
+        "Selvagens": [
+            "Ilhas"
+        ]
+    },
+    "people": {
+        "Somerville": [
+            "Capitão"
+        ]
+    },
+    "years": {
+        "1915": [
+            "Levantamento das cartas das ilhas Selvagens"
+        ]
+    }
+}

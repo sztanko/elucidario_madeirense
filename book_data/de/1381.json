@@ -1,0 +1,31 @@
+{
+    "id": 1381,
+    "lang": "de",
+    "is_original": false,
+    "title": "Schmiede",
+    "fl": "S",
+    "original_title": "Ferreiros",
+    "body": "Kleiner Ort, auch Quinta dos Ferreiros genannt, in der Gemeinde Calheta, wo eine Kapelle zu Ehren Unserer Lieben Frau von Penha stand, die 1682 von Dr. Manuel Fernandes Gomes erbaut wurde.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Gemeinde auf der Insel Madeira."
+        ]
+    },
+    "people": {
+        "Dr. Manuel Fernandes Gomes": [
+            "Erbauer der Kapelle zu Ehren Unserer Lieben Frau von Penha."
+        ]
+    },
+    "years": {
+        "1682": [
+            "Bau der Kapelle zu Ehren Unserer Lieben Frau von Penha."
+        ]
+    }
+}

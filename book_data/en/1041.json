@@ -1,0 +1,37 @@
+{
+    "id": 1041,
+    "lang": "en",
+    "is_original": false,
+    "title": "Costa (João Sabino da)",
+    "fl": "C",
+    "original_title": "Costa (João Sabino da)",
+    "body": "He was born in Funchal on October 14, 1886, and was killed by the police of the capital on February 1, 1908, on suspicion of having contributed to the assassination of King D. Carlos and the Crown Prince D. Luiz Filipe, a crime in which it was later proven that he had not taken any part.\n\nHe was a soldier of the 5th Infantry Regiment, and was employed in commerce at the time of his death.\n\nThe old Rampa and Calçada do Cidrão are now (1920) named after João Sabino da Costa.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location where João Sabino da Costa was born."
+        ]
+    },
+    "people": {
+        "D. Carlos": [
+            "King of Portugal."
+        ],
+        "D. Luiz Filipe": [
+            "Crown Prince of Portugal."
+        ],
+        "João Sabino da Costa": [
+            "Soldier of the 5th Infantry Regiment, employed in commerce."
+        ]
+    },
+    "years": {
+        "1886": [
+            "Year of João Sabino da Costa's birth."
+        ],
+        "1908": [
+            "Year of João Sabino da Costa's death."
+        ]
+    }
+}

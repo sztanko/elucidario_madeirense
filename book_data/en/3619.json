@@ -1,0 +1,35 @@
+{
+    "id": 3619,
+    "lang": "en",
+    "is_original": false,
+    "title": "Vigário Geral",
+    "fl": "V",
+    "original_title": "Vigário Geral",
+    "body": "Despite the creation of the diocese of Funchal dating back to 1514, the position of vicar general of the bishopric was only created in 1570, with the royal decree of D. Sebastião, dated August 30 of that year, authorizing the bishop D. Jorge de Lemos to establish that ecclesiastical position, to which the same diploma sets the annual salary at fifty thousand reis.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place where the position of vicar general of the bishopric was created"
+        ]
+    },
+    "people": {
+        "D. Sebastião": [
+            "Authorized the bishop D. Jorge de Lemos to establish the position of vicar general of the bishopric"
+        ],
+        "D. Jorge de Lemos": [
+            "Established the position of vicar general of the bishopric"
+        ]
+    },
+    "years": {
+        "1514": [
+            "Date of the creation of the diocese of Funchal"
+        ],
+        "1570": [
+            "Date of the creation of the position of vicar general of the bishopric"
+        ]
+    }
+}

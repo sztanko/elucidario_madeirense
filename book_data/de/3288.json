@@ -1,0 +1,28 @@
+{
+    "id": 3288,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gesundheitsstraße (Rua da)",
+    "fl": "G",
+    "original_title": "Saúde (Rua da)",
+    "body": "So wurde vor 1838 die alte Stadteinfahrt genannt. Am 12. Januar 1838 erteilte das Finanzministerium der Stadtverwaltung die Genehmigung, am Tor und der Gesundheitsstraße Bauarbeiten durchzuführen, wobei ein Teil des Grundstücks des Palastes von São Lourenço verwendet und die östliche Begrenzungsmauer sowie das genannte Tor abgerissen wurden. Erst am 8. Februar 1839 schrieb der Stadtrat eine Ausschreibung für den Bau des Stadteingangs aus. Die Arbeiten wurden am 22. desselben Monats und Jahres vergeben und kurz darauf begonnen. Die Straßen zwischen der Ulmenstraße und der ehemaligen Prinzenstraße sind heute unter den Namen Gesundheitsstraße und Gesundheitspromenade bekannt, da es dort eine Kapelle zu Ehren Unserer Lieben Frau von der Gesundheit gab.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Palast von São Lourenço": [
+            "Ort der 1838 genehmigten Bauarbeiten"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1838": [
+            "Genehmigung für Bauarbeiten am Tor und der Gesundheitsstraße"
+        ],
+        "1839": [
+            "Ausschreibung für den Bau des Stadteingangs"
+        ]
+    }
+}

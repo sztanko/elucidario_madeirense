@@ -1,0 +1,46 @@
+{
+    "id": 1854,
+    "lang": "en",
+    "is_original": false,
+    "title": "Joinville (Prince of)",
+    "fl": "J",
+    "original_title": "Joinville (Príncipe de)",
+    "body": "He was born in 1818 and died in 1900. He was the son of Louis Philippe of Orléans, king of France, and was married to the Portuguese infanta D. Francisca, sister of D. Pedro 2nd of Brazil and Queen of Portugal D. Maria II. He was a distinguished officer of the French navy and in that capacity visited Madeira several times, commanding some warships. In 1840, the frigates of the French navy La Belle Poule and La Favorite were in our port, carrying out the mission of exhuming the body of Napoleon 1st in Saint Helena and transporting it to France, with the Prince of Joinville as the head of this important and honorable mission. We will refer to this fact more extensively in the article on Napoleon in Madeira.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Saint Helena": [
+            "Location of the exhumation of the body of Napoleon 1st"
+        ]
+    },
+    "people": {
+        "Louis Philippe of Orléans": [
+            "King of France"
+        ],
+        "D. Francisca": [
+            "Portuguese infanta"
+        ],
+        "D. Pedro 2nd of Brazil": [
+            "Brother of D. Francisca"
+        ],
+        "D. Maria II": [
+            "Queen of Portugal"
+        ],
+        "Napoleon 1st": [
+            "Body exhumed in Saint Helena"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Birth of the Prince of Joinville"
+        ],
+        "1900": [
+            "Death of the Prince of Joinville"
+        ],
+        "1840": [
+            "Visit of the frigates La Belle Poule and La Favorite to the port of Madeira"
+        ]
+    }
+}

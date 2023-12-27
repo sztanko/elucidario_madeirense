@@ -1,0 +1,44 @@
+{
+    "id": 2255,
+    "lang": "en",
+    "is_original": false,
+    "title": "Melo (Florencio José Correia de)",
+    "fl": "M",
+    "original_title": "Melo (Florencio José Correia de)",
+    "body": "His appointment as Governor and Captain-General of this archipelago dates back to October 12, 1814. He arrived in Funchal on April 16, 1815, and took office on April 22. He arrived in Madeira a few months after the departure of the English troops from this island, who, during the long period of 7 years, brought the greatest indiscipline to the garrison forces and serious disorder and disruption to all public services. Correia de Melo managed to correct these abuses as much as possible and rendered excellent services in the public administration of the archipelago. During his government, the Emperor Napoleon passed through Madeira on August 23, 1815, on his way to his exile in Saint Helena, and Princess Leopoldina, on September 11 of the same year, who was heading to Brazil to marry Prince Regent D. Pedro, and to whom Florencio de Melo gave a brilliant reception (See *Napoleon in Madeira* and *Princess Leopoldina*). Florencio José Correia de Melo personally handed over the government of Madeira to his successor and left the island in the second half of May 1819.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Town in Madeira"
+        ],
+        "Saint Helena": [
+            "Location where Napoleon was exiled"
+        ],
+        "Brazil": [
+            "Country to which Princess Leopoldina was heading"
+        ]
+    },
+    "people": {
+        "Napoleon": [
+            "Emperor"
+        ],
+        "Princess Leopoldina": [
+            "Bride of Prince Regent D. Pedro"
+        ]
+    },
+    "years": {
+        "1814": [
+            "Appointment of Florencio José Correia de Melo as Governor and Captain-General of Madeira"
+        ],
+        "1815": [
+            "Arrival of Florencio José Correia de Melo in Funchal and assumption of office"
+        ],
+        "1819": [
+            "Departure of Florencio José Correia de Melo from Madeira"
+        ]
+    }
+}

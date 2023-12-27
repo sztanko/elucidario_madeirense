@@ -1,0 +1,41 @@
+{
+    "id": 2454,
+    "lang": "de",
+    "is_original": false,
+    "title": "Norman (Dr. Alfred Merle)",
+    "fl": "N",
+    "original_title": "Norman (Dr. Alfred Merle)",
+    "body": "Bekannter, bereits verstorbener englischer Zoologe, der Madeira 1897 und 1908 besuchte. Der englische Naturforscher Kirkpatrick (siehe diesen Namen) widmete ihm die Merlia Normani, eine merkwürdige Schwammart, die der madeirische Naturforscher A. C. de Noronha in den Meeren von Porto Santo gefunden hatte. Veröffentlichungen: The Land Isopoda of Madeira (1899) und The Polyzoa of Madeira and Neighbouring Islands (Linnean Society's Journ.-Zool., XXX, 1909).",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Von Dr. Alfred Merle Norman besuchter Ort"
+        ],
+        "Porto Santo": [
+            "Insel, auf der die Schwammart Merlia Normani gefunden wurde"
+        ]
+    },
+    "people": {
+        "Dr. Alfred Merle Norman": [
+            "Englischer Zoologe"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Jahr des Besuchs auf Madeira"
+        ],
+        "1908": [
+            "Jahr des Besuchs auf Madeira"
+        ],
+        "1899": [
+            "Veröffentlichung von The Land Isopoda of Madeira"
+        ],
+        "1909": [
+            "Veröffentlichung von The Polyzoa of Madeira and Neighbouring Islands"
+        ]
+    }
+}

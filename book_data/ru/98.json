@@ -1,0 +1,30 @@
+{
+    "id": 98,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Альберс (Иоганн Кристоф)",
+    "fl": "А",
+    "original_title": "Albers (Joan. Christ.)",
+    "body": "Немецкий натуралист, бывший на Мадейре с октября 1850 года по июнь 1851 года. Издал Malacographia maderensis, Berolini, 1854.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Иоганн Кристоф Альберс": [
+            "Немецкий натуралист"
+        ]
+    },
+    "years": {
+        "1850": [
+            "Период пребывания на Мадейре"
+        ],
+        "1851": [
+            "Период пребывания на Мадейре"
+        ],
+        "1854": [
+            "Публикация Malacographia maderensis"
+        ]
+    }
+}

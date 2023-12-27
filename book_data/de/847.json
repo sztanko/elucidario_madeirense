@@ -1,0 +1,38 @@
+{
+    "id": 847,
+    "lang": "de",
+    "is_original": false,
+    "title": "Celestino Emidio (Manuel)",
+    "fl": "C",
+    "original_title": "Celestino Emidio (Manuel)",
+    "body": "Er war einige Jahre lang Richter im Gerichtsbezirk Funchal und vertrat Madeira bei den Cortes in der Legislaturperiode 1880-1881. Er wurde 1812 geboren und starb 1898.\n\nCelestino Emidio war der Richter, der den berüchtigten Prozess gegen den üblen Verbrecher João Brandão leitete.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Gerichtsbezirk, in dem er Richter war"
+        ]
+    },
+    "people": {
+        "João Brandão": [
+            "Berüchtigter Verbrecher"
+        ]
+    },
+    "years": {
+        "1880": [
+            "Teilnahme an der Legislaturperiode"
+        ],
+        "1881": [
+            "Teilnahme an der Legislaturperiode"
+        ],
+        "1812": [
+            "Geburtsjahr"
+        ],
+        "1898": [
+            "Sterbejahr"
+        ]
+    }
+}

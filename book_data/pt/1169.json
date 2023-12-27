@@ -1,0 +1,30 @@
+{
+    "id": 1169,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Districto do Funchal (O)",
+    "fl": "D",
+    "original_title": "Districto do Funchal (O)",
+    "body": "Principiou a publicar-se a 16 de Janeiro de 1864 e terminou a 5 de Agosto de 1865, tendo saído 66 números.\n\nOutro jornal do mesmo título se publicou de 24 de Maio de 1877 a 24 de Abril de 1878, tendo saído 23 números.",
+    "categories": [
+        "culture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1864": [
+            "Início da publicação do jornal 'Districto do Funchal (O)'."
+        ],
+        "1865": [
+            "Término da publicação do jornal 'Districto do Funchal (O)'."
+        ],
+        "1877": [
+            "Início da publicação de outro jornal com o mesmo título 'Districto do Funchal (O)'."
+        ],
+        "1878": [
+            "Término da publicação do segundo jornal 'Districto do Funchal (O)'."
+        ]
+    }
+}

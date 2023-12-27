@@ -1,0 +1,48 @@
+{
+    "id": 1003,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cook (James)",
+    "fl": "C",
+    "original_title": "Cook (James)",
+    "body": "After the first circumnavigation voyage carried out by our illustrious compatriot Fernão de Magalhães, the second maritime route around the world, that of the great English navigator James Cook, rendered more distinguished services to science and contributed more to the expansion of geographical knowledge.\n\nCook, on his first circumnavigation voyage, departed from the coasts of England on August 26, 1768, commanding the ship of the English royal navy Endeavour, which anchored in the port of Funchal on September 13 of the same year, setting sail on the 19th, heading towards Rio de Janeiro.\n\nCaptain Cook was very well received in this city by the English consul Cheap and by the governor and captain-general João Antonio de Sá Pereira.\n\nOn board the Endeavour were the naturalists Joseph Banks and Dr. Solander, responsible for carrying out various scientific studies, and during the few days they spent in Madeira, they conducted various research on some branches of natural history, being assisted by Dr. Heberden, a distinguished English physician who was then residing in Funchal.\n\nThe description of Cook's voyage refers to various interesting points about our customs, convents and churches, means of transportation, wine trade, etc. Cook and the two scholars of the expedition were greatly impressed by a chapel they visited in the São Francisco convent, whose walls were literally covered with tibias, femurs, and human skulls. Other visitors also referred to this macabre chapel with great amazement, but it is not a singular case, as in other European convents, there were also some chapels with walls adorned with human remains.\n\nIssues 462, 463, and 466 of the old Heraldo da Madeira include the translation of the description of Cook's voyage, which is worth reading.\n\nCook returned to Madeira in 1772, on the second voyage he made to the southern seas, this time commanding the Resolution, having arrived in the port of Funchal on July 29. The naturalists of the expedition were John Reinhold Forster and his son John George, who during the three days they spent on the island observed 96 plants, some of them cultivated. The narrative of this expedition states that there was then in Madeira a prodigious number of blacks and mulattos, some free, others slaves.\n\nForster recounts that the ships of Captain Cook's first expedition bombarded the fortress of Ilhéu in 1768, due to an insult to the British flag, but neither Hawkesworth's narrative nor the official documents of the time refer to this fact, which, if it had occurred, did not affect the good relations that existed between Portugal and England at that time.\n\nCaptain Cook made a third voyage in 1776, but without touching Madeira, dying on one of the islands of the Sandwich archipelago in a battle with the natives.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Fernão de Magalhães": [
+            "Navigator"
+        ],
+        "James Cook": [
+            "Navigator"
+        ],
+        "Joseph Banks": [
+            "Naturalist"
+        ],
+        "Solander": [
+            "Naturalist"
+        ],
+        "Heberden": [
+            "Physician"
+        ],
+        "John Reinhold Forster": [
+            "Naturalist"
+        ],
+        "John George": [
+            "Naturalist"
+        ]
+    },
+    "years": {
+        "1768": [
+            "First circumnavigation voyage"
+        ],
+        "1772": [
+            "Second voyage to the southern seas"
+        ],
+        "1776": [
+            "Third voyage"
+        ]
+    }
+}

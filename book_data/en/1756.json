@@ -1,0 +1,33 @@
+{
+    "id": 1756,
+    "lang": "en",
+    "is_original": false,
+    "title": "Church",
+    "fl": "C",
+    "original_title": "Igreja",
+    "body": "In the place of this name in the parish of Quinta Grande, on the Pombal estate, there is the chapel of Santo António, ordered to be built by Father António Silvino Gonçalves de Andrade in the year 1884, of which Dr. João Francisco de Almada is the current owner.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Quinta Grande": [
+            "Parish of Quinta Grande"
+        ]
+    },
+    "people": {
+        "Father António Silvino Gonçalves de Andrade": [
+            "Ordered the construction of the chapel of Santo António"
+        ],
+        "Dr. João Francisco de Almada": [
+            "Current owner of the chapel of Santo António"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Construction of the chapel of Santo António"
+        ]
+    }
+}

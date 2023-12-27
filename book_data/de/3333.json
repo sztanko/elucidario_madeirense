@@ -1,0 +1,30 @@
+{
+    "id": 3333,
+    "lang": "de",
+    "is_original": false,
+    "title": "Silva (Pater Júlio César Pereira da)",
+    "fl": "S",
+    "original_title": "Silva (Padre Júlio César Pereira da)",
+    "body": "Er wurde auf dieser Insel im Jahr 1845 geboren und starb am 19. April 1912 in Lissabon. Er war Feldgeistlicher und Ehrendomherr der Kathedrale von Viseu, nachdem er Professor am Priesterseminar und Gymnasium von Beja gewesen war. Er arbeitete bei verschiedenen Zeitungen mit und veröffentlichte einige seiner Reden in mehreren Broschüren.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Sé de Viseu",
+        "Beja"
+    ],
+    "locations": {
+        "Lissabon": [
+            "Gestorben"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1845": [
+            "Geburt"
+        ],
+        "1912": [
+            "Gestorben"
+        ]
+    }
+}

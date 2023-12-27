@@ -1,0 +1,23 @@
+{
+    "id": 2764,
+    "lang": "en",
+    "is_original": false,
+    "title": "Peso",
+    "fl": "P",
+    "original_title": "Peso",
+    "body": "A measure used to determine the weight of onions. The weight corresponds to 52 kilograms in Funchal and 50 kilograms in Caniço.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Corresponds to 52 kilograms"
+        ],
+        "Caniço": [
+            "Corresponds to 50 kilograms"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

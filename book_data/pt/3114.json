@@ -1,0 +1,45 @@
+{
+    "id": 3114,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Rodrigues (Manuel)",
+    "fl": "R",
+    "original_title": "Rodrigues (Manuel)",
+    "body": "Teve este nosso patrício uma vida bastante movimentada, segundo vemos em algumas obras que dele se ocupam. Nasceu no Funchal a 25 de Novembro de 1697 e morreu em Lisboa na segunda metade do século XVIII, em ano que não podemos precisar, sendo filho de Francisco Maria dos Ramos e de D. Josefa Maria Pereira. Tende 15 anos de idade, embarcou para o Rio de Janeiro para a companhia de seu tio o capitão Manuel Neto Barreto. Matriculou-se no seminário da Cachoeira, revelando-se um estudante muito talentoso. Em 1715, alistou-se no regimento do mestre de campo Manuel de Almeida Castelo, e seguiu para a colónia do Sacramento. Pouco depois, abandonou o exército e entrou na ordem de S. Francisco, e nela professou em 1719, tendo estudado filosofia e teologia no convento de Córdova, no interior da Argentina. Acompanhou Fr. José de Cardena numa viagem á província de Santa Fé e percorreu outros países. Tendo conhecimento da morte de seu pai e do desamparo em que haviam ficado suas três irmãs, partiu sem demora para Lisboa, afim de servir-lhes de arrimo. Como diz o autor do artigo do Missionário Popular, devia ter tido Manuel Rodrigues uma vida «aventurosa e provavelmente tempestuosa, porque não foi de certo um simples acaso que o fez sucessivamente seminarista no Rio de Janeiro, cabo de esquadra na colónia de Sacramento; franciscano em Buenos Aires, aluno de filosofia em Córdova e pregador em Lisboa! Na capital, dedicou-se ao ministério da prédica e granjeou a fama dum dos mais laureados oradores do seu tempo. Barbosa Machado e Inocêncio trazem a enumeração dos muitos sermões e discursos que publicou, no período decorrido de 1732 a 1757, contando-se entre estes a oração fúnebre que proferiu por ocasião da morte de D. João V.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Francisco Maria dos Ramos": [
+            "Pai de Manuel Rodrigues"
+        ],
+        "D. Josefa Maria Pereira": [
+            "Mãe de Manuel Rodrigues"
+        ],
+        "Manuel Neto Barreto": [
+            "Tio de Manuel Rodrigues"
+        ],
+        "Fr. José de Cardena": [
+            "Companheiro de viagem de Manuel Rodrigues"
+        ],
+        "D. João V": [
+            "Pessoa falecida por ocasião da qual Manuel Rodrigues proferiu uma oração fúnebre"
+        ]
+    },
+    "years": {
+        "1697": [
+            "Manuel Rodrigues nasceu no Funchal"
+        ],
+        "1715": [
+            "Manuel Rodrigues alistou-se no regimento do mestre de campo Manuel de Almeida Castelo"
+        ],
+        "1719": [
+            "Manuel Rodrigues professou na ordem de S. Francisco"
+        ],
+        "1732-1757": [
+            "Manuel Rodrigues publicou muitos sermões e discursos, incluindo a oração fúnebre por ocasião da morte de D. João V"
+        ]
+    }
+}

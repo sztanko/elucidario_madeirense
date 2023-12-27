@@ -1,0 +1,41 @@
+{
+    "id": 3321,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Serra e Moura (Tomás Nunes de)",
+    "fl": "S",
+    "original_title": "Serra e Moura (Tomás Nunes de)",
+    "body": "Foi nomeado governador civil da Madeira por decreto de 29 de Dezembro de 1883 e tomou posse deste cargo a 9 de Janeiro de 1884.\n\nComo par do reino efectivo, representou este arquipélago no parlamento, na sessão legislativa de 1887 a 1889.\n\nMorreu em Lisboa a 26 de Março de 1917, sendo juiz aposentado do Supremo Tribunal da Justiça.",
+    "categories": [
+        "politics",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Local onde foi governador civil."
+        ]
+    },
+    "people": {
+        "Tomás Nunes de Serra e Moura": [
+            "Governador civil da Madeira e juiz aposentado do Supremo Tribunal da Justiça."
+        ]
+    },
+    "years": {
+        "1883": [
+            "Ano em que foi nomeado governador civil da Madeira."
+        ],
+        "1884": [
+            "Ano em que tomou posse do cargo de governador civil da Madeira."
+        ],
+        "1887": [
+            "Ano em que representou a Madeira no parlamento."
+        ],
+        "1889": [
+            "Ano em que representou a Madeira no parlamento."
+        ],
+        "1917": [
+            "Ano de falecimento."
+        ]
+    }
+}

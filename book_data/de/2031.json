@@ -1,0 +1,36 @@
+{
+    "id": 2031,
+    "lang": "de",
+    "is_original": false,
+    "title": "Lombo das Mercês",
+    "fl": "L",
+    "original_title": "Lombo das Mercês",
+    "body": "Ort, der in den bevölkerten Ort Florenças in der Gemeinde Arco da Calheta eingegliedert ist und seinen Namen von der Kapelle Unserer Lieben Frau der Barmherzigkeit hat, die 1650 von Gaspar Homem de El-Rei und seiner Frau D. Isabel Florença, einer Fideikommiss-Stiftung, gegründet wurde. Es wird auch behauptet, dass João Portes Homem im Jahr 1684 an diesem Ort eine Kapelle errichtet hat, die Maria Magdalena gewidmet war.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Gemeinde Arco da Calheta"
+        ]
+    },
+    "people": {
+        "Gaspar Homem de El-Rei": [
+            "Gründer der Kapelle Unserer Lieben Frau der Barmherzigkeit"
+        ],
+        "João Portes Homem": [
+            "Erbauer der Kapelle, die Maria Magdalena gewidmet war"
+        ]
+    },
+    "years": {
+        "1650": [
+            "Gründung der Kapelle Unserer Lieben Frau der Barmherzigkeit"
+        ],
+        "1684": [
+            "Bau der Kapelle, die Maria Magdalena gewidmet war"
+        ]
+    }
+}

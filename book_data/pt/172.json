@@ -1,0 +1,49 @@
+{
+    "id": 172,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Alqueire",
+    "fl": "A",
+    "original_title": "Alqueire",
+    "body": "| Concelho         | Capacidade, litros |\n|------------------|--------------------|\n| Calheta          | 13,712             |\n| Câmara de Lobos  | 14,078             |\n| Funchal          | 13,865             |\n| Machico          | 13,912             |\n| Ponta do Sol     | 13,756             |\n| Porto do Moniz   | 13,861             |\n| Porto Santo      | 13,883             |\n| Sant'Ana         | 13,973             |\n| Santa Cruz       | 13,776             |\n| S. Vicente       | 13,917             |\n\nHoje a média mais geral é de 13,8.",
+    "categories": [
+        "economy",
+        "society",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Calheta": [
+            "Capacidade do alqueire é 13,712 litros"
+        ],
+        "Câmara de Lobos": [
+            "Capacidade do alqueire é 14,078 litros"
+        ],
+        "Funchal": [
+            "Capacidade do alqueire é 13,865 litros"
+        ],
+        "Machico": [
+            "Capacidade do alqueire é 13,912 litros"
+        ],
+        "Ponta do Sol": [
+            "Capacidade do alqueire é 13,756 litros"
+        ],
+        "Porto do Moniz": [
+            "Capacidade do alqueire é 13,861 litros"
+        ],
+        "Porto Santo": [
+            "Capacidade do alqueire é 13,883 litros"
+        ],
+        "Sant'Ana": [
+            "Capacidade do alqueire é 13,973 litros"
+        ],
+        "Santa Cruz": [
+            "Capacidade do alqueire é 13,776 litros"
+        ],
+        "S. Vicente": [
+            "Capacidade do alqueire é 13,917 litros"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

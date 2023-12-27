@@ -1,0 +1,36 @@
+{
+    "id": 670,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camacho (Jacinto Augusto)",
+    "fl": "C",
+    "original_title": "Camacho (Jacinto Augusto)",
+    "body": "Era filho do coronel Antonio Fernandes Camacho e nasceu no Funchal a 3 de Janeiro de 1815. Tendo emigrado com sua família para os Açores, a fim de fugir ás perseguições dos miguelistas, alistou-se aí como cadete no batalhão de caçadores n1. 3 e acompanhou a expedição que desembarcou nas praias de Mindelo. Distinguiu-se em vários combates e fez parte das forças enviadas ao Algarve, sob o comando do Duque da Terceira. Possuía a medalha das campanhas da liberdade, a comenda de Aviz e o habito da conceição. Tendo sido promovido a alferes em 1832, alcançou o posto de general de brigada em 8 de Maio de 1877, vindo a falecer na cidade do Porto, a 7 de Junho de 1885.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antonio Fernandes Camacho": [
+            "Coronel"
+        ],
+        "Duque da Terceira": [
+            "Comandante"
+        ]
+    },
+    "years": {
+        "1815": [
+            "Nascimento de Jacinto Augusto Camacho"
+        ],
+        "1832": [
+            "Promoção a alferes"
+        ],
+        "1877": [
+            "Promoção a general de brigada"
+        ],
+        "1885": [
+            "Falecimento de Jacinto Augusto Camacho"
+        ]
+    }
+}

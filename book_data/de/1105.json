@@ -1,0 +1,32 @@
+{
+    "id": 1105,
+    "lang": "de",
+    "is_original": false,
+    "title": "Curso de Desenho",
+    "fl": "C",
+    "original_title": "Curso de Desenho",
+    "body": "In Funchal gab es einen Zeichenkurs, der von der Stadtverwaltung finanziert wurde. Er wurde am 1. Oktober 1877 eröffnet und in der Stadtratssitzung vom 1. September 1892 wieder geschlossen. Dieser Kurs wurde vom Direktor der städtischen Bauarbeiten der Gemeinde, dem verstorbenen José Maria Teixeira de Agrela, geleitet.",
+    "categories": [
+        "education",
+        "art"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Ort des Kurses"
+        ]
+    },
+    "people": {
+        "José Maria Teixeira de Agrela": [
+            "Kursleiter"
+        ]
+    },
+    "years": {
+        "1877": [
+            "Eröffnungsjahr"
+        ],
+        "1892": [
+            "Jahr der Schließung"
+        ]
+    }
+}

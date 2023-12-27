@@ -1,0 +1,33 @@
+{
+    "id": 1583,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Giraldes",
+    "fl": "G",
+    "original_title": "Giraldes",
+    "body": "«Trouxe este apelido o florentino Dr. Pedro Giraldes, que viveu na Calheta pelos anos de 1500 a 1535, e neste ultimo anno ahi instituiu a Misericordia, da qual foi o primeiro provedor».",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Calheta"
+    ],
+    "locations": {
+        "Calheta": [
+            "Local onde viveu o Dr. Pedro Giraldes"
+        ]
+    },
+    "people": {
+        "Dr. Pedro Giraldes": [
+            "Viveu na Calheta e instituiu a Misericordia"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Início do período em que Dr. Pedro Giraldes viveu na Calheta"
+        ],
+        "1535": [
+            "Fim do período em que Dr. Pedro Giraldes viveu na Calheta"
+        ]
+    }
+}

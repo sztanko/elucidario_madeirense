@@ -1,0 +1,53 @@
+{
+    "id": 2411,
+    "lang": "en",
+    "is_original": false,
+    "title": "Seminário Museum",
+    "fl": "S",
+    "original_title": "Museu do Seminário",
+    "body": "The so-called Seminário museum, the only one of indisputable scientific value in Funchal, was created in 1882 by the German priest Father Ernesto Schmitz, who was then a professor at that educational institution. It was attached to the Episcopal Seminary for many years, and its recent transfer to the house at Largo do Visconde do Ribeiro Real, near the residence of the Diocesan Prelate, where it is currently located (1921).\n\nThe Seminário museum is a natural history museum, and it features representations of the fauna, flora, and minerals of the archipelago. Regarding the fauna, the ornithological, ichthyological, and conchological collections are noteworthy, as well as the collections of corals and some groups of insects; as for the flora, the collections of mosses and flowering plants made by the late James Y. Johnson are important, as are the collections of lichens and fungi made by Father Jaime de Gouveia Barreto and the collection of marine algae organized by Father Ernesto Schmitz. The collection of flowering plants has been greatly improved in recent times, thanks to the research of the young Madeiran botanist José Gonçalves da Costa.\n\nFather Ernesto Schmitz, who rendered great services to the Seminário museum, directed it until June 1908. The current director of the same institution is Father Jaime Barreto, a distinguished naturalist who has managed to preserve and advance the work initiated by his illustrious master (1921).\n\nThe natural sciences museum of the Diocesan Seminary is currently housed in the Incarnação building, under the proficient direction of Canon Jaime de Gouveia Barreto, professor and rector of the same Seminary.",
+    "categories": [
+        "science",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Capital of the island of Madeira"
+        ],
+        "Visconde do Ribeiro Real": [
+            "Location of the house where the Seminário museum is located in 1921"
+        ],
+        "Prelado Diocesano": [
+            "Residence of the Diocesan Prelate, where the Seminário museum is located in 1921"
+        ],
+        "Incarnação": [
+            "Building where the natural sciences museum of the Diocesan Seminary is located in 1921"
+        ]
+    },
+    "people": {
+        "Father Ernesto Schmitz": [
+            "Creator of the Seminário museum"
+        ],
+        "James Y. Johnson": [
+            "Responsible for the collections of mosses and flowering plants"
+        ],
+        "Father Jaime de Gouveia Barreto": [
+            "Responsible for the collections of lichens and fungi, current director of the Seminário museum"
+        ],
+        "José Gonçalves da Costa": [
+            "Young Madeiran botanist responsible for the improvement of the collection of flowering plants"
+        ]
+    },
+    "years": {
+        "1882": [
+            "Creation of the Seminário museum"
+        ],
+        "1908": [
+            "End of Father Ernesto Schmitz's direction at the Seminário museum"
+        ],
+        "1921": [
+            "Reference to the situation of the Seminário museum"
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 373,
+    "lang": "de",
+    "is_original": false,
+    "title": "Badajeira",
+    "fl": "B",
+    "original_title": "Badajeira",
+    "body": "Untiefe südöstlich des Ilhéu de Fora (in geringer Entfernung von der Ponta de São Lourenço), wo der Dampfer Forerunner im Oktober 1854 und der Dampfer Newton am 12. April 1881 gesunken sind. Beide Schiffsunglücke ereigneten sich bei ruhiger See und forderten beim ersten viele Menschenleben.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ilhéu de Fora": [
+            "Inselchen südöstlich von Badajeira."
+        ],
+        "Ponta de São Lourenço": [
+            "Ortschaft in der Nähe von Badajeira."
+        ]
+    },
+    "people": {},
+    "years": {
+        "1854": [
+            "Schiffbruch der Forerunner."
+        ],
+        "1881": [
+            "Schiffbruch der Newton."
+        ]
+    }
+}

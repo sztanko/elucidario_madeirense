@@ -1,0 +1,28 @@
+{
+    "id": 66,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Água de Mel (Ribeiro de)",
+    "fl": "Á",
+    "original_title": "Água de Mel (Ribeiro de)",
+    "body": "Pequeno curso de água que atravessa o sítio do mesmo nome na freguesia de São Roque, e vai lançar-se na margem esquerda da ribeira de Santo António no Sítio da Penteada.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Roque"
+    ],
+    "locations": {
+        "São Roque": [
+            "Freguesia de São Roque"
+        ],
+        "Santo António": [
+            "Ribeira de Santo António"
+        ],
+        "Penteada": [
+            "Sítio da Penteada"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

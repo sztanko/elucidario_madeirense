@@ -1,0 +1,30 @@
+{
+    "id": 911,
+    "lang": "de",
+    "is_original": false,
+    "title": "Clarke (James)",
+    "fl": "C",
+    "original_title": "Clarke (James)",
+    "body": "Er befasste sich mit dem Klima Madeiras in seinem Werk mit dem Titel The Influence of Climate in the prevention and cure of chronic Diseases, more particulary of the Chest and Digestive Organs, London, 20. Auflage, 1830. Clarke war nicht auf Madeira, aber die englischen Ärzte Heineken und Renton lieferten ihm die für das Kapitel über das Klima dieser Insel in dem genannten Werk erforderlichen Informationen und Daten.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "James Clarke": [
+            "Autor des Werks über das Klima Madeiras"
+        ],
+        "Heineken": [
+            "Englischer Arzt, der James Clarke Informationen lieferte"
+        ],
+        "Renton": [
+            "Englischer Arzt, der James Clarke Informationen lieferte"
+        ]
+    },
+    "years": {
+        "1830": [
+            "Veröffentlichung von James Clarkes Werk"
+        ]
+    }
+}

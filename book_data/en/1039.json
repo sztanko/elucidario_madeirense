@@ -1,0 +1,34 @@
+{
+    "id": 1039,
+    "lang": "en",
+    "is_original": false,
+    "title": "Costa",
+    "fl": "C",
+    "original_title": "Costa",
+    "body": "There are two branches of this family, one from Luiz Alvares da Costa and the other from Nuno da Costa. Luiz Alvares da Costa came to Madeira during the time of D. Afonso V and here he was the overseer and provider of the royal estate, and founded the convent of S. Francisco, in Funchal; Nuno da Costa was one of the first settlers of Machico and one of the procurators of this village and that of Santa Cruz before the king, for the celebration of the charter of Machico, in 1515.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Machico": [
+            "Locality where Nuno da Costa was one of the first settlers."
+        ]
+    },
+    "people": {
+        "Luiz Alvares da Costa": [
+            "Overseer and provider of the royal estate, founder of the convent of S. Francisco, in Funchal."
+        ],
+        "Nuno da Costa": [
+            "One of the first settlers of Machico, procurator of Machico and Santa Cruz before the king."
+        ]
+    },
+    "years": {
+        "1515": [
+            "Year of the celebration of the charter of Machico."
+        ]
+    }
+}

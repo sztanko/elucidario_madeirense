@@ -1,0 +1,30 @@
+{
+    "id": 2526,
+    "lang": "en",
+    "is_original": false,
+    "title": "Our Lady of Health of Monte Olivete (Chapel of)",
+    "fl": "O",
+    "original_title": "Nossa Senhora da Saúde do Monte Olivete (Capela de)",
+    "body": "A note from 'Saudades da Terra' says that this chapel, located in the parish of Santa Maria Maior, was built in the morgadio instituted by Pedro Lopes de Vasconcelos in the year 1675. It no longer exists, and we are unaware of the place where it was located.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Locality in Madeira"
+        ]
+    },
+    "people": {
+        "Pedro Lopes de Vasconcelos": [
+            "Institutor of the morgadio in 1675"
+        ]
+    },
+    "years": {
+        "1675": [
+            "Institution of the morgadio"
+        ]
+    }
+}

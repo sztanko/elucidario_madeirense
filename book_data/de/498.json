@@ -1,0 +1,53 @@
+{
+    "id": 498,
+    "lang": "de",
+    "is_original": false,
+    "title": "Blandy",
+    "fl": "B",
+    "original_title": "Blandy",
+    "body": "Diese Familie englischer Untertanen und Kaufleute hat sich vor über einem Jahrhundert auf dieser Insel niedergelassen. Bei der ersten Besetzung Madeiras durch britische Truppen im Juli 1801 gehörte ein Unterleutnant namens John Blandy zu dieser Garnison, der in dieser Insel der Stammvater der Familie gleichen Namens war. Dieser englische Untertan hatte bereits 1808, als Madeira zum zweiten Mal von britischen Truppen besetzt war, das Handelshaus gegründet, das er seinen Nachkommen übertrug. Er starb am 14. Januar 1855, ihm folgte im Haus sein Sohn Charles Ridpath Blandy nach, der 1878 starb. Sohn dieses war João Blandy, der das Handelshaus zu einem bemerkenswerten Wohlstand führte, ein sehr großes Vermögen hinterließ und am 7. Dezember 1912 starb. Erbe und Nachfolger war João Ernesto Blandy, der 1930 starb. Die Büros dieses bedeutenden Hauses waren viele Jahre lang in der Rua de São Francisco untergebracht, in den Räumlichkeiten, die heute von der Weinhandelsabteilung desselben Hauses belegt werden, und wurden später in die Rua da Alfândega verlegt, wo sie sich derzeit befinden.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Francisco": [
+            "Ort, an dem die Büros des Hauses Blandy ansässig waren"
+        ]
+    },
+    "people": {
+        "John Blandy": [
+            "Unterleutnant und Stammvater der Familie Blandy"
+        ],
+        "Charles Ridpath Blandy": [
+            "Sohn von John Blandy"
+        ],
+        "João Blandy": [
+            "Sohn von Charles Ridpath Blandy"
+        ],
+        "João Ernesto Blandy": [
+            "Erbe und Nachfolger von João Blandy"
+        ]
+    },
+    "years": {
+        "1801": [
+            "Erste Besetzung Madeiras durch britische Truppen"
+        ],
+        "1808": [
+            "Zweite Besetzung Madeiras durch britische Truppen"
+        ],
+        "1855": [
+            "Tod von John Blandy"
+        ],
+        "1878": [
+            "Tod von Charles Ridpath Blandy"
+        ],
+        "1912": [
+            "Tod von João Blandy"
+        ],
+        "1930": [
+            "Tod von João Ernesto Blandy"
+        ]
+    }
+}

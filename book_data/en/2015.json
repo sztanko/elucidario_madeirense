@@ -1,0 +1,34 @@
+{
+    "id": 2015,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lobo (D. João)",
+    "fl": "L",
+    "original_title": "Lobo (D. João)",
+    "body": "He was the first bishop to come to this island. It had been over 80 years since the colonization of the archipelago had begun and no prelate had yet performed the episcopal functions. The vicar of Tomar, or rather the master of the Order of Christ, to which Madeira belonged spiritually, sent Bishop D. João Lobo in 1508, who visited all the churches and main chapels of this island. The bishopric of Funchal was created in 1514, so D. João Lobo limited his religious mission only to the exercise of prelatic functions, that is, to confirm, ordain the clergy, bless liturgical vestments and vessels, consecrate temples, etc., without any interference in the administration of ecclesiastical affairs, in the observance of canonical discipline, and in the repression of abuses committed, which only belonged to the diocesan bishop, who did not yet exist, and therefore this task fell to the representative of the Order of Christ, which at that time was already Nuno Cão (V. I-243), a friar of the same Order. The first sacred temple (and there are few that are sacred, but only blessed) on this island was the chapel of Lombada do Esmeraldo, in the parish of Ponta do Sol, and even today, on one of the interior walls of the building, the following inscription is read: This church was consecrated by D. João Lobo, Bishop of Taiere, on the 27th of August 1508. This prelate returned to Portugal after having been in this island for a little over a year. It was after his visit that the need for the creation of a diocese in this archipelago was more closely recognized, which was only established in the year 1514, as mentioned above. In the excellent book by Vieira Guimarães A Ordem de Cristo, published in 1901, we read the following: Already in 1508, to satisfy the desires of these claimants (the creation of the bishopric of Funchal), the Vicar of Tomar sent them the bishop of ring D. João Lobo, who was awaited on the island by the master Friar Nuno Cão, with all the clergy, and they made many feasts for him.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Parish where the chapel of Lombada do Esmeraldo is located"
+        ]
+    },
+    "people": {
+        "D. João Lobo": [
+            "First bishop of Madeira"
+        ]
+    },
+    "years": {
+        "1508": [
+            "Year of the visit of Bishop D. João Lobo to Madeira"
+        ],
+        "1514": [
+            "Year of the creation of the bishopric of Funchal"
+        ]
+    }
+}

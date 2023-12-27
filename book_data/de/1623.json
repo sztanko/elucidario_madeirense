@@ -1,0 +1,43 @@
+{
+    "id": 1623,
+    "lang": "de",
+    "is_original": false,
+    "title": "Gouveia (Kanonikus António Homem de)",
+    "fl": "G",
+    "original_title": "Gouveia (Cónego António Homem de)",
+    "body": "Er wurde in der Gemeinde Ponta do Pargo am 17. Dezember 1869 geboren. Er studierte am Priesterseminar dieser Diözese und wurde im Jahr 1893 zum Priester geweiht. Durch königliches Dekret vom 30. November 1899 wurde er zum Domherrn der Kathedrale von Funchal ernannt. Er war Schreiber der Kirchenkammer und hat verschiedene öffentliche Dienstleistungen ausgeübt. Er vertrat Madeira im Parlament in den Legislaturperioden 1905 bis 1906, 1906 und 1906 bis 1907. Von den Reden, die er im Parlament hielt, wurden drei in Broschüren mit den Titeln Die Knechtschaft der Kirche in Portugal, Lissabon, 1905, von der im selben Jahr eine weitere Ausgabe in Funchal erschien, Die Notwendigkeit der Sonntagsruhe, Lissabon, 1907 und Die Situation Madeiras, Lissabon, 1907 veröffentlicht.",
+    "categories": [
+        "history",
+        "religion",
+        "politics"
+    ],
+    "freguesias": [
+        "Ponta do Pargo"
+    ],
+    "locations": {
+        "Ponta do Pargo": [
+            "Geburtsort"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1869": [
+            "Geburt von Kanonikus António Homem de Gouveia"
+        ],
+        "1893": [
+            "Priesterweihe"
+        ],
+        "1899": [
+            "Ernennung zum Domherrn der Kathedrale von Funchal"
+        ],
+        "1905": [
+            "Vertretung Madeiras im Parlament"
+        ],
+        "1906": [
+            "Vertretung Madeiras im Parlament"
+        ],
+        "1907": [
+            "Vertretung Madeiras im Parlament"
+        ]
+    }
+}

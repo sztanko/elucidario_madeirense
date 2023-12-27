@@ -1,0 +1,37 @@
+{
+    "id": 3373,
+    "lang": "en",
+    "is_original": false,
+    "title": "Sociedade Filantrópica Académica de Coimbra",
+    "fl": "S",
+    "original_title": "Sociedade Filantrópica Académica de Coimbra",
+    "body": "The initiative for the foundation of this benevolent society, which has rendered many services to poor students, is due to the student of the Faculty of Law, Feliciano Augusto de Brito Correia, a native of Madeira. The academic meeting where the organization of the society was first discussed took place on December 23, 1849, and the same student was elected a member of the committee responsible for presenting the basis of the statutes by which the new association should be governed. The Sociedade Filantrópica Académica only had its statutes approved by the government on May 26, 1852.\n\nDr. Feliciano Augusto de Brito Correia was the delegate of the royal prosecutor in Funchal, and he died on January 9, 1871, at the age of 54, as he was born on October 29, 1817.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Coimbra": [
+            "City"
+        ]
+    },
+    "people": {
+        "Feliciano Augusto de Brito Correia": [
+            "Student of the Faculty of Law, delegate of the royal prosecutor in Funchal"
+        ]
+    },
+    "years": {
+        "1849": [
+            "Academic meeting where the organization of the society was first discussed"
+        ],
+        "1852": [
+            "Approval of the statutes by the government"
+        ],
+        "1817": [
+            "Year of birth of Feliciano Augusto de Brito Correia"
+        ],
+        "1871": [
+            "Year of death of Feliciano Augusto de Brito Correia"
+        ]
+    }
+}

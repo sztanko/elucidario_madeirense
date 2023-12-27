@@ -1,0 +1,41 @@
+{
+    "id": 2798,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pinto",
+    "fl": "P",
+    "original_title": "Pinto",
+    "body": "Dieser Familienname stammt von Lopo Fernandes Pinto und Gonçalo Pinto Alcoforado, beide adliger Abstammung. Der Erste kam Mitte des 15. Jahrhunderts auf Madeira zu leben und starb 1500; der Zweite ließ sich um 1500 auf der Insel nieder und ließ sich in Machico nieder, wo er starb. Lopo Fernandes Pinto besaß Land in Santana und S. Jorge.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Santana",
+        "S. Jorge",
+        "Machico"
+    ],
+    "locations": {
+        "Madeira": [
+            "Insel"
+        ],
+        "Machico": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Lopo Fernandes Pinto": [
+            "Bewohner Madeiras seit Mitte des 15. Jahrhunderts, gestorben 1500"
+        ],
+        "Gonçalo Pinto Alcoforado": [
+            "Bewohner Madeiras seit 1500, gestorben in Machico"
+        ]
+    },
+    "years": {
+        "15. Jahrhundert": [
+            "Lopo Fernandes Pinto kam nach Madeira"
+        ],
+        "1500": [
+            "Tod von Lopo Fernandes Pinto und Gonçalo Pinto Alcoforado"
+        ]
+    }
+}

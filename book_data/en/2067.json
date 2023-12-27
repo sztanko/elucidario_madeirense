@@ -1,0 +1,34 @@
+{
+    "id": 2067,
+    "lang": "en",
+    "is_original": false,
+    "title": "Luisier (Padre Alphonse)",
+    "fl": "L",
+    "original_title": "Luisier (Padre Alphonse)",
+    "body": "He is a native of Switzerland, belongs to the Society of Jesus, and was a professor for several years at the extinct College of Campolide in Lisbon. Having received in 1907 a collection of Madeiran mosses, organized by one of the authors of this Elucidário, and later being sent the excellent bryological collection that belonged to James Y. Johnson and is now the property of the Seminary Museum, these were the materials that mainly served him for his studies on Madeiran bryology, about which he has published the following highly valuable works: Note sur quelques mousses nouvelles pour la flore de Madère (Bulletin of the Portuguese Society of Natural Sciences, 1, 2, 1907), Deuxième note sur les mousses de Madère (Ibid., II, I, 1908), Contribution à l'Etude des Muscinées de Madère (Broteria, vol. VIII and IX, 1909 and 1910), and Les Mousses de Madère (Ibid., vol. XV, 1917 to 1922). Professor A. Luisier does not only study mosses; he has also dedicated himself to the study of Phanerogams, and there is a work of his on the plants of the Setúbal region in volume XIX of the Broteriana Society Bulletin. Having been deprived of his bryological collections during the 1910 revolution, he managed to recover part of them later, which enabled him to continue his highly valuable studies on the mosses of the Madeiran archipelago.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Switzerland": [
+            "Country of origin"
+        ],
+        "Lisbon": [
+            "Place where he was a professor"
+        ]
+    },
+    "people": {
+        "A. Luisier": [
+            "Professor and researcher"
+        ]
+    },
+    "years": {
+        "1907": [
+            "Receipt of the collection of Madeiran mosses"
+        ],
+        "1910": [
+            "Revolution that deprived him of his bryological collections"
+        ]
+    }
+}

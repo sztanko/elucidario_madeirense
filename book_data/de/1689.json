@@ -1,0 +1,60 @@
+{
+    "id": 1689,
+    "lang": "de",
+    "is_original": false,
+    "title": "Henriques (Pater João Mauricio)",
+    "fl": "H",
+    "original_title": "Henriques (Padre João Mauricio)",
+    "body": "Er wurde in dieser Stadt am 22. März 1852 geboren und war der Sohn von António Gomes Henriques und Frau Ana Rosa de Sousa Henriques. Er starb in Lissabon am 16. Dezember 1901. Er besuchte das Gymnasium und Priesterseminar in Funchal und wurde 1877 zum Priester geweiht. Nachdem er kirchliche Aufgaben als Pfarrer der Gemeinde Santa Cruz und Pfarrer der Gemeinden Achadas da Cruz und Santana wahrgenommen hatte, wurde er durch Dekret vom 2. März 1885 zum Militärkaplan ernannt. Er diente einige Zeit im Algarve und kam 1887 nach Funchal, wo er im 12. Jägerregiment und später im 27. Infanterieregiment diente. Er arbeitete bei einigen madeirischen Zeitungen mit und war Redakteur der Tageszeitung Diário de Noticias in dieser Stadt. 1909 veröffentlichte er in Funchal eine 104-seitige Broschüre mit dem Titel Kurze historische und beschreibende Notiz über das ehemalige 12. Jägerregiment.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Cruz",
+        "Achadas da Cruz",
+        "Santana"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort und Ort der Priesterweihe"
+        ],
+        "Lissabon": [
+            "Sterbeort"
+        ],
+        "Algarve": [
+            "Ort des Militärdienstes"
+        ],
+        "Santa Cruz": [
+            "Ort der Ausübung kirchlicher Aufgaben"
+        ],
+        "Achadas da Cruz": [
+            "Ort der Ausübung kirchlicher Aufgaben"
+        ],
+        "Santana": [
+            "Ort der Ausübung kirchlicher Aufgaben"
+        ]
+    },
+    "people": {
+        "António Gomes Henriques": [
+            "Vater"
+        ],
+        "Frau Ana Rosa de Sousa Henriques": [
+            "Mutter"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Geburtsjahr"
+        ],
+        "1877": [
+            "Jahr der Priesterweihe"
+        ],
+        "1885": [
+            "Jahr der Ernennung zum Militärkaplan"
+        ],
+        "1909": [
+            "Jahr der Veröffentlichung der Broschüre"
+        ]
+    }
+}

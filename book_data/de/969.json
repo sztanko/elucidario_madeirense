@@ -1,0 +1,32 @@
+{
+    "id": 969,
+    "lang": "de",
+    "is_original": false,
+    "title": "Conceição (Platz)",
+    "fl": "C",
+    "original_title": "Conceição (Largo da)",
+    "body": "Wird umgangssprachlich Largo das Babosas genannt. Der neue Name rührt von der 1906 errichteten Kapelle Nossa Senhora da Conceição her, die speziell zum 50-jährigen Jubiläum der Definition des Dogmas der Unbefleckten Empfängnis errichtet wurde und seither als Kapelle-Denkmal bekannt ist. Dem Stadtratssekretär Luiz Betencourt Miranda ist hauptsächlich die Errichtung dieser Kapelle zu verdanken. Von diesem Platz aus hat man eine überraschende Aussicht auf das Tal Ribeira de João Gomes und Curral dos Romeiros.",
+    "categories": [
+        "culture",
+        "religion"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira de João Gomes": [
+            "Aussicht"
+        ],
+        "Curral dos Romeiros": [
+            "Aussicht"
+        ]
+    },
+    "people": {
+        "Luiz Betencourt Miranda": [
+            "Verantwortlich für die Errichtung der Kapelle"
+        ]
+    },
+    "years": {
+        "1906": [
+            "Bau der Kapelle"
+        ]
+    }
+}

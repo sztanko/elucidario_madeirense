@@ -1,0 +1,41 @@
+{
+    "id": 43,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aclamações de monarcas",
+    "fl": "A",
+    "original_title": "Aclamações de monarcas",
+    "body": "Do Livro de Exéquias e Aclamações, existente no arquivo da Câmara Municipal do Funchal, consta que D. José I foi aclamado rei, na cidade do Funchal, a 4 de Janeiro de 1751; D. Maria I, a 29 de Junho de 1777; D. João VI, a 7 de Abril de 1818; D. Pedro V, a 7 de Setembro de 1855; D. Luiz I, a 20 de Janeiro de 1862; D. Carlos I, a 28 de Dezembro de 1889; e D. Manuel II, a 6 de Maio de 1908. O referido livro não faz menção do dia em que D. Maria II foi proclamada rainha, na cidade do Funchal, mas sabe se que essa cerimónia, bem como a do reconhecimento da Constituição, se realizaram nos Paços do Concelho, no dia 6 de Junho de 1834. Como veremos no artigo Restauração de Portugal, a aclamação de D. João IV deu se no dia 11 de Janeiro de 1641. Publicou se nesta cidade, em 1855, um folheto intitulado Aclamação de S. M. F. o Sr. D. Pedro V, no Funchal, que é a descrição das festas que então se realizaram. Para a aclamação dos reis organizava se um cortejo em que se incorporavam todas as entidades oficiais, o qual percorria várias ruas da cidade, parando em diversos pontos, a fim dos vereadores anunciarem aí, com o cerimonial do estilo, o nome do novo monarca reinante. Este cortejo só deixou de organizar se, quando da aclamação de D. Manuel II.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1751": [
+            "D. José I aclamado rei"
+        ],
+        "1777": [
+            "D. Maria I aclamada rainha"
+        ],
+        "1818": [
+            "D. João VI aclamado rei"
+        ],
+        "1855": [
+            "D. Pedro V aclamado rei"
+        ],
+        "1862": [
+            "D. Luiz I aclamado rei"
+        ],
+        "1889": [
+            "D. Carlos I aclamado rei"
+        ],
+        "1908": [
+            "D. Manuel II aclamado rei"
+        ],
+        "1834": [
+            "Reconhecimento da Constituição"
+        ]
+    }
+}

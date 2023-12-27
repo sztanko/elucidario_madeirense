@@ -1,0 +1,29 @@
+{
+    "id": 273,
+    "lang": "de",
+    "is_original": false,
+    "title": "Arruda (Pater Pedro von)",
+    "fl": "A",
+    "original_title": "Arruda (Fr. Pedro de)",
+    "body": "Guardian der Franziskanergemeinschaft von S. João da Ribeira, der die ursprüngliche Kirche des Franziskanerklosters dieser Stadt errichtete, die 1554 von Bischof D. Sancho Truxillo, der auf der Durchreise auf Madeira war, geweiht wurde.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "S. João da Ribeira": [
+            "Ort der Franziskanergemeinschaft"
+        ]
+    },
+    "people": {
+        "Pater Pedro von Arruda": [
+            "Guardian der Franziskanergemeinschaft von S. João da Ribeira"
+        ]
+    },
+    "years": {
+        "1554": [
+            "Weihe der ursprünglichen Kirche des Franziskanerklosters S. Francisco"
+        ]
+    }
+}

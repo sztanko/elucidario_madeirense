@@ -1,0 +1,43 @@
+{
+    "id": 1439,
+    "lang": "en",
+    "is_original": false,
+    "title": "Fortaleza de S. Tiago",
+    "fl": "F",
+    "original_title": "Fortaleza de S. Tiago",
+    "body": "It was ordered to be built during the Philippine dominion, on a rocky point east of the port, and the original portal bears the date of 1614. Expanded after the Restoration, it had a new wall and outer gate, becoming the completion of the city walls. In 1697, Manuel Telo Catanho de Meneses was appointed captain ad honorem of this fortress with the obligation to keep it clean and provided with lookouts. In 1767, it underwent new modifications, as seen from an inscription there: 'This fortress was rebuilt and expanded, while José Correia de Sá was governor and captain-general of this island, and he had fifty pieces of artillery brought from London, with all the preparations, in the year 1767'. When the English troops occupied Madeira at the beginning of the last century, this fortress was garrisoned by British gunners. In 1803, João de Freitas da Silva, the morgado, was imprisoned here after fleeing from the convent of S. Bernardino, 'where he had been sent to learn the rudiments of the Christian doctrine', – an interesting document published by the Heraldo da Madeira. n.° 441. It currently serves as the barracks for Mountain Artillery Battery No. 3. (1921).",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "S. Bernardino"
+    ],
+    "locations": {
+        "London": [
+            "Capital of the United Kingdom"
+        ]
+    },
+    "people": {
+        "Manuel Telo Catanho de Meneses": [
+            "Captain ad honorem"
+        ],
+        "José Correia de Sá": [
+            "Governor and captain-general of the island"
+        ],
+        "João de Freitas da Silva": [
+            "Morgado"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Construction of the fortress"
+        ],
+        "1697": [
+            "Appointment of Manuel Telo Catanho de Meneses as captain ad honorem"
+        ],
+        "1767": [
+            "Rebuilding and expansion of the fortress"
+        ]
+    }
+}

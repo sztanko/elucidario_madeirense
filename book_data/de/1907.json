@@ -1,0 +1,43 @@
+{
+    "id": 1907,
+    "lang": "de",
+    "is_original": false,
+    "title": "Labor für Bakteriologie und Hygiene",
+    "fl": "L",
+    "original_title": "Laboratório de Bacteriologia e Higiene",
+    "body": "Es wurde durch das Dekret vom 17. Mai 1904 auf Antrag des Generalrates dieses Bezirks geschaffen, dem seine Einrichtung und die Kosten für seinen Betrieb oblagen. Sein Personal bestand damals aus einem leitenden Arzt, einem Präparator und einem Diener. Die Anforderungen des Dienstes machten es später notwendig, den Personalbestand zu erhöhen.\n\nSein erster Direktor war Dr. António Balbino do Rego, den die bedauerlichen Ereignisse im Januar 1906 in Funchal zwangen, die Ausübung dieses Amtes aufzugeben, das er mit großem Eifer und anerkannter Kompetenz ausgeübt hatte. Der Präparator Dr. António Capelo übernahm das Amt des Direktors kommissarisch.\n\nDurch das Dekret vom 22. Dezember 1939 wurde der Dienst dieses Labors neu geordnet. Es erhielt eine Abteilung für bakteriologische und klinische Analysen und eine andere für chemische und technologische Analysen. Sein Personal bestand aus einem Direktor-Arzt Bakteriologen, einem Chemiker Analytiker, einem Präparator, einem Präparator-Assistenten und zwei Laborassistenten.\n\nDer angesehene Bakteriologe Dr. Vicente Henriques de Gouveia, der bereits durch seine bemerkenswerten Laborarbeiten bekannt war, wurde 1931 als ärztlicher Direktor unter Vertrag genommen und am 5. November 1940 endgültig in dieses Amt berufen.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Dr. António Balbino do Rego": [
+            "Erster Direktor des Labors für Bakteriologie und Hygiene"
+        ],
+        "Dr. António Capelo": [
+            "Präparator und kommissarischer Direktor des Labors für Bakteriologie und Hygiene"
+        ],
+        "Dr. Vicente Henriques de Gouveia": [
+            "Bakteriologe und ärztlicher Direktor des Labors für Bakteriologie und Hygiene"
+        ]
+    },
+    "years": {
+        "1904": [
+            "Gründung des Labors für Bakteriologie und Hygiene"
+        ],
+        "1906": [
+            "Ereignisse im Januar 1906 in Funchal"
+        ],
+        "1939": [
+            "Umstrukturierung des Dienstes im Labor für Bakteriologie und Hygiene"
+        ],
+        "1931": [
+            "Einstellung von Dr. Vicente Henriques de Gouveia als ärztlicher Direktor des Labors für Bakteriologie und Hygiene"
+        ],
+        "1940": [
+            "Endgültige Ernennung von Dr. Vicente Henriques de Gouveia zum ärztlichen Direktor des Labors für Bakteriologie und Hygiene"
+        ]
+    }
+}

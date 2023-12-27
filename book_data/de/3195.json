@@ -1,0 +1,69 @@
+{
+    "id": 3195,
+    "lang": "de",
+    "is_original": false,
+    "title": "Heilige Quitéria (Kapellen der)",
+    "fl": "H",
+    "original_title": "Santa Quitéria (Capelas de)",
+    "body": "In Bezug auf die Kapelle dieses Namens sagt Dr. Álvaro de Azevedo, dass sie von Simão de Nobrega in Curral das Freiras gegründet wurde, was offensichtlich ein Irrtum ist. Diese Kapelle befand sich in der Gemeinde Santo António und wurde vom Fähnrich Simão de Nobrega e Sousa und seiner Frau Maria Tavares de Sousa auf ihrem Landgut im Ortsteil Pico do Cardo dieser Gemeinde erbaut. In Curral das Freiras gab es nur die Einsiedelei des Heiligen Antonius, die von den Nonnen des Klosters Santa Clara in Auftrag gegeben wurde. Die Kapelle der Heiligen Quitéria wurde 1727 errichtet. Die entsprechende Stiftungsurkunde ist vom 3. Juli dieses Jahres. 1814 war sie entweiht und seit vielen Jahren wurden dort keine Kulthandlungen mehr vollzogen. Sie gab dem Ort, an dem sie errichtet wurde, ihren Namen.\n\nEine weitere Kapelle mit demselben Patrozinium befand sich im Ort Lombo da Estrela in der Gemeinde Calheta. Sie wurde 1724 von João Homem de Abreu und seiner Frau D. Ana Quiteria oder Luzia gestiftet. Die Stiftungsurkunde ist vom 30. Mai jenes Jahres.\n\nEine von Pater João da Silva Alves gegründete Kapelle der Heiligen Quitéria gab es in der Gemeinde Madalena do Mar.",
+    "categories": [
+        "religion",
+        "history"
+    ],
+    "freguesias": [
+        "Santo António",
+        "Calheta",
+        "Madalena do Mar"
+    ],
+    "locations": {
+        "Curral das Freiras": [
+            "Hier gab es nur die Einsiedelei des Heiligen Antonius"
+        ],
+        "Santo António": [
+            "Gemeinde, in der die Kapelle der Heiligen Quitéria errichtet wurde"
+        ],
+        "Pico do Cardo": [
+            "Ort, an dem Simão de Nobrega e Sousa und seine Frau Maria Tavares de Sousa ein Landgut besaßen"
+        ],
+        "Lombo da Estrela": [
+            "Ort, an dem eine weitere Kapelle der Heiligen Quitéria errichtet wurde"
+        ],
+        "Calheta": [
+            "Gemeinde, in der eine weitere Kapelle der Heiligen Quitéria errichtet wurde"
+        ],
+        "Madalena do Mar": [
+            "Gemeinde, in der eine Kapelle der Heiligen Quitéria von Pater João da Silva Alves gegründet wurde"
+        ]
+    },
+    "people": {
+        "Simão de Nobrega": [
+            "Gründer der Kapelle der Heiligen Quitéria in Curral das Freiras"
+        ],
+        "Maria Tavares de Sousa": [
+            "Ehefrau von Simão de Nobrega, beteiligt an Bau der Kapelle"
+        ],
+        "João Homem de Abreu": [
+            "Gründer der Kapelle der Heiligen Quitéria in Lombo da Estrela"
+        ],
+        "D. Ana Quiteria": [
+            "Ehefrau von João Homem de Abreu, beteiligt am Bau der Kapelle"
+        ],
+        "João da Silva Alves": [
+            "Gründer einer Kapelle der Heiligen Quitéria in Madalena do Mar"
+        ]
+    },
+    "years": {
+        "1727": [
+            "Jahr, in dem die Kapelle der Heiligen Quitéria in Curral das Freiras errichtet wurde"
+        ],
+        "1814": [
+            "Jahr, in dem die Kapelle der Heiligen Quitéria in Curral das Freiras entweiht war"
+        ],
+        "1724": [
+            "Jahr der Gründung der Kapelle der Heiligen Quitéria in Lombo da Estrela"
+        ],
+        "30. Mai": [
+            "Datum der Stiftungsurkunde der Kapelle der Heiligen Quitéria in Lombo da Estrela"
+        ]
+    }
+}

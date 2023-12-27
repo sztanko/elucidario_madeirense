@@ -1,0 +1,34 @@
+{
+    "id": 1739,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Hortas (Rua das)",
+    "fl": "H",
+    "original_title": "Hortas (Rua das)",
+    "body": "Chama-se agora (1921) rua do Alferes Veiga Pestana, em virtude da deliberação tomada pela Câmara em 10 de Abril de 1919, e comunica a rua do Carmo com as avenidas de Pedro José de Ornelas e Elias Garcia, na freguesia de Santa Luzia. \n\n> O alferes João Paulo da Veiga Pestana morreu em França, no combate de 9 de Abril de 1918.",
+    "categories": [
+        "history",
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Luzia"
+    ],
+    "locations": {
+        "Santa Luzia": [
+            "Freguesia onde se localiza a rua"
+        ]
+    },
+    "people": {
+        "Alferes João Paulo da Veiga Pestana": [
+            "Falecido em França no combate de 9 de Abril de 1918"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Ano em que a rua passou a chamar-se rua do Alferes Veiga Pestana"
+        ],
+        "1919": [
+            "Ano da deliberação tomada pela Câmara"
+        ]
+    }
+}

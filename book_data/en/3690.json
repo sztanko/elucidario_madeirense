@@ -1,0 +1,65 @@
+{
+    "id": 3690,
+    "lang": "en",
+    "is_original": false,
+    "title": "Zita (Ex-Imperatriz)",
+    "fl": "Z",
+    "original_title": "Zita (Ex-Imperatriz)",
+    "body": "Accompanied by the former Emperor of Austria, Charles of Habsburg, Zita arrived in Madeira on November 19, 1921, around 10:30 in the morning, on the English cruiser Cardiff. The two spouses disembarked at Pontinha and then went to 'Vila Vitoria', where they took up residence. In January 1922, the ex-empress left the island to fetch her children, who were being educated in Switzerland, returning on February 2, accompanied by the princes Francisco Otto, Adelaide Maria, Roberto Carlos, and Carlos Luís, and the whole family moved to the parish of Monte, to the estate of the banker Luís da Rocha Machado, from the 18th of the same month.\n\nThe former Emperor Charles died in the parish of Monte on April 1, 1922, and his body was laid to rest in the parish church on the 5th of the same month. For this reason, the former empress decided to leave the island, which she effectively did on May 19 of that year, on the transatlantic ship Infanta Isabel de Bourbon, bound for Cádiz. Before leaving Monte, the former empress prayed for a long time by her husband's tomb, also attending the solemn requiem mass for the former emperor, which took place at the Cathedral on April 27.",
+    "categories": [
+        "history",
+        "society",
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Madeira": [
+            "Location where the former empress arrived"
+        ],
+        "Ponta da Pontinha": [
+            "Location where the former empress disembarked"
+        ],
+        "Vila Vitoria": [
+            "Location where the former empress took up residence"
+        ],
+        "Monte": [
+            "Parish where the former empress and her family resided"
+        ],
+        "Igreja paroquial": [
+            "Location where the former emperor's body was laid to rest"
+        ],
+        "Sé Catedral": [
+            "Location where the solemn requiem mass was held"
+        ]
+    },
+    "people": {
+        "Carlos de Habsburgo": [
+            "Former Emperor of Austria"
+        ],
+        "Francisco Oto": [
+            "Prince"
+        ],
+        "Adelaide Maria": [
+            "Princess"
+        ],
+        "Roberto Carlos": [
+            "Prince"
+        ],
+        "Carlos Luís": [
+            "Prince"
+        ],
+        "Luís da Rocha Machado": [
+            "Banker"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Arrival in Madeira"
+        ],
+        "1922": [
+            "Departure of the former empress from the island"
+        ]
+    }
+}

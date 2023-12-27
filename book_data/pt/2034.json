@@ -1,0 +1,38 @@
+{
+    "id": 2034,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo da Raiz",
+    "fl": "L",
+    "original_title": "Lombo da Raiz",
+    "body": "Sítio da freguesia do Santo da Serra, onde se encontra uma pequena casa, que pode servir de abrigo aos que por ali transitam, e onde também se faz a separação, para aqueduto próprio, das águas da Levada da Serra, que irriga as freguesias do Caniço, São Gonçalo e Santa Maria Maior. Estas águas vem em comum, até o Lombo da Raiz com as da Levada do Juncal destinada ás paróquias do Santo da Serra, Água de Pena e Santa Cruz, e com as da Levada Nova do Furado, que fertiliza as terras da freguesia de Santa Cruz.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo da Serra",
+        "Caniço",
+        "São Gonçalo",
+        "Santa Maria Maior",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Santo da Serra": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Caniço": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "São Gonçalo": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Santa Maria Maior": [
+            "Localidade na Ilha da Madeira"
+        ],
+        "Santa Cruz": [
+            "Localidade na Ilha da Madeira"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

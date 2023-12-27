@@ -1,0 +1,28 @@
+{
+    "id": 3466,
+    "lang": "en",
+    "is_original": false,
+    "title": "Telo de Meneses (Luís)",
+    "fl": "T",
+    "original_title": "Telo de Meneses (Luís)",
+    "body": "Born in Madeira, he was the son of Gaspar Lopes Cortez, and, having pursued a military career, he died in the battle of Montijo on May 26, 1644. At that time, he was a captain of infantry.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Place of birth"
+        ]
+    },
+    "people": {
+        "Gaspar Lopes Cortez": [
+            "Father"
+        ]
+    },
+    "years": {
+        "1644": [
+            "Death in the battle of Montijo"
+        ]
+    }
+}

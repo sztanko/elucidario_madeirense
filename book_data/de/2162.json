@@ -1,0 +1,39 @@
+{
+    "id": 2162,
+    "lang": "de",
+    "is_original": false,
+    "title": "Malheiro de Melo (Patrício)",
+    "fl": "M",
+    "original_title": "Malheiro de Melo (Patrício)",
+    "body": "Er wurde am 17. März 1791 in Funchal geboren und starb am 18. Mai 1942 in der Gemeinde Caniço. Er nahm aktiv an der Bewegung vom 28. Januar 1821 teil, die zur Verkündung der Verfassung auf Madeira führte, und war Mitglied der ersten verfassungsgebenden Stadtverordnetenversammlung von Funchal und Konsul von Preußen. Nach der Anklage durch das Sondergericht, das 1828 nach Madeira kam, wurde er nicht verhaftet, da er sich ins Ausland abgesetzt hatte, von wo aus er erst nach der Wiederherstellung der verfassungsmäßigen Regierung im Land zurückkehrte.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort."
+        ],
+        "Caniço": [
+            "Sterbeort."
+        ]
+    },
+    "people": {
+        "Patrício Malheiro de Melo": [
+            "Aktiver Teilnehmer an der Bewegung vom 28. Januar 1821."
+        ]
+    },
+    "years": {
+        "1791": [
+            "Geburtsjahr."
+        ],
+        "1942": [
+            "Sterbejahr."
+        ],
+        "1821": [
+            "Jahr der Bewegung vom 28. Januar."
+        ]
+    }
+}

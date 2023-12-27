@@ -1,0 +1,25 @@
+{
+    "id": 2913,
+    "lang": "de",
+    "is_original": false,
+    "title": "Prainha",
+    "fl": "P",
+    "original_title": "Prainha",
+    "body": "Kleiner Strand an der Küste der Gemeinde Caniçal, der sich von den anderen Stränden Madeiras dadurch unterscheidet, dass er aus Sand besteht, während alle anderen aus abgerundeten Kieseln bestehen. Er liegt am Ende einer malerischen Bucht, die von den Sommergästen des Ortes Machico viel besucht wird.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Caniçal"
+    ],
+    "locations": {
+        "Caniçal": [
+            "Gemeinde an der Küste, in der sich der kleine Strand Prainha befindet."
+        ],
+        "Machico": [
+            "Ort, dessen Sommergäste den Strand Prainha besuchen."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

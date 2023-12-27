@@ -1,0 +1,43 @@
+{
+    "id": 1694,
+    "lang": "en",
+    "is_original": false,
+    "title": "Henry (Paul)",
+    "fl": "H",
+    "original_title": "Henry (Paul)",
+    "body": "An officer of the French navy, killed in Pekin on July 30, 1900, during the entry of the allied armies into the city. He was in Madeira in October 1895, aboard the ship Iphigénie, and in October 1896 and June 1897 aboard the Melpomène. R. Bazin writes about this officer's stay in Madeira in his book entitled L'enseigne de vaisseau Paul Henry.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pekin": [
+            "Place of death"
+        ],
+        "Iphigénie": [
+            "Ship"
+        ],
+        "Melpomène": [
+            "Ship"
+        ]
+    },
+    "people": {
+        "R. Bazin": [
+            "Author of the book"
+        ]
+    },
+    "years": {
+        "1900": [
+            "Death in Pekin"
+        ],
+        "1895": [
+            "Stay in Madeira aboard the ship Iphigénie"
+        ],
+        "1896": [
+            "Stay in Madeira aboard the ship Melpomène"
+        ],
+        "1897": [
+            "Stay in Madeira aboard the ship Melpomène"
+        ]
+    }
+}

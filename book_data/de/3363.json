@@ -1,0 +1,59 @@
+{
+    "id": 3363,
+    "lang": "de",
+    "is_original": false,
+    "title": "Soares (Pater Caetano Alberto)",
+    "fl": "S",
+    "original_title": "Soares (Padre Caetano Alberto)",
+    "body": "> Er war der Sohn von Antonio Soares Felgueiras und Frau Ana de Oliveira und wurde am 23. Mai 1790 in der Gemeinde Porto da Cruz geboren. In jungen Jahren kam er nach Funchal ins Haus seines Patenonkels Caetano Alberto de Araujo und absolvierte dort seine Studienvorbereitung in Geisteswissenschaften sowie ein Theologiestudium am Diözesanseminar. Er wurde zum Priester geweiht und ging sofort nach Coimbra, wo er sich an der juristischen Fakultät einschrieb und sein Studium 1820 oder kurz danach abschloss. In Funchal praktizierte er als Anwalt und leitete den Lateinunterricht, als er 1826 als Abgeordneter für Madeira gewählt wurde. Er nahm einen Sitz im Parlament ein und lebte bis 1828 in Lissabon, als er nach Rio de Janeiro ging, weil er fürchtete, Opfer der Verfolgungen durch die absolute Regierung gegen Anhänger liberaler Ideen zu werden.\n> Er ließ sich in der Hauptstadt Brasiliens nieder, nahm die brasilianische Staatsbürgerschaft an und widmete sich bald der Anwaltstätigkeit, in der er sich als hervorragender Jurist einen Namen machte. Er bekleidete verschiedene Positionen im öffentlichen Dienst, unter anderem als Richter für Waisenangelegenheiten, Anwalt des Kaiserhauses und Präsident des Anwaltsinstituts. Als die brasilianische Regierung für den besten Gesetzesentwurf für ein Zivilgesetzbuch einen Preis von einer Million Réis aussetzte, wurde Dr. Caetano Alberto Soares in die Kommission berufen, die ein Gutachten über den eingereichten Entwurf abgeben sollte.\n> Dr. Soares hatte das Unglück zu erblinden, praktizierte aber trotzdem weiter erfolgreich als Anwalt. Aufgrund seiner Erblindung hinterließ er keine gedruckten Werke, abgesehen von einer Abhandlung, die er 1848 im Anwaltsinstitut vorlas und die in diesem Jahr auch veröffentlicht wurde.\n> Er starb am 28. Februar 1867 in Rio de Janeiro.",
+    "categories": [
+        "history",
+        "politics",
+        "education"
+    ],
+    "freguesias": [
+        "Porto da Cruz"
+    ],
+    "locations": {
+        "Porto da Cruz": [
+            "Geburtsort von Pater Caetano Alberto Soares"
+        ],
+        "Funchal": [
+            "Ort, an dem Pater Caetano Alberto Soares seine Studienvorbereitung absolvierte"
+        ],
+        "Coimbra": [
+            "Ort, an dem sich Pater Caetano Alberto Soares an der juristischen Fakultät einschrieb"
+        ],
+        "Lissabon": [
+            "Ort, an dem Pater Caetano Alberto Soares nach seiner Wahl zum Abgeordneten für Madeira lebte"
+        ],
+        "Rio de Janeiro": [
+            "Wohnort und Sterbeort von Pater Caetano Alberto Soares"
+        ]
+    },
+    "people": {
+        "Antonio Soares Felgueiras": [
+            "Vater von Pater Caetano Alberto Soares"
+        ],
+        "Frau Ana de Oliveira": [
+            "Mutter von Pater Caetano Alberto Soares"
+        ],
+        "Caetano Alberto de Araujo": [
+            "Patenonkel von Pater Caetano Alberto Soares"
+        ]
+    },
+    "years": {
+        "1790": [
+            "Geburt von Pater Caetano Alberto Soares"
+        ],
+        "1826": [
+            "Wahl von Pater Caetano Alberto Soares zum Abgeordneten für Madeira"
+        ],
+        "1828": [
+            "Wegzug von Pater Caetano Alberto Soares nach Rio de Janeiro"
+        ],
+        "1867": [
+            "Tod von Pater Caetano Alberto Soares"
+        ]
+    }
+}

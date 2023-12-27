@@ -1,0 +1,31 @@
+{
+    "id": 2960,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pterégio",
+    "fl": "P",
+    "original_title": "Pterégio",
+    "body": "This disease, also called pterygium, was identified as common in Madeira about 170 years ago by Dr. Heberden, an English physician. Dr. Alfredo Ernesto Rodrigues, a distinguished specialist in eye diseases, declared that it continues to appear on a large scale on the island, characterized by a thickening of part of the conjunctiva, which almost always manifests itself in the inner corner of the eye (1921).",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Identified as common"
+        ]
+    },
+    "people": {
+        "Dr. Heberden": [
+            "Identified as common in Madeira"
+        ],
+        "Dr. Alfredo Ernesto Rodrigues": [
+            "Declared that it continues to appear on a large scale on the island"
+        ]
+    },
+    "years": {
+        "1921": [
+            "Characterization of the disease"
+        ]
+    }
+}

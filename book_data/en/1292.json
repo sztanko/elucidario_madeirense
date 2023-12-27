@@ -1,0 +1,39 @@
+{
+    "id": 1292,
+    "lang": "en",
+    "is_original": false,
+    "title": "Estufas",
+    "fl": "E",
+    "original_title": "Estufas",
+    "body": "The greenhouses began on this island in 1794; prohibited by edicts of the governor and captain general on August 13, 1802, and November 6, 1803, they resumed operation by virtue of a royal order dated May 7, 1804.\n\nThe greenhouses are intended to give the wines an appearance of age they do not have, and those of the primitive system, still existing on the island, are heated by hot air or by the sun. The hot air ones are stone buildings, divided into compartments heated by pipes through which the air coming from one or more furnaces passes, with the new wine in communication with the greenhouse air through an opening in the cask. The air temperature in the greenhouse is regulated between 60 and 70 degrees Celsius, but it can drop to 54 degrees, or even lower, in the case of good quality wines.\n\nThe wines remain in the greenhouses for four to six months in order to expedite their development and prevent them from fermenting, but they almost always acquire a roasted taste, sometimes very pronounced, which the handler manages to mitigate, but not entirely eliminate, with the subsequent use of charcoal.\n\nIn sun greenhouses, the walls and roof of the building are made of glass.\n\nIn an establishment founded in 1889 by the late Count of Canavial, the wine, before going to the cellars or greenhouses, where it remains for weeks or months, enters a reservoir where it slowly descends through a tin pipe, which is raised in a water bath, and shielded from the air, at a temperature of 70 to 80 degrees Celsius. It is at this temperature that the wine is received in the vessel that goes to the cellars, where the temperature is 50 degrees, then slowly descending, and making the necessary stops, until the end of the refinement.\n\nIn this improved system, the sterilization of the wine is achieved by raising the temperature to 70 or 80 degrees, but since this is the temperature at which the wine comes into contact with the air, it oxidizes, acquiring a certain cooked taste.\n\nThis taste almost entirely disappears in another improved heating system in which the wine is poured into a masonry tank, capable of being hermetically sealed and crossed by a coil through which the steam passes. The wine is only removed when it has cooled, and the heating operation begins by raising the temperature to 80 degrees Celsius, then occasionally passing new steam through the coil, in order to keep the wine at an almost constant temperature, or at variable temperatures, according to convenience.\n\nThe system of benefiting wines through greenhouses, now greatly improved, had some detractors in ancient times. In the preamble of the decree of June 23, 1834, it is stated that it is\n\n> the main cause of the current discredit of Madeiran wines, once highly appreciated, but Paulo Perestrelo da Câmara in the Brief Notice about the island of Madeira defends the aforementioned system, and the decree of February 20, 1835, also modified considerably the doctrine of the previous diploma regarding the greenhouses.\n\nThere is no doubt that the greenhouses were greatly abused and that through them many ordinary wines were prepared to be sold in European markets at low prices and to the discredit of generous wines; however, there were always good reasons not to set aside these establishments, which, on the one hand, favored fraud, but on the other hand, helped the honest merchant to rapidly valorize new wines from good grape varieties, developing in them qualities that would only manifest themselves late by other means.",
+    "categories": [
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Paulo Perestrelo da Câmara": [
+            "Defended the greenhouse system in Madeira"
+        ]
+    },
+    "years": {
+        "1794": [
+            "Beginning of the greenhouses on the island"
+        ],
+        "1802": [
+            "Prohibition of the greenhouses by the governor and captain general"
+        ],
+        "1803": [
+            "Prohibition of the greenhouses by the governor and captain general"
+        ],
+        "1804": [
+            "Resumption of the operation of the greenhouses by a royal order"
+        ],
+        "1834": [
+            "Decree stating the discredit of Madeiran wines due to the greenhouse system"
+        ],
+        "1835": [
+            "Modification of the doctrine of the previous diploma regarding the greenhouses"
+        ]
+    }
+}

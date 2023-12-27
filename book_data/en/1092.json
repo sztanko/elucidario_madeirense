@@ -1,0 +1,36 @@
+{
+    "id": 1092,
+    "lang": "en",
+    "is_original": false,
+    "title": "Cumiada de S. Vicente",
+    "fl": "C",
+    "original_title": "Cumiada de S. Vicente",
+    "body": "It is 1000 meters above sea level and is a point from which, on clear days, both the north and south of Madeira can be seen. The road that leads from Camara de Lôbos to Cumiada, passing through Ribeira Brava, was inaugurated in 1916. Near Cumiada de S. Vicente, the rare Lycopodium complanatum, a clubmoss, is found in Madeira.",
+    "categories": [
+        "geography",
+        "history",
+        "biology"
+    ],
+    "freguesias": [
+        "S. Vicente",
+        "Camara de Lôbos",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "S. Vicente": [
+            "Parish in the north of the Island of Madeira"
+        ],
+        "Camara de Lôbos": [
+            "Parish on the south coast of the Island of Madeira"
+        ],
+        "Ribeira Brava": [
+            "Parish on the south coast of the Island of Madeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1916": [
+            "Inauguration of the road that leads from Camara de Lôbos to Cumiada, passing through Ribeira Brava"
+        ]
+    }
+}

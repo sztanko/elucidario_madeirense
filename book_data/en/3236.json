@@ -1,0 +1,40 @@
+{
+    "id": 3236,
+    "lang": "en",
+    "is_original": false,
+    "title": "São Jorge (Ilhéu, Ponta, Porto e Ribeira de)",
+    "fl": "S",
+    "original_title": "São Jorge (Ilhéu, Ponta, Porto e Ribeira de)",
+    "body": "The small islet of S. Jorge is located near the coastal area of the parish of the same name and almost in front of the respective port.\n\nThe promontory that juts out the most into the sea on the northern coast of Madeira is called Ponta de São Jorge and is located on the coast of the parish of the same name. At the end of this promontory, known as Vigia, all the sinuosities of the coastal area from the parish of Porto da Cruz to the parish of Porto do Moniz can be seen, making this place worth visiting.\n\nAt a location called Ponta Gorda, a pier was built from 1904 to 1910, which was connected to the central road that provides communication between the parishes of Santana and São Jorge via a footpath.\n\nThe river originates in the vicinity of Pico Ruivo and crosses the parish of São Jorge, flowing into the port of the same name. Its tributaries include the streams of Canário, Grande, and Lombo da Furna.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "São Jorge",
+        "Porto da Cruz",
+        "Santana"
+    ],
+    "locations": {
+        "Ilhéu de S. Jorge": [
+            "Near the coastal area of the parish of São Jorge"
+        ],
+        "Ponta de São Jorge": [
+            "Coast of the parish of São Jorge"
+        ],
+        "Ponta Gorda": [
+            "Location where a pier was built from 1904 to 1910"
+        ],
+        "Porto do Moniz": [
+            "Located on the coastal area"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Construction of the pier"
+        ],
+        "1910": [
+            "Completion of the construction of the pier"
+        ]
+    }
+}

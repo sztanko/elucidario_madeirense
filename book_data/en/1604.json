@@ -1,0 +1,30 @@
+{
+    "id": 1604,
+    "lang": "en",
+    "is_original": false,
+    "title": "Gonçalo Aires (Ribeira de)",
+    "fl": "G",
+    "original_title": "Gonçalo Aires (Ribeira de)",
+    "body": "Gaspar Frutuoso, when referring to the early exploration efforts during the settlement of this island, recounts, among other episodes, the following: 'Gonçalo Ayres and his companions roamed the land for about three hours, at the end of which the captain was already annoyed by their delay, until they appeared coming down the stream with chapels on their heads and branches, speaking with great pleasure, as they had not found anything alive, only birds; and from this the name 'Ribeira de Gonçalayres' remained.' This stream crosses the parish of São Gonçalo, and at its mouth lies the lazaretto called Gonçalo Aires.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "São Gonçalo"
+    ],
+    "locations": {
+        "Ribeira de Gonçalayres": [
+            "Crosses the parish of São Gonçalo"
+        ]
+    },
+    "people": {
+        "Ferreira (Gonçalo Aires)": [
+            "Related to the Ribeira de Gonçalayres"
+        ],
+        "Lazaretto": [
+            "Located at the mouth of the Ribeira de Gonçalayres"
+        ]
+    },
+    "years": {}
+}

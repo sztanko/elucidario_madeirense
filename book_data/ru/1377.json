@@ -1,0 +1,28 @@
+{
+    "id": 1377,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Феррейра да Силва (доктор Антониу Жоаким)",
+    "fl": "Ф",
+    "original_title": "Ferreira da Silva (Dr. Antonio Joaquim)",
+    "body": "> Этот авторитетный ученый, чьи работы хорошо известны и ценятся за рубежом, написал две брошюры, представляющие большой интерес для виноделия Мадейры: Sur les vins de Madère, 1896 и La vinification des vins de Madère et leur composition, 1911. Последняя работа была опубликована в Annales des falsifications, стр. 4-59.",
+    "categories": [
+        "science",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Доктор Антониу Жоаким Феррейра да Силва": [
+            "Ученый"
+        ]
+    },
+    "years": {
+        "1896": [
+            "Публикация брошюры Sur les vins de Madère"
+        ],
+        "1911": [
+            "Публикация брошюры La vinification des vins de Madère et leur composition"
+        ]
+    }
+}

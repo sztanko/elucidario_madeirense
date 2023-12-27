@@ -1,0 +1,27 @@
+{
+    "id": 1431,
+    "lang": "en",
+    "is_original": false,
+    "title": "Forel (Dr.)",
+    "fl": "F",
+    "original_title": "Forel (Dr.)",
+    "body": "He studied the ants of the Madeira archipelago in the Mittheilungen der Schweiz Entom Gesellschaft. The species studied by Dr. Forel were collected by Reverend Father E. Schmitz.",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Archipelago"
+        ]
+    },
+    "people": {
+        "Dr. Forel": [
+            "Scientist"
+        ],
+        "Revº Padre E. Schmitz": [
+            "Responsible for collecting the species"
+        ]
+    },
+    "years": {}
+}

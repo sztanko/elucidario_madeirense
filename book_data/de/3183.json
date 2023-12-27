@@ -1,0 +1,33 @@
+{
+    "id": 3183,
+    "lang": "de",
+    "is_original": false,
+    "title": "Santa Brigida (Kapelle)",
+    "fl": "S",
+    "original_title": "Santa Brigida (Capela de)",
+    "body": "In der Gemeinde São Pedro gab es eine Kapelle zu Ehren der Heiligen Birgitta, die 1668 von Antonio Maciel de Afonseca Cerveira gegründet wurde. Der Ort, an dem sie stand, ist unbekannt. In ihr fanden 1754 Kultfeiern statt.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "São Pedro"
+    ],
+    "locations": {
+        "São Pedro": [
+            "Gemeinde, in der die Kapelle stand"
+        ]
+    },
+    "people": {
+        "Antonio Maciel de Afonseca Cerveira": [
+            "Gründer der Kapelle"
+        ]
+    },
+    "years": {
+        "1668": [
+            "Gründungsjahr der Kapelle"
+        ],
+        "1754": [
+            "Jahr der Durchführung von Kultfeiern"
+        ]
+    }
+}

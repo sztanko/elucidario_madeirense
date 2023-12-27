@@ -1,0 +1,30 @@
+{
+    "id": 3223,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Francisco (Rua de)",
+    "fl": "S",
+    "original_title": "São Francisco (Rua de)",
+    "body": "Sie erstreckt sich von der Rua da Carreira oder der Rua do Dr. Vieira bis zur Avenida do Dr. Manuel de Arriaga. In der Stadtratssitzung von Funchal am 6. Juli 1922 erhielt sie den etwas vagen Namen \"Rua 22 de Março de 1921\", da die portugiesischen Flieger Gago Coutinho und Sacadura Cabral am 22. März 1921 ihren Flug zwischen Lissabon und Madeira machten.\n\nEs wäre gut, wenn der alte Straßenname wiederhergestellt würde, da die Öffentlichkeit sich weigert, einen anderen anzuerkennen und die Stadtverwaltung die beiden Flieger bereits geehrt hat, indem sie zwei Straßen nach ihnen benannt hat (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Rua da Carreira": [
+            "Straße"
+        ],
+        "Avenida do Dr. Manuel de Arriaga": [
+            "Allee"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1922": [
+            "Benennung der Straße"
+        ],
+        "1921": [
+            "Flug von Gago Coutinho und Sacadura Cabral"
+        ]
+    }
+}

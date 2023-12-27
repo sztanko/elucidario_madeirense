@@ -1,0 +1,35 @@
+{
+    "id": 488,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Bicho da cana",
+    "fl": "B",
+    "original_title": "Bicho da cana",
+    "body": "É a larva da Nonagria Sacchari, insecto da ordem dos lepidopteros. Já em 1502 esta larva devastava as plantações sacarinas da Madeira, pois que nesse ano, a 15 de Novembro, foi expedida uma carta regia aos juízes e vereadores da Câmara Municipal do Funchal, em que se recomendava o emprego da cinza para destruir o bicho da cana. A 29 de Junho de 1509 veio uma nova carta regia anunciando a vinda a esta ilha dum Fernão Rodrigues, encarregado de dar remédio para se abeer de matar o bicho que anda nas canas... do que se segue tanta perda e damno e recomendando que o mesmo Fernão Rodrigues fosse hospedado e remunerado como o mereciam os serviços que vinha prestar.\n\nApesar destas providencias, só por 1887 é que o bicho da cana começou a desaparecer, devido à guerra sem tréguas que lhe move a Iridomyrmex humilis, espécie de formiga importada de Demerara. Antes da introdução puramente casual desta formiga na Madeira, usavam os cultivadores acender archotes com que percorriam de noite as terras plantadas de cana a fim de que o insecto viesse cair e morrer sobre a chama.\n\nA larva da Nonagria Sacchari vive no interior dos colmos da cana, onde abre galerias que comunica com o exterior. As paredes das galerias tornam se rijas e os tecidos adjacentes tomam uma cor avermelhada e entram rapidamente em fermentação. Aparece principalmente durante o estio, mas depois da introdução da formiga, é rara na ilha da Madeira.",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localidade"
+        ]
+    },
+    "people": {
+        "Fernão Rodrigues": [
+            "Encarregado de dar remédio para se abeer de matar o bicho que anda nas canas"
+        ]
+    },
+    "years": {
+        "1502": [
+            "Devastação das plantações sacarinas"
+        ],
+        "1509": [
+            "Anúncio da vinda de Fernão Rodrigues"
+        ],
+        "1887": [
+            "Início do desaparecimento do bicho da cana"
+        ]
+    }
+}

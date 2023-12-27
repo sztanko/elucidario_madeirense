@@ -1,0 +1,30 @@
+{
+    "id": 428,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barreirinha",
+    "fl": "B",
+    "original_title": "Barreirinha",
+    "body": "Kleiner Strand östlich der Festung Santiago und flussabwärts der Pfarrkirche Santa Maria Maior. Er eignete sich als Badestrand, den die Stadtverwaltung von Funchal 1939 zugänglich machte, indem sie den Ort und den Zugangsweg verbesserte.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santiago",
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Festung Santiago": [
+            "Westlich des Strandes"
+        ],
+        "Pfarrkirche Santa Maria Maior": [
+            "Oberhalb des Strandes"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1939": [
+            "Verbesserung des Strandzugangs"
+        ]
+    }
+}

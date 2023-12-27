@@ -1,0 +1,33 @@
+{
+    "id": 3582,
+    "lang": "en",
+    "is_original": false,
+    "title": "Veiga (Dr. José Manuel da)",
+    "fl": "V",
+    "original_title": "Veiga (Dr. José Manuel da)",
+    "body": "Dr. José Manuel da Veiga was born in Funchal on October 18, 1794, the son of João Paulo da Veiga and D. Jacinta Rosa Leça da Veiga. In 1816, he enrolled in the faculty of canons at the University of Coimbra and after a brilliant course, in which he won the first prize every year, he received his capelo in 1822 and was then admitted to the teaching staff of that institution of higher education. During his academic studies, he revealed such extraordinary talent that his fellow students called on him as their lecturer and explainer, and the professors admitted him into their intimacy, which was remarkable at a time when the rigidity of university discipline did not allow for such closeness between teachers and students. It seems that, while still a student at the University, he received sacred orders and even went on to celebrate Mass, but later abandoned the ecclesiastical career, causing great scandal among his contemporaries. When he obtained his doctorate, he defended a thesis attacking a very important precept of church discipline, which he published under the title 'Memória sobre o celibato eclesiastico'... The volume was seized and ordered to be destroyed, with only a few copies circulating. In 1866, after his death, a second edition of this work was published in a volume of two hundred and some pages. After a few years of teaching, he left his professorship and set up a law practice in Lisbon, where he had a large clientele and enjoyed the reputation of a distinguished lawyer. Among the legal works that earned him the reputation of a notable jurist, his 'Código Penal da Nação Portuguesa', published in 1837, stands out. The 'Diccionario Bibliographico de Inocencio' mentions other legal works by José Manuel da Veiga, which we omit for brevity. He also cultivated the muses and published a tragedy entitled 'Medea' and a collection of various poems. He died in Lisbon on September 26, 1859.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "João Paulo da Veiga": [
+            "Father of José Manuel da Veiga"
+        ]
+    },
+    "years": {
+        "1794": [
+            "Birth of José Manuel da Veiga"
+        ],
+        "1816": [
+            "Enrollment in the faculty of canons at the University of Coimbra"
+        ],
+        "1822": [
+            "Received his capelo"
+        ],
+        "1866": [
+            "Second edition of the work 'Memória sobre o celibato eclesiastico'"
+        ]
+    }
+}

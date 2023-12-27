@@ -1,0 +1,38 @@
+{
+    "id": 2818,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Planaltos",
+    "fl": "P",
+    "original_title": "Planaltos",
+    "body": "Os planaltos ou planicies situadas em elevações montanhosas não podem ser muitos e de grande superficie, em virtude da área relativamente pequena desta ilha e do inverosimil acidentado dos terrenos que a constituem em quasi tôda a sua extensão. Do Diccionario Universal Portuguez Ilustrado transcrevemos: «Quatro planaltos principais tem esta ilha: o de Santo Antonio da Serra, ou, vulgarmente, do Santo da Serra, no qual ha uma lagôa, no concelho de Machico; o da Achada de Santa Ana, no concelho d'este nome; o do Paul da Serra, ou, simplesmente, o Paul, que é o mais amplo, nos limites dos concelhos de S. Vicente, da Ponta do Sol e do Porto Moniz; por ultimo, o planalto das Achadas da Cruz; ou, méramente as Achadas, no concelho do Porto do Moniz, que é o de menores dimensões: a lagôa parece uma cratera extinta; mede 66 metros de diametro e 40 de profundidade. Ha lindissimas vargens no concelho».",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santo Antonio da Serra": [
+            "Planalto"
+        ],
+        "Machico": [
+            "Concelho"
+        ],
+        "Achada de Santa Ana": [
+            "Planalto"
+        ],
+        "S. Vicente": [
+            "Concelho"
+        ],
+        "Ponta do Sol": [
+            "Concelho"
+        ],
+        "Porto Moniz": [
+            "Concelho"
+        ],
+        "Achadas da Cruz": [
+            "Planalto"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

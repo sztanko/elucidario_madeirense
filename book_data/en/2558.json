@@ -1,0 +1,43 @@
+{
+    "id": 2558,
+    "lang": "en",
+    "is_original": false,
+    "title": "Oldenburg (Prince of)",
+    "fl": "O",
+    "original_title": "Oldenburgo (Principe de)",
+    "body": "Prince Nicolau Frederico Augusto de Oldenburg, lieutenant general of the Russian army, was in Madeira for about two years (1884-1885), becoming well known among us for the lavish and grandiose life he led, the dazzling parties held at his residence, and the acts of philanthropy he frequently practiced.\n\nIt was he who had the French translation of Herculano's novel <i>Eurico, the Presbyter</i> published in Paris, done by the Viscountess of Nogueiras.\n\nPrince Oldenburg resided at the 'Vigia' estate and had in his service two Cossacks, excellent riders, who were always looked at with curiosity by the inhabitants of Funchal whenever they went out for a ride.\n He died in Geneva in January 1886.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Location where Prince Nicolau Frederico Augusto de Oldenburg stayed for two years"
+        ],
+        "Paris": [
+            "Location where the French translation of Herculano's novel was published"
+        ],
+        "Vigia estate": [
+            "Residence of Prince Oldenburg"
+        ],
+        "Funchal": [
+            "Location where the Cossacks in the service of Prince Oldenburg were looked at with curiosity"
+        ],
+        "Geneva": [
+            "Place of death of Prince Oldenburg"
+        ]
+    },
+    "people": {
+        "Nicolau Frederico Augusto de Oldenburg": [
+            "Lieutenant general of the Russian army"
+        ]
+    },
+    "years": {
+        "1884-1885": [
+            "Period during which Prince Oldenburg was in Madeira"
+        ],
+        "January 1886": [
+            "Death of Prince Oldenburg"
+        ]
+    }
+}

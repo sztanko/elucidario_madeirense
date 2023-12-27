@@ -1,0 +1,30 @@
+{
+    "id": 720,
+    "lang": "en",
+    "is_original": false,
+    "title": "Experimental Farms",
+    "fl": "E",
+    "original_title": "Campos Experimentais",
+    "body": "The Agricultural Board established an experimental farm in each of the following locations: Louros (Funchal), Ribeira Brava, Paul da Serra, and Pôrto da Cruz. The experimental farm in the latter location lasted a short time; as for the others, the one that yielded the best results was the one in Ribeira Brava, which distributed a large number of selected fruit tree specimens to the farmers. At Paul da Serra, good harvests of seeds, cabbages, turnips, carrots, cucumbers, lettuces, beans, peas, and beetroots were obtained.",
+    "categories": [
+        "biology",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Louros (Funchal)": [
+            "Location"
+        ],
+        "Ribeira Brava": [
+            "Location"
+        ],
+        "Paul da Serra": [
+            "Location"
+        ],
+        "Pôrto da Cruz": [
+            "Location"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

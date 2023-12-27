@@ -1,0 +1,94 @@
+{
+    "id": 1115,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Declinação da Agulha",
+    "fl": "D",
+    "original_title": "Declinação da Agulha",
+    "body": "É o angulo que faz o meridiano magnetico com o meridiano astronomico.\n\nNo Funchal esse angulo era de 15º 30' W. em 1768 (Dr. Heberden); de 21º 32' W. em 1829 (Penny Cyclop.); de 21º W. em 1835 (Wyld); de 21º W. em 1843 (Vidal); de 20º 57 1/2' W. em 1851 (A. P. de Azevedo); de 20º 56' W. em 1861 (Friesach); de 19º 55' W. em 1885 (Mapa do Almirantado); e de 19 (cid:1187) W. em 1892 (idem).\n\nSegundo os oficiais da Challenger, a declinação era 18º 25' W. a 4 de Fevereiro de 1872, e 20º 33' W. a 17 de Julho de 1873. 0 coronel Francisco Afonso de Chaves, que em 1903 (22 de Junho) e em 1906 (4 de Junho) fêz também observações magneticas no Funchal, achou que no primeiro destes anos a declinação era 20º 31'30\" W. e no segundo 20º 36' 55'' W.\n\nA 14 de Novembro de 1842 a variação magnetica no Pôrto Santo era 24º 38' 12\", segundo se lê na carta daquela ilha, do falecido general Antonio Pedro de Azevedo.\n\nBory, que visitou a Madeira em 1755 e publicou a relação da sua viagem na Histoire et Mémoires de L'Académie Royale des Sciences pour l'an 1772, diz que “a variação da agulha magnetica, que a nossa posição e a falta de meridiana nos impedia de conhecer em terra, foi muitas vezes observada a bordo do Cometa; ela regulou entre 10º 35' W. e 11º 55'' o que dá o resultado médio de 11º 3/4. “",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "15º 30' W. em 1768, 21º 32' W. em 1829, 21º W. em 1835, 21º W. em 1843, 20º 57 1/2' W. em 1851, 20º 56' W. em 1861, 19º 55' W. em 1885, 19 (cid:1187) W. em 1892"
+        ],
+        "Pôrto Santo": [
+            "24º 38' 12\" em 1842"
+        ]
+    },
+    "people": {
+        "Dr. Heberden": [
+            "Observou a declinação em 1768"
+        ],
+        "Penny Cyclop.": [
+            "Observou a declinação em 1829"
+        ],
+        "Wyld": [
+            "Observou a declinação em 1835"
+        ],
+        "Vidal": [
+            "Observou a declinação em 1843"
+        ],
+        "A. P. de Azevedo": [
+            "Observou a declinação em 1851"
+        ],
+        "Friesach": [
+            "Observou a declinação em 1861"
+        ],
+        "Mapa do Almirantado": [
+            "Observou a declinação em 1885"
+        ],
+        "Coronel Francisco Afonso de Chaves": [
+            "Fez observações magnéticas em 1872 e 1873"
+        ],
+        "Bory": [
+            "Visitou a Madeira em 1755"
+        ]
+    },
+    "years": {
+        "1768": [
+            "Declinação de 15º 30' W."
+        ],
+        "1829": [
+            "Declinação de 21º 32' W."
+        ],
+        "1835": [
+            "Declinação de 21º W."
+        ],
+        "1843": [
+            "Declinação de 21º W."
+        ],
+        "1851": [
+            "Declinação de 20º 57 1/2' W."
+        ],
+        "1861": [
+            "Declinação de 20º 56' W."
+        ],
+        "1885": [
+            "Declinação de 19º 55' W."
+        ],
+        "1892": [
+            "Declinação de 19 (cid:1187) W."
+        ],
+        "4 de Fevereiro de 1872": [
+            "Declinação de 18º 25' W."
+        ],
+        "17 de Julho de 1873": [
+            "Declinação de 20º 33' W."
+        ],
+        "22 de Junho de 1903": [
+            "Declinação de 20º 31'30\" W."
+        ],
+        "4 de Junho de 1906": [
+            "Declinação de 20º 36' 55'' W."
+        ],
+        "14 de Novembro de 1842": [
+            "Variação magnética no Pôrto Santo de 24º 38' 12\""
+        ],
+        "1755": [
+            "Bory visitou a Madeira"
+        ]
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "id": 1439,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Fortaleza de S. Tiago",
+    "fl": "F",
+    "original_title": "Fortaleza de S. Tiago",
+    "body": "Foi mandada construir durante o domínio filipino, sobre uma ponta de rocha a leste do porto e no pórtico primitivo tem a data de 1614. Aumentada depois da Restauração, teve uma nova muralha e portão exterior, sendo o remate dos muros da cidade. Em 1697 foi capitão ad honorem desta fortaleza Manuel Telo Catanho de Meneses com a obrigação de a ter limpa e provida de vigias. Em 1767 sofreu novas modificações, como se vê duma inscrição ali existente: «Esta fortaleza foi reedificada e acrescentada, sendo governador e capitão-general desta ilha José Correia de Sá e para a mesma fortaleza mandou vir de Londres cincoenta peças de artilharia, com todos os preparos no ano de 1767».\n\nQuando as tropas inglesas ocuparam a Madeira no começo do século passado, foi esta fortaleza guarnecida pelos artilheiros britânicos. Nela esteve preso em 1803 o morgado João de Freitas da Silva, fugido do convento de S. Bernardino, «para onde tinha sido mandado até se instruir nos rudimentos da doutrina cristã»,–curioso documento publicado pelo Heraldo da Madeira. n.° 441.\n\nServe actualmente de quartel á Bataria n.° 3 de Artilharia de Montanha. (1921).",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "S. Bernardino"
+    ],
+    "locations": {
+        "Londres": [
+            "Capital do Reino Unido"
+        ]
+    },
+    "people": {
+        "Manuel Telo Catanho de Meneses": [
+            "Capitão ad honorem"
+        ],
+        "José Correia de Sá": [
+            "Governador e capitão-general da ilha"
+        ],
+        "João de Freitas da Silva": [
+            "Morgado"
+        ]
+    },
+    "years": {
+        "1614": [
+            "Construção da fortaleza"
+        ],
+        "1697": [
+            "Nomeação de Manuel Telo Catanho de Meneses como capitão ad honorem"
+        ],
+        "1767": [
+            "Reedificação e acréscimo da fortaleza"
+        ]
+    }
+}

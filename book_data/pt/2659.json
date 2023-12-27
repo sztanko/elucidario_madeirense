@@ -1,0 +1,29 @@
+{
+    "id": 2659,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Paredes",
+    "fl": "P",
+    "original_title": "Paredes",
+    "body": "Sitio povoado da freguesia do Arco da Calheta. A capela de Nossa Senhora da Nazaré, que ali se encontra, foi erigida no ultimo quartel do século XVII por Francisco de Barros Maciel, tendo sido inteiramente reconstruída no ano de 1830 por António João Barbosa de Matos e Camara, descendente do fundador. É de instituição vincular, de que foi primeiro administrador o referido Francisco de Barros Maciel.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {},
+    "people": {
+        "Francisco de Barros Maciel": [
+            "Fundador da capela de Nossa Senhora da Nazaré"
+        ]
+    },
+    "years": {
+        "XVII": [
+            "Construção da capela de Nossa Senhora da Nazaré"
+        ],
+        "1830": [
+            "Reconstrução da capela de Nossa Senhora da Nazaré"
+        ]
+    }
+}

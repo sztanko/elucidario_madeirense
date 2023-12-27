@@ -1,0 +1,24 @@
+{
+    "id": 1180,
+    "lang": "de",
+    "is_original": false,
+    "title": "Der katholische Sonntag",
+    "fl": "D",
+    "original_title": "Domingo Catholico (O)",
+    "body": "Zweiwöchentliche Veröffentlichung, deren erste Ausgabe im Februar 1885 und deren letzte im Dezember 1899 erschien.",
+    "categories": [
+        "culture",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1885": [
+            "Veröffentlichung der ersten Ausgabe von 'Der katholische Sonntag'."
+        ],
+        "1899": [
+            "Veröffentlichung der letzten Ausgabe von 'Der katholische Sonntag'."
+        ]
+    }
+}

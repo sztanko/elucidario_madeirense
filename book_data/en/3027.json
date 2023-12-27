@@ -1,0 +1,31 @@
+{
+    "id": 3027,
+    "lang": "en",
+    "is_original": false,
+    "title": "Recreio (The)",
+    "fl": "R",
+    "original_title": "Recreio (O)",
+    "body": "This newspaper published 25 issues, from May 1, 1863, to July 13, 1864, and was edited by the students of our lyceum.\n\n43 issues of a newspaper with the same title were published from September 19, 1897, to July 10, 1898.",
+    "categories": [
+        "culture",
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {},
+    "years": {
+        "1863": [
+            "Start of the publication of the newspaper 'Recreio' edited by the lyceum students"
+        ],
+        "1864": [
+            "End of the publication of the newspaper 'Recreio' edited by the lyceum students"
+        ],
+        "1897": [
+            "Start of the publication of a newspaper with the same title 'Recreio'"
+        ],
+        "1898": [
+            "End of the publication of a newspaper with the same title 'Recreio'"
+        ]
+    }
+}

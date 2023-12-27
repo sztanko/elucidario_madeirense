@@ -1,0 +1,35 @@
+{
+    "id": 2746,
+    "lang": "en",
+    "is_original": false,
+    "title": "Pereira Reis (António)",
+    "fl": "P",
+    "original_title": "Pereira Reis (António)",
+    "body": "He was born in Funchal on April 27, 1866, and graduated in law from the University of Coimbra in 1892, having previously completed the theological course at the Episcopal Seminary of Funchal. He has practiced law in Lisbon, where he is well known, and has collaborated in the former newspaper O Tempo and in other periodicals of the capital. He was a member of the former constituent party and later of the Henriquist party, joining the Democratic party after the establishment of the republic in Portugal. In the ministry that was formed in March 1916, shortly after Germany's declaration of war, he was entrusted with the Ministry of the Interior, which he left at the end of May of the same year. He has published some of his legal works.",
+    "categories": [
+        "history",
+        "politics",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Birthplace of António Pereira Reis"
+        ],
+        "Lisbon": [
+            "Place where António Pereira Reis practices law"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1866": [
+            "Birth of António Pereira Reis"
+        ],
+        "1892": [
+            "António Pereira Reis graduated in law from the University of Coimbra"
+        ],
+        "1916": [
+            "António Pereira Reis was entrusted with the Ministry of the Interior in the ministry that was formed"
+        ]
+    }
+}

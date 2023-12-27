@@ -1,0 +1,33 @@
+{
+    "id": 1391,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Figueira (Dr. João Joaquim)",
+    "fl": "F",
+    "original_title": "Figueira (Dr. João Joaquim)",
+    "body": "Formou-se em 1837 na faculdade de medicina de Montpellier, defendendo a tese Etude de l'accouchement premature artificiel, que imprimiu num opúsculo de 59 pag.. Prestou relevantes serviços em França por ocasião duma epidemia de cólera-mórbus, sendo por isso agraciado com uma medalha de honra. Na Madeira, onde exerceu clinica durante muitos anos, foi medico do partido da Câmara Municipal do Funchal. Faleceu em 1859 ou pouco depois.",
+    "categories": [
+        "health"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Montpellier": [
+            "Local da faculdade de medicina"
+        ]
+    },
+    "people": {
+        "Dr. João Joaquim Figueira": [
+            "Médico"
+        ]
+    },
+    "years": {
+        "1837": [
+            "Formação na faculdade de medicina"
+        ],
+        "1859": [
+            "Falecimento"
+        ]
+    }
+}

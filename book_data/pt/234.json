@@ -1,0 +1,27 @@
+{
+    "id": 234,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aragão",
+    "fl": "A",
+    "original_title": "Aragão",
+    "body": "É apelido nobre e antigo na Madeira, não sendo concordes os nobiliarios acerca dos indivíduos que primeiramente o usaram entre nós. Diz-se que foi Antonio de Aragão e Teive, que pelos anos de 1500 se estabeleceu nesta ilha e que era casado com D. Helena de Atouguia, a primeira pessoa que teve aqui esse apelido. O distinto linhagista madeirense José Betencourt da Câmara afirma que “ha dois ramos de Aragão na Madeira: um descende de Henrique Aragão, que por 1480 fez assento no Funchal; o outro vem de D. Affonso de Aragão, cavalleiro napolitano, cujo verdadeiro nome se ignora, e que, ou fugitivo, ou peregrino, a esta ilha chegou por 1470. Residiu na Calheta, no sítio que delle ficou chamado a Volta do Cavalleiro; passou ao archipelago dos Açores e lá morreu, havendo disposto que na sepultura lhe pozessem por epitaphio: “Aqui jaz o attribulado napolitano”. Veio casado, ou casou na Madeira com Thereza de Lyra: seu filho, Lopo Dias de Lyra Varella, armado cavalleiro em Africa, foi moço fidalgo da casa real em 1515, e cavalleiro professo na Ordem de Cristo”.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antonio de Aragão e Teive": [
+            "Possível primeiro indivíduo a usar o apelido Aragão na Madeira."
+        ],
+        "D. Helena de Atouguia": [
+            "Primeira pessoa a ter o apelido Aragão na Madeira."
+        ]
+    },
+    "years": {
+        "1500": [
+            "Possível estabelecimento de Antonio de Aragão e Teive na Madeira."
+        ]
+    }
+}

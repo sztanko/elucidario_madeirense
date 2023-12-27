@@ -1,0 +1,43 @@
+{
+    "id": 3243,
+    "lang": "de",
+    "is_original": false,
+    "title": "São Luís (Kapellen von)",
+    "fl": "S",
+    "original_title": "São Luís (Capelas de)",
+    "body": "Unter dieser Anrufung gab es eine Kapelle im Ort Diferença in der Gemeinde Faial, die von Manuel de Carvalho Valdavesso, Richter der Waisen in Funchal, und seiner Frau D. Luisa Maria de Vasconcelos França e Noronha, Tochter von Valentim de Ornelas e Vasconcelos, 7. Majoratsherr von Penha de Águia, gegründet worden war. Die Schenkungsurkunde für die Stiftung, die auf einem Anwesen in der Gemeinde São Martinho auferlegt wurde, stammt vom 1. Oktober 1725, so dass ihre Errichtung in etwa aus dieser Zeit stammt.\n\nIn der Nähe des alten Bischofspalastes baute Bischof D. Luis Figueiredo de Lemos (Band II, Seite 30) die Kapelle São Luís und wurde dort 1608 begraben. Es wird behauptet, dass sein Grab geschändet wurde. Als die Kapelle 1882 für den Bau einer Schule angepasst wurde, wurden die Asche des Prälaten in die Innenkapelle des Palastes überführt und Jahre später in die Kathedrale überführt, wobei über ihnen die Grabplatte platziert wurde, die sich im Zentrum der Kapelle befand, in der die sterblichen Überreste des Prälaten ursprünglich begraben worden waren. Die Kapelle, die eine schön geschnitzte Vorhalle aus hartem Stein hat, ist seit vielen Jahren entweiht.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Faial",
+        "São Martinho"
+    ],
+    "locations": {
+        "Faial": [
+            "Gemeinde Faial"
+        ],
+        "Funchal": [
+            "Funchal"
+        ],
+        "São Martinho": [
+            "Gemeinde São Martinho"
+        ]
+    },
+    "people": {
+        "Manuel de Carvalho Valdavesso": [
+            "Richter der Waisen in Funchal"
+        ],
+        "D. Luisa Maria de Vasconcelos França e Noronha": [
+            "Frau von Manuel de Carvalho Valdavesso"
+        ]
+    },
+    "years": {
+        "1725": [
+            "Schenkungsurkunde für die Stiftung, die auf einem Anwesen in der Gemeinde São Martinho auferlegt wurde"
+        ],
+        "1608": [
+            "Grab des Bischofs D. Luis Figueiredo de Lemos"
+        ]
+    }
+}

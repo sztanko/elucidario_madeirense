@@ -1,0 +1,34 @@
+{
+    "id": 1928,
+    "lang": "de",
+    "is_original": false,
+    "title": "Langerhans (Dr. Paul)",
+    "fl": "L",
+    "original_title": "Langerhans (Dr. Paul)",
+    "body": "Er befasste sich mit den Würmern Madeiras in der Zeitschrift für wissenschaftliche Zoologie (1879-84) und schrieb ein kleines Buch mit dem Titel Handbuch für Madeira (Berlin, 1884).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Insel"
+        ],
+        "Berlin": [
+            "Stadt"
+        ]
+    },
+    "people": {
+        "Dr. Paul Langerhans": [
+            "Wissenschaftler"
+        ]
+    },
+    "years": {
+        "1879-84": [
+            "Veröffentlichung der Artikel über die Würmer Madeiras"
+        ],
+        "1884": [
+            "Veröffentlichung des Buches Handbuch für Madeira"
+        ]
+    }
+}

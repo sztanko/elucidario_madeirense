@@ -1,0 +1,40 @@
+{
+    "id": 3049,
+    "lang": "de",
+    "is_original": false,
+    "title": "Reis Magos (Capela dos)",
+    "fl": "R",
+    "original_title": "Reis Magos (Capela dos)",
+    "body": "In Lombo dos Reis in der Gemeinde Estreito de Calheta befindet sich die alte Kapelle der Heiligen Drei Könige, die 1529 von Francisco Homem de Gouveia und seiner Frau D. Isabel Afonso gegründet und zur Stiftung eines Fideikommisses gemacht wurde. Über diese Kapelle und die damit verbundene Stiftung wurde in einem am 2. September 1916 in Brado d'Oeste veröffentlichten Artikel ausführlich berichtet. In der Gemeinde Ponta Delgada gibt es auch eine der Heiligen Drei Königen geweihte Kapelle, die zum Haus Carvalhal gehörte. Sie ist sehr alt, denn ein Dokument aus dem Jahr 1577 besagt, dass sie damals bereits in schlechtem Zustand war. Sie wurde 1778 von João de Carvalhal Esmeraldo e Câmara, dem Verwalter des Fideikommisses, dem sie gehörte, wiederaufgebaut. Vor einigen Jahren wurde sie erneut restauriert und gehört heute João Fidélio de Canha.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Estreito de Calheta",
+        "Ponta Delgada"
+    ],
+    "locations": {
+        "Lombo dos Reis": [
+            "In der Gemeinde Estreito de Calheta"
+        ],
+        "Ponta Delgada": [
+            "In der Gemeinde Ponta Delgada"
+        ]
+    },
+    "people": {
+        "Francisco Homem de Gouveia": [
+            "Gründete die alte Kapelle der Heiligen Drei Könige"
+        ]
+    },
+    "years": {
+        "1529": [
+            "Francisco Homem de Gouveia und seine Frau D. Isabel Afonso gründeten die Kapelle der Heiligen Drei Könige"
+        ],
+        "1577": [
+            "Dokument erwähnt den schlechten Zustand der Kapelle der Heiligen Drei Könige"
+        ],
+        "1778": [
+            "João de Carvalhal Esmeraldo e Câmara baute die Kapelle der Heiligen Drei Könige wieder auf"
+        ]
+    }
+}

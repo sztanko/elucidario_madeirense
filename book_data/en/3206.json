@@ -1,0 +1,31 @@
+{
+    "id": 3206,
+    "lang": "en",
+    "is_original": false,
+    "title": "Santos (Joaquim José de Faria)",
+    "fl": "S",
+    "original_title": "Santos (Joaquim José de Faria)",
+    "body": "He was born in Funchal on January 21, 1822, and served as a clerk in the city council's secretariat. He collaborated in the Archivista, Ordem, Baratissimo, Madeira, and Verdade publications, and passed away in this city on April 12, 1886.",
+    "categories": [
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Place of birth."
+        ]
+    },
+    "people": {
+        "Joaquim José de Faria Santos": [
+            "Clerk in the city council's secretariat."
+        ]
+    },
+    "years": {
+        "1822": [
+            "Year of birth."
+        ],
+        "1886": [
+            "Year of death."
+        ]
+    }
+}

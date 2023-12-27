@@ -1,0 +1,31 @@
+{
+    "id": 975,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Confeitaria",
+    "fl": "C",
+    "original_title": "Confeitaria",
+    "body": "A industria do açucar na Madeira, que nos seculos XV e XVI atingiu um grande desenvolvimento e também um notavel grau de perfeição, determinou a criação da industria da confeitaria, que parece ter sido muito importante entre nós pela quantidade e sobretudo qualidade do seu fabrico, dizendo o dr. Rodrigues de Azevedo que ela foi desde o seculo XVI elevada a verdadeira arte e valiosa industria de exportação, como se mostra em muitos diplomas transcritos nas Saudades da Terra e varios trechos ali mencionados. Em corroboração desta afirmativa, citamos a oferta do sacro colegio, todo fabricado de alfenim, feita pelo 31. capitão-donatario do Funchal ao pontifice Leão X, como fica descrito a pag. 208 deste Elucidario. O erudito anotador da obra de Frutuoso, volta a ocupar-se do assunto no artigo Madeira do Diccionario Universal Portuguez Illustrado, cujas palavras transcrevemos: \"... a industria da confeitaria, ali criada, principalmente no convento das freiras de Santa Clara, muita desenvolvida no decurso do seculo XVI, e, enfim, tornada verdadeira arte, cujos produtos chegaram a ser valioso ramo de exportação, como alguns diplomas e as Saudades da Terra o attestam\".",
+    "categories": [
+        "economy",
+        "history"
+    ],
+    "freguesias": [
+        "Santa Clara"
+    ],
+    "locations": {
+        "Funchal": [
+            "31. capitão-donatario do Funchal"
+        ]
+    },
+    "people": {
+        "Rodrigues de Azevedo": [
+            "Dizendo o dr. Rodrigues de Azevedo"
+        ]
+    },
+    "years": {
+        "XVI": [
+            "A industria da confeitaria, ali criada"
+        ]
+    }
+}

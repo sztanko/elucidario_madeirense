@@ -1,0 +1,29 @@
+{
+    "id": 53,
+    "lang": "en",
+    "is_original": false,
+    "title": "Administrators of the Municipality",
+    "fl": "A",
+    "original_title": "Administradores do Concelho",
+    "body": "The first administrators of the municipality were appointed in 1835, but before them there were the administrators, who performed functions identical to those of the administrators. The first administrator of the municipality of Funchal was Januário Cardoso de Melo, who took office on August 16, 1834.",
+    "categories": [
+        "politics"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {},
+    "people": {
+        "Januário Cardoso de Melo": [
+            "First administrator of the municipality of Funchal"
+        ]
+    },
+    "years": {
+        "1835": [
+            "Appointment of the first administrators of the municipality"
+        ],
+        "1834": [
+            "Assumption of office by Januário Cardoso de Melo as administrator of the municipality of Funchal"
+        ]
+    }
+}

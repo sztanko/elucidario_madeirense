@@ -1,0 +1,33 @@
+{
+    "id": 2508,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau von der Geburt (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Natividade (Capela de)",
+    "body": "Auf dem Anwesen Faial in der Gemeinde Santa Maria Maior befindet sich die Kapelle Unserer Lieben Frau von der Geburt, auch bekannt als Kapelle Faial. Sie wurde auf dem Land der Stiftung errichtet, die von Simão Acciaioly gegründet wurde, der 1544 starb. Erbauer der Kapelle war Zenobio Acciaioly, sein Sohn und Nachfolger in der Verwaltung der Stiftung.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior"
+    ],
+    "locations": {
+        "Faial": [
+            "Gelegen auf dem Anwesen Faial in der Gemeinde Santa Maria Maior."
+        ]
+    },
+    "people": {
+        "Simão Acciaioly": [
+            "Gründer der Stiftung, auf deren Land die Kapelle errichtet wurde."
+        ],
+        "Zenobio Acciaioly": [
+            "Erbauer der Kapelle."
+        ]
+    },
+    "years": {
+        "1544": [
+            "Todesjahr von Simão Acciaioly"
+        ]
+    }
+}

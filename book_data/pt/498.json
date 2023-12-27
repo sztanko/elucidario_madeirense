@@ -1,0 +1,53 @@
+{
+    "id": 498,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Blandy",
+    "fl": "B",
+    "original_title": "Blandy",
+    "body": "Esta família de súbditos e comerciantes ingleses estabeleceu se há mais dum século nesta ilha. Na primeira ocupação da Madeira por tropas britanicas, em Julho de 1801, fazia parte dessa guarnição um oficial subalterno por nome John Blandy, que nesta ilha foi o tronco da família do mesmo nome. Este súbdito inglês já em 1808, quando então a Madeira se achava pela segunda vez ocupada por tropas britanicas, tinha estabelecida a casa comercial, que transmitiu aos seus descendentes. Morreu a 14 de Janeiro de 1855, sucedendo lhe na casa seu filho Charles Ridpath Blandy, que faleceu no ano de 1878. Filho deste foi João Blandy, que elevou a casa comercial a um notável grau de prosperidade, deixando uma fortuna muito avultada e tendo morrido a 7 de Dezembro de 1912. Foi herdeiro e sucessor João Ernesto Blandy, que faleceu no ano de 1930. Os escritórios desta importante casa estiveram durante muitos anos estabelecidos na rua de São Francisco, nas dependências ocupadas hoje pela secção comercial de vinhos da mesma casa, sendo depois transferidos para a rua da Alfândega, onde actualmente se encontram.",
+    "categories": [
+        "history",
+        "economy"
+    ],
+    "freguesias": [],
+    "locations": {
+        "São Francisco": [
+            "Local onde os escritórios da casa Blandy estiveram estabelecidos"
+        ]
+    },
+    "people": {
+        "John Blandy": [
+            "Oficial subalterno e tronco da família Blandy"
+        ],
+        "Charles Ridpath Blandy": [
+            "Filho de John Blandy"
+        ],
+        "João Blandy": [
+            "Filho de Charles Ridpath Blandy"
+        ],
+        "João Ernesto Blandy": [
+            "Herdeiro e sucessor de João Blandy"
+        ]
+    },
+    "years": {
+        "1801": [
+            "Primeira ocupação da Madeira por tropas britânicas"
+        ],
+        "1808": [
+            "Segunda ocupação da Madeira por tropas britânicas"
+        ],
+        "1855": [
+            "Falecimento de John Blandy"
+        ],
+        "1878": [
+            "Falecimento de Charles Ridpath Blandy"
+        ],
+        "1912": [
+            "Falecimento de João Blandy"
+        ],
+        "1930": [
+            "Falecimento de João Ernesto Blandy"
+        ]
+    }
+}

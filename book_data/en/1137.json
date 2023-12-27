@@ -1,0 +1,33 @@
+{
+    "id": 1137,
+    "lang": "en",
+    "is_original": false,
+    "title": "Desterro",
+    "fl": "D",
+    "original_title": "Desterro",
+    "body": "A populated place in the parish of Monte, where there is a chapel dedicated to Our Lady of Desterro, which was founded in the year 1625 by Canon Jorge Furtado de Sousa and recently restored by Dr. Juvenal de Araújo, its current owner.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Monte": [
+            "Populated place in the parish of Monte"
+        ]
+    },
+    "people": {
+        "Jorge Furtado de Sousa": [
+            "Founder of the chapel dedicated to Our Lady of Desterro"
+        ],
+        "Dr. Juvenal de Araújo": [
+            "Restorer of the chapel dedicated to Our Lady of Desterro"
+        ]
+    },
+    "years": {
+        "1625": [
+            "Foundation of the chapel dedicated to Our Lady of Desterro"
+        ]
+    }
+}

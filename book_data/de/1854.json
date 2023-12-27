@@ -1,0 +1,46 @@
+{
+    "id": 1854,
+    "lang": "de",
+    "is_original": false,
+    "title": "Joinville (Prinz von)",
+    "fl": "J",
+    "original_title": "Joinville (Príncipe de)",
+    "body": "Er wurde 1818 geboren und starb 1900. Er war der Sohn von König Ludwig Philipp von Frankreich und hatte die portugiesische Infantin D. Francisca geheiratet, Schwester von Dom Pedro II. von Brasilien und der Königin von Portugal, D. Maria II. Er war ein herausragender Offizier der französischen Marine und besuchte in dieser Eigenschaft die Madeira mehrmals, wobei er einige Kriegsschiffe kommandierte. 1840 liefen die französischen Kriegsfregatten La Belle Poule und La Favorite in unseren Hafen ein. Sie transportierten die Mission, die in Santa Helena die Exhumierung der Leiche Napoleons I. durchführen und sie nach Frankreich überführen sollte. Prinz von Joinville war der Leiter dieser wichtigen und ehrenvollen Mission. Auf diesen Umstand werden wir ausführlicher im Artikel Napoleão na Madeira eingehen.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Helena": [
+            "Ort der Exhumierung der Leiche Napoleons I."
+        ]
+    },
+    "people": {
+        "Ludwig Philipp von Frankreich": [
+            "König von Frankreich"
+        ],
+        "D. Francisca": [
+            "Portugiesische Infantin"
+        ],
+        "Dom Pedro II. von Brasilien": [
+            "Bruder von D. Francisca"
+        ],
+        "D. Maria II.": [
+            "Königin von Portugal"
+        ],
+        "Napoleon I.": [
+            "Exhumierte Leiche in Santa Helena"
+        ]
+    },
+    "years": {
+        "1818": [
+            "Geburt des Prinzen von Joinville"
+        ],
+        "1900": [
+            "Tod des Prinzen von Joinville"
+        ],
+        "1840": [
+            "Besuch der Fregatten La Belle Poule und La Favorite im Hafen von Madeira"
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "id": 3292,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Schiffner (V.)",
+    "fl": "S",
+    "original_title": "Schiffner (V.)",
+    "body": "Ein Beitrag zur Flora von Madeira, Teneriffe und Gran Canaria (Oesterr. bot. Zeitschr., 1901).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Ilha"
+        ],
+        "Teneriffe": [
+            "Ilha"
+        ],
+        "Gran Canaria": [
+            "Ilha"
+        ]
+    },
+    "people": {
+        "Schiffner": [
+            "Autor"
+        ]
+    },
+    "years": {
+        "1901": [
+            "Publicação do artigo"
+        ]
+    }
+}

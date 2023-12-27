@@ -1,0 +1,40 @@
+{
+    "id": 2773,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Peste",
+    "fl": "P",
+    "original_title": "Peste",
+    "body": "O flagelo da peste que em antigos tempos repetidas vezes salteava Portugal, também se fêz sentir com grande intensidade na Madeira no primeiro e no segundo quartel do seculo XVI. Frutuoso, o historiador das ilhas, refere-se a êle nos termos seguintes: «No ano de 1521, quando El-Rey D. Manuel faleceu, havia no Funchal grande mortandade de peste, de que Deus nos livre; e porque bavia annos que ella andava na cidade, o Capitão Simão Gonçalves e a Camara elegeram por sortes por Padroeiro da mesma cidade ao Apostolo Santiago Menor, ao cabo da qual lhe fizeram uma boa casa, onde foram em procissão. E porque, sem embargo disso a peste não cessava, no anno do Senhor de 1538 inspirou Deus em todos, como em hum coração a vontade, que não houvesse Guardas Mores, nem Menores, e na mesma procissão que se fez por seu dia o primeiro de Mayo, lançaram pregão que todos os feridos deste mal, e os sãos fossem juntamente misturados a sua casa, onde lhe offereceram no altar as varas dos Guardas, as quaes hoje ahi estão por memoria; e quando tornaram, vieram os feridos todos sãos; e daquelle dia até hoje pelos merecimentos do Bemaventurado Santiago, não houve mais peste na ilha da Madeira, bemdito seja o Senhor! Pelo que, se faz em lembrança desta mercê muita festa a este Santo por seu dia, como que fora Corpo de Deus.» Do que diz Frutuoso a pag. 221 das Saudades da Terra, se vê que a peste que assolou a cidade do Funchal não atingiu a vila de Machico, visto que aí estiveram o bispo D. Ambrosio e dois visitadores até o dia de S. Tiago, no mês de Maio, em que «passado o perigo do mal contagioso, vieram os mesmos visitadores á cidade e executaram em toda a ilha seu officio, não com aquele mimo em que o bispado estava criado, antes com muito rigor e aspereza ...» O bispo D. Ambrosio voltou a Portugal apenas cumpriu na Madeira a missão de que fôra encarregado; quanto aos dois visitadores foram menos felizes, pois que, tendo escapado á peste, vieram a morrer num naufragio na costa de Sines, quando também retiravam para o reino, depois de terem cometido na ilha as maiores violencias para desfazer «os calos que os vicios tinham feito nas almas dos delinquentes», como diz o dr. Gaspar Frutuoso.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Cidade onde houve grande mortandade de peste em 1521"
+        ],
+        "Machico": [
+            "Vila que não foi atingida pela peste que assolou o Funchal"
+        ]
+    },
+    "people": {
+        "El-Rey D. Manuel": [
+            "Rei de Portugal falecido em 1521"
+        ],
+        "Capitão Simão Gonçalves": [
+            "Responsável por eleger o Padroeiro da cidade do Funchal"
+        ],
+        "Bispo D. Ambrosio": [
+            "Bispo que esteve em Machico durante a peste"
+        ]
+    },
+    "years": {
+        "1521": [
+            "Ano da grande mortandade de peste no Funchal"
+        ],
+        "1538": [
+            "Ano em que não houve mais peste na ilha da Madeira"
+        ]
+    }
+}

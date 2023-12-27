@@ -1,0 +1,48 @@
+{
+    "id": 2855,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Pontes (Padre Armando Augusto de)",
+    "fl": "P",
+    "original_title": "Pontes (Padre Armando Augusto de)",
+    "body": "Nasceu no Funchal a 18 de Maio de 1836 e morreu na freguesia de Machico a 3 de Novembro de 1897. Cursou o liceu e o seminario desta cidade, e ordenou-se de presbitero a 16 de Setembro de 1860. Exerceu funções eclesiasticas em diversas paroquias desta diocese especialmente na freguesia de Machico, onde foi pároco durante muitos anos. Era homem bastante inteligente e de vasta ilustração, sendo igualmente um sacerdote modelar e de uma impecavel austeridade de caracter.\n\nTeve uma larga colaboração em alguns periodicos e nomeadamente no antigo Jornal Verdade. Publicou os opúsculos O Domingo, a Fé, Funchal, 1895, de 55 pag., Excursões na Madeira, Funchal, 891, de 106 pag. e Um monumento Histórico, Funchal, 1886, de 27 pag..",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ],
+        "Machico": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "Padre Armando Augusto de Pontes": [
+            "Sacerdote e pároco em Machico"
+        ]
+    },
+    "years": {
+        "1836": [
+            "Nascimento"
+        ],
+        "1897": [
+            "Falecimento"
+        ],
+        "1860": [
+            "Ordenação de presbitero"
+        ],
+        "1895": [
+            "Publicação de O Domingo, a Fé"
+        ],
+        "1891": [
+            "Publicação de Excursões na Madeira"
+        ],
+        "1886": [
+            "Publicação de Um monumento Histórico"
+        ]
+    }
+}

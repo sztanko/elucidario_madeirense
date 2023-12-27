@@ -1,0 +1,36 @@
+{
+    "id": 2966,
+    "lang": "de",
+    "is_original": false,
+    "title": "Queimada",
+    "fl": "Q",
+    "original_title": "Queimada",
+    "body": "Es handelt sich um eine besiedelte Stätte in der Gemeinde Água de Pena, die zur Gemeinde Machico gehört. An diesem Ort ließ Francisco de Freitas Correia im Jahr 1924 eine Kapelle zu Ehren Unserer Lieben Frau vom Immerwährenden Beistand errichten, die erste dieser Widmung, die auf Madeira gebaut wurde.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Água de Pena"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Gemeinde"
+        ],
+        "Machico": [
+            "Gemeinde"
+        ],
+        "Madeira": [
+            "Ort des Kapellenbaus"
+        ]
+    },
+    "people": {
+        "Francisco de Freitas Correia": [
+            "Ließ die Kapelle errichten"
+        ]
+    },
+    "years": {
+        "1924": [
+            "Jahr des Kapellenbaus"
+        ]
+    }
+}

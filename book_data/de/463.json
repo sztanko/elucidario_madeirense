@@ -1,0 +1,32 @@
+{
+    "id": 463,
+    "lang": "de",
+    "is_original": false,
+    "title": "Belle Poule",
+    "fl": "B",
+    "original_title": "Belle Poule",
+    "body": "Die französische Kriegsfregatte Belle Poule und die Korvette Favorite ankerten am 24. Juli 1840 im Hafen von Funchal. An Bord befand sich eine Mission unter der Leitung von Prinz Joinville, die nach Santa Helena geschickt wurde, um die sterblichen Überreste von Kaiser Napoleon auszugraben und nach Frankreich zu überführen. Wie bekannt ist, passierte Napoleon Madeira am 24. August 1815 an Bord des englischen Schiffes Northumberland, als er gefangen genommen und nach Santa Helena verbannt wurde. Die Expedition unter Prinz Joinville berührte Madeira auf ihrem Rückweg nach Europa nicht. Der Chef und andere Mitglieder dieser Mission wohnten in Funchal einigen Festen zu ihren Ehren bei. Die Belle Poule verließ Madeira am 27. Juli in Richtung der Kanarischen Inseln.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Hafen, in dem die französische Kriegsfregatte Belle Poule und die Korvette Favorite vor Anker gingen"
+        ]
+    },
+    "people": {
+        "Prinz Joinville": [
+            "Chef der Mission"
+        ]
+    },
+    "years": {
+        "1840": [
+            "Ankerung der französischen Kriegsfregatte Belle Poule und der Korvette Favorite im Hafen von Funchal"
+        ],
+        "1815": [
+            "Durchfahrt Napoleons auf Madeira an Bord des englischen Schiffes Northumberland"
+        ]
+    }
+}

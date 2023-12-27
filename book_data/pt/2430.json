@@ -1,0 +1,32 @@
+{
+    "id": 2430,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nery (Travessa do)",
+    "fl": "N",
+    "original_title": "Nery (Travessa do)",
+    "body": "Ficava na freguesia de Santa Maria e tomou o nome do cónego Vicente Nery da Silva, que ali residiu. Foi alargada e é hoje uma rua que comunica a rua Bela de S. Tiago com a estrada do Conde de Carvalhal, tendo o nome de Caminho do Acciaioly.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santa Maria"
+    ],
+    "locations": {
+        "Santa Maria": [
+            "Freguesia onde a travessa do Nery se localizava"
+        ],
+        "Bela de S. Tiago": [
+            "Localização de uma das extremidades da rua que comunica com a travessa do Nery"
+        ],
+        "Conde de Carvalhal": [
+            "Localização da outra extremidade da rua que comunica com a travessa do Nery"
+        ]
+    },
+    "people": {
+        "Cónego Vicente Nery da Silva": [
+            "Pessoa que deu nome à travessa do Nery"
+        ]
+    },
+    "years": {}
+}

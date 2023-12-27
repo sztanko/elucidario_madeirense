@@ -1,0 +1,30 @@
+{
+    "id": 2560,
+    "lang": "de",
+    "is_original": false,
+    "title": "Olivenbaum (Olea europaea)",
+    "fl": "O",
+    "original_title": "Oliveira (Olea europaea)",
+    "body": "Immergrüner Strauch oder kleiner Baum mit lanzettlich-linearen (var. madeirensis) oder länglichen, verkehrt-eiförmigen, eiförmigen oder runden (var. buxifolia) Blättern, der an der Küste Madeiras, auf Porto Santo und auf Ilhéu Chão vorkommt. Er produziert ein gelbliches Holz mit dunklen Adern und kleine Früchte, die aufgrund ihres geringen Fruchtfleisches nicht genutzt werden. Er ist auch als Zambujeiro bekannt. Einige Olivenbäume, die wir vor Jahren auf Porto Santo sahen und deren Früchte trotz ihres weniger aromatischen Geschmacks im Vergleich zum Festland genutzt wurden, stammten wahrscheinlich von importierten Stecklingen aus Portugal und nicht von Exemplaren, die von der Insel stammen. (1921)",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Küste"
+        ],
+        "Porto Santo": [
+            "Küste"
+        ],
+        "Ilhéu Chão": [
+            "Küste"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1921": [
+            "Beobachtung der Olivenbäume auf Porto Santo"
+        ]
+    }
+}

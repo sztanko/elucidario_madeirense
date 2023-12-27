@@ -1,0 +1,44 @@
+{
+    "id": 699,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camara de Lôbos (Municipio de)",
+    "fl": "C",
+    "original_title": "Camara de Lôbos (Municipio de)",
+    "body": "A pesar de comummente se chamar vila de Camara de Lobos ao agrupamento de casas que constitue a parte mais central e importante da freguesia, a verdade é que a capital deste concelho nunca foi vila, mas simplesmente logar, que era noutro tempo a designação dada á povoação intermediaria entre a vila e a paroquia, havendo na Madeira os logares de Camara de Lôbos, Ribeira Brava, Faial, S. Jorge, S. Vicente, Pôrto do Moniz e Caniço.\n\nEra ao logar de Camara de Lôbos que Gaspar Frutuoso se referia quando dizia: “Hindo da ribeira dos Soccorridos para o Occidente hum quarto de legoa, está uma aldeya que chamão Camara de Lobos, perto do mar, que tem huma calheta pequena e huma furna onde dormiam e dormem ainda lobos, de que tomou nome o Logar; e os capitães da ilha o de Camaras, pelos achar nella o primeiro capitam João Gonçalves Zargo, quando ali desembarcou a primeira vez, como já tenho dito.\n\nTem esta aldeya como duzentos fogos, e huma só rua principal, e muito comprida, e no cabo della a igreja muito boa e bem concertada: tem mais dous engenhos de assucar, hum que foi de Antonio Correa, e outro de Duarte Mendes, e muitas canas e vinhas de boas malvazias, e muitas fructas de toda a sorte, e muita agoa“.\n\nCom sede no Logar de Câmara de Lôbos, foi em 1832 criado o concelho do mesmo nome, mas não chegou a proceder-se à sua instalação. Somente depois do estabelecimento do governo constitucional é que, no ano de 1835, se criou êste municipio e ficou definitivamente iustalado no dia 16 de Outubro do mesmo ano. A êle pertenceram desde a sua criação as freguesias de Câmara de Lôbos, Estreito de Lôbos, Curral das Freiras e Campanário. Constituindo-se em 1848 a nova paroquia da Quinta Grande, formada com alguns sítios desmembrados das freguesias de Câmara de Lôbos e do Campanário, ficou o concelho de Câmara de Lôbos acrescentado com mais aquela paróquia, mas a sua área total não sofreu modificação alguma. Com a criação do recente concelho da Ribeira Brava, no ano de 1914, passou a freguesia do Campanário a fazer parte do novo concelho, sendo desagregada do de Câmara de Lobos. O brasão de armas da Câmara Municipal deste Concelho é representado por duas focas ou lobos marinhos, entre os quais se vê o escudo das armas de Portugal.\n\nAs respectivas repartições concelhias estão instaladas no sitio chamado da Vila, nas casas da Camara Municipal.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Câmara de Lôbos",
+        "Estreito de Lôbos",
+        "Curral das Freiras",
+        "Campanário",
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Câmara de Lôbos": [
+            "Logar de Câmara de Lôbos"
+        ]
+    },
+    "people": {
+        "Gaspar Frutuoso": [
+            "Historiador"
+        ]
+    },
+    "years": {
+        "1832": [
+            "Criação do concelho de Câmara de Lôbos"
+        ],
+        "1835": [
+            "Criação do municipio de Câmara de Lôbos"
+        ],
+        "1848": [
+            "Formação da nova paroquia da Quinta Grande"
+        ],
+        "1914": [
+            "Criação do concelho da Ribeira Brava"
+        ]
+    }
+}

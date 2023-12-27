@@ -1,0 +1,30 @@
+{
+    "id": 3221,
+    "lang": "pt",
+    "is_original": true,
+    "title": "São Filipe (Forte de)",
+    "fl": "S",
+    "original_title": "São Filipe (Forte de)",
+    "body": "Este forte, construído, segundo parece, durante o domínio filipino, tinha entrada pelo largo do Pelourinho e ficava entre as ribeiras de Santa Luzia e de João Gomes. Foi cedido à Câmara em virtude duma representação que esta dirigiu ao Governo em 27 de Fevereiro de 1896, mas que só foi atendida muitos tempos depois. O grande edifício onde está a fábrica de espremer cana doce do Largo do Pelourinho, assenta em parte sobre terreno do antigo forte de São Filipe (1921).",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Pelourinho": [
+            "Largo"
+        ],
+        "Santa Luzia": [
+            "Ribeira"
+        ],
+        "João Gomes": [
+            "Ribeira"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1896": [
+            "Cedência à Câmara"
+        ]
+    }
+}

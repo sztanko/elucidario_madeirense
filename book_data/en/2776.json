@@ -1,0 +1,41 @@
+{
+    "id": 2776,
+    "lang": "en",
+    "is_original": false,
+    "title": "Phelps (José)",
+    "fl": "P",
+    "original_title": "Phelps (José)",
+    "body": "An English businessman who came to Madeira in the late 18th century. He established, at his own expense, a school based on the Lancaster system and contributed significantly to the founding of the Funchalense Mutual Education Association, of which he was elected treasurer. He retired to England in the early third quarter of the 19th century and died there after 1863. See Lancasterian School, Page and Phelps (Rua do).",
+    "categories": [
+        "education",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Place of activity"
+        ],
+        "Funchal": [
+            "Place of activity"
+        ],
+        "England": [
+            "Place of death"
+        ]
+    },
+    "people": {
+        "José Phelps": [
+            "English businessman"
+        ]
+    },
+    "years": {
+        "Late 18th century": [
+            "Period of arrival in Madeira"
+        ],
+        "Early third quarter of the 19th century": [
+            "Period of retirement to England"
+        ],
+        "1863": [
+            "Year of death"
+        ]
+    }
+}

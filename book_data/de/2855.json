@@ -1,0 +1,48 @@
+{
+    "id": 2855,
+    "lang": "de",
+    "is_original": false,
+    "title": "Pontes (Pater Armando Augusto de)",
+    "fl": "P",
+    "original_title": "Pontes (Padre Armando Augusto de)",
+    "body": "Er wurde am 18. Mai 1836 in Funchal geboren und starb am 3. November 1897 in der Gemeinde Machico. Er besuchte das Gymnasium und Seminar dieser Stadt und empfing am 16. September 1860 die Priesterweihe. Er übte kirchliche Funktionen in verschiedenen Pfarreien dieser Diözese aus, insbesondere in der Gemeinde Machico, wo er viele Jahre lang Pfarrer war. Er war ein sehr intelligenter Mann mit weitreichender Bildung und gleichzeitig ein vorbildlicher und untadeliger Priester.\n\nEr arbeitete umfangreich für einige Zeitschriften, insbesondere für die ehemalige Zeitschrift \"Jornal Verdade\". Er veröffentlichte die Broschüren \"O Domingo, a Fé\", Funchal, 1895, 55 S., \"Excursões na Madeira\", Funchal, 1891, 106 S. und \"Um monumento Histórico\", Funchal, 1886, 27 S.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Funchal": [
+            "Geburtsort"
+        ],
+        "Machico": [
+            "Sterbeort"
+        ]
+    },
+    "people": {
+        "Pater Armando Augusto de Pontes": [
+            "Priester und Pfarrer in Machico"
+        ]
+    },
+    "years": {
+        "1836": [
+            "Geburt"
+        ],
+        "1897": [
+            "Tod"
+        ],
+        "1860": [
+            "Priesterweihe"
+        ],
+        "1895": [
+            "Veröffentlichung von \"O Domingo, a Fé\""
+        ],
+        "1891": [
+            "Veröffentlichung von \"Excursões na Madeira\""
+        ],
+        "1886": [
+            "Veröffentlichung von \"Um monumento Histórico\""
+        ]
+    }
+}

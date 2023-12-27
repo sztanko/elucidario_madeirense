@@ -1,0 +1,47 @@
+{
+    "id": 433,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barreto (Pater Jaime de Gouveia)",
+    "fl": "B",
+    "original_title": "Barreto (Padre Jaime de Gouveia)",
+    "body": "Er wurde in Porto do Moniz am 13. Mai 1887 geboren und besuchte das bischöfliche Priesterseminar in Funchal, wo er 1910 die Priesterweihe empfing. Da er Pater Ernesto Schmitz bei der Vorbereitung und Bestimmung der naturgeschichtlichen Exemplare im Museum des Seminars unterstützt hatte, entwickelte er eine gewisse Vorliebe für diese Art von Arbeit. Später wurde er mit der Leitung dieses Museums betraut, als der genannte Priester nach Jerusalem ging. Er sammelte eine große Anzahl madeirischer Flechten und Pilze, die vom Professor Navas bzw. Professor Torrend untersucht wurden, und ist Mitglied der Naturwissenschaftlichen Gesellschaft von Saragossa. Während des Kriegszustands zwischen Portugal und Deutschland wurde er einberufen, um in Lissabon die Offiziersschule für die Miliz zu besuchen. Es gelang ihm, zum Feldgeistlichen im Rang eines Leutnants des Portugiesischen Expeditionskorps in Frankreich ernannt zu werden. Am 23. Mai 1918 reiste er in dieses Land und kehrte im Juni 1919 in die Heimat zurück.\n\nEr ist Professor am Diözesanseminar und Leiter der naturwissenschaftlichen Kabinette der gleichen Bildungseinrichtung. Er wurde mit dem Titel Monsignore ausgezeichnet und ist Domherr der Kathedrale von Funchal.",
+    "categories": [
+        "biology",
+        "history",
+        "religion",
+        "education",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Porto do Moniz": [
+            "Geburtsort"
+        ],
+        "Funchal": [
+            "Besuchte das bischöfliche Priesterseminar"
+        ],
+        "Jerusalem": [
+            "Ging dorthin"
+        ],
+        "Lissabon": [
+            "Wurde einberufen, um in Lissabon die Offiziersschule für die Miliz zu besuchen"
+        ],
+        "Frankreich": [
+            "Reiste am 23. Mai 1918 in dieses Land und kehrte im Juni 1919 in die Heimat zurück"
+        ]
+    },
+    "people": {
+        "Pater Jaime de Gouveia Barreto": [
+            "Wurde in Porto do Moniz am 13. Mai 1887 geboren und ist Professor am Diözesanseminar und Leiter der naturwissenschaftlichen Kabinette der gleichen Bildungseinrichtung"
+        ]
+    },
+    "years": {
+        "1910": [
+            "Priesterweihe"
+        ],
+        "1918": [
+            "Reiste am 23. Mai in dieses Land und kehrte im Juni 1919 in die Heimat zurück"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 2024,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Lombo dos Canhas",
+    "fl": "L",
+    "original_title": "Lombo dos Canhas",
+    "body": "Sítio povoado da freguesia dos Canhas. Existiu ali a capela de Nossa Senhora da Anunciação ou da Incarnação, reedificada em 1696 por João Rodrigues da Câmara e sua mulher D. Isabel César da Câmara, e que serviu por algum tempo de igreja paroquial.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Canhas"
+    ],
+    "locations": {
+        "Canhas": [
+            "Freguesia onde se localiza o Lombo dos Canhas."
+        ]
+    },
+    "people": {
+        "João Rodrigues da Câmara": [
+            "Responsável pela reedificação da capela de Nossa Senhora da Anunciação."
+        ]
+    },
+    "years": {
+        "1696": [
+            "Ano de reedificação da capela de Nossa Senhora da Anunciação."
+        ]
+    }
+}

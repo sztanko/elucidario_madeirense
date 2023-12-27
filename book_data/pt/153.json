@@ -1,0 +1,60 @@
+{
+    "id": 153,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Almada (José Antonio de)",
+    "fl": "A",
+    "original_title": "Almada (José Antonio de)",
+    "body": "Nasceu em Machico a 19 de Abril de 1813. Por ocasião do bloqueio da Madeira, em Maio de 1832, fugiu para a divisão naval da Rainha. Em 1833 foi promovido a sargento, tendo desembarcado nas praias do Mindelo, como soldado da expedição comandada por D. Pedro IV. Assistiu ao cerco do Porto, esteve na Serra do Pilar e tornou parte em diferentes acções e combates das campanhas da liberdade, sendo ferido na Asseiceira, em 16 de Maio de 1834. Por decreto de 8 de Setembro de 1834, a rainha D. Maria II houve por bem condecorá-lo com o grau de cavaleiro da Ordem da Torre e Espada. Faleceu no Funchal a 2 de Maio de 1885.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Machico"
+    ],
+    "locations": {
+        "Machico": [
+            "Machico"
+        ],
+        "Mindelo": [
+            "Mindelo"
+        ],
+        "Porto": [
+            "Porto"
+        ],
+        "Serra do Pilar": [
+            "Serra do Pilar"
+        ],
+        "Asseiceira": [
+            "Asseiceira"
+        ],
+        "Funchal": [
+            "Funchal"
+        ]
+    },
+    "people": {
+        "D. Pedro IV": [
+            "Comandante da expedição"
+        ],
+        "D. Maria II": [
+            "Rainha que o condecorou"
+        ]
+    },
+    "years": {
+        "1813": [
+            "Nascimento de José Antonio de Almada"
+        ],
+        "1832": [
+            "Bloqueio da Madeira"
+        ],
+        "1833": [
+            "Promoção a sargento"
+        ],
+        "1834": [
+            "Ferimento na Asseiceira"
+        ],
+        "1885": [
+            "Falecimento de José Antonio de Almada"
+        ]
+    }
+}

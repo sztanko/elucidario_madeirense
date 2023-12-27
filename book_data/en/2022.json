@@ -1,0 +1,31 @@
+{
+    "id": 2022,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lombo da Apresentação",
+    "fl": "L",
+    "original_title": "Lombo da Apresentação",
+    "body": "A populated place in the parish of Ribeira Brava. It took its name from the chapel of Nossa Senhora da Apresentação, which existed there, with a large manor house that was the headquarters of the entail established in 1524 by João Mendes de Brito and his wife Isabel Fernandes Tavares, of which the last representative was the Viscount of Ribeira Brava.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Parish where Lombo da Apresentação is located"
+        ]
+    },
+    "people": {
+        "João Mendes de Brito": [
+            "Founder of the entail established in 1524"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Year of establishment of the entail of João Mendes de Brito"
+        ]
+    }
+}

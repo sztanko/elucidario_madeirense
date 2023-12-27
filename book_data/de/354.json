@@ -1,0 +1,37 @@
+{
+    "id": 354,
+    "lang": "de",
+    "is_original": false,
+    "title": "Azevedo (Americo Olavo Correia de)",
+    "fl": "A",
+    "original_title": "Azevedo (Americo Olavo Correia de)",
+    "body": "> Geboren am 16. Dezember 1881 in Funchal, diente er als Hauptmann der Infanterie in den portugiesischen Truppen, die in Frankreich an der Seite der Alliierten kämpften. Er wurde mit dem Croix de Guerre und dem Ritterkreuz 30. Klasse des Ordens vom Turm und Schwert für Tapferkeit während des Feldzugs ausgezeichnet. Nachdem er in der großen Schlacht vom 9. April 1918 von den Deutschen gefangen genommen worden war, kehrte er Anfang 1919 nach Portugal zurück und wurde bei den Wahlen am 11. Mai desselben Jahres als Abgeordneter für Funchal gewählt.",
+    "categories": [
+        "history",
+        "sports"
+    ],
+    "freguesias": [
+        "Funchal"
+    ],
+    "locations": {
+        "Funchal": [
+            "Hauptstadt der Insel Madeira"
+        ],
+        "Frankreich": [
+            "Land, in dem Americo Olavo Correia de Azevedo an der Seite der Alliierten kämpfte"
+        ]
+    },
+    "people": {
+        "Americo Olavo Correia de Azevedo": [
+            "Infanteriehauptmann, der in Frankreich an der Seite der Alliierten kämpfte und zum Abgeordneten von Funchal gewählt wurde"
+        ]
+    },
+    "years": {
+        "1881": [
+            "Geburtsjahr von Americo Olavo Correia de Azevedo"
+        ],
+        "1918": [
+            "Jahr, in dem er von den Deutschen gefangen genommen wurde"
+        ]
+    }
+}

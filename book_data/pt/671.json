@@ -1,0 +1,72 @@
+{
+    "id": 671,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Camacho (Januario Vicente)",
+    "fl": "C",
+    "original_title": "Camacho (Januario Vicente)",
+    "body": "Este distinto madeirense nasceu no Funchal em 1792 e era filho do coronel de artilharia Antonio Fernandes Camacho e de D. Barbara Junqueiro Camacho. Ordenado de presbítero em 1815, paroquiou em seguida nas freguesias da Serra de Água, Ribeira Brava e Santo Antonio, do Funchal. Conta-se, não sabemos com que fundamento, que sendo preterido no concurso em que entrara para a vigairaria de Santo Antonio, se queixara a D. João VI da injustiça que lhe fora feita, e que o rei, reconhecendo o direito que assistia ao queixoso, lhe perguntara se na Madeira não haveria outro logar vago que lhe conviesse. Respondeu prontamente Januário Camacho: no Funchal só há vago o deado. Diz mais a anedota, pois como tal a tomamos, que D. João VI ignorando o que fosse o deado, dera logo o importante cargo de deão da Sé do Funchal a Januario Vicente Camacho. O governo central apresentou o bispo na diocese de Castelo Branco, mas não foi confirmado pela Santa Sé, nem chegou a receber a sagração episcopal. Por decreto de 26 de Fevereiro de 1840 foi nomeado governador da diocese do Funchal e eleito vigário capitular a 27 de Março do mesmo ano, e mais tarde desempenhou igual cargo no bispado de Angra, intitulando-se nos documentos oficiais bispo eleito de Castelo Branco, e precedendo sempre o seu nome de Dom, que era de uso e direito adoptarem os prelados portugueses. Parece que não foi das mais exemplares a sua administração episcopal na diocese dos Açores. Representou a Madeira em cortes na legislatura de 1848 a 1851, e anteriormente tinha sido várias vezes eleito deputado e senador substituto por este arguipelago. Em 1851 foi elevado ao pariato, cargo a que então não era fácil chegar, sem que no agraciado se reconhecessem méritos incontestáveis. Faleceu em Lisboa a 22 de Dezembro de 1872.",
+    "categories": [
+        "history",
+        "religion",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local de nascimento"
+        ],
+        "Serra de Água": [
+            "Local de paroquiamento"
+        ],
+        "Ribeira Brava": [
+            "Local de paroquiamento"
+        ],
+        "Santo Antonio": [
+            "Local de paroquiamento"
+        ],
+        "Castelo Branco": [
+            "Diocese governada"
+        ],
+        "Angra": [
+            "Bispado governado"
+        ],
+        "Lisboa": [
+            "Local de falecimento"
+        ]
+    },
+    "people": {
+        "Antonio Fernandes Camacho": [
+            "Coronel de artilharia"
+        ],
+        "D. Barbara Junqueiro Camacho": [
+            "Mãe de Januario Vicente Camacho"
+        ],
+        "D. João VI": [
+            "Rei de Portugal"
+        ],
+        "Januario Vicente Camacho": [
+            "Bispo eleito"
+        ]
+    },
+    "years": {
+        "1792": [
+            "Nascimento de Januario Vicente Camacho"
+        ],
+        "1815": [
+            "Ordenação de presbítero"
+        ],
+        "1840": [
+            "Nomeação como governador da diocese do Funchal"
+        ],
+        "1848": [
+            "Representação da Madeira em cortes"
+        ],
+        "1851": [
+            "Elevação ao pariato"
+        ],
+        "1872": [
+            "Falecimento de Januario Vicente Camacho"
+        ]
+    }
+}

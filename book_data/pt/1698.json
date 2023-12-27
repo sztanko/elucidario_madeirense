@@ -1,0 +1,42 @@
+{
+    "id": 1698,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Heraldo da Madeira (O)",
+    "fl": "H",
+    "original_title": "Heraldo da Madeira (O)",
+    "body": "Começou este jornal diário a publicar-se no dia 14 de Agosto de 1904 e terminou a sua publicação a 14 de Agosto de 1915, tendo saído 3.218 números. Nos primeiros anos tinha oito paginas e publicava gravuras aos domingos. Durante algum tempo publicou-se deste jornal uma edição em língua inglesa, especialmente destinada aos passageiros dos vapores estrangeiros que demandavam o porto do Funchal, sendo esta edição de publicação irregular.\n\nTeve como director o capitão J. Reis Gomes, sendo redactor principal O Pe. Fernando A. Silva e redactores os tenentes A. Artur Sarmento e Jaime de Campos Ramalho.\n\nPublicou um numero considerável de escritos inéditos e de valiosos documentos que muito interessam à historia deste arquipélago.",
+    "categories": [
+        "culture",
+        "history",
+        "society"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde o jornal _Heraldo da Madeira_ era publicado e destinava uma edição em língua inglesa aos passageiros dos vapores estrangeiros."
+        ]
+    },
+    "people": {
+        "J. Reis Gomes": [
+            "Diretor do jornal _Heraldo da Madeira_."
+        ],
+        "Fernando A. Silva": [
+            "Redactor principal do jornal _Heraldo da Madeira_."
+        ],
+        "A. Artur Sarmento": [
+            "Redactor do jornal _Heraldo da Madeira_."
+        ],
+        "Jaime de Campos Ramalho": [
+            "Redactor do jornal _Heraldo da Madeira_."
+        ]
+    },
+    "years": {
+        "1904": [
+            "Início da publicação do jornal _Heraldo da Madeira_."
+        ],
+        "1915": [
+            "Término da publicação do jornal _Heraldo da Madeira_."
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "id": 3596,
+    "lang": "en",
+    "is_original": false,
+    "title": "Viana",
+    "fl": "V",
+    "original_title": "Viana",
+    "body": "This family name begins with Afonso de Viana, who established himself in Caniço around 1500.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Caniço"
+    ],
+    "locations": {
+        "Caniço": [
+            "Location where Afonso de Viana established himself around 1500"
+        ]
+    },
+    "people": {
+        "Afonso de Viana": [
+            "Individual who established himself in Caniço around 1500"
+        ]
+    },
+    "years": {
+        "1500": [
+            "Establishment of Afonso de Viana in Caniço"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 1948,
+    "lang": "en",
+    "is_original": false,
+    "title": "Lazareto (Caminho do)",
+    "fl": "L",
+    "original_title": "Lazareto (Caminho do)",
+    "body": "It is located in the parishes of Santa Maria Maior and S. Gonçalo and is an extension of the Socorro sidewalk, bordering the lazaretto grounds of Gonçalo Aires on the north side. The alley that leads to this path, to the east of the Pasto stream, is known as the Lazareto alley. On the south side of the Lazareto path and overlooking the sea, is the Jewish cemetery, retaining at the entrance an inscription in Hebrew meaning 'Dwelling of Life' and the date of 5,611, which corresponds to the year 1851 of our era.",
+    "categories": [
+        "health",
+        "religion"
+    ],
+    "freguesias": [
+        "Santa Maria Maior",
+        "S. Gonçalo"
+    ],
+    "locations": {
+        "Santa Maria Maior": [
+            "Located in the parishes of Santa Maria Maior"
+        ],
+        "S. Gonçalo": [
+            "Located in the parishes of S. Gonçalo"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1851": [
+            "5,611, which corresponds to the year 1851 of our era"
+        ]
+    }
+}

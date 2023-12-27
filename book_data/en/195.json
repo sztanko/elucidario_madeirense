@@ -1,0 +1,50 @@
+{
+    "id": 195,
+    "lang": "en",
+    "is_original": false,
+    "title": "Amelia (Empress D.)",
+    "fl": "A",
+    "original_title": "Amelia (Imperatriz D.)",
+    "body": "The Empress of Brazil D. Amelia, widow of D. Pedro IV, and her daughter Princess D. Maria Amelia arrived in Funchal on August 28, 1852, on the warship D. Fernando, accompanied by the corvette D. João I and the war steamer D. Luiz. The squadron was commanded by the captain of the navy José Maria de Sousa Soares, and the frigate D. Fernando served as the flagship. The reception was extremely impressive, deeply impressing the empress and the princess, who, despite being seriously ill, remained cheerful and smiling from the disembarkation at Pontinha to Quinta das Angústias, where they established their residence, in view of the many demonstrations of appreciation and affection bestowed upon them by the inhabitants of this city. It is well known that Princess D. Maria Amélia did not find the expected relief in the balmy air of Madeira and the benignity of its climate. After five months and a few days of stay among us, she succumbed to the ravages of a terrible pulmonary tuberculosis, in the early hours of February 4, 1853. The princess, according to unsuspected contemporary witnesses, was of unparalleled kindness and aroused the most vivid and passionate sympathy in all who saw her or approached her, and therefore her death produced a feeling of profound sorrow among the people of Funchal, which lasted for many years. The empress's embarkation, on her return to Lisbon, accompanying the coffin containing the mortal remains of her daughter, took place on May 6, 1853. It was an impressive procession, in which there were no dry eyes. From the most modest commoner to the desolate empress, everyone wept copious tears. It seemed as if a great calamity had occurred. As everyone knows, this death led to the founding of the Hospice of Princess D. Maria Amelia, about which we will speak on another occasion. Empress D. Amelia died in Lisbon on January 26, 1873.",
+    "categories": [
+        "history",
+        "health"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Located in Madeira"
+        ],
+        "Lisbon": [
+            "Located in Portugal"
+        ],
+        "Quinta das Angústias": [
+            "Located in Madeira"
+        ],
+        "Ponte da Pontinha": [
+            "Located in Madeira"
+        ]
+    },
+    "people": {
+        "D. Amelia": [
+            "Empress of Brazil"
+        ],
+        "D. Pedro IV": [
+            "Emperor of Brazil"
+        ],
+        "D. Maria Amelia": [
+            "Princess"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Arrival in Funchal"
+        ],
+        "1853": [
+            "Death of Princess D. Maria Amelia"
+        ],
+        "1873": [
+            "Death of Empress D. Amelia"
+        ]
+    }
+}

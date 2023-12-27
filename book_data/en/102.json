@@ -1,0 +1,28 @@
+{
+    "id": 102,
+    "lang": "en",
+    "is_original": false,
+    "title": "Madeiran Album",
+    "fl": "M",
+    "original_title": "Álbum Madeirense",
+    "body": "Poems by various Madeiran authors, collected by Francisco Vieira. Funchal, 1884, 1 vol. of 225 pages.",
+    "categories": [
+        "culture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Location in Madeira"
+        ]
+    },
+    "people": {
+        "Francisco Vieira": [
+            "Collector of Madeiran poems"
+        ]
+    },
+    "years": {
+        "1884": [
+            "Year of publication"
+        ]
+    }
+}

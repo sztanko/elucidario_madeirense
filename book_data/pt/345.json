@@ -1,0 +1,28 @@
+{
+    "id": 345,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Aviceiro ou Fonte do Aviceiro",
+    "fl": "A",
+    "original_title": "Aviceiro ou Fonte do Aviceiro",
+    "body": "Logar da freguesia de Santo Antonio, a pequena distancia do Lombo de D. Isabel, na estrada que conduz ao Curral das Freiras.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Santo Antonio"
+    ],
+    "locations": {
+        "Santo Antonio": [
+            "Freguesia localizada na ilha da Madeira."
+        ],
+        "Lombo de D. Isabel": [
+            "Localidade na ilha da Madeira."
+        ],
+        "Curral das Freiras": [
+            "Localidade na ilha da Madeira."
+        ]
+    },
+    "people": {},
+    "years": {}
+}

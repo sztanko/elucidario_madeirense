@@ -1,0 +1,35 @@
+{
+    "id": 1332,
+    "lang": "de",
+    "is_original": false,
+    "title": "Faria (José Cupertino de)",
+    "fl": "F",
+    "original_title": "Faria (José Cupertino de)",
+    "body": "Er wurde 1866 in Funchal geboren und ist der Sohn von Manuel de Faria und Maria Isabel Fernandes de Faria. Er besuchte das Seminar dieser Diözese, dessen Vorbereitungskurse er nicht abschließen konnte, und trat später in die Armee ein. Er hat diese Insel schon lange verlassen und lebte viele Jahre in der Stadt Setúbal. Dort veröffentlichte er 1901 ein 202-seitiges Buch mit dem Titel O Arquipelago da Madeira, das viele Fehler und Ungenauigkeiten enthält.",
+    "categories": [
+        "history",
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Geburtsstadt von José Cupertino de Faria"
+        ],
+        "Setúbal": [
+            "Stadt, in der José Cupertino de Faria lebte"
+        ]
+    },
+    "people": {
+        "Manuel de Faria": [
+            "Vater von José Cupertino de Faria"
+        ],
+        "Maria Isabel Fernandes de Faria": [
+            "Mutter von José Cupertino de Faria"
+        ]
+    },
+    "years": {
+        "1901": [
+            "Veröffentlichung des Buches O Arquipelago da Madeira von José Cupertino de Faria"
+        ]
+    }
+}

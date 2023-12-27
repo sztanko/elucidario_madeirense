@@ -1,0 +1,31 @@
+{
+    "id": 201,
+    "lang": "de",
+    "is_original": false,
+    "title": "Amoreiras",
+    "fl": "A",
+    "original_title": "Amoreiras",
+    "body": "Ort in der Gemeinde Arco da Calheta, in dem sich die Kapelle Nossa Senhora da Conceição befindet, die 1911 vom Priester José Marcelino de Freitas gegründet wurde. An dieser Stelle stand bereits eine Kapelle gleichen Namens, die Isabel de Abreu Anfang des 16. Jahrhunderts errichten ließ.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Arco da Calheta"
+    ],
+    "locations": {
+        "Arco da Calheta": [
+            "Gemeinde auf Madeira"
+        ]
+    },
+    "people": {
+        "José Marcelino de Freitas": [
+            "Priester"
+        ]
+    },
+    "years": {
+        "1911": [
+            "Gründung der Kapelle Nossa Senhora da Conceição"
+        ]
+    }
+}

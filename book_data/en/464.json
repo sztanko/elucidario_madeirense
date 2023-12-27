@@ -1,0 +1,49 @@
+{
+    "id": 464,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bemposta",
+    "fl": "B",
+    "original_title": "Bemposta",
+    "body": "Site in the parish of Água de Pena. It was the location of the headquarters of the entail established by João Afonso Escudeiro in 1512. He was originally from the mainland of the kingdom and came to this island around the year 1450. He came from a noble lineage and his noble status was recognized here. He died in 1512, at an advanced age, and by will made on June 21 of the same year, he established the entail of Bemposta, in the parish of Água de Pena, and that of S. Lazaro, in the parish of Santa Cruz. The first administrator of the Bemposta entail was D. Catarina Anes Escudeiro, daughter of José Afonso, who married Lopo Franco de Monção, so named because he was from the town of the same name. He came to Madeira around 1480, and in 1515 he was the first judge of the Santa Cruz Council. His son João Lopes Franco succeeded him in the administration of the Bemposta entail, and a daughter named Maria Franco succeeded him in the estate and chapel of S. Lazaro. The third administrator of the Bemposta entail was Diogo Lopes Tavares, who also inherited the S. Lazaro entail because D. Maria Franco died without descendants. This family had a burial vault in the old convent of Santa Cruz, where until not many years ago the respective tombstone with a shield showing the arms of the Tavares and Borralhos families was found.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Água de Pena",
+        "Santa Cruz"
+    ],
+    "locations": {
+        "Água de Pena": [
+            "Parish"
+        ]
+    },
+    "people": {
+        "João Afonso Escudeiro": [
+            "Established the Bemposta entail in 1512"
+        ],
+        "D. Catarina Anes Escudeiro": [
+            "First administrator of the Bemposta entail"
+        ],
+        "Lopo Franco de Monção": [
+            "Married D. Catarina Anes Escudeiro"
+        ],
+        "João Lopes Franco": [
+            "Son of D. Catarina Anes Escudeiro, succeeded in the administration of the Bemposta entail"
+        ],
+        "Maria Franco": [
+            "Daughter of D. Catarina Anes Escudeiro, succeeded in the estate and chapel of S. Lazaro"
+        ],
+        "Diogo Lopes Tavares": [
+            "Third administrator of the Bemposta entail"
+        ]
+    },
+    "years": {
+        "1450": [
+            "João Afonso Escudeiro came to the island"
+        ],
+        "1512": [
+            "João Afonso Escudeiro established the Bemposta entail"
+        ]
+    }
+}

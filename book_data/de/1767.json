@@ -1,0 +1,65 @@
+{
+    "id": 1767,
+    "lang": "de",
+    "is_original": false,
+    "title": "Inselchen",
+    "fl": "I",
+    "original_title": "Ilhéus",
+    "body": "Die wichtigsten der Küste Madeiras vorgelagerten Inselchen sind an der Südküste: Agostinho, Desembarcadouros und Fora (Ponta de S. Lourenço), Santa Catarina (Santa Cruz), Ilhéu (Bucht von Funchal), Gorgulho und Praia (São Martinho), Campanário oder Lapa (Campanário), Guincho (Ponta do Pargo); und an der Nordküste die von Porto do Moniz, die Mole und Negro (Porto do Moniz) genannt werden, die von Ribeira da Janela (Ribeira da Janela), die von Seixal, bekannt als Ceroulas und Guincho (Seixal), die von Boaventura oder Preto und Vermelho (Boaventura), São Jorge (São Jorge), Rocha do Navio (Sant'ana), die von Faial, wobei das Hauptinselchen das von Faial (Faial) ist, und Porto da Cruz (Porto da Cruz).\n\nDie wichtigsten Inselchen, die die Insel Porto Santo in nicht großer Entfernung von der Küste umgeben, sind: das von Cenouras, das von Baixo oder da Cal, das von Cima oder dos Dragoeiros und heute auch das vom Leuchtturm genannte, das von Fora oder Rocha do Nordeste, das da Fonte oder Fonte da Areia und das von Ferro (siehe jeden dieser Namen).\n\nIn der Gruppe der Desertas befindet sich das Inselchen Furilhão oder Prego do Mar (siehe diese Namen), auch unter dem Namen Inselchen do Navio bekannt.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ponta de S. Lourenço": [
+            "Desembarcadouros und Fora"
+        ],
+        "Santa Cruz": [
+            "Santa Catarina"
+        ],
+        "Funchal": [
+            "Ilhéu (Bucht von Funchal)"
+        ],
+        "São Martinho": [
+            "Gorgulho und Praia"
+        ],
+        "Campanário": [
+            "Campanário oder Lapa"
+        ],
+        "Ponta do Pargo": [
+            "Guincho"
+        ],
+        "Porto do Moniz": [
+            "Mole und Negro"
+        ],
+        "Ribeira da Janela": [
+            "Ribeira da Janela"
+        ],
+        "Seixal": [
+            "Ceroulas und Guincho"
+        ],
+        "Boaventura": [
+            "Preto und Vermelho"
+        ],
+        "São Jorge": [
+            "São Jorge"
+        ],
+        "Sant'ana": [
+            "Rocha do Navio"
+        ],
+        "Faial": [
+            "Hauptinselchen Faial"
+        ],
+        "Porto da Cruz": [
+            "Porto da Cruz"
+        ],
+        "Porto Santo": [
+            "Cenouras, Baixo oder da Cal, Cima oder dos Dragoeiros, Farol, Fora oder Rocha do Nordeste, Fonte oder Fonte da Areia, Ferro"
+        ],
+        "Desertas": [
+            "Inselchen Furilhão oder Prego do Mar, Inselchen do Navio"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

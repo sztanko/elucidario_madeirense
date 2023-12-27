@@ -1,0 +1,26 @@
+{
+    "id": 1123,
+    "lang": "de",
+    "is_original": false,
+    "title": "Dendriten",
+    "fl": "D",
+    "original_title": "Dendrites",
+    "body": "Infiltrationen, gewöhnlich von Mangan- und Eisensalzen, die sich im Inneren von Gesteinsbrocken mit blättriger Bruchfläche befinden, mit dem Aussehen von gepressten dunkelfarbigen Algen und Moosen. Sie sind häufig in den Trachyten des Nossa Senhora Gebirges auf Porto Santo und selten in den basaltischen Platten von S. Martinho.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Nossa Senhora Gebirge": [
+            "Auf Porto Santo gelegen"
+        ],
+        "Porto Santo": [
+            "Insel von Madeira"
+        ],
+        "S. Martinho": [
+            "Ort, an dem basaltische Platten selten sind"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

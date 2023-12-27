@@ -1,0 +1,53 @@
+{
+    "id": 771,
+    "lang": "en",
+    "is_original": false,
+    "title": "Carlos (Campo de D.)",
+    "fl": "C",
+    "original_title": "Carlos (Campo de D.)",
+    "body": "The former Campo de D. Carlos, now Almirante Reis, started in 1898 and completed in 1901, cost the Municipality more than 24 contos and followed the idea of ​​sanitizing the Santa Maria Maior neighborhood. The construction was contributed by the Government with the lands of the old fort of S. Pedro, part of the city wall, and perhaps the Campo das Loucas or Challons, and the Municipality with the lands of Praça Academica and the streets that bordered it to the south and east, and with those of Rua dos Balcões and the hovels now demolished from this old street.\n\nThe Campo de D. Carlos is used for military exercises, and the rights that the Municipality has over it are set forth in the public deed celebrated on September 4, 1897, between the Ministry of War and the Municipal Chamber.\n\nThe request for authorization to give the deceased King D. Carlos' name to the field or square that the Chamber intended to build is dated September 6, 1897, and the new name of Campo do Almirante Reis, by which the same land is known, was given to it in 1911 by the first commission that sat in the seats of the Funchal council, after the republican government was proclaimed in the country.",
+    "categories": [
+        "history",
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Santa Maria Maior": [
+            "Neighborhood of Santa Maria Maior"
+        ],
+        "S. Pedro": [
+            "Lands of the old fort of S. Pedro"
+        ],
+        "Praça Academica": [
+            "Lands of Praça Academica"
+        ],
+        "Rua dos Balcões": [
+            "Lands of Rua dos Balcões"
+        ]
+    },
+    "people": {
+        "D. Carlos": [
+            "Deceased King D. Carlos"
+        ],
+        "Ministry of War": [
+            "Celebrated on September 4, 1897"
+        ],
+        "Municipal Chamber": [
+            "Celebrated on September 4, 1897"
+        ]
+    },
+    "years": {
+        "1898": [
+            "Started in 1898"
+        ],
+        "1901": [
+            "Completed in 1901"
+        ],
+        "1897": [
+            "Celebrated on September 4, 1897"
+        ],
+        "1911": [
+            "Given in 1911"
+        ]
+    }
+}

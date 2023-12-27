@@ -1,0 +1,43 @@
+{
+    "id": 1059,
+    "lang": "de",
+    "is_original": false,
+    "title": "Coutinho (Francisco de Vasconcelos)",
+    "fl": "C",
+    "original_title": "Coutinho (Francisco de Vasconcelos)",
+    "body": "Wir kennen diesen madeirischen Dichter durch die Verweise auf ihn im bibliographischen Wörterbuch von Inocencio und von Dr. Rodrigues de Azevedo in einer der Anmerkungen zu den \"Saudades\". Dort steht, dass er Lizentiat im Kanonischen Recht war und gegen Ende des 17. Jahrhunderts geboren wurde, denn er verfasste Sonette zum Tod Peters II., der 1706 starb, sowie eine dramatische Lobrede zu Ehren des Gouverneurs und Generalkapitäns der Insel Madeira, João de Saldanha da Gama, als dessen Amtszeit 1718 endete. Er starb nach 1729, denn in diesem Jahr veröffentlichte er die folgenden zwei Werke: \"Feudo do Parnaso\", gewidmet Johann V., und \"Hecatombe metrico\", ein religiöses Poem in 100 Sonetten zu Ehren der Jungfrau Maria, beide 1729 in Lissabon gedruckt. Außerdem schrieb er acht Sonette zum Tod Peters II., eins an Johann V. und vier an verschiedene Persönlichkeiten, \"Effeitos de hum arrependimento\" in Terzinen sowie die bereits erwähnte Lobrede mit dem Titel \"Residencia do Governador e Capitão General da Ilha da Madeira João de Saldanha da Gama\", aufgeführt von den Nonnen des Klosters Santa Clara bei seiner Verabschiedung. Diese Werke wurden zusammen mit der zweiten Auflage von \"Feudo do Parnaso\" und \"Hecatombe metrico\" 1773 in Lissabon in einem Band veröffentlicht. Und noch vor all diesen Werken wurden weitere seiner Gedichte in \"Fenix renascida\", Band 1, S. 183-232 und Band 2, S. 220-251 (Lissabon 1716 und 1717) gesammelt. Wir können hinzufügen, dass er der Sohn von Lourenço de Matos Coutinho, einem Lizentiaten des Zivilrechts, genannt \"der Ritter\", und Dona Mariana de Ornelas e Vasconcelos war. Auf den Seiten 52 ff. von Band II des \"Arquivo Historico da Madeira\" wurde ein interessanter Artikel veröffentlicht, der neue und wertvolle biografische Informationen über Francisco de Vasconcelos Coutinho enthält.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Lissabon": [
+            "Hauptstadt von Portugal, wo einige seiner Werke veröffentlicht wurden."
+        ]
+    },
+    "people": {
+        "Francisco de Vasconcelos Coutinho": [
+            "Madeirischer Dichter, über den hier berichtet wird."
+        ],
+        "Peter II.": [
+            "König, zu dessen Tod Coutinho Sonette schrieb."
+        ],
+        "Johann V.": [
+            "König, dem Coutinho ein Werk widmete."
+        ],
+        "João de Saldanha da Gama": [
+            "Gouverneur und Generalkapitän von Madeira, zu dessen Ehren Coutinho eine Lobrede schrieb."
+        ]
+    },
+    "years": {
+        "1706": [
+            "Todesjahr von König Peter II."
+        ],
+        "1718": [
+            "Ende der Amtszeit von João de Saldanha da Gama als Gouverneur von Madeira"
+        ],
+        "1729": [
+            "Veröffentlichung der Werke \"Feudo do Parnaso\" und \"Hecatombe metrico\" von Coutinho"
+        ]
+    }
+}

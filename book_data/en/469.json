@@ -1,0 +1,27 @@
+{
+    "id": 469,
+    "lang": "en",
+    "is_original": false,
+    "title": "Bertrand (Arthur)",
+    "fl": "B",
+    "original_title": "Bertrand (Arthur)",
+    "body": "In 1841, he published a book entitled Lettres sur l'expedition de Sainte Hélène, which deals with the expedition led by Prince de Joinville, who in 1840 went to the island of Saint Helena to bring the mortal remains of Napoleon I to Europe. He devotes eight pages to the passage of this expedition through Madeira in July 1840.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Arthur Bertrand": [
+            "Author of the book"
+        ]
+    },
+    "years": {
+        "1841": [
+            "Publication of the book"
+        ],
+        "1840": [
+            "Passage of the expedition through Madeira"
+        ]
+    }
+}

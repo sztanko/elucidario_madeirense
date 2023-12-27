@@ -1,0 +1,26 @@
+{
+    "id": 1540,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Galinhas (Ribeira das)",
+    "fl": "G",
+    "original_title": "Galinhas (Ribeira das)",
+    "body": "Nasce esta linha de água na freguesia da Fajã da Ovelha e desemboca na costa\n\n marítima da freguesia do Paul do Mar existindo um pequeno porto na sua foz, a que chamam o Porto das\n Galinhas.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Fajã da Ovelha",
+        "Paul do Mar"
+    ],
+    "locations": {
+        "Fajã da Ovelha": [
+            "Nascente"
+        ],
+        "Paul do Mar": [
+            "Costa marítima"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

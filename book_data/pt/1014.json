@@ -1,0 +1,40 @@
+{
+    "id": 1014,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Corpos Calcareos da Piedade",
+    "fl": "C",
+    "original_title": "Corpos Calcareos da Piedade",
+    "body": "No sitio da Piedade, na Ponta de S. Lourenço, encontram-se numerosos corpos calcareos com a aparencia de troncos e de ramos de arvores petrificados, muitos dos quais apresentam camadas concentricas semelhantes ás que se notam em certos vegetais lenhosos. Alguns destes corpos prolongam-se na parte inferior numa espécie de raiz, com a forma e a direcção das raizes das plantas dicotilédoneas. Os naturalistas que têm visitado a Piedade não estão de acôrdo sôbre a maneira de explicar a origem dos referidos corpos. O botanico Lowe considerou-os como concreções arenoso-calcareas; Macaulay, como uma formação de corais de familia dos Alcionideos; o geologo Smith, como simples moldes obtidos em espaços ocupados anteriormente por plantas; e Mousinho de Albuquerque e Bowdich, como restos petrificados de uma antiga floresta. Esta ultima explicação é a unica que nos parece aceitavel, se atendermos á forma e ao aspecto dos corpos a que nos referimos. Quanto ao trabalho da mineralização, deveria ter consistido numa simples troca da matéria organica pela inorganica, indo as particulas de carbonato de cal ocupar o logar das particulas vegetais, á medida que estas se corrompiam. As aguas, dissolvendo uma parte do calcareo, promoveriam a referida troca, infiltrando-se nas cavidades deixadas pela decomposição da madeira. Se se admitir que a costa do norte, no sitio da Piedade, se prolongava pelo mar dentro em epocas remotas, formando um declive suave, limitado por uma praia revestida de areias calcareas, bem se poderá admitir também que os ventos, arrastando pouco a pouco essas areias, as levassem a cobrir os terrenos do interior e da costa do sul, fornecendo assim o material preciso para a referida mineralização. Os terrenos da Piedade são de origem vulcanica e nas escarpas adjacentes encontram-se os tufos e o basalto. A noroeste do Pôrto Santo existem corpos calcareos da mesma natureza dos da Piedade.",
+    "categories": [
+        "geography",
+        "biology"
+    ],
+    "freguesias": [
+        "Piedade",
+        "Pôrto Santo"
+    ],
+    "locations": {
+        "Piedade": [
+            "Ponta de S. Lourenço"
+        ]
+    },
+    "people": {
+        "Lowe": [
+            "Botânico"
+        ],
+        "Macaulay": [
+            "Naturalista"
+        ],
+        "Smith": [
+            "Geólogo"
+        ],
+        "Mousinho de Albuquerque": [
+            "Naturalista"
+        ],
+        "Bowdich": [
+            "Naturalista"
+        ]
+    },
+    "years": {}
+}

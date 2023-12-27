@@ -1,0 +1,42 @@
+{
+    "id": 77,
+    "lang": "en",
+    "is_original": false,
+    "title": "Aguiar (Padre Dr. José Gonçalves de)",
+    "fl": "A",
+    "original_title": "Aguiar (Padre Dr. José Gonçalves de)",
+    "body": "José Gonçalves de Aguiar was born in the town of Câmara de Lobos to humble parents on October 8, 1831, being the legitimate son of Vitorino Gonçalves Rocha and Vitorina Rosa de Jesus. He, along with some of his brothers, used the surname Aguiar, which was that of his maternal grandfather. He was a student at the Seminary of Funchal when, due to the protection given to him by the Russian Waxel family, who were then in Madeira, he went to study theology at the University and completed his degree there in a year that we cannot specify. He soon after took up residence in Lisbon and remained there until his death. In the capital, he held, among other positions, that of judge of the patriarchal curia and examiner pro-synodal. He was very dedicated to study and highly educated, and therefore highly regarded in the capital, not only for his qualities of character and conduct as a citizen and as a priest. He collaborated in several newspapers and, as far as we know, published separately: The Dogma of the Immaculate Conception of the Blessed Virgin Mary, Lisbon, 1880, 40 pages, and the Treatise of Penance, Lisbon, 1888, XVI-849 pages. It is known that he was invited more than once to accept a mitre, but he always refused to enter the episcopate. We do not know the date of his death, which occurred in Lisbon, or any other details of his biography.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Câmara de Lobos"
+    ],
+    "locations": {
+        "Câmara de Lobos": [
+            "Birthplace"
+        ]
+    },
+    "people": {
+        "Vitorino Gonçalves Rocha": [
+            "Father"
+        ],
+        "Vitorina Rosa de Jesus": [
+            "Mother"
+        ],
+        "Waxel": [
+            "Russian family that protected him"
+        ]
+    },
+    "years": {
+        "1831": [
+            "Birth"
+        ],
+        "1880": [
+            "Publication of The Dogma of the Immaculate Conception of the Blessed Virgin Mary"
+        ],
+        "1888": [
+            "Publication of the Treatise of Penance"
+        ]
+    }
+}

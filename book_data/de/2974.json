@@ -1,0 +1,31 @@
+{
+    "id": 2974,
+    "lang": "de",
+    "is_original": false,
+    "title": "Quinta",
+    "fl": "Q",
+    "original_title": "Quinta",
+    "body": "Ort der Ortschaft der Gemeinde Quinta Grande. Hier befindet sich die Quinta do Pomar mit einer Kapelle zu Ehren des heiligen Antonius, gegründet von Pater António Silvino Gonçalves de Andrade im Jahr 1883, und es gibt auch eine staatliche Grundschule. An diesem Ort, genannt Ponta da Quinta, gab es eine kleine Einsiedelei, die der Jungfrau Unserer Lieben Frau geweiht war, von der nicht einmal mehr Überreste vorhanden sind.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Quinta Grande"
+    ],
+    "locations": {
+        "Quinta Grande": [
+            "Gemeinde"
+        ]
+    },
+    "people": {
+        "António Silvino Gonçalves de Andrade": [
+            "Gründer der Kapelle des heiligen Antonius"
+        ]
+    },
+    "years": {
+        "1883": [
+            "Gründung der Kapelle des heiligen Antonius"
+        ]
+    }
+}

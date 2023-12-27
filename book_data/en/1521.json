@@ -1,0 +1,30 @@
+{
+    "id": 1521,
+    "lang": "en",
+    "is_original": false,
+    "title": "Furtado",
+    "fl": "F",
+    "original_title": "Furtado",
+    "body": "The surname Furtado comes from Rodrigo Enes Furtado, who was one of the earliest settlers of Ponta do Sol and built a chapel in the respective parish church, where he is buried, having died in 1486.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Ponta do Sol": [
+            "Settlement location"
+        ]
+    },
+    "people": {
+        "Rodrigo Enes Furtado": [
+            "One of the earliest settlers of Ponta do Sol"
+        ]
+    },
+    "years": {
+        "1486": [
+            "Death of Rodrigo Enes Furtado"
+        ]
+    }
+}

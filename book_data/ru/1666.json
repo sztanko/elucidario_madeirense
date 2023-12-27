@@ -1,0 +1,25 @@
+{
+    "id": 1666,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Мыс Крана",
+    "fl": "М",
+    "original_title": "Guindaste (Ponta do)",
+    "body": "Этот мыс находится в приходе Гаула, недалеко от небольшого порта Порту-Нову.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [
+        "Gaula"
+    ],
+    "locations": {
+        "Мыс": [
+            "Приход Гаула"
+        ],
+        "Порту-Нову": [
+            "Небольшой порт"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

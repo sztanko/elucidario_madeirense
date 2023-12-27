@@ -1,0 +1,38 @@
+{
+    "id": 847,
+    "lang": "en",
+    "is_original": false,
+    "title": "Celestino Emidio (Manuel)",
+    "fl": "C",
+    "original_title": "Celestino Emidio (Manuel)",
+    "body": "He served as a judge in the district of Funchal for several years and represented Madeira in the legislative session of 1880 to 1881. He was born in 1812 and died in 1898.\n\nCelestino Emidio was the judge who presided over the famous trial of the notorious criminal João Brandão.",
+    "categories": [
+        "history",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "District where he served as a judge"
+        ]
+    },
+    "people": {
+        "João Brandão": [
+            "Notorious criminal"
+        ]
+    },
+    "years": {
+        "1880": [
+            "Participation in the legislative session"
+        ],
+        "1881": [
+            "Participation in the legislative session"
+        ],
+        "1812": [
+            "Year of birth"
+        ],
+        "1898": [
+            "Year of death"
+        ]
+    }
+}

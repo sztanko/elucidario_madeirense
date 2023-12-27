@@ -1,0 +1,28 @@
+{
+    "id": 368,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Azinhal",
+    "fl": "A",
+    "original_title": "Azinhal",
+    "body": "Julgamos extinto este apelido entre nós. Um dos primeiros povoadores da Madeira foi Estevão do Azinhal, que em 1471 fazia parte da governança da então vila do Funchal.",
+    "categories": [
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Local onde Estevão do Azinhal fazia parte da governança"
+        ]
+    },
+    "people": {
+        "Estevão do Azinhal": [
+            "Povoador da Madeira"
+        ]
+    },
+    "years": {
+        "1471": [
+            "Participação na governança da vila do Funchal"
+        ]
+    }
+}

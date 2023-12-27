@@ -1,0 +1,29 @@
+{
+    "id": 3629,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vila",
+    "fl": "V",
+    "original_title": "Vila",
+    "body": "Sítio povoado da freguesia da Ribeira Brava, que era conhecido e ainda o é pelo nome de Lugar. Com a criação do concelho em 1914 e da vila no ano de 1928, passou então a chamar-se Vila, sendo nela instalada a sede do respectivo município (V. Ribeira Brava e mais artigos deste título).",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Freguesia da Ribeira Brava"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1914": [
+            "Criação do concelho"
+        ],
+        "1928": [
+            "Criação da vila"
+        ]
+    }
+}

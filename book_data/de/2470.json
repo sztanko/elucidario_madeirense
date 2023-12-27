@@ -1,0 +1,34 @@
+{
+    "id": 2470,
+    "lang": "de",
+    "is_original": false,
+    "title": "Unsere Liebe Frau der Darstellung (Kapelle)",
+    "fl": "U",
+    "original_title": "Nossa Senhora da Apresentação (Capela de)",
+    "body": "Der Ort der Gemeinde Ribeira Brava, heute bekannt als Lombo da Apresentação, bekam diesen Namen von der Kapelle, die dort stand und Unserer Lieben Frau der Darstellung geweiht war. Sie wurde im Jahr 1524 von Isabel Fernandes Tavares auf ihrem gebundenen Land, das sie dort besaß, gegründet. Diese Kapelle wurde später in das Haus der Familie Heredia integriert. Neben der Einsiedelei erhob sich eine prächtige Residenz, von der nicht einmal mehr Überreste übrig sind.",
+    "categories": [
+        "history",
+        "religion"
+    ],
+    "freguesias": [
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Ribeira Brava": [
+            "Gemeinde"
+        ],
+        "Lombo da Apresentação": [
+            "Ort"
+        ]
+    },
+    "people": {
+        "Isabel Fernandes Tavares": [
+            "Gründerin der Kapelle"
+        ]
+    },
+    "years": {
+        "1524": [
+            "Gründung der Kapelle durch Isabel Fernandes Tavares"
+        ]
+    }
+}

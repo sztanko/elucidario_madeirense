@@ -1,0 +1,40 @@
+{
+    "id": 2504,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Nossa Senhora dos Milagres (Capelas de)",
+    "fl": "N",
+    "original_title": "Nossa Senhora dos Milagres (Capelas de)",
+    "body": "Brás de Freitas da Silva construiu na freguesia do Monte, em terras do seu morgadio e no ano de 1661, uma capela consagrada á invocação de Nossa Senhora dos Milagres, e o anotador das Saudades faz menção duma capela do mesmo orago, fundada em 1662 por Pedro Ferreira de Mesquita, na freguesia da Ponta do Sol.",
+    "categories": [
+        "religion"
+    ],
+    "freguesias": [
+        "Monte",
+        "Ponta do Sol"
+    ],
+    "locations": {
+        "Monte": [
+            "Localizada na freguesia do Monte, em terras do morgadio de Brás de Freitas da Silva."
+        ],
+        "Ponta do Sol": [
+            "Localizada na freguesia da Ponta do Sol."
+        ]
+    },
+    "people": {
+        "Brás de Freitas da Silva": [
+            "Construtor da capela em 1661"
+        ],
+        "Pedro Ferreira de Mesquita": [
+            "Fundador da capela em 1662"
+        ]
+    },
+    "years": {
+        "1661": [
+            "Construção da capela"
+        ],
+        "1662": [
+            "Fundação da capela"
+        ]
+    }
+}

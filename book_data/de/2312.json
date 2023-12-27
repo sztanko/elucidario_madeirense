@@ -1,0 +1,32 @@
+{
+    "id": 2312,
+    "lang": "de",
+    "is_original": false,
+    "title": "Mittermaier (Dr. Carlos)",
+    "fl": "M",
+    "original_title": "Mittermaier (Dr. Carlos)",
+    "body": "Deutscher Arzt, der von 1852 bis 1854 in Funchal war und dort wertvolle meteorologische Beobachtungen anstellte. Veröffentlichung: Madeira und seine Bedeutung als Heilungsort; Heidelberg, 1855.",
+    "categories": [
+        "health",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Aufenthalt von Dr. Carlos Mittermaier"
+        ]
+    },
+    "people": {
+        "Dr. Carlos Mittermaier": [
+            "Führte wertvolle meteorologische Beobachtungen in Funchal durch"
+        ]
+    },
+    "years": {
+        "1852": [
+            "Dr. Carlos Mittermaier kam nach Funchal"
+        ],
+        "1854": [
+            "Dr. Carlos Mittermaier verließ Funchal"
+        ]
+    }
+}

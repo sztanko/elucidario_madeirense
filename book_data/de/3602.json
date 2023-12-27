@@ -1,0 +1,37 @@
+{
+    "id": 3602,
+    "lang": "de",
+    "is_original": false,
+    "title": "Vidal (Kapitän A. T. E.)",
+    "fl": "V",
+    "original_title": "Vidal (Capitão A. T. E.)",
+    "body": "> Besuchte 1842 und 1843 mit dem Dampfer Styx, dessen Kommandant er war, den Archipel von Madeira. Ihm verdanken wir die Erstellung einer Karte der Inseln Madeira, Porto Santo und Desertas, die 1843 veröffentlicht wurde. Kapitän Vidal von der britischen Kriegsmarine wurde bei seiner Arbeit sehr von Kapitän Antonio Pedro de Azevedo vom Ingenieurkorps unterstützt. Siehe Karten, geographische.",
+    "categories": [
+        "geography"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "1842 und 1843 besucht"
+        ],
+        "Porto Santo": [
+            "1842 und 1843 besucht"
+        ],
+        "Desertas": [
+            "1842 und 1843 besucht"
+        ]
+    },
+    "people": {
+        "Kapitän A. T. E. Vidal": [
+            "Kommandant des Dampfers Styx, verantwortlich für die Erstellung der Karte der Inseln Madeira, Porto Santo und Desertas"
+        ]
+    },
+    "years": {
+        "1842": [
+            "Besuch des Archipels Madeira"
+        ],
+        "1843": [
+            "Veröffentlichung der Karte der Inseln Madeira, Porto Santo und Desertas"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+{
+    "id": 255,
+    "lang": "en",
+    "is_original": false,
+    "title": "Areeiro",
+    "fl": "A",
+    "original_title": "Areeiro",
+    "body": "Not far from the well-known site of Poiso, but already in the interior mountains of the island, is the peak of Areeiro, which reaches an altitude of approximately 1,800 meters above sea level.\n\nWhen meteorological and climatological studies had not yet reached the level of development of our time, the idea of establishing one or more meteorological stations in the highest points of our mountains was awakened among us half a century ago. The observations from these stations, combined with those from the Meteorological Station of Funchal, would constitute valuable elements for the study of Madeira's climate and, in particular, for the comparative climatology of our land with that of other renowned health resorts.\n\nIn 1895, the central government ordered the construction of houses on the slopes of Pico do Areeiro for the installation of a meteorological station and the residence of the respective staff, with an expenditure of about five contos de reis, and the maintenance of the buildings was the responsibility of the Directorate of Public Works of the district.\n\nWith the creation of the Agricultural Board in 1911, the Meteorological Station of Areeiro became the responsibility of this administrative body, which in 1919 passed into the possession of the General Board of the District when the former was dissolved, leaving a sad memory in the pages of Madeiran history.\n\nHowever, after the construction of those houses, what had already been foreseen by many came to pass: the Station was not equipped with the necessary instruments, and the required staff was never appointed for its regular operation. The building, exposed to all the elements and the frequent gales that rage there in the winter season, soon began to be extensively damaged, soon falling into an advanced state of ruin. The vandalism of the woodcutter and the cattle herder completed the work of destruction that the storms had begun, without the beneficial action of the respective supervisory stations attempting to put an end to such criminal neglect. Thus, the former Directorate of Public Works, the Agricultural Board, and the General Board not only always showed the greatest disinterest in the operation of the Meteorological Station created by the government of the metropolis, but also allowed the constructions for that purpose to fall into ruin on one of the slopes of Pico do Areeiro.\n\nThe complaints of the press and even the good offices of certain official entities could not help them, and the matter became the subject of bitter irony in various foreign publications, particularly in a scientific journal from Middelburg, which stated that more attention was paid to the study of meteorology in Turkey than in Portugal, as there were no observatories without instruments or observers, as was the case in the Portuguese possession of the Island of Madeira.\n\nThe distinguished Madeiran Guilherme Teles de Menezes, who resided for several months in 1894 and 1895 in the areas of Poiso and Areeiro for health reasons, made several meteorological observations there, which were published in the press and received the most laudatory references from people knowledgeable in this field.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Poiso": [
+            "Well-known site"
+        ]
+    },
+    "people": {
+        "Guilherme Teles de Menezes": [
+            "Made meteorological observations"
+        ]
+    },
+    "years": {
+        "1895": [
+            "Construction of the meteorological station"
+        ],
+        "1911": [
+            "Creation of the Agricultural Board"
+        ],
+        "19l9": [
+            "Transition of the Meteorological Station to the possession of the General Board of the District"
+        ]
+    }
+}

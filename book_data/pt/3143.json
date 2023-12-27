@@ -1,0 +1,38 @@
+{
+    "id": 3143,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Sabão (Rua do)",
+    "fl": "S",
+    "original_title": "Sabão (Rua do)",
+    "body": "É uma das mais antigas ruas do Funchal e comunica a rua do Comercio ou dos Ferreiros com a rua da Alfândega. Em sessão da Câmara Municipal de 6 de Julho de 1922, foi-lhe dada a denominação um tanto vaga de «rua 17 de Junho de 1922», por ser esta data que os arrojados aviadores Gago Coutinho e Sacadura Cabral concluíram a sua viagem aérea entre Lisboa e o Rio de Janeiro.",
+    "categories": [
+        "history",
+        "transport"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Funchal": [
+            "Localidade na Madeira"
+        ],
+        "Rua do Comercio": [
+            "Rua no Funchal"
+        ],
+        "Rua da Alfândega": [
+            "Rua no Funchal"
+        ]
+    },
+    "people": {
+        "Gago Coutinho": [
+            "Aviador"
+        ],
+        "Sacadura Cabral": [
+            "Aviador"
+        ]
+    },
+    "years": {
+        "1922": [
+            "Conclusão da viagem aérea entre Lisboa e o Rio de Janeiro."
+        ]
+    }
+}

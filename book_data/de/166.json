@@ -1,0 +1,35 @@
+{
+    "id": 166,
+    "lang": "de",
+    "is_original": false,
+    "title": "Almeida (Paulo Dias de)",
+    "fl": "A",
+    "original_title": "Almeida (Paulo Dias de)",
+    "body": "Ingenieur und Korrespondent der Gesellschaft der Freunde der Wissenschaften und Künste in Funchal. Da er der konstitutionellen Partei angehörte, wurde er verhaftet und an Bord der Fregatte Príncipe D. Pedro geschickt, kurz nachdem der Gouverneur José Maria Monteiro auf dieser Insel angekommen war. Später wurde er als politischer Häftling, der von dem Gerichtshof verurteilt worden war, der 1828 auf diese Insel kam, an Bord der Schaluppe Orestes nach Lissabon geschickt.\n\nEr fertigte zu Beginn des 19. Jahrhunderts einen Gesamtplan der Insel Madeira an und hinterließ ein Manuskript mit dem Titel Beschreibung der Insel Madeira im Allgemeinen und einer jeden ihrer Kirchengemeinden, Städte und Orte im Besonderen, ihre Erzeugnisse, Anzahl der Haushalte und ihrer Bewohner; und derzeitiger Zustand ihrer Befestigungen; 1817. Dieses Manuskript wurde im Archivo da Marinha e Ultramar, Bd. II, mit Zeichnungen der Befestigungen, Figuren der Miliztruppen und Volksbräuchen veröffentlicht.\n\nNachdem er aus politischen Gründen zur Verbannung nach Afrika verurteilt worden war, starb er dort kurz vor 1834.",
+    "categories": [
+        "history",
+        "culture",
+        "politics"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Paulo Dias de Almeida": [
+            "Ingenieur und Korrespondent der Gesellschaft der Freunde der Wissenschaften und Künste in Funchal, politischer Häftling und Autor eines Manuskripts über Madeira"
+        ],
+        "José Maria Monteiro": [
+            "Gouverneur, der die Verhaftung von Paulo Dias de Almeida angeordnet hat"
+        ]
+    },
+    "years": {
+        "1828": [
+            "Paulo Dias de Almeida wurde verhaftet und als politischer Häftling nach Lissabon geschickt"
+        ],
+        "1817": [
+            "Paulo Dias de Almeida hinterließ ein Manuskript mit dem Titel Beschreibung der Insel Madeira"
+        ],
+        "1834": [
+            "Paulo Dias de Almeida starb kurz vor diesem Jahr im Exil in Afrika"
+        ]
+    }
+}

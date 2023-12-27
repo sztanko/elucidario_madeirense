@@ -1,0 +1,37 @@
+{
+    "id": 826,
+    "lang": "en",
+    "is_original": false,
+    "title": "Castelo de Paiva (Antonio da Costa Paiva, Baron of)",
+    "fl": "C",
+    "original_title": "Castelo de Paiva (Antonio da Costa Paiva, Barão de)",
+    "body": "This distinguished physician and naturalist was born in Porto on October 12, 1806, and died in Funchal on June 4, 1879. He was a bachelor of philosophy from the University of Coimbra, a doctor of medicine from the faculty of Paris, a lecturer at the Polytechnic Academy of Porto, and a member of the Academy of Sciences of Lisbon.\n\nHaving been commissioned by the Portuguese Government in 1855 to study the island of Madeira from an agricultural and economic point of view, he took the opportunity to make numerous botanical and zoological investigations throughout the archipelago, managing to organize a herbarium of 515 species, which he offered in 1863 to the Academy of Sciences of Lisbon, and an excellent collection of terrestrial shells. His Monographia Molluscorum terrestrium, fluvialium, lacustrium insularum Maderensium (Lisbon, 1867) is, in the opinion of distinguished specialists, the most accurate and conscientious work that has been published on the malacology of our archipelago.\n\nThe Baron of Castelo de Paiva also visited the Canary Islands, where he made various botanical, malacological, and entomological observations. The herbarium he organized in those islands is currently, as well as that of Madeira, at the Faculty of Sciences of the University of Lisbon.\n\nIn addition to the aforementioned Monographia, he wrote a report, of 11 pages, dealing with Madeira from an agricultural and economic point of view (Lisbon, 1855) and the following scientific works: Notice of the discovery of two new mollusks and also of the living types of two fossil species of the Madeiran archipelago (Annals and Mag. of Nat. Hist, 1862), Description of a new Sempervivum from the Salvage Island (Seeman’s Journ. Bot., 1866), Description of two new species of terrestrial mollusks from the archipelago of Madeira (Journ. de Conchyl, VI , 1866), etc . .",
+    "categories": [
+        "biology",
+        "history"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Antonio da Costa Paiva": [
+            "Physician and naturalist"
+        ]
+    },
+    "years": {
+        "1806": [
+            "Birth of Antonio da Costa Paiva"
+        ],
+        "1855": [
+            "Commissioned to study the island of Madeira"
+        ],
+        "1863": [
+            "Offered herbarium to the Academy of Sciences of Lisbon"
+        ],
+        "1867": [
+            "Publication of Monographia Molluscorum terrestrium, fluvialium, lacustrium insularum Maderensium"
+        ],
+        "1879": [
+            "Death of Antonio da Costa Paiva"
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "id": 421,
+    "lang": "de",
+    "is_original": false,
+    "title": "Barcelos (Pico dos)",
+    "fl": "B",
+    "original_title": "Barcelos. (Pico dos)",
+    "body": "Besiedelter Ort der Gemeinde Santo Antonio do Funchal. Bekannt unter dem gleichen Namen, erhebt sich dort ein kleiner Hügel, der heute eine obligatorische Touristenattraktion auf Madeira ist. Die Ländereien, die sich weitläufig vom Kap Garajau bis zum Cabo Girão erstrecken, bilden ein riesiges Halbrund, in dessen Durchmesser und in der Mitte dieser Erhebung der Pico dos Barcelos liegt, von wo aus man eine der attraktivsten und schönsten Aussichten hat, die man einem Besucher bieten kann. Die 1917 gebaute Straße erleichtert den Zugang zu diesem Ort, der fast stündlich von zahlreichen einheimischen und ausländischen Besuchern frequentiert wird. Es scheint, dass dieser Ort seinen Namen von Diogo Barcelos bekommen hat, einem der ersten Siedler, der dort einige Ländereien besaß.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Santo Antonio do Funchal"
+    ],
+    "locations": {
+        "Pico dos Barcelos": [
+            "Obligatorische Touristenattraktion auf Madeira"
+        ]
+    },
+    "people": {
+        "Diogo Barcelos": [
+            "Einer der ersten Siedler, der dort einige Ländereien besaß"
+        ]
+    },
+    "years": {
+        "1917": [
+            "Bau der Straße, die dorthin führt"
+        ]
+    }
+}

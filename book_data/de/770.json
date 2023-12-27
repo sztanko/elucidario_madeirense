@@ -1,0 +1,28 @@
+{
+    "id": 770,
+    "lang": "de",
+    "is_original": false,
+    "title": "Cardot (J.) E.",
+    "fl": "C",
+    "original_title": "Cardot (J.) E.",
+    "body": "Über Moose, die 1897 von William Trelease auf Madeira gesammelt wurden (Eight Annual Report of Missouri Bot. Gard. 1897).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Madeira": [
+            "Sammelort"
+        ]
+    },
+    "people": {
+        "William Trelease": [
+            "Sammler"
+        ]
+    },
+    "years": {
+        "1897": [
+            "Sammeljahr"
+        ]
+    }
+}

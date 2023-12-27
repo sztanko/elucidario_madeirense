@@ -1,0 +1,68 @@
+{
+    "id": 3634,
+    "lang": "pt",
+    "is_original": true,
+    "title": "Vilas",
+    "fl": "V",
+    "original_title": "Vilas",
+    "body": "As primeiras localidades deste arquipélago que, pelo seu desenvolvimento e por servirem de sede às três capitanias, foram elevadas á categoria de vilas tenham os nomes de\n\n> Funchal\n\n, (II-59),\n\n> Machico\n\n, (II-298) e\n\n> Baleira\n\n (I -117). Apesar do seu trabalho de investigação, não conseguiu o erudito comentador das Saudades da Terra descobrir os diplomas dessa criação e nem ainda as datas precisas em que ela se deu, mas conjectura com as mais seguras probabilidades que tivesse sido pelo ano de 1451, como já ficou referido nos artigos referentes a essas vilas. A do Funchal, que pela sua situação, clima, feracidade do solo, amplidão do porto e ainda outras apreciáveis circunstancias, atingiu em breve um desusado desenvolvimento populacional, foi elevada á categoria de cidade pelo alvará régio de 21 de Agosto de 1508, que ficou trasladado a páginas 61 do volume II desta obra.\n\nO alvará de 2 de Dezembro de 1501 criou a vila e município da Ponta do Sol, que estendia a sua área desde a freguesia da Tabua á das Achadas da Cruz (Vid. III-99), ficando em breve reduzida a bem limitadas proporções com a elevação da freguesia da Calheta a\n\nA freguesia de Santa Cruz, que logo rivalizou com a de Machico, passou a constituir um município com foros de vila pelo alvará altura de vila e de município pelo alvará régio de 1 de Julho de 1502 (Vid. I-191). régio de 26 de Junho de 1515, apesar da oposição levantada pela comarca de Machico e pelo chefe desta capitania (Vid. III-246).\n\nAs constantes reclamações de várias freguesias da costa setentrional da Madeira determinaram a criação da Vila de São Vicente, com sede na freguesia deste nome, em virtude da carta regia de 25 de Agosto de 1744, embora o município de Machico, tivesse oferecido sérias dificuldades a essa criação (Vid III-282).\n\nO concelho da Ribeira Brava, com sede nesta paróquia, foi criado pelo decreto de 6 de Maio de 1914 e a respectiva vila pelo decreto de 26 de Março de 1929, sendo esta a oitava e ultima vila estabelecida neste arquipélago.",
+    "categories": [
+        "geography",
+        "history"
+    ],
+    "freguesias": [
+        "Tabua",
+        "Achadas da Cruz",
+        "Calheta",
+        "São Vicente",
+        "Ribeira Brava"
+    ],
+    "locations": {
+        "Funchal": [
+            "Situação, clima, feracidade do solo, amplidão do porto"
+        ],
+        "Ponta do Sol": [
+            "Área desde a freguesia da Tabua á das Achadas da Cruz"
+        ],
+        "Santa Cruz": [
+            "Rivalizou com a de Machico"
+        ],
+        "São Vicente": [
+            "Costa setentrional da Madeira"
+        ],
+        "Ribeira Brava": [
+            "Sede nesta paróquia"
+        ]
+    },
+    "people": {
+        "Erudito comentador das Saudades da Terra": [
+            "Descobrir os diplomas dessa criação e nem ainda as datas precisas em que ela se deu"
+        ]
+    },
+    "years": {
+        "1451": [
+            "Conjectura com as mais seguras probabilidades que tivesse sido pelo ano de 1451"
+        ],
+        "1508": [
+            "Foi elevada á categoria de cidade pelo alvará régio de 21 de Agosto de 1508"
+        ],
+        "1501": [
+            "Alvará de 2 de Dezembro de 1501"
+        ],
+        "1502": [
+            "Pelo alvará régio de 1 de Julho de 1502"
+        ],
+        "1515": [
+            "Alvará régio de 26 de Junho de 1515"
+        ],
+        "1744": [
+            "Carta regia de 25 de Agosto de 1744"
+        ],
+        "1914": [
+            "Criado pelo decreto de 6 de Maio de 1914"
+        ],
+        "1929": [
+            "Pelo decreto de 26 de Março de 1929"
+        ]
+    }
+}

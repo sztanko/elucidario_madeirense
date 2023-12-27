@@ -1,0 +1,34 @@
+{
+    "id": 1928,
+    "lang": "ru",
+    "is_original": false,
+    "title": "Лангерханс (д-р Пауль)",
+    "fl": "Л",
+    "original_title": "Langerhans (Dr. Paul)",
+    "body": "Он занимался червями Мадейры в Zeitschrift für wissenschaftliche Zoologie (1879-1884) и написал небольшую книгу под названием Handbuch fur Madeira (Берлин, 1884).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Остров"
+        ],
+        "Берлин": [
+            "Город"
+        ]
+    },
+    "people": {
+        "Д-р Пауль Лангерханс": [
+            "Ученый"
+        ]
+    },
+    "years": {
+        "1879-1884": [
+            "Публикация статей о червях Мадейры"
+        ],
+        "1884": [
+            "Публикация книги Handbuch fur Madeira"
+        ]
+    }
+}
