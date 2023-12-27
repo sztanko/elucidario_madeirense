@@ -39,7 +39,6 @@ export function makeStaticProps (
 
     // Get extra static props
     const extraProps = await getExtraProps(ctx)
-
     return {
       props: {
         ...i18nProps,

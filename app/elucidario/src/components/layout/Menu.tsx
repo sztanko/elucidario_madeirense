@@ -1,8 +1,12 @@
 import { HStack, Box } from '@chakra-ui/react'
-import { LoLink } from './LoLink'
+
+import { useTranslation } from 'next-i18next'
+import { LoLink } from '../LoLink'
+
 
 export const Menu = () => {
-  const menuItems = [
+  const {t} = useTranslation('menu')
+  const menuConfig = [
     {
       label: 'home',
       link: '/'
@@ -12,7 +16,7 @@ export const Menu = () => {
       link: '/articles'
     },
     {
-      label: 'about_the_author',
+      label: 'about_author',
       link: '/about/author'
     },
     {
@@ -21,16 +25,16 @@ export const Menu = () => {
     }
   ]
 
-  const items = menuItems.map(item => {
+  const menuItems = menuConfig.map(item => {
     return (
       <Box flex={1} key={item.label} textAlign={"center"}>
-        <LoLink href={item.link}>{item.label}</LoLink>
+        <LoLink href={item.link}>{t(item.label)}</LoLink>
       </Box>
     )
   })
   return (
     <HStack width='100%' spacing={4} justifyContent={"space-around"}>
-      {items}
+      {menuItems}
     </HStack>
   )
 }

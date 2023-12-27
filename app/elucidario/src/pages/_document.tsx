@@ -19,7 +19,6 @@ export default function Document (props) {
           backgroundSize: '100% auto'
         }}
       >
-        
         <Main />
         <NextScript />
       </body>

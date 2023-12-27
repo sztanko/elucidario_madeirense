@@ -1,18 +1,16 @@
 import Head from 'next/head'
 import { Heading, Text } from '@chakra-ui/react'
-import { getStaticPaths, makeStaticProps } from '../../lib/i18n/getStatic'
 import { useTranslation } from 'next-i18next' // or your i18n library's hook
+import { getStaticPaths, makeStaticProps } from '../../lib/i18n/getStatic'
+import { AppLayout } from '@/components/layout/AppLayout'
 
+const createSearchIndex = async () => {}
 
-const createSearchIndex = async () => {
-
-}
-
-const getStaticProps = makeStaticProps(['common'])
+const getStaticProps = makeStaticProps(['common', 'menu'])
 export { getStaticPaths, getStaticProps }
 
 export default function Home () {
-  const { t } = useTranslation('common') // 'common' is a namespace for your translations
+  const { t } = useTranslation('common')
 
   return (
     <>
@@ -22,16 +20,12 @@ export default function Home () {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
-
-      <Heading mb='2' as={'h1'} textAlign={'center'}>
-      Elucidário Madeirense
-      </Heading>
-      <Text>
-        Explore the rich history and culture of Madeira through a comprehensive
-        collection of articles. Start browsing through various topics on flora,
-        fauna, geography, and notable figures of Madeira from 1920-ies.
-      </Text>
-      
+      <AppLayout>
+        <Heading mb='2' as={'h1'} textAlign={'center'}>
+          Elucidário Madeirense
+        </Heading>
+        <Text>{t('meta_description')}</Text>
+      </AppLayout>
     </>
   )
 }

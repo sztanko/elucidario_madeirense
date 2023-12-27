@@ -7,6 +7,7 @@ import path from 'path'
 import { makeStaticProps } from '@/lib/i18n/getStatic'
 import { Article } from '@/components/article/Article'
 import { ArticleData } from '@/models/ArticleData'
+import { AppLayout } from '@/components/layout/AppLayout'
 
 const getExtraProps = async (ctx: GetStaticPropsContext) => {
   const { id } = ctx.params
@@ -66,5 +67,5 @@ const getStaticProps = makeStaticProps(['common'], getExtraProps)
 export { getStaticPaths, getStaticProps }
 
 export default function Index ({ article }) {
-  return <Article article={article} />
+  return <AppLayout><Article article={article} /></AppLayout>
 }
