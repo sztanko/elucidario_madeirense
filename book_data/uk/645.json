@@ -1,0 +1,27 @@
+{
+    "id": 645,
+    "lang": "uk",
+    "is_original": false,
+    "title": "Причал Рібейра-Брава",
+    "fl": "П",
+    "original_title": "Cais da Ribeira Brava",
+    "body": "Був побудований тією ж корпорацією з 1904 по 1908 рік.",
+    "categories": [
+        "architecture"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Ribeira Brava": [
+            "Будівництво причалу"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Початок будівництва"
+        ],
+        "1908": [
+            "Завершення будівництва"
+        ]
+    }
+}

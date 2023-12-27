@@ -1,0 +1,36 @@
+{
+    "id": 1980,
+    "lang": "uk",
+    "is_original": false,
+    "title": "Левейє (Гектор)",
+    "fl": "Л",
+    "original_title": "Léveillê (Hector)",
+    "body": "Видатний французький ботанік, народився 13 березня 1863 року і помер у Мансі 25 листопада 1918 року. Про мадейрську флору він написав такі роботи: Les Onotheracées de Madère (Le Monde des Plantes, жовтень 1896 р.); A propos de deux plantes de Madere (Те ж, жовтень 1897 р.); та Les Renonculacées, Geraniacées et Haloragées de Madere (Те ж, лютий 1898 р.).\n\nВін не відвідував Мадейру, отримавши від одного з авторів цього Пояснювального словника необхідні матеріали для досліджень, які він провів щодо флори цього острова.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [],
+    "locations": {},
+    "people": {
+        "Гектор Левейє": [
+            "Ботанік"
+        ]
+    },
+    "years": {
+        "1863": [
+            "Народження"
+        ],
+        "1918": [
+            "Смерть"
+        ],
+        "1896": [
+            "Публікація Les Onotheracées de Madère"
+        ],
+        "1897": [
+            "Публікація A propos de deux plantes de Madere"
+        ],
+        "1898": [
+            "Публікація Les Renonculacées, Geraniacées et Haloragées de Madere"
+        ]
+    }
+}

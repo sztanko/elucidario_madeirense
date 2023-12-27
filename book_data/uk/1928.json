@@ -1,0 +1,34 @@
+{
+    "id": 1928,
+    "lang": "uk",
+    "is_original": false,
+    "title": "Лангерганс (доктор Пауль)",
+    "fl": "Л",
+    "original_title": "Langerhans (Dr. Paul)",
+    "body": "Вивчав черв'яків Мадейри в Zeitschrift für wissenschaftliche Zoologie (1879-1884) та написав невелику книгу під назвою Handbuch fur Madeira (Берлін, 1884).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Острів"
+        ],
+        "Берлін": [
+            "Місто"
+        ]
+    },
+    "people": {
+        "Доктор Пауль Лангерганс": [
+            "Вчений"
+        ]
+    },
+    "years": {
+        "1879-1884": [
+            "Публікація статей про черв'яків Мадейри"
+        ],
+        "1884": [
+            "Публікація книги Handbuch fur Madeira"
+        ]
+    }
+}

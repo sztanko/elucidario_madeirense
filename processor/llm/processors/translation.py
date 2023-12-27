@@ -24,7 +24,7 @@ LANGUAGES = {
     "en": "English",
     "fr": "French",
     "de": "German",
-    "ua": "Ukrainian",
+    "uk": "Ukrainian",
     "ru": "Russian",
     "it": "Italian",
 }
@@ -33,7 +33,7 @@ ENGINES = {
     "en": GPT4Engine,
     "fr": ClaudeEngine,
     "de": ClaudeEngine,
-    "ua": ClaudeEngine,
+    "uk": ClaudeEngine,
     "ru": ClaudeEngine,
     "it": ClaudeEngine,
 }

@@ -1,0 +1,29 @@
+{
+    "id": 1177,
+    "lang": "uk",
+    "is_original": false,
+    "title": "Доде (Л. А.)",
+    "fl": "Д",
+    "original_title": "Dode (L. A.)",
+    "body": "Французький ботанік, який написав у Bulletin de la Societé Dendrologique de France 1907 року роботу під назвою «Un nouveau Sorbus».\n\nЦей новий Sorbus - це S. maderensis, який знаходиться біля піку Арієйру тощо.",
+    "categories": [
+        "biology",
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Пік Арієйру": [
+            "Місце, де знаходиться Sorbus maderensis, описаний ботаніком Л.А. Доде."
+        ]
+    },
+    "people": {
+        "Л.А. Доде": [
+            "Французький ботанік, який описав Sorbus maderensis."
+        ]
+    },
+    "years": {
+        "1907": [
+            "Публікація роботи «Un nouveau Sorbus» Л.А. Доде у Bulletin de la Societé Dendrologique de France."
+        ]
+    }
+}

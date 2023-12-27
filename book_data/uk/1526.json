@@ -1,0 +1,27 @@
+{
+    "id": 1526,
+    "lang": "uk",
+    "is_original": false,
+    "title": "Гагель (доктор К.)",
+    "fl": "Г",
+    "original_title": "Gagel (Dr. C.)",
+    "body": "Німецький геолог та палеонтолог, який відвідав Мадейру на початку XX століття. Опублікував: Ein Ausflug Nach Madeira, Берлін, 1904 рік, Geologische Beobachtungen auf Madeira, Die mtittelatlantischen Vulkaninseln (включено до Handbuch der regionalen Geologie) та Beitrage zur Kenntnis der insel Selvagem Grande (опубліковано в Neuen Jahr.für Miner. Geol. und. Palaont., 1911).",
+    "categories": [
+        "science"
+    ],
+    "freguesias": [],
+    "locations": {
+        "Мадейра": [
+            "Острів в Атлантичному океані"
+        ]
+    },
+    "people": {},
+    "years": {
+        "1904": [
+            "Відвідини доктором К. Гагелем Мадейри"
+        ],
+        "1911": [
+            "Публікація Beitrage zur Kenntnis der insel Selvagem Grande"
+        ]
+    }
+}

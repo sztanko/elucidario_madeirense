@@ -1,0 +1,22 @@
+{
+    "id": 1826,
+    "lang": "uk",
+    "is_original": false,
+    "title": "Ботанічний сад",
+    "fl": "Б",
+    "original_title": "Jardim Botânico",
+    "body": "Місце у парафії Монте, де на початку минулого століття існував розплідник рослин, відомий під назвою Ботанічний сад.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "Monte"
+    ],
+    "locations": {
+        "Монте": [
+            "Парафія"
+        ]
+    },
+    "people": {},
+    "years": {}
+}

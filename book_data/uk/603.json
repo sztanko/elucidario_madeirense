@@ -1,0 +1,33 @@
+{
+    "id": 603,
+    "lang": "uk",
+    "is_original": false,
+    "title": "Чагарник Роша",
+    "fl": "Ч",
+    "original_title": "Buxo da Rocha",
+    "body": "Мадейрці дають цю назву Catha Dryandri, чагарнику з родини Celastraceae, і Chamaemeles coriácea, чагарнику з родини Rosaceae. Перший з цих чагарників зустрічається в Сан-Гонсалу, Сейшалі тощо; другий - поблизу психіатричної лікарні Камара Пештана, Прая-Формоза тощо.",
+    "categories": [
+        "biology"
+    ],
+    "freguesias": [
+        "S. Gonçalo",
+        "Seixal",
+        "Praia Formosa"
+    ],
+    "locations": {
+        "Сан-Гонсалу": [
+            "Місце, де знаходиться чагарник Catha Dryandri"
+        ],
+        "Сейшал": [
+            "Місце, де знаходиться чагарник Catha Dryandri"
+        ],
+        "Психіатрична лікарня Камара Пештана": [
+            "Місце, де знаходиться чагарник Chamaemeles coriácea"
+        ],
+        "Прая-Формоза": [
+            "Місце, де знаходиться чагарник Chamaemeles coriácea"
+        ]
+    },
+    "people": {},
+    "years": {}
+}
