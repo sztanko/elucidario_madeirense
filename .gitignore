@@ -1,5 +1,5 @@
 .venv
-.env
+/.env
 .pyc
 .pyo
 __pycache__
@@ -9,3 +9,6 @@ articles/*
 articles*/*
 translations/*
 submit_log
+
+# dependencies
+node_modules
