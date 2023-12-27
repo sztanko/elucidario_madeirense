@@ -1,0 +1,30 @@
+name: Deploy Next.js App to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Set your default branch
+    paths:
+      - 'app/elucidario/**'
+      - 'book_data/**'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Dependencies
+        run: npm install
+        working-directory: ./app/elucidario
+
+      - name: Build
+        run: npm run build
+        working-directory: ./app/elucidario
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./app/elucidario/out  # Adjust based on Next.js out directory
