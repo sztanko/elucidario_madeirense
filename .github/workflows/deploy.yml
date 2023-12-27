@@ -5,6 +5,7 @@ on:
     branches:
       - main  # Set your default branch
     paths:
+      - .github/workflows/deploy.yml  # Enable this workflow only when the file changes
       - 'app/elucidario/**'
       - 'book_data/**'
 
@@ -16,7 +17,7 @@ permissions:
 
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -33,12 +34,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./app/elucidario/out
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./app/elucidario/out  # Adjust based on Next.js out directory
 
   # Deployment job
   deploy:
