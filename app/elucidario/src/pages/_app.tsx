@@ -5,7 +5,7 @@ import { Platform } from '../components/Platform'
 import { Menu } from '../components/Menu'
 import theme from '../theme/theme' // Adjust the import path to where your theme file is located
 
-function MyApp ({ Component, pageProps }) {
+function App ({ Component, pageProps }) {
   return (
     <ChakraProvider theme={theme}>
       <Container maxW='container.xxl' centerContent>
@@ -22,4 +22,4 @@ function MyApp ({ Component, pageProps }) {
   )
 }
 
-export default MyApp
+export default App
