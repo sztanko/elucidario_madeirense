@@ -27,15 +27,13 @@ export async function getI18nProps (ctx, ns = ['common']) {
 }
 
 export function makeStaticProps (
-  ns = [],
-  // getExtraProps = async () => ({})
   getExtraProps: (
     ctx: GetStaticPropsContext
   ) => Promise<{ [key: string]: any }> = async () => ({})
 ): GetStaticProps {
   return async function getStaticProps (ctx) {
     // Get the i18n props
-    const i18nProps = await getI18nProps(ctx, ns)
+    const i18nProps = await getI18nProps(ctx, ['common', 'menu'])
 
     // Get extra static props
     const extraProps = await getExtraProps(ctx)

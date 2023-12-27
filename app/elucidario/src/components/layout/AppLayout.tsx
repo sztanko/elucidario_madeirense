@@ -10,7 +10,7 @@ export const AppLayout = ({ children }) => {
           <Menu/>
         </Platform>
       </Container>
-      <Container w='4xxl' maxW='container.xl' centerContent>
+      <Container w='xxl' maxW='container.xl' centerContent>
         <Platform mt={4}>{children}</Platform>
       </Container>
     </>

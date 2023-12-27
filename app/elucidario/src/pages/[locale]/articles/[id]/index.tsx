@@ -6,25 +6,14 @@ import path from 'path'
 
 import { makeStaticProps } from '@/lib/i18n/getStatic'
 import { Article } from '@/components/article/Article'
-import { ArticleData } from '@/models/ArticleData'
 import { AppLayout } from '@/components/layout/AppLayout'
+import { loadArticle } from '@/lib/search/dataUtils'
 
 const getExtraProps = async (ctx: GetStaticPropsContext) => {
-  const { id } = ctx.params
-  const locale = ctx.params.locale as string;
-  // Get ARTICLES_PATH from environment variables
-  // console.info('process.env.ARTICLES_PATH', process.env.ARTICLES_PATH)
-  const articlesPath = process.env.ARTICLES_PATH
-  try {
-    const filePath = path.join(articlesPath, locale, `${id}.json`)
-    const jsonData = await fsp.readFile(filePath, 'utf8')
-    const article: ArticleData = JSON.parse(jsonData)
-
-    return { article }
-  } catch (error) {
-    console.error('Failed to load article data', error)
-    return { error: 'Failed to load article data' }
-  }
+  const id = ctx.params.id as string
+  const locale = ctx.params.locale as string
+  const { article } = await loadArticle(id, locale)
+  return { article, locale }
 }
 
 const getStaticPaths = async () => {
@@ -63,9 +52,13 @@ const getStaticPaths = async () => {
   }
 }
 
-const getStaticProps = makeStaticProps(['common'], getExtraProps)
+const getStaticProps = makeStaticProps(getExtraProps)
 export { getStaticPaths, getStaticProps }
 
 export default function Index ({ article }) {
-  return <AppLayout><Article article={article} /></AppLayout>
+  return (
+    <AppLayout>
+      <Article article={article} />
+    </AppLayout>
+  )
 }
