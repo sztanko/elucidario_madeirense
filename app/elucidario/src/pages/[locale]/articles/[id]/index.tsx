@@ -1,59 +1,21 @@
 import Head from 'next/head'
 import { GetStaticPropsContext } from 'next'
-import * as fsp from 'fs/promises'
-import fs from 'fs'
-import path from 'path'
+import { getAllArticlePaths } from '@/lib/search/dataUtils'
 
 import { makeStaticProps } from '@/lib/i18n/getStatic'
 import { Article } from '@/components/article/Article'
 import { AppLayout } from '@/components/layout/AppLayout'
 import { loadArticle } from '@/lib/search/dataUtils'
 
-const getExtraProps = async (ctx: GetStaticPropsContext) => {
+const getArticleProps = async (ctx: GetStaticPropsContext) => {
   const id = ctx.params.id as string
   const locale = ctx.params.locale as string
   const { article } = await loadArticle(id, locale)
   return { article, locale }
 }
 
-const getStaticPaths = async () => {
-  const articlesPath = process.env.ARTICLES_PATH
-  // console.info('articlesPath', articlesPath)
-  // Directories only
-  const directoryNames = fs
-    .readdirSync(articlesPath)
-    .filter(fileName =>
-      fs.statSync(path.join(articlesPath, fileName)).isDirectory()
-    )
-  // console.info('directoryNames', directoryNames)
-  let paths = []
-
-  for (const dir of directoryNames) {
-    const fullPath = path.join(articlesPath, dir)
-    const fileNames = fs.readdirSync(fullPath)
-
-    const ids = fileNames
-      .filter(fileName => fileName.endsWith('.json')) // Ensure only JSON files
-      .map(fileName => fileName.replace('.json', '')) // Remove the .json extension to get ID
-
-    const localePaths = ids.map(id => ({
-      params: {
-        locale: dir, // the directory name is the locale
-        id: id // the file name (without .json) is the id
-      }
-    }))
-
-    paths = [...paths, ...localePaths]
-  }
-
-  return {
-    paths: paths,
-    fallback: false // can be true, false or 'blocking'
-  }
-}
-
-const getStaticProps = makeStaticProps(getExtraProps)
-export { getStaticPaths, getStaticProps }
+const getStaticProps = makeStaticProps(getArticleProps)
+export { getAllArticlePaths as getStaticPaths, getStaticProps }
 
 export default function Index ({ article }) {
   return (

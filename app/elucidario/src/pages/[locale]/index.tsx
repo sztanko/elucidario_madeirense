@@ -3,12 +3,12 @@ import { Heading, Text } from '@chakra-ui/react'
 import { useTranslation } from 'next-i18next' // or your i18n library's hook
 import { getStaticPaths, makeStaticProps } from '../../lib/i18n/getStatic'
 import { AppLayout } from '@/components/layout/AppLayout'
-// import { loadArticleIndex } from '@/lib/search/dataUtils'
-import { createSearchIndex } from '@/lib/search/fuseUtils'
+import { loadArticleIndex } from '@/lib/search/dataUtils'
+// import { createSearchIndex } from '@/lib/search/fuseUtils'
 
 const createSearchIndexProps = async ctx => {
   const { locale } = ctx.params
-  const { loadArticleIndex } = require('@/lib/search/dataUtils')
+  // const { loadArticleIndex } = require('@/lib/search/dataUtils')
   const {articleIndex} = await loadArticleIndex(locale)
   // const searchIndex = createSearchIndex(articleIndex)
   return { articleIndex, locale }
