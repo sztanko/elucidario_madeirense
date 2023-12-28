@@ -39,9 +39,11 @@ export function makeStaticProps (
     const extraProps = await getExtraProps(ctx)
     return {
       props: {
+        locale: ctx?.params?.locale,
         ...i18nProps,
         ...extraProps // Merge the extra props
       }
     }
   }
 }
+

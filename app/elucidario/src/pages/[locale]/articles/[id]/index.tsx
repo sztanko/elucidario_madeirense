@@ -17,9 +17,10 @@ const getArticleProps = async (ctx: GetStaticPropsContext) => {
 const getStaticProps = makeStaticProps(getArticleProps)
 export { getAllArticlePaths as getStaticPaths, getStaticProps }
 
-export default function Index ({ article }) {
+export default function Index ({ article, locale }) {
+  console.info('locale', locale)
   return (
-    <AppLayout>
+    <AppLayout locale={locale}>
       <Article article={article} />
     </AppLayout>
   )

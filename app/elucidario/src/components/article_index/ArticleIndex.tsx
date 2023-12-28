@@ -39,9 +39,10 @@ export function ArticleIndex ({ articleIndex, locale }: ArticleIndexProps) {
     ))
     .value()
   // const people
+  //<HStack justifyContent={'space-around'}>{letterLinks}</HStack>
   return (
     <Box>
-      <HStack justifyContent={'space-around'}>{letterLinks}</HStack>
+      <HStack justifyContent={'space-around'} flexWrap='wrap'>{letterLinks}</HStack>
       <Divider borderColor='#333' mt={3} mb={3} />
       <VStack spacing={6} color={'#888'} mb={4} justifyContent={'flex-end'}>
         {letterComponents}

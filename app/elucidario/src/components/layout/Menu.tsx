@@ -2,10 +2,10 @@ import { HStack, Box } from '@chakra-ui/react'
 
 import { useTranslation } from 'next-i18next'
 import { LoLink } from '../LoLink'
+import { SearchBox } from '../search/SearchBox'
 
-
-export const Menu = () => {
-  const {t} = useTranslation('menu')
+export const Menu = ({ locale }) => {
+  const { t } = useTranslation('menu')
   const menuConfig = [
     {
       label: 'home',
@@ -27,14 +27,17 @@ export const Menu = () => {
 
   const menuItems = menuConfig.map(item => {
     return (
-      <Box flex={1} key={item.label} textAlign={"center"}>
+      <Box flex={1} key={item.label} textAlign={'center'}>
         <LoLink href={item.link}>{t(item.label)}</LoLink>
       </Box>
     )
   })
   return (
-    <HStack width='100%' spacing={4} justifyContent={"space-around"}>
+    <HStack width='100%' spacing={4} justifyContent={'space-around'}>
       {menuItems}
+      <Box width='25%'>
+        <SearchBox dataUrl={`/index/index_${locale}.json`} />
+      </Box>
     </HStack>
   )
 }

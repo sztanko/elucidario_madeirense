@@ -7,7 +7,6 @@ import typer
 import logging
 import re
 from processor.constants import CATEGORY_MAP
-from processor.ebook.epub import EpubWriter
 
 # Configure logging
 logging.basicConfig(
@@ -137,8 +136,9 @@ def main(
         ebook_path_lang = output_path / "ebook" / lang
         os.makedirs(lang_path, exist_ok=True)
         os.makedirs(ebook_path_lang, exist_ok=True)
-        full_book = EpubWriter("full", lang, f"Elucidario Madeirense {lang}")
+        # full_book = EpubWriter("full", lang, f"Elucidario Madeirense {lang}")
         index = []
+        full_index = []
         for id, article in article_map.items():
             item = {
                 "id": id,
@@ -168,6 +168,7 @@ def main(
                 "people": article["translations"][lang]["people"],
                 "years": article["translations"][lang]["years"],
             }
+            full_index.append(art)
             # book = EpubWriter(id, lang, article["title"])
             # book.add_chapter(article["title"], article["body"])
             # full_book.add_chapter(article["title"], article["body"])
@@ -185,6 +186,12 @@ def main(
             # logging.info(f"Writing to {filename}")
             json.dump(index, f, indent=4, ensure_ascii=False)
             logging.info(f"Written {len(index)} articles to index {index_filename}")
+        
+        full_index_filename = output_path / f"index_full_{lang}.json"
+        with open(full_index_filename, "w") as f:
+            # logging.info(f"Writing to {filename}")
+            json.dump(full_index, f, ensure_ascii=False)
+            logging.info(f"Written {len(article_map)} articles to index {full_index_filename}")
         # full_book.generate_toc()
         # full_book.write_book(ebook_path / f"elucidario_madeirense_{lang}.epub")
 
