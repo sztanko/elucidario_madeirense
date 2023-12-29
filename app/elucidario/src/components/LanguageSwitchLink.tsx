@@ -13,7 +13,8 @@ const LanguageSwitchLink = ({ locale, children, ...rest }) => {
       pName = pName.replace(`[${k}]`, locale)
       return
     }
-    pName = pName.replace(`[${k}]`, router.query[k])
+    const localeValue = router.query[k] as string
+    pName = pName.replace(`[${k}]`, localeValue)
   })
   if (locale) {
     href = rest.href ? `/${locale}${rest.href}` : pName
