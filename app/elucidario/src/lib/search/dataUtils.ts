@@ -9,13 +9,14 @@ export const loadArticleIndex = async locale => {
   try {
     const filePath = path.join(articlesPath, `index_${locale}.json`)
     const jsonData = await fs.readFile(filePath, 'utf8')
-    const articleIndexRaw = JSON.parse(jsonData) as ArticleIndexItem[]
-    const articleIndex = articleIndexRaw.map(a => ({
+    const articleIndex = JSON.parse(jsonData) as ArticleIndexItem[]
+    /*const articleIndex = articleIndexRaw.map(a => ({
       title: a.title,
       id: a.id,
       original_title: a.original_title,
-      fl: a.fl
-    }))
+      fl: a.fl,
+      length: a.length,
+    }))*/
     // console.info('loadArticleIndex', articleIndex)
     return { articleIndex, locale }
   } catch (error) {

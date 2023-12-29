@@ -1,5 +1,5 @@
 import { useTranslation } from 'next-i18next'
-import { Box, Heading, Text, HStack } from '@chakra-ui/react'
+import { Box, Heading, Text, HStack, Tag} from '@chakra-ui/react'
 import { size } from 'lodash'
 import { MarkdownRenderer } from '../MarkdownRenderer'
 import { EnumList } from './EnumList'
@@ -13,12 +13,12 @@ type ArticleProps = {
 export function Article ({ article }: ArticleProps) {
   const { t } = useTranslation('common')
   const categories = article.categories.map(category => (
-    <Text key={category}>{t(category)}</Text>
+    <Tag key={category}>{t(category)}</Tag>
   ))
 
   // const people
   return (
-    <Box>
+    <Box maxWidth={'900px'}>
       <HStack spacing={6} color={'#888'} mb={4} justifyContent={'flex-end'}>
         {categories}
       </HStack>

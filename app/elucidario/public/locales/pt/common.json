@@ -1,9 +1,12 @@
 {
-    "about": "About",
-    "search": "Search",
-    "no_results": "No results",
-    "results": "Results",
-    "meta_description": "Explore the comprehensive Elucidario Madeirense, a detailed encyclopedia of Madeira's history, culture, and biodiversity. Dive into articles on flora, fauna, geography, and historical figures of this unique archipelago.",
+    "search": "Pesquisar todos os artigos",
+    "search_all": "Pesquisar tudo",
+    "loading": "Por favor, aguarde, carregando todos os artigos...",
+    "find": "Encontrar",
+    "results": "Artigos encontrados",
+    "no_results": "Nada encontrado",
+    "meta_description": "Elucidário Madeirense é uma obra enciclopédica sobre o Arquipélago da Madeira, publicada pela primeira vez em 1921. O projeto foi coordenado pelo Padre Fernando Augusto da Silva (1863-1949) como parte das celebrações do quinto centenário da descoberta da Madeira. Apesar da última atualização de conteúdo em 1940, permanece uma referência essencial para entender o patrimônio material e imaterial do arquipélago em termos de historiografia.",
+    "important_articles": "Artigos importantes",
     "geography": "Geografia",
     "history": "História",
     "biology": "Biologia",
@@ -19,5 +22,4 @@
     "science": "Ciência",
     "sports": "Esportes",
     "transport": "Transporte"
-
 }

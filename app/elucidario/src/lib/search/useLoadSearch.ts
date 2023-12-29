@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import Fuse from 'fuse.js'
+import Fuse, { IFuseOptions } from 'fuse.js'
 
 interface UseLoadSearchReturn<T> {
   documents: T[]
@@ -10,7 +10,7 @@ interface UseLoadSearchReturn<T> {
 
 const useLoadSearch = <T>(
   url: string,
-  searchKeys: string[]
+  searchOptions: IFuseOptions<T>
 ): UseLoadSearchReturn<T> => {
   const [documents, setDocuments] = useState<T[]>([])
   const [loading, setLoading] = useState(false)
@@ -25,12 +25,7 @@ const useLoadSearch = <T>(
       .then(
         result => {
           setDocuments(result)
-          const options = {
-            includeScore: true,
-            threshold: 0.3,
-            keys: searchKeys
-          }
-          setSearch(new Fuse(result, options)) // use current documents
+          setSearch(new Fuse(result, searchOptions)) // use current documents
           setLoading(false)
         },
         (error: Error) => {
@@ -38,7 +33,7 @@ const useLoadSearch = <T>(
           setLoading(false)
         }
       )
-  }, [url, searchKeys]) // Only re-run the effect if url changes
+  }, [url, searchOptions]) // Only re-run the effect if url changes
 
   // useEffect for creating/updating Fuse instance when documents or searchKeys change
   /*

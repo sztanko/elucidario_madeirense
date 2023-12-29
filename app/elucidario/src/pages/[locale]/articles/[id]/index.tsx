@@ -18,10 +18,14 @@ const getStaticProps = makeStaticProps(getArticleProps)
 export { getAllArticlePaths as getStaticPaths, getStaticProps }
 
 export default function Index ({ article, locale }) {
-  console.info('locale', locale)
   return (
-    <AppLayout locale={locale}>
-      <Article article={article} />
-    </AppLayout>
+    <>
+      <Head>
+        <title>{`${article['title']} - Elucidario Madeirense`}</title>
+      </Head>
+      <AppLayout locale={locale}>
+        <Article article={article} />
+      </AppLayout>
+    </>
   )
 }

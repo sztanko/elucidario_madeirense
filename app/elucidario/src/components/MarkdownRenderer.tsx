@@ -21,7 +21,7 @@ import remarkGfm from 'remark-gfm'
 export const MarkdownRenderer = ({ markdownText }) => {
 
   return (
-    <Box p={5}>
+    <Box p={5} textAlign={"justify"}>
       <ReactMarkdown
         remarkPlugins={[remarkGfm]}
         components={{
@@ -47,7 +47,7 @@ export const MarkdownRenderer = ({ markdownText }) => {
           li: ({ node, ...props }) => <ListItem my={2} {...props} />,
           //li: ({ node, children, ...props }) => <ListItem as='li'>- ({children})</ListItem>,
           ol: ({ node, children, ...props }) => <UnorderedList as='ol'>{children}</UnorderedList>,
-          ul: ({ node, children, ...props }) => <Text as='p'>hello ul</Text>,
+          ul: ({ node, children, ...props }) => <UnorderedList as='ol'>{children}</UnorderedList>,
           // ul: ({ node, ...props }) => <UnorderedList my={2} {...props} />,
           em: ({ node, ...props }) => <Text as='em' {...props} />,
           text: ({ node, children, ...props }) => (

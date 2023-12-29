@@ -1,16 +1,16 @@
 import { Container } from '@chakra-ui/react'
 import { Platform } from './Platform'
-import { Menu } from './Menu'
+import { TopMenu } from './TopMenu'
 
 export const AppLayout = ({ locale, children }) => {
   return (
     <>
-      <Container maxW='container.xxl' centerContent>
-        <Platform w={'100%'}>
-          <Menu locale={locale}/>
+      <Container maxW={['100%', 'container.xxl']} centerContent padding={0}>
+        <Platform w={'100%'} margin={0} padding={0}>
+          <TopMenu locale={locale}/>
         </Platform>
       </Container>
-      <Container w='container.xl' centerContent>
+      <Container centerContent border="none" mt={8} maxW={["100%","80%"]}>
         <Platform mt={4}>{children}</Platform>
       </Container>
     </>

@@ -30,6 +30,22 @@ const theme = extendTheme({
       }
     }
   },
+  components: {
+    "Tag": {
+      baseStyle: {
+        borderRadius: '0',
+        color: 'main.base',
+        bg: 'yellow',
+        border: '1px solid',
+        borderColor: 'main.base',
+        _hover: {
+          bg: 'main.base',
+          color: 'white'
+        }
+      }
+    },
+    },
+  
 
   // You can also set the fonts more granularly for specific components or text styles
   fonts: {

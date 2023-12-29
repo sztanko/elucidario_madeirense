@@ -1,6 +1,12 @@
 {
     "home": "Home",
     "all_articles": "All Articles",
-    "about_author": "About Author",
-    "about_project": "About Project"
+    "advanced_search": "Advanced search",
+    "about_author": "About The Author",
+    "about_project": "About This Website",
+    "en": "English",
+    "ru": "Russian",
+    "uk": "Ukrainian",
+    "pt": "Portuguese",
+    "de": "German"
 }

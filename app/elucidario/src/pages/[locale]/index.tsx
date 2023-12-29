@@ -1,26 +1,30 @@
 import Head from 'next/head'
-import { Heading, Text } from '@chakra-ui/react'
+import { Box, Center, Heading, Text } from '@chakra-ui/react'
 import { useTranslation } from 'next-i18next' // or your i18n library's hook
 import { getStaticPaths, makeStaticProps } from '../../lib/i18n/getStatic'
 import { AppLayout } from '@/components/layout/AppLayout'
 import { loadArticleIndex } from '@/lib/search/dataUtils'
 import { SearchBox } from '@/components/search/SearchBox'
+import { Article } from '@/components/article/Article'
+import { ArticleIndex } from '@/components/article_index/ArticleIndex'
+import { Letter } from '@/components/article_index/Letter'
 // import { createSearchIndex } from '@/lib/search/fuseUtils'
-/*
+
 const createSearchIndexProps = async ctx => {
   const { locale } = ctx.params
   const { articleIndex } = await loadArticleIndex(locale)
-  return { articleIndex, locale }
+  const topArticles = articleIndex.filter(article => article.length > 10000)
+  return { topArticles, locale }
 }
-*/
 
-const getStaticProps = makeStaticProps() // createSearchIndexProps)
+const getStaticProps = makeStaticProps(createSearchIndexProps) // createSearchIndexProps)
 export { getStaticPaths, getStaticProps }
 
-export default function Home ({ locale }) {
+export default function Home ({ topArticles, locale }) {
   const { t } = useTranslation('common')
+
   // Use NEXT_PUBLIC_WEB_PATH env varialbe as prefix
-  const dataUrl=`${process.env.NEXT_PUBLIC_WEB_PATH}/index/index_${locale}.json`
+  const dataUrl = `${process.env.NEXT_PUBLIC_WEB_PATH}/index/index_${locale}.json`
   return (
     <>
       <Head>
@@ -34,7 +38,20 @@ export default function Home ({ locale }) {
           Elucidário Madeirense
         </Heading>
         <Text>{t('meta_description')}</Text>
-        <SearchBox dataUrl={dataUrl} />
+
+        <Box
+          mt={10}
+          width='80%'
+          display='flex'
+          justifyContent='center'
+          alignItems='center'
+        >
+          <SearchBox dataUrl={dataUrl} showTags={true} fontSize={'xl'} />
+        </Box>
+        <Heading mb='10' mt={10} as={'h2'} textAlign={'center'} fontSize={'xl'} color="#777">
+          {t('important_articles')}
+        </Heading>
+        <Letter articles={topArticles} letter='A' showLetter={false} />
       </AppLayout>
     </>
   )

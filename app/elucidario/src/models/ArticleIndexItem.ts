@@ -3,4 +3,6 @@ export interface ArticleIndexItem {
     title: string;
     fl: string; // first letter
     original_title: string;
+    categories: string[];
+    length: number;
 }

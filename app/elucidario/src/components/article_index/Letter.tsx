@@ -6,16 +6,21 @@ import { ArticleIndexItem } from '@/models/ArticleIndexItem'
 
 interface LetterProps {
   letter: string
-  articles: ArticleIndexItem[]
+  articles: ArticleIndexItem[],
+  showLetter?: boolean
 }
 
 export const Letter: React.FC<LetterProps> = ({
   letter,
-  articles
+  articles,
+  showLetter
 }: LetterProps) => {
+
+  const sortedArticles = articles.sort((a, b) => a.title.localeCompare(b.title))
+  
   return (
     <Box width='100%'>
-      <Text
+      {showLetter && <Text
         as='h2'
         id={letter}
         fontSize={30}
@@ -24,7 +29,7 @@ export const Letter: React.FC<LetterProps> = ({
         fontWeight={'bold'}
       >
         {letter} ({articles.length})
-      </Text>
+      </Text>}
       <Box
         as='dl'
         paddingX={4}
@@ -34,7 +39,7 @@ export const Letter: React.FC<LetterProps> = ({
           columnGap: '1rem' // or any other spacing you prefer
         }}
       >
-        {articles.map((article, index) => (
+        {sortedArticles.map((article, index) => (
           <Box
             as='dd'
             key={index}

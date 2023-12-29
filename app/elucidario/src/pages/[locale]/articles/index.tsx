@@ -15,7 +15,7 @@ export { getStaticPaths, getStaticProps }
 export default function Index ({ articleIndex, locale }) {
   return (
     <AppLayout locale={locale}>
-      <ArticleIndex articleIndex={articleIndex} locale={locale} />
+      <ArticleIndex articleIndex={articleIndex} locale={locale} showLetters={true} />
     </AppLayout>
   )
 }

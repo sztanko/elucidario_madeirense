@@ -1,6 +1,12 @@
 {
     "home": "Start",
     "all_articles": "Alle Artikel",
+    "advanced_search": "Erweiterte Suche",
     "about_author": "Über den Autor",
-    "about_project": "Über das Projekt"
+    "about_project": "Über diese Webseite",
+    "en": "Englisch",
+    "ru": "Russisch",
+    "uk": "Ukrainisch",
+    "pt": "Portugiesisch",
+    "de": "Deutsch"
 }
