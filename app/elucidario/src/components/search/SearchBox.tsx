@@ -28,6 +28,7 @@ export const SearchBox = ({ dataUrl }: SearchBoxProps) => {
     }
   }, [currentWitdth])
 
+  // if you define search keys inside here, it will result in an infinite loop
   const { search } = useLoadSearch<ArticleIndexItem>(dataUrl, SEARCH_KEYS)
 
   const [searchTerm, setSearchTerm] = useState('')

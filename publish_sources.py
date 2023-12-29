@@ -31,11 +31,9 @@ def post_process(markup):
         "}": "",
     }
     regexps = (
-        (r"(#+)(?=[^#\s])",
-        lambda m: "#" * len(m.group(1))),
+        (r"(#+)(?=[^#\s])", lambda m: "#" * len(m.group(1))),
         # if there is \n\n followed by a small letter, replace \n\n with space
-        (r"(\n\n)(?=[a-z])",
-        lambda m: " "),
+        (r"(\n\n)(?=[a-z])", lambda m: " "),
     )
     for k, v in replacements.items():
         markup = markup.replace(k, v)
@@ -66,11 +64,16 @@ def main(
     output_path: Path = typer.Argument(
         ..., file_okay=False, dir_okay=True, readable=True, writable=True, resolve_path=True
     ),
+    web_path: Path = typer.Argument(
+        ..., file_okay=False, dir_okay=True, readable=True, writable=True, resolve_path=True, exists=True
+    ),
 ):
     # load all json files located in articles_path
     assert articles_path != output_path
     assert translations_path != output_path
+    assert output_path != web_path
     logging.info("Reading articles from %s", articles_path)
+    logging.info(f"Web path is {web_path}")
     articles = [json.loads(f.read_text()) for f in articles_path.glob("*.json")]
     for article in articles:
         for k in ["freguesias", "categories", "references"]:
@@ -186,12 +189,17 @@ def main(
             # logging.info(f"Writing to {filename}")
             json.dump(index, f, indent=4, ensure_ascii=False)
             logging.info(f"Written {len(index)} articles to index {index_filename}")
-        
-        full_index_filename = output_path / f"index_full_{lang}.json"
+        index_filename_web = web_path / f"index_{lang}.json"
+        with open(index_filename_web, "w") as f:
+            # logging.info(f"Writing to {filename}")
+            json.dump(index, f, ensure_ascii=False)
+            logging.info(f"Written {len(index)} articles to index {index_filename_web}")
+
+        full_index_filename = web_path / f"index_full_{lang}.json"
         with open(full_index_filename, "w") as f:
             # logging.info(f"Writing to {filename}")
             json.dump(full_index, f, ensure_ascii=False)
-            logging.info(f"Written {len(article_map)} articles to index {full_index_filename}")
+            logging.info(f"Written {len(full_index)} articles to index {full_index_filename}")
         # full_book.generate_toc()
         # full_book.write_book(ebook_path / f"elucidario_madeirense_{lang}.epub")
 
