@@ -19,7 +19,6 @@ const useLoadSearch = <T>(
 
   // useEffect for fetching documents from the URL
   useEffect(() => {
-    if (documents.length > 0) return
     setLoading(true)
     fetch(url)
       .then(res => res.json())

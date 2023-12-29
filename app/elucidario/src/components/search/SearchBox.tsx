@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef, useMemo } from 'react'
 import { useTranslation } from 'next-i18next'
 // import { useRouter } from 'next/router'
 // import useSearch from '@/lib/search/useSearch'
@@ -26,11 +26,9 @@ export const SearchBox = ({ dataUrl }: SearchBoxProps) => {
       setInputWidth(`${inputRef.current.offsetWidth}px`)
     }
   }, [currentWitdth])
+  const searchKeys = useMemo(() => ['title', 'original_title'], []);
 
-  const { search } = useLoadSearch<ArticleIndexItem>(dataUrl, [
-    'title',
-    'original_title'
-  ])
+  const { search } = useLoadSearch<ArticleIndexItem>(dataUrl, searchKeys)
 
   const [searchTerm, setSearchTerm] = useState('')
   const [results, setResults] = useState<ArticleIndexItem[]>([])
