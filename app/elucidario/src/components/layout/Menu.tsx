@@ -6,7 +6,7 @@ import { SearchBox } from '../search/SearchBox'
 
 export const Menu = ({ locale }) => {
   const { t } = useTranslation('menu')
-  const dataUrl=`${process.env.WEB_PATH}/index/index_{locale}.json`
+  const dataUrl=`${process.env.NEXT_PUBLIC_WEB_PATH}/index/index_${locale}.json`
   const menuConfig = [
     {
       label: 'home',

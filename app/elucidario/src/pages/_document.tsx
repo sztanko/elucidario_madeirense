@@ -5,8 +5,7 @@ export default function Document (props) {
   // console.log('props', props)
   const currentLocale =
     props.__NEXT_DATA__.query.locale || i18nextConfig.i18n.defaultLocale
-
-  const baseURI = process.env.WEB_PATH || ''
+  const baseURI = process.env.NEXT_PUBLIC_WEB_PATH || ''
   return (
     <Html lang={currentLocale}>
       <Head />

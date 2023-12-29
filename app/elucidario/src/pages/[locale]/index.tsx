@@ -19,8 +19,8 @@ export { getStaticPaths, getStaticProps }
 
 export default function Home ({ locale }) {
   const { t } = useTranslation('common')
-  // Use WEB_PATH env varialbe as prefix
-  const dataUrl=`${process.env.WEB_PATH}/index/index_{locale}.json`
+  // Use NEXT_PUBLIC_WEB_PATH env varialbe as prefix
+  const dataUrl=`${process.env.NEXT_PUBLIC_WEB_PATH}/index/index_${locale}.json`
   return (
     <>
       <Head>
