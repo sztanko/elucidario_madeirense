@@ -8,6 +8,8 @@ export default function Document (props) {
   const baseURI = process.env.NEXT_PUBLIC_WEB_PATH || ''
   return (
     <Html lang={currentLocale}>
+      <link rel='icon' href='/favicon.ico' />
+      <meta name='viewport' content='width=device-width, initial-scale=1' />
       <Head />
       <body
         style={{
