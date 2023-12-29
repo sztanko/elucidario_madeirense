@@ -37,7 +37,7 @@ export default function Home ({ topArticles, locale }) {
         <Heading mb='2' as={'h1'} textAlign={'center'}>
           Elucidário Madeirense
         </Heading>
-        <Text>{t('meta_description')}</Text>
+        <Text textAlign={'justify'}>{t('meta_description')}</Text>
 
         <Box
           mt={10}
@@ -48,7 +48,14 @@ export default function Home ({ topArticles, locale }) {
         >
           <SearchBox dataUrl={dataUrl} showTags={true} fontSize={'xl'} />
         </Box>
-        <Heading mb='10' mt={10} as={'h2'} textAlign={'center'} fontSize={'xl'} color="#777">
+        <Heading
+          mb='10'
+          mt={10}
+          as={'h2'}
+          textAlign={'center'}
+          fontSize={'xl'}
+          color='#777'
+        >
           {t('important_articles')}
         </Heading>
         <Letter articles={topArticles} letter='A' showLetter={false} />
