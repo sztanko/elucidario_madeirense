@@ -19,6 +19,8 @@ export { getStaticPaths, getStaticProps }
 
 export default function Home ({ locale }) {
   const { t } = useTranslation('common')
+  // Use WEB_PATH env varialbe as prefix
+  const dataUrl=`${process.env.WEB_PATH}/index/index_{locale}.json`
   return (
     <>
       <Head>
@@ -32,7 +34,7 @@ export default function Home ({ locale }) {
           Elucidário Madeirense
         </Heading>
         <Text>{t('meta_description')}</Text>
-        <SearchBox dataUrl={`/index/index_${locale}.json`} />
+        <SearchBox dataUrl={dataUrl} />
       </AppLayout>
     </>
   )

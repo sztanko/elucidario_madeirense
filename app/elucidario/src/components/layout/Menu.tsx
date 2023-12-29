@@ -6,6 +6,7 @@ import { SearchBox } from '../search/SearchBox'
 
 export const Menu = ({ locale }) => {
   const { t } = useTranslation('menu')
+  const dataUrl=`${process.env.WEB_PATH}/index/index_{locale}.json`
   const menuConfig = [
     {
       label: 'home',
@@ -36,7 +37,7 @@ export const Menu = ({ locale }) => {
     <HStack width='100%' spacing={4} justifyContent={'space-around'}>
       {menuItems}
       <Box width='25%'>
-        <SearchBox dataUrl={`/index/index_${locale}.json`} />
+        <SearchBox dataUrl={dataUrl} />
       </Box>
     </HStack>
   )
