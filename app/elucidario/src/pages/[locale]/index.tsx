@@ -31,13 +31,12 @@ export default function Home ({ topArticles, locale }) {
         <title>Elucidario Madeirense</title>
         <meta name='description' content={t('meta_description')} />
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        <link rel='icon' href='/favicon.ico' />
       </Head>
       <AppLayout locale={locale}>
-      <Center>
+        <Center>
           <Image
-            width="32"
-            src='/home_icon.png'
+            width='32'
+            src={`${process.env.NEXT_PUBLIC_WEB_PATH}/home_icon.png`}
             alt='Elucidário Madeirense'
             align={'center'}
           />
@@ -47,15 +46,10 @@ export default function Home ({ topArticles, locale }) {
         </Heading>
         <Text textAlign={'justify'}>{t('meta_description')}</Text>
 
-        
-        <Box
-          mt={10}
-          ml={10}
-          mr={10}
-        >
+        <Box mt={10} ml={10} mr={10}>
           <SearchBox dataUrl={dataUrl} showTags={true} fontSize={'xl'} />
         </Box>
-        
+
         <Heading
           mb='10'
           mt={10}
