@@ -5,8 +5,6 @@ import { getStaticPaths, makeStaticProps } from '../../lib/i18n/getStatic'
 import { AppLayout } from '@/components/layout/AppLayout'
 import { loadArticleIndex } from '@/lib/search/dataUtils'
 import { SearchBox } from '@/components/search/SearchBox'
-import { Article } from '@/components/article/Article'
-import { ArticleIndex } from '@/components/article_index/ArticleIndex'
 import { Letter } from '@/components/article_index/Letter'
 // import { createSearchIndex } from '@/lib/search/fuseUtils'
 
