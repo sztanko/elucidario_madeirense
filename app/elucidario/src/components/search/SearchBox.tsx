@@ -66,15 +66,16 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
         onClick={() => setIsOpen(false)}
       >
         <Flex>
-        <TextWithTranslation
-          text={result.title}
-          originalText={result.original_title}
-        />
-        {showTags && result.categories.map(category => (
-          <Tag key={category} ml={2} mr={2} color={'#888'}>
-            {t(category)}
-          </Tag>
-        ))}
+          <TextWithTranslation
+            text={result.title}
+            originalText={result.original_title}
+          />
+          {showTags &&
+            result.categories.map(category => (
+              <Tag key={category} ml={2} mr={2} color={'#888'}>
+                {t(category)}
+              </Tag>
+            ))}
         </Flex>
       </LoLink>
     )
@@ -86,27 +87,25 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
       margin={1}
       // onBlur={() => setIsOpen(false)}
       onFocus={() => setIsOpen(true)}
-      // display="flex"          // Added for Flexbox layout
-      //justifyContent="center" // Centers horizontally in the flex container
+      display='flex' // Added for Flexbox layout
+      justifyContent='center' // Centers horizontally in the flex container
     >
-      <Box paddingLeft={5}>
-        <InputGroup>
-          <InputLeftElement pointerEvents='none'>
-            <SearchIcon color='gray.800' />
-          </InputLeftElement>
-          <Input
-            {...rest}
-            value={searchTerm}
-            // fontSize={'xl'}
-            ref={inputRef}
-            placeholder={t('search')}
-            onChange={onSearchTermChange}
-          />
-        </InputGroup>
+      <Box width={'100%'}>
+      <InputGroup>
+        <InputLeftElement pointerEvents='none'>
+          <SearchIcon color='gray.800' />
+        </InputLeftElement>
+        <Input
+          {...rest}
+          value={searchTerm}
+          // fontSize={'xl'}
+          ref={inputRef}
+          placeholder={t('search')}
+          onChange={onSearchTermChange}
+        />
+      </InputGroup>
 
-        {isOpen && (
-          <AutoComplete width={inputWidth}>{resultsList}</AutoComplete>
-        )}
+      {isOpen && <AutoComplete width={inputWidth}>{resultsList}</AutoComplete>}
       </Box>
     </Box>
   )

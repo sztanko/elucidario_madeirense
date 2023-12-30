@@ -1,13 +1,16 @@
 {
-    "search": "Alle Artikel suchen",
-    "search_all": "Alles durchsuchen",
+    "search": "Artikel suchen",
+    "search_all": "Alles suchen",
     "loading": "Bitte warten, alle Artikel werden geladen...",
     "find": "Finden",
     "results": "Gefundene Artikel",
     "no_results": "Nichts gefunden",
-    "meta_description": "Elucidário Madeirense ist ein enzyklopädisches Werk über den Madeira-Archipel, das erstmals 1921 veröffentlicht wurde. Das Projekt wurde von Pater Fernando Augusto da Silva (1863-1949) im Rahmen der Feierlichkeiten zum fünfhundertjährigen Jubiläum der Entdeckung Madeiras koordiniert. Trotz der letzten Inhaltserneuerung im Jahr 1940 bleibt es eine wesentliche Referenz für das Verständnis des materiellen und immateriellen Erbes des Archipels in Bezug auf die Historiographie.",
+    "people": "In diesem Artikel erwähnte Personen",
+    "years": "In diesem Artikel erwähnte Jahre",
+    "locations": "In diesem Artikel erwähnte Orte",
+    "meta_description": "Das Elucidário Madeirense ist ein enzyklopädisches Werk über den Madeira-Archipel, das erstmals 1921 veröffentlicht wurde. Das Projekt wurde von Pater Fernando Augusto da Silva (1863-1949) im Rahmen der Feierlichkeiten zum fünfhundertjährigen Jubiläum der Entdeckung Madeiras koordiniert. Trotz der letzten Inhaltsaktualisierung im Jahr 1940 bleibt es eine wesentliche Referenz für das Verständnis des materiellen und immateriellen Erbes des Archipels in Bezug auf die Historiographie.",
     "important_articles": "Wichtige Artikel",
-    "geography": "Geografie",
+    "geography": "Geographie",
     "history": "Geschichte",
     "biology": "Biologie",
     "culture": "Kultur",
@@ -21,5 +24,5 @@
     "art": "Kunst",
     "science": "Wissenschaft",
     "sports": "Sport",
-    "transport": "Transport"
+    "transport": "Verkehr"
 }

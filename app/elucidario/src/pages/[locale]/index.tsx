@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Box, Center, Heading, Text } from '@chakra-ui/react'
+import { Box, Center, Image, Heading, Text } from '@chakra-ui/react'
 import { useTranslation } from 'next-i18next' // or your i18n library's hook
 import { getStaticPaths, makeStaticProps } from '../../lib/i18n/getStatic'
 import { AppLayout } from '@/components/layout/AppLayout'
@@ -34,20 +34,28 @@ export default function Home ({ topArticles, locale }) {
         <link rel='icon' href='/favicon.ico' />
       </Head>
       <AppLayout locale={locale}>
+      <Center>
+          <Image
+            width="32"
+            src='/home_icon.png'
+            alt='Elucidário Madeirense'
+            align={'center'}
+          />
+        </Center>
         <Heading mb='2' as={'h1'} textAlign={'center'}>
           Elucidário Madeirense
         </Heading>
         <Text textAlign={'justify'}>{t('meta_description')}</Text>
 
+        
         <Box
           mt={10}
-          width='80%'
-          display='flex'
-          justifyContent='center'
-          alignItems='center'
+          ml={10}
+          mr={10}
         >
           <SearchBox dataUrl={dataUrl} showTags={true} fontSize={'xl'} />
         </Box>
+        
         <Heading
           mb='10'
           mt={10}
