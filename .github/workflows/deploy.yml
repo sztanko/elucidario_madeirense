@@ -1,4 +1,4 @@
-name: Deploy Next.js App to GitHub Pages
+name: Deploy Elucidario to GitHub Pages
 
 on:
   push:

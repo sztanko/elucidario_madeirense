@@ -74,18 +74,22 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
             text={result.title}
             originalText={result.original_title}
           />
-          {showTags &&
-            result.categories.map(category => (
-              <Tag
-                key={category}
-                ml={2}
-                mr={2}
-                color={'#888'}
-                fontSize={'smaller'}
-              >
-                {t(category)}
-              </Tag>
-            ))}
+          {showTags && (
+            <Box>
+              {result.categories.map(category => (
+                <Tag
+                  key={category}
+                  ml={1}
+                  mr={1}
+                  p={1}
+                  color={'#888'}
+                  fontSize={'smaller'}
+                >
+                  {t(category)}
+                </Tag>
+              ))}
+            </Box>
+          )}
         </Flex>
       </LoLink>
     )
@@ -109,7 +113,7 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
             {...rest}
             disabled={loading}
             value={searchTerm}
-            borderColor={'gray.800'}
+            borderColor={'rgb(230, 229, 218)'}
             // fontSize={'xl'}
             ref={inputRef}
             placeholder={loading ? t('loading') : t('search')}
