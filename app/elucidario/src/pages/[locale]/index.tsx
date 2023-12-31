@@ -44,7 +44,7 @@ export default function Home ({ topArticles, locale }) {
         </Heading>
         <Text textAlign={'justify'}>{t('meta_description')}</Text>
 
-        <Box mt={10} ml={10} mr={10}>
+        <Box mt={10} ml={{ base: 2, md: 10 }} mr={{ base: 2, md: 10 }}>
           <SearchBox dataUrl={dataUrl} showTags={true} fontSize={'xl'} />
         </Box>
 
