@@ -9,8 +9,7 @@ export default function Document (props) {
   return (
     <Html lang={currentLocale}>
       <Head>
-        <link rel='icon' href={`${baseURI}/favicon.ico`} />
-        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel='icon' href={`${baseURI}/favicon.ico`} />        
       </Head>
       <body
         style={{

@@ -12,12 +12,14 @@ def load_instructions(template_file, **variables):
     Example content of template file: "Hello {name}"
     """
     logging.info(f"Loading instructions from {template_file}")
+    logging.info(f"Variables: {variables}")
     with open(template_file, "r") as f:
         template = f.read()
         # logging.info(variables)
         formatted_template = template.format(**variables)
         # logging.info(f"Instructions from {template_file}: {formatted_template}")
         logging.info(f"Loaded {len(formatted_template)} characters from {template_file}")
+        logging.info(f"Instructions from {template_file}: {formatted_template[:100]}...")
         return formatted_template
 
 

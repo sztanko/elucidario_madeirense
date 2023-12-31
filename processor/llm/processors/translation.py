@@ -42,6 +42,7 @@ ENGINES = {
 class TranslationProcessor(Processor):
     def __init__(self, lang: str, engine_str: str = None):
         super().__init__(engine_str=engine_str)
+        logging.info(f"Initializing translation processor for {LANGUAGES[lang]}")
         self.output_schema = make_output_schema_instructions(Translation)
         self.output_schema_list = make_output_schema_instructions(Translation, as_list=True)
         if self.engine:
@@ -49,15 +50,19 @@ class TranslationProcessor(Processor):
         else:
             engine = ENGINES.get(lang)
         self.simple_article_engine = engine(
-            load_instructions("instructions/translate/translate_full.txt", output_schema=self.output_schema, lang=lang)
+            load_instructions(
+                "instructions/translate/translate_full.txt", output_schema=self.output_schema, lang=LANGUAGES[lang]
+            )
         )
         self.multiple_articles_engine = engine(
             load_instructions(
-                "instructions/translate/translate_full.txt", output_schema=self.output_schema_list, lang=lang
+                "instructions/translate/translate_full.txt", output_schema=self.output_schema_list, lang=LANGUAGES[lang]
             )
         )
         self.partial_article_engine = engine(
-            load_instructions("instructions/translate/translate_full.txt", output_schema=self.output_schema, lang=lang)
+            load_instructions(
+                "instructions/translate/translate_full.txt", output_schema=self.output_schema, lang=LANGUAGES[lang]
+            )
         )
 
     def get_single_article_engine(self) -> AIEngine:

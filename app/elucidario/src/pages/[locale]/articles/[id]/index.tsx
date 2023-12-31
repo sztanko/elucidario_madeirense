@@ -22,6 +22,7 @@ export default function Index ({ article, locale }) {
     <>
       <Head>
         <title>{`${article['title']} - Elucidario Madeirense`}</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <AppLayout locale={locale}>
         <Article article={article} />

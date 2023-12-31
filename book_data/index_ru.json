@@ -31852,39 +31852,6 @@
         "is_original": false
     },
     {
-        "id": 1103,
-        "title": "Куррал-дас-Фрейрас (приход)",
-        "fl": "К",
-        "original_title": "Curral das Freiras (Freguesia do)",
-        "categories": [
-            "geography",
-            "culture",
-            "history"
-        ],
-        "freguesias": [
-            "Curral das Freiras",
-            "Santo Antonio"
-        ],
-        "locations": [
-            "Фуншал",
-            "Куррал"
-        ],
-        "people": [
-            "Руй Тейшейра",
-            "Бранка Феррейра",
-            "Донья Мария I"
-        ],
-        "years": [
-            "1480",
-            "1492",
-            "1497",
-            "1560",
-            "1790"
-        ],
-        "length": 1141,
-        "is_original": false
-    },
-    {
         "id": 1104,
         "title": "Куррал-дус-Ромейрус",
         "fl": "К",
@@ -31903,6 +31870,39 @@
         "people": [],
         "years": [],
         "length": 385,
+        "is_original": false
+    },
+    {
+        "id": 1103,
+        "title": "Курраль даш Фрейраш (Фрегезия)",
+        "fl": "К",
+        "original_title": "Curral das Freiras (Freguesia do)",
+        "categories": [
+            "geography",
+            "culture",
+            "history"
+        ],
+        "freguesias": [
+            "Curral das Freiras",
+            "Santo Antonio"
+        ],
+        "locations": [
+            "Фуншал",
+            "Курраль"
+        ],
+        "people": [
+            "Руи Тейшейра",
+            "Бранка Феррейра",
+            "Донна Мария I"
+        ],
+        "years": [
+            "1480",
+            "1492",
+            "1497",
+            "1560",
+            "1790"
+        ],
+        "length": 7696,
         "is_original": false
     },
     {
