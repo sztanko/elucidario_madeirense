@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next'
 import Head from 'next/head'
-import { Heading, Box } from '@chakra-ui/react'
+import { Heading, Box, Image, Center } from '@chakra-ui/react'
 import { AppLayout } from '@/components/layout/AppLayout'
 import AboutProjectEn from './AboutProjectEn'
 import AboutProjectPt from './AboutProjectPt'
@@ -24,9 +24,18 @@ export const AboutProject = ({ locale }) => {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <AppLayout locale={locale}>
-        <Heading as='h1' size='xl' mb={4}>
-          {t('about_project')}
-        </Heading>
+        <Center>
+          <Image
+            src={`${process.env.NEXT_PUBLIC_WEB_PATH}/home_icon.png`}
+            alt='Elucidário Madeirense'
+            align={'center'}
+          />
+        </Center>
+        <Center>
+          <Heading as='h1' size='xl' mb={4}>
+            {t('about_project')}
+          </Heading>
+        </Center>
         <Box textAlign='justify'>{content}</Box>
       </AppLayout>
     </>

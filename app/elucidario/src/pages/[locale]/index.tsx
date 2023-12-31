@@ -31,6 +31,14 @@ export default function Home ({ topArticles, locale }) {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <AppLayout locale={locale}>
+        
+        <Center>
+          <Image width={700} maxWidth={'100%'}
+            src={`${process.env.NEXT_PUBLIC_WEB_PATH}/doodle.png`}
+            alt='Elucidário Madeirense'
+            align={'center'}
+          />
+        </Center>
         <Heading mb='2' as={'h1'} textAlign={'center'}>
           Elucidário Madeirense
         </Heading>
