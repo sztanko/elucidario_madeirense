@@ -8,11 +8,12 @@ import {
   Input,
   InputGroup,
   InputLeftElement,
+  InputRightElement,
   InputProps,
   Flex,
   Tag
 } from '@chakra-ui/react'
-import { SearchIcon } from '@chakra-ui/icons'
+import { SearchIcon, SmallCloseIcon } from '@chakra-ui/icons'
 
 import { ArticleIndexItem } from '@/models/ArticleIndexItem'
 import { TextWithTranslation } from '../TextWithTranslation'
@@ -91,21 +92,37 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
       justifyContent='center' // Centers horizontally in the flex container
     >
       <Box width={'100%'}>
-      <InputGroup>
-        <InputLeftElement pointerEvents='none'>
-          <SearchIcon color='gray.800' />
-        </InputLeftElement>
-        <Input
-          {...rest}
-          value={searchTerm}
-          // fontSize={'xl'}
-          ref={inputRef}
-          placeholder={t('search')}
-          onChange={onSearchTermChange}
-        />
-      </InputGroup>
+        <InputGroup>
+          <InputLeftElement pointerEvents='none'>
+            <SearchIcon color='gray.800' />
+          </InputLeftElement>
+          <Input
+            {...rest}
+            value={searchTerm}
+            borderColor={'gray.800'}
+            // fontSize={'xl'}
+            ref={inputRef}
+            placeholder={t('search')}
+            onChange={onSearchTermChange}
+          />
+          {searchTerm && (
+            <InputRightElement>
+              <SmallCloseIcon
+                color='gray.800'
+                _hover={{ cursor: 'pointer', color: '#999' }}
+                onClick={() => {
+                  setSearchTerm('')
+                  setIsOpen(false)
+                  
+                }}
+              />
+            </InputRightElement>
+          )}
+        </InputGroup>
 
-      {isOpen && <AutoComplete width={inputWidth}>{resultsList}</AutoComplete>}
+        {isOpen && searchTerm.length>0 && (
+          <AutoComplete width={inputWidth}>{resultsList}</AutoComplete>
+        )}
       </Box>
     </Box>
   )

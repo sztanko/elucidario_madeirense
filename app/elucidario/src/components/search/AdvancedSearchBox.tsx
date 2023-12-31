@@ -20,7 +20,7 @@ import { ArticleData } from '@/models/ArticleData'
 
 type AdvancedSearchBoxProps = InputProps & {
   dataUrl: string
-  onSearch: (results: FuseResult<ArticleData>[]) => void
+  onSearch: (searchTerm: string, results: FuseResult<ArticleData>[]) => void
 }
 const SEARCH_OPTIONS = {
   includeScore: true,
@@ -48,7 +48,7 @@ export const AdvancedSearchBox = ({
 
   const onClick = () => {
     const r = search.search(searchTerm, { limit: 30 })
-    onSearch(r)
+    onSearch(searchTerm, r)
   }
   if (loading)
     return (
@@ -59,18 +59,26 @@ export const AdvancedSearchBox = ({
     )
   return (
     <Box width='100%' margin={1}>
-      <InputGroup>
-        <InputLeftElement pointerEvents='none'>
-          <SearchIcon color='gray.800' />
-        </InputLeftElement>
-        <Input
-          {...rest}
-          value={searchTerm}
-          placeholder={t('search')}
-          onChange={event => setSearchTerm(event.target.value)}
-        />
-        <Button onClick={onClick}>{t('find')}</Button>
-      </InputGroup>
+      <form
+        onSubmit={e => {
+          e.preventDefault()
+          e.stopPropagation()
+          onClick()
+        }}
+      >
+        <InputGroup>
+          <InputLeftElement pointerEvents='none'>
+            <SearchIcon color='gray.800' />
+          </InputLeftElement>
+          <Input
+            {...rest}
+            value={searchTerm}
+            placeholder={t('search')}
+            onChange={event => setSearchTerm(event.target.value)}
+          />
+          <Button onClick={onClick}>{t('find')}</Button>
+        </InputGroup>
+      </form>
     </Box>
   )
 }

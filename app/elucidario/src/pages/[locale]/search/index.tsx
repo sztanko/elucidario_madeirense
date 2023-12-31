@@ -14,8 +14,16 @@ export default function Home ({ topArticles, locale }) {
   const { t } = useTranslation('common')
   const { t: tm } = useTranslation('menu')
   const [searchResults, setSearchResults] = useState([])
+  const [searchTerm, setSearchTerm] = useState('')
   // Use NEXT_PUBLIC_WEB_PATH env varialbe as prefix
   const dataUrl = `${process.env.NEXT_PUBLIC_WEB_PATH}/index/index_full_${locale}.json`
+
+  const noResults =
+    searchResults.length === 0 && searchTerm.length > 0 ? (
+      <Heading as={'h3'} fontSize={25} fontStyle="italic" textAlign={'center'}>
+        {t('no_results')}
+      </Heading>
+    ) : null
   return (
     <>
       <Head>
@@ -31,14 +39,24 @@ export default function Home ({ topArticles, locale }) {
 
         <Box
           mt={10}
-          width='80%'
+          width='100%'
           display='flex'
           justifyContent='center'
           alignItems='center'
         >
-          <AdvancedSearchBox dataUrl={dataUrl} fontSize={'xl'} onSearch={setSearchResults}/>
+          <AdvancedSearchBox
+            dataUrl={dataUrl}
+            fontSize={'xl'}
+            onSearch={(term, results) => {
+              setSearchTerm(term)
+              setSearchResults(results)
+            }}
+          />
         </Box>
-      <SearchResults results={searchResults}/>
+        <Box pt={4} justifyContent={'space-around'} flexWrap='wrap'>
+          {noResults}
+          <SearchResults results={searchResults} />
+        </Box>
       </AppLayout>
     </>
   )
