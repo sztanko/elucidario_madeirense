@@ -34,7 +34,7 @@ export default function Home ({ topArticles, locale }) {
         
         <Center>
           <Image width={700} maxWidth={'100%'}
-            src={`${process.env.NEXT_PUBLIC_WEB_PATH}/doodle.png`}
+            src={`${process.env.NEXT_PUBLIC_WEB_PATH}/doodle.webp`}
             alt='Elucidário Madeirense'
             align={'center'}
           />
