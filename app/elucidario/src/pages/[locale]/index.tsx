@@ -31,14 +31,6 @@ export default function Home ({ topArticles, locale }) {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
       </Head>
       <AppLayout locale={locale}>
-        <Center>
-          <Image
-            width='32'
-            src={`${process.env.NEXT_PUBLIC_WEB_PATH}/home_icon.png`}
-            alt='Elucidário Madeirense'
-            align={'center'}
-          />
-        </Center>
         <Heading mb='2' as={'h1'} textAlign={'center'}>
           Elucidário Madeirense
         </Heading>
