@@ -43,7 +43,10 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
   }, [currentWitdth])
 
   // if you define search keys inside here, it will result in an infinite loop
-  const { search } = useLoadSearch<ArticleIndexItem>(dataUrl, SEARCH_OPTIONS)
+  const { search, loading } = useLoadSearch<ArticleIndexItem>(
+    dataUrl,
+    SEARCH_OPTIONS
+  )
 
   const [searchTerm, setSearchTerm] = useState('')
   const [results, setResults] = useState<ArticleIndexItem[]>([])
@@ -73,7 +76,13 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
           />
           {showTags &&
             result.categories.map(category => (
-              <Tag key={category} ml={2} mr={2} color={'#888'}>
+              <Tag
+                key={category}
+                ml={2}
+                mr={2}
+                color={'#888'}
+                fontSize={'smaller'}
+              >
                 {t(category)}
               </Tag>
             ))}
@@ -85,7 +94,7 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
   return (
     <Box
       width='100%'
-      margin={1}
+      margin={[0, 1]}
       // onBlur={() => setIsOpen(false)}
       onFocus={() => setIsOpen(true)}
       display='flex' // Added for Flexbox layout
@@ -98,11 +107,12 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
           </InputLeftElement>
           <Input
             {...rest}
+            disabled={loading}
             value={searchTerm}
             borderColor={'gray.800'}
             // fontSize={'xl'}
             ref={inputRef}
-            placeholder={t('search')}
+            placeholder={loading ? t('loading') : t('search')}
             onChange={onSearchTermChange}
           />
           {searchTerm && (
@@ -113,14 +123,13 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
                 onClick={() => {
                   setSearchTerm('')
                   setIsOpen(false)
-                  
                 }}
               />
             </InputRightElement>
           )}
         </InputGroup>
 
-        {isOpen && searchTerm.length>0 && (
+        {isOpen && searchTerm.length > 0 && (
           <AutoComplete width={inputWidth}>{resultsList}</AutoComplete>
         )}
       </Box>

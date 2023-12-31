@@ -86,7 +86,6 @@ export const TopMenu = ({ locale }) => {
               ))}
             </MenuList>
           </Menu>
-
           {searchBox}
           {langSwitcher}
         </>

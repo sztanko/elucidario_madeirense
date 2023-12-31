@@ -10,7 +10,7 @@ export const AppLayout = ({ locale, children }) => {
           <TopMenu locale={locale}/>
         </Platform>
       </Container>
-      <Container centerContent border="none" mt={8} maxW={["100%","80%"]}>
+      <Container centerContent border="none" mt={8} maxW={{ base: "100%", lg: "80%" }}>
         <Platform mt={4}>{children}</Platform>
       </Container>
     </>
