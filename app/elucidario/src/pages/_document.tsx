@@ -9,7 +9,12 @@ export default function Document (props) {
   return (
     <Html lang={currentLocale}>
       <Head>
-        <link rel='icon' href={`${baseURI}/favicon.ico`} />        
+        <link rel='icon' href={`${baseURI}/favicon.ico`} />
+        <script
+          data-goatcounter='https://elucidario.goatcounter.com/count'
+          async
+          src='//gc.zgo.at/count.js'
+        ></script>
       </Head>
       <body
         style={{
