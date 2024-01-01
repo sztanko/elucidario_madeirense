@@ -40,7 +40,7 @@ export default function AboutProjectDe () {
         von der Madeiranischen Kultur und Geschichte. Ich bin kein Historiker
         und spreche auch kein Portugiesisch (obwohl ich es lerne). Sie können
         mich gerne per E-Mail unter{' '}
-        <Link href='mailto:sztanko@gmail.com'>sztanko@gmail.com</Link>{' '}
+        <Link href='mailto:info@elucidariomadeirense.pt'>info@elucidariomadeirense.pt</Link>{' '}
         kontaktieren.
       </Text>
       <Text mb={4}>Ich möchte meine Dankbarkeit ausdrücken:</Text>

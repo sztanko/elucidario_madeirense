@@ -39,7 +39,7 @@ export default function AboutProjectPt () {
         fascinado pela cultura e história madeirense. Não sou historiador, nem
         falo português (embora esteja aprendendo). Sinta-se à vontade para
         entrar em contato comigo via e-mail em{' '}
-        <Link href='mailto:sztanko@gmail.com'>sztanko@gmail.com</Link>.
+        <Link href='mailto:info@elucidariomadeirense.pt'>info@elucidariomadeirense.pt</Link>.
       </Text>
       <Text mb={4}>Gostaria de estender minha gratidão a:</Text>
       <UnorderedList mb={4}>

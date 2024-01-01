@@ -37,7 +37,7 @@ export default function AboutProjectEn () {
         My name is Dimi, residing in London, UK, and I am deeply fascinated by
         Madeiran culture and history. I am not a historian, nor do I speak
         Portuguese (though I am learning). Feel free to contact me via email at{' '}
-        <Link href='mailto:sztanko@gmail.com'>sztanko@gmail.com</Link>.
+        <Link href='mailto:info@elucidariomadeirense.pt'>info@elucidariomadeirense.pt</Link>.
       </Text>
       <Text mb={4}>I would like to extend my gratitude to:</Text>
       <UnorderedList mb={4}>

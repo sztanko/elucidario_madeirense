@@ -37,7 +37,7 @@ export default function AboutProjectUk () {
         Мене звати Дмитро, я живу в Лондоні, і мене глибоко цікавить культура та
         історія Мадейри. Я не історик, і не говорю по-португальськи (хоча я
         вчуся). Будь ласка, зв&apos;яжіться зі мною по електронній пошті за
-        адресою <Link href='mailto:sztanko@gmail.com'>sztanko@gmail.com</Link>.
+        адресою <Link href='mailto:info@elucidariomadeirense.pt'>info@elucidariomadeirense.pt</Link>.
       </Text>
       <Text mb={4}>Я хотів би висловити свою вдячність:</Text>
       <UnorderedList mb={4}>

@@ -38,7 +38,7 @@ export default function AboutProjectRu () {
         Меня зовут Дима, я живу в Лондоне, и меня глубоко интересует культура и
         история Мадейры. Я не историк, и я не говорю по-португальски (хотя я
         учусь). Пожалуйста, свяжитесь со мной по электронной почте по адресу{' '}
-        <Link href='mailto:sztanko@gmail.com'>sztanko@gmail.com</Link>.
+        <Link href='mailto:info@elucidariomadeirense.pt'>info@elucidariomadeirense.pt</Link>.
       </Text>
       <Text mb={4}>Я хотел бы выразить свою благодарность:</Text>
       <UnorderedList mb={4}>
