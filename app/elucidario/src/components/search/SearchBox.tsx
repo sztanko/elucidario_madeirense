@@ -19,6 +19,7 @@ import { ArticleIndexItem } from '@/models/ArticleIndexItem'
 import { TextWithTranslation } from '../TextWithTranslation'
 import { AutoComplete } from './AutoComplete'
 import { LoLink } from '../LoLink'
+import { Categories } from '../article/Categories'
 
 type SearchBoxProps = InputProps & {
   dataUrl: string
@@ -68,15 +69,17 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
         href={`/articles/${result.id}`}
         key={result.id}
         onClick={() => setIsOpen(false)}
+        
       >
-        <Flex>
+        <Flex justifyContent={"space-between"}>
           <TextWithTranslation
             text={result.title}
             originalText={result.original_title}
           />
           {showTags && (
-            <Box>
-              {result.categories.map(category => (
+            
+              <Categories categories={result.categories} fontSize={'smaller'}/>
+              /*result.categories.map(category => (
                 <Tag
                   key={category}
                   ml={1}
@@ -87,8 +90,8 @@ export const SearchBox = ({ dataUrl, showTags, ...rest }: SearchBoxProps) => {
                 >
                   {t(category)}
                 </Tag>
-              ))}
-            </Box>
+              ))*/
+            
           )}
         </Flex>
       </LoLink>

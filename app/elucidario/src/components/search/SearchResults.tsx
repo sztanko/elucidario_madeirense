@@ -1,4 +1,4 @@
-import { Text, Box, Heading, HStack, Tag } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import { FuseResult } from 'fuse.js'
 import { ArticleData } from '@/models/ArticleData'
 import { SearchResult } from './SearchResult'

@@ -1,10 +1,11 @@
 import { useTranslation } from 'next-i18next'
-import { Box, Heading, Text, HStack, Tag} from '@chakra-ui/react'
+import { Box, Heading } from '@chakra-ui/react'
 import { size } from 'lodash'
 import { MarkdownRenderer } from '../MarkdownRenderer'
 import { EnumList } from './EnumList'
 import { TextWithTranslation } from '../TextWithTranslation'
 import { ArticleData } from '@/models/ArticleData'
+import { Categories } from './Categories'
 
 type ArticleProps = {
   article: ArticleData
@@ -12,17 +13,11 @@ type ArticleProps = {
 
 export function Article ({ article }: ArticleProps) {
   const { t } = useTranslation('common')
-  const categories = article.categories.map(category => (
-    <Tag key={category}>{t(category)}</Tag>
-  ))
 
-  // const people
   return (
     <Box maxWidth={'900px'}>
-      <HStack spacing={6} color={'#888'} mb={4} justifyContent={'flex-end'}>
-        {categories}
-      </HStack>
-      <Heading mb='0' fontSize='4xl' as={'h1'} textAlign={'left'}>
+      <Categories categories={article.categories} />
+      <Heading mb='0' mt={4} fontSize='4xl' as={'h1'} textAlign={'left'}>
         <TextWithTranslation
           text={article.title}
           originalText={article.original_title}
