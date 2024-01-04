@@ -19,5 +19,3 @@ RUN apt-get update && apt-get install -y \
     lsb-release \
     apt-transport-https \
     software-properties-common
-RUN echo '%gitpod ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/gitpod \
-    && addgroup -g 33333 gitpod && adduser -u 33333 -G gitpod -h /home/gitpod -s /bin/bash -D gitpod
