@@ -6,9 +6,9 @@ const base = 'rgb(83, 61, 59)'
 const theme = extendTheme({
   colors: {
     main: {
-      base: base,
-      link: darken(10, base),
-      linkHover: darken(20, base)
+      base: darken(10, base),
+      link: darken(20, base),
+      linkHover: darken(30, base)
     }
   },
   styles: {
