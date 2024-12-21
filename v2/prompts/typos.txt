@@ -1,0 +1,26 @@
+I am processing a poorly OCR-d text written in portuguese. Find similar OCR errors as these:
+"Madakna": "Magdalena",
+"n1s": "nºs",
+"Ant6nio": "António",
+"ilh6u": "ilhéu",
+"Ju1ho": "Julho",
+"del1e": "dele",
+"ing1ês": "inglês",
+"Gonça1ves": "Gonçalves",
+"MadaZe7ia": "Madalena",
+"dó1ar": "dólar",
+"Hist6rico": "Histórico",
+"Hist6ria": "História",
+"col6nia": "colónia",
+"tamb6m": "também",
+"Cust6dio": "Custódio",
+"Vlt6ria": "Vitória",
+"Al1guns": "Alguns",
+"a1çapremas": "alçapremas",
+"Si1va": "Silva"
+
+
+{
+  "type": "object",
+  "description": "A mapping of OCR errors to their correct spellings in Portuguese text."
+}

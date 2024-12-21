@@ -1,0 +1,93 @@
+Attached part of a text of Elucidario Madeirense, an encyclopedic work, containing thousands of articles.
+Output a list of dicts, each dict containing information about the article.
+
+Each row should have the following columns:
+"name" - article name
+"length" - approximate length of the article, in characters
+"begins_with" - exact first 10 characters of the article, so I can find it in the original text
+"ends_with" - exact last 10 characters of the article, so I can find it in the original text
+"is_reference" - Is this article just a reference to another article? Hint: It is very short, and only contains something like "V. <referenced article name>" or "Vid. <referenced article name>" or "(V. este nome)"
+"reference_name" - if yes, specify the name of the referenced article
+"categories" - max three categories describing the article, must be one of the following
+- locations
+- notable people
+- history
+- fauna and flora
+- religion
+- architecture
+- law
+- art
+- education
+- transport
+- society
+- health
+
+
+Split article into subarticles, each no longer then 1000 words. Give each subarticle a title.
+Return an array of dicts, each dict should contain the following:
+"subtitle" - title of each subarticle
+"description" - short description of the subartcile. Max 10 words
+"begins_with" - exact first 10 characters of the subarticle, so I can find it in the original text
+"ends_with" - exact last 10 characters of the subarticle, so I can find it in the original text
+"categories" - array of categories that could match this subarticle. Put down no more then three, ideally just one
+
+
+------------------
+
+
+Give me a list of articles this articles references. References are typically something like "V. <referenced article name>" or "Vid. <referenced article name>" or "(V. este nome)"
+
+------------------
+
+Above text is from the article name X from Elucidario Madeirense, it is written in portuguese.
+Rephrase the article, so it is easier to read. Keep every single sentence and meaning.
+
+------------------
+
+Format each part into markdown. 
+If there is an enumeration, use markdown lists
+If there is a table that looks like this, use markdown tables
+If there is a quote, use markdown quotations
+
+------------------
+
+Give me a list of geographical locations mentioned in this article.
+Return a list of dicts, each dict containing the following:
+
+"location" - name of the geographical location
+"continent" - continent of the location.
+"country" - country of the location.
+"region" - region of the location
+"frequesia" - frequestia, in which this location is located
+"place" - place name, in which this location can be found
+"type" - type of location (continent, country, island, city, area, frequesia, other place name)
+"context" - context, in which this location is mentioned in this article
+"is_madeira" - true, if the location is in madeira
+"is_significant" - true, if this location plays a significant role in this article.
+
+------------------
+
+Give me a list of people mentioned in this article.
+Return list of dicts each dict containing the following:
+
+"name" - name of the person
+"title" - if person has a title (e.g. dr, ), put it down here
+"context" - context in which this person is mentioned in this article
+"is_significant" - true, if this person plays a significant role in this article.
+
+------------------
+
+Give me a list of dates or date ranges mentioned in this article. Ignore dates for which year cannot be deducted.
+Return list of dicts each dict containing the following:
+
+"is_range" - true, if this is a date range
+
+"year" - year of this date (or beginning of the date range)
+"month" - month of this date or beginning of the date range (1-12). Leave empty if not specified.
+"day" - day of this date or beginning of the date range (1-31). Leave empty if not specified.
+if this is a date range 
+"year_to" - end year of this date range
+"month_to" - end month of this date range (1-12). Leave empty if not specified.
+"day_to" - end day of this date range (1-31). Leave empty if not specified.
+"context" - what happened in this year.
+"is_significant" - true, if this date or date range plays a significant role in this article.

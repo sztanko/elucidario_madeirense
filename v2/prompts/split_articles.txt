@@ -1,0 +1,398 @@
+Attached part of a text of Elucidario Madeirense, an encyclopedic work, containing thousands of articles.
+Output a list of dicts, each dict containing information about the article.
+
+Each row should have the following columns:
+"name" - article name
+"description" - short description of article in portuguese, one sentence, max 20 words.
+"length" - approximate length of the article, in characters
+"begins_with" - exact first 30 characters of the article, so I can find it in the original text
+"ends_with" - exact last 30 characters of the article, so I can find it in the original text
+"is_reference" - Is this article just a reference to another article? Hint: It is very short, and only contains something like "V. <referenced article name>" or "Vid. <referenced article name>" or "(V. este nome)"
+"reference_name" - if yes, specify the name of the referenced article
+"categories" - max three categories describing the article, must be one of the following
+- locations
+- notable people
+- history
+- fauna and flora
+- religion
+- architecture
+- law
+- art
+- education
+- transport
+- society
+- health
+
+
+{
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "type": "string",
+        "description": "The name of the article."
+      },
+      "description": {
+        "type": "string",
+        "description": "A short description of the article in Portuguese, one sentence, max 20 words."
+      },
+      "length": {
+        "type": "integer",
+        "description": "Approximate length of the article, in characters.",
+        "minimum": 0
+      },
+      "begins_with": {
+        "type": "string",
+        "description": "The exact first 10 characters of the article, to help locate it in the original text."
+      },
+      "ends_with": {
+        "type": "string",
+        "description": "The exact last 10 characters of the article, to help locate it in the original text."
+      },
+      "is_reference": {
+        "type": "boolean",
+        "description": "Indicates if the article is just a reference to another article."
+      },
+      "reference_name": {
+        "type": "string",
+        "description": "If the article is a reference, specifies the name of the referenced article. Null if not a reference."
+      },
+      "categories": {
+        "type": "array",
+        "description": "Up to three categories describing the article, chosen from a predefined list.",
+        "items": {
+          "type": "string",
+          "enum": [
+            "locations",
+            "notable people",
+            "history",
+            "fauna and flora",
+            "religion",
+            "architecture",
+            "law",
+            "art",
+            "education",
+            "transport",
+            "society",
+            "health"
+          ]
+        }
+      }
+    },
+    "required": [
+      "name",
+      "description",
+      "length",
+      "begins_with",
+      "ends_with",
+      "is_reference",
+      "categories"
+    ]
+  }
+}
+
+
+
+[
+  {
+    "begins_with": " Baias as do",
+    "categories": ["locations"],
+    "description": "Refers to the bays of Funchal and Porto Santo, and generically to other inlets.",
+     "ends_with": "e Enseadas do).",
+    "is_reference": true,
+     "length": 123,
+    "name": "Baias",
+    "reference_name": "Madeira (Enseadas da), Funchal (Baía do) e Porto Santo (Baía e Enseadas do)"
+  },
+  {
+    "begins_with": " Baixas. Ao ",
+    "categories": ["locations"],
+     "description": "Refers to reefs or shallows along the archipelago's coast, called Baixas.",
+     "ends_with": "a (Baixas).",
+    "is_reference": true,
+     "length": 115,
+    "name": "Baixas",
+    "reference_name": "Madeira (Baixas)"
+  },
+  {
+    "begins_with": " Baixo (Ilhéu",
+    "categories": ["locations", "history", "fauna and flora"],
+    "description": "Describes the islet of Baixo, its location, geology, and economic importance.",
+     "ends_with": "por lavas supramarinas.",
+    "is_reference": false,
+     "length": 1346,
+    "name": "Baixo (Ilhéu de)",
+    "reference_name":  "null"
+  },
+    {
+    "begins_with": " Baixo (Pico)",
+    "categories": ["locations"],
+    "description": "Refers to a mountain elevation known as Pico de Baixo, in Porto Santo.",
+    "ends_with": "de Baixo.",
+    "is_reference": false,
+    "length": 105,
+    "name": "Baixo (Pico)",
+    "reference_name": "null"
+  },
+  {
+    "begins_with": " Baker (Alice",
+    "categories": ["history"],
+    "description": "Refers to a book about Azores and Madeira, by Alice E. Baker.",
+     "ends_with": "Boston, 1882.",
+    "is_reference": false,
+     "length": 82,
+    "name": "Baker (Alice) E.",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Balancal. Lo",
+    "categories": ["locations"],
+    "description": "Describes the location of Balancal in São Gonçalo, and its panoramic view.",
+    "ends_with": "e seus suburbios.",
+    "is_reference": false,
+     "length": 156,
+    "name": "Balancal",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Balcões. No",
+    "categories": ["locations"],
+     "description": "Describes the location of Balcões, a viewpoint in Ribeiro Frio, and its views.",
+    "ends_with": "nossas montanhas.",
+    "is_reference": false,
+     "length": 174,
+    "name": "Balcões",
+     "reference_name": "null"
+  },
+    {
+    "begins_with": " Balcões (Rua",
+    "categories": ["locations"],
+    "description": "Reference to the street named Rua dos Balcões.",
+    "ends_with": "Rua dos Balcões.",
+    "is_reference": true,
+     "length": 30,
+    "name": "Balcões (Rua dos)",
+    "reference_name": "Rua dos Balcões"
+  },
+  {
+    "begins_with": " Baldios.  Os",
+     "categories": ["locations", "history", "fauna and flora"],
+    "description": "Describes the uncultivated lands of Madeira, their ownership and potential use.",
+     "ends_with": "Vid. Barreiro.",
+    "is_reference": false,
+     "length": 1014,
+    "name": "Baldios",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Baldy  (Dr.",
+     "categories": ["notable people", "history"],
+     "description": "Describes the life and career of José Maria Baldy, governor of Madeira.",
+    "ends_with": "João José Baldy.",
+    "is_reference": false,
+    "length": 418,
+    "name": "Baldy (Dr. José Maria)",
+    "reference_name": "null"
+  },
+    {
+    "begins_with": " Baleias.  Ao",
+    "categories": ["fauna and flora", "history"],
+    "description": "Describes the presence of whales and sperm whales in the archipelago.",
+     "ends_with": "gomito de baleia, por suporem ser um produto do vomito dos grandes mamiferos marinhos.",
+    "is_reference": false,
+     "length": 730,
+    "name": "Baleias",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Baleira (Vil",
+     "categories":["locations", "history"],
+    "description": "Discusses the name and history of Vila Baleira, the capital of Porto Santo.",
+     "ends_with": "freguesia do Porto Santo.",
+    "is_reference": false,
+     "length": 1992,
+    "name": "Baleira (Vila)",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Balsamo  (Me",
+    "categories": ["fauna and flora"],
+    "description": "Describes the plant Mesembrianthemum edule, introduced in Porto Santo.",
+    "ends_with": "da Madeira.",
+    "is_reference": false,
+     "length": 166,
+    "name": "Balsamo (Mesembrianthemum edule)",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Balsamo  de ",
+    "categories": ["fauna and flora"],
+    "description": "Describes the plant Kleinia repens, used in Madeira for wound treatment.",
+     "ends_with": "Boa Esperança.",
+    "is_reference": false,
+     "length": 178,
+    "name": "Balsamo de canudo (Kleinia repens)",
+     "reference_name": "null"
+  },
+    {
+    "begins_with": " Balsamo  de ",
+    "categories": ["fauna and flora"],
+    "description": "Describes the plant Heliotropium peruvianum, a shrub cultivated in Madeira.",
+    "ends_with": "jardins da Madeira.",
+    "is_reference": false,
+    "length": 111,
+    "name": "Balsamo de cheiro (Heliotropium peruvianum)",
+    "reference_name": "null"
+  },
+  {
+    "begins_with": " Balseira.  Er",
+     "categories": ["history","fauna and flora"],
+    "description": "Describes the Balseira system of viticulture, now abandoned.",
+    "ends_with": "vinhedos da ilha.",
+    "is_reference": false,
+     "length": 207,
+    "name": "Balseira",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Bambus.  Sã",
+    "categories": ["fauna and flora"],
+    "description": "Describes different species of bamboos found in Madeira, and their uses.",
+    "ends_with": "boas canas de pescar.",
+    "is_reference": false,
+     "length": 431,
+    "name": "Bambus",
+     "reference_name":"null"
+  },
+  {
+    "begins_with": " Bananeira. A",
+     "categories": ["fauna and flora", "history"],
+     "description":"Describes the cultivation and export of bananas in Madeira, and its different types.",
+     "ends_with": "prestar à sua terra.",
+    "is_reference": false,
+    "length": 1893,
+    "name": "Bananeira",
+    "reference_name": "null"
+  },
+  {
+    "begins_with": " Bancos.  Têm",
+     "categories": ["history", "society"],
+    "description": "Describes the history of banking institutions in Madeira.",
+    "ends_with": "no mercado (1922).",
+    "is_reference": false,
+     "length": 5184,
+    "name": "Bancos",
+     "reference_name": "null"
+  },
+    {
+    "begins_with": " Banda de Al",
+     "categories": ["locations", "history", "religion"],
+    "description":"Describes the populated site of Banda de Além in Machico, and its fishing and religious significance.",
+    "ends_with": "1090 habitantes.",
+    "is_reference": false,
+     "length": 427,
+    "name": "Banda de Além",
+    "reference_name": "null"
+  },
+  {
+     "begins_with": " Banda de Al",
+     "categories": ["locations", "history", "religion"],
+     "description": "Describes the site of Banda de Além in Madalena do Mar, and its old chapel.",
+     "ends_with": "que se ignora.",
+    "is_reference": false,
+     "length": 143,
+     "name": "Banda de Além",
+     "reference_name": "null"
+  },
+  {
+    "begins_with":" Bandeira Coe",
+    "categories": ["notable people", "history"],
+    "description": "Refers to José Bandeira Coelho, a representative of Madeira in parliament.",
+    "ends_with": "de 1897.",
+    "is_reference": false,
+     "length": 107,
+     "name": "Bandeira Coelho (José)",
+     "reference_name": "null"
+  },
+    {
+    "begins_with":" Bandeira Coe",
+    "categories": ["notable people", "history"],
+    "description":"Refers to Luiz Bandeira Coelho, a deputy for the archipelago in the 1890 legislature.",
+     "ends_with": "de 1890.",
+    "is_reference": false,
+     "length": 84,
+     "name":"Bandeira Coelho (Luiz)",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Bandeira da",
+     "categories": ["history", "society"],
+     "description": "Describes the history and evolution of the city flag of Funchal.",
+     "ends_with":"Vid. Armas.",
+    "is_reference": false,
+    "length": 2893,
+    "name": "Bandeira da Cidade",
+     "reference_name": "null"
+  },
+    {
+    "begins_with": " Bando.  Era",
+    "categories": ["history", "society"],
+     "description": "Describes the public announcements method, bando, used in Madeira.",
+    "ends_with": "de D. Luiz I.",
+    "is_reference": false,
+     "length": 258,
+    "name": "Bando",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Banger (John",
+    "categories": ["notable people", "history"],
+    "description": "Describes the English merchant John Light Banger and the pillar he built.",
+     "ends_with": "essa demolição.",
+    "is_reference": false,
+     "length": 866,
+    "name": "Banger (John Light)",
+     "reference_name": "null"
+  },
+  {
+    "begins_with": " Bang up.  N",
+    "categories": ["history", "transport"],
+    "description": "Refers to a yacht, Bang up, that visited Madeira and Porto Santo in 1829.",
+    "ends_with": "jornal funchalense.",
+    "is_reference": false,
+    "length": 197,
+    "name":"Bang up",
+    "reference_name": "null"
+  },
+  {
+    "begins_with":" Banks. (José",
+     "categories":["notable people", "fauna and flora", "history"],
+     "description":"Describes the visit of the botanist José Banks to Madeira in 1768.",
+    "ends_with": "no Museu.",
+    "is_reference": false,
+     "length": 326,
+    "name": "Banks (José)",
+     "reference_name": "null"
+  },
+  {
+    "begins_with":" Baraço.  Ass",
+    "categories":["fauna and flora"],
+    "description": "Describes the use of the word baraço in Madeira.",
+    "ends_with": "da espécie.",
+    "is_reference": false,
+    "length": 122,
+     "name": "Baraço",
+    "reference_name": "null"
+  },
+  {
+    "begins_with": " Baratas.  De",
+    "categories": ["fauna and flora"],
+    "description":"Describes the two most common species of cockroaches in Madeira.",
+     "ends_with": "Blatta.",
+    "is_reference": false,
+     "length": 80,
+    "name": "Baratas",
+     "reference_name": "null"
+  }
+]
