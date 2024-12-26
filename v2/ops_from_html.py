@@ -5,7 +5,7 @@ import time
 import yaml
 from bs4 import BeautifulSoup
 
-ARTICLE_SIZE_THRESHOLD = 3000
+ARTICLE_SIZE_THRESHOLD = 2000
 
 def load_articles(html_string):
     """
@@ -148,12 +148,26 @@ def get_article_count(name, text):
 def run(text):
     out = []
     articles = load_articles(text)
-    long_articles = [article for article in articles if len(article["body"]) >= ARTICLE_SIZE_THRESHOLD]
-    for i in range(len(long_articles)):
-        article = long_articles[i]
-        sys.stderr.write(f"\nArticle {i}/{len(long_articles)} '{article["title"]}'\n")
-        article_info = get_article_count(article["title"], article["body"])
-        article_info["original_name"] = article["title"]
+    long_articles_count = len([article for article in articles if len(article["body"]) >= ARTICLE_SIZE_THRESHOLD])
+    lc = 0
+    for i in range(len(articles)):
+        article = articles[i]
+        if len(article["body"]) >= ARTICLE_SIZE_THRESHOLD:    
+            sys.stderr.write(f"\nArticle  #{i} {lc}/{long_articles_count} '{article["title"]}'\n")
+            article_info = get_article_count(article["title"], article["body"])
+            article_info["original_name"] = article["title"]
+            lc += 1
+        else:
+            article_info = {
+                "original_name": article["title"],
+                "reason": "Article is small, keeping everything as it is",
+                "articles": [
+                    {
+                        "name": article["title"],
+                        "content": article["body"],
+                    }
+                ]
+            }
         out.append(article_info)
 
     return dump_yaml(out)
