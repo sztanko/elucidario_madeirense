@@ -3,6 +3,8 @@ import json
 import sys
 import time
 import yaml
+from bs4 import BeautifulSoup
+
 
 multispace_regex = re.compile(r"([^\s\n])( {2,})([^\s\n])")
 new_page_regex = re.compile(r"\n\n\d{1,4}\n\n")
@@ -10,12 +12,15 @@ page_num_regex = re.compile(r"\n\d+\n\n\n\n")
 new_letter_regex = re.compile(r"\n\n[A-Z]\n\n")
 headers = [
     re.compile(r".*ELUCID.*MADEIR.*VOLUME.*"),
-    #r" ELUCIDÁRIO MADEIRENSE - VOLUME II",
-    #r" ELUCIDÁRIO MADEIRENSE – VOLUME II",
-    #r" ELUCIDÁRIO MADEIRENSE - VOLUME I",
-    #r" ELUCIDÁRIO MADEIRENSE - VOLUME I",
-    #r"                                                                                                                               Vol. III",
-    #r"                                                                                                                                                   ≡ Elucidário Madeirense (O-Z)",
+    re.compile(r".*Elucidário Madeirense \(O-Z\).*"),
+    re.compile(r".*Vol\. III.*"),
+    re.compile(r"\(cid:\d+\)"),
+    # r" ELUCIDÁRIO MADEIRENSE - VOLUME II",
+    # r" ELUCIDÁRIO MADEIRENSE – VOLUME II",
+    # r" ELUCIDÁRIO MADEIRENSE - VOLUME I",
+    # r" ELUCIDÁRIO MADEIRENSE - VOLUME I",
+    # r"                                                                                                                               Vol. III",
+    # r"                                                                                                                                                   ≡ Elucidário Madeirense (O-Z)",
 ]
 
 
@@ -37,7 +42,7 @@ def remove_new_letters(t):
 
 def remove_headers(t):
     for header_regex in headers:
-        t = header_regex.sub("\n", t)
+        t = header_regex.sub("", t)
         # t = t.replace(header, "")
     return t
 
@@ -143,6 +148,7 @@ def preprocess_text(text):
     text = remove_page_numbers(text)
     text = remove_new_letters(text)
     text = remove_ocr_errors(text)
+    text = re.compile(r"\n{3,}").sub("\n", text)
     return text
 
 
@@ -179,15 +185,35 @@ def get_structure(text):
     from prompts import split_articles
     from llms import gemini
 
+    SUSPICIUSLY_LARGE_ARTICLE_SIZE = 10000000
+
     out = gemini.run_llm(split_articles, text)
+    out_content = []
     try:
         content = json.loads(out.text)
+        num_articles = len(content)
+        sys.stderr.write(f"Number of articles: {num_articles}\n")
         for i in range(len(content)):
             c = content[i]
             next_prefix = content[i + 1]["begins_with"] if i + 1 < len(content) else ""
             c["content"] = extract_article_content(text, c, next_prefix)
-            c["length"] = len(c["content"]) # add length of content
-        return content
+            c["length"] = len(c["content"])  # add length of content
+            c["index_in_chunk"] = i
+            if num_articles > 1 and c["length"] >= SUSPICIUSLY_LARGE_ARTICLE_SIZE:
+                sys.stderr.write(f"Article {c['name']} is suspiciously large: {c['length']}\n")
+                sub_structure = get_structure(c["content"])
+                if not sub_structure:
+                    return None
+                if len(sub_structure) > 1:
+                    sys.stderr.write(f"Article {c['name']} has multiple sub-articles\n")
+                    for sc in sub_structure:
+                        out_content.append(sc)
+                else:
+                    sys.stderr.write(f"Article {c['name']} is only one article, despite it's suspicious length\n")
+                    out_content.append(c)
+            else:
+                out_content.append(c)
+        return out_content
     except json.JSONDecodeError as e:
         # print(out.text)
         sys.stderr.write("Error decoding JSON\n")
@@ -195,23 +221,131 @@ def get_structure(text):
         sys.stderr.write(f"Error: {e}\n")
         return None
 
+def transform_articles(html_string):
+    """
+    Takes in a string containing the HTML for multiple articles
+    and returns an array of transformed article strings.
+    """
+    sys.stderr.write("Starting to parse articles...\n")
 
-def extract_article_content(text, structure, next_prefix):
+    soup = BeautifulSoup(html_string, "html.parser")
+    # Find all the divs that have class='article'
+    div_articles = soup.find_all("div", class_="article")
+
+    transformed_articles = []
+    
+    for idx, div_article in enumerate(div_articles):
+        sys.stderr.write(f"Processing article #{idx+1}\n")
+
+        # Get the h1 (for title)
+        h1_tag = div_article.find("h1")
+        title_text = h1_tag.get_text(strip=True) if h1_tag else "No Title"
+
+        # Get the content from the 'article_body' div
+        body_div = div_article.find("div", class_="article_body")
+        if not body_div:
+            # If there's no .article_body, skip
+            continue
+
+        # Replace <br/> with newlines
+        for br in body_div.find_all("br"):
+            br.replace_with("\n")
+
+        # Remove all <span> tags but keep their text
+        # E.g., <span>some text</span> -> "some text"
+        for span in body_div.find_all("span"):
+            span.unwrap()
+
+        # Now get the full text content (stripping extra whitespace)
+        body_text = body_div.get_text()
+        # Optionally, you can clean up extra blank lines or trailing spaces, e.g.:
+        lines = [line.strip() for line in body_text.splitlines()]
+        # Remove empty lines if you want them gone:
+        lines = [line for line in lines if line]  # If you want to remove blank lines
+        body_text = "\n".join(lines)
+
+        # Build the final transformed article
+        transformed_article = (
+            "<!-- ARTICLE -->\n\n"
+            "<article>\n"
+            f"<title>{title_text}</title>\n\n"
+            "<body>\n\n"
+            f"{body_text}\n"
+            "</body>\n"
+            "</article>"
+        )
+
+        transformed_articles.append(transformed_article)
+
+    sys.stderr.write("Finished parsing articles.\n")
+    return transformed_articles
+
+def extract_article_content_old(text, structure, next_prefix):
     text_with_no_new_lines = text.replace("\n", " ")
-    start = structure["begins_with"]
-    end = structure["ends_with"]
+    start = structure["begins_with"].replace("\n", " ")
+    end = structure["ends_with"].replace("\n", " ")
     start_pos = text_with_no_new_lines.find(start)
     remaining_text = text[start_pos:]
     remaining_text_no_new_lines = remaining_text.replace("\n", " ")
     end_pos = remaining_text_no_new_lines.find(end)
     if end_pos == -1:
+        sys.stderr.write(f"End not found: {end} (with start: {start})\n")
         if next_prefix:
-            end_pos = remaining_text_no_new_lines.find(next_prefix)
+            sys.stderr.write(f"Trying to find next prefix: {next_prefix}\n")
+            end_pos = remaining_text_no_new_lines.find(next_prefix.replace("\n", " "))
+            if end_pos == -1:
+                sys.stderr.write(f"Next prefix not found\n")
+                sys.stderr.write(f"Using the whole text as content\n")
+                end_pos = len(remaining_text)
         else:
+            sys.stderr.write(f"Using the whole text as content\n")
             end_pos = len(remaining_text)
     else:
         end_pos += len(end)
     content = remaining_text[0:end_pos]
+    return str(content)
+
+
+def extract_article_content(text, structure, next_prefix):
+    # Replace newlines with spaces for searching
+    text_with_no_new_lines = text.replace("\n", " ")
+
+    start = structure["begins_with"].replace("\n", " ")
+    end = structure["ends_with"].replace("\n", " ")
+
+    # 1) Find the start position
+    start_pos = text_with_no_new_lines.find(start)
+    if start_pos == -1:
+        sys.stderr.write(f"Start not found: {start}\nUsing the whole text as content\n")
+        return str(text)
+
+    # Slice from the start position (in the original text to preserve content)
+    remaining_text = text[start_pos:]
+    remaining_text_no_new_lines = remaining_text.replace("\n", " ")
+
+    # 2) Try to find the next article prefix first
+    end_pos = -1
+    if next_prefix:
+        sys.stderr.write(f"Trying to find next prefix: {next_prefix}\n")
+        next_prefix_no_new_lines = next_prefix.replace("\n", " ")
+        end_pos = remaining_text_no_new_lines.find(next_prefix_no_new_lines)
+        if end_pos == -1:
+            sys.stderr.write(f"Next prefix not found\n")
+
+    # 3) If we couldn't find next_prefix or next_prefix wasn't given,
+    #    then try the current article's `ends_with`
+    if end_pos == -1:
+        sys.stderr.write(f"Trying to find end: {end}\n")
+        end_pos_temp = remaining_text_no_new_lines.find(end)
+        if end_pos_temp == -1:
+            sys.stderr.write(f"End not found: {end} (with start: {start})\n")
+            sys.stderr.write(f"Using the whole text as content\n")
+            end_pos = len(remaining_text)
+        else:
+            # If found, include the `end` marker in the content
+            end_pos = end_pos_temp + len(end)
+
+    content = remaining_text[:end_pos]
     return str(content)
 
 
@@ -270,23 +404,25 @@ def structure_all(text, original_chunk_size):
         t1 = time.time()
         sys.stderr.write(f"Time taken to process this chunk: {round(t1 - t0, 2)} seconds\n")
         if not structure:
-            sys.stderr.write(f"Error processing chunk {chunk_no}...\n")
-            approx_chunk_size = int(approx_chunk_size * 0.9)
+            sys.stderr.write(f"Error processing chunk {chunk_no}...\n\n")
+            approx_chunk_size = int(approx_chunk_size * 0.7)
             continue
         sys.stderr.write(f"Number of articles in this chunk: {len(structure)}\n")
+        for s in structure:
+            s["chunk_no"] = chunk_no
         last_article = structure[-1]
         try:
             last_article_name = last_article["name"]
             sys.stderr.write(f"Last article: {last_article_name}\n")
             if last_article_name == previous_last_article_name:
-                if len(chunk)>= len(text)*0.9:
+                if len(chunk) >= len(text) * 0.9:
                     sys.stderr.write(f"Last article reached: {last_article_name}\n")
-                    break                
+                    break
                 if len(structure) == 1:
                     sys.stderr.write("It looks like the article is quite large, let's increase the chunk size\n")
                     approx_chunk_size += 20000
                     continue
-                
+
             text_stripped = text.replace("\n", " ")
             last_article_start = text_stripped.find(last_article["begins_with"])
             sys.stderr.write(f"Last article start: {last_article_start} out of {len(text_stripped)}\n")
@@ -325,6 +461,7 @@ def run():
         "action", help="Action to perform", choices=["preprocess", "chunks", "structure", "test", "structure-all"]
     )
     parser.add_argument("--chunk-size", help="Approximate size of each chunk", type=int, default=5000)
+    parser.add_argument("--output", help="Output file name", type=str, default="structure.yaml")
     args = parser.parse_args()
 
     if args.action == "preprocess":
@@ -353,7 +490,7 @@ def run():
         if errors:
             # priunt error one by one to stderr
             for e in errors:
-                sys.stderr.write(f"Error in article {e}: {errors[e]}\n")
+                sys.stderr.write(f"Error in article {e}: {errors[e]}\n\n")
         else:
             sys.stderr.write("All tests passed\n")
     elif args.action == "structure-all":
@@ -364,8 +501,9 @@ def run():
         structures = []
         for structure in structure_all(text, args.chunk_size):
             structures += structure
-            with open("structure.yaml", "w") as f:
+            with open(args.output, "w") as f:
                 f.write(dump_yaml(structures))
+                sys.stderr.write(f"\n\n")
     elif args.action == "test":
         sys.stderr.write("Testing...\n")
         sys.stderr.write("Reading chunks...\n")

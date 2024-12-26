@@ -1,4 +1,4 @@
-CHUNK_SIZE=65000
+CHUNK_SIZE=50000
 
 # Step 1: convert pdfs to text
 ../.venv/bin/markitdown ../source/vol_1.pdf > vol_1.md
@@ -11,5 +11,5 @@ cat vol_*.md | python ops.py preprocess > p.txt # this is just for illustration 
 # Step 3: chunk
 # cat vol_*.md | python ops.py chunks --chunk-size $CHUNK_SIZE > chunks.json
 
-cat vol_*.md | python ops.py structure-all --chunk-size $CHUNK_SIZE
+cat vol_*.md | python ops.py structure-all --chunk-size $CHUNK_SIZE structure.yaml
 
