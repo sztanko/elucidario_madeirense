@@ -5,7 +5,7 @@ import time
 import yaml
 from bs4 import BeautifulSoup
 
-ARTICLE_SIZE_THRESHOLD = 2000
+ARTICLE_SIZE_THRESHOLD = 1500
 
 def load_articles(html_string):
     """
