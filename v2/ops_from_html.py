@@ -173,7 +173,12 @@ def run(text):
 
     return dump_yaml(out)
 
-if __name__ == "__main__":
+def main():
     text = sys.stdin.read()
+    file_name = sys.argv[1]
     out = run(text)
-    sys.stdout.write(out)
+    with open(file_name, "w") as f:
+        f.write(out)
+
+if __name__ == "__main__":
+    main()
