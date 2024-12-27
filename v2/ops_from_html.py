@@ -1,7 +1,7 @@
 import re
 import json
 import sys
-import time
+from datetime import datetime
 import yaml
 from bs4 import BeautifulSoup
 
@@ -152,8 +152,9 @@ def run(text):
     lc = 0
     for i in range(len(articles)):
         article = articles[i]
-        if len(article["body"]) >= ARTICLE_SIZE_THRESHOLD:    
-            sys.stderr.write(f"\nArticle  #{i} {lc}/{long_articles_count} '{article["title"]}'\n")
+        if len(article["body"]) >= ARTICLE_SIZE_THRESHOLD:
+            timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+            sys.stderr.write(f"\n{timestamp}: Article  #{i} {lc}/{long_articles_count} '{article["title"]}'\n")
             article_info = get_article_count(article["title"], article["body"])
             article_info["original_name"] = article["title"]
             lc += 1
