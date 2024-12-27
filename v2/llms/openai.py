@@ -3,7 +3,7 @@ import sys
 import time
 from openai import OpenAI
 
-MODEL_NAME = "gpt-4o-mini"
+MODEL_NAME = "gpt-4o"
 MIN_TIME_SEC = 6
 
 # Configure OpenAI client
@@ -53,4 +53,4 @@ def run_llm(config, text):
                 sys.stderr.write("Failed to generate content\n")
                 raise
 
-    return result
+    return result.dict()

@@ -8,7 +8,8 @@ import os
 import google.generativeai as genai
 from google.ai.generativelanguage_v1beta.types import content
 from pydantic import BaseModel, Field
-from typing import List, Optional, str
+from typing import List, Optional
+from enum import Enum
 
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
@@ -61,6 +62,8 @@ CATEGORIES_TEXT_PT = """Até 3 categorias que descrevam o artigo, tem de ser uma
             Cuisine - Inclui artigos sobre a culinária local, bebidas e sua produção.
             Language - Centra-se nos aspetos linguísticos do arquipélago, bem como em obras literárias.
             Legal - Inclui informações acerca do governo e dos sistemas legais na Madeira."""
+            
+
 
 descriptions_en = {
     "name": "article name",
@@ -129,6 +132,36 @@ if LANG == "en":
 else:
     CATEGORIES_TEXT = CATEGORIES_TEXT_PT
 
+categories_schema = content.Schema(
+    type=content.Type.ARRAY,
+    description=descriptions["categories"] + "\n" + CATEGORIES_TEXT,
+    items=content.Schema(
+        type=content.Type.STRING,
+        enum=[
+            "History",
+            "People",
+            "Geography",
+            "Plants",
+            "Animals",
+            "Politics",
+            "Economy",
+            "Farming",
+            "Travel",
+            "Religion",
+            "Arts",
+            "Education",
+            "Places",
+            "Maritime",
+            "Health",
+            "Military",
+            "Transport",
+            "Cuisine",
+            "Language",
+            "Legal",
+        ],
+    ),
+)
+
 structure_schema = content.Schema(
             type=content.Type.OBJECT,
             required=["name", "description", "begins_with", "ends_with", "is_reference", "categories"],
@@ -159,39 +192,12 @@ structure_schema = content.Schema(
                 ),
                 "reference_name": content.Schema(
                     type=content.Type.STRING,
-                    description=descriptions["reference_name"],
+                    description=descriptions["reference_name"]
                 ),
-                "categories": content.Schema(
-                    type=content.Type.ARRAY,
-                    description=descriptions["categories"] + "\n" + CATEGORIES_TEXT,
-                    items=content.Schema(
-                        type=content.Type.STRING,
-                        enum=[
-                            "History",
-                            "People",
-                            "Geography",
-                            "Plants",
-                            "Animals",
-                            "Politics",
-                            "Economy",
-                            "Farming",
-                            "Travel",
-                            "Religion",
-                            "Arts",
-                            "Education",
-                            "Places",
-                            "Maritime",
-                            "Health",
-                            "Military",
-                            "Transport",
-                            "Cuisine",
-                            "Language",
-                            "Legal",
-                        ],
-                    ),
-                ),
-            },
-        )
+                
+                "categories": categories_schema            
+            }
+)
 
 split_articles = {
     "prompt": f"""${split_article_prompt_into}
@@ -216,7 +222,7 @@ Articles are different only if they are discussing completely different topics n
 If text is discussing same topic but followed by special cases of the same topic (e.g. taking place in different date or location, it is still one article.
 If there are more then one articles, those will start with a title (short sentence, often with some clarification in parentheses),
 followed by a period (.) and then the article body itself, that can be one or more paragraphs.  But not all short sentences like this are beginnings of new articles. 
-Articles follow each other mostly in alphabetical order.
+Articles follow each other mostly in alphabetical order. Articles cannot have the same name.
 Most likely, it is a single article.
 Provide information about the articles in structured format.
 """
@@ -236,6 +242,9 @@ article_detector_descriptions_en = {
     'ends_with': 'Exact last 30 characters of the article body, so I can find it in the original text',
     'reason': 'Short reasoning (up to 200 characters) in english explaining your decision on number of articles',
     'articles': 'List of articles in the text, with some information on start end end to find them. Max 3 items',
+    "categories": """Up to 3 categories matching the article""",
+    "is_reference": "is this article just a reference to another article? It is very short, and only contains something like 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
+    "reference_name": "if yes, specify the name of the referenced article",
 }
 
 article_detector_descriptions_pt = {
@@ -243,7 +252,7 @@ article_detector_descriptions_pt = {
     'begins_with': 'Primeiros 30 caracteres exatos do corpo do artigo, para que eu possa encontrá-lo no texto original',
     'ends_with': 'Últimos 30 caracteres exatos do corpo do artigo, para que eu possa encontrá-lo no texto original',
     'reason': 'Caso haja mais de um artigo, a tua justificação em inglês do porquê acreditas que sim.',
-    'articles': 'Lista de artigos no texto, juntamente com algumas informações para os encontrar',
+    'articles': 'Lista de artigos no texto, juntamente com algumas informações para os encontrar',    
 }
 
 article_detector_descriptions = article_detector_descriptions_en if LANG == "en" else article_detector_descriptions_pt
@@ -267,6 +276,16 @@ multi_article_detector_list_schema = content.Schema(
                 type=content.Type.STRING,
                 description=article_detector_descriptions["ends_with"],
             ),
+            # DO NOT GET MORE STUFF, IT WILL BECOME WILD
+            # "is_reference": content.Schema( 
+            #     type=content.Type.BOOLEAN,
+            #     description=descriptions["is_reference"],
+            # ),
+            # "reference_name": content.Schema(
+            #     type=content.Type.STRING,
+            #     description=descriptions["reference_name"],
+            # ),
+            # "categories": categories_schema   
         },
     ),
 )
@@ -293,16 +312,16 @@ detect_articles = {
 split_article_prompt = """Below is a text that contains one article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
 Split this article into thematic subpaarts, each subchapter should:
 - have it's own subtitle
-- not be longer than 500 words, if possible
+- should be 200-300 words, if possible
 
 Return a list of objects, each containing the subtitle, first 30 characters of the subchapter, and last 30 characters of the subchapter.
 """
 
 split_article_descriptions_en = {
-    'subtitle': 'Title of the subchapter',
-    'begins_with': 'Exact first 30 characters of the article body, so I can find it in the original text',
-    'ends_with': 'Exact last 30 characters of the article body, so I can find it in the original text',
-    'description': 'Max 150 characters. Description of the subchapter, and explanation why this was selected as a subchapter, all in english',
+    'subtitle': 'Title of the subchapter, in english',
+    'begins_with': 'Exact first 30 characters of the article body, so I can find it using pythons str.find() method',
+    'ends_with': 'Exact last 30 characters of the article body, so I can find it using pythons str.find() method',
+    'short_summary': 'Very shortened version of the subchapter, max 150 characters, all in english',
     'category': f'Array of categories that could match this subarticle. Put down no more then three, ideally just one'
 }
 
@@ -331,8 +350,8 @@ class CategoryEnum(str, Enum):
     Legal = "Legal"
 
 class SubArticle(BaseModel):
-    subtitle: Optional[str] = Field(
-        None,
+    subtitle: str = Field(
+        ...,
         description=split_article_descriptions["subtitle"]
     )
     begins_with: str = Field(
@@ -343,23 +362,29 @@ class SubArticle(BaseModel):
         ...,  # Required field
         description=split_article_descriptions["ends_with"]
     )
-    description: Optional[str] = Field(
+    short_summary: Optional[str] = Field(
         None,
-        description=split_article_descriptions["description"]
+        description=split_article_descriptions["short_summary"]
     )
-    categories: List[CategoryEnum] = Field(
-        ...,  # Required field
-        max_items=3,
-        description=split_article_descriptions["category"]
-    )
-    is_reference: bool = Field(
-        ...,  # Required field
-        description="True if this article is a reference to another article. Reference articles are very short and contain only reference text."
-    )
-    reference_name: Optional[str] = Field(
-        None,
-        description="The name of the referenced article if this article is a reference."
-    )
+    # full_text: str = Field(
+    #     ...,
+    #     description="Full content of the subarticle, should be exact quote of the original text"
+    # )
+    # categories: List[CategoryEnum] = Field(
+    #     ...,  # Required field
+    #     description=split_article_descriptions["category"]
+    # )
+    # is_reference: bool = Field(
+    #     ...,  # Required field
+    #     description="True if this article is a reference to another article. Reference articles are very short and contain only reference text."
+    # )
+    # reference_name: Optional[str] = Field(
+    #     None,
+    #     description="The name of the referenced article if this article is a reference."
+    # )
+    
+    class Config:
+        use_enum_values = True 
 
 class SplitArticleSchema(BaseModel):
     subparts: List[SubArticle] = Field(
@@ -373,18 +398,10 @@ split_article = {
     "schema": SplitArticleSchema
 }
 
-
-
-from typing import Optional, List
-from pydantic import BaseModel, Field
-from enum import Enum
-import logging
-
-logging.basicConfig(level=logging.INFO)
-
+context_clarification = """Should be Short (up to 200 characters) self-sufficent explanation, so that someone who is not familiar with the article can fully understand without reading the whole article."""
 
 # =========================== 1) GEOGRAPHICAL LOCATIONS ===========================
-list_locations_prompt = """Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+list_locations_prompt = f"""Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
 Give me a list of geographical locations mentioned in this article.
 Return a list of dicts, each dict containing the following:
 
@@ -395,7 +412,7 @@ Return a list of dicts, each dict containing the following:
 "frequesia" - frequesia, in which this location is located
 "place" - place name, in which this location can be found
 "type" - type of location (continent, country, island, city, area, frequesia, other place name)
-"context" - context, in which this location is mentioned in this article
+"context" - what happened in this location in the context this article. {context_clarification}
 "is_madeira" - true, if the location is in madeira
 "is_significant" - true, if this location plays a significant role in this article, otherwise false
 """
@@ -417,12 +434,12 @@ class LocationItem(BaseModel):
     frequesia: Optional[str] = Field(None, description="Frequesia (administrative division)")
     place: Optional[str] = Field(None, description="Specific place name")
     type: LocationTypeEnum = Field(..., description="Type of the location")
-    context: Optional[str] = Field(None, description="Context in which the location is mentioned")
-    is_madeira: bool = Field(..., description="Whether the location is in Madeira")
+    context: Optional[str] = Field(None, description=f"what happened in this location in the context this article. {context_clarification}")
+    is_madeira: bool = Field(..., description="true, if the location is in Madeira")
     is_significant: bool = Field(..., description="Whether the location is significant in the article")
 
 class LocationListSchema(BaseModel):
-    locations: List[LocationItem] = Field(..., description="List of all geographical locations mentioned")
+    items: List[LocationItem] = Field(..., description="List of all geographical locations mentioned")
 
 list_locations = {
     "prompt": list_locations_prompt,
@@ -431,24 +448,24 @@ list_locations = {
 
 
 # =========================== 2) PEOPLE MENTIONED ===========================
-list_people_prompt = """Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+list_people_prompt = f"""Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
 Give me a list of people mentioned in this article.
 Return list of dicts each dict containing the following:
 
 "name" - name of the person
 "title" - if person has a title (e.g. dr, ), put it down here
-"context" - context in which this person is mentioned in this article
+"context" - context in which this person is mentioned in this article. {context_clarification}
 "is_significant" - true, if this person plays a significant role in this article, otherwise false
 """
 
 class PersonItem(BaseModel):
     name: str = Field(..., description="Person's name")
     title: Optional[str] = Field(None, description="Person's title (e.g. Dr, Prof, etc.)")
-    context: Optional[str] = Field(None, description="Context in which this person is mentioned")
+    context: Optional[str] = Field(None, description=f"context in which this person is mentioned in this article. {context_clarification}")
     is_significant: bool = Field(..., description="Whether this person is significant in the article")
 
 class PeopleListSchema(BaseModel):
-    people: List[PersonItem] = Field(..., description="List of people mentioned")
+    items: List[PersonItem] = Field(..., description="List of people mentioned")
 
 list_people = {
     "prompt": list_people_prompt,
@@ -457,7 +474,7 @@ list_people = {
 
 
 # =========================== 3) DATES OR DATE RANGES ===========================
-list_dates_prompt = """Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+list_dates_prompt = f"""Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
 Give me a list of dates or date ranges mentioned in this article. Ignore dates for which year cannot be deducted.
 Return list of dicts each dict containing the following:
 
@@ -469,7 +486,7 @@ if this is a date range
 "year_to" - end year of this date range
 "month_to" - end month of this date range (1-12). Leave empty if not specified.
 "day_to" - end day of this date range (1-31). Leave empty if not specified.
-"context" - what happened in this year.
+"context" - what happened on this date in the context of the article. {context_clarification}
 "is_significant" - true, if this date or date range plays a significant role in this article.
 """
 
@@ -481,11 +498,11 @@ class DateItem(BaseModel):
     year_to: Optional[int] = Field(None, description="End year if this is a range")
     month_to: Optional[int] = Field(None, description="End month if this is a range")
     day_to: Optional[int] = Field(None, description="End day if this is a range")
-    context: Optional[str] = Field(None, description="Context of the date or date range")
+    context: Optional[str] = Field(None, description=f"what happened on this date in the context of the article. {context_clarification}")
     is_significant: bool = Field(..., description="Whether this date or range is significant")
 
 class DateListSchema(BaseModel):
-    dates: List[DateItem] = Field(..., description="List of dates or date ranges mentioned")
+    items: List[DateItem] = Field(..., description="List of dates or date ranges mentioned")
 
 list_dates = {
     "prompt": list_dates_prompt,

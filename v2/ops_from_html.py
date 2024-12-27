@@ -5,7 +5,10 @@ from datetime import datetime
 import yaml
 from bs4 import BeautifulSoup
 
-ARTICLE_SIZE_THRESHOLD = 1500
+ARTICLE_SIZE_THRESHOLD = 1000
+
+def normalize_newlines(text: str) -> str:
+    return re.sub(r"\n{2,}", "\n", text)
 
 def load_articles(html_string):
     """
@@ -144,6 +147,7 @@ def get_article_count(name, text):
         sys.stderr.write(f"Error: {e}\n")
         return None
     
+UNTOUCHABLE_ARTICLES = ['Levadas']
 
 def run(text):
     out = []
@@ -152,13 +156,14 @@ def run(text):
     lc = 0
     for i in range(len(articles)):
         article = articles[i]
-        if len(article["body"]) >= ARTICLE_SIZE_THRESHOLD:
+        if len(article["body"]) >= ARTICLE_SIZE_THRESHOLD and article["title"] not in UNTOUCHABLE_ARTICLES:
             timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
             sys.stderr.write(f"\n{timestamp}: Article  #{i} {lc}/{long_articles_count} '{article["title"]}'\n")
             article_info = get_article_count(article["title"], article["body"])
             article_info["original_name"] = article["title"]
             lc += 1
         else:
+            # continue
             article_info = {
                 "original_name": article["title"],
                 "reason": "Article is small, keeping everything as it is",
@@ -169,8 +174,10 @@ def run(text):
                     }
                 ]
             }
+        # normalize_newlines
+        for article in article_info["articles"]:
+            article["content"] = normalize_newlines(article["content"])
         out.append(article_info)
-
     return dump_yaml(out)
 
 def main():
