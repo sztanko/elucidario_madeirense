@@ -4,11 +4,9 @@ import sys
 from datetime import datetime
 import yaml
 from bs4 import BeautifulSoup
+from llms.utils import extract_article_content
 
 ARTICLE_SIZE_THRESHOLD = 1000
-
-def normalize_newlines(text: str) -> str:
-    return re.sub(r"\n{2,}", "\n", text)
 
 def load_articles(html_string):
     """
@@ -85,7 +83,7 @@ def dump_yaml(data):
     # Dump YAML with the custom Dumper
     return yaml.dump(data, Dumper=LiteralDumper, default_flow_style=False, allow_unicode=True, sort_keys=False)
 
-def extract_article_content(text, structure):
+def extract_article_content_old(text, structure):
     text_with_no_new_lines = text.replace("\n", " ")
     start = structure["begins_with"].replace("\n", " ")
     end = structure["ends_with"].replace("\n", " ")
@@ -133,12 +131,13 @@ def get_article_count(name, text):
                 c = content["articles"][i]
                 sys.stderr.write(f"Article  {i} title: {c["name"]}\n")
                 next_prefix = content["articles"][i + 1]["begins_with"] if i + 1 < len(content["articles"]) else content["articles"][i]["ends_with"]
-                c["content"] = extract_article_content(text, c) #, next_prefix)
+                c["content"] = extract_article_content(text, content["articles"][i]["begins_with"], content["articles"][i]["ends_with"], next_prefix)
                 c["length"] = len(c["content"])  # add length of content
                 out_content.append(c)
             content["articles"] = out_content
         else:
             content["articles"][0]["content"] = text
+            content["articles"][0]["name"] = name
         return content
     except json.JSONDecodeError as e:
         sys.stderr.write(f"\n" + out.text + "\n\n")
@@ -175,8 +174,8 @@ def run(text):
                 ]
             }
         # normalize_newlines
-        for article in article_info["articles"]:
-            article["content"] = normalize_newlines(article["content"])
+        # for article in article_info["articles"]:
+            # article["content"] = normalize_newlines(article["content"])
         out.append(article_info)
     return dump_yaml(out)
 

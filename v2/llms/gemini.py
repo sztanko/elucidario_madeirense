@@ -5,11 +5,12 @@ import time
 MODEL_NAME="gemini-2.0-flash-exp"
 
 import google.generativeai as genai
-MIN_TIME_SEC = 6
-
+MIN_TIME_SEC = 6.1
+last_call = time.time()
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 
 def run_llm(config, text):
+    global last_call
     retry_count = 5
     prompt = config["prompt"]
     schema = config["schema"]
@@ -34,13 +35,15 @@ def run_llm(config, text):
             #    ]
             #    )
             t0=time.time()
-            result = model.generate_content(text, generation_config=generation_config)
-            t1=time.time()
-            if t1-t0 < MIN_TIME_SEC:
-                time.sleep(0.1 + MIN_TIME_SEC - (t1-t0))
+            if t0 - last_call < MIN_TIME_SEC:
+                time.sleep(MIN_TIME_SEC)
+            last_call = time.time()
+            result = model.generate_content(text, generation_config=generation_config)                        
+            #if t1-t0 < MIN_TIME_SEC:
+            #    time.sleep(0.1 + MIN_TIME_SEC - (t1-t0))
         except Exception as e:
             sys.stderr.write(f"Error: {e}\n")
-            sys.stderr.write(f"Retrying in 10 seconds...\n")
+            sys.stderr.write(f"Retrying in {MIN_TIME_SEC} seconds...\n")
             time.sleep(MIN_TIME_SEC)
             result = None
             retry_count -= 1
