@@ -67,13 +67,14 @@ CATEGORIES_TEXT_PT = """Até 3 categorias que descrevam o artigo, tem de ser uma
 
 descriptions_en = {
     "name": "article name",
-    "alternative_name": "based on the content, suggest the best possible name for this article in english, if different from the original. Should not include 'Madeira' in it, as the whole encyclopedia is about this island.",
-    "description": 'short description of article in english, one sentence, max 20 words. When summarizing an article, avoid starting with "this article" and go straight to the core content.',
+    "alternative_name": "based on the content, suggest the best possible name for this article in portuguese, if different from the original. Should not include 'Madeira' in it, as the whole encyclopedia is about this island.",
+    "description": 'short description of article in portuguese, one sentence, max 20 words. When summarizing an article, avoid starting with "this article" and go straight to the core content.',
     "begins_with": "exact first 30 characters of the article, first line only, so I can find it in the original text. if first line is shorter than 30 characters, use the whole line.",
     "ends_with": "exact last 30 characters of the article, last line only, so I can find it in the original text. if last line is shorter than 30 characters, use the whole line.",
     "is_reference": "is this article just a reference to another article? It is very short, and only contains something like 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
-    "reference_name": "if yes, specify the name of the referenced article",
-    "categories": """Up to 3 categories describing the article""",
+    "reference": "Name of the referenced article. Typically references to other articles look like V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
+    "references": "List of all references to other articles",
+    "categories": """Up to 3 categories describing the article""",    
 }
 
 descriptions_pt = {
@@ -83,7 +84,7 @@ descriptions_pt = {
     "begins_with": "primeiros 30 caracteres exatos do artigo, apenas na primeira linha, para que eu possa encontrá-lo no texto original. se a primeira linha for mais curta que 30 caracteres, use a linha inteira.",
     "ends_with": "últimos 30 caracteres exatos do artigo, apenas na última linha, para que eu possa encontrá-lo no texto original. se a última linha for mais curta que 30 caracteres, use a linha inteira.",
     "is_reference": "este artigo é apenas uma referência para outro artigo? É muito curto e contém somente algo como 'V. <nome do artigo referenciado>' ou 'Vid. <nome do artigo referenciado>' ou '(V. este nome)'",
-    "reference_name": "se sim, especifique o nome do artigo referenciado",
+    "reference": "se sim, especifique o nome do artigo referenciado",
     "categories": "Até 3 categorias que descrevam o artigo",
 }
 
@@ -92,12 +93,15 @@ if LANG == "en":
 else:
     descriptions = descriptions_pt
 
-split_article_prompt_intro_en = """Following is a text of one or more articles from Elucidario Madeirense, an encyclopaedic work about Madeira.
-Typically each article starts in a new paragraph with a title (short sentence, often with some clarification in parentheses), followed by period (.) and then the article body itself, that can be one or more paragraphs. In most cases, articles are follow each other in alphabetical order.
-Output a list of objects, each containing information about one article. Infer boundaries of each article based on it's context and subject. Lists of historical dates should be a single article.
-Make sure each object contains information only about one article. There cannot be any overlap between articles.
+structure_article_prompt_intro_en = """Following is a text of an article from Elucidario Madeirense, an encyclopaedic work about Madeira.
+Return an object containing some metadata about the article, including categories, references, and other information.
 
-Each object should have the following keys:"""
+Object should have the following keys:"""
+
+structure_article_prompt_intro_pt = """Segue-se um texto de um artigo do Elucidário Madeirense, uma obra enciclopédica sobre a Madeira.
+Retorna um objeto contendo metadados sobre o artigo. 
+O objeto deve conter as seguintes chaves:"""
+
 
 html_article_prompt_intro_en = """Following is a text of one or more articles from Elucidario Madeirense, an encyclopaedic work about Madeira.
 There might be one or more articles in the text enclosed by <body>. You would need to split the text into individual articles.  Infer boundaries of each article based on their content.
@@ -114,13 +118,7 @@ Na maioria das vezes, os artigos surgem em sequência alfabética.
 Cada objeto deve conter as seguintes chaves:"""
 
 
-split_article_prompt_intro_pt = """Segue-se abaixo um texto que pode conter um ou mais artigos do Elucidário Madeirense, uma obra enciclopédica sobre a Madeira.
-Normalmente, cada artigo começa num novo parágrafo com um título (frase curta, por vezes com algum esclarecimento entre parênteses), seguido de um ponto (.) e, em seguida, o corpo do artigo em si, que pode abranger um ou mais parágrafos. Na maior parte das vezes, os artigos surgem em ordem alfabética.
 
-Gere uma lista de objetos, em que cada objeto contenha informações acerca de um único artigo. Deduza os limites de cada artigo tendo em conta o seu contexto e tema. Listas de datas históricas devem ser consideradas um único artigo.
-Ignore o texto introdutório e considere somente os artigos. Assegure-se de que cada objeto inclua informação de apenas um artigo. Não pode haver qualquer sobreposição entre artigos.
-
-Cada objeto deve conter as seguintes chaves:"""
 
 if LANG == "en":
     split_article_prompt_into = html_article_prompt_intro_en
@@ -158,13 +156,14 @@ categories_schema = content.Schema(
             "Cuisine",
             "Language",
             "Legal",
+            "Other"
         ],
     ),
 )
 
 structure_schema = content.Schema(
             type=content.Type.OBJECT,
-            required=["name", "description", "begins_with", "ends_with", "is_reference", "categories"],
+            required=["name", "description", "is_reference", "references", "categories"],
             properties={
                 "name": content.Schema(
                     type=content.Type.STRING,
@@ -178,41 +177,32 @@ structure_schema = content.Schema(
                     type=content.Type.STRING,
                     description=descriptions["description"],
                 ),
-                "begins_with": content.Schema(
-                    type=content.Type.STRING,
-                    description=descriptions["begins_with"],
-                ),
-                "ends_with": content.Schema(
-                    type=content.Type.STRING,
-                    description=descriptions["ends_with"],
+                "references": content.Schema(
+                    type=content.Type.ARRAY,
+                    description=descriptions["references"],
+                    items=content.Schema(
+                        type=content.Type.STRING,
+                        description=descriptions["reference"]
+                    ),
                 ),
                 "is_reference": content.Schema(
                     type=content.Type.BOOLEAN,
                     description=descriptions["is_reference"],
                 ),
-                "reference_name": content.Schema(
-                    type=content.Type.STRING,
-                    description=descriptions["reference_name"]
-                ),
-                
                 "categories": categories_schema            
             }
 )
 
-split_articles = {
-    "prompt": f"""${split_article_prompt_into}
+add_structure = {
+    "prompt": f"""${structure_article_prompt_intro_en}
         "name" - ${descriptions["name"]}
         "alternative_name" - ${descriptions["alternative_name"]}
         "description" - ${descriptions["description"]}
-        "begins_with" - ${descriptions["begins_with"]}
-        "ends_with" - ${descriptions["ends_with"]}
         "is_reference" - ${descriptions["is_reference"]}
-        "reference_name" - ${descriptions["reference_name"]}
+        "references" - ${descriptions["references"]}
         "categories" = ${descriptions["categories"]}
         """,
-    "schema": content.Schema(
-        type=content.Type.ARRAY,
-        items=structure_schema)
+    "schema": structure_schema
 }
 
 
@@ -240,11 +230,8 @@ article_detector_descriptions_en = {
     'name': 'Name of the article',
     'begins_with': 'Exact first 30 characters of the article body, so I can find it in the original text',
     'ends_with': 'Exact last 30 characters of the article body, so I can find it in the original text',
-    'reason': 'Short reasoning (up to 200 characters) in english explaining your decision on number of articles',
-    'articles': 'List of articles in the text, with some information on start end end to find them. Max 3 items',
-    "categories": """Up to 3 categories matching the article""",
-    "is_reference": "is this article just a reference to another article? It is very short, and only contains something like 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
-    "reference_name": "if yes, specify the name of the referenced article",
+    'reason': 'Short reasoning (up to 200 characters) in portuguese explaining your decision on number of articles',
+    'articles': 'List of articles in the text, with some information on start end end to find them. Max 3 items',    
 }
 
 article_detector_descriptions_pt = {
@@ -318,10 +305,10 @@ Return a list of objects, each containing the subtitle, first 30 characters of t
 """
 
 split_article_descriptions_en = {
-    'subtitle': 'Title of the subchapter, in english',
+    'subtitle': 'Title of the subchapter, in portuguese',
     'begins_with': 'Exact first 30 characters of the article body, so I can find it using pythons str.find() method',
     'ends_with': 'Exact last 30 characters of the article body, so I can find it using pythons str.find() method',
-    'short_summary': 'Very shortened version of the subchapter, max 150 characters, all in english',
+    'short_summary': 'Very shortened version of the subchapter, max 150 characters, all in portuguese',
     'category': f'Array of categories that could match this subarticle. Put down no more then three, ideally just one'
 }
 
@@ -385,24 +372,23 @@ split_article = {
     "schema": SplitArticleSchema_schema
 }
 
-context_clarification = """Should be Short (up to 200 characters) self-sufficent explanation in english, so that someone who is not familiar with the article can fully understand without reading the whole article. Should be mentioned directly. Ideally, mention date, location and people involved in the event."""
+context_clarification = """Should be Short (up to 200 characters) self-sufficent explanation in portuguese, so that someone who is not familiar with the article can fully understand without reading the whole article. Should be mentioned directly. Ideally, mention date, location and people involved in the event."""
 
 # =========================== 1) GEOGRAPHICAL LOCATIONS ===========================
 list_locations_prompt = f"""Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
-Give me a list of geographical locations mentioned in this article. 
+Give me a list of geographical locations (proper nouns only) mentioned in this article. 
 If the extracted location is part of a broader area mentioned (e.g., a region, county, or administrative division), do not list the broader area separately unless it is the only location specified.
 Each extracted location should be unique and specific, avoiding redundancy by omitting overlapping or encompassing areas unless explicitly mentioned without a more specific location.
-For example, If the text says "Rabaçal, located in the municipality of Calheta," extract Rabaçal and omit Calheta.
-Only include max 15 most important locations.
-If location is in Madeira, it should be specific enough to at least include frequesia, otherwise ignore it.
+For example, If the text says "Rabaçal, located in the municipality of Calheta," extract Rabaçal as Location with Calheta as municipality and do not make a separate entry for Calheta only.
+Ignore madeiran locations for which it is not possible to determine the frequesia.
 Omit a location if not enough specific information is provided about it in the article to create an informative context.
-If the event related to this location also has a date, include the date in the context as well.
+If the event related to this location also has a date and or people involved, include those in the context as well.
+All names should be in portuguese.
 Return a list of dicts, each dict containing the following:
 
-"location" - name of the geographical location
+"location" - name of the geographical location. Proper noun only.
 "continent" - continent of the location.
 "country" - country of the location.
-"region" - region of the location
 "municipality" - municipality of the location, madeira locations only
 "frequesia" - frequesia, in which this location is located, madeira locations only
 "place" - place name or area as specific as possible (proper noun), in which this location can be found
@@ -420,7 +406,7 @@ LocationItem_schema = content.Schema(
     properties={
         "location": content.Schema(
             type=content.Type.STRING,
-            description="Name of the geographical location. Modern name, if possible."
+            description="Name of the geographical location in portuguese. Modern name, if possible."
         ),
         "continent": content.Schema(
             type=content.Type.STRING,
@@ -429,10 +415,6 @@ LocationItem_schema = content.Schema(
         "country": content.Schema(
             type=content.Type.STRING,
             description=f"Country. {infer_location_clarification}"
-        ),
-        "region": content.Schema(
-            type=content.Type.STRING,
-            description=f"Region. {infer_location_clarification}"
         ),
         "frequesia": content.Schema(
             type=content.Type.STRING,
@@ -503,7 +485,7 @@ LocationItem_schema = content.Schema(
         ),
         "context": content.Schema(
             type=content.Type.STRING,
-            description=f"what happened in this location in the context of this article. {context_clarification}"
+            description=f"What happened in this location in the context of this article. {context_clarification}"
         ),
         "is_madeira": content.Schema(
             type=content.Type.BOOLEAN,
@@ -536,7 +518,7 @@ list_locations = {
 # =========================== 2) PEOPLE MENTIONED ===========================
 list_people_prompt = f"""Below is a text from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
 Give me a list of people mentioned in this article.
-Each extracted person should be unique and specific.
+Each extracted person should be unique and specific. It also should explain who that person was.
 Only include max 15 most important personas.
 Omit a person if not enough specific information is provided about it in the article to create an informative context.
 Return list of dicts each dict containing the following:
@@ -671,3 +653,12 @@ list_dates = {
     "schema": DateListSchema_schema
 }
 
+
+schmea_for_translation = {
+    "list_locations": list_locations,
+    "list_people": list_people,
+    "list_dates": list_dates,
+    "split_article": split_article,
+    "detect_articles": detect_articles,
+    "add_structure": add_structure
+}

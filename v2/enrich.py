@@ -5,9 +5,10 @@ from datetime import datetime
 import yaml
 from llms import gemini
 from llms.utils import extract_article_content
-from prompts import list_dates, list_locations, list_people, split_article as split_article_config
+from prompts import list_dates, list_locations, list_people, split_article as split_article_config, add_structure
 
 sample_articles = [
+    "Alfinetes de Senhora.",
     "Tesoura (Forficula auricularia)",
     "Arco de São Jorge (Freguesia do)",
     "Abelha (Apis mellifica)",
@@ -50,6 +51,17 @@ def split_article(name, content):
     splits = json.loads(splits_response.text)["subparts"]
     for split in splits:
         yield split
+
+def get_article_metadata(name, content):
+    sys.stderr.write(f"Getting metadata for: {name}\n")
+    text = f"""<article>
+    <name>{name}</name>
+    <content>{content}</content>
+    </article>"""
+    
+    metadata_response = gemini.run_llm(add_structure, text)
+    metadata = json.loads(metadata_response.text)
+    return metadata
 
 def get_additional_info(title, subtitle, content):
     sys.stderr.write(f"Getting additional info for: {subtitle}\n")
@@ -100,9 +112,10 @@ def enrich_articles(file_name):
         if False or name in sample_articles:
             article = {}
             article["name"] = name
+            article["metadata"] = get_article_metadata(name, content)
             article["splits"] = []
             subpart_length = 0
-            if len(content) < 2000:
+            if len(content) < 2000 or article["metadata"]["is_reference"]:
                 splits  = [
                     {
                         "full_text": content,
@@ -123,7 +136,10 @@ def enrich_articles(file_name):
                     split['word_count'] = len(sub_content.split())
                 else:
                     sub_content = split['full_text']
-                additional_info = get_additional_info(name, subtitle, sub_content)
+                if len(content) > 500 and not article["metadata"]["is_reference"]:                
+                    additional_info = get_additional_info(name, subtitle, sub_content)
+                else:
+                    additional_info = {}
                 split['additional_info'] = additional_info
                 subpart_length += len(split['full_text'])                
                 article["splits"].append(split)            
@@ -135,10 +151,10 @@ def main(file_name: str, out_file_name):
     out = []
     for article in enrich_articles(file_name):
         out.append(article)
-    with open(out_file_name, "w") as f:
-        f.write(yaml.dump(out, Dumper=yaml.Dumper, default_flow_style=False, allow_unicode=True))
-        sys.stderr.write(f"Written {len(out)} articles to {out_file_name}\n")
-        # yaml.dump(out, Dumper=yaml.Dumper, default_flow_style=False, allow_unicode=True)
+        with open(out_file_name, "w") as f:
+            f.write(yaml.dump(out, Dumper=yaml.Dumper, default_flow_style=False, allow_unicode=True))
+            sys.stderr.write(f"Written {len(out)} articles to {out_file_name}\n")
+    sys.stderr.write("All Finished!")
         
 if __name__ == "__main__":
     main(sys.argv[1], sys.argv[2])
