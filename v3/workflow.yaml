@@ -1,0 +1,158 @@
+- name: detect_multi_articles
+  description: detect if the text contains multiple articles
+  prompt: |
+    Below is a text that contains that contains most likely one, but sometimes AT MOST three articles from Elucidario Madeirense, an encyclopaedic work about Madeira.
+    Articles are different only if they are discussing completely different topics not related to each other.
+    If text is discussing same topic but followed by special cases of the same topic (e.g. taking place in different date or location, it is still one article.
+    If there are more then one articles, those will start with a title (short sentence, often with some clarification in parentheses),
+    followed by a period (.) and then the article body itself, that can be one or more paragraphs.  But not all short sentences like this are beginnings of new articles. 
+    Articles follow each other mostly in alphabetical order. Articles cannot have the same name.
+    Most likely, it is a single article.
+  output_schema: 
+    is_multi_article: boolean, true if the text contains multiple articles, false otherwise
+    suggested_articles: an array of articles, each article contains name
+    reasoning: string, explanation of the decision
+- name: split_multi_articles
+  precondition: detect_multi_articles.is_multi_article is true
+  dependencies:
+    - detect_multi_articles
+  description: This text actually contains {len(suggested_articles) }} articles. Split them.
+  output_schema: an array of articles, each article contains name, first_30_chars, last_30_chars
+  post_processing: 
+    - extract text based on begins_with and ends_with and assign it to 'body' field
+    - add each output to execution queue
+  prompt: |
+    Below is a text that contains {len(suggested_articles) }} articles from Elucidario Madeirense, an encyclopaedic work about Madeira.
+    Articles are different only if they are discussing completely different topics not related to each other.
+    If text is discussing same topic but followed by special cases of the same topic (e.g. taking place in different date or location, it is still one article.
+    If there are more then one articles, those will start with a title (short sentence, often with some clarification in parentheses),
+    followed by a period (.) and then the article body itself, that can be one or more paragraphs.  But not all short sentences like this are beginnings of new articles. 
+    Articles follow each other mostly in alphabetical order. Articles cannot have the same name.    
+    Provide information about the articles in structured format. Each article should have a name, and the text that belongs to it.
+- name: detect_reference
+  dependencies:
+    - detect_multi_articles
+  description: check if the article is a reference
+  output_schema:
+    is_reference: boolean, true if the text is a reference. False, if this is an actual article
+    reference: string, name of the referenced article
+    reasoning: string, explanation of the decision
+  prompt: |
+    Check if this article is a reference to another article.
+    It is very short, and only contains something like 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
+    "reference": "Name of the referenced article. Typically references to other articles look like V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'"
+- name: detect_enumeration
+  dependencies:
+    - detect_multi_articles
+    - detect_reference
+  description: check if the article is an enumeration
+  output_schema:
+    is_enumeration: boolean, true if the text is a reference, that is, cointains some list of iterm,s e.g. dates, or places or people
+    reasoning: string, explanation of your decision
+  precondition: detect_reference.is_reference is false
+  prompt: |
+    Check if this article is a reference to another article.
+    It is very short, and only contains something like 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
+    "reference": "Name of the referenced article. Typically references to other articles look like V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'"
+- name: split_into_chapters
+  dependencies:
+    - detect_multi_articles
+    - detect_reference
+    - detect_enumeration
+  precondition: is_reference is false, is_enumeration is false
+  description: split the article into paragraphs
+  prompt: |
+    Below is a text that contains one article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+    Split this article into thematic subchapters, each subchapter should:
+      - be at least 1500 characters long (300 words minimum)
+      - have it's own subtitle that follows the style in which the article is written in
+    Come up with the most appropriate way to split the article, based on it's topic and content and existing paragraphs.
+    Return a list of objects, each containing the subtitle, first 30 characters of the subchapter, and last 30 characters of the subchapter.    
+  output_schema:
+    reasoning: string, explanation of the decision
+    chapters: |
+      an array of objects representing a subchapter, each object contains:
+      - subtitle: string a title you would give to this chapter,
+      - first_30_chars: string, first 30 characters of the chapter
+      - last_30_chars: string, last 30 characters of the chapter  
+      - summary: Very shortened version of the subchapter, max 150 characters, all in portuguese
+  post_processing:
+    - add original article name as `article_name`
+    - extract text based on first_30_chars and last_30_chars and assign it to 'body' field    
+  output_queue: 
+    - article_name
+    - chapter
+- name: to_markdown
+  description: Convert the text to markdown format
+  dependencies:
+    - split_into_chapters
+  prompt: |
+    Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+    Convert this chapter to markdown format. 
+  output_schema:
+    text: string, markdown formatted text
+- name: extract_categories
+  description: Extract categories that the article belongs to
+  dependencies:
+    - split_into_chapters  
+  output_schema:
+    categories: array of at most 3 strings, categories that the article belongs to
+    reasoning: string, explanation of the decision
+  prompt: |
+    Below is the text that contains one article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+    Based on the content of the article, assign it to one or more categories.
+- name: extract_references
+  description: Extract references from the article
+  dependencies:
+    - split_into_chapters
+  prompt: |
+    Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+    Extract references to other articles that this article contains.
+    Reference typically looks like this: 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'
+  output_schema:
+    references: | 
+      An array of objects each representing a reference to another article, containing three keys: 
+      - reference_name: (name of the referenced article),
+      - context: string, context in which the reference is mentioned
+      - reasoning: string, explanation of the decision why you believe this is a reference    
+- name: extract_people
+  description: Extract personalities mentioned in the article
+  dependencies:
+    - split_into_chapters
+  prompt: |
+    Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+    Extract names of people mentioned in the article. Also extract 
+  output_schema:
+    people: | 
+      Array of objects of type PersonItem_schema
+- name: extract_places
+  description: Extract places mentioned in the article
+  dependencies:
+    - split_into_chapters
+  prompt: |
+    Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+    Extract names of places mentioned in the article.
+  output_schema:
+    places: | 
+      Array of objects of type LocationItem_schema
+- name: extract_dates
+  description: Extract dates mentioned in the article
+  dependencies:
+    - split_into_chapters
+  prompt: |
+    Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
+    Extract dates mentioned in the article.
+  output_schema:
+    dates: | 
+      Array of objects of type DateItem_schema
+- name: translate_into_english
+  description: Translate the chapter into English.
+  dependencies:
+    - split_into_chapters
+  prompt: |
+    Translate this article into English. 
+    Translation doesn't have to be precise word-by-word translation, but should convey the same meaning and be interesting to read.
+    Make sure modern reader understands each concept and term. 
+    If something is very unique and complicated, provide a short explanation in parentheses.
+  output_schema:
+    text: string, translated text
