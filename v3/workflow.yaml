@@ -8,19 +8,19 @@
     followed by a period (.) and then the article body itself, that can be one or more paragraphs.  But not all short sentences like this are beginnings of new articles. 
     Articles follow each other mostly in alphabetical order. Articles cannot have the same name.
     Most likely, it is a single article.
-  output_schema: 
+  output_schema:
     is_multi_article: boolean, true if the text contains multiple articles, false otherwise
     suggested_articles: an array of articles, each article contains name
     reasoning: string, explanation of the decision
 - name: split_multi_articles
   precondition: detect_multi_articles.is_multi_article is true
-  dependencies:
+  depends_on:
     - detect_multi_articles
   description: This text actually contains {len(suggested_articles) }} articles. Split them.
   output_schema: an array of articles, each article contains name, first_30_chars, last_30_chars
   post_processing: 
     - extract text based on begins_with and ends_with and assign it to 'body' field
-    - add each output to execution queue
+    - flatten
   prompt: |
     Below is a text that contains {len(suggested_articles) }} articles from Elucidario Madeirense, an encyclopaedic work about Madeira.
     Articles are different only if they are discussing completely different topics not related to each other.
@@ -30,7 +30,7 @@
     Articles follow each other mostly in alphabetical order. Articles cannot have the same name.    
     Provide information about the articles in structured format. Each article should have a name, and the text that belongs to it.
 - name: detect_reference
-  dependencies:
+  depends_on:
     - detect_multi_articles
   description: check if the article is a reference
   output_schema:
@@ -42,7 +42,7 @@
     It is very short, and only contains something like 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
     "reference": "Name of the referenced article. Typically references to other articles look like V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'"
 - name: detect_enumeration
-  dependencies:
+  depends_on:
     - detect_multi_articles
     - detect_reference
   description: check if the article is an enumeration
@@ -55,7 +55,7 @@
     It is very short, and only contains something like 'V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'",
     "reference": "Name of the referenced article. Typically references to other articles look like V. <referenced article name>' or 'Vid. <referenced article name>' or '(V. este nome)'"
 - name: split_into_chapters
-  dependencies:
+  depends_on:
     - detect_multi_articles
     - detect_reference
     - detect_enumeration
@@ -84,7 +84,7 @@
     - chapter
 - name: to_markdown
   description: Convert the text to markdown format
-  dependencies:
+  depends_on:
     - split_into_chapters
   prompt: |
     Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
@@ -93,7 +93,7 @@
     text: string, markdown formatted text
 - name: extract_categories
   description: Extract categories that the article belongs to
-  dependencies:
+  depends_on:
     - split_into_chapters  
   output_schema:
     categories: array of at most 3 strings, categories that the article belongs to
@@ -103,7 +103,7 @@
     Based on the content of the article, assign it to one or more categories.
 - name: extract_references
   description: Extract references from the article
-  dependencies:
+  depends_on:
     - split_into_chapters
   prompt: |
     Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
@@ -117,7 +117,7 @@
       - reasoning: string, explanation of the decision why you believe this is a reference    
 - name: extract_people
   description: Extract personalities mentioned in the article
-  dependencies:
+  depends_on:
     - split_into_chapters
   prompt: |
     Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
@@ -127,7 +127,7 @@
       Array of objects of type PersonItem_schema
 - name: extract_places
   description: Extract places mentioned in the article
-  dependencies:
+  depends_on:
     - split_into_chapters
   prompt: |
     Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
@@ -137,7 +137,7 @@
       Array of objects of type LocationItem_schema
 - name: extract_dates
   description: Extract dates mentioned in the article
-  dependencies:
+  depends_on:
     - split_into_chapters
   prompt: |
     Below is the text that contains a chapter of an article from Elucidario Madeirense, an encyclopaedic work about Madeira from 1930-ies.
@@ -147,7 +147,7 @@
       Array of objects of type DateItem_schema
 - name: translate_into_english
   description: Translate the chapter into English.
-  dependencies:
+  depends_on:
     - split_into_chapters
   prompt: |
     Translate this article into English. 
