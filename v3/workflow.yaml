@@ -1,4 +1,5 @@
 - name: detect_multi_articles
+  depends_on: <source>
   description: detect if the text contains multiple articles
   prompt: |
     Below is a text that contains that contains most likely one, but sometimes AT MOST three articles from Elucidario Madeirense, an encyclopaedic work about Madeira.
@@ -23,6 +24,7 @@
     - flatten
   prompt: |
     Below is a text that contains {len(suggested_articles) }} articles from Elucidario Madeirense, an encyclopaedic work about Madeira.
+    These are the titles of the articles identified: {suggested_articles}
     Articles are different only if they are discussing completely different topics not related to each other.
     If text is discussing same topic but followed by special cases of the same topic (e.g. taking place in different date or location, it is still one article.
     If there are more then one articles, those will start with a title (short sentence, often with some clarification in parentheses),
@@ -59,6 +61,8 @@
     - detect_multi_articles
     - detect_reference
     - detect_enumeration
+    - split_multi_articles
+    - <source>
   precondition: is_reference is false, is_enumeration is false
   description: split the article into paragraphs
   prompt: |

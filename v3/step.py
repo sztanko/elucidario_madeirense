@@ -1,24 +1,44 @@
-from typing import List, Callable, Dict, Optional, Union
+from typing import List, Callable, Dict, Optional, Union, Tuple
 from logging import log
 from dataclasses import dataclass
+from jinja2 import Template
 from pydantic import BaseModel, Field
-from .utils.llm import call_llm
+from .utils.llm import call_llm, LlmOpts
 
 
 @dataclass
 class Step:
-    name: str
-    description: str
-    depends_on: List[str]
-    unique_keys: List[str]
-    precondition: Callable
-    prompt: Optional[Union[str, Callable]]
-    llm_opts: Optional[Dict[str, any]]  # typically what llm to use
-    flatten_output: bool
-    additional_context: Dict[str, str]
-    preprocessor: Callable  # Get's all the inputs from previous steps and transforms it into another structure
-    postprocessor: Callable  # Get's the output from the LLM and transforms it into another structure
-    output_schema: BaseModel  # Pydantic schema for the output of the step
+    name: str = Field(..., description="Name of the step")
+    description: str = Field(..., description="Description of the step")
+    depends_on: List[str] = Field(..., description="List of steps that this step depends on. Must exist.")
+    unique_keys: List[str] = Field(
+        ..., description="List of keys that are unique for this step. This is used to group the data by these keys."
+    )
+
+    precondition: Callable = Field(
+        ..., description="Function that checks if the step can be executed. It should return True or False."
+    )
+    prompt: Optional[str] = Field(
+        None,
+        description="Prompt Jinja2 template for the LLM. If not provided, the step will not call the LLM. When converting from yaml, make it a jinja template, fix the syntax, if needed. Typically this is a multi-line string",
+    )
+    llm_opts: Optional[LlmOpts] = Field(
+        None, description="Options for the LLM. If not provided, the step will not call the LLM."
+    )
+    flatten_output: bool = Field(
+        False,
+        description="If True, the output will be flattened, that is, each element of an array will be added as a separate output.",
+    )
+    # additional_context: Dict[str, str] = Field(..., description="Additional context for the LLM. This is used to provide additional information to the LLM.")
+    preprocessor: Callable = Field(
+        ..., description="Gets all the inputs from previous steps (dependancies) and transforms it into another structure"
+    )
+    postprocessor: Callable = Field(
+        ..., description="Gets the output from the LLM and transforms it into another structure"
+    )
+    output_schema: BaseModel = Field(
+        ..., description="Pydantic schema for the output of the step. This is used to validate the output of the step."
+    )
 
 
 def get_order_of_execution(steps: List[Step]) -> List[Step]:
@@ -98,18 +118,34 @@ class Graph:
         else:
             prepared_data = input_data
         if prompt:
-            # TODO: implement llm call, together with the schema validation
-            output = call_llm(step.prompt, step.llm_opts, prepared_data, step.output_schema)
+            # Render the jinja template with the prepared data
+            template = Template(step.prompt)
+            rendered_prompt = template.render(**prepared_data)
+            output = call_llm(rendered_prompt, step.llm_opts, prepared_data, step.output_schema)
         else:
             output = prepared_data
         if step.postprocessor:
             processed_data = step.postprocessing(output)
         else:
             processed_data = output
-        # if prepared data is an array and flatten is True, flatten the array, and add 'index' as a key
-        if step.flatten_output and isinstance(prepared_data, list):
-            output_data = []
-            for index, item in enumerate(prepared_data):
+        # if processed data is an array and flatten is True, flatten the array, and add 'index' as a key
+        output_data = []
+        if step.flatten_output and isinstance(processed_data, list):
+            # Make multiple outputs out of a single one.
+            for index, item in enumerate(processed_data):
                 item["index"] = index
                 output_data.append(item)
+        else:
+            output_data.append(processed_data)
         return output_data
+
+def generate_mermaid_graph(workflow):
+    lines = ["graph TD"]
+    step_names = {step.name for step in workflow}
+    for step in workflow:
+        for dep in step.depends_on:
+            if dep in step_names:
+                lines.append(f"    {dep} --> {step.name}")
+        if not step.depends_on:
+            lines.append(f"    {step.name}")
+    return "\n".join(lines)

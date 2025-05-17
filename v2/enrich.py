@@ -34,10 +34,12 @@ sample_articles = [
     
 ]
 
+ignore_splitting = ["Datas da História da Madeira"]
+
 ignore_enrichment_list = {
     "dates": ["Datas da História da Madeira"],
     "locations": ["Datas da História da Madeira", "Levadas"],
-    "people": [] # "Datas da História da Madeira", "Varoes Ilustres", "Madeirenses que se distinguiram fora da ilha"]
+    "people": [ "Datas da História da Madeira", "Varoes Ilustres", "Madeirenses que se distinguiram fora da ilha"]
 }
 
 def split_article(name, content):
@@ -109,13 +111,13 @@ def load_articles(file_name):
 def enrich_articles(file_name):
     articles = load_articles(file_name)
     for name, content in articles:
-        if False or name in sample_articles:
+        if True or name in sample_articles:
             article = {}
             article["name"] = name
             article["metadata"] = get_article_metadata(name, content)
             article["splits"] = []
             subpart_length = 0
-            if len(content) < 2000 or article["metadata"]["is_reference"]:
+            if len(content) < 2000 or article["metadata"]["is_reference"] or name in ignore_splitting:
                 splits  = [
                     {
                         "full_text": content,
