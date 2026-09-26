@@ -18,3 +18,5 @@ data/ledger.jsonl
 *.sqlite
 data/01_layout/
 data/batches/*/msgbatch_*.jsonl
+data/cache/
+data/08_tu/tu.sqlite

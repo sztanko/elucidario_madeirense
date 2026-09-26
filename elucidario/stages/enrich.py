@@ -207,7 +207,23 @@ def submit(job_name: str, budget_usd: float, only: int | None = None) -> dict:
     return {"batches": ids, "requests": len(reqs), "est_usd": round(est_usd, 2)}
 
 
+# role names or broad classes occasionally returned as types -> nearest taxonomy code
+TYPE_FIX = {"person.journalist": "person.writer", "person.poet": "person.writer", "person.historian": "person.writer",
+            "person.political_prisoner": "person.other", "person.diplomat": "person.official", "person.noble": "person.family",
+            "law/tenure": "administration.law"}
+
+
+def fix_types(e: dict, codes: set[str]) -> None:
+    out = []
+    for t in e["types"]:
+        t = TYPE_FIX.get(t, t)
+        if t in codes and t not in out:
+            out.append(t)
+    e["types"] = out[:3] or e["types"][:0]
+
+
 def validate(e: dict, art: dict, part_blocks: list[str] | None, codes: set[str]) -> list[str]:
+    fix_types(e, codes)
     probs = []
     bids = [b["id"].split("#")[1] for b in art["blocks"]] if part_blocks is None else part_blocks
     bset = set(bids)

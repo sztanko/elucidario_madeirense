@@ -1,0 +1,24 @@
+{
+  "units": 57567,
+  "new_or_changed": 57567,
+  "removed": 0,
+  "by_kind": {
+    "en:enrichment.abstract": 3861,
+    "en:enrichment.chapter_summary": 1643,
+    "en:enrichment.chapter_title": 1643,
+    "en:event.text": 8286,
+    "en:person.note": 10221,
+    "en:person.role": 636,
+    "en:place.note": 12378,
+    "en:taxonomy.definition": 90,
+    "en:taxonomy.label": 132,
+    "en:term.gloss": 1960,
+    "pt:article.block": 12845,
+    "pt:article.headword": 3872
+  },
+  "source_chars": {
+    "pt": 5631958,
+    "en": 2976411
+  },
+  "translation_rows": 460536
+}

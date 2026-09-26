@@ -1,0 +1,12 @@
+{
+  "requests": 1470,
+  "system_tokens": 6820,
+  "body_tokens": 2665956,
+  "est_output_tokens": 1199680,
+  "est_usd": 22.34,
+  "by_type": {
+    "p": 658,
+    "s": 742,
+    "l": 70
+  }
+}

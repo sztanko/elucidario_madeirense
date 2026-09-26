@@ -280,6 +280,33 @@ def split_nested_entries(arts: list[Article]) -> list[Article]:
     return out
 
 
+def apply_numbers_and_tables(arts: list[Article]) -> None:
+    from elucidario.numbers import parse
+
+    tables = {}
+    tpath = OUT / "tables.jsonl"
+    if tpath.exists():
+        for line in open(tpath):
+            t = json.loads(line)
+            tables[t["block_id"]] = t
+    for a in arts:
+        for b in a.blocks:
+            if b.type != "heading":
+                b.numbers = [n.to_json() for n in parse(b.text)]
+            t = tables.get(b.id)
+            if not t:
+                continue
+            if t["actual_type"] == "table":
+                b.table = {k: t[k] for k in ("caption", "columns", "header_rows", "rows", "parsed", "issues")}
+            else:
+                b.type = {"list": "list_item", "prose": "paragraph", "verse": "verse"}[t["actual_type"]]
+                if b.type == "paragraph":
+                    b.lines = None
+                    b.sentences = sentences(b.text)
+        a.formatting = dict(Counter(b.type for b in a.blocks)) | {
+            k: v for k, v in a.formatting.items() if k in ("update_notes", "italic_spans", "editorial_fixes", "page_split_merges")}
+
+
 def legacy_map(arts: list[dict]) -> dict[int, int]:
     leg = json.load(open(ROOT / "book_data" / "index_pt.json"))
     keys = [norm(re.split(r"\bV\.|\bVid\.", x["title"])[0])[:60] for x in leg]
@@ -323,6 +350,7 @@ def run() -> dict:
             art.parent_id = ids[a["parent_seq"]]
         out.append(art)
     out = split_nested_entries(out)
+    apply_numbers_and_tables(out)
     by_id = {x.id: x for x in out}
     for x in out:
         if x.parent_id:

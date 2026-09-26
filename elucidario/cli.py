@@ -64,5 +64,13 @@ def structure():
     typer.echo(json.dumps(stage.run(), indent=2, ensure_ascii=False))
 
 
+@app.command()
+def kb():
+    """Phase 6: consolidate persons, places, events, terms and links (data/06_kb)."""
+    from elucidario.stages import kb as stage
+
+    typer.echo(json.dumps(stage.run(), indent=2, ensure_ascii=False))
+
+
 if __name__ == "__main__":
     app()

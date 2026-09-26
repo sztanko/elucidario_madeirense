@@ -31,6 +31,8 @@ class Block(BaseModel):
     pages: list[int] = Field(default_factory=list)  # PDF pages the block spans
     printed_pages: list[int | None] = Field(default_factory=list)
     update_notes: list[str] = Field(default_factory=list)  # "(1921)", "(1940)" markers inside the block
+    numbers: list[dict] = Field(default_factory=list)  # parsed numbers/money/measures (elucidario.numbers)
+    table: dict | None = None  # structured table: caption, columns, header_rows, rows (verbatim), parsed cells
 
 
 class Article(BaseModel):
