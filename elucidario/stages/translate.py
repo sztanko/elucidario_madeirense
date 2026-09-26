@@ -41,8 +41,12 @@ OUTPUT_SCHEMA = {
         "names": {"type": "array", "items": {"type": "object", "properties": {
             "pt": {"type": "string"}, "rendering": {"type": "string"}}, "required": ["pt", "rendering"],
             "additionalProperties": False}},
+        "headword": {"type": ["string", "null"]},
+        "flags": {"type": "array", "items": {"type": "object", "properties": {
+            "block": {"type": "string"}, "type": {"type": "string", "enum": ["number", "ocr", "ambiguity", "name", "term", "other"]},
+            "note": {"type": "string"}}, "required": ["block", "type", "note"], "additionalProperties": False}},
     },
-    "required": ["blocks", "names"], "additionalProperties": False,
+    "required": ["blocks", "names", "headword", "flags"], "additionalProperties": False,
 }
 
 
@@ -60,7 +64,10 @@ def system_prompt(lang: str) -> str:
         "## Output contract\nReturn JSON: `blocks` — one object per input block with the same `id`, the full translation "
         "in `text` (inline italics as *…*), and for table blocks `cells` (the translated label/header cells in the same "
         "shape as given; numeric cells are pre-rendered and must be copied unchanged) else null; `names` — every proper "
-        "name you rendered in this chunk, with the Portuguese form and your rendering (first-mention form for uk/ru).",
+        "name you rendered in this chunk, with the Portuguese form and your rendering (first-mention form for uk/ru); "
+        "`headword` — the translated entry title when the package says `translate_headword: true`, else null; `flags` — "
+        "problems for the editor (suspected OCR error, ambiguous number, unclear name), usually empty. Give the "
+        "termbase first-mention gloss only for terms listed in `gloss_first_mention`.",
     ) if x)
 
 
@@ -123,9 +130,15 @@ class Context:
             if b.get("table"):
                 pb["table"] = table_payload(b["table"], lang)
             payload_blocks.append(pb)
+        # first-mention glosses: a term is glossed in the chunk where it first occurs in this article (from the source)
+        earlier = " ".join(b["text"] for b in a["blocks"] if b["id"] < blocks[0]["id"]).lower()
+        gloss_first = sorted(l for l in terms if not any(
+            re.search(rf"\b{re.escape(v.lower())}\b", earlier) for v in self.term_variants.get(l, [l])))
         return {
             "entry": {"headword": a["headword"], "abstract_en": e.get("abstract"), "part": f"{part + 1}/{parts}",
                       "outline": [c["title_en"] for c in e.get("chapters", [])]},
+            "translate_headword": part == 0,
+            "gloss_first_mention": gloss_first,
             "chapter_summary_en": chapter["summary"] if chapter else None,
             "termbase": terms, "names": name_table, "blocks": payload_blocks,
         }
@@ -197,8 +210,9 @@ def qa(src_blocks: list[dict], out: dict, lang: str, pkg: dict) -> list[str]:
             if letters and len(CYR.findall(tb["text"])) / len(letters) < 0.6:
                 probs.append(f"low Cyrillic share in {sb['id']}")
     for lemma, spec in pkg["termbase"].items():
-        r = (spec.get("rendering") or "").lower()
-        if r and not any(r.split("/")[0].strip() in b["text"].lower() for b in out.get("blocks", [])):
+        r = re.split(r"[(;,/]", (spec.get("rendering") or "").lower())[0].strip(" *")
+        stem = r[: max(4, int(len(r) * 0.7))]  # tolerate inflection (Gemeinde/Gemeinden, парафія/парафії)
+        if r and not any(stem in b["text"].lower() for b in out.get("blocks", [])):
             probs.append(f"termbase '{lemma}' -> '{spec['rendering']}' not used")
     return probs
 
@@ -246,3 +260,115 @@ def pilot_collect(tag: str) -> dict:
     (OUT / f"{tag}_qa.json").write_text(json.dumps(issues, ensure_ascii=False, indent=1))
     n_issue = sum(1 for v in issues.values() if v)
     return {"requests": len(meta), "with_issues": n_issue, "usd": round(BatchJob(f"translate_{tag}").spent(), 2)}
+
+
+# ------------------------------------------------------------------ pilot orchestration
+CONFIGS = {
+    "haiku": ("claude-haiku-4-5", None),
+    "sonnet": ("claude-sonnet-5", None),
+    "opus_low": ("claude-opus-5-5", "low"),
+    "opus_med": ("claude-opus-5-5", "medium"),
+}
+PILOT_LANGS = ["en", "de", "hu", "ru"]
+
+
+def pilot_submit(budget_usd: float = 40.0) -> dict:
+    arts = json.loads((DATA / "08_tu" / "pilot_articles.json").read_text())
+    out = {}
+    for name, (model, effort) in CONFIGS.items():
+        reqs = pilot_requests(arts, PILOT_LANGS, model, effort, name)
+        for r in reqs:  # 1-hour cache: batch requests are processed over a longer window
+            r["params"]["system"][0]["cache_control"] = {"type": "ephemeral", "ttl": "1h"}
+        out[name] = {"requests": len(reqs), "batches": BatchJob(f"translate_{name}").submit(reqs, budget_usd=budget_usd, est_usd=None)}
+    return out
+
+
+JUDGE_SYSTEM = """You are an expert literary and technical translation reviewer, native-level in Portuguese and the
+target language. You evaluate anonymous candidate translations of passages from the *Elucidário Madeirense*
+(encyclopedia of Madeira, 1921/1940). The brief: translate EVERY sentence faithfully (no omissions, no additions), in
+modern, engaging encyclopedia prose; consistent terminology (Madeiran terms kept or translated per termbase); names per
+the language's convention (uk/ru: transcription with meaning and original on first mention); all numbers preserved and
+formatted for the target language; old currency rendered in full modern figures (20$000 réis -> 20,000 réis).
+
+For each candidate give integer scores 1-5: `fidelity` (completeness and accuracy — the most important),
+`fluency` (natural, modern, readable), `terminology` (terms and names), `format` (numbers, tables, quotes, italics).
+List concrete `errors` (max 5, short: "omits sentence about 1566 raid", "mistranslates 'foro'").
+Then give `ranking` best to worst by overall quality (fidelity weighted double)."""
+
+JUDGE_SCHEMA = {"type": "object", "properties": {
+    "candidates": {"type": "array", "items": {"type": "object", "properties": {
+        "label": {"type": "string"}, "fidelity": {"type": "integer"}, "fluency": {"type": "integer"},
+        "terminology": {"type": "integer"}, "format": {"type": "integer"},
+        "errors": {"type": "array", "items": {"type": "string"}}},
+        "required": ["label", "fidelity", "fluency", "terminology", "format", "errors"], "additionalProperties": False}},
+    "ranking": {"type": "array", "items": {"type": "string"}}},
+    "required": ["candidates", "ranking"], "additionalProperties": False}
+
+
+def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1") -> dict:
+    import random
+
+    runs = {name: json.loads((OUT / f"{name}_results.json").read_text()) for name in CONFIGS}
+    metas = {name: json.loads((OUT / f"{name}_meta.json").read_text()) for name in CONFIGS}
+    # align chunks across configs by (article, lang, part)
+    keyed = {}
+    for name, res in runs.items():
+        for cid, r in res.items():
+            keyed.setdefault((r["article"], r["lang"], r["part"]), {})[name] = (cid, r["out"])
+    reqs, key_map = [], {}
+    rng = random.Random(5)
+    for (aid, lang, part), by in sorted(keyed.items()):
+        if len(by) < 2:
+            continue
+        src_meta = metas[next(iter(by))][by[next(iter(by))][0]]["pkg"]
+        names = list(by)
+        rng.shuffle(names)
+        labels = {n: chr(65 + i) for i, n in enumerate(names)}
+        cands = "\n\n".join(
+            f"### Candidate {labels[n]}\n" + "\n".join(f"[{b['id']}] {b['text']}" for b in by[n][1].get("blocks", []))
+            for n in names)
+        src = "\n".join(f"[{b['id']}] ({b['type']}) {b['text']}" for b in src_meta["blocks"])
+        cid = f"j{len(reqs):05d}"
+        key_map[cid] = {"article": aid, "lang": lang, "part": part, "labels": labels}
+        reqs.append({"custom_id": cid, "params": {
+            "model": judge_model, "max_tokens": 16000,
+            "system": [{"type": "text", "text": JUDGE_SYSTEM, "cache_control": {"type": "ephemeral"}}],
+            "messages": [{"role": "user", "content": f"Target language: {LANG_NAMES[lang]}\n\n## Source (Portuguese)\n{src}\n\n{cands}"}],
+            "output_config": {"effort": "medium", "format": {"type": "json_schema", "schema": JUDGE_SCHEMA}},
+        }})
+    (OUT / "judge_map.json").write_text(json.dumps(key_map))
+    return {"requests": len(reqs), "batches": BatchJob("translate_judge").submit(reqs, budget_usd=budget_usd, est_usd=None)}
+
+
+def judge_report() -> dict:
+    from collections import Counter
+
+    key_map = json.loads((OUT / "judge_map.json").read_text())
+    scores = defaultdict(lambda: defaultdict(list))
+    wins = defaultdict(Counter)
+    errors = defaultdict(list)
+    for cid, res in BatchJob("translate_judge").results():
+        t = message_text(res)
+        if not t:
+            continue
+        m = key_map[cid]
+        inv = {v: k for k, v in m["labels"].items()}
+        j = json.loads(t)
+        for c in j["candidates"]:
+            name = inv.get(c["label"])
+            if not name:
+                continue
+            for k in ("fidelity", "fluency", "terminology", "format"):
+                scores[(m["lang"], name)][k].append(c[k])
+            errors[(m["lang"], name)] += c["errors"]
+        if j["ranking"]:
+            wins[m["lang"]][inv.get(j["ranking"][0])] += 1
+    table = {}
+    for (lang, name), d in sorted(scores.items()):
+        table[f"{lang}:{name}"] = {k: round(sum(v) / len(v), 2) for k, v in d.items()} | {"n": len(d["fidelity"])}
+    costs = {name: round(BatchJob(f"translate_{name}").spent(), 2) for name in CONFIGS}
+    out = {"scores": table, "wins": {l: dict(c) for l, c in wins.items()}, "pilot_usd": costs,
+           "judge_usd": round(BatchJob("translate_judge").spent(), 2),
+           "sample_errors": {f"{k[0]}:{k[1]}": v[:8] for k, v in errors.items()}}
+    (OUT / "pilot_report.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
+    return out
