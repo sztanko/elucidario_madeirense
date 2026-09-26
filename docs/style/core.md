@@ -294,17 +294,22 @@ you do not have to. Each record looks like this:
 
 | Field | Meaning |
 |---|---|
-| `raw` | the number exactly as printed (the *original*) |
+| `raw` | the number exactly as printed (the *original*); `start`/`end` give its position in the block text |
 | `value` | the true value, in the unit given by `kind`/`unit` |
 | `kind` | `integer`, `decimal`, `percent`, `ordinal`, `year`, `money_reis` (before the 1911 reform, value in réis), `money_escudos` (1911 and later, value in escudos), `contos` (value in contos, unit kept as written) |
 | `unit` | canonical unit: `kg`, `l`, `hl`, `m`, `km`, `cm`, `mm`, `ha`, `t`, `°`, `%`, `réis`, `escudos`, `centavos`, `contos`, an old unit (`alqueire`, `almude`, `pipa`, `moio`, `arroba`, `braça`, `légua`), `inhabitants`, `households`, or none |
-| `target` | the value already written in the target language's number format (no unit) |
+| `target` (also sent as `render`) | the value already written in the target language's number format (no unit) |
 | `ambiguous` | the parser could not decide (for example *1,852 metros*: decimal or thousands?) |
+
+Some requests send a shorter record (`raw`, `render`, `unit`, `ambiguous`). Then `unit`
+tells you the money system: `réis` = before 1911, `escudos` = 1911 and later, `contos`.
+Years and numbers whose rendering equals `raw` may be left out of the list: copy them as
+printed.
 
 How to use them:
 1. **Write the `target` string exactly** (same digits, separators and decimal mark) and add
    the unit or currency word after it as §6.4 and the language file say. For `money_escudos`
-   below 1 escudo, use the centavo form (§6.4).
+   below 1 escudo, use the centavo form in prose (§6.4); tables keep `target` (§6A).
 2. `year` and `ordinal`: years are copied unchanged (never grouped: *1898*, not *1,898*).
    Ordinals take the language's ordinal style (*3.º* → "3rd", "3.", "3e", "3°").
 3. `ambiguous: true`, or a number the parser missed or split: copy `raw` **exactly as
@@ -339,7 +344,8 @@ How to use them:
 | *209.250$00 escudos*, *Esc. 831:801$40* | 209,250.00 escudos; 831,801.40 escudos | |
 | *400 contos* (1930s) | 400 contos | after 1911 a conto = 1,000 escudos; keep "contos" |
 | *58,8 %*, *5%*, *50 por cento* | 58.8%, 5%, 50 per cent | decimal comma; *por cento* is translated as words |
-| *756,225 metros quadrados* | 756.225 m² in en | decimal comma |
+| *26,5*, *13,8 metros* | 26.5, 13.8 m in en | decimal comma |
+| *756,225 metros quadrados*, *1,852 metros* | ambiguous: decimal or grouping? | `ambiguous: true`: copy as printed, flag `number` |
 | *18 de Junho de 1572* | 18 June 1572 (en) | a date: localise the order and month (§6.3) |
 
 ### 6.3 Dates and centuries
@@ -360,7 +366,7 @@ Portuguese money in the book belongs to two systems. The record's `kind` tells y
 
 **Before the 1911 reform: réis** (`money_reis`, `value` in réis).
 - Write `target` + the language's word for **réis**: en "20,000 réis", de "20.000 Réis",
-  fr "20 000 réis". *5:000$000 réis* → en "5,000,000 réis". Do **not** restate the sum as
+  fr "20 000 réis". *5:000$000 réis* → en "5,000,000 réis". Do **not** restate the sum as
   mil-réis or contos: the first-mention gloss explains those units.
 - Currency word before the figure in the source (*réis 15:000$000*, *rs. 500*): put it where
   the target language puts it (en "15,000,000 réis"). *rs.* is written out.
@@ -440,7 +446,9 @@ A table block arrives with a `table` object instead of `text`:
 ```
 
 A cell is either a plain string (a label) or a parsed number. A ditto cell arrives as
-`{"ditto": "\"", "same_as": {…}}`, where `same_as` is the cell above.
+`{"ditto": "\"", "same_as": {…}}`, where `same_as` is the cell above. Shorter requests send
+cells as `{"text": …}`, `{"number": "648,500"}` (already rendered: copy it exactly) and
+`{"ditto": "\""}` (repeat the rendering of the cell above in the same column).
 
 Return an object with **the same shape and the same dimensions**:
 
@@ -730,6 +738,11 @@ Return **only** one JSON object, with no text before or after it and no code fen
   ]
 }
 ```
+
+If the request enforces its own output schema (for example `blocks` as a list of
+`{id, text, cells}` plus a `names` list), use that schema for the shape. The content rules of
+this section still apply: one entry per input block, the same grid for tables, the same
+markup, and `glossed`/`flags` wherever the schema has room for them.
 
 Rules:
 - `blocks` has **exactly one entry per input block id**: no missing ids, no extra ids, no

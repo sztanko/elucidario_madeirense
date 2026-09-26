@@ -34,7 +34,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   *Notre-Dame-de-Pitié*, *Saint-Esprit*. Portuguese names keep their own form.
 
 ## 4. Numbers, dates, units
-- Digit groups separated by a narrow no-break space: 1 436 305. Decimal comma: 756,225.
+- Digit groups separated by a narrow no-break space: 1 436 305. Decimal comma: 756,225.
   Four-digit numbers take no separator (4000); years never do.
 - Figures stay figures and words stay words (core §6.1): *doze* → *douze*, *12* → *12*.
 - Dates: le 28 décembre 1676; le 1er janvier; vers 1640 (*pelos anos de 1640*).
