@@ -1,0 +1,2402 @@
+{
+ "açafates": {
+  "label": "legitimate",
+  "confidence": 0.46,
+  "probabilities": {
+   "ocr_error": 0.27,
+   "legitimate": 0.73
+  }
+ },
+ "nigricans": {
+  "label": "legitimate",
+  "confidence": 0.87,
+  "probabilities": {
+   "legitimate": 0.93,
+   "ocr_error": 0.07
+  }
+ },
+ "rrege": {
+  "label": "legitimate",
+  "confidence": 0.1,
+  "probabilities": {
+   "ocr_error": 0.45,
+   "legitimate": 0.55
+  }
+ },
+ "Iena": {
+  "label": "ocr_error",
+  "confidence": 0.33,
+  "probabilities": {
+   "legitimate": 0.34,
+   "ocr_error": 0.66
+  }
+ },
+ "portulanos": {
+  "label": "legitimate",
+  "confidence": 0.74,
+  "probabilities": {
+   "ocr_error": 0.13,
+   "legitimate": 0.87
+  }
+ },
+ "Alasia": {
+  "label": "legitimate",
+  "confidence": 0.95,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "Clethra": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "legitimate": 1.0,
+   "ocr_error": 0.0
+  }
+ },
+ "çertidom": {
+  "label": "legitimate",
+  "confidence": 0.36,
+  "probabilities": {
+   "ocr_error": 0.32,
+   "legitimate": 0.68
+  }
+ },
+ "extrénuo": {
+  "label": "ocr_error",
+  "confidence": 0.26,
+  "probabilities": {
+   "ocr_error": 0.63,
+   "legitimate": 0.37
+  }
+ },
+ "candidum": {
+  "label": "legitimate",
+  "confidence": 0.92,
+  "probabilities": {
+   "legitimate": 0.96,
+   "ocr_error": 0.04
+  }
+ },
+ "estulta": {
+  "label": "legitimate",
+  "confidence": 0.44,
+  "probabilities": {
+   "ocr_error": 0.28,
+   "legitimate": 0.72
+  }
+ },
+ "lactígenas": {
+  "label": "legitimate",
+  "confidence": 0.48,
+  "probabilities": {
+   "legitimate": 0.74,
+   "ocr_error": 0.26
+  }
+ },
+ "Escombridas": {
+  "label": "legitimate",
+  "confidence": 0.63,
+  "probabilities": {
+   "ocr_error": 0.19,
+   "legitimate": 0.81
+  }
+ },
+ "d’agoa": {
+  "label": "legitimate",
+  "confidence": 0.33,
+  "probabilities": {
+   "legitimate": 0.67,
+   "ocr_error": 0.33
+  }
+ },
+ "candicans": {
+  "label": "legitimate",
+  "confidence": 0.63,
+  "probabilities": {
+   "ocr_error": 0.19,
+   "legitimate": 0.81
+  }
+ },
+ "históricamente": {
+  "label": "legitimate",
+  "confidence": 0.79,
+  "probabilities": {
+   "ocr_error": 0.11,
+   "legitimate": 0.89
+  }
+ },
+ "briologicas": {
+  "label": "ocr_error",
+  "confidence": 0.13,
+  "probabilities": {
+   "ocr_error": 0.57,
+   "legitimate": 0.43
+  }
+ },
+ "perpessi": {
+  "label": "ocr_error",
+  "confidence": 0.3,
+  "probabilities": {
+   "ocr_error": 0.65,
+   "legitimate": 0.35
+  }
+ },
+ "Provinciae": {
+  "label": "legitimate",
+  "confidence": 0.77,
+  "probabilities": {
+   "ocr_error": 0.12,
+   "legitimate": 0.88
+  }
+ },
+ "síliquas": {
+  "label": "legitimate",
+  "confidence": 0.86,
+  "probabilities": {
+   "legitimate": 0.93,
+   "ocr_error": 0.07
+  }
+ },
+ "nivea": {
+  "label": "legitimate",
+  "confidence": 0.52,
+  "probabilities": {
+   "ocr_error": 0.24,
+   "legitimate": 0.76
+  }
+ },
+ "Elaphoglossum": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Murteira": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Lomçado": {
+  "label": "legitimate",
+  "confidence": 0.62,
+  "probabilities": {
+   "legitimate": 0.81,
+   "ocr_error": 0.19
+  }
+ },
+ "decemdemte": {
+  "label": "ocr_error",
+  "confidence": 0.45,
+  "probabilities": {
+   "ocr_error": 0.73,
+   "legitimate": 0.27
+  }
+ },
+ "enqueredores": {
+  "label": "ocr_error",
+  "confidence": 0.35,
+  "probabilities": {
+   "ocr_error": 0.68,
+   "legitimate": 0.32
+  }
+ },
+ "borboletão": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "titanicos": {
+  "label": "ocr_error",
+  "confidence": 0.12,
+  "probabilities": {
+   "ocr_error": 0.56,
+   "legitimate": 0.44
+  }
+ },
+ "Naxera": {
+  "label": "legitimate",
+  "confidence": 0.67,
+  "probabilities": {
+   "ocr_error": 0.17,
+   "legitimate": 0.83
+  }
+ },
+ "grevileas": {
+  "label": "legitimate",
+  "confidence": 0.56,
+  "probabilities": {
+   "legitimate": 0.78,
+   "ocr_error": 0.22
+  }
+ },
+ "Joum": {
+  "label": "ocr_error",
+  "confidence": 0.06,
+  "probabilities": {
+   "ocr_error": 0.53,
+   "legitimate": 0.47
+  }
+ },
+ "conquiliferos": {
+  "label": "legitimate",
+  "confidence": 0.31,
+  "probabilities": {
+   "legitimate": 0.65,
+   "ocr_error": 0.35
+  }
+ },
+ "reconstrucão": {
+  "label": "legitimate",
+  "confidence": 0.69,
+  "probabilities": {
+   "ocr_error": 0.16,
+   "legitimate": 0.84
+  }
+ },
+ "Saiem": {
+  "label": "legitimate",
+  "confidence": 0.48,
+  "probabilities": {
+   "legitimate": 0.74,
+   "ocr_error": 0.26
+  }
+ },
+ "known": {
+  "label": "legitimate",
+  "confidence": 0.92,
+  "probabilities": {
+   "legitimate": 0.96,
+   "ocr_error": 0.04
+  }
+ },
+ "dits": {
+  "label": "legitimate",
+  "confidence": 0.46,
+  "probabilities": {
+   "legitimate": 0.73,
+   "ocr_error": 0.27
+  }
+ },
+ "segumdo": {
+  "label": "ocr_error",
+  "confidence": 0.88,
+  "probabilities": {
+   "legitimate": 0.06,
+   "ocr_error": 0.94
+  }
+ },
+ "regno": {
+  "label": "legitimate",
+  "confidence": 0.78,
+  "probabilities": {
+   "legitimate": 0.89,
+   "ocr_error": 0.11
+  }
+ },
+ "structor": {
+  "label": "legitimate",
+  "confidence": 0.51,
+  "probabilities": {
+   "legitimate": 0.76,
+   "ocr_error": 0.24
+  }
+ },
+ "Insulano": {
+  "label": "legitimate",
+  "confidence": 0.86,
+  "probabilities": {
+   "ocr_error": 0.07,
+   "legitimate": 0.93
+  }
+ },
+ "papoilas": {
+  "label": "legitimate",
+  "confidence": 0.64,
+  "probabilities": {
+   "legitimate": 0.82,
+   "ocr_error": 0.18
+  }
+ },
+ "apoplexias": {
+  "label": "legitimate",
+  "confidence": 0.6,
+  "probabilities": {
+   "ocr_error": 0.2,
+   "legitimate": 0.8
+  }
+ },
+ "Dependencies": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "ocr_error": 0.05,
+   "legitimate": 0.95
+  }
+ },
+ "Morg": {
+  "label": "legitimate",
+  "confidence": 0.62,
+  "probabilities": {
+   "ocr_error": 0.19,
+   "legitimate": 0.81
+  }
+ },
+ "silvaticum": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "which": {
+  "label": "legitimate",
+  "confidence": 0.81,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "Salles": {
+  "label": "legitimate",
+  "confidence": 0.88,
+  "probabilities": {
+   "legitimate": 0.94,
+   "ocr_error": 0.06
+  }
+ },
+ "vinhateiro": {
+  "label": "legitimate",
+  "confidence": 0.27,
+  "probabilities": {
+   "ocr_error": 0.36,
+   "legitimate": 0.64
+  }
+ },
+ "Latour": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "Aveiras": {
+  "label": "legitimate",
+  "confidence": 0.64,
+  "probabilities": {
+   "legitimate": 0.82,
+   "ocr_error": 0.18
+  }
+ },
+ "Enteromorpha": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Michaelense": {
+  "label": "legitimate",
+  "confidence": 0.86,
+  "probabilities": {
+   "ocr_error": 0.07,
+   "legitimate": 0.93
+  }
+ },
+ "eetou": {
+  "label": "ocr_error",
+  "confidence": 0.75,
+  "probabilities": {
+   "ocr_error": 0.87,
+   "legitimate": 0.13
+  }
+ },
+ "Curcubita": {
+  "label": "ocr_error",
+  "confidence": 0.31,
+  "probabilities": {
+   "ocr_error": 0.66,
+   "legitimate": 0.34
+  }
+ },
+ "Majesty's": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "legitimate": 0.98,
+   "ocr_error": 0.02
+  }
+ },
+ "built": {
+  "label": "legitimate",
+  "confidence": 0.62,
+  "probabilities": {
+   "ocr_error": 0.19,
+   "legitimate": 0.81
+  }
+ },
+ "alcaparras": {
+  "label": "legitimate",
+  "confidence": 0.68,
+  "probabilities": {
+   "ocr_error": 0.16,
+   "legitimate": 0.84
+  }
+ },
+ "Ludgero": {
+  "label": "legitimate",
+  "confidence": 0.87,
+  "probabilities": {
+   "legitimate": 0.93,
+   "ocr_error": 0.07
+  }
+ },
+ "Frovo": {
+  "label": "legitimate",
+  "confidence": 0.42,
+  "probabilities": {
+   "ocr_error": 0.29,
+   "legitimate": 0.71
+  }
+ },
+ "pagrina": {
+  "label": "legitimate",
+  "confidence": 0.25,
+  "probabilities": {
+   "legitimate": 0.62,
+   "ocr_error": 0.38
+  }
+ },
+ "SEV": {
+  "label": "legitimate",
+  "confidence": 0.07,
+  "probabilities": {
+   "ocr_error": 0.47,
+   "legitimate": 0.53
+  }
+ },
+ "grandifolius": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "legitimate": 0.99,
+   "ocr_error": 0.01
+  }
+ },
+ "Cactácea": {
+  "label": "legitimate",
+  "confidence": 0.65,
+  "probabilities": {
+   "legitimate": 0.82,
+   "ocr_error": 0.18
+  }
+ },
+ "Cockerel": {
+  "label": "legitimate",
+  "confidence": 0.91,
+  "probabilities": {
+   "legitimate": 0.96,
+   "ocr_error": 0.04
+  }
+ },
+ "Bancks": {
+  "label": "ocr_error",
+  "confidence": 0.03,
+  "probabilities": {
+   "ocr_error": 0.51,
+   "legitimate": 0.49
+  }
+ },
+ "Hiccox": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "Marracuene": {
+  "label": "legitimate",
+  "confidence": 0.95,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "mixtos": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "Crustaceans": {
+  "label": "legitimate",
+  "confidence": 0.95,
+  "probabilities": {
+   "ocr_error": 0.03,
+   "legitimate": 0.97
+  }
+ },
+ "Cayenne": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "romagens": {
+  "label": "legitimate",
+  "confidence": 0.28,
+  "probabilities": {
+   "legitimate": 0.64,
+   "ocr_error": 0.36
+  }
+ },
+ "Athyrium": {
+  "label": "legitimate",
+  "confidence": 0.88,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "helicoidalmente": {
+  "label": "legitimate",
+  "confidence": 0.79,
+  "probabilities": {
+   "ocr_error": 0.11,
+   "legitimate": 0.89
+  }
+ },
+ "sativa": {
+  "label": "legitimate",
+  "confidence": 0.93,
+  "probabilities": {
+   "legitimate": 0.97,
+   "ocr_error": 0.03
+  }
+ },
+ "Argüim": {
+  "label": "legitimate",
+  "confidence": 0.5,
+  "probabilities": {
+   "legitimate": 0.75,
+   "ocr_error": 0.25
+  }
+ },
+ "Jahre": {
+  "label": "legitimate",
+  "confidence": 0.84,
+  "probabilities": {
+   "legitimate": 0.92,
+   "ocr_error": 0.08
+  }
+ },
+ "oficiaaes": {
+  "label": "ocr_error",
+  "confidence": 0.77,
+  "probabilities": {
+   "legitimate": 0.11,
+   "ocr_error": 0.89
+  }
+ },
+ "olearium": {
+  "label": "legitimate",
+  "confidence": 0.68,
+  "probabilities": {
+   "ocr_error": 0.16,
+   "legitimate": 0.84
+  }
+ },
+ "Indies": {
+  "label": "legitimate",
+  "confidence": 0.61,
+  "probabilities": {
+   "legitimate": 0.81,
+   "ocr_error": 0.19
+  }
+ },
+ "sarrilho": {
+  "label": "legitimate",
+  "confidence": 0.69,
+  "probabilities": {
+   "legitimate": 0.84,
+   "ocr_error": 0.16
+  }
+ },
+ "arvoraram": {
+  "label": "legitimate",
+  "confidence": 0.32,
+  "probabilities": {
+   "ocr_error": 0.34,
+   "legitimate": 0.66
+  }
+ },
+ "renhidissimas": {
+  "label": "ocr_error",
+  "confidence": 0.01,
+  "probabilities": {
+   "ocr_error": 0.51,
+   "legitimate": 0.49
+  }
+ },
+ "Rixheim": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Testacea": {
+  "label": "legitimate",
+  "confidence": 0.79,
+  "probabilities": {
+   "legitimate": 0.9,
+   "ocr_error": 0.1
+  }
+ },
+ "séde": {
+  "label": "legitimate",
+  "confidence": 0.57,
+  "probabilities": {
+   "ocr_error": 0.21,
+   "legitimate": 0.79
+  }
+ },
+ "caprideos": {
+  "label": "legitimate",
+  "confidence": 0.17,
+  "probabilities": {
+   "legitimate": 0.58,
+   "ocr_error": 0.42
+  }
+ },
+ "vinhateiros": {
+  "label": "legitimate",
+  "confidence": 0.14,
+  "probabilities": {
+   "ocr_error": 0.43,
+   "legitimate": 0.57
+  }
+ },
+ "Hanseaticas": {
+  "label": "legitimate",
+  "confidence": 0.32,
+  "probabilities": {
+   "ocr_error": 0.34,
+   "legitimate": 0.66
+  }
+ },
+ "comunicaçao": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "Verbena": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Strangers": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "legitimate": 0.98,
+   "ocr_error": 0.02
+  }
+ },
+ "Maximum": {
+  "label": "legitimate",
+  "confidence": 0.83,
+  "probabilities": {
+   "ocr_error": 0.09,
+   "legitimate": 0.91
+  }
+ },
+ "imundicies": {
+  "label": "ocr_error",
+  "confidence": 0.67,
+  "probabilities": {
+   "legitimate": 0.17,
+   "ocr_error": 0.83
+  }
+ },
+ "pôrtoBo": {
+  "label": "ocr_error",
+  "confidence": 0.43,
+  "probabilities": {
+   "ocr_error": 0.72,
+   "legitimate": 0.28
+  }
+ },
+ "Dakar": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "amte": {
+  "label": "legitimate",
+  "confidence": 0.05,
+  "probabilities": {
+   "ocr_error": 0.47,
+   "legitimate": 0.53
+  }
+ },
+ "Montholon": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Sonchus": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "legitimate": 0.99,
+   "ocr_error": 0.01
+  }
+ },
+ "rasgadamente": {
+  "label": "legitimate",
+  "confidence": 0.67,
+  "probabilities": {
+   "ocr_error": 0.17,
+   "legitimate": 0.83
+  }
+ },
+ "Lepidópteros": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "carrapateiras": {
+  "label": "legitimate",
+  "confidence": 0.65,
+  "probabilities": {
+   "ocr_error": 0.18,
+   "legitimate": 0.82
+  }
+ },
+ "capitollo": {
+  "label": "legitimate",
+  "confidence": 0.25,
+  "probabilities": {
+   "ocr_error": 0.37,
+   "legitimate": 0.63
+  }
+ },
+ "multiflorum": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "curá": {
+  "label": "legitimate",
+  "confidence": 0.4,
+  "probabilities": {
+   "ocr_error": 0.3,
+   "legitimate": 0.7
+  }
+ },
+ "monilifera": {
+  "label": "legitimate",
+  "confidence": 0.92,
+  "probabilities": {
+   "ocr_error": 0.04,
+   "legitimate": 0.96
+  }
+ },
+ "codesso": {
+  "label": "legitimate",
+  "confidence": 0.58,
+  "probabilities": {
+   "legitimate": 0.79,
+   "ocr_error": 0.21
+  }
+ },
+ "facciosos": {
+  "label": "legitimate",
+  "confidence": 0.72,
+  "probabilities": {
+   "legitimate": 0.86,
+   "ocr_error": 0.14
+  }
+ },
+ "Viático": {
+  "label": "legitimate",
+  "confidence": 0.82,
+  "probabilities": {
+   "ocr_error": 0.09,
+   "legitimate": 0.91
+  }
+ },
+ "teraa": {
+  "label": "legitimate",
+  "confidence": 0.17,
+  "probabilities": {
+   "ocr_error": 0.41,
+   "legitimate": 0.59
+  }
+ },
+ "Jones": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "balenopteros": {
+  "label": "legitimate",
+  "confidence": 0.61,
+  "probabilities": {
+   "legitimate": 0.81,
+   "ocr_error": 0.19
+  }
+ },
+ "Erineum": {
+  "label": "legitimate",
+  "confidence": 0.79,
+  "probabilities": {
+   "ocr_error": 0.11,
+   "legitimate": 0.89
+  }
+ },
+ "Coltivatore": {
+  "label": "legitimate",
+  "confidence": 0.55,
+  "probabilities": {
+   "ocr_error": 0.22,
+   "legitimate": 0.78
+  }
+ },
+ "rover": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "legitimate": 0.95,
+   "ocr_error": 0.05
+  }
+ },
+ "Juncus": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "gesammelt": {
+  "label": "legitimate",
+  "confidence": 0.47,
+  "probabilities": {
+   "ocr_error": 0.26,
+   "legitimate": 0.74
+  }
+ },
+ "Ixodes": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Novsmbro": {
+  "label": "ocr_error",
+  "confidence": 0.98,
+  "probabilities": {
+   "legitimate": 0.01,
+   "ocr_error": 0.99
+  }
+ },
+ "bergantins": {
+  "label": "legitimate",
+  "confidence": 0.85,
+  "probabilities": {
+   "legitimate": 0.92,
+   "ocr_error": 0.08
+  }
+ },
+ "Fumago": {
+  "label": "legitimate",
+  "confidence": 0.4,
+  "probabilities": {
+   "legitimate": 0.7,
+   "ocr_error": 0.3
+  }
+ },
+ "drepanum": {
+  "label": "legitimate",
+  "confidence": 0.92,
+  "probabilities": {
+   "legitimate": 0.96,
+   "ocr_error": 0.04
+  }
+ },
+ "coccídeo": {
+  "label": "legitimate",
+  "confidence": 0.72,
+  "probabilities": {
+   "legitimate": 0.86,
+   "ocr_error": 0.14
+  }
+ },
+ "Soudan": {
+  "label": "legitimate",
+  "confidence": 0.95,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "Monachus": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "legitimate": 0.98,
+   "ocr_error": 0.02
+  }
+ },
+ "Masses": {
+  "label": "legitimate",
+  "confidence": 0.71,
+  "probabilities": {
+   "legitimate": 0.86,
+   "ocr_error": 0.14
+  }
+ },
+ "Hanc": {
+  "label": "legitimate",
+  "confidence": 0.83,
+  "probabilities": {
+   "ocr_error": 0.09,
+   "legitimate": 0.91
+  }
+ },
+ "pelourinhos": {
+  "label": "legitimate",
+  "confidence": 0.94,
+  "probabilities": {
+   "ocr_error": 0.03,
+   "legitimate": 0.97
+  }
+ },
+ "Crânes": {
+  "label": "legitimate",
+  "confidence": 0.64,
+  "probabilities": {
+   "legitimate": 0.82,
+   "ocr_error": 0.18
+  }
+ },
+ "hidrozoários": {
+  "label": "legitimate",
+  "confidence": 0.78,
+  "probabilities": {
+   "legitimate": 0.89,
+   "ocr_error": 0.11
+  }
+ },
+ "escarmenta": {
+  "label": "ocr_error",
+  "confidence": 0.24,
+  "probabilities": {
+   "ocr_error": 0.62,
+   "legitimate": 0.38
+  }
+ },
+ "antifiloxérica": {
+  "label": "legitimate",
+  "confidence": 0.62,
+  "probabilities": {
+   "ocr_error": 0.19,
+   "legitimate": 0.81
+  }
+ },
+ "Eguinha": {
+  "label": "legitimate",
+  "confidence": 0.94,
+  "probabilities": {
+   "ocr_error": 0.03,
+   "legitimate": 0.97
+  }
+ },
+ "Fox's": {
+  "label": "legitimate",
+  "confidence": 0.81,
+  "probabilities": {
+   "ocr_error": 0.09,
+   "legitimate": 0.91
+  }
+ },
+ "Trigla": {
+  "label": "legitimate",
+  "confidence": 0.88,
+  "probabilities": {
+   "legitimate": 0.94,
+   "ocr_error": 0.06
+  }
+ },
+ "nag": {
+  "label": "legitimate",
+  "confidence": 0.08,
+  "probabilities": {
+   "ocr_error": 0.46,
+   "legitimate": 0.54
+  }
+ },
+ "supô": {
+  "label": "ocr_error",
+  "confidence": 0.12,
+  "probabilities": {
+   "legitimate": 0.44,
+   "ocr_error": 0.56
+  }
+ },
+ "Pathologie": {
+  "label": "legitimate",
+  "confidence": 0.55,
+  "probabilities": {
+   "ocr_error": 0.22,
+   "legitimate": 0.78
+  }
+ },
+ "bondosissimo": {
+  "label": "ocr_error",
+  "confidence": 0.24,
+  "probabilities": {
+   "ocr_error": 0.62,
+   "legitimate": 0.38
+  }
+ },
+ "teleosteo": {
+  "label": "legitimate",
+  "confidence": 0.73,
+  "probabilities": {
+   "legitimate": 0.86,
+   "ocr_error": 0.14
+  }
+ },
+ "Report": {
+  "label": "legitimate",
+  "confidence": 0.78,
+  "probabilities": {
+   "ocr_error": 0.11,
+   "legitimate": 0.89
+  }
+ },
+ "Collecçao": {
+  "label": "legitimate",
+  "confidence": 0.76,
+  "probabilities": {
+   "legitimate": 0.88,
+   "ocr_error": 0.12
+  }
+ },
+ "merma": {
+  "label": "legitimate",
+  "confidence": 0.48,
+  "probabilities": {
+   "ocr_error": 0.26,
+   "legitimate": 0.74
+  }
+ },
+ "nozelha": {
+  "label": "legitimate",
+  "confidence": 0.43,
+  "probabilities": {
+   "ocr_error": 0.29,
+   "legitimate": 0.71
+  }
+ },
+ "Lusitanae": {
+  "label": "legitimate",
+  "confidence": 0.84,
+  "probabilities": {
+   "legitimate": 0.92,
+   "ocr_error": 0.08
+  }
+ },
+ "valos": {
+  "label": "legitimate",
+  "confidence": 0.05,
+  "probabilities": {
+   "ocr_error": 0.47,
+   "legitimate": 0.53
+  }
+ },
+ "teberem": {
+  "label": "ocr_error",
+  "confidence": 0.5,
+  "probabilities": {
+   "legitimate": 0.25,
+   "ocr_error": 0.75
+  }
+ },
+ "Coronopus": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "hirtum": {
+  "label": "legitimate",
+  "confidence": 0.91,
+  "probabilities": {
+   "legitimate": 0.95,
+   "ocr_error": 0.05
+  }
+ },
+ "touça": {
+  "label": "legitimate",
+  "confidence": 0.77,
+  "probabilities": {
+   "ocr_error": 0.12,
+   "legitimate": 0.88
+  }
+ },
+ "Biddle": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "batimétricas": {
+  "label": "legitimate",
+  "confidence": 0.75,
+  "probabilities": {
+   "ocr_error": 0.13,
+   "legitimate": 0.87
+  }
+ },
+ "Zamorano": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Ilhote": {
+  "label": "legitimate",
+  "confidence": 0.83,
+  "probabilities": {
+   "ocr_error": 0.09,
+   "legitimate": 0.91
+  }
+ },
+ "tabelionato": {
+  "label": "legitimate",
+  "confidence": 0.82,
+  "probabilities": {
+   "legitimate": 0.91,
+   "ocr_error": 0.09
+  }
+ },
+ "Alceo": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "bailinhos": {
+  "label": "legitimate",
+  "confidence": 0.73,
+  "probabilities": {
+   "ocr_error": 0.13,
+   "legitimate": 0.87
+  }
+ },
+ "sargos": {
+  "label": "legitimate",
+  "confidence": 0.85,
+  "probabilities": {
+   "legitimate": 0.92,
+   "ocr_error": 0.08
+  }
+ },
+ "Maury": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Oldemburgo": {
+  "label": "legitimate",
+  "confidence": 0.5,
+  "probabilities": {
+   "legitimate": 0.75,
+   "ocr_error": 0.25
+  }
+ },
+ "Palaemon": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "omnium": {
+  "label": "legitimate",
+  "confidence": 0.78,
+  "probabilities": {
+   "ocr_error": 0.11,
+   "legitimate": 0.89
+  }
+ },
+ "Balbi": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "Salanacea": {
+  "label": "ocr_error",
+  "confidence": 0.25,
+  "probabilities": {
+   "legitimate": 0.38,
+   "ocr_error": 0.62
+  }
+ },
+ "sobreditta": {
+  "label": "legitimate",
+  "confidence": 0.13,
+  "probabilities": {
+   "legitimate": 0.57,
+   "ocr_error": 0.43
+  }
+ },
+ "Dactylis": {
+  "label": "legitimate",
+  "confidence": 0.81,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "autumn": {
+  "label": "legitimate",
+  "confidence": 0.86,
+  "probabilities": {
+   "ocr_error": 0.07,
+   "legitimate": 0.93
+  }
+ },
+ "d'isso": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "Ornithological": {
+  "label": "legitimate",
+  "confidence": 0.91,
+  "probabilities": {
+   "legitimate": 0.96,
+   "ocr_error": 0.04
+  }
+ },
+ "leptonix": {
+  "label": "legitimate",
+  "confidence": 0.11,
+  "probabilities": {
+   "legitimate": 0.56,
+   "ocr_error": 0.44
+  }
+ },
+ "Bayan": {
+  "label": "legitimate",
+  "confidence": 0.74,
+  "probabilities": {
+   "ocr_error": 0.13,
+   "legitimate": 0.87
+  }
+ },
+ "Organs": {
+  "label": "legitimate",
+  "confidence": 0.61,
+  "probabilities": {
+   "legitimate": 0.8,
+   "ocr_error": 0.2
+  }
+ },
+ "conteem": {
+  "label": "ocr_error",
+  "confidence": 0.43,
+  "probabilities": {
+   "legitimate": 0.28,
+   "ocr_error": 0.72
+  }
+ },
+ "results": {
+  "label": "legitimate",
+  "confidence": 0.76,
+  "probabilities": {
+   "ocr_error": 0.12,
+   "legitimate": 0.88
+  }
+ },
+ "Sceptrum": {
+  "label": "legitimate",
+  "confidence": 0.92,
+  "probabilities": {
+   "ocr_error": 0.04,
+   "legitimate": 0.96
+  }
+ },
+ "forcejavam": {
+  "label": "ocr_error",
+  "confidence": 0.41,
+  "probabilities": {
+   "legitimate": 0.3,
+   "ocr_error": 0.7
+  }
+ },
+ "Urzel": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "legitimate": 0.9,
+   "ocr_error": 0.1
+  }
+ },
+ "evidenceia": {
+  "label": "ocr_error",
+  "confidence": 0.05,
+  "probabilities": {
+   "ocr_error": 0.52,
+   "legitimate": 0.48
+  }
+ },
+ "pretestos": {
+  "label": "legitimate",
+  "confidence": 0.32,
+  "probabilities": {
+   "legitimate": 0.66,
+   "ocr_error": 0.34
+  }
+ },
+ "Schacht": {
+  "label": "legitimate",
+  "confidence": 0.93,
+  "probabilities": {
+   "legitimate": 0.96,
+   "ocr_error": 0.04
+  }
+ },
+ "matatus": {
+  "label": "legitimate",
+  "confidence": 0.43,
+  "probabilities": {
+   "legitimate": 0.71,
+   "ocr_error": 0.29
+  }
+ },
+ "Tamaricaceas": {
+  "label": "legitimate",
+  "confidence": 0.01,
+  "probabilities": {
+   "ocr_error": 0.49,
+   "legitimate": 0.51
+  }
+ },
+ "gallica": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "umedecida": {
+  "label": "legitimate",
+  "confidence": 0.07,
+  "probabilities": {
+   "legitimate": 0.54,
+   "ocr_error": 0.46
+  }
+ },
+ "Landeiros": {
+  "label": "legitimate",
+  "confidence": 0.76,
+  "probabilities": {
+   "ocr_error": 0.12,
+   "legitimate": 0.88
+  }
+ },
+ "caniculos": {
+  "label": "legitimate",
+  "confidence": 0.46,
+  "probabilities": {
+   "ocr_error": 0.27,
+   "legitimate": 0.73
+  }
+ },
+ "geodesia": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "legitimate": 0.95,
+   "ocr_error": 0.05
+  }
+ },
+ "linhite": {
+  "label": "legitimate",
+  "confidence": 0.43,
+  "probabilities": {
+   "ocr_error": 0.28,
+   "legitimate": 0.72
+  }
+ },
+ "n'outras": {
+  "label": "legitimate",
+  "confidence": 0.76,
+  "probabilities": {
+   "legitimate": 0.88,
+   "ocr_error": 0.12
+  }
+ },
+ "Hennebique": {
+  "label": "legitimate",
+  "confidence": 0.93,
+  "probabilities": {
+   "ocr_error": 0.03,
+   "legitimate": 0.97
+  }
+ },
+ "Canarie": {
+  "label": "legitimate",
+  "confidence": 0.5,
+  "probabilities": {
+   "ocr_error": 0.25,
+   "legitimate": 0.75
+  }
+ },
+ "l’alimentation": {
+  "label": "legitimate",
+  "confidence": 0.69,
+  "probabilities": {
+   "legitimate": 0.85,
+   "ocr_error": 0.15
+  }
+ },
+ "verrinas": {
+  "label": "legitimate",
+  "confidence": 0.04,
+  "probabilities": {
+   "legitimate": 0.52,
+   "ocr_error": 0.48
+  }
+ },
+ "ellipsoideos": {
+  "label": "legitimate",
+  "confidence": 0.23,
+  "probabilities": {
+   "ocr_error": 0.38,
+   "legitimate": 0.62
+  }
+ },
+ "filii": {
+  "label": "legitimate",
+  "confidence": 0.95,
+  "probabilities": {
+   "legitimate": 0.97,
+   "ocr_error": 0.03
+  }
+ },
+ "flavus": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "epizootia": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "molarinha": {
+  "label": "legitimate",
+  "confidence": 0.58,
+  "probabilities": {
+   "legitimate": 0.79,
+   "ocr_error": 0.21
+  }
+ },
+ "Snrs": {
+  "label": "legitimate",
+  "confidence": 0.65,
+  "probabilities": {
+   "ocr_error": 0.18,
+   "legitimate": 0.82
+  }
+ },
+ "littorale": {
+  "label": "legitimate",
+  "confidence": 0.95,
+  "probabilities": {
+   "legitimate": 0.98,
+   "ocr_error": 0.02
+  }
+ },
+ "Cuibém": {
+  "label": "legitimate",
+  "confidence": 0.4,
+  "probabilities": {
+   "ocr_error": 0.3,
+   "legitimate": 0.7
+  }
+ },
+ "Calanthias": {
+  "label": "legitimate",
+  "confidence": 0.71,
+  "probabilities": {
+   "legitimate": 0.86,
+   "ocr_error": 0.14
+  }
+ },
+ "Carchariida": {
+  "label": "legitimate",
+  "confidence": 0.44,
+  "probabilities": {
+   "ocr_error": 0.28,
+   "legitimate": 0.72
+  }
+ },
+ "Britos": {
+  "label": "legitimate",
+  "confidence": 0.86,
+  "probabilities": {
+   "legitimate": 0.93,
+   "ocr_error": 0.07
+  }
+ },
+ "Silvã": {
+  "label": "legitimate",
+  "confidence": 0.11,
+  "probabilities": {
+   "ocr_error": 0.44,
+   "legitimate": 0.56
+  }
+ },
+ "detendem": {
+  "label": "ocr_error",
+  "confidence": 0.42,
+  "probabilities": {
+   "legitimate": 0.29,
+   "ocr_error": 0.71
+  }
+ },
+ "Ophidiaster": {
+  "label": "legitimate",
+  "confidence": 0.82,
+  "probabilities": {
+   "legitimate": 0.91,
+   "ocr_error": 0.09
+  }
+ },
+ "Artemija": {
+  "label": "legitimate",
+  "confidence": 0.6,
+  "probabilities": {
+   "legitimate": 0.8,
+   "ocr_error": 0.2
+  }
+ },
+ "Hornell": {
+  "label": "legitimate",
+  "confidence": 0.9,
+  "probabilities": {
+   "ocr_error": 0.05,
+   "legitimate": 0.95
+  }
+ },
+ "sericata": {
+  "label": "legitimate",
+  "confidence": 0.81,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "Isilio": {
+  "label": "legitimate",
+  "confidence": 0.84,
+  "probabilities": {
+   "legitimate": 0.92,
+   "ocr_error": 0.08
+  }
+ },
+ "Dissertation": {
+  "label": "legitimate",
+  "confidence": 0.93,
+  "probabilities": {
+   "ocr_error": 0.03,
+   "legitimate": 0.97
+  }
+ },
+ "quinquelobadas": {
+  "label": "legitimate",
+  "confidence": 0.32,
+  "probabilities": {
+   "ocr_error": 0.34,
+   "legitimate": 0.66
+  }
+ },
+ "Brésil": {
+  "label": "legitimate",
+  "confidence": 0.89,
+  "probabilities": {
+   "legitimate": 0.94,
+   "ocr_error": 0.06
+  }
+ },
+ "Mocanera": {
+  "label": "legitimate",
+  "confidence": 0.88,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "Zoophytology": {
+  "label": "legitimate",
+  "confidence": 0.83,
+  "probabilities": {
+   "ocr_error": 0.08,
+   "legitimate": 0.92
+  }
+ },
+ "populneum": {
+  "label": "legitimate",
+  "confidence": 0.21,
+  "probabilities": {
+   "ocr_error": 0.4,
+   "legitimate": 0.6
+  }
+ },
+ "outr’ora": {
+  "label": "legitimate",
+  "confidence": 0.4,
+  "probabilities": {
+   "legitimate": 0.7,
+   "ocr_error": 0.3
+  }
+ },
+ "Paspalum": {
+  "label": "legitimate",
+  "confidence": 0.83,
+  "probabilities": {
+   "legitimate": 0.91,
+   "ocr_error": 0.09
+  }
+ },
+ "Arnoso": {
+  "label": "legitimate",
+  "confidence": 0.81,
+  "probabilities": {
+   "legitimate": 0.91,
+   "ocr_error": 0.09
+  }
+ },
+ "altigos": {
+  "label": "ocr_error",
+  "confidence": 0.92,
+  "probabilities": {
+   "ocr_error": 0.96,
+   "legitimate": 0.04
+  }
+ },
+ "Bicanho": {
+  "label": "legitimate",
+  "confidence": 0.9,
+  "probabilities": {
+   "legitimate": 0.95,
+   "ocr_error": 0.05
+  }
+ },
+ "briozoário": {
+  "label": "legitimate",
+  "confidence": 0.66,
+  "probabilities": {
+   "legitimate": 0.83,
+   "ocr_error": 0.17
+  }
+ },
+ "constituïçao": {
+  "label": "legitimate",
+  "confidence": 0.14,
+  "probabilities": {
+   "legitimate": 0.57,
+   "ocr_error": 0.43
+  }
+ },
+ "haec": {
+  "label": "legitimate",
+  "confidence": 0.94,
+  "probabilities": {
+   "ocr_error": 0.03,
+   "legitimate": 0.97
+  }
+ },
+ "benignamente": {
+  "label": "legitimate",
+  "confidence": 0.76,
+  "probabilities": {
+   "legitimate": 0.88,
+   "ocr_error": 0.12
+  }
+ },
+ "turbata": {
+  "label": "legitimate",
+  "confidence": 0.58,
+  "probabilities": {
+   "ocr_error": 0.21,
+   "legitimate": 0.79
+  }
+ },
+ "cefalópodos": {
+  "label": "legitimate",
+  "confidence": 0.87,
+  "probabilities": {
+   "ocr_error": 0.06,
+   "legitimate": 0.94
+  }
+ },
+ "Ferns": {
+  "label": "legitimate",
+  "confidence": 0.6,
+  "probabilities": {
+   "legitimate": 0.8,
+   "ocr_error": 0.2
+  }
+ },
+ "bacteriaceas": {
+  "label": "ocr_error",
+  "confidence": 0.27,
+  "probabilities": {
+   "ocr_error": 0.64,
+   "legitimate": 0.36
+  }
+ },
+ "locum": {
+  "label": "legitimate",
+  "confidence": 0.53,
+  "probabilities": {
+   "legitimate": 0.77,
+   "ocr_error": 0.23
+  }
+ },
+ "suplementarmente": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "saiem": {
+  "label": "legitimate",
+  "confidence": 0.02,
+  "probabilities": {
+   "legitimate": 0.51,
+   "ocr_error": 0.49
+  }
+ },
+ "machito": {
+  "label": "legitimate",
+  "confidence": 0.28,
+  "probabilities": {
+   "ocr_error": 0.36,
+   "legitimate": 0.64
+  }
+ },
+ "Anphidesma": {
+  "label": "legitimate",
+  "confidence": 0.21,
+  "probabilities": {
+   "ocr_error": 0.4,
+   "legitimate": 0.6
+  }
+ },
+ "Cyrtophora": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "legitimate": 0.99,
+   "ocr_error": 0.01
+  }
+ },
+ "économique": {
+  "label": "legitimate",
+  "confidence": 0.69,
+  "probabilities": {
+   "legitimate": 0.85,
+   "ocr_error": 0.15
+  }
+ },
+ "Heinekeni": {
+  "label": "legitimate",
+  "confidence": 0.38,
+  "probabilities": {
+   "legitimate": 0.69,
+   "ocr_error": 0.31
+  }
+ },
+ "Buchanan": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "legitimate": 0.99,
+   "ocr_error": 0.01
+  }
+ },
+ "Ostrellata": {
+  "label": "legitimate",
+  "confidence": 0.63,
+  "probabilities": {
+   "ocr_error": 0.18,
+   "legitimate": 0.82
+  }
+ },
+ "Tellina": {
+  "label": "legitimate",
+  "confidence": 0.85,
+  "probabilities": {
+   "ocr_error": 0.07,
+   "legitimate": 0.93
+  }
+ },
+ "Desembarcadoiro": {
+  "label": "legitimate",
+  "confidence": 0.93,
+  "probabilities": {
+   "legitimate": 0.96,
+   "ocr_error": 0.04
+  }
+ },
+ "ymportamcia": {
+  "label": "ocr_error",
+  "confidence": 0.96,
+  "probabilities": {
+   "ocr_error": 0.98,
+   "legitimate": 0.02
+  }
+ },
+ "arquivoltas": {
+  "label": "legitimate",
+  "confidence": 0.75,
+  "probabilities": {
+   "legitimate": 0.88,
+   "ocr_error": 0.12
+  }
+ },
+ "glosarem": {
+  "label": "legitimate",
+  "confidence": 0.57,
+  "probabilities": {
+   "ocr_error": 0.21,
+   "legitimate": 0.79
+  }
+ },
+ "gorgetas": {
+  "label": "legitimate",
+  "confidence": 0.45,
+  "probabilities": {
+   "legitimate": 0.73,
+   "ocr_error": 0.27
+  }
+ },
+ "Assuna": {
+  "label": "legitimate",
+  "confidence": 0.91,
+  "probabilities": {
+   "ocr_error": 0.04,
+   "legitimate": 0.96
+  }
+ },
+ "sponge": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "colias": {
+  "label": "legitimate",
+  "confidence": 0.74,
+  "probabilities": {
+   "legitimate": 0.87,
+   "ocr_error": 0.13
+  }
+ },
+ "Second": {
+  "label": "legitimate",
+  "confidence": 0.9,
+  "probabilities": {
+   "ocr_error": 0.05,
+   "legitimate": 0.95
+  }
+ },
+ "Géographie": {
+  "label": "legitimate",
+  "confidence": 0.57,
+  "probabilities": {
+   "legitimate": 0.78,
+   "ocr_error": 0.22
+  }
+ },
+ "physicas": {
+  "label": "legitimate",
+  "confidence": 0.31,
+  "probabilities": {
+   "ocr_error": 0.35,
+   "legitimate": 0.65
+  }
+ },
+ "abatimeuto": {
+  "label": "ocr_error",
+  "confidence": 0.13,
+  "probabilities": {
+   "ocr_error": 0.56,
+   "legitimate": 0.44
+  }
+ },
+ "castanea": {
+  "label": "legitimate",
+  "confidence": 0.7,
+  "probabilities": {
+   "ocr_error": 0.15,
+   "legitimate": 0.85
+  }
+ },
+ "dispensários": {
+  "label": "legitimate",
+  "confidence": 0.81,
+  "probabilities": {
+   "legitimate": 0.91,
+   "ocr_error": 0.09
+  }
+ },
+ "Tristoa": {
+  "label": "ocr_error",
+  "confidence": 0.03,
+  "probabilities": {
+   "legitimate": 0.49,
+   "ocr_error": 0.51
+  }
+ },
+ "Galateia": {
+  "label": "legitimate",
+  "confidence": 0.95,
+  "probabilities": {
+   "ocr_error": 0.03,
+   "legitimate": 0.97
+  }
+ },
+ "saqueá": {
+  "label": "legitimate",
+  "confidence": 0.31,
+  "probabilities": {
+   "ocr_error": 0.35,
+   "legitimate": 0.65
+  }
+ },
+ "Vorworte": {
+  "label": "legitimate",
+  "confidence": 0.55,
+  "probabilities": {
+   "legitimate": 0.78,
+   "ocr_error": 0.22
+  }
+ },
+ "XPO": {
+  "label": "legitimate",
+  "confidence": 0.58,
+  "probabilities": {
+   "legitimate": 0.79,
+   "ocr_error": 0.21
+  }
+ },
+ "atrabeçar": {
+  "label": "legitimate",
+  "confidence": 0.43,
+  "probabilities": {
+   "legitimate": 0.72,
+   "ocr_error": 0.28
+  }
+ },
+ "Mesnier": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "Pinacea": {
+  "label": "legitimate",
+  "confidence": 0.35,
+  "probabilities": {
+   "legitimate": 0.67,
+   "ocr_error": 0.33
+  }
+ },
+ "fontanários": {
+  "label": "legitimate",
+  "confidence": 0.54,
+  "probabilities": {
+   "legitimate": 0.77,
+   "ocr_error": 0.23
+  }
+ },
+ "augustas": {
+  "label": "legitimate",
+  "confidence": 0.44,
+  "probabilities": {
+   "ocr_error": 0.28,
+   "legitimate": 0.72
+  }
+ },
+ "Torreao": {
+  "label": "legitimate",
+  "confidence": 0.48,
+  "probabilities": {
+   "ocr_error": 0.26,
+   "legitimate": 0.74
+  }
+ },
+ "Corinto": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "legitimate": 0.98,
+   "ocr_error": 0.02
+  }
+ },
+ "machinas": {
+  "label": "legitimate",
+  "confidence": 0.72,
+  "probabilities": {
+   "ocr_error": 0.14,
+   "legitimate": 0.86
+  }
+ },
+ "Pestalozzia": {
+  "label": "legitimate",
+  "confidence": 0.1,
+  "probabilities": {
+   "legitimate": 0.55,
+   "ocr_error": 0.45
+  }
+ },
+ "Madakna": {
+  "label": "legitimate",
+  "confidence": 0.38,
+  "probabilities": {
+   "ocr_error": 0.31,
+   "legitimate": 0.69
+  }
+ },
+ "Miguéis": {
+  "label": "legitimate",
+  "confidence": 0.48,
+  "probabilities": {
+   "legitimate": 0.74,
+   "ocr_error": 0.26
+  }
+ },
+ "duranta": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "legitimate": 0.9,
+   "ocr_error": 0.1
+  }
+ },
+ "Holstein": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Swallow": {
+  "label": "legitimate",
+  "confidence": 0.72,
+  "probabilities": {
+   "ocr_error": 0.14,
+   "legitimate": 0.86
+  }
+ },
+ "Glefioar": {
+  "label": "ocr_error",
+  "confidence": 0.19,
+  "probabilities": {
+   "legitimate": 0.4,
+   "ocr_error": 0.6
+  }
+ },
+ "hebreias": {
+  "label": "legitimate",
+  "confidence": 0.52,
+  "probabilities": {
+   "ocr_error": 0.24,
+   "legitimate": 0.76
+  }
+ },
+ "Ribes": {
+  "label": "legitimate",
+  "confidence": 0.91,
+  "probabilities": {
+   "ocr_error": 0.04,
+   "legitimate": 0.96
+  }
+ },
+ "Additamento": {
+  "label": "legitimate",
+  "confidence": 0.59,
+  "probabilities": {
+   "ocr_error": 0.21,
+   "legitimate": 0.79
+  }
+ },
+ "Seissal": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "Glyphomitrium": {
+  "label": "legitimate",
+  "confidence": 0.87,
+  "probabilities": {
+   "ocr_error": 0.07,
+   "legitimate": 0.93
+  }
+ },
+ "Cerithiopsis": {
+  "label": "legitimate",
+  "confidence": 0.93,
+  "probabilities": {
+   "ocr_error": 0.04,
+   "legitimate": 0.96
+  }
+ },
+ "qiWe": {
+  "label": "ocr_error",
+  "confidence": 0.66,
+  "probabilities": {
+   "ocr_error": 0.83,
+   "legitimate": 0.17
+  }
+ },
+ "meridionaes": {
+  "label": "ocr_error",
+  "confidence": 0.64,
+  "probabilities": {
+   "legitimate": 0.18,
+   "ocr_error": 0.82
+  }
+ },
+ "Vernon": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "expremem": {
+  "label": "ocr_error",
+  "confidence": 0.8,
+  "probabilities": {
+   "legitimate": 0.1,
+   "ocr_error": 0.9
+  }
+ },
+ "Thetis": {
+  "label": "legitimate",
+  "confidence": 0.98,
+  "probabilities": {
+   "ocr_error": 0.01,
+   "legitimate": 0.99
+  }
+ },
+ "Vermetus": {
+  "label": "legitimate",
+  "confidence": 0.96,
+  "probabilities": {
+   "ocr_error": 0.02,
+   "legitimate": 0.98
+  }
+ },
+ "derribado": {
+  "label": "legitimate",
+  "confidence": 0.81,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "arremdadores": {
+  "label": "ocr_error",
+  "confidence": 0.44,
+  "probabilities": {
+   "ocr_error": 0.72,
+   "legitimate": 0.28
+  }
+ },
+ "escrivaes": {
+  "label": "ocr_error",
+  "confidence": 0.46,
+  "probabilities": {
+   "legitimate": 0.27,
+   "ocr_error": 0.73
+  }
+ },
+ "Cumáceos": {
+  "label": "legitimate",
+  "confidence": 0.48,
+  "probabilities": {
+   "ocr_error": 0.26,
+   "legitimate": 0.74
+  }
+ },
+ "Docet": {
+  "label": "legitimate",
+  "confidence": 0.83,
+  "probabilities": {
+   "ocr_error": 0.09,
+   "legitimate": 0.91
+  }
+ },
+ "Muscorum": {
+  "label": "legitimate",
+  "confidence": 0.91,
+  "probabilities": {
+   "legitimate": 0.95,
+   "ocr_error": 0.05
+  }
+ },
+ "source": {
+  "label": "legitimate",
+  "confidence": 0.97,
+  "probabilities": {
+   "legitimate": 0.98,
+   "ocr_error": 0.02
+  }
+ },
+ "Oecophthora": {
+  "label": "legitimate",
+  "confidence": 0.08,
+  "probabilities": {
+   "ocr_error": 0.46,
+   "legitimate": 0.54
+  }
+ },
+ "espinacida": {
+  "label": "ocr_error",
+  "confidence": 0.03,
+  "probabilities": {
+   "legitimate": 0.48,
+   "ocr_error": 0.52
+  }
+ },
+ "coruchéus": {
+  "label": "legitimate",
+  "confidence": 0.62,
+  "probabilities": {
+   "ocr_error": 0.19,
+   "legitimate": 0.81
+  }
+ },
+ "Arrifes": {
+  "label": "legitimate",
+  "confidence": 0.8,
+  "probabilities": {
+   "ocr_error": 0.1,
+   "legitimate": 0.9
+  }
+ },
+ "anatina": {
+  "label": "legitimate",
+  "confidence": 0.92,
+  "probabilities": {
+   "ocr_error": 0.04,
+   "legitimate": 0.96
+  }
+ },
+ "Jás": {
+  "label": "legitimate",
+  "confidence": 0.45,
+  "probabilities": {
+   "ocr_error": 0.27,
+   "legitimate": 0.73
+  }
+ },
+ "Maurilio": {
+  "label": "legitimate",
+  "confidence": 0.99,
+  "probabilities": {
+   "legitimate": 0.99,
+   "ocr_error": 0.01
+  }
+ }
+}

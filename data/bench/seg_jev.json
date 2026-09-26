@@ -1,0 +1,1766 @@
+{
+ "3567a0650815": {
+  "label": "article",
+  "confidence": 0.8,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.12,
+   "article": 0.86
+  }
+ },
+ "89b70e3013dc": {
+  "label": "article",
+  "confidence": 0.78,
+  "probabilities": {
+   "subarticle": 0.01,
+   "article": 0.86,
+   "reject": 0.13
+  }
+ },
+ "2ae9122fad8e": {
+  "label": "article",
+  "confidence": 0.9,
+  "probabilities": {
+   "subarticle": 0.05,
+   "reject": 0.01,
+   "article": 0.93
+  }
+ },
+ "5e7757312d70": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.02,
+   "article": 0.97
+  }
+ },
+ "d389d50abbac": {
+  "label": "article",
+  "confidence": 0.44,
+  "probabilities": {
+   "subarticle": 0.37,
+   "article": 0.63,
+   "reject": 0.0
+  }
+ },
+ "ec52dca295dc": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "reject": 0.03,
+   "subarticle": 0.01,
+   "article": 0.96
+  }
+ },
+ "007c772cda93": {
+  "label": "article",
+  "confidence": 0.54,
+  "probabilities": {
+   "article": 0.7,
+   "reject": 0.01,
+   "subarticle": 0.29
+  }
+ },
+ "b592b1a7a154": {
+  "label": "article",
+  "confidence": 0.88,
+  "probabilities": {
+   "article": 0.92,
+   "subarticle": 0.07,
+   "reject": 0.01
+  }
+ },
+ "2e23705f5c2d": {
+  "label": "article",
+  "confidence": 0.96,
+  "probabilities": {
+   "reject": 0.02,
+   "article": 0.98,
+   "subarticle": 0.0
+  }
+ },
+ "b8cd0b2b4d92": {
+  "label": "article",
+  "confidence": 0.73,
+  "probabilities": {
+   "subarticle": 0.17,
+   "article": 0.82,
+   "reject": 0.01
+  }
+ },
+ "744da8c52149": {
+  "label": "article",
+  "confidence": 0.83,
+  "probabilities": {
+   "article": 0.89,
+   "subarticle": 0.05,
+   "reject": 0.06
+  }
+ },
+ "ef66e8253b95": {
+  "label": "article",
+  "confidence": 0.87,
+  "probabilities": {
+   "subarticle": 0.01,
+   "reject": 0.08,
+   "article": 0.91
+  }
+ },
+ "43d6c3f0df49": {
+  "label": "article",
+  "confidence": 0.65,
+  "probabilities": {
+   "reject": 0.19,
+   "subarticle": 0.04,
+   "article": 0.77
+  }
+ },
+ "2b6eb17d4da1": {
+  "label": "article",
+  "confidence": 0.26,
+  "probabilities": {
+   "subarticle": 0.03,
+   "reject": 0.47,
+   "article": 0.5
+  }
+ },
+ "ce1dea22ef97": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "article": 0.97,
+   "subarticle": 0.01,
+   "reject": 0.02
+  }
+ },
+ "c482337a4af0": {
+  "label": "article",
+  "confidence": 0.7,
+  "probabilities": {
+   "subarticle": 0.07,
+   "article": 0.8,
+   "reject": 0.13
+  }
+ },
+ "58518d788f35": {
+  "label": "article",
+  "confidence": 0.84,
+  "probabilities": {
+   "article": 0.9,
+   "subarticle": 0.04,
+   "reject": 0.06
+  }
+ },
+ "7e05c3d41f72": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "article": 0.95,
+   "reject": 0.03,
+   "subarticle": 0.02
+  }
+ },
+ "392b5352b82c": {
+  "label": "article",
+  "confidence": 0.84,
+  "probabilities": {
+   "reject": 0.07,
+   "article": 0.9,
+   "subarticle": 0.03
+  }
+ },
+ "04558a056cf8": {
+  "label": "article",
+  "confidence": 0.74,
+  "probabilities": {
+   "article": 0.83,
+   "subarticle": 0.02,
+   "reject": 0.15
+  }
+ },
+ "d6cb2d8c093c": {
+  "label": "article",
+  "confidence": 0.74,
+  "probabilities": {
+   "article": 0.83,
+   "reject": 0.12,
+   "subarticle": 0.05
+  }
+ },
+ "4817ee5eb364": {
+  "label": "article",
+  "confidence": 0.96,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.02,
+   "article": 0.97
+  }
+ },
+ "8c6ec631a178": {
+  "label": "article",
+  "confidence": 0.8,
+  "probabilities": {
+   "article": 0.87,
+   "subarticle": 0.03,
+   "reject": 0.1
+  }
+ },
+ "f46cfb76f598": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "subarticle": 0.01,
+   "reject": 0.03,
+   "article": 0.96
+  }
+ },
+ "968736fb98fc": {
+  "label": "article",
+  "confidence": 0.36,
+  "probabilities": {
+   "reject": 0.05,
+   "subarticle": 0.37,
+   "article": 0.58
+  }
+ },
+ "b95ef707a814": {
+  "label": "article",
+  "confidence": 0.34,
+  "probabilities": {
+   "subarticle": 0.38,
+   "reject": 0.06,
+   "article": 0.56
+  }
+ },
+ "0d506a5cb7da": {
+  "label": "article",
+  "confidence": 0.82,
+  "probabilities": {
+   "subarticle": 0.05,
+   "reject": 0.07,
+   "article": 0.88
+  }
+ },
+ "b35dc987371e": {
+  "label": "article",
+  "confidence": 0.75,
+  "probabilities": {
+   "subarticle": 0.11,
+   "article": 0.84,
+   "reject": 0.05
+  }
+ },
+ "c4d3ff06ccf1": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "reject": 0.02,
+   "subarticle": 0.04,
+   "article": 0.94
+  }
+ },
+ "b91b325d0c3c": {
+  "label": "article",
+  "confidence": 0.41,
+  "probabilities": {
+   "reject": 0.22,
+   "subarticle": 0.17,
+   "article": 0.61
+  }
+ },
+ "32ea955c8bb6": {
+  "label": "article",
+  "confidence": 0.88,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.91,
+   "reject": 0.06
+  }
+ },
+ "05c01c35be2e": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "subarticle": 0.02,
+   "article": 0.95,
+   "reject": 0.03
+  }
+ },
+ "848f92ffef40": {
+  "label": "article",
+  "confidence": 0.66,
+  "probabilities": {
+   "subarticle": 0.1,
+   "article": 0.78,
+   "reject": 0.12
+  }
+ },
+ "af2dae255a3f": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "subarticle": 0.05,
+   "article": 0.94,
+   "reject": 0.01
+  }
+ },
+ "5bd48cb2c4b2": {
+  "label": "article",
+  "confidence": 0.76,
+  "probabilities": {
+   "article": 0.84,
+   "reject": 0.04,
+   "subarticle": 0.12
+  }
+ },
+ "3253babb87b9": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.03,
+   "article": 0.96
+  }
+ },
+ "39da3450837a": {
+  "label": "article",
+  "confidence": 0.86,
+  "probabilities": {
+   "article": 0.91,
+   "reject": 0.06,
+   "subarticle": 0.03
+  }
+ },
+ "48abe9e6b5c9": {
+  "label": "article",
+  "confidence": 0.99,
+  "probabilities": {
+   "reject": 0.0,
+   "subarticle": 0.0,
+   "article": 1.0
+  }
+ },
+ "2c226fa4876f": {
+  "label": "article",
+  "confidence": 0.72,
+  "probabilities": {
+   "article": 0.8099999999999999,
+   "subarticle": 0.05,
+   "reject": 0.14
+  }
+ },
+ "f33cf164b57b": {
+  "label": "article",
+  "confidence": 0.69,
+  "probabilities": {
+   "subarticle": 0.17,
+   "article": 0.79,
+   "reject": 0.04
+  }
+ },
+ "e96deae10539": {
+  "label": "article",
+  "confidence": 0.87,
+  "probabilities": {
+   "subarticle": 0.07,
+   "reject": 0.02,
+   "article": 0.91
+  }
+ },
+ "c9f6d8ad9db6": {
+  "label": "article",
+  "confidence": 0.96,
+  "probabilities": {
+   "article": 0.97,
+   "subarticle": 0.02,
+   "reject": 0.01
+  }
+ },
+ "0caf9609ff46": {
+  "label": "article",
+  "confidence": 0.76,
+  "probabilities": {
+   "subarticle": 0.05,
+   "article": 0.83,
+   "reject": 0.12
+  }
+ },
+ "87504829f737": {
+  "label": "article",
+  "confidence": 0.72,
+  "probabilities": {
+   "subarticle": 0.16,
+   "reject": 0.03,
+   "article": 0.81
+  }
+ },
+ "df3b00ed6101": {
+  "label": "article",
+  "confidence": 0.73,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.82,
+   "reject": 0.15
+  }
+ },
+ "500b28b88450": {
+  "label": "article",
+  "confidence": 0.9,
+  "probabilities": {
+   "subarticle": 0.05,
+   "reject": 0.02,
+   "article": 0.9299999999999999
+  }
+ },
+ "1e0033b6a320": {
+  "label": "article",
+  "confidence": 0.74,
+  "probabilities": {
+   "subarticle": 0.16,
+   "reject": 0.02,
+   "article": 0.82
+  }
+ },
+ "b64035b57c1e": {
+  "label": "article",
+  "confidence": 0.98,
+  "probabilities": {
+   "subarticle": 0.0,
+   "article": 0.99,
+   "reject": 0.01
+  }
+ },
+ "572155eb0ef8": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.02,
+   "article": 0.96
+  }
+ },
+ "ea69155e7bf1": {
+  "label": "article",
+  "confidence": 0.8,
+  "probabilities": {
+   "article": 0.86,
+   "reject": 0.12,
+   "subarticle": 0.02
+  }
+ },
+ "15e0ab2ff6f7": {
+  "label": "article",
+  "confidence": 0.89,
+  "probabilities": {
+   "reject": 0.04,
+   "article": 0.93,
+   "subarticle": 0.03
+  }
+ },
+ "ff8084d8d87d": {
+  "label": "article",
+  "confidence": 0.74,
+  "probabilities": {
+   "subarticle": 0.16,
+   "article": 0.83,
+   "reject": 0.01
+  }
+ },
+ "a356eebf85b0": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.02,
+   "article": 0.96
+  }
+ },
+ "c75c27f8f62f": {
+  "label": "article",
+  "confidence": 0.51,
+  "probabilities": {
+   "article": 0.68,
+   "reject": 0.2,
+   "subarticle": 0.12
+  }
+ },
+ "2b5a806b066b": {
+  "label": "article",
+  "confidence": 0.9,
+  "probabilities": {
+   "reject": 0.04,
+   "article": 0.93,
+   "subarticle": 0.03
+  }
+ },
+ "45cee488f5d0": {
+  "label": "article",
+  "confidence": 0.89,
+  "probabilities": {
+   "subarticle": 0.02,
+   "article": 0.92,
+   "reject": 0.06
+  }
+ },
+ "844cfd7e5148": {
+  "label": "article",
+  "confidence": 0.57,
+  "probabilities": {
+   "reject": 0.08,
+   "subarticle": 0.2,
+   "article": 0.72
+  }
+ },
+ "13ba8b6879b1": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "article": 0.95,
+   "reject": 0.03,
+   "subarticle": 0.02
+  }
+ },
+ "bbf950dfd208": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.01,
+   "article": 0.97
+  }
+ },
+ "86ee09707c29": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "reject": 0.05,
+   "article": 0.94,
+   "subarticle": 0.01
+  }
+ },
+ "4d047d10ab78": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.04,
+   "article": 0.94
+  }
+ },
+ "0755b4a29acf": {
+  "label": "article",
+  "confidence": 0.69,
+  "probabilities": {
+   "reject": 0.14,
+   "subarticle": 0.07,
+   "article": 0.79
+  }
+ },
+ "7edd6c2a4322": {
+  "label": "article",
+  "confidence": 0.74,
+  "probabilities": {
+   "subarticle": 0.09,
+   "article": 0.83,
+   "reject": 0.08
+  }
+ },
+ "5bc4f1efa931": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "subarticle": 0.02,
+   "article": 0.96,
+   "reject": 0.02
+  }
+ },
+ "cc2d1d64e274": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "reject": 0.02,
+   "article": 0.96,
+   "subarticle": 0.02
+  }
+ },
+ "8c0d8562d113": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "subarticle": 0.01,
+   "article": 0.95,
+   "reject": 0.04
+  }
+ },
+ "d4cf5cb307be": {
+  "label": "article",
+  "confidence": 0.78,
+  "probabilities": {
+   "reject": 0.04,
+   "article": 0.86,
+   "subarticle": 0.1
+  }
+ },
+ "15fd5daf81e1": {
+  "label": "article",
+  "confidence": 0.88,
+  "probabilities": {
+   "subarticle": 0.05,
+   "reject": 0.03,
+   "article": 0.92
+  }
+ },
+ "9a92c0f92ecd": {
+  "label": "article",
+  "confidence": 0.82,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.09,
+   "article": 0.89
+  }
+ },
+ "1f4dbba2f8e3": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.02,
+   "article": 0.96
+  }
+ },
+ "ffdd37493745": {
+  "label": "article",
+  "confidence": 0.82,
+  "probabilities": {
+   "subarticle": 0.04,
+   "article": 0.88,
+   "reject": 0.08
+  }
+ },
+ "03fa57aff7fa": {
+  "label": "article",
+  "confidence": 0.69,
+  "probabilities": {
+   "reject": 0.02,
+   "article": 0.79,
+   "subarticle": 0.19
+  }
+ },
+ "b49934be83a7": {
+  "label": "article",
+  "confidence": 0.81,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.87,
+   "reject": 0.1
+  }
+ },
+ "1d5096a58be6": {
+  "label": "article",
+  "confidence": 0.69,
+  "probabilities": {
+   "article": 0.79,
+   "reject": 0.01,
+   "subarticle": 0.2
+  }
+ },
+ "a310cc657f99": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.94,
+   "reject": 0.03
+  }
+ },
+ "3f2b4e2e33b8": {
+  "label": "article",
+  "confidence": 0.63,
+  "probabilities": {
+   "article": 0.76,
+   "subarticle": 0.15,
+   "reject": 0.09
+  }
+ },
+ "6c54d63bee6b": {
+  "label": "subarticle",
+  "confidence": 0.46,
+  "probabilities": {
+   "subarticle": 0.64,
+   "reject": 0.01,
+   "article": 0.35
+  }
+ },
+ "49bb836ebd3b": {
+  "label": "article",
+  "confidence": 0.41,
+  "probabilities": {
+   "article": 0.61,
+   "reject": 0.03,
+   "subarticle": 0.36
+  }
+ },
+ "98aded7d34cd": {
+  "label": "article",
+  "confidence": 0.87,
+  "probabilities": {
+   "reject": 0.07,
+   "article": 0.92,
+   "subarticle": 0.01
+  }
+ },
+ "f0b27ff88431": {
+  "label": "article",
+  "confidence": 0.64,
+  "probabilities": {
+   "reject": 0.14,
+   "subarticle": 0.09,
+   "article": 0.77
+  }
+ },
+ "d6d90680ab77": {
+  "label": "reject",
+  "confidence": 0.38,
+  "probabilities": {
+   "subarticle": 0.23,
+   "article": 0.19,
+   "reject": 0.58
+  }
+ },
+ "5cdf7922cd35": {
+  "label": "article",
+  "confidence": 0.86,
+  "probabilities": {
+   "reject": 0.06,
+   "subarticle": 0.03,
+   "article": 0.91
+  }
+ },
+ "3c818483984d": {
+  "label": "reject",
+  "confidence": 0.44,
+  "probabilities": {
+   "article": 0.18,
+   "subarticle": 0.2,
+   "reject": 0.62
+  }
+ },
+ "20785c8d2766": {
+  "label": "reject",
+  "confidence": 0.47,
+  "probabilities": {
+   "article": 0.23,
+   "reject": 0.65,
+   "subarticle": 0.12
+  }
+ },
+ "380cd380c86b": {
+  "label": "article",
+  "confidence": 0.89,
+  "probabilities": {
+   "article": 0.92,
+   "reject": 0.06,
+   "subarticle": 0.02
+  }
+ },
+ "b3d9d4baf400": {
+  "label": "article",
+  "confidence": 0.71,
+  "probabilities": {
+   "reject": 0.04,
+   "subarticle": 0.15,
+   "article": 0.81
+  }
+ },
+ "d58fbbb8cfad": {
+  "label": "reject",
+  "confidence": 0.39,
+  "probabilities": {
+   "reject": 0.6,
+   "article": 0.22,
+   "subarticle": 0.18
+  }
+ },
+ "55762f9394ac": {
+  "label": "reject",
+  "confidence": 0.26,
+  "probabilities": {
+   "subarticle": 0.09,
+   "article": 0.4,
+   "reject": 0.51
+  }
+ },
+ "eff21e54d007": {
+  "label": "article",
+  "confidence": 0.87,
+  "probabilities": {
+   "article": 0.92,
+   "reject": 0.06,
+   "subarticle": 0.02
+  }
+ },
+ "ce067a33e2b7": {
+  "label": "article",
+  "confidence": 0.98,
+  "probabilities": {
+   "subarticle": 0.0,
+   "article": 0.99,
+   "reject": 0.01
+  }
+ },
+ "58de9b7f3f9a": {
+  "label": "article",
+  "confidence": 0.82,
+  "probabilities": {
+   "reject": 0.01,
+   "article": 0.89,
+   "subarticle": 0.1
+  }
+ },
+ "bc9f217fbdaf": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "reject": 0.04,
+   "subarticle": 0.01,
+   "article": 0.95
+  }
+ },
+ "92ffae31a71f": {
+  "label": "article",
+  "confidence": 0.99,
+  "probabilities": {
+   "subarticle": 0.01,
+   "article": 0.99,
+   "reject": 0.0
+  }
+ },
+ "82c01483a5d7": {
+  "label": "article",
+  "confidence": 0.24,
+  "probabilities": {
+   "reject": 0.39,
+   "subarticle": 0.12,
+   "article": 0.49
+  }
+ },
+ "3d229cce70f1": {
+  "label": "article",
+  "confidence": 0.75,
+  "probabilities": {
+   "subarticle": 0.06,
+   "reject": 0.11,
+   "article": 0.83
+  }
+ },
+ "c5576ce7ed10": {
+  "label": "article",
+  "confidence": 0.53,
+  "probabilities": {
+   "subarticle": 0.27,
+   "article": 0.69,
+   "reject": 0.04
+  }
+ },
+ "707f58ebec9c": {
+  "label": "subarticle",
+  "confidence": 0.68,
+  "probabilities": {
+   "article": 0.2,
+   "reject": 0.01,
+   "subarticle": 0.79
+  }
+ },
+ "df6cab7a486f": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "subarticle": 0.04,
+   "reject": 0.03,
+   "article": 0.9299999999999999
+  }
+ },
+ "4661b8b4bae8": {
+  "label": "reject",
+  "confidence": 0.46,
+  "probabilities": {
+   "article": 0.27,
+   "subarticle": 0.09,
+   "reject": 0.64
+  }
+ },
+ "28b63d73691d": {
+  "label": "article",
+  "confidence": 0.84,
+  "probabilities": {
+   "article": 0.89,
+   "reject": 0.03,
+   "subarticle": 0.08
+  }
+ },
+ "f4202cee8c5d": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "reject": 0.02,
+   "article": 0.95,
+   "subarticle": 0.03
+  }
+ },
+ "656d53b6a8d7": {
+  "label": "article",
+  "confidence": 0.33,
+  "probabilities": {
+   "article": 0.55,
+   "subarticle": 0.42,
+   "reject": 0.03
+  }
+ },
+ "0cfa194b7a2a": {
+  "label": "article",
+  "confidence": 0.39,
+  "probabilities": {
+   "subarticle": 0.38,
+   "article": 0.59,
+   "reject": 0.03
+  }
+ },
+ "78d7d297c8eb": {
+  "label": "subarticle",
+  "confidence": 0.4,
+  "probabilities": {
+   "subarticle": 0.6,
+   "article": 0.32,
+   "reject": 0.08
+  }
+ },
+ "8c7d683eae26": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.96,
+   "reject": 0.01
+  }
+ },
+ "100a9c590e8e": {
+  "label": "article",
+  "confidence": 0.63,
+  "probabilities": {
+   "subarticle": 0.14,
+   "article": 0.75,
+   "reject": 0.11
+  }
+ },
+ "3602f3760c0e": {
+  "label": "subarticle",
+  "confidence": 0.53,
+  "probabilities": {
+   "reject": 0.03,
+   "article": 0.28,
+   "subarticle": 0.69
+  }
+ },
+ "d712dcff6033": {
+  "label": "article",
+  "confidence": 0.88,
+  "probabilities": {
+   "subarticle": 0.07,
+   "article": 0.92,
+   "reject": 0.01
+  }
+ },
+ "56e7dbd592f0": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "reject": 0.04,
+   "subarticle": 0.01,
+   "article": 0.95
+  }
+ },
+ "3bcb0821c5b8": {
+  "label": "article",
+  "confidence": 0.67,
+  "probabilities": {
+   "reject": 0.06,
+   "article": 0.78,
+   "subarticle": 0.16
+  }
+ },
+ "d193f351ce86": {
+  "label": "reject",
+  "confidence": 0.79,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.86,
+   "article": 0.12
+  }
+ },
+ "11f3c12e24ff": {
+  "label": "article",
+  "confidence": 0.89,
+  "probabilities": {
+   "article": 0.93,
+   "subarticle": 0.02,
+   "reject": 0.05
+  }
+ },
+ "953a78073eae": {
+  "label": "article",
+  "confidence": 0.67,
+  "probabilities": {
+   "reject": 0.15,
+   "subarticle": 0.07,
+   "article": 0.78
+  }
+ },
+ "97bc38491c7f": {
+  "label": "article",
+  "confidence": 0.78,
+  "probabilities": {
+   "reject": 0.1,
+   "article": 0.86,
+   "subarticle": 0.04
+  }
+ },
+ "af71405a61d1": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.04,
+   "article": 0.95
+  }
+ },
+ "78a1d44611f1": {
+  "label": "article",
+  "confidence": 0.45,
+  "probabilities": {
+   "article": 0.63,
+   "reject": 0.2,
+   "subarticle": 0.17
+  }
+ },
+ "70359747379b": {
+  "label": "article",
+  "confidence": 0.89,
+  "probabilities": {
+   "article": 0.93,
+   "reject": 0.04,
+   "subarticle": 0.03
+  }
+ },
+ "7409a37dbaa8": {
+  "label": "reject",
+  "confidence": 0.35,
+  "probabilities": {
+   "reject": 0.57,
+   "article": 0.26,
+   "subarticle": 0.17
+  }
+ },
+ "598be6f5e92e": {
+  "label": "article",
+  "confidence": 0.78,
+  "probabilities": {
+   "reject": 0.12,
+   "subarticle": 0.03,
+   "article": 0.85
+  }
+ },
+ "36b2f08ab33e": {
+  "label": "article",
+  "confidence": 0.44,
+  "probabilities": {
+   "reject": 0.19,
+   "article": 0.62,
+   "subarticle": 0.19
+  }
+ },
+ "1d3acf9ea3f0": {
+  "label": "article",
+  "confidence": 0.31,
+  "probabilities": {
+   "article": 0.54,
+   "subarticle": 0.11,
+   "reject": 0.35
+  }
+ },
+ "b87c1a52be02": {
+  "label": "article",
+  "confidence": 0.78,
+  "probabilities": {
+   "reject": 0.03,
+   "article": 0.86,
+   "subarticle": 0.11
+  }
+ },
+ "e15c2a9051ce": {
+  "label": "article",
+  "confidence": 0.71,
+  "probabilities": {
+   "article": 0.81,
+   "reject": 0.03,
+   "subarticle": 0.16
+  }
+ },
+ "bb63583e2311": {
+  "label": "article",
+  "confidence": 0.76,
+  "probabilities": {
+   "article": 0.84,
+   "reject": 0.03,
+   "subarticle": 0.13
+  }
+ },
+ "4eba8b665746": {
+  "label": "article",
+  "confidence": 0.65,
+  "probabilities": {
+   "article": 0.77,
+   "reject": 0.0,
+   "subarticle": 0.23
+  }
+ },
+ "1b62634d8dba": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "article": 0.94,
+   "reject": 0.02,
+   "subarticle": 0.04
+  }
+ },
+ "d062ce2f9fab": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.04,
+   "article": 0.95
+  }
+ },
+ "ac8fefddfc18": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "subarticle": 0.05,
+   "article": 0.94,
+   "reject": 0.01
+  }
+ },
+ "64f810549626": {
+  "label": "article",
+  "confidence": 0.57,
+  "probabilities": {
+   "article": 0.71,
+   "subarticle": 0.05,
+   "reject": 0.24
+  }
+ },
+ "9cd7219c18f4": {
+  "label": "article",
+  "confidence": 0.73,
+  "probabilities": {
+   "reject": 0.01,
+   "article": 0.82,
+   "subarticle": 0.17
+  }
+ },
+ "20d003888f4c": {
+  "label": "article",
+  "confidence": 0.63,
+  "probabilities": {
+   "subarticle": 0.13,
+   "reject": 0.11,
+   "article": 0.76
+  }
+ },
+ "c5f760b66fdd": {
+  "label": "article",
+  "confidence": 0.72,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.17,
+   "article": 0.8099999999999999
+  }
+ },
+ "7946b7813587": {
+  "label": "article",
+  "confidence": 0.55,
+  "probabilities": {
+   "reject": 0.06,
+   "subarticle": 0.24,
+   "article": 0.7
+  }
+ },
+ "43955f2979d4": {
+  "label": "reject",
+  "confidence": 0.36,
+  "probabilities": {
+   "subarticle": 0.16,
+   "article": 0.27,
+   "reject": 0.57
+  }
+ },
+ "d343eb43b6a1": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "subarticle": 0.04,
+   "reject": 0.02,
+   "article": 0.94
+  }
+ },
+ "8a46d4fd0fd1": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.96,
+   "reject": 0.01
+  }
+ },
+ "4fd365147bba": {
+  "label": "article",
+  "confidence": 0.9,
+  "probabilities": {
+   "reject": 0.0,
+   "article": 0.9400000000000001,
+   "subarticle": 0.06
+  }
+ },
+ "f3b13cbcb31e": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "article": 0.94,
+   "subarticle": 0.04,
+   "reject": 0.02
+  }
+ },
+ "94d69ab5922d": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "article": 0.96,
+   "reject": 0.01,
+   "subarticle": 0.03
+  }
+ },
+ "5ae89b9aade8": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "subarticle": 0.05,
+   "article": 0.94,
+   "reject": 0.01
+  }
+ },
+ "ae4314930959": {
+  "label": "subarticle",
+  "confidence": 0.51,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.67,
+   "article": 0.32
+  }
+ },
+ "9a106646cea6": {
+  "label": "article",
+  "confidence": 0.96,
+  "probabilities": {
+   "subarticle": 0.02,
+   "article": 0.98,
+   "reject": 0.0
+  }
+ },
+ "087778ba76ed": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "reject": 0.0,
+   "subarticle": 0.04,
+   "article": 0.96
+  }
+ },
+ "f524b1aa57cd": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.03,
+   "article": 0.96
+  }
+ },
+ "c8137a9ad628": {
+  "label": "article",
+  "confidence": 0.89,
+  "probabilities": {
+   "subarticle": 0.04,
+   "article": 0.93,
+   "reject": 0.03
+  }
+ },
+ "36b991e5d895": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "reject": 0.01,
+   "article": 0.94,
+   "subarticle": 0.05
+  }
+ },
+ "d711772602d6": {
+  "label": "article",
+  "confidence": 0.97,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.0,
+   "article": 0.98
+  }
+ },
+ "b7b8adbd217f": {
+  "label": "article",
+  "confidence": 0.96,
+  "probabilities": {
+   "article": 0.98,
+   "reject": 0.0,
+   "subarticle": 0.02
+  }
+ },
+ "90449741ca2f": {
+  "label": "article",
+  "confidence": 0.96,
+  "probabilities": {
+   "reject": 0.01,
+   "article": 0.97,
+   "subarticle": 0.02
+  }
+ },
+ "a127f9f994d4": {
+  "label": "article",
+  "confidence": 0.89,
+  "probabilities": {
+   "article": 0.92,
+   "subarticle": 0.07,
+   "reject": 0.01
+  }
+ },
+ "7af454cc5329": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "subarticle": 0.04,
+   "article": 0.95,
+   "reject": 0.01
+  }
+ },
+ "f5ad07e43dcb": {
+  "label": "article",
+  "confidence": 0.32,
+  "probabilities": {
+   "subarticle": 0.34,
+   "reject": 0.12,
+   "article": 0.54
+  }
+ },
+ "3ea51c2a76e0": {
+  "label": "article",
+  "confidence": 0.77,
+  "probabilities": {
+   "reject": 0.03,
+   "subarticle": 0.12,
+   "article": 0.85
+  }
+ },
+ "95fde2f4bb10": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.96,
+   "reject": 0.01
+  }
+ },
+ "1d8ed2f09703": {
+  "label": "article",
+  "confidence": 0.62,
+  "probabilities": {
+   "reject": 0.06,
+   "subarticle": 0.19,
+   "article": 0.75
+  }
+ },
+ "0b2af949b202": {
+  "label": "article",
+  "confidence": 0.64,
+  "probabilities": {
+   "subarticle": 0.2,
+   "article": 0.76,
+   "reject": 0.04
+  }
+ },
+ "9940759f7d4b": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "subarticle": 0.03,
+   "article": 0.97,
+   "reject": 0.0
+  }
+ },
+ "0587ce46c5d4": {
+  "label": "article",
+  "confidence": 0.83,
+  "probabilities": {
+   "subarticle": 0.1,
+   "article": 0.89,
+   "reject": 0.01
+  }
+ },
+ "5ec0b3c7a6d0": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "article": 0.95,
+   "reject": 0.01,
+   "subarticle": 0.04
+  }
+ },
+ "2a86e08d5a0c": {
+  "label": "article",
+  "confidence": 0.72,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.18,
+   "article": 0.81
+  }
+ },
+ "8dc86f210a47": {
+  "label": "article",
+  "confidence": 0.74,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.17,
+   "article": 0.82
+  }
+ },
+ "36a6c538f9ff": {
+  "label": "article",
+  "confidence": 0.9,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.06,
+   "article": 0.93
+  }
+ },
+ "53bc630fd843": {
+  "label": "article",
+  "confidence": 0.6,
+  "probabilities": {
+   "reject": 0.03,
+   "article": 0.73,
+   "subarticle": 0.24
+  }
+ },
+ "3cb30a72a63d": {
+  "label": "article",
+  "confidence": 0.9,
+  "probabilities": {
+   "reject": 0.03,
+   "article": 0.93,
+   "subarticle": 0.04
+  }
+ },
+ "40be2293b2ab": {
+  "label": "article",
+  "confidence": 0.84,
+  "probabilities": {
+   "subarticle": 0.09,
+   "article": 0.89,
+   "reject": 0.02
+  }
+ },
+ "55bf77a3e69c": {
+  "label": "article",
+  "confidence": 0.93,
+  "probabilities": {
+   "subarticle": 0.04,
+   "reject": 0.01,
+   "article": 0.95
+  }
+ },
+ "b9daeb63a5d8": {
+  "label": "article",
+  "confidence": 0.86,
+  "probabilities": {
+   "reject": 0.01,
+   "article": 0.91,
+   "subarticle": 0.08
+  }
+ },
+ "adf88764b57c": {
+  "label": "article",
+  "confidence": 0.7,
+  "probabilities": {
+   "subarticle": 0.16,
+   "reject": 0.04,
+   "article": 0.8
+  }
+ },
+ "95ca63bf3ebf": {
+  "label": "article",
+  "confidence": 0.91,
+  "probabilities": {
+   "subarticle": 0.04,
+   "reject": 0.02,
+   "article": 0.94
+  }
+ },
+ "c828ead9dc93": {
+  "label": "article",
+  "confidence": 0.73,
+  "probabilities": {
+   "article": 0.8099999999999999,
+   "subarticle": 0.14,
+   "reject": 0.05
+  }
+ },
+ "d8bbbbdf83cf": {
+  "label": "article",
+  "confidence": 0.76,
+  "probabilities": {
+   "reject": 0.01,
+   "article": 0.84,
+   "subarticle": 0.15
+  }
+ },
+ "6475952aeb50": {
+  "label": "article",
+  "confidence": 0.95,
+  "probabilities": {
+   "subarticle": 0.03,
+   "reject": 0.0,
+   "article": 0.97
+  }
+ },
+ "5f9c6a43a004": {
+  "label": "article",
+  "confidence": 0.76,
+  "probabilities": {
+   "subarticle": 0.11,
+   "article": 0.84,
+   "reject": 0.05
+  }
+ },
+ "dfe977cbb88b": {
+  "label": "article",
+  "confidence": 0.92,
+  "probabilities": {
+   "subarticle": 0.02,
+   "reject": 0.04,
+   "article": 0.94
+  }
+ },
+ "68dfc36a2337": {
+  "label": "article",
+  "confidence": 0.96,
+  "probabilities": {
+   "subarticle": 0.01,
+   "article": 0.97,
+   "reject": 0.02
+  }
+ },
+ "f91d0cd7319c": {
+  "label": "article",
+  "confidence": 0.94,
+  "probabilities": {
+   "article": 0.96,
+   "reject": 0.03,
+   "subarticle": 0.01
+  }
+ },
+ "a71e2a8e8a14": {
+  "label": "article",
+  "confidence": 0.36,
+  "probabilities": {
+   "subarticle": 0.42,
+   "reject": 0.01,
+   "article": 0.57
+  }
+ },
+ "2a6642e4eff3": {
+  "label": "subarticle",
+  "confidence": 0.76,
+  "probabilities": {
+   "subarticle": 0.83,
+   "article": 0.16,
+   "reject": 0.01
+  }
+ },
+ "41d461316b6f": {
+  "label": "article",
+  "confidence": 0.6,
+  "probabilities": {
+   "subarticle": 0.26,
+   "article": 0.73,
+   "reject": 0.01
+  }
+ },
+ "1e71c3ba556d": {
+  "label": "article",
+  "confidence": 0.58,
+  "probabilities": {
+   "reject": 0.01,
+   "article": 0.72,
+   "subarticle": 0.27
+  }
+ },
+ "73534517ddd8": {
+  "label": "article",
+  "confidence": 0.69,
+  "probabilities": {
+   "article": 0.8,
+   "reject": 0.0,
+   "subarticle": 0.2
+  }
+ },
+ "d9c493499270": {
+  "label": "article",
+  "confidence": 0.63,
+  "probabilities": {
+   "reject": 0.03,
+   "subarticle": 0.22,
+   "article": 0.75
+  }
+ },
+ "879867e0049b": {
+  "label": "article",
+  "confidence": 0.55,
+  "probabilities": {
+   "subarticle": 0.29,
+   "article": 0.7,
+   "reject": 0.01
+  }
+ },
+ "8db6d41f695a": {
+  "label": "subarticle",
+  "confidence": 0.78,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.85,
+   "article": 0.14
+  }
+ },
+ "00b3b158c01e": {
+  "label": "article",
+  "confidence": 0.69,
+  "probabilities": {
+   "article": 0.79,
+   "reject": 0.03,
+   "subarticle": 0.18
+  }
+ },
+ "1ad407eb0917": {
+  "label": "subarticle",
+  "confidence": 0.71,
+  "probabilities": {
+   "reject": 0.0,
+   "article": 0.19,
+   "subarticle": 0.81
+  }
+ },
+ "eb30a16a41eb": {
+  "label": "article",
+  "confidence": 0.52,
+  "probabilities": {
+   "article": 0.68,
+   "reject": 0.07,
+   "subarticle": 0.25
+  }
+ },
+ "4c6e6c29bb64": {
+  "label": "article",
+  "confidence": 0.62,
+  "probabilities": {
+   "subarticle": 0.25,
+   "article": 0.74,
+   "reject": 0.01
+  }
+ },
+ "652297e114f1": {
+  "label": "reject",
+  "confidence": 0.24,
+  "probabilities": {
+   "subarticle": 0.05,
+   "reject": 0.49,
+   "article": 0.46
+  }
+ },
+ "2cc83cbb7866": {
+  "label": "article",
+  "confidence": 0.57,
+  "probabilities": {
+   "subarticle": 0.27,
+   "article": 0.72,
+   "reject": 0.01
+  }
+ },
+ "415ee5936334": {
+  "label": "article",
+  "confidence": 0.64,
+  "probabilities": {
+   "reject": 0.01,
+   "subarticle": 0.24,
+   "article": 0.75
+  }
+ },
+ "963061086c7a": {
+  "label": "subarticle",
+  "confidence": 0.39,
+  "probabilities": {
+   "subarticle": 0.59,
+   "reject": 0.09,
+   "article": 0.32
+  }
+ },
+ "91815c28dab1": {
+  "label": "article",
+  "confidence": 0.78,
+  "probabilities": {
+   "subarticle": 0.05,
+   "article": 0.85,
+   "reject": 0.1
+  }
+ },
+ "a78f397c923d": {
+  "label": "article",
+  "confidence": 0.82,
+  "probabilities": {
+   "subarticle": 0.01,
+   "reject": 0.11,
+   "article": 0.88
+  }
+ },
+ "0d6e7b612de7": {
+  "label": "reject",
+  "confidence": 0.84,
+  "probabilities": {
+   "reject": 0.89,
+   "article": 0.02,
+   "subarticle": 0.09
+  }
+ },
+ "ae5fbdac7b81": {
+  "label": "article",
+  "confidence": 0.67,
+  "probabilities": {
+   "subarticle": 0.16,
+   "article": 0.77,
+   "reject": 0.07
+  }
+ }
+}
