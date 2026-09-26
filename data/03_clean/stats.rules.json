@@ -1,0 +1,16 @@
+{
+  "edits": 822,
+  "by_rule": {
+    "zero-for-O": 313,
+    "clitic-hyphen": 270,
+    "space-before-punct": 84,
+    "letters-in-number": 60,
+    "not-sign": 39,
+    "digit-in-word": 29,
+    "zero-for-o": 16,
+    "hyphen-space": 6,
+    "headword-digit": 3,
+    "split-word": 2
+  },
+  "suspects": 322
+}

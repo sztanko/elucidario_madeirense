@@ -155,13 +155,13 @@ def verify(para_text: str, find: str, replace: str) -> str | None:
 def collect() -> dict:
     arts = [json.loads(l) for l in open(IN)]
     by_seq = {a["seq"]: a for a in arts}
-    job = BatchJob("ocr_proof")
+    jobs = [BatchJob("ocr_proof_pilot"), BatchJob("ocr_proof")]
     proposals: dict[tuple[int, int], list[Edit]] = {}
     rejected = Counter()
     kinds = Counter()
     failed = 0
     with open(OUT / "rejected.llm.jsonl", "w") as fr:
-        for cid, result in job.results():
+        for cid, result in (r for job in jobs for r in job.results()):
             text = message_text(result)
             if text is None:
                 failed += 1
@@ -204,6 +204,6 @@ def collect() -> dict:
         for a in arts:
             fa.write(json.dumps(a, ensure_ascii=False) + "\n")
     stats = {"applied": applied, "by_kind": dict(kinds), "rejected": dict(rejected), "failed_requests": failed,
-             "usd": round(job.spent(), 2)}
+             "usd": round(sum(j.spent() for j in jobs), 2)}
     (OUT / "stats.llm.json").write_text(json.dumps(stats, indent=2))
     return stats

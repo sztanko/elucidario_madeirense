@@ -56,5 +56,13 @@ def ocrproof(
     typer.echo(json.dumps(out, indent=2, ensure_ascii=False))
 
 
+@app.command()
+def structure():
+    """Phase 4a: articles -> typed blocks (data/04_structured)."""
+    from elucidario.stages import structure as stage
+
+    typer.echo(json.dumps(stage.run(), indent=2, ensure_ascii=False))
+
+
 if __name__ == "__main__":
     app()

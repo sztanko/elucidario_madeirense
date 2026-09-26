@@ -1,0 +1,24 @@
+{
+  "source": "articles.jsonl",
+  "articles": 3872,
+  "kinds": {
+    "front_matter": 2,
+    "article": 3653,
+    "cross_reference": 197,
+    "compound": 20
+  },
+  "blocks": {
+    "paragraph": 11777,
+    "table": 117,
+    "xref": 407,
+    "quote": 402,
+    "bibliography": 58,
+    "verse": 45,
+    "italic_spans": 756,
+    "heading": 170,
+    "list_item": 33,
+    "update_notes": 448,
+    "editorial_fixes": 1
+  },
+  "with_legacy_id": 3637
+}
