@@ -29,3 +29,9 @@ Every change is logged with its source, rule and before/after text in `data/03_c
 
 ## Kept on purpose
 The 1921/1940 orthography (pôrto, Agôsto, theatro, pharmacia, mez, …) and the authentic spellings in quoted 15th–18th century documents are kept unchanged.
+
+## Second targeted pass (added after review)
+- **Scope:** 4,942 paragraphs (51% of the text) that a checker flagged: unrecognised rare words, unbalanced quotation marks or parentheses, doubled punctuation, stray symbols, missing space after `:`/`;`, and doubtful *se* hyphens. Each paragraph was sent with its specific flags.
+- **Prompt:** the pass-1 prompt plus a focus section built from the reviewer's findings.
+- **Result:** 448 edits applied (265 punctuation, mostly closing quotes typeset as opening ones; 148 OCR; 21 hyphen; 9 number; 5 split/join), 9 rejected by the checks. **Cost $4.16.**
+- **Total OCR corrections:** about 3,060. OCR phase LLM cost: $10.60 for passes 1 and 2 (plus a $0.27 pilot).

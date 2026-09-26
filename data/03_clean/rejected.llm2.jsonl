@@ -1,0 +1,9 @@
+{"reason": "find-not-found", "p": "488.1", "find": "transforma se aí", "replace": "transforma-se aí", "kind": "hyphen"}
+{"reason": "circumflex-modernisation", "p": "3607.31", "find": "do âno de 1923", "replace": "do ano de 1923", "kind": "ocr"}
+{"reason": "find-not-found", "p": "3618.0", "find": "(Rhamrms latifoUa)", "replace": "(Rhamnus latifolia)", "kind": "ocr"}
+{"reason": "noop", "p": "58.4", "find": "serviu-lhe", "replace": "serviu-lhe", "kind": "hyphen"}
+{"reason": "circumflex-modernisation", "p": "1143.1", "find": "sendo pôr essa", "replace": "sendo por essa", "kind": "ocr"}
+{"reason": "too-long", "p": "1305.3", "find": "seus moradores, porque em todas as casas grandes e ricas ha esta multiplicação dos que as servem“.", "replace": "seus moradores, porque em todas as casas grandes e ricas ha esta multiplicação dos que as servem”.", "kind": "punctuation"}
+{"reason": "noop", "p": "3.8", "find": "réis à base", "replace": "réis à base", "kind": "ocr"}
+{"reason": "find-not-found", "p": "1160.2", "find": "média de 11º 3/4. “", "replace": "média de 11º 3/4. ”", "kind": "punctuation"}
+{"reason": "noop", "p": "2021.12", "find": "Nos tis de", "replace": "Nos tis de", "kind": "ocr"}

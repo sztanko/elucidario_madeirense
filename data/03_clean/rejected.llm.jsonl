@@ -1,0 +1,64 @@
+{"reason": "circumflex-modernisation", "p": "1143.1", "find": "sendo pôr essa", "replace": "sendo por essa", "kind": "ocr"}
+{"reason": "find-not-found", "p": "3427.5", "find": "Saudades:«...", "replace": "Saudades: «...", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3291.5", "find": "negociações.. Para", "replace": "negociações. Para", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "764.0", "find": "I vol..", "replace": "1 vol.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1861.6", "find": "se estabeleceu-se dissolvesse", "replace": "se estabeleceu se dissolvesse", "kind": "hyphen"}
+{"reason": "find-not-found", "p": "1861.15", "find": "etc..", "replace": "etc.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1982.0", "find": "caminhos etc..", "replace": "caminhos etc.", "kind": "punctuation"}
+{"reason": "noop", "p": "771.23", "find": "“ninguem nom faça y", "replace": "“ninguem nom faça y", "kind": "ocr"}
+{"reason": "find-not-found", "p": "3373.4", "find": "não se sabendo-se a segunda", "replace": "não se sabendo se a segunda", "kind": "hyphen"}
+{"reason": "find-not-found", "p": "948.20", "find": "das o até", "replace": "das 9 até", "kind": "ocr"}
+{"reason": "find-not-found", "p": "2840.0", "find": "34 pag..", "replace": "34 pag.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3833.9", "find": "uma capella..", "replace": "uma capella».", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1044.0", "find": "I Vol..", "replace": "I Vol.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "2769.0", "find": "está corregido..", "replace": "está corregido».", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "2323.5", "find": "XIV-215 pag..", "replace": "XIV-215 pag.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1764.0", "find": "Roma, etc..", "replace": "Roma, etc.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "706.0", "find": "de 64 pag..", "replace": "de 64 pag.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "2795.0", "find": "Peixe.Coelho", "replace": "Peixe-Coelho", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1318.0", "find": "etc..", "replace": "etc.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3337.0", "find": "Santos (0ctavio)", "replace": "Santos (Octavio)", "kind": "ocr"}
+{"reason": "find-not-found", "p": "1696.0", "find": "108 pág..", "replace": "108 pág.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1876.2", "find": "dizer-se esses", "replace": "dizer se esses", "kind": "hyphen"}
+{"reason": "find-not-found", "p": "1092.2", "find": "direcção de 0. e E..", "replace": "direcção de O. e E..", "kind": "ocr"}
+{"reason": "find-not-found", "p": "2672.10", "find": "não se sabendo-se seriam", "replace": "não se sabendo se seriam", "kind": "hyphen"}
+{"reason": "find-not-found", "p": "207.0", "find": "viveiro de de amoreiras", "replace": "viveiro de amoreiras", "kind": "ocr"}
+{"reason": "noop", "p": "2720.5", "find": "com pude; não posso mais aqui", "replace": "com pude; não posso mais aqui", "kind": "ocr"}
+{"reason": "find-not-found", "p": "2323.1", "find": "não se sabendo-se o estro", "replace": "não se sabendo se o estro", "kind": "hyphen"}
+{"reason": "circumflex-modernisation", "p": "3607.31", "find": "do âno de", "replace": "do ano de", "kind": "ocr"}
+{"reason": "find-not-found", "p": "2057.276", "find": "41 pag..", "replace": "41 pag.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "861.3", "find": "1866), etc. .", "replace": "1866), etc.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "2870.0", "find": "I vol..", "replace": "I vol.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "298.3", "find": "17 pag..", "replace": "17 pag.", "kind": "punctuation"}
+{"reason": "noop", "p": "3026.2", "find": "Regedor, respectivamente", "replace": "Regedor, respectivamente", "kind": "ocr"}
+{"reason": "too-different", "p": "982.0", "find": "demidia", "replace": "metade", "kind": "ocr"}
+{"reason": "find-not-found", "p": "1823.1", "find": "a Inglaterra.. «Bem", "replace": "a Inglaterra». «Bem", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3830.0", "find": "E.. Beitrage", "replace": "E.: Beitrage", "kind": "punctuation"}
+{"reason": "find-ambiguous", "p": "463.1", "find": "e Bataria n1 3", "replace": "e Bataria n.º 3", "kind": "ocr"}
+{"reason": "find-not-found", "p": "1001.0", "find": "no inverno.. “", "replace": "no inverno.”", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "690.0", "find": "(Nossa Senhor do)", "replace": "(Nossa Senhora do)", "kind": "ocr"}
+{"reason": "find-not-found", "p": "2547.11", "find": "do país..", "replace": "do país».", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1392.2", "find": "siècle..Paris", "replace": "siècle... Paris", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "646.1", "find": "201 pag.. uma", "replace": "201 pag., uma", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3330.3", "find": "em curato..", "replace": "em curato.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1629.0", "find": "200 pags..", "replace": "200 pags.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3314.3", "find": "respeitosa..", "replace": "respeitosa».", "kind": "punctuation"}
+{"reason": "noop", "p": "2512.1", "find": "«Cancionelro»", "replace": "«Cancionelro»", "kind": "ocr"}
+{"reason": "find-not-found", "p": "80.4", "find": "não se sabendo-se concluiu", "replace": "não se sabendo se concluiu", "kind": "hyphen"}
+{"reason": "find-not-found", "p": "2542.0", "find": "Magellan..", "replace": "Magellan.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "2846.5", "find": "paiz..", "replace": "paiz...", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3700.0", "find": "(Mercnriali annua)", "replace": "(Mercurialis annua)", "kind": "ocr"}
+{"reason": "find-not-found", "p": "3678.4", "find": "satwum, Lam..", "replace": "sativum, Lam.", "kind": "ocr"}
+{"reason": "find-not-found", "p": "1775.0", "find": "235 pág..", "replace": "235 pág.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3326.0", "find": "recente: Oferecida", "replace": "recente: «Oferecida", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1795.3", "find": "22 pag..", "replace": "22 pag.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "3435.22", "find": "165 kms..", "replace": "165 kms.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "2899.0", "find": "Jardiní da Serras etc..", "replace": "Jardim da Serra, etc.", "kind": "ocr"}
+{"reason": "find-not-found", "p": "712.1", "find": "termos:B*he homem", "replace": "termos: “he homem", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "1459.0", "find": "166 pag..", "replace": "166 pag.", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "2759.6", "find": "Meneses. etc..", "replace": "Meneses, etc.,", "kind": "punctuation"}
+{"reason": "find-not-found", "p": "971.0", "find": "Coelbo", "replace": "Coelho", "kind": "ocr"}
+{"reason": "noop", "p": "1041.5", "find": "sagrada a 4 de Março", "replace": "sagrada a 4 de Março", "kind": "ocr"}
+{"reason": "find-not-found", "p": "2708.0", "find": "purpureo- escuro", "replace": "purpureo-escuro", "kind": "split_join"}
+{"reason": "noop", "p": "1944.0", "find": "V. Conservador", "replace": "V. Conservador", "kind": "ocr"}
+{"reason": "find-not-found", "p": "1932.0", "find": "folh..", "replace": "folh.", "kind": "punctuation"}

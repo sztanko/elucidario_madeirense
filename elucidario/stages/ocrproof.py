@@ -225,10 +225,153 @@ def collect() -> dict:
                 applied += 1
                 fe.write(json.dumps({"seq": seq, "para": pi, **e.to_json()}, ensure_ascii=False) + "\n")
     manual = apply_manual(arts)
-    with open(OUT / "articles.jsonl", "w") as fa:
+    with open(OUT / "articles.pass1.jsonl", "w") as fa:
         for a in arts:
             fa.write(json.dumps(a, ensure_ascii=False) + "\n")
     stats = {"applied": applied, "manual": manual, "by_kind": dict(kinds), "rejected": dict(rejected), "failed_requests": failed,
              "usd": round(sum(j.spent() for j in jobs), 2)}
     (OUT / "stats.llm.json").write_text(json.dumps(stats, indent=2))
+    return stats
+
+
+# ---------------------------------------------------------------------------------------------- pass 2
+PASS2_IN = OUT / "articles.pass1.jsonl"
+PASS2_FOCUS = """
+
+## Second pass: focus
+This is a second, targeted pass over paragraphs that a checker flagged. Each paragraph ends with a `flags:` line naming
+what looked suspicious. Most flagged items are fine; fix only real OCR/typesetting errors. Pay particular attention to:
+- quotation marks: a closing mark typeset as an opening one (`alunos“.` → `alunos”.`), `+` or `.` misread for `»`/`”`;
+- a missing space after `:` or `;` (`1521:e` → `1521: e`) — keep the period's `:—` / `:-` punctuation as printed;
+- stray symbols from OCR (`&`, `^`, `+`, `#`) inside words (`Incarnac&o` → `Incarnação`, `sítk^` → `sítio`);
+- garbled rare words and names (`Comego` → `Começo`, `maiir`, `rapadmho`, `Santa Lazia` → `Santa Luzia`);
+- `B` misread for `É` at the start of a sentence (`B também chamado` → `É também chamado`);
+- digits inside numbers misread as letters (`29o.863` → `290.863`), ordinals misread (`31.` for `3.º`) only when certain;
+- missing enclitic hyphens listed in the flags — but NOT when `se` means "whether/if" or belongs to the following verb
+  (`verificar se a epigrafia`, `estabeleceu se dissolvesse` stay unchanged);
+- a hyphen used as a dash between two words is NOT an error to join (`ano-compreendendo` is wrong; leave dashes alone).
+"""
+FLAG_PATTERNS = {
+    "missing space after : or ;": r"[a-zà-ÿ0-9][:;][A-Za-zÀ-ÿ]",
+    "space before punctuation": r"[A-Za-zÀ-ÿ] [,;:](?!\d)",
+    "stray symbol": r"[&^+#*~|\\]|[a-zà-ÿ][»«][a-zà-ÿ]",
+    "digits and letters mixed": r"\b\d+[a-zA-ZÀ-ÿ]{2,}\b|\b[a-zA-ZÀ-ÿ]{2,}\d+\b",
+    "doubled punctuation": r"[,;:]{2,}|,\.|\.,",
+}
+
+
+def pass2_flags(p: dict, cnt, lex, sus: list[str]) -> list[str]:
+    t = p["text"]
+    f = [k for k, r in FLAG_PATTERNS.items() if re.search(r, t)]
+    if t.count("«") + t.count("“") != t.count("»") + t.count("”"):
+        f.append("unbalanced quotation marks")
+    if t.count("(") != t.count(")"):
+        f.append("unbalanced parentheses")
+    unk = sorted({w for w in WORD_RE.findall(t) if not w.isdigit() and len(w) > 2 and cnt[w] <= 2 and not lex.known(w)})
+    if unk:
+        f.append("unrecognised words: " + ", ".join(unk[:25]))
+    if sus:
+        f.append("check hyphen/verb: " + "; ".join(sorted(set(sus))[:10]))
+    return f
+
+
+def pass2_prepare() -> dict:
+    arts = [json.loads(l) for l in open(PASS2_IN)]
+    cnt = corpus_counts(arts)
+    lex = Lexicon(cnt)
+    sus: dict[tuple, list] = {}
+    for l in open(OUT / "suspects.jsonl"):
+        x = json.loads(l)
+        sus.setdefault((x["seq"], x["para"]), []).append(x["token"])
+    out, cur, size = [], [], 0
+    for a in arts:
+        head_done = False
+        for i, p in enumerate(a["paragraphs"]):
+            f = pass2_flags(p, cnt, lex, sus.get((a["seq"], i), []))
+            if not f:
+                continue
+            if size + len(p["text"]) > CHUNK_CHARS and cur:
+                out.append({"custom_id": f"q{len(out):05d}", "lines": cur})
+                cur, size, head_done = [], 0, False
+            if not head_done:
+                cur.append((f"### {a['headword']}", ""))
+                head_done = True
+            cur.append((f"{a['seq']}.{i}", p["text"] + "\nflags: " + " | ".join(f)))
+            size += len(p["text"])
+    if cur:
+        out.append({"custom_id": f"q{len(out):05d}", "lines": cur})
+    with open(OUT / "proof2_chunks.jsonl", "w") as fo:
+        for c in out:
+            fo.write(json.dumps(c, ensure_ascii=False) + "\n")
+    chars = sum(len(t) for c in out for _, t in c["lines"])
+    est = json.loads((OUT / "proof_estimate.json").read_text())
+    total_chars = sum(sum(len(t) for _, t in c["lines"]) for c in map(json.loads, open(OUT / "proof_chunks.jsonl")))
+    usd = 6.44 * chars / total_chars * 1.1
+    return {"chunks": len(out), "chars": chars, "est_usd": round(usd, 2)}
+
+
+def pass2_request(chunk: dict) -> dict:
+    r = request(chunk)
+    r["params"]["system"] = [{"type": "text", "text": PROMPT + PASS2_FOCUS, "cache_control": {"type": "ephemeral"}}]
+    return r
+
+
+def pass2_submit(budget_usd: float) -> dict:
+    ch = [json.loads(l) for l in open(OUT / "proof2_chunks.jsonl")]
+    est = pass2_prepare()["est_usd"] if False else None
+    ids = BatchJob("ocr_proof2").submit([pass2_request(c) for c in ch], budget_usd=budget_usd, est_usd=est)
+    return {"batches": ids, "requests": len(ch)}
+
+
+def pass2_collect() -> dict:
+    global IN
+    arts = [json.loads(l) for l in open(PASS2_IN)]
+    by_seq = {a["seq"]: a for a in arts}
+    proposals: dict[tuple[int, int], list[Edit]] = {}
+    rejected, kinds, failed = Counter(), Counter(), 0
+    with open(OUT / "rejected.llm2.jsonl", "w") as fr:
+        for cid, result in BatchJob("ocr_proof2").results():
+            text = message_text(result)
+            if text is None:
+                failed += 1
+                continue
+            for e in json.loads(text)["edits"]:
+                try:
+                    seq, pi = map(int, e["p"].split("."))
+                    para = by_seq[seq]["paragraphs"][pi]
+                except (ValueError, KeyError, IndexError):
+                    rejected["bad-id"] += 1
+                    continue
+                why = verify(para["text"], e["find"], e["replace"])
+                # never join a dash-hyphen between two words
+                if not why and re.search(r"\w -\s?\w|\w- \w", e["find"]) and re.search(r"\w-\w", e["replace"]):
+                    why = "dash-join"
+                if why:
+                    rejected[why] += 1
+                    fr.write(json.dumps({"reason": why, **e}, ensure_ascii=False) + "\n")
+                    continue
+                start = para["text"].index(e["find"])
+                f, r = e["find"], e["replace"]
+                a = 0
+                while a < min(len(f), len(r)) and f[a] == r[a]:
+                    a += 1
+                b = 0
+                while b < min(len(f), len(r)) - a and f[-1 - b] == r[-1 - b]:
+                    b += 1
+                proposals.setdefault((seq, pi), []).append(Edit(start + a, start + len(f) - b, r[a : len(r) - b], "llm2-" + e["kind"], 0.8))
+                kinds[e["kind"]] += 1
+    applied = 0
+    with open(OUT / "edits.llm2.jsonl", "w") as fe:
+        for (seq, pi), edits in proposals.items():
+            new, done = apply_edits(by_seq[seq]["paragraphs"][pi], edits)
+            by_seq[seq]["paragraphs"][pi] = new
+            for e in done:
+                applied += 1
+                fe.write(json.dumps({"seq": seq, "para": pi, **e.to_json()}, ensure_ascii=False) + "\n")
+    with open(OUT / "articles.jsonl", "w") as fa:
+        for a in arts:
+            fa.write(json.dumps(a, ensure_ascii=False) + "\n")
+    stats = {"applied": applied, "by_kind": dict(kinds), "rejected": dict(rejected), "failed_requests": failed,
+             "usd": round(BatchJob("ocr_proof2").spent(), 2)}
+    (OUT / "stats.llm2.json").write_text(json.dumps(stats, indent=2))
     return stats

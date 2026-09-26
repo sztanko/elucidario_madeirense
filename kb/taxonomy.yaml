@@ -1,598 +1,1020 @@
-# Article-type taxonomy for the structured re-edition of the Elucidário Madeirense.
-#
-# - Codes are stable identifiers: `<class>.<subtype>`, snake_case, English. Never
-#   rename a code once entries are classified; deprecate and add a new one instead.
-# - Labels (label_en / label_pt) are display strings and may be re-worded or
-#   translated freely without touching the codes.
-# - An entry carries 1-3 type codes, primary first (see `rules`).
-# - `kind` (article / cross_reference / compound / front_matter) is stored separately
-#   on the Article; the type codes describe *what the entry is about*.
-# - `facets.person_roles` is a multi-valued facet for person.* entries (and optionally
-#   for person-heavy secondary types); it does not replace the subtype.
-
 version: 1
-
 classes:
-
-  # ------------------------------------------------------------------ PERSON
-  - code: person
-    label_en: Person or family
-    label_pt: Pessoa ou família
-    definition: An individual human being, or a family, surname or lineage treated as a unit.
-    subtypes:
-      - code: person.clergy
-        label_en: Clergy and religious
-        label_pt: Clero e religiosos
-        definition: A person notable chiefly as a priest, bishop, canon, friar, nun, Jesuit, missionary or other member of a church or religious order.
-        examples: ["Andrade (D. Francisco José Rodrigues de)", "Morais. (D. Sebastião de)", "Lowe (Padre Ricardo Tomás)", "Vitória (Fr. João Pinto da)"]
-      - code: person.governor
-        label_en: Donatary, governor or ruler
-        label_pt: Donatário, governador ou governante
-        definition: A person notable chiefly for governing Madeira or a captaincy as captain-donatary, lord-proprietor, governor, captain-general, civil governor or equivalent head of the territory.
-        examples: ["Zargo (João Gonçalves)", "Melo (Florencio José Correia de)", "Feio (Dr. Carlos José Barata Pinto)", "Alencastre (D. Mariana de Vasconcelos e Câmara)"]
-      - code: person.official
-        label_en: Official, magistrate or diplomat
-        label_pt: Funcionário, magistrado ou diplomata
-        definition: A person notable chiefly as a civil servant, municipal officer, magistrate, judge, lawyer, jurist, consul or diplomat, below the rank of head of the territory.
-        examples: ["Lampreia (João de Oliveira Sá Camelo)", "Jardim. (Dr. Nuno Ferreira)", "Lamedo (António José de Jesus)", "Aguiar (Joaquim Nunes de)"]
-      - code: person.politician
-        label_en: Politician
-        label_pt: Político
-        definition: A person notable chiefly for elected or party-political activity, such as deputy, peer, senator, minister or political leader.
-        examples: ["Assunção (Dr. Manuel da)", "Vieira (Conselheiro Manuel José)", "Santana e Vasconcelos (Henrique de)"]
-      - code: person.military
-        label_en: Military or naval figure
-        label_pt: Militar ou marinheiro
-        definition: A person notable chiefly as an army or naval officer, soldier, navigator, explorer or ship's captain.
-        examples: ["Abreu (Lopo de)", "Canning (W. P.)", "Rocha de Gouveia (Gabriel)", "Oudinot (Reinaldo)"]
-      - code: person.writer
-        label_en: Writer, journalist or scholar
-        label_pt: Escritor, jornalista ou erudito
-        definition: A person notable chiefly as an author, poet, chronicler, journalist, editor, historian, genealogist, teacher or academic in the humanities.
-        examples: ["Frutuoso (Doutor Gaspar)", "Nascimento (João Cabral do)", "Silveira (José Marciano da)", "Alcoforado (Francisco)"]
-      - code: person.scientist
-        label_en: Scientist or naturalist
-        label_pt: Cientista ou naturalista
-        definition: A person notable chiefly for natural-history or scientific work (botanist, zoologist, geologist, collector, mathematician, engineer-scientist), whether Madeiran or foreign.
-        examples: ["Watson (Roberto Boog)", "Heer (Dr. Osvaldo)", "Winter (Dr. Hermann)", "Lopes Rocha (Dr. Vitúrio)"]
-      - code: person.physician
-        label_en: Physician or health professional
-        label_pt: Médico ou profissional de saúde
-        definition: A person notable chiefly as a physician, surgeon, pharmacist or other health practitioner, including foreign doctors who wrote on Madeira's climate.
-        examples: ["Gourlay (Dr. William)", "França (Dr. Carlos)", "Rodrigues Ciebra (António)", "Heineken (Dr. Carlos)"]
-      - code: person.artist
-        label_en: Artist or musician
-        label_pt: Artista ou músico
-        definition: A person notable chiefly as a painter, sculptor, illustrator, architect, musician, composer, actor or other artist.
-        examples: ["Franco de Sousa (Henrique)", "Rocha (Joaquim Leonardo da)", "Moniz (João Cirilo)", "Picken (Andrew)"]
-      - code: person.merchant
-        label_en: Merchant, industrialist or landowner
-        label_pt: Comerciante, industrial ou proprietário
-        definition: A person notable chiefly for commerce, the wine trade, industry, banking, landholding or philanthropy funded by private wealth.
-        examples: ["Page (Roberto)", "Carvalhal (1º. Conde de)"]
-      - code: person.visitor
-        label_en: Foreign visitor or author on Madeira
-        label_pt: Visitante ou autor estrangeiro
-        definition: A foreigner whose relevance is chiefly a visit to, stay in, or writing about Madeira (travellers, royal visitors, foreign authors), when no professional role on the island dominates.
-        examples: ["Anatole France", "Maximiliano (Imperador do México)", "Vizetelly (Henry)", "Colombo (Cristovão)"]
-      - code: person.family
-        label_en: Family, surname or lineage
-        label_pt: Família, apelido ou linhagem
-        definition: A collective entry on a family, surname, noble lineage, or the succession of holders of a noble title.
-        examples: ["Cabral", "Teixeira", "Medina", "Tôrre Bela (Visconde de"]
-      - code: person.other
-        label_en: Other person
-        label_pt: Outra pessoa
-        definition: A person notable for a role not covered above, such as an early settler, emigrant, benefactor, saint, convict or popular figure.
-        examples: ["Feiticeiro do Norte", "Nunes (Filipe José)"]
-
-  # ------------------------------------------------------------------ PLACE
-  - code: place
-    label_en: Place
-    label_pt: Lugar
-    definition: A named geographical place or territorial unit, natural or human, chiefly in the Madeira archipelago.
-    subtypes:
-      - code: place.island
-        label_en: Island, islet or archipelago
-        label_pt: Ilha, ilhéu ou arquipélago
-        definition: An island, islet (ilhéu), sea stack or island group, including the archipelago as a whole.
-        examples: ["Porto Santo (Ilha do)", "Desertas (Ilhas)", "Selvagens", "Fora (Ilhéu de)"]
-      - code: place.municipality
-        label_en: Municipality or town
-        label_pt: Concelho, município ou vila
-        definition: A municipality (concelho/município), town (vila) or city considered as a municipal unit or urban settlement.
-        examples: ["Calheta (Vila e Município da)", "Machico (Vila e Município de)", "Camara de Lôbos (Municipio de)"]
-      - code: place.parish
-        label_en: Parish
-        label_pt: Freguesia
-        definition: A civil/ecclesiastical parish (freguesia), usually headed "X (Freguesia de)", even when the text is mostly its church or history.
-        examples: ["Santana (Freguesia de)", "Seixal (Freguesia do)", "Curral das Freiras (Freguesia do)", "Sé (Freguesia da)"]
-      - code: place.locality
-        label_en: Locality (sítio)
-        label_pt: Sítio ou localidade
-        definition: An inhabited locality, hamlet or named area within a parish (sítio, lombo, lombada, achada), including former localities.
-        examples: ["Achada de Gaula", "Lombada dos Esmeraldos", "Terços", "Jamboto"]
-      - code: place.mountain
-        label_en: Peak, mountain or upland
-        label_pt: Pico, serra ou planalto
-        definition: A peak (pico), mountain range (serra), ridge, pass (encumeada), plateau (paul) or other upland relief feature.
-        examples: ["Abóboras (Pico das)", "Paul da Serra", "Encumeada", "Areeiro"]
-      - code: place.stream
-        label_en: Stream, valley or inland water
-        label_pt: Ribeira, vale ou água interior
-        definition: A stream or river (ribeira), its valley, or another inland water feature such as a waterfall, spring or lagoon.
-        examples: ["Ribeira da Madalena", "Cruz (Ribeira da )", "Vinte e Cinco Fontes", "Lagoa"]
-      - code: place.levada
-        label_en: Levada (irrigation channel)
-        label_pt: Levada
-        definition: A levada or irrigation channel, individually or as the island's levada system, including its water rights.
-        examples: ["Levadas", "Madeira (Levadas da)"]
-      - code: place.faja
-        label_en: Fajã (coastal flat)
-        label_pt: Fajã
-        definition: A fajã, the low flat of land formed by landslide or lava at the foot of a cliff, as a named place or as a landform.
-        examples: ["Fajã", "Fajã dos Padres", "Fajã do Penedo", "Fajã das Nogueiras"]
-      - code: place.headland
-        label_en: Headland or cape
-        label_pt: Ponta ou cabo
-        definition: A coastal point (ponta), cape (cabo) or promontory.
-        examples: ["Ponta de São Lourenço", "Girão (Cabo)", "Gorda (Ponta)", "Queimada (Ponta da)"]
-      - code: place.bay_port
-        label_en: Bay, beach or landing place
-        label_pt: Baía, praia ou porto
-        definition: A bay, cove (enseada), beach (praia, calhau), natural harbour or landing place (porto), or a sea channel or shoal (boqueirão, baixa) near the coast.
-        examples: ["Funchal (Baía do)", "Praia Formosa", "Alagoa (Porto da)", "Boqueirão Grande"]
-      - code: place.street
-        label_en: Street, square or road
-        label_pt: Rua, largo ou caminho
-        definition: A named urban street, avenue, square (largo, praça, campo, terreiro) or road/path, chiefly in Funchal.
-        examples: ["Carvalho de Araújo (Rua)", "Lavradores (Largo ou Praça dos)", "Terreiro da Luta", "Entrada da Cidade"]
-      - code: place.quinta
-        label_en: Quinta (estate)
-        label_pt: Quinta
-        definition: A quinta, i.e. a country or suburban estate with its house and gardens, individually or as a type.
-        examples: ["Quinta das Cruzes", "Palheiro do Ferreiro (Quinta do)", "Quinta do Monte", "Quintas"]
-      - code: place.region
-        label_en: Region or other natural feature
-        label_pt: Região ou outro acidente natural
-        definition: A named region or stretch of coast, or a natural feature not covered above (cave/furna, crater, rock, forest area), or a place outside the archipelago.
-        examples: ["Costa do Norte", "Furna da Mulher", "Rabaçal", "Norte da Ilha"]
-
-  # ------------------------------------------------------------------ ORGANISM
-  - code: organism
-    label_en: Organism
-    label_pt: Ser vivo
-    definition: A living species, variety or taxonomic group, usually headed by a vernacular name with a scientific name in parentheses.
-    subtypes:
-      - code: organism.plant
-        label_en: Plant
-        label_pt: Planta
-        definition: A vascular plant species or vernacular plant name (trees, shrubs, herbs, ferns, crops as species), native or introduced.
-        examples: ["Camelia (Camellia japonica)", "Couve da Rocha", "Feto Abrum (Dicksonia Culcita)", "Vinhático (Persea indica)"]
-      - code: organism.cultivar
-        label_en: Cultivated variety
-        label_pt: Casta ou variedade cultivada
-        definition: A named cultivated variety or breed, chiefly grape varieties (castas) and wheat varieties.
-        examples: ["Terrantez branco", "Barrete de padre", "Trigo de palha roxa", "Malvasia"]
-      - code: organism.cryptogam
-        label_en: Fungus, lichen, moss or alga
-        label_pt: Fungo, líquen, musgo ou alga
-        definition: A fungus, lichen, moss, liverwort or alga (including plant-disease fungi), as a species or group.
-        examples: ["Musgos", "Hepáticas", "Algas", "Cogumelos"]
-      - code: organism.bird
-        label_en: Bird
-        label_pt: Ave
-        definition: A bird species or vernacular bird name.
-        examples: ["Bisbis (Regulus maderensis)", "Alma negra (Bulweria Bulweri)", "Maçarico", "Corre-Caminho (Anthus Bertheloti)"]
-      - code: organism.fish
-        label_en: Fish
-        label_pt: Peixe
-        definition: A fish species (bony fish, shark or ray) or vernacular fish name.
-        examples: ["Espada Preta (Aphanopus carbo)", "Cherne (Polyprion cernium)", "Pargo (Pagrus pagrus)", "Sapata (Centrophorus calceus)"]
-      - code: organism.marine_invertebrate
-        label_en: Marine invertebrate
-        label_pt: Invertebrado marinho
-        definition: A marine invertebrate other than a mollusc, such as a crustacean, sea urchin, coral, sponge, jellyfish or marine worm.
-        examples: ["Caranguejola", "Lagostas", "Ouriços do Mar", "Corais"]
-      - code: organism.arthropod
-        label_en: Insect, spider or other land arthropod
-        label_pt: Inseto, aracnídeo ou outro artrópode terrestre
-        definition: An insect, arachnid, myriapod or other terrestrial arthropod, including agricultural pests.
-        examples: ["Abelha (Apis mellifica)", "Iceria (Icerya Purchasi)", "Gafanhotos", "Aranhas"]
-      - code: organism.mollusc
-        label_en: Mollusc
-        label_pt: Molusco
-        definition: A land or marine mollusc, such as a snail, slug, limpet, octopus or cuttlefish.
-        examples: ["Chôco (Sepia officinalis)", "Lesmas", "Lapas", "Caracol da Vinha (Helix pisana)"]
-      - code: organism.mammal
-        label_en: Mammal
-        label_pt: Mamífero
-        definition: A mammal species, including marine mammals and domestic or introduced animals.
-        examples: ["Coelho do Pôrto Santo", "Baleias"]
-      - code: organism.reptile
-        label_en: Reptile or amphibian
-        label_pt: Réptil ou anfíbio
-        definition: A reptile or amphibian species, including sea turtles.
-        examples: ["Lagartixa (Lacerta Dugesii)", "Tartaruga (Caouana Oaretta)", "Rãs"]
-      - code: organism.group
-        label_en: Taxonomic group
-        label_pt: Grupo taxonómico
-        definition: An entry on a whole family, order or broad group of organisms (e.g. Lauraceae, worms, birds) rather than one species.
-        examples: ["Lauráceas", "Vermes", "Aves", "Fanerogamicas"]
-
-  # ------------------------------------------------------------------ BUILDING
-  - code: building
-    label_en: Building or monument
-    label_pt: Edifício ou monumento
-    definition: A specific built structure, existing or demolished, or a type of structure treated collectively.
-    subtypes:
-      - code: building.church
-        label_en: Church
-        label_pt: Igreja
-        definition: A cathedral, parish church or other church building (including Anglican/Protestant churches).
-        examples: ["Sé Catedral", "Santa Clara (Igreja de)", "Nossa Senhora do Calhau (Igreja de)", "Igrejas Inglesas"]
-      - code: building.chapel
-        label_en: Chapel
-        label_pt: Capela
-        definition: A chapel, hermitage (ermida) or oratory, public or private, or a group of chapels sharing a dedication.
-        examples: ["São Gil (Capela de)", "São Sebastião (Capelas de)", "Nossa Senhora das Virtudes (Capela de)", "Apresentação"]
-      - code: building.convent
-        label_en: Convent or seminary
-        label_pt: Convento ou seminário
-        definition: A convent, monastery, recolhimento or seminary as a building and community.
-        examples: ["Convento de Santa Clara", "Convento de São Francisco do Funchal", "Convento de São Francisco da Calheta", "Convento das Mercês"]
-      - code: building.fortress
-        label_en: Fortress or defensive work
-        label_pt: Fortaleza ou fortificação
-        definition: A fortress, fort, castle, redoubt, battery, city wall or gate.
-        examples: ["Fortaleza do Pico", "São Lourenço (Fortaleza de)", "Forte de S. Francisco", "Fortificações"]
-      - code: building.hospital
-        label_en: Hospital or asylum
-        label_pt: Hospital ou asilo
-        definition: A hospital, asylum, lazaretto, albergaria, sanatorium or similar care building.
-        examples: ["Hospital dos Marmeleiros", "Lazareto", "Asilo de Mendicidade do Funchal", "Hospital Militar"]
-      - code: building.maritime
-        label_en: Quay, pier or lighthouse
-        label_pt: Cais, molhe ou farol
-        definition: A quay (cais), pier, breakwater, lighthouse or other built harbour structure.
-        examples: ["Cais de Machico", "Molhe da Pontinha", "Farol da Ponta do Pargo", "Cais"]
-      - code: building.monument
-        label_en: Monument
-        label_pt: Monumento
-        definition: A commemorative monument, statue, pillory (pelourinho) or memorial, or a historic relic object kept in situ.
-        examples: ["Monumento a João Gonçalves Zargo", "Monumento aos mortos da Grande Guerra", "Pelourinho", "Monumentos"]
-      - code: building.other
-        label_en: Other building
-        label_pt: Outro edifício
-        definition: Any other building or facility, such as a palace, historic house, town hall, customs house, theatre, market, mill or slaughterhouse.
-        examples: ["Palácio de S. Lourenço", "Paço Episcopal", "Teatro Grande", "Matadouro Municipal"]
-
-  # ------------------------------------------------------------------ INSTITUTION
-  - code: institution
-    label_en: Institution or organisation
-    label_pt: Instituição ou organização
-    definition: An organised body of people with continuity (association, school, public body, company, order), as distinct from its building.
-    subtypes:
-      - code: institution.association
-        label_en: Association, club or society
-        label_pt: Associação, clube ou sociedade
-        definition: A voluntary association, club, sports or musical society, learned society, trade or class association, political party or masonic body.
-        examples: ["Clube Naval Madeirense", "Associação Comercial do Funchal", "Sociedade Funchalense dos Amigos das Ciências e Artes", "Maçonaria"]
-      - code: institution.school
-        label_en: School or course
-        label_pt: Escola ou curso
-        definition: A school, lyceum, college, seminary as teaching body, or a regular course of instruction.
-        examples: ["Liceu", "Escola Primaria Superior", "Curso de Desenho", "Escola Medico-Cirurgica"]
-      - code: institution.cultural
-        label_en: Museum, library or archive
-        label_pt: Museu, biblioteca ou arquivo
-        definition: A museum, library, archive, scientific cabinet, botanical garden or similar collection-holding institution.
-        examples: ["Museu de Ciências Naturais", "Bibliotecas", "Arquivos", "Gabinete de Historia Natural Antigo"]
-      - code: institution.government
-        label_en: Government body or public service
-        label_pt: Órgão de governo ou serviço público
-        definition: A public authority, council, junta, government department or public service (post, customs, police, public works, agricultural or forestry services).
-        examples: ["Junta Agrícola", "Correios", "Alfândegas", "Serviços Florestais"]
-      - code: institution.military
-        label_en: Military or police force
-        label_pt: Força militar ou policial
-        definition: A military, militia, naval or police unit or force (e.g. ordenanças, national guard).
-        examples: ["Ordenanças", "Guarda Nacional", "Guarda Republicana", "Artilharia Auxiliar"]
-      - code: institution.religious
-        label_en: Religious body
-        label_pt: Instituição religiosa
-        definition: A diocese, religious order, confraternity, mission or other ecclesiastical organisation.
-        examples: ["Funchal. (Diocese do)", "Ordens Religiosas", "Ordem de Cristo", "Ordem Seráfica"]
-      - code: institution.charity
-        label_en: Charity or mutual-aid body
-        label_pt: Instituição de beneficência
-        definition: A Misericórdia, charitable society, mutual-aid association or relief organisation.
-        examples: ["Misericórdias", "Conferencias de S. Vicente de Paulo", "Cruz Vermelha", "Associação de Socorros Mútuos 4 de Setembro de 1862"]
-      - code: institution.company
-        label_en: Company or bank
-        label_pt: Empresa ou banco
-        definition: A commercial company, bank, insurance firm, wine house or other business enterprise.
-        examples: ["Companhia Fabril de Açucar Madeirense", "Bancos", "Companhias Vinicolas", "Companhia de Pescarias"]
-
-  # ------------------------------------------------------------------ PUBLICATION
-  - code: publication
-    label_en: Publication or work
-    label_pt: Publicação ou obra
-    definition: A written, printed or graphic work as an object of description.
-    subtypes:
-      - code: publication.periodical
-        label_en: Newspaper or periodical
-        label_pt: Jornal ou periódico
-        definition: A newspaper, magazine, bulletin or other serial publication, usually headed "Title (O/A)".
-        examples: ["Radical (O)", "Heraldo da Madeira (O)", "Diário de Notícias", "Revista Jurídica"]
-      - code: publication.book
-        label_en: Book or literary work
-        label_pt: Livro ou obra literária
-        definition: A book, pamphlet, poem, chronicle or other individual literary or scholarly work, printed or manuscript.
-        examples: ["Saudades da Terra", "Historia Insulana", "Origem da Ilha da Madeira", "Guyaneida (A)"]
-      - code: publication.document
-        label_en: Document, map or record
-        label_pt: Documento, mapa ou registo
-        definition: An archival document, record series, map, city plan, inscription or iconographic source.
-        examples: ["Cartas geograficas", "Plantas da Cidade", "Actas da Junta Geral do Distrito do Funchal", "Anais do Município"]
-
-  # ------------------------------------------------------------------ EVENT
-  - code: event
-    label_en: Event
-    label_pt: Acontecimento
-    definition: Something that happened at a time, or a recurring celebration.
-    subtypes:
-      - code: event.historical
-        label_en: Historical event
-        label_pt: Acontecimento histórico
-        definition: A political, military or social episode, e.g. discovery, settlement, invasion, sack, occupation, revolt, riot, royal visit or first flight.
-        examples: ["Saque dos Franceses", "Ocupação da Madeira por Tropas Inglesas", "Descobrimento do Arquipelago", "Navegação Aérea"]
-      - code: event.disaster
-        label_en: Natural or public disaster
-        label_pt: Catástrofe ou calamidade
-        definition: A flood (aluvião), fire, earthquake, storm or famine, individually or as a chronology.
-        examples: ["Aluviões", "Incêndio em 1919", "Abalos de terra", "Fome na Madeira em 1846 e 1847"]
-      - code: event.epidemic
-        label_en: Epidemic
-        label_pt: Epidemia
-        definition: An outbreak of epidemic disease (cholera, plague, etc.), individually or as a chronology.
-        examples: ["Epidemias", "Colera-Morbus em 1856 e 1910. (A)", "Peste Bubónica"]
-      - code: event.festivity
-        label_en: Festivity or procession
-        label_pt: Festa ou procissão
-        definition: A religious or civic feast, procession, pilgrimage, commemoration or exhibition, whether one-off or recurring.
-        examples: ["Procissão do Corpo de Deus", "Espírito Santo (Festas do)", "Festa da Árvore", "Exposições"]
-      - code: event.maritime
-        label_en: Shipwreck or ship's history
-        label_pt: Naufrágio ou história de navio
-        definition: A shipwreck, naval incident or notable ship's call, including entries headed by the name of a ship.
-        examples: ["Naufrágios", "Alabama", "Surprise", "Valente (Vapor)"]
-
-  # ------------------------------------------------------------------ ADMINISTRATION
-  - code: administration
-    label_en: Administration and law
-    label_pt: Administração e direito
-    definition: Offices, legal instruments, taxation, justice and territorial organisation as institutions of government (not the people or bodies themselves).
-    subtypes:
-      - code: administration.office
-        label_en: Office or position
-        label_pt: Cargo ou ofício
-        definition: A public office, rank or function (e.g. captain-donatary, juiz de fora, corregedor, almotacé, facheiro), often with a list of holders.
-        examples: ["Juízes de Fora", "Capitãis-generais", "Corregedor", "Facheiro"]
-      - code: administration.law
-        label_en: Law, charter or decree
-        label_pt: Lei, foral ou decreto
-        definition: A law, decree, charter (foral), constitution, municipal ordinance (posturas) or legal regime.
-        examples: ["Forais", "Posturas", "Constituição de 1838", "Regímen Cerealífero"]
-      - code: administration.tax
-        label_en: Tax, duty or public finance
-        label_pt: Imposto, direito ou finanças públicas
-        definition: A tax, tithe, customs duty, levy or topic of public revenue and expenditure.
-        examples: ["Contribuições", "Quinto", "Dizimos", "Receitas e Despesas Municipais"]
-      - code: administration.justice
-        label_en: Courts and justice
-        label_pt: Justiça e tribunais
-        definition: Courts, judicial districts (comarcas), judicial organisation, crime, punishment, exile (degredo) or executions.
-        examples: ["Tribunal Administrativo", "Funchal (Comarca do)", "Degredados", "Execuções Capitais"]
-      - code: administration.division
-        label_en: Administrative or ecclesiastical division
-        label_pt: Divisão administrativa ou eclesiástica
-        definition: The system of territorial units and its organisation, e.g. captaincies, municipalities as a system, parishes as a system, archpriest districts.
-        examples: ["Capitanias", "Organização Administrativa", "Arciprestados", "Freguesias"]
-
-  # ------------------------------------------------------------------ ECONOMY
-  - code: economy
-    label_en: Economy
-    label_pt: Economia
-    definition: Production, trade, transport and infrastructure as economic activities or goods.
-    subtypes:
-      - code: economy.agriculture
-        label_en: Agriculture, livestock and forestry
-        label_pt: Agricultura, pecuária e silvicultura
-        definition: Farming, livestock, pasture, forestry, crop diseases and land use as activities or regimes.
-        examples: ["Indústria Pecuária", "Pastagens", "Arborização", "Doenças das Semilhas"]
-      - code: economy.product
-        label_en: Product or foodstuff
-        label_pt: Produto ou género
-        definition: A produced commodity or foodstuff (sugar, garapa, aguardente, honey, dyes), other than wine.
-        examples: ["Açúcar", "Garapa", "Aguardente", "Carvão"]
-      - code: economy.wine
-        label_en: Wine and viticulture
-        label_pt: Vinho e vitivinicultura
-        definition: Madeira wine, its types, production methods, trade and viticulture in general (grape varieties are organism.cultivar).
-        examples: ["Vinhos", "Vinho de Roda", "Vinho de Canteiro", "Vinhas"]
-      - code: economy.industry
-        label_en: Industry and craft
-        label_pt: Indústria e artesanato
-        definition: A manufacturing industry or craft (embroidery, wickerwork, sugar mills), or a tool or implement used in production.
-        examples: ["Indústria dos Bordados", "Indústria da Obra de Vimes", "Engenhos", "Borracho"]
-      - code: economy.fishing
-        label_en: Fishing and whaling
-        label_pt: Pesca e baleação
-        definition: Fishing and whaling as activities, including fishing gear, techniques and fishing harbours.
-        examples: ["Pesca", "Gorazeira", "Covos", "Portos de Pesca"]
-      - code: economy.trade
-        label_en: Trade, money and prices
-        label_pt: Comércio, moeda e preços
-        definition: Commerce, markets, fairs, imports/exports, currency, prices and banking as a sector.
-        examples: ["Feiras", "Importações e Exportações", "Moeda", "Preços dos Géneros"]
-      - code: economy.infrastructure
-        label_en: Transport, communications and public works
-        label_pt: Transportes, comunicações e obras públicas
-        definition: Roads, railways, shipping services, aviation, telegraph, telephone, water supply, lighting and other public works or utilities.
-        examples: ["Caminho de Ferro do Monte", "Carros do Monte", "Telégrafo Submarino", "Abastecimento de águas da cidade"]
-
-  # ------------------------------------------------------------------ CULTURE & SOCIETY
-  - code: culture
-    label_en: Culture and society
-    label_pt: Cultura e sociedade
-    definition: Customs, beliefs, language, the arts, religion as practice, social groups and symbols.
-    subtypes:
-      - code: culture.custom
-        label_en: Custom and folklore
-        label_pt: Costumes e folclore
-        definition: A custom, tradition, legend, superstition, game, dress or regional food.
-        examples: ["Costumes antigos", "Lendas", "Mau Olhado", "Escarpiada"]
-      - code: culture.folk_medicine
-        label_en: Folk medicine
-        label_pt: Medicina popular
-        definition: Popular remedies and rural medical practices, chiefly the "Medicina Campestre" sub-entries headed by an ailment.
-        examples: ["Medicina Campestre", "Nevralgias", "Reumatismo", "Verrugas"]
-      - code: culture.language
-        label_en: Word, term or place-name
-        label_pt: Palavra, termo ou topónimo
-        definition: An entry chiefly explaining a regional word, term, expression or the origin of a name.
-        examples: ["Aguagem", "Termo", "Madeira (Origem do nome de)", "Funchal – I Origem do nome"]
-      - code: culture.arts
-        label_en: Arts, literature and historiography
-        label_pt: Artes, literatura e historiografia
-        definition: Literature, music, theatre, visual arts, musical instruments, historiography or literary references to Madeira as topics.
-        examples: ["Literatura", "Música", "Viola de Arame", "História Madeirense"]
-      - code: culture.religion
-        label_en: Religious life and devotion
-        label_pt: Vida religiosa e devoção
-        definition: Religious belief and practice, devotions, patron saints, cults, prayers and religious controversy (not buildings or bodies).
-        examples: ["Padroeiros", "Preces", "Proselitismo Protestante", "Nossa Senhora das Dores"]
-      - code: culture.society
-        label_en: Population and social groups
-        label_pt: População e grupos sociais
-        definition: Population, emigration and diaspora, slavery, foundlings, social classes and ethnic or religious groups.
-        examples: ["População", "Emigração", "Escravos", "Judeus"]
-      - code: culture.heraldry
-        label_en: Heraldry, symbols and honours
-        label_pt: Heráldica, símbolos e distinções
-        definition: Coats of arms, flags, seals, medals, decorations and noble titles as a system.
-        examples: ["Armas", "Bandeira da Cidade", "Medalhas", "Títulos Nobiliárquicos"]
-
-  # ------------------------------------------------------------------ SCIENCE & ENVIRONMENT
-  - code: science
-    label_en: Science and environment
-    label_pt: Ciência e ambiente
-    definition: The physical environment and its scientific study, medicine and public health.
-    subtypes:
-      - code: science.climate
-        label_en: Climate and meteorology
-        label_pt: Clima e meteorologia
-        definition: Climate, weather, winds, rainfall, snow and meteorological stations.
-        examples: ["Clima", "Ventos", "Postos Meteorológicos", "Neve"]
-      - code: science.geology
-        label_en: Geology and mineralogy
-        label_pt: Geologia e mineralogia
-        definition: Geology, volcanism, rocks, minerals and landform processes.
-        examples: ["Geologia", "Basaltos", "Diques", "Zeólito"]
-      - code: science.geophysics
-        label_en: Geophysics, oceanography and geodesy
-        label_pt: Geofísica, oceanografia e geodesia
-        definition: Terrestrial magnetism, geodesy, surveying, tides, sea currents and oceanography.
-        examples: ["Inclinação Magnética", "Geodesia", "Gulf Stream", "Estabelecimento do Porto"]
-      - code: science.natural_history
-        label_en: Natural-history overview
-        label_pt: Visão geral de história natural
-        definition: A general account of fauna, flora, vegetation, forests or biogeography of the islands, not limited to one taxon.
-        examples: ["Fauna", "Flora", "Matas", "Porto Santo (Flora e Fauna do)"]
-      - code: science.research
-        label_en: Scientific research and disciplines
-        label_pt: Investigação e disciplinas científicas
-        definition: The history of scientific study of Madeira, expeditions, herbaria and collections, or a scientific discipline as applied to Madeira.
-        examples: ["Expedições Cientificas", "Herbários", "Madeira (Antropologia)", "Atlantida (Ilha)"]
-      - code: science.medicine
-        label_en: Medicine and public health
-        label_pt: Medicina e saúde pública
-        definition: Diseases, climatotherapy, hygiene, sanitation and public health as learned medicine (folk remedies are culture.folk_medicine).
-        examples: ["Doenças", "Tracoma", "Sanatórios da Madeira", "Laboratório de Bacteriologia e Higiene"]
-
-  # ------------------------------------------------------------------ META
-  - code: meta
-    label_en: Editorial and reference
-    label_pt: Editorial e referência
-    definition: Entries whose function is navigational or editorial rather than descriptive of a single subject.
-    subtypes:
-      - code: meta.cross_reference
-        label_en: Cross-reference
-        label_pt: Remissão
-        definition: An entry whose content is essentially a pointer ("Vid. ...") to one or more other entries; add the target's type as secondary where clear.
-        examples: ["Paisagens", "Alvim", "Dizimos", "Madeira (Geologia)"]
-      - code: meta.list
-        label_en: List or bibliography
-        label_pt: Lista ou bibliografia
-        definition: An entry that is chiefly an enumeration (bibliography, list of office-holders or of items) with little running text.
-        examples: ["Bibliografia", "Ministros de Estado", "Associações de Classe"]
-      - code: meta.overview
-        label_en: Survey or overview article
-        label_pt: Artigo de síntese
-        definition: A survey article spanning many subjects, usually a "Madeira (…)" umbrella entry that summarises and points to other entries.
-        examples: ["Madeira (Arquipélago da)", "Madeira (História da)", "Madeira (Calamidades Públicas)", "Madeira (Indústrias da)"]
-      - code: meta.front_matter
-        label_en: Front matter
-        label_pt: Preliminares
-        definition: Prefaces, introductions and other editorial matter outside the alphabetical sequence.
-        examples: ["[Front matter]"]
-
+- code: person
+  label_en: Person or family
+  label_pt: Pessoa ou família
+  definition: An individual human being, or a family, surname or lineage treated as a unit.
+  subtypes:
+  - code: person.clergy
+    label_en: Clergy and religious
+    label_pt: Clero e religiosos
+    definition: A person notable chiefly as a priest, bishop, canon, friar, nun, Jesuit, missionary or other member of a church
+      or religious order.
+    examples:
+    - Andrade (D. Francisco José Rodrigues de)
+    - Morais. (D. Sebastião de)
+    - Lowe (Padre Ricardo Tomás)
+    - Vitória (Fr. João Pinto da)
+  - code: person.governor
+    label_en: Donatary, governor or ruler
+    label_pt: Donatário, governador ou governante
+    definition: A person notable chiefly for governing Madeira or a captaincy as captain-donatary, lord-proprietor, governor,
+      captain-general, civil governor or equivalent head of the territory.
+    examples:
+    - Zargo (João Gonçalves)
+    - Melo (Florencio José Correia de)
+    - Feio (Dr. Carlos José Barata Pinto)
+    - Alencastre (D. Mariana de Vasconcelos e Câmara)
+  - code: person.official
+    label_en: Official, magistrate or diplomat
+    label_pt: Funcionário, magistrado ou diplomata
+    definition: A person notable chiefly as a civil servant, municipal officer, magistrate, judge, lawyer, jurist, consul
+      or diplomat, below the rank of head of the territory.
+    examples:
+    - Lampreia (João de Oliveira Sá Camelo)
+    - Jardim. (Dr. Nuno Ferreira)
+    - Lamedo (António José de Jesus)
+    - Aguiar (Joaquim Nunes de)
+  - code: person.politician
+    label_en: Politician
+    label_pt: Político
+    definition: A person notable chiefly for elected or party-political activity, such as deputy, peer, senator, minister
+      or political leader.
+    examples:
+    - Assunção (Dr. Manuel da)
+    - Vieira (Conselheiro Manuel José)
+    - Santana e Vasconcelos (Henrique de)
+  - code: person.military
+    label_en: Military or naval figure
+    label_pt: Militar ou marinheiro
+    definition: A person notable chiefly as an army or naval officer, soldier, navigator, explorer or ship's captain.
+    examples:
+    - Abreu (Lopo de)
+    - Canning (W. P.)
+    - Rocha de Gouveia (Gabriel)
+    - Oudinot (Reinaldo)
+  - code: person.writer
+    label_en: Writer, journalist or scholar
+    label_pt: Escritor, jornalista ou erudito
+    definition: A person notable chiefly as an author, poet, chronicler, journalist, editor, historian, genealogist, teacher
+      or academic in the humanities.
+    examples:
+    - Frutuoso (Doutor Gaspar)
+    - Nascimento (João Cabral do)
+    - Silveira (José Marciano da)
+    - Alcoforado (Francisco)
+  - code: person.scientist
+    label_en: Scientist or naturalist
+    label_pt: Cientista ou naturalista
+    definition: A person notable chiefly for natural-history or scientific work (botanist, zoologist, geologist, collector,
+      mathematician, engineer-scientist), whether Madeiran or foreign.
+    examples:
+    - Watson (Roberto Boog)
+    - Heer (Dr. Osvaldo)
+    - Winter (Dr. Hermann)
+    - Lopes Rocha (Dr. Vitúrio)
+  - code: person.physician
+    label_en: Physician or health professional
+    label_pt: Médico ou profissional de saúde
+    definition: A person notable chiefly as a physician, surgeon, pharmacist or other health practitioner, including foreign
+      doctors who wrote on Madeira's climate.
+    examples:
+    - Gourlay (Dr. William)
+    - França (Dr. Carlos)
+    - Rodrigues Ciebra (António)
+    - Heineken (Dr. Carlos)
+  - code: person.artist
+    label_en: Artist or musician
+    label_pt: Artista ou músico
+    definition: A person notable chiefly as a painter, sculptor, illustrator, architect, musician, composer, actor or other
+      artist.
+    examples:
+    - Franco de Sousa (Henrique)
+    - Rocha (Joaquim Leonardo da)
+    - Moniz (João Cirilo)
+    - Picken (Andrew)
+  - code: person.merchant
+    label_en: Merchant, industrialist or landowner
+    label_pt: Comerciante, industrial ou proprietário
+    definition: A person notable chiefly for commerce, the wine trade, industry, banking, landholding or philanthropy funded
+      by private wealth.
+    examples:
+    - Page (Roberto)
+    - Carvalhal (1º. Conde de)
+  - code: person.visitor
+    label_en: Foreign visitor or author on Madeira
+    label_pt: Visitante ou autor estrangeiro
+    definition: A foreigner whose relevance is chiefly a visit to, stay in, or writing about Madeira (travellers, royal visitors,
+      foreign authors), when no professional role on the island dominates.
+    examples:
+    - Anatole France
+    - Maximiliano (Imperador do México)
+    - Vizetelly (Henry)
+    - Colombo (Cristovão)
+  - code: person.family
+    label_en: Family, surname or lineage
+    label_pt: Família, apelido ou linhagem
+    definition: A collective entry on a family, surname, noble lineage, or the succession of holders of a noble title.
+    examples:
+    - Cabral
+    - Teixeira
+    - Medina
+    - Tôrre Bela (Visconde de
+  - code: person.other
+    label_en: Other person
+    label_pt: Outra pessoa
+    definition: A person notable for a role not covered above, such as an early settler, emigrant, benefactor, saint, convict
+      or popular figure.
+    examples:
+    - Feiticeiro do Norte
+    - Nunes (Filipe José)
+- code: place
+  label_en: Place
+  label_pt: Lugar
+  definition: A named geographical place or territorial unit, natural or human, chiefly in the Madeira archipelago.
+  subtypes:
+  - code: place.island
+    label_en: Island, islet or archipelago
+    label_pt: Ilha, ilhéu ou arquipélago
+    definition: An island, islet (ilhéu), sea stack or island group, including the archipelago as a whole.
+    examples:
+    - Porto Santo (Ilha do)
+    - Desertas (Ilhas)
+    - Selvagens
+    - Fora (Ilhéu de)
+  - code: place.municipality
+    label_en: Municipality or town
+    label_pt: Concelho, município ou vila
+    definition: A municipality (concelho/município), town (vila) or city considered as a municipal unit or urban settlement.
+    examples:
+    - Calheta (Vila e Município da)
+    - Machico (Vila e Município de)
+    - Camara de Lôbos (Municipio de)
+  - code: place.parish
+    label_en: Parish
+    label_pt: Freguesia
+    definition: A civil/ecclesiastical parish (freguesia), usually headed "X (Freguesia de)", even when the text is mostly
+      its church or history.
+    examples:
+    - Santana (Freguesia de)
+    - Seixal (Freguesia do)
+    - Curral das Freiras (Freguesia do)
+    - Sé (Freguesia da)
+  - code: place.locality
+    label_en: Locality (sítio)
+    label_pt: Sítio ou localidade
+    definition: An inhabited locality, hamlet or named area within a parish (sítio, lombo, lombada, achada), including former
+      localities.
+    examples:
+    - Achada de Gaula
+    - Lombada dos Esmeraldos
+    - Terços
+    - Jamboto
+  - code: place.mountain
+    label_en: Peak, mountain or upland
+    label_pt: Pico, serra ou planalto
+    definition: A peak (pico), mountain range (serra), ridge, pass (encumeada), plateau (paul) or other upland relief feature.
+    examples:
+    - Abóboras (Pico das)
+    - Paul da Serra
+    - Encumeada
+    - Areeiro
+  - code: place.stream
+    label_en: Stream, valley or inland water
+    label_pt: Ribeira, vale ou água interior
+    definition: A stream or river (ribeira), its valley, or another inland water feature such as a waterfall, spring or lagoon.
+    examples:
+    - Ribeira da Madalena
+    - Cruz (Ribeira da )
+    - Vinte e Cinco Fontes
+    - Lagoa
+  - code: place.levada
+    label_en: Levada (irrigation channel)
+    label_pt: Levada
+    definition: A levada or irrigation channel, individually or as the island's levada system, including its water rights.
+    examples:
+    - Levadas
+    - Madeira (Levadas da)
+  - code: place.faja
+    label_en: Fajã (coastal flat)
+    label_pt: Fajã
+    definition: A fajã, the low flat of land formed by landslide or lava at the foot of a cliff, as a named place or as a
+      landform.
+    examples:
+    - Fajã
+    - Fajã dos Padres
+    - Fajã do Penedo
+    - Fajã das Nogueiras
+  - code: place.headland
+    label_en: Headland or cape
+    label_pt: Ponta ou cabo
+    definition: A coastal point (ponta), cape (cabo) or promontory.
+    examples:
+    - Ponta de São Lourenço
+    - Girão (Cabo)
+    - Gorda (Ponta)
+    - Queimada (Ponta da)
+  - code: place.bay_port
+    label_en: Bay, beach or landing place
+    label_pt: Baía, praia ou porto
+    definition: A bay, cove (enseada), beach (praia, calhau), natural harbour or landing place (porto), or a sea channel or
+      shoal (boqueirão, baixa) near the coast.
+    examples:
+    - Funchal (Baía do)
+    - Praia Formosa
+    - Alagoa (Porto da)
+    - Boqueirão Grande
+  - code: place.street
+    label_en: Street, square or road
+    label_pt: Rua, largo ou caminho
+    definition: A named urban street, avenue, square (largo, praça, campo, terreiro) or road/path, chiefly in Funchal.
+    examples:
+    - Carvalho de Araújo (Rua)
+    - Lavradores (Largo ou Praça dos)
+    - Terreiro da Luta
+    - Entrada da Cidade
+  - code: place.quinta
+    label_en: Quinta (estate)
+    label_pt: Quinta
+    definition: A quinta, i.e. a country or suburban estate with its house and gardens, individually or as a type.
+    examples:
+    - Quinta das Cruzes
+    - Palheiro do Ferreiro (Quinta do)
+    - Quinta do Monte
+    - Quintas
+  - code: place.region
+    label_en: Region or other natural feature
+    label_pt: Região ou outro acidente natural
+    definition: A named region or stretch of coast, or a natural feature not covered above (cave/furna, crater, rock, forest
+      area), or a place outside the archipelago.
+    examples:
+    - Costa do Norte
+    - Furna da Mulher
+    - Rabaçal
+    - Norte da Ilha
+- code: organism
+  label_en: Organism
+  label_pt: Ser vivo
+  definition: A living species, variety or taxonomic group, usually headed by a vernacular name with a scientific name in
+    parentheses.
+  subtypes:
+  - code: organism.plant
+    label_en: Plant
+    label_pt: Planta
+    definition: A vascular plant species or vernacular plant name (trees, shrubs, herbs, ferns, crops as species), native
+      or introduced.
+    examples:
+    - Camelia (Camellia japonica)
+    - Couve da Rocha
+    - Feto Abrum (Dicksonia Culcita)
+    - Vinhático (Persea indica)
+  - code: organism.cultivar
+    label_en: Cultivated variety
+    label_pt: Casta ou variedade cultivada
+    definition: A named cultivated variety or breed, chiefly grape varieties (castas) and wheat varieties.
+    examples:
+    - Terrantez branco
+    - Barrete de padre
+    - Trigo de palha roxa
+    - Malvasia
+  - code: organism.cryptogam
+    label_en: Fungus, lichen, moss or alga
+    label_pt: Fungo, líquen, musgo ou alga
+    definition: A fungus, lichen, moss, liverwort or alga (including plant-disease fungi), as a species or group.
+    examples:
+    - Musgos
+    - Hepáticas
+    - Algas
+    - Cogumelos
+  - code: organism.bird
+    label_en: Bird
+    label_pt: Ave
+    definition: A bird species or vernacular bird name.
+    examples:
+    - Bisbis (Regulus maderensis)
+    - Alma negra (Bulweria Bulweri)
+    - Maçarico
+    - Corre-Caminho (Anthus Bertheloti)
+  - code: organism.fish
+    label_en: Fish
+    label_pt: Peixe
+    definition: A fish species (bony fish, shark or ray) or vernacular fish name.
+    examples:
+    - Espada Preta (Aphanopus carbo)
+    - Cherne (Polyprion cernium)
+    - Pargo (Pagrus pagrus)
+    - Sapata (Centrophorus calceus)
+  - code: organism.marine_invertebrate
+    label_en: Marine invertebrate
+    label_pt: Invertebrado marinho
+    definition: A marine invertebrate other than a mollusc, such as a crustacean, sea urchin, coral, sponge, jellyfish or
+      marine worm.
+    examples:
+    - Caranguejola
+    - Lagostas
+    - Ouriços do Mar
+    - Corais
+  - code: organism.arthropod
+    label_en: Insect, spider or other land arthropod
+    label_pt: Inseto, aracnídeo ou outro artrópode terrestre
+    definition: An insect, arachnid, myriapod or other terrestrial arthropod, including agricultural pests.
+    examples:
+    - Abelha (Apis mellifica)
+    - Iceria (Icerya Purchasi)
+    - Gafanhotos
+    - Aranhas
+  - code: organism.mollusc
+    label_en: Mollusc
+    label_pt: Molusco
+    definition: A land or marine mollusc, such as a snail, slug, limpet, octopus or cuttlefish.
+    examples:
+    - Chôco (Sepia officinalis)
+    - Lesmas
+    - Lapas
+    - Caracol da Vinha (Helix pisana)
+  - code: organism.mammal
+    label_en: Mammal
+    label_pt: Mamífero
+    definition: A mammal species, including marine mammals and domestic or introduced animals.
+    examples:
+    - Coelho do Pôrto Santo
+    - Baleias
+  - code: organism.reptile
+    label_en: Reptile or amphibian
+    label_pt: Réptil ou anfíbio
+    definition: A reptile or amphibian species, including sea turtles.
+    examples:
+    - Lagartixa (Lacerta Dugesii)
+    - Tartaruga (Caouana Oaretta)
+    - Rãs
+  - code: organism.group
+    label_en: Taxonomic group
+    label_pt: Grupo taxonómico
+    definition: An entry on a whole family, order or broad group of organisms (e.g. Lauraceae, worms, birds) rather than one
+      species.
+    examples:
+    - Lauráceas
+    - Vermes
+    - Aves
+    - Fanerogamicas
+- code: building
+  label_en: Building or monument
+  label_pt: Edifício ou monumento
+  definition: A specific built structure, existing or demolished, or a type of structure treated collectively.
+  subtypes:
+  - code: building.church
+    label_en: Church
+    label_pt: Igreja
+    definition: A cathedral, parish church or other church building (including Anglican/Protestant churches).
+    examples:
+    - Sé Catedral
+    - Santa Clara (Igreja de)
+    - Nossa Senhora do Calhau (Igreja de)
+    - Igrejas Inglesas
+  - code: building.chapel
+    label_en: Chapel
+    label_pt: Capela
+    definition: A chapel, hermitage (ermida) or oratory, public or private, or a group of chapels sharing a dedication.
+    examples:
+    - São Gil (Capela de)
+    - São Sebastião (Capelas de)
+    - Nossa Senhora das Virtudes (Capela de)
+    - Apresentação
+  - code: building.convent
+    label_en: Convent or seminary
+    label_pt: Convento ou seminário
+    definition: A convent, monastery, recolhimento or seminary as a building and community.
+    examples:
+    - Convento de Santa Clara
+    - Convento de São Francisco do Funchal
+    - Convento de São Francisco da Calheta
+    - Convento das Mercês
+  - code: building.fortress
+    label_en: Fortress or defensive work
+    label_pt: Fortaleza ou fortificação
+    definition: A fortress, fort, castle, redoubt, battery, city wall or gate.
+    examples:
+    - Fortaleza do Pico
+    - São Lourenço (Fortaleza de)
+    - Forte de S. Francisco
+    - Fortificações
+  - code: building.hospital
+    label_en: Hospital or asylum
+    label_pt: Hospital ou asilo
+    definition: A hospital, asylum, lazaretto, albergaria, sanatorium or similar care building.
+    examples:
+    - Hospital dos Marmeleiros
+    - Lazareto
+    - Asilo de Mendicidade do Funchal
+    - Hospital Militar
+  - code: building.maritime
+    label_en: Quay, pier or lighthouse
+    label_pt: Cais, molhe ou farol
+    definition: A quay (cais), pier, breakwater, lighthouse or other built harbour structure.
+    examples:
+    - Cais de Machico
+    - Molhe da Pontinha
+    - Farol da Ponta do Pargo
+    - Cais
+  - code: building.monument
+    label_en: Monument
+    label_pt: Monumento
+    definition: A commemorative monument, statue, pillory (pelourinho) or memorial, or a historic relic object kept in situ.
+    examples:
+    - Monumento a João Gonçalves Zargo
+    - Monumento aos mortos da Grande Guerra
+    - Pelourinho
+    - Monumentos
+  - code: building.other
+    label_en: Other building
+    label_pt: Outro edifício
+    definition: Any other building or facility, such as a palace, historic house, town hall, customs house, theatre, market,
+      mill or slaughterhouse.
+    examples:
+    - Palácio de S. Lourenço
+    - Paço Episcopal
+    - Teatro Grande
+    - Matadouro Municipal
+- code: institution
+  label_en: Institution or organisation
+  label_pt: Instituição ou organização
+  definition: An organised body of people with continuity (association, school, public body, company, order), as distinct
+    from its building.
+  subtypes:
+  - code: institution.association
+    label_en: Association, club or society
+    label_pt: Associação, clube ou sociedade
+    definition: A voluntary association, club, sports or musical society, learned society, trade or class association, political
+      party or masonic body.
+    examples:
+    - Clube Naval Madeirense
+    - Associação Comercial do Funchal
+    - Sociedade Funchalense dos Amigos das Ciências e Artes
+    - Maçonaria
+  - code: institution.school
+    label_en: School or course
+    label_pt: Escola ou curso
+    definition: A school, lyceum, college, seminary as teaching body, or a regular course of instruction.
+    examples:
+    - Liceu
+    - Escola Primaria Superior
+    - Curso de Desenho
+    - Escola Medico-Cirurgica
+  - code: institution.cultural
+    label_en: Museum, library or archive
+    label_pt: Museu, biblioteca ou arquivo
+    definition: A museum, library, archive, scientific cabinet, botanical garden or similar collection-holding institution.
+    examples:
+    - Museu de Ciências Naturais
+    - Bibliotecas
+    - Arquivos
+    - Gabinete de Historia Natural Antigo
+  - code: institution.government
+    label_en: Government body or public service
+    label_pt: Órgão de governo ou serviço público
+    definition: A public authority, council, junta, government department or public service (post, customs, police, public
+      works, agricultural or forestry services).
+    examples:
+    - Junta Agrícola
+    - Correios
+    - Alfândegas
+    - Serviços Florestais
+  - code: institution.military
+    label_en: Military or police force
+    label_pt: Força militar ou policial
+    definition: A military, militia, naval or police unit or force (e.g. ordenanças, national guard).
+    examples:
+    - Ordenanças
+    - Guarda Nacional
+    - Guarda Republicana
+    - Artilharia Auxiliar
+  - code: institution.religious
+    label_en: Religious body
+    label_pt: Instituição religiosa
+    definition: A diocese, religious order, confraternity, mission or other ecclesiastical organisation.
+    examples:
+    - Funchal. (Diocese do)
+    - Ordens Religiosas
+    - Ordem de Cristo
+    - Ordem Seráfica
+  - code: institution.charity
+    label_en: Charity or mutual-aid body
+    label_pt: Instituição de beneficência
+    definition: A Misericórdia, charitable society, mutual-aid association or relief organisation.
+    examples:
+    - Misericórdias
+    - Conferencias de S. Vicente de Paulo
+    - Cruz Vermelha
+    - Associação de Socorros Mútuos 4 de Setembro de 1862
+  - code: institution.company
+    label_en: Company or bank
+    label_pt: Empresa ou banco
+    definition: A commercial company, bank, insurance firm, wine house or other business enterprise.
+    examples:
+    - Companhia Fabril de Açucar Madeirense
+    - Bancos
+    - Companhias Vinicolas
+    - Companhia de Pescarias
+- code: publication
+  label_en: Publication or work
+  label_pt: Publicação ou obra
+  definition: A written, printed or graphic work as an object of description.
+  subtypes:
+  - code: publication.periodical
+    label_en: Newspaper or periodical
+    label_pt: Jornal ou periódico
+    definition: A newspaper, magazine, bulletin or other serial publication, usually headed "Title (O/A)".
+    examples:
+    - Radical (O)
+    - Heraldo da Madeira (O)
+    - Diário de Notícias
+    - Revista Jurídica
+  - code: publication.book
+    label_en: Book or literary work
+    label_pt: Livro ou obra literária
+    definition: A book, pamphlet, poem, chronicle or other individual literary or scholarly work, printed or manuscript.
+    examples:
+    - Saudades da Terra
+    - Historia Insulana
+    - Origem da Ilha da Madeira
+    - Guyaneida (A)
+  - code: publication.document
+    label_en: Document, map or record
+    label_pt: Documento, mapa ou registo
+    definition: An archival document, record series, map, city plan, inscription or iconographic source.
+    examples:
+    - Cartas geograficas
+    - Plantas da Cidade
+    - Actas da Junta Geral do Distrito do Funchal
+    - Anais do Município
+- code: event
+  label_en: Event
+  label_pt: Acontecimento
+  definition: Something that happened at a time, or a recurring celebration.
+  subtypes:
+  - code: event.historical
+    label_en: Historical event
+    label_pt: Acontecimento histórico
+    definition: A political, military or social episode, e.g. discovery, settlement, invasion, sack, occupation, revolt, riot,
+      royal visit or first flight.
+    examples:
+    - Saque dos Franceses
+    - Ocupação da Madeira por Tropas Inglesas
+    - Descobrimento do Arquipelago
+    - Navegação Aérea
+  - code: event.disaster
+    label_en: Natural or public disaster
+    label_pt: Catástrofe ou calamidade
+    definition: A flood (aluvião), fire, earthquake, storm or famine, individually or as a chronology.
+    examples:
+    - Aluviões
+    - Incêndio em 1919
+    - Abalos de terra
+    - Fome na Madeira em 1846 e 1847
+  - code: event.epidemic
+    label_en: Epidemic
+    label_pt: Epidemia
+    definition: An outbreak of epidemic disease (cholera, plague, etc.), individually or as a chronology.
+    examples:
+    - Epidemias
+    - Colera-Morbus em 1856 e 1910. (A)
+    - Peste Bubónica
+  - code: event.festivity
+    label_en: Festivity or procession
+    label_pt: Festa ou procissão
+    definition: A religious or civic feast, procession, pilgrimage, commemoration or exhibition, whether one-off or recurring.
+    examples:
+    - Procissão do Corpo de Deus
+    - Espírito Santo (Festas do)
+    - Festa da Árvore
+    - Exposições
+  - code: event.maritime
+    label_en: Shipwreck or ship's history
+    label_pt: Naufrágio ou história de navio
+    definition: A shipwreck, naval incident or notable ship's call, including entries headed by the name of a ship.
+    examples:
+    - Naufrágios
+    - Alabama
+    - Surprise
+    - Valente (Vapor)
+- code: administration
+  label_en: Administration and law
+  label_pt: Administração e direito
+  definition: Offices, legal instruments, taxation, justice and territorial organisation as institutions of government (not
+    the people or bodies themselves).
+  subtypes:
+  - code: administration.office
+    label_en: Office or position
+    label_pt: Cargo ou ofício
+    definition: A public office, rank or function (e.g. captain-donatary, juiz de fora, corregedor, almotacé, facheiro), often
+      with a list of holders.
+    examples:
+    - Juízes de Fora
+    - Capitãis-generais
+    - Corregedor
+    - Facheiro
+  - code: administration.law
+    label_en: Law, charter or decree
+    label_pt: Lei, foral ou decreto
+    definition: A law, decree, charter (foral), constitution, municipal ordinance (posturas) or legal regime.
+    examples:
+    - Forais
+    - Posturas
+    - Constituição de 1838
+    - Regímen Cerealífero
+  - code: administration.tax
+    label_en: Tax, duty or public finance
+    label_pt: Imposto, direito ou finanças públicas
+    definition: A tax, tithe, customs duty, levy or topic of public revenue and expenditure.
+    examples:
+    - Contribuições
+    - Quinto
+    - Dizimos
+    - Receitas e Despesas Municipais
+  - code: administration.justice
+    label_en: Courts and justice
+    label_pt: Justiça e tribunais
+    definition: Courts, judicial districts (comarcas), judicial organisation, crime, punishment, exile (degredo) or executions.
+    examples:
+    - Tribunal Administrativo
+    - Funchal (Comarca do)
+    - Degredados
+    - Execuções Capitais
+  - code: administration.division
+    label_en: Administrative or ecclesiastical division
+    label_pt: Divisão administrativa ou eclesiástica
+    definition: The system of territorial units and its organisation, e.g. captaincies, municipalities as a system, parishes
+      as a system, archpriest districts.
+    examples:
+    - Capitanias
+    - Organização Administrativa
+    - Arciprestados
+    - Freguesias
+- code: economy
+  label_en: Economy
+  label_pt: Economia
+  definition: Production, trade, transport and infrastructure as economic activities or goods.
+  subtypes:
+  - code: economy.agriculture
+    label_en: Agriculture, livestock and forestry
+    label_pt: Agricultura, pecuária e silvicultura
+    definition: Farming, livestock, pasture, forestry, crop diseases and land use as activities or regimes.
+    examples:
+    - Indústria Pecuária
+    - Pastagens
+    - Arborização
+    - Doenças das Semilhas
+  - code: economy.product
+    label_en: Product or foodstuff
+    label_pt: Produto ou género
+    definition: A produced commodity or foodstuff (sugar, garapa, aguardente, honey, dyes), other than wine.
+    examples:
+    - Açúcar
+    - Garapa
+    - Aguardente
+    - Carvão
+  - code: economy.wine
+    label_en: Wine and viticulture
+    label_pt: Vinho e vitivinicultura
+    definition: Madeira wine, its types, production methods, trade and viticulture in general (grape varieties are organism.cultivar).
+    examples:
+    - Vinhos
+    - Vinho de Roda
+    - Vinho de Canteiro
+    - Vinhas
+  - code: economy.industry
+    label_en: Industry and craft
+    label_pt: Indústria e artesanato
+    definition: A manufacturing industry or craft (embroidery, wickerwork, sugar mills), or a tool or implement used in production.
+    examples:
+    - Indústria dos Bordados
+    - Indústria da Obra de Vimes
+    - Engenhos
+    - Borracho
+  - code: economy.fishing
+    label_en: Fishing and whaling
+    label_pt: Pesca e baleação
+    definition: Fishing and whaling as activities, including fishing gear, techniques and fishing harbours.
+    examples:
+    - Pesca
+    - Gorazeira
+    - Covos
+    - Portos de Pesca
+  - code: economy.trade
+    label_en: Trade, money and prices
+    label_pt: Comércio, moeda e preços
+    definition: Commerce, markets, fairs, imports/exports, currency, prices and banking as a sector.
+    examples:
+    - Feiras
+    - Importações e Exportações
+    - Moeda
+    - Preços dos Géneros
+  - code: economy.infrastructure
+    label_en: Transport, communications and public works
+    label_pt: Transportes, comunicações e obras públicas
+    definition: Roads, railways, shipping services, aviation, telegraph, telephone, water supply, lighting and other public
+      works or utilities.
+    examples:
+    - Caminho de Ferro do Monte
+    - Carros do Monte
+    - Telégrafo Submarino
+    - Abastecimento de águas da cidade
+- code: culture
+  label_en: Culture and society
+  label_pt: Cultura e sociedade
+  definition: Customs, beliefs, language, the arts, religion as practice, social groups and symbols.
+  subtypes:
+  - code: culture.custom
+    label_en: Custom and folklore
+    label_pt: Costumes e folclore
+    definition: A custom, tradition, legend, superstition, game, dress or regional food.
+    examples:
+    - Costumes antigos
+    - Lendas
+    - Mau Olhado
+    - Escarpiada
+  - code: culture.folk_medicine
+    label_en: Folk medicine
+    label_pt: Medicina popular
+    definition: Popular remedies and rural medical practices, chiefly the "Medicina Campestre" sub-entries headed by an ailment.
+    examples:
+    - Medicina Campestre
+    - Nevralgias
+    - Reumatismo
+    - Verrugas
+  - code: culture.language
+    label_en: Word, term or place-name
+    label_pt: Palavra, termo ou topónimo
+    definition: An entry chiefly explaining a regional word, term, expression or the origin of a name.
+    examples:
+    - Aguagem
+    - Termo
+    - Madeira (Origem do nome de)
+    - Funchal – I Origem do nome
+  - code: culture.arts
+    label_en: Arts, literature and historiography
+    label_pt: Artes, literatura e historiografia
+    definition: Literature, music, theatre, visual arts, musical instruments, historiography or literary references to Madeira
+      as topics.
+    examples:
+    - Literatura
+    - Música
+    - Viola de Arame
+    - História Madeirense
+  - code: culture.religion
+    label_en: Religious life and devotion
+    label_pt: Vida religiosa e devoção
+    definition: Religious belief and practice, devotions, patron saints, cults, prayers and religious controversy (not buildings
+      or bodies).
+    examples:
+    - Padroeiros
+    - Preces
+    - Proselitismo Protestante
+    - Nossa Senhora das Dores
+  - code: culture.society
+    label_en: Population and social groups
+    label_pt: População e grupos sociais
+    definition: Population, emigration and diaspora, slavery, foundlings, social classes and ethnic or religious groups.
+    examples:
+    - População
+    - Emigração
+    - Escravos
+    - Judeus
+  - code: culture.heraldry
+    label_en: Heraldry, symbols and honours
+    label_pt: Heráldica, símbolos e distinções
+    definition: Coats of arms, flags, seals, medals, decorations and noble titles as a system.
+    examples:
+    - Armas
+    - Bandeira da Cidade
+    - Medalhas
+    - Títulos Nobiliárquicos
+- code: science
+  label_en: Science and environment
+  label_pt: Ciência e ambiente
+  definition: The physical environment and its scientific study, medicine and public health.
+  subtypes:
+  - code: science.climate
+    label_en: Climate and meteorology
+    label_pt: Clima e meteorologia
+    definition: Climate, weather, winds, rainfall, snow and meteorological stations.
+    examples:
+    - Clima
+    - Ventos
+    - Postos Meteorológicos
+    - Neve
+  - code: science.geology
+    label_en: Geology and mineralogy
+    label_pt: Geologia e mineralogia
+    definition: Geology, volcanism, rocks, minerals and landform processes.
+    examples:
+    - Geologia
+    - Basaltos
+    - Diques
+    - Zeólito
+  - code: science.geophysics
+    label_en: Geophysics, oceanography and geodesy
+    label_pt: Geofísica, oceanografia e geodesia
+    definition: Terrestrial magnetism, geodesy, surveying, tides, sea currents and oceanography.
+    examples:
+    - Inclinação Magnética
+    - Geodesia
+    - Gulf Stream
+    - Estabelecimento do Porto
+  - code: science.natural_history
+    label_en: Natural-history overview
+    label_pt: Visão geral de história natural
+    definition: A general account of fauna, flora, vegetation, forests or biogeography of the islands, not limited to one
+      taxon.
+    examples:
+    - Fauna
+    - Flora
+    - Matas
+    - Porto Santo (Flora e Fauna do)
+  - code: science.research
+    label_en: Scientific research and disciplines
+    label_pt: Investigação e disciplinas científicas
+    definition: The history of scientific study of Madeira, expeditions, herbaria and collections, or a scientific discipline
+      as applied to Madeira.
+    examples:
+    - Expedições Cientificas
+    - Herbários
+    - Madeira (Antropologia)
+    - Atlantida (Ilha)
+  - code: science.medicine
+    label_en: Medicine and public health
+    label_pt: Medicina e saúde pública
+    definition: Diseases, climatotherapy, hygiene, sanitation and public health as learned medicine (folk remedies are culture.folk_medicine).
+    examples:
+    - Doenças
+    - Tracoma
+    - Sanatórios da Madeira
+    - Laboratório de Bacteriologia e Higiene
+- code: meta
+  label_en: Editorial and reference
+  label_pt: Editorial e referência
+  definition: Entries whose function is navigational or editorial rather than descriptive of a single subject.
+  subtypes:
+  - code: meta.cross_reference
+    label_en: Cross-reference
+    label_pt: Remissão
+    definition: An entry whose content is essentially a pointer ("Vid. ...") to one or more other entries; add the target's
+      type as secondary where clear.
+    examples:
+    - Paisagens
+    - Alvim
+    - Dizimos
+    - Madeira (Geologia)
+  - code: meta.list
+    label_en: List or bibliography
+    label_pt: Lista ou bibliografia
+    definition: An entry that is chiefly an enumeration (bibliography, list of office-holders or of items) with little running
+      text.
+    examples:
+    - Bibliografia
+    - Ministros de Estado
+    - Associações de Classe
+  - code: meta.overview
+    label_en: Survey or overview article
+    label_pt: Artigo de síntese
+    definition: A survey article spanning many subjects, usually a "Madeira (…)" umbrella entry that summarises and points
+      to other entries.
+    examples:
+    - Madeira (Arquipélago da)
+    - Madeira (História da)
+    - Madeira (Calamidades Públicas)
+    - Madeira (Indústrias da)
+  - code: meta.front_matter
+    label_en: Front matter
+    label_pt: Preliminares
+    definition: Prefaces, introductions and other editorial matter outside the alphabetical sequence.
+    examples:
+    - '[Front matter]'
 facets:
   person_roles:
-    - {code: priest, label_en: "Priest, canon or missionary", label_pt: "Padre, cónego ou missionário"}
-    - {code: bishop, label_en: "Bishop", label_pt: "Bispo"}
-    - {code: religious_order_member, label_en: "Friar, nun or Jesuit", label_pt: "Frade, freira ou jesuíta"}
-    - {code: donatary_captain, label_en: "Captain-donatary", label_pt: "Capitão-donatário"}
-    - {code: governor, label_en: "Governor", label_pt: "Governador"}
-    - {code: civil_servant, label_en: "Civil servant or municipal official", label_pt: "Funcionário público ou municipal"}
-    - {code: jurist, label_en: "Magistrate, judge or lawyer", label_pt: "Magistrado, juiz ou advogado"}
-    - {code: diplomat, label_en: "Diplomat or consul", label_pt: "Diplomata ou cônsul"}
-    - {code: politician, label_en: "Deputy or politician", label_pt: "Deputado ou político"}
-    - {code: military_officer, label_en: "Army officer or soldier", label_pt: "Oficial do exército ou soldado"}
-    - {code: naval_officer, label_en: "Naval officer, navigator or explorer", label_pt: "Oficial de marinha, navegador ou explorador"}
-    - {code: writer, label_en: "Writer", label_pt: "Escritor"}
-    - {code: poet, label_en: "Poet", label_pt: "Poeta"}
-    - {code: journalist, label_en: "Journalist or editor", label_pt: "Jornalista ou redator"}
-    - {code: historian, label_en: "Historian, chronicler or genealogist", label_pt: "Historiador, cronista ou genealogista"}
-    - {code: teacher, label_en: "Teacher or professor", label_pt: "Professor"}
-    - {code: naturalist, label_en: "Naturalist or scientist", label_pt: "Naturalista ou cientista"}
-    - {code: physician, label_en: "Physician, surgeon or pharmacist", label_pt: "Médico, cirurgião ou farmacêutico"}
-    - {code: engineer, label_en: "Engineer or cartographer", label_pt: "Engenheiro ou cartógrafo"}
-    - {code: artist, label_en: "Painter, sculptor or architect", label_pt: "Pintor, escultor ou arquiteto"}
-    - {code: musician, label_en: "Musician or composer", label_pt: "Músico ou compositor"}
-    - {code: merchant, label_en: "Merchant, industrialist or banker", label_pt: "Comerciante, industrial ou banqueiro"}
-    - {code: landowner, label_en: "Landowner or morgado", label_pt: "Proprietário ou morgado"}
-    - {code: philanthropist, label_en: "Philanthropist or benefactor", label_pt: "Filantropo ou benfeitor"}
-    - {code: noble, label_en: "Noble, titleholder or royalty", label_pt: "Nobre, titular ou realeza"}
-    - {code: settler, label_en: "Early settler or founder", label_pt: "Povoador ou fundador"}
-    - {code: foreign_visitor, label_en: "Foreign visitor or traveller", label_pt: "Visitante ou viajante estrangeiro"}
-    - {code: foreign_resident, label_en: "Foreign resident", label_pt: "Residente estrangeiro"}
-    - {code: emigrant, label_en: "Madeiran abroad or emigrant", label_pt: "Madeirense no exterior ou emigrante"}
-    - {code: political_prisoner, label_en: "Political prisoner, exile or deportee", label_pt: "Preso político, exilado ou deportado"}
-
+  - code: priest
+    label_en: Priest, canon or missionary
+    label_pt: Padre, cónego ou missionário
+  - code: bishop
+    label_en: Bishop
+    label_pt: Bispo
+  - code: religious_order_member
+    label_en: Friar, nun or Jesuit
+    label_pt: Frade, freira ou jesuíta
+  - code: donatary_captain
+    label_en: Captain-donatary
+    label_pt: Capitão-donatário
+  - code: governor
+    label_en: Governor
+    label_pt: Governador
+  - code: civil_servant
+    label_en: Civil servant or municipal official
+    label_pt: Funcionário público ou municipal
+  - code: jurist
+    label_en: Magistrate, judge or lawyer
+    label_pt: Magistrado, juiz ou advogado
+  - code: diplomat
+    label_en: Diplomat or consul
+    label_pt: Diplomata ou cônsul
+  - code: politician
+    label_en: Deputy or politician
+    label_pt: Deputado ou político
+  - code: military_officer
+    label_en: Army officer or soldier
+    label_pt: Oficial do exército ou soldado
+  - code: naval_officer
+    label_en: Naval officer, navigator or explorer
+    label_pt: Oficial de marinha, navegador ou explorador
+  - code: writer
+    label_en: Writer
+    label_pt: Escritor
+  - code: poet
+    label_en: Poet
+    label_pt: Poeta
+  - code: journalist
+    label_en: Journalist or editor
+    label_pt: Jornalista ou redator
+  - code: historian
+    label_en: Historian, chronicler or genealogist
+    label_pt: Historiador, cronista ou genealogista
+  - code: teacher
+    label_en: Teacher or professor
+    label_pt: Professor
+  - code: naturalist
+    label_en: Naturalist or scientist
+    label_pt: Naturalista ou cientista
+  - code: physician
+    label_en: Physician, surgeon or pharmacist
+    label_pt: Médico, cirurgião ou farmacêutico
+  - code: engineer
+    label_en: Engineer or cartographer
+    label_pt: Engenheiro ou cartógrafo
+  - code: artist
+    label_en: Painter, sculptor or architect
+    label_pt: Pintor, escultor ou arquiteto
+  - code: musician
+    label_en: Musician or composer
+    label_pt: Músico ou compositor
+  - code: merchant
+    label_en: Merchant, industrialist or banker
+    label_pt: Comerciante, industrial ou banqueiro
+  - code: landowner
+    label_en: Landowner or morgado
+    label_pt: Proprietário ou morgado
+  - code: philanthropist
+    label_en: Philanthropist or benefactor
+    label_pt: Filantropo ou benfeitor
+  - code: noble
+    label_en: Noble, titleholder or royalty
+    label_pt: Nobre, titular ou realeza
+  - code: settler
+    label_en: Early settler or founder
+    label_pt: Povoador ou fundador
+  - code: foreign_visitor
+    label_en: Foreign visitor or traveller
+    label_pt: Visitante ou viajante estrangeiro
+  - code: foreign_resident
+    label_en: Foreign resident
+    label_pt: Residente estrangeiro
+  - code: emigrant
+    label_en: Madeiran abroad or emigrant
+    label_pt: Madeirense no exterior ou emigrante
+  - code: political_prisoner
+    label_en: Political prisoner, exile or deportee
+    label_pt: Preso político, exilado ou deportado
 rules:
-  - "Classify by what the entry IS, not what the text mostly talks about: a parish entry that is mostly church history is still place.parish (add building.church or event.historical as secondary)."
-  - "Primary type first, then at most two secondaries; add a secondary only if it would be a useful filter for readers (not for every passing mention)."
-  - "Cross-references (kind=cross_reference, or text essentially 'Vid. X') always get meta.cross_reference as primary; add the target's type as secondary when it is unambiguous."
-  - "Persons: choose the subtype from the role that made them notable in the Elucidário; record every other role in facets.person_roles. A person notable only for having written a book on Madeira is person.writer if Madeiran/Portuguese, person.visitor if foreign."
-  - "Foreigners with a professional role on the island (physician, merchant, naturalist, consul) take that role subtype, with foreign_resident or foreign_visitor in person_roles."
-  - "person.governor is for heads of the territory or a captaincy (donatários, governors, captains-general, civil governors); lower officials are person.official; elected roles are person.politician. For clergy who governed (bishop-governors), use person.clergy with governor in person_roles."
-  - "person.family covers surnames, lineages and noble titles; an individual titleholder (e.g. '1º Conde de X') is classified by role, with noble in person_roles."
-  - "Organisms: a species is organism.<taxon> even if the text is mostly about its economic use; add economy.product/agriculture/fishing as secondary. Named crop varieties (grape castas, wheat varieties) are organism.cultivar."
-  - "Buildings versus institutions: a convent, hospital or school described as a building/site is building.*; as an organisation with members, statutes or staff it is institution.*. If both, the headword decides (e.g. 'Convento de X' -> building.convent; 'Escola X' -> institution.school)."
-  - "Places versus structures: quintas and levadas are place.*; quays, lighthouses and forts are building.*; roads as individual named streets are place.street, but the road network is economy.infrastructure."
-  - "Compound entries take the type of their subject (e.g. 'Ribeiras' -> place.stream); add meta.list only when the parent is little more than a list of its children."
-  - "Offices versus people: an entry on an office with its list of holders is administration.office, not person.*."
-  - "Use meta.overview only for umbrella/survey entries spanning several classes; a general entry on one class (e.g. 'Fauna', 'Clima') uses that class's subtype."
-  - "Prefer a non-meta secondary on meta.* entries whenever the subject is clear (e.g. 'Dizimos' -> meta.cross_reference, administration.tax), so topical filters still find them."
+- 'Classify by what the entry IS, not what the text mostly talks about: a parish entry that is mostly church history is still
+  place.parish (add building.church or event.historical as secondary).'
+- Primary type first, then at most two secondaries; add a secondary only if it would be a useful filter for readers (not for
+  every passing mention).
+- Cross-references (kind=cross_reference, or text essentially 'Vid. X') always get meta.cross_reference as primary; add the
+  target's type as secondary when it is unambiguous.
+- 'Persons: choose the subtype from the role that made them notable in the Elucidário; record every other role in facets.person_roles.
+  A person notable only for having written a book on Madeira is person.writer if Madeiran/Portuguese, person.visitor if foreign.'
+- Foreigners with a professional role on the island (physician, merchant, naturalist, consul) take that role subtype, with
+  foreign_resident or foreign_visitor in person_roles.
+- person.governor is for heads of the territory or a captaincy (donatários, governors, captains-general, civil governors);
+  lower officials are person.official; elected roles are person.politician. For clergy who governed (bishop-governors), use
+  person.clergy with governor in person_roles.
+- person.family covers surnames, lineages and noble titles; an individual titleholder (e.g. '1º Conde de X') is classified
+  by role, with noble in person_roles.
+- 'Organisms: a species is organism.<taxon> even if the text is mostly about its economic use; add economy.product/agriculture/fishing
+  as secondary. Named crop varieties (grape castas, wheat varieties) are organism.cultivar.'
+- 'Buildings versus institutions: a convent, hospital or school described as a building/site is building.*; as an organisation
+  with members, statutes or staff it is institution.*. If both, the headword decides (e.g. ''Convento de X'' -> building.convent;
+  ''Escola X'' -> institution.school).'
+- 'Places versus structures: quintas and levadas are place.*; quays, lighthouses and forts are building.*; roads as individual
+  named streets are place.street, but the road network is economy.infrastructure.'
+- Compound entries take the type of their subject (e.g. 'Ribeiras' -> place.stream); add meta.list only when the parent is
+  little more than a list of its children.
+- 'Offices versus people: an entry on an office with its list of holders is administration.office, not person.*.'
+- Use meta.overview only for umbrella/survey entries spanning several classes; a general entry on one class (e.g. 'Fauna',
+  'Clima') uses that class's subtype.
+- Prefer a non-meta secondary on meta.* entries whenever the subject is clear (e.g. 'Dizimos' -> meta.cross_reference, administration.tax),
+  so topical filters still find them.
+- Sub-entries (children of umbrella articles) are classified on their own content; the parent link records the grouping.
+- 'Foreign authors known only from their works: use the profession-based subtype when stated (e.g. a botanist is person.scientist)
+  and add the foreign_visitor role; use person.visitor only when no profession is known.'
+- Headwords naming several features at once (e.g. 'Pontinha (Sítio, Estrada, Ilhéus e Molhe da)') stay one article with up
+  to 3 types; each named feature is recorded as its own place in the knowledge base.
+status: approved 2026-09-26
