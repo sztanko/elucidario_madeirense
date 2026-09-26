@@ -1,3 +1,34 @@
+[project]
+name = "elucidario"
+version = "0.1.0"
+description = "Extraction, enrichment and translation-preparation pipeline for the Elucidário Madeirense"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "pymupdf>=1.24",
+    "anthropic>=0.60",
+    "pydantic>=2.7",
+    "rapidfuzz>=3.9",
+    "pyuca>=1.2",
+    "pyahocorasick>=2.1",
+    "spylls>=0.1.7",
+    "httpx>=0.27",
+    "shapely>=2.0",
+    "typer>=0.12",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+elu = "elucidario.cli:app"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["elucidario"]
+
 [tool.black]
 line-length = 120
 
+[tool.ruff]
+line-length = 120

@@ -12,3 +12,8 @@ submit_log
 
 # dependencies
 node_modules
+# pipeline
+data/cache/
+data/ledger.jsonl
+*.sqlite
+data/01_layout/

@@ -1,0 +1,1136 @@
+{
+ "legacy_unmatched": [
+  [
+   "Antropologia.",
+   "madeira antropologia",
+   75
+  ],
+  [
+   "Assembleia dos Unicos do Funchal.\nAssistência a Crianças Fracas.",
+   "assembleia dos unicos do funchal",
+   70
+  ],
+  [
+   "Aula de Desenho e Pintura.\nAulas secundarias.",
+   "aula de desenho e pintura",
+   74
+  ],
+  [
+   "Açougue. (Ribeiro do)",
+   "alcaide ribeiro do",
+   78
+  ],
+  [
+   "Barbuzano. Sítio da freguesia da Tabua",
+   "tabua freguesia da",
+   62
+  ],
+  [
+   "Campo do Duque. A Ordem de Cristo (V. este nome)",
+   "ordem de cristo",
+   64
+  ],
+  [
+   "Capitãis-donatarios.\n\nCapitãis-generais.",
+   "capitais donatarios",
+   68
+  ],
+  [
+   "Cardot (J.) E.",
+   "charcot jean",
+   73
+  ],
+  [
+   "Castanheira (Pôrto da). Pequeno pôrto situado a oeste da Deserta Grande.",
+   "camara de lobos porto cais e enseada de",
+   55
+  ],
+  [
+   "Chicharos. Sitio da freguesia do Faial",
+   "porto santo freguesia do",
+   62
+  ],
+  [
+   "Companhias Vinicolas.\n\n\nComunicações com a Metropole.",
+   "comunicacoes com a metropole",
+   73
+  ],
+  [
+   "Conceição de Cima (Igreja da).\n\nConceição e Sousa (José Elias da)",
+   "conceicao e sousa jose elias da",
+   69
+  ],
+  [
+   "Epanaphoras. Epidemias.",
+   "epanaphoras",
+   69
+  ],
+  [
+   "Escudeiro (João). Foi o primeiro que na Madeira usou este apelido. V. Bemposta.",
+   "desacato e roubo na igreja do estreito",
+   51
+  ],
+  [
+   "Faial (Freguesia do). Da faia (Myrica Faya)",
+   "faial freguesia do",
+   64
+  ],
+  [
+   "Fosseis. folhas e Linhite.",
+   "freitas jose vicente de",
+   55
+  ],
+  [
+   "Gaio. V",
+   "gaio",
+   80
+  ],
+  [
+   "Gaivota",
+   "gaio",
+   73
+  ],
+  [
+   "Gavião",
+   "gaio",
+   80
+  ],
+  [
+   "Gordon (C. A.)",
+   "gordo pico",
+   70
+  ],
+  [
+   "Grey (H.)",
+   "gray j e",
+   57
+  ],
+  [
+   "Hagen (Dr. O.)",
+   "gagel dr c",
+   70
+  ],
+  [
+   "Hann",
+   "hinton",
+   60
+  ],
+  [
+   "Hartwig (W.)",
+   "canning w p",
+   50
+  ],
+  [
+   "Kerhallet (C. Ph. J.)",
+   "neale rev j m",
+   48
+  ],
+  [
+   "Kny (",
+   "blandy",
+   44
+  ],
+  [
+   "Louros. Sítio povoado da freguesia de São Gonçalo",
+   "porto do moniz freguesia do",
+   56
+  ],
+  [
+   "Malcolm",
+   "alcool",
+   77
+  ],
+  [
+   "Monteiro (José Maria)",
+   "moniz joao maria",
+   74
+  ],
+  [
+   "Ornitologia",
+   "fenologia",
+   70
+  ],
+  [
+   "Papaia",
+   "acacia",
+   67
+  ],
+  [
+   "Peacock (G)",
+   "palco o",
+   62
+  ],
+  [
+   "Pitão",
+   "pinto",
+   80
+  ],
+  [
+   "Poemas",
+   "profetas",
+   71
+  ],
+  [
+   "Pommer – Esc",
+   "pommer esc kalharina",
+   67
+  ],
+  [
+   "Ponta Delgada (Freguesia da )",
+   "ponta do sol freguesia da",
+   82
+  ],
+  [
+   "Porto Santo",
+   "porto novo",
+   76
+  ],
+  [
+   "Poço Novo (Rua do )",
+   "ponte nova rua da",
+   73
+  ],
+  [
+   "Sardinha (Clupea plichardus)",
+   "sardinha padre alfredo de paula",
+   56
+  ],
+  [
+   "Surpresa",
+   "surprise",
+   75
+  ],
+  [
+   "Sá Cardoso (Alfredo Ernesto de)",
+   "magalhaes dr jose alfredo mendes de",
+   66
+  ],
+  [
+   "Tangerineira, v. Laranjeira. \n\nTarolo (E.).",
+   "tangerineira v laranjeira",
+   85
+  ],
+  [
+   "Tesouros. Thompson (I. C)",
+   "thompson i c",
+   73
+  ],
+  [
+   "Távora",
+   "aurora",
+   67
+  ],
+  [
+   "Vaz (Padre Fernando Carlos de Meneses )",
+   "pereira padre eduardo clemente nunes",
+   61
+  ],
+  [
+   "Vid. Filoxera, Mangra, Mildio e Vinhos",
+   "front matter",
+   0
+  ],
+  [
+   "Vid. Junta Agrícola, Passada da Novilha, Smith e Weltwisch",
+   "front matter",
+   0
+  ],
+  [
+   "Vid. Lauráceas",
+   "front matter",
+   0
+  ],
+  [
+   "Vid. Monumentos (II-393)",
+   "front matter",
+   0
+  ],
+  [
+   "Wilkes (Tenente Carlos )",
+   "mac euen carlos",
+   61
+  ],
+  [
+   "Wuellerstorf-Urbair (Comodoro)",
+   "conselheiro rua do",
+   48
+  ]
+ ],
+ "new_only": [
+  [
+   "[Front matter]",
+   0,
+   "front_matter"
+  ],
+  [
+   "Abacateiro (Persea gratíssima, Gartn",
+   0,
+   "type_start"
+  ],
+  [
+   "Alçada de 1823",
+   1,
+   "hidden"
+  ],
+  [
+   "Alçada de 1828",
+   1,
+   "hidden"
+  ],
+  [
+   "Alfândega de Santa Cruz",
+   1,
+   "hidden"
+  ],
+  [
+   "Alfândega de Machico",
+   1,
+   "hidden"
+  ],
+  [
+   "Alfândega do Porto Santo",
+   1,
+   "hidden"
+  ],
+  [
+   "Alma Académica",
+   0,
+   "hidden"
+  ],
+  [
+   "Alma Nova",
+   0,
+   "hidden"
+  ],
+  [
+   "Almotacés",
+   0,
+   "hidden"
+  ],
+  [
+   "Analise de águas",
+   0,
+   "hidden"
+  ],
+  [
+   "Anatole France",
+   0,
+   "hidden"
+  ],
+  [
+   "Andrade Corvo (João de)",
+   0,
+   "type_start"
+  ],
+  [
+   "Arco de São Jorge (Freguesia do)",
+   0,
+   "hidden"
+  ],
+  [
+   "Árvores e Arbustos",
+   0,
+   "hidden"
+  ],
+  [
+   "Assembleia dos Unicos do Funchal",
+   0,
+   "type_start"
+  ],
+  [
+   "Aula de Desenho e Pintura",
+   0,
+   "type_start"
+  ],
+  [
+   "Barbuzano",
+   0,
+   "type_start"
+  ],
+  [
+   "Barreiro (Montado do)",
+   0,
+   "hidden"
+  ],
+  [
+   "Bettencourt",
+   0,
+   "hidden"
+  ],
+  [
+   "Bispos Madeirenses",
+   0,
+   "hidden"
+  ],
+  [
+   "Boga (Box boops)",
+   0,
+   "hidden"
+  ],
+  [
+   "Boqueirão (Smaris insidiator)",
+   0,
+   "hidden"
+  ],
+  [
+   "Boqueirão de São Lourenço",
+   0,
+   "hidden"
+  ],
+  [
+   "Bordalo (Francisco Maria)",
+   0,
+   "hidden"
+  ],
+  [
+   "Borges (Vasco)",
+   0,
+   "type_start"
+  ],
+  [
+   "Bornmuller (P.)",
+   0,
+   "type_start"
+  ],
+  [
+   "Brotas (Capelas das)",
+   0,
+   "hidden"
+  ],
+  [
+   "Cais em frente da entrada da Cidade",
+   1,
+   "hidden"
+  ],
+  [
+   "Cais na Ilha do Porto Santo",
+   1,
+   "hidden"
+  ],
+  [
+   "Caldeirão Verde",
+   0,
+   "hidden"
+  ],
+  [
+   "Câmara (Jaime Sanches)",
+   0,
+   "hidden"
+  ],
+  [
+   "Câmara Pestana (Dr. Luiz da)",
+   0,
+   "type_start"
+  ],
+  [
+   "Caminho de Ferro Americano",
+   0,
+   "hidden"
+  ],
+  [
+   "Campo do Duque",
+   0,
+   "type_start"
+  ],
+  [
+   "Capitãis-donatarios",
+   0,
+   "type_start"
+  ],
+  [
+   "Capitãis-generais",
+   0,
+   "type_start"
+  ],
+  [
+   "Castanheira (Pôrto da)",
+   0,
+   "type_start"
+  ],
+  [
+   "Companhias Vinicolas",
+   0,
+   "type_start"
+  ],
+  [
+   "Comunicações com a Metropole",
+   0,
+   "type_start"
+  ],
+  [
+   "Conceição de Cima (Igreja da)",
+   0,
+   "type_start"
+  ],
+  [
+   "Conceição e Sousa (José Elias da)",
+   0,
+   "type_start"
+  ],
+  [
+   "Convento das Mercês",
+   0,
+   "hidden"
+  ],
+  [
+   "Convento de São Bernardino",
+   0,
+   "hidden"
+  ],
+  [
+   "Correntes Maritimas",
+   0,
+   "type_start"
+  ],
+  [
+   "Corrico",
+   0,
+   "type_start"
+  ],
+  [
+   "Coruja (Strix flammea)",
+   0,
+   "type_start"
+  ],
+  [
+   "Costa (D. Rodrigo da)",
+   0,
+   "hidden"
+  ],
+  [
+   "Deado",
+   0,
+   "hidden"
+  ],
+  [
+   "Diário da Madeira",
+   0,
+   "hidden"
+  ],
+  [
+   "Donatarios",
+   0,
+   "hidden"
+  ],
+  [
+   "Donativo",
+   0,
+   "hidden"
+  ],
+  [
+   "Elementos para a História Madeirense",
+   0,
+   "type_start"
+  ],
+  [
+   "Emigrados Espanhóis",
+   0,
+   "hidden"
+  ],
+  [
+   "Epanaphoras",
+   0,
+   "type_start"
+  ],
+  [
+   "Epidemias",
+   0,
+   "type_start"
+  ],
+  [
+   "Escola de Utilidades e Belas Artes",
+   0,
+   "hidden"
+  ],
+  [
+   "Escravos",
+   0,
+   "type_start"
+  ],
+  [
+   "Escudeiro (João)",
+   0,
+   "type_start"
+  ],
+  [
+   "Estrada e Ponte monumental",
+   0,
+   "hidden"
+  ],
+  [
+   "Expedições Cientificas",
+   0,
+   "type_start"
+  ],
+  [
+   "Fajãzinha de Bento",
+   0,
+   "hidden"
+  ],
+  [
+   "Falgairolle (Edmond)",
+   0,
+   "hidden"
+  ],
+  [
+   "Fanal",
+   0,
+   "hidden"
+  ],
+  [
+   "Feiticeiro do Norte",
+   0,
+   "hidden"
+  ],
+  [
+   "Filoxera",
+   0,
+   "hidden"
+  ],
+  [
+   "Flora",
+   0,
+   "hidden"
+  ],
+  [
+   "Florença",
+   0,
+   "hidden"
+  ],
+  [
+   "Florosa",
+   0,
+   "hidden"
+  ],
+  [
+   "Focinho de Burro",
+   0,
+   "hidden"
+  ],
+  [
+   "Fogo do Céu",
+   0,
+   "hidden"
+  ],
+  [
+   "Fosforescência do Mar",
+   0,
+   "hidden"
+  ],
+  [
+   "Fosseis",
+   0,
+   "type_start"
+  ],
+  [
+   "Fowler (R)",
+   0,
+   "type_start"
+  ],
+  [
+   "Funchal (Baía do)",
+   0,
+   "type_start"
+  ],
+  [
+   "Gados",
+   0,
+   "type_start"
+  ],
+  [
+   "Gafanhotos",
+   0,
+   "type_start"
+  ],
+  [
+   "Gaio",
+   0,
+   "type_start"
+  ],
+  [
+   "Gonçalves (Moisés)",
+   0,
+   "type_start"
+  ],
+  [
+   "Gouveia (João)",
+   0,
+   "type_start"
+  ],
+  [
+   "Governadores Militares",
+   0,
+   "type_start"
+  ],
+  [
+   "Granel do Poço",
+   0,
+   "type_start"
+  ],
+  [
+   "Incêndio no tempo de Zargo",
+   1,
+   "hidden"
+  ],
+  [
+   "Incêndio em 1919",
+   1,
+   "hidden"
+  ],
+  [
+   "Inclinação Magnética",
+   0,
+   "type_start"
+  ],
+  [
+   "Kny (Dr. Leopoldo)",
+   0,
+   "type_start"
+  ],
+  [
+   "La Pèrouse (João Franscisco Galaup de)",
+   0,
+   "type_start"
+  ],
+  [
+   "Levada de Santa Luzia (Estrada da)",
+   0,
+   "type_start"
+  ],
+  [
+   "Louro Régio (Viburnum Tinus)",
+   0,
+   "type_start"
+  ],
+  [
+   "Malcolm Burr",
+   0,
+   "type_start"
+  ],
+  [
+   "Medalha do Monumento Constitucional",
+   1,
+   "hidden"
+  ],
+  [
+   "Medalhas de Exposições",
+   1,
+   "hidden"
+  ],
+  [
+   "Medalha comemorativa da visita regia",
+   1,
+   "hidden"
+  ],
+  [
+   "Medalha comemorativa da defesa do Funchal",
+   1,
+   "hidden"
+  ],
+  [
+   "Asma",
+   1,
+   "type_start"
+  ],
+  [
+   "Bronquites, tosses e defluxos",
+   1,
+   "type_start"
+  ],
+  [
+   "Desmaios ou sincopes",
+   1,
+   "type_start"
+  ],
+  [
+   "Monóculo (0)",
+   0,
+   "type_start"
+  ],
+  [
+   "Mourão Pita (Dr. César Augusto)",
+   0,
+   "type_start"
+  ],
+  [
+   "Mousinho de Albuquerque",
+   0,
+   "type_start"
+  ],
+  [
+   "Murrão da Cevada (Ustilago Hordei)",
+   0,
+   "type_start"
+  ],
+  [
+   "Napoleão (Príncipe Eugénio)",
+   0,
+   "hidden"
+  ],
+  [
+   "[Front matter]",
+   0,
+   "front_matter"
+  ],
+  [
+   "Papaia (Carica Papaya)",
+   0,
+   "type_start"
+  ],
+  [
+   "Pitão Grande",
+   0,
+   "type_start"
+  ],
+  [
+   "Poço Novo",
+   0,
+   "type_start"
+  ],
+  [
+   "Poemas sobre a Madeira",
+   0,
+   "type_start"
+  ],
+  [
+   "Pommer – Esc. (Kalharina)",
+   0,
+   "type_start"
+  ],
+  [
+   "Ponta Delgada",
+   0,
+   "type_start"
+  ],
+  [
+   "Preços em 1914",
+   1,
+   "hidden"
+  ],
+  [
+   "Preços em 1923",
+   1,
+   "hidden"
+  ],
+  [
+   "Procissão da Cinza",
+   1,
+   "hidden"
+  ],
+  [
+   "Procissão de Santa Bárbara",
+   1,
+   "hidden"
+  ],
+  [
+   "Procissão do Triunfo",
+   1,
+   "hidden"
+  ],
+  [
+   "Procissão votiva de 9 de Outubro",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira de Machico",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Boaventura",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira do Porto Novo",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Caniço",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira de Gonçalo Aires",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira de João Gomes",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira de S. João",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira do Vigario",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira do Campanário",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira Brava",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Tabua",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Ponta do Sol",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Madalena",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Serra de Água da Calheta",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Calheta",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira de S. Bartolomeu",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira Funda",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira Seca",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira dos Marinheiros",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira dos Moinhos",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Cruz",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira do Tristão",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Janela",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira do Seixal",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira de S. Vicente",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira dos Moinhos",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira da Boaventura",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira de S. Jorge",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira do Faial",
+   1,
+   "hidden"
+  ],
+  [
+   "Ribeira do Porto da Cruz",
+   1,
+   "hidden"
+  ],
+  [
+   "Surprise",
+   0,
+   "type_start"
+  ],
+  [
+   "Tangerineira, v. Laranjeira",
+   0,
+   "type_start"
+  ],
+  [
+   "Tarolo (E.)",
+   0,
+   "type_start"
+  ],
+  [
+   "Távora (D. Lourenço de)",
+   0,
+   "type_start"
+  ],
+  [
+   "Teixeira (Cónego Feliciano João)",
+   0,
+   "hidden"
+  ],
+  [
+   "Terços",
+   0,
+   "hidden"
+  ],
+  [
+   "Termo",
+   0,
+   "hidden"
+  ],
+  [
+   "Tesouros",
+   0,
+   "type_start"
+  ],
+  [
+   "Thompson (I. C)",
+   0,
+   "type_start"
+  ],
+  [
+   "Toninha",
+   0,
+   "hidden"
+  ],
+  [
+   "Trigo barbela",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo de Rieti",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo anafil",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo de palha roxa",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo mangalhão",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo mocho",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo canoco",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo canhoto",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo americano",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo Alexandre",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo vermelho",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo amarelo",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo de cabeça preta",
+   1,
+   "hidden"
+  ],
+  [
+   "Trigo branco",
+   1,
+   "hidden"
+  ],
+  [
+   "Unificação da Moeda",
+   0,
+   "hidden"
+  ],
+  [
+   "Negro",
+   1,
+   "type_start"
+  ],
+  [
+   "Castellão",
+   1,
+   "type_start"
+  ],
+  [
+   "Vinho de Canteiro",
+   0,
+   "type_start"
+  ],
+  [
+   "Vinho de Roda",
+   0,
+   "type_start"
+  ],
+  [
+   "Wilkes",
+   0,
+   "type_start"
+  ]
+ ]
+}

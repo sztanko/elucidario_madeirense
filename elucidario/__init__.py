@@ -1,0 +1,1 @@
+"""Elucidário Madeirense pipeline."""

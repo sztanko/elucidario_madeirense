@@ -1,0 +1,983 @@
+# Review decisions for data/02_segments/review_packet.jsonl (197 items, 196 unique cids)
+# cid b49934be83a7 occurs twice (vol.2 duplicates of Eça (João Fogaça de)); both occurrences rejected.
+
+3567a0650815:  # #0 v1 Abastecimento de águas da cidade
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+5e7757312d70:  # #1 v1 Açougue. (Ribeiro do)
+  decision: article
+  parent: null
+  head_fix: "Açougue (Ribeiro do)"
+  note: "standalone stream entry; stray period in head; loose ordering"
+b8cd0b2b4d92:  # #2 v1 Alçada de 1823
+  decision: subarticle
+  parent: "Alçadas"
+  head_fix: null
+  note: "continues the chronological list of alçadas"
+007c772cda93:  # #3 v1 Alçada de 1828
+  decision: subarticle
+  parent: "Alçadas"
+  head_fix: null
+  note: "continues the chronological list of alçadas"
+d389d50abbac:  # #4 v1 Alfândega de Santa Cruz
+  decision: subarticle
+  parent: "Alfândegas"
+  head_fix: null
+  note: "individual customs house inside Alfândegas"
+b592b1a7a154:  # #5 v1 Alfândega de Machico
+  decision: subarticle
+  parent: "Alfândegas"
+  head_fix: null
+  note: "individual customs house inside Alfândegas"
+744da8c52149:  # #6 v1 Alfândega do Porto Santo
+  decision: subarticle
+  parent: "Alfândegas"
+  head_fix: null
+  note: "individual customs house inside Alfândegas"
+ec52dca295dc:  # #7 v1 Alma Académica
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+43d6c3f0df49:  # #8 v1 Alma Nova
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+2e23705f5c2d:  # #9 v1 Almotacés
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+c482337a4af0:  # #10 v1 Analise de águas
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+89b70e3013dc:  # #11 v1 Anatole France
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+2b6eb17d4da1:  # #12 v1 Antropologia
+  decision: article
+  parent: null
+  head_fix: null
+  note: "cross-reference entry (Antropologia. V. Madeira); slightly out of order"
+ef66e8253b95:  # #13 v1 Arcebispado do Funchal
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+2ae9122fad8e:  # #14 v1 Arco de São Jorge (Freguesia do)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "parish entry following Arco da Calheta"
+ce1dea22ef97:  # #15 v1 Armas
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+58518d788f35:  # #16 v1 Árvores e Arbustos
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+d6cb2d8c093c:  # #17 v1 Assobiadouro
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+392b5352b82c:  # #18 v1 Bancos
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+b35dc987371e:  # #19 v1 Barreiro (Montado do)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+7e05c3d41f72:  # #20 v1 Bettencourt
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+968736fb98fc:  # #21 v1 Bispos Madeirenses
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+8c6ec631a178:  # #22 v1 Boga (Box boops)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+0d506a5cb7da:  # #23 v1 Boqueirão (Smaris insidiator)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+04558a056cf8:  # #24 v1 Boqueirão de São Lourenço
+  decision: article
+  parent: null
+  head_fix: null
+  note: "short standalone place entry (synonym of Boqueirão Grande)"
+f46cfb76f598:  # #25 v1 Bordalo (Francisco Maria)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+32ea955c8bb6:  # #26 v1 Brotas (Capelas das)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+c4d3ff06ccf1:  # #27 v1 Cabos
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+b95ef707a814:  # #28 v1 Cais em frente da entrada da Cidade
+  decision: subarticle
+  parent: "Cais"
+  head_fix: null
+  note: "Cais article enumerates 26 individual quays"
+4817ee5eb364:  # #29 v1 Cais do Porto da Cruz
+  decision: subarticle
+  parent: "Cais"
+  head_fix: null
+  note: "individual quay inside Cais list"
+b91b325d0c3c:  # #30 v1 Cais na Ilha do Porto Santo
+  decision: subarticle
+  parent: "Cais"
+  head_fix: null
+  note: "individual quay inside Cais list"
+05c01c35be2e:  # #31 v1 Caldeirão Verde
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+3253babb87b9:  # #32 v1 Câmara (Jaime Sanches)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+39da3450837a:  # #33 v1 Caminho de Ferro Americano
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+848f92ffef40:  # #34 v1 Canárias
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+48abe9e6b5c9:  # #35 v1 Caranguejo Judeu (Grapsus Webbi)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+2c226fa4876f:  # #36 v1 Gazella
+  decision: article
+  parent: null
+  head_fix: "Cazella"
+  note: "musician entry; placed between Cavalum and Cebola so initial G is likely OCR for C; verify spelling"
+5bd48cb2c4b2:  # #37 v1 Ventos
+  decision: subarticle
+  parent: "Clima"
+  head_fix: null
+  note: "section on winds inside the long Clima article (after fog/humidity)"
+87504829f737:  # #38 v1 Novo Clube Restauração
+  decision: subarticle
+  parent: "Clubes"
+  head_fix: null
+  note: "individual club inside Clubes list"
+af2dae255a3f:  # #39 v1 Turf Club
+  decision: subarticle
+  parent: "Clubes"
+  head_fix: null
+  note: "individual club inside Clubes list"
+f33cf164b57b:  # #40 v1 Stranger’s Club (Casino Pavão)
+  decision: subarticle
+  parent: "Clubes"
+  head_fix: null
+  note: "individual club inside Clubes list"
+e96deae10539:  # #41 v1 The Sports Club
+  decision: subarticle
+  parent: "Clubes"
+  head_fix: null
+  note: "individual club inside Clubes list"
+0caf9609ff46:  # #42 v1 Concharéu (Patella vulgata, var. Candei)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+b64035b57c1e:  # #43 v1 Convento das Mercês
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+c9f6d8ad9db6:  # #44 v1 Convento de São Bernardino
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+1e0033b6a320:  # #45 v1 Costa (D. Rodrigo da)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+500b28b88450:  # #46 v1 Costa do Sul
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+df3b00ed6101:  # #47 v1 Costumes antigos
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+ea69155e7bf1:  # #48 v1 Deado
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+572155eb0ef8:  # #49 v1 Diário da Madeira
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+a356eebf85b0:  # #50 v1 Donatarios
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+bbf950dfd208:  # #51 v1 Donativo
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+844cfd7e5148:  # #52 v1 Emigrados Espanhóis
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+15e0ab2ff6f7:  # #53 v1 Escola de Utilidades e Belas Artes
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+c75c27f8f62f:  # #54 v1 Estrada e Ponte monumental
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+ff8084d8d87d:  # #55 v2 Fajãzinha de Bento
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+45cee488f5d0:  # #56 v2 Falgairolle (Edmond)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+13ba8b6879b1:  # #57 v2 Fanal
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+2b5a806b066b:  # #58 v2 Feiticeiro do Norte
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+86ee09707c29:  # #59 v2 Filoxera
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+7edd6c2a4322:  # #60 v2 Flora
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+0755b4a29acf:  # #61 v2 Florença
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+4d047d10ab78:  # #62 v2 Florosa
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+5bc4f1efa931:  # #63 v2 Focinho de Burro
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+8c0d8562d113:  # #64 v2 Fogo do Céu
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+d4cf5cb307be:  # #65 v2 Reduto de S. Jorge
+  decision: subarticle
+  parent: "Fortificações"
+  head_fix: null
+  note: "item in the list of forts under Fortificações (sits inside Forte de S. Jorge da Calheta)"
+1f4dbba2f8e3:  # #66 v2 Fosforescência do Mar
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+cc2d1d64e274:  # #67 v2 Frasão
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+15fd5daf81e1:  # #68 v2 Funchal Antigo
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+9a92c0f92ecd:  # #69 v2 Funchalia
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+b49934be83a7:  # #70 v2 Eça (João Fogaça de)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "duplicate: identical to vol.1 entry Eça (João Fogaça de); spurious copy in vol.2 (appears twice, same cid)"
+ffdd37493745:  # #71 v2 Ielinek
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+03fa57aff7fa:  # #72 v2 Igreja
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+3f2b4e2e33b8:  # #73 v2 Igreja
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+1d5096a58be6:  # #74 v2 Ilhéu Chão
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+a310cc657f99:  # #75 v2 Imaculado Coração de Maria (Capela do)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+98aded7d34cd:  # #76 v2 Imparcial (0)
+  decision: article
+  parent: null
+  head_fix: "Imparcial (O)"
+  note: "newspaper entry; OCR zero for letter O"
+6c54d63bee6b:  # #77 v2 Incêndio no tempo de Zargo
+  decision: subarticle
+  parent: "Incêndios nas Matas"
+  head_fix: null
+  note: "parent ends \"os dois de que fazemos aqui menção:\""
+49bb836ebd3b:  # #78 v2 Incêndio em 1919
+  decision: subarticle
+  parent: "Incêndios nas Matas"
+  head_fix: null
+  note: "parent ends \"os dois de que fazemos aqui menção:\""
+f0b27ff88431:  # #79 v2 Industrias
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+3c818483984d:  # #80 v2 Traquites)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "continuation of a \"(V. X)\" cross-reference mid-sentence"
+d6d90680ab77:  # #81 v2 Estrangeiros)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "continuation of a \"(V. X)\" cross-reference mid-sentence"
+5cdf7922cd35:  # #82 v2 Instituições de Beneficência
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+20785c8d2766:  # #83 v2 Escola Médico-cirúrgica)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "continuation of a \"(V. X)\" cross-reference mid-sentence"
+d58fbbb8cfad:  # #84 v2 Seminário)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "continuation of a \"(V. X)\" cross-reference mid-sentence"
+380cd380c86b:  # #85 v2 Insubordinações Militares
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+b3d9d4baf400:  # #86 v2 Jardim Pequeno
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+55762f9394ac:  # #87 v2 Almeida (D. Maria Helena Jérvis de Atouguia)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "target of \"Vid.\" cross-reference, continuation"
+eff21e54d007:  # #88 v2 Jogo das Canas
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+92ffae31a71f:  # #89 v2 Juízes de Paz
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+58de9b7f3f9a:  # #90 v2 Juízes Pedâneos
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+ce067a33e2b7:  # #91 v2 Junta da Justiça
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+bc9f217fbdaf:  # #92 v2 Lauráceas
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+82c01483a5d7:  # #94 v2 Donatários (vol., pag. 373 e s.)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "mid-sentence cross-reference to Donatários"
+c5576ce7ed10:  # #95 v2 Madeira (Administração Pública na)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+df6cab7a486f:  # #96 v2 Madre de Deus (Capelas da)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+4661b8b4bae8:  # #97 v2 Junta Governativa)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "continuation of a \"(V. X)\" cross-reference mid-sentence"
+3d229cce70f1:  # #98 v2 Marquês de Pombal
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+707f58ebec9c:  # #99 v2 Medalha do Monumento Constitucional
+  decision: subarticle
+  parent: "Medalhas"
+  head_fix: null
+  note: "individual medal inside Medalhas list"
+656d53b6a8d7:  # #100 v2 Medalhas de Exposições
+  decision: subarticle
+  parent: "Medalhas"
+  head_fix: null
+  note: "individual medal inside Medalhas list"
+f4202cee8c5d:  # #101 v2 Medalha comemorativa da visita regia
+  decision: subarticle
+  parent: "Medalhas"
+  head_fix: null
+  note: "individual medal inside Medalhas list"
+100a9c590e8e:  # #102 v2 Medalha comemorativa da defesa do Funchal
+  decision: subarticle
+  parent: "Medalhas"
+  head_fix: null
+  note: "individual medal inside Medalhas list"
+0cfa194b7a2a:  # #103 v2 Areias
+  decision: subarticle
+  parent: "Medicina Campestre"
+  head_fix: null
+  note: "folk remedy inside Medicina Campestre"
+28b63d73691d:  # #104 v2 Asma
+  decision: subarticle
+  parent: "Medicina Campestre"
+  head_fix: null
+  note: "folk remedy inside Medicina Campestre"
+78d7d297c8eb:  # #105 v2 Bronquites, tosses e defluxos
+  decision: subarticle
+  parent: "Medicina Campestre"
+  head_fix: null
+  note: "folk remedy inside Medicina Campestre"
+3602f3760c0e:  # #106 v2 Desmaios ou sincopes
+  decision: subarticle
+  parent: "Medicina Campestre"
+  head_fix: null
+  note: "folk remedy inside Medicina Campestre"
+8c7d683eae26:  # #107 v2 Medina
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+56e7dbd592f0:  # #108 v2 Mendonça
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+d712dcff6033:  # #109 v2 Meneses (Pedro Fagundes Bacelar de Antas e)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+3bcb0821c5b8:  # #110 v2 Mercado de D
+  decision: subarticle
+  parent: "Mercados"
+  head_fix: "Mercado de D. Pedro V"
+  note: "Mercados is a list of individual markets (starts \"– Mercado de S. João\"); head truncated at \"D.\""
+11f3c12e24ff:  # #111 v2 Milicia
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+d193f351ce86:  # #112 v2 O Diário do Comercio
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "mid-sentence citation \"(V. O Diário do Comercio...)\""
+af71405a61d1:  # #113 v2 Moinhos
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+70359747379b:  # #114 v2 Monizia
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+953a78073eae:  # #115 v2 Motins populares
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+97bc38491c7f:  # #116 v2 Moura
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+78a1d44611f1:  # #117 v2 Mouros
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+7409a37dbaa8:  # #118 v2 Albuquerque (Major Joaquim Mousinho de)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "target of \"Vid.\" cross-reference, continuation"
+598be6f5e92e:  # #119 v2 Mudança de Sistemas de Governo
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+36b2f08ab33e:  # #120 v2 A Musica e o Teatro
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "sentence start (book title \"A Musica e o Teatro é um livro...\")"
+e15c2a9051ce:  # #121 v2 Napoleão (Príncipe Eugénio)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+1d3acf9ea3f0:  # #122 v2 Nascentes e Poentes no Funchal
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+b87c1a52be02:  # #123 v2 Nascimento (João Cabral do)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+bb63583e2311:  # #124 v2 Netos (Rua dos)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+4eba8b665746:  # #125 v2 Nóbrega (Januário Justiniano de)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+1b62634d8dba:  # #126 v2 Nossa Senhora Mãe dos Homens
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+ac8fefddfc18:  # #127 v2 Nossa Senhora da Quietação (Capela de)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+d062ce2f9fab:  # #128 v2 Nossa Senhora da Saúde (Capela de)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+64f810549626:  # #129 v3 Ornitologia
+  decision: article
+  parent: null
+  head_fix: null
+  note: "cross-reference entry (V. Aves...)"
+c5f760b66fdd:  # #130 v3 Peacock (G)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "biographical entry; minor ordering slip (Peacock/Pecuária)"
+7946b7813587:  # #131 v3 Preços em 1914
+  decision: subarticle
+  parent: "Preços dos Géneros"
+  head_fix: null
+  note: "price list announced by parent (\"Indicamos adiante os preços\")"
+20d003888f4c:  # #132 v3 Preços em 1923
+  decision: subarticle
+  parent: "Preços dos Géneros"
+  head_fix: null
+  note: "price list announced by parent (\"Indicamos adiante os preços\")"
+9cd7219c18f4:  # #133 v3 Procissão da Cinza
+  decision: subarticle
+  parent: "Procissões"
+  head_fix: null
+  note: "individual procession inside Procissões"
+8a46d4fd0fd1:  # #134 v3 Procissão de Santa Bárbara
+  decision: subarticle
+  parent: "Procissões"
+  head_fix: null
+  note: "individual procession inside Procissões"
+d343eb43b6a1:  # #135 v3 Procissão do Triunfo
+  decision: subarticle
+  parent: "Procissões"
+  head_fix: null
+  note: "individual procession inside Procissões"
+f3b13cbcb31e:  # #136 v3 Procissão votiva de 9 de Outubro
+  decision: subarticle
+  parent: "Procissões"
+  head_fix: null
+  note: "individual procession inside Procissões"
+43955f2979d4:  # #137 v3 Órfãs (Recolhimento das)
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "target of \"V.\" cross-reference, continuation"
+ae4314930959:  # #138 v3 Ribeira de Machico
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+4fd365147bba:  # #139 v3 Ribeira de Santa Cruz
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+5ae89b9aade8:  # #140 v3 Ribeira da Boaventura
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+94d69ab5922d:  # #141 v3 Ribeira do Porto Novo
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+9a106646cea6:  # #142 v3 Ribeira da Caniço
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+087778ba76ed:  # #143 v3 Ribeira de Gonçalo Aires
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+36b991e5d895:  # #144 v3 Ribeira de João Gomes
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+d711772602d6:  # #145 v3 Ribeira de Santa Luzia
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+c8137a9ad628:  # #146 v3 Ribeira de S
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: "Ribeira de S. João"
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\"); head truncated at \"S.\""
+3ea51c2a76e0:  # #147 v3 Ribeira dos Socorridos
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+f524b1aa57cd:  # #148 v3 Ribeira do Vigario
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+b7b8adbd217f:  # #149 v3 Ribeira do Campanário
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+90449741ca2f:  # #150 v3 Ribeira Brava
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+a127f9f994d4:  # #151 v3 Ribeira da Tabua
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+95fde2f4bb10:  # #152 v3 Ribeira da Ponta do Sol
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+7af454cc5329:  # #153 v3 Ribeira da Madalena
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+f5ad07e43dcb:  # #154 v3 Ribeira da Serra de Água da Calheta
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+1d8ed2f09703:  # #155 v3 Ribeira da Calheta
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+0b2af949b202:  # #156 v3 Ribeira de S
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: "Ribeira de S. Bartolomeu"
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\"); head truncated at \"S.\""
+0587ce46c5d4:  # #157 v3 Ribeira Funda
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+9940759f7d4b:  # #158 v3 Ribeira Seca
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+5ec0b3c7a6d0:  # #159 v3 Ribeira dos Marinheiros
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+2a86e08d5a0c:  # #160 v3 Ribeira dos Moinhos
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+8dc86f210a47:  # #161 v3 Ribeira da Cruz
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+55bf77a3e69c:  # #162 v3 Ribeira do Tristão
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+36a6c538f9ff:  # #163 v3 Ribeira da Janela
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+40be2293b2ab:  # #164 v3 Ribeira do Seixal
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+3cb30a72a63d:  # #165 v3 Ribeira de S
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: "Ribeira de S. Vicente"
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\"); head truncated at \"S.\""
+53bc630fd843:  # #166 v3 Ribeira dos Moinhos
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+c828ead9dc93:  # #167 v3 Ribeira da Boaventura
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+95ca63bf3ebf:  # #168 v3 Ribeira de S
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: "Ribeira de S. Jorge"
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\"); head truncated at \"S.\""
+d8bbbbdf83cf:  # #169 v3 Ribeira do Faial
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+b9daeb63a5d8:  # #170 v3 Ribeira do Porto da Cruz
+  decision: subarticle
+  parent: "Ribeiras"
+  head_fix: null
+  note: "item in Ribeiras list (\"As principais ribeiras... são as seguintes:\")"
+adf88764b57c:  # #171 v3 Sá Cardoso (Alfredo Ernesto de)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "governor entry in Sá- sequence"
+5f9c6a43a004:  # #172 v3 Sá Pereira (João António de)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "governor entry in Sá- sequence"
+6475952aeb50:  # #173 v3 Teixeira (Cónego Feliciano João)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+68dfc36a2337:  # #174 v3 Terços
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+dfe977cbb88b:  # #175 v3 Termo
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+f91d0cd7319c:  # #176 v3 Toninha
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+2a6642e4eff3:  # #177 v3 Trigo barbela
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+a71e2a8e8a14:  # #178 v3 Trigo de Rieti
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+41d461316b6f:  # #179 v3 Trigo anafil
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+1e71c3ba556d:  # #180 v3 Trigo de palha roxa
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+879867e0049b:  # #181 v3 Trigo mangalhão
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+73534517ddd8:  # #182 v3 Trigo mocho
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+d9c493499270:  # #183 v3 Trigo canoco
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+00b3b158c01e:  # #184 v3 Trigo canhoto
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+eb30a16a41eb:  # #185 v3 Trigo americano
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+8db6d41f695a:  # #186 v3 Trigo Alexandre
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+1ad407eb0917:  # #187 v3 Trigo vermelho
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+4c6e6c29bb64:  # #188 v3 Trigo amarelo
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+2cc83cbb7866:  # #189 v3 Trigo de cabeça preta
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+415ee5936334:  # #190 v3 Trigo branco
+  decision: subarticle
+  parent: "Trigo"
+  head_fix: null
+  note: "wheat variety inside Trigo"
+652297e114f1:  # #191 v3 Tmxillo (D. Sancho)
+  decision: article
+  parent: null
+  head_fix: "Truxillo (D. Sancho)"
+  note: "cross-reference entry; OCR Tmxillo = Truxillo (spelling used elsewhere in the text)"
+91815c28dab1:  # #192 v3 Unificação da Moeda
+  decision: article
+  parent: null
+  head_fix: null
+  note: "standalone entry between unrelated neighbours"
+0d6e7b612de7:  # #193 v3 Aragens Moderados Fortes Tempestuosos
+  decision: reject
+  parent: null
+  head_fix: null
+  note: "wind table header/rows"
+963061086c7a:  # #194 v3 Negro.–Folhas
+  decision: subarticle
+  parent: "Vinhas"
+  head_fix: "Negro"
+  note: "grape variety (castas tintas) inside Vinhas"
+ae5fbdac7b81:  # #195 v3 Castellão–Folhas
+  decision: subarticle
+  parent: "Vinhas"
+  head_fix: "Castellão"
+  note: "grape variety (castas tintas) inside Vinhas"
+a78f397c923d:  # #196 v3 Wuellerstorf-Urbair (Comodoro)
+  decision: article
+  parent: null
+  head_fix: null
+  note: "biographical entry, slightly misplaced within W"
