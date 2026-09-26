@@ -40,9 +40,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 ## 4. Numbers, dates, units
 - Digit grouping with commas: 1,436,305. Decimal point: 756.225. Four-digit numbers take
   a comma (4,000), except years.
-- In prose, one to nine in words and 10 upwards in figures, but always figures with units,
-  money, dates, ages, percentages, and in lists and tables. Keep the source's figure/word
-  choice when it is already a figure.
+- Figures stay figures and words stay words (core §6.1): *doze* → "twelve", *12* → "12".
 - Dates: 28 December 1676; on 18 November 1724; in the 1640s; around 1640 (*pelos anos de
   1640*); c. 1450 only when the source says *cerca de* with a year.
 - Centuries: 16th century (noun), 16th-century (adjective). *Século de quatrocentos* →
@@ -50,8 +48,47 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 - Ordinals: 1st, 2nd, 3rd; *3.º visconde* → "3rd Viscount"; list labels *1.º* → "1.".
 - Regnal numbers: John I, Philip II.
 - Temperatures: 8 °C (space before °C). Time: 1 p.m., between 4 and 6 a.m.
-- Money: keep the notation verbatim (20$000 réis, 323:500$000 réis, Esc. 54$00).
-  *réis* is roman (naturalised), *conto* italic.
+- Percentages: 5%, 58.8% (no space). *por cento* → "per cent" (two words).
+- Units: a no-break space between number and symbol (648,500 kg, 12 km, 8 °C).
+
+### 4a. Money, parsed numbers and tables
+- Separators: thousands **`,`** from four digits (4,000; 20,000; 1,053,000); decimal **`.`**.
+  Years never grouped. This is what the pipeline's `target` string already contains.
+- Currency words: **réis** (roman, invariable: "500 réis");
+  **escudo / escudos**; **centavo / centavos**; ***conto / contos*** (italic);
+  ***mil-réis*** (italic, only where the source writes it); *cruzado(s)*, *pataca(s)*,
+  *tostão / tostões*, *vintém / vinténs* (italic, termbase gloss). *reais* → réis.
+- Order: number + currency word ("20,000 réis", "4.20 escudos"). *Esc. 54$00* in prose →
+  "54.00 escudos".
+- First-mention glosses (proposed): réis (the Portuguese money of account before 1911;
+  1,000 réis = 1 mil-réis, 1,000,000 réis = 1 conto); escudos (the Portuguese currency from
+  1911: 1 escudo = 100 centavos = 1,000 réis); *contos* (1 conto = 1,000,000 réis, from 1911
+  1,000 escudos).
+- Table headings: "Year", "Years", "Quantity (kg)", "Litres", "Revenue (réis)",
+  "Expenditure (escudos)", "Price (escudos)", "Population", "Households". Sentence case.
+
+| Source | `kind`, `value` | en-GB |
+|---|---|---|
+| *Em 1898 ...... 648:500 quilog.* (table) | year 1898; integer 648500, kg | row `["1898", "648,500"]`, column "Quantity (kg)" |
+| *1:053:000* (prose, kg) | integer 1053000 | 1,053,000 kg |
+| *20$000 réis* | money_reis 20000 | 20,000 réis |
+| *5:000$000 réis* | money_reis 5000000 | 5,000,000 réis |
+| *13$000 reis* | money_reis 13000 | 13,000 réis |
+| *110:000 reis* | money_reis 110000 | 110,000 réis |
+| *$28 e 29 por quilo* (1914) | money_escudos 0.28; integer 29 | 28 and 29 centavos per kilo |
+| *4$20* (1923) | money_escudos 4.2 | 4.20 escudos |
+| *Esc. 831:801$40* | money_escudos 831801.4 | 831,801.40 escudos |
+| *400 contos* | contos 400 | 400 *contos* |
+| *doze mil réis* | (words) | twelve thousand réis |
+| *5%*, *58,8 %*, *50 por cento* | percent 5; percent 58.8; integer 50 | 5%, 58.8%, 50 per cent |
+| *18 de Junho de 1572* | integer 18; year 1572 | 18 June 1572 |
+
+> PT: …sendo-lhe fixado o vencimento anual de 13$000 reis, a que o alvará de 10 de Julho do
+> mesmo ano acrescentou 110:000 reis…
+>
+> EN: …with an annual salary of 13,000 réis (the Portuguese money of account before 1911;
+> 1,000 réis = 1 mil-réis, 1,000,000 réis = 1 conto), to which the decree of 10 July of the
+> same year added 110,000 réis…
 
 ## 5. Default renderings (proposed; the termbase is authoritative)
 
@@ -175,8 +212,10 @@ it is the first mention in its article.
 > alqueires de trigo.
 >
 > EN: The law of 26 March 1845, already cited, set the stipend (*côngrua*) of this parish’s
-> curacy at 20$000 réis in cash, 1 *pipa* (wine cask) and 15 *almudes* (liquid measure) of
-> wine, and 1 *moio* (60 *alqueires*) and 30 *alqueires* (dry measure of grain) of wheat.
+> curacy at 20,000 réis (the Portuguese money of account before 1911; 1,000 réis =
+> 1 mil-réis, 1,000,000 réis = 1 conto) in cash, 1 *pipa* (wine cask) and 15 *almudes*
+> (liquid measure) of wine, and 1 *moio* (60 *alqueires*) and 30 *alqueires* (dry measure of
+> grain) of wheat.
 
 **4. Lombada do Loreto**, `#b000`
 > PT: A sua construção data dos primeiros anos do século XVI, tendo sido fundada por Pedro

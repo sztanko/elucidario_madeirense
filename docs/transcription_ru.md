@@ -1,6 +1,6 @@
 # Portuguese → Russian transcription standard (Elucidário Madeirense)
 
-Status: **draft v0.1** (2026-09-26), pending owner review (see §15).
+Status: **draft v0.2** (2026-09-26), pending owner review (see §15).
 Scope: all Portuguese proper names in the Russian translation: people, places, churches and chapels, institutions, periodicals, plus foreign names that appear inside the Portuguese text.
 Machine-readable seed: `kb/names_seed_ru_uk.jsonl`. Ukrainian counterpart: `docs/transcription_uk.md`.
 
@@ -153,7 +153,7 @@ Sandhi across word boundaries is ignored: a word-final s is always ш (Lobos →
 | dos | душ | душ |
 | e | и | и |
 
-Particles are always lower case, even at the start of a transcribed toponym inside a sentence. In personal names they are separate words (Жуан де Барруш, Витoрину Жозе душ Сантуш). In toponyms they are hyphenated (Понта-ду-Сол, Камара-ди-Лобуш).
+Particles are always lower case, even at the start of a transcribed toponym inside a sentence. In personal names they are separate words (Жуан де Барруш, Виторину Жозе душ Сантуш). In toponyms they are hyphenated (Понта-ду-Сол, Камара-ди-Лобуш).
 
 `де` in personal names follows Russian historiography (Жуан де Барруш, Мануэл де Арриага, маркиз де Помбал). `ди` in toponyms follows ГУГК practice (Вила-Нова-ди-Гая, Камара-ди-Лобуш).
 
@@ -321,6 +321,7 @@ Marian titles (use these for meanings and translations):
 | Graça | Богоматерь Благодати | Livramento | Богоматерь Избавления |
 | Luz | Богоматерь Света | Paz | Богоматерь Мира |
 | Maravilhas | Богоматерь Чудес | Mãe dos Homens | Богоматерь Матерь Людей |
+| Mercês | Богоматерь Милосердия | Carmo (Igreja do) | see Carmo |
 | Madre de Deus | Матерь Божия | Senhor dos Milagres | Господь Чудес |
 | Espírito Santo | Святой Дух | Corpo Santo | Святое Тело |
 
@@ -388,6 +389,7 @@ In meanings the words are capitalised, since they form part of a name: мона�
   - Otherwise transcribe the Portuguese given name by Portuguese rules and the surname by its native rules.
 - Spanish names follow the **Spanish** rules (Canárias → Канарские острова; a Spaniard named "Sanchez" → Санчес, not Саншиш).
 - Foreign exonyms: the standard Russian form (Лондон, Генуя, Вена, Гамбург, Танжер, мыс Доброй Надежды).
+- Historical Portuguese names of foreign places use the **modern** Russian name of the place. When it differs from the Portuguese form, the Portuguese form goes in the parenthesis at first mention: Асила (Arzila); Малабар (Malabar).
 
 ---
 
@@ -425,7 +427,7 @@ Format: `транскрипция (значение, Portuguese original)`. The 
 | A name already inside parentheses | gloss in square brackets: Машику [Machico] |
 | Captions, index, KB exports, name tables | full form |
 | **KB name tables** (`ru`, `ru_meaning`, `ru_first`) | all fields always stored; `ru_first` is the canonical full form |
-| Names on the no-gloss list: §13 exonyms, monarchs, popes, saints as persons, **Мадейра, Фуншал** | never a parenthesis |
+| Names on the no-gloss list: §13.1 exonyms (rows **without** †), §13.2 monarchs and exonymic persons, popes, saints as persons, **Мадейра, Фуншал** | never a parenthesis |
 
 "Article" means one headword entry. Every new article starts the count again.
 
@@ -452,17 +454,20 @@ Format: `транскрипция (значение, Portuguese original)`. The 
 |---|---|---|---|---|
 | Madeira | Мадейра | | Lisboa | Лиссабон |
 | Funchal | Фуншал | | Portugal | Португалия |
-| Porto Santo | Порту-Санту | | Porto (city) | Порту |
+| Porto Santo † | Порту-Санту | | Porto (city) † | Порту |
 | Açores | Азорские острова | | Canárias | Канарские острова |
-| Faial | Фаял | | Coimbra | Коимбра |
-| Brasil | Бразилия | | Rio de Janeiro | Рио-де-Жанейро |
-| Cabo Verde | Кабо-Верде | | Lourenço Marques | Лоренсу-Маркиш |
+| Faial † | Фаял | | Coimbra † | Коимбра |
+| Brasil | Бразилия | | Rio de Janeiro † | Рио-де-Жанейро |
+| Cabo Verde † | Кабо-Верде | | Lourenço Marques † | Лоренсу-Маркиш |
 | Moçambique | Мозамбик | | Marrocos | Марокко |
 | Espanha, França, Inglaterra, Itália, Suíça | Испания, Франция, Англия, Италия, Швейцария | | Estados Unidos da América | Соединённые Штаты Америки |
 | Londres, Paris, Roma, Madrid, Berlim, Viena | Лондон, Париж, Рим, Мадрид, Берлин, Вена | | Génova, Hamburgo, Tânger, Gibraltar | Генуя, Гамбург, Танжер, Гибралтар |
 | Cabo da Boa Esperança | мыс Доброй Надежды | | Santa Helena | остров Святой Елены |
 | África do Sul | Южная Африка | | América do Norte | Северная Америка |
-| Índia, China, México, Peru | Индия, Китай, Мексика, Перу | | Tenerife | Тенерифе |
+| Índia, China, México, Peru | Индия, Китай, Мексика, Перу | | Tenerife † | Тенерифе |
+| Algarve † | Алгарве | | Angra do Heroísmo † | Ангра-ду-Эроишму |
+
+† = an **established transcription**, not an exonym: use the form shown, but treat it like any other transcribed name for the parenthesis (original at first mention: Коимбра (Coimbra); Ангра-ду-Эроишму (Angra do Heroísmo)). Rows without † are exonyms and never get a parenthesis.
 
 Porto Santo: the rules give the same result, Порту-Санту, which is also the established form. It still gets its meaning at first mention (it is not on the no-gloss list).
 
@@ -501,7 +506,211 @@ Porto Santo: the rules give the same result, Порту-Санту, which is als
 
 These examples come from `docs/name_samples.json`; the same data is in `kb/names_seed_ru_uk.jsonl`. *Type* describes the transcription regime: `place` covers all Portuguese-language places (Madeira, mainland, islands, colonies, Brazil); `foreign` covers names in other languages.
 
-<!-- EXAMPLES_TABLE -->
+How to read the table:
+
+- *Transcription* is the short form for later mentions (the KB field `ru`). *First-mention form* is the full form for headwords, first mentions and name tables (`ru_first`).
+- "—" in *Meaning* means no meaning is given (§10). Rows whose first-mention form has no parenthesis are on the no-gloss list (§11).
+- "source → normalised" shows §1 normalisation. The parenthesis always shows the normalised form.
+- Row 60 (Ernesto Schmitz): the KB confirms the German naturalist Ernst Johann Schmitz, so the native form is used (§9).
+- Row 53 (Sebastião): the king. For anyone else named Sebastião, apply the rules: Себаштиан.
+
+| # | Portuguese (source → normalised) | Type | Transcription (later mentions) | Meaning | First-mention form |
+|---|---|---|---|---|---|
+| 1 | Gaspar Frutuoso | person | Гашпар Фрутуозу | — | Гашпар Фрутуозу (Gaspar Frutuoso) |
+| 2 | Álvaro Rodrigues de Azevedo | person | Алвару Родригиш де Азеведу | — | Алвару Родригиш де Азеведу (Álvaro Rodrigues de Azevedo) |
+| 3 | João Gonçalves Zarco | person | Жуан Гонсалвиш Зарку | — | Жуан Гонсалвиш Зарку (João Gonçalves Zarco) |
+| 4 | João Gonçalves Zargo → João Gonçalves Zarco | person | Жуан Гонсалвиш Зарку | — | Жуан Гонсалвиш Зарку (João Gonçalves Zarco) |
+| 5 | João Gonçalves da Câmara | person | Жуан Гонсалвиш да Камара | — | Жуан Гонсалвиш да Камара (João Gonçalves da Câmara) |
+| 6 | Simão Gonçalves da Câmara | person | Симан Гонсалвиш да Камара | — | Симан Гонсалвиш да Камара (Simão Gonçalves da Câmara) |
+| 7 | Tristão Vaz Teixeira | person | Триштан Ваш Тейшейра | — | Триштан Ваш Тейшейра (Tristão Vaz Teixeira) |
+| 8 | Bartolomeu Perestrelo | person | Бартоломеу Перештрелу | — | Бартоломеу Перештрелу (Bartolomeu Perestrelo) |
+| 9 | José Silvestre Ribeiro | person | Жозе Силвештри Рибейру | — | Жозе Силвештри Рибейру (José Silvestre Ribeiro) |
+| 10 | Aires de Ornelas de Vasconcelos | person | Айриш де Орнелаш де Вашконселуш | — | Айриш де Орнелаш де Вашконселуш (Aires de Ornelas de Vasconcelos) |
+| 11 | Manuel Agostinho Barreto | person | Мануэл Агоштинью Баррету | — | Мануэл Агоштинью Баррету (Manuel Agostinho Barreto) |
+| 12 | Henrique Henriques de Noronha | person | Энрики Энрикиш де Норонья | — | Энрики Энрикиш де Норонья (Henrique Henriques de Noronha) |
+| 13 | Inocêncio Francisco da Silva | person | Иносенсиу Франсишку да Силва | — | Иносенсиу Франсишку да Силва (Inocêncio Francisco da Silva) |
+| 14 | Luís da Silva Mousinho de Albuquerque | person | Луиш да Силва Моузинью де Албукерки | — | Луиш да Силва Моузинью де Албукерки (Luís da Silva Mousinho de Albuquerque) |
+| 15 | João Esmeraldo | person | Жуан Эжмералду | — | Жуан Эжмералду (João Esmeraldo) |
+| 16 | Pinheiro Chagas | person | Пиньейру Шагаш | — | Пиньейру Шагаш (Pinheiro Chagas) |
+| 17 | Diogo Barbosa Machado | person | Диогу Барбоза Машаду | — | Диогу Барбоза Машаду (Diogo Barbosa Machado) |
+| 18 | Diogo Pereira Forjaz Coutinho | person | Диогу Перейра Форжаш Коутинью | — | Диогу Перейра Форжаш Коутинью (Diogo Pereira Forjaz Coutinho) |
+| 19 | J. Reis Gomes | person | Ж. Рейш Гомиш | — | Ж. Рейш Гомиш (J. Reis Gomes) |
+| 20 | José Lúcio Travassos Valdez | person | Жозе Лусиу Травасуш Валдеш | — | Жозе Лусиу Травасуш Валдеш (José Lúcio Travassos Valdez) |
+| 21 | Teófilo Braga | person | Теофилу Брага | — | Теофилу Брага (Teófilo Braga) |
+| 22 | Manuel de Arriaga | person | Мануэл де Арриага | — | Мануэл де Арриага (Manuel de Arriaga) |
+| 23 | Joaquim de Meneses e Ataíde | person | Жоаким де Менезиш и Атаиди | — | Жоаким де Менезиш и Атаиди (Joaquim de Meneses e Ataíde) |
+| 24 | João Pedro de Freitas Drumond | person | Жуан Педру де Фрейташ Друмонд | — | Жуан Педру де Фрейташ Друмонд (João Pedro de Freitas Drumond) |
+| 25 | Jacinto de Sant'Ana e Vasconcelos → Jacinto de Santana e Vasconcelos | person | Жасинту де Сантана и Вашконселуш | — | Жасинту де Сантана и Вашконселуш (Jacinto de Santana e Vasconcelos) |
+| 26 | Gomes Eanes de Azurara | person | Гомиш Эаниш де Азурара | — | Гомиш Эаниш де Азурара (Gomes Eanes de Azurara) |
+| 27 | Camilo Castelo Branco | person | Камилу Каштелу Бранку | — | Камилу Каштелу Бранку (Camilo Castelo Branco) |
+| 28 | António Aluísio Jérvis de Atouguia | person | Антониу Алуизиу Жервиш де Атоугия | — | Антониу Алуизиу Жервиш де Атоугия (António Aluísio Jérvis de Atouguia) |
+| 29 | Vitorino José dos Santos | person | Виторину Жозе душ Сантуш | — | Виторину Жозе душ Сантуш (Vitorino José dos Santos) |
+| 30 | Francisco Homem de Gouveia | person | Франсишку Омен де Гоувейя | — | Франсишку Омен де Гоувейя (Francisco Homem de Gouveia) |
+| 31 | Martim Mendes de Vasconcelos | person | Мартин Мендиш де Вашконселуш | — | Мартин Мендиш де Вашконселуш (Martim Mendes de Vasconcelos) |
+| 32 | Juvenal Henriques de Araújo | person | Жувенал Энрикиш де Араужу | — | Жувенал Энрикиш де Араужу (Juvenal Henriques de Araújo) |
+| 33 | Gonçalo Aires Ferreira | person | Гонсалу Айриш Феррейра | — | Гонсалу Айриш Феррейра (Gonçalo Aires Ferreira) |
+| 34 | Alexandre Herculano | person | Алешандри Эркулану | — | Алешандри Эркулану (Alexandre Herculano) |
+| 35 | Nuno Cão | person | Нуну Кан | — | Нуну Кан (Nuno Cão) |
+| 36 | Jordão de Freitas | person | Жордан де Фрейташ | — | Жордан де Фрейташ (Jordão de Freitas) |
+| 37 | Servulo Drumond de Meneses → Sérvulo Drumond de Meneses | person | Сервулу Друмонд де Менезиш | — | Сервулу Друмонд де Менезиш (Sérvulo Drumond de Meneses) |
+| 38 | Pestana Júnior | person | Пештана Жуниор | — | Пештана Жуниор (Pestana Júnior) |
+| 39 | Maria Amélia | person | Мария Амелия | — | Мария Амелия (Maria Amélia) |
+| 40 | Machim | person | Машин | — | Машин (Machim) |
+| 41 | Conde de Carvalhal | person | граф де Карвальял | — | граф де Карвальял (Conde de Carvalhal) |
+| 42 | 1.º Conde de Carvalhal | person | 1-й граф де Карвальял | — | 1-й граф де Карвальял (1.º Conde de Carvalhal) |
+| 43 | Visconde da Ribeira Brava | person | виконт да Рибейра-Брава | — | виконт да Рибейра-Брава (Visconde da Ribeira Brava) |
+| 44 | Fr. João do Espírito Santo | person | фрей Жуан ду Эшпириту Санту | — | фрей Жуан ду Эшпириту Санту (Fr. João do Espírito Santo) |
+| 45 | Dr. Luiz da Câmara Pestana → Dr. Luís da Câmara Pestana | person | доктор Луиш да Камара Пештана | — | доктор Луиш да Камара Пештана (Dr. Luís da Câmara Pestana) |
+| 46 | D. Mariana de Alencastre e Câmara | person | дона Мариана де Аленкаштри и Камара | — | дона Мариана де Аленкаштри и Камара (D. Mariana de Alencastre e Câmara) |
+| 47 | Manuel I | person | Мануэл I | — | Мануэл I |
+| 48 | João IV | person | Жуан IV | — | Жуан IV |
+| 49 | Filipe II | person | Филипп II | — | Филипп II |
+| 50 | Carlos I | person | Карлуш I | — | Карлуш I |
+| 51 | D. Duarte | person | дон Дуарте | — | дон Дуарте |
+| 52 | D. Miguel | person | дон Мигел | — | дон Мигел |
+| 53 | Sebastião | person | Себастьян | — | Себастьян |
+| 54 | Infante D. Henrique | person | инфант Генрих Мореплаватель | — | инфант Генрих Мореплаватель |
+| 55 | Cristóvão Colombo | person | Христофор Колумб | — | Христофор Колумб |
+| 56 | Marquês de Pombal | person | маркиз де Помбал | — | маркиз де Помбал |
+| 57 | Leão X | person | Лев X | — | Лев X |
+| 58 | James Yate Johnson | foreign | Джеймс Йейт Джонсон | — | Джеймс Йейт Джонсон (James Yate Johnson) |
+| 59 | Lowe | foreign | Лоу | — | Лоу (Lowe) |
+| 60 | Ernesto Schmitz | foreign | Эрнст Шмиц | — | Эрнст Шмиц (Ernst Schmitz) |
+| 61 | Henrique Hinton | foreign | Энрики Хинтон | — | Энрики Хинтон (Henrique Hinton) |
+| 62 | Madeira | place | Мадейра | — | Мадейра |
+| 63 | Funchal | place | Фуншал | — | Фуншал |
+| 64 | Porto Santo | place | Порту-Санту | Святая гавань | Порту-Санту (Святая гавань, Porto Santo) |
+| 65 | Machico | place | Машику | — | Машику (Machico) |
+| 66 | Câmara de Lobos | place | Камара-ди-Лобуш | Тюленье логово | Камара-ди-Лобуш (Тюленье логово, Câmara de Lobos) |
+| 67 | Câmara de Lôbos → Câmara de Lobos | place | Камара-ди-Лобуш | Тюленье логово | Камара-ди-Лобуш (Тюленье логово, Câmara de Lobos) |
+| 68 | Santa Cruz | place | Санта-Круш | Святой Крест | Санта-Круш (Святой Крест, Santa Cruz) |
+| 69 | Ponta do Sol | place | Понта-ду-Сол | Мыс Солнца | Понта-ду-Сол (Мыс Солнца, Ponta do Sol) |
+| 70 | Calheta | place | Кальета | — | Кальета (Calheta) |
+| 71 | Ribeira Brava | place | Рибейра-Брава | Бурная река | Рибейра-Брава (Бурная река, Ribeira Brava) |
+| 72 | Monte | place | Монти | — | Монти (Monte) |
+| 73 | São Vicente | place | Сан-Висенти | — | Сан-Висенти (São Vicente) |
+| 74 | Porto Moniz | place | Порту-Мониш | — | Порту-Мониш (Porto Moniz) |
+| 75 | Caniço | place | Канису | — | Канису (Caniço) |
+| 76 | Santana | place | Сантана | — | Сантана (Santana) |
+| 77 | São Martinho | place | Сан-Мартинью | — | Сан-Мартинью (São Martinho) |
+| 78 | Santa Maria Maior | place | Санта-Мария-Майор | — | Санта-Мария-Майор (Santa Maria Maior) |
+| 79 | Santo António da Serra | place | Санту-Антониу-да-Серра | — | Санту-Антониу-да-Серра (Santo António da Serra) |
+| 80 | Estreito de Câmara de Lobos | place | Эштрейту-ди-Камара-ди-Лобуш | — | Эштрейту-ди-Камара-ди-Лобуш (Estreito de Câmara de Lobos) |
+| 81 | Arco da Calheta | place | Арку-да-Кальета | — | Арку-да-Кальета (Arco da Calheta) |
+| 82 | Madalena do Mar | place | Мадалена-ду-Мар | — | Мадалена-ду-Мар (Madalena do Mar) |
+| 83 | Fajã da Ovelha | place | Фажан-да-Овелья | — | Фажан-да-Овелья (Fajã da Ovelha) |
+| 84 | Boaventura | place | Боавентура | — | Боавентура (Boaventura) |
+| 85 | Seixal | place | Сейшал | — | Сейшал (Seixal) |
+| 86 | Canhas | place | Каньяш | — | Каньяш (Canhas) |
+| 87 | Gaula | place | Гаула | — | Гаула (Gaula) |
+| 88 | Prazeres | place | Празериш | — | Празериш (Prazeres) |
+| 89 | Sé | place | Се | — | Се (Sé) |
+| 90 | Curral das Freiras | place | Куррал-даш-Фрейраш | Загон монахинь | Куррал-даш-Фрейраш (Загон монахинь, Curral das Freiras) |
+| 91 | Paul da Serra | place | Паул-да-Серра | Горное болото | Паул-да-Серра (Горное болото, Paul da Serra) |
+| 92 | Paul do Mar | place | Паул-ду-Мар | Приморское болото | Паул-ду-Мар (Приморское болото, Paul do Mar) |
+| 93 | Jardim do Mar | place | Жардин-ду-Мар | Сад у моря | Жардин-ду-Мар (Сад у моря, Jardim do Mar) |
+| 94 | Quinta Grande | place | Кинта-Гранди | Большая усадьба | Кинта-Гранди (Большая усадьба, Quinta Grande) |
+| 95 | Serra de Água | place | Серра-ди-Агуа | Водяная лесопилка | Серра-ди-Агуа (Водяная лесопилка, Serra de Água) |
+| 96 | Ribeira da Janela | place | Рибейра-да-Жанела | Река Окна | Рибейра-да-Жанела (Река Окна, Ribeira da Janela) |
+| 97 | Ribeiro Frio | place | Рибейру-Фриу | Холодный ручей | Рибейру-Фриу (Холодный ручей, Ribeiro Frio) |
+| 98 | Lugar de Baixo | place | Лугар-ди-Байшу | Нижнее селение | Лугар-ди-Байшу (Нижнее селение, Lugar de Baixo) |
+| 99 | Ponta Delgada | place | Понта-Делгада | Тонкий мыс | Понта-Делгада (Тонкий мыс, Ponta Delgada) |
+| 100 | Desertas | place | Дезерташ | Пустынные острова | Дезерташ (Пустынные острова, Desertas) |
+| 101 | Selvagens | place | Селваженш | Дикие острова | Селваженш (Дикие острова, Selvagens) |
+| 102 | Pico Ruivo | place | Пику-Руйву | Рыжий пик | Пику-Руйву (Рыжий пик, Pico Ruivo) |
+| 103 | Ilhéu Chão | place | Ильеу-Шан | Плоский островок | Ильеу-Шан (Плоский островок, Ilhéu Chão) |
+| 104 | Ribeira do Inferno | place | Рибейра-ду-Инферну | Адская река | Рибейра-ду-Инферну (Адская река, Ribeira do Inferno) |
+| 105 | Praia Formosa | place | Прайя-Формоза | Красивый пляж | Прайя-Формоза (Красивый пляж, Praia Formosa) |
+| 106 | Cabo Girão | place | Кабу-Жиран | — | Кабу-Жиран (Cabo Girão) |
+| 107 | Ponta de São Lourenço | place | мыс Сан-Лоуренсу | — | мыс Сан-Лоуренсу (Ponta de São Lourenço) |
+| 108 | Ponta do Tristão | place | мыс Триштан | — | мыс Триштан (Ponta do Tristão) |
+| 109 | Ribeira de Machico | place | река Машику | — | река Машику (Ribeira de Machico) |
+| 110 | Ribeira de João Gomes | place | река Жуан-Гомиш | — | река Жуан-Гомиш (Ribeira de João Gomes) |
+| 111 | Baía do Funchal | place | бухта Фуншала | — | бухта Фуншала (Baía do Funchal) |
+| 112 | Porto do Funchal | place | порт Фуншала | — | порт Фуншала (Porto do Funchal) |
+| 113 | Alfândega do Funchal | place | таможня Фуншала | — | таможня Фуншала (Alfândega do Funchal) |
+| 114 | Rua dos Ferreiros | place | улица Феррейруш | улица Кузнецов | улица Феррейруш (улица Кузнецов, Rua dos Ferreiros) |
+| 115 | Rua Direita | place | улица Дирейта | Прямая улица | улица Дирейта (Прямая улица, Rua Direita) |
+| 116 | Rua do Hospital Velho | place | улица Оспитал-Велью | улица Старой больницы | улица Оспитал-Велью (улица Старой больницы, Rua do Hospital Velho) |
+| 117 | Rua de João Tavira | place | улица Жуан Тавира | — | улица Жуан Тавира (Rua de João Tavira) |
+| 118 | Avenida Arriaga | place | проспект Арриага | — | проспект Арриага (Avenida Arriaga) |
+| 119 | Avenida Zarco | place | проспект Зарку | — | проспект Зарку (Avenida Zarco) |
+| 120 | Largo da Sé | place | Соборная площадь | — | Соборная площадь (Largo da Sé) |
+| 121 | Praça da Constituição | place | площадь Конституции | — | площадь Конституции (Praça da Constituição) |
+| 122 | Molhe da Pontinha | place | мол Понтинья | — | мол Понтинья (Molhe da Pontinha) |
+| 123 | Levada do Rabaçal | place | левада Рабасал | — | левада Рабасал (Levada do Rabaçal) |
+| 124 | Quinta das Cruzes | place | усадьба Крузиш | усадьба Крестов | усадьба Крузиш (усадьба Крестов, Quinta das Cruzes) |
+| 125 | Palácio de São Lourenço | place | дворец Сан-Лоуренсу | дворец Святого Лаврентия | дворец Сан-Лоуренсу (дворец Святого Лаврентия, Palácio de São Lourenço) |
+| 126 | Fortaleza de São Tiago | place | крепость Сан-Тиагу | крепость Святого Иакова | крепость Сан-Тиагу (крепость Святого Иакова, Fortaleza de São Tiago) |
+| 127 | Mercado de São Pedro | place | рынок Сан-Педру | рынок Святого Петра | рынок Сан-Педру (рынок Святого Петра, Mercado de São Pedro) |
+| 128 | Cemitério das Angústias | place | кладбище Ангуштиаш | кладбище Богоматери Скорбей | кладбище Ангуштиаш (кладбище Богоматери Скорбей, Cemitério das Angústias) |
+| 129 | Jardim Municipal | place | Муниципальный сад | — | Муниципальный сад (Jardim Municipal) |
+| 130 | Teatro Manuel de Arriaga | place | театр Мануэл де Арриага | — | театр Мануэл де Арриага (Teatro Manuel de Arriaga) |
+| 131 | Lisboa | place | Лиссабон | — | Лиссабон |
+| 132 | Açores | place | Азорские острова | — | Азорские острова |
+| 133 | Brasil | place | Бразилия | — | Бразилия |
+| 134 | Cabo da Boa Esperança | place | мыс Доброй Надежды | — | мыс Доброй Надежды |
+| 135 | Coimbra | place | Коимбра | — | Коимбра (Coimbra) |
+| 136 | Évora | place | Эвора | — | Эвора (Évora) |
+| 137 | Setúbal | place | Сетубал | — | Сетубал (Setúbal) |
+| 138 | Elvas | place | Элваш | — | Элваш (Elvas) |
+| 139 | Algarve | place | Алгарве | — | Алгарве (Algarve) |
+| 140 | São Miguel | place | Сан-Мигел | — | Сан-Мигел (São Miguel) |
+| 141 | Terceira | place | Терсейра | — | Терсейра (Terceira) |
+| 142 | Angra do Heroísmo | place | Ангра-ду-Эроишму | — | Ангра-ду-Эроишму (Angra do Heroísmo) |
+| 143 | Rio de Janeiro | place | Рио-де-Жанейро | — | Рио-де-Жанейро (Rio de Janeiro) |
+| 144 | Pernambuco | place | Пернамбуку | — | Пернамбуку (Pernambuco) |
+| 145 | Lourenço Marques | place | Лоренсу-Маркиш | — | Лоренсу-Маркиш (Lourenço Marques) |
+| 146 | Londres | foreign | Лондон | — | Лондон |
+| 147 | Canárias | foreign | Канарские острова | — | Канарские острова |
+| 148 | Génova | foreign | Генуя | — | Генуя |
+| 149 | Tenerife | foreign | Тенерифе | — | Тенерифе (Tenerife) |
+| 150 | Montpellier | foreign | Монпелье | — | Монпелье (Montpellier) |
+| 151 | Arzila | foreign | Асила | — | Асила (Arzila) |
+| 152 | Nossa Senhora da Piedade | religious | Носа-Сеньора-да-Пиедади | Богоматерь Скорбящая | Носа-Сеньора-да-Пиедади (Богоматерь Скорбящая, Nossa Senhora da Piedade) |
+| 153 | Convento de Nossa Senhora ds Piedade → Convento de Nossa Senhora da Piedade | religious | монастырь Носа-Сеньора-да-Пиедади | монастырь Богоматери Скорбящей | монастырь Носа-Сеньора-да-Пиедади (монастырь Богоматери Скорбящей, Convento de Nossa Senhora da Piedade) |
+| 154 | Igreja de Nossa Senhora do Monte | religious | церковь Носа-Сеньора-ду-Монти | церковь Богоматери Горы | церковь Носа-Сеньора-ду-Монти (церковь Богоматери Горы, Igreja de Nossa Senhora do Monte) |
+| 155 | Igreja de Nossa Senhora do Calhau | religious | церковь Носа-Сеньора-ду-Кальяу | церковь Богоматери Галечного берега | церковь Носа-Сеньора-ду-Кальяу (церковь Богоматери Галечного берега, Igreja de Nossa Senhora do Calhau) |
+| 156 | Capela de Nossa Senhora da Conceiçâo → Capela de Nossa Senhora da Conceição | religious | часовня Носа-Сеньора-да-Консейсан | часовня Богоматери Непорочного Зачатия | часовня Носа-Сеньора-да-Консейсан (часовня Богоматери Непорочного Зачатия, Capela de Nossa Senhora da Conceição) |
+| 157 | Capela de Nossa Senhora das Angústias | religious | часовня Носа-Сеньора-даш-Ангуштиаш | часовня Богоматери Скорбей | часовня Носа-Сеньора-даш-Ангуштиаш (часовня Богоматери Скорбей, Capela de Nossa Senhora das Angústias) |
+| 158 | Capela de Nossa Senhora da Boa Viagem | religious | часовня Носа-Сеньора-да-Боа-Виажен | часовня Богоматери Доброго Пути | часовня Носа-Сеньора-да-Боа-Виажен (часовня Богоматери Доброго Пути, Capela de Nossa Senhora da Boa Viagem) |
+| 159 | Capela de Nossa Senhora do Bom Sucesso | religious | часовня Носа-Сеньора-ду-Бон-Сусесу | часовня Богоматери Благого Успеха | часовня Носа-Сеньора-ду-Бон-Сусесу (часовня Богоматери Благого Успеха, Capela de Nossa Senhora do Bom Sucesso) |
+| 160 | Capela de Nossa Senhora do Livramento | religious | часовня Носа-Сеньора-ду-Ливраменту | часовня Богоматери Избавления | часовня Носа-Сеньора-ду-Ливраменту (часовня Богоматери Избавления, Capela de Nossa Senhora do Livramento) |
+| 161 | Capela de Nossa Senhora das Brotas | religious | часовня Носа-Сеньора-даш-Броташ | — | часовня Носа-Сеньора-даш-Броташ (Capela de Nossa Senhora das Brotas) |
+| 162 | Capela do Senhor dos Milagres | religious | часовня Сеньор-душ-Милагриш | часовня Господа Чудес | часовня Сеньор-душ-Милагриш (часовня Господа Чудес, Capela do Senhor dos Milagres) |
+| 163 | Capela do Corpo Santo | religious | часовня Корпу-Санту | часовня Святого Тела | часовня Корпу-Санту (часовня Святого Тела, Capela do Corpo Santo) |
+| 164 | Capela das Almas | religious | часовня Алмаш | часовня Душ | часовня Алмаш (часовня Душ, Capela das Almas) |
+| 165 | Capela do Imaculado Coração de Maria | religious | часовня Имакуладу-Корасан-ди-Мария | часовня Непорочного Сердца Марии | часовня Имакуладу-Корасан-ди-Мария (часовня Непорочного Сердца Марии, Capela do Imaculado Coração de Maria) |
+| 166 | Capela de Jesus Maria José | religious | часовня Жезуш-Мария-Жозе | часовня Иисуса Марии и Иосифа | часовня Жезуш-Мария-Жозе (часовня Иисуса Марии и Иосифа, Capela de Jesus Maria José) |
+| 167 | Capela de Santa Catarina | religious | часовня Санта-Катарина | часовня Святой Екатерины | часовня Санта-Катарина (часовня Святой Екатерины, Capela de Santa Catarina) |
+| 168 | Capela de São Sebastião | religious | часовня Сан-Себаштиан | часовня Святого Себастьяна | часовня Сан-Себаштиан (часовня Святого Себастьяна, Capela de São Sebastião) |
+| 169 | Convento de Santa Clara | religious | монастырь Санта-Клара | монастырь Святой Клары | монастырь Санта-Клара (монастырь Святой Клары, Convento de Santa Clara) |
+| 170 | Convento de São Francisco | religious | монастырь Сан-Франсишку | монастырь Святого Франциска | монастырь Сан-Франсишку (монастырь Святого Франциска, Convento de São Francisco) |
+| 171 | Convento de São Bernardino | religious | монастырь Сан-Бернардину | монастырь Святого Бернардина | монастырь Сан-Бернардину (монастырь Святого Бернардина, Convento de São Bernardino) |
+| 172 | Convento da Incarnaçao → Convento da Encarnação | religious | монастырь Энкарнасан | монастырь Воплощения | монастырь Энкарнасан (монастырь Воплощения, Convento da Encarnação) |
+| 173 | Convento das Mercês | religious | монастырь Мерсеш | монастырь Богоматери Милосердия | монастырь Мерсеш (монастырь Богоматери Милосердия, Convento das Mercês) |
+| 174 | Igreja de Santa Maria Maior | religious | церковь Санта-Мария-Майор | церковь Святой Марии Великой | церковь Санта-Мария-Майор (церковь Святой Марии Великой, Igreja de Santa Maria Maior) |
+| 175 | Igreja do Carmo | religious | церковь Карму | церковь Богоматери Кармельской | церковь Карму (церковь Богоматери Кармельской, Igreja do Carmo) |
+| 176 | Sé do Funchal | religious | кафедральный собор Фуншала | — | кафедральный собор Фуншала (Sé do Funchal) |
+| 177 | Nossa Senhora da Fátima → Nossa Senhora de Fátima | religious | Фатимская Богоматерь | — | Фатимская Богоматерь (Nossa Senhora de Fátima) |
+| 178 | Espírito Santo (Festas do) → Festas do Espírito Santo | religious | праздники Святого Духа | — | праздники Святого Духа (Festas do Espírito Santo) |
+| 179 | Câmara Municipal do Funchal | institution | Муниципальная палата Фуншала | — | Муниципальная палата Фуншала (Câmara Municipal do Funchal) |
+| 180 | Paços do Concelho do Funchal | institution | ратуша Фуншала | — | ратуша Фуншала (Paços do Concelho do Funchal) |
+| 181 | Junta Geral do Distrito do Funchal | institution | Генеральный совет округа Фуншал | — | Генеральный совет округа Фуншал (Junta Geral do Distrito do Funchal) |
+| 182 | Junta Governativa da Madeira em 1847 → Junta Governativa da Madeira | institution | Правительственная хунта Мадейры | — | Правительственная хунта Мадейры (Junta Governativa da Madeira) |
+| 183 | Junta Agrícola | institution | Сельскохозяйственный совет | — | Сельскохозяйственный совет (Junta Agrícola) |
+| 184 | Junta da Real Fazenda da Ilha da Madeira | institution | Совет королевской казны острова Мадейра | — | Совет королевской казны острова Мадейра (Junta da Real Fazenda da Ilha da Madeira) |
+| 185 | Juntas de Paróquia | institution | приходские советы | — | приходские советы (Juntas de Paróquia) |
+| 186 | Misericórdia de Machico | institution | Братство милосердия Машику | — | Братство милосердия Машику (Misericórdia de Machico) |
+| 187 | Hospital de Santa Isabel | institution | больница Санта-Изабел | больница Святой Елизаветы | больница Санта-Изабел (больница Святой Елизаветы, Hospital de Santa Isabel) |
+| 188 | Colégio dos Jesuítas | institution | Иезуитская коллегия | — | Иезуитская коллегия (Colégio dos Jesuítas) |
+| 189 | Paço Episcopal | institution | Епископский дворец | — | Епископский дворец (Paço Episcopal) |
+| 190 | Museu do Seminário | institution | Музей семинарии | — | Музей семинарии (Museu do Seminário) |
+| 191 | Biblioteca Municipal do Funchal | institution | Муниципальная библиотека Фуншала | — | Муниципальная библиотека Фуншала (Biblioteca Municipal do Funchal) |
+| 192 | Hospício da Princesa D. Maria Amélia | institution | приют принцессы доны Марии Амелии | — | приют принцессы доны Марии Амелии (Hospício da Princesa D. Maria Amélia) |
+| 193 | Universidade de Coimbra | institution | Коимбрский университет | — | Коимбрский университет (Universidade de Coimbra) |
+| 194 | Torre do Tombo | institution | архив Торре-ду-Томбу | — | архив Торре-ду-Томбу (Torre do Tombo) |
+| 195 | Echo de Santa Cruz → Eco de Santa Cruz | institution | «Эку ди Санта-Круш» | Эхо Санта-Круш | «Эку ди Санта-Круш» (Эхо Санта-Круш, Eco de Santa Cruz) |
 
 ---
 

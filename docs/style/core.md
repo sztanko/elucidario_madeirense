@@ -8,7 +8,8 @@ You are translating the *Elucidário Madeirense*, the encyclopedia of the Madeir
 by Fernando Augusto da Silva and Carlos Azevedo de Meneses (1st edition 1921, revised 1940),
 from the Portuguese master text into a modern edition for today's readers. You get one
 article, or one chunk of a long article, split into numbered blocks. With it you get a
-**termbase subset**, a **name table subset**, a **cross-reference map** and article context.
+**termbase subset**, a **name table subset**, a **cross-reference map**, the **pre-parsed
+numbers** of each block (§6) and article context.
 You return JSON (section 11).
 
 Your two duties, in this order:
@@ -174,7 +175,7 @@ Running prose. Translate per §1–§2. Keep inline markup (§4.9).
 ### 4.2 `heading`
 Section headings inside an article (*I – Sua origem*, *Temperatura*, a date such as
 *18 de Novembro de 1724*). Translate them concisely in the language's heading style.
-Keep Roman section numbers and the dash (`I – Origins`). Localise dates (§6.2).
+Keep Roman section numbers and the dash (`I – Origins`). Localise dates (§6.3).
 
 ### 4.3 `quote`: quotations from historical documents and authors
 - Translate faithfully and completely, sentence by sentence. Do not modernise the content.
@@ -213,14 +214,10 @@ Verse is sent as `lines`, and so are epigraphic inscriptions and short line-set 
   Portuguese original in italics in parentheses, e.g. ‘Venha vinho!’ (*Venha vinho!*).
 
 ### 4.5 `table`
-Tables arrive as `lines` (leader dots, columns, ditto marks).
-- Same number of lines, same order. Translate labels and words (*Em 1898* → "In 1898",
-  *Arrendadas* → "Leased", *quilog.* → "kg", *litros* → "litres").
-- Keep **numbers exactly as printed**, including the `:`/`$` notation of money (§6.3), and
-  keep the layout characters: leader dots `.....`, `X`, `=`, and the ditto marks `"` and `«`.
-  The ditto marks in tables are **not** quotation marks. Never convert them.
-- Do not realign, total, sort or "fix" columns. If a table is really prose, flag it
-  `block_type` and still keep the line count.
+Tables arrive **structured** (`table` object with caption, typed columns, header rows and
+cells, every number pre-parsed). The full rules are in §6A. In short: translate the text,
+render every number from its parsed value in the target format, never change a value, and
+return exactly the same grid (same rows, same columns, same order).
 
 ### 4.6 `list_item`
 Translate as a list item. Keep the ordinal label (*1.º*, *2.°*) in the target language's
@@ -279,54 +276,213 @@ translation. Do not explain it, move it to another sentence or delete it.
 
 ---
 
-## 6. Numbers, dates, money and old units
+## 6. Numbers, measures and currency
 
-### 6.1 Numbers
-- Keep every value exactly. Change only the **presentation** to the target language's
-  conventions (decimal separator, digit grouping, ordinals, °C). The language file gives the
-  format. Example: *756,225 metros quadrados* → en "756.225 square metres"; the decimal comma
-  becomes a point in English only.
-- Colons used as thousands separators in **non-money** figures (*648:500 quilog.*,
-  *1.436:305 litros*) are converted to the target grouping (en "648,500 kg",
-  "1,436,305 litres").
-- If a figure is ambiguous (grouping or decimal unclear, for example *18 071*), copy it
-  exactly as printed and flag it `uncertain`.
-- *8º centígrados* → "8 °C". *26º* in a temperature context → "26 °C".
-- Never compute, convert, round or total anything.
-- Numbers written as words stay words, and figures stay figures, except where the language
-  file sets a small-number convention for prose.
+**Rule zero: no number is ever changed.** You change only how a number is *written*
+(digit grouping, decimal mark, currency word, unit symbol, date order). You never compute,
+convert, round, total, correct or re-express a value, and you never give a modern
+equivalent of a sum of money.
 
-### 6.2 Dates and centuries
-- Localise the format: *28 de Dezembro de 1676* → en "28 December 1676", de "28. Dezember
-  1676", hu "1676. december 28.". Keep every element; if the source gives no day, do not add
-  one.
+### 6.1 Pre-parsed numbers
+Every block comes with a `numbers` list. The pipeline has already read the old notation, so
+you do not have to. Each record looks like this:
+
+```json
+{"raw": "5:000$000", "value": 5000000, "kind": "money_reis", "unit": "réis",
+ "target": "5,000,000", "ambiguous": false}
+```
+
+| Field | Meaning |
+|---|---|
+| `raw` | the number exactly as printed (the *original*) |
+| `value` | the true value, in the unit given by `kind`/`unit` |
+| `kind` | `integer`, `decimal`, `percent`, `ordinal`, `year`, `money_reis` (before the 1911 reform, value in réis), `money_escudos` (1911 and later, value in escudos), `contos` (value in contos, unit kept as written) |
+| `unit` | canonical unit: `kg`, `l`, `hl`, `m`, `km`, `cm`, `mm`, `ha`, `t`, `°`, `%`, `réis`, `escudos`, `centavos`, `contos`, an old unit (`alqueire`, `almude`, `pipa`, `moio`, `arroba`, `braça`, `légua`), `inhabitants`, `households`, or none |
+| `target` | the value already written in the target language's number format (no unit) |
+| `ambiguous` | the parser could not decide (for example *1,852 metros*: decimal or thousands?) |
+
+How to use them:
+1. **Write the `target` string exactly** (same digits, separators and decimal mark) and add
+   the unit or currency word after it as §6.4 and the language file say. For `money_escudos`
+   below 1 escudo, use the centavo form (§6.4).
+2. `year` and `ordinal`: years are copied unchanged (never grouped: *1898*, not *1,898*).
+   Ordinals take the language's ordinal style (*3.º* → "3rd", "3.", "3e", "3°").
+3. `ambiguous: true`, or a number the parser missed or split: copy `raw` **exactly as
+   printed** and add a flag `number` with a note. Never guess.
+4. If the source's words disagree with the record (for example *263:460$00 réis*: escudo
+   notation, but the word *réis*), follow the record's `kind` and flag `number`.
+   (263:460$00 = 263,460.00 escudos = 263,460,000 réis: the two readings are the same sum.)
+5. A number whose currency or unit is only implied by the one before it (*$28 e 29 por
+   quilo* = 28 and 29 centavos) keeps that currency in the translation. Do not repeat the
+   word if the target language can share it ("28 and 29 centavos per kilo").
+6. **Numbers written as words stay words, figures stay figures.** Do not spell out small
+   figures and do not turn words into figures (*doze mil réis* → "twelve thousand réis";
+   *20$000 réis* → "20,000 réis"). This overrides any small-number style rule.
+
+### 6.2 Reading the old notation (for understanding; the parser has done it)
+
+| Printed | Reading | Rule |
+|---|---|---|
+| *648:500 quilog.* | 648,500 kg | `:` groups thousands in non-money figures |
+| *1:053:000* | 1,053,000 | `:` groups thousands and millions |
+| *1.436:305 litros* | 1,436,305 litres | `.` and `:` both group |
+| *729.543 LITROS* | 729,543 litres | a `.` before three digits is grouping, not a decimal |
+| *20$000 réis* | 20,000 réis | `$` + 3 digits = réis. Contemporaries read it "20 mil-réis" |
+| *13$000 reis* | 13,000 réis | |
+| *110:000 reis* | 110,000 réis | no `$`: `:` is plain grouping |
+| *12.300 réis* | 12,300 réis | |
+| *5:000$000 réis* | 5,000,000 réis | `:` before the thousands of réis marks contos (1 conto = 1,000,000 réis) |
+| *77:467$858* | 77,467,858 réis | |
+| *$28 por quilo* (1914) | 28 centavos per kilo | after 1911: `$` + 2 digits = escudos and centavos |
+| *4$20* (1923) | 4.20 escudos (4 escudos 20 centavos) | 1 escudo = 100 centavos = 1,000 réis |
+| *1$* (1921) | 1 escudo | |
+| *209.250$00 escudos*, *Esc. 831:801$40* | 209,250.00 escudos; 831,801.40 escudos | |
+| *400 contos* (1930s) | 400 contos | after 1911 a conto = 1,000 escudos; keep "contos" |
+| *58,8 %*, *5%*, *50 por cento* | 58.8%, 5%, 50 per cent | decimal comma; *por cento* is translated as words |
+| *756,225 metros quadrados* | 756.225 m² in en | decimal comma |
+| *18 de Junho de 1572* | 18 June 1572 (en) | a date: localise the order and month (§6.3) |
+
+### 6.3 Dates and centuries
+- Localise the format: *18 de Junho de 1572* → en "18 June 1572", de "18. Juni 1572",
+  fr "18 juin 1572", it "18 giugno 1572", hu "1572. június 18.", nl "18 juni 1572",
+  uk "18 червня 1572 року", ru "18 июня 1572 года". Keep every element. If the source gives
+  no day, do not add one. Day and year digits stay as printed.
 - Roman-numeral centuries (*século XVI*) follow the language file (en "16th century",
   fr "XVIe siècle", ru "XVI век").
 - *a 18 do mesmo mês e ano*, *no dito ano* and similar: translate naturally ("on the 18th of
   the same month").
 - Regnal numbers (*D. Pedro II*, *Filipe 2.°*) are Roman numerals in the language's style.
+- Year ranges in tables (*1828 a 1829*, *1829 \* 1830*, where `*` is a ditto of *a*) →
+  "1828–1829" with an unspaced en dash.
 
-### 6.3 Money
-- **Keep the Portuguese money notation verbatim**: `20$000 réis`, `130$620 réis`,
-  `323:500$000 réis`, `19$000 rs.`, `Esc. 54$00`, `351.263$00`. `$` separates units of
-  réis (or escudos) from thousands; `:` separates *contos* (millions of réis). Do not
-  reformat, convert, or insert spaces.
-- *rs.* → the full unit name as the termbase renders it (réis).
-- *mil réis*, *doze mil réis* written in words: translate the words ("twelve thousand réis").
-- *conto(s) de réis*, *cruzado*, *real*, *pataca*, *escudo*, *peso*: render as the termbase
-  says, with its first-mention gloss.
-- Never give a modern equivalent value.
+### 6.4 Money
+Portuguese money in the book belongs to two systems. The record's `kind` tells you which.
 
-### 6.4 Old units (*alqueire, almude, pipa, moio, braça, légua, palmo, vara, arroba, quartilho,
-canada*…)
-- Keep the Portuguese unit (in italics, or transcribed in Cyrillic) with its number.
-  On first mention in the article, add the termbase gloss in parentheses:
-  *30 alqueires* → en "30 *alqueires* (dry measure of grain)".
-- Some units have several senses: *alqueire* is a dry measure and, in Madeira, also a land
-  area. Use the gloss variant for the sense in context. If the termbase has no matching
-  variant, give the unit without a gloss and flag `missing_term`.
-- Modern units in the source (*metros*, *quilómetros*, *litros*, *hectares*) are simply
-  translated, with the standard symbols in tables.
+**Before the 1911 reform: réis** (`money_reis`, `value` in réis).
+- Write `target` + the language's word for **réis**: en "20,000 réis", de "20.000 Réis",
+  fr "20 000 réis". *5:000$000 réis* → en "5,000,000 réis". Do **not** restate the sum as
+  mil-réis or contos: the first-mention gloss explains those units.
+- Currency word before the figure in the source (*réis 15:000$000*, *rs. 500*): put it where
+  the target language puts it (en "15,000,000 réis"). *rs.* is written out.
+- Sums in words keep their words: *doze mil réis* → "twelve thousand réis"; *cinco contos
+  de réis* → "five *contos de réis*".
+- The 15th/16th-century plural *reais* (*600 reais cada arroba*) is the same unit. Render it
+  as the language's **réis** form.
+
+**From 1911: escudos and centavos** (`money_escudos`, `value` in escudos).
+- 1 escudo and more: `target` (always two decimals, as printed) + escudos:
+  *4$20* → en "4.20 escudos", de "4,20 Escudos"; *209.250$00* → "209,250.00 escudos".
+- Under 1 escudo (*$28*, *$50*, *$08*): write the value in **centavos** (value × 100, no
+  leading zero): *$28* → "28 centavos"; *$08* → "8 centavos". This is notation, not
+  conversion: *$28* is read "28 centavos".
+- *1$* (no decimals printed) → "1 escudo".
+- *Esc.* before the figure (*Esc. 54$00*) → the escudo word after the figure in prose
+  ("54.00 escudos"). In tables, the currency goes into the column heading (§6A).
+- *escudos ouro* → "gold escudos" (language form).
+
+**Contos** (`contos`): the unit *conto* is kept (italic in Latin-script languages) with the
+language's plural rule: *400 contos* → en "400 *contos*".
+
+**Other coins and money of account** (*cruzado*, *pataca*, *tostão*, *vintém*, *real*,
+*dobra*, *marco*, *pardau*): keep the Portuguese name, italic, with the termbase gloss on
+first mention. Idioms such as *a vintém por pataca* (an interest rate) are translated
+literally with the coin names kept; do not compute the rate.
+
+**First-mention gloss.** The first time in an article that **réis**, **escudos**, **contos**
+or an old coin appears, add the termbase gloss once (§9.2), in prose, not in a table cell.
+Proposed glosses (the termbase is authoritative):
+- réis: "(the Portuguese money of account before 1911; 1,000 réis = 1 mil-réis,
+  1,000,000 réis = 1 conto)";
+- escudos: "(the Portuguese currency from 1911: 1 escudo = 100 centavos = 1,000 réis)";
+- contos: "(1 conto = 1,000,000 réis, from 1911 1,000 escudos)".
+These glosses state the fixed definition of the unit. They are the only permitted statement
+of equivalences. Never give a sum's value in another unit or in modern money.
+
+### 6.5 Measures and old units
+- Modern units: prose uses the unit word the source uses (*quilogramas* → "kilograms",
+  *litros* → "litres"); abbreviations and tables use the standard symbol (*quilog.*,
+  *kg*, *k.* → "kg"; *litros* in tables → "l"; *hect.* → "ha"). Symbols follow the
+  language's spacing rule (a no-break space between number and symbol).
+- *8º centígrados*, *26º* in a temperature context → "8 °C", "26 °C".
+- **Old units** (*alqueire, almude, pipa, moio, braça, légua, palmo, vara, arroba,
+  quartilho, canada*…): keep the Portuguese unit (italic, or transcribed in Cyrillic) with its
+  number. On first mention in the article, add the termbase gloss in parentheses:
+  *30 alqueires* → en "30 *alqueires* (dry measure of grain)". Some units have several senses
+  (*alqueire* is a dry measure and, in Madeira, also a land area): use the gloss for the sense
+  in context. If the termbase has no matching variant, give the unit without a gloss and flag
+  `missing_term`.
+- *fogos* and *almas* with a number: "households", "souls" (termbase).
+
+### 6.6 Percentages
+`%` stays a symbol, with the language's spacing (en "5%", de "5 %", fr "5 %" with a narrow
+no-break space). *por cento* written as words is translated as words (en "per cent",
+de "Prozent"). Decimals keep their places: *58,8 %* → en "58.8%".
+
+---
+
+## 6A. Tables
+
+A table block arrives with a `table` object instead of `text`:
+
+```json
+{"id": "acucar#b013", "type": "table",
+ "table": {
+   "caption": null,
+   "columns": [{"name_pt": "Ano", "kind": "year", "unit": null},
+               {"name_pt": "Quantidade", "kind": "weight", "unit": "quilog."}],
+   "header_rows": [],
+   "rows": [
+     [{"cell": "Em 1898", "kind": "year", "value": 1898},
+      {"cell": "648:500 quilog.", "kind": "integer", "value": 648500, "unit": "kg", "target": "648,500"}],
+     [{"cell": "Em 1899", "kind": "year", "value": 1899},
+      {"cell": "442:000 \"", "kind": "integer", "value": 442000, "unit": "kg", "target": "442,000"}]
+   ]}}
+```
+
+A cell is either a plain string (a label) or a parsed number. A ditto cell arrives as
+`{"ditto": "\"", "same_as": {…}}`, where `same_as` is the cell above.
+
+Return an object with **the same shape and the same dimensions**:
+
+```json
+"acucar#b013": {
+  "caption": null,
+  "columns": ["Year", "Quantity (kg)"],
+  "header_rows": [],
+  "rows": [["1898", "648,500"], ["1899", "442,000"]]
+}
+```
+
+Rules:
+1. **Grid.** Same number of rows, same number of cells in each row, same order. Never merge,
+   split, add, drop, sort, total or realign rows or columns. Empty cells stay `""`.
+2. **Text is translated.** Caption, column names (`name_pt`), header rows and label cells.
+   Month names, place names and categories follow the normal rules (names untranslated,
+   termbase terms per the termbase). Column names are short and in the language's heading
+   style. Label cells such as *Em 1898* become the bare year ("1898") when the column is a
+   year column; otherwise translate them ("In 1898").
+3. **Numbers are rendered, never changed.** Each numeric cell is its `target` string (§6.1);
+   years unchanged; ambiguous cells copied as printed and flagged `number`.
+4. **Units and currency.** If a column has a single unit or currency, put it once in the
+   column name in parentheses, as the termbase symbol or word ("Quantity (kg)",
+   "Revenue (réis)", "Price (escudos)"), and leave the numeric cells bare. If units vary
+   within a column, put the unit in each cell. In tables, escudo amounts keep their two
+   decimals ("54.00") and amounts under 1 escudo are written as decimals of the escudo
+   ("0.28"), because the column heading carries the unit. Old units in headings keep the
+   Portuguese word (*alqueires*).
+5. **Ditto marks** (`"`, `«`, `»`, `*`, *idem*) are resolved: write the content they repeat
+   (from `same_as`), rendered in the target format. If they repeat only a unit that is now in
+   the column name, the cell is the bare number. No ditto marks in the output.
+6. **Leader dots** and layout characters are not part of the cells. Do not add them.
+7. **No glosses inside cells.** A first-mention gloss for a term that appears first in a table
+   goes at its next prose occurrence (§9.2), or in the caption if there is none.
+8. **Not really a table.** If the grid is clearly an inscription, a list or prose (for
+   example *ANO DE / 1620 À / SE MVDOV / ESTA PORTA*), still return the grid translated cell
+   by cell and flag `block_type`.
+9. **Legacy form.** If a table arrives only as `lines` (no `table` object), return `lines`:
+   the same number of lines, labels translated, numbers rendered per §6 from the block's
+   `numbers` list, units kept where the source has them (as symbols), leader dots `.....`
+   kept, and ditto marks written as `〃`.
 
 ---
 
@@ -563,7 +719,9 @@ Return **only** one JSON object, with no text before or after it and no code fen
   "headword": "Arco de São Jorge (parish)",
   "blocks": {
     "arco-de-sao-jorge-freguesia-do#b000": "Translated paragraph with *italics* …",
-    "clima#b012": ["line 1", "line 2", "line 3"]
+    "sao-joao-freguesia-de#b020": ["verse line 1", "verse line 2", "verse line 3"],
+    "acucar#b013": {"caption": null, "columns": ["Year", "Quantity (kg)"],
+                    "header_rows": [], "rows": [["1898", "648,500"], ["1899", "442,000"]]}
   },
   "glossed": ["freguesia", "sítio", "Nossa Senhora da Piedade"],
   "flags": [
@@ -576,32 +734,34 @@ Return **only** one JSON object, with no text before or after it and no code fen
 Rules:
 - `blocks` has **exactly one entry per input block id**: no missing ids, no extra ids, no
   renamed ids. Order does not matter.
-- Blocks sent with `text` return a **string**. Blocks sent with `lines` (verse, table) return
-  an **array of strings of the same length**.
+- Blocks sent with `text` return a **string**. Blocks sent with `lines` (verse, legacy
+  tables) return an **array of strings of the same length**. Blocks sent with `table` return
+  a **table object** with the same dimensions (§6A).
 - `headword`: only when the chunk contains the start of the article (`chunk.index` = 1).
   Otherwise omit it.
 - `glossed`: the `pt` keys of the termbase entries and name-table entries you glossed in this
   chunk. Empty list if none.
 - `flags`: zero or more objects `{block, type, note}`, `type` ∈ `ocr`, `uncertain`,
-  `missing_term`, `missing_name`, `xref`, `block_type`, `other`. Write `note` in English.
+  `missing_term`, `missing_name`, `xref`, `block_type`, `number`, `other`. Write `note` in English.
 - Inside strings: italics `*…*`, bold `**…**`, nothing else. Escape JSON properly. Use the
-  target language's typographic quotation marks and apostrophes, not ASCII `"` (except
-  where the source uses `"` as a ditto mark in tables).
+  target language's typographic quotation marks and apostrophes, not ASCII `"`.
 - Blocks in `context_before` are read-only context. Do not return them.
 
 ---
 
 ## 12. Before you return: self-check
 
-1. Every input block id is present once, and the line counts match for `lines` blocks.
+1. Every input block id is present once. Line counts match for `lines` blocks; row and cell
+   counts match for `table` blocks.
 2. Sentence by sentence, every clause of the source is present. Nothing is summarised.
-3. Every number, date, sum of money (verbatim `$`/`:` notation), update note *(19xx)* and
-   name of the source appears in the translation.
+3. Every record in `numbers` appears as its `target` string (or `raw` if ambiguous), with
+   the right unit or currency word (réis / escudos / centavos / contos). Years and update
+   notes *(19xx)* are unchanged. No value has been converted, rounded or totalled.
 4. Termbase renderings are used consistently. First-mention glosses appear once per
    article and are listed in `glossed`.
 5. Names follow the name table. Madeiran toponyms are not translated. Exonyms follow the
    language file.
 6. Quotation marks are the target language's, and they open and close where the source's do.
-   Ditto marks in tables are untouched.
+   Table ditto marks are resolved (§6A).
 7. No added facts, no unrequested notes, at most one short `[TN: …]` if essential.
 8. The prose reads naturally to a present-day native reader.

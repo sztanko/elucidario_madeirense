@@ -30,7 +30,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 ## 4. Numbers, dates, units
 - Thousands with a full stop from five digits: 12.500, 1.436.305. Decimal comma: 756,225.
   No separator in four-digit numbers (4000) or years.
-- In prose, numbers up to ten in words, except with units, money, dates and in tables.
+- Figures stay figures and words stay words (core §6.1): *doze* → *dodici*, *12* → *12*.
 - Dates: 28 dicembre 1676; il 18 novembre 1724; il 1° gennaio; verso il 1640 (*pelos anos de
   1640*).
 - Centuries: **XVI secolo** (or *il Cinquecento* where the source's rhetoric suits it:
@@ -39,9 +39,49 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   *1.º* → 1°.
 - Regnal numbers: Giovanni I, Filippo II.
 - Temperatures: 8 °C. Time: tra le 13 e le 15.
-- Money: verbatim notation (20$000 réis, 323:500$000 réis, Esc. 54$00). *réis* roman.
-  *conto* italic, and it keeps the Portuguese plural *contos*. This is an exception to the
-  invariable rule, because the Italian *conto* would mislead: *2 contos di réis*.
+- Percentages: 5%, 58,8% (no space). *por cento* → *per cento*.
+- Units: a no-break space between number and symbol (648.500 kg, 12 km, 8 °C).
+
+### 4a. Money, parsed numbers and tables
+- Separators: thousands **`.`** from five digits (4000; 20.000; 1.053.000); decimal **`,`**.
+  Years never grouped. The pipeline's `target` string already follows this.
+- Currency words: **réis** (roman, invariable); **escudo** and **centavo** (roman,
+  invariable, m.: *4,20 escudo*, *28 centavo*); ***conto*** italic with the Portuguese plural
+  ***contos***, an exception to the invariable rule, because the Italian *conto* would
+  mislead (*400 contos*, *cinque contos di réis*); ***mil-réis*** only where the source
+  writes it; *cruzado*, *pataca*, *tostão*, *vintém* (italic, invariable, termbase gloss).
+  *reais* → réis.
+- Order: number + currency ("20.000 réis", "4,20 escudo"). *Esc. 54$00* in prose →
+  "54,00 escudo". *por quilo* → *al chilo*.
+- First-mention glosses (proposed): réis (moneta di conto portoghese prima del 1911;
+  1000 réis = 1 mil-réis, 1.000.000 réis = 1 conto); escudo (moneta portoghese dal 1911:
+  1 escudo = 100 centavo = 1000 réis); *contos* (1 conto = 1.000.000 réis, dal 1911
+  1000 escudo).
+- Table headings: «Anno», «Anni», «Quantità (kg)», «Litri», «Entrate (réis)»,
+  «Uscite (escudo)», «Prezzo (escudo)», «Abitanti», «Fuochi».
+
+| Source | `kind`, `value` | it |
+|---|---|---|
+| *Em 1898 ...... 648:500 quilog.* (table) | year 1898; integer 648500, kg | row `["1898", "648.500"]`, column «Quantità (kg)» |
+| *1:053:000* (prose, kg) | integer 1053000 | 1.053.000 kg |
+| *20$000 réis* | money_reis 20000 | 20.000 réis |
+| *5:000$000 réis* | money_reis 5000000 | 5.000.000 réis |
+| *13$000 reis* | money_reis 13000 | 13.000 réis |
+| *110:000 reis* | money_reis 110000 | 110.000 réis |
+| *$28 e 29 por quilo* (1914) | money_escudos 0.28; integer 29 | 28 e 29 centavo al chilo |
+| *4$20* (1923) | money_escudos 4.2 | 4,20 escudo |
+| *Esc. 831:801$40* | money_escudos 831801.4 | 831.801,40 escudo |
+| *400 contos* | contos 400 | 400 *contos* |
+| *doze mil réis* | (words) | dodicimila réis |
+| *5%*, *58,8 %*, *50 por cento* | percent 5; percent 58.8; integer 50 | 5%, 58,8%, 50 per cento |
+| *18 de Junho de 1572* | integer 18; year 1572 | 18 giugno 1572 |
+
+> PT: …sendo-lhe fixado o vencimento anual de 13$000 reis, a que o alvará de 10 de Julho do
+> mesmo ano acrescentou 110:000 reis…
+>
+> IT: …con uno stipendio annuo di 13.000 réis (moneta di conto portoghese prima del 1911;
+> 1000 réis = 1 mil-réis, 1.000.000 réis = 1 conto), cui l’alvará del 10 luglio dello stesso
+> anno aggiunse 110.000 réis…
 
 ## 5. Default renderings (proposed; the termbase is authoritative)
 
@@ -161,7 +201,8 @@ Glosses are placeholders for termbase and name-table entries. First mention assu
 > alqueires de trigo.
 >
 > IT: La già citata legge del 26 marzo 1845 fissò la congrua della curazia di questa
-> parrocchia in 20$000 réis in denaro, 1 *pipa* (botte da vino) e 15 *almude* (misura per
+> parrocchia in 20.000 réis (moneta di conto portoghese prima del 1911; 1000 réis =
+> 1 mil-réis, 1.000.000 réis = 1 conto) in denaro, 1 *pipa* (botte da vino) e 15 *almude* (misura per
 > liquidi) di vino, e 1 *moio* (60 *alqueire*) e 30 *alqueire* (misura per aridi) di grano.
 
 **4. Lombada do Loreto**, `#b000`

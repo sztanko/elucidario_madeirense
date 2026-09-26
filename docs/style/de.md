@@ -36,7 +36,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 ## 4. Numbers, dates, units
 - Decimal comma: 756,225. Thousands with a full stop from five digits: 12.500,
   1.436.305. Four-digit numbers take no separator (4000), and years never do.
-- In prose, one to twelve in words, except with units, money, dates and in tables.
+- Figures stay figures and words stay words (core §6.1): *doze* → *zwölf*, *12* → *12*.
 - Dates: 28. Dezember 1676; am 18. November 1724; in den 1640er-Jahren; um 1640
   (*pelos anos de 1640*).
 - Centuries: das 16. Jahrhundert; im 16. Jahrhundert; *século de quatrocentos* → das
@@ -44,8 +44,49 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 - Ordinals: 3. Visconde; list labels *1.º* → 1.
 - Regnal numbers: Johann I., Philipp II. (with the full stop).
 - Temperatures: 8 °C. Time: zwischen 13 und 15 Uhr, zwischen 4 und 6 Uhr morgens.
-- Money: verbatim notation (20$000 Réis, 323:500$000 Réis, Esc. 54$00). The unit is
-  capitalised: *Réis*, *Conto(s)*, *Escudo(s)*, *Cruzado(s)*.
+- Percentages: 5 %, 58,8 % (no-break space before %, DIN 5008). *por cento* → *Prozent*.
+- Units: a no-break space between number and symbol (648.500 kg, 12 km, 8 °C).
+
+### 4a. Money, parsed numbers and tables
+- Separators: thousands **`.`** from five digits (4000; 12.500; 1.053.000); decimal **`,`**.
+  Years never grouped. The pipeline's `target` string already follows this. In a table column
+  that also holds five-digit numbers, four-digit numbers keep the `target` form as given.
+- Currency words (German nouns, capitalised): **Réis** (invariable: 500 Réis);
+  **Escudo** / pl. **Escudos**; **Centavo** / pl. **Centavos**; ***Conto*** / pl. ***Contos***
+  (italic); ***Mil-Réis*** only where the source writes it; *Cruzado(s)*, *Pataca(s)*,
+  *Tostão / Tostões*, *Vintém / Vinténs* (italic, termbase gloss). *reais* → Réis.
+  Gender: der Escudo, der Centavo, der Conto; *Réis* is used as a plural (*die 500 Réis*).
+- Order: number + currency ("20.000 Réis", "4,20 Escudos"). *Esc. 54$00* in prose →
+  "54,00 Escudos".
+- First-mention glosses (proposed): Réis (portugiesische Rechnungsmünze vor 1911;
+  1000 Réis = 1 Mil-Réis, 1.000.000 Réis = 1 Conto); Escudos (portugiesische Währung ab 1911:
+  1 Escudo = 100 Centavos = 1000 Réis); *Contos* (1 Conto = 1.000.000 Réis, ab 1911
+  1000 Escudos).
+- Table headings: „Jahr“, „Jahre“, „Menge (kg)“, „Liter“, „Einnahmen (Réis)“,
+  „Ausgaben (Escudos)“, „Preis (Escudos)“, „Einwohner“, „Haushalte“.
+
+| Source | `kind`, `value` | de |
+|---|---|---|
+| *Em 1898 ...... 648:500 quilog.* (table) | year 1898; integer 648500, kg | row `["1898", "648.500"]`, column „Menge (kg)“ |
+| *1:053:000* (prose, kg) | integer 1053000 | 1.053.000 kg |
+| *20$000 réis* | money_reis 20000 | 20.000 Réis |
+| *5:000$000 réis* | money_reis 5000000 | 5.000.000 Réis |
+| *13$000 reis* | money_reis 13000 | 13.000 Réis |
+| *110:000 reis* | money_reis 110000 | 110.000 Réis |
+| *$28 e 29 por quilo* (1914) | money_escudos 0.28; integer 29 | 28 und 29 Centavos pro Kilo |
+| *4$20* (1923) | money_escudos 4.2 | 4,20 Escudos |
+| *Esc. 831:801$40* | money_escudos 831801.4 | 831.801,40 Escudos |
+| *400 contos* | contos 400 | 400 *Contos* |
+| *doze mil réis* | (words) | zwölftausend Réis |
+| *5%*, *58,8 %*, *50 por cento* | percent 5; percent 58.8; integer 50 | 5 %, 58,8 %, 50 Prozent |
+| *18 de Junho de 1572* | integer 18; year 1572 | 18. Juni 1572 |
+
+> PT: …sendo-lhe fixado o vencimento anual de 13$000 reis, a que o alvará de 10 de Julho do
+> mesmo ano acrescentou 110:000 reis…
+>
+> DE: …mit einem Jahresgehalt von 13.000 Réis (portugiesische Rechnungsmünze vor 1911;
+> 1000 Réis = 1 Mil-Réis, 1.000.000 Réis = 1 Conto), zu dem der Erlass vom 10. Juli desselben
+> Jahres 110.000 Réis hinzufügte …
 
 ## 5. Default renderings (proposed; the termbase is authoritative)
 
@@ -176,7 +217,8 @@ Glosses are placeholders for termbase and name-table entries. First mention assu
 > alqueires de trigo.
 >
 > DE: Das bereits erwähnte Gesetz vom 26. März 1845 setzte die Besoldung (*côngrua*) der
-> Kuratie dieser Gemeinde auf 20$000 Réis in Geld, 1 *Pipa* (Weinfass) und 15 *Almudes*
+> Kuratie dieser Gemeinde auf 20.000 Réis (portugiesische Rechnungsmünze vor 1911;
+> 1000 Réis = 1 Mil-Réis, 1.000.000 Réis = 1 Conto) in Geld, 1 *Pipa* (Weinfass) und 15 *Almudes*
 > (Flüssigkeitsmaß) Wein sowie 1 *Moio* (60 *Alqueires*) und 30 *Alqueires*
 > (Getreidemaß) Weizen fest.
 

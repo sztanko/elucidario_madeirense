@@ -44,3 +44,12 @@ Jev's confidence does not help here either (64.6% accuracy at confidence ≥ 0.8
 
   The harness is reusable. The adoption rule stays: use Jev only where it matches Sonnet on a labelled sample.
 - **Side finding for Phase 3:** Sonnet 5 missed about a third of the errors Opus found. The corpus-wide OCR proofreading pass will therefore use **Opus 5.5 at low effort through the Batch API** (about $8–12) rather than Sonnet (about $3).
+
+## Task C (Phase 6 re-test): link homonym disambiguation, English context
+- **Setup:** 377 ambiguous cross-reference links. Each has between 2 and 12 candidate entries, and each candidate is described by its English abstract. The passage itself is Portuguese. The gold labels are Opus 5.5's decisions from the synthesis batch.
+- **Result:** Jev agrees with Opus on **93.4%** overall.
+  - At confidence ≥ 0.5: 96.9%, covering 85% of the links.
+  - At confidence ≥ 0.7: **98.9%**, covering 75%.
+  - At confidence ≥ 0.85: 100%, covering 61%.
+- **Decision: adopted for this task, with confidence-gated routing.** Jev answers when its confidence is ≥ 0.7; everything else goes to Claude.
+- **Why this task suits Jev:** it is a literal closed choice, the candidate descriptions are English, and no indirection is needed. This matches the vendor's guidance.

@@ -36,16 +36,54 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 ## 4. Numbers, dates, units
 - Digit groups separated by a narrow no-break space: 1 436 305. Decimal comma: 756,225.
   Four-digit numbers take no separator (4000); years never do.
-- Numbers from one to sixteen and round numbers in words in running prose, except with
-  units, money, dates and in tables.
+- Figures stay figures and words stay words (core §6.1): *doze* → *douze*, *12* → *12*.
 - Dates: le 28 décembre 1676; le 1er janvier; vers 1640 (*pelos anos de 1640*).
 - Centuries: **XVIe siècle** (Roman numeral with superscript *e*, small caps if the renderer
   supports it; plain text output: `XVIe siècle`). *Século de quatrocentos* → XVe siècle.
 - Ordinals: 1er, 2e, 3e; *3.º visconde* → 3e vicomte; list labels *1.º*, *2.º* → 1°, 2°.
 - Regnal numbers: Jean Ier, Philippe II.
 - Temperatures: 8 °C. Time: entre 13 h et 15 h.
-- Money: verbatim notation (20$000 réis, 323:500$000 réis, Esc. 54$00). *réis* roman,
-  *conto(s)* italic.
+- Percentages: 5 %, 58,8 % (narrow no-break space before %). *por cento* → *pour cent*.
+
+### 4a. Money, parsed numbers and tables
+- Separators: thousands **narrow no-break space U+202F** from five digits (4000;
+  20 000; 1 053 000); decimal **`,`**. Years never grouped. The pipeline's `target`
+  string already contains U+202F: copy it, do not replace it with an ordinary space.
+- Currency words: **réis** (roman, invariable); **escudo / escudos**; **centavo /
+  centavos**; ***conto / contos*** (italic, m.); ***mil-réis*** only where the source writes
+  it; *cruzado(s)*, *pataca(s)*, *tostão / tostões*, *vintém / vinténs* (italic, termbase
+  gloss). *reais* → réis. Genders: les réis (m. pl.), un escudo, un centavo, un *conto*.
+- Order: number + currency ("20 000 réis", "4,20 escudos"). *Esc. 54$00* in prose →
+  "54,00 escudos". *por quilo* → *le kilo*.
+- First-mention glosses (proposed): réis (monnaie de compte portugaise avant 1911 ;
+  1000 réis = 1 mil-réis, 1 000 000 réis = 1 conto) ; escudos (monnaie portugaise à
+  partir de 1911 : 1 escudo = 100 centavos = 1000 réis) ; *contos* (1 conto = 1 000 000
+  réis, à partir de 1911 1000 escudos).
+- Table headings: « Année », « Années », « Quantité (kg) », « Litres », « Recettes (réis) »,
+  « Dépenses (escudos) », « Prix (escudos) », « Population », « Feux ».
+
+| Source | `kind`, `value` | fr |
+|---|---|---|
+| *Em 1898 ...... 648:500 quilog.* (table) | year 1898; integer 648500, kg | row `["1898", "648 500"]`, column « Quantité (kg) » |
+| *1:053:000* (prose, kg) | integer 1053000 | 1 053 000 kg |
+| *20$000 réis* | money_reis 20000 | 20 000 réis |
+| *5:000$000 réis* | money_reis 5000000 | 5 000 000 réis |
+| *13$000 reis* | money_reis 13000 | 13 000 réis |
+| *110:000 reis* | money_reis 110000 | 110 000 réis |
+| *$28 e 29 por quilo* (1914) | money_escudos 0.28; integer 29 | 28 et 29 centavos le kilo |
+| *4$20* (1923) | money_escudos 4.2 | 4,20 escudos |
+| *Esc. 831:801$40* | money_escudos 831801.4 | 831 801,40 escudos |
+| *400 contos* | contos 400 | 400 *contos* |
+| *doze mil réis* | (words) | douze mille réis |
+| *5%*, *58,8 %*, *50 por cento* | percent 5; percent 58.8; integer 50 | 5 %, 58,8 %, 50 pour cent |
+| *18 de Junho de 1572* | integer 18; year 1572 | 18 juin 1572 |
+
+> PT: …sendo-lhe fixado o vencimento anual de 13$000 reis, a que o alvará de 10 de Julho do
+> mesmo ano acrescentou 110:000 reis…
+>
+> FR: …avec un traitement annuel de 13 000 réis (monnaie de compte portugaise avant 1911 ;
+> 1000 réis = 1 mil-réis, 1 000 000 réis = 1 conto), auquel l’alvará du 10 juillet de la même
+> année ajouta 110 000 réis…
 
 ## 5. Default renderings (proposed; the termbase is authoritative)
 
@@ -168,7 +206,8 @@ Glosses are placeholders for termbase and name-table entries. First mention assu
 > alqueires de trigo.
 >
 > FR: La loi du 26 mars 1845, déjà citée, fixa la portion congrue de la cure de cette
-> paroisse à 20$000 réis en argent, 1 *pipa* (fût à vin) et 15 *almudes* (mesure de
+> paroisse à 20 000 réis (monnaie de compte portugaise avant 1911 ; 1000 réis =
+> 1 mil-réis, 1 000 000 réis = 1 conto) en argent, 1 *pipa* (fût à vin) et 15 *almudes* (mesure de
 > liquides) de vin, ainsi qu'à 1 *moio* (60 *alqueires*) et 30 *alqueires* (mesure de
 > grains) de blé.
 
