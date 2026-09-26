@@ -1,16 +1,22 @@
 {
-  "applied": 1511,
+  "applied": 1464,
+  "manual": {
+    "applied": 4,
+    "not_found": [
+      "\u00e9an au quinzi\u00e8me si\u00e8cle... Paris, 1902; e "
+    ]
+  },
   "by_kind": {
-    "punctuation": 310,
-    "ocr": 907,
-    "split_join": 55,
+    "punctuation": 274,
+    "ocr": 903,
+    "split_join": 54,
     "number": 94,
-    "hyphen": 145
+    "hyphen": 139
   },
   "rejected": {
     "circumflex-modernisation": 2,
+    "find-not-found": 54,
     "noop": 6,
-    "find-not-found": 7,
     "too-different": 1,
     "find-ambiguous": 1
   },

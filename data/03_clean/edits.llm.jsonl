@@ -14,8 +14,8 @@
 {"seq": 2179, "para": 2, "start": 985, "end": 986, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2179, "para": 2, "start": 1453, "end": 1454, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 1146, "para": 0, "start": 274, "end": 275, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1303, "para": 19, "start": 1104, "end": 1105, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1303, "para": 19, "start": 2825, "end": 2827, "repl": "D", "rule": "llm-ocr", "conf": 0.8, "before": "1)"}
+{"seq": 1303, "para": 19, "start": 1095, "end": 1096, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1303, "para": 19, "start": 2796, "end": 2798, "repl": "D", "rule": "llm-ocr", "conf": 0.8, "before": "1)"}
 {"seq": 1305, "para": 1, "start": 211, "end": 212, "repl": "ó", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
 {"seq": 1305, "para": 1, "start": 319, "end": 322, "repl": "000", "rule": "llm-number", "conf": 0.8, "before": "OOO"}
 {"seq": 1490, "para": 4, "start": 108, "end": 109, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": "!"}
@@ -37,7 +37,6 @@
 {"seq": 464, "para": 12, "start": 113, "end": 117, "repl": "-se-", "rule": "llm-hyphen", "conf": 0.8, "before": " se "}
 {"seq": 467, "para": 0, "start": 31, "end": 32, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 3426, "para": 6, "start": 914, "end": 915, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "e"}
-{"seq": 3427, "para": 5, "start": 522, "end": 522, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 1734, "para": 28, "start": 1, "end": 2, "repl": "8", "rule": "llm-ocr", "conf": 0.8, "before": "S"}
 {"seq": 1734, "para": 34, "start": 3, "end": 4, "repl": "°", "rule": "llm-ocr", "conf": 0.8, "before": "6"}
 {"seq": 1734, "para": 36, "start": 103, "end": 104, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
@@ -65,7 +64,6 @@
 {"seq": 2529, "para": 0, "start": 259, "end": 261, "repl": "i ", "rule": "llm-split_join", "conf": 0.8, "before": "ís"}
 {"seq": 2529, "para": 2, "start": 421, "end": 422, "repl": "i", "rule": "llm-ocr", "conf": 0.8, "before": "r"}
 {"seq": 2529, "para": 5, "start": 394, "end": 395, "repl": "q", "rule": "llm-ocr", "conf": 0.8, "before": "y"}
-{"seq": 3291, "para": 5, "start": 442, "end": 443, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3291, "para": 11, "start": 55, "end": 56, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 3133, "para": 34, "start": 462, "end": 464, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "te"}
 {"seq": 3133, "para": 37, "start": 327, "end": 328, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
@@ -88,15 +86,12 @@
 {"seq": 243, "para": 0, "start": 960, "end": 961, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 763, "para": 8, "start": 531, "end": 532, "repl": "h", "rule": "llm-ocr", "conf": 0.8, "before": "n"}
 {"seq": 763, "para": 5, "start": 453, "end": 477, "repl": "“De Joham Gomez da Ylha“", "rule": "llm-punctuation", "conf": 0.8, "before": "*De Joham Gomez da Ylha+"}
-{"seq": 764, "para": 0, "start": 54, "end": 60, "repl": "1 vol", "rule": "llm-punctuation", "conf": 0.8, "before": "I vol."}
 {"seq": 2399, "para": 18, "start": 67, "end": 68, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "O"}
 {"seq": 2409, "para": 1, "start": 227, "end": 228, "repl": "c", "rule": "llm-ocr", "conf": 0.8, "before": "e"}
 {"seq": 1338, "para": 14, "start": 30, "end": 31, "repl": "b", "rule": "llm-ocr", "conf": 0.8, "before": "h"}
 {"seq": 1338, "para": 6, "start": 185, "end": 186, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 1338, "para": 2, "start": 883, "end": 884, "repl": "i", "rule": "llm-ocr", "conf": 0.8, "before": "í"}
-{"seq": 1861, "para": 6, "start": 641, "end": 642, "repl": " ", "rule": "llm-hyphen", "conf": 0.8, "before": "-"}
 {"seq": 1861, "para": 15, "start": 874, "end": 875, "repl": ".", "rule": "llm-number", "conf": 0.8, "before": " "}
-{"seq": 1861, "para": 15, "start": 1328, "end": 1329, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3279, "para": 0, "start": 99, "end": 101, "repl": "11", "rule": "llm-number", "conf": 0.8, "before": "II"}
 {"seq": 3284, "para": 0, "start": 250, "end": 251, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 3285, "para": 0, "start": 294, "end": 295, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
@@ -115,7 +110,6 @@
 {"seq": 3486, "para": 0, "start": 51, "end": 52, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
 {"seq": 3481, "para": 7, "start": 264, "end": 265, "repl": "ô", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 1978, "para": 2, "start": 435, "end": 436, "repl": "«", "rule": "llm-punctuation", "conf": 0.8, "before": "\""}
-{"seq": 1982, "para": 0, "start": 138, "end": 139, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3151, "para": 8, "start": 44, "end": 45, "repl": "6", "rule": "llm-number", "conf": 0.8, "before": "0"}
 {"seq": 1361, "para": 0, "start": 204, "end": 206, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": "¬¬"}
 {"seq": 1353, "para": 15, "start": 180, "end": 181, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
@@ -190,7 +184,6 @@
 {"seq": 386, "para": 0, "start": 754, "end": 755, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 390, "para": 0, "start": 57, "end": 57, "repl": "d", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 392, "para": 0, "start": 1134, "end": 1135, "repl": "“", "rule": "llm-punctuation", "conf": 0.8, "before": "("}
-{"seq": 3373, "para": 4, "start": 274, "end": 275, "repl": " ", "rule": "llm-hyphen", "conf": 0.8, "before": "-"}
 {"seq": 1778, "para": 1, "start": 129, "end": 130, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 1794, "para": 0, "start": 390, "end": 391, "repl": "H", "rule": "llm-ocr", "conf": 0.8, "before": "W"}
 {"seq": 1790, "para": 0, "start": 216, "end": 217, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
@@ -239,10 +232,8 @@
 {"seq": 948, "para": 15, "start": 113, "end": 114, "repl": "º", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
 {"seq": 948, "para": 15, "start": 211, "end": 213, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "(O"}
 {"seq": 948, "para": 19, "start": 67, "end": 68, "repl": "º", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
-{"seq": 948, "para": 20, "start": 81, "end": 82, "repl": "9", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
 {"seq": 948, "para": 25, "start": 62, "end": 63, "repl": ", ", "rule": "llm-ocr", "conf": 0.8, "before": "B"}
 {"seq": 2839, "para": 4, "start": 73, "end": 74, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "c"}
-{"seq": 2840, "para": 0, "start": 451, "end": 452, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2842, "para": 0, "start": 1454, "end": 1454, "repl": "1", "rule": "llm-number", "conf": 0.8, "before": ""}
 {"seq": 2846, "para": 0, "start": 98, "end": 98, "repl": "err", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 3550, "para": 3, "start": 443, "end": 444, "repl": "in", "rule": "llm-ocr", "conf": 0.8, "before": "m"}
@@ -263,7 +254,6 @@
 {"seq": 931, "para": 0, "start": 31, "end": 32, "repl": "1", "rule": "llm-ocr", "conf": 0.8, "before": "l"}
 {"seq": 923, "para": 0, "start": 3, "end": 4, "repl": ".º", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
 {"seq": 924, "para": 0, "start": 15, "end": 17, "repl": ".º", "rule": "llm-ocr", "conf": 0.8, "before": "1."}
-{"seq": 3833, "para": 9, "start": 383, "end": 384, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3833, "para": 11, "start": 84, "end": 85, "repl": "«", "rule": "llm-punctuation", "conf": 0.8, "before": "–"}
 {"seq": 3655, "para": 6, "start": 782, "end": 803, "repl": "1.° de Novembro de 17", "rule": "llm-number", "conf": 0.8, "before": "I.° de Novembro de 11"}
 {"seq": 3655, "para": 8, "start": 3, "end": 5, "repl": "4", "rule": "llm-number", "conf": 0.8, "before": "lf"}
@@ -312,18 +302,18 @@
 {"seq": 2474, "para": 29, "start": 282, "end": 283, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "n"}
 {"seq": 2474, "para": 34, "start": 416, "end": 417, "repl": "J", "rule": "llm-ocr", "conf": 0.8, "before": "j"}
 {"seq": 1156, "para": 1, "start": 446, "end": 447, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
-{"seq": 1156, "para": 1, "start": 1822, "end": 1822, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": ""}
-{"seq": 1156, "para": 1, "start": 3256, "end": 3257, "repl": "º", "rule": "llm-ocr", "conf": 0.8, "before": "ң"}
-{"seq": 1156, "para": 1, "start": 4140, "end": 4141, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
-{"seq": 1156, "para": 1, "start": 6987, "end": 6988, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
-{"seq": 1156, "para": 1, "start": 7161, "end": 7162, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "õ"}
-{"seq": 1156, "para": 1, "start": 7731, "end": 7732, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
-{"seq": 1156, "para": 1, "start": 14804, "end": 14804, "repl": " ", "rule": "llm-split_join", "conf": 0.8, "before": ""}
+{"seq": 1156, "para": 1, "start": 1821, "end": 1821, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": ""}
+{"seq": 1156, "para": 1, "start": 3255, "end": 3256, "repl": "º", "rule": "llm-ocr", "conf": 0.8, "before": "ң"}
+{"seq": 1156, "para": 1, "start": 4139, "end": 4140, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
+{"seq": 1156, "para": 1, "start": 6986, "end": 6987, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
+{"seq": 1156, "para": 1, "start": 7160, "end": 7161, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "õ"}
+{"seq": 1156, "para": 1, "start": 7730, "end": 7731, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
+{"seq": 1156, "para": 1, "start": 14803, "end": 14803, "repl": " ", "rule": "llm-split_join", "conf": 0.8, "before": ""}
 {"seq": 2191, "para": 0, "start": 57, "end": 63, "repl": "eteor", "rule": "llm-ocr", "conf": 0.8, "before": "fetere"}
 {"seq": 2191, "para": 0, "start": 266, "end": 267, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": " "}
 {"seq": 2204, "para": 3, "start": 219, "end": 220, "repl": "i", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
 {"seq": 2206, "para": 0, "start": 136, "end": 137, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "«"}
-{"seq": 2206, "para": 0, "start": 1025, "end": 1026, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": " "}
+{"seq": 2206, "para": 0, "start": 1024, "end": 1025, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": " "}
 {"seq": 593, "para": 6, "start": 226, "end": 227, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 593, "para": 2, "start": 258, "end": 259, "repl": "5", "rule": "llm-number", "conf": 0.8, "before": "1"}
 {"seq": 596, "para": 6, "start": 82, "end": 83, "repl": "8", "rule": "llm-number", "conf": 0.8, "before": "3"}
@@ -335,17 +325,14 @@
 {"seq": 2069, "para": 4, "start": 1263, "end": 1264, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "n"}
 {"seq": 1596, "para": 2, "start": 466, "end": 466, "repl": "c", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 1596, "para": 4, "start": 94, "end": 94, "repl": "s", "rule": "llm-ocr", "conf": 0.8, "before": ""}
-{"seq": 1044, "para": 0, "start": 59, "end": 60, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 1053, "para": 1, "start": 892, "end": 893, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "é"}
 {"seq": 2714, "para": 10, "start": 370, "end": 371, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
 {"seq": 2057, "para": 117, "start": 291, "end": 292, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
 {"seq": 1256, "para": 0, "start": 60, "end": 61, "repl": "º", "rule": "llm-ocr", "conf": 0.8, "before": "-"}
 {"seq": 2538, "para": 15, "start": 133, "end": 133, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
-{"seq": 2769, "para": 0, "start": 634, "end": 635, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2774, "para": 3, "start": 528, "end": 529, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2774, "para": 16, "start": 21, "end": 22, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 2323, "para": 3, "start": 119, "end": 121, "repl": "ia", "rule": "llm-ocr", "conf": 0.8, "before": "ai"}
-{"seq": 2323, "para": 5, "start": 397, "end": 398, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2329, "para": 0, "start": 1, "end": 2, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 2949, "para": 4, "start": 341, "end": 341, "repl": "p", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 548, "para": 14, "start": 260, "end": 260, "repl": "da", "rule": "llm-ocr", "conf": 0.8, "before": ""}
@@ -376,13 +363,11 @@
 {"seq": 3493, "para": 1, "start": 352, "end": 353, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
 {"seq": 1760, "para": 4, "start": 78, "end": 80, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "()"}
 {"seq": 1763, "para": 0, "start": 584, "end": 585, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": " "}
-{"seq": 1764, "para": 0, "start": 714, "end": 715, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3301, "para": 7, "start": 599, "end": 600, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
 {"seq": 3303, "para": 0, "start": 583, "end": 584, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 702, "para": 3, "start": 151, "end": 152, "repl": "q", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
 {"seq": 705, "para": 4, "start": 276, "end": 277, "repl": "”", "rule": "llm-punctuation", "conf": 0.8, "before": "+"}
 {"seq": 705, "para": 4, "start": 291, "end": 292, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
-{"seq": 706, "para": 0, "start": 366, "end": 367, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3213, "para": 1, "start": 287, "end": 288, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
 {"seq": 3430, "para": 2, "start": 502, "end": 503, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 3435, "para": 2, "start": 440, "end": 441, "repl": "u", "rule": "llm-ocr", "conf": 0.8, "before": "n"}
@@ -400,7 +385,6 @@
 {"seq": 2998, "para": 12, "start": 67, "end": 68, "repl": "2", "rule": "llm-number", "conf": 0.8, "before": "7"}
 {"seq": 1312, "para": 0, "start": 423, "end": 440, "repl": "ço de 60, 70 e 80", "rule": "llm-ocr", "conf": 0.8, "before": "so de 60, 70 e 8o"}
 {"seq": 1320, "para": 2, "start": 124, "end": 127, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "se "}
-{"seq": 1318, "para": 0, "start": 93, "end": 94, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 13, "para": 1, "start": 841, "end": 842, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 13, "para": 1, "start": 1296, "end": 1297, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 13, "para": 2, "start": 363, "end": 364, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
@@ -417,14 +401,13 @@
 {"seq": 3540, "para": 0, "start": 1, "end": 2, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
 {"seq": 1734, "para": 25, "start": 0, "end": 1, "repl": "2", "rule": "llm-number", "conf": 0.8, "before": "7"}
 {"seq": 1734, "para": 8, "start": 3, "end": 4, "repl": "–", "rule": "llm-punctuation", "conf": 0.8, "before": "_"}
-{"seq": 3301, "para": 2, "start": 1041, "end": 1041, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
-{"seq": 3301, "para": 2, "start": 2136, "end": 2137, "repl": "q", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
+{"seq": 3301, "para": 2, "start": 1040, "end": 1040, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
+{"seq": 3301, "para": 2, "start": 2135, "end": 2136, "repl": "q", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
 {"seq": 1863, "para": 20, "start": 117, "end": 118, "repl": "q", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
 {"seq": 902, "para": 0, "start": 167, "end": 168, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "n"}
 {"seq": 902, "para": 0, "start": 342, "end": 343, "repl": "1", "rule": "llm-ocr", "conf": 0.8, "before": "I"}
 {"seq": 3331, "para": 0, "start": 1269, "end": 1270, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 1694, "para": 0, "start": 664, "end": 665, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
-{"seq": 1696, "para": 0, "start": 412, "end": 413, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 1699, "para": 1, "start": 834, "end": 835, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 3571, "para": 3, "start": 28, "end": 29, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "\""}
 {"seq": 3572, "para": 1, "start": 537, "end": 539, "repl": "li", "rule": "llm-ocr", "conf": 0.8, "before": "il"}
@@ -449,7 +432,7 @@
 {"seq": 560, "para": 14, "start": 222, "end": 223, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 563, "para": 0, "start": 545, "end": 546, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 561, "para": 0, "start": 49, "end": 50, "repl": "-", "rule": "llm-punctuation", "conf": 0.8, "before": " "}
-{"seq": 988, "para": 0, "start": 226, "end": 227, "repl": "1", "rule": "llm-number", "conf": 0.8, "before": "I"}
+{"seq": 988, "para": 0, "start": 225, "end": 226, "repl": "1", "rule": "llm-number", "conf": 0.8, "before": "I"}
 {"seq": 984, "para": 2, "start": 40, "end": 41, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "("}
 {"seq": 984, "para": 2, "start": 87, "end": 87, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 989, "para": 3, "start": 242, "end": 243, "repl": "ç", "rule": "llm-ocr", "conf": 0.8, "before": "c"}
@@ -475,7 +458,6 @@
 {"seq": 1875, "para": 8, "start": 1212, "end": 1213, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 1876, "para": 1, "start": 689, "end": 691, "repl": "ia", "rule": "llm-ocr", "conf": 0.8, "before": "ai"}
 {"seq": 1876, "para": 2, "start": 503, "end": 504, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
-{"seq": 1876, "para": 2, "start": 964, "end": 965, "repl": " ", "rule": "llm-hyphen", "conf": 0.8, "before": "-"}
 {"seq": 3217, "para": 0, "start": 287, "end": 288, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "i"}
 {"seq": 3217, "para": 5, "start": 489, "end": 490, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 3217, "para": 4, "start": 117, "end": 118, "repl": ".", "rule": "llm-number", "conf": 0.8, "before": " "}
@@ -483,8 +465,7 @@
 {"seq": 2167, "para": 3, "start": 2675, "end": 2676, "repl": "q", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
 {"seq": 2167, "para": 3, "start": 2980, "end": 2981, "repl": "(", "rule": "llm-punctuation", "conf": 0.8, "before": "{"}
 {"seq": 3787, "para": 7, "start": 133, "end": 134, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
-{"seq": 1092, "para": 2, "start": 667, "end": 668, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
-{"seq": 1092, "para": 2, "start": 782, "end": 783, "repl": "N", "rule": "llm-ocr", "conf": 0.8, "before": "B"}
+{"seq": 1092, "para": 2, "start": 781, "end": 782, "repl": "N", "rule": "llm-ocr", "conf": 0.8, "before": "B"}
 {"seq": 1091, "para": 0, "start": 749, "end": 751, "repl": ".ª", "rule": "llm-ocr", "conf": 0.8, "before": "0."}
 {"seq": 3165, "para": 2, "start": 477, "end": 478, "repl": ".", "rule": "llm-number", "conf": 0.8, "before": " "}
 {"seq": 3165, "para": 4, "start": 400, "end": 401, "repl": ".", "rule": "llm-number", "conf": 0.8, "before": " "}
@@ -502,8 +483,7 @@
 {"seq": 1557, "para": 1, "start": 504, "end": 506, "repl": ", ", "rule": "llm-punctuation", "conf": 0.8, "before": " ,"}
 {"seq": 1563, "para": 0, "start": 390, "end": 391, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 727, "para": 8, "start": 567, "end": 568, "repl": "f", "rule": "llm-ocr", "conf": 0.8, "before": "t"}
-{"seq": 2672, "para": 10, "start": 375, "end": 376, "repl": " ", "rule": "llm-hyphen", "conf": 0.8, "before": "-"}
-{"seq": 1415, "para": 0, "start": 1223, "end": 1224, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
+{"seq": 1415, "para": 0, "start": 1222, "end": 1223, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 1417, "para": 0, "start": 221, "end": 222, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": " "}
 {"seq": 745, "para": 0, "start": 128, "end": 129, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": " "}
 {"seq": 204, "para": 0, "start": 674, "end": 675, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "-"}
@@ -556,7 +536,7 @@
 {"seq": 251, "para": 0, "start": 317, "end": 319, "repl": "ri", "rule": "llm-ocr", "conf": 0.8, "before": "al"}
 {"seq": 1305, "para": 4, "start": 597, "end": 598, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 1645, "para": 56, "start": 7, "end": 8, "repl": "õ", "rule": "llm-ocr", "conf": 0.8, "before": "ô"}
-{"seq": 2474, "para": 38, "start": 799, "end": 799, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": ""}
+{"seq": 2474, "para": 38, "start": 798, "end": 798, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 2474, "para": 36, "start": 3, "end": 4, "repl": "5", "rule": "llm-number", "conf": 0.8, "before": "6"}
 {"seq": 1220, "para": 2, "start": 54, "end": 56, "repl": "qu", "rule": "llm-ocr", "conf": 0.8, "before": "co"}
 {"seq": 3547, "para": 1, "start": 224, "end": 225, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "k"}
@@ -590,7 +570,6 @@
 {"seq": 72, "para": 0, "start": 47, "end": 57, "repl": "u a corrup", "rule": "llm-ocr", "conf": 0.8, "before": "so a carru"}
 {"seq": 2884, "para": 0, "start": 64, "end": 65, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 2886, "para": 2, "start": 33, "end": 34, "repl": "á", "rule": "llm-ocr", "conf": 0.8, "before": "ã"}
-{"seq": 2323, "para": 1, "start": 1182, "end": 1183, "repl": " ", "rule": "llm-hyphen", "conf": 0.8, "before": "-"}
 {"seq": 2319, "para": 16, "start": 139, "end": 139, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 1645, "para": 18, "start": 173, "end": 176, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "lon"}
 {"seq": 1645, "para": 10, "start": 108, "end": 109, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
@@ -652,7 +631,6 @@
 {"seq": 2057, "para": 271, "start": 1948, "end": 1949, "repl": "ç", "rule": "llm-ocr", "conf": 0.8, "before": "c"}
 {"seq": 2057, "para": 275, "start": 83, "end": 84, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
 {"seq": 2057, "para": 275, "start": 256, "end": 256, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
-{"seq": 2057, "para": 276, "start": 963, "end": 964, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2454, "para": 3, "start": 217, "end": 217, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 2460, "para": 1, "start": 55, "end": 56, "repl": "V", "rule": "llm-ocr", "conf": 0.8, "before": "M"}
 {"seq": 2057, "para": 136, "start": 207, "end": 208, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
@@ -664,11 +642,9 @@
 {"seq": 756, "para": 12, "start": 458, "end": 459, "repl": "\"", "rule": "llm-punctuation", "conf": 0.8, "before": "+"}
 {"seq": 2057, "para": 194, "start": 220, "end": 220, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 865, "para": 0, "start": 37, "end": 38, "repl": "8", "rule": "llm-number", "conf": 0.8, "before": "6"}
-{"seq": 861, "para": 3, "start": 559, "end": 561, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": " ."}
 {"seq": 3021, "para": 0, "start": 393, "end": 394, "repl": "à", "rule": "llm-ocr", "conf": 0.8, "before": "ã"}
 {"seq": 3442, "para": 0, "start": 91, "end": 95, "repl": "bada", "rule": "llm-ocr", "conf": 0.8, "before": "çado"}
 {"seq": 2175, "para": 1, "start": 3123, "end": 3124, "repl": "h", "rule": "llm-ocr", "conf": 0.8, "before": "b"}
-{"seq": 2870, "para": 0, "start": 49, "end": 50, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2873, "para": 2, "start": 14, "end": 15, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ":"}
 {"seq": 1056, "para": 1, "start": 91, "end": 92, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "é"}
 {"seq": 1057, "para": 1, "start": 290, "end": 291, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "n"}
@@ -698,9 +674,8 @@
 {"seq": 2392, "para": 1, "start": 551, "end": 553, "repl": "á", "rule": "llm-split_join", "conf": 0.8, "before": "a "}
 {"seq": 290, "para": 0, "start": 429, "end": 430, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": "-"}
 {"seq": 295, "para": 0, "start": 51, "end": 52, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
-{"seq": 298, "para": 3, "start": 90, "end": 91, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
-{"seq": 2972, "para": 5, "start": 799, "end": 800, "repl": "S", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
-{"seq": 2972, "para": 5, "start": 892, "end": 894, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "rn"}
+{"seq": 2972, "para": 5, "start": 800, "end": 801, "repl": "S", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
+{"seq": 2972, "para": 5, "start": 893, "end": 895, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "rn"}
 {"seq": 2971, "para": 5, "start": 275, "end": 276, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "i"}
 {"seq": 1303, "para": 11, "start": 219, "end": 220, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 95, "para": 0, "start": 81, "end": 82, "repl": "", "rule": "llm-number", "conf": 0.8, "before": "1"}
@@ -714,21 +689,21 @@
 {"seq": 1863, "para": 48, "start": 129, "end": 130, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
 {"seq": 1863, "para": 31, "start": 309, "end": 310, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
 {"seq": 162, "para": 0, "start": 318, "end": 320, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "rn"}
-{"seq": 164, "para": 0, "start": 769, "end": 770, "repl": "1", "rule": "llm-ocr", "conf": 0.8, "before": "I"}
-{"seq": 164, "para": 0, "start": 1495, "end": 1496, "repl": "°", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
+{"seq": 164, "para": 0, "start": 770, "end": 771, "repl": "1", "rule": "llm-ocr", "conf": 0.8, "before": "I"}
+{"seq": 164, "para": 0, "start": 1496, "end": 1497, "repl": "°", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
 {"seq": 501, "para": 2, "start": 880, "end": 880, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 501, "para": 2, "start": 1049, "end": 1050, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
-{"seq": 501, "para": 2, "start": 8010, "end": 8011, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
-{"seq": 501, "para": 2, "start": 12790, "end": 12791, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
-{"seq": 501, "para": 2, "start": 20536, "end": 20537, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
-{"seq": 501, "para": 2, "start": 23644, "end": 23644, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
-{"seq": 501, "para": 2, "start": 26143, "end": 26144, "repl": "L", "rule": "llm-ocr", "conf": 0.8, "before": "S"}
+{"seq": 501, "para": 2, "start": 8008, "end": 8009, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
+{"seq": 501, "para": 2, "start": 12787, "end": 12788, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
+{"seq": 501, "para": 2, "start": 20532, "end": 20533, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
+{"seq": 501, "para": 2, "start": 23640, "end": 23640, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
+{"seq": 501, "para": 2, "start": 26139, "end": 26140, "repl": "L", "rule": "llm-ocr", "conf": 0.8, "before": "S"}
 {"seq": 1423, "para": 4, "start": 894, "end": 895, "repl": "r", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
 {"seq": 1423, "para": 4, "start": 1676, "end": 1677, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "u"}
 {"seq": 1421, "para": 0, "start": 66, "end": 68, "repl": "n", "rule": "llm-ocr", "conf": 0.8, "before": "im"}
 {"seq": 520, "para": 2, "start": 621, "end": 622, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 519, "para": 0, "start": 9, "end": 10, "repl": "º", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
-{"seq": 2189, "para": 2, "start": 1002, "end": 1003, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
+{"seq": 2189, "para": 2, "start": 1001, "end": 1002, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
 {"seq": 2057, "para": 165, "start": 493, "end": 495, "repl": " «", "rule": "llm-punctuation", "conf": 0.8, "before": "« "}
 {"seq": 3348, "para": 3, "start": 299, "end": 300, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "»"}
 {"seq": 174, "para": 1, "start": 172, "end": 173, "repl": ".ª", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
@@ -783,7 +758,6 @@
 {"seq": 737, "para": 5, "start": 1224, "end": 1225, "repl": ": ", "rule": "llm-ocr", "conf": 0.8, "before": "B"}
 {"seq": 737, "para": 3, "start": 100, "end": 103, "repl": "nom", "rule": "llm-ocr", "conf": 0.8, "before": "mon"}
 {"seq": 1820, "para": 1, "start": 778, "end": 779, "repl": ".", "rule": "llm-number", "conf": 0.8, "before": " "}
-{"seq": 1823, "para": 1, "start": 186, "end": 187, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 34, "para": 0, "start": 657, "end": 658, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 43, "para": 4, "start": 128, "end": 129, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
 {"seq": 1681, "para": 0, "start": 251, "end": 252, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
@@ -799,7 +773,6 @@
 {"seq": 2598, "para": 3, "start": 372, "end": 373, "repl": "n", "rule": "llm-ocr", "conf": 0.8, "before": "d"}
 {"seq": 2598, "para": 3, "start": 690, "end": 692, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "rn"}
 {"seq": 3826, "para": 0, "start": 778, "end": 779, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 3830, "para": 0, "start": 78, "end": 79, "repl": ":", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3415, "para": 7, "start": 1137, "end": 1137, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 3415, "para": 12, "start": 211, "end": 212, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 2139, "para": 5, "start": 764, "end": 764, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": ""}
@@ -836,10 +809,10 @@
 {"seq": 1099, "para": 0, "start": 519, "end": 520, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 1174, "para": 14, "start": 391, "end": 392, "repl": "º", "rule": "llm-ocr", "conf": 0.8, "before": "ң"}
 {"seq": 183, "para": 1, "start": 361, "end": 362, "repl": "s", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
-{"seq": 183, "para": 1, "start": 501, "end": 502, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "&"}
-{"seq": 183, "para": 1, "start": 1488, "end": 1489, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "I"}
-{"seq": 183, "para": 1, "start": 2121, "end": 2122, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "!"}
-{"seq": 183, "para": 1, "start": 2162, "end": 2165, "repl": "Ilhé", "rule": "llm-ocr", "conf": 0.8, "before": "Bhe"}
+{"seq": 183, "para": 1, "start": 502, "end": 503, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "&"}
+{"seq": 183, "para": 1, "start": 1491, "end": 1492, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "I"}
+{"seq": 183, "para": 1, "start": 2124, "end": 2125, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "!"}
+{"seq": 183, "para": 1, "start": 2165, "end": 2168, "repl": "Ilhé", "rule": "llm-ocr", "conf": 0.8, "before": "Bhe"}
 {"seq": 183, "para": 2, "start": 77, "end": 78, "repl": "ó", "rule": "llm-ocr", "conf": 0.8, "before": "d"}
 {"seq": 183, "para": 2, "start": 215, "end": 228, "repl": "nde — Nas De", "rule": "llm-ocr", "conf": 0.8, "before": "udc — Unas Da"}
 {"seq": 183, "para": 2, "start": 360, "end": 372, "repl": "lena — Porto ", "rule": "llm-ocr", "conf": 0.8, "before": "Jena — Porto"}
@@ -881,7 +854,6 @@
 {"seq": 1864, "para": 18, "start": 233, "end": 234, "repl": ".", "rule": "llm-number", "conf": 0.8, "before": " "}
 {"seq": 3811, "para": 4, "start": 387, "end": 387, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 1001, "para": 0, "start": 136, "end": 137, "repl": "ç", "rule": "llm-ocr", "conf": 0.8, "before": "c"}
-{"seq": 1001, "para": 0, "start": 330, "end": 333, "repl": "”", "rule": "llm-punctuation", "conf": 0.8, "before": ". “"}
 {"seq": 1003, "para": 0, "start": 76, "end": 77, "repl": "ç", "rule": "llm-ocr", "conf": 0.8, "before": "c"}
 {"seq": 1860, "para": 3, "start": 172, "end": 173, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
 {"seq": 1861, "para": 0, "start": 69, "end": 71, "repl": "n", "rule": "llm-ocr", "conf": 0.8, "before": "la"}
@@ -907,8 +879,8 @@
 {"seq": 771, "para": 0, "start": 168, "end": 168, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 1228, "para": 29, "start": 1053, "end": 1054, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
 {"seq": 1449, "para": 7, "start": 728, "end": 729, "repl": "0", "rule": "llm-ocr", "conf": 0.8, "before": "C"}
-{"seq": 1449, "para": 7, "start": 1715, "end": 1716, "repl": "8", "rule": "llm-number", "conf": 0.8, "before": "9"}
-{"seq": 1449, "para": 7, "start": 2671, "end": 2672, "repl": "n", "rule": "llm-ocr", "conf": 0.8, "before": "u"}
+{"seq": 1449, "para": 7, "start": 1712, "end": 1713, "repl": "8", "rule": "llm-number", "conf": 0.8, "before": "9"}
+{"seq": 1449, "para": 7, "start": 2668, "end": 2669, "repl": "n", "rule": "llm-ocr", "conf": 0.8, "before": "u"}
 {"seq": 3328, "para": 6, "start": 169, "end": 170, "repl": "z", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
 {"seq": 582, "para": 0, "start": 1179, "end": 1180, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 582, "para": 0, "start": 1350, "end": 1351, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
@@ -923,10 +895,8 @@
 {"seq": 2474, "para": 1, "start": 236, "end": 237, "repl": "á", "rule": "llm-ocr", "conf": 0.8, "before": "à"}
 {"seq": 2161, "para": 2, "start": 191, "end": 192, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 2162, "para": 0, "start": 24, "end": 25, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
-{"seq": 2547, "para": 11, "start": 310, "end": 311, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2550, "para": 0, "start": 400, "end": 403, "repl": "«", "rule": "llm-punctuation", "conf": 0.8, "before": "..."}
 {"seq": 2551, "para": 0, "start": 363, "end": 364, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
-{"seq": 1392, "para": 2, "start": 500, "end": 500, "repl": ". ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 1588, "para": 1, "start": 2, "end": 3, "repl": "t", "rule": "llm-ocr", "conf": 0.8, "before": "T"}
 {"seq": 3577, "para": 1, "start": 435, "end": 436, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "i"}
 {"seq": 3577, "para": 2, "start": 441, "end": 442, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
@@ -963,7 +933,6 @@
 {"seq": 3152, "para": 1, "start": 324, "end": 325, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 3152, "para": 11, "start": 218, "end": 219, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 652, "para": 6, "start": 352, "end": 353, "repl": "1", "rule": "llm-number", "conf": 0.8, "before": "I"}
-{"seq": 646, "para": 1, "start": 150, "end": 151, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3252, "para": 2, "start": 61, "end": 62, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3252, "para": 1, "start": 417, "end": 420, "repl": "im", "rule": "llm-ocr", "conf": 0.8, "before": "uin"}
 {"seq": 2171, "para": 8, "start": 401, "end": 402, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
@@ -976,7 +945,6 @@
 {"seq": 730, "para": 8, "start": 1341, "end": 1342, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "“"}
 {"seq": 730, "para": 11, "start": 55, "end": 56, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": "-"}
 {"seq": 730, "para": 23, "start": 90, "end": 105, "repl": "«cantaria rija»", "rule": "llm-punctuation", "conf": 0.8, "before": "*cantaria rija+"}
-{"seq": 3330, "para": 3, "start": 324, "end": 325, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3330, "para": 6, "start": 670, "end": 671, "repl": "q", "rule": "llm-ocr", "conf": 0.8, "before": "g"}
 {"seq": 3330, "para": 10, "start": 710, "end": 711, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 218, "para": 0, "start": 92, "end": 92, "repl": " ", "rule": "llm-split_join", "conf": 0.8, "before": ""}
@@ -985,7 +953,6 @@
 {"seq": 843, "para": 0, "start": 477, "end": 479, "repl": ".ª", "rule": "llm-ocr", "conf": 0.8, "before": "0."}
 {"seq": 851, "para": 0, "start": 73, "end": 75, "repl": ".ª", "rule": "llm-ocr", "conf": 0.8, "before": "0."}
 {"seq": 853, "para": 6, "start": 171, "end": 173, "repl": ".º", "rule": "llm-ocr", "conf": 0.8, "before": "1."}
-{"seq": 1629, "para": 0, "start": 560, "end": 561, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 1636, "para": 0, "start": 621, "end": 625, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": " . ."}
 {"seq": 2825, "para": 0, "start": 518, "end": 519, "repl": "u", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 2829, "para": 0, "start": 54, "end": 55, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
@@ -1001,7 +968,6 @@
 {"seq": 3157, "para": 0, "start": 303, "end": 305, "repl": "d", "rule": "llm-ocr", "conf": 0.8, "before": "çã"}
 {"seq": 3314, "para": 9, "start": 314, "end": 318, "repl": "ão G", "rule": "llm-ocr", "conf": 0.8, "before": "âo C"}
 {"seq": 3314, "para": 9, "start": 556, "end": 557, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 3314, "para": 3, "start": 356, "end": 357, "repl": "»", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 437, "para": 0, "start": 403, "end": 404, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 437, "para": 0, "start": 500, "end": 501, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 436, "para": 4, "start": 257, "end": 258, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
@@ -1090,7 +1056,7 @@
 {"seq": 3, "para": 9, "start": 168, "end": 169, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 3, "para": 10, "start": 247, "end": 248, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 3, "para": 10, "start": 552, "end": 553, "repl": ".o", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
-{"seq": 3, "para": 12, "start": 1404, "end": 1405, "repl": ".º", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
+{"seq": 3, "para": 12, "start": 1403, "end": 1404, "repl": ".º", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
 {"seq": 7, "para": 0, "start": 384, "end": 385, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 3, "para": 8, "start": 279, "end": 280, "repl": ".ª", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
 {"seq": 3572, "para": 3, "start": 173, "end": 174, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "\""}
@@ -1103,7 +1069,6 @@
 {"seq": 3576, "para": 4, "start": 126, "end": 127, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "-"}
 {"seq": 3438, "para": 5, "start": 608, "end": 609, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
 {"seq": 3438, "para": 1, "start": 249, "end": 249, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": ""}
-{"seq": 80, "para": 4, "start": 131, "end": 132, "repl": " ", "rule": "llm-hyphen", "conf": 0.8, "before": "-"}
 {"seq": 84, "para": 1, "start": 182, "end": 182, "repl": " ", "rule": "llm-split_join", "conf": 0.8, "before": ""}
 {"seq": 2003, "para": 5, "start": 1147, "end": 1149, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "tn"}
 {"seq": 2007, "para": 0, "start": 344, "end": 345, "repl": "u", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
@@ -1111,14 +1076,12 @@
 {"seq": 485, "para": 0, "start": 858, "end": 859, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 488, "para": 1, "start": 192, "end": 193, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 489, "para": 0, "start": 146, "end": 147, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
-{"seq": 2542, "para": 0, "start": 85, "end": 86, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2541, "para": 2, "start": 229, "end": 230, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": ";"}
 {"seq": 2423, "para": 0, "start": 30, "end": 31, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
 {"seq": 1946, "para": 1, "start": 516, "end": 519, "repl": "-l", "rule": "llm-ocr", "conf": 0.8, "before": "s n"}
 {"seq": 1946, "para": 2, "start": 659, "end": 659, "repl": "(", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 1947, "para": 4, "start": 33, "end": 33, "repl": " ", "rule": "llm-split_join", "conf": 0.8, "before": ""}
 {"seq": 2514, "para": 3, "start": 761, "end": 766, "repl": " ano,", "rule": "llm-punctuation", "conf": 0.8, "before": ", ano"}
-{"seq": 2846, "para": 5, "start": 673, "end": 673, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 2846, "para": 17, "start": 359, "end": 360, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "O"}
 {"seq": 2846, "para": 18, "start": 4, "end": 4, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 2846, "para": 7, "start": 202, "end": 203, "repl": "s", "rule": "llm-ocr", "conf": 0.8, "before": "S"}
@@ -1157,7 +1120,6 @@
 {"seq": 3678, "para": 4, "start": 198, "end": 199, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "e"}
 {"seq": 3678, "para": 4, "start": 281, "end": 282, "repl": ",", "rule": "llm-ocr", "conf": 0.8, "before": "t"}
 {"seq": 3678, "para": 4, "start": 667, "end": 668, "repl": "t", "rule": "llm-ocr", "conf": 0.8, "before": "f"}
-{"seq": 3678, "para": 4, "start": 773, "end": 782, "repl": "ivum, Lam", "rule": "llm-ocr", "conf": 0.8, "before": "wum, Lam."}
 {"seq": 3678, "para": 5, "start": 552, "end": 553, "repl": "ur", "rule": "llm-ocr", "conf": 0.8, "before": "w"}
 {"seq": 3678, "para": 5, "start": 825, "end": 826, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 3678, "para": 7, "start": 149, "end": 150, "repl": "c", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
@@ -1205,7 +1167,6 @@
 {"seq": 1775, "para": 0, "start": 702, "end": 703, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
 {"seq": 1775, "para": 0, "start": 1297, "end": 1304, "repl": "imacula", "rule": "llm-ocr", "conf": 0.8, "before": "xmcula-"}
 {"seq": 1775, "para": 0, "start": 1584, "end": 1585, "repl": "u", "rule": "llm-ocr", "conf": 0.8, "before": "w"}
-{"seq": 1775, "para": 0, "start": 1705, "end": 1706, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 1775, "para": 2, "start": 152, "end": 153, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "("}
 {"seq": 1772, "para": 1, "start": 69, "end": 70, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "O"}
 {"seq": 3794, "para": 13, "start": 346, "end": 347, "repl": "i", "rule": "llm-ocr", "conf": 0.8, "before": "t"}
@@ -1235,7 +1196,7 @@
 {"seq": 716, "para": 1, "start": 687, "end": 688, "repl": "“", "rule": "llm-punctuation", "conf": 0.8, "before": "*"}
 {"seq": 716, "para": 1, "start": 832, "end": 833, "repl": "”", "rule": "llm-punctuation", "conf": 0.8, "before": "+"}
 {"seq": 1277, "para": 1, "start": 123, "end": 124, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1274, "para": 0, "start": 332, "end": 333, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
+{"seq": 1274, "para": 0, "start": 331, "end": 332, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 596, "para": 32, "start": 453, "end": 454, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 597, "para": 0, "start": 486, "end": 487, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 599, "para": 0, "start": 585, "end": 586, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
@@ -1262,7 +1223,6 @@
 {"seq": 1795, "para": 3, "start": 357, "end": 358, "repl": ".", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 1795, "para": 3, "start": 460, "end": 461, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 1795, "para": 3, "start": 919, "end": 920, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1795, "para": 3, "start": 969, "end": 970, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 1799, "para": 0, "start": 1193, "end": 1194, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "u"}
 {"seq": 2982, "para": 3, "start": 113, "end": 114, "repl": "i", "rule": "llm-ocr", "conf": 0.8, "before": "l"}
 {"seq": 3614, "para": 0, "start": 717, "end": 717, "repl": "ra", "rule": "llm-ocr", "conf": 0.8, "before": ""}
@@ -1292,7 +1252,7 @@
 {"seq": 2222, "para": 0, "start": 230, "end": 231, "repl": "u", "rule": "llm-ocr", "conf": 0.8, "before": "n"}
 {"seq": 3382, "para": 2, "start": 380, "end": 383, "repl": "CaO", "rule": "llm-ocr", "conf": 0.8, "before": "bao"}
 {"seq": 3382, "para": 2, "start": 452, "end": 454, "repl": "SO", "rule": "llm-ocr", "conf": 0.8, "before": "50"}
-{"seq": 2341, "para": 5, "start": 616, "end": 617, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
+{"seq": 2341, "para": 5, "start": 617, "end": 618, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 2341, "para": 14, "start": 92, "end": 93, "repl": "1", "rule": "llm-number", "conf": 0.8, "before": "4"}
 {"seq": 3427, "para": 38, "start": 4, "end": 5, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": "-"}
 {"seq": 121, "para": 0, "start": 368, "end": 369, "repl": "1", "rule": "llm-ocr", "conf": 0.8, "before": "l"}
@@ -1301,10 +1261,8 @@
 {"seq": 125, "para": 0, "start": 152, "end": 155, "repl": "çuc", "rule": "llm-ocr", "conf": 0.8, "before": "cus"}
 {"seq": 3807, "para": 0, "start": 50, "end": 51, "repl": "1", "rule": "llm-ocr", "conf": 0.8, "before": "I"}
 {"seq": 3435, "para": 19, "start": 0, "end": 1, "repl": "O", "rule": "llm-ocr", "conf": 0.8, "before": "0"}
-{"seq": 3435, "para": 22, "start": 214, "end": 215, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
-{"seq": 2899, "para": 0, "start": 698, "end": 715, "repl": "m da Serra, etc", "rule": "llm-ocr", "conf": 0.8, "before": "ní da Serras etc."}
-{"seq": 2899, "para": 0, "start": 892, "end": 894, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "tn"}
-{"seq": 2899, "para": 0, "start": 1172, "end": 1173, "repl": ")", "rule": "llm-punctuation", "conf": 0.8, "before": "}"}
+{"seq": 2899, "para": 0, "start": 891, "end": 893, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "tn"}
+{"seq": 2899, "para": 0, "start": 1171, "end": 1172, "repl": ")", "rule": "llm-punctuation", "conf": 0.8, "before": "}"}
 {"seq": 2905, "para": 0, "start": 41, "end": 42, "repl": "é", "rule": "llm-ocr", "conf": 0.8, "before": "e"}
 {"seq": 277, "para": 19, "start": 95, "end": 96, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "i"}
 {"seq": 282, "para": 3, "start": 119, "end": 120, "repl": "°", "rule": "llm-ocr", "conf": 0.8, "before": "6"}
@@ -1312,7 +1270,6 @@
 {"seq": 2182, "para": 7, "start": 67, "end": 67, "repl": "u", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 2182, "para": 26, "start": 385, "end": 387, "repl": "m", "rule": "llm-ocr", "conf": 0.8, "before": "rn"}
 {"seq": 709, "para": 0, "start": 258, "end": 259, "repl": "a", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
-{"seq": 712, "para": 1, "start": 81, "end": 83, "repl": " “", "rule": "llm-punctuation", "conf": 0.8, "before": "B*"}
 {"seq": 710, "para": 0, "start": 712, "end": 713, "repl": "t", "rule": "llm-ocr", "conf": 0.8, "before": "i"}
 {"seq": 710, "para": 1, "start": 64, "end": 65, "repl": "t", "rule": "llm-ocr", "conf": 0.8, "before": "i"}
 {"seq": 411, "para": 11, "start": 92, "end": 93, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
@@ -1323,7 +1280,6 @@
 {"seq": 3453, "para": 0, "start": 1419, "end": 1420, "repl": "", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 3451, "para": 2, "start": 279, "end": 280, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "é"}
 {"seq": 1460, "para": 1, "start": 113, "end": 113, "repl": " ", "rule": "llm-split_join", "conf": 0.8, "before": ""}
-{"seq": 1459, "para": 0, "start": 1033, "end": 1034, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 1960, "para": 10, "start": 1069, "end": 1070, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 1963, "para": 1, "start": 290, "end": 291, "repl": ",", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 3045, "para": 0, "start": 67, "end": 67, "repl": "d", "rule": "llm-ocr", "conf": 0.8, "before": ""}
@@ -1345,7 +1301,6 @@
 {"seq": 2391, "para": 12, "start": 247, "end": 248, "repl": "o", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 2759, "para": 11, "start": 132, "end": 133, "repl": "t", "rule": "llm-ocr", "conf": 0.8, "before": "f"}
 {"seq": 2759, "para": 14, "start": 113, "end": 114, "repl": "1", "rule": "llm-ocr", "conf": 0.8, "before": "I"}
-{"seq": 2759, "para": 6, "start": 138, "end": 145, "repl": ", etc.,", "rule": "llm-punctuation", "conf": 0.8, "before": ". etc.."}
 {"seq": 2042, "para": 1, "start": 382, "end": 383, "repl": "s", "rule": "llm-ocr", "conf": 0.8, "before": "m"}
 {"seq": 2041, "para": 10, "start": 380, "end": 381, "repl": "z", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 399, "para": 0, "start": 235, "end": 236, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
@@ -1367,8 +1322,8 @@
 {"seq": 2220, "para": 4, "start": 1185, "end": 1186, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
 {"seq": 2220, "para": 3, "start": 477, "end": 478, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
 {"seq": 2219, "para": 0, "start": 375, "end": 380, "repl": "vol. ", "rule": "llm-ocr", "conf": 0.8, "before": "VOl.-"}
-{"seq": 1801, "para": 4, "start": 1807, "end": 1807, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
-{"seq": 1801, "para": 4, "start": 3494, "end": 3495, "repl": "b", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
+{"seq": 1801, "para": 4, "start": 1806, "end": 1806, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
+{"seq": 1801, "para": 4, "start": 3493, "end": 3494, "repl": "b", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
 {"seq": 1805, "para": 0, "start": 141, "end": 143, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " -"}
 {"seq": 1347, "para": 8, "start": 164, "end": 165, "repl": "ç", "rule": "llm-ocr", "conf": 0.8, "before": "s"}
 {"seq": 1350, "para": 4, "start": 351, "end": 352, "repl": "c", "rule": "llm-ocr", "conf": 0.8, "before": "ç"}
@@ -1420,11 +1375,10 @@
 {"seq": 418, "para": 3, "start": 535, "end": 536, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 1041, "para": 3, "start": 703, "end": 704, "repl": "l", "rule": "llm-ocr", "conf": 0.8, "before": "1"}
 {"seq": 1041, "para": 9, "start": 676, "end": 677, "repl": "e", "rule": "llm-ocr", "conf": 0.8, "before": "é"}
-{"seq": 1043, "para": 5, "start": 219, "end": 220, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
-{"seq": 1043, "para": 5, "start": 438, "end": 439, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
+{"seq": 1043, "para": 5, "start": 218, "end": 219, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
+{"seq": 1043, "para": 5, "start": 437, "end": 438, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 2696, "para": 2, "start": 27, "end": 28, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
 {"seq": 2701, "para": 0, "start": 147, "end": 148, "repl": ")", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
-{"seq": 2708, "para": 0, "start": 255, "end": 256, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
 {"seq": 2703, "para": 0, "start": 98, "end": 99, "repl": "c", "rule": "llm-ocr", "conf": 0.8, "before": "r"}
 {"seq": 1940, "para": 4, "start": 684, "end": 685, "repl": "5", "rule": "llm-number", "conf": 0.8, "before": "S"}
 {"seq": 1945, "para": 0, "start": 68, "end": 96, "repl": " as classes populares junto", "rule": "llm-punctuation", "conf": 0.8, "before": "-as classes populares junto,"}
@@ -1465,7 +1419,7 @@
 {"seq": 2776, "para": 7, "start": 68, "end": 69, "repl": "i", "rule": "llm-ocr", "conf": 0.8, "before": "í"}
 {"seq": 1464, "para": 0, "start": 251, "end": 251, "repl": " ", "rule": "llm-punctuation", "conf": 0.8, "before": ""}
 {"seq": 761, "para": 13, "start": 563, "end": 563, "repl": "1", "rule": "llm-number", "conf": 0.8, "before": ""}
-{"seq": 761, "para": 12, "start": 332, "end": 333, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
+{"seq": 761, "para": 12, "start": 333, "end": 334, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": " "}
 {"seq": 2966, "para": 0, "start": 244, "end": 244, "repl": "s", "rule": "llm-ocr", "conf": 0.8, "before": ""}
 {"seq": 2621, "para": 1, "start": 390, "end": 391, "repl": "-", "rule": "llm-hyphen", "conf": 0.8, "before": " "}
 {"seq": 2625, "para": 0, "start": 38, "end": 39, "repl": "", "rule": "llm-split_join", "conf": 0.8, "before": "-"}
@@ -1486,7 +1440,6 @@
 {"seq": 2259, "para": 4, "start": 68, "end": 69, "repl": "«", "rule": "llm-ocr", "conf": 0.8, "before": "o"}
 {"seq": 2391, "para": 44, "start": 910, "end": 911, "repl": "5", "rule": "llm-number", "conf": 0.8, "before": "6"}
 {"seq": 1932, "para": 0, "start": 10, "end": 11, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": ","}
-{"seq": 1932, "para": 0, "start": 41, "end": 42, "repl": "", "rule": "llm-punctuation", "conf": 0.8, "before": "."}
 {"seq": 723, "para": 2, "start": 595, "end": 597, "repl": "Q", "rule": "llm-ocr", "conf": 0.8, "before": "(q"}
 {"seq": 723, "para": 2, "start": 623, "end": 624, "repl": "f", "rule": "llm-ocr", "conf": 0.8, "before": "t"}
 {"seq": 718, "para": 0, "start": 8, "end": 10, "repl": "II", "rule": "llm-ocr", "conf": 0.8, "before": "11"}
@@ -1494,15 +1447,15 @@
 {"seq": 721, "para": 0, "start": 40, "end": 41, "repl": "º", "rule": "llm-number", "conf": 0.8, "before": "1"}
 {"seq": 721, "para": 0, "start": 70, "end": 71, "repl": "º", "rule": "llm-number", "conf": 0.8, "before": "1"}
 {"seq": 722, "para": 2, "start": 209, "end": 210, "repl": "º", "rule": "llm-number", "conf": 0.8, "before": "1"}
-{"seq": 1331, "para": 0, "start": 1473, "end": 1474, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1331, "para": 0, "start": 2298, "end": 2299, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1331, "para": 0, "start": 2377, "end": 2378, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1331, "para": 0, "start": 2537, "end": 2538, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
-{"seq": 1331, "para": 0, "start": 3285, "end": 3286, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1331, "para": 0, "start": 4891, "end": 4892, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
-{"seq": 1331, "para": 0, "start": 5070, "end": 5071, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1331, "para": 0, "start": 5258, "end": 5259, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
-{"seq": 1331, "para": 0, "start": 5380, "end": 5381, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1331, "para": 0, "start": 1472, "end": 1473, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1331, "para": 0, "start": 2297, "end": 2298, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1331, "para": 0, "start": 2376, "end": 2377, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1331, "para": 0, "start": 2536, "end": 2537, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
+{"seq": 1331, "para": 0, "start": 3284, "end": 3285, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1331, "para": 0, "start": 4890, "end": 4891, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
+{"seq": 1331, "para": 0, "start": 5069, "end": 5070, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1331, "para": 0, "start": 5257, "end": 5258, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
+{"seq": 1331, "para": 0, "start": 5379, "end": 5380, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}
 {"seq": 1210, "para": 2, "start": 125, "end": 127, "repl": " (", "rule": "llm-punctuation", "conf": 0.8, "before": "( "}
 {"seq": 1262, "para": 13, "start": 114, "end": 115, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "a"}
 {"seq": 1262, "para": 15, "start": 739, "end": 740, "repl": "ã", "rule": "llm-ocr", "conf": 0.8, "before": "â"}

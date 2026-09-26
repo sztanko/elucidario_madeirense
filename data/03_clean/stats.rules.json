@@ -1,16 +1,19 @@
 {
-  "edits": 822,
+  "edits": 1147,
   "by_rule": {
+    "double-period": 378,
     "zero-for-O": 313,
-    "clitic-hyphen": 270,
-    "space-before-punct": 84,
+    "clitic-hyphen": 231,
+    "space-before-punct": 65,
     "letters-in-number": 60,
     "not-sign": 39,
     "digit-in-word": 29,
-    "zero-for-o": 16,
+    "zero-for-o": 15,
     "hyphen-space": 6,
+    "space-after-colon": 4,
     "headword-digit": 3,
+    "hyphen-as-dash": 2,
     "split-word": 2
   },
-  "suspects": 322
+  "suspects": 994
 }

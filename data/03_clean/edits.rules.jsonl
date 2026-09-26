@@ -1,11 +1,11 @@
 {"seq": 0, "para": 0, "start": 9, "end": 10, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 0, "para": 0, "start": 573, "end": 574, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 0, "para": 1, "start": 67, "end": 68, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 0, "para": 3, "start": 1051, "end": 1052, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3, "para": 2, "start": 241, "end": 242, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3, "para": 5, "start": 5, "end": 6, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3, "para": 5, "start": 212, "end": 213, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3, "para": 6, "start": 48, "end": 52, "repl": "1910", "rule": "letters-in-number", "conf": 0.95, "before": "I910"}
+{"seq": 3, "para": 12, "start": 221, "end": 223, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3, "para": 13, "start": 220, "end": 221, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3, "para": 14, "start": 100, "end": 101, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3, "para": 14, "start": 468, "end": 469, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -29,8 +29,6 @@
 {"seq": 13, "para": 2, "start": 159, "end": 160, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 13, "para": 2, "start": 570, "end": 571, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 13, "para": 3, "start": 512, "end": 513, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 13, "para": 4, "start": 869, "end": 870, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 13, "para": 6, "start": 504, "end": 505, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 13, "para": 6, "start": 673, "end": 674, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 13, "para": 8, "start": 63, "end": 64, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 13, "para": 9, "start": 21, "end": 22, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -46,8 +44,10 @@
 {"seq": 34, "para": 0, "start": 292, "end": 293, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 34, "para": 0, "start": 478, "end": 479, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 35, "para": 0, "start": 543, "end": 544, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 37, "para": 0, "start": 70, "end": 72, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 41, "para": 0, "start": 164, "end": 165, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 43, "para": 0, "start": 4, "end": 5, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 43, "para": 2, "start": 227, "end": 229, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 43, "para": 2, "start": 236, "end": 237, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 43, "para": 3, "start": 159, "end": 160, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 43, "para": 5, "start": 852, "end": 853, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -57,32 +57,28 @@
 {"seq": 43, "para": 10, "start": 276, "end": 277, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 43, "para": 11, "start": 1579, "end": 1580, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 43, "para": 12, "start": 412, "end": 413, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 43, "para": 12, "start": 972, "end": 973, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 43, "para": 12, "start": 1113, "end": 1114, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 45, "para": 0, "start": 502, "end": 503, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 44, "para": 0, "start": 302, "end": 304, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 45, "para": 0, "start": 713, "end": 714, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 45, "para": 1, "start": 8, "end": 9, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 45, "para": 2, "start": 303, "end": 304, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 49, "para": 12, "start": 273, "end": 274, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 49, "para": 13, "start": 211, "end": 215, "repl": "1911", "rule": "letters-in-number", "conf": 0.95, "before": "19l1"}
-{"seq": 49, "para": 15, "start": 548, "end": 549, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 49, "para": 15, "start": 652, "end": 653, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 52, "para": 1, "start": 186, "end": 187, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 52, "para": 4, "start": 29, "end": 30, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 53, "para": 0, "start": 130, "end": 132, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 54, "para": 0, "start": 456, "end": 457, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 54, "para": 0, "start": 1468, "end": 1469, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 54, "para": 11, "start": 32, "end": 33, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 54, "para": 12, "start": 46, "end": 47, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 54, "para": 12, "start": 224, "end": 225, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 58, "para": 1, "start": 290, "end": 291, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 63, "para": 0, "start": 231, "end": 232, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 63, "para": 0, "start": 301, "end": 302, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 71, "para": 1, "start": 494, "end": 495, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 71, "para": 1, "start": 692, "end": 693, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 71, "para": 5, "start": 532, "end": 533, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 76, "para": 1, "start": 352, "end": 353, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 79, "para": 1, "start": 275, "end": 276, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 80, "para": 4, "start": 131, "end": 132, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 95, "para": 0, "start": 80, "end": 85, "repl": "11885", "rule": "letters-in-number", "conf": 0.95, "before": "1I885"}
 {"seq": 112, "para": 0, "start": 70, "end": 71, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 113, "para": 3, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
@@ -104,52 +100,63 @@
 {"seq": 138, "para": 4, "start": 218, "end": 219, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 139, "para": 2, "start": 576, "end": 577, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 140, "para": 0, "start": 584, "end": 585, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 164, "para": 0, "start": 433, "end": 434, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 163, "para": 0, "start": 174, "end": 176, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 166, "para": 0, "start": 1062, "end": 1063, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 183, "para": 1, "start": 330, "end": 335, "repl": "ilhéu", "rule": "digit-in-word", "conf": 1.0, "before": "ilh6u"}
 {"seq": 183, "para": 1, "start": 336, "end": 343, "repl": "próximo", "rule": "digit-in-word", "conf": 0.7, "before": "pr6ximo"}
+{"seq": 183, "para": 1, "start": 433, "end": 435, "repl": " — ", "rule": "hyphen-as-dash", "conf": 0.8, "before": "- "}
 {"seq": 183, "para": 1, "start": 478, "end": 480, "repl": "", "rule": "split-word", "conf": 0.8, "before": "- "}
-{"seq": 183, "para": 1, "start": 1032, "end": 1033, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 183, "para": 1, "start": 1069, "end": 1070, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 183, "para": 1, "start": 1294, "end": 1301, "repl": "António", "rule": "digit-in-word", "conf": 1.0, "before": "Ant6nio"}
 {"seq": 183, "para": 1, "start": 1368, "end": 1369, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 183, "para": 1, "start": 1931, "end": 1938, "repl": "António", "rule": "digit-in-word", "conf": 1.0, "before": "Ant6nio"}
 {"seq": 183, "para": 3, "start": 365, "end": 366, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 183, "para": 3, "start": 2226, "end": 2233, "repl": "Próximo", "rule": "digit-in-word", "conf": 0.95, "before": "Pr6ximo"}
+{"seq": 184, "para": 28, "start": 170, "end": 172, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 188, "para": 5, "start": 339, "end": 343, "repl": "1869", "rule": "letters-in-number", "conf": 0.95, "before": "l869"}
 {"seq": 189, "para": 0, "start": 694, "end": 696, "repl": "30", "rule": "letters-in-number", "conf": 0.95, "before": "3O"}
 {"seq": 189, "para": 2, "start": 353, "end": 354, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 189, "para": 6, "start": 676, "end": 677, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 191, "para": 0, "start": 379, "end": 380, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 217, "para": 2, "start": 432, "end": 434, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 219, "para": 1, "start": 182, "end": 184, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 223, "para": 2, "start": 520, "end": 522, "repl": "17", "rule": "letters-in-number", "conf": 0.95, "before": "l7"}
 {"seq": 227, "para": 3, "start": 205, "end": 206, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 235, "para": 4, "start": 457, "end": 459, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 249, "para": 0, "start": 349, "end": 351, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 253, "para": 0, "start": 798, "end": 800, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 257, "para": 0, "start": 712, "end": 714, "repl": "19", "rule": "letters-in-number", "conf": 0.95, "before": "l9"}
 {"seq": 260, "para": 2, "start": 337, "end": 341, "repl": "1551", "rule": "letters-in-number", "conf": 0.95, "before": "155l"}
-{"seq": 263, "para": 0, "start": 1574, "end": 1575, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 263, "para": 1, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 264, "para": 0, "start": 538, "end": 539, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 265, "para": 8, "start": 237, "end": 238, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 266, "para": 5, "start": 379, "end": 381, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 269, "para": 2, "start": 465, "end": 469, "repl": "1919", "rule": "letters-in-number", "conf": 0.95, "before": "19l9"}
 {"seq": 285, "para": 6, "start": 104, "end": 108, "repl": "1917", "rule": "letters-in-number", "conf": 0.95, "before": "19l7"}
 {"seq": 287, "para": 0, "start": 201, "end": 202, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 298, "para": 2, "start": 441, "end": 442, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 298, "para": 3, "start": 89, "end": 91, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 302, "para": 11, "start": 768, "end": 772, "repl": "1866", "rule": "letters-in-number", "conf": 0.95, "before": "l866"}
 {"seq": 304, "para": 0, "start": 46, "end": 50, "repl": "1911", "rule": "letters-in-number", "conf": 0.95, "before": "19ll"}
 {"seq": 309, "para": 4, "start": 434, "end": 438, "repl": "1853", "rule": "letters-in-number", "conf": 0.95, "before": "l853"}
 {"seq": 309, "para": 4, "start": 705, "end": 709, "repl": "1892", "rule": "letters-in-number", "conf": 0.95, "before": "l892"}
 {"seq": 309, "para": 4, "start": 939, "end": 943, "repl": "1911", "rule": "letters-in-number", "conf": 0.95, "before": "19ll"}
 {"seq": 309, "para": 4, "start": 970, "end": 974, "repl": "1911", "rule": "letters-in-number", "conf": 0.95, "before": "19l1"}
-{"seq": 312, "para": 8, "start": 180, "end": 181, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 309, "para": 5, "start": 475, "end": 477, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 312, "para": 11, "start": 98, "end": 102, "repl": "1895", "rule": "letters-in-number", "conf": 0.95, "before": "l895"}
 {"seq": 320, "para": 0, "start": 1481, "end": 1485, "repl": "1917", "rule": "letters-in-number", "conf": 0.95, "before": "19l7"}
 {"seq": 328, "para": 3, "start": 3, "end": 7, "repl": "1821", "rule": "letters-in-number", "conf": 0.95, "before": "182l"}
+{"seq": 334, "para": 0, "start": 627, "end": 629, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 341, "para": 1, "start": 444, "end": 446, "repl": "-", "rule": "hyphen-space", "conf": 0.85, "before": "- "}
 {"seq": 354, "para": 6, "start": 606, "end": 610, "repl": "1915", "rule": "letters-in-number", "conf": 0.95, "before": "l915"}
 {"seq": 354, "para": 6, "start": 706, "end": 710, "repl": "1917", "rule": "letters-in-number", "conf": 0.95, "before": "19l7"}
+{"seq": 359, "para": 0, "start": 341, "end": 343, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 375, "para": 6, "start": 29, "end": 30, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 375, "para": 10, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 375, "para": 10, "start": 1052, "end": 1053, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 378, "para": 0, "start": 200, "end": 202, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 380, "para": 1, "start": 287, "end": 289, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 383, "para": 0, "start": 142, "end": 144, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 393, "para": 0, "start": 28, "end": 29, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 393, "para": 0, "start": 165, "end": 167, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 394, "para": 0, "start": 79, "end": 80, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 395, "para": 0, "start": 345, "end": 346, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 395, "para": 0, "start": 488, "end": 489, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -157,7 +164,6 @@
 {"seq": 395, "para": 0, "start": 640, "end": 641, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 395, "para": 0, "start": 669, "end": 670, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 395, "para": 0, "start": 856, "end": 857, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 403, "para": 1, "start": 62, "end": 63, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 404, "para": 3, "start": 9, "end": 10, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 404, "para": 5, "start": 77, "end": 78, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 405, "para": 0, "start": 180, "end": 181, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -166,14 +172,15 @@
 {"seq": 410, "para": 2, "start": 144, "end": 145, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 410, "para": 4, "start": 261, "end": 262, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 410, "para": 9, "start": 1087, "end": 1088, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 411, "para": 5, "start": 191, "end": 193, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 411, "para": 8, "start": 29, "end": 30, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 411, "para": 8, "start": 743, "end": 745, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 411, "para": 14, "start": 39, "end": 40, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 411, "para": 15, "start": 682, "end": 683, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 411, "para": 19, "start": 142, "end": 143, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 411, "para": 19, "start": 498, "end": 499, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 411, "para": 21, "start": 296, "end": 297, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 416, "para": 0, "start": 404, "end": 405, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 416, "para": 3, "start": 225, "end": 226, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 416, "para": 7, "start": 87, "end": 88, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 416, "para": 8, "start": 310, "end": 311, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 418, "para": 3, "start": 475, "end": 476, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -189,9 +196,10 @@
 {"seq": 436, "para": 4, "start": 381, "end": 382, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 439, "para": 2, "start": 64, "end": 65, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 441, "para": 1, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 443, "para": 0, "start": 630, "end": 632, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 446, "para": 0, "start": 7, "end": 8, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 446, "para": 0, "start": 379, "end": 381, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 446, "para": 0, "start": 968, "end": 969, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 446, "para": 0, "start": 1518, "end": 1519, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 448, "para": 4, "start": 819, "end": 820, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 449, "para": 2, "start": 33, "end": 34, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 449, "para": 3, "start": 52, "end": 53, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -201,6 +209,7 @@
 {"seq": 449, "para": 5, "start": 1202, "end": 1203, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 449, "para": 7, "start": 156, "end": 157, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 449, "para": 7, "start": 649, "end": 650, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 449, "para": 7, "start": 970, "end": 972, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 449, "para": 8, "start": 282, "end": 283, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 449, "para": 8, "start": 1335, "end": 1336, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 453, "para": 1, "start": 86, "end": 87, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -209,13 +218,15 @@
 {"seq": 461, "para": 1, "start": 55, "end": 56, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 461, "para": 1, "start": 541, "end": 542, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 461, "para": 3, "start": 28, "end": 29, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 461, "para": 3, "start": 161, "end": 163, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 461, "para": 5, "start": 218, "end": 219, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 463, "para": 1, "start": 72, "end": 73, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 464, "para": 4, "start": 238, "end": 239, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 464, "para": 5, "start": 278, "end": 279, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 464, "para": 8, "start": 85, "end": 86, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 464, "para": 12, "start": 192, "end": 194, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 467, "para": 0, "start": 583, "end": 584, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 468, "para": 0, "start": 107, "end": 108, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
+{"seq": 468, "para": 0, "start": 265, "end": 267, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 472, "para": 0, "start": 219, "end": 220, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 475, "para": 0, "start": 80, "end": 81, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 481, "para": 0, "start": 227, "end": 228, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -224,13 +235,16 @@
 {"seq": 488, "para": 0, "start": 173, "end": 174, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 488, "para": 0, "start": 342, "end": 343, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 488, "para": 1, "start": 40, "end": 41, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 488, "para": 3, "start": 309, "end": 311, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 494, "para": 0, "start": 445, "end": 447, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 495, "para": 1, "start": 47, "end": 48, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 495, "para": 1, "start": 144, "end": 145, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 498, "para": 3, "start": 107, "end": 108, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 498, "para": 4, "start": 53, "end": 54, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 498, "para": 7, "start": 6, "end": 7, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 498, "para": 12, "start": 85, "end": 86, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 498, "para": 13, "start": 185, "end": 186, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 498, "para": 15, "start": 151, "end": 153, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 498, "para": 20, "start": 573, "end": 575, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 499, "para": 1, "start": 40, "end": 41, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 499, "para": 3, "start": 192, "end": 193, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 499, "para": 4, "start": 128, "end": 129, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -239,6 +253,8 @@
 {"seq": 499, "para": 8, "start": 229, "end": 230, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 501, "para": 0, "start": 466, "end": 467, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 501, "para": 0, "start": 1377, "end": 1378, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 501, "para": 2, "start": 1407, "end": 1409, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 501, "para": 2, "start": 2928, "end": 2930, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 501, "para": 2, "start": 4220, "end": 4221, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 501, "para": 2, "start": 4298, "end": 4299, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 501, "para": 2, "start": 5542, "end": 5543, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -247,30 +263,30 @@
 {"seq": 501, "para": 2, "start": 9948, "end": 9949, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 501, "para": 2, "start": 10240, "end": 10241, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 501, "para": 2, "start": 10340, "end": 10341, "repl": "o", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
+{"seq": 501, "para": 2, "start": 11103, "end": 11105, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 501, "para": 2, "start": 12513, "end": 12514, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 501, "para": 2, "start": 12675, "end": 12676, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 501, "para": 2, "start": 14077, "end": 14078, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 501, "para": 2, "start": 16127, "end": 16128, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 501, "para": 2, "start": 16989, "end": 16990, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 501, "para": 2, "start": 18803, "end": 18805, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 501, "para": 2, "start": 26857, "end": 26858, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 501, "para": 2, "start": 28437, "end": 28441, "repl": "1937", "rule": "letters-in-number", "conf": 0.95, "before": "l937"}
 {"seq": 502, "para": 3, "start": 38, "end": 39, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 502, "para": 9, "start": 163, "end": 164, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 502, "para": 10, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 502, "para": 12, "start": 214, "end": 215, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 504, "para": 1, "start": 208, "end": 209, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 504, "para": 1, "start": 347, "end": 349, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 504, "para": 1, "start": 855, "end": 856, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 504, "para": 1, "start": 883, "end": 884, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 504, "para": 1, "start": 975, "end": 976, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 505, "para": 0, "start": 412, "end": 413, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 506, "para": 2, "start": 144, "end": 145, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 509, "para": 0, "start": 161, "end": 162, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 512, "para": 0, "start": 413, "end": 415, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 513, "para": 0, "start": 239, "end": 240, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 517, "para": 0, "start": 60, "end": 61, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 517, "para": 0, "start": 523, "end": 524, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 520, "para": 0, "start": 172, "end": 173, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 520, "para": 0, "start": 335, "end": 336, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 520, "para": 5, "start": 330, "end": 331, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 520, "para": 5, "start": 480, "end": 481, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 520, "para": 6, "start": 615, "end": 616, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 520, "para": 7, "start": 738, "end": 739, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -280,13 +296,11 @@
 {"seq": 525, "para": 0, "start": 149, "end": 150, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 525, "para": 1, "start": 77, "end": 78, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 529, "para": 0, "start": 275, "end": 276, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 534, "para": 0, "start": 3, "end": 4, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 541, "para": 0, "start": 8, "end": 9, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 544, "para": 0, "start": 8, "end": 9, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 547, "para": 2, "start": 24, "end": 25, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 547, "para": 2, "start": 244, "end": 245, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 547, "para": 2, "start": 429, "end": 430, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 548, "para": 1, "start": 360, "end": 361, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 548, "para": 9, "start": 32, "end": 33, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 548, "para": 11, "start": 39, "end": 40, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 549, "para": 0, "start": 273, "end": 274, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -296,9 +310,9 @@
 {"seq": 560, "para": 0, "start": 1263, "end": 1264, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 560, "para": 1, "start": 683, "end": 684, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 560, "para": 8, "start": 467, "end": 468, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 560, "para": 15, "start": 99, "end": 100, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 561, "para": 0, "start": 284, "end": 285, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 566, "para": 0, "start": 175, "end": 176, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 568, "para": 0, "start": 103, "end": 105, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 579, "para": 0, "start": 10, "end": 11, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 582, "para": 0, "start": 280, "end": 281, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 582, "para": 0, "start": 288, "end": 289, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
@@ -314,16 +328,19 @@
 {"seq": 589, "para": 0, "start": 175, "end": 176, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 589, "para": 0, "start": 527, "end": 528, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 589, "para": 0, "start": 756, "end": 757, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 589, "para": 0, "start": 1111, "end": 1113, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 589, "para": 0, "start": 1242, "end": 1244, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 592, "para": 0, "start": 67, "end": 68, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 593, "para": 4, "start": 285, "end": 286, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 596, "para": 4, "start": 37, "end": 38, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 596, "para": 5, "start": 41, "end": 42, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 597, "para": 0, "start": 139, "end": 140, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 601, "para": 0, "start": 471, "end": 472, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 601, "para": 0, "start": 777, "end": 779, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 607, "para": 1, "start": 31, "end": 32, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 609, "para": 0, "start": 113, "end": 114, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 609, "para": 0, "start": 855, "end": 856, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 610, "para": 2, "start": 62, "end": 63, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 610, "para": 2, "start": 173, "end": 175, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 613, "para": 0, "start": 65, "end": 66, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 618, "para": 0, "start": 605, "end": 606, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 619, "para": 0, "start": 128, "end": 129, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
@@ -332,38 +349,54 @@
 {"seq": 622, "para": 0, "start": 297, "end": 298, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 622, "para": 0, "start": 350, "end": 351, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 629, "para": 0, "start": 178, "end": 179, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 629, "para": 0, "start": 290, "end": 292, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 631, "para": 0, "start": 300, "end": 302, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 631, "para": 1, "start": 24, "end": 25, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 632, "para": 0, "start": 226, "end": 227, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 641, "para": 3, "start": 202, "end": 203, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 641, "para": 4, "start": 173, "end": 175, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 646, "para": 1, "start": 149, "end": 151, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 648, "para": 0, "start": 210, "end": 211, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 651, "para": 0, "start": 138, "end": 140, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 653, "para": 0, "start": 1263, "end": 1264, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 663, "para": 10, "start": 362, "end": 364, "repl": "10", "rule": "letters-in-number", "conf": 0.95, "before": "1O"}
 {"seq": 682, "para": 0, "start": 48, "end": 49, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 687, "para": 0, "start": 749, "end": 751, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 693, "para": 0, "start": 953, "end": 954, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 693, "para": 1, "start": 113, "end": 114, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 693, "para": 3, "start": 140, "end": 141, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 693, "para": 4, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 697, "para": 12, "start": 571, "end": 572, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 699, "para": 25, "start": 416, "end": 418, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 699, "para": 30, "start": 51, "end": 53, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 705, "para": 0, "start": 45, "end": 46, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 706, "para": 0, "start": 365, "end": 367, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 709, "para": 0, "start": 340, "end": 348, "repl": "Aluviões", "rule": "digit-in-word", "conf": 0.95, "before": "A1uviões"}
+{"seq": 712, "para": 1, "start": 81, "end": 81, "repl": " ", "rule": "space-after-colon", "conf": 0.85, "before": ""}
 {"seq": 723, "para": 4, "start": 453, "end": 454, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 723, "para": 4, "start": 842, "end": 843, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 723, "para": 5, "start": 543, "end": 545, "repl": "15", "rule": "letters-in-number", "conf": 0.95, "before": "l5"}
 {"seq": 724, "para": 1, "start": 209, "end": 210, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 728, "para": 3, "start": 814, "end": 815, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 728, "para": 7, "start": 660, "end": 662, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 730, "para": 8, "start": 1346, "end": 1349, "repl": "291", "rule": "letters-in-number", "conf": 0.95, "before": "29l"}
 {"seq": 730, "para": 19, "start": 572, "end": 573, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 735, "para": 0, "start": 165, "end": 166, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 737, "para": 20, "start": 596, "end": 597, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 737, "para": 25, "start": 272, "end": 273, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 738, "para": 0, "start": 538, "end": 540, "repl": "II", "rule": "letters-in-number", "conf": 0.95, "before": "I1"}
+{"seq": 741, "para": 1, "start": 305, "end": 307, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 741, "para": 12, "start": 524, "end": 525, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 741, "para": 12, "start": 975, "end": 977, "repl": "16", "rule": "letters-in-number", "conf": 0.95, "before": "l6"}
+{"seq": 746, "para": 15, "start": 430, "end": 432, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 752, "para": 1, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 754, "para": 0, "start": 551, "end": 553, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 756, "para": 24, "start": 929, "end": 933, "repl": "qual", "rule": "digit-in-word", "conf": 0.95, "before": "qua1"}
 {"seq": 761, "para": 4, "start": 365, "end": 366, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 761, "para": 12, "start": 240, "end": 241, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 761, "para": 12, "start": 524, "end": 525, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 761, "para": 13, "start": 760, "end": 762, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 761, "para": 13, "start": 1566, "end": 1568, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 764, "para": 0, "start": 59, "end": 61, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 768, "para": 1, "start": 699, "end": 700, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 768, "para": 1, "start": 921, "end": 922, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 768, "para": 2, "start": 242, "end": 243, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
@@ -372,17 +405,22 @@
 {"seq": 769, "para": 5, "start": 61, "end": 62, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 769, "para": 5, "start": 314, "end": 315, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 769, "para": 8, "start": 175, "end": 176, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 773, "para": 0, "start": 114, "end": 116, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 774, "para": 0, "start": 97, "end": 99, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 786, "para": 1, "start": 909, "end": 910, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 786, "para": 2, "start": 624, "end": 626, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 786, "para": 3, "start": 700, "end": 701, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 788, "para": 7, "start": 30, "end": 32, "repl": "-", "rule": "hyphen-space", "conf": 0.85, "before": "- "}
+{"seq": 791, "para": 0, "start": 314, "end": 316, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 800, "para": 9, "start": 147, "end": 149, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 816, "para": 1, "start": 541, "end": 542, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 817, "para": 0, "start": 473, "end": 474, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 827, "para": 1, "start": 16, "end": 18, "repl": "II", "rule": "letters-in-number", "conf": 0.95, "before": "I1"}
 {"seq": 850, "para": 0, "start": 447, "end": 448, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 853, "para": 3, "start": 103, "end": 104, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 861, "para": 3, "start": 546, "end": 547, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 861, "para": 3, "start": 559, "end": 560, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 888, "para": 0, "start": 247, "end": 248, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 895, "para": 0, "start": 124, "end": 126, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 906, "para": 0, "start": 226, "end": 227, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 909, "para": 2, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 909, "para": 3, "start": 165, "end": 166, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
@@ -391,106 +429,218 @@
 {"seq": 948, "para": 1, "start": 574, "end": 578, "repl": "1751", "rule": "letters-in-number", "conf": 0.95, "before": "175l"}
 {"seq": 948, "para": 15, "start": 155, "end": 156, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 948, "para": 19, "start": 68, "end": 69, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 948, "para": 20, "start": 81, "end": 82, "repl": "o", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 948, "para": 27, "start": 35, "end": 40, "repl": "Julho", "rule": "digit-in-word", "conf": 1.0, "before": "Ju1ho"}
 {"seq": 949, "para": 0, "start": 189, "end": 190, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 949, "para": 1, "start": 3, "end": 5, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 949, "para": 6, "start": 76, "end": 78, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 949, "para": 26, "start": 326, "end": 327, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 949, "para": 30, "start": 104, "end": 105, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 973, "para": 1, "start": 564, "end": 566, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 973, "para": 1, "start": 687, "end": 689, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 975, "para": 0, "start": 332, "end": 334, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 975, "para": 1, "start": 10, "end": 11, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 978, "para": 6, "start": 269, "end": 271, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 978, "para": 12, "start": 356, "end": 358, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 981, "para": 4, "start": 32, "end": 33, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 981, "para": 16, "start": 679, "end": 680, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 982, "para": 16, "start": 73, "end": 75, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 988, "para": 0, "start": 135, "end": 137, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1001, "para": 0, "start": 329, "end": 331, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1001, "para": 1, "start": 273, "end": 274, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1008, "para": 0, "start": 319, "end": 321, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1010, "para": 2, "start": 188, "end": 202, "repl": "constitucional", "rule": "digit-in-word", "conf": 0.95, "before": "constituciona1"}
+{"seq": 1012, "para": 8, "start": 372, "end": 374, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1014, "para": 5, "start": 292, "end": 292, "repl": " ", "rule": "space-after-colon", "conf": 0.85, "before": ""}
 {"seq": 1027, "para": 17, "start": 650, "end": 651, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1027, "para": 18, "start": 936, "end": 938, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1029, "para": 1, "start": 180, "end": 182, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1029, "para": 2, "start": 627, "end": 629, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1029, "para": 2, "start": 854, "end": 855, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1029, "para": 2, "start": 872, "end": 874, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1031, "para": 1, "start": 95, "end": 97, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1032, "para": 22, "start": 288, "end": 292, "repl": "1809", "rule": "letters-in-number", "conf": 0.95, "before": "l809"}
 {"seq": 1032, "para": 25, "start": 293, "end": 295, "repl": "15", "rule": "letters-in-number", "conf": 0.95, "before": "l5"}
 {"seq": 1032, "para": 26, "start": 57, "end": 60, "repl": "215", "rule": "letters-in-number", "conf": 0.95, "before": "2l5"}
 {"seq": 1034, "para": 0, "start": 122, "end": 123, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1034, "para": 0, "start": 462, "end": 463, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1034, "para": 0, "start": 525, "end": 526, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1034, "para": 4, "start": 946, "end": 948, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1034, "para": 11, "start": 199, "end": 201, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1040, "para": 0, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 1053, "para": 1, "start": 268, "end": 269, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 1076, "para": 4, "start": 202, "end": 203, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 1043, "para": 5, "start": 157, "end": 159, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1044, "para": 0, "start": 58, "end": 60, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1051, "para": 1, "start": 29, "end": 31, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1058, "para": 1, "start": 607, "end": 609, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1070, "para": 0, "start": 322, "end": 324, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1076, "para": 5, "start": 273, "end": 274, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1076, "para": 7, "start": 171, "end": 172, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1076, "para": 10, "start": 295, "end": 296, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1091, "para": 0, "start": 652, "end": 653, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1092, "para": 2, "start": 673, "end": 675, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1093, "para": 2, "start": 234, "end": 236, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1094, "para": 0, "start": 630, "end": 632, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1098, "para": 1, "start": 768, "end": 770, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1098, "para": 1, "start": 1202, "end": 1204, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1098, "para": 1, "start": 1674, "end": 1676, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1103, "para": 0, "start": 1326, "end": 1327, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1103, "para": 2, "start": 31, "end": 33, "repl": "II", "rule": "letters-in-number", "conf": 0.95, "before": "I1"}
 {"seq": 1132, "para": 25, "start": 19, "end": 20, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1139, "para": 0, "start": 126, "end": 130, "repl": "1919", "rule": "letters-in-number", "conf": 0.95, "before": "19l9"}
+{"seq": 1156, "para": 1, "start": 1130, "end": 1132, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1156, "para": 1, "start": 1817, "end": 1821, "repl": "1515", "rule": "letters-in-number", "conf": 0.95, "before": "15l5"}
 {"seq": 1157, "para": 0, "start": 1046, "end": 1047, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1160, "para": 0, "start": 505, "end": 506, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1161, "para": 1, "start": 138, "end": 140, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1173, "para": 0, "start": 337, "end": 339, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1174, "para": 14, "start": 559, "end": 560, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1174, "para": 15, "start": 345, "end": 346, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 1174, "para": 20, "start": 1664, "end": 1665, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1178, "para": 1, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1178, "para": 2, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1183, "para": 0, "start": 313, "end": 314, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 1194, "para": 3, "start": 258, "end": 259, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 1198, "para": 3, "start": 583, "end": 584, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 1211, "para": 0, "start": 1530, "end": 1531, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1211, "para": 0, "start": 3276, "end": 3277, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 1213, "para": 4, "start": 569, "end": 570, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 1213, "para": 4, "start": 742, "end": 743, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1216, "para": 0, "start": 190, "end": 192, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1217, "para": 0, "start": 219, "end": 221, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1220, "para": 0, "start": 313, "end": 315, "repl": "-", "rule": "hyphen-space", "conf": 0.85, "before": "- "}
+{"seq": 1223, "para": 0, "start": 225, "end": 227, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1261, "para": 7, "start": 459, "end": 461, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1262, "para": 1, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1262, "para": 9, "start": 299, "end": 301, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1262, "para": 18, "start": 3, "end": 4, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1267, "para": 0, "start": 397, "end": 398, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 1267, "para": 11, "start": 163, "end": 167, "repl": "1904", "rule": "letters-in-number", "conf": 0.95, "before": "l904"}
+{"seq": 1274, "para": 0, "start": 103, "end": 105, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1280, "para": 6, "start": 27, "end": 31, "repl": "1910", "rule": "letters-in-number", "conf": 0.95, "before": "191O"}
+{"seq": 1284, "para": 0, "start": 187, "end": 189, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1294, "para": 1, "start": 150, "end": 152, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1296, "para": 7, "start": 734, "end": 735, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1296, "para": 14, "start": 453, "end": 455, "repl": "-", "rule": "hyphen-space", "conf": 0.85, "before": "- "}
+{"seq": 1303, "para": 19, "start": 341, "end": 343, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1303, "para": 19, "start": 462, "end": 463, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1303, "para": 19, "start": 549, "end": 551, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 695, "end": 697, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 780, "end": 782, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 801, "end": 803, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 892, "end": 894, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 919, "end": 921, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 967, "end": 969, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1099, "end": 1101, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1192, "end": 1194, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1256, "end": 1258, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1283, "end": 1285, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1387, "end": 1389, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1450, "end": 1452, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1588, "end": 1590, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1648, "end": 1650, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1686, "end": 1688, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1303, "para": 19, "start": 1719, "end": 1720, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1303, "para": 19, "start": 1737, "end": 1739, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1796, "end": 1798, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1856, "end": 1858, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1902, "end": 1904, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1955, "end": 1957, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 1978, "end": 1980, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 2004, "end": 2006, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 2077, "end": 2079, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 2114, "end": 2116, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1303, "para": 19, "start": 2228, "end": 2229, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1303, "para": 19, "start": 2259, "end": 2260, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1303, "para": 19, "start": 2263, "end": 2264, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1303, "para": 19, "start": 2295, "end": 2297, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 2479, "end": 2481, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 2513, "end": 2515, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1303, "para": 19, "start": 2621, "end": 2622, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1303, "para": 19, "start": 2853, "end": 2855, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 2987, "end": 2989, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3018, "end": 3020, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3056, "end": 3058, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3240, "end": 3242, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3275, "end": 3277, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3466, "end": 3468, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3547, "end": 3549, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3640, "end": 3642, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3681, "end": 3683, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3769, "end": 3771, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1303, "para": 19, "start": 3797, "end": 3799, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1305, "para": 1, "start": 361, "end": 364, "repl": "300", "rule": "letters-in-number", "conf": 0.95, "before": "3OO"}
 {"seq": 1307, "para": 1, "start": 329, "end": 331, "repl": "-", "rule": "hyphen-space", "conf": 0.85, "before": "- "}
 {"seq": 1307, "para": 10, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1308, "para": 5, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1318, "para": 0, "start": 92, "end": 94, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1322, "para": 0, "start": 469, "end": 471, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1331, "para": 0, "start": 751, "end": 753, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1331, "para": 0, "start": 2918, "end": 2919, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1331, "para": 0, "start": 5445, "end": 5447, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1335, "para": 2, "start": 472, "end": 473, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 1338, "para": 0, "start": 1362, "end": 1364, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1346, "para": 0, "start": 100, "end": 101, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1353, "para": 11, "start": 237, "end": 238, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1353, "para": 14, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1354, "para": 2, "start": 238, "end": 240, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1354, "para": 6, "start": 255, "end": 257, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1361, "para": 2, "start": 184, "end": 185, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1361, "para": 3, "start": 929, "end": 931, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1361, "para": 4, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1361, "para": 13, "start": 691, "end": 693, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1361, "para": 13, "start": 850, "end": 852, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1392, "para": 2, "start": 498, "end": 500, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1400, "para": 0, "start": 319, "end": 321, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1401, "para": 8, "start": 576, "end": 577, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1401, "para": 8, "start": 589, "end": 590, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1401, "para": 8, "start": 654, "end": 656, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1405, "para": 0, "start": 148, "end": 149, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1410, "para": 1, "start": 71, "end": 72, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1415, "para": 0, "start": 1118, "end": 1120, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1430, "para": 0, "start": 607, "end": 608, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 1431, "para": 0, "start": 1045, "end": 1046, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 1432, "para": 2, "start": 361, "end": 362, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 1448, "para": 1, "start": 149, "end": 151, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1449, "para": 2, "start": 366, "end": 368, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1449, "para": 6, "start": 35, "end": 38, "repl": "100", "rule": "letters-in-number", "conf": 0.95, "before": "l00"}
+{"seq": 1449, "para": 7, "start": 1300, "end": 1302, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1449, "para": 7, "start": 1339, "end": 1341, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1449, "para": 7, "start": 1428, "end": 1430, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1449, "para": 7, "start": 2843, "end": 2847, "repl": "1901", "rule": "letters-in-number", "conf": 0.95, "before": "190l"}
 {"seq": 1449, "para": 7, "start": 3036, "end": 3037, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1449, "para": 7, "start": 4395, "end": 4396, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1449, "para": 9, "start": 120, "end": 121, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 1451, "para": 0, "start": 158, "end": 160, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1453, "para": 0, "start": 392, "end": 394, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1459, "para": 0, "start": 1032, "end": 1034, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1462, "para": 0, "start": 104, "end": 105, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1473, "para": 0, "start": 429, "end": 431, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1475, "para": 0, "start": 478, "end": 479, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 1475, "para": 12, "start": 306, "end": 309, "repl": "600", "rule": "letters-in-number", "conf": 0.95, "before": "60O"}
+{"seq": 1492, "para": 0, "start": 399, "end": 401, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1495, "para": 1, "start": 316, "end": 317, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1495, "para": 2, "start": 723, "end": 725, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1538, "para": 1, "start": 160, "end": 162, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1546, "para": 0, "start": 325, "end": 327, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1546, "para": 5, "start": 66, "end": 74, "repl": "especial", "rule": "digit-in-word", "conf": 0.95, "before": "especia1"}
 {"seq": 1557, "para": 1, "start": 512, "end": 513, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1557, "para": 1, "start": 661, "end": 662, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1569, "para": 20, "start": 249, "end": 250, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1569, "para": 24, "start": 275, "end": 276, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1569, "para": 26, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1572, "para": 0, "start": 1461, "end": 1463, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1574, "para": 12, "start": 177, "end": 178, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 1596, "para": 27, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1596, "para": 30, "start": 426, "end": 427, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1596, "para": 32, "start": 94, "end": 96, "repl": "16", "rule": "letters-in-number", "conf": 0.95, "before": "l6"}
+{"seq": 1612, "para": 0, "start": 160, "end": 162, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1629, "para": 0, "start": 559, "end": 561, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1638, "para": 12, "start": 1001, "end": 1002, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1642, "para": 0, "start": 56, "end": 57, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 1644, "para": 19, "start": 120, "end": 131, "repl": "COROGRÁFICA", "rule": "digit-in-word", "conf": 0.95, "before": "COROGRÁF1CA"}
 {"seq": 1644, "para": 19, "start": 522, "end": 524, "repl": "10", "rule": "letters-in-number", "conf": 0.95, "before": "1O"}
+{"seq": 1645, "para": 19, "start": 445, "end": 447, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1645, "para": 20, "start": 298, "end": 300, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1645, "para": 23, "start": 195, "end": 197, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1645, "para": 41, "start": 345, "end": 347, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1645, "para": 51, "start": 131, "end": 133, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1645, "para": 67, "start": 276, "end": 278, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1666, "para": 0, "start": 469, "end": 470, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1696, "para": 0, "start": 411, "end": 413, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1719, "para": 0, "start": 137, "end": 138, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1724, "para": 0, "start": 97, "end": 98, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1727, "para": 0, "start": 596, "end": 597, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
@@ -503,29 +653,46 @@
 {"seq": 1731, "para": 16, "start": 17, "end": 18, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1731, "para": 17, "start": 19, "end": 20, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1731, "para": 19, "start": 523, "end": 524, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1731, "para": 21, "start": 731, "end": 733, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1734, "para": 4, "start": 1, "end": 2, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1734, "para": 5, "start": 130, "end": 132, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1734, "para": 53, "start": 1028, "end": 1030, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1764, "para": 0, "start": 713, "end": 715, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1773, "para": 6, "start": 382, "end": 383, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1773, "para": 6, "start": 581, "end": 582, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1773, "para": 7, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 1776, "para": 1, "start": 425, "end": 426, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 1775, "para": 0, "start": 1704, "end": 1706, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1776, "para": 4, "start": 162, "end": 164, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1784, "para": 1, "start": 66, "end": 67, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1795, "para": 1, "start": 143, "end": 144, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1795, "para": 2, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1795, "para": 2, "start": 158, "end": 159, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1795, "para": 3, "start": 784, "end": 785, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1795, "para": 3, "start": 968, "end": 970, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1796, "para": 0, "start": 626, "end": 627, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1798, "para": 0, "start": 283, "end": 284, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1799, "para": 1, "start": 612, "end": 614, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1801, "para": 0, "start": 1362, "end": 1364, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1801, "para": 4, "start": 1567, "end": 1569, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1801, "para": 4, "start": 2520, "end": 2521, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
+{"seq": 1815, "para": 0, "start": 224, "end": 226, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1823, "para": 1, "start": 186, "end": 188, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1845, "para": 0, "start": 314, "end": 316, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1853, "para": 1, "start": 139, "end": 141, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1855, "para": 0, "start": 415, "end": 416, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1856, "para": 3, "start": 411, "end": 413, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1856, "para": 4, "start": 374, "end": 376, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1857, "para": 6, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1857, "para": 10, "start": 222, "end": 223, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1859, "para": 0, "start": 126, "end": 127, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1859, "para": 1, "start": 174, "end": 175, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1859, "para": 5, "start": 192, "end": 193, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1859, "para": 6, "start": 155, "end": 156, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 1861, "para": 6, "start": 641, "end": 642, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 1861, "para": 0, "start": 524, "end": 526, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1861, "para": 2, "start": 576, "end": 578, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1861, "para": 9, "start": 390, "end": 391, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1861, "para": 15, "start": 828, "end": 829, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1861, "para": 15, "start": 1327, "end": 1329, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1861, "para": 17, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1863, "para": 9, "start": 292, "end": 295, "repl": "819", "rule": "letters-in-number", "conf": 0.95, "before": "8l9"}
 {"seq": 1863, "para": 21, "start": 913, "end": 914, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
@@ -533,34 +700,56 @@
 {"seq": 1863, "para": 43, "start": 384, "end": 385, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1863, "para": 50, "start": 88, "end": 90, "repl": "19", "rule": "letters-in-number", "conf": 0.95, "before": "l9"}
 {"seq": 1863, "para": 54, "start": 298, "end": 299, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1864, "para": 1, "start": 1013, "end": 1015, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1864, "para": 2, "start": 500, "end": 502, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1868, "para": 15, "start": 531, "end": 533, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1868, "para": 19, "start": 434, "end": 435, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1868, "para": 19, "start": 680, "end": 681, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1868, "para": 20, "start": 155, "end": 156, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1868, "para": 21, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1870, "para": 0, "start": 280, "end": 282, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1872, "para": 0, "start": 271, "end": 272, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 1876, "para": 2, "start": 964, "end": 965, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 1906, "para": 7, "start": 340, "end": 341, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1911, "para": 5, "start": 419, "end": 420, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1918, "para": 1, "start": 1023, "end": 1024, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1918, "para": 1, "start": 1204, "end": 1205, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1920, "para": 0, "start": 3, "end": 4, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 1921, "para": 8, "start": 896, "end": 898, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1925, "para": 0, "start": 350, "end": 351, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1932, "para": 0, "start": 40, "end": 42, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1940, "para": 4, "start": 1110, "end": 1111, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
+{"seq": 1946, "para": 0, "start": 468, "end": 470, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1968, "para": 6, "start": 176, "end": 177, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 1968, "para": 6, "start": 316, "end": 317, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1968, "para": 14, "start": 165, "end": 167, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 1971, "para": 12, "start": 580, "end": 582, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1971, "para": 13, "start": 324, "end": 325, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1982, "para": 0, "start": 137, "end": 139, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 1984, "para": 0, "start": 700, "end": 701, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 1986, "para": 0, "start": 93, "end": 95, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2003, "para": 0, "start": 186, "end": 187, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2007, "para": 2, "start": 738, "end": 740, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2009, "para": 1, "start": 323, "end": 325, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2009, "para": 5, "start": 433, "end": 435, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2009, "para": 5, "start": 653, "end": 655, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2021, "para": 17, "start": 115, "end": 116, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2022, "para": 1, "start": 121, "end": 123, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2027, "para": 0, "start": 724, "end": 726, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2027, "para": 1, "start": 522, "end": 524, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2027, "para": 1, "start": 705, "end": 706, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2028, "para": 0, "start": 244, "end": 245, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
+{"seq": 2028, "para": 1, "start": 177, "end": 179, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2030, "para": 0, "start": 676, "end": 677, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2031, "para": 0, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2037, "para": 0, "start": 163, "end": 165, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2041, "para": 10, "start": 437, "end": 439, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2051, "para": 0, "start": 114, "end": 116, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2051, "para": 0, "start": 117, "end": 118, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2051, "para": 0, "start": 263, "end": 264, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2052, "para": 0, "start": 354, "end": 355, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2053, "para": 0, "start": 327, "end": 328, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2053, "para": 1, "start": 373, "end": 374, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2057, "para": 45, "start": 433, "end": 435, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2057, "para": 51, "start": 680, "end": 681, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2057, "para": 65, "start": 292, "end": 293, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2057, "para": 153, "start": 2969, "end": 2970, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
@@ -577,46 +766,71 @@
 {"seq": 2057, "para": 194, "start": 293, "end": 294, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2057, "para": 271, "start": 1008, "end": 1009, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2057, "para": 271, "start": 3515, "end": 3516, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2057, "para": 276, "start": 962, "end": 964, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2061, "para": 5, "start": 400, "end": 402, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2080, "para": 1, "start": 266, "end": 268, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2080, "para": 1, "start": 576, "end": 578, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2082, "para": 1, "start": 658, "end": 659, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 2121, "para": 6, "start": 172, "end": 173, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2131, "para": 0, "start": 355, "end": 357, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2136, "para": 0, "start": 93, "end": 95, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2136, "para": 0, "start": 252, "end": 253, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2136, "para": 0, "start": 327, "end": 328, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2148, "para": 0, "start": 79, "end": 81, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2152, "para": 0, "start": 17, "end": 23, "repl": "inglês", "rule": "digit-in-word", "conf": 1.0, "before": "ing1ês"}
 {"seq": 2160, "para": 0, "start": 78, "end": 79, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2161, "para": 0, "start": 814, "end": 815, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2167, "para": 2, "start": 269, "end": 271, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2167, "para": 3, "start": 2978, "end": 2979, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2170, "para": 0, "start": 836, "end": 838, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2173, "para": 5, "start": 316, "end": 318, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2173, "para": 6, "start": 690, "end": 692, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2173, "para": 6, "start": 2281, "end": 2290, "repl": "Gonçalves", "rule": "digit-in-word", "conf": 1.0, "before": "Gonça1ves"}
+{"seq": 2174, "para": 0, "start": 2756, "end": 2758, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2179, "para": 1, "start": 637, "end": 646, "repl": "Madalena", "rule": "digit-in-word", "conf": 1.0, "before": "MadaZe7ia"}
 {"seq": 2179, "para": 5, "start": 203, "end": 204, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2181, "para": 12, "start": 395, "end": 396, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2181, "para": 13, "start": 224, "end": 225, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2182, "para": 0, "start": 691, "end": 692, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2182, "para": 0, "start": 958, "end": 959, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2182, "para": 13, "start": 179, "end": 181, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2182, "para": 17, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2182, "para": 20, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2182, "para": 22, "start": 280, "end": 281, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2182, "para": 24, "start": 122, "end": 123, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2189, "para": 2, "start": 746, "end": 748, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2206, "para": 0, "start": 304, "end": 305, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2206, "para": 0, "start": 838, "end": 840, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2209, "para": 0, "start": 660, "end": 662, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2220, "para": 6, "start": 1124, "end": 1126, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2242, "para": 0, "start": 196, "end": 197, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2242, "para": 0, "start": 535, "end": 537, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2249, "para": 0, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2249, "para": 2, "start": 364, "end": 365, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2251, "para": 5, "start": 180, "end": 181, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2255, "para": 22, "start": 83, "end": 84, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 2255, "para": 26, "start": 723, "end": 724, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 2255, "para": 34, "start": 204, "end": 206, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2256, "para": 4, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2256, "para": 9, "start": 105, "end": 106, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2260, "para": 0, "start": 148, "end": 150, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2270, "para": 0, "start": 619, "end": 621, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2271, "para": 2, "start": 94, "end": 96, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2272, "para": 0, "start": 235, "end": 237, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2277, "para": 0, "start": 205, "end": 206, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 2303, "para": 2, "start": 14, "end": 15, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 2279, "para": 4, "start": 403, "end": 405, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2279, "para": 4, "start": 745, "end": 747, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2303, "para": 3, "start": 221, "end": 222, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2305, "para": 2, "start": 646, "end": 648, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2318, "para": 0, "start": 113, "end": 114, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2318, "para": 0, "start": 134, "end": 135, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 2323, "para": 1, "start": 1182, "end": 1183, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 2341, "para": 3, "start": 895, "end": 896, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 2341, "para": 5, "start": 374, "end": 375, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2319, "para": 14, "start": 306, "end": 308, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2323, "para": 5, "start": 396, "end": 398, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2324, "para": 0, "start": 346, "end": 348, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2352, "para": 5, "start": 260, "end": 262, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2359, "para": 0, "start": 547, "end": 548, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2361, "para": 2, "start": 769, "end": 770, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2378, "para": 0, "start": 400, "end": 401, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 2391, "para": 1, "start": 906, "end": 907, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2381, "para": 16, "start": 129, "end": 131, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2391, "para": 19, "start": 412, "end": 413, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2391, "para": 39, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2391, "para": 55, "start": 1678, "end": 1685, "repl": "Funchal", "rule": "digit-in-word", "conf": 0.95, "before": "Funcha1"}
@@ -624,114 +838,197 @@
 {"seq": 2393, "para": 4, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2393, "para": 13, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2399, "para": 12, "start": 211, "end": 216, "repl": "dólar", "rule": "digit-in-word", "conf": 1.0, "before": "dó1ar"}
-{"seq": 2399, "para": 15, "start": 348, "end": 349, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2400, "para": 0, "start": 643, "end": 644, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2407, "para": 0, "start": 252, "end": 253, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2415, "para": 2, "start": 274, "end": 275, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2415, "para": 2, "start": 649, "end": 650, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2416, "para": 0, "start": 498, "end": 500, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2417, "para": 3, "start": 251, "end": 252, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2419, "para": 9, "start": 128, "end": 130, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2429, "para": 0, "start": 102, "end": 106, "repl": "1763", "rule": "letters-in-number", "conf": 0.95, "before": "l763"}
+{"seq": 2468, "para": 0, "start": 463, "end": 465, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2474, "para": 5, "start": 6, "end": 7, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2474, "para": 31, "start": 139, "end": 140, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2474, "para": 38, "start": 616, "end": 618, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2477, "para": 0, "start": 451, "end": 453, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2477, "para": 0, "start": 577, "end": 579, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2479, "para": 2, "start": 1982, "end": 1983, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2485, "para": 3, "start": 965, "end": 966, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2495, "para": 0, "start": 1032, "end": 1034, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2496, "para": 0, "start": 3, "end": 4, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2501, "para": 0, "start": 541, "end": 543, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2502, "para": 13, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2502, "para": 13, "start": 230, "end": 231, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2502, "para": 22, "start": 267, "end": 269, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2505, "para": 0, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2508, "para": 14, "start": 172, "end": 174, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2512, "para": 0, "start": 672, "end": 681, "repl": "Histórico", "rule": "digit-in-word", "conf": 1.0, "before": "Hist6rico"}
 {"seq": 2512, "para": 1, "start": 307, "end": 315, "repl": "História", "rule": "digit-in-word", "conf": 1.0, "before": "Hist6ria"}
+{"seq": 2516, "para": 12, "start": 386, "end": 388, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2516, "para": 14, "start": 428, "end": 430, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2529, "para": 7, "start": 340, "end": 342, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2530, "para": 14, "start": 172, "end": 173, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2535, "para": 0, "start": 284, "end": 292, "repl": "católica", "rule": "digit-in-word", "conf": 0.7, "before": "cat61ica"}
 {"seq": 2535, "para": 0, "start": 459, "end": 466, "repl": "colónia", "rule": "digit-in-word", "conf": 1.0, "before": "col6nia"}
-{"seq": 2535, "para": 0, "start": 533, "end": 540, "repl": "Nobrega", "rule": "digit-in-word", "conf": 0.7, "before": "N6brega"}
+{"seq": 2535, "para": 0, "start": 533, "end": 540, "repl": "Nóbrega", "rule": "digit-in-word", "conf": 0.7, "before": "N6brega"}
+{"seq": 2542, "para": 0, "start": 84, "end": 86, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2544, "para": 0, "start": 75, "end": 76, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2547, "para": 11, "start": 310, "end": 312, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2550, "para": 0, "start": 517, "end": 517, "repl": " ", "rule": "space-after-colon", "conf": 0.85, "before": ""}
+{"seq": 2553, "para": 0, "start": 245, "end": 247, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2563, "para": 1, "start": 202, "end": 208, "repl": "também", "rule": "digit-in-word", "conf": 1.0, "before": "tamb6m"}
 {"seq": 2563, "para": 2, "start": 41, "end": 49, "repl": "Custódio", "rule": "digit-in-word", "conf": 1.0, "before": "Cust6dio"}
 {"seq": 2588, "para": 2, "start": 669, "end": 675, "repl": "Manuel", "rule": "digit-in-word", "conf": 0.95, "before": "Manue1"}
+{"seq": 2598, "para": 7, "start": 959, "end": 961, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2598, "para": 10, "start": 434, "end": 436, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2606, "para": 8, "start": 540, "end": 541, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 2621, "para": 4, "start": 203, "end": 204, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2621, "para": 4, "start": 371, "end": 372, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2624, "para": 0, "start": 148, "end": 155, "repl": "Vitória", "rule": "digit-in-word", "conf": 1.0, "before": "Vlt6ria"}
+{"seq": 2651, "para": 0, "start": 1124, "end": 1126, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2659, "para": 1, "start": 248, "end": 249, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2659, "para": 4, "start": 448, "end": 449, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 2672, "para": 10, "start": 375, "end": 376, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 2659, "para": 10, "start": 731, "end": 733, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2684, "para": 1, "start": 203, "end": 205, "repl": "30", "rule": "letters-in-number", "conf": 0.95, "before": "3O"}
 {"seq": 2684, "para": 2, "start": 208, "end": 210, "repl": "30", "rule": "letters-in-number", "conf": 0.95, "before": "3O"}
+{"seq": 2690, "para": 5, "start": 323, "end": 325, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2692, "para": 3, "start": 71, "end": 72, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2692, "para": 19, "start": 360, "end": 362, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2695, "para": 7, "start": 439, "end": 441, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2702, "para": 0, "start": 531, "end": 532, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2708, "para": 0, "start": 254, "end": 256, "repl": " — ", "rule": "hyphen-as-dash", "conf": 0.8, "before": "- "}
 {"seq": 2716, "para": 1, "start": 203, "end": 204, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 2717, "para": 0, "start": 275, "end": 276, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2717, "para": 1, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2722, "para": 3, "start": 2018, "end": 2019, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2730, "para": 6, "start": 551, "end": 552, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 2737, "para": 0, "start": 976, "end": 978, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2752, "para": 1, "start": 245, "end": 247, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2759, "para": 6, "start": 143, "end": 145, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2759, "para": 18, "start": 738, "end": 740, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2759, "para": 22, "start": 544, "end": 545, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2759, "para": 23, "start": 603, "end": 605, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2759, "para": 24, "start": 726, "end": 728, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2759, "para": 25, "start": 311, "end": 312, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2759, "para": 34, "start": 454, "end": 455, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2769, "para": 0, "start": 634, "end": 636, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2774, "para": 1, "start": 874, "end": 876, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2774, "para": 3, "start": 528, "end": 529, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 2774, "para": 13, "start": 83, "end": 84, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
-{"seq": 2827, "para": 0, "start": 66, "end": 71, "repl": "Porto", "rule": "digit-in-word", "conf": 0.7, "before": "P6rto"}
+{"seq": 2805, "para": 0, "start": 696, "end": 698, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2827, "para": 0, "start": 66, "end": 71, "repl": "Pôrto", "rule": "digit-in-word", "conf": 0.7, "before": "P6rto"}
 {"seq": 2833, "para": 0, "start": 88, "end": 89, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2834, "para": 3, "start": 533, "end": 535, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2840, "para": 0, "start": 450, "end": 452, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2842, "para": 0, "start": 1460, "end": 1461, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2846, "para": 5, "start": 671, "end": 673, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2853, "para": 1, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2853, "para": 13, "start": 944, "end": 946, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2870, "para": 0, "start": 48, "end": 50, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2873, "para": 0, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 2941, "para": 3, "start": 970, "end": 971, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 2881, "para": 0, "start": 563, "end": 565, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2892, "para": 0, "start": 584, "end": 586, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2899, "para": 0, "start": 714, "end": 716, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2918, "para": 2, "start": 725, "end": 727, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2942, "para": 1, "start": 691, "end": 698, "repl": "Alguns", "rule": "digit-in-word", "conf": 1.0, "before": "Al1guns"}
+{"seq": 2944, "para": 2, "start": 363, "end": 365, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2947, "para": 1, "start": 253, "end": 255, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2949, "para": 15, "start": 1108, "end": 1110, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2949, "para": 15, "start": 1438, "end": 1440, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2953, "para": 5, "start": 459, "end": 460, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 2953, "para": 7, "start": 286, "end": 288, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2953, "para": 12, "start": 241, "end": 242, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 2972, "para": 5, "start": 426, "end": 427, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2955, "para": 0, "start": 1460, "end": 1462, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2955, "para": 26, "start": 237, "end": 239, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2964, "para": 4, "start": 772, "end": 774, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 2973, "para": 2, "start": 181, "end": 182, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2974, "para": 1, "start": 138, "end": 139, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 2974, "para": 2, "start": 86, "end": 87, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 2978, "para": 2, "start": 98, "end": 99, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 2985, "para": 6, "start": 331, "end": 333, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2989, "para": 3, "start": 201, "end": 203, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2989, "para": 10, "start": 143, "end": 145, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2994, "para": 32, "start": 787, "end": 789, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2998, "para": 2, "start": 750, "end": 752, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2998, "para": 3, "start": 204, "end": 206, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2998, "para": 4, "start": 410, "end": 412, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 2998, "para": 6, "start": 692, "end": 694, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3008, "para": 0, "start": 3, "end": 5, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3016, "para": 4, "start": 376, "end": 378, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3016, "para": 9, "start": 625, "end": 627, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3026, "para": 2, "start": 442, "end": 443, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3037, "para": 1, "start": 228, "end": 229, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 3040, "para": 0, "start": 230, "end": 231, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3049, "para": 0, "start": 680, "end": 681, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3052, "para": 0, "start": 217, "end": 221, "repl": "1761", "rule": "letters-in-number", "conf": 0.95, "before": "l761"}
+{"seq": 3066, "para": 0, "start": 703, "end": 705, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3067, "para": 13, "start": 92, "end": 102, "repl": "alçapremas", "rule": "digit-in-word", "conf": 1.0, "before": "a1çapremas"}
 {"seq": 3067, "para": 16, "start": 2, "end": 3, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 3067, "para": 16, "start": 238, "end": 240, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3067, "para": 25, "start": 524, "end": 526, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3067, "para": 32, "start": 1072, "end": 1074, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3067, "para": 48, "start": 422, "end": 424, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3072, "para": 3, "start": 572, "end": 574, "repl": "-", "rule": "hyphen-space", "conf": 0.85, "before": "- "}
 {"seq": 3081, "para": 0, "start": 3, "end": 4, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 3083, "para": 2, "start": 2608, "end": 2610, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3111, "para": 0, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3118, "para": 3, "start": 376, "end": 380, "repl": "1906", "rule": "letters-in-number", "conf": 0.95, "before": "l906"}
 {"seq": 3131, "para": 7, "start": 244, "end": 245, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3133, "para": 27, "start": 859, "end": 861, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3148, "para": 5, "start": 242, "end": 243, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3151, "para": 36, "start": 199, "end": 200, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3155, "para": 0, "start": 255, "end": 257, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3165, "para": 4, "start": 288, "end": 292, "repl": "1591", "rule": "letters-in-number", "conf": 0.95, "before": "159l"}
 {"seq": 3165, "para": 4, "start": 471, "end": 472, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3166, "para": 4, "start": 774, "end": 776, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3169, "para": 3, "start": 648, "end": 649, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3201, "para": 0, "start": 111, "end": 113, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3211, "para": 6, "start": 205, "end": 206, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3211, "para": 7, "start": 137, "end": 138, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3238, "para": 2, "start": 162, "end": 163, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 3241, "para": 3, "start": 398, "end": 400, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3241, "para": 3, "start": 1010, "end": 1012, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3241, "para": 4, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3246, "para": 0, "start": 195, "end": 197, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3260, "para": 0, "start": 420, "end": 422, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3266, "para": 6, "start": 552, "end": 554, "repl": "", "rule": "split-word", "conf": 0.8, "before": "- "}
+{"seq": 3273, "para": 0, "start": 363, "end": 365, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3275, "para": 0, "start": 203, "end": 205, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3280, "para": 0, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3291, "para": 5, "start": 441, "end": 443, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3291, "para": 8, "start": 331, "end": 332, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3291, "para": 18, "start": 916, "end": 918, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3291, "para": 20, "start": 372, "end": 374, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3301, "para": 2, "start": 479, "end": 481, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3301, "para": 2, "start": 1377, "end": 1378, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3301, "para": 10, "start": 272, "end": 274, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3314, "para": 3, "start": 356, "end": 358, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3315, "para": 0, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3315, "para": 0, "start": 431, "end": 432, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 3316, "para": 3, "start": 75, "end": 76, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3316, "para": 5, "start": 101, "end": 102, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 3316, "para": 6, "start": 383, "end": 384, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 3317, "para": 3, "start": 342, "end": 343, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 3316, "para": 13, "start": 532, "end": 534, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3318, "para": 0, "start": 214, "end": 215, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3319, "para": 1, "start": 804, "end": 805, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3328, "para": 12, "start": 753, "end": 757, "repl": "1789", "rule": "letters-in-number", "conf": 0.95, "before": "l789"}
 {"seq": 3328, "para": 13, "start": 83, "end": 87, "repl": "1748", "rule": "letters-in-number", "conf": 0.95, "before": "l748"}
 {"seq": 3328, "para": 14, "start": 250, "end": 251, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3330, "para": 3, "start": 323, "end": 325, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3337, "para": 0, "start": 248, "end": 249, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3337, "para": 0, "start": 375, "end": 376, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3337, "para": 0, "start": 525, "end": 527, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3341, "para": 0, "start": 831, "end": 832, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3350, "para": 1, "start": 340, "end": 341, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3358, "para": 2, "start": 1301, "end": 1303, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3358, "para": 10, "start": 700, "end": 701, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3358, "para": 11, "start": 1, "end": 2, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3363, "para": 3, "start": 481, "end": 482, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
-{"seq": 3363, "para": 4, "start": 326, "end": 327, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 3363, "para": 4, "start": 532, "end": 533, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
-{"seq": 3373, "para": 4, "start": 274, "end": 275, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3376, "para": 4, "start": 370, "end": 371, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3378, "para": 2, "start": 197, "end": 198, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3378, "para": 8, "start": 486, "end": 488, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3382, "para": 7, "start": 217, "end": 219, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3382, "para": 16, "start": 278, "end": 280, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3382, "para": 20, "start": 208, "end": 210, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3385, "para": 5, "start": 360, "end": 362, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3385, "para": 6, "start": 207, "end": 208, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3391, "para": 5, "start": 397, "end": 398, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3393, "para": 3, "start": 105, "end": 106, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
@@ -742,12 +1039,27 @@
 {"seq": 3398, "para": 21, "start": 104, "end": 105, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
 {"seq": 3398, "para": 23, "start": 46, "end": 47, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3415, "para": 5, "start": 196, "end": 197, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3423, "para": 1, "start": 499, "end": 501, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3423, "para": 2, "start": 302, "end": 304, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3425, "para": 0, "start": 52, "end": 54, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3426, "para": 0, "start": 450, "end": 451, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3427, "para": 5, "start": 522, "end": 522, "repl": " ", "rule": "space-after-colon", "conf": 0.85, "before": ""}
 {"seq": 3427, "para": 6, "start": 617, "end": 618, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3427, "para": 7, "start": 232, "end": 233, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3430, "para": 2, "start": 449, "end": 450, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3435, "para": 22, "start": 213, "end": 215, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3435, "para": 24, "start": 130, "end": 131, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3474, "para": 0, "start": 744, "end": 746, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3475, "para": 0, "start": 674, "end": 676, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3484, "para": 0, "start": 243, "end": 245, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3487, "para": 0, "start": 521, "end": 523, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3491, "para": 1, "start": 317, "end": 319, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3524, "para": 3, "start": 430, "end": 431, "repl": "O", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
+{"seq": 3537, "para": 1, "start": 436, "end": 438, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3537, "para": 2, "start": 689, "end": 691, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3537, "para": 12, "start": 161, "end": 163, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3537, "para": 23, "start": 535, "end": 537, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3537, "para": 33, "start": 209, "end": 211, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3537, "para": 43, "start": 349, "end": 350, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3545, "para": 2, "start": 291, "end": 292, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 3545, "para": 7, "start": 164, "end": 165, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
@@ -780,11 +1092,9 @@
 {"seq": 3634, "para": 0, "start": 223, "end": 224, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
 {"seq": 3635, "para": 0, "start": 73, "end": 74, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
 {"seq": 3640, "para": 4, "start": 112, "end": 114, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬ "}
-{"seq": 3640, "para": 4, "start": 129, "end": 130, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 3640, "para": 10, "start": 80, "end": 82, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬ "}
 {"seq": 3640, "para": 10, "start": 102, "end": 104, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬ "}
 {"seq": 3640, "para": 10, "start": 125, "end": 127, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬ "}
-{"seq": 3640, "para": 11, "start": 78, "end": 79, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 3640, "para": 12, "start": 34, "end": 36, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬ "}
 {"seq": 3644, "para": 0, "start": 27, "end": 28, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
 {"seq": 3644, "para": 0, "start": 200, "end": 201, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
@@ -793,22 +1103,33 @@
 {"seq": 3645, "para": 1, "start": 307, "end": 308, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
 {"seq": 3645, "para": 1, "start": 625, "end": 626, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
 {"seq": 3647, "para": 0, "start": 57, "end": 58, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
+{"seq": 3647, "para": 2, "start": 386, "end": 388, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3647, "para": 8, "start": 43, "end": 44, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
 {"seq": 3655, "para": 3, "start": 247, "end": 248, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
 {"seq": 3664, "para": 4, "start": 301, "end": 302, "repl": "o", "rule": "zero-for-o", "conf": 0.85, "before": "0"}
 {"seq": 3667, "para": 0, "start": 71, "end": 72, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
+{"seq": 3678, "para": 4, "start": 781, "end": 783, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3678, "para": 13, "start": 41, "end": 42, "repl": "", "rule": "not-sign", "conf": 0.98, "before": "¬"}
 {"seq": 3723, "para": 0, "start": 272, "end": 273, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3731, "para": 3, "start": 156, "end": 157, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3751, "para": 0, "start": 191, "end": 192, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3757, "para": 6, "start": 276, "end": 278, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3758, "para": 0, "start": 528, "end": 530, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3759, "para": 2, "start": 862, "end": 864, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3759, "para": 3, "start": 528, "end": 530, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3768, "para": 0, "start": 635, "end": 637, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3775, "para": 0, "start": 218, "end": 220, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3787, "para": 1, "start": 489, "end": 490, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3787, "para": 12, "start": 386, "end": 388, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3787, "para": 13, "start": 530, "end": 531, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3787, "para": 14, "start": 578, "end": 579, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
+{"seq": 3787, "para": 14, "start": 675, "end": 677, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3787, "para": 18, "start": 540, "end": 541, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3787, "para": 19, "start": 161, "end": 162, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3789, "para": 7, "start": 736, "end": 737, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3789, "para": 8, "start": 1054, "end": 1055, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3789, "para": 15, "start": 275, "end": 276, "repl": "-", "rule": "clitic-hyphen", "conf": 0.85, "before": " "}
+{"seq": 3802, "para": 2, "start": 613, "end": 615, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
 {"seq": 3802, "para": 5, "start": 241, "end": 242, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3806, "para": 1, "start": 427, "end": 428, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3806, "para": 3, "start": 0, "end": 1, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
@@ -817,3 +1138,7 @@
 {"seq": 3806, "para": 10, "start": 122, "end": 123, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3806, "para": 11, "start": 260, "end": 261, "repl": "O", "rule": "zero-for-O", "conf": 0.95, "before": "0"}
 {"seq": 3819, "para": 0, "start": 3, "end": 4, "repl": "", "rule": "space-before-punct", "conf": 0.9, "before": " "}
+{"seq": 3830, "para": 0, "start": 77, "end": 79, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3831, "para": 0, "start": 521, "end": 523, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3833, "para": 9, "start": 383, "end": 385, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}
+{"seq": 3836, "para": 0, "start": 295, "end": 297, "repl": ".", "rule": "double-period", "conf": 0.9, "before": ".."}

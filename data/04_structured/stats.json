@@ -8,7 +8,8 @@
     "compound": 20
   },
   "blocks": {
-    "paragraph": 11777,
+    "page_split_merges": 164,
+    "paragraph": 11613,
     "table": 117,
     "xref": 407,
     "quote": 402,

@@ -152,6 +152,30 @@ def verify(para_text: str, find: str, replace: str) -> str | None:
     return None
 
 
+def apply_manual(arts: list[dict]) -> dict:
+    """Reviewed overrides (data/03_clean/manual_edits.yaml): exact find/replace, find must be unique in the corpus."""
+    import yaml
+
+    path = OUT / "manual_edits.yaml"
+    if not path.exists():
+        return {}
+    done, missing = 0, []
+    with open(OUT / "edits.manual.jsonl", "w") as fe:
+        for m in yaml.safe_load(path.read_text()) or []:
+            hits = [(a, i, p) for a in arts for i, p in enumerate(a["paragraphs"]) if m["find"] in p["text"]]
+            if len(hits) != 1 or hits[0][2]["text"].count(m["find"]) != 1:
+                missing.append(m["find"])
+                continue
+            a, i, p = hits[0]
+            start = p["text"].index(m["find"])
+            new, applied = apply_edits(p, [Edit(start, start + len(m["find"]), m["replace"], "manual", 1.0)])
+            a["paragraphs"][i] = new
+            for e in applied:
+                fe.write(json.dumps({"seq": a["seq"], "para": i, **e.to_json(), "note": m.get("note")}, ensure_ascii=False) + "\n")
+            done += 1
+    return {"applied": done, "not_found": missing}
+
+
 def collect() -> dict:
     arts = [json.loads(l) for l in open(IN)]
     by_seq = {a["seq"]: a for a in arts}
@@ -200,10 +224,11 @@ def collect() -> dict:
             for e in done:
                 applied += 1
                 fe.write(json.dumps({"seq": seq, "para": pi, **e.to_json()}, ensure_ascii=False) + "\n")
+    manual = apply_manual(arts)
     with open(OUT / "articles.jsonl", "w") as fa:
         for a in arts:
             fa.write(json.dumps(a, ensure_ascii=False) + "\n")
-    stats = {"applied": applied, "by_kind": dict(kinds), "rejected": dict(rejected), "failed_requests": failed,
+    stats = {"applied": applied, "manual": manual, "by_kind": dict(kinds), "rejected": dict(rejected), "failed_requests": failed,
              "usd": round(sum(j.spent() for j in jobs), 2)}
     (OUT / "stats.llm.json").write_text(json.dumps(stats, indent=2))
     return stats

@@ -31,6 +31,13 @@ SEED_FIXES = {  # legacy/convert.py remove_ocr_errors (verified list)
 }
 UNIT_TOKEN = re.compile(r"^\d+(?:m|km|cm|mm|kg|g|h|ha|l|mil|s|a|o|º|ª)$|^[nN]\d+$|^m\d+$|^k\d+$")
 CLITICS = ("se", "me", "te", "lhe", "lhes", "lo", "la", "los", "las")
+NOT_VERBS = {"a", "o", "e", "as", "os", "de", "do", "da", "dos", "das", "em", "no", "na", "nos", "nas", "que", "um", "uma",
+             "com", "por", "para", "ao", "aos", "à", "às", "á", "ás", "também", "logo", "já", "ainda", "este", "esta",
+             "entre", "sobre", "até", "desde", "neste", "nesta", "muito", "mais", "bem", "então"}
+# verbs after which "se" usually means "whether/if" (sabendo se ..., verificar se ...)
+WHETHER_VERBS = {"saber", "sabendo", "sabe", "sabia", "sabiam", "sabemos", "verificar", "verificando", "verificou", "dizer",
+                 "diz", "disse", "perguntar", "perguntou", "perguntando", "ver", "vendo", "averiguar", "ignora", "ignorando",
+                 "ignoramos", "duvidar", "duvida", "examinar", "indagar", "resolver", "decidir", "consultar", "informar"}
 
 
 def corpus_counts(arts: list[dict]) -> Counter:
@@ -80,7 +87,7 @@ class Rules:
                 cands.append(w)
         if not cands:
             return None
-        cands.sort(key=lambda w: -self.counts.get(w, 0))
+        # candidates are generated in substitution-priority order (6 -> ó before ô before o)
         conf = 0.95 if len(cands) == 1 else 0.7
         return cands[0], conf
 
@@ -118,6 +125,9 @@ class Rules:
             edits.append(Edit(m.start(), m.end(), "O", "zero-for-O", 0.95))
         for m in re.finditer(r"(?<=[a-zà-ÿ,] )0(?= ([a-zà-ÿA-ZÀ-Ý])[a-zà-ÿ]{2,})", text):
             prev = text[max(0, m.start() - 12) : m.start()]
+            nxt = text[m.end() : m.end() + 8]
+            if re.search(r"\b(das|às|ás|as)\s*$", prev) or re.match(r"\s+(até|horas|e)\b", nxt):
+                continue
             if not re.search(r"\d[\s,.]*$|n\.[ºo°] ?$", prev):
                 # before a capital it is the article of a title: "o jornal 0 Povo" -> "O Povo"
                 repl = "O" if m.group(1).isupper() else "o"
@@ -133,8 +143,14 @@ class Rules:
                 if 0 < off < len(text) and text[off - 1].islower() and text[off].isupper() and size != "small":
                     edits.append(Edit(off, off, " ", "glued-style-boundary", 0.9))
         # space before punctuation (not dot leaders, not "V. X ." inside tables)
-        for m in re.finditer(r"(?<=[A-Za-zÀ-ÿ0-9»”)]) +(?=[,;:!?](?![,;:!?])|\.(?![.\d]))", text):
+        for m in re.finditer(r"(?<=[A-Za-zÀ-ÿ0-9»”)]) +(?=[,;:!?](?![,;:!?])|\.(?![.\d]|\s\.))", text):
             edits.append(Edit(m.start(), m.end(), "", "space-before-punct", 0.9))
+        # doubled full stop ("etc..") but not an ellipsis
+        for m in re.finditer(r"(?<![.\s])\.\.(?![.])", text):
+            edits.append(Edit(m.start(), m.end(), ".", "double-period", 0.9))
+        # missing space after ":" / ";" before a letter ("1521:e"), not the period ":—"
+        for m in re.finditer(r"(?<=[0-9a-zà-ÿ])([:;])(?=[A-Za-zÀ-ÿ«“])", text):
+            edits.append(Edit(m.end(), m.end(), " ", "space-after-colon", 0.85))
         # doubled spaces
         for m in re.finditer(r"  +", text):
             edits.append(Edit(m.start(), m.end(), " ", "double-space", 1.0))
@@ -146,11 +162,23 @@ class Rules:
                 edits.append(Edit(m.start(), m.end(), "-", "hyphen-space", 0.85))
             elif self.lex.known(left + right) and not self.lex.in_dict(left):
                 edits.append(Edit(m.start(), m.end(), "", "split-word", 0.8))
+            elif self.lex.known(left) and self.lex.known(right):
+                edits.append(Edit(m.start(), m.end(), " — ", "hyphen-as-dash", 0.8))
         # missing clitic hyphen ("Destinava se a publicação" -> "Destinava-se")
         for m in re.finditer(r"\b([A-Za-zÀ-ÿ]{3,}) (" + "|".join(CLITICS) + r")\b", text):
             verb, cl = m.group(1), m.group(2)
             if not self.lex.is_verb_form(verb):
                 continue
+            if cl == "se":
+                prev_word = re.search(r"(\S+)\s+$", text[: m.start()])
+                nxt = re.match(r"\s*([A-Za-zÀ-ÿ]+)", text[m.end() :])
+                if verb.lower() in WHETHER_VERBS or (prev_word and prev_word.group(1).lower() in ("não", "se")):
+                    continue
+                # "se" before another finite verb belongs to that verb ("estabeleceu se dissolvesse")
+                w2 = nxt.group(1).lower() if nxt else ""
+                if w2 and w2 not in NOT_VERBS and self.lex.is_verb_form(w2) and not w2.endswith(("ado", "ada", "ados", "adas", "ido", "ida", "idos", "idas")):
+                    suspects.append({"start": m.start(), "end": m.end(), "token": m.group(0), "why": "clitic-se-before-verb"})
+                    continue
             seen = self.hyph.get((verb.lower(), cl), 0)
             if cl in ("lo", "la", "los", "las") and verb[-1] in "áéêíóô":
                 edits.append(Edit(m.end(1), m.start(2), "-", "clitic-hyphen", 0.9))

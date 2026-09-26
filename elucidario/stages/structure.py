@@ -147,6 +147,29 @@ def fix_section_sequence(blocks: list[Block]) -> list[str]:
     return notes
 
 
+def merge_page_splits(paras: list[dict]) -> tuple[list[dict], int]:
+    """Join a paragraph split by a page break: no final punctuation, next starts lower-case on a later page."""
+    out: list[dict] = []
+    merged = 0
+    for p in paras:
+        if out:
+            prev = out[-1]
+            end = prev["text"].rstrip()
+            if (end and end[-1] not in ".!?:;»”)\"" and p["text"][:1].islower()
+                    and p["pages"][0][1] > prev["pages"][-1][1]):
+                off = len(prev["text"]) + 1
+                out[-1] = {
+                    "text": prev["text"] + " " + p["text"],
+                    "runs": prev["runs"] + [[s0 + off, e0 + off, b, i, z] for s0, e0, b, i, z in p["runs"]],
+                    "nl": prev["nl"] + [off] + [o + off for o in p["nl"]],
+                    "pages": prev["pages"] + [[o + off, pg, pp] for o, pg, pp in p["pages"]],
+                }
+                merged += 1
+                continue
+        out.append(p)
+    return out, merged
+
+
 def build_article(a: dict, aid: str) -> Article:
     blocks: list[Block] = []
     fmt: Counter = Counter()
@@ -167,8 +190,11 @@ def build_article(a: dict, aid: str) -> Article:
         if any(i.style == "italic" for i in blk.inlines):
             fmt["italic_spans"] += 1
 
+    paras, merged = merge_page_splits(a["paragraphs"])
+    if merged:
+        fmt["page_split_merges"] += merged
     open_quote = 0  # unbalanced « / “ carried across paragraphs
-    for p in a["paragraphs"]:
+    for p in paras:
         t = p["text"]
         if open_quote > 0:
             closes = t.count("»") + t.count("”") > 0
