@@ -92,9 +92,7 @@
 "length ratio 0.78 in b001",
 "termbase 'engenho' -> 'цукровий млин (m.)' not used"
 ],
-"uk-b00015/E2": [
-"low Cyrillic share in b000"
-],
+"uk-b00015/E2": [],
 "uk-b00015/E3": [],
 "uk-b00015/E4": [],
 "uk-b00015/E5": [
@@ -150,19 +148,19 @@
 "number 4:796:725 -> '4\\xa0796\\xa0725' not found in b013",
 "number 4:917:113 -> '4\\xa0917\\xa0113' not found in b013",
 "number 4:943:675 -> '4\\xa0943\\xa0675' not found in b013",
-"year 1913 missing in b013",
-"year 1905 missing in b013",
-"year 1912 missing in b013",
-"year 1915 missing in b013",
 "year 1916 missing in b013",
-"year 1906 missing in b013",
+"year 1910 missing in b013",
 "year 1898 missing in b013",
 "year 1908 missing in b013",
+"year 1913 missing in b013",
+"year 1915 missing in b013",
+"year 1905 missing in b013",
 "year 1899 missing in b013",
-"year 1900 missing in b013",
-"year 1914 missing in b013",
+"year 1906 missing in b013",
 "year 1911 missing in b013",
-"year 1910 missing in b013",
+"year 1912 missing in b013",
+"year 1914 missing in b013",
+"year 1900 missing in b013",
 "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
 ],
 "uk-b00022/E0": [
@@ -193,9 +191,7 @@
 "uk-b00026/E1": [
 "termbase 'governador civil' -> 'цивільний губернатор (m.)' not used"
 ],
-"uk-b00026/E2": [
-"low Cyrillic share in b000"
-],
+"uk-b00026/E2": [],
 "uk-b00026/E3": [],
 "uk-b00026/E4": [],
 "uk-b00026/E5": [
@@ -251,12 +247,12 @@
 "number 718:617 -> '718\\xa0617' not found in b001",
 "number 1.098:175 -> '1\\xa0098\\xa0175' not found in b001",
 "number 1.162:398 -> '1\\xa0162\\xa0398' not found in b001",
-"year 1912 missing in b001",
 "year 1916 missing in b001",
 "year 1915 missing in b001",
 "year 1917 missing in b001",
-"year 1914 missing in b001",
 "year 1911 missing in b001",
+"year 1912 missing in b001",
+"year 1914 missing in b001",
 "year 1913 missing in b001",
 "termbase 'engenho' -> 'цукровий млин (m.)' not used",
 "termbase 'graus Cartier' -> 'градуси Картьє' not used"
@@ -415,9 +411,7 @@
 "termbase 'sítio' -> 'місцевість (f.)' not used",
 "termbase 'capela' -> 'побожна фундація (f.)' not used"
 ],
-"uk-b00050/E10": [
-"low Cyrillic share in b000"
-],
+"uk-b00050/E10": [],
 "uk-b00050/E11": [
 "termbase 'sítio' -> 'місцевість (f.)' not used",
 "termbase 'capela' -> 'побожна фундація (f.)' not used",
@@ -473,15 +467,15 @@
 "number 108:713$738 -> '108\\xa0713\\xa0738' not found in b032",
 "number 142:639$666 -> '142\\xa0639\\xa0666' not found in b032",
 "number 129:492$469 -> '129\\xa0492\\xa0469' not found in b032",
-"year 1835 missing in b032",
-"year 1832 missing in b032",
+"year 1836 missing in b032",
+"year 1831 missing in b032",
 "year 1837 missing in b032",
 "year 1838 missing in b032",
-"year 1831 missing in b032",
-"year 1836 missing in b032",
-"year 1830 missing in b032",
+"year 1832 missing in b032",
 "year 1833 missing in b032",
+"year 1835 missing in b032",
 "year 1834 missing in b032",
+"year 1830 missing in b032",
 "length ratio 0.03 in b034",
 "number 420:359$099 -> '420\\xa0359\\xa0099' not found in b034",
 "number 411:344$857 -> '411\\xa0344\\xa0857' not found in b034",
@@ -520,41 +514,41 @@
 "number 25.010.804$67 -> '25\\xa0010\\xa0804,67' not found in b034",
 "number 20.845.121$68 -> '20\\xa0845\\xa0121,68' not found in b034",
 "number 21.252.161$84 -> '21\\xa0252\\xa0161,84' not found in b034",
-"year 1918 missing in b034",
-"year 1905 missing in b034",
-"year 1923 missing in b034",
-"year 1908 missing in b034",
-"year 1925 missing in b034",
+"year 1910 missing in b034",
 "year 1928 missing in b034",
+"year 1930 missing in b034",
+"year 1915 missing in b034",
+"year 1917 missing in b034",
+"year 1914 missing in b034",
 "year 1909 missing in b034",
-"year 1911 missing in b034",
-"year 1902 missing in b034",
 "year 1927 missing in b034",
-"year 1920 missing in b034",
-"year 1922 missing in b034",
-"year 1924 missing in b034",
 "year 1913 missing in b034",
-"year 1912 missing in b034",
+"year 1922 missing in b034",
+"year 1902 missing in b034",
+"year 1905 missing in b034",
+"year 1911 missing in b034",
+"year 1925 missing in b034",
 "year 1897 missing in b034",
 "year 1916 missing in b034",
-"year 1930 missing in b034",
-"year 1904 missing in b034",
-"year 1898 missing in b034",
-"year 1900 missing in b034",
-"year 1926 missing in b034",
-"year 1929 missing in b034",
-"year 1921 missing in b034",
-"year 1901 missing in b034",
-"year 1915 missing in b034",
-"year 1906 missing in b034",
-"year 1919 missing in b034",
-"year 1917 missing in b034",
+"year 1918 missing in b034",
+"year 1908 missing in b034",
 "year 1899 missing in b034",
-"year 1907 missing in b034",
-"year 1914 missing in b034",
+"year 1923 missing in b034",
+"year 1921 missing in b034",
 "year 1903 missing in b034",
+"year 1904 missing in b034",
+"year 1920 missing in b034",
+"year 1919 missing in b034",
+"year 1898 missing in b034",
 "year 1931 missing in b034",
-"year 1910 missing in b034",
+"year 1906 missing in b034",
+"year 1926 missing in b034",
+"year 1912 missing in b034",
+"year 1924 missing in b034",
+"year 1901 missing in b034",
+"year 1900 missing in b034",
+"year 1907 missing in b034",
+"year 1929 missing in b034",
 "length ratio 0.11 in b037",
 "number 54.449$34 -> '54\\xa0449,34' not found in b037",
 "number 124.477$31 -> '124\\xa0477,31' not found in b037",
@@ -571,23 +565,22 @@
 "number 1.547.178$88 -> '1\\xa0547\\xa0178,88' not found in b037",
 "number 1.183.014$84 -> '1\\xa0183\\xa0014,84' not found in b037",
 "number 1.202.916$16 -> '1\\xa0202\\xa0916,16' not found in b037",
-"year 1930 missing in b037",
-"year 1927 missing in b037",
 "year 1919 missing in b037",
-"year 1920 missing in b037",
-"year 1923 missing in b037",
-"year 1922 missing in b037",
-"year 1925 missing in b037",
 "year 1928 missing in b037",
+"year 1922 missing in b037",
+"year 1930 missing in b037",
 "year 1931 missing in b037",
-"year 1924 missing in b037",
 "year 1926 missing in b037",
-"year 1929 missing in b037",
+"year 1923 missing in b037",
 "year 1921 missing in b037",
+"year 1924 missing in b037",
+"year 1925 missing in b037",
+"year 1920 missing in b037",
+"year 1927 missing in b037",
+"year 1929 missing in b037",
 "termbase 'escudos ouro' -> 'золоті ескудо (pl., indecl.)' not used"
 ],
 "uk-b00055/E0": [
-"low Cyrillic share in b039",
 "termbase 'fiscal' -> 'наглядач' not used",
 "termbase 'capitão' -> 'капітан (m.)' not used"
 ],
@@ -916,9 +909,7 @@
 "termbase 'clérigo secular' -> 'єпархіальний священник' not used",
 "termbase 'egresso' -> 'колишній чернець (m.)' not used"
 ],
-"uk-b00095/E7": [
-"low Cyrillic share in b000"
-],
+"uk-b00095/E7": [],
 "uk-b00095/E8": [
 "length ratio 1.67 in b000",
 "termbase 'sítio' -> 'місцевість (f.)' not used",
@@ -1603,7 +1594,6 @@
 "termbase 'logar' -> 'лугар (m.)' not used"
 ],
 "uk-b00204/E0": [
-"low Cyrillic share in b002",
 "termbase 'câmara municipal' -> 'Муніципальна палата; short: палата' not used",
 "termbase 'governador civil' -> 'цивільний губернатор (m.)' not used",
 "termbase 'câmara' -> 'палата (f.)' not used",
@@ -2583,9 +2573,7 @@
 "uk-b00367/E3": [
 "termbase 'Relação' -> 'апеляційний суд' not used"
 ],
-"uk-b00367/E4": [
-"low Cyrillic share in b000"
-],
+"uk-b00367/E4": [],
 "uk-b00367/E5": [
 "termbase 'vereação' -> 'колегія радних (f.)' not used",
 "termbase 'leste' -> 'лешті (m., indecl.)' not used"
@@ -2944,9 +2932,7 @@
 ],
 "uk-b00408/E3": [],
 "uk-b00409/E0": [],
-"uk-b00410/E0": [
-"low Cyrillic share in b016"
-],
+"uk-b00410/E0": [],
 "uk-b00411/E0": [],
 "uk-b00411/E1": [],
 "uk-b00411/E2": [],
@@ -2968,9 +2954,7 @@
 "termbase 'montados' -> 'гірські общинні угіддя (pl.)' not used"
 ],
 "uk-b00415/E0": [],
-"uk-b00415/E1": [
-"low Cyrillic share in b000"
-],
+"uk-b00415/E1": [],
 "uk-b00416/E0": [
 "termbase 'igreja matriz' -> 'материнська церква (f.)' not used"
 ],
@@ -3097,9 +3081,7 @@
 "uk-b00441/E0": [
 "termbase 'comarca' -> 'судовий округ (m.)' not used"
 ],
-"uk-b00442/E0": [
-"low Cyrillic share in b001"
-],
+"uk-b00442/E0": [],
 "uk-b00442/E1": [
 "termbase 'praça' -> 'фортеця (f.)' not used"
 ],
@@ -3290,9 +3272,7 @@
 ],
 "uk-b00478/E2": [],
 "uk-b00478/E3": [],
-"uk-b00478/E4": [
-"low Cyrillic share in b000"
-],
+"uk-b00478/E4": [],
 "uk-b00478/E5": [
 "termbase 'provedor' -> 'голова (Мізерикордії); інтендант (скарбниці, митниці, посада до 1835)' not used",
 "termbase 'foral' -> 'жалувана грамота (f.)' not used",
@@ -3830,26 +3810,26 @@
 ],
 "uk-b00581/E0": [
 "length ratio 0.05 in b011",
-"year 1905 missing in b011",
-"year 1908 missing in b011",
-"year 1103 missing in b011",
-"year 1909 missing in b011",
-"year 1911 missing in b011",
-"year 1844 missing in b011",
-"year 1902 missing in b011",
+"year 1910 missing in b011",
+"year 1915 missing in b011",
 "year 1271 missing in b011",
-"year 1080 missing in b011",
+"year 1909 missing in b011",
 "year 1913 missing in b011",
-"year 1912 missing in b011",
+"year 1902 missing in b011",
+"year 1905 missing in b011",
+"year 1844 missing in b011",
+"year 1911 missing in b011",
+"year 1080 missing in b011",
 "year 1916 missing in b011",
+"year 1908 missing in b011",
+"year 1178 missing in b011",
+"year 1103 missing in b011",
+"year 1903 missing in b011",
 "year 1904 missing in b011",
 "year 1347 missing in b011",
+"year 1912 missing in b011",
 "year 1901 missing in b011",
-"year 1915 missing in b011",
 "year 1907 missing in b011",
-"year 1903 missing in b011",
-"year 1178 missing in b011",
-"year 1910 missing in b011",
 "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
 ],
 "uk-b00582/E0": [],
@@ -4037,7 +4017,6 @@
 "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
 ],
 "uk-b00616/E0": [
-"low Cyrillic share in b000",
 "termbase 'freguesia' -> 'парафія (f.)' not used",
 "termbase 'orago' -> 'святий покровитель (m.)' not used",
 "termbase 'provedor' -> 'голова (Мізерикордії); інтендант (скарбниці, митниці, посада до 1835)' not used",
@@ -4358,9 +4337,7 @@
 "termbase 'casal' -> 'хутір (m.)' not used",
 "termbase 'reino' -> 'королівство' not used"
 ],
-"uk-b00657/E0": [
-"low Cyrillic share in b001"
-],
+"uk-b00657/E0": [],
 "uk-b00657/E1": [],
 "uk-b00657/E2": [
 "length ratio 0.74 in b002"
@@ -5187,9 +5164,7 @@
 "uk-b00777/E7": [],
 "uk-b00777/E8": [],
 "uk-b00777/E9": [],
-"uk-b00777/E10": [
-"low Cyrillic share in b000"
-],
+"uk-b00777/E10": [],
 "uk-b00777/E11": [],
 "uk-b00777/E12": [
 "length ratio 1.52 in b000",
@@ -5255,9 +5230,7 @@
 "uk-b00785/E5": [],
 "uk-b00785/E6": [],
 "uk-b00785/E7": [],
-"uk-b00785/E8": [
-"low Cyrillic share in b000"
-],
+"uk-b00785/E8": [],
 "uk-b00785/E9": [],
 "uk-b00785/E10": [
 "length ratio 0.72 in b000"
@@ -5338,12 +5311,8 @@
 ],
 "uk-b00798/E11": [],
 "uk-b00798/E12": [],
-"uk-b00799/E0": [
-"low Cyrillic share in b000"
-],
-"uk-b00799/E1": [
-"low Cyrillic share in b000"
-],
+"uk-b00799/E0": [],
+"uk-b00799/E1": [],
 "uk-b00799/E2": [],
 "uk-b00799/E3": [],
 "uk-b00799/E4": [],
@@ -5461,15 +5430,9 @@
 "termbase 'Relação' -> 'апеляційний суд' not used",
 "termbase 'logar' -> 'лугар (m.)' not used"
 ],
-"uk-b00822/E0": [
-"low Cyrillic share in b000"
-],
-"uk-b00822/E1": [
-"low Cyrillic share in b000"
-],
-"uk-b00822/E2": [
-"low Cyrillic share in b000"
-],
+"uk-b00822/E0": [],
+"uk-b00822/E1": [],
+"uk-b00822/E2": [],
 "uk-b00822/E3": [],
 "uk-b00822/E4": [],
 "uk-b00822/E5": [],
@@ -5643,22 +5606,22 @@
 "number 5.193.315 -> '5\\xa0193\\xa0315' not found in b016",
 "number 7.114.656 -> '7\\xa0114\\xa0656' not found in b016",
 "number 11.956.300 -> '11\\xa0956\\xa0300' not found in b016",
-"year 1918 missing in b016",
-"year 1912 missing in b016",
 "year 1916 missing in b016",
+"year 1910 missing in b016",
+"year 1918 missing in b016",
+"year 1919 missing in b016",
+"year 1922 missing in b016",
+"year 1928 missing in b016",
 "year 1915 missing in b016",
 "year 1930 missing in b016",
-"year 1910 missing in b016",
 "year 1917 missing in b016",
-"year 1919 missing in b016",
-"year 1920 missing in b016",
-"year 1922 missing in b016",
-"year 1921 missing in b016",
-"year 1928 missing in b016",
-"year 1914 missing in b016",
 "year 1911 missing in b016",
-"year 1929 missing in b016",
+"year 1912 missing in b016",
+"year 1921 missing in b016",
+"year 1914 missing in b016",
+"year 1920 missing in b016",
 "year 1913 missing in b016",
+"year 1929 missing in b016",
 "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
 ],
 "uk-b00854/E0": [
@@ -5721,8 +5684,8 @@
 "number 48.997.194 -> '48\\xa0997\\xa0194' not found in b004",
 "number 4.173.565 -> '4\\xa0173\\xa0565' not found in b004",
 "number 812.777 -> '812\\xa0777' not found in b004",
-"year 1930 missing in b004",
-"year 1931 missing in b004"
+"year 1931 missing in b004",
+"year 1930 missing in b004"
 ],
 "uk-b00867/E0": [
 "termbase 'provedor da fazenda' -> 'наглядач королівської скарбниці (m.)' not used",
@@ -5970,7 +5933,6 @@
 "uk-b00921/E3": [],
 "uk-b00921/E4": [],
 "uk-b00921/E5": [
-"low Cyrillic share in b001",
 "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
 ],
 "uk-b00921/E6": [],
@@ -6145,9 +6107,7 @@
 "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
 ],
 "uk-b00952/E0": [],
-"uk-b00952/E1": [
-"low Cyrillic share in b000"
-],
+"uk-b00952/E1": [],
 "uk-b00952/E2": [],
 "uk-b00952/E3": [],
 "uk-b00952/E4": [],
@@ -6157,9 +6117,7 @@
 ],
 "uk-b00952/E7": [],
 "uk-b00952/E8": [],
-"uk-b00952/E9": [
-"low Cyrillic share in b000"
-],
+"uk-b00952/E9": [],
 "uk-b00952/E10": [],
 "uk-b00952/E11": [],
 "uk-b00952/E12": [
@@ -6541,18 +6499,18 @@
 "number 448.401$45 -> '448\\xa0401,45' not found in b217",
 "number 461.318$55 -> '461\\xa0318,55' not found in b217",
 "number 470.180$00 -> '470\\xa0180' not found in b217",
-"year 1942 missing in b217",
-"year 1941 missing in b217",
 "year 1940 missing in b217",
+"year 1941 missing in b217",
+"year 1942 missing in b217",
 "length ratio 0.20 in b220",
 "number 116.432$80 -> '116\\xa0432,80' not found in b220",
 "number 113.933$60 -> '113\\xa0933,60' not found in b220",
 "number 208.200$80 -> '208\\xa0200,80' not found in b220",
 "number 201.725$15 -> '201\\xa0725,15' not found in b220",
 "number 147.623$25 -> '147\\xa0623,25' not found in b220",
-"year 1942 missing in b220",
-"year 1941 missing in b220",
 "year 1940 missing in b220",
+"year 1941 missing in b220",
+"year 1942 missing in b220",
 "termbase 'montante' -> 'дворучний меч' not used"
 ],
 "uk-b01029/E0": [
@@ -6851,9 +6809,7 @@
 "termbase 'capela' -> 'побожна фундація (f.)' not used"
 ],
 "uk-b01062/E0": [],
-"uk-b01063/E0": [
-"low Cyrillic share in b005"
-],
+"uk-b01063/E0": [],
 "uk-b01064/E0": [],
 "uk-b01064/E1": [
 "termbase 'capela' -> 'побожна фундація (f.)' not used"
@@ -7218,32 +7174,32 @@
 ],
 "uk-b01143/E0": [
 "length ratio 0.26 in b029",
-"year 1927 missing in b029",
-"year 1923 missing in b029",
-"year 1925 missing in b029",
 "year 1928 missing in b029",
-"year 1924 missing in b029",
 "year 1926 missing in b029",
+"year 1923 missing in b029",
+"year 1924 missing in b029",
+"year 1925 missing in b029",
+"year 1927 missing in b029",
 "termbase 'capela' -> 'побожна фундація (f.)' not used"
 ],
 "uk-b01144/E0": [
 "length ratio 0.78 in b038",
 "length ratio 0.04 in b042",
 "year 1935 missing in b042",
-"year 1930 missing in b042",
 "year 1932 missing in b042",
-"year 1942 missing in b042",
-"year 1938 missing in b042",
-"year 1941 missing in b042",
-"year 1943 missing in b042",
-"year 1933 missing in b042",
 "year 1939 missing in b042",
-"year 1931 missing in b042",
+"year 1930 missing in b042",
 "year 1940 missing in b042",
-"year 1937 missing in b042",
-"year 1929 missing in b042",
-"year 1936 missing in b042",
+"year 1931 missing in b042",
 "year 1934 missing in b042",
+"year 1941 missing in b042",
+"year 1942 missing in b042",
+"year 1943 missing in b042",
+"year 1938 missing in b042",
+"year 1933 missing in b042",
+"year 1937 missing in b042",
+"year 1936 missing in b042",
+"year 1929 missing in b042",
 "termbase 'capela' -> 'побожна фундація (f.)' not used"
 ],
 "uk-b01145/E0": [],
@@ -7928,9 +7884,7 @@
 ],
 "uk-b01269/E1": [],
 "uk-b01269/E2": [],
-"uk-b01269/E3": [
-"low Cyrillic share in b000"
-],
+"uk-b01269/E3": [],
 "uk-b01270/E0": [],
 "uk-b01271/E0": [
 "termbase 'capela' -> 'побожна фундація (f.)' not used",
@@ -8729,9 +8683,7 @@
 "uk-b01402/E2": [],
 "uk-b01402/E3": [],
 "uk-b01402/E4": [],
-"uk-b01402/E5": [
-"low Cyrillic share in b001"
-],
+"uk-b01402/E5": [],
 "uk-b01402/E6": [],
 "uk-b01402/E7": [],
 "uk-b01402/E8": [],
@@ -9467,12 +9419,12 @@
 "number 24 687 -> '24\\xa0687' not found in b016",
 "number 24 238 -> '24\\xa0238' not found in b016",
 "number 31 352 -> '31\\xa0352' not found in b016",
-"year 1930 missing in b016",
-"year 1920 missing in b016",
-"year 1864 missing in b016",
-"year 1909 missing in b016",
-"year 1878 missing in b016",
 "year 1910 missing in b016",
+"year 1930 missing in b016",
+"year 1864 missing in b016",
+"year 1878 missing in b016",
+"year 1920 missing in b016",
+"year 1909 missing in b016",
 "year 1890 missing in b016"
 ],
 "uk-b01523/E0": [],
@@ -11464,9 +11416,7 @@
 "uk-b01873/E0": [
 "termbase 'contrato de colonia' -> 'договір колонії (m.)' not used"
 ],
-"uk-b01874/E0": [
-"low Cyrillic share in b000"
-],
+"uk-b01874/E0": [],
 "uk-b01874/E1": [],
 "uk-b01874/E2": [
 "length ratio 1.81 in b000",
@@ -11674,8 +11624,8 @@
 "uk-b01896/E0": [
 "length ratio 0.74 in b082",
 "length ratio 0.79 in b098",
-"year 1800 missing in b103",
 "year 1900 missing in b103",
+"year 1800 missing in b103",
 "length ratio 0.77 in b109",
 "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
 ],
@@ -12473,9 +12423,7 @@
 "termbase 'procissão' -> 'хресна хода (f.)' not used",
 "termbase 'dia santo de preceito' -> 'обов'язкове свято (n.)' not used"
 ],
-"uk-b02041/E1": [
-"low Cyrillic share in b000"
-],
+"uk-b02041/E1": [],
 "uk-b02041/E2": [],
 "uk-b02041/E3": [
 "length ratio 0.79 in b000"

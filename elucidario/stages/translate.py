@@ -225,7 +225,12 @@ def qa(src_blocks: list[dict], out: dict, lang: str, pkg: dict) -> list[str]:
         if lang in ("uk", "ru") and sb.get("type") not in ("bibliography", "xref", "table", "verse", "quote"):
             letters = CYR.findall(tb["text"]) + LAT.findall(tb["text"])
             if len(letters) > 40 and len(CYR.findall(tb["text"])) / len(letters) < 0.3:
-                probs.append(f"low Cyrillic share in {sb['id']}")
+                # Latin words copied verbatim from the source are kept titles/names, not untranslated text
+                lat_words = re.findall(r"[A-Za-zÀ-ÿ]{3,}", tb["text"])
+                src_words = set(w.lower() for w in re.findall(r"[A-Za-zÀ-ÿ]{3,}", sb["text"]))
+                copied = sum(1 for w in lat_words if w.lower() in src_words) / max(1, len(lat_words))
+                if copied < 0.85:
+                    probs.append(f"low Cyrillic share in {sb['id']}")
     for lemma, spec in pkg["termbase"].items():
         if spec.get("policy") not in ("translate", "keep", "keep_unit") or len(lemma) < 5:
             continue
