@@ -1,0 +1,14 @@
+# Model choice per content type and language (owner decision 2026-09-27; see docs/translation_strategy.md)
+defaults:
+  article_body: {model: claude-opus-5-5, effort: low}
+  metadata: {model: claude-sonnet-5, thinking: disabled}
+overrides:
+  hu:
+    metadata: {model: claude-opus-5-5, effort: low}
+languages: [en, de, fr, it, hu, nl, uk, ru]
+metadata_extra_targets: [pt]   # en-sourced metadata is also translated into Portuguese
+batch:
+  api: message_batches
+  warm_cache: true             # one synchronous request per shared system prompt before each batch
+  cache_ttl: 1h
+budget_gbp_per_language: 70

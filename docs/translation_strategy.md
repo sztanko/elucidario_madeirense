@@ -50,6 +50,6 @@ Blind A/B judging by Opus 5.5.
 
 Cost ratio Opus low : Sonnet = 3.5 : 1 (pilot: $2.29 vs $0.66).
 
-**Decision:** Sonnet 5 for metadata. Its accuracy is within 0.1–0.2 of Opus. The gap is mostly naturalness, and it is largest in Hungarian, so Hungarian metadata may use Opus low (about +£11). Remaining errors are minor: an idiom here and there, the work's title rendered "Elucidárium", and quotation-mark style. These are addressed in the language guides.
+**Decision (owner, 2026-09-27):** Sonnet 5 for metadata in all languages except Hungarian, which uses Opus 5.5 low (kb/translation_config.yaml). Its accuracy is within 0.1–0.2 of Opus. The gap is mostly naturalness, and it is largest in Hungarian, so Hungarian metadata may use Opus low (about +£11). Remaining errors are minor: an idiom here and there, the work's title rendered "Elucidárium", and quotation-mark style. These are addressed in the language guides.
 
 **Final estimate per language: about £53–64** (Hungarian with Opus metadata: about £64–75).
