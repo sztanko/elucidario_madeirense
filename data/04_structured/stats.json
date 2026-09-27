@@ -8,16 +8,16 @@
     "compound": 20
   },
   "blocks": {
-    "paragraph": 11614,
-    "table": 116,
+    "paragraph": 11642,
     "page_split_merges": 164,
     "xref": 407,
     "quote": 402,
+    "table": 83,
     "bibliography": 58,
-    "verse": 45,
+    "verse": 46,
     "italic_spans": 756,
     "heading": 170,
-    "list_item": 33,
+    "list_item": 37,
     "update_notes": 448,
     "editorial_fixes": 1
   },

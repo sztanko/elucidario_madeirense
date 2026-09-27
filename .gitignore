@@ -20,3 +20,11 @@ data/01_layout/
 data/batches/*/msgbatch_*.jsonl
 data/cache/
 data/08_tu/tu.sqlite
+# raw paid batch responses and regenerable intermediates (back up separately)
+data/batches/
+data/03_clean/articles.rules.jsonl
+data/03_clean/articles.pass1.jsonl
+data/03_clean/proof_chunks.jsonl
+data/03_clean/proof2_chunks.jsonl
+data/05_enriched/requests.jsonl
+data/10_run/*_requests.jsonl

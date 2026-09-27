@@ -1,18 +1,18 @@
 {
-  "units": 66862,
-  "new_or_changed": 9599,
-  "removed": 271,
+  "units": 66603,
+  "new_or_changed": 0,
+  "removed": 0,
   "by_kind": {
     "en:enrichment.abstract": 3861,
     "en:enrichment.chapter_summary": 1643,
     "en:enrichment.chapter_title": 1643,
     "en:event.text": 8286,
-    "en:person.note": 10233,
+    "en:person.note": 10232,
     "en:person.role": 863,
-    "en:person.summary": 4543,
-    "en:place.location": 1416,
-    "en:place.note": 12378,
-    "en:place.summary": 3097,
+    "en:person.summary": 4490,
+    "en:place.location": 1334,
+    "en:place.note": 12379,
+    "en:place.summary": 2973,
     "en:taxonomy.definition": 90,
     "en:taxonomy.label": 132,
     "en:term.gloss": 1960,
@@ -21,7 +21,7 @@
   },
   "source_chars": {
     "pt": 5631954,
-    "en": 4023198
+    "en": 3989966
   },
-  "translation_rows": 537064
+  "translation_rows": 548616
 }
