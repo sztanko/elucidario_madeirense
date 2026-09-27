@@ -342,137 +342,137 @@ Where no established Eastern equivalent exists, the table gives the Catholic for
 | São Martinho | saint | святий Мартин Турський | yes | yes |
 | São Roque | saint | святий Рох | yes | yes |
 | Santa Casa | institution | Свята Палата (Милосердя) | descriptive |  |
-| Nossa Senhora da Piedade | marian | П'єта (Скорботна Богородиця) | yes |  |
-| Nossa Senhora do Monte | marian | Богородиця з Монте (католицька традиція) | descriptive | yes |
+| Nossa Senhora da Piedade | marian | Матір Божа Скорботна | yes |  |
+| Nossa Senhora do Monte | marian | Матір Божа з Монте | descriptive | yes |
 | São Gonçalo | saint | святий Гонсалу з Амаранте | yes | yes |
-| Nossa Senhora do Calhau | marian | Богородиця з Каляу | descriptive | yes |
+| Nossa Senhora do Calhau | marian | Матір Божа з Каляу | descriptive | yes |
 | São Miguel | saint | Архангел Михаїл | yes |  |
 | São Paulo | saint | апостол Павло | yes |  |
 | Santa Casa da Misericórdia | institution | Свята Палата Милосердя (Мізерікордія) | yes |  |
-| Nossa Senhora da Conceição | marian | Непорочне Зачаття Діви Марії | yes |  |
+| Nossa Senhora da Conceição | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
 | Santa Isabel | saint | свята Єлизавета Португальська | yes |  |
 | Espírito Santo | trinitarian | Святий Дух | yes |  |
 | Santo Amaro | saint | святий Мавр | yes | yes |
 | São Lazaro | saint | праведний Лазар Чотириденний (святий Лазар) | yes | yes |
 | São Sebastião | saint | святий Себастіян (мученик Севастіян) | yes |  |
-| Nossa Senhora da Graça | marian | Матір Божа Ласкава (Богородиця Благодатна) | yes |  |
+| Nossa Senhora da Graça | marian | Матір Божа Благодатна | yes |  |
 | Santa Sé | institution | Святий Престол | yes |  |
 | Santa Helena | saint | рівноапостольна Олена (свята Олена) | yes | yes |
 | Santo António da Serra | saint | Санту-Антоніу-да-Серра | yes | yes |
 | São João de Deus | saint | святий Іван Божий | yes |  |
 | São José | saint | святий Йосиф (Обручник) | yes |  |
 | Senhor dos Milagres | christological | Господь Чудес | descriptive |  |
-| Nossa Senhora do Amparo | marian | Богородиця Заступниця | descriptive |  |
+| Nossa Senhora do Amparo | marian | Матір Божа Заступниця | descriptive |  |
 | Santíssimo Sacramento | christological | Найсвятіший Сакрамент | yes |  |
 | Senhor Jesus | christological | Господь Ісус | yes |  |
 | Sagrado Coração de Jesus | christological | Пресвяте Серце Ісуса | yes |  |
 | Santa Quitéria | saint | свята Квітерія | yes | yes |
-| Nossa Senhora da Estrela | marian | Богородиця Зірка | descriptive |  |
-| Nossa Senhora do Rosário | marian | Богородиця Вервиці | yes | yes |
+| Nossa Senhora da Estrela | marian | Матір Божа Зірки | descriptive |  |
+| Nossa Senhora do Rosário | marian | Матір Божа Розарію | yes | yes |
 | Santo António do Funchal | saint | святий Антоній Падуанський | yes | yes |
 | São Tomé | saint | апостол Хома | yes |  |
 | Santa Casa da Misericordia | institution | Святий дім милосердя | descriptive |  |
-| Nossa Senhora da Penha de França | marian | Богородиця з Пенья-де-Франсія | descriptive | yes |
+| Nossa Senhora da Penha de França | marian | Матір Божа з Пенья-де-Франсія | descriptive | yes |
 | São Bernardino | saint | святий Бернардин Сієнський | yes |  |
 | Santíssima Virgem | marian | Пресвята Діва Марія | yes |  |
-| Nossa Senhora da Consolação | marian | Богородиця Утішителька | yes |  |
+| Nossa Senhora da Consolação | marian | Матір Божа Утішителька | yes |  |
 | Santo Servo de Deus | saint | святий Слуга Божий (брат Педру да Гуарда) | descriptive |  |
 | São Roque do Faial | saint | Сан-Роке-ду-Фаял (святий Рох) | yes | yes |
-| Nossa Senhora das Preces | marian | Богородиця Молитов (католицька традиція) | descriptive | yes |
+| Nossa Senhora das Preces | marian | Матір Божа Молитов | descriptive | yes |
 | São Bartolomeu | saint | святий Варфоломій | yes |  |
 | São Filipe | saint | святий Пилип | yes |  |
 | São António | saint | святий Антоній Падуанський | yes | yes |
-| Nossa Senhora do Bom Sucesso | marian | Богородиця Доброго Успіху (католицька традиція) | descriptive |  |
+| Nossa Senhora do Bom Sucesso | marian | Матір Божа Доброго Успіху | descriptive |  |
 | Nossa Senhora da Incarnação | marian | Благовіщення Пресвятої Богородиці | yes |  |
 | Santo Oficio | institution | Священна канцелярія (інквізиція) | yes |  |
 | Santo Espírito | trinitarian | Святий Дух | yes |  |
-| Nossa Senhora da Conceição do Ilhéu | marian | Непорочне зачаття Діви Марії (католицька традиція; форт на острівці, Фуншал) | yes | yes |
-| São Gil | saint | святий Егідій (католицька традиція) | yes |  |
-| Nossa Senhora dos Remédios | marian | Матір Божа Лікування (католицька традиція) | descriptive |  |
+| Nossa Senhora da Conceição do Ilhéu | marian | Непорочне Зачаття Пресвятої Діви Марії з Ільєу | yes | yes |
+| São Gil | saint | святий Егідій | yes |  |
+| Nossa Senhora dos Remédios | marian | Матір Божа Доброго Ліку | descriptive |  |
 | São Marítimo | saint | святий Маритим | descriptive |  |
 | Nossa Senhora das Angústias | marian | Матір Божа Болісна | yes |  |
 | Santo Antão | saint | преподобний Антоній Великий | yes |  |
-| São Luiz | saint | святий Людовик IX (католицька традиція) | yes |  |
-| São João de Latrão | institution | святий Іван Латеранський / Латеранська базиліка (католицька традиція) | yes |  |
-| Nossa Senhora do Faial | marian | Богоматір з Фаяла (католицька традиція) | descriptive | yes |
-| Nossa Senhora das Mercês | marian | Матір Божа Милосердя (Мерседаріїв; католицька традиція) | yes |  |
+| São Luiz | saint | святий Людовик IX | yes |  |
+| São João de Latrão | institution | святий Іван Латеранський / Латеранська базиліка | yes |  |
+| Nossa Senhora do Faial | marian | Матір Божа з Фаяла | descriptive | yes |
+| Nossa Senhora das Mercês | marian | Матір Божа Милосердя | yes |  |
 | São Bento | saint | преподобний Бенедикт Нурсійський | yes |  |
 | São Braz | saint | священномученик Власій Севастійський | yes |  |
-| Nossa Senhora da Nazaré | marian | Богоматір з Назаре (католицька традиція) | yes |  |
-| Nossa Senhora da Luz | marian | Богородиця Світла (катол.) | yes |  |
-| Nossa Senhora da Vida | marian | Богородиця Життя (катол., описово) | descriptive |  |
+| Nossa Senhora da Nazaré | marian | Матір Божа з Назаре | yes |  |
+| Nossa Senhora da Luz | marian | Матір Божа Світла | yes |  |
+| Nossa Senhora da Vida | marian | Матір Божа Життя | descriptive |  |
 | Santo André | saint | святий апостол Андрій Первозванний | yes |  |
 | São Vicente de Paulo | saint | святий Вінсент де Поль | yes |  |
-| Nossa Senhora das Neves | marian | Богородиця Снігова | yes | yes |
-| Nossa Senhora da Ajuda | marian | Богородиця Помічниця (катол.) | yes | yes |
-| Nossa Senhora das Dores | marian | Скорботна Богородиця (Mater Dolorosa, катол.) | yes |  |
-| Nossa Senhora do Socorro | marian | Богородиця Заступниця (Допомоги) (катол.) | descriptive | yes |
-| Nossa Senhora dos Prazeres | marian | Сім радощів Діви Марії | yes | yes |
-| Nossa Senhora da Quietação | marian | Богородиця Спокою (катол., описово) | descriptive |  |
+| Nossa Senhora das Neves | marian | Матір Божа Снігова | yes | yes |
+| Nossa Senhora da Ajuda | marian | Матір Божа Помічниця | yes | yes |
+| Nossa Senhora das Dores | marian | Матір Божа Болісна | yes |  |
+| Nossa Senhora do Socorro | marian | Матір Божа Помочі | descriptive | yes |
+| Nossa Senhora dos Prazeres | marian | Матір Божа Радощів | yes | yes |
+| Nossa Senhora da Quietação | marian | Матір Божа Спокою | descriptive |  |
 | São Roque do Funchal | saint | святий Рох (парафія Сан-Роке, Фуншал) | yes | yes |
-| Nossa Senhora dos Anjos | marian | Богородиця Ангелів (катол.) | yes | yes |
+| Nossa Senhora dos Anjos | marian | Матір Божа Ангельська | yes | yes |
 | Nossa Senhora da Apresentação | marian | Введення в храм Пресвятої Богородиці | yes |  |
-| Nossa Senhora das Brotas | marian | Богородиця з Броташ | descriptive |  |
-| Nossa Senhora da Boa Hora | marian | Богородиця Доброї Години | descriptive |  |
-| Nossa Senhora de Belém | marian | Вифлеємська ікона Божої Матері | yes |  |
-| Nossa Senhora do Carmo | marian | Пресвята Діва Марія з гори Кармель | yes |  |
+| Nossa Senhora das Brotas | marian | Матір Божа з Броташ | descriptive |  |
+| Nossa Senhora da Boa Hora | marian | Матір Божа Доброї Години | descriptive |  |
+| Nossa Senhora de Belém | marian | Матір Божа Вифлеємська | yes |  |
+| Nossa Senhora do Carmo | marian | Матір Божа з гори Кармель | yes |  |
 | Senhor dos Passos | christological | Христос, що несе хрест (Несення хреста) | yes |  |
-| Nossa Senhora da Alegria | marian | Богородиця Радості | descriptive |  |
-| Nossa Senhora do Loreto | marian | Лоретська Богородиця | yes | yes |
+| Nossa Senhora da Alegria | marian | Матір Божа Радості | descriptive |  |
+| Nossa Senhora do Loreto | marian | Лоретська Матір Божа | yes | yes |
 | São Cristovão | saint | Святий Христофор | yes |  |
-| Nossa Senhora do Desterro | marian | Богородиця у Втечі до Єгипту | yes |  |
-| Nossa Senhora da Soledade | marian | Богородиця Самотності | yes |  |
+| Nossa Senhora do Desterro | marian | Матір Божа Вигнання | yes |  |
+| Nossa Senhora da Soledade | marian | Матір Божа Самотності | yes |  |
 | Nossa Senhora da Natividade | marian | Різдво Пресвятої Богородиці | yes |  |
 | São Julião da Barra | other | Форт Сан-Жуліан-да-Барра | yes | yes |
-| Nossa Senhora da Paz | marian | Цариця Миру (Богородиця Миру, catholic usage) | yes |  |
+| Nossa Senhora da Paz | marian | Матір Божа Миру | yes |  |
 | Nossa Senhora da Esperança | marian | Матір Божа Надії | yes |  |
-| Nossa Senhora de Guadalupe | marian | Богородиця Гваделупська | yes |  |
+| Nossa Senhora de Guadalupe | marian | Матір Божа Гваделупська | yes |  |
 | São Clemente | saint | Климент Римський | yes |  |
 | São João da Ribeira | saint | Іоанн Хреститель (Іван Предтеча) | yes | yes |
 | São Francisco das Furnas | saint | Франциск Ассізький | yes |  |
 | Santa Clara do Funchal | institution | Монастир святої Клари у Фуншалі | descriptive |  |
 | Santa Teresa | saint | Тереза Авільська | yes |  |
-| Nossa Senhora da Vitoria | marian | Богородиця Переможна (catholic usage) | yes |  |
+| Nossa Senhora da Vitoria | marian | Матір Божа Переможна | yes |  |
 | Senhora da Conceição | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
-| Nossa Senhora do Pópulo | marian | Мадонна дель Пополо | descriptive |  |
-| São Caetano | saint | святий Каетан Тієнський (катол.) | yes |  |
+| Nossa Senhora do Pópulo | marian | Матір Божа дель Пополо | descriptive |  |
+| São Caetano | saint | святий Каетан Тієнський | yes |  |
 | São Cristóvão | saint | святий мученик Христофор | yes |  |
-| Nossa Senhora das Maravilhas | marian | Богородиця Дивовижна (Матір Божа Чудес) | descriptive | yes |
-| Nossa Senhora dos Milagres | marian | Богородиця Чудотворна | yes |  |
+| Nossa Senhora das Maravilhas | marian | Матір Божа Див | descriptive | yes |
+| Nossa Senhora dos Milagres | marian | Матір Божа Чудес | yes |  |
 | São Nicolau | saint | святий Миколай Чудотворець | yes |  |
-| Nossa Senhora da Salvação | marian | Богородиця Спасіння | descriptive |  |
-| Nossa Senhora das Virtudes | marian | Богородиця Чеснот | descriptive | yes |
-| São Luís | saint | святий Людовік IX (катол.) | yes |  |
+| Nossa Senhora da Salvação | marian | Матір Божа Спасіння | descriptive |  |
+| Nossa Senhora das Virtudes | marian | Матір Божа Чеснот | descriptive | yes |
+| São Luís | saint | святий Людовік IX | yes |  |
 | Santa Barbara | saint | свята великомучениця Варвара | yes |  |
-| São Cândido | saint | святий Кандид (катол.) | yes |  |
+| São Cândido | saint | святий Кандид | yes |  |
 | Santa Cruz de Tenerife | other | Санта-Крус-де-Тенерифе | yes | yes |
-| São Fernando | saint | святий Фердинанд III Кастильський (катол.) | yes |  |
+| São Fernando | saint | святий Фердинанд III Кастильський | yes |  |
 | São Carlos | saint | святий Карло Борромео | yes |  |
 | São Maritimo | other | святий Мартин Турський | descriptive | yes |
 | Santo Padroeiro | other | святий покровитель | yes |  |
 | São Magestade | other | Його Величність | descriptive |  |
 | São Luzia | saint | свята Луція | yes | yes |
-| Nossa Senhora da Cadeira | marian | Мадонна в кріслі | descriptive |  |
-| Nossa Senhora das Vitorias | marian | Матір Божа Переможна | yes |  |
+| Nossa Senhora da Cadeira | marian | Матір Божа в Кріслі | descriptive |  |
+| Nossa Senhora das Vitorias | marian | Матір Божа Перемог | yes |  |
 | São Francisco de Salles | saint | святий Франциск Сальський | yes |  |
 | São Pedro de Alcantara | saint | святий Петро Алькантарський | yes |  |
-| Nossa Senhora do Rosario | marian | Пресвята Богородиця Вервиці | yes |  |
-| Nossa Senhora da Glória | marian | Внебовзяття Пресвятої Діви Марії (Богородиця Слави) | descriptive |  |
+| Nossa Senhora do Rosario | marian | Матір Божа Розарію | yes |  |
+| Nossa Senhora da Glória | marian | Матір Божа Слави | descriptive |  |
 | São Fischer | saint | святий Джон Фішер | descriptive |  |
 | São Paulo de Loanda | other | Луанда (історична назва Сан-Паулу-ді-Луанда) | yes | yes |
 | Santo Espirito | trinitarian | Святий Дух | yes |  |
-| Nossa Senhora do Monte e S | marian | Богоматір з Монте (Мадейра) | descriptive | yes |
+| Nossa Senhora do Monte e S | marian | Матір Божа з Монте | descriptive | yes |
 | São Pontif | institution | Верховний Понтифік (Папа Римський) | yes |  |
-| Nossa Senhora da Porciuncula | marian | Пресвята Діва Марія Ангельська (Порціюнкула) | yes |  |
+| Nossa Senhora da Porciuncula | marian | Матір Божа Ангельська з Порціюнкули | yes |  |
 | São Bernardino de Sena | saint | святий Бернардин Сієнський | yes |  |
 | São Francisco do Funchal | institution | Францисканський монастир святого Франциска у Фуншалі | descriptive | yes |
 | Santo Aleixo | saint | преподобний Олексій, чоловік Божий | yes |  |
 | São João do Pico | other | Фортеця святого Івана Хрестителя на Піку (Фуншал) | descriptive | yes |
-| Nossa Senhora do Monte do Carmo | marian | Пресвята Діва Марія з гори Кармель | yes |  |
-| Nossa Senhora de Cima | marian | Богоматір «де Сіма» (Горішня) | descriptive |  |
+| Nossa Senhora do Monte do Carmo | marian | Матір Божа з гори Кармель | yes |  |
+| Nossa Senhora de Cima | marian | Матір Божа Горішня | descriptive |  |
 | São Pontífice | institution | Верховний Понтифік (Папа Римський) | yes |  |
 | Santo Elói | saint | святий Елігій | yes |  |
-| Senhora da Luz | marian | Богородиця Світла (католицька назва) | yes |  |
+| Senhora da Luz | marian | Матір Божа Світла | yes |  |
 | Santo António da Ilha | saint | святий Антоній (Падуанський) «з Острова» | descriptive |  |
 | São Paulo de Luanda | other | Сан-Паулу-ді-Луанда (Луанда) | yes | yes |
 | Nossa Senhora do Livramento e que | marian | Богородиця Визволителька | yes |  |
@@ -480,117 +480,117 @@ Where no established Eastern equivalent exists, the table gives the Catholic for
 | Santo António dos Milagres | saint | святий Антоній Падуанський Чудотворець | descriptive |  |
 | Santa Ana | saint | свята Анна (праведна Анна) | yes | yes |
 | São Joaquim | saint | святий Йоаким (праведний Йоаким) | yes |  |
-| Nossa Senhora da Boa Nova | marian | Богородиця Доброї Звістки | descriptive |  |
-| Nossa Senhora da Boa Viagem | marian | Богородиця Доброї Подорожі (католицька назва) | descriptive |  |
-| Nossa Senhora da Candelária | marian | Богородиця Громнична (Діва Марія Канделарійська; свято Стрітення Господнього) | yes |  |
-| Nossa Senhora da Fé | marian | Богородиця Віри | descriptive |  |
-| Nossa Senhora de Jesus | marian | Богородиця, Мати Ісуса | descriptive |  |
-| Nossa Senhora do Monserrate | marian | Монтсерратська Богородиця (Діва Марія Монтсерратська) | yes |  |
-| Senhora do Monte | marian | Богородиця з Монте | yes | yes |
-| Nossa Senhora da Pena | marian | Богородиця з Пени | descriptive | yes |
-| Senhora da Penha | marian | Богородиця з Пенья-де-Франсія | yes | yes |
-| Nossa Senhora do Pilar | marian | Пресвята Діва Марія на Стовпі (Богородиця дель Пілар) | yes | yes |
-| Nossa Senhora da Saúde | marian | Богородиця Цілителька | yes |  |
-| Nossa Senhora do Terço | marian | Богородиця Вервиці (Цариця Святого Розарію) | yes |  |
-| Nossa Senhora dos Varadouros | marian | Богородиця з Варадоурош | descriptive | yes |
-| Nossa Senhora da Vitória | marian | Богородиця Переможна | yes |  |
+| Nossa Senhora da Boa Nova | marian | Матір Божа Доброї Вістки | descriptive |  |
+| Nossa Senhora da Boa Viagem | marian | Матір Божа Доброї Подорожі | descriptive |  |
+| Nossa Senhora da Candelária | marian | Матір Божа Громнична | yes |  |
+| Nossa Senhora da Fé | marian | Матір Божа Віри | descriptive |  |
+| Nossa Senhora de Jesus | marian | Матір Божа Ісусова | descriptive |  |
+| Nossa Senhora do Monserrate | marian | Матір Божа Монтсерратська | yes |  |
+| Senhora do Monte | marian | Матір Божа з Монте | yes | yes |
+| Nossa Senhora da Pena | marian | Матір Божа з Пени | descriptive | yes |
+| Senhora da Penha | marian | Матір Божа з Пенья-де-Франсія | yes | yes |
+| Nossa Senhora do Pilar | marian | Матір Божа на Стовпі | yes | yes |
+| Nossa Senhora da Saúde | marian | Матір Божа Здоров'я | yes |  |
+| Nossa Senhora do Terço | marian | Матір Божа Розарію | yes |  |
+| Nossa Senhora dos Varadouros | marian | Матір Божа з Варадоуруш | descriptive | yes |
+| Nossa Senhora da Vitória | marian | Матір Божа Переможна | yes |  |
 | Santa Catarina de Alexandria | saint | Свята Катерина Александрійська | yes | yes |
-| Senhora da Soledade | marian | Богородиця Самотності (Діва Марія Соледад) | yes |  |
+| Senhora da Soledade | marian | Матір Божа Самотності | yes |  |
 | Santa Cruzada | institution | Булла Святого хрестового походу | yes |  |
 | São Pedro do Sul | other | Сан-Педру-ду-Сул | yes | yes |
 | Santa Brígida | saint | Свята Бригіда Ірландська | yes |  |
 | Santa Maria de Lisboa | institution | Лісабонський кафедральний собор (Санта-Марія-Майор) | yes |  |
-| Nossa Senhora do Populo | marian | Мадонна дель Пополо | yes |  |
+| Nossa Senhora do Populo | marian | Матір Божа дель Пополо | yes |  |
 | São Francisco de Borja | saint | Святий Франциск Борджія | yes |  |
 | São Lázaro | saint | Святий Лазар | yes | yes |
-| Nossa Senhora da Conceição de Vila Viçosa | marian | Непорочне Зачаття Діви Марії з Віла-Вісози (покровителька Португалії) | yes |  |
+| Nossa Senhora da Conceição de Vila Viçosa | marian | Непорочне Зачаття Пресвятої Діви Марії з Віла-Вісози | yes |  |
 | São Domingos | saint | Святий Домінік | yes |  |
 | São Vicente de Cabo | saint | Святий Вікентій Сарагоський | yes | yes |
-| Nossa Senhora da Conceição do Porto Moniz | marian | Непорочне Зачаття Діви Марії (Порту-Моніш) | yes | yes |
+| Nossa Senhora da Conceição do Porto Moniz | marian | Непорочне Зачаття Пресвятої Діви Марії з Порту-Моніша | yes | yes |
 | Senhor da Ilha | other | Володар острова (сеньйор-донатарій) | descriptive |  |
-| Nossa Senhora de Perpetuo Socorro | marian | Богородиця Неустанної Помочі | yes |  |
+| Nossa Senhora de Perpetuo Socorro | marian | Матір Божа Неустанної Помочі | yes |  |
 | Senhora das Vilas | other | Володарка міст (сеньйора) | descriptive |  |
-| Nossa Senhora do Calhau e que | marian | Богородиця з Калягу (Непорочне Зачаття, Фуншал) | descriptive | yes |
-| Nossa Senhora do Funchal | marian | Фуншальська Богородиця | descriptive | yes |
-| Nossa Senhora da Conceição e Nossa Senhora da Vida | marian | Непорочне Зачаття Діви Марії та Богородиця Життя | descriptive |  |
-| Nossa Senhora do Desterro e de Nossa Senhora da Boa Hora | marian | Втеча Богородиці до Єгипту та Богородиця Доброго Часу (Помічниця в пологах) | descriptive |  |
-| Nossa Senhora da Visitação | marian | Відвідини Пресвятою Дівою Марією Єлисавети | yes |  |
-| Senhora das Brotas | marian | Богородиця з Броташа | descriptive |  |
-| Nossa Senhora de Monserrate | marian | Монтсерратська Богородиця | yes |  |
-| Nossa Senhora da Nazaré e Santa Catarina | marian | Богородиця з Назаре та свята великомучениця Катерина Александрійська | yes | yes |
-| Nossa Senhora do Bom Despacho e de Nossa Senhora da Gloria | marian | Богородиця Доброго Завершення (Бон-Деспашу) і Богородиця у Славі (Успіння) | descriptive |  |
-| Nossa Senhora dos Remedios | marian | Богородиця Цілителька | yes |  |
-| Nossa Senhora dos Anjos e do Sagrado Coração de Jesus | marian | Богородиця Цариця Ангелів і Пресвяте Серце Ісусове | yes |  |
-| Nossa Senhora do Monte e Sant | marian | Богоматір з Монте | yes | yes |
-| Nossa Senhora da Anunciação e de Nossa Senhora do Socorro | marian | Благовіщення Пресвятої Богородиці і Богородиця Помічниця | yes |  |
-| Nossa Senhora da Consolação e da Madre de Deus | marian | Богородиця Утішителька і Мати Божа | yes |  |
-| Nossa Senhora da Salvação e a de Nossa Senhora do Socorro | marian | Богородиця Спасіння і Богородиця Помічниця | descriptive |  |
-| Nossa Senhora do Calhau e foi | marian | Богоматір з Каляу | descriptive | yes |
-| Nossa Senhora da Conceiçâo | marian | Непорочне Зачаття Діви Марії | yes |  |
-| Nossa Senhora da Conceição e o | marian | Непорочне Зачаття Діви Марії | yes |  |
-| Nossa Senhora da Conceição e que | marian | Непорочне Зачаття Діви Марії | yes |  |
-| Nossa Senhora das Mercês e Nossa Senhora da Incarnação | marian | Богородиця Милосердя (Мерседаріїв) і Богородиця Воплочення | yes |  |
-| Nossa Senhora da Graça (Câmara de Lobos) | marian | Матір Божа Благодатна (Камара-де-Лобуш) (католицька традиція) | yes | yes |
-| Nossa Senhora das Graças | marian | Матір Божа Благодатна / Чудотворного Медальйона (католицька традиція) | yes |  |
-| Senhora da Graça | marian | Матір Божа Благодатна (католицька традиція) | yes |  |
-| Nossa Senhora da Penha (de França) | marian | Матір Божа з Пеньї (католицька традиція) | descriptive | yes |
-| Nossa Senhora da Calheta | marian | Богородиця з Калети (католицька традиція) | descriptive | yes |
-| Nossa Senhora da Assunção | marian | Внебовзяття Пресвятої Діви Марії (католицька традиція) | yes |  |
+| Nossa Senhora do Calhau e que | marian | Матір Божа з Каляу | descriptive | yes |
+| Nossa Senhora do Funchal | marian | Матір Божа з Фуншала | descriptive | yes |
+| Nossa Senhora da Conceição e Nossa Senhora da Vida | marian | Непорочне Зачаття Пресвятої Діви Марії і Матір Божа Життя | descriptive |  |
+| Nossa Senhora do Desterro e de Nossa Senhora da Boa Hora | marian | Матір Божа Вигнання і Матір Божа Доброї Години | descriptive |  |
+| Nossa Senhora da Visitação | marian | Відвідини Пресвятої Діви Марії | yes |  |
+| Senhora das Brotas | marian | Матір Божа з Броташ | descriptive |  |
+| Nossa Senhora de Monserrate | marian | Матір Божа Монтсерратська | yes |  |
+| Nossa Senhora da Nazaré e Santa Catarina | marian | Матір Божа з Назаре і свята Катерина Александрійська | yes | yes |
+| Nossa Senhora do Bom Despacho e de Nossa Senhora da Gloria | marian | Матір Божа Доброго Вирішення і Матір Божа Слави | descriptive |  |
+| Nossa Senhora dos Remedios | marian | Матір Божа Доброго Ліку | yes |  |
+| Nossa Senhora dos Anjos e do Sagrado Coração de Jesus | marian | Матір Божа Ангельська і Пресвяте Серце Ісуса | yes |  |
+| Nossa Senhora do Monte e Sant | marian | Матір Божа з Монте | yes | yes |
+| Nossa Senhora da Anunciação e de Nossa Senhora do Socorro | marian | Благовіщення Пресвятої Богородиці і Матір Божа Помочі | yes |  |
+| Nossa Senhora da Consolação e da Madre de Deus | marian | Матір Божа Утішителька і Матір Божа | yes |  |
+| Nossa Senhora da Salvação e a de Nossa Senhora do Socorro | marian | Матір Божа Спасіння і Матір Божа Помочі | descriptive |  |
+| Nossa Senhora do Calhau e foi | marian | Матір Божа з Каляу | descriptive | yes |
+| Nossa Senhora da Conceiçâo | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
+| Nossa Senhora da Conceição e o | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
+| Nossa Senhora da Conceição e que | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
+| Nossa Senhora das Mercês e Nossa Senhora da Incarnação | marian | Матір Божа Милосердя і Благовіщення Пресвятої Богородиці | yes |  |
+| Nossa Senhora da Graça (Câmara de Lobos) | marian | Матір Божа Благодатна з Камара-ді-Лобуш | yes | yes |
+| Nossa Senhora das Graças | marian | Матір Божа Благодатна | yes |  |
+| Senhora da Graça | marian | Матір Божа Благодатна | yes |  |
+| Nossa Senhora da Penha (de França) | marian | Матір Божа з Пенья-де-Франсія | descriptive | yes |
+| Nossa Senhora da Calheta | marian | Матір Божа з Калети | descriptive | yes |
+| Nossa Senhora da Assunção | marian | Внебовзяття Пресвятої Діви Марії | yes |  |
 | Senhor de Fuerte-Ventura | other | сеньйор Фуертевентури | yes |  |
-| Nossa Senhora do Lanço | marian | Богородиця ду Лансу (католицька традиція) | descriptive |  |
-| Nossa Senhora do Recolhimento das Órfãs | institution | Богородиця притулку для сиріт (Фуншал) (католицька традиція) | descriptive |  |
+| Nossa Senhora do Lanço | marian | Матір Божа з Лансу | descriptive |  |
+| Nossa Senhora do Recolhimento das Órfãs | institution | Богородиця притулку для сиріт (Фуншал) | descriptive |  |
 | Nossa Senhora da Encarnação (Incarnação) | marian | Благовіщення Пресвятої Богородиці | yes |  |
-| Nossa Senhora da Madre de Deus e ao | marian | Пресвята Богородиця, Матір Божа | yes |  |
-| Nossa Senhora das Mercês e Conventos | marian | Діва Марія Милосердна (Богородиця Мерседаріїв; катол.) | yes |  |
-| Senhora do Calhau | marian | Богородиця з Каляу (Непорочного Зачаття; катол.) | descriptive | yes |
-| Nossa Senhora de Salvação | marian | Богородиця Спасіння (катол.) | descriptive |  |
-| Nossa Senhora da Consolação do Funchal | marian | Богородиця Утішителька (Фуншал; катол.) | yes |  |
-| Nossa Senhora do Monte e a | marian | Богоматір з Монте (покровителька Мадейри; катол.) | yes | yes |
+| Nossa Senhora da Madre de Deus e ao | marian | Матір Божа | yes |  |
+| Nossa Senhora das Mercês e Conventos | marian | Матір Божа Милосердя | yes |  |
+| Senhora do Calhau | marian | Матір Божа з Каляу | descriptive | yes |
+| Nossa Senhora de Salvação | marian | Матір Божа Спасіння | descriptive |  |
+| Nossa Senhora da Consolação do Funchal | marian | Матір Божа Утішителька з Фуншала | yes |  |
+| Nossa Senhora do Monte e a | marian | Матір Божа з Монте | yes | yes |
 | Senhor das Alcaçovas | other | сеньйор Алкасоваша | descriptive |  |
 | Senhora da Apresentação | marian | Введення в храм Пресвятої Богородиці | yes |  |
-| Senhora do Socorro | marian | Богородиця Помічниця (Mater de Succursu; катол.) | yes |  |
-| Nossa Senhora do Bom Despacho | marian | Богородиця Доброго Вирішення (Бон-Деспашу; катол.) | descriptive |  |
-| Nossa Senhora do Calhao | marian | Богородиця з Каляу (Непорочного Зачаття; катол.) | descriptive | yes |
-| Nossa Senhora da Consolação da freguesia do Estreito de Câmara de Lobos | marian | Богородиця Утішителька (Ештрейту-ді-Камара-ді-Лобуш; катол.) | yes |  |
-| Nossa Senhora da Fátima | marian | Фатімська Богоматір | yes |  |
-| Nossa Senhora do Livramento da freguesia do Estreito da Calheta | marian | Богородиця Визволителька (Ештрейту-да-Калета) | yes | yes |
-| Nossa Senhora da Madre de Deus | marian | Пресвята Богородиця, Матір Божа | yes |  |
-| Nossa Senhora do Perpétuo Socorro | marian | Богородиця Неустанної Помочі | yes |  |
-| Nossa Senhora dos Remédios e Amparo | marian | Богородиця Цілителька і Заступниця | descriptive |  |
-| Nossa Senhora da Saúde do Monte Olivete | marian | Богородиця Здоров'я Немічних з Оливної гори | descriptive | yes |
-| Nossa Senhora do Vale | marian | Богородиця Долини | descriptive |  |
-| Nossa Senhora do Vale e que | marian | Богородиця з Долини | descriptive |  |
-| Nossa Senhora das Vitórias | marian | Богородиця Переможниця | yes |  |
-| Nossa Senhora das Vitórias e construída | marian | Богородиця Переможниця | yes |  |
-| Nossa Senhora da Conceição de Vila Viçosa e desempenhou | marian | Непорочне Зачаття Діви Марії з Віла-Вісоза | descriptive | yes |
-| Nossa Senhora das Mercês e que | marian | Діва Марія Милосердна (Богородиця де Мерсед), католицька назва | yes |  |
-| Nossa Senhora do Carmo e Santa Thereza | marian | Пресвята Діва Марія з гори Кармель і свята Тереза Авільська | yes |  |
-| Nossa Senhora do Monte e do Senhor dos Milagres | marian | Богородиця з Монте і Господь Чудес (католицьке) | descriptive | yes |
-| Nossa Senhora do Amparo e de Nossa Senhora da Boa Morte | marian | Богородиця Заступниця (Ампаро) та Успіння Пресвятої Богородиці | descriptive |  |
-| Nossa Senhora do Patrocinio e ali | marian | Покров Пресвятої Богородиці (Покровительство Діви Марії) | yes |  |
-| Nossa Senhora da Conceição de que | marian | Непорочне Зачаття Діви Марії | yes |  |
-| Nossa Senhora da Piedade e julgamos | marian | Скорботна Матір Божа (П'єта) | yes |  |
+| Senhora do Socorro | marian | Матір Божа Помочі | yes |  |
+| Nossa Senhora do Bom Despacho | marian | Матір Божа Доброго Вирішення | descriptive |  |
+| Nossa Senhora do Calhao | marian | Матір Божа з Каляу | descriptive | yes |
+| Nossa Senhora da Consolação da freguesia do Estreito de Câmara de Lobos | marian | Матір Божа Утішителька з Ештрейту-ді-Камара-ді-Лобуш | yes |  |
+| Nossa Senhora da Fátima | marian | Матір Божа Фатімська | yes |  |
+| Nossa Senhora do Livramento da freguesia do Estreito da Calheta | marian | Богородиця Визволителька з Ештрейту-да-Калети | yes | yes |
+| Nossa Senhora da Madre de Deus | marian | Матір Божа | yes |  |
+| Nossa Senhora do Perpétuo Socorro | marian | Матір Божа Неустанної Помочі | yes |  |
+| Nossa Senhora dos Remédios e Amparo | marian | Матір Божа Доброго Ліку і Заступниця | descriptive |  |
+| Nossa Senhora da Saúde do Monte Olivete | marian | Матір Божа Здоров'я з Монте-Олівете | descriptive | yes |
+| Nossa Senhora do Vale | marian | Матір Божа Долини | descriptive |  |
+| Nossa Senhora do Vale e que | marian | Матір Божа Долини | descriptive |  |
+| Nossa Senhora das Vitórias | marian | Матір Божа Перемог | yes |  |
+| Nossa Senhora das Vitórias e construída | marian | Матір Божа Перемог | yes |  |
+| Nossa Senhora da Conceição de Vila Viçosa e desempenhou | marian | Непорочне Зачаття Пресвятої Діви Марії з Віла-Вісози | descriptive | yes |
+| Nossa Senhora das Mercês e que | marian | Матір Божа Милосердя | yes |  |
+| Nossa Senhora do Carmo e Santa Thereza | marian | Матір Божа з гори Кармель і свята Тереза Авільська | yes |  |
+| Nossa Senhora do Monte e do Senhor dos Milagres | marian | Матір Божа з Монте і Господь Чудес | descriptive | yes |
+| Nossa Senhora do Amparo e de Nossa Senhora da Boa Morte | marian | Матір Божа Заступниця і Успіння Пресвятої Богородиці | descriptive |  |
+| Nossa Senhora do Patrocinio e ali | marian | Матір Божа Покровителька | yes |  |
+| Nossa Senhora da Conceição de que | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
+| Nossa Senhora da Piedade e julgamos | marian | Матір Божа Скорботна | yes |  |
 | Nossa Senhora do Perpetuo Socorro | marian | Матір Божа Неустанної Помочі | yes |  |
-| Nossa Senhora do Monte e nele | marian | Богородиця з Монте (католицьке) | descriptive | yes |
-| Nossa Senhora do Amparo e dos Remédios | marian | Богородиця Заступниця і Богородиця Доброго Ліку | descriptive |  |
-| Nossa Senhora da Porciúncula | marian | Богородиця Ангельська з Порціюнкули | yes |  |
-| Nossa Senhora da Conceição e de São João | marian | Непорочне Зачаття Діви Марії і святий Іван Хреститель | yes |  |
-| Nossa Senhora da Concepção | marian | Непорочне Зачаття Діви Марії | yes |  |
-| Nossa Senhora do Descanso | marian | Богородиця Спочинку | descriptive |  |
-| Senhora da Conceyção | marian | Непорочне Зачаття Діви Марії | yes |  |
-| Nossa Senhora das Virtudes e Santana | marian | Богородиця Чеснот і свята Анна | descriptive | yes |
-| Nossa Senhora da Fé e de Nossa Senhora de Jesus | marian | Богородиця Віри і Богородиця Ісусова | descriptive |  |
-| Nossa Senhora das Angustias | marian | Матір Божа Болісна (Скорботна) | yes |  |
+| Nossa Senhora do Monte e nele | marian | Матір Божа з Монте | descriptive | yes |
+| Nossa Senhora do Amparo e dos Remédios | marian | Матір Божа Заступниця і Матір Божа Доброго Ліку | descriptive |  |
+| Nossa Senhora da Porciúncula | marian | Матір Божа Ангельська з Порціюнкули | yes |  |
+| Nossa Senhora da Conceição e de São João | marian | Непорочне Зачаття Пресвятої Діви Марії і святий Іван Хреститель | yes |  |
+| Nossa Senhora da Concepção | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
+| Nossa Senhora do Descanso | marian | Матір Божа Відпочинку | descriptive |  |
+| Senhora da Conceyção | marian | Непорочне Зачаття Пресвятої Діви Марії | yes |  |
+| Nossa Senhora das Virtudes e Santana | marian | Матір Божа Чеснот і свята Анна | descriptive | yes |
+| Nossa Senhora da Fé e de Nossa Senhora de Jesus | marian | Матір Божа Віри і Матір Божа Ісусова | descriptive |  |
+| Nossa Senhora das Angustias | marian | Матір Божа Болісна | yes |  |
 | Nossa Senhora da Conceição e Almas | marian | Непорочне Зачаття Пресвятої Діви Марії і душі в чистилищі | yes |  |
-| Nossa Senhora da Boa Hora e Nossa Senhora da Conceição | marian | Богородиця Щасливих Пологів і Непорочне Зачаття | descriptive |  |
-| Nossa Senhora da Saúde e a de São João | marian | Богородиця — Оздоровлення недужих і святий Іван Хреститель | yes |  |
-| Nossa Senhora do Rosário e Santana | marian | Богородиця Розарію (Вервиці) і свята Анна | yes | yes |
+| Nossa Senhora da Boa Hora e Nossa Senhora da Conceição | marian | Матір Божа Доброї Години і Непорочне Зачаття Пресвятої Діви Марії | descriptive |  |
+| Nossa Senhora da Saúde e a de São João | marian | Матір Божа Здоров'я і святий Іван Хреститель | yes |  |
+| Nossa Senhora do Rosário e Santana | marian | Матір Божа Розарію і свята Анна | yes | yes |
 | Nossa Senhora do Livramento e São Vicente | marian | Богородиця Визволителька і святий Вікентій Сарагоський | yes | yes |
-| Nossa Senhora do Livramento e Nossa Senhora dos Varadouros | marian | Богородиця Визволителька і Богородиця Варадоурос | descriptive | yes |
-| Nossa Senhora da Estrella | marian | Богородиця Зоря | yes |  |
+| Nossa Senhora do Livramento e Nossa Senhora dos Varadouros | marian | Богородиця Визволителька і Матір Божа з Варадоуруш | descriptive | yes |
+| Nossa Senhora da Estrella | marian | Матір Божа Зірки | yes |  |
 | Senhora da Boa Morte | marian | Успіння Пресвятої Богородиці | yes |  |
-| Senhora da Piedade | marian | Пієта (Матір Божа Болісна) | yes |  |
-| Nossa Senhora dos Varadouros e Portas da cidade | marian | Богородиця з Варадоурош і Міських Брам | descriptive |  |
+| Senhora da Piedade | marian | Матір Божа Скорботна | yes |  |
+| Nossa Senhora dos Varadouros e Portas da cidade | marian | Матір Божа з Варадоуруш і Міських Брам | descriptive |  |
 
 ## 8. Institutions and bodies
 

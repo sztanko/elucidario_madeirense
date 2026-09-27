@@ -18,6 +18,11 @@ Nossa Senhora da Boa Morte:
   nl: Onze-Lieve-Vrouw van de Goede Dood
   uk: Успіння Пресвятої Богородиці
   ru: Успение Пресвятой Богородицы
+  uk_note: Fixed by the editor. This is the Dormition/Assumption devotion (15 August). The Eastern feast name is also used
+    by Greek and Latin Catholics.
+  uk_established: true
+  reviewed_by_owner:
+    uk: '2026-09-27'
 Nossa Senhora do Livramento:
   kind: marian
   devotion: Our Lady of Deliverance, invoked for rescue from danger. uk follows the rendering given in the instructions. This
@@ -34,6 +39,10 @@ Nossa Senhora do Livramento:
   nl: Onze-Lieve-Vrouw van Verlossing
   uk: Богородиця Визволителька
   ru: Богородица Избавительница
+  uk_note: Fixed by the editor. It corresponds to the Eastern icon name (rule 3).
+  uk_established: true
+  reviewed_by_owner:
+    uk: '2026-09-27'
 São Tiago:
   kind: saint
   devotion: 'St James the Greater (son of Zebedee, apostle, patron of Santiago de Compostela), as you asked. Warning: in Madeira,
@@ -91,6 +100,8 @@ Santa Maria:
   nl: Heilige Maria
   uk: Пресвята Діва Марія
   ru: Пресвятая Дева Мария
+  uk_note: Generic name of the Virgin. In Madeira it mainly refers to the parish of Santa Maria Maior (Socorro church), Funchal.
+  uk_established: true
 Santa Luzia:
   kind: saint
   devotion: St Lucy of Syracuse, virgin and martyr (died 304), patron saint of the eyes. The Funchal parish of Santa Luzia
@@ -322,8 +333,12 @@ Nossa Senhora da Piedade:
   it: Madonna della Pietà
   hu: Fájdalmas Anya (Pietà)
   nl: Piëta
-  uk: П'єта (Скорботна Богородиця)
+  uk: Матір Божа Скорботна
   ru: Пьета (Скорбящая Богоматерь)
+  reviewed_by_owner:
+    uk: '2026-09-27'
+  uk_note: Fixed by the editor. This is the Pietà (15 September).
+  uk_established: true
 Nossa Senhora do Monte:
   kind: marian
   devotion: Our Lady of the Mount, patroness of Madeira, venerated at the Monte church above Funchal. The Eastern churches
@@ -339,8 +354,10 @@ Nossa Senhora do Monte:
   it: Madonna del Monte
   hu: Monte-i Szűzanya
   nl: Onze-Lieve-Vrouw van de Berg (Monte)
-  uk: Богородиця з Монте (католицька традиція)
-  ru: Богоматерь Монте (католическая традиция)
+  uk: Матір Божа з Монте
+  ru: Богоматерь Монте
+  uk_note: Patroness of Madeira (Monte church, Funchal; 15 August). The place name is kept.
+  uk_established: false
 São Gonçalo:
   kind: saint
   devotion: Blessed Gonçalo of Amarante, a Dominican of the 13th century who is popularly called a saint. The name is also
@@ -372,8 +389,11 @@ Nossa Senhora do Calhau:
   it: Madonna del Calhau
   hu: Calhau-i Szűz Mária
   nl: Onze-Lieve-Vrouw van Calhau
-  uk: Богородиця з Каляу
+  uk: Матір Божа з Каляу
   ru: Богоматерь Калау
+  uk_note: Dedication of Funchal's first church in the Calhau quarter, forerunner of Santa Maria Maior (Socorro). The place
+    name is kept.
+  uk_established: false
 São Miguel:
   kind: saint
   devotion: 'St Michael the Archangel. He is common to both traditions: the Orthodox and Greek-Catholic Synaxis falls on 8
@@ -436,8 +456,11 @@ Nossa Senhora da Conceição:
   it: Immacolata Concezione
   hu: Szeplőtelen Fogantatás
   nl: Onbevlekte Ontvangenis van Maria
-  uk: Непорочне Зачаття Діви Марії
+  uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: Immaculate Conception, patroness of Portugal (8 December). Taken from the combined item 'Nossa Senhora da Conceição
+    e Santa Isabel'.
+  uk_established: true
 Santa Isabel:
   kind: saint
   devotion: 'Most likely St Elizabeth of Portugal (Rainha Santa Isabel). This is uncertain: it could also be St Elizabeth,
@@ -536,8 +559,10 @@ Nossa Senhora da Graça:
   it: Madonna delle Grazie
   hu: Kegyelmes Szűz Mária (Kegyelem Anyja)
   nl: Onze-Lieve-Vrouw van Genade
-  uk: Матір Божа Ласкава (Богородиця Благодатна)
+  uk: Матір Божа Благодатна
   ru: Божия Матерь Благодатная
+  uk_note: Augustinian Mater Divinae Gratiae. The alternative 'Матір Божа Ласкава' follows the Polish model.
+  uk_established: false
 Santa Sé:
   kind: institution
   devotion: The Holy See, meaning the papacy and the Apostolic See of Rome. This is not the same as 'Sé', which means cathedral,
@@ -650,8 +675,10 @@ Nossa Senhora do Amparo:
   it: Madonna del Soccorso
   hu: Oltalmazó Boldogasszony
   nl: Onze-Lieve-Vrouw van Bijstand
-  uk: Богородиця Заступниця
+  uk: Матір Божа Заступниця
   ru: Богоматерь Заступница
+  uk_note: Descriptive rendering of Our Lady of Protection (Virgen del Amparo). It is not the Orthodox Pokrov feast.
+  uk_established: false
 Santíssimo Sacramento:
   kind: christological
   devotion: 'The Eucharist, reserved and adored as the Blessed Sacrament. In Madeira it was the focus of the Irmandades do
@@ -738,8 +765,11 @@ Nossa Senhora da Estrela:
   it: Madonna della Stella
   hu: Csillagos Boldogasszony
   nl: Onze-Lieve-Vrouw van de Ster
-  uk: Богородиця Зірка
+  uk: Матір Божа Зірки
   ru: Богоматерь Звезда
+  uk_note: Our Lady of the Star, related to Stella Maris (Catholic 'Зоря Моря'). The chapel is at Calheta, where Estrela is
+    also a place name.
+  uk_established: false
 Nossa Senhora do Rosário:
   kind: marian
   devotion: 'Our Lady of the Rosary, a Dominican devotion linked to the victory at Lepanto. Madeira had Rosary confraternities,
@@ -755,8 +785,11 @@ Nossa Senhora do Rosário:
   it: Beata Vergine del Rosario
   hu: Rózsafüzér Királynője
   nl: Onze-Lieve-Vrouw van de Rozenkrans
-  uk: Богородиця Вервиці
+  uk: Матір Божа Розарію
   ru: Богоматерь Розария
+  uk_note: Latin-rite form (7 October). The Greek Catholic form 'Богородиця Вервиці' is not used under this convention. Rosário
+    is also a parish in São Vicente.
+  uk_established: true
 Santo António do Funchal:
   kind: saint
   devotion: This is mainly the name of Santo António parish in Funchal, whose patron is St Anthony of Padua. The Portuguese
@@ -825,8 +858,10 @@ Nossa Senhora da Penha de França:
   it: Madonna della Peña de Francia
   hu: Peña de Francia-i Boldogasszony
   nl: Onze-Lieve-Vrouw van de Peña de Francia
-  uk: Богородиця з Пенья-де-Франсія
+  uk: Матір Божа з Пенья-де-Франсія
   ru: Богоматерь Пенья-де-Франсия
+  uk_note: From the Peña de Francia shrine near Salamanca. Penha de França is also a chapel and locality in Funchal.
+  uk_established: false
 São Bernardino:
   kind: saint
   devotion: 'St Bernardino of Siena, a Franciscan preacher of the Holy Name. In Madeira the name is tied to the Franciscan
@@ -859,6 +894,8 @@ Santíssima Virgem:
   nl: Heilige Maagd Maria
   uk: Пресвята Діва Марія
   ru: Пресвятая Дева Мария
+  uk_note: Generic title. The Eastern equivalent is 'Пресвята Богородиця'.
+  uk_established: true
 Nossa Senhora da Consolação:
   kind: marian
   devotion: Our Lady of Consolation (Consolatrix Afflictorum), an Augustinian devotion. In uk and ru the names follow Catholic
@@ -873,8 +910,10 @@ Nossa Senhora da Consolação:
   it: Madonna della Consolazione (Consolata)
   hu: Vigasztaló Boldogasszony
   nl: Onze-Lieve-Vrouw van Troost
-  uk: Богородиця Утішителька
+  uk: Матір Божа Утішителька
   ru: Богоматерь Утешительница
+  uk_note: Augustinian Consolatrix Afflictorum. The Eastern icon 'Отрада і Утіха' (Vatopedi) is a separate devotion.
+  uk_established: false
 Santo Servo de Deus:
   kind: saint
   devotion: In Funchal this was the popular name for Friar Pedro da Guarda (died 1505), a Franciscan lay brother at the Friary
@@ -923,8 +962,10 @@ Nossa Senhora das Preces:
   it: Madonna delle Preghiere
   hu: Imádságok Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Gebeden
-  uk: Богородиця Молитов (католицька традиція)
-  ru: Богоматерь Молитв (католическая традиция)
+  uk: Матір Божа Молитов
+  ru: Богоматерь Молитв
+  uk_note: Local title of the chapel at Preces, Câmara de Lobos. Descriptive rendering.
+  uk_established: false
 São Bartolomeu:
   kind: saint
   devotion: St Bartholomew the Apostle.
@@ -986,8 +1027,10 @@ Nossa Senhora do Bom Sucesso:
   it: Madonna del Buon Successo
   hu: Jó Siker Boldogasszonya
   nl: Onze-Lieve-Vrouw van Goed Succes
-  uk: Богородиця Доброго Успіху (католицька традиція)
-  ru: Богоматерь Доброго Успеха (католическая традиция)
+  uk: Матір Божа Доброго Успіху
+  ru: Богоматерь Доброго Успеха
+  uk_note: Iberian title (Buen Suceso; Minims, Quito). Also the name of the Bom Sucesso area in Funchal.
+  uk_established: false
 Nossa Senhora da Incarnação:
   kind: marian
   devotion: Our Lady of the Incarnation, which is the Annunciation. For uk and ru, both the Eastern and the Latin traditions
@@ -1004,6 +1047,8 @@ Nossa Senhora da Incarnação:
   nl: Maria-Boodschap
   uk: Благовіщення Пресвятої Богородиці
   ru: Благовещение Пресвятой Богородицы
+  uk_note: The title of the Incarnation denotes the Annunciation mystery (25 March).
+  uk_established: true
 Santo Oficio:
   kind: institution
   devotion: '''Santo Ofício'' in standard spelling: the Holy Office, i.e. the Inquisition. In Madeira this refers to the Portuguese
@@ -1050,8 +1095,11 @@ Nossa Senhora da Conceição do Ilhéu:
   it: Madonna dell'Immacolata Concezione (forte dell'Isolotto, Funchal)
   hu: Szeplőtelen Fogantatás (Funchali szigeterőd)
   nl: Onbevlekte Ontvangenis van Maria (fort op het eilandje, Funchal)
-  uk: Непорочне зачаття Діви Марії (католицька традиція; форт на острівці, Фуншал)
-  ru: Непорочное зачатие Девы Марии (католическая традиция; форт на островке, Фуншал)
+  uk: Непорочне Зачаття Пресвятої Діви Марії з Ільєу
+  ru: Непорочное зачатие Девы Марии
+  uk_note: Refers mainly to the Fortaleza do Ilhéu, the fort on the islet in Funchal harbour. 'Ilhéu' means 'islet'. The core
+    feast name is established.
+  uk_established: false
 São Gil:
   kind: saint
   devotion: St Giles (Aegidius), 7th/8th-century hermit and abbot in Provence, patron of cripples and beggars. Latin Catholic
@@ -1066,8 +1114,8 @@ São Gil:
   it: sant'Egidio abate
   hu: Szent Egyed
   nl: Sint-Gillis (Egidius)
-  uk: святий Егідій (католицька традиція)
-  ru: святой Эгидий (католическая традиция)
+  uk: святий Егідій
+  ru: святой Эгидий
 Nossa Senhora dos Remédios:
   kind: marian
   devotion: Our Lady of Remedies (Virgen de los Remedios). A Trinitarian Marian devotion linked to the ransoming of captives,
@@ -1083,8 +1131,11 @@ Nossa Senhora dos Remédios:
   it: Madonna del Rimedio
   hu: Gyógyító Boldogasszony
   nl: Onze Lieve Vrouw van de Remedie
-  uk: Матір Божа Лікування (католицька традиція)
-  ru: Богоматерь Исцеления (католическая традиция)
+  uk: Матір Божа Доброго Ліку
+  ru: Богоматерь Исцеления
+  uk_note: Trinitarian devotion (8 October), close to 'Bom Remédio'. The Eastern icon 'Цілителька' is a different image and
+    is not used.
+  uk_established: false
 São Marítimo:
   kind: saint
   devotion: I could not identify this saint. The name does not match any saint in standard martyrologies. It is probably a
@@ -1118,6 +1169,8 @@ Nossa Senhora das Angústias:
   nl: Onze-Lieve-Vrouw van Smarten
   uk: Матір Божа Болісна
   ru: Скорбящая Богоматерь
+  uk_note: Same devotion as Our Lady of Sorrows (15 September). The fragment 'e oeste' was removed.
+  uk_established: true
 Santo Antão:
   kind: saint
   devotion: St Anthony the Great (Anthony Abbot, Anthony of Egypt), father of monasticism. He is venerated in both East and
@@ -1148,8 +1201,8 @@ São Luiz:
   it: san Luigi IX di Francia
   hu: Szent IX. Lajos
   nl: Lodewijk IX de Heilige
-  uk: святий Людовик IX (католицька традиція)
-  ru: Людовик IX Святой (католическая традиция)
+  uk: святий Людовик IX
+  ru: Людовик IX Святой
 São João de Latrão:
   kind: institution
   devotion: 'St John Lateran: a dedication taken from the Archbasilica of St John Lateran in Rome. The basilica is dedicated
@@ -1165,8 +1218,8 @@ São João de Latrão:
   it: San Giovanni in Laterano
   hu: Lateráni Szent János
   nl: Sint-Jan van Lateranen
-  uk: святий Іван Латеранський / Латеранська базиліка (католицька традиція)
-  ru: Святой Иоанн Латеранский / Латеранская базилика (католическая традиция)
+  uk: святий Іван Латеранський / Латеранська базиліка
+  ru: Святой Иоанн Латеранский / Латеранская базилика
 Nossa Senhora do Faial:
   kind: marian
   devotion: A local Madeiran title for the old Marian image of Faial parish (Santana), celebrated on the Nativity of Mary.
@@ -1182,8 +1235,10 @@ Nossa Senhora do Faial:
   it: Nostra Signora di Faial
   hu: Faiali Boldogasszony
   nl: Onze Lieve Vrouw van Faial
-  uk: Богоматір з Фаяла (католицька традиція)
-  ru: Богоматерь Фаялская (католическая традиция)
+  uk: Матір Божа з Фаяла
+  ru: Богоматерь Фаялская
+  uk_note: Image of Faial parish (Santana), celebrated on the Nativity of Mary (8 September).
+  uk_established: false
 Nossa Senhora das Mercês:
   kind: marian
   devotion: Our Lady of Mercy (Our Lady of Ransom), the Mercedarian devotion. This is a Latin devotion; the uk/ru forms are
@@ -1198,8 +1253,10 @@ Nossa Senhora das Mercês:
   it: Madonna della Mercede
   hu: Fogolykiváltó Boldogasszony
   nl: Onze Lieve Vrouw van Barmhartigheid (van Merced)
-  uk: Матір Божа Милосердя (Мерседаріїв; католицька традиція)
+  uk: Матір Божа Милосердя
   ru: Богородица Милосердия (Мерседарии; католическая традиция)
+  uk_note: Mercedarian Our Lady of Mercy/Ransom (24 September). Distinct from the Ostra Brama 'Mother of Mercy'.
+  uk_established: false
 São Bento:
   kind: saint
   devotion: St Benedict of Nursia, patriarch of Western monasticism. The feast was 21 March in the pre-1969 calendar and is
@@ -1246,8 +1303,10 @@ Nossa Senhora da Nazaré:
   it: Nostra Signora di Nazaré
   hu: Nazaréi Boldogasszony
   nl: Onze Lieve Vrouw van Nazaré
-  uk: Богоматір з Назаре (католицька традиція)
-  ru: Богоматерь из Назаре (католическая традиция)
+  uk: Матір Божа з Назаре
+  ru: Богоматерь из Назаре
+  uk_note: Shrine at Nazaré (Leiria), Portugal. Feast 8 September.
+  uk_established: false
 Nossa Senhora da Luz:
   kind: marian
   devotion: Our Lady of Light, an Iberian Marian title linked to Candlemas and the Nativity of Mary. In Portugal the best-known
@@ -1263,8 +1322,10 @@ Nossa Senhora da Luz:
   it: Madonna della Luce
   hu: Fény Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Licht
-  uk: Богородиця Світла (катол.)
-  ru: Богоматерь Света (катол.)
+  uk: Матір Божа Світла
+  ru: Богоматерь Света
+  uk_note: Iberian title. Patroness of Ponta do Sol parish church. Feast 8 September (sometimes 2 February).
+  uk_established: false
 Nossa Senhora da Vida:
   kind: marian
   devotion: Our Lady of Life, a local Portuguese Marian title with no standard form in other languages. In Madeira there is
@@ -1279,8 +1340,10 @@ Nossa Senhora da Vida:
   it: Madonna della Vita
   hu: Az Élet Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Leven
-  uk: Богородиця Життя (катол., описово)
+  uk: Матір Божа Життя
   ru: Богоматерь Жизни (катол., описательно)
+  uk_note: Local title (chapel at Fajã do Mar, Calheta). Descriptive rendering.
+  uk_established: false
 Santo André:
   kind: saint
   devotion: St Andrew the Apostle, brother of Peter. uk/ru use the shared Eastern and Catholic form 'the First-Called' (Первозванний).
@@ -1326,8 +1389,10 @@ Nossa Senhora das Neves:
   it: Madonna della Neve
   hu: Havas Boldogasszony
   nl: Onze-Lieve-Vrouw ter Sneeuw
-  uk: Богородиця Снігова
+  uk: Матір Божа Снігова
   ru: Богоматерь Снежная
+  uk_note: Dedication of Santa Maria Maggiore (5 August). Neves is also a sítio in São Gonçalo, Funchal.
+  uk_established: true
 Nossa Senhora da Ajuda:
   kind: marian
   devotion: Our Lady of Help, a Portuguese title close to the Mariahilf (Maria auxiliatrix) devotion. Ajuda is also a site
@@ -1342,8 +1407,10 @@ Nossa Senhora da Ajuda:
   it: Madonna dell'Aiuto
   hu: Segítő Szűz Mária (Máriahilf)
   nl: Maria Hulp
-  uk: Богородиця Помічниця (катол.)
-  ru: Богоматерь Помощница (катол.)
+  uk: Матір Божа Помічниця
+  ru: Богоматерь Помощница
+  uk_note: Close to Mariahilf/Auxiliatrix. Ajuda is also a site in São Martinho, Funchal.
+  uk_established: false
 Nossa Senhora das Dores:
   kind: marian
   devotion: Our Lady of Sorrows (Mater Dolorosa), the Seven Sorrows of Mary. uk/ru use Catholic usage; the nearest Eastern
@@ -1358,8 +1425,10 @@ Nossa Senhora das Dores:
   it: Beata Vergine Maria Addolorata
   hu: Fájdalmas Szűzanya
   nl: Onze-Lieve-Vrouw van Smarten
-  uk: Скорботна Богородиця (Mater Dolorosa, катол.)
+  uk: Матір Божа Болісна
   ru: Скорбящая Божия Матерь (Mater Dolorosa, катол.)
+  uk_note: Mater Dolorosa, the Seven Sorrows (15 September). The nearest Eastern parallel is the Семистрільна icon.
+  uk_established: true
 Nossa Senhora do Socorro:
   kind: marian
   devotion: Our Lady of Succour (Madonna del Soccorso). This is distinct from Our Lady of Perpetual Help. The Funchal church
@@ -1375,8 +1444,11 @@ Nossa Senhora do Socorro:
   it: Madonna del Soccorso
   hu: Oltalmazó Boldogasszony (a Segítség Szűzanyja)
   nl: Onze-Lieve-Vrouw van Bijstand
-  uk: Богородиця Заступниця (Допомоги) (катол.)
-  ru: Богоматерь Заступница (Помощи) (катол.)
+  uk: Матір Божа Помочі
+  ru: Богоматерь Заступница (Помощи)
+  uk_note: Mater de Succursu / Madonna del Soccorso. Distinct from Perpetual Help (Неустанної Помочі). It is also the popular
+    name of the Santa Maria Maior church in Funchal.
+  uk_established: false
 Nossa Senhora dos Prazeres:
   kind: marian
   devotion: Our Lady of the Joys, the same devotion as the Seven Joys of Mary. In uk and ru the names follow Catholic usage.
@@ -1391,8 +1463,10 @@ Nossa Senhora dos Prazeres:
   it: Madonna delle Sette Gioie
   hu: Szűz Mária hét öröme
   nl: Zeven Vreugden van Maria
-  uk: Сім радощів Діви Марії
+  uk: Матір Божа Радощів
   ru: Семь радостей Девы Марии
+  uk_note: Linked to the Seven Joys of Mary. Feast on the Monday after Low Sunday. Prazeres is also a parish in Calheta.
+  uk_established: false
 Nossa Senhora da Quietação:
   kind: marian
   devotion: Our Lady of Quietude (Tranquillity), a rare Portuguese title of Poor Clare origin, as at the Flamengas monastery
@@ -1407,8 +1481,10 @@ Nossa Senhora da Quietação:
   it: Madonna della Quiete
   hu: A Csend Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Stilte
-  uk: Богородиця Спокою (катол., описово)
+  uk: Матір Божа Спокою
   ru: Богоматерь Покоя (катол., описательно)
+  uk_note: Rare title of Poor Clare origin (Flamengas, Lisbon). Coined rendering.
+  uk_established: false
 São Roque do Funchal:
   kind: saint
   devotion: This is mainly the name of the parish of São Roque in Funchal. Its patron is St Roch of Montpellier, protector
@@ -1440,8 +1516,10 @@ Nossa Senhora dos Anjos:
   it: Santa Maria degli Angeli
   hu: Angyalos Boldogasszony
   nl: Onze-Lieve-Vrouw van de Engelen
-  uk: Богородиця Ангелів (катол.)
-  ru: Богоматерь Ангелов (катол.)
+  uk: Матір Божа Ангельська
+  ru: Богоматерь Ангелов
+  uk_note: Franciscan Portiuncula title (2 August). There is a chapel at Anjos, Canhas (Ponta do Sol).
+  uk_established: true
 Nossa Senhora da Apresentação:
   kind: marian
   devotion: The Presentation of the Blessed Virgin Mary in the Temple. uk/ru use the shared Eastern and Catholic feast of
@@ -1458,6 +1536,8 @@ Nossa Senhora da Apresentação:
   nl: Opdracht van Maria in de tempel
   uk: Введення в храм Пресвятої Богородиці
   ru: Введение во храм Пресвятой Богородицы
+  uk_note: Presentation of the BVM (21 November), a feast shared by East and West.
+  uk_established: true
 Nossa Senhora das Brotas:
   kind: marian
   devotion: A local Portuguese Marian devotion from the Brotas shrine (Mora, Alentejo), with a legend of a cowherd and an
@@ -1473,8 +1553,10 @@ Nossa Senhora das Brotas:
   it: Madonna di Brotas
   hu: Brotasi Boldogasszony
   nl: Onze-Lieve-Vrouw van Brotas
-  uk: Богородиця з Броташ
+  uk: Матір Божа з Броташ
   ru: Богоматерь из Броташа
+  uk_note: Shrine at Brotas (Mora, Alentejo). The place name is kept.
+  uk_established: false
 Nossa Senhora da Boa Hora:
   kind: marian
   devotion: A Portuguese and Spanish invocation (Virgen de la Buena Hora) of the Virgin for a good childbirth and a good hour
@@ -1490,8 +1572,11 @@ Nossa Senhora da Boa Hora:
   it: Madonna della Buona Ora
   hu: Jó Óra Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Goede Uur
-  uk: Богородиця Доброї Години
+  uk: Матір Божа Доброї Години
   ru: Богоматерь Доброго Часа
+  uk_note: Invoked for safe childbirth and a good death. The Eastern icon 'Помічниця в пологах' is a different image and is
+    not used.
+  uk_established: false
 Nossa Senhora de Belém:
   kind: marian
   devotion: Our Lady of Bethlehem, the Virgin shown with the newborn Christ. It is linked to Christmas and the Nativity and,
@@ -1507,8 +1592,10 @@ Nossa Senhora de Belém:
   it: Madonna di Betlemme
   hu: Betlehemi Boldogasszony
   nl: Onze-Lieve-Vrouw van Bethlehem
-  uk: Вифлеємська ікона Божої Матері
+  uk: Матір Божа Вифлеємська
   ru: Вифлеемская икона Божией Матери
+  uk_note: Belém means Bethlehem. The title is also linked to Santa Maria de Belém, Lisbon.
+  uk_established: true
 Nossa Senhora do Carmo:
   kind: marian
   devotion: Our Lady of Mount Carmel, patroness of the Carmelites and of the Brown Scapular. uk/ru use Latin Catholic naming,
@@ -1523,8 +1610,10 @@ Nossa Senhora do Carmo:
   it: Beata Vergine Maria del Monte Carmelo (Madonna del Carmine)
   hu: Kármelhegyi Boldogasszony
   nl: Onze-Lieve-Vrouw van de Berg Karmel
-  uk: Пресвята Діва Марія з гори Кармель
+  uk: Матір Божа з гори Кармель
   ru: Пресвятая Дева Мария с горы Кармель
+  uk_note: Carmelite title and Brown Scapular (16 July). The popular alternative is 'Матір Божа Шкаплерна'.
+  uk_established: true
 Senhor dos Passos:
   kind: christological
   devotion: An image of Christ carrying the Cross on the way to Calvary, carried in the Lenten Procession of the Steps (Procissão
@@ -1558,8 +1647,10 @@ Nossa Senhora da Alegria:
   it: Madonna dell'Allegrezza
   hu: Öröm Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Vreugde
-  uk: Богородиця Радості
+  uk: Матір Божа Радості
   ru: Богоматерь Радости
+  uk_note: Portuguese folk title. Not to be confused with the Eastern icon 'Всіх скорботних Радість'.
+  uk_established: false
 Nossa Senhora do Loreto:
   kind: marian
   devotion: Our Lady of Loreto (the Holy House of Loreto). The input 'Senhora do Loreto' is a short form. In uk and ru this
@@ -1574,8 +1665,10 @@ Nossa Senhora do Loreto:
   it: Madonna di Loreto
   hu: Loretói Szűz Mária
   nl: Onze-Lieve-Vrouw van Loreto
-  uk: Лоретська Богородиця
+  uk: Лоретська Матір Божа
   ru: Лоретская Богоматерь
+  uk_note: Holy House of Loreto (10 December).
+  uk_established: true
 São Cristovão:
   kind: saint
   devotion: St Christopher, martyr, patron of travellers and drivers. He is a saint in both the Catholic and Orthodox traditions.
@@ -1605,8 +1698,10 @@ Nossa Senhora do Desterro:
   it: Madonna della Fuga in Egitto
   hu: Egyiptomba menekülő Szűz Mária
   nl: Onze-Lieve-Vrouw van de Vlucht naar Egypte
-  uk: Богородиця у Втечі до Єгипту
+  uk: Матір Божа Вигнання
   ru: Богоматерь Бегства в Египет
+  uk_note: Refers to the Flight into Egypt (Втеча до Єгипту). Descriptive rendering.
+  uk_established: false
 Nossa Senhora da Soledade:
   kind: marian
   devotion: 'Our Lady of Solitude: the grieving Virgin alone after the burial of Christ, a devotion of the Iberian and Latin
@@ -1622,8 +1717,10 @@ Nossa Senhora da Soledade:
   it: Madonna della Solitudine
   hu: Fájdalmas Anya (a magányos Szűzanya)
   nl: Onze-Lieve-Vrouw van de Eenzaamheid
-  uk: Богородиця Самотності
+  uk: Матір Божа Самотності
   ru: Богоматерь Одиночества
+  uk_note: Iberian Passiontide devotion (Holy Saturday), close to Our Lady of Sorrows.
+  uk_established: false
 Nossa Senhora da Natividade:
   kind: marian
   devotion: The Nativity of the Blessed Virgin Mary, a feast shared by the Latin and Byzantine traditions.
@@ -1639,6 +1736,8 @@ Nossa Senhora da Natividade:
   nl: Maria-Geboorte
   uk: Різдво Пресвятої Богородиці
   ru: Рождество Пресвятой Богородицы
+  uk_note: Nativity of the BVM (8 September).
+  uk_established: true
 São Julião da Barra:
   kind: other
   devotion: This is mainly the name of a fortress, the Forte de São Julião da Barra at the mouth of the Tagus in Oeiras, near
@@ -1672,8 +1771,10 @@ Nossa Senhora da Paz:
   it: Nostra Signora della Pace (Regina della Pace)
   hu: Béke Királynője
   nl: Onze-Lieve-Vrouw van de Vrede
-  uk: Цариця Миру (Богородиця Миру, catholic usage)
-  ru: Царица Мира (Богородица Мира, catholic usage)
+  uk: Матір Божа Миру
+  ru: Царица Мира (Богородица Мира
+  uk_note: Also Regina Pacis, 'Цариця Миру'. Feast 24 January (9 July in some places).
+  uk_established: false
 Nossa Senhora da Esperança:
   kind: marian
   devotion: Our Lady of Hope. In Portugal this is often the Expectation of the Birth of Our Lord (Our Lady of the O). The
@@ -1690,6 +1791,8 @@ Nossa Senhora da Esperança:
   nl: Onze-Lieve-Vrouw van Hoop
   uk: Матір Божа Надії
   ru: Богоматерь Надежды
+  uk_note: In Portugal often the Expectation of the Birth (Our Lady of the O), 18 December.
+  uk_established: false
 Nossa Senhora de Guadalupe:
   kind: marian
   devotion: Our Lady of Guadalupe. The main devotion is the Mexican apparition of 1531. There is also the older Spanish image
@@ -1704,8 +1807,10 @@ Nossa Senhora de Guadalupe:
   it: Nostra Signora di Guadalupe
   hu: Guadalupei Szűz Mária
   nl: Onze-Lieve-Vrouw van Guadalupe
-  uk: Богородиця Гваделупська
+  uk: Матір Божа Гваделупська
   ru: Гваделупская Дева Мария
+  uk_note: Mexican apparition of 1531 (12 December). There is also the older image in Extremadura.
+  uk_established: true
 São Clemente:
   kind: saint
   devotion: Pope St Clement I (St Clement of Rome), martyr. He is honoured in both the Latin and Eastern traditions.
@@ -1799,8 +1904,10 @@ Nossa Senhora da Vitoria:
   it: Madonna della Vittoria
   hu: Győzelmes Boldogasszony
   nl: Onze-Lieve-Vrouw van de Overwinning
-  uk: Богородиця Переможна (catholic usage)
-  ru: Богоматерь Победительница (catholic usage)
+  uk: Матір Божа Переможна
+  ru: Богоматерь Победительница
+  uk_note: Our Lady of Victory (Lepanto, Rosary), 7 October. The spelling without an accent is kept from the source.
+  uk_established: false
 Senhora da Conceição:
   kind: marian
   devotion: The Immaculate Conception (Nossa Senhora da Conceição), patroness of Portugal. This is a Latin dogma. The uk/ru
@@ -1818,6 +1925,8 @@ Senhora da Conceição:
   nl: Onbevlekte Ontvangenis van Maria
   uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: Short form of Nossa Senhora da Conceição (8 December). Not the Orthodox Conception by St Anne (9 December).
+  uk_established: true
 Nossa Senhora do Pópulo:
   kind: marian
   devotion: Our Lady del Popolo, after Santa Maria del Popolo in Rome and its icon, the Madonna del Popolo. There is no general
@@ -1832,8 +1941,10 @@ Nossa Senhora do Pópulo:
   it: Madonna del Popolo
   hu: Popolói Szűz Mária
   nl: Onze-Lieve-Vrouw del Popolo
-  uk: Мадонна дель Пополо
+  uk: Матір Божа дель Пополо
   ru: Мадонна дель Пополо
+  uk_note: After the Madonna del Popolo icon (Santa Maria del Popolo, Rome). The Roman proper name is kept.
+  uk_established: false
 São Caetano:
   kind: saint
   devotion: St Cajetan (Gaetano dei Conti di Thiene, 1480–1547), co-founder of the Theatines, invoked as patron of Providence,
@@ -1848,8 +1959,8 @@ São Caetano:
   it: San Gaetano Thiene
   hu: Thienei Szent Kajetán
   nl: Heilige Cajetanus van Thiene
-  uk: святий Каетан Тієнський (катол.)
-  ru: святой Каэтан Тиенский (катол.)
+  uk: святий Каетан Тієнський
+  ru: святой Каэтан Тиенский
 São Cristóvão:
   kind: saint
   devotion: St Christopher, 3rd-century martyr and patron of travellers. He is honoured in both the Latin and Eastern traditions,
@@ -1882,8 +1993,10 @@ Nossa Senhora das Maravilhas:
   it: Madonna delle Meraviglie
   hu: Csodák Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Wonderen
-  uk: Богородиця Дивовижна (Матір Божа Чудес)
+  uk: Матір Божа Див
   ru: Богоматерь Дивная (Богоматерь Чудес)
+  uk_note: Chapel in São Pedro, Funchal (1657). Not Mater Admirabilis. Kept distinct from Milagres ('Чудес').
+  uk_established: false
 Nossa Senhora dos Milagres:
   kind: marian
   devotion: Our Lady of Miracles, a widespread Iberian and Italian title (Madonna dei Miracoli). Don't confuse it with Machico's
@@ -1899,8 +2012,10 @@ Nossa Senhora dos Milagres:
   it: Madonna dei Miracoli
   hu: Csodatevő Szűz Mária
   nl: Onze-Lieve-Vrouw van Mirakel
-  uk: Богородиця Чудотворна
+  uk: Матір Божа Чудес
   ru: Богоматерь Чудотворная
+  uk_note: Madonna dei Miracoli. Not to be confused with Machico's 'Senhor dos Milagres' (a Christ devotion).
+  uk_established: false
 São Nicolau:
   kind: saint
   devotion: St Nicholas of Myra (Bari), bishop and wonder-worker, venerated in both East and West.
@@ -1930,8 +2045,10 @@ Nossa Senhora da Salvação:
   it: Madonna della Salvezza
   hu: Üdvösség Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Heil
-  uk: Богородиця Спасіння
+  uk: Матір Божа Спасіння
   ru: Богоматерь Спасения
+  uk_note: Portuguese title. Distinct from Salus Populi Romani.
+  uk_established: false
 Nossa Senhora das Virtudes:
   kind: marian
   devotion: Our Lady of Virtues/Powers. Parallels are Notre-Dame des Vertus (Aubervilliers) and Madonna delle Virtù (Italy).
@@ -1946,8 +2063,10 @@ Nossa Senhora das Virtudes:
   it: Madonna delle Virtù
   hu: Erények Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Deugden
-  uk: Богородиця Чеснот
+  uk: Матір Божа Чеснот
   ru: Богоматерь Добродетелей
+  uk_note: Parallels are Notre-Dame des Vertus and Madonna delle Virtù. Chapel and sítio das Virtudes in São Martinho, Funchal.
+  uk_established: false
 São Luís:
   kind: saint
   devotion: 'Most likely St Louis IX, King of France. It is ambiguous: it could also mean St Aloysius Gonzaga (São Luís Gonzaga,
@@ -1962,8 +2081,8 @@ São Luís:
   it: San Luigi IX di Francia
   hu: IX. (Szent) Lajos
   nl: Heilige Lodewijk IX
-  uk: святий Людовік IX (катол.)
-  ru: Людовик IX Святой (катол.)
+  uk: святий Людовік IX
+  ru: Людовик IX Святой
 Santa Barbara:
   kind: saint
   devotion: St Barbara, virgin and martyr, patron against lightning and of artillerymen and miners. Venerated in both East
@@ -1994,8 +2113,8 @@ São Cândido:
   it: San Candido
   hu: Szent Kandidusz
   nl: Heilige Candidus
-  uk: святий Кандид (катол.)
-  ru: святой Кандид (катол.)
+  uk: святий Кандид
+  ru: святой Кандид
 Santa Cruz de Tenerife:
   kind: other
   devotion: 'A city: the capital of Tenerife in the Canary Islands, Spain, not a devotion. It is named after the Holy Cross
@@ -2026,8 +2145,8 @@ São Fernando:
   it: San Ferdinando III di Castiglia
   hu: III. (Szent) Ferdinánd kasztíliai király
   nl: Heilige Ferdinand III van Castilië
-  uk: святий Фердинанд III Кастильський (катол.)
-  ru: Фердинанд III Святой, король Кастилии (катол.)
+  uk: святий Фердинанд III Кастильський
+  ru: Фердинанд III Святой, король Кастилии
 São Carlos:
   kind: saint
   devotion: This is most likely St Charles Borromeo (1538–1584), Archbishop of Milan and the standard 'São Carlos' in Portuguese
@@ -2125,8 +2244,10 @@ Nossa Senhora da Cadeira:
   it: Madonna della Seggiola
   hu: Madonna della Seggiola (Széken ülő Madonna)
   nl: Madonna della Seggiola
-  uk: Мадонна в кріслі
+  uk: Матір Божа в Кріслі
   ru: Мадонна в кресле
+  uk_note: Enthroned Virgin and Child. The art-historical term for Raphael's painting is 'Мадонна в кріслі'.
+  uk_established: false
 Nossa Senhora das Vitorias:
   kind: marian
   devotion: Our Lady of Victories, which is tied to the Rosary and the victory at Lepanto. The best-known shrine is Notre-Dame
@@ -2141,8 +2262,11 @@ Nossa Senhora das Vitorias:
   it: Nostra Signora delle Vittorie
   hu: Győzelmes Boldogasszony
   nl: Onze-Lieve-Vrouw van de Overwinning
-  uk: Матір Божа Переможна
+  uk: Матір Божа Перемог
   ru: Богоматерь Победы
+  uk_note: Our Lady of Victories (cf. Notre-Dame des Victoires, Paris), 7 October. The plural is kept distinct from Vitória
+    ('Переможна').
+  uk_established: false
 São Francisco de Salles:
   kind: saint
   devotion: St Francis de Sales (1567–1622), Bishop of Geneva and Doctor of the Church. The uk/ru forms are Catholic.
@@ -2188,8 +2312,10 @@ Nossa Senhora do Rosario:
   it: Beata Vergine del Rosario
   hu: Rózsafüzér Királynője
   nl: Onze-Lieve-Vrouw van de Rozenkrans
-  uk: Пресвята Богородиця Вервиці
+  uk: Матір Божа Розарію
   ru: Пресвятая Дева Мария Розария
+  uk_note: Spelling variant of Nossa Senhora do Rosário (7 October).
+  uk_established: true
 Nossa Senhora da Glória:
   kind: marian
   devotion: 'Our Lady of Glory, the Portuguese popular title for Mary taken up into heavenly glory, linked to the Assumption.
@@ -2205,8 +2331,10 @@ Nossa Senhora da Glória:
   it: Madonna della Gloria
   hu: Dicsőséges Szűz Mária (Nagyboldogasszony)
   nl: Onze-Lieve-Vrouw in de Glorie
-  uk: Внебовзяття Пресвятої Діви Марії (Богородиця Слави)
+  uk: Матір Божа Слави
   ru: Взятие Пресвятой Девы Марии на небо (Богоматерь Славы)
+  uk_note: Popular title for Mary in heavenly glory, linked to the Assumption (Внебовзяття Пресвятої Діви Марії), 15 August.
+  uk_established: false
 São Fischer:
   kind: saint
   devotion: This is uncertain and may be an extraction error. The only candidate saint is St John Fisher, Bishop of Rochester
@@ -2274,8 +2402,10 @@ Nossa Senhora do Monte e S:
   it: Nostra Signora del Monte
   hu: Monte-i Boldogasszony
   nl: Onze-Lieve-Vrouw van Monte
-  uk: Богоматір з Монте (Мадейра)
+  uk: Матір Божа з Монте
   ru: Богоматерь Монте (Мадейра)
+  uk_note: Truncated fragment; a second patron after 'e S…' is lost. Patroness of Madeira.
+  uk_established: false
 São Pontif:
   kind: institution
   devotion: A cut-off form. It is most likely an OCR or abbreviation error for 'Sumo Pontífice' (the Supreme Pontiff, i.e.
@@ -2307,8 +2437,10 @@ Nossa Senhora da Porciuncula:
   it: Santa Maria degli Angeli della Porziuncola
   hu: Angyalos Boldogasszony (Porciunkula)
   nl: Onze-Lieve-Vrouw van de Engelen (Portiuncula)
-  uk: Пресвята Діва Марія Ангельська (Порціюнкула)
+  uk: Матір Божа Ангельська з Порціюнкули
   ru: Пресвятая Дева Мария Ангельская (Порциункула)
+  uk_note: St Francis's chapel near Assisi (2 August). Typical of Franciscan houses in Madeira.
+  uk_established: true
 São Bernardino de Sena:
   kind: saint
   devotion: St Bernardine of Siena (1380–1444), Franciscan preacher and promoter of devotion to the Holy Name of Jesus. Ukrainian
@@ -2387,8 +2519,10 @@ Nossa Senhora do Monte do Carmo:
   it: Beata Vergine Maria del Monte Carmelo (Madonna del Carmine)
   hu: Kármelhegyi Boldogasszony
   nl: Onze-Lieve-Vrouw van de Berg Karmel
-  uk: Пресвята Діва Марія з гори Кармель
+  uk: Матір Божа з гори Кармель
   ru: Пресвятая Дева Мария горы Кармель
+  uk_note: Full form of Nossa Senhora do Carmo (16 July).
+  uk_established: true
 Nossa Senhora de Cima:
   kind: marian
   devotion: A local Marian title meaning 'Our Lady from Above' (of the upper chapel or upper site). It most likely refers
@@ -2405,8 +2539,10 @@ Nossa Senhora de Cima:
   it: Nostra Signora 'de Cima' (di sopra)
   hu: '''De Cima'' Boldogasszony (Felső Boldogasszony)'
   nl: Onze-Lieve-Vrouw 'de Cima' (van boven)
-  uk: Богоматір «де Сіма» (Горішня)
+  uk: Матір Божа Горішня
   ru: Богоматерь «ди Сима» (Верхняя)
+  uk_note: '''Of the upper chapel/site'', set against a lower one (''de Baixo''). The chapel is unconfirmed. Descriptive rendering.'
+  uk_established: false
 São Pontífice:
   kind: institution
   devotion: '''São Pontífice'' is not a saint''s name. It is most likely a misreading of ''Sumo Pontífice'' (the Supreme Pontiff,
@@ -2455,8 +2591,10 @@ Senhora da Luz:
   it: Madonna della Luce
   hu: Világosság Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Licht
-  uk: Богородиця Світла (католицька назва)
+  uk: Матір Божа Світла
   ru: Богоматерь Света (католическое наименование)
+  uk_note: Short form of Nossa Senhora da Luz. Patroness of Ponta do Sol parish church.
+  uk_established: false
 Santo António da Ilha:
   kind: saint
   devotion: St Anthony of Padua (born in Lisbon), with the local qualifier 'of the Island', meaning Madeira. The qualifier
@@ -2507,6 +2645,8 @@ Nossa Senhora do Livramento e que:
   nl: Onze-Lieve-Vrouw van de Verlossing
   uk: Богородиця Визволителька
   ru: Богородица Избавительница
+  uk_note: The fragment 'e que' was removed. Same as Nossa Senhora do Livramento.
+  uk_established: true
 Nossa Senhora da Anunciação:
   kind: marian
   devotion: The Annunciation to the Blessed Virgin Mary. It is a shared feast, so Ukrainian and Russian use the standard Eastern
@@ -2523,6 +2663,8 @@ Nossa Senhora da Anunciação:
   nl: Maria-Boodschap
   uk: Благовіщення Пресвятої Богородиці
   ru: Благовещение Пресвятой Богородицы
+  uk_note: Annunciation (25 March), a shared feast.
+  uk_established: true
 Santo António dos Milagres:
   kind: saint
   devotion: St Anthony of Padua honoured as a wonder-worker. 'dos Milagres' ('of the Miracles') is a common Portuguese chapel
@@ -2585,8 +2727,10 @@ Nossa Senhora da Boa Nova:
   it: Madonna della Buona Novella
   hu: Jóhír Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Blijde Boodschap
-  uk: Богородиця Доброї Звістки
+  uk: Матір Божа Доброї Вістки
   ru: Богоматерь Благой Вести
+  uk_note: Portuguese devotion linked to the Annunciation. Descriptive rendering.
+  uk_established: false
 Nossa Senhora da Boa Viagem:
   kind: marian
   devotion: Our Lady of Good Voyage, patroness of sailors and travellers, common in Portuguese ports. The English form is
@@ -2602,8 +2746,10 @@ Nossa Senhora da Boa Viagem:
   it: Madonna del Buon Viaggio
   hu: Jó Utazás Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Goede Reis
-  uk: Богородиця Доброї Подорожі (католицька назва)
+  uk: Матір Божа Доброї Подорожі
   ru: Богоматерь Доброго Пути (католическое наименование)
+  uk_note: Patroness of sailors and travellers, common in Portuguese ports.
+  uk_established: false
 Nossa Senhora da Candelária:
   kind: marian
   devotion: 'Candlemas title of Mary, celebrated at the Presentation of the Lord and Purification of Mary. It is best known
@@ -2620,8 +2766,11 @@ Nossa Senhora da Candelária:
   it: Madonna della Candelora (Nostra Signora della Candelaria)
   hu: Gyertyaszentelő Boldogasszony
   nl: Onze-Lieve-Vrouw van Candelaria (Maria-Lichtmis)
-  uk: Богородиця Громнична (Діва Марія Канделарійська; свято Стрітення Господнього)
+  uk: Матір Божа Громнична
   ru: Богоматерь Канделария (Канделарийская Дева Мария; праздник Сретения Господня)
+  uk_note: Candlemas title (2 February). Best known through the Candelaria image in Tenerife. The Eastern feast is Стрітення
+    Господнє.
+  uk_established: true
 Nossa Senhora da Fé:
   kind: marian
   devotion: Mary invoked as Our Lady of Faith. The nearest established parallel is Notre-Dame de Foy in Belgium. Outside Portuguese
@@ -2637,8 +2786,10 @@ Nossa Senhora da Fé:
   it: Madonna della Fede
   hu: Hit Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Geloof
-  uk: Богородиця Віри
+  uk: Матір Божа Віри
   ru: Богоматерь Веры
+  uk_note: The nearest parallel is Notre-Dame de Foy (Belgium). Descriptive rendering.
+  uk_established: false
 Nossa Senhora de Jesus:
   kind: marian
   devotion: A local Portuguese title stressing Mary as Mother of Jesus. It has no internationally established equivalent,
@@ -2654,8 +2805,10 @@ Nossa Senhora de Jesus:
   it: Nostra Signora di Gesù
   hu: Jézus Anyja Boldogasszony
   nl: Onze-Lieve-Vrouw van Jezus
-  uk: Богородиця, Мати Ісуса
+  uk: Матір Божа Ісусова
   ru: Богоматерь, Матерь Иисуса
+  uk_note: Local Portuguese title stressing Mary as Mother of Jesus. Descriptive rendering.
+  uk_established: false
 Nossa Senhora do Monserrate:
   kind: marian
   devotion: Our Lady of Montserrat, the Black Madonna (La Moreneta) of the Benedictine abbey of Montserrat in Catalonia and
@@ -2670,8 +2823,10 @@ Nossa Senhora do Monserrate:
   it: Madonna di Montserrat
   hu: Montserrati Szűz Mária (Montserrati Boldogasszony)
   nl: Onze-Lieve-Vrouw van Montserrat
-  uk: Монтсерратська Богородиця (Діва Марія Монтсерратська)
+  uk: Матір Божа Монтсерратська
   ru: Монсерратская Богоматерь (Дева Мария Монсерратская)
+  uk_note: Black Madonna (La Moreneta) of Montserrat Abbey, Catalonia (27 April).
+  uk_established: true
 Senhora do Monte:
   kind: marian
   devotion: Our Lady of Monte, principal patron of Madeira, venerated at the Monte church above Funchal. The main feast falls
@@ -2687,8 +2842,10 @@ Senhora do Monte:
   it: Madonna del Monte (Nostra Signora del Monte)
   hu: Montei Boldogasszony
   nl: Onze-Lieve-Vrouw van Monte
-  uk: Богородиця з Монте
+  uk: Матір Божа з Монте
   ru: Богоматерь Монте
+  uk_note: Short form of Nossa Senhora do Monte, patroness of Madeira.
+  uk_established: false
 Nossa Senhora da Pena:
   kind: marian
   devotion: Our Lady of the Crag ('pena' means rock or crag). It is an Iberian devotion (compare Sintra's Pena and Spanish
@@ -2704,8 +2861,10 @@ Nossa Senhora da Pena:
   it: Madonna della Pena
   hu: Penai Szűz Mária
   nl: Onze-Lieve-Vrouw van Pena
-  uk: Богородиця з Пени
+  uk: Матір Божа з Пени
   ru: Богоматерь Пенская
+  uk_note: '''Pena'' means crag (cf. Pena, Sintra). Linked to the sítio da Pena, Funchal. The place name is kept.'
+  uk_established: false
 Senhora da Penha:
   kind: marian
   devotion: Our Lady of Penha de França (Spanish Peña de Francia), from the Dominican shrine in Salamanca province. It was
@@ -2721,8 +2880,10 @@ Senhora da Penha:
   it: Madonna della Peña de Francia
   hu: Peña de Francia-i Szűz Mária
   nl: Onze-Lieve-Vrouw van Peña de Francia
-  uk: Богородиця з Пенья-де-Франсія
+  uk: Матір Божа з Пенья-де-Франсія
   ru: Богоматерь Пенья-де-Франсия
+  uk_note: Short form of Nossa Senhora da Penha de França. Chapel and neighbourhood in Funchal.
+  uk_established: false
 Nossa Senhora do Pilar:
   kind: marian
   devotion: Our Lady of the Pillar in Zaragoza, tied to the tradition of Mary appearing to St James on a pillar. The uk/ru
@@ -2737,8 +2898,11 @@ Nossa Senhora do Pilar:
   it: Madonna del Pilar
   hu: Pilari Szűz Mária (Oszlopos Boldogasszony)
   nl: Onze-Lieve-Vrouw van de Pilaar
-  uk: Пресвята Діва Марія на Стовпі (Богородиця дель Пілар)
+  uk: Матір Божа на Стовпі
   ru: Пресвятая Дева Мария на Столпе (Богоматерь дель Пилар)
+  uk_note: Our Lady of the Pillar, Zaragoza (12 October); also called 'del Pilar'. Pilar is also a locality in São Martinho,
+    Funchal.
+  uk_established: false
 Nossa Senhora da Saúde:
   kind: marian
   devotion: Mary as Health of the Sick (Salus Infirmorum), invoked against plague and illness; Venice has the Madonna della
@@ -2753,8 +2917,11 @@ Nossa Senhora da Saúde:
   it: Madonna della Salute
   hu: Betegek Gyógyítója Boldogasszony
   nl: Onze-Lieve-Vrouw, Heil der Zieken
-  uk: Богородиця Цілителька
+  uk: Матір Божа Здоров'я
   ru: Богоматерь Целительница
+  uk_note: Salus Infirmorum (cf. Madonna della Salute, Venice, 21 November). The Eastern icon 'Цілителька' is a different
+    image and is not used.
+  uk_established: false
 Nossa Senhora do Terço:
   kind: marian
   devotion: 'Our Lady of the Rosary. The ''terço'' is a third of the full rosary, the part usually prayed. The uk/ru names
@@ -2769,8 +2936,10 @@ Nossa Senhora do Terço:
   it: Madonna del Rosario
   hu: Rózsafüzér Királynője (Rózsafüzéres Boldogasszony)
   nl: Onze-Lieve-Vrouw van de Rozenkrans
-  uk: Богородиця Вервиці (Цариця Святого Розарію)
+  uk: Матір Божа Розарію
   ru: Богоматерь Розария (Царица Святого Розария)
+  uk_note: The 'terço' is a third of the rosary. Same devotion as Our Lady of the Rosary (7 October).
+  uk_established: true
 Nossa Senhora dos Varadouros:
   kind: marian
   devotion: A local Funchal title from the chapel at the Varadouros, the beaching place for boats by the Portão dos Varadouros
@@ -2786,8 +2955,10 @@ Nossa Senhora dos Varadouros:
   it: Nostra Signora dei Varadouros
   hu: Varadourosi Boldogasszony
   nl: Onze-Lieve-Vrouw van de Varadouros
-  uk: Богородиця з Варадоурош
+  uk: Матір Божа з Варадоуруш
   ru: Богоматерь Варадоуруш
+  uk_note: Local Funchal title (boat-landing place and Portão dos Varadouros). The place name is kept.
+  uk_established: false
 Nossa Senhora da Vitória:
   kind: marian
   devotion: Our Lady of Victory, linked to Lepanto (1571) and the Rosary. The uk/ru names are Latin Catholic usage; in the
@@ -2802,8 +2973,10 @@ Nossa Senhora da Vitória:
   it: Madonna della Vittoria
   hu: Győzelmes Boldogasszony
   nl: Onze-Lieve-Vrouw van de Overwinning
-  uk: Богородиця Переможна
+  uk: Матір Божа Переможна
   ru: Богоматерь Победы (Дева Мария Победы)
+  uk_note: Our Lady of Victory (Lepanto 1571, Rosary), 7 October.
+  uk_established: false
 Santa Catarina de Alexandria:
   kind: saint
   devotion: Catherine of Alexandria, virgin and martyr. She is one of the Fourteen Holy Helpers, and her symbol is the wheel.
@@ -2838,8 +3011,10 @@ Senhora da Soledade:
   it: Madonna della Solitudine
   hu: Magányos Szűzanya (a Soledad Szűzanya)
   nl: Onze-Lieve-Vrouw van de Eenzaamheid
-  uk: Богородиця Самотності (Діва Марія Соледад)
+  uk: Матір Божа Самотності
   ru: Богоматерь Одиночества (Дева Мария Соледад)
+  uk_note: Short form of Nossa Senhora da Soledade (Nuestra Señora de la Soledad).
+  uk_established: false
 Santa Cruzada:
   kind: institution
   devotion: 'The Bula da Santa Cruzada (Latin: Bulla Cruciatae). This was a papal crusade bull granting indulgences and dispensations
@@ -2925,8 +3100,10 @@ Nossa Senhora do Populo:
   it: Madonna del Popolo
   hu: A Nép Szűzanyja (Madonna del Popolo)
   nl: Onze-Lieve-Vrouw van het Volk (Madonna del Popolo)
-  uk: Мадонна дель Пополо
+  uk: Матір Божа дель Пополо
   ru: Мадонна дель Пополо
+  uk_note: Spelling variant of Pópulo. The Portuguese centre is Caldas da Rainha (Queen Leonor).
+  uk_established: false
 São Francisco de Borja:
   kind: saint
   devotion: St Francis Borgia, Duke of Gandía and third Superior General of the Jesuits. He is venerated in Portugal and Madeira
@@ -2976,8 +3153,11 @@ Nossa Senhora da Conceição de Vila Viçosa:
   it: Nostra Signora della Concezione di Vila Viçosa
   hu: Vila Viçosa-i Szeplőtelen Fogantatás Szűzanyja
   nl: Onze-Lieve-Vrouw van de Onbevlekte Ontvangenis van Vila Viçosa
-  uk: Непорочне Зачаття Діви Марії з Віла-Вісози (покровителька Португалії)
+  uk: Непорочне Зачаття Пресвятої Діви Марії з Віла-Вісози
   ru: Непорочное Зачатие Девы Марии из Вила-Висозы (покровительница Португалии)
+  uk_note: Image at Vila Viçosa (Alentejo), proclaimed Queen and Patroness of Portugal by João IV in 1646. The core feast
+    name is established; the place qualifier is descriptive.
+  uk_established: false
 São Domingos:
   kind: saint
   devotion: St Dominic de Guzmán, founder of the Order of Preachers (the Dominicans). In Madeira the name is linked to Dominican
@@ -3027,8 +3207,10 @@ Nossa Senhora da Conceição do Porto Moniz:
   it: Madonna dell'Immacolata Concezione (Porto Moniz)
   hu: Szeplőtelen Fogantatás (Porto Moniz)
   nl: Onbevlekte Ontvangenis van Maria (Porto Moniz)
-  uk: Непорочне Зачаття Діви Марії (Порту-Моніш)
+  uk: Непорочне Зачаття Пресвятої Діви Марії з Порту-Моніша
   ru: Непорочное зачатие Девы Марии (Порту-Мониш)
+  uk_note: Patroness of the Porto Moniz parish church, north-west Madeira. The core feast name is established.
+  uk_established: false
 Senhor da Ilha:
   kind: other
   devotion: Probably not a devotion. In the Elucidário this most likely means the feudal title 'lord of the island', i.e.
@@ -3061,8 +3243,10 @@ Nossa Senhora de Perpetuo Socorro:
   it: Madonna del Perpetuo Soccorso
   hu: Szűz Mária, az Örökös Segítség Anyja
   nl: Onze Lieve Vrouw van Altijddurende Bijstand
-  uk: Богородиця Неустанної Помочі
+  uk: Матір Божа Неустанної Помочі
   ru: Богоматерь Неустанной Помощи
+  uk_note: Redemptorist icon, Rome (27 June). The Greek Catholic 'Богородиця Неустанної Помочі' is not used under this convention.
+  uk_established: true
 Senhora das Vilas:
   kind: other
   devotion: Not a recognised Marian title, and searches found no Madeiran devotion by this name. Most likely a secular phrase
@@ -3097,8 +3281,10 @@ Nossa Senhora do Calhau e que:
   it: Madonna del Calhau (della Spiaggia di ciottoli)
   hu: Calhaui Boldogasszony (Kavicsparti Szűz Mária)
   nl: Onze Lieve Vrouw van Calhau (van het Kiezelstrand)
-  uk: Богородиця з Калягу (Непорочне Зачаття, Фуншал)
+  uk: Матір Божа з Каляу
   ru: Богоматерь Кальяу (Непорочное зачатие, Фуншал)
+  uk_note: The fragment 'e que' was removed. First chapel of Funchal, an Immaculate Conception dedication (8 December).
+  uk_established: false
 Nossa Senhora do Funchal:
   kind: marian
   devotion: A local way of naming Our Lady as venerated in Funchal. It is not a distinct universal devotion; the cathedral
@@ -3113,8 +3299,10 @@ Nossa Senhora do Funchal:
   it: Madonna di Funchal
   hu: Funchali Boldogasszony
   nl: Onze Lieve Vrouw van Funchal
-  uk: Фуншальська Богородиця
+  uk: Матір Божа з Фуншала
   ru: Фуншальская Богоматерь
+  uk_note: Local designation, not a distinct devotion. The Sé is dedicated to the Assumption.
+  uk_established: false
 Nossa Senhora da Conceição e Nossa Senhora da Vida:
   kind: marian
   devotion: Two titles joined. The Immaculate Conception is established everywhere. 'Nossa Senhora da Vida' (Our Lady of Life)
@@ -3130,8 +3318,10 @@ Nossa Senhora da Conceição e Nossa Senhora da Vida:
   it: Madonna dell'Immacolata Concezione e Madonna della Vita
   hu: Szeplőtelen Fogantatás és az Élet Boldogasszonya
   nl: Onbevlekte Ontvangenis en Onze Lieve Vrouw van het Leven
-  uk: Непорочне Зачаття Діви Марії та Богородиця Життя
+  uk: Непорочне Зачаття Пресвятої Діви Марії і Матір Божа Життя
   ru: Непорочное зачатие Девы Марии и Богоматерь Жизни
+  uk_note: Two titles joined. The second is a coined rendering.
+  uk_established: false
 Nossa Senhora do Desterro e de Nossa Senhora da Boa Hora:
   kind: marian
   devotion: Two titles joined. Desterro (exile) refers to the Holy Family's Flight into Egypt, which has an established Eastern
@@ -3148,8 +3338,10 @@ Nossa Senhora do Desterro e de Nossa Senhora da Boa Hora:
   it: Madonna della Fuga in Egitto (dell'Esilio) e Madonna della Buona Ora (del Buon Parto)
   hu: Az Egyiptomba menekülő Szűz Mária és a Jó Óra (Szerencsés Szülés) Boldogasszonya
   nl: Onze Lieve Vrouw van de Vlucht naar Egypte en Onze Lieve Vrouw van het Goede Uur (van de Goede Verlossing)
-  uk: Втеча Богородиці до Єгипту та Богородиця Доброго Часу (Помічниця в пологах)
+  uk: Матір Божа Вигнання і Матір Божа Доброї Години
   ru: Бегство Богородицы в Египет и Богоматерь Доброго Часа (Помощница в родах)
+  uk_note: 'Two titles joined: the Flight into Egypt, and the Good Hour (safe childbirth).'
+  uk_established: false
 Nossa Senhora da Visitação:
   kind: marian
   devotion: The Visitation of the Blessed Virgin Mary to St Elizabeth, a Latin-rite feast. uk/ru use Catholic usage; Orthodox
@@ -3164,8 +3356,10 @@ Nossa Senhora da Visitação:
   it: Madonna della Visitazione
   hu: Sarlós Boldogasszony
   nl: Maria Visitatie (Onze Lieve Vrouw Visitatie)
-  uk: Відвідини Пресвятою Дівою Марією Єлисавети
+  uk: Відвідини Пресвятої Діви Марії
   ru: Посещение Пресвятой Девой Марией Елисаветы
+  uk_note: Visitation to St Elizabeth, a Latin-rite feast (31 May; formerly 2 July).
+  uk_established: true
 Senhora das Brotas:
   kind: marian
   devotion: Nossa Senhora das Brotas, a Portuguese devotion that began with a miracle at Brotas (Mora, Alentejo). She is patron
@@ -3181,8 +3375,10 @@ Senhora das Brotas:
   it: Madonna di Brotas
   hu: Brotasi Boldogasszony
   nl: Onze Lieve Vrouw van Brotas
-  uk: Богородиця з Броташа
+  uk: Матір Божа з Броташ
   ru: Богоматерь из Броташа
+  uk_note: Short form of Nossa Senhora das Brotas (Mora, Alentejo; not Madeira).
+  uk_established: false
 Nossa Senhora de Monserrate:
   kind: marian
   devotion: Our Lady of Montserrat, the Black Madonna ('La Moreneta') of Montserrat Abbey in Catalonia. uk/ru use Catholic
@@ -3197,8 +3393,10 @@ Nossa Senhora de Monserrate:
   it: Madonna di Montserrat
   hu: Montserrati Szűz Mária
   nl: Onze-Lieve-Vrouw van Montserrat
-  uk: Монтсерратська Богородиця
+  uk: Матір Божа Монтсерратська
   ru: Монсерратская Богоматерь
+  uk_note: Variant of Nossa Senhora do Monserrate (27 April).
+  uk_established: true
 Nossa Senhora da Nazaré e Santa Catarina:
   kind: marian
   devotion: 'Two dedications joined. Our Lady of Nazaré is the Portuguese Marian shrine at Nazaré. Santa Catarina is St Catherine
@@ -3215,8 +3413,11 @@ Nossa Senhora da Nazaré e Santa Catarina:
   it: Madonna di Nazaré e santa Caterina d'Alessandria
   hu: Nazaréi Boldogasszony és Alexandriai Szent Katalin
   nl: Onze Lieve Vrouw van Nazaré en Heilige Catharina van Alexandrië
-  uk: Богородиця з Назаре та свята великомучениця Катерина Александрійська
+  uk: Матір Божа з Назаре і свята Катерина Александрійська
   ru: Богоматерь из Назаре и святая великомученица Екатерина Александрийская
+  uk_note: Two dedications joined. St Catherine's chapel in Funchal was founded by Constança Rodrigues. Feasts 8 September
+    and 25 November.
+  uk_established: false
 Nossa Senhora do Bom Despacho e de Nossa Senhora da Gloria:
   kind: marian
   devotion: 'Two titles joined in one fragment. ''Bom Despacho'' (''good outcome/dispatch'') is a Portuguese devotion with
@@ -3232,8 +3433,10 @@ Nossa Senhora do Bom Despacho e de Nossa Senhora da Gloria:
   it: Nostra Signora del Bom Despacho e Madonna della Gloria
   hu: Bom Despacho-i Boldogasszony és a Dicsőség Boldogasszonya
   nl: Onze-Lieve-Vrouw van Bom Despacho en Onze-Lieve-Vrouw van de Glorie
-  uk: Богородиця Доброго Завершення (Бон-Деспашу) і Богородиця у Славі (Успіння)
+  uk: Матір Божа Доброго Вирішення і Матір Божа Слави
   ru: Богородица Доброго Исхода (Бон-Деспашу) и Богородица во Славе (Успение)
+  uk_note: Two titles joined. Glória is linked to the Assumption (15 August); Bom Despacho is a coined rendering.
+  uk_established: false
 Nossa Senhora dos Remedios:
   kind: marian
   devotion: Our Lady of Remedies. This devotion was spread by the Trinitarians; in Portugal its main shrine is Lamego. uk/ru
@@ -3248,8 +3451,10 @@ Nossa Senhora dos Remedios:
   it: Madonna dei Rimedi
   hu: Gyógyító Boldogasszony
   nl: Onze-Lieve-Vrouw van de Remediën
-  uk: Богородиця Цілителька
+  uk: Матір Божа Доброго Ліку
   ru: Богородица Целительница
+  uk_note: Spelling variant of Remédios. The Portuguese main shrine is Lamego.
+  uk_established: false
 Nossa Senhora dos Anjos e do Sagrado Coração de Jesus:
   kind: marian
   devotion: 'Double dedication: Our Lady of the Angels (Franciscan, Portiuncula) and the Sacred Heart of Jesus, which is a
@@ -3264,8 +3469,10 @@ Nossa Senhora dos Anjos e do Sagrado Coração de Jesus:
   it: Santa Maria degli Angeli e Sacro Cuore di Gesù
   hu: Angyalos Boldogasszony és Jézus Szentséges Szíve
   nl: Onze-Lieve-Vrouw van de Engelen en het Heilig Hart van Jezus
-  uk: Богородиця Цариця Ангелів і Пресвяте Серце Ісусове
+  uk: Матір Божа Ангельська і Пресвяте Серце Ісуса
   ru: Богородица Царица Ангелов и Святейшее Сердце Иисуса
+  uk_note: 'Double dedication: Portiuncula title (2 August) and the Sacred Heart.'
+  uk_established: true
 Nossa Senhora do Monte e Sant:
   kind: marian
   devotion: Our Lady of Monte, patroness of Madeira, venerated at the Monte church above Funchal (where Emperor Charles I
@@ -3281,8 +3488,10 @@ Nossa Senhora do Monte e Sant:
   it: Nostra Signora del Monte
   hu: Montei Boldogasszony
   nl: Onze-Lieve-Vrouw van Monte
-  uk: Богоматір з Монте
+  uk: Матір Божа з Монте
   ru: Богоматерь с Монте
+  uk_note: Truncated after 'e Sant…'. Patroness of Madeira.
+  uk_established: false
 Nossa Senhora da Anunciação e de Nossa Senhora do Socorro:
   kind: marian
   devotion: 'Two titles: the Annunciation, and Our Lady of Succour (Help), known in Italy as Madonna del Soccorso (Augustinian).
@@ -3297,8 +3506,10 @@ Nossa Senhora da Anunciação e de Nossa Senhora do Socorro:
   it: Maria Santissima Annunziata e Madonna del Soccorso
   hu: Gyümölcsoltó Boldogasszony és Segítő Szűz Mária
   nl: Onze-Lieve-Vrouw Boodschap en Onze-Lieve-Vrouw van Bijstand
-  uk: Благовіщення Пресвятої Богородиці і Богородиця Помічниця
+  uk: Благовіщення Пресвятої Богородиці і Матір Божа Помочі
   ru: Благовещение Пресвятой Богородицы и Богородица Помощница
+  uk_note: Two titles joined. The Socorro part is descriptive and distinct from Perpetual Help.
+  uk_established: false
 Nossa Senhora da Consolação e da Madre de Deus:
   kind: marian
   devotion: 'Two titles: Our Lady of Consolation (Augustinian), and the Mother of God (Theotokos). For Consolação, uk/ru use
@@ -3313,8 +3524,10 @@ Nossa Senhora da Consolação e da Madre de Deus:
   it: Madonna della Consolazione e Madre di Dio
   hu: Vigasztaló Boldogasszony és Isten Anyja
   nl: Onze-Lieve-Vrouw van Troost en Moeder Gods
-  uk: Богородиця Утішителька і Мати Божа
+  uk: Матір Божа Утішителька і Матір Божа
   ru: Богородица Утешительница и Матерь Божия
+  uk_note: 'Two titles joined: the Augustinian Consolation title, and Mother of God (Theotokos, 1 January).'
+  uk_established: false
 Nossa Senhora da Salvação e a de Nossa Senhora do Socorro:
   kind: marian
   devotion: 'Two titles: Our Lady of Salvation, which is a Portuguese devotion (''Notre-Dame du Salut'' is the established
@@ -3330,8 +3543,10 @@ Nossa Senhora da Salvação e a de Nossa Senhora do Socorro:
   it: Madonna della Salvezza e Madonna del Soccorso
   hu: Az Üdvösség Boldogasszonya és Segítő Szűz Mária
   nl: Onze-Lieve-Vrouw van het Heil en Onze-Lieve-Vrouw van Bijstand
-  uk: Богородиця Спасіння і Богородиця Помічниця
+  uk: Матір Божа Спасіння і Матір Божа Помочі
   ru: Богородица Спасения и Богородица Помощница
+  uk_note: Two titles joined. Both are descriptive renderings.
+  uk_established: false
 Nossa Senhora do Calhau e foi:
   kind: marian
   devotion: Our Lady of Calhau was the dedication of Funchal's first church, in the seafront Calhau district. It is a local
@@ -3346,8 +3561,10 @@ Nossa Senhora do Calhau e foi:
   it: Nostra Signora del Calhau
   hu: Calhau-i Boldogasszony
   nl: Onze-Lieve-Vrouw van Calhau
-  uk: Богоматір з Каляу
+  uk: Матір Божа з Каляу
   ru: Богоматерь из Калау
+  uk_note: The fragment 'e foi' was removed. Dedication of Funchal's first church.
+  uk_established: false
 Nossa Senhora da Conceiçâo:
   kind: marian
   devotion: The Immaculate Conception; the 'â' is a misprint for 'ã'. This devotion is patroness of Portugal. uk/ru use Latin
@@ -3362,8 +3579,10 @@ Nossa Senhora da Conceiçâo:
   it: Immacolata Concezione
   hu: Szeplőtelen Fogantatás
   nl: Onbevlekte Ontvangenis van Maria
-  uk: Непорочне Зачаття Діви Марії
+  uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: Misprint 'â' for 'ã' in the source.
+  uk_established: true
 Nossa Senhora da Conceição e o:
   kind: marian
   devotion: The Immaculate Conception; the words after the title are cut off in the fragment. uk/ru use Latin usage.
@@ -3377,8 +3596,10 @@ Nossa Senhora da Conceição e o:
   it: Immacolata Concezione
   hu: Szeplőtelen Fogantatás
   nl: Onbevlekte Ontvangenis van Maria
-  uk: Непорочне Зачаття Діви Марії
+  uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: Truncated fragment; the trailing words were removed.
+  uk_established: true
 Nossa Senhora da Conceição e que:
   kind: marian
   devotion: The Immaculate Conception; the words after the title are cut off in the fragment. uk/ru use Latin usage.
@@ -3392,8 +3613,10 @@ Nossa Senhora da Conceição e que:
   it: Immacolata Concezione
   hu: Szeplőtelen Fogantatás
   nl: Onbevlekte Ontvangenis van Maria
-  uk: Непорочне Зачаття Діви Марії
+  uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: Truncated fragment; the trailing words were removed.
+  uk_established: true
 Nossa Senhora das Mercês e Nossa Senhora da Incarnação:
   kind: marian
   devotion: 'Two titles: Our Lady of Mercy (Mercedarian, ''Our Lady of Ransom''), and Our Lady of the Incarnation (''Incarnação''
@@ -3408,8 +3631,10 @@ Nossa Senhora das Mercês e Nossa Senhora da Incarnação:
   it: Madonna della Mercede e Madonna dell'Incarnazione
   hu: Fogolykiváltó Boldogasszony és a Megtestesülés Boldogasszonya
   nl: Onze-Lieve-Vrouw van Barmhartigheid (van de Vrijkoping) en Onze-Lieve-Vrouw van de Menswording
-  uk: Богородиця Милосердя (Мерседаріїв) і Богородиця Воплочення
+  uk: Матір Божа Милосердя і Благовіщення Пресвятої Богородиці
   ru: Богородица Милосердия (Мерседариев) и Богородица Воплощения
+  uk_note: 'Two titles joined: Mercedarian Mercy (24 September), and Incarnation = Annunciation (25 March).'
+  uk_established: false
 Nossa Senhora da Graça (Câmara de Lobos):
   kind: marian
   devotion: Our Lady of Grace, a general Marian title. The Elucidário ties it to Câmara de Lobos, possibly to the Estreito
@@ -3425,8 +3650,10 @@ Nossa Senhora da Graça (Câmara de Lobos):
   it: Madonna della Grazia (Câmara de Lobos)
   hu: Kegyelmes Szűzanya (Câmara de Lobos)
   nl: Onze-Lieve-Vrouw van Genade (Câmara de Lobos)
-  uk: Матір Божа Благодатна (Камара-де-Лобуш) (католицька традиція)
-  ru: Богоматерь Благодатная (Камара-ди-Лобуш) (католическая традиция)
+  uk: Матір Божа Благодатна з Камара-ді-Лобуш
+  ru: Богоматерь Благодатная (Камара-ди-Лобуш)
+  uk_note: Possibly the Estreito de Câmara de Lobos parish church (unconfirmed).
+  uk_established: false
 Nossa Senhora das Graças:
   kind: marian
   devotion: Our Lady of Graces. The source text was garbled ('e que' dropped). In Portuguese usage this title often means
@@ -3441,8 +3668,11 @@ Nossa Senhora das Graças:
   it: Madonna delle Grazie
   hu: Kegyelmek Anyja
   nl: Onze-Lieve-Vrouw der Genaden
-  uk: Матір Божа Благодатна / Чудотворного Медальйона (католицька традиція)
-  ru: Богоматерь Благодатная / Чудотворной медали (католическая традиция)
+  uk: Матір Божа Благодатна
+  ru: Богоматерь Благодатная / Чудотворной медали
+  uk_note: In Portuguese usage often means the Miraculous Medal (Paris 1830; 27 November). The rendering is identical to that
+    for Graça.
+  uk_established: false
 Senhora da Graça:
   kind: marian
   devotion: Short form of Nossa Senhora da Graça (Our Lady of Grace). uk/ru use Catholic usage.
@@ -3456,8 +3686,10 @@ Senhora da Graça:
   it: Madonna della Grazia
   hu: Kegyelmes Szűzanya
   nl: Onze-Lieve-Vrouw van Genade
-  uk: Матір Божа Благодатна (католицька традиція)
-  ru: Богоматерь Благодатная (католическая традиция)
+  uk: Матір Божа Благодатна
+  ru: Богоматерь Благодатная
+  uk_note: Short form of Nossa Senhora da Graça.
+  uk_established: false
 Nossa Senhora da Penha (de França):
   kind: marian
   devotion: Our Lady of the Rock, from the Spanish shrine of Peña de França. Penha de França is also a district of Funchal.
@@ -3472,8 +3704,10 @@ Nossa Senhora da Penha (de França):
   it: Madonna della Peña de Francia (Penha)
   hu: Penhai Szűz Mária
   nl: Onze-Lieve-Vrouw van Penha
-  uk: Матір Божа з Пеньї (католицька традиція)
-  ru: Богоматерь Пенья-де-Франсия (католическая традиция)
+  uk: Матір Божа з Пенья-де-Франсія
+  ru: Богоматерь Пенья-де-Франсия
+  uk_note: Variant of Nossa Senhora da Penha de França. Also a district of Funchal.
+  uk_established: false
 Nossa Senhora da Calheta:
   kind: marian
   devotion: A local Marian title linked to Calheta, a Madeiran municipality. I could not identify the exact devotion (the
@@ -3488,8 +3722,10 @@ Nossa Senhora da Calheta:
   it: Madonna di Calheta
   hu: Calhetai Szűzanya
   nl: Onze-Lieve-Vrouw van Calheta
-  uk: Богородиця з Калети (католицька традиція)
-  ru: Богоматерь Кальеты (католическая традиция)
+  uk: Матір Божа з Калети
+  ru: Богоматерь Кальеты
+  uk_note: Exact devotion not identified (the Calheta parish church may be dedicated to the Holy Spirit).
+  uk_established: false
 Nossa Senhora da Assunção:
   kind: marian
   devotion: 'The Assumption of Mary. uk/ru use the Latin Catholic terms. The Eastern equivalent is the Dormition: uk ''Успіння
@@ -3504,8 +3740,10 @@ Nossa Senhora da Assunção:
   it: Madonna Assunta (Assunzione di Maria)
   hu: Nagyboldogasszony
   nl: Onze-Lieve-Vrouw-Hemelvaart
-  uk: Внебовзяття Пресвятої Діви Марії (католицька традиція)
-  ru: Взятие Пресвятой Девы Марии на небо (католическая традиция)
+  uk: Внебовзяття Пресвятої Діви Марії
+  ru: Взятие Пресвятой Девы Марии на небо
+  uk_note: Latin feast name (15 August). The Eastern Успіння form is used for Boa Morte. Dedication of Funchal cathedral.
+  uk_established: true
 Senhor de Fuerte-Ventura:
   kind: other
   devotion: Not a religious title. This looks like the noble title 'Lord of Fuerteventura' (Canary Islands), probably tied
@@ -3537,8 +3775,11 @@ Nossa Senhora do Lanço:
   it: Madonna del Lanço (della gettata)
   hu: Lançói Szűzanya
   nl: Onze-Lieve-Vrouw van de Lanço
-  uk: Богородиця ду Лансу (католицька традиція)
-  ru: Богоматерь ду Лансу (католическая традиция)
+  uk: Матір Божа з Лансу
+  ru: Богоматерь ду Лансу
+  uk_note: Obscure title, not identified. 'Lanço' may mean a cast of a net (a fishermen's devotion?). Treated as a proper
+    name.
+  uk_established: false
 Nossa Senhora do Recolhimento das Órfãs:
   kind: institution
   devotion: The Marian patron of the Recolhimento das Órfãs, a charitable home for orphan girls in Funchal. Recolhimentos
@@ -3553,8 +3794,8 @@ Nossa Senhora do Recolhimento das Órfãs:
   it: Madonna del Ritiro delle Orfane (Funchal)
   hu: Az árva leányok otthonának Szűzanyája (Funchal)
   nl: Onze-Lieve-Vrouw van het Weeshuis voor Meisjes (Funchal)
-  uk: Богородиця притулку для сиріт (Фуншал) (католицька традиція)
-  ru: Богоматерь приюта для сирот (Фуншал) (католическая традиция)
+  uk: Богородиця притулку для сиріт (Фуншал)
+  ru: Богоматерь приюта для сирот (Фуншал)
 Nossa Senhora da Encarnação (Incarnação):
   kind: marian
   devotion: Our Lady of the Incarnation, which is the Annunciation mystery. The source text was garbled ('e construída' dropped).
@@ -3571,6 +3812,8 @@ Nossa Senhora da Encarnação (Incarnação):
   nl: Onze-Lieve-Vrouw van de Menswording
   uk: Благовіщення Пресвятої Богородиці
   ru: Благовещение Пресвятой Богородицы
+  uk_note: Incarnation = Annunciation (25 March). The fragment 'e construída' was removed.
+  uk_established: true
 Nossa Senhora da Madre de Deus e ao:
   kind: marian
   devotion: 'Mary, Mother of God (Theotokos). The source text is cut off: it ends with ''e ao''. This is the Madre de Deus
@@ -3586,8 +3829,10 @@ Nossa Senhora da Madre de Deus e ao:
   it: Madonna Madre di Dio
   hu: Szűz Mária, Isten Anyja
   nl: Onze-Lieve-Vrouw Moeder Gods
-  uk: Пресвята Богородиця, Матір Божа
+  uk: Матір Божа
   ru: Пресвятая Богородица, Матерь Божия
+  uk_note: Mother of God (Theotokos), 1 January. The fragment 'e ao' was removed.
+  uk_established: true
 Nossa Senhora das Mercês e Conventos:
   kind: marian
   devotion: 'Our Lady of Mercy/Ransom (B.M.V. de Mercede), the Mercedarian devotion. The source text is cut off: it ends with
@@ -3604,8 +3849,10 @@ Nossa Senhora das Mercês e Conventos:
   it: Madonna della Mercede
   hu: Fogolykiváltó Boldogasszony
   nl: Onze-Lieve-Vrouw van Barmhartigheid (van Mercede)
-  uk: Діва Марія Милосердна (Богородиця Мерседаріїв; катол.)
-  ru: Дева Мария Милосердная (де ла Мерсед; катол.)
+  uk: Матір Божа Милосердя
+  ru: Дева Мария Милосердная
+  uk_note: The fragment 'e Conventos' was removed. Refers to the Mercês convent (Capuchin Poor Clares), Funchal.
+  uk_established: false
 Senhora do Calhau:
   kind: marian
   devotion: Local Funchal title of the first church in the Calhau area (the pebble beach), built around 1430. It is also called
@@ -3623,8 +3870,11 @@ Senhora do Calhau:
   it: Madonna del Calhau (dell'Immacolata Concezione)
   hu: Calhau-i Boldogasszony (Szeplőtelen Fogantatás)
   nl: Onze-Lieve-Vrouw van Calhau (van de Onbevlekte Ontvangenis)
-  uk: Богородиця з Каляу (Непорочного Зачаття; катол.)
-  ru: Богоматерь Калыау (Непорочного Зачатия; катол.)
+  uk: Матір Божа з Каляу
+  ru: Богоматерь Калыау
+  uk_note: First church of Funchal (c. 1430), an Immaculate Conception dedication. Also the early name of the Conceição chapel
+    in Câmara de Lobos.
+  uk_established: false
 Nossa Senhora de Salvação:
   kind: marian
   devotion: Our Lady of Salvation, a local Portuguese title. No specific Madeiran shrine was confirmed. It is close to Italian
@@ -3639,8 +3889,10 @@ Nossa Senhora de Salvação:
   it: Madonna della Salvezza
   hu: Üdvösség Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Heil
-  uk: Богородиця Спасіння (катол.)
-  ru: Богородица Спасения (катол.)
+  uk: Матір Божа Спасіння
+  ru: Богородица Спасения
+  uk_note: Variant of Nossa Senhora da Salvação. No Madeiran shrine confirmed.
+  uk_established: false
 Nossa Senhora da Consolação do Funchal:
   kind: marian
   devotion: Our Lady of Consolation (Mater Consolationis), the Augustinian devotion. Here it names the Funchal chapel or image;
@@ -3656,8 +3908,10 @@ Nossa Senhora da Consolação do Funchal:
   it: Madonna della Consolazione (Funchal)
   hu: Vigasztaló Boldogasszony (Funchal)
   nl: Onze-Lieve-Vrouw van Troost (Funchal)
-  uk: Богородиця Утішителька (Фуншал; катол.)
-  ru: Богородица Утешительница (Фуншал; катол.)
+  uk: Матір Божа Утішителька з Фуншала
+  ru: Богородица Утешительница
+  uk_note: Augustinian Mater Consolationis. 'do Funchal' only gives the location.
+  uk_established: false
 Nossa Senhora do Monte e a:
   kind: marian
   devotion: 'Our Lady of Monte, patroness of Madeira, with her church in the Monte parish of Funchal. The source text is cut
@@ -3673,8 +3927,10 @@ Nossa Senhora do Monte e a:
   it: Madonna del Monte (Madera)
   hu: Monte-i Boldogasszony
   nl: Onze-Lieve-Vrouw van Monte
-  uk: Богоматір з Монте (покровителька Мадейри; катол.)
-  ru: Богоматерь Монте (покровительница Мадейры; катол.)
+  uk: Матір Божа з Монте
+  ru: Богоматерь Монте
+  uk_note: The fragment 'e a' was removed. Patroness of Madeira (15 August).
+  uk_established: false
 Senhor das Alcaçovas:
   kind: other
   devotion: Not a devotional title. It is the noble title 'Lord of Alcáçovas' (Alentejo), held by Afonso Henriques in the
@@ -3707,6 +3963,8 @@ Senhora da Apresentação:
   nl: Onze-Lieve-Vrouw Presentatie (Opdracht van Maria in de Tempel)
   uk: Введення в храм Пресвятої Богородиці
   ru: Введение во храм Пресвятой Богородицы
+  uk_note: Short form of Nossa Senhora da Apresentação (21 November).
+  uk_established: true
 Senhora do Socorro:
   kind: marian
   devotion: Our Lady of Succour (Mater de Succursu), an Augustinian devotion. In Funchal it is the Socorro church in Santa
@@ -3721,8 +3979,10 @@ Senhora do Socorro:
   it: Madonna del Soccorso
   hu: Segítő Boldogasszony
   nl: Onze-Lieve-Vrouw van Bijstand
-  uk: Богородиця Помічниця (Mater de Succursu; катол.)
-  ru: Богородица Помощница (Mater de Succursu; катол.)
+  uk: Матір Божа Помочі
+  ru: Богородица Помощница
+  uk_note: Mater de Succursu (Augustinian). Socorro church, Santa Maria Maior, Funchal. Distinct from Perpetual Help.
+  uk_established: false
 Nossa Senhora do Bom Despacho:
   kind: marian
   devotion: Our Lady of Good Dispatch (a successful outcome of requests), a Portuguese and Brazilian devotion. In Madeira
@@ -3738,8 +3998,11 @@ Nossa Senhora do Bom Despacho:
   it: Madonna del Buon Esito (Bom Despacho)
   hu: Jó Elintézés Boldogasszonya (Bom Despacho)
   nl: Onze-Lieve-Vrouw van de Goede Afhandeling (Bom Despacho)
-  uk: Богородиця Доброго Вирішення (Бон-Деспашу; катол.)
-  ru: Богородица Доброго Решения (Бон-Деспашу; катол.)
+  uk: Матір Божа Доброго Вирішення
+  ru: Богородица Доброго Решения
+  uk_note: Portuguese and Brazilian devotion. Chapel at Campanário (Ribeira Brava), whose festa is known for its açucenas
+    (lilies).
+  uk_established: false
 Nossa Senhora do Calhao:
   kind: marian
   devotion: 'Older spelling of ''Nossa Senhora do Calhau'': the first church of Funchal at the Calhau beach, also called Nossa
@@ -3754,8 +4017,10 @@ Nossa Senhora do Calhao:
   it: Madonna del Calhau (dell'Immacolata Concezione)
   hu: Calhau-i Boldogasszony (Szeplőtelen Fogantatás)
   nl: Onze-Lieve-Vrouw van Calhau (van de Onbevlekte Ontvangenis)
-  uk: Богородиця з Каляу (Непорочного Зачаття; катол.)
-  ru: Богоматерь Калыау (Непорочного Зачатия; катол.)
+  uk: Матір Божа з Каляу
+  ru: Богоматерь Калыау
+  uk_note: Older spelling of Calhau.
+  uk_established: false
 Nossa Senhora da Consolação da freguesia do Estreito de Câmara de Lobos:
   kind: marian
   devotion: Our Lady of Consolation (Augustinian Mater Consolationis) as venerated in the parish of Estreito de Câmara de
@@ -3770,8 +4035,10 @@ Nossa Senhora da Consolação da freguesia do Estreito de Câmara de Lobos:
   it: Madonna della Consolazione (Estreito de Câmara de Lobos)
   hu: Vigasztaló Boldogasszony (Estreito de Câmara de Lobos)
   nl: Onze-Lieve-Vrouw van Troost (Estreito de Câmara de Lobos)
-  uk: Богородиця Утішителька (Ештрейту-ді-Камара-ді-Лобуш; катол.)
-  ru: Богородица Утешительница (Эштрейту-ди-Камара-ди-Лобуш; катол.)
+  uk: Матір Божа Утішителька з Ештрейту-ді-Камара-ді-Лобуш
+  ru: Богородица Утешительница
+  uk_note: The parish qualifier only gives the location.
+  uk_established: false
 Nossa Senhora da Fátima:
   kind: marian
   devotion: Our Lady of Fátima, the Marian apparitions at Cova da Iria, Portugal, in 1917. A universal Latin devotion. uk
@@ -3786,8 +4053,10 @@ Nossa Senhora da Fátima:
   it: Madonna di Fátima
   hu: Fatimai Szűz Mária
   nl: Onze-Lieve-Vrouw van Fátima
-  uk: Фатімська Богоматір
+  uk: Матір Божа Фатімська
   ru: Фатимская Богоматерь
+  uk_note: Apparitions at Cova da Iria, 1917 (13 May).
+  uk_established: true
 Nossa Senhora do Livramento da freguesia do Estreito da Calheta:
   kind: marian
   devotion: Our Lady of Deliverance (Livramento), as venerated in the parish of Estreito da Calheta, Madeira. uk uses the
@@ -3802,8 +4071,10 @@ Nossa Senhora do Livramento da freguesia do Estreito da Calheta:
   it: Madonna della Liberazione (Estreito da Calheta)
   hu: Szabadító Boldogasszony (Estreito da Calheta)
   nl: Onze-Lieve-Vrouw van de Bevrijding (Estreito da Calheta)
-  uk: Богородиця Визволителька (Ештрейту-да-Калета)
+  uk: Богородиця Визволителька з Ештрейту-да-Калети
   ru: Богоматерь Избавительница (Эштрейту-да-Калета)
+  uk_note: The core title is fixed and established. The parish qualifier only gives the location.
+  uk_established: false
 Nossa Senhora da Madre de Deus:
   kind: marian
   devotion: Our Lady, Mother of God (Theotokos). Common Portuguese convent and chapel title, as at Madre de Deus in Lisbon.
@@ -3818,8 +4089,10 @@ Nossa Senhora da Madre de Deus:
   it: Maria Santissima Madre di Dio
   hu: Szűz Mária, Isten Anyja
   nl: Onze-Lieve-Vrouw, Moeder Gods
-  uk: Пресвята Богородиця, Матір Божа
+  uk: Матір Божа
   ru: Пресвятая Богородица, Матерь Божия
+  uk_note: Mother of God (Theotokos), 1 January. Common convent title (e.g. Madre de Deus, Lisbon).
+  uk_established: true
 Nossa Senhora do Perpétuo Socorro:
   kind: marian
   devotion: Our Mother of Perpetual Help (Succour), from the Redemptorist icon in Rome. uk uses the established Greek-Catholic
@@ -3834,8 +4107,10 @@ Nossa Senhora do Perpétuo Socorro:
   it: Madonna del Perpetuo Soccorso
   hu: Szűz Mária, az Örök Segítség Anyja
   nl: Onze-Lieve-Vrouw van Altijddurende Bijstand
-  uk: Богородиця Неустанної Помочі
+  uk: Матір Божа Неустанної Помочі
   ru: Богоматерь Неустанной Помощи
+  uk_note: Redemptorist icon, Rome (27 June).
+  uk_established: true
 Nossa Senhora dos Remédios e Amparo:
   kind: marian
   devotion: A compound local title combining Our Lady of (Good) Remedy, a Trinitarian devotion, with Our Lady of Protection
@@ -3851,8 +4126,10 @@ Nossa Senhora dos Remédios e Amparo:
   it: Madonna del Rimedio e del Soccorso
   hu: Jó Orvosság és Oltalom Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Goede Remedie en Bescherming
-  uk: Богородиця Цілителька і Заступниця
+  uk: Матір Божа Доброго Ліку і Заступниця
   ru: Богоматерь Целительница и Заступница
+  uk_note: Compound local title. The pairing is a coined rendering.
+  uk_established: false
 Nossa Senhora da Saúde do Monte Olivete:
   kind: marian
   devotion: Our Lady of Health (Salus Infirmorum) at a site called Monte Olivete (Mount Olivet). The base title is established,
@@ -3868,8 +4145,10 @@ Nossa Senhora da Saúde do Monte Olivete:
   it: Madonna della Salute del Monte Oliveto
   hu: Olajfák hegyi Betegek Gyógyítója Boldogasszony
   nl: Onze-Lieve-Vrouw van de Gezondheid van de Olijfberg
-  uk: Богородиця Здоров'я Немічних з Оливної гори
+  uk: Матір Божа Здоров'я з Монте-Олівете
   ru: Богоматерь Здравие больных с Масличной горы
+  uk_note: Monte Olivete (Mount Olivet) is an unverified local site name.
+  uk_established: false
 Nossa Senhora do Vale:
   kind: marian
   devotion: Our Lady of the Valley, a local devotion. The names are descriptive renderings. In uk and ru they follow Catholic
@@ -3884,8 +4163,10 @@ Nossa Senhora do Vale:
   it: Madonna della Valle
   hu: Völgyi Boldogasszony
   nl: Onze-Lieve-Vrouw van het Dal
-  uk: Богородиця Долини
+  uk: Матір Божа Долини
   ru: Богоматерь Долины
+  uk_note: Local devotion. Descriptive rendering.
+  uk_established: false
 Nossa Senhora do Vale e que:
   kind: marian
   devotion: Text-extraction fragment; the title is 'Nossa Senhora do Vale' (Our Lady of the Valley), with trailing words ('e
@@ -3900,8 +4181,10 @@ Nossa Senhora do Vale e que:
   it: Madonna della Valle
   hu: Völgyi Boldogasszony
   nl: Onze-Lieve-Vrouw van het Dal
-  uk: Богородиця з Долини
+  uk: Матір Божа Долини
   ru: Богоматерь Долины
+  uk_note: The fragment 'e que' was removed.
+  uk_established: false
 Nossa Senhora das Vitórias:
   kind: marian
   devotion: Our Lady of Victories (cf. Notre-Dame des Victoires, Paris; Our Lady of Victory/Rosary after Lepanto). uk and
@@ -3916,8 +4199,10 @@ Nossa Senhora das Vitórias:
   it: Madonna delle Vittorie
   hu: Győzelmes Boldogasszony
   nl: Onze-Lieve-Vrouw van de Overwinning
-  uk: Богородиця Переможниця
+  uk: Матір Божа Перемог
   ru: Богоматерь Победительница
+  uk_note: Our Lady of Victories (cf. Notre-Dame des Victoires), 7 October.
+  uk_established: false
 Nossa Senhora das Vitórias e construída:
   kind: marian
   devotion: Text-extraction fragment; the title is 'Nossa Senhora das Vitórias' (Our Lady of Victories), with trailing words
@@ -3932,8 +4217,10 @@ Nossa Senhora das Vitórias e construída:
   it: Madonna delle Vittorie
   hu: Győzelmes Boldogasszony
   nl: Onze-Lieve-Vrouw van de Overwinning
-  uk: Богородиця Переможниця
+  uk: Матір Божа Перемог
   ru: Богоматерь Победительница
+  uk_note: The fragment 'e construída' was removed.
+  uk_established: false
 Nossa Senhora da Conceição de Vila Viçosa e desempenhou:
   kind: marian
   devotion: Text-extraction fragment; the title is 'Nossa Senhora da Conceição de Vila Viçosa'. This is the Immaculate Conception
@@ -3950,8 +4237,10 @@ Nossa Senhora da Conceição de Vila Viçosa e desempenhou:
   it: Nostra Signora della Concezione di Vila Viçosa
   hu: Vila Viçosa-i Szeplőtelen Fogantatás Boldogasszonya
   nl: Onze-Lieve-Vrouw van de Onbevlekte Ontvangenis van Vila Viçosa
-  uk: Непорочне Зачаття Діви Марії з Віла-Вісоза
+  uk: Непорочне Зачаття Пресвятої Діви Марії з Віла-Вісози
   ru: Непорочное Зачатие Девы Марии из Вила-Висозы
+  uk_note: The fragment 'e desempenhou' was removed. It may name a ship, order or confraternity.
+  uk_established: false
 Nossa Senhora das Mercês e que:
   kind: marian
   devotion: 'Cleaned title: ''Nossa Senhora das Mercês''. The words ''e que'' are left over from the surrounding text. This
@@ -3967,8 +4256,10 @@ Nossa Senhora das Mercês e que:
   it: Madonna della Mercede
   hu: Fogolykiváltó Boldogasszony
   nl: Onze-Lieve-Vrouw van Barmhartigheid (de Mercede)
-  uk: Діва Марія Милосердна (Богородиця де Мерсед), католицька назва
+  uk: Матір Божа Милосердя
   ru: Дева Мария Милосердная (Богородица де Мерсед), католическая назва
+  uk_note: The fragment 'e que' was removed. Mercedarian devotion (24 September).
+  uk_established: false
 Nossa Senhora do Carmo e Santa Thereza:
   kind: marian
   devotion: 'Two dedications joined together: Our Lady of Mount Carmel and St Teresa of Ávila (''Thereza'' is the old spelling).
@@ -3983,8 +4274,10 @@ Nossa Senhora do Carmo e Santa Thereza:
   it: Madonna del Carmine e santa Teresa d'Avila
   hu: Kármelhegyi Boldogasszony és Avilai Szent Teréz
   nl: Onze-Lieve-Vrouw van de Karmel en de heilige Teresa van Ávila
-  uk: Пресвята Діва Марія з гори Кармель і свята Тереза Авільська
+  uk: Матір Божа з гори Кармель і свята Тереза Авільська
   ru: Пресвятая Дева Мария с горы Кармель и святая Тереза Авильская
+  uk_note: Two Carmelite dedications. 'Thereza' is the old spelling. Feasts 16 July and 15 October.
+  uk_established: true
 Nossa Senhora do Monte e do Senhor dos Milagres:
   kind: marian
   devotion: Two dedications joined together. The first is Our Lady of the Mount, patroness of Funchal and Madeira, whose shrine
@@ -4000,8 +4293,10 @@ Nossa Senhora do Monte e do Senhor dos Milagres:
   it: Madonna del Monte e Signore dei Miracoli
   hu: Monte-i Boldogasszony és a Csodák Ura
   nl: Onze-Lieve-Vrouw van Monte en Heer der Wonderen
-  uk: Богородиця з Монте і Господь Чудес (католицьке)
+  uk: Матір Божа з Монте і Господь Чудес
   ru: Богоматерь с Монте и Господь Чудес (католическое)
+  uk_note: Senhor dos Milagres is the crucifix of Machico (8–9 October).
+  uk_established: false
 Nossa Senhora do Amparo e de Nossa Senhora da Boa Morte:
   kind: marian
   devotion: Two dedications joined together. Nossa Senhora do Amparo (Our Lady of Help/Protection) has no fixed international
@@ -4017,8 +4312,10 @@ Nossa Senhora do Amparo e de Nossa Senhora da Boa Morte:
   it: Madonna dell'Amparo (del Soccorso) e Madonna della Buona Morte
   hu: Oltalmazó Boldogasszony és a Jó Halál Boldogasszonya (Nagyboldogasszony)
   nl: Onze-Lieve-Vrouw van Bijstand en Onze-Lieve-Vrouw van de Goede Dood
-  uk: Богородиця Заступниця (Ампаро) та Успіння Пресвятої Богородиці
+  uk: Матір Божа Заступниця і Успіння Пресвятої Богородиці
   ru: Богородица Заступница (Ампаро) и Успение Пресвятой Богородицы
+  uk_note: Two titles joined. The Boa Morte part follows the fixed rendering.
+  uk_established: false
 Nossa Senhora do Patrocinio e ali:
   kind: marian
   devotion: 'Cleaned title: ''Nossa Senhora do Patrocínio''. The words ''e ali'' are left over from the text. This is the
@@ -4034,8 +4331,11 @@ Nossa Senhora do Patrocinio e ali:
   it: Madonna del Patrocinio
   hu: Szűz Mária oltalma (Boldogasszony pártfogása)
   nl: Onze-Lieve-Vrouw van Bescherming
-  uk: Покров Пресвятої Богородиці (Покровительство Діви Марії)
+  uk: Матір Божа Покровителька
   ru: Покров Пресвятой Богородицы (Покровительство Девы Марии)
+  uk_note: The fragment 'e ali' was removed. Patrocinium BMV (second Sunday of November), a Latin feast distinct from the
+    Eastern Покров.
+  uk_established: false
 Nossa Senhora da Conceição de que:
   kind: marian
   devotion: 'Cleaned title: ''Nossa Senhora da Conceição''. The words ''de que'' are left over from the text. This is the
@@ -4050,8 +4350,10 @@ Nossa Senhora da Conceição de que:
   it: Immacolata Concezione
   hu: Szeplőtelen Fogantatás
   nl: Onbevlekte Ontvangenis van Maria
-  uk: Непорочне Зачаття Діви Марії
+  uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: The fragment 'de que' was removed.
+  uk_established: true
 Nossa Senhora da Piedade e julgamos:
   kind: marian
   devotion: 'Cleaned title: ''Nossa Senhora da Piedade''. The words ''e julgamos'' are left over from the text. This is Our
@@ -4066,8 +4368,10 @@ Nossa Senhora da Piedade e julgamos:
   it: Madonna della Pietà
   hu: Fájdalmas Anya (Pietà)
   nl: Onze-Lieve-Vrouw van Smarten (Piëta)
-  uk: Скорботна Матір Божа (П'єта)
+  uk: Матір Божа Скорботна
   ru: Скорбящая Богоматерь (Пьета)
+  uk_note: The fragment 'e julgamos' was removed. Follows the fixed rendering for Piedade.
+  uk_established: true
 Nossa Senhora do Perpetuo Socorro:
   kind: marian
   devotion: Our Lady of Perpetual Help, the Redemptorist icon. The uk and ru forms follow Catholic usage.
@@ -4083,6 +4387,8 @@ Nossa Senhora do Perpetuo Socorro:
   nl: Onze-Lieve-Vrouw van Altijddurende Bijstand
   uk: Матір Божа Неустанної Помочі
   ru: Богородица Неустанной Помощи
+  uk_note: Spelling variant without an accent.
+  uk_established: true
 Nossa Senhora do Monte e nele:
   kind: marian
   devotion: 'Cleaned title: ''Nossa Senhora do Monte''. The words ''e nele'' are left over from the text. This is the patroness
@@ -4097,8 +4403,10 @@ Nossa Senhora do Monte e nele:
   it: Madonna del Monte
   hu: Monte-i Boldogasszony
   nl: Onze-Lieve-Vrouw van Monte
-  uk: Богородиця з Монте (католицьке)
+  uk: Матір Божа з Монте
   ru: Богоматерь с Монте (католическое)
+  uk_note: The fragment 'e nele' was removed.
+  uk_established: false
 Nossa Senhora do Amparo e dos Remédios:
   kind: marian
   devotion: 'Two dedications joined together: Our Lady of Help (Amparo) and Our Lady of Remedies (Remédios, known in other
@@ -4114,8 +4422,10 @@ Nossa Senhora do Amparo e dos Remédios:
   it: Madonna del Soccorso e del Buon Rimedio
   hu: Oltalmazó és Jó Orvosság Boldogasszony
   nl: Onze-Lieve-Vrouw van Bijstand en van de Goede Remedie
-  uk: Богородиця Заступниця і Богородиця Доброго Ліку
+  uk: Матір Божа Заступниця і Матір Божа Доброго Ліку
   ru: Богородица Заступница и Богородица Доброго Врачевания
+  uk_note: Two dedications joined. Both are descriptive renderings.
+  uk_established: false
 Nossa Senhora da Porciúncula:
   kind: marian
   devotion: Our Lady of the Angels of the Portiuncula, the Franciscan chapel near Assisi. The uk and ru forms follow Catholic
@@ -4130,8 +4440,10 @@ Nossa Senhora da Porciúncula:
   it: Madonna degli Angeli della Porziuncola
   hu: Porciunkulai Angyalos Boldogasszony
   nl: Onze-Lieve-Vrouw van de Engelen (Portiuncula)
-  uk: Богородиця Ангельська з Порціюнкули
+  uk: Матір Божа Ангельська з Порціюнкули
   ru: Богородица Ангельская (Порциункула)
+  uk_note: Portiuncula, Assisi (2 August).
+  uk_established: true
 Nossa Senhora da Conceição e de São João:
   kind: marian
   devotion: 'Two dedications joined together: the Immaculate Conception and São João. I took São João to be St John the Baptist,
@@ -4147,8 +4459,10 @@ Nossa Senhora da Conceição e de São João:
   it: Immacolata Concezione e san Giovanni Battista
   hu: Szeplőtelen Fogantatás és Keresztelő Szent János
   nl: Onbevlekte Ontvangenis en Johannes de Doper
-  uk: Непорочне Зачаття Діви Марії і святий Іван Хреститель
+  uk: Непорочне Зачаття Пресвятої Діви Марії і святий Іван Хреститель
   ru: Непорочное зачатие Девы Марии и святой Иоанн Креститель
+  uk_note: São João is assumed to be the Baptist (24 June); it could be the Evangelist.
+  uk_established: true
 Nossa Senhora da Concepção:
   kind: marian
   devotion: The Immaculate Conception. 'Concepção' is an older spelling of Conceição. In uk and ru the names follow Catholic
@@ -4163,8 +4477,10 @@ Nossa Senhora da Concepção:
   it: Immacolata Concezione
   hu: Szeplőtelen Fogantatás
   nl: Onbevlekte Ontvangenis van Maria
-  uk: Непорочне Зачаття Діви Марії
+  uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: Older spelling of Conceição.
+  uk_established: true
 Nossa Senhora do Descanso:
   kind: marian
   devotion: Our Lady of Rest, a Portuguese devotion. It usually refers to Mary resting during the Flight into Egypt. The names
@@ -4179,8 +4495,10 @@ Nossa Senhora do Descanso:
   it: Madonna del Riposo
   hu: Pihenő Boldogasszony
   nl: Onze-Lieve-Vrouw van de Rust
-  uk: Богородиця Спочинку
+  uk: Матір Божа Відпочинку
   ru: Богоматерь Отдохновения
+  uk_note: Usually Mary resting during the Flight into Egypt. Descriptive rendering.
+  uk_established: false
 Senhora da Conceyção:
   kind: marian
   devotion: An archaic spelling of Nossa Senhora da Conceição, the Immaculate Conception. In uk and ru the names follow Catholic
@@ -4195,8 +4513,10 @@ Senhora da Conceyção:
   it: Immacolata Concezione
   hu: Szeplőtelen Fogantatás
   nl: Onbevlekte Ontvangenis van Maria
-  uk: Непорочне Зачаття Діви Марії
+  uk: Непорочне Зачаття Пресвятої Діви Марії
   ru: Непорочное зачатие Девы Марии
+  uk_note: Archaic spelling of Conceição.
+  uk_established: true
 Nossa Senhora das Virtudes e Santana:
   kind: marian
   devotion: 'This is a double chapel dedication: Our Lady of the Virtues (a Marian title common in Portugal, France and Italy)
@@ -4213,8 +4533,10 @@ Nossa Senhora das Virtudes e Santana:
   it: Madonna delle Virtù e sant'Anna
   hu: Erények Boldogasszonya és Szent Anna
   nl: Onze-Lieve-Vrouw van de Deugden en heilige Anna
-  uk: Богородиця Чеснот і свята Анна
+  uk: Матір Божа Чеснот і свята Анна
   ru: Богоматерь Добродетелей и святая Анна
+  uk_note: Double dedication. Santana = Sant'Ana (26 July).
+  uk_established: false
 Nossa Senhora da Fé e de Nossa Senhora de Jesus:
   kind: marian
   devotion: 'This is a double Marian dedication: Our Lady of Faith and Our Lady of Jesus. ''Senhora de Jesus'' is a local
@@ -4230,8 +4552,10 @@ Nossa Senhora da Fé e de Nossa Senhora de Jesus:
   it: Madonna della Fede e Madonna di Gesù
   hu: Hit Boldogasszonya és Jézus Boldogasszonya
   nl: Onze-Lieve-Vrouw van het Geloof en Onze-Lieve-Vrouw van Jezus
-  uk: Богородиця Віри і Богородиця Ісусова
+  uk: Матір Божа Віри і Матір Божа Ісусова
   ru: Богоматерь Веры и Богоматерь Иисусова
+  uk_note: Double dedication. Both are descriptive renderings.
+  uk_established: false
 Nossa Senhora das Angustias:
   kind: marian
   devotion: This is the Sorrowful Mother (Mater Dolorosa). It is the Iberian 'Angústias/Angustias' title, known for example
@@ -4247,8 +4571,10 @@ Nossa Senhora das Angustias:
   it: Madonna Addolorata
   hu: Fájdalmas Szűzanya
   nl: Onze-Lieve-Vrouw van Smarten
-  uk: Матір Божа Болісна (Скорботна)
+  uk: Матір Божа Болісна
   ru: Скорбящая Божья Матерь (Богоматерь Семи Скорбей)
+  uk_note: Spelling variant of Angústias (cf. Granada), 15 September.
+  uk_established: true
 Nossa Senhora da Conceição e Almas:
   kind: marian
   devotion: This is the Immaculate Conception combined with the Holy Souls in Purgatory ('Almas'), a typical Portuguese brotherhood
@@ -4265,6 +4591,8 @@ Nossa Senhora da Conceição e Almas:
   nl: Onbevlekte Ontvangenis van Maria en de Arme Zielen
   uk: Непорочне Зачаття Пресвятої Діви Марії і душі в чистилищі
   ru: Непорочное зачатие Девы Марии и души в чистилище
+  uk_note: Typical Portuguese brotherhood dedication. Feasts 8 December and 2 November.
+  uk_established: true
 Nossa Senhora da Boa Hora e Nossa Senhora da Conceição:
   kind: marian
   devotion: This combines Our Lady of the Good Hour, invoked for a safe childbirth (the Italian equivalent is the Madonna
@@ -4281,8 +4609,10 @@ Nossa Senhora da Boa Hora e Nossa Senhora da Conceição:
   it: Madonna del Buon Parto e Madonna Immacolata
   hu: Szerencsés Szülés Boldogasszonya és Szeplőtelen Fogantatás
   nl: Onze-Lieve-Vrouw van de Goede Geboorte en Onbevlekte Ontvangenis
-  uk: Богородиця Щасливих Пологів і Непорочне Зачаття
+  uk: Матір Божа Доброї Години і Непорочне Зачаття Пресвятої Діви Марії
   ru: Богоматерь Благополучного Разрешения и Непорочное зачатие
+  uk_note: Two titles joined. The first is descriptive.
+  uk_established: false
 Nossa Senhora da Saúde e a de São João:
   kind: marian
   devotion: This combines Our Lady of Health (Salus Infirmorum, the title of the Madonna della Salute in Venice) with St John.
@@ -4298,8 +4628,10 @@ Nossa Senhora da Saúde e a de São João:
   it: Madonna della Salute e san Giovanni Battista
   hu: Betegek Gyógyítója Boldogasszony és Keresztelő Szent János
   nl: Onze-Lieve-Vrouw, Heil der Zieken, en Johannes de Doper
-  uk: Богородиця — Оздоровлення недужих і святий Іван Хреститель
+  uk: Матір Божа Здоров'я і святий Іван Хреститель
   ru: Богоматерь — Здравие немощных и святой Иоанн Креститель
+  uk_note: In Madeira, São João normally means the Baptist (24 June).
+  uk_established: false
 Nossa Senhora do Rosário e Santana:
   kind: marian
   devotion: This combines Our Lady of the Rosary with St Anne. Santana is also a municipality in Madeira. The Ukrainian and
@@ -4314,8 +4646,10 @@ Nossa Senhora do Rosário e Santana:
   it: Madonna del Rosario e sant'Anna
   hu: Rózsafüzér Királynője és Szent Anna
   nl: Onze-Lieve-Vrouw van de Rozenkrans en heilige Anna
-  uk: Богородиця Розарію (Вервиці) і свята Анна
+  uk: Матір Божа Розарію і свята Анна
   ru: Богоматерь Розария и святая Анна
+  uk_note: Feasts 7 October and 26 July. Santana is also a municipality in Madeira.
+  uk_established: true
 Nossa Senhora do Livramento e São Vicente:
   kind: marian
   devotion: This combines Our Lady of Deliverance with St Vincent of Saragossa, the deacon and martyr who is patron of Lisbon.
@@ -4333,6 +4667,8 @@ Nossa Senhora do Livramento e São Vicente:
   nl: Onze-Lieve-Vrouw van Verlossing en Vincentius van Zaragoza
   uk: Богородиця Визволителька і святий Вікентій Сарагоський
   ru: Богородица Избавительница и святой Викентий Сарагосский
+  uk_note: St Vincent of Saragossa (22 January). São Vicente is also a municipality in Madeira.
+  uk_established: true
 Nossa Senhora do Livramento e Nossa Senhora dos Varadouros:
   kind: marian
   devotion: This combines Our Lady of Deliverance with a purely local Funchal title, Our Lady of the Varadouros. A 'varadouro'
@@ -4348,8 +4684,10 @@ Nossa Senhora do Livramento e Nossa Senhora dos Varadouros:
   it: Madonna della Liberazione e Madonna dei Varadouros
   hu: Szabadító Boldogasszony és a Varadourosi Boldogasszony
   nl: Onze-Lieve-Vrouw van Verlossing en Onze-Lieve-Vrouw van de Varadouros
-  uk: Богородиця Визволителька і Богородиця Варадоурос
+  uk: Богородиця Визволителька і Матір Божа з Варадоуруш
   ru: Богородица Избавительница и Богоматерь Варадоурос
+  uk_note: The second title is purely local to Funchal.
+  uk_established: false
 Nossa Senhora da Estrella:
   kind: marian
   devotion: This is Our Lady of the Star ('Estrella' is the old spelling of 'Estrela'), a title related to Stella Maris. It
@@ -4365,8 +4703,10 @@ Nossa Senhora da Estrella:
   it: Madonna della Stella
   hu: Csillagos Boldogasszony
   nl: Onze-Lieve-Vrouw ter Sterre
-  uk: Богородиця Зоря
+  uk: Матір Божа Зірки
   ru: Богоматерь Звезда
+  uk_note: Old spelling of Estrela.
+  uk_established: false
 Senhora da Boa Morte:
   kind: marian
   devotion: This is Our Lady of the Good Death, the Dormition devotion connected with the Assumption. The Ukrainian and Russian
@@ -4383,6 +4723,8 @@ Senhora da Boa Morte:
   nl: Onze-Lieve-Vrouw van de Goede Dood (Ontslapen van Maria)
   uk: Успіння Пресвятої Богородиці
   ru: Успение Пресвятой Богородицы
+  uk_note: Short form. Follows the fixed rendering for Boa Morte.
+  uk_established: true
 Senhora da Piedade:
   kind: marian
   devotion: 'This is Our Lady of Pity, the Pietà: Mary holding the dead Christ, a form of the Sorrowful Mother. The Ukrainian
@@ -4397,8 +4739,10 @@ Senhora da Piedade:
   it: Madonna della Pietà
   hu: Fájdalmas Szűzanya (Pietà)
   nl: Piëta (Onze-Lieve-Vrouw van Smarten)
-  uk: Пієта (Матір Божа Болісна)
+  uk: Матір Божа Скорботна
   ru: Пьета (Скорбящая Божья Матерь)
+  uk_note: Short form. Follows the fixed rendering for Piedade.
+  uk_established: true
 Nossa Senhora dos Varadouros e Portas da cidade:
   kind: marian
   devotion: This is a local Marian title found only in Funchal, not a devotion of the wider Church. It is named after the
@@ -4419,5 +4763,8 @@ Nossa Senhora dos Varadouros e Portas da cidade:
   it: Nostra Signora dei Varadouros e delle Porte della Città
   hu: Varadourosi és Városkapui Boldogasszony
   nl: Onze-Lieve-Vrouw van de Varadouros en de Stadspoorten
-  uk: Богородиця з Варадоурош і Міських Брам
+  uk: Матір Божа з Варадоуруш і Міських Брам
   ru: Богоматерь Варадоуруш и Городских Ворот
+  uk_note: 'Funchal-only title: protector of the city gates (Portão dos Varadouros). The image is now in a side chapel of
+    the Sé. Coined rendering.'
+  uk_established: false
