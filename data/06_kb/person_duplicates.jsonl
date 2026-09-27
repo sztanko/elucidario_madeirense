@@ -1,0 +1,109 @@
+{"keep": "person:napoleao", "merge": ["person:napoleao-bonaparte", "person:napoleao-i"], "reason": "same individual (qid Q517)"}
+{"keep": "person:napoleao-bonaparte", "merge": ["person:napoleao", "person:napoleao-i"], "reason": "same individual (qid Q517)"}
+{"keep": "person:napoleao-i", "merge": ["person:napoleao", "person:napoleao-bonaparte"], "reason": "same individual (qid Q517)"}
+{"keep": "person:bowdich", "merge": ["person:t-bowdich"], "reason": "same individual (qid None)"}
+{"keep": "person:t-bowdich", "merge": ["person:bowdich"], "reason": "same individual (qid None)"}
+{"keep": "person:carlos-azevedo-meneses", "merge": ["person:carlos-azevedo-menezes"], "reason": "same individual (qid Q21393819)"}
+{"keep": "person:carlos-azevedo-menezes", "merge": ["person:carlos-azevedo-meneses"], "reason": "same individual (qid Q21393819)"}
+{"keep": "person:ribeiro-real", "merge": ["person:joao-bettencourt-araujo-carvalhal-esmeraldo"], "reason": "same individual (qid None)"}
+{"keep": "person:joao-bettencourt-araujo-carvalhal-esmeraldo", "merge": ["person:ribeiro-real"], "reason": "same individual (qid None)"}
+{"keep": "person:pedro-iv", "merge": ["person:pedro-imperador-brasil"], "reason": "same individual (qid None)"}
+{"keep": "person:pedro-imperador-brasil", "merge": ["person:pedro-iv"], "reason": "same individual (qid None)"}
+{"keep": "person:carlos-ii", "merge": ["person:carlos-ii-inglaterra"], "reason": "same individual (qid Q122553)"}
+{"keep": "person:carlos-ii-inglaterra", "merge": ["person:carlos-ii"], "reason": "same individual (qid Q122553)"}
+{"keep": "person:diogo-gomes", "merge": ["person:diogo-gomes-cintra", "person:diogo-gomes-sintra"], "reason": "same individual (qid Q1226846)"}
+{"keep": "person:diogo-gomes-cintra", "merge": ["person:diogo-gomes", "person:diogo-gomes-sintra"], "reason": "same individual (qid Q1226846)"}
+{"keep": "person:diogo-gomes-sintra", "merge": ["person:diogo-gomes", "person:diogo-gomes-cintra"], "reason": "same individual (qid Q1226846)"}
+{"keep": "person:diogo-ornelas-frazao", "merge": ["person:calcada", "person:diogo-ornelas-franca-carvalhal-frazao-figueiroa"], "reason": "same individual (qid None)"}
+{"keep": "person:calcada", "merge": ["person:diogo-ornelas-frazao", "person:diogo-ornelas-franca-carvalhal-frazao-figueiroa"], "reason": "same individual (qid None)"}
+{"keep": "person:diogo-ornelas-franca-carvalhal-frazao-figueiroa", "merge": ["person:diogo-ornelas-frazao", "person:calcada"], "reason": "same individual (qid None)"}
+{"keep": "person:luis-filipe-s1", "merge": ["person:luis-filipe-orleans"], "reason": "same individual (qid Q7771)"}
+{"keep": "person:luis-filipe-orleans", "merge": ["person:luis-filipe-s1"], "reason": "same individual (qid Q7771)"}
+{"keep": "person:carlos", "merge": ["person:carlos-2", "person:carlos-i"], "reason": "same individual (qid None)"}
+{"keep": "person:carlos-2", "merge": ["person:carlos", "person:carlos-i"], "reason": "same individual (qid None)"}
+{"keep": "person:carlos-i", "merge": ["person:carlos", "person:carlos-2"], "reason": "same individual (qid Q158874)"}
+{"keep": "person:diogo", "merge": ["person:diogo-duque-viseu"], "reason": "same individual (qid None)"}
+{"keep": "person:diogo-duque-viseu", "merge": ["person:diogo"], "reason": "same individual (qid None)"}
+{"keep": "person:goncalo-aires", "merge": ["person:goncalo-aires-ferreira"], "reason": "same individual (qid Q116040031)"}
+{"keep": "person:goncalo-aires-ferreira", "merge": ["person:goncalo-aires"], "reason": "same individual (qid Q116040031)"}
+{"keep": "person:vasco-martins-moniz", "merge": ["person:vasco-martins-moniz-meneses"], "reason": "same individual (qid None)"}
+{"keep": "person:vasco-martins-moniz-meneses", "merge": ["person:vasco-martins-moniz"], "reason": "same individual (qid None)"}
+{"keep": "person:joao-leandro-afonso", "merge": ["person:joao-afonso-correia"], "reason": "same individual (qid None)"}
+{"keep": "person:joao-afonso-correia", "merge": ["person:joao-leandro-afonso"], "reason": "same individual (qid None)"}
+{"keep": "person:segundo-conde-carvalhal-s2", "merge": ["person:segundo-conde-carvalhal"], "reason": "same individual (qid None)"}
+{"keep": "person:segundo-conde-carvalhal", "merge": ["person:segundo-conde-carvalhal-s2"], "reason": "same individual (qid None)"}
+{"keep": "person:a-c-noronha", "merge": ["person:adolfo-cesar-noronha"], "reason": "same individual (qid Q85925010)"}
+{"keep": "person:adelaide", "merge": ["person:adelaide-saxe-meiningen"], "reason": "same individual (qid None)"}
+{"keep": "person:adelaide-saxe-meiningen", "merge": ["person:adelaide"], "reason": "same individual (qid None)"}
+{"keep": "person:adolfo-cesar-noronha", "merge": ["person:a-c-noronha"], "reason": "same individual (qid Q85925010)"}
+{"keep": "person:luiz-antonio-goncalves-freitas-s2", "merge": ["person:luiz-antonio-goncalves-freitas-s1"], "reason": "same individual (qid None)"}
+{"keep": "person:luiz-antonio-goncalves-freitas-s1", "merge": ["person:luiz-antonio-goncalves-freitas-s2"], "reason": "same individual (qid None)"}
+{"keep": "person:jacinto-augusto-sant-ana-vasconcelos-moniz-betencourt", "merge": ["person:nogueiras"], "reason": "same individual (qid None)"}
+{"keep": "person:nogueiras", "merge": ["person:jacinto-augusto-sant-ana-vasconcelos-moniz-betencourt"], "reason": "same individual (qid None)"}
+{"keep": "person:agostinho-antonio-ornelas-vasconcelos", "merge": ["person:agostinho-ornelas"], "reason": "same individual (qid Q9588432)"}
+{"keep": "person:agostinho-ornelas", "merge": ["person:agostinho-antonio-ornelas-vasconcelos"], "reason": "same individual (qid Q9588432)"}
+{"keep": "person:aires-ornelas", "merge": ["person:ayres-ornelas-vasconcelos-s1", "person:ayres-ornelas-vasconcelos-s4"], "reason": "same individual (qid Q9593108)"}
+{"keep": "person:daniel-ornelas-vasconcelos-s1", "merge": ["person:daniel-ornelas-vasconcelos-s5", "person:daniel-ornelas-vasconcelos-s3"], "reason": "same individual (qid Q408671)"}
+{"keep": "person:daniel-ornelas-vasconcelos-s5", "merge": ["person:daniel-ornelas-vasconcelos-s1", "person:daniel-ornelas-vasconcelos-s3"], "reason": "same individual (qid Q408671)"}
+{"keep": "person:ayres-ornelas-vasconcelos-s1", "merge": ["person:aires-ornelas", "person:ayres-ornelas-vasconcelos-s4"], "reason": "same individual (qid Q9593108)"}
+{"keep": "person:ayres-ornelas-vasconcelos-s4", "merge": ["person:aires-ornelas", "person:ayres-ornelas-vasconcelos-s1"], "reason": "same individual (qid Q9593108)"}
+{"keep": "person:daniel-ornelas-vasconcelos-s3", "merge": ["person:daniel-ornelas-vasconcelos-s1", "person:daniel-ornelas-vasconcelos-s5"], "reason": "same individual (qid Q408671)"}
+{"keep": "person:alberto-artur-sarmento", "merge": ["person:a-artur-sarmento"], "reason": "same individual (qid Q85917998)"}
+{"keep": "person:a-artur-sarmento", "merge": ["person:alberto-artur-sarmento"], "reason": "same individual (qid Q85917998)"}
+{"keep": "person:jose-bettencourt-camara", "merge": ["person:jose-bettencourt-camara-s2"], "reason": "same individual (qid None)"}
+{"keep": "person:jose-bettencourt-camara-s2", "merge": ["person:jose-bettencourt-camara"], "reason": "same individual (qid None)"}
+{"keep": "person:robert-reid-kalley", "merge": ["person:roberto-reid-kalley"], "reason": "same individual (qid Q10363183)"}
+{"keep": "person:roberto-reid-kalley", "merge": ["person:robert-reid-kalley"], "reason": "same individual (qid Q10363183)"}
+{"keep": "person:filipe-ii", "merge": ["person:filipe-ii-castela", "person:filipe-ii-espanha", "person:filipe-ii-espanha-filipe-i-portugal"], "reason": "same individual (qid Q34417)"}
+{"keep": "person:filipe-ii-castela", "merge": ["person:filipe-ii", "person:filipe-ii-espanha", "person:filipe-ii-espanha-filipe-i-portugal"], "reason": "same individual (qid Q34417)"}
+{"keep": "person:filipe-ii-espanha", "merge": ["person:filipe-ii", "person:filipe-ii-castela", "person:filipe-ii-espanha-filipe-i-portugal"], "reason": "same individual (qid Q34417)"}
+{"keep": "person:filipe-ii-espanha-filipe-i-portugal", "merge": ["person:filipe-ii", "person:filipe-ii-castela", "person:filipe-ii-espanha"], "reason": "same individual (qid Q34417)"}
+{"keep": "person:florencio-jose-correia-melo", "merge": ["person:florencio-jose-melo"], "reason": "same individual (qid None)"}
+{"keep": "person:florencio-jose-melo", "merge": ["person:florencio-jose-correia-melo"], "reason": "same individual (qid None)"}
+{"keep": "person:luis", "merge": ["person:luis-i", "person:luis-i-of-portugal", "person:luis-braganca"], "reason": "same individual (qid None)"}
+{"keep": "person:luis-i", "merge": ["person:luis", "person:luis-i-of-portugal", "person:luis-braganca"], "reason": "same individual (qid Q156175)"}
+{"keep": "person:luis-i-of-portugal", "merge": ["person:luis", "person:luis-i", "person:luis-braganca"], "reason": "same individual (qid Q156175)"}
+{"keep": "person:luis-braganca", "merge": ["person:luis", "person:luis-i", "person:luis-i-of-portugal"], "reason": "same individual (qid None)"}
+{"keep": "person:luis-figueiredo", "merge": ["person:luis-figueiredo-lemos"], "reason": "same individual (qid None)"}
+{"keep": "person:luis-figueiredo-lemos", "merge": ["person:luis-figueiredo"], "reason": "same individual (qid Q10321742)"}
+{"keep": "person:manuel", "merge": ["person:manuel-i", "person:manuel-i-king-of-portugal"], "reason": "same individual (qid None)"}
+{"keep": "person:manuel-i", "merge": ["person:manuel", "person:manuel-i-king-of-portugal"], "reason": "same individual (qid Q191231)"}
+{"keep": "person:manuel-i-king-of-portugal", "merge": ["person:manuel", "person:manuel-i"], "reason": "same individual (qid Q191231)"}
+{"keep": "person:fernando-i", "merge": ["person:fernando-infante-of-portugal-s1"], "reason": "same individual (qid Q108442)"}
+{"keep": "person:fernando-infante-of-portugal-s1", "merge": ["person:fernando-i"], "reason": "same individual (qid Q108442)"}
+{"keep": "person:fernao-nunes", "merge": ["person:fernao-nunes-o-bravo"], "reason": "same individual (qid None)"}
+{"keep": "person:fernao-nunes-o-bravo", "merge": ["person:fernao-nunes"], "reason": "same individual (qid None)"}
+{"keep": "person:joao-goncalves-zarco", "merge": ["person:joao-goncalves-zargo"], "reason": "same individual (qid Q360742)"}
+{"keep": "person:joao-goncalves-zargo", "merge": ["person:joao-goncalves-zarco"], "reason": "same individual (qid Q360742)"}
+{"keep": "person:tojal", "merge": ["person:joao-gualberto-oliveira"], "reason": "same individual (qid Q18276169)"}
+{"keep": "person:joao-gualberto-oliveira", "merge": ["person:tojal"], "reason": "same individual (qid Q18276169)"}
+{"keep": "person:joaquim-ricardo-trindade-vasconcelos", "merge": ["person:joaquim-ricardo-trindade-vasconcelos-s1"], "reason": "same individual (qid None)"}
+{"keep": "person:joaquim-ricardo-trindade-vasconcelos-s1", "merge": ["person:joaquim-ricardo-trindade-vasconcelos"], "reason": "same individual (qid None)"}
+{"keep": "person:amelia", "merge": ["person:amelia-leuchtenberg", "person:amelia-imperatriz-viuva-brasil"], "reason": "same individual (qid None)"}
+{"keep": "person:amelia-leuchtenberg", "merge": ["person:amelia", "person:amelia-imperatriz-viuva-brasil"], "reason": "same individual (qid Q129837)"}
+{"keep": "person:amelia-imperatriz-viuva-brasil", "merge": ["person:amelia", "person:amelia-leuchtenberg"], "reason": "same individual (qid None)"}
+{"keep": "person:maria", "merge": ["person:maria-ii"], "reason": "same individual (qid None)"}
+{"keep": "person:maria-amelia", "merge": ["person:maria-amelia-braganca"], "reason": "same individual (qid Q235815)"}
+{"keep": "person:maria-amelia-braganca", "merge": ["person:maria-amelia"], "reason": "same individual (qid Q235815)"}
+{"keep": "person:maria-ii", "merge": ["person:maria"], "reason": "same individual (qid Q221145)"}
+{"keep": "person:joao-costa-ataide-azevedo", "merge": ["person:joao-costa-ataide"], "reason": "same individual (qid None)"}
+{"keep": "person:joao-costa-ataide", "merge": ["person:joao-costa-ataide-azevedo"], "reason": "same individual (qid None)"}
+{"keep": "person:nicolau-maximiliano-duque-leuchtenberg", "merge": ["person:maximiliano-duque-leuchtenberg-principe-eichstaedt"], "reason": "same individual (qid Q442284)"}
+{"keep": "person:maximiliano-duque-leuchtenberg-principe-eichstaedt", "merge": ["person:nicolau-maximiliano-duque-leuchtenberg"], "reason": "same individual (qid Q442284)"}
+{"keep": "person:francisco-dias-franco", "merge": ["person:francisco-franco-sousa"], "reason": "same individual (qid Q1003437)"}
+{"keep": "person:francisco-franco-sousa", "merge": ["person:francisco-dias-franco"], "reason": "same individual (qid Q1003437)"}
+{"keep": "person:francisco-homem-gouveia", "merge": ["person:francisco-homem-gouveia-s2"], "reason": "same individual (qid None)"}
+{"keep": "person:francisco-homem-gouveia-s2", "merge": ["person:francisco-homem-gouveia"], "reason": "same individual (qid None)"}
+{"keep": "person:jose-lucio-travassos-valdez", "merge": ["person:jose-lucio-travassos-valdes"], "reason": "same individual (qid Q560962)"}
+{"keep": "person:jose-lucio-travassos-valdes", "merge": ["person:jose-lucio-travassos-valdez"], "reason": "same individual (qid Q560962)"}
+{"keep": "person:henrique-ii-castela", "merge": ["person:henrique-ii-of-castile"], "reason": "same individual (qid None)"}
+{"keep": "person:henrique-ii-of-castile", "merge": ["person:henrique-ii-castela"], "reason": "same individual (qid None)"}
+{"keep": "person:fernando", "merge": ["person:infante-fernando"], "reason": "same individual (qid None)"}
+{"keep": "person:infante-fernando", "merge": ["person:fernando"], "reason": "same individual (qid None)"}
+{"keep": "person:infante-henrique", "merge": ["person:henrique", "person:henrique-infante"], "reason": "same individual (qid Q182897)"}
+{"keep": "person:henrique", "merge": ["person:infante-henrique", "person:henrique-infante"], "reason": "same individual (qid Q182897)"}
+{"keep": "person:henrique-infante", "merge": ["person:infante-henrique", "person:henrique"], "reason": "same individual (qid Q182897)"}
+{"keep": "person:pio-vii", "merge": ["person:pius-vii"], "reason": "same individual (qid Q124754)"}
+{"keep": "person:pius-vii", "merge": ["person:pio-vii"], "reason": "same individual (qid Q124754)"}
+{"keep": "person:antonio-aluisio-jervis-atouguia", "merge": ["person:atouguia"], "reason": "same individual (qid None)"}
+{"keep": "person:atouguia", "merge": ["person:antonio-aluisio-jervis-atouguia"], "reason": "same individual (qid None)"}

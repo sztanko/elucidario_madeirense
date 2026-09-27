@@ -210,13 +210,42 @@ Particles are always lower case, even at the start of a transcribed toponym insi
 - **D.** before a monarch with a regnal number is dropped (D. João IV → Жуан IV). Without a number it stays: D. Sebastião → дон Себастьян; D. Miguel → дон Мигел.
 - Initials: transcribe the initial as the first letter of the full transcribed name if the KB knows it (J. → Ж., A. → А., C. → К. or С., G. → Г. or Ж., H. → Э. for Henrique). If the full name is unknown, use J → Ж, C → К, G → Г, H → Э, X → Ш, and the obvious letter otherwise.
 
-### 5.3 Monarchs, popes, saints, biblical names
+### 5.3 Monarchs, popes, saints and other historical figures
 
-- Portuguese monarchs: use the forms of Russian historiography (§13): Афонсу, Санчу, Диниш, Педру, Фернанду, Жуан, **Дуарте**, Мануэл, **Себастьян**, Энрики, **Филипп**, Мария, Жозе, Мигел, Луиш, Карлуш. Keep the Roman numeral.
-  - Numbering trap: Portuguese Filipe I, II, III = Spanish Felipe II, III, IV. Keep the **Portuguese** number (Filipe II → Филипп II). The KB links the identity.
-- Popes, emperors and foreign monarchs: the traditional Russian form (Leão X → Лев X; Carlos V (emperor) → Карл V).
-- Saints as persons: the traditional Russian form with lower-case «святой/святая»: São Pedro → святой Пётр; Santa Isabel → святая Елизавета (§7.3).
-- Christ, the Virgin, biblical figures: translate (Иисус Христос, Дева Мария, Богоматерь).
+**Authoritative source:** `kb/historical_figures.yaml`, 374 figures. Each was matched to Wikidata, and the
+name is taken from that language's Wikipedia and then harmonised: the same individual always gets the same name. Well-known
+figures take the name **established** in the language, never a transcription. For example, Infante D. Henrique →
+**Генрих Мореплаватель**; D. Manuel I → **Мануэл I**;
+Cristóvão Colombo → **Христофор Колумб**. Local Madeiran figures who are not in the file are transcribed by §5.1.
+Excerpt:
+
+| Portuguese | Running text | First mention | Wikidata |
+|---|---|---|---|
+| 1.º Duque de Palmela | герцог Палмела | Педру де Соуза Гольштейн, 1-й герцог Палмела (Pedro de Sousa Holstein) |  |
+| A. C. de Noronha | Адолфу де Норонья | Адолфу Сезар де Норонья (Adolfo César de Noronha) | Q85925010 |
+| A. M. Norman | Альфред Мерл Норман | Альфред Мерл Норман | Q2835333 |
+| Afonso VI | Афонсу VI | Афонсу VI | Q691168 |
+| Aires de Ornelas de Vasconcelos | Айреш ди Орнелаш и Вашконселуш | Айреш ди Орнелаш и Вашконселуш (Aires de Ornelas e Vasconcelos) | Q408671 |
+| Alberto I, Príncipe de Mónaco | Альбер I | князь Монако Альбер I | Q159646 |
+| Alemanio Fini | Алеманио Фино | Алеманио Фино | Q65515924 |
+| Alexandre Herculano | Алешандре Эркулану | Алешандре Эркулану (Alexandre Herculano) | Q520688 |
+| Alexandre VII | Александр VII | папа Александр VII | Q127254 |
+| Alexandre VIII | Александр VIII | папа Александр VIII | Q101294 |
+| Alexandre dos Países Baixos | принц Александр Нидерландский | принц Александр Нидерландский | Q2201566 |
+| Alfredo Ernesto de Sá Cardoso | Алфреду де Са Кардозу | Алфреду Эрнешту де Са Кардозу (Alfredo Ernesto de Sá Cardoso) | Q718841 |
+| Alfredo Rodrigues Gaspar | Алфреду Родригеш Гашпар | Алфреду Родригеш Гашпар (Alfredo Rodrigues Gaspar) | Q357343 |
+| Alphonse Milne Edwards | Альфонс Мильн-Эдвардс | Альфонс Мильн-Эдвардс | Q542059 |
+| Alvise Cadamosto | Альвизе Кадамосто | Альвизе Кадамосто | Q360073 |
+| Anatole France | Анатоль Франс | Анатоль Франс | Q42443 |
+| António Caetano de Sousa | Антониу Каэтану де Соза | Антониу Каэтану де Соза (António Caetano de Sousa) | Q9618814 |
+| António Ferreira de Serpa | Антониу Феррейра де Серпа | Антониу Феррейра де Серпа (António Ferreira de Serpa) | Q9619089 |
+| António Galvão | Антониу Галван | Антониу Галван (António Galvão) | Q2857742 |
+| António José de Almeida | Антониу Жозе де Алмейда | Антониу Жозе де Алмейда | Q551542 |
+| António Maria de Fontes Pereira de Melo | Фонтеш Перейра де Мелу | Антониу Мария де Фонтеш Перейра де Мелу | Q611180 |
+| António Nobre | Антониу Нобре | Антониу Нобре | Q611238 |
+| António Pereira de Figueiredo | Антониу Перейра де Фигейреду | Антониу Перейра де Фигейреду (António Pereira de Figueiredo) | Q16492205 |
+| António Rodrigues Sampaio | Антониу Родригеш Сампайю | Антониу Родригеш Сампайю (António Rodrigues Sampaio) | Q611362 |
+| António Saldanha da Gama | Антониу де Салданья да Гама | Антониу де Салданья да Гама (António de Saldanha da Gama) | Q1661560 |
 
 ### 5.4 Headwords of person articles
 
@@ -277,75 +306,295 @@ Translate the generic word and transcribe the specific. Portuguese particles bet
 
 ## 7. Religious names
 
-### 7.1 Buildings named after a dedication
+**Authoritative source:** `kb/religious_titles.yaml`. It was researched per title, using Wikipedia in each language and
+church sources. Dedications are **never translated word for word**. Use the equivalent established in church usage.
+For example:
+- Nossa Senhora da Boa Morte → **Успение Пресвятой Богородицы**.
+- Livramento → **Богородица Избавительница**.
+- Piedade → **Скорбящая Богоматерь (Пьета)**.
+- São Tiago → **святой Иаков (Старший)**.
+Where no established Eastern equivalent exists, the table gives the Catholic form and marks it `descriptive`.
 
-Churches, chapels, convents, hermitages and similar buildings:
+### 7.1 Three uses of a dedication
+1. **Church, chapel, confraternity or feast.** Translate the generic word (церковь, часовня, монастырь, кафедральный
+   собор, братство) and put the established title in the genitive: *часовня Успения Пресвятой Богородицы (Capela de
+   Nossa Senhora da Boa Morte)* at first mention.
+2. **Place name containing a dedication** (Santa Cruz, São Vicente, Santo António da Serra, the parish of Nossa Senhora
+   do Monte): a **toponym**, transcribed by the place rules. At first mention, give the established title as the meaning
+   where it helps: *Носа-Сеньора-ду-Монти (Богоматерь Монте, Nossa Senhora do Monte)*.
+3. **The devotion, image or feast itself:** translate with the established title (*образ Скорбящей Богоматери*,
+   *праздник Святого Духа*).
 
-1. Translate the generic word: igreja → церковь; capela, ermida → часовня; convento, mosteiro → монастырь; sé → кафедральный собор; recolhimento → обитель.
-2. Transcribe the dedication with hyphens: Nossa Senhora → Носа-Сеньора; Senhor → Сеньор; São/Santo/Santa → Сан/Санту/Санта.
-3. Always give the meaning, using the standard Russian Catholic title (§7.2, §7.3).
-
-> часовня Носа-Сеньора-да-Консейсан (часовня Богоматери Непорочного Зачатия, Capela de Nossa Senhora da Conceição)
-
-A dedication used alone as a name follows the owner's model:
-
-> Носа-Сеньора-да-Пиедади (Богоматерь Скорбящая, Nossa Senhora da Piedade)
-
-### 7.2 Persons, feasts, devotions, images, confraternities: translate, do not transcribe
-
-- The Virgin herself: "a imagem de Nossa Senhora" → «образ Богоматери». "Nossa Senhora de Fátima" as a devotion → Фатимская Богоматерь (Nossa Senhora de Fátima).
-- Feasts: Festas do Espírito Santo → праздники Святого Духа (Festas do Espírito Santo).
-- Saints as persons: São Pedro → святой Пётр.
-
-**The test**: is the name a *place or a building*? Then transcribe it and give the meaning. Is it a *being, an event or a devotion*? Then translate it.
-
-Marian titles (use these for meanings and translations):
-
-| Portuguese | Russian | Portuguese | Russian |
-|---|---|---|---|
-| Piedade | Богоматерь Скорбящая | Dores | Богоматерь Семи Скорбей |
-| Angústias | Богоматерь Скорбей | Conceição | Богоматерь Непорочного Зачатия |
-| Anunciação | Богоматерь Благовещения | Apresentação | Богоматерь Введения во храм |
-| Encarnação | Богоматерь Воплощения | Candelária | Богоматерь Сретения |
-| Carmo | Богоматерь Кармельская | Loreto | Лоретская Богоматерь |
-| Fátima | Фатимская Богоматерь | Belém | Вифлеемская Богоматерь |
-| Monte | Богоматерь Горы | Calhau | Богоматерь Галечного берега |
-| Anjos | Богоматерь Ангелов | Ajuda | Богоматерь Помощи |
-| Alegria | Богоматерь Радости | Amparo | Богоматерь Заступница |
-| Boa Hora | Богоматерь Благого Часа | Boa Morte | Богоматерь Доброй Смерти |
-| Boa Nova | Богоматерь Благой Вести | Boa Viagem | Богоматерь Доброго Пути |
-| Bom Despacho | Богоматерь Благого Исхода | Bom Sucesso | Богоматерь Благого Успеха |
-| Consolação | Богоматерь Утешительница | Desterro | Богоматерь Изгнания |
-| Esperança | Богоматерь Надежды | Estrela | Богоматерь Звезды |
-| Fé | Богоматерь Веры | Glória | Богоматерь Славы |
-| Graça | Богоматерь Благодати | Livramento | Богоматерь Избавления |
-| Luz | Богоматерь Света | Paz | Богоматерь Мира |
-| Maravilhas | Богоматерь Чудес | Mãe dos Homens | Богоматерь Матерь Людей |
-| Mercês | Богоматерь Милосердия | Carmo (Igreja do) | see Carmo |
-| Madre de Deus | Матерь Божия | Senhor dos Milagres | Господь Чудес |
-| Espírito Santo | Святой Дух | Corpo Santo | Святое Тело |
-
-Titles with no transparent meaning (for example Brotas) get no meaning, only the original: часовня Носа-Сеньора-даш-Броташ (Capela de Nossa Senhora das Brotas).
-
-### 7.3 Saints (for meanings and for saints as persons)
-
-| Portuguese | Russian | Portuguese | Russian |
-|---|---|---|---|
-| São Pedro | святой Пётр | São Paulo | святой Павел |
-| São João | святой Иоанн | São Tiago, Santiago | святой Иаков |
-| São Francisco | святой Франциск | São Lourenço | святой Лаврентий |
-| São Vicente | святой Викентий | São Jorge | святой Георгий |
-| São Sebastião | святой Себастьян | São Bartolomeu | святой Варфоломей |
-| São Bernardino | святой Бернардин | São Roque | святой Рох |
-| São Martinho | святой Мартин | São Gonçalo | святой Гонсалу |
-| Santo António | святой Антоний | Santa Clara | святая Клара |
-| Santa Catarina | святая Екатерина | Santa Isabel | святая Елизавета |
-| Santa Luzia | святая Луция | Santa Ana (Santana) | святая Анна |
-| Santa Maria Maior | Святая Мария Великая | Santa Cruz | Святой Крест |
-
-In meanings the words are capitalised, since they form part of a name: монастырь Святой Клары.
-
----
+### 7.2 Full table (Russian)
+| Portuguese | Kind | Russian | Established | Also a toponym |
+|---|---|---|---|---|
+| Nossa Senhora da Boa Morte | marian | Успение Пресвятой Богородицы | yes |  |
+| Nossa Senhora do Livramento | marian | Богородица Избавительница | yes |  |
+| São Tiago | saint | апостол Иаков Зеведеев | yes |  |
+| Santa Cruz | christological | Святой Крест | yes | yes |
+| Santa Maria | marian | Пресвятая Дева Мария | yes | yes |
+| Santa Luzia | saint | святая Луция | yes | yes |
+| São Vicente | saint | святой Викентий Сарагосский | yes | yes |
+| São Lourenço | saint | святой Лаврентий | yes | yes |
+| Santa Clara | saint | святая Клара Ассизская | yes |  |
+| Santo António | saint | святой Антоний Падуанский | yes | yes |
+| São Francisco | saint | святой Франциск Ассизский | yes |  |
+| São João | saint | святой Иоанн Креститель | yes |  |
+| São Jorge | saint | святой Георгий Победоносец | yes | yes |
+| São Pedro | saint | святой апостол Пётр | yes | yes |
+| Santa Catarina | saint | святая Екатерина Александрийская | yes | yes |
+| São Martinho | saint | святой Мартин Турский | yes | yes |
+| São Roque | saint | святой Рох | yes | yes |
+| Santa Casa | institution | Святой дом (Милосердия) | descriptive |  |
+| Nossa Senhora da Piedade | marian | Пьета (Скорбящая Богоматерь) | yes |  |
+| Nossa Senhora do Monte | marian | Богоматерь Монте (католическая традиция) | descriptive | yes |
+| São Gonçalo | saint | святой Гонсалу из Амаранти | yes | yes |
+| Nossa Senhora do Calhau | marian | Богоматерь Калау | descriptive | yes |
+| São Miguel | saint | Архангел Михаил | yes |  |
+| São Paulo | saint | апостол Павел | yes |  |
+| Santa Casa da Misericórdia | institution | Святой дом милосердия (Мизерикордия) | yes |  |
+| Nossa Senhora da Conceição | marian | Непорочное зачатие Девы Марии | yes |  |
+| Santa Isabel | saint | святая Елизавета Португальская | yes |  |
+| Espírito Santo | trinitarian | Святой Дух | yes |  |
+| Santo Amaro | saint | святой Мавр | yes | yes |
+| São Lazaro | saint | праведный Лазарь Четверодневный | yes | yes |
+| São Sebastião | saint | святой Себастьян (мученик Севастиан) | yes |  |
+| Nossa Senhora da Graça | marian | Божия Матерь Благодатная | yes |  |
+| Santa Sé | institution | Святой Престол | yes |  |
+| Santa Helena | saint | равноапостольная Елена | yes | yes |
+| Santo António da Serra | saint | Санту-Антониу-да-Серра | yes | yes |
+| São João de Deus | saint | святой Иоанн Божий | yes |  |
+| São José | saint | святой Иосиф Обручник | yes |  |
+| Senhor dos Milagres | christological | Господь Чудес | descriptive |  |
+| Nossa Senhora do Amparo | marian | Богоматерь Заступница | descriptive |  |
+| Santíssimo Sacramento | christological | Святейшее Таинство | yes |  |
+| Senhor Jesus | christological | Господь Иисус | yes |  |
+| Sagrado Coração de Jesus | christological | Святейшее Сердце Иисуса | yes |  |
+| Santa Quitéria | saint | святая Квитерия | yes | yes |
+| Nossa Senhora da Estrela | marian | Богоматерь Звезда | descriptive |  |
+| Nossa Senhora do Rosário | marian | Богоматерь Розария | yes | yes |
+| Santo António do Funchal | saint | святой Антоний Падуанский | yes | yes |
+| São Tomé | saint | апостол Фома | yes |  |
+| Santa Casa da Misericordia | institution | Святой дом милосердия | descriptive |  |
+| Nossa Senhora da Penha de França | marian | Богоматерь Пенья-де-Франсия | descriptive | yes |
+| São Bernardino | saint | святой Бернардин Сиенский | yes |  |
+| Santíssima Virgem | marian | Пресвятая Дева Мария | yes |  |
+| Nossa Senhora da Consolação | marian | Богоматерь Утешительница | yes |  |
+| Santo Servo de Deus | saint | святой Слуга Божий (брат Педру да Гуарда) | descriptive |  |
+| São Roque do Faial | saint | Сан-Роке-ду-Фаял (святой Рох) | yes | yes |
+| Nossa Senhora das Preces | marian | Богоматерь Молитв (католическая традиция) | descriptive | yes |
+| São Bartolomeu | saint | святой Варфоломей | yes |  |
+| São Filipe | saint | святой Филипп | yes |  |
+| São António | saint | святой Антоний Падуанский | yes | yes |
+| Nossa Senhora do Bom Sucesso | marian | Богоматерь Доброго Успеха (католическая традиция) | descriptive |  |
+| Nossa Senhora da Incarnação | marian | Благовещение Пресвятой Богородицы | yes |  |
+| Santo Oficio | institution | Святая канцелярия (инквизиция) | yes |  |
+| Santo Espírito | trinitarian | Святой Дух | yes |  |
+| Nossa Senhora da Conceição do Ilhéu | marian | Непорочное зачатие Девы Марии (католическая традиция; форт на островке, Фуншал) | yes | yes |
+| São Gil | saint | святой Эгидий (католическая традиция) | yes |  |
+| Nossa Senhora dos Remédios | marian | Богоматерь Исцеления (католическая традиция) | descriptive |  |
+| São Marítimo | saint | святой Маритим | descriptive |  |
+| Nossa Senhora das Angústias | marian | Скорбящая Богоматерь | yes |  |
+| Santo Antão | saint | преподобный Антоний Великий | yes |  |
+| São Luiz | saint | Людовик IX Святой (католическая традиция) | yes |  |
+| São João de Latrão | institution | Святой Иоанн Латеранский / Латеранская базилика (католическая традиция) | yes |  |
+| Nossa Senhora do Faial | marian | Богоматерь Фаялская (католическая традиция) | descriptive | yes |
+| Nossa Senhora das Mercês | marian | Богородица Милосердия (Мерседарии; католическая традиция) | yes |  |
+| São Bento | saint | преподобный Бенедикт Нурсийский | yes |  |
+| São Braz | saint | священномученик Власий Севастийский | yes |  |
+| Nossa Senhora da Nazaré | marian | Богоматерь из Назаре (католическая традиция) | yes |  |
+| Nossa Senhora da Luz | marian | Богоматерь Света (катол.) | yes |  |
+| Nossa Senhora da Vida | marian | Богоматерь Жизни (катол., описательно) | descriptive |  |
+| Santo André | saint | апостол Андрей Первозванный | yes |  |
+| São Vicente de Paulo | saint | святой Викентий де Поль | yes |  |
+| Nossa Senhora das Neves | marian | Богоматерь Снежная | yes | yes |
+| Nossa Senhora da Ajuda | marian | Богоматерь Помощница (катол.) | yes | yes |
+| Nossa Senhora das Dores | marian | Скорбящая Божия Матерь (Mater Dolorosa, катол.) | yes |  |
+| Nossa Senhora do Socorro | marian | Богоматерь Заступница (Помощи) (катол.) | descriptive | yes |
+| Nossa Senhora dos Prazeres | marian | Семь радостей Девы Марии | yes | yes |
+| Nossa Senhora da Quietação | marian | Богоматерь Покоя (катол., описательно) | descriptive |  |
+| São Roque do Funchal | saint | святой Рох (приход Сан-Роки, Фуншал) | yes | yes |
+| Nossa Senhora dos Anjos | marian | Богоматерь Ангелов (катол.) | yes | yes |
+| Nossa Senhora da Apresentação | marian | Введение во храм Пресвятой Богородицы | yes |  |
+| Nossa Senhora das Brotas | marian | Богоматерь из Броташа | descriptive |  |
+| Nossa Senhora da Boa Hora | marian | Богоматерь Доброго Часа | descriptive |  |
+| Nossa Senhora de Belém | marian | Вифлеемская икона Божией Матери | yes |  |
+| Nossa Senhora do Carmo | marian | Пресвятая Дева Мария с горы Кармель | yes |  |
+| Senhor dos Passos | christological | Несение Креста (Христос, несущий крест) | yes |  |
+| Nossa Senhora da Alegria | marian | Богоматерь Радости | descriptive |  |
+| Nossa Senhora do Loreto | marian | Лоретская Богоматерь | yes | yes |
+| São Cristovão | saint | Святой Христофор | yes |  |
+| Nossa Senhora do Desterro | marian | Богоматерь Бегства в Египет | yes |  |
+| Nossa Senhora da Soledade | marian | Богоматерь Одиночества | yes |  |
+| Nossa Senhora da Natividade | marian | Рождество Пресвятой Богородицы | yes |  |
+| São Julião da Barra | other | Форт Сан-Жулиан-да-Барра | yes | yes |
+| Nossa Senhora da Paz | marian | Царица Мира (Богородица Мира, catholic usage) | yes |  |
+| Nossa Senhora da Esperança | marian | Богоматерь Надежды | yes |  |
+| Nossa Senhora de Guadalupe | marian | Гваделупская Дева Мария | yes |  |
+| São Clemente | saint | Климент Римский | yes |  |
+| São João da Ribeira | saint | Иоанн Креститель (Иоанн Предтеча) | yes | yes |
+| São Francisco das Furnas | saint | Франциск Ассизский | yes |  |
+| Santa Clara do Funchal | institution | Монастырь Святой Клары в Фуншале | descriptive |  |
+| Santa Teresa | saint | Тереза Авильская | yes |  |
+| Nossa Senhora da Vitoria | marian | Богоматерь Победительница (catholic usage) | yes |  |
+| Senhora da Conceição | marian | Непорочное зачатие Девы Марии | yes |  |
+| Nossa Senhora do Pópulo | marian | Мадонна дель Пополо | descriptive |  |
+| São Caetano | saint | святой Каэтан Тиенский (катол.) | yes |  |
+| São Cristóvão | saint | святой мученик Христофор | yes |  |
+| Nossa Senhora das Maravilhas | marian | Богоматерь Дивная (Богоматерь Чудес) | descriptive | yes |
+| Nossa Senhora dos Milagres | marian | Богоматерь Чудотворная | yes |  |
+| São Nicolau | saint | святитель Николай Чудотворец | yes |  |
+| Nossa Senhora da Salvação | marian | Богоматерь Спасения | descriptive |  |
+| Nossa Senhora das Virtudes | marian | Богоматерь Добродетелей | descriptive | yes |
+| São Luís | saint | Людовик IX Святой (катол.) | yes |  |
+| Santa Barbara | saint | великомученица Варвара | yes |  |
+| São Cândido | saint | святой Кандид (катол.) | yes |  |
+| Santa Cruz de Tenerife | other | Санта-Крус-де-Тенерифе | yes | yes |
+| São Fernando | saint | Фердинанд III Святой, король Кастилии (катол.) | yes |  |
+| São Carlos | saint | святой Карл Борромео | yes |  |
+| São Maritimo | other | святой Мартин Турский | descriptive | yes |
+| Santo Padroeiro | other | святой покровитель | yes |  |
+| São Magestade | other | Его Величество | descriptive |  |
+| São Luzia | saint | святая Луция Сиракузская | yes | yes |
+| Nossa Senhora da Cadeira | marian | Мадонна в кресле | descriptive |  |
+| Nossa Senhora das Vitorias | marian | Богоматерь Победы | yes |  |
+| São Francisco de Salles | saint | святой Франциск Сальский | yes |  |
+| São Pedro de Alcantara | saint | святой Пётр Алькантарский | yes |  |
+| Nossa Senhora do Rosario | marian | Пресвятая Дева Мария Розария | yes |  |
+| Nossa Senhora da Glória | marian | Взятие Пресвятой Девы Марии на небо (Богоматерь Славы) | descriptive |  |
+| São Fischer | saint | святой Джон Фишер | descriptive |  |
+| São Paulo de Loanda | other | Луанда (историческое название Сан-Паулу-ди-Луанда) | yes | yes |
+| Santo Espirito | trinitarian | Святой Дух | yes |  |
+| Nossa Senhora do Monte e S | marian | Богоматерь Монте (Мадейра) | descriptive | yes |
+| São Pontif | institution | Верховный понтифик (Папа Римский) | yes |  |
+| Nossa Senhora da Porciuncula | marian | Пресвятая Дева Мария Ангельская (Порциункула) | yes |  |
+| São Bernardino de Sena | saint | святой Бернардин Сиенский | yes |  |
+| São Francisco do Funchal | institution | Францисканский монастырь Святого Франциска в Фуншале | descriptive | yes |
+| Santo Aleixo | saint | преподобный Алексий, человек Божий | yes |  |
+| São João do Pico | other | Крепость Святого Иоанна Крестителя на Пику (Фуншал) | descriptive | yes |
+| Nossa Senhora do Monte do Carmo | marian | Пресвятая Дева Мария горы Кармель | yes |  |
+| Nossa Senhora de Cima | marian | Богоматерь «ди Сима» (Верхняя) | descriptive |  |
+| São Pontífice | institution | Верховный понтифик (Папа Римский) | yes |  |
+| Santo Elói | saint | святой Элигий | yes |  |
+| Senhora da Luz | marian | Богоматерь Света (католическое наименование) | yes |  |
+| Santo António da Ilha | saint | святой Антоний (Падуанский) «с Острова» | descriptive |  |
+| São Paulo de Luanda | other | Сан-Паулу-ди-Луанда (Луанда) | yes | yes |
+| Nossa Senhora do Livramento e que | marian | Богородица Избавительница | yes |  |
+| Nossa Senhora da Anunciação | marian | Благовещение Пресвятой Богородицы | yes |  |
+| Santo António dos Milagres | saint | святой Антоний Падуанский Чудотворец | descriptive |  |
+| Santa Ana | saint | праведная Анна (святая Анна) | yes | yes |
+| São Joaquim | saint | праведный Иоаким | yes |  |
+| Nossa Senhora da Boa Nova | marian | Богоматерь Благой Вести | descriptive |  |
+| Nossa Senhora da Boa Viagem | marian | Богоматерь Доброго Пути (католическое наименование) | descriptive |  |
+| Nossa Senhora da Candelária | marian | Богоматерь Канделария (Канделарийская Дева Мария; праздник Сретения Господня) | yes |  |
+| Nossa Senhora da Fé | marian | Богоматерь Веры | descriptive |  |
+| Nossa Senhora de Jesus | marian | Богоматерь, Матерь Иисуса | descriptive |  |
+| Nossa Senhora do Monserrate | marian | Монсерратская Богоматерь (Дева Мария Монсерратская) | yes |  |
+| Senhora do Monte | marian | Богоматерь Монте | yes | yes |
+| Nossa Senhora da Pena | marian | Богоматерь Пенская | descriptive | yes |
+| Senhora da Penha | marian | Богоматерь Пенья-де-Франсия | yes | yes |
+| Nossa Senhora do Pilar | marian | Пресвятая Дева Мария на Столпе (Богоматерь дель Пилар) | yes | yes |
+| Nossa Senhora da Saúde | marian | Богоматерь Целительница | yes |  |
+| Nossa Senhora do Terço | marian | Богоматерь Розария (Царица Святого Розария) | yes |  |
+| Nossa Senhora dos Varadouros | marian | Богоматерь Варадоуруш | descriptive | yes |
+| Nossa Senhora da Vitória | marian | Богоматерь Победы (Дева Мария Победы) | yes |  |
+| Santa Catarina de Alexandria | saint | Святая Екатерина Александрийская | yes | yes |
+| Senhora da Soledade | marian | Богоматерь Одиночества (Дева Мария Соледад) | yes |  |
+| Santa Cruzada | institution | Булла Святого крестового похода | yes |  |
+| São Pedro do Sul | other | Сан-Педру-ду-Сул | yes | yes |
+| Santa Brígida | saint | Святая Бригита Ирландская | yes |  |
+| Santa Maria de Lisboa | institution | Лиссабонский кафедральный собор (Санта-Мария-Майор) | yes |  |
+| Nossa Senhora do Populo | marian | Мадонна дель Пополо | yes |  |
+| São Francisco de Borja | saint | Святой Франциск Борджиа | yes |  |
+| São Lázaro | saint | Святой Лазарь | yes | yes |
+| Nossa Senhora da Conceição de Vila Viçosa | marian | Непорочное Зачатие Девы Марии из Вила-Висозы (покровительница Португалии) | yes |  |
+| São Domingos | saint | Святой Доминик | yes |  |
+| São Vicente de Cabo | saint | Святой Викентий Сарагосский | yes | yes |
+| Nossa Senhora da Conceição do Porto Moniz | marian | Непорочное зачатие Девы Марии (Порту-Мониш) | yes | yes |
+| Senhor da Ilha | other | Владетель острова (сеньор-донатарий) | descriptive |  |
+| Nossa Senhora de Perpetuo Socorro | marian | Богоматерь Неустанной Помощи | yes |  |
+| Senhora das Vilas | other | Владетельница городов (сеньора) | descriptive |  |
+| Nossa Senhora do Calhau e que | marian | Богоматерь Кальяу (Непорочное зачатие, Фуншал) | descriptive | yes |
+| Nossa Senhora do Funchal | marian | Фуншальская Богоматерь | descriptive | yes |
+| Nossa Senhora da Conceição e Nossa Senhora da Vida | marian | Непорочное зачатие Девы Марии и Богоматерь Жизни | descriptive |  |
+| Nossa Senhora do Desterro e de Nossa Senhora da Boa Hora | marian | Бегство Богородицы в Египет и Богоматерь Доброго Часа (Помощница в родах) | descriptive |  |
+| Nossa Senhora da Visitação | marian | Посещение Пресвятой Девой Марией Елисаветы | yes |  |
+| Senhora das Brotas | marian | Богоматерь из Броташа | descriptive |  |
+| Nossa Senhora de Monserrate | marian | Монсерратская Богоматерь | yes |  |
+| Nossa Senhora da Nazaré e Santa Catarina | marian | Богоматерь из Назаре и святая великомученица Екатерина Александрийская | yes | yes |
+| Nossa Senhora do Bom Despacho e de Nossa Senhora da Gloria | marian | Богородица Доброго Исхода (Бон-Деспашу) и Богородица во Славе (Успение) | descriptive |  |
+| Nossa Senhora dos Remedios | marian | Богородица Целительница | yes |  |
+| Nossa Senhora dos Anjos e do Sagrado Coração de Jesus | marian | Богородица Царица Ангелов и Святейшее Сердце Иисуса | yes |  |
+| Nossa Senhora do Monte e Sant | marian | Богоматерь с Монте | yes | yes |
+| Nossa Senhora da Anunciação e de Nossa Senhora do Socorro | marian | Благовещение Пресвятой Богородицы и Богородица Помощница | yes |  |
+| Nossa Senhora da Consolação e da Madre de Deus | marian | Богородица Утешительница и Матерь Божия | yes |  |
+| Nossa Senhora da Salvação e a de Nossa Senhora do Socorro | marian | Богородица Спасения и Богородица Помощница | descriptive |  |
+| Nossa Senhora do Calhau e foi | marian | Богоматерь из Калау | descriptive | yes |
+| Nossa Senhora da Conceiçâo | marian | Непорочное зачатие Девы Марии | yes |  |
+| Nossa Senhora da Conceição e o | marian | Непорочное зачатие Девы Марии | yes |  |
+| Nossa Senhora da Conceição e que | marian | Непорочное зачатие Девы Марии | yes |  |
+| Nossa Senhora das Mercês e Nossa Senhora da Incarnação | marian | Богородица Милосердия (Мерседариев) и Богородица Воплощения | yes |  |
+| Nossa Senhora da Graça (Câmara de Lobos) | marian | Богоматерь Благодатная (Камара-ди-Лобуш) (католическая традиция) | yes | yes |
+| Nossa Senhora das Graças | marian | Богоматерь Благодатная / Чудотворной медали (католическая традиция) | yes |  |
+| Senhora da Graça | marian | Богоматерь Благодатная (католическая традиция) | yes |  |
+| Nossa Senhora da Penha (de França) | marian | Богоматерь Пенья-де-Франсия (католическая традиция) | descriptive | yes |
+| Nossa Senhora da Calheta | marian | Богоматерь Кальеты (католическая традиция) | descriptive | yes |
+| Nossa Senhora da Assunção | marian | Взятие Пресвятой Девы Марии на небо (католическая традиция) | yes |  |
+| Senhor de Fuerte-Ventura | other | сеньор Фуэртевентуры | yes |  |
+| Nossa Senhora do Lanço | marian | Богоматерь ду Лансу (католическая традиция) | descriptive |  |
+| Nossa Senhora do Recolhimento das Órfãs | institution | Богоматерь приюта для сирот (Фуншал) (католическая традиция) | descriptive |  |
+| Nossa Senhora da Encarnação (Incarnação) | marian | Благовещение Пресвятой Богородицы | yes |  |
+| Nossa Senhora da Madre de Deus e ao | marian | Пресвятая Богородица, Матерь Божия | yes |  |
+| Nossa Senhora das Mercês e Conventos | marian | Дева Мария Милосердная (де ла Мерсед; катол.) | yes |  |
+| Senhora do Calhau | marian | Богоматерь Калыау (Непорочного Зачатия; катол.) | descriptive | yes |
+| Nossa Senhora de Salvação | marian | Богородица Спасения (катол.) | descriptive |  |
+| Nossa Senhora da Consolação do Funchal | marian | Богородица Утешительница (Фуншал; катол.) | yes |  |
+| Nossa Senhora do Monte e a | marian | Богоматерь Монте (покровительница Мадейры; катол.) | yes | yes |
+| Senhor das Alcaçovas | other | сеньор Алкасоваша | descriptive |  |
+| Senhora da Apresentação | marian | Введение во храм Пресвятой Богородицы | yes |  |
+| Senhora do Socorro | marian | Богородица Помощница (Mater de Succursu; катол.) | yes |  |
+| Nossa Senhora do Bom Despacho | marian | Богородица Доброго Решения (Бон-Деспашу; катол.) | descriptive |  |
+| Nossa Senhora do Calhao | marian | Богоматерь Калыау (Непорочного Зачатия; катол.) | descriptive | yes |
+| Nossa Senhora da Consolação da freguesia do Estreito de Câmara de Lobos | marian | Богородица Утешительница (Эштрейту-ди-Камара-ди-Лобуш; катол.) | yes |  |
+| Nossa Senhora da Fátima | marian | Фатимская Богоматерь | yes |  |
+| Nossa Senhora do Livramento da freguesia do Estreito da Calheta | marian | Богоматерь Избавительница (Эштрейту-да-Калета) | yes | yes |
+| Nossa Senhora da Madre de Deus | marian | Пресвятая Богородица, Матерь Божия | yes |  |
+| Nossa Senhora do Perpétuo Socorro | marian | Богоматерь Неустанной Помощи | yes |  |
+| Nossa Senhora dos Remédios e Amparo | marian | Богоматерь Целительница и Заступница | descriptive |  |
+| Nossa Senhora da Saúde do Monte Olivete | marian | Богоматерь Здравие больных с Масличной горы | descriptive | yes |
+| Nossa Senhora do Vale | marian | Богоматерь Долины | descriptive |  |
+| Nossa Senhora do Vale e que | marian | Богоматерь Долины | descriptive |  |
+| Nossa Senhora das Vitórias | marian | Богоматерь Победительница | yes |  |
+| Nossa Senhora das Vitórias e construída | marian | Богоматерь Победительница | yes |  |
+| Nossa Senhora da Conceição de Vila Viçosa e desempenhou | marian | Непорочное Зачатие Девы Марии из Вила-Висозы | descriptive | yes |
+| Nossa Senhora das Mercês e que | marian | Дева Мария Милосердная (Богородица де Мерсед), католическая назва | yes |  |
+| Nossa Senhora do Carmo e Santa Thereza | marian | Пресвятая Дева Мария с горы Кармель и святая Тереза Авильская | yes |  |
+| Nossa Senhora do Monte e do Senhor dos Milagres | marian | Богоматерь с Монте и Господь Чудес (католическое) | descriptive | yes |
+| Nossa Senhora do Amparo e de Nossa Senhora da Boa Morte | marian | Богородица Заступница (Ампаро) и Успение Пресвятой Богородицы | descriptive |  |
+| Nossa Senhora do Patrocinio e ali | marian | Покров Пресвятой Богородицы (Покровительство Девы Марии) | yes |  |
+| Nossa Senhora da Conceição de que | marian | Непорочное зачатие Девы Марии | yes |  |
+| Nossa Senhora da Piedade e julgamos | marian | Скорбящая Богоматерь (Пьета) | yes |  |
+| Nossa Senhora do Perpetuo Socorro | marian | Богородица Неустанной Помощи | yes |  |
+| Nossa Senhora do Monte e nele | marian | Богоматерь с Монте (католическое) | descriptive | yes |
+| Nossa Senhora do Amparo e dos Remédios | marian | Богородица Заступница и Богородица Доброго Врачевания | descriptive |  |
+| Nossa Senhora da Porciúncula | marian | Богородица Ангельская (Порциункула) | yes |  |
+| Nossa Senhora da Conceição e de São João | marian | Непорочное зачатие Девы Марии и святой Иоанн Креститель | yes |  |
+| Nossa Senhora da Concepção | marian | Непорочное зачатие Девы Марии | yes |  |
+| Nossa Senhora do Descanso | marian | Богоматерь Отдохновения | descriptive |  |
+| Senhora da Conceyção | marian | Непорочное зачатие Девы Марии | yes |  |
+| Nossa Senhora das Virtudes e Santana | marian | Богоматерь Добродетелей и святая Анна | descriptive | yes |
+| Nossa Senhora da Fé e de Nossa Senhora de Jesus | marian | Богоматерь Веры и Богоматерь Иисусова | descriptive |  |
+| Nossa Senhora das Angustias | marian | Скорбящая Божья Матерь (Богоматерь Семи Скорбей) | yes |  |
+| Nossa Senhora da Conceição e Almas | marian | Непорочное зачатие Девы Марии и души в чистилище | yes |  |
+| Nossa Senhora da Boa Hora e Nossa Senhora da Conceição | marian | Богоматерь Благополучного Разрешения и Непорочное зачатие | descriptive |  |
+| Nossa Senhora da Saúde e a de São João | marian | Богоматерь — Здравие немощных и святой Иоанн Креститель | yes |  |
+| Nossa Senhora do Rosário e Santana | marian | Богоматерь Розария и святая Анна | yes | yes |
+| Nossa Senhora do Livramento e São Vicente | marian | Богородица Избавительница и святой Викентий Сарагосский | yes | yes |
+| Nossa Senhora do Livramento e Nossa Senhora dos Varadouros | marian | Богородица Избавительница и Богоматерь Варадоурос | descriptive | yes |
+| Nossa Senhora da Estrella | marian | Богоматерь Звезда | yes |  |
+| Senhora da Boa Morte | marian | Успение Пресвятой Богородицы | yes |  |
+| Senhora da Piedade | marian | Пьета (Скорбящая Божья Матерь) | yes |  |
+| Nossa Senhora dos Varadouros e Portas da cidade | marian | Богоматерь Варадоуруш и Городских Ворот | descriptive |  |
 
 ## 8. Institutions and bodies
 
@@ -380,6 +629,65 @@ In meanings the words are capitalised, since they form part of a name: мона�
 - **Latin binomials**: leave unchanged, in italics (*Eriocephalus sericeus*). Vernacular plant and animal names are terms, not names. They belong to the terms glossary.
 
 ---
+
+## 8A. Historical, legal and administrative terms
+
+These are common nouns, not names. They follow `kb/termbase.yaml`, which is authoritative and consistent across all
+entries.
+- `translate`: use the fixed equivalent.
+- `keep`: transcribe (in italics in Latin-script languages) and give the gloss at first mention in each entry.
+- `keep_unit`: keep the historical unit and gloss it.
+
+Inside proper names (Lombo da Guiné, Fajã da Ovelha), these words are part of the toponym and are transcribed with it.
+
+| Portuguese | Policy | Russian | First-mention gloss |
+|---|---|---|---|
+| sesmaria | keep | сесмария (f.) | сесмария (*sesmaria*, королевское пожалование земли поселенцам при условии её обработки) |
+| sesmeiro | keep | сежмейру (m., indecl.) | сежмейру (*sesmeiro*, владелец земельного надела — *sesmaria*) |
+| morgado | translate | майорат (m.); holder: владелец майората | майорат (*morgado*) |
+| morgadio | translate | майорат (m.) | майорат (*morgadio*) |
+| vínculo | translate | фидеикомисс (m.) | фидеикомисс (*vínculo*, неотчуждаемое наследственное имение) |
+| capela | translate | благочестивый вклад (m.) | благочестивый вклад (capela) |
+| capitania | translate | капитания (f.) |  |
+| capitão-donatário | translate | капитан-донатарий (m.) | капитан-донатарий (*capitão-donatário*) |
+| donatário | translate | донатарий (m.) | донатарий (*donatário*) |
+| foro | translate | чинш (m.) | чинш (*foro*, ежегодная плата за землю по эмфитевзису) |
+| foral | translate | жалованная грамота (f.) | жалованная грамота (foral) |
+| dízimo | translate | десятина (f.) |  |
+| colonia | keep | колония (договор колонии) | колония (*colonia*, мадейрский договор аренды: земля принадлежит владельцу, улучшения — арендатору, урожай делится) |
+| benfeitorias | translate | улучшения | улучшения (*benfeitorias*, постройки и стены, возведённые арендатором) |
+| senhorio | translate | сеньория (f.); землевладелец (m.) |  |
+| caseiro | translate | арендатор-жилец (m.) | арендатор-жилец (*caseiro*) |
+| colono | translate | испольщик (m.) | испольщик (*colono*) |
+| vilão | translate | крестьянин (m.) |  |
+| provedor | translate | председатель (Мизерикордии); интендант (казны, таможни, должность до 1835) | председатель (provedor) / интендант (provedor) |
+| almoxarife | keep | алмушарифе (m., indecl.) | алмушарифе (*almoxarife*, королевский сборщик податей и кладовщик) |
+| corregedor | keep | коррежедор (m.) | коррежедор (*corregedor*, королевский окружной судья) |
+| juiz de fora | keep | жуиш-ди-фора (m., indecl.) | жуиш-ди-фора (*juiz de fora*, назначаемый короной судья со стороны) |
+| vereador | translate | гласный (m., pl. гласные) | гласные (*vereadores*) |
+| câmara | translate | палата (f.) |  |
+| câmara municipal | translate | Муниципальная палата; short: палата | Муниципальная палата (*Câmara Municipal*) |
+| concelho | translate | муниципалитет (m.) | муниципалитет (*concelho*) |
+| freguesia | translate | приход (m.) | приход (*freguesia*) |
+| sítio | translate | местность (f.) | местность (*sítio*) |
+| lombo | keep | ломбу (m., indecl.) | ломбу (*lombo*, гребень между двумя долинами) |
+| fajã | keep | фажан (m., на фажане) | фажан (fajã, узкая полоса ровной земли у подножия утёса) |
+| achada | keep | ашада (f.) | ашада (*achada*, плато) |
+| levada | keep | левада (f.) | левада (*levada*, оросительный канал) |
+| heréu | keep | ереу (m., indecl.) | ереу (*heréu*, владелец доли воды левады) |
+| poio | keep | пойу (m., indecl.) | пойу (*poio*, небольшая возделываемая терраса) |
+| palheiro | translate | соломенная хижина (f.) |  |
+| moradia | translate | жилище (n.) |  |
+| quinta | keep | усадьба (f.); in names: Кинта | усадьба (*quinta*) |
+| engenho | translate | сахарная мельница (f.) | сахарная мельница (engenho) |
+| réis | keep_unit | рейс (indecl.) | рейс (*réis*, старая португальская счётная денежная единица; 1$000 = 1000 рейс, 1:000$000 = одно конту = 1 000 000 рейс) |
+| conto | keep_unit | конту (m., indecl.) | конту (*conto*, миллион реалов; с 1911 г. — 1000 эскудо) |
+| alqueire | keep_unit | алкейри (m., indecl.) | алкейри (*alqueire*, мера сыпучих тел для зерна; как мера площади около 900 м²) |
+| almude | keep_unit | алмуди (indecl.) | алмуди (*almude*, старинная мера жидкости, около 17,5 л) |
+| pipa | keep_unit | пипа (f.) | пипа (*pipa*, винная бочка и мера, около 400–500 л) |
+| braça | keep_unit | браса (f.) | браса (*braça*, сажень, ок. 2,2 м) |
+
+Not yet in the termbase (to be added): mil-réis
 
 ## 9. Foreign (non-Portuguese) names inside the text
 
@@ -473,23 +781,95 @@ Porto Santo: the rules give the same result, Порту-Санту, which is als
 
 ### 13.2 Persons
 
-| Portuguese | Russian |
-|---|---|
-| Infante D. Henrique | инфант Генрих Мореплаватель |
-| Cristóvão Colombo | Христофор Колумб |
-| Vasco da Gama | Васко да Гама |
-| Fernão de Magalhães | Фернан Магеллан |
-| Luís de Camões | Луис де Камоэнс |
-| Bartolomeu Dias | Бартоломеу Диаш |
-| Pedro Álvares Cabral | Педру Алвариш Кабрал |
-| Fernando Pessoa | Фернанду Пессоа |
-| Marquês de Pombal | маркиз де Помбал |
-| (D.) Sebastião (king) | (дон) Себастьян (I) |
-| D. Duarte (king) | дон Дуарте (Дуарте I) |
-| Filipe I/II/III | Филипп I/II/III |
-| Leão X and other popes | Лев X etc. |
-| Francisco de Sales (the saint) | святой Франциск Сальский |
-| São Francisco Xavier (the saint) | святой Франциск Ксаверий |
+**Authoritative source:** `kb/historical_figures.yaml`, 374 figures. Each was matched to Wikidata, and the
+name is taken from that language's Wikipedia and then harmonised: the same individual always gets the same name. Well-known
+figures take the name **established** in the language, never a transcription. For example, Infante D. Henrique →
+**Генрих Мореплаватель**; D. Manuel I → **Мануэл I**;
+Cristóvão Colombo → **Христофор Колумб**. Local Madeiran figures who are not in the file are transcribed by §5.1.
+Excerpt:
+
+| Portuguese | Running text | First mention | Wikidata |
+|---|---|---|---|
+| 1.º Duque de Palmela | герцог Палмела | Педру де Соуза Гольштейн, 1-й герцог Палмела (Pedro de Sousa Holstein) |  |
+| A. C. de Noronha | Адолфу де Норонья | Адолфу Сезар де Норонья (Adolfo César de Noronha) | Q85925010 |
+| A. M. Norman | Альфред Мерл Норман | Альфред Мерл Норман | Q2835333 |
+| Afonso VI | Афонсу VI | Афонсу VI | Q691168 |
+| Aires de Ornelas de Vasconcelos | Айреш ди Орнелаш и Вашконселуш | Айреш ди Орнелаш и Вашконселуш (Aires de Ornelas e Vasconcelos) | Q408671 |
+| Alberto I, Príncipe de Mónaco | Альбер I | князь Монако Альбер I | Q159646 |
+| Alemanio Fini | Алеманио Фино | Алеманио Фино | Q65515924 |
+| Alexandre Herculano | Алешандре Эркулану | Алешандре Эркулану (Alexandre Herculano) | Q520688 |
+| Alexandre VII | Александр VII | папа Александр VII | Q127254 |
+| Alexandre VIII | Александр VIII | папа Александр VIII | Q101294 |
+| Alexandre dos Países Baixos | принц Александр Нидерландский | принц Александр Нидерландский | Q2201566 |
+| Alfredo Ernesto de Sá Cardoso | Алфреду де Са Кардозу | Алфреду Эрнешту де Са Кардозу (Alfredo Ernesto de Sá Cardoso) | Q718841 |
+| Alfredo Rodrigues Gaspar | Алфреду Родригеш Гашпар | Алфреду Родригеш Гашпар (Alfredo Rodrigues Gaspar) | Q357343 |
+| Alphonse Milne Edwards | Альфонс Мильн-Эдвардс | Альфонс Мильн-Эдвардс | Q542059 |
+| Alvise Cadamosto | Альвизе Кадамосто | Альвизе Кадамосто | Q360073 |
+| Anatole France | Анатоль Франс | Анатоль Франс | Q42443 |
+| António Caetano de Sousa | Антониу Каэтану де Соза | Антониу Каэтану де Соза (António Caetano de Sousa) | Q9618814 |
+| António Ferreira de Serpa | Антониу Феррейра де Серпа | Антониу Феррейра де Серпа (António Ferreira de Serpa) | Q9619089 |
+| António Galvão | Антониу Галван | Антониу Галван (António Galvão) | Q2857742 |
+| António José de Almeida | Антониу Жозе де Алмейда | Антониу Жозе де Алмейда | Q551542 |
+| António Maria de Fontes Pereira de Melo | Фонтеш Перейра де Мелу | Антониу Мария де Фонтеш Перейра де Мелу | Q611180 |
+| António Nobre | Антониу Нобре | Антониу Нобре | Q611238 |
+| António Pereira de Figueiredo | Антониу Перейра де Фигейреду | Антониу Перейра де Фигейреду (António Pereira de Figueiredo) | Q16492205 |
+| António Rodrigues Sampaio | Антониу Родригеш Сампайю | Антониу Родригеш Сампайю (António Rodrigues Sampaio) | Q611362 |
+| António Saldanha da Gama | Антониу де Салданья да Гама | Антониу де Салданья да Гама (António de Saldanha da Gama) | Q1661560 |
+| António Teixeira de Sousa | Антониу Тейшейра де Соуза | Антониу Тейшейра де Соуза | Q561981 |
+| António de Abreu | Антониу де Абреу | Антониу де Абреу | Q611584 |
+| António de Araújo e Azevedo | Антониу ди Араужу и Азеведу | Антониу ди Араужу и Азеведу, граф да Барка (António de Araújo e Azevedo) | Q4777634 |
+| António Óscar de Fragoso Carmona | Ошкар Кармона | Ошкар Кармона (Óscar Carmona) | Q314022 |
+| Artur Barros Sousa | Пинга | Артур де Соуза (Пинга) | Q2619992 |
+| Augusto César Barjona de Freitas | Аугушту Сезар Баржона де Фрейташ | Аугушту Сезар Баржона де Фрейташ (Augusto César Barjona de Freitas) | Q9637572 |
+| Baltazar Dias | Балтазар Диаш | Балтазар Диаш (Baltasar Dias) | Q16496384 |
+| Banks | Джозеф Бэнкс | Джозеф Бэнкс | Q153408 |
+| Bartolomeu Perestrelo | Бартоломеу Перестрелу | Бартоломеу Перестрелу (Bartolomeu Perestrelo) | Q551801 |
+| Bartolomeu de Vasconcelos da Cunha | Бартоломеу де Вашконселуш да Кунья | Бартоломеу де Вашконселуш да Кунья (Bartolomeu de Vasconcelos da Cunha) | Q9649555 |
+| Barão de Castelo de Paiva | барон Каштелу-де-Пайва | Антониу да Кошта Пайва, барон Каштелу-де-Пайва (Barão de Castelo de Paiva) | Q21522539 |
+| Bento XIV | Бенедикт XIV | папа Бенедикт XIV | Q126711 |
+| Bocage | Бокаже | Мануэл Мария Барбоза ду Бокаже | Q630116 |
+| Brito Camacho | Бриту Камашу | Мануэл де Бриту Камашу (Manuel de Brito Camacho) | Q592827 |
+| Brotero | Бротеру | Фелиш ди Авелар Бротеру (Félix de Avelar Brotero) | Q1032088 |
+| C. Piazzi Smyth | Пьяцци Смит | Чарлз Пьяцци Смит | Q1065789 |
+| Camilo Castelo Branco | Камилу Каштелу Бранку | Камилу Каштелу Бранку | Q365423 |
+| Carlos II | Карл II | английский король Карл II | Q122553 |
+| Carlos IX | Карл IX | французский король Карл IX | Q134309 |
+| Clemente VI | Климент VI | папа Климент VI | Q170863 |
+| Clemente X | Климент X | папа Климент X | Q155956 |
+| Cockerell | Теодор Коккерелл | Теодор Коккерелл | Q2506718 |
+| Cristóvão Colombo | Христофор Колумб | Христофор Колумб | Q7322 |
+| D. Afonso IV | Афонсу IV | португальский король Афонсу IV | Q272903 |
+| D. Afonso V | Афонсу V | португальский король Афонсу V | Q299119 |
+| D. Amélia de Leuchtenberg | Амелия Лейхтенбергская | Амелия Лейхтенбергская (D. Amélia de Leuchtenberg) | Q129837 |
+| D. Amélia de Orleães | королева Амелия | Амелия Орлеанская | Q236965 |
+| D. António, Prior do Crato | Антониу, приор Крату | Антониу, приор Крату (D. António, Prior do Crato) | Q321325 |
+| D. Carlos I | Карлуш I | король Карлуш I | Q158874 |
+| D. Carlota Joaquina | Карлота Жоакина | Карлота Жоакина Испанская | Q233603 |
+| D. Catarina de Bragança | Екатерина Брагансская | Екатерина Брагансская | Q176253 |
+| D. Duarte, King of Portugal | король Дуарте | португальский король Дуарте | Q294607 |
+| D. Estêvão Brioso de Figueiredo | Эштеван Бриозу ди Фигейреду | Эштеван Бриозу ди Фигейреду (Estêvão Brioso de Figueiredo) | Q10277608 |
+| D. Francisco Manuel de Melo | Франсишку Мануэл ди Мелу | Франсишку Мануэл ди Мелу (Francisco Manuel de Melo) | Q426142 |
+| D. Francisco de Portugal | Франсишку де Португал | Франсишку де Португал, 3-й граф Вимийозу (Francisco de Portugal) | Q7683102 |
+| D. Isabel Maria | инфанта Изабелла Мария | Изабелла Мария Португальская | Q269689 |
+| D. Jerónimo Barreto | Жеронимо Баррету | Жеронимо Баррету (Jerónimo Barreto) | Q68863198 |
+| D. José I | Жозе I | король Жозе I | Q1058391 |
+| D. João I | Жуан I | король Жуан I | Q201575 |
+| D. João II | Жуан II | король Жуан II | Q217637 |
+| D. João III | Жуан III | король Жуан III | Q216789 |
+| D. João IV | Жуан IV | король Жуан IV | Q1060796 |
+| D. João Lobo | Жуан Лобу | Жуан Лобу (João Lobo) | Q68905462 |
+| D. Luís I | Луиш I | король Луиш I | Q156175 |
+| D. Luís de Figueiredo de Lemos | Луиш ди Фигейреду и Лемуш | Луиш ди Фигейреду и Лемуш (Luís de Figueiredo e Lemos) | Q10321742 |
+| D. Manuel I | Мануэл I | король Мануэл I | Q191231 |
+| D. Manuel II | Мануэл II | король Мануэл II | Q154308 |
+| D. Manuel Martins Manso | Мануэл Мартинш Мансу | Мануэл Мартинш Мансу (Manuel Martins Manso) | Q10324370 |
+| D. Maria Amélia | Мария Амелия Бразильская | Мария Амелия Бразильская | Q235815 |
+| D. Maria II | Мария II | королева Мария II | Q221145 |
+| D. Martinho de Portugal | Мартинью ди Португал | Мартинью ди Португал (Martinho de Portugal) | Q10326961 |
+| D. Pedro II | Педру II | король Педру II | Q156190 |
+| D. Pedro V | Педру V | король Педру V | Q156048 |
+| D. Sebastião | король Себастьян | король Себастьян (D. Sebastião) | Q272899 |
+| Damião de Góis | Дамиан де Гойш | Дамиан де Гойш (Damião de Góis) | Q567913 |
 
 ### 13.3 Homonym traps
 
@@ -504,22 +884,14 @@ Porto Santo: the rules give the same result, Порту-Санту, which is als
 
 ## 14. Worked examples
 
-These examples come from `docs/name_samples.json`; the same data is in `kb/names_seed_ru_uk.jsonl`. *Type* describes the transcription regime: `place` covers all Portuguese-language places (Madeira, mainland, islands, colonies, Brazil); `foreign` covers names in other languages.
+Generated from `kb/names_seed_ru_uk.jsonl` (authoritative seed). Religious and historical rows follow §7 and kb/historical_figures.yaml.
 
-How to read the table:
-
-- *Transcription* is the short form for later mentions (the KB field `ru`). *First-mention form* is the full form for headwords, first mentions and name tables (`ru_first`).
-- "—" in *Meaning* means no meaning is given (§10). Rows whose first-mention form has no parenthesis are on the no-gloss list (§11).
-- "source → normalised" shows §1 normalisation. The parenthesis always shows the normalised form.
-- Row 60 (Ernesto Schmitz): the KB confirms the German naturalist Ernst Johann Schmitz, so the native form is used (§9).
-- Row 53 (Sebastião): the king. For anyone else named Sebastião, apply the rules: Себаштиан.
-
-| # | Portuguese (source → normalised) | Type | Transcription (later mentions) | Meaning | First-mention form |
+| # | Portuguese | Type | Later mentions | Meaning | First mention |
 |---|---|---|---|---|---|
 | 1 | Gaspar Frutuoso | person | Гашпар Фрутуозу | — | Гашпар Фрутуозу (Gaspar Frutuoso) |
 | 2 | Álvaro Rodrigues de Azevedo | person | Алвару Родригиш де Азеведу | — | Алвару Родригиш де Азеведу (Álvaro Rodrigues de Azevedo) |
 | 3 | João Gonçalves Zarco | person | Жуан Гонсалвиш Зарку | — | Жуан Гонсалвиш Зарку (João Gonçalves Zarco) |
-| 4 | João Gonçalves Zargo → João Gonçalves Zarco | person | Жуан Гонсалвиш Зарку | — | Жуан Гонсалвиш Зарку (João Gonçalves Zarco) |
+| 4 | João Gonçalves Zargo | person | Жуан Гонсалвиш Зарку | — | Жуан Гонсалвиш Зарку (João Gonçalves Zarco) |
 | 5 | João Gonçalves da Câmara | person | Жуан Гонсалвиш да Камара | — | Жуан Гонсалвиш да Камара (João Gonçalves da Câmara) |
 | 6 | Simão Gonçalves da Câmara | person | Симан Гонсалвиш да Камара | — | Симан Гонсалвиш да Камара (Simão Gonçalves da Câmara) |
 | 7 | Tristão Vaz Teixeira | person | Триштан Ваш Тейшейра | — | Триштан Ваш Тейшейра (Tristão Vaz Teixeira) |
@@ -540,7 +912,7 @@ How to read the table:
 | 22 | Manuel de Arriaga | person | Мануэл де Арриага | — | Мануэл де Арриага (Manuel de Arriaga) |
 | 23 | Joaquim de Meneses e Ataíde | person | Жоаким де Менезиш и Атаиди | — | Жоаким де Менезиш и Атаиди (Joaquim de Meneses e Ataíde) |
 | 24 | João Pedro de Freitas Drumond | person | Жуан Педру де Фрейташ Друмонд | — | Жуан Педру де Фрейташ Друмонд (João Pedro de Freitas Drumond) |
-| 25 | Jacinto de Sant'Ana e Vasconcelos → Jacinto de Santana e Vasconcelos | person | Жасинту де Сантана и Вашконселуш | — | Жасинту де Сантана и Вашконселуш (Jacinto de Santana e Vasconcelos) |
+| 25 | Jacinto de Sant'Ana e Vasconcelos | person | Жасинту де Сантана и Вашконселуш | — | Жасинту де Сантана и Вашконселуш (Jacinto de Santana e Vasconcelos) |
 | 26 | Gomes Eanes de Azurara | person | Гомиш Эаниш де Азурара | — | Гомиш Эаниш де Азурара (Gomes Eanes de Azurara) |
 | 27 | Camilo Castelo Branco | person | Камилу Каштелу Бранку | — | Камилу Каштелу Бранку (Camilo Castelo Branco) |
 | 28 | António Aluísio Jérvis de Atouguia | person | Антониу Алуизиу Жервиш де Атоугия | — | Антониу Алуизиу Жервиш де Атоугия (António Aluísio Jérvis de Atouguia) |
@@ -552,7 +924,7 @@ How to read the table:
 | 34 | Alexandre Herculano | person | Алешандри Эркулану | — | Алешандри Эркулану (Alexandre Herculano) |
 | 35 | Nuno Cão | person | Нуну Кан | — | Нуну Кан (Nuno Cão) |
 | 36 | Jordão de Freitas | person | Жордан де Фрейташ | — | Жордан де Фрейташ (Jordão de Freitas) |
-| 37 | Servulo Drumond de Meneses → Sérvulo Drumond de Meneses | person | Сервулу Друмонд де Менезиш | — | Сервулу Друмонд де Менезиш (Sérvulo Drumond de Meneses) |
+| 37 | Servulo Drumond de Meneses | person | Сервулу Друмонд де Менезиш | — | Сервулу Друмонд де Менезиш (Sérvulo Drumond de Meneses) |
 | 38 | Pestana Júnior | person | Пештана Жуниор | — | Пештана Жуниор (Pestana Júnior) |
 | 39 | Maria Amélia | person | Мария Амелия | — | Мария Амелия (Maria Amélia) |
 | 40 | Machim | person | Машин | — | Машин (Machim) |
@@ -560,18 +932,18 @@ How to read the table:
 | 42 | 1.º Conde de Carvalhal | person | 1-й граф де Карвальял | — | 1-й граф де Карвальял (1.º Conde de Carvalhal) |
 | 43 | Visconde da Ribeira Brava | person | виконт да Рибейра-Брава | — | виконт да Рибейра-Брава (Visconde da Ribeira Brava) |
 | 44 | Fr. João do Espírito Santo | person | фрей Жуан ду Эшпириту Санту | — | фрей Жуан ду Эшпириту Санту (Fr. João do Espírito Santo) |
-| 45 | Dr. Luiz da Câmara Pestana → Dr. Luís da Câmara Pestana | person | доктор Луиш да Камара Пештана | — | доктор Луиш да Камара Пештана (Dr. Luís da Câmara Pestana) |
+| 45 | Dr. Luiz da Câmara Pestana | person | доктор Луиш да Камара Пештана | — | доктор Луиш да Камара Пештана (Dr. Luís da Câmara Pestana) |
 | 46 | D. Mariana de Alencastre e Câmara | person | дона Мариана де Аленкаштри и Камара | — | дона Мариана де Аленкаштри и Камара (D. Mariana de Alencastre e Câmara) |
 | 47 | Manuel I | person | Мануэл I | — | Мануэл I |
 | 48 | João IV | person | Жуан IV | — | Жуан IV |
 | 49 | Filipe II | person | Филипп II | — | Филипп II |
 | 50 | Carlos I | person | Карлуш I | — | Карлуш I |
-| 51 | D. Duarte | person | дон Дуарте | — | дон Дуарте |
-| 52 | D. Miguel | person | дон Мигел | — | дон Мигел |
+| 51 | D. Duarte | person | король Дуарте | — | португальский король Дуарте |
+| 52 | D. Miguel | person | Мигель I | — | король Мигель I (D. Miguel) |
 | 53 | Sebastião | person | Себастьян | — | Себастьян |
-| 54 | Infante D. Henrique | person | инфант Генрих Мореплаватель | — | инфант Генрих Мореплаватель |
+| 54 | Infante D. Henrique | person | Генрих Мореплаватель | — | Генрих Мореплаватель (инфант дон Энрике) |
 | 55 | Cristóvão Colombo | person | Христофор Колумб | — | Христофор Колумб |
-| 56 | Marquês de Pombal | person | маркиз де Помбал | — | маркиз де Помбал |
+| 56 | Marquês de Pombal | person | маркиз де Помбал | — | Себастьян Жозе де Карвалью-и-Мелу, маркиз де Помбал (Marquês de Pombal) |
 | 57 | Leão X | person | Лев X | — | Лев X |
 | 58 | James Yate Johnson | foreign | Джеймс Йейт Джонсон | — | Джеймс Йейт Джонсон (James Yate Johnson) |
 | 59 | Lowe | foreign | Лоу | — | Лоу (Lowe) |
@@ -582,19 +954,19 @@ How to read the table:
 | 64 | Porto Santo | place | Порту-Санту | Святая гавань | Порту-Санту (Святая гавань, Porto Santo) |
 | 65 | Machico | place | Машику | — | Машику (Machico) |
 | 66 | Câmara de Lobos | place | Камара-ди-Лобуш | Тюленье логово | Камара-ди-Лобуш (Тюленье логово, Câmara de Lobos) |
-| 67 | Câmara de Lôbos → Câmara de Lobos | place | Камара-ди-Лобуш | Тюленье логово | Камара-ди-Лобуш (Тюленье логово, Câmara de Lobos) |
+| 67 | Câmara de Lôbos | place | Камара-ди-Лобуш | Тюленье логово | Камара-ди-Лобуш (Тюленье логово, Câmara de Lobos) |
 | 68 | Santa Cruz | place | Санта-Круш | Святой Крест | Санта-Круш (Святой Крест, Santa Cruz) |
 | 69 | Ponta do Sol | place | Понта-ду-Сол | Мыс Солнца | Понта-ду-Сол (Мыс Солнца, Ponta do Sol) |
 | 70 | Calheta | place | Кальета | — | Кальета (Calheta) |
 | 71 | Ribeira Brava | place | Рибейра-Брава | Бурная река | Рибейра-Брава (Бурная река, Ribeira Brava) |
 | 72 | Monte | place | Монти | — | Монти (Monte) |
-| 73 | São Vicente | place | Сан-Висенти | — | Сан-Висенти (São Vicente) |
+| 73 | São Vicente | place | Сан-Висенти | святой Викентий Сарагосский | Сан-Висенти (святой Викентий Сарагосский, São Vicente) |
 | 74 | Porto Moniz | place | Порту-Мониш | — | Порту-Мониш (Porto Moniz) |
 | 75 | Caniço | place | Канису | — | Канису (Caniço) |
-| 76 | Santana | place | Сантана | — | Сантана (Santana) |
-| 77 | São Martinho | place | Сан-Мартинью | — | Сан-Мартинью (São Martinho) |
-| 78 | Santa Maria Maior | place | Санта-Мария-Майор | — | Санта-Мария-Майор (Santa Maria Maior) |
-| 79 | Santo António da Serra | place | Санту-Антониу-да-Серра | — | Санту-Антониу-да-Серра (Santo António da Serra) |
+| 76 | Santana | place | Сантана | праведная Анна (святая Анна) | Сантана (праведная Анна, святая Анна; Santana) |
+| 77 | São Martinho | place | Сан-Мартинью | святой Мартин Турский | Сан-Мартинью (святой Мартин Турский, São Martinho) |
+| 78 | Santa Maria Maior | place | Санта-Мария-Майор | Пресвятая Дева Мария | Санта-Мария-Майор (Пресвятая Дева Мария, Santa Maria Maior) |
+| 79 | Santo António da Serra | place | Санту-Антониу-да-Серра | святой Антоний Падуанский | Санту-Антониу-да-Серра (святой Антоний Падуанский, Santo António da Serra) |
 | 80 | Estreito de Câmara de Lobos | place | Эштрейту-ди-Камара-ди-Лобуш | — | Эштрейту-ди-Камара-ди-Лобуш (Estreito de Câmara de Lobos) |
 | 81 | Arco da Calheta | place | Арку-да-Кальета | — | Арку-да-Кальета (Arco da Calheta) |
 | 82 | Madalena do Mar | place | Мадалена-ду-Мар | — | Мадалена-ду-Мар (Madalena do Mar) |
@@ -622,7 +994,7 @@ How to read the table:
 | 104 | Ribeira do Inferno | place | Рибейра-ду-Инферну | Адская река | Рибейра-ду-Инферну (Адская река, Ribeira do Inferno) |
 | 105 | Praia Formosa | place | Прайя-Формоза | Красивый пляж | Прайя-Формоза (Красивый пляж, Praia Formosa) |
 | 106 | Cabo Girão | place | Кабу-Жиран | — | Кабу-Жиран (Cabo Girão) |
-| 107 | Ponta de São Lourenço | place | мыс Сан-Лоуренсу | — | мыс Сан-Лоуренсу (Ponta de São Lourenço) |
+| 107 | Ponta de São Lourenço | place | мыс Сан-Лоуренсу | святой Лаврентий | мыс Сан-Лоуренсу (святой Лаврентий, Ponta de São Lourenço) |
 | 108 | Ponta do Tristão | place | мыс Триштан | — | мыс Триштан (Ponta do Tristão) |
 | 109 | Ribeira de Machico | place | река Машику | — | река Машику (Ribeira de Machico) |
 | 110 | Ribeira de João Gomes | place | река Жуан-Гомиш | — | река Жуан-Гомиш (Ribeira de João Gomes) |
@@ -640,9 +1012,9 @@ How to read the table:
 | 122 | Molhe da Pontinha | place | мол Понтинья | — | мол Понтинья (Molhe da Pontinha) |
 | 123 | Levada do Rabaçal | place | левада Рабасал | — | левада Рабасал (Levada do Rabaçal) |
 | 124 | Quinta das Cruzes | place | усадьба Крузиш | усадьба Крестов | усадьба Крузиш (усадьба Крестов, Quinta das Cruzes) |
-| 125 | Palácio de São Lourenço | place | дворец Сан-Лоуренсу | дворец Святого Лаврентия | дворец Сан-Лоуренсу (дворец Святого Лаврентия, Palácio de São Lourenço) |
-| 126 | Fortaleza de São Tiago | place | крепость Сан-Тиагу | крепость Святого Иакова | крепость Сан-Тиагу (крепость Святого Иакова, Fortaleza de São Tiago) |
-| 127 | Mercado de São Pedro | place | рынок Сан-Педру | рынок Святого Петра | рынок Сан-Педру (рынок Святого Петра, Mercado de São Pedro) |
+| 125 | Palácio de São Lourenço | place | дворец Сан-Лоуренсу | дворец святого Лаврентия | дворец Сан-Лоуренсу (дворец святого Лаврентия, Palácio de São Lourenço) |
+| 126 | Fortaleza de São Tiago | place | крепость Сан-Тиагу | крепость апостола Иакова Зеведеева | крепость Сан-Тиагу (крепость апостола Иакова Зеведеева, Fortaleza de São Tiago) |
+| 127 | Mercado de São Pedro | place | рынок Сан-Педру | рынок святого апостола Петра | рынок Сан-Педру (рынок святого апостола Петра, Mercado de São Pedro) |
 | 128 | Cemitério das Angústias | place | кладбище Ангуштиаш | кладбище Богоматери Скорбей | кладбище Ангуштиаш (кладбище Богоматери Скорбей, Cemitério das Angústias) |
 | 129 | Jardim Municipal | place | Муниципальный сад | — | Муниципальный сад (Jardim Municipal) |
 | 130 | Teatro Manuel de Arriaga | place | театр Мануэл де Арриага | — | театр Мануэл де Арриага (Teatro Manuel de Arriaga) |
@@ -655,7 +1027,7 @@ How to read the table:
 | 137 | Setúbal | place | Сетубал | — | Сетубал (Setúbal) |
 | 138 | Elvas | place | Элваш | — | Элваш (Elvas) |
 | 139 | Algarve | place | Алгарве | — | Алгарве (Algarve) |
-| 140 | São Miguel | place | Сан-Мигел | — | Сан-Мигел (São Miguel) |
+| 140 | São Miguel | place | Сан-Мигел | Архангел Михаил | Сан-Мигел (Архангел Михаил, São Miguel) |
 | 141 | Terceira | place | Терсейра | — | Терсейра (Terceira) |
 | 142 | Angra do Heroísmo | place | Ангра-ду-Эроишму | — | Ангра-ду-Эроишму (Angra do Heroísmo) |
 | 143 | Rio de Janeiro | place | Рио-де-Жанейро | — | Рио-де-Жанейро (Rio de Janeiro) |
@@ -667,42 +1039,42 @@ How to read the table:
 | 149 | Tenerife | foreign | Тенерифе | — | Тенерифе (Tenerife) |
 | 150 | Montpellier | foreign | Монпелье | — | Монпелье (Montpellier) |
 | 151 | Arzila | foreign | Асила | — | Асила (Arzila) |
-| 152 | Nossa Senhora da Piedade | religious | Носа-Сеньора-да-Пиедади | Богоматерь Скорбящая | Носа-Сеньора-да-Пиедади (Богоматерь Скорбящая, Nossa Senhora da Piedade) |
-| 153 | Convento de Nossa Senhora ds Piedade → Convento de Nossa Senhora da Piedade | religious | монастырь Носа-Сеньора-да-Пиедади | монастырь Богоматери Скорбящей | монастырь Носа-Сеньора-да-Пиедади (монастырь Богоматери Скорбящей, Convento de Nossa Senhora da Piedade) |
-| 154 | Igreja de Nossa Senhora do Monte | religious | церковь Носа-Сеньора-ду-Монти | церковь Богоматери Горы | церковь Носа-Сеньора-ду-Монти (церковь Богоматери Горы, Igreja de Nossa Senhora do Monte) |
-| 155 | Igreja de Nossa Senhora do Calhau | religious | церковь Носа-Сеньора-ду-Кальяу | церковь Богоматери Галечного берега | церковь Носа-Сеньора-ду-Кальяу (церковь Богоматери Галечного берега, Igreja de Nossa Senhora do Calhau) |
-| 156 | Capela de Nossa Senhora da Conceiçâo → Capela de Nossa Senhora da Conceição | religious | часовня Носа-Сеньора-да-Консейсан | часовня Богоматери Непорочного Зачатия | часовня Носа-Сеньора-да-Консейсан (часовня Богоматери Непорочного Зачатия, Capela de Nossa Senhora da Conceição) |
-| 157 | Capela de Nossa Senhora das Angústias | religious | часовня Носа-Сеньора-даш-Ангуштиаш | часовня Богоматери Скорбей | часовня Носа-Сеньора-даш-Ангуштиаш (часовня Богоматери Скорбей, Capela de Nossa Senhora das Angústias) |
-| 158 | Capela de Nossa Senhora da Boa Viagem | religious | часовня Носа-Сеньора-да-Боа-Виажен | часовня Богоматери Доброго Пути | часовня Носа-Сеньора-да-Боа-Виажен (часовня Богоматери Доброго Пути, Capela de Nossa Senhora da Boa Viagem) |
-| 159 | Capela de Nossa Senhora do Bom Sucesso | religious | часовня Носа-Сеньора-ду-Бон-Сусесу | часовня Богоматери Благого Успеха | часовня Носа-Сеньора-ду-Бон-Сусесу (часовня Богоматери Благого Успеха, Capela de Nossa Senhora do Bom Sucesso) |
-| 160 | Capela de Nossa Senhora do Livramento | religious | часовня Носа-Сеньора-ду-Ливраменту | часовня Богоматери Избавления | часовня Носа-Сеньора-ду-Ливраменту (часовня Богоматери Избавления, Capela de Nossa Senhora do Livramento) |
-| 161 | Capela de Nossa Senhora das Brotas | religious | часовня Носа-Сеньора-даш-Броташ | — | часовня Носа-Сеньора-даш-Броташ (Capela de Nossa Senhora das Brotas) |
-| 162 | Capela do Senhor dos Milagres | religious | часовня Сеньор-душ-Милагриш | часовня Господа Чудес | часовня Сеньор-душ-Милагриш (часовня Господа Чудес, Capela do Senhor dos Milagres) |
+| 152 | Nossa Senhora da Piedade | religious | Пьета (Скорбящая Богоматерь) | — | Пьета (Скорбящая Богоматерь; Nossa Senhora da Piedade) |
+| 153 | Convento de Nossa Senhora ds Piedade | religious | монастырь Пьеты (Скорбящей Богоматери) | — | монастырь Пьеты (Скорбящей Богоматери; Convento de Nossa Senhora da Piedade) |
+| 154 | Igreja de Nossa Senhora do Monte | religious | церковь Богоматери Монте | — | церковь Богоматери Монте (Igreja de Nossa Senhora do Monte) |
+| 155 | Igreja de Nossa Senhora do Calhau | religious | церковь Богоматери Калау | — | церковь Богоматери Калау (Igreja de Nossa Senhora do Calhau) |
+| 156 | Capela de Nossa Senhora da Conceiçâo | religious | часовня Непорочного зачатия Девы Марии | — | часовня Непорочного зачатия Девы Марии (Capela de Nossa Senhora da Conceição) |
+| 157 | Capela de Nossa Senhora das Angústias | religious | часовня Скорбящей Богоматери | — | часовня Скорбящей Богоматери (Capela de Nossa Senhora das Angústias) |
+| 158 | Capela de Nossa Senhora da Boa Viagem | religious | часовня Богоматери Доброго Пути | — | часовня Богоматери Доброго Пути (Capela de Nossa Senhora da Boa Viagem) |
+| 159 | Capela de Nossa Senhora do Bom Sucesso | religious | часовня Богоматери Доброго Успеха | — | часовня Богоматери Доброго Успеха (Capela de Nossa Senhora do Bom Sucesso) |
+| 160 | Capela de Nossa Senhora do Livramento | religious | часовня Богородицы Избавительницы | — | часовня Богородицы Избавительницы (Capela de Nossa Senhora do Livramento) |
+| 161 | Capela de Nossa Senhora das Brotas | religious | часовня Богоматери из Броташа | — | часовня Богоматери из Броташа (Capela de Nossa Senhora das Brotas) |
+| 162 | Capela do Senhor dos Milagres | religious | часовня Господа Чудес | — | часовня Господа Чудес (Capela do Senhor dos Milagres) |
 | 163 | Capela do Corpo Santo | religious | часовня Корпу-Санту | часовня Святого Тела | часовня Корпу-Санту (часовня Святого Тела, Capela do Corpo Santo) |
 | 164 | Capela das Almas | religious | часовня Алмаш | часовня Душ | часовня Алмаш (часовня Душ, Capela das Almas) |
 | 165 | Capela do Imaculado Coração de Maria | religious | часовня Имакуладу-Корасан-ди-Мария | часовня Непорочного Сердца Марии | часовня Имакуладу-Корасан-ди-Мария (часовня Непорочного Сердца Марии, Capela do Imaculado Coração de Maria) |
 | 166 | Capela de Jesus Maria José | religious | часовня Жезуш-Мария-Жозе | часовня Иисуса Марии и Иосифа | часовня Жезуш-Мария-Жозе (часовня Иисуса Марии и Иосифа, Capela de Jesus Maria José) |
-| 167 | Capela de Santa Catarina | religious | часовня Санта-Катарина | часовня Святой Екатерины | часовня Санта-Катарина (часовня Святой Екатерины, Capela de Santa Catarina) |
-| 168 | Capela de São Sebastião | religious | часовня Сан-Себаштиан | часовня Святого Себастьяна | часовня Сан-Себаштиан (часовня Святого Себастьяна, Capela de São Sebastião) |
-| 169 | Convento de Santa Clara | religious | монастырь Санта-Клара | монастырь Святой Клары | монастырь Санта-Клара (монастырь Святой Клары, Convento de Santa Clara) |
-| 170 | Convento de São Francisco | religious | монастырь Сан-Франсишку | монастырь Святого Франциска | монастырь Сан-Франсишку (монастырь Святого Франциска, Convento de São Francisco) |
-| 171 | Convento de São Bernardino | religious | монастырь Сан-Бернардину | монастырь Святого Бернардина | монастырь Сан-Бернардину (монастырь Святого Бернардина, Convento de São Bernardino) |
-| 172 | Convento da Incarnaçao → Convento da Encarnação | religious | монастырь Энкарнасан | монастырь Воплощения | монастырь Энкарнасан (монастырь Воплощения, Convento da Encarnação) |
-| 173 | Convento das Mercês | religious | монастырь Мерсеш | монастырь Богоматери Милосердия | монастырь Мерсеш (монастырь Богоматери Милосердия, Convento das Mercês) |
-| 174 | Igreja de Santa Maria Maior | religious | церковь Санта-Мария-Майор | церковь Святой Марии Великой | церковь Санта-Мария-Майор (церковь Святой Марии Великой, Igreja de Santa Maria Maior) |
-| 175 | Igreja do Carmo | religious | церковь Карму | церковь Богоматери Кармельской | церковь Карму (церковь Богоматери Кармельской, Igreja do Carmo) |
+| 167 | Capela de Santa Catarina | religious | часовня святой Екатерины Александрийской | — | часовня святой Екатерины Александрийской (Capela de Santa Catarina) |
+| 168 | Capela de São Sebastião | religious | часовня святого Себастьяна | — | часовня святого Себастьяна (Capela de São Sebastião) |
+| 169 | Convento de Santa Clara | religious | монастырь святой Клары Ассизской | — | монастырь святой Клары Ассизской (Convento de Santa Clara) |
+| 170 | Convento de São Francisco | religious | монастырь святого Франциска Ассизского | — | монастырь святого Франциска Ассизского (Convento de São Francisco) |
+| 171 | Convento de São Bernardino | religious | монастырь святого Бернардина Сиенского | — | монастырь святого Бернардина Сиенского (Convento de São Bernardino) |
+| 172 | Convento da Incarnaçao | religious | монастырь Благовещения Пресвятой Богородицы | — | монастырь Благовещения Пресвятой Богородицы (Convento da Encarnação) |
+| 173 | Convento das Mercês | religious | монастырь Богородицы Милосердия | — | монастырь Богородицы Милосердия (Convento das Mercês) |
+| 174 | Igreja de Santa Maria Maior | religious | церковь Пресвятой Девы Марии | — | церковь Пресвятой Девы Марии (Igreja de Santa Maria Maior) |
+| 175 | Igreja do Carmo | religious | церковь Пресвятой Девы Марии с горы Кармель | — | церковь Пресвятой Девы Марии с горы Кармель (Igreja do Carmo) |
 | 176 | Sé do Funchal | religious | кафедральный собор Фуншала | — | кафедральный собор Фуншала (Sé do Funchal) |
-| 177 | Nossa Senhora da Fátima → Nossa Senhora de Fátima | religious | Фатимская Богоматерь | — | Фатимская Богоматерь (Nossa Senhora de Fátima) |
-| 178 | Espírito Santo (Festas do) → Festas do Espírito Santo | religious | праздники Святого Духа | — | праздники Святого Духа (Festas do Espírito Santo) |
+| 177 | Nossa Senhora da Fátima | religious | Фатимская Богоматерь | — | Фатимская Богоматерь (Nossa Senhora de Fátima) |
+| 178 | Espírito Santo (Festas do) | religious | праздники Святого Духа | — | праздники Святого Духа (Festas do Espírito Santo) |
 | 179 | Câmara Municipal do Funchal | institution | Муниципальная палата Фуншала | — | Муниципальная палата Фуншала (Câmara Municipal do Funchal) |
 | 180 | Paços do Concelho do Funchal | institution | ратуша Фуншала | — | ратуша Фуншала (Paços do Concelho do Funchal) |
 | 181 | Junta Geral do Distrito do Funchal | institution | Генеральный совет округа Фуншал | — | Генеральный совет округа Фуншал (Junta Geral do Distrito do Funchal) |
-| 182 | Junta Governativa da Madeira em 1847 → Junta Governativa da Madeira | institution | Правительственная хунта Мадейры | — | Правительственная хунта Мадейры (Junta Governativa da Madeira) |
+| 182 | Junta Governativa da Madeira em 1847 | institution | Правительственная хунта Мадейры | — | Правительственная хунта Мадейры (Junta Governativa da Madeira) |
 | 183 | Junta Agrícola | institution | Сельскохозяйственный совет | — | Сельскохозяйственный совет (Junta Agrícola) |
 | 184 | Junta da Real Fazenda da Ilha da Madeira | institution | Совет королевской казны острова Мадейра | — | Совет королевской казны острова Мадейра (Junta da Real Fazenda da Ilha da Madeira) |
 | 185 | Juntas de Paróquia | institution | приходские советы | — | приходские советы (Juntas de Paróquia) |
 | 186 | Misericórdia de Machico | institution | Братство милосердия Машику | — | Братство милосердия Машику (Misericórdia de Machico) |
-| 187 | Hospital de Santa Isabel | institution | больница Санта-Изабел | больница Святой Елизаветы | больница Санта-Изабел (больница Святой Елизаветы, Hospital de Santa Isabel) |
+| 187 | Hospital de Santa Isabel | institution | больница Санта-Изабел | больница святой Елизаветы Португальской | больница Санта-Изабел (больница святой Елизаветы Португальской, Hospital de Santa Isabel) |
 | 188 | Colégio dos Jesuítas | institution | Иезуитская коллегия | — | Иезуитская коллегия (Colégio dos Jesuítas) |
 | 189 | Paço Episcopal | institution | Епископский дворец | — | Епископский дворец (Paço Episcopal) |
 | 190 | Museu do Seminário | institution | Музей семинарии | — | Музей семинарии (Museu do Seminário) |
@@ -710,9 +1082,7 @@ How to read the table:
 | 192 | Hospício da Princesa D. Maria Amélia | institution | приют принцессы доны Марии Амелии | — | приют принцессы доны Марии Амелии (Hospício da Princesa D. Maria Amélia) |
 | 193 | Universidade de Coimbra | institution | Коимбрский университет | — | Коимбрский университет (Universidade de Coimbra) |
 | 194 | Torre do Tombo | institution | архив Торре-ду-Томбу | — | архив Торре-ду-Томбу (Torre do Tombo) |
-| 195 | Echo de Santa Cruz → Eco de Santa Cruz | institution | «Эку ди Санта-Круш» | Эхо Санта-Круш | «Эку ди Санта-Круш» (Эхо Санта-Круш, Eco de Santa Cruz) |
-
----
+| 195 | Echo de Santa Cruz | institution | «Эку ди Санта-Круш» | Эхо Санта-Круш | «Эку ди Санта-Круш» (Эхо Санта-Круш, Eco de Santa Cruz) |
 
 ## 15. Decisions for the owner to confirm
 

@@ -243,3 +243,51 @@ def merge_person_duplicates() -> dict:
             f.write(json.dumps(p, ensure_ascii=False) + "\n")
     (DATA / "06_kb" / "person_redirects.json").write_text(json.dumps(redirects, indent=1))
     return {"merged": merged, "persons": len(persons)}
+
+
+HARM_SYSTEM = """You finalise how historical figures are named in the eight translations (en, de, fr, it, hu, nl, uk, ru) of
+the *Elucidário Madeirense*. Input: persons with their Portuguese name, Wikidata id and candidate established names
+(often formal Wikipedia titles). For each person give, per language:
+- `text`: the name as a modern encyclopedia in that language refers to the person in running text — the common name,
+  not the formal full title (e.g. "the Marquis of Pombal"/"маркіз де Помбал", "King Sebastian"/"король Себастьян",
+  "Henry the Navigator"/"Енріке Мореплавець", "Manuel I"/"Мануел I"), keeping regnal numbers of the country concerned
+  (Philip II of Spain ruled Portugal as Filipe I: en "Philip II of Spain (Philip I of Portugal)" on first mention, then
+  "Philip II");
+- `first`: first-mention form (may add the Portuguese original in parentheses when it differs strongly for uk/ru).
+The SAME individual (same Wikidata id or evidently the same person under variant Portuguese names) must get IDENTICAL
+values across entries. Return every input id."""
+
+
+def harmonise_submit() -> dict:
+    h = yaml.safe_load(open(KB / "historical_figures.yaml"))
+    items = sorted(({"id": k, "pt": v["pt_name"], "qid": v.get("wikidata"), "candidates": v["established_names"]}
+                    for k, v in h.items()), key=lambda x: (x["qid"] or "", x["pt"]))
+    schema = {"type": "object", "properties": {"persons": {"type": "array", "items": {"type": "object", "properties": {
+        "id": {"type": "string"},
+        "text": {"type": "object", "properties": {l: {"type": ["string", "null"]} for l in LANGS}, "required": LANGS, "additionalProperties": False},
+        "first": {"type": "object", "properties": {l: {"type": ["string", "null"]} for l in LANGS}, "required": LANGS, "additionalProperties": False}},
+        "required": ["id", "text", "first"], "additionalProperties": False}}}, "required": ["persons"], "additionalProperties": False}
+    reqs = []
+    for i in range(0, len(items), 60):  # sorted by qid so variants of one person share a request
+        reqs.append({"custom_id": f"hh{i // 60:03d}", "params": {
+            "model": MODEL, "max_tokens": 64000,
+            "system": [{"type": "text", "text": HARM_SYSTEM, "cache_control": {"type": "ephemeral"}}],
+            "messages": [{"role": "user", "content": json.dumps(items[i: i + 60], ensure_ascii=False)}],
+            "output_config": {"effort": "medium", "format": {"type": "json_schema", "schema": schema}}}})
+    return {"requests": len(reqs), "batches": BatchJob("historical_harmonise").submit(reqs, budget_usd=5.0, est_usd=None)}
+
+
+def harmonise_collect() -> dict:
+    h = yaml.safe_load(open(KB / "historical_figures.yaml"))
+    n = 0
+    for cid, res in BatchJob("historical_harmonise").results():
+        t = message_text(res)
+        if not t:
+            continue
+        for p in json.loads(t)["persons"]:
+            if p["id"] in h:
+                h[p["id"]]["established_names"] = p["text"]
+                h[p["id"]]["first_mention"] = p["first"]
+                n += 1
+    yaml.safe_dump(h, open(KB / "historical_figures.yaml", "w"), allow_unicode=True, sort_keys=True, width=120)
+    return {"harmonised": n, "usd": round(BatchJob("historical_harmonise").spent(), 2)}
