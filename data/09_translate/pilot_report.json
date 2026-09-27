@@ -1,0 +1,309 @@
+{
+ "scores": {
+  "de:haiku": {
+   "fidelity": 2.6,
+   "fluency": 3.0,
+   "terminology": 2.81,
+   "format": 3.0,
+   "n": 42
+  },
+  "de:opus_low": {
+   "fidelity": 4.52,
+   "fluency": 4.6,
+   "terminology": 4.36,
+   "format": 4.52,
+   "n": 42
+  },
+  "de:opus_med": {
+   "fidelity": 4.67,
+   "fluency": 4.81,
+   "terminology": 4.52,
+   "format": 4.69,
+   "n": 42
+  },
+  "de:sonnet": {
+   "fidelity": 4.02,
+   "fluency": 3.55,
+   "terminology": 3.71,
+   "format": 4.1,
+   "n": 42
+  },
+  "en:haiku": {
+   "fidelity": 3.4,
+   "fluency": 3.52,
+   "terminology": 3.31,
+   "format": 3.57,
+   "n": 42
+  },
+  "en:opus_low": {
+   "fidelity": 4.57,
+   "fluency": 4.74,
+   "terminology": 4.4,
+   "format": 4.48,
+   "n": 42
+  },
+  "en:opus_med": {
+   "fidelity": 4.76,
+   "fluency": 4.76,
+   "terminology": 4.55,
+   "format": 4.67,
+   "n": 42
+  },
+  "en:sonnet": {
+   "fidelity": 4.17,
+   "fluency": 3.81,
+   "terminology": 3.81,
+   "format": 3.93,
+   "n": 42
+  },
+  "hu:haiku": {
+   "fidelity": 2.05,
+   "fluency": 2.05,
+   "terminology": 2.24,
+   "format": 2.64,
+   "n": 42
+  },
+  "hu:opus_low": {
+   "fidelity": 4.6,
+   "fluency": 4.67,
+   "terminology": 4.31,
+   "format": 4.64,
+   "n": 42
+  },
+  "hu:opus_med": {
+   "fidelity": 4.83,
+   "fluency": 4.79,
+   "terminology": 4.62,
+   "format": 4.76,
+   "n": 42
+  },
+  "hu:sonnet": {
+   "fidelity": 3.62,
+   "fluency": 3.48,
+   "terminology": 3.33,
+   "format": 3.67,
+   "n": 42
+  },
+  "ru:haiku": {
+   "fidelity": 2.74,
+   "fluency": 2.81,
+   "terminology": 2.5,
+   "format": 3.36,
+   "n": 42
+  },
+  "ru:opus_low": {
+   "fidelity": 4.4,
+   "fluency": 4.64,
+   "terminology": 4.26,
+   "format": 4.31,
+   "n": 42
+  },
+  "ru:opus_med": {
+   "fidelity": 4.52,
+   "fluency": 4.83,
+   "terminology": 4.52,
+   "format": 4.55,
+   "n": 42
+  },
+  "ru:sonnet": {
+   "fidelity": 3.55,
+   "fluency": 3.52,
+   "terminology": 2.9,
+   "format": 3.48,
+   "n": 42
+  }
+ },
+ "wins": {
+  "ru": {
+   "opus_med": 23,
+   "opus_low": 16,
+   "sonnet": 1,
+   "haiku": 2
+  },
+  "de": {
+   "opus_med": 23,
+   "opus_low": 17,
+   "sonnet": 2
+  },
+  "en": {
+   "opus_low": 17,
+   "haiku": 2,
+   "opus_med": 22,
+   "sonnet": 1
+  },
+  "hu": {
+   "opus_low": 13,
+   "opus_med": 29
+  }
+ },
+ "pilot_usd": {
+  "haiku": 3.99,
+  "sonnet": 4.41,
+  "opus_low": 22.65,
+  "opus_med": 24.41
+ },
+ "judge_usd": 3.66,
+ "judge_job": "translate_judge_opus",
+ "sample_errors": {
+  "ru:opus_low": [
+   "adds 'Позднее' (not in source)",
+   "flattens 'began/ended' into 'выходила с…по'",
+   "'в дворце' should be 'во дворце'",
+   "São Pedro gets the original but no meaning gloss",
+   "Adds 'Часовню' (chapel), a subject not stated in the source",
+   "Glosses 'Maior' as 'Пресвятая', which is imprecise ('Великая/Старшая')",
+   "'Небриша' is an odd transcription of Nebrija (should be Небриха)",
+   "slightly awkward 'проявил себя в нём так и так отличился'"
+  ],
+  "ru:opus_med": [
+   "'прекратила существование' is a slightly interpretive rendering of 'terminou'",
+   "'монашескую общину' narrows 'comunidade religiosa'",
+   "drops 'alguns' (some patients)",
+   "over-glosses São Pedro as 'святого апостола Петра'",
+   "'протекает' slightly loosens 'fica' (is located)",
+   "Combined parenthetical 'ribeiros de João Ferino e do Eixo' is less clear than separate originals",
+   "Adds 'Часовня', a subject not stated in the source",
+   "Spells 'Терейру-да-Лута' with a single р, against the standard 'Террейру'"
+  ],
+  "ru:sonnet": [
+   "subjectless masculine 'Начал выходить' is unclear and clashes with 'ещё одна газета'",
+   "awkward word order in b001, with the dates tacked on at the end",
+   "'особняк' for 'palácio' is imprecise",
+   "no meaning/original given for names on first mention",
+   "drops 'alguns' (some patients)",
+   "'пансион' for 'colégio' is a loose rendering",
+   "Mistranscribes Ferino as 'Феринью'",
+   "No Portuguese originals given on first mention of names"
+  ],
+  "ru:haiku": [
+   "'прекратился' is unidiomatic for a periodical",
+   "subjectless masculine 'Начал' clashes with 'газета'",
+   "clumsy participial construction in b001",
+   "mistranslates 'palácio de São Pedro' as 'Сан-Лоуренсу'",
+   "typo 'вспыхла' (should be 'вспыхнула')",
+   "'в дворце' should be 'во дворце'",
+   "no meaning/original given for names on first mention",
+   "'епархиального значения' distorts 'diocesana'; drops 'alguns' (some patients)"
+  ],
+  "de:sonnet": [
+   "mistranslates 'haviam recolhido ao Lazareto' as 'zurückgekehrt waren'",
+   "wrongly glosses 'Wachposten (*vigia*)'; 'vigiá-los' is a verb",
+   "excessive, cluttering glosses (*praças*, *cabo*, *praia*, *capitão do porto*)",
+   "'losgemachtes Beiboot' is awkward for 'bote destacado'",
+   "Garbles b038: 'wonach dieser seit Jahrhunderten demselben zugeschrieben werde' distorts the meaning",
+   "Adds 'noch' ('wo er sich noch befindet')",
+   "'nicht … zurückgewiesen werden darf' overstates 'não deve'",
+   "Arquivo Histórico da Madeira is not italicized, and periodical formatting is inconsistent"
+  ],
+  "de:opus_low": [
+   "'nach Lissabon gebracht' slightly shifts 'saído para Lisboa' (departed)",
+   "'in aller Ruhe' slightly freer than 'sem pressa'",
+   "'Hätte João Gonçalves…' reads slightly awkwardly",
+   "'Er suchte' shifts to past tense where the article is described",
+   "'sich mit ihr befasst' has an unclear referent",
+   "'In die Familie ... ging ... auf' uses the accusative where 'aufgehen in' takes the dative",
+   "'Dazu gehörte' weakens 'adjunta' (adjacent)",
+   "Spelling alternates between 'Herédia' and 'Heredia'"
+  ],
+  "de:haiku": [
+   "ungrammatical opening 'kam es ... zu einer neuen Gruppe ... nach Funchal'",
+   "translates place name Cabo Garajau as 'Kap Flussseeschwalbe'",
+   "'Marineinfanterie', 'Infanteriebataillon' and 'Motorbootsegler' are mistranslations",
+   "'hielt an, ohne sich zu beeilen' distorts 'recolheu sem pressa'",
+   "article errors 'Im Funchal' and 'den Funchal'; odd 'Leutnants (m.)'",
+   "Truncated after the first words of b035",
+   "Omits b036–b039 entirely",
+   "Unclosed quotation mark"
+  ],
+  "de:opus_med": [
+   "'war ... untersagt' (stative) is slightly weaker than 'foi proibida'",
+   "restructures the final sentence slightly ('brachte die letzten der 280 Gefangenen fort')",
+   "Omits 'naturalmente' ('Da drängt sich eine Frage auf')",
+   "Original term 'montante' is not given alongside 'Zweihänder'",
+   "'mit dem Werk befasst' resolves the ambiguous 'dela' somewhat freely",
+   "Renders 'capela' as 'Kapelle' rather than 'Messstiftung', inconsistent with the other candidates' termbase usage",
+   "Uses 'Heredia' without the accent in one place",
+   "b004 table reduced to a heading; all production figures omitted"
+  ],
+  "en:opus_med": [
+   "omits entire production table b013 (1898–1916 figures)",
+   "'9 and 101 per cent' is an absurd yield figure",
+   "double 'and' in the b014 list is ungrammatical",
+   "adds 'now' to 'methods employed'",
+   "'Quinta do Palheiro' drops the *quinta* (country estate) gloss used elsewhere in the termbase",
+   "omits 'alguns' (some decrees)",
+   "'vereações concelhias' flattened to 'municipal councils'",
+   "minor addition 'today'"
+  ],
+  "en:opus_low": [
+   "omits entire production table b013 (1898–1916 figures)",
+   "'9 and 101 per cent' is an absurd yield figure",
+   "'when the surplus production was exported' slightly shifts the causal sense",
+   "adds gloss on arroba not in source",
+   "inconsistent 'bylaws'/'by-laws'",
+   "omits 'alguns' (some decrees)",
+   "dangling 'In an attempt at codification, we are aware'",
+   "'which was known, and still is, by the name' reads slightly awkwardly"
+  ],
+  "en:sonnet": [
+   "omits entire production table b013 (1898–1916 figures)",
+   "keeps OCR error '9 and 101', giving an absurd yield figure",
+   "adds gloss on arroba not in source",
+   "awkward repetition 'reached... it reached' in b015",
+   "awkward relative clause 'to whom was attributed a great theft'",
+   "'money destined for the payment' is a literal calque",
+   "'courtier's post at the side of' is stilted",
+   "translates place name São Vicente as 'St Vincent of Saragossa'"
+  ],
+  "en:haiku": [
+   "omits entire production table b013 (1898–1916 figures)",
+   "'From 1736 onward, Madeira began' is redundant phrasing",
+   "adds gloss on arroba not in source",
+   "silently corrects '101' to '10 per cent' (sensible, but unflagged)",
+   "'payment of troops' drops the article ('the troops')",
+   "'D.' left unexpanded in the English text",
+   "'page 113… page 95' is heavier than the encyclopedic 'p.'",
+   "translates São Vicente as 'St Vincent of Saragossa'"
+  ],
+  "hu:sonnet": [
+   "b001: 'szolgálhatunk' wrongly makes 'we' the subject; in the source it is the pamphlet that may shed light",
+   "b002: 'ott vagy irattárban kellett volna őrizni' garbles 'deveriam ficar ali arquivados'",
+   "mistranslates 'variolosos' as 'bárányhimlős' (chickenpox) instead of smallpox (himlő), repeated",
+   "'Nem kis félelmek nélkül' is a garbled double negative that distorts the sense",
+   "adds 'állítólag' (not in source)",
+   "Heraldo da Madeira not italicised",
+   "'fényes fénygóc' is clumsy",
+   "leaves 'silvados' untranslated and oddly inflected (Portuguese plural)"
+  ],
+  "hu:haiku": [
+   "mistranslates the title as 'Az Európai Munka' (Português = Portuguese)",
+   "b000: 'az erről azt megkívánó körülmények' is garbled and misrenders 'imperiosas circunstâncias'",
+   "b001: broken syntax ('füzet (*opúsculo*) című munkáját … címét'), wrong subject ('nyújthatunk'), 'Noha…' left as a sentence fragment",
+   "b002: incomplete sentence 'Azonban az a sajnálatos körülmény, hogy…', and 'sajnálatos' is an addition",
+   "b003: agreement error 'Érdekes azok'",
+   "omits 'tesouros de ternura, de carinho e de meiguice' and mistranslates 'esperança' as 'erő'",
+   "mistranslates 'negregada' as 'bestiális' and uses a wrong conditional ('válhatnék') in b005",
+   "b006 final sentence garbled and ungrammatical"
+  ],
+  "hu:opus_med": [
+   "'számos' slightly overstates 'várias'",
+   "'nem érthetünk egyet' is slightly stronger than 'possamos discordar'",
+   "adds 'a betegek' as subject in b006 (minor clarification)",
+   "drops the 'lazareto' gloss, reducing termbase consistency",
+   "gives no Hungarian gloss 'szeder' for 'amoras de silva'",
+   "'gargalizálás' is a colloquial variant",
+   "Epitaph is normalized: capitals and archaic spelling (UASCONSELLOS, GONSALVES) are lost.",
+   "'Gliz' is silently expanded to 'Gonçalves'."
+  ],
+  "hu:opus_low": [
+   "'nem érthetünk egyet' is slightly stronger than 'possamos discordar'",
+   "'szeretet' for 'caridade' is slightly generic",
+   "renders 'carinho' as 'szeretetteljes gondoskodás', echoing 'szeretet' in a repetitive way",
+   "keeps capitalised 'Ulmifolius' (modern binomial usage would be lowercase)",
+   "'Rubusnak' is attached without a hyphen",
+   "First sentence says 'reached a great age' and omits 'died'.",
+   "Typo 'születéséének'.",
+   "Epitaph is normalized, losing capitals and archaic spelling."
+  ]
+ }
+}

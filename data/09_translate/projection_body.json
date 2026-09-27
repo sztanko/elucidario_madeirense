@@ -1,0 +1,18 @@
+{
+ "haiku:de": 12.3,
+ "haiku:en": 10.6,
+ "haiku:hu": 12.4,
+ "haiku:ru": 15.8,
+ "opus_low:de": 59.8,
+ "opus_low:en": 49.3,
+ "opus_low:hu": 57.1,
+ "opus_low:ru": 56.9,
+ "opus_med:de": 97.8,
+ "opus_med:en": 75.1,
+ "opus_med:hu": 102.9,
+ "opus_med:ru": 105.7,
+ "sonnet:de": 33.4,
+ "sonnet:en": 27.2,
+ "sonnet:hu": 32.2,
+ "sonnet:ru": 35.1
+}

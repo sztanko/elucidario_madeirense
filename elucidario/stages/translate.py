@@ -326,7 +326,7 @@ JUDGE_SCHEMA = {"type": "object", "properties": {
     "required": ["candidates", "ranking"], "additionalProperties": False}
 
 
-def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1") -> dict:
+def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1", job: str = "translate_judge", effort: str = "medium") -> dict:
     import random
 
     runs = {name: json.loads((OUT / f"{name}_results.json").read_text()) for name in CONFIGS}
@@ -355,20 +355,20 @@ def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1"
             "model": judge_model, "max_tokens": 16000,
             "system": [{"type": "text", "text": JUDGE_SYSTEM, "cache_control": {"type": "ephemeral"}}],
             "messages": [{"role": "user", "content": f"Target language: {LANG_NAMES[lang]}\n\n## Source (Portuguese)\n{src}\n\n{cands}"}],
-            "output_config": {"effort": "medium", "format": {"type": "json_schema", "schema": JUDGE_SCHEMA}},
+            "output_config": {"effort": effort, "format": {"type": "json_schema", "schema": JUDGE_SCHEMA}},
         }})
     (OUT / "judge_map.json").write_text(json.dumps(key_map))
-    return {"requests": len(reqs), "batches": BatchJob("translate_judge").submit(reqs, budget_usd=budget_usd, est_usd=None)}
+    return {"requests": len(reqs), "batches": BatchJob(job).submit(reqs, budget_usd=budget_usd, est_usd=None)}
 
 
-def judge_report() -> dict:
+def judge_report(job: str = "translate_judge") -> dict:
     from collections import Counter
 
     key_map = json.loads((OUT / "judge_map.json").read_text())
     scores = defaultdict(lambda: defaultdict(list))
     wins = defaultdict(Counter)
     errors = defaultdict(list)
-    for cid, res in BatchJob("translate_judge").results():
+    for cid, res in BatchJob(job).results():
         t = message_text(res)
         if not t:
             continue
@@ -389,7 +389,7 @@ def judge_report() -> dict:
         table[f"{lang}:{name}"] = {k: round(sum(v) / len(v), 2) for k, v in d.items()} | {"n": len(d["fidelity"])}
     costs = {name: round(BatchJob(f"translate_{name}").spent(), 2) for name in CONFIGS}
     out = {"scores": table, "wins": {l: dict(c) for l, c in wins.items()}, "pilot_usd": costs,
-           "judge_usd": round(BatchJob("translate_judge").spent(), 2),
+           "judge_usd": round(BatchJob(job).spent(), 2), "judge_job": job,
            "sample_errors": {f"{k[0]}:{k[1]}": v[:8] for k, v in errors.items()}}
     (OUT / "pilot_report.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
     return out
