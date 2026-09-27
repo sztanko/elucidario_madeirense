@@ -1,12 +1,12 @@
 {
-  "units": 66603,
-  "new_or_changed": 0,
-  "removed": 0,
+  "units": 65077,
+  "new_or_changed": 6760,
+  "removed": 8286,
   "by_kind": {
+    "en:chronology.summary": 6760,
     "en:enrichment.abstract": 3861,
     "en:enrichment.chapter_summary": 1643,
     "en:enrichment.chapter_title": 1643,
-    "en:event.text": 8286,
     "en:person.note": 10232,
     "en:person.role": 863,
     "en:person.summary": 4490,
@@ -21,7 +21,7 @@
   },
   "source_chars": {
     "pt": 5631954,
-    "en": 3989966
+    "en": 4010136
   },
-  "translation_rows": 548616
+  "translation_rows": 602696
 }

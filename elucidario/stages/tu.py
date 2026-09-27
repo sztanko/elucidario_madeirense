@@ -85,8 +85,13 @@ def collect_units() -> list[tuple]:
             add(f"{p['id']}:location", "place.location", "en", p["location"], p.get("main_article_id"))
         for m in p["mentions"]:
             add(f"{p['id']}:note:{m['article']}:{m['block']}", "place.note", "en", m["note"], m["article"])
-    for ev in jl(kb / "events.jsonl"):
-        add(f"{ev['id']}:text", "event.text", "en", ev["event"], ev["articles"][0] if ev["articles"] else None)
+    chron = jl(kb / "chronology.jsonl")
+    if chron:  # consolidated chronology supersedes the heuristic event clusters
+        for ev in chron:
+            add(f"{ev['id']}:summary", "chronology.summary", "en", ev["summary"], ev["articles"][0] if ev["articles"] else None)
+    else:
+        for ev in jl(kb / "events.jsonl"):
+            add(f"{ev['id']}:text", "event.text", "en", ev["event"], ev["articles"][0] if ev["articles"] else None)
     for t in jl(kb / "terms.jsonl"):
         add(f"{t['id']}:gloss", "term.gloss", "en", t["glosses"][0] if t["glosses"] else "", None)
     tax = yaml.safe_load(open(KB / "taxonomy.yaml"))
