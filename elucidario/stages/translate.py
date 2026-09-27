@@ -229,7 +229,7 @@ def qa(src_blocks: list[dict], out: dict, lang: str, pkg: dict) -> list[str]:
             continue
         src_all = " ".join(b["text"] for b in pkg["blocks"])
         # skip terms that occur only capitalised (inside proper names: "Porto Santo", "Câmara de Lobos")
-        if not re.search(rf"(?<![A-ZÀ-Ý][\w]* )\b{re.escape(lemma)}\b", src_all):
+        if not any(src_all[m.start()].islower() for m in re.finditer(rf"\b{re.escape(lemma)}\b", src_all, re.I)):
             continue
         r = re.split(r"[(;,/]", (spec.get("rendering") or "").lower())[0].strip(" *")
         stem = r[: max(4, int(len(r) * 0.7))]  # tolerate inflection (Gemeinde/Gemeinden, парафія/парафії)
@@ -326,11 +326,13 @@ JUDGE_SCHEMA = {"type": "object", "properties": {
     "required": ["candidates", "ranking"], "additionalProperties": False}
 
 
-def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1", job: str = "translate_judge", effort: str = "medium") -> dict:
+def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1", job: str = "translate_judge", effort: str = "medium",
+                 configs: list[str] | None = None, map_name: str = "judge_map.json") -> dict:
     import random
 
-    runs = {name: json.loads((OUT / f"{name}_results.json").read_text()) for name in CONFIGS}
-    metas = {name: json.loads((OUT / f"{name}_meta.json").read_text()) for name in CONFIGS}
+    configs = configs or list(CONFIGS)
+    runs = {name: json.loads((OUT / f"{name}_results.json").read_text()) for name in configs}
+    metas = {name: json.loads((OUT / f"{name}_meta.json").read_text()) for name in configs}
     # align chunks across configs by (article, lang, part)
     keyed = {}
     for name, res in runs.items():
@@ -357,14 +359,14 @@ def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1"
             "messages": [{"role": "user", "content": f"Target language: {LANG_NAMES[lang]}\n\n## Source (Portuguese)\n{src}\n\n{cands}"}],
             "output_config": {"effort": effort, "format": {"type": "json_schema", "schema": JUDGE_SCHEMA}},
         }})
-    (OUT / "judge_map.json").write_text(json.dumps(key_map))
+    (OUT / map_name).write_text(json.dumps(key_map))
     return {"requests": len(reqs), "batches": BatchJob(job).submit(reqs, budget_usd=budget_usd, est_usd=None)}
 
 
-def judge_report(job: str = "translate_judge") -> dict:
+def judge_report(job: str = "translate_judge", map_name: str = "judge_map.json", report_name: str = "pilot_report.json") -> dict:
     from collections import Counter
 
-    key_map = json.loads((OUT / "judge_map.json").read_text())
+    key_map = json.loads((OUT / map_name).read_text())
     scores = defaultdict(lambda: defaultdict(list))
     wins = defaultdict(Counter)
     errors = defaultdict(list)
@@ -388,8 +390,51 @@ def judge_report(job: str = "translate_judge") -> dict:
     for (lang, name), d in sorted(scores.items()):
         table[f"{lang}:{name}"] = {k: round(sum(v) / len(v), 2) for k, v in d.items()} | {"n": len(d["fidelity"])}
     costs = {name: round(BatchJob(f"translate_{name}").spent(), 2) for name in CONFIGS}
+    try:
+        from elucidario.llm.openai_batch import OpenAIBatch
+        costs |= {n: OpenAIBatch(f"translate_{n}").state.get("usd") for n in SOL_CONFIGS}
+    except Exception:
+        pass
     out = {"scores": table, "wins": {l: dict(c) for l, c in wins.items()}, "pilot_usd": costs,
            "judge_usd": round(BatchJob(job).spent(), 2), "judge_job": job,
            "sample_errors": {f"{k[0]}:{k[1]}": v[:8] for k, v in errors.items()}}
-    (OUT / "pilot_report.json").write_text(json.dumps(out, ensure_ascii=False, indent=1))
+    (OUT / report_name).write_text(json.dumps(out, ensure_ascii=False, indent=1))
     return out
+
+
+# ------------------------------------------------------------------ OpenAI Sol benchmark
+SOL_CONFIGS = {"sol56": ("gpt-5.6-sol", "low"), "sol6": ("gpt-6-sol", "low")}
+
+
+def sol_submit() -> dict:
+    from elucidario.llm.openai_batch import OpenAIBatch, to_openai
+
+    arts = json.loads((DATA / "08_tu" / "pilot_articles.json").read_text())
+    out = {}
+    for name, (model, effort) in SOL_CONFIGS.items():
+        reqs = pilot_requests(arts, PILOT_LANGS, model, effort, name)  # same packages/prompts; writes <name>_meta.json
+        ob = OpenAIBatch(f"translate_{name}")
+        ob.state["model"] = model
+        out[name] = ob.submit([{"custom_id": r["custom_id"], "body": to_openai(r["params"], effort)} for r in reqs])
+    return out
+
+
+def sol_collect(name: str) -> dict:
+    from elucidario.llm.openai_batch import OpenAIBatch
+
+    meta = json.loads((OUT / f"{name}_meta.json").read_text())
+    ob = OpenAIBatch(f"translate_{name}")
+    results, issues = {}, {}
+    for cid, r in ob.results().items():
+        m = meta[cid]
+        try:
+            out = json.loads(r["text"])
+        except (TypeError, json.JSONDecodeError):
+            issues[cid] = ["unparseable output"]
+            continue
+        results[cid] = {"article": m["article"], "lang": m["lang"], "part": m["part"], "out": out}
+        issues[cid] = qa([], out, m["lang"], m["pkg"])
+    (OUT / f"{name}_results.json").write_text(json.dumps(results, ensure_ascii=False))
+    (OUT / f"{name}_qa.json").write_text(json.dumps(issues, ensure_ascii=False, indent=1))
+    return {"requests": len(meta), "results": len(results), "with_issues": sum(1 for v in issues.values() if v),
+            "usd": ob.state.get("usd")}

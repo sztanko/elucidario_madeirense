@@ -1,107 +1,57 @@
 {
  "opus_low-en-00003": [
-  "termbase 'câmara' -> 'the Council' not used",
   "termbase 'provedor' -> 'president (of the Misericórdia); superintendent (Treasury, customs, pre-1835 office)' not used",
-  "termbase 'cerca' -> 'convent grounds' not used",
-  "termbase 'curral' -> 'fold' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+  "termbase 'cerca' -> 'convent grounds' not used"
  ],
  "opus_low-ru-00150": [
-  "termbase 'ribeira' -> 'речка (f.)' not used",
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
  ],
- "opus_low-ru-00132": [
-  "termbase 'cana' -> 'кана (f.)' not used"
- ],
+ "opus_low-ru-00132": [],
  "opus_low-de-00070": [],
- "opus_low-de-00068": [
-  "termbase 'terreiro' -> 'freier Platz' not used"
- ],
- "opus_low-en-00008": [
-  "termbase 'freire' -> 'brother of the Order' not used"
- ],
- "opus_low-hu-00103": [
-  "termbase 'canavial' -> 'cukornádültetvény' not used"
- ],
+ "opus_low-de-00068": [],
+ "opus_low-en-00008": [],
+ "opus_low-hu-00103": [],
  "opus_low-ru-00141": [
-  "termbase 'capitão-donatário' -> 'капитан-донатарий (m.)' not used",
-  "termbase 'montante' -> 'двуручный меч' not used",
-  "termbase 'acha' -> 'полено' not used"
+  "termbase 'montante' -> 'двуручный меч' not used"
  ],
  "opus_low-hu-00112": [],
  "opus_low-en-00030": [],
  "opus_low-en-00034": [
   "termbase 'vigia' -> 'watch-post; levada context: levada watchman' not used",
   "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
-  "termbase 'garajau' -> 'common tern' not used",
-  "termbase 'passos' -> 'Stations of the Passion' not used",
-  "termbase 'porto' -> 'landing place' not used",
   "termbase 'capitão' -> 'captain' not used"
  ],
  "opus_low-en-00029": [
-  "termbase 'câmara' -> 'the Council' not used",
   "termbase 'capela' -> 'chantry (pl. chantries)' not used"
  ],
- "opus_low-en-00033": [
-  "termbase 'ilhéu' -> 'islet' not used",
-  "termbase 'pico' -> 'peak' not used",
-  "termbase 'ribeiro' -> 'brook' not used"
- ],
- "opus_low-de-00066": [
-  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used"
- ],
+ "opus_low-en-00033": [],
+ "opus_low-de-00066": [],
  "opus_low-de-00082": [
   "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used"
  ],
  "opus_low-en-00004": [
   "length ratio 1.50 in b002",
-  "termbase 'câmara' -> 'the Council' not used",
-  "termbase 'cana' -> 'cana (pl. canas)' not used",
-  "termbase 'mercê' -> 'royal grant' not used",
-  "termbase 'passo' -> 'station (of the Cross)' not used"
+  "termbase 'mercê' -> 'royal grant' not used"
  ],
  "opus_low-hu-00102": [],
  "opus_low-de-00076": [
   "termbase 'vigia' -> 'Wachposten (m.); bei Levadas: Levadawächter (m.)' not used",
-  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
-  "termbase 'garajau' -> 'Flussseeschwalbe' not used",
-  "termbase 'passos' -> 'Passionsstationen' not used",
-  "termbase 'roda' -> 'Drehlade' not used",
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used"
  ],
- "opus_low-hu-00091": [
-  "termbase 'largo' -> 'tér' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
- ],
- "opus_low-ru-00149": [
-  "termbase 'palheiro' -> 'соломенная хижина (f.)' not used"
- ],
- "opus_low-en-00009": [
-  "termbase 'câmara' -> 'the Council' not used",
-  "termbase 'freire' -> 'brother of the Order' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
-  "termbase 'porto' -> 'landing place' not used",
-  "termbase 'acha' -> 'split log' not used"
- ],
- "opus_low-hu-00110": [
-  "termbase 'terreiro' -> 'tér' not used"
- ],
+ "opus_low-hu-00091": [],
+ "opus_low-ru-00149": [],
+ "opus_low-en-00009": [],
+ "opus_low-hu-00110": [],
  "opus_low-ru-00151": [
   "termbase 'leste' -> 'лешти (m., indecl.)' not used"
  ],
  "opus_low-hu-00122": [
-  "termbase 'termo' -> 'termo' not used",
-  "termbase 'porto' -> 'kikötőhely' not used"
+  "termbase 'termo' -> 'termo' not used"
  ],
  "opus_low-de-00043": [
-  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
-  "termbase 'ribeiro' -> 'Bach (m.)' not used",
-  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used"
  ],
- "opus_low-en-00006": [
-  "termbase 'aguardente' -> 'spirit (cane spirit where applicable)' not used",
-  "termbase 'cana' -> 'cana (pl. canas)' not used"
- ],
+ "opus_low-en-00006": [],
  "opus_low-en-00031": [
   "length ratio 0.08 in b004",
   "number 10.000 -> '10,000' not found in b004",
@@ -120,13 +70,8 @@
   "number 461.600 -> '461,600' not found in b011",
   "number 500.000 -> '500,000' not found in b011",
   "missing block b012",
-  "termbase 'levada' -> 'levada (pl. levadas)' not used",
   "termbase 'mosto' -> 'must' not used",
-  "termbase 'moradia' -> 'residence' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
-  "termbase 'vimes' -> 'wicker' not used",
-  "termbase 'cana' -> 'cana (pl. canas)' not used",
-  "termbase 'porto' -> 'landing place' not used"
+  "termbase 'moradia' -> 'residence' not used"
  ],
  "opus_low-de-00067": [
   "termbase 'leste' -> '*Leste* (m.)' not used"
@@ -135,42 +80,29 @@
   "missing block b003",
   "missing block b004",
   "missing block b005",
-  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used",
   "termbase 'vigia' -> 'сторожевой пост (m.); для левад: смотритель левады' not used",
   "termbase 'capitão do porto' -> 'капитан порта (m.)' not used",
-  "termbase 'praças' -> 'нижние чины (pl.)' not used",
-  "termbase 'garajau' -> 'речная крачка' not used",
-  "termbase 'passos' -> 'стации Страстей' not used",
-  "termbase 'praia' -> 'пляж' not used",
-  "termbase 'roda' -> 'поворотный ящик' not used",
-  "termbase 'porto' -> 'пристань (f.)' not used"
+  "termbase 'praças' -> 'нижние чины (pl.)' not used"
  ],
  "opus_low-de-00079": [
   "termbase 'cento' -> '*Cento* (pl. *Centos*)' not used"
  ],
  "opus_low-ru-00161": [
-  "termbase 'casta' -> 'сорт (m.); для винограда: сорт винограда' not used",
-  "termbase 'porto' -> 'пристань (f.)' not used"
+  "termbase 'casta' -> 'сорт (m.); для винограда: сорт винограда' not used"
  ],
  "opus_low-hu-00108": [
-  "termbase 'ribeira' -> 'patak' not used",
   "termbase 'capela' -> 'misealapítvány' not used"
  ],
  "opus_low-en-00017": [],
  "opus_low-hu-00111": [],
  "opus_low-hu-00116": [
   "termbase 'capela' -> 'misealapítvány' not used",
-  "termbase 'mirante' -> 'kilátó' not used",
   "termbase 'dotação' -> 'fenntartási alapítvány' not used",
-  "termbase 'escritura' -> 'okirat' not used",
-  "termbase 'porto' -> 'kikötőhely' not used"
+  "termbase 'escritura' -> 'okirat' not used"
  ],
  "opus_low-ru-00142": [],
  "opus_low-hu-00125": [],
  "opus_low-hu-00095": [
-  "termbase 'ponta' -> 'földnyelv' not used",
-  "termbase 'calheta' -> 'kis öböl' not used",
-  "termbase 'pena' -> '*pena*' not used",
   "termbase 'logar' -> '*lugar*' not used"
  ],
  "opus_low-en-00013": [
@@ -183,23 +115,15 @@
   "termbase 'jazigo' -> 'family vault' not used"
  ],
  "opus_low-de-00052": [
-  "termbase 'largo' -> 'Platz (m.)' not used",
-  "termbase 'fogo' -> 'Haushalt (m.)' not used",
-  "termbase 'pico' -> 'Gipfel (m.)' not used",
   "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
-  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
   "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
   "termbase 'logar' -> '*Lugar* (m.)' not used",
-  "termbase 'peso' -> '*Peso* (m., pl. *Pesos*)' not used",
   "termbase 'reino' -> 'das Königreich' not used"
  ],
  "opus_low-ru-00128": [
-  "termbase 'paul' -> 'заболоченное плато (n.)' not used",
-  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used",
-  "termbase 'lagoa' -> 'озерцо' not used"
+  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used"
  ],
  "opus_low-ru-00155": [
-  "termbase 'câmara' -> 'палата (f.)' not used",
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
  ],
  "opus_low-hu-00109": [
@@ -207,13 +131,9 @@
   "termbase 'leste' -> '*leste*' not used"
  ],
  "opus_low-en-00007": [
-  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
-  "termbase 'padrão' -> 'commemorative pillar' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+  "termbase 'padrão' -> 'commemorative pillar' not used"
  ],
- "opus_low-de-00061": [
-  "termbase 'canavial' -> 'Zuckerrohrfeld (n.)' not used"
- ],
+ "opus_low-de-00061": [],
  "opus_low-hu-00124": [
   "termbase 'levada' -> 'levada (levadát, levadák)' not used"
  ],
@@ -225,8 +145,6 @@
   "missing block b015",
   "termbase 'quinta' -> 'усадьба (f.); in names: Кинта' not used",
   "termbase 'morgado' -> 'майорат (m.); holder: владелец майората' not used",
-  "termbase 'câmara municipal' -> 'Муниципальная палата; short: палата' not used",
-  "termbase 'câmara' -> 'палата (f.)' not used",
   "termbase 'comarca' -> 'судебный округ (m.)' not used",
   "termbase 'vigário' -> 'настоятель (m.)' not used",
   "termbase 'orago' -> 'святой покровитель (m.)' not used",
@@ -236,153 +154,93 @@
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
   "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
   "termbase 'prelado' -> 'прелат (m.)' not used",
-  "termbase 'curral' -> 'загон' not used",
-  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used",
   "termbase 'bispado' -> 'епископство' not used",
   "termbase 'altar privilegiado' -> 'привилегированный алтарь' not used"
  ],
  "opus_low-ru-00131": [
   "length ratio 0.80 in b012",
   "missing block b013",
-  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
-  "termbase 'cana' -> 'кана (f.)' not used"
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used"
  ],
  "opus_low-hu-00084": [
   "termbase 'capela' -> 'misealapítvány' not used",
   "termbase 'cerca' -> 'kolostorkert' not used",
-  "termbase 'prelado' -> 'főpap' not used",
-  "termbase 'fazenda' -> 'birtok' not used",
-  "termbase 'ribeiro' -> 'patak' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
-  "termbase 'caldeira' -> 'kaldera' not used",
-  "termbase 'acha' -> 'fahasáb' not used"
+  "termbase 'prelado' -> 'főpap' not used"
  ],
  "opus_low-hu-00085": [
-  "termbase 'conto de réis' -> '*conto* de réis' not used",
-  "termbase 'cerca' -> 'kolostorkert' not used",
-  "termbase 'ribeiro' -> 'patak' not used",
-  "termbase 'cana' -> 'cana' not used"
+  "termbase 'cerca' -> 'kolostorkert' not used"
  ],
  "opus_low-hu-00120": [
-  "termbase 'ponta' -> 'földnyelv' not used",
   "termbase 'posturas' -> 'helyhatósági rendeletek' not used",
-  "termbase 'calheta' -> 'kis öböl' not used",
   "termbase 'vereações' -> 'tanácsülések' not used",
-  "termbase 'imposição' -> 'községi illeték' not used",
-  "termbase 'porto' -> 'kikötőhely' not used"
+  "termbase 'imposição' -> 'községi illeték' not used"
  ],
- "opus_low-hu-00092": [
-  "termbase 'freire' -> 'rendtestvér' not used"
- ],
+ "opus_low-hu-00092": [],
  "opus_low-hu-00086": [
-  "termbase 'paul' -> 'mocsaras fennsík' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
   "termbase 'canteiro' -> 'virágágyás (kert); canteiro (bor: canteiro-eljárás)' not used"
  ],
  "opus_low-de-00064": [],
- "opus_low-ru-00135": [
-  "termbase 'câmara' -> 'палата (f.)' not used",
-  "termbase 'freire' -> 'брат ордена (m.)' not used",
-  "termbase 'porto' -> 'пристань (f.)' not used",
-  "termbase 'acha' -> 'полено' not used"
- ],
- "opus_low-hu-00090": [
-  "termbase 'cana' -> 'cana' not used"
- ],
+ "opus_low-ru-00135": [],
+ "opus_low-hu-00090": [],
  "opus_low-de-00058": [],
  "opus_low-ru-00162": [
   "missing block b001",
   "missing block b002",
   "missing block b003",
-  "termbase 'câmara municipal' -> 'Муниципальная палата; short: палата' not used",
-  "termbase 'ponta' -> 'мыс (m.)' not used",
-  "termbase 'calheta' -> 'бухточка (f.)' not used",
-  "termbase 'vereações' -> 'заседания совета' not used",
-  "termbase 'porto' -> 'пристань (f.)' not used"
+  "termbase 'vereações' -> 'заседания совета' not used"
  ],
  "opus_low-hu-00101": [],
  "opus_low-en-00020": [
-  "length ratio 1.47 in b000",
-  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+  "length ratio 1.47 in b000"
  ],
- "opus_low-hu-00107": [
-  "termbase 'palheiro' -> 'zsúpfedeles kunyhó' not used"
- ],
+ "opus_low-hu-00107": [],
  "opus_low-hu-00106": [],
  "opus_low-en-00001": [
-  "termbase 'cerca' -> 'convent grounds' not used",
-  "termbase 'ribeiro' -> 'brook' not used",
-  "termbase 'cana' -> 'cana (pl. canas)' not used"
+  "termbase 'cerca' -> 'convent grounds' not used"
  ],
  "opus_low-ru-00156": [],
  "opus_low-en-00038": [
-  "termbase 'calhau' -> 'pebble beach (names: Calhau do Seixo)' not used",
-  "termbase 'termo' -> 'termo' not used",
-  "termbase 'porto' -> 'landing place' not used"
+  "termbase 'termo' -> 'termo' not used"
  ],
  "opus_low-de-00078": [
-  "termbase 'ponta' -> 'Landspitze (f.)' not used",
-  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
-  "termbase 'posturas municipais' -> 'kommunale Verordnungen' not used",
-  "termbase 'imposição' -> 'Gemeindeabgabe (f.)' not used",
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+  "termbase 'imposição' -> 'Gemeindeabgabe (f.)' not used"
  ],
  "opus_low-en-00027": [],
  "opus_low-ru-00158": [
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
-  "termbase 'mirante' -> 'бельведер (m.)' not used",
   "termbase 'dotação' -> 'вклад на содержание' not used",
-  "termbase 'escritura' -> 'акт' not used",
-  "termbase 'porto' -> 'пристань (f.)' not used"
+  "termbase 'escritura' -> 'акт' not used"
  ],
  "opus_low-ru-00154": [
   "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used"
  ],
  "opus_low-de-00054": [
   "number 5.º -> '5' not found in b024",
-  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
   "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
-  "termbase 'vila' -> 'Kleinstadt (f.)' not used",
   "termbase 'escudo' -> 'Escudo (m., pl. Escudos)' not used",
-  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
   "termbase 'linha' -> '*Linha* (f., pl. *Linhas*)' not used",
   "termbase 'reino' -> 'das Königreich' not used"
  ],
  "opus_low-hu-00094": [
   "length ratio 0.78 in b018",
-  "termbase 'fogo' -> 'háztartás' not used",
-  "termbase 'pico' -> 'csúcs' not used",
   "termbase 'capela' -> 'misealapítvány' not used",
-  "termbase 'freire' -> 'rendtestvér' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
-  "termbase 'logar' -> '*lugar*' not used",
-  "termbase 'peso' -> '*peso*' not used"
+  "termbase 'logar' -> '*lugar*' not used"
  ],
- "opus_low-de-00050": [
-  "termbase 'freire' -> 'Ordensbruder (m.)' not used"
- ],
+ "opus_low-de-00050": [],
  "opus_low-en-00016": [],
  "opus_low-ru-00137": [
   "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
-  "termbase 'calheta' -> 'бухточка (f.)' not used",
-  "termbase 'pena' -> 'пена (f.)' not used",
   "termbase 'logar' -> 'лугар (m.)' not used",
   "termbase 'grande do reino' -> 'гранд королевства' not used"
  ],
  "opus_low-en-00014": [
-  "termbase 'câmara' -> 'the Council' not used",
-  "termbase 'oitava' -> '*oitava* (pl. *oitavas*)' not used",
-  "termbase 'terreiro' -> 'open square' not used",
-  "termbase 'acha' -> 'split log' not used"
+  "termbase 'oitava' -> '*oitava* (pl. *oitavas*)' not used"
  ],
  "opus_low-ru-00163": [
   "termbase 'cento' -> 'сенту' not used"
  ],
  "opus_low-en-00012": [
   "number 5.º -> '5' not found in b024",
-  "termbase 'câmara' -> 'the Council' not used",
-  "termbase 'vila' -> 'town' not used",
   "termbase 'escudo' -> 'escudo (pl. escudos)' not used",
   "termbase 'linha' -> '*linha* (pl. *linhas*)' not used",
   "termbase 'reino' -> 'the Kingdom' not used"
@@ -390,38 +248,26 @@
  "opus_low-en-00025": [
   "termbase 'leste' -> '*leste*' not used"
  ],
- "opus_low-hu-00099": [
-  "termbase 'acha' -> 'fahasáb' not used"
- ],
+ "opus_low-hu-00099": [],
  "opus_low-hu-00100": [],
  "opus_low-ru-00138": [
   "number 5.º -> '5' not found in b024",
-  "termbase 'câmara' -> 'палата (f.)' not used",
   "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
-  "termbase 'vila' -> 'городок (m.)' not used",
   "termbase 'escudo' -> 'эскудо (n., indecl.)' not used",
-  "termbase 'calheta' -> 'бухточка (f.)' not used",
   "termbase 'linha' -> 'линья (f.)' not used"
  ],
- "opus_low-en-00021": [
-  "termbase 'porto' -> 'landing place' not used"
- ],
+ "opus_low-en-00021": [],
  "opus_low-de-00072": [],
  "opus_low-ru-00139": [
   "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
  ],
- "opus_low-de-00048": [
-  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
- ],
- "opus_low-de-00057": [
-  "termbase 'acha' -> 'Holzscheit' not used"
- ],
+ "opus_low-de-00048": [],
+ "opus_low-de-00057": [],
  "opus_low-de-00045": [
   "termbase 'provedor' -> 'Vorsteher (der Misericórdia); Provedor/Oberaufseher (Finanz-, Zollverwaltung)' not used",
   "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
   "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
-  "termbase 'curral' -> 'Pferch (m.)' not used",
   "termbase 'altar privilegiado' -> 'privilegierter Altar' not used"
  ],
  "opus_low-de-00042": [
@@ -430,49 +276,28 @@
   "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
   "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
   "termbase 'prelado' -> 'Prälat (m.)' not used",
-  "termbase 'fazenda' -> 'Gut (n.)' not used",
-  "termbase 'ribeiro' -> 'Bach (m.)' not used",
-  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
-  "termbase 'invocação' -> 'Patrozinium' not used",
-  "termbase 'acha' -> 'Holzscheit' not used"
+  "termbase 'invocação' -> 'Patrozinium' not used"
  ],
  "opus_low-en-00032": [
-  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
-  "termbase 'mirante' -> 'belvedere (pl. belvederes)' not used",
-  "termbase 'porto' -> 'landing place' not used"
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used"
  ],
  "opus_low-ru-00134": [
-  "termbase 'solar' -> 'родовой дом (m.)' not used",
-  "termbase 'freire' -> 'брат ордена (m.)' not used"
+  "termbase 'solar' -> 'родовой дом (m.)' not used"
  ],
- "opus_low-en-00026": [
-  "termbase 'terreiro' -> 'open square' not used"
- ],
- "opus_low-en-00019": [
-  "termbase 'canavial' -> 'cane field' not used"
- ],
+ "opus_low-en-00026": [],
+ "opus_low-en-00019": [],
  "opus_low-de-00083": [],
- "opus_low-de-00062": [
-  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
-  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used"
- ],
- "opus_low-hu-00105": [
-  "termbase 'porto' -> 'kikötőhely' not used"
- ],
+ "opus_low-de-00062": [],
+ "opus_low-hu-00105": [],
  "opus_low-hu-00096": [
   "number 5.º -> '5' not found in b024",
-  "termbase 'câmara' -> 'a tanács' not used",
-  "termbase 'vila' -> 'mezőváros' not used",
-  "termbase 'calheta' -> 'kis öböl' not used",
   "termbase 'linha' -> '*linha*' not used"
  ],
  "opus_low-en-00028": [],
  "opus_low-de-00059": [],
  "opus_low-ru-00140": [
-  "termbase 'câmara municipal' -> 'Муниципальная палата; short: палата' not used",
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
-  "termbase 'oitava' -> 'ойтава (f.)' not used",
-  "termbase 'acha' -> 'полено' not used"
+  "termbase 'oitava' -> 'ойтава (f.)' not used"
  ],
  "opus_low-ru-00126": [
   "termbase 'alvará' -> 'королевский указ (m.)' not used",
@@ -481,69 +306,40 @@
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
   "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
   "termbase 'prelado' -> 'прелат (m.)' not used",
-  "termbase 'ribeiro' -> 'ручей (m.)' not used",
   "termbase 'prelado diocesano' -> 'епархиальный епископ (m.)' not used",
-  "termbase 'invocação' -> 'посвящение' not used",
-  "termbase 'caldeira' -> 'кальдера (f.)' not used",
-  "termbase 'acha' -> 'полено' not used"
+  "termbase 'invocação' -> 'посвящение' not used"
  ],
- "opus_low-de-00075": [
-  "termbase 'ilhéu' -> 'Felseninsel (f.)' not used",
-  "termbase 'pico' -> 'Gipfel (m.)' not used",
-  "termbase 'ribeiro' -> 'Bach (m.)' not used"
- ],
- "opus_low-en-00024": [
-  "termbase 'ribeira' -> 'stream (pl. streams)' not used"
- ],
+ "opus_low-de-00075": [],
+ "opus_low-en-00024": [],
  "opus_low-hu-00088": [
-  "termbase 'câmara' -> 'a tanács' not used",
-  "termbase 'cana' -> 'cana' not used",
-  "termbase 'mercê' -> 'királyi adomány' not used",
-  "termbase 'passo' -> 'stáció' not used"
+  "termbase 'mercê' -> 'királyi adomány' not used"
  ],
  "opus_low-ru-00164": [
-  "termbase 'calhau' -> 'галечный пляж (m.)' not used",
   "termbase 'termo' -> 'терму (m., indecl.)' not used"
  ],
  "opus_low-hu-00089": [
   "missing block b013",
-  "termbase 'cerca' -> 'kolostorkert' not used",
-  "termbase 'cana' -> 'cana' not used"
+  "termbase 'cerca' -> 'kolostorkert' not used"
  ],
  "opus_low-de-00074": [
   "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
-  "termbase 'mirante' -> 'Aussichtspavillon (m., pl. Aussichtspavillons)' not used",
-  "termbase 'dotação' -> 'Dotation (f.)' not used",
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+  "termbase 'dotação' -> 'Dotation (f.)' not used"
  ],
- "opus_low-en-00015": [
-  "termbase 'acha' -> 'split log' not used"
- ],
- "opus_low-en-00041": [
-  "termbase 'pico' -> 'peak' not used"
- ],
+ "opus_low-en-00015": [],
+ "opus_low-en-00041": [],
  "opus_low-de-00047": [
   "missing block b013",
   "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
-  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
-  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used"
  ],
  "opus_low-hu-00098": [
-  "termbase 'câmara municipal' -> 'községi tanács; Funchal: városi tanács; short: a tanács' not used",
-  "termbase 'câmara' -> 'a tanács' not used",
   "termbase 'capela' -> 'misealapítvány' not used",
-  "termbase 'oitava' -> '*oitava*' not used",
-  "termbase 'quinto' -> 'ötöd' not used",
-  "termbase 'acha' -> 'fahasáb' not used"
+  "termbase 'oitava' -> '*oitava*' not used"
  ],
  "opus_low-ru-00146": [
-  "length ratio 1.51 in b000",
-  "termbase 'ribeira' -> 'речка (f.)' not used",
-  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used"
+  "length ratio 1.51 in b000"
  ],
- "opus_low-ru-00159": [
-  "termbase 'ribeiro' -> 'ручей (m.)' not used"
- ],
+ "opus_low-ru-00159": [],
  "opus_low-ru-00157": [
   "length ratio 0.10 in b004",
   "number 10.000 -> '10\\xa0000' not found in b004",
@@ -562,93 +358,46 @@
   "number 461.600 -> '461\\xa0600' not found in b011",
   "number 500.000 -> '500\\xa0000' not found in b011",
   "missing block b012",
-  "termbase 'levada' -> 'левада (f.)' not used",
   "termbase 'mosto' -> 'сусло (n.; виноградное сусло)' not used",
-  "termbase 'moradia' -> 'жилище (n.)' not used",
-  "termbase 'vimes' -> 'лоза' not used",
-  "termbase 'cana' -> 'кана (f.)' not used",
-  "termbase 'porto' -> 'пристань (f.)' not used"
+  "termbase 'moradia' -> 'жилище (n.)' not used"
  ],
- "opus_low-hu-00117": [
-  "termbase 'ilhéu' -> 'sziklasziget' not used",
-  "termbase 'pico' -> 'csúcs' not used",
-  "termbase 'ribeiro' -> 'patak' not used"
- ],
+ "opus_low-hu-00117": [],
  "opus_low-de-00044": [
-  "termbase 'paul' -> 'sumpfige Hochfläche (f.)' not used",
-  "termbase 'canteiro' -> 'Blumenbeet (Garten); Canteiro (Wein: Canteiro-Verfahren)' not used",
-  "termbase 'lagoa' -> 'Teich' not used"
+  "termbase 'canteiro' -> 'Blumenbeet (Garten); Canteiro (Wein: Canteiro-Verfahren)' not used"
  ],
  "opus_low-de-00055": [
   "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
   "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
  ],
- "opus_low-en-00023": [
-  "termbase 'palheiro' -> 'thatched hut' not used"
- ],
+ "opus_low-en-00023": [],
  "opus_low-hu-00113": [
-  "termbase 'câmara' -> 'a tanács' not used",
   "termbase 'capela' -> 'misealapítvány' not used"
  ],
  "opus_low-en-00005": [
   "missing block b013",
-  "termbase 'cerca' -> 'convent grounds' not used",
-  "termbase 'cana' -> 'cana (pl. canas)' not used"
+  "termbase 'cerca' -> 'convent grounds' not used"
  ],
- "opus_low-hu-00123": [
-  "termbase 'ribeira' -> 'patak' not used",
-  "termbase 'serra' -> 'hegyvidék' not used",
-  "termbase 'serra de água' -> 'vízifűrész' not used",
-  "termbase 'porto' -> 'kikötőhely' not used"
- ],
- "opus_low-ru-00152": [
-  "termbase 'terreiro' -> 'площадка' not used"
- ],
+ "opus_low-hu-00123": [],
+ "opus_low-ru-00152": [],
  "opus_low-hu-00087": [
-  "termbase 'câmara' -> 'a tanács' not used",
   "termbase 'provedor' -> 'elöljáró (a Misericórdiáé); felügyelő (kincstár, vám, 1835 előtti hivatal)' not used",
   "termbase 'capela' -> 'misealapítvány' not used",
-  "termbase 'cerca' -> 'kolostorkert' not used",
-  "termbase 'curral' -> 'karám' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+  "termbase 'cerca' -> 'kolostorkert' not used"
  ],
- "opus_low-ru-00145": [
-  "termbase 'canavial' -> 'плантация сахарного тростника (f.)' not used"
- ],
+ "opus_low-ru-00145": [],
  "opus_low-en-00010": [
-  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
-  "termbase 'fogo' -> 'household' not used",
-  "termbase 'pico' -> 'peak' not used",
   "termbase 'capela' -> 'chantry (pl. chantries)' not used",
-  "termbase 'freire' -> 'brother of the Order' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
   "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
   "termbase 'capitoa' -> 'captain's wife' not used",
-  "termbase 'logar' -> '*lugar*' not used",
-  "termbase 'peso' -> '*peso* (pl. *pesos*)' not used"
+  "termbase 'logar' -> '*lugar*' not used"
  ],
  "opus_low-ru-00143": [],
- "opus_low-de-00051": [
-  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
-  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used",
-  "termbase 'acha' -> 'Holzscheit' not used"
- ],
- "opus_low-de-00077": [
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
- ],
- "opus_low-hu-00093": [
-  "termbase 'câmara' -> 'a tanács' not used",
-  "termbase 'freire' -> 'rendtestvér' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
-  "termbase 'porto' -> 'kikötőhely' not used",
-  "termbase 'acha' -> 'fahasáb' not used"
- ],
+ "opus_low-de-00051": [],
+ "opus_low-de-00077": [],
+ "opus_low-hu-00093": [],
  "opus_low-de-00056": [
   "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
-  "termbase 'oitava' -> 'die *Oitava* (pl. *Oitavas*)' not used",
-  "termbase 'terreiro' -> 'freier Platz' not used",
-  "termbase 'acha' -> 'Holzscheit' not used"
+  "termbase 'oitava' -> 'die *Oitava* (pl. *Oitavas*)' not used"
  ],
  "opus_low-ru-00166": [
   "termbase 'levada' -> 'левада (f.)' not used"
@@ -656,27 +405,20 @@
  "opus_low-en-00040": [
   "termbase 'levada' -> 'levada (pl. levadas)' not used"
  ],
- "opus_low-de-00063": [
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
- ],
+ "opus_low-de-00063": [],
  "opus_low-ru-00148": [
   "termbase 'desembargador' -> 'судья высшего суда (m.)' not used"
  ],
  "opus_low-de-00046": [
-  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
   "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
   "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
-  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
-  "termbase 'mercê' -> 'Gnadenerweis (m.)' not used",
-  "termbase 'passo' -> 'Kreuzwegstation' not used"
+  "termbase 'mercê' -> 'Gnadenerweis (m.)' not used"
  ],
  "opus_low-ru-00144": [],
  "opus_low-en-00037": [
   "termbase 'cento' -> '*cento* (pl. *centos*)' not used"
  ],
- "opus_low-ru-00153": [
-  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used"
- ],
+ "opus_low-ru-00153": [],
  "opus_low-en-00011": [
   "termbase 'logar' -> '*lugar*' not used",
   "termbase 'reino' -> 'the Kingdom' not used"
@@ -690,13 +432,8 @@
   "length ratio 0.10 in b009",
   "length ratio 0.36 in b011",
   "missing block b012",
-  "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used",
   "termbase 'mosto' -> 'Most (m.)' not used",
-  "termbase 'moradia' -> 'Wohnsitz (m.)' not used",
-  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
-  "termbase 'vimes' -> 'Korbweide' not used",
-  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+  "termbase 'moradia' -> 'Wohnsitz (m.)' not used"
  ],
  "opus_low-en-00018": [],
  "opus_low-hu-00114": [],
@@ -704,23 +441,16 @@
   "termbase 'sítio' -> 'Ortsteil (m., pl. Ortsteile)' not used",
   "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
   "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
-  "termbase 'ponta' -> 'Landspitze (f.)' not used",
-  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
-  "termbase 'pena' -> '*Pena* (f., pl. *Penas*)' not used",
   "termbase 'logar' -> '*Lugar* (m.)' not used",
   "termbase 'reino' -> 'das Königreich' not used",
   "termbase 'grande do reino' -> 'Grande des Königreichs' not used"
  ],
  "opus_low-ru-00130": [
   "length ratio 0.78 in b004",
-  "termbase 'câmara' -> 'палата (f.)' not used",
   "termbase 'quinto' -> 'пятина (f.)' not used",
-  "termbase 'mercê' -> 'пожалование (королевская милость)' not used",
-  "termbase 'passo' -> 'стация Крестного пути' not used"
+  "termbase 'mercê' -> 'пожалование (королевская милость)' not used"
  ],
- "opus_low-hu-00119": [
-  "termbase 'porto' -> 'kikötőhely' not used"
- ],
+ "opus_low-hu-00119": [],
  "opus_low-hu-00115": [
   "length ratio 0.08 in b004",
   "number 10.000 -> '10\\xa0000' not found in b004",
@@ -739,125 +469,70 @@
   "number 461.600 -> '461\\xa0600' not found in b011",
   "number 500.000 -> '500\\xa0000' not found in b011",
   "missing block b012",
-  "termbase 'levada' -> 'levada (levadát, levadák)' not used",
   "termbase 'mosto' -> 'must' not used",
-  "termbase 'moradia' -> 'lakóház' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
-  "termbase 'vimes' -> 'fűzvessző' not used",
-  "termbase 'cana' -> 'cana' not used",
-  "termbase 'porto' -> 'kikötőhely' not used"
+  "termbase 'moradia' -> 'lakóház' not used"
  ],
  "opus_low-hu-00118": [
-  "termbase 'vigia' -> 'őrhely; levadáknál: levadaőr' not used",
-  "termbase 'garajau' -> 'küszvágó csér' not used",
-  "termbase 'passos' -> 'a Passió stációi' not used",
-  "termbase 'roda' -> 'forgóablak' not used",
-  "termbase 'porto' -> 'kikötőhely' not used"
+  "termbase 'vigia' -> 'őrhely; levadáknál: levadaőr' not used"
  ],
  "opus_low-de-00081": [
-  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
   "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
-  "termbase 'serra' -> 'Bergland (n.)' not used",
-  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
-  "termbase 'serra de água' -> 'wassergetriebene Sägemühle (f.)' not used",
-  "termbase 'provedoria' -> 'königliches Rentamt (n.)' not used",
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used"
  ],
  "opus_low-en-00039": [
-  "year 1203 missing in b003",
-  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
-  "termbase 'serra' -> 'uplands (pl.); mountains' not used",
-  "termbase 'serra de água' -> 'water-powered sawmill' not used",
-  "termbase 'provedoria' -> 'Crown Revenue Office' not used",
-  "termbase 'porto' -> 'landing place' not used"
+  "year 1203 missing in b003"
  ],
  "opus_low-de-00080": [
-  "termbase 'termo' -> 'Termo (m.)' not used",
-  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+  "termbase 'termo' -> 'Termo (m.)' not used"
  ],
  "opus_low-ru-00136": [
-  "termbase 'largo' -> 'площадь (f.)' not used",
   "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
   "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
-  "termbase 'freire' -> 'брат ордена (m.)' not used",
   "termbase 'praças' -> 'нижние чины (pl.)' not used",
-  "termbase 'jazigo' -> 'фамильный склеп (m.)' not used",
-  "termbase 'peso' -> 'пезу (m., indecl.)' not used"
+  "termbase 'jazigo' -> 'фамильный склеп (m.)' not used"
  ],
  "opus_low-ru-00165": [
   "missing block b002",
   "missing block b003",
-  "termbase 'réis' -> 'рейс (indecl.)' not used",
-  "termbase 'ribeira' -> 'речка (f.)' not used",
   "termbase 'alvará' -> 'королевский указ (m.)' not used",
-  "termbase 'pipa' -> 'пипа (f.)' not used",
-  "termbase 'moio' -> 'мойу (m., indecl.)' not used",
-  "termbase 'serra' -> 'горы (pl.), горная местность' not used",
   "termbase 'côngrua' -> 'содержание (n.)' not used",
-  "termbase 'fajã' -> 'фажан (m., на фажане)' not used",
   "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
   "termbase 'pároco' -> 'приходской священник (m.)' not used",
-  "termbase 'serra de água' -> 'водяная лесопилка (f.)' not used",
-  "termbase 'provedoria' -> 'королевское казначейство (n.)' not used",
-  "termbase 'invocação' -> 'посвящение' not used",
-  "termbase 'porto' -> 'пристань (f.)' not used"
+  "termbase 'invocação' -> 'посвящение' not used"
  ],
  "opus_low-hu-00097": [
   "termbase 'capela' -> 'misealapítvány' not used"
  ],
- "opus_low-de-00065": [
-  "termbase 'palheiro' -> 'strohgedeckte Hütte (f.)' not used"
- ],
+ "opus_low-de-00065": [],
  "opus_low-ru-00167": [
   "length ratio 1.71 in b000"
  ],
- "opus_low-en-00036": [
-  "termbase 'ponta' -> 'point, headland' not used",
-  "termbase 'calheta' -> 'cove' not used",
-  "termbase 'porto' -> 'landing place' not used"
- ],
+ "opus_low-en-00036": [],
  "opus_low-ru-00127": [
-  "termbase 'conto de réis' -> 'конту рейсов (m., indecl.)' not used",
-  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
-  "termbase 'ribeiro' -> 'ручей (m.)' not used"
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used"
  ],
  "opus_low-de-00071": [
-  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
   "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
  ],
  "opus_low-en-00022": [],
  "opus_low-ru-00133": [
-  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
-  "termbase 'largo' -> 'площадь (f.)' not used",
-  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used"
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used"
  ],
  "opus_low-de-00049": [
   "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used"
  ],
  "opus_low-en-00002": [
-  "termbase 'paul' -> 'marshy upland' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
-  "termbase 'canteiro' -> 'flower bed (garden); canteiro (wine: canteiro system, vinho de canteiro)' not used",
-  "termbase 'lagoa' -> 'pond' not used"
+  "termbase 'canteiro' -> 'flower bed (garden); canteiro (wine: canteiro system, vinho de canteiro)' not used"
  ],
  "opus_low-en-00035": [
-  "termbase 'casta' -> 'variety; of vines: grape variety' not used",
-  "termbase 'porto' -> 'landing place' not used"
+  "termbase 'casta' -> 'variety; of vines: grape variety' not used"
  ],
  "opus_low-en-00000": [
   "termbase 'capela' -> 'chantry (pl. chantries)' not used",
-  "termbase 'cerca' -> 'convent grounds' not used",
-  "termbase 'ribeiro' -> 'brook' not used",
-  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
-  "termbase 'acha' -> 'split log' not used"
+  "termbase 'cerca' -> 'convent grounds' not used"
  ],
- "opus_low-hu-00104": [
-  "termbase 'ribeira' -> 'patak' not used",
-  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
- ],
- "opus_low-ru-00147": [
-  "termbase 'porto' -> 'пристань (f.)' not used"
- ],
+ "opus_low-hu-00104": [],
+ "opus_low-ru-00147": [],
  "opus_low-de-00069": [],
  "opus_low-hu-00121": [
   "termbase 'cento' -> '*cento*' not used"

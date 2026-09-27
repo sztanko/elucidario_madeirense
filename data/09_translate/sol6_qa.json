@@ -1,0 +1,528 @@
+{
+ "sol6-en-00000": [
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
+  "termbase 'cerca' -> 'convent grounds' not used"
+ ],
+ "sol6-en-00001": [
+  "termbase 'cerca' -> 'convent grounds' not used"
+ ],
+ "sol6-en-00002": [
+  "termbase 'canteiro' -> 'flower bed (garden); canteiro (wine: canteiro system, vinho de canteiro)' not used"
+ ],
+ "sol6-en-00003": [
+  "termbase 'provedor' -> 'president (of the Misericórdia); superintendent (Treasury, customs, pre-1835 office)' not used",
+  "termbase 'cerca' -> 'convent grounds' not used"
+ ],
+ "sol6-en-00004": [
+  "termbase 'mercê' -> 'royal grant' not used"
+ ],
+ "sol6-en-00005": [
+  "missing block b013",
+  "termbase 'cerca' -> 'convent grounds' not used"
+ ],
+ "sol6-en-00006": [],
+ "sol6-en-00007": [],
+ "sol6-en-00008": [],
+ "sol6-en-00009": [],
+ "sol6-en-00010": [
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
+  "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
+  "termbase 'capitoa' -> 'captain's wife' not used",
+  "termbase 'logar' -> '*lugar*' not used"
+ ],
+ "sol6-en-00011": [
+  "termbase 'sítio' -> 'locality (pl. localities)' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'reino' -> 'the Kingdom' not used"
+ ],
+ "sol6-en-00012": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'escudo' -> 'escudo (pl. escudos)' not used",
+  "termbase 'linha' -> '*linha* (pl. *linhas*)' not used",
+  "termbase 'reino' -> 'the Kingdom' not used"
+ ],
+ "sol6-en-00013": [],
+ "sol6-en-00014": [
+  "termbase 'oitava' -> '*oitava* (pl. *oitavas*)' not used"
+ ],
+ "sol6-en-00015": [],
+ "sol6-en-00016": [],
+ "sol6-en-00017": [],
+ "sol6-en-00018": [],
+ "sol6-en-00019": [],
+ "sol6-en-00020": [],
+ "sol6-en-00021": [],
+ "sol6-en-00022": [],
+ "sol6-en-00023": [],
+ "sol6-en-00024": [],
+ "sol6-en-00025": [
+  "length ratio 0.67 in b001",
+  "termbase 'leste' -> '*leste*' not used"
+ ],
+ "sol6-en-00026": [],
+ "sol6-en-00027": [],
+ "sol6-en-00028": [],
+ "sol6-en-00029": [],
+ "sol6-en-00030": [],
+ "sol6-en-00031": [
+  "length ratio 0.33 in b004",
+  "number 10.000 -> '10,000' not found in b004",
+  "number 17.000 -> '17,000' not found in b004",
+  "number 18.000 -> '18,000' not found in b004",
+  "number 10.000 -> '10,000' not found in b004",
+  "number 1.000 -> '1,000' not found in b004",
+  "number 1.800 -> '1,800' not found in b004",
+  "number 3.500 -> '3,500' not found in b004",
+  "number 2.000 -> '2,000' not found in b004",
+  "length ratio 0.27 in b011",
+  "number 288.000 -> '288,000' not found in b011",
+  "number 461.600 -> '461,600' not found in b011",
+  "number 500.000 -> '500,000' not found in b011",
+  "length ratio 1.53 in b012",
+  "termbase 'mosto' -> 'must' not used"
+ ],
+ "sol6-en-00032": [],
+ "sol6-en-00033": [],
+ "sol6-en-00034": [
+  "termbase 'vigia' -> 'watch-post; levada context: levada watchman' not used",
+  "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
+  "termbase 'capitão' -> 'captain' not used"
+ ],
+ "sol6-en-00035": [
+  "termbase 'casta' -> 'variety; of vines: grape variety' not used"
+ ],
+ "sol6-en-00036": [
+  "termbase 'vereações' -> 'council sessions' not used"
+ ],
+ "sol6-en-00037": [
+  "termbase 'cento' -> '*cento* (pl. *centos*)' not used"
+ ],
+ "sol6-en-00038": [
+  "termbase 'termo' -> 'termo' not used"
+ ],
+ "sol6-en-00039": [
+  "year 1203 missing in b003"
+ ],
+ "sol6-en-00040": [
+  "termbase 'levada' -> 'levada (pl. levadas)' not used"
+ ],
+ "sol6-en-00041": [],
+ "sol6-de-00042": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'prelado' -> 'Prälat (m.)' not used"
+ ],
+ "sol6-de-00043": [
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used"
+ ],
+ "sol6-de-00044": [
+  "termbase 'canteiro' -> 'Blumenbeet (Garten); Canteiro (Wein: Canteiro-Verfahren)' not used"
+ ],
+ "sol6-de-00045": [
+  "termbase 'provedor' -> 'Vorsteher (der Misericórdia); Provedor/Oberaufseher (Finanz-, Zollverwaltung)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'altar privilegiado' -> 'privilegierter Altar' not used"
+ ],
+ "sol6-de-00046": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
+  "termbase 'mercê' -> 'Gnadenerweis (m.)' not used"
+ ],
+ "sol6-de-00047": [
+  "length ratio 0.84 in b012",
+  "length ratio 0.04 in b013",
+  "number 648:500 -> '648.500' not found in b013",
+  "number 442:000 -> '442.000' not found in b013",
+  "number 442:000 -> '442.000' not found in b013",
+  "number 800:000 -> '800.000' not found in b013",
+  "number 1:053:000 -> '1.053.000' not found in b013",
+  "number 1:823:350 -> '1.823.350' not found in b013",
+  "number 2:973:000 -> '2.973.000' not found in b013",
+  "number 3:204:000 -> '3.204.000' not found in b013",
+  "number 4:161:550 -> '4.161.550' not found in b013",
+  "number 4:260:928 -> '4.260.928' not found in b013",
+  "number 4:796:725 -> '4.796.725' not found in b013",
+  "number 4:917:113 -> '4.917.113' not found in b013",
+  "number 4:943:675 -> '4.943.675' not found in b013",
+  "year 1912 missing in b013",
+  "year 1898 missing in b013",
+  "year 1908 missing in b013",
+  "year 1911 missing in b013",
+  "year 1900 missing in b013",
+  "year 1914 missing in b013",
+  "year 1899 missing in b013",
+  "year 1913 missing in b013",
+  "year 1905 missing in b013",
+  "year 1906 missing in b013",
+  "year 1916 missing in b013",
+  "year 1910 missing in b013",
+  "year 1915 missing in b013",
+  "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used"
+ ],
+ "sol6-de-00048": [],
+ "sol6-de-00049": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'padrão' -> 'Gedenksäule' not used"
+ ],
+ "sol6-de-00050": [],
+ "sol6-de-00051": [],
+ "sol6-de-00052": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
+  "termbase 'logar' -> '*Lugar* (m.)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "sol6-de-00053": [
+  "termbase 'sítio' -> 'Ortsteil (m., pl. Ortsteile)' not used",
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'logar' -> '*Lugar* (m.)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "sol6-de-00054": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'escudo' -> 'Escudo (m., pl. Escudos)' not used",
+  "termbase 'linha' -> '*Linha* (f., pl. *Linhas*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "sol6-de-00055": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "sol6-de-00056": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'oitava' -> 'die *Oitava* (pl. *Oitavas*)' not used"
+ ],
+ "sol6-de-00057": [],
+ "sol6-de-00058": [],
+ "sol6-de-00059": [],
+ "sol6-de-00060": [],
+ "sol6-de-00061": [],
+ "sol6-de-00062": [],
+ "sol6-de-00063": [],
+ "sol6-de-00064": [],
+ "sol6-de-00065": [],
+ "sol6-de-00066": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "sol6-de-00067": [
+  "termbase 'leste' -> '*Leste* (m.)' not used"
+ ],
+ "sol6-de-00068": [],
+ "sol6-de-00069": [],
+ "sol6-de-00070": [],
+ "sol6-de-00071": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "sol6-de-00072": [],
+ "sol6-de-00073": [
+  "length ratio 0.21 in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "length ratio 0.61 in b009",
+  "length ratio 0.31 in b011",
+  "length ratio 0.45 in b012",
+  "termbase 'mosto' -> 'Most (m.)' not used",
+  "termbase 'moradia' -> 'Wohnsitz (m.)' not used"
+ ],
+ "sol6-de-00074": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'dotação' -> 'Dotation (f.)' not used"
+ ],
+ "sol6-de-00075": [],
+ "sol6-de-00076": [
+  "termbase 'vigia' -> 'Wachposten (m.); bei Levadas: Levadawächter (m.)' not used",
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used"
+ ],
+ "sol6-de-00077": [
+  "termbase 'casta' -> 'Sorte (f.); bei Reben: Rebsorte' not used"
+ ],
+ "sol6-de-00078": [
+  "termbase 'vereações' -> 'Ratssitzungen' not used",
+  "termbase 'imposição' -> 'Gemeindeabgabe (f.)' not used"
+ ],
+ "sol6-de-00079": [
+  "termbase 'cento' -> '*Cento* (pl. *Centos*)' not used"
+ ],
+ "sol6-de-00080": [
+  "termbase 'termo' -> 'Termo (m.)' not used"
+ ],
+ "sol6-de-00081": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used"
+ ],
+ "sol6-de-00082": [
+  "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used"
+ ],
+ "sol6-de-00083": [],
+ "sol6-hu-00084": [
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'prelado' -> 'főpap' not used"
+ ],
+ "sol6-hu-00085": [
+  "termbase 'cerca' -> 'kolostorkert' not used"
+ ],
+ "sol6-hu-00086": [
+  "termbase 'canteiro' -> 'virágágyás (kert); canteiro (bor: canteiro-eljárás)' not used"
+ ],
+ "sol6-hu-00087": [
+  "termbase 'provedor' -> 'elöljáró (a Misericórdiáé); felügyelő (kincstár, vám, 1835 előtti hivatal)' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used"
+ ],
+ "sol6-hu-00088": [
+  "length ratio 0.69 in b009",
+  "termbase 'mercê' -> 'királyi adomány' not used"
+ ],
+ "sol6-hu-00089": [
+  "missing block b013",
+  "termbase 'cerca' -> 'kolostorkert' not used"
+ ],
+ "sol6-hu-00090": [],
+ "sol6-hu-00091": [],
+ "sol6-hu-00092": [],
+ "sol6-hu-00093": [
+  "termbase 'familiar' -> 'familiáris' not used"
+ ],
+ "sol6-hu-00094": [
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'invocação' -> 'titulus' not used",
+  "termbase 'praças' -> 'legénység (számnév után: fő)' not used",
+  "termbase 'logar' -> '*lugar*' not used"
+ ],
+ "sol6-hu-00095": [
+  "termbase 'logar' -> '*lugar*' not used"
+ ],
+ "sol6-hu-00096": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'escudo' -> 'escudo' not used",
+  "termbase 'linha' -> '*linha*' not used"
+ ],
+ "sol6-hu-00097": [
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "sol6-hu-00098": [
+  "number 1.ª -> '1' not found in b034",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'oitava' -> '*oitava*' not used"
+ ],
+ "sol6-hu-00099": [
+  "length ratio 0.77 in b037"
+ ],
+ "sol6-hu-00100": [],
+ "sol6-hu-00101": [],
+ "sol6-hu-00102": [],
+ "sol6-hu-00103": [],
+ "sol6-hu-00104": [],
+ "sol6-hu-00105": [],
+ "sol6-hu-00106": [],
+ "sol6-hu-00107": [],
+ "sol6-hu-00108": [
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "sol6-hu-00109": [
+  "length ratio 0.69 in b001",
+  "termbase 'leste' -> '*leste*' not used"
+ ],
+ "sol6-hu-00110": [],
+ "sol6-hu-00111": [],
+ "sol6-hu-00112": [],
+ "sol6-hu-00113": [
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "sol6-hu-00114": [],
+ "sol6-hu-00115": [
+  "length ratio 1.59 in b012"
+ ],
+ "sol6-hu-00116": [
+  "termbase 'escritura de dotação' -> 'alapítólevél' not used",
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "sol6-hu-00117": [],
+ "sol6-hu-00118": [
+  "termbase 'vigia' -> 'őrhely; levadáknál: levadaőr' not used"
+ ],
+ "sol6-hu-00119": [],
+ "sol6-hu-00120": [
+  "termbase 'vereações' -> 'tanácsülések' not used",
+  "termbase 'imposição' -> 'községi illeték' not used"
+ ],
+ "sol6-hu-00121": [
+  "termbase 'cento' -> '*cento*' not used"
+ ],
+ "sol6-hu-00122": [
+  "termbase 'termo' -> 'termo' not used"
+ ],
+ "sol6-hu-00123": [],
+ "sol6-hu-00124": [
+  "termbase 'levada' -> 'levada (levadát, levadák)' not used"
+ ],
+ "sol6-hu-00125": [],
+ "sol6-ru-00126": [
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'prelado' -> 'прелат (m.)' not used",
+  "termbase 'prelado diocesano' -> 'епархиальный епископ (m.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used"
+ ],
+ "sol6-ru-00127": [
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used"
+ ],
+ "sol6-ru-00128": [
+  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used"
+ ],
+ "sol6-ru-00129": [
+  "termbase 'comarca' -> 'судебный округ (m.)' not used",
+  "termbase 'vigário' -> 'настоятель (m.)' not used",
+  "termbase 'orago' -> 'святой покровитель (m.)' not used",
+  "termbase 'provedor' -> 'председатель (Мизерикордии); интендант (казны, таможни, должность до 1835)' not used",
+  "termbase 'vigário geral' -> 'генеральный викарий (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used"
+ ],
+ "sol6-ru-00130": [
+  "termbase 'mercê' -> 'пожалование (королевская милость)' not used"
+ ],
+ "sol6-ru-00131": [
+  "missing block b013",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used"
+ ],
+ "sol6-ru-00132": [],
+ "sol6-ru-00133": [
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used"
+ ],
+ "sol6-ru-00134": [
+  "termbase 'solar' -> 'родовой дом (m.)' not used"
+ ],
+ "sol6-ru-00135": [
+  "termbase 'familiar' -> 'фамилиар (m.)' not used"
+ ],
+ "sol6-ru-00136": [
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used",
+  "termbase 'jazigo' -> 'фамильный склеп (m.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used"
+ ],
+ "sol6-ru-00137": [
+  "termbase 'sítio' -> 'местность (f.)' not used",
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'grande do reino' -> 'гранд королевства' not used"
+ ],
+ "sol6-ru-00138": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'escudo' -> 'эскудо (n., indecl.)' not used",
+  "termbase 'linha' -> 'линья (f.)' not used"
+ ],
+ "sol6-ru-00139": [
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "sol6-ru-00140": [
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'oitava' -> 'ойтава (f.)' not used"
+ ],
+ "sol6-ru-00141": [],
+ "sol6-ru-00142": [],
+ "sol6-ru-00143": [],
+ "sol6-ru-00144": [],
+ "sol6-ru-00145": [],
+ "sol6-ru-00146": [
+  "length ratio 1.52 in b000"
+ ],
+ "sol6-ru-00147": [],
+ "sol6-ru-00148": [
+  "termbase 'desembargador' -> 'судья высшего суда (m.)' not used"
+ ],
+ "sol6-ru-00149": [],
+ "sol6-ru-00150": [
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "sol6-ru-00151": [
+  "length ratio 0.74 in b001",
+  "termbase 'leste' -> 'лешти (m., indecl.)' not used"
+ ],
+ "sol6-ru-00152": [
+  "length ratio 1.84 in b000"
+ ],
+ "sol6-ru-00153": [],
+ "sol6-ru-00154": [],
+ "sol6-ru-00155": [
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "sol6-ru-00156": [],
+ "sol6-ru-00157": [
+  "length ratio 0.58 in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 17.000 -> '17\\xa0000' not found in b004",
+  "number 18.000 -> '18\\xa0000' not found in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "length ratio 0.71 in b009",
+  "number 288.000 -> '288\\xa0000' not found in b009",
+  "number 500.000 -> '500\\xa0000' not found in b009",
+  "length ratio 0.54 in b011",
+  "number 288.000 -> '288\\xa0000' not found in b011",
+  "number 461.600 -> '461\\xa0600' not found in b011",
+  "number 500.000 -> '500\\xa0000' not found in b011",
+  "length ratio 0.40 in b012",
+  "number 70.000 -> '70\\xa0000' not found in b012",
+  "number 25.000 -> '25\\xa0000' not found in b012",
+  "number 1.344.600 -> '1\\xa0344\\xa0600' not found in b012",
+  "termbase 'mosto' -> 'сусло (n.; виноградное сусло)' not used",
+  "termbase 'moradia' -> 'жилище (n.)' not used"
+ ],
+ "sol6-ru-00158": [
+  "length ratio 1.57 in b000",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'dotação' -> 'вклад на содержание' not used",
+  "termbase 'escritura' -> 'акт' not used"
+ ],
+ "sol6-ru-00159": [],
+ "sol6-ru-00160": [
+  "termbase 'vigia' -> 'сторожевой пост (m.); для левад: смотритель левады' not used",
+  "termbase 'capitão do porto' -> 'капитан порта (m.)' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used"
+ ],
+ "sol6-ru-00161": [
+  "termbase 'casta' -> 'сорт (m.); для винограда: сорт винограда' not used"
+ ],
+ "sol6-ru-00162": [
+  "termbase 'vereações' -> 'заседания совета' not used"
+ ],
+ "sol6-ru-00163": [
+  "termbase 'cento' -> 'сенту' not used"
+ ],
+ "sol6-ru-00164": [
+  "termbase 'termo' -> 'терму (m., indecl.)' not used"
+ ],
+ "sol6-ru-00165": [
+  "length ratio 2.22 in b003",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used"
+ ],
+ "sol6-ru-00166": [
+  "termbase 'levada' -> 'левада (f.)' not used"
+ ],
+ "sol6-ru-00167": [
+  "length ratio 1.69 in b000"
+ ]
+}

@@ -53,3 +53,31 @@ Cost ratio Opus low : Sonnet = 3.5 : 1 (pilot: $2.29 vs $0.66).
 **Decision (owner, 2026-09-27):** Sonnet 5 for metadata in all languages except Hungarian, which uses Opus 5.5 low (kb/translation_config.yaml). Its accuracy is within 0.1–0.2 of Opus. The gap is mostly naturalness, and it is largest in Hungarian, so Hungarian metadata may use Opus low (about +£11). Remaining errors are minor: an idiom here and there, the work's title rendered "Elucidárium", and quotation-mark style. These are addressed in the language guides.
 
 **Final estimate per language: about £53–64** (Hungarian with Opus metadata: about £64–75).
+
+## OpenAI Sol benchmark (same 42 chunks × en/de/hu/ru; same prompts, packages and schema; OpenAI Batch API)
+The judge was Opus 5.5 at high effort, blind and shuffled, comparing four candidates: Opus low, Sonnet 5, gpt-5.6-sol (low) and gpt-6-sol (low). Judge cost: $3.87.
+
+| Fidelity | en | de | hu | ru | Pilot cost (4 languages) |
+|---|---|---|---|---|---|
+| Opus 5.5 low | 4.55 | 4.50 | 4.50 | 4.17 | about $3.84 (warmed cache) |
+| gpt-5.6-sol | 4.48 | 4.33 | 4.50 | **4.55** | $3.35 |
+| gpt-6-sol | 4.10 | 4.07 | 4.45 | 4.19 | $1.37 |
+| Sonnet 5 | 4.05 | 3.88 | 3.21 | 3.33 | about $1.5 |
+
+- **Fluency:** Sol scores 4.45–4.83 and Opus 4.26–4.38.
+- **Chunk wins:**
+  - ru: gpt-5.6-sol 23, Opus 11
+  - de: Opus 22, gpt-5.6-sol 14
+  - en: Opus 19, gpt-5.6-sol 17
+  - hu: Opus 18, gpt-6-sol 17
+- **Typical Sol errors:** "contos de réis" sometimes left unconverted to a full figure; quotations split into short sentences.
+- **Caveat:** the judge is an Anthropic model, so self-preference is possible. Ukrainian was not tested.
+
+**Candidate routing for article bodies:**
+| Languages | Model |
+|---|---|
+| en, de, fr, it, nl | Opus 5.5 low |
+| ru, uk | gpt-5.6-sol |
+| hu | gpt-6-sol |
+
+**Status:** pending the owner's decision.
