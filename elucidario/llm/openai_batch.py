@@ -68,8 +68,12 @@ class OpenAIBatch:
                                    ensure_ascii=False) + "\n")
         up = httpx.post(f"{API}/files", headers=_h(), files={"file": ("input.jsonl", open(path, "rb"))},
                         data={"purpose": "batch"}, timeout=300).json()
+        if "id" not in up:
+            raise RuntimeError(f"OpenAI file upload failed: {up}")
         b = httpx.post(f"{API}/batches", headers=_h(), json={"input_file_id": up["id"], "endpoint": "/v1/responses",
                                                               "completion_window": "24h"}, timeout=60).json()
+        if "id" not in b:
+            raise RuntimeError(f"OpenAI batch creation failed: {b}")
         self.state.update(batch_id=b["id"], file_id=up["id"], created=datetime.now(timezone.utc).isoformat(), n=len(requests))
         self._save()
         return b["id"]

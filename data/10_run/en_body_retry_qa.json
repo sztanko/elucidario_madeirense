@@ -1,0 +1,336 @@
+{
+"en-b01732/E0": [
+"number 100$000 -> '100,000' not found in b003",
+"termbase 'cerca' -> 'convent grounds' not used",
+"termbase 'baluarte' -> 'bastion' not used",
+"termbase 'bordados' -> 'embroidery' not used",
+"termbase 'mercê' -> 'royal grant' not used"
+],
+"en-b01732/E1": [],
+"en-b01732/E2": [],
+"en-b01732/E3": [],
+"en-b01732/E4": [],
+"en-b01732/E5": [],
+"en-b01732/E6": [
+"termbase 'desterro' -> 'banishment' not used"
+],
+"en-b00581/E0": [
+"length ratio 0.05 in b011",
+"number 2483 -> '2,483' not found in b011",
+"number 2135 -> '2,135' not found in b011",
+"number 2298 -> '2,298' not found in b011",
+"number 3222 -> '3,222' not found in b011",
+"number 3295 -> '3,295' not found in b011",
+"number 2678 -> '2,678' not found in b011",
+"number 2326 -> '2,326' not found in b011",
+"year 1905 missing in b011",
+"year 1908 missing in b011",
+"year 1103 missing in b011",
+"year 1909 missing in b011",
+"year 1911 missing in b011",
+"year 1844 missing in b011",
+"year 1902 missing in b011",
+"year 1271 missing in b011",
+"year 1080 missing in b011",
+"year 1913 missing in b011",
+"year 1912 missing in b011",
+"year 1916 missing in b011",
+"year 1904 missing in b011",
+"year 1347 missing in b011",
+"year 1901 missing in b011",
+"year 1915 missing in b011",
+"year 1907 missing in b011",
+"year 1903 missing in b011",
+"year 1178 missing in b011",
+"year 1910 missing in b011",
+"termbase 'cerca' -> 'convent grounds' not used"
+],
+"en-b00942/E0": [
+"termbase 'procurador' -> 'representative' not used",
+"termbase 'termo' -> 'termo' not used"
+],
+"en-b01143/E0": [
+"termbase 'capela' -> 'chantry (pl. chantries)' not used",
+"termbase 'irmãos' -> 'brethren' not used"
+],
+"en-b01280/E0": [],
+"en-b01280/E1": [],
+"en-b00623/E0": [
+"length ratio 0.02 in b007",
+"number 9.958 -> '9,958' not found in b007",
+"number 4.998 -> '4,998' not found in b007",
+"number 3.069 -> '3,069' not found in b007",
+"number 4.684 -> '4,684' not found in b007",
+"number 1.291 -> '1,291' not found in b007",
+"number 3.000 -> '3,000' not found in b007",
+"number 4.560 -> '4,560' not found in b007",
+"number 1.440 -> '1,440' not found in b007",
+"number 4.840 -> '4,840' not found in b007",
+"number 3.680 -> '3,680' not found in b007",
+"number 3880 -> '3,880' not found in b007",
+"number 6.624 -> '6,624' not found in b007",
+"number 5.701 -> '5,701' not found in b007",
+"number 9.325 -> '9,325' not found in b007",
+"number 7.720 -> '7,720' not found in b007",
+"number 3.880 -> '3,880' not found in b007",
+"number 7.695 -> '7,695' not found in b007",
+"number 8.033 -> '8,033' not found in b007",
+"number 7.038 -> '7,038' not found in b007",
+"number 2.569 -> '2,569' not found in b007",
+"number 2.975 -> '2,975' not found in b007",
+"number 6.760 -> '6,760' not found in b007",
+"number 6.380 -> '6,380' not found in b007",
+"number 4.720 -> '4,720' not found in b007",
+"number 2.260 -> '2,260' not found in b007",
+"number 2.700 -> '2,700' not found in b007",
+"number 11.000 -> '11,000' not found in b007",
+"number 8.220 -> '8,220' not found in b007",
+"number 4.740 -> '4,740' not found in b007",
+"number 3.440 -> '3,440' not found in b007",
+"number 5.520 -> '5,520' not found in b007",
+"number 3.480 -> '3,480' not found in b007",
+"length ratio 0.11 in b010",
+"number 3.217 -> '3,217' not found in b010",
+"number 6.783 -> '6,783' not found in b010",
+"number 4.240 -> '4,240' not found in b010",
+"number 4.760 -> '4,760' not found in b010",
+"number 9.160 -> '9,160' not found in b010",
+"length ratio 0.09 in b012",
+"number 3.000 -> '3,000' not found in b012",
+"number 6.000 -> '6,000' not found in b012",
+"number 3.520 -> '3,520' not found in b012",
+"number 14.080 -> '14,080' not found in b012",
+"number 4.150 -> '4,150' not found in b012",
+"number 4.200 -> '4,200' not found in b012",
+"number 34.950 -> '34,950' not found in b012",
+"length ratio 0.21 in b015",
+"number 7.520 -> '7,520' not found in b015",
+"length ratio 0.13 in b018",
+"number 2.495 -> '2,495' not found in b018",
+"number 11.350 -> '11,350' not found in b018",
+"number 19.085 -> '19,085' not found in b018",
+"number 0.537 -> '537' not found in b018",
+"number 33.467 -> '33,467' not found in b018",
+"length ratio 0.11 in b021",
+"number 5.000 -> '5,000' not found in b021",
+"number 2.350 -> '2,350' not found in b021",
+"number 2.650 -> '2,650' not found in b021",
+"number 3.000 -> '3,000' not found in b021",
+"number 1.450 -> '1,450' not found in b021",
+"number 4.825 -> '4,825' not found in b021",
+"termbase 'ramal' -> 'branch channel (pl. branch channels)' not used"
+],
+"en-b00150/E0": [],
+"en-b00399/E0": [
+"number 764,94 -> '764.94' not found in b021",
+"number 763,45 -> '763.45' not found in b021",
+"number 763,05 -> '763.05' not found in b021",
+"number 762,40 -> '762.40' not found in b021",
+"number 62,2 -> '62.2' not found in b030",
+"number 62,7 -> '62.7' not found in b030",
+"number 57,5 -> '57.5' not found in b030"
+],
+"en-b01556/E0": [
+"length ratio 0.03 in b002",
+"number 1 600 -> '1,600' not found in b002",
+"number 1 870 -> '1,870' not found in b002",
+"number 1 094 -> '1,094' not found in b002",
+"number 1 618 -> '1,618' not found in b002",
+"number 1 614 -> '1,614' not found in b002",
+"number 1 669 -> '1,669' not found in b002",
+"number 1 810 -> '1,810' not found in b002",
+"number 1 886 -> '1,886' not found in b002",
+"number 1 425 -> '1,425' not found in b002",
+"number 1 664 -> '1,664' not found in b002",
+"number 1 748 -> '1,748' not found in b002",
+"number 1 952 -> '1,952' not found in b002",
+"number 2 311 -> '2,311' not found in b002",
+"number 2 182 -> '2,182' not found in b002",
+"number 2 243 -> '2,243' not found in b002",
+"number 2 490 -> '2,490' not found in b002",
+"number 2 701 -> '2,701' not found in b002",
+"year 1835 missing in b002",
+"year 1849 missing in b002",
+"year 1930 missing in b002",
+"year 1839 missing in b002",
+"year 1920 missing in b002",
+"year 1791 missing in b002",
+"year 1529 missing in b002",
+"year 1843 missing in b002",
+"year 1864 missing in b002",
+"year 1871 missing in b002",
+"year 1900 missing in b002",
+"year 1940 missing in b002",
+"year 1590 missing in b002",
+"year 1911 missing in b002",
+"year 1850 missing in b002",
+"year 1878 missing in b002",
+"year 1789 missing in b002",
+"year 1890 missing in b002",
+"termbase 'cerca' -> 'convent grounds' not used",
+"termbase 'cento' -> '*cento* (pl. *centos*)' not used"
+],
+"en-b00164/E0": [],
+"en-b01522/E0": [
+"length ratio 0.32 in b016",
+"number 17 677 -> '17,677' not found in b016",
+"number 19 752 -> '19,752' not found in b016",
+"number 18 778 -> '18,778' not found in b016",
+"number 20 844 -> '20,844' not found in b016",
+"number 24 687 -> '24,687' not found in b016",
+"number 24 238 -> '24,238' not found in b016",
+"number 31 352 -> '31,352' not found in b016",
+"year 1930 missing in b016",
+"year 1920 missing in b016",
+"year 1864 missing in b016",
+"year 1909 missing in b016",
+"year 1878 missing in b016",
+"year 1910 missing in b016",
+"year 1890 missing in b016"
+],
+"en-b01647/E0": [],
+"en-b01647/E1": [
+"termbase 'cerca' -> 'convent grounds' not used"
+],
+"en-b01647/E2": [],
+"en-b01647/E3": [],
+"en-b01647/E4": [],
+"en-b01145/E0": [],
+"en-b01901/E0": [
+"termbase 'engenho' -> 'sugar mill' not used"
+],
+"en-b01901/E1": [],
+"en-b01901/E2": [],
+"en-b01951/E0": [
+"termbase 'mosto' -> 'must' not used",
+"termbase 'moradia' -> 'residence' not used"
+],
+"en-b00592/E0": [
+"termbase 'disciplinas' -> 'scourges' not used"
+],
+"en-b00021/E0": [
+"termbase 'cerca' -> 'convent grounds' not used"
+],
+"en-b00751/E0": [
+"termbase 'termo' -> 'termo' not used",
+"termbase 'junta' -> 'General Council' not used"
+],
+"en-b00853/E0": [
+"number 230.000 -> '230,000' not found in b017",
+"termbase 'cerca' -> 'convent grounds' not used"
+],
+"en-b00049/E0": [],
+"en-b01340/E0": [
+"termbase 'capela' -> 'chantry (pl. chantries)' not used",
+"termbase 'reino' -> 'the Kingdom' not used"
+],
+"en-b01179/E0": [],
+"en-b01179/E1": [],
+"en-b01573/E0": [],
+"en-b01028/E0": [
+"termbase 'montante' -> 'two-handed sword' not used"
+],
+"en-b00868/E0": [
+"termbase 'logar' -> '*lugar*' not used"
+],
+"en-b01257/E0": [],
+"en-b01257/E1": [
+"length ratio 0.72 in b000"
+],
+"en-b01257/E2": [
+"number 6.° -> '6' not found in b001"
+],
+"en-b01257/E3": [],
+"en-b01257/E4": [
+"length ratio 1.37 in b000"
+],
+"en-b01993/E0": [],
+"en-b01490/E0": [],
+"en-b01490/E1": [
+"termbase 'conservador' -> 'judge conservator' not used"
+],
+"en-b01490/E2": [],
+"en-b01490/E3": [],
+"en-b01490/E4": [],
+"en-b01490/E5": [],
+"en-b01490/E6": [
+"termbase 'profundidade' -> 'profundidade (pl. profundidades)' not used"
+],
+"en-b01490/E7": [
+"length ratio 1.37 in b003"
+],
+"en-b01490/E8": [],
+"en-b01490/E9": [],
+"en-b01490/E10": [],
+"en-b01490/E11": [
+"length ratio 0.70 in b001"
+],
+"en-b01490/E12": [],
+"en-b00067/E0": [
+"termbase 'fogos' -> 'households' not used"
+],
+"en-b00067/E1": [],
+"en-b00067/E2": [
+"termbase 'capítulos' -> 'articles of complaint' not used"
+],
+"en-b00067/E3": [
+"termbase 'câmara' -> 'the Council' not used"
+],
+"en-b00067/E4": [],
+"en-b00067/E5": [],
+"en-b00067/E6": [],
+"en-b00067/E7": [],
+"en-b00032/E0": [],
+"en-b00542/E0": [],
+"en-b01572/E0": [
+"number 231 205 -> '231,205' not found in b004",
+"termbase 'cerca' -> 'convent grounds' not used"
+],
+"en-b01144/E0": [
+"termbase 'capela' -> 'chantry (pl. chantries)' not used"
+],
+"en-b01729/E0": [
+"termbase 'Relação' -> 'High Court of Appeal' not used",
+"termbase 'capitão' -> 'captain' not used"
+],
+"en-b00939/E0": [],
+"en-b00054/E0": [],
+"en-b01056/E0": [
+"year 1000 missing in b003"
+],
+"en-b00398/E0": [
+"year 1700 missing in b013",
+"year 1400 missing in b013",
+"termbase 'solar' -> 'manor house' not used",
+"termbase 'expostos' -> 'foundlings' not used",
+"termbase 'Relação' -> 'High Court of Appeal' not used"
+],
+"en-b00207/E0": [
+"termbase 'regimento' -> 'regulations' not used",
+"termbase 'cerca' -> 'convent grounds' not used"
+],
+"en-b00589/E0": [],
+"en-b00589/E1": [],
+"en-b00589/E2": [],
+"en-b00589/E3": [],
+"en-b00589/E4": [],
+"en-b00589/E5": [],
+"en-b00589/E6": [],
+"en-b00589/E7": [],
+"en-b00589/E8": [],
+"en-b00589/E9": [],
+"en-b00589/E10": [],
+"en-b00589/E11": [],
+"en-b00589/E12": [
+"termbase 'disciplinas' -> 'scourges' not used",
+"termbase 'capitão' -> 'captain' not used"
+],
+"en-b00589/E13": [],
+"en-b00589/E14": [],
+"en-b00866/E0": [],
+"en-b00400/E0": [
+"termbase 'solar' -> 'manor house' not used",
+"termbase 'logar' -> '*lugar*' not used",
+"termbase 'recolhida' -> '*recolhida* (pl. *recolhidas*)' not used"
+]
+}

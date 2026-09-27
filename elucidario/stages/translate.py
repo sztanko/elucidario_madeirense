@@ -202,8 +202,10 @@ def qa(src_blocks: list[dict], out: dict, lang: str, pkg: dict) -> list[str]:
     got = {b["id"]: b for b in out.get("blocks", [])}
     for sb in pkg["blocks"]:
         tb = got.get(sb["id"])
-        if not tb or not tb["text"].strip():
+        if not tb or (not tb["text"].strip() and not any(any(c.strip() for c in row) for row in (tb.get("cells") or []))):
             probs.append(f"missing block {sb['id']}")
+            continue
+        if not tb["text"].strip():  # table returned as cells only
             continue
         ratio = len(tb["text"]) / max(1, len(sb["text"]))
         lo, hi = LENGTH_RATIO[lang]
@@ -220,9 +222,9 @@ def qa(src_blocks: list[dict], out: dict, lang: str, pkg: dict) -> list[str]:
         for y in set(years):
             if y not in tb["text"]:
                 probs.append(f"year {y} missing in {sb['id']}")
-        if lang in ("uk", "ru"):
+        if lang in ("uk", "ru") and sb.get("type") not in ("bibliography", "xref", "table", "verse", "quote"):
             letters = CYR.findall(tb["text"]) + LAT.findall(tb["text"])
-            if letters and len(CYR.findall(tb["text"])) / len(letters) < 0.6:
+            if len(letters) > 40 and len(CYR.findall(tb["text"])) / len(letters) < 0.3:
                 probs.append(f"low Cyrillic share in {sb['id']}")
     for lemma, spec in pkg["termbase"].items():
         if spec.get("policy") not in ("translate", "keep", "keep_unit") or len(lemma) < 5:

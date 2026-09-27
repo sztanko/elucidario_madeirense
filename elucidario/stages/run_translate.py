@@ -311,11 +311,13 @@ def collect(lang: str, part: str, suffix: str = "") -> dict:
                               for b in pkg["blocks"] if b["id"] in by_id]}
             local_pkg = {**pkg, "blocks": [{**b, "id": b["id"].split(".", 1)[1]} for b in pkg["blocks"]]}
             issues = qa([], sub, lang, local_pkg)
-            status = "done" if not any(i.startswith(("missing block", "low Cyrillic")) for i in issues) else "qa_failed"
-            if status != "done":
+            bad = {re.search(r"(b\d+)$", i).group(1) for i in issues
+                   if i.startswith(("missing block", "low Cyrillic")) and re.search(r"(b\d+)$", i)}
+            if bad:
                 failed_ids.append(cid)
             all_issues[f"{cid}/E{n}"] = issues
             for b in sub["blocks"]:
+                status = "qa_failed" if b["id"] in bad else "done"
                 val = json.dumps({"text": b["text"], "cells": b["cells"]}, ensure_ascii=False) if b.get("cells") else b["text"]
                 con.execute("UPDATE translations SET text=?, status=?, model=?, job=?, qa=?, updated=? WHERE uid=? AND lang=?",
                             (val, status, model, _job(lang, part, suffix), json.dumps(issues, ensure_ascii=False), now,
@@ -341,3 +343,66 @@ def retry(lang: str, part: str, cap_usd: float) -> dict:
     if not ids:
         return {"retry": 0}
     return submit(lang, part, cap_usd, suffix="_retry", only_ids=ids)
+
+
+def incomplete_articles(lang: str) -> set[str]:
+    con = sqlite3.connect(DB)
+    rows = con.execute("SELECT t.uid FROM translations t JOIN units u USING(uid) WHERE t.lang=? AND u.src_lang='pt' "
+                       "AND t.status!='done' AND u.kind != 'article.headword'", (lang,)).fetchall()
+    return {r[0].split(":")[1] for r in rows}
+
+
+def retry_articles(lang: str, cap_usd: float, suffix: str = "_retry2") -> dict:
+    """Re-translate whole articles that still have missing blocks, one article per request."""
+    ctx = Context()
+    todo = incomplete_articles(lang)
+    reqs = []
+    for aid in sorted(todo):
+        parts = ctx.chunks(aid)
+        for k, blocks in enumerate(parts):
+            pkg = ctx.package(aid, blocks, lang, k, len(parts))
+            for pb in pkg["blocks"]:
+                pb["id"] = f"E0.{pb['id']}"
+            reqs.append({"custom_id": f"{lang}-r{len(reqs):05d}", "entries": [pkg],
+                         "meta": [{"entry": 0, "article": aid, "part": k, "blocks": [b["id"].split("#")[1] for b in blocks]}]})
+    path = RUN / f"{lang}_body_requests.jsonl"
+    existing = {json.loads(l)["custom_id"] for l in open(path)}
+    with open(path, "a") as f:
+        for q in reqs:
+            if q["custom_id"] not in existing:
+                f.write(json.dumps(q, ensure_ascii=False) + "\n")
+    return submit(lang, "body", cap_usd, suffix=suffix, only_ids={q["custom_id"] for q in reqs})
+
+
+def translate_headwords_direct(lang: str) -> dict:
+    """Entries without body blocks (pure 'V. X' headwords): translate the headword with a direct call."""
+    con = sqlite3.connect(DB)
+    rows = con.execute("SELECT u.uid, u.text FROM translations t JOIN units u USING(uid) WHERE t.lang=? "
+                       "AND u.kind='article.headword' AND t.status!='done'", (lang,)).fetchall()
+    if not rows:
+        return {"headwords": 0}
+    r = route(lang, "body")
+    prompt = (f"Translate these encyclopedia entry titles (Elucidário Madeirense) into {LANG_NAMES[lang]}, following the "
+              "house rules for headwords: Portuguese proper names kept (or transcribed for uk/ru), cross-reference "
+              "'V. X' rendered as the language's 'see X'. Return JSON {\"items\":[{\"uid\":...,\"text\":...}]}.\n"
+              + json.dumps([{"uid": u, "text": t} for u, t in rows], ensure_ascii=False))
+    if r["provider"] == "openai":
+        import httpx
+        from elucidario.llm.openai_batch import _h
+
+        body = {"model": r["model"], "input": prompt, "reasoning": {"effort": r.get("effort", "low")}}
+        j = httpx.post("https://api.openai.com/v1/responses", headers=_h(), json=body, timeout=300).json()
+        text = next(c["text"] for o in j["output"] if o.get("type") == "message" for c in o["content"] if c.get("type") == "output_text")
+    else:
+        from elucidario.llm.client import client
+
+        m = client().messages.create(model=r["model"], max_tokens=4000, messages=[{"role": "user", "content": prompt}],
+                                     output_config={"effort": r.get("effort", "low")})
+        text = next(b.text for b in m.content if b.type == "text")
+    items = json.loads(text[text.find("{"): text.rfind("}") + 1])["items"]
+    now = datetime.now(timezone.utc).isoformat()
+    for it in items:
+        con.execute("UPDATE translations SET text=?, status='done', model=?, job='headwords_direct', updated=? WHERE uid=? AND lang=?",
+                    (it["text"], r["model"], now, it["uid"], lang))
+    con.commit()
+    return {"headwords": len(items)}
