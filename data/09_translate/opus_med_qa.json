@@ -1,0 +1,849 @@
+{
+ "opus_med-ru-00128": [
+  "termbase 'paul' -> 'заболоченное плато (n.)' not used",
+  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used",
+  "termbase 'lagoa' -> 'озерцо' not used"
+ ],
+ "opus_med-ru-00129": [
+  "termbase 'comarca' -> 'судебный округ (m.)' not used",
+  "termbase 'vigário' -> 'настоятель (m.)' not used",
+  "termbase 'orago' -> 'святой покровитель (m.)' not used",
+  "termbase 'provedor' -> 'председатель (Мизерикордии); интендант (казны, таможни, должность до 1835)' not used",
+  "termbase 'vigário geral' -> 'генеральный викарий (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used"
+ ],
+ "opus_med-en-00002": [
+  "termbase 'paul' -> 'marshy upland' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'canteiro' -> 'flower bed (garden); canteiro (wine: canteiro system, vinho de canteiro)' not used",
+  "termbase 'lagoa' -> 'pond' not used"
+ ],
+ "opus_med-hu-00112": [],
+ "opus_med-en-00001": [
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'ribeiro' -> 'brook' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "opus_med-en-00020": [
+  "length ratio 1.45 in b000",
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "opus_med-en-00035": [
+  "termbase 'casta' -> 'variety; of vines: grape variety' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "opus_med-ru-00145": [
+  "termbase 'canavial' -> 'плантация сахарного тростника (f.)' not used"
+ ],
+ "opus_med-ru-00132": [
+  "termbase 'cana' -> 'кана (f.)' not used"
+ ],
+ "opus_med-de-00063": [
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-en-00013": [],
+ "opus_med-ru-00130": [
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'quinto' -> 'пятина (f.)' not used",
+  "termbase 'mercê' -> 'пожалование (королевская милость)' not used",
+  "termbase 'passo' -> 'стация Крестного пути' not used"
+ ],
+ "opus_med-de-00081": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'serra' -> 'Bergland (n.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'serra de água' -> 'wassergetriebene Sägemühle (f.)' not used",
+  "termbase 'provedoria' -> 'königliches Rentamt (n.)' not used",
+  "termbase 'invocação' -> 'Patrozinium' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-en-00024": [
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used"
+ ],
+ "opus_med-ru-00139": [
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "opus_med-de-00066": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "opus_med-de-00078": [
+  "termbase 'ponta' -> 'Landspitze (f.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'posturas municipais' -> 'kommunale Verordnungen' not used",
+  "termbase 'imposição' -> 'Gemeindeabgabe (f.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-hu-00123": [
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'serra' -> 'hegyvidék' not used",
+  "termbase 'serra de água' -> 'vízifűrész' not used",
+  "termbase 'provedoria' -> 'királyi kincstári hivatal' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-de-00051": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "opus_med-hu-00084": [
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'prelado' -> 'főpap' not used",
+  "termbase 'ribeiro' -> 'patak' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'caldeira' -> 'kaldera' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "opus_med-en-00030": [],
+ "opus_med-en-00010": [
+  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
+  "termbase 'fogo' -> 'household' not used",
+  "termbase 'pico' -> 'peak' not used",
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
+  "termbase 'freire' -> 'brother of the Order' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
+  "termbase 'capitoa' -> 'captain's wife' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'peso' -> '*peso* (pl. *pesos*)' not used",
+  "termbase 'cabo' -> 'cape' not used"
+ ],
+ "opus_med-ru-00140": [
+  "termbase 'câmara municipal' -> 'Муниципальная палата; short: палата' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'oitava' -> 'ойтава (f.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "opus_med-de-00047": [
+  "missing block b013",
+  "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+ ],
+ "opus_med-en-00037": [
+  "termbase 'cento' -> '*cento* (pl. *centos*)' not used"
+ ],
+ "opus_med-en-00036": [
+  "termbase 'ponta' -> 'point, headland' not used",
+  "termbase 'calheta' -> 'cove' not used",
+  "termbase 'vereações' -> 'council sessions' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "opus_med-hu-00094": [
+  "termbase 'fogo' -> 'háztartás' not used",
+  "termbase 'pico' -> 'csúcs' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'freire' -> 'rendtestvér' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'praças' -> 'legénység (számnév után: fő)' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'peso' -> '*peso*' not used"
+ ],
+ "opus_med-en-00028": [],
+ "opus_med-de-00060": [],
+ "opus_med-en-00041": [
+  "termbase 'pico' -> 'peak' not used"
+ ],
+ "opus_med-de-00069": [],
+ "opus_med-en-00038": [
+  "termbase 'calhau' -> 'pebble beach (names: Calhau do Seixo)' not used",
+  "termbase 'termo' -> 'termo' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "opus_med-ru-00158": [
+  "length ratio 1.56 in b000",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'mirante' -> 'бельведер (m.)' not used",
+  "termbase 'dotação' -> 'вклад на содержание' not used",
+  "termbase 'escritura' -> 'акт' not used"
+ ],
+ "opus_med-hu-00085": [
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'ribeiro' -> 'patak' not used",
+  "termbase 'cana' -> 'cana' not used"
+ ],
+ "opus_med-hu-00093": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'freire' -> 'rendtestvér' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'porto' -> 'kikötőhely' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "opus_med-hu-00109": [
+  "termbase 'leste' -> '*leste*' not used"
+ ],
+ "opus_med-de-00075": [
+  "termbase 'ilhéu' -> 'Felseninsel (f.)' not used",
+  "termbase 'pico' -> 'Gipfel (m.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used"
+ ],
+ "opus_med-hu-00101": [],
+ "opus_med-hu-00117": [
+  "termbase 'ilhéu' -> 'sziklasziget' not used",
+  "termbase 'pico' -> 'csúcs' not used",
+  "termbase 'ribeiro' -> 'patak' not used"
+ ],
+ "opus_med-en-00025": [
+  "termbase 'leste' -> '*leste*' not used"
+ ],
+ "opus_med-de-00073": [
+  "length ratio 0.08 in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "missing block b009",
+  "length ratio 0.28 in b011",
+  "missing block b012",
+  "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used",
+  "termbase 'mosto' -> 'Most (m.)' not used",
+  "termbase 'moradia' -> 'Wohnsitz (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'vimes' -> 'Korbweide' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-hu-00098": [
+  "termbase 'câmara municipal' -> 'községi tanács; Funchal: városi tanács; short: a tanács' not used",
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'oitava' -> '*oitava*' not used",
+  "termbase 'quinto' -> 'ötöd' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "opus_med-hu-00107": [
+  "termbase 'palheiro' -> 'zsúpfedeles kunyhó' not used"
+ ],
+ "opus_med-en-00009": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'freire' -> 'brother of the Order' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'porto' -> 'landing place' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "opus_med-de-00068": [
+  "termbase 'terreiro' -> 'freier Platz' not used"
+ ],
+ "opus_med-de-00049": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used"
+ ],
+ "opus_med-de-00045": [
+  "termbase 'provedor' -> 'Vorsteher (der Misericórdia); Provedor/Oberaufseher (Finanz-, Zollverwaltung)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'curral' -> 'Pferch (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'altar privilegiado' -> 'privilegierter Altar' not used"
+ ],
+ "opus_med-en-00026": [
+  "termbase 'terreiro' -> 'open square' not used"
+ ],
+ "opus_med-en-00016": [],
+ "opus_med-en-00005": [
+  "missing block b013",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "opus_med-ru-00154": [],
+ "opus_med-hu-00090": [
+  "termbase 'cana' -> 'cana' not used"
+ ],
+ "opus_med-ru-00166": [
+  "termbase 'levada' -> 'левада (f.)' not used"
+ ],
+ "opus_med-de-00080": [
+  "termbase 'calhau' -> 'Geröllstrand (m.)' not used",
+  "termbase 'termo' -> 'Termo (m.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-hu-00118": [
+  "termbase 'vigia' -> 'őrhely; levadáknál: levadaőr' not used",
+  "termbase 'garajau' -> 'küszvágó csér' not used",
+  "termbase 'passos' -> 'a Passió stációi' not used",
+  "termbase 'roda' -> 'forgóablak' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-hu-00103": [
+  "termbase 'canavial' -> 'cukornádültetvény' not used"
+ ],
+ "opus_med-de-00079": [
+  "termbase 'cento' -> '*Cento* (pl. *Centos*)' not used"
+ ],
+ "opus_med-en-00014": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'oitava' -> '*oitava* (pl. *oitavas*)' not used",
+  "termbase 'terreiro' -> 'open square' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "opus_med-de-00062": [
+  "length ratio 1.59 in b000",
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used"
+ ],
+ "opus_med-ru-00155": [
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "opus_med-hu-00121": [
+  "termbase 'cento' -> '*cento*' not used"
+ ],
+ "opus_med-de-00056": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'oitava' -> 'die *Oitava* (pl. *Oitavas*)' not used",
+  "termbase 'terreiro' -> 'freier Platz' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "opus_med-de-00043": [
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+ ],
+ "opus_med-hu-00104": [
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "opus_med-hu-00099": [
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "opus_med-ru-00134": [
+  "termbase 'solar' -> 'родовой дом (m.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used"
+ ],
+ "opus_med-ru-00133": [
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'largo' -> 'площадь (f.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used"
+ ],
+ "opus_med-de-00070": [],
+ "opus_med-en-00007": [
+  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "opus_med-en-00023": [
+  "termbase 'palheiro' -> 'thatched hut' not used"
+ ],
+ "opus_med-en-00033": [
+  "termbase 'ilhéu' -> 'islet' not used",
+  "termbase 'pico' -> 'peak' not used",
+  "termbase 'ribeiro' -> 'brook' not used"
+ ],
+ "opus_med-en-00039": [
+  "year 1203 missing in b003",
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
+  "termbase 'serra' -> 'uplands (pl.); mountains' not used",
+  "termbase 'serra de água' -> 'water-powered sawmill' not used",
+  "termbase 'provedoria' -> 'Crown Revenue Office' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "opus_med-de-00055": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "opus_med-hu-00100": [],
+ "opus_med-en-00027": [],
+ "opus_med-de-00072": [],
+ "opus_med-hu-00092": [
+  "termbase 'freire' -> 'rendtestvér' not used"
+ ],
+ "opus_med-hu-00114": [],
+ "opus_med-ru-00160": [
+  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used",
+  "termbase 'vigia' -> 'сторожевой пост (m.); для левад: смотритель левады' not used",
+  "termbase 'capitão do porto' -> 'капитан порта (m.)' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used",
+  "termbase 'garajau' -> 'речная крачка' not used",
+  "termbase 'passos' -> 'стации Страстей' not used",
+  "termbase 'roda' -> 'поворотный ящик' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "opus_med-de-00076": [
+  "termbase 'vigia' -> 'Wachposten (m.); bei Levadas: Levadawächter (m.)' not used",
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
+  "termbase 'garajau' -> 'Flussseeschwalbe' not used",
+  "termbase 'passos' -> 'Passionsstationen' not used",
+  "termbase 'roda' -> 'Drehlade' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-en-00000": [
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'ribeiro' -> 'brook' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "opus_med-de-00065": [
+  "termbase 'palheiro' -> 'strohgedeckte Hütte (f.)' not used"
+ ],
+ "opus_med-de-00074": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'mirante' -> 'Aussichtspavillon (m., pl. Aussichtspavillons)' not used",
+  "termbase 'dotação' -> 'Dotation (f.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-ru-00137": [
+  "termbase 'sítio' -> 'местность (f.)' not used",
+  "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
+  "termbase 'ponta' -> 'мыс (m.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'pena' -> 'пена (f.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'grande do reino' -> 'гранд королевства' not used"
+ ],
+ "opus_med-ru-00148": [
+  "termbase 'desembargador' -> 'судья высшего суда (m.)' not used"
+ ],
+ "opus_med-de-00048": [
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+ ],
+ "opus_med-ru-00143": [],
+ "opus_med-en-00021": [
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "opus_med-ru-00159": [
+  "termbase 'ribeiro' -> 'ручей (m.)' not used"
+ ],
+ "opus_med-ru-00157": [
+  "length ratio 0.10 in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 17.000 -> '17\\xa0000' not found in b004",
+  "number 18.000 -> '18\\xa0000' not found in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "number 63.300 -> '63\\xa0300' not found in b004",
+  "number 630.300 -> '630\\xa0300' not found in b004",
+  "missing block b009",
+  "length ratio 0.24 in b011",
+  "number 288.000 -> '288\\xa0000' not found in b011",
+  "number 461.600 -> '461\\xa0600' not found in b011",
+  "number 500.000 -> '500\\xa0000' not found in b011",
+  "missing block b012",
+  "termbase 'levada' -> 'левада (f.)' not used",
+  "termbase 'mosto' -> 'сусло (n.; виноградное сусло)' not used",
+  "termbase 'moradia' -> 'жилище (n.)' not used",
+  "termbase 'vimes' -> 'лоза' not used",
+  "termbase 'cana' -> 'кана (f.)' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "opus_med-de-00058": [],
+ "opus_med-de-00083": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'pico' -> 'Gipfel (m.)' not used"
+ ],
+ "opus_med-de-00053": [
+  "termbase 'sítio' -> 'Ortsteil (m., pl. Ortsteile)' not used",
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'ponta' -> 'Landspitze (f.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'pena' -> '*Pena* (f., pl. *Penas*)' not used",
+  "termbase 'logar' -> '*Lugar* (m.)' not used",
+  "termbase 'reino' -> 'das Königreich' not used",
+  "termbase 'grande do reino' -> 'Grande des Königreichs' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-hu-00124": [
+  "termbase 'levada' -> 'levada (levadát, levadák)' not used"
+ ],
+ "opus_med-de-00044": [
+  "termbase 'paul' -> 'sumpfige Hochfläche (f.)' not used",
+  "termbase 'canteiro' -> 'Blumenbeet (Garten); Canteiro (Wein: Canteiro-Verfahren)' not used",
+  "termbase 'lagoa' -> 'Teich' not used"
+ ],
+ "opus_med-hu-00115": [
+  "length ratio 1.84 in b012",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'cana' -> 'cana' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-hu-00111": [],
+ "opus_med-ru-00162": [
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'vereações' -> 'заседания совета' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "opus_med-hu-00108": [
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "opus_med-hu-00119": [
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-hu-00088": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'cana' -> 'cana' not used",
+  "termbase 'mercê' -> 'királyi adomány' not used",
+  "termbase 'passo' -> 'stáció' not used"
+ ],
+ "opus_med-en-00003": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'provedor' -> 'president (of the Misericórdia); superintendent (Treasury, customs, pre-1835 office)' not used",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'curral' -> 'fold' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "opus_med-en-00004": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used",
+  "termbase 'mercê' -> 'royal grant' not used",
+  "termbase 'passo' -> 'station (of the Cross)' not used"
+ ],
+ "opus_med-ru-00161": [
+  "termbase 'casta' -> 'сорт (m.); для винограда: сорт винограда' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "opus_med-en-00012": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'vila' -> 'town' not used",
+  "termbase 'escudo' -> 'escudo (pl. escudos)' not used",
+  "termbase 'linha' -> '*linha* (pl. *linhas*)' not used",
+  "termbase 'reino' -> 'the Kingdom' not used"
+ ],
+ "opus_med-ru-00163": [
+  "termbase 'cento' -> 'сенту' not used"
+ ],
+ "opus_med-en-00040": [
+  "termbase 'levada' -> 'levada (pl. levadas)' not used"
+ ],
+ "opus_med-hu-00106": [],
+ "opus_med-de-00050": [
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used"
+ ],
+ "opus_med-hu-00087": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'provedor' -> 'elöljáró (a Misericórdiáé); felügyelő (kincstár, vám, 1835 előtti hivatal)' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'curral' -> 'karám' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "opus_med-ru-00156": [],
+ "opus_med-hu-00102": [],
+ "opus_med-ru-00150": [
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "opus_med-ru-00141": [
+  "termbase 'capitão-donatário' -> 'капитан-донатарий (m.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "opus_med-ru-00167": [
+  "length ratio 1.61 in b000"
+ ],
+ "opus_med-en-00011": [
+  "termbase 'sítio' -> 'locality (pl. localities)' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'reino' -> 'the Kingdom' not used"
+ ],
+ "opus_med-de-00077": [
+  "termbase 'casta' -> 'Sorte (f.); bei Reben: Rebsorte' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "opus_med-en-00019": [
+  "termbase 'canavial' -> 'cane field' not used"
+ ],
+ "opus_med-en-00017": [],
+ "opus_med-en-00015": [
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "opus_med-de-00052": [
+  "termbase 'largo' -> 'Platz (m.)' not used",
+  "termbase 'fogo' -> 'Haushalt (m.)' not used",
+  "termbase 'pico' -> 'Gipfel (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
+  "termbase 'logar' -> '*Lugar* (m.)' not used",
+  "termbase 'peso' -> '*Peso* (m., pl. *Pesos*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "opus_med-ru-00126": [
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'prelado' -> 'прелат (m.)' not used",
+  "termbase 'ribeiro' -> 'ручей (m.)' not used",
+  "termbase 'prelado diocesano' -> 'епархиальный епископ (m.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'caldeira' -> 'кальдера (f.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "opus_med-ru-00127": [
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'ribeiro' -> 'ручей (m.)' not used"
+ ],
+ "opus_med-hu-00091": [
+  "termbase 'largo' -> 'tér' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "opus_med-en-00006": [
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "opus_med-ru-00135": [
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used",
+  "termbase 'familiar' -> 'фамилиар (m.)' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "opus_med-hu-00110": [
+  "termbase 'terreiro' -> 'tér' not used"
+ ],
+ "opus_med-de-00046": [
+  "length ratio 1.55 in b005",
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
+  "termbase 'mercê' -> 'Gnadenerweis (m.)' not used",
+  "termbase 'passo' -> 'Kreuzwegstation' not used"
+ ],
+ "opus_med-hu-00096": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'vila' -> 'mezőváros' not used",
+  "termbase 'escudo' -> 'escudo' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'linha' -> '*linha*' not used"
+ ],
+ "opus_med-en-00018": [],
+ "opus_med-en-00032": [
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
+  "termbase 'mirante' -> 'belvedere (pl. belvederes)' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "opus_med-ru-00146": [
+  "length ratio 1.52 in b000",
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used"
+ ],
+ "opus_med-en-00022": [],
+ "opus_med-en-00029": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used"
+ ],
+ "opus_med-hu-00097": [
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "opus_med-ru-00153": [
+  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used"
+ ],
+ "opus_med-de-00067": [
+  "termbase 'leste' -> '*Leste* (m.)' not used"
+ ],
+ "opus_med-en-00008": [
+  "termbase 'freire' -> 'brother of the Order' not used"
+ ],
+ "opus_med-ru-00142": [],
+ "opus_med-en-00034": [
+  "termbase 'vigia' -> 'watch-post; levada context: levada watchman' not used",
+  "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
+  "termbase 'garajau' -> 'common tern' not used",
+  "termbase 'passos' -> 'Stations of the Passion' not used",
+  "termbase 'porto' -> 'landing place' not used",
+  "termbase 'capitão' -> 'captain' not used"
+ ],
+ "opus_med-de-00071": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "opus_med-ru-00164": [
+  "termbase 'calhau' -> 'галечный пляж (m.)' not used",
+  "termbase 'termo' -> 'терму (m., indecl.)' not used"
+ ],
+ "opus_med-de-00082": [
+  "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used"
+ ],
+ "opus_med-ru-00149": [
+  "termbase 'palheiro' -> 'соломенная хижина (f.)' not used"
+ ],
+ "opus_med-de-00057": [
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "opus_med-de-00059": [],
+ "opus_med-hu-00095": [
+  "termbase 'ponta' -> 'földnyelv' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'pena' -> '*pena*' not used",
+  "termbase 'logar' -> '*lugar*' not used"
+ ],
+ "opus_med-ru-00131": [
+  "missing block b013",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'cana' -> 'кана (f.)' not used"
+ ],
+ "opus_med-ru-00144": [],
+ "opus_med-ru-00165": [
+  "missing block b002",
+  "missing block b003",
+  "termbase 'réis' -> 'рейс (indecl.)' not used",
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'pipa' -> 'пипа (f.)' not used",
+  "termbase 'moio' -> 'мойу (m., indecl.)' not used",
+  "termbase 'serra' -> 'горы (pl.), горная местность' not used",
+  "termbase 'côngrua' -> 'содержание (n.)' not used",
+  "termbase 'fajã' -> 'фажан (m., на фажане)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'serra de água' -> 'водяная лесопилка (f.)' not used",
+  "termbase 'provedoria' -> 'королевское казначейство (n.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "opus_med-ru-00138": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'vila' -> 'городок (m.)' not used",
+  "termbase 'escudo' -> 'эскудо (n., indecl.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'linha' -> 'линья (f.)' not used"
+ ],
+ "opus_med-de-00054": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'vila' -> 'Kleinstadt (f.)' not used",
+  "termbase 'escudo' -> 'Escudo (m., pl. Escudos)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'linha' -> '*Linha* (f., pl. *Linhas*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "opus_med-ru-00147": [
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "opus_med-ru-00151": [
+  "termbase 'leste' -> 'лешти (m., indecl.)' not used"
+ ],
+ "opus_med-de-00061": [
+  "termbase 'canavial' -> 'Zuckerrohrfeld (n.)' not used"
+ ],
+ "opus_med-hu-00113": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "opus_med-hu-00086": [
+  "termbase 'paul' -> 'mocsaras fennsík' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'canteiro' -> 'virágágyás (kert); canteiro (bor: canteiro-eljárás)' not used"
+ ],
+ "opus_med-hu-00120": [
+  "termbase 'ponta' -> 'földnyelv' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'vereações' -> 'tanácsülések' not used",
+  "termbase 'imposição' -> 'községi illeték' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-hu-00125": [
+  "termbase 'pico' -> 'csúcs' not used"
+ ],
+ "opus_med-hu-00116": [
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'mirante' -> 'kilátó' not used",
+  "termbase 'dotação' -> 'fenntartási alapítvány' not used",
+  "termbase 'escritura' -> 'okirat' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-hu-00122": [
+  "termbase 'calhau' -> 'kavicsos part' not used",
+  "termbase 'termo' -> 'termo' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-de-00064": [],
+ "opus_med-ru-00136": [
+  "missing block b015",
+  "missing block b016",
+  "missing block b017",
+  "missing block b018",
+  "missing block b019",
+  "termbase 'quinta' -> 'усадьба (f.); in names: Кинта' not used",
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'donatário' -> 'донатарий (m.)' not used",
+  "termbase 'vila' -> 'городок (m.)' not used",
+  "termbase 'largo' -> 'площадь (f.)' not used",
+  "termbase 'fogo' -> 'двор (m.)' not used",
+  "termbase 'pico' -> 'пик (m.)' not used",
+  "termbase 'enseada' -> 'бухта (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
+  "termbase 'casa solarenga' -> 'родовой особняк (m.)' not used",
+  "termbase 'moradia' -> 'жилище (n.)' not used",
+  "termbase 'brasão de armas' -> 'герб' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used",
+  "termbase 'capitoa' -> 'жена капитана' not used",
+  "termbase 'jazigo' -> 'фамильный склеп (m.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'peso' -> 'пезу (m., indecl.)' not used",
+  "termbase 'reino' -> 'королевство' not used",
+  "termbase 'cabo' -> 'мыс (m.)' not used"
+ ],
+ "opus_med-hu-00105": [
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "opus_med-en-00031": [
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "opus_med-de-00042": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'prelado' -> 'Prälat (m.)' not used",
+  "termbase 'fazenda' -> 'Gut (n.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'invocação' -> 'Patrozinium' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "opus_med-hu-00089": [
+  "length ratio 0.05 in b013",
+  "number 648:500 -> '648\\xa0500' not found in b013",
+  "number 442:000 -> '442\\xa0000' not found in b013",
+  "number 442:000 -> '442\\xa0000' not found in b013",
+  "number 800:000 -> '800\\xa0000' not found in b013",
+  "number 1:053:000 -> '1\\xa0053\\xa0000' not found in b013",
+  "number 1:823:350 -> '1\\xa0823\\xa0350' not found in b013",
+  "number 2:973:000 -> '2\\xa0973\\xa0000' not found in b013",
+  "number 3:204:000 -> '3\\xa0204\\xa0000' not found in b013",
+  "number 4:161:550 -> '4\\xa0161\\xa0550' not found in b013",
+  "number 4:260:928 -> '4\\xa0260\\xa0928' not found in b013",
+  "number 4:796:725 -> '4\\xa0796\\xa0725' not found in b013",
+  "number 4:917:113 -> '4\\xa0917\\xa0113' not found in b013",
+  "number 4:943:675 -> '4\\xa0943\\xa0675' not found in b013",
+  "year 1910 missing in b013",
+  "year 1905 missing in b013",
+  "year 1912 missing in b013",
+  "year 1906 missing in b013",
+  "year 1916 missing in b013",
+  "year 1913 missing in b013",
+  "year 1900 missing in b013",
+  "year 1898 missing in b013",
+  "year 1914 missing in b013",
+  "year 1908 missing in b013",
+  "year 1911 missing in b013",
+  "year 1915 missing in b013",
+  "year 1899 missing in b013",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'cana' -> 'cana' not used"
+ ],
+ "opus_med-ru-00152": [
+  "termbase 'terreiro' -> 'площадка' not used"
+ ]
+}

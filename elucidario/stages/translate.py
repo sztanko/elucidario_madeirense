@@ -57,7 +57,7 @@ def read(p) -> str:
 def system_prompt(lang: str) -> str:
     core = read(DOCS / "style" / "core.md")
     lang_guide = read(DOCS / "style" / f"{STYLE_FILE.get(lang, lang)}.md")
-    translit = read(DOCS / f"transcription_{lang}.md") if lang in ("uk", "ru") else ""
+    translit = lean_standard(read(DOCS / f"transcription_{lang}.md")) if lang in ("uk", "ru") else ""
     return "\n\n".join(x for x in (
         f"You translate the *Elucidário Madeirense* (encyclopedia of Madeira, 1921/1940) from Portuguese into {LANG_NAMES[lang]}.",
         core, lang_guide, translit,
@@ -69,6 +69,21 @@ def system_prompt(lang: str) -> str:
         "problems for the editor (suspected OCR error, ambiguous number, unclear name), usually empty. Give the "
         "termbase first-mention gloss only for terms listed in `gloss_first_mention`.",
     ) if x)
+
+
+def lean_standard(md: str) -> str:
+    """Rules only: drop long tables (worked examples, full religious/figure lists) — they reach the model per chunk."""
+    out, skip = [], False
+    for line in md.splitlines():
+        if re.match(r"^#{2,3} (14\. Worked examples|7\.2 Full table|13\.2 Persons|5\.3 )", line):
+            skip = True
+            out.append(line + "\n(Reference table omitted: the relevant entries are supplied in each request.)")
+            continue
+        if skip and re.match(r"^#{2,3} ", line):
+            skip = False
+        if not skip:
+            out.append(line)
+    return "\n".join(out)
 
 
 class Context:
@@ -115,7 +130,7 @@ class Context:
                 terms[lemma] = {"policy": spec["policy"], "rendering": spec["renderings"].get(lang),
                                 "first_mention_gloss": (spec.get("first_mention_gloss") or {}).get(lang)}
         bids = {b["id"].split("#")[1] for b in blocks}
-        names_here = sorted({p["name"] for p in e.get("persons", []) + e.get("places", []) if p["block"] in bids}
+        names_here = sorted({p.get("name") or p.get("full_name") for p in e.get("persons", []) + e.get("places", []) if p["block"] in bids}
                             | {p["as_written"] for p in e.get("persons", []) + e.get("places", []) if p["block"] in bids})
         name_table = {n: self.names[lang][n] for n in names_here if n in self.names[lang]}
         chapter = next((c for c in e.get("chapters", []) if c["first_block"] == blocks[0]["id"].split("#")[1]), None)
@@ -210,6 +225,12 @@ def qa(src_blocks: list[dict], out: dict, lang: str, pkg: dict) -> list[str]:
             if letters and len(CYR.findall(tb["text"])) / len(letters) < 0.6:
                 probs.append(f"low Cyrillic share in {sb['id']}")
     for lemma, spec in pkg["termbase"].items():
+        if spec.get("policy") not in ("translate", "keep", "keep_unit") or len(lemma) < 5:
+            continue
+        src_all = " ".join(b["text"] for b in pkg["blocks"])
+        # skip terms that occur only capitalised (inside proper names: "Porto Santo", "Câmara de Lobos")
+        if not re.search(rf"(?<![A-ZÀ-Ý][\w]* )\b{re.escape(lemma)}\b", src_all):
+            continue
         r = re.split(r"[(;,/]", (spec.get("rendering") or "").lower())[0].strip(" *")
         stem = r[: max(4, int(len(r) * 0.7))]  # tolerate inflection (Gemeinde/Gemeinden, парафія/парафії)
         if r and not any(stem in b["text"].lower() for b in out.get("blocks", [])):

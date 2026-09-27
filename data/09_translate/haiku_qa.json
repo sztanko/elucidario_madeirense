@@ -1,0 +1,892 @@
+{
+ "haiku-hu-00125": [],
+ "haiku-hu-00101": [],
+ "haiku-de-00046": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
+  "termbase 'mercê' -> 'Gnadenerweis (m.)' not used",
+  "termbase 'passo' -> 'Kreuzwegstation' not used"
+ ],
+ "haiku-hu-00118": [
+  "termbase 'vigia' -> 'őrhely; levadáknál: levadaőr' not used",
+  "termbase 'passos' -> 'a Passió stációi' not used",
+  "termbase 'roda' -> 'forgóablak' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "haiku-ru-00155": [
+  "termbase 'câmara' -> 'палата (f.)' not used"
+ ],
+ "haiku-en-00033": [
+  "termbase 'ilhéu' -> 'islet' not used",
+  "termbase 'pico' -> 'peak' not used",
+  "termbase 'ribeiro' -> 'brook' not used"
+ ],
+ "haiku-de-00082": [
+  "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used"
+ ],
+ "haiku-ru-00156": [],
+ "haiku-hu-00090": [
+  "length ratio 0.80 in b017",
+  "termbase 'cana' -> 'cana' not used"
+ ],
+ "haiku-hu-00098": [
+  "length ratio 0.42 in b033",
+  "year 1921 missing in b033",
+  "missing block b034",
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'oitava' -> '*oitava*' not used",
+  "termbase 'quinto' -> 'ötöd' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "haiku-ru-00142": [],
+ "haiku-de-00081": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'serra' -> 'Bergland (n.)' not used",
+  "termbase 'orago' -> 'Kirchenpatron (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'serra de água' -> 'wassergetriebene Sägemühle (f.)' not used",
+  "termbase 'provedoria' -> 'königliches Rentamt (n.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-de-00064": [
+  "termbase 'devassa' -> 'gerichtliche Untersuchung (f.)' not used"
+ ],
+ "haiku-de-00052": [
+  "termbase 'largo' -> 'Platz (m.)' not used",
+  "termbase 'fogo' -> 'Haushalt (m.)' not used",
+  "termbase 'pico' -> 'Gipfel (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'casa solarenga' -> 'Stammsitz (m.)' not used",
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
+  "termbase 'logar' -> '*Lugar* (m.)' not used",
+  "termbase 'peso' -> '*Peso* (m., pl. *Pesos*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "haiku-en-00013": [],
+ "haiku-de-00061": [],
+ "haiku-de-00056": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'oitava' -> 'die *Oitava* (pl. *Oitavas*)' not used",
+  "termbase 'terreiro' -> 'freier Platz' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "haiku-ru-00161": [
+  "termbase 'casta' -> 'сорт (m.); для винограда: сорт винограда' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-de-00075": [
+  "termbase 'ilhéu' -> 'Felseninsel (f.)' not used",
+  "termbase 'pico' -> 'Gipfel (m.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used"
+ ],
+ "haiku-de-00042": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'prelado' -> 'Prälat (m.)' not used",
+  "termbase 'fazenda' -> 'Gut (n.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "haiku-hu-00102": [],
+ "haiku-ru-00130": [
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'engenho' -> 'сахарная мельница (f.)' not used",
+  "termbase 'passo' -> 'стация Крестного пути' not used"
+ ],
+ "haiku-ru-00127": [
+  "termbase 'conto de réis' -> 'конту рейсов (m., indecl.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'ribeiro' -> 'ручей (m.)' not used"
+ ],
+ "haiku-de-00062": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used"
+ ],
+ "haiku-ru-00151": [
+  "termbase 'leste' -> 'лешти (m., indecl.)' not used"
+ ],
+ "haiku-en-00000": [
+  "termbase 'sítio' -> 'locality (pl. localities)' not used",
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'fazenda' -> 'estate' not used",
+  "termbase 'ribeiro' -> 'brook' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "haiku-ru-00137": [
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'carta de doação' -> 'жалованная грамота (f.)' not used",
+  "termbase 'pena' -> 'пена (f.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'grande do reino' -> 'гранд королевства' not used"
+ ],
+ "haiku-en-00001": [
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'ribeiro' -> 'brook' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "haiku-en-00021": [
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "haiku-de-00073": [
+  "length ratio 0.08 in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "number 1.010 -> '1010' not found in b006",
+  "number 7.978 -> '7978' not found in b007",
+  "missing block b009",
+  "missing block b011",
+  "missing block b012",
+  "number 6.670 -> '6670' not found in b013",
+  "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used",
+  "termbase 'mosto' -> 'Most (m.)' not used",
+  "termbase 'moradia' -> 'Wohnsitz (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'vimes' -> 'Korbweide' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-hu-00086": [
+  "length ratio 0.27 in b008",
+  "year 1818 missing in b008",
+  "year 1848 missing in b008",
+  "missing block b009",
+  "termbase 'morgado' -> 'hitbizomány; holder: hitbizományos' not used",
+  "termbase 'fajã' -> 'fajã (fajã-t, fajã-n), dőlt' not used",
+  "termbase 'paul' -> 'mocsaras fennsík' not used",
+  "termbase 'baixio' -> 'zátony' not used",
+  "termbase 'fazenda' -> 'birtok' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'canteiro' -> 'virágágyás (kert); canteiro (bor: canteiro-eljárás)' not used",
+  "termbase 'rocha' -> 'sziklafal' not used",
+  "termbase 'praia' -> 'strand' not used"
+ ],
+ "haiku-de-00057": [
+  "length ratio 0.07 in b035",
+  "year 1447 missing in b035",
+  "missing block b036",
+  "missing block b037",
+  "missing block b038",
+  "missing block b039",
+  "termbase 'capitão-donatário' -> 'Donatarkapitän (m.)' not used",
+  "termbase 'apelido' -> 'Familienname (m.)' not used",
+  "termbase 'montante' -> 'Zweihänder' not used",
+  "termbase 'capitão' -> 'Kapitän (m.)' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "haiku-de-00063": [
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-ru-00131": [
+  "number 275:802 -> '275\\xa0802' not found in b012",
+  "missing block b013",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'cana' -> 'кана (f.)' not used"
+ ],
+ "haiku-hu-00112": [
+  "length ratio 0.77 in b004"
+ ],
+ "haiku-de-00069": [],
+ "haiku-en-00032": [
+  "termbase 'mirante' -> 'belvedere (pl. belvederes)' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "haiku-en-00023": [
+  "termbase 'palheiro' -> 'thatched hut' not used"
+ ],
+ "haiku-ru-00165": [
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'pipa' -> 'пипа (f.)' not used",
+  "termbase 'serra' -> 'горы (pl.), горная местность' not used",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-hu-00121": [
+  "length ratio 1.73 in b001"
+ ],
+ "haiku-hu-00117": [
+  "termbase 'ribeiro' -> 'patak' not used"
+ ],
+ "haiku-en-00006": [
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "haiku-en-00030": [],
+ "haiku-ru-00150": [
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'fidalgo' -> 'фидалгу (m., indecl.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "haiku-ru-00128": [
+  "termbase 'fajã' -> 'фажан (m., на фажане)' not used",
+  "termbase 'paul' -> 'заболоченное плато (n.)' not used",
+  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used",
+  "termbase 'lagoa' -> 'озерцо' not used"
+ ],
+ "haiku-ru-00154": [],
+ "haiku-ru-00163": [
+  "termbase 'cento' -> 'сенту' not used"
+ ],
+ "haiku-en-00020": [
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "haiku-ru-00149": [
+  "termbase 'palheiro' -> 'соломенная хижина (f.)' not used"
+ ],
+ "haiku-de-00079": [],
+ "haiku-en-00027": [],
+ "haiku-hu-00103": [],
+ "haiku-en-00024": [
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used"
+ ],
+ "haiku-de-00053": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'ponta' -> 'Landspitze (f.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'pena' -> '*Pena* (f., pl. *Penas*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "haiku-ru-00134": [
+  "termbase 'solar' -> 'родовой дом (m.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used"
+ ],
+ "haiku-de-00083": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used"
+ ],
+ "haiku-ru-00153": [
+  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used"
+ ],
+ "haiku-en-00016": [],
+ "haiku-de-00071": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used"
+ ],
+ "haiku-de-00077": [
+  "termbase 'casta' -> 'Sorte (f.); bei Reben: Rebsorte' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-hu-00087": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'provedor' -> 'elöljáró (a Misericórdiáé); felügyelő (kincstár, vám, 1835 előtti hivatal)' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'curral' -> 'karám' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "haiku-hu-00123": [
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'serra' -> 'hegyvidék' not used",
+  "termbase 'orago' -> 'védőszent' not used",
+  "termbase 'provedoria' -> 'királyi kincstári hivatal' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "haiku-en-00007": [
+  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "haiku-en-00002": [
+  "termbase 'paul' -> 'marshy upland' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'canteiro' -> 'flower bed (garden); canteiro (wine: canteiro system, vinho de canteiro)' not used"
+ ],
+ "haiku-hu-00109": [],
+ "haiku-hu-00096": [
+  "length ratio 0.39 in b022",
+  "number 3.º -> '3' not found in b022",
+  "number 3.º -> '3' not found in b022",
+  "length ratio 4.63 in b023",
+  "length ratio 0.67 in b024",
+  "number 5.º -> '5' not found in b024",
+  "year 1460 missing in b024",
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'vila' -> 'mezőváros' not used",
+  "termbase 'escudo' -> 'escudo' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'linha' -> '*linha*' not used"
+ ],
+ "haiku-ru-00164": [
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-de-00080": [
+  "length ratio 0.51 in b000",
+  "termbase 'termo' -> 'Termo (m.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-en-00017": [],
+ "haiku-en-00022": [],
+ "haiku-de-00068": [
+  "termbase 'terreiro' -> 'freier Platz' not used"
+ ],
+ "haiku-de-00066": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'casa solarenga' -> 'Stammsitz (m.)' not used"
+ ],
+ "haiku-ru-00148": [
+  "termbase 'desembargador' -> 'судья высшего суда (m.)' not used"
+ ],
+ "haiku-de-00070": [],
+ "haiku-de-00078": [
+  "length ratio 0.58 in b001",
+  "length ratio 0.10 in b002",
+  "year 1841 missing in b002",
+  "year 1897 missing in b002",
+  "year 1900 missing in b002",
+  "year 1890 missing in b002",
+  "year 1856 missing in b002",
+  "year 1842 missing in b002",
+  "termbase 'ponta' -> 'Landspitze (f.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'posturas municipais' -> 'kommunale Verordnungen' not used",
+  "termbase 'imposição' -> 'Gemeindeabgabe (f.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-hu-00091": [
+  "length ratio 0.80 in b001",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "haiku-de-00047": [
+  "length ratio 0.79 in b012",
+  "missing block b013",
+  "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+ ],
+ "haiku-en-00005": [
+  "missing block b013",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "haiku-hu-00093": [
+  "length ratio 0.51 in b011",
+  "year 1390 missing in b011",
+  "length ratio 0.22 in b013",
+  "year 1921 missing in b013",
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'freire' -> 'rendtestvér' not used",
+  "termbase 'porto' -> 'kikötőhely' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "haiku-de-00065": [
+  "length ratio 0.69 in b002",
+  "termbase 'quinta' -> '*Quinta* (f., pl. *Quintas*)' not used",
+  "termbase 'quadrilheiro' -> 'Büttel' not used",
+  "termbase 'palheiro' -> 'strohgedeckte Hütte (f.)' not used"
+ ],
+ "haiku-hu-00099": [
+  "length ratio 0.06 in b035",
+  "year 1447 missing in b035",
+  "length ratio 0.18 in b038",
+  "termbase 'capitão-donatário' -> 'donatárius kapitány' not used",
+  "termbase 'apelido' -> 'családnév' not used",
+  "termbase 'capitão' -> 'kapitány' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "haiku-ru-00141": [
+  "termbase 'capitão-donatário' -> 'капитан-донатарий (m.)' not used",
+  "termbase 'montante' -> 'двуручный меч' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "haiku-en-00039": [
+  "length ratio 0.45 in b001",
+  "year 1203 missing in b003",
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
+  "termbase 'serra' -> 'uplands (pl.); mountains' not used",
+  "termbase 'orago' -> 'patron saint' not used",
+  "termbase 'serra de água' -> 'water-powered sawmill' not used",
+  "termbase 'provedoria' -> 'Crown Revenue Office' not used",
+  "termbase 'fogos' -> 'households' not used",
+  "termbase 'invocação' -> 'dedication' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "haiku-ru-00158": [
+  "termbase 'escritura de dotação' -> 'вкладная грамота (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'dotação' -> 'вклад на содержание' not used",
+  "termbase 'escritura' -> 'акт' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-de-00048": [
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+ ],
+ "haiku-en-00040": [
+  "termbase 'levada' -> 'levada (pl. levadas)' not used"
+ ],
+ "haiku-ru-00133": [
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'largo' -> 'площадь (f.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used"
+ ],
+ "haiku-hu-00089": [
+  "missing block b013",
+  "termbase 'cerca' -> 'kolostorkert' not used"
+ ],
+ "haiku-de-00058": [],
+ "haiku-de-00054": [
+  "length ratio 0.38 in b022",
+  "length ratio 2.13 in b023",
+  "length ratio 0.44 in b024",
+  "number 5.º -> '5' not found in b024",
+  "year 1460 missing in b024",
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'vila' -> 'Kleinstadt (f.)' not used",
+  "termbase 'escudo' -> 'Escudo (m., pl. Escudos)' not used",
+  "termbase 'brasão de armas' -> 'Wappen (n.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'linha' -> '*Linha* (f., pl. *Linhas*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "haiku-ru-00144": [
+  "low Cyrillic share in b000"
+ ],
+ "haiku-hu-00113": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "haiku-de-00050": [
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used"
+ ],
+ "haiku-en-00034": [
+  "termbase 'vigia' -> 'watch-post; levada context: levada watchman' not used",
+  "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
+  "termbase 'garajau' -> 'common tern' not used",
+  "termbase 'passos' -> 'Stations of the Passion' not used",
+  "termbase 'porto' -> 'landing place' not used",
+  "termbase 'capitão' -> 'captain' not used"
+ ],
+ "haiku-en-00031": [
+  "length ratio 0.09 in b004",
+  "number 10.000 -> '10,000' not found in b004",
+  "number 17.000 -> '17,000' not found in b004",
+  "number 18.000 -> '18,000' not found in b004",
+  "number 10.000 -> '10,000' not found in b004",
+  "number 1.000 -> '1,000' not found in b004",
+  "number 1.800 -> '1,800' not found in b004",
+  "number 3.500 -> '3,500' not found in b004",
+  "number 2.000 -> '2,000' not found in b004",
+  "number 63.300 -> '63,300' not found in b004",
+  "number 630.300 -> '630,300' not found in b004",
+  "length ratio 0.21 in b011",
+  "number 288.000 -> '288,000' not found in b011",
+  "number 461.600 -> '461,600' not found in b011",
+  "number 500.000 -> '500,000' not found in b011",
+  "length ratio 1.76 in b012",
+  "termbase 'mosto' -> 'must' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'vimes' -> 'wicker' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "haiku-ru-00145": [
+  "termbase 'canavial' -> 'плантация сахарного тростника (f.)' not used"
+ ],
+ "haiku-ru-00166": [
+  "termbase 'levada' -> 'левада (f.)' not used"
+ ],
+ "haiku-hu-00119": [
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "haiku-en-00004": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used",
+  "termbase 'mercê' -> 'royal grant' not used",
+  "termbase 'passo' -> 'station (of the Cross)' not used"
+ ],
+ "haiku-de-00059": [],
+ "haiku-ru-00129": [
+  "termbase 'comarca' -> 'судебный округ (m.)' not used",
+  "termbase 'vigário' -> 'настоятель (m.)' not used",
+  "termbase 'orago' -> 'святой покровитель (m.)' not used",
+  "termbase 'vigário geral' -> 'генеральный викарий (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'curral' -> 'загон' not used"
+ ],
+ "haiku-en-00010": [
+  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
+  "termbase 'fogo' -> 'household' not used",
+  "termbase 'pico' -> 'peak' not used",
+  "termbase 'freire' -> 'brother of the Order' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'peso' -> '*peso* (pl. *pesos*)' not used"
+ ],
+ "haiku-ru-00138": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'escudo' -> 'эскудо (n., indecl.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'linha' -> 'линья (f.)' not used"
+ ],
+ "haiku-de-00043": [
+  "termbase 'sítio' -> 'Ortsteil (m., pl. Ortsteile)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used"
+ ],
+ "haiku-de-00049": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'padrão' -> 'Gedenksäule' not used"
+ ],
+ "haiku-hu-00105": [
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "haiku-en-00012": [
+  "length ratio 0.19 in b022",
+  "number 3.º -> '3' not found in b022",
+  "number 3.º -> '3' not found in b022",
+  "number 1.° -> '1' not found in b022",
+  "year 1100 missing in b022",
+  "year 1289 missing in b022",
+  "number 5.º -> '5' not found in b024",
+  "termbase 'capitão-donatário' -> 'captain-donatary (pl. captains-donatary)' not used",
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'vila' -> 'town' not used",
+  "termbase 'escudo' -> 'escudo (pl. escudos)' not used",
+  "termbase 'linha' -> '*linha* (pl. *linhas*)' not used",
+  "termbase 'capitão' -> 'captain' not used"
+ ],
+ "haiku-en-00019": [],
+ "haiku-en-00018": [],
+ "haiku-de-00074": [
+  "termbase 'dotação' -> 'Dotation (f.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-en-00029": [
+  "termbase 'câmara' -> 'the Council' not used"
+ ],
+ "haiku-ru-00143": [
+  "low Cyrillic share in b000"
+ ],
+ "haiku-hu-00104": [
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "haiku-ru-00152": [
+  "termbase 'terreiro' -> 'площадка' not used"
+ ],
+ "haiku-hu-00108": [
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "haiku-en-00014": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'oitava' -> '*oitava* (pl. *oitavas*)' not used",
+  "termbase 'quinto' -> 'fifth (pl. fifths)' not used",
+  "termbase 'terreiro' -> 'open square' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "haiku-ru-00135": [
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "haiku-de-00072": [
+  "length ratio 0.26 in b003"
+ ],
+ "haiku-de-00067": [
+  "termbase 'leste' -> '*Leste* (m.)' not used"
+ ],
+ "haiku-en-00015": [
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "haiku-ru-00139": [
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "haiku-hu-00088": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'cana' -> 'cana' not used",
+  "termbase 'mercê' -> 'királyi adomány' not used",
+  "termbase 'passo' -> 'stáció' not used"
+ ],
+ "haiku-hu-00100": [],
+ "haiku-de-00051": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "haiku-en-00003": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'curral' -> 'fold' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "haiku-en-00025": [
+  "termbase 'leste' -> '*leste*' not used"
+ ],
+ "haiku-de-00060": [],
+ "haiku-hu-00115": [
+  "missing block b004",
+  "missing block b009",
+  "missing block b011",
+  "missing block b012",
+  "termbase 'levada' -> 'levada (levadát, levadák)' not used",
+  "termbase 'mosto' -> 'must' not used",
+  "termbase 'moradia' -> 'lakóház' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'vimes' -> 'fűzvessző' not used",
+  "termbase 'cana' -> 'cana' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "haiku-hu-00122": [
+  "length ratio 0.14 in b000",
+  "termbase 'calhau' -> 'kavicsos part' not used",
+  "termbase 'pena' -> '*pena*' not used",
+  "termbase 'termo' -> 'termo' not used",
+  "termbase 'praia' -> 'strand' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "haiku-ru-00157": [
+  "length ratio 1.69 in b012",
+  "termbase 'moradia' -> 'жилище (n.)' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-en-00035": [
+  "length ratio 2.90 in b003",
+  "missing block b004"
+ ],
+ "haiku-en-00037": [
+  "termbase 'cento' -> '*cento* (pl. *centos*)' not used"
+ ],
+ "haiku-ru-00140": [
+  "termbase 'câmara municipal' -> 'Муниципальная палата; short: палата' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'oitava' -> 'ойтава (f.)' not used",
+  "termbase 'terreiro' -> 'площадка' not used",
+  "termbase 'montante' -> 'двуручный меч' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "haiku-hu-00095": [
+  "termbase 'ponta' -> 'földnyelv' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'pena' -> '*pena*' not used"
+ ],
+ "haiku-ru-00160": [
+  "length ratio 0.64 in b003",
+  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used",
+  "termbase 'vigia' -> 'сторожевой пост (m.); для левад: смотритель левады' not used",
+  "termbase 'capitão do porto' -> 'капитан порта (m.)' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used",
+  "termbase 'garajau' -> 'речная крачка' not used",
+  "termbase 'passos' -> 'стации Страстей' not used",
+  "termbase 'roda' -> 'поворотный ящик' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-hu-00085": [
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'ribeiro' -> 'patak' not used"
+ ],
+ "haiku-ru-00167": [],
+ "haiku-ru-00162": [
+  "termbase 'ponta' -> 'мыс (m.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'vereações' -> 'заседания совета' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-de-00055": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "haiku-en-00036": [
+  "termbase 'ponta' -> 'point, headland' not used",
+  "termbase 'calheta' -> 'cove' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "haiku-hu-00094": [
+  "termbase 'vila' -> 'mezőváros' not used",
+  "termbase 'fogo' -> 'háztartás' not used",
+  "termbase 'pico' -> 'csúcs' not used",
+  "termbase 'freire' -> 'rendtestvér' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'praças' -> 'legénység (számnév után: fő)' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'peso' -> '*peso*' not used",
+  "termbase 'reino' -> 'a királyság' not used",
+  "termbase 'cabo' -> 'fok' not used"
+ ],
+ "haiku-hu-00092": [
+  "termbase 'freire' -> 'rendtestvér' not used"
+ ],
+ "haiku-hu-00107": [
+  "length ratio 0.68 in b002",
+  "missing block b003",
+  "termbase 'quinta' -> '*quinta*' not used",
+  "termbase 'palheiro' -> 'zsúpfedeles kunyhó' not used",
+  "termbase 'capitão' -> 'kapitány' not used"
+ ],
+ "haiku-en-00028": [],
+ "haiku-ru-00126": [
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'prelado' -> 'прелат (m.)' not used",
+  "termbase 'ribeiro' -> 'ручей (m.)' not used",
+  "termbase 'prelado diocesano' -> 'епархиальный епископ (m.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'caldeira' -> 'кальдера (f.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "haiku-ru-00146": [
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used"
+ ],
+ "haiku-ru-00147": [
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "haiku-hu-00120": [
+  "termbase 'ponta' -> 'földnyelv' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'imposição' -> 'községi illeték' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "haiku-hu-00110": [],
+ "haiku-hu-00114": [],
+ "haiku-hu-00124": [
+  "termbase 'levada' -> 'levada (levadát, levadák)' not used"
+ ],
+ "haiku-hu-00111": [],
+ "haiku-ru-00136": [
+  "length ratio 0.34 in b016",
+  "termbase 'quinta' -> 'усадьба (f.); in names: Кинта' not used",
+  "termbase 'largo' -> 'площадь (f.)' not used",
+  "termbase 'enseada' -> 'бухта (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used",
+  "termbase 'capitoa' -> 'жена капитана' not used",
+  "termbase 'jazigo' -> 'фамильный склеп (m.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'peso' -> 'пезу (m., indecl.)' not used",
+  "termbase 'cabo' -> 'мыс (m.)' not used"
+ ],
+ "haiku-en-00041": [
+  "termbase 'pico' -> 'peak' not used"
+ ],
+ "haiku-hu-00084": [
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'prelado' -> 'főpap' not used",
+  "termbase 'fazenda' -> 'birtok' not used",
+  "termbase 'ribeiro' -> 'patak' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'invocação' -> 'titulus' not used",
+  "termbase 'caldeira' -> 'kaldera' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "haiku-hu-00106": [],
+ "haiku-en-00009": [
+  "length ratio 0.24 in b009",
+  "length ratio 0.13 in b011",
+  "year 1414 missing in b011",
+  "year 1390 missing in b011",
+  "year 1395 missing in b011",
+  "year 1419 missing in b011",
+  "year 1501 missing in b011",
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'fazenda' -> 'estate' not used",
+  "termbase 'freire' -> 'brother of the Order' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'povoador' -> 'settler (pl. settlers)' not used",
+  "termbase 'porto' -> 'landing place' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "haiku-en-00026": [
+  "termbase 'terreiro' -> 'open square' not used"
+ ],
+ "haiku-ru-00132": [
+  "termbase 'cana' -> 'кана (f.)' not used"
+ ],
+ "haiku-en-00038": [
+  "termbase 'calhau' -> 'pebble beach (names: Calhau do Seixo)' not used",
+  "termbase 'termo' -> 'termo' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "haiku-en-00011": [
+  "termbase 'donataria' -> 'donatary captaincy' not used",
+  "termbase 'ponta' -> 'point, headland' not used",
+  "termbase 'reino' -> 'the Kingdom' not used"
+ ],
+ "haiku-de-00044": [
+  "length ratio 0.28 in b008",
+  "year 1818 missing in b008",
+  "year 1848 missing in b008",
+  "termbase 'morgado' -> 'Majorat (n.); holder: Majoratsherr (m.)' not used",
+  "termbase 'fajã' -> 'Fajã (f., pl. Fajãs), italic' not used",
+  "termbase 'paul' -> 'sumpfige Hochfläche (f.)' not used",
+  "termbase 'baixio' -> 'Untiefe (f.)' not used",
+  "termbase 'fazenda' -> 'Gut (n.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'canteiro' -> 'Blumenbeet (Garten); Canteiro (Wein: Canteiro-Verfahren)' not used",
+  "termbase 'rocha' -> 'Felswand (f.)' not used",
+  "termbase 'praia' -> 'Strand' not used",
+  "termbase 'lagoa' -> 'Teich' not used"
+ ],
+ "haiku-hu-00097": [
+  "length ratio 0.23 in b025",
+  "year 1460 missing in b025",
+  "year 1395 missing in b025",
+  "year 1390 missing in b025",
+  "year 1461 missing in b025",
+  "year 1471 missing in b025",
+  "year 1451 missing in b025",
+  "length ratio 0.17 in b026",
+  "length ratio 1.77 in b027",
+  "length ratio 2.27 in b028",
+  "year 1710 missing in b028",
+  "length ratio 0.38 in b029",
+  "number 2.° -> '2' not found in b029",
+  "number 3.° -> '3' not found in b029",
+  "number 5.° -> '5' not found in b029",
+  "year 1919 missing in b029",
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "haiku-en-00008": [
+  "termbase 'solar' -> 'manor house' not used",
+  "termbase 'freire' -> 'brother of the Order' not used"
+ ],
+ "haiku-ru-00159": [
+  "termbase 'ribeiro' -> 'ручей (m.)' not used"
+ ],
+ "haiku-de-00076": [
+  "termbase 'vigia' -> 'Wachposten (m.); bei Levadas: Levadawächter (m.)' not used",
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
+  "termbase 'passos' -> 'Passionsstationen' not used",
+  "termbase 'roda' -> 'Drehlade' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "haiku-de-00045": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'altar privilegiado' -> 'privilegierter Altar' not used"
+ ],
+ "haiku-hu-00116": [
+  "termbase 'dotação' -> 'fenntartási alapítvány' not used",
+  "termbase 'escritura' -> 'okirat' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ]
+}

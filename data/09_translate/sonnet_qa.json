@@ -1,0 +1,837 @@
+{
+ "sonnet-de-00070": [],
+ "sonnet-ru-00143": [
+  "low Cyrillic share in b000"
+ ],
+ "sonnet-en-00033": [
+  "termbase 'ilhéu' -> 'islet' not used",
+  "termbase 'pico' -> 'peak' not used",
+  "termbase 'ribeiro' -> 'brook' not used"
+ ],
+ "sonnet-en-00014": [
+  "missing block b033",
+  "missing block b034",
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'oitava' -> '*oitava* (pl. *oitavas*)' not used",
+  "termbase 'apelido' -> 'surname' not used",
+  "termbase 'terreiro' -> 'open square' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "sonnet-en-00017": [],
+ "sonnet-ru-00165": [
+  "low Cyrillic share in b001",
+  "number 20$000 -> '20\\xa0000' not found in b002",
+  "number 25$000 -> '25\\xa0000' not found in b002",
+  "number 19$000 -> '19\\xa0000' not found in b002",
+  "low Cyrillic share in b002",
+  "length ratio 1.67 in b003",
+  "year 1203 missing in b003",
+  "low Cyrillic share in b003",
+  "termbase 'freguesia' -> 'приход (m.)' not used",
+  "termbase 'réis' -> 'рейс (indecl.)' not used",
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'pipa' -> 'пипа (f.)' not used",
+  "termbase 'moio' -> 'мойу (m., indecl.)' not used",
+  "termbase 'serra' -> 'горы (pl.), горная местность' not used",
+  "termbase 'côngrua' -> 'содержание (n.)' not used",
+  "termbase 'orago' -> 'святой покровитель (m.)' not used",
+  "termbase 'fajã' -> 'фажан (m., на фажане)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'paróquia' -> 'приход (m.)' not used",
+  "termbase 'serra de água' -> 'водяная лесопилка (f.)' not used",
+  "termbase 'provedoria' -> 'королевское казначейство (n.)' not used",
+  "termbase 'fogos' -> 'дворы (pl.)' not used",
+  "termbase 'capelania' -> 'капеллания (f.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "sonnet-hu-00113": [
+  "termbase 'câmara' -> 'a tanács' not used"
+ ],
+ "sonnet-en-00024": [
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used"
+ ],
+ "sonnet-ru-00150": [
+  "termbase 'ribeira' -> 'речка (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "sonnet-hu-00118": [
+  "termbase 'vigia' -> 'őrhely; levadáknál: levadaőr' not used",
+  "termbase 'passos' -> 'a Passió stációi' not used",
+  "termbase 'roda' -> 'forgóablak' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-de-00056": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'oitava' -> 'die *Oitava* (pl. *Oitavas*)' not used",
+  "termbase 'terreiro' -> 'freier Platz' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "sonnet-en-00030": [],
+ "sonnet-ru-00161": [],
+ "sonnet-hu-00106": [],
+ "sonnet-de-00061": [],
+ "sonnet-de-00059": [],
+ "sonnet-hu-00098": [
+  "termbase 'câmara municipal' -> 'községi tanács; Funchal: városi tanács; short: a tanács' not used",
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "sonnet-ru-00129": [
+  "termbase 'comarca' -> 'судебный округ (m.)' not used",
+  "termbase 'orago' -> 'святой покровитель (m.)' not used",
+  "termbase 'vigário geral' -> 'генеральный викарий (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'curral' -> 'загон' not used"
+ ],
+ "sonnet-de-00064": [
+  "termbase 'devassa' -> 'gerichtliche Untersuchung (f.)' not used"
+ ],
+ "sonnet-en-00013": [],
+ "sonnet-hu-00116": [
+  "termbase 'mirante' -> 'kilátó' not used",
+  "termbase 'dotação' -> 'fenntartási alapítvány' not used",
+  "termbase 'escritura' -> 'okirat' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-ru-00166": [
+  "termbase 'levada' -> 'левада (f.)' not used"
+ ],
+ "sonnet-ru-00132": [
+  "termbase 'cana' -> 'кана (f.)' not used"
+ ],
+ "sonnet-de-00060": [],
+ "sonnet-de-00052": [
+  "termbase 'largo' -> 'Platz (m.)' not used",
+  "termbase 'fogo' -> 'Haushalt (m.)' not used",
+  "termbase 'pico' -> 'Gipfel (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
+  "termbase 'invocação' -> 'Patrozinium' not used",
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
+  "termbase 'logar' -> '*Lugar* (m.)' not used",
+  "termbase 'peso' -> '*Peso* (m., pl. *Pesos*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "sonnet-en-00034": [
+  "termbase 'vigia' -> 'watch-post; levada context: levada watchman' not used",
+  "termbase 'passos' -> 'Stations of the Passion' not used",
+  "termbase 'porto' -> 'landing place' not used",
+  "termbase 'capitão' -> 'captain' not used"
+ ],
+ "sonnet-en-00021": [
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "sonnet-de-00044": [
+  "termbase 'paul' -> 'sumpfige Hochfläche (f.)' not used",
+  "termbase 'canteiro' -> 'Blumenbeet (Garten); Canteiro (Wein: Canteiro-Verfahren)' not used",
+  "termbase 'lagoa' -> 'Teich' not used"
+ ],
+ "sonnet-hu-00090": [
+  "termbase 'cana' -> 'cana' not used"
+ ],
+ "sonnet-de-00051": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "sonnet-hu-00101": [],
+ "sonnet-hu-00114": [],
+ "sonnet-ru-00164": [],
+ "sonnet-en-00015": [
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "sonnet-ru-00160": [
+  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used",
+  "termbase 'vigia' -> 'сторожевой пост (m.); для левад: смотритель левады' not used",
+  "termbase 'capitão do porto' -> 'капитан порта (m.)' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used",
+  "termbase 'passos' -> 'стации Страстей' not used",
+  "termbase 'roda' -> 'поворотный ящик' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "sonnet-ru-00141": [
+  "termbase 'capitão-donatário' -> 'капитан-донатарий (m.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "sonnet-hu-00097": [
+  "termbase 'capela' -> 'misealapítvány' not used"
+ ],
+ "sonnet-hu-00095": [
+  "termbase 'ponta' -> 'földnyelv' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'pena' -> '*pena*' not used",
+  "termbase 'logar' -> '*lugar*' not used"
+ ],
+ "sonnet-de-00078": [
+  "termbase 'ponta' -> 'Landspitze (f.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'posturas municipais' -> 'kommunale Verordnungen' not used",
+  "termbase 'imposição' -> 'Gemeindeabgabe (f.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-ru-00155": [
+  "low Cyrillic share in b008",
+  "low Cyrillic share in b009",
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'convento' -> 'монастырь (m.)' not used"
+ ],
+ "sonnet-ru-00153": [
+  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used"
+ ],
+ "sonnet-hu-00115": [
+  "length ratio 0.14 in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 17.000 -> '17\\xa0000' not found in b004",
+  "number 18.000 -> '18\\xa0000' not found in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "number 63.300 -> '63\\xa0300' not found in b004",
+  "number 630.300 -> '630\\xa0300' not found in b004",
+  "length ratio 0.30 in b011",
+  "number 288.000 -> '288\\xa0000' not found in b011",
+  "number 461.600 -> '461\\xa0600' not found in b011",
+  "number 500.000 -> '500\\xa0000' not found in b011",
+  "termbase 'mosto' -> 'must' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'vimes' -> 'fűzvessző' not used",
+  "termbase 'cana' -> 'cana' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-hu-00124": [
+  "termbase 'levada' -> 'levada (levadát, levadák)' not used"
+ ],
+ "sonnet-en-00027": [],
+ "sonnet-de-00080": [
+  "termbase 'termo' -> 'Termo (m.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-hu-00117": [
+  "termbase 'ribeiro' -> 'patak' not used"
+ ],
+ "sonnet-en-00037": [
+  "termbase 'cento' -> '*cento* (pl. *centos*)' not used"
+ ],
+ "sonnet-ru-00126": [
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'pároco' -> 'приходской священник (m.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'prelado' -> 'прелат (m.)' not used",
+  "termbase 'ribeiro' -> 'ручей (m.)' not used",
+  "termbase 'prelado diocesano' -> 'епархиальный епископ (m.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'caldeira' -> 'кальдера (f.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "sonnet-de-00045": [
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'curral' -> 'Pferch (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'altar privilegiado' -> 'privilegierter Altar' not used"
+ ],
+ "sonnet-ru-00127": [
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'ribeiro' -> 'ручей (m.)' not used"
+ ],
+ "sonnet-de-00053": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'ponta' -> 'Landspitze (f.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'pena' -> '*Pena* (f., pl. *Penas*)' not used",
+  "termbase 'logar' -> '*Lugar* (m.)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "sonnet-en-00006": [
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "sonnet-ru-00152": [
+  "termbase 'terreiro' -> 'площадка' not used"
+ ],
+ "sonnet-ru-00158": [
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'mirante' -> 'бельведер (m.)' not used",
+  "termbase 'dotação' -> 'вклад на содержание' not used",
+  "termbase 'escritura' -> 'акт' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "sonnet-de-00066": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used"
+ ],
+ "sonnet-ru-00135": [
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "sonnet-en-00023": [
+  "termbase 'palheiro' -> 'thatched hut' not used"
+ ],
+ "sonnet-en-00008": [
+  "termbase 'freire' -> 'brother of the Order' not used"
+ ],
+ "sonnet-hu-00094": [
+  "termbase 'fogo' -> 'háztartás' not used",
+  "termbase 'pico' -> 'csúcs' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'freire' -> 'rendtestvér' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'praças' -> 'legénység (számnév után: fő)' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'peso' -> '*peso*' not used"
+ ],
+ "sonnet-de-00048": [],
+ "sonnet-hu-00096": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'vila' -> 'mezőváros' not used",
+  "termbase 'escudo' -> 'escudo' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'linha' -> '*linha*' not used"
+ ],
+ "sonnet-en-00020": [
+  "length ratio 1.48 in b000",
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "sonnet-de-00067": [
+  "termbase 'leste' -> '*Leste* (m.)' not used"
+ ],
+ "sonnet-ru-00131": [
+  "missing block b013",
+  "termbase 'cerca' -> 'монастырская ограда (f.)' not used",
+  "termbase 'cana' -> 'кана (f.)' not used"
+ ],
+ "sonnet-en-00003": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'provedor' -> 'president (of the Misericórdia); superintendent (Treasury, customs, pre-1835 office)' not used",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'curral' -> 'fold' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "sonnet-de-00065": [
+  "termbase 'palheiro' -> 'strohgedeckte Hütte (f.)' not used"
+ ],
+ "sonnet-en-00041": [
+  "termbase 'pico' -> 'peak' not used"
+ ],
+ "sonnet-en-00038": [
+  "termbase 'calhau' -> 'pebble beach (names: Calhau do Seixo)' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "sonnet-en-00007": [
+  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "sonnet-en-00004": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used",
+  "termbase 'mercê' -> 'royal grant' not used",
+  "termbase 'passo' -> 'station (of the Cross)' not used"
+ ],
+ "sonnet-de-00046": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
+  "termbase 'mercê' -> 'Gnadenerweis (m.)' not used",
+  "termbase 'passo' -> 'Kreuzwegstation' not used"
+ ],
+ "sonnet-hu-00105": [
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-hu-00112": [],
+ "sonnet-ru-00157": [
+  "length ratio 0.06 in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 17.000 -> '17\\xa0000' not found in b004",
+  "number 18.000 -> '18\\xa0000' not found in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "number 63.300 -> '63\\xa0300' not found in b004",
+  "number 630.300 -> '630\\xa0300' not found in b004",
+  "length ratio 0.09 in b009",
+  "number 288.000 -> '288\\xa0000' not found in b009",
+  "number 500.000 -> '500\\xa0000' not found in b009",
+  "length ratio 0.15 in b011",
+  "number 288.000 -> '288\\xa0000' not found in b011",
+  "number 461.600 -> '461\\xa0600' not found in b011",
+  "number 500.000 -> '500\\xa0000' not found in b011",
+  "length ratio 0.20 in b012",
+  "number 70.000 -> '70\\xa0000' not found in b012",
+  "number 25.000 -> '25\\xa0000' not found in b012",
+  "number 1.344.600 -> '1\\xa0344\\xa0600' not found in b012",
+  "termbase 'levada' -> 'левада (f.)' not used",
+  "termbase 'mosto' -> 'сусло (n.; виноградное сусло)' not used",
+  "termbase 'moradia' -> 'жилище (n.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used",
+  "termbase 'vimes' -> 'лоза' not used",
+  "termbase 'cana' -> 'кана (f.)' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "sonnet-de-00074": [
+  "termbase 'mirante' -> 'Aussichtspavillon (m., pl. Aussichtspavillons)' not used",
+  "termbase 'dotação' -> 'Dotation (f.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-en-00025": [
+  "termbase 'leste' -> '*leste*' not used"
+ ],
+ "sonnet-ru-00162": [
+  "termbase 'ponta' -> 'мыс (m.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'vereações' -> 'заседания совета' not used",
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "sonnet-ru-00142": [],
+ "sonnet-de-00057": [
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "sonnet-ru-00144": [],
+ "sonnet-ru-00137": [
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'alvará régio' -> 'королевский указ (m.)' not used",
+  "termbase 'donataria' -> 'донатарная капитания (f.)' not used",
+  "termbase 'ponta' -> 'мыс (m.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'pena' -> 'пена (f.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'grande do reino' -> 'гранд королевства' not used"
+ ],
+ "sonnet-hu-00119": [
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-ru-00149": [
+  "termbase 'palheiro' -> 'соломенная хижина (f.)' not used"
+ ],
+ "sonnet-hu-00085": [
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'ribeiro' -> 'patak' not used",
+  "termbase 'cana' -> 'cana' not used"
+ ],
+ "sonnet-hu-00109": [],
+ "sonnet-ru-00167": [],
+ "sonnet-de-00076": [
+  "termbase 'praças' -> 'Mannschaften (pl.; nach Zahlen: Mann)' not used",
+  "termbase 'garajau' -> 'Flussseeschwalbe' not used",
+  "termbase 'passos' -> 'Passionsstationen' not used",
+  "termbase 'roda' -> 'Drehlade' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-hu-00121": [
+  "termbase 'cento' -> '*cento*' not used"
+ ],
+ "sonnet-de-00077": [
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-de-00081": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'serra' -> 'Bergland (n.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'serra de água' -> 'wassergetriebene Sägemühle (f.)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-hu-00088": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'cana' -> 'cana' not used",
+  "termbase 'mercê' -> 'királyi adomány' not used",
+  "termbase 'passo' -> 'stáció' not used"
+ ],
+ "sonnet-de-00083": [
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used"
+ ],
+ "sonnet-ru-00146": [
+  "termbase 'ribeira' -> 'речка (f.)' not used"
+ ],
+ "sonnet-hu-00089": [
+  "missing block b013",
+  "termbase 'cerca' -> 'kolostorkert' not used"
+ ],
+ "sonnet-hu-00108": [
+  "termbase 'ribeira' -> 'patak' not used"
+ ],
+ "sonnet-ru-00139": [
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used"
+ ],
+ "sonnet-de-00043": [
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used"
+ ],
+ "sonnet-de-00071": [
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "sonnet-de-00058": [],
+ "sonnet-ru-00130": [
+  "low Cyrillic share in b000",
+  "low Cyrillic share in b001",
+  "low Cyrillic share in b002",
+  "low Cyrillic share in b003",
+  "low Cyrillic share in b004",
+  "low Cyrillic share in b005",
+  "number 120:000 -> '120\\xa0000' not found in b006",
+  "number 300:000 -> '300\\xa0000' not found in b006",
+  "low Cyrillic share in b006",
+  "low Cyrillic share in b007",
+  "low Cyrillic share in b008",
+  "low Cyrillic share in b009",
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'alvará' -> 'королевский указ (m.)' not used",
+  "termbase 'levada' -> 'левада (f.)' not used",
+  "termbase 'engenho' -> 'сахарная мельница (f.)' not used",
+  "termbase 'foral' -> 'жалованная грамота (f.)' not used",
+  "termbase 'alfândega' -> 'таможня (f.)' not used",
+  "termbase 'arroba' -> 'арроба (f.)' not used",
+  "termbase 'regimento' -> 'регламент (m.)' not used",
+  "termbase 'alfenim' -> 'алфенин (m.)' not used",
+  "termbase 'til' -> 'тил (m.)' not used",
+  "termbase 'alçaprema' -> 'алсапрема (f.)' not used",
+  "termbase 'cana' -> 'кана (f.)' not used",
+  "termbase 'terço' -> 'треть' not used",
+  "termbase 'mercê' -> 'пожалование (королевская милость)' not used",
+  "termbase 'passo' -> 'стация Крестного пути' not used",
+  "termbase 'capitão' -> 'капитан (m.)' not used"
+ ],
+ "sonnet-en-00036": [
+  "termbase 'ponta' -> 'point, headland' not used",
+  "termbase 'calheta' -> 'cove' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "sonnet-de-00063": [
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-ru-00128": [
+  "termbase 'paul' -> 'заболоченное плато (n.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used",
+  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used",
+  "termbase 'lagoa' -> 'озерцо' not used"
+ ],
+ "sonnet-ru-00148": [
+  "termbase 'desembargador' -> 'судья высшего суда (m.)' not used",
+  "termbase 'real' -> 'реал (мн. рейш)' not used"
+ ],
+ "sonnet-en-00019": [
+  "termbase 'canavial' -> 'cane field' not used"
+ ],
+ "sonnet-de-00042": [
+  "termbase 'alvará' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'alvará régio' -> 'königlicher Erlass (m.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used",
+  "termbase 'prelado' -> 'Prälat (m.)' not used",
+  "termbase 'fazenda' -> 'Gut (n.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'acha' -> 'Holzscheit' not used"
+ ],
+ "sonnet-hu-00120": [
+  "termbase 'ponta' -> 'földnyelv' not used",
+  "termbase 'calheta' -> 'kis öböl' not used",
+  "termbase 'imposição' -> 'községi illeték' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-en-00035": [
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "sonnet-ru-00154": [
+  "termbase 'lazareto' -> 'карантинный лазарет (m.)' not used"
+ ],
+ "sonnet-en-00026": [
+  "termbase 'terreiro' -> 'open square' not used"
+ ],
+ "sonnet-ru-00136": [
+  "termbase 'largo' -> 'площадь (f.)' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used",
+  "termbase 'invocação' -> 'посвящение' not used",
+  "termbase 'praças' -> 'нижние чины (pl.)' not used",
+  "termbase 'jazigo' -> 'фамильный склеп (m.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'peso' -> 'пезу (m., indecl.)' not used"
+ ],
+ "sonnet-hu-00086": [
+  "termbase 'paul' -> 'mocsaras fennsík' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'canteiro' -> 'virágágyás (kert); canteiro (bor: canteiro-eljárás)' not used"
+ ],
+ "sonnet-en-00028": [],
+ "sonnet-en-00032": [
+  "termbase 'mirante' -> 'belvedere (pl. belvederes)' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "sonnet-ru-00159": [
+  "low Cyrillic share in b000",
+  "low Cyrillic share in b001",
+  "termbase 'cónego' -> 'каноник (m.)' not used",
+  "termbase 'ilhéu' -> 'островок (m.)' not used",
+  "termbase 'pico' -> 'пик (m.)' not used",
+  "termbase 'ribeiro' -> 'ручей (m.)' not used"
+ ],
+ "sonnet-de-00050": [
+  "termbase 'freire' -> 'Ordensbruder (m.)' not used"
+ ],
+ "sonnet-hu-00104": [
+  "length ratio 1.58 in b000",
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "sonnet-hu-00091": [
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "sonnet-de-00075": [
+  "termbase 'pico' -> 'Gipfel (m.)' not used",
+  "termbase 'ribeiro' -> 'Bach (m.)' not used"
+ ],
+ "sonnet-hu-00110": [
+  "termbase 'terreiro' -> 'tér' not used"
+ ],
+ "sonnet-hu-00103": [
+  "termbase 'canavial' -> 'cukornádültetvény' not used"
+ ],
+ "sonnet-de-00062": [
+  "length ratio 1.51 in b000",
+  "termbase 'ribeira' -> 'Bach (m., pl. Bäche)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used"
+ ],
+ "sonnet-en-00029": [
+  "termbase 'câmara' -> 'the Council' not used"
+ ],
+ "sonnet-de-00049": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used"
+ ],
+ "sonnet-hu-00084": [
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'prelado' -> 'főpap' not used",
+  "termbase 'fazenda' -> 'birtok' not used",
+  "termbase 'ribeiro' -> 'patak' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'caldeira' -> 'kaldera' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "sonnet-ru-00151": [
+  "termbase 'leste' -> 'лешти (m., indecl.)' not used"
+ ],
+ "sonnet-en-00001": [
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'ribeiro' -> 'brook' not used"
+ ],
+ "sonnet-ru-00134": [
+  "termbase 'solar' -> 'родовой дом (m.)' not used",
+  "termbase 'freire' -> 'брат ордена (m.)' not used"
+ ],
+ "sonnet-hu-00093": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'freire' -> 'rendtestvér' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used",
+  "termbase 'porto' -> 'kikötőhely' not used",
+  "termbase 'acha' -> 'fahasáb' not used"
+ ],
+ "sonnet-hu-00122": [
+  "termbase 'termo' -> 'termo' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-en-00011": [],
+ "sonnet-de-00068": [
+  "termbase 'terreiro' -> 'freier Platz' not used"
+ ],
+ "sonnet-en-00022": [],
+ "sonnet-en-00002": [
+  "termbase 'paul' -> 'marshy upland' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'canteiro' -> 'flower bed (garden); canteiro (wine: canteiro system, vinho de canteiro)' not used",
+  "termbase 'lagoa' -> 'pond' not used"
+ ],
+ "sonnet-ru-00140": [
+  "termbase 'câmara municipal' -> 'Муниципальная палата; short: палата' not used",
+  "termbase 'capela' -> 'благочестивый вклад (m.)' not used",
+  "termbase 'oitava' -> 'ойтава (f.)' not used",
+  "termbase 'acha' -> 'полено' not used"
+ ],
+ "sonnet-de-00082": [
+  "termbase 'levada' -> 'Levada (f., pl. Levadas)' not used"
+ ],
+ "sonnet-en-00005": [
+  "missing block b013",
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used"
+ ],
+ "sonnet-hu-00092": [
+  "termbase 'freire' -> 'rendtestvér' not used"
+ ],
+ "sonnet-hu-00123": [
+  "length ratio 1.51 in b003",
+  "termbase 'ribeira' -> 'patak' not used",
+  "termbase 'serra' -> 'hegyvidék' not used",
+  "termbase 'porto' -> 'kikötőhely' not used"
+ ],
+ "sonnet-en-00016": [],
+ "sonnet-hu-00111": [],
+ "sonnet-ru-00147": [
+  "termbase 'porto' -> 'пристань (f.)' not used"
+ ],
+ "sonnet-de-00055": [
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'capela' -> 'Messstiftung (f., pl. Messstiftungen)' not used"
+ ],
+ "sonnet-de-00079": [
+  "termbase 'cento' -> '*Cento* (pl. *Centos*)' not used"
+ ],
+ "sonnet-en-00000": [
+  "termbase 'cerca' -> 'convent grounds' not used",
+  "termbase 'ribeiro' -> 'brook' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used"
+ ],
+ "sonnet-en-00009": [
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'freire' -> 'brother of the Order' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'porto' -> 'landing place' not used",
+  "termbase 'acha' -> 'split log' not used"
+ ],
+ "sonnet-hu-00087": [
+  "termbase 'câmara' -> 'a tanács' not used",
+  "termbase 'capela' -> 'misealapítvány' not used",
+  "termbase 'cerca' -> 'kolostorkert' not used",
+  "termbase 'curral' -> 'karám' not used",
+  "termbase 'lugar' -> 'kistelepülés / falu (településrang)' not used"
+ ],
+ "sonnet-de-00054": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'Stadtrat (m., Funchal) / Kreisrat (m.)' not used",
+  "termbase 'carta régia' -> 'königliches Schreiben (n.)' not used",
+  "termbase 'vila' -> 'Kleinstadt (f.)' not used",
+  "termbase 'calheta' -> 'kleine Bucht (f.)' not used",
+  "termbase 'linha' -> '*Linha* (f., pl. *Linhas*)' not used",
+  "termbase 'reino' -> 'das Königreich' not used"
+ ],
+ "sonnet-ru-00163": [
+  "termbase 'cento' -> 'сенту' not used"
+ ],
+ "sonnet-ru-00138": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'палата (f.)' not used",
+  "termbase 'carta régia' -> 'королевская грамота (f.)' not used",
+  "termbase 'vila' -> 'городок (m.)' not used",
+  "termbase 'escudo' -> 'эскудо (n., indecl.)' not used",
+  "termbase 'calheta' -> 'бухточка (f.)' not used",
+  "termbase 'linha' -> 'линья (f.)' not used"
+ ],
+ "sonnet-en-00012": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'câmara' -> 'the Council' not used",
+  "termbase 'vila' -> 'town' not used",
+  "termbase 'escudo' -> 'escudo (pl. escudos)' not used",
+  "termbase 'linha' -> '*linha* (pl. *linhas*)' not used",
+  "termbase 'reino' -> 'the Kingdom' not used"
+ ],
+ "sonnet-de-00047": [
+  "missing block b013",
+  "termbase 'arroba' -> 'die *Arroba* (pl. *Arrobas*)' not used",
+  "termbase 'cerca' -> 'Klosterbezirk (m.)' not used"
+ ],
+ "sonnet-de-00072": [],
+ "sonnet-en-00010": [
+  "termbase 'largo' -> 'square (names: Largo do Colégio)' not used",
+  "termbase 'fogo' -> 'household' not used",
+  "termbase 'pico' -> 'peak' not used",
+  "termbase 'capela' -> 'chantry (pl. chantries)' not used",
+  "termbase 'freire' -> 'brother of the Order' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'praças' -> 'other ranks (after numerals: men)' not used",
+  "termbase 'logar' -> '*lugar*' not used",
+  "termbase 'peso' -> '*peso* (pl. *pesos*)' not used"
+ ],
+ "sonnet-hu-00102": [],
+ "sonnet-en-00040": [
+  "termbase 'levada' -> 'levada (pl. levadas)' not used"
+ ],
+ "sonnet-ru-00133": [
+  "termbase 'largo' -> 'площадь (f.)' not used",
+  "termbase 'lugar' -> 'селение / село (ранг поселения)' not used"
+ ],
+ "sonnet-en-00039": [
+  "year 1203 missing in b003",
+  "termbase 'ribeira' -> 'stream (pl. streams)' not used",
+  "termbase 'serra' -> 'uplands (pl.); mountains' not used",
+  "termbase 'serra de água' -> 'water-powered sawmill' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "sonnet-ru-00156": [],
+ "sonnet-hu-00100": [],
+ "sonnet-de-00073": [
+  "length ratio 0.08 in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "length ratio 0.55 in b009",
+  "length ratio 0.33 in b011",
+  "termbase 'mosto' -> 'Most (m.)' not used",
+  "termbase 'moradia' -> 'Wohnsitz (m.)' not used",
+  "termbase 'lugar' -> 'Weiler / Dorf (Siedlungsrang)' not used",
+  "termbase 'vimes' -> 'Korbweide' not used",
+  "termbase 'cana' -> 'Cana (f., pl. Canas)' not used",
+  "termbase 'porto' -> 'Anlegestelle (f.)' not used"
+ ],
+ "sonnet-en-00031": [
+  "length ratio 0.09 in b004",
+  "number 10.000 -> '10,000' not found in b004",
+  "number 17.000 -> '17,000' not found in b004",
+  "number 18.000 -> '18,000' not found in b004",
+  "number 10.000 -> '10,000' not found in b004",
+  "number 1.000 -> '1,000' not found in b004",
+  "number 1.800 -> '1,800' not found in b004",
+  "number 3.500 -> '3,500' not found in b004",
+  "number 2.000 -> '2,000' not found in b004",
+  "number 63.300 -> '63,300' not found in b004",
+  "number 630.300 -> '630,300' not found in b004",
+  "length ratio 0.42 in b009",
+  "number 288.000 -> '288,000' not found in b009",
+  "number 500.000 -> '500,000' not found in b009",
+  "length ratio 0.27 in b011",
+  "number 288.000 -> '288,000' not found in b011",
+  "number 461.600 -> '461,600' not found in b011",
+  "number 500.000 -> '500,000' not found in b011",
+  "length ratio 0.65 in b012",
+  "number 70.000 -> '70,000' not found in b012",
+  "number 25.000 -> '25,000' not found in b012",
+  "number 1.344.600 -> '1,344,600' not found in b012",
+  "termbase 'levada' -> 'levada (pl. levadas)' not used",
+  "termbase 'mosto' -> 'must' not used",
+  "termbase 'moradia' -> 'residence' not used",
+  "termbase 'lugar' -> 'hamlet / village (settlement rank)' not used",
+  "termbase 'vimes' -> 'wicker' not used",
+  "termbase 'cana' -> 'cana (pl. canas)' not used",
+  "termbase 'porto' -> 'landing place' not used"
+ ],
+ "sonnet-ru-00145": [
+  "low Cyrillic share in b000",
+  "termbase 'canavial' -> 'плантация сахарного тростника (f.)' not used"
+ ],
+ "sonnet-hu-00125": [],
+ "sonnet-hu-00107": [
+  "termbase 'palheiro' -> 'zsúpfedeles kunyhó' not used"
+ ],
+ "sonnet-en-00018": [],
+ "sonnet-de-00069": [],
+ "sonnet-hu-00099": [
+  "termbase 'acha' -> 'fahasáb' not used"
+ ]
+}

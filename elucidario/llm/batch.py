@@ -30,13 +30,17 @@ LEDGER = DATA / "ledger.jsonl"
 
 
 def cost_usd(model: str, usage, batch: bool = True) -> float:
-    p = PRICES[model]
+    p = PRICES.get(model) or next(v for k, v in PRICES.items() if model.startswith(k))
     u = usage if isinstance(usage, dict) else usage.model_dump()
+    cc = u.get("cache_creation") or {}
+    w1h = cc.get("ephemeral_1h_input_tokens") or 0
+    w5m = (u.get("cache_creation_input_tokens") or 0) - w1h
     c = (
         u.get("input_tokens", 0) * p["in"]
         + u.get("output_tokens", 0) * p["out"]
         + (u.get("cache_read_input_tokens") or 0) * p["cache_read"]
-        + (u.get("cache_creation_input_tokens") or 0) * p["cache_write"]
+        + w5m * p["cache_write"]
+        + w1h * p["in"] * 2
     ) / 1e6
     return c * (BATCH_DISCOUNT if batch else 1.0)
 
@@ -63,11 +67,43 @@ class BatchJob:
             ids.update(b["custom_ids"])
         return ids
 
-    def submit(self, requests: list[dict], budget_usd: float, est_usd: float | None = None) -> list[str]:
+    def warm(self, requests: list[dict]) -> float:
+        """Write the shared prefix to the prompt cache before submitting (parallel batch requests otherwise all miss).
+
+        One synchronous request per distinct (model, system) prefix, with the smallest possible body. Returns USD spent.
+        """
+        seen, usd = set(), 0.0
+        for r in requests:
+            p = r["params"]
+            key = (p["model"], json.dumps(p.get("system"), sort_keys=True, ensure_ascii=False))
+            if key in seen or not p.get("system"):
+                continue
+            seen.add(key)
+            q = {k: v for k, v in p.items() if k not in ("messages", "max_tokens")}
+            q["messages"] = [{"role": "user", "content": "Cache warm-up: reply with an empty result."}]
+            q["max_tokens"] = 2048
+            try:
+                with client().messages.stream(**q) as st:
+                    m = st.get_final_message()
+                usd += cost_usd(m.model, m.usage.model_dump(), batch=False)
+            except Exception as ex:  # warm-up is best-effort
+                print(f"{self.name}: warm-up failed: {ex}")
+        return usd
+
+    def submit(self, requests: list[dict], budget_usd: float, est_usd: float | None = None, warm: bool = True) -> list[str]:
         """Submit requests whose custom_id was not submitted before. Refuses if the estimate exceeds the budget."""
         todo = [r for r in requests if r["custom_id"] not in self.submitted_ids]
         if not todo:
             return []
+        if warm and len(todo) > 5:
+            for r in todo:  # 1-hour TTL so the warmed prefix outlives batch queueing
+                for blk in r["params"].get("system") or []:
+                    if isinstance(blk, dict) and blk.get("cache_control"):
+                        blk["cache_control"] = {"type": "ephemeral", "ttl": "1h"}
+            spent = self.warm(todo)
+            with open(LEDGER, "a") as f:
+                f.write(json.dumps({"job": self.name, "batch": "warm-up", "usd": round(spent, 4),
+                                    "at": datetime.now(timezone.utc).isoformat()}) + "\n")
         if est_usd is not None and est_usd > budget_usd:
             raise RuntimeError(f"{self.name}: estimated ${est_usd:.2f} exceeds budget ${budget_usd:.2f}")
         ids = []
