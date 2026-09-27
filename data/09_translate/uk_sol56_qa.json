@@ -1,0 +1,161 @@
+{
+ "uk_sol56-uk-00000": [
+  "termbase 'pároco' -> 'парафіяльний священик (m.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used",
+  "termbase 'prelado' -> 'прелат (m.)' not used",
+  "termbase 'prelado diocesano' -> 'єпархіальний єпископ (m.)' not used",
+  "termbase 'invocação' -> 'посвята' not used"
+ ],
+ "uk_sol56-uk-00001": [
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
+ ],
+ "uk_sol56-uk-00002": [
+  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used"
+ ],
+ "uk_sol56-uk-00003": [
+  "termbase 'comarca' -> 'судовий округ (m.)' not used",
+  "termbase 'orago' -> 'святий покровитель (m.)' not used",
+  "termbase 'provedor' -> 'голова (Мізерикордії); інтендант (скарбниці, митниці, посада до 1835)' not used",
+  "termbase 'vigário geral' -> 'генеральний вікарій (m.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used",
+  "termbase 'altar privilegiado' -> 'привілейований вівтар' not used"
+ ],
+ "uk_sol56-uk-00004": [
+  "termbase 'quinto' -> 'п'ятина (f.)' not used",
+  "termbase 'mercê' -> 'королівська милість (пожалування)' not used"
+ ],
+ "uk_sol56-uk-00005": [
+  "length ratio 0.77 in b012",
+  "length ratio 0.05 in b013",
+  "number 648:500 -> '648\\xa0500' not found in b013",
+  "number 442:000 -> '442\\xa0000' not found in b013",
+  "number 442:000 -> '442\\xa0000' not found in b013",
+  "number 800:000 -> '800\\xa0000' not found in b013",
+  "number 1:053:000 -> '1\\xa0053\\xa0000' not found in b013",
+  "number 1:823:350 -> '1\\xa0823\\xa0350' not found in b013",
+  "number 2:973:000 -> '2\\xa0973\\xa0000' not found in b013",
+  "number 3:204:000 -> '3\\xa0204\\xa0000' not found in b013",
+  "number 4:161:550 -> '4\\xa0161\\xa0550' not found in b013",
+  "number 4:260:928 -> '4\\xa0260\\xa0928' not found in b013",
+  "number 4:796:725 -> '4\\xa0796\\xa0725' not found in b013",
+  "number 4:917:113 -> '4\\xa0917\\xa0113' not found in b013",
+  "number 4:943:675 -> '4\\xa0943\\xa0675' not found in b013",
+  "year 1899 missing in b013",
+  "year 1913 missing in b013",
+  "year 1908 missing in b013",
+  "year 1916 missing in b013",
+  "year 1905 missing in b013",
+  "year 1912 missing in b013",
+  "year 1910 missing in b013",
+  "year 1914 missing in b013",
+  "year 1900 missing in b013",
+  "year 1898 missing in b013",
+  "year 1911 missing in b013",
+  "year 1915 missing in b013",
+  "year 1906 missing in b013",
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
+ ],
+ "uk_sol56-uk-00006": [],
+ "uk_sol56-uk-00007": [
+  "termbase 'carta régia' -> 'королівська грамота (f.)' not used",
+  "termbase 'padrão' -> 'пам'ятний стовп' not used"
+ ],
+ "uk_sol56-uk-00008": [
+  "termbase 'solar' -> 'родовий дім (m.)' not used"
+ ],
+ "uk_sol56-uk-00009": [
+  "termbase 'familiar' -> 'фаміліар (m.)' not used"
+ ],
+ "uk_sol56-uk-00010": [
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'donataria' -> 'донатарна капітанія (f.)' not used",
+  "termbase 'praças' -> 'рядові (pl.)' not used",
+  "termbase 'jazigo' -> 'родинний склеп (m.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used"
+ ],
+ "uk_sol56-uk-00011": [
+  "termbase 'donataria' -> 'донатарна капітанія (f.)' not used",
+  "termbase 'carta de doação' -> 'дарча грамота (f.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'grande do reino' -> 'гранд королівства' not used"
+ ],
+ "uk_sol56-uk-00012": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'carta régia' -> 'королівська грамота (f.)' not used",
+  "termbase 'escudo' -> 'ескудо (n., indecl.)' not used",
+  "termbase 'linha' -> 'лінья (f.)' not used"
+ ],
+ "uk_sol56-uk-00013": [
+  "termbase 'carta régia' -> 'королівська грамота (f.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used"
+ ],
+ "uk_sol56-uk-00014": [
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'oitava' -> 'ойтава (f.)' not used"
+ ],
+ "uk_sol56-uk-00015": [],
+ "uk_sol56-uk-00016": [],
+ "uk_sol56-uk-00017": [],
+ "uk_sol56-uk-00018": [],
+ "uk_sol56-uk-00019": [],
+ "uk_sol56-uk-00020": [
+  "length ratio 1.53 in b000"
+ ],
+ "uk_sol56-uk-00021": [],
+ "uk_sol56-uk-00022": [],
+ "uk_sol56-uk-00023": [],
+ "uk_sol56-uk-00024": [
+  "termbase 'sítio' -> 'місцевість (f.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used"
+ ],
+ "uk_sol56-uk-00025": [
+  "termbase 'leste' -> 'лешті (m., indecl.)' not used"
+ ],
+ "uk_sol56-uk-00026": [
+  "length ratio 1.69 in b000"
+ ],
+ "uk_sol56-uk-00027": [],
+ "uk_sol56-uk-00028": [],
+ "uk_sol56-uk-00029": [
+  "termbase 'capela' -> 'побожна фундація (f.)' not used"
+ ],
+ "uk_sol56-uk-00030": [],
+ "uk_sol56-uk-00031": [
+  "termbase 'moradia' -> 'оселя (f.)' not used"
+ ],
+ "uk_sol56-uk-00032": [
+  "termbase 'sítio' -> 'місцевість (f.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'dotação' -> 'вклад на утримання' not used"
+ ],
+ "uk_sol56-uk-00033": [],
+ "uk_sol56-uk-00034": [
+  "termbase 'vigia' -> 'сторожовий пост (m.); для левад: доглядач левади' not used",
+  "termbase 'capitão do porto' -> 'капітан порту (m.)' not used"
+ ],
+ "uk_sol56-uk-00035": [
+  "termbase 'casta' -> 'сорт (m.); для винограду: сорт винограду' not used"
+ ],
+ "uk_sol56-uk-00036": [
+  "termbase 'vereações' -> 'засідання ради' not used"
+ ],
+ "uk_sol56-uk-00037": [
+  "termbase 'cento' -> 'сенту' not used"
+ ],
+ "uk_sol56-uk-00038": [
+  "termbase 'termo' -> 'терму (m., indecl.)' not used"
+ ],
+ "uk_sol56-uk-00039": [
+  "length ratio 2.33 in b003",
+  "termbase 'orago' -> 'святий покровитель (m.)' not used",
+  "termbase 'pároco' -> 'парафіяльний священик (m.)' not used"
+ ],
+ "uk_sol56-uk-00040": [
+  "termbase 'levada' -> 'левада (f.)' not used"
+ ],
+ "uk_sol56-uk-00041": [
+  "length ratio 1.63 in b000"
+ ]
+}

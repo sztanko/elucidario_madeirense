@@ -438,3 +438,16 @@ def sol_collect(name: str) -> dict:
     (OUT / f"{name}_qa.json").write_text(json.dumps(issues, ensure_ascii=False, indent=1))
     return {"requests": len(meta), "results": len(results), "with_issues": sum(1 for v in issues.values() if v),
             "usd": ob.state.get("usd")}
+
+
+def uk_check_submit() -> dict:
+    """Ukrainian: gpt-5.6-sol vs Opus 5.5 low on the pilot articles."""
+    from elucidario.llm.openai_batch import OpenAIBatch, to_openai
+
+    arts = json.loads((DATA / "08_tu" / "pilot_articles.json").read_text())
+    opus = pilot_requests(arts, ["uk"], "claude-opus-5-5", "low", "uk_opus_low")
+    sol = pilot_requests(arts, ["uk"], "gpt-5.6-sol", "low", "uk_sol56")
+    ob = OpenAIBatch("translate_uk_sol56")
+    ob.state["model"] = "gpt-5.6-sol"
+    return {"opus": BatchJob("translate_uk_opus_low").submit(opus, budget_usd=5.0, est_usd=None),
+            "sol": ob.submit([{"custom_id": r["custom_id"], "body": to_openai(r["params"], "low")} for r in sol])}

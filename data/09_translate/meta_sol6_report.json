@@ -1,0 +1,32 @@
+{
+ "scores": {
+  "de:sol6": {
+   "acc": 4.92,
+   "nat": 4.92
+  },
+  "de:sonnet": {
+   "acc": 4.87,
+   "nat": 4.59
+  },
+  "hu:sol6": {
+   "acc": 4.92,
+   "nat": 4.85
+  },
+  "hu:sonnet": {
+   "acc": 4.76,
+   "nat": 4.38
+  },
+  "ru:sol6": {
+   "acc": 4.88,
+   "nat": 4.85
+  },
+  "ru:sonnet": {
+   "acc": 4.72,
+   "nat": 4.43
+  }
+ },
+ "usd": {
+  "sol6": 0.4037,
+  "judge": 1.45
+ }
+}

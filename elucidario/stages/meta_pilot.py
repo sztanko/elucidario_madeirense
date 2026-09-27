@@ -129,3 +129,84 @@ def report() -> dict:
     rep = {"scores": out, "usd": cost, "sample_errors": {l: v[:6] for l, v in errs.items()}}
     (OUT / "meta_pilot_report.json").write_text(json.dumps(rep, ensure_ascii=False, indent=1))
     return rep
+
+
+def sol6_submit() -> dict:
+    """gpt-6-sol on the same 296 metadata units (OpenAI Batch API)."""
+    from elucidario.llm.openai_batch import OpenAIBatch, to_openai
+
+    units = json.loads((OUT / "meta_sample.json").read_text())
+    reqs = []
+    for lang in LANGS:
+        for i in range(0, len(units), 50):
+            params = {"model": "gpt-6-sol", "max_tokens": 32000, "system": system(lang),
+                      "messages": [{"role": "user", "content": json.dumps(
+                          [{"uid": u["uid"], "text": u["text"]} for u in units[i: i + 50]], ensure_ascii=False)}],
+                      "output_config": {"format": {"type": "json_schema", "schema": SCHEMA}}}
+            reqs.append({"custom_id": f"{lang}-{i // 50:02d}", "body": to_openai(params, "low")})
+    ob = OpenAIBatch("meta_sol6")
+    ob.state["model"] = "gpt-6-sol"
+    return {"batch": ob.submit(reqs)}
+
+
+def sol6_results() -> dict:
+    from elucidario.llm.openai_batch import OpenAIBatch
+
+    out = {}
+    for cid, r in OpenAIBatch("meta_sol6").results().items():
+        lang = cid.split("-")[0]
+        try:
+            for u in json.loads(r["text"])["units"]:
+                out[(lang, u["uid"])] = u["text"]
+        except (TypeError, json.JSONDecodeError):
+            pass
+    return out
+
+
+def judge_sol6_submit() -> dict:
+    """A/B: Sonnet 5 vs gpt-6-sol, blind."""
+    units = {u["uid"]: u for u in json.loads((OUT / "meta_sample.json").read_text())}
+    s, o = results("sonnet"), sol6_results()
+    rng = random.Random(11)
+    reqs, keymap = [], {}
+    for lang in LANGS:
+        items = []
+        for uid, u in units.items():
+            a, b = s.get((lang, uid)), o.get((lang, uid))
+            if not a or not b:
+                continue
+            flip = rng.random() < 0.5
+            keymap[f"{lang}|{uid}"] = "sol6" if flip else "sonnet"
+            items.append({"uid": uid, "source": u["text"], "A": b if flip else a, "B": a if flip else b})
+        for i in range(0, len(items), 40):
+            reqs.append({"custom_id": f"{lang}-{i // 40:02d}", "params": {
+                "model": "claude-opus-5-5", "max_tokens": 32000,
+                "system": [{"type": "text", "text": JUDGE, "cache_control": {"type": "ephemeral"}}],
+                "messages": [{"role": "user", "content": f"Target: {LANG_NAMES[lang]}\n" + json.dumps(items[i: i + 40], ensure_ascii=False)}],
+                "output_config": {"effort": "medium", "format": {"type": "json_schema", "schema": JSCHEMA}}}})
+    (OUT / "meta_judge_sol6_map.json").write_text(json.dumps(keymap))
+    return {"requests": len(reqs), "batches": BatchJob("meta_judge_sol6").submit(reqs, budget_usd=5.0, est_usd=None)}
+
+
+def report_sol6() -> dict:
+    from collections import defaultdict
+
+    keymap = json.loads((OUT / "meta_judge_sol6_map.json").read_text())
+    sc = defaultdict(lambda: defaultdict(list))
+    for cid, res in BatchJob("meta_judge_sol6").results():
+        t = message_text(res)
+        lang = cid.split("-")[0]
+        if not t:
+            continue
+        for u in json.loads(t)["units"]:
+            a_is = keymap.get(f"{lang}|{u['uid']}")
+            if not a_is:
+                continue
+            b_is = "sonnet" if a_is == "sol6" else "sol6"
+            sc[(lang, a_is)]["acc"].append(u["A_acc"]); sc[(lang, a_is)]["nat"].append(u["A_nat"])
+            sc[(lang, b_is)]["acc"].append(u["B_acc"]); sc[(lang, b_is)]["nat"].append(u["B_nat"])
+    from elucidario.llm.openai_batch import OpenAIBatch
+    rep = {"scores": {f"{l}:{m}": {k: round(sum(v) / len(v), 2) for k, v in d.items()} for (l, m), d in sorted(sc.items())},
+           "usd": {"sol6": OpenAIBatch("meta_sol6").state.get("usd"), "judge": round(BatchJob("meta_judge_sol6").spent(), 2)}}
+    (OUT / "meta_sol6_report.json").write_text(json.dumps(rep, indent=1))
+    return rep

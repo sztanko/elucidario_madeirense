@@ -1,14 +1,18 @@
-# Model choice per content type and language (owner decision 2026-09-27; see docs/translation_strategy.md)
-defaults:
-  article_body: {model: claude-opus-5-5, effort: low}
-  metadata: {model: claude-sonnet-5, thinking: disabled}
-overrides:
-  hu:
-    metadata: {model: claude-opus-5-5, effort: low}
+# Model choice per content type and language (owner decisions 2026-09-27; evidence: docs/translation_strategy.md)
+article_body:
+  en: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  de: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  fr: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  it: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  nl: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  ru: {provider: openai, model: gpt-5.6-sol, effort: low}
+  uk: {provider: openai, model: gpt-5.6-sol, effort: low}
+  hu: {provider: openai, model: gpt-6-sol, effort: low}
+metadata:
+  default: {provider: openai, model: gpt-6-sol, effort: low}   # all languages incl. hu and pt
 languages: [en, de, fr, it, hu, nl, uk, ru]
-metadata_extra_targets: [pt]   # en-sourced metadata is also translated into Portuguese
+metadata_extra_targets: [pt]
 batch:
-  api: message_batches
-  warm_cache: true             # one synchronous request per shared system prompt before each batch
-  cache_ttl: 1h
+  anthropic: {api: message_batches, warm_cache: true, cache_ttl: 1h}
+  openai: {api: batches, endpoint: /v1/responses}   # prefix caching is automatic
 budget_gbp_per_language: 70

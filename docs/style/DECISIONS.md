@@ -8,6 +8,6 @@
 | Other Cyrillic conventions | **Pending owner review** of docs/transcription_ru.md and docs/transcription_uk.md. The ru/uk name tables are not generated until then. |
 | Taxonomy | v1 approved (see kb/taxonomy.yaml). |
 | Orthography of the Portuguese master | 1921/1940 spelling kept; only OCR/typesetting errors fixed. |
-| Translation models | Article bodies: Opus 5.5 at low effort, all languages. Metadata: Sonnet 5, all languages except Hungarian, which uses Opus 5.5 low. Configuration: kb/translation_config.yaml. Decided 2026-09-27. |
+| Translation models | Superseded after the OpenAI Sol benchmark (2026-09-27). Article bodies: Opus 5.5 low for en, de, fr, it, nl; gpt-5.6-sol for ru and uk; gpt-6-sol for hu. Metadata: gpt-6-sol for all languages (including hu and pt). Configuration: kb/translation_config.yaml. |
 | Ukrainian Marian titles | "Матір Божа …" for Latin-rite devotional titles; "… Пресвятої Богородиці" for feasts and mysteries; "Богородиця …" only for established Eastern icon names. Owner corrections: Boa Morte → Успіння Пресвятої Богородиці; Livramento → Богородиця Визволителька; Piedade → Матір Божа Скорботна. |
 | Cyrillic transcription standards, religious titles, historical figures, geocoding | Approved by the owner, 2026-09-27. |

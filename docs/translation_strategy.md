@@ -81,3 +81,31 @@ The judge was Opus 5.5 at high effort, blind and shuffled, comparing four candid
 | hu | gpt-6-sol |
 
 **Status:** pending the owner's decision.
+
+## Follow-up checks and final routing (owner decision 2026-09-27)
+- **Ukrainian, gpt-5.6-sol vs Opus low:** fidelity 4.33 vs 4.29; fluency 4.62 vs 4.29; terminology 4.07 vs 4.19; wins 19 vs 23. A tie, so gpt-5.6-sol is kept for Ukrainian to stay consistent with Russian. Judge: $0.52.
+- **Metadata, gpt-6-sol vs Sonnet 5:**
+  | | gpt-6-sol (acc / nat) | Sonnet 5 (acc / nat) |
+  |---|---|---|
+  | de | 4.92 / 4.92 | 4.87 / 4.59 |
+  | hu | 4.92 / 4.85 | 4.76 / 4.38 |
+  | ru | 4.88 / 4.85 | 4.72 / 4.43 |
+
+  gpt-6-sol cost $0.40 against Sonnet's $0.66. It is also level with Opus low's metadata scores.
+
+**Final routing (kb/translation_config.yaml):**
+| Content | Languages | Model |
+|---|---|---|
+| Article bodies | en, de, fr, it, nl | Opus 5.5 low |
+| Article bodies | ru, uk | gpt-5.6-sol |
+| Article bodies | hu | gpt-6-sol |
+| Metadata | all | gpt-6-sol |
+
+**Estimated cost per language:**
+| Languages | Estimate |
+|---|---|
+| en, de, fr, it, nl | ≈ £47–56 |
+| ru, uk | ≈ £52–56 |
+| hu | ≈ £26–29 |
+
+**All eight languages together: ≈ £390–440.**
