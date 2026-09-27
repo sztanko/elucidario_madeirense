@@ -38,3 +38,18 @@ The prompt cache must be warmed before each batch. Unwarmed parallel batch reque
 - **Estimated total per language: £53–64** (£1 ≈ $1.33). This is within the £70 ceiling; Russian and Ukrainian sit at the upper end.
 - **Savings still available:** return only names that are missing from the supplied name table (output about −10%), and use larger chunks.
 - **Auto-QA:** every chunk that fails a check (missing block, number, termbase term, script, length ratio) is re-queued automatically on Opus low.
+
+## Metadata mini-pilot (296 English units: abstracts, chapter titles and summaries, person/place pages and notes, events → de, hu, ru)
+Blind A/B judging by Opus 5.5.
+
+| | Sonnet 5 (accuracy / naturalness) | Opus 5.5 low (accuracy / naturalness) |
+|---|---|---|
+| de | 4.84 / 4.66 | 4.90 / 4.85 |
+| hu | 4.73 / 4.41 | 4.95 / 4.84 |
+| ru | 4.76 / 4.50 | 4.87 / 4.80 |
+
+Cost ratio Opus low : Sonnet = 3.5 : 1 (pilot: $2.29 vs $0.66).
+
+**Decision:** Sonnet 5 for metadata. Its accuracy is within 0.1–0.2 of Opus. The gap is mostly naturalness, and it is largest in Hungarian, so Hungarian metadata may use Opus low (about +£11). Remaining errors are minor: an idiom here and there, the work's title rendered "Elucidárium", and quotation-mark style. These are addressed in the language guides.
+
+**Final estimate per language: about £53–64** (Hungarian with Opus metadata: about £64–75).
