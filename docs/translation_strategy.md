@@ -123,3 +123,8 @@ The judge was Opus 5.5 at high effort, blind and shuffled, comparing four candid
 - **At high effort it matches gpt-5.6-sol:** it reaches that quality at about the same cost, so there is no price advantage.
 - **Judge noise:** about ±0.15–0.2 between runs. Opus low scored de 4.50 in one run and 4.31 in another on identical translations.
 - **Routing unchanged:** gpt-5.6-sol for ru and uk; gpt-6-sol low for hu and all metadata; Opus low for en, de, fr, it and nl.
+
+## Operational notes (en/uk/hu run, 2026-09-27)
+- **Cache warm-up is not a guarantee.** Both chronology batches were warmed. The Hungarian batch then read the cache for every request. The Ukrainian batch still re-wrote the prompt for about 80 of its 136 requests (2.2M write tokens, about $9 extra). Budget guards should assume some cache misses.
+- **The chronology was translated with Opus 5.5 low instead of gpt-6-sol,** because the OpenAI account had no credits: uk $14.27, hu $5.48.
+- **Per-language budget guard for the next languages:** a single cap in GBP per language (from kb/translation_config.yaml), counting all runs, retries and fixes already spent on that language.
