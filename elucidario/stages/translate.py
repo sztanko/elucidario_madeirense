@@ -327,11 +327,13 @@ JUDGE_SCHEMA = {"type": "object", "properties": {
 
 
 def judge_submit(budget_usd: float = 15.0, judge_model: str = "claude-fable-5-1", job: str = "translate_judge", effort: str = "medium",
-                 configs: list[str] | None = None, map_name: str = "judge_map.json") -> dict:
+                 configs: list[str] | None = None, map_name: str = "judge_map.json", langs: list[str] | None = None) -> dict:
     import random
 
     configs = configs or list(CONFIGS)
     runs = {name: json.loads((OUT / f"{name}_results.json").read_text()) for name in configs}
+    if langs:
+        runs = {n: {c: r for c, r in res.items() if r["lang"] in langs} for n, res in runs.items()}
     metas = {name: json.loads((OUT / f"{name}_meta.json").read_text()) for name in configs}
     # align chunks across configs by (article, lang, part)
     keyed = {}
@@ -392,7 +394,7 @@ def judge_report(job: str = "translate_judge", map_name: str = "judge_map.json",
     costs = {name: round(BatchJob(f"translate_{name}").spent(), 2) for name in CONFIGS}
     try:
         from elucidario.llm.openai_batch import OpenAIBatch
-        costs |= {n: OpenAIBatch(f"translate_{n}").state.get("usd") for n in SOL_CONFIGS}
+        costs |= {n: OpenAIBatch(f"translate_{n}").state.get("usd") for n in list(SOL_CONFIGS) + ["sol6_med", "sol6_high"]}
     except Exception:
         pass
     out = {"scores": table, "wins": {l: dict(c) for l, c in wins.items()}, "pilot_usd": costs,
@@ -406,13 +408,13 @@ def judge_report(job: str = "translate_judge", map_name: str = "judge_map.json",
 SOL_CONFIGS = {"sol56": ("gpt-5.6-sol", "low"), "sol6": ("gpt-6-sol", "low")}
 
 
-def sol_submit() -> dict:
+def sol_submit(configs: dict | None = None, langs: list[str] | None = None) -> dict:
     from elucidario.llm.openai_batch import OpenAIBatch, to_openai
 
     arts = json.loads((DATA / "08_tu" / "pilot_articles.json").read_text())
     out = {}
-    for name, (model, effort) in SOL_CONFIGS.items():
-        reqs = pilot_requests(arts, PILOT_LANGS, model, effort, name)  # same packages/prompts; writes <name>_meta.json
+    for name, (model, effort) in (configs or SOL_CONFIGS).items():
+        reqs = pilot_requests(arts, langs or PILOT_LANGS, model, effort, name)  # same packages/prompts; writes <name>_meta.json
         ob = OpenAIBatch(f"translate_{name}")
         ob.state["model"] = model
         out[name] = ob.submit([{"custom_id": r["custom_id"], "body": to_openai(r["params"], effort)} for r in reqs])

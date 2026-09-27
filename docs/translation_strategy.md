@@ -109,3 +109,17 @@ The judge was Opus 5.5 at high effort, blind and shuffled, comparing four candid
 | hu | ≈ £26–29 |
 
 **All eight languages together: ≈ £390–440.**
+
+## gpt-6-sol reasoning-effort test (de + ru, 42 chunks each; judged against Opus low and gpt-5.6-sol)
+| Setting | Fidelity de / ru | Reasoning tokens | Cost |
+|---|---|---|---|
+| gpt-6-sol low | 4.07 / 4.19 (earlier run) | 5k | about $0.65 |
+| gpt-6-sol medium | 4.19 / 4.17 | 50k | $1.00 |
+| gpt-6-sol high | 4.29 / 4.43 | 176k | $1.64 |
+| gpt-5.6-sol low | 4.33 / 4.45 | about 30k | about $1.68 |
+| Opus 5.5 low | 4.31 / 4.10 | – | about $1.9 |
+
+- **Why gpt-6-sol trailed at low effort:** it reasons very little at that setting (7% of output, against 28% for gpt-5.6-sol).
+- **At high effort it matches gpt-5.6-sol:** it reaches that quality at about the same cost, so there is no price advantage.
+- **Judge noise:** about ±0.15–0.2 between runs. Opus low scored de 4.50 in one run and 4.31 in another on identical translations.
+- **Routing unchanged:** gpt-5.6-sol for ru and uk; gpt-6-sol low for hu and all metadata; Opus low for en, de, fr, it and nl.
