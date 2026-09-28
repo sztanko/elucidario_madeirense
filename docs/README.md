@@ -3,6 +3,11 @@
 These documents describe how the modern multilingual edition was built. They are kept for publication on the website as
 technical notes. Machine-readable reference tables live in `kb/`.
 
+## Start here
+| Document | Contents |
+|---|---|
+| [HANDOVER.md](HANDOVER.md) | Complete handover: pipeline, decisions, results, mistakes and lessons, and a step-by-step guide to translating into any new language |
+
 ## Translation standards
 | Document | Contents |
 |---|---|
