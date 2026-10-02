@@ -1,0 +1,5 @@
+---
+// PLACEHOLDER (search agent replaces). Props contract: lang, variant?: 'header' | 'hero'.
+const { lang, variant = 'header' } = Astro.props;
+---
+<form class={`em-search em-search--${variant}`} action={`/${lang}/search/`} role="search"><input name="q" type="search" /></form>

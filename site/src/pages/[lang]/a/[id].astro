@@ -1,0 +1,14 @@
+---
+// PLACEHOLDER article page (design agent owns and replaces). Data contract: site/DATA_CONTRACT.md
+import Base from '../../../layouts/Base.astro';
+import { articles, languages } from '../../../lib/data';
+export function getStaticPaths() {
+  return languages().flatMap((lang) => Object.keys(articles(lang)).map((id) => ({ params: { lang, id } })));
+}
+const { lang, id } = Astro.params as { lang: string; id: string };
+const a = articles(lang)[id];
+---
+<Base lang={lang} title={`${a.hw} — Elucidário Madeirense`} description={a.abs ?? ''} kind="article" planeId={a.id}>
+  <h1>{a.hw}</h1>
+  {a.bl.map((b) => <p>{b.x}</p>)}
+</Base>

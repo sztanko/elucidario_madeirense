@@ -1,0 +1,48 @@
+---
+// Base layout. Owner: design agent (visuals), but the PROPS and SLOTS below are a contract other agents rely on.
+import { languages } from '../lib/data';
+import { switchLang } from '../lib/urls';
+import { htmlLang } from '../i18n/ui';
+import Header from '../components/chrome/Header.astro';
+import Plane from '../components/motion/Plane.astro';
+import '../styles/tokens.css';
+import '../styles/base.css';
+interface Props {
+  lang: string;            // page language ('en' for /about)
+  title: string;
+  description?: string;
+  /** set false for English-only pages (about) */
+  multilingual?: boolean;
+  /** JSON-LD objects */
+  jsonld?: object[];
+  /** body class / page kind, used by motion and styles: home | article | entity | index | about | search */
+  kind?: string;
+  /** stable id for the plane-of-articles motion (article id), if any */
+  planeId?: string;
+}
+const { lang, title, description = '', multilingual = true, jsonld = [], kind = 'page', planeId } = Astro.props;
+const langs = languages();
+const path = Astro.url.pathname;
+const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+---
+<!doctype html>
+<html lang={htmlLang(lang)} data-kind={kind}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+    <link rel="canonical" href={site + path} />
+    {multilingual && langs.map((l) => <link rel="alternate" hreflang={htmlLang(l)} href={site + switchLang(path, l, langs)} />)}
+    {multilingual && <link rel="alternate" hreflang="x-default" href={site + switchLang(path, 'pt', langs)} />}
+    <meta property="og:title" content={title} />
+    {description && <meta property="og:description" content={description} />}
+    {jsonld.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
+    <slot name="head" />
+  </head>
+  <body data-plane-id={planeId}>
+    <Header lang={lang} multilingual={multilingual} />
+    <main id="main"><slot /></main>
+    <Plane />
+  </body>
+</html>

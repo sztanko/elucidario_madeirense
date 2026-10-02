@@ -1,0 +1,11 @@
+---
+// PLACEHOLDER (cartography agent replaces).
+// Props contract:
+//   lang: string
+//   mode: 'article' | 'place' | 'overview' | 'continent'
+//   places: { id: string; label: string; role?: 'subject' | 'mention' }[]   (slugs from geo.json)
+//   region?: 'Madeira' | 'Porto Santo' | 'Desertas' | 'Selvagens' | 'Europe' | 'Africa' | ... (auto-chosen from places if omitted)
+//   height?: string
+const { places = [] } = Astro.props;
+---
+<div class="em-map-placeholder" data-count={places.length}></div>

@@ -1,0 +1,14 @@
+---
+// PLACEHOLDER (design agent replaces). Props contract: lang, multilingual.
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+import { languages } from '../../lib/data';
+import SearchBox from '../search/SearchBox.astro';
+const { lang, multilingual = true } = Astro.props;
+---
+<header class="em-header">
+  <a href={u.home(multilingual ? lang : 'pt')}>EM</a>
+  <nav><a href={u.indexLetter(lang)}>{t(lang, 'index')}</a> <a href={u.placesPage(lang)}>{t(lang, 'places')}</a> <a href={u.peoplePage(lang)}>{t(lang, 'people')}</a> <a href={u.chronologyPage(lang)}>{t(lang, 'chronology')}</a> <a href={u.about()}>{t(lang, 'about')}</a></nav>
+  <SearchBox lang={lang} />
+  {multilingual && languages().map((l) => <a href={u.switchLang(Astro.url.pathname, l, languages())}>{l.toUpperCase()}</a>)}
+</header>
