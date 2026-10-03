@@ -120,7 +120,7 @@ const municipalities = [...new Set(idx.places.map((p) => p[4]).filter(Boolean))]
     if (root) initSearchPage(root);
   </script>
 
-  <style>
+  <style is:global>
     .em-adv { max-width: var(--page-max); margin-inline: auto; padding: var(--s-6) var(--gutter); }
     .em-adv__title {
       font-family: var(--font-display); font-weight: var(--w-display); text-transform: uppercase;

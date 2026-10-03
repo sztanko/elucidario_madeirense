@@ -102,6 +102,8 @@ const R = related(lang, a);
 const hasRelated = Object.values(R).some((x) => x.length > 0);
 const tocItems = chapters.map((s) => ({ id: s.id, n: s.n, t: s.ch!.t, ml: s.ch!.ml }));
 const ogTop = new Set(featured().top100);
+// One chapter only: its summary would repeat the article abstract, so show neither the margin note nor a lone "1 ·".
+const single = a.ch.length === 1;
 ---
 <Base lang={lang} title={`${a.hw} — ${t(lang, 'site')}`} description={desc} kind="article" planeId={a.id} jsonld={jsonld} image={ogTop.has(a.id) ? `${u.BASE}/og/${lang}/${a.id}.png` : undefined}>
   <Fragment slot="head">
@@ -135,12 +137,12 @@ const ogTop = new Set(featured().top100);
             {secs.map((s) => (
               <section class:list={['ea-sec', { 'ea-sec--ch': !!s.ch }]} id={s.ch ? s.id : undefined} data-ea-section={s.ch ? '' : undefined} aria-labelledby={s.ch ? `${s.id}-h` : undefined}>
                 {s.ch && (
-                  <SectionHead n={s.n} title={s.ch.t} id={`${s.id}-h`} lang={ml(s.ch.ml)} class="ea-sec__head">
+                  <SectionHead n={single ? undefined : s.n} title={s.ch.t} id={`${s.id}-h`} lang={ml(s.ch.ml)} class="ea-sec__head">
                     {ml(s.ch.ml) && <Fragment set:html={mark(s.ch.ml)} />}
                   </SectionHead>
                 )}
-                <div class:list={['ea-sec__grid', { 'has-note': !!s.ch?.s }]}>
-                  {s.ch?.s && (
+                <div class:list={['ea-sec__grid', { 'has-note': !single && !!s.ch?.s }]}>
+                  {!single && s.ch?.s && (
                     <aside class="ea-note" aria-label={t(lang, 'summary')}>
                       <div class="ea-note__in">
                         <span class="ea-note__k em-label" aria-hidden="true">{t(lang, 'summary')}</span>

@@ -5,7 +5,7 @@
 The whole encyclopedia is one printed sheet: every article is a small block on it, laid out alphabetically by letter. When you
 follow a link to an article, the page you leave shrinks into its block (01 · LER). The camera rises over the sheet and pans
 along a vermilion route (02 · ORIENTAR), then dives into the target block until it is the new page (03 · CHEGAR).
-The flight lasts 640–900 ms. It never delays navigation, and you can interrupt it.
+The flight lasts 1.25–1.8 s (doubled from 640–900 ms at the owner's request). It never delays navigation, and you can interrupt it.
 
 ## How it works
 
@@ -34,8 +34,8 @@ the live `#em-fly` canvas group. All the CSS is in `Plane.astro`.
 
 | Situation | Behaviour |
 |---|---|
-| article → article (both on the sheet) | **fly**: take off, pan, then dive (660–900 ms by path length) |
-| any page (home, search, index, person, place…) → article | **dive**: the old page recedes while the camera dives into the target (640 ms) |
+| article → article (both on the sheet) | **fly**: take off, pan, then dive (1.3–1.8 s by path length) |
+| any page (home, search, index, person, place…) → article | **dive**: the old page recedes while the camera dives into the target (1.25 s) |
 | leaving Orientar → article | **cam**: starts from the Orientar camera (seamless) |
 | → non-article page, language switch (same article), reload | browser cross-fade, 200 ms |
 | `prefers-reduced-motion: reduce` | no view transition at all (instant), and the engine is never loaded |

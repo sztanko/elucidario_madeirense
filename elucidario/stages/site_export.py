@@ -47,6 +47,10 @@ def slug(eid: str) -> str:
     return eid.split(":", 1)[1] if ":" in eid else eid
 
 
+def plain_meta(s: str | None) -> str | None:
+    return re.sub(r"\*([^*\n]+)\*", r"\1", s) if s else s
+
+
 def _slugify(s: str | None) -> str:
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
     return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
@@ -244,10 +248,11 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
         meta_lang = "en"
 
     def mt(uid: str, en_text: str | None) -> tuple[str | None, str]:
-        """Metadata text in this language, else English source; returns (text, lang)."""
+        """Metadata text in this language, else English source; returns (text, lang).
+        Italic markers (*…*) are dropped: metadata is shown as plain text in cards, lists and entries."""
         if lang != "pt" and lang != "en" and uid in T:
-            return T[uid], lang
-        return en_text, "en"
+            return plain_meta(T[uid]), lang
+        return plain_meta(en_text), "en"
 
     def name(pt: str) -> str:
         if lang == "pt":
@@ -296,7 +301,7 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
     def headword(aid: str) -> str:
         if lang == "pt":
             return c.arts[aid]["headword"]
-        return T.get(f"art:{aid}:headword") or c.arts[aid]["headword"]
+        return plain_meta(T.get(f"art:{aid}:headword") or c.arts[aid]["headword"])
 
     articles = {}
     pos = {aid: i for i, aid in enumerate(c.order)}

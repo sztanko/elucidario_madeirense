@@ -123,7 +123,8 @@ export async function fly(F: Fly) {
       if (peak < Z * Math.max(A.w, B.w)) lift = (Z * Math.max(A.w, B.w)) / peak - 1;
     }
     const Sx = Math.abs(path.S) + Math.log(1 + lift) * 1.4;
-    const D = mode === 'dive' ? 640 : Math.round(clamp(600 + 48 * Sx, 660, 900));
+    // Owner asked for a calmer flight (2026-10-03): about twice the original 640 / 660–900 ms.
+    const D = mode === 'dive' ? 1250 : Math.round(clamp(1200 + 96 * Sx, 1300, 1800));
     const camAt = (t: number): Cam => {
       const u = ease(t), c = path.at(u);
       if (lift) { const b = Math.sin(Math.PI * u); c.w *= 1 + lift * b * b; }

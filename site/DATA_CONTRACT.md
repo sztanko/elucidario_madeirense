@@ -43,7 +43,7 @@ Keyed by place slug (place id without the `place:` prefix):
 | `types` | Taxonomy codes, primary first (labels in `<lang>/index.json` → `tax`) |
 | `size` | fragment (< 600 chars), standard, or long (> 6000) |
 | `chars` | Length |
-| `abs` | Abstract, 1–2 sentences (`ml` if not in this language) |
+| `abs` | Abstract of the whole article, 1–3 sentences (`ml` if not in this language). Long articles enriched in parts get a whole-article abstract from `elucidario/stages/whole_abstracts.py` |
 | `ch` | Chapters `[{t: title, s: summary, a: first block id, b: last block id, ml?}]`; empty for short entries |
 | `bl` | Body blocks, see below |
 | `pers` | Persons mentioned `[{id, n: display name, d: [birth, death], note, b: [block ids], ml?}]`, most mentioned first |
@@ -61,7 +61,7 @@ Keyed by place slug (place id without the `place:` prefix):
 
 **Block** (`bl[]`): `{id: "b000", t: type, x: text, lv?: heading level, ln?: verse lines (pt), tb?: table, un?: ["(1921)"], xl?: "pt"}`.
 - `t` is one of paragraph, heading, quote, verse, list_item, table, bibliography, xref.
-- Inline markup in `x`: `*italic*` only.
+- Inline markup in `x`: `*italic*` only. Metadata texts (headwords, abstracts, summaries, notes, events) are plain text with no markup.
 - `xl: "pt"` means the block was not translated and shows the Portuguese original.
 - Table `tb`: `{cap, cols: [Portuguese column names], kinds: [year|count|weight|money_reis|…], rows: [[verbatim cells]], tr?: [[translated cells incl. header row]]}`.
   - When `tr` exists (translations), render it; its first row is the header.

@@ -3,6 +3,7 @@
  * Timeline: horizontal chronology strip for the events cited in an article (`ev`).
  * Axis with proportional brass dots (major = larger, vermilion ring), then a horizontally
  * scrolling row of event cards (year in condensed numerals, summary), each linking to the year page.
+ * Dots are buttons: click scrolls the card row to that event; scrolling the row highlights the current dot + card.
  * Props: lang, events: EventRef[]
  */
 import type { EventRef } from '../../lib/data';
@@ -29,16 +30,16 @@ const anyMl = ev.some((e) => ml(e.ml));
 ---
 {ev.length > 0 && (
   <div class="ea-tl" lang={anyMl ? 'en' : undefined}>
-    <div class="ea-tl__axis" aria-hidden="true">
-      <span class="ea-tl__end ea-tl__end--a">{min}</span>
-      <span class="ea-tl__line"></span>
-      {ticks.map((y) => <span class="ea-tl__tick" style={`left:${x(y)}%`}><span>{y}</span></span>)}
-      {ev.map((e) => <span class:list={['ea-tl__dot', { major: e.sig === 'm' }]} style={`left:${x(e.y)}%`}></span>)}
-      <span class="ea-tl__end ea-tl__end--b">{max}</span>
+    <div class="ea-tl__axis">
+      <span class="ea-tl__end ea-tl__end--a" aria-hidden="true">{min}</span>
+      <span class="ea-tl__line" aria-hidden="true"></span>
+      {ticks.map((y) => <span class="ea-tl__tick" style={`left:${x(y)}%`} aria-hidden="true"><span>{y}</span></span>)}
+      {ev.map((e, i) => <button type="button" class:list={['ea-tl__dot', { major: e.sig === 'm' }]} style={`left:${x(e.y)}%`} data-i={i} aria-label={fmtEdtf(e.s0, e.s1, lang)}></button>)}
+      <span class="ea-tl__end ea-tl__end--b" aria-hidden="true">{max}</span>
     </div>
     <ol class="ea-tl__list" role="list" tabindex="0" aria-label={t(lang, 'dates_mentioned')}>
-      {ev.map((e) => (
-        <li class:list={['ea-tl__ev', { major: e.sig === 'm' }]}>
+      {ev.map((e, i) => (
+        <li class:list={['ea-tl__ev', { major: e.sig === 'm' }]} data-i={i}>
           <a href={u.year(lang, e.y)} class="ea-tl__y" aria-label={fmtEdtf(e.s0, e.s1, lang)}><time datetime={isoOf(e.s0) ?? undefined}>{e.y}</time></a>
           {fmtEdtf(e.s0, e.s1, lang) !== String(e.y) && <span class="ea-tl__full" aria-hidden="true">{fmtEdtf(e.s0, e.s1, lang)}</span>}
           <p class="ea-tl__sum" lang={ml(e.ml)} set:html={inline(e.sum)} />
@@ -47,3 +48,66 @@ const anyMl = ev.some((e) => ml(e.ml));
     </ol>
   </div>
 )}
+<script>
+  // Dot ↔ card sync: clicking a dot scrolls the card row to that event; scrolling the row marks the
+  // first fully visible card (and its dot) as current.
+  const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  for (const tl of document.querySelectorAll<HTMLElement>('.ea-tl')) {
+    const list = tl.querySelector<HTMLElement>('.ea-tl__list');
+    if (!list) continue;
+    const dots = [...tl.querySelectorAll<HTMLElement>('.ea-tl__dot')];
+    const cards = [...list.querySelectorAll<HTMLElement>('.ea-tl__ev')];
+    let cur = -1;
+    const mark = (i: number) => {
+      if (i === cur) return;
+      dots[cur]?.classList.remove('is-current'); cards[cur]?.classList.remove('is-current');
+      dots[cur]?.removeAttribute('aria-current');
+      cur = i;
+      dots[i]?.classList.add('is-current'); cards[i]?.classList.add('is-current');
+      dots[i]?.setAttribute('aria-current', 'true');
+    };
+    const current = () => {
+      const left = list.getBoundingClientRect().left;
+      let best = 0;
+      for (let i = 0; i < cards.length; i++) {
+        if (cards[i].getBoundingClientRect().left >= left - 4) { best = i; break; }
+        best = i;
+      }
+      // At the end of the row the last cards can never reach the left edge: pick the last one.
+      if (list.scrollLeft + list.clientWidth >= list.scrollWidth - 4 && lastClicked === null) best = cards.length - 1;
+      return best;
+    };
+    let lastClicked: number | null = null;
+    let raf = 0;
+    list.addEventListener('scroll', () => {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => mark(lastClicked ?? current()));
+    }, { passive: true });
+    list.addEventListener('scrollend', () => { lastClicked = null; });
+    list.addEventListener('pointerdown', () => { lastClicked = null; });
+    list.addEventListener('wheel', () => { lastClicked = null; }, { passive: true });
+    list.addEventListener('focusin', (e) => {
+      const li = (e.target as Element).closest<HTMLElement>('.ea-tl__ev');
+      if (li) mark(+li.dataset.i!);
+    });
+    tl.querySelector('.ea-tl__axis')?.addEventListener('click', (e) => {
+      const hit = (e.target as Element).closest<HTMLElement>('.ea-tl__dot');
+      if (!hit) return;
+      // Close years overlap on narrow screens: take the dot nearest the pointer, not the one on top.
+      let i = +hit.dataset.i!;
+      if (e.detail > 0) {
+        let d = Infinity;
+        for (const dot of dots) {
+          const r = dot.getBoundingClientRect(), dd = Math.abs(r.left + r.width / 2 - e.clientX);
+          if (dd < d) { d = dd; i = +dot.dataset.i!; }
+        }
+      }
+      lastClicked = i;
+      mark(i);
+      const card = cards[i];
+      list.scrollTo({ left: card.offsetLeft - cards[0].offsetLeft, behavior: reduce ? 'auto' : 'smooth' });
+      if (list.scrollWidth <= list.clientWidth) lastClicked = null;
+    });
+    mark(current());
+  }
+</script>

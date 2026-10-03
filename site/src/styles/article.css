@@ -313,6 +313,14 @@ html:has(.ea--toc) { scroll-padding-top: calc(var(--header-h) + 4rem); }
   border-radius: 50%; background: var(--date); mix-blend-mode: multiply;
 }
 .ea-tl__dot.major { --dot: .95rem; background: var(--date); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--ink); mix-blend-mode: normal; z-index: 1; }
+/* Dots are buttons (click → scroll the card row); the current one turns vermilion. */
+.ea-tl__dot { padding: 0; border: 0; cursor: pointer; font: inherit; transition: transform var(--dur-2, .2s) var(--ease, ease), background-color var(--dur-2, .2s); }
+.ea-tl__dot::before { content: ''; position: absolute; inset: -.6rem; }
+.ea-tl__dot:hover { transform: scale(1.35); }
+.ea-tl__dot:focus-visible { outline: 2px solid var(--person); outline-offset: 3px; }
+.ea-tl__dot.is-current { background: var(--person); mix-blend-mode: normal; z-index: 2; transform: scale(1.35); box-shadow: 0 0 0 2px var(--paper), 0 0 0 3px var(--person); }
+.ea-tl__ev.is-current { border-left: 3px solid var(--person); padding-left: calc(.8rem - 2px); }
+.ea-tl__ev.is-current .ea-tl__y { color: var(--person-ink); }
 .ea-tl__list {
   display: grid; grid-auto-flow: column; grid-auto-columns: minmax(12rem, 15rem); gap: 0;
   margin: 0; padding: 0 0 1rem; overflow-x: auto; overscroll-behavior-x: contain; scroll-snap-type: x proximity; scrollbar-width: thin;

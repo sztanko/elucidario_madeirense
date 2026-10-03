@@ -11,10 +11,11 @@ const href = y ? u.year(lang, y) : undefined;
   <span class="em-event-sum">{sum}{ml && <span class="em-ml" title="English metadata">EN</span>}</span>
 </li>
 <style>
-  .em-event { display: grid; grid-template-columns: 6.5em 1fr; gap: .6em; padding: .35rem 0; border-bottom: 1px solid color-mix(in srgb, var(--date) 20%, transparent); align-items: baseline; }
+  .em-event { display: grid; grid-template-columns: 7.5em minmax(0, 1fr); gap: .2em .9em; padding: .35rem 0; border-bottom: 1px solid color-mix(in srgb, var(--date) 20%, transparent); align-items: baseline; }
   .em-event[data-sig='m'] .em-event-date { color: var(--date); font-weight: 700; }
   .em-event[data-sig='m'] .em-event-sum { font-weight: 600; }
-  .em-event-date { font-variant-numeric: tabular-nums; font-size: .85rem; white-space: nowrap; }
+  .em-event-date { font-variant-numeric: tabular-nums; font-size: .85rem; line-height: 1.3; min-width: 0; overflow-wrap: anywhere; }
+  @media (max-width: 34rem) { .em-event { grid-template-columns: minmax(0, 1fr); } }
   .em-event-date a { color: inherit; text-decoration: none; border-bottom: 1px dotted currentColor; }
   .em-event-sum { font-size: .92rem; line-height: 1.35; }
   .em-ml { font-size: .6rem; border: 1px solid currentColor; border-radius: 2px; padding: 0 .25em; margin-left: .4em; opacity: .6; }
