@@ -236,3 +236,20 @@ main > .em-breadcrumbs { padding-top: var(--s-4); }
 
 /* Search highlights: brass wash, not browser yellow (integration). */
 mark { background: color-mix(in srgb, var(--date) 32%, transparent); color: inherit; padding: 0 .05em; }
+
+/* Horizontal scrollers ([data-hscroll], see components/ui/hscroll.ts): a small arrow bar under the row (never over
+   the text), with a first-visit swipe cue and nudge on the next arrow. */
+.em-hs__bar { display: none; justify-content: flex-end; align-items: center; gap: .5rem; margin-top: .5rem; }
+.em-hs.is-overflow .em-hs__bar { display: flex; }
+.em-hs__btn { display: grid; place-items: center; width: 2.6rem; height: 2.6rem; border: 1px solid var(--ink); border-radius: 50%; background: var(--paper-light); color: var(--ink); font: 800 1.15rem/1 var(--font-display); cursor: pointer; transition: opacity var(--dur-2, .2s), background-color var(--dur-2, .2s), color var(--dur-2, .2s); }
+.em-hs__btn:hover { background: var(--ink); color: var(--paper-light); }
+.em-hs__btn:focus-visible { outline: 2px solid var(--person); outline-offset: 3px; }
+.em-hs.at-start .em-hs__btn--prev, .em-hs.at-end .em-hs__btn--next { opacity: .25; pointer-events: none; }
+.em-hs__cue { display: none; margin-right: .25rem; font: 700 var(--fs-micro)/1 var(--font-label); letter-spacing: var(--tracking-label, .22em); text-transform: uppercase; color: var(--person-ink); }
+.em-hs.is-cue.is-overflow:not(.at-end) .em-hs__cue { display: inline; }
+.em-hs.is-cue .em-hs__btn--next { background: var(--person); border-color: var(--person); color: var(--paper-light); }
+@media (prefers-reduced-motion: no-preference) {
+  .em-hs.is-cue .em-hs__btn--next { animation: em-hs-nudge 1.3s var(--ease, ease) infinite; }
+  @keyframes em-hs-nudge { 0%, 100% { translate: 0 0; } 50% { translate: .35rem 0; } }
+}
+@media print { .em-hs__bar { display: none !important; } }

@@ -38,6 +38,15 @@ def jl(p: Path):
     return [json.loads(l) for l in open(p)] if p.exists() else []
 
 
+CYRILLIC = {"uk", "ru"}
+# (lang, kind, Portuguese name) -> rendering, where the shared name table holds the other kind of entity.
+NAME_OVERRIDES = {
+    ("uk", "place", "São Lourenço"): "Сан-Лоуренсу",
+    ("uk", "place", "Vitória"): "Віторія",
+    ("uk", "place", "Carlos"): "Карлуш",
+    ("uk", "person", "São Vicente"): "святий Вікентій Сарагоський",
+}
+
 _SLUG: dict[str, str] = {}  # entity id -> public URL slug, where it differs from the id (places)
 
 
@@ -240,6 +249,8 @@ def importance(c: Corpus) -> dict[str, float]:
 def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
     T = c.tr(lang)
     N = c.names(lang)
+    # In-text links (data/12_links/<lang>.jsonl from links_plan / links_align); pt falls back to the KB link list.
+    LINKS = {r["article"]: r["links"] for r in jl(DATA / "12_links" / f"{lang}.jsonl")}
     meta_lang = lang  # language of metadata texts actually used (pt falls back to en)
     T_meta = T if lang != "pt" else c.tr("en") if False else {}
     if lang == "pt":
@@ -254,16 +265,26 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             return plain_meta(T[uid]), lang
         return plain_meta(en_text), "en"
 
-    def name(pt: str) -> str:
+    def entry(pt: str, kind: str | None) -> dict | None:
+        """Name-table entry for this kind of entity. The table is keyed by the Portuguese string alone, so a place
+        named after a saint or king (São Vicente, Vitória) would otherwise take the person's rendering ("St Vincent")."""
+        x = N.get(pt)
+        if (lang, kind, pt) in NAME_OVERRIDES:
+            return {"rendering": NAME_OVERRIDES[(lang, kind, pt)], "first": NAME_OVERRIDES[(lang, kind, pt)]}
+        if x and kind == "place" and x.get("type") == "person" and lang not in CYRILLIC:
+            return None  # Latin-script languages keep Portuguese place names
+        return x
+
+    def name(pt: str, kind: str | None = None) -> str:
         if lang == "pt":
             return pt
-        x = N.get(pt)
+        x = entry(pt, kind)
         return x["rendering"] if x and x.get("rendering") else pt
 
-    def first_name(pt: str) -> str:
+    def first_name(pt: str, kind: str | None = None) -> str:
         if lang == "pt":
             return pt
-        x = N.get(pt)
+        x = entry(pt, kind)
         return x.get("first") or x.get("rendering") or pt if x else pt
 
     tax_label = {}
@@ -354,7 +375,7 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             p = c.persons[pid]
             m = next(mm for mm in p["mentions"] if mm["article"] == aid)
             note, nl = mt(f"{pid}:note:{aid}:{m['block']}", m["note"])
-            pers.append({"id": slug(pid), "n": name(p["name"]), "d": [p.get("birth"), p.get("death")], "note": note,
+            pers.append({"id": slug(pid), "n": name(p["name"], "person"), "d": [p.get("birth"), p.get("death")], "note": note,
                          "b": sorted({mm["block"] for mm in p["mentions"] if mm["article"] == aid}),
                          **({"ml": nl} if nl != lang else {})})
         plc = []
@@ -366,10 +387,10 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             seen.add(pid)
             m = next((mm for mm in p["mentions"] if mm["article"] == aid), None)
             note, nl = mt(f"{pid}:note:{aid}:{m['block']}", m["note"]) if m else (None, lang)
-            plc.append({"id": slug(pid), "n": name(p["name"]), "note": note, **({"ml": nl} if nl != lang else {})})
+            plc.append({"id": slug(pid), "n": name(p["name"], "place"), "note": note, **({"ml": nl} if nl != lang else {})})
         for pid in c.place_main.get(aid, []):  # the subject place is always listed, first
             if pid not in seen:
-                plc.insert(0, {"id": slug(pid), "n": name(c.places[pid]["name"]), "note": None})
+                plc.insert(0, {"id": slug(pid), "n": name(c.places[pid]["name"], "place"), "note": None})
         primary = [slug(p) for p in c.place_main.get(aid, [])]
         evs = []
         for ev in sorted(art_events[aid], key=lambda ev: (year_of(ev["start"]) or 0, ev["start"])):
@@ -395,7 +416,25 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
                 if g.get("main") and g["main"] != aid and g.get("c") and g.get("isl") == geo[primary[0]].get("isl"):
                     cands.append((dist_km(here, g["c"]), g["main"]))
             nearby = list(dict.fromkeys(m for _, m in sorted(cands)[:12] if m in c.arts))[:8]
-        links_inline = [{"b": b, "p": ph, "to": t} for t, b, ph in out_links[aid]] if lang == "pt" else []
+        if LINKS:
+            links_inline = []
+            for l in LINKS.get(aid, []):
+                k, to = l["kind"], l["to"]
+                if k == "person":
+                    pp = c.persons.get(to)
+                    if not pp:
+                        continue
+                    links_inline.append({"b": l["block"], "p": l["phrase"], "k": "p", "to": slug(to), "n": name(pp["name"], "person")})
+                elif k == "place":
+                    if to not in c.places:
+                        continue
+                    links_inline.append({"b": l["block"], "p": l["phrase"], "k": "l", "to": slug(to), "n": name(c.places[to]["name"], "place")})
+                elif k == "year":
+                    links_inline.append({"b": l["block"], "p": l["phrase"], "k": "y", "to": to})
+                elif to in c.arts:
+                    links_inline.append({"b": l["block"], "p": l["phrase"], "k": "a", "to": to})
+        else:
+            links_inline = [{"b": b, "p": ph, "k": "a", "to": t} for t, b, ph in out_links[aid]] if lang == "pt" else []
         i = pos[aid]
         prev_id = c.order[i - 1] if i > 0 else None
         next_id = c.order[i + 1] if i + 1 < len(c.order) else None
@@ -405,7 +444,7 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             "abs": abstract, "ch": chapters, "bl": blocks, "pers": pers[:60], "plc": plc[:80], "prim": primary,
             "ev": evs[:80], "out": outs, "in": ins, "same": [x for x, _ in same_p.most_common(8)], "near": nearby,
             "par": a.get("parent_id"), "kids": a.get("children", []), "redir": a.get("redirect_to", []),
-            "prev": prev_id, "next": next_id, "ln": links_inline[:200],
+            "prev": prev_id, "next": next_id, "ln": links_inline[:400],
             "pm": [slug(p) for p in c.person_main.get(aid, [])],
         }
         if al != lang and abstract:
@@ -429,7 +468,7 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             note, nl = mt(f"{pid}:note:{m['article']}:{m['block']}", m["note"])
             mentions.append({"a": m["article"], "hw": headword(m["article"]), "b": m["block"], "note": note})
         evs = ev_by_person.get(pid, [])[:60]
-        persons[slug(pid)] = {"id": slug(pid), "n": name(p["name"]), "first": first_name(p["name"]), "n_pt": p["name"],
+        persons[slug(pid)] = {"id": slug(pid), "n": name(p["name"], "person"), "first": first_name(p["name"], "person"), "n_pt": p["name"],
                               "al": p.get("aliases", [])[:6], "roles": roles, "d": [p.get("birth"), p.get("death")],
                               "sum": s, "main": p.get("main_article_id"), "m": mentions, "ev": evs,
                               "cnt": p["mention_count"], **({"ml": sl} if sl != lang else {})}
@@ -445,7 +484,7 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             note, nl = mt(f"{pid}:note:{m['article']}:{m['block']}", m["note"])
             mentions.append({"a": m["article"], "hw": headword(m["article"]), "b": m["block"], "note": note})
         evs = ev_by_place.get(pid, [])[:60]
-        places[slug(pid)] = {"id": slug(pid), "n": name(p["name"]), "first": first_name(p["name"]), "sum": s, "loc": loc,
+        places[slug(pid)] = {"id": slug(pid), "n": name(p["name"], "place"), "first": first_name(p["name"], "place"), "sum": s, "loc": loc,
                              "main": p.get("main_article_id"), "m": mentions, "ev": evs,
                              **({"ml": sl} if sl != lang else {})}
 

@@ -136,7 +136,7 @@ const single = a.ch.length === 1;
         {isXref ? (
           <div class="ea-body ea-body--xref"><SeeCard lang={lang} ids={xrefTargets} text={xrefText} size="hero" /></div>
         ) : (
-          <div class="ea-body" data-ea-body data-ea-folio-top aria-label={folioCapable ? t(lang, 'folio_view') : undefined}>
+          <div class="ea-body" data-ea-body data-hscroll data-ea-folio-top aria-label={folioCapable ? t(lang, 'folio_view') : undefined}>
             {secs.map((s) => (
               <section class:list={['ea-sec', { 'ea-sec--ch': !!s.ch }]} id={s.ch ? s.id : undefined} data-ea-section={s.ch ? '' : undefined} aria-labelledby={s.ch ? `${s.id}-h` : undefined}>
                 {s.ch && (

@@ -1,0 +1,1182 @@
+[
+ {
+  "article": "curral-das-freiras-freguesia-do",
+  "links": [
+   {
+    "block": "b000",
+    "start": 1375,
+    "end": 1385,
+    "phrase": "Pico Ruivo",
+    "kind": "article",
+    "to": "ruivo-pico",
+    "mandatory": false,
+    "id": "L01"
+   },
+   {
+    "block": "b001",
+    "start": 296,
+    "end": 304,
+    "phrase": "escravos",
+    "kind": "article",
+    "to": "escravos",
+    "mandatory": false,
+    "id": "L02"
+   },
+   {
+    "block": "b002",
+    "start": 37,
+    "end": 49,
+    "phrase": "Rui Teixeira",
+    "kind": "person",
+    "to": "person:rui-teixeira",
+    "mandatory": false,
+    "id": "L03"
+   },
+   {
+    "block": "b002",
+    "start": 63,
+    "end": 78,
+    "phrase": "Branca Ferreira",
+    "kind": "person",
+    "to": "person:branca-ferreira",
+    "mandatory": false,
+    "id": "L04"
+   },
+   {
+    "block": "b002",
+    "start": 105,
+    "end": 115,
+    "phrase": "Campanario",
+    "kind": "article",
+    "to": "campanario-freguesia-do",
+    "mandatory": false,
+    "id": "L05"
+   },
+   {
+    "block": "b002",
+    "start": 249,
+    "end": 273,
+    "phrase": "João Gonçalves da Camara",
+    "kind": "article",
+    "to": "camara-joao-goncalves-da",
+    "mandatory": false,
+    "id": "L06"
+   },
+   {
+    "block": "b002",
+    "start": 318,
+    "end": 331,
+    "phrase": "Passo da Cruz",
+    "kind": "place",
+    "to": "place:passo-da-cruz-adeira",
+    "mandatory": false,
+    "id": "L07"
+   },
+   {
+    "block": "b002",
+    "start": 624,
+    "end": 633,
+    "phrase": "D. Elvira",
+    "kind": "person",
+    "to": "person:elvira-camara",
+    "mandatory": false,
+    "id": "L08"
+   },
+   {
+    "block": "b002",
+    "start": 636,
+    "end": 644,
+    "phrase": "D. Joana",
+    "kind": "person",
+    "to": "person:joana-camara",
+    "mandatory": false,
+    "id": "L09"
+   },
+   {
+    "block": "b002",
+    "start": 674,
+    "end": 685,
+    "phrase": "Santa Clara",
+    "kind": "article",
+    "to": "convento-de-santa-clara",
+    "mandatory": false,
+    "id": "L10"
+   },
+   {
+    "block": "b002",
+    "start": 729,
+    "end": 733,
+    "phrase": "1492",
+    "kind": "year",
+    "to": "1492",
+    "mandatory": false,
+    "id": "L11"
+   },
+   {
+    "block": "b002",
+    "start": 780,
+    "end": 784,
+    "phrase": "1497",
+    "kind": "year",
+    "to": "1497",
+    "mandatory": false,
+    "id": "L12"
+   },
+   {
+    "block": "b003",
+    "start": 32,
+    "end": 74,
+    "phrase": "saqueada por corsarios franceses luteranos",
+    "kind": "article",
+    "to": "corsarios-franceses",
+    "mandatory": false,
+    "id": "L13"
+   },
+   {
+    "block": "b003",
+    "start": 273,
+    "end": 281,
+    "phrase": "Frutuoso",
+    "kind": "article",
+    "to": "frutuoso-doutor-gaspar",
+    "mandatory": false,
+    "id": "L14"
+   },
+   {
+    "block": "b004",
+    "start": 80,
+    "end": 124,
+    "phrase": "Santo Antonio, da qual se desmembrou em 1790",
+    "kind": "article",
+    "to": "santo-antonio-freguesia-de",
+    "mandatory": false,
+    "id": "L15"
+   },
+   {
+    "block": "b004",
+    "start": 225,
+    "end": 229,
+    "phrase": "1678",
+    "kind": "year",
+    "to": "1678",
+    "mandatory": false,
+    "id": "L16"
+   },
+   {
+    "block": "b004",
+    "start": 258,
+    "end": 280,
+    "phrase": "padre Cristovão Vieira",
+    "kind": "person",
+    "to": "person:cristovao-vieira",
+    "mandatory": false,
+    "id": "L17"
+   },
+   {
+    "block": "b004",
+    "start": 362,
+    "end": 366,
+    "phrase": "1756",
+    "kind": "year",
+    "to": "1756",
+    "mandatory": false,
+    "id": "L18"
+   },
+   {
+    "block": "b004",
+    "start": 392,
+    "end": 421,
+    "phrase": "dr. Antonio Mendes de Almeida",
+    "kind": "person",
+    "to": "person:antonio-mendes-almeida",
+    "mandatory": false,
+    "id": "L19"
+   },
+   {
+    "block": "b006",
+    "start": 27,
+    "end": 44,
+    "phrase": "Saudades da Terra",
+    "kind": "article",
+    "to": "saudades-da-terra",
+    "mandatory": false,
+    "id": "L20"
+   },
+   {
+    "block": "b006",
+    "start": 100,
+    "end": 124,
+    "phrase": "capela de Santa Quiteria",
+    "kind": "article",
+    "to": "santa-quiteria-capelas-de",
+    "mandatory": false,
+    "id": "L21"
+   },
+   {
+    "block": "b006",
+    "start": 138,
+    "end": 154,
+    "phrase": "Simão de Nobrega",
+    "kind": "person",
+    "to": "person:simao-nobrega",
+    "mandatory": false,
+    "id": "L22"
+   },
+   {
+    "block": "b006",
+    "start": 329,
+    "end": 414,
+    "phrase": "capela de Santo António, existente no Curral e pertencente ao convento de Santa Clara",
+    "kind": "place",
+    "to": "place:capela-de-santo-antonio-curral-das-freiras-adeira-curral-das-freiras",
+    "mandatory": false,
+    "id": "L23"
+   },
+   {
+    "block": "b007",
+    "start": 167,
+    "end": 177,
+    "phrase": "D. Maria I",
+    "kind": "article",
+    "to": "maria-i-d",
+    "mandatory": false,
+    "id": "L24"
+   },
+   {
+    "block": "b007",
+    "start": 329,
+    "end": 356,
+    "phrase": "Nossa Senhora do Livramento",
+    "kind": "article",
+    "to": "nossa-senhora-do-livramento-capelas-de",
+    "mandatory": false,
+    "id": "L25"
+   },
+   {
+    "block": "b008",
+    "start": 131,
+    "end": 151,
+    "phrase": "ribeira de Vasco Gil",
+    "kind": "place",
+    "to": "place:ribeira-de-vasco-gil-adeira-santo-antonio",
+    "mandatory": false,
+    "id": "L26"
+   },
+   {
+    "block": "b008",
+    "start": 175,
+    "end": 193,
+    "phrase": "lombo de D. Isabel",
+    "kind": "place",
+    "to": "place:lombo-de-dona-isabel-adeira-santo-antonio",
+    "mandatory": false,
+    "id": "L27"
+   },
+   {
+    "block": "b008",
+    "start": 245,
+    "end": 260,
+    "phrase": "Eira do Serrado",
+    "kind": "article",
+    "to": "eira-do-serrado",
+    "mandatory": false,
+    "id": "L28"
+   },
+   {
+    "block": "b008",
+    "start": 402,
+    "end": 418,
+    "phrase": "o Passo da Chave",
+    "kind": "place",
+    "to": "place:passo-da-chave-adeira-curral-das-freiras",
+    "mandatory": false,
+    "id": "L29"
+   },
+   {
+    "block": "b010",
+    "start": 46,
+    "end": 68,
+    "phrase": "Ribeira dos Socorridos",
+    "kind": "article",
+    "to": "ribeira-dos-socorridos",
+    "mandatory": false,
+    "id": "L30"
+   },
+   {
+    "block": "b010",
+    "start": 158,
+    "end": 198,
+    "phrase": "levadas dos Piornais e Nova do Castelejo",
+    "kind": "place",
+    "to": "place:levada-dos-piornais-adeira-sao-martinho",
+    "mandatory": false,
+    "id": "L31"
+   },
+   {
+    "block": "b011",
+    "start": 148,
+    "end": 170,
+    "phrase": "José Silvestre Ribeiro",
+    "kind": "article",
+    "to": "ribeiro-conselheiro-jose-silvestre",
+    "mandatory": false,
+    "id": "L32"
+   },
+   {
+    "block": "b012",
+    "start": 30,
+    "end": 40,
+    "phrase": "Lombo Chão",
+    "kind": "place",
+    "to": "place:lombo-chao-adeira-curral-das-freiras",
+    "mandatory": false,
+    "id": "L33"
+   },
+   {
+    "block": "b012",
+    "start": 42,
+    "end": 53,
+    "phrase": "Serra Velha",
+    "kind": "place",
+    "to": "place:serra-velha-adeira-curral-das-freiras",
+    "mandatory": false,
+    "id": "L34"
+   },
+   {
+    "block": "b012",
+    "start": 180,
+    "end": 191,
+    "phrase": "Fajã Escura",
+    "kind": "place",
+    "to": "place:faja-escura-adeira-curral-das-freiras",
+    "mandatory": false,
+    "id": "L35"
+   }
+  ]
+ },
+ {
+  "article": "calheta-vila-e-municipio-da",
+  "links": [
+   {
+    "block": "b000",
+    "start": 27,
+    "end": 93,
+    "phrase": "a criação das vilas e municípios do Funchal, Machico e Porto Santo",
+    "kind": "article",
+    "to": "concelhos",
+    "mandatory": false,
+    "id": "L01"
+   },
+   {
+    "block": "b000",
+    "start": 140,
+    "end": 195,
+    "phrase": "capitanias em que foi dividido o arquipelago madeirense",
+    "kind": "article",
+    "to": "capitanias",
+    "mandatory": false,
+    "id": "L02"
+   },
+   {
+    "block": "b000",
+    "start": 668,
+    "end": 715,
+    "phrase": "vilas e municípios da Ponta do Sol e da Calheta",
+    "kind": "article",
+    "to": "vilas",
+    "mandatory": false,
+    "id": "L03"
+   },
+   {
+    "block": "b001",
+    "start": 190,
+    "end": 218,
+    "phrase": "vila da freguesia da Calheta",
+    "kind": "article",
+    "to": "calheta-freguesia-de",
+    "mandatory": false,
+    "id": "L04"
+   },
+   {
+    "block": "b001",
+    "start": 247,
+    "end": 267,
+    "phrase": "vila da Ponta do Sol",
+    "kind": "article",
+    "to": "ponta-do-sol-vila-e-municipio-da",
+    "mandatory": false,
+    "id": "L05"
+   },
+   {
+    "block": "b002",
+    "start": 47,
+    "end": 78,
+    "phrase": "dr. Alvaro Rodrigues de Azevedo",
+    "kind": "article",
+    "to": "azevedo-dr-alvaro-rodrigues-de",
+    "mandatory": false,
+    "id": "L06"
+   },
+   {
+    "block": "b002",
+    "start": 347,
+    "end": 359,
+    "phrase": "anno de 1871",
+    "kind": "year",
+    "to": "1871",
+    "mandatory": false,
+    "id": "L07"
+   },
+   {
+    "block": "b002",
+    "start": 499,
+    "end": 516,
+    "phrase": "Paulo Perestrello",
+    "kind": "person",
+    "to": "person:paulo-perestrelo",
+    "mandatory": false,
+    "id": "L08"
+   },
+   {
+    "block": "b002",
+    "start": 574,
+    "end": 581,
+    "phrase": "em 1511",
+    "kind": "year",
+    "to": "1511",
+    "mandatory": false,
+    "id": "L09"
+   },
+   {
+    "block": "b002",
+    "start": 699,
+    "end": 716,
+    "phrase": "em agosto de 1502",
+    "kind": "year",
+    "to": "1502",
+    "mandatory": false,
+    "id": "L10"
+   },
+   {
+    "block": "b003",
+    "start": 147,
+    "end": 174,
+    "phrase": "câmara municipal do Funchal",
+    "kind": "article",
+    "to": "funchal-baia-do",
+    "mandatory": false,
+    "id": "L11"
+   },
+   {
+    "block": "b004",
+    "start": 133,
+    "end": 144,
+    "phrase": "D. Manuel I",
+    "kind": "person",
+    "to": "person:manuel",
+    "mandatory": false,
+    "id": "L12"
+   },
+   {
+    "block": "b005",
+    "start": 57,
+    "end": 115,
+    "phrase": "5.º capitão-donatario do Funchal Simão Gonçalves da Câmara",
+    "kind": "article",
+    "to": "camara-simao-goncalves-da-2",
+    "mandatory": false,
+    "id": "L13"
+   },
+   {
+    "block": "b005",
+    "start": 309,
+    "end": 350,
+    "phrase": "pelo alvará régio de 20 de Agosto de 1576",
+    "kind": "year",
+    "to": "1576",
+    "mandatory": false,
+    "id": "L14"
+   },
+   {
+    "block": "b005",
+    "start": 514,
+    "end": 542,
+    "phrase": "marquesado de Castelo Melhor",
+    "kind": "article",
+    "to": "castelo-melhor-conde-de",
+    "mandatory": false,
+    "id": "L15"
+   },
+   {
+    "block": "b005",
+    "start": 582,
+    "end": 599,
+    "phrase": "condes da Calheta",
+    "kind": "article",
+    "to": "calheta-condes-da",
+    "mandatory": false,
+    "id": "L16"
+   },
+   {
+    "block": "b005",
+    "start": 660,
+    "end": 682,
+    "phrase": "títulos nobiliarquicos",
+    "kind": "article",
+    "to": "titulos-nobiliarquicos",
+    "mandatory": false,
+    "id": "L17"
+   },
+   {
+    "block": "b006",
+    "start": 27,
+    "end": 42,
+    "phrase": "Gaspar Frutuoso",
+    "kind": "article",
+    "to": "frutuoso-doutor-gaspar",
+    "mandatory": false,
+    "id": "L18"
+   },
+   {
+    "block": "b008",
+    "start": 24,
+    "end": 34,
+    "phrase": "Alfândegas",
+    "kind": "article",
+    "to": "alfandegas",
+    "mandatory": true,
+    "id": "L19"
+   },
+   {
+    "block": "b008",
+    "start": 300,
+    "end": 306,
+    "phrase": "quinto",
+    "kind": "article",
+    "to": "quinto",
+    "mandatory": false,
+    "id": "L20"
+   },
+   {
+    "block": "b009",
+    "start": 30,
+    "end": 83,
+    "phrase": "juiz de fora dr. Antonio Rodrigues Veloso de Oliveira",
+    "kind": "article",
+    "to": "veloso-de-oliveira-dr-antonio-rodrigues",
+    "mandatory": false,
+    "id": "L21"
+   },
+   {
+    "block": "b010",
+    "start": 57,
+    "end": 73,
+    "phrase": "sítio do Rabaçal",
+    "kind": "article",
+    "to": "rabacal",
+    "mandatory": false,
+    "id": "L22"
+   },
+   {
+    "block": "b011",
+    "start": 295,
+    "end": 321,
+    "phrase": "concelho do Porto do Moniz",
+    "kind": "place",
+    "to": "place:porto-moniz-adeira-porto-moniz",
+    "mandatory": false,
+    "id": "L23"
+   },
+   {
+    "block": "b011",
+    "start": 365,
+    "end": 395,
+    "phrase": "freguesias das Achadas da Cruz",
+    "kind": "article",
+    "to": "achadas-da-cruz-freguesia-das",
+    "mandatory": false,
+    "id": "L24"
+   },
+   {
+    "block": "b011",
+    "start": 398,
+    "end": 458,
+    "phrase": "Ponta do Pargo passaram a fazer parte do Concelho da Calheta",
+    "kind": "article",
+    "to": "ponta-do-pargo-freguesia-da",
+    "mandatory": false,
+    "id": "L25"
+   },
+   {
+    "block": "b011",
+    "start": 811,
+    "end": 821,
+    "phrase": "S. Vicente",
+    "kind": "article",
+    "to": "sao-vicente-vila-e-municipio-de",
+    "mandatory": false,
+    "id": "L26"
+   },
+   {
+    "block": "b012",
+    "start": 44,
+    "end": 63,
+    "phrase": "Estreito da Calheta",
+    "kind": "article",
+    "to": "estreito-da-calheta-freguesia-do",
+    "mandatory": false,
+    "id": "L27"
+   },
+   {
+    "block": "b012",
+    "start": 65,
+    "end": 80,
+    "phrase": "Arco da Calheta",
+    "kind": "article",
+    "to": "arco-da-calheta-freguesia-do",
+    "mandatory": false,
+    "id": "L28"
+   },
+   {
+    "block": "b012",
+    "start": 82,
+    "end": 90,
+    "phrase": "Prazeres",
+    "kind": "article",
+    "to": "prazeres-freguesia-dos",
+    "mandatory": false,
+    "id": "L29"
+   },
+   {
+    "block": "b012",
+    "start": 92,
+    "end": 105,
+    "phrase": "Jardim do Mar",
+    "kind": "article",
+    "to": "jardim-do-mar-freguesia-do",
+    "mandatory": false,
+    "id": "L30"
+   },
+   {
+    "block": "b012",
+    "start": 107,
+    "end": 118,
+    "phrase": "Paul do Mar",
+    "kind": "article",
+    "to": "paul-do-mar",
+    "mandatory": false,
+    "id": "L31"
+   },
+   {
+    "block": "b012",
+    "start": 120,
+    "end": 134,
+    "phrase": "Fajã da Ovelha",
+    "kind": "article",
+    "to": "faja-da-ovelha-freguesia-da",
+    "mandatory": false,
+    "id": "L32"
+   },
+   {
+    "block": "b013",
+    "start": 109,
+    "end": 126,
+    "phrase": "Saudades da Terra",
+    "kind": "article",
+    "to": "saudades-da-terra",
+    "mandatory": false,
+    "id": "L33"
+   },
+   {
+    "block": "b013",
+    "start": 267,
+    "end": 283,
+    "phrase": "dr. Damião Peres",
+    "kind": "article",
+    "to": "peres-damiao",
+    "mandatory": false,
+    "id": "L34"
+   }
+  ]
+ },
+ {
+  "article": "calheta-freguesia-de",
+  "links": [
+   {
+    "block": "b000",
+    "start": 205,
+    "end": 225,
+    "phrase": "Maximiliano de Lemos",
+    "kind": "person",
+    "to": "person:maximiliano-lemos",
+    "mandatory": false,
+    "id": "L01"
+   },
+   {
+    "block": "b000",
+    "start": 323,
+    "end": 338,
+    "phrase": "Gaspar Frutuoso",
+    "kind": "article",
+    "to": "frutuoso-doutor-gaspar",
+    "mandatory": false,
+    "id": "L02"
+   },
+   {
+    "block": "b000",
+    "start": 385,
+    "end": 390,
+    "phrase": "Zarco",
+    "kind": "article",
+    "to": "zargo-joao-goncalves",
+    "mandatory": false,
+    "id": "L03"
+   },
+   {
+    "block": "b000",
+    "start": 1077,
+    "end": 1083,
+    "phrase": "Açores",
+    "kind": "place",
+    "to": "place:acores",
+    "mandatory": false,
+    "id": "L04"
+   },
+   {
+    "block": "b000",
+    "start": 1086,
+    "end": 1096,
+    "phrase": "Cabo Verde",
+    "kind": "place",
+    "to": "place:cabo-verde",
+    "mandatory": false,
+    "id": "L05"
+   },
+   {
+    "block": "b001",
+    "start": 172,
+    "end": 196,
+    "phrase": "João Gonçalves da Câmara",
+    "kind": "article",
+    "to": "camara-joao-goncalves-da",
+    "mandatory": false,
+    "id": "L06"
+   },
+   {
+    "block": "b001",
+    "start": 260,
+    "end": 280,
+    "phrase": "D. Beatriz Gonçalves",
+    "kind": "person",
+    "to": "person:beatriz-goncalves",
+    "mandatory": false,
+    "id": "L07"
+   },
+   {
+    "block": "b001",
+    "start": 302,
+    "end": 308,
+    "phrase": "Cabral",
+    "kind": "article",
+    "to": "cabral",
+    "mandatory": true,
+    "id": "L08"
+   },
+   {
+    "block": "b001",
+    "start": 407,
+    "end": 431,
+    "phrase": "Nossa Senhora da Estrela",
+    "kind": "article",
+    "to": "nossa-senhora-da-estrela-capela-de",
+    "mandatory": true,
+    "id": "L09"
+   },
+   {
+    "block": "b002",
+    "start": 70,
+    "end": 79,
+    "phrase": "Berenguer",
+    "kind": "article",
+    "to": "berenguer",
+    "mandatory": true,
+    "id": "L10"
+   },
+   {
+    "block": "b002",
+    "start": 174,
+    "end": 189,
+    "phrase": "Lombo do Doutor",
+    "kind": "article",
+    "to": "lombo-do-doutor",
+    "mandatory": false,
+    "id": "L11"
+   },
+   {
+    "block": "b002",
+    "start": 191,
+    "end": 207,
+    "phrase": "Luiz de Atouguia",
+    "kind": "person",
+    "to": "person:luiz-afonso-atouguia",
+    "mandatory": false,
+    "id": "L12"
+   },
+   {
+    "block": "b002",
+    "start": 296,
+    "end": 305,
+    "phrase": "Mondragão",
+    "kind": "article",
+    "to": "mondragao",
+    "mandatory": true,
+    "id": "L13"
+   },
+   {
+    "block": "b002",
+    "start": 344,
+    "end": 370,
+    "phrase": "Francisco Homem de Gouveia",
+    "kind": "person",
+    "to": "person:francisco-homem-gouveia",
+    "mandatory": false,
+    "id": "L14"
+   },
+   {
+    "block": "b002",
+    "start": 400,
+    "end": 410,
+    "phrase": "Reis Magos",
+    "kind": "article",
+    "to": "reis-magos-capela-dos",
+    "mandatory": true,
+    "id": "L15"
+   },
+   {
+    "block": "b002",
+    "start": 430,
+    "end": 449,
+    "phrase": "Estreito da Calheta",
+    "kind": "article",
+    "to": "estreito-da-calheta-freguesia-do",
+    "mandatory": false,
+    "id": "L16"
+   },
+   {
+    "block": "b002",
+    "start": 608,
+    "end": 614,
+    "phrase": "Aragão",
+    "kind": "article",
+    "to": "aragao",
+    "mandatory": true,
+    "id": "L17"
+   },
+   {
+    "block": "b002",
+    "start": 660,
+    "end": 680,
+    "phrase": "João Assuna Teixeira",
+    "kind": "person",
+    "to": "person:joao-assuna-teixeira",
+    "mandatory": false,
+    "id": "L18"
+   },
+   {
+    "block": "b002",
+    "start": 683,
+    "end": 696,
+    "phrase": "João Salviato",
+    "kind": "person",
+    "to": "person:joao-salviato",
+    "mandatory": false,
+    "id": "L19"
+   },
+   {
+    "block": "b002",
+    "start": 775,
+    "end": 800,
+    "phrase": "João Rodrigues Castelhano",
+    "kind": "person",
+    "to": "person:joao-rodrigues-castelhano",
+    "mandatory": false,
+    "id": "L20"
+   },
+   {
+    "block": "b002",
+    "start": 1176,
+    "end": 1192,
+    "phrase": "Villa da Calheta",
+    "kind": "place",
+    "to": "place:vila-da-calheta-adeira-calheta",
+    "mandatory": false,
+    "id": "L21"
+   },
+   {
+    "block": "b003",
+    "start": 76,
+    "end": 93,
+    "phrase": "Capela da Estrela",
+    "kind": "article",
+    "to": "estrela-capela-e-sitio-da",
+    "mandatory": false,
+    "id": "L22"
+   },
+   {
+    "block": "b003",
+    "start": 194,
+    "end": 211,
+    "phrase": "igreja deste nome",
+    "kind": "place",
+    "to": "place:igreja-do-espirito-santo-da-calheta-adeira-calheta",
+    "mandatory": false,
+    "id": "L23"
+   },
+   {
+    "block": "b005",
+    "start": 333,
+    "end": 358,
+    "phrase": "convento dos franciscanos",
+    "kind": "article",
+    "to": "convento-de-sao-francisco-da-calheta",
+    "mandatory": false,
+    "id": "L24"
+   },
+   {
+    "block": "b005",
+    "start": 378,
+    "end": 401,
+    "phrase": "capela de Santo Antonio",
+    "kind": "place",
+    "to": "place:capela-de-santo-antonio-adeira-calheta",
+    "mandatory": false,
+    "id": "L25"
+   },
+   {
+    "block": "b005",
+    "start": 434,
+    "end": 456,
+    "phrase": "capela da Misericórdia",
+    "kind": "place",
+    "to": "place:capela-da-misericordia-da-calheta-adeira-calheta",
+    "mandatory": false,
+    "id": "L26"
+   },
+   {
+    "block": "b006",
+    "start": 96,
+    "end": 113,
+    "phrase": "nossa Sé Catedral",
+    "kind": "place",
+    "to": "place:se-do-funchal-adeira-se",
+    "mandatory": false,
+    "id": "L27"
+   },
+   {
+    "block": "b006",
+    "start": 271,
+    "end": 282,
+    "phrase": "D. Manuel I",
+    "kind": "person",
+    "to": "person:manuel",
+    "mandatory": false,
+    "id": "L28"
+   },
+   {
+    "block": "b008",
+    "start": 51,
+    "end": 65,
+    "phrase": "ordem seráfica",
+    "kind": "article",
+    "to": "ordem-serafica",
+    "mandatory": false,
+    "id": "L29"
+   },
+   {
+    "block": "b009",
+    "start": 94,
+    "end": 125,
+    "phrase": "misericórdias deste arquipelago",
+    "kind": "article",
+    "to": "misericordias",
+    "mandatory": false,
+    "id": "L30"
+   },
+   {
+    "block": "b010",
+    "start": 64,
+    "end": 86,
+    "phrase": "Antonio Veloso de Lira",
+    "kind": "article",
+    "to": "lira-antonio-veloso-de",
+    "mandatory": false,
+    "id": "L31"
+   },
+   {
+    "block": "b010",
+    "start": 89,
+    "end": 123,
+    "phrase": "Antonio João de França Bettencourt",
+    "kind": "article",
+    "to": "bettencourt-dr-antonio-joao-de-franca",
+    "mandatory": false,
+    "id": "L32"
+   },
+   {
+    "block": "b011",
+    "start": 1142,
+    "end": 1170,
+    "phrase": "degredo perpetuo para Angola",
+    "kind": "place",
+    "to": "place:angola",
+    "mandatory": false,
+    "id": "L33"
+   },
+   {
+    "block": "b012",
+    "start": 0,
+    "end": 17,
+    "phrase": "Rodrigues Pestana",
+    "kind": "person",
+    "to": "person:joao-rodrigues-pestana",
+    "mandatory": false,
+    "id": "L34"
+   },
+   {
+    "block": "b012",
+    "start": 20,
+    "end": 52,
+    "phrase": "degredo perpetuo para Moçambique",
+    "kind": "place",
+    "to": "place:mocambique",
+    "mandatory": false,
+    "id": "L35"
+   },
+   {
+    "block": "b013",
+    "start": 22,
+    "end": 39,
+    "phrase": "Eugène Arckermann",
+    "kind": "person",
+    "to": "person:eugene-arckermann",
+    "mandatory": false,
+    "id": "L36"
+   },
+   {
+    "block": "b014",
+    "start": 42,
+    "end": 58,
+    "phrase": "Lombo da Estrela",
+    "kind": "article",
+    "to": "lombo-da-estrela",
+    "mandatory": false,
+    "id": "L37"
+   },
+   {
+    "block": "b014",
+    "start": 60,
+    "end": 74,
+    "phrase": "Lombo do Salão",
+    "kind": "article",
+    "to": "lombo-do-salao",
+    "mandatory": false,
+    "id": "L38"
+   },
+   {
+    "block": "b014",
+    "start": 76,
+    "end": 91,
+    "phrase": "Lombo do Brasil",
+    "kind": "place",
+    "to": "place:lombo-do-brasil-adeira-calheta",
+    "mandatory": false,
+    "id": "L39"
+   },
+   {
+    "block": "b014",
+    "start": 110,
+    "end": 127,
+    "phrase": "Lombo do Atouguia",
+    "kind": "article",
+    "to": "lombo-do-atouguia",
+    "mandatory": false,
+    "id": "L40"
+   },
+   {
+    "block": "b016",
+    "start": 127,
+    "end": 139,
+    "phrase": "Ponta do Sol",
+    "kind": "article",
+    "to": "ponta-do-sol-vila-e-municipio-da",
+    "mandatory": false,
+    "id": "L41"
+   }
+  ]
+ },
+ {
+  "article": "loureiro-laurus-canariensis",
+  "links": [
+   {
+    "block": "b002",
+    "start": 156,
+    "end": 167,
+    "phrase": "Porto Santo",
+    "kind": "article",
+    "to": "porto-santo-ilha-do",
+    "mandatory": false,
+    "id": "L01"
+   },
+   {
+    "block": "b003",
+    "start": 12,
+    "end": 34,
+    "phrase": "14 de Setembro de 1651",
+    "kind": "year",
+    "to": "1651",
+    "mandatory": false,
+    "id": "L02"
+   },
+   {
+    "block": "b003",
+    "start": 55,
+    "end": 71,
+    "phrase": "Conde de Vimioso",
+    "kind": "article",
+    "to": "vimioso-condes-de",
+    "mandatory": false,
+    "id": "L03"
+   },
+   {
+    "block": "b003",
+    "start": 86,
+    "end": 93,
+    "phrase": "Machico",
+    "kind": "article",
+    "to": "machico-capitania-de",
+    "mandatory": false,
+    "id": "L04"
+   },
+   {
+    "block": "b003",
+    "start": 197,
+    "end": 206,
+    "phrase": "Lauráceas",
+    "kind": "article",
+    "to": "lauraceas",
+    "mandatory": true,
+    "id": "L05"
+   },
+   {
+    "block": "b003",
+    "start": 209,
+    "end": 222,
+    "phrase": "Madre de Deus",
+    "kind": "article",
+    "to": "madre-de-louro",
+    "mandatory": true,
+    "id": "L06"
+   }
+  ]
+ }
+]

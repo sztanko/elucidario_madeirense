@@ -537,6 +537,43 @@ with open("data/11_translations/pl.jsonl", "w") as f:
                            ensure_ascii=False) + "\n")
 ```
 
+### 7.7b In-text links (required; about $3–4 per language)
+
+Article bodies carry hyperlinks that are stored as metadata, never as markup in the text.
+
+**Portuguese link plan** (done once; redo only if the Portuguese text or the KB changes). `data/12_links/pt.jsonl` is
+made by `elucidario/stages/links_llm.py`. Opus 5.5 runs per article, following Wikipedia's linking rules (MOS:LINK):
+- link the most specific entry (an event phrase like "saqueada por corsários franceses luteranos" → *Corsários
+  Franceses*, not "Funchal");
+- link text must make the target predictable; no names inside names; Funchal and Madeira are not overlinked;
+- homonyms are told apart by parish and municipality;
+- each target once per article;
+- years only when no entry describes the event, at most one per 5 sentences;
+- density aim 1.3 links per sentence; the 2026-10 run reached 1.03: 28,425 links, $55.
+
+Its candidate list for each article combines:
+- the KB's explicit "see X" references, which are always linked;
+- the other references the KB found;
+- people and places mentioned;
+- articles found by BM25 search on each sentence, which surfaces event and topic entries;
+- years with a chronology page.
+
+Unresolved "see X" references are fixed first by `resolve_xrefs.py` (fuzzy shortlist + Opus, plus volume/page
+citations like "I-129"). `links_plan.py` is the older rule-based fallback.
+
+**Each new language:** align the anchors to the translated text.
+
+```python
+from elucidario.stages import links_align as A
+A.submit("pl", model="claude-haiku-4-5-20251001", job="links2")   # deterministic matches first, Haiku batch for the rest
+A.collect("pl", job="links2")
+A.retry("pl", model="claude-sonnet-5", job="links2", retry_job="links2r")   # Sonnet only for what Haiku missed
+A.collect("pl", job="links2", retry_job="links2r")                 # writes data/12_links/pl.jsonl
+```
+
+Every phrase is checked to be a verbatim substring of the translation. en/uk/hu reached 99.5–99.75% of links for
+about $2.35–3.70 each. Check `mandatory_unaligned` in the result; it should be close to zero.
+
 ### 7.8 Quality review after the run (recommended; about $3–5)
 
 - **Sample:** about 100 random body blocks and 100 metadata units.

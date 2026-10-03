@@ -5,14 +5,14 @@
 const ESC: Record<string, string> = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' };
 export const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ESC[c]);
 
-type Span = { a: number; b: number; kind: 'link' | 'em' | 'upd'; href?: string; title?: string };
+type Span = { a: number; b: number; kind: 'link' | 'em' | 'upd'; href?: string; title?: string; k?: string };
 const ORDER = { link: 0, em: 1, upd: 2 } as const;
 
 export interface InlineOpts {
   /** years from block.un → "(1921)" styled as update notes */
   un?: string[];
   /** phrase links: first occurrence of each phrase becomes a link */
-  links?: { p: string; href: string; title?: string }[];
+  links?: { p: string; href: string; title?: string; k?: string }[];
 }
 
 /** Convert one block's text to HTML. */
@@ -47,7 +47,7 @@ export function inline(text: string, opts: InlineOpts = {}): string {
     }
     if (i < 0) continue;
     taken.push([i, i + l.p.length]);
-    spans.push({ a: i, b: i + l.p.length, kind: 'link', href: l.href, title: l.title });
+    spans.push({ a: i, b: i + l.p.length, kind: 'link', href: l.href, title: l.title, k: l.k });
   }
   if (!spans.length) return esc(text.replace(/\*/g, ''));
 
@@ -57,7 +57,7 @@ export function inline(text: string, opts: InlineOpts = {}): string {
   for (const d of drop) { cuts.add(d); cuts.add(d + 1); }
   const pts = [...cuts].sort((x, y) => x - y);
   const open = (s: Span) =>
-    s.kind === 'link' ? `<a href="${esc(s.href!)}" class="ea-ln"${s.title ? ` title="${esc(s.title)}"` : ''}>`
+    s.kind === 'link' ? `<a href="${esc(s.href!)}" class="ea-ln${s.k && s.k !== 'a' ? ` ea-ln--${s.k}` : ''}"${s.title ? ` title="${esc(s.title)}"` : ''}>`
       : s.kind === 'em' ? '<em>' : `<span class="em-upd" title="${esc(s.title || '')}">`;
   const close = (s: Span) => (s.kind === 'link' ? '</a>' : s.kind === 'em' ? '</em>' : '</span>');
   let out = '';

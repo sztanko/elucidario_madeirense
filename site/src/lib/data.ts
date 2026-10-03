@@ -26,7 +26,9 @@ export interface Article {
   vol: number; pp: [number | null, number | null]; types: string[]; size: 'fragment' | 'standard' | 'long'; chars: number;
   abs: string | null; ml?: string; ch: Chapter[]; bl: Block[]; pers: PersonRef[]; plc: PlaceRef[]; prim: string[]; pm: string[];
   ev: EventRef[]; out: string[]; in: string[]; same: string[]; near: string[]; par: string | null; kids: string[];
-  redir: string[]; prev: string | null; next: string | null; ln: { b: string; p: string; to: string }[];
+  redir: string[]; prev: string | null; next: string | null;
+  /** in-text links: k = a(rticle) | p(erson) | l (place) | y(ear); n = display name for persons/places */
+  ln: { b: string; p: string; to: string; k?: 'a' | 'p' | 'l' | 'y'; n?: string }[];
 }
 export interface Mention { a: string; hw: string; b: string; note: string | null }
 export interface Person {

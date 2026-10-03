@@ -57,7 +57,7 @@ Keyed by place slug (place id without the `place:` prefix):
 | `par` / `kids` | Parent umbrella article / sub-articles |
 | `redir` | For cross-references: target headwords as written (resolved targets are in `out`) |
 | `prev` / `next` | Neighbours in book order |
-| `ln` | pt only: inline links `[{b: block, p: phrase as in text, to: article id}]`, to hyperlink phrases in the original |
+| `ln` | In-text links, all languages: `[{b: block, p: phrase exactly as in this language's text, k: a\|p\|l\|y, to: article id \| person slug \| place slug \| year, n?: display name}]`. Link the first occurrence of `p` in block `b`. Source: `data/12_links/<lang>.jsonl` (`links_plan` + `links_align`) |
 
 **Block** (`bl[]`): `{id: "b000", t: type, x: text, lv?: heading level, ln?: verse lines (pt), tb?: table, un?: ["(1921)"], xl?: "pt"}`.
 - `t` is one of paragraph, heading, quote, verse, list_item, table, bibliography, xref.

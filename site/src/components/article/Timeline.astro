@@ -11,6 +11,7 @@ import * as u from '../../lib/urls';
 import { t } from '../../i18n/ui';
 import { fmtEdtf, yearOf, isoOf } from '../ui/format';
 import { inline } from './inline';
+import '../../styles/article.css';
 interface Props { lang: string; events: EventRef[] }
 const { lang, events } = Astro.props;
 const ev = events.map((e) => ({ ...e, y: yearOf(e.s0) })).filter((e) => e.y !== null) as (EventRef & { y: number })[];
@@ -37,7 +38,7 @@ const anyMl = ev.some((e) => ml(e.ml));
       {ev.map((e, i) => <button type="button" class:list={['ea-tl__dot', { major: e.sig === 'm' }]} style={`left:${x(e.y)}%`} data-i={i} aria-label={fmtEdtf(e.s0, e.s1, lang)}></button>)}
       <span class="ea-tl__end ea-tl__end--b" aria-hidden="true">{max}</span>
     </div>
-    <ol class="ea-tl__list" role="list" tabindex="0" aria-label={t(lang, 'dates_mentioned')}>
+    <ol class="ea-tl__list" role="list" tabindex="0" data-hscroll aria-label={t(lang, 'dates_mentioned')}>
       {ev.map((e, i) => (
         <li class:list={['ea-tl__ev', { major: e.sig === 'm' }]} data-i={i}>
           <a href={u.year(lang, e.y)} class="ea-tl__y" aria-label={fmtEdtf(e.s0, e.s1, lang)}><time datetime={isoOf(e.s0) ?? undefined}>{e.y}</time></a>
@@ -49,6 +50,7 @@ const anyMl = ev.some((e) => ml(e.ml));
   </div>
 )}
 <script>
+  import '../ui/hscroll';
   // Dot ↔ card sync: clicking a dot scrolls the card row to that event; scrolling the row marks the
   // first fully visible card (and its dot) as current.
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;

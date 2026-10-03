@@ -64,7 +64,7 @@ const preloads = cyr ? [textCyr, dispCyr] : [textLatin, dispLatin];
     <meta name="twitter:card" content="summary_large_image" />
     {jsonld.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
     {/* motion: must be in <head> so its inline pagereveal handler runs before the first render */}
-    <Plane lang={lang} id={kind === 'article' ? planeId : undefined} />
+    <Plane lang={lang} id={planeId} />
     <slot name="head" />
   </head>
   <body data-plane-id={planeId}>

@@ -3,6 +3,7 @@
 // Person links everywhere resolve to /{lang}/people/{letter}/#{slug} via urls.person().
 import Base from '../../../layouts/Base.astro';
 import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import Timeline from '../../../components/article/Timeline.astro';
 import { fmtLife, fmtInt, yearOf } from '../../../components/ui/format';
 import { languages, persons, articles, eventsById, type Person } from '../../../lib/data';
 import { t } from '../../../i18n/ui';
@@ -10,7 +11,7 @@ import * as u from '../../../lib/urls';
 
 const MAX_NOTED = 6;   // mentions shown with their note
 const MAX_LINKS = 40;  // further mentions shown as plain links
-const MAX_YEARS = 16;
+const MAX_YEARS = 12;
 
 export function getStaticPaths() {
   return languages().flatMap((lang) => {
@@ -40,11 +41,7 @@ const evs = eventsById(lang);
 const show = (l: string) => (l === '0' ? '#' : l.toUpperCase());
 const L = show(letter);
 
-function years(p: Person): number[] {
-  const ys = new Set<number>();
-  for (const id of p.ev || []) { const y = evs.get(id)?.y; if (y != null) ys.add(y); }
-  return [...ys].sort((a, b) => a - b).slice(0, MAX_YEARS);
-}
+const events = (p: Person) => (p.ev || []).map((id) => evs.get(id)).filter((e) => e && e.y != null).slice(0, MAX_YEARS) as any[];
 const title = `${t(lang, 'people')} · ${L} — Elucidário Madeirense`;
 const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p) => p.n).join(', ')}…`;
 ---
@@ -67,7 +64,7 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
 
   <div class="pl-list">
     {people.map((p) => {
-      const ys = years(p);
+      const pev = events(p);
       const main = p.main ? arts[p.main] : null;
       const noted = p.m.slice(0, MAX_NOTED);
       const linked = p.m.slice(MAX_NOTED, MAX_NOTED + MAX_LINKS);
@@ -92,8 +89,8 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
           {linked.length > 0 && (
             <p class="pl-also"><span class="pl-k">{t(lang, 'mentioned_in')}</span> {linked.map((m, i) => <>{i > 0 && ', '}<a href={u.article(lang, m.a)}>{m.hw}</a></>)}{more > 0 && <> +{fmtInt(more, lang)}</>}</p>
           )}
-          {ys.length > 0 && (
-            <p class="pl-y"><span class="pl-k">{t(lang, 'dates_mentioned')}</span> {ys.map((y) => <a href={u.year(lang, y)}>{y}</a>)}</p>
+          {pev.length > 0 && (
+            <div class="pl-tl"><span class="pl-k">{t(lang, 'dates_mentioned')}</span><Timeline lang={lang} events={pev} /></div>
           )}
         </article>
       );
@@ -133,7 +130,11 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
   .pl-m span { opacity: .75; }
   .pl-p a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line-faint); }
   .pl-p a:hover { color: var(--person-ink); border-color: currentColor; }
-  .pl-y a { color: var(--date-ink); margin-right: .45em; font-variant-numeric: tabular-nums; }
+  .pl-tl { margin-top: .5rem; }
+  .pl-tl :global(.ea-tl__list) { grid-auto-columns: minmax(10rem, 13rem); }
+  .pl-tl :global(.ea-tl__y) { font-size: 1.15rem; }
+  .pl-tl :global(.ea-tl__ev.major .ea-tl__y) { font-size: 1.4rem; }
+  .pl-tl :global(.ea-tl__axis) { margin-top: .2rem; }
   .pl-pn { display: flex; justify-content: space-between; max-width: 96rem; margin: 0 auto var(--s-7); padding: var(--s-4) var(--gutter); border-top: 2px solid var(--ink); font-family: var(--font-display); font-size: var(--fs-h3); font-weight: 800; }
   .pl-pn a { color: var(--ink); text-decoration: none; }
   @media (max-width: 56rem) { .pl-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; } .pl-nav a, .pl-nav span { flex: none; min-width: 2.2em; padding: .35rem 0; } }

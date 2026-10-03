@@ -1,0 +1,727 @@
+[
+ {
+  "uid": "person:bertrand-montluc:summary",
+  "before": "Francia nemes, aki a kalózflottát vezette, és halálos sebet kapott a Szent Lőrinc-erőd ostromakor.",
+  "after": "Francia nemes, aki a kalózflottát vezette, és halálos sebet kapott a São Lourenço-erőd ostromakor."
+ },
+ {
+  "uid": "person:francisco-borges-sousa-melo:summary",
+  "before": "Szaragosszai Szent Vince egyházközségének plébánosa, 1812-től pedig első esperese (vigário da vara).",
+  "after": "São Vicente egyházközségének plébánosa, 1812-től pedig első esperese (vigário da vara)."
+ },
+ {
+  "uid": "person:luis-basilio:summary",
+  "before": "Egy funchali hajógyár hajóépítő mestere, aki megépítette a Szent Lőrinc karavellát ábrázoló felvonulási kocsit.",
+  "after": "Egy funchali hajógyár hajóépítő mestere, aki megépítette a São Lourenço karavellát ábrázoló felvonulási kocsit."
+ },
+ {
+  "uid": "place:capela-de-sao-cristovao-adeira-boaventura:location",
+  "before": "Boaventura egyházközség, Szaragosszai Szent Vince község, Madeira",
+  "after": "Boaventura egyházközség, São Vicente község, Madeira"
+ },
+ {
+  "uid": "place:ponta-do-rosto-adeira:summary",
+  "before": "Szent Lőrinc másodlagos földnyelve.",
+  "after": "A Ponta de São Lourenço másodlagos földnyelve."
+ },
+ {
+  "uid": "place:ponta-dos-dedais-adeira:summary",
+  "before": "Szent Lőrinc másodlagos földnyelve.",
+  "after": "A Ponta de São Lourenço másodlagos földnyelve."
+ },
+ {
+  "uid": "place:ribeira-de-sao-vicente-adeira-sao-vicente:location",
+  "before": "Szaragosszai Szent Vince egyházközsége és községe, Madeira",
+  "after": "São Vicente egyházközsége és községe, Madeira"
+ },
+ {
+  "uid": "place:ribeira-do-porco-adeira-boaventura:location",
+  "before": "Boaventura egyházközség, Szaragosszai Szent Vince községe, Madeira",
+  "after": "Boaventura egyházközség, São Vicente községe, Madeira"
+ },
+ {
+  "uid": "place:sao-vicente-sao-vicente-freguesia-de:note:aderno-ardisia-excelsa:b000",
+  "before": "Az aderno Szaragosszai Szent Vince hegyeiben nő.",
+  "after": "Az aderno São Vicente hegyeiben nő."
+ },
+ {
+  "uid": "enr:aderno-ardisia-excelsa:abstract",
+  "before": "Az aderno (Ardisia excelsa, mai nevén Heberdenia excelsa) a mirtuszfélék családjába tartozó, Madeirán őshonos fa, amely Szaragosszai Szent Vince, Ribeira da Janela és Porto da Cruz hegyeiben él. Kemény, világos fáját régebben csónakok gerincéhez használták.",
+  "after": "Az aderno (Ardisia excelsa, mai nevén Heberdenia excelsa) a mirtuszfélék családjába tartozó, Madeirán őshonos fa, amely São Vicente, Ribeira da Janela és Porto da Cruz hegyeiben él. Kemény, világos fáját régebben csónakok gerincéhez használták."
+ },
+ {
+  "uid": "person:anibal-correia-taborda:note:administracao-judicial:b012",
+  "before": "Szaragosszai Szent Vince bírósági kerületének első helyettes ügyésze.",
+  "after": "A São Vicente-i bírósági kerület első helyettes ügyésze."
+ },
+ {
+  "uid": "person:joao-pereira-ramos-silveira:note:administracao-judicial:b012",
+  "before": "Szaragosszai Szent Vince bírósági kerületének első bírája, 1876. november 16-tól.",
+  "after": "A São Vicente-i bírósági kerület első bírája, 1876. november 16-tól."
+ },
+ {
+  "uid": "enr:administracao-judicial:abstract",
+  "before": "Áttekinti a madeirai igazságszolgáltatás történetét a donatárius kapitányok kiterjedt joghatóságától a királyi corregedorok tevékenységén és a corregedor, valamint a juiz de fora tisztségének 1767-es létrehozásán át Funchal, Ponta do Sol, Santa Cruz és Szaragosszai Szent Vince 19. századi bírósági kerületeinek kialakulásáig.",
+  "after": "Áttekinti a madeirai igazságszolgáltatás történetét a donatárius kapitányok kiterjedt joghatóságától a királyi corregedorok tevékenységén és a corregedor, valamint a juiz de fora tisztségének 1767-es létrehozásán át Funchal, Ponta do Sol, Santa Cruz és São Vicente 19. századi bírósági kerületeinek kialakulásáig."
+ },
+ {
+  "uid": "chron:1817:02258:summary",
+  "before": "Paulo Dias de Almeida megírta Madeira kéziratos leírását, amelyben olyan részleteket rögzített, mint a *carapuça* sapkák, a Pontinha kikötőlépcsője és a Szent Lőrinc-palota látképe.",
+  "after": "Paulo Dias de Almeida megírta Madeira kéziratos leírását, amelyben olyan részleteket rögzített, mint a *carapuça* sapkák, a Pontinha kikötőlépcsője és a São Lourenço-palota látképe."
+ },
+ {
+  "uid": "art:arciprestados:b000",
+  "before": "A funchali egyházmegyét néhány éve egyházi igazgatási célból négy esperesi kerületre (*arciprestado*), vagyis plébániacsoportokra osztották. Ezek a következők: a funchali kerület, amely Funchal, Câmara de Lobos, Ribeira Brava és Porto Santo községeinek egyházközségeit foglalja magában; a Calheta kerület, amely Calheta és Ponta do Sol községeinek plébániáira terjed ki; a Santa Cruz kerület, amely Santa Cruz és Machico községeinek egyházközségeiből áll; valamint a São Jorge kerület, amely Santana, Szaragosszai Szent Vince és Porto do Moniz községeinek plébániáit foglalja magában. Az esperest a püspök nevezi ki az esperesi kerület plébánosai közül.",
+  "after": "A funchali egyházmegyét néhány éve egyházi igazgatási célból négy esperesi kerületre (*arciprestado*), vagyis plébániacsoportokra osztották. Ezek a következők: a funchali kerület, amely Funchal, Câmara de Lobos, Ribeira Brava és Porto Santo községeinek egyházközségeit foglalja magában; a Calheta kerület, amely Calheta és Ponta do Sol községeinek plébániáira terjed ki; a Santa Cruz kerület, amely Santa Cruz és Machico községeinek egyházközségeiből áll; valamint a São Jorge kerület, amely Santana, São Vicente és Porto do Moniz községeinek plébániáit foglalja magában. Az esperest a püspök nevezi ki az esperesi kerület plébánosai közül."
+ },
+ {
+  "uid": "enr:arroz:abstract",
+  "before": "Beszámoló az 1918-ban Szaragosszai Szent Vince egyházközségében végzett sikeres rizstermesztési kísérletről, amely feltehetően az egyetlen ilyen próbálkozás volt Madeirán, valamint a Mezőgazdasági Tanácshoz intézett kérés a termés védelmére.",
+  "after": "Beszámoló az 1918-ban São Vicentében végzett sikeres rizstermesztési kísérletről, amely feltehetően az egyetlen ilyen próbálkozás volt Madeirán, valamint a Mezőgazdasági Tanácshoz intézett kérés a termés védelmére."
+ },
+ {
+  "uid": "art:asilo-da-infancia:b001",
+  "before": "Négy hónappal azután, hogy Luiz Mousinho a szigetre érkezett, vagyis 1834. december közepe táján megkezdte működését az új jótékonysági intézmény. Ideiglenesen a Palácio de São Lourenço (Szent Lőrinc-palota) néhány helyiségében kapott helyet, közvetlenül alapítóinak figyelmes és szeretetteljes felügyelete alatt. Egy időben 120 gyermeknek is otthont adott, és amíg kezdeményezői a szigeten tartózkodtak, viszonylag jól működött. Még az alapítók kezdeti lendületének köszönhető, hogy egy 1836. január 13-i miniszteri rendelet (*portaria*) révén az Államkincstár (*Fazenda Nacional*) tulajdonában álló házat bocsátottak a menhely rendelkezésére a Campo da Barca téren. A menhely oda költözött, néhány évig ott működött, majd egy általunk teljes pontossággal meg nem állapítható időpontban megszűnt. Miután Luiz Mousinho de Albuquerque és odaadó, jótékony felesége elhagyta a szigetet, az általuk oly sok odaadással és szeretettel létrehozott intézmény lassan hanyatlani kezdett, végül teljesen megszűnt. Egykori létezésének csupán jeles alapítói áldott emléke maradt fenn.",
+  "after": "Négy hónappal azután, hogy Luiz Mousinho a szigetre érkezett, vagyis 1834. december közepe táján megkezdte működését az új jótékonysági intézmény. Ideiglenesen a São Lourenço-palota néhány helyiségében kapott helyet, közvetlenül alapítóinak figyelmes és szeretetteljes felügyelete alatt. Egy időben 120 gyermeknek is otthont adott, és amíg kezdeményezői a szigeten tartózkodtak, viszonylag jól működött. Még az alapítók kezdeti lendületének köszönhető, hogy egy 1836. január 13-i miniszteri rendelet (*portaria*) révén az Államkincstár (*Fazenda Nacional*) tulajdonában álló házat bocsátottak a menhely rendelkezésére a Campo da Barca téren. A menhely oda költözött, néhány évig ott működött, majd egy általunk teljes pontossággal meg nem állapítható időpontban megszűnt. Miután Luiz Mousinho de Albuquerque és odaadó, jótékony felesége elhagyta a szigetet, az általuk oly sok odaadással és szeretettel létrehozott intézmény lassan hanyatlani kezdett, végül teljesen megszűnt. Egykori létezésének csupán jeles alapítói áldott emléke maradt fenn."
+ },
+ {
+  "uid": "person:jose-maria-monteiro:note:azevedo-lemos-jose-antonio-de:b000",
+  "before": "Madeira miguelista kormányzója és főkapitánya, akit Azevedo Lemos a Szent Lőrinc-erődben megpróbált bántalmazni.",
+  "after": "Madeira miguelista kormányzója és főkapitánya, akit Azevedo Lemos a São Lourenço-erődben megpróbált bántalmazni."
+ },
+ {
+  "uid": "art:azevedo-lemos-jose-antonio-de:b000",
+  "before": "Az 1828-ban Madeirára érkező katonai expedíció ezredes-parancsnoka volt. Súlyos nézeteltérései támadtak a kormányzóval és főkapitánnyal, a rossz hírű José Maria Monteiróval: odáig jutott, hogy a Fortaleza de São Lourenço (Szent Lőrinc-erőd) falain belül meg akarta támadni. A miguelista (az abszolutista Mihály király híve) kormánynál olyan emberként jelentette fel, aki csak „a bűneik és rossz erkölcseik miatt megvetendő személyek gyalázatos körére hallgat”.",
+  "after": "Az 1828-ban Madeirára érkező katonai expedíció ezredes-parancsnoka volt. Súlyos nézeteltérései támadtak a kormányzóval és főkapitánnyal, a rossz hírű José Maria Monteiróval: odáig jutott, hogy a Fortaleza de São Lourenço (São Lourenço-erőd) falain belül meg akarta támadni. A miguelista (az abszolutista Mihály király híve) kormánynál olyan emberként jelentette fel, aki csak „a bűneik és rossz erkölcseik miatt megvetendő személyek gyalázatos körére hallgat”."
+ },
+ {
+  "uid": "place:boaventura-boaventura-freguesia-da:location",
+  "before": "Boaventura egyházközség, Szaragosszai Szent Vince község",
+  "after": "Boaventura egyházközség, São Vicente község"
+ },
+ {
+  "uid": "place:boaventura-boaventura-freguesia-da:summary",
+  "before": "Egyházközség Madeira északi partján, Szaragosszai Szent Vince községben; 1836-ban vált el Ponta Delgadától. Az Elucidário tárgyalja nevének homályos eredetét, egyháztörténetét, levadáit és településrészeit, valamint egy Beresford tábornokról szóló helyi történetet.",
+  "after": "Egyházközség Madeira északi partján, São Vicente községben; 1836-ban vált el Ponta Delgadától. Az Elucidário tárgyalja nevének homályos eredetét, egyháztörténetét, levadáit és településrészeit, valamint egy Beresford tábornokról szóló helyi történetet."
+ },
+ {
+  "uid": "place:boaventura-adeira-boaventura:location",
+  "before": "Boaventura egyházközség, Szaragosszai Szent Vince község, Madeira",
+  "after": "Boaventura egyházközség, São Vicente község, Madeira"
+ },
+ {
+  "uid": "place:boaventura-adeira-boaventura:summary",
+  "before": "Madeira északi partján fekvő egyházközség Szaragosszai Szent Vince községben; egyike a község julgado-ját és concelhóját alkotó három egyházközségnek. Hegyeiben él a pau branco, és az 1895-ös árvizek károkat okoztak itt. Partjai közelében fekszenek a Boaventura-szigetek, amelyeket ilhéu Porco és ilhéu Vermelho néven is említenek.",
+  "after": "Madeira északi partján fekvő egyházközség São Vicente községben; egyike a község julgado-ját és concelhóját alkotó három egyházközségnek. Hegyeiben él a pau branco, és az 1895-ös árvizek károkat okoztak itt. Partjai közelében fekszenek a Boaventura-szigetek, amelyeket ilhéu Porco és ilhéu Vermelho néven is említenek."
+ },
+ {
+  "uid": "place:porto-da-boaventura-adeira-boaventura:location",
+  "before": "a Porco (Boaventura) patak torkolata, Boaventura egyházközség, Szaragosszai Szent Vince község, Madeira",
+  "after": "a Porco (Boaventura) patak torkolata, Boaventura egyházközség, São Vicente község, Madeira"
+ },
+ {
+  "uid": "chron:1566:00581:summary",
+  "before": "Montluc vezette francia hugenotta kalózok Gaspar Caldeira kalauzolásával partra szálltak a Praia Formosán, és kifosztották Funchalt: bevették a Szent Lőrinc-erődöt, meggyalázták a székesegyházat és a Santa Clara-kolostort, amelynek apácái a Curralba menekültek; Gaspar de Braga az ellenállás közben életét vesztette. A támadás, amely Francisco Gonçalves da Câmara kapitánysága idején történt, új parti erődítmények építésére ösztönzött.",
+  "after": "Montluc vezette francia hugenotta kalózok Gaspar Caldeira kalauzolásával partra szálltak a Praia Formosán, és kifosztották Funchalt: bevették a São Lourenço-erődöt, meggyalázták a székesegyházat és a Santa Clara-kolostort, amelynek apácái a Curralba menekültek; Gaspar de Braga az ellenállás közben életét vesztette. A támadás, amely Francisco Gonçalves da Câmara kapitánysága idején történt, új parti erődítmények építésére ösztönzött."
+ },
+ {
+  "uid": "person:francisco-goncalves-salgado:note:camacha-freguesia-da:b004",
+  "before": "A beszámolók szerint ő építette az egyházközség első székhelyéül szolgáló Szent Lőrinc-kápolnát.",
+  "after": "A beszámolók szerint ő építette az egyházközség első székhelyéül szolgáló São Lourenço-kápolnát."
+ },
+ {
+  "uid": "art:camara-francisco-goncalves-da:b001",
+  "before": "A *Saudades da Terra* szerzője a következő dicsérő szavakkal ír róla: „Minden hadviselésben igen találékony ember, nagyon mértékletes, erényes, és nemigen kényeztették: kemény körülmények között nevelkedett, testvérei kényelmétől távol. Ezért jól tűri a megpróbáltatásokat, és igen bátor lovag, amint azt a franciák Funchalba való bevonulásakor megmutatta. Főkapitányként szolgált – ahogyan akkor is szolgált, és most is szolgál –, előbb unokaöccse távollétében, majd annak halála után. Az erőd bejáratánál igen becsülettel megsebesítette a francia kapitányt, Pompador vikomtját, és ott vitéz kapitányhoz méltó bátorságot tanúsított. Ezért a király rendi tagságot és bizonyos járadékot (*tença*) adományozott neki, továbbá nyolc évre felmentette birtoka ötödének és tizedének megfizetése alól. Funchal joghatósági területén, a *termo* területén jelentős cukor- és szőlőbirtokai vannak.” A *Saudades* tudós jegyzetírója nem osztja Gaspar Frutuoso véleményét. Szerinte Francisco Gonçalves da Câmara „akire Madeira szigetének kormányzását bízták, ahelyett, hogy megtámadta volna a támadókat, még védekezni sem tudott ellenük: Funchal bejáratánál és a Fortaleza de São Lourenço (Szent Lőrinc-erőd) kapujában csupán kétségbeesett védekező küzdelem folyt, és akadt néhány kiemelkedő egyéni hőstett, amely megmentette a madeiraiak jó hírét...” Ugyanez a jegyzetíró hozzáteszi, hogy „jutalom jutott a gyáva Francisco Gonçalves da Câmara kapitánynak, aki a veszély pillanatában az asszonyok közé menekült...” Francisco Gonçalves da Câmara a ma Quinta das Cruzes néven ismert birtok tulajdonosa volt, és Gaspar Frutuoso szavaival „egy nagy és pompás udvarházban” élt ott.",
+  "after": "A *Saudades da Terra* szerzője a következő dicsérő szavakkal ír róla: „Minden hadviselésben igen találékony ember, nagyon mértékletes, erényes, és nemigen kényeztették: kemény körülmények között nevelkedett, testvérei kényelmétől távol. Ezért jól tűri a megpróbáltatásokat, és igen bátor lovag, amint azt a franciák Funchalba való bevonulásakor megmutatta. Főkapitányként szolgált – ahogyan akkor is szolgált, és most is szolgál –, előbb unokaöccse távollétében, majd annak halála után. Az erőd bejáratánál igen becsülettel megsebesítette a francia kapitányt, Pompador vikomtját, és ott vitéz kapitányhoz méltó bátorságot tanúsított. Ezért a király rendi tagságot és bizonyos járadékot (*tença*) adományozott neki, továbbá nyolc évre felmentette birtoka ötödének és tizedének megfizetése alól. Funchal joghatósági területén, a *termo* területén jelentős cukor- és szőlőbirtokai vannak.” A *Saudades* tudós jegyzetírója nem osztja Gaspar Frutuoso véleményét. Szerinte Francisco Gonçalves da Câmara „akire Madeira szigetének kormányzását bízták, ahelyett, hogy megtámadta volna a támadókat, még védekezni sem tudott ellenük: Funchal bejáratánál és a Fortaleza de São Lourenço (São Lourenço-erőd) kapujában csupán kétségbeesett védekező küzdelem folyt, és akadt néhány kiemelkedő egyéni hőstett, amely megmentette a madeiraiak jó hírét...” Ugyanez a jegyzetíró hozzáteszi, hogy „jutalom jutott a gyáva Francisco Gonçalves da Câmara kapitánynak, aki a veszély pillanatában az asszonyok közé menekült...” Francisco Gonçalves da Câmara a ma Quinta das Cruzes néven ismert birtok tulajdonosa volt, és Gaspar Frutuoso szavaival „egy nagy és pompás udvarházban” élt ott."
+ },
+ {
+  "uid": "art:capelo-e-ivens-os-exploradores:b001",
+  "before": "Néhány nappal korábban Vasco Guedes polgári kormányzó (*governador civil*) elnökletével ülést tartottak a Palácio de São Lourençóban (Szent Lőrinc-palota). Ezen véglegesítették az ünnepségek programját, és kijelölték a program egyes pontjainak megvalósításáért felelős bizottságokat.",
+  "after": "Néhány nappal korábban Vasco Guedes polgári kormányzó (*governador civil*) elnökletével ülést tartottak a Palácio de São Lourençóban (São Lourenço-palota). Ezen véglegesítették az ünnepségek programját, és kijelölték a program egyes pontjainak megvalósításáért felelős bizottságokat."
+ },
+ {
+  "uid": "place:rua-do-capitao-adeira:summary",
+  "before": "A Rua do Capitão a mai funchali Rua dos Murças Avenida de João Gonçalves Zarco és Largo da Sé közötti szakaszának korábbi neve. A donatárius kapitányról nevezték el, akinek a Szent Lőrinc-erődben lévő lakhelyéhez vezetett. Egy rövid életű, 1893-ban működő szövetkezet élelmiszerboltja is itt volt.",
+  "after": "A Rua do Capitão a mai funchali Rua dos Murças Avenida de João Gonçalves Zarco és Largo da Sé közötti szakaszának korábbi neve. A donatárius kapitányról nevezték el, akinek a São Lourenço-erődben lévő lakhelyéhez vezetett. Egy rövid életű, 1893-ban működő szövetkezet élelmiszerboltja is itt volt."
+ },
+ {
+  "uid": "art:capitao-rua-do:b000",
+  "before": "A Rua dos Murçasnak az Avenida de João Gonçalves Zarco és a Largo da Sé (Székesegyház tér) közötti szakaszát Rua do Capitãónak hívták; ezt a nevét egészen néhány évvel ezelőttig megőrizte. Régebben az egész Rua dos Murçast Rua do Capitãónak nevezték. Gaspar Frutuoso így ír: „Ebből a Rua do Sabãóból (Szappan utca) egy másik utca vezet felfelé, amelyet Rua do Capitãónak hívnak, mert ez a legegyenesebb út a házához....” A *Saudades da Terra* említette kapitány Funchal donatárius kapitánya (*capitão-donatário*) volt, aki a Fortaleza de São Lourençóban (Szent Lőrinc-erőd) lakott.",
+  "after": "A Rua dos Murçasnak az Avenida de João Gonçalves Zarco és a Largo da Sé (Székesegyház tér) közötti szakaszát Rua do Capitãónak hívták; ezt a nevét egészen néhány évvel ezelőttig megőrizte. Régebben az egész Rua dos Murçast Rua do Capitãónak nevezték. Gaspar Frutuoso így ír: „Ebből a Rua do Sabãóból (Szappan utca) egy másik utca vezet felfelé, amelyet Rua do Capitãónak hívnak, mert ez a legegyenesebb út a házához....” A *Saudades da Terra* említette kapitány Funchal donatárius kapitánya (*capitão-donatário*) volt, aki a São Lourenço-erődben lakott."
+ },
+ {
+  "uid": "enr:capitao-rua-do:abstract",
+  "before": "Egy funchali utca korábbi neve; a mai Rua dos Murças Avenida de João Gonçalves Zarco és Largo da Sé közötti szakaszát jelölte. Funchal donatárius kapitányáról nevezték el, akinek a Szent Lőrinc-erődben lévő lakhelyéhez vezetett.",
+  "after": "Egy funchali utca korábbi neve; a mai Rua dos Murças Avenida de João Gonçalves Zarco és Largo da Sé közötti szakaszát jelölte. Funchal donatárius kapitányáról nevezték el, akinek a São Lourenço-erődben lévő lakhelyéhez vezetett."
+ },
+ {
+  "uid": "art:caramujo:b000",
+  "before": "Szaragosszai Szent Vince községében (*concelho*) és egyházközségében (*freguesia*) fekvő településrész, 1325 méterrel a tengerszint felett. Menedékháza a kerületi közmunkák igazgatóságának megbízásából épült. A közelében fakadnak a Levada da Ribeira do Inferno forrásai; ez a levada (öntözőcsatorna) Szaragosszai Szent Vince egyházközségének földjeit öntözi. A levadát a forrásáig követve meglepően szép panoráma tárul a szemünk elé.",
+  "after": "São Vicente községében (*concelho*) és egyházközségében (*freguesia*) fekvő településrész, 1325 méterrel a tengerszint felett. Menedékháza a kerületi közmunkák igazgatóságának megbízásából épült. A közelében fakadnak a Levada da Ribeira do Inferno forrásai; ez a levada (öntözőcsatorna) São Vicente egyházközségének földjeit öntözi. A levadát a forrásáig követve meglepően szép panoráma tárul a szemünk elé."
+ },
+ {
+  "uid": "place:casa-do-caramujo-adeira-sao-vicente:note:casas-de-abrigo:b000",
+  "before": "Menedékház Szaragosszai Szent Vince hegyeiben.",
+  "after": "Menedékház São Vicente hegyeiben."
+ },
+ {
+  "uid": "place:casa-do-monte-medonho-adeira-sao-vicente:note:casas-de-abrigo:b000",
+  "before": "Menedékház Szaragosszai Szent Vince egyházközség hegyeiben.",
+  "after": "Menedékház São Vicente egyházközség hegyeiben."
+ },
+ {
+  "uid": "enr:clima:ch02:summary",
+  "before": "A Szent Lőrinc-i állomás és más helyek havi átlagos légnyomás- és páratartalomadatai szerepelnek. Funchalban a pára nem látható, 700–1000 m magasságban köd képződik, a száraz keleti szelek pedig igen alacsony páratartalmat hoznak.",
+  "after": "A São Lourenço-i állomás és más helyek havi átlagos légnyomás- és páratartalomadatai szerepelnek. Funchalban a pára nem látható, 700–1000 m magasságban köd képződik, a száraz keleti szelek pedig igen alacsony páratartalmat hoznak."
+ },
+ {
+  "uid": "art:concelhos:b001",
+  "before": "Funchal, Machico, Porto Santo, Ponta do Sol, Calheta, Santa Cruz, Szaragosszai Szent Vince, Câmara de Lobos, Sant’Ana, Porto Moniz és Ribeira Brava.",
+  "after": "Funchal, Machico, Porto Santo, Ponta do Sol, Calheta, Santa Cruz, São Vicente, Câmara de Lobos, Sant’Ana, Porto Moniz és Ribeira Brava."
+ },
+ {
+  "uid": "place:porto-moniz-adeira-porto-moniz:note:conservatorias-do-registo-predial:b001",
+  "before": "A Szaragosszai Szent Vince-i nyilvántartási hivatal által ellátott község.",
+  "after": "A São Vicente-i nyilvántartási hivatal által ellátott község."
+ },
+ {
+  "uid": "place:santana-santana-municipio-de:note:conservatorias-do-registo-predial:b001",
+  "before": "A Szaragosszai Szent Vince-i nyilvántartási hivatal által ellátott község.",
+  "after": "A São Vicente-i nyilvántartási hivatal által ellátott község."
+ },
+ {
+  "uid": "art:conservatorias-do-registo-predial:b000",
+  "before": "A madeirai szigetvilágban négy ingatlan-nyilvántartási hivatal működik: a funchali, amely 1880. szeptember 30-án kezdte meg működését; a Ponta do Sol-i, amelyet ugyanabban az évben hoztak létre; a Santa Cruz-i, amely 1910. szeptember 7-én kezdte meg működését; valamint a Szaragosszai Szent Vince-i, amely 1909. november 24-én kezdte meg működését.",
+  "after": "A madeirai szigetvilágban négy ingatlan-nyilvántartási hivatal működik: a funchali, amely 1880. szeptember 30-án kezdte meg működését; a Ponta do Sol-i, amelyet ugyanabban az évben hoztak létre; a Santa Cruz-i, amely 1910. szeptember 7-én kezdte meg működését; valamint a São Vicente-i, amely 1909. november 24-én kezdte meg működését."
+ },
+ {
+  "uid": "art:conservatorias-do-registo-predial:b001",
+  "before": "A funchali hivatalhoz eredetileg Funchal, Câmara de Lobos, Porto Santo, Santa Cruz, Machico és Sant’Ana községe (*concelho*) tartozott. A Szaragosszai Szent Vince-i és a Santa Cruz-i hivatal működésének megkezdése után illetékessége az első három községre szűkült. A Ponta do Sol-i hivatalhoz Ponta do Sol, Calheta, Porto Moniz és Szaragosszai Szent Vince községe tartozott; a Szaragosszai Szent Vince-i hivatal működésének megkezdése után az első két község maradt hozzá rendelve. A Santa Cruz-i hivatal Santa Cruz és Machico községében, a Szaragosszai Szent Vince-i pedig Szaragosszai Szent Vince, Porto Moniz és Sant’Ana községében illetékes.",
+  "after": "A funchali hivatalhoz eredetileg Funchal, Câmara de Lobos, Porto Santo, Santa Cruz, Machico és Sant’Ana községe (*concelho*) tartozott. A São Vicente-i és a Santa Cruz-i hivatal működésének megkezdése után illetékessége az első három községre szűkült. A Ponta do Sol-i hivatalhoz Ponta do Sol, Calheta, Porto Moniz és São Vicente községe tartozott; a São Vicente-i hivatal működésének megkezdése után az első két község maradt hozzá rendelve. A Santa Cruz-i hivatal Santa Cruz és Machico községében, a São Vicente-i pedig São Vicente, Porto Moniz és Sant’Ana községében illetékes."
+ },
+ {
+  "uid": "art:costa-do-norte:b000",
+  "before": "Madeira északi partja, amelyet általában Costa do Norte néven ismernek, a sziget nyugati vidékével határos Ponta do Tristãótól a kelet felé húzódó Ponta de São Lourenço északi lejtőjének végéig terjed. Másutt találóan hegyes, sziklás partként írják le: magas sziklatömbök sora, amely hatalmas sziklafalra emlékeztet. Alját a hullámok ostromolják, tetejét őshonos erdő dús zöldje koronázza. A ritka strandok és öblök, valamint az év nagy részében itt fújó, északi irányból érkező heves szelek miatt a part a hajók számára teljesen barátságtalan, a csónakoknak pedig kevés biztonságot nyújt. Rossz időben mindössze két menedékkikötő kínál oltalmat: Porto da Cruz és Porto Moniz, nagyjából a part keleti, illetve nyugati végén. A partszakasz Porto Moniz, Szaragosszai Szent Vince és Santana községeinek (*concelho*) egyházközségeit, továbbá a Machico községhez tartozó Porto da Cruz plébániáját és Caniçal plébániájának északi partvidékét foglalja magában.",
+  "after": "Madeira északi partja, amelyet általában Costa do Norte néven ismernek, a sziget nyugati vidékével határos Ponta do Tristãótól a kelet felé húzódó Ponta de São Lourenço északi lejtőjének végéig terjed. Másutt találóan hegyes, sziklás partként írják le: magas sziklatömbök sora, amely hatalmas sziklafalra emlékeztet. Alját a hullámok ostromolják, tetejét őshonos erdő dús zöldje koronázza. A ritka strandok és öblök, valamint az év nagy részében itt fújó, északi irányból érkező heves szelek miatt a part a hajók számára teljesen barátságtalan, a csónakoknak pedig kevés biztonságot nyújt. Rossz időben mindössze két menedékkikötő kínál oltalmat: Porto da Cruz és Porto Moniz, nagyjából a part keleti, illetve nyugati végén. A partszakasz Porto Moniz, São Vicente és Santana községeinek (*concelho*) egyházközségeit, továbbá a Machico községhez tartozó Porto da Cruz plébániáját és Caniçal plébániájának északi partvidékét foglalja magában."
+ },
+ {
+  "uid": "art:datas-historicas:b001",
+  "before": "1418 – Porto Santo szigetének felfedezése? Lásd: A szigetcsoport felfedezése. 1419 – Madeira szigetének felfedezése? 1430 – Létrejön Câmara de Lobos és Calheta egyházközsége (*freguesia*). 1433 – Duarte király Tengerész Henriknek adományozza a madeirai szigetcsoportot. 1433 – Duarte király az egyházi ügyek tekintetében a Krisztus-rendnek adományozza a szigetcsoportot. 1440 – Tristão Vaz Teixeira megkapja Machico kapitányságát. 1440 – Létrejön Caniço és Ribeira Brava plébániája. 1445 – Alvise Cadamosto hajós (lásd ott) ellátogat Madeirára és Porto Santóra. 1446 – Bartolomeu Perestrelo megkapja Porto Santo kapitányságát. 1449 – V. Alfonz megerősíti Duarte király Tengerész Henriknek tett adományát. 1450 – Létrejön Machico egyházközsége. 1451 – João Gonçalves Zarco megkapja Funchal kapitányságát. 1451 – Funchal mezővárosi (*vila*) rangot kap. 1454 – João Gonçalves földeket adományoz São Paulóban az első kórház alapítására. 1467 – Funchalban meghal az első donatárius kapitány (*capitão-donatário*), João Gonçalves Zarco. 1477 – Létrejön a funchali vámhivatal. 1493 – Igen fontos intézkedéseket hoznak a víz, a faanyag, az állatállomány, a mezőgazdasági ügyek stb. tárgyában. 1497 – I. Mánuel koronabirtokká (*realengo*) teszi a madeirai szigetcsoportot, és visszajuttatja a koronának. 1497 – Megalapítják a Convento de Santa Clarát (Assisi Szent Klára-kolostor). 1501 – Létrejön Ponta do Sol mezővárosa. 1501 – Funchalban meghal a 2. donatárius kapitány, João Gonçalves da Câmara. 1502 – Létrejön Calheta mezővárosa. 1505 – A Câmara de Lobos egyházközségében álló São Bernardino-kolostorban szentség hírében meghal Frei Pedro da Guarda, akit Isten szent szolgájaként ismertek. 1508 – Funchal mezővárosa városi rangot kap. 1508 – Dom João Lobo püspök Madeirára érkezik, hogy püspöki feladatokat lásson el. Ő az első főpap, aki a szigeten járt; mintegy két évet tölt itt. 1514 – Létrejön a funchali egyházmegye. 1515 – Santa Cruz települése mezővárosi rangot kap. 1516 – Felszentelik a funchali székesegyházat. 1517 – Létrejön São Jorge egyházközsége. 1523 – Funchal népe és városi tanácsa fogadalmat tesz Szent Jakabnak, akit Madeira „fő védőszentjévé” választanak. 1526 – A portugál szárazföldön meghal Funchal első püspöke, Dom Diogo Pinheiro. 1530 – A Porto közelében fekvő Matozinhosban meghal Funchal 3. donatárius kapitánya, Simão Gonçalves da Câmara. 1533 – Fernão Bravo és Filipa Nunes próféták esete Porto Santo szigetén. 1533 – Létrejön a funchali érsekség. 1536 – Funchalban meghal a 4. donatárius kapitány, João Gonçalves da Câmara. 1540 – Meghal Machico donatárius kapitánya, Diogo Teixeira; kapitánysága visszaszáll a koronára. 1550 – Létrejön Faial egyházközsége. 1551 – Megszűnik a funchali érsekség, az egyházmegye illetékessége pedig kiterjed Arguin szigetcsoportra. 1552 – Létrejön Santana egyházközsége. 1553 – Létrejön Seixal egyházközsége. 1557 – Létrejön Sé és Santa Maria Maior egyházközsége. 1558 – Létrejön Gaula egyházközsége. 1560 – Létrejön Água de Pena egyházközsége. 1561 – Létrejön Caniçal egyházközsége. 1565 – Létrejön Monte és São Gonçalo egyházközsége. 1566 – Francia kalózok rettenetes pusztítást végeznek Funchal városában. 1566 – Megalapítják a funchali szemináriumot. 1566 – Létrejön São Pedro egyházközsége. 1568 – Létrejön Tabua egyházközsége. 1569 – Lamegóban meghal a kiváló madeirai származású főpap, Dom Manuel de Noronha, Funchal 3. donatárius kapitánya, a Nagyszerűnek nevezett Simão Gonçalves da Câmara fia. 1570 – A jezsuiták letelepednek Madeirán. 1571 – Létrejön Fajã da Ovelha egyházközsége. 1572 – Létrejön Arco da Calheta egyházközsége. 1575 – Meghal a kiváló madeirai származású pap, Luís Gonçalves da Câmara, Sebestyén király híres nevelője. 1577 – Létrejön Canhas és Porto da Cruz egyházközsége. 1579 – Megszüntetik São Pedro egyházközségét; 1587-ben újból létrehozzák. 1579 – Létrejön São Roque és São Martinho egyházközsége. 1580 – Meghal Funchal 5. és 6. donatárius kapitánya, Simão Gonçalves da Câmara és João Gonçalves da Câmara. 1581 – Madeirát általános kormányzók kezdik igazgatni. Az első João Leitão főtörvényszéki bíró (*desembargador*), a Fülöp-párti kormány képviselője. 1582 – Létrejön Madalena do Mar plébániája. 1583 – Évorában meghal a jeles nyelvtudós és kiváló madeirai származású pap, Manuel Álvares. 1588 – A kiváló madeirai származású Dom Sebastião de Morais, Japán első püspöke Mozambikban hal meg, miközben püspöksége felé tart. 1590 – Dr. Gaspar Frutuoso megírja híres *Saudades da Terra* című művét; a következő évben São Miguel szigetén meghal. 1593 – A szigeten fellép az „égi tűz” néven ismert légköri izzás: elpusztítja az egész növényzetet, sőt néhány házat is felgyújt. 1595 – Meghal a kiváló madeirai származású jogtudós, dr. António da Gama Pereira. 1608 – Funchalban meghal Luís de Figueiredo e Lemos megyés püspök; a székesegyházban temetik el. 1624 – Meghal Madeira kormányzója és főkapitánya, Dom Francisco Henriques; a kollégium templomában temetik el. 1626 – Meghal a szigetcsoport kormányzója és főkapitánya, Fernão de Saldanha. 1641 – Madeirán IV. János kikiáltásával (*aclamação*, az új király ünnepélyes nyilvános kihirdetése) kihirdetik Portugália függetlenségének helyreállítását. 1650 – Henrique Calaça de Viveiros kanonok megalapítja az Incarnação-kolostort. 1654 – Madeira képviseletet kap a régi Cortesben (a portugál országgyűlésben). 1655 – Simão Gonçalves Cidrão főesperes megalapítja a Recolhimento do Bom Jesust. 1656 – IV. János leányának, Braganzai Katalin infánsnőnek adományozza a madeirai szigetcsoportot. 1665 – Meghal Manuel Tomaz, az *Insulana* című költemény szerzője. 1668 – Nagy népfelkelés tör ki Funchalban: megfosztják hivatalától Francisco de Mascarenhas kormányzót és főkapitányt, és más erőszakos cselekményeket is elkövetnek. 1674 – Funchalban meghal Dom Gabriel de Almeida megyés püspök; a székesegyházban temetik el. 1676 – Létrejön Arco de São Jorge, Camacha, Santa Luzia, Serra de Água és Paul do Mar plébániája. 1681 – A brazíliai Olindában meghal és ott is nyugszik a kiváló madeirai származású João Fernandes Vieira, Pernambuco felszabadítója. 1682 – E városban meghal António Teles da Silva megyés főpásztor; a székesegyházban temetik el. 1690 – Két kalózhajó kifosztja Porto Santo szigetét, és felgyújtja a templomot meg más épületeket. 1691 – Meghal a kiváló madeirai származású kanonok, António Veloso de Lira. 1699 – Nagy tűz pusztít a São Lourenço-erődben: megsemmisülnek a szigetcsoport kormányzóinak és főkapitányainak lakóhelyei. 1704 – Funchalban meghal a szigetcsoport kormányzója és főkapitánya, João da Costa de Ataíde e Azevedo. 1708 – Francia kalózok kifosztják Porto Santo szigetét. 1724 – Nagy pusztító árvíz (*aluvião*) jelentős károkat okoz. 1729 – Meghal a kiváló madeirai költő, Troilo de Vasconcelos da Cunha. 1730 – Meghal Henrique Henriques de Noronha madeirai író és jeles családfakutató. 1733 – Létrejön Boaventura, Ribeira da Janela és Prazeres lelkészsége (*curato*). 1734 – Létrejön Jardim do Mar lelkészsége. 1743 – São Vicente mezővárosi rangot kap. 1748 – Erős földrengés jelentős károkat okoz és néhány áldozatot követel. 1753 – Funchalban meghal Dom João do Nascimento megyés püspök. 1755 – Dr. Julião Fernandes da Silva megírja a *Carta critica sobre o methodo curativo dos medicos funchalenses* című érdekes és figyelemre méltó könyvet. 1756 – Elrendelik egy menedékkikötő építését Funchalban. 1760 – A jezsuitákat kiűzik Madeiráról. 1765 – Nagy pusztító árvíz óriási károkat okoz. 1767 – Az igazságszolgáltatási reform véglegesen *corregedort* (királyi kerületi bírót) és *juiz de forát* (a korona által kinevezett, kívülről érkező bírót) állít Madeirára. 1770 – Kiadják a Porto Santo szigetére vonatkozó fontos intézkedéseket tartalmazó, az ötödök és nyolcadok törvényeként (*lei dos Quintos e Oitavos*) ismert híres királyi rendeletet (*alvará*). 1772 – Madeirán több elemi iskolát, három latin-, egy filozófia- és egy retorikaórát hoznak létre. 1775 – Létrejön a szigetcsoport Pénzügyi Tanácsa (*Junta da Fazenda*). 1777 – Madeira jeles kormányzója, João António de Sá Pereira elhagyja a szigetet: az anyaország kormánya hazahívja, hogy tisztázza magát az ellene felhozott vádak alól. 1784 – E városban meghal Dom Gaspar Afonso da Costa Brandão megyés püspök. 1786 – Heves esőzés és viharos szél sok kárt okoz. 1787 – A jezsuiták kollégiumát és templomát átengedik a megyés püspöknek a szeminárium elhelyezésére. 1790 – Létrejön Curral das Freiras egyházközsége. 1792 – Súlyos események követik a szabadkőműves páholyok tagjainak a kormányzó és a megyés püspök általi üldözését. 1798 – Véglegesen létrehozzák a postaszolgálatot Madeirán. 1798 – Funchalban meghal a szigetcsoport kiváló kormányzója és főkapitánya, Dom Diogo Pereira Forjaz Coutinho. 1801 – Brit csapatok megszállják Madeirát. 1803 – Hatalmas pusztító árvíz rendkívül nagy károkat okoz, és több száz ember életét követeli. 1806 – Lisszabonban meghal Francisco Álvares de Nóbrega madeirai költő, akit „Kis Camões” néven ismertek. 1807 – Funchalban meghal Reinaldo Oudinot dandártábornok, aki az 1803-as nagy árvíz után a funchali patakok mederszabályozását és partfalaik építését irányította. 1807 – Brit csapatok másodszor is megszállják Madeirát. 1810 – Funchalban meghal Dom Luís Rodrigues de Vilares megyés püspök. 1810 – Létrejön a Madeira és Porto Santo mezőgazdaságának fejlesztéséért felelős tanács. 1814 – Funchalban meghal Madeira kormányzója és főkapitánya, Luís Baltrão de Gouveia e Almeida. 1815 – Napóleon áthalad Madeirán. 1815 – Nagy pusztító árvíz súlyos károkat okoz. 1821 – Madeirán kihirdetik az alkotmányt. 1821 – Megjelenik a *Patriota Funchalense*, Madeira első újságja. 1822 – Nagy ünnepélyességgel leteszik annak az emlékműnek az alapkövét, amely a madeirai alkotmánykihirdetés emlékét hivatott megőrizni. 1823 – Hat bíróból álló rendkívüli bírói bizottság (*alçada*) érkezik a szigetre, hogy ítélkezzen az abszolutista kormánnyal szemben állóként fellépők felett, és megbüntesse őket. 1828 – Két főtörvényszéki bíró érkezik, hogy szigorú bírósági vizsgálatot (*devassa*) folytasson politikai események ügyében. Több mint kétszáz személy ellen emelnek vádat; többségüket különféle büntetésekre, főként a tengerentúli tartományokba való száműzetésre ítélik. 1828 – A miguelista (az abszolutista Mihály király híveiből álló) hajóraj bombázza Machico mezővárosát. A csapatok ott partra szállnak, majd a város felé vonulnak, amelyet elfoglalnak; ezután kihirdetik az abszolutista kormányzást. 1829 – Lisszabonban meghal a kiváló madeirai származású dr. João Francisco de Oliveira. 1832 – Az Azori-szigetekről érkező, Luís Mousinho vezette alkotmányos csapatok elfoglalják Porto Santo szigetét. 1832 – Lisszabonban meghal a kiváló madeirai származású író, Manuel Caetano Pimenta de Aguiar. 1835 – Megkezdik a Rabaçal levadáinak (öntözőcsatornáinak) építését. 1836 – Létrejön a funchali gimnázium (*liceu*), amely a következő évben kezdi meg működését. 1836 – Megalapítják a Funchali Kereskedelmi Egyesületet. 1837 – Létrehozzák és megnyitják a Funchali Orvosi-Sebészeti Iskolát. 1838 – Berendezik és megnyitják a közönség előtt a funchali városi tanács könyvtárát. 1838 – Ünnepélyesen megáldják és felavatják az Angústias temetőt. 1840 – Elkészül és megnyílik a közönség előtt a São Pedro-i piac. 1840 – Madeirára érkezik a nagy költő, António Feliciano de Castilho. 1842 – Heves viharok és sok kárt okozó pusztító árvíz sújtják a szigetet. 1846 – José Silvestre Ribeirót e kerület polgári kormányzójává (*governador civil*) nevezik ki. 1846 – José Silvestre Ribeiro kormányzó megkezdi Funchal nagy közvilágítási munkálatait. 1846 – A híres protestáns hittérítőt, dr. Roberto Kalleyt erőszakkal Madeira elhagyására kényszerítik; ekkor több zavargás is kitör. 1847 – Madeirára érkezik Adelheid angol királyné, és néhány hónapot tölt itt. 1847 – Felállítják a kormányzó testületet (*junta governativa*): a Portói Tanács által az országban elindított események Madeirán is éreztetik hatásukat. 1847 – Ezt az évet az éhínség éveként ismerik, mert a szigetcsoport rettenetes élelmezési válságon megy át. 1847 – José Silvestre Ribeiro kezdeményezésére létrejön a funchali menhely, amely ma is az ő nevét viseli. 1848 – Létrejön Ribeira da Janela, Achadas da Cruz és São Roque do Faial egyházközsége; ezek korábban már önálló lelkészségek voltak. Ugyanebben az évben létrejön Quinta Grande egyházközsége is. 1848 – Megépítik a Ribeiro Seco hídját, és megkezdik az onnan Câmara de Lobosba vezető út építését. 1849 – Elrendelik egy karanténkórház (*lazareto*) építését a Ribeira de Gonçalo Aires torkolatánál. 1850 – Porto Santo strandján hajótörést szenved egy, a szigetről való hajó; tizenöt ember meghal. 1850 – José Silvestre Ribeiro polgári kormányzó kezdeményezésére természettudományi múzeumot létesítenek a Palácio de São Lourençóban (Szent Lőrinc-palota). 1852 – A szőlőben terjedni kezd a *mangra* (a szőlő lisztharmata, oídium) néven ismert betegség, amely rendkívüli pusztítást végez, és Madeira történetének egyik legsúlyosabb válságát idézi elő. 1853 – Funchalban meghal Mária Amália hercegnő, IV. Péter leánya. 1853 – Leánya emlékére Amália császárné megalapítja a Hospício da Princesa D. Maria Améliát. Az intézmény ideiglenesen a Rua do Castanheiro egyik házában kap helyet; 1862-ben véglegesen beköltözik abba a pompás épületbe, amelyet a császárné e célra építtetett, és amelynek szabályos működéséhez szükséges pénzalapot is biztosította. 1856 – Madeirát történetének egyik legsúlyosabb csapása, a kolerajárvány sújtja: mintegy tízezer lakosa hal meg. 1856 – Ez év májusában a szigetcsoport több egyházközségében több mint húsz, mindkét nem számára nyitott iskolát hoznak létre. 1857 – Lisszabonban meghal a kiváló madeirai származású dr. Lourenço José Moniz. 1858 – Dom Luís herceg, a későbbi portugál király először látogat el a szigetre. 1860 – Erzsébet osztrák császárné Madeirára látogat, és néhány hónapig itt marad. 1861 – Lisszabonban meghal a kiváló madeirai származású Jervis de Atouguia vikomtja. 1862 – Megalapítják a Funchali Jótékonysági Egyesületet; mai neve „1862. szeptember 4.” Kölcsönös Segélyegylet. 1865 – Coimbrában meghal a kiváló egyetemi tanár és jeles madeirai származású dr. Justino António de Freitas. 1866 – Funchalban meghal a kiváló madeirai származású és nagy tudású tanár, Marceliano Ribeiro de Mendonça. 1868 – Súlyos események történnek a város strandján: halottak és sebesültek vannak, amikor a nép megakadályozza a kiváló madeirai származású Jacinto de Sant’Ana e Vasconcelos partraszállását. Ő azért érkezett a szigetre, hogy képviselőjelöltségével foglalkozzon. 1869 – Először érkezik a szigetre a jeles regényíró, Júlio Dinis, aki megírta kitűnő *Os Fidalgos da Casa Mourisca* című könyvét. 1870 – Meghal a nagy tudású orvos és kiváló madeirai származású dr. António da Luz Pita. 1870 – Machicóban súlyos események történnek a választások idején: több helybéli a fegyveres erők golyóitól hal meg, miután azok erőszak alkalmazására kényszerülnek. 1872 – Nagy himlőjárvány pusztít, mintegy ezer ember hal meg. 1873 – Megalakul a Companhia Fabril de Açucar Madeirense, amely felépítteti a nagy São João-i gyárat. 1873 – A kiváló tanár és ügyvéd, dr. Álvaro Rodrigues de Azevedo kiadja dr. Gaspar Frutuoso híres, *Saudades da Terra* című művének Madeirával foglalkozó részét, és terjedelmes, tudós jegyzetekkel gazdagítja. 1874 – Tengeralatti kábel köti össze Madeirát a portugál szárazfölddel. 1874 – Angra do Heroísmóban meghal a kiváló madeirai származású dr. Nicolau Anastácio de Bettencourt. 1875 – Létrejön Santa Cruz, Ponta do Sol és São Vicente bírósági kerülete. 1875 – E városban megalapítják a Banco Comercial da Madeirát. 1876 – Heves viharok néhány hajót Funchal strandjára vetnek. 1876 – Megjelenik a *Diário de Notícias*, az első itt kiadott napilap. 1876 – Funchalban meghal a kiváló költő és jeles madeirai származású José António Monteiro Teixeira. 1877 – A funchali szemináriumban előkészítő tanfolyamot hoznak létre; néhány évvel később a vidék természettudományi tárgyait bemutató múzeumot rendeznek be. 1878 – Nagyarányú kivándorlás indul a Sandwich-szigetekre. 1879 – Madeirán megtiltják a külföldi pénzek forgalmát, amelyeket addig szabadon használtak. 1880 – Lisszabonban meghal a kiváló madeirai származású Aires de Ornelas e Vasconcelos, Goa érseke. 1884 – Súlyos események történnek Ribeira Brava egyházközségében a képviselőválasztás idején; több helybéli meghal. 1887 – Madeira számos egyházközségében súlyos zavargások törnek ki az egyházközségi tanácsok felállításának megakadályozására. A népi mozgalomnak igen súlyos következményei vannak; a nép *Parreca* néven ismeri. 1888 – Felavatják a funchali önkéntes tűzoltótestületet. 1888 – Megnyílik a „Manuel de Arriaga” színház, amelyet eredetileg Dona Maria Piáról neveztek el. 1889 – Felállítják a városi orvosi rendelőt. 1889 – Létrejön a funchali ipariskola. 1889 – Dom João de Alarcão kormányzó kezdeményezésére megalapítják a Szegényeket Segítő Egyesületet, amelyet Sopa Económica néven ismernek. 1890 – Funchalban meggyilkolják a kiskorú Francisco José de Ornelast; az eset mélyen megrendíti Madeira lakosságát. 1892 – Felüti fejét a veszettség: több embert megtámad, és néhányan belehalnak a rettenetes betegségbe. 1892 – Megépül az Entrada da Cidade rakpartja; a munkálatok 1889-ben kezdődtek. 1893 – Felavatják a Monte vasút első szakaszát. 1897 – Bevezetik az elektromos világítást Funchalban. 1897 – Befejezettnek nyilvánítják a Pontinha hullámtörő gátjának átépítését és bővítését; az eredeti munkálatok 1886-ban kezdődtek. 1899 – Lisszabonban meghal kiváló honfitársunk, dr. Luís da Câmara Pestana. 1900 – Létrejön az elemi iskolai tanítóképző. 1901 – A kerület (*distrito*) közigazgatási autonómiát kap. Az ezzel járó jogköröket és feladatokat egy nép által választott testület, a kerület főtanácsa (*Junta Geral*) gyakorolja. 1901 – I. Károly és Amália királyné, Portugália uralkodói meglátogatják a szigetet. 1902 – Funchalban meghal a kiváló madeirai származású Canavial grófja. 1902 – Létrejön az Auxílio Maternal. 1905 – Nagy ünnepélyességgel leteszik a Marmeleiros szanatórium épületének alapkövét, miután a portugál kormány korábban engedélyt adott erre Frederico Hohenlohe hercegnek. 1906 – Megalapítják a Monte Pio Madeirensét. 1906 – Megkezdi működését a Câmara Pestana elmegyógyintézet. 1906 – Helybeliek egy csoportja megtámadja a karanténkórház épületét, ahol a Madeirán pusztító pestisjárvány számos betegét ápolják. Lerombolják a létesítményeket, és szabadon engedik a betegeket, akiket a fennálló körülmények kényszerítő ereje juttatott oda. 1907 – Lisszabonban meghal a kiváló madeirai származású José Vicente Barbosa du Bocage, tudós zoológus és jeles államférfi. 1908 – Tűz pusztítja el Ponta Delgada egyházközségének szép templomát. 1908 – A funchali városi tanács felhatalmazást kap arra, hogy kizárólag a csatornázásra és az ivóvízellátásra fordítandó kölcsönt vegyen fel. 1910 – Az év végén kolera jelenik meg e városban. Szinte az egész szigeten elterjed, és mintegy 550 áldozatot követel. A központi kormány emiatt Madeirára küldi dr. Alfredo de Magalhãest a köztársaság főbiztosaként és dr. Carlos Françát az összes orvosi és közegészségügyi szolgálat vezetőjeként. 1911 – Funchalban meghal a kiváló megyés főpásztor, Dom Manuel Agostinho Barreto. 1911 – Funchalban kiépítik a telefonhálózatot. 1911 – Létrejön a Madeirai Mezőgazdasági Tanács; 1919-ben megszüntetik. 1913 – Létrejön a Funchali Kikötő Munkálatainak Autonóm Tanácsa. 1914 – Létrejön Ribeira Brava községe (*concelho*). 1916 – Felavatják a Funchalból São Vicente Encumeadájáig vezető utat. 1916 – Egy német tengeralattjáró bombázza Funchal városát; a támadás a következő évben megismétlődik. 1917 – Lisszabonban meghal a kiváló madeirai származású Jaime Moniz. 1921 – Megjelenik az *Elucidário Madeirense* első kötete. 1922 – Nagyszabású ünnepségekkel és impozáns történelmi felvonulással emlékeznek meg a madeirai szigetcsoport felfedezésének ötszázadik évfordulójáról. 1922 – Brazíliából visszatérőben Funchalban megáll a köztársasági elnök, dr. António José de Almeida. 1925 – Dr. António Oliveira Salazar és dr. Mário de Figueiredo Funchalban járnak, és előadásokat tartanak a Katolikus Egyesület termeiben. 1929 – São Vicente egyházközség Estreito da Vargem településrészében (*sítio*) nagy áradás 32 ember halálát okozza. 1930 – A Santa Casa da Misericórdia kórháza a Monte egyházközségében álló Marmeleiros szanatóriumba költözik. 1930 – A Câmara de Lobos egyházközségében, a Ribeira do Vigário torkolatánál hatalmas földcsuszamlás (*quebrada*) következik be. A visszaáramló víz 20 embert sodor a tengerbe; mindannyian életüket vesztik. 1931 – Létrejön a Funchali Kerületi Levéltár. 1931 – Katonai felkelés tör ki, amelyet a portugál szárazföldről érkező szárazföldi és tengeri erők levernek. A felkelés madeirai forradalomként válik ismertté. 1933 – Felavatják az Entrada da Cidade rakpartjának meghosszabbítását. 1936 – Több egyházközségben súlyos közrendzavarások támadnak a Tejtermékügyi Tanács és a hozzá tartozó szolgálatok létrehozása miatt. A lázadó mozgalom leverésére két hadihajó és katonai alakulatok érkeznek. 1938 – Óscar Carmona tábornok, köztársasági elnök Madeirára érkezik, ahol lelkes fogadtatásban részesül. 1939 – Felavatják az Avenida do Mart.",
+  "after": "1418 – Porto Santo szigetének felfedezése? Lásd: A szigetcsoport felfedezése. 1419 – Madeira szigetének felfedezése? 1430 – Létrejön Câmara de Lobos és Calheta egyházközsége (*freguesia*). 1433 – Duarte király Tengerész Henriknek adományozza a madeirai szigetcsoportot. 1433 – Duarte király az egyházi ügyek tekintetében a Krisztus-rendnek adományozza a szigetcsoportot. 1440 – Tristão Vaz Teixeira megkapja Machico kapitányságát. 1440 – Létrejön Caniço és Ribeira Brava plébániája. 1445 – Alvise Cadamosto hajós (lásd ott) ellátogat Madeirára és Porto Santóra. 1446 – Bartolomeu Perestrelo megkapja Porto Santo kapitányságát. 1449 – V. Alfonz megerősíti Duarte király Tengerész Henriknek tett adományát. 1450 – Létrejön Machico egyházközsége. 1451 – João Gonçalves Zarco megkapja Funchal kapitányságát. 1451 – Funchal mezővárosi (*vila*) rangot kap. 1454 – João Gonçalves földeket adományoz São Paulóban az első kórház alapítására. 1467 – Funchalban meghal az első donatárius kapitány (*capitão-donatário*), João Gonçalves Zarco. 1477 – Létrejön a funchali vámhivatal. 1493 – Igen fontos intézkedéseket hoznak a víz, a faanyag, az állatállomány, a mezőgazdasági ügyek stb. tárgyában. 1497 – I. Mánuel koronabirtokká (*realengo*) teszi a madeirai szigetcsoportot, és visszajuttatja a koronának. 1497 – Megalapítják a Convento de Santa Clarát (Assisi Szent Klára-kolostor). 1501 – Létrejön Ponta do Sol mezővárosa. 1501 – Funchalban meghal a 2. donatárius kapitány, João Gonçalves da Câmara. 1502 – Létrejön Calheta mezővárosa. 1505 – A Câmara de Lobos egyházközségében álló São Bernardino-kolostorban szentség hírében meghal Frei Pedro da Guarda, akit Isten szent szolgájaként ismertek. 1508 – Funchal mezővárosa városi rangot kap. 1508 – Dom João Lobo püspök Madeirára érkezik, hogy püspöki feladatokat lásson el. Ő az első főpap, aki a szigeten járt; mintegy két évet tölt itt. 1514 – Létrejön a funchali egyházmegye. 1515 – Santa Cruz települése mezővárosi rangot kap. 1516 – Felszentelik a funchali székesegyházat. 1517 – Létrejön São Jorge egyházközsége. 1523 – Funchal népe és városi tanácsa fogadalmat tesz Szent Jakabnak, akit Madeira „fő védőszentjévé” választanak. 1526 – A portugál szárazföldön meghal Funchal első püspöke, Dom Diogo Pinheiro. 1530 – A Porto közelében fekvő Matozinhosban meghal Funchal 3. donatárius kapitánya, Simão Gonçalves da Câmara. 1533 – Fernão Bravo és Filipa Nunes próféták esete Porto Santo szigetén. 1533 – Létrejön a funchali érsekség. 1536 – Funchalban meghal a 4. donatárius kapitány, João Gonçalves da Câmara. 1540 – Meghal Machico donatárius kapitánya, Diogo Teixeira; kapitánysága visszaszáll a koronára. 1550 – Létrejön Faial egyházközsége. 1551 – Megszűnik a funchali érsekség, az egyházmegye illetékessége pedig kiterjed Arguin szigetcsoportra. 1552 – Létrejön Santana egyházközsége. 1553 – Létrejön Seixal egyházközsége. 1557 – Létrejön Sé és Santa Maria Maior egyházközsége. 1558 – Létrejön Gaula egyházközsége. 1560 – Létrejön Água de Pena egyházközsége. 1561 – Létrejön Caniçal egyházközsége. 1565 – Létrejön Monte és São Gonçalo egyházközsége. 1566 – Francia kalózok rettenetes pusztítást végeznek Funchal városában. 1566 – Megalapítják a funchali szemináriumot. 1566 – Létrejön São Pedro egyházközsége. 1568 – Létrejön Tabua egyházközsége. 1569 – Lamegóban meghal a kiváló madeirai származású főpap, Dom Manuel de Noronha, Funchal 3. donatárius kapitánya, a Nagyszerűnek nevezett Simão Gonçalves da Câmara fia. 1570 – A jezsuiták letelepednek Madeirán. 1571 – Létrejön Fajã da Ovelha egyházközsége. 1572 – Létrejön Arco da Calheta egyházközsége. 1575 – Meghal a kiváló madeirai származású pap, Luís Gonçalves da Câmara, Sebestyén király híres nevelője. 1577 – Létrejön Canhas és Porto da Cruz egyházközsége. 1579 – Megszüntetik São Pedro egyházközségét; 1587-ben újból létrehozzák. 1579 – Létrejön São Roque és São Martinho egyházközsége. 1580 – Meghal Funchal 5. és 6. donatárius kapitánya, Simão Gonçalves da Câmara és João Gonçalves da Câmara. 1581 – Madeirát általános kormányzók kezdik igazgatni. Az első João Leitão főtörvényszéki bíró (*desembargador*), a Fülöp-párti kormány képviselője. 1582 – Létrejön Madalena do Mar plébániája. 1583 – Évorában meghal a jeles nyelvtudós és kiváló madeirai származású pap, Manuel Álvares. 1588 – A kiváló madeirai származású Dom Sebastião de Morais, Japán első püspöke Mozambikban hal meg, miközben püspöksége felé tart. 1590 – Dr. Gaspar Frutuoso megírja híres *Saudades da Terra* című művét; a következő évben São Miguel szigetén meghal. 1593 – A szigeten fellép az „égi tűz” néven ismert légköri izzás: elpusztítja az egész növényzetet, sőt néhány házat is felgyújt. 1595 – Meghal a kiváló madeirai származású jogtudós, dr. António da Gama Pereira. 1608 – Funchalban meghal Luís de Figueiredo e Lemos megyés püspök; a székesegyházban temetik el. 1624 – Meghal Madeira kormányzója és főkapitánya, Dom Francisco Henriques; a kollégium templomában temetik el. 1626 – Meghal a szigetcsoport kormányzója és főkapitánya, Fernão de Saldanha. 1641 – Madeirán IV. János kikiáltásával (*aclamação*, az új király ünnepélyes nyilvános kihirdetése) kihirdetik Portugália függetlenségének helyreállítását. 1650 – Henrique Calaça de Viveiros kanonok megalapítja az Incarnação-kolostort. 1654 – Madeira képviseletet kap a régi Cortesben (a portugál országgyűlésben). 1655 – Simão Gonçalves Cidrão főesperes megalapítja a Recolhimento do Bom Jesust. 1656 – IV. János leányának, Braganzai Katalin infánsnőnek adományozza a madeirai szigetcsoportot. 1665 – Meghal Manuel Tomaz, az *Insulana* című költemény szerzője. 1668 – Nagy népfelkelés tör ki Funchalban: megfosztják hivatalától Francisco de Mascarenhas kormányzót és főkapitányt, és más erőszakos cselekményeket is elkövetnek. 1674 – Funchalban meghal Dom Gabriel de Almeida megyés püspök; a székesegyházban temetik el. 1676 – Létrejön Arco de São Jorge, Camacha, Santa Luzia, Serra de Água és Paul do Mar plébániája. 1681 – A brazíliai Olindában meghal és ott is nyugszik a kiváló madeirai származású João Fernandes Vieira, Pernambuco felszabadítója. 1682 – E városban meghal António Teles da Silva megyés főpásztor; a székesegyházban temetik el. 1690 – Két kalózhajó kifosztja Porto Santo szigetét, és felgyújtja a templomot meg más épületeket. 1691 – Meghal a kiváló madeirai származású kanonok, António Veloso de Lira. 1699 – Nagy tűz pusztít a São Lourenço-erődben: megsemmisülnek a szigetcsoport kormányzóinak és főkapitányainak lakóhelyei. 1704 – Funchalban meghal a szigetcsoport kormányzója és főkapitánya, João da Costa de Ataíde e Azevedo. 1708 – Francia kalózok kifosztják Porto Santo szigetét. 1724 – Nagy pusztító árvíz (*aluvião*) jelentős károkat okoz. 1729 – Meghal a kiváló madeirai költő, Troilo de Vasconcelos da Cunha. 1730 – Meghal Henrique Henriques de Noronha madeirai író és jeles családfakutató. 1733 – Létrejön Boaventura, Ribeira da Janela és Prazeres lelkészsége (*curato*). 1734 – Létrejön Jardim do Mar lelkészsége. 1743 – São Vicente mezővárosi rangot kap. 1748 – Erős földrengés jelentős károkat okoz és néhány áldozatot követel. 1753 – Funchalban meghal Dom João do Nascimento megyés püspök. 1755 – Dr. Julião Fernandes da Silva megírja a *Carta critica sobre o methodo curativo dos medicos funchalenses* című érdekes és figyelemre méltó könyvet. 1756 – Elrendelik egy menedékkikötő építését Funchalban. 1760 – A jezsuitákat kiűzik Madeiráról. 1765 – Nagy pusztító árvíz óriási károkat okoz. 1767 – Az igazságszolgáltatási reform véglegesen *corregedort* (királyi kerületi bírót) és *juiz de forát* (a korona által kinevezett, kívülről érkező bírót) állít Madeirára. 1770 – Kiadják a Porto Santo szigetére vonatkozó fontos intézkedéseket tartalmazó, az ötödök és nyolcadok törvényeként (*lei dos Quintos e Oitavos*) ismert híres királyi rendeletet (*alvará*). 1772 – Madeirán több elemi iskolát, három latin-, egy filozófia- és egy retorikaórát hoznak létre. 1775 – Létrejön a szigetcsoport Pénzügyi Tanácsa (*Junta da Fazenda*). 1777 – Madeira jeles kormányzója, João António de Sá Pereira elhagyja a szigetet: az anyaország kormánya hazahívja, hogy tisztázza magát az ellene felhozott vádak alól. 1784 – E városban meghal Dom Gaspar Afonso da Costa Brandão megyés püspök. 1786 – Heves esőzés és viharos szél sok kárt okoz. 1787 – A jezsuiták kollégiumát és templomát átengedik a megyés püspöknek a szeminárium elhelyezésére. 1790 – Létrejön Curral das Freiras egyházközsége. 1792 – Súlyos események követik a szabadkőműves páholyok tagjainak a kormányzó és a megyés püspök általi üldözését. 1798 – Véglegesen létrehozzák a postaszolgálatot Madeirán. 1798 – Funchalban meghal a szigetcsoport kiváló kormányzója és főkapitánya, Dom Diogo Pereira Forjaz Coutinho. 1801 – Brit csapatok megszállják Madeirát. 1803 – Hatalmas pusztító árvíz rendkívül nagy károkat okoz, és több száz ember életét követeli. 1806 – Lisszabonban meghal Francisco Álvares de Nóbrega madeirai költő, akit „Kis Camões” néven ismertek. 1807 – Funchalban meghal Reinaldo Oudinot dandártábornok, aki az 1803-as nagy árvíz után a funchali patakok mederszabályozását és partfalaik építését irányította. 1807 – Brit csapatok másodszor is megszállják Madeirát. 1810 – Funchalban meghal Dom Luís Rodrigues de Vilares megyés püspök. 1810 – Létrejön a Madeira és Porto Santo mezőgazdaságának fejlesztéséért felelős tanács. 1814 – Funchalban meghal Madeira kormányzója és főkapitánya, Luís Baltrão de Gouveia e Almeida. 1815 – Napóleon áthalad Madeirán. 1815 – Nagy pusztító árvíz súlyos károkat okoz. 1821 – Madeirán kihirdetik az alkotmányt. 1821 – Megjelenik a *Patriota Funchalense*, Madeira első újságja. 1822 – Nagy ünnepélyességgel leteszik annak az emlékműnek az alapkövét, amely a madeirai alkotmánykihirdetés emlékét hivatott megőrizni. 1823 – Hat bíróból álló rendkívüli bírói bizottság (*alçada*) érkezik a szigetre, hogy ítélkezzen az abszolutista kormánnyal szemben állóként fellépők felett, és megbüntesse őket. 1828 – Két főtörvényszéki bíró érkezik, hogy szigorú bírósági vizsgálatot (*devassa*) folytasson politikai események ügyében. Több mint kétszáz személy ellen emelnek vádat; többségüket különféle büntetésekre, főként a tengerentúli tartományokba való száműzetésre ítélik. 1828 – A miguelista (az abszolutista Mihály király híveiből álló) hajóraj bombázza Machico mezővárosát. A csapatok ott partra szállnak, majd a város felé vonulnak, amelyet elfoglalnak; ezután kihirdetik az abszolutista kormányzást. 1829 – Lisszabonban meghal a kiváló madeirai származású dr. João Francisco de Oliveira. 1832 – Az Azori-szigetekről érkező, Luís Mousinho vezette alkotmányos csapatok elfoglalják Porto Santo szigetét. 1832 – Lisszabonban meghal a kiváló madeirai származású író, Manuel Caetano Pimenta de Aguiar. 1835 – Megkezdik a Rabaçal levadáinak (öntözőcsatornáinak) építését. 1836 – Létrejön a funchali gimnázium (*liceu*), amely a következő évben kezdi meg működését. 1836 – Megalapítják a Funchali Kereskedelmi Egyesületet. 1837 – Létrehozzák és megnyitják a Funchali Orvosi-Sebészeti Iskolát. 1838 – Berendezik és megnyitják a közönség előtt a funchali városi tanács könyvtárát. 1838 – Ünnepélyesen megáldják és felavatják az Angústias temetőt. 1840 – Elkészül és megnyílik a közönség előtt a São Pedro-i piac. 1840 – Madeirára érkezik a nagy költő, António Feliciano de Castilho. 1842 – Heves viharok és sok kárt okozó pusztító árvíz sújtják a szigetet. 1846 – José Silvestre Ribeirót e kerület polgári kormányzójává (*governador civil*) nevezik ki. 1846 – José Silvestre Ribeiro kormányzó megkezdi Funchal nagy közvilágítási munkálatait. 1846 – A híres protestáns hittérítőt, dr. Roberto Kalleyt erőszakkal Madeira elhagyására kényszerítik; ekkor több zavargás is kitör. 1847 – Madeirára érkezik Adelheid angol királyné, és néhány hónapot tölt itt. 1847 – Felállítják a kormányzó testületet (*junta governativa*): a Portói Tanács által az országban elindított események Madeirán is éreztetik hatásukat. 1847 – Ezt az évet az éhínség éveként ismerik, mert a szigetcsoport rettenetes élelmezési válságon megy át. 1847 – José Silvestre Ribeiro kezdeményezésére létrejön a funchali menhely, amely ma is az ő nevét viseli. 1848 – Létrejön Ribeira da Janela, Achadas da Cruz és São Roque do Faial egyházközsége; ezek korábban már önálló lelkészségek voltak. Ugyanebben az évben létrejön Quinta Grande egyházközsége is. 1848 – Megépítik a Ribeiro Seco hídját, és megkezdik az onnan Câmara de Lobosba vezető út építését. 1849 – Elrendelik egy karanténkórház (*lazareto*) építését a Ribeira de Gonçalo Aires torkolatánál. 1850 – Porto Santo strandján hajótörést szenved egy, a szigetről való hajó; tizenöt ember meghal. 1850 – José Silvestre Ribeiro polgári kormányzó kezdeményezésére természettudományi múzeumot létesítenek a São Lourenço-palotában. 1852 – A szőlőben terjedni kezd a *mangra* (a szőlő lisztharmata, oídium) néven ismert betegség, amely rendkívüli pusztítást végez, és Madeira történetének egyik legsúlyosabb válságát idézi elő. 1853 – Funchalban meghal Mária Amália hercegnő, IV. Péter leánya. 1853 – Leánya emlékére Amália császárné megalapítja a Hospício da Princesa D. Maria Améliát. Az intézmény ideiglenesen a Rua do Castanheiro egyik házában kap helyet; 1862-ben véglegesen beköltözik abba a pompás épületbe, amelyet a császárné e célra építtetett, és amelynek szabályos működéséhez szükséges pénzalapot is biztosította. 1856 – Madeirát történetének egyik legsúlyosabb csapása, a kolerajárvány sújtja: mintegy tízezer lakosa hal meg. 1856 – Ez év májusában a szigetcsoport több egyházközségében több mint húsz, mindkét nem számára nyitott iskolát hoznak létre. 1857 – Lisszabonban meghal a kiváló madeirai származású dr. Lourenço José Moniz. 1858 – Dom Luís herceg, a későbbi portugál király először látogat el a szigetre. 1860 – Erzsébet osztrák császárné Madeirára látogat, és néhány hónapig itt marad. 1861 – Lisszabonban meghal a kiváló madeirai származású Jervis de Atouguia vikomtja. 1862 – Megalapítják a Funchali Jótékonysági Egyesületet; mai neve „1862. szeptember 4.” Kölcsönös Segélyegylet. 1865 – Coimbrában meghal a kiváló egyetemi tanár és jeles madeirai származású dr. Justino António de Freitas. 1866 – Funchalban meghal a kiváló madeirai származású és nagy tudású tanár, Marceliano Ribeiro de Mendonça. 1868 – Súlyos események történnek a város strandján: halottak és sebesültek vannak, amikor a nép megakadályozza a kiváló madeirai származású Jacinto de Sant’Ana e Vasconcelos partraszállását. Ő azért érkezett a szigetre, hogy képviselőjelöltségével foglalkozzon. 1869 – Először érkezik a szigetre a jeles regényíró, Júlio Dinis, aki megírta kitűnő *Os Fidalgos da Casa Mourisca* című könyvét. 1870 – Meghal a nagy tudású orvos és kiváló madeirai származású dr. António da Luz Pita. 1870 – Machicóban súlyos események történnek a választások idején: több helybéli a fegyveres erők golyóitól hal meg, miután azok erőszak alkalmazására kényszerülnek. 1872 – Nagy himlőjárvány pusztít, mintegy ezer ember hal meg. 1873 – Megalakul a Companhia Fabril de Açucar Madeirense, amely felépítteti a nagy São João-i gyárat. 1873 – A kiváló tanár és ügyvéd, dr. Álvaro Rodrigues de Azevedo kiadja dr. Gaspar Frutuoso híres, *Saudades da Terra* című művének Madeirával foglalkozó részét, és terjedelmes, tudós jegyzetekkel gazdagítja. 1874 – Tengeralatti kábel köti össze Madeirát a portugál szárazfölddel. 1874 – Angra do Heroísmóban meghal a kiváló madeirai származású dr. Nicolau Anastácio de Bettencourt. 1875 – Létrejön Santa Cruz, Ponta do Sol és São Vicente bírósági kerülete. 1875 – E városban megalapítják a Banco Comercial da Madeirát. 1876 – Heves viharok néhány hajót Funchal strandjára vetnek. 1876 – Megjelenik a *Diário de Notícias*, az első itt kiadott napilap. 1876 – Funchalban meghal a kiváló költő és jeles madeirai származású José António Monteiro Teixeira. 1877 – A funchali szemináriumban előkészítő tanfolyamot hoznak létre; néhány évvel később a vidék természettudományi tárgyait bemutató múzeumot rendeznek be. 1878 – Nagyarányú kivándorlás indul a Sandwich-szigetekre. 1879 – Madeirán megtiltják a külföldi pénzek forgalmát, amelyeket addig szabadon használtak. 1880 – Lisszabonban meghal a kiváló madeirai származású Aires de Ornelas e Vasconcelos, Goa érseke. 1884 – Súlyos események történnek Ribeira Brava egyházközségében a képviselőválasztás idején; több helybéli meghal. 1887 – Madeira számos egyházközségében súlyos zavargások törnek ki az egyházközségi tanácsok felállításának megakadályozására. A népi mozgalomnak igen súlyos következményei vannak; a nép *Parreca* néven ismeri. 1888 – Felavatják a funchali önkéntes tűzoltótestületet. 1888 – Megnyílik a „Manuel de Arriaga” színház, amelyet eredetileg Dona Maria Piáról neveztek el. 1889 – Felállítják a városi orvosi rendelőt. 1889 – Létrejön a funchali ipariskola. 1889 – Dom João de Alarcão kormányzó kezdeményezésére megalapítják a Szegényeket Segítő Egyesületet, amelyet Sopa Económica néven ismernek. 1890 – Funchalban meggyilkolják a kiskorú Francisco José de Ornelast; az eset mélyen megrendíti Madeira lakosságát. 1892 – Felüti fejét a veszettség: több embert megtámad, és néhányan belehalnak a rettenetes betegségbe. 1892 – Megépül az Entrada da Cidade rakpartja; a munkálatok 1889-ben kezdődtek. 1893 – Felavatják a Monte vasút első szakaszát. 1897 – Bevezetik az elektromos világítást Funchalban. 1897 – Befejezettnek nyilvánítják a Pontinha hullámtörő gátjának átépítését és bővítését; az eredeti munkálatok 1886-ban kezdődtek. 1899 – Lisszabonban meghal kiváló honfitársunk, dr. Luís da Câmara Pestana. 1900 – Létrejön az elemi iskolai tanítóképző. 1901 – A kerület (*distrito*) közigazgatási autonómiát kap. Az ezzel járó jogköröket és feladatokat egy nép által választott testület, a kerület főtanácsa (*Junta Geral*) gyakorolja. 1901 – I. Károly és Amália királyné, Portugália uralkodói meglátogatják a szigetet. 1902 – Funchalban meghal a kiváló madeirai származású Canavial grófja. 1902 – Létrejön az Auxílio Maternal. 1905 – Nagy ünnepélyességgel leteszik a Marmeleiros szanatórium épületének alapkövét, miután a portugál kormány korábban engedélyt adott erre Frederico Hohenlohe hercegnek. 1906 – Megalapítják a Monte Pio Madeirensét. 1906 – Megkezdi működését a Câmara Pestana elmegyógyintézet. 1906 – Helybeliek egy csoportja megtámadja a karanténkórház épületét, ahol a Madeirán pusztító pestisjárvány számos betegét ápolják. Lerombolják a létesítményeket, és szabadon engedik a betegeket, akiket a fennálló körülmények kényszerítő ereje juttatott oda. 1907 – Lisszabonban meghal a kiváló madeirai származású José Vicente Barbosa du Bocage, tudós zoológus és jeles államférfi. 1908 – Tűz pusztítja el Ponta Delgada egyházközségének szép templomát. 1908 – A funchali városi tanács felhatalmazást kap arra, hogy kizárólag a csatornázásra és az ivóvízellátásra fordítandó kölcsönt vegyen fel. 1910 – Az év végén kolera jelenik meg e városban. Szinte az egész szigeten elterjed, és mintegy 550 áldozatot követel. A központi kormány emiatt Madeirára küldi dr. Alfredo de Magalhãest a köztársaság főbiztosaként és dr. Carlos Françát az összes orvosi és közegészségügyi szolgálat vezetőjeként. 1911 – Funchalban meghal a kiváló megyés főpásztor, Dom Manuel Agostinho Barreto. 1911 – Funchalban kiépítik a telefonhálózatot. 1911 – Létrejön a Madeirai Mezőgazdasági Tanács; 1919-ben megszüntetik. 1913 – Létrejön a Funchali Kikötő Munkálatainak Autonóm Tanácsa. 1914 – Létrejön Ribeira Brava községe (*concelho*). 1916 – Felavatják a Funchalból São Vicente Encumeadájáig vezető utat. 1916 – Egy német tengeralattjáró bombázza Funchal városát; a támadás a következő évben megismétlődik. 1917 – Lisszabonban meghal a kiváló madeirai származású Jaime Moniz. 1921 – Megjelenik az *Elucidário Madeirense* első kötete. 1922 – Nagyszabású ünnepségekkel és impozáns történelmi felvonulással emlékeznek meg a madeirai szigetcsoport felfedezésének ötszázadik évfordulójáról. 1922 – Brazíliából visszatérőben Funchalban megáll a köztársasági elnök, dr. António José de Almeida. 1925 – Dr. António Oliveira Salazar és dr. Mário de Figueiredo Funchalban járnak, és előadásokat tartanak a Katolikus Egyesület termeiben. 1929 – São Vicente egyházközség Estreito da Vargem településrészében (*sítio*) nagy áradás 32 ember halálát okozza. 1930 – A Santa Casa da Misericórdia kórháza a Monte egyházközségében álló Marmeleiros szanatóriumba költözik. 1930 – A Câmara de Lobos egyházközségében, a Ribeira do Vigário torkolatánál hatalmas földcsuszamlás (*quebrada*) következik be. A visszaáramló víz 20 embert sodor a tengerbe; mindannyian életüket vesztik. 1931 – Létrejön a Funchali Kerületi Levéltár. 1931 – Katonai felkelés tör ki, amelyet a portugál szárazföldről érkező szárazföldi és tengeri erők levernek. A felkelés madeirai forradalomként válik ismertté. 1933 – Felavatják az Entrada da Cidade rakpartjának meghosszabbítását. 1936 – Több egyházközségben súlyos közrendzavarások támadnak a Tejtermékügyi Tanács és a hozzá tartozó szolgálatok létrehozása miatt. A lázadó mozgalom leverésére két hadihajó és katonai alakulatok érkeznek. 1938 – Óscar Carmona tábornok, köztársasági elnök Madeirára érkezik, ahol lelkes fogadtatásban részesül. 1939 – Felavatják az Avenida do Mart."
+ },
+ {
+  "uid": "chron:1755:01631:summary",
+  "before": "Funchalban megszületett Aires José Maria de Saldanha, Ega 2. grófja, a kormányzó fia; május 27-én keresztelték meg a Szent Lőrinc-palota kápolnájában.",
+  "after": "Funchalban megszületett Aires José Maria de Saldanha, Ega 2. grófja, a kormányzó fia; május 27-én keresztelték meg a São Lourenço-palota kápolnájában."
+ },
+ {
+  "uid": "art:engenhos:b000",
+  "before": "Madeirán jelenleg 51 cukornádpréselő üzem működik: 10 Funchal városában és községében (*concelho*), 3 Câmara de Lobos, 2 Ribeira Brava, 7 Ponta do Sol, 8 Calheta, 1 Porto Moniz, 6 Szaragosszai Szent Vince, 7 Sant’Ana, 4 Machico és 3 Santa Cruz községében. Ezek közül mindössze két üzem alkalmas nagyüzemi cukorgyártásra; az egyik berendezésének összeszerelését az idei évben fejezték be.",
+  "after": "Madeirán jelenleg 51 cukornádpréselő üzem működik: 10 Funchal városában és községében (*concelho*), 3 Câmara de Lobos, 2 Ribeira Brava, 7 Ponta do Sol, 8 Calheta, 1 Porto Moniz, 6 São Vicente, 7 Sant’Ana, 4 Machico és 3 Santa Cruz községében. Ezek közül mindössze két üzem alkalmas nagyüzemi cukorgyártásra; az egyik berendezésének összeszerelését az idei évben fejezték be."
+ },
+ {
+  "uid": "place:faja-da-areia-adeira-sao-vicente:location",
+  "before": "Szaragosszai Szent Vince egyházközségében és községében, Madeirán",
+  "after": "São Vicente egyházközségében és községében, Madeirán"
+ },
+ {
+  "uid": "place:faja-da-areia-adeira-sao-vicente:summary",
+  "before": "Ismert tengerparti fajã és Szaragosszai Szent Vince egyházközségének legfontosabb településrésze, stranddal és kis kikötővel. A Szaragosszai Szent Vincétől mintegy két kilométerre fekvő kikötőt előnyben részesítették a mezőváros saját kikötőhelyével szemben, bár a rossz kikötők között is felsorolták. Itt sikertelenül próbálkoztak sótermeléssel.",
+  "after": "Ismert tengerparti fajã és São Vicente egyházközségének legfontosabb településrésze, stranddal és kis kikötővel. A São Vicentétől mintegy két kilométerre fekvő kikötőt előnyben részesítették a mezőváros saját kikötőhelyével szemben, bár a rossz kikötők között is felsorolták. Itt sikertelenül próbálkoztak sótermeléssel."
+ },
+ {
+  "uid": "enr:faja-da-areia-porto-da:abstract",
+  "before": "Fajã da Areia kis kikötőhelye stranddal, Szaragosszai Szent Vince területén; a mezőváros kikötőjénél jobbnak tartották.",
+  "after": "Fajã da Areia kis kikötőhelye stranddal, São Vicente területén; a mezőváros kikötőjénél jobbnak tartották."
+ },
+ {
+  "uid": "place:faja-do-penedo-adeira-boaventura:location",
+  "before": "Településrész Boaventura egyházközségében, Szaragosszai Szent Vince községben, Madeirán.",
+  "after": "Településrész Boaventura egyházközségében, São Vicente községben, Madeirán."
+ },
+ {
+  "uid": "place:farol-do-porto-santo-farol-do-porto-santo:summary",
+  "before": "Világítótorony a Porto Santo közelében fekvő Ilhéu de Cima szigetén. 1901-ben, negyven évvel a Szent Lőrinc-i jelzőfény után kezdte meg működését; szükségességét a part menti hajótörések mutatták meg.",
+  "after": "Világítótorony a Porto Santo közelében fekvő Ilhéu de Cima szigetén. 1901-ben, negyven évvel a São Lourenço-i jelzőfény után kezdte meg működését; szükségességét a part menti hajótörések mutatták meg."
+ },
+ {
+  "uid": "art:fontes-de-joao-diniz:b003",
+  "before": "A városi tanács 1784. április 7-i ülésén elhatározta, hogy „védművet vagy falat épít, hogy a tenger a téli időszakban ne hordhasson tovább hordalékot a város forrásaiba”. A munkálatok költségét 1 082$500 réisre (*réis*: régi portugál számolópénz; 1$000 = 1000 réis, 1:000$000 = egy conto = 1 000 000 réis) becsülték. 1841-ben megépült a mai közkút; ekkor tűntek el a Fortaleza de São Lourenço (Szent Lőrinc-erőd) tenger felőli oldalán álló üteg ágyúlőrései.",
+  "after": "A városi tanács 1784. április 7-i ülésén elhatározta, hogy „védművet vagy falat épít, hogy a tenger a téli időszakban ne hordhasson tovább hordalékot a város forrásaiba”. A munkálatok költségét 1 082$500 réisre (*réis*: régi portugál számolópénz; 1$000 = 1000 réis, 1:000$000 = egy conto = 1 000 000 réis) becsülték. 1841-ben megépült a mai közkút; ekkor tűntek el a São Lourenço-erőd tenger felőli oldalán álló üteg ágyúlőrései."
+ },
+ {
+  "uid": "enr:fortificacoes--fortaleza-de-s-lourenco:abstract",
+  "before": "A funchali Szent Lőrinc-erőd építése I. Mánuel király uralkodása alatt kezdődött, és a Fülöp-korban fejeződött be. 1566-ban francia kalózok rohammal elfoglalták. Később kápolnának és különböző középületeknek adott otthont.",
+  "after": "A funchali São Lourenço-erőd építése I. Mánuel király uralkodása alatt kezdődött, és a Fülöp-korban fejeződött be. 1566-ban francia kalózok rohammal elfoglalták. Később kápolnának és különböző középületeknek adott otthont."
+ },
+ {
+  "uid": "enr:funchal-comarca-do:ch01:summary",
+  "before": "1927-ben megszüntették Szaragosszai Szent Vince bírósági kerületét, átrajzolták a funchali bírósági körzetek határait, és külön polgári, illetve büntetőbíróságot hoztak létre. Ezeket 1933-ban két vegyes hatáskörű bíróság (*vara*) és egy bírósági titkárság váltotta fel.",
+  "after": "1927-ben megszüntették São Vicente bírósági kerületét, átrajzolták a funchali bírósági körzetek határait, és külön polgári, illetve büntetőbíróságot hoztak létre. Ezeket 1933-ban két vegyes hatáskörű bíróság (*vara*) és egy bírósági titkárság váltotta fel."
+ },
+ {
+  "uid": "art:incendios-nas-matas--incendio-em-1919:b001",
+  "before": "Porto do Moniz községében (*concelho*) a Ribeira da Janela és Fanal környéki erdők szenvedtek jelentős károkat; Szaragosszai Szent Vince községében a Paul melletti, a Lombada das Vacas, a Lombo da Palha és a Serra da Ponta Delgada erdei; Sant’Anában az Arco de São Jorge és Faial környéki erdők; Machicóban a Pico da Suna és Lamaceiros erdei; Funchalban a São Roque és Monte erdei; Câmara de Lobosban a Ribeiro Garcia és Fontainhas erdei; Ribeira Bravában a Serra de Água erdei; Calhetában pedig a Lombada Gorda, a Ribeira dos Moinhos, Rabaçal és a Paul da Serra melletti erdők.",
+  "after": "Porto do Moniz községében (*concelho*) a Ribeira da Janela és Fanal környéki erdők szenvedtek jelentős károkat; São Vicente községében a Paul melletti, a Lombada das Vacas, a Lombo da Palha és a Serra da Ponta Delgada erdei; Sant’Anában az Arco de São Jorge és Faial környéki erdők; Machicóban a Pico da Suna és Lamaceiros erdei; Funchalban a São Roque és Monte erdei; Câmara de Lobosban a Ribeiro Garcia és Fontainhas erdei; Ribeira Bravában a Serra de Água erdei; Calhetában pedig a Lombada Gorda, a Ribeira dos Moinhos, Rabaçal és a Paul da Serra melletti erdők."
+ },
+ {
+  "uid": "place:ribeira-do-inferno-adeira:location",
+  "before": "a Szaragosszai Szent Vince és Seixal egyházközségek határa, Madeira",
+  "after": "a São Vicente és Seixal egyházközségek határa, Madeira"
+ },
+ {
+  "uid": "place:ribeira-do-inferno-adeira:summary",
+  "before": "A Ribeira do Inferno a Szaragosszai Szent Vince egyházközség hegyeiben ered, és a tengerig az egyházközség Seixallal közös nyugati határát alkotja. Több vízeséssel tarkított szurdokában Madeira legdrámaibb tájai közül néhány található; torkolatát a partvidék látványos helyei között ajánlják. Vize egy állami levadát, a Levada do Caramujót táplálja, amely Szaragosszai Szent Vince földjeit öntözi. A patak a Visnea mocanera elterjedésének határát is jelöli, és egy Sanha által alapított hitbizománynak is nevet adott.",
+  "after": "A Ribeira do Inferno a São Vicente egyházközség hegyeiben ered, és a tengerig az egyházközség Seixallal közös nyugati határát alkotja. Több vízeséssel tarkított szurdokában Madeira legdrámaibb tájai közül néhány található; torkolatát a partvidék látványos helyei között ajánlják. Vize egy állami levadát, a Levada do Caramujót táplálja, amely São Vicente földjeit öntözi. A patak a Visnea mocanera elterjedésének határát is jelöli, és egy Sanha által alapított hitbizománynak is nevet adott."
+ },
+ {
+  "uid": "art:inferno-ribeira-do:b000",
+  "before": "Szaragosszai Szent Vince egyházközség (*freguesia*) hegyeiben ered, majd az óceánba ömlik. Útja során ez az egyházközség és Seixal határát alkotja. A patak partján és belső szakaszain vidékünk legmegragadóbb tájai közül találunk néhányat; itt gyakran félelmetes, mély szakadékok tárulnak elénk. A patak vize egy levadát (öntözőcsatornát) táplál, amely Szaragosszai Szent Vince egyházközségének földjeit teszi termékennyé.",
+  "after": "A São Vicente-i egyházközség (*freguesia*) hegyeiben ered, majd az óceánba ömlik. Útja során ez az egyházközség és Seixal határát alkotja. A patak partján és belső szakaszain vidékünk legmegragadóbb tájai közül találunk néhányat; itt gyakran félelmetes, mély szakadékok tárulnak elénk. A patak vize egy levadát (öntözőcsatornát) táplál, amely a São Vicente-i egyházközség földjeit teszi termékennyé."
+ },
+ {
+  "uid": "enr:inferno-ribeira-do:abstract",
+  "before": "A Szaragosszai Szent Vince egyházközség hegyeiben eredő patak, amely a tengerig az egyházközség és Seixal határát alkotja; szurdokában Madeira legdrámaibb tájai közül néhány található, vize pedig a Szaragosszai Szent Vince földjeit öntöző levadát táplálja.",
+  "after": "A São Vicente-i egyházközség hegyeiben eredő patak, amely a tengerig az egyházközség és Seixal határát alkotja; szurdokában Madeira legdrámaibb tájai közül néhány található, vize pedig a São Vicente földjeit öntöző levadát táplálja."
+ },
+ {
+  "uid": "person:alvaro-costa-sousa-macedo:note:jardim-pequeno:b001",
+  "before": "Madeira kormányzója, aki a kert helyén álló szökőkút vizét a Szent Lőrinc-erődhöz vezettette.",
+  "after": "Madeira kormányzója, aki a kert helyén álló szökőkút vizét a São Lourenço-erődhöz vezettette."
+ },
+ {
+  "uid": "enr:juizes-dos-orfaos:abstract",
+  "before": "A funchali, calhetai és Szaragosszai Szent Vince-i árvaszéki bírákról szól, akik 1493-tól 1835-ig az árvákat érintő polgári ügyekkel foglalkoztak; ekkor hatáskörüket a békebírák vették át.",
+  "after": "A funchali, calhetai és São Vicente-i árvaszéki bírákról szól, akik 1493-tól 1835-ig az árvákat érintő polgári ügyekkel foglalkoztak; ekkor hatáskörüket a békebírák vették át."
+ },
+ {
+  "uid": "person:jose-maria-monteiro:note:lemos-coronel-jose-antonio-de-azevedo:b000",
+  "before": "Madeira kormányzója és főkapitánya I. Mihály uralma alatt; Lemos ezredes kérte az elmozdítását, és a Szent Lőrinc-palotában sértegette.",
+  "after": "Madeira kormányzója és főkapitánya I. Mihály uralma alatt; Lemos ezredes kérte az elmozdítását, és a São Lourenço-palotában sértegette."
+ },
+ {
+  "uid": "place:sao-vicente-sao-vicente-freguesia-de:note:lendas:b000",
+  "before": "A Szaragosszai Szent Vince kis szigetéről szóló legenda egyházközsége.",
+  "after": "A São Vicente-i kis sziget legendájának egyházközsége."
+ },
+ {
+  "uid": "place:levada-do-caramujo-adeira:note:levadas:b187",
+  "before": "Szaragosszai Szent Vince területét öntöző levada.",
+  "after": "São Vicente területét öntöző levada."
+ },
+ {
+  "uid": "place:levada-do-caramujo-adeira:note:levadas:b207",
+  "before": "A Ribeira do Infernótól induló állami levada, amelyet a Lombo do Moiro levadával való cserére építettek; ma Szaragosszai Szent Vince területét látja el.",
+  "after": "A Ribeira do Infernótól induló állami levada, amelyet a Lombo do Moiro levadával való cserére építettek; ma São Vicente területét látja el."
+ },
+ {
+  "uid": "art:levadas:b133",
+  "before": "Az említett Rabaçal-levadák, valamint a Serra do Faial, Juncal, Serra de São Jorge, Szaragosszai Szent Vince, Ribeira Brava, Ribeira do Inferno, Monte Medonho és Furado levadái állami tulajdonban vannak; fenntartásukat és igazgatásukat közvetlenül az állam végzi.",
+  "after": "Az említett Rabaçal-levadák, valamint a Serra do Faial, Juncal, Serra de São Jorge, São Vicente, Ribeira Brava, Ribeira do Inferno, Monte Medonho és Furado levadái állami tulajdonban vannak; fenntartásukat és igazgatásukat közvetlenül az állam végzi."
+ },
+ {
+  "uid": "art:machico-capitania-de:b001",
+  "before": "A machicói kapitányság Ponta da Oliveirától Ponta de São Lourençóig, onnan pedig Ponta do Tristãóig terjedt, így a sziget déli partjának jelentős részét és teljes északi partját magában foglalta. Területe a mai Porto Moniz, Szaragosszai Szent Vince, Santana és Machico községeknek, valamint Santa Cruz község csaknem egészének felelt meg; ez utóbbiból Caniço egyházközségének (*freguesia*) egy része maradt ki.",
+  "after": "A machicói kapitányság Ponta da Oliveirától Ponta de São Lourençóig, onnan pedig Ponta do Tristãóig terjedt, így a sziget déli partjának jelentős részét és teljes északi partját magában foglalta. Területe a mai Porto Moniz, São Vicente, Santana és Machico községeknek, valamint Santa Cruz község csaknem egészének felelt meg; ez utóbbiból Caniço egyházközségének (*freguesia*) egy része maradt ki."
+ },
+ {
+  "uid": "enr:machico-vila-e-municipio-de:abstract",
+  "before": "A Machico mezővárosáról és községéről szóló szócikk bemutatja a völgyben fekvő települést, és nyomon követi a község történetét az 1451 körüli valószínű alapításától a Santa Cruz, Szaragosszai Szent Vince és Santana javára elszenvedett területveszteségeken át a címeréig, kiváltságaiig és az 1929-ben megnyílt új városházáig.",
+  "after": "A Machico mezővárosáról és községéről szóló szócikk bemutatja a völgyben fekvő települést, és nyomon követi a község történetét az 1451 körüli valószínű alapításától a Santa Cruz, São Vicente és Santana javára elszenvedett területveszteségeken át a címeréig, kiváltságaiig és az 1929-ben megnyílt új városházáig."
+ },
+ {
+  "uid": "enr:machico-vila-e-municipio-de:ch01:summary",
+  "before": "A mezőváros alapításának dátuma ismeretlen, de Funchalhoz hasonlóan valószínűleg 1451 körül alapították. A község területe Santa Cruz, Szaragosszai Szent Vince és Santana létrehozásával csökkent; határait végül 1862-ben rendezték.",
+  "after": "A mezőváros alapításának dátuma ismeretlen, de Funchalhoz hasonlóan valószínűleg 1451 körül alapították. A község területe Santa Cruz, São Vicente és Santana létrehozásával csökkent; határait végül 1862-ben rendezték."
+ },
+ {
+  "uid": "place:sao-vicente-sao-vicente-freguesia-de:note:madeira-aspectos-orograficos-encostas-planaltos-e-vales:b006",
+  "before": "A Szaragosszai Szent Vince-patak völgye.",
+  "after": "A São Vicente-patak völgye."
+ },
+ {
+  "uid": "art:madeira-paisagem-da:b001",
+  "before": "Madeira csodálatos tájairól szólva nem szeretnénk elmulasztani, hogy legalább futólag megemlítsünk néhány helyet, amelyet különösen érdemes felkeresni az onnan csodálattal szemlélhető, lenyűgöző panorámák miatt. A sziget belsejében ilyen Rabaçal, Monte Medonho, Fontes da Ribeira do Inferno, Cumeada de São Vicente, Pico dos Barcelos, Pico Ruivo, Pico do Arieiro, Boca dos Namorados, Ribeiro Frio, Ribeira de São Jorge, Santana, Pico da Suna és Terreiro da Luta. A partvidéken pedig Piedade, Ponta de São Lourenço, Garajau, Praia Formosa, Fojo, Cabo Girão, a Ribeira da Janela torkolata, a Ribeira do Inferno torkolata, Ribeira de João Delgado, a Capela de São Vicente (Szaragosszai Szent Vince-kápolna), Entroza, Ponta de São Jorge, Rocha do Navio és Porto da Cruz érdemel említést. Sok patakon szép vízesések találhatók, valamennyi magaslatról pedig messzire nyíló, változatos, páratlan szépségű kilátás tárul a szemünk elé.",
+  "after": "Madeira csodálatos tájairól szólva nem szeretnénk elmulasztani, hogy legalább futólag megemlítsünk néhány helyet, amelyet különösen érdemes felkeresni az onnan csodálattal szemlélhető, lenyűgöző panorámák miatt. A sziget belsejében ilyen Rabaçal, Monte Medonho, Fontes da Ribeira do Inferno, Cumeada de São Vicente, Pico dos Barcelos, Pico Ruivo, Pico do Arieiro, Boca dos Namorados, Ribeiro Frio, Ribeira de São Jorge, Santana, Pico da Suna és Terreiro da Luta. A partvidéken pedig Piedade, Ponta de São Lourenço, Garajau, Praia Formosa, Fojo, Cabo Girão, a Ribeira da Janela torkolata, a Ribeira do Inferno torkolata, Ribeira de João Delgado, a São Vicente-i kápolna, Entroza, Ponta de São Jorge, Rocha do Navio és Porto da Cruz érdemel említést. Sok patakon szép vízesések találhatók, valamennyi magaslatról pedig messzire nyíló, változatos, páratlan szépségű kilátás tárul a szemünk elé."
+ },
+ {
+  "uid": "art:madeira-vilas-da:b000",
+  "before": "A szigetcsoport mezővárosai (*vilas*) alapításuk sorrendjében: Machico és Porto Santo (a 15. század közepe), Ponta do Sol (1501), Calheta (1502), Santa Cruz (1515), Szaragosszai Szent Vince (1744) és Ribeira Brava (1928). Mindegyik az azonos nevű község (*concelho*) székhelye. Câmara de Lobos, Porto do Moniz és Santana települése szintén a megfelelő község székhelye, de egyiket sem emelték mezővárosi rangra. Lásd az egyes címszavakat.",
+  "after": "A szigetcsoport mezővárosai (*vilas*) alapításuk sorrendjében: Machico és Porto Santo (a 15. század közepe), Ponta do Sol (1501), Calheta (1502), Santa Cruz (1515), São Vicente (1744) és Ribeira Brava (1928). Mindegyik az azonos nevű község (*concelho*) székhelye. Câmara de Lobos, Porto do Moniz és Santana települése szintén a megfelelő község székhelye, de egyiket sem emelték mezővárosi rangra. Lásd az egyes címszavakat."
+ },
+ {
+  "uid": "person:maria-i:note:manifestacoes-de-regozijo:b003",
+  "before": "Királynő, akinek 1815-ös születésnapját kézcsókceremóniával ünnepelték a Szent Lőrinc-palotában.",
+  "after": "Királynő, akinek 1815-ös születésnapját kézcsókceremóniával ünnepelték a São Lourenço-palotában."
+ },
+ {
+  "uid": "enr:manifestacoes-de-regozijo:abstract",
+  "before": "Áttekintés arról, miként ünnepelték egykor a madeiraiak a királyi születéseket, évfordulókat és országos eseményeket: bikaviadalokkal, lovas felvonulásokkal és gyűrűdöféssel, háromnapos díszkivilágítással, valamint kézcsókceremóniával a Szent Lőrinc-palotában. Szó esik a tisztviselők részvételi kötelezettségéről és a szilveszteri tűzijáték késői megjelenéséről is.",
+  "after": "Áttekintés arról, miként ünnepelték egykor a madeiraiak a királyi születéseket, évfordulókat és országos eseményeket: bikaviadalokkal, lovas felvonulásokkal és gyűrűdöféssel, háromnapos díszkivilágítással, valamint kézcsókceremóniával a São Lourenço-palotában. Szó esik a tisztviselők részvételi kötelezettségéről és a szilveszteri tűzijáték késői megjelenéséről is."
+ },
+ {
+  "uid": "enr:manifestacoes-de-regozijo:ch01:summary",
+  "before": "A királyi évfordulókat kézcsókceremóniával ünnepelték a Szent Lőrinc-palotában, a hivatalos ünnepségek és a díszkivilágítás pedig rendszerint három napig tartottak; egy 1825-ös rendelet viasz helyett olajlámpások használatát írta elő.",
+  "after": "A királyi évfordulókat kézcsókceremóniával ünnepelték a São Lourenço-palotában, a hivatalos ünnepségek és a díszkivilágítás pedig rendszerint három napig tartottak; egy 1825-ös rendelet viasz helyett olajlámpások használatát írta elő."
+ },
+ {
+  "uid": "art:municipios:b000",
+  "before": "A Madeira-szigetcsoport 11 községe közül 7 az abszolút monarchia, 3 az alkotmányos monarchia, 1 pedig a köztársasági kormányzat idején jött létre. Az első csoportba Funchal, Machico, Porto Santo, Ponta do Sol, Calheta, Santa Cruz és Szaragosszai Szent Vince községe tartozik; a másodikba Câmara de Lobos, Santana és Porto do Moniz, a harmadikba pedig egyedül Ribeira Brava községe.",
+  "after": "A Madeira-szigetcsoport 11 községe közül 7 az abszolút monarchia, 3 az alkotmányos monarchia, 1 pedig a köztársasági kormányzat idején jött létre. Az első csoportba Funchal, Machico, Porto Santo, Ponta do Sol, Calheta, Santa Cruz és São Vicente községe tartozik; a másodikba Câmara de Lobos, Santana és Porto do Moniz, a harmadikba pedig egyedül Ribeira Brava községe."
+ },
+ {
+  "uid": "art:municipios:b002",
+  "before": "Ponta do Sol községét 1501-ben, Calhetáét 1502-ben hozták létre, e célból feldarabolva Funchal községét. Ez utóbbi a 15. században Ponta do Tristãótól Ribeira do Caniçóig terjedt, a sziget belseje felé pedig az e pataktól ugyanahhoz a földnyelvhez húzódó hegység határolta. Machico községét, amely a sziget fennmaradó részét foglalta magában, szintén feldarabolták 1515-ben: ekkor jött létre Santa Cruz községe. Szaragosszai Szent Vince községét csak 1743-ban alapították meg.",
+  "after": "Ponta do Sol községét 1501-ben, Calhetáét 1502-ben hozták létre, e célból feldarabolva Funchal községét. Ez utóbbi a 15. században Ponta do Tristãótól Ribeira do Caniçóig terjedt, a sziget belseje felé pedig az e pataktól ugyanahhoz a földnyelvhez húzódó hegység határolta. Machico községét, amely a sziget fennmaradó részét foglalta magában, szintén feldarabolták 1515-ben: ekkor jött létre Santa Cruz községe. São Vicente községét csak 1743-ban alapították meg."
+ },
+ {
+  "uid": "art:municipios:b003",
+  "before": "Câmara de Lobos, Santana és Porto do Moniz községe 1835-ben jött létre. A tartomány prefektusa (*prefeito*) az év augusztus 10-i királyi rendeletében (*alvará*) előírta, hogy az október 4-én az egész szigetcsoportban megtartandó községi választások előkészítését Câmara de Lobosban a funchali tanács egy városi tanácsosa (*vereador*), Santanában a machicói tanács egy tanácsosa, Porto do Monizban pedig Szaragosszai Szent Vince tanácsának egy tanácsosa vezesse. Funchal községének választói ekkor 7 tanácsost választottak, Porto Santo választói 3-at, a többi községé pedig 5-öt. Câmara de Lobos, Santa Cruz és Santana községét az 1867. december 10-i rendelet megszüntette, de nem sokkal később ismét létrehozták őket. Porto do Moniz községét ugyanez a rendelet – amely csak igen rövid ideig volt hatályban –, valamint az 1849. november 7-i és az 1895. november 18-i rendelet is megszüntette; 1855-ben, illetve 1898 elején már ismét működött. Ribeira Brava községét, a szigetcsoport legújabb községét az 1914. augusztus 16-i rendelet hozta létre.",
+  "after": "Câmara de Lobos, Santana és Porto do Moniz községe 1835-ben jött létre. A tartomány prefektusa (*prefeito*) az év augusztus 10-i királyi rendeletében (*alvará*) előírta, hogy az október 4-én az egész szigetcsoportban megtartandó községi választások előkészítését Câmara de Lobosban a funchali tanács egy városi tanácsosa (*vereador*), Santanában a machicói tanács egy tanácsosa, Porto do Monizban pedig a São Vicente-i tanács egy tanácsosa vezesse. Funchal községének választói ekkor 7 tanácsost választottak, Porto Santo választói 3-at, a többi községé pedig 5-öt. Câmara de Lobos, Santa Cruz és Santana községét az 1867. december 10-i rendelet megszüntette, de nem sokkal később ismét létrehozták őket. Porto do Moniz községét ugyanez a rendelet – amely csak igen rövid ideig volt hatályban –, valamint az 1849. november 7-i és az 1895. november 18-i rendelet is megszüntette; 1855-ben, illetve 1898 elején már ismét működött. Ribeira Brava községét, a szigetcsoport legújabb községét az 1914. augusztus 16-i rendelet hozta létre."
+ },
+ {
+  "uid": "art:norte-da-ilha:b000",
+  "before": "A „Norte da Ilha” elnevezésen általában Madeira északi partvidékét értik, amely Ponta do Tristãótól Ponta de São Lourençóig terjed. Más szóval az Achadas da Cruz-i egyházközségtől (*freguesia*) a Porto da Cruz-i egyházközségig húzódik, és magában foglalja Porto do Moniz, Szaragosszai Szent Vince és Santana községeinek (*concelho*) valamennyi plébániáját, valamint a Machico községhez tartozó Porto da Cruz-i egyházközséget. Lásd: Északi partvidék.",
+  "after": "A „Norte da Ilha” elnevezésen általában Madeira északi partvidékét értik, amely Ponta do Tristãótól Ponta de São Lourençóig terjed. Más szóval az Achadas da Cruz-i egyházközségtől (*freguesia*) a Porto da Cruz-i egyházközségig húzódik, és magában foglalja Porto do Moniz, São Vicente és Santana községeinek (*concelho*) valamennyi plébániáját, valamint a Machico községhez tartozó Porto da Cruz-i egyházközséget. Lásd: Északi partvidék."
+ },
+ {
+  "uid": "person:manuel-joaquim-goncalves-andrade:note:nossa-senhora-da-piedade-capelas-de:b008",
+  "before": "Pap, aki 1784-ben kápolnát építtetett Paçóban, Szaragosszai Szent Vince egyházközségében.",
+  "after": "Pap, aki 1784-ben kápolnát építtetett Paçóban, São Vicente egyházközségében."
+ },
+ {
+  "uid": "art:organizacao-fiscal:b005",
+  "before": "A funchali vámházhoz tartozik a pénzügyőrség (*Guarda Fiscal*) 1. százada, amelynek Funchalban, Machicóban és Porto Santón van egy-egy részlege. A Cais do Lazareto (Veszteglőház-rakpart), a Cais da Alfândega (Vámház-rakpart), Ponta da Cruz, Praça de São Pedro, Ribeira Brava, Câmara de Lobos, Ponta do Sol, Calheta, Paul, Porto Moniz, Szaragosszai Szent Vince és Ajuda pénzügyőri őrhelyei a funchali részleghez tartoznak; Machico, Reis Magos, Santa Cruz és Porto da Cruz őrhelyei a machicóihoz; Porto Santo őrhelye pedig a Porto Santó-ihoz. Lásd: Vámházak és Királyi Kincstári Tanács (*Junta da Real Fazenda*).",
+  "after": "A funchali vámházhoz tartozik a pénzügyőrség (*Guarda Fiscal*) 1. százada, amelynek Funchalban, Machicóban és Porto Santón van egy-egy részlege. A Cais do Lazareto (Veszteglőház-rakpart), a Cais da Alfândega (Vámház-rakpart), Ponta da Cruz, Praça de São Pedro, Ribeira Brava, Câmara de Lobos, Ponta do Sol, Calheta, Paul, Porto Moniz, São Vicente és Ajuda pénzügyőri őrhelyei a funchali részleghez tartoznak; Machico, Reis Magos, Santa Cruz és Porto da Cruz őrhelyei a machicóihoz; Porto Santo őrhelye pedig a Porto Santó-ihoz. Lásd: Vámházak és Királyi Kincstári Tanács (*Junta da Real Fazenda*)."
+ },
+ {
+  "uid": "place:porto-moniz-adeira-porto-moniz:note:organizacao-judicial:b005",
+  "before": "A Szaragosszai Szent Vince-i bírósági kerülethez tartozó bírósági körzet.",
+  "after": "A São Vicente-i bírósági kerülethez tartozó bírósági körzet."
+ },
+ {
+  "uid": "place:santana-santana-freguesia-de:note:organizacao-judicial:b005",
+  "before": "A Szaragosszai Szent Vince-i bírósági kerülethez tartozó bírósági körzet.",
+  "after": "A São Vicente-i bírósági kerülethez tartozó bírósági körzet."
+ },
+ {
+  "uid": "enr:organizacao-judicial:ch01:summary",
+  "before": "Az 1875-ös rendelet négy bírói kerületet hozott létre: Funchal, Ponta do Sol, Szaragosszai Szent Vince és Santa Cruz kerületét, mindegyiket saját békebíróságokkal. A rendes bírói tisztségeket 1886-ban megszüntették, Szaragosszai Szent Vince bírói kerületét 1927-ben felszámolták, 1931-ben pedig községi helyi bíróságot állítottak fel ott.",
+  "after": "Az 1875-ös rendelet négy bírói kerületet hozott létre: Funchal, Ponta do Sol, São Vicente és Santa Cruz kerületét, mindegyiket saját békebíróságokkal. A rendes bírói tisztségeket 1886-ban megszüntették, São Vicente bírói kerületét 1927-ben felszámolták, 1931-ben pedig községi helyi bíróságot állítottak fel ott."
+ },
+ {
+  "uid": "art:palacio-de-s-lourenco:b000",
+  "before": "Frutuoso a *Saudades da Terra* 84. oldalán így ír a Fortaleza de São Lourenço (Szent Lőrinc-erőd) épületéről: „És ahogyan víz van odabent, úgy nem hiányoznak a kézimalmok, a kemencék és az élelem tárolására szolgáló magtárak sem; vannak továbbá pompás lakószobák, ahol a kapitány megszáll, kerttel és kellemes hűvösséggel ékesítve.”",
+  "after": "Frutuoso a *Saudades da Terra* 84. oldalán így ír a São Lourenço-erőd épületéről: „És ahogyan víz van odabent, úgy nem hiányoznak a kézimalmok, a kemencék és az élelem tárolására szolgáló magtárak sem; vannak továbbá pompás lakószobák, ahol a kapitány megszáll, kerttel és kellemes hűvösséggel ékesítve.”"
+ },
+ {
+  "uid": "place:penedo-do-saco-adeira-canical:location",
+  "before": "Csúcs Ponta do Furado közelében, a Szent Lőrinc-félszigeten, Caniçal egyházközségben, Machico községben",
+  "after": "Csúcs Ponta do Furado közelében, a São Lourenço-félszigeten, Caniçal egyházközségben, Machico községben"
+ },
+ {
+  "uid": "place:penedo-do-saco-adeira-canical:summary",
+  "before": "A Penedo do Saco szikla a Szent Lőrinc-félszigeten, Ponta do Furado közelében; kopár csúcsáról a közeli strandokra nyílik kilátás. Caniçal egyházközség csúcsai között tartják számon.",
+  "after": "A Penedo do Saco szikla a São Lourenço-félszigeten, Ponta do Furado közelében; kopár csúcsáról a közeli strandokra nyílik kilátás. Caniçal egyházközség csúcsai között tartják számon."
+ },
+ {
+  "uid": "enr:penedo-do-saco:abstract",
+  "before": "Szikla a Szent Lőrinc-félszigeten, Ponta do Furado közelében; kopár csúcsáról a közeli strandokra nyílik kilátás.",
+  "after": "Szikla a São Lourenço-félszigeten, Ponta do Furado közelében; kopár csúcsáról a közeli strandokra nyílik kilátás."
+ },
+ {
+  "uid": "place:sao-jorge-adeira-sao-jorge:note:piorno:b000",
+  "before": "A G. maderensis Szaragosszai Szent Vince és São Jorge között nő.",
+  "after": "A G. maderensis São Vicente és São Jorge között nő."
+ },
+ {
+  "uid": "place:sao-vicente-sao-vicente-freguesia-de:note:piorno:b000",
+  "before": "A G. maderensis Szaragosszai Szent Vince és São Jorge között nő.",
+  "after": "A G. maderensis São Vicente és São Jorge között nő."
+ },
+ {
+  "uid": "place:paul-da-serra-adeira:note:planaltos:b000",
+  "before": "A legnagyobb fennsík, Szaragosszai Szent Vince, Ponta do Sol és Porto Moniz határán.",
+  "after": "A legnagyobb fennsík, São Vicente, Ponta do Sol és Porto Moniz határán."
+ },
+ {
+  "uid": "place:ponta-delgada-adeira-ponta-delgada:location",
+  "before": "egyházközség Madeira északi partján, Szaragosszai Szent Vince községében",
+  "after": "egyházközség Madeira északi partján, São Vicente községében"
+ },
+ {
+  "uid": "place:ponta-delgada-adeira-ponta-delgada:summary",
+  "before": "Ponta Delgada egyházközség Madeira északi partján, Szaragosszai Szent Vince községének három egyházközsége egyike. Földnyelve és kis halászkikötője van. Senhor Jesus ünnepe jelentős fogadalmi zarándoklat, és itt volt egy főkapitányság székhelye. 1856-ban 409 kolerahalálesetet jegyeztek fel.",
+  "after": "Ponta Delgada egyházközség Madeira északi partján, São Vicente községének három egyházközsége egyike. Földnyelve és kis halászkikötője van. Senhor Jesus ünnepe jelentős fogadalmi zarándoklat, és itt volt egy főkapitányság székhelye. 1856-ban 409 kolerahalálesetet jegyeztek fel."
+ },
+ {
+  "uid": "art:porto-do-moniz-muncipio-do:b001",
+  "before": "Porto do Moniz a sziget északi részének valamennyi településéhez hasonlóan Machico mezővárosához és községéhez tartozott. Amikor 1743-ban létrehozták Szaragosszai Szent Vince mezővárosát és községét, Porto do Moniz az új község része lett. Paulo Dias d’Almeida mérnök, a közmunkák felügyelője 1817-ben felhívta az anyaországi kormány figyelmét Porto do Moniz önálló községének szükségességére. Dom Manuel de Portugal e Castro kormányzó és főkapitány pedig 1825. április 10-én a felsőbb hatóságokhoz intézett levelében támogatta a lakosok ugyanerre irányuló kérelmét. A kérés csupán egy régi, korábban már más alkalmakkor is kifejezett törekvés teljesítését célozta. Az akkori kérelem szerint az új községet Seixal, Ribeira da Janela, Porto Moniz és Ponta do Pargo egyházközsége alkotta volna. Határa Seixal egyházközségében a João Delgado-patak lett volna, a tengertől Paul da Serra magasáig; Ponta do Pargo egyházközségében pedig a Marinheiros-patak a Fonte do Bispo-hegyvidékig.",
+  "after": "Porto do Moniz a sziget északi részének valamennyi településéhez hasonlóan Machico mezővárosához és községéhez tartozott. Amikor 1743-ban létrehozták São Vicente mezővárosát és községét, Porto do Moniz az új község része lett. Paulo Dias d’Almeida mérnök, a közmunkák felügyelője 1817-ben felhívta az anyaországi kormány figyelmét Porto do Moniz önálló községének szükségességére. Dom Manuel de Portugal e Castro kormányzó és főkapitány pedig 1825. április 10-én a felsőbb hatóságokhoz intézett levelében támogatta a lakosok ugyanerre irányuló kérelmét. A kérés csupán egy régi, korábban már más alkalmakkor is kifejezett törekvés teljesítését célozta. Az akkori kérelem szerint az új községet Seixal, Ribeira da Janela, Porto Moniz és Ponta do Pargo egyházközsége alkotta volna. Határa Seixal egyházközségében a João Delgado-patak lett volna, a tengertől Paul da Serra magasáig; Ponta do Pargo egyházközségében pedig a Marinheiros-patak a Fonte do Bispo-hegyvidékig."
+ },
+ {
+  "uid": "art:portos-de-pesca:b008",
+  "before": "{\"text\": \"Az 1941-ben partra szállított hal súlya és értéke kikötőnként.\", \"cells\": [[\"Kikötő\", \"Mennyiség (kg)\", \"Érték (escudo)\"], [\"Funchal\", \"1 060 258\", \"1 106 871\"], [\"Ponta da Cruz\", \"230\", \"214\"], [\"Câmara de Lobos\", \"512 491\", \"769 674\"], [\"Ribeira Brava\", \"46 860\", \"52 597\"], [\"Ponta do Sol\", \"46 451\", \"63 610\"], [\"Calheta\", \"78 315\", \"93 392\"], [\"Paul do Mar\", \"92 026\", \"106 756\"], [\"Porto Moniz\", \"155 358\", \"144 030\"], [\"Szaragosszai Szent Vince\", \"15 000\", \"19 234\"], [\"Ponta Delgada\", \"14 244\", \"16 432\"], [\"Porto da Cruz\", \"20 938\", \"12 515\"], [\"Machico\", \"185 381\", \"220 871\"], [\"Santa Cruz\", \"56 803\", \"67 336\"], [\"Reis Magos\", \"18 976\", \"23 085\"], [\"Porto Santo\", \"30 872\", \"23 798\"]]}",
+  "after": "{\"text\": \"Az 1941-ben partra szállított hal súlya és értéke kikötőnként.\", \"cells\": [[\"Kikötő\", \"Mennyiség (kg)\", \"Érték (escudo)\"], [\"Funchal\", \"1 060 258\", \"1 106 871\"], [\"Ponta da Cruz\", \"230\", \"214\"], [\"Câmara de Lobos\", \"512 491\", \"769 674\"], [\"Ribeira Brava\", \"46 860\", \"52 597\"], [\"Ponta do Sol\", \"46 451\", \"63 610\"], [\"Calheta\", \"78 315\", \"93 392\"], [\"Paul do Mar\", \"92 026\", \"106 756\"], [\"Porto Moniz\", \"155 358\", \"144 030\"], [\"São Vicente\", \"15 000\", \"19 234\"], [\"Ponta Delgada\", \"14 244\", \"16 432\"], [\"Porto da Cruz\", \"20 938\", \"12 515\"], [\"Machico\", \"185 381\", \"220 871\"], [\"Santa Cruz\", \"56 803\", \"67 336\"], [\"Reis Magos\", \"18 976\", \"23 085\"], [\"Porto Santo\", \"30 872\", \"23 798\"]]}"
+ },
+ {
+  "uid": "art:portos-de-pesca:b010",
+  "before": "{\"text\": \"Az 1942-ben partra szállított hal súlya és értéke kikötőnként.\", \"cells\": [[\"Kikötő\", \"Mennyiség (kg)\", \"Érték (escudo)\"], [\"Funchal\", \"977 902\", \"1 411 660\"], [\"Ponta da Cruz\", \"2210\", \"2002\"], [\"Câmara de Lobos\", \"606 199\", \"1 200 961\"], [\"Ribeira Brava\", \"52 978\", \"75 241\"], [\"Ponta do Sol\", \"65 723\", \"108 524\"], [\"Calheta\", \"73 096\", \"116 065\"], [\"Paul do Mar\", \"74 645\", \"110 063\"], [\"Porto Moniz\", \"174 849\", \"143 350\"], [\"Szaragosszai Szent Vince\", \"6286\", \"14 096\"], [\"Ponta Delgada\", \"2196\", \"4012\"], [\"Porto da Cruz\", \"6499\", \"8836\"], [\"Machico\", \"148 451\", \"210 723\"], [\"Santa Cruz\", \"60 179\", \"87 260\"], [\"Reis Magos\", \"121 280\", \"93 115\"], [\"Porto Santo\", \"40 615\", \"28 519\"]]}",
+  "after": "{\"text\": \"Az 1942-ben partra szállított hal súlya és értéke kikötőnként.\", \"cells\": [[\"Kikötő\", \"Mennyiség (kg)\", \"Érték (escudo)\"], [\"Funchal\", \"977 902\", \"1 411 660\"], [\"Ponta da Cruz\", \"2210\", \"2002\"], [\"Câmara de Lobos\", \"606 199\", \"1 200 961\"], [\"Ribeira Brava\", \"52 978\", \"75 241\"], [\"Ponta do Sol\", \"65 723\", \"108 524\"], [\"Calheta\", \"73 096\", \"116 065\"], [\"Paul do Mar\", \"74 645\", \"110 063\"], [\"Porto Moniz\", \"174 849\", \"143 350\"], [\"São Vicente\", \"6286\", \"14 096\"], [\"Ponta Delgada\", \"2196\", \"4012\"], [\"Porto da Cruz\", \"6499\", \"8836\"], [\"Machico\", \"148 451\", \"210 723\"], [\"Santa Cruz\", \"60 179\", \"87 260\"], [\"Reis Magos\", \"121 280\", \"93 115\"], [\"Porto Santo\", \"40 615\", \"28 519\"]]}"
+ },
+ {
+  "uid": "art:portos-de-pesca:b012",
+  "before": "{\"text\": \"Az 1943-ban partra szállított hal súlya és értéke kikötőnként.\", \"cells\": [[\"Kikötő\", \"Mennyiség (kg)\", \"Érték (escudo)\"], [\"Funchal\", \"686 769\", \"1 327 572\"], [\"Ponta da Cruz\", \"190\", \"90\"], [\"Câmara de Lobos\", \"899 532\", \"2 103 716\"], [\"Ribeira Brava\", \"73 609\", \"145 107\"], [\"Ponta do Sol\", \"77 857\", \"160 474\"], [\"Calheta\", \"97 103\", \"191 260\"], [\"Paul do Mar\", \"81 652\", \"183 120\"], [\"Porto Moniz\", \"74 934\", \"67 444\"], [\"Szaragosszai Szent Vince\", \"6392\", \"35 519\"], [\"Ponta Delgada\", \"3253\", \"4928\"], [\"Porto da Cruz\", \"5241\", \"8945\"], [\"Machico\", \"96 877\", \"205 629\"], [\"Santa Cruz\", \"53 447\", \"101 119\"], [\"Reis Magos\", \"304 507\", \"204 581\"], [\"Porto Santo\", \"61 978\", \"69 306\"]]}",
+  "after": "{\"text\": \"Az 1943-ban partra szállított hal súlya és értéke kikötőnként.\", \"cells\": [[\"Kikötő\", \"Mennyiség (kg)\", \"Érték (escudo)\"], [\"Funchal\", \"686 769\", \"1 327 572\"], [\"Ponta da Cruz\", \"190\", \"90\"], [\"Câmara de Lobos\", \"899 532\", \"2 103 716\"], [\"Ribeira Brava\", \"73 609\", \"145 107\"], [\"Ponta do Sol\", \"77 857\", \"160 474\"], [\"Calheta\", \"97 103\", \"191 260\"], [\"Paul do Mar\", \"81 652\", \"183 120\"], [\"Porto Moniz\", \"74 934\", \"67 444\"], [\"São Vicente\", \"6392\", \"35 519\"], [\"Ponta Delgada\", \"3253\", \"4928\"], [\"Porto da Cruz\", \"5241\", \"8945\"], [\"Machico\", \"96 877\", \"205 629\"], [\"Santa Cruz\", \"53 447\", \"101 119\"], [\"Reis Magos\", \"304 507\", \"204 581\"], [\"Porto Santo\", \"61 978\", \"69 306\"]]}"
+ },
+ {
+  "uid": "art:portos-de-pesca:b013",
+  "before": "A Porto Moniz és a Reis Magos kikötőjére vonatkozó fenti adatokban 21, illetve 102 ámbráscet szerepel; Szaragosszai Szent Vince kikötőjében pedig egyet fogtak.",
+  "after": "A Porto Moniz és a Reis Magos kikötőjére vonatkozó fenti adatokban 21, illetve 102 ámbráscet szerepel; São Vicente kikötőjében pedig egyet fogtak."
+ },
+ {
+  "uid": "art:postos-meteorologicos:b018",
+  "before": "Ezeken kívül csapadékmérő hely van Caramujóban, Machicóban, Montado do Pereiróban, Ponta do Pargóban, Porto do Monizban, Rabaçalban, Ribeiro Frióban, Santa Cruzban, Santo Antónióban, Canhasban, Bica da Canában, Paul da Serrán és Szaragosszai Szent Vincében. Közülük a Santa Cruz-i a legrégebbi: 1936 novemberében létesítették. A legújabb a Szaragosszai Szent Vince-i, amelyet 1945 májusában létesítettek.",
+  "after": "Ezeken kívül csapadékmérő hely van Caramujóban, Machicóban, Montado do Pereiróban, Ponta do Pargóban, Porto do Monizban, Rabaçalban, Ribeiro Frióban, Santa Cruzban, Santo Antónióban, Canhasban, Bica da Canában, Paul da Serrán és São Vicentében. Közülük a Santa Cruz-i a legrégebbi: 1936 novemberében létesítették. A legújabb a São Vicente-i, amelyet 1945 májusában létesítettek."
+ },
+ {
+  "uid": "place:queimado-queimado-pico:location",
+  "before": "Ribeira Brava és Szaragosszai Szent Vince határán, Lombo do Mouro és Monte Medonho között",
+  "after": "Ribeira Brava és São Vicente határán, Lombo do Mouro és Monte Medonho között"
+ },
+ {
+  "uid": "place:queimado-queimado-pico:summary",
+  "before": "Madeirai hegycsúcs Ribeira Brava és Szaragosszai Szent Vince határán, Lombo do Mouro és Monte Medonho között.",
+  "after": "Madeirai hegycsúcs Ribeira Brava és São Vicente határán, Lombo do Mouro és Monte Medonho között."
+ },
+ {
+  "uid": "art:queimado-pico:b000",
+  "before": "Falu (*lugar*, a mezővárosnál alacsonyabb településrang) és hegycsúcs Ribeira Brava és Szaragosszai Szent Vince egyházközségének (*freguesia*) határán, nagyjából egyenlő távolságra Lombo do Mourótól és Monte Medonhótól.",
+  "after": "Falu (*lugar*, a mezővárosnál alacsonyabb településrang) és hegycsúcs Ribeira Brava és São Vicente egyházközségének (*freguesia*) határán, nagyjából egyenlő távolságra Lombo do Mourótól és Monte Medonhótól."
+ },
+ {
+  "uid": "enr:queimado-pico:abstract",
+  "before": "Hegycsúcs Ribeira Brava és Szaragosszai Szent Vince határán, Lombo do Mouro és Monte Medonho között.",
+  "after": "Hegycsúcs Ribeira Brava és São Vicente határán, Lombo do Mouro és Monte Medonho között."
+ },
+ {
+  "uid": "enr:rego-dr-antonio-balbino-do:ch01:summary",
+  "before": "Miután megkövezték a házát, a Szent Lőrinc-erődbe menekült, majd Lisszabonba távozott. Később megpróbált visszatérni, de a lakossági tiltakozás ezt megakadályozta. Ezután Lisszabonban dolgozott, és 1907-ben két röpiratot adott ki a járványról.",
+  "after": "Miután megkövezték a házát, a São Lourenço-erődbe menekült, majd Lisszabonba távozott. Később megpróbált visszatérni, de a lakossági tiltakozás ezt megakadályozta. Ezután Lisszabonban dolgozott, és 1907-ben két röpiratot adott ki a járványról."
+ },
+ {
+  "uid": "place:vicente-ribeiras-vicente:location",
+  "before": "Szaragosszai Szent Vince, Madeira",
+  "after": "São Vicente, Madeira"
+ },
+ {
+  "uid": "place:vicente-ribeiras-vicente:summary",
+  "before": "A madeirai Szaragosszai Szent Vince patak a Ferreiros és a Cumeada csúcsokon ered. A Ribeira Grande és az Atalho patak táplálja.",
+  "after": "A madeirai São Vicente-patak a Ferreiros és a Cumeada csúcsokon ered. A Ribeira Grande és az Atalho patak táplálja."
+ },
+ {
+  "uid": "enr:ribeiras--vicente:abstract",
+  "before": "A Szaragosszai Szent Vince patak a Ferreiros és a Cumeada csúcsokon ered; a Ribeira Grande és az Atalho patak táplálja.",
+  "after": "A São Vicente-patak a Ferreiros és a Cumeada csúcsokon ered; a Ribeira Grande és az Atalho patak táplálja."
+ },
+ {
+  "uid": "art:sao-lourenco-capelas-de:b000",
+  "before": "A Fortaleza de São Lourenço (Szent Lőrinc-erőd) területén Szent Lőrinc vértanúnak szentelt kápolna állt. Régi épület: már 1566-ban, a város francia kalózok általi kifosztásakor is létezett. Saját káplánja volt; az általunk talált legkorábbi, a káplán kinevezéséről szóló királyi rendelet (*alvará*) 1641. november 15-én kelt. Valahol olvastuk, hogy José Silvestre Ribeiro tanácsos (conselheiro, a királyi tanács tiszteletbeli címe) 1846. október 3-án leltárt készíttetett a kápolna ezüsttárgyairól. Ezek súlya 36 font volt, és elrendelte, hogy helyezzék el őket a Központi Kincstárban. 1856. december 3-án újabb leltár készült; ekkor további tárgyakat is hozzávettek, így az ezüst összsúlya 65 font lett. A kápolna egyházi díszruháit 1856-ban az Achadas da Cruz-i templomnak ajándékozták (lásd: Palácio de São Lourenço).",
+  "after": "A São Lourenço-erőd (*Fortaleza de São Lourenço*) területén Szent Lőrinc vértanúnak szentelt kápolna állt. Régi épület: már 1566-ban, a város francia kalózok általi kifosztásakor is létezett. Saját káplánja volt; az általunk talált legkorábbi, a káplán kinevezéséről szóló királyi rendelet (*alvará*) 1641. november 15-én kelt. Valahol olvastuk, hogy José Silvestre Ribeiro tanácsos (conselheiro, a királyi tanács tiszteletbeli címe) 1846. október 3-án leltárt készíttetett a kápolna ezüsttárgyairól. Ezek súlya 36 font volt, és elrendelte, hogy helyezzék el őket a Központi Kincstárban. 1856. december 3-án újabb leltár készült; ekkor további tárgyakat is hozzávettek, így az ezüst összsúlya 65 font lett. A kápolna egyházi díszruháit 1856-ban az Achadas da Cruz-i templomnak ajándékozták (lásd: Palácio de São Lourenço)."
+ },
+ {
+  "uid": "person:francisco-borges-sousa-melo:note:sao-vicente-freguesia-de:b006",
+  "before": "Szaragosszai Szent Vince plébánosa, 1812-től első esperese (vigário da vara).",
+  "after": "São Vicente plébánosa, 1812-től első esperese (vigário da vara)."
+ },
+ {
+  "uid": "person:joaquim-meneses-ataide:note:sao-vicente-freguesia-de:b006",
+  "before": "Funchal püspöke, aki 1812-ben létrehozta a Szaragosszai Szent Vince-i esperességet.",
+  "after": "Funchal püspöke, aki 1812-ben létrehozta a São Vicente-i esperességet."
+ },
+ {
+  "uid": "place:machico-machico-freguesia-de:note:sao-vicente-freguesia-de:b003",
+  "before": "Az 1450-ben alapított kapitányság fő egyházközsége; alapításának évét Szaragosszai Szent Vince létrejöttének keltezéséhez használják.",
+  "after": "Az 1450-ben alapított kapitányság fő egyházközsége; alapításának évét São Vicente létrejöttének keltezéséhez használják."
+ },
+ {
+  "uid": "place:sao-vicente-sao-vicente-freguesia-de:location",
+  "before": "Szaragosszai Szent Vince egyházközsége és községe Madeira északi partján",
+  "after": "São Vicente egyházközsége és községe Madeira északi partján"
+ },
+ {
+  "uid": "art:sao-vicente-freguesia-de:headword",
+  "before": "Szaragosszai Szent Vince (egyházközség)",
+  "after": "São Vicente (egyházközség)"
+ },
+ {
+  "uid": "art:sao-vicente-freguesia-de:b003",
+  "before": "„Szaragosszai Szent Vince egyházközségét – írja a *Saudades* jegyzetírója – az általunk tanulmányozott kéziratok 1440-ben alapítottnak tartják. Ez azonban legfeljebb az első templom felépítésére és a kápláni tisztség létesítésére vonatkozhat, hiszen Machico plébániáját, a kapitányság legfőbb plébániáját is csak 1450-ben hozták létre. Úgy véljük tehát, hogy Szaragosszai Szent Vince egyházközségének alapítása néhány évvel későbbre tehető.” E tekintetben a legcsekélyebb kétség sem maradhat, ha gondosan megvizsgáljuk a sziget déli részén fekvő legjelentősebb egyházközségek létrehozásának időpontját. Véleményünk szerint ezt a plébániát csak a 15. század utolsó negyedében hozták létre.",
+  "after": "„São Vicente egyházközségét – írja a *Saudades* jegyzetírója – az általunk tanulmányozott kéziratok 1440-ben alapítottnak tartják. Ez azonban legfeljebb az első templom felépítésére és a kápláni tisztség létesítésére vonatkozhat, hiszen Machico plébániáját, a kapitányság legfőbb plébániáját is csak 1450-ben hozták létre. Úgy véljük tehát, hogy São Vicente egyházközségének alapítása néhány évvel későbbre tehető.” E tekintetben a legcsekélyebb kétség sem maradhat, ha gondosan megvizsgáljuk a sziget déli részén fekvő legjelentősebb egyházközségek létrehozásának időpontját. Véleményünk szerint ezt a plébániát csak a 15. század utolsó negyedében hozták létre."
+ },
+ {
+  "uid": "art:sao-vicente-freguesia-de:b004",
+  "before": "Gaspar Frutuoso 1590-ben ezt írta erről a plébániáról: „Ponta Delgadától egy *légua* távolságra fekszik Szaragosszai Szent Vince egyházközsége, kétszázötven háztartással (*fogos*, szó szerint „tűzhely”), kiterjedt gabonatermő földekkel és állattenyésztéssel; bőven terem ott gesztenye, dió és más gyümölcs; sok a szőlő, bőséges a víz, és két vízimalom is van.” Az 1575. szeptember 18-i királyi rendelet (*alvará régio*) évi 25 000 *réis* (régi portugál számolópénz; 1$000 = 1000 réis, 1:000$000 = egy conto = 1 000 000 réis) fizetést állapított meg a plébánosnak. Ezt az 1589. április 20-i királyi rendelet 25 000 *réisre*, fél *moióra* (*moio*: gabonaűrmérték, 60 *alqueire*) való búzára és egy negyednyi borra emelte; egy ugyanazon hónapban és évben kiadott rendelet pedig további fél *moio* búzával és egy *pipa* (boroshordó és űrmérték, kb. 400–500 liter) borral egészítette ki.",
+  "after": "Gaspar Frutuoso 1590-ben ezt írta erről a plébániáról: „Ponta Delgadától egy *légua* távolságra fekszik São Vicente egyházközsége, kétszázötven háztartással (*fogos*, szó szerint „tűzhely”), kiterjedt gabonatermő földekkel és állattenyésztéssel; bőven terem ott gesztenye, dió és más gyümölcs; sok a szőlő, bőséges a víz, és két vízimalom is van.” Az 1575. szeptember 18-i királyi rendelet (*alvará régio*) évi 25 000 *réis* (régi portugál számolópénz; 1$000 = 1000 réis, 1:000$000 = egy conto = 1 000 000 réis) fizetést állapított meg a plébánosnak. Ezt az 1589. április 20-i királyi rendelet 25 000 *réisre*, fél *moióra* (*moio*: gabonaűrmérték, 60 *alqueire*) való búzára és egy negyednyi borra emelte; egy ugyanazon hónapban és évben kiadott rendelet pedig további fél *moio* búzával és egy *pipa* (boroshordó és űrmérték, kb. 400–500 liter) borral egészítette ki."
+ },
+ {
+  "uid": "place:boaventura-adeira-boaventura:note:sao-vicente-julgado-municipal-de:b000",
+  "before": "Szaragosszai Szent Vince bírósági körzetét és községét alkotó három egyházközség egyike.",
+  "after": "São Vicente bírósági körzetét és községét alkotó három egyházközség egyike."
+ },
+ {
+  "uid": "place:ponta-delgada-adeira-ponta-delgada:note:sao-vicente-julgado-municipal-de:b000",
+  "before": "Szaragosszai Szent Vince bírósági körzetét és községét alkotó három egyházközség egyike.",
+  "after": "São Vicente bírósági körzetét és községét alkotó három egyházközség egyike."
+ },
+ {
+  "uid": "place:sao-vicente-sao-vicente-vila-e-municipio-de:note:sao-vicente-julgado-municipal-de:b000",
+  "before": "A községi bírósági körzet, korábban pedig Szaragosszai Szent Vince bírósági kerületének székhelye.",
+  "after": "A községi bírósági körzet, korábban pedig São Vicente bírósági kerületének székhelye."
+ },
+ {
+  "uid": "art:sao-vicente-julgado-municipal-de:headword",
+  "before": "Szaragosszai Szent Vince (községi bírósági körzet)",
+  "after": "São Vicente (községi bírósági körzet)"
+ },
+ {
+  "uid": "art:sao-vicente-julgado-municipal-de:b000",
+  "before": "Szaragosszai Szent Vince községi bírósági körzetét (*julgado municipal*), amelynek székhelye az azonos nevű egyházközségben (*freguesia*) és mezővárosban (*vila*) van, 1931. október 24-i rendelettel hozták létre. A körzet Szaragosszai Szent Vince, Ponta Delgada és Boaventura egyházközségeit foglalja magában; ezek alkotják az azonos nevű községet (*concelho*). Szaragosszai Szent Vince bírósági kerületét (*comarca*) 1926-ban szüntették meg. Ezt a kerületet 1875. november 12-i rendelettel hozták létre, és 1876. november 16-án kezdte meg működését.",
+  "after": "São Vicente községi bírósági körzetét (*julgado municipal*), amelynek székhelye az azonos nevű egyházközségben (*freguesia*) és mezővárosban (*vila*) van, 1931. október 24-i rendelettel hozták létre. A körzet São Vicente, Ponta Delgada és Boaventura egyházközségeit foglalja magában; ezek alkotják az azonos nevű községet (*concelho*). São Vicente bírósági kerületét (*comarca*) 1926-ban szüntették meg. Ezt a kerületet 1875. november 12-i rendelettel hozták létre, és 1876. november 16-án kezdte meg működését."
+ },
+ {
+  "uid": "enr:sao-vicente-julgado-municipal-de:abstract",
+  "before": "Bemutatja Szaragosszai Szent Vince 1931-ben létrehozott községi bírósági körzetét (julgado municipal), amely Szaragosszai Szent Vince, Ponta Delgada és Boaventura egyházközségére terjedt ki. Megemlíti Szaragosszai Szent Vince korábbi, 1875–76-ban létrehozott és 1926-ban megszüntetett bírósági kerületét (comarca) is.",
+  "after": "Bemutatja São Vicente 1931-ben létrehozott községi bírósági körzetét (julgado municipal), amely São Vicente, Ponta Delgada és Boaventura egyházközségére terjedt ki. Megemlíti São Vicente korábbi, 1875–76-ban létrehozott és 1926-ban megszüntetett bírósági kerületét (comarca) is."
+ },
+ {
+  "uid": "place:faja-da-areia-adeira-sao-vicente:note:sao-vicente-porto-e-ribeira-de:b000",
+  "before": "Mintegy két kilométerre fekvő kikötőhely, amelyet előnyben részesítettek a Szaragosszai Szent Vince-i kikötőhellyel szemben.",
+  "after": "Mintegy két kilométerre fekvő kikötőhely, amelyet előnyben részesítettek a São Vicente-i kikötőhellyel szemben."
+ },
+ {
+  "uid": "place:porto-de-sao-vicente-adeira-sao-vicente:note:sao-vicente-porto-e-ribeira-de:b000",
+  "before": "Szaragosszai Szent Vince mezővárosának kis kikötőhelye, ahol a partra szállás nehéz.",
+  "after": "São Vicente mezővárosának kis kikötőhelye, ahol a partra szállás nehéz."
+ },
+ {
+  "uid": "place:porto-e-ribeira-de-sao-vicente-sao-vicente-porto-e-ribeira-de:location",
+  "before": "Szaragosszai Szent Vince egyházközsége és községe Madeira északi partján",
+  "after": "São Vicente egyházközsége és községe Madeira északi partján"
+ },
+ {
+  "uid": "art:sao-vicente-vila-e-municipio-de:headword",
+  "before": "Szaragosszai Szent Vince (mezőváros és község)",
+  "after": "São Vicente (mezőváros és község)"
+ },
+ {
+  "uid": "art:sao-vicente-vila-e-municipio-de:b000",
+  "before": "Tudjuk, hogy Funchal, Machico és Porto Santo mezővárosát (*vila*) a 15. század közepe táján, Santa Cruz, Ponta do Sol és Calheta mezővárosát pedig a 16. század elején hozták létre. A 17. században egyetlen mezővárost sem alapítottak Madeirán; Szaragosszai Szent Vince mezővárosa a 18. század második negyedében jött létre.",
+  "after": "Tudjuk, hogy Funchal, Machico és Porto Santo mezővárosát (*vila*) a 15. század közepe táján, Santa Cruz, Ponta do Sol és Calheta mezővárosát pedig a 16. század elején hozták létre. A 17. században egyetlen mezővárost sem alapítottak Madeirán; São Vicente mezővárosa a 18. század második negyedében jött létre."
+ },
+ {
+  "uid": "enr:sao-vicente-vila-e-municipio-de:abstract",
+  "before": "A Madeira északi partján fekvő Szaragosszai Szent Vince mezővárosának és községének története. A települést 1744-ben királyi oklevél emelte mezővárosi rangra, hogy az északi egyházközségek ne a távoli Machicóhoz tartozzanak; községként 1835-ben szervezték újjá. A szócikk kitér a későbbi, Porto Monizt érintő határváltozásokra és a községi székhely áthelyezésének terveire is.",
+  "after": "A Madeira északi partján fekvő São Vicente mezővárosának és községének története. A települést 1744-ben királyi oklevél emelte mezővárosi rangra, hogy az északi egyházközségek ne a távoli Machicóhoz tartozzanak; községként 1835-ben szervezték újjá. A szócikk kitér a későbbi, Porto Monizt érintő határváltozásokra és a községi székhely áthelyezésének terveire is."
+ },
+ {
+  "uid": "enr:sao-vicente-vila-e-municipio-de:ch00:summary",
+  "before": "Szaragosszai Szent Vince volt a legjelentősebb és legnépesebb északi egyházközség, de Machico kapitányságához tartozott. Lakói régóta törekedtek arra, hogy elszakadjanak Machicótól, vagy saját községet kapjanak.",
+  "after": "São Vicente volt a legjelentősebb és legnépesebb északi egyházközség, de Machico kapitányságához tartozott. Lakói régóta törekedtek arra, hogy elszakadjanak Machicótól, vagy saját községet kapjanak."
+ },
+ {
+  "uid": "art:sao-vicente-vila-e-municipio-de:b001",
+  "before": "Szaragosszai Szent Vince faluját (*lugar*, a mezővárosnál alacsonyabb településrang) a 15. század vége felé szervezték plébániává. Madeira északi partvidékének azon egyházközségei közé tartozott, amelyek már a betelepítés kezdetén nagyobb jelentőségre tettek szert, és ahol sűrűbbé vált a népesség; közülük még ma is ez a legnépesebb. A machicói kapitánysághoz tartozott, amelynek teljes közigazgatása Machico mezővárosában összpontosult. A sziget északi részének lakói ezért hosszú és veszélyes utakat voltak kénytelenek megtenni kapitányságuk székhelyéig, valahányszor sürgető körülmények erre kényszerítették őket.",
+  "after": "São Vicente faluját (*lugar*, a mezővárosnál alacsonyabb településrang) a 15. század vége felé szervezték plébániává. Madeira északi partvidékének azon egyházközségei közé tartozott, amelyek már a betelepítés kezdetén nagyobb jelentőségre tettek szert, és ahol sűrűbbé vált a népesség; közülük még ma is ez a legnépesebb. A machicói kapitánysághoz tartozott, amelynek teljes közigazgatása Machico mezővárosában összpontosult. A sziget északi részének lakói ezért hosszú és veszélyes utakat voltak kénytelenek megtenni kapitányságuk székhelyéig, valahányszor sürgető körülmények erre kényszerítették őket."
+ },
+ {
+  "uid": "art:sao-vicente-vila-e-municipio-de:b002",
+  "before": "Mivel az északi partvidék számos egyházközségéből könnyebben és gyakrabban lehetett eljutni Funchalba, e plébániák lakói többször is megpróbáltak kikerülni a machicói kapitányság fennhatósága alól, és a funchali kapitánysághoz csatlakozni. Másik céljuk egy olyan község létrehozása volt, amelynek székhelye Szaragosszai Szent Vince, és amelyhez ez, valamint más szomszédos egyházközségek is tartoznának.",
+  "after": "Mivel az északi partvidék számos egyházközségéből könnyebben és gyakrabban lehetett eljutni Funchalba, e plébániák lakói többször is megpróbáltak kikerülni a machicói kapitányság fennhatósága alól, és a funchali kapitánysághoz csatlakozni. Másik céljuk egy olyan község létrehozása volt, amelynek székhelye São Vicente, és amelyhez ez, valamint más szomszédos egyházközségek is tartoznának."
+ },
+ {
+  "uid": "person:bertrand-montluc:note:saque-dos-franceses:b002",
+  "before": "Francia nemes, aki a korzárflottát vezette, és a Szent Lőrinc-erőd megrohamozásakor halálos sebet kapott.",
+  "after": "Francia nemes, aki a korzárflottát vezette, és a São Lourenço-erőd megrohamozásakor halálos sebet kapott."
+ },
+ {
+  "uid": "enr:saque-dos-franceses:ch01:summary",
+  "before": "A korzárok október 3-án partra szálltak Praia Formosánál, bevették a Szent Lőrinc-erődöt, ahol Montluc halálos sebet kapott, majd tizenhat napon át fosztogatták Funchalt, és mintegy 300 embert öltek meg. A IX. Károlyhoz intézett tiltakozások csupán Caldeira kivégzéséhez vezettek.",
+  "after": "A korzárok október 3-án partra szálltak Praia Formosánál, bevették a São Lourenço-erődöt, ahol Montluc halálos sebet kapott, majd tizenhat napon át fosztogatták Funchalt, és mintegy 300 embert öltek meg. A IX. Károlyhoz intézett tiltakozások csupán Caldeira kivégzéséhez vezettek."
+ },
+ {
+  "uid": "art:sociedade-funchalense-dos-amigos-das-ciencias-e-artes:b000",
+  "before": "A társaságot a Palácio de São Lourençóban (Szent Lőrinc-palota) alapították. Első elnöke dr. João Pedro de Freitas Pereira Drumond, első titkára Francisco Ferreira de Abreu volt. 28 rendes és 24 tiszteletbeli tagja volt: e számok 1820. augusztus 24-ét jelképezték, amikor Portóban kitört a forradalom, illetve 1821. január 28-át, amikor Madeirán is csatlakoztak hozzá. A társaságnak 45 levelező tagja is volt. Első nyilvános ülését 1822. augusztus 23-án tartotta.",
+  "after": "A társaságot a São Lourenço-palotában alapították. Első elnöke dr. João Pedro de Freitas Pereira Drumond, első titkára Francisco Ferreira de Abreu volt. 28 rendes és 24 tiszteletbeli tagja volt: e számok 1820. augusztus 24-ét jelképezték, amikor Portóban kitört a forradalom, illetve 1821. január 28-át, amikor Madeirán is csatlakoztak hozzá. A társaságnak 45 levelező tagja is volt. Első nyilvános ülését 1822. augusztus 23-án tartotta."
+ },
+ {
+  "uid": "art:sousa-brasao-manuel-de:b000",
+  "before": "1884. április 21-én született São Vicente egyházközségében (*freguesia*), és 1923. december 21-én halt meg a Fortaleza de São Lourenço (Szent Lőrinc-erőd) területén lévő otthonában. A katonai igazgatás kapitánya volt; 1914 és 1915 között Dél-Angolában, 1916 és 1917 között pedig Mozambikban szolgált. 1921. július 10-én Madeira képviselőjévé választották, és több pártlapba is írt.",
+  "after": "1884. április 21-én született São Vicente egyházközségében (*freguesia*), és 1923. december 21-én halt meg a São Lourenço-erőd területén lévő otthonában. A katonai igazgatás kapitánya volt; 1914 és 1915 között Dél-Angolában, 1916 és 1917 között pedig Mozambikban szolgált. 1921. július 10-én Madeira képviselőjévé választották, és több pártlapba is írt."
+ },
+ {
+  "uid": "enr:sousa-brasao-manuel-de:abstract",
+  "before": "Szaragosszai Szent Vince szülötte, a katonai igazgatás kapitánya, aki Angolában és Mozambikban szolgált, és 1921-ben Madeira parlamenti képviselőjévé választották.",
+  "after": "São Vicente-i születésű, a katonai igazgatás kapitánya, aki Angolában és Mozambikban szolgált, és 1921-ben Madeira parlamenti képviselőjévé választották."
+ },
+ {
+  "uid": "enr:stuebel-dr-alphons:ch01:summary",
+  "before": "Stuebel szerint Madeira hegyei két egyidejűleg működő kitörési központból keletkeztek: a Curral das Freiras kalderájából és a Paul da Serra lapos kupolájából. A Szaragosszai Szent Vince és Ribeira Brava völgye jelöli a határt; erózió alakította ki őket, nem kráterek.",
+  "after": "Stuebel szerint Madeira hegyei két egyidejűleg működő kitörési központból keletkeztek: a Curral das Freiras kalderájából és a Paul da Serra lapos kupolájából. A São Vicente és Ribeira Brava völgye jelöli a határt; erózió alakította ki őket, nem kráterek."
+ },
+ {
+  "uid": "art:teatro-grande:b000",
+  "before": "Nálunk Teatro Grande néven ismerték azt a színházat, amely a Palácio de São Lourenço (Szent Lőrinc-palota) előtt állt, és a Largo da Restauração nagy részét elfoglalta. 1780 körül épült, 1833-ban pedig elrendelték a lebontását.",
+  "after": "Nálunk Teatro Grande néven ismerték azt a színházat, amely a São Lourenço-palota előtt állt, és a Largo da Restauração nagy részét elfoglalta. 1780 körül épült, 1833-ban pedig elrendelték a lebontását."
+ },
+ {
+  "uid": "art:tuna-da-universidade-de-coimbra:b000",
+  "before": "A diákzenekar, amelyet az akkor ötödéves joghallgató António Correia Caldeira Coelho vezetett, 1913. március 22-én érkezett Funchalba, és ugyanazon év április 3-án indult tovább Lisszabonba. 45 diákból állt; funchali tartózkodásuk alatt a Caminho do Monte elején álló, megszűnt szeminárium épületében szállásolták el őket. A városban nagy figyelmességgel fogadták a diákzenekart: partraszállásuk napján, a városházán tett rövid látogatás után fogadást rendeztek tiszteletükre Geraz de Lima vikomtjainak otthonában. Bált is tartottak a Palácio de São Lourençóban (Szent Lőrinc-palota), egy másikat a „Grémio dos Empregados do Comércio”-ban, továbbá ünnepséget a Quinta da Choupanán, valamint könnyű étkezéseket a Casino Pavãóban, a Terreiro da Lután és a Monte Palace Hotelben stb. A diákok két előadást tartottak a színházban, és ellátogattak Portelába, Santa Cruzba és Machicóba.",
+  "after": "A diákzenekar, amelyet az akkor ötödéves joghallgató António Correia Caldeira Coelho vezetett, 1913. március 22-én érkezett Funchalba, és ugyanazon év április 3-án indult tovább Lisszabonba. 45 diákból állt; funchali tartózkodásuk alatt a Caminho do Monte elején álló, megszűnt szeminárium épületében szállásolták el őket. A városban nagy figyelmességgel fogadták a diákzenekart: partraszállásuk napján, a városházán tett rövid látogatás után fogadást rendeztek tiszteletükre Geraz de Lima vikomtjainak otthonában. Bált is tartottak a São Lourenço-palotában, egy másikat a „Grémio dos Empregados do Comércio”-ban, továbbá ünnepséget a Quinta da Choupanán, valamint könnyű étkezéseket a Casino Pavãóban, a Terreiro da Lután és a Monte Palace Hotelben stb. A diákok két előadást tartottak a színházban, és ellátogattak Portelába, Santa Cruzba és Machicóba."
+ },
+ {
+  "uid": "place:vales-vales:summary",
+  "before": "Ez a Madeira völgyeiről szóló rövid szócikk a Diccionario Universal Ilustrado Portuguez lírai részletét idézi. A részlet Machico, Funchal (Vale Formosóval együtt), Jardim da Serra, Szaragosszai Szent Vince és Penha de Águia völgyét emeli ki.",
+  "after": "Ez a Madeira völgyeiről szóló rövid szócikk a Diccionario Universal Ilustrado Portuguez lírai részletét idézi. A részlet Machico, Funchal (Vale Formosóval együtt), Jardim da Serra, São Vicente és Penha de Águia völgyét emeli ki."
+ },
+ {
+  "uid": "enr:vales:abstract",
+  "before": "Rövid szócikk Madeira völgyeiről. A Diccionario Universal Ilustrado Portuguez lírai részletét idézi, amely Machico, Funchal (Vale Formosóval együtt), Jardim da Serra, Szaragosszai Szent Vince és Penha de Águia völgyét emeli ki.",
+  "after": "Rövid szócikk Madeira völgyeiről. A Diccionario Universal Ilustrado Portuguez lírai részletét idézi, amely Machico, Funchal (Vale Formosóval együtt), Jardim da Serra, São Vicente és Penha de Águia völgyét emeli ki."
+ },
+ {
+  "uid": "enr:vales:ch00:summary",
+  "before": "Az idézett részlet Madeira völgyeinek természeti szépségét méltatja. Ötöt ír le részletesebben: Machico, Funchal és Vale Formoso, Jardim da Serra, Szaragosszai Szent Vince, valamint Penha de Águia környékének völgyét.",
+  "after": "Az idézett részlet Madeira völgyeinek természeti szépségét méltatja. Ötöt ír le részletesebben: Machico, Funchal és Vale Formoso, Jardim da Serra, São Vicente, valamint Penha de Águia környékének völgyét."
+ },
+ {
+  "uid": "place:vila-adeira-sao-vicente:location",
+  "before": "településrész Szaragosszai Szent Vince egyházközségében és községében, Madeirán",
+  "after": "településrész São Vicente egyházközségében és községében, Madeirán"
+ },
+ {
+  "uid": "place:vila-adeira-sao-vicente:note:vila-9:b000",
+  "before": "A leírt településrész, amely Szaragosszai Szent Vince kisvárosát foglalja magában.",
+  "after": "A leírt településrész, amely São Vicente kisvárosát foglalja magában."
+ },
+ {
+  "uid": "place:vila-adeira-sao-vicente:summary",
+  "before": "Vila Szaragosszai Szent Vince egyházközségének településrésze, amely a kisvárost és környékét foglalja magában.",
+  "after": "Vila São Vicente egyházközségének településrésze, amely a kisvárost és környékét foglalja magában."
+ },
+ {
+  "uid": "enr:vila-9:abstract",
+  "before": "Szaragosszai Szent Vince egyházközségének településrésze, amely a kisvárost és környékét foglalja magában.",
+  "after": "São Vicente egyházközségének településrésze, amely São Vicente kisvárost és környékét foglalja magában."
+ },
+ {
+  "uid": "enr:vilas:ch00:summary",
+  "before": "Funchal, Machico és Baleira 1451 körül kapitánysági székhelyként mezővárosi rangot kapott, Funchal pedig 1508-ban város lett. Később Ponta do Sol, Calheta, Santa Cruz, Szaragosszai Szent Vince és végül Ribeira Brava is mezővárosi rangot kapott.",
+  "after": "Funchal, Machico és Baleira 1451 körül kapitánysági székhelyként mezővárosi rangot kapott, Funchal pedig 1508-ban város lett. Később Ponta do Sol, Calheta, Santa Cruz, São Vicente és végül Ribeira Brava is mezővárosi rangot kapott."
+ },
+ {
+  "uid": "art:visita-dos-reis-de-portugal:b001",
+  "before": "A portugál uralkodók délután két óra tájban szálltak partra a város bejáratánál lévő rakparton. Ezután impozáns menet indult a székesegyházba (Sé Catedral), ahol ünnepélyes Te Deumot tartottak. A menet onnan a királyi rezidenciává alakított Palácio de São Lourençóba (Szent Lőrinc-palota) vonult. Az uralkodók itt díszfogadást adtak a konzuli testület, a hatóságok, a főnemesek és különböző hivatalos személyek tiszteletére.",
+  "after": "A portugál uralkodók délután két óra tájban szálltak partra a város bejáratánál lévő rakparton. Ezután impozáns menet indult a székesegyházba (Sé Catedral), ahol ünnepélyes Te Deumot tartottak. A menet onnan a királyi rezidenciává alakított São Lourenço-palotába vonult. Az uralkodók itt díszfogadást adtak a konzuli testület, a hatóságok, a főnemesek és különböző hivatalos személyek tiszteletére."
+ }
+]

@@ -39,7 +39,7 @@ function isNumericCol(rows: string[][], i: number) {
   return t > 0 && n / t >= 0.7;
 }
 
-function renderBlock(lang: string, a: Article, b: Block, linksByBlock: Map<string, { p: string; href: string; title?: string }[]>): RBlock {
+function renderBlock(lang: string, a: Article, b: Block, linksByBlock: Map<string, { p: string; href: string; title?: string; k?: string }[]>): RBlock {
   const links = linksByBlock.get(b.id);
   const html = inline(b.x, { un: b.un, links });
   const r: RBlock = { ...b, html };
@@ -75,13 +75,16 @@ function group(blocks: RBlock[]): Group[] {
 
 /** Split body blocks into sections by chapter ranges. Section 0 = untitled intro (blocks before the first chapter). */
 export function sections(lang: string, a: Article): Section[] {
-  const linksByBlock = new Map<string, { p: string; href: string; title?: string }[]>();
-  if (lang === 'pt' && a.ln?.length) {
+  const linksByBlock = new Map<string, { p: string; href: string; title?: string; k?: string }[]>();
+  if (a.ln?.length) {
     const L = look(lang);
     for (const l of a.ln) {
-      if (l.to === a.id) continue;
+      const k = l.k ?? 'a';
+      if (k === 'a' && l.to === a.id) continue;
+      const href = k === 'p' ? u.person(lang, l.to, l.n ?? l.p) : k === 'l' ? u.place(lang, l.to) : k === 'y' ? u.year(lang, l.to) : u.article(lang, l.to);
+      const title = k === 'a' ? L.get(l.to)?.hw : k === 'y' ? undefined : l.n;
       const arr = linksByBlock.get(l.b) ?? [];
-      if (!arr.some((x) => x.p === l.p)) arr.push({ p: l.p, href: u.article(lang, l.to), title: L.get(l.to)?.hw });
+      if (!arr.some((x) => x.p === l.p)) arr.push({ p: l.p, href, title, k });
       linksByBlock.set(l.b, arr);
     }
   }

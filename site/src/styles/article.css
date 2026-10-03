@@ -198,6 +198,13 @@ html:has(.ea--toc) { scroll-padding-top: calc(var(--header-h) + 4rem); }
 /* Inline links from `ln` (pt) */
 .ea-ln { color: inherit; text-decoration-color: color-mix(in srgb, var(--ink) 38%, transparent); text-decoration-style: solid; }
 .ea-ln:hover { color: var(--person-ink); text-decoration-color: currentColor; }
+/* Link kinds: article = ink underline; person / place / year carry their role colour in the underline only, so the
+   text keeps its reading colour and the density stays calm. */
+.ea-ln { text-decoration-thickness: 1px; text-underline-offset: .18em; }
+.ea-ln--p { text-decoration-color: color-mix(in srgb, var(--person) 70%, transparent); }
+.ea-ln--l { text-decoration-color: color-mix(in srgb, var(--place) 70%, transparent); }
+.ea-ln--y { text-decoration-color: var(--date); text-decoration-style: dotted; }
+.ea-ln--p:hover { color: var(--person-ink); } .ea-ln--l:hover { color: var(--place-ink); } .ea-ln--y:hover { color: var(--date-ink); }
 
 /* Lists */
 .ea-list { margin-left: 0; padding-left: 1.3em; list-style: square; }
@@ -398,7 +405,7 @@ html:has(.ea--toc) { scroll-padding-top: calc(var(--header-h) + 4rem); }
 
 /* ---- Folio view (opt-in, horizontal multi-column) -------------------------- */
 .ea-folio-hint { display: none; }
-.ea.is-folio .ea-folio-hint { display: block; margin-top: .75rem; color: var(--ink-3); text-align: center; font-size: var(--fs-micro); }
+.ea.is-folio .ea-folio-hint { display: none; } /* the arrow bar under the folio replaces this hint */
 .ea.is-folio .ea-body {
   --col-w: 21rem;
   columns: var(--col-w) auto; column-gap: clamp(1.75rem, 1rem + 2vw, 3rem); column-rule: 1px solid var(--line); column-fill: auto;

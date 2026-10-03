@@ -6,6 +6,7 @@ import SectionHead from '../../../../components/ui/SectionHead.astro';
 import Label from '../../../../components/ui/Label.astro';
 import Folio from '../../../../components/ui/Folio.astro';
 import EntityLink from '../../../../components/ui/EntityLink.astro';
+import Timeline from '../../../../components/article/Timeline.astro';
 import EventChip from '../../../../components/entity/EventChip.astro';
 import Plate from '../../../../components/art/Plate.astro';
 import MapView from '../../../../components/map/MapView.astro';
@@ -45,8 +46,10 @@ const jsonld = [{
   url: site + u.place(lang, slug),
 }];
 const title = `${p.n} — Elucidário Madeirense`;
+// Position on the plane of articles (motion): the main article, else the first article that mentions the place.
+const planeAt = p.main ?? p.m[0]?.a;
 ---
-<Base lang={lang} title={title} description={p.sum ?? p.n} kind="entity" jsonld={jsonld}>
+<Base lang={lang} title={title} description={p.sum ?? p.n} kind="entity" jsonld={jsonld} planeId={planeAt}>
   <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'places'), href: u.placesPage(lang) }, { label: p.n }]} />
 
   <Folio lang={lang} lead={t(lang, 'type_place')} items={[ge?.tp, ...locBits].filter(Boolean) as string[]} />
@@ -62,6 +65,15 @@ const title = `${p.n} — Elucidário Madeirense`;
     </div>
   </header>
 
+  {mainArticle && (
+    <a class="em-main-card" href={u.article(lang, mainArticle.id)}>
+      <span class="em-main-card__k">{t(lang, 'main_article')}</span>
+      <span class="em-main-card__hw">{mainArticle.hw}</span>
+      {mainArticle.abs && <span class="em-main-card__abs">{mainArticle.abs}</span>}
+      <span class="em-main-card__go" aria-hidden="true">→</span>
+    </a>
+  )}
+
   {p.sum && <p class="em-lede">{p.sum}{p.ml && <span class="em-langmark" title="English metadata">EN</span>}</p>}
 
   {ge?.c && (
@@ -70,12 +82,6 @@ const title = `${p.n} — Elucidário Madeirense`;
     </section>
   )}
 
-  {mainArticle && (
-    <p class="em-main-article">
-      <Label role="muted" size="micro">{t(lang, 'main_article')}</Label>{' '}
-      <EntityLink kind="article" id={mainArticle.id} lang={lang} variant="name" label={mainArticle.hw} />
-    </p>
-  )}
 
   {shownMentions.length > 0 && (
     <section aria-labelledby="h-mentions">
@@ -97,11 +103,7 @@ const title = `${p.n} — Elucidário Madeirense`;
   {relatedEvents.length > 0 && (
     <section aria-labelledby="h-events">
       <SectionHead size="m" title={t(lang, 'dates_mentioned')} id="h-events" role="date" n="2" />
-      <ol class="em-event-list" role="list">
-        {relatedEvents.map((ev) => ev && (
-          <EventChip lang={lang} id={ev.id} y={ev.y} label={fmtEdtf(ev.s0, ev.s1, lang)} sum={ev.sum} sig={ev.sig} ml={ev.ml} />
-        ))}
-      </ol>
+      <Timeline lang={lang} events={relatedEvents as any} />
     </section>
   )}
 
@@ -116,6 +118,16 @@ const title = `${p.n} — Elucidário Madeirense`;
     </section>
   )}
 </Base>
+<style>
+  .em-main-card { display: grid; grid-template-columns: 1fr auto; gap: .2rem 1rem; align-items: center; max-width: var(--measure-wide); margin: 0 auto var(--s-6); padding: var(--s-4) var(--s-5); border-top: 4px solid var(--ink); border-bottom: 1px solid var(--ink); background: var(--paper-light); color: var(--ink); text-decoration: none; box-sizing: border-box; }
+  @media (max-width: 56rem) { .em-main-card { margin-inline: var(--gutter); } }
+  .em-main-card__k { grid-column: 1; font: 700 var(--fs-micro)/1 var(--font-label); letter-spacing: var(--tracking-label, .22em); text-transform: uppercase; color: var(--place-ink); }
+  .em-main-card__hw { grid-column: 1; font: 800 var(--fs-h3)/1.05 var(--font-display); text-transform: uppercase; }
+  .em-main-card__abs { grid-column: 1; font-size: var(--fs-small); line-height: 1.4; color: var(--ink-2, var(--ink)); }
+  .em-main-card__go { grid-column: 2; grid-row: 1 / span 3; font: 800 2.4rem/1 var(--font-display); color: var(--place); transition: transform var(--dur-2, .2s) var(--ease, ease); }
+  .em-main-card:hover .em-main-card__go { transform: translateX(.3rem); }
+  .em-main-card:hover .em-main-card__hw { color: var(--place-ink); }
+</style>
 <style>
   .em-place-head { display: flex; gap: var(--s-5); align-items: flex-start; padding: var(--s-6) var(--gutter) var(--s-4); max-width: var(--measure-wide); margin: 0 auto; }
   .em-place-head svg { color: var(--place); flex: none; }

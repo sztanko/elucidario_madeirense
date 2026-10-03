@@ -1,3 +1,4 @@
+import '../ui/hscroll';
 // Article page behaviour (client, vanilla, ~2 KB gz): scroll-spy, reading progress, chapter strip, folio view.
 // Idempotent: safe to call on every astro:page-load.
 
