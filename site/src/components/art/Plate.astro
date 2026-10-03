@@ -1,6 +1,42 @@
 ---
-// PLACEHOLDER (art agent replaces).
-// Props contract: seed: string (entity id), category?: string (taxonomy code or 'person'|'place'|'date'), size?: number, variant?: 'plate'|'icon'|'thumb', title?: string
-const { size = 96 } = Astro.props;
+/**
+ * Plate: deterministic linocut art for an entity, rendered at build time as inline SVG (no client JS).
+ * Owner: art agent. Generators live in src/art/ (see the header of src/art/generate.ts for the motif grammar).
+ *
+ * Props
+ *   seed: string            entity id (article id, person slug, place slug, year). Same seed = same plate.
+ *   category?: string       taxonomy code ('place.parish', 'organism.fish', …), a class ('building'),
+ *                           or 'person' | 'place' | 'date' | 'article'
+ *   size?: number           px; default 160 (plate), 48 (thumb), 20 (icon). Square.
+ *   variant?: 'plate' | 'thumb' | 'icon'
+ *                           plate: full detail (~120–400 px) · thumb: bold, simplified (40–64 px)
+ *                           icon: 24-grid type glyph, monochrome currentColor (16–72 px)
+ *   title?: string          accessible name (role="img"); omit for decorative (aria-hidden)
+ *   name?: string           display name for person monograms / meta initials (defaults to title, then seed)
+ *   hint?: string           refines the motif: person role ('priest', 'naval officer') or geo type ('peak', 'levada')
+ *   mono?: boolean          print every ink in currentColor
+ *   uid?: string            extra id salt if the very same plate appears twice on one page
+ *   class?: string
+ *
+ * Carving is real transparency (SVG masks), so plates sit on any paper/hover/dark ground. ~3–12 KB per plate.
+ * AI thumbnails: if public/art/thumbs/<seed>.webp exists at build time, plate/thumb variants render that image
+ * instead (lazy <img>, explicit width/height). See src/art/AI_THUMBNAILS.md.
+ */
+import { plateSvg, type Variant } from '../../art/generate';
+import { thumbFor } from '../../art/thumbs';
+
+interface Props {
+  seed: string; category?: string; size?: number; variant?: Variant; title?: string;
+  name?: string; hint?: string; mono?: boolean; uid?: string; class?: string;
+}
+const { seed, category, size, variant = 'plate', title, name, hint, mono, uid, class: cls } = Astro.props;
+const px = size ?? (variant === 'icon' ? 20 : variant === 'thumb' ? 48 : 160);
+const thumb = variant !== 'icon' ? thumbFor(seed) : null;
+const svg = thumb ? '' : plateSvg({ seed, category, variant, size: px, title, name, hint, mono, uid, class: cls });
 ---
-<svg width={size} height={size} viewBox="0 0 100 100" aria-hidden="true"><rect width="100" height="100" fill="currentColor" opacity=".08"/></svg>
+{thumb ? (
+  <img class:list={['em-art', `em-art--${variant}`, 'em-art--ai', cls]} src={thumb} width={px} height={px} alt={title ?? ''}
+    loading="lazy" decoding="async" aria-hidden={title ? undefined : 'true'} />
+) : (
+  <Fragment set:html={svg} />
+)}

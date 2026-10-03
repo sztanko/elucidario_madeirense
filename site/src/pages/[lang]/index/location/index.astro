@@ -1,0 +1,112 @@
+---
+// Articles grouped by municipality / island, and by continent for places abroad.
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../components/ui/SectionHead.astro';
+import Label from '../../../../components/ui/Label.astro';
+import { fmtInt } from '../../../../components/ui/format';
+import { languages, articles, geo } from '../../../../lib/data';
+import { groupBy } from '../../../../components/pages/content';
+import { t } from '../../../../i18n/ui';
+import * as u from '../../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: string };
+const arts = articles(lang);
+const g = geo();
+
+const ISLANDS = ['Madeira', 'Porto Santo', 'Desertas', 'Selvagens'];
+type Row = { id: string; hw: string; hw_pt: string };
+const madeiraGroup = new Map<string, Map<string, Row[]>>(); // island -> municipality -> articles
+for (const isl of ISLANDS) madeiraGroup.set(isl, new Map());
+const abroadGroup = new Map<string, Map<string, Row[]>>(); // continent -> country -> articles
+
+for (const a of Object.values(arts)) {
+  const slug = a.prim?.[0];
+  if (!slug) continue;
+  const ge = g[slug];
+  if (!ge) continue;
+  const row: Row = { id: a.id, hw: a.hw, hw_pt: a.hw_pt };
+  if (ge.isl && ge.isl !== 'none' && ISLANDS.includes(ge.isl)) {
+    const muns = madeiraGroup.get(ge.isl)!;
+    const key = ge.mun || '—';
+    if (!muns.has(key)) muns.set(key, []);
+    muns.get(key)!.push(row);
+  } else {
+    const cont = ge.cont || '—';
+    if (!abroadGroup.has(cont)) abroadGroup.set(cont, new Map());
+    const countries = abroadGroup.get(cont)!;
+    const key = ge.ctry || '—';
+    if (!countries.has(key)) countries.set(key, []);
+    countries.get(key)!.push(row);
+  }
+}
+const sortRows = (rows: Row[]) => rows.sort((a, b) => a.hw.localeCompare(b.hw, lang, { sensitivity: 'base' }));
+---
+<Base lang={lang} title={`${t(lang, 'index_by_location')} — Elucidário Madeirense`} description={t(lang, 'index_by_location')} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'index_by_location') }]} />
+  <SectionHead size="xl" title={t(lang, 'index_by_location')} role="place" rule="below" />
+
+  <div class="em-loc-root">
+    <SectionHead size="m" title={t(lang, 'islands')} role="place" n="1" />
+    {ISLANDS.map((isl) => {
+      const muns = madeiraGroup.get(isl)!;
+      if (muns.size === 0) return null;
+      const munKeys = [...muns.keys()].sort((a, b) => a.localeCompare(b, lang));
+      return (
+        <section class="em-island">
+          <h3>{isl}</h3>
+          <div class="em-mun-grid">
+            {munKeys.map((mk) => (
+              <div class="em-mun">
+                <h4>{mk} <span class="em-n">{fmtInt(muns.get(mk)!.length, lang)}</span></h4>
+                <ul role="list">
+                  {sortRows(muns.get(mk)!).map((r) => (
+                    <li><a href={u.article(lang, r.id)}>{r.hw}</a></li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+
+    <SectionHead size="m" title={t(lang, 'continents')} role="place" n="2" />
+    {[...abroadGroup.keys()].sort((a, b) => a.localeCompare(b, lang)).map((cont) => {
+      const countries = abroadGroup.get(cont)!;
+      const countryKeys = [...countries.keys()].sort((a, b) => a.localeCompare(b, lang));
+      return (
+        <section class="em-island">
+          <h3>{cont}</h3>
+          <div class="em-mun-grid">
+            {countryKeys.map((ck) => (
+              <div class="em-mun">
+                <h4>{ck} <span class="em-n">{fmtInt(countries.get(ck)!.length, lang)}</span></h4>
+                <ul role="list">
+                  {sortRows(countries.get(ck)!).map((r) => (
+                    <li><a href={u.article(lang, r.id)}>{r.hw}</a></li>
+                  ))}
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+  </div>
+</Base>
+<style>
+  .em-loc-root { padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin: 0 auto; }
+  .em-island { margin: var(--s-6) 0; }
+  .em-island h3 { font-family: var(--font-display); color: var(--place-ink); font-size: var(--fs-h3); border-bottom: 2px solid var(--ink); margin: 0 0 var(--s-3); }
+  .em-mun-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(14rem, 1fr)); gap: var(--s-5); }
+  .em-mun h4 { font-size: var(--fs-note); margin: 0 0 .3rem; }
+  .em-mun .em-n { opacity: .5; font-variant-numeric: tabular-nums; font-weight: 400; }
+  .em-mun ul { list-style: none; margin: 0; padding: 0; }
+  .em-mun li { font-size: var(--fs-small); line-height: 1.5; }
+  .em-mun a { color: var(--ink); text-decoration: none; }
+  .em-mun a:hover { color: var(--person-ink); text-decoration: underline; }
+</style>

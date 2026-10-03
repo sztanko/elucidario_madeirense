@@ -1,0 +1,178 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Elucidário Madeirense: atlas plates (demo)</title>
+<style>
+:root{--paper:#e8dfca;--paper-light:#f2ead8;--ink:#171b19;--ink-2:#3a3d38;--ink-3:#5e5a4f;--place:#164c59;--place-ink:#123f4a;--person:#bd3426;--person-ink:#a32a1e;--line:rgb(23 27 25/.28);--place-wash:rgb(22 76 89/.09);
+--font-label:"Sofia Sans Extra Condensed","Arial Narrow",sans-serif;--font-text:Literata,Georgia,serif;--font-didone:"Playfair Display",Georgia,serif;--ease:cubic-bezier(.2,.7,.1,1)}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 var(--font-text)} main{max-width:1180px;margin:auto;padding:16px}
+h1{font:800 2.2rem/1 var(--font-label);text-transform:uppercase;letter-spacing:.02em} h2{font:700 .8rem/1 var(--font-label);letter-spacing:.22em;text-transform:uppercase;margin:2rem 0 .6rem}
+.em-label{font:600 10px var(--font-label);letter-spacing:.22em;text-transform:uppercase} .em-sr-only{position:absolute;clip:rect(0 0 0 0)} .locs img{margin:4px;background:var(--paper)}
+/* Engraved atlas map (cartography agent). Server shell + interactive engine. */
+.em-map {
+  --sea: var(--paper, #e8dfca);
+  --mk: var(--place, #164c59);
+  --subj: var(--person, #bd3426);
+  position: relative; margin: 0; width: 100%; min-height: 16rem; aspect-ratio: var(--ar, 1.6);
+  background: var(--sea); container-type: size; overflow: hidden; contain: layout paint;
+  color: var(--ink, #171b19); -webkit-tap-highlight-color: transparent; user-select: none;
+}
+.em-map--fixed { aspect-ratio: auto; }
+/* neatline: heavy outer rule, hairline inner rule (the graticule band sits between them) */
+.em-map::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; z-index: 6;
+  box-shadow: inset 0 0 0 1.5px var(--ink), inset 0 0 0 7px transparent;
+}
+/* the site's global `img, svg { max-width: 100% }` must not squeeze tiles and layers */
+.em-map img, .em-map svg { max-width: none; }
+.em-map__plate {
+  position: absolute; left: 50%; top: 50%; aspect-ratio: var(--ar);
+  width: min(100cqw, 100cqh * var(--ar)); transform: translate(-50%, -50%);
+}
+.em-map__plate > img, .em-map__inset > img { position: absolute; inset: 0; width: 100%; height: 100%; display: block; -webkit-user-drag: none; pointer-events: none; }
+.em-map__relief { mix-blend-mode: multiply; }
+.em-map.is-live > .em-map__plate { visibility: hidden; }
+
+/* markers (server and engine) */
+.em-map__mk {
+  position: absolute; z-index: 3; width: 19px; height: 19px; margin: -9.5px 0 0 -9.5px; padding: 0; border: 0; border-radius: 50%;
+  background: var(--mk); color: var(--paper-light, #f2ead8); box-shadow: 0 0 0 1.5px var(--paper-light, #f2ead8);
+  font: 700 10px/19px var(--font-label, sans-serif); letter-spacing: 0; text-align: center; font-variant-numeric: tabular-nums; cursor: pointer;
+}
+.em-map__mk:empty { width: 9px; height: 9px; margin: -4.5px 0 0 -4.5px; }
+.em-map__mk.is-dot { width: 7px; height: 7px; margin: -3.5px 0 0 -3.5px; box-shadow: 0 0 0 1px var(--paper-light, #f2ead8); }
+.em-map__mk.is-subj { width: 13px; height: 13px; margin: -6.5px 0 0 -6.5px; border-radius: 0; background: var(--subj); transform: rotate(45deg); }
+.em-map__mk.is-subj::after {
+  content: ""; position: absolute; inset: -9px; border: 1px dashed var(--subj); border-radius: 50%; transform: rotate(-45deg);
+}
+.em-map__mk.is-cl { width: 26px; height: 26px; margin: -13px 0 0 -13px; background: var(--paper-light, #f2ead8); color: var(--place-ink, #123f4a);
+  box-shadow: 0 0 0 1.5px var(--mk), 0 0 0 4px rgb(242 234 216 / .7); font-size: 10.5px; line-height: 26px; }
+.em-map__mk.is-hot, .em-map__mk:hover, .em-map__mk:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; z-index: 5; }
+.em-map__mk.is-out { opacity: .25; }
+
+.em-map__inset {
+  position: absolute; left: 2.2%; bottom: calc(3% + 30px); width: 22%; aspect-ratio: var(--iar); z-index: 4;
+  border: 1px dashed var(--ink); background: var(--sea);
+}
+.em-map__inset b { position: absolute; left: 4px; top: 2px; font: 600 9px/1.2 var(--font-label, sans-serif); letter-spacing: .18em; text-transform: uppercase; }
+.em-map__inset .em-map__mk { transform: scale(.8); }
+
+.em-map__abroad {
+  position: absolute; z-index: 7; right: 10px; bottom: 10px; margin: 0; display: flex; flex-wrap: wrap; gap: 3px; align-items: center;
+  padding: 3px 4px; background: var(--paper-light, #f2ead8); border: 1px solid var(--ink); max-width: calc(100% - 20px);
+}
+.em-map__abroad .em-label { font-size: 9px; margin: 0 2px; letter-spacing: .16em; }
+.em-map__abroad button {
+  font: 600 11px/1 var(--font-label, sans-serif); letter-spacing: .1em; text-transform: uppercase; color: var(--place-ink, #123f4a);
+  background: none; border: 1px solid var(--line, #0004); padding: 4px 5px; min-height: 24px; cursor: pointer;
+}
+.em-map__abroad button i { font-style: normal; color: var(--ink-3, #5e5a4f); }
+.em-map__abroad button:disabled { cursor: default; }
+.em-map__abroad button[aria-pressed="true"] { background: var(--place); color: var(--paper-light); }
+
+/* engine */
+.em-map__view { position: absolute; inset: 0; z-index: 2; overflow: hidden; touch-action: pan-y; cursor: grab; outline: none; }
+.em-map.is-active .em-map__view { touch-action: none; }
+.em-map__view:focus-visible { box-shadow: inset 0 0 0 3px var(--place); }
+.em-map.is-drag .em-map__view { cursor: grabbing; }
+/* the stage is its own stacking context (will-change), so it carries the sea: the multiply-blended relief needs that backdrop */
+.em-map__stage { position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform-origin: 0 0; will-change: transform; background: var(--sea); box-shadow: 0 0 0 100vmax var(--sea); }
+.em-map__stage.is-anim { transition: transform var(--dur-3, 280ms) var(--ease, ease); }
+.em-map__vec, .em-map__over { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
+.em-map__vec:not(.is-detail) .coast-d, .em-map__vec:not(.is-detail) .par, .em-map__vec:not(.is-detail) .str, .em-map__vec:not(.is-detail) .lev { display: none; }
+.em-map__vec.is-detail > .land, .em-map__vec.is-detail > .coast { display: none; }
+.em-map__vec:not(.is-lev) .lev { display: none; }
+.em-map__tiles { position: absolute; inset: 0; mix-blend-mode: multiply; isolation: isolate; pointer-events: none; }
+.em-map__tiles img { position: absolute; left: 0; top: 0; transform-origin: 0 0; opacity: 0; transition: opacity var(--dur-2, 180ms) linear; image-rendering: auto; }
+.em-map__tiles img.is-in { opacity: 1; }
+.em-map__over .hl-a { fill: url(#em-hatch-p); stroke: var(--place); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
+.em-map__over .hl-a.is-subj { fill: url(#em-hatch-s); stroke: var(--subj); stroke-width: 1.8; }
+.em-map__over .hl-l { fill: none; stroke: var(--place); stroke-width: 2.2; stroke-linecap: round; vector-effect: non-scaling-stroke; opacity: .9; }
+.em-map__over .hl-l.is-subj { stroke: var(--subj); stroke-width: 3; }
+
+.em-map__lbl { position: absolute; inset: 0; pointer-events: none; z-index: 2; }
+.em-map__lbl span {
+  position: absolute; left: 0; top: 0; white-space: nowrap; line-height: 1;
+  text-shadow: 0 0 2px var(--paper-light, #f2ead8), 0 0 2px var(--paper-light, #f2ead8), 0 0 3px var(--paper-light, #f2ead8);
+}
+.em-map__lbl .l-seat { font: 760 11px/1 var(--font-label, sans-serif); letter-spacing: .13em; text-transform: uppercase; }
+.em-map__lbl .l-parish { font: italic 12px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-locality { font: 10.5px/1 var(--font-text, serif); color: var(--ink-3, #5e5a4f); }
+.em-map__lbl .l-locality.r3 { font-size: 11.5px; color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-peak { font: italic 10.5px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-peak b { font: 600 9.5px/1 var(--font-label, sans-serif); letter-spacing: .06em; font-style: normal; font-variant-numeric: tabular-nums; }
+.em-map__lbl .l-peak::before {
+  content: ""; display: inline-block; width: 0; height: 0; margin-right: 4px; vertical-align: -1px;
+  border-left: 4.5px solid transparent; border-right: 4.5px solid transparent; border-bottom: 8px solid var(--ink);
+}
+.em-map__lbl .l-cape, .em-map__lbl .l-bay, .em-map__lbl .l-islet { font: italic 10.5px/1 var(--font-text, serif); color: var(--place-ink, #123f4a); }
+.em-map__lbl .l-island { font: 700 13px/1 var(--font-label, sans-serif); letter-spacing: .42em; }
+.em-map__lbl .l-ocean { font: italic 15px/1 var(--font-didone, serif); letter-spacing: .55em; color: var(--place-ink, #123f4a); text-transform: uppercase; opacity: .85; }
+.em-map__lbl .l-country { font: 680 10px/1 var(--font-label, sans-serif); letter-spacing: .2em; text-transform: uppercase; color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-country.r1 { font-size: 12px; }
+.em-map__lbl .l-home { font: 700 11px/1 var(--font-label, sans-serif); letter-spacing: .14em; text-transform: uppercase; }
+.em-map__lbl .l-home::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 5px; border: 1.5px solid var(--ink); border-radius: 50%; vertical-align: -1px; }
+.em-map__lbl .l-mk { font: 600 10.5px/1 var(--font-text, serif); color: var(--place-ink, #123f4a); }
+.em-map__lbl .l-mk.is-subj { font: 760 12px/1 var(--font-label, sans-serif); letter-spacing: .14em; text-transform: uppercase; color: var(--person-ink, #a32a1e); }
+
+.em-map__mks { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
+.em-map__mks .em-map__mk { left: 0; top: 0; pointer-events: auto; }
+
+.em-map__frame { position: absolute; inset: 0; z-index: 5; pointer-events: none; width: 100%; height: 100%; transition: opacity var(--dur-2, 180ms); }
+.em-map.is-moving .em-map__frame text { opacity: 0; }
+.em-map__frame text { font: 600 8.5px var(--font-label, sans-serif); letter-spacing: .06em; fill: var(--ink-2, #3a3d38); font-variant-numeric: tabular-nums; }
+
+.em-map__scale, .em-map__nr { position: absolute; z-index: 5; pointer-events: none; }
+.em-map__scale { left: 16px; bottom: 16px; }
+.em-map__scale text { font: 600 9px var(--font-label, sans-serif); letter-spacing: .08em; fill: var(--ink); }
+.em-map__nr { left: 14px; top: 14px; width: 30px; height: 46px; }
+
+.em-map__ctl {
+  position: absolute; z-index: 7; right: 14px; top: 14px; display: grid; background: var(--paper-light, #f2ead8);
+  border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--ink);
+}
+.em-map__ctl button {
+  width: 32px; height: 32px; padding: 0; border: 0; border-top: 1px solid var(--line, #0004); background: none; color: var(--ink);
+  font: 400 18px/1 var(--font-text, serif); cursor: pointer; display: grid; place-items: center;
+}
+.em-map__ctl button:first-child { border-top: 0; }
+.em-map__ctl button:hover, .em-map__ctl button:focus-visible { background: var(--ink); color: var(--paper-light); outline: none; }
+.em-map__ctl button[hidden] { display: none; }
+@media (pointer: coarse) { .em-map__ctl button { width: 40px; height: 40px; } }
+.em-map__hint {
+  position: absolute; z-index: 8; left: 50%; top: 50%; transform: translate(-50%, -50%); pointer-events: none;
+  padding: 8px 12px; background: rgb(23 27 25 / .82); color: var(--paper-light, #f2ead8);
+  font: 600 11px/1.3 var(--font-label, sans-serif); letter-spacing: .12em; text-transform: uppercase; text-align: center;
+  opacity: 0; transition: opacity var(--dur-2, 180ms);
+}
+.em-map__hint.is-on { opacity: 1; }
+.em-map__pop {
+  position: absolute; z-index: 9; min-width: 10rem; max-width: 16rem; padding: 8px 10px 9px; background: var(--paper-light, #f2ead8);
+  border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--ink); font: 14px/1.3 var(--font-text, serif); user-select: text;
+}
+.em-map__pop a { color: var(--place-ink, #123f4a); font-weight: 620; text-decoration: underline; text-underline-offset: 2px; }
+.em-map__pop small { display: block; margin-top: 3px; font: 600 9.5px/1.3 var(--font-label, sans-serif); letter-spacing: .14em; text-transform: uppercase; color: var(--ink-3, #5e5a4f); }
+.em-map__pop button { position: absolute; right: 2px; top: 0; border: 0; background: none; font-size: 16px; cursor: pointer; color: var(--ink-3); }
+
+/* page elements linked to a hovered marker (EntityLink anchors, [data-em-place]) */
+.em-map-hot { background: var(--place-wash, rgb(22 76 89 / .09)); box-shadow: 0 0 0 2px var(--place-wash, rgb(22 76 89 / .09)); }
+
+@container (max-width: 30rem) {
+  .em-map__abroad .em-label { display: none; }
+  .em-map__abroad button { font-size: 10px; letter-spacing: .06em; }
+  .em-map__ctl button { width: 30px; height: 30px; font-size: 16px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .em-map__stage.is-anim, .em-map__tiles img, .em-map__hint, .em-map__frame { transition: none; }
+}
+@media print {
+  .em-map { break-inside: avoid; }
+  .em-map__ctl, .em-map__hint, .em-map__pop, .em-map__abroad button:not([aria-pressed="true"]) { display: none !important; }
+  .em-map__view { touch-action: auto; }
+  .em-map .em-map__mks .em-map__mk, .em-map .em-map__abroad button[aria-pressed="true"] { display: block !important; }
+}
+
+</style></head><body><main><h1>Atlas plates · demo</h1>
+<p>Flowline hachures after Samsonov (2014) from Copernicus GLO-30, vector plates from OSM and Natural Earth. Drag, pinch or ⌘/Ctrl + scroll; click a map to activate plain scrolling and one-finger panning.</p>
+<section><h2>Article map: Calheta (subject municipality hatched, numbered mentions, places abroad)</h2><figure class="em-map em-map--article" data-em-map data-mode="article" data-region="madeira" data-lang="en" data-p="calheta-madeira~s~1 ponta-do-pargo~2 arco-da-calheta~3 calheta-municipality~4 paul-do-mar~5 estreito-da-calheta~6 faja-da-ovelha~7 rabacal~8 lisboa~9 acores~10 brasil~11" style="--ar:1.9752;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="madeira/plate.svg?v=1791028438" alt="" loading="lazy"><img class="em-map__relief" src="madeira/relief-s.avif?v=1791028438" srcset="madeira/relief-s.avif?v=1791028438 777w, madeira/relief-l.avif?v=1791028438 1555w" sizes="100vw" alt="" loading="lazy"><span class="em-map__mk is-subj" style="left:20.6%;top:51.8%" data-id="calheta-madeira"></span><span class="em-map__mk" style="left:9.1%;top:27.3%" data-id="ponta-do-pargo">2</span><span class="em-map__mk" style="left:23.3%;top:58.1%" data-id="arco-da-calheta">3</span><span class="em-map__mk" style="left:23.3%;top:58.1%" data-id="calheta-municipality">4</span><span class="em-map__mk" style="left:9.7%;top:47.4%" data-id="paul-do-mar">5</span><span class="em-map__mk" style="left:17.0%;top:48.2%" data-id="estreito-da-calheta">6</span><span class="em-map__mk" style="left:11.7%;top:38.8%" data-id="faja-da-ovelha">7</span><span class="em-map__mk" style="left:23.8%;top:46.5%" data-id="rabacal">8</span></div><p class="em-map__abroad"><span class="em-label">Abroad</span><button type="button" data-region="europe" disabled>Europe <i>2</i></button><button type="button" data-region="south-america" disabled>South America <i>1</i></button></p></figure></section><section><h2>Madeira, overview with 80 places (clustered)</h2><figure class="em-map em-map--overview" data-em-map data-mode="overview" data-region="madeira" data-lang="en" data-p="funchal madeira-island machico-madeira camara-de-lobos-madeira santa-cruz-madeira ponta-do-sol-madeira calheta-madeira se-do-funchal monte ribeira-brava-madeira porto-moniz santo-antonio canico sao-vicente-madeira porto-da-cruz ponta-de-sao-lourenco sao-martinho curral-das-freiras ponta-do-pargo paul-da-serra santa-maria-maior camacha-santa-cruz santana-madeira campanario arco-da-calheta faial-santana ribeira-de-santa-luzia sao-jorge palacio-de-sao-lourenco ponta-delgada-sao-vicente convento-de-santa-clara sao-goncalo canical sao-roque sao-pedro-funchal calheta-municipality estreito-de-camara-de-lobos convento-de-sao-francisco paul-do-mar estreito-da-calheta ribeira-de-joao-gomes boaventura-sao-vicente ribeira-da-janela-porto-moniz ribeiro-frio seixal ribeira-dos-socorridos faja-da-ovelha sao-vicente-municipality canhas machico-municipality santana-municipality fortaleza-de-sao-lourenco madalena-do-mar santa-cruz-municipality ponta-do-sol-municipality camara-de-lobos-municipality pico-ruivo cemiterio-das-angustias pontinha serra-de-agua-ribeira-brava porto-do-funchal ribeira-brava-municipality tabua santo-antonio-da-serra rua-da-carreira santa-luzia ponta-da-cruz-funchal fortaleza-de-sao-tiago poiso-madeira ponta-do-tristao igreja-de-nossa-senhora-do-calhau rabacal levada-de-santa-luzia achadas-da-cruz capela-de-santa-catarina-ribeira-brava cabo-girao hospital-de-santa-isabel arco-de-sao-jorge lazareto-de-goncalo-aires santo-da-serra-machico" style="--ar:1.9752;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="madeira/plate.svg?v=1791028438" alt="" loading="lazy"><img class="em-map__relief" src="madeira/relief-s.avif?v=1791028438" srcset="madeira/relief-s.avif?v=1791028438 777w, madeira/relief-l.avif?v=1791028438 1555w" sizes="100vw" alt="" loading="lazy"><span class="em-map__mk" style="left:57.7%;top:86.2%" data-id="funchal"></span><span class="em-map__mk" style="left:48.2%;top:50.2%" data-id="madeira-island"></span><span class="em-map__mk" style="left:76.9%;top:55.2%" data-id="machico-madeira"></span><span class="em-map__mk" style="left:45.1%;top:80.9%" data-id="camara-de-lobos-madeira"></span><span class="em-map__mk" style="left:73.9%;top:69.1%" data-id="santa-cruz-madeira"></span><span class="em-map__mk" style="left:31.2%;top:60.7%" data-id="ponta-do-sol-madeira"></span><span class="em-map__mk" style="left:20.6%;top:51.8%" data-id="calheta-madeira"></span><span class="em-map__mk" style="left:57.8%;top:86.7%" data-id="se-do-funchal"></span><span class="em-map__mk" style="left:58.4%;top:68.5%" data-id="monte"></span><span class="em-map__mk" style="left:38.0%;top:69.8%" data-id="ribeira-brava-madeira"></span><span class="em-map__mk" style="left:19.0%;top:9.3%" data-id="porto-moniz"></span><span class="em-map__mk" style="left:51.8%;top:71.2%" data-id="santo-antonio"></span></div></figure></section><section><h2>Porto Santo</h2><figure class="em-map em-map--article" data-em-map data-mode="article" data-region="porto-santo" data-lang="en" data-p="porto-santo-island~1 ilheu-de-baixo~2 ilheu-de-cima~3 vila-baleira~4 pico-do-castelo~5 praia-do-porto-santo~6 campo-de-baixo~7 areias~8" style="--ar:0.8791;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="porto-santo/plate.svg?v=1791028438" alt="" loading="lazy"><img class="em-map__relief" src="porto-santo/relief-s.avif?v=1791028438" srcset="porto-santo/relief-s.avif?v=1791028438 803w, porto-santo/relief-l.avif?v=1791028438 1605w" sizes="100vw" alt="" loading="lazy"><span class="em-map__mk" style="left:48.4%;top:42.3%" data-id="porto-santo-island">1</span><span class="em-map__mk" style="left:25.0%;top:82.6%" data-id="ilheu-de-baixo">2</span><span class="em-map__mk" style="left:85.4%;top:54.2%" data-id="ilheu-de-cima">3</span><span class="em-map__mk" style="left:56.0%;top:51.7%" data-id="vila-baleira">4</span><span class="em-map__mk" style="left:55.9%;top:38.7%" data-id="pico-do-castelo">5</span><span class="em-map__mk" style="left:24.7%;top:67.8%" data-id="praia-do-porto-santo">6</span><span class="em-map__mk" style="left:43.8%;top:59.6%" data-id="campo-de-baixo">7</span><span class="em-map__mk" style="left:42.7%;top:38.3%" data-id="areias">8</span></div></figure></section><section><h2>The archipelago, with the Selvagens inset</h2><figure class="em-map em-map--overview" data-em-map data-mode="overview" data-region="archipelago" data-lang="en" data-p="funchal madeira-island porto-santo-island machico-madeira camara-de-lobos-madeira santa-cruz-madeira ponta-do-sol-madeira calheta-madeira se-do-funchal monte ribeira-brava-madeira porto-moniz santo-antonio canico sao-vicente-madeira porto-da-cruz ponta-de-sao-lourenco desertas-island sao-martinho curral-das-freiras ponta-do-pargo paul-da-serra santa-maria-maior camacha-santa-cruz santana-madeira campanario arco-da-calheta faial-santana selvagens ribeira-de-santa-luzia sao-jorge palacio-de-sao-lourenco ponta-delgada-sao-vicente convento-de-santa-clara sao-goncalo canical sao-roque sao-pedro-funchal calheta-municipality estreito-de-camara-de-lobos convento-de-sao-francisco paul-do-mar estreito-da-calheta ribeira-de-joao-gomes boaventura-sao-vicente ribeira-da-janela-porto-moniz ribeiro-frio seixal ribeira-dos-socorridos faja-da-ovelha sao-vicente-municipality canhas machico-municipality santana-municipality fortaleza-de-sao-lourenco madalena-do-mar se santa-cruz-municipality ponta-do-sol-municipality camara-de-lobos-municipality deserta-grande pico-ruivo cemiterio-das-angustias pontinha serra-de-agua-ribeira-brava porto-do-funchal ribeira-brava-municipality tabua santo-antonio-da-serra rua-da-carreira santa-luzia ponta-da-cruz-funchal fortaleza-de-sao-tiago poiso-madeira ponta-do-tristao igreja-de-nossa-senhora-do-calhau rabacal levada-de-santa-luzia achadas-da-cruz capela-de-santa-catarina-ribeira-brava cabo-girao hospital-de-santa-isabel arco-de-sao-jorge lazareto-de-goncalo-aires santo-da-serra-machico praia-formosa ponta-da-oliveira alfandega-do-funchal jardim-do-mar terreiro-da-luta pico-do-areeiro igreja-do-colegio capela-de-sao-paulo rua-direita penha-de-aguia ribeira-de-sao-joao largo-da-se rua-dos-ferreiros campo-da-barca ilheu-chao gaula convento-da-encarnacao agua-de-pena baia-do-funchal ilheu-de-baixo quinta-grande bugio praca-da-constituicao avenida-arriaga choupana jardim-da-serra quinta-vigia ilheu-de-cima fortaleza-do-pico-sao-pedro vila-baleira ribeira-de-machico ribeiro-seco jardim-municipal rua-dos-aranhas palacio-de-sao-pedro igreja-de-santa-clara ilheu-de-fora-machico rua-de-santa-maria capela-de-nossa-senhora-da-piedade selvagem-grande faja-dos-padres lugar-de-baixo igreja-de-santa-maria-maior prazeres-calheta rua-da-alfandega largo-do-pelourinho-funchal hospicio-da-princesa-d-maria-amelia garajau rua-dos-netos levada-do-rabacal ribeira-do-inferno igreja-do-carmo pacos-do-concelho-do-funchal paco-episcopal rua-do-carmo quinta-das-cruzes rua-de-joao-tavira lombada-dos-esmeraldos jardim-municipal-do-funchal capela-de-sao-sebastiao pico-do-castelo levada-do-juncal lamaceiros-santo-da-serra santa-catarina-sao-pedro ribeira-da-metade rua-de-sao-francisco rua-do-aljube campo-do-duque molhe-da-pontinha pico-dos-frias cais-da-pontinha praca-academica ponta-do-garajau igreja-de-nossa-senhora-do-monte fanal" style="--ar:1.1373;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="archipelago/plate.svg?v=1791028438" alt="" loading="lazy"><img class="em-map__relief" src="archipelago/relief-s.avif?v=1791028438" srcset="archipelago/relief-s.avif?v=1791028438 628w, archipelago/relief-l.avif?v=1791028438 1256w" sizes="100vw" alt="" loading="lazy"><span class="em-map__mk" style="left:37.2%;top:64.5%" data-id="funchal"></span><span class="em-map__mk" style="left:31.3%;top:51.7%" data-id="madeira-island"></span><span class="em-map__mk" style="left:89.6%;top:11.2%" data-id="porto-santo-island"></span><span class="em-map__mk" style="left:49.1%;top:53.5%" data-id="machico-madeira"></span><span class="em-map__mk" style="left:29.4%;top:62.7%" data-id="camara-de-lobos-madeira"></span><span class="em-map__mk" style="left:47.2%;top:58.5%" data-id="santa-cruz-madeira"></span><span class="em-map__mk" style="left:20.8%;top:55.5%" data-id="ponta-do-sol-madeira"></span><span class="em-map__mk" style="left:14.2%;top:52.3%" data-id="calheta-madeira"></span><span class="em-map__mk" style="left:37.2%;top:64.7%" data-id="se-do-funchal"></span><span class="em-map__mk" style="left:37.6%;top:58.3%" data-id="monte"></span><span class="em-map__mk" style="left:25.0%;top:58.7%" data-id="ribeira-brava-madeira"></span><span class="em-map__mk" style="left:13.3%;top:37.1%" data-id="porto-moniz"></span><span class="em-map__inset" style="--iar:1.2523"><img src="selvagens/plate.svg?v=1791028438" alt=""><img class="em-map__relief" src="selvagens/relief-s.avif?v=1791028438" alt=""><b>Selvagens</b></span></div></figure></section><section><h2>Desertas</h2><figure class="em-map em-map--place em-map--fixed" data-em-map data-mode="place" data-region="desertas" data-lang="en" data-p="desertas-island~1 ponta-da-agulha~2 ilheu-do-prego-do-mar~3 prego-do-mar~4 farilhao~5 desertas-cape-point~6" style="--ar:0.8;height:24rem;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="desertas/plate.svg?v=1791028438" alt="" loading="lazy"><img class="em-map__relief" src="desertas/relief-s.avif?v=1791028438" srcset="desertas/relief-s.avif?v=1791028438 996w, desertas/relief-l.avif?v=1791028438 1992w" sizes="100vw" alt="" loading="lazy"><span class="em-map__mk" style="left:48.1%;top:38.2%" data-id="desertas-island">1</span><span class="em-map__mk" style="left:70.0%;top:91.8%" data-id="ponta-da-agulha">2</span><span class="em-map__mk" style="left:31.2%;top:8.1%" data-id="ilheu-do-prego-do-mar">3</span><span class="em-map__mk" style="left:31.2%;top:8.1%" data-id="prego-do-mar">4</span><span class="em-map__mk" style="left:31.2%;top:8.1%" data-id="farilhao">5</span><span class="em-map__mk" style="left:48.1%;top:38.2%" data-id="desertas-cape-point">6</span></div></figure></section><section><h2>Europe</h2><figure class="em-map em-map--continent" data-em-map data-mode="continent" data-region="europe" data-lang="en" data-p="lisboa acores londres coimbra canarias porto paris universidade-de-coimbra portugal inglaterra algarve franca sao-miguel terceira tenerife roma evora ponta-delgada-foreign-city-place espanha elvas berlim italia angra-do-heroismo madrid tomar genova braga montpellier viena setubal beja hamburgo gibraltar suica russia viana-do-castelo la-palma edimburgo minho florenca arquipelago-da-madeira-region santarem guarda lamego vila-franca-do-campo portalegre braganca castelo-branco leipzig liverpool matosinhos alemanha las-palmas aveiro kew guimaraes angra forte-de-sao-juliao-da-barra arguim antuerpia cadis viseu evora-monte vila-real haia gran-canaria salamanca british-museum museu-britanico horta" style="--ar:1.376;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="europe/plate.svg?v=1791028438" alt="" loading="lazy"><span class="em-map__mk" style="left:31.8%;top:71.2%" data-id="lisboa"></span><span class="em-map__mk" style="left:13.8%;top:65.6%" data-id="acores"></span><span class="em-map__mk" style="left:43.1%;top:47.6%" data-id="londres"></span><span class="em-map__mk" style="left:32.9%;top:68.4%" data-id="coimbra"></span><span class="em-map__mk" style="left:20.1%;top:88.5%" data-id="canarias"></span><span class="em-map__mk" style="left:32.9%;top:66.5%" data-id="porto"></span><span class="em-map__mk" style="left:45.1%;top:53.0%" data-id="paris"></span><span class="em-map__mk" style="left:32.9%;top:68.5%" data-id="universidade-de-coimbra"></span><span class="em-map__mk" style="left:33.1%;top:69.6%" data-id="portugal"></span><span class="em-map__mk" style="left:42.2%;top:45.4%" data-id="inglaterra"></span><span class="em-map__mk" style="left:32.5%;top:74.3%" data-id="algarve"></span><span class="em-map__mk" style="left:44.6%;top:57.4%" data-id="franca"></span></div></figure></section><section><h2>Africa</h2><figure class="em-map em-map--continent" data-em-map data-mode="continent" data-region="africa" data-lang="en" data-p="cabo-verde africa angola marrocos cabo-da-boa-esperanca mocambique africa-do-sul luanda sao-tome arzila tanger santa-helena torre-do-tombo ceuta mindelo alcacer-quibir brava guine egipto beira mocamedes argel santo-antao safim cabo-de-gue sahara africa-portuguesa principe macequece mogador santa-catarina-santiago quelimane cacongo massabi cabinda gabao zaire loango nilo abissinia" style="--ar:1.0529;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="africa/plate.svg?v=1791028438" alt="" loading="lazy"><span class="em-map__mk" style="left:4.8%;top:29.7%" data-id="cabo-verde"></span><span class="em-map__mk" style="left:51.5%;top:36.9%" data-id="africa"></span><span class="em-map__mk" style="left:51.3%;top:65.8%" data-id="angola"></span><span class="em-map__mk" style="left:21.7%;top:15.3%" data-id="marrocos"></span><span class="em-map__mk" style="left:52.0%;top:93.0%" data-id="cabo-da-boa-esperanca"></span><span class="em-map__mk" style="left:70.7%;top:75.2%" data-id="mocambique"></span><span class="em-map__mk" style="left:59.1%;top:86.5%" data-id="africa-do-sul"></span><span class="em-map__mk" style="left:46.2%;top:62.1%" data-id="luanda"></span><span class="em-map__mk" style="left:38.6%;top:50.7%" data-id="sao-tome"></span><span class="em-map__mk" style="left:27.7%;top:7.0%" data-id="arzila"></span><span class="em-map__mk" style="left:27.9%;top:6.6%" data-id="tanger"></span><span class="em-map__mk" style="left:24.7%;top:71.1%" data-id="santa-helena"></span></div></figure></section><section><h2>South America</h2><figure class="em-map em-map--continent" data-em-map data-mode="continent" data-region="south-america" data-lang="en" data-p="brasil rio-de-janeiro pernambuco demerara sao-paulo-foreign-city-place peru lourenco-marques america-do-sul mazagao azamor almeirim argentina santa-maria guiana-inglesa indias-ocidentais tejo baia limoeiro himalaia buenos-aires nova-granada ascensao sagres maranhao goias ponta-negra vassouras colonia-do-sacramento cordoba santa-fe sao-cristovao-foreign-city-place paraguai quito tolima antilhas rua-nova estreito-de-magalhaes caxias constantinopla antas" style="--ar:0.7443;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="south-america/plate.svg?v=1791028438" alt="" loading="lazy"><span class="em-map__mk" style="left:59.8%;top:33.5%" data-id="brasil"></span><span class="em-map__mk" style="left:76.1%;top:51.9%" data-id="rio-de-janeiro"></span><span class="em-map__mk" style="left:88.6%;top:32.3%" data-id="pernambuco"></span><span class="em-map__mk" style="left:50.3%;top:11.3%" data-id="demerara"></span><span class="em-map__mk" style="left:70.1%;top:52.4%" data-id="sao-paulo-foreign-city-place"></span><span class="em-map__mk" style="left:19.2%;top:29.3%" data-id="peru"></span><span class="em-map__mk" style="left:65.4%;top:54.8%" data-id="lourenco-marques"></span><span class="em-map__mk" style="left:45.5%;top:48.2%" data-id="america-do-sul"></span><span class="em-map__mk" style="left:62.4%;top:19.3%" data-id="mazagao"></span><span class="em-map__mk" style="left:49.6%;top:67.3%" data-id="azamor"></span><span class="em-map__mk" style="left:61.3%;top:21.3%" data-id="almeirim"></span><span class="em-map__mk" style="left:39.5%;top:67.7%" data-id="argentina"></span></div></figure></section><section><h2>North America</h2><figure class="em-map em-map--continent" data-em-map data-mode="continent" data-region="north-america" data-lang="en" data-p="estados-unidos-da-america america-do-norte mexico america nova-iorque havai washington filadelfia santiago-foreign-city-place trindade america-tropical terra-nova lea malabar promontorio illinois haiti milford estados-unidos brooklyn saint-ives guyenne montrose luisiana bermudas moca monsanto idanha boston sao-francisco cabo-cod california mangua barbados jamaica minoa florida sao-salvador persia" style="--ar:1.4878;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="north-america/plate.svg?v=1791028438" alt="" loading="lazy"><span class="em-map__mk" style="left:54.3%;top:54.6%" data-id="estados-unidos-da-america"></span><span class="em-map__mk" style="left:49.4%;top:38.9%" data-id="america-do-norte"></span><span class="em-map__mk" style="left:52.9%;top:76.5%" data-id="mexico"></span><span class="em-map__mk" style="left:73.4%;top:93.1%" data-id="america"></span><span class="em-map__mk" style="left:72.4%;top:49.4%" data-id="nova-iorque"></span><span class="em-map__mk" style="left:9.4%;top:61.8%" data-id="havai"></span><span class="em-map__mk" style="left:70.8%;top:52.7%" data-id="washington"></span><span class="em-map__mk" style="left:71.8%;top:50.8%" data-id="filadelfia"></span><span class="em-map__mk" style="left:69.7%;top:93.2%" data-id="santiago-foreign-city-place"></span><span class="em-map__mk" style="left:89.7%;top:84.3%" data-id="trindade"></span><span class="em-map__mk" style="left:40.9%;top:60.4%" data-id="america-tropical"></span><span class="em-map__mk" style="left:79.2%;top:32.1%" data-id="terra-nova"></span></div></figure></section><section><h2>Asia</h2><figure class="em-map em-map--continent" data-em-map data-mode="continent" data-region="asia" data-lang="en" data-p="india goa china japao molucas diu ormuz timor jerusalem candia socotora cananor tabgha haifa nova-goa mesopotamia georgia-do-sul pequim gerasa xangai manufai madras mar-vermelho malaca samatra java turquestao afeganistao funai belem-foreign-city-place filipinas angediva surat india-portuguesa cote-d-azur" style="--ar:1.5745;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="asia/plate.svg?v=1791028438" alt="" loading="lazy"><span class="em-map__mk" style="left:43.4%;top:56.7%" data-id="india"></span><span class="em-map__mk" style="left:39.4%;top:65.2%" data-id="goa"></span><span class="em-map__mk" style="left:64.2%;top:39.6%" data-id="china"></span><span class="em-map__mk" style="left:81.7%;top:27.1%" data-id="japao"></span><span class="em-map__mk" style="left:82.8%;top:82.2%" data-id="molucas"></span><span class="em-map__mk" style="left:37.5%;top:57.9%" data-id="diu"></span><span class="em-map__mk" style="left:27.7%;top:47.2%" data-id="ormuz"></span><span class="em-map__mk" style="left:80.7%;top:91.8%" data-id="timor"></span><span class="em-map__mk" style="left:16.2%;top:32.2%" data-id="jerusalem"></span><span class="em-map__mk" style="left:44.3%;top:76.0%" data-id="candia"></span><span class="em-map__mk" style="left:23.6%;top:64.4%" data-id="socotora"></span><span class="em-map__mk" style="left:40.3%;top:69.7%" data-id="cananor"></span></div></figure></section><section><h2>Oceania</h2><figure class="em-map em-map--continent" data-em-map data-mode="continent" data-region="oceania" data-lang="en" data-p="australia~1 ilha-norfolk~2" style="--ar:1.3543;"><div class="em-map__plate" aria-hidden="true"><img class="em-map__base" src="oceania/plate.svg?v=1791028438" alt="" loading="lazy"><span class="em-map__mk" style="left:38.0%;top:49.5%" data-id="australia">1</span><span class="em-map__mk" style="left:77.4%;top:57.8%" data-id="ilha-norfolk">2</span></div></figure></section>
+<section><h2>Locators (static SVG, for cards and the mobile header)</h2><div class="locs"><img src="loc/madeira.svg" alt="Madeira" width="240"><img src="loc/calheta.svg" alt="Calheta" width="240"><img src="loc/camara-de-lobos.svg" alt="Câmara de Lobos" width="240"><img src="loc/funchal.svg" alt="Funchal" width="240"><img src="loc/machico.svg" alt="Machico" width="240"><img src="loc/ponta-do-sol.svg" alt="Ponta do Sol" width="240"><img src="loc/porto-moniz.svg" alt="Porto Moniz" width="240"><img src="loc/porto-santo.svg" alt="Porto Santo" width="240"><img src="loc/ribeira-brava.svg" alt="Ribeira Brava" width="240"><img src="loc/santa-cruz.svg" alt="Santa Cruz" width="240"><img src="loc/santana.svg" alt="Santana" width="240"><img src="loc/sao-vicente.svg" alt="São Vicente" width="240"></div></section></main>
+<script>globalThis.__EM_BASE__ = location.pathname.replace(/maps\/demo\.html.*$/, '');</script>
+<script type="module" src="demo/boot.js"></script></body></html>

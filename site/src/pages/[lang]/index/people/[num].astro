@@ -1,0 +1,70 @@
+---
+// "By population": persons sorted by mention count, each with the articles that mention them.
+// Paginated numerically (page 1 lives at /index/people/, this file serves page >= 2).
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../components/ui/SectionHead.astro';
+import EntityLink from '../../../../components/ui/EntityLink.astro';
+import { fmtLife, fmtInt } from '../../../../components/ui/format';
+import { languages, persons } from '../../../../lib/data';
+import { chunk, PEOPLE_PAGE_SIZE } from '../../../../components/pages/content';
+import { t } from '../../../../i18n/ui';
+import * as u from '../../../../lib/urls';
+
+
+export function getStaticPaths() {
+  return languages().flatMap((lang) => {
+    const sorted = Object.values(persons(lang)).sort((a, b) => b.cnt - a.cnt);
+    const pages = chunk(sorted, PEOPLE_PAGE_SIZE);
+    return pages.slice(1).map((_, i) => ({ params: { lang, num: String(i + 2) }, props: { pageIndex: i + 1, totalPages: pages.length } }));
+  });
+}
+const { lang } = Astro.params as { lang: string };
+const { pageIndex, totalPages } = Astro.props as { pageIndex: number; totalPages: number };
+const sorted = Object.values(persons(lang)).sort((a, b) => b.cnt - a.cnt);
+const pageRows = chunk(sorted, PEOPLE_PAGE_SIZE)[pageIndex];
+const pageNum = pageIndex + 1;
+const base = u.indexPeople(lang);
+const pageHref = (n: number) => (n === 1 ? base : `${base}${n}/`);
+const MAX_MENTIONS = 8;
+---
+<Base lang={lang} title={`${t(lang, 'index_by_population')} — ${t(lang, 'page_n')} ${pageNum} — Elucidário Madeirense`} description={t(lang, 'index_by_population')} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'index_by_population'), href: base }, { label: `${t(lang, 'page_n')} ${pageNum}` }]} />
+  <SectionHead size="xl" title={t(lang, 'index_by_population')} role="person" rule="below" />
+
+  <ol class="em-pop-list" start={pageIndex * PEOPLE_PAGE_SIZE + 1}>
+    {pageRows.map((p) => (
+      <li>
+        <p class="em-pop-head">
+          <EntityLink kind="person" id={p.id} lang={lang} variant="name">{p.n}</EntityLink>
+          {(p.d?.[0] || p.d?.[1]) && <span class="em-dates">{fmtLife(p.d, t(lang, 'born'), t(lang, 'died'))}</span>}
+          <span class="em-n">{fmtInt(p.cnt, lang)} {t(lang, 'mentioned_in').toLowerCase()}</span>
+        </p>
+        <p class="em-pop-mentions">
+          {p.m.slice(0, MAX_MENTIONS).map((mn, i) => (
+            <>{i > 0 && ', '}<a href={u.article(lang, mn.a)}>{mn.hw}</a></>
+          ))}
+          {p.m.length > MAX_MENTIONS && <span class="em-more-n"> +{p.m.length - MAX_MENTIONS} {t(lang, 'and_n_more')}</span>}
+        </p>
+      </li>
+    ))}
+  </ol>
+
+  <nav class="em-pagination" aria-label={t(lang, 'page_n')}>
+    {pageNum > 1 && <a href={pageHref(pageNum - 1)}>← {t(lang, 'prev_page')}</a>}
+    <span class="em-page-current">{t(lang, 'page_n')} {pageNum} / {totalPages}</span>
+    {pageNum < totalPages && <a href={pageHref(pageNum + 1)}>{t(lang, 'next_page')} →</a>}
+  </nav>
+</Base>
+<style>
+  .em-pop-list { list-style: none; margin: 0; padding: var(--s-5) var(--gutter) var(--s-6); max-width: var(--page-max); margin-inline: auto; counter-reset: pop; }
+  .em-pop-list li { padding: .6rem 0; border-bottom: 1px solid var(--line-faint); }
+  .em-pop-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .6em; margin: 0; }
+  .em-dates { font-size: var(--fs-small); opacity: .65; font-variant-numeric: tabular-nums; }
+  .em-n { margin-left: auto; font-size: var(--fs-small); opacity: .6; }
+  .em-pop-mentions { margin: .2rem 0 0; font-size: var(--fs-small); opacity: .85; line-height: 1.5; }
+  .em-pop-mentions a { color: var(--ink-2); }
+  .em-more-n { opacity: .55; }
+  .em-pagination { display: flex; justify-content: space-between; align-items: center; padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin: 0 auto; font-size: var(--fs-small); }
+  .em-page-current { opacity: .7; font-variant-numeric: tabular-nums; }
+</style>

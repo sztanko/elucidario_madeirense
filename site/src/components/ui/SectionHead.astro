@@ -1,0 +1,47 @@
+---
+/**
+ * SectionHead: numbered section head "3 · GEOGRAFIA ─────────" (vermilion numeral, condensed caps, trailing rule).
+ * Props:
+ *   title: string
+ *   n?: number | string        numeral (omitted → no numeral)
+ *   level?: 2|3|4               heading level (default 2)
+ *   id?: string                 id on the heading (anchor target)
+ *   size?: 'xl'|'l'|'m'|'s'     xl = poster ("LEITURA DO ARTIGO"), l = chapter, m = aside module, s = small
+ *   role?: 'person'|'place'|'date'|'ink'   numeral colour (default person/vermilion)
+ *   rule?: 'after'|'below'|'none'          trailing rule on the same line (default) or full rule below
+ *   lang?: string               if the title is in another language than the page
+ *   class?: string
+ * Slots: default = extra inline content after the title (e.g. <span class="em-langmark">EN</span>);
+ *        "aside" = right-aligned content (count, link).
+ */
+interface Props { title: string; n?: number | string; level?: 2 | 3 | 4; id?: string; size?: 'xl' | 'l' | 'm' | 's'; role?: 'person' | 'place' | 'date' | 'ink'; rule?: 'after' | 'below' | 'none'; lang?: string; class?: string }
+const { title, n, level = 2, id, size = 'l', role = 'person', rule = 'after', lang, class: cls } = Astro.props;
+const H = `h${level}`;
+const hasAside = Astro.slots.has('aside');
+---
+<div class:list={['em-shead', `em-shead--${size}`, `em-shead--rule-${rule}`, `em-role-${role}`, cls]}>
+  <H class="em-shead__h" id={id} lang={lang}>
+    {n !== undefined && n !== '' && <span class="em-shead__n">{n}<span class="em-shead__dot" aria-hidden="true"> · </span></span>}
+    <span class="em-shead__t">{title}</span><slot />
+  </H>
+  {rule === 'after' && <span class="em-shead__rule" aria-hidden="true"></span>}
+  {hasAside && <div class="em-shead__aside"><slot name="aside" /></div>}
+</div>
+<style>
+  .em-shead { display: flex; align-items: baseline; gap: .9rem; margin: 0; }
+  .em-shead--rule-below { border-bottom: 1px solid var(--line-strong); padding-bottom: .5rem; }
+  .em-shead__h {
+    margin: 0; font-family: var(--font-display); font-weight: var(--w-head); text-transform: uppercase;
+    letter-spacing: .05em; line-height: 1; text-wrap: balance; min-width: 0;
+  }
+  .em-shead__n { color: var(--role-ink); font-weight: var(--w-display-x); font-variant-numeric: tabular-nums; white-space: nowrap; }
+  .em-shead.em-role-ink .em-shead__n { color: var(--ink); }
+  .em-shead__dot { color: var(--ink); font-weight: 500; }
+  .em-shead__rule { flex: 1 1 2rem; min-width: 1.5rem; border-top: 1px solid var(--line-strong); transform: translateY(-.3em); }
+  .em-shead__aside { margin-left: auto; flex: none; }
+  .em-shead--rule-after .em-shead__aside { margin-left: 0; }
+  .em-shead--xl .em-shead__h { font-size: var(--fs-h1); font-weight: var(--w-display-x); letter-spacing: -.01em; line-height: var(--lh-tight); }
+  .em-shead--l .em-shead__h { font-size: var(--fs-h2); }
+  .em-shead--m .em-shead__h { font-size: var(--fs-h3); letter-spacing: .06em; }
+  .em-shead--s .em-shead__h { font-size: var(--fs-h4); letter-spacing: .14em; font-weight: 700; }
+</style>

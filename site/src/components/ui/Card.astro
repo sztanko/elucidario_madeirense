@@ -1,0 +1,78 @@
+---
+/**
+ * Card: featured-article card (home "EM DESTAQUE", related lists, search empty states).
+ * Layout follows the home mockup: "Nº 0124 ──────── ECONOMIA" folio line in the role colour,
+ * optional plate on the left, serif title, 2–3 line abstract, arrow.
+ * Props:
+ *   lang: string
+ *   id: string                   article id (link via urls.article) — or pass href
+ *   hw: string                   headword (page language)
+ *   hwPt?: string                Portuguese headword (shown in Didone italic when it differs and lang ≠ pt)
+ *   abs?: string | null          abstract (clamped to `lines`)
+ *   absLang?: string             set to 'en' when the abstract carries ml:"en" (adds lang + EN marker)
+ *   type?: string                primary taxonomy code (colour + label)
+ *   no?: number                  article number (folio)
+ *   href?: string
+ *   layout?: 'row' | 'stack'     plate beside (default) or above the text
+ *   size?: 's' | 'm' | 'l'       title size (default m)
+ *   lines?: number               abstract clamp (default 3)
+ *   as?: string                  wrapper element (default 'article')
+ *   class?: string
+ * Slots: "plate" (e.g. <Plate seed={id} category={type} variant="thumb" size={120} />), "meta" (extra line under the abstract).
+ */
+import { index, roleOf } from '../../lib/data';
+import * as u from '../../lib/urls';
+import { t } from '../../i18n/ui';
+import Icon from './Icon.astro';
+import { pad4 } from './format';
+interface Props { lang: string; id: string; hw: string; hwPt?: string; abs?: string | null; absLang?: string; type?: string; no?: number; href?: string; layout?: 'row' | 'stack'; size?: 's' | 'm' | 'l'; lines?: number; as?: string; class?: string }
+const { lang, id, hw, hwPt, abs, absLang, type, no, href, layout = 'row', size = 'm', lines = 3, as: Tag = 'article', class: cls } = Astro.props;
+const role = roleOf(type);
+const tax = index(lang).tax || {};
+const typeLabel = type ? tax[type] ?? tax[type.split('.')[0]] ?? '' : '';
+const url = href ?? u.article(lang, id);
+const hasPlate = Astro.slots.has('plate');
+const showPt = hwPt && lang !== 'pt' && hwPt.toLowerCase() !== hw.toLowerCase();
+const absHtml = (abs || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' } as any)[c]).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+---
+<Tag class:list={['em-card', `em-card--${layout}`, `em-card--${size}`, `em-role-${role}`, { 'em-card--plate': hasPlate }, cls]} style={`--lines:${lines}`}>
+  <div class="em-card__folio em-label">
+    {no !== undefined && <span>Nº {pad4(no)}</span>}
+    <span class="em-card__rule" aria-hidden="true"></span>
+    {typeLabel && <span class="em-card__type">{typeLabel}</span>}
+  </div>
+  {hasPlate && <div class="em-card__plate" aria-hidden="true"><slot name="plate" /></div>}
+  <div class="em-card__body">
+    <h3 class="em-card__title"><a href={url} class="em-card__link">{hw}</a></h3>
+    {showPt && <p class="em-card__pt" lang="pt">{hwPt}</p>}
+    {abs && <p class="em-card__abs" lang={absLang}><Fragment set:html={absHtml} />{absLang && <abbr class="em-langmark" title={t(lang, 'in_english')}>{absLang}</abbr>}</p>}
+    <slot name="meta" />
+    <span class="em-card__arrow" aria-hidden="true"><Icon name="arrow-right" size={18} /></span>
+  </div>
+</Tag>
+<style>
+  .em-card { position: relative; display: grid; gap: .75rem 1.25rem; grid-template-columns: 1fr; align-content: start; color: var(--ink); }
+  .em-card--row.em-card--plate { grid-template-columns: minmax(5rem, 34%) 1fr; }
+  .em-card__folio { grid-column: 1 / -1; display: flex; align-items: center; gap: .8em; font-size: var(--fs-micro); color: var(--ink-2); }
+  .em-card__rule { flex: 1; border-top: 2px solid var(--role); min-width: 1.5rem; }
+  .em-card.em-role-ink .em-card__rule { border-top-width: 1px; }
+  .em-card__type { color: var(--role-ink); }
+  .em-card__plate { min-width: 0; align-self: start; }
+  .em-card__plate :global(svg) { width: 100%; height: auto; }
+  .em-card__body { min-width: 0; display: grid; gap: .45rem; align-content: start; padding-bottom: 1.6rem; }
+  .em-card__title { font-family: var(--font-text); font-weight: 480; text-transform: none; letter-spacing: -.012em; line-height: 1.04; margin: 0; text-wrap: balance; }
+  .em-card--s .em-card__title { font-size: var(--fs-h4); }
+  .em-card--m .em-card__title { font-size: clamp(1.5rem, 1.2rem + 1vw, 2.15rem); }
+  .em-card--l .em-card__title { font-size: clamp(2rem, 1.4rem + 2vw, 3.2rem); }
+  .em-card__link { text-decoration: none; color: inherit; }
+  .em-card__link::after { content: ''; position: absolute; inset: 0; z-index: 1; }
+  .em-card__link:focus-visible { outline: none; }
+  .em-card:has(.em-card__link:focus-visible) { outline: 2px solid var(--person); outline-offset: 4px; }
+  .em-card__pt { font-family: var(--font-didone); font-style: italic; color: var(--ink-3); font-size: var(--fs-note); line-height: 1.2; }
+  .em-card__abs { font-size: var(--fs-small); line-height: 1.45; color: var(--ink-2); display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: var(--lines); line-clamp: var(--lines); overflow: hidden; hyphens: auto; }
+  .em-card__arrow { position: absolute; left: auto; bottom: 0; color: var(--ink); transition: transform var(--dur-2) var(--ease); }
+  .em-card--row.em-card--plate .em-card__arrow { left: calc(34% + 1.25rem); }
+  .em-card:hover .em-card__arrow { transform: translateX(6px); color: var(--role-ink); }
+  .em-card:hover .em-card__title { color: var(--role-ink); }
+  .em-card.em-role-ink:hover .em-card__title { color: var(--person-ink); }
+</style>

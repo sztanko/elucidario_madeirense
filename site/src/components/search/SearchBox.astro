@@ -1,5 +1,207 @@
 ---
-// PLACEHOLDER (search agent replaces). Props contract: lang, variant?: 'header' | 'hero'.
+/**
+ * SearchBox: the site-wide search input + suggestion dropdown (combobox, ARIA 1.2).
+ * Props contract (do not break): lang: string, variant?: 'header' | 'hero'.
+ *
+ * Works with no JS as a plain GET form to /{lang}/search/. With JS it lazy-loads a small
+ * per-language suggest index on first focus (see site/scripts/build-search.mjs,
+ * site/src/search/box.ts) and shows colour-coded, typed suggestions (place/person/date/article),
+ * keyboard navigation, recent searches, and a jump straight to year/century pages for date
+ * queries. ⌘K / Ctrl+K and "/" focus the box from anywhere on the page.
+ *
+ * Data contract + sizes: site/DATA_CONTRACT.md and this component's sibling modules in
+ * site/src/search/**. Icons mirror src/components/ui/Icon.astro's glyphs (see src/search/icons.ts).
+ */
+import { t } from '../../i18n/ui';
+import { searchPage } from '../../lib/urls';
+
+interface Props {
+  lang: string;
+  variant?: 'header' | 'hero';
+}
 const { lang, variant = 'header' } = Astro.props;
+const uid = `em-search-${variant}-${lang}-${Math.random().toString(36).slice(2, 8)}`;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
-<form class={`em-search em-search--${variant}`} action={`/${lang}/search/`} role="search"><input name="q" type="search" /></form>
+<div class={`em-search em-search--${variant}`} data-lang={lang} data-base={base} data-uid={uid}>
+  <form class="em-search__form" action={searchPage(lang)} method="get" role="search">
+    <span class="em-search__icon" aria-hidden="true">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+    </span>
+    <input
+      class="em-search__input"
+      type="search"
+      name="q"
+      role="combobox"
+      aria-expanded="false"
+      aria-controls={`${uid}-listbox`}
+      aria-autocomplete="list"
+      aria-haspopup="listbox"
+      autocomplete="off"
+      autocorrect="off"
+      spellcheck="false"
+      placeholder={t(lang, 'search_placeholder')}
+    />
+    <kbd class="em-search__kbd" aria-hidden="true">⌘K</kbd>
+    <button type="button" class="em-search__close" aria-label={t(lang, 'close')}>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="m5 5 14 14M19 5 5 19"/></svg>
+    </button>
+  </form>
+  <div class="em-search__panel" id={`${uid}-panel`} hidden>
+    <ul class="em-search__listbox" role="listbox" id={`${uid}-listbox`} aria-label={t(lang, 'search')}></ul>
+    <a class="em-search__advanced" href={searchPage(lang)}>
+      <span class="em-search__rowicon" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+      </span>
+      <span class="em-search__rowtext">{t(lang, 'advanced_search')}</span>
+      <span class="em-search__rowarrow" aria-hidden="true">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square"><path d="M4 12h16m-6-6 6 6-6 6"/></svg>
+      </span>
+    </a>
+  </div>
+</div>
+<script>
+  import '../../search/box';
+</script>
+<style>
+  .em-search {
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+  }
+  .em-search--header { max-width: 22rem; }
+  .em-search--hero { max-width: 44rem; }
+
+  .em-search__form {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: var(--s-2);
+    background: var(--paper-light);
+    border: var(--rule-hair) solid var(--line-strong);
+    padding: 0 var(--s-3);
+    min-height: var(--tap);
+  }
+  .em-search--hero .em-search__form { min-height: 3.5rem; padding: 0 var(--s-4); }
+
+  .em-search__icon { flex: none; display: inline-flex; color: var(--ink-3); }
+  .em-search__input {
+    flex: 1 1 auto;
+    min-width: 0;
+    border: 0;
+    background: none;
+    font-family: var(--font-text);
+    font-size: var(--fs-text);
+    color: var(--ink);
+    padding: var(--s-2) 0;
+  }
+  .em-search--hero .em-search__input { font-size: var(--fs-lede); }
+  .em-search__input:focus { outline: none; }
+  .em-search__input::-webkit-search-cancel-button { display: none; }
+
+  .em-search__kbd {
+    flex: none;
+    font-family: var(--font-label);
+    font-size: var(--fs-micro);
+    letter-spacing: .08em;
+    color: var(--ink-3);
+    border: var(--rule-hair) solid var(--line);
+    border-radius: var(--radius-1);
+    padding: .2em .5em;
+    background: var(--paper);
+  }
+  .em-search__close {
+    display: none;
+    flex: none;
+    width: var(--tap);
+    height: var(--tap);
+    align-items: center;
+    justify-content: center;
+    color: var(--ink-2);
+    margin-right: calc(var(--s-2) * -1);
+  }
+
+  .em-search__panel {
+    position: absolute;
+    inset-inline: 0;
+    top: calc(100% + var(--s-2));
+    z-index: var(--z-search);
+    background: var(--paper-light);
+    border: var(--rule-hair) solid var(--line-strong);
+    box-shadow: var(--shadow-soft);
+    max-height: min(70vh, 32rem);
+    overflow-y: auto;
+  }
+
+  .em-search__listbox { margin: 0; padding: var(--s-1) 0; }
+
+  .em-search__grouphead {
+    padding: var(--s-2) var(--s-3) var(--s-1);
+    font-family: var(--font-label);
+    font-size: var(--fs-micro);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    color: var(--ink-3);
+  }
+
+  .em-search__empty {
+    padding: var(--s-4) var(--s-3);
+    color: var(--ink-3);
+    font-size: var(--fs-small);
+  }
+
+  .em-search__row, .em-search__advanced {
+    display: flex;
+    align-items: center;
+    gap: var(--s-3);
+    padding: var(--s-2) var(--s-3);
+    min-height: var(--tap);
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+  }
+  .em-search__row.is-active, .em-search__row:hover,
+  .em-search__advanced:hover, .em-search__advanced:focus-visible {
+    background: var(--role-wash, var(--ink-wash));
+  }
+  .em-search__rowicon { flex: none; display: inline-flex; color: var(--role, var(--ink-3)); }
+  .em-search__rowtext { flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: .1em; }
+  .em-search__rowlabel { font-weight: var(--w-text-strong); color: var(--ink); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .em-search__rowlabel mark { background: none; color: var(--role-ink, var(--person-ink)); font-weight: var(--w-text-strong); }
+  .em-search__rowsub {
+    font-family: var(--font-label);
+    font-size: var(--fs-micro);
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: var(--ink-3);
+    overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+  }
+  .em-search__rowarrow { flex: none; color: var(--ink-4); }
+  .em-search__row--recent .em-search__rowicon { color: var(--ink-3); }
+
+  .em-search__advanced {
+    border-top: var(--rule-hair) solid var(--line-faint);
+    font-family: var(--font-label);
+    letter-spacing: var(--tracking-label);
+    text-transform: uppercase;
+    font-size: var(--fs-label);
+    color: var(--ink);
+  }
+  .em-search__advanced .em-search__rowicon { color: var(--person); }
+
+  /* ---- Mobile ------------------------------------------------------------
+     Below 56rem the header (src/components/chrome/Header.astro, chrome.css) wraps this
+     component in `#em-hdr-search[data-open]`, which itself becomes the drop-down row below the
+     56px bar — this component does not need to (and must not) take over the whole screen itself.
+     The hero variant (home page) is never wrapped like that, so it keeps its own dropdown too;
+     at narrow widths both just get bigger tap targets and an explicit close affordance. */
+  @media (max-width: 34rem) {
+    .em-search--open .em-search__close { display: inline-flex; }
+    .em-search__row, .em-search__advanced { min-height: 3rem; }
+    .em-search__panel { max-height: min(70vh, 26rem); }
+  }
+
+  @media print {
+    .em-search { display: none; }
+  }
+</style>

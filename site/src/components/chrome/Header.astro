@@ -1,14 +1,131 @@
 ---
-// PLACEHOLDER (design agent replaces). Props contract: lang, multilingual.
+/**
+ * Site header (design agent). Props contract: lang, multilingual.
+ * Desktop: one 64px bar: EM mark + wordmark · main nav · search · history · print · languages.
+ * Mobile (< 56rem): 56px bar: EM mark · page title · search toggle · menu (sheet with nav, languages, history, print).
+ * The search box is rendered ONCE (search agent's <SearchBox variant="header">); on mobile it becomes a drop-down row.
+ * Interactions use document-level delegation (works with Astro view transitions).
+ */
 import { t } from '../../i18n/ui';
 import * as u from '../../lib/urls';
-import { languages } from '../../lib/data';
+import { languages, meta } from '../../lib/data';
 import SearchBox from '../search/SearchBox.astro';
+import Icon from '../ui/Icon.astro';
+interface Props { lang: string; multilingual?: boolean }
 const { lang, multilingual = true } = Astro.props;
+const langs = languages();
+const names = Object.fromEntries(meta().languages.map((l) => [l.code, l.name]));
+const path = Astro.url.pathname;
+const homeLang = langs.includes(lang) ? lang : 'pt';
+const rel = path.replace(u.BASE, '');
+const seg = rel.split('/').filter(Boolean);
+const section = seg[0] === 'about' ? 'about' : seg[1] ?? 'home';
+const nav = [
+  { key: 'index', href: u.indexLetter(homeLang), on: section === 'index' || section === 'a' },
+  { key: 'places', href: u.placesPage(homeLang), on: section === 'places' || section === 'place' },
+  { key: 'people', href: u.peoplePage(homeLang), on: section === 'people' || section === 'person' },
+  { key: 'chronology', href: u.chronologyPage(homeLang), on: section === 'chronology' || section === 'year' },
+  { key: 'about', href: u.about(), on: section === 'about' },
+] as const;
 ---
-<header class="em-header">
-  <a href={u.home(multilingual ? lang : 'pt')}>EM</a>
-  <nav><a href={u.indexLetter(lang)}>{t(lang, 'index')}</a> <a href={u.placesPage(lang)}>{t(lang, 'places')}</a> <a href={u.peoplePage(lang)}>{t(lang, 'people')}</a> <a href={u.chronologyPage(lang)}>{t(lang, 'chronology')}</a> <a href={u.about()}>{t(lang, 'about')}</a></nav>
-  <SearchBox lang={lang} />
-  {multilingual && languages().map((l) => <a href={u.switchLang(Astro.url.pathname, l, languages())}>{l.toUpperCase()}</a>)}
+<header class="em-hdr" data-chrome>
+  <div class="em-hdr__bar">
+    <a class="em-hdr__mark" href={u.home(homeLang)} title={`${t(lang, 'site')} · ${t(lang, 'back_home')}`}>
+      <span class="em-hdr__em" aria-hidden="true">EM</span>
+      <span class="em-hdr__word"><span>{t(lang, 'site')}</span></span>
+      <span class="em-sr-only">{t(lang, 'back_home')}</span>
+    </a>
+
+    <nav class="em-hdr__nav" aria-label={t(lang, 'menu')}>
+      <ul role="list">
+        {nav.map((n) => <li><a href={n.href} aria-current={n.on ? 'page' : undefined} class:list={{ on: n.on }}>{t(lang, n.key)}</a></li>)}
+      </ul>
+    </nav>
+
+    <div class="em-hdr__search" id="em-hdr-search" data-open="false">
+      <SearchBox lang={homeLang} variant="header" />
+    </div>
+
+    <div class="em-hdr__tools">
+      <button type="button" class="em-hdr__btn em-hdr__btn--search" data-em-toggle-search aria-controls="em-hdr-search" aria-expanded="false" title={t(lang, 'search')}>
+        <Icon name="search" size={21} /><span class="em-sr-only">{t(lang, 'search')}</span>
+      </button>
+      <button type="button" class="em-hdr__btn em-hdr__btn--hist" data-em-history-open aria-haspopup="dialog" title={t(lang, 'history')}>
+        <Icon name="history" size={21} /><span class="em-sr-only">{t(lang, 'history')}</span><span class="em-hdr__badge" data-em-history-count hidden></span>
+      </button>
+      <button type="button" class="em-hdr__btn em-hdr__btn--print" data-em-print title={t(lang, 'print')}>
+        <Icon name="print" size={21} /><span class="em-hdr__btxt">{t(lang, 'print')}</span>
+      </button>
+      {multilingual && (
+        <ul class="em-hdr__langs" role="list" aria-label={t(lang, 'language')}>
+          {langs.map((l) => (
+            <li><a href={u.switchLang(path, l, langs)} hreflang={l} lang={l} title={names[l]} aria-current={l === lang ? 'true' : undefined} class:list={{ on: l === lang }}>{l.toUpperCase()}</a></li>
+          ))}
+        </ul>
+      )}
+      <button type="button" class="em-hdr__btn em-hdr__btn--menu" data-em-menu-open aria-haspopup="dialog" aria-controls="em-sheet" title={t(lang, 'menu')}>
+        <Icon name="menu" size={22} /><span class="em-sr-only">{t(lang, 'menu')}</span>
+      </button>
+    </div>
+  </div>
+
+  <dialog class="em-sheet" id="em-sheet" aria-label={t(lang, 'menu')}>
+    <div class="em-sheet__in">
+      <div class="em-sheet__top">
+        <span class="em-label">{t(lang, 'site')}</span>
+        <button type="button" class="em-hdr__btn" data-em-close title={t(lang, 'close')}><Icon name="close" size={22} /><span class="em-sr-only">{t(lang, 'close')}</span></button>
+      </div>
+      <nav aria-label={t(lang, 'menu')}>
+        <ol class="em-sheet__nav" role="list">
+          <li><a href={u.home(homeLang)}><span class="n">0</span>{t(lang, 'back_home')}</a></li>
+          {nav.map((n, i) => <li><a href={n.href} aria-current={n.on ? 'page' : undefined}><span class="n">{i + 1}</span>{t(lang, n.key)}</a></li>)}
+        </ol>
+      </nav>
+      {multilingual && (
+        <div class="em-sheet__langs">
+          <span class="em-label em-sheet__lbl">{t(lang, 'language')}</span>
+          <ul role="list">
+            {langs.map((l) => <li><a href={u.switchLang(path, l, langs)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}><b>{l.toUpperCase()}</b> {names[l]}</a></li>)}
+          </ul>
+        </div>
+      )}
+      <div class="em-sheet__tools">
+        <button type="button" data-em-history-open><Icon name="history" size={20} /> {t(lang, 'history')}</button>
+        <button type="button" data-em-print><Icon name="print" size={20} /> {t(lang, 'print')}</button>
+      </div>
+    </div>
+  </dialog>
 </header>
+
+<script>
+  // Header interactions (delegated; survives view-transition swaps).
+  const q = (s: string) => document.querySelector(s) as HTMLElement | null;
+  function setSearch(open: boolean) {
+    const box = q('#em-hdr-search');
+    const btn = q('[data-em-toggle-search]');
+    if (!box || !btn) return;
+    box.dataset.open = String(open);
+    btn.setAttribute('aria-expanded', String(open));
+    if (open) (box.querySelector('input') as HTMLInputElement | null)?.focus();
+  }
+  document.addEventListener('click', (e) => {
+    const el = (e.target as Element).closest('[data-em-toggle-search],[data-em-print],[data-em-menu-open],[data-em-close]');
+    if (!el) return;
+    if (el.matches('[data-em-toggle-search]')) setSearch(q('#em-hdr-search')?.dataset.open !== 'true');
+    else if (el.matches('[data-em-print]')) { (q('#em-sheet') as HTMLDialogElement | null)?.close(); window.print(); }
+    else if (el.matches('[data-em-menu-open]')) (q('#em-sheet') as HTMLDialogElement | null)?.showModal();
+    else if (el.matches('[data-em-close]')) (el.closest('dialog') as HTMLDialogElement | null)?.close();
+  });
+  // Click on the dialog backdrop closes it.
+  document.addEventListener('click', (e) => {
+    const d = e.target as HTMLElement;
+    if (d instanceof HTMLDialogElement && d.open) {
+      const r = d.getBoundingClientRect();
+      const ev = e as MouseEvent;
+      if (ev.clientX < r.left || ev.clientX > r.right || ev.clientY < r.top || ev.clientY > r.bottom) d.close();
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && q('#em-hdr-search')?.dataset.open === 'true') setSearch(false);
+  });
+</script>

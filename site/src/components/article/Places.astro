@@ -1,0 +1,44 @@
+---
+/**
+ * Places: map of places mentioned (lazy MapView from the map agent) + list (subject first, blue diamonds).
+ * Props: lang, a: Article, map?: boolean (render the MapView; false when the hero already shows it), limit?: number
+ */
+import type { Article } from '../../lib/data';
+import { geo } from '../../lib/data';
+import { t } from '../../i18n/ui';
+import MapView from '../map/MapView.astro';
+import EntityLink from '../ui/EntityLink.astro';
+import { inline } from './inline';
+import { mapPlaces } from './model';
+interface Props { lang: string; a: Article; map?: boolean; limit?: number; compact?: boolean }
+const { lang, a, map = true, limit = 12, compact = false } = Astro.props;
+const G = geo();
+const mp = mapPlaces(a);
+const ml = (m?: string) => (m && m !== lang ? m : undefined);
+const rows = a.plc.map((p) => ({ ...p, subj: a.prim.includes(p.id), where: [G[p.id]?.mun, G[p.id]?.isl && G[p.id]?.isl !== 'none' ? G[p.id]?.isl : G[p.id]?.ctry].filter((v, i, arr) => v && arr.indexOf(v) === i && v !== p.n).join(' · ') }));
+const head = rows.slice(0, limit), rest = rows.slice(limit);
+---
+{rows.length > 0 && (compact ? (
+  <ul class="ea-pllist ea-pllist--compact" role="list">
+    {rows.map((p) => <li class:list={{ subj: p.subj }}><EntityLink kind="place" id={p.id} lang={lang} variant="name" icon>{p.n}</EntityLink></li>)}
+  </ul>
+) : (
+  <div class="ea-places">
+    {map && mp.length > 0 && <div class="ea-places__map"><MapView lang={lang} mode="article" places={mp} /></div>}
+    <ol class="ea-pllist" role="list">
+      {head.map((p, i) => (
+        <li class:list={['ea-pllist__i', { subj: p.subj }]}>
+          <span class="ea-pllist__k" aria-hidden="true">{i + 1}</span>
+          <div><EntityLink kind="place" id={p.id} lang={lang} variant="name">{p.n}</EntityLink>{p.subj && <span class="ea-pllist__subj em-label"> · {t(lang, 'subject')}</span>}
+            {(p.note || p.where) && <p class="ea-pllist__note" lang={p.note ? ml(p.ml) : undefined}>{p.where && <span class="ea-pllist__w">{p.where}{p.note ? '. ' : ''}</span>}{p.note && <Fragment set:html={inline(p.note)} />}</p>}</div>
+        </li>
+      ))}
+    </ol>
+    {rest.length > 0 && (
+      <details class="ea-more">
+        <summary class="em-label">+ {rest.length} {t(lang, 'more_n')}</summary>
+        <ul class="ea-pllist ea-pllist--compact" role="list">{rest.map((p) => <li><EntityLink kind="place" id={p.id} lang={lang} variant="name" icon>{p.n}</EntityLink></li>)}</ul>
+      </details>
+    )}
+  </div>
+))}

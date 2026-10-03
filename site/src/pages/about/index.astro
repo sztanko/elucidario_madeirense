@@ -1,0 +1,83 @@
+---
+// About (English only): the project, the source work, the digital edition, the creator, credits/licence.
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../components/ui/SectionHead.astro';
+import { meta } from '../../lib/data';
+import { fmtInt } from '../../components/ui/format';
+import { readRepoFile, renderMarkdown, splitTitle } from '../../components/pages/content';
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+
+const m = meta();
+const [authorTitle, authorBody] = splitTitle(readRepoFile('AUTHOR.md'));
+const authorHtml = renderMarkdown(authorBody);
+---
+<Base lang="en" title="About — Elucidário Madeirense" description="About the Elucidário Madeirense digital edition: the source work, the creator, and this project." multilingual={false} kind="about">
+  <Breadcrumbs items={[{ label: t('en', 'back_home'), href: u.home('pt') }, { label: t('en', 'about') }]} />
+  <SectionHead size="xl" title={t('en', 'about')} role="ink" rule="below" />
+
+  <article class="em-about">
+    <section aria-labelledby="h-project">
+      <SectionHead size="l" title={t('en', 'about_project')} id="h-project" role="person" n="1" />
+      <p>The <strong>Elucidário Madeirense</strong> digital edition makes the 1921/1940 encyclopaedia of Madeira searchable,
+        cross-linked and readable in four languages. It carries forward {fmtInt(m.counts.articles, 'en')} articles,
+        {fmtInt(m.counts.persons, 'en')} people, {fmtInt(m.counts.places, 'en')} places and {fmtInt(m.counts.events, 'en')} dated
+        events into a single structured dataset, with every person, place and date resolved into its own page and linked back to
+        the articles that mention it.</p>
+      <p>The edition is published in Portuguese (the original language), English, Ukrainian and Hungarian. Where a translation
+        is not yet available for a given piece of text, the page shows the English metadata or the Portuguese original, marked
+        accordingly, rather than leaving a gap.</p>
+    </section>
+
+    <section aria-labelledby="h-source">
+      <SectionHead size="l" title={t('en', 'about_source_work')} id="h-source" role="date" n="2" />
+      <p><em>Elucidário Madeirense</em> was first published in two volumes in 1921, to mark the fifth centenary of the discovery
+        of Madeira, under the direction of <strong>Fernando Augusto da Silva</strong> and <strong>Carlos Azevedo de Meneses</strong>,
+        with contributions from Adolfo César de Noronha and Alberto Artur Sarmento. A revised and expanded edition in three
+        volumes followed in 1940–46, with further collaboration from Alberto Artur Sarmento. The work set out to be, in the
+        words of its own prospectus, "historical in character but popular in style... easy and quick to consult", covering the
+        archipelago's history, biography, natural history, customs, and economic and literary life in several thousand short
+        entries arranged alphabetically.</p>
+    </section>
+
+    <section aria-labelledby="h-edition">
+      <SectionHead size="l" title={t('en', 'about_digital_edition')} id="h-edition" role="place" n="3" />
+      <p>The text was transcribed and OCR-corrected from the original volumes, segmented into individual articles, and
+        structured into headwords, chapters, body text, tables, verse and cross-references. People, places and chronology
+        events mentioned anywhere in the text were identified, de-duplicated and linked, and places were additionally resolved
+        to coordinates and administrative units (parish, municipality, island, or country and continent for places abroad).</p>
+      <p>Translation into English, Ukrainian and Hungarian followed a documented house style (see
+        <a href={u.about('technical')}>Technical notes</a>) covering names, religious titles, historical figures, specialist
+        terminology and numbers, with per-language style guides and a glossary ("termbase") of about 1,200 Madeira- and
+        Portugal-specific terms. Decisions on contested renderings were recorded and are published alongside the guides.</p>
+    </section>
+
+    <section aria-labelledby="h-creator">
+      <SectionHead size="l" title={t('en', 'about_creator')} id="h-creator" role="person" n="4" />
+      {authorTitle && <p class="em-author-name">{authorTitle}</p>}
+      <div class="em-prose" set:html={authorHtml} />
+    </section>
+
+    <section aria-labelledby="h-credits">
+      <SectionHead size="l" title={t('en', 'about_credits')} id="h-credits" role="ink" n="5" />
+      <p>This digital edition was produced with the assistance of large-language-model translation and editorial tooling,
+        under human review, as documented in <a href={u.about('technical')}>Technical notes</a>.</p>
+      <p class="em-flag"><strong>Licence note (placeholder — to be confirmed by the project owner).</strong> The original 1921
+        text is in the public domain in Portugal (author died 1949, more than 70 years ago). The 1940/46 revision's additional
+        authorship, and the modern transcription, translations and dataset, are the property of this project; a specific
+        open licence for the digital edition (for example CC BY-SA for text and CC0 for the structured data) has not yet been
+        selected. Treat all text here as "all rights reserved, pending" until this note is replaced.</p>
+    </section>
+  </article>
+</Base>
+<style>
+  .em-about { max-width: var(--measure); margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-9); }
+  .em-about section { margin-bottom: var(--s-7); }
+  .em-about p { margin: 0 0 1em; }
+  .em-author-name { font-family: var(--font-didone); font-style: italic; font-size: var(--fs-lede); color: var(--person-ink); }
+  .em-flag { border-left: 3px solid var(--date); padding-left: var(--s-4); font-size: var(--fs-small); opacity: .9; }
+  .em-prose :global(img) { max-width: 12rem; float: right; margin: 0 0 1em 1.5em; }
+  .em-prose :global(h2) { font-size: var(--fs-h4); margin: 1.2em 0 .4em; }
+  .em-prose :global(ul) { padding-left: 1.3em; }
+</style>

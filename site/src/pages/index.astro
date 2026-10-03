@@ -1,4 +1,63 @@
 ---
-// Root: language chooser + redirect (pages agent owns).
+// Root: static language chooser + automatic redirect by navigator.language (pages agent owns).
+import { languages, meta } from '../lib/data';
+import * as u from '../lib/urls';
+import { htmlLang } from '../i18n/ui';
+const langs = languages();
+const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const names: Record<string, string> = Object.fromEntries(meta().languages.map((l) => [l.code, l.name]));
+const taglines: Record<string, string> = {
+  pt: 'Enciclopédia da Madeira · edição digital',
+  en: 'Encyclopaedia of Madeira · digital edition',
+  uk: 'Енциклопедія Мадейри · цифрове видання',
+  hu: 'Madeira enciklopédiája · digitális kiadás',
+};
 ---
-<html lang="pt"><head><meta charset="utf-8"/><meta http-equiv="refresh" content="0; url=/pt/"/><title>Elucidário Madeirense</title></head><body><a href="/pt/">Elucidário Madeirense</a></body></html>
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Elucidário Madeirense</title>
+    <meta name="description" content="Elucidário Madeirense — encyclopaedia of Madeira (1921/1940), digital edition in Portuguese, English, Ukrainian and Hungarian." />
+    <link rel="canonical" href={site + u.BASE + '/'} />
+    {langs.map((l) => <link rel="alternate" hreflang={htmlLang(l)} href={site + u.home(l)} />)}
+    <link rel="alternate" hreflang="x-default" href={site + u.home('pt')} />
+    <style>
+      :root { --paper: #e8dfca; --ink: #171b19; --person: #bd3426; }
+      html, body { height: 100%; }
+      body { margin: 0; background: var(--paper); color: var(--ink); font-family: Georgia, 'Source Serif 4', serif; display: grid; place-items: center; text-align: center; padding: 2rem; box-sizing: border-box; }
+      main { max-width: 32rem; }
+      h1 { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(2rem, 6vw, 3.2rem); margin: 0 0 .25rem; letter-spacing: .01em; }
+      .sub { font-size: 1rem; opacity: .75; margin: 0 0 2rem; font-style: italic; }
+      ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+      a.lang { display: flex; justify-content: space-between; gap: 1rem; padding: .9rem 1.2rem; border: 1px solid color-mix(in srgb, var(--ink) 25%, transparent); border-radius: 2px; color: var(--ink); text-decoration: none; font-size: 1.05rem; }
+      a.lang:hover, a.lang:focus-visible { border-color: var(--person); color: var(--person); }
+      a.lang .code { font-variant-numeric: tabular-nums; letter-spacing: .08em; opacity: .55; text-transform: uppercase; font-size: .8rem; align-self: center; }
+      noscript p { font-size: .8rem; opacity: .7; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Elucidário Madeirense</h1>
+      <p class="sub">Encyclopaedia of Madeira · 1921 / 1940 · digital edition</p>
+      <ul>
+        {langs.map((l) => (
+          <li><a class="lang" href={u.home(l)} data-lang={l}>
+            <span>{names[l] ?? l}{taglines[l] ? ` — ${taglines[l]}` : ''}</span>
+            <span class="code">{l}</span>
+          </a></li>
+        ))}
+      </ul>
+    </main>
+    <script define:vars={{ langs, base: u.BASE }}>
+      // Redirect by browser language; every link above also works without JS.
+      try {
+        const nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'pt';
+        const short = nav.slice(0, 2).toLowerCase();
+        const pick = langs.includes(short) ? short : 'pt';
+        location.replace(`${base}/${pick}/`);
+      } catch (e) {}
+    </script>
+  </body>
+</html>

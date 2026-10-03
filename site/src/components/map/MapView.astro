@@ -1,11 +1,87 @@
 ---
-// PLACEHOLDER (cartography agent replaces).
-// Props contract:
-//   lang: string
-//   mode: 'article' | 'place' | 'overview' | 'continent'
-//   places: { id: string; label: string; role?: 'subject' | 'mention' }[]   (slugs from geo.json)
-//   region?: 'Madeira' | 'Porto Santo' | 'Desertas' | 'Selvagens' | 'Europe' | 'Africa' | ... (auto-chosen from places if omitted)
-//   height?: string
-const { places = [] } = Astro.props;
+/**
+ * MapView: engraved atlas map (owner: cartography agent). Method and assets: elucidario/cartography/README.md.
+ *
+ * Props (contract):
+ *   lang: string
+ *   mode: 'article' | 'place' | 'overview' | 'continent'
+ *   places: { id: string; label: string; role?: 'subject' | 'mention'; n?: number }[]   slugs from geo.json; `n` = list number (optional)
+ *   region?: 'Madeira' | 'Porto Santo' | 'Desertas' | 'Selvagens' | 'Archipelago' | 'Europe' | 'Africa' | 'Asia' |
+ *            'North America' | 'South America' | 'Oceania'   (a hint; auto-chosen from the places otherwise)
+ *   height?: string            CSS height. Without it the box keeps the plate's aspect ratio. Never shorter than 16rem.
+ *
+ * Server output is tiny (~1–2 KB): two shared, cached images (vector plate + hachured relief) and up to 12 numbered markers.
+ * Without JS and in print, that IS the map. When the box nears the viewport, src/map/boot.ts loads the interactive engine
+ * (pan/zoom, LOD tiles, labels, popups).
+ * Client API: see README (element.emMap, `em-map:filter` / `em-map:focus` events, `em-map:hover` / `em-map:select` events).
+ */
+import { geo } from '../../lib/data';
+import { t } from '../../i18n/ui';
+import { BASE } from '../../lib/urls';
+import '../../map/map.css';
+import { REGIONS, VERSION, chooseRegion, regionOfPlace, frameFraction, ISLAND_REGIONS } from '../../map/regions';
+
+interface MapPlace { id: string; label: string; role?: 'subject' | 'mention'; n?: number }
+interface Props { lang: string; mode?: 'article' | 'place' | 'overview' | 'continent'; places?: MapPlace[]; region?: string; height?: string }
+const { lang, mode = 'article', places = [], region, height } = Astro.props;
+
+const G = geo();
+const items = places.map((p, i) => ({ ...p, i, g: G[p.id], r: regionOfPlace(G[p.id] as any) }));
+const { region: rid, abroad } = chooseRegion(items.map((x) => x.r), region, mode);
+const R = rid ? REGIONS[rid] : null;
+const M = `${BASE}/maps/`;
+const q = `?v=${VERSION}`;
+
+const inRegion = (r: string | null) => !!R && !!r && (r === rid || (rid === 'archipelago' && ISLAND_REGIONS.includes(r) && r !== 'selvagens'));
+const numbered = items.length <= 12;
+const fmt = (v: number) => (Math.round(v * 1000) / 10).toFixed(1);
+// SSR markers: subjects always, then mentions, max 12 (the client renders everything else)
+const ssr = R ? items.filter((x) => inRegion(x.r) && x.g?.c)
+  .sort((a, b) => (a.role === 'subject' ? 0 : 1) - (b.role === 'subject' ? 0 : 1) || a.i - b.i).slice(0, 12)
+  .map((x) => { const [fx, fy] = frameFraction(R, x.g!.c![0], x.g!.c![1]); return { ...x, fx, fy }; })
+  .filter((x) => x.fx > -0.02 && x.fx < 1.02 && x.fy > -0.02 && x.fy < 1.02) : [];
+const inset = rid === 'archipelago' && R?.inset ? REGIONS[R.inset] : null;
+const insetMk = inset ? items.filter((x) => x.r === 'selvagens' && x.g?.c).slice(0, 4).map((x) => { const [fx, fy] = frameFraction(inset, x.g!.c![0], x.g!.c![1]); return { ...x, fx, fy }; }) : [];
+// compact place list for the client: slug[~s][~n]
+const dataP = items.filter((x) => x.r).map((x) => x.id + (x.role === 'subject' ? '~s' : '') + (x.n ? `~${x.n}` : numbered ? `~${x.i + 1}` : '')).join(' ');
+const CONT_NAMES: Record<string, Record<string, string>> = {
+  europe: { pt: 'Europa', en: 'Europe', uk: 'Європа', hu: 'Európa' }, africa: { pt: 'África', en: 'Africa', uk: 'Африка', hu: 'Afrika' },
+  asia: { pt: 'Ásia', en: 'Asia', uk: 'Азія', hu: 'Ázsia' }, oceania: { pt: 'Oceânia', en: 'Oceania', uk: 'Океанія', hu: 'Óceánia' },
+  'north-america': { pt: 'América do Norte', en: 'North America', uk: 'Північна Америка', hu: 'Észak-Amerika' },
+  'south-america': { pt: 'América do Sul', en: 'South America', uk: 'Південна Америка', hu: 'Dél-Amerika' },
+};
+const regionName = R ? (CONT_NAMES[R.id]?.[lang] ?? R.name) : '';
+
+const style = R ? `--ar:${R.aspect};${height ? `height:${height};` : ''}` : '';
+const reliefSizes = mode === 'overview' ? '(min-width: 74rem) 70vw, 100vw' : '(min-width: 56rem) 45vw, 100vw';
 ---
-<div class="em-map-placeholder" data-count={places.length}></div>
+{R && (
+  <figure class:list={['em-map', `em-map--${mode}`, { 'em-map--fixed': !!height, 'em-map--continent': R.kind === 'continent' }]}
+    data-em-map data-mode={mode} data-region={rid} data-lang={lang} data-p={dataP} style={style}>
+    <div class="em-map__plate" aria-hidden="true">
+      <img class="em-map__base" src={M + R.plate + q} alt="" loading="lazy" />
+      {R.relief && <img class="em-map__relief" src={M + R.relief.s.src + q} srcset={`${M + R.relief.s.src + q} ${R.relief.s.w}w, ${M + R.relief.l.src + q} ${R.relief.l.w}w`} sizes={reliefSizes} alt="" loading="lazy" />}
+      {ssr.map((x) => (
+        <span class:list={['em-map__mk', { 'is-subj': x.role === 'subject' }]} style={`left:${fmt(x.fx)}%;top:${fmt(x.fy)}%`} data-id={x.id}>{x.role !== 'subject' && numbered ? (x.n ?? x.i + 1) : ''}</span>
+      ))}
+      {inset && (
+        <span class="em-map__inset" style={`--iar:${inset.aspect}`}>
+          <img src={M + inset.plate + q} alt="" loading="lazy" />
+          {inset.relief && <img class="em-map__relief" src={M + inset.relief.s.src + q} alt="" loading="lazy" />}
+          {insetMk.map((x) => <span class:list={['em-map__mk', { 'is-subj': x.role === 'subject' }]} style={`left:${fmt(x.fx)}%;top:${fmt(x.fy)}%`} data-id={x.id}>{x.role !== 'subject' && numbered ? (x.n ?? x.i + 1) : ''}</span>)}
+          <b>Selvagens</b>
+        </span>
+      )}
+    </div>
+    {Object.keys(abroad).length > 0 && (
+      <p class="em-map__abroad"><span class="em-label">{t(lang as any, 'map_abroad' as any)}</span>
+        {Object.entries(abroad).map(([k, n]) => <button type="button" data-region={k} disabled>{CONT_NAMES[k]?.[lang] ?? k} <i>{n}</i></button>)}
+      </p>
+    )}
+    <figcaption class="em-sr-only">{t(lang as any, 'map_of' as any)}: {regionName}{ssr.length ? ` (${items.length})` : ''}</figcaption>
+  </figure>
+)}
+
+<script>
+  import '../../map/boot';
+</script>

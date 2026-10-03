@@ -1,0 +1,32 @@
+---
+/**
+ * PrevNext: book-order neighbours as two large "page-turn" links.
+ * Props: lang, prev?: string|null, next?: string|null, variant?: 'band'|'rail'
+ */
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+import { look } from './model';
+import { pad4 } from '../ui/format';
+import Icon from '../ui/Icon.astro';
+interface Props { lang: string; prev?: string | null; next?: string | null; variant?: 'band' | 'rail' }
+const { lang, prev, next, variant = 'band' } = Astro.props;
+const L = look(lang);
+const P = prev && L.get(prev) ? { id: prev, ...L.get(prev)! } : null;
+const N = next && L.get(next) ? { id: next, ...L.get(next)! } : null;
+---
+{(P || N) && (
+  <nav class:list={['ea-pn', `ea-pn--${variant}`]} aria-label={`${t(lang, 'previous')} / ${t(lang, 'next')}`}>
+    {P ? (
+      <a class="ea-pn__a ea-pn__a--prev" href={u.article(lang, P.id)} rel="prev">
+        <span class="ea-pn__k em-label"><Icon name="arrow-left" size={16} /> {t(lang, 'previous')} · Nº {pad4(P.no)}</span>
+        <span class="ea-pn__hw">{P.hw}</span>
+      </a>
+    ) : <span></span>}
+    {N ? (
+      <a class="ea-pn__a ea-pn__a--next" href={u.article(lang, N.id)} rel="next">
+        <span class="ea-pn__k em-label">{t(lang, 'next')} · Nº {pad4(N.no)} <Icon name="arrow-right" size={16} /></span>
+        <span class="ea-pn__hw">{N.hw}</span>
+      </a>
+    ) : <span></span>}
+  </nav>
+)}

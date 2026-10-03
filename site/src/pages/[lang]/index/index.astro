@@ -1,0 +1,87 @@
+---
+// A-Z index by headword (page language), with letter anchors and a zero-JS book-order toggle.
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../components/ui/SectionHead.astro';
+import { languages, index } from '../../../lib/data';
+import { letterOf, groupBy } from '../../../components/pages/content';
+import { t } from '../../../i18n/ui';
+import * as u from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: string };
+const idx = index(lang);
+
+const sorted = [...idx.articles].sort((a, b) => a[1].localeCompare(b[1], lang, { sensitivity: 'base' }));
+const byLetter = groupBy(sorted, (r) => letterOf(r[1]));
+const letters = [...byLetter.keys()].sort((a, b) => (a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b, lang)));
+const bookOrder = idx.articles; // already in book order per data contract
+---
+<Base lang={lang} title={`${t(lang, 'index_by_letter')} — Elucidário Madeirense`} description={t(lang, 'index_by_letter')} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'index_by_letter') }]} />
+  <SectionHead size="xl" title={t(lang, 'index_by_letter')} role="ink" rule="below" />
+
+  <div class="em-index-root">
+    <div class="em-toggle">
+      <input type="radio" name="view" id="view-alpha" class="em-sr" checked />
+      <input type="radio" name="view" id="view-book" class="em-sr" />
+      <label for="view-alpha">{t(lang, 'alphabetical_order')}</label>
+      <label for="view-book">{t(lang, 'book_order')}</label>
+    </div>
+
+    <nav class="em-letter-nav" aria-label={t(lang, 'jump_to_letter')}>
+      {letters.map((l) => <a href={`#${l}`}>{l}</a>)}
+    </nav>
+
+    <div class="em-index-alpha">
+      {letters.map((l) => (
+        <section id={l} class="em-letter-group">
+          <h2 class="em-letter-h">{l}</h2>
+          <ul class="em-index-list">
+            {byLetter.get(l)!.map(([id, hw, hw_pt]) => (
+              <li>
+                <a href={u.article(lang, id)}>{hw}</a>
+                {lang !== 'pt' && hw_pt && hw_pt !== hw && <em class="em-orig" lang="pt"> {hw_pt}</em>}
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))}
+    </div>
+
+    <div class="em-index-book">
+      <ul class="em-index-list">
+        {bookOrder.map(([id, hw, hw_pt]) => (
+          <li>
+            <a href={u.article(lang, id)}>{hw}</a>
+            {lang !== 'pt' && hw_pt && hw_pt !== hw && <em class="em-orig" lang="pt"> {hw_pt}</em>}
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</Base>
+<style>
+  .em-index-root { padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin: 0 auto; }
+  .em-sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+  .em-toggle { display: flex; gap: 0; margin: 0 0 var(--s-5); border: 1px solid var(--ink); width: fit-content; border-radius: var(--radius-1); overflow: hidden; }
+  .em-toggle label { padding: .4rem .9rem; font: var(--w-label) var(--fs-label) var(--font-label); letter-spacing: var(--tracking-label); text-transform: uppercase; cursor: pointer; }
+  .em-index-root:has(#view-alpha:checked) label[for='view-alpha'],
+  .em-index-root:has(#view-book:checked) label[for='view-book'] { background: var(--ink); color: var(--paper-light); }
+  .em-letter-nav { display: flex; flex-wrap: wrap; gap: .3rem; margin: 0 0 var(--s-5); position: sticky; top: var(--header-h); background: var(--paper); padding: .5rem 0; z-index: var(--z-raised); }
+  .em-letter-nav a { color: var(--ink); text-decoration: none; width: 1.6em; text-align: center; font-size: .85rem; border-bottom: 1px solid var(--person); }
+  .em-letter-group { break-inside: avoid; margin-bottom: var(--s-5); }
+  .em-letter-h { font-family: var(--font-display); color: var(--person-ink); font-size: var(--fs-h3); font-weight: var(--w-display-x); margin: 0 0 .3rem; border-bottom: 2px solid var(--ink); }
+  .em-index-root:has(#view-book:checked) .em-index-alpha { display: none; }
+  .em-index-root:has(#view-book:checked) .em-index-book { display: block; }
+  .em-index-alpha, .em-index-book { columns: 4 14rem; column-gap: var(--col-gap); }
+  .em-index-book { display: none; }
+  .em-index-list { list-style: none; margin: 0; padding: 0; }
+  .em-index-list li { break-inside: avoid; font-size: var(--fs-small); line-height: 1.6; }
+  .em-index-list a { color: var(--ink); text-decoration: none; }
+  .em-index-list a:hover { color: var(--person-ink); text-decoration: underline; }
+  .em-orig { opacity: .65; font-size: .85em; }
+  @media print { .em-toggle, .em-letter-nav { display: none; } .em-index-alpha, .em-index-book { columns: 3; } }
+</style>

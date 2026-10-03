@@ -16,6 +16,13 @@ dependencies = [
     "typer>=0.12",
     "pyyaml>=6.0",
     "typesafe-sdk>=0.7.1",
+    "scipy>=1.18.1",
+    "numba>=0.68.0",
+    "scikit-image>=0.26.0",
+    "rasterio>=1.5.2",
+    "pyproj>=3.8.0",
+    "pillow>=12.3.0",
+    "skia-python>=144.0.post2",
 ]
 
 [project.scripts]

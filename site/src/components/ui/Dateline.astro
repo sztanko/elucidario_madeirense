@@ -1,0 +1,36 @@
+---
+/**
+ * Dateline: an EDTF date (or range) rendered in the page language inside <time>, brass-coloured.
+ * Props:
+ *   s0: string                    EDTF start ("1566", "~1420", "1513-09", "1566-01-12", "1566/1570")
+ *   s1?: string | null            EDTF end
+ *   lang: string
+ *   link?: boolean                link the (start) year to urls.year (default false)
+ *   major?: boolean               emphasise (vermilion dot, heavier)
+ *   dot?: boolean                 brass dot before the text (chronology lists)
+ *   variant?: 'text' | 'label' | 'display'   text = serif inline, label = small caps, display = big condensed numerals
+ *   class?: string
+ */
+import * as u from '../../lib/urls';
+import { fmtEdtf, isoOf, yearOf } from './format';
+interface Props { s0: string | number; s1?: string | number | null; lang: string; link?: boolean; major?: boolean; dot?: boolean; variant?: 'text' | 'label' | 'display'; class?: string }
+const { s0, s1 = null, lang, link = false, major = false, dot = false, variant = 'label', class: cls } = Astro.props;
+const label = fmtEdtf(s0, s1, lang);
+const iso = isoOf(s0);
+const y = yearOf(s0);
+const href = link && y !== null ? u.year(lang, y) : null;
+---
+<span class:list={['em-dateline', `em-dateline--${variant}`, { 'em-dateline--major': major }, cls]}>
+  {dot && <span class="em-dateline__dot" aria-hidden="true"></span>}
+  {href ? <a href={href} class="em-quiet"><time datetime={iso ?? undefined}>{label}</time></a> : <time datetime={iso ?? undefined}>{label}</time>}
+</span>
+<style>
+  .em-dateline { display: inline-flex; align-items: center; gap: .5em; color: var(--date-ink); font-variant-numeric: tabular-nums lining-nums; }
+  .em-dateline--label { font: var(--w-label) var(--fs-label)/1.2 var(--font-label); letter-spacing: .14em; text-transform: uppercase; }
+  .em-dateline--display { font: var(--w-display) clamp(1.4rem, 1.1rem + 1vw, 2rem)/1 var(--font-display); letter-spacing: .01em; }
+  .em-dateline--text { font: inherit; }
+  .em-dateline__dot { width: .6em; height: .6em; border-radius: 50%; background: var(--date); flex: none; }
+  .em-dateline--major { color: var(--person-ink); }
+  .em-dateline--major .em-dateline__dot { background: var(--person); width: .75em; height: .75em; }
+  .em-dateline a:hover { color: var(--ink); }
+</style>

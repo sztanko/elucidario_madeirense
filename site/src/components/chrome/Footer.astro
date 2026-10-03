@@ -1,0 +1,50 @@
+---
+/**
+ * Site footer (design agent): masthead, counts from meta(), explore links, colophon, About link.
+ * Props: lang, multilingual.
+ */
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+import { meta, languages } from '../../lib/data';
+import Stat from '../ui/Stat.astro';
+interface Props { lang: string; multilingual?: boolean }
+const { lang, multilingual = true } = Astro.props;
+const m = meta();
+const homeLang = languages().includes(lang) ? lang : 'pt';
+const site = t(lang, 'site');
+const [w1, ...rest] = site.split(' ');
+const year = new Date().getFullYear();
+---
+<footer class="em-ftr" data-chrome>
+  <div class="em-ftr__in">
+    <a class="em-ftr__mast em-masthead" href={u.home(homeLang)}><span>{w1}</span> <span class="r">{rest.join(' ')}</span></a>
+    <p class="em-ftr__tag em-didone">{t(lang, 'tagline')}</p>
+    <ul class="em-ftr__stats" role="list">
+      <li><Stat variant="block" value={m.counts.articles} label={t(lang, 'articles')} lang={lang} href={u.indexLetter(homeLang)} /></li>
+      <li><Stat variant="block" value={m.counts.persons} label={t(lang, 'persons_n')} lang={lang} role="person" href={u.peoplePage(homeLang)} /></li>
+      <li><Stat variant="block" value={m.counts.places} label={t(lang, 'places_n')} lang={lang} role="place" href={u.placesPage(homeLang)} /></li>
+      <li><Stat variant="block" value={m.counts.events} label={t(lang, 'events_n')} lang={lang} role="date" href={u.chronologyPage(homeLang)} /></li>
+    </ul>
+    <nav class="em-ftr__nav" aria-label={t(lang, 'explore_by')}>
+      <span class="em-label em-ftr__lbl">{t(lang, 'explore_by')}</span>
+      <ul role="list">
+        <li><a href={u.indexLetter(homeLang)}>{t(lang, 'by_letter')}</a></li>
+        <li><a href={u.indexCategory(homeLang)}>{t(lang, 'by_category')}</a></li>
+        <li><a href={u.indexLocation(homeLang)}>{t(lang, 'by_location')}</a></li>
+        <li><a href={u.indexPeople(homeLang)}>{t(lang, 'by_people')}</a></li>
+        <li><a href={u.chronologyPage(homeLang)}>{t(lang, 'chronology')}</a></li>
+        <li><a href={u.searchPage(homeLang)}>{t(lang, 'advanced_search')}</a></li>
+      </ul>
+    </nav>
+    <div class="em-ftr__col">
+      <span class="em-label em-ftr__lbl">{t(lang, 'about')}</span>
+      <p class="em-ftr__colo">{t(lang, 'colophon')}</p>
+      <p><a href={u.about()} hreflang="en">{t(lang, 'about')} →</a> · <a href={u.about("technical")} hreflang="en">{t(lang, 'technical_notes')}</a></p>
+    </div>
+  </div>
+  <div class="em-ftr__base em-label">
+    <span>EM · 1921 — {year}</span>
+    <span class="em-ftr__rule" aria-hidden="true"></span>
+    {multilingual && <span>{m.languages.length} {t(lang, 'languages_n')}</span>}
+  </div>
+</footer>

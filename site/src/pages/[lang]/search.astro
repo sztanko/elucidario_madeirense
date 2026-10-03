@@ -1,0 +1,178 @@
+---
+// Advanced full-text search page. Fully client-side: a Web Worker (src/search/corpusWorker.ts)
+// downloads the gzipped per-language corpus, builds a MiniSearch index, and answers queries —
+// nothing ever leaves the browser. See site/DATA_CONTRACT.md and src/search/types.ts.
+// Owner: search agent.
+import Base from '../../layouts/Base.astro';
+import { languages, meta, index } from '../../lib/data';
+import { t } from '../../i18n/ui';
+
+export function getStaticPaths() {
+  return languages().map((lang) => ({ params: { lang } }));
+}
+
+const { lang } = Astro.params as { lang: string };
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const idx = index(lang);
+const taxonomy = meta().taxonomy;
+
+const islands = [...new Set(idx.places.map((p) => p[3]).filter(Boolean))].sort();
+const municipalities = [...new Set(idx.places.map((p) => p[4]).filter(Boolean))].sort();
+---
+<Base lang={lang} title={`${t(lang, 'advanced_search')} — Elucidário Madeirense`} kind="search">
+  <div class="em-adv" data-lang={lang} data-base={base}>
+    <h1 class="em-adv__title">{t(lang, 'advanced_search')}</h1>
+
+    <form class="em-adv__form" role="search">
+      <div class="em-adv__querybar">
+        <input class="em-adv__q" type="search" name="q" placeholder={t(lang, 'search_placeholder')} autocomplete="off" />
+      </div>
+
+      <div class="em-adv__layout">
+        <aside class="em-adv__filters">
+          <fieldset class="em-adv__group">
+            <legend>{t(lang, 'index')}</legend>
+            <label><input type="checkbox" data-filter="type" value="article" /> {t(lang, 'type_article')}</label>
+            <label><input type="checkbox" data-filter="type" value="person" /> {t(lang, 'type_person')}</label>
+            <label><input type="checkbox" data-filter="type" value="place" /> {t(lang, 'type_place')}</label>
+            <label><input type="checkbox" data-filter="type" value="event" /> {t(lang, 'type_date')}</label>
+          </fieldset>
+
+          <fieldset class="em-adv__group">
+            <legend>{t(lang, 'category')}</legend>
+            <select data-filter="category">
+              <option value="">{t(lang, 'all')}</option>
+              {taxonomy.map((cls) => (
+                <optgroup label={idx.tax[cls.code] ?? cls.label_en}>
+                  <option value={cls.code}>{idx.tax[cls.code] ?? cls.label_en}</option>
+                  {cls.subtypes.map((st) => (
+                    <option value={st.code}>{idx.tax[st.code] ?? st.label_en}</option>
+                  ))}
+                </optgroup>
+              ))}
+            </select>
+          </fieldset>
+
+          <fieldset class="em-adv__group">
+            <legend>{t(lang, 'island')}</legend>
+            <select data-filter="island">
+              <option value="">{t(lang, 'all')}</option>
+              {islands.map((i) => <option value={i}>{i}</option>)}
+            </select>
+          </fieldset>
+
+          <fieldset class="em-adv__group">
+            <legend>{t(lang, 'municipality')}</legend>
+            <select data-filter="municipality">
+              <option value="">{t(lang, 'all')}</option>
+              {municipalities.map((m) => <option value={m}>{m}</option>)}
+            </select>
+          </fieldset>
+
+          <fieldset class="em-adv__group em-adv__group--period">
+            <legend>{t(lang, 'year')}</legend>
+            <div class="em-adv__range">
+              <input type="number" data-filter="yfrom" placeholder="1420" aria-label={t(lang, 'prev_year')} />
+              <span aria-hidden="true">–</span>
+              <input type="number" data-filter="yto" placeholder="1940" aria-label={t(lang, 'next_year')} />
+            </div>
+          </fieldset>
+
+          <fieldset class="em-adv__group">
+            <legend>{t(lang, 'subtypes')}</legend>
+            <label><input type="checkbox" data-filter="length" value="fragment" /> {t(lang, 'size_fragment')}</label>
+            <label><input type="checkbox" data-filter="length" value="standard" /> {t(lang, 'size_standard')}</label>
+            <label><input type="checkbox" data-filter="length" value="long" /> {t(lang, 'size_long')}</label>
+          </fieldset>
+        </aside>
+
+        <div class="em-adv__main">
+          <div class="em-adv__toolbar">
+            <span class="em-adv__count" aria-live="polite"></span>
+            <label class="em-adv__sortlabel">
+              {t(lang, 'sort_by')}
+              <select data-filter="sort">
+                <option value="relevance">{t(lang, 'relevance')}</option>
+                <option value="alphabetical">{t(lang, 'alphabetical_order')}</option>
+                <option value="date">{t(lang, 'chronology')}</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="em-adv__typecounts">
+            <span class="em-role-ink">{t(lang, 'type_article')} <b data-count="article">0</b></span>
+            <span class="em-role-person">{t(lang, 'type_person')} <b data-count="person">0</b></span>
+            <span class="em-role-place">{t(lang, 'type_place')} <b data-count="place">0</b></span>
+            <span class="em-role-date">{t(lang, 'type_date')} <b data-count="event">0</b></span>
+          </div>
+
+          <p class="em-adv__status" role="status" hidden></p>
+          <div class="em-adv__results"></div>
+          <nav class="em-adv__pager" aria-label={t(lang, 'page_n')} hidden></nav>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script>
+    import { initSearchPage } from '../../search/advancedClient';
+    const root = document.querySelector<HTMLElement>('.em-adv');
+    if (root) initSearchPage(root);
+  </script>
+
+  <style>
+    .em-adv { max-width: var(--page-max); margin-inline: auto; padding: var(--s-6) var(--gutter); }
+    .em-adv__title {
+      font-family: var(--font-display); font-weight: var(--w-display); text-transform: uppercase;
+      font-size: var(--fs-h2); margin-bottom: var(--s-5);
+    }
+    .em-adv__querybar { margin-bottom: var(--s-5); }
+    .em-adv__q {
+      width: 100%; font-family: var(--font-text); font-size: var(--fs-lede);
+      background: var(--paper-light); border: var(--rule-hair) solid var(--line-strong);
+      padding: var(--s-3) var(--s-4);
+    }
+    .em-adv__layout { display: grid; grid-template-columns: 16rem 1fr; gap: var(--s-6); align-items: start; }
+    @media (max-width: 56rem) { .em-adv__layout { grid-template-columns: 1fr; } }
+
+    .em-adv__filters { display: flex; flex-direction: column; gap: var(--s-4); position: sticky; top: calc(var(--header-h) + var(--s-3)); }
+    .em-adv__group {
+      border: 0; padding: 0 0 var(--s-3); margin: 0; border-bottom: var(--rule-hair) solid var(--line-faint);
+      display: flex; flex-direction: column; gap: var(--s-2);
+    }
+    .em-adv__group legend {
+      font-family: var(--font-label); font-size: var(--fs-micro); letter-spacing: var(--tracking-label);
+      text-transform: uppercase; color: var(--ink-3); padding: 0 0 var(--s-2);
+    }
+    .em-adv__group label { display: flex; align-items: center; gap: .5em; font-size: var(--fs-small); }
+    .em-adv__group select { max-width: 100%; width: 100%; box-sizing: border-box; font: inherit; background: var(--paper-light); border: var(--rule-hair) solid var(--line); padding: .4em; }
+    .em-adv__range { display: flex; align-items: center; gap: .5em; }
+    .em-adv__range input { width: 5rem; font: inherit; background: var(--paper-light); border: var(--rule-hair) solid var(--line); padding: .3em .4em; }
+
+    .em-adv__toolbar { display: flex; justify-content: space-between; align-items: baseline; margin-bottom: var(--s-3); gap: var(--s-3); flex-wrap: wrap; }
+    .em-adv__count { font-family: var(--font-label); letter-spacing: .08em; color: var(--ink-3); }
+    .em-adv__sortlabel { display: flex; align-items: center; gap: .5em; font-family: var(--font-label); font-size: var(--fs-small); }
+    .em-adv__sortlabel select { font: inherit; background: var(--paper-light); border: var(--rule-hair) solid var(--line); padding: .3em .4em; }
+
+    .em-adv__typecounts { display: flex; gap: var(--s-5); margin-bottom: var(--s-4); font-family: var(--font-label); font-size: var(--fs-small); flex-wrap: wrap; }
+    .em-adv__typecounts b { color: var(--role-ink, var(--ink)); }
+
+    .em-adv__status { color: var(--ink-3); font-style: italic; margin-bottom: var(--s-3); }
+    .em-adv__empty { color: var(--ink-3); padding: var(--s-5) 0; }
+
+    .em-adv__results { display: flex; flex-direction: column; gap: var(--s-4); }
+    .em-adv__hit { display: flex; gap: var(--s-3); padding-bottom: var(--s-4); border-bottom: var(--rule-hair) solid var(--line-faint); }
+    .em-adv__hiticon { flex: none; color: var(--role, var(--ink-3)); margin-top: .2em; }
+    .em-adv__hitbody { min-width: 0; }
+    .em-adv__hittitle { font-family: var(--font-display); font-weight: var(--w-head); font-size: var(--fs-h4); color: var(--ink); text-decoration: none; }
+    .em-adv__hittitle:hover { text-decoration: underline; }
+    .em-adv__snippet { margin-top: .3em; color: var(--ink-2); line-height: var(--lh-text); }
+    .em-adv__snippet mark { background: var(--role-wash, var(--date-wash)); color: var(--ink); font-weight: var(--w-text-strong); }
+
+    .em-adv__pager { display: flex; align-items: center; justify-content: center; gap: var(--s-4); margin-top: var(--s-5); font-family: var(--font-label); }
+    .em-adv__pager button { border: var(--rule-hair) solid var(--line); padding: .4em 1em; background: var(--paper-light); }
+    .em-adv__pager button:disabled { opacity: .4; cursor: default; }
+
+    @media print { .em-adv__filters, .em-adv__pager { display: none; } }
+  </style>
+</Base>

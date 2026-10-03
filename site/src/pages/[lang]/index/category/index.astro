@@ -1,0 +1,67 @@
+---
+// Category index: taxonomy tree with counts, one Plate per class.
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../components/ui/SectionHead.astro';
+import Label from '../../../../components/ui/Label.astro';
+import Plate from '../../../../components/art/Plate.astro';
+import { fmtInt } from '../../../../components/ui/format';
+import { languages, meta, articles, roleOf, index } from '../../../../lib/data';
+import { t } from '../../../../i18n/ui';
+import * as u from '../../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: string };
+const m = meta();
+const arts = articles(lang);
+
+const countsBySubtype = new Map<string, number>();
+for (const a of Object.values(arts)) {
+  for (const code of a.types || []) countsBySubtype.set(code, (countsBySubtype.get(code) ?? 0) + 1);
+}
+function classCount(classCode: string, subtypes: { code: string }[]) {
+  return subtypes.reduce((s, st) => s + (countsBySubtype.get(st.code) ?? 0), 0);
+}
+const taxLabels = index(lang).tax;
+---
+<Base lang={lang} title={`${t(lang, 'index_by_category')} — Elucidário Madeirense`} description={t(lang, 'index_by_category')} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'index_by_category') }]} />
+  <SectionHead size="xl" title={t(lang, 'index_by_category')} role="ink" rule="below" />
+
+  <div class="em-class-grid">
+    {m.taxonomy.map((cls) => {
+      const total = classCount(cls.code, cls.subtypes);
+      const role = roleOf(cls.code);
+      return total > 0 && (
+        <section class:list={['em-class-card', `em-role-${role}`]} data-role={role}>
+          <a class="em-class-plate" href={u.indexCategory(lang, cls.code)}>
+            <Plate seed={cls.code} category={cls.code} size={64} variant="icon" />
+          </a>
+          <div>
+            <h2><a href={u.indexCategory(lang, cls.code)}>{taxLabels[cls.code] ?? cls.label_en}</a> <Label role="muted" count={fmtInt(total, lang)} /></h2>
+            <ul class="em-subtype-list" role="list">
+              {cls.subtypes.filter((st) => (countsBySubtype.get(st.code) ?? 0) > 0).map((st) => (
+                <li><a href={u.indexCategory(lang, st.code)}>{taxLabels[st.code] ?? st.label_en}</a> <span class="em-n">{fmtInt(countsBySubtype.get(st.code) ?? 0, lang)}</span></li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      );
+    })}
+  </div>
+</Base>
+<style>
+  .em-class-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr)); gap: var(--s-6); padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin: 0 auto; }
+  .em-class-card { display: flex; gap: var(--s-4); border: 1px solid var(--line); padding: var(--s-4); }
+  .em-class-plate { color: var(--role, var(--ink)); flex: none; }
+  .em-class-card h2 { font-size: var(--fs-h4); margin: 0 0 .5rem; display: flex; align-items: baseline; gap: .5em; flex-wrap: wrap; }
+  .em-class-card h2 a { color: var(--ink); text-decoration: none; }
+  .em-class-card h2 a:hover { color: var(--person-ink); }
+  .em-subtype-list { list-style: none; margin: 0; padding: 0; font-size: var(--fs-small); }
+  .em-subtype-list li { display: flex; justify-content: space-between; gap: .5em; padding: .15rem 0; border-bottom: 1px solid var(--line-faint); }
+  .em-subtype-list a { color: var(--ink-2); text-decoration: none; }
+  .em-subtype-list a:hover { color: var(--person-ink); text-decoration: underline; }
+  .em-n { opacity: .55; font-variant-numeric: tabular-nums; }
+</style>

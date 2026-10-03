@@ -1,0 +1,59 @@
+---
+/**
+ * Toc: chapter navigation for articles with ≥ 2 chapters.
+ *   variant 'rail'  : sticky side TOC (desktop ≥ 74rem) with vertical reading-progress gauge and percentage.
+ *   variant 'strip' : sticky compact chapter strip under the header (< 74rem), native <details> dropdown.
+ * Also hosts the folio-view toggle (long articles). Behaviour: ./toc-client.ts (one shared script).
+ * Props: lang, items: {id, n, t, ml?}[], variant, folio?: boolean, title: string (headword for the strip)
+ */
+import { t } from '../../i18n/ui';
+import Icon from '../ui/Icon.astro';
+interface Props { lang: string; items: { id: string; n: number; t: string; ml?: string }[]; variant: 'rail' | 'strip'; folio?: boolean; title: string }
+const { lang, items, variant, folio = false, title } = Astro.props;
+const ml = (x?: string) => (x && x !== lang ? x : undefined);
+---
+{variant === 'rail' ? (
+  <nav class="ea-toc" aria-label={t(lang, 'contents')} data-ea-toc>
+    <h2 class="ea-toc__h em-label">{t(lang, 'contents')}</h2>
+    <div class="ea-toc__body">
+      <span class="ea-toc__gauge" aria-hidden="true"><span class="ea-toc__fill" data-ea-progress></span></span>
+      <ol class="ea-toc__list" role="list">
+        {items.map((c) => (
+          <li><a href={`#${c.id}`} data-ea-toc-link={c.id} lang={ml(c.ml)}><span class="ea-toc__n">{c.n}</span><span class="ea-toc__t">{c.t}</span></a></li>
+        ))}
+      </ol>
+    </div>
+    <p class="ea-toc__pct em-label" aria-hidden="true"><span data-ea-pct>0</span>%<span class="ea-toc__pctl"> · {t(lang, 'reading_progress')}</span></p>
+    {folio && (
+      <button type="button" class="ea-folio-btn" data-ea-folio-toggle aria-pressed="false">
+        <Icon name="columns" size={18} /><span class="ea-folio-btn__on">{t(lang, 'folio_view')}</span><span class="ea-folio-btn__off">{t(lang, 'column_view')}</span>
+      </button>
+    )}
+  </nav>
+) : (
+  <div class="ea-strip" data-chrome-strip>
+    <details class="ea-strip__d" data-ea-strip>
+      <summary class="ea-strip__s">
+        <span class="ea-strip__hw">{title}</span>
+        <span class="ea-strip__cur"><span class="ea-strip__n" data-ea-cur-n>{items[0]?.n}</span><span class="ea-strip__t" data-ea-cur-t>{items[0]?.t}</span></span>
+        <Icon name="chevron-down" size={18} class="ea-strip__chev" />
+      </summary>
+      <nav aria-label={t(lang, 'contents')}>
+        <ol class="ea-strip__list" role="list">
+          {items.map((c) => <li><a href={`#${c.id}`} data-ea-toc-link={c.id} lang={ml(c.ml)}><span class="ea-toc__n">{c.n}</span> {c.t}</a></li>)}
+        </ol>
+      </nav>
+    </details>
+    {folio && (
+      <button type="button" class="ea-strip__folio" data-ea-folio-toggle aria-pressed="false" title={t(lang, 'folio_view')}>
+        <Icon name="columns" size={20} /><span class="em-sr-only">{t(lang, 'folio_view')}</span>
+      </button>
+    )}
+    <span class="ea-strip__bar" aria-hidden="true"><span data-ea-progress></span></span>
+  </div>
+)}
+<script>
+  import { init } from './toc-client';
+  init();
+  document.addEventListener('astro:page-load', init);
+</script>

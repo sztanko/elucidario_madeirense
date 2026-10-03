@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Self-hosted fonts (@fontsource, bundled & hashed by Vite).
+   Each fontsource stylesheet declares one @font-face per unicode subset
+   (latin, latin-ext, cyrillic, cyrillic-ext, greek, vietnamese) with a
+   `unicode-range`; browsers download ONLY the subsets a page actually uses
+   and ONLY faces actually used, so declaring is free. Coverage verified with
+   fontTools (see site/RESEARCH.md § Fonts):
+     Sofia Sans Extra Condensed  latin · latin-ext (ő ű) · cyrillic (і ї є ґ №)
+     Literata                    latin · latin-ext · cyrillic · cyrillic-ext
+     Playfair Display            latin · latin-ext · cyrillic
+     Playfair (2, opsz)          latin · latin-ext · cyrillic · cyrillic-ext
+   The two critical faces are preloaded per language in layouts/Base.astro.
+   ========================================================================== */
+
+/* Display + labels: one variable file, weights 1–1000, has tnum. */
+@import "@fontsource-variable/sofia-sans-extra-condensed/wght.css";
+/* Text: variable weight 200–900, roman + italic. */
+@import "@fontsource-variable/literata/wght.css";
+@import "@fontsource-variable/literata/wght-italic.css";
+/* Didone: Portuguese original titles (italic), quotation glyphs. */
+@import "@fontsource-variable/playfair-display/wght.css";
+@import "@fontsource-variable/playfair-display/wght-italic.css";
+/* Masthead: Playfair 2 with optical-size axis (opsz 5–1200). ~110 KB/subset;
+   only downloaded on pages that set font-family: var(--font-masthead). */
+@import "@fontsource-variable/playfair/opsz.css";
+
+/* Metric-adjusted local fallbacks to reduce reflow while fonts swap in. */
+@font-face {
+  font-family: "Literata Fallback";
+  src: local("Georgia"), local("Times New Roman");
+  size-adjust: 104%;
+  ascent-override: 92%;
+  descent-override: 26%;
+}
+@font-face {
+  font-family: "Sofia XC Fallback";
+  src: local("Arial Narrow"), local("Roboto Condensed"), local("Liberation Sans Narrow");
+  size-adjust: 84%;
+}

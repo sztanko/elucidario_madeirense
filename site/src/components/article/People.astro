@@ -1,0 +1,45 @@
+---
+/**
+ * People: persons mentioned (name in condensed caps → person page, life dates, note).
+ * First `limit` shown, the rest in a native <details>.
+ * Props: lang, people: PersonRef[], subject?: string[] (pm: person slugs the article is about), limit?: number
+ */
+import type { PersonRef } from '../../lib/data';
+import { t } from '../../i18n/ui';
+import EntityLink from '../ui/EntityLink.astro';
+import { fmtLife } from '../ui/format';
+import { inline } from './inline';
+import { personDates } from './model';
+interface Props { lang: string; people: PersonRef[]; subject?: string[]; limit?: number; compact?: boolean }
+const { lang, people, subject = [], limit = 10, compact = false } = Astro.props;
+const ml = (m?: string) => (m && m !== lang ? m : undefined);
+const rows = people.map((p) => ({ ...p, life: fmtLife(personDates(lang, p.id, p.d) as any, t(lang, 'born'), t(lang, 'died')), subj: subject.includes(p.id) }));
+const head = rows.slice(0, limit), rest = rows.slice(limit);
+---
+{rows.length > 0 && (compact ? (
+  <ul class="ea-plist ea-plist--compact" role="list">
+    {rows.map((p) => <li><EntityLink kind="person" id={p.id} lang={lang} variant="name">{p.n}</EntityLink>{p.life && <span class="ea-plist__d"> {p.life}</span>}</li>)}
+  </ul>
+) : (
+  <div class="ea-people">
+    <ol class="ea-plist" role="list">
+      {head.map((p) => (
+        <li class:list={['ea-plist__i', { subj: p.subj }]}>
+          <div class="ea-plist__row"><EntityLink kind="person" id={p.id} lang={lang} variant="caps">{p.n}</EntityLink><span class="ea-plist__d">{p.life}</span></div>
+          {p.note && <p class="ea-plist__note" lang={ml(p.ml)} set:html={inline(p.note)} />}
+        </li>
+      ))}
+    </ol>
+    {rest.length > 0 && (
+      <details class="ea-more">
+        <summary class="em-label">+ {rest.length} {t(lang, 'more_n')}</summary>
+        <ol class="ea-plist ea-plist--rest" role="list">
+          {rest.map((p) => (
+            <li class="ea-plist__i"><div class="ea-plist__row"><EntityLink kind="person" id={p.id} lang={lang} variant="name">{p.n}</EntityLink><span class="ea-plist__d">{p.life}</span></div>
+              {p.note && <p class="ea-plist__note" lang={ml(p.ml)} set:html={inline(p.note)} />}</li>
+          ))}
+        </ol>
+      </details>
+    )}
+  </div>
+))}

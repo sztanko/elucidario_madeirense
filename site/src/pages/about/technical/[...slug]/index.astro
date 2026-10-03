@@ -1,0 +1,41 @@
+---
+// About -> Technical -> {doc}: renders any docs/**/*.md file (see content.ts listDocs()).
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../components/ui/SectionHead.astro';
+import { listDocs, readRepoFile, renderMarkdown, rewriteDocLinks, splitTitle } from '../../../../components/pages/content';
+import { t } from '../../../../i18n/ui';
+import * as u from '../../../../lib/urls';
+
+export function getStaticPaths() {
+  return listDocs().map((d) => ({ params: { slug: d.slug.join('/') }, props: { rel: d.rel } }));
+}
+const { slug } = Astro.params as { slug: string };
+const { rel } = Astro.props as { rel: string };
+const [title, body] = splitTitle(readRepoFile(`docs/${rel}`));
+const html = rewriteDocLinks(renderMarkdown(body), rel);
+const crumbs = slug.split('/').filter(Boolean);
+---
+<Base lang="en" title={`${title ?? crumbs[crumbs.length - 1]} — Elucidário Madeirense`} description={`Technical note: ${title ?? rel}`} multilingual={false} kind="about">
+  <Breadcrumbs items={[
+    { label: t('en', 'back_home'), href: u.home('pt') },
+    { label: t('en', 'about'), href: u.about() },
+    { label: t('en', 'technical_notes'), href: u.about('technical') },
+    { label: title ?? crumbs[crumbs.length - 1] },
+  ]} />
+  <SectionHead size="xl" title={title ?? crumbs[crumbs.length - 1]} role="ink" rule="below" />
+  <div class="em-doc em-prose" set:html={html} />
+</Base>
+<style>
+  .em-doc { max-width: var(--measure-wide); margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-9); }
+  .em-doc :global(table) { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: var(--fs-small); display: block; overflow-x: auto; }
+  .em-doc :global(th), .em-doc :global(td) { border-bottom: 1px solid var(--line); padding: .4em .6em; text-align: left; vertical-align: top; }
+  .em-doc :global(th) { border-bottom: 2px solid var(--ink); font-family: var(--font-label); text-transform: uppercase; letter-spacing: .05em; font-size: var(--fs-micro); position: sticky; top: 0; background: var(--paper); }
+  .em-doc :global(h2) { font-size: var(--fs-h3); margin: 1.6em 0 .5em; }
+  .em-doc :global(h3) { font-size: var(--fs-h4); margin: 1.2em 0 .4em; }
+  .em-doc :global(code) { font-family: var(--font-mono); font-size: .9em; background: var(--paper-deep); padding: .1em .3em; }
+  .em-doc :global(pre) { overflow-x: auto; background: var(--paper-deep); padding: var(--s-3); }
+  .em-doc :global(ul), .em-doc :global(ol) { padding-left: 1.4em; }
+  .em-doc :global(a) { color: var(--person-ink); }
+  .em-doc :global(blockquote) { border-left: 3px solid var(--line-strong); margin: 1em 0; padding-left: var(--s-4); opacity: .85; }
+</style>

@@ -1,0 +1,74 @@
+---
+// Year page: all chronology events of a given year, with linked entities; prev/next year.
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../components/ui/SectionHead.astro';
+import EntityLink from '../../../components/ui/EntityLink.astro';
+import { fmtEdtf } from '../../../components/ui/format';
+import { languages, chronology, articles, persons, places } from '../../../lib/data';
+import { t } from '../../../i18n/ui';
+import * as u from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().flatMap((lang) => {
+    const years = [...new Set(chronology(lang).filter((e) => e.y).map((e) => e.y as number))].sort((a, b) => a - b);
+    return years.map((y, i) => ({
+      params: { lang, y: String(y) },
+      props: { prevY: years[i - 1] ?? null, nextY: years[i + 1] ?? null },
+    }));
+  });
+}
+const { lang, y } = Astro.params as { lang: string; y: string };
+const { prevY, nextY } = Astro.props as { prevY: number | null; nextY: number | null };
+const year = parseInt(y, 10);
+const events = chronology(lang).filter((e) => e.y === year);
+const arts = articles(lang);
+const pers = persons(lang);
+const plcs = places(lang);
+const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const jsonld = events.map((ev) => ({
+  '@context': 'https://schema.org',
+  '@type': 'Event',
+  name: ev.sum,
+  startDate: ev.s0,
+  ...(ev.s1 ? { endDate: ev.s1 } : {}),
+}));
+---
+<Base lang={lang} title={`${year} — ${t(lang, 'chronology')} — Elucidário Madeirense`} description={`${t(lang, 'year')} ${year}: ${events.length} ${t(lang, 'events_n')}`} kind="index" jsonld={jsonld}>
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'chronology'), href: u.chronologyPage(lang) }, { label: String(year) }]} />
+  <SectionHead size="xl" title={String(year)} n={t(lang, 'year')} role="date" rule="below" />
+
+  <nav class="em-year-nav">
+    {prevY ? <a href={u.year(lang, prevY)}>← {prevY}</a> : <span />}
+    <span class="em-year-current">{year}</span>
+    {nextY ? <a href={u.year(lang, nextY)}>{nextY} →</a> : <span />}
+  </nav>
+
+  {events.length === 0 && <p class="em-empty">{t(lang, 'no_events_year')}</p>}
+
+  <ol class="em-year-events" role="list">
+    {events.map((ev) => (
+      <li data-sig={ev.sig}>
+        <p class="em-ev-date">{fmtEdtf(ev.s0, ev.s1, lang)}</p>
+        <p class="em-ev-sum">{ev.sum}{ev.ml && <span class="em-langmark" title="English metadata">EN</span>}</p>
+        <p class="em-ev-links">
+          {ev.a.map((id) => arts[id] && <EntityLink kind="article" id={id} lang={lang} variant="inline" label={arts[id].hw} />)}
+          {ev.p.map((id) => pers[id] && <EntityLink kind="person" id={id} lang={lang} variant="inline" role="person" label={pers[id].n} />)}
+          {ev.l.map((id) => plcs[id] && <EntityLink kind="place" id={id} lang={lang} variant="inline" role="place" label={plcs[id].n} />)}
+        </p>
+      </li>
+    ))}
+  </ol>
+</Base>
+<style>
+  .em-year-nav { display: flex; justify-content: space-between; align-items: center; padding: 0 var(--gutter) var(--s-5); max-width: var(--page-max); margin: 0 auto; font-family: var(--font-label); letter-spacing: var(--tracking-label); text-transform: uppercase; font-size: var(--fs-label); }
+  .em-year-nav a { color: var(--date-ink); text-decoration: none; }
+  .em-year-current { font-size: var(--fs-h4); font-weight: var(--w-display-x); color: var(--date-ink); text-transform: none; letter-spacing: 0; }
+  .em-year-events { list-style: none; margin: 0; padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--measure-wide); margin-inline: auto; }
+  .em-year-events li { padding: var(--s-4) 0; border-bottom: 1px solid var(--line-faint); }
+  .em-year-events li[data-sig='m'] .em-ev-sum { font-weight: var(--w-text-strong); font-size: var(--fs-lede); }
+  .em-ev-date { margin: 0 0 .2rem; font-family: var(--font-label); font-size: var(--fs-label); color: var(--date-ink); letter-spacing: var(--tracking-label); text-transform: uppercase; }
+  .em-ev-sum { margin: 0 0 .4rem; }
+  .em-ev-links { display: flex; flex-wrap: wrap; gap: .5em; margin: 0; font-size: var(--fs-small); }
+  .em-empty { padding: 0 var(--gutter) var(--s-9); opacity: .6; }
+</style>

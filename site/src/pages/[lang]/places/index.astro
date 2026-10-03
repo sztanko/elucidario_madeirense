@@ -1,0 +1,105 @@
+---
+// Places: archipelago overview map, then an index per municipality of Madeira/Porto Santo/Desertas/Selvagens,
+// then one section per continent for places abroad.
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../components/ui/SectionHead.astro';
+import Label from '../../../components/ui/Label.astro';
+import MapView from '../../../components/map/MapView.astro';
+import { fmtInt } from '../../../components/ui/format';
+import { languages, index, geo } from '../../../lib/data';
+import { groupBy } from '../../../components/pages/content';
+import { t } from '../../../i18n/ui';
+import * as u from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: string };
+const idx = index(lang);
+const g = geo();
+
+const ISLANDS = ['Madeira', 'Porto Santo', 'Desertas', 'Selvagens'];
+// idx.places: [slug, name, type, island, municipality, continent, mentions]
+const byIsland = groupBy(idx.places, (r) => r[3]);
+const abroad = idx.places.filter((r) => r[3] === 'none' || !ISLANDS.includes(r[3]));
+
+const overviewPlaces = idx.places
+  .filter((r) => ISLANDS.includes(r[3]) && g[r[0]]?.c)
+  .slice(0, 400)
+  .map((r) => ({ id: r[0], label: r[1], role: 'mention' as const }));
+---
+<Base lang={lang} title={`${t(lang, 'places')} — Elucidário Madeirense`} description={t(lang, 'places')} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'places') }]} />
+  <SectionHead size="xl" title={t(lang, 'places')} role="place" rule="below" />
+
+  <div class="em-places-map">
+    <MapView lang={lang} mode="overview" places={overviewPlaces} region="Madeira" height="420px" />
+  </div>
+
+  <div class="em-places-root">
+    <SectionHead size="m" title={t(lang, 'islands')} role="place" n="1" />
+    {ISLANDS.map((isl) => {
+      const rows = byIsland.get(isl) ?? [];
+      if (rows.length === 0) return null;
+      const byMun = groupBy(rows, (r) => r[4] ?? '—');
+      const munKeys = [...byMun.keys()].sort((a, b) => (a === '—' ? 1 : b === '—' ? -1 : a.localeCompare(b, lang)));
+      return (
+        <section class="em-island">
+          <h3>{isl} <span class="em-n">{fmtInt(rows.length, lang)}</span></h3>
+          {munKeys.map((mk) => {
+            const items = [...byMun.get(mk)!].sort((a, b) => a[1].localeCompare(b[1], lang, { sensitivity: 'base' }));
+            return (
+              <details class="em-mun-details" open={munKeys.length <= 2}>
+                <summary>{mk === '—' ? t(lang, 'island') : mk} <span class="em-n">{fmtInt(items.length, lang)}</span></summary>
+                <ul class="em-place-list" role="list">
+                  {items.map(([slug, name, type]) => (
+                    <li><a href={u.place(lang, slug)}>{name}</a> <span class="em-type">{type}</span></li>
+                  ))}
+                </ul>
+              </details>
+            );
+          })}
+        </section>
+      );
+    })}
+
+    <SectionHead size="m" title={t(lang, 'continents')} role="place" n="2" />
+    {(() => {
+      const byCont = groupBy(abroad, (r) => r[5] ?? '—');
+      const contKeys = [...byCont.keys()].sort((a, b) => a.localeCompare(b, lang));
+      return contKeys.map((ck) => {
+        const rows = byCont.get(ck)!;
+        return (
+          <section class="em-island">
+            <h3>{ck} <span class="em-n">{fmtInt(rows.length, lang)}</span></h3>
+            <div class="em-continent-map">
+              <MapView lang={lang} mode="continent" region={ck} places={rows.slice(0, 200).map((r) => ({ id: r[0], label: r[1], role: 'mention' }))} height="260px" />
+            </div>
+            <ul class="em-place-list em-place-list--flat" role="list">
+              {[...rows].sort((a, b) => a[1].localeCompare(b[1], lang, { sensitivity: 'base' })).map(([slug, name, type]) => (
+                <li><a href={u.place(lang, slug)}>{name}</a> <span class="em-type">{type}</span></li>
+              ))}
+            </ul>
+          </section>
+        );
+      });
+    })()}
+  </div>
+</Base>
+<style>
+  .em-places-map { max-width: var(--page-max); margin: var(--s-5) auto 0; padding: 0 var(--gutter); }
+  .em-places-root { padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin: 0 auto; }
+  .em-island { margin: var(--s-6) 0; }
+  .em-island h3 { font-family: var(--font-display); color: var(--place-ink); font-size: var(--fs-h3); border-bottom: 2px solid var(--ink); margin: 0 0 var(--s-3); display: flex; align-items: baseline; gap: .5em; }
+  .em-n { font-size: var(--fs-small); opacity: .55; font-variant-numeric: tabular-nums; font-weight: 400; }
+  .em-mun-details { border-bottom: 1px solid var(--line-faint); padding: .4rem 0; }
+  .em-mun-details summary { cursor: pointer; font-family: var(--font-label); font-weight: var(--w-label); letter-spacing: var(--tracking-label); text-transform: uppercase; font-size: var(--fs-label); display: flex; gap: .6em; align-items: baseline; }
+  .em-continent-map { margin: var(--s-3) 0; }
+  .em-place-list { list-style: none; margin: .5rem 0 0; padding: 0; columns: 3 14rem; column-gap: var(--col-gap); }
+  .em-place-list--flat { margin-top: var(--s-3); }
+  .em-place-list li { break-inside: avoid; font-size: var(--fs-small); line-height: 1.6; }
+  .em-place-list a { color: var(--place-ink); text-decoration: none; }
+  .em-place-list a:hover { text-decoration: underline; }
+  .em-type { font-size: .72em; opacity: .5; }
+</style>

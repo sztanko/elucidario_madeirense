@@ -1,0 +1,93 @@
+---
+/**
+ * Reading history (design agent). Included once by Base.astro.
+ * Records every page view in localStorage['em:history'] = [{url, title, kind, lang, ts}] (most recent first, max 30, deduped by url).
+ * Title/kind come from <meta name="em:title"> / <meta name="em:kind"> if present, else document.title (site suffix stripped) and <html data-kind>.
+ * Opened by any element with [data-em-history-open]; badge counts update [data-em-history-count].
+ */
+import { t } from '../../i18n/ui';
+import Icon from '../ui/Icon.astro';
+interface Props { lang: string }
+const { lang } = Astro.props;
+---
+<dialog class="em-drawer" id="em-history" aria-labelledby="em-history-h" data-chrome data-empty={t(lang, 'history_empty')}>
+  <div class="em-drawer__in">
+    <div class="em-drawer__top">
+      <h2 class="em-drawer__h em-label" id="em-history-h"><Icon name="history" size={18} /> {t(lang, 'history')}</h2>
+      <button type="button" class="em-hdr__btn" data-em-close title={t(lang, 'close')}><Icon name="close" size={22} /><span class="em-sr-only">{t(lang, 'close')}</span></button>
+    </div>
+    <ol class="em-drawer__list" role="list" data-em-history-list></ol>
+    <p class="em-drawer__empty" data-em-history-empty>{t(lang, 'history_empty')}</p>
+    <div class="em-drawer__foot">
+      <button type="button" class="em-drawer__clear" data-em-history-clear><Icon name="trash" size={16} /> {t(lang, 'clear_history')}</button>
+    </div>
+  </div>
+</dialog>
+
+<script>
+  type Item = { url: string; title: string; kind: string; lang: string; ts: number };
+  const KEY = 'em:history';
+  const MAX = 30;
+  const read = (): Item[] => { try { return JSON.parse(localStorage.getItem(KEY) || '[]'); } catch { return []; } };
+  const write = (v: Item[]) => { try { localStorage.setItem(KEY, JSON.stringify(v.slice(0, MAX))); } catch {} };
+  const metaC = (n: string) => (document.querySelector(`meta[name="${n}"]`) as HTMLMetaElement | null)?.content;
+
+  function record() {
+    const url = location.pathname;
+    const title = metaC('em:title') || document.title.replace(/\s+[—–|-]\s+Elucid.*$/u, '').trim();
+    const kind = metaC('em:kind') || document.documentElement.dataset.kind || 'page';
+    const lang = document.documentElement.dataset.lang || document.documentElement.lang;
+    const list = read().filter((i) => i.url !== url);
+    list.unshift({ url, title, kind, lang, ts: Date.now() });
+    write(list);
+    badge();
+  }
+  function badge() {
+    const n = read().length;
+    document.querySelectorAll<HTMLElement>('[data-em-history-count]').forEach((b) => { b.textContent = n ? String(Math.min(n, 30)) : ''; b.hidden = !n; });
+  }
+  const glyph: Record<string, string> = { article: 'article', person: 'person', place: 'place', year: 'date', date: 'date' };
+  function ago(ts: number, lang: string) {
+    const s = (ts - Date.now()) / 1000;
+    const rtf = new Intl.RelativeTimeFormat(lang, { numeric: 'auto', style: 'short' });
+    const a = Math.abs(s);
+    if (a < 60) return rtf.format(Math.round(s), 'second');
+    if (a < 3600) return rtf.format(Math.round(s / 60), 'minute');
+    if (a < 86400) return rtf.format(Math.round(s / 3600), 'hour');
+    return rtf.format(Math.round(s / 86400), 'day');
+  }
+  function render() {
+    const ol = document.querySelector('[data-em-history-list]') as HTMLOListElement | null;
+    const empty = document.querySelector('[data-em-history-empty]') as HTMLElement | null;
+    if (!ol) return;
+    const items = read();
+    const pageLang = document.documentElement.lang;
+    ol.replaceChildren(...items.map((i) => {
+      const li = document.createElement('li');
+      const a = document.createElement('a');
+      a.href = i.url;
+      a.className = `em-drawer__item em-k-${glyph[i.kind] || 'page'}`;
+      const k = document.createElement('span'); k.className = 'em-drawer__k'; k.setAttribute('aria-hidden', 'true');
+      const tt = document.createElement('span'); tt.className = 'em-drawer__t'; tt.textContent = i.title;
+      const m = document.createElement('span'); m.className = 'em-drawer__m';
+      m.textContent = `${(i.lang || '').slice(0, 2).toUpperCase()} · ${ago(i.ts, pageLang)}`;
+      if (i.url === location.pathname) a.setAttribute('aria-current', 'page');
+      a.append(k, tt, m); li.append(a); return li;
+    }));
+    if (empty) empty.hidden = items.length > 0;
+  }
+  document.addEventListener('click', (e) => {
+    const el = (e.target as Element).closest('[data-em-history-open],[data-em-history-clear]');
+    if (!el) return;
+    const dlg = document.getElementById('em-history') as HTMLDialogElement | null;
+    if (el.matches('[data-em-history-open]')) {
+      (document.getElementById('em-sheet') as HTMLDialogElement | null)?.close();
+      render(); dlg?.showModal();
+    } else { write([]); render(); badge(); }
+  });
+  // Record on first load and on every client-side navigation (Astro view transitions fire astro:page-load).
+  let last = '';
+  const onLoad = () => { if (last !== location.pathname) { last = location.pathname; record(); } };
+  document.addEventListener('astro:page-load', onLoad);
+  if (document.readyState !== 'loading') onLoad(); else document.addEventListener('DOMContentLoaded', onLoad);
+</script>

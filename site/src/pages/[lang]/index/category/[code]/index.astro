@@ -1,0 +1,71 @@
+---
+// Articles of a taxonomy class or subtype.
+import Base from '../../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../../components/ui/SectionHead.astro';
+import Label from '../../../../../components/ui/Label.astro';
+import Plate from '../../../../../components/art/Plate.astro';
+import { fmtInt } from '../../../../../components/ui/format';
+import { languages, meta, articles, index, roleOf, taxClass } from '../../../../../lib/data';
+import { t } from '../../../../../i18n/ui';
+import * as u from '../../../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().flatMap((lang) => {
+    const m = meta();
+    const codes = new Set<string>();
+    for (const cls of m.taxonomy) {
+      codes.add(cls.code);
+      for (const st of cls.subtypes) codes.add(st.code);
+    }
+    return [...codes].map((code) => ({ params: { lang, code } }));
+  });
+}
+const { lang, code } = Astro.params as { lang: string; code: string };
+const m = meta();
+const arts = articles(lang);
+const taxLabels = index(lang).tax;
+const isClass = !code.includes('.');
+const cls = m.taxonomy.find((c) => c.code === code);
+const subtypeCodes = isClass ? (cls?.subtypes.map((s) => s.code) ?? []) : [code];
+const codeSet = new Set(subtypeCodes);
+const list = Object.values(arts)
+  .filter((a) => (a.types || []).some((c) => codeSet.has(c)))
+  .sort((a, b) => a.hw.localeCompare(b.hw, lang, { sensitivity: 'base' }));
+const label = taxLabels[code] ?? (isClass ? cls?.label_en : code) ?? code;
+const role = roleOf(code);
+const parentCode = isClass ? null : taxClass(code);
+---
+<Base lang={lang} title={`${label} — ${t(lang, 'index_by_category')} — Elucidário Madeirense`} description={label} kind="index">
+  <Breadcrumbs items={[
+    { label: t(lang, 'back_home'), href: u.home(lang) },
+    { label: t(lang, 'index_by_category'), href: u.indexCategory(lang) },
+    ...(parentCode ? [{ label: taxLabels[parentCode] ?? parentCode, href: u.indexCategory(lang, parentCode) }] : []),
+    { label },
+  ]} />
+  <div class:list={['em-cat-head', `em-role-${role}`]}>
+    <Plate seed={code} category={code} size={72} variant="icon" />
+    <SectionHead size="xl" title={label} role={role} rule="below">
+      <Label slot="aside" role="muted" count={fmtInt(list.length, lang)}>{t(lang, 'articles_of_type')}</Label>
+    </SectionHead>
+  </div>
+
+  <ul class="em-article-list" role="list">
+    {list.map((a) => (
+      <li>
+        <a href={u.article(lang, a.id)}>{a.hw}</a>
+        {lang !== 'pt' && a.hw_pt && a.hw_pt !== a.hw && <em class="em-orig" lang="pt"> {a.hw_pt}</em>}
+      </li>
+    ))}
+  </ul>
+  {list.length === 0 && <p class="em-empty">—</p>}
+</Base>
+<style>
+  .em-cat-head { display: flex; align-items: center; gap: var(--s-4); padding: var(--s-5) var(--gutter) 0; max-width: var(--page-max); margin: 0 auto; }
+  .em-article-list { list-style: none; margin: 0; padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin-inline: auto; columns: 3 16rem; column-gap: var(--col-gap); }
+  .em-article-list li { break-inside: avoid; font-size: var(--fs-small); line-height: 1.6; }
+  .em-article-list a { color: var(--ink); text-decoration: none; }
+  .em-article-list a:hover { color: var(--person-ink); text-decoration: underline; }
+  .em-orig { opacity: .65; font-size: .85em; }
+  .em-empty { padding: 0 var(--gutter) var(--s-9); opacity: .6; }
+</style>

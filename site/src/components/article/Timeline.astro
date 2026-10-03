@@ -1,0 +1,49 @@
+---
+/**
+ * Timeline: horizontal chronology strip for the events cited in an article (`ev`).
+ * Axis with proportional brass dots (major = larger, vermilion ring), then a horizontally
+ * scrolling row of event cards (year in condensed numerals, summary), each linking to the year page.
+ * Props: lang, events: EventRef[]
+ */
+import type { EventRef } from '../../lib/data';
+import * as u from '../../lib/urls';
+import { t } from '../../i18n/ui';
+import { fmtEdtf, yearOf, isoOf } from '../ui/format';
+import { inline } from './inline';
+interface Props { lang: string; events: EventRef[] }
+const { lang, events } = Astro.props;
+const ev = events.map((e) => ({ ...e, y: yearOf(e.s0) })).filter((e) => e.y !== null) as (EventRef & { y: number })[];
+ev.sort((a, b) => a.y - b.y || a.s0.localeCompare(b.s0));
+const min = ev.length ? ev[0].y : 0;
+const max = ev.length ? ev[ev.length - 1].y : 0;
+const span = Math.max(1, max - min);
+const pad = Math.max(5, Math.round(span * 0.04));
+const lo = min - pad, hi = max + pad;
+const x = (y: number) => (((y - lo) / (hi - lo)) * 100).toFixed(2);
+// Axis ticks every 50/100/200 years depending on span.
+const stepY = span > 400 ? 100 : span > 150 ? 50 : span > 60 ? 20 : span > 20 ? 10 : 5;
+const ticks: number[] = [];
+for (let y = Math.ceil(lo / stepY) * stepY; y <= hi; y += stepY) ticks.push(y);
+const ml = (m?: string) => (m && m !== lang ? m : undefined);
+const anyMl = ev.some((e) => ml(e.ml));
+---
+{ev.length > 0 && (
+  <div class="ea-tl" lang={anyMl ? 'en' : undefined}>
+    <div class="ea-tl__axis" aria-hidden="true">
+      <span class="ea-tl__end ea-tl__end--a">{min}</span>
+      <span class="ea-tl__line"></span>
+      {ticks.map((y) => <span class="ea-tl__tick" style={`left:${x(y)}%`}><span>{y}</span></span>)}
+      {ev.map((e) => <span class:list={['ea-tl__dot', { major: e.sig === 'm' }]} style={`left:${x(e.y)}%`}></span>)}
+      <span class="ea-tl__end ea-tl__end--b">{max}</span>
+    </div>
+    <ol class="ea-tl__list" role="list" tabindex="0" aria-label={t(lang, 'dates_mentioned')}>
+      {ev.map((e) => (
+        <li class:list={['ea-tl__ev', { major: e.sig === 'm' }]}>
+          <a href={u.year(lang, e.y)} class="ea-tl__y" aria-label={fmtEdtf(e.s0, e.s1, lang)}><time datetime={isoOf(e.s0) ?? undefined}>{e.y}</time></a>
+          {fmtEdtf(e.s0, e.s1, lang) !== String(e.y) && <span class="ea-tl__full" aria-hidden="true">{fmtEdtf(e.s0, e.s1, lang)}</span>}
+          <p class="ea-tl__sum" lang={ml(e.ml)} set:html={inline(e.sum)} />
+        </li>
+      ))}
+    </ol>
+  </div>
+)}

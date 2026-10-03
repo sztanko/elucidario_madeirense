@@ -1,0 +1,29 @@
+---
+/**
+ * Stat: a number with a label ("3 842 artigos"), locale-formatted, for footers, home counters and entity pages.
+ * Props:
+ *   value: number
+ *   label: string
+ *   lang: string                   formatting locale
+ *   role?: 'ink'|'place'|'person'|'date'
+ *   variant?: 'inline' | 'block'   inline = "3 842 artigos" in one line (default); block = big numeral over a small-caps label
+ *   href?: string                  link the whole stat
+ *   class?: string
+ * The numeral carries data-count={value} so the motion agent can count it up on reveal.
+ */
+import { fmtInt } from './format';
+interface Props { value: number; label: string; lang: string; role?: 'ink' | 'place' | 'person' | 'date'; variant?: 'inline' | 'block'; href?: string; class?: string }
+const { value, label, lang, role = 'ink', variant = 'inline', href, class: cls } = Astro.props;
+const Tag = href ? 'a' : 'span';
+---
+<Tag href={href} class:list={['em-stat', `em-stat--${variant}`, `em-role-${role}`, cls]}><span class="em-stat__n" data-count={value}>{fmtInt(value, lang)}</span> <span class="em-stat__l">{label}</span></Tag>
+<style>
+  .em-stat { color: var(--ink); text-decoration: none; font-variant-numeric: tabular-nums lining-nums; }
+  .em-stat--inline { white-space: nowrap; font-size: var(--fs-small); }
+  .em-stat--inline .em-stat__n { font-weight: 600; }
+  .em-stat--block { display: inline-grid; gap: .3rem; }
+  .em-stat--block .em-stat__n { font: var(--w-display-x) clamp(2.2rem, 1.6rem + 2.4vw, 4rem)/.85 var(--font-display); color: var(--role-ink); letter-spacing: -.01em; }
+  .em-stat.em-role-ink .em-stat__n { color: var(--ink); }
+  .em-stat--block .em-stat__l { font: var(--w-label) var(--fs-micro)/1.2 var(--font-label); letter-spacing: var(--tracking-label); text-transform: uppercase; color: var(--ink-2); }
+  a.em-stat:hover .em-stat__n { color: var(--person-ink); }
+</style>

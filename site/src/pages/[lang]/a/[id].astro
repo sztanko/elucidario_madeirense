@@ -1,14 +1,209 @@
 ---
-// PLACEHOLDER article page (design agent owns and replaces). Data contract: site/DATA_CONTRACT.md
+// Article page (design agent). Data contract: site/DATA_CONTRACT.md. Component notes: src/components/article/README.md
 import Base from '../../../layouts/Base.astro';
-import { articles, languages } from '../../../lib/data';
+import { articles, languages, roleOf, featured } from '../../../lib/data';
+import * as u from '../../../lib/urls';
+import { t, htmlLang } from '../../../i18n/ui';
+import Plate from '../../../components/art/Plate.astro';
+import MapView from '../../../components/map/MapView.astro';
+import SectionHead from '../../../components/ui/SectionHead.astro';
+import Label from '../../../components/ui/Label.astro';
+import Dateline from '../../../components/ui/Dateline.astro';
+import Hero from '../../../components/article/Hero.astro';
+import BlockView from '../../../components/article/BlockView.astro';
+import SeeCard from '../../../components/article/SeeCard.astro';
+import Toc from '../../../components/article/Toc.astro';
+import Timeline from '../../../components/article/Timeline.astro';
+import People from '../../../components/article/People.astro';
+import Places from '../../../components/article/Places.astro';
+import Related from '../../../components/article/Related.astro';
+import PrevNext from '../../../components/article/PrevNext.astro';
+import { sections, subjectGeo, mapPlaces, typeLabel, roman, readingMinutes, plain, related } from '../../../components/article/model';
+import { inline } from '../../../components/article/inline';
+import '../../../styles/article.css';
+
 export function getStaticPaths() {
   return languages().flatMap((lang) => Object.keys(articles(lang)).map((id) => ({ params: { lang, id } })));
 }
 const { lang, id } = Astro.params as { lang: string; id: string };
 const a = articles(lang)[id];
+
+// ---- variant ---------------------------------------------------------------
+const isXref = a.kind === 'cross_reference';
+const size: 'fragment' | 'standard' | 'long' | 'xref' = isXref ? 'xref' : a.size === 'long' ? 'long' : a.size === 'fragment' ? 'fragment' : 'standard';
+const secs = isXref ? [] : sections(lang, a);
+const chapters = secs.filter((s) => s.ch);
+const hasToc = chapters.length >= 2 && size !== 'fragment';
+const folioCapable = hasToc && (size === 'long' || a.chars > 9000);
+const ml = (m?: string) => (m && m !== lang ? m : undefined);
+const mark = (m?: string) => (ml(m) ? `<abbr class="em-langmark" title="${t(lang, 'in_english')}">${m!.toUpperCase()}</abbr>` : '');
+
+// ---- folio line ------------------------------------------------------------
+const g = subjectGeo(a);
+const prim = a.types[0] === 'meta.cross_reference' ? a.types[1] : a.types[0];
+const typeText = isXref ? t(lang, 'cross_reference') : typeLabel(lang, prim);
+const where = g ? [g.mun && g.mun.toLowerCase() !== a.hw_pt.toLowerCase() ? g.mun : null, g.isl && g.isl !== 'none' ? g.isl : g.ctry].filter((v, i, arr) => v && arr.indexOf(v) === i) : [];
+const pp = a.pp?.[0] ? (a.pp[1] && a.pp[1] !== a.pp[0] ? `${['en', 'pt'].includes(lang) ? 'pp.' : t(lang, 'page')} ${a.pp[0]}–${a.pp[1]}` : `${t(lang, 'page')} ${a.pp[0]}`) : '';
+const folio = [
+  typeText && { text: typeText, role: roleOf(prim), href: prim && !isXref ? u.indexCategory(lang, prim) : undefined },
+  ...where.map((w) => ({ text: w as string, role: 'place' as const })),
+  { text: `${t(lang, 'volume')} ${roman(a.vol)}${pp ? ' · ' + pp : ''}`, title: t(lang, 'printed_pages') },
+].filter(Boolean);
+const minutes = readingMinutes(a.chars);
+
+// ---- furniture ---------------------------------------------------------------
+const mp = mapPlaces(a);
+const heroMap = !isXref && size !== 'fragment' && mp.some((p) => p.role === 'subject');
+const heroPlate = !isXref && size !== 'fragment' && !heroMap;
+const plateSize = size === 'long' ? 280 : 220;
+const firstPara = secs.flatMap((s) => s.groups).find((gr) => gr.kind === 'single' && gr.blocks[0].t === 'paragraph');
+const dropcap = size !== 'fragment' && !!firstPara && firstPara.blocks[0].x.length > 160 && /^\p{L}/u.test(firstPara.blocks[0].x);
+const hasReading = !isXref && size !== 'fragment' && (a.ev.length || a.plc.length || a.pers.length);
+const xrefTargets = isXref ? a.out : [];
+const xrefText = isXref ? a.bl.map((b) => inline(b.x)).join(' ') : '';
+
+// ---- SEO ---------------------------------------------------------------------
+const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const desc = plain(a.abs) || plain(a.bl.find((b) => b.t === 'paragraph')?.x).slice(0, 220);
+const abs = (p: string) => site + p;
+const jsonld: object[] = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Article',
+    headline: a.hw,
+    ...(a.hw_pt && a.hw_pt !== a.hw ? { alternateName: a.hw_pt } : {}),
+    inLanguage: htmlLang(lang),
+    ...(desc ? { description: desc } : {}),
+    url: abs(u.article(lang, a.id)),
+    position: a.no,
+    ...(pp ? { pagination: `${a.pp[0]}${a.pp[1] && a.pp[1] !== a.pp[0] ? '-' + a.pp[1] : ''}` } : {}),
+    isPartOf: { '@type': 'Book', name: 'Elucidário Madeirense', volumeNumber: a.vol, inLanguage: 'pt-PT' },
+    ...(lang !== 'pt' ? { translationOfWork: { '@type': 'Article', headline: a.hw_pt, inLanguage: 'pt-PT', url: abs(u.article('pt', a.id)) } } : {}),
+    about: [
+      ...a.prim.map((p) => ({ '@type': 'Place', name: a.plc.find((x) => x.id === p)?.n ?? p, url: abs(u.place(lang, p)) })),
+      ...a.pm.map((p) => ({ '@type': 'Person', name: a.pers.find((x) => x.id === p)?.n ?? p, url: abs(u.person(lang, p, a.pers.find((x) => x.id === p)?.n ?? p)) })),
+    ],
+    mentions: [
+      ...a.pers.filter((p) => !a.pm.includes(p.id)).slice(0, 25).map((p) => ({ '@type': 'Person', name: p.n, url: abs(u.person(lang, p.id, p.n)) })),
+      ...a.plc.filter((p) => !a.prim.includes(p.id)).slice(0, 25).map((p) => ({ '@type': 'Place', name: p.n, url: abs(u.place(lang, p.id)) })),
+    ],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: t(lang, 'site'), item: abs(u.home(lang)) },
+      { '@type': 'ListItem', position: 2, name: t(lang, 'index'), item: abs(u.indexLetter(lang)) },
+      { '@type': 'ListItem', position: 3, name: a.hw, item: abs(u.article(lang, a.id)) },
+    ],
+  },
+];
+const R = related(lang, a);
+const hasRelated = Object.values(R).some((x) => x.length > 0);
+const tocItems = chapters.map((s) => ({ id: s.id, n: s.n, t: s.ch!.t, ml: s.ch!.ml }));
+const ogTop = new Set(featured().top100);
 ---
-<Base lang={lang} title={`${a.hw} — Elucidário Madeirense`} description={a.abs ?? ''} kind="article" planeId={a.id}>
-  <h1>{a.hw}</h1>
-  {a.bl.map((b) => <p>{b.x}</p>)}
+<Base lang={lang} title={`${a.hw} — ${t(lang, 'site')}`} description={desc} kind="article" planeId={a.id} jsonld={jsonld} image={ogTop.has(a.id) ? `${u.BASE}/og/${lang}/${a.id}.png` : undefined}>
+  <Fragment slot="head">
+    <meta name="em:title" content={a.hw} />
+    <meta name="em:kind" content="article" />
+  </Fragment>
+
+  <article class:list={['ea', `ea--${size}`, { 'ea--toc': hasToc, 'ea--folio-capable': folioCapable }]} data-ea-article data-size={size}>
+    {hasToc && <Toc lang={lang} items={tocItems} variant="strip" folio={folioCapable} title={a.hw} />}
+
+    <div class="ea-layout">
+      {hasToc && (
+        <aside class="ea-rail" aria-label={t(lang, 'contents')}>
+          <div class="ea-rail__in">
+            <Toc lang={lang} items={tocItems} variant="rail" folio={folioCapable} title={a.hw} />
+            <PrevNext lang={lang} prev={a.prev} next={a.next} variant="rail" />
+          </div>
+        </aside>
+      )}
+
+      <div class="ea-content">
+        <Hero lang={lang} a={a} size={size} folio={folio} minutes={minutes}>
+          {heroMap && <div slot="aside" class="ea-hero__map"><MapView lang={lang} mode="article" places={mp} /></div>}
+          {heroPlate && <div slot="aside" class="ea-hero__plate"><Plate seed={a.id} category={prim} variant="plate" size={plateSize} title={a.hw} /></div>}
+        </Hero>
+
+        {isXref ? (
+          <div class="ea-body ea-body--xref"><SeeCard lang={lang} ids={xrefTargets} text={xrefText} size="hero" /></div>
+        ) : (
+          <div class="ea-body" data-ea-body data-ea-folio-top aria-label={folioCapable ? t(lang, 'folio_view') : undefined}>
+            {secs.map((s) => (
+              <section class:list={['ea-sec', { 'ea-sec--ch': !!s.ch }]} id={s.ch ? s.id : undefined} data-ea-section={s.ch ? '' : undefined} aria-labelledby={s.ch ? `${s.id}-h` : undefined}>
+                {s.ch && (
+                  <SectionHead n={s.n} title={s.ch.t} id={`${s.id}-h`} lang={ml(s.ch.ml)} class="ea-sec__head">
+                    {ml(s.ch.ml) && <Fragment set:html={mark(s.ch.ml)} />}
+                  </SectionHead>
+                )}
+                <div class:list={['ea-sec__grid', { 'has-note': !!s.ch?.s }]}>
+                  {s.ch?.s && (
+                    <aside class="ea-note" aria-label={t(lang, 'summary')}>
+                      <div class="ea-note__in">
+                        <span class="ea-note__k em-label" aria-hidden="true">{t(lang, 'summary')}</span>
+                        <p class="ea-note__p" lang={ml(s.ch.ml)}><Fragment set:html={inline(s.ch.s)} /></p>
+                      </div>
+                    </aside>
+                  )}
+                  <div class="ea-sec__text">
+                    {s.groups.map((gr) => <BlockView lang={lang} group={gr} first={gr === firstPara} dropcap={dropcap} />)}
+                  </div>
+                </div>
+              </section>
+            ))}
+          </div>
+        )}
+        {folioCapable && <p class="ea-folio-hint em-label" aria-hidden="true">{t(lang, 'folio_hint')}</p>}
+
+        {size === 'fragment' && (a.pers.length > 0 || a.plc.length > 0 || a.ev.length > 0) && (
+          <div class="ea-frag">
+            {a.pers.length > 0 && <div class="ea-frag__g"><Label role="person" size="micro">{t(lang, 'people_mentioned')}</Label><People lang={lang} people={a.pers} subject={a.pm} compact /></div>}
+            {a.plc.length > 0 && <div class="ea-frag__g"><Label role="place" size="micro">{t(lang, 'places_mentioned')}</Label><Places lang={lang} a={a} compact /></div>}
+            {a.ev.length > 0 && (
+              <div class="ea-frag__g" lang={a.ev.some((e) => ml(e.ml)) ? 'en' : undefined}>
+                <Label role="date" size="micro">{t(lang, 'dates_mentioned')}</Label>
+                <ul class="ea-frag__ev" role="list">{a.ev.map((e) => <li><Dateline s0={e.s0} s1={e.s1} lang={lang} link dot major={e.sig === 'm'} /> <span set:html={inline(e.sum)} /></li>)}</ul>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+    </div>
+
+    {hasReading && (
+      <section class="ea-reading" aria-labelledby="ea-reading-h">
+        <SectionHead title={t(lang, 'article_reading')} id="ea-reading-h" size="xl" rule="none" class="ea-reading__h" />
+        <div class="ea-reading__grid">
+          {a.ev.length > 0 && (
+            <section class="ea-mod ea-mod--time" aria-labelledby="ea-time-h">
+              <div class="ea-mod__head"><h3 class="ea-mod__big em-role-date" id="ea-time-h">{t(lang, 'time_label')}</h3><Label size="small" count={String(a.ev.length).padStart(2, '0')}>{t(lang, 'years_mentioned')}</Label></div>
+              <Timeline lang={lang} events={a.ev} />
+            </section>
+          )}
+          {a.plc.length > 0 && (
+            <section class="ea-mod ea-mod--place" aria-labelledby="ea-place-h">
+              <div class="ea-mod__head"><h3 class="ea-mod__big em-role-place" id="ea-place-h">{t(lang, 'place_label')}</h3><Label size="small" count={String(a.plc.length).padStart(2, '0')}>{t(lang, 'places_mentioned')}</Label></div>
+              <Places lang={lang} a={a} map={!heroMap} />
+            </section>
+          )}
+          {a.pers.length > 0 && (
+            <section class="ea-mod ea-mod--people" aria-labelledby="ea-people-h">
+              <div class="ea-mod__head"><h3 class="ea-mod__big em-role-person" id="ea-people-h">{t(lang, 'people')}</h3><Label size="small" count={String(a.pers.length).padStart(2, '0')}>{t(lang, 'people_mentioned')}</Label></div>
+              <People lang={lang} people={a.pers} subject={a.pm} />
+            </section>
+          )}
+        </div>
+      </section>
+    )}
+
+    {hasRelated && <section class:list={['ea-related', { 'ea-related--compact': size === 'fragment' || isXref }]} aria-labelledby="ea-rel-h">
+      <SectionHead title={t(lang, 'related')} id="ea-rel-h" size={size === 'fragment' || isXref ? 's' : 'm'} role="ink" />
+      <Related lang={lang} a={a} compact={size === 'fragment' || isXref} />
+    </section>}
+
+    <PrevNext lang={lang} prev={a.prev} next={a.next} />
+  </article>
 </Base>

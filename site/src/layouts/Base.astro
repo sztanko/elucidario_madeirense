@@ -1,12 +1,22 @@
 ---
 // Base layout. Owner: design agent (visuals), but the PROPS and SLOTS below are a contract other agents rely on.
 import { languages } from '../lib/data';
-import { switchLang } from '../lib/urls';
-import { htmlLang } from '../i18n/ui';
+import { switchLang, BASE } from '../lib/urls';
+import { htmlLang, t } from '../i18n/ui';
 import Header from '../components/chrome/Header.astro';
+import Footer from '../components/chrome/Footer.astro';
+import History from '../components/chrome/History.astro';
 import Plane from '../components/motion/Plane.astro';
+import PlaneLocator from '../components/motion/PlaneLocator.astro';
 import '../styles/tokens.css';
+import '../styles/fonts.css';
 import '../styles/base.css';
+import '../styles/chrome.css';
+// Critical font files, preloaded per script (same hashed assets the @font-face rules point to).
+import textLatin from '@fontsource-variable/literata/files/literata-latin-wght-normal.woff2?url';
+import textCyr from '@fontsource-variable/literata/files/literata-cyrillic-wght-normal.woff2?url';
+import dispLatin from '@fontsource-variable/sofia-sans-extra-condensed/files/sofia-sans-extra-condensed-latin-wght-normal.woff2?url';
+import dispCyr from '@fontsource-variable/sofia-sans-extra-condensed/files/sofia-sans-extra-condensed-cyrillic-wght-normal.woff2?url';
 interface Props {
   lang: string;            // page language ('en' for /about)
   title: string;
@@ -19,30 +29,61 @@ interface Props {
   kind?: string;
   /** stable id for the plane-of-articles motion (article id), if any */
   planeId?: string;
+  /** OpenGraph image path (site-relative, built under /og/); defaults to the site card for the language */
+  image?: string;
 }
-const { lang, title, description = '', multilingual = true, jsonld = [], kind = 'page', planeId } = Astro.props;
+const { lang, title, description = '', multilingual = true, jsonld = [], kind = 'page', planeId, image } = Astro.props;
 const langs = languages();
 const path = Astro.url.pathname;
 const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const cyr = lang === 'uk' || lang === 'ru';
+const preloads = cyr ? [textCyr, dispCyr] : [textLatin, dispLatin];
 ---
 <!doctype html>
-<html lang={htmlLang(lang)} data-kind={kind}>
+<html lang={htmlLang(lang)} data-kind={kind} data-lang={lang}>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
     {description && <meta name="description" content={description} />}
+    <meta name="theme-color" content="#e8dfca" />
+    <meta name="color-scheme" content="light" />
+    {preloads.map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
+    <link rel="icon" href={`${import.meta.env.BASE_URL.replace(/\/$/, '')}/favicon.svg`} type="image/svg+xml" />
     <link rel="canonical" href={site + path} />
     {multilingual && langs.map((l) => <link rel="alternate" hreflang={htmlLang(l)} href={site + switchLang(path, l, langs)} />)}
     {multilingual && <link rel="alternate" hreflang="x-default" href={site + switchLang(path, 'pt', langs)} />}
     <meta property="og:title" content={title} />
+    <meta property="og:type" content={kind === 'article' ? 'article' : 'website'} />
+    <meta property="og:url" content={site + path} />
+    <meta property="og:locale" content={htmlLang(lang).replace('-', '_')} />
     {description && <meta property="og:description" content={description} />}
+    <meta property="og:image" content={site + (image ?? `${BASE}/og/${languages().includes(lang) ? lang : 'en'}/site.png`)} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
     {jsonld.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
+    {/* motion: must be in <head> so its inline pagereveal handler runs before the first render */}
+    <Plane lang={lang} id={kind === 'article' ? planeId : undefined} />
     <slot name="head" />
   </head>
   <body data-plane-id={planeId}>
+    <a class="em-skip" href="#main">{t(lang, 'skip_to_content')}</a>
     <Header lang={lang} multilingual={multilingual} />
-    <main id="main"><slot /></main>
-    <Plane />
+    <main id="main" tabindex="-1"><slot /></main>
+    {kind === 'article' && planeId && (
+      <div class="em-sheetband"><PlaneLocator id={planeId} lang={lang} size={40} /></div>
+    )}
+    <Footer lang={lang} multilingual={multilingual} />
+    <History lang={lang} />
   </body>
 </html>
+<style>
+  /* "where you are on the sheet": a quiet band between the article and the footer */
+  .em-sheetband {
+    max-width: var(--page-max, 1520px); margin: 0 auto; padding: var(--s-3, .75rem) var(--gutter, 1rem);
+    border-top: var(--rule-hair, 1px) solid var(--line-faint, rgb(23 27 25 / .14));
+    display: flex; justify-content: flex-end;
+  }
+  @media print { .em-sheetband { display: none; } }
+</style>

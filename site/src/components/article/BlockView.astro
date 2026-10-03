@@ -1,0 +1,60 @@
+---
+/**
+ * BlockView: renders one body group (single block, list group or bibliography group).
+ * Props: lang, group: Group, first?: boolean (first paragraph of the article → drop initial), dropcap?: boolean
+ */
+import { t } from '../../i18n/ui';
+import type { Group } from './model';
+import SeeCard from './SeeCard.astro';
+interface Props { lang: string; group: import('./model').Group; first?: boolean; dropcap?: boolean }
+const { lang, group, first = false, dropcap = false } = Astro.props;
+const g = group as Group;
+const b = g.blocks[0];
+const xl = (x?: string) => (x && x !== lang ? x : undefined);
+const mark = (x?: string) => (x && x !== lang ? `<abbr class="em-langmark" title="${t(lang, x === 'pt' ? 'untranslated' : 'in_english')}">${x.toUpperCase()}</abbr>` : '');
+const long = (s: string) => s.length > 700;
+---
+{g.kind === 'list' && (
+  <ul class="ea-list">{g.blocks.map((x) => <li id={x.id} lang={xl(x.xl)} set:html={x.html + mark(x.xl)} />)}</ul>
+)}
+{g.kind === 'biblio' && (
+  <div class="ea-biblio" role="group" aria-label={t(lang, 'sources')}>
+    <span class="ea-biblio__k em-label" aria-hidden="true">{t(lang, 'sources')}</span>
+    {g.blocks.map((x) => <p id={x.id} lang={xl(x.xl)} set:html={x.html + mark(x.xl)} />)}
+  </div>
+)}
+{g.kind === 'single' && b.t === 'paragraph' && (
+  <p id={b.id} lang={xl(b.xl)} class:list={['ea-p', { 'ea-p--first': first, 'em-dropcap': first && dropcap }]} set:html={b.html + mark(b.xl)} />
+)}
+{g.kind === 'single' && b.t === 'heading' && (
+  (b.lv ?? 1) <= 1
+    ? <h3 id={b.id} lang={xl(b.xl)} class="ea-h3" set:html={b.html + mark(b.xl)} />
+    : <h4 id={b.id} lang={xl(b.xl)} class="ea-h4" set:html={b.html + mark(b.xl)} />
+)}
+{g.kind === 'single' && b.t === 'quote' && (
+  <blockquote id={b.id} lang={xl(b.xl)} class:list={['ea-quote', { 'ea-quote--long': long(b.x) }]}>
+    <span class="ea-quote__glyph" aria-hidden="true">“</span>
+    <p set:html={b.html.replace(/^[‘“"']\s*/, '').replace(/\s*[’”"']$/, '') + mark(b.xl)} />
+  </blockquote>
+)}
+{g.kind === 'single' && b.t === 'verse' && (
+  <div id={b.id} lang={xl(b.xl)} class="ea-verse" role="group">
+    {(b.lines ?? [b.html]).map((l) => <span class="ea-verse__l" set:html={l} />)}
+    {b.xl && <Fragment set:html={mark(b.xl)} />}
+  </div>
+)}
+{g.kind === 'single' && b.t === 'xref' && (
+  <div id={b.id} class="ea-xref" lang={xl(b.xl)}><SeeCard lang={lang} ids={b.targets ?? []} text={b.html} /></div>
+)}
+{g.kind === 'single' && b.t === 'table' && b.cells && (
+  <figure id={b.id} class="ea-table" lang={xl(b.xl)}>
+    {b.tb?.cap && <figcaption class="ea-table__cap em-label"><span class="ea-table__q">◼</span> <span set:html={b.tb.cap.replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' } as any)[c])} /></figcaption>}
+    <div class="ea-table__scroll" tabindex="0" role="region" aria-label={b.tb?.cap ?? 'Table'}>
+      <table>
+        <thead><tr>{b.cells.head.map((h, i) => <th scope="col" class:list={{ num: b.cells!.numeric[i] }} set:html={h} />)}</tr></thead>
+        <tbody>{b.cells.rows.map((r) => <tr>{r.map((c, i) => <td class:list={{ num: b.cells!.numeric[i] }} set:html={c} />)}</tr>)}</tbody>
+      </table>
+    </div>
+  </figure>
+)}
+{g.kind === 'single' && b.t === 'table' && !b.cells && <p id={b.id} class="ea-p" set:html={b.html} />}

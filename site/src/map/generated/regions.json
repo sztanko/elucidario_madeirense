@@ -1,0 +1,332 @@
+{
+ "version": 1791028438,
+ "regions": {
+  "madeira": {
+   "id": "madeira",
+   "name": "Madeira",
+   "kind": "islands",
+   "proj": {
+    "type": "tm",
+    "lon0": -16.55,
+    "lat0": 32.0
+   },
+   "frame": [
+    -69546,
+    -99231,
+    -7365,
+    -67750
+   ],
+   "aspect": 1.9752,
+   "inset": null,
+   "plate": "madeira/plate.svg",
+   "detail": "madeira/detail.svg",
+   "unit": 10.0,
+   "relief": {
+    "l": {
+     "src": "madeira/relief-l.avif",
+     "w": 1555,
+     "h": 787,
+     "z": 1
+    },
+    "s": {
+     "src": "madeira/relief-s.avif",
+     "w": 777,
+     "h": 394,
+     "z": 0
+    }
+   }
+  },
+  "porto-santo": {
+   "id": "porto-santo",
+   "name": "Porto Santo",
+   "kind": "islands",
+   "proj": {
+    "type": "tm",
+    "lon0": -16.55,
+    "lat0": 32.0
+   },
+   "frame": [
+    11208,
+    -126940,
+    27262,
+    -108678
+   ],
+   "aspect": 0.8791,
+   "inset": null,
+   "plate": "porto-santo/plate.svg",
+   "detail": "porto-santo/detail.svg",
+   "unit": 10.0,
+   "relief": {
+    "l": {
+     "src": "porto-santo/relief-l.avif",
+     "w": 1605,
+     "h": 1826,
+     "z": 3
+    },
+    "s": {
+     "src": "porto-santo/relief-s.avif",
+     "w": 803,
+     "h": 913,
+     "z": 2
+    }
+   }
+  },
+  "desertas": {
+   "id": "desertas",
+   "name": "Desertas",
+   "kind": "islands",
+   "proj": {
+    "type": "tm",
+    "lon0": -16.55,
+    "lat0": 32.0
+   },
+   "frame": [
+    -5829,
+    -67673,
+    14095,
+    -42768
+   ],
+   "aspect": 0.8,
+   "inset": null,
+   "plate": "desertas/plate.svg",
+   "detail": "desertas/detail.svg",
+   "unit": 10.0,
+   "relief": {
+    "l": {
+     "src": "desertas/relief-l.avif",
+     "w": 1992,
+     "h": 2490,
+     "z": 3
+    },
+    "s": {
+     "src": "desertas/relief-s.avif",
+     "w": 996,
+     "h": 1245,
+     "z": 2
+    }
+   }
+  },
+  "selvagens": {
+   "id": "selvagens",
+   "name": "Selvagens",
+   "kind": "islands",
+   "proj": {
+    "type": "tm",
+    "lon0": -16.55,
+    "lat0": 32.0
+   },
+   "frame": [
+    46244,
+    202119,
+    68692,
+    220044
+   ],
+   "aspect": 1.2523,
+   "inset": null,
+   "plate": "selvagens/plate.svg",
+   "detail": "selvagens/detail.svg",
+   "unit": 10.0,
+   "relief": {
+    "l": {
+     "src": "selvagens/relief-l.avif",
+     "w": 1122,
+     "h": 896,
+     "z": 2
+    },
+    "s": {
+     "src": "selvagens/relief-s.avif",
+     "w": 561,
+     "h": 448,
+     "z": 1
+    }
+   }
+  },
+  "archipelago": {
+   "id": "archipelago",
+   "name": "Arquipélago da Madeira",
+   "kind": "islands",
+   "proj": {
+    "type": "tm",
+    "lon0": -16.55,
+    "lat0": 32.0
+   },
+   "frame": [
+    -71046,
+    -129140,
+    29462,
+    -40768
+   ],
+   "aspect": 1.1373,
+   "inset": "selvagens",
+   "plate": "archipelago/plate.svg",
+   "detail": "archipelago/detail.svg",
+   "unit": 10.0,
+   "relief": {
+    "l": {
+     "src": "archipelago/relief-l.avif",
+     "w": 1256,
+     "h": 1105,
+     "z": 0
+    },
+    "s": {
+     "src": "archipelago/relief-s.avif",
+     "w": 628,
+     "h": 552,
+     "z": 0
+    }
+   }
+  },
+  "europe": {
+   "id": "europe",
+   "name": "Europe",
+   "kind": "continent",
+   "proj": {
+    "type": "laea",
+    "lon0": 5.0,
+    "lat0": 50.0
+   },
+   "frame": [
+    -3674149,
+    -2844335,
+    4034271,
+    2757877
+   ],
+   "aspect": 1.376,
+   "plate": "europe/plate.svg",
+   "unit": 1000.0,
+   "labels": "labels-europe.json"
+  },
+  "africa": {
+   "id": "africa",
+   "name": "Africa",
+   "kind": "continent",
+   "proj": {
+    "type": "laea",
+    "lon0": 16.0,
+    "lat0": 2.0
+   },
+   "frame": [
+    -4670827,
+    -4367435,
+    4774123,
+    4603389
+   ],
+   "aspect": 1.0529,
+   "plate": "africa/plate.svg",
+   "unit": 1000.0,
+   "labels": "labels-africa.json"
+  },
+  "south-america": {
+   "id": "south-america",
+   "name": "South America",
+   "kind": "continent",
+   "proj": {
+    "type": "laea",
+    "lon0": -60.0,
+    "lat0": -18.0
+   },
+   "frame": [
+    -2803258,
+    -3512176,
+    3133064,
+    4463319
+   ],
+   "aspect": 0.7443,
+   "plate": "south-america/plate.svg",
+   "unit": 1000.0,
+   "labels": "labels-south-america.json"
+  },
+  "north-america": {
+   "id": "north-america",
+   "name": "North America",
+   "kind": "continent",
+   "proj": {
+    "type": "laea",
+    "lon0": -100.0,
+    "lat0": 40.0
+   },
+   "frame": [
+    -6628070,
+    -4426853,
+    5501254,
+    3725405
+   ],
+   "aspect": 1.4878,
+   "plate": "north-america/plate.svg",
+   "unit": 1000.0,
+   "labels": "labels-north-america.json"
+  },
+  "asia": {
+   "id": "asia",
+   "name": "Asia",
+   "kind": "continent",
+   "proj": {
+    "type": "laea",
+    "lon0": 88.0,
+    "lat0": 28.0
+   },
+   "frame": [
+    -6901771,
+    -4346955,
+    6804297,
+    4358027
+   ],
+   "aspect": 1.5745,
+   "plate": "asia/plate.svg",
+   "unit": 1000.0,
+   "labels": "labels-asia.json"
+  },
+  "oceania": {
+   "id": "oceania",
+   "name": "Oceania",
+   "kind": "continent",
+   "proj": {
+    "type": "laea",
+    "lon0": 150.0,
+    "lat0": -26.0
+   },
+   "frame": [
+    -4687426,
+    -3082573,
+    3610682,
+    3044866
+   ],
+   "aspect": 1.3543,
+   "plate": "oceania/plate.svg",
+   "unit": 1000.0,
+   "labels": "labels-oceania.json"
+  }
+ },
+ "locator": {
+  "files": {
+   "": "loc/madeira.svg",
+   "Calheta": "loc/calheta.svg",
+   "Câmara de Lobos": "loc/camara-de-lobos.svg",
+   "Funchal": "loc/funchal.svg",
+   "Machico": "loc/machico.svg",
+   "Ponta do Sol": "loc/ponta-do-sol.svg",
+   "Porto Moniz": "loc/porto-moniz.svg",
+   "Porto Santo": "loc/porto-santo.svg",
+   "Ribeira Brava": "loc/ribeira-brava.svg",
+   "Santa Cruz": "loc/santa-cruz.svg",
+   "Santana": "loc/santana.svg",
+   "São Vicente": "loc/sao-vicente.svg"
+  },
+  "aspect": 1.5173
+ },
+ "tiles": {
+  "origin": [
+   -80000.0,
+   -140000.0
+  ],
+  "size": 512,
+  "res": [
+   80.0,
+   40.0,
+   20.0,
+   10.0,
+   5.0
+  ],
+  "ext": "avif"
+ }
+}

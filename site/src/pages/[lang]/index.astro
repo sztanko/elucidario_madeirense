@@ -1,0 +1,182 @@
+---
+// Home page: masthead, hero search, featured articles/places/people, notable dates, explore-by, stats, A-Z rail.
+import Base from '../../layouts/Base.astro';
+import SearchBox from '../../components/search/SearchBox.astro';
+import MapView from '../../components/map/MapView.astro';
+import ArticleCard from '../../components/entity/ArticleCard.astro';
+import PlaceChip from '../../components/entity/PlaceChip.astro';
+import PersonChip from '../../components/entity/PersonChip.astro';
+import EventChip from '../../components/entity/EventChip.astro';
+import Label from '../../components/ui/Label.astro';
+import SectionHead from '../../components/ui/SectionHead.astro';
+import Rule from '../../components/ui/Rule.astro';
+import { fmtInt, fmtEdtf } from '../../components/ui/format';
+import { languages, meta, articles, index, featured, geo, chronology } from '../../lib/data';
+import { hashInt, centuryOf, letterOf } from '../../components/pages/content';
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: string };
+
+const m = meta();
+const idx = index(lang);
+const arts = articles(lang);
+const g = geo();
+
+// Featured articles: deterministic per-language pick of 6 from the ranked top 30.
+const pool = featured().ranked.slice(0, 30).filter((id) => arts[id]);
+const featuredIds = [...pool].sort((a, b) => hashInt(lang + a, 10007) - hashInt(lang + b, 10007)).slice(0, 6);
+const featuredArticles = featuredIds.map((id) => arts[id]);
+
+// Featured places: top mentioned places that have their own article.
+const featuredPlaces = [...idx.places].sort((a, b) => b[6] - a[6]).slice(0, 6);
+
+// Featured people: top mentioned persons.
+const featuredPeople = [...idx.persons].sort((a, b) => b[4] - a[4]).slice(0, 6);
+
+// Notable dates: one major event per century, newest-first within a handful of centuries.
+const chron = chronology(lang);
+const majorByCentury = new Map<number, (typeof chron)[number]>();
+for (const ev of chron) {
+  if (ev.sig !== 'm' || !ev.y) continue;
+  const c = centuryOf(ev.y);
+  if (!majorByCentury.has(c)) majorByCentury.set(c, ev);
+}
+const notableDates = [...majorByCentury.entries()].sort((a, b) => b[0] - a[0]).slice(0, 8).map(([, ev]) => ev);
+
+// A-Z rail: letters actually present among headwords.
+const lettersPresent = new Set(idx.articles.map((r) => letterOf(r[1])));
+const alphabet = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+
+const title = `${m.languages.find((l) => l.code === lang)?.name ?? lang} — Elucidário Madeirense`;
+const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: 'Elucidário Madeirense',
+    inLanguage: lang,
+    url: Astro.site ? Astro.site.href.replace(/\/$/, '') + u.home(lang) : undefined,
+  },
+];
+---
+<Base lang={lang} title={title} description={t(lang, 'tagline')} kind="home" jsonld={jsonld}>
+  <header class="em-home-head">
+    <Label as="p" bar wide role="person">{`${fmtInt(m.languages.length, lang)} ${t(lang, 'languages_n')} · ${fmtInt(m.counts.articles, lang)} ${t(lang, 'articles')}`}</Label>
+    <h1 class="em-masthead em-home-title">
+      {lang === 'uk' ? (
+        <>
+          <span class="em-title-orig">Елусідаріу Мадейренсі</span>
+          <span class="em-title-translit em-didone">Elucidário Madeirense</span>
+        </>
+      ) : 'ELUCIDÁRIO MADEIRENSE'}
+    </h1>
+    <p class="em-tagline em-didone">{t(lang, 'tagline')}</p>
+    <div class="em-hero-search"><SearchBox lang={lang} variant="hero" /></div>
+  </header>
+
+  <nav class="em-az-rail" aria-label={t(lang, 'index_by_letter')}>
+    {alphabet.map((l) => lettersPresent.has(l)
+      ? <a href={`${u.indexLetter(lang)}#${l}`}>{l}</a>
+      : <span aria-hidden="true">{l}</span>)}
+  </nav>
+
+  <section class="em-section" aria-labelledby="h-featured">
+    <SectionHead n="1" title={t(lang, 'featured_articles')} id="h-featured" />
+    <div class="em-card-grid">
+      {featuredArticles.map((a) => a && (
+        <ArticleCard lang={lang} id={a.id} hw={a.hw} hw_pt={a.hw_pt} abs={a.abs} type={a.types?.[0]} no={a.no} ml={a.ml} />
+      ))}
+    </div>
+    <a class="em-more" href={u.indexLetter(lang)}>{t(lang, 'view_all')} →</a>
+  </section>
+
+  <Rule role="person" />
+
+  <section class="em-section em-section--split" aria-labelledby="h-places">
+    <div>
+      <SectionHead n="2" title={t(lang, 'featured_places')} id="h-places" role="place" />
+      <ul class="em-chip-list" role="list">
+        {featuredPlaces.map(([slug, name, type, isl, mun, cont]) => (
+          <PlaceChip lang={lang} slug={slug} name={name} type={type} sub={mun || cont || isl} />
+        ))}
+      </ul>
+      <a class="em-more" href={u.placesPage(lang)}>{t(lang, 'view_all')} →</a>
+    </div>
+    <div class="em-home-map">
+      <MapView lang={lang} mode="overview" places={featuredPlaces.map(([slug]) => ({ id: slug, label: g[slug]?.pt ?? slug, role: 'mention' }))} height="320px" />
+    </div>
+  </section>
+
+  <Rule role="place" />
+
+  <section class="em-section" aria-labelledby="h-people">
+    <SectionHead n="3" title={t(lang, 'featured_people')} id="h-people" />
+    <ul class="em-chip-list em-chip-list--2col" role="list">
+      {featuredPeople.map(([slug, name, birth, death, mentions, role]) => (
+        <PersonChip lang={lang} slug={slug} name={name} birth={birth} death={death} role={role} mentions={mentions} />
+      ))}
+    </ul>
+    <a class="em-more" href={u.peoplePage(lang)}>{t(lang, 'view_all')} →</a>
+  </section>
+
+  <Rule role="person" />
+
+  <section class="em-section" aria-labelledby="h-dates">
+    <SectionHead n="4" title={t(lang, 'notable_dates')} id="h-dates" role="date" />
+    <ol class="em-event-list" role="list">
+      {notableDates.map((ev) => (
+        <EventChip lang={lang} id={ev.id} y={ev.y} label={fmtEdtf(ev.s0, ev.s1, lang)} sum={ev.sum} sig={ev.sig} ml={ev.ml} />
+      ))}
+    </ol>
+    <a class="em-more" href={u.chronologyPage(lang)}>{t(lang, 'view_all')} →</a>
+  </section>
+
+  <Rule role="date" />
+
+  <section class="em-section em-explore" aria-labelledby="h-explore">
+    <SectionHead n="5" title={t(lang, 'explore_by')} id="h-explore" />
+    <div class="em-explore-grid">
+      <a href={u.indexLetter(lang)}><Label as="strong" size="normal">{t(lang, 'by_letter')}</Label></a>
+      <a href={u.indexCategory(lang)}><Label as="strong" size="normal">{t(lang, 'by_category')}</Label></a>
+      <a href={u.indexLocation(lang)}><Label as="strong" size="normal">{t(lang, 'by_location')}</Label></a>
+      <a href={u.indexPeople(lang)}><Label as="strong" size="normal">{t(lang, 'by_people')}</Label></a>
+    </div>
+  </section>
+
+  <footer class="em-stats">
+    <span><strong>{fmtInt(m.counts.articles, lang)}</strong> {t(lang, 'articles')}</span>
+    <span><strong>{fmtInt(m.counts.persons, lang)}</strong> {t(lang, 'persons_n')}</span>
+    <span><strong>{fmtInt(m.counts.places, lang)}</strong> {t(lang, 'places_n')}</span>
+    <span><strong>{fmtInt(m.counts.events, lang)}</strong> {t(lang, 'events_n')}</span>
+    <span><strong>{m.languages.length}</strong> {t(lang, 'languages_n')}</span>
+  </footer>
+</Base>
+<style>
+  .em-home-head { text-align: center; padding: var(--s-8) var(--gutter) var(--s-6); }
+  .em-home-title { font-size: var(--fs-masthead); margin: var(--s-3) 0 var(--s-2); }
+  .em-title-orig { display: block; }
+  .em-title-translit { display: block; font-size: .32em; opacity: .72; letter-spacing: .04em; text-transform: none; }
+  .em-tagline { font-size: var(--fs-lede); opacity: .8; margin: 0 0 var(--s-6); }
+  .em-hero-search { max-width: 42rem; margin: 0 auto; }
+
+  .em-az-rail { display: flex; flex-wrap: wrap; justify-content: center; gap: .15rem; padding: .5rem var(--gutter) var(--s-6); font-size: .8rem; font-variant-numeric: tabular-nums; }
+  .em-az-rail a { color: var(--ink); text-decoration: none; width: 1.4em; text-align: center; border-bottom: 1px solid var(--person); }
+  .em-az-rail span { width: 1.4em; text-align: center; opacity: .25; }
+
+  .em-section { max-width: var(--page-max); margin: 0 auto; padding: var(--s-6) var(--gutter); }
+  .em-section--split { display: grid; grid-template-columns: 1.1fr 1fr; gap: var(--col-gap); align-items: start; }
+  @media (max-width: 55rem) { .em-section--split { grid-template-columns: 1fr; } }
+  .em-card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr)); gap: var(--s-6); margin-top: var(--s-5); }
+  .em-chip-list { list-style: none; margin: var(--s-5) 0 0; padding: 0; }
+  .em-chip-list--2col { columns: 2; column-gap: var(--col-gap); }
+  .em-event-list { list-style: none; margin: var(--s-5) 0 0; padding: 0; }
+  .em-more { display: inline-block; margin-top: var(--s-4); font-size: .85rem; color: var(--person-ink); text-decoration: none; }
+  .em-explore-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr)); gap: var(--s-4); margin-top: var(--s-5); }
+  .em-explore-grid a { display: block; padding: var(--s-5); border: 1px solid var(--line); text-align: center; color: var(--ink); text-decoration: none; }
+  .em-explore-grid a:hover { border-color: var(--person); color: var(--person-ink); }
+  .em-stats { display: flex; flex-wrap: wrap; justify-content: center; gap: var(--s-6); padding: var(--s-6) var(--gutter) var(--s-9); font-size: .85rem; opacity: .85; border-top: 1px solid var(--line); max-width: var(--page-max); margin: 0 auto; }
+  .em-stats strong { font-variant-numeric: tabular-nums; color: var(--ink); }
+</style>

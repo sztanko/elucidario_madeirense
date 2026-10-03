@@ -1,0 +1,47 @@
+---
+/**
+ * Related: relation lists as a typographic index (mockup "RELATED": label column → headwords with Nº).
+ * Props: lang, a: Article, limit?: number (per list before "+ n more"), compact?: boolean (fragment pages)
+ */
+import type { Article } from '../../lib/data';
+import { roleOf } from '../../lib/data';
+import { t, type UIKey } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+import { related } from './model';
+import { pad4 } from '../ui/format';
+interface Props { lang: string; a: Article; limit?: number; compact?: boolean }
+const { lang, a, limit = 8, compact = false } = Astro.props;
+const R = related(lang, a);
+const shown = new Set<string>();
+const lists: { key: UIKey; items: ReturnType<typeof related>['out'] }[] = [];
+for (const [k, key] of [['par', 'part_of'], ['kids', 'sub_entries'], ['out', 'referenced_here'], ['in', 'references_this'], ['near', 'nearby'], ['same', 'shared_people']] as const) {
+  // A target listed earlier (e.g. as parent) is not repeated below.
+  const items = R[k].filter((x) => !shown.has(x.id));
+  items.forEach((x) => shown.add(x.id));
+  if (items.length) lists.push({ key, items });
+}
+---
+{lists.length > 0 && (
+  <dl class:list={['ea-rel', { 'ea-rel--compact': compact }]}>
+    {lists.map((l) => (
+      <div class="ea-rel__g">
+        <dt class="em-label">{t(lang, l.key)}<span class="ea-rel__c"> · {l.items.length}</span></dt>
+        <dd>
+          <ul role="list">
+            {l.items.slice(0, limit).map((x) => (
+              <li class={`em-role-${roleOf(x.type)}`}><a href={u.article(lang, x.id)} data-print-url="on"><span class="ea-rel__arrow" aria-hidden="true">→</span> <span class="ea-rel__hw">{x.hw}</span> <span class="ea-rel__no">Nº {pad4(x.no)}</span></a></li>
+            ))}
+          </ul>
+          {l.items.length > limit && (
+            <details class="ea-more">
+              <summary class="em-label">+ {l.items.length - limit} {t(lang, 'more_n')}</summary>
+              <ul role="list">
+                {l.items.slice(limit).map((x) => <li class={`em-role-${roleOf(x.type)}`}><a href={u.article(lang, x.id)}><span class="ea-rel__arrow" aria-hidden="true">→</span> <span class="ea-rel__hw">{x.hw}</span> <span class="ea-rel__no">Nº {pad4(x.no)}</span></a></li>)}
+              </ul>
+            </details>
+          )}
+        </dd>
+      </div>
+    ))}
+  </dl>
+)}

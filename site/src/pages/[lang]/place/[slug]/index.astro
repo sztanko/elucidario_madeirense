@@ -1,0 +1,135 @@
+---
+// Place page: name, type, parish/municipality/island or country/continent, precision, summary, map, mentions, events, nearby.
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../components/ui/SectionHead.astro';
+import Label from '../../../../components/ui/Label.astro';
+import Folio from '../../../../components/ui/Folio.astro';
+import EntityLink from '../../../../components/ui/EntityLink.astro';
+import EventChip from '../../../../components/entity/EventChip.astro';
+import Plate from '../../../../components/art/Plate.astro';
+import MapView from '../../../../components/map/MapView.astro';
+import { fmtEdtf, fmtInt } from '../../../../components/ui/format';
+import { languages, places, geo, articles, eventsById } from '../../../../lib/data';
+import { t } from '../../../../i18n/ui';
+import * as u from '../../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().flatMap((lang) => Object.keys(places(lang)).map((slug) => ({ params: { lang, slug } })));
+}
+const { lang, slug } = Astro.params as { lang: string; slug: string };
+const p = places(lang)[slug];
+const ge = geo()[slug];
+const arts = articles(lang);
+const mainArticle = p.main ? arts[p.main] : null;
+const evMap = eventsById(lang);
+const relatedEvents = (p.ev || []).map((id) => evMap.get(id)).filter(Boolean).slice(0, 20) as ReturnType<typeof evMap.get>[];
+const MAX_MENTIONS = 40;
+const shownMentions = p.m.slice(0, MAX_MENTIONS);
+const hiddenMentions = p.m.length - shownMentions.length;
+
+const nearbyIds = (mainArticle?.near ?? []).slice(0, 10);
+const nearby = nearbyIds.map((id) => arts[id]).filter(Boolean);
+
+const isAbroad = !ge || ge.isl === 'none' || !ge.isl;
+const locBits = isAbroad ? [ge?.ctry, ge?.cont].filter(Boolean) : [ge?.par, ge?.mun, ge?.isl].filter(Boolean);
+const needsPrecisionNote = ge && ['approximate', 'parish-centroid', 'municipality-centroid', 'city/country', 'unknown'].includes(ge.prec || '');
+
+const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const jsonld = [{
+  '@context': 'https://schema.org',
+  '@type': 'Place',
+  name: p.n,
+  ...(p.sum ? { description: p.sum } : {}),
+  ...(ge?.c ? { geo: { '@type': 'GeoCoordinates', latitude: ge.c[1], longitude: ge.c[0] } } : {}),
+  url: site + u.place(lang, slug),
+}];
+const title = `${p.n} — Elucidário Madeirense`;
+---
+<Base lang={lang} title={title} description={p.sum ?? p.n} kind="entity" jsonld={jsonld}>
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'places'), href: u.placesPage(lang) }, { label: p.n }]} />
+
+  <Folio lang={lang} lead={t(lang, 'type_place')} items={[ge?.tp, ...locBits].filter(Boolean) as string[]} />
+
+  <header class="em-place-head em-role-place">
+    <Plate seed={p.id} category="place" size={88} variant="plate" title={p.n} />
+    <div>
+      <h1>{p.n}</h1>
+      {lang !== 'pt' && ge?.pt && ge.pt !== p.n && <p class="em-orig" lang="pt">{ge.pt}</p>}
+      {locBits.length > 0 && <p class="em-locbits">{locBits.join(' · ')}</p>}
+      {p.loc && <p class="em-loc">{p.loc}</p>}
+      {needsPrecisionNote && <p class="em-prec"><Label role="muted" size="micro">{ge?.prec}</Label></p>}
+    </div>
+  </header>
+
+  {p.sum && <p class="em-lede">{p.sum}{p.ml && <span class="em-langmark" title="English metadata">EN</span>}</p>}
+
+  {ge?.c && (
+    <section aria-label={t(lang, 'open_map')}>
+      <MapView lang={lang} mode="place" places={[{ id: slug, label: p.n, role: 'subject' }]} region={ge.isl !== 'none' ? ge.isl : ge.cont ?? undefined} height="320px" />
+    </section>
+  )}
+
+  {mainArticle && (
+    <p class="em-main-article">
+      <Label role="muted" size="micro">{t(lang, 'main_article')}</Label>{' '}
+      <EntityLink kind="article" id={mainArticle.id} lang={lang} variant="name" label={mainArticle.hw} />
+    </p>
+  )}
+
+  {shownMentions.length > 0 && (
+    <section aria-labelledby="h-mentions">
+      <SectionHead size="m" title={t(lang, 'mentioned_in')} id="h-mentions" role="place" n="1">
+        <span slot="aside"><Label role="muted" count={fmtInt(ge?.n ?? p.m.length, lang)} /></span>
+      </SectionHead>
+      <ul class="em-mentions" role="list">
+        {shownMentions.map((mn) => (
+          <li>
+            <EntityLink kind="article" id={mn.a} lang={lang} variant="name" label={mn.hw} />
+            {mn.note && <span class="em-note"> — {mn.note}</span>}
+          </li>
+        ))}
+      </ul>
+      {hiddenMentions > 0 && <p class="em-more-note">+{fmtInt(hiddenMentions, lang)} {t(lang, 'and_n_more')}</p>}
+    </section>
+  )}
+
+  {relatedEvents.length > 0 && (
+    <section aria-labelledby="h-events">
+      <SectionHead size="m" title={t(lang, 'dates_mentioned')} id="h-events" role="date" n="2" />
+      <ol class="em-event-list" role="list">
+        {relatedEvents.map((ev) => ev && (
+          <EventChip lang={lang} id={ev.id} y={ev.y} label={fmtEdtf(ev.s0, ev.s1, lang)} sum={ev.sum} sig={ev.sig} ml={ev.ml} />
+        ))}
+      </ol>
+    </section>
+  )}
+
+  {nearby.length > 0 && (
+    <section aria-labelledby="h-nearby">
+      <SectionHead size="m" title={t(lang, 'nearby')} id="h-nearby" role="place" n="3" />
+      <ul class="em-nearby" role="list">
+        {nearby.map((a) => (
+          <li><EntityLink kind="article" id={a.id} lang={lang} variant="name" label={a.hw} /></li>
+        ))}
+      </ul>
+    </section>
+  )}
+</Base>
+<style>
+  .em-place-head { display: flex; gap: var(--s-5); align-items: flex-start; padding: var(--s-6) var(--gutter) var(--s-4); max-width: var(--measure-wide); margin: 0 auto; }
+  .em-place-head svg { color: var(--place); flex: none; }
+  .em-place-head h1 { font-size: var(--fs-h1); margin: 0; }
+  .em-orig { font-family: var(--font-didone); font-style: italic; opacity: .72; margin: .1rem 0 0; }
+  .em-locbits { opacity: .7; margin: .3rem 0 0; }
+  .em-loc { margin: .3rem 0 0; }
+  .em-prec { margin: .4rem 0 0; }
+  .em-lede { font-size: var(--fs-lede); max-width: var(--measure); margin: 0 auto var(--s-5); padding: 0 var(--gutter); }
+  section { max-width: var(--measure-wide); margin: var(--s-6) auto; padding: 0 var(--gutter); }
+  .em-main-article { max-width: var(--measure-wide); margin: 0 auto var(--s-6); padding: 0 var(--gutter); }
+  .em-mentions, .em-nearby { list-style: none; margin: var(--s-3) 0 0; padding: 0; }
+  .em-mentions li, .em-nearby li { padding: .3rem 0; border-bottom: 1px solid var(--line-faint); font-size: var(--fs-small); }
+  .em-note { opacity: .7; }
+  .em-more-note { font-size: var(--fs-small); opacity: .6; margin-top: .4rem; }
+  .em-event-list { list-style: none; margin: var(--s-3) 0 0; padding: 0; }
+</style>

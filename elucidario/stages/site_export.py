@@ -20,6 +20,7 @@ from __future__ import annotations
 import json
 import math
 import re
+import unicodedata
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -37,8 +38,43 @@ def jl(p: Path):
     return [json.loads(l) for l in open(p)] if p.exists() else []
 
 
+_SLUG: dict[str, str] = {}  # entity id -> public URL slug, where it differs from the id (places)
+
+
 def slug(eid: str) -> str:
+    if eid in _SLUG:
+        return _SLUG[eid]
     return eid.split(":", 1)[1] if ":" in eid else eid
+
+
+def _slugify(s: str | None) -> str:
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", s).strip("-")
+
+
+def place_slugs(places: dict) -> dict[str, str]:
+    """Readable place slugs: the name alone, then + parish / municipality / island only where names collide.
+    (KB place ids carry a mangled island suffix, e.g. place:se-do-funchal-adeira-se.)"""
+    out: dict[str, str] = {}
+    groups = defaultdict(list)
+    for pid in sorted(places):
+        groups[_slugify(places[pid]["name"]) or "place"].append(pid)
+    used = set()
+    for base, pids in sorted(groups.items()):
+        for pid in pids:
+            p = places[pid]
+            cands = [base] if len(pids) == 1 else []
+            for q in ("parish", "municipality", "island"):
+                if _slugify(p.get(q)) not in ("", "none") and _slugify(p[q]) not in base:
+                    cands.append(f"{base}-{_slugify(p[q])}")
+            cands.append(f"{base}-{_slugify(p.get('place_type'))}" if p.get("place_type") else base)
+            s = next((c for c in cands if c not in used), None)
+            n = 2
+            while s is None or s in used:
+                s, n = f"{base}-{n}", n + 1
+            used.add(s)
+            out[pid] = s
+    return out
 
 
 # ------------------------------------------------------------------ loading
@@ -49,6 +85,8 @@ class Corpus:
         self.enr = {e["id"]: e for e in jl(DATA / "05_enriched" / "enrichment.jsonl")}
         self.persons = {p["id"]: p for p in jl(DATA / "06_kb" / "persons.final.jsonl")}
         self.places = {p["id"]: p for p in jl(DATA / "06_kb" / "places.final.jsonl")}
+        _SLUG.clear()
+        _SLUG.update(place_slugs(self.places))
         self.geo = {g["id"]: g for g in jl(DATA / "07_geo" / "places.geo.jsonl")}
         self.chron = jl(DATA / "06_kb" / "chronology.jsonl")
         self.links = jl(DATA / "06_kb" / "links.final.jsonl")

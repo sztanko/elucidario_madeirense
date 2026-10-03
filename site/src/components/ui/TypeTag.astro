@@ -1,0 +1,43 @@
+---
+/**
+ * TypeTag (aka Tag): taxonomy / category tag, coloured by role via roleOf(code).
+ * Props:
+ *   code: string                taxonomy code ("place.parish", "person.clergy", "event.disaster", "economy.trade")
+ *   lang: string                page language (label from index(lang).tax, linked to the category index)
+ *   label?: string              override label
+ *   href?: string | false       override link (default urls.indexCategory(lang, code)); false = no link
+ *   variant?: 'box'|'text'|'dot' box = outlined capsule (default), text = coloured label, dot = role dot + label
+ *   primary?: boolean           filled (used for the primary type)
+ *   class?: string
+ */
+import { index, roleOf } from '../../lib/data';
+import * as u from '../../lib/urls';
+interface Props { code: string; lang: string; label?: string; href?: string | false; variant?: 'box' | 'text' | 'dot'; primary?: boolean; class?: string }
+const { code, lang, label, href, variant = 'box', primary = false, class: cls } = Astro.props;
+const tax = index(lang).tax || {};
+const text = label ?? tax[code] ?? tax[code.split('.')[0]] ?? code;
+const role = roleOf(code);
+const link = href === false ? null : href ?? u.indexCategory(lang, code);
+const Tag = link ? 'a' : 'span';
+---
+<Tag href={link ?? undefined} class:list={['em-tag', `em-tag--${variant}`, `em-role-${role}`, { 'em-tag--primary': primary }, cls]} data-code={code}>{variant === 'dot' && <span class="em-tag__dot" aria-hidden="true"></span>}{text}</Tag>
+<style>
+  .em-tag {
+    --c: var(--role-ink);
+    display: inline-flex; align-items: center; gap: .5em; min-height: 1.75rem;
+    font-family: var(--font-label); font-weight: var(--w-label); font-size: var(--fs-micro);
+    letter-spacing: .18em; text-transform: uppercase; line-height: 1.1; color: var(--c);
+    text-decoration: none; white-space: nowrap; max-width: 100%; overflow: hidden; text-overflow: ellipsis;
+    transition: background-color var(--dur-1) var(--ease), color var(--dur-1) var(--ease);
+  }
+  .em-tag.em-role-date { --c: var(--date-ink); }
+  .em-tag--box { padding: .32em .75em .26em; border: 1px solid currentColor; }
+  .em-tag--box.em-tag--primary { background: var(--role); border-color: var(--role); color: var(--paper-light); }
+  .em-tag--box.em-tag--primary.em-role-date { color: var(--ink); }
+  .em-tag--text { padding: .2em 0; }
+  .em-tag__dot { width: .55em; height: .55em; border-radius: 50%; background: var(--role); flex: none; }
+  a.em-tag:hover { background: var(--role); color: var(--paper-light); }
+  a.em-tag.em-role-date:hover { color: var(--ink); }
+  a.em-tag--text:hover, a.em-tag--dot:hover { background: none; color: var(--ink); text-decoration: underline; }
+  @media print { .em-tag--box.em-tag--primary { background: none; color: #000; } }
+</style>

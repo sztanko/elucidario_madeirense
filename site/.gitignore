@@ -24,3 +24,10 @@ pnpm-debug.log*
 .idea/
 data/
 dist/
+
+# generated at build time (scripts/build-search.mjs, src/motion/integration.mjs)
+public/search/
+public/plane/
+# review-only artefacts
+public/art/gallery.html
+public/art/og-*

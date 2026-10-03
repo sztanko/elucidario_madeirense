@@ -1,0 +1,28 @@
+---
+// About -> Technical: renders docs/README.md as the index of the technical documents.
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../components/ui/SectionHead.astro';
+import { readRepoFile, renderMarkdown, rewriteDocLinks, splitTitle } from '../../../components/pages/content';
+import { t } from '../../../i18n/ui';
+import * as u from '../../../lib/urls';
+
+const [title, body] = splitTitle(readRepoFile('docs/README.md'));
+const html = rewriteDocLinks(renderMarkdown(body), 'README.md');
+---
+<Base lang="en" title={`${title ?? 'Technical notes'} — Elucidário Madeirense`} description="Technical documents describing how the digital edition was built: pipeline, translation strategy, style guides and reference tables." multilingual={false} kind="about">
+  <Breadcrumbs items={[{ label: t('en', 'back_home'), href: u.home('pt') }, { label: t('en', 'about'), href: u.about() }, { label: t('en', 'technical_notes') }]} />
+  <SectionHead size="xl" title={title ?? t('en', 'technical_notes')} role="ink" rule="below" />
+  <div class="em-doc em-prose" set:html={html} />
+</Base>
+<style>
+  .em-doc { max-width: var(--measure-wide); margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-9); }
+  .em-doc :global(table) { border-collapse: collapse; width: 100%; margin: 1em 0; font-size: var(--fs-small); }
+  .em-doc :global(th), .em-doc :global(td) { border-bottom: 1px solid var(--line); padding: .4em .6em; text-align: left; vertical-align: top; }
+  .em-doc :global(th) { border-bottom: 2px solid var(--ink); font-family: var(--font-label); text-transform: uppercase; letter-spacing: .05em; font-size: var(--fs-micro); }
+  .em-doc :global(h2) { font-size: var(--fs-h3); margin: 1.6em 0 .5em; }
+  .em-doc :global(h3) { font-size: var(--fs-h4); margin: 1.2em 0 .4em; }
+  .em-doc :global(code) { font-family: var(--font-mono); font-size: .9em; background: var(--paper-deep); padding: .1em .3em; }
+  .em-doc :global(ul), .em-doc :global(ol) { padding-left: 1.4em; }
+  .em-doc :global(a) { color: var(--person-ink); }
+</style>

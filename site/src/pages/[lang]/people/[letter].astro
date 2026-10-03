@@ -1,0 +1,141 @@
+---
+// People, one page per letter: every person whose display name starts with the letter is an entry (anchor = person slug).
+// Person links everywhere resolve to /{lang}/people/{letter}/#{slug} via urls.person().
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import { fmtLife, fmtInt, yearOf } from '../../../components/ui/format';
+import { languages, persons, articles, eventsById, type Person } from '../../../lib/data';
+import { t } from '../../../i18n/ui';
+import * as u from '../../../lib/urls';
+
+const MAX_NOTED = 6;   // mentions shown with their note
+const MAX_LINKS = 40;  // further mentions shown as plain links
+const MAX_YEARS = 16;
+
+export function getStaticPaths() {
+  return languages().flatMap((lang) => {
+    const groups = new Map<string, Person[]>();
+    for (const p of Object.values(persons(lang))) {
+      const l = u.personLetter(p.n);
+      if (!groups.has(l)) groups.set(l, []);
+      groups.get(l)!.push(p);
+    }
+    const letters = [...groups.keys()].sort((a, b) => (a === '0' ? 1 : b === '0' ? -1 : a.localeCompare(b, lang)));
+    return letters.map((letter, i) => ({
+      params: { lang, letter },
+      props: {
+        letters,
+        people: groups.get(letter)!.sort((a, b) => a.n.localeCompare(b.n, lang, { sensitivity: 'base' })),
+        prev: letters[i - 1] ?? null,
+        next: letters[i + 1] ?? null,
+      },
+    }));
+  });
+}
+
+const { lang, letter } = Astro.params as { lang: string; letter: string };
+const { letters, people, prev, next } = Astro.props as { letters: string[]; people: Person[]; prev: string | null; next: string | null };
+const arts = articles(lang);
+const evs = eventsById(lang);
+const show = (l: string) => (l === '0' ? '#' : l.toUpperCase());
+const L = show(letter);
+
+function years(p: Person): number[] {
+  const ys = new Set<number>();
+  for (const id of p.ev || []) { const y = evs.get(id)?.y; if (y != null) ys.add(y); }
+  return [...ys].sort((a, b) => a - b).slice(0, MAX_YEARS);
+}
+const title = `${t(lang, 'people')} · ${L} — Elucidário Madeirense`;
+const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p) => p.n).join(', ')}…`;
+---
+<Base lang={lang} title={title} description={description} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'people'), href: u.peoplePage(lang) }, { label: L }]} />
+
+  <header class="pl-head">
+    <span class="pl-letter" aria-hidden="true">{L}</span>
+    <div>
+      <h1>{t(lang, 'people')} <span class="pl-h1-letter">· {L}</span></h1>
+      <p class="pl-count">{fmtInt(people.length, lang)} {t(lang, 'persons_n')}</p>
+    </div>
+  </header>
+
+  <nav class="pl-nav" aria-label={t(lang, 'people')}>
+    {letters.map((l) => l === letter
+      ? <span aria-current="page">{show(l)}</span>
+      : <a href={u.peopleLetter(lang, l)}>{show(l)}</a>)}
+  </nav>
+
+  <div class="pl-list">
+    {people.map((p) => {
+      const ys = years(p);
+      const main = p.main ? arts[p.main] : null;
+      const noted = p.m.slice(0, MAX_NOTED);
+      const linked = p.m.slice(MAX_NOTED, MAX_NOTED + MAX_LINKS);
+      const more = p.m.length - noted.length - linked.length;
+      return (
+        <article id={p.id} class="pl-p">
+          <h2>{p.n}</h2>
+          {lang !== 'pt' && p.n_pt && p.n_pt !== p.n && <p class="pl-pt" lang="pt">{p.n_pt}</p>}
+          {(p.d?.[0] || p.d?.[1] || p.roles?.length > 0) && (
+            <p class="pl-meta">
+              {(p.d?.[0] || p.d?.[1]) && <span class="pl-d">{fmtLife(p.d, t(lang, 'born'), t(lang, 'died'))}</span>}
+              {p.roles?.length > 0 && <span class="pl-r">{p.roles.slice(0, 4).join(' · ')}</span>}
+            </p>
+          )}
+          {p.sum && <p class="pl-sum" lang={p.ml || undefined}>{p.sum}{p.ml && <span class="em-langmark" title={t(lang, 'in_english')}>EN</span>}</p>}
+          {main && <p class="pl-main"><span class="pl-k">{t(lang, 'main_article')}</span> <a href={u.article(lang, main.id)}>{main.hw}</a></p>}
+          {noted.length > 0 && (
+            <ul class="pl-m">
+              {noted.map((m) => <li><a href={u.article(lang, m.a) + (m.b ? `#${m.b}` : '')}>{m.hw}</a>{m.note && <span lang={p.ml || undefined}> — {m.note}</span>}</li>)}
+            </ul>
+          )}
+          {linked.length > 0 && (
+            <p class="pl-also"><span class="pl-k">{t(lang, 'mentioned_in')}</span> {linked.map((m, i) => <>{i > 0 && ', '}<a href={u.article(lang, m.a)}>{m.hw}</a></>)}{more > 0 && <> +{fmtInt(more, lang)}</>}</p>
+          )}
+          {ys.length > 0 && (
+            <p class="pl-y"><span class="pl-k">{t(lang, 'dates_mentioned')}</span> {ys.map((y) => <a href={u.year(lang, y)}>{y}</a>)}</p>
+          )}
+        </article>
+      );
+    })}
+  </div>
+
+  <nav class="pl-pn">
+    {prev ? <a href={u.peopleLetter(lang, prev)}>← {show(prev)}</a> : <span />}
+    {next ? <a href={u.peopleLetter(lang, next)}>{show(next)} →</a> : <span />}
+  </nav>
+</Base>
+
+<style>
+  .pl-head { display: flex; align-items: flex-end; gap: var(--s-5); max-width: 96rem; margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-4); border-bottom: var(--rule-heavy, 4px) solid var(--ink); }
+  .pl-letter { font-family: var(--font-display); font-weight: 900; font-size: var(--fs-poster); line-height: .78; color: var(--person); }
+  .pl-head h1 { font-family: var(--font-display); text-transform: uppercase; font-size: var(--fs-h2); margin: 0; }
+  .pl-h1-letter { color: var(--person-ink); }
+  .pl-count { font-family: var(--font-label); letter-spacing: var(--tracking-label, .22em); text-transform: uppercase; font-size: var(--fs-micro); margin: .3rem 0 0; opacity: .7; }
+  .pl-nav { position: sticky; top: var(--header-h); z-index: var(--z-raised, 5); background: var(--paper); display: flex; flex-wrap: wrap; gap: .15rem .35rem; max-width: 96rem; margin: 0 auto; padding: .6rem var(--gutter); border-bottom: 1px solid var(--line-faint); font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; }
+  .pl-nav a, .pl-nav span { min-width: 1.5em; text-align: center; color: var(--ink); text-decoration: none; padding: .1rem 0; }
+  .pl-nav a:hover { color: var(--person-ink); }
+  .pl-nav [aria-current] { background: var(--ink); color: var(--paper-light); }
+  .pl-list { max-width: 96rem; margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-7); }
+  @media (min-width: 56rem) { .pl-list { columns: 2; column-gap: var(--s-7); column-rule: 1px solid var(--line-faint); } }
+  @media (min-width: 96rem) { .pl-list { columns: 3; } }
+  .pl-p { break-inside: avoid; padding: var(--s-3) 0 var(--s-4); border-top: 1px solid var(--line-faint); font-size: var(--fs-small); content-visibility: auto; contain-intrinsic-size: auto 9rem; scroll-margin-top: calc(var(--header-h) + 3.5rem); }
+  .pl-p:target { background: color-mix(in srgb, var(--person) 8%, transparent); box-shadow: -.6rem 0 0 color-mix(in srgb, var(--person) 8%, transparent), .6rem 0 0 color-mix(in srgb, var(--person) 8%, transparent); }
+  .pl-p:target h2 { color: var(--person-ink); }
+  .pl-p h2 { font-family: var(--font-display); font-weight: 800; font-size: var(--fs-h4); line-height: 1.05; margin: 0; }
+  .pl-pt { font-family: var(--font-didone); font-style: italic; color: var(--person-ink); margin: .1rem 0 0; }
+  .pl-meta { margin: .2rem 0 0; display: flex; flex-wrap: wrap; gap: 0 .8rem; font-family: var(--font-label); letter-spacing: .08em; text-transform: uppercase; font-size: var(--fs-micro); opacity: .75; font-variant-numeric: tabular-nums; }
+  .pl-sum { margin: .45rem 0 0; font-size: var(--fs-note); line-height: 1.45; }
+  .pl-k { font-family: var(--font-label); letter-spacing: .14em; text-transform: uppercase; font-size: var(--fs-micro); opacity: .6; margin-right: .3em; }
+  .pl-main, .pl-also, .pl-y { margin: .4rem 0 0; line-height: 1.45; }
+  .pl-m { list-style: none; margin: .4rem 0 0; padding: 0; line-height: 1.4; }
+  .pl-m li { padding: .12rem 0; }
+  .pl-m span { opacity: .75; }
+  .pl-p a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line-faint); }
+  .pl-p a:hover { color: var(--person-ink); border-color: currentColor; }
+  .pl-y a { color: var(--date-ink); margin-right: .45em; font-variant-numeric: tabular-nums; }
+  .pl-pn { display: flex; justify-content: space-between; max-width: 96rem; margin: 0 auto var(--s-7); padding: var(--s-4) var(--gutter); border-top: 2px solid var(--ink); font-family: var(--font-display); font-size: var(--fs-h3); font-weight: 800; }
+  .pl-pn a { color: var(--ink); text-decoration: none; }
+  @media (max-width: 56rem) { .pl-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; } .pl-nav a, .pl-nav span { flex: none; min-width: 2.2em; padding: .35rem 0; } }
+  @media print { .pl-nav, .pl-pn { display: none; } .pl-list { columns: 2; } .pl-p { content-visibility: visible; } }
+</style>
