@@ -1,11 +1,11 @@
 {
  "lang": "uk",
  "part": "meta",
- "model": "gpt-6-sol",
- "requests": 998,
+ "model": "claude-opus-5-5",
+ "requests": 136,
  "system_tokens": 26850,
- "content_tokens": 3710621,
- "est_output_tokens": 1558460,
- "est_usd": 14.18,
- "est_gbp": 10.66
+ "content_tokens": 524510,
+ "est_output_tokens": 251764,
+ "est_usd": 3.93,
+ "est_gbp": 2.96
 }
