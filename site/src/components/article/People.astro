@@ -13,7 +13,9 @@ import { personDates } from './model';
 interface Props { lang: string; people: PersonRef[]; subject?: string[]; limit?: number; compact?: boolean }
 const { lang, people, subject = [], limit = 10, compact = false } = Astro.props;
 const ml = (m?: string) => (m && m !== lang ? m : undefined);
-const rows = people.map((p) => ({ ...p, life: fmtLife(personDates(lang, p.id, p.d) as any, t(lang, 'born'), t(lang, 'died')), subj: subject.includes(p.id) }));
+// subject person(s) first, then alphabetical in the page language
+const ordered = [...people.filter((p) => subject.includes(p.id)), ...people.filter((p) => !subject.includes(p.id)).sort((x, y) => x.n.localeCompare(y.n, lang, { sensitivity: 'base' }))];
+const rows = ordered.map((p) => ({ ...p, life: fmtLife(personDates(lang, p.id, p.d) as any, t(lang, 'born'), t(lang, 'died')), subj: subject.includes(p.id) }));
 const head = rows.slice(0, limit), rest = rows.slice(limit);
 ---
 {rows.length > 0 && (compact ? (

@@ -182,11 +182,8 @@ function run() {
 
     const langOut = path.join(OUT_DIR, lang);
     fs.mkdirSync(langOut, { recursive: true });
-    fs.writeFileSync(path.join(langOut, `suggest-core.${coreHash}.json`), coreBuf);
     fs.writeFileSync(path.join(langOut, `suggest-core.${coreHash}.json.gz`), coreGz);
-    fs.writeFileSync(path.join(langOut, `suggest-people.${peopleHash}.json`), peopleBuf);
     fs.writeFileSync(path.join(langOut, `suggest-people.${peopleHash}.json.gz`), peopleGz);
-    fs.writeFileSync(path.join(langOut, `corpus.${corpusHash}.json`), corpusBuf);
     fs.writeFileSync(path.join(langOut, `corpus.${corpusHash}.json.gz`), corpusGz);
 
     const manifest = {

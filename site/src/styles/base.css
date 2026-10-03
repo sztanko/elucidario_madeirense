@@ -253,3 +253,6 @@ mark { background: color-mix(in srgb, var(--date) 32%, transparent); color: inhe
   @keyframes em-hs-nudge { 0%, 100% { translate: 0 0; } 50% { translate: .35rem 0; } }
 }
 @media print { .em-hs__bar { display: none !important; } }
+
+/* Line icons (components/ui/Icon.astro → sprite /icons.svg). Inner paths that need fill/no stroke carry their own attributes. */
+.em-icon { flex: none; display: inline-block; vertical-align: middle; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; stroke-linejoin: miter; }

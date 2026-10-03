@@ -15,7 +15,7 @@ export { hit, BW } from './layout';
 export interface EmCfg { i: number; l: string; v: string; b: string; s: string; e: string; o: string }
 export interface Fly {
   vt: ViewTransition; m: 'fly' | 'card'; el: HTMLElement; go: number; t0: number;
-  f: { i: number; t: number; hw: string; cam: Cam | null; w: number; h: number };
+  f: { i: number; t: number; hw: string; cam: Cam | null; w: number; h: number; sy?: number };
 }
 declare global { interface Window { __em: EmCfg; __emFly: Fly | null; __emCam?: Cam | null; __emStats?: any } }
 
@@ -103,14 +103,19 @@ export async function fly(F: Fly) {
     const W = R.W, H = R.H, M = Math.max(W, H);
 
     /** camera that maps the viewport onto a viewport-shaped frame top-aligned on block i */
-    const frame = (i: number): Cam => {
-      const x = P.r[4 * i], y = P.r[4 * i + 1], s = W / BW;
+    // Pages are often not at the top: Back restores the old scroll position, and the reader left the old page
+    // mid-article. The viewport snapshot is placed that far down the block (scroll in plane units), and the camera
+    // frames that spot, so the dive lands exactly on what the restored page shows.
+    const f = F.f;
+    const offB = (window.scrollY * BW) / W, offA = ((f.sy || 0) * BW) / (f.w || W);
+    const frame = (i: number, off = 0): Cam => {
+      const x = P.r[4 * i], y = P.r[4 * i + 1] + off, s = W / BW;
       return { x: x + BW / 2, y: y + H / (2 * s), w: M / s };
     };
-    const B = frame(C.i), f = F.f;
+    const B = frame(C.i, offB);
     let A: Cam, mode: 'hop' | 'dive' | 'cam';
     if (f.cam && f.w === W && f.h === H) { A = f.cam; mode = 'cam'; }
-    else if (f.i >= 0 && f.i < P.n) { A = frame(f.i); mode = 'hop'; }
+    else if (f.i >= 0 && f.i < P.n) { A = frame(f.i, offA); mode = 'hop'; }
     else { A = { x: B.x, y: B.y - (H / W) * BW * 2, w: B.w * 7 }; mode = 'dive'; }
 
     const path = zoomPath(A, B);
@@ -140,11 +145,11 @@ export async function fly(F: Fly) {
       ts.push(t);
       // new page: viewport-shaped image on block B
       const kB = (BW * s) / W;
-      trN.push(`translate(${((P.r[4 * C.i] - c.x) * s + W / 2).toFixed(2)}px,${((P.r[4 * C.i + 1] - c.y) * s + H / 2).toFixed(2)}px) scale(${kB.toFixed(5)})`);
+      trN.push(`translate(${((P.r[4 * C.i] - c.x) * s + W / 2).toFixed(2)}px,${((P.r[4 * C.i + 1] + offB - c.y) * s + H / 2).toFixed(2)}px) scale(${kB.toFixed(5)})`);
       oN.push(vis(kB));
       if (mode === 'hop') {
         const kA = (BW * s) / W;
-        trO.push(`translate(${((P.r[4 * f.i] - c.x) * s + W / 2).toFixed(2)}px,${((P.r[4 * f.i + 1] - c.y) * s + H / 2).toFixed(2)}px) scale(${kA.toFixed(5)})`);
+        trO.push(`translate(${((P.r[4 * f.i] - c.x) * s + W / 2).toFixed(2)}px,${((P.r[4 * f.i + 1] + offA - c.y) * s + H / 2).toFixed(2)}px) scale(${kA.toFixed(5)})`);
         oO.push(vis(kA));
       } else if (mode === 'dive') {
         const k = 1 - 0.45 * smooth(0, 0.3, t);

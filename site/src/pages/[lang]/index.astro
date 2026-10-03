@@ -48,8 +48,17 @@ for (const ev of chron) {
 const notableDates = [...majorByCentury.entries()].sort((a, b) => b[0] - a[0]).slice(0, 8).map(([, ev]) => ev);
 
 // A-Z rail: letters actually present among headwords.
+// Each language's own alphabet (uk is Cyrillic, hu has its accented letters); letters that occur but are not in it
+// (e.g. a Latin initial in uk) are appended in collation order. Absent letters are shown greyed.
+const ALPHABETS: Record<string, string> = {
+  pt: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+  en: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+  uk: 'АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ',
+  hu: 'AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ',
+};
 const lettersPresent = new Set(idx.articles.map((r) => letterOf(r[1])));
-const alphabet = [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'];
+const base = [...(ALPHABETS[lang] ?? ALPHABETS.en)];
+const alphabet = [...base, ...[...lettersPresent].filter((l) => l !== '#' && !base.includes(l)).sort((a, b) => a.localeCompare(b, lang))];
 
 const title = `${m.languages.find((l) => l.code === lang)?.name ?? lang} — Elucidário Madeirense`;
 const jsonld = [

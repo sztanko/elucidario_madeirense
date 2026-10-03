@@ -1,5 +1,5 @@
-// Fetch + decompress a build-search.mjs output file, with a plain-JSON fallback for browsers
-// without DecompressionStream (Safari < 16.4, old Firefox/Chromium). Shared by the main-thread
+// Fetch + decompress a build-search.mjs output file (gzip only; DecompressionStream is in every current browser —
+// the uncompressed copies were dropped to save ~75 MB of site size). Shared by the main-thread
 // suggest box and the advanced-search Web Worker.
 // Owner: search agent.
 
@@ -16,7 +16,9 @@ export async function fetchJson<T>(
   jsonName: string,
   onProgress?: (bytes: number, total: number) => void,
 ): Promise<T> {
-  const url = base + (supportsDecompressionStream ? gzName : jsonName);
+  if (!supportsDecompressionStream) throw new Error('search: this browser cannot decompress the search index');
+  void jsonName;
+  const url = base + gzName;
   const res = await fetch(url);
   if (!res.ok) throw new Error(`search: failed to fetch ${url} (${res.status})`);
   const total = Number(res.headers.get('content-length') || 0);

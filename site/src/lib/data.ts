@@ -88,5 +88,6 @@ export function roleOf(code: string | undefined): 'place' | 'person' | 'date' | 
 /** Year label from an EDTF string. */
 export function edtfLabel(s: string | null | undefined): string {
   if (!s) return '';
-  return s.replace(/^~/, 'c. ').replace(/X/g, '?').replace(/\//, '–');
+  const approx = /^[~%]|[~%](?=$|\/)/.test(s);
+  return (approx ? 'c. ' : '') + s.replace(/[~%]/g, '').replace(/X/g, '?').replace(/\//, '–');
 }

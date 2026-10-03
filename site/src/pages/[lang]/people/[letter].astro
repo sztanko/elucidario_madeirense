@@ -116,7 +116,7 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
   .pl-list { max-width: 96rem; margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-7); }
   @media (min-width: 56rem) { .pl-list { columns: 2; column-gap: var(--s-7); column-rule: 1px solid var(--line-faint); } }
   @media (min-width: 96rem) { .pl-list { columns: 3; } }
-  .pl-p { break-inside: avoid; padding: var(--s-3) 0 var(--s-4); border-top: 1px solid var(--line-faint); font-size: var(--fs-small); content-visibility: auto; contain-intrinsic-size: auto 9rem; scroll-margin-top: calc(var(--header-h) + 3.5rem); }
+  .pl-p { break-inside: avoid; padding: var(--s-3) 0 var(--s-4); border-top: 1px solid var(--line-faint); font-size: var(--fs-small); scroll-margin-top: calc(var(--header-h) + 3.5rem); }
   .pl-p:target { background: color-mix(in srgb, var(--person) 8%, transparent); box-shadow: -.6rem 0 0 color-mix(in srgb, var(--person) 8%, transparent), .6rem 0 0 color-mix(in srgb, var(--person) 8%, transparent); }
   .pl-p:target h2 { color: var(--person-ink); }
   .pl-p h2 { font-family: var(--font-display); font-weight: 800; font-size: var(--fs-h4); line-height: 1.05; margin: 0; }
@@ -138,5 +138,22 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
   .pl-pn { display: flex; justify-content: space-between; max-width: 96rem; margin: 0 auto var(--s-7); padding: var(--s-4) var(--gutter); border-top: 2px solid var(--ink); font-family: var(--font-display); font-size: var(--fs-h3); font-weight: 800; }
   .pl-pn a { color: var(--ink); text-decoration: none; }
   @media (max-width: 56rem) { .pl-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; } .pl-nav a, .pl-nav span { flex: none; min-width: 2.2em; padding: .35rem 0; } }
-  @media print { .pl-nav, .pl-pn { display: none; } .pl-list { columns: 2; } .pl-p { content-visibility: visible; } }
+  @media print { .pl-nav, .pl-pn { display: none; } .pl-list { columns: 2; } }
 </style>
+<script>
+  // Deep links (#person-slug): the browser jumps before fonts load and before the timelines' arrow bars are added,
+  // so the target drifts. Re-align to the target once layout has settled (fonts + two frames), and on hash changes.
+  let user = false;
+  for (const ev of ['wheel', 'touchstart', 'keydown', 'pointerdown']) addEventListener(ev, () => { user = true; }, { once: true, passive: true });
+  const align = (e?: Event) => {
+    if (user && e?.type !== 'hashchange') return; // never pull the reader back once they have started moving
+    const id = decodeURIComponent(location.hash.slice(1));
+    const el = id && document.getElementById(id);
+    if (el) el.scrollIntoView({ block: 'start' });
+  };
+  if (location.hash) {
+    document.fonts.ready.then(() => requestAnimationFrame(() => requestAnimationFrame(align)));
+    addEventListener('load', align, { once: true });
+  }
+  addEventListener('hashchange', align);
+</script>

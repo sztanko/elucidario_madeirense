@@ -16,12 +16,22 @@
 
 export interface InlineCfg { i: number; l: string; v: string; b: string; s: string; e: string; o: string }
 
-export function inlineScript(c: InlineCfg): string {
-  return `(function(){var C=window.__em=${JSON.stringify(c)},d=document.documentElement,K='em-from',S;try{S=sessionStorage}catch(x){return}
+/** The per-page part: config only (~150 bytes). Must precede the core script. */
+export function inlineConfig(c: InlineCfg): string {
+  return `window.__em=${JSON.stringify(c)}`;
+}
+
+/** The static part, served as a cached, parser-blocking classic script in <head> (runs before first render). */
+export function coreScript(): string {
+  return inlineScript(null);
+}
+
+export function inlineScript(c: InlineCfg | null): string {
+  return `(function(){var C=${c ? 'window.__em=' + JSON.stringify(c) : 'window.__em'};if(!C)return;var d=document.documentElement,K='em-from',S;try{S=sessionStorage}catch(x){return}
 function rm(){return matchMedia('(prefers-reduced-motion: reduce)').matches}
 function hw(){return document.title.split(' — ')[0]}
 addEventListener('pageswap',function(e){var v=e.viewTransition;if(!v)return;if(rm()){v.skipTransition();return}
-try{var a=e.activation,u=a&&a.entry&&a.entry.url;S.setItem(K,JSON.stringify({i:C.i,t:Date.now(),to:u||'',hw:hw(),cam:window.__emCam||null,w:innerWidth,h:innerHeight}))}catch(x){}});
+try{var a=e.activation,u=a&&a.entry&&a.entry.url;S.setItem(K,JSON.stringify({i:C.i,t:Date.now(),to:u||'',hw:hw(),cam:window.__emCam||null,w:innerWidth,h:innerHeight,sy:scrollY}))}catch(x){}});
 addEventListener('pagereveal',function(e){var vt=e.viewTransition;if(!vt)return;if(rm()){vt.skipTransition();return}
 var f=null;try{f=JSON.parse(S.getItem(K));S.removeItem(K)}catch(x){}
 var h=location.href.split('#')[0];if(!f||C.i<0||f.i===C.i||Date.now()-f.t>1e4||(f.to&&f.to.split('#')[0]!==h))return;

@@ -69,32 +69,10 @@ const nav = [
     </div>
   </div>
 
-  <dialog class="em-sheet" id="em-sheet" aria-label={t(lang, 'menu')}>
-    <div class="em-sheet__in">
-      <div class="em-sheet__top">
-        <span class="em-label">{t(lang, 'site')}</span>
-        <button type="button" class="em-hdr__btn" data-em-close title={t(lang, 'close')}><Icon name="close" size={22} /><span class="em-sr-only">{t(lang, 'close')}</span></button>
-      </div>
-      <nav aria-label={t(lang, 'menu')}>
-        <ol class="em-sheet__nav" role="list">
-          <li><a href={u.home(homeLang)}><span class="n">0</span>{t(lang, 'back_home')}</a></li>
-          {nav.map((n, i) => <li><a href={n.href} aria-current={n.on ? 'page' : undefined}><span class="n">{i + 1}</span>{t(lang, n.key)}</a></li>)}
-        </ol>
-      </nav>
-      {multilingual && (
-        <div class="em-sheet__langs">
-          <span class="em-label em-sheet__lbl">{t(lang, 'language')}</span>
-          <ul role="list">
-            {langs.map((l) => <li><a href={u.switchLang(path, l, langs)} hreflang={l} lang={l} aria-current={l === lang ? 'true' : undefined}><b>{l.toUpperCase()}</b> {names[l]}</a></li>)}
-          </ul>
-        </div>
-      )}
-      <div class="em-sheet__tools">
-        <button type="button" data-em-history-open><Icon name="history" size={20} /> {t(lang, 'history')}</button>
-        <button type="button" data-em-print><Icon name="print" size={20} /> {t(lang, 'print')}</button>
-      </div>
-    </div>
-  </dialog>
+  {/* Mobile menu: built on first open from the header's own nav and language links (header-client), so the
+      ~3 KB of duplicated markup is not shipped in every page. */}
+  <dialog class="em-sheet" id="em-sheet" aria-label={t(lang, 'menu')}
+    data-l={JSON.stringify({ site: t(lang, 'site'), close: t(lang, 'close'), language: t(lang, 'language'), history: t(lang, 'history'), print: t(lang, 'print'), home: t(lang, 'back_home'), menu: t(lang, 'menu') })}></dialog>
 </header>
 
 <script>
@@ -108,12 +86,31 @@ const nav = [
     btn.setAttribute('aria-expanded', String(open));
     if (open) (box.querySelector('input') as HTMLInputElement | null)?.focus();
   }
+  const esc = (x: string) => x.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  function buildSheet(d: HTMLElement) {
+    if (d.dataset.built) return;
+    d.dataset.built = '1';
+    const L = JSON.parse(d.dataset.l || '{}');
+    const sprite = (document.querySelector('.em-hdr use')?.getAttribute('href') || '/icons.svg#').split('#')[0];
+    const icon = (n: string, s: number) => `<svg class="em-icon" width="${s}" height="${s}" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="${sprite}#${n}"/></svg>`;
+    const home = (document.querySelector('.em-hdr__mark') as HTMLAnchorElement | null)?.getAttribute('href') || '/';
+    const nav = [...document.querySelectorAll<HTMLAnchorElement>('.em-hdr__nav a')].map((a, i) =>
+      `<li><a href="${esc(a.getAttribute('href')!)}"${a.getAttribute('aria-current') ? ' aria-current="page"' : ''}><span class="n">${i + 1}</span>${esc(a.textContent || '')}</a></li>`).join('');
+    const langs = [...document.querySelectorAll<HTMLAnchorElement>('.em-hdr__langs a')].map((a) =>
+      `<li><a href="${esc(a.getAttribute('href')!)}" hreflang="${a.hreflang}" lang="${a.lang}"${a.getAttribute('aria-current') ? ' aria-current="true"' : ''}><b>${esc(a.textContent || '')}</b> ${esc(a.title)}</a></li>`).join('');
+    d.innerHTML = `<div class="em-sheet__in"><div class="em-sheet__top"><span class="em-label">${esc(L.site)}</span>`
+      + `<button type="button" class="em-hdr__btn" data-em-close title="${esc(L.close)}">${icon('close', 22)}<span class="em-sr-only">${esc(L.close)}</span></button></div>`
+      + `<nav aria-label="${esc(L.menu)}"><ol class="em-sheet__nav" role="list"><li><a href="${esc(home)}"><span class="n">0</span>${esc(L.home)}</a></li>${nav}</ol></nav>`
+      + (langs ? `<div class="em-sheet__langs"><span class="em-label em-sheet__lbl">${esc(L.language)}</span><ul role="list">${langs}</ul></div>` : '')
+      + `<div class="em-sheet__tools"><button type="button" data-em-history-open>${icon('history', 20)} ${esc(L.history)}</button>`
+      + `<button type="button" data-em-print>${icon('print', 20)} ${esc(L.print)}</button></div></div>`;
+  }
   document.addEventListener('click', (e) => {
     const el = (e.target as Element).closest('[data-em-toggle-search],[data-em-print],[data-em-menu-open],[data-em-close]');
     if (!el) return;
     if (el.matches('[data-em-toggle-search]')) setSearch(q('#em-hdr-search')?.dataset.open !== 'true');
     else if (el.matches('[data-em-print]')) { (q('#em-sheet') as HTMLDialogElement | null)?.close(); window.print(); }
-    else if (el.matches('[data-em-menu-open]')) (q('#em-sheet') as HTMLDialogElement | null)?.showModal();
+    else if (el.matches('[data-em-menu-open]')) { const d = q('#em-sheet') as HTMLDialogElement | null; if (d) { buildSheet(d); d.showModal(); } }
     else if (el.matches('[data-em-close]')) (el.closest('dialog') as HTMLDialogElement | null)?.close();
   });
   // Click on the dialog backdrop closes it.

@@ -117,9 +117,22 @@ export function subjectGeo(a: Article) {
 }
 
 /** Places to show on the map (only those with coordinates or geometry). */
-export function mapPlaces(a: Article) {
+/** Places mentioned, in reading order for the reader: the subject place(s) first, then alphabetical (page language). */
+export function sortedPlaces(lang: string, a: Article) {
+  const subj = a.prim.map((id) => a.plc.find((p) => p.id === id)).filter(Boolean) as Article['plc'];
+  const rest = a.plc.filter((p) => !a.prim.includes(p.id)).sort((x, y) => x.n.localeCompare(y.n, lang, { sensitivity: 'base' }));
+  return [...subj, ...rest];
+}
+
+/** Map markers for the article map. `n` = the number shown in the places list (first PLACES_NUMBERED entries),
+ *  so marker numbers and list numbers always agree. */
+export const PLACES_NUMBERED = 12;
+export function mapPlaces(a: Article, lang = 'en') {
   const G = geo();
-  return a.plc.filter((p) => G[p.id] && (G[p.id].c || G[p.id].g)).map((p) => ({ id: p.id, label: p.n, role: (a.prim.includes(p.id) ? 'subject' : 'mention') as 'subject' | 'mention' }));
+  return sortedPlaces(lang, a)
+    .map((p, i) => ({ p, n: i < PLACES_NUMBERED ? i + 1 : undefined }))
+    .filter(({ p }) => G[p.id] && (G[p.id].c || G[p.id].g))
+    .map(({ p, n }) => ({ id: p.id, label: p.n, n, role: (a.prim.includes(p.id) ? 'subject' : 'mention') as 'subject' | 'mention' }));
 }
 
 /** Related article lists, resolved to headwords (unknown ids dropped). */

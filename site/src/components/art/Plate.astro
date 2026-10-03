@@ -24,6 +24,8 @@
  */
 import { plateSvg, type Variant } from '../../art/generate';
 import { thumbFor } from '../../art/thumbs';
+import { createHash } from 'node:crypto';
+import { BASE } from '../../lib/urls';
 
 interface Props {
   seed: string; category?: string; size?: number; variant?: Variant; title?: string;
@@ -32,10 +34,24 @@ interface Props {
 const { seed, category, size, variant = 'plate', title, name, hint, mono, uid, class: cls } = Astro.props;
 const px = size ?? (variant === 'icon' ? 20 : variant === 'thumb' ? 48 : 160);
 const thumb = variant !== 'icon' ? thumbFor(seed) : null;
-const svg = thumb ? '' : plateSvg({ seed, category, variant, size: px, title, name, hint, mono, uid, class: cls });
+// Full-colour plates are written once as content-addressed files (/art/p/<hash>.svg, see src/art/plates-out.mjs)
+// and referenced with <img>: the same plate is shared by all four languages instead of being inlined ~6 KB per page.
+// Icons and monochrome plates stay inline (they use currentColor, which an <img> cannot inherit).
+const external = !thumb && variant !== 'icon' && !mono;
+let src = '';
+if (external) {
+  const file = plateSvg({ seed, category, variant, size: 200, name, hint });
+  const key = createHash('sha1').update(file).digest('hex').slice(0, 14);
+  ((globalThis as any).__emPlates ??= new Map()).set(key, file);
+  src = `${BASE}/art/p/${key}.svg`;
+}
+const svg = thumb || external ? '' : plateSvg({ seed, category, variant, size: px, title, name, hint, mono, uid, class: cls });
 ---
 {thumb ? (
   <img class:list={['em-art', `em-art--${variant}`, 'em-art--ai', cls]} src={thumb} width={px} height={px} alt={title ?? ''}
+    loading="lazy" decoding="async" aria-hidden={title ? undefined : 'true'} />
+) : external ? (
+  <img class:list={['em-art', `em-art--${variant}`, cls]} src={src} width={px} height={px} alt={title ?? ''}
     loading="lazy" decoding="async" aria-hidden={title ? undefined : 'true'} />
 ) : (
   <Fragment set:html={svg} />

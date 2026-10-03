@@ -53,7 +53,7 @@ const folio = [
 const minutes = readingMinutes(a.chars);
 
 // ---- furniture ---------------------------------------------------------------
-const mp = mapPlaces(a);
+const mp = mapPlaces(a, lang);
 const heroMap = !isXref && size !== 'fragment' && mp.some((p) => p.role === 'subject');
 const heroPlate = !isXref && size !== 'fragment' && !heroMap;
 const plateSize = size === 'long' ? 280 : 220;
@@ -86,9 +86,10 @@ const jsonld: object[] = [
       ...a.prim.map((p) => ({ '@type': 'Place', name: a.plc.find((x) => x.id === p)?.n ?? p, url: abs(u.place(lang, p)) })),
       ...a.pm.map((p) => ({ '@type': 'Person', name: a.pers.find((x) => x.id === p)?.n ?? p, url: abs(u.person(lang, p, a.pers.find((x) => x.id === p)?.n ?? p)) })),
     ],
+    // at most 10 mentions (most-mentioned first): enough for search engines, small in 30k pages
     mentions: [
-      ...a.pers.filter((p) => !a.pm.includes(p.id)).slice(0, 25).map((p) => ({ '@type': 'Person', name: p.n, url: abs(u.person(lang, p.id, p.n)) })),
-      ...a.plc.filter((p) => !a.prim.includes(p.id)).slice(0, 25).map((p) => ({ '@type': 'Place', name: p.n, url: abs(u.place(lang, p.id)) })),
+      ...a.pers.filter((p) => !a.pm.includes(p.id)).slice(0, 5).map((p) => ({ '@type': 'Person', name: p.n, url: abs(u.person(lang, p.id, p.n)) })),
+      ...a.plc.filter((p) => !a.prim.includes(p.id)).slice(0, 5).map((p) => ({ '@type': 'Place', name: p.n, url: abs(u.place(lang, p.id)) })),
     ],
   },
   {

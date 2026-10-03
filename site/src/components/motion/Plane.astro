@@ -7,7 +7,8 @@
 //   id   article id of this page (article pages only)
 //   lang page language
 import { planeIndex, planeVersion, planeModules } from '../../motion/build';
-import { inlineScript } from '../../motion/inline';
+import { inlineConfig, coreScript } from '../../motion/inline';
+import { createHash } from 'node:crypto';
 import { BASE } from '../../lib/urls';
 import { t } from '../../i18n/ui';
 import { languages } from '../../lib/data';
@@ -20,8 +21,14 @@ const id = Astro.props.id ?? (parts[1] === 'a' ? parts[2] : undefined);
 const mods = planeModules(BASE);
 const v = mods ? planeVersion() : '';
 const cfg = { i: v ? planeIndex(id) : -1, l: lang, v, b: BASE, s: t(lang as any, 'plane_sheet'), e: mods?.e ?? '', o: mods?.o ?? '' };
+// The static handler code is one cached, parser-blocking file (it must run before the first render to catch
+// `pagereveal`); only the per-page config is inline. Written at build end by src/art/plates-out.mjs.
+const core = coreScript();
+const corePath = `plane/core-${createHash('sha1').update(core).digest('hex').slice(0, 10)}.js`;
+((globalThis as any).__emFiles ??= new Map()).set(corePath, core);
 ---
-<script is:inline set:html={inlineScript(cfg)} />
+<script is:inline set:html={inlineConfig(cfg)} />
+<script is:inline src={`${BASE}/${corePath}`}></script>
 <script>
   import '../../motion/boot';
 </script>

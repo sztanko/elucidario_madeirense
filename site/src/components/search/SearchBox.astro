@@ -64,6 +64,8 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   import '../../search/box';
 </script>
 <style is:global>
+  /* the panel must not inherit the hero's centred text */
+  .em-search__panel, .em-search__listbox { text-align: start; }
   .em-search {
     position: relative;
     width: 100%;

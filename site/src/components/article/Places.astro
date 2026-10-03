@@ -9,13 +9,13 @@ import { t } from '../../i18n/ui';
 import MapView from '../map/MapView.astro';
 import EntityLink from '../ui/EntityLink.astro';
 import { inline } from './inline';
-import { mapPlaces } from './model';
+import { mapPlaces, sortedPlaces, PLACES_NUMBERED } from './model';
 interface Props { lang: string; a: Article; map?: boolean; limit?: number; compact?: boolean }
-const { lang, a, map = true, limit = 12, compact = false } = Astro.props;
+const { lang, a, map = true, limit = PLACES_NUMBERED, compact = false } = Astro.props;
 const G = geo();
-const mp = mapPlaces(a);
+const mp = mapPlaces(a, lang);
 const ml = (m?: string) => (m && m !== lang ? m : undefined);
-const rows = a.plc.map((p) => ({ ...p, subj: a.prim.includes(p.id), where: [G[p.id]?.mun, G[p.id]?.isl && G[p.id]?.isl !== 'none' ? G[p.id]?.isl : G[p.id]?.ctry].filter((v, i, arr) => v && arr.indexOf(v) === i && v !== p.n).join(' · ') }));
+const rows = sortedPlaces(lang, a).map((p) => ({ ...p, subj: a.prim.includes(p.id), where: [G[p.id]?.mun, G[p.id]?.isl && G[p.id]?.isl !== 'none' ? G[p.id]?.isl : G[p.id]?.ctry].filter((v, i, arr) => v && arr.indexOf(v) === i && v !== p.n).join(' · ') }));
 const head = rows.slice(0, limit), rest = rows.slice(limit);
 ---
 {rows.length > 0 && (compact ? (

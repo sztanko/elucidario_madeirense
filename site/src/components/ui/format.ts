@@ -56,7 +56,14 @@ export function fmtEdtf(s0: string | number | null | undefined, s1?: string | nu
 /** Life dates "1614–1681", "b. 1614", "d. 1681" from [birth, death] EDTF. */
 export function fmtLife(d: [string | null, string | null] | undefined, born = 'b.', died = 'd.'): string {
   if (!d) return '';
-  const [b, x] = d.map((v) => (v ? String(v).replace(/X/g, '?').replace(/^~/, 'c. ').split('-')[0] : null));
+  // EDTF qualifiers may lead or trail ("~1815", "1815~", "1815?"): approximate → "c. ", uncertain → "?".
+  const yr = (v: string | number | null) => {
+    if (!v) return null;
+    const t = String(v), approx = /^[~%]|[~%]$/.test(t), unsure = /\?/.test(t);
+    const y = t.replace(/[~?%]/g, '').replace(/X/g, '?').split('-')[0];
+    return (approx ? 'c. ' : '') + y + (unsure ? '?' : '');
+  };
+  const [b, x] = d.map(yr);
   if (b && x) return `${b}–${x}`;
   if (b) return `${born} ${b}`;
   if (x) return `${died} ${x}`;
