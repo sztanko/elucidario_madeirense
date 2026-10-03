@@ -3,6 +3,7 @@
 import Base from '../../../layouts/Base.astro';
 import { articles, languages, roleOf, featured } from '../../../lib/data';
 import * as u from '../../../lib/urls';
+import { yearOf } from '../../../components/ui/format';
 import { t, htmlLang } from '../../../i18n/ui';
 import Plate from '../../../components/art/Plate.astro';
 import MapView from '../../../components/map/MapView.astro';
@@ -58,7 +59,9 @@ const heroPlate = !isXref && size !== 'fragment' && !heroMap;
 const plateSize = size === 'long' ? 280 : 220;
 const firstPara = secs.flatMap((s) => s.groups).find((gr) => gr.kind === 'single' && gr.blocks[0].t === 'paragraph');
 const dropcap = size !== 'fragment' && !!firstPara && firstPara.blocks[0].x.length > 160 && /^\p{L}/u.test(firstPara.blocks[0].x);
-const hasReading = !isXref && size !== 'fragment' && (a.ev.length || a.plc.length || a.pers.length);
+// Only events with a usable year reach the timeline; count distinct years, and hide the module when there are none.
+const evYears = new Set(a.ev.map((e) => yearOf(e.s0)).filter((y) => y !== null));
+const hasReading = !isXref && size !== 'fragment' && (evYears.size || a.plc.length || a.pers.length);
 const xrefTargets = isXref ? a.out : [];
 const xrefText = isXref ? a.bl.map((b) => inline(b.x)).join(' ') : '';
 
@@ -177,11 +180,11 @@ const single = a.ch.length === 1;
 
     {hasReading && (
       <section class="ea-reading" aria-labelledby="ea-reading-h">
-        <SectionHead title={t(lang, 'article_reading')} id="ea-reading-h" size="xl" rule="none" class="ea-reading__h" />
+        <SectionHead title={t(lang, 'article_reading')} id="ea-reading-h" size="l" rule="none" class="ea-reading__h" />
         <div class="ea-reading__grid">
-          {a.ev.length > 0 && (
+          {evYears.size > 0 && (
             <section class="ea-mod ea-mod--time" aria-labelledby="ea-time-h">
-              <div class="ea-mod__head"><h3 class="ea-mod__big em-role-date" id="ea-time-h">{t(lang, 'time_label')}</h3><Label size="small" count={String(a.ev.length).padStart(2, '0')}>{t(lang, 'years_mentioned')}</Label></div>
+              <div class="ea-mod__head"><h3 class="ea-mod__big em-role-date" id="ea-time-h">{t(lang, 'time_label')}</h3><Label size="small" count={String(evYears.size).padStart(2, '0')}>{t(lang, 'years_mentioned')}</Label></div>
               <Timeline lang={lang} events={a.ev} />
             </section>
           )}
