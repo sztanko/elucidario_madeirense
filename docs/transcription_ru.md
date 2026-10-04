@@ -724,6 +724,14 @@ Format: `транскрипция (значение, Portuguese original)`. The 
 
 ---
 
+
+**Widened on 2026-10-03 (owner's decision, matching `docs/naming_latin.md` §10 and the Ukrainian standard):** a meaning is
+also given for single-word toponyms whose element is an ordinary word (Кальета (Бухточка, Calheta), Монти (Холм, Monte),
+Канису (Тростник, Caniço), Боавентура (Добрая удача, Boaventura)); for names containing a personal name, glossing the
+generic part (Порту-Мониш (Гавань Мониша, Porto Moniz)); and for regional terms with an established sense, kept short.
+Still no meaning for personal names, exonyms, translated institutions, names of unknown or only legendary origin
+(Машику), or where the text itself explains the name. This supersedes the narrower "do not give" list above where they
+conflict.
 ## 11. Parenthesis policy: where the full form appears
 
 | Context | Form |

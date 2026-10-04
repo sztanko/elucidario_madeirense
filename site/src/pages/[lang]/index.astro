@@ -27,15 +27,18 @@ const arts = articles(lang);
 const g = geo();
 
 // Featured articles: deterministic per-language pick of 6 from the ranked top 30.
-const pool = featured().ranked.slice(0, 30).filter((id) => arts[id]);
-const featuredIds = [...pool].sort((a, b) => hashInt(lang + a, 10007) - hashInt(lang + b, 10007)).slice(0, 6);
-const featuredArticles = featuredIds.map((id) => arts[id]);
+// Featured articles, places and people share one ranking: PageRank over the link graph x length (featured.json).
+const F = featured();
+// 1–2 articles from every category (site_export: best of each taxonomy class + a second one if in the top 50; Levadas pinned)
+const featuredArticles = (F.home ?? F.ranked.slice(0, 6)).filter((id) => arts[id]).map((id) => arts[id]);
 
 // Featured places: top mentioned places that have their own article.
-const featuredPlaces = [...idx.places].sort((a, b) => b[6] - a[6]).slice(0, 6);
+const placeRow = new Map(idx.places.map((r) => [r[0], r]));
+const featuredPlaces = (F.places ?? []).map((sl) => placeRow.get(sl)).filter(Boolean).slice(0, 6) as typeof idx.places;
 
 // Featured people: top mentioned persons.
-const featuredPeople = [...idx.persons].sort((a, b) => b[4] - a[4]).slice(0, 6);
+const personRow = new Map(idx.persons.map((r) => [r[0], r]));
+const featuredPeople = (F.persons ?? []).map((sl) => personRow.get(sl)).filter(Boolean).slice(0, 6) as typeof idx.persons;
 
 // Notable dates: one major event per century, newest-first within a handful of centuries.
 const chron = chronology(lang);
@@ -83,6 +86,7 @@ const jsonld = [
       ) : 'ELUCIDÁRIO MADEIRENSE'}
     </h1>
     <p class="em-tagline em-didone">{t(lang, 'tagline')}</p>
+    <p class="em-home-intro">{t(lang, 'home_intro')}</p>
     <div class="em-hero-search"><SearchBox lang={lang} variant="hero" /></div>
   </header>
 
@@ -168,7 +172,8 @@ const jsonld = [
   .em-home-title { font-size: var(--fs-masthead); margin: var(--s-3) 0 var(--s-2); }
   .em-title-orig { display: block; }
   .em-title-translit { display: block; font-size: .32em; opacity: .72; letter-spacing: .04em; text-transform: none; }
-  .em-tagline { font-size: var(--fs-lede); opacity: .8; margin: 0 0 var(--s-6); }
+  .em-tagline { font-size: var(--fs-lede); opacity: .8; margin: 0 0 var(--s-4); }
+  .em-home-intro { max-width: 46em; margin: 0 auto var(--s-6); font-size: var(--fs-text); line-height: 1.5; color: var(--ink-2, var(--ink)); text-wrap: balance; }
   .em-hero-search { max-width: 42rem; margin: 0 auto; }
 
   .em-az-rail { display: flex; flex-wrap: wrap; justify-content: center; gap: .15rem; padding: .5rem var(--gutter) var(--s-6); font-size: .8rem; font-variant-numeric: tabular-nums; }

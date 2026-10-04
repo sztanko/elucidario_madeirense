@@ -2,6 +2,7 @@
 const en = {
   site: 'Elucidário Madeirense',
   tagline: 'Encyclopaedia of Madeira · digital edition',
+  home_intro: 'The Elucidário Madeirense is the classic encyclopaedia of Madeira, compiled by Fernando Augusto da Silva and Carlos Azevedo de Meneses, first published in 1921 and revised in 1940: some 3,900 entries on the island’s places, people, history and nature, now translated and linked for the first time.',
   search_placeholder: 'Search people, places, dates and articles…',
   search: 'Search',
   advanced_search: 'Advanced search',
@@ -165,6 +166,7 @@ export type UIKey = keyof typeof en;
 
 const pt: Partial<Record<UIKey, string>> = {
   tagline: 'Enciclopédia da Madeira · edição digital',
+  home_intro: 'O Elucidário Madeirense é a enciclopédia clássica da Madeira, organizada por Fernando Augusto da Silva e Carlos Azevedo de Meneses, publicada pela primeira vez em 1921 e revista em 1940: cerca de 3900 entradas sobre os lugares, as pessoas, a história e a natureza da ilha, agora traduzidas e interligadas pela primeira vez.',
   search_placeholder: 'Pesquisar pessoas, lugares, datas e artigos…',
   search: 'Pesquisar', advanced_search: 'Pesquisa avançada', index: 'Índice', places: 'Lugares', people: 'Pessoas',
   chronology: 'Cronologia', about: 'Sobre', history: 'Vistos recentemente', clear_history: 'Limpar histórico',
@@ -231,6 +233,7 @@ const pt: Partial<Record<UIKey, string>> = {
 };
 
 const uk: Partial<Record<UIKey, string>> = {
+  home_intro: '«Елусідаріу Мадейренсі» — класична енциклопедія Мадейри, яку уклали Фернанду Аугушту да Сілва та Карлуш Азеведу де Менезіш; уперше видана 1921 року й перероблена 1940 року: близько 3900 статей про місця, людей, історію та природу острова, уперше перекладених і пов’язаних між собою.',
   site: 'Елусідаріу Мадейренсі', tagline: 'Енциклопедія Мадейри · цифрове видання',
   search_placeholder: 'Пошук людей, місць, дат і статей…', search: 'Пошук', advanced_search: 'Розширений пошук',
   index: 'Покажчик', places: 'Місця', people: 'Люди', chronology: 'Хронологія', about: 'Про проєкт',
@@ -297,7 +300,7 @@ const uk: Partial<Record<UIKey, string>> = {
 };
 
 const hu: Partial<Record<UIKey, string>> = {
-  tagline: 'Madeira enciklopédiája · digitális kiadás', search_placeholder: 'Személyek, helyek, dátumok és szócikkek keresése…',
+  tagline: 'Madeira enciklopédiája · digitális kiadás', home_intro: 'Az Elucidário Madeirense Madeira klasszikus enciklopédiája, amelyet Fernando Augusto da Silva és Carlos Azevedo de Meneses állított össze; először 1921-ben jelent meg, átdolgozott kiadása 1940-ben: mintegy 3900 szócikk a sziget helyeiről, embereiről, történelméről és természetéről, most először lefordítva és összekapcsolva.', search_placeholder: 'Személyek, helyek, dátumok és szócikkek keresése…',
   search: 'Keresés', advanced_search: 'Részletes keresés', index: 'Mutató', places: 'Helyek', people: 'Személyek',
   chronology: 'Kronológia', about: 'Névjegy', history: 'Legutóbb megtekintett', clear_history: 'Előzmények törlése',
   print: 'Nyomtatás', back_home: 'Kezdőlap', article_no: 'Szócikk', featured: 'Kiemelt', explore_by: 'Böngészés',

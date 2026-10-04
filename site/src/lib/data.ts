@@ -64,7 +64,8 @@ export const places = (lang: Lang): Record<string, Place> => load(`${lang}/place
 export const chronology = (lang: Lang): Event[] => load(`${lang}/chronology.json`);
 export const index = (lang: Lang): Index => load(`${lang}/index.json`);
 export const geo = (): Record<string, Geo> => load('geo.json');
-export const featured = (): { ranked: string[]; top100: string[] } => load('featured.json');
+/** Featured rankings: one PageRank over articles, persons and places x length (site_export.importance). */
+export const featured = (): { ranked: string[]; top100: string[]; home?: string[]; persons: string[]; places: string[] } => load('featured.json');
 
 /** Events keyed by id, per language. */
 export function eventsById(lang: Lang): Map<string, Event> {

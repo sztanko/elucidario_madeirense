@@ -249,15 +249,64 @@ def export_geo(c: Corpus) -> dict:
     return out
 
 
+def pagerank(c: Corpus, damping: float = 0.85, iters: int = 50) -> dict[str, float]:
+    """One PageRank over articles, persons and places (node ids: article id, person:…, place:…).
+    Edges: article -> article it links to (in-text links of data/12_links/pt.jsonl and KB references), weight 1;
+    article -> person/place it mentions, weight 0.5; person/place -> its own article, weight 1 (so an entity and its
+    article share importance). Dangling nodes spread uniformly."""
+    nodes = [a for a, x in c.arts.items() if x["kind"] not in ("front_matter",)] + list(c.persons) + list(c.places)
+    idx = {n: i for i, n in enumerate(nodes)}
+    out: dict[int, dict[int, float]] = defaultdict(lambda: defaultdict(float))
+
+    def edge(a, b, w):
+        if a in idx and b in idx and a != b:
+            out[idx[a]][idx[b]] += w
+
+    for r in jl(DATA / "12_links" / "pt.jsonl"):
+        for l in r["links"]:
+            if l["kind"] == "article":
+                edge(r["article"], l["to"], 1.0)
+    for l in c.links:
+        if l.get("target"):
+            edge(l["article"], l["target"], 1.0)
+    for ents in (c.persons, c.places):
+        for e in ents.values():
+            for m in e.get("mentions", []):
+                edge(m["article"], e["id"], 0.5)
+            if e.get("main_article_id"):
+                edge(e["id"], e["main_article_id"], 1.0)
+    n = len(nodes)
+    pr = [1.0 / n] * n
+    tot = {i: sum(d.values()) for i, d in out.items()}
+    for _ in range(iters):
+        nxt = [(1 - damping) / n] * n
+        dangling = sum(pr[i] for i in range(n) if i not in tot)
+        for i, d in out.items():
+            share = damping * pr[i] / tot[i]
+            for j, w in d.items():
+                nxt[j] += share * w
+        spread = damping * dangling / n
+        pr = [v + spread for v in nxt]
+    return {nodes[i]: pr[i] for i in range(n)}
+
+
 def importance(c: Corpus) -> dict[str, float]:
-    inbound = Counter(l["target"] for l in c.links if l.get("target"))
+    """Featured ranking shared by articles, persons and places: PageRank x length factor (the entity's own article
+    length; persons/places use their main article's). Keys: article ids and person/place ids."""
+    pr = pagerank(c)
+
+    def length_factor(aid: str | None) -> float:
+        a = c.arts.get(aid) if aid else None
+        return 1 + math.log1p((a["chars"] if a else 0) / 1000)
+
     score = {}
     for aid, a in c.arts.items():
         if a["kind"] in ("cross_reference", "front_matter"):
             continue
-        e = c.enr.get(aid, {})
-        score[aid] = (3 * math.log1p(inbound.get(aid, 0)) + math.log1p(a["chars"]) + 0.5 * len(e.get("persons", []))
-                      + 0.3 * len(e.get("places", [])) + 0.3 * len(e.get("dates", [])))
+        score[aid] = pr.get(aid, 0) * length_factor(aid)
+    for ents in (c.persons, c.places):
+        for e in ents.values():
+            score[e["id"]] = pr.get(e["id"], 0) * length_factor(e.get("main_article_id"))
     return score
 
 
@@ -536,8 +585,25 @@ def run(langs: list[str] | None = None) -> dict:
     geo = export_geo(c)
     (OUT / "geo.json").write_text(json.dumps(geo, ensure_ascii=False, separators=(",", ":")))
     score = importance(c)
-    featured = [a for a, _ in sorted(score.items(), key=lambda x: -x[1])]
-    (OUT / "featured.json").write_text(json.dumps({"ranked": featured[:400], "top100": featured[:100]}, ensure_ascii=False))
+    ranked_all = [k for k, _ in sorted(score.items(), key=lambda x: -x[1])]
+    featured = [k for k in ranked_all if k in c.arts]
+    persons_ranked = [slug(k) for k in ranked_all if k in c.persons][:200]
+    places_ranked = [slug(k) for k in ranked_all if k in c.places and geo.get(slug(k), {}).get("c")][:200]
+    # Home page selection: the best article of every taxonomy class, plus a second one when it is also in the overall
+    # top 50; classes ordered by their best article; Levadas always included (owner's request).
+    rank = {a: i for i, a in enumerate(featured)}
+    by_class: dict[str, list[str]] = defaultdict(list)
+    for aid in featured:
+        if c.arts[aid]["kind"] in ("article", "compound"):
+            by_class[(c.enr.get(aid, {}).get("types") or ["meta"])[0].split(".")[0]].append(aid)
+    mix = []
+    for cls, ids in sorted(by_class.items(), key=lambda x: rank[x[1][0]]):
+        mix += [ids[0]] + ([ids[1]] if len(ids) > 1 and rank[ids[1]] < 50 else [])
+    for pin in ("levadas",):
+        if pin in c.arts and pin not in mix:
+            mix.insert(0, pin)
+    (OUT / "featured.json").write_text(json.dumps({"ranked": featured[:400], "top100": featured[:100], "home": mix,
+                                                   "persons": persons_ranked, "places": places_ranked}, ensure_ascii=False))
     stats = [export_lang(c, l, geo, featured) for l in (langs or SITE_LANGS)]
     meta = {
         "languages": [{"code": l, "name": LANG_NAMES[l]} for l in (langs or SITE_LANGS)],

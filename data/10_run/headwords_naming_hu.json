@@ -1,0 +1,1507 @@
+[
+ {
+  "id": "casa-de-saude",
+  "before": "Casa de Saúde",
+  "after": "Szanatórium"
+ },
+ {
+  "id": "casa-dos-pobres-desamparados",
+  "before": "Casa dos Pobres Desamparados",
+  "after": "Elhagyott Szegények Háza"
+ },
+ {
+  "id": "clubes--clube-economico",
+  "before": "Clube Economico",
+  "after": "Gazdasági Klub"
+ },
+ {
+  "id": "clubes--clube-alianca",
+  "before": "Clube Aliança",
+  "after": "Szövetség Klub"
+ },
+ {
+  "id": "clubes--clube-restauracao",
+  "before": "Clube Restauração",
+  "after": "Restauráció Klub"
+ },
+ {
+  "id": "clubes--novo-clube-restauracao",
+  "before": "Novo Clube Restauração",
+  "after": "Új Restauração Klub"
+ },
+ {
+  "id": "clubes--clube-washington",
+  "before": "Clube Washington",
+  "after": "Washington Klub"
+ },
+ {
+  "id": "clubes--clube-dos-estrangeiros",
+  "before": "Clube dos Estrangeiros",
+  "after": "Külföldiek Klubja"
+ },
+ {
+  "id": "clubes--clube-uniao",
+  "before": "Clube União",
+  "after": "Egység Klub"
+ },
+ {
+  "id": "clubes--clube-recreativo-musical",
+  "before": "Clube Recreativo Musical",
+  "after": "Zenei Szabadidős Klub"
+ },
+ {
+  "id": "clubes--clube-recreio-e-instrucao",
+  "before": "Clube Recreio e Instrução",
+  "after": "Szórakozás és Művelődés Klub"
+ },
+ {
+  "id": "clubes--clube-internacional-do-funchal",
+  "before": "Clube Internacional do Funchal",
+  "after": "Funchali Nemzetközi Klub"
+ },
+ {
+  "id": "clube-sports-da-madeira",
+  "before": "Clube Sports da Madeira",
+  "after": "Madeirai Sportklub"
+ },
+ {
+  "id": "clube-republicano-da-madeira",
+  "before": "Clube Republicano da Madeira",
+  "after": "Madeirai Köztársasági Klub"
+ },
+ {
+  "id": "clube-naval-madeirense",
+  "before": "Clube Naval Madeirense",
+  "after": "Madeirai Hajós Klub"
+ },
+ {
+  "id": "comissao-municipal-constitucional",
+  "before": "Alkotmányos városi bizottság",
+  "after": "Alkotmányos községi bizottság"
+ },
+ {
+  "id": "comissariado-de-policia-civil-do-funchal",
+  "before": "Funchal polgári rendőrségének biztosi hivatala",
+  "after": "Funchali polgári rendőrbiztosság"
+ },
+ {
+  "id": "companhia-de-pescarias",
+  "before": "Halászati társaság",
+  "after": "Halászati Társaság"
+ },
+ {
+  "id": "companhia-fabril-de-acucar-madeirense",
+  "before": "Companhia Fabril de Açucar Madeirense",
+  "after": "Madeirai Cukorgyártó Társaság"
+ },
+ {
+  "id": "conferencias-de-s-vicente-de-paulo",
+  "before": "Szent Vince-konferenciák",
+  "after": "Páli Szent Vince Konferenciák"
+ },
+ {
+  "id": "conselho-distrital-de-agricultura",
+  "before": "Kerületi mezőgazdasági tanács",
+  "after": "Kerületi Mezőgazdasági Tanács"
+ },
+ {
+  "id": "conselho-municipal",
+  "before": "Községi tanácsadó testület",
+  "after": "Községi képviselő-testület"
+ },
+ {
+  "id": "convento-da-incarnacao",
+  "before": "Convento da Incarnação-kolostor",
+  "after": "Gyümölcsoltó Boldogasszony-kolostor"
+ },
+ {
+  "id": "convento-das-merces",
+  "before": "Convento das Mercês (kolostor)",
+  "after": "Fogolykiváltó Boldogasszony-kolostor"
+ },
+ {
+  "id": "convento-de-nossa-senhora-ds-piedade",
+  "before": "Nossa Senhora da Piedade kolostora",
+  "after": "Fájdalmas Anya-kolostor"
+ },
+ {
+  "id": "convento-de-nossa-senhora-da-porciuncula",
+  "before": "Nossa Senhora da Porciuncula kolostora",
+  "after": "Porciunkulai Boldogasszony-kolostor"
+ },
+ {
+  "id": "convento-de-santa-clara",
+  "before": "Santa Clara-kolostor",
+  "after": "Szent Klára-kolostor"
+ },
+ {
+  "id": "convento-de-sao-bernardino",
+  "before": "São Bernardino kolostora",
+  "after": "Szent Bernardin-kolostor"
+ },
+ {
+  "id": "convento-de-sao-francisco-da-calheta",
+  "before": "Convento de São Francisco da Calheta",
+  "after": "Calhetai Szent Ferenc-kolostor"
+ },
+ {
+  "id": "convento-de-sao-francisco-do-funchal",
+  "before": "A funchali São Francisco-kolostor",
+  "after": "Funchali Szent Ferenc-kolostor"
+ },
+ {
+  "id": "posto-medico-municipal",
+  "before": "Városi orvosi állomás",
+  "after": "Községi orvosi rendelő"
+ },
+ {
+  "id": "procissoes--procissao-de-santo-antonio",
+  "before": "Szent Antal-körmenet",
+  "after": "Páduai Szent Antal-körmenet"
+ },
+ {
+  "id": "recolhimento-das-orfas",
+  "before": "Az árvák *recolhimentója*",
+  "after": "Árvalányok menedékháza"
+ },
+ {
+  "id": "regiao-agricola-nona",
+  "before": "Mezőgazdasági régió (kilencedik)",
+  "after": "Kilencedik Mezőgazdasági Körzet"
+ },
+ {
+  "id": "reis-magos-capela-dos",
+  "before": "Reis Magos (kápolna)",
+  "after": "Háromkirályok-kápolna"
+ },
+ {
+  "id": "resenha-cronologica-do-jornalismo-madeirense",
+  "before": "Resenha Cronológica do Jornalismo Madeirense",
+  "after": "A madeirai újságírás időrendi áttekintése"
+ },
+ {
+  "id": "romanceiro-do-archipelago-da-madeira",
+  "before": "Romanceiro do Archipelago da Madeira",
+  "after": "A Madeira-szigetek románcai"
+ },
+ {
+  "id": "sagrado-coracao-de-jesus-capela-do",
+  "before": "Sagrado Coração de Jesus (kápolna)",
+  "after": "Jézus szíve kápolna"
+ },
+ {
+  "id": "santana-capelas-de",
+  "before": "Santana (kápolnák)",
+  "after": "Szent Anna-kápolnák"
+ },
+ {
+  "id": "santa-apolonia",
+  "before": "Santa Apolónia",
+  "after": "Szent Apollónia-kápolna"
+ },
+ {
+  "id": "santa-brigida-capela-de",
+  "before": "Santa Brígida (kápolna)",
+  "after": "Szent Brigitta-kápolna"
+ },
+ {
+  "id": "santa-catarina-capela-de",
+  "before": "Santa Catarina (kápolna)",
+  "after": "Szent Katalin-kápolna"
+ },
+ {
+  "id": "santa-clara-igreja-de",
+  "before": "Santa Clara (templom)",
+  "after": "Szent Klára-templom"
+ },
+ {
+  "id": "santa-isabel-capelas-de",
+  "before": "Santa Isabel (kápolnák)",
+  "after": "Szent Erzsébet-kápolnák"
+ },
+ {
+  "id": "santa-maria-madalena-capelas-de",
+  "before": "Santa Maria Madalena (kápolnák)",
+  "after": "Szent Mária Magdolna-kápolnák"
+ },
+ {
+  "id": "santa-quiteria-capelas-de",
+  "before": "Santa Quitéria (kápolnák)",
+  "after": "Szent Quiteria-kápolnák"
+ },
+ {
+  "id": "santo-amaro-capelas-de",
+  "before": "Santo Amaro (kápolnák)",
+  "after": "Szent Maurus-kápolnák"
+ },
+ {
+  "id": "santo-andre-avelino-capela-de",
+  "before": "Santo André Avelino (kápolna)",
+  "after": "Avellinói Szent András-kápolna"
+ },
+ {
+  "id": "santo-antonio-capelas-de",
+  "before": "Santo António (kápolnák)",
+  "after": "Szent Antal-kápolnák"
+ },
+ {
+  "id": "santo-espirito-capela-do",
+  "before": "Santo Espírito (kápolna)",
+  "after": "Szentlélek-kápolna"
+ },
+ {
+  "id": "santos-cosme-e-damiao-capela-dos",
+  "before": "Santos Cosme e Damião (kápolna)",
+  "after": "Szent Kozma és Damján-kápolna"
+ },
+ {
+  "id": "santos-reis-capela-dos",
+  "before": "Santos Reis (kápolna)",
+  "after": "Háromkirályok-kápolna"
+ },
+ {
+  "id": "sao-bartolomeu-igreja-de",
+  "before": "São Bartolomeu (templom)",
+  "after": "Szent Bertalan-templom"
+ },
+ {
+  "id": "sao-bernardino-capela-de",
+  "before": "São Bernardino (kápolna)",
+  "after": "Szent Bernardin-kápolna"
+ },
+ {
+  "id": "sao-caetano-capela-de",
+  "before": "São Caetano (kápolna)",
+  "after": "Szent Kajetán-kápolna"
+ },
+ {
+  "id": "sao-candido-capela-de",
+  "before": "São Cândido (kápolna)",
+  "after": "Szent Kandidusz-kápolna"
+ },
+ {
+  "id": "sao-cristovao-capelas",
+  "before": "São Cristóvão (kápolnák)",
+  "after": "Szent Kristóf-kápolnák"
+ },
+ {
+  "id": "sao-fernando-capela-de",
+  "before": "São Fernando (kápolna)",
+  "after": "Szent Ferdinánd-kápolna"
+ },
+ {
+  "id": "sao-filipe-capela-de",
+  "before": "São Filipe (kápolna)",
+  "after": "Szent Fülöp-kápolna"
+ },
+ {
+  "id": "sao-francisco-capelas-de",
+  "before": "São Francisco (kápolnák)",
+  "after": "Szent Ferenc-kápolnák"
+ },
+ {
+  "id": "sao-francisco-de-borja-capela-de",
+  "before": "São Francisco de Borja (kápolna)",
+  "after": "Borgia Szent Ferenc-kápolna"
+ },
+ {
+  "id": "sao-francisco-xavier-capelas-de",
+  "before": "São Francisco Xavier (kápolnák)",
+  "after": "Xavéri Szent Ferenc-kápolnák"
+ },
+ {
+  "id": "sao-gil-capela-de",
+  "before": "São Gil (kápolna)",
+  "after": "Szent Egyed-kápolna"
+ },
+ {
+  "id": "sao-joao-baptista-capelas-de",
+  "before": "São João Baptista (kápolnák)",
+  "after": "Keresztelő Szent János-kápolnák"
+ },
+ {
+  "id": "sao-joao-de-deus-capela-de",
+  "before": "São João de Deus (kápolna)",
+  "after": "Istenes Szent János-kápolna"
+ },
+ {
+  "id": "sao-joao-evangelista-colegio-e-igreja-de",
+  "before": "São João Evangelista (kollégium és templom)",
+  "after": "Szent János evangélista kollégium és templom"
+ },
+ {
+  "id": "sao-joao-de-latrao-capela-de",
+  "before": "São João de Latrão (kápolna)",
+  "after": "Lateráni Szent János-kápolna"
+ },
+ {
+  "id": "sao-joao-nepomuceno-capela-de",
+  "before": "São João Nepomuceno (kápolna)",
+  "after": "Nepomuki Szent János-kápolna"
+ },
+ {
+  "id": "sao-joao-e-santana-capela-de",
+  "before": "São João e Santana (kápolna)",
+  "after": "Szent János és Szent Anna-kápolna"
+ },
+ {
+  "id": "sao-jose-capelas-de",
+  "before": "São José (kápolnák)",
+  "after": "Szent József-kápolnák"
+ },
+ {
+  "id": "sao-jose-forte-de",
+  "before": "São José (erőd)",
+  "after": "Szent József-erőd"
+ },
+ {
+  "id": "sao-lazaro-capela-de",
+  "before": "São Lázaro (kápolna)",
+  "after": "Szent Lázár-kápolna"
+ },
+ {
+  "id": "sao-lourenco-capelas-de",
+  "before": "São Lourenço (kápolnák)",
+  "after": "Szent Lőrinc-kápolnák"
+ },
+ {
+  "id": "sao-luis-capelas-de",
+  "before": "São Luís (kápolnák)",
+  "after": "Szent Lajos-kápolnák"
+ },
+ {
+  "id": "sao-paulo-capelas-de",
+  "before": "São Paulo (kápolnák)",
+  "after": "Szent Pál-kápolnák"
+ },
+ {
+  "id": "sao-pedro-capela-de",
+  "before": "São Pedro (kápolna)",
+  "after": "Szent Péter-kápolna"
+ },
+ {
+  "id": "sao-pedro-de-alcantara-capela-de",
+  "before": "São Pedro de Alcântara (kápolna)",
+  "after": "Alcántarai Szent Péter-kápolna"
+ },
+ {
+  "id": "sao-pedro-goncalves-telmo-capela-de",
+  "before": "São Pedro Gonçalves Telmo (kápolna)",
+  "after": "Szent Telmo-kápolna"
+ },
+ {
+  "id": "figueira-da-india-ficus-comosa",
+  "before": "Indiai fügefa (*Ficus comosa*)",
+  "after": "Indiai fügefa (Ficus comosa)"
+ },
+ {
+  "id": "flores-da-madeira",
+  "before": "Flores da Madeira",
+  "after": "Madeirai virágok"
+ },
+ {
+  "id": "franca",
+  "before": "França",
+  "after": "Franciaország"
+ },
+ {
+  "id": "funchal-diocese-do",
+  "before": "Funchal (egyházmegye)",
+  "after": "Funchali egyházmegye"
+ },
+ {
+  "id": "gabinete-de-historia-natural-antigo",
+  "before": "Régi természettudományi gyűjtemény",
+  "after": "Régi természetrajzi gyűjtemény"
+ },
+ {
+  "id": "garantia-funchalense",
+  "before": "Garantia Funchalense",
+  "after": "Funchali Garancia"
+ },
+ {
+  "id": "guyaneida-a",
+  "before": "Guyaneida (A)",
+  "after": "Guyana-eposz"
+ },
+ {
+  "id": "habitacoes-primitivas",
+  "before": "Kezdeti lakóházak",
+  "after": "Ősi lakóhelyek"
+ },
+ {
+  "id": "heraldo-da-madeira-o",
+  "before": "O Heraldo da Madeira",
+  "after": "Heraldo da Madeira"
+ },
+ {
+  "id": "historia-insulana",
+  "before": "Historia Insulana",
+  "after": "Szigettörténet"
+ },
+ {
+  "id": "historia-insulana-comissao-de",
+  "before": "Szigettörténeti bizottság",
+  "after": "Szigettörténeti Bizottság"
+ },
+ {
+  "id": "homenagem-de-desagravo-ao-redemptor-do-mundo",
+  "before": "Homenagem de Desagravo ao Redemptor do Mundo",
+  "after": "Engesztelő hódolat a világ Megváltójának"
+ },
+ {
+  "id": "hospicio-da-princesa-d-maria-amelia",
+  "before": "Mária Amália hercegnő menháza",
+  "after": "Dona Maria Amélia hercegnő menhelye"
+ },
+ {
+  "id": "hospital-de-santa-isabel",
+  "before": "Hospital de Santa Isabel",
+  "after": "Szent Erzsébet-kórház"
+ },
+ {
+  "id": "hospital-de-s-lazaro",
+  "before": "São Lázaro-kórház",
+  "after": "Szent Lázár-kórház"
+ },
+ {
+  "id": "hospital-dos-marmeleiros",
+  "before": "Hospital dos Marmeleiros",
+  "after": "Marmeleiros-kórház"
+ },
+ {
+  "id": "imaculado-coracao-de-maria-capela-do",
+  "before": "Imaculado Coração de Maria (kápolna)",
+  "after": "Mária Szeplőtelen Szíve-kápolna"
+ },
+ {
+  "id": "instituicao-filosofica-e-mecanica",
+  "before": "Filozófiai és Mechanikai Társaság",
+  "after": "Filozófiai és Mechanikai Intézet"
+ },
+ {
+  "id": "instrucao",
+  "before": "Oktatás",
+  "after": "Közoktatás"
+ },
+ {
+  "id": "insulana",
+  "before": "Insulana",
+  "after": "Szigeteposz"
+ },
+ {
+  "id": "irmazinhas-dos-pobres",
+  "before": "A Szegények Kis Nővérei",
+  "after": "Szegények Kis Nővérei"
+ },
+ {
+  "id": "torre-do-tombo",
+  "before": "Torre do Tombo",
+  "after": "Torre do Tombo nemzeti levéltár"
+ },
+ {
+  "id": "tragedia-na-madeira-uma",
+  "before": "Uma Tragédia na Madeira",
+  "after": "Tragédia Madeirán"
+ },
+ {
+  "id": "uniao-dos-viticultores-da-madeira",
+  "before": "Madeirai Bortermelők Szövetsége",
+  "after": "Madeirai Szőlőtermesztők Szövetsége"
+ },
+ {
+  "id": "vera-cruz-capela-da",
+  "before": "Vera Cruz (kápolna)",
+  "after": "Igaz Kereszt-kápolna"
+ },
+ {
+  "id": "voto-a-santissima-virgem",
+  "before": "Fogadalom a Legszentebb Szűznek",
+  "after": "Fogadalom a Boldogságos Szűznek"
+ },
+ {
+  "id": "nossa-senhora-da-ajuda-capela-de",
+  "before": "Nossa Senhora da Ajuda (kápolna)",
+  "after": "Segítő Szűz Mária-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-alegria-capela-de",
+  "before": "Nossa Senhora da Alegria (kápolna)",
+  "after": "Örvendező Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-amparo-capelas-de",
+  "before": "Nossa Senhora do Amparo (kápolnák)",
+  "after": "Oltalmazó Boldogasszony-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-das-angustias-capela-de",
+  "before": "Nossa Senhora das Angústias (kápolna)",
+  "after": "Fájdalmas Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-dos-anjos-capela-de",
+  "before": "Nossa Senhora dos Anjos (kápolna)",
+  "after": "Angyalos Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-apresentacao-capela-de",
+  "before": "Nossa Senhora da Apresentação (kápolna)",
+  "after": "Szűz Mária bemutatása kápolna"
+ },
+ {
+  "id": "nossa-senhora-de-belem-capela-de",
+  "before": "Nossa Senhora de Belém (kápolna)",
+  "after": "Betlehemi Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-boa-hora-capelas-de",
+  "before": "Nossa Senhora da Boa Hora (kápolnák)",
+  "after": "Jó Óra Boldogasszonya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-da-boa-morte-capela-de",
+  "before": "Nossa Senhora da Boa Morte (kápolna)",
+  "after": "Nagyboldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-boa-nova-capela-de",
+  "before": "Nossa Senhora da Boa Nova (kápolna)",
+  "after": "Örömhír Boldogasszonya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-boa-viagem-capelas-de",
+  "before": "Nossa Senhora da Boa Viagem (kápolnák)",
+  "after": "Jó Utazás Boldogasszonya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-do-bom-despacho-capela-de",
+  "before": "Nossa Senhora do Bom Despacho (kápolna)",
+  "after": "Jó Meghallgatás Boldogasszonya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-bom-sucesso-capelas-de",
+  "before": "Nossa Senhora do Bom Sucesso (kápolnák)",
+  "after": "Jó Siker Boldogasszonya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-do-calhau-igreja-de",
+  "before": "Nossa Senhora do Calhau (templom)",
+  "after": "Calhau-i Szűzanya-templom"
+ },
+ {
+  "id": "nossa-senhora-da-cadeira-capela-de",
+  "before": "Nossa Senhora da Cadeira (kápolna)",
+  "after": "Széki Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-candelaria-capela-de",
+  "before": "Nossa Senhora da Candelária (kápolna)",
+  "after": "Gyertyaszentelő Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-carmo-capela-de",
+  "before": "Nossa Senhora do Carmo (kápolna)",
+  "after": "Kármelhegyi Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-carmo-igreja-de",
+  "before": "Nossa Senhora do Carmo (templom)",
+  "after": "Kármelhegyi Boldogasszony-templom"
+ },
+ {
+  "id": "nossa-senhora-da-conceicao-capelas-de",
+  "before": "Nossa Senhora da Conceição (kápolnák)",
+  "after": "Szeplőtelen Fogantatás-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-da-conceicao-do-ilheu-capela-de",
+  "before": "Nossa Senhora da Conceição do Ilhéu (kápolna)",
+  "after": "Szigeti Szeplőtelen Fogantatás-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-consolacao-capelas-de",
+  "before": "Nossa Senhora da Consolação (kápolnák)",
+  "after": "Vigasztaló Szűzanya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-do-descanso-capela-de",
+  "before": "Nossa Senhora do Descanso (kápolna)",
+  "after": "Nyugalom Szűzanyja-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-desterro-capela-de",
+  "before": "Nossa Senhora do Desterro (kápolna)",
+  "after": "Egyiptomba menekülő Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-das-dores",
+  "before": "Nossa Senhora das Dores",
+  "after": "Fájdalmas Szűzanya"
+ },
+ {
+  "id": "nossa-senhora-da-esperanca-capela-de",
+  "before": "Nossa Senhora da Esperança (kápolna)",
+  "after": "Reménység Boldogasszonya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-estrela-capela-de",
+  "before": "Nossa Senhora da Estrela (kápolna)",
+  "after": "Csillagos Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-fatima",
+  "before": "Nossa Senhora da Fátima",
+  "after": "Fatimai Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-fe-capelas-de",
+  "before": "Nossa Senhora da Fé (kápolnák)",
+  "after": "Hit Boldogasszonya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-da-gloria-capela-de",
+  "before": "Nossa Senhora da Glória (kápolna)",
+  "after": "Dicsőséges Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-graca-capelas-de",
+  "before": "Nossa Senhora da Graça (kápolnák)",
+  "after": "Kegyelmes Szűzanya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-da-incarnacao-capela-de",
+  "before": "Nossa Senhora da Incarnação (kápolna)",
+  "after": "Gyümölcsoltó Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-de-jesus-capela-de",
+  "before": "Nossa Senhora de Jesus (kápolna)",
+  "after": "Jézus Anyja-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-livramento-capelas-de",
+  "before": "Nossa Senhora do Livramento (kápolnák)",
+  "after": "Szabadító Szűzanya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-do-loreto-capela-de",
+  "before": "Nossa Senhora do Loreto (kápolna)",
+  "after": "Loretói Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-luz",
+  "before": "Nossa Senhora da Luz",
+  "after": "Fény Boldogasszonya"
+ },
+ {
+  "id": "nossa-senhora-mae-dos-homens",
+  "before": "Nossa Senhora Mãe dos Homens",
+  "after": "Emberek Anyja Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-das-maravilhas-capela-de",
+  "before": "Nossa Senhora das Maravilhas (kápolna)",
+  "after": "Csodák Boldogasszonya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-das-merces-capela-de",
+  "before": "Nossa Senhora das Mercês (kápolna)",
+  "after": "Fogolykiváltó Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-dos-milagres-capelas-de",
+  "before": "Nossa Senhora dos Milagres (kápolnák)",
+  "after": "Csodatevő Szűzanya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-do-monserrate-capela-de",
+  "before": "Nossa Senhora do Monserrate (kápolna)",
+  "after": "Montserrati Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-monte-capela-de",
+  "before": "Nossa Senhora do Monte (kápolna)",
+  "after": "Monte-i Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-natividade-capela-de",
+  "before": "Nossa Senhora da Natividade (kápolna)",
+  "after": "Kisboldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-nazare-capelas-de",
+  "before": "Nossa Senhora da Nazaré (kápolnák)",
+  "after": "Nazaréi Szűzanya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-das-neves-capela-de",
+  "before": "Nossa Senhora das Neves (kápolna)",
+  "after": "Havas Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-paz-capela-de",
+  "before": "Nossa Senhora da Paz (kápolna)",
+  "after": "Béke Királynője-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-pena-capela-de",
+  "before": "Nossa Senhora da Pena (kápolna)",
+  "after": "Sziklai Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-penha-de-franca-capela-de",
+  "before": "Nossa Senhora da Penha de França (kápolna)",
+  "after": "Peña de Francia-i Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-perpetuo-socorro-capela-de",
+  "before": "Nossa Senhora do Perpétuo Socorro (kápolna)",
+  "after": "Szüntelen Segítség Szűzanyja-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-piedade-capelas-de",
+  "before": "Nossa Senhora da Piedade (kápolnák)",
+  "after": "Fájdalmas Anya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-do-pilar-capela-de",
+  "before": "Nossa Senhora do Pilar (kápolna)",
+  "after": "Oszlopos Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-populo-capela-de",
+  "before": "Nossa Senhora do Pópulo (kápolna)",
+  "after": "Népek Szűzanyja-kápolna"
+ },
+ {
+  "id": "nossa-senhora-dos-prazeres-capelas-de",
+  "before": "Nossa Senhora dos Prazeres (kápolnák)",
+  "after": "Hétörömű Boldogasszony-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-das-preces-capelas-de",
+  "before": "Nossa Senhora das Preces (kápolnák)",
+  "after": "Imádságok Boldogasszonya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-da-quietacao-capela-de",
+  "before": "Nossa Senhora da Quietação (kápolna)",
+  "after": "Nyugalom Boldogasszonya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-dos-remedios-capela-de",
+  "before": "Nossa Senhora dos Remédios (kápolna)",
+  "after": "Gyógyító Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-dos-remedios-e-amparo-capela-de",
+  "before": "Nossa Senhora dos Remédios e Amparo (kápolna)",
+  "after": "Gyógyító és Oltalmazó Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-rosario-capelas-de",
+  "before": "Nossa Senhora do Rosário (kápolnák)",
+  "after": "Rózsafüzér Királynője-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-da-salvacao-capelas-de",
+  "before": "Nossa Senhora da Salvação (kápolnák)",
+  "after": "Üdvösség Boldogasszonya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-da-saude-capela-de",
+  "before": "Nossa Senhora da Saúde (kápolna)",
+  "after": "Betegek Gyógyítója Boldogasszony-kápolna"
+ },
+ {
+  "id": "actas-da-junta-geral-do-distrito-do-funchal",
+  "before": "*Actas da Junta Geral do Distrito do Funchal*",
+  "after": "A funchali kerületi főtanács jegyzőkönyvei"
+ },
+ {
+  "id": "alardo",
+  "before": "Fegyveres szemle",
+  "after": "Hadiszemle"
+ },
+ {
+  "id": "albergaria-e-capela-de-s-bartolomeu",
+  "before": "Szálláshely és São Bartolomeu-kápolna",
+  "after": "Szent Bertalan-menedékház és -kápolna"
+ },
+ {
+  "id": "alfandegas--alfandega-de-machico",
+  "before": "Machico vámháza",
+  "after": "Machicói vámház"
+ },
+ {
+  "id": "alfandegas--alfandega-do-porto-santo",
+  "before": "Porto Santo vámháza",
+  "after": "Porto Santó-i vámház"
+ },
+ {
+  "id": "alianca-madeirense",
+  "before": "Aliança Madeirense",
+  "after": "Madeirai Szövetség"
+ },
+ {
+  "id": "almas-capelas-das",
+  "before": "Lelkek (kápolnák)",
+  "after": "Szenvedő Lelkek-kápolnák"
+ },
+ {
+  "id": "almas-pobres-capelas-das",
+  "before": "Almas Pobres (kápolnák)",
+  "after": "Szegény Lelkek-kápolnák"
+ },
+ {
+  "id": "antoneida-a",
+  "before": "Antoneida (A)",
+  "after": "Antal-eposz"
+ },
+ {
+  "id": "aragao",
+  "before": "Aragão",
+  "after": "Aragónia"
+ },
+ {
+  "id": "archivo-da-marinha-e-ultramar",
+  "before": "Archivo da Marinha e Ultramar",
+  "after": "Tengerészeti és Tengerentúli Levéltár"
+ },
+ {
+  "id": "arquipelago-da-madeira",
+  "before": "A Madeira-szigetcsoport",
+  "after": "A Madeira-szigetek"
+ },
+ {
+  "id": "arte-de-furtar",
+  "before": "Arte de Furtar",
+  "after": "A lopás művészete"
+ },
+ {
+  "id": "artilharia-auxiliar",
+  "before": "Kisegítő tüzérség",
+  "after": "Kisegítő Tüzérség"
+ },
+ {
+  "id": "asilos",
+  "before": "Menedékhelyek",
+  "after": "Menhelyek"
+ },
+ {
+  "id": "asilo-dos-invalidos",
+  "before": "Rokkantak menhelye",
+  "after": "Rokkantmenhely"
+ },
+ {
+  "id": "asilo-de-mendicidade-do-funchal",
+  "before": "A funchali koldusmenedékotthon",
+  "after": "Funchali Szegénymenhely"
+ },
+ {
+  "id": "asilo-dos-velhinhos",
+  "before": "Idősek otthona",
+  "after": "Öregek Menhelye"
+ },
+ {
+  "id": "asilo-de-artes-e-oficios",
+  "before": "Ipari és kézműves otthon",
+  "after": "Iparos Menhely"
+ },
+ {
+  "id": "associacao-das-damas-de-caridade",
+  "before": "Jótékony Hölgyek Egyesülete",
+  "after": "Irgalmas Hölgyek Egyesülete"
+ },
+ {
+  "id": "sao-roque-capela-de",
+  "before": "São Roque (kápolna)",
+  "after": "Szent Rókus-kápolna"
+ },
+ {
+  "id": "sao-sebastiao-capelas-de",
+  "before": "São Sebastião (kápolnák)",
+  "after": "Szent Sebestyén-kápolnák"
+ },
+ {
+  "id": "sao-tiago-capela-de",
+  "before": "São Tiago (kápolna)",
+  "after": "Ifjabb Szent Jakab-kápolna"
+ },
+ {
+  "id": "sao-tiago-igreja-de",
+  "before": "São Tiago (templom)",
+  "after": "Ifjabb Szent Jakab-templom"
+ },
+ {
+  "id": "sao-vicente-capela-de",
+  "before": "São Vicente (kápolna)",
+  "after": "Szent Vince-kápolna"
+ },
+ {
+  "id": "saudades-da-terra",
+  "before": "Saudades da Terra",
+  "after": "Vágyódás a szülőföld után"
+ },
+ {
+  "id": "senhor-dos-milagres",
+  "before": "Senhor dos Milagres",
+  "after": "Csodák Ura"
+ },
+ {
+  "id": "servicos-agricolas",
+  "before": "Mezőgazdasági szolgálatok",
+  "after": "Mezőgazdasági Szolgálat"
+ },
+ {
+  "id": "servicos-florestais",
+  "before": "Erdészeti szolgálat",
+  "after": "Erdészeti Szolgálat"
+ },
+ {
+  "id": "sindicato-agricola-estreitense",
+  "before": "Estreito de Câmara de Lobos-i mezőgazdasági szövetség",
+  "after": "Estreitói Mezőgazdasági Szövetség"
+ },
+ {
+  "id": "sindicato-agricola-da-madeira",
+  "before": "Madeirai mezőgazdasági szövetség",
+  "after": "Madeirai Mezőgazdasági Szövetség"
+ },
+ {
+  "id": "sociedade-agricola-madeirense",
+  "before": "Sociedade Agrícola Madeirense",
+  "after": "Madeirai Mezőgazdasági Társaság"
+ },
+ {
+  "id": "sociedade-auxiliadora-da-instrucao-primaria",
+  "before": "Az elemi oktatást támogató egyesület",
+  "after": "Az Elemi Oktatást Segítő Társaság"
+ },
+ {
+  "id": "sociedade-cooperativa-construcao-predial-do-funchal",
+  "before": "Sociedade Cooperativa „Construção Predial do Funchal”",
+  "after": "Funchali Lakásépítő Szövetkezet"
+ },
+ {
+  "id": "sociedade-esperanca",
+  "before": "Sociedade Esperança",
+  "after": "Remény Társaság"
+ },
+ {
+  "id": "sociedade-filantropica-academica-de-coimbra",
+  "before": "Sociedade Filantrópica Académica de Coimbra",
+  "after": "Coimbrai Akadémiai Emberbaráti Társaság"
+ },
+ {
+  "id": "sociedade-funchalense-dos-amigos-das-ciencias-e-artes",
+  "before": "Funchali Tudományok és Művészetek Barátainak Társasága",
+  "after": "A Tudományok és Művészetek Barátainak Funchali Társasága"
+ },
+ {
+  "id": "sociedade-humanitaria-do-distrito-do-funchal",
+  "before": "Funchali Kerület Humanitárius Társasága",
+  "after": "Funchal Kerületi Emberbaráti Társaság"
+ },
+ {
+  "id": "sociedade-patriotica-economica-de-comercio-agricultura-ciencias-e-artes",
+  "before": "Hazafias Gazdasági, Kereskedelmi, Mezőgazdasági, Tudományos és Művészeti Társaság",
+  "after": "Hazafias, Gazdasági, Kereskedelmi, Mezőgazdasági, Tudományos és Művészeti Társaság"
+ },
+ {
+  "id": "sociedade-protectora-dos-animais-domesticos",
+  "before": "Háziállat-védő Társaság",
+  "after": "Háziállatvédő Társaság"
+ },
+ {
+  "id": "sociedade-talia",
+  "before": "Tália Társaság",
+  "after": "Thália Társaság"
+ },
+ {
+  "id": "jesus-maria-jose-capela-de",
+  "before": "Jesus Maria José (kápolna)",
+  "after": "Jézus, Mária, József-kápolna"
+ },
+ {
+  "id": "joao-de-deus-metodo-de",
+  "before": "João de Deus módszere",
+  "after": "João de Deus-módszer"
+ },
+ {
+  "id": "junta-autonoma-das-obras-do-porto-do-funchal",
+  "before": "A Funchali Kikötő Építési Munkáinak Autonóm Tanácsa",
+  "after": "Funchali Kikötőépítési Önálló Tanács"
+ },
+ {
+  "id": "junta-do-desembargo-do-paco",
+  "before": "Junta do Desembargo do Paço",
+  "after": "A Desembargo do Paço tanácsa"
+ },
+ {
+  "id": "junta-governativa-do-bispado-em-1869",
+  "before": "A püspökség kormányzó testülete 1869-ben",
+  "after": "Az egyházmegye kormányzó tanácsa 1869-ben"
+ },
+ {
+  "id": "junta-de-melhoramentos-da-agricultura-das-ilhas-da-madeira-e-porto-santo",
+  "before": "Madeira és Porto Santo szigetei Mezőgazdaság-fejlesztési Tanácsa",
+  "after": "Madeira és Porto Santo Mezőgazdasági Fejlesztési Tanácsa"
+ },
+ {
+  "id": "junta-da-real-fazenda-da-ilha-da-madeira",
+  "before": "A Madeira-szigeti Királyi Kincstári Tanács",
+  "after": "Madeira szigetének Királyi Kincstári Tanácsa"
+ },
+ {
+  "id": "lapides",
+  "before": "Feliratos kövek",
+  "after": "Sírkövek"
+ },
+ {
+  "id": "machico-igreja-paroquial-de",
+  "before": "Machico (plébániatemplom)",
+  "after": "Machicói plébániatemplom"
+ },
+ {
+  "id": "madeira-instrucao-na",
+  "before": "Madeira (oktatás)",
+  "after": "Madeira (közoktatás)"
+ },
+ {
+  "id": "madeira-e-a-ilha-dos-amores-a",
+  "before": "Madeira és a „Szerelmek szigete”",
+  "after": "Madeira és a Szerelem szigete"
+ },
+ {
+  "id": "madeira-na-torre-do-tombo-a",
+  "before": "Madeira a Torre do Tombo levéltárában",
+  "after": "Madeira a Torre do Tombóban"
+ },
+ {
+  "id": "madre-de-deus-capelas-da",
+  "before": "Madre de Deus (kápolnák)",
+  "after": "Istenanya-kápolnák"
+ },
+ {
+  "id": "matadouro-municipal",
+  "before": "Városi vágóhíd",
+  "after": "Községi vágóhíd"
+ },
+ {
+  "id": "maximiliano-imperador-do-mexico",
+  "before": "Maximiliano (Mexikó császára)",
+  "after": "Miksa (Mexikó császára)"
+ },
+ {
+  "id": "maximiliano-de-habsburgo",
+  "before": "Maximiliano de Habsburgo",
+  "after": "Habsburg Miksa"
+ },
+ {
+  "id": "mercado-e-capela-de-sao-sebastiao",
+  "before": "A São Sebastião-i piac és kápolna",
+  "after": "Szent Sebestyén-piac és -kápolna"
+ },
+ {
+  "id": "mercado-uniao",
+  "before": "Mercado União",
+  "after": "Unió-piac"
+ },
+ {
+  "id": "misericordias",
+  "before": "Misericórdiák",
+  "after": "Irgalmassági házak"
+ },
+ {
+  "id": "misericordia-de-machico",
+  "before": "Machicói Misericórdia",
+  "after": "Machicói Irgalmasság Szent Háza"
+ },
+ {
+  "id": "misericordia-de-santa-cruz",
+  "before": "Santa Cruz Misericórdiája",
+  "after": "Santa Cruz-i Irgalmasság Szent Háza"
+ },
+ {
+  "id": "misericordia-do-porto-santo",
+  "before": "Porto Santo Misericórdiája",
+  "after": "Porto Santó-i Irgalmasság Szent Háza"
+ },
+ {
+  "id": "missao-marques-de-pombal",
+  "before": "Missão Marquês de Pombal",
+  "after": "Pombal márki misszió"
+ },
+ {
+  "id": "montepio",
+  "before": "Montepio",
+  "after": "Kölcsönös segélypénztár"
+ },
+ {
+  "id": "montepio-madeirense",
+  "before": "Montepio Madeirense",
+  "after": "Madeirai Kölcsönös Segélypénztár"
+ },
+ {
+  "id": "montepio-maritimo-funchalense",
+  "before": "Montepio Marítimo Funchalense",
+  "after": "Funchali Tengerészeti Kölcsönös Segélypénztár"
+ },
+ {
+  "id": "monumento-a-camara-pestana",
+  "before": "Câmara Pestana emlékműve",
+  "after": "Câmara Pestana-emlékmű"
+ },
+ {
+  "id": "monumento-comemorativo-do-bombardeamento-do-funchal",
+  "before": "A Funchal bombázásának emlékműve",
+  "after": "Funchal bombázásának emlékműve"
+ },
+ {
+  "id": "monumento-aos-aviadore",
+  "before": "A pilóták emlékműve",
+  "after": "A repülők emlékműve"
+ },
+ {
+  "id": "monumento-a-joao-fernandes-vieira",
+  "before": "João Fernandes Vieira emlékműve",
+  "after": "João Fernandes Vieira-emlékmű"
+ },
+ {
+  "id": "monumento-a-nossa-senhora-da-paz",
+  "before": "Nossa Senhora da Paz emlékműve",
+  "after": "Béke Királynője-emlékmű"
+ },
+ {
+  "id": "monumento-ao-sagrado-coracao-de-jesus",
+  "before": "Jézus Szent Szívének emlékműve",
+  "after": "Jézus szíve emlékmű"
+ },
+ {
+  "id": "monumento-a-joao-goncalves-zargo",
+  "before": "João Gonçalves Zargo emlékműve",
+  "after": "João Gonçalves Zargo-emlékmű"
+ },
+ {
+  "id": "monumento-aos-mortos-da-grande-guerra",
+  "before": "A nagy háború halottainak emlékműve",
+  "after": "A világháború halottainak emlékműve"
+ },
+ {
+  "id": "monumento-ao-doutor-teles",
+  "before": "Teles doktor emlékműve",
+  "after": "Dr. Teles-emlékmű"
+ },
+ {
+  "id": "mosteiro-novo",
+  "before": "Mosteiro Novo",
+  "after": "Új kolostor"
+ },
+ {
+  "id": "museu-arqueologico",
+  "before": "Régészeti múzeum",
+  "after": "Régészeti Múzeum"
+ },
+ {
+  "id": "museu-oceanografico",
+  "before": "Oceanográfiai múzeum",
+  "after": "Oceanográfiai Múzeum"
+ },
+ {
+  "id": "mutualismo",
+  "before": "Kölcsönös segítségnyújtás",
+  "after": "Kölcsönös segélyezés"
+ },
+ {
+  "id": "nobiliarios",
+  "before": "Genealógiai munkák",
+  "after": "Nemesi könyvek"
+ },
+ {
+  "id": "nossa-senhora-da-saude-do-monte-olivete-capela-de",
+  "before": "Nossa Senhora da Saúde do Monte Olivete (kápolna)",
+  "after": "Olajfák hegyi Betegek Gyógyítója Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-socorro-capelas-de",
+  "before": "Nossa Senhora do Socorro (kápolnák)",
+  "after": "Segítség Szűzanyja-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-do-terco-capela-de",
+  "before": "Nossa Senhora do Terço (kápolna)",
+  "after": "Olvasós Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-do-vale-capela-de",
+  "before": "Nossa Senhora do Vale (kápolna)",
+  "after": "Völgyi Szűzanya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-dos-varadouros-capela-de",
+  "before": "Nossa Senhora dos Varadouros (kápolna)",
+  "after": "Partraszálló helyek Szűzanyja-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-vida-capelas-de",
+  "before": "Nossa Senhora da Vida (kápolnák)",
+  "after": "Élet Boldogasszonya-kápolnák"
+ },
+ {
+  "id": "nossa-senhora-das-virtudes-capela-de",
+  "before": "Nossa Senhora das Virtudes (kápolna)",
+  "after": "Erények Boldogasszonya-kápolna"
+ },
+ {
+  "id": "nossa-senhora-da-vitoria-capela-de",
+  "before": "Nossa Senhora da Vitória (kápolna)",
+  "after": "Győzelmes Boldogasszony-kápolna"
+ },
+ {
+  "id": "nossa-senhora-das-vitorias-capela-de",
+  "before": "Nossa Senhora das Vitórias (kápolna)",
+  "after": "Győzelmes Boldogasszony-kápolna"
+ },
+ {
+  "id": "nosso-senhor-jesus-cristo-capela-de",
+  "before": "Nosso Senhor Jesus Cristo (kápolna)",
+  "after": "Urunk Jézus Krisztus-kápolna"
+ },
+ {
+  "id": "obras-publicas-distritais",
+  "before": "Kerületi közmunkák",
+  "after": "Kerületi közmunkaügyi hivatal"
+ },
+ {
+  "id": "ordem-serafica",
+  "before": "Ferences rend",
+  "after": "Szeráfi Rend"
+ },
+ {
+  "id": "ordenancas",
+  "before": "Ordenanças",
+  "after": "Népi milícia"
+ },
+ {
+  "id": "orfas-recolhimento-das",
+  "before": "Árvalányok otthona",
+  "after": "Árva leányok menedékháza"
+ },
+ {
+  "id": "orfeao-madeirense",
+  "before": "Orfeão Madeirense",
+  "after": "Madeirai Dalegylet"
+ },
+ {
+  "id": "orgao-de-santa-clara",
+  "before": "A Santa Clara-i orgona",
+  "after": "A Szent Klára-kolostor orgonája"
+ },
+ {
+  "id": "origem-da-ilha-da-madeira",
+  "before": "Origem da Ilha da Madeira",
+  "after": "Madeira szigetének eredete"
+ },
+ {
+  "id": "passos",
+  "before": "A Passió stációi",
+  "after": "Keresztet vivő Krisztus-kápolna"
+ },
+ {
+  "id": "penha-de-franca-bataria-da",
+  "before": "Penha de França (ütege)",
+  "after": "Peña de Francia-i Boldogasszony-kápolna (ütege)"
+ },
+ {
+  "id": "plantas-da-cidade",
+  "before": "A város térképei",
+  "after": "Várostérképek"
+ },
+ {
+  "id": "portugal",
+  "before": "Portugal",
+  "after": "Portugália"
+ },
+ {
+  "id": "posto-antropometrico",
+  "before": "Antropometriai azonosítóállomás",
+  "after": "Antropometriai Állomás"
+ },
+ {
+  "id": "associacao-de-proteccao-e-instrucao-do-sexo-feminino-funchalense",
+  "before": "Funchali Nők Védelmének és Oktatásának Egyesülete",
+  "after": "Funchali Nők Védelmére és Oktatására Alakult Egyesület"
+ },
+ {
+  "id": "associacao-de-socorros-mutuos-4-de-setembro-de-1862",
+  "before": "1862. szeptember 4-i Kölcsönös Segélyező Egylet",
+  "after": "1862. Szeptember 4. Kölcsönös Segélyegylet"
+ },
+ {
+  "id": "associacao-filantropica-dos-estudantes-do-funchal",
+  "before": "Funchali Diákok Filantróp Egyesülete",
+  "after": "Funchali Diákok Jótékonysági Egyesülete"
+ },
+ {
+  "id": "associacao-madeirense-promotora-do-bem-publico-e-do-auxilio-mutuo",
+  "before": "A Közjó és a Kölcsönös Segítségnyújtás Előmozdítására Alakult Madeirai Egyesület",
+  "after": "Madeirai Közjóléti és Kölcsönös Segélyező Egyesület"
+ },
+ {
+  "id": "associacao-protectora-de-estudantes-pobres",
+  "before": "Szegény Diákokat Támogató Egyesület",
+  "after": "Szegény Diákokat Pártoló Egyesület"
+ },
+ {
+  "id": "associacao-protectora-dos-pobres",
+  "before": "Szegényeket Támogató Egyesület",
+  "after": "Szegényeket Pártoló Egyesület"
+ },
+ {
+  "id": "associacao-vinicola-da-madeira-real",
+  "before": "Madeirai Királyi Borászati Egyesület",
+  "after": "Királyi Madeirai Borászati Egyesület"
+ },
+ {
+  "id": "bom-jesus-recolhimento-do",
+  "before": "Bom Jesus (recolhimento)",
+  "after": "Jó Jézus-zárda"
+ },
+ {
+  "id": "brotas-capelas-das",
+  "before": "Brotas (kápolnák)",
+  "after": "Brotasi Boldogasszony-kápolnák"
+ },
+ {
+  "id": "cais--cais-em-frente-da-entrada-da-cidade",
+  "before": "Rakpart az Entrada da Cidade előtt",
+  "after": "A város bejárata előtti rakpart"
+ },
+ {
+  "id": "cais--cais-na-ilha-do-porto-santo",
+  "before": "Porto Santo szigetének rakpartja",
+  "after": "A Porto Santó-i rakpart"
+ },
+ {
+  "id": "camara-eclesiastica",
+  "before": "Egyházi hivatal",
+  "after": "Egyházi kamara"
+ },
+ {
+  "id": "camara-regional-de-agricultura",
+  "before": "Regionális mezőgazdasági kamara",
+  "after": "Regionális Mezőgazdasági Kamara"
+ },
+ {
+  "id": "camaras-municipais",
+  "before": "Városi tanácsok",
+  "after": "Községi tanácsok"
+ },
+ {
+  "id": "caminho-de-ferro-do-monte",
+  "before": "A monte-i fogaskerekű vasút",
+  "after": "Monte-i vasút"
+ },
+ {
+  "id": "canarias",
+  "before": "A Kanári-szigetek",
+  "after": "Kanári-szigetek"
+ },
+ {
+  "id": "cancioneiro-de-resende-a-madeira-no",
+  "before": "Madeira a *Cancioneiro de Resende* című daloskönyvben",
+  "after": "Madeira a Cancioneiro de Resende című daloskönyvben"
+ },
+ {
+  "id": "capela-de-cristo-v-senhor-dos-milagres-de-machico-capela-do",
+  "before": "Capela de Cristo lásd Senhor dos Milagres de Machico (Capela do)",
+  "after": "Krisztus-kápolna lásd A Csodák Ura machicói kápolnája"
+ },
+ {
+  "id": "corpo-santo-capela-do",
+  "before": "Corpo Santo (kápolna)",
+  "after": "Szent Telmo-kápolna"
+ },
+ {
+  "id": "correio-da-madeira-o",
+  "before": "Correio da Madeira (O)",
+  "after": "Correio da Madeira"
+ },
+ {
+  "id": "cristo-capela-de",
+  "before": "Cristo (kápolna)",
+  "after": "Krisztus-kápolna"
+ },
+ {
+  "id": "cruz-do-carvalho-capela-da",
+  "before": "Cruz do Carvalho (kápolna)",
+  "after": "Cruz do Carvalho-i Szent Kereszt-kápolna"
+ },
+ {
+  "id": "desinfeccoes-v-posto-de-desinfeccao-e-posto-maritimo-de-desinfeccao",
+  "before": "Fertőtlenítések lásd Fertőtlenítő állomás és Tengeri fertőtlenítő állomás",
+  "after": "Fertőtlenítések lásd Fertőtlenítőállomás és Tengeri fertőtlenítőállomás"
+ },
+ {
+  "id": "direccao-das-obras-publicas",
+  "before": "Közmunkaügyi igazgatóság",
+  "after": "Közmunkaügyi Igazgatóság"
+ },
+ {
+  "id": "elementos-para-a-historia-madeirense",
+  "before": "Elementos para a História Madeirense",
+  "after": "Adalékok Madeira történetéhez"
+ },
+ {
+  "id": "escola-de-geometria-e-trigonometria",
+  "before": "Geometriai és trigonometriai iskola",
+  "after": "Geometriai és Trigonometriai Iskola"
+ },
+ {
+  "id": "escola-de-pilotagem",
+  "before": "Hajózási iskola",
+  "after": "Révkalauzképző Iskola"
+ },
+ {
+  "id": "escola-de-utilidades-e-belas-artes",
+  "before": "Gyakorlati és képzőművészeti iskola",
+  "after": "Iparművészeti és Képzőművészeti Iskola"
+ },
+ {
+  "id": "escola-elementar-do-comercio",
+  "before": "Elemi kereskedelmi iskola",
+  "after": "Elemi Kereskedelmi Iskola"
+ },
+ {
+  "id": "escola-lancasteriana",
+  "before": "Lancaster-iskola",
+  "after": "Lancaster-féle iskola"
+ },
+ {
+  "id": "escola-medico-cirurgica",
+  "before": "Orvosi-sebészeti iskola",
+  "after": "Orvos-sebészeti Iskola"
+ },
+ {
+  "id": "escola-primaria-superior",
+  "before": "Felsőfokú elemi iskola",
+  "after": "Felső elemi iskola"
+ },
+ {
+  "id": "escutas-corpo-nacional-de",
+  "before": "Cserkészek (Corpo Nacional de Escutas)",
+  "after": "Országos Cserkészszövetség"
+ },
+ {
+  "id": "espirito-santo-capelas-do",
+  "before": "Espírito Santo (kápolnák)",
+  "after": "Szentlélek-kápolnák"
+ },
+ {
+  "id": "feitoria-britanica",
+  "before": "Brit kereskedők társasága",
+  "after": "Brit Kereskedelmi Képviselet"
+ }
+]

@@ -699,7 +699,8 @@ Not yet in the termbase (to be added): mil-réis
 The criteria are the same as in the Russian standard, §10. Format: `транскрипція (значення, Portuguese original)`. The separator is a comma, and the meaning contains no commas.
 
 - **Give** a meaning for dedications (always), multi-word place names made of ordinary common nouns and adjectives (Понта-ду-Сол (Мис Сонця, …), Рибейра-Брава (Бурхлива річка, …), Порту-Санту (Свята гавань, …), Куррал-даш-Фрейраш (Загорода черниць, …)), island groups (Дезерташ (Пустельні острови, …)), and odonyms or quintas with a common-noun specific (вулиця Феррейруш (вулиця Ковалів, …)).
-- **Do not give** one for single-word toponyms (Машику, Кальєта, Монті), names containing a proper name (Сан-Вісенті, Порту-Моніш), obscure or dialect elements (Кабу-Жиран, Фажан-да-Овелья), personal names, exonyms, or translated institutions.
+- **Also give** (widened by the owner on 2026-10-03, matching the Latin-script standard `docs/naming_latin.md` §10): single-word toponyms whose element is an ordinary word (Кальєта (Бухточка, Calheta), Монті (Пагорб, Monte), Канісу (Очерет, Caniço), Боавентура (Добра доля, Boaventura)); names containing a personal name, glossing the generic part and keeping the person (Порту-Моніш (Гавань Моніша, Porto Moniz)); regional terms with an established sense (Фажан-да-Овелья (Овеча фажан — прибережна тераса, Fajã da Ovelha) — keep it short).
+- **Do not give** one for personal names, exonyms, translated institutions, names whose meaning is unknown or only legendary (Машику, from the disputed Machim legend), or where the text itself explains the name.
 - Phrase the meaning in natural Ukrainian, in the nominative. Câmara de Lobos → Тюленяче лігво (lobos = monk seals).
 - The meaning is **translated separately** for Ukrainian. It is not transliterated from the Russian meaning: Загон монахинь → **Загорода черниць**; Плоский островок → **Плаский острівець**; Кузнецов → **Ковалів**.
 
