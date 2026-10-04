@@ -34,9 +34,10 @@ function fmtMB(bytes) {
   return `${(bytes / 1024 / 1024).toFixed(2)} MB`;
 }
 
-function buildSuggestIndex(lang, { index, persons, chronology }) {
+function buildSuggestIndex(lang, { index, persons, chronology, articles }) {
   // Drop front matter (kind-initial "f") from article suggestions — never a useful jump target.
-  const a = index.articles.filter((row) => row[5] !== 'f').map((row) => [row[0], row[1], row[2], row[3], row[4]]);
+  // 6th field: article length in hundreds of characters (length gauge + reading-time tooltip).
+  const a = index.articles.filter((row) => row[5] !== 'f').map((row) => [row[0], row[1], row[2], row[3], row[4], Math.round(((articles && articles[row[0]]?.chars) || 0) / 100)]);
 
   // Intern role strings: ~450 unique free-text occupations repeat across 4,500+ people, but at
   // an average spacing well past gzip's 32 KB window, so literal repeats often don't compress.
@@ -161,7 +162,7 @@ function run() {
     const chronology = readJSON(path.join(dir, 'chronology.json'));
     const index = readJSON(path.join(dir, 'index.json'));
 
-    const { core, people } = buildSuggestIndex(lang, { index, persons, chronology });
+    const { core, people } = buildSuggestIndex(lang, { index, persons, chronology, articles });
     const docs = buildCorpus(lang, { articles, persons, places, chronology });
 
     const corpusBuf = Buffer.from(JSON.stringify(docs));

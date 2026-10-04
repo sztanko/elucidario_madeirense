@@ -256,3 +256,14 @@ mark { background: color-mix(in srgb, var(--date) 32%, transparent); color: inhe
 
 /* Line icons (components/ui/Icon.astro → sprite /icons.svg). Inner paths that need fill/no stroke carry their own attributes. */
 .em-icon { flex: none; display: inline-block; vertical-align: middle; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: square; stroke-linejoin: miter; }
+
+/* Article-length gauge (components/ui/LenGauge.astro, lenGauge.ts): no text, tooltip = reading time. */
+/* Length gauge: a hairline track that fills with the article's length (log scale, 12 steps). No text; it sits on the
+   title's first line in a fixed slot, so it adds no height and keeps the columns aligned. */
+.em-len { display: inline-block; width: 1.5rem; height: 3px; margin-right: .45rem; vertical-align: .32em; text-indent: 0;
+  background: linear-gradient(to right, color-mix(in srgb, var(--ink) 58%, transparent) calc(var(--f, 0) * 100%), var(--line-faint) 0); }
+.em-len[data-l='1'] { --f: .083 } .em-len[data-l='2'] { --f: .167 } .em-len[data-l='3'] { --f: .25 } .em-len[data-l='4'] { --f: .333 }
+.em-len[data-l='5'] { --f: .417 } .em-len[data-l='6'] { --f: .5 } .em-len[data-l='7'] { --f: .583 } .em-len[data-l='8'] { --f: .667 }
+.em-len[data-l='9'] { --f: .75 } .em-len[data-l='10'] { --f: .833 } .em-len[data-l='11'] { --f: .917 } .em-len[data-l='12'] { --f: 1 }
+li:hover .em-len, a:hover > .em-len, .em-search__row.is-active .em-len { background-image: linear-gradient(to right, var(--person) calc(var(--f, 0) * 100%), var(--line-faint) 0); }
+.em-len { flex: none; cursor: help; }

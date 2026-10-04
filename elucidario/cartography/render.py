@@ -72,7 +72,27 @@ def draw_hachures(canvas: skia.Canvas, H: Hachured, st: Style, tx: float, ty: fl
     if W is None or getattr(H, "_wst", None) is not st:
         W = H._w = _weights(H, st)
         H._wst = st
-    path = skia.Path()
+    J = getattr(H, "_jit", None)
+    if J is None:
+        # Hand-drawn irregularity (owner's request 2026-10-04), seeded so tiles are reproducible: per hachure a width
+        # factor, a gentle sideways wobble (amplitude, phase, frequency) and slightly uneven ends.
+        rng = np.random.default_rng(1921)
+        n_h = len(H.off) - 1
+        # Pen-drawn look (reference: hand-engraved hachures): near-even line width, a few small random kinks along each
+        # stroke (control-point jitter, linear in between), slightly uneven ends and an occasional break.
+        J = H._jit = {"wf": rng.uniform(0.9, 1.1, n_h), "kink": rng.normal(0, 1, (n_h, 7)),
+                      "t0": rng.uniform(0, 0.05, n_h), "t1": rng.uniform(0, 0.05, n_h),
+                      # staggered ends: downhill end runs on past its contour, uphill start shifts either way
+                      "xf": rng.uniform(0.05, 0.45, n_h), "xh": rng.uniform(-0.12, 0.18, n_h),
+                      "brk": rng.uniform(0, 1, n_h), "brkat": rng.uniform(0.35, 0.65, n_h)}
+        # tone per hachure (owner's request): light on gentle sunlit slopes, dark on steep shaded ones
+        a0 = H.off[:-1]
+        sl = np.clip(H.slope / st.slope_full, 0, 1)
+        dk = np.clip(1.0 - H.shade, 0, 1)
+        mid = np.minimum(a0 + (H.off[1:] - a0) // 2, len(sl) - 1)
+        J["tone"] = np.clip(0.30 + 0.70 * (0.55 * sl[mid] ** 0.8 + 0.45 * np.clip(dk[mid] * 1.5 - 0.1, 0, 1)), 0.30, 1.0)
+    NT = 8  # tone classes
+    paths = [skia.Path() for _ in range(NT)]
     for i in sel:
         a, b = H.off[i], H.off[i + 1]
         p = (H.xy[a:b] - (tx, ty)) / res
@@ -84,13 +104,41 @@ def draw_hachures(canvas: skia.Canvas, H: Hachured, st: Style, tx: float, ty: fl
         tot = L[-1]
         if tot < 0.6:
             continue
+        wv = W[a:b]
+        # Staggered ends (no white bands where a whole row stops on the same contour): extend the downhill end along
+        # its own direction by a random share of the length, and shift the uphill start in or out.
+        def ext(pts, ws, frac, at_end):
+            if frac <= 0:
+                return pts, ws
+            q = pts[-min(3, len(pts)):] if at_end else pts[:min(3, len(pts))][::-1]
+            d = q[-1] - q[0]
+            dn = np.hypot(*d)
+            if dn < 1e-6:
+                return pts, ws
+            m = max(1, int(round(frac * tot / 1.5)))
+            add = q[-1] + np.outer(np.arange(1, m + 1) / m, d / dn * frac * tot)
+            wadd = np.full(m, ws[-1] if at_end else ws[0])
+            return (np.vstack([pts, add]), np.concatenate([ws, wadd])) if at_end else (np.vstack([add[::-1], pts]), np.concatenate([wadd, ws]))
+        p, wv = ext(p, wv, J["xf"][i], True)
+        xh = J["xh"][i]
+        if xh > 0:
+            p, wv = ext(p, wv, xh, False)
+        seg = np.diff(p, axis=0)
+        L = np.concatenate([[0], np.cumsum(np.hypot(seg[:, 0], seg[:, 1]))])
+        tot = L[-1]
         t = L / tot
+        if xh < 0:  # start a little lower
+            keep = t >= -xh
+            if keep.sum() >= 2:
+                p, wv = p[keep], wv[keep]
+                t = (t[keep] - t[keep][0]) / max(t[keep][-1] - t[keep][0], 1e-6)
+        n = len(p)
         # complete hachures (ended on the next contour) keep a blunt foot; trimmed ones taper out (Samsonov, future work 1)
         r = H.reasons[i]
-        foot = 0.7 if r == 0 else 0.15
+        foot = 0.3 if r == 0 else 0.12  # soft foot: ends blend instead of forming a square seam
         head = 0.25 if r == 5 else 0.75
         taper = np.minimum(np.clip(head + (1 - head) * t / st.taper_in, 0, 1), np.clip(foot + (1 - foot) * (1 - t) / st.taper_out, 0, 1))
-        w = W[a:b] * taper * 0.5
+        w = wv * taper * 0.5 * J["wf"][i]
         # normals from central differences
         d = np.empty_like(p)
         d[1:-1] = p[2:] - p[:-2]
@@ -99,16 +147,31 @@ def draw_hachures(canvas: skia.Canvas, H: Hachured, st: Style, tx: float, ty: fl
         nrm = np.hypot(d[:, 0], d[:, 1])[:, None]
         nrm[nrm == 0] = 1
         nv = np.stack([-d[:, 1], d[:, 0]], axis=1) / nrm
-        left = p + nv * w[:, None]
-        right = (p - nv * w[:, None])[::-1]
-        poly = np.concatenate([left, right])
-        path.addPoly([skia.Point(float(x), float(y)) for x, y in poly], True)
-    paint = skia.Paint(AntiAlias=True, Color=skia.Color(*INK, int(255 * st.alpha)), Style=skia.Paint.kFill_Style)
+        # kinks: k control points along the stroke, each nudged sideways; straight segments in between
+        k = int(min(6, 2 + tot / (st.e_px * 1.1)))
+        ctl = np.linspace(0, 1, k + 1)
+        off = np.interp(t, ctl, J["kink"][i][: k + 1]) * st.e_px * 0.07
+        p = p + nv * off[:, None]
+        # occasional break: a short gap in long strokes, as a pen lifted mid-line
+        parts = [np.arange(n)]
+        if J["brk"][i] < 0.04 and tot > st.e_px * 2.6 and n >= 6:
+            c = J["brkat"][i]
+            parts = [np.nonzero(t < c - 0.07)[0], np.nonzero(t > c + 0.07)[0]]
+        for ix in parts:
+            if len(ix) < 2:
+                continue
+            left = p[ix] + nv[ix] * w[ix, None]
+            right = (p[ix] - nv[ix] * w[ix, None])[::-1]
+            poly = np.concatenate([left, right])
+            paths[min(NT - 1, int(J["tone"][i] * NT))].addPoly([skia.Point(float(x), float(y)) for x, y in poly], True)
     canvas.save()
     if clip is not None:
         canvas.clipPath(clip, doAntiAlias=True)
-    path.setFillType(skia.PathFillType.kWinding)
-    canvas.drawPath(path, paint)
+    for k, path in enumerate(paths):
+        tone = (k + 0.5) / NT
+        paint = skia.Paint(AntiAlias=True, Color=skia.Color(*INK, int(255 * st.alpha * tone)), Style=skia.Paint.kFill_Style)
+        path.setFillType(skia.PathFillType.kWinding)
+        canvas.drawPath(path, paint)
     canvas.restore()
     return len(sel)
 

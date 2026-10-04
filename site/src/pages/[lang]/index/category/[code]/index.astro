@@ -1,4 +1,5 @@
 ---
+import LenGauge from '../../../../../components/ui/LenGauge.astro';
 // Articles of a taxonomy class or subtype.
 import Base from '../../../../../layouts/Base.astro';
 import Breadcrumbs from '../../../../../components/pages/Breadcrumbs.astro';
@@ -53,7 +54,7 @@ const parentCode = isClass ? null : taxClass(code);
   <ul class="em-article-list" role="list">
     {list.map((a) => (
       <li>
-        <a href={u.article(lang, a.id)}>{a.hw}</a>
+        <LenGauge id={a.id} lang={lang} /><a href={u.article(lang, a.id)}>{a.hw}</a>
         {lang !== 'pt' && a.hw_pt && a.hw_pt !== a.hw && <em class="em-orig" lang="pt"> {a.hw_pt}</em>}
       </li>
     ))}

@@ -40,7 +40,7 @@ def main(argv: list[str]):
     GEN.mkdir(parents=True, exist_ok=True)
     m = _manifest()
     t0 = time.time()
-    A = Archipelago() if {"tiles", "regions", "hachures"} & set(steps) else None
+    A = Archipelago() if {"tiles", "regions", "hachures", "hero"} & set(steps) else None
     sets = {}
 
     def sets_by_z(z):
@@ -57,7 +57,8 @@ def main(argv: list[str]):
         stats = {}
         for z in range(len(I.LEVELS)):
             t = time.time()
-            tiles[z] = I.build_tiles(A, z, sets_by_z(z), OUT)
+            ds, st = I.draw_set(sets_by_z, z)
+            tiles[z] = I.build_tiles(A, z, ds, OUT, st)
             size = sum(f.stat().st_size for f in (OUT / "t" / str(z)).glob("*.avif"))
             stats[z] = {**{k: sum(s[5][k] for s in sets_by_z(z)) for k in ("n", "inserted", "up")},
                         "h": sets_by_z(z)[0][5]["h"], "e_m": sets_by_z(z)[0][5]["e_m"], "tiles": len(tiles[z]), "bytes": size}
@@ -78,6 +79,9 @@ def main(argv: list[str]):
         m["labels"] = {"archipelago": "labels-archipelago.json"}
         print("labels:", I.build_labels(A, OUT))
         m["locator"] = I.build_locators(A, OUT)
+    if "hero" in steps:
+        m["hero"] = I.build_hero(A, sets_by_z, OUT)
+        print("hero:", m["hero"])
     if "continents" in steps:
         from elucidario.cartography import continents as C
 

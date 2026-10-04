@@ -1,4 +1,5 @@
 ---
+import LenGauge from '../../../components/ui/LenGauge.astro';
 // People, one page per letter: every person whose display name starts with the letter is an entry (anchor = person slug).
 // Person links everywhere resolve to /{lang}/people/{letter}/#{slug} via urls.person().
 import Base from '../../../layouts/Base.astro';
@@ -83,7 +84,7 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
           {main && <p class="pl-main"><span class="pl-k">{t(lang, 'main_article')}</span> <a href={u.article(lang, main.id)}>{main.hw}</a></p>}
           {noted.length > 0 && (
             <ul class="pl-m">
-              {noted.map((m) => <li><a href={u.article(lang, m.a) + (m.b ? `#${m.b}` : '')}>{m.hw}</a>{m.note && <span lang={p.ml || undefined}> — {m.note}</span>}</li>)}
+              {noted.map((m) => <li><LenGauge id={m.a} lang={lang} /><a href={u.article(lang, m.a) + (m.b ? `#${m.b}` : '')}>{m.hw}</a>{m.note && <span lang={p.ml || undefined}> — {m.note}</span>}</li>)}
             </ul>
           )}
           {linked.length > 0 && (

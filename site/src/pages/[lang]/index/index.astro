@@ -4,6 +4,7 @@ import Base from '../../../layouts/Base.astro';
 import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
 import SectionHead from '../../../components/ui/SectionHead.astro';
 import { languages, index } from '../../../lib/data';
+import LenGauge from '../../../components/ui/LenGauge.astro';
 import { letterOf, groupBy } from '../../../components/pages/content';
 import { t } from '../../../i18n/ui';
 import * as u from '../../../lib/urls';
@@ -18,6 +19,8 @@ const sorted = [...idx.articles].sort((a, b) => a[1].localeCompare(b[1], lang, {
 const byLetter = groupBy(sorted, (r) => letterOf(r[1]));
 const letters = [...byLetter.keys()].sort((a, b) => (a === '#' ? 1 : b === '#' ? -1 : a.localeCompare(b, lang)));
 const bookOrder = idx.articles; // already in book order per data contract
+// Length gauge: 12 steps on a log scale (80 chars → 1 … 160,000 chars → 12); 0 = cross-reference (empty track).
+
 ---
 <Base lang={lang} title={`${t(lang, 'index_by_letter')} — Elucidário Madeirense`} description={t(lang, 'index_by_letter')} kind="index">
   <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'index_by_letter') }]} />
@@ -42,7 +45,7 @@ const bookOrder = idx.articles; // already in book order per data contract
           <ul class="em-index-list">
             {byLetter.get(l)!.map(([id, hw, hw_pt]) => (
               <li>
-                <a href={u.article(lang, id)}>{hw}</a>
+                <LenGauge id={id} lang={lang} /><a href={u.article(lang, id)}>{hw}</a>
                 {lang !== 'pt' && hw_pt && hw_pt !== hw && <em class="em-orig" lang="pt"> {hw_pt}</em>}
               </li>
             ))}
@@ -55,7 +58,7 @@ const bookOrder = idx.articles; // already in book order per data contract
       <ul class="em-index-list">
         {bookOrder.map(([id, hw, hw_pt]) => (
           <li>
-            <a href={u.article(lang, id)}>{hw}</a>
+            <LenGauge id={id} lang={lang} /><a href={u.article(lang, id)}>{hw}</a>
             {lang !== 'pt' && hw_pt && hw_pt !== hw && <em class="em-orig" lang="pt"> {hw_pt}</em>}
           </li>
         ))}
@@ -79,7 +82,7 @@ const bookOrder = idx.articles; // already in book order per data contract
   .em-index-alpha, .em-index-book { columns: 4 14rem; column-gap: var(--col-gap); }
   .em-index-book { display: none; }
   .em-index-list { list-style: none; margin: 0; padding: 0; }
-  .em-index-list li { break-inside: avoid; font-size: var(--fs-small); line-height: 1.6; }
+  .em-index-list li { break-inside: avoid; font-size: var(--fs-small); line-height: 1.6; padding-left: 1.95rem; text-indent: -1.95rem; }
   .em-index-list a { color: var(--ink); text-decoration: none; }
   .em-index-list a:hover { color: var(--person-ink); text-decoration: underline; }
   .em-orig { opacity: .65; font-size: .85em; }

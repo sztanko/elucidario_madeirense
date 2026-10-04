@@ -92,3 +92,13 @@ export function edtfLabel(s: string | null | undefined): string {
   const approx = /^[~%]|[~%](?=$|\/)/.test(s);
   return (approx ? 'c. ' : '') + s.replace(/[~%]/g, '').replace(/X/g, '?').replace(/\//, '–');
 }
+
+/** Madeira (the island / the archipelago) is never shown as a location: it is the trivial default of the encyclopedia. */
+export const TRIVIAL_ISLAND = 'Madeira';
+export function isTrivialPlace(slug: string): boolean {
+  const g = geo()[slug];
+  return !!g && /^(Madeira|Ilha da Madeira|Arquipélago da Madeira|Madeira \(Ilha da\)|Madeira \(Arquipélago da\))$/.test(g.pt);
+}
+/** Location qualifiers for display, without the trivial island. */
+export const locParts = (...parts: (string | null | undefined)[]) =>
+  parts.filter((v, i, arr) => v && v !== 'none' && v !== TRIVIAL_ISLAND && arr.indexOf(v) === i) as string[];

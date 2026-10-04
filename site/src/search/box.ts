@@ -1,3 +1,4 @@
+import { gaugeHtml } from '../components/ui/lenGauge';
 // Runtime controller for <SearchBox>. Vanilla TS, no framework. Mounted once per `.em-search`
 // element found on the page (there can be two: a hero box on the home page and a header box).
 // Owner: search agent.
@@ -305,7 +306,7 @@ class SearchBoxController {
         li.className = `em-search__row em-role-${r.type === 'category' ? 'ink' : r.type}`;
         li.innerHTML =
           `<span class="em-search__rowicon">${this.icon(r.type === 'category' ? 'category' : r.type)}</span>` +
-          `<span class="em-search__rowtext"><span class="em-search__rowlabel">${highlighted(r.label, query)}</span>` +
+          `<span class="em-search__rowtext"><span class="em-search__rowlabel">${r.type === 'article' && r.chars ? gaugeHtml(r.chars, this.lang) : ''}${highlighted(r.label, query)}</span>` +
           `<span class="em-search__rowsub">${escapeHtml(r.sub)}</span></span>` +
           `<span class="em-search__rowarrow">${this.icon('arrow-right')}</span>`;
       }

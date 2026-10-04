@@ -25,6 +25,18 @@ ORIGIN = (-80000.0, -140000.0)  # world tile-grid origin (metres, Y south)
 LEVELS = [80.0, 40.0, 20.0, 10.0, 5.0]  # metres per tile pixel, z0..z4
 SIGMA = [3.0, 3.0, 2.5, 2.0, 1.6]  # Gaussian generalisation per LOD, in DEM px (cell = e/2)
 STYLE = R.Style(slope_full=55.0)
+# Owner's request (2026-10-04): one level less detail everywhere — each level is drawn with the hachures of the next
+# coarser level, with stroke widths scaled so the plate keeps its proportions (bolder, sparser lines).
+COARSER = 1
+
+
+def draw_set(sets_by_z, z: int):
+    """(hachure sets, style) used to DRAW level z: the set of level z-COARSER, strokes scaled by the resolution ratio."""
+    import dataclasses
+
+    zs = max(0, z - COARSER)
+    k = LEVELS[zs] / LEVELS[z]
+    return sets_by_z(zs), (STYLE if zs == z else dataclasses.replace(STYLE, e_px=STYLE.e_px * k))
 E_PX = STYLE.e_px
 AVIF_Q = 52
 
@@ -88,8 +100,9 @@ def hachure_level(A: Archipelago, z: int) -> list[tuple[str, R.Hachured, np.ndar
     return out
 
 
-def _draw(A: Archipelago, sets, tx: float, ty: float, res: float, size: tuple[int, int]) -> np.ndarray:
+def _draw(A: Archipelago, sets, tx: float, ty: float, res: float, size: tuple[int, int], st=None) -> np.ndarray:
     """Ink-on-white greyscale raster of the window (hachures + shadow wash), uint8 [H, W]."""
+    st = st or STYLE
     Wp, Hp = size
     win = box(tx, ty, tx + Wp * res, ty + Hp * res)
     base = np.zeros((Hp, Wp, 4), np.uint8)
@@ -98,7 +111,7 @@ def _draw(A: Archipelago, sets, tx: float, ty: float, res: float, size: tuple[in
         if not A.islands[isl].buffer(res * 4).intersects(win):
             continue
         hit = True
-        w = R.wash_rgba(shade, Zs, X0, Y0, cell, tx, ty, res, size, STYLE)
+        w = R.wash_rgba(shade, Zs, X0, Y0, cell, tx, ty, res, size, st)
         base = np.maximum(base, w)
     if not hit:
         return None
@@ -106,14 +119,14 @@ def _draw(A: Archipelago, sets, tx: float, ty: float, res: float, size: tuple[in
     clip = R.geom_path(A.land.intersection(win.buffer(res * 8)), tx, ty, res)
     with surf as c:
         for isl, H, *_ in sets:
-            R.draw_hachures(c, H, STYLE, tx, ty, res, size, clip)
+            R.draw_hachures(c, H, st, tx, ty, res, size, clip)
     a = arr[..., 3:4].astype(np.float32) / 255.0
     rgb = arr[..., :3].astype(np.float32) + (1 - a) * 255.0  # premultiplied over white
     L = rgb @ np.array([0.299, 0.587, 0.114], np.float32)
     return np.clip(L, 0, 255).astype(np.uint8)
 
 
-def build_tiles(A: Archipelago, z: int, sets, out: Path) -> list[str]:
+def build_tiles(A: Archipelago, z: int, sets, out: Path, st=None) -> list[str]:
     res = LEVELS[z]
     T = TILE * res
     d = out / "t" / str(z)
@@ -130,7 +143,7 @@ def build_tiles(A: Archipelago, z: int, sets, out: Path) -> list[str]:
                 tx, ty = ORIGIN[0] + i * T, ORIGIN[1] + j * T
                 if not g.intersects(box(tx, ty, tx + T, ty + T)):
                     continue
-                L = _draw(A, sets, tx, ty, res, (TILE, TILE))
+                L = _draw(A, sets, tx, ty, res, (TILE, TILE), st)
                 if L is None or L.min() > 250:
                     continue
                 Image.fromarray(L, "L").save(d / f"{k}.avif", quality=AVIF_Q, speed=6)
@@ -149,7 +162,8 @@ def build_preview(A: Archipelago, frame, sets_by_z, out: Path, rid: str) -> dict
             continue
         res = LEVELS[z]
         size = (int(round(W / res)), int(round((y1 - y0) / res)))
-        L = _draw(A, sets_by_z(z), x0, y0, res, size)
+        ds, st = draw_set(sets_by_z, z)
+        L = _draw(A, ds, x0, y0, res, size, st)
         f = out / rid / f"relief-{tag}.avif"
         f.parent.mkdir(parents=True, exist_ok=True)
         Image.fromarray(L, "L").save(f, quality=AVIF_Q + 4, speed=6)
@@ -336,3 +350,65 @@ def build_locators(A: Archipelago, out: Path) -> dict:
         (out / "loc" / f"{key}.svg").write_text(svg)
         files[hl or ""] = f"loc/{key}.svg"
     return {"files": files, "aspect": round(W / H, 4)}
+
+
+# --------------------------------------------------------------------------- home-page artwork
+def build_hero(A: Archipelago, sets_by_z, out: Path) -> dict:
+    """Main island only, as an engraved plate without any map furniture: blue water-lining rings, paper land, ink
+    flowline hachures (with the shadow wash) and the coastline. Transparent background so the page paper shows through.
+    Written as hero/madeira-{l,s}.{avif,webp}."""
+    import skia
+
+    isl = A.islands["Madeira"]
+    frame = region_frame(A, {"islands": ["Madeira"], "pad": 4200})
+    x0, y0, x1, y1 = frame
+    W, H = x1 - x0, y1 - y0
+    z = 2
+    res = LEVELS[z]
+    size = (int(round(W / res)), int(round(H / res)))
+    Wp, Hp = size
+    ds, st = draw_set(sets_by_z, z)
+    sets = [s for s in ds if s[0] == "Madeira"]
+    L = _draw(A, sets, x0, y0, res, size, st)  # ink on white, uint8
+    surf, arr = R.new_surface(size)
+    ink = skia.Color4f(0x17 / 255, 0x1B / 255, 0x19 / 255, 1)
+    blue = skia.Color4f(0x16 / 255, 0x4C / 255, 0x59 / 255, 1)
+    with surf as c:
+        # water-lining around the main island only
+        for k, ring in water_rings(isl, frame):
+            p = skia.Path()
+            for g in ([ring] if ring.geom_type == "LineString" else list(getattr(ring, "geoms", []))):
+                if g.geom_type != "LineString" or len(g.coords) < 2:
+                    continue
+                pts = (np.asarray(g.coords) - (x0, y0)) / res
+                p.moveTo(*map(float, pts[0]))
+                for x, y in pts[1:]:
+                    p.lineTo(float(x), float(y))
+            paint = skia.Paint(AntiAlias=True, Style=skia.Paint.kStroke_Style, StrokeWidth=1.6,
+                               Color4f=skia.Color4f(blue.fR, blue.fG, blue.fB, [0.55, 0.45, 0.36, 0.28, 0.2, 0.13][k]))
+            c.drawPath(p, paint)
+        land = R.geom_path(isl, x0, y0, res)
+        c.drawPath(land, skia.Paint(AntiAlias=True, Color4f=skia.Color4f(0xF2 / 255, 0xEA / 255, 0xD8 / 255, 1)))
+    # hachures + wash as ink with alpha = darkness, composited over the land
+    a_ink = (255 - L.astype(np.float32)) / 255.0
+    base = arr.astype(np.float32) / 255.0  # premultiplied
+    inkc = np.array([ink.fR, ink.fG, ink.fB], np.float32)
+    rgb = base[..., :3] * (1 - a_ink[..., None]) + inkc * a_ink[..., None]
+    alpha = base[..., 3] + a_ink * (1 - base[..., 3])
+    arr[..., :3] = np.clip(rgb * 255, 0, 255).astype(np.uint8)
+    arr[..., 3] = np.clip(alpha * 255, 0, 255).astype(np.uint8)
+    surf2, arr2 = R.new_surface(size, arr)
+    with surf2 as c:
+        c.drawPath(R.geom_path(isl, x0, y0, res),
+                   skia.Paint(AntiAlias=True, Style=skia.Paint.kStroke_Style, StrokeWidth=2.2, Color4f=ink,
+                              StrokeJoin=skia.Paint.kRound_Join))
+    img = Image.fromarray(R.to_straight_rgba(arr2), "RGBA")
+    d = out / "hero"
+    d.mkdir(parents=True, exist_ok=True)
+    files = {}
+    for tag, scale in (("l", 1.0), ("s", 0.5)):
+        im = img if scale == 1.0 else img.resize((int(Wp * scale), int(Hp * scale)), Image.LANCZOS)
+        im.save(d / f"madeira-{tag}.avif", quality=62, speed=5)
+        im.save(d / f"madeira-{tag}.webp", quality=82, method=6)
+        files[tag] = {"w": im.width, "h": im.height}
+    return {"frame": frame, "files": files}

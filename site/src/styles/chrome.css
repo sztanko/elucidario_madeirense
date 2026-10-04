@@ -84,18 +84,22 @@
 @media (min-width: 56rem) { .em-hdr__btn--hist, .em-hdr__btn--print { display: inline-flex; } }
 @media (min-width: 74rem) { .em-hdr__btn--menu { display: none; } }
 
-.em-hdr__langs { display: none; }
-@media (min-width: 56rem) {
-  .em-hdr__langs { display: flex; margin: 0 0 0 .4rem; padding: 0 0 0 .5rem; border-left: 1px solid var(--line); height: 100%; }
-  .em-hdr__langs a {
-    position: relative; display: grid; place-items: center; min-width: 2.4rem; height: 100%; padding: 0 .3rem;
-    font: var(--w-label) .75rem/1 var(--font-label); letter-spacing: .14em; text-decoration: none; color: var(--ink-3);
-  }
-  .em-hdr__langs a:hover { color: var(--ink); }
-  .em-hdr__langs a.on { color: var(--ink); }
-  .em-hdr__langs a.on::after { content: ''; position: absolute; left: .55rem; right: .55rem; bottom: -1px; height: 3px; background: var(--person); }
-}
-.em-hdr__tools .em-hdr__langs { height: var(--hdr-h); }
+.em-hdr__lang { position: relative; display: flex; align-items: center; height: 100%; }
+@media (min-width: 56rem) { .em-hdr__lang { margin-left: .4rem; padding-left: .3rem; border-left: 1px solid var(--line); } }
+.em-hdr__langbtn { gap: .2rem; width: auto; padding: 0 .55rem; font: 700 var(--fs-label)/1 var(--font-label); letter-spacing: .16em; }
+.em-hdr__langcur { color: var(--ink); }
+.em-hdr__langbtn .em-icon { opacity: .65; transition: transform var(--dur-2, .2s) var(--ease, ease); }
+.em-hdr__langbtn[aria-expanded='true'] .em-hdr__langcur { color: var(--paper-light); }
+.em-hdr__langbtn[aria-expanded='true'] .em-icon { transform: rotate(180deg); }
+.em-hdr__langs { position: absolute; top: 100%; right: 0; z-index: var(--z-overlay, 60); min-width: 13rem; margin: 0; padding: .35rem 0;
+  list-style: none; background: var(--paper-light); border: 1px solid var(--ink); box-shadow: 4px 4px 0 var(--ink); }
+.em-hdr__langs[hidden] { display: none; }
+.em-hdr__langs a { display: flex; align-items: baseline; gap: .7rem; padding: .6rem 1rem; color: var(--ink); text-decoration: none; font-family: var(--font-text); }
+.em-hdr__langs a b { width: 1.8rem; font: 700 var(--fs-label)/1 var(--font-label); letter-spacing: .16em; color: var(--ink-3, var(--ink)); }
+.em-hdr__langs a:hover, .em-hdr__langs a:focus-visible { background: var(--ink); color: var(--paper-light); outline: none; }
+.em-hdr__langs a:hover b, .em-hdr__langs a:focus-visible b { color: var(--paper-light); }
+.em-hdr__langs a.on b { color: var(--person-ink); }
+.em-hdr__langs a.on { font-weight: 600; }
 
 /* ---- Dialog base (sheet + drawer) --------------------------------------- */
 .em-sheet, .em-drawer {

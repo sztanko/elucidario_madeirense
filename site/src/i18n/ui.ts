@@ -157,7 +157,7 @@ const en = {
   plane_hint: 'Drag to move · pinch or scroll to zoom · tap an article',
   plane_here: 'On the sheet',
   // map (cartography agent)
-  map_of: 'Map', map_abroad: 'Abroad', map_zoom_in: 'Zoom in', map_zoom_out: 'Zoom out', map_reset: 'Reset view',
+  map_of: 'Map', map_abroad: 'Abroad', map_zoom_in: 'Zoom in', map_zoom_out: 'Zoom out', map_reset: 'Reset view', map_full: 'Full screen',
   map_wheel_hint: 'Use Ctrl + scroll (⌘ + scroll) to zoom the map', map_touch_hint: 'Use two fingers to move the map',
   map_places_n: 'places', map_back_islands: 'Back to the islands', map_scale: 'Scale', map_mentions: 'mentions',
 } as const;
@@ -227,7 +227,7 @@ const pt: Partial<Record<UIKey, string>> = {
   plane_open: 'Mostrar o lugar deste artigo na folha',
   plane_hint: 'Arraste para mover · aproxime com dois dedos ou a roda · toque num artigo',
   plane_here: 'Na folha',
-  map_of: 'Mapa', map_abroad: 'No estrangeiro', map_zoom_in: 'Aproximar', map_zoom_out: 'Afastar', map_reset: 'Repor vista',
+  map_of: 'Mapa', map_abroad: 'No estrangeiro', map_zoom_in: 'Aproximar', map_zoom_out: 'Afastar', map_reset: 'Repor vista', map_full: 'Ecrã inteiro',
   map_wheel_hint: 'Use Ctrl + roda (⌘ + roda) para ampliar o mapa', map_touch_hint: 'Use dois dedos para mover o mapa',
   map_places_n: 'lugares', map_back_islands: 'Voltar às ilhas', map_scale: 'Escala', map_mentions: 'menções',
 };
@@ -294,7 +294,7 @@ const uk: Partial<Record<UIKey, string>> = {
   plane_open: 'Показати місце цієї статті на аркуші',
   plane_hint: 'Перетягуйте, щоб рухатися · зводьте пальці або прокручуйте для масштабу · торкніться статті',
   plane_here: 'На аркуші',
-  map_of: 'Мапа', map_abroad: 'За кордоном', map_zoom_in: 'Наблизити', map_zoom_out: 'Віддалити', map_reset: 'Скинути вигляд',
+  map_of: 'Мапа', map_abroad: 'За кордоном', map_zoom_in: 'Наблизити', map_zoom_out: 'Віддалити', map_reset: 'Скинути вигляд', map_full: 'На весь екран',
   map_wheel_hint: 'Ctrl + прокрутка (⌘ + прокрутка), щоб змінити масштаб', map_touch_hint: 'Рухайте мапу двома пальцями',
   map_places_n: 'місць', map_back_islands: 'Назад до островів', map_scale: 'Масштаб', map_mentions: 'згадок',
 };
@@ -359,7 +359,7 @@ const hu: Partial<Record<UIKey, string>> = {
   plane_open: 'A szócikk helye a lapon',
   plane_hint: 'Húzza a mozgatáshoz · csípje vagy görgessen a nagyításhoz · koppintson egy szócikkre',
   plane_here: 'A lapon',
-  map_of: 'Térkép', map_abroad: 'Külföldön', map_zoom_in: 'Nagyítás', map_zoom_out: 'Kicsinyítés', map_reset: 'Nézet visszaállítása',
+  map_of: 'Térkép', map_abroad: 'Külföldön', map_zoom_in: 'Nagyítás', map_zoom_out: 'Kicsinyítés', map_reset: 'Nézet visszaállítása', map_full: 'Teljes képernyő',
   map_wheel_hint: 'Ctrl + görgetés (⌘ + görgetés) a nagyításhoz', map_touch_hint: 'Két ujjal mozgassa a térképet',
   map_places_n: 'hely', map_back_islands: 'Vissza a szigetekhez', map_scale: 'Lépték', map_mentions: 'említés',
 };

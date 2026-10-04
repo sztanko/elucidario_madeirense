@@ -1,3 +1,4 @@
+import { gaugeHtml } from '../components/ui/lenGauge';
 // Controller for /{lang}/search/ — the advanced full-text search page. Vanilla TS.
 // Spins up corpusWorker.ts, mirrors state in the URL (?q=&type=&category=&island=&mun=&yfrom=
 // &yto=&length=&sort=&page=) for shareable searches, and renders results with snippets.
@@ -224,7 +225,7 @@ export function initSearchPage(root: HTMLElement) {
       li.innerHTML = `
         <span class="em-adv__hiticon">${iconMarkup(typeIconName(item.type), 20)}</span>
         <div class="em-adv__hitbody">
-          <a class="em-adv__hittitle" href="${escapeHtml(item.href)}">${escapeHtml(item.label)}</a>
+          <a class="em-adv__hittitle" href="${escapeHtml(item.href)}">${item.chars ? gaugeHtml(item.chars, lang) : ''}${escapeHtml(item.label)}</a>
           <p class="em-adv__snippet">${item.snippetHtml}</p>
         </div>
       `;

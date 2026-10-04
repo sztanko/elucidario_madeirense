@@ -11,7 +11,7 @@ import Label from '../../components/ui/Label.astro';
 import SectionHead from '../../components/ui/SectionHead.astro';
 import Rule from '../../components/ui/Rule.astro';
 import { fmtInt, fmtEdtf } from '../../components/ui/format';
-import { languages, meta, articles, index, featured, geo, chronology } from '../../lib/data';
+import { languages, meta, articles, index, featured, geo, chronology, isTrivialPlace } from '../../lib/data';
 import { hashInt, centuryOf, letterOf } from '../../components/pages/content';
 import { t } from '../../i18n/ui';
 import * as u from '../../lib/urls';
@@ -34,7 +34,7 @@ const featuredArticles = (F.home ?? F.ranked.slice(0, 6)).filter((id) => arts[id
 
 // Featured places: top mentioned places that have their own article.
 const placeRow = new Map(idx.places.map((r) => [r[0], r]));
-const featuredPlaces = (F.places ?? []).map((sl) => placeRow.get(sl)).filter(Boolean).slice(0, 6) as typeof idx.places;
+const featuredPlaces = (F.places ?? []).filter((sl) => !isTrivialPlace(sl)).map((sl) => placeRow.get(sl)).filter(Boolean).slice(0, 6) as typeof idx.places;
 
 // Featured people: top mentioned persons.
 const personRow = new Map(idx.persons.map((r) => [r[0], r]));
@@ -75,6 +75,16 @@ const jsonld = [
 ];
 ---
 <Base lang={lang} title={title} description={t(lang, 'tagline')} kind="home" jsonld={jsonld}>
+  {/* Home-page artwork: the main island as an engraved hachure plate (elucidario/cartography, `build hero`) —
+      no frame, labels or controls; transparent, so the paper shows through. */}
+  <figure class="em-home-art" aria-hidden="true">
+    <picture>
+      <source type="image/avif" srcset={`${u.BASE}/maps/hero/madeira-s.avif 1639w, ${u.BASE}/maps/hero/madeira-l.avif 3279w`} sizes="(min-width: 90rem) 86rem, 96vw" />
+      <img src={`${u.BASE}/maps/hero/madeira-s.webp`} srcset={`${u.BASE}/maps/hero/madeira-s.webp 1639w, ${u.BASE}/maps/hero/madeira-l.webp 3279w`}
+        sizes="(min-width: 90rem) 86rem, 96vw" width="1639" height="872" alt="" loading="eager" fetchpriority="high" decoding="async" />
+    </picture>
+  </figure>
+
   <header class="em-home-head">
     <Label as="p" bar wide role="person">{`${fmtInt(m.languages.length, lang)} ${t(lang, 'languages_n')} · ${fmtInt(m.counts.articles, lang)} ${t(lang, 'articles')}`}</Label>
     <h1 class="em-masthead em-home-title">
@@ -86,7 +96,6 @@ const jsonld = [
       ) : 'ELUCIDÁRIO MADEIRENSE'}
     </h1>
     <p class="em-tagline em-didone">{t(lang, 'tagline')}</p>
-    <p class="em-home-intro">{t(lang, 'home_intro')}</p>
     <div class="em-hero-search"><SearchBox lang={lang} variant="hero" /></div>
   </header>
 
@@ -95,6 +104,9 @@ const jsonld = [
       ? <a href={`${u.indexLetter(lang)}#${l}`}>{l}</a>
       : <span aria-hidden="true">{l}</span>)}
   </nav>
+
+  <p class="em-home-intro">{t(lang, 'home_intro')}</p>
+
 
   <section class="em-section" aria-labelledby="h-featured">
     <SectionHead n="1" title={t(lang, 'featured_articles')} id="h-featured" />
@@ -173,7 +185,14 @@ const jsonld = [
   .em-title-orig { display: block; }
   .em-title-translit { display: block; font-size: .32em; opacity: .72; letter-spacing: .04em; text-transform: none; }
   .em-tagline { font-size: var(--fs-lede); opacity: .8; margin: 0 0 var(--s-4); }
-  .em-home-intro { max-width: 46em; margin: 0 auto var(--s-6); font-size: var(--fs-text); line-height: 1.5; color: var(--ink-2, var(--ink)); text-wrap: balance; }
+  .em-home-art { margin: var(--s-3) auto calc(-1 * var(--s-6)); padding: 0 var(--gutter); max-width: 86rem; pointer-events: none; position: relative; z-index: 0; }
+  .em-home-art img { display: block; width: 100%; height: auto; }
+  @media (prefers-reduced-motion: no-preference) {
+    .em-home-art img { animation: em-art-in 1.2s var(--ease, ease) both; }
+    @keyframes em-art-in { from { opacity: 0; transform: translateY(.6rem); } to { opacity: 1; transform: none; } }
+  }
+  @media print { .em-home-art { display: none; } }
+  .em-home-intro { max-width: 46em; margin: 0 auto var(--s-7); padding: 0 var(--gutter); text-align: center; font-size: var(--fs-text); line-height: 1.5; color: var(--ink-2, var(--ink)); text-wrap: balance; }
   .em-hero-search { max-width: 42rem; margin: 0 auto; }
 
   .em-az-rail { display: flex; flex-wrap: wrap; justify-content: center; gap: .15rem; padding: .5rem var(--gutter) var(--s-6); font-size: .8rem; font-variant-numeric: tabular-nums; }

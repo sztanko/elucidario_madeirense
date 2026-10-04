@@ -149,3 +149,17 @@ During a gesture only the stage's CSS `transform` changes (compositor-only, 60 f
 - **Numbering.** `Places.astro` numbers its list by `a.plc` order, while `mapPlaces` drops places without coordinates. Pass `n` to keep the numbers identical (see TEAM.md Requests).
 - **Continent plates** have no relief (no global DEM in the cache). LAEA scale varies away from the centre, so the scale bar holds at the centre.
 - **Clusters and labels** are recomputed at rest only, so during a pinch, labels scale with the plate for a moment.
+
+## Rendering style (owner-approved 2026-10-04)
+
+Departures from a strict Samsonov (2014) rendering, chosen for a hand-engraved look:
+- **One level coarser:** each zoom level is drawn with the hachure set of the next coarser level, with strokes scaled by the
+  resolution ratio (`islands.draw_set`, `COARSER = 1`).
+- **Tone per hachure:** 8 tone classes from light (gentle, sunlit) to dark (steep, shaded), on top of the slope-driven width
+  (`render.draw_hachures`).
+- **Staggered ends:** the downhill end of each hachure runs on past its contour by 5–45% of its length, and the uphill
+  start shifts by −12…+18%. This removes the white bands where whole rows stop on the same contour (cf. the paper's own
+  "hachure length equalisation" future-work item). Feet are soft: taper 0.3 for complete hachures, 0.12 for trimmed.
+- **Slight hand irregularity:** width factor 0.9–1.1, small kinks (control-point jitter, 0.07·e), ends trimmed by up to
+  5%, and about 1 in 25 long strokes broken.
+All of it is seeded (`numpy` seed 1921), so tiles are reproducible.

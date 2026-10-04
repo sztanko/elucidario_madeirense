@@ -4,6 +4,7 @@
 import * as u from '../../lib/urls';
 import { taxClass } from '../../lib/data';
 import Plate from '../art/Plate.astro';
+import LenGauge from '../ui/LenGauge.astro';
 interface Props { lang: string; id: string; hw: string; hw_pt?: string; abs?: string | null; type?: string; no?: number; ml?: string }
 const { lang, id, hw, hw_pt, abs, type, no, ml } = Astro.props as Props;
 const role = taxClass(type);
@@ -13,7 +14,7 @@ const role = taxClass(type);
     <Plate seed={id} category={type} size={96} variant="plate" />
   </a>
   <div class="em-card-body">
-    {no !== undefined && <p class="em-card-no">Nº {String(no).padStart(4, '0')}</p>}
+    {no !== undefined && <p class="em-card-no"><LenGauge id={id} lang={lang} />Nº {String(no).padStart(4, '0')}</p>}
     <h3><a href={u.article(lang, id)}>{hw}</a></h3>
     {lang !== 'pt' && hw_pt && hw_pt !== hw && <p class="em-card-pt" lang="pt"><em>{hw_pt}</em></p>}
     {abs && <p class="em-card-abs">{abs}{ml && <span class="em-ml" title="English metadata">EN</span>}</p>}

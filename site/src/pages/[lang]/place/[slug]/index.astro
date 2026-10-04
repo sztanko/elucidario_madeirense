@@ -1,4 +1,5 @@
 ---
+import LenGauge from '../../../../components/ui/LenGauge.astro';
 // Place page: name, type, parish/municipality/island or country/continent, precision, summary, map, mentions, events, nearby.
 import Base from '../../../../layouts/Base.astro';
 import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
@@ -11,7 +12,7 @@ import EventChip from '../../../../components/entity/EventChip.astro';
 import Plate from '../../../../components/art/Plate.astro';
 import MapView from '../../../../components/map/MapView.astro';
 import { fmtEdtf, fmtInt } from '../../../../components/ui/format';
-import { languages, places, geo, articles, eventsById } from '../../../../lib/data';
+import { languages, places, geo, articles, eventsById, locParts } from '../../../../lib/data';
 import { t } from '../../../../i18n/ui';
 import * as u from '../../../../lib/urls';
 
@@ -33,7 +34,7 @@ const nearbyIds = (mainArticle?.near ?? []).slice(0, 10);
 const nearby = nearbyIds.map((id) => arts[id]).filter(Boolean);
 
 const isAbroad = !ge || ge.isl === 'none' || !ge.isl;
-const locBits = isAbroad ? [ge?.ctry, ge?.cont].filter(Boolean) : [ge?.par, ge?.mun, ge?.isl].filter(Boolean);
+const locBits = isAbroad ? locParts(ge?.ctry, ge?.cont) : locParts(ge?.par, ge?.mun, ge?.isl);
 const needsPrecisionNote = ge && ['approximate', 'parish-centroid', 'municipality-centroid', 'city/country', 'unknown'].includes(ge.prec || '');
 
 const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
@@ -91,7 +92,7 @@ const planeAt = p.main ?? p.m[0]?.a;
       <ul class="em-mentions" role="list">
         {shownMentions.map((mn) => (
           <li>
-            <EntityLink kind="article" id={mn.a} lang={lang} variant="name" label={mn.hw} />
+            <LenGauge id={mn.a} lang={lang} /><EntityLink kind="article" id={mn.a} lang={lang} variant="name" label={mn.hw} />
             {mn.note && <span class="em-note"> — {mn.note}</span>}
           </li>
         ))}
@@ -112,7 +113,7 @@ const planeAt = p.main ?? p.m[0]?.a;
       <SectionHead size="m" title={t(lang, 'nearby')} id="h-nearby" role="place" n="3" />
       <ul class="em-nearby" role="list">
         {nearby.map((a) => (
-          <li><EntityLink kind="article" id={a.id} lang={lang} variant="name" label={a.hw} /></li>
+          <li><LenGauge id={a.id} lang={lang} /><EntityLink kind="article" id={a.id} lang={lang} variant="name" label={a.hw} /></li>
         ))}
       </ul>
     </section>

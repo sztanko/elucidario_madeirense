@@ -1,0 +1,12 @@
+---
+/**
+ * LenGauge: tiny article-length gauge (no text; tooltip = reading time). Props: id (article id) | chars, lang.
+ * Styles: .em-len in styles/base.css. Used before article titles in every vertical list of articles.
+ */
+import { articles } from '../../lib/data';
+import { lenStep, lenTitle } from './lenGauge';
+interface Props { id?: string; chars?: number; lang: string }
+const { id, lang } = Astro.props;
+const chars = Astro.props.chars ?? (id ? articles(lang)[id]?.chars ?? 0 : 0);
+---
+<span class="em-len" data-l={lenStep(chars)} title={lenTitle(chars, lang) || undefined} aria-hidden="true"></span>

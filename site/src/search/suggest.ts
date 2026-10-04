@@ -77,7 +77,7 @@ export function suggest(index: SuggestIndex, query: string, opts: SuggestOptions
   }
 
   // ---- Articles ---------------------------------------------------------------------------
-  for (const [id, hw, hwPt, type, size] of index.a) {
+  for (const [id, hw, hwPt, type, size, c100] of index.a as any[]) {
     const score = Math.max(scoreField(folded, hw), scoreField(folded, hwPt) - 4);
     if (score > 0) {
       out.push({
@@ -86,6 +86,7 @@ export function suggest(index: SuggestIndex, query: string, opts: SuggestOptions
         label: hw,
         sub: index.tax[type] ?? t(lang, 'type_article'),
         href: u.article(lang, id),
+        chars: (c100 || 0) * 100,
         score: score + (size === 'long' ? 2 : 0),
       });
     }
@@ -97,7 +98,7 @@ export function suggest(index: SuggestIndex, query: string, opts: SuggestOptions
   for (const [slug, name, ptype, island, mun, , mentions] of index.pl) {
     const score = scoreField(folded, name);
     if (score > 0) {
-      const sub = [ptype, mun || island].filter(Boolean).join(' · ');
+      const sub = [ptype, mun || (island !== 'Madeira' ? island : '')].filter(Boolean).join(' · ');
       out.push({ type: 'place', id: `pl:${slug}`, label: name, sub, href: u.place(lang, slug), score: score + popularityBoost(mentions) });
     }
   }

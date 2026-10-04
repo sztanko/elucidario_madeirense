@@ -42,6 +42,8 @@ export interface ResultItem {
   label: string;
   href: string;
   snippetHtml: string;
+  /** article length (characters), for the length gauge; article results only */
+  chars?: number;
   year?: number | null;
   score: number;
 }
@@ -58,7 +60,7 @@ export interface QueryResponse {
 
 let docs: CorpusDoc[] = [];
 let mini: MiniSearch<CorpusDoc> | null = null;
-let articleMeta = new Map<string, { type: string; size: string }>();
+let articleMeta = new Map<string, { type: string; size: string; chars?: number }>();
 let placeMeta = new Map<string, { type: string; island: string; mun: string | null }>();
 let lang = 'pt';
 let base = '';
@@ -87,7 +89,7 @@ async function init(msg: InitMsg) {
   // Small lookup tables (already-fetched by the suggest box, but the worker doesn't share that
   // cache) so category/island/length filters work without duplicating this data per corpus doc.
   const core = await fetchJson<SuggestCore>(dir, manifest.suggestCoreGz, manifest.suggestCoreJson);
-  for (const [id, , , type, size] of core.a) articleMeta.set(id, { type, size });
+  for (const [id, , , type, size, c100] of core.a as any[]) articleMeta.set(id, { type, size, chars: (c100 || 0) * 100 });
   for (const [slug, , type, island, mun] of core.pl) placeMeta.set(slug, { type, island, mun });
 
   const cacheKey = `corpus:${lang}:${manifest.version}`;
@@ -265,6 +267,7 @@ function runQuery(msg: QueryMsg) {
     label: d.hw || d.tx.slice(0, 40),
     href: docHref(d),
     snippetHtml: snippet(d.tx, terms),
+    chars: resultType(d) === 'article' && d.aid ? articleMeta.get(d.aid)?.chars : undefined,
     year: d.y,
     score: scores.get(d.id) ?? 0,
   }));

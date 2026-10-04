@@ -57,11 +57,19 @@ const nav = [
         <Icon name="print" size={21} /><span class="em-hdr__btxt">{t(lang, 'print')}</span>
       </button>
       {multilingual && (
-        <ul class="em-hdr__langs" role="list" aria-label={t(lang, 'language')}>
-          {langs.map((l) => (
-            <li><a href={u.switchLang(path, l, langs)} hreflang={l} lang={l} title={names[l]} aria-current={l === lang ? 'true' : undefined} class:list={{ on: l === lang }}>{l.toUpperCase()}</a></li>
-          ))}
-        </ul>
+        <div class="em-hdr__lang">
+          {/* Language: a top-level drop-down that always shows the current language (desktop and mobile). */}
+          <button type="button" class="em-hdr__btn em-hdr__langbtn" data-em-lang-toggle aria-haspopup="true" aria-expanded="false"
+            aria-controls="em-hdr-langs" title={t(lang, 'language')}>
+            <span class="em-hdr__langcur">{lang.toUpperCase()}</span><Icon name="chevron-down" size={14} />
+            <span class="em-sr-only">{t(lang, 'language')}: {names[lang]}</span>
+          </button>
+          <ul class="em-hdr__langs" id="em-hdr-langs" role="list" aria-label={t(lang, 'language')} hidden>
+            {langs.map((l) => (
+              <li><a href={u.switchLang(path, l, langs)} hreflang={l} lang={l} title={names[l]} aria-current={l === lang ? 'true' : undefined} class:list={{ on: l === lang }}><b>{l.toUpperCase()}</b> {names[l]}</a></li>
+            ))}
+          </ul>
+        </div>
       )}
       <button type="button" class="em-hdr__btn em-hdr__btn--menu" data-em-menu-open aria-haspopup="dialog" aria-controls="em-sheet" title={t(lang, 'menu')}>
         <Icon name="menu" size={22} /><span class="em-sr-only">{t(lang, 'menu')}</span>
@@ -96,12 +104,9 @@ const nav = [
     const home = (document.querySelector('.em-hdr__mark') as HTMLAnchorElement | null)?.getAttribute('href') || '/';
     const nav = [...document.querySelectorAll<HTMLAnchorElement>('.em-hdr__nav a')].map((a, i) =>
       `<li><a href="${esc(a.getAttribute('href')!)}"${a.getAttribute('aria-current') ? ' aria-current="page"' : ''}><span class="n">${i + 1}</span>${esc(a.textContent || '')}</a></li>`).join('');
-    const langs = [...document.querySelectorAll<HTMLAnchorElement>('.em-hdr__langs a')].map((a) =>
-      `<li><a href="${esc(a.getAttribute('href')!)}" hreflang="${a.hreflang}" lang="${a.lang}"${a.getAttribute('aria-current') ? ' aria-current="true"' : ''}><b>${esc(a.textContent || '')}</b> ${esc(a.title)}</a></li>`).join('');
     d.innerHTML = `<div class="em-sheet__in"><div class="em-sheet__top"><span class="em-label">${esc(L.site)}</span>`
       + `<button type="button" class="em-hdr__btn" data-em-close title="${esc(L.close)}">${icon('close', 22)}<span class="em-sr-only">${esc(L.close)}</span></button></div>`
       + `<nav aria-label="${esc(L.menu)}"><ol class="em-sheet__nav" role="list"><li><a href="${esc(home)}"><span class="n">0</span>${esc(L.home)}</a></li>${nav}</ol></nav>`
-      + (langs ? `<div class="em-sheet__langs"><span class="em-label em-sheet__lbl">${esc(L.language)}</span><ul role="list">${langs}</ul></div>` : '')
       + `<div class="em-sheet__tools"><button type="button" data-em-history-open>${icon('history', 20)} ${esc(L.history)}</button>`
       + `<button type="button" data-em-print>${icon('print', 20)} ${esc(L.print)}</button></div></div>`;
   }
@@ -124,5 +129,19 @@ const nav = [
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && q('#em-hdr-search')?.dataset.open === 'true') setSearch(false);
+    if (e.key === 'Escape') setLangs(false);
+  });
+  // Language drop-down
+  function setLangs(open: boolean) {
+    const btn = q('[data-em-lang-toggle]'), list = q('#em-hdr-langs');
+    if (!btn || !list) return;
+    list.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    if (open) (list.querySelector('a[aria-current]') as HTMLElement | null ?? list.querySelector('a'))?.focus({ preventScroll: true });
+  }
+  document.addEventListener('click', (e) => {
+    const el = e.target as Element;
+    if (el.closest('[data-em-lang-toggle]')) { setLangs(q('#em-hdr-langs')?.hidden ?? false); return; }
+    if (!el.closest('#em-hdr-langs')) setLangs(false);
   });
 </script>

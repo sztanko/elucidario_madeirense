@@ -1,7 +1,7 @@
 ---
 // Article page (design agent). Data contract: site/DATA_CONTRACT.md. Component notes: src/components/article/README.md
 import Base from '../../../layouts/Base.astro';
-import { articles, languages, roleOf, featured } from '../../../lib/data';
+import { articles, languages, roleOf, featured, locParts } from '../../../lib/data';
 import * as u from '../../../lib/urls';
 import { yearOf } from '../../../components/ui/format';
 import { t, htmlLang } from '../../../i18n/ui';
@@ -35,7 +35,8 @@ const size: 'fragment' | 'standard' | 'long' | 'xref' = isXref ? 'xref' : a.size
 const secs = isXref ? [] : sections(lang, a);
 const chapters = secs.filter((s) => s.ch);
 const hasToc = chapters.length >= 2 && size !== 'fragment';
-const folioCapable = hasToc && (size === 'long' || a.chars > 9000);
+// Folio (column) view: any article with a contents list and at least ~2,500 characters (enough for two columns).
+const folioCapable = hasToc && a.chars >= 2500;
 const ml = (m?: string) => (m && m !== lang ? m : undefined);
 const mark = (m?: string) => (ml(m) ? `<abbr class="em-langmark" title="${t(lang, 'in_english')}">${m!.toUpperCase()}</abbr>` : '');
 
@@ -43,7 +44,7 @@ const mark = (m?: string) => (ml(m) ? `<abbr class="em-langmark" title="${t(lang
 const g = subjectGeo(a);
 const prim = a.types[0] === 'meta.cross_reference' ? a.types[1] : a.types[0];
 const typeText = isXref ? t(lang, 'cross_reference') : typeLabel(lang, prim);
-const where = g ? [g.mun && g.mun.toLowerCase() !== a.hw_pt.toLowerCase() ? g.mun : null, g.isl && g.isl !== 'none' ? g.isl : g.ctry].filter((v, i, arr) => v && arr.indexOf(v) === i) : [];
+const where = g ? locParts(g.mun && g.mun.toLowerCase() !== a.hw_pt.toLowerCase() ? g.mun : null, g.isl && g.isl !== 'none' ? g.isl : g.ctry) : [];
 const pp = a.pp?.[0] ? (a.pp[1] && a.pp[1] !== a.pp[0] ? `${['en', 'pt'].includes(lang) ? 'pp.' : t(lang, 'page')} ${a.pp[0]}–${a.pp[1]}` : `${t(lang, 'page')} ${a.pp[0]}`) : '';
 const folio = [
   typeText && { text: typeText, role: roleOf(prim), href: prim && !isXref ? u.indexCategory(lang, prim) : undefined },

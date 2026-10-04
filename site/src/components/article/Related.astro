@@ -1,4 +1,5 @@
 ---
+import LenGauge from '../../components/ui/LenGauge.astro';
 /**
  * Related: relation lists as a typographic index (mockup "RELATED": label column → headwords with Nº).
  * Props: lang, a: Article, limit?: number (per list before "+ n more"), compact?: boolean (fragment pages)
@@ -29,14 +30,14 @@ for (const [k, key] of [['par', 'part_of'], ['kids', 'sub_entries'], ['out', 're
         <dd>
           <ul role="list">
             {l.items.slice(0, limit).map((x) => (
-              <li class={`em-role-${roleOf(x.type)}`}><a href={u.article(lang, x.id)} data-print-url="on"><span class="ea-rel__arrow" aria-hidden="true">→</span> <span class="ea-rel__hw">{x.hw}</span> <span class="ea-rel__no">Nº {pad4(x.no)}</span></a></li>
+              <li class={`em-role-${roleOf(x.type)}`}><a href={u.article(lang, x.id)} data-print-url="on"><LenGauge id={x.id} lang={lang} /><span class="ea-rel__hw">{x.hw}</span> <span class="ea-rel__no">Nº {pad4(x.no)}</span></a></li>
             ))}
           </ul>
           {l.items.length > limit && (
             <details class="ea-more">
               <summary class="em-label">+ {l.items.length - limit} {t(lang, 'more_n')}</summary>
               <ul role="list">
-                {l.items.slice(limit).map((x) => <li class={`em-role-${roleOf(x.type)}`}><a href={u.article(lang, x.id)}><span class="ea-rel__arrow" aria-hidden="true">→</span> <span class="ea-rel__hw">{x.hw}</span> <span class="ea-rel__no">Nº {pad4(x.no)}</span></a></li>)}
+                {l.items.slice(limit).map((x) => <li class={`em-role-${roleOf(x.type)}`}><a href={u.article(lang, x.id)}><LenGauge id={x.id} lang={lang} /><span class="ea-rel__hw">{x.hw}</span> <span class="ea-rel__no">Nº {pad4(x.no)}</span></a></li>)}
               </ul>
             </details>
           )}

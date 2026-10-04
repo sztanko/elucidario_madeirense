@@ -15,7 +15,7 @@
  * (pan/zoom, LOD tiles, labels, popups).
  * Client API: see README (element.emMap, `em-map:filter` / `em-map:focus` events, `em-map:hover` / `em-map:select` events).
  */
-import { geo } from '../../lib/data';
+import { geo, places as places_ } from '../../lib/data';
 import { t } from '../../i18n/ui';
 import { BASE } from '../../lib/urls';
 import '../../map/map.css';
@@ -26,6 +26,7 @@ interface Props { lang: string; mode?: 'article' | 'place' | 'overview' | 'conti
 const { lang, mode = 'article', places = [], region, height } = Astro.props;
 
 const G = geo();
+const PL = places_(lang);
 const items = places.map((p, i) => ({ ...p, i, g: G[p.id], r: regionOfPlace(G[p.id] as any) }));
 const { region: rid, abroad } = chooseRegion(items.map((x) => x.r), region, mode);
 const R = rid ? REGIONS[rid] : null;
@@ -52,12 +53,18 @@ const CONT_NAMES: Record<string, Record<string, string>> = {
 };
 const regionName = R ? (CONT_NAMES[R.id]?.[lang] ?? R.name) : '';
 
+// short summaries for popups (first click shows it, second click opens the place page); only this map's places
+const sums: Record<string, string> = {};
+for (const x of items.slice(0, 60)) {
+  const sm = PL[x.id]?.sum;
+  if (sm) sums[x.id] = sm.length > 200 ? sm.slice(0, 197).replace(/\s+\S*$/, '') + '…' : sm;
+}
 const style = R ? `--ar:${R.aspect};${height ? `height:${height};` : ''}` : '';
 const reliefSizes = mode === 'overview' ? '(min-width: 74rem) 70vw, 100vw' : '(min-width: 56rem) 45vw, 100vw';
 ---
 {R && (
   <figure class:list={['em-map', `em-map--${mode}`, { 'em-map--fixed': !!height, 'em-map--continent': R.kind === 'continent' }]}
-    data-em-map data-mode={mode} data-region={rid} data-lang={lang} data-p={dataP} style={style}>
+    data-em-map data-mode={mode} data-region={rid} data-lang={lang} data-p={dataP} data-s={Object.keys(sums).length ? JSON.stringify(sums) : undefined} style={style}>
     <div class="em-map__plate" aria-hidden="true">
       <img class="em-map__base" src={M + R.plate + q} alt="" loading="lazy" />
       {R.relief && <img class="em-map__relief" src={M + R.relief.s.src + q} srcset={`${M + R.relief.s.src + q} ${R.relief.s.w}w, ${M + R.relief.l.src + q} ${R.relief.l.w}w`} sizes={reliefSizes} alt="" loading="lazy" />}

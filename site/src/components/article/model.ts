@@ -1,5 +1,5 @@
 // Article page view-model (build time). Turns the export contract (DATA_CONTRACT.md) into render-ready sections.
-import { articles, geo, index, persons, type Article, type Block, type Chapter } from '../../lib/data';
+import { articles, geo, index, persons, type Article, type Block, type Chapter, isTrivialPlace } from '../../lib/data';
 import * as u from '../../lib/urls';
 import { inline, plain } from './inline';
 
@@ -81,6 +81,7 @@ export function sections(lang: string, a: Article): Section[] {
     for (const l of a.ln) {
       const k = l.k ?? 'a';
       if (k === 'a' && l.to === a.id) continue;
+      if (k === 'l' && isTrivialPlace(l.to)) continue; // never link the trivial "Madeira" as a place
       const href = k === 'p' ? u.person(lang, l.to, l.n ?? l.p) : k === 'l' ? u.place(lang, l.to) : k === 'y' ? u.year(lang, l.to) : u.article(lang, l.to);
       const title = k === 'a' ? L.get(l.to)?.hw : k === 'y' ? undefined : l.n;
       const arr = linksByBlock.get(l.b) ?? [];
@@ -119,8 +120,8 @@ export function subjectGeo(a: Article) {
 /** Places to show on the map (only those with coordinates or geometry). */
 /** Places mentioned, in reading order for the reader: the subject place(s) first, then alphabetical (page language). */
 export function sortedPlaces(lang: string, a: Article) {
-  const subj = a.prim.map((id) => a.plc.find((p) => p.id === id)).filter(Boolean) as Article['plc'];
-  const rest = a.plc.filter((p) => !a.prim.includes(p.id)).sort((x, y) => x.n.localeCompare(y.n, lang, { sensitivity: 'base' }));
+  const subj = a.prim.map((id) => a.plc.find((p) => p.id === id)).filter((p) => p && !isTrivialPlace(p.id)) as Article['plc'];
+  const rest = a.plc.filter((p) => !a.prim.includes(p.id) && !isTrivialPlace(p.id)).sort((x, y) => x.n.localeCompare(y.n, lang, { sensitivity: 'base' }));
   return [...subj, ...rest];
 }
 

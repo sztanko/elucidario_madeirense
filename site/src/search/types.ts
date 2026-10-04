@@ -83,4 +83,6 @@ export interface SuggestResult {
   sub: string;
   href: string;
   score: number;
+  /** article length in characters (length gauge), articles only */
+  chars?: number;
 }

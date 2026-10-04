@@ -4,7 +4,7 @@
  * Props: lang, a: Article, map?: boolean (render the MapView; false when the hero already shows it), limit?: number
  */
 import type { Article } from '../../lib/data';
-import { geo } from '../../lib/data';
+import { geo, locParts, places as placesData } from '../../lib/data';
 import { t } from '../../i18n/ui';
 import MapView from '../map/MapView.astro';
 import EntityLink from '../ui/EntityLink.astro';
@@ -15,7 +15,8 @@ const { lang, a, map = true, limit = PLACES_NUMBERED, compact = false } = Astro.
 const G = geo();
 const mp = mapPlaces(a, lang);
 const ml = (m?: string) => (m && m !== lang ? m : undefined);
-const rows = sortedPlaces(lang, a).map((p) => ({ ...p, subj: a.prim.includes(p.id), where: [G[p.id]?.mun, G[p.id]?.isl && G[p.id]?.isl !== 'none' ? G[p.id]?.isl : G[p.id]?.ctry].filter((v, i, arr) => v && arr.indexOf(v) === i && v !== p.n).join(' · ') }));
+const rows = sortedPlaces(lang, a).map((p) => ({ ...p, subj: a.prim.includes(p.id), where: locParts(G[p.id]?.mun, G[p.id]?.isl && G[p.id]?.isl !== 'none' ? G[p.id]?.isl : G[p.id]?.ctry).filter((v) => v !== p.n).join(' · ') }));
+const PS = placesData(lang);
 const head = rows.slice(0, limit), rest = rows.slice(limit);
 ---
 {rows.length > 0 && (compact ? (
@@ -25,12 +26,12 @@ const head = rows.slice(0, limit), rest = rows.slice(limit);
 ) : (
   <div class="ea-places">
     {map && mp.length > 0 && <div class="ea-places__map"><MapView lang={lang} mode="article" places={mp} /></div>}
-    <ol class="ea-pllist" role="list">
+    <ol class="ea-pllist" role="list" data-em-legend>
       {head.map((p, i) => (
-        <li class:list={['ea-pllist__i', { subj: p.subj }]}>
+        <li class:list={['ea-pllist__i', { subj: p.subj }]} data-place={p.id}>
           <span class="ea-pllist__k" aria-hidden="true">{i + 1}</span>
           <div><EntityLink kind="place" id={p.id} lang={lang} variant="name">{p.n}</EntityLink>{p.subj && <span class="ea-pllist__subj em-label"> · {t(lang, 'subject')}</span>}
-            {(p.note || p.where) && <p class="ea-pllist__note" lang={p.note ? ml(p.ml) : undefined}>{p.where && <span class="ea-pllist__w">{p.where}{p.note ? '. ' : ''}</span>}{p.note && <Fragment set:html={inline(p.note)} />}</p>}</div>
+            {(p.note || p.where) && <p class="ea-pllist__note" lang={p.note ? ml(p.ml) : undefined}>{p.where && <span class="ea-pllist__w">{p.where}{p.note ? '. ' : ''}</span>}{p.note && <Fragment set:html={inline(p.note)} />}</p>}{PS[p.id]?.sum && <p class="ea-pllist__sum" hidden lang={ml(PS[p.id].ml)}>{PS[p.id].sum}</p>}</div>
         </li>
       ))}
     </ol>
@@ -42,3 +43,23 @@ const head = rows.slice(0, limit), rest = rows.slice(limit);
     )}
   </div>
 ))}
+<script>
+  // Legend: first click on a place shows its summary and flies the map to it; a second click opens the place page.
+  document.addEventListener('click', (e) => {
+    const a = (e.target as Element).closest('[data-em-legend] li[data-place] a') as HTMLAnchorElement | null;
+    if (!a) return;
+    const li = a.closest('li[data-place]') as HTMLElement;
+    const sum = li.querySelector<HTMLElement>('.ea-pllist__sum');
+    if (!sum || li.classList.contains('is-open')) return; // already open (or nothing to show): follow the link
+    e.preventDefault();
+    li.closest('[data-em-legend]')!.querySelectorAll('li.is-open').forEach((x) => { x.classList.remove('is-open'); x.querySelector<HTMLElement>('.ea-pllist__sum')!.hidden = true; });
+    li.classList.add('is-open');
+    sum.hidden = false;
+    const map = document.querySelector<HTMLElement>('.ea-places [data-em-map], .ea-hero__map [data-em-map], [data-em-map]');
+    map?.dispatchEvent(new CustomEvent('em-map:focus', { detail: { id: li.dataset.place } }));
+  });
+</script>
+<style>
+  .ea-pllist__sum { margin: .35rem 0 0; font-style: italic; font-size: var(--fs-note); line-height: 1.45; color: var(--ink-2, var(--ink)); }
+  li.is-open > div > a, li.is-open a { color: var(--place-ink); }
+</style>

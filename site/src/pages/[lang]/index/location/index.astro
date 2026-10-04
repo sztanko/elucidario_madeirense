@@ -1,4 +1,5 @@
 ---
+import LenGauge from '../../../../components/ui/LenGauge.astro';
 // Articles grouped by municipality / island, and by continent for places abroad.
 import Base from '../../../../layouts/Base.astro';
 import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
@@ -64,7 +65,7 @@ const sortRows = (rows: Row[]) => rows.sort((a, b) => a.hw.localeCompare(b.hw, l
                 <h4>{mk} <span class="em-n">{fmtInt(muns.get(mk)!.length, lang)}</span></h4>
                 <ul role="list">
                   {sortRows(muns.get(mk)!).map((r) => (
-                    <li><a href={u.article(lang, r.id)}>{r.hw}</a></li>
+                    <li><LenGauge id={r.id} lang={lang} /><a href={u.article(lang, r.id)}>{r.hw}</a></li>
                   ))}
                 </ul>
               </div>
@@ -87,7 +88,7 @@ const sortRows = (rows: Row[]) => rows.sort((a, b) => a.hw.localeCompare(b.hw, l
                 <h4>{ck} <span class="em-n">{fmtInt(countries.get(ck)!.length, lang)}</span></h4>
                 <ul role="list">
                   {sortRows(countries.get(ck)!).map((r) => (
-                    <li><a href={u.article(lang, r.id)}>{r.hw}</a></li>
+                    <li><LenGauge id={r.id} lang={lang} /><a href={u.article(lang, r.id)}>{r.hw}</a></li>
                   ))}
                 </ul>
               </div>

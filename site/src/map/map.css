@@ -83,19 +83,22 @@
 .em-map__lbl { position: absolute; inset: 0; pointer-events: none; z-index: 2; }
 .em-map__lbl span {
   position: absolute; left: 0; top: 0; white-space: nowrap; line-height: 1;
-  text-shadow: 0 0 2px var(--paper-light, #f2ead8), 0 0 2px var(--paper-light, #f2ead8), 0 0 3px var(--paper-light, #f2ead8);
+  /* a solid paper halo (8 offsets + glow) so labels stay readable over dark hachures */
+  --h: var(--paper-light, #f2ead8);
+  text-shadow: 1px 0 0 var(--h), -1px 0 0 var(--h), 0 1px 0 var(--h), 0 -1px 0 var(--h), 1px 1px 0 var(--h), -1px -1px 0 var(--h),
+    1px -1px 0 var(--h), -1px 1px 0 var(--h), 0 0 4px var(--h), 0 0 6px var(--h);
 }
-.em-map__lbl .l-seat { font: 760 11px/1 var(--font-label, sans-serif); letter-spacing: .13em; text-transform: uppercase; }
-.em-map__lbl .l-parish { font: italic 12px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
-.em-map__lbl .l-locality { font: 10.5px/1 var(--font-text, serif); color: var(--ink-3, #5e5a4f); }
-.em-map__lbl .l-locality.r3 { font-size: 11.5px; color: var(--ink-2, #3a3d38); }
-.em-map__lbl .l-peak { font: italic 10.5px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
-.em-map__lbl .l-peak b { font: 600 9.5px/1 var(--font-label, sans-serif); letter-spacing: .06em; font-style: normal; font-variant-numeric: tabular-nums; }
+.em-map__lbl .l-seat { font: 760 12px/1 var(--font-label, sans-serif); letter-spacing: .13em; text-transform: uppercase; }
+.em-map__lbl .l-parish { font: italic 13px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-locality { font: 12px/1 var(--font-text, serif); color: var(--ink-3, #5e5a4f); }
+.em-map__lbl .l-locality.r3 { font-size: 12.5px; color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-peak { font: italic 12px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-peak b { font: 600 11px/1 var(--font-label, sans-serif); letter-spacing: .06em; font-style: normal; font-variant-numeric: tabular-nums; }
 .em-map__lbl .l-peak::before {
   content: ""; display: inline-block; width: 0; height: 0; margin-right: 4px; vertical-align: -1px;
   border-left: 4.5px solid transparent; border-right: 4.5px solid transparent; border-bottom: 8px solid var(--ink);
 }
-.em-map__lbl .l-cape, .em-map__lbl .l-bay, .em-map__lbl .l-islet { font: italic 10.5px/1 var(--font-text, serif); color: var(--place-ink, #123f4a); }
+.em-map__lbl .l-cape, .em-map__lbl .l-bay, .em-map__lbl .l-islet { font: italic 12px/1 var(--font-text, serif); color: var(--place-ink, #123f4a); }
 .em-map__lbl .l-island { font: 700 13px/1 var(--font-label, sans-serif); letter-spacing: .42em; }
 .em-map__lbl .l-ocean { font: italic 15px/1 var(--font-didone, serif); letter-spacing: .55em; color: var(--place-ink, #123f4a); text-transform: uppercase; opacity: .85; }
 .em-map__lbl .l-country { font: 680 10px/1 var(--font-label, sans-serif); letter-spacing: .2em; text-transform: uppercase; color: var(--ink-2, #3a3d38); }
@@ -109,7 +112,6 @@
 .em-map__mks .em-map__mk { left: 0; top: 0; pointer-events: auto; }
 
 .em-map__frame { position: absolute; inset: 0; z-index: 5; pointer-events: none; width: 100%; height: 100%; transition: opacity var(--dur-2, 180ms); }
-.em-map.is-moving .em-map__frame text { opacity: 0; }
 .em-map__frame text { font: 600 8.5px var(--font-label, sans-serif); letter-spacing: .06em; fill: var(--ink-2, #3a3d38); font-variant-numeric: tabular-nums; }
 
 .em-map__scale, .em-map__nr { position: absolute; z-index: 5; pointer-events: none; }
@@ -161,3 +163,10 @@
   .em-map__view { touch-action: auto; }
   .em-map .em-map__mks .em-map__mk, .em-map .em-map__abroad button[aria-pressed="true"] { display: block !important; }
 }
+
+/* Full screen (button ⤢): Fullscreen API, or a fixed overlay where it is unavailable. */
+.em-map:fullscreen, .em-map.is-full { position: fixed !important; inset: 0; width: 100vw !important; height: 100dvh !important; max-width: none; aspect-ratio: auto !important; margin: 0; z-index: 10000; background: var(--paper, #e8dfca); }
+.em-map:fullscreen .em-map__plate, .em-map.is-full .em-map__plate { height: 100%; }
+html.em-map-full { overflow: hidden; }
+.em-map__full svg { display: block; margin: auto; }
+.em-map__pop p { margin: .4rem 0 0; font-size: .82rem; line-height: 1.4; max-width: 18rem; color: var(--ink-2, #333); }

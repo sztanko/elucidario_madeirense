@@ -37,7 +37,7 @@ const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&l
 // label visibility: maximum metres per CSS pixel at which a class of label appears (islands)
 const LBL_MPP: Record<string, number[]> = { // by rank 0..5
   island: [9999, 0, 0, 0, 0, 0], seat: [140, 140, 140, 140, 140, 140], parish: [0, 48, 0, 0, 0, 0],
-  peak: [0, 150, 55, 0, 20, 0], locality: [0, 0, 0, 34, 16, 8.5], cape: [0, 0, 0, 0, 22, 0], bay: [0, 0, 0, 0, 32, 0], islet: [0, 0, 0, 0, 0, 12],
+  peak: [0, 150, 55, 0, 20, 0], locality: [0, 0, 0, 34, 16, 0], cape: [0, 0, 0, 0, 22, 0], bay: [0, 0, 0, 0, 32, 0], islet: [0, 0, 0, 0, 0, 12],
 };
 const LBL_PRI: Record<string, number> = { island: 0, seat: 1, peak: 3, parish: 4, cape: 6, bay: 6, locality: 7, islet: 8 };
 const OCEAN: Record<string, [number, number]> = { madeira: [0.2, 0.9], archipelago: [0.5, 0.38], 'porto-santo': [0.5, 0.94], desertas: [0.5, 0.06], selvagens: [0.5, 0.92] };
@@ -76,8 +76,9 @@ class AtlasMap {
 
   constructor(el: HTMLElement, man: Manifest, places: Pl[], lang: string) {
     this.el = el; this.man = man; this.all = places; this.lang = lang; this.mode = el.dataset.mode || 'article';
+    try { this.sums = JSON.parse(el.dataset.s || '{}'); } catch { this.sums = {}; }
     const k = (key: string) => tr(lang, key as any);
-    this.t = { in: k('map_zoom_in'), out: k('map_zoom_out'), reset: k('map_reset'), wheel: k('map_wheel_hint'), touch: k('map_touch_hint'), back: k('map_back_islands'), mentions: k('map_mentions') };
+    this.t = { in: k('map_zoom_in'), out: k('map_zoom_out'), reset: k('map_reset'), wheel: k('map_wheel_hint'), touch: k('map_touch_hint'), back: k('map_back_islands'), mentions: k('map_mentions'), full: k('map_full') };
     this.build();
   }
 
@@ -112,6 +113,10 @@ class AtlasMap {
     mkBtn('−', this.t.out || '−', () => this.zoomBy(0.5));
     mkBtn('⟲', this.t.reset || 'Reset', () => this.animateTo(this.fit()));
     const back = mkBtn('↩', this.t.back || 'Back', () => this.setRegion(this.homeRegion)); back.hidden = true;
+    const full = mkBtn('', this.t.full || 'Full screen', () => this.toggleFull());
+    full.classList.add('em-map__full');
+    full.innerHTML = '<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>';
+    document.addEventListener('fullscreenchange', () => { if (document.fullscreenElement !== this.el) this.el.classList.remove('is-fs'); else this.el.classList.add('is-fs'); setTimeout(() => this.animateTo(this.fit()), 60); });
     const hint = h('div', 'em-map__hint');
     el.append(view, frame, scale, nr, ctl, hint);
     const inset = el.querySelector('.em-map__inset');
@@ -348,7 +353,12 @@ class AtlasMap {
         b.className = 'em-map__mk' + (p.role === 'subject' ? ' is-subj' : many ? ' is-dot' : '');
         if (p.role !== 'subject' && numbered && p.num) b.textContent = String(p.num);
         b.dataset.id = p.id; b.setAttribute('aria-label', p.name);
-        b.addEventListener('click', (e) => { e.stopPropagation(); this.popup(p, it.x, it.y); });
+        b.addEventListener('click', (e) => {
+          e.stopPropagation();
+          // first click: summary popup; second click on the same place: go to its page
+          if (this.dom.pop && this.popId === p.id) { location.href = placeUrl(this.lang, p.id); return; }
+          this.popup(p, it.x, it.y);
+        });
         b.addEventListener('pointerenter', () => this.setHot(p.id, true));
         b.addEventListener('pointerleave', () => this.setHot(p.id, false));
         b.addEventListener('focus', () => this.setHot(p.id, true));
@@ -410,7 +420,9 @@ class AtlasMap {
     const ab = this.el.querySelector('.em-map__abroad');
     if (ab) { const a = ab.getBoundingClientRect(), e = this.el.getBoundingClientRect(); placed.push({ x: a.left - e.left, y: a.top - e.top, w: a.width, h: a.height }); }
     const hit = (r: any) => placed.some((q) => r.x < q.x + q.w && r.x + r.w > q.x && r.y < q.y + q.h && r.y + r.h > q.y);
-    const cap = Math.max(14, Math.min(160, (W * H) / 5500));
+    // fewer, readable labels: at most ~70 per view, and only the best candidates are created and measured at all
+    const cap = Math.max(12, Math.min(70, (W * H) / 11000));
+    out.length = Math.min(out.length, Math.ceil(cap * 1.6) + out.filter((o) => o.pri <= 0).length);
     let n = 0;
     const spans: HTMLSpanElement[] = [];
     for (const o of out) { const sp = document.createElement('span'); sp.className = o.cls; sp.innerHTML = o.txt; box.append(sp); spans.push(sp); }
@@ -440,25 +452,33 @@ class AtlasMap {
     });
   }
 
-  renderFrame() {
+  /** Graticule frame + scale bar for camera `cam` (live during gestures, so they always match the map). */
+  frameRaf = 0;
+  scheduleFrame() {
+    if (this.frameRaf) return;
+    this.frameRaf = requestAnimationFrame(() => { this.frameRaf = 0; this.renderFrame(this.view); });
+  }
+  renderFrame(cam: { cx: number; cy: number; s: number } = this.rest) {
     const { W, H } = this, svg = this.dom.frame as SVGSVGElement;
     svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
     const B = 6; // graticule band between the outer rule (0) and the inner rule (B)
-    const inv = (x: number, y: number) => this.P.inv((x - W / 2) / this.rest.s + this.rest.cx, (y - H / 2) / this.rest.s + this.rest.cy);
+    const inv = (x: number, y: number) => this.P.inv((x - W / 2) / cam.s + cam.cx, (y - H / 2) / cam.s + cam.cy);
     const span = Math.abs(inv(W, H / 2)[0] - inv(0, H / 2)[0]);
-    const STEPS = [1 / 60, 2 / 60, 5 / 60, 10 / 60, 15 / 60, 0.5, 1, 2, 5, 10, 15, 30];
-    const step = STEPS.find((d) => (span / d) * 70 < W * 1.0) ?? 30;
+    const STEPS = [5 / 3600, 10 / 3600, 15 / 3600, 30 / 3600, 1 / 60, 2 / 60, 5 / 60, 10 / 60, 15 / 60, 0.5, 1, 2, 5, 10, 15, 30];
+    const step = Number.isFinite(span) && span > 0 ? (STEPS.find((d) => (span / d) * 70 < W * 1.0) ?? 30) : 30;
     const fmt = (v: number, ax: 'lon' | 'lat') => {
       const a = Math.abs(v), d = Math.floor(a + 1e-9), m = Math.round((a - d) * 60);
       const hemi = ax === 'lon' ? (v < 0 ? 'W' : 'E') : v < 0 ? 'S' : 'N';
+      if (step < 1 / 60) { const sec = Math.round((a - d) * 3600) % 60, mm = Math.floor(((a - d) * 3600) / 60); return `${d}°${String(mm).padStart(2, '0')}′${String(sec).padStart(2, '0')}″${hemi}`; }
       return step < 1 ? `${d}°${String(m).padStart(2, '0')}′${hemi}` : `${d}°${hemi}`;
     };
     let band = '', ticks = '', text = '';
     const edge = (ax: 'lon' | 'lat', pts: [number, number][], horiz: boolean, outer: number) => {
       const k = ax === 'lon' ? 0 : 1;
-      let prev = inv(...pts[0])[k], segStart = pts[0], parity = Math.floor(prev / step) % 2;
+      let prev = inv(...pts[0])[k], segStart = pts[0], parity = Number.isFinite(prev) ? Math.abs(Math.floor(prev / step)) % 2 : 0;
       for (let i = 1; i < pts.length; i++) {
         const v = inv(...pts[i])[k];
+        if (!Number.isFinite(v) || !Number.isFinite(prev)) { prev = v; segStart = pts[i]; continue; } // off the globe
         if (Math.floor(v / step) !== Math.floor(prev / step)) {
           const val = Math.round(Math.max(v, prev) / step) * step, [px, py] = pts[i];
           if (parity) band += horiz ? `M${segStart[0]} ${outer}H${px}` : `M${outer} ${segStart[1]}V${py}`;
@@ -480,7 +500,7 @@ class AtlasMap {
     svg.innerHTML = `<rect x="${B}" y="${B}" width="${W - 2 * B}" height="${H - 2 * B}" fill="none" stroke="#171b19" stroke-width=".8"/>`
       + `<path d="${band}" stroke="#171b19" stroke-width="${B - 1.5}" fill="none"/><path d="${ticks}" stroke="#171b19" stroke-width=".8" fill="none"/>${W > 420 ? text : ''}`;
     // scale bar (metres per CSS px at the centre; LAEA scale varies off-centre: label is approximate there)
-    const mpp = 1 / this.rest.s;
+    const mpp = 1 / cam.s;
     const NICE = [0.1, 0.2, 0.5, 1, 2, 5, 10, 20, 50, 100, 200, 500, 1000, 2000];
     const km = NICE.find((k) => (k * 1000) / mpp >= 70) ?? 2000;
     const L = (km * 1000) / mpp;
@@ -537,12 +557,16 @@ class AtlasMap {
     document.addEventListener('pointerout', (e) => on(e, false));
   }
 
+  sums: Record<string, string> = {};
+  popId: string | null = null;
+
   popup(p: Pl, x: number, y: number) {
     this.closePopup();
+    this.popId = p.id;
     const pop = h('div', 'em-map__pop');
     pop.setAttribute('role', 'dialog');
     const where = [p.mun, p.island !== 'none' ? p.island : null].filter((v, i, a) => v && a.indexOf(v) === i && v !== p.name).join(' · ');
-    pop.innerHTML = `<a href="${placeUrl(this.lang, p.id)}">${esc(p.name)}</a><small>${esc(p.type || '')}${where ? ' · ' + esc(where) : ''}${p.n ? ` · ${p.n} ${esc(this.t.mentions || '')}` : ''}</small><button type="button" aria-label="×">×</button>`;
+    pop.innerHTML = `<a href="${placeUrl(this.lang, p.id)}">${esc(p.name)}</a><small>${esc(p.type || '')}${where ? ' · ' + esc(where) : ''}${p.n ? ` · ${p.n} ${esc(this.t.mentions || '')}` : ''}</small>${this.sums[p.id] ? `<p>${esc(this.sums[p.id])}</p>` : ''}<button type="button" aria-label="×">×</button>`;
     pop.querySelector('button')!.addEventListener('click', () => this.closePopup());
     this.el.append(pop);
     const w = pop.offsetWidth, hh = pop.offsetHeight;
@@ -552,7 +576,22 @@ class AtlasMap {
     (pop.querySelector('a') as HTMLElement).focus({ preventScroll: true });
     this.el.dispatchEvent(new CustomEvent('em-map:select', { bubbles: true, detail: { id: p.id } }));
   }
-  closePopup() { this.dom.pop?.remove(); this.dom.pop = null; }
+  /** Full screen: the Fullscreen API where available, else a fixed overlay (iPhone Safari). */
+  toggleFull() {
+    const el = this.el, de = document.documentElement;
+    const on = document.fullscreenElement === el || el.classList.contains('is-full');
+    if (on) {
+      if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
+      el.classList.remove('is-full'); de.classList.remove('em-map-full');
+    } else {
+      this.active = true; el.classList.add('is-active');
+      const pseudo = () => { el.classList.add('is-full'); de.classList.add('em-map-full'); };
+      if (el.requestFullscreen) el.requestFullscreen().catch(pseudo); else pseudo();
+    }
+    setTimeout(() => this.animateTo(this.fit()), 80);
+  }
+
+  closePopup() { this.dom.pop?.remove(); this.dom.pop = null; this.popId = null; }
 
   showHint(txt: string) {
     const hn = this.dom.hint as HTMLElement;
@@ -566,6 +605,7 @@ class AtlasMap {
     const ty = this.H / 2 - v.cy * v.s - k * (this.H / 2 - r.cy * r.s);
     (this.dom.stage as HTMLElement).style.transform = `translate(${tx}px,${ty}px) scale(${k})`;
     this.el.classList.add('is-moving');
+    this.scheduleFrame();
     this.closePopup();
   }
 
@@ -582,14 +622,23 @@ class AtlasMap {
   }
   zoomBy(f: number) { this.zoomAround(this.W / 2, this.H / 2, f); }
 
+  animRaf = 0;
   animateTo(target: { cx: number; cy: number; s: number }) {
-    this.view = this.limits({ ...target });
-    if (reduced()) { this.commit(); return; }
-    const st = this.dom.stage as HTMLElement;
-    st.classList.add('is-anim');
-    this.applyTransform();
+    const to = this.limits({ ...target });
+    cancelAnimationFrame(this.animRaf);
     clearTimeout(this.restTimer);
-    this.restTimer = window.setTimeout(() => this.commit(), 300);
+    if (reduced()) { this.view = to; this.commit(); return; }
+    // JS-driven (not a CSS transition) so the graticule frame and scale bar follow the map frame by frame;
+    // zoom is interpolated in log space, the centre linearly; 300 ms ease-out.
+    const from = { ...this.view }, t0 = performance.now(), D = 300;
+    const step = (now: number) => {
+      const u = Math.min(1, (now - t0) / D), e = 1 - Math.pow(1 - u, 3);
+      this.view = { cx: from.cx + (to.cx - from.cx) * e, cy: from.cy + (to.cy - from.cy) * e, s: from.s * Math.pow(to.s / from.s, e) };
+      this.applyTransform();
+      if (u < 1) this.animRaf = requestAnimationFrame(step);
+      else { this.animRaf = 0; this.view = to; this.commit(); }
+    };
+    this.animRaf = requestAnimationFrame(step);
   }
 
   focus(id: string) {
@@ -666,7 +715,7 @@ class AtlasMap {
       if (k === '+' || k === '=') return this.zoomBy(2);
       if (k === '-' || k === '_') return this.zoomBy(0.5);
       if (k === '0') return this.animateTo(this.fit());
-      if (k === 'Escape') return this.closePopup();
+      if (k === 'Escape') { if (this.el.classList.contains('is-full')) return this.toggleFull(); return this.closePopup(); }
       if (k === 'ArrowLeft') v.cx -= step; else if (k === 'ArrowRight') v.cx += step;
       else if (k === 'ArrowUp') v.cy -= step; else if (k === 'ArrowDown') v.cy += step; else return;
       e.preventDefault();
