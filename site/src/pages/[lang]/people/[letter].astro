@@ -1,18 +1,12 @@
 ---
-import LenGauge from '../../../components/ui/LenGauge.astro';
-// People, one page per letter: every person whose display name starts with the letter is an entry (anchor = person slug).
-// Person links everywhere resolve to /{lang}/people/{letter}/#{slug} via urls.person().
+// People index, one page per letter: a compact list (name, dates, first role) linking to each person's page.
 import Base from '../../../layouts/Base.astro';
 import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
-import Timeline from '../../../components/article/Timeline.astro';
-import { fmtLife, fmtInt, yearOf } from '../../../components/ui/format';
-import { languages, persons, articles, eventsById, type Person } from '../../../lib/data';
+import { fmtLife, fmtInt } from '../../../components/ui/format';
+import { languages, persons, type Person } from '../../../lib/data';
 import { t } from '../../../i18n/ui';
 import * as u from '../../../lib/urls';
 
-const MAX_NOTED = 6;   // mentions shown with their note
-const MAX_LINKS = 40;  // further mentions shown as plain links
-const MAX_YEARS = 12;
 
 export function getStaticPaths() {
   return languages().flatMap((lang) => {
@@ -37,12 +31,9 @@ export function getStaticPaths() {
 
 const { lang, letter } = Astro.params as { lang: string; letter: string };
 const { letters, people, prev, next } = Astro.props as { letters: string[]; people: Person[]; prev: string | null; next: string | null };
-const arts = articles(lang);
-const evs = eventsById(lang);
 const show = (l: string) => (l === '0' ? '#' : l.toUpperCase());
 const L = show(letter);
 
-const events = (p: Person) => (p.ev || []).map((id) => evs.get(id)).filter((e) => e && e.y != null).slice(0, MAX_YEARS) as any[];
 const title = `${t(lang, 'people')} · ${L} — Elucidário Madeirense`;
 const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p) => p.n).join(', ')}…`;
 ---
@@ -63,40 +54,15 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
       : <a href={u.peopleLetter(lang, l)}>{show(l)}</a>)}
   </nav>
 
-  <div class="pl-list">
-    {people.map((p) => {
-      const pev = events(p);
-      const main = p.main ? arts[p.main] : null;
-      const noted = p.m.slice(0, MAX_NOTED);
-      const linked = p.m.slice(MAX_NOTED, MAX_NOTED + MAX_LINKS);
-      const more = p.m.length - noted.length - linked.length;
-      return (
-        <article id={p.id} class="pl-p">
-          <h2>{p.n}</h2>
-          {lang !== 'pt' && p.n_pt && p.n_pt !== p.n && <p class="pl-pt" lang="pt">{p.n_pt}</p>}
-          {(p.d?.[0] || p.d?.[1] || p.roles?.length > 0) && (
-            <p class="pl-meta">
-              {(p.d?.[0] || p.d?.[1]) && <span class="pl-d">{fmtLife(p.d, t(lang, 'born'), t(lang, 'died'))}</span>}
-              {p.roles?.length > 0 && <span class="pl-r">{p.roles.slice(0, 4).join(' · ')}</span>}
-            </p>
-          )}
-          {p.sum && <p class="pl-sum" lang={p.ml || undefined}>{p.sum}{p.ml && <span class="em-langmark" title={t(lang, 'in_english')}>EN</span>}</p>}
-          {main && <p class="pl-main"><span class="pl-k">{t(lang, 'main_article')}</span> <a href={u.article(lang, main.id)}>{main.hw}</a></p>}
-          {noted.length > 0 && (
-            <ul class="pl-m">
-              {noted.map((m) => <li><LenGauge id={m.a} lang={lang} /><a href={u.article(lang, m.a) + (m.b ? `#${m.b}` : '')}>{m.hw}</a>{m.note && <span lang={p.ml || undefined}> — {m.note}</span>}</li>)}
-            </ul>
-          )}
-          {linked.length > 0 && (
-            <p class="pl-also"><span class="pl-k">{t(lang, 'mentioned_in')}</span> {linked.map((m, i) => <>{i > 0 && ', '}<a href={u.article(lang, m.a)}>{m.hw}</a></>)}{more > 0 && <> +{fmtInt(more, lang)}</>}</p>
-          )}
-          {pev.length > 0 && (
-            <div class="pl-tl"><span class="pl-k">{t(lang, 'dates_mentioned')}</span><Timeline lang={lang} events={pev} /></div>
-          )}
-        </article>
-      );
-    })}
-  </div>
+  <ul class="pl-list" role="list">
+    {people.map((p) => (
+      <li>
+        <a href={u.person(lang, p.id)}>{p.n}</a>
+        {(p.d?.[0] || p.d?.[1]) && <span class="pl-d">{fmtLife(p.d, t(lang, 'born'), t(lang, 'died'))}</span>}
+        {p.roles?.[0] && <span class="pl-r">{p.roles[0]}</span>}
+      </li>
+    ))}
+  </ul>
 
   <nav class="pl-pn">
     {prev ? <a href={u.peopleLetter(lang, prev)}>← {show(prev)}</a> : <span />}
@@ -114,47 +80,14 @@ const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p)
   .pl-nav a, .pl-nav span { min-width: 1.5em; text-align: center; color: var(--ink); text-decoration: none; padding: .1rem 0; }
   .pl-nav a:hover { color: var(--person-ink); }
   .pl-nav [aria-current] { background: var(--ink); color: var(--paper-light); }
-  .pl-list { max-width: 96rem; margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-7); }
-  @media (min-width: 56rem) { .pl-list { columns: 2; column-gap: var(--s-7); column-rule: 1px solid var(--line-faint); } }
-  @media (min-width: 96rem) { .pl-list { columns: 3; } }
-  .pl-p { break-inside: avoid; padding: var(--s-3) 0 var(--s-4); border-top: 1px solid var(--line-faint); font-size: var(--fs-small); scroll-margin-top: calc(var(--header-h) + 3.5rem); }
-  .pl-p:target { background: color-mix(in srgb, var(--person) 8%, transparent); box-shadow: -.6rem 0 0 color-mix(in srgb, var(--person) 8%, transparent), .6rem 0 0 color-mix(in srgb, var(--person) 8%, transparent); }
-  .pl-p:target h2 { color: var(--person-ink); }
-  .pl-p h2 { font-family: var(--font-display); font-weight: 800; font-size: var(--fs-h4); line-height: 1.05; margin: 0; }
-  .pl-pt { font-family: var(--font-didone); font-style: italic; color: var(--person-ink); margin: .1rem 0 0; }
-  .pl-meta { margin: .2rem 0 0; display: flex; flex-wrap: wrap; gap: 0 .8rem; font-family: var(--font-label); letter-spacing: .08em; text-transform: uppercase; font-size: var(--fs-micro); opacity: .75; font-variant-numeric: tabular-nums; }
-  .pl-sum { margin: .45rem 0 0; font-size: var(--fs-note); line-height: 1.45; }
-  .pl-k { font-family: var(--font-label); letter-spacing: .14em; text-transform: uppercase; font-size: var(--fs-micro); opacity: .6; margin-right: .3em; }
-  .pl-main, .pl-also, .pl-y { margin: .4rem 0 0; line-height: 1.45; }
-  .pl-m { list-style: none; margin: .4rem 0 0; padding: 0; line-height: 1.4; }
-  .pl-m li { padding: .12rem 0; }
-  .pl-m span { opacity: .75; }
-  .pl-p a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--line-faint); }
-  .pl-p a:hover { color: var(--person-ink); border-color: currentColor; }
-  .pl-tl { margin-top: .5rem; }
-  .pl-tl :global(.ea-tl__list) { grid-auto-columns: minmax(10rem, 13rem); }
-  .pl-tl :global(.ea-tl__y) { font-size: 1.15rem; }
-  .pl-tl :global(.ea-tl__ev.major .ea-tl__y) { font-size: 1.4rem; }
-  .pl-tl :global(.ea-tl__axis) { margin-top: .2rem; }
+  .pl-list { list-style: none; max-width: 96rem; margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-7); columns: 3 17rem; column-gap: var(--s-6); }
+  .pl-list li { break-inside: avoid; padding: .3rem 0; border-bottom: 1px solid var(--line-faint); font-size: var(--fs-small); line-height: 1.35; }
+  .pl-list a { color: var(--ink); text-decoration: none; font-weight: 600; }
+  .pl-list a:hover { color: var(--person-ink); text-decoration: underline; }
+  .pl-d { margin-left: .5em; font-family: var(--font-label); letter-spacing: .06em; font-variant-numeric: tabular-nums; font-size: var(--fs-micro); opacity: .7; }
+  .pl-r { display: block; font-size: var(--fs-micro); opacity: .6; }
   .pl-pn { display: flex; justify-content: space-between; max-width: 96rem; margin: 0 auto var(--s-7); padding: var(--s-4) var(--gutter); border-top: 2px solid var(--ink); font-family: var(--font-display); font-size: var(--fs-h3); font-weight: 800; }
   .pl-pn a { color: var(--ink); text-decoration: none; }
   @media (max-width: 56rem) { .pl-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; } .pl-nav a, .pl-nav span { flex: none; min-width: 2.2em; padding: .35rem 0; } }
-  @media print { .pl-nav, .pl-pn { display: none; } .pl-list { columns: 2; } }
+  @media print { .pl-nav, .pl-pn { display: none; } }
 </style>
-<script>
-  // Deep links (#person-slug): the browser jumps before fonts load and before the timelines' arrow bars are added,
-  // so the target drifts. Re-align to the target once layout has settled (fonts + two frames), and on hash changes.
-  let user = false;
-  for (const ev of ['wheel', 'touchstart', 'keydown', 'pointerdown']) addEventListener(ev, () => { user = true; }, { once: true, passive: true });
-  const align = (e?: Event) => {
-    if (user && e?.type !== 'hashchange') return; // never pull the reader back once they have started moving
-    const id = decodeURIComponent(location.hash.slice(1));
-    const el = id && document.getElementById(id);
-    if (el) el.scrollIntoView({ block: 'start' });
-  };
-  if (location.hash) {
-    document.fonts.ready.then(() => requestAnimationFrame(() => requestAnimationFrame(align)));
-    addEventListener('load', align, { once: true });
-  }
-  addEventListener('hashchange', align);
-</script>

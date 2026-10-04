@@ -200,9 +200,12 @@ export async function fly(F: Fly) {
     const degrade = () => {
       degraded = stats.degraded = true;
       try {
-        const bad = +(localStorage.getItem('em-motion-bad') || 0) + 1;
-        localStorage.setItem('em-motion-bad', String(bad));
-        if (bad >= 2) localStorage.setItem('em-motion', 'lite');
+        // Fall back to the light title card only after 3 slow flights in a row, and only for 24 h (never permanently:
+        // a first visit's start-up work can make a fast machine look slow once or twice).
+        localStorage.removeItem('em-motion'); // legacy permanent flag
+        const bad = +(localStorage.getItem('em-motion-bad2') || 0) + 1;
+        localStorage.setItem('em-motion-bad2', String(bad));
+        if (bad >= 3) { localStorage.setItem('em-motion-lite-until', String(Date.now() + 864e5)); localStorage.removeItem('em-motion-bad2'); }
       } catch {}
       // quick cross-fade from wherever we are to the new page
       aO.cancel(); aN.cancel();
@@ -224,13 +227,14 @@ export async function fly(F: Fly) {
       // probe: after 10 frames, a median interval above 30 ms (< ~33 fps) → give up gracefully.
       // The median ignores the one-off spikes of the new page's own start-up scripts.
       // early exit for very slow renderers: frames 2–4 averaging > 50 ms (< 20 fps)
-      if (dts.length === 4 && !noProbe && (dts[1] + dts[2] + dts[3]) / 3 > 50) return degrade();
-      if (dts.length === 10 && !noProbe) {
-        const m = dts.slice(2).sort((a, b) => a - b);
-        if ((m[3] + m[4]) / 2 > 30) return degrade();
+      // The first frames overlap the new page's start-up (fonts, map engine, scripts): judge frames 4–14 only.
+      if (dts.length === 7 && !noProbe && (dts[4] + dts[5] + dts[6]) / 3 > 90) return degrade();
+      if (dts.length === 14 && !noProbe) {
+        const m = dts.slice(4).sort((a, b) => a - b);
+        if ((m[4] + m[5]) / 2 > 40) return degrade();
       }
       if (t >= 1) {
-        try { localStorage.removeItem('em-motion-bad'); } catch {}
+        try { localStorage.removeItem('em-motion-bad2'); localStorage.removeItem('em-motion'); } catch {}
         return skip();
       }
       requestAnimationFrame(loop);

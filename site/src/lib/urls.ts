@@ -10,9 +10,10 @@ export function personLetter(name: string): string {
   const ch = /[\u0400-\u04FF]/.test(c) ? c : c.normalize('NFD')[0];
   return ch.toLowerCase();
 }
-/** People are published one page per letter; each person is an anchor on that page. */
+/** Letter index of people (a compact list linking to the person pages). */
 export const peopleLetter = (lang: string, letter: string) => `${BASE}/${lang}/people/${letter}/`;
-export const person = (lang: string, slug: string, name: string) => `${peopleLetter(lang, personLetter(name))}#${slug}`;
+/** Person page. (`name` is accepted for call-site compatibility; the URL depends only on the slug.) */
+export const person = (lang: string, slug: string, _name?: string) => `${BASE}/${lang}/person/${slug}/`;
 export const place = (lang: string, slug: string) => `${BASE}/${lang}/place/${slug}/`;
 export const year = (lang: string, y: number | string) => `${BASE}/${lang}/year/${y}/`;
 export const indexLetter = (lang: string) => `${BASE}/${lang}/index/`;

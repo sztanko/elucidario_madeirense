@@ -35,7 +35,7 @@ try{var a=e.activation,u=a&&a.entry&&a.entry.url;S.setItem(K,JSON.stringify({i:C
 addEventListener('pagereveal',function(e){var vt=e.viewTransition;if(!vt)return;if(rm()){vt.skipTransition();return}
 var f=null;try{f=JSON.parse(S.getItem(K));S.removeItem(K)}catch(x){}
 var h=location.href.split('#')[0];if(!f||C.i<0||f.i===C.i||Date.now()-f.t>1e4||(f.to&&f.to.split('#')[0]!==h))return;
-var n=navigator,c=n.connection,lite=(c&&c.saveData)||n.deviceMemory<=2||n.hardwareConcurrency<=2||localStorage.getItem('em-motion')==='lite';
+var n=navigator,c=n.connection,lite=(c&&c.saveData)||n.deviceMemory<=2||n.hardwareConcurrency<=2||+(localStorage.getItem('em-motion-lite-until')||0)>Date.now()||localStorage.getItem('em-motion')==='force-lite';
 var m=lite?'card':'fly',el=document.createElement('div');el.id='em-fly';el.setAttribute('aria-hidden','true');
 if(lite){var s=document.createElement('span');s.textContent=hw();el.appendChild(s)}else el.appendChild(document.createElement('canvas'));
 d.appendChild(el);d.classList.add('em-'+m);window.__emFlight=vt.finished.catch(function(){});var F=window.__emFly={vt:vt,f:f,m:m,el:el,go:0,t0:performance.now()};

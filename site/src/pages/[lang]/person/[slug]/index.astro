@@ -1,0 +1,136 @@
+---
+// Person page: name (page language + Portuguese), dates, roles, summary, main article, mentions, timeline, places map.
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../components/ui/SectionHead.astro';
+import Label from '../../../../components/ui/Label.astro';
+import Folio from '../../../../components/ui/Folio.astro';
+import EntityLink from '../../../../components/ui/EntityLink.astro';
+import LenGauge from '../../../../components/ui/LenGauge.astro';
+import Timeline from '../../../../components/article/Timeline.astro';
+import Plate from '../../../../components/art/Plate.astro';
+import MapView from '../../../../components/map/MapView.astro';
+import { fmtLife, isoOf, fmtInt } from '../../../../components/ui/format';
+import { languages, persons, articles, eventsById, geo, isTrivialPlace } from '../../../../lib/data';
+import { t } from '../../../../i18n/ui';
+import * as u from '../../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().flatMap((lang) => Object.keys(persons(lang)).map((slug) => ({ params: { lang, slug } })));
+}
+const { lang, slug } = Astro.params as { lang: string; slug: string };
+const p = persons(lang)[slug];
+const arts = articles(lang);
+const mainArticle = p.main ? arts[p.main] : null;
+const evMap = eventsById(lang);
+const relatedEvents = (p.ev || []).map((id) => evMap.get(id)).filter((e) => e && e.y != null).slice(0, 24) as any[];
+const MAX_MENTIONS = 40;
+const shownMentions = p.m.filter((m) => m.a !== p.main).slice(0, MAX_MENTIONS);
+const hiddenMentions = p.m.length - shownMentions.length - (p.main ? 1 : 0);
+
+// places co-mentioned in the person's own article (or in the articles that mention them), for a small map
+const g = geo();
+const plcSrc = mainArticle ? mainArticle.plc : p.m.slice(0, 6).flatMap((m) => arts[m.a]?.plc ?? []);
+const coMentioned = [...new Map(plcSrc.filter((pl) => g[pl.id]?.c && !isTrivialPlace(pl.id)).map((pl) => [pl.id, pl])).values()].slice(0, 14);
+
+const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
+const jsonld = [{
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: p.n,
+  ...(p.n_pt && p.n_pt !== p.n ? { alternateName: p.n_pt } : {}),
+  ...(isoOf(p.d?.[0]) ? { birthDate: isoOf(p.d?.[0]) } : {}),
+  ...(isoOf(p.d?.[1]) ? { deathDate: isoOf(p.d?.[1]) } : {}),
+  ...(p.sum ? { description: p.sum } : {}),
+  url: site + u.person(lang, slug),
+}];
+const title = `${p.n} — Elucidário Madeirense`;
+// The generated plate is shared by all languages: hint and initials come from language-neutral fields.
+// Position on the plane of articles (motion): the main article, else the first article that mentions the person.
+const planeAt = p.main ?? p.m[0]?.a;
+const letter = u.personLetter(p.n);
+---
+<Base lang={lang} title={title} description={p.sum ?? p.n} kind="entity" jsonld={jsonld} planeId={planeAt}>
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'people'), href: u.peoplePage(lang) },
+    { label: letter === '0' ? '#' : letter.toUpperCase(), href: u.peopleLetter(lang, letter) }, { label: p.n }]} />
+
+  <Folio lang={lang} lead={t(lang, 'type_person')} items={p.roles?.slice(0, 3)} />
+
+  <header class="em-person-head em-role-person">
+    <Plate seed={p.id} category="person" size={96} variant="plate" title={p.n} hint={persons('en')[slug]?.roles?.[0]} name={p.n_pt || p.n} />
+    <div>
+      <h1>{p.n}</h1>
+      {lang !== 'pt' && p.n_pt && p.n_pt !== p.n && <p class="em-orig" lang="pt">{p.n_pt}</p>}
+      {(p.d?.[0] || p.d?.[1]) && <p class="em-dates">{fmtLife(p.d, t(lang, 'born'), t(lang, 'died'))}</p>}
+      {p.roles?.length > 0 && <p class="em-roles">{p.roles.join(' · ')}</p>}
+    </div>
+  </header>
+
+  {mainArticle && (
+    <a class="em-main-card" href={u.article(lang, mainArticle.id)}>
+      <span class="em-main-card__k">{t(lang, 'main_article')}</span>
+      <span class="em-main-card__hw"><LenGauge id={mainArticle.id} lang={lang} />{mainArticle.hw}</span>
+      {mainArticle.abs && <span class="em-main-card__abs">{mainArticle.abs}</span>}
+      <span class="em-main-card__go" aria-hidden="true">→</span>
+    </a>
+  )}
+
+  {p.sum && <p class="em-lede" lang={p.ml || undefined}>{p.sum}{p.ml && <span class="em-langmark" title={t(lang, 'in_english')}>EN</span>}</p>}
+
+  {shownMentions.length > 0 && (
+    <section aria-labelledby="h-mentions">
+      <SectionHead size="m" title={t(lang, 'mentioned_in')} id="h-mentions" role="person" n="1">
+        <span slot="aside"><Label role="muted" count={fmtInt(p.cnt, lang)} /></span>
+      </SectionHead>
+      <ul class="em-mentions" role="list">
+        {shownMentions.map((mn) => (
+          <li>
+            <LenGauge id={mn.a} lang={lang} /><a href={u.article(lang, mn.a) + (mn.b ? `#${mn.b}` : '')}>{mn.hw}</a>
+            {mn.note && <span class="em-note" lang={p.ml || undefined}> — {mn.note}</span>}
+          </li>
+        ))}
+      </ul>
+      {hiddenMentions > 0 && <p class="em-more-note">+{fmtInt(hiddenMentions, lang)} {t(lang, 'and_n_more')}</p>}
+    </section>
+  )}
+
+  {relatedEvents.length > 0 && (
+    <section aria-labelledby="h-events">
+      <SectionHead size="m" title={t(lang, 'dates_mentioned')} id="h-events" role="date" n="2" />
+      <Timeline lang={lang} events={relatedEvents} />
+    </section>
+  )}
+
+  {coMentioned.length > 0 && (
+    <section aria-labelledby="h-places">
+      <SectionHead size="m" title={t(lang, 'places_mentioned')} id="h-places" role="place" n="3" />
+      <MapView lang={lang} mode="article" places={coMentioned.map((pl, i) => ({ id: pl.id, label: pl.n, role: 'mention', n: i + 1 }))} height="320px" />
+      <ol class="em-plc" role="list">
+        {coMentioned.map((pl, i) => <li><span class="em-plc__n">{i + 1}</span><EntityLink kind="place" id={pl.id} lang={lang} variant="name" label={pl.n} /></li>)}
+      </ol>
+    </section>
+  )}
+</Base>
+<style>
+  .em-person-head { display: flex; gap: var(--s-5); align-items: flex-start; padding: var(--s-6) var(--gutter) var(--s-4); max-width: var(--measure-wide); margin: 0 auto; }
+  .em-person-head h1 { font-family: var(--font-display); text-transform: uppercase; font-size: clamp(2.2rem, 1.4rem + 3vw, 4rem); line-height: .95; margin: 0; }
+  .em-orig { font-family: var(--font-didone); font-style: italic; color: var(--person-ink); margin: .3rem 0 0; font-size: var(--fs-h4); }
+  .em-dates { font-family: var(--font-label); letter-spacing: .12em; font-variant-numeric: tabular-nums; margin: .5rem 0 0; }
+  .em-roles { opacity: .75; margin: .2rem 0 0; }
+  .em-lede { font-size: var(--fs-lede); font-style: italic; max-width: var(--measure); margin: 0 auto var(--s-6); padding: 0 var(--gutter); }
+  .em-main-card { display: grid; grid-template-columns: 1fr auto; gap: .2rem 1rem; align-items: center; max-width: var(--measure-wide); margin: 0 auto var(--s-6); padding: var(--s-4) var(--s-5); border-top: 4px solid var(--ink); border-bottom: 1px solid var(--ink); background: var(--paper-light); color: var(--ink); text-decoration: none; box-sizing: border-box; }
+  @media (max-width: 56rem) { .em-main-card { margin-inline: var(--gutter); } }
+  .em-main-card__k { grid-column: 1; font: 700 var(--fs-micro)/1 var(--font-label); letter-spacing: var(--tracking-label, .22em); text-transform: uppercase; color: var(--person-ink); }
+  .em-main-card__hw { grid-column: 1; font: 800 var(--fs-h3)/1.05 var(--font-display); text-transform: uppercase; }
+  .em-main-card__abs { grid-column: 1; font-size: var(--fs-small); line-height: 1.4; }
+  .em-main-card__go { grid-column: 2; grid-row: 1 / span 3; font: 800 2.4rem/1 var(--font-display); color: var(--person); }
+  section { max-width: var(--measure-wide); margin: 0 auto var(--s-7); padding: 0 var(--gutter); }
+  .em-mentions { list-style: none; margin: var(--s-3) 0 0; padding: 0; }
+  .em-mentions li { padding: .35rem 0 .35rem 1.95rem; text-indent: -1.95rem; border-bottom: 1px solid var(--line-faint); font-size: var(--fs-small); }
+  .em-mentions a { color: var(--ink); }
+  .em-note { opacity: .75; }
+  .em-more-note { font-size: var(--fs-small); opacity: .6; margin-top: .4rem; }
+  .em-plc { list-style: none; padding: 0; margin: var(--s-3) 0 0; columns: 2 14rem; font-size: var(--fs-small); }
+  .em-plc li { break-inside: avoid; padding: .2rem 0; }
+  .em-plc__n { display: inline-grid; place-items: center; width: 1.3rem; height: 1.3rem; margin-right: .45rem; border-radius: 50%; background: var(--place); color: var(--paper-light); font: 700 .65rem/1 var(--font-label); }
+</style>
