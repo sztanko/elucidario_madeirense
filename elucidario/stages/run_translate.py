@@ -121,13 +121,9 @@ def meta_requests(lang: str) -> list[dict]:
     con = sqlite3.connect(DB)
     rows = con.execute("SELECT u.uid, u.text FROM units u JOIN translations t ON t.uid = u.uid AND t.lang = ? "
                        "WHERE u.src_lang = 'en' AND t.status != 'done' ORDER BY u.article, u.uid", (lang,)).fetchall()
-    names = {}
-    p = KB / "names" / f"{lang}.jsonl"
-    if p.exists():
-        for line in open(p):
-            x = json.loads(line)
-            if len(x["pt"]) > 3:
-                names[x["pt"]] = x.get("rendering")
+    from elucidario.names_table import for_prompt
+
+    names = {k: v for k, v in for_prompt(lang, "rendering").items() if len(k) > 3}
     reqs, cur, size = [], [], 0
     for uid, text in rows:
         cur.append({"uid": uid, "text": text})

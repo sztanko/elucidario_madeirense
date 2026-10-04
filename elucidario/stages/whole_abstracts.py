@@ -68,13 +68,9 @@ def write_abstract(e: dict, art: dict) -> str:
 def translate(units: list[dict], lang: str) -> dict[str, str]:
     from elucidario.paths import KB
 
-    names = {}
-    p = KB / "names" / f"{lang}.jsonl"
-    if p.exists():
-        for line in open(p):
-            x = json.loads(line)
-            if len(x["pt"]) > 3:
-                names[x["pt"]] = x.get("rendering")
+    from elucidario.names_table import for_prompt
+
+    names = {k: v for k, v in for_prompt(lang, "rendering").items() if len(k) > 3}
     blob = " ".join(u["text"] for u in units)
     used = {k: v for k, v in names.items() if k in blob}
     out = _call(meta_system(lang), json.dumps({"names": dict(list(used.items())[:150]), "units": units}, ensure_ascii=False),

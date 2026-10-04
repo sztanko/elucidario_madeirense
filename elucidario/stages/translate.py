@@ -98,13 +98,11 @@ class Context:
             for line in open(tbj):
                 x = json.loads(line)
                 self.term_variants[x["lemma"]] = sorted(set([x["lemma"]] + x.get("variants", [])))
-        self.names = defaultdict(dict)  # lang -> pt name -> rendering
+        from elucidario.names_table import for_prompt
+
+        self.names = defaultdict(dict)  # lang -> pt name -> first-mention form (homonyms list every sense)
         for lang in LANG_NAMES:
-            p = KB / "names" / f"{lang}.jsonl"
-            if p.exists():
-                for line in open(p):
-                    x = json.loads(line)
-                    self.names[lang][x["pt"]] = x.get("first") or x["rendering"]
+            self.names[lang] = for_prompt(lang, "first")
 
     def chunks(self, aid: str) -> list[list[dict]]:
         a = self.arts[aid]

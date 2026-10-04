@@ -28,9 +28,15 @@ export function readYaml<T = any>(rel: string): T {
   return memo(`yaml:${rel}`, () => loadYaml(readRepoFile(rel)) as T);
 }
 
-/** Render Markdown to HTML at build time (tables, headings, lists, code all supported by `marked`). */
+/** Internal documents that stay in the repository but are never published on the site, nor mentioned there. */
+export const PRIVATE_DOCS = ['HANDOVER.md'];
+const PRIVATE_RE = new RegExp(PRIVATE_DOCS.map((d) => d.replace(/\.md$/, '').replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|'), 'i');
+
+/** Render Markdown to HTML at build time (tables, headings, lists, code all supported by `marked`).
+ *  Lines that refer to a private document (index rows, list items, sentences) are dropped first. */
 export function renderMarkdown(src: string): string {
-  return marked.parse(src, { async: false, gfm: true }) as string;
+  const pub = src.split('\n').filter((l) => !PRIVATE_RE.test(l)).join('\n');
+  return marked.parse(pub, { async: false, gfm: true }) as string;
 }
 
 /** Strip Markdown front-of-document H1 to use as a page title, returning [title, rest]. */
@@ -109,6 +115,7 @@ export function listDocs(): DocRef[] {
       else if (name.endsWith('.md')) {
         const rel = path.relative(root, full);
         if (prefix.length === 0 && name === 'README.md') continue; // the technical index itself
+        if (PRIVATE_DOCS.includes(rel)) continue; // internal, not published
         const base = name.replace(/\.md$/, '');
         const slug = base === 'README' ? prefix : [...prefix, base];
         out.push({ slug, rel });

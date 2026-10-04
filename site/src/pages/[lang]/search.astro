@@ -29,6 +29,8 @@ const municipalities = [...new Set(idx.places.map((p) => p[4]).filter(Boolean))]
       </div>
 
       <div class="em-adv__layout">
+        <details class="em-adv__fd" data-adv-filters>
+        <summary class="em-adv__fsum em-label">{t(lang, 'filters')}</summary>
         <aside class="em-adv__filters">
           <fieldset class="em-adv__group">
             <legend>{t(lang, 'index')}</legend>
@@ -85,6 +87,7 @@ const municipalities = [...new Set(idx.places.map((p) => p[4]).filter(Boolean))]
             <label><input type="checkbox" data-filter="length" value="long" /> {t(lang, 'size_long')}</label>
           </fieldset>
         </aside>
+        </details>
 
         <div class="em-adv__main">
           <div class="em-adv__toolbar">
@@ -134,6 +137,17 @@ const municipalities = [...new Set(idx.places.map((p) => p[4]).filter(Boolean))]
     }
     .em-adv__layout { display: grid; grid-template-columns: 16rem 1fr; gap: var(--s-6); align-items: start; }
     @media (max-width: 56rem) { .em-adv__layout { grid-template-columns: 1fr; } }
+    /* Filters: always shown (and sticky) beside the results on wide screens; a collapsible block above them on
+       phones, never sticky, so the tall filter column cannot cover the results. */
+    .em-adv__fsum { display: none; }
+    @media (max-width: 56rem) {
+      .em-adv__fsum { display: flex; align-items: center; justify-content: space-between; cursor: pointer; padding: .7rem 0; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); list-style: none; }
+      .em-adv__fsum::-webkit-details-marker { display: none; }
+      .em-adv__fsum::after { content: '+'; font: 700 1.2rem/1 var(--font-display); }
+      .em-adv__fd[open] .em-adv__fsum::after { content: '–'; }
+      .em-adv__fd[open] .em-adv__filters { margin-top: var(--s-4); }
+      .em-adv__filters.em-adv__filters { position: static; }
+    }
 
     .em-adv__filters { display: flex; flex-direction: column; gap: var(--s-4); position: sticky; top: calc(var(--header-h) + var(--s-3)); }
     .em-adv__group {
@@ -176,3 +190,11 @@ const municipalities = [...new Set(idx.places.map((p) => p[4]).filter(Boolean))]
     @media print { .em-adv__filters, .em-adv__pager { display: none; } }
   </style>
 </Base>
+<script>
+  // Wide screens: the filter column is always open (the <summary> toggle is hidden there).
+  const fd = document.querySelector<HTMLDetailsElement>('[data-adv-filters]');
+  const wide = matchMedia('(min-width: 56.01rem)');
+  const sync = () => { if (fd && wide.matches) fd.open = true; };
+  sync();
+  wide.addEventListener('change', sync);
+</script>

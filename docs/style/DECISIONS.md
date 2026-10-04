@@ -11,3 +11,12 @@
 | Translation models | Superseded after the OpenAI Sol benchmark (2026-09-27). Article bodies: Opus 5.5 low for en, de, fr, it, nl; gpt-5.6-sol for ru and uk; gpt-6-sol for hu. Metadata: gpt-6-sol for all languages (including hu and pt). Configuration: kb/translation_config.yaml. |
 | Ukrainian Marian titles | "Матір Божа …" for Latin-rite devotional titles; "… Пресвятої Богородиці" for feasts and mysteries; "Богородиця …" only for established Eastern icon names. Owner corrections: Boa Morte → Успіння Пресвятої Богородиці; Livramento → Богородиця Визволителька; Piedade → Матір Божа Скорботна. |
 | Cyrillic transcription standards, religious titles, historical figures, geocoding | Approved by the owner, 2026-09-27. |
+
+## Latin-script naming standard (2026-10-03)
+- Owner's rule: names whose meaning a reader would miss get the meaning in parentheses on first mention; saints and
+  religious dedications, titles of works and historical figures are translated with the Portuguese original in
+  parentheses; Latin-script languages do not transcribe. Standards: `docs/naming_latin.md` and
+  `docs/naming_{en,de,fr,it,hu,nl}.md`; works in `kb/works.yaml`.
+- All recommended defaults in `docs/naming_latin.md` §13.3 accepted (masthead + gloss for periodicals; descriptive titles
+  in quotes; uk/ru widen toponym glossing to single-word and personal-name toponyms; Madeirees; Câmara de Lobos = seals).
+- `docs/HANDOVER.md` is internal and never published on the site.

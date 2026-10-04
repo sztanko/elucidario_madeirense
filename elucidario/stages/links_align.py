@@ -59,7 +59,9 @@ def _load(lang: str, plan: list[dict] | None = None):
     for r in _jl(DATA / "11_translations" / f"{lang}.jsonl"):
         if r["uid"].startswith("art:") and r.get("text"):
             tr[r["uid"]] = r["text"]
-    names = {x["pt"]: x.get("rendering") for x in _jl(KB / "names" / f"{lang}.jsonl")}
+    from elucidario.names_table import rows as name_rows
+
+    names = {pt: [x.get("rendering") for x in rs if x.get("rendering")] for pt, rs in name_rows(lang).items()}
     pt = {a["id"]: {b["id"].split("#")[-1]: b.get("text") or "" for b in a["blocks"]}
           for a in _jl(DATA / "04_structured" / "articles.jsonl")}
     return plan, tr, names, pt
@@ -83,8 +85,7 @@ def _deterministic(plan, tr, names):
                 if l["kind"] == "article":
                     h = tr.get(f"art:{l['to']}:headword") or ""
                     cands += [h, re.sub(r"\s*\(.*$", "", h)]
-                if names.get(l["phrase"]):
-                    cands.append(names[l["phrase"]])
+                cands += [re.sub(r"[*‘’']", "", r) for r in names.get(l["phrase"], [])]
                 span = None
                 for c in sorted({c for c in cands if c and len(c) >= 3}, key=len, reverse=True):
                     if span := _find(text, c, taken):
@@ -166,7 +167,8 @@ def collect(lang: str, job: str = "links", retry_job: str | None = None) -> dict
     """Merge deterministic matches with the batch answers (and, if given, a retry job that only fills gaps)."""
     plan, tr, names, pt = _load(lang)
     done, pending = _deterministic(plan, tr, names)
-    jobs = [BatchJob(f"{job}_{lang}")] + ([BatchJob(f"{retry_job}_{lang}")] if retry_job else [])
+    retries = [r for r in (retry_job or "").split(",") if r]  # several retry passes: "links2r,links2r2"
+    jobs = [BatchJob(f"{job}_{lang}")] + [BatchJob(f"{r}_{lang}") for r in retries]
     got = defaultdict(dict)
     for j in jobs:
         for _, res in j.results():

@@ -158,12 +158,17 @@ function snippet(tx: string, terms: string[]): string {
   if (start > 0) out = '… ' + out;
   if (end < tx.length) out = out + ' …';
 
-  let html = escapeHtml(out);
-  for (const term of needles) {
-    const re = new RegExp(`(${escapeRe(escapeHtml(term))})`, 'gi');
-    html = html.replace(re, '<mark>$1</mark>');
+  // Italic markup from the corpus (*term*) becomes <em>; a marker cut off by the window is dropped.
+  let html = escapeHtml(out).replace(/\*([^*\n]+?)\*/g, '<em>$1</em>').replace(/\*/g, '');
+  // Highlight terms in text segments only (never inside the tags just added).
+  const parts = html.split(/(<[^>]+>)/);
+  for (let i = 0; i < parts.length; i += 2) {
+    for (const term of needles) {
+      const re = new RegExp(`(${escapeRe(escapeHtml(term))})`, 'gi');
+      parts[i] = parts[i].replace(re, '<mark>$1</mark>');
+    }
   }
-  return html;
+  return parts.join('');
 }
 
 function matchesFilters(d: CorpusDoc, f: SearchFilters | undefined): boolean {

@@ -56,6 +56,19 @@ def slug(eid: str) -> str:
     return eid.split(":", 1)[1] if ":" in eid else eid
 
 
+ARTICLES = {"en": r"the", "de": r"der|die|das|den|dem", "fr": r"le|la|les|l’|l'", "it": r"il|lo|la|i|gli|le|l’|l'",
+            "hu": r"a|az", "nl": r"de|het"}
+
+
+def display(rendering: str, lang: str) -> str:
+    """'the chapel of Our Lady of Pity' -> 'Chapel of Our Lady of Pity'; '*The Lusiads*' -> 'The Lusiads'."""
+    s = re.sub(r"[*]", "", rendering).strip()
+    a = ARTICLES.get(lang)
+    if a:
+        s = re.sub(rf"^(?:{a})(?:\s+|(?<=[’']))", "", s, count=1)
+    return s[:1].upper() + s[1:] if s else s
+
+
 def plain_meta(s: str | None) -> str | None:
     return re.sub(r"\*([^*\n]+)\*", r"\1", s) if s else s
 
@@ -136,8 +149,10 @@ class Corpus:
                 out[r["uid"]] = r["text"]
         return out
 
-    def names(self, lang: str) -> dict[str, dict]:
-        return {x["pt"]: x for x in jl(KB / "names" / f"{lang}.jsonl")}
+    def names(self, lang: str) -> dict[str, list[dict]]:
+        from elucidario.names_table import rows
+
+        return rows(lang)
 
 
 # ------------------------------------------------------------------ helpers
@@ -268,18 +283,21 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
     def entry(pt: str, kind: str | None) -> dict | None:
         """Name-table entry for this kind of entity. The table is keyed by the Portuguese string alone, so a place
         named after a saint or king (São Vicente, Vitória) would otherwise take the person's rendering ("St Vincent")."""
-        x = N.get(pt)
+        from elucidario.names_table import pick
+
         if (lang, kind, pt) in NAME_OVERRIDES:
             return {"rendering": NAME_OVERRIDES[(lang, kind, pt)], "first": NAME_OVERRIDES[(lang, kind, pt)]}
-        if x and kind == "place" and x.get("type") == "person" and lang not in CYRILLIC:
+        x = pick(N.get(pt), kind)
+        if x and kind == "place" and (x.get("sense") or x.get("type")) in ("person", "saint") and lang not in CYRILLIC:
             return None  # Latin-script languages keep Portuguese place names
         return x
 
     def name(pt: str, kind: str | None = None) -> str:
+        """Display name (lists, headers, map labels): the running-text rendering without a leading article or markup."""
         if lang == "pt":
             return pt
         x = entry(pt, kind)
-        return x["rendering"] if x and x.get("rendering") else pt
+        return display(x["rendering"], lang) if x and x.get("rendering") else pt
 
     def first_name(pt: str, kind: str | None = None) -> str:
         if lang == "pt":
