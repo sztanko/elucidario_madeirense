@@ -5,6 +5,7 @@ import Base from '../../../../layouts/Base.astro';
 import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
 import SectionHead from '../../../../components/ui/SectionHead.astro';
 import Label from '../../../../components/ui/Label.astro';
+import Icon from '../../../../components/ui/Icon.astro';
 import Folio from '../../../../components/ui/Folio.astro';
 import EntityLink from '../../../../components/ui/EntityLink.astro';
 import Timeline from '../../../../components/article/Timeline.astro';
@@ -12,7 +13,7 @@ import EventChip from '../../../../components/entity/EventChip.astro';
 import Plate from '../../../../components/art/Plate.astro';
 import MapView from '../../../../components/map/MapView.astro';
 import { fmtEdtf, fmtInt } from '../../../../components/ui/format';
-import { languages, places, geo, articles, eventsById, locParts } from '../../../../lib/data';
+import { languages, places, geo, articles, eventsById, locParts, munsOf, precKey } from '../../../../lib/data';
 import { t } from '../../../../i18n/ui';
 import * as u from '../../../../lib/urls';
 
@@ -34,8 +35,20 @@ const nearbyIds = (mainArticle?.near ?? []).slice(0, 10);
 const nearby = nearbyIds.map((id) => arts[id]).filter(Boolean);
 
 const isAbroad = !ge || ge.isl === 'none' || !ge.isl;
-const locBits = isAbroad ? locParts(ge?.ctry, ge?.cont) : locParts(ge?.par, ge?.mun, ge?.isl);
-const needsPrecisionNote = ge && ['approximate', 'parish-centroid', 'municipality-centroid', 'city/country', 'unknown'].includes(ge.prec || '');
+// a levada / stream / road crossing several municipalities lists them all (no single parish then)
+const locBits = isAbroad ? locParts(ge?.ctry, ge?.cont)
+  : (ge?.muns?.length ?? 0) > 1 ? locParts(...munsOf(ge), ge?.isl) : locParts(ge?.par, ge?.mun, ge?.isl);
+const precNote = isAbroad ? null : precKey(ge);
+// GPS coordinates (WGS 84) with a Google Maps link — only when the exact location is known
+const dms = (v: number, pos: string, neg: string) => {
+  const a = Math.abs(v), d = Math.floor(a), m = Math.floor((a - d) * 60), s = Math.round(((a - d) * 60 - m) * 60);
+  const [mm, ss] = s === 60 ? [m + 1, 0] : [m, s];
+  return `${d}°${String(mm).padStart(2, '0')}′${String(ss).padStart(2, '0')}″ ${v >= 0 ? pos : neg}`;
+};
+const gps = ge?.c && ge.prec === 'exact'
+  ? { lat: dms(ge.c[1], 'N', 'S'), lon: dms(ge.c[0], 'E', 'W'), dec: `${ge.c[1].toFixed(5)}, ${ge.c[0].toFixed(5)}`,
+      href: `https://www.google.com/maps/search/?api=1&query=${ge.c[1].toFixed(6)},${ge.c[0].toFixed(6)}` }
+  : null;
 
 const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
 const jsonld = [{
@@ -62,7 +75,16 @@ const planeAt = p.main ?? p.m[0]?.a;
       {lang !== 'pt' && ge?.pt && ge.pt !== p.n && <p class="em-orig" lang="pt">{ge.pt}</p>}
       {locBits.length > 0 && <p class="em-locbits">{locBits.join(' · ')}</p>}
       {p.loc && <p class="em-loc">{p.loc}</p>}
-      {needsPrecisionNote && <p class="em-prec"><Label role="muted" size="micro">{ge?.prec}</Label></p>}
+      {precNote && <p class="em-prec"><Label role="muted" size="micro">{t(lang, precNote)}</Label></p>}
+      {gps && (
+        <p class="em-gps">
+          <a href={gps.href} target="_blank" rel="noopener" title={`${t(lang, 'open_google_maps')} (${gps.dec})`}>
+            <Icon name="place" size={13} class="em-gps__pin" />
+            <span class="em-gps__c">{gps.lat}</span><span class="em-gps__sep" aria-hidden="true"></span><span class="em-gps__c">{gps.lon}</span>
+            <span class="em-gps__l">{t(lang, 'open_google_maps')}<Icon name="external" size={11} /></span>
+          </a>
+        </p>
+      )}
     </div>
   </header>
 
@@ -137,6 +159,16 @@ const planeAt = p.main ?? p.m[0]?.a;
   .em-locbits { opacity: .7; margin: .3rem 0 0; }
   .em-loc { margin: .3rem 0 0; }
   .em-prec { margin: .4rem 0 0; }
+  .em-gps { margin: .55rem 0 0; font-size: var(--fs-micro); line-height: 1; }
+  .em-gps a { display: inline-flex; align-items: center; gap: .45em; color: var(--ink-2); text-decoration: none; }
+  :global(.em-gps__pin) { color: var(--place); flex: none; }
+  .em-gps__c { font-family: var(--font-label); letter-spacing: .08em; font-variant-numeric: tabular-nums; }
+  .em-gps__sep { width: 1px; height: .95em; background: currentColor; opacity: .35; }
+  .em-gps__l { display: inline-flex; align-items: center; gap: .25em; margin-left: .35em; padding-left: .7em;
+    border-left: 1px solid var(--line-faint); font-family: var(--font-label); text-transform: uppercase;
+    letter-spacing: var(--tracking-label, .18em); font-size: .92em; color: var(--place-ink, var(--ink)); }
+  .em-gps a:hover .em-gps__l { text-decoration: underline; text-underline-offset: .2em; }
+  .em-gps a:hover .em-gps__c { color: var(--ink); }
   .em-lede { font-size: var(--fs-lede); max-width: var(--measure); margin: 0 auto var(--s-5); padding: 0 var(--gutter); }
   section { max-width: var(--measure-wide); margin: var(--s-6) auto; padding: 0 var(--gutter); }
   .em-main-article { max-width: var(--measure-wide); margin: 0 auto var(--s-6); padding: 0 var(--gutter); }

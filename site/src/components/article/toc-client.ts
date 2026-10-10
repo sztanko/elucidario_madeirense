@@ -159,14 +159,6 @@ export function init() {
       body.scrollTo({ left: target, behavior: reduce() ? 'auto' : 'smooth' });
     }
   });
-  // Vertical wheel → horizontal pagination (trackpads already send deltaX).
-  body.addEventListener('wheel', (e) => {
-    if (!folio() || e.ctrlKey || Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
-    const max = body.scrollWidth - body.clientWidth;
-    const atStart = body.scrollLeft <= 0 && e.deltaY < 0;
-    const atEnd = body.scrollLeft >= max - 1 && e.deltaY > 0;
-    if (atStart || atEnd) return; // let the page scroll on past the folio
-    e.preventDefault();
-    body.scrollLeft += e.deltaY * (e.deltaMode === 1 ? 32 : 1);
-  }, { passive: false });
+  // The vertical wheel always scrolls the page (owner's request): columns are paged with a sideways trackpad swipe,
+  // Shift+wheel (native), the arrow keys or the arrow buttons under the folio.
 }

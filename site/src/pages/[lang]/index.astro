@@ -58,6 +58,9 @@ const ALPHABETS: Record<string, string> = {
   en: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
   uk: 'АБВГҐДЕЄЖЗИІЇЙКЛМНОПРСТУФХЦЧШЩЬЮЯ',
   hu: 'AÁBCDEÉFGHIÍJKLMNOÓÖŐPQRSTUÚÜŰVWXYZ',
+  de: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+  fr: 'ABCDEFGHIJKLMNOPQRSTUVWXYZ',
+  ru: 'АБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЭЮЯ',
 };
 const lettersPresent = new Set(idx.articles.map((r) => letterOf(r[1])));
 const base = [...(ALPHABETS[lang] ?? ALPHABETS.en)];
@@ -88,12 +91,7 @@ const jsonld = [
   <header class="em-home-head">
     <Label as="p" bar wide role="person">{`${fmtInt(m.languages.length, lang)} ${t(lang, 'languages_n')} · ${fmtInt(m.counts.articles, lang)} ${t(lang, 'articles')}`}</Label>
     <h1 class="em-masthead em-home-title">
-      {lang === 'uk' ? (
-        <>
-          <span class="em-title-orig">Елусідаріу Мадейренсі</span>
-          <span class="em-title-translit em-didone">Elucidário Madeirense</span>
-        </>
-      ) : 'ELUCIDÁRIO MADEIRENSE'}
+      ELUCIDÁRIO MADEIRENSE
     </h1>
     <p class="em-tagline em-didone">{t(lang, 'tagline')}</p>
     <div class="em-hero-search"><SearchBox lang={lang} variant="hero" /></div>
@@ -182,8 +180,6 @@ const jsonld = [
 <style>
   .em-home-head { text-align: center; padding: var(--s-8) var(--gutter) var(--s-6); }
   .em-home-title { font-size: var(--fs-masthead); margin: var(--s-3) 0 var(--s-2); }
-  .em-title-orig { display: block; }
-  .em-title-translit { display: block; font-size: .32em; opacity: .72; letter-spacing: .04em; text-transform: none; }
   .em-tagline { font-size: var(--fs-lede); opacity: .8; margin: 0 0 var(--s-4); }
   .em-home-art { margin: var(--s-3) auto calc(-1 * var(--s-6)); padding: 0 var(--gutter); max-width: 86rem; pointer-events: none; position: relative; z-index: 0; }
   .em-home-art img { display: block; width: 100%; height: auto; }

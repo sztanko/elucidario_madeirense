@@ -1,0 +1,32 @@
+# Reviewed geocoding corrections, applied last by elucidario.stages.geocode3.collect() / apply_overrides().
+# Key = KB place id. Fields replace those of the computed record; lat/lon set a point geometry.
+place:caxias:
+  matched_name: Caxias (Oeiras)
+  country: Portugal
+  lat: 38.6997
+  lon: -9.2731
+  note: Caxias, on the Tagus west of Lisbon (Oeiras), where the royal palace stood; the embarkation point for Cádiz.
+place:gue:
+  matched_name: Santa Cruz do Cabo de Gué (Agadir)
+  country: Morocco
+  lat: 30.4278
+  lon: -9.6153
+  note: The Portuguese fortress of Santa Cruz do Cabo de Gué, modern Agadir, lost in 1541.
+place:santa-cruz-do-cabo-de-gue:
+  matched_name: Santa Cruz do Cabo de Gué (Agadir)
+  country: Morocco
+  lat: 30.4278
+  lon: -9.6153
+  note: The Portuguese fortress of Santa Cruz do Cabo de Gué, modern Agadir; relieved in 1533 by Simão Gonçalves da Câmara.
+place:aix:
+  matched_name: Île-d'Aix
+  country: France
+  lat: 46.0130
+  lon: -1.1730
+  note: Île-d'Aix off Rochefort, where the frigate Méduse sailed from in 1816.
+place:latour:
+  matched_name: La Tour Saint-Joseph (Saint-Pern)
+  country: France
+  lat: 48.2836
+  lon: -1.9850
+  note: La Tour Saint-Joseph, mother house of the Little Sisters of the Poor, at Saint-Pern in Brittany.

@@ -109,6 +109,12 @@ export function centuryLabel(lang: string, century: number): string {
       return `${century} століття`;
     case 'hu':
       return `${roman}. század`;
+    case 'de':
+      return `${century}. Jahrhundert`;
+    case 'fr':
+      return `${roman}e siècle`;
+    case 'ru':
+      return `${roman} век`;
     default:
       return `${century}th century`;
   }

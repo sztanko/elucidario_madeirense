@@ -29,7 +29,7 @@ import yaml
 from elucidario.paths import DATA, KB, ROOT
 
 OUT = ROOT / "site" / "data"
-SITE_LANGS = ["pt", "en", "uk", "hu"]
+SITE_LANGS = ["pt", "en", "de", "fr", "hu", "uk", "ru"]
 LANG_NAMES = {"pt": "Português", "en": "English", "uk": "Українська", "hu": "Magyar", "de": "Deutsch", "fr": "Français",
               "it": "Italiano", "nl": "Nederlands", "ru": "Русский"}
 
@@ -45,6 +45,10 @@ NAME_OVERRIDES = {
     ("uk", "place", "Vitória"): "Віторія",
     ("uk", "place", "Carlos"): "Карлуш",
     ("uk", "person", "São Vicente"): "святий Вікентій Сарагоський",
+    ("ru", "place", "São Lourenço"): "Сан-Лоуренсу",
+    ("ru", "place", "Vitória"): "Витория",
+    ("ru", "place", "Carlos"): "Карлуш",
+    ("ru", "person", "São Vicente"): "святой Викентий Сарагосский",
 }
 
 _SLUG: dict[str, str] = {}  # entity id -> public URL slug, where it differs from the id (places)
@@ -237,11 +241,22 @@ def export_geo(c: Corpus) -> dict:
         cont = country = None
         if point and p["island"] == "none":
             cont, country = look(*point)
+            country = g.get("country") or country
         elif point:
             cont, country = "Madeira", "Portugal"
-        rec = {"pt": p["name"], "tp": p["place_type"], "isl": p["island"], "par": p.get("parish"), "mun": p.get("municipality"),
+        # geocode3 writes the corrected hierarchy (parish decides municipality; OSM location wins over the KB)
+        par = g.get("parish") if g.get("method") else p.get("parish")
+        mun = g.get("municipality") if g.get("method") else p.get("municipality")
+        rec = {"pt": p["name"], "tp": p["place_type"], "isl": p["island"], "par": par or p.get("parish"), "mun": mun or p.get("municipality"),
                "cont": cont, "ctry": country, "c": point, "prec": g.get("precision"), "main": p.get("main_article_id"),
                "n": p.get("mention_count", 0)}
+        if g.get("match"):  # exact | variant (spelling) | proxy (a namesake feature marks it) | area (parish/municipality)
+            rec["match"] = g["match"]
+        # levadas, streams, roads run through several parishes/municipalities (primary first)
+        if len(g.get("municipalities") or []) > 1:
+            rec["muns"] = g["municipalities"]
+        if len(g.get("parishes") or []) > 1:
+            rec["pars"] = g["parishes"]
         geom = g.get("geometry")
         if geom and geom.get("type") in ("LineString", "MultiLineString", "Polygon", "MultiPolygon"):
             rec["g"] = geom
@@ -391,6 +406,9 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             return c.arts[aid]["headword"]
         return plain_meta(T.get(f"art:{aid}:headword") or c.arts[aid]["headword"])
 
+    from elucidario.stages.lists import h as list_hash
+    LS = {(l, r["article"], r["block"]): r for l in {lang, "pt"} for r in jl(DATA / "13_lists" / f"{l}.jsonl")} \
+        if (DATA / "13_lists").exists() else {}
     articles = {}
     pos = {aid: i for i, aid in enumerate(c.order)}
     for aid in c.order:
@@ -428,6 +446,10 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
                 ob["un"] = b["update_notes"]
             if not ob["x"] and lang != "pt" and not cells:
                 ob["x"], ob["xl"] = pt_inline_markup(b), "pt"  # untranslated fallback
+            # list structure (data/13_lists): only while it was computed on exactly this text
+            ls = LS.get((ob.get("xl") or lang, aid, bid))
+            if ls and ls["hash"] == list_hash(ob["x"]):
+                ob["ls"] = {"o": ls["ordered"], "c": ls["cont"], "s": ls["segs"]}
             blocks.append(ob)
         chapters = []
         for k, ch in enumerate(e.get("chapters", [])):
@@ -602,6 +624,9 @@ def run(langs: list[str] | None = None) -> dict:
     for pin in ("levadas",):
         if pin in c.arts and pin not in mix:
             mix.insert(0, pin)
+    curated = KB / "featured_home.yaml"
+    if curated.exists():  # the owner-approved curated list wins over the automatic per-category mix
+        mix = [r["id"] for r in (yaml.safe_load(curated.read_text()) or []) if r.get("id") in c.arts]
     (OUT / "featured.json").write_text(json.dumps({"ranked": featured[:400], "top100": featured[:100], "home": mix,
                                                    "persons": persons_ranked, "places": places_ranked}, ensure_ascii=False))
     stats = [export_lang(c, l, geo, featured) for l in (langs or SITE_LANGS)]

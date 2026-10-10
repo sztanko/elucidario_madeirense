@@ -10,13 +10,14 @@ function label(dir: 'prev' | 'next'): string {
   const lang = document.documentElement.lang.slice(0, 2);
   const L: Record<string, [string, string, string]> = {
     pt: ['Anterior', 'Seguinte', 'Deslize'], uk: ['Назад', 'Далі', 'Гортайте'], hu: ['Előző', 'Következő', 'Lapozás'],
+    de: ['Zurück', 'Weiter', 'Wischen'], fr: ['Précédent', 'Suivant', 'Faites glisser'], ru: ['Назад', 'Далее', 'Листайте'],
   };
   const [p, n] = L[lang] ?? ['Previous', 'Next', 'Swipe'];
   return dir === 'prev' ? p : n;
 }
 function swipeWord(): string {
   const lang = document.documentElement.lang.slice(0, 2);
-  return ({ pt: 'Deslize', uk: 'Гортайте', hu: 'Lapozás' } as Record<string, string>)[lang] ?? 'Swipe';
+  return ({ pt: 'Deslize', uk: 'Гортайте', hu: 'Lapozás', de: 'Wischen', fr: 'Faites glisser', ru: 'Листайте' } as Record<string, string>)[lang] ?? 'Swipe';
 }
 
 function enhance(sc: HTMLElement) {

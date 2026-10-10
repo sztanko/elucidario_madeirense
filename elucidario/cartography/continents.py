@@ -1,7 +1,7 @@
 """Continent plates for places abroad: Natural Earth 1:50m in a Lambert azimuthal equal-area projection per continent.
 
 Each plate has a generalised coastline, faint country borders, a 10° graticule and engraved water-lining (offset coast rings).
-Labels are country names in pt/en/uk/hu (NE NAME_* fields), placed by the client with level of detail.
+Labels are country names in pt/en/uk/hu/de/fr/ru (NE NAME_* fields; the client's LANGI follows this order), placed by the client with level of detail.
 """
 
 from __future__ import annotations
@@ -27,11 +27,11 @@ CONTINENTS = {
     "asia": ("Asia", 88.0, 28.0, (25, -12, 150, 56)),
     "oceania": ("Oceania", 150.0, -26.0, (108, -48, 182, 2)),
 }
-OCEANS = {  # (pt, en, uk, hu), lon, lat
-    "atl": (("OCEANO ATLÂNTICO", "ATLANTIC OCEAN", "АТЛАНТИЧНИЙ ОКЕАН", "ATLANTI-ÓCEÁN"), {"europe": (-20, 45), "africa": (-15, 5), "south-america": (-30, -25), "north-america": (-55, 30)}),
-    "pac": (("OCEANO PACÍFICO", "PACIFIC OCEAN", "ТИХИЙ ОКЕАН", "CSENDES-ÓCEÁN"), {"south-america": (-82, -25), "north-america": (-135, 30), "asia": (140, 15), "oceania": (170, -35)}),
-    "ind": (("OCEANO ÍNDICO", "INDIAN OCEAN", "ІНДІЙСЬКИЙ ОКЕАН", "INDIAI-ÓCEÁN"), {"africa": (55, -25), "asia": (75, -5), "oceania": (112, -30)}),
-    "med": (("MAR MEDITERRÂNEO", "MEDITERRANEAN SEA", "СЕРЕДЗЕМНЕ МОРЕ", "FÖLDKÖZI-TENGER"), {"europe": (17, 35.2)}),
+OCEANS = {  # (pt, en, uk, hu, de, fr, ru), lon, lat
+    "atl": (("OCEANO ATLÂNTICO", "ATLANTIC OCEAN", "АТЛАНТИЧНИЙ ОКЕАН", "ATLANTI-ÓCEÁN", "ATLANTISCHER OZEAN", "OCÉAN ATLANTIQUE", "АТЛАНТИЧЕСКИЙ ОКЕАН"), {"europe": (-20, 45), "africa": (-15, 5), "south-america": (-30, -25), "north-america": (-55, 30)}),
+    "pac": (("OCEANO PACÍFICO", "PACIFIC OCEAN", "ТИХИЙ ОКЕАН", "CSENDES-ÓCEÁN", "PAZIFISCHER OZEAN", "OCÉAN PACIFIQUE", "ТИХИЙ ОКЕАН"), {"south-america": (-82, -25), "north-america": (-135, 30), "asia": (140, 15), "oceania": (170, -35)}),
+    "ind": (("OCEANO ÍNDICO", "INDIAN OCEAN", "ІНДІЙСЬКИЙ ОКЕАН", "INDIAI-ÓCEÁN", "INDISCHER OZEAN", "OCÉAN INDIEN", "ИНДИЙСКИЙ ОКЕАН"), {"africa": (55, -25), "asia": (75, -5), "oceania": (112, -30)}),
+    "med": (("MAR MEDITERRÂNEO", "MEDITERRANEAN SEA", "СЕРЕДЗЕМНЕ МОРЕ", "FÖLDKÖZI-TENGER", "MITTELMEER", "MER MÉDITERRANÉE", "СРЕДИЗЕМНОЕ МОРЕ"), {"europe": (17, 35.2)}),
 }
 CSS = (
     ".land{fill:#f2ead8}.wl{fill:none;stroke:#164c59;vector-effect:non-scaling-stroke;stroke-width:.65}"
@@ -101,7 +101,7 @@ def build(out) -> dict:
             if lx is None or not (w <= lx <= e and s <= ly <= n):
                 continue
             X, Y = P.fwd(lx, ly)
-            names = [p.get("NAME_PT") or p["NAME"], p.get("NAME_EN") or p["NAME"], p.get("NAME_UK") or p["NAME"], p.get("NAME_HU") or p["NAME"]]
+            names = [p.get(f"NAME_{k}") or p["NAME"] for k in ("PT", "EN", "UK", "HU", "DE", "FR", "RU")]
             labels.append([names, int(X), int(Y), "country", int(p.get("LABELRANK") or 5)])
         for key, (names, pos) in OCEANS.items():
             if cid in pos:

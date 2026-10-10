@@ -214,6 +214,19 @@ html:has(.ea--toc) { scroll-padding-top: calc(var(--header-h) + 4rem); }
 .ea-list li::marker { color: var(--person); }
 .ea-list li + li { margin-top: .45em; }
 
+/* Restored enumerations (data/13_lists): printed markers in a hanging column, bold labels, one nested level */
+.ea-enum > * + * { margin-top: .6em; }
+.ea-enum__list { margin: .5em 0 0; padding-left: 1.3em; list-style: square; }
+.ea-enum__list.is-ord { list-style: none; padding-left: 2.4em; }
+.ea-enum__li::marker { color: var(--person); }
+.ea-enum__li + .ea-enum__li { margin-top: .4em; }
+.ea-enum__li.has-m { position: relative; list-style: none; }
+.ea-enum__m { position: absolute; right: calc(100% + .55em); top: 0; white-space: nowrap; font-family: var(--font-label);
+  font-variant-numeric: tabular-nums; letter-spacing: .02em; color: var(--person-ink, var(--ink-2)); }
+.ea-enum__list:not(.is-ord) > .ea-enum__li.has-m { margin-left: 1.1em; }
+.ea-enum__l { font-weight: 650; }
+.ea-enum__sub { margin-top: .35em; font-size: .97em; }
+
 /* Bibliography */
 .ea-biblio { border-top: 1px solid var(--line-strong); padding-top: .7rem; font-size: var(--fs-small); line-height: 1.45; color: var(--ink-2); margin-top: 1.5em !important; }
 .ea-biblio__k { display: block; margin-bottom: .45rem; color: var(--ink); font-size: var(--fs-micro); }
@@ -430,7 +443,7 @@ html:has(.ea--toc) { scroll-padding-top: calc(var(--header-h) + 4rem); }
 .ea.is-folio .ea-note__in { position: static; border: 0; border-left: 2px solid var(--date); padding: 0 0 0 .75rem; }
 .ea.is-folio .ea-note__k { display: none; }
 .ea.is-folio .ea-sec__text { max-width: none; }
-.ea.is-folio .ea-p, .ea.is-folio .ea-quote p, .ea.is-folio .ea-list li {
+.ea.is-folio .ea-p, .ea.is-folio .ea-quote p, .ea.is-folio .ea-list li, .ea.is-folio .ea-enum__li {
   text-align: justify; text-wrap: wrap; hyphens: auto; -webkit-hyphens: auto; hyphenate-limit-chars: 6 3 2;
 }
 .ea.is-folio .ea-table, .ea.is-folio .ea-quote:not(.ea-quote--long), .ea.is-folio .ea-verse, .ea.is-folio .ea-see { break-inside: avoid; }

@@ -4,7 +4,7 @@
  * Props: lang, a: Article, map?: boolean (render the MapView; false when the hero already shows it), limit?: number
  */
 import type { Article } from '../../lib/data';
-import { geo, locParts, places as placesData } from '../../lib/data';
+import { geo, locParts, munsOf, places as placesData } from '../../lib/data';
 import { t } from '../../i18n/ui';
 import MapView from '../map/MapView.astro';
 import EntityLink from '../ui/EntityLink.astro';
@@ -15,7 +15,7 @@ const { lang, a, map = true, limit = PLACES_NUMBERED, compact = false } = Astro.
 const G = geo();
 const mp = mapPlaces(a, lang);
 const ml = (m?: string) => (m && m !== lang ? m : undefined);
-const rows = sortedPlaces(lang, a).map((p) => ({ ...p, subj: a.prim.includes(p.id), where: locParts(G[p.id]?.mun, G[p.id]?.isl && G[p.id]?.isl !== 'none' ? G[p.id]?.isl : G[p.id]?.ctry).filter((v) => v !== p.n).join(' · ') }));
+const rows = sortedPlaces(lang, a).map((p) => ({ ...p, subj: a.prim.includes(p.id), where: locParts(...munsOf(G[p.id]), G[p.id]?.isl && G[p.id]?.isl !== 'none' ? G[p.id]?.isl : G[p.id]?.ctry).filter((v) => v !== p.n).join(' · ') }));
 const PS = placesData(lang);
 const head = rows.slice(0, limit), rest = rows.slice(limit);
 ---

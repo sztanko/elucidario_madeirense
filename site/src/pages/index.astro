@@ -11,6 +11,9 @@ const taglines: Record<string, string> = {
   en: 'Encyclopaedia of Madeira · digital edition',
   uk: 'Енциклопедія Мадейри · цифрове видання',
   hu: 'Madeira enciklopédiája · digitális kiadás',
+  de: 'Enzyklopädie Madeiras · digitale Ausgabe',
+  fr: 'Encyclopédie de Madère · édition numérique',
+  ru: 'Энциклопедия Мадейры · цифровое издание',
 };
 ---
 <!doctype html>
@@ -19,7 +22,7 @@ const taglines: Record<string, string> = {
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Elucidário Madeirense</title>
-    <meta name="description" content="Elucidário Madeirense — encyclopaedia of Madeira (1921/1940), digital edition in Portuguese, English, Ukrainian and Hungarian." />
+    <meta name="description" content="Elucidário Madeirense — encyclopaedia of Madeira (1921/1940), digital edition in Portuguese, English, German, French, Hungarian, Ukrainian and Russian." />
     <link rel="canonical" href={site + u.BASE + '/'} />
     {langs.map((l) => <link rel="alternate" hreflang={htmlLang(l)} href={site + u.home(l)} />)}
     <link rel="alternate" hreflang="x-default" href={site + u.home('pt')} />

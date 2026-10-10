@@ -3,8 +3,52 @@ import { articles, geo, index, persons, type Article, type Block, type Chapter, 
 import * as u from '../../lib/urls';
 import { inline, plain } from './inline';
 
-export interface RBlock extends Block { html: string; lines?: string[]; cells?: { head: string[]; rows: string[][]; numeric: boolean[] } | null; targets?: string[] }
-export interface Group { kind: 'single' | 'list' | 'biblio'; blocks: RBlock[] }
+/** One segment of a block that holds a list: a paragraph (intro/outro) or an item (printed marker, bold label). */
+export interface RSeg { kind: 'p' | 'item'; html: string; lv: number; marker?: string; label?: string }
+export interface RBlock extends Block { html: string; lines?: string[]; cells?: { head: string[]; rows: string[][]; numeric: boolean[] } | null; targets?: string[]; segs?: RSeg[] }
+/** enum = blocks with list structure (data/13_lists); consecutive blocks continuing one list share a group. */
+export interface Group { kind: 'single' | 'list' | 'biblio' | 'enum'; blocks: RBlock[]; ordered?: boolean }
+
+// trailing separators of a list item ("…; e", "…, and") — the list layout replaces them
+const TAIL = /(?:[\s;,]+(?:e|and|і|й|та|és|und|et|ed|en)?)?[\s;,]*$/u;
+
+/** Drop *italic* markers left unpaired by cutting a block into segments (the source's own markup is sometimes off):
+ *  a star opens only before a non-space, closes an open span, and a final unclosed opener is removed. */
+function pairStars(s: string): string {
+  let open = -1, out = '';
+  for (let i = 0; i < s.length; i++) {
+    const c = s[i];
+    if (c !== '*') { out += c; continue; }
+    if (open < 0) { if (s[i + 1] && !/\s/.test(s[i + 1])) { open = out.length; out += c; } }
+    else { open = -1; out += c; }
+  }
+  return open >= 0 ? out.slice(0, open) + out.slice(open + 1) : out;
+}
+
+function segments(b: Block, links?: { p: string; href: string; title?: string; k?: string }[]): RSeg[] {
+  const out: RSeg[] = [];
+  const left = [...(links ?? [])];
+  const take = (s: string) => { // phrase links: each phrase links once per block (first segment containing it)
+    const here = left.filter((l) => s.includes(l.p));
+    for (const l of here) left.splice(left.indexOf(l), 1);
+    return here;
+  };
+  for (const [a, e, kind, lv, m, l] of b.ls!.s) {
+    const raw = pairStars(b.x.slice(a, e));
+    if (kind !== 'item') {
+      const t = raw.trim();
+      if (t) out.push({ kind: 'p', html: inline(t, { un: b.un, links: take(t) }), lv: 0 });
+      continue;
+    }
+    const marker = m ? b.x.slice(a, m).replace(/\*/g, '').trim() : undefined;
+    const lbl = l ? b.x.slice(m ?? a, l).replace(/\*/g, '').trim().replace(/[:.–-]\s*$/, '') : undefined;
+    // body: after the marker / label (and its colon), without the trailing separator
+    const body = pairStars(b.x.slice(l ?? m ?? a, e).replace(/^[\s:,;–-]+/, '').replace(TAIL, ''));
+    out.push({ kind: 'item', lv: lv ? 1 : 0, marker, label: lbl ? inline(lbl, { links: take(lbl) }) : undefined,
+               html: inline(body, { un: b.un, links: take(body) }) });
+  }
+  return out;
+}
 export interface Section { n: number; id: string; ch: Chapter | null; groups: Group[] }
 
 const lookCache = new Map<string, Map<string, { hw: string; no: number; type: string; abs: string | null; ml?: string; hw_pt: string; kind: string }>>();
@@ -43,6 +87,7 @@ function renderBlock(lang: string, a: Article, b: Block, linksByBlock: Map<strin
   const links = linksByBlock.get(b.id);
   const html = inline(b.x, { un: b.un, links });
   const r: RBlock = { ...b, html };
+  if (b.ls?.s?.length) r.segs = segments(b, links);
   if (b.t === 'verse') {
     const ls = b.ln && b.ln.length ? b.ln : b.x.split(/\n|\s\/\s/);
     r.lines = ls.map((l) => inline(l, { un: b.un }));
@@ -65,12 +110,39 @@ function renderBlock(lang: string, a: Article, b: Block, linksByBlock: Map<strin
 function group(blocks: RBlock[]): Group[] {
   const out: Group[] = [];
   for (const b of blocks) {
-    const kind = b.t === 'list_item' ? 'list' : b.t === 'bibliography' ? 'biblio' : 'single';
     const last = out[out.length - 1];
+    if (b.segs) { // a list block joins the previous one when it continues its list ("5. …" after "1.–4.")
+      const startsWithItem = b.segs[0]?.kind === 'item';
+      if (last?.kind === 'enum' && (b.ls!.c || startsWithItem)) last.blocks.push(b);
+      else out.push({ kind: 'enum', blocks: [b], ordered: b.ls!.o });
+      continue;
+    }
+    const kind = b.t === 'list_item' ? 'list' : b.t === 'bibliography' ? 'biblio' : 'single';
     if (kind !== 'single' && last && last.kind === kind) last.blocks.push(b);
     else out.push({ kind, blocks: [b] });
   }
   return out;
+}
+
+/** An enum group as render parts: paragraphs and lists (items with their level-1 sub-items); `id` marks where each
+ *  block begins, so in-page anchors (#b012) keep working. */
+export type EnumItem = RSeg & { id?: string; sub: (RSeg & { id?: string })[] };
+export type EnumPart = { kind: 'p'; html: string; id?: string; xl?: string } | { kind: 'list'; ordered: boolean; items: EnumItem[] };
+export function enumParts(g: Group): EnumPart[] {
+  const parts: EnumPart[] = [];
+  for (const b of g.blocks) {
+    let first: string | undefined = b.id;
+    for (const s of b.segs ?? []) {
+      const id = first; first = undefined;
+      if (s.kind === 'p') { parts.push({ kind: 'p', html: s.html, id, xl: b.xl }); continue; }
+      let L = parts[parts.length - 1];
+      if (!L || L.kind !== 'list') { L = { kind: 'list', ordered: !!b.ls?.o, items: [] }; parts.push(L); }
+      const list = L as Extract<EnumPart, { kind: 'list' }>;
+      if (s.lv === 1 && list.items.length) list.items[list.items.length - 1].sub.push({ ...s, id });
+      else list.items.push({ ...s, id, sub: [] });
+    }
+  }
+  return parts;
 }
 
 /** Split body blocks into sections by chapter ranges. Section 0 = untitled intro (blocks before the first chapter). */

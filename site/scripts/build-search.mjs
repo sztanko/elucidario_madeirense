@@ -34,6 +34,10 @@ function fmtMB(bytes) {
   return `${(bytes / 1024 / 1024).toFixed(2)} MB`;
 }
 
+// Advanced (full-text) search is disabled for now (owner, 2026-10-05: 4–6 MB per language, uncached at the edge).
+// Set EM_FULLTEXT=1 to build the corpus again; the page lives in src/pages/[lang]/_search.astro.disabled.
+const FULLTEXT = process.env.EM_FULLTEXT === '1';
+
 function buildSuggestIndex(lang, { index, persons, chronology, articles }) {
   // Drop front matter (kind-initial "f") from article suggestions — never a useful jump target.
   // 6th field: article length in hundreds of characters (length gauge + reading-time tooltip).
@@ -163,7 +167,7 @@ function run() {
     const index = readJSON(path.join(dir, 'index.json'));
 
     const { core, people } = buildSuggestIndex(lang, { index, persons, chronology, articles });
-    const docs = buildCorpus(lang, { articles, persons, places, chronology });
+    const docs = FULLTEXT ? buildCorpus(lang, { articles, persons, places, chronology }) : [];
 
     const corpusBuf = Buffer.from(JSON.stringify(docs));
     const corpusHash = hashOf(corpusBuf);
@@ -179,13 +183,13 @@ function run() {
 
     const coreGz = zlib.gzipSync(coreBuf, { level: 9 });
     const peopleGz = zlib.gzipSync(peopleBuf, { level: 9 });
-    const corpusGz = zlib.gzipSync(corpusBuf, { level: 9 });
+    const corpusGz = FULLTEXT ? zlib.gzipSync(corpusBuf, { level: 9 }) : Buffer.alloc(0);
 
     const langOut = path.join(OUT_DIR, lang);
     fs.mkdirSync(langOut, { recursive: true });
     fs.writeFileSync(path.join(langOut, `suggest-core.${coreHash}.json.gz`), coreGz);
     fs.writeFileSync(path.join(langOut, `suggest-people.${peopleHash}.json.gz`), peopleGz);
-    fs.writeFileSync(path.join(langOut, `corpus.${corpusHash}.json.gz`), corpusGz);
+    if (FULLTEXT) fs.writeFileSync(path.join(langOut, `corpus.${corpusHash}.json.gz`), corpusGz);
 
     const manifest = {
       version: `${coreHash}-${peopleHash}-${corpusHash}`,

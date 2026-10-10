@@ -16,6 +16,9 @@ export interface Block {
   id: string; t: 'paragraph' | 'heading' | 'quote' | 'verse' | 'list_item' | 'table' | 'bibliography' | 'xref';
   x: string; lv?: number; ln?: string[]; un?: string[]; xl?: string;
   tb?: { cap: string | null; cols: string[]; kinds: string[]; rows: string[][]; tr?: string[][] };
+  /** list structure (data/13_lists): o = ordered, c = continues the previous block's list,
+   *  s = segments [start, end, kind (intro|item|outro), level, marker_end, label_end] */
+  ls?: { o: boolean; c: boolean; s: [number, number, 'intro' | 'item' | 'outro', number, number | null, number | null][] };
 }
 export interface Chapter { t: string; s: string; a: string; b: string; ml?: string }
 export interface PersonRef { id: string; n: string; d: [string | null, string | null]; note: string | null; b: string[]; ml?: string }
@@ -39,6 +42,17 @@ export interface Place { id: string; n: string; first: string; sum: string | nul
 export interface Geo {
   pt: string; tp: string; isl: string; par: string | null; mun: string | null; cont: string | null; ctry: string | null;
   c: [number, number] | null; prec: string | null; main: string | null; n: number; g?: any;
+  match?: 'exact' | 'variant' | 'proxy' | 'area';
+  muns?: string[]; pars?: string[]; // lines/areas crossing several municipalities/parishes (primary first)
+}
+/** Municipalities a place lies in: several for levadas, streams and roads. */
+export const munsOf = (g: Geo | undefined | null): string[] => (g?.muns?.length ? g.muns : g?.mun ? [g.mun] : []);
+/** UI key for a location-precision note, or null when the location is exact. */
+export function precKey(g: Geo | undefined | null): 'prec_proxy' | 'prec_approx' | 'prec_parish' | 'prec_mun' | 'prec_unknown' | null {
+  if (!g) return null;
+  if (g.match === 'proxy') return 'prec_proxy';
+  return ({ approximate: 'prec_approx', 'parish-centroid': 'prec_parish', 'municipality-centroid': 'prec_mun',
+            unknown: 'prec_unknown' } as Record<string, any>)[g.prec || ''] ?? null;
 }
 export interface Event {
   id: string; y: number | null; s0: string; s1: string | null; pr: string; sum: string; sig: 'm' | 'n';

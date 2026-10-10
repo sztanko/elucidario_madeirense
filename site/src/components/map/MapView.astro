@@ -46,10 +46,12 @@ const insetMk = inset ? items.filter((x) => x.r === 'selvagens' && x.g?.c).slice
 // compact place list for the client: slug[~s][~n]
 const dataP = items.filter((x) => x.r).map((x) => x.id + (x.role === 'subject' ? '~s' : '') + (x.n ? `~${x.n}` : numbered ? `~${x.i + 1}` : '')).join(' ');
 const CONT_NAMES: Record<string, Record<string, string>> = {
-  europe: { pt: 'Europa', en: 'Europe', uk: 'Європа', hu: 'Európa' }, africa: { pt: 'África', en: 'Africa', uk: 'Африка', hu: 'Afrika' },
-  asia: { pt: 'Ásia', en: 'Asia', uk: 'Азія', hu: 'Ázsia' }, oceania: { pt: 'Oceânia', en: 'Oceania', uk: 'Океанія', hu: 'Óceánia' },
-  'north-america': { pt: 'América do Norte', en: 'North America', uk: 'Північна Америка', hu: 'Észak-Amerika' },
-  'south-america': { pt: 'América do Sul', en: 'South America', uk: 'Південна Америка', hu: 'Dél-Amerika' },
+  europe: { pt: 'Europa', en: 'Europe', uk: 'Європа', hu: 'Európa', de: 'Europa', fr: 'Europe', ru: 'Европа' },
+  africa: { pt: 'África', en: 'Africa', uk: 'Африка', hu: 'Afrika', de: 'Afrika', fr: 'Afrique', ru: 'Африка' },
+  asia: { pt: 'Ásia', en: 'Asia', uk: 'Азія', hu: 'Ázsia', de: 'Asien', fr: 'Asie', ru: 'Азия' },
+  oceania: { pt: 'Oceânia', en: 'Oceania', uk: 'Океанія', hu: 'Óceánia', de: 'Ozeanien', fr: 'Océanie', ru: 'Океания' },
+  'north-america': { pt: 'América do Norte', en: 'North America', uk: 'Північна Америка', hu: 'Észak-Amerika', de: 'Nordamerika', fr: 'Amérique du Nord', ru: 'Северная Америка' },
+  'south-america': { pt: 'América do Sul', en: 'South America', uk: 'Південна Америка', hu: 'Dél-Amerika', de: 'Südamerika', fr: 'Amérique du Sud', ru: 'Южная Америка' },
 };
 const regionName = R ? (CONT_NAMES[R.id]?.[lang] ?? R.name) : '';
 

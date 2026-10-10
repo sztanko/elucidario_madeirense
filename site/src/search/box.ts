@@ -91,7 +91,6 @@ class SearchBoxController {
   input: HTMLInputElement;
   panel: HTMLElement;
   listbox: HTMLUListElement;
-  advancedLink: HTMLAnchorElement;
   closeBtn: HTMLButtonElement | null;
   items: RowItem[] = [];
   activeIndex = -1;
@@ -106,7 +105,6 @@ class SearchBoxController {
     this.input = root.querySelector('.em-search__input')!;
     this.panel = root.querySelector('.em-search__panel')!;
     this.listbox = root.querySelector('.em-search__listbox')!;
-    this.advancedLink = root.querySelector('.em-search__advanced')!;
     this.closeBtn = root.querySelector('.em-search__close');
 
     this.input.addEventListener('focus', () => this.onFocus());
@@ -147,11 +145,10 @@ class SearchBoxController {
     // works on its own. With JS we just make sure "recent searches" is recorded before leaving.
     const q = this.input.value.trim();
     if (q) pushRecent(this.lang, q);
-    if (this.activeIndex >= 0 && this.items[this.activeIndex]) {
-      e.preventDefault();
-      this.activate(this.items[this.activeIndex]);
-    }
-    // else: let the native form submission navigate to the search page.
+    // Advanced (full-text) search is disabled: Enter opens the highlighted row, else the top result.
+    e.preventDefault();
+    const pick = (this.activeIndex >= 0 && this.items[this.activeIndex]) || this.items.find((x) => x.kind === 'result');
+    if (pick) this.activate(pick);
   }
 
   onListboxClick(e: Event) {
@@ -242,7 +239,6 @@ class SearchBoxController {
 
   async renderForQuery(raw: string) {
     const q = raw.trim();
-    this.advancedLink.href = this.advancedHref;
     const token = ++this.queryToken;
 
     if (!q) {
@@ -254,7 +250,7 @@ class SearchBoxController {
     try {
       index = await loadIndex(this.base, this.lang);
     } catch {
-      this.items = [{ kind: 'empty', message: t(this.lang, 'no_results') }, { kind: 'advanced' }];
+      this.items = [{ kind: 'empty', message: t(this.lang, 'no_results') }];
       this.paint(q);
       return;
     }
@@ -264,13 +260,13 @@ class SearchBoxController {
     const rows: RowItem[] = results.length
       ? results.map((result): RowItem => ({ kind: 'result', result }))
       : [{ kind: 'empty', message: t(this.lang, 'no_results') }];
-    this.items = [...rows, { kind: 'advanced' }];
+    this.items = [...rows];
     this.paint(q);
   }
 
   renderRecent() {
     const recent = getRecent(this.lang);
-    this.items = [...recent.map((recentQuery): RowItem => ({ kind: 'recent', recentQuery })), { kind: 'advanced' }];
+    this.items = [...recent.map((recentQuery): RowItem => ({ kind: 'recent', recentQuery }))];
     this.paint('');
   }
 

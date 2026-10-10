@@ -32,9 +32,10 @@ for (const a of Object.values(arts)) {
   const row: Row = { id: a.id, hw: a.hw, hw_pt: a.hw_pt };
   if (ge.isl && ge.isl !== 'none' && ISLANDS.includes(ge.isl)) {
     const muns = madeiraGroup.get(ge.isl)!;
-    const key = ge.mun || '—';
-    if (!muns.has(key)) muns.set(key, []);
-    muns.get(key)!.push(row);
+    for (const key of (ge.muns?.length ? ge.muns : [ge.mun || '—'])) { // a levada is listed under every municipality it crosses
+      if (!muns.has(key)) muns.set(key, []);
+      muns.get(key)!.push(row);
+    }
   } else {
     const cont = ge.cont || '—';
     if (!abroadGroup.has(cont)) abroadGroup.set(cont, new Map());

@@ -107,3 +107,4 @@
 {"keep": "person:pius-vii", "merge": ["person:pio-vii"], "reason": "same individual (qid Q124754)"}
 {"keep": "person:antonio-aluisio-jervis-atouguia", "merge": ["person:atouguia"], "reason": "same individual (qid None)"}
 {"keep": "person:atouguia", "merge": ["person:antonio-aluisio-jervis-atouguia"], "reason": "same individual (qid None)"}
+{"keep": "person:platao-vaksel", "merge": ["person:platao-vakcel", "person:platao-vackcel"], "reason": "same individual: source misspellings Vakcel / Vackcel"}

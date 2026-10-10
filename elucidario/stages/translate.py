@@ -58,9 +58,10 @@ def system_prompt(lang: str) -> str:
     core = read(DOCS / "style" / "core.md")
     lang_guide = read(DOCS / "style" / f"{STYLE_FILE.get(lang, lang)}.md")
     translit = lean_standard(read(DOCS / f"transcription_{lang}.md")) if lang in ("uk", "ru") else ""
+    naming = lean_naming(lang) if lang in NAMING_LATIN else ""
     return "\n\n".join(x for x in (
         f"You translate the *Elucidário Madeirense* (encyclopedia of Madeira, 1921/1940) from Portuguese into {LANG_NAMES[lang]}.",
-        core, lang_guide, translit,
+        core, lang_guide, translit, naming,
         "## Output contract\nReturn JSON: `blocks` — one object per input block with the same `id`, the full translation "
         "in `text` (inline italics as *…*), and for table blocks `cells` (the translated label/header cells in the same "
         "shape as given; numeric cells are pre-rendered and must be copied unchanged) else null; `names` — every proper "
@@ -69,6 +70,30 @@ def system_prompt(lang: str) -> str:
         "problems for the editor (suspected OCR error, ambiguous number, unclear name), usually empty. Give the "
         "termbase first-mention gloss only for terms listed in `gloss_first_mention`.",
     ) if x)
+
+
+# Latin-script languages translated under the 2026-10 naming standard from the start (en/hu were retrofitted)
+NAMING_LATIN = ("de", "fr", "it", "nl")
+_LANG_SECTION = {"en": "7.1", "de": "7.2", "fr": "7.3", "it": "7.4", "hu": "7.5", "nl": "7.6"}
+
+
+def lean_naming(lang: str) -> str:
+    """The rules of docs/naming_latin.md the translator needs (decision procedure, first-mention formats, titles of
+    works, honorifics, religious names, the language's grammar section, meanings, parentheses); the per-name decisions
+    reach the model through the name table in each request."""
+    keep = ("0.", "3.", "4.", "5.", "6.", _LANG_SECTION.get(lang, "-"), "10.", "11.")
+    out, on = ["## Proper names (naming standard, docs/naming_latin.md — rules; per-name decisions are in the name table)"], False
+    for line in read(DOCS / "naming_latin.md").splitlines():
+        m = re.match(r"^(#{2,3}) (\d+(?:\.\d+)?\.?)\s", line)
+        if m:
+            num = m.group(2) if m.group(2).endswith(".") else m.group(2)
+            on = any(num == k or (len(m.group(1)) == 3 and num.startswith(k) and k.endswith(".")) for k in keep) \
+                if not (len(m.group(1)) == 3 and num.startswith("7.")) else num == _LANG_SECTION.get(lang)
+            if len(m.group(1)) == 2 and num == "7.":
+                on = False
+        if on:
+            out.append(line)
+    return "\n".join(out)
 
 
 def lean_standard(md: str) -> str:

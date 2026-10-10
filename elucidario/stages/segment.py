@@ -131,6 +131,11 @@ def parse_head(p: Para, off: int, styled_end: int) -> tuple[str, int, str]:
         m = re.match(r"^\s*(\([^()]{0,120}(?:\([^()]*\)[^()]*)?\))", rest)
         if m and not re.match(r"^\s*\(\s*(V|Vid)\b", rest):
             end += m.end()  # vol 3: qualifier sits outside the bold run
+    if text[off:end].count("(") > text[off:end].count(")"):
+        # the styled run stops inside the qualifier ("Tintureira (Carcharias glaucus" + "). Peixe…"): close it
+        m = re.match(r"^[^().]{0,60}\)", text[end:])
+        if m:
+            end += m.end()
     raw = text[off:end]
     head = re.sub(r"[\s.,;:–—-]+$", "", raw.strip())
     m = re.match(r"^[\s.,;:]*", text[end:])

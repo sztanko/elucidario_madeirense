@@ -1,0 +1,134 @@
+{
+ "picks": [
+  {
+   "id": "levadas",
+   "why": "The definitive account of Madeira's famous irrigation channels, from workers dangling in baskets off cliffs to five centuries of water law, the walking paths and forests, all told with first-hand local knowledge."
+  },
+  {
+   "id": "descobrimento-do-arquipelago",
+   "why": "A spirited, critical inquiry into when and how Madeira was really discovered, weighing legends and chroniclers before concluding the islands were known before Zarco's 'official' landing."
+  },
+  {
+   "id": "saque-dos-franceses",
+   "why": "A dramatic narrative of the 1566 Huguenot corsair raid that plundered Funchal for sixteen days, driven by a renegade's revenge and followed by diplomatic fallout."
+  },
+  {
+   "id": "regimen-florestal",
+   "why": "An impassioned, polemical history of how the primeval forest that gave Madeira its name was burned, felled and exported, and a plea to save what remained."
+  },
+  {
+   "id": "industria-vinicola",
+   "why": "The story of Madeira wine from Cadamosto's day to the 1930s: British merchant dominance, oidium and phylloxera, fraud, grape types and how the wine was made."
+  },
+  {
+   "id": "funchal-i-origem-do-nome",
+   "why": "Explains how the capital took its name from fennel in its valley and became the first city of Portugal's overseas empire, with period descriptions of the amphitheatre city."
+  },
+  {
+   "id": "geologia",
+   "why": "A clear portrait of the island's volcanic birth around Curral das Freiras, its rocks, lava tubes and fajãs, linked to local stone names and building uses."
+  },
+  {
+   "id": "motins-populares",
+   "why": "A vivid chronicle of four centuries of Madeiran riots, from Porto Santo's false prophets and a deposed governor to stoning mobs, election shootings and the bread and milk riots of the 1930s."
+  },
+  {
+   "id": "clima",
+   "why": "Why Victorian Europe sent its consumptives to Funchal: the island's famous climate explained through doctors' testimonies, measurements and the daily cycle of cloud and breeze."
+  },
+  {
+   "id": "povoamento-e-colonizacao",
+   "why": "How the empty island was settled from about 1425, with great forest fires, slaves, land grants and near-sovereign captains, the founding chapter of Madeiran society."
+  },
+  {
+   "id": "ingleses",
+   "why": "A frank, often critical assessment of the British in Madeira, covering their designs on the island, their grip on the wine trade, their privileges and their proud aloofness."
+  },
+  {
+   "id": "bombardeamento-do-funchal",
+   "why": "A gripping, detailed account of German U-boats sinking ships in Funchal harbour and shelling the city in 1916 and 1917, with names of the dead and the panic that followed."
+  },
+  {
+   "id": "aluvioes",
+   "why": "A chronicle of the flash floods that repeatedly devastated Madeira, above all the catastrophe of 1803 that killed some 600 people, a theme still painfully relevant today."
+  },
+  {
+   "id": "cana-sacarina",
+   "why": "Traces the sugar cane that made Madeira rich in the 1500s and spread across the Atlantic world, then its collapse and 19th-century revival."
+  },
+  {
+   "id": "romarias",
+   "why": "A lively, affectionate picture of rural pilgrimage festivals, with singing groups on the road, improvised verses, fireworks, espetadas on laurel skewers and pilgrims fulfilling vows."
+  },
+  {
+   "id": "zargo-joao-goncalves",
+   "why": "The full biography of Madeira's discoverer and first captain, covering the debate over his name, his homes, family, disputed death date, sword and statue."
+  },
+  {
+   "id": "nossa-senhora-do-monte",
+   "why": "The hillside parish above Funchal, with its legend of the Virgin's apparition, the island's greatest pilgrimage, its quintas, railway and famous wicker toboggans."
+  },
+  {
+   "id": "selvagens",
+   "why": "A portrait of the remote, uninhabited Savage Islands, covering shearwater hunts, legends of buried treasure and Shackleton's plan to search for it."
+  },
+  {
+   "id": "se-catedral",
+   "why": "The history and treasures of Funchal's Manueline cathedral, with its celebrated cedar ceiling and a chronology running from the Huguenot sack to the 1940 museum."
+  },
+  {
+   "id": "musica",
+   "why": "Covers Madeira's folk songs with their supposed Moorish echoes, the braguinha and rajão, cathedral chapel masters and the island's 19th-century musical life."
+  },
+  {
+   "id": "sport",
+   "why": "How football arrived with a sailor's ball in 1865 and grew into Marítimo's 1926 national title, alongside cricket, tennis, sailing and the first motor car."
+  }
+ ],
+ "near_misses": [
+  {
+   "id": "bordados",
+   "why": "Important history of the embroidery industry and its social impact, but only three chapters."
+  },
+  {
+   "id": "napoleao",
+   "why": "Charming account of Napoleon's stop off Funchal en route to St Helena, but short."
+  },
+  {
+   "id": "kalley-dr-roberto-reid",
+   "why": "Dramatic story of the Scottish missionary-doctor and the 1846 riot, but narrow and only three chapters."
+  },
+  {
+   "id": "colombo-cristovao",
+   "why": "Columbus's Madeiran connections are a popular topic, but the article dwells heavily on a demolished house."
+  },
+  {
+   "id": "machim-lenda-de",
+   "why": "The romantic Machim legend is delightful, but it overlaps with the discovery article and is short."
+  },
+  {
+   "id": "manicomios",
+   "why": "Substantial social history of mental asylums, though less appealing to a general reader."
+  },
+  {
+   "id": "jardim-do-mar-freguesia-do",
+   "why": "A moving tale of villagers building their own Gothic church, but a minor parish."
+  },
+  {
+   "id": "colera-morbus-em-1856-e-1910-a",
+   "why": "Gripping account of the 1856 epidemic, but only three chapters, and the disaster theme is already covered by the floods article."
+  },
+  {
+   "id": "vinhos",
+   "why": "Rich wine folklore and vintage customs, but it would largely duplicate the wine industry article."
+  },
+  {
+   "id": "quincentenario-do-descobrimento-da-madeira",
+   "why": "Colourful account of the 1922 centenary festivities, but of narrower interest."
+  },
+  {
+   "id": "camara-de-lobos-freguesia-de",
+   "why": "Attractive parish entry on seals, fishermen and wine, but parish entries tend to be formulaic."
+  }
+ ]
+}

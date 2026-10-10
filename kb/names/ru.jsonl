@@ -7363,9 +7363,9 @@
 {"pt": "Planaltos", "rendering": "Планалтуш", "first": "Планалтуш (Плоскогорья, Planaltos)", "meaning": "Плоскогорья", "type": "place"}
 {"pt": "Plantas da Cidade", "rendering": "«Планы города»", "first": "«Планы города» (Plantas da Cidade)", "meaning": null, "type": "publication"}
 {"pt": "Platão", "type": "person", "rendering": "Платон", "first": "Платон (Platão)", "meaning": null, "established": true, "wikidata": "Q859"}
-{"pt": "Platão de Vackcel", "rendering": "Платон де Ваксель", "first": "Платон де Ваксель (Platão de Vackcel)", "meaning": null, "type": "person"}
-{"pt": "Platão de Vakcel", "rendering": "Платон де Ваксель", "first": "Платон де Ваксель (Platão de Vakcel)", "meaning": null, "type": "person"}
-{"pt": "Platão de Vaksel", "rendering": "Платон де Ваксель", "first": "Платон де Ваксель (Platão de Vaksel)", "meaning": null, "type": "person"}
+{"pt": "Platão de Vackcel", "rendering": "Платон Ваксель", "first": "Платон Ваксель (Platão de Vackcel)", "meaning": null, "type": "person"}
+{"pt": "Platão de Vakcel", "rendering": "Платон Ваксель", "first": "Платон Ваксель (Platão de Vakcel)", "meaning": null, "type": "person"}
+{"pt": "Platão de Vaksel", "rendering": "Платон Ваксель", "first": "Платон Ваксель (Platão de Vaksel)", "meaning": null, "type": "person"}
 {"pt": "Plaza de la Isla de la Madera", "rendering": "Пласа-де-ла-Исла-де-ла-Мадера", "first": "Пласа-де-ла-Исла-де-ла-Мадера (Plaza de la Isla de la Madera)", "meaning": null, "type": "foreign"}
 {"pt": "Plymouth", "rendering": "Плимут", "first": "Плимут", "meaning": null, "type": "foreign"}
 {"pt": "Poiso", "rendering": "Пойзу", "first": "Пойзу (Привал, Poiso)", "meaning": "Привал", "type": "place"}
@@ -8959,7 +8959,7 @@
 {"pt": "V. Kulczynski", "rendering": "В. Кульчиньский", "first": "В. Кульчиньский (V. Kulczynski)", "meaning": null, "type": "person"}
 {"pt": "Vahl", "rendering": "Валь", "first": "Валь (Vahl)", "meaning": null, "type": "person"}
 {"pt": "Vahl (Dr. Martin)", "rendering": "доктор Мартин Валь", "first": "Валь, доктор Мартин (Vahl, Dr. Martin)", "meaning": null, "type": "person"}
-{"pt": "Vaksel (Platão de)", "rendering": "Платон де Ваксель", "first": "Ваксель, Платон де (Vaksel, Platão de)", "meaning": null, "type": "person"}
+{"pt": "Vaksel (Platão de)", "rendering": "Ваксель, Платон", "first": "Ваксель, Платон (Vaksel, Platão de)", "meaning": null, "type": "person"}
 {"pt": "Valdez", "rendering": "Валдеш", "first": "Валдеш (Valdez)", "meaning": null, "type": "person"}
 {"pt": "Vale Formoso", "rendering": "Вали-Формозу", "first": "Вали-Формозу (Красивая долина, Vale Formoso)", "meaning": "Красивая долина", "type": "place"}
 {"pt": "Vale Paraíso", "rendering": "Вали-Параизу", "first": "Вали-Параизу (Райская долина, Vale Paraíso)", "meaning": "Райская долина", "type": "place"}
@@ -9303,3 +9303,4 @@
 {"pt": "Óscar", "type": "person", "rendering": "Оскар II", "first": "Оскар II (Óscar)", "meaning": null, "established": true, "wikidata": null}
 {"pt": "Úzel", "rendering": "Узел", "first": "Узел (Úzel)", "meaning": null, "type": "person"}
 {"pt": "Úzel (Barão de)", "rendering": "барон де Узел", "first": "барон де Узел (Barão de Úzel)", "meaning": null, "type": "person"}
+{"pt": "Vaksel", "rendering": "Ваксель", "first": "Ваксель (Vaksel)", "meaning": null, "type": "person"}

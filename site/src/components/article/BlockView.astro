@@ -1,11 +1,12 @@
 ---
 /**
- * BlockView: renders one body group (single block, list group or bibliography group).
+ * BlockView: renders one body group (single block, list group, restored enumeration or bibliography group).
  * Props: lang, group: Group, first?: boolean (first paragraph of the article → drop initial), dropcap?: boolean
  */
 import { t } from '../../i18n/ui';
-import type { Group } from './model';
+import { enumParts, type Group } from './model';
 import SeeCard from './SeeCard.astro';
+import EnumList from './EnumList.astro';
 interface Props { lang: string; group: import('./model').Group; first?: boolean; dropcap?: boolean }
 const { lang, group, first = false, dropcap = false } = Astro.props;
 const g = group as Group;
@@ -13,7 +14,17 @@ const b = g.blocks[0];
 const xl = (x?: string) => (x && x !== lang ? x : undefined);
 const mark = (x?: string) => (x && x !== lang ? `<abbr class="em-langmark" title="${t(lang, x === 'pt' ? 'untranslated' : 'in_english')}">${x.toUpperCase()}</abbr>` : '');
 const long = (s: string) => s.length > 700;
+const parts = g.kind === 'enum' ? enumParts(g) : [];
+const xlOf = xl(b?.xl);
 ---
+{g.kind === 'enum' && (
+  <div class="ea-enum" lang={xlOf}>
+    {parts.map((p) => p.kind === 'p'
+      ? <p id={p.id} class="ea-p" set:html={p.html} />
+      : <EnumList ordered={p.ordered} items={p.items} />)}
+    {b?.xl && <Fragment set:html={mark(b.xl)} />}
+  </div>
+)}
 {g.kind === 'list' && (
   <ul class="ea-list">{g.blocks.map((x) => <li id={x.id} lang={xl(x.xl)} set:html={x.html + mark(x.xl)} />)}</ul>
 )}

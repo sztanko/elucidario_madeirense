@@ -35,7 +35,7 @@ const { seed, category, size, variant = 'plate', title, name, hint, mono, uid, c
 const px = size ?? (variant === 'icon' ? 20 : variant === 'thumb' ? 48 : 160);
 const thumb = variant !== 'icon' ? thumbFor(seed) : null;
 // Full-colour plates are written once as content-addressed files (/art/p/<hash>.svg, see src/art/plates-out.mjs)
-// and referenced with <img>: the same plate is shared by all four languages instead of being inlined ~6 KB per page.
+// and referenced with <img>: the same plate is shared by all languages instead of being inlined ~6 KB per page.
 // Icons and monochrome plates stay inline (they use currentColor, which an <img> cannot inherit).
 const external = !thumb && variant !== 'icon' && !mono;
 let src = '';

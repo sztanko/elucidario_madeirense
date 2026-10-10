@@ -41,7 +41,7 @@ const LBL_MPP: Record<string, number[]> = { // by rank 0..5
 };
 const LBL_PRI: Record<string, number> = { island: 0, seat: 1, peak: 3, parish: 4, cape: 6, bay: 6, locality: 7, islet: 8 };
 const OCEAN: Record<string, [number, number]> = { madeira: [0.2, 0.9], archipelago: [0.5, 0.38], 'porto-santo': [0.5, 0.94], desertas: [0.5, 0.06], selvagens: [0.5, 0.92] };
-const LANGI: Record<string, number> = { pt: 0, en: 1, uk: 2, hu: 3 };
+const LANGI: Record<string, number> = { pt: 0, en: 1, uk: 2, hu: 3, de: 4, fr: 5, ru: 6 }; // label arrays (cartography/continents.py)
 
 export async function mount(el: HTMLElement) {
   const base = el.querySelector<HTMLImageElement>('.em-map__base');

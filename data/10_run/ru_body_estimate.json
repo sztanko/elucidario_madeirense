@@ -1,0 +1,11 @@
+{
+ "lang": "ru",
+ "part": "body",
+ "model": "gpt-5.6-sol",
+ "requests": 2056,
+ "system_tokens": 41526,
+ "content_tokens": 6290186,
+ "est_output_tokens": 3207994,
+ "est_usd": 61.74,
+ "est_gbp": 46.42
+}

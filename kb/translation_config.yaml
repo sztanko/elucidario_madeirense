@@ -15,4 +15,4 @@ metadata_extra_targets: [pt]
 batch:
   anthropic: {api: message_batches, warm_cache: true, cache_ttl: 1h}
   openai: {api: batches, endpoint: /v1/responses}   # prefix caching is automatic
-budget_gbp_per_language: 70
+budget_gbp_per_language: 90   # owner, 2026-10-10 (raised from 70 for the de/fr/ru run): everything per language — names, body, meta, retries, links, lists

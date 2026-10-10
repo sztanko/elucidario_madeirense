@@ -1,0 +1,11 @@
+{
+ "lang": "fr",
+ "part": "meta",
+ "model": "gpt-6-sol",
+ "requests": 968,
+ "system_tokens": 25004,
+ "content_tokens": 3623330,
+ "est_output_tokens": 1521798,
+ "est_usd": 13.65,
+ "est_gbp": 10.27
+}
