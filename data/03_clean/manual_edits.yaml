@@ -1,0 +1,19 @@
+- find: 'éan au quinzième siècle... Paris, 1902; e '
+  replace: 'éan au quinzième siècle. Paris, 1902; e '
+  note: 'review llm-40: ".." was a doubled period; should become ". " not "... "'
+- find: Antiga Igreja da Incarnacão) — C. 59 Igre
+  replace: Antiga Igreja da Incarnação) — C. 59 Igre
+  note: 'review llm-70: & is ça; result "Incarnacão" still lacks ç (also "Comego"
+    -> "Começo" left)'
+- find: 'sa, e certa em que viveu: e também verifi'
+  replace: sa, e certa em que viveu:— e também verifi
+  note: 'review llm-117: ":-" is the period colon-dash (:—); fix should keep the dash,
+    not delete it'
+- find: '............5.946.635 1923...............'
+  replace: '............5.946.635 1928...............'
+  note: 'review llm-168: table jumps 1922 -> 1928 -> 1929 -> 1930; 1928 is plausible,
+    changing it to 1923 is a guess'
+- find: ultimas tambem aguardente".
+  replace: ultimas tambem aguardente”.
+  note: 'review llm-247: quote opened with “ (Dr. Azevedo), so it should close with
+    ” not a straight "'

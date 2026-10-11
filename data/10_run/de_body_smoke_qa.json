@@ -1,0 +1,19 @@
+{
+"de-b00001/E0": [
+"termbase 'região inferior' -> 'untere Zone' not used"
+],
+"de-b00001/E1": [],
+"de-b00003/E0": [
+"termbase 'termo' -> 'Termo (m.)' not used",
+"termbase 'lanço' -> 'Zweigkanal (m.)' not used",
+"termbase 'empreitada' -> 'Vergabe an Unternehmer (f.)' not used"
+],
+"de-b00000/E0": [
+"termbase 'expostos' -> 'Findelkinder (pl.)' not used",
+"termbase 'compromisso' -> 'Statuten (pl.)' not used"
+],
+"de-b00002/E0": [
+"termbase 'termo' -> 'Termo (m.)' not used"
+],
+"de-b00004/E0": []
+}

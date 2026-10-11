@@ -1,0 +1,48 @@
+---
+/**
+ * Folio: the running folio line of a page: "ARTIGO Nº 0137 ──────── CONCELHO · MADEIRA".
+ * Props:
+ *   lang: string                 page language (for "Article Nº" and number formatting)
+ *   no?: number                  article number → "ARTIGO Nº 0137" (zero-padded to 4)
+ *   lead?: string                replaces the "Article Nº" lead (e.g. "PESSOA", "ANO")
+ *   items?: (string | { text: string; role?: 'place'|'person'|'date'|'ink'; href?: string; lang?: string; title?: string })[]
+ *                                right-hand items, joined by middots
+ *   rule?: boolean               draw the hairline between lead and items (default true)
+ *   as?: string                  element (default 'div')
+ *   class?: string
+ * Slot "end": extra content at the far right (e.g. a reading-time or plate).
+ */
+import { t } from '../../i18n/ui';
+type Item = string | { text: string; role?: 'place' | 'person' | 'date' | 'ink'; href?: string; lang?: string; title?: string };
+interface Props { lang: string; no?: number; lead?: string; items?: Item[]; rule?: boolean; as?: string; class?: string }
+const { lang, no, lead, items = [], rule = true, as: Tag = 'div', class: cls } = Astro.props;
+const pad = (n: number) => String(n).padStart(4, '0');
+const leadText = lead ?? (no !== undefined ? `${t(lang, 'article_no')} ${pad(no)}` : '');
+const norm = items.filter(Boolean).map((i) => (typeof i === 'string' ? { text: i } : i)) as Exclude<Item, string>[];
+---
+<Tag class:list={['em-folio', 'em-label', cls]}>
+  {leadText && <span class="em-folio__lead">{leadText}</span>}
+  {rule && <span class="em-folio__rule" aria-hidden="true"></span>}
+  {norm.length > 0 && (
+    <span class="em-folio__items">
+      {norm.map((i, k) => (
+        <>
+          {k > 0 && <span class="em-folio__dot" aria-hidden="true">·</span>}
+          {i.href
+            ? <a href={i.href} class:list={['em-folio__item', 'em-quiet', i.role && `em-role-${i.role}`]} lang={i.lang} title={i.title}>{i.text}</a>
+            : <span class:list={['em-folio__item', i.role && `em-role-${i.role}`]} lang={i.lang} title={i.title}>{i.text}</span>}
+        </>
+      ))}
+    </span>
+  )}
+  <slot name="end" />
+</Tag>
+<style>
+  .em-folio { display: flex; align-items: center; gap: .9em; min-height: 1.5rem; flex-wrap: wrap; row-gap: .25rem; color: var(--ink); }
+  .em-folio__lead { white-space: nowrap; }
+  .em-folio__rule { flex: 1 1 3rem; min-width: 2rem; height: 0; border-top: 1px solid var(--line-strong); }
+  .em-folio__items { display: inline-flex; flex-wrap: wrap; align-items: center; gap: .1em .7em; }
+  .em-folio__item[class*='em-role-'] { color: var(--role-ink); }
+  .em-folio__dot { color: var(--ink-4); }
+  a.em-folio__item:hover { color: var(--person-ink); }
+</style>

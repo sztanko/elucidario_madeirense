@@ -1,0 +1,93 @@
+---
+// People index, one page per letter: a compact list (name, dates, first role) linking to each person's page.
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import { fmtLife, fmtInt } from '../../../components/ui/format';
+import { languages, persons, type Person } from '../../../lib/data';
+import { t } from '../../../i18n/ui';
+import * as u from '../../../lib/urls';
+
+
+export function getStaticPaths() {
+  return languages().flatMap((lang) => {
+    const groups = new Map<string, Person[]>();
+    for (const p of Object.values(persons(lang))) {
+      const l = u.personLetter(p.n);
+      if (!groups.has(l)) groups.set(l, []);
+      groups.get(l)!.push(p);
+    }
+    const letters = [...groups.keys()].sort((a, b) => (a === '0' ? 1 : b === '0' ? -1 : a.localeCompare(b, lang)));
+    return letters.map((letter, i) => ({
+      params: { lang, letter },
+      props: {
+        letters,
+        people: groups.get(letter)!.sort((a, b) => a.n.localeCompare(b.n, lang, { sensitivity: 'base' })),
+        prev: letters[i - 1] ?? null,
+        next: letters[i + 1] ?? null,
+      },
+    }));
+  });
+}
+
+const { lang, letter } = Astro.params as { lang: string; letter: string };
+const { letters, people, prev, next } = Astro.props as { letters: string[]; people: Person[]; prev: string | null; next: string | null };
+const show = (l: string) => (l === '0' ? '#' : l.toUpperCase());
+const L = show(letter);
+
+const title = `${t(lang, 'people')} · ${L} — Elucidário Madeirense`;
+const description = `${t(lang, 'people')} — ${L}: ${people.slice(0, 8).map((p) => p.n).join(', ')}…`;
+---
+<Base lang={lang} title={title} description={description} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'people'), href: u.peoplePage(lang) }, { label: L }]} />
+
+  <header class="pl-head">
+    <span class="pl-letter" aria-hidden="true">{L}</span>
+    <div>
+      <h1>{t(lang, 'people')} <span class="pl-h1-letter">· {L}</span></h1>
+      <p class="pl-count">{fmtInt(people.length, lang)} {t(lang, 'persons_n')}</p>
+    </div>
+  </header>
+
+  <nav class="pl-nav" aria-label={t(lang, 'people')}>
+    {letters.map((l) => l === letter
+      ? <span aria-current="page">{show(l)}</span>
+      : <a href={u.peopleLetter(lang, l)}>{show(l)}</a>)}
+  </nav>
+
+  <ul class="pl-list" role="list">
+    {people.map((p) => (
+      <li>
+        <a href={u.person(lang, p.id)}>{p.n}</a>
+        {(p.d?.[0] || p.d?.[1]) && <span class="pl-d">{fmtLife(p.d, t(lang, 'born'), t(lang, 'died'))}</span>}
+        {p.roles?.[0] && <span class="pl-r">{p.roles[0]}</span>}
+      </li>
+    ))}
+  </ul>
+
+  <nav class="pl-pn">
+    {prev ? <a href={u.peopleLetter(lang, prev)}>← {show(prev)}</a> : <span />}
+    {next ? <a href={u.peopleLetter(lang, next)}>{show(next)} →</a> : <span />}
+  </nav>
+</Base>
+
+<style>
+  .pl-head { display: flex; align-items: flex-end; gap: var(--s-5); max-width: 96rem; margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-4); border-bottom: var(--rule-heavy, 4px) solid var(--ink); }
+  .pl-letter { font-family: var(--font-display); font-weight: 900; font-size: var(--fs-poster); line-height: .78; color: var(--person); }
+  .pl-head h1 { font-family: var(--font-display); text-transform: uppercase; font-size: var(--fs-h2); margin: 0; }
+  .pl-h1-letter { color: var(--person-ink); }
+  .pl-count { font-family: var(--font-label); letter-spacing: var(--tracking-label, .22em); text-transform: uppercase; font-size: var(--fs-micro); margin: .3rem 0 0; opacity: .7; }
+  .pl-nav { position: sticky; top: var(--header-h); z-index: var(--z-raised, 5); background: var(--paper); display: flex; flex-wrap: wrap; gap: .15rem .35rem; max-width: 96rem; margin: 0 auto; padding: .6rem var(--gutter); border-bottom: 1px solid var(--line-faint); font-family: var(--font-display); font-weight: 700; font-size: 1.05rem; }
+  .pl-nav a, .pl-nav span { min-width: 1.5em; text-align: center; color: var(--ink); text-decoration: none; padding: .1rem 0; }
+  .pl-nav a:hover { color: var(--person-ink); }
+  .pl-nav [aria-current] { background: var(--ink); color: var(--paper-light); }
+  .pl-list { list-style: none; max-width: 96rem; margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-7); columns: 3 17rem; column-gap: var(--s-6); }
+  .pl-list li { break-inside: avoid; padding: .3rem 0; border-bottom: 1px solid var(--line-faint); font-size: var(--fs-small); line-height: 1.35; }
+  .pl-list a { color: var(--ink); text-decoration: none; font-weight: 600; }
+  .pl-list a:hover { color: var(--person-ink); text-decoration: underline; }
+  .pl-d { margin-left: .5em; font-family: var(--font-label); letter-spacing: .06em; font-variant-numeric: tabular-nums; font-size: var(--fs-micro); opacity: .7; }
+  .pl-r { display: block; font-size: var(--fs-micro); opacity: .6; }
+  .pl-pn { display: flex; justify-content: space-between; max-width: 96rem; margin: 0 auto var(--s-7); padding: var(--s-4) var(--gutter); border-top: 2px solid var(--ink); font-family: var(--font-display); font-size: var(--fs-h3); font-weight: 800; }
+  .pl-pn a { color: var(--ink); text-decoration: none; }
+  @media (max-width: 56rem) { .pl-nav { flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; } .pl-nav a, .pl-nav span { flex: none; min-width: 2.2em; padding: .35rem 0; } }
+  @media print { .pl-nav, .pl-pn { display: none; } }
+</style>

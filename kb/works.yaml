@@ -1,0 +1,6765 @@
+# Works and periodicals cited in the Elucidário Madeirense: target-language titles.
+# Standard: docs/naming_latin.md §2.3, §4; per-language tables in docs/naming_<lang>.md §8.
+# Key = modern Portuguese title (masthead with its article for periodicals). `aliases` = spellings
+# and headword forms found in the source; the first mention reproduces the title AS PRINTED in the article.
+# Entry fields: kind (book | poem | document | law | periodical), author, date, articles (number of
+#   articles mentioning it; heuristic count on data/04_structured/articles.jsonl, null = unreliable),
+#   form: translate  -> running text uses `title`; first mention `title` (*original*)
+#         keep_gloss -> running text keeps the original; first mention original (‘gloss’)
+#         keep       -> non-Portuguese title or the Elucidário itself: original, no gloss
+# Per-language fields: title, established (a published translation with this title exists),
+#   source (URL when established), kind, author (repeated for convenience), running, first,
+#   (established is also true for kept titles whose original form is the established one: Latin,
+#   non-Portuguese titles, the Elucidário itself),
+#   gloss (keep_gloss only). Descriptive titles: language title quotes; established: italics.
+# Generated 2026-10-03 for owner review; not yet read by the pipeline.
+Os Lusíadas:
+  kind: poem
+  author: Luís de Camões
+  date: '1572'
+  articles: 8
+  aliases:
+  - Lusiadas
+  - Lusíadas
+  form: translate
+  note: 'Published translations: en Landeg White (Oxford World''s Classics, 1997) and others; de Hans-Joachim Schaeffer (Elfenbein, 1999), earlier J. J. C. Donner (1833); fr Roger Bismut (1954); it Riccardo
+    Averini (Mursia 1972, BUR 2001); hu Hárs Ernő, *A lusiadák* (Európa, 1984; earlier Greguss Gyula 1865); nl Arie Pos, *De Lusiaden* (L.J. Veen, 2012).'
+  en:
+    title: The Lusiads
+    established: true
+    source: https://en.wikipedia.org/wiki/Os_Lus%C3%ADadas
+    kind: poem
+    author: Luís de Camões
+    running: '*The Lusiads*'
+    first: '*The Lusiads* (*Os Lusíadas*)'
+  de:
+    title: Die Lusiaden
+    established: true
+    source: https://www.elfenbein-verlag.de/camoes.htm
+    kind: poem
+    author: Luís de Camões
+    running: '*Die Lusiaden*'
+    first: '*Die Lusiaden* (*Os Lusíadas*)'
+  fr:
+    title: Les Lusiades
+    established: true
+    source: https://fr.wikipedia.org/wiki/Les_Lusiades
+    kind: poem
+    author: Luís de Camões
+    running: '*Les Lusiades*'
+    first: '*Les Lusiades* (*Os Lusíadas*)'
+  it:
+    title: I Lusiadi
+    established: true
+    source: https://it.wikipedia.org/wiki/I_Lusiadi
+    kind: poem
+    author: Luís de Camões
+    running: '*I Lusiadi*'
+    first: '*I Lusiadi* (*Os Lusíadas*)'
+  hu:
+    title: A lusiadák
+    established: true
+    source: https://hu.wikipedia.org/wiki/A_lusiad%C3%A1k
+    kind: poem
+    author: Luís de Camões
+    running: '*A lusiadák*'
+    first: '*A lusiadák* (*Os Lusíadas*)'
+  nl:
+    title: De Lusiaden
+    established: true
+    source: https://www.bibliotheek.nl/catalogus/titel.340810947.html/de-lusiaden/
+    kind: poem
+    author: Luís de Camões
+    running: '*De Lusiaden*'
+    first: '*De Lusiaden* (*Os Lusíadas*)'
+Saudades da Terra:
+  kind: book
+  author: Gaspar Frutuoso
+  date: c. 1586–1590 (Book II on Madeira printed 1873, ed. Álvaro Rodrigues de Azevedo)
+  articles: 167
+  aliases:
+  - As Saudades da Terra
+  - Descobrimento das Ilhas ou Saudades da Terra
+  form: translate
+  note: No published translation of the title in any of the six languages (Wikidata Q3474177; Wikipedia keeps the Portuguese title). *Terra* = the native land.
+  en:
+    title: Longing for the Homeland
+    established: false
+    source: null
+    kind: book
+    author: Gaspar Frutuoso
+    running: ‘Longing for the Homeland’
+    first: ‘Longing for the Homeland’ (*Saudades da Terra*)
+  de:
+    title: Sehnsucht nach der Heimat
+    established: false
+    source: null
+    kind: book
+    author: Gaspar Frutuoso
+    running: „Sehnsucht nach der Heimat“
+    first: „Sehnsucht nach der Heimat“ (*Saudades da Terra*)
+  fr:
+    title: Nostalgie de la terre natale
+    established: false
+    source: null
+    kind: book
+    author: Gaspar Frutuoso
+    running: « Nostalgie de la terre natale »
+    first: « Nostalgie de la terre natale » (*Saudades da Terra*)
+  it:
+    title: Nostalgia della terra natia
+    established: false
+    source: null
+    kind: book
+    author: Gaspar Frutuoso
+    running: ‘Nostalgia della terra natia’
+    first: ‘Nostalgia della terra natia’ (*Saudades da Terra*)
+  hu:
+    title: Vágyódás a szülőföld után
+    established: false
+    source: null
+    kind: book
+    author: Gaspar Frutuoso
+    running: „Vágyódás a szülőföld után”
+    first: „Vágyódás a szülőföld után” (*Saudades da Terra*)
+  nl:
+    title: Heimwee naar het vaderland
+    established: false
+    source: null
+    kind: book
+    author: Gaspar Frutuoso
+    running: ‘Heimwee naar het vaderland’
+    first: ‘Heimwee naar het vaderland’ (*Saudades da Terra*)
+Crónica do Descobrimento e Conquista da Guiné:
+  kind: book
+  author: Gomes Eanes de Zurara (Azurara)
+  date: '1453'
+  articles: 3
+  aliases:
+  - Chronica do Descobrimento e Conquista de Guiné
+  - Chronica da Guiné
+  - Crónica dos Feitos da Guiné
+  form: translate
+  note: 'en: Beazley & Prestage, Hakluyt Society 1896–99. fr: Léon Bourdon, IFAN Dakar 1960. No published de/it/hu/nl translation found; de Wikipedia uses the descriptive title.'
+  en:
+    title: The Chronicle of the Discovery and Conquest of Guinea
+    established: true
+    source: https://www.cambridge.org/core/books/chronicle-of-the-discovery-and-conquest-of-guinea/62725CF43998B60F60CCB8F580650EF4
+    kind: book
+    author: Gomes Eanes de Zurara (Azurara)
+    running: '*The Chronicle of the Discovery and Conquest of Guinea*'
+    first: '*The Chronicle of the Discovery and Conquest of Guinea* (*Crónica do Descobrimento e Conquista da Guiné*)'
+  de:
+    title: Chronik der Entdeckung und Eroberung von Guinea
+    established: false
+    source: https://de.wikipedia.org/wiki/Gomes_Eanes_de_Azurara
+    kind: book
+    author: Gomes Eanes de Zurara (Azurara)
+    running: „Chronik der Entdeckung und Eroberung von Guinea“
+    first: „Chronik der Entdeckung und Eroberung von Guinea“ (*Crónica do Descobrimento e Conquista da Guiné*)
+  fr:
+    title: Chronique de Guinée
+    established: true
+    source: https://ccfr.bnf.fr/portailccfr/ark:/16871/00110878272
+    kind: book
+    author: Gomes Eanes de Zurara (Azurara)
+    running: '*Chronique de Guinée*'
+    first: '*Chronique de Guinée* (*Crónica do Descobrimento e Conquista da Guiné*)'
+  it:
+    title: Cronaca della scoperta e conquista della Guinea
+    established: false
+    source: null
+    kind: book
+    author: Gomes Eanes de Zurara (Azurara)
+    running: ‘Cronaca della scoperta e conquista della Guinea’
+    first: ‘Cronaca della scoperta e conquista della Guinea’ (*Crónica do Descobrimento e Conquista da Guiné*)
+  hu:
+    title: Guinea felfedezésének és meghódításának krónikája
+    established: false
+    source: null
+    kind: book
+    author: Gomes Eanes de Zurara (Azurara)
+    running: „Guinea felfedezésének és meghódításának krónikája”
+    first: „Guinea felfedezésének és meghódításának krónikája” (*Crónica do Descobrimento e Conquista da Guiné*)
+  nl:
+    title: Kroniek van de ontdekking en verovering van Guinee
+    established: false
+    source: null
+    kind: book
+    author: Gomes Eanes de Zurara (Azurara)
+    running: ‘Kroniek van de ontdekking en verovering van Guinee’
+    first: ‘Kroniek van de ontdekking en verovering van Guinee’ (*Crónica do Descobrimento e Conquista da Guiné*)
+Insulana:
+  kind: poem
+  author: Manuel Tomás
+  date: '1635'
+  articles: 17
+  aliases:
+  - A Insulana
+  form: translate
+  note: 'Epic in ten cantos on the discovery of Madeira. Coined epic title (like *Lusíadas*): see naming_latin.md §6.4 and owner decision 4.'
+  en:
+    title: The Island Epic
+    established: false
+    source: null
+    kind: poem
+    author: Manuel Tomás
+    running: ‘The Island Epic’
+    first: ‘The Island Epic’ (*Insulana*)
+  de:
+    title: Das Inselepos
+    established: false
+    source: null
+    kind: poem
+    author: Manuel Tomás
+    running: „Das Inselepos“
+    first: „Das Inselepos“ (*Insulana*)
+  fr:
+    title: L’Épopée insulaire
+    established: false
+    source: null
+    kind: poem
+    author: Manuel Tomás
+    running: « L’Épopée insulaire »
+    first: « L’Épopée insulaire » (*Insulana*)
+  it:
+    title: L’epopea isolana
+    established: false
+    source: null
+    kind: poem
+    author: Manuel Tomás
+    running: ‘L’epopea isolana’
+    first: ‘L’epopea isolana’ (*Insulana*)
+  hu:
+    title: Szigeteposz
+    established: false
+    source: null
+    kind: poem
+    author: Manuel Tomás
+    running: „Szigeteposz”
+    first: „Szigeteposz” (*Insulana*)
+  nl:
+    title: Het eilandepos
+    established: false
+    source: null
+    kind: poem
+    author: Manuel Tomás
+    running: ‘Het eilandepos’
+    first: ‘Het eilandepos’ (*Insulana*)
+Zargueida:
+  kind: poem
+  author: Francisco de Paula Medina e Vasconcelos
+  date: '1806'
+  articles: 7
+  aliases:
+  - A Zargueida
+  - 'Zargueida: Descobrimento da Madeira'
+  form: translate
+  note: Epic on Zarco's discovery of Madeira. Coined title (*Zargo* + *-eida*, as *Eneida*).
+  en:
+    title: The Zarco Epic
+    established: false
+    source: null
+    kind: poem
+    author: Francisco de Paula Medina e Vasconcelos
+    running: ‘The Zarco Epic’
+    first: ‘The Zarco Epic’ (*Zargueida*)
+  de:
+    title: Das Zarco-Epos
+    established: false
+    source: null
+    kind: poem
+    author: Francisco de Paula Medina e Vasconcelos
+    running: „Das Zarco-Epos“
+    first: „Das Zarco-Epos“ (*Zargueida*)
+  fr:
+    title: L’Épopée de Zarco
+    established: false
+    source: null
+    kind: poem
+    author: Francisco de Paula Medina e Vasconcelos
+    running: « L’Épopée de Zarco »
+    first: « L’Épopée de Zarco » (*Zargueida*)
+  it:
+    title: L’epopea di Zarco
+    established: false
+    source: null
+    kind: poem
+    author: Francisco de Paula Medina e Vasconcelos
+    running: ‘L’epopea di Zarco’
+    first: ‘L’epopea di Zarco’ (*Zargueida*)
+  hu:
+    title: Zarco-eposz
+    established: false
+    source: null
+    kind: poem
+    author: Francisco de Paula Medina e Vasconcelos
+    running: „Zarco-eposz”
+    first: „Zarco-eposz” (*Zargueida*)
+  nl:
+    title: Het Zarco-epos
+    established: false
+    source: null
+    kind: poem
+    author: Francisco de Paula Medina e Vasconcelos
+    running: ‘Het Zarco-epos’
+    first: ‘Het Zarco-epos’ (*Zargueida*)
+Antoneida:
+  kind: poem
+  author: null
+  date: null
+  articles: 0
+  aliases:
+  - A Antoneida
+  form: translate
+  note: Coined epic title (St Anthony).
+  en:
+    title: The Anthony Epic
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: ‘The Anthony Epic’
+    first: ‘The Anthony Epic’ (*Antoneida*)
+  de:
+    title: Das Antonius-Epos
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: „Das Antonius-Epos“
+    first: „Das Antonius-Epos“ (*Antoneida*)
+  fr:
+    title: L’Épopée d’Antoine
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: « L’Épopée d’Antoine »
+    first: « L’Épopée d’Antoine » (*Antoneida*)
+  it:
+    title: L’epopea di Antonio
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: ‘L’epopea di Antonio’
+    first: ‘L’epopea di Antonio’ (*Antoneida*)
+  hu:
+    title: Antal-eposz
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: „Antal-eposz”
+    first: „Antal-eposz” (*Antoneida*)
+  nl:
+    title: Het Antonius-epos
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: ‘Het Antonius-epos’
+    first: ‘Het Antonius-epos’ (*Antoneida*)
+Guyaneida:
+  kind: poem
+  author: null
+  date: null
+  articles: 2
+  aliases:
+  - A Guyaneida
+  form: translate
+  note: Coined epic title (Guiana).
+  en:
+    title: The Guiana Epic
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: ‘The Guiana Epic’
+    first: ‘The Guiana Epic’ (*Guyaneida*)
+  de:
+    title: Das Guayana-Epos
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: „Das Guayana-Epos“
+    first: „Das Guayana-Epos“ (*Guyaneida*)
+  fr:
+    title: L’Épopée de la Guyane
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: « L’Épopée de la Guyane »
+    first: « L’Épopée de la Guyane » (*Guyaneida*)
+  it:
+    title: L’epopea della Guiana
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: ‘L’epopea della Guiana’
+    first: ‘L’epopea della Guiana’ (*Guyaneida*)
+  hu:
+    title: Guyana-eposz
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: „Guyana-eposz”
+    first: „Guyana-eposz” (*Guyaneida*)
+  nl:
+    title: Het Guyana-epos
+    established: false
+    source: null
+    kind: poem
+    author: null
+    running: ‘Het Guyana-epos’
+    first: ‘Het Guyana-epos’ (*Guyaneida*)
+História Insulana:
+  kind: book
+  author: António Cordeiro
+  date: '1717'
+  articles: 21
+  aliases:
+  - Historia Insulana
+  - Historia Insulana das Ilhas a Portugal Sugeitas no Oceano Occidental
+  form: translate
+  note: 'Full title: *Historia Insulana das Ilhas a Portugal Sugeytas no Oceano Occidental*.'
+  en:
+    title: Island History
+    established: false
+    source: null
+    kind: book
+    author: António Cordeiro
+    running: ‘Island History’
+    first: ‘Island History’ (*História Insulana*)
+  de:
+    title: Inselgeschichte
+    established: false
+    source: null
+    kind: book
+    author: António Cordeiro
+    running: „Inselgeschichte“
+    first: „Inselgeschichte“ (*História Insulana*)
+  fr:
+    title: Histoire insulaire
+    established: false
+    source: null
+    kind: book
+    author: António Cordeiro
+    running: « Histoire insulaire »
+    first: « Histoire insulaire » (*História Insulana*)
+  it:
+    title: Storia insulare
+    established: false
+    source: null
+    kind: book
+    author: António Cordeiro
+    running: ‘Storia insulare’
+    first: ‘Storia insulare’ (*História Insulana*)
+  hu:
+    title: Szigettörténet
+    established: false
+    source: null
+    kind: book
+    author: António Cordeiro
+    running: „Szigettörténet”
+    first: „Szigettörténet” (*História Insulana*)
+  nl:
+    title: Eilandgeschiedenis
+    established: false
+    source: null
+    kind: book
+    author: António Cordeiro
+    running: ‘Eilandgeschiedenis’
+    first: ‘Eilandgeschiedenis’ (*História Insulana*)
+Elucidário Madeirense:
+  kind: book
+  author: Fernando Augusto da Silva; Carlos Azevedo de Meneses
+  date: 1921–1922; 2nd ed. 1940–1946
+  articles: 135
+  aliases:
+  - Elucidario
+  - Elucidário
+  - Elucidario Madeirense
+  form: keep
+  note: The work being translated. The site keeps the Portuguese title in every language (site/src/i18n/ui.ts colophons). *este Elucidário* → 'this *Elucidário*'.
+  en:
+    title: Elucidário Madeirense
+    established: true
+    source: site/src/i18n/ui.ts
+    kind: book
+    author: Fernando Augusto da Silva; Carlos Azevedo de Meneses
+    running: '*Elucidário Madeirense*'
+    first: '*Elucidário Madeirense*'
+  de:
+    title: Elucidário Madeirense
+    established: true
+    source: site/src/i18n/ui.ts
+    kind: book
+    author: Fernando Augusto da Silva; Carlos Azevedo de Meneses
+    running: '*Elucidário Madeirense*'
+    first: '*Elucidário Madeirense*'
+  fr:
+    title: Elucidário Madeirense
+    established: true
+    source: site/src/i18n/ui.ts
+    kind: book
+    author: Fernando Augusto da Silva; Carlos Azevedo de Meneses
+    running: '*Elucidário Madeirense*'
+    first: '*Elucidário Madeirense*'
+  it:
+    title: Elucidário Madeirense
+    established: true
+    source: site/src/i18n/ui.ts
+    kind: book
+    author: Fernando Augusto da Silva; Carlos Azevedo de Meneses
+    running: '*Elucidário Madeirense*'
+    first: '*Elucidário Madeirense*'
+  hu:
+    title: Elucidário Madeirense
+    established: true
+    source: site/src/i18n/ui.ts
+    kind: book
+    author: Fernando Augusto da Silva; Carlos Azevedo de Meneses
+    running: '*Elucidário Madeirense*'
+    first: '*Elucidário Madeirense*'
+  nl:
+    title: Elucidário Madeirense
+    established: true
+    source: site/src/i18n/ui.ts
+    kind: book
+    author: Fernando Augusto da Silva; Carlos Azevedo de Meneses
+    running: '*Elucidário Madeirense*'
+    first: '*Elucidário Madeirense*'
+Anais do Município:
+  kind: document
+  author: Câmara Municipal (each concelho)
+  date: from 1848
+  articles: 6
+  aliases:
+  - Annaes do Municipio
+  - Anais do Municipio
+  form: translate
+  note: Annual chronicle every municipal council had to keep by law of 1848; for Funchal also a headword.
+  en:
+    title: Annals of the Municipality
+    established: false
+    source: null
+    kind: document
+    author: Câmara Municipal (each concelho)
+    running: ‘Annals of the Municipality’
+    first: ‘Annals of the Municipality’ (*Anais do Município*)
+  de:
+    title: Annalen der Gemeinde
+    established: false
+    source: null
+    kind: document
+    author: Câmara Municipal (each concelho)
+    running: „Annalen der Gemeinde“
+    first: „Annalen der Gemeinde“ (*Anais do Município*)
+  fr:
+    title: Annales de la municipalité
+    established: false
+    source: null
+    kind: document
+    author: Câmara Municipal (each concelho)
+    running: « Annales de la municipalité »
+    first: « Annales de la municipalité » (*Anais do Município*)
+  it:
+    title: Annali del Comune
+    established: false
+    source: null
+    kind: document
+    author: Câmara Municipal (each concelho)
+    running: ‘Annali del Comune’
+    first: ‘Annali del Comune’ (*Anais do Município*)
+  hu:
+    title: A község évkönyvei
+    established: false
+    source: null
+    kind: document
+    author: Câmara Municipal (each concelho)
+    running: „A község évkönyvei”
+    first: „A község évkönyvei” (*Anais do Município*)
+  nl:
+    title: Annalen van de gemeente
+    established: false
+    source: null
+    kind: document
+    author: Câmara Municipal (each concelho)
+    running: ‘Annalen van de gemeente’
+    first: ‘Annalen van de gemeente’ (*Anais do Município*)
+Ilhas de Zargo:
+  kind: book
+  author: Eduardo C. N. Pereira
+  date: 1939–1940
+  articles: 10
+  aliases: []
+  form: translate
+  note: null
+  en:
+    title: Zargo’s Islands
+    established: false
+    source: null
+    kind: book
+    author: Eduardo C. N. Pereira
+    running: ‘Zargo’s Islands’
+    first: ‘Zargo’s Islands’ (*Ilhas de Zargo*)
+  de:
+    title: Zargos Inseln
+    established: false
+    source: null
+    kind: book
+    author: Eduardo C. N. Pereira
+    running: „Zargos Inseln“
+    first: „Zargos Inseln“ (*Ilhas de Zargo*)
+  fr:
+    title: Les Îles de Zargo
+    established: false
+    source: null
+    kind: book
+    author: Eduardo C. N. Pereira
+    running: « Les Îles de Zargo »
+    first: « Les Îles de Zargo » (*Ilhas de Zargo*)
+  it:
+    title: Le isole di Zargo
+    established: false
+    source: null
+    kind: book
+    author: Eduardo C. N. Pereira
+    running: ‘Le isole di Zargo’
+    first: ‘Le isole di Zargo’ (*Ilhas de Zargo*)
+  hu:
+    title: Zargo szigetei
+    established: false
+    source: null
+    kind: book
+    author: Eduardo C. N. Pereira
+    running: „Zargo szigetei”
+    first: „Zargo szigetei” (*Ilhas de Zargo*)
+  nl:
+    title: De eilanden van Zargo
+    established: false
+    source: null
+    kind: book
+    author: Eduardo C. N. Pereira
+    running: ‘De eilanden van Zargo’
+    first: ‘De eilanden van Zargo’ (*Ilhas de Zargo*)
+Dicionário Bibliográfico Português:
+  kind: book
+  author: Inocêncio Francisco da Silva
+  date: 1858–1923
+  articles: 27
+  aliases:
+  - Diccionario Bibliographico Portuguez
+  - Diccionario Bibliographico
+  form: translate
+  note: null
+  en:
+    title: Portuguese Bibliographical Dictionary
+    established: false
+    source: null
+    kind: book
+    author: Inocêncio Francisco da Silva
+    running: ‘Portuguese Bibliographical Dictionary’
+    first: ‘Portuguese Bibliographical Dictionary’ (*Dicionário Bibliográfico Português*)
+  de:
+    title: Portugiesisches bibliographisches Wörterbuch
+    established: false
+    source: null
+    kind: book
+    author: Inocêncio Francisco da Silva
+    running: „Portugiesisches bibliographisches Wörterbuch“
+    first: „Portugiesisches bibliographisches Wörterbuch“ (*Dicionário Bibliográfico Português*)
+  fr:
+    title: Dictionnaire bibliographique portugais
+    established: false
+    source: null
+    kind: book
+    author: Inocêncio Francisco da Silva
+    running: « Dictionnaire bibliographique portugais »
+    first: « Dictionnaire bibliographique portugais » (*Dicionário Bibliográfico Português*)
+  it:
+    title: Dizionario bibliografico portoghese
+    established: false
+    source: null
+    kind: book
+    author: Inocêncio Francisco da Silva
+    running: ‘Dizionario bibliografico portoghese’
+    first: ‘Dizionario bibliografico portoghese’ (*Dicionário Bibliográfico Português*)
+  hu:
+    title: Portugál bibliográfiai szótár
+    established: false
+    source: null
+    kind: book
+    author: Inocêncio Francisco da Silva
+    running: „Portugál bibliográfiai szótár”
+    first: „Portugál bibliográfiai szótár” (*Dicionário Bibliográfico Português*)
+  nl:
+    title: Portugees bibliografisch woordenboek
+    established: false
+    source: null
+    kind: book
+    author: Inocêncio Francisco da Silva
+    running: ‘Portugees bibliografisch woordenboek’
+    first: ‘Portugees bibliografisch woordenboek’ (*Dicionário Bibliográfico Português*)
+Bibliotheca Lusitana:
+  kind: book
+  author: Diogo Barbosa Machado
+  date: 1741–1759
+  articles: 19
+  aliases:
+  - Biblioteca Lusitana
+  form: keep_gloss
+  note: 'Latin title: kept in every language (core §4.3 keeps Latin), with a meaning gloss.'
+  en:
+    title: Bibliotheca Lusitana
+    established: true
+    source: null
+    kind: book
+    author: Diogo Barbosa Machado
+    running: '*Bibliotheca Lusitana*'
+    first: '*Bibliotheca Lusitana* (‘Portuguese library’)'
+    gloss: Portuguese library
+  de:
+    title: Bibliotheca Lusitana
+    established: true
+    source: null
+    kind: book
+    author: Diogo Barbosa Machado
+    running: '*Bibliotheca Lusitana*'
+    first: '*Bibliotheca Lusitana* (‚Portugiesische Bibliothek‘)'
+    gloss: Portugiesische Bibliothek
+  fr:
+    title: Bibliotheca Lusitana
+    established: true
+    source: null
+    kind: book
+    author: Diogo Barbosa Machado
+    running: '*Bibliotheca Lusitana*'
+    first: '*Bibliotheca Lusitana* (« Bibliothèque portugaise »)'
+    gloss: Bibliothèque portugaise
+  it:
+    title: Bibliotheca Lusitana
+    established: true
+    source: null
+    kind: book
+    author: Diogo Barbosa Machado
+    running: '*Bibliotheca Lusitana*'
+    first: '*Bibliotheca Lusitana* (‘Biblioteca portoghese’)'
+    gloss: Biblioteca portoghese
+  hu:
+    title: Bibliotheca Lusitana
+    established: true
+    source: null
+    kind: book
+    author: Diogo Barbosa Machado
+    running: '*Bibliotheca Lusitana*'
+    first: '*Bibliotheca Lusitana* (’portugál könyvtár’)'
+    gloss: portugál könyvtár
+  nl:
+    title: Bibliotheca Lusitana
+    established: true
+    source: null
+    kind: book
+    author: Diogo Barbosa Machado
+    running: '*Bibliotheca Lusitana*'
+    first: '*Bibliotheca Lusitana* (‘Portugese bibliotheek’)'
+    gloss: Portugese bibliotheek
+História de Portugal:
+  kind: book
+  author: Manuel Pinheiro Chagas
+  date: 1899–1905 (3rd ed.)
+  articles: 11
+  aliases:
+  - Historia de Portugal
+  form: translate
+  note: 'Several works share this title (Pinheiro Chagas, Rebelo da Silva, Herculano): check the author.'
+  en:
+    title: History of Portugal
+    established: false
+    source: null
+    kind: book
+    author: Manuel Pinheiro Chagas
+    running: ‘History of Portugal’
+    first: ‘History of Portugal’ (*História de Portugal*)
+  de:
+    title: Geschichte Portugals
+    established: false
+    source: null
+    kind: book
+    author: Manuel Pinheiro Chagas
+    running: „Geschichte Portugals“
+    first: „Geschichte Portugals“ (*História de Portugal*)
+  fr:
+    title: Histoire du Portugal
+    established: false
+    source: null
+    kind: book
+    author: Manuel Pinheiro Chagas
+    running: « Histoire du Portugal »
+    first: « Histoire du Portugal » (*História de Portugal*)
+  it:
+    title: Storia del Portogallo
+    established: false
+    source: null
+    kind: book
+    author: Manuel Pinheiro Chagas
+    running: ‘Storia del Portogallo’
+    first: ‘Storia del Portogallo’ (*História de Portugal*)
+  hu:
+    title: Portugália története
+    established: false
+    source: null
+    kind: book
+    author: Manuel Pinheiro Chagas
+    running: „Portugália története”
+    first: „Portugália története” (*História de Portugal*)
+  nl:
+    title: Geschiedenis van Portugal
+    established: false
+    source: null
+    kind: book
+    author: Manuel Pinheiro Chagas
+    running: ‘Geschiedenis van Portugal’
+    first: ‘Geschiedenis van Portugal’ (*História de Portugal*)
+Nobiliário da Ilha da Madeira:
+  kind: book
+  author: Henrique Henriques de Noronha
+  date: 18th c. (manuscript)
+  articles: 9
+  aliases:
+  - Nobiliario
+  - Nobiliário
+  - Nobiliario de Henriques de Noronha
+  form: translate
+  note: null
+  en:
+    title: Nobiliary of the Island of Madeira
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: ‘Nobiliary of the Island of Madeira’
+    first: ‘Nobiliary of the Island of Madeira’ (*Nobiliário da Ilha da Madeira*)
+  de:
+    title: Adelsbuch der Insel Madeira
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: „Adelsbuch der Insel Madeira“
+    first: „Adelsbuch der Insel Madeira“ (*Nobiliário da Ilha da Madeira*)
+  fr:
+    title: Nobiliaire de l’île de Madère
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: « Nobiliaire de l’île de Madère »
+    first: « Nobiliaire de l’île de Madère » (*Nobiliário da Ilha da Madeira*)
+  it:
+    title: Nobiliario dell’isola di Madera
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: ‘Nobiliario dell’isola di Madera’
+    first: ‘Nobiliario dell’isola di Madera’ (*Nobiliário da Ilha da Madeira*)
+  hu:
+    title: Madeira szigetének nemesi könyve
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: „Madeira szigetének nemesi könyve”
+    first: „Madeira szigetének nemesi könyve” (*Nobiliário da Ilha da Madeira*)
+  nl:
+    title: Adelboek van het eiland Madeira
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: ‘Adelboek van het eiland Madeira’
+    first: ‘Adelboek van het eiland Madeira’ (*Nobiliário da Ilha da Madeira*)
+Memórias Seculares e Eclesiásticas:
+  kind: book
+  author: Henrique Henriques de Noronha
+  date: '1722'
+  articles: 1
+  aliases:
+  - Memorias Seculares e Ecclesiasticas
+  form: translate
+  note: null
+  en:
+    title: Secular and Ecclesiastical Memoirs
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: ‘Secular and Ecclesiastical Memoirs’
+    first: ‘Secular and Ecclesiastical Memoirs’ (*Memórias Seculares e Eclesiásticas*)
+  de:
+    title: Weltliche und kirchliche Denkwürdigkeiten
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: „Weltliche und kirchliche Denkwürdigkeiten“
+    first: „Weltliche und kirchliche Denkwürdigkeiten“ (*Memórias Seculares e Eclesiásticas*)
+  fr:
+    title: Mémoires séculiers et ecclésiastiques
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: « Mémoires séculiers et ecclésiastiques »
+    first: « Mémoires séculiers et ecclésiastiques » (*Memórias Seculares e Eclesiásticas*)
+  it:
+    title: Memorie secolari ed ecclesiastiche
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: ‘Memorie secolari ed ecclesiastiche’
+    first: ‘Memorie secolari ed ecclesiastiche’ (*Memórias Seculares e Eclesiásticas*)
+  hu:
+    title: Világi és egyházi emlékiratok
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: „Világi és egyházi emlékiratok”
+    first: „Világi és egyházi emlékiratok” (*Memórias Seculares e Eclesiásticas*)
+  nl:
+    title: Wereldlijke en kerkelijke gedenkschriften
+    established: false
+    source: null
+    kind: book
+    author: Henrique Henriques de Noronha
+    running: ‘Wereldlijke en kerkelijke gedenkschriften’
+    first: ‘Wereldlijke en kerkelijke gedenkschriften’ (*Memórias Seculares e Eclesiásticas*)
+Breve Notícia sobre a Ilha da Madeira:
+  kind: book
+  author: Paulo Perestrelo da Câmara
+  date: '1841'
+  articles: 7
+  aliases:
+  - Breve Noticia sobre a Ilha da Madeira
+  - Breve Noticia
+  form: translate
+  note: null
+  en:
+    title: A Brief Account of the Island of Madeira
+    established: false
+    source: null
+    kind: book
+    author: Paulo Perestrelo da Câmara
+    running: ‘A Brief Account of the Island of Madeira’
+    first: ‘A Brief Account of the Island of Madeira’ (*Breve Notícia sobre a Ilha da Madeira*)
+  de:
+    title: Kurze Nachricht über die Insel Madeira
+    established: false
+    source: null
+    kind: book
+    author: Paulo Perestrelo da Câmara
+    running: „Kurze Nachricht über die Insel Madeira“
+    first: „Kurze Nachricht über die Insel Madeira“ (*Breve Notícia sobre a Ilha da Madeira*)
+  fr:
+    title: Brève notice sur l’île de Madère
+    established: false
+    source: null
+    kind: book
+    author: Paulo Perestrelo da Câmara
+    running: « Brève notice sur l’île de Madère »
+    first: « Brève notice sur l’île de Madère » (*Breve Notícia sobre a Ilha da Madeira*)
+  it:
+    title: Breve notizia sull’isola di Madera
+    established: false
+    source: null
+    kind: book
+    author: Paulo Perestrelo da Câmara
+    running: ‘Breve notizia sull’isola di Madera’
+    first: ‘Breve notizia sull’isola di Madera’ (*Breve Notícia sobre a Ilha da Madeira*)
+  hu:
+    title: Rövid tudósítás Madeira szigetéről
+    established: false
+    source: null
+    kind: book
+    author: Paulo Perestrelo da Câmara
+    running: „Rövid tudósítás Madeira szigetéről”
+    first: „Rövid tudósítás Madeira szigetéről” (*Breve Notícia sobre a Ilha da Madeira*)
+  nl:
+    title: Kort bericht over het eiland Madeira
+    established: false
+    source: null
+    kind: book
+    author: Paulo Perestrelo da Câmara
+    running: ‘Kort bericht over het eiland Madeira’
+    first: ‘Kort bericht over het eiland Madeira’ (*Breve Notícia sobre a Ilha da Madeira*)
+Descobrimento da Ilha da Madeira e Discurso da Vida e Feitos dos Capitães da Dita Ilha:
+  kind: book
+  author: Jerónimo Dias Leite
+  date: 1579 (manuscript)
+  articles: 4
+  aliases:
+  - Descobrimento da Ilha da Madeira
+  form: translate
+  note: null
+  en:
+    title: The Discovery of the Island of Madeira
+    established: false
+    source: null
+    kind: book
+    author: Jerónimo Dias Leite
+    running: ‘The Discovery of the Island of Madeira’
+    first: ‘The Discovery of the Island of Madeira’ (*Descobrimento da Ilha da Madeira e Discurso da Vida e Feitos dos Capitães da Dita Ilha*)
+  de:
+    title: Die Entdeckung der Insel Madeira
+    established: false
+    source: null
+    kind: book
+    author: Jerónimo Dias Leite
+    running: „Die Entdeckung der Insel Madeira“
+    first: „Die Entdeckung der Insel Madeira“ (*Descobrimento da Ilha da Madeira e Discurso da Vida e Feitos dos Capitães da Dita Ilha*)
+  fr:
+    title: La Découverte de l’île de Madère
+    established: false
+    source: null
+    kind: book
+    author: Jerónimo Dias Leite
+    running: « La Découverte de l’île de Madère »
+    first: « La Découverte de l’île de Madère » (*Descobrimento da Ilha da Madeira e Discurso da Vida e Feitos dos Capitães da Dita Ilha*)
+  it:
+    title: La scoperta dell’isola di Madera
+    established: false
+    source: null
+    kind: book
+    author: Jerónimo Dias Leite
+    running: ‘La scoperta dell’isola di Madera’
+    first: ‘La scoperta dell’isola di Madera’ (*Descobrimento da Ilha da Madeira e Discurso da Vida e Feitos dos Capitães da Dita Ilha*)
+  hu:
+    title: Madeira szigetének felfedezése
+    established: false
+    source: null
+    kind: book
+    author: Jerónimo Dias Leite
+    running: „Madeira szigetének felfedezése”
+    first: „Madeira szigetének felfedezése” (*Descobrimento da Ilha da Madeira e Discurso da Vida e Feitos dos Capitães da Dita Ilha*)
+  nl:
+    title: De ontdekking van het eiland Madeira
+    established: false
+    source: null
+    kind: book
+    author: Jerónimo Dias Leite
+    running: ‘De ontdekking van het eiland Madeira’
+    first: ‘De ontdekking van het eiland Madeira’ (*Descobrimento da Ilha da Madeira e Discurso da Vida e Feitos dos Capitães da Dita Ilha*)
+Relação de Francisco Alcoforado:
+  kind: document
+  author: Francisco Alcoforado (attributed)
+  date: 15th c. (published 1671 in French paraphrase)
+  articles: 2
+  aliases:
+  - Relação
+  - Relação de Alcoforado
+  form: translate
+  note: Account of Zarco's voyage attributed to his squire Alcoforado.
+  en:
+    title: Francisco Alcoforado’s Account
+    established: false
+    source: null
+    kind: document
+    author: Francisco Alcoforado (attributed)
+    running: ‘Francisco Alcoforado’s Account’
+    first: ‘Francisco Alcoforado’s Account’ (*Relação de Francisco Alcoforado*)
+  de:
+    title: Bericht des Francisco Alcoforado
+    established: false
+    source: null
+    kind: document
+    author: Francisco Alcoforado (attributed)
+    running: „Bericht des Francisco Alcoforado“
+    first: „Bericht des Francisco Alcoforado“ (*Relação de Francisco Alcoforado*)
+  fr:
+    title: Relation de Francisco Alcoforado
+    established: false
+    source: null
+    kind: document
+    author: Francisco Alcoforado (attributed)
+    running: « Relation de Francisco Alcoforado »
+    first: « Relation de Francisco Alcoforado » (*Relação de Francisco Alcoforado*)
+  it:
+    title: Relazione di Francisco Alcoforado
+    established: false
+    source: null
+    kind: document
+    author: Francisco Alcoforado (attributed)
+    running: ‘Relazione di Francisco Alcoforado’
+    first: ‘Relazione di Francisco Alcoforado’ (*Relação de Francisco Alcoforado*)
+  hu:
+    title: Francisco Alcoforado beszámolója
+    established: false
+    source: null
+    kind: document
+    author: Francisco Alcoforado (attributed)
+    running: „Francisco Alcoforado beszámolója”
+    first: „Francisco Alcoforado beszámolója” (*Relação de Francisco Alcoforado*)
+  nl:
+    title: Verslag van Francisco Alcoforado
+    established: false
+    source: null
+    kind: document
+    author: Francisco Alcoforado (attributed)
+    running: ‘Verslag van Francisco Alcoforado’
+    first: ‘Verslag van Francisco Alcoforado’ (*Relação de Francisco Alcoforado*)
+Cancioneiro Geral:
+  kind: poem
+  author: Garcia de Resende (ed.)
+  date: '1516'
+  articles: 10
+  aliases:
+  - Cancioneiro de Resende
+  - Cancioneiro Geral de Garcia de Resende
+  form: translate
+  note: Anthology of court poetry; contains the Madeira poems.
+  en:
+    title: General Songbook
+    established: false
+    source: null
+    kind: poem
+    author: Garcia de Resende (ed.)
+    running: ‘General Songbook’
+    first: ‘General Songbook’ (*Cancioneiro Geral*)
+  de:
+    title: Allgemeines Liederbuch
+    established: false
+    source: null
+    kind: poem
+    author: Garcia de Resende (ed.)
+    running: „Allgemeines Liederbuch“
+    first: „Allgemeines Liederbuch“ (*Cancioneiro Geral*)
+  fr:
+    title: Chansonnier général
+    established: false
+    source: null
+    kind: poem
+    author: Garcia de Resende (ed.)
+    running: « Chansonnier général »
+    first: « Chansonnier général » (*Cancioneiro Geral*)
+  it:
+    title: Canzoniere generale
+    established: false
+    source: null
+    kind: poem
+    author: Garcia de Resende (ed.)
+    running: ‘Canzoniere generale’
+    first: ‘Canzoniere generale’ (*Cancioneiro Geral*)
+  hu:
+    title: Általános daloskönyv
+    established: false
+    source: null
+    kind: poem
+    author: Garcia de Resende (ed.)
+    running: „Általános daloskönyv”
+    first: „Általános daloskönyv” (*Cancioneiro Geral*)
+  nl:
+    title: Algemeen liedboek
+    established: false
+    source: null
+    kind: poem
+    author: Garcia de Resende (ed.)
+    running: ‘Algemeen liedboek’
+    first: ‘Algemeen liedboek’ (*Cancioneiro Geral*)
+Romanceiro do Arquipélago da Madeira:
+  kind: book
+  author: Álvaro Rodrigues de Azevedo
+  date: '1880'
+  articles: 2
+  aliases:
+  - Romanceiro do Archipelago da Madeira
+  form: translate
+  note: null
+  en:
+    title: Ballad Collection of the Madeira Archipelago
+    established: false
+    source: null
+    kind: book
+    author: Álvaro Rodrigues de Azevedo
+    running: ‘Ballad Collection of the Madeira Archipelago’
+    first: ‘Ballad Collection of the Madeira Archipelago’ (*Romanceiro do Arquipélago da Madeira*)
+  de:
+    title: Romanzensammlung des Madeira-Archipels
+    established: false
+    source: null
+    kind: book
+    author: Álvaro Rodrigues de Azevedo
+    running: „Romanzensammlung des Madeira-Archipels“
+    first: „Romanzensammlung des Madeira-Archipels“ (*Romanceiro do Arquipélago da Madeira*)
+  fr:
+    title: Romancero de l’archipel de Madère
+    established: false
+    source: null
+    kind: book
+    author: Álvaro Rodrigues de Azevedo
+    running: « Romancero de l’archipel de Madère »
+    first: « Romancero de l’archipel de Madère » (*Romanceiro do Arquipélago da Madeira*)
+  it:
+    title: Romanziere dell’arcipelago di Madera
+    established: false
+    source: null
+    kind: book
+    author: Álvaro Rodrigues de Azevedo
+    running: ‘Romanziere dell’arcipelago di Madera’
+    first: ‘Romanziere dell’arcipelago di Madera’ (*Romanceiro do Arquipélago da Madeira*)
+  hu:
+    title: A Madeira-szigetek románcai
+    established: false
+    source: null
+    kind: book
+    author: Álvaro Rodrigues de Azevedo
+    running: „A Madeira-szigetek románcai”
+    first: „A Madeira-szigetek románcai” (*Romanceiro do Arquipélago da Madeira*)
+  nl:
+    title: Romancebundel van de Madeira-archipel
+    established: false
+    source: null
+    kind: book
+    author: Álvaro Rodrigues de Azevedo
+    running: ‘Romancebundel van de Madeira-archipel’
+    first: ‘Romancebundel van de Madeira-archipel’ (*Romanceiro do Arquipélago da Madeira*)
+Flores da Madeira:
+  kind: book
+  author: anthology of Madeiran poets
+  date: null
+  articles: 7
+  aliases: []
+  form: translate
+  note: Anthology of about a hundred poems by contemporary Madeiran poets.
+  en:
+    title: Flowers of Madeira
+    established: false
+    source: null
+    kind: book
+    author: anthology of Madeiran poets
+    running: ‘Flowers of Madeira’
+    first: ‘Flowers of Madeira’ (*Flores da Madeira*)
+  de:
+    title: Blumen Madeiras
+    established: false
+    source: null
+    kind: book
+    author: anthology of Madeiran poets
+    running: „Blumen Madeiras“
+    first: „Blumen Madeiras“ (*Flores da Madeira*)
+  fr:
+    title: Fleurs de Madère
+    established: false
+    source: null
+    kind: book
+    author: anthology of Madeiran poets
+    running: « Fleurs de Madère »
+    first: « Fleurs de Madère » (*Flores da Madeira*)
+  it:
+    title: Fiori di Madera
+    established: false
+    source: null
+    kind: book
+    author: anthology of Madeiran poets
+    running: ‘Fiori di Madera’
+    first: ‘Fiori di Madera’ (*Flores da Madeira*)
+  hu:
+    title: Madeirai virágok
+    established: false
+    source: null
+    kind: book
+    author: anthology of Madeiran poets
+    running: „Madeirai virágok”
+    first: „Madeirai virágok” (*Flores da Madeira*)
+  nl:
+    title: Bloemen van Madeira
+    established: false
+    source: null
+    kind: book
+    author: anthology of Madeiran poets
+    running: ‘Bloemen van Madeira’
+    first: ‘Bloemen van Madeira’ (*Flores da Madeira*)
+Arte de Furtar:
+  kind: book
+  author: anonymous (attributed to António Vieira; now to Manuel da Costa)
+  date: '1652'
+  articles: 2
+  aliases: []
+  form: translate
+  note: null
+  en:
+    title: The Art of Stealing
+    established: false
+    source: null
+    kind: book
+    author: anonymous (attributed to António Vieira; now to Manuel da Costa)
+    running: ‘The Art of Stealing’
+    first: ‘The Art of Stealing’ (*Arte de Furtar*)
+  de:
+    title: Die Kunst zu stehlen
+    established: false
+    source: null
+    kind: book
+    author: anonymous (attributed to António Vieira; now to Manuel da Costa)
+    running: „Die Kunst zu stehlen“
+    first: „Die Kunst zu stehlen“ (*Arte de Furtar*)
+  fr:
+    title: L’Art de voler
+    established: false
+    source: null
+    kind: book
+    author: anonymous (attributed to António Vieira; now to Manuel da Costa)
+    running: « L’Art de voler »
+    first: « L’Art de voler » (*Arte de Furtar*)
+  it:
+    title: L’arte di rubare
+    established: false
+    source: null
+    kind: book
+    author: anonymous (attributed to António Vieira; now to Manuel da Costa)
+    running: ‘L’arte di rubare’
+    first: ‘L’arte di rubare’ (*Arte de Furtar*)
+  hu:
+    title: A lopás művészete
+    established: false
+    source: null
+    kind: book
+    author: anonymous (attributed to António Vieira; now to Manuel da Costa)
+    running: „A lopás művészete”
+    first: „A lopás művészete” (*Arte de Furtar*)
+  nl:
+    title: De kunst van het stelen
+    established: false
+    source: null
+    kind: book
+    author: anonymous (attributed to António Vieira; now to Manuel da Costa)
+    running: ‘De kunst van het stelen’
+    first: ‘De kunst van het stelen’ (*Arte de Furtar*)
+Monarquia Lusitana:
+  kind: book
+  author: Bernardo de Brito, António Brandão and others
+  date: 1597–1727
+  articles: 2
+  aliases:
+  - Monarchia Lusitana
+  form: translate
+  note: null
+  en:
+    title: Lusitanian Monarchy
+    established: false
+    source: null
+    kind: book
+    author: Bernardo de Brito, António Brandão and others
+    running: ‘Lusitanian Monarchy’
+    first: ‘Lusitanian Monarchy’ (*Monarquia Lusitana*)
+  de:
+    title: Lusitanische Monarchie
+    established: false
+    source: null
+    kind: book
+    author: Bernardo de Brito, António Brandão and others
+    running: „Lusitanische Monarchie“
+    first: „Lusitanische Monarchie“ (*Monarquia Lusitana*)
+  fr:
+    title: Monarchie lusitanienne
+    established: false
+    source: null
+    kind: book
+    author: Bernardo de Brito, António Brandão and others
+    running: « Monarchie lusitanienne »
+    first: « Monarchie lusitanienne » (*Monarquia Lusitana*)
+  it:
+    title: Monarchia lusitana
+    established: false
+    source: null
+    kind: book
+    author: Bernardo de Brito, António Brandão and others
+    running: ‘Monarchia lusitana’
+    first: ‘Monarchia lusitana’ (*Monarquia Lusitana*)
+  hu:
+    title: Luzitán monarchia
+    established: false
+    source: null
+    kind: book
+    author: Bernardo de Brito, António Brandão and others
+    running: „Luzitán monarchia”
+    first: „Luzitán monarchia” (*Monarquia Lusitana*)
+  nl:
+    title: Lusitaanse monarchie
+    established: false
+    source: null
+    kind: book
+    author: Bernardo de Brito, António Brandão and others
+    running: ‘Lusitaanse monarchie’
+    first: ‘Lusitaanse monarchie’ (*Monarquia Lusitana*)
+História Genealógica da Casa Real Portuguesa:
+  kind: book
+  author: António Caetano de Sousa
+  date: 1735–1748
+  articles: 3
+  aliases:
+  - Historia Genealogica
+  form: translate
+  note: null
+  en:
+    title: Genealogical History of the Portuguese Royal House
+    established: false
+    source: null
+    kind: book
+    author: António Caetano de Sousa
+    running: ‘Genealogical History of the Portuguese Royal House’
+    first: ‘Genealogical History of the Portuguese Royal House’ (*História Genealógica da Casa Real Portuguesa*)
+  de:
+    title: Genealogische Geschichte des portugiesischen Königshauses
+    established: false
+    source: null
+    kind: book
+    author: António Caetano de Sousa
+    running: „Genealogische Geschichte des portugiesischen Königshauses“
+    first: „Genealogische Geschichte des portugiesischen Königshauses“ (*História Genealógica da Casa Real Portuguesa*)
+  fr:
+    title: Histoire généalogique de la maison royale portugaise
+    established: false
+    source: null
+    kind: book
+    author: António Caetano de Sousa
+    running: « Histoire généalogique de la maison royale portugaise »
+    first: « Histoire généalogique de la maison royale portugaise » (*História Genealógica da Casa Real Portuguesa*)
+  it:
+    title: Storia genealogica della casa reale portoghese
+    established: false
+    source: null
+    kind: book
+    author: António Caetano de Sousa
+    running: ‘Storia genealogica della casa reale portoghese’
+    first: ‘Storia genealogica della casa reale portoghese’ (*História Genealógica da Casa Real Portuguesa*)
+  hu:
+    title: A portugál királyi ház genealógiai története
+    established: false
+    source: null
+    kind: book
+    author: António Caetano de Sousa
+    running: „A portugál királyi ház genealógiai története”
+    first: „A portugál királyi ház genealógiai története” (*História Genealógica da Casa Real Portuguesa*)
+  nl:
+    title: Genealogische geschiedenis van het Portugese koningshuis
+    established: false
+    source: null
+    kind: book
+    author: António Caetano de Sousa
+    running: ‘Genealogische geschiedenis van het Portugese koningshuis’
+    first: ‘Genealogische geschiedenis van het Portugese koningshuis’ (*História Genealógica da Casa Real Portuguesa*)
+Corpo Diplomático Português:
+  kind: book
+  author: Luís Augusto Rebelo da Silva (ed.)
+  date: 1862–
+  articles: 3
+  aliases:
+  - Corpo Diplomatico Portuguez
+  form: translate
+  note: null
+  en:
+    title: Portuguese Diplomatic Corpus
+    established: false
+    source: null
+    kind: book
+    author: Luís Augusto Rebelo da Silva (ed.)
+    running: ‘Portuguese Diplomatic Corpus’
+    first: ‘Portuguese Diplomatic Corpus’ (*Corpo Diplomático Português*)
+  de:
+    title: Portugiesisches diplomatisches Korpus
+    established: false
+    source: null
+    kind: book
+    author: Luís Augusto Rebelo da Silva (ed.)
+    running: „Portugiesisches diplomatisches Korpus“
+    first: „Portugiesisches diplomatisches Korpus“ (*Corpo Diplomático Português*)
+  fr:
+    title: Corps diplomatique portugais
+    established: false
+    source: null
+    kind: book
+    author: Luís Augusto Rebelo da Silva (ed.)
+    running: « Corps diplomatique portugais »
+    first: « Corps diplomatique portugais » (*Corpo Diplomático Português*)
+  it:
+    title: Corpo diplomatico portoghese
+    established: false
+    source: null
+    kind: book
+    author: Luís Augusto Rebelo da Silva (ed.)
+    running: ‘Corpo diplomatico portoghese’
+    first: ‘Corpo diplomatico portoghese’ (*Corpo Diplomático Português*)
+  hu:
+    title: Portugál diplomáciai gyűjtemény
+    established: false
+    source: null
+    kind: book
+    author: Luís Augusto Rebelo da Silva (ed.)
+    running: „Portugál diplomáciai gyűjtemény”
+    first: „Portugál diplomáciai gyűjtemény” (*Corpo Diplomático Português*)
+  nl:
+    title: Portugees diplomatiek corpus
+    established: false
+    source: null
+    kind: book
+    author: Luís Augusto Rebelo da Silva (ed.)
+    running: ‘Portugees diplomatiek corpus’
+    first: ‘Portugees diplomatiek corpus’ (*Corpo Diplomático Português*)
+Plantas da Cidade:
+  kind: document
+  author: various surveyors
+  date: 1915–1934
+  articles: 3
+  aliases: []
+  form: translate
+  note: Town plans of Funchal (headword).
+  en:
+    title: Town Plans
+    established: false
+    source: null
+    kind: document
+    author: various surveyors
+    running: ‘Town Plans’
+    first: ‘Town Plans’ (*Plantas da Cidade*)
+  de:
+    title: Stadtpläne
+    established: false
+    source: null
+    kind: document
+    author: various surveyors
+    running: „Stadtpläne“
+    first: „Stadtpläne“ (*Plantas da Cidade*)
+  fr:
+    title: Plans de la ville
+    established: false
+    source: null
+    kind: document
+    author: various surveyors
+    running: « Plans de la ville »
+    first: « Plans de la ville » (*Plantas da Cidade*)
+  it:
+    title: Piante della città
+    established: false
+    source: null
+    kind: document
+    author: various surveyors
+    running: ‘Piante della città’
+    first: ‘Piante della città’ (*Plantas da Cidade*)
+  hu:
+    title: Várostérképek
+    established: false
+    source: null
+    kind: document
+    author: various surveyors
+    running: „Várostérképek”
+    first: „Várostérképek” (*Plantas da Cidade*)
+  nl:
+    title: Stadsplattegronden
+    established: false
+    source: null
+    kind: document
+    author: various surveyors
+    running: ‘Stadsplattegronden’
+    first: ‘Stadsplattegronden’ (*Plantas da Cidade*)
+Carta Constitucional:
+  kind: law
+  author: Pedro IV
+  date: '1826'
+  articles: 12
+  aliases:
+  - Carta Constitucional da Monarquia Portuguesa
+  form: translate
+  note: 'Legal instruments: roman type, capitalised as proper names, no quotation marks.'
+  en:
+    title: Constitutional Charter
+    established: true
+    source: https://en.wikipedia.org/wiki/Constitutional_Charter_of_1826
+    kind: law
+    author: Pedro IV
+    running: Constitutional Charter
+    first: Constitutional Charter (*Carta Constitucional*)
+  de:
+    title: Verfassungscharta
+    established: false
+    source: null
+    kind: law
+    author: Pedro IV
+    running: Verfassungscharta
+    first: Verfassungscharta (*Carta Constitucional*)
+  fr:
+    title: Charte constitutionnelle
+    established: false
+    source: null
+    kind: law
+    author: Pedro IV
+    running: Charte constitutionnelle
+    first: Charte constitutionnelle (*Carta Constitucional*)
+  it:
+    title: Carta costituzionale
+    established: false
+    source: null
+    kind: law
+    author: Pedro IV
+    running: Carta costituzionale
+    first: Carta costituzionale (*Carta Constitucional*)
+  hu:
+    title: Alkotmánylevél
+    established: false
+    source: null
+    kind: law
+    author: Pedro IV
+    running: Alkotmánylevél
+    first: Alkotmánylevél (*Carta Constitucional*)
+  nl:
+    title: Constitutioneel Handvest
+    established: false
+    source: null
+    kind: law
+    author: Pedro IV
+    running: Constitutioneel Handvest
+    first: Constitutioneel Handvest (*Carta Constitucional*)
+Código Administrativo:
+  kind: law
+  author: null
+  date: 1836, 1842, 1878, 1896
+  articles: 4
+  aliases:
+  - Codigo Administrativo
+  form: translate
+  note: null
+  en:
+    title: Administrative Code
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Administrative Code
+    first: Administrative Code (*Código Administrativo*)
+  de:
+    title: Verwaltungsgesetzbuch
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Verwaltungsgesetzbuch
+    first: Verwaltungsgesetzbuch (*Código Administrativo*)
+  fr:
+    title: Code administratif
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Code administratif
+    first: Code administratif (*Código Administrativo*)
+  it:
+    title: Codice amministrativo
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Codice amministrativo
+    first: Codice amministrativo (*Código Administrativo*)
+  hu:
+    title: Közigazgatási törvénykönyv
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Közigazgatási törvénykönyv
+    first: Közigazgatási törvénykönyv (*Código Administrativo*)
+  nl:
+    title: Administratief Wetboek
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Administratief Wetboek
+    first: Administratief Wetboek (*Código Administrativo*)
+Código Civil:
+  kind: law
+  author: null
+  date: '1867'
+  articles: 2
+  aliases:
+  - Codigo Civil
+  form: translate
+  note: null
+  en:
+    title: Civil Code
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Civil Code
+    first: Civil Code (*Código Civil*)
+  de:
+    title: Zivilgesetzbuch
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Zivilgesetzbuch
+    first: Zivilgesetzbuch (*Código Civil*)
+  fr:
+    title: Code civil
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Code civil
+    first: Code civil (*Código Civil*)
+  it:
+    title: Codice civile
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Codice civile
+    first: Codice civile (*Código Civil*)
+  hu:
+    title: Polgári törvénykönyv
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Polgári törvénykönyv
+    first: Polgári törvénykönyv (*Código Civil*)
+  nl:
+    title: Burgerlijk Wetboek
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Burgerlijk Wetboek
+    first: Burgerlijk Wetboek (*Código Civil*)
+Ordenações do Reino:
+  kind: law
+  author: null
+  date: 1446–1603 (Afonsinas, Manuelinas, Filipinas)
+  articles: 2
+  aliases:
+  - Ordenações
+  - Ordenações Manuelinas
+  - Ordenações Filipinas
+  - Ordenações Afonsinas
+  form: translate
+  note: Afonsinas/Manuelinas/Filipinas → Afonsine/Manueline/Philippine in en.
+  en:
+    title: Ordinances of the Kingdom
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Ordinances of the Kingdom
+    first: Ordinances of the Kingdom (*Ordenações do Reino*)
+  de:
+    title: Ordnungen des Königreichs
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Ordnungen des Königreichs
+    first: Ordnungen des Königreichs (*Ordenações do Reino*)
+  fr:
+    title: Ordonnances du royaume
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Ordonnances du royaume
+    first: Ordonnances du royaume (*Ordenações do Reino*)
+  it:
+    title: Ordinanze del regno
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Ordinanze del regno
+    first: Ordinanze del regno (*Ordenações do Reino*)
+  hu:
+    title: A királyság rendeletei
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: A királyság rendeletei
+    first: A királyság rendeletei (*Ordenações do Reino*)
+  nl:
+    title: Ordonnanties van het koninkrijk
+    established: false
+    source: null
+    kind: law
+    author: null
+    running: Ordonnanties van het koninkrijk
+    first: Ordonnanties van het koninkrijk (*Ordenações do Reino*)
+Rambles in Madeira:
+  kind: book
+  author: anonymous
+  date: '1827'
+  articles: 6
+  aliases: []
+  form: keep
+  note: 'Non-Portuguese title: kept as published in every language (no gloss).'
+  en:
+    title: Rambles in Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous
+    running: '*Rambles in Madeira*'
+    first: '*Rambles in Madeira*'
+  de:
+    title: Rambles in Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous
+    running: '*Rambles in Madeira*'
+    first: '*Rambles in Madeira*'
+  fr:
+    title: Rambles in Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous
+    running: '*Rambles in Madeira*'
+    first: '*Rambles in Madeira*'
+  it:
+    title: Rambles in Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous
+    running: '*Rambles in Madeira*'
+    first: '*Rambles in Madeira*'
+  hu:
+    title: Rambles in Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous
+    running: '*Rambles in Madeira*'
+    first: '*Rambles in Madeira*'
+  nl:
+    title: Rambles in Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous
+    running: '*Rambles in Madeira*'
+    first: '*Rambles in Madeira*'
+Account of the Island of Madeira:
+  kind: book
+  author: Nicolau Caetano Bettencourt Pitta
+  date: '1812'
+  articles: 5
+  aliases:
+  - Account
+  form: keep
+  note: 'Non-Portuguese title: kept as published in every language (no gloss).'
+  en:
+    title: Account of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: Nicolau Caetano Bettencourt Pitta
+    running: '*Account of the Island of Madeira*'
+    first: '*Account of the Island of Madeira*'
+  de:
+    title: Account of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: Nicolau Caetano Bettencourt Pitta
+    running: '*Account of the Island of Madeira*'
+    first: '*Account of the Island of Madeira*'
+  fr:
+    title: Account of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: Nicolau Caetano Bettencourt Pitta
+    running: '*Account of the Island of Madeira*'
+    first: '*Account of the Island of Madeira*'
+  it:
+    title: Account of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: Nicolau Caetano Bettencourt Pitta
+    running: '*Account of the Island of Madeira*'
+    first: '*Account of the Island of Madeira*'
+  hu:
+    title: Account of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: Nicolau Caetano Bettencourt Pitta
+    running: '*Account of the Island of Madeira*'
+    first: '*Account of the Island of Madeira*'
+  nl:
+    title: Account of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: Nicolau Caetano Bettencourt Pitta
+    running: '*Account of the Island of Madeira*'
+    first: '*Account of the Island of Madeira*'
+An Historical Account of the Discovery of the Island of Madeira:
+  kind: book
+  author: anonymous (abridged translation of Alcoforado)
+  date: '1750'
+  articles: 2
+  aliases: []
+  form: keep
+  note: 'Non-Portuguese title: kept as published in every language (no gloss).'
+  en:
+    title: An Historical Account of the Discovery of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous (abridged translation of Alcoforado)
+    running: '*An Historical Account of the Discovery of the Island of Madeira*'
+    first: '*An Historical Account of the Discovery of the Island of Madeira*'
+  de:
+    title: An Historical Account of the Discovery of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous (abridged translation of Alcoforado)
+    running: '*An Historical Account of the Discovery of the Island of Madeira*'
+    first: '*An Historical Account of the Discovery of the Island of Madeira*'
+  fr:
+    title: An Historical Account of the Discovery of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous (abridged translation of Alcoforado)
+    running: '*An Historical Account of the Discovery of the Island of Madeira*'
+    first: '*An Historical Account of the Discovery of the Island of Madeira*'
+  it:
+    title: An Historical Account of the Discovery of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous (abridged translation of Alcoforado)
+    running: '*An Historical Account of the Discovery of the Island of Madeira*'
+    first: '*An Historical Account of the Discovery of the Island of Madeira*'
+  hu:
+    title: An Historical Account of the Discovery of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous (abridged translation of Alcoforado)
+    running: '*An Historical Account of the Discovery of the Island of Madeira*'
+    first: '*An Historical Account of the Discovery of the Island of Madeira*'
+  nl:
+    title: An Historical Account of the Discovery of the Island of Madeira
+    established: true
+    source: null
+    kind: book
+    author: anonymous (abridged translation of Alcoforado)
+    running: '*An Historical Account of the Discovery of the Island of Madeira*'
+    first: '*An Historical Account of the Discovery of the Island of Madeira*'
+Six mois à Madère:
+  kind: book
+  author: Marquis de gli Albizzi
+  date: ''
+  articles: 1
+  aliases: []
+  form: keep
+  note: 'Non-Portuguese title: kept as published in every language (no gloss).'
+  en:
+    title: Six mois à Madère
+    established: true
+    source: null
+    kind: book
+    author: Marquis de gli Albizzi
+    running: '*Six mois à Madère*'
+    first: '*Six mois à Madère*'
+  de:
+    title: Six mois à Madère
+    established: true
+    source: null
+    kind: book
+    author: Marquis de gli Albizzi
+    running: '*Six mois à Madère*'
+    first: '*Six mois à Madère*'
+  fr:
+    title: Six mois à Madère
+    established: true
+    source: null
+    kind: book
+    author: Marquis de gli Albizzi
+    running: '*Six mois à Madère*'
+    first: '*Six mois à Madère*'
+  it:
+    title: Six mois à Madère
+    established: true
+    source: null
+    kind: book
+    author: Marquis de gli Albizzi
+    running: '*Six mois à Madère*'
+    first: '*Six mois à Madère*'
+  hu:
+    title: Six mois à Madère
+    established: true
+    source: null
+    kind: book
+    author: Marquis de gli Albizzi
+    running: '*Six mois à Madère*'
+    first: '*Six mois à Madère*'
+  nl:
+    title: Six mois à Madère
+    established: true
+    source: null
+    kind: book
+    author: Marquis de gli Albizzi
+    running: '*Six mois à Madère*'
+    first: '*Six mois à Madère*'
+Prodromus Lichenographiae insulae Maderae:
+  kind: book
+  author: Krempelhuber
+  date: ''
+  articles: 1
+  aliases: []
+  form: keep
+  note: 'Non-Portuguese title: kept as published in every language (no gloss).'
+  en:
+    title: Prodromus Lichenographiae insulae Maderae
+    established: true
+    source: null
+    kind: book
+    author: Krempelhuber
+    running: '*Prodromus Lichenographiae insulae Maderae*'
+    first: '*Prodromus Lichenographiae insulae Maderae*'
+  de:
+    title: Prodromus Lichenographiae insulae Maderae
+    established: true
+    source: null
+    kind: book
+    author: Krempelhuber
+    running: '*Prodromus Lichenographiae insulae Maderae*'
+    first: '*Prodromus Lichenographiae insulae Maderae*'
+  fr:
+    title: Prodromus Lichenographiae insulae Maderae
+    established: true
+    source: null
+    kind: book
+    author: Krempelhuber
+    running: '*Prodromus Lichenographiae insulae Maderae*'
+    first: '*Prodromus Lichenographiae insulae Maderae*'
+  it:
+    title: Prodromus Lichenographiae insulae Maderae
+    established: true
+    source: null
+    kind: book
+    author: Krempelhuber
+    running: '*Prodromus Lichenographiae insulae Maderae*'
+    first: '*Prodromus Lichenographiae insulae Maderae*'
+  hu:
+    title: Prodromus Lichenographiae insulae Maderae
+    established: true
+    source: null
+    kind: book
+    author: Krempelhuber
+    running: '*Prodromus Lichenographiae insulae Maderae*'
+    first: '*Prodromus Lichenographiae insulae Maderae*'
+  nl:
+    title: Prodromus Lichenographiae insulae Maderae
+    established: true
+    source: null
+    kind: book
+    author: Krempelhuber
+    running: '*Prodromus Lichenographiae insulae Maderae*'
+    first: '*Prodromus Lichenographiae insulae Maderae*'
+Diário de Notícias:
+  kind: periodical
+  author: null
+  date: '1876'
+  articles: 50
+  aliases:
+  - Diário de Noticias
+  - Diario de Noticias
+  form: keep_gloss
+  note: Funchal daily, still published.
+  en:
+    title: Diário de Notícias
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Daily News
+    running: '*Diário de Notícias*'
+    first: '*Diário de Notícias* (‘Daily News’)'
+  de:
+    title: Diário de Notícias
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Tägliche Nachrichten
+    running: '*Diário de Notícias*'
+    first: '*Diário de Notícias* (‚Tägliche Nachrichten‘)'
+  fr:
+    title: Diário de Notícias
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Nouvelles du jour
+    running: '*Diário de Notícias*'
+    first: '*Diário de Notícias* (« Nouvelles du jour »)'
+  it:
+    title: Diário de Notícias
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Notizie del giorno
+    running: «Diário de Notícias»
+    first: «Diário de Notícias» (‘Notizie del giorno’)
+  hu:
+    title: Diário de Notícias
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Napi Hírek
+    running: '*Diário de Notícias*'
+    first: '*Diário de Notícias* (’Napi Hírek’)'
+  nl:
+    title: Diário de Notícias
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Dagelijks Nieuws
+    running: '*Diário de Notícias*'
+    first: '*Diário de Notícias* (‘Dagelijks Nieuws’)'
+Heraldo da Madeira:
+  kind: periodical
+  author: null
+  date: '1904'
+  articles: 35
+  aliases:
+  - Heraldo da Madeira (O)
+  - O Heraldo da Madeira
+  form: keep_gloss
+  note: null
+  en:
+    title: Heraldo da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira Herald
+    running: '*Heraldo da Madeira*'
+    first: '*Heraldo da Madeira* (‘Madeira Herald’)'
+  de:
+    title: Heraldo da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Herold von Madeira
+    running: '*Heraldo da Madeira*'
+    first: '*Heraldo da Madeira* (‚Herold von Madeira‘)'
+  fr:
+    title: Heraldo da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Héraut de Madère
+    running: '*Heraldo da Madeira*'
+    first: '*Heraldo da Madeira* (« Le Héraut de Madère »)'
+  it:
+    title: Heraldo da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Araldo di Madera
+    running: «Heraldo da Madeira»
+    first: «Heraldo da Madeira» (‘L’Araldo di Madera’)
+  hu:
+    title: Heraldo da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeirai Hírnök
+    running: '*Heraldo da Madeira*'
+    first: '*Heraldo da Madeira* (’Madeirai Hírnök’)'
+  nl:
+    title: Heraldo da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Heraut van Madeira
+    running: '*Heraldo da Madeira*'
+    first: '*Heraldo da Madeira* (‘De Heraut van Madeira’)'
+Diário da Madeira:
+  kind: periodical
+  author: null
+  date: '1912'
+  articles: 34
+  aliases:
+  - Diario da Madeira
+  form: keep_gloss
+  note: null
+  en:
+    title: Diário da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira Daily
+    running: '*Diário da Madeira*'
+    first: '*Diário da Madeira* (‘Madeira Daily’)'
+  de:
+    title: Diário da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira-Tageblatt
+    running: '*Diário da Madeira*'
+    first: '*Diário da Madeira* (‚Madeira-Tageblatt‘)'
+  fr:
+    title: Diário da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Quotidien de Madère
+    running: '*Diário da Madeira*'
+    first: '*Diário da Madeira* (« Le Quotidien de Madère »)'
+  it:
+    title: Diário da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Quotidiano di Madera
+    running: «Diário da Madeira»
+    first: «Diário da Madeira» (‘Il Quotidiano di Madera’)
+  hu:
+    title: Diário da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeirai Napilap
+    running: '*Diário da Madeira*'
+    first: '*Diário da Madeira* (’Madeirai Napilap’)'
+  nl:
+    title: Diário da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira Dagblad
+    running: '*Diário da Madeira*'
+    first: '*Diário da Madeira* (‘Madeira Dagblad’)'
+O Jornal:
+  kind: periodical
+  author: null
+  date: '1906'
+  articles: 31
+  aliases:
+  - Jornal (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Jornal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Newspaper
+    running: '*O Jornal*'
+    first: '*O Jornal* (‘The Newspaper’)'
+  de:
+    title: O Jornal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Zeitung
+    running: '*O Jornal*'
+    first: '*O Jornal* (‚Die Zeitung‘)'
+  fr:
+    title: O Jornal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Journal
+    running: '*O Jornal*'
+    first: '*O Jornal* (« Le Journal »)'
+  it:
+    title: O Jornal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Giornale
+    running: «O Jornal»
+    first: «O Jornal» (‘Il Giornale’)
+  hu:
+    title: O Jornal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Újság
+    running: '*O Jornal*'
+    first: '*O Jornal* (’Az Újság’)'
+  nl:
+    title: O Jornal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Krant
+    running: '*O Jornal*'
+    first: '*O Jornal* (‘De Krant’)'
+O Patriota Funchalense:
+  kind: periodical
+  author: null
+  date: '1821'
+  articles: 19
+  aliases:
+  - Patriota Funchalense
+  - Patriota
+  form: keep_gloss
+  note: First newspaper printed in Madeira.
+  en:
+    title: O Patriota Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Funchal Patriot
+    running: '*O Patriota Funchalense*'
+    first: '*O Patriota Funchalense* (‘The Funchal Patriot’)'
+  de:
+    title: O Patriota Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Funchaler Patriot
+    running: '*O Patriota Funchalense*'
+    first: '*O Patriota Funchalense* (‚Der Funchaler Patriot‘)'
+  fr:
+    title: O Patriota Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Patriote funchalais
+    running: '*O Patriota Funchalense*'
+    first: '*O Patriota Funchalense* (« Le Patriote funchalais »)'
+  it:
+    title: O Patriota Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Patriota funchalese
+    running: «O Patriota Funchalense»
+    first: «O Patriota Funchalense» (‘Il Patriota funchalese’)
+  hu:
+    title: O Patriota Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Funchali Hazafi
+    running: '*O Patriota Funchalense*'
+    first: '*O Patriota Funchalense* (’A Funchali Hazafi’)'
+  nl:
+    title: O Patriota Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Funchalse Patriot
+    running: '*O Patriota Funchalense*'
+    first: '*O Patriota Funchalense* (‘De Funchalse Patriot’)'
+O Povo:
+  kind: periodical
+  author: null
+  date: 1883; 1907
+  articles: 16
+  aliases:
+  - Povo (O)
+  form: keep_gloss
+  note: Two different papers.
+  en:
+    title: O Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The People
+    running: '*O Povo*'
+    first: '*O Povo* (‘The People’)'
+  de:
+    title: O Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Volk
+    running: '*O Povo*'
+    first: '*O Povo* (‚Das Volk‘)'
+  fr:
+    title: O Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Peuple
+    running: '*O Povo*'
+    first: '*O Povo* (« Le Peuple »)'
+  it:
+    title: O Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Popolo
+    running: «O Povo»
+    first: «O Povo» (‘Il Popolo’)
+  hu:
+    title: O Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Nép
+    running: '*O Povo*'
+    first: '*O Povo* (’A Nép’)'
+  nl:
+    title: O Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Volk
+    running: '*O Povo*'
+    first: '*O Povo* (‘Het Volk’)'
+O Direito:
+  kind: periodical
+  author: null
+  date: '1857'
+  articles: 15
+  aliases:
+  - Direito (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Law
+    running: '*O Direito*'
+    first: '*O Direito* (‘Law’)'
+  de:
+    title: O Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Recht
+    running: '*O Direito*'
+    first: '*O Direito* (‚Das Recht‘)'
+  fr:
+    title: O Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Droit
+    running: '*O Direito*'
+    first: '*O Direito* (« Le Droit »)'
+  it:
+    title: O Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Diritto
+    running: «O Direito»
+    first: «O Direito» (‘Il Diritto’)
+  hu:
+    title: O Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Jog
+    running: '*O Direito*'
+    first: '*O Direito* (’A Jog’)'
+  nl:
+    title: O Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Recht
+    running: '*O Direito*'
+    first: '*O Direito* (‘Het Recht’)'
+Diário Popular:
+  kind: periodical
+  author: null
+  date: '1883'
+  articles: 13
+  aliases: []
+  form: keep_gloss
+  note: null
+  en:
+    title: Diário Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The People’s Daily
+    running: '*Diário Popular*'
+    first: '*Diário Popular* (‘The People’s Daily’)'
+  de:
+    title: Diário Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Volkstageblatt
+    running: '*Diário Popular*'
+    first: '*Diário Popular* (‚Volkstageblatt‘)'
+  fr:
+    title: Diário Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Quotidien populaire
+    running: '*Diário Popular*'
+    first: '*Diário Popular* (« Le Quotidien populaire »)'
+  it:
+    title: Diário Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Quotidiano popolare
+    running: «Diário Popular»
+    first: «Diário Popular» (‘Il Quotidiano popolare’)
+  hu:
+    title: Diário Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Népi Napilap
+    running: '*Diário Popular*'
+    first: '*Diário Popular* (’Népi Napilap’)'
+  nl:
+    title: Diário Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Volksdagblad
+    running: '*Diário Popular*'
+    first: '*Diário Popular* (‘Volksdagblad’)'
+Correio da Madeira:
+  kind: periodical
+  author: null
+  date: 1848; 1922
+  articles: 11
+  aliases:
+  - Correio da Madeira (O)
+  - O Correio da Madeira
+  form: keep_gloss
+  note: null
+  en:
+    title: Correio da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira Courier
+    running: '*Correio da Madeira*'
+    first: '*Correio da Madeira* (‘Madeira Courier’)'
+  de:
+    title: Correio da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira-Kurier
+    running: '*Correio da Madeira*'
+    first: '*Correio da Madeira* (‚Madeira-Kurier‘)'
+  fr:
+    title: Correio da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Courrier de Madère
+    running: '*Correio da Madeira*'
+    first: '*Correio da Madeira* (« Le Courrier de Madère »)'
+  it:
+    title: Correio da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Corriere di Madera
+    running: «Correio da Madeira»
+    first: «Correio da Madeira» (‘Il Corriere di Madera’)
+  hu:
+    title: Correio da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeirai Futár
+    running: '*Correio da Madeira*'
+    first: '*Correio da Madeira* (’Madeirai Futár’)'
+  nl:
+    title: Correio da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira Koerier
+    running: '*Correio da Madeira*'
+    first: '*Correio da Madeira* (‘Madeira Koerier’)'
+A Pátria:
+  kind: periodical
+  author: null
+  date: 1862; 1906
+  articles: 11
+  aliases:
+  - Patria (A)
+  - A Patria
+  form: keep_gloss
+  note: null
+  en:
+    title: A Pátria
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Homeland
+    running: '*A Pátria*'
+    first: '*A Pátria* (‘The Homeland’)'
+  de:
+    title: A Pátria
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Vaterland
+    running: '*A Pátria*'
+    first: '*A Pátria* (‚Das Vaterland‘)'
+  fr:
+    title: A Pátria
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Patrie
+    running: '*A Pátria*'
+    first: '*A Pátria* (« La Patrie »)'
+  it:
+    title: A Pátria
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Patria
+    running: «A Pátria»
+    first: «A Pátria» (‘La Patria’)
+  hu:
+    title: A Pátria
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Haza
+    running: '*A Pátria*'
+    first: '*A Pátria* (’A Haza’)'
+  nl:
+    title: A Pátria
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Vaderland
+    running: '*A Pátria*'
+    first: '*A Pátria* (‘Het Vaderland’)'
+A Verdade:
+  kind: periodical
+  author: null
+  date: 1858; 1875; 1915
+  articles: 11
+  aliases:
+  - Verdade (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Verdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Truth
+    running: '*A Verdade*'
+    first: '*A Verdade* (‘Truth’)'
+  de:
+    title: A Verdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Wahrheit
+    running: '*A Verdade*'
+    first: '*A Verdade* (‚Die Wahrheit‘)'
+  fr:
+    title: A Verdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Vérité
+    running: '*A Verdade*'
+    first: '*A Verdade* (« La Vérité »)'
+  it:
+    title: A Verdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Verità
+    running: «A Verdade»
+    first: «A Verdade» (‘La Verità’)
+  hu:
+    title: A Verdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Igazság
+    running: '*A Verdade*'
+    first: '*A Verdade* (’Az Igazság’)'
+  nl:
+    title: A Verdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Waarheid
+    running: '*A Verdade*'
+    first: '*A Verdade* (‘De Waarheid’)'
+A Chronica:
+  kind: periodical
+  author: null
+  date: '1838'
+  articles: 10
+  aliases:
+  - Chronica (A)
+  - Chronica
+  form: keep_gloss
+  note: Do not confuse with Zurara's *Chronica* (the Guinea chronicle).
+  en:
+    title: A Chronica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Chronicle
+    running: '*A Chronica*'
+    first: '*A Chronica* (‘The Chronicle’)'
+  de:
+    title: A Chronica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Chronik
+    running: '*A Chronica*'
+    first: '*A Chronica* (‚Die Chronik‘)'
+  fr:
+    title: A Chronica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Chronique
+    running: '*A Chronica*'
+    first: '*A Chronica* (« La Chronique »)'
+  it:
+    title: A Chronica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Cronaca
+    running: «A Chronica»
+    first: «A Chronica» (‘La Cronaca’)
+  hu:
+    title: A Chronica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Krónika
+    running: '*A Chronica*'
+    first: '*A Chronica* (’A Krónika’)'
+  nl:
+    title: A Chronica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Kroniek
+    running: '*A Chronica*'
+    first: '*A Chronica* (‘De Kroniek’)'
+A Flor do Oceano:
+  kind: periodical
+  author: null
+  date: '1828'
+  articles: 10
+  aliases:
+  - Flor do Oceano (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Flor do Oceano
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Flower of the Ocean
+    running: '*A Flor do Oceano*'
+    first: '*A Flor do Oceano* (‘The Flower of the Ocean’)'
+  de:
+    title: A Flor do Oceano
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Blume des Ozeans
+    running: '*A Flor do Oceano*'
+    first: '*A Flor do Oceano* (‚Die Blume des Ozeans‘)'
+  fr:
+    title: A Flor do Oceano
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Fleur de l’Océan
+    running: '*A Flor do Oceano*'
+    first: '*A Flor do Oceano* (« La Fleur de l’Océan »)'
+  it:
+    title: A Flor do Oceano
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Fiore dell’Oceano
+    running: «A Flor do Oceano»
+    first: «A Flor do Oceano» (‘Il Fiore dell’Oceano’)
+  hu:
+    title: A Flor do Oceano
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Óceán Virága
+    running: '*A Flor do Oceano*'
+    first: '*A Flor do Oceano* (’Az Óceán Virága’)'
+  nl:
+    title: A Flor do Oceano
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Bloem van de Oceaan
+    running: '*A Flor do Oceano*'
+    first: '*A Flor do Oceano* (‘De Bloem van de Oceaan’)'
+A Liberdade:
+  kind: periodical
+  author: null
+  date: '1878'
+  articles: 10
+  aliases:
+  - Liberdade (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Liberty
+    running: '*A Liberdade*'
+    first: '*A Liberdade* (‘Liberty’)'
+  de:
+    title: A Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Freiheit
+    running: '*A Liberdade*'
+    first: '*A Liberdade* (‚Die Freiheit‘)'
+  fr:
+    title: A Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Liberté
+    running: '*A Liberdade*'
+    first: '*A Liberdade* (« La Liberté »)'
+  it:
+    title: A Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Libertà
+    running: «A Liberdade»
+    first: «A Liberdade» (‘La Libertà’)
+  hu:
+    title: A Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Szabadság
+    running: '*A Liberdade*'
+    first: '*A Liberdade* (’A Szabadság’)'
+  nl:
+    title: A Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Vrijheid
+    running: '*A Liberdade*'
+    first: '*A Liberdade* (‘De Vrijheid’)'
+O Estudo:
+  kind: periodical
+  author: null
+  date: null
+  articles: 10
+  aliases:
+  - Estudo (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Estudo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Study
+    running: '*O Estudo*'
+    first: '*O Estudo* (‘Study’)'
+  de:
+    title: O Estudo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Studium
+    running: '*O Estudo*'
+    first: '*O Estudo* (‚Das Studium‘)'
+  fr:
+    title: O Estudo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Étude
+    running: '*O Estudo*'
+    first: '*O Estudo* (« L’Étude »)'
+  it:
+    title: O Estudo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Lo Studio
+    running: «O Estudo»
+    first: «O Estudo» (‘Lo Studio’)
+  hu:
+    title: O Estudo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Tanulmány
+    running: '*O Estudo*'
+    first: '*O Estudo* (’A Tanulmány’)'
+  nl:
+    title: O Estudo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Studie
+    running: '*O Estudo*'
+    first: '*O Estudo* (‘De Studie’)'
+A Época:
+  kind: periodical
+  author: null
+  date: '1886'
+  articles: 9
+  aliases:
+  - Epocha (A)
+  - A Epocha
+  form: keep_gloss
+  note: null
+  en:
+    title: A Época
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Epoch
+    running: '*A Época*'
+    first: '*A Época* (‘The Epoch’)'
+  de:
+    title: A Época
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Epoche
+    running: '*A Época*'
+    first: '*A Época* (‚Die Epoche‘)'
+  fr:
+    title: A Época
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Époque
+    running: '*A Época*'
+    first: '*A Época* (« L’Époque »)'
+  it:
+    title: A Época
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Epoca
+    running: «A Época»
+    first: «A Época» (‘L’Epoca’)
+  hu:
+    title: A Época
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Korszak
+    running: '*A Época*'
+    first: '*A Época* (’A Korszak’)'
+  nl:
+    title: A Época
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Tijdperk
+    running: '*A Época*'
+    first: '*A Época* (‘Het Tijdperk’)'
+A Imprensa:
+  kind: periodical
+  author: null
+  date: '1862'
+  articles: 9
+  aliases:
+  - Imprensa. (A)
+  - A Imprensa
+  form: keep_gloss
+  note: null
+  en:
+    title: A Imprensa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Press
+    running: '*A Imprensa*'
+    first: '*A Imprensa* (‘The Press’)'
+  de:
+    title: A Imprensa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Presse
+    running: '*A Imprensa*'
+    first: '*A Imprensa* (‚Die Presse‘)'
+  fr:
+    title: A Imprensa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Presse
+    running: '*A Imprensa*'
+    first: '*A Imprensa* (« La Presse »)'
+  it:
+    title: A Imprensa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Stampa
+    running: «A Imprensa»
+    first: «A Imprensa» (‘La Stampa’)
+  hu:
+    title: A Imprensa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Sajtó
+    running: '*A Imprensa*'
+    first: '*A Imprensa* (’A Sajtó’)'
+  nl:
+    title: A Imprensa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Pers
+    running: '*A Imprensa*'
+    first: '*A Imprensa* (‘De Pers’)'
+A Pena:
+  kind: periodical
+  author: null
+  date: null
+  articles: 9
+  aliases:
+  - Pena (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Pena
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Pen
+    running: '*A Pena*'
+    first: '*A Pena* (‘The Pen’)'
+  de:
+    title: A Pena
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Feder
+    running: '*A Pena*'
+    first: '*A Pena* (‚Die Feder‘)'
+  fr:
+    title: A Pena
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Plume
+    running: '*A Pena*'
+    first: '*A Pena* (« La Plume »)'
+  it:
+    title: A Pena
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Penna
+    running: «A Pena»
+    first: «A Pena» (‘La Penna’)
+  hu:
+    title: A Pena
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Toll
+    running: '*A Pena*'
+    first: '*A Pena* (’A Toll’)'
+  nl:
+    title: A Pena
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Pen
+    running: '*A Pena*'
+    first: '*A Pena* (‘De Pen’)'
+A Lei:
+  kind: periodical
+  author: null
+  date: 1873; 1879
+  articles: 8
+  aliases:
+  - Lei (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Law
+    running: '*A Lei*'
+    first: '*A Lei* (‘The Law’)'
+  de:
+    title: A Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Gesetz
+    running: '*A Lei*'
+    first: '*A Lei* (‚Das Gesetz‘)'
+  fr:
+    title: A Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Loi
+    running: '*A Lei*'
+    first: '*A Lei* (« La Loi »)'
+  it:
+    title: A Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Legge
+    running: «A Lei»
+    first: «A Lei» (‘La Legge’)
+  hu:
+    title: A Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Törvény
+    running: '*A Lei*'
+    first: '*A Lei* (’A Törvény’)'
+  nl:
+    title: A Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Wet
+    running: '*A Lei*'
+    first: '*A Lei* (‘De Wet’)'
+Diário do Comércio:
+  kind: periodical
+  author: null
+  date: null
+  articles: 7
+  aliases:
+  - Diário do Commercio
+  - Diário do Commercio (O)
+  - O Diário do Commercio
+  form: keep_gloss
+  note: null
+  en:
+    title: Diário do Comércio
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Commercial Daily
+    running: '*Diário do Comércio*'
+    first: '*Diário do Comércio* (‘Commercial Daily’)'
+  de:
+    title: Diário do Comércio
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Handelstageblatt
+    running: '*Diário do Comércio*'
+    first: '*Diário do Comércio* (‚Handelstageblatt‘)'
+  fr:
+    title: Diário do Comércio
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Quotidien du commerce
+    running: '*Diário do Comércio*'
+    first: '*Diário do Comércio* (« Le Quotidien du commerce »)'
+  it:
+    title: Diário do Comércio
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Quotidiano del commercio
+    running: «Diário do Comércio»
+    first: «Diário do Comércio» (‘Il Quotidiano del commercio’)
+  hu:
+    title: Diário do Comércio
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Kereskedelmi Napilap
+    running: '*Diário do Comércio*'
+    first: '*Diário do Comércio* (’Kereskedelmi Napilap’)'
+  nl:
+    title: Diário do Comércio
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Handelsdagblad
+    running: '*Diário do Comércio*'
+    first: '*Diário do Comércio* (‘Handelsdagblad’)'
+O Funchalense:
+  kind: periodical
+  author: null
+  date: 1859; 1886
+  articles: 6
+  aliases:
+  - Funchalense (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Funchal Citizen
+    running: '*O Funchalense*'
+    first: '*O Funchalense* (‘The Funchal Citizen’)'
+  de:
+    title: O Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Funchaler
+    running: '*O Funchalense*'
+    first: '*O Funchalense* (‚Der Funchaler‘)'
+  fr:
+    title: O Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Funchalais
+    running: '*O Funchalense*'
+    first: '*O Funchalense* (« Le Funchalais »)'
+  it:
+    title: O Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Funchalese
+    running: «O Funchalense»
+    first: «O Funchalense» (‘Il Funchalese’)
+  hu:
+    title: O Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Funchali
+    running: '*O Funchalense*'
+    first: '*O Funchalense* (’A Funchali’)'
+  nl:
+    title: O Funchalense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Funchalees
+    running: '*O Funchalense*'
+    first: '*O Funchalense* (‘De Funchalees’)'
+Correio do Funchal:
+  kind: periodical
+  author: null
+  date: 1850; 1898
+  articles: 5
+  aliases:
+  - O Correio do Funchal
+  form: keep_gloss
+  note: null
+  en:
+    title: Correio do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Funchal Courier
+    running: '*Correio do Funchal*'
+    first: '*Correio do Funchal* (‘Funchal Courier’)'
+  de:
+    title: Correio do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Funchaler Kurier
+    running: '*Correio do Funchal*'
+    first: '*Correio do Funchal* (‚Funchaler Kurier‘)'
+  fr:
+    title: Correio do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Courrier de Funchal
+    running: '*Correio do Funchal*'
+    first: '*Correio do Funchal* (« Le Courrier de Funchal »)'
+  it:
+    title: Correio do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Corriere di Funchal
+    running: «Correio do Funchal»
+    first: «Correio do Funchal» (‘Il Corriere di Funchal’)
+  hu:
+    title: Correio do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Funchali Futár
+    running: '*Correio do Funchal*'
+    first: '*Correio do Funchal* (’Funchali Futár’)'
+  nl:
+    title: Correio do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Funchalse Koerier
+    running: '*Correio do Funchal*'
+    first: '*Correio do Funchal* (‘Funchalse Koerier’)'
+O Defensor:
+  kind: periodical
+  author: null
+  date: '1840'
+  articles: 5
+  aliases:
+  - Defensor (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Defensor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Defender
+    running: '*O Defensor*'
+    first: '*O Defensor* (‘The Defender’)'
+  de:
+    title: O Defensor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Verteidiger
+    running: '*O Defensor*'
+    first: '*O Defensor* (‚Der Verteidiger‘)'
+  fr:
+    title: O Defensor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Défenseur
+    running: '*O Defensor*'
+    first: '*O Defensor* (« Le Défenseur »)'
+  it:
+    title: O Defensor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Difensore
+    running: «O Defensor»
+    first: «O Defensor» (‘Il Difensore’)
+  hu:
+    title: O Defensor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Védelmező
+    running: '*O Defensor*'
+    first: '*O Defensor* (’A Védelmező’)'
+  nl:
+    title: O Defensor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Verdediger
+    running: '*O Defensor*'
+    first: '*O Defensor* (‘De Verdediger’)'
+O Distrito:
+  kind: periodical
+  author: null
+  date: null
+  articles: 5
+  aliases:
+  - Districto (O)
+  - O Districto
+  form: keep_gloss
+  note: null
+  en:
+    title: O Distrito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The District
+    running: '*O Distrito*'
+    first: '*O Distrito* (‘The District’)'
+  de:
+    title: O Distrito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Distrikt
+    running: '*O Distrito*'
+    first: '*O Distrito* (‚Der Distrikt‘)'
+  fr:
+    title: O Distrito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le District
+    running: '*O Distrito*'
+    first: '*O Distrito* (« Le District »)'
+  it:
+    title: O Distrito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Distretto
+    running: «O Distrito»
+    first: «O Distrito» (‘Il Distretto’)
+  hu:
+    title: O Distrito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Kerület
+    running: '*O Distrito*'
+    first: '*O Distrito* (’A Kerület’)'
+  nl:
+    title: O Distrito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het District
+    running: '*O Distrito*'
+    first: '*O Distrito* (‘Het District’)'
+O Distrito do Funchal:
+  kind: periodical
+  author: null
+  date: '1864'
+  articles: 3
+  aliases:
+  - Districto do Funchal (O)
+  - O Districto do Funchal
+  form: keep_gloss
+  note: null
+  en:
+    title: O Distrito do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The District of Funchal
+    running: '*O Distrito do Funchal*'
+    first: '*O Distrito do Funchal* (‘The District of Funchal’)'
+  de:
+    title: O Distrito do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Distrikt Funchal
+    running: '*O Distrito do Funchal*'
+    first: '*O Distrito do Funchal* (‚Der Distrikt Funchal‘)'
+  fr:
+    title: O Distrito do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le District de Funchal
+    running: '*O Distrito do Funchal*'
+    first: '*O Distrito do Funchal* (« Le District de Funchal »)'
+  it:
+    title: O Distrito do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Distretto di Funchal
+    running: «O Distrito do Funchal»
+    first: «O Distrito do Funchal» (‘Il Distretto di Funchal’)
+  hu:
+    title: O Distrito do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Funchal Kerülete
+    running: '*O Distrito do Funchal*'
+    first: '*O Distrito do Funchal* (’Funchal Kerülete’)'
+  nl:
+    title: O Distrito do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het District Funchal
+    running: '*O Distrito do Funchal*'
+    first: '*O Distrito do Funchal* (‘Het District Funchal’)'
+A Imprensa Livre:
+  kind: periodical
+  author: null
+  date: null
+  articles: 5
+  aliases:
+  - Imprensa Livre. (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Imprensa Livre
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Free Press
+    running: '*A Imprensa Livre*'
+    first: '*A Imprensa Livre* (‘The Free Press’)'
+  de:
+    title: A Imprensa Livre
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Freie Presse
+    running: '*A Imprensa Livre*'
+    first: '*A Imprensa Livre* (‚Die Freie Presse‘)'
+  fr:
+    title: A Imprensa Livre
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Presse libre
+    running: '*A Imprensa Livre*'
+    first: '*A Imprensa Livre* (« La Presse libre »)'
+  it:
+    title: A Imprensa Livre
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Stampa libera
+    running: «A Imprensa Livre»
+    first: «A Imprensa Livre» (‘La Stampa libera’)
+  hu:
+    title: A Imprensa Livre
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Szabad Sajtó
+    running: '*A Imprensa Livre*'
+    first: '*A Imprensa Livre* (’A Szabad Sajtó’)'
+  nl:
+    title: A Imprensa Livre
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Vrije Pers
+    running: '*A Imprensa Livre*'
+    first: '*A Imprensa Livre* (‘De Vrije Pers’)'
+O Académico:
+  kind: periodical
+  author: null
+  date: '1884'
+  articles: 4
+  aliases:
+  - Académico (O)
+  - O Academico
+  form: keep_gloss
+  note: null
+  en:
+    title: O Académico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Student
+    running: '*O Académico*'
+    first: '*O Académico* (‘The Student’)'
+  de:
+    title: O Académico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Akademiker
+    running: '*O Académico*'
+    first: '*O Académico* (‚Der Akademiker‘)'
+  fr:
+    title: O Académico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Étudiant
+    running: '*O Académico*'
+    first: '*O Académico* (« L’Étudiant »)'
+  it:
+    title: O Académico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Lo Studente
+    running: «O Académico»
+    first: «O Académico» (‘Lo Studente’)
+  hu:
+    title: O Académico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Egyetemista
+    running: '*O Académico*'
+    first: '*O Académico* (’Az Egyetemista’)'
+  nl:
+    title: O Académico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Student
+    running: '*O Académico*'
+    first: '*O Académico* (‘De Student’)'
+O Arquivista:
+  kind: periodical
+  author: null
+  date: null
+  articles: 4
+  aliases:
+  - Archivista (O)
+  - O Archivista
+  form: keep_gloss
+  note: null
+  en:
+    title: O Arquivista
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Archivist
+    running: '*O Arquivista*'
+    first: '*O Arquivista* (‘The Archivist’)'
+  de:
+    title: O Arquivista
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Archivar
+    running: '*O Arquivista*'
+    first: '*O Arquivista* (‚Der Archivar‘)'
+  fr:
+    title: O Arquivista
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Archiviste
+    running: '*O Arquivista*'
+    first: '*O Arquivista* (« L’Archiviste »)'
+  it:
+    title: O Arquivista
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Archivista
+    running: «O Arquivista»
+    first: «O Arquivista» (‘L’Archivista’)
+  hu:
+    title: O Arquivista
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Levéltáros
+    running: '*O Arquivista*'
+    first: '*O Arquivista* (’A Levéltáros’)'
+  nl:
+    title: O Arquivista
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Archivaris
+    running: '*O Arquivista*'
+    first: '*O Arquivista* (‘De Archivaris’)'
+Brado d'Oeste:
+  kind: periodical
+  author: null
+  date: '1909'
+  articles: 4
+  aliases:
+  - Brado d’Oeste
+  form: keep_gloss
+  note: null
+  en:
+    title: Brado d'Oeste
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Cry from the West
+    running: '*Brado d''Oeste*'
+    first: '*Brado d''Oeste* (‘Cry from the West’)'
+  de:
+    title: Brado d'Oeste
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Ruf aus dem Westen
+    running: '*Brado d''Oeste*'
+    first: '*Brado d''Oeste* (‚Ruf aus dem Westen‘)'
+  fr:
+    title: Brado d'Oeste
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Cri de l’Ouest
+    running: '*Brado d''Oeste*'
+    first: '*Brado d''Oeste* (« Le Cri de l’Ouest »)'
+  it:
+    title: Brado d'Oeste
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Grido dell’Ovest
+    running: «Brado d'Oeste»
+    first: «Brado d'Oeste» (‘Il Grido dell’Ovest’)
+  hu:
+    title: Brado d'Oeste
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Kiáltás Nyugatról
+    running: '*Brado d''Oeste*'
+    first: '*Brado d''Oeste* (’Kiáltás Nyugatról’)'
+  nl:
+    title: Brado d'Oeste
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Roep uit het Westen
+    running: '*Brado d''Oeste*'
+    first: '*Brado d''Oeste* (‘Roep uit het Westen’)'
+O Defensor da Liberdade:
+  kind: periodical
+  author: null
+  date: '1827'
+  articles: 4
+  aliases:
+  - Defensor da Liberdade (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Defensor da Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Defender of Liberty
+    running: '*O Defensor da Liberdade*'
+    first: '*O Defensor da Liberdade* (‘The Defender of Liberty’)'
+  de:
+    title: O Defensor da Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Verteidiger der Freiheit
+    running: '*O Defensor da Liberdade*'
+    first: '*O Defensor da Liberdade* (‚Der Verteidiger der Freiheit‘)'
+  fr:
+    title: O Defensor da Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Défenseur de la liberté
+    running: '*O Defensor da Liberdade*'
+    first: '*O Defensor da Liberdade* (« Le Défenseur de la liberté »)'
+  it:
+    title: O Defensor da Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Difensore della libertà
+    running: «O Defensor da Liberdade»
+    first: «O Defensor da Liberdade» (‘Il Difensore della libertà’)
+  hu:
+    title: O Defensor da Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Szabadság Védelmezője
+    running: '*O Defensor da Liberdade*'
+    first: '*O Defensor da Liberdade* (’A Szabadság Védelmezője’)'
+  nl:
+    title: O Defensor da Liberdade
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Verdediger van de Vrijheid
+    running: '*O Defensor da Liberdade*'
+    first: '*O Defensor da Liberdade* (‘De Verdediger van de Vrijheid’)'
+A Discussão:
+  kind: periodical
+  author: null
+  date: '1855'
+  articles: 4
+  aliases:
+  - Discussão (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Discussão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Debate
+    running: '*A Discussão*'
+    first: '*A Discussão* (‘The Debate’)'
+  de:
+    title: A Discussão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Diskussion
+    running: '*A Discussão*'
+    first: '*A Discussão* (‚Die Diskussion‘)'
+  fr:
+    title: A Discussão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Discussion
+    running: '*A Discussão*'
+    first: '*A Discussão* (« La Discussion »)'
+  it:
+    title: A Discussão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Discussione
+    running: «A Discussão»
+    first: «A Discussão» (‘La Discussione’)
+  hu:
+    title: A Discussão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Vita
+    running: '*A Discussão*'
+    first: '*A Discussão* (’A Vita’)'
+  nl:
+    title: A Discussão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Debat
+    running: '*A Discussão*'
+    first: '*A Discussão* (‘Het Debat’)'
+O Imparcial:
+  kind: periodical
+  author: null
+  date: 1840; 1916
+  articles: 4
+  aliases:
+  - Imparcial (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Imparcial
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Impartial
+    running: '*O Imparcial*'
+    first: '*O Imparcial* (‘The Impartial’)'
+  de:
+    title: O Imparcial
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Unparteiische
+    running: '*O Imparcial*'
+    first: '*O Imparcial* (‚Der Unparteiische‘)'
+  fr:
+    title: O Imparcial
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Impartial
+    running: '*O Imparcial*'
+    first: '*O Imparcial* (« L’Impartial »)'
+  it:
+    title: O Imparcial
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Imparziale
+    running: «O Imparcial»
+    first: «O Imparcial» (‘L’Imparziale’)
+  hu:
+    title: O Imparcial
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Pártatlan
+    running: '*O Imparcial*'
+    first: '*O Imparcial* (’A Pártatlan’)'
+  nl:
+    title: O Imparcial
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Onpartijdige
+    running: '*O Imparcial*'
+    first: '*O Imparcial* (‘De Onpartijdige’)'
+A Lâmpada:
+  kind: periodical
+  author: null
+  date: '1872'
+  articles: 4
+  aliases:
+  - Lâmpada (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Lâmpada
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Lamp
+    running: '*A Lâmpada*'
+    first: '*A Lâmpada* (‘The Lamp’)'
+  de:
+    title: A Lâmpada
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Lampe
+    running: '*A Lâmpada*'
+    first: '*A Lâmpada* (‚Die Lampe‘)'
+  fr:
+    title: A Lâmpada
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Lampe
+    running: '*A Lâmpada*'
+    first: '*A Lâmpada* (« La Lampe »)'
+  it:
+    title: A Lâmpada
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Lampada
+    running: «A Lâmpada»
+    first: «A Lâmpada» (‘La Lampada’)
+  hu:
+    title: A Lâmpada
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Lámpa
+    running: '*A Lâmpada*'
+    first: '*A Lâmpada* (’A Lámpa’)'
+  nl:
+    title: A Lâmpada
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Lamp
+    running: '*A Lâmpada*'
+    first: '*A Lâmpada* (‘De Lamp’)'
+O País:
+  kind: periodical
+  author: null
+  date: '1865'
+  articles: 4
+  aliases:
+  - Paiz (O)
+  - O Paiz
+  form: keep_gloss
+  note: null
+  en:
+    title: O País
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Country
+    running: '*O País*'
+    first: '*O País* (‘The Country’)'
+  de:
+    title: O País
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Land
+    running: '*O País*'
+    first: '*O País* (‚Das Land‘)'
+  fr:
+    title: O País
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Pays
+    running: '*O País*'
+    first: '*O País* (« Le Pays »)'
+  it:
+    title: O País
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Paese
+    running: «O País»
+    first: «O País» (‘Il Paese’)
+  hu:
+    title: O País
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Ország
+    running: '*O País*'
+    first: '*O País* (’Az Ország’)'
+  nl:
+    title: O País
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Land
+    running: '*O País*'
+    first: '*O País* (‘Het Land’)'
+A Reforma:
+  kind: periodical
+  author: null
+  date: '1858'
+  articles: 4
+  aliases:
+  - Reforma (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Reforma
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Reform
+    running: '*A Reforma*'
+    first: '*A Reforma* (‘Reform’)'
+  de:
+    title: A Reforma
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Reform
+    running: '*A Reforma*'
+    first: '*A Reforma* (‚Die Reform‘)'
+  fr:
+    title: A Reforma
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Réforme
+    running: '*A Reforma*'
+    first: '*A Reforma* (« La Réforme »)'
+  it:
+    title: A Reforma
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Riforma
+    running: «A Reforma»
+    first: «A Reforma» (‘La Riforma’)
+  hu:
+    title: A Reforma
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Reform
+    running: '*A Reforma*'
+    first: '*A Reforma* (’A Reform’)'
+  nl:
+    title: A Reforma
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Hervorming
+    running: '*A Reforma*'
+    first: '*A Reforma* (‘De Hervorming’)'
+O Regedor:
+  kind: periodical
+  author: null
+  date: '1823'
+  articles: 4
+  aliases:
+  - Regedor (O)
+  form: keep_gloss
+  note: '*regedor* = parish magistrate.'
+  en:
+    title: O Regedor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Parish Magistrate
+    running: '*O Regedor*'
+    first: '*O Regedor* (‘The Parish Magistrate’)'
+  de:
+    title: O Regedor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Ortsvorsteher
+    running: '*O Regedor*'
+    first: '*O Regedor* (‚Der Ortsvorsteher‘)'
+  fr:
+    title: O Regedor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Magistrat de paroisse
+    running: '*O Regedor*'
+    first: '*O Regedor* (« Le Magistrat de paroisse »)'
+  it:
+    title: O Regedor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Magistrato di parrocchia
+    running: «O Regedor»
+    first: «O Regedor» (‘Il Magistrato di parrocchia’)
+  hu:
+    title: O Regedor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Bíró
+    running: '*O Regedor*'
+    first: '*O Regedor* (’A Bíró’)'
+  nl:
+    title: O Regedor
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Dorpsmagistraat
+    running: '*O Regedor*'
+    first: '*O Regedor* (‘De Dorpsmagistraat’)'
+A Revista Semanal:
+  kind: periodical
+  author: null
+  date: '1861'
+  articles: 4
+  aliases:
+  - Revista Semanal (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Revista Semanal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Weekly Review
+    running: '*A Revista Semanal*'
+    first: '*A Revista Semanal* (‘The Weekly Review’)'
+  de:
+    title: A Revista Semanal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Wochenschau
+    running: '*A Revista Semanal*'
+    first: '*A Revista Semanal* (‚Die Wochenschau‘)'
+  fr:
+    title: A Revista Semanal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Revue hebdomadaire
+    running: '*A Revista Semanal*'
+    first: '*A Revista Semanal* (« La Revue hebdomadaire »)'
+  it:
+    title: A Revista Semanal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Rivista settimanale
+    running: «A Revista Semanal»
+    first: «A Revista Semanal» (‘La Rivista settimanale’)
+  hu:
+    title: A Revista Semanal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Heti Szemle
+    running: '*A Revista Semanal*'
+    first: '*A Revista Semanal* (’A Heti Szemle’)'
+  nl:
+    title: A Revista Semanal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Weekblad
+    running: '*A Revista Semanal*'
+    first: '*A Revista Semanal* (‘Het Weekblad’)'
+O Amigo do Povo:
+  kind: periodical
+  author: null
+  date: null
+  articles: 3
+  aliases:
+  - Amigo do Povo (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Amigo do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The People’s Friend
+    running: '*O Amigo do Povo*'
+    first: '*O Amigo do Povo* (‘The People’s Friend’)'
+  de:
+    title: O Amigo do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Volksfreund
+    running: '*O Amigo do Povo*'
+    first: '*O Amigo do Povo* (‚Der Volksfreund‘)'
+  fr:
+    title: O Amigo do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Ami du peuple
+    running: '*O Amigo do Povo*'
+    first: '*O Amigo do Povo* (« L’Ami du peuple »)'
+  it:
+    title: O Amigo do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Amico del popolo
+    running: «O Amigo do Povo»
+    first: «O Amigo do Povo» (‘L’Amico del popolo’)
+  hu:
+    title: O Amigo do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Nép Barátja
+    running: '*O Amigo do Povo*'
+    first: '*O Amigo do Povo* (’A Nép Barátja’)'
+  nl:
+    title: O Amigo do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Volksvriend
+    running: '*O Amigo do Povo*'
+    first: '*O Amigo do Povo* (‘De Volksvriend’)'
+A Aurora:
+  kind: periodical
+  author: null
+  date: null
+  articles: 3
+  aliases:
+  - Aurora (A)
+  - Aurora
+  form: keep_gloss
+  note: null
+  en:
+    title: A Aurora
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Dawn
+    running: '*A Aurora*'
+    first: '*A Aurora* (‘The Dawn’)'
+  de:
+    title: A Aurora
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Morgenröte
+    running: '*A Aurora*'
+    first: '*A Aurora* (‚Die Morgenröte‘)'
+  fr:
+    title: A Aurora
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Aurore
+    running: '*A Aurora*'
+    first: '*A Aurora* (« L’Aurore »)'
+  it:
+    title: A Aurora
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Aurora
+    running: «A Aurora»
+    first: «A Aurora» (‘L’Aurora’)
+  hu:
+    title: A Aurora
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Hajnal
+    running: '*A Aurora*'
+    first: '*A Aurora* (’A Hajnal’)'
+  nl:
+    title: A Aurora
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Dageraad
+    running: '*A Aurora*'
+    first: '*A Aurora* (‘De Dageraad’)'
+A Boa Nova:
+  kind: periodical
+  author: null
+  date: null
+  articles: 3
+  aliases:
+  - Boa Nova (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Boa Nova
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Good News
+    running: '*A Boa Nova*'
+    first: '*A Boa Nova* (‘The Good News’)'
+  de:
+    title: A Boa Nova
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Frohe Botschaft
+    running: '*A Boa Nova*'
+    first: '*A Boa Nova* (‚Die Frohe Botschaft‘)'
+  fr:
+    title: A Boa Nova
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Bonne Nouvelle
+    running: '*A Boa Nova*'
+    first: '*A Boa Nova* (« La Bonne Nouvelle »)'
+  it:
+    title: A Boa Nova
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Buona Novella
+    running: «A Boa Nova»
+    first: «A Boa Nova» (‘La Buona Novella’)
+  hu:
+    title: A Boa Nova
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Örömhír
+    running: '*A Boa Nova*'
+    first: '*A Boa Nova* (’Az Örömhír’)'
+  nl:
+    title: A Boa Nova
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Blijde Boodschap
+    running: '*A Boa Nova*'
+    first: '*A Boa Nova* (‘De Blijde Boodschap’)'
+O Democrata:
+  kind: periodical
+  author: null
+  date: 1901; 1917
+  articles: 3
+  aliases:
+  - Democrata (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Democrata
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Democrat
+    running: '*O Democrata*'
+    first: '*O Democrata* (‘The Democrat’)'
+  de:
+    title: O Democrata
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Demokrat
+    running: '*O Democrata*'
+    first: '*O Democrata* (‚Der Demokrat‘)'
+  fr:
+    title: O Democrata
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Démocrate
+    running: '*O Democrata*'
+    first: '*O Democrata* (« Le Démocrate »)'
+  it:
+    title: O Democrata
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Democratico
+    running: «O Democrata»
+    first: «O Democrata» (‘Il Democratico’)
+  hu:
+    title: O Democrata
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Demokrata
+    running: '*O Democrata*'
+    first: '*O Democrata* (’A Demokrata’)'
+  nl:
+    title: O Democrata
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Democraat
+    running: '*O Democrata*'
+    first: '*O Democrata* (‘De Democraat’)'
+A Fusão:
+  kind: periodical
+  author: null
+  date: null
+  articles: 3
+  aliases:
+  - Fusão (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Fusão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Fusion
+    running: '*A Fusão*'
+    first: '*A Fusão* (‘Fusion’)'
+  de:
+    title: A Fusão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Fusion
+    running: '*A Fusão*'
+    first: '*A Fusão* (‚Die Fusion‘)'
+  fr:
+    title: A Fusão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Fusion
+    running: '*A Fusão*'
+    first: '*A Fusão* (« La Fusion »)'
+  it:
+    title: A Fusão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Fusione
+    running: «A Fusão»
+    first: «A Fusão» (‘La Fusione’)
+  hu:
+    title: A Fusão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Fúzió
+    running: '*A Fusão*'
+    first: '*A Fusão* (’A Fúzió’)'
+  nl:
+    title: A Fusão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Fusie
+    running: '*A Fusão*'
+    first: '*A Fusão* (‘De Fusie’)'
+O Liberal:
+  kind: periodical
+  author: null
+  date: null
+  articles: 3
+  aliases:
+  - Liberal (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Liberal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Liberal
+    running: '*O Liberal*'
+    first: '*O Liberal* (‘The Liberal’)'
+  de:
+    title: O Liberal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Liberale
+    running: '*O Liberal*'
+    first: '*O Liberal* (‚Der Liberale‘)'
+  fr:
+    title: O Liberal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Libéral
+    running: '*O Liberal*'
+    first: '*O Liberal* (« Le Libéral »)'
+  it:
+    title: O Liberal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Liberale
+    running: «O Liberal»
+    first: «O Liberal» (‘Il Liberale’)
+  hu:
+    title: O Liberal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Liberális
+    running: '*O Liberal*'
+    first: '*O Liberal* (’A Liberális’)'
+  nl:
+    title: O Liberal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Liberaal
+    running: '*O Liberal*'
+    first: '*O Liberal* (‘De Liberaal’)'
+A Luta:
+  kind: periodical
+  author: null
+  date: '1888'
+  articles: 3
+  aliases:
+  - Lucta (A)
+  - A Lucta
+  form: keep_gloss
+  note: null
+  en:
+    title: A Luta
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Struggle
+    running: '*A Luta*'
+    first: '*A Luta* (‘The Struggle’)'
+  de:
+    title: A Luta
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Kampf
+    running: '*A Luta*'
+    first: '*A Luta* (‚Der Kampf‘)'
+  fr:
+    title: A Luta
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Lutte
+    running: '*A Luta*'
+    first: '*A Luta* (« La Lutte »)'
+  it:
+    title: A Luta
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Lotta
+    running: «A Luta»
+    first: «A Luta» (‘La Lotta’)
+  hu:
+    title: A Luta
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Küzdelem
+    running: '*A Luta*'
+    first: '*A Luta* (’A Küzdelem’)'
+  nl:
+    title: A Luta
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Strijd
+    running: '*A Luta*'
+    first: '*A Luta* (‘De Strijd’)'
+O Madeirense:
+  kind: periodical
+  author: null
+  date: '1918'
+  articles: 3
+  aliases:
+  - Madeirense (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Madeirense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Madeiran
+    running: '*O Madeirense*'
+    first: '*O Madeirense* (‘The Madeiran’)'
+  de:
+    title: O Madeirense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Madeirer
+    running: '*O Madeirense*'
+    first: '*O Madeirense* (‚Der Madeirer‘)'
+  fr:
+    title: O Madeirense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Madérien
+    running: '*O Madeirense*'
+    first: '*O Madeirense* (« Le Madérien »)'
+  it:
+    title: O Madeirense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Madeirense
+    running: «O Madeirense»
+    first: «O Madeirense» (‘Il Madeirense’)
+  hu:
+    title: O Madeirense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Madeirai
+    running: '*O Madeirense*'
+    first: '*O Madeirense* (’A Madeirai’)'
+  nl:
+    title: O Madeirense
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Madeirees
+    running: '*O Madeirense*'
+    first: '*O Madeirense* (‘De Madeirees’)'
+A Monarquia:
+  kind: periodical
+  author: null
+  date: '1884'
+  articles: 3
+  aliases:
+  - Monarchia (A)
+  - A Monarchia
+  form: keep_gloss
+  note: null
+  en:
+    title: A Monarquia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Monarchy
+    running: '*A Monarquia*'
+    first: '*A Monarquia* (‘The Monarchy’)'
+  de:
+    title: A Monarquia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Monarchie
+    running: '*A Monarquia*'
+    first: '*A Monarquia* (‚Die Monarchie‘)'
+  fr:
+    title: A Monarquia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Monarchie
+    running: '*A Monarquia*'
+    first: '*A Monarquia* (« La Monarchie »)'
+  it:
+    title: A Monarquia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Monarchia
+    running: «A Monarquia»
+    first: «A Monarquia» (‘La Monarchia’)
+  hu:
+    title: A Monarquia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Monarchia
+    running: '*A Monarquia*'
+    first: '*A Monarquia* (’A Monarchia’)'
+  nl:
+    title: A Monarquia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Monarchie
+    running: '*A Monarquia*'
+    first: '*A Monarquia* (‘De Monarchie’)'
+A Mulher:
+  kind: periodical
+  author: null
+  date: '1883'
+  articles: 3
+  aliases:
+  - Mulher (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Mulher
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Woman
+    running: '*A Mulher*'
+    first: '*A Mulher* (‘Woman’)'
+  de:
+    title: A Mulher
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Frau
+    running: '*A Mulher*'
+    first: '*A Mulher* (‚Die Frau‘)'
+  fr:
+    title: A Mulher
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Femme
+    running: '*A Mulher*'
+    first: '*A Mulher* (« La Femme »)'
+  it:
+    title: A Mulher
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Donna
+    running: «A Mulher»
+    first: «A Mulher» (‘La Donna’)
+  hu:
+    title: A Mulher
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Nő
+    running: '*A Mulher*'
+    first: '*A Mulher* (’A Nő’)'
+  nl:
+    title: A Mulher
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Vrouw
+    running: '*A Mulher*'
+    first: '*A Mulher* (‘De Vrouw’)'
+O Operário:
+  kind: periodical
+  author: null
+  date: '1920'
+  articles: 3
+  aliases:
+  - Operário (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Operário
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Worker
+    running: '*O Operário*'
+    first: '*O Operário* (‘The Worker’)'
+  de:
+    title: O Operário
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Arbeiter
+    running: '*O Operário*'
+    first: '*O Operário* (‚Der Arbeiter‘)'
+  fr:
+    title: O Operário
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Ouvrier
+    running: '*O Operário*'
+    first: '*O Operário* (« L’Ouvrier »)'
+  it:
+    title: O Operário
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Operaio
+    running: «O Operário»
+    first: «O Operário» (‘L’Operaio’)
+  hu:
+    title: O Operário
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Munkás
+    running: '*O Operário*'
+    first: '*O Operário* (’A Munkás’)'
+  nl:
+    title: O Operário
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Arbeider
+    running: '*O Operário*'
+    first: '*O Operário* (‘De Arbeider’)'
+O Oriente do Funchal:
+  kind: periodical
+  author: null
+  date: '1873'
+  articles: 3
+  aliases:
+  - Oriente do Funchal
+  form: keep_gloss
+  note: '*Oriente* = Masonic lodge jurisdiction.'
+  en:
+    title: O Oriente do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Funchal Orient
+    running: '*O Oriente do Funchal*'
+    first: '*O Oriente do Funchal* (‘The Funchal Orient’)'
+  de:
+    title: O Oriente do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Orient von Funchal
+    running: '*O Oriente do Funchal*'
+    first: '*O Oriente do Funchal* (‚Der Orient von Funchal‘)'
+  fr:
+    title: O Oriente do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Orient de Funchal
+    running: '*O Oriente do Funchal*'
+    first: '*O Oriente do Funchal* (« L’Orient de Funchal »)'
+  it:
+    title: O Oriente do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Oriente di Funchal
+    running: «O Oriente do Funchal»
+    first: «O Oriente do Funchal» (‘L’Oriente di Funchal’)
+  hu:
+    title: O Oriente do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Funchali Kelet
+    running: '*O Oriente do Funchal*'
+    first: '*O Oriente do Funchal* (’Funchali Kelet’)'
+  nl:
+    title: O Oriente do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Oosten van Funchal
+    running: '*O Oriente do Funchal*'
+    first: '*O Oriente do Funchal* (‘Het Oosten van Funchal’)'
+Paróquia de Santo António do Funchal:
+  kind: periodical
+  author: null
+  date: '1914'
+  articles: 3
+  aliases:
+  - Parochia de Santo Antonio do Funchal
+  form: keep_gloss
+  note: Parish bulletin.
+  en:
+    title: Paróquia de Santo António do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Parish of Santo António, Funchal
+    running: '*Paróquia de Santo António do Funchal*'
+    first: '*Paróquia de Santo António do Funchal* (‘Parish of Santo António, Funchal’)'
+  de:
+    title: Paróquia de Santo António do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Pfarrei Santo António in Funchal
+    running: '*Paróquia de Santo António do Funchal*'
+    first: '*Paróquia de Santo António do Funchal* (‚Pfarrei Santo António in Funchal‘)'
+  fr:
+    title: Paróquia de Santo António do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Paroisse de Santo António de Funchal
+    running: '*Paróquia de Santo António do Funchal*'
+    first: '*Paróquia de Santo António do Funchal* (« Paroisse de Santo António de Funchal »)'
+  it:
+    title: Paróquia de Santo António do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Parrocchia di Santo António di Funchal
+    running: «Paróquia de Santo António do Funchal»
+    first: «Paróquia de Santo António do Funchal» (‘Parrocchia di Santo António di Funchal’)
+  hu:
+    title: Paróquia de Santo António do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A funchali Santo António-plébánia
+    running: '*Paróquia de Santo António do Funchal*'
+    first: '*Paróquia de Santo António do Funchal* (’A funchali Santo António-plébánia’)'
+  nl:
+    title: Paróquia de Santo António do Funchal
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Parochie Santo António van Funchal
+    running: '*Paróquia de Santo António do Funchal*'
+    first: '*Paróquia de Santo António do Funchal* (‘Parochie Santo António van Funchal’)'
+O Popular:
+  kind: periodical
+  author: null
+  date: '1874'
+  articles: 3
+  aliases:
+  - Popular (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The People’s Paper
+    running: '*O Popular*'
+    first: '*O Popular* (‘The People’s Paper’)'
+  de:
+    title: O Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Volksblatt
+    running: '*O Popular*'
+    first: '*O Popular* (‚Das Volksblatt‘)'
+  fr:
+    title: O Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Populaire
+    running: '*O Popular*'
+    first: '*O Popular* (« Le Populaire »)'
+  it:
+    title: O Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Popolare
+    running: «O Popular»
+    first: «O Popular» (‘Il Popolare’)
+  hu:
+    title: O Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Népi
+    running: '*O Popular*'
+    first: '*O Popular* (’A Népi’)'
+  nl:
+    title: O Popular
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Volksblad
+    running: '*O Popular*'
+    first: '*O Popular* (‘Het Volksblad’)'
+O Pregador Imparcial da Verdade, da Justiça e da Lei:
+  kind: periodical
+  author: null
+  date: '1823'
+  articles: 3
+  aliases:
+  - Pregador Imparcial da Verdade, da Justiça e da Lei (O)
+  form: keep_gloss
+  note: null
+  en:
+    title: O Pregador Imparcial da Verdade, da Justiça e da Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Impartial Preacher of Truth, Justice and the Law
+    running: '*O Pregador Imparcial da Verdade, da Justiça e da Lei*'
+    first: '*O Pregador Imparcial da Verdade, da Justiça e da Lei* (‘The Impartial Preacher of Truth, Justice and the Law’)'
+  de:
+    title: O Pregador Imparcial da Verdade, da Justiça e da Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der unparteiische Prediger der Wahrheit, der Gerechtigkeit und des Gesetzes
+    running: '*O Pregador Imparcial da Verdade, da Justiça e da Lei*'
+    first: '*O Pregador Imparcial da Verdade, da Justiça e da Lei* (‚Der unparteiische Prediger der Wahrheit, der Gerechtigkeit und des Gesetzes‘)'
+  fr:
+    title: O Pregador Imparcial da Verdade, da Justiça e da Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Prédicateur impartial de la vérité, de la justice et de la loi
+    running: '*O Pregador Imparcial da Verdade, da Justiça e da Lei*'
+    first: '*O Pregador Imparcial da Verdade, da Justiça e da Lei* (« Le Prédicateur impartial de la vérité, de la justice et de la loi »)'
+  it:
+    title: O Pregador Imparcial da Verdade, da Justiça e da Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Predicatore imparziale della verità, della giustizia e della legge
+    running: «O Pregador Imparcial da Verdade, da Justiça e da Lei»
+    first: «O Pregador Imparcial da Verdade, da Justiça e da Lei» (‘Il Predicatore imparziale della verità, della giustizia e della legge’)
+  hu:
+    title: O Pregador Imparcial da Verdade, da Justiça e da Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Igazság, a Jog és a Törvény Pártatlan Prédikátora
+    running: '*O Pregador Imparcial da Verdade, da Justiça e da Lei*'
+    first: '*O Pregador Imparcial da Verdade, da Justiça e da Lei* (’Az Igazság, a Jog és a Törvény Pártatlan Prédikátora’)'
+  nl:
+    title: O Pregador Imparcial da Verdade, da Justiça e da Lei
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Onpartijdige Prediker van Waarheid, Gerechtigheid en Wet
+    running: '*O Pregador Imparcial da Verdade, da Justiça e da Lei*'
+    first: '*O Pregador Imparcial da Verdade, da Justiça e da Lei* (‘De Onpartijdige Prediker van Waarheid, Gerechtigheid en Wet’)'
+A Razão:
+  kind: periodical
+  author: null
+  date: '1920'
+  articles: 3
+  aliases:
+  - Razão (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Razão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Reason
+    running: '*A Razão*'
+    first: '*A Razão* (‘Reason’)'
+  de:
+    title: A Razão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Vernunft
+    running: '*A Razão*'
+    first: '*A Razão* (‚Die Vernunft‘)'
+  fr:
+    title: A Razão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Raison
+    running: '*A Razão*'
+    first: '*A Razão* (« La Raison »)'
+  it:
+    title: A Razão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Ragione
+    running: «A Razão»
+    first: «A Razão» (‘La Ragione’)
+  hu:
+    title: A Razão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Ész
+    running: '*A Razão*'
+    first: '*A Razão* (’Az Ész’)'
+  nl:
+    title: A Razão
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Rede
+    running: '*A Razão*'
+    first: '*A Razão* (‘De Rede’)'
+Revista Jurídica:
+  kind: periodical
+  author: null
+  date: '1870'
+  articles: 3
+  aliases: []
+  form: keep_gloss
+  note: null
+  en:
+    title: Revista Jurídica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Legal Review
+    running: '*Revista Jurídica*'
+    first: '*Revista Jurídica* (‘Legal Review’)'
+  de:
+    title: Revista Jurídica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Juristische Rundschau
+    running: '*Revista Jurídica*'
+    first: '*Revista Jurídica* (‚Juristische Rundschau‘)'
+  fr:
+    title: Revista Jurídica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Revue juridique
+    running: '*Revista Jurídica*'
+    first: '*Revista Jurídica* (« Revue juridique »)'
+  it:
+    title: Revista Jurídica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Rivista giuridica
+    running: «Revista Jurídica»
+    first: «Revista Jurídica» (‘Rivista giuridica’)
+  hu:
+    title: Revista Jurídica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Jogi Szemle
+    running: '*Revista Jurídica*'
+    first: '*Revista Jurídica* (’Jogi Szemle’)'
+  nl:
+    title: Revista Jurídica
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Juridisch Tijdschrift
+    running: '*Revista Jurídica*'
+    first: '*Revista Jurídica* (‘Juridisch Tijdschrift’)'
+Revista de Direito:
+  kind: periodical
+  author: null
+  date: '1920'
+  articles: 3
+  aliases: []
+  form: keep_gloss
+  note: null
+  en:
+    title: Revista de Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Law Review
+    running: '*Revista de Direito*'
+    first: '*Revista de Direito* (‘Law Review’)'
+  de:
+    title: Revista de Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Rechtszeitschrift
+    running: '*Revista de Direito*'
+    first: '*Revista de Direito* (‚Rechtszeitschrift‘)'
+  fr:
+    title: Revista de Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Revue de droit
+    running: '*Revista de Direito*'
+    first: '*Revista de Direito* (« Revue de droit »)'
+  it:
+    title: Revista de Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Rivista di diritto
+    running: «Revista de Direito»
+    first: «Revista de Direito» (‘Rivista di diritto’)
+  hu:
+    title: Revista de Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Jogtudományi Szemle
+    running: '*Revista de Direito*'
+    first: '*Revista de Direito* (’Jogtudományi Szemle’)'
+  nl:
+    title: Revista de Direito
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Rechtskundig Tijdschrift
+    running: '*Revista de Direito*'
+    first: '*Revista de Direito* (‘Rechtskundig Tijdschrift’)'
+Trabalho e União:
+  kind: periodical
+  author: null
+  date: '1907'
+  articles: 3
+  aliases: []
+  form: keep_gloss
+  note: null
+  en:
+    title: Trabalho e União
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Labour and Union
+    running: '*Trabalho e União*'
+    first: '*Trabalho e União* (‘Labour and Union’)'
+  de:
+    title: Trabalho e União
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Arbeit und Einheit
+    running: '*Trabalho e União*'
+    first: '*Trabalho e União* (‚Arbeit und Einheit‘)'
+  fr:
+    title: Trabalho e União
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Travail et Union
+    running: '*Trabalho e União*'
+    first: '*Trabalho e União* (« Travail et Union »)'
+  it:
+    title: Trabalho e União
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Lavoro e Unione
+    running: «Trabalho e União»
+    first: «Trabalho e União» (‘Lavoro e Unione’)
+  hu:
+    title: Trabalho e União
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Munka és Egység
+    running: '*Trabalho e União*'
+    first: '*Trabalho e União* (’Munka és Egység’)'
+  nl:
+    title: Trabalho e União
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Arbeid en Eenheid
+    running: '*Trabalho e União*'
+    first: '*Trabalho e União* (‘Arbeid en Eenheid’)'
+A Voz do Povo:
+  kind: periodical
+  author: null
+  date: '1860'
+  articles: 3
+  aliases:
+  - Voz do Povo (A)
+  form: keep_gloss
+  note: null
+  en:
+    title: A Voz do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Voice of the People
+    running: '*A Voz do Povo*'
+    first: '*A Voz do Povo* (‘The Voice of the People’)'
+  de:
+    title: A Voz do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Stimme des Volkes
+    running: '*A Voz do Povo*'
+    first: '*A Voz do Povo* (‚Die Stimme des Volkes‘)'
+  fr:
+    title: A Voz do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Voix du peuple
+    running: '*A Voz do Povo*'
+    first: '*A Voz do Povo* (« La Voix du peuple »)'
+  it:
+    title: A Voz do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Voce del popolo
+    running: «A Voz do Povo»
+    first: «A Voz do Povo» (‘La Voce del popolo’)
+  hu:
+    title: A Voz do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Nép Hangja
+    running: '*A Voz do Povo*'
+    first: '*A Voz do Povo* (’A Nép Hangja’)'
+  nl:
+    title: A Voz do Povo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Stem van het Volk
+    running: '*A Voz do Povo*'
+    first: '*A Voz do Povo* (‘De Stem van het Volk’)'
+Arquivo Histórico da Madeira:
+  kind: periodical
+  author: null
+  date: '1931'
+  articles: 22
+  aliases:
+  - Arquivo Historico da Madeira
+  - Archivo Historico da Madeira
+  form: keep_gloss
+  note: Historical journal (Funchal).
+  en:
+    title: Arquivo Histórico da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Historical Archive of Madeira
+    running: '*Arquivo Histórico da Madeira*'
+    first: '*Arquivo Histórico da Madeira* (‘Historical Archive of Madeira’)'
+  de:
+    title: Arquivo Histórico da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Historisches Archiv Madeiras
+    running: '*Arquivo Histórico da Madeira*'
+    first: '*Arquivo Histórico da Madeira* (‚Historisches Archiv Madeiras‘)'
+  fr:
+    title: Arquivo Histórico da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Archives historiques de Madère
+    running: '*Arquivo Histórico da Madeira*'
+    first: '*Arquivo Histórico da Madeira* (« Archives historiques de Madère »)'
+  it:
+    title: Arquivo Histórico da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Archivio storico di Madera
+    running: «Arquivo Histórico da Madeira»
+    first: «Arquivo Histórico da Madeira» (‘Archivio storico di Madera’)
+  hu:
+    title: Arquivo Histórico da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeirai Történeti Archívum
+    running: '*Arquivo Histórico da Madeira*'
+    first: '*Arquivo Histórico da Madeira* (’Madeirai Történeti Archívum’)'
+  nl:
+    title: Arquivo Histórico da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Historisch Archief van Madeira
+    running: '*Arquivo Histórico da Madeira*'
+    first: '*Arquivo Histórico da Madeira* (‘Historisch Archief van Madeira’)'
+Diário do Governo:
+  kind: periodical
+  author: null
+  date: 1820–1976
+  articles: 9
+  aliases:
+  - Diario do Governo
+  form: keep_gloss
+  note: Official gazette of the Portuguese government.
+  en:
+    title: Diário do Governo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Government Gazette
+    running: '*Diário do Governo*'
+    first: '*Diário do Governo* (‘Government Gazette’)'
+  de:
+    title: Diário do Governo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Regierungsanzeiger
+    running: '*Diário do Governo*'
+    first: '*Diário do Governo* (‚Regierungsanzeiger‘)'
+  fr:
+    title: Diário do Governo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Journal officiel du gouvernement
+    running: '*Diário do Governo*'
+    first: '*Diário do Governo* (« Journal officiel du gouvernement »)'
+  it:
+    title: Diário do Governo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Gazzetta del governo
+    running: «Diário do Governo»
+    first: «Diário do Governo» (‘Gazzetta del governo’)
+  hu:
+    title: Diário do Governo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Kormányközlöny
+    running: '*Diário do Governo*'
+    first: '*Diário do Governo* (’Kormányközlöny’)'
+  nl:
+    title: Diário do Governo
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Staatscourant
+    running: '*Diário do Governo*'
+    first: '*Diário do Governo* (‘Staatscourant’)'
+O Panorama:
+  kind: periodical
+  author: null
+  date: 1837 (Lisbon)
+  articles: 3
+  aliases:
+  - Panorama
+  form: keep_gloss
+  note: null
+  en:
+    title: O Panorama
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Panorama
+    running: '*O Panorama*'
+    first: '*O Panorama* (‘The Panorama’)'
+  de:
+    title: O Panorama
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Panorama
+    running: '*O Panorama*'
+    first: '*O Panorama* (‚Das Panorama‘)'
+  fr:
+    title: O Panorama
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Le Panorama
+    running: '*O Panorama*'
+    first: '*O Panorama* (« Le Panorama »)'
+  it:
+    title: O Panorama
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Il Panorama
+    running: «O Panorama»
+    first: «O Panorama» (‘Il Panorama’)
+  hu:
+    title: O Panorama
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Panoráma
+    running: '*O Panorama*'
+    first: '*O Panorama* (’A Panoráma’)'
+  nl:
+    title: O Panorama
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Panorama
+    running: '*O Panorama*'
+    first: '*O Panorama* (‘Het Panorama’)'
+Arquivo dos Açores:
+  kind: periodical
+  author: null
+  date: 1878 (Ponta Delgada)
+  articles: 2
+  aliases:
+  - Archivo dos Açores
+  form: keep_gloss
+  note: null
+  en:
+    title: Arquivo dos Açores
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Archive of the Azores
+    running: '*Arquivo dos Açores*'
+    first: '*Arquivo dos Açores* (‘Archive of the Azores’)'
+  de:
+    title: Arquivo dos Açores
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Archiv der Azoren
+    running: '*Arquivo dos Açores*'
+    first: '*Arquivo dos Açores* (‚Archiv der Azoren‘)'
+  fr:
+    title: Arquivo dos Açores
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Archives des Açores
+    running: '*Arquivo dos Açores*'
+    first: '*Arquivo dos Açores* (« Archives des Açores »)'
+  it:
+    title: Arquivo dos Açores
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Archivio delle Azzorre
+    running: «Arquivo dos Açores»
+    first: «Arquivo dos Açores» (‘Archivio delle Azzorre’)
+  hu:
+    title: Arquivo dos Açores
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Azori Archívum
+    running: '*Arquivo dos Açores*'
+    first: '*Arquivo dos Açores* (’Azori Archívum’)'
+  nl:
+    title: Arquivo dos Açores
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Archief van de Azoren
+    running: '*Arquivo dos Açores*'
+    first: '*Arquivo dos Açores* (‘Archief van de Azoren’)'
+Boletim da Sociedade de Geografia de Lisboa:
+  kind: periodical
+  author: null
+  date: '1876'
+  articles: 1
+  aliases: []
+  form: keep_gloss
+  note: null
+  en:
+    title: Boletim da Sociedade de Geografia de Lisboa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Bulletin of the Lisbon Geographical Society
+    running: '*Boletim da Sociedade de Geografia de Lisboa*'
+    first: '*Boletim da Sociedade de Geografia de Lisboa* (‘Bulletin of the Lisbon Geographical Society’)'
+  de:
+    title: Boletim da Sociedade de Geografia de Lisboa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Bulletin der Geographischen Gesellschaft Lissabon
+    running: '*Boletim da Sociedade de Geografia de Lisboa*'
+    first: '*Boletim da Sociedade de Geografia de Lisboa* (‚Bulletin der Geographischen Gesellschaft Lissabon‘)'
+  fr:
+    title: Boletim da Sociedade de Geografia de Lisboa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Bulletin de la Société de géographie de Lisbonne
+    running: '*Boletim da Sociedade de Geografia de Lisboa*'
+    first: '*Boletim da Sociedade de Geografia de Lisboa* (« Bulletin de la Société de géographie de Lisbonne »)'
+  it:
+    title: Boletim da Sociedade de Geografia de Lisboa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Bollettino della Società di geografia di Lisbona
+    running: «Boletim da Sociedade de Geografia de Lisboa»
+    first: «Boletim da Sociedade de Geografia de Lisboa» (‘Bollettino della Società di geografia di Lisbona’)
+  hu:
+    title: Boletim da Sociedade de Geografia de Lisboa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Lisszaboni Földrajzi Társaság Közlönye
+    running: '*Boletim da Sociedade de Geografia de Lisboa*'
+    first: '*Boletim da Sociedade de Geografia de Lisboa* (’A Lisszaboni Földrajzi Társaság Közlönye’)'
+  nl:
+    title: Boletim da Sociedade de Geografia de Lisboa
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Bulletin van het Aardrijkskundig Genootschap van Lissabon
+    running: '*Boletim da Sociedade de Geografia de Lisboa*'
+    first: '*Boletim da Sociedade de Geografia de Lisboa* (‘Bulletin van het Aardrijkskundig Genootschap van Lissabon’)'
+A Ilha da Madeira:
+  kind: periodical
+  author: null
+  date: '1878'
+  articles: null
+  aliases:
+  - Ilha da Madeira
+  form: keep_gloss
+  note: 'Count unreliable: the phrase is also the island''s name.'
+  en:
+    title: A Ilha da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Island of Madeira
+    running: '*A Ilha da Madeira*'
+    first: '*A Ilha da Madeira* (‘The Island of Madeira’)'
+  de:
+    title: A Ilha da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Insel Madeira
+    running: '*A Ilha da Madeira*'
+    first: '*A Ilha da Madeira* (‚Die Insel Madeira‘)'
+  fr:
+    title: A Ilha da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Île de Madère
+    running: '*A Ilha da Madeira*'
+    first: '*A Ilha da Madeira* (« L’Île de Madère »)'
+  it:
+    title: A Ilha da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Isola di Madera
+    running: «A Ilha da Madeira»
+    first: «A Ilha da Madeira» (‘L’Isola di Madera’)
+  hu:
+    title: A Ilha da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira Szigete
+    running: '*A Ilha da Madeira*'
+    first: '*A Ilha da Madeira* (’Madeira Szigete’)'
+  nl:
+    title: A Ilha da Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Eiland Madeira
+    running: '*A Ilha da Madeira*'
+    first: '*A Ilha da Madeira* (‘Het Eiland Madeira’)'
+A Academia:
+  kind: periodical
+  author: null
+  date: '1900'
+  articles: null
+  aliases:
+  - Academia (A)
+  - Academia (A
+  - Academia
+  form: keep_gloss
+  note: Count unreliable (common noun).
+  en:
+    title: A Academia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Academy
+    running: '*A Academia*'
+    first: '*A Academia* (‘The Academy’)'
+  de:
+    title: A Academia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Akademie
+    running: '*A Academia*'
+    first: '*A Academia* (‚Die Akademie‘)'
+  fr:
+    title: A Academia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Académie
+    running: '*A Academia*'
+    first: '*A Academia* (« L’Académie »)'
+  it:
+    title: A Academia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Accademia
+    running: «A Academia»
+    first: «A Academia» (‘L’Accademia’)
+  hu:
+    title: A Academia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Akadémia
+    running: '*A Academia*'
+    first: '*A Academia* (’Az Akadémia’)'
+  nl:
+    title: A Academia
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Academie
+    running: '*A Academia*'
+    first: '*A Academia* (‘De Academie’)'
+A Esperança:
+  kind: periodical
+  author: null
+  date: 1907; 1914; 1919
+  articles: null
+  aliases:
+  - Esperança (A)
+  - Esperança
+  form: keep_gloss
+  note: Count unreliable (common noun, personal name).
+  en:
+    title: A Esperança
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Hope
+    running: '*A Esperança*'
+    first: '*A Esperança* (‘Hope’)'
+  de:
+    title: A Esperança
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Hoffnung
+    running: '*A Esperança*'
+    first: '*A Esperança* (‚Die Hoffnung‘)'
+  fr:
+    title: A Esperança
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Espérance
+    running: '*A Esperança*'
+    first: '*A Esperança* (« L’Espérance »)'
+  it:
+    title: A Esperança
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Speranza
+    running: «A Esperança»
+    first: «A Esperança» (‘La Speranza’)
+  hu:
+    title: A Esperança
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Remény
+    running: '*A Esperança*'
+    first: '*A Esperança* (’A Remény’)'
+  nl:
+    title: A Esperança
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Hoop
+    running: '*A Esperança*'
+    first: '*A Esperança* (‘De Hoop’)'
+A Madeira:
+  kind: periodical
+  author: null
+  date: '1857'
+  articles: null
+  aliases:
+  - Madeira (A)
+  form: keep_gloss
+  note: Count unreliable (island name).
+  en:
+    title: A Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira
+    running: '*A Madeira*'
+    first: '*A Madeira* (‘Madeira’)'
+  de:
+    title: A Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira
+    running: '*A Madeira*'
+    first: '*A Madeira* (‚Madeira‘)'
+  fr:
+    title: A Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madère
+    running: '*A Madeira*'
+    first: '*A Madeira* (« Madère »)'
+  it:
+    title: A Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madera
+    running: «A Madeira»
+    first: «A Madeira» (‘Madera’)
+  hu:
+    title: A Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira
+    running: '*A Madeira*'
+    first: '*A Madeira* (’Madeira’)'
+  nl:
+    title: A Madeira
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Madeira
+    running: '*A Madeira*'
+    first: '*A Madeira* (‘Madeira’)'
+A Terra:
+  kind: periodical
+  author: null
+  date: '1922'
+  articles: null
+  aliases:
+  - Terra (A.)
+  - Terra
+  form: keep_gloss
+  note: Count unreliable (matches *Saudades da Terra*).
+  en:
+    title: A Terra
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Land
+    running: '*A Terra*'
+    first: '*A Terra* (‘The Land’)'
+  de:
+    title: A Terra
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Land
+    running: '*A Terra*'
+    first: '*A Terra* (‚Das Land‘)'
+  fr:
+    title: A Terra
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Terre
+    running: '*A Terra*'
+    first: '*A Terra* (« La Terre »)'
+  it:
+    title: A Terra
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Terra
+    running: «A Terra»
+    first: «A Terra» (‘La Terra’)
+  hu:
+    title: A Terra
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Föld
+    running: '*A Terra*'
+    first: '*A Terra* (’A Föld’)'
+  nl:
+    title: A Terra
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Land
+    running: '*A Terra*'
+    first: '*A Terra* (‘Het Land’)'
+A Cruz:
+  kind: periodical
+  author: null
+  date: '1901'
+  articles: null
+  aliases:
+  - Cruz (A)
+  form: keep_gloss
+  note: Count unreliable.
+  en:
+    title: A Cruz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Cross
+    running: '*A Cruz*'
+    first: '*A Cruz* (‘The Cross’)'
+  de:
+    title: A Cruz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Kreuz
+    running: '*A Cruz*'
+    first: '*A Cruz* (‚Das Kreuz‘)'
+  fr:
+    title: A Cruz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Croix
+    running: '*A Cruz*'
+    first: '*A Cruz* (« La Croix »)'
+  it:
+    title: A Cruz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Croce
+    running: «A Cruz»
+    first: «A Cruz» (‘La Croce’)
+  hu:
+    title: A Cruz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Kereszt
+    running: '*A Cruz*'
+    first: '*A Cruz* (’A Kereszt’)'
+  nl:
+    title: A Cruz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Kruis
+    running: '*A Cruz*'
+    first: '*A Cruz* (‘Het Kruis’)'
+A Escola:
+  kind: periodical
+  author: null
+  date: null
+  articles: null
+  aliases:
+  - Escola (A)
+  form: keep_gloss
+  note: Count unreliable.
+  en:
+    title: A Escola
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The School
+    running: '*A Escola*'
+    first: '*A Escola* (‘The School’)'
+  de:
+    title: A Escola
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Schule
+    running: '*A Escola*'
+    first: '*A Escola* (‚Die Schule‘)'
+  fr:
+    title: A Escola
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’École
+    running: '*A Escola*'
+    first: '*A Escola* (« L’École »)'
+  it:
+    title: A Escola
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Scuola
+    running: «A Escola»
+    first: «A Escola» (‘La Scuola’)
+  hu:
+    title: A Escola
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Iskola
+    running: '*A Escola*'
+    first: '*A Escola* (’Az Iskola’)'
+  nl:
+    title: A Escola
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De School
+    running: '*A Escola*'
+    first: '*A Escola* (‘De School’)'
+A Ordem:
+  kind: periodical
+  author: null
+  date: '1852'
+  articles: null
+  aliases:
+  - Ordem (A)
+  form: keep_gloss
+  note: Count unreliable.
+  en:
+    title: A Ordem
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Order
+    running: '*A Ordem*'
+    first: '*A Ordem* (‘Order’)'
+  de:
+    title: A Ordem
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Ordnung
+    running: '*A Ordem*'
+    first: '*A Ordem* (‚Die Ordnung‘)'
+  fr:
+    title: A Ordem
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Ordre
+    running: '*A Ordem*'
+    first: '*A Ordem* (« L’Ordre »)'
+  it:
+    title: A Ordem
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Ordine
+    running: «A Ordem»
+    first: «A Ordem» (‘L’Ordine’)
+  hu:
+    title: A Ordem
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Rend
+    running: '*A Ordem*'
+    first: '*A Ordem* (’A Rend’)'
+  nl:
+    title: A Ordem
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Orde
+    running: '*A Ordem*'
+    first: '*A Ordem* (‘De Orde’)'
+O Atlântico:
+  kind: periodical
+  author: null
+  date: '1918'
+  articles: null
+  aliases:
+  - Atlantico (O)
+  - O Atlantico
+  form: keep_gloss
+  note: Count unreliable.
+  en:
+    title: O Atlântico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: The Atlantic
+    running: '*O Atlântico*'
+    first: '*O Atlântico* (‘The Atlantic’)'
+  de:
+    title: O Atlântico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Der Atlantik
+    running: '*O Atlântico*'
+    first: '*O Atlântico* (‚Der Atlantik‘)'
+  fr:
+    title: O Atlântico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Atlantique
+    running: '*O Atlântico*'
+    first: '*O Atlântico* (« L’Atlantique »)'
+  it:
+    title: O Atlântico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: L’Atlantico
+    running: «O Atlântico»
+    first: «O Atlântico» (‘L’Atlantico’)
+  hu:
+    title: O Atlântico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Atlanti
+    running: '*O Atlântico*'
+    first: '*O Atlântico* (’Az Atlanti’)'
+  nl:
+    title: O Atlântico
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Atlantische
+    running: '*O Atlântico*'
+    first: '*O Atlântico* (‘De Atlantische’)'
+A Luz:
+  kind: periodical
+  author: null
+  date: '1919'
+  articles: null
+  aliases:
+  - Luz (A)
+  form: keep_gloss
+  note: Count unreliable.
+  en:
+    title: A Luz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Light
+    running: '*A Luz*'
+    first: '*A Luz* (‘Light’)'
+  de:
+    title: A Luz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Licht
+    running: '*A Luz*'
+    first: '*A Luz* (‚Das Licht‘)'
+  fr:
+    title: A Luz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Lumière
+    running: '*A Luz*'
+    first: '*A Luz* (« La Lumière »)'
+  it:
+    title: A Luz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Luce
+    running: «A Luz»
+    first: «A Luz» (‘La Luce’)
+  hu:
+    title: A Luz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: A Fény
+    running: '*A Luz*'
+    first: '*A Luz* (’A Fény’)'
+  nl:
+    title: A Luz
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Licht
+    running: '*A Luz*'
+    first: '*A Luz* (‘Het Licht’)'
+A Justiça:
+  kind: periodical
+  author: null
+  date: '1858'
+  articles: null
+  aliases:
+  - Justiça (A)
+  form: keep_gloss
+  note: Count unreliable.
+  en:
+    title: A Justiça
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Justice
+    running: '*A Justiça*'
+    first: '*A Justiça* (‘Justice’)'
+  de:
+    title: A Justiça
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Die Gerechtigkeit
+    running: '*A Justiça*'
+    first: '*A Justiça* (‚Die Gerechtigkeit‘)'
+  fr:
+    title: A Justiça
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Justice
+    running: '*A Justiça*'
+    first: '*A Justiça* (« La Justice »)'
+  it:
+    title: A Justiça
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Giustizia
+    running: «A Justiça»
+    first: «A Justiça» (‘La Giustizia’)
+  hu:
+    title: A Justiça
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Igazságosság
+    running: '*A Justiça*'
+    first: '*A Justiça* (’Az Igazságosság’)'
+  nl:
+    title: A Justiça
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: De Gerechtigheid
+    running: '*A Justiça*'
+    first: '*A Justiça* (‘De Gerechtigheid’)'
+A Vida:
+  kind: periodical
+  author: null
+  date: null
+  articles: null
+  aliases:
+  - Vida (A)
+  form: keep_gloss
+  note: Count unreliable.
+  en:
+    title: A Vida
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Life
+    running: '*A Vida*'
+    first: '*A Vida* (‘Life’)'
+  de:
+    title: A Vida
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Das Leben
+    running: '*A Vida*'
+    first: '*A Vida* (‚Das Leben‘)'
+  fr:
+    title: A Vida
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Vie
+    running: '*A Vida*'
+    first: '*A Vida* (« La Vie »)'
+  it:
+    title: A Vida
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: La Vita
+    running: «A Vida»
+    first: «A Vida» (‘La Vita’)
+  hu:
+    title: A Vida
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Az Élet
+    running: '*A Vida*'
+    first: '*A Vida* (’Az Élet’)'
+  nl:
+    title: A Vida
+    established: false
+    source: null
+    kind: periodical
+    author: null
+    gloss: Het Leven
+    running: '*A Vida*'
+    first: '*A Vida* (‘Het Leven’)'

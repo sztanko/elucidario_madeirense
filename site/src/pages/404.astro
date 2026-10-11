@@ -1,0 +1,28 @@
+---
+// Not found. Served by Caddy for any missing path, so it cannot know the language: offer all of them.
+import Base from '../layouts/Base.astro';
+import { languages, meta } from '../lib/data';
+import { t } from '../i18n/ui';
+import * as u from '../lib/urls';
+const names = Object.fromEntries(meta().languages.map((l) => [l.code, l.name]));
+---
+<Base lang="en" title="Not found — Elucidário Madeirense" description="Page not found" multilingual={false} kind="index">
+  <section class="nf">
+    <p class="nf-no" aria-hidden="true">404</p>
+    <h1>This page is not in the Elucidário</h1>
+    <p class="nf-pt" lang="pt">Esta página não consta do Elucidário.</p>
+    <ul>
+      {languages().map((l) => <li><a href={u.home(l)} hreflang={l}>{names[l] ?? l} — {t(l, 'back_home')}</a></li>)}
+    </ul>
+  </section>
+</Base>
+<style>
+  .nf { max-width: var(--measure); margin: 0 auto; padding: var(--s-8) var(--gutter); }
+  .nf-no { font-family: var(--font-display); font-weight: 900; font-size: var(--fs-poster); line-height: .8; color: var(--person); margin: 0; }
+  .nf h1 { font-family: var(--font-display); text-transform: uppercase; font-size: var(--fs-h2); margin: var(--s-4) 0 0; }
+  .nf-pt { font-family: var(--font-didone); font-style: italic; color: var(--person-ink); margin: .3rem 0 var(--s-6); }
+  .nf ul { list-style: none; padding: 0; margin: 0; border-top: 2px solid var(--ink); }
+  .nf li { border-bottom: 1px solid var(--line-faint); }
+  .nf a { display: block; padding: .7rem 0; color: var(--ink); text-decoration: none; font-family: var(--font-label); letter-spacing: var(--tracking-label, .2em); text-transform: uppercase; font-size: var(--fs-label); }
+  .nf a:hover { color: var(--person-ink); }
+</style>

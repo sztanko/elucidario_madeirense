@@ -1,0 +1,18 @@
+{
+  "articles_enriched": 3861,
+  "links": 10628,
+  "links_resolved": 7567,
+  "links_ambiguous": 390,
+  "links_unresolved": 2671,
+  "links_to_entity": 957,
+  "person_mentions": 10278,
+  "persons": 4450,
+  "persons_with_article": 1109,
+  "persons_uncertain": 161,
+  "place_mentions": 12382,
+  "places": 3097,
+  "places_with_article": 946,
+  "events": 8286,
+  "events_major": 1564,
+  "terms": 1960
+}

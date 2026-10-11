@@ -1,0 +1,31 @@
+---
+/**
+ * Icon: tiny line-icon set drawn on a 24-unit grid, 1.5 stroke, square caps (woodcut-ish, no rounding).
+ * Props:
+ *   name: 'search'|'history'|'print'|'menu'|'close'|'arrow-left'|'arrow-right'|'arrow-up'|'arrow-down'|'chevron-down'
+ *         |'place'|'person'|'date'|'article'|'map'|'columns'|'rows'|'globe'|'external'|'trash'|'see'
+ *   size?: number (px, default 20)
+ *   title?: string — if given the icon is announced (role="img"), otherwise aria-hidden.
+ *   class?: string
+ * Rendered as <use> of the shared sprite /icons.svg (icons-data.ts), not inline paths.
+ * Colour: currentColor. Role icons (place/person/date/article) are filled glyphs meant to sit next to text.
+ */
+import { ICON_PATHS, ICON_VERSION } from './icons-data';
+import { BASE } from '../../lib/urls';
+interface Props { name: string; size?: number; title?: string; class?: string }
+const { name, size = 20, title, class: cls } = Astro.props;
+const href = `${BASE}/icons.svg?v=${ICON_VERSION}#${ICON_PATHS[name] ? name : 'article'}`;
+---
+<svg
+  class:list={['em-icon', cls]}
+  width={size}
+  height={size}
+  viewBox="0 0 24 24"
+  role={title ? 'img' : undefined}
+  aria-label={title}
+  aria-hidden={title ? undefined : 'true'}
+  focusable="false"
+><use href={href} /></svg>
+<style>
+  /* stroke/fill defaults live in base.css (.em-icon) so the markup stays a bare <svg><use/></svg> */
+</style>

@@ -1,0 +1,15 @@
+{
+  "total": 3097,
+  "osm": 1245,
+  "nominatim": 1016,
+  "ambiguous": 130,
+  "unresolved": 836,
+  "by_precision": {
+    "exact": 1015,
+    "city/country": 590,
+    "approximate": 656,
+    "municipality-centroid": 288,
+    "parish-centroid": 360,
+    "unknown": 188
+  }
+}

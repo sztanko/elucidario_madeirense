@@ -1,0 +1,167 @@
+{
+ "uk_opus_low-uk-00034": [
+  "termbase 'vigia' -> 'сторожовий пост (m.); для левад: доглядач левади' not used",
+  "termbase 'capitão do porto' -> 'капітан порту (m.)' not used"
+ ],
+ "uk_opus_low-uk-00024": [
+  "termbase 'sítio' -> 'місцевість (f.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used"
+ ],
+ "uk_opus_low-uk-00006": [],
+ "uk_opus_low-uk-00010": [
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'donataria' -> 'донатарна капітанія (f.)' not used",
+  "termbase 'praças' -> 'рядові (pl.)' not used",
+  "termbase 'jazigo' -> 'родинний склеп (m.)' not used"
+ ],
+ "uk_opus_low-uk-00033": [],
+ "uk_opus_low-uk-00030": [
+  "length ratio 0.79 in b002",
+  "length ratio 0.76 in b003"
+ ],
+ "uk_opus_low-uk-00036": [
+  "missing block b001",
+  "missing block b002",
+  "missing block b003",
+  "termbase 'vereações' -> 'засідання ради' not used",
+  "termbase 'imposição' -> 'муніципальний збір (m.)' not used"
+ ],
+ "uk_opus_low-uk-00019": [],
+ "uk_opus_low-uk-00027": [],
+ "uk_opus_low-uk-00011": [
+  "termbase 'sítio' -> 'місцевість (f.)' not used",
+  "termbase 'donataria' -> 'донатарна капітанія (f.)' not used",
+  "termbase 'doação' -> 'пожалування' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'grande do reino' -> 'гранд королівства' not used"
+ ],
+ "uk_opus_low-uk-00009": [],
+ "uk_opus_low-uk-00037": [
+  "termbase 'cento' -> 'сенту' not used"
+ ],
+ "uk_opus_low-uk-00015": [],
+ "uk_opus_low-uk-00000": [
+  "termbase 'pároco' -> 'парафіяльний священик (m.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used",
+  "termbase 'prelado' -> 'прелат (m.)' not used",
+  "termbase 'invocação' -> 'посвята' not used"
+ ],
+ "uk_opus_low-uk-00018": [],
+ "uk_opus_low-uk-00002": [
+  "termbase 'canteiro' -> 'клумба (сад); кантейру (вино: метод кантейру)' not used"
+ ],
+ "uk_opus_low-uk-00040": [
+  "termbase 'levada' -> 'левада (f.)' not used"
+ ],
+ "uk_opus_low-uk-00012": [
+  "number 5.º -> '5' not found in b024",
+  "termbase 'carta régia' -> 'королівська грамота (f.)' not used",
+  "termbase 'escudo' -> 'ескудо (n., indecl.)' not used",
+  "termbase 'linha' -> 'лінья (f.)' not used"
+ ],
+ "uk_opus_low-uk-00022": [
+  "termbase 'devassa' -> 'судове розслідування (n.)' not used"
+ ],
+ "uk_opus_low-uk-00004": [
+  "length ratio 0.73 in b004",
+  "termbase 'quinto' -> 'п'ятина (f.)' not used",
+  "termbase 'mercê' -> 'королівська милість (пожалування)' not used"
+ ],
+ "uk_opus_low-uk-00039": [
+  "length ratio 2.35 in b003",
+  "termbase 'pároco' -> 'парафіяльний священик (m.)' not used",
+  "termbase 'invocação' -> 'посвята' not used"
+ ],
+ "uk_opus_low-uk-00029": [
+  "termbase 'capela' -> 'побожна фундація (f.)' not used"
+ ],
+ "uk_opus_low-uk-00035": [
+  "termbase 'casta' -> 'сорт (m.); для винограду: сорт винограду' not used"
+ ],
+ "uk_opus_low-uk-00007": [
+  "termbase 'carta régia' -> 'королівська грамота (f.)' not used",
+  "termbase 'padrão' -> 'пам'ятний стовп' not used"
+ ],
+ "uk_opus_low-uk-00017": [],
+ "uk_opus_low-uk-00016": [],
+ "uk_opus_low-uk-00020": [],
+ "uk_opus_low-uk-00025": [
+  "termbase 'leste' -> 'лешті (m., indecl.)' not used"
+ ],
+ "uk_opus_low-uk-00005": [
+  "length ratio 0.74 in b012",
+  "missing block b013",
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
+ ],
+ "uk_opus_low-uk-00001": [
+  "termbase 'sítio' -> 'місцевість (f.)' not used",
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
+ ],
+ "uk_opus_low-uk-00031": [
+  "length ratio 0.10 in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 17.000 -> '17\\xa0000' not found in b004",
+  "number 18.000 -> '18\\xa0000' not found in b004",
+  "number 10.000 -> '10\\xa0000' not found in b004",
+  "number 1.000 -> '1000' not found in b004",
+  "number 1.800 -> '1800' not found in b004",
+  "number 3.500 -> '3500' not found in b004",
+  "number 2.000 -> '2000' not found in b004",
+  "number 63.300 -> '63\\xa0300' not found in b004",
+  "number 630.300 -> '630\\xa0300' not found in b004",
+  "missing block b009",
+  "length ratio 0.24 in b011",
+  "number 288.000 -> '288\\xa0000' not found in b011",
+  "number 461.600 -> '461\\xa0600' not found in b011",
+  "number 500.000 -> '500\\xa0000' not found in b011",
+  "missing block b012",
+  "termbase 'mosto' -> 'сусло (n.; виноградне сусло)' not used",
+  "termbase 'moradia' -> 'оселя (f.)' not used"
+ ],
+ "uk_opus_low-uk-00028": [
+  "termbase 'lazareto' -> 'карантинний лазарет (m.)' not used"
+ ],
+ "uk_opus_low-uk-00038": [
+  "termbase 'termo' -> 'терму (m., indecl.)' not used"
+ ],
+ "uk_opus_low-uk-00026": [
+  "length ratio 1.68 in b000"
+ ],
+ "uk_opus_low-uk-00041": [
+  "length ratio 1.51 in b000"
+ ],
+ "uk_opus_low-uk-00013": [
+  "termbase 'carta régia' -> 'королівська грамота (f.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used"
+ ],
+ "uk_opus_low-uk-00008": [
+  "missing block b007",
+  "missing block b008",
+  "termbase 'solar' -> 'родовий дім (m.)' not used",
+  "termbase 'apelido' -> 'прізвище (n.)' not used",
+  "termbase 'logar' -> 'лугар (m.)' not used",
+  "termbase 'reino' -> 'королівство' not used"
+ ],
+ "uk_opus_low-uk-00021": [],
+ "uk_opus_low-uk-00032": [
+  "termbase 'sítio' -> 'місцевість (f.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'dotação' -> 'вклад на утримання' not used"
+ ],
+ "uk_opus_low-uk-00014": [
+  "length ratio 0.78 in b034",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'oitava' -> 'ойтава (f.)' not used"
+ ],
+ "uk_opus_low-uk-00003": [
+  "termbase 'comarca' -> 'судовий округ (m.)' not used",
+  "termbase 'orago' -> 'святий покровитель (m.)' not used",
+  "termbase 'provedor' -> 'голова (Мізерикордії); інтендант (скарбниці, митниці, посада до 1835)' not used",
+  "termbase 'vigário geral' -> 'генеральний вікарій (m.)' not used",
+  "termbase 'capela' -> 'побожна фундація (f.)' not used",
+  "termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used",
+  "termbase 'altar privilegiado' -> 'привілейований вівтар' not used"
+ ],
+ "uk_opus_low-uk-00023": []
+}

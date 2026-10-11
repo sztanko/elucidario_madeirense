@@ -1,0 +1,11 @@
+{
+ "lang": "uk",
+ "part": "body",
+ "model": "gpt-5.6-sol",
+ "requests": 2056,
+ "system_tokens": 42747,
+ "content_tokens": 6267731,
+ "est_output_tokens": 3196542,
+ "est_usd": 62.08,
+ "est_gbp": 46.68
+}

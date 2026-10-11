@@ -1,0 +1,43 @@
+---
+/**
+ * EntityLink: link to a person / place / year / article, colour-coded by role, with an optional tiny icon.
+ * Props:
+ *   kind: 'person' | 'place' | 'date' | 'year' | 'article'
+ *   id: string | number         person slug, place slug, year (number or EDTF string → year), article id
+ *   lang: string
+ *   label?: string              link text (or use the default slot)
+ *   icon?: boolean              show the role glyph before the text (default false)
+ *   variant?: 'inline' | 'name' | 'caps'
+ *                               inline = underlined in running text (default)
+ *                               name   = no underline, role colour, display weight (lists, "people mentioned")
+ *                               caps   = condensed uppercase (mockup: "JOÃO GONÇALVES ZARCO")
+ *   role?: 'place'|'person'|'date'|'ink'  override colour (articles default to ink)
+ *   href?: string               override URL
+ *   title?: string, lang attribute via textLang?: string (when the label is in another language)
+ *   class?: string
+ * Slots: default = label; "icon" = custom icon (e.g. <Plate variant="icon" …/>) replacing the glyph.
+ */
+import * as u from '../../lib/urls';
+import Icon from './Icon.astro';
+import { yearOf } from './format';
+import { persons } from '../../lib/data';
+interface Props { kind: 'person' | 'place' | 'date' | 'year' | 'article'; id: string | number; lang: string; label?: string; icon?: boolean; variant?: 'inline' | 'name' | 'caps'; role?: 'place' | 'person' | 'date' | 'ink'; href?: string; title?: string; textLang?: string; class?: string }
+const { kind, id, lang, label, icon = false, variant = 'inline', role, href, title, textLang, class: cls } = Astro.props;
+const y = kind === 'date' || kind === 'year' ? (typeof id === 'number' ? id : yearOf(String(id))) : null;
+const url = href ?? (kind === 'person' ? u.person(lang, String(id), persons(lang)[String(id)]?.n ?? label ?? '') : kind === 'place' ? u.place(lang, String(id)) : kind === 'article' ? u.article(lang, String(id)) : y !== null ? u.year(lang, y) : undefined);
+const r = role ?? (kind === 'person' ? 'person' : kind === 'place' ? 'place' : kind === 'article' ? 'ink' : 'date');
+const glyph = kind === 'year' ? 'date' : kind;
+const hasIconSlot = Astro.slots.has('icon');
+---
+<a href={url} class:list={['em-elink', `em-elink--${variant}`, `em-role-${r}`, cls]} data-kind={kind} title={title} lang={textLang}>{(icon || hasIconSlot) && <span class="em-elink__icon" aria-hidden="true">{hasIconSlot ? <slot name="icon" /> : <Icon name={glyph} size={12} />}</span>}<span class="em-elink__t">{label}<slot /></span></a>
+<style>
+  .em-elink { color: var(--role-ink); text-decoration-color: color-mix(in srgb, var(--role) 55%, transparent); }
+  .em-elink:hover { color: var(--ink); text-decoration-color: var(--role); }
+  .em-elink__icon { display: inline-flex; vertical-align: -.05em; margin-right: .3em; color: var(--role); }
+  .em-elink--name, .em-elink--caps { text-decoration: none; }
+  .em-elink--name .em-elink__t { font-weight: 560; }
+  .em-elink--name:hover .em-elink__t, .em-elink--caps:hover .em-elink__t { text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: .18em; }
+  .em-elink--caps { font-family: var(--font-display); font-weight: 780; text-transform: uppercase; letter-spacing: .01em; line-height: 1; }
+  .em-elink.em-role-ink { color: var(--ink); }
+  .em-elink.em-role-ink:hover { color: var(--person-ink); }
+</style>

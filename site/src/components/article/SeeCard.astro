@@ -1,0 +1,35 @@
+---
+/**
+ * SeeCard: "See …" card for xref blocks and cross-reference entries. Lists the resolved target articles.
+ * Props: lang, ids: string[] (target article ids), text?: string (the original "See X." line, rendered as HTML),
+ *        size?: 'inline' | 'hero'
+ */
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+import { roleOf } from '../../lib/data';
+import { look, typeLabel } from './model';
+import { pad4 } from '../ui/format';
+import Icon from '../ui/Icon.astro';
+interface Props { lang: string; ids: string[]; text?: string; size?: 'inline' | 'hero' }
+const { lang, ids, text, size = 'inline' } = Astro.props;
+const L = look(lang);
+const targets = ids.map((id) => ({ id, ...L.get(id)! })).filter((x) => x.hw);
+const absHtml = (s: string | null) => (s || '').replace(/[&<>]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;' } as any)[c]).replace(/\*([^*]+)\*/g, '<em>$1</em>');
+---
+<aside class:list={['ea-see', `ea-see--${size}`]} aria-label={t(lang, 'see')}>
+  {text && <p class="ea-see__text"><Icon name="see" size={16} /> <span set:html={text} /></p>}
+  {targets.length > 0 && (
+    <ul class="ea-see__list" role="list">
+      {targets.map((x) => (
+        <li class:list={['ea-see__item', `em-role-${roleOf(x.type)}`]}>
+          <a href={u.article(lang, x.id)} class="ea-see__a">
+            <span class="ea-see__k em-label">{t(lang, 'see')} · Nº {pad4(x.no)}{typeLabel(lang, x.type) && <> · <span class="ea-see__type">{typeLabel(lang, x.type)}</span></>}</span>
+            <span class="ea-see__hw">{x.hw}</span>
+            {size === 'hero' && x.abs && <span class="ea-see__abs" lang={x.ml}><Fragment set:html={absHtml(x.abs)} /></span>}
+            <span class="ea-see__arrow" aria-hidden="true"><Icon name="arrow-right" size={22} /></span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  )}
+</aside>

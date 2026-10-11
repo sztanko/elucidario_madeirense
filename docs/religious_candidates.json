@@ -1,0 +1,1266 @@
+[
+{
+"pt": "Santa Cruz",
+"count": 317
+},
+{
+"pt": "Santa Maria",
+"count": 172
+},
+{
+"pt": "Santa Luzia",
+"count": 153
+},
+{
+"pt": "S. Vicente",
+"count": 141
+},
+{
+"pt": "S. Lourenço",
+"count": 136
+},
+{
+"pt": "Santa Clara",
+"count": 112
+},
+{
+"pt": "Santo Antonio",
+"count": 106
+},
+{
+"pt": "São Vicente",
+"count": 103
+},
+{
+"pt": "S. Francisco",
+"count": 98
+},
+{
+"pt": "São Lourenço",
+"count": 97
+},
+{
+"pt": "S. João",
+"count": 96
+},
+{
+"pt": "Santo António",
+"count": 93
+},
+{
+"pt": "S. Jorge",
+"count": 92
+},
+{
+"pt": "São Jorge",
+"count": 85
+},
+{
+"pt": "S. Pedro",
+"count": 79
+},
+{
+"pt": "São Pedro",
+"count": 79
+},
+{
+"pt": "Santa Catarina",
+"count": 71
+},
+{
+"pt": "São João",
+"count": 64
+},
+{
+"pt": "S. Martinho",
+"count": 57
+},
+{
+"pt": "São Tiago",
+"count": 56
+},
+{
+"pt": "S. Tiago",
+"count": 54
+},
+{
+"pt": "São Martinho",
+"count": 50
+},
+{
+"pt": "S. Roque",
+"count": 47
+},
+{
+"pt": "Santa Casa",
+"count": 47
+},
+{
+"pt": "Nossa Senhora da Piedade",
+"count": 43
+},
+{
+"pt": "Nossa Senhora do Monte",
+"count": 43
+},
+{
+"pt": "São Roque",
+"count": 39
+},
+{
+"pt": "S. Gonçalo",
+"count": 39
+},
+{
+"pt": "Nossa Senhora do Calhau",
+"count": 38
+},
+{
+"pt": "S. Miguel",
+"count": 38
+},
+{
+"pt": "S. Paulo",
+"count": 37
+},
+{
+"pt": "Santa Casa da Misericórdia",
+"count": 36
+},
+{
+"pt": "São Paulo",
+"count": 36
+},
+{
+"pt": "Nossa Senhora da Conceição",
+"count": 34
+},
+{
+"pt": "Santa Isabel",
+"count": 34
+},
+{
+"pt": "São Gonçalo",
+"count": 30
+},
+{
+"pt": "Espírito Santo",
+"count": 29
+},
+{
+"pt": "Santo Amaro",
+"count": 29
+},
+{
+"pt": "S. Lazaro",
+"count": 28
+},
+{
+"pt": "São Francisco",
+"count": 26
+},
+{
+"pt": "São Sebastião",
+"count": 25
+},
+{
+"pt": "S. Sebastião",
+"count": 25
+},
+{
+"pt": "Nossa Senhora da Graça",
+"count": 21
+},
+{
+"pt": "Santa Sé",
+"count": 18
+},
+{
+"pt": "Santa Helena",
+"count": 18
+},
+{
+"pt": "Santo António da Serra",
+"count": 18
+},
+{
+"pt": "São João de Deus",
+"count": 18
+},
+{
+"pt": "S. José",
+"count": 17
+},
+{
+"pt": "São Miguel",
+"count": 17
+},
+{
+"pt": "Santo Antonio da Serra",
+"count": 16
+},
+{
+"pt": "Senhor dos Milagres",
+"count": 16
+},
+{
+"pt": "Nossa Senhora do Amparo",
+"count": 14
+},
+{
+"pt": "Santíssimo Sacramento",
+"count": 14
+},
+{
+"pt": "Senhor Jesus",
+"count": 13
+},
+{
+"pt": "Sagrado Coração de Jesus",
+"count": 12
+},
+{
+"pt": "Santa Quiteria",
+"count": 12
+},
+{
+"pt": "São José",
+"count": 12
+},
+{
+"pt": "Nossa Senhora da Estrela",
+"count": 11
+},
+{
+"pt": "Nossa Senhora do Rosário",
+"count": 11
+},
+{
+"pt": "Nossa Senhora do Livramento",
+"count": 10
+},
+{
+"pt": "Santo Antonio do Funchal",
+"count": 10
+},
+{
+"pt": "Santo António do Funchal",
+"count": 10
+},
+{
+"pt": "S. Tomé",
+"count": 10
+},
+{
+"pt": "Santa Casa da Misericordia",
+"count": 10
+},
+{
+"pt": "Nossa Senhora da Penha de França",
+"count": 10
+},
+{
+"pt": "São Bernardino",
+"count": 10
+},
+{
+"pt": "Santíssima Virgem",
+"count": 10
+},
+{
+"pt": "Nossa Senhora da Consolação",
+"count": 9
+},
+{
+"pt": "Santo Servo de Deus",
+"count": 9
+},
+{
+"pt": "S. Roque do Faial",
+"count": 9
+},
+{
+"pt": "Nossa Senhora das Preces",
+"count": 9
+},
+{
+"pt": "São Bartolomeu",
+"count": 9
+},
+{
+"pt": "São Filipe",
+"count": 9
+},
+{
+"pt": "S. Bartolomeu",
+"count": 8
+},
+{
+"pt": "S. Antonio",
+"count": 8
+},
+{
+"pt": "Nossa Senhora da Boa Morte",
+"count": 8
+},
+{
+"pt": "Nossa Senhora do Bom Sucesso",
+"count": 8
+},
+{
+"pt": "Nossa Senhora da Incarnação",
+"count": 8
+},
+{
+"pt": "Santa Catharina",
+"count": 8
+},
+{
+"pt": "Santo Oficio",
+"count": 8
+},
+{
+"pt": "Santo Espírito",
+"count": 8
+},
+{
+"pt": "Nossa Senhora da Conceição do Ilhéu",
+"count": 8
+},
+{
+"pt": "São Gil",
+"count": 8
+},
+{
+"pt": "Nossa Senhora dos Remédios",
+"count": 8
+},
+{
+"pt": "S. Marítimo",
+"count": 8
+},
+{
+"pt": "Nossa Senhora das Angústias",
+"count": 7
+},
+{
+"pt": "S. Bernardino",
+"count": 7
+},
+{
+"pt": "Santo Antão",
+"count": 7
+},
+{
+"pt": "São Roque do Faial",
+"count": 7
+},
+{
+"pt": "S. Luiz",
+"count": 7
+},
+{
+"pt": "São João de Latrão",
+"count": 7
+},
+{
+"pt": "São Lazaro",
+"count": 7
+},
+{
+"pt": "Nossa Senhora do Faial",
+"count": 6
+},
+{
+"pt": "Nossa Senhora das Mercês",
+"count": 6
+},
+{
+"pt": "S. Bento",
+"count": 6
+},
+{
+"pt": "São Braz",
+"count": 6
+},
+{
+"pt": "Nossa Senhora da Nazaré",
+"count": 6
+},
+{
+"pt": "Nossa Senhora da Luz",
+"count": 6
+},
+{
+"pt": "Nossa Senhora da Vida",
+"count": 6
+},
+{
+"pt": "Santo André",
+"count": 6
+},
+{
+"pt": "S. Vicente de Paulo",
+"count": 6
+},
+{
+"pt": "Nossa Senhora das Neves",
+"count": 6
+},
+{
+"pt": "Nossa Senhora da Ajuda",
+"count": 6
+},
+{
+"pt": "Nossa Senhora das Dores",
+"count": 6
+},
+{
+"pt": "Nossa Senhora do Socorro",
+"count": 6
+},
+{
+"pt": "Nossa Senhora dos Prazeres",
+"count": 6
+},
+{
+"pt": "Nossa Senhora da Quietação",
+"count": 5
+},
+{
+"pt": "São Roque do Funchal",
+"count": 5
+},
+{
+"pt": "Nossa Senhora dos Anjos",
+"count": 5
+},
+{
+"pt": "Nossa Senhora da Apresentação",
+"count": 5
+},
+{
+"pt": "Nossa Senhora das Brotas",
+"count": 5
+},
+{
+"pt": "Nossa Senhora da Boa Hora",
+"count": 5
+},
+{
+"pt": "Nossa Senhora de Belém",
+"count": 5
+},
+{
+"pt": "Nossa Senhora do Carmo",
+"count": 5
+},
+{
+"pt": "Senhor dos Passos",
+"count": 5
+},
+{
+"pt": "São Bento",
+"count": 5
+},
+{
+"pt": "Nossa Senhora da Alegria",
+"count": 4
+},
+{
+"pt": "Nossa Senhora do Loreto",
+"count": 4
+},
+{
+"pt": "S. Cristovão",
+"count": 4
+},
+{
+"pt": "S. Filipe",
+"count": 4
+},
+{
+"pt": "Nossa Senhora do Desterro",
+"count": 4
+},
+{
+"pt": "Nossa Senhora da Soledade",
+"count": 4
+},
+{
+"pt": "Nossa Senhora da Natividade",
+"count": 4
+},
+{
+"pt": "S. Julião da Barra",
+"count": 4
+},
+{
+"pt": "S. João de Deus",
+"count": 4
+},
+{
+"pt": "Nossa Senhora da Paz",
+"count": 4
+},
+{
+"pt": "Nossa Senhora da Esperança",
+"count": 4
+},
+{
+"pt": "Nossa Senhora de Guadalupe",
+"count": 4
+},
+{
+"pt": "S. Clemente",
+"count": 3
+},
+{
+"pt": "S. João da Ribeira",
+"count": 3
+},
+{
+"pt": "S. Francisco das Furnas",
+"count": 3
+},
+{
+"pt": "São Luiz",
+"count": 3
+},
+{
+"pt": "S. António",
+"count": 3
+},
+{
+"pt": "Santa Clara do Funchal",
+"count": 3
+},
+{
+"pt": "Santa Teresa",
+"count": 3
+},
+{
+"pt": "Nossa Senhora da Vitoria",
+"count": 3
+},
+{
+"pt": "Senhora da Conceição",
+"count": 3
+},
+{
+"pt": "Nossa Senhora do Pópulo",
+"count": 3
+},
+{
+"pt": "Santa Quitéria",
+"count": 3
+},
+{
+"pt": "São Caetano",
+"count": 3
+},
+{
+"pt": "São Cristóvão",
+"count": 3
+},
+{
+"pt": "Nossa Senhora das Maravilhas",
+"count": 3
+},
+{
+"pt": "Nossa Senhora dos Milagres",
+"count": 3
+},
+{
+"pt": "S. Nicolau",
+"count": 3
+},
+{
+"pt": "Nossa Senhora da Salvação",
+"count": 3
+},
+{
+"pt": "Nossa Senhora das Virtudes",
+"count": 3
+},
+{
+"pt": "São Luís",
+"count": 3
+},
+{
+"pt": "Santa Barbara",
+"count": 3
+},
+{
+"pt": "São Cândido",
+"count": 3
+},
+{
+"pt": "Santa Cruz de Tenerife",
+"count": 3
+},
+{
+"pt": "São Fernando",
+"count": 3
+},
+{
+"pt": "São Carlos",
+"count": 3
+},
+{
+"pt": "S. Maritimo",
+"count": 3
+},
+{
+"pt": "Santo Padroeiro",
+"count": 3
+},
+{
+"pt": "S. Magestade",
+"count": 2
+},
+{
+"pt": "S. Luzia",
+"count": 2
+},
+{
+"pt": "S. Braz",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Cadeira",
+"count": 2
+},
+{
+"pt": "Nossa Senhora das Vitorias",
+"count": 2
+},
+{
+"pt": "São Cristovão",
+"count": 2
+},
+{
+"pt": "São Francisco de Salles",
+"count": 2
+},
+{
+"pt": "S. Pedro de Alcantara",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Rosario",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Gloria",
+"count": 2
+},
+{
+"pt": "S. Fischer",
+"count": 2
+},
+{
+"pt": "S. Paulo de Loanda",
+"count": 2
+},
+{
+"pt": "Santo Espirito",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Monte e S",
+"count": 2
+},
+{
+"pt": "S. Pontif",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Porciuncula",
+"count": 2
+},
+{
+"pt": "S. Bernardino de Sena",
+"count": 2
+},
+{
+"pt": "S. Francisco do Funchal",
+"count": 2
+},
+{
+"pt": "Santo Aleixo",
+"count": 2
+},
+{
+"pt": "S. Pontífice",
+"count": 2
+},
+{
+"pt": "S. João do Pico",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Monte do Carmo",
+"count": 2
+},
+{
+"pt": "Nossa Senhora de Cima",
+"count": 2
+},
+{
+"pt": "S. João de Latrão",
+"count": 2
+},
+{
+"pt": "São Tomé",
+"count": 2
+},
+{
+"pt": "Santo Elói",
+"count": 2
+},
+{
+"pt": "Senhora da Luz",
+"count": 2
+},
+{
+"pt": "Santo Antonio da Ilha",
+"count": 2
+},
+{
+"pt": "S. Paulo de Luanda",
+"count": 2
+},
+{
+"pt": "Santo António da Ilha",
+"count": 2
+},
+{
+"pt": "São Fiel",
+"count": 2
+},
+{
+"pt": "São Vicente de Paulo",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Livramento e que",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Anunciação",
+"count": 2
+},
+{
+"pt": "Santo António dos Milagres",
+"count": 2
+},
+{
+"pt": "Santa Ana",
+"count": 2
+},
+{
+"pt": "S. Joaquim",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Boa Nova",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Boa Viagem",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Candelária",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Fé",
+"count": 2
+},
+{
+"pt": "Nossa Senhora de Jesus",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Monserrate",
+"count": 2
+},
+{
+"pt": "Senhora do Monte",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Pena",
+"count": 2
+},
+{
+"pt": "Senhora da Penha",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Pilar",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Saúde",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Terço",
+"count": 2
+},
+{
+"pt": "Nossa Senhora dos Varadouros",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Vitória",
+"count": 2
+},
+{
+"pt": "Santa Catarina de Alexandria",
+"count": 2
+},
+{
+"pt": "Senhora da Soledade",
+"count": 2
+},
+{
+"pt": "Santa Cruzada",
+"count": 2
+},
+{
+"pt": "São Pedro do Sul",
+"count": 2
+},
+{
+"pt": "Santa Brígida",
+"count": 2
+},
+{
+"pt": "Santa Maria de Lisboa",
+"count": 2
+},
+{
+"pt": "Nossa Senhora do Populo",
+"count": 2
+},
+{
+"pt": "S. Francisco de Borja",
+"count": 2
+},
+{
+"pt": "São João da Ribeira",
+"count": 2
+},
+{
+"pt": "São Lázaro",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Conceição de Vila Viçosa",
+"count": 2
+},
+{
+"pt": "S. Domingos",
+"count": 2
+},
+{
+"pt": "S. Vicente de Cabo",
+"count": 2
+},
+{
+"pt": "Nossa Senhora da Conceição do Porto Moniz",
+"count": 1
+},
+{
+"pt": "Senhor da Ilha",
+"count": 1
+},
+{
+"pt": "Nossa Senhora de Perpetuo Socorro",
+"count": 1
+},
+{
+"pt": "Senhora das Vilas",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Calhau e que",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Funchal",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição e Nossa Senhora da Vida",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Desterro e de Nossa Senhora da Boa Hora",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Visitação",
+"count": 1
+},
+{
+"pt": "Senhora das Brotas",
+"count": 1
+},
+{
+"pt": "Nossa Senhora de Monserrate",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Nazaré e Santa Catarina",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Bom Despacho e de Nossa Senhora da Gloria",
+"count": 1
+},
+{
+"pt": "Nossa Senhora dos Remedios",
+"count": 1
+},
+{
+"pt": "Nossa Senhora dos Anjos e do Sagrado Coração de Jesus",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Monte e Sant",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Anunciação e de Nossa Senhora do Socorro",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Consolação e da Madre de Deus",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Salvação e a de Nossa Senhora do Socorro",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Calhau e foi",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceiçâo",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição e o",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição e que",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Mercês e Nossa Senhora da Incarnação",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Graça de Câmara de Lobos",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Graças e que",
+"count": 1
+},
+{
+"pt": "Senhora da Graça",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Piedade e Nossa Senhora do Livramento",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Penha",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Monte e Nossa Senhora das Neves",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Calheta",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Assunção",
+"count": 1
+},
+{
+"pt": "Senhor de Fuerte-Ventura",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição do ilhéu",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Lanço",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Recolhimento das Órfãs",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Incarnação e construída",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Madre de Deus e ao",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Mercês e Conventos",
+"count": 1
+},
+{
+"pt": "Senhora do Calhau",
+"count": 1
+},
+{
+"pt": "Nossa Senhora de Salvação",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Consolação do Funchal",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Monte e a",
+"count": 1
+},
+{
+"pt": "Senhor das Alcaçovas",
+"count": 1
+},
+{
+"pt": "Senhora da Apresentação",
+"count": 1
+},
+{
+"pt": "Senhora do Socorro",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Bom Despacho",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Calhao",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Consolação da freguesia do Estreito de Câmara de Lobos",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Fátima",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Glória",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Livramento da freguesia do Estreito da Calheta",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Madre de Deus",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Perpétuo Socorro",
+"count": 1
+},
+{
+"pt": "Nossa Senhora dos Remédios e Amparo",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Saúde do Monte Olivete",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Vale",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Vale e que",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Vitórias",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Vitórias e construída",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição de Vila Viçosa e desempenhou",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Mercês e que",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Carmo e Santa Thereza",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Monte e do Senhor dos Milagres",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Amparo e de Nossa Senhora da Boa Morte",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Patrocinio e ali",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição de que",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Piedade e julgamos",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Perpetuo Socorro",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Monte e nele",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Amparo e dos Remédios",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Porciúncula",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição e de São João",
+"count": 1
+},
+{
+"pt": "Senhora do Loreto",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Angústias e oeste",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Calhau e a",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Concepção",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição e Santa Isabel",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Esperança Nossa Senhora da Pena",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Vale Nossa Senhora dos Prazeres",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Consolação e Nossa Senhora do Descanso",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Amparo e do",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Incarnação e de Nossa Senhora da Piedade",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Neves e de Nossa Senhora da Boa Nova",
+"count": 1
+},
+{
+"pt": "Senhora da Conceyção",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Virtudes e Santana",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Fé e de Nossa Senhora de Jesus",
+"count": 1
+},
+{
+"pt": "Nossa Senhora das Angustias",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Conceição e Almas",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Boa Hora e Nossa Senhora da Conceição",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Saúde e a de São João",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Rosário e Santana",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Livramento e São Vicente",
+"count": 1
+},
+{
+"pt": "Nossa Senhora do Livramento e Nossa Senhora dos Varadouros",
+"count": 1
+},
+{
+"pt": "Nossa Senhora da Estrella",
+"count": 1
+},
+{
+"pt": "Senhora da Boa Morte",
+"count": 1
+},
+{
+"pt": "Senhora da Piedade",
+"count": 1
+},
+{
+"pt": "Nossa Senhora dos Varadouros e Portas da cidade",
+"count": 1
+}
+]

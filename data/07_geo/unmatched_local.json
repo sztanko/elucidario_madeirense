@@ -1,0 +1,3992 @@
+[
+{
+"name": "Ilhéu da Pontinha",
+"type": "islet",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Escola Industrial do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Holloway",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Praça da Constituição",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Club Funchalense",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Associação Comercial do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Levada",
+"type": "sítio/locality",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Lombo Gordo",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Achada do Ferreiro",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Igreja de Nossa Senhora do Calhau",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja de Santa Maria Maior",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Capela dos Santos Reis",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Levada das Hortas",
+"type": "levada",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ribeira de Câmara de Lobos",
+"type": "river/stream",
+"parish": null,
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Levada do Coquim",
+"type": "levada",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Estrebarias",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Serra do Faial",
+"type": "plateau/serra",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "Serra de São Jorge",
+"type": "plateau/serra",
+"parish": "São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Prazeres",
+"type": "sítio/locality",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Ligarte",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Lombo da Aveira",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Pico do Cotum",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Fonte do Cedro",
+"type": "spring/lake",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Levada dos Accionistas",
+"type": "levada",
+"parish": null,
+"municipality": "Santa Cruz"
+},
+{
+"name": "Levada da Serra de São Jorge",
+"type": "levada",
+"parish": "São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Terreiro das Galinhas",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Fajã dos Chiqueiros",
+"type": "sítio/locality",
+"parish": "Curral das Freiras",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Ribeira de São Vicente",
+"type": "river/stream",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Campo Grande",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Chão das Mesas",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Eira Velha",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Ribeira dos Cedros",
+"type": "river/stream",
+"parish": "Fajã da Ovelha",
+"municipality": "Calheta"
+},
+{
+"name": "Capela do Espírito Santo (Lombada)",
+"type": "church/chapel",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Furna do Calvário",
+"type": "other",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Fonte do Colégio",
+"type": "other",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Baía do Porto Santo",
+"type": "coast/bay/beach",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Rua dos Mercadores",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ponte Monumental",
+"type": "other",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Rua do Conselheiro",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Portão da Carreira",
+"type": "fort",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Rua da Ribeira de São João",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua 5 de Junho",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ribeiro do Barqueiro",
+"type": "river/stream",
+"parish": "Tabua",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Posto de Desinfecção",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Mendonho",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "São Vicente"
+},
+{
+"name": "Serras de São Vicente",
+"type": "plateau/serra",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Posto de Desinfecção Marítima",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Largo do Município",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Santo Amaro",
+"type": "church/chapel",
+"parish": "Jardim do Mar",
+"municipality": "Calheta"
+},
+{
+"name": "Volta do Cavaleiro",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora da Fé",
+"type": "church/chapel",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Capela de Santo António",
+"type": "church/chapel",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Capela de Santo António",
+"type": "church/chapel",
+"parish": "Quinta Grande",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Capela de Santo António",
+"type": "church/chapel",
+"parish": "Ribeira Brava",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Capela de Santo António",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Paços da Prefeitura",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu da Ruama",
+"type": "islet",
+"parish": "Ribeira da Janela",
+"municipality": "São Vicente"
+},
+{
+"name": "Ilhéu Comprido",
+"type": "islet",
+"parish": "Ribeira da Janela",
+"municipality": "São Vicente"
+},
+{
+"name": "Ilhéuzinho",
+"type": "islet",
+"parish": "Ribeira da Janela",
+"municipality": "São Vicente"
+},
+{
+"name": "Ribeiro do Garajau",
+"type": "river/stream",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Foro",
+"type": "sítio/locality",
+"parish": "Estreito de Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Casa de D. Guiomar",
+"type": "building",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja de São Bartolomeu",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Campo do Duque",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua da Laranjeira",
+"type": "street/square",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Ponte do Ribeirinho",
+"type": "other",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Convento de Nossa Senhora das Mercês",
+"type": "building",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Beco do Gongorra",
+"type": "street/square",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Lambert",
+"type": "quinta/estate",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Entrada da Cidade",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Molhe da Pontinha",
+"type": "port/quay",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Portão dos Varadouros",
+"type": "fort",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Forte de São Pedro",
+"type": "fort",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Farrobo",
+"type": "sítio/locality",
+"parish": "Fajã da Ovelha",
+"municipality": "Calheta"
+},
+{
+"name": "Ribeira da Chã",
+"type": "river/stream",
+"parish": "Fajã da Ovelha",
+"municipality": "Calheta"
+},
+{
+"name": "Levada do Ribeiro Chão",
+"type": "levada",
+"parish": "Fajã da Ovelha",
+"municipality": "Calheta"
+},
+{
+"name": "Levada da Fonte do Folhado",
+"type": "levada",
+"parish": "Fajã da Ovelha",
+"municipality": "Calheta"
+},
+{
+"name": "Cemitério de São Roque",
+"type": "other",
+"parish": "São Roque",
+"municipality": "Funchal"
+},
+{
+"name": "Cemitério de Santa Luzia",
+"type": "other",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu do Guincho",
+"type": "islet",
+"parish": "Seixal",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Ilhéu do Guincho",
+"type": "islet",
+"parish": "Ponta do Pargo",
+"municipality": "Calheta"
+},
+{
+"name": "Ilhéu das Ceroulas",
+"type": "islet",
+"parish": "Seixal",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Teatro Dr. Manuel de Arriaga",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Largo da Igrejinha",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Cais da Pontinha",
+"type": "port/quay",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Nossa Senhora da Conceição de Baixo",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Levada do Lombo Gordo",
+"type": "levada",
+"parish": "Ribeira da Janela",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Penedo",
+"type": "sítio/locality",
+"parish": "Ribeira da Janela",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Casais de Além",
+"type": "sítio/locality",
+"parish": "Ribeira da Janela",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Consulado Britânico",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Cristo",
+"type": "church/chapel",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Ilhéu de Fora",
+"type": "islet",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Quinta Bianchi",
+"type": "quinta/estate",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Convento de Nossa Senhora da Piedade",
+"type": "building",
+"parish": "Santa Cruz",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Capela de Nossa Senhora da Conceição",
+"type": "church/chapel",
+"parish": "Tabua",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora da Conceição",
+"type": "church/chapel",
+"parish": "Porto Moniz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Quinta do Pombal",
+"type": "quinta/estate",
+"parish": "Quinta Grande",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Recolhimento das Órfãs",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Teatro Grande",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Santo André Avelino",
+"type": "church/chapel",
+"parish": "Canhas",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Teatro D. Maria Pia",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Campo de D. Carlos I",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ribeirinho",
+"type": "river/stream",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Ermida de Santo António",
+"type": "church/chapel",
+"parish": "Curral das Freiras",
+"municipality": "Funchal"
+},
+{
+"name": "Monte Gordo",
+"type": "peak/mountain",
+"parish": "Caniçal",
+"municipality": "Machico"
+},
+{
+"name": "Capela de Nossa Senhora da Penha (Ferreiros)",
+"type": "church/chapel",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Furna dos Cardais",
+"type": "other",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Palheiro de Dentro",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Palheiro de Fora",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ribeiro do Ledo",
+"type": "river/stream",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Casa da Saúde",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rampa de Miguel Bombarda",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua de Hermenegildo Capelo",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Campo do Brás",
+"type": "other",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Caminho do Acioli",
+"type": "road/path",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Mercado do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Casino Pavão",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Fortaleza do Ilhéu",
+"type": "fort",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ribeiro do Mendes",
+"type": "river/stream",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Ilhéu de Agostinho",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ilhéu dos Desembarcadouros",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela de Nossa Senhora da Incarnação (Louros)",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Rua Hermenegildo Capelo",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ponta do Buraco",
+"type": "cape/point",
+"parish": "Seixal",
+"municipality": "Calheta"
+},
+{
+"name": "Serra de São Roque",
+"type": "plateau/serra",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Largo das Babosas",
+"type": "street/square",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Boqueirão de Baixo",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Portinho",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Enguias",
+"type": "sítio/locality",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Curral do Canário",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Capela de Nossa Senhora da Candelária",
+"type": "church/chapel",
+"parish": "Tabua",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Zimbreiro",
+"type": "sítio/locality",
+"parish": "Tabua",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Praia",
+"type": "sítio/locality",
+"parish": "Tabua",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Barbuzano",
+"type": "sítio/locality",
+"parish": "Tabua",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Costa Norte",
+"type": "region",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Praça Académica",
+"type": "street/square",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja",
+"type": "sítio/locality",
+"parish": "Arco de São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Pico da Relva",
+"type": "peak/mountain",
+"parish": "Seixal",
+"municipality": "Calheta"
+},
+{
+"name": "Ribeiro do Calvário",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Córrego das Lajes",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ribeiro do Atalho",
+"type": "river/stream",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Ribeiro do Tombo da Furna",
+"type": "river/stream",
+"parish": "São Jorge",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Ribeira da Serra de Fora",
+"type": "river/stream",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Travessa da Conveniência",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta das Rosas",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora da Incarnação",
+"type": "church/chapel",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Ribeiro de Nossa Senhora",
+"type": "river/stream",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de São José",
+"type": "church/chapel",
+"parish": "Ribeira Brava",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Calçada do Cidrão",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Teatro Manuel de Arriaga",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Travessa da Sacristia",
+"type": "street/square",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Quartel do Colégio",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Liceu do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Fojo",
+"type": "other",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Fojo",
+"type": "sítio/locality",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Fojo",
+"type": "other",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Calhau",
+"type": "coast/bay/beach",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Quinta de São Jorge",
+"type": "quinta/estate",
+"parish": "São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Passada da Novilha",
+"type": "sítio/locality",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "Beco de Jacinto Acciaioly",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Nossa Senhora do Calhau",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua Cinco de Junho",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Passo da Chave",
+"type": "road/path",
+"parish": "Curral das Freiras",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Eirinha",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Distrito do Funchal",
+"type": "region",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ribeiro do Açougue",
+"type": "river/stream",
+"parish": "Porto Moniz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Asilo de Mendicidade",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Porto da Castanheira",
+"type": "port/quay",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Largo do Colégio",
+"type": "street/square",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Santa Quitéria",
+"type": "church/chapel",
+"parish": "Madalena do Mar",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Capela de Santa Quitéria",
+"type": "church/chapel",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Ponte do Curral",
+"type": "other",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Cadeia do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu Porco",
+"type": "islet",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Ilhéu Vermelho",
+"type": "islet",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Fonte do Bispo",
+"type": "spring/lake",
+"parish": "Santo António da Serra",
+"municipality": "Machico"
+},
+{
+"name": "Casa Havanesa",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Atlantic Hotel",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta da Saudade",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Cristo (Machico)",
+"type": "church/chapel",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Rua Júlio da Silva Carvalho",
+"type": "street/square",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Albergaria de São Bartolomeu",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Nossa Senhora do Socorro",
+"type": "church/chapel",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Jesus Maria José",
+"type": "sítio/locality",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Fábrica do Torreão",
+"type": "building",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu do Prego do Mar",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Largo da Fortaleza",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta do Palheiro Ferreiro",
+"type": "quinta/estate",
+"parish": "São Gonçalo",
+"municipality": "Funchal"
+},
+{
+"name": "Boqueirão Grande",
+"type": "coast/bay/beach",
+"parish": "Caniçal",
+"municipality": "Machico"
+},
+{
+"name": "Pico Vermelho",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Edifício da Encarnação",
+"type": "building",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja de São Tiago",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja de Santo Antão (Caniço)",
+"type": "church/chapel",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Capela de Nossa Senhora da Consolação",
+"type": "church/chapel",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora do Livramento",
+"type": "church/chapel",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Capela de Nossa Senhora da Salvação",
+"type": "church/chapel",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Capela de Nossa Senhora do Socorro",
+"type": "church/chapel",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Pico do Telégrafo",
+"type": "peak/mountain",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Pico do Telégrafo",
+"type": "peak/mountain",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora da Alegria",
+"type": "church/chapel",
+"parish": "São Roque",
+"municipality": "Funchal"
+},
+{
+"name": "Lombo Segundo",
+"type": "sítio/locality",
+"parish": "São Roque",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de São Bartolomeu",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rocha de São Lourenço",
+"type": "other",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Costa do Norte",
+"type": "region",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Costa do Sul",
+"type": "region",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ribeira de São Bartolomeu",
+"type": "river/stream",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Pico",
+"type": "sítio/locality",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Club Restauração",
+"type": "building",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Governo Civil",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Lanço",
+"type": "church/chapel",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora do Desterro",
+"type": "church/chapel",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora do Desterro",
+"type": "church/chapel",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Achada da Igreja",
+"type": "sítio/locality",
+"parish": "Ponta do Pargo",
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora do Descanso",
+"type": "church/chapel",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Palácio da Junta Geral",
+"type": "building",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Asilo dos Velhinhos",
+"type": "building",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Ermida de Sant'Ana",
+"type": "church/chapel",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Capela do Imaculado Coração de Maria",
+"type": "church/chapel",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Carga da Lapa",
+"type": "port/quay",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Porto de Santa Maria",
+"type": "port/quay",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela de Nossa Senhora do Livramento (Monte)",
+"type": "church/chapel",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Capela do Sagrado Coração de Jesus (Monte)",
+"type": "church/chapel",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Livramento (São Vicente)",
+"type": "church/chapel",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Calvário",
+"type": "sítio/locality",
+"parish": "Ribeira Brava",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Encumeada de São Vicente",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "São Vicente"
+},
+{
+"name": "Mercado de D. Pedro V",
+"type": "building",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Engenhoca",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela dos Reis Magos",
+"type": "church/chapel",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Babosas",
+"type": "sítio/locality",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Badajeira",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Capitania do Funchal",
+"type": "region",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ponta dos Dedais",
+"type": "cape/point",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Ponta de Água",
+"type": "cape/point",
+"parish": null,
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Ponta de Santana",
+"type": "cape/point",
+"parish": "Santana",
+"municipality": "Santana"
+},
+{
+"name": "Ponta do Cortado",
+"type": "cape/point",
+"parish": "Santana",
+"municipality": "Santana"
+},
+{
+"name": "Ponta do Incão",
+"type": "cape/point",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Ponta do Furado (Porto Santo)",
+"type": "cape/point",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Ponta do Boqueirão",
+"type": "cape/point",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ponta do Norte",
+"type": "cape/point",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ponta da Rocha Negra",
+"type": "cape/point",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Rua dos Balcões",
+"type": "street/square",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Casa dos Alpires",
+"type": "building",
+"parish": "São Gonçalo",
+"municipality": "Funchal"
+},
+{
+"name": "Ilhote",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Hospital dos Lázaros",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta do Rochedo",
+"type": "quinta/estate",
+"parish": "São Gonçalo",
+"municipality": "Funchal"
+},
+{
+"name": "Hospital da Misericórdia (antigo)",
+"type": "building",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Belmonte",
+"type": "quinta/estate",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Jardim Pequeno",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Terra de São Pedro",
+"type": "sítio/locality",
+"parish": "Porto Moniz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Igreja de Santiago",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Pópulo",
+"type": "church/chapel",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Ponta de Santa Maria",
+"type": "cape/point",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ponta da Castanheira",
+"type": "cape/point",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Estação Semafórica do Ilhéu",
+"type": "building",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Porto dos Barreiros",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Porto da Morena",
+"type": "coast/bay/beach",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Porto Novo",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Rocha do Pescador",
+"type": "coast/bay/beach",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Ilhéu Redondo",
+"type": "islet",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Baixa da Galé",
+"type": "coast/bay/beach",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Ribeiro Fundo",
+"type": "river/stream",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Levada dos Socorridos",
+"type": "levada",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Hotel Miles",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Vale da Bica",
+"type": "sítio/locality",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Vale da Bica",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Ponta da Vigia",
+"type": "cape/point",
+"parish": "Ponta do Pargo",
+"municipality": "Calheta"
+},
+{
+"name": "Casa do Rei",
+"type": "sítio/locality",
+"parish": "Ponta do Pargo",
+"municipality": "Calheta"
+},
+{
+"name": "Convento de São Francisco de Santa Cruz",
+"type": "church/chapel",
+"parish": "Santa Cruz",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Forte de São João da Pontinha",
+"type": "fort",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Jardim Renton",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Fajã das Pedras",
+"type": "coast/bay/beach",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Casa das Angústias",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta das Angústias (Quinta Lambert)",
+"type": "quinta/estate",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Belém",
+"type": "sítio/locality",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Cova",
+"type": "sítio/locality",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Lombo do Simão",
+"type": "sítio/locality",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Quebrada do Negro",
+"type": "sítio/locality",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Fajã das Malvas",
+"type": "sítio/locality",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Pomar Velho",
+"type": "sítio/locality",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Risco",
+"type": "sítio/locality",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Cabeço do Facho",
+"type": "peak/mountain",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Igreja de Santa Quitéria",
+"type": "church/chapel",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Levada Grande",
+"type": "levada",
+"parish": "Ponta Delgada",
+"municipality": "São Vicente"
+},
+{
+"name": "Engrosa",
+"type": "road/path",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Capela de São Francisco das Furnas",
+"type": "church/chapel",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Infante Palace Hotel",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Vila",
+"type": "sítio/locality",
+"parish": "Ribeira Brava",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Vila",
+"type": "sítio/locality",
+"parish": "Santa Cruz",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Vila",
+"type": "sítio/locality",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Vila",
+"type": "sítio/locality",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Capela das Almas Pobres",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu do Campanário",
+"type": "islet",
+"parish": "Campanário",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Asilo de Mendicidade e Órfãos do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Campo das Loucas",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Serra de Boaventura",
+"type": "plateau/serra",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Capela de Nossa Senhora das Preces (Santo António)",
+"type": "church/chapel",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora da Nazaré (Câmara de Lobos)",
+"type": "church/chapel",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Teatro Grande do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Grabham",
+"type": "quinta/estate",
+"parish": "Camacha",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Ilhéu do Agostinho",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ilhéu (Funchal)",
+"type": "islet",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu do Guincho (Ponta do Pargo)",
+"type": "islet",
+"parish": "Ponta do Pargo",
+"municipality": "Calheta"
+},
+{
+"name": "Ilhéu Negro",
+"type": "islet",
+"parish": "Porto Moniz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Ilhéu do Guincho (Seixal)",
+"type": "islet",
+"parish": "Seixal",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Ilhéu Preto",
+"type": "islet",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Ilhéu do Faial",
+"type": "islet",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "Ilhéu das Cenouras",
+"type": "islet",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Furilhão",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Rua dos Medinas",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua do Monteiro",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Santana e São João (Trapiche)",
+"type": "church/chapel",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Carneiro",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ribeira dos Boieiros",
+"type": "river/stream",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Ribeira dos Frades",
+"type": "river/stream",
+"parish": null,
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Ribeira do Engenho",
+"type": "river/stream",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Alagoa",
+"type": "port/quay",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ribeira da Fazenda",
+"type": "sítio/locality",
+"parish": "Estreito de Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Terras de João Teixeira",
+"type": "sítio/locality",
+"parish": "Caniçal",
+"municipality": "Machico"
+},
+{
+"name": "Penedo do Saco",
+"type": "peak/mountain",
+"parish": "Caniçal",
+"municipality": "Machico"
+},
+{
+"name": "Confeiteira",
+"type": "sítio/locality",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Atalhinho",
+"type": "sítio/locality",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Carreira de Tiro",
+"type": "other",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu da Lapa",
+"type": "islet",
+"parish": "Campanário",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Ilha das Pedras",
+"type": "other",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Casino Vitória",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Igreja de Nossa Senhora dos Remédios",
+"type": "church/chapel",
+"parish": "Quinta Grande",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Cadeirinha",
+"type": "sítio/locality",
+"parish": "Quinta Grande",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Assomadouro",
+"type": "sítio/locality",
+"parish": "Prazeres",
+"municipality": "Calheta"
+},
+{
+"name": "Rua Correia Heredia",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta dos Ferreiros",
+"type": "quinta/estate",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Ilhéu do Farol",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela da Porta da Quinta",
+"type": "church/chapel",
+"parish": "Quinta Grande",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Capela de Nossa Senhora da Penha de França (Lombada)",
+"type": "church/chapel",
+"parish": "Santa Cruz",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Prego do Mar",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela de São Brás",
+"type": "church/chapel",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Píncaro",
+"type": "quinta/estate",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Levada da Madre Grande",
+"type": "levada",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora da Quietação",
+"type": "church/chapel",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Fajã do Alemão",
+"type": "sítio/locality",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Rua de Santo António",
+"type": "street/square",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Pico",
+"type": "sítio/locality",
+"parish": "Ponta Delgada",
+"municipality": "São Vicente"
+},
+{
+"name": "Pico",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Vale da Metade",
+"type": "valley/ravine",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Baixa do Carneiro",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Boqueirão de Cima",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Rua do Capitão",
+"type": "street/square",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Terreiros",
+"type": "sítio/locality",
+"parish": "São Roque do Faial",
+"municipality": "Santana"
+},
+{
+"name": "Lombo dos Palheiros",
+"type": "sítio/locality",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "Pedra da Pescaria",
+"type": "port/quay",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "São Francisco das Furnas",
+"type": "sítio/locality",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Estrada de Santo António",
+"type": "road/path",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Enseada das Pardelas",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Estância",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Palheiros",
+"type": "islet",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Baixa do Sarmento",
+"type": "other",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Baixa do Noronha",
+"type": "other",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ilhéu do Porto Moniz",
+"type": "islet",
+"parish": null,
+"municipality": "Porto Moniz"
+},
+{
+"name": "Quinta das Angústias",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua do Estudo",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Porto dos Barbeiros",
+"type": "port/quay",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Ladrilhos",
+"type": "sítio/locality",
+"parish": "Ponta Delgada",
+"municipality": "São Vicente"
+},
+{
+"name": "Ribeiro do Peso",
+"type": "other",
+"parish": "Ponta Delgada",
+"municipality": "São Vicente"
+},
+{
+"name": "Rua de Gomes Freire",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Solar dos Ornelas",
+"type": "building",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Hospital da Misericórdia do Funchal",
+"type": "building",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja do Salvador",
+"type": "church/chapel",
+"parish": "Santa Cruz",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Ribeira da Quinta",
+"type": "river/stream",
+"parish": "São Gonçalo",
+"municipality": "Funchal"
+},
+{
+"name": "Rua do Arcebispo D. Aires",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Drolhe",
+"type": "quinta/estate",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Pavão",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Amélia",
+"type": "quinta/estate",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Campo Dr. Miguel Bombarda",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Escola Industrial António Augusto de Aguiar",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Pico Rádio",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua Gomes Freire",
+"type": "street/square",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Hospital Militar",
+"type": "building",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Salto do Cavalo",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Santa Cruz"
+},
+{
+"name": "Capela de Santa Maria Madalena",
+"type": "church/chapel",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Batalhão",
+"type": "sítio/locality",
+"parish": "Porto Moniz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Posto de Desinfecção Terrestre",
+"type": "building",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Dispensário Antituberculoso Distrital",
+"type": "building",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Patrocínio",
+"type": "church/chapel",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Fajã do Furtado",
+"type": "sítio/locality",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Ribeira do Alto",
+"type": "river/stream",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Entre Caminhos",
+"type": "sítio/locality",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Hospício de São João",
+"type": "building",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Serra de Nossa Senhora",
+"type": "plateau/serra",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Rua dos Pintos",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Água Negra",
+"type": "spring/lake",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Assobiadores",
+"type": "spring/lake",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Levada do Ribeiro do Farrobo",
+"type": "levada",
+"parish": "Estreito da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Levada dos Ferreiros",
+"type": "levada",
+"parish": "Estreito da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Ponta Gorda",
+"type": "cape/point",
+"parish": "São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Muralha dos Franceses",
+"type": "other",
+"parish": null,
+"municipality": "Santana"
+},
+{
+"name": "Costa Sul",
+"type": "region",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Pitão Grande",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Pitão Pequeno",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Jardim do Manicómio",
+"type": "other",
+"parish": "São Gonçalo",
+"municipality": "Funchal"
+},
+{
+"name": "Serra Alva",
+"type": "plateau/serra",
+"parish": null,
+"municipality": "São Vicente"
+},
+{
+"name": "Capela de Santa Isabel",
+"type": "church/chapel",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Lombada da Ribeira Brava",
+"type": "sítio/locality",
+"parish": "Ribeira Brava",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Travessa de Santa Catarina",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Hotel Jones",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Bateria de São Gonçalo",
+"type": "fort",
+"parish": "São Gonçalo",
+"municipality": "Funchal"
+},
+{
+"name": "Fortaleza da Penha de França",
+"type": "fort",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua Sacadura Cabral",
+"type": "road/path",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Porto da Ribeira",
+"type": "port/quay",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Gonçalo Aires",
+"type": "coast/bay/beach",
+"parish": "São Gonçalo",
+"municipality": "Funchal"
+},
+{
+"name": "Santo Espírito",
+"type": "quinta/estate",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Eiró",
+"type": "other",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Rua do Cotife",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Convento de São Francisco do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Escola Lancasteriana",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua do Peso",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Macelas",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Travessa das Malvas",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Travessa das Papoilas",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Travessa da Aldeia",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Terreiro das Águas",
+"type": "sítio/locality",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja da Misericórdia",
+"type": "church/chapel",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora dos Varadouros",
+"type": "church/chapel",
+"parish": "Sé",
+"municipality": "Funchal"
+},
+{
+"name": "Lombo da Palha",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "São Vicente"
+},
+{
+"name": "Ribeiro do Alcaide",
+"type": "river/stream",
+"parish": "Ponta do Pargo",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Praia da Lapa",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Circo Funchalense",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Fonte das Moças",
+"type": "spring/lake",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Teatro do Bom Gosto",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Teatro Esperança",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Teatro Circo",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Pico das Abóboras",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Santa Cruz"
+},
+{
+"name": "Cumeada de São Vicente",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Pico da Fonte do Norte",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Cabeço da Levadinha",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Furna de D. Cosme",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Alcoforado",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Alcoforado",
+"type": "sítio/locality",
+"parish": "Santo António da Serra",
+"municipality": "Machico"
+},
+{
+"name": "Furna",
+"type": "coast/bay/beach",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Quebrada da Azeda",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Carreira de Tiro do Funchal",
+"type": "other",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Fajã da Rocha",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela de São João Nepomuceno",
+"type": "church/chapel",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Larano",
+"type": "sítio/locality",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Lagoa da Serra de Santo António",
+"type": "spring/lake",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela da Lombada do Esmeraldo",
+"type": "church/chapel",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Águas Belas",
+"type": "sítio/locality",
+"parish": "Santa Cruz",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Capela de Nossa Senhora dos Milagres",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Vigia",
+"type": "sítio/locality",
+"parish": "Ponta do Pargo",
+"municipality": "Calheta"
+},
+{
+"name": "Ribeiro do Canário",
+"type": "river/stream",
+"parish": "São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Ribeiro do Lombo da Furna",
+"type": "river/stream",
+"parish": "São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Pico do Monte Vidio",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Pico do Calhau da Malhada",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Ponta da Malhada",
+"type": "cape/point",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Forte Novo",
+"type": "fort",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Rua do Peixe",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Forte de Santo António",
+"type": "fort",
+"parish": "Paul do Mar",
+"municipality": "Calheta"
+},
+{
+"name": "Lagoa",
+"type": "spring/lake",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Pico da Laje",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Pico do Lajedo",
+"type": "peak/mountain",
+"parish": "Caniçal",
+"municipality": "Machico"
+},
+{
+"name": "Rampa",
+"type": "port/quay",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Ribeiro do Cutileiro",
+"type": "river/stream",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Ribeiro do Convento",
+"type": "river/stream",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Ribeiro do Lombo do Brasil",
+"type": "river/stream",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Ribeiro da Fonte de Nossa Senhora",
+"type": "river/stream",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Palácio do Governo Civil",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Club Inglês",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Asilo de Mendicidade e Órfãos",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Forte do Ancoradouro",
+"type": "fort",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Calhau das Areias",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ilhéus do Seixal",
+"type": "islet",
+"parish": "Seixal",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Rua João Sabino da Costa (Calçada do Cidrão)",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Empinos",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Capela de Nossa Senhora da Ajuda",
+"type": "church/chapel",
+"parish": "Serra de Água",
+"municipality": "Calheta"
+},
+{
+"name": "Quinta dos Padres da Companhia",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Curral do Leme",
+"type": "valley/ravine",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "São Roque (águas de)",
+"type": "spring/lake",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Quinta dos Reis",
+"type": "quinta/estate",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Serra do Seixal",
+"type": "plateau/serra",
+"parish": "Seixal",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Pedra do Canto",
+"type": "islet",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "Pedra Francesa",
+"type": "islet",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "Capela de Nossa Senhora da Natividade",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora da Boa Hora",
+"type": "church/chapel",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Rua do Dr. Chaves",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Campo de Challons",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Serras do Seixal",
+"type": "plateau/serra",
+"parish": "Seixal",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Serras da Boaventura",
+"type": "plateau/serra",
+"parish": "Boa Ventura",
+"municipality": "São Vicente"
+},
+{
+"name": "Ribeira",
+"type": "river/stream",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Quinta Hollway",
+"type": "quinta/estate",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Baixa do Bispo",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Baixa do Cesto",
+"type": "coast/bay/beach",
+"parish": "Jardim do Mar",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Baixa do Cotrim",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Fonte das Voltas",
+"type": "spring/lake",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Fonte das Enguias",
+"type": "spring/lake",
+"parish": "Porto Santo",
+"municipality": "Porto Santo"
+},
+{
+"name": "Zimbralinha",
+"type": "sítio/locality",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Cardiais",
+"type": "sítio/locality",
+"parish": "Água de Pena",
+"municipality": "Machico"
+},
+{
+"name": "Levada do Logarinho",
+"type": "levada",
+"parish": "Água de Pena",
+"municipality": "Machico"
+},
+{
+"name": "Capela de São Caetano",
+"type": "church/chapel",
+"parish": "Ponta do Sol",
+"municipality": "Ponta do Sol"
+},
+{
+"name": "Levada do Ribeiro de Inês",
+"type": "levada",
+"parish": "Prazeres",
+"municipality": "Calheta"
+},
+{
+"name": "Levada da Ribeira do Batel",
+"type": "levada",
+"parish": "Prazeres",
+"municipality": "Calheta"
+},
+{
+"name": "Levada da Ribeira da Lombada",
+"type": "levada",
+"parish": "Prazeres",
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora do Faial",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora Mãe dos Homens",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Rua 5 de Julho",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Edifício da Misericórdia",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Calhau",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéu do Navio",
+"type": "islet",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Mirante de D. Guiomar",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Baixa Larga",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Passo da Areia",
+"type": "coast/bay/beach",
+"parish": "Ponta Delgada",
+"municipality": "São Vicente"
+},
+{
+"name": "Serrado das Ameixieiras",
+"type": "quinta/estate",
+"parish": "Santo António da Serra",
+"municipality": "Machico"
+},
+{
+"name": "Aldeia da Rainha",
+"type": "sítio/locality",
+"parish": "Santo António da Serra",
+"municipality": "Machico"
+},
+{
+"name": "Cemitério dos Ingleses",
+"type": "other",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora da Saúde",
+"type": "church/chapel",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Fonte de Nossa Senhora",
+"type": "spring/lake",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Ponta do Barlavento",
+"type": "cape/point",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela de São Marcos",
+"type": "church/chapel",
+"parish": "Gaula",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Levada da Ribeira da Metade",
+"type": "levada",
+"parish": "Camacha",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Ponta da Quinta",
+"type": "sítio/locality",
+"parish": "Quinta Grande",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Capela de Nossa Senhora das Brotas",
+"type": "church/chapel",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Arquivo Distrital da Madeira",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Pico da Irandaia",
+"type": "peak/mountain",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Vale de Machico",
+"type": "valley/ravine",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Ribeira do Gato",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capela de Nossa Senhora dos Prazeres",
+"type": "church/chapel",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Igreja Paroquial de Câmara de Lobos",
+"type": "church/chapel",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Lombo das Mercês",
+"type": "sítio/locality",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Nossa Senhora das Mercês",
+"type": "church/chapel",
+"parish": "Arco da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Lombo da Pereira",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Capela de Nossa Senhora da Cadeira",
+"type": "church/chapel",
+"parish": "Quinta Grande",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Capela dos Santos Cosme e Damião",
+"type": "church/chapel",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Levadas",
+"type": "levada",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Baías",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Pau do Sebastião",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Pico da Terceira Lombada",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Cortina da Cidade",
+"type": "fort",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Cemiterios",
+"type": "building",
+"parish": "São Roque",
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéus da Ceroulas",
+"type": "island",
+"parish": "Seixal",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Travessa do Porto Santo",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Igreja",
+"type": "sítio/locality",
+"parish": "Quinta Grande",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Capela de Nossa Senhora de Jesus",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ferreiros",
+"type": "sítio/locality",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Nossa Senhora Mãe dos Homens",
+"type": "church/chapel",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Monserrate",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Baixa do Furado",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Porto Moniz"
+},
+{
+"name": "Ilhéu de Branca",
+"type": "island",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Boqueirão do Furado",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Poço Novo",
+"type": "street/square",
+"parish": "São Roque",
+"municipality": "Funchal"
+},
+{
+"name": "Pico da Fonte da Bica",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Fonte dos Ingleses",
+"type": "sítio/locality",
+"parish": "Ribeira da Janela",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Fonte Vermelha",
+"type": "sítio/locality",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Capelas de Nossa Senhora da Vida",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora das Vitórias",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Nova Aldeia ou Aldeia da Rainha",
+"type": "sítio/locality",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Vicente",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Jorge",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Capelas de Nossa Senhora da Boa Viagem",
+"type": "church/chapel",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Capelas de Nossa Senhora do Bom Sucesso",
+"type": "church/chapel",
+"parish": "Estreito de Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Passos",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Asilos",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Túmulo-Monumento",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Túmulos",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Águas de São Roque",
+"type": "river/stream",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Necrotério",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Travessa do Nery",
+"type": "street/square",
+"parish": "Santa Maria Maior",
+"municipality": "Funchal"
+},
+{
+"name": "Baixa do Galeão",
+"type": "coast/bay/beach",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Capela de São João e Santana",
+"type": "church/chapel",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Pilar",
+"type": "church/chapel",
+"parish": "São Martinho",
+"municipality": "Funchal"
+},
+{
+"name": "Capelas de Nossa Senhora dos Prazeres",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Alagoas",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Convento da Incarnaçao",
+"type": "building",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Livramento",
+"type": "sítio/locality",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Edifícios Antigos",
+"type": "building",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Casas de Abrigo",
+"type": "building",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Manicómios",
+"type": "building",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Águas Doces",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Águas férreas",
+"type": "river/stream",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Fortificações",
+"type": "fort",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Furna da Mulher",
+"type": "region",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Ponta da Água",
+"type": "cape/point",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Capela de Nossa Senhora de Belém",
+"type": "church/chapel",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Capelas de Nossa Senhora da Boa Hora",
+"type": "church/chapel",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Santa Apolónia",
+"type": "church/chapel",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Capela de Santa Brigida",
+"type": "church/chapel",
+"parish": "São Pedro",
+"municipality": "Funchal"
+},
+{
+"name": "Carlos",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Norte da Ilha",
+"type": "region",
+"parish": "Achadas da Cruz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Posto Marítimo de Desinfecção",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Posto Médico Municipal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Cais",
+"type": "port/quay",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Moradias de Zargo",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Baixa da Conceição.",
+"type": "coast/bay/beach",
+"parish": "Campanário",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Porto e Ribeira de São Vicente",
+"type": "river/stream",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "Hermenegildo Capelo",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Primitivas Habitações",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Madeira",
+"type": "peak/mountain",
+"parish": null,
+"municipality": "Porto Moniz"
+},
+{
+"name": "Faróis",
+"type": "port/quay",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Farolim do Ilhéu",
+"type": "port/quay",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Casa de Saúde",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Casa dos Consules",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Relógios",
+"type": "building",
+"parish": "Camacha",
+"municipality": "Funchal"
+},
+{
+"name": "Ribeiras",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Fajãs",
+"type": "coast/bay/beach",
+"parish": "Campanário",
+"municipality": "Ribeira Brava"
+},
+{
+"name": "Costas",
+"type": "region",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Nossa Senhora das Dores",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Cais do Ilhéu de Fora",
+"type": "port/quay",
+"parish": "Caniçal",
+"municipality": "Machico"
+},
+{
+"name": "Cais do Salto do Cavalo",
+"type": "port/quay",
+"parish": null,
+"municipality": "Santa Cruz"
+},
+{
+"name": "Cais da Ponta da Cruz",
+"type": "port/quay",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Cais de Câmara de Lobos",
+"type": "port/quay",
+"parish": "Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Cais de S. Jorge",
+"type": "port/quay",
+"parish": "São Jorge",
+"municipality": "Santana"
+},
+{
+"name": "Cumiada Alta",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Cumiada de S. Vicente",
+"type": "peak/mountain",
+"parish": "São Vicente",
+"municipality": "São Vicente"
+},
+{
+"name": "ilha da Madeira",
+"type": "island",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Porto ou Portinho da Morena",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": "Porto Santo"
+},
+{
+"name": "Planaltos",
+"type": "peak/mountain",
+"parish": "Santo António da Serra",
+"municipality": "Machico"
+},
+{
+"name": "Monumentos",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Monumento à Constituição de 1821",
+"type": "building",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Monumento comemorativo do Bombardeamento do Funchal",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Monumento aos Aviadore",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Capela de Nossa Senhora do Perpétuo Socorro",
+"type": "church/chapel",
+"parish": "Água de Pena",
+"municipality": "Machico"
+},
+{
+"name": "Cabos",
+"type": "cape/point",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Arquipélago da Madeira",
+"type": "island",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ribeira e Porto de São Bartolomeu",
+"type": "river/stream",
+"parish": "Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Forte de Santo António da Alfândega",
+"type": "fort",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Forte da Penha de França",
+"type": "fort",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Forte de S. Roque de Machico",
+"type": "fort",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Forte do Caniçal",
+"type": "fort",
+"parish": "Caniçal",
+"municipality": "Machico"
+},
+{
+"name": "Quedas de Água",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Queimado",
+"type": "peak/mountain",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Rua de Júlio da Silva Carvalho",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Paços do Concelho",
+"type": "building",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Rua da Igrejinha",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Mirantes",
+"type": "building",
+"parish": "Monte",
+"municipality": "Funchal"
+},
+{
+"name": "Vapor",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Monumentos Nacionais",
+"type": "building",
+"parish": "Estreito da Calheta",
+"municipality": "Calheta"
+},
+{
+"name": "Costa de Baixo",
+"type": "region",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Costa de Cima",
+"type": "region",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Pedro V",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Portos da Madeira",
+"type": "coast/bay/beach",
+"parish": "Porto Moniz",
+"municipality": "Porto Moniz"
+},
+{
+"name": "Académica",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "João",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Bartolomeu",
+"type": "river/stream",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Conventos",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Cantim",
+"type": "region",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Vales",
+"type": "region",
+"parish": "Estreito de Câmara de Lobos",
+"municipality": "Câmara de Lobos"
+},
+{
+"name": "Capela do Sagrado Coração de Jesus",
+"type": "church/chapel",
+"parish": "Água de Pena",
+"municipality": "Machico"
+},
+{
+"name": "Forte do Porto da Cruz",
+"type": "fort",
+"parish": "Porto da Cruz",
+"municipality": "Machico"
+},
+{
+"name": "Forte de S. Jorge da Calheta",
+"type": "fort",
+"parish": null,
+"municipality": "Calheta"
+},
+{
+"name": "Capelas de Nossa Senhora da Salvação",
+"type": "church/chapel",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Capela de Nossa Senhora do Terço",
+"type": "church/chapel",
+"parish": null,
+"municipality": "Machico"
+},
+{
+"name": "Capela de Nossa Senhora do Vale",
+"type": "church/chapel",
+"parish": "Santa Luzia",
+"municipality": "Funchal"
+},
+{
+"name": "Real",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Monumento ao Sagrado Coração de Jesus",
+"type": "building",
+"parish": "Caniço",
+"municipality": "Santa Cruz"
+},
+{
+"name": "Monumento aos mortos da Grande Guerra",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Monumento ao Doutor Teles",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Águas",
+"type": "levada",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Guiomar",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Ilhéus do Faial",
+"type": "island",
+"parish": "Faial",
+"municipality": "Santana"
+},
+{
+"name": "Fajã",
+"type": "coast/bay/beach",
+"parish": null,
+"municipality": null
+},
+{
+"name": "Fajã",
+"type": "sítio/locality",
+"parish": "Santo António",
+"municipality": "Funchal"
+},
+{
+"name": "Cinco de Junho",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Nomes de Ruas",
+"type": "street/square",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Praça do Peixe",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Alfândega de Machico",
+"type": "building",
+"parish": "Machico",
+"municipality": "Machico"
+},
+{
+"name": "Teatro de Bom Gosto",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Habitações primitivas",
+"type": "building",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Lambert",
+"type": "quinta/estate",
+"parish": null,
+"municipality": "Funchal"
+},
+{
+"name": "Padrões Memoráveis",
+"type": "building",
+"parish": "Machico",
+"municipality": "Machico"
+}
+]

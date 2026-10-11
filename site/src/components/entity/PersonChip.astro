@@ -1,0 +1,24 @@
+---
+// Compact person list item (name, dates, role). Pages agent owns this component.
+// Props: lang, slug, name, birth?, death?, role?, mentions?
+import * as u from '../../lib/urls';
+import { t } from '../../i18n/ui';
+import { edtfLabel } from '../../lib/data';
+interface Props { lang: string; slug: string; name: string; birth?: string | null; death?: string | null; role?: string | null; mentions?: number }
+const { lang, slug, name, birth, death, role, mentions } = Astro.props as Props;
+const hasDates = birth || death;
+---
+<li class="em-person-chip">
+  <a href={u.person(lang, slug, name)}>{name}</a>
+  {hasDates && <span class="em-dates">({birth ? edtfLabel(birth) : '?'}–{death ? edtfLabel(death) : ''})</span>}
+  {role && <span class="em-role">{role}</span>}
+  {mentions !== undefined && <span class="em-mentions">{mentions}</span>}
+</li>
+<style>
+  .em-person-chip { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4em; padding: .25rem 0; border-bottom: 1px solid color-mix(in srgb, var(--ink) 10%, transparent); }
+  .em-person-chip a { color: var(--person); text-decoration: none; font-weight: 600; }
+  .em-person-chip a:hover { text-decoration: underline; }
+  .em-dates { font-variant-numeric: tabular-nums; font-size: .78rem; opacity: .65; }
+  .em-role { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; opacity: .55; }
+  .em-mentions { margin-left: auto; font-size: .72rem; opacity: .5; font-variant-numeric: tabular-nums; }
+</style>

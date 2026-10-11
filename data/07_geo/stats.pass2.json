@@ -1,0 +1,12 @@
+{
+  "claude_placed": 185,
+  "claude_marked_unknown": 123,
+  "usd": 1.52,
+  "archipelago_precision": {
+    "exact": 945,
+    "approximate": 863,
+    "municipality-centroid": 223,
+    "parish-centroid": 283,
+    "unknown": 159
+  }
+}

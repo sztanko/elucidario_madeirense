@@ -1,0 +1,18 @@
+{
+  "applied": 448,
+  "by_kind": {
+    "split_join": 5,
+    "ocr": 148,
+    "punctuation": 265,
+    "number": 9,
+    "hyphen": 21
+  },
+  "rejected": {
+    "find-not-found": 3,
+    "circumflex-modernisation": 2,
+    "noop": 3,
+    "too-long": 1
+  },
+  "failed_requests": 0,
+  "usd": 4.16
+}

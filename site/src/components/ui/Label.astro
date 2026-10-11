@@ -1,0 +1,30 @@
+---
+/**
+ * Label: letter-spaced small-caps label with tabular numerals ("ÍNDICE A–Z", "SUMÁRIO", "PLACES MENTIONED · 7").
+ * Props:
+ *   as?: string            element (default 'span'; use 'h2'/'h3' for section titles in asides)
+ *   role?: 'ink'|'place'|'person'|'date'|'muted'   colour (default ink)
+ *   size?: 'micro'|'small'|'normal'|'large'         11px | 12px | 13px | 15px
+ *   wide?: boolean          extra tracking (.32em), for masthead taglines
+ *   bar?: boolean           short vermilion bar before the text (kicker)
+ *   count?: number|string   appended after a middot, in role colour ("· 07")
+ *   lang?: string           lang attribute if the label text differs from the page language
+ *   class?: string, id?: string
+ * Slot: label text.
+ */
+interface Props { as?: string; role?: 'ink' | 'place' | 'person' | 'date' | 'muted'; size?: 'micro' | 'small' | 'normal' | 'large'; wide?: boolean; bar?: boolean; count?: number | string; lang?: string; class?: string; id?: string }
+const { as: Tag = 'span', role = 'ink', size = 'small', wide = false, bar = false, count, lang, class: cls, id } = Astro.props;
+---
+<Tag class:list={['em-label', 'em-lbl', `em-lbl--${size}`, role !== 'muted' && `em-role-${role}`, { 'em-lbl--muted': role === 'muted', 'em-lbl--wide': wide, 'em-lbl--bar': bar, 'em-lbl--coloured': role !== 'ink' && role !== 'muted' }, cls]} lang={lang} id={id}><slot />{count !== undefined && count !== '' && <span class="em-lbl__count"> · {count}</span>}</Tag>
+<style>
+  .em-lbl { display: inline-flex; align-items: center; gap: .6em; margin: 0; }
+  .em-lbl--micro { font-size: var(--fs-micro); letter-spacing: .2em; }
+  .em-lbl--small { font-size: var(--fs-label); }
+  .em-lbl--normal { font-size: .8125rem; }
+  .em-lbl--large { font-size: .9375rem; letter-spacing: .26em; }
+  .em-lbl--wide { letter-spacing: var(--tracking-label-wide); }
+  .em-lbl--muted { color: var(--ink-3); }
+  .em-lbl--coloured { color: var(--role-ink); }
+  .em-lbl--bar::before { content: ''; width: 1.6em; height: .32em; background: var(--person); flex: none; }
+  .em-lbl__count { color: var(--person-ink); white-space: pre; }
+</style>

@@ -1,0 +1,46 @@
+---
+/**
+ * Hero: folio line, headword (fit-to-width condensed caps), Portuguese original in Didone italic,
+ * tags, abstract. Slot "aside" = map or plate column (desktop right / mobile below).
+ * Props: lang, a: Article, size: 'fragment'|'standard'|'long', folio: Folio items, minutes?: number
+ */
+import { t } from '../../i18n/ui';
+import type { Article } from '../../lib/data';
+import Folio from '../ui/Folio.astro';
+import TypeTag from '../ui/TypeTag.astro';
+import BigInitial from '../ui/BigInitial.astro';
+import { inline } from './inline';
+import { splitHeadword, headwordFit } from './model';
+interface Props { lang: string; a: Article; size: 'fragment' | 'standard' | 'long' | 'xref'; folio: any[]; minutes?: number }
+const { lang, a, size, folio, minutes } = Astro.props;
+const [main, qual] = splitHeadword(a.hw);
+const fit = headwordFit(main);
+const showPt = lang !== 'pt' && a.hw_pt && a.hw_pt.trim().toLowerCase() !== a.hw.trim().toLowerCase();
+const types = [...new Set(a.types.filter((c) => c && c !== 'meta.cross_reference'))];
+const absHtml = a.abs ? inline(a.abs) : '';
+const hasAside = Astro.slots.has('aside');
+const poster = size === 'long';
+---
+<header class:list={['ea-hero', `ea-hero--${size}`, { 'ea-hero--aside': hasAside, 'ea-hero--poster': poster }]}>
+  <Folio lang={lang} no={a.no} items={folio} class="ea-hero__folio">
+    {minutes && size !== 'fragment' && size !== 'xref' && <span slot="end" class="ea-hero__min">{minutes} {t(lang, 'min_read')}</span>}
+  </Folio>
+  <div class="ea-hero__grid">
+    {poster && <BigInitial text={a.hw} variant="poster" class="ea-hero__initial" />}
+    <div class="ea-hero__main">
+      <h1 class="ea-hw" style={`--hw-fit:${fit.css}`} data-len={fit.total}>
+        <span class="ea-hw__main">{main}</span>{qual && <> <span class="ea-hw__qual">{qual}</span></>}
+      </h1>
+      {showPt && <p class="ea-hwpt" lang="pt"><span class="em-sr-only">{t(lang, 'original_title')}: </span>{a.hw_pt}</p>}
+      {types.length > 0 && size !== 'xref' && (
+        <ul class="ea-tags" role="list">
+          {types.map((c, i) => <li><TypeTag code={c} lang={lang} primary={i === 0} /></li>)}
+        </ul>
+      )}
+      {absHtml && size !== 'xref' && (
+        <p class="ea-abs" lang={a.ml && a.ml !== lang ? a.ml : undefined}><Fragment set:html={absHtml} />{a.ml && a.ml !== lang && <abbr class="em-langmark" title={t(lang, 'in_english')}>{a.ml}</abbr>}</p>
+      )}
+    </div>
+    {hasAside && <div class="ea-hero__aside"><slot name="aside" /></div>}
+  </div>
+</header>

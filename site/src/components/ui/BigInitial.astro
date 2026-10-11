@@ -1,0 +1,28 @@
+---
+/**
+ * BigInitial: the giant vermilion initial (mockup: the red "C" beside "CALHETA", or a drop cap).
+ * Decorative (aria-hidden); the real text must still contain the letter.
+ * Props:
+ *   text?: string          derive the letter from the first letter of this text (skips quotes/punctuation)
+ *   letter?: string        explicit letter (wins over text)
+ *   role?: 'person'|'place'|'date'|'ink'   colour (default person = vermilion)
+ *   variant?: 'poster' | 'drop' | 'outline'
+ *                          poster = block element sized by --bi-size (default the headword size × 2)
+ *                          drop = floats left, ~4 lines tall, for the first paragraph
+ *                          outline = poster in hairline outline (index pages)
+ *   size?: string          CSS length for poster/outline (default var(--fs-poster))
+ *   class?: string
+ * For CSS-only drop caps on a paragraph use the global class `.em-dropcap` instead.
+ */
+interface Props { text?: string; letter?: string; role?: 'person' | 'place' | 'date' | 'ink'; variant?: 'poster' | 'drop' | 'outline'; size?: string; class?: string }
+const { text = '', letter, role = 'person', variant = 'poster', size, class: cls } = Astro.props;
+const ch = letter ?? (text.match(/\p{L}|\p{N}/u)?.[0] ?? '').toLocaleUpperCase();
+---
+{ch && <span class:list={['em-bi', `em-bi--${variant}`, `em-role-${role}`, cls]} style={size ? `--bi-size:${size}` : undefined} aria-hidden="true">{ch}</span>}
+<style>
+  .em-bi { font-family: var(--font-display); font-weight: var(--w-display-x); color: var(--role); line-height: .74; text-transform: uppercase; user-select: none; }
+  .em-bi--poster, .em-bi--outline { display: block; font-size: var(--bi-size, var(--fs-poster)); letter-spacing: -.02em; }
+  .em-bi--outline { color: transparent; -webkit-text-stroke: 1.5px var(--role); }
+  .em-bi--drop { float: left; font-size: 5.1em; margin: .04em .12em -.1em -.02em; line-height: .76; }
+  @media print { .em-bi { color: #000 !important; } }
+</style>

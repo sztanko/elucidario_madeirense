@@ -1,0 +1,110 @@
+# Featured articles on the home page, in display order. Curated 2026-10-05 (owner's brief: large articles, 4+ chapters
+# preferred; relevant and interesting to a modern reader; well written; unique knowledge; the Elucidário's own voice;
+# owner's must-haves: Levadas, Settlement and colonisation, Funchal, the French corsairs' sack, the Bombardment of Funchal).
+# Selected by Opus 5.5 reading abstracts, chapter summaries and excerpts of 131 candidates (data/10_run/featured_curated.json).
+# Edit freely: elucidario/stages/site_export.py reads this list (ids only; titles/notes are for humans).
+- id: levadas
+  title: Levadas
+  chapters: 29
+  why: The definitive account of Madeira's famous irrigation channels, from workers dangling in baskets off cliffs to five
+    centuries of water law, the walking paths and forests, all told with first-hand local knowledge.
+- id: descobrimento-do-arquipelago
+  title: Discovery of the archipelago
+  chapters: 5
+  why: A spirited, critical inquiry into when and how Madeira was really discovered, weighing legends and chroniclers before
+    concluding the islands were known before Zarco's 'official' landing.
+- id: saque-dos-franceses
+  title: Sack of Funchal by the French
+  chapters: 3
+  why: A dramatic narrative of the 1566 Huguenot corsair raid that plundered Funchal for sixteen days, driven by a renegade's
+    revenge and followed by diplomatic fallout.
+- id: regimen-florestal
+  title: Forest regime
+  chapters: 8
+  why: An impassioned, polemical history of how the primeval forest that gave Madeira its name was burned, felled and exported,
+    and a plea to save what remained.
+- id: industria-vinicola
+  title: Wine industry
+  chapters: 7
+  why: 'The story of Madeira wine from Cadamosto''s day to the 1930s: British merchant dominance, oidium and phylloxera, fraud,
+    grape types and how the wine was made.'
+- id: funchal-i-origem-do-nome
+  title: Funchal – I. Origin of the name
+  chapters: 6
+  why: Explains how the capital took its name from fennel in its valley and became the first city of Portugal's overseas empire,
+    with period descriptions of the amphitheatre city.
+- id: geologia
+  title: Geology
+  chapters: 6
+  why: A clear portrait of the island's volcanic birth around Curral das Freiras, its rocks, lava tubes and fajãs, linked
+    to local stone names and building uses.
+- id: motins-populares
+  title: Popular riots
+  chapters: 9
+  why: A vivid chronicle of four centuries of Madeiran riots, from Porto Santo's false prophets and a deposed governor to
+    stoning mobs, election shootings and the bread and milk riots of the 1930s.
+- id: clima
+  title: Climate
+  chapters: 5
+  why: 'Why Victorian Europe sent its consumptives to Funchal: the island''s famous climate explained through doctors'' testimonies,
+    measurements and the daily cycle of cloud and breeze.'
+- id: povoamento-e-colonizacao
+  title: Settlement and colonisation
+  chapters: 5
+  why: How the empty island was settled from about 1425, with great forest fires, slaves, land grants and near-sovereign captains,
+    the founding chapter of Madeiran society.
+- id: ingleses
+  title: The English
+  chapters: 5
+  why: A frank, often critical assessment of the British in Madeira, covering their designs on the island, their grip on the
+    wine trade, their privileges and their proud aloofness.
+- id: bombardeamento-do-funchal
+  title: Bombardment of Funchal
+  chapters: 2
+  why: A gripping, detailed account of German U-boats sinking ships in Funchal harbour and shelling the city in 1916 and 1917,
+    with names of the dead and the panic that followed.
+- id: aluvioes
+  title: Flash floods
+  chapters: 4
+  why: A chronicle of the flash floods that repeatedly devastated Madeira, above all the catastrophe of 1803 that killed some
+    600 people, a theme still painfully relevant today.
+- id: cana-sacarina
+  title: Sugar cane
+  chapters: 4
+  why: Traces the sugar cane that made Madeira rich in the 1500s and spread across the Atlantic world, then its collapse and
+    19th-century revival.
+- id: romarias
+  title: Pilgrimage festivals
+  chapters: 4
+  why: A lively, affectionate picture of rural pilgrimage festivals, with singing groups on the road, improvised verses, fireworks,
+    espetadas on laurel skewers and pilgrims fulfilling vows.
+- id: zargo-joao-goncalves
+  title: Zarco (João Gonçalves)
+  chapters: 8
+  why: The full biography of Madeira's discoverer and first captain, covering the debate over his name, his homes, family,
+    disputed death date, sword and statue.
+- id: nossa-senhora-do-monte-freguesia-de
+  title: Nossa Senhora do Monte (parish)
+  chapters: 4
+  why: The hillside parish above Funchal, with its legend of the Virgin's apparition, the island's greatest pilgrimage, its
+    quintas, railway and famous wicker toboggans.
+- id: selvagens
+  title: Savage Islands
+  chapters: 4
+  why: A portrait of the remote, uninhabited Savage Islands, covering shearwater hunts, legends of buried treasure and Shackleton's
+    plan to search for it.
+- id: se-catedral
+  title: Funchal Cathedral (the Sé)
+  chapters: 4
+  why: The history and treasures of Funchal's Manueline cathedral, with its celebrated cedar ceiling and a chronology running
+    from the Huguenot sack to the 1940 museum.
+- id: musica
+  title: Music
+  chapters: 6
+  why: Covers Madeira's folk songs with their supposed Moorish echoes, the braguinha and rajão, cathedral chapel masters and
+    the island's 19th-century musical life.
+- id: sport
+  title: Sport
+  chapters: 8
+  why: How football arrived with a sailor's ball in 1865 and grew into Marítimo's 1926 national title, alongside cricket,
+    tennis, sailing and the first motor car.

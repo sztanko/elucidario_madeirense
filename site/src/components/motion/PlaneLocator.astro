@@ -1,0 +1,61 @@
+---
+// "Where you are on the sheet" (owner: motion agent). Static inline SVG (≈1 KB, zero JS): the whole
+// encyclopedia as one sheet, letter regions in two tones, this article as a vermilion block with
+// crop-mark cross hairs. It is a link to the letter index (works without JS); with JS it opens the
+// Orientar overview instead (boot.ts handles [data-em-orientar]).
+//
+// Props:
+//   id     article id (required)
+//   lang   page language (required)
+//   size   rendered width in px of the sheet glyph (default 44; height follows the sheet aspect)
+//   label  show the caption ("On the sheet · C") next to the glyph (default true)
+//   class  extra class for placement
+// Styling hooks: .em-loc, .em-loc__sheet, .em-loc__cap, .em-loc__l; colours come from tokens.
+import { locator, planeIndex } from '../../motion/build';
+import { indexLetter } from '../../lib/urls';
+import { t } from '../../i18n/ui';
+
+interface Props { id: string; lang: string; size?: number; label?: boolean; class?: string }
+const { id, lang, size = 44, label = true, class: cls = '' } = Astro.props;
+const g = locator(planeIndex(id));
+const [p0, p1] = g ? g.paths.split('|') : ['', ''];
+const L = lang as any;
+---
+{g && (
+  <a
+    class:list={['em-loc', cls]}
+    href={indexLetter(lang)}
+    data-em-orientar
+    data-close={t(L, 'close')}
+    data-hint={t(L, 'plane_hint')}
+    aria-label={t(L, 'plane_open')}
+    title={t(L, 'plane_open')}
+  >
+    <svg class="em-loc__sheet" viewBox={`0 0 ${g.w} ${g.h}`} width={size} height={Math.round((size * g.h) / g.w)} aria-hidden="true" focusable="false">
+      <rect width={g.w} height={g.h} class="em-loc__paper" />
+      <path d={p0} class="em-loc__a" />
+      <path d={p1} class="em-loc__b" />
+      <path d={`M${g.mx + g.mw / 2} 0V${g.h}M0 ${g.my + g.mh / 2}H${g.w}`} class="em-loc__x" vector-effect="non-scaling-stroke" />
+      <rect x={g.mx} y={g.my} width={g.mw} height={g.mh} class="em-loc__m" />
+    </svg>
+    {label && <span class="em-loc__cap">{t(L, 'plane_here')} <b class="em-loc__l">{g.letter}</b></span>}
+  </a>
+)}
+<style>
+  .em-loc {
+    display: inline-flex; align-items: center; gap: .55rem; min-height: var(--tap, 44px);
+    color: var(--ink-3, #5e5a4f); text-decoration: none;
+    font: var(--w-label, 600) var(--fs-micro, .6875rem) / 1 var(--font-label, sans-serif);
+    letter-spacing: var(--tracking-label, .22em); text-transform: uppercase;
+  }
+  .em-loc:hover, .em-loc:focus-visible { color: var(--ink, #171b19); }
+  .em-loc:focus-visible { outline: 2px solid var(--person, #bd3426); outline-offset: 3px; }
+  .em-loc__sheet { display: block; flex: none; }
+  .em-loc__paper { fill: var(--paper-light, #f2ead8); stroke: var(--line, rgb(23 27 25 / .28)); stroke-width: 6; }
+  .em-loc__a { fill: rgb(23 27 25 / .2); }
+  .em-loc__b { fill: rgb(23 27 25 / .11); }
+  .em-loc__x { stroke: var(--person, #bd3426); stroke-width: 1; opacity: .55; }
+  .em-loc__m { fill: var(--person, #bd3426); }
+  .em-loc__l { color: var(--person-ink, #a32a1e); font-weight: 800; letter-spacing: .04em; }
+  @media print { .em-loc { display: none; } }
+</style>

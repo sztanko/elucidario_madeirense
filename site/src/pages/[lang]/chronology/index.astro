@@ -1,0 +1,80 @@
+---
+// Chronology: century -> decade, major events emphasised, brass timeline aesthetic.
+import Base from '../../../layouts/Base.astro';
+import Breadcrumbs from '../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../components/ui/SectionHead.astro';
+import EventChip from '../../../components/entity/EventChip.astro';
+import { fmtEdtf, fmtInt } from '../../../components/ui/format';
+import { languages, chronology } from '../../../lib/data';
+import { centuryOf, decadeOf, groupBy, toRoman } from '../../../components/pages/content';
+import { t } from '../../../i18n/ui';
+import * as u from '../../../lib/urls';
+
+export function getStaticPaths() {
+  return languages().map((lang) => ({ params: { lang } }));
+}
+const { lang } = Astro.params as { lang: string };
+const chron = chronology(lang);
+const dated = chron.filter((e) => e.y);
+const undated = chron.filter((e) => !e.y);
+
+const byCentury = groupBy(dated, (e) => centuryOf(e.y!));
+const centuries = [...byCentury.keys()].sort((a, b) => a - b);
+---
+<Base lang={lang} title={`${t(lang, 'chronology')} — Elucidário Madeirense`} description={t(lang, 'chronology')} kind="index">
+  <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'chronology') }]} />
+  <SectionHead size="xl" title={t(lang, 'chronology')} role="date" rule="below" />
+
+  <nav class="em-century-nav" aria-label={t(lang, 'century_label')}>
+    {centuries.map((c) => <a href={`#c-${c}`}>{toRoman(c)}</a>)}
+  </nav>
+
+  <div class="em-chron-root">
+    {centuries.map((c) => {
+      const events = byCentury.get(c)!;
+      const byDecade = groupBy(events, (e) => decadeOf(e.y!));
+      const decades = [...byDecade.keys()].sort((a, b) => a - b);
+      return (
+        <section id={`c-${c}`} class="em-century">
+          <h2>{toRoman(c)} <span class="em-n">{t(lang, 'century_label')} · {fmtInt(events.length, lang)}</span></h2>
+          {decades.map((d) => {
+            const evs = [...byDecade.get(d)!].sort((a, b) => (a.s0 || '').localeCompare(b.s0 || ''));
+            return (
+              <details class="em-decade" open>
+                <summary>{d}s <span class="em-n">{fmtInt(evs.length, lang)}</span></summary>
+                <ol class="em-event-list" role="list">
+                  {evs.map((ev) => (
+                    <EventChip lang={lang} id={ev.id} y={ev.y} label={fmtEdtf(ev.s0, ev.s1, lang)} sum={ev.sum} sig={ev.sig} ml={ev.ml} />
+                  ))}
+                </ol>
+              </details>
+            );
+          })}
+        </section>
+      );
+    })}
+
+    {undated.length > 0 && (
+      <section class="em-century">
+        <h2>{t(lang, 'all_events')} <span class="em-n">{fmtInt(undated.length, lang)}</span></h2>
+        <ol class="em-event-list" role="list">
+          {undated.map((ev) => (
+            <EventChip lang={lang} id={ev.id} y={null} label={fmtEdtf(ev.s0, ev.s1, lang)} sum={ev.sum} sig={ev.sig} ml={ev.ml} />
+          ))}
+        </ol>
+      </section>
+    )}
+  </div>
+</Base>
+<style>
+  .em-century-nav { display: flex; flex-wrap: wrap; gap: .4rem; padding: 0 var(--gutter) var(--s-5); max-width: var(--page-max); margin: 0 auto; position: sticky; top: var(--header-h); background: var(--paper); z-index: var(--z-raised); }
+  .em-century-nav a { color: var(--date-ink); text-decoration: none; border: 1px solid var(--line); padding: .2em .6em; font-family: var(--font-label); font-size: var(--fs-label); }
+  .em-century-nav a:hover { border-color: var(--date); }
+  .em-chron-root { padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin: 0 auto; }
+  .em-century { margin: var(--s-7) 0; }
+  .em-century h2 { font-family: var(--font-display); color: var(--date-ink); font-size: var(--fs-h2); border-bottom: 3px solid var(--date); margin: 0 0 var(--s-4); display: flex; align-items: baseline; gap: .6em; }
+  .em-n { font-size: var(--fs-small); opacity: .55; font-weight: 400; text-transform: none; letter-spacing: 0; }
+  .em-decade { margin: 0 0 var(--s-4); border-left: 3px solid var(--line); padding-left: var(--s-4); }
+  .em-decade summary { cursor: pointer; font-family: var(--font-label); font-weight: var(--w-label); letter-spacing: var(--tracking-label); text-transform: uppercase; font-size: var(--fs-label); color: var(--date-ink); margin-bottom: .4rem; }
+  .em-event-list { list-style: none; margin: 0; padding: 0; }
+</style>

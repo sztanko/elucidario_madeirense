@@ -1,0 +1,147 @@
+---
+/**
+ * Site header (design agent). Props contract: lang, multilingual.
+ * Desktop: one 64px bar: EM mark + wordmark · main nav · search · history · print · languages.
+ * Mobile (< 56rem): 56px bar: EM mark · page title · search toggle · menu (sheet with nav, languages, history, print).
+ * The search box is rendered ONCE (search agent's <SearchBox variant="header">); on mobile it becomes a drop-down row.
+ * Interactions use document-level delegation (works with Astro view transitions).
+ */
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+import { languages, meta } from '../../lib/data';
+import SearchBox from '../search/SearchBox.astro';
+import Icon from '../ui/Icon.astro';
+interface Props { lang: string; multilingual?: boolean }
+const { lang, multilingual = true } = Astro.props;
+const langs = languages();
+const names = Object.fromEntries(meta().languages.map((l) => [l.code, l.name]));
+const path = Astro.url.pathname;
+const homeLang = langs.includes(lang) ? lang : 'pt';
+const rel = path.replace(u.BASE, '');
+const seg = rel.split('/').filter(Boolean);
+const section = seg[0] === 'about' ? 'about' : seg[1] ?? 'home';
+const nav = [
+  { key: 'index', href: u.indexLetter(homeLang), on: section === 'index' || section === 'a' },
+  { key: 'places', href: u.placesPage(homeLang), on: section === 'places' || section === 'place' },
+  { key: 'people', href: u.peoplePage(homeLang), on: section === 'people' || section === 'person' },
+  { key: 'chronology', href: u.chronologyPage(homeLang), on: section === 'chronology' || section === 'year' },
+  { key: 'about', href: u.about(), on: section === 'about' },
+] as const;
+---
+<header class="em-hdr" data-chrome>
+  <div class="em-hdr__bar">
+    <a class="em-hdr__mark" href={u.home(homeLang)} title={`${t(lang, 'site')} · ${t(lang, 'back_home')}`}>
+      <span class="em-hdr__em" aria-hidden="true">EM</span>
+      <span class="em-hdr__word"><span>{t(lang, 'site')}</span></span>
+      <span class="em-sr-only">{t(lang, 'back_home')}</span>
+    </a>
+
+    <nav class="em-hdr__nav" aria-label={t(lang, 'menu')}>
+      <ul role="list">
+        {nav.map((n) => <li><a href={n.href} aria-current={n.on ? 'page' : undefined} class:list={{ on: n.on }}>{t(lang, n.key)}</a></li>)}
+      </ul>
+    </nav>
+
+    <div class="em-hdr__search" id="em-hdr-search" data-open="false">
+      <SearchBox lang={homeLang} variant="header" />
+    </div>
+
+    <div class="em-hdr__tools">
+      <button type="button" class="em-hdr__btn em-hdr__btn--search" data-em-toggle-search aria-controls="em-hdr-search" aria-expanded="false" title={t(lang, 'search')}>
+        <Icon name="search" size={21} /><span class="em-sr-only">{t(lang, 'search')}</span>
+      </button>
+      <button type="button" class="em-hdr__btn em-hdr__btn--hist" data-em-history-open aria-haspopup="dialog" title={t(lang, 'history')}>
+        <Icon name="history" size={21} /><span class="em-sr-only">{t(lang, 'history')}</span><span class="em-hdr__badge" data-em-history-count hidden></span>
+      </button>
+      <button type="button" class="em-hdr__btn em-hdr__btn--print" data-em-print title={t(lang, 'print')}>
+        <Icon name="print" size={21} /><span class="em-hdr__btxt">{t(lang, 'print')}</span>
+      </button>
+      {multilingual && (
+        <div class="em-hdr__lang">
+          {/* Language: a top-level drop-down that always shows the current language (desktop and mobile). */}
+          <button type="button" class="em-hdr__btn em-hdr__langbtn" data-em-lang-toggle aria-haspopup="true" aria-expanded="false"
+            aria-controls="em-hdr-langs" title={t(lang, 'language')}>
+            <span class="em-hdr__langcur">{lang.toUpperCase()}</span><Icon name="chevron-down" size={14} />
+            <span class="em-sr-only">{t(lang, 'language')}: {names[lang]}</span>
+          </button>
+          <ul class="em-hdr__langs" id="em-hdr-langs" role="list" aria-label={t(lang, 'language')} hidden>
+            {langs.map((l) => (
+              <li><a href={u.switchLang(path, l, langs)} hreflang={l} lang={l} title={names[l]} aria-current={l === lang ? 'true' : undefined} class:list={{ on: l === lang }}><b>{l.toUpperCase()}</b> {names[l]}</a></li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <button type="button" class="em-hdr__btn em-hdr__btn--menu" data-em-menu-open aria-haspopup="dialog" aria-controls="em-sheet" title={t(lang, 'menu')}>
+        <Icon name="menu" size={22} /><span class="em-sr-only">{t(lang, 'menu')}</span>
+      </button>
+    </div>
+  </div>
+
+  {/* Mobile menu: built on first open from the header's own nav and language links (header-client), so the
+      ~3 KB of duplicated markup is not shipped in every page. */}
+  <dialog class="em-sheet" id="em-sheet" aria-label={t(lang, 'menu')}
+    data-l={JSON.stringify({ site: t(lang, 'site'), close: t(lang, 'close'), language: t(lang, 'language'), history: t(lang, 'history'), print: t(lang, 'print'), home: t(lang, 'back_home'), menu: t(lang, 'menu') })}></dialog>
+</header>
+
+<script>
+  // Header interactions (delegated; survives view-transition swaps).
+  const q = (s: string) => document.querySelector(s) as HTMLElement | null;
+  function setSearch(open: boolean) {
+    const box = q('#em-hdr-search');
+    const btn = q('[data-em-toggle-search]');
+    if (!box || !btn) return;
+    box.dataset.open = String(open);
+    btn.setAttribute('aria-expanded', String(open));
+    if (open) (box.querySelector('input') as HTMLInputElement | null)?.focus();
+  }
+  const esc = (x: string) => x.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c]!);
+  function buildSheet(d: HTMLElement) {
+    if (d.dataset.built) return;
+    d.dataset.built = '1';
+    const L = JSON.parse(d.dataset.l || '{}');
+    const sprite = (document.querySelector('.em-hdr use')?.getAttribute('href') || '/icons.svg#').split('#')[0];
+    const icon = (n: string, s: number) => `<svg class="em-icon" width="${s}" height="${s}" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><use href="${sprite}#${n}"/></svg>`;
+    const home = (document.querySelector('.em-hdr__mark') as HTMLAnchorElement | null)?.getAttribute('href') || '/';
+    const nav = [...document.querySelectorAll<HTMLAnchorElement>('.em-hdr__nav a')].map((a, i) =>
+      `<li><a href="${esc(a.getAttribute('href')!)}"${a.getAttribute('aria-current') ? ' aria-current="page"' : ''}><span class="n">${i + 1}</span>${esc(a.textContent || '')}</a></li>`).join('');
+    d.innerHTML = `<div class="em-sheet__in"><div class="em-sheet__top"><span class="em-label">${esc(L.site)}</span>`
+      + `<button type="button" class="em-hdr__btn" data-em-close title="${esc(L.close)}">${icon('close', 22)}<span class="em-sr-only">${esc(L.close)}</span></button></div>`
+      + `<nav aria-label="${esc(L.menu)}"><ol class="em-sheet__nav" role="list"><li><a href="${esc(home)}"><span class="n">0</span>${esc(L.home)}</a></li>${nav}</ol></nav>`
+      + `<div class="em-sheet__tools"><button type="button" data-em-history-open>${icon('history', 20)} ${esc(L.history)}</button>`
+      + `<button type="button" data-em-print>${icon('print', 20)} ${esc(L.print)}</button></div></div>`;
+  }
+  document.addEventListener('click', (e) => {
+    const el = (e.target as Element).closest('[data-em-toggle-search],[data-em-print],[data-em-menu-open],[data-em-close]');
+    if (!el) return;
+    if (el.matches('[data-em-toggle-search]')) setSearch(q('#em-hdr-search')?.dataset.open !== 'true');
+    else if (el.matches('[data-em-print]')) { (q('#em-sheet') as HTMLDialogElement | null)?.close(); window.print(); }
+    else if (el.matches('[data-em-menu-open]')) { const d = q('#em-sheet') as HTMLDialogElement | null; if (d) { buildSheet(d); d.showModal(); } }
+    else if (el.matches('[data-em-close]')) (el.closest('dialog') as HTMLDialogElement | null)?.close();
+  });
+  // Click on the dialog backdrop closes it.
+  document.addEventListener('click', (e) => {
+    const d = e.target as HTMLElement;
+    if (d instanceof HTMLDialogElement && d.open) {
+      const r = d.getBoundingClientRect();
+      const ev = e as MouseEvent;
+      if (ev.clientX < r.left || ev.clientX > r.right || ev.clientY < r.top || ev.clientY > r.bottom) d.close();
+    }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && q('#em-hdr-search')?.dataset.open === 'true') setSearch(false);
+    if (e.key === 'Escape') setLangs(false);
+  });
+  // Language drop-down
+  function setLangs(open: boolean) {
+    const btn = q('[data-em-lang-toggle]'), list = q('#em-hdr-langs');
+    if (!btn || !list) return;
+    list.hidden = !open;
+    btn.setAttribute('aria-expanded', String(open));
+    if (open) (list.querySelector('a[aria-current]') as HTMLElement | null ?? list.querySelector('a'))?.focus({ preventScroll: true });
+  }
+  document.addEventListener('click', (e) => {
+    const el = e.target as Element;
+    if (el.closest('[data-em-lang-toggle]')) { setLangs(q('#em-hdr-langs')?.hidden ?? false); return; }
+    if (!el.closest('#em-hdr-langs')) setLangs(false);
+  });
+</script>

@@ -1,0 +1,26 @@
+---
+/**
+ * Rule: horizontal rule / hairline.
+ * Props:
+ *   weight?: 'hair' | 'mid' | 'heavy' | 'bar'   (1px | 2px | 5px | 9px; default 'hair')
+ *   role?: 'ink' | 'place' | 'person' | 'date'   colour (default ink; 'hair' uses a soft ink)
+ *   double?: boolean    heavy-over-hair "Scotch rule" (classic table/section top)
+ *   short?: boolean     a 2.5rem stub instead of full width (section markers)
+ *   class?: string
+ * Decorative by default (role="presentation"); pass semantic?: true to emit <hr>.
+ */
+interface Props { weight?: 'hair' | 'mid' | 'heavy' | 'bar'; role?: 'ink' | 'place' | 'person' | 'date'; double?: boolean; short?: boolean; semantic?: boolean; class?: string }
+const { weight = 'hair', role = 'ink', double = false, short = false, semantic = false, class: cls } = Astro.props;
+const Tag = semantic ? 'hr' : 'div';
+---
+<Tag class:list={['em-rule', `em-rule--${weight}`, `em-role-${role}`, { 'em-rule--double': double, 'em-rule--short': short }, cls]} role={semantic ? undefined : 'presentation'} />
+<style>
+  .em-rule { border: 0; margin: 0; width: 100%; height: 0; border-top: var(--rule-hair) solid var(--line); }
+  .em-rule--hair.em-role-ink { border-top-color: var(--line); }
+  .em-rule--hair:not(.em-role-ink) { border-top-color: var(--role); }
+  .em-rule--mid { border-top: var(--rule-mid) solid var(--role); }
+  .em-rule--heavy { border-top: var(--rule-heavy) solid var(--role); }
+  .em-rule--bar { border-top: var(--rule-bar) solid var(--role); }
+  .em-rule--double { height: 4px; border-bottom: var(--rule-hair) solid var(--role); }
+  .em-rule--short { width: 2.5rem; }
+</style>

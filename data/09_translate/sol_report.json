@@ -1,0 +1,312 @@
+{
+ "scores": {
+  "de:opus_low": {
+   "fidelity": 4.5,
+   "fluency": 4.38,
+   "terminology": 4.36,
+   "format": 4.36,
+   "n": 42
+  },
+  "de:sol56": {
+   "fidelity": 4.33,
+   "fluency": 4.52,
+   "terminology": 4.19,
+   "format": 4.64,
+   "n": 42
+  },
+  "de:sol6": {
+   "fidelity": 4.07,
+   "fluency": 4.48,
+   "terminology": 3.98,
+   "format": 4.36,
+   "n": 42
+  },
+  "de:sonnet": {
+   "fidelity": 3.88,
+   "fluency": 3.36,
+   "terminology": 3.43,
+   "format": 3.79,
+   "n": 42
+  },
+  "en:opus_low": {
+   "fidelity": 4.55,
+   "fluency": 4.26,
+   "terminology": 4.48,
+   "format": 4.36,
+   "n": 42
+  },
+  "en:sol56": {
+   "fidelity": 4.48,
+   "fluency": 4.74,
+   "terminology": 4.24,
+   "format": 4.48,
+   "n": 42
+  },
+  "en:sol6": {
+   "fidelity": 4.1,
+   "fluency": 4.83,
+   "terminology": 4.07,
+   "format": 4.29,
+   "n": 42
+  },
+  "en:sonnet": {
+   "fidelity": 4.05,
+   "fluency": 3.45,
+   "terminology": 3.88,
+   "format": 3.86,
+   "n": 42
+  },
+  "hu:opus_low": {
+   "fidelity": 4.5,
+   "fluency": 4.38,
+   "terminology": 4.4,
+   "format": 4.57,
+   "n": 42
+  },
+  "hu:sol56": {
+   "fidelity": 4.5,
+   "fluency": 4.45,
+   "terminology": 4.14,
+   "format": 4.55,
+   "n": 42
+  },
+  "hu:sol6": {
+   "fidelity": 4.45,
+   "fluency": 4.69,
+   "terminology": 4.36,
+   "format": 4.62,
+   "n": 42
+  },
+  "hu:sonnet": {
+   "fidelity": 3.21,
+   "fluency": 3.1,
+   "terminology": 3.05,
+   "format": 3.48,
+   "n": 42
+  },
+  "ru:opus_low": {
+   "fidelity": 4.17,
+   "fluency": 4.26,
+   "terminology": 4.0,
+   "format": 4.19,
+   "n": 42
+  },
+  "ru:sol56": {
+   "fidelity": 4.55,
+   "fluency": 4.74,
+   "terminology": 4.24,
+   "format": 4.57,
+   "n": 42
+  },
+  "ru:sol6": {
+   "fidelity": 4.19,
+   "fluency": 4.69,
+   "terminology": 4.02,
+   "format": 4.38,
+   "n": 42
+  },
+  "ru:sonnet": {
+   "fidelity": 3.33,
+   "fluency": 3.31,
+   "terminology": 2.62,
+   "format": 3.29,
+   "n": 42
+  }
+ },
+ "wins": {
+  "en": {
+   "opus_low": 19,
+   "sol56": 17,
+   "sol6": 6
+  },
+  "ru": {
+   "sol6": 7,
+   "sol56": 23,
+   "opus_low": 11,
+   "sonnet": 1
+  },
+  "hu": {
+   "opus_low": 18,
+   "sol6": 17,
+   "sol56": 7
+  },
+  "de": {
+   "sol56": 14,
+   "sonnet": 1,
+   "opus_low": 22,
+   "sol6": 5
+  }
+ },
+ "pilot_usd": {
+  "haiku": 3.99,
+  "sonnet": 4.41,
+  "opus_low": 22.65,
+  "opus_med": 24.41,
+  "sol56": 3.3511,
+  "sol6": 1.3712
+ },
+ "judge_usd": 3.87,
+ "judge_job": "translate_judge_sol",
+ "sample_errors": {
+  "en:opus_low": [
+   "Somewhat literal phrasing in places ('in the school of that illustrious... prince')",
+   "'patents of nobility' is a loose rendering of 'pergaminhos'",
+   "Stray punctuation '. . . .' retained from the source in the Saudades quotation",
+   "'Arco' left as a shortened name without clarification (minor)",
+   "'Heredia' left unaccented once, inconsistent with 'Herédia' elsewhere",
+   "'chantry' is debatable for a physical chapel that was demolished",
+   "translates the proper name 'ribeira de São Pedro' as 'the stream of São Pedro' instead of keeping it",
+   "'brooks' understates 'ribeiros' and sits oddly with the regional register"
+  ],
+  "en:sonnet": [
+   "Garbled phrase 'most much the knight'",
+   "Translates the cross-referenced article title as 'Residences of Zargo' instead of keeping 'Moradias de Zargo'",
+   "'his residence was' changes the source's present-tense 'is'",
+   "Questionable added gloss '(reino, i.e. mainland Portugal)'",
+   "'public-spirited' is an odd rendering of 'benemérito'",
+   "b011 keeps the awkward Portuguese inverted structure ('He was born... : the distinguished priest')",
+   "'algures' rendered as 'elsewhere' instead of 'somewhere'",
+   "inconsistent accents ('Antonio Januario' vs 'Francisco António')"
+  ],
+  "en:sol56": [
+   "Adds the epithet 'the Navigator' inside the quotations from Monterroio and Frutuoso",
+   "Redundant 'chapel of São Paulo... dedicated to St Paul'",
+   "Calls the 'igreja' of Santa Catarina a 'chapel'",
+   "Restructures Frutuoso's quotation into modern sentences",
+   "'offices of great responsibility' slightly shifts 'cargos de substancia'",
+   "mistranslates 'bizarra' as 'eccentric' (means lavish/gallant)",
+   "restructures b014 so he 'died after travelling', implying a sequence not in the source",
+   "generalises 'toda a ilha' and 'desta ilha' to 'Madeira'"
+  ],
+  "en:sol6": [
+   "Adds 'the Navigator' inside quoted passages",
+   "Changes Frutuoso's 'Zarco' spelling to 'Zargo' within the quotation",
+   "Drops the 'school' metaphor in b014",
+   "Heavy sentence-splitting of the quotations loses period flavour",
+   "mistranslates 'tersa' as 'statutory share' (it is the freely disposable third)",
+   "adds 'here in Madeira' for 'entre nós'",
+   "drops accents on names (Antonio, Januario, Isilio)",
+   "omits the gloss for 'provedor'"
+  ],
+  "ru:sol56": [
+   "'fabrica da igreja' reduced to 'приходская церковь'",
+   "'benemérito conselheiro' rendered as two titles: 'благотворитель и советник'",
+   "'trinta contos de reis' not converted to a full figure (30,000,000 réis)",
+   "renders source 'Zargo' in b000 as 'Зарку', contrary to the source's own argued spelling",
+   "'Soldado' rendered as 'Воин' in quote (minor)",
+   "'Диогу Гомиша' drops 'де Синтра' in the Russian rendering",
+   "omits 'plena' (в полной мере) in b039",
+   "b039 makes the statue itself the thing described on p. 394, rather than the event"
+  ],
+  "ru:sol6": [
+   "'trinta contos de reis' not converted to a full figure (30,000,000 réis)",
+   "'também' rendered as 'вновь', a slight shift in meaning",
+   "inconsistent italics on '(distrito)' and 'conselheiro'",
+   "'descobrimento' rendered as 'экспедицию'",
+   "'verdadeiramente marca' misread as the adjective 'подлинное… начало'",
+   "'Não será inteiramente descabido' flattened to 'будет уместно'",
+   "Frutuoso's archaic quotation broken into modernised short sentences, losing its style",
+   "paraphrases the legend-making mechanism in b004 ('приписывать… конкретному человеку')"
+  ],
+  "ru:sonnet": [
+   "grammatical error: 'в местности Фалка приход Боавентуры'",
+   "omits original-language names on first mention (Teixeira, Seabra, Ribeiro)",
+   "mistransliterated title 'Эпоха администрасан'",
+   "'fabrica' mistranslated as 'причт'",
+   "overgeneralizes: all epidemics avoided, where the source says some",
+   "gives the original as 'João Gonçalves Zarco' although the source has Zargo",
+   "inconsistent title: 'Саудадеш' vs «Тоски по родной земле»; 'инфанта дона Энрики' vs 'Генриха Мореплавателя'",
+   "redundant glosses '(*carta régia*, королевская грамота)' and '(*praça*, крепость)'"
+  ],
+  "ru:opus_low": [
+   "garbled currency: 'тридцать конту (conto, миллион рейсов) рейс'",
+   "awkward 'сочетается со здоровым местом'",
+   "redundant gloss: '(sítio) Фалка (sítio da Falca)'",
+   "adds a translator's note '[Прим. пер.: …]' not in the source",
+   "Latin-script spellings Zarco/Zargo/Zarquo not italicised, unlike *carta régia*",
+   "no gloss of meaning for São Miguel/Santa Maria",
+   "odd transcription 'Нашсименту' (should be Насименту)",
+   "'занимавшиеся этим трудом' slightly narrows 'dela'"
+  ],
+  "hu:sonnet": [
+   "leaves 'silvados' untranslated with a Portuguese plural ending ('A silvados'), which reads as a garbled noun",
+   "'gyomorgörcs' (stomach cramp) is a slight narrowing of 'cólicas'",
+   "'fiatal hajtások' is less idiomatic than 'zsenge hajtások' for 'ramos tenros'",
+   "'a befolyást időnként túl is lépték' mistranslates 'abusavam dessa influencia'",
+   "Adds an explanatory gloss for lombada that is not in the source",
+   "'fiának' (sons) for 'filhos' (children)",
+   "Excessive italic term glosses, e.g. (*porto*), (*capitão*), (*povoador*)",
+   "Awkward phrasing: 'áthatolhatlan bozontos erdők', 'adományleveleikben', 'nem torolták meg'"
+  ],
+  "hu:sol56": [
+   "drops the local term 'amoras de silva' and renders it only as 'szeder'",
+   "'4. nemzedékbeli unokáját' is an awkward, unclear rendering of '4.° neto'",
+   "Adds the surname 'Teixeira' to Tristão Vaz, which is not in the source",
+   "Minor paraphrase: 'kikötőhelye nagy' for 'amplidão do porto'",
+   "Shifts the present-tense statements (price rule, factory, decree) into the past tense",
+   "Renders 'Fabrica do Torreão' as a common noun ('Torreão gyár')",
+   "The 'nem engedélyezett … sem pedig' construction is awkward",
+   "adds 'Madeira' not in source"
+  ],
+  "hu:opus_low": [
+   "'gargarizálásra' is a nonstandard variant of 'gargalizálásra'",
+   "'hasfájás' (stomach ache) is a slightly loose rendering of 'cólicas'",
+   "'vejének' is singular; the source has 'genros' (sons-in-law, plural)",
+   "'Zarco 4. unokája' mistranslates '4.° neto' as '4th grandchild'",
+   "Overly literal: 'Madeira újra benépesült erdei fajokkal'",
+   "Long, heavy sentence in the b021 comparison passage",
+   "'a meglévő termelőkapacitását' is ungrammatical; the noun 'üzem' is missing",
+   "'Cukorvédővámrendszer' is an awkward rendering of 'Proteccionismo Sacarino'"
+  ],
+  "hu:sol6": [
+   "drops the local term 'amoras de silva'",
+   "the generic 'görcsöt' loses the sense of 'cólicas' (colic)",
+   "'strandok' is slightly anachronistic for 'praias'",
+   "Adds quotation marks around 'a sziget kapitányának'",
+   "Adds the surname 'Teixeira' to Tristão Vaz",
+   "'Cukrot a Fábrica...' lacks the definite article (minor)",
+   "'főkapitányok' loosely renders 'Capitais-Generais' (captains-general), though acceptable",
+   "'um quarto de vinho' interpreted as 'egynegyed pipa' (a plausible but interpretive reading)"
+  ],
+  "de:opus_low": [
+   "renders 'capitão de mar e guerra' as 'Fregattenkapitän' (rank one below; should be Kapitän zur See)",
+   "'Mangel an Würde und Skrupeln' slightly awkward",
+   "'alvará régio' not italicized",
+   "'Gründe' for terrenos is regional and slightly odd",
+   "'geweiht' for 'benzida' slightly overstated",
+   "Portuguese headword not italicized",
+   "b002: clumsy clause 'sie hätten dort festgehalten oder zumindest ihre ... Herkunft angegeben werden müssen' (the subjects don't match)",
+   "modernizes name spellings (António, Santana) against source forms"
+  ],
+  "de:sol6": [
+   "'desta ilha' rendered as 'auf Madeira' (minor shift)",
+   "over-splits sentences, choppy in places",
+   "'zeichneten sich aus' loses ironic 'proezas' nuance",
+   "mistranslates 'lugar' as 'Dorf'",
+   "'vor der Gründung der Gemeinde' makes it unclear which parish's founding the name predates",
+   "Conselho de Fazenda left unglossed and unitalicized",
+   "choppy sentence splitting",
+   "Portuguese headword not italicized"
+  ],
+  "de:sonnet": [
+   "'Kapitän zur See und Kriegsmarine' is an erroneous calque",
+   "grammar: 'in Begleitung von Büttel' should be 'Bütteln'",
+   "overlong, heavy sentences",
+   "awkward 'wann der Arco zu besiedeln begann'",
+   "'geweiht' for 'benzida' (blessed) slightly overstated",
+   "'wurde mit dem Bau begonnen' loses 'ordered construction' nuance",
+   "Portuguese headword not italicized",
+   "b001: misattributes the subject: 'Da wir ... Erläuterungen beitragen können' (the pamphlet provides the clarification)"
+  ],
+  "de:sol56": [
+   "'irgendwie wertvoll' slightly loose for 'de algum valor'",
+   "'älter als die Gründung der Gemeinde' makes it unclear which parish's founding is meant",
+   "inconsistent unaccented 'Antonio' and 'Estevão'",
+   "restructured b004 makes the visit the main clause",
+   "'mit dem Bau begonnen' instead of 'ordered construction'",
+   "b003: Riqueza is left unglossed (minor)",
+   "adds concessive 'obwohl', distorting the logic of the literacy sentence",
+   "'gewaltigen' drops 'hercúlea'"
+  ]
+ }
+}

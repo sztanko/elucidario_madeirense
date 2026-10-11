@@ -1,0 +1,21 @@
+---
+/**
+ * EnumList: one restored enumeration (data/13_lists). Ordered lists keep the PRINTED markers ("2.°", "a)", "I") in a
+ * hanging column instead of CSS numbering (the source's numbering is not always 1, 2, 3); labels ("Achadas da Cruz:")
+ * are bold; level-1 items nest under their parent.
+ */
+import type { EnumItem } from './model';
+interface Props { ordered: boolean; items: EnumItem[]; sub?: boolean }
+const { ordered, items, sub = false } = Astro.props;
+const Tag = ordered ? 'ol' : 'ul';
+const cls = ['ea-enum__list', ordered && 'is-ord', sub && 'ea-enum__sub'].filter(Boolean).join(' ');
+---
+<Tag class={cls} role="list">
+  {items.map((it) => (
+    <li id={it.id} class:list={['ea-enum__li', { 'has-m': !!it.marker }]}>
+      {it.marker && <span class="ea-enum__m">{it.marker}</span>}
+      {it.label && <strong class="ea-enum__l" set:html={it.label + ':'} />} <span set:html={it.html} />
+      {it.sub?.length > 0 && <Astro.self ordered={it.sub.some((x) => x.marker)} items={it.sub.map((x) => ({ ...x, sub: [] }))} sub />}
+    </li>
+  ))}
+</Tag>

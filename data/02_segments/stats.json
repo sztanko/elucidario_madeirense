@@ -1,0 +1,37 @@
+{
+  "1": {
+    "paragraphs": 4053,
+    "candidates": 1616,
+    "articles": 1355,
+    "by_kind": {
+      "type_start": 1272,
+      "type_mid": 35,
+      "hidden": 47
+    },
+    "rejected_strong": 0
+  },
+  "2": {
+    "paragraphs": 4336,
+    "candidates": 1640,
+    "articles": 1288,
+    "by_kind": {
+      "type_start": 1217,
+      "type_mid": 14,
+      "hidden": 57
+    },
+    "rejected_strong": 12
+  },
+  "3": {
+    "paragraphs": 4407,
+    "candidates": 1452,
+    "articles": 1197,
+    "by_kind": {
+      "type_start": 1134,
+      "type_mid": 4,
+      "hidden": 58
+    },
+    "rejected_strong": 2
+  },
+  "total_articles": 3840,
+  "review": 0
+}

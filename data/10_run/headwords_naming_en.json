@@ -1,0 +1,1457 @@
+[
+ {
+  "id": "recolhimento-das-orfas",
+  "before": "Recolhimento das Órfãs",
+  "after": "Orphan Girls’ Retreat"
+ },
+ {
+  "id": "reis-magos-capela-dos",
+  "before": "Reis Magos (chapel)",
+  "after": "Magi (chapel)"
+ },
+ {
+  "id": "resenha-cronologica-do-jornalismo-madeirense",
+  "before": "Resenha Cronológica do Jornalismo Madeirense",
+  "after": "Chronological Survey of Madeiran Journalism"
+ },
+ {
+  "id": "romanceiro-do-archipelago-da-madeira",
+  "before": "Romanceiro do Archipelago da Madeira",
+  "after": "Ballad Collection of the Madeira Archipelago"
+ },
+ {
+  "id": "sagrado-coracao-de-jesus-capela-do",
+  "before": "Sagrado Coração de Jesus (chapel)",
+  "after": "Sacred Heart (chapel)"
+ },
+ {
+  "id": "santana-capelas-de",
+  "before": "Santana (chapels)",
+  "after": "St Anne (chapels)"
+ },
+ {
+  "id": "santa-apolonia",
+  "before": "Santa Apolónia",
+  "after": "St Apollonia (chapel)"
+ },
+ {
+  "id": "santa-brigida-capela-de",
+  "before": "Santa Brígida (chapel)",
+  "after": "St Brigid (chapel)"
+ },
+ {
+  "id": "santa-catarina-capela-de",
+  "before": "Santa Catarina (chapel)",
+  "after": "St Catherine (chapel)"
+ },
+ {
+  "id": "santa-clara-igreja-de",
+  "before": "Santa Clara (church)",
+  "after": "St Clare (church)"
+ },
+ {
+  "id": "santa-isabel-capelas-de",
+  "before": "Santa Isabel (chapels)",
+  "after": "St Elizabeth (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-amparo-capelas-de",
+  "before": "Nossa Senhora do Amparo (chapels)",
+  "after": "Our Lady of Protection (chapels)"
+ },
+ {
+  "id": "nossa-senhora-das-angustias-capela-de",
+  "before": "Nossa Senhora das Angústias (chapel)",
+  "after": "Our Lady of Sorrows (chapel)"
+ },
+ {
+  "id": "nossa-senhora-dos-anjos-capela-de",
+  "before": "Nossa Senhora dos Anjos (chapel)",
+  "after": "Our Lady of the Angels (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-apresentacao-capela-de",
+  "before": "Nossa Senhora da Apresentação (chapel)",
+  "after": "Presentation of Our Lady (chapel)"
+ },
+ {
+  "id": "nossa-senhora-de-belem-capela-de",
+  "before": "Nossa Senhora de Belém (chapel)",
+  "after": "Our Lady of Bethlehem (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-boa-hora-capelas-de",
+  "before": "Nossa Senhora da Boa Hora (chapels)",
+  "after": "Our Lady of the Good Hour (chapels)"
+ },
+ {
+  "id": "nossa-senhora-da-boa-morte-capela-de",
+  "before": "Nossa Senhora da Boa Morte (chapel)",
+  "after": "Our Lady of the Good Death (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-boa-nova-capela-de",
+  "before": "Nossa Senhora da Boa Nova (chapel)",
+  "after": "Our Lady of the Good News (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-boa-viagem-capelas-de",
+  "before": "Nossa Senhora da Boa Viagem (chapels)",
+  "after": "Our Lady of the Good Voyage (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-bom-despacho-capela-de",
+  "before": "Nossa Senhora do Bom Despacho (chapel)",
+  "after": "Our Lady of Good Dispatch (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-bom-sucesso-capelas-de",
+  "before": "Nossa Senhora do Bom Sucesso (chapels)",
+  "after": "Our Lady of Good Success (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-calhau-igreja-de",
+  "before": "Nossa Senhora do Calhau (church)",
+  "after": "Our Lady of Calhau (church)"
+ },
+ {
+  "id": "nossa-senhora-da-cadeira-capela-de",
+  "before": "Nossa Senhora da Cadeira (chapel)",
+  "after": "Our Lady of the Chair (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-candelaria-capela-de",
+  "before": "Nossa Senhora da Candelária (chapel)",
+  "after": "Our Lady of Candlemas (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-carmo-capela-de",
+  "before": "Nossa Senhora do Carmo (chapel)",
+  "after": "Our Lady of Mount Carmel (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-carmo-igreja-de",
+  "before": "Nossa Senhora do Carmo (church)",
+  "after": "Our Lady of Mount Carmel (church)"
+ },
+ {
+  "id": "nossa-senhora-da-conceicao-capelas-de",
+  "before": "Nossa Senhora da Conceição (chapels)",
+  "after": "Immaculate Conception (chapels)"
+ },
+ {
+  "id": "nossa-senhora-da-conceicao-do-ilheu-capela-de",
+  "before": "Nossa Senhora da Conceição do Ilhéu (chapel)",
+  "after": "Immaculate Conception of the Islet (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-consolacao-capelas-de",
+  "before": "Nossa Senhora da Consolação (chapels)",
+  "after": "Our Lady of Consolation (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-descanso-capela-de",
+  "before": "Nossa Senhora do Descanso (chapel)",
+  "after": "Our Lady of Rest (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-desterro-capela-de",
+  "before": "Nossa Senhora do Desterro (chapel)",
+  "after": "Our Lady of the Flight into Egypt (chapel)"
+ },
+ {
+  "id": "nossa-senhora-das-dores",
+  "before": "Nossa Senhora das Dores",
+  "after": "Our Lady of Sorrows"
+ },
+ {
+  "id": "nossa-senhora-da-fatima",
+  "before": "Nossa Senhora de Fátima",
+  "after": "Our Lady of Fátima"
+ },
+ {
+  "id": "nossa-senhora-da-fe-capelas-de",
+  "before": "Nossa Senhora da Fé (chapels)",
+  "after": "Our Lady of Faith (chapels)"
+ },
+ {
+  "id": "nossa-senhora-da-gloria-capela-de",
+  "before": "Nossa Senhora da Glória (chapel)",
+  "after": "Our Lady of Glory (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-graca-capelas-de",
+  "before": "Nossa Senhora da Graça (chapels)",
+  "after": "Our Lady of Grace (chapels)"
+ },
+ {
+  "id": "nossa-senhora-da-incarnacao-capela-de",
+  "before": "Nossa Senhora da Incarnação (chapel)",
+  "after": "Our Lady of the Incarnation (chapel)"
+ },
+ {
+  "id": "nossa-senhora-de-jesus-capela-de",
+  "before": "Nossa Senhora de Jesus (chapel)",
+  "after": "Our Lady of Jesus (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-livramento-capelas-de",
+  "before": "Nossa Senhora do Livramento (chapels)",
+  "after": "Our Lady of Deliverance (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-loreto-capela-de",
+  "before": "Nossa Senhora do Loreto (chapel)",
+  "after": "Our Lady of Loreto (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-luz",
+  "before": "Nossa Senhora da Luz",
+  "after": "Our Lady of Light"
+ },
+ {
+  "id": "nossa-senhora-mae-dos-homens",
+  "before": "Nossa Senhora Mãe dos Homens",
+  "after": "Our Lady Mother of Mankind"
+ },
+ {
+  "id": "nossa-senhora-das-maravilhas-capela-de",
+  "before": "Nossa Senhora das Maravilhas (chapel)",
+  "after": "Our Lady of Wonders (chapel)"
+ },
+ {
+  "id": "nossa-senhora-das-merces-capela-de",
+  "before": "Nossa Senhora das Mercês (chapel)",
+  "after": "Our Lady of Ransom (chapel)"
+ },
+ {
+  "id": "nossa-senhora-dos-milagres-capelas-de",
+  "before": "Nossa Senhora dos Milagres (chapels)",
+  "after": "Our Lady of Miracles (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-monserrate-capela-de",
+  "before": "Nossa Senhora do Monserrate (chapel)",
+  "after": "Our Lady of Montserrat (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-monte-capela-de",
+  "before": "Nossa Senhora do Monte (chapel)",
+  "after": "Our Lady of the Mount (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-natividade-capela-de",
+  "before": "Nossa Senhora da Natividade (chapel)",
+  "after": "Nativity of Our Lady (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-nazare-capelas-de",
+  "before": "Nossa Senhora da Nazaré (chapels)",
+  "after": "Our Lady of Nazaré (chapels)"
+ },
+ {
+  "id": "nossa-senhora-das-neves-capela-de",
+  "before": "Nossa Senhora das Neves (chapel)",
+  "after": "Our Lady of the Snows (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-paz-capela-de",
+  "before": "Nossa Senhora da Paz (chapel)",
+  "after": "Our Lady of Peace (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-pena-capela-de",
+  "before": "Nossa Senhora da Pena (chapel)",
+  "after": "Our Lady of the Rock (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-penha-de-franca-capela-de",
+  "before": "Nossa Senhora da Penha de França (chapel)",
+  "after": "Our Lady of the Peña de Francia (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-perpetuo-socorro-capela-de",
+  "before": "Nossa Senhora do Perpétuo Socorro (chapel)",
+  "after": "Our Lady of Perpetual Succour (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-piedade-capelas-de",
+  "before": "Nossa Senhora da Piedade (chapels)",
+  "after": "Our Lady of Pity (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-pilar-capela-de",
+  "before": "Nossa Senhora do Pilar (chapel)",
+  "after": "Our Lady of the Pillar (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-populo-capela-de",
+  "before": "Nossa Senhora do Pópulo (chapel)",
+  "after": "Our Lady of the People (chapel)"
+ },
+ {
+  "id": "nossa-senhora-dos-prazeres-capelas-de",
+  "before": "Nossa Senhora dos Prazeres (chapels)",
+  "after": "Our Lady of the Joys (chapels)"
+ },
+ {
+  "id": "nossa-senhora-das-preces-capelas-de",
+  "before": "Nossa Senhora das Preces (chapels)",
+  "after": "Our Lady of Prayers (chapels)"
+ },
+ {
+  "id": "nossa-senhora-da-quietacao-capela-de",
+  "before": "Nossa Senhora da Quietação (chapel)",
+  "after": "Our Lady of Quietude (chapel)"
+ },
+ {
+  "id": "nossa-senhora-dos-remedios-capela-de",
+  "before": "Nossa Senhora dos Remédios (chapel)",
+  "after": "Our Lady of Remedies (chapel)"
+ },
+ {
+  "id": "nossa-senhora-dos-remedios-e-amparo-capela-de",
+  "before": "Nossa Senhora dos Remédios e Amparo (chapel)",
+  "after": "Our Lady of Remedies and Protection (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-rosario-capelas-de",
+  "before": "Nossa Senhora do Rosário (chapels)",
+  "after": "Our Lady of the Rosary (chapels)"
+ },
+ {
+  "id": "nossa-senhora-da-salvacao-capelas-de",
+  "before": "Nossa Senhora da Salvação (chapels)",
+  "after": "Our Lady of Salvation (chapels)"
+ },
+ {
+  "id": "nossa-senhora-da-saude-capela-de",
+  "before": "Nossa Senhora da Saúde (chapel)",
+  "after": "Our Lady of Health (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-saude-do-monte-olivete-capela-de",
+  "before": "Nossa Senhora da Saúde do Monte Olivete (chapel)",
+  "after": "Our Lady of Health of the Mount of Olives (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-socorro-capelas-de",
+  "before": "Nossa Senhora do Socorro (chapels)",
+  "after": "Our Lady of Succour (chapels)"
+ },
+ {
+  "id": "florenca",
+  "before": "Florença",
+  "after": "Florence"
+ },
+ {
+  "id": "flores-da-madeira",
+  "before": "Flores da Madeira",
+  "after": "Flowers of Madeira"
+ },
+ {
+  "id": "fortificacoes--forte-de-santo-antonio-da-alfandega",
+  "before": "Santo António da Alfândega (fort)",
+  "after": "St Anthony da Alfândega (fort)"
+ },
+ {
+  "id": "fortificacoes--forte-da-penha-de-franca",
+  "before": "Penha de França (fort)",
+  "after": "Our Lady of the Peña de Francia (fort)"
+ },
+ {
+  "id": "forte-de-s-jose-da-ilha-do-porto-santo",
+  "before": "São José, Porto Santo (fort)",
+  "after": "St Joseph, Porto Santo (fort)"
+ },
+ {
+  "id": "funchal-i-origem-do-nome",
+  "before": "Funchal – I Origin of the name",
+  "after": "Funchal – I. Origin of the name"
+ },
+ {
+  "id": "funchal-diocese-do",
+  "before": "Funchal (diocese)",
+  "after": "Diocese of Funchal"
+ },
+ {
+  "id": "gabinete-de-historia-natural-antigo",
+  "before": "Former Natural History Cabinet",
+  "after": "Old Natural History Cabinet"
+ },
+ {
+  "id": "garantia-funchalense",
+  "before": "Garantia Funchalense",
+  "after": "Funchal Guarantee"
+ },
+ {
+  "id": "guyaneida-a",
+  "before": "Guyaneida (A)",
+  "after": "Guiana Epic"
+ },
+ {
+  "id": "heraldo-da-madeira-o",
+  "before": "Heraldo da Madeira (O)",
+  "after": "Heraldo da Madeira"
+ },
+ {
+  "id": "historia-insulana",
+  "before": "Historia Insulana",
+  "after": "Island History"
+ },
+ {
+  "id": "historia-insulana-comissao-de",
+  "before": "Historia Insulana (commission)",
+  "after": "Island History (commission)"
+ },
+ {
+  "id": "homenagem-de-desagravo-ao-redemptor-do-mundo",
+  "before": "Homenagem de Desagravo ao Redemptor do Mundo",
+  "after": "Homage of Reparation to the Redeemer of the World"
+ },
+ {
+  "id": "hospicio-da-princesa-d-maria-amelia",
+  "before": "Hospício da Princesa Dona Maria Amélia",
+  "after": "Princess Maria Amélia Hospice"
+ },
+ {
+  "id": "hospital-de-santa-isabel",
+  "before": "Hospital de Santa Isabel",
+  "after": "St Elizabeth’s Hospital"
+ },
+ {
+  "id": "hospital-de-s-lazaro",
+  "before": "Hospital de São Lázaro",
+  "after": "St Lazarus’s Hospital"
+ },
+ {
+  "id": "hospital-dos-marmeleiros",
+  "before": "Hospital dos Marmeleiros",
+  "after": "Marmeleiros Hospital"
+ },
+ {
+  "id": "imaculado-coracao-de-maria-capela-do",
+  "before": "Imaculado Coração de Maria (chapel)",
+  "after": "Immaculate Heart of Mary (chapel)"
+ },
+ {
+  "id": "insulana",
+  "before": "Insulana",
+  "after": "Island Epic"
+ },
+ {
+  "id": "associacao-de-proteccao-e-instrucao-do-sexo-feminino-funchalense",
+  "before": "Funchal Association for the Protection and Education of Women",
+  "after": "Association for the Protection and Education of the Women of Funchal"
+ },
+ {
+  "id": "associacao-filantropica-dos-estudantes-do-funchal",
+  "before": "Associação Filantrópica dos Estudantes do Funchal",
+  "after": "Philanthropic Association of the Students of Funchal"
+ },
+ {
+  "id": "associacao-madeirense-promotora-do-bem-publico-e-do-auxilio-mutuo",
+  "before": "Associação Madeirense promotora do Bem Público e do Auxílio Mútuo",
+  "after": "Madeiran Association for the Public Good and Mutual Aid"
+ },
+ {
+  "id": "associacao-protectora-de-estudantes-pobres",
+  "before": "Associação Protectora de Estudantes Pobres",
+  "after": "Association for the Protection of Poor Students"
+ },
+ {
+  "id": "associacao-protectora-dos-pobres",
+  "before": "Associação Protectora dos Pobres",
+  "after": "Association for the Protection of the Poor"
+ },
+ {
+  "id": "associacao-vinicola-da-madeira-real",
+  "before": "Associação Vinícola da Madeira (Real)",
+  "after": "Royal Wine Association of Madeira"
+ },
+ {
+  "id": "associacoes-de-classe",
+  "before": "Class associations",
+  "after": "Trade associations"
+ },
+ {
+  "id": "associacoes-de-socorros-mutuos",
+  "before": "Mutual-aid societies",
+  "after": "Mutual aid associations"
+ },
+ {
+  "id": "boletim-mensal-da-obra-diocesana-de-sao-francisco-de-salles",
+  "before": "Boletim Mensal da Obra Diocesana de São Francisco de Salles",
+  "after": "Monthly Bulletin of the Diocesan Work of St Francis de Sales"
+ },
+ {
+  "id": "bom-jesus-recolhimento-do",
+  "before": "Bom Jesus (recolhimento)",
+  "after": "Retreat House of the Good Jesus"
+ },
+ {
+  "id": "brotas-capelas-das",
+  "before": "Brotas (chapels)",
+  "after": "Our Lady of Brotas (chapels)"
+ },
+ {
+  "id": "cadeia",
+  "before": "Gaol",
+  "after": "Prison"
+ },
+ {
+  "id": "cais--cais-em-frente-da-entrada-da-cidade",
+  "before": "Quay in front of the Entrada da Cidade",
+  "after": "Quay opposite the Entrance to the City"
+ },
+ {
+  "id": "capela-de-cristo-v-senhor-dos-milagres-de-machico-capela-do",
+  "before": "Capela de Cristo see Senhor dos Milagres de Machico (Capela do)",
+  "after": "Chapel of Christ see Lord of Miracles of Machico (Chapel of the)"
+ },
+ {
+  "id": "cartas-geograficas",
+  "before": "Geographical maps",
+  "after": "Geographical Maps"
+ },
+ {
+  "id": "casa-de-saude",
+  "before": "Casa de Saúde",
+  "after": "Nursing Home"
+ },
+ {
+  "id": "casa-dos-pobres-desamparados",
+  "before": "Casa dos Pobres Desamparados",
+  "after": "House of the Destitute Poor"
+ },
+ {
+  "id": "clubes--clube-economico",
+  "before": "Clube Económico",
+  "after": "Economic Club"
+ },
+ {
+  "id": "clubes--clube-alianca",
+  "before": "Clube Aliança",
+  "after": "Alliance Club"
+ },
+ {
+  "id": "clubes--clube-restauracao",
+  "before": "Clube Restauração",
+  "after": "Restoration Club"
+ },
+ {
+  "id": "clubes--novo-clube-restauracao",
+  "before": "Novo Clube Restauração",
+  "after": "New Restoration Club"
+ },
+ {
+  "id": "clubes--clube-washington",
+  "before": "Clube Washington",
+  "after": "Washington Club"
+ },
+ {
+  "id": "clubes--clube-dos-estrangeiros",
+  "before": "Clube dos Estrangeiros",
+  "after": "Foreigners’ Club"
+ },
+ {
+  "id": "clubes--clube-uniao",
+  "before": "Clube União",
+  "after": "Union Club"
+ },
+ {
+  "id": "clubes--clube-recreativo-musical",
+  "before": "Clube Recreativo Musical",
+  "after": "Musical Recreation Club"
+ },
+ {
+  "id": "clubes--clube-recreio-e-instrucao",
+  "before": "Clube Recreio e Instrução",
+  "after": "Recreation and Instruction Club"
+ },
+ {
+  "id": "clubes--clube-internacional-do-funchal",
+  "before": "Clube Internacional do Funchal",
+  "after": "International Club of Funchal"
+ },
+ {
+  "id": "clube-sports-da-madeira",
+  "before": "Clube Sports da Madeira",
+  "after": "Madeira Sports Club"
+ },
+ {
+  "id": "clube-republicano-da-madeira",
+  "before": "Clube Republicano da Madeira",
+  "after": "Republican Club of Madeira"
+ },
+ {
+  "id": "clube-naval-madeirense",
+  "before": "Clube Naval Madeirense",
+  "after": "Madeiran Naval Club"
+ },
+ {
+  "id": "colegiadas",
+  "before": "Collegiate chapters",
+  "after": "Collegiate Churches"
+ },
+ {
+  "id": "comissao-distrital",
+  "before": "District Committee",
+  "after": "District Commission"
+ },
+ {
+  "id": "comissariado-de-policia-civil-do-funchal",
+  "before": "Civil Police Commissariat of Funchal",
+  "after": "Funchal Civil Police Commissariat"
+ },
+ {
+  "id": "companhia-de-pescarias",
+  "before": "Fishing Company",
+  "after": "Fisheries Company"
+ },
+ {
+  "id": "companhia-fabril-de-acucar-madeirense",
+  "before": "Companhia Fabril de Açucar Madeirense",
+  "after": "Madeiran Sugar Manufacturing Company"
+ },
+ {
+  "id": "companhias-de-seguros",
+  "before": "Insurance companies",
+  "after": "Insurance Companies"
+ },
+ {
+  "id": "conselho-distrital-de-agricultura",
+  "before": "District Agricultural Council",
+  "after": "District Council of Agriculture"
+ },
+ {
+  "id": "conselho-municipal",
+  "before": "Municipal council",
+  "after": "Municipal Board"
+ },
+ {
+  "id": "conservatorias-do-registo-predial",
+  "before": "Land registry offices",
+  "after": "Land Registry Offices"
+ },
+ {
+  "id": "convento-da-incarnacao",
+  "before": "Incarnação (convent)",
+  "after": "Convent of the Incarnation"
+ },
+ {
+  "id": "convento-das-merces",
+  "before": "Convento das Mercês",
+  "after": "Convent of Our Lady of Ransom"
+ },
+ {
+  "id": "convento-de-nossa-senhora-ds-piedade",
+  "before": "Nossa Senhora da Piedade (convent)",
+  "after": "Our Lady of Pity (convent)"
+ },
+ {
+  "id": "convento-de-nossa-senhora-da-porciuncula",
+  "before": "Nossa Senhora da Porciúncula (convent)",
+  "after": "Our Lady of the Portiuncula (convent)"
+ },
+ {
+  "id": "convento-de-santa-clara",
+  "before": "Convent of Santa Clara",
+  "after": "Convent of St Clare"
+ },
+ {
+  "id": "convento-de-sao-bernardino",
+  "before": "São Bernardino (convent)",
+  "after": "St Bernardino (convent)"
+ },
+ {
+  "id": "convento-de-sao-francisco-da-calheta",
+  "before": "Convent of São Francisco da Calheta",
+  "after": "Convent of St Francis in Calheta"
+ },
+ {
+  "id": "convento-de-sao-francisco-do-funchal",
+  "before": "São Francisco do Funchal (convent)",
+  "after": "St Francis in Funchal (convent)"
+ },
+ {
+  "id": "corpo-santo-capela-do",
+  "before": "Corpo Santo (chapel)",
+  "after": "St Elmo (chapel)"
+ },
+ {
+  "id": "correio-da-madeira-o",
+  "before": "Correio da Madeira (O)",
+  "after": "Correio da Madeira"
+ },
+ {
+  "id": "correios",
+  "before": "Postal service",
+  "after": "Post Office"
+ },
+ {
+  "id": "costa-do-norte",
+  "before": "Costa do Norte (North Coast)",
+  "after": "Costa do Norte"
+ },
+ {
+  "id": "cristo-capela-de",
+  "before": "Cristo (chapel)",
+  "after": "Christ (chapel)"
+ },
+ {
+  "id": "curso-de-desenho",
+  "before": "Drawing course",
+  "after": "Drawing Course"
+ },
+ {
+  "id": "direccao-das-obras-publicas",
+  "before": "Public Works Directorate",
+  "after": "Public Works Department"
+ },
+ {
+  "id": "doacao-da-ilha-da-madeira-a-infanta-d-catarina",
+  "before": "Grant of the island of Madeira to the Infanta Dona Catarina",
+  "after": "Grant of the Island of Madeira to Catherine of Braganza"
+ },
+ {
+  "id": "edificios-antigos",
+  "before": "Old buildings",
+  "after": "Old Buildings"
+ },
+ {
+  "id": "elementos-para-a-historia-madeirense",
+  "before": "Sources for Madeiran history",
+  "after": "Materials for Madeiran History"
+ },
+ {
+  "id": "epoca-administrativa-uma",
+  "before": "Época Administrativa (Uma)",
+  "after": "Administrative Period"
+ },
+ {
+  "id": "escola-de-pilotagem",
+  "before": "Navigation School",
+  "after": "School of Navigation"
+ },
+ {
+  "id": "escola-de-utilidades-e-belas-artes",
+  "before": "School of Utilities and Fine Arts",
+  "after": "School of Useful and Fine Arts"
+ },
+ {
+  "id": "escola-industrial-antonio-augusto-de-aguiar",
+  "before": "Escola Industrial António Augusto de Aguiar",
+  "after": "António Augusto de Aguiar Industrial School"
+ },
+ {
+  "id": "escola-normal",
+  "before": "Teacher-training college",
+  "after": "Teacher Training School"
+ },
+ {
+  "id": "escolas-primarias",
+  "before": "Primary schools",
+  "after": "Primary Schools"
+ },
+ {
+  "id": "escutas-corpo-nacional-de",
+  "before": "Scouts (National Corps of)",
+  "after": "National Scout Corps"
+ },
+ {
+  "id": "espirito-santo-capelas-do",
+  "before": "Espírito Santo (chapels)",
+  "after": "Holy Spirit (chapels)"
+ },
+ {
+  "id": "nossa-senhora-do-terco-capela-de",
+  "before": "Nossa Senhora do Terço (chapel)",
+  "after": "Our Lady of the Rosary Beads (chapel)"
+ },
+ {
+  "id": "nossa-senhora-do-vale-capela-de",
+  "before": "Nossa Senhora do Vale (chapel)",
+  "after": "Our Lady of the Valley (chapel)"
+ },
+ {
+  "id": "nossa-senhora-dos-varadouros-capela-de",
+  "before": "Nossa Senhora dos Varadouros (chapel)",
+  "after": "Our Lady of the Slipways (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-vida-capelas-de",
+  "before": "Nossa Senhora da Vida (chapels)",
+  "after": "Our Lady of Life (chapels)"
+ },
+ {
+  "id": "nossa-senhora-das-virtudes-capela-de",
+  "before": "Nossa Senhora das Virtudes (chapel)",
+  "after": "Our Lady of the Virtues (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-vitoria-capela-de",
+  "before": "Nossa Senhora da Vitória (chapel)",
+  "after": "Our Lady of Victory (chapel)"
+ },
+ {
+  "id": "nossa-senhora-das-vitorias-capela-de",
+  "before": "Nossa Senhora das Vitórias (chapel)",
+  "after": "Our Lady of Victories (chapel)"
+ },
+ {
+  "id": "nosso-senhor-jesus-cristo-capela-de",
+  "before": "Nosso Senhor Jesus Cristo (chapel)",
+  "after": "Our Lord Jesus Christ (chapel)"
+ },
+ {
+  "id": "obras-publicas-distritais",
+  "before": "District public works",
+  "after": "District Public Works"
+ },
+ {
+  "id": "ordenancas",
+  "before": "Ordenanças (militia)",
+  "after": "Ordinance Militia"
+ },
+ {
+  "id": "ordens-religiosas",
+  "before": "Religious orders",
+  "after": "Religious Orders"
+ },
+ {
+  "id": "orfas-recolhimento-das",
+  "before": "Órfãs (Recolhimento das)",
+  "after": "Orphan Girls’ Retreat House"
+ },
+ {
+  "id": "orfeao-madeirense",
+  "before": "Orfeão Madeirense",
+  "after": "Madeiran Choral Society"
+ },
+ {
+  "id": "organizacao-fiscal",
+  "before": "Fiscal organisation",
+  "after": "Fiscal Organisation"
+ },
+ {
+  "id": "organizacao-militar",
+  "before": "Military organisation",
+  "after": "Military Organisation"
+ },
+ {
+  "id": "orgao-de-santa-clara",
+  "before": "Organ of Santa Clara",
+  "after": "Organ of the Convent of St Clare"
+ },
+ {
+  "id": "origem-da-ilha-da-madeira",
+  "before": "Origem da Ilha da Madeira",
+  "after": "Origin of the Island of Madeira"
+ },
+ {
+  "id": "partidos-politicos",
+  "before": "Political parties",
+  "after": "Political Parties"
+ },
+ {
+  "id": "passos",
+  "before": "Stations of the Passion",
+  "after": "Chapel of Christ Carrying the Cross"
+ },
+ {
+  "id": "plantas-da-cidade",
+  "before": "City plans",
+  "after": "Town Plans"
+ },
+ {
+  "id": "policia-de-emigracao",
+  "before": "Emigration police",
+  "after": "Emigration Police"
+ },
+ {
+  "id": "policia-florestal",
+  "before": "Forest police",
+  "after": "Forest Police"
+ },
+ {
+  "id": "porto-do-funchal",
+  "before": "Port of Funchal",
+  "after": "Harbour of Funchal"
+ },
+ {
+  "id": "portos-da-madeira",
+  "before": "Ports of Madeira",
+  "after": "Harbours of Madeira"
+ },
+ {
+  "id": "posto-antropometrico",
+  "before": "Anthropometric post",
+  "after": "Anthropometric Office"
+ },
+ {
+  "id": "posto-de-desinfeccao-do-campo-da-barca",
+  "before": "Campo da Barca disinfection station",
+  "after": "Campo da Barca Disinfection Station"
+ },
+ {
+  "id": "posto-maritimo-de-desinfeccao",
+  "before": "Maritime disinfection station",
+  "after": "Maritime Disinfection Station"
+ },
+ {
+  "id": "posto-medico-municipal",
+  "before": "Municipal medical post",
+  "after": "Municipal Medical Post"
+ },
+ {
+  "id": "praca-de-sao-joao",
+  "before": "Praça de São João (square)",
+  "after": "Praça de São João"
+ },
+ {
+  "id": "mecia-casa-de-dona",
+  "before": "Mécia (Casa de Dona)",
+  "after": "House of Dona Mécia"
+ },
+ {
+  "id": "mercado-e-capela-de-sao-sebastiao",
+  "before": "São Sebastião (market and chapel)",
+  "after": "Market and Chapel of St Sebastian"
+ },
+ {
+  "id": "mercado-uniao",
+  "before": "União market",
+  "after": "União Market"
+ },
+ {
+  "id": "missao-marques-de-pombal",
+  "before": "Missão Marquês de Pombal",
+  "after": "Marquis of Pombal Mission"
+ },
+ {
+  "id": "montepio",
+  "before": "Montepio",
+  "after": "Mutual Aid Society Building"
+ },
+ {
+  "id": "montepio-madeirense",
+  "before": "Montepio Madeirense",
+  "after": "Madeiran Mutual Aid Society"
+ },
+ {
+  "id": "montepio-maritimo-funchalense",
+  "before": "Montepio Marítimo Funchalense",
+  "after": "Funchal Maritime Mutual Aid Society"
+ },
+ {
+  "id": "monumento-a-nossa-senhora-da-paz",
+  "before": "Monument to Nossa Senhora da Paz",
+  "after": "Monument to Our Lady of Peace"
+ },
+ {
+  "id": "mosteiro-novo",
+  "before": "Mosteiro Novo",
+  "after": "New Convent"
+ },
+ {
+  "id": "museu-do-liceu",
+  "before": "Lyceum museum",
+  "after": "Lyceum Museum"
+ },
+ {
+  "id": "museu-oceanografico",
+  "before": "Oceanographic museum",
+  "after": "Oceanographic Museum"
+ },
+ {
+  "id": "museu-do-seminario",
+  "before": "Seminary museum",
+  "after": "Seminary Museum"
+ },
+ {
+  "id": "nobiliarios",
+  "before": "Genealogical works (Nobiliários)",
+  "after": "Nobiliaries"
+ },
+ {
+  "id": "nossa-senhora-da-ajuda-capela-de",
+  "before": "Nossa Senhora da Ajuda (chapel)",
+  "after": "Our Lady of Help (chapel)"
+ },
+ {
+  "id": "nossa-senhora-da-alegria-capela-de",
+  "before": "Nossa Senhora da Alegria (chapel)",
+  "after": "Our Lady of Joy (chapel)"
+ },
+ {
+  "id": "actas-da-junta-geral-do-distrito-do-funchal",
+  "before": "Actas da Junta Geral do Distrito do Funchal",
+  "after": "Minutes of the District General Council of Funchal"
+ },
+ {
+  "id": "alardo",
+  "before": "Alardo",
+  "after": "Muster"
+ },
+ {
+  "id": "albergaria-e-capela-de-s-bartolomeu",
+  "before": "Hostel and chapel of São Bartolomeu",
+  "after": "Hostel and Chapel of St Bartholomew"
+ },
+ {
+  "id": "alianca-madeirense",
+  "before": "Aliança Madeirense",
+  "after": "Madeiran Alliance"
+ },
+ {
+  "id": "almas-capelas-das",
+  "before": "Almas (chapels)",
+  "after": "Holy Souls (chapels)"
+ },
+ {
+  "id": "almas-pobres-capelas-das",
+  "before": "Almas Pobres (chapels)",
+  "after": "Poor Souls (chapels)"
+ },
+ {
+  "id": "antoneida-a",
+  "before": "Antoneida (A)",
+  "after": "Anthony Epic"
+ },
+ {
+  "id": "aragao",
+  "before": "Aragão",
+  "after": "Aragon"
+ },
+ {
+  "id": "archivo-da-marinha-e-ultramar",
+  "before": "Archivo da Marinha e Ultramar",
+  "after": "Navy and Overseas Archive"
+ },
+ {
+  "id": "arte-de-furtar",
+  "before": "Arte de Furtar",
+  "after": "Art of Stealing"
+ },
+ {
+  "id": "artilharia-auxiliar",
+  "before": "Auxiliary artillery",
+  "after": "Auxiliary Artillery"
+ },
+ {
+  "id": "asilo-da-infancia",
+  "before": "Children’s Asylum",
+  "after": "Infant Asylum"
+ },
+ {
+  "id": "asilo-dos-invalidos",
+  "before": "Asylum for Invalids (Asilo dos Inválidos)",
+  "after": "Asylum for Invalids"
+ },
+ {
+  "id": "asilo-de-mendicidade-do-funchal",
+  "before": "Funchal Beggars’ Asylum",
+  "after": "Funchal Poorhouse"
+ },
+ {
+  "id": "asilo-dos-velhinhos",
+  "before": "Asilo dos Velhinhos (old people’s home)",
+  "after": "Old People’s Home"
+ },
+ {
+  "id": "asilo-de-artes-e-oficios",
+  "before": "Asilo de Artes e Ofícios",
+  "after": "Asylum of Arts and Trades"
+ },
+ {
+  "id": "associacao-academica-do-funchal",
+  "before": "Associação Académica do Funchal",
+  "after": "Funchal Students’ Association"
+ },
+ {
+  "id": "associacao-catolica-do-funchal",
+  "before": "Associação Católica do Funchal",
+  "after": "Catholic Association of Funchal"
+ },
+ {
+  "id": "associacao-das-damas-de-caridade",
+  "before": "Association of the Ladies of Charity",
+  "after": "Association of Ladies of Charity"
+ },
+ {
+  "id": "sao-sebastiao-capelas-de",
+  "before": "São Sebastião (chapels)",
+  "after": "St Sebastian (chapels)"
+ },
+ {
+  "id": "sao-tiago-capela-de",
+  "before": "São Tiago (chapel)",
+  "after": "St James the Less (chapel)"
+ },
+ {
+  "id": "sao-tiago-igreja-de",
+  "before": "São Tiago (church)",
+  "after": "St James the Less (church)"
+ },
+ {
+  "id": "sao-vicente-capela-de",
+  "before": "São Vicente (chapel)",
+  "after": "St Vincent (chapel)"
+ },
+ {
+  "id": "saudades-da-terra",
+  "before": "Saudades da Terra",
+  "after": "Longing for the Homeland"
+ },
+ {
+  "id": "selvagens",
+  "before": "Selvagens",
+  "after": "Savage Islands"
+ },
+ {
+  "id": "senhor-dos-milagres",
+  "before": "Senhor dos Milagres",
+  "after": "Lord of Miracles"
+ },
+ {
+  "id": "servicos-agricolas",
+  "before": "Agricultural services",
+  "after": "Agricultural Services"
+ },
+ {
+  "id": "servicos-florestais",
+  "before": "Forestry services",
+  "after": "Forestry Services"
+ },
+ {
+  "id": "sindicato-agricola-estreitense",
+  "before": "Sindicato Agrícola Estreitense",
+  "after": "Estreito Agricultural Union"
+ },
+ {
+  "id": "sindicato-agricola-da-madeira",
+  "before": "Sindicato Agrícola da Madeira",
+  "after": "Madeira Agricultural Union"
+ },
+ {
+  "id": "sociedade-agricola-madeirense",
+  "before": "Sociedade Agrícola Madeirense",
+  "after": "Madeiran Agricultural Society"
+ },
+ {
+  "id": "sociedade-auxiliadora-da-instrucao-primaria",
+  "before": "Sociedade Auxiliadora da Instrução Primaria",
+  "after": "Society for the Support of Primary Education"
+ },
+ {
+  "id": "sociedade-cooperativa-construcao-predial-do-funchal",
+  "before": "Sociedade Cooperativa ‘Construção Predial do Funchal’",
+  "after": "Funchal Building Cooperative Society"
+ },
+ {
+  "id": "sociedade-esperanca",
+  "before": "Sociedade Esperança",
+  "after": "Esperança Society"
+ },
+ {
+  "id": "sociedade-filantropica-academica-de-coimbra",
+  "before": "Sociedade Filantrópica Académica de Coimbra",
+  "after": "Coimbra Academic Philanthropic Society"
+ },
+ {
+  "id": "sociedade-funchalense-dos-amigos-das-ciencias-e-artes",
+  "before": "Sociedade Funchalense dos Amigos das Ciências e Artes",
+  "after": "Funchal Society of Friends of the Sciences and Arts"
+ },
+ {
+  "id": "sociedade-harmonia",
+  "before": "Sociedade Harmonia",
+  "after": "Harmonia Society"
+ },
+ {
+  "id": "sociedade-humanitaria-do-distrito-do-funchal",
+  "before": "Sociedade Humanitária do Distrito do Funchal",
+  "after": "Humanitarian Society of the District of Funchal"
+ },
+ {
+  "id": "sociedade-patriotica",
+  "before": "Sociedade Patriótica",
+  "after": "Patriotic Society"
+ },
+ {
+  "id": "sociedade-patriotica-economica-de-comercio-agricultura-ciencias-e-artes",
+  "before": "Sociedade Patriótica, Económica, de Comércio, Agricultura, Ciências e Artes",
+  "after": "Patriotic and Economic Society of Commerce, Agriculture, Sciences and Arts"
+ },
+ {
+  "id": "sociedade-patriotica-madeirense",
+  "before": "Sociedade Patriótica Madeirense",
+  "after": "Madeiran Patriotic Society"
+ },
+ {
+  "id": "sociedade-protectora-dos-animais-domesticos",
+  "before": "Sociedade Protectora dos Animais Domésticos",
+  "after": "Society for the Protection of Domestic Animals"
+ },
+ {
+  "id": "sociedade-talia",
+  "before": "Sociedade Tália",
+  "after": "Thalia Society"
+ },
+ {
+  "id": "tragedia-na-madeira-uma",
+  "before": "Tragédia na Madeira (Uma)",
+  "after": "Tragedy in Madeira (A)"
+ },
+ {
+  "id": "santa-maria-madalena-capelas-de",
+  "before": "Santa Maria Madalena (chapels)",
+  "after": "St Mary Magdalene (chapels)"
+ },
+ {
+  "id": "santa-quiteria-capelas-de",
+  "before": "Santa Quitéria (chantries)",
+  "after": "St Quiteria (chantries)"
+ },
+ {
+  "id": "santo-amaro-capelas-de",
+  "before": "Santo Amaro (chapels)",
+  "after": "St Maurus (chapels)"
+ },
+ {
+  "id": "santo-andre-avelino-capela-de",
+  "before": "Santo André Avelino (chapel)",
+  "after": "St Andrew Avellino (chapel)"
+ },
+ {
+  "id": "santo-antonio-capelas-de",
+  "before": "Santo António (chapels)",
+  "after": "St Anthony (chapels)"
+ },
+ {
+  "id": "santo-espirito-capela-do",
+  "before": "Santo Espírito (chapel)",
+  "after": "Holy Spirit (chapel)"
+ },
+ {
+  "id": "santos-cosme-e-damiao-capela-dos",
+  "before": "Santos Cosme e Damião (chapel)",
+  "after": "Sts Cosmas and Damian (chapel)"
+ },
+ {
+  "id": "santos-reis-capela-dos",
+  "before": "Santos Reis (chapel)",
+  "after": "Magi (chapel)"
+ },
+ {
+  "id": "sao-bartolomeu-igreja-de",
+  "before": "São Bartolomeu (church)",
+  "after": "St Bartholomew (church)"
+ },
+ {
+  "id": "sao-bernardino-capela-de",
+  "before": "São Bernardino (chapel)",
+  "after": "St Bernardino (chapel)"
+ },
+ {
+  "id": "sao-caetano-capela-de",
+  "before": "São Caetano (chapel)",
+  "after": "St Cajetan (chapel)"
+ },
+ {
+  "id": "sao-candido-capela-de",
+  "before": "São Cândido (chapel)",
+  "after": "St Candidus (chapel)"
+ },
+ {
+  "id": "sao-cristovao-capelas",
+  "before": "São Cristóvão (chapels)",
+  "after": "St Christopher (chapels)"
+ },
+ {
+  "id": "sao-fernando-capela-de",
+  "before": "São Fernando (chapel)",
+  "after": "St Ferdinand (chapel)"
+ },
+ {
+  "id": "sao-filipe-capela-de",
+  "before": "São Filipe (chapel)",
+  "after": "St Philip (chapel)"
+ },
+ {
+  "id": "sao-francisco-capelas-de",
+  "before": "São Francisco (chapels)",
+  "after": "St Francis (chapels)"
+ },
+ {
+  "id": "sao-francisco-de-borja-capela-de",
+  "before": "São Francisco de Borja (chapel)",
+  "after": "St Francis Borgia (chapel)"
+ },
+ {
+  "id": "sao-francisco-xavier-capelas-de",
+  "before": "São Francisco Xavier (chapels)",
+  "after": "St Francis Xavier (chapels)"
+ },
+ {
+  "id": "sao-gil-capela-de",
+  "before": "São Gil (chapel)",
+  "after": "St Giles (chapel)"
+ },
+ {
+  "id": "sao-joao-baptista-capelas-de",
+  "before": "São João Baptista (chapels)",
+  "after": "St John the Baptist (chapels)"
+ },
+ {
+  "id": "sao-joao-de-deus-capela-de",
+  "before": "São João de Deus (chapel)",
+  "after": "St John of God (chapel)"
+ },
+ {
+  "id": "sao-joao-evangelista-colegio-e-igreja-de",
+  "before": "São João Evangelista (college and church)",
+  "after": "St John the Evangelist (college and church)"
+ },
+ {
+  "id": "sao-joao-de-latrao-capela-de",
+  "before": "São João de Latrão (chapel)",
+  "after": "St John Lateran (chapel)"
+ },
+ {
+  "id": "sao-joao-nepomuceno-capela-de",
+  "before": "São João Nepomuceno (chapel)",
+  "after": "St John of Nepomuk (chapel)"
+ },
+ {
+  "id": "sao-joao-e-santana-capela-de",
+  "before": "São João e Santana (chapel)",
+  "after": "St John and St Anne (chapel)"
+ },
+ {
+  "id": "sao-jose-capelas-de",
+  "before": "São José (chapels)",
+  "after": "St Joseph (chapels)"
+ },
+ {
+  "id": "sao-lazaro-capela-de",
+  "before": "São Lázaro (chapel)",
+  "after": "St Lazarus (chapel)"
+ },
+ {
+  "id": "sao-lourenco-capelas-de",
+  "before": "São Lourenço (chapels)",
+  "after": "St Lawrence (chapels)"
+ },
+ {
+  "id": "sao-luis-capelas-de",
+  "before": "São Luís (chapels)",
+  "after": "St Louis (chapels)"
+ },
+ {
+  "id": "sao-paulo-capelas-de",
+  "before": "São Paulo (chapels)",
+  "after": "St Paul (chapels)"
+ },
+ {
+  "id": "sao-pedro-capela-de",
+  "before": "São Pedro (chapel)",
+  "after": "St Peter (chapel)"
+ },
+ {
+  "id": "sao-pedro-de-alcantara-capela-de",
+  "before": "São Pedro de Alcântara (chapel)",
+  "after": "St Peter of Alcantara (chapel)"
+ },
+ {
+  "id": "sao-pedro-goncalves-telmo-capela-de",
+  "before": "São Pedro Gonçalves Telmo (chapel)",
+  "after": "St Peter González Telmo (chapel)"
+ },
+ {
+  "id": "sao-roque-capela-de",
+  "before": "São Roque (chapel)",
+  "after": "St Roch (chapel)"
+ },
+ {
+  "id": "tumulo-monumento",
+  "before": "Tomb-monument",
+  "after": "Tomb Monument"
+ },
+ {
+  "id": "uniao-dos-viticultores-da-madeira",
+  "before": "União dos Viticultores da Madeira",
+  "after": "Madeira Winegrowers’ Union"
+ },
+ {
+  "id": "vera-cruz-capela-da",
+  "before": "Vera Cruz (chapel)",
+  "after": "True Cross (Chapel of the)"
+ },
+ {
+  "id": "vigias",
+  "before": "Vigias",
+  "after": "Lookouts"
+ },
+ {
+  "id": "voto-a-santissima-virgem",
+  "before": "Vow to the Most Holy Virgin",
+  "after": "Vow to the Blessed Virgin"
+ },
+ {
+  "id": "jardim-de-aclimacao",
+  "before": "Acclimatisation garden",
+  "after": "Acclimatisation Garden"
+ },
+ {
+  "id": "jesus-maria-jose-capela-de",
+  "before": "Jesus Maria José (chapel)",
+  "after": "Jesus, Mary and Joseph (chapel)"
+ },
+ {
+  "id": "junta-agricola",
+  "before": "Junta Agrícola (Agricultural Board)",
+  "after": "Agricultural Board"
+ },
+ {
+  "id": "junta-autonoma-das-obras-do-porto-do-funchal",
+  "before": "Autonomous Board of Funchal Harbour Works",
+  "after": "Autonomous Board for the Funchal Harbour Works"
+ },
+ {
+  "id": "junta-governativa-do-bispado-em-1869",
+  "before": "Governing board of the bishopric in 1869",
+  "after": "Governing Board of the Diocese in 1869"
+ },
+ {
+  "id": "junta-de-melhoramentos-da-agricultura-das-ilhas-da-madeira-e-porto-santo",
+  "before": "Board for the Improvement of Agriculture of the Islands of Madeira and Porto Santo",
+  "after": "Board for Agricultural Improvement of Madeira and Porto Santo"
+ },
+ {
+  "id": "juntas-gerais",
+  "before": "District General Councils",
+  "after": "General Councils"
+ },
+ {
+  "id": "madeira-e-a-ilha-dos-amores-a",
+  "before": "Madeira and the ‘Island of Love’ (The)",
+  "after": "Madeira and the Isle of Love"
+ },
+ {
+  "id": "madeira-na-universidade-de-coimbra-a",
+  "before": "Madeira at the University of Coimbra",
+  "after": "Madeira in the University of Coimbra"
+ },
+ {
+  "id": "madre-de-deus-capelas-da",
+  "before": "Madre de Deus (chapels)",
+  "after": "Mother of God (chapels)"
+ },
+ {
+  "id": "matadouro-municipal",
+  "before": "Municipal slaughterhouse",
+  "after": "Municipal Slaughterhouse"
+ }
+]

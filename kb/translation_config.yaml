@@ -1,0 +1,18 @@
+# Model choice per content type and language (owner decisions 2026-09-27; evidence: docs/translation_strategy.md)
+article_body:
+  en: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  de: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  fr: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  it: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  nl: {provider: anthropic, model: claude-opus-5-5, effort: low}
+  ru: {provider: openai, model: gpt-5.6-sol, effort: low}
+  uk: {provider: openai, model: gpt-5.6-sol, effort: low}
+  hu: {provider: openai, model: gpt-6-sol, effort: low}
+metadata:
+  default: {provider: openai, model: gpt-6-sol, effort: low}   # all languages incl. hu and pt
+languages: [en, de, fr, it, hu, nl, uk, ru]
+metadata_extra_targets: [pt]
+batch:
+  anthropic: {api: message_batches, warm_cache: true, cache_ttl: 1h}
+  openai: {api: batches, endpoint: /v1/responses}   # prefix caching is automatic
+budget_gbp_per_language: 90   # owner, 2026-10-10 (raised from 70 for the de/fr/ru run): everything per language — names, body, meta, retries, links, lists

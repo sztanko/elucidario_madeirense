@@ -1,0 +1,65 @@
+{
+ "scores": {
+  "de:opus_low": {
+   "acc": 4.9,
+   "nat": 4.85,
+   "n": 296
+  },
+  "de:sonnet": {
+   "acc": 4.84,
+   "nat": 4.66,
+   "n": 296
+  },
+  "hu:opus_low": {
+   "acc": 4.95,
+   "nat": 4.84,
+   "n": 296
+  },
+  "hu:sonnet": {
+   "acc": 4.73,
+   "nat": 4.41,
+   "n": 296
+  },
+  "ru:opus_low": {
+   "acc": 4.87,
+   "nat": 4.8,
+   "n": 296
+  },
+  "ru:sonnet": {
+   "acc": 4.76,
+   "nat": 4.5,
+   "n": 296
+  }
+ },
+ "usd": {
+  "sonnet": 0.66,
+  "opus_low": 2.29,
+  "judge": 1.41
+ },
+ "sample_errors": {
+  "ru": [
+   "B: 'сатирический поэт' is less idiomatic than 'поэт-сатирик'.",
+   "Identical; no errors.",
+   "A: 'считавшегося' can attach to the faculty, making the sentence ambiguous and heavy.",
+   "A: 'растение марена' is slightly awkward.",
+   "A: hyphenated transliteration 'Авенида-доктор-Мануэл-ди-Арриага' is clumsy. B: inconsistent 'авениды'/'авеню'; awkward word order around the date.",
+   "Identical; no errors."
+  ],
+  "de": [
+   "Both fine; Satzungen/Statuten equivalent.",
+   "Identical, correct.",
+   "Identical, correct.",
+   "'Kelterung' means pressing, not strictly treading ('Treten'); B's 'das Keltern' has the same issue and an inconsistent article.",
+   "Identical, correct.",
+   "Identical, correct."
+  ],
+  "hu": [
+   "A: 'hadseregkapitány' less idiomatic than 'százados'.",
+   "A: title rendered 'Elucidárium' instead of 'Elucidário'; non-Hungarian quotation marks.",
+   "A: acceptable but less idiomatic ('Ausztria császárnőjének').",
+   "A: 'Elucidárium' for the title. B: 'az Elucidário címe' reads as 'the Elucidário's title', which is ambiguous and awkward.",
+   "B: misspelled adjective 'daműi'.",
+   "A: 'végzett azon' is slightly awkward."
+  ]
+ }
+}

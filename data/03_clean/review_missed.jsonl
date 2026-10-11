@@ -1,0 +1,9 @@
+{"pid": 7, "error": "então-correntes", "fix": "então correntes", "type": "stray-hyphen"}
+{"pid": 8, "error": "paragraph ends \"comprar o resto da\" / next paragraph starts \"produção pelos preços legais.\"", "fix": "merge with next paragraph", "type": "paragraph-split"}
+{"pid": 14, "error": "1521:e antes", "fix": "1521: e antes", "type": "missing-space"}
+{"pid": 15, "error": "alunos“.", "fix": "alunos”.", "type": "wrong-quote"}
+{"pid": 26, "error": "(QUILOS PRODUÇÃO DE ALCOOL", "fix": "(QUILOS) PRODUÇÃO DE ALCOOL", "type": "missing-punct"}
+{"pid": 28, "error": "etc.. Esta", "fix": "etc. Esta", "type": "double-period"}
+{"pid": 6, "error": "etc, e a cosinha", "fix": "etc., e a cosinha", "type": "missing-punct"}
+{"pid": 41, "error": "Homem de Gouveia Dr. Salvador", "fix": "Homem de Gouveia, Dr. Salvador", "type": "missing-punct"}
+{"pid": 53, "error": "Platão de Vackcel", "fix": "Platão de Vakcel", "type": "name-garble (low confidence)"}

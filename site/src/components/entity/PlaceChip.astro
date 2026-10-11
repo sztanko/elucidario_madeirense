@@ -1,0 +1,21 @@
+---
+// Compact place list item. Pages agent owns this component.
+// Props: lang, slug, name, type?, sub? (municipality/continent note), mentions?
+import * as u from '../../lib/urls';
+interface Props { lang: string; slug: string; name: string; type?: string | null; sub?: string | null; mentions?: number }
+const { lang, slug, name, type, sub, mentions } = Astro.props as Props;
+---
+<li class="em-place-chip">
+  <a href={u.place(lang, slug)}>{name}</a>
+  {type && <span class="em-type">{type}</span>}
+  {sub && <span class="em-sub">{sub}</span>}
+  {mentions !== undefined && <span class="em-mentions">{mentions}</span>}
+</li>
+<style>
+  .em-place-chip { display: flex; flex-wrap: wrap; align-items: baseline; gap: .4em; padding: .25rem 0; border-bottom: 1px solid color-mix(in srgb, var(--ink) 10%, transparent); }
+  .em-place-chip a { color: var(--place); text-decoration: none; font-weight: 600; }
+  .em-place-chip a:hover { text-decoration: underline; }
+  .em-type { font-size: .72rem; text-transform: uppercase; letter-spacing: .04em; opacity: .55; }
+  .em-sub { font-size: .78rem; opacity: .65; }
+  .em-mentions { margin-left: auto; font-size: .72rem; opacity: .5; font-variant-numeric: tabular-nums; }
+</style>

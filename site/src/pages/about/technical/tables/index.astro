@@ -1,0 +1,73 @@
+---
+// About -> Technical -> Tables: YAML-driven translation tables, one column per language.
+import Base from '../../../../layouts/Base.astro';
+import Breadcrumbs from '../../../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../../../components/ui/SectionHead.astro';
+import Label from '../../../../components/ui/Label.astro';
+import { buildKbTables } from '../../../../components/pages/content';
+import { fmtInt } from '../../../../components/ui/format';
+import { t } from '../../../../i18n/ui';
+import * as u from '../../../../lib/urls';
+
+const tables = buildKbTables();
+---
+<Base lang="en" title="Translation tables — Elucidário Madeirense" description="Reference tables for the translation of the Elucidário Madeirense: religious titles, historical figures, the termbase, taxonomy and translation routing, one column per language." multilingual={false} kind="about">
+  <Breadcrumbs items={[
+    { label: t('en', 'back_home'), href: u.home('pt') },
+    { label: t('en', 'about'), href: u.about() },
+    { label: t('en', 'technical_notes'), href: u.about('technical') },
+    { label: t('en', 'translation_tables') },
+  ]} />
+  <SectionHead size="xl" title={t('en', 'translation_tables')} role="ink" rule="below" />
+
+  <nav class="em-table-nav">
+    {tables.map((tb) => <a href={`#${tb.id}`}>{tb.title} <span class="em-n">{fmtInt(tb.rows.length, 'en')}</span></a>)}
+  </nav>
+
+  <div class="em-tables-root">
+    {tables.map((tb) => (
+      <section id={tb.id} class="em-kb-table">
+        <SectionHead size="l" title={tb.title} role="person" rule="below">
+          <span slot="aside"><Label role="muted" count={fmtInt(tb.rows.length, 'en')} /></span>
+        </SectionHead>
+        <input type="search" class="em-table-filter" placeholder={t('en', 'filter_table')} data-filter-for={tb.id} aria-label={`${t('en', 'filter_table')} ${tb.title}`} />
+        <div class="em-table-scroll">
+          <table id={`t-${tb.id}`}>
+            <thead><tr>{tb.columns.map((c) => <th>{c}</th>)}</tr></thead>
+            <tbody>
+              {tb.rows.map((row) => (
+                <tr>{row.map((cell) => <td>{cell}</td>)}</tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    ))}
+  </div>
+</Base>
+<script>
+  // Tiny client-side filter: hides non-matching <tr> rows. One listener per input, delegated at input time.
+  document.querySelectorAll<HTMLInputElement>('.em-table-filter').forEach((input) => {
+    const table = document.getElementById(`t-${input.dataset.filterFor}`);
+    const rows = table ? Array.from(table.querySelectorAll('tbody tr')) as HTMLTableRowElement[] : [];
+    input.addEventListener('input', () => {
+      const q = input.value.trim().toLowerCase();
+      for (const row of rows) row.hidden = q !== '' && !row.textContent!.toLowerCase().includes(q);
+    });
+  });
+</script>
+<style>
+  .em-table-nav { display: flex; flex-wrap: wrap; gap: .5rem; padding: 0 var(--gutter) var(--s-5); max-width: var(--page-max); margin: 0 auto; position: sticky; top: var(--header-h); background: var(--paper); z-index: var(--z-raised); }
+  .em-table-nav a { color: var(--ink); text-decoration: none; border: 1px solid var(--line); padding: .25em .7em; font-size: var(--fs-small); }
+  .em-table-nav a:hover { border-color: var(--person); }
+  .em-n { opacity: .55; font-variant-numeric: tabular-nums; }
+  .em-tables-root { padding: var(--s-5) var(--gutter) var(--s-9); max-width: var(--page-max); margin: 0 auto; }
+  .em-kb-table { margin-bottom: var(--s-9); }
+  .em-table-filter { display: block; width: 100%; max-width: 24rem; margin: var(--s-3) 0; padding: .5em .7em; border: 1px solid var(--line-strong); background: var(--paper-light); font: inherit; }
+  .em-table-scroll { overflow-x: auto; max-height: 70vh; overflow-y: auto; border: 1px solid var(--line); }
+  table { border-collapse: collapse; width: 100%; font-size: var(--fs-small); }
+  th, td { border-bottom: 1px solid var(--line-faint); padding: .4em .7em; text-align: left; white-space: nowrap; max-width: 22rem; overflow: hidden; text-overflow: ellipsis; }
+  td { white-space: normal; }
+  th { position: sticky; top: 0; background: var(--paper-light); border-bottom: 2px solid var(--ink); font-family: var(--font-label); text-transform: uppercase; letter-spacing: .05em; font-size: var(--fs-micro); z-index: 1; }
+  tbody tr:nth-child(even) { background: var(--paper-deep); }
+</style>

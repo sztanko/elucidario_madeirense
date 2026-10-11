@@ -1,0 +1,59 @@
+{
+"uk-r00015/E0": [],
+"uk-r00013/E0": [],
+"uk-r00017/E0": [],
+"uk-r00027/E0": [],
+"uk-r00008/E0": [
+"length ratio 1.52 in b000"
+],
+"uk-r00011/E0": [
+"length ratio 0.80 in b008",
+"low Cyrillic share in b012",
+"termbase 'comarca' -> 'судовий округ (m.)' not used",
+"termbase 'demidia' -> 'половина врожаю (f.)' not used",
+"termbase 'logar' -> 'лугар (m.)' not used",
+"termbase 'contracto' -> 'відкуп (m.)' not used",
+"termbase 'parceria' -> 'іздольщина (f.)' not used"
+],
+"uk-r00029/E0": [],
+"uk-r00025/E0": [],
+"uk-r00010/E0": [
+"length ratio 0.71 in b004",
+"length ratio 1.56 in b005",
+"termbase 'caseiro' -> 'орендар-мешканець (m.)' not used",
+"termbase 'senhorio' -> 'сеньйорія (f.); землевласник (m.)' not used",
+"termbase 'quintos e oitavos' -> 'п'яті й восьмі частини' not used",
+"termbase 'demidia' -> 'половина врожаю (f.)' not used",
+"termbase 'contracto' -> 'відкуп (m.)' not used"
+],
+"uk-r00004/E0": [
+"termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used",
+"termbase 'Relação' -> 'апеляційний суд' not used",
+"termbase 'logar' -> 'лугар (m.)' not used"
+],
+"uk-r00022/E0": [],
+"uk-r00026/E0": [],
+"uk-r00014/E0": [
+"length ratio 2.04 in b001"
+],
+"uk-r00006/E0": [],
+"uk-r00024/E0": [],
+"uk-r00016/E0": [],
+"uk-r00001/E0": [
+"length ratio 1.74 in b000"
+],
+"uk-r00028/E0": [],
+"uk-r00002/E0": [],
+"uk-r00003/E0": [],
+"uk-r00021/E0": [],
+"uk-r00019/E0": [],
+"uk-r00020/E0": [],
+"uk-r00023/E0": [
+"termbase 'cerca' -> 'огороджена монастирська територія (f.)' not used"
+],
+"uk-r00012/E0": [],
+"uk-r00007/E0": [],
+"uk-r00018/E0": [],
+"uk-r00000/E0": [],
+"uk-r00009/E0": []
+}

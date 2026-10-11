@@ -1,0 +1,11 @@
+{
+ "lang": "hu",
+ "part": "meta",
+ "model": "claude-opus-5-5",
+ "requests": 136,
+ "system_tokens": 26481,
+ "content_tokens": 429963,
+ "est_output_tokens": 206382,
+ "est_usd": 3.28,
+ "est_gbp": 2.47
+}

@@ -1,0 +1,11 @@
+{
+ "lang": "en",
+ "part": "body",
+ "model": "claude-opus-5-5",
+ "requests": 2056,
+ "system_tokens": 24926,
+ "content_tokens": 5666950,
+ "est_output_tokens": 2720136,
+ "est_usd": 43.66,
+ "est_gbp": 32.83
+}

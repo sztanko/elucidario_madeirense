@@ -1,0 +1,168 @@
+{
+ "scores": {
+  "de:opus_low": {
+   "fidelity": 4.31,
+   "fluency": 4.14,
+   "terminology": 4.14,
+   "format": 4.38,
+   "n": 42
+  },
+  "de:sol56": {
+   "fidelity": 4.33,
+   "fluency": 4.36,
+   "terminology": 4.12,
+   "format": 4.62,
+   "n": 42
+  },
+  "de:sol6_high": {
+   "fidelity": 4.29,
+   "fluency": 4.4,
+   "terminology": 4.14,
+   "format": 4.38,
+   "n": 42
+  },
+  "de:sol6_med": {
+   "fidelity": 4.19,
+   "fluency": 4.64,
+   "terminology": 4.24,
+   "format": 4.69,
+   "n": 42
+  },
+  "ru:opus_low": {
+   "fidelity": 4.1,
+   "fluency": 4.07,
+   "terminology": 3.64,
+   "format": 4.0,
+   "n": 42
+  },
+  "ru:sol56": {
+   "fidelity": 4.45,
+   "fluency": 4.43,
+   "terminology": 4.05,
+   "format": 4.57,
+   "n": 42
+  },
+  "ru:sol6_high": {
+   "fidelity": 4.43,
+   "fluency": 4.45,
+   "terminology": 4.07,
+   "format": 4.5,
+   "n": 42
+  },
+  "ru:sol6_med": {
+   "fidelity": 4.17,
+   "fluency": 4.6,
+   "terminology": 3.93,
+   "format": 4.5,
+   "n": 42
+  }
+ },
+ "wins": {
+  "de": {
+   "opus_low": 12,
+   "sol6_high": 9,
+   "sol6_med": 9,
+   "sol56": 12
+  },
+  "ru": {
+   "sol56": 19,
+   "sol6_med": 7,
+   "opus_low": 7,
+   "sol6_high": 9
+  }
+ },
+ "pilot_usd": {
+  "haiku": 3.99,
+  "sonnet": 4.41,
+  "opus_low": 22.65,
+  "opus_med": 24.41,
+  "sol56": 3.3511,
+  "sol6": 1.3712,
+  "sol6_med": 1.0,
+  "sol6_high": 1.6376
+ },
+ "judge_usd": 1.77,
+ "judge_job": "translate_judge_sol6eff",
+ "sample_errors": {
+  "de:opus_low": [
+   "singular glosses with plural nouns: 'Alçapremas (handbetriebene Hebelpresse)', 'Levadas (Bewässerungskanal)'",
+   "drops 'bem' in 'bem conhecido'",
+   "inconsistent italics: 'foral' and 'Alçapremas' not italicised",
+   "Overly literal, long chained sentences; not modern encyclopedia prose",
+   "Keeps the Portuguese article in 'João Gonçalves o Zargo' in German",
+   "'zog sich … zurück' misses the sense of embarking in 'se recolheo'",
+   "Awkward split gloss: '*Quinta* (Landgut) das Cruzes'",
+   "Inconsistent naming: 'Kirche der heiligen Katharina' vs 'Santa Catarina'"
+  ],
+  "de:sol56": [
+   "changes 'séculos XV e XVII' to 'vom 15. bis zum 17. Jahrhundert'",
+   "b005: attributes the half-of-cane obligation to the mills ('verpflichtete sie'), which the source does not state",
+   "adds 'zudem' in b008",
+   "Wrong gloss added: 'reino, d. h. des portugiesischen Festlands' (grandes do reino means grandees of the kingdom)",
+   "Inserts an interpretive gloss into the Saudades quote: '*Lugar* (Siedlungsrang…)', where 'logar' simply means 'place'",
+   "Inconsistent naming: 'Heinrich der Seefahrer' in b015 vs 'Dom Henrique' in b014",
+   "Adds 'Capela de São Paulo (Kapelle des Apostels Paulus)', which is not in the source",
+   "Drops the ellipsis after 'Saudades'"
+  ],
+  "de:sol6_high": [
+   "redundant addition 'also Handpressen' after the gloss",
+   "b005: attributes the half-of-cane levy to the mills",
+   "awkward 'wahrscheinlich für Zucker zweiter Qualität'",
+   "Adds the gloss 'Katharina von Alexandrien', which is not in the source",
+   "'verlustreichen Unternehmen' softens 'desastrosa'",
+   "'Mauren, die zum Infanten vordringen wollten' drops 'sobre elle vinham' (the Moors bearing down on Zargo)",
+   "Renders Dom Henrique as 'Heinrich der Seefahrer' (acceptable in German, but departs from the Portuguese form)",
+   "slight addition 'unserer Inseln' for 'nossas populações'"
+  ],
+  "de:sol6_med": [
+   "redundant addition 'also Handpressen' after the gloss",
+   "omits 'zur Bewässerung der Felder' (para irrigação das terras)",
+   "'Besonders auffällig' is a weak rendering of 'avultavam'",
+   "Mistranslates 'por entrar o Infante' as 'weil der Infant an Bord gegangen war' (the Moors were trying to reach the Infante)",
+   "Adds 'beide' to 'schätzten beide ihn sehr' (the source has an impersonal 'o estimavam')",
+   "'eine schöne Bucht gibt': tense shifted to present in the quote (minor)",
+   "omits 'rev.°' (hochwürdig)",
+   "'tudo, tudo' flattened to 'All das'"
+  ],
+  "ru:sol56": [
+   "Casais and Paul given without originals, inconsistent with the other place names",
+   "'Инвестигадор' should be transcribed 'Инвештигадор'",
+   "Verdade not transcribed or glossed, unlike other titles",
+   "'mar do norte' clause shifted to 'на северном побережье ходили обычные волны'",
+   "uses 'Зарку' in narrative although source and conclusion favour 'Zargo'",
+   "'Диогу Гомиша' drops 'de Sintra' in the Russian rendering",
+   "adds 'Генриха Мореплавателя' gloss (acceptable addition)",
+   "omits all b013 table data (only a header row)"
+  ],
+  "ru:sol6_high": [
+   "Adds an anachronistic gloss of canteiro as a wine-ageing method, which the 1689 letter does not mean",
+   "Expands 'Paul' to Paul do Mar with a gloss, an interpretive addition",
+   "Casais given without original",
+   "'Инвестигадор' transcription error",
+   "omits 'territorial' in the expansion sentence",
+   "'forma muito antiquada' mistranslated as 'ещё более древняя'",
+   "'conquista' rendered as 'победу'",
+   "uses 'Зарку' in narrative, inconsistent with the Zargo preference"
+  ],
+  "ru:opus_low": [
+   "Awkward collocation 'произошло весьма необычное обстоятельство'",
+   "Quote rendered as one long archaic run-on sentence, less readable",
+   "Over-tags Portuguese words (*baixas*, *praia*, *rocha*) and clutters the text",
+   "Expands 'Paul' to Paul do Mar",
+   "Arco Pequeno given without a meaning gloss",
+   "adds a translator's note '[Прим. пер.: ...]' not in source",
+   "omits meaning glosses for São Miguel / Santa Maria on first mention",
+   "Portuguese 'Луиш Кадамосту' for the Venetian Cadamosto is debatable"
+  ],
+  "ru:sol6_med": [
+   "'de que necessitava' rendered as 'которых прежде не было' instead of 'which it needed'",
+   "Adds an anachronistic wine-ageing gloss for canteiro",
+   "'mar do norte' clause shifted",
+   "'Инвестигадор' transcription error",
+   "Verdade not glossed",
+   "'descobrimento' rendered as 'экспедицию'",
+   "'Não será inteiramente descabido' flattened to 'будет уместно'",
+   "omits 'heroicamente' (paid with his life)"
+  ]
+ }
+}

@@ -1,0 +1,114 @@
+---
+// About (English only): the project, the source work, the digital edition, the creator, credits/licence.
+import Base from '../../layouts/Base.astro';
+import Breadcrumbs from '../../components/pages/Breadcrumbs.astro';
+import SectionHead from '../../components/ui/SectionHead.astro';
+import { meta } from '../../lib/data';
+import { fmtInt } from '../../components/ui/format';
+import { readRepoFile, renderMarkdown, splitTitle } from '../../components/pages/content';
+import { t } from '../../i18n/ui';
+import * as u from '../../lib/urls';
+
+const m = meta();
+const [authorTitle, authorBody] = splitTitle(readRepoFile('AUTHOR.md'));
+const authorHtml = renderMarkdown(authorBody);
+---
+<Base lang="en" title="About — Elucidário Madeirense" description="About the Elucidário Madeirense digital edition: the source work, the creator, and this project." multilingual={false} kind="about">
+  <Breadcrumbs items={[{ label: t('en', 'back_home'), href: u.home('pt') }, { label: t('en', 'about') }]} />
+  <SectionHead size="xl" title={t('en', 'about')} role="ink" rule="below" />
+
+  <article class="em-about">
+    <section aria-labelledby="h-project">
+      <SectionHead size="l" title={t('en', 'about_project')} id="h-project" role="person" n="1" />
+      <p>The <strong>Elucidário Madeirense</strong> digital edition makes the 1921/1940 encyclopaedia of Madeira searchable,
+        cross-linked and readable in seven languages. It carries forward {fmtInt(m.counts.articles, 'en')} articles,
+        {fmtInt(m.counts.persons, 'en')} people, {fmtInt(m.counts.places, 'en')} places and {fmtInt(m.counts.events, 'en')} dated
+        events into a single structured dataset, with every person, place and date resolved into its own page and linked back to
+        the articles that mention it.</p>
+      <p>The edition is published in Portuguese (the original language), English, German, French, Hungarian, Ukrainian and Russian. Where a translation
+        is not yet available for a given piece of text, the page shows the English metadata or the Portuguese original, marked
+        accordingly, rather than leaving a gap.</p>
+    </section>
+
+    <section aria-labelledby="h-source">
+      <SectionHead size="l" title={t('en', 'about_source_work')} id="h-source" role="date" n="2" />
+      <p><em>Elucidário Madeirense</em> was first published in two volumes in 1921, to mark the fifth centenary of the discovery
+        of Madeira, under the direction of <strong>Fernando Augusto da Silva</strong> and <strong>Carlos Azevedo de Meneses</strong>,
+        with contributions from Adolfo César de Noronha and Alberto Artur Sarmento. A revised and expanded edition in three
+        volumes followed in 1940–46, with further collaboration from Alberto Artur Sarmento. The work set out to be, in the
+        words of its own prospectus, "historical in character but popular in style... easy and quick to consult", covering the
+        archipelago's history, biography, natural history, customs, and economic and literary life in several thousand short
+        entries arranged alphabetically.</p>
+    </section>
+
+    <section aria-labelledby="h-edition">
+      <SectionHead size="l" title={t('en', 'about_digital_edition')} id="h-edition" role="place" n="3" />
+      <p>The text was transcribed and OCR-corrected from the original volumes, segmented into individual articles, and
+        structured into headwords, chapters, body text, tables, verse and cross-references. People, places and chronology
+        events mentioned anywhere in the text were identified, de-duplicated and linked, and places were additionally resolved
+        to coordinates and administrative units (parish, municipality, island, or country and continent for places abroad).</p>
+      <p>Translation into English, German, French, Hungarian, Ukrainian and Russian followed a documented house style (see
+        <a href={u.about('technical')}>Technical notes</a>) covering names, religious titles, historical figures, specialist
+        terminology and numbers, with per-language style guides and a glossary ("termbase") of about 1,200 Madeira- and
+        Portugal-specific terms. Decisions on contested renderings were recorded and are published alongside the guides.</p>
+    </section>
+
+    <section aria-labelledby="h-creator">
+      <SectionHead size="l" title={t('en', 'about_creator')} id="h-creator" role="person" n="4" />
+      {authorTitle && <p class="em-author-name">{authorTitle}</p>}
+      <div class="em-prose" set:html={authorHtml} />
+    </section>
+
+    <section aria-labelledby="h-credits">
+      <SectionHead size="l" title={t('en', 'about_credits')} id="h-credits" role="ink" n="5" />
+      <p>This digital edition was produced with the assistance of large-language-model translation and editorial tooling,
+        under human review, as documented in <a href={u.about('technical')}>Technical notes</a>.</p>
+    </section>
+
+    <section aria-labelledby="h-licence">
+      <SectionHead size="l" title="Licence and disclaimer" id="h-licence" role="ink" n="6" />
+      <p><strong>The original work is in the public domain.</strong> Both authors of the <em>Elucidário Madeirense</em> died
+        more than 70 years ago: Carlos Azevedo de Meneses in 1928 and Fernando Augusto da Silva in 1949. Under Portuguese
+        and EU copyright law (life of the author plus 70 years), the 1921 edition and the 1940–1946 revised edition are free
+        of copyright and may be used without restriction.</p>
+      <p><strong>This digital edition is open source.</strong></p>
+      <ul>
+        <li>The transcription and its corrections, the translations, summaries, chapter divisions, the knowledge base (people,
+          places, chronology, links), the maps and the generated artwork are published under the
+          <a href="https://creativecommons.org/licenses/by/4.0/" rel="license">Creative Commons Attribution 4.0 International
+          licence (CC BY 4.0)</a>: you may share and adapt them for any purpose, provided you credit the
+          “Elucidário Madeirense digital edition” and link to this site or the project.</li>
+        <li>The software (pipeline and website) is released under the <a href="https://opensource.org/license/mit" rel="license">MIT
+          licence</a>.</li>
+        <li>Source code, data and technical documentation:
+          <a href="https://github.com/sztanko/elucidario_madeirense">github.com/sztanko/elucidario_madeirense</a>.
+          Corrections and suggestions are welcome there as issues or pull requests.</li>
+      </ul>
+      <p><strong>Disclaimer.</strong> This is not a facsimile. The text was extracted from digital copies of the printed volumes,
+        corrected for OCR errors and lightly normalised, and the translations, summaries, notes and links were produced with
+        the help of AI language models. Errors, omissions and inaccuracies are therefore possible, both from the original work
+        (written in 1921–1940 and reflecting its time) and from this edition. Everything is provided “as is”, without warranty
+        of any kind; the project accepts no liability for errors or for any use made of this material. For scholarly
+        citation, consult the printed edition.</p>
+      <p><strong>Third-party data.</strong> Maps contain data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap
+        contributors</a> (ODbL), relief derived from the Copernicus DEM GLO-30 (© DLR e.V. 2010–2014 and © Airbus Defence and
+        Space GmbH 2014–2018, provided under COPERNICUS by the European Union and ESA), and
+        <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain). Place locations also draw on the
+        topographic vector maps of the Região Autónoma da Madeira (<a href="https://irig-catalogo.madeira.gov.pt/geonetwork">IRIG-Madeira</a>,
+        NdD1 CC BY 4.0 and NdD2 open data), <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0), the NGA GEOnet
+        Names Server (public domain) and <a href="https://www.wikidata.org/">Wikidata</a> (CC0), which also supplies some
+        identifiers. Fonts: Sofia Sans Extra Condensed, Literata and Playfair
+        (SIL Open Font License).</p>
+    </section>
+  </article>
+</Base>
+<style>
+  .em-about { max-width: var(--measure); margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-9); }
+  .em-about section { margin-bottom: var(--s-7); }
+  .em-about p { margin: 0 0 1em; }
+  .em-author-name { font-family: var(--font-didone); font-style: italic; font-size: var(--fs-lede); color: var(--person-ink); }
+  .em-flag { border-left: 3px solid var(--date); padding-left: var(--s-4); font-size: var(--fs-small); opacity: .9; }
+  .em-prose :global(img) { max-width: 12rem; float: right; margin: 0 0 1em 1.5em; }
+  .em-prose :global(h2) { font-size: var(--fs-h4); margin: 1.2em 0 .4em; }
+  .em-prose :global(ul) { padding-left: 1.3em; }
+</style>

@@ -1,0 +1,56 @@
+{
+ "scores": {
+  "uk:uk_opus_low": {
+   "fidelity": 4.29,
+   "fluency": 4.29,
+   "terminology": 4.19,
+   "format": 4.36,
+   "n": 42
+  },
+  "uk:uk_sol56": {
+   "fidelity": 4.33,
+   "fluency": 4.62,
+   "terminology": 4.07,
+   "format": 4.55,
+   "n": 42
+  }
+ },
+ "wins": {
+  "uk": {
+   "uk_opus_low": 23,
+   "uk_sol56": 19
+  }
+ },
+ "pilot_usd": {
+  "haiku": 3.99,
+  "sonnet": 4.41,
+  "opus_low": 22.65,
+  "opus_med": 24.41,
+  "sol56": 3.3511,
+  "sol6": 1.3712
+ },
+ "judge_usd": 0.52,
+ "judge_job": "translate_judge_uk",
+ "sample_errors": {
+  "uk:uk_sol56": [
+   "omits 'alguns' (some) patients: 'приймала хворих'",
+   "drops 'então' (then) regarding the services rendered",
+   "'коледж' is misleading for a girls' school (colégio)",
+   "Inconsistent transcription of the same name: 'Антоніо' vs 'Антоніу'",
+   "Inconsistent vowel transcription: 'Бріту' vs 'Рибейра'",
+   "'породичалися' is less standard than 'поріднилися'",
+   "Omits 'D.' in the original-name parenthetical for the founder",
+   "'капітан флоту' is vague for 'capitão de mar e guerra' (≈ captain first rank)"
+  ],
+  "uk:uk_opus_low": [
+   "'охоче відвідували' distorts 'muito frequentado' (heavily attended)",
+   "calque 'зробила послуги' instead of 'надала послуги'",
+   "'колегію' is somewhat archaic",
+   "'Бриту'/'Рибейра' use и where Ukrainian convention usually prefers і (Бріту, Рібейра)",
+   "Minor: 'служив у війську' slightly narrows 'fez parte do exército', but acceptable",
+   "'безсоромністю' only loosely renders 'falta de escrúpulos'",
+   "slightly heavy parenthetical glossing in b002",
+   "minor addition 'згодом' regarding Rui's captaincy"
+  ]
+ }
+}
