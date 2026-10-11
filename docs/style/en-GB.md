@@ -1,7 +1,7 @@
 # Style guide: English (UK), `en-GB`
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
-Renderings marked (proposed) are defaults until confirmed in the termbase. -->
+-->
 
 ## 1. Standard and spelling
 - British English, following the *New Oxford Style Manual* conventions: *colour, centre,
@@ -60,7 +60,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   *tostão / tostões*, *vintém / vinténs* (italic, termbase gloss). *reais* → réis.
 - Order: number + currency word ("20,000 réis", "4.20 escudos"). *Esc. 54$00* in prose →
   "54.00 escudos".
-- First-mention glosses (proposed): réis (the Portuguese money of account before 1911;
+- First-mention glosses: réis (the Portuguese money of account before 1911;
   1,000 réis = 1 mil-réis, 1,000,000 réis = 1 conto); escudos (the Portuguese currency from
   1911: 1 escudo = 100 centavos = 1,000 réis); *contos* (1 conto = 1,000,000 réis, from 1911
   1,000 escudos).
@@ -90,7 +90,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 > 1,000 réis = 1 mil-réis, 1,000,000 réis = 1 conto), to which the decree of 10 July of the
 > same year added 110,000 réis…
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 | Portuguese | en-GB rendering | First mention |
 |---|---|---|

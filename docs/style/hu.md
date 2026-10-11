@@ -1,7 +1,7 @@
 # Style guide: Hungarian, `hu`
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
-Renderings marked (proposed) are defaults until confirmed in the termbase. -->
+-->
 
 ## 1. Standard and spelling
 - Standard Hungarian as codified in *A magyar helyesírás szabályai*, 12th edition (AkH12,
@@ -69,7 +69,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   *vintém* (italic, termbase gloss; suffixes per §8: *tostão-t*, *vintém-et*). *reais* → réis.
 - Order: number + currency (*20 000 réis*, *4,20 escudo*). *Esc. 54$00* in prose →
   *54,00 escudo*. *por quilo* → *kilónként*.
-- First-mention glosses (proposed): réis (portugál számolópénz 1911 előtt; 1000 réis =
+- First-mention glosses: réis (portugál számolópénz 1911 előtt; 1000 réis =
   1 mil-réis, 1 000 000 réis = 1 conto); escudo (portugál pénznem 1911-től: 1 escudo =
   100 centavo = 1000 réis); *conto* (1 conto = 1 000 000 réis, 1911-től 1000 escudo).
 - Table headings: „Év”, „Évek”, „Mennyiség (kg)”, „Liter”, „Bevétel (réis)”,
@@ -98,7 +98,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 > 1 000 000 réis = 1 conto) fizetést állapítottak meg számára, amelyhez az ugyanazon év
 > július 10-i királyi rendelete (*alvará*) további 110 000 réist csatolt…
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 | Portuguese | Hungarian rendering | First mention |
 |---|---|---|

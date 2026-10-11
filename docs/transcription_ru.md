@@ -1,6 +1,6 @@
 # Portuguese → Russian transcription standard (Elucidário Madeirense)
 
-Status: **draft v0.2** (2026-09-26), pending owner review (see §15).
+Status: **v1.0**, approved by the owner on 2026-09-27 (see §15).
 Scope: all Portuguese proper names in the Russian translation: people, places, churches and chapels, institutions, periodicals, plus foreign names that appear inside the Portuguese text.
 Machine-readable seed: `kb/names_seed_ru_uk.jsonl`. Ukrainian counterpart: `docs/transcription_uk.md`.
 
@@ -1092,7 +1092,7 @@ Generated from `kb/names_seed_ru_uk.jsonl` (authoritative seed). Religious and h
 | 194 | Torre do Tombo | institution | архив Торре-ду-Томбу | — | архив Торре-ду-Томбу (Torre do Tombo) |
 | 195 | Echo de Santa Cruz | institution | «Эку ди Санта-Круш» | Эхо Санта-Круш | «Эку ди Санта-Круш» (Эхо Санта-Круш, Eco de Santa Cruz) |
 
-## 15. Decisions for the owner to confirm
+## 15. Decisions (confirmed by the owner)
 
 1. **Particles**: де in personal names and titles (Жуан де Барруш, граф де Карвальял), but ди in toponyms (Камара-ди-Лобуш). The alternative is ди everywhere, which is more consistent phonetically but departs from Russian historiography.
 2. **ss → с** (Носа-Сеньора, as in your example), with Пессоа as an exception. The alternative is сс (Носса-Сеньора, as in Russian Wikipedia).

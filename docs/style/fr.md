@@ -1,7 +1,7 @@
 # Style guide: French, `fr`
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
-Renderings marked (proposed) are defaults until confirmed in the termbase. -->
+-->
 
 ## 1. Standard and spelling
 - French of France. Traditional spelling, with the 1990 *rectifications* neither required nor
@@ -55,7 +55,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   gloss). *reais* → réis. Genders: les réis (m. pl.), un escudo, un centavo, un *conto*.
 - Order: number + currency ("20 000 réis", "4,20 escudos"). *Esc. 54$00* in prose →
   "54,00 escudos". *por quilo* → *le kilo*.
-- First-mention glosses (proposed): réis (monnaie de compte portugaise avant 1911 ;
+- First-mention glosses: réis (monnaie de compte portugaise avant 1911 ;
   1000 réis = 1 mil-réis, 1 000 000 réis = 1 conto) ; escudos (monnaie portugaise à
   partir de 1911 : 1 escudo = 100 centavos = 1000 réis) ; *contos* (1 conto = 1 000 000
   réis, à partir de 1911 1000 escudos).
@@ -85,7 +85,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 > 1000 réis = 1 mil-réis, 1 000 000 réis = 1 conto), auquel l’alvará du 10 juillet de la même
 > année ajouta 110 000 réis…
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 | Portuguese | French rendering | First mention |
 |---|---|---|

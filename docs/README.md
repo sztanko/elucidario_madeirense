@@ -16,7 +16,7 @@ technical notes. Machine-readable reference tables live in `kb/`.
 | [style/en-GB.md](style/en-GB.md), [de](style/de.md), [fr](style/fr.md), [it](style/it.md), [hu](style/hu.md), [nl](style/nl.md), [uk](style/uk.md), [ru](style/ru.md) | Per-language style guides |
 | [style/DECISIONS.md](style/DECISIONS.md) | Decisions confirmed by the editor |
 | [transcription_uk.md](transcription_uk.md), [transcription_ru.md](transcription_ru.md) | Portuguese → Ukrainian/Russian name transcription: religious titles, historical figures, and historical/legal terms |
-| [translation_strategy.md](translation_strategy.md) | Model pilot: quality scores, costs, chosen strategy |
+| [translation_strategy.md](translation_strategy.md) | Model pilot: quality scores and the chosen strategy |
 
 ## Reference tables (`kb/`)
 | File | Contents |

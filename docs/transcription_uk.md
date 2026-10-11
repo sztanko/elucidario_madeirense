@@ -1,6 +1,6 @@
 # Portuguese → Ukrainian transcription standard (Elucidário Madeirense)
 
-Status: **draft v0.1** (2026-09-26), pending owner review (see §16).
+Status: **v1.0**, approved by the owner on 2026-09-27 (see §16).
 Scope: all Portuguese proper names in the Ukrainian translation: people, places, churches and chapels, institutions, periodicals, plus foreign names that appear inside the Portuguese text.
 Machine-readable seed: `kb/names_seed_ru_uk.jsonl` (fields `uk`, `uk_meaning`, `uk_first`). Russian counterpart: `docs/transcription_ru.md`.
 
@@ -1085,11 +1085,11 @@ Everything else is identical: ão → ан, s/z → ш/ж, ss → с, rr → р�
 
 ---
 
-## 16. Decisions for the owner to confirm
+## 16. Decisions (confirmed by the owner)
 
 1. **Two і/и regimes**: the rule of nine applies to place, building and dedication names but **not** to personal names. So Тріштан Ваш (person) and мис Триштан (place) are both correct. The alternative is і everywhere, which is simpler but ignores Правопис 2019 for geographic names (Рибейра-Брава would become Рібейра-Брава).
 2. **г, not ґ, for Portuguese g**. Правопис 2019 allows ґ in personal names (Ґонсалвіш). Using г everywhere keeps persons and places consistent (Гоміш, Гаула).
 3. **Сеньора inside names, сеньйор/сеньйора as courtesy words**: Носа-Сеньора follows the lh/nh rule. The alternative is Носа-Сеньйора everywhere, matching the dictionary.
 4. **Богоматір** in meanings (Богоматір Скорботна), not Матір Божа or Богородиця.
 5. **Particles**: де in personal names and ді in toponyms, as in Russian.
-6. **Established forms**: Себастіан I, Філіп II, Луїс де Камоенс, Педру Алвареш Кабрал and Ангра-ду-Ероїшму override the rules. Please confirm them against the reference works you use.
+6. **Established forms**: Себастіан I, Філіп II, Луїс де Камоенс, Педру Алвареш Кабрал and Ангра-ду-Ероїшму override the rules.

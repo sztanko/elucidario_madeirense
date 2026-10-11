@@ -35,7 +35,7 @@ Caveat: the gold came from a Claude review, so the Opus score is biased upwards.
 Jev's confidence does not help here either (64.6% accuracy at confidence ≥ 0.85). The decision needs indirection: using the neighbouring headwords to infer that an umbrella article is in progress. The vendor documents indirection as a weakness of jev-1.13.
 
 ## Decision
-- **Not adopted for Phase 2 or 3.** On Portuguese, context-dependent decisions, Jev is clearly below Claude. Its documentation confirms that non-English accuracy is lower. Cost is not a factor: the equivalent Claude calls cost a few dollars for the whole corpus.
+- **Not adopted for Phase 2 or 3.** On Portuguese, context-dependent decisions, Jev is clearly below Claude. Its documentation confirms that non-English accuracy is lower.
 - **Re-test in later phases,** where the questions are in English and more literal:
   - taxonomy assignment from the English abstracts;
   - link-candidate confirmation;
@@ -43,7 +43,7 @@ Jev's confidence does not help here either (64.6% accuracy at confidence ≥ 0.8
   - choosing among geocoding candidates.
 
   The harness is reusable. The adoption rule stays: use Jev only where it matches Sonnet on a labelled sample.
-- **Side finding for Phase 3:** Sonnet 5 missed about a third of the errors Opus found. The corpus-wide OCR proofreading pass will therefore use **Opus 5.5 at low effort through the Batch API** (about $8–12) rather than Sonnet (about $3).
+- **Side finding for Phase 3:** Sonnet 5 missed about a third of the errors Opus found. The corpus-wide OCR proofreading pass will therefore use **Opus 5.5 at low effort through the Batch API** rather than Sonnet.
 
 ## Task C (Phase 6 re-test): link homonym disambiguation, English context
 - **Setup:** 377 ambiguous cross-reference links. Each has between 2 and 12 candidate entries, and each candidate is described by its English abstract. The passage itself is Portuguese. The gold labels are Opus 5.5's decisions from the synthesis batch.

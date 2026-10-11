@@ -15,7 +15,7 @@
    - headword-digit: 3
    - hyphen-as-dash: 2
    - split-word: 2
-2. **LLM proofreading (`elu ocrproof`):** Claude Opus 5.5 at low effort via the Batch API. The corpus went in 644 chunks, and every paragraph was marked with the words the lexicon did not recognise. The model returns only `find`/`replace` edits. Code checks each edit before applying it: the text must be found exactly once, the change must be small, and edits that remove circumflexes or turn ph/th into f/t (modernisation) are rejected. 1464 edits applied: {'punctuation': 274, 'ocr': 903, 'split_join': 54, 'number': 94, 'hyphen': 139}. Rejected: {'circumflex-modernisation': 2, 'find-not-found': 54, 'noop': 6, 'too-different': 1, 'find-ambiguous': 1}. **Cost $6.44.**
+2. **LLM proofreading (`elu ocrproof`):** Claude Opus 5.5 at low effort via the Batch API. The corpus went in 644 chunks, and every paragraph was marked with the words the lexicon did not recognise. The model returns only `find`/`replace` edits. Code checks each edit before applying it: the text must be found exactly once, the change must be small, and edits that remove circumflexes or turn ph/th into f/t (modernisation) are rejected. 1464 edits applied: {'punctuation': 274, 'ocr': 903, 'split_join': 54, 'number': 94, 'hyphen': 139}. Rejected: {'circumflex-modernisation': 2, 'find-not-found': 54, 'noop': 6, 'too-different': 1, 'find-ambiguous': 1}.
 3. **Manual overrides from the review** go in `data/03_clean/manual_edits.yaml`.
 4. **Structure stage:** 164 paragraphs split by page breaks were merged.
 
@@ -25,7 +25,7 @@ Every change is logged with its source, rule and before/after text in `data/03_c
 - **95.5% of edits are correct:** LLM 97.6% (244/250), rules 92% (138/150).
 - **No LLM edit modernised the period spelling.** Suspicious-looking fixes were checked against the corpus and confirmed, e.g. Almeida→Almada and 1717→1757.
 - **Rule failures:** mostly *se* meaning "whether" being hyphenated as a pronoun, spaced ellipses, and a hyphen used as a dash. All three were fixed and the rules re-run.
-- **Remaining errors:** about 15–19 per 10,000 words, measured before these rule fixes. Mostly minor punctuation and quote marks (`etc..`, `1521:e`, mismatched “ ”), plus a few garbled rare words. The 1-per-10k target from the plan was not reached. The remaining errors are mostly cosmetic and don't block enrichment or translation. A second targeted LLM pass (about $5) is possible later.
+- **Remaining errors:** about 15–19 per 10,000 words, measured before these rule fixes. Mostly minor punctuation and quote marks (`etc..`, `1521:e`, mismatched “ ”), plus a few garbled rare words. The 1-per-10k target from the plan was not reached. The remaining errors are mostly cosmetic and don't block enrichment or translation. A second targeted LLM pass is possible later.
 
 ## Kept on purpose
 The 1921/1940 orthography (pôrto, Agôsto, theatro, pharmacia, mez, …) and the authentic spellings in quoted 15th–18th century documents are kept unchanged.
@@ -33,5 +33,5 @@ The 1921/1940 orthography (pôrto, Agôsto, theatro, pharmacia, mez, …) and th
 ## Second targeted pass (added after review)
 - **Scope:** 4,942 paragraphs (51% of the text) that a checker flagged: unrecognised rare words, unbalanced quotation marks or parentheses, doubled punctuation, stray symbols, missing space after `:`/`;`, and doubtful *se* hyphens. Each paragraph was sent with its specific flags.
 - **Prompt:** the pass-1 prompt plus a focus section built from the reviewer's findings.
-- **Result:** 448 edits applied (265 punctuation, mostly closing quotes typeset as opening ones; 148 OCR; 21 hyphen; 9 number; 5 split/join), 9 rejected by the checks. **Cost $4.16.**
-- **Total OCR corrections:** about 3,060. OCR phase LLM cost: $10.60 for passes 1 and 2 (plus a $0.27 pilot).
+- **Result:** 448 edits applied (265 punctuation, mostly closing quotes typeset as opening ones; 148 OCR; 21 hyphen; 9 number; 5 split/join), 9 rejected by the checks.
+- **Total OCR corrections:** about 3,060.
