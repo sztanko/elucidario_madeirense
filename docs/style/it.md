@@ -1,7 +1,7 @@
 # Style guide: Italian, `it`
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
-Renderings marked (proposed) are defaults until confirmed in the termbase. -->
+-->
 
 ## 1. Standard and spelling
 - Standard Italian, following current reference usage (Treccani, Serianni). Accents: *perché,
@@ -53,7 +53,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   *reais* → réis.
 - Order: number + currency ("20.000 réis", "4,20 escudo"). *Esc. 54$00* in prose →
   "54,00 escudo". *por quilo* → *al chilo*.
-- First-mention glosses (proposed): réis (moneta di conto portoghese prima del 1911;
+- First-mention glosses: réis (moneta di conto portoghese prima del 1911;
   1000 réis = 1 mil-réis, 1.000.000 réis = 1 conto); escudo (moneta portoghese dal 1911:
   1 escudo = 100 centavo = 1000 réis); *contos* (1 conto = 1.000.000 réis, dal 1911
   1000 escudo).
@@ -83,7 +83,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 > 1000 réis = 1 mil-réis, 1.000.000 réis = 1 conto), cui l’alvará del 10 luglio dello stesso
 > anno aggiunse 110.000 réis…
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 | Portuguese | Italian rendering | First mention |
 |---|---|---|
@@ -135,7 +135,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 
 | Source | Italian | Source | Italian |
 |---|---|---|---|
-| Madeira | **Madera** (l’isola di Madera, a Madera) *(to confirm: Madera vs Madeira)* | Açores | le Azzorre |
+| Madeira | **Madera** (l’isola di Madera, a Madera) | Açores | le Azzorre |
 | Lisboa | Lisbona | Canárias | le Canarie (le isole Canarie) |
 | Porto | Porto | Brasil | il Brasile |
 | Londres | Londra | Inglaterra | l’Inghilterra |

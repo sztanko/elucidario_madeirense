@@ -20,6 +20,7 @@ const authorHtml = renderMarkdown(authorBody);
   <article class="em-about">
     <section aria-labelledby="h-project">
       <SectionHead size="l" title={t('en', 'about_project')} id="h-project" role="person" n="1" />
+      <p class="em-about-contact">Contact: <a href="mailto:info@elucidariomadeirense.pt">info@elucidariomadeirense.pt</a></p>
       <p>The <strong>Elucidário Madeirense</strong> digital edition makes the 1921/1940 encyclopaedia of Madeira searchable,
         cross-linked and readable in seven languages. It carries forward {fmtInt(m.counts.articles, 'en')} articles,
         {fmtInt(m.counts.persons, 'en')} people, {fmtInt(m.counts.places, 'en')} places and {fmtInt(m.counts.events, 'en')} dated
@@ -106,6 +107,7 @@ const authorHtml = renderMarkdown(authorBody);
   .em-about { max-width: var(--measure); margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-9); }
   .em-about section { margin-bottom: var(--s-7); }
   .em-about p { margin: 0 0 1em; }
+  .em-about-contact { font-family: var(--font-label); letter-spacing: .06em; font-size: var(--fs-small); }
   .em-author-name { font-family: var(--font-didone); font-style: italic; font-size: var(--fs-lede); color: var(--person-ink); }
   .em-flag { border-left: 3px solid var(--date); padding-left: var(--s-4); font-size: var(--fs-small); opacity: .9; }
   .em-prose :global(img) { max-width: 12rem; float: right; margin: 0 0 1em 1.5em; }

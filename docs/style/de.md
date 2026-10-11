@@ -1,7 +1,7 @@
 # Style guide: German, `de`
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
-Renderings marked (proposed) are defaults until confirmed in the termbase. -->
+-->
 
 ## 1. Standard and spelling
 - German as written in Germany, **amtliche Rechtschreibung** (reformed spelling 2006, current
@@ -58,7 +58,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   Gender: der Escudo, der Centavo, der Conto; *Réis* is used as a plural (*die 500 Réis*).
 - Order: number + currency ("20.000 Réis", "4,20 Escudos"). *Esc. 54$00* in prose →
   "54,00 Escudos".
-- First-mention glosses (proposed): Réis (portugiesische Rechnungsmünze vor 1911;
+- First-mention glosses: Réis (portugiesische Rechnungsmünze vor 1911;
   1000 Réis = 1 Mil-Réis, 1.000.000 Réis = 1 Conto); Escudos (portugiesische Währung ab 1911:
   1 Escudo = 100 Centavos = 1000 Réis); *Contos* (1 Conto = 1.000.000 Réis, ab 1911
   1000 Escudos).
@@ -88,7 +88,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 > 1000 Réis = 1 Mil-Réis, 1.000.000 Réis = 1 Conto), zu dem der Erlass vom 10. Juli desselben
 > Jahres 110.000 Réis hinzufügte …
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 German capitalises all nouns, so kept Portuguese nouns are capitalised in running text
 (*die Levada*, *die Fajã*). In the parenthesised original of a first-mention gloss, the

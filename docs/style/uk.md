@@ -2,8 +2,7 @@
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
 Names follow docs/transcription_uk.md (the name table is generated from it); this file
-summarises what the translator needs in the prompt. Renderings marked (proposed) are
-defaults until confirmed in the termbase. -->
+summarises what the translator needs in the prompt. -->
 
 ## 1. Standard and spelling
 - Modern standard Ukrainian, **Український правопис 2019** (the current official edition),
@@ -96,7 +95,7 @@ defaults until confirmed in the termbase. -->
 > 1911 року; 1000 рейс = 1 мільрейс, 1 000 000 рейс = 1 конто), до якої королівський указ
 > (*alvará*) від 10 липня того ж року додав 110 000 рейс…
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 Kept terms are transcribed and declined as Ukrainian nouns, in roman type; the Latin
 original appears in italics only inside the first-mention gloss (core §9.3).

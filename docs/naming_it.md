@@ -1,6 +1,6 @@
 # Proper names in the Italian translation (`it`)
 
-Status: **draft v0.1** (2026-10-03), pending owner review (§14).
+Status: **v1.0**, confirmed by the owner on 2026-10-03 (§14).
 Scope: all proper names in the Italian translation of the *Elucidário Madeirense*.
 Shared rules, reasons and sources: `docs/naming_latin.md` (cited as **NL §n**). This file
 gives the Italian forms. Machine-readable titles: `kb/works.yaml`. Style guide:
@@ -649,7 +649,7 @@ Note: en and it have exonyms for the Selvagens; hu has one for the Desertas.
 
 ## 14. Decisions — confirmed by the owner on 2026-10-03 (the recommended defaults below were accepted; see naming_latin.md §13.3)
 
-1. *Madera* for the island (established; it style guide marked it "to confirm").
+1. *Madera* for the island (established).
 2. Periodicals in caporali, books in italics, meanings and descriptive titles in apici.
 3. Lower-case *san/santa* for saints as persons (Crusca); capitalised only in names of
    churches, places, streets.

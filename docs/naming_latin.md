@@ -1,6 +1,6 @@
 # Proper names in the Latin-script translations (en-GB, de, fr, it, hu, nl): shared standard
 
-Status: **draft v0.1** (2026-10-03), pending owner review (§13.3).
+Status: **v1.0**, confirmed by the owner on 2026-10-03 (§13.3).
 Scope: every proper name in the six Latin-script translations of the *Elucidário Madeirense*:
 people, places, churches, chapels and other dedications, institutions, works and periodicals,
 and foreign names inside the Portuguese text.
@@ -610,8 +610,8 @@ it needs updating (no edits were made by this task):
 | de.md §6 | Miguel; Peter II. | KB has Michael I.; Peter II. (keep KB, align the guide). |
 | nl.md §6 | Manuel I | KB has Emanuel I (Dutch Wikipedia); align. |
 | en-GB.md §6 | Peter IV | KB has Pedro IV (English Wikipedia: *Pedro I of Brazil*, *Pedro V of Portugal*); align. |
-| it.md §7 | "Madera vs Madeira (to confirm)" | Madera for the island (Wikidata Q26253 it label; it Wikipedia). |
-| nl.md §8 | *Madeiraans (to confirm)* | Open question (§13.3, item 8). |
+| it.md §7 | Madera vs Madeira | Madera for the island (Wikidata Q26253 it label; it Wikipedia). |
+| nl.md §8 | *Madeiraans* | Adopted (§13.3, item 8). |
 
 ---
 

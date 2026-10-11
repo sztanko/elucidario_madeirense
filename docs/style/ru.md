@@ -2,8 +2,7 @@
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
 Names follow docs/transcription_ru.md (the name table is generated from it); this file
-summarises what the translator needs in the prompt. Renderings marked (proposed) are
-defaults until confirmed in the termbase. -->
+summarises what the translator needs in the prompt. -->
 
 ## 1. Standard and spelling
 - Modern standard Russian, spelling and punctuation per *Правила русской орфографии и
@@ -97,7 +96,7 @@ defaults until confirmed in the termbase. -->
 > до 1911 года; 1000 рейс = 1 мильрейс, 1 000 000 рейс = 1 конто), к которому королевский
 > указ (*alvará*) от 10 июля того же года добавил 110 000 рейс…
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 Kept terms are transcribed and declined as Russian nouns, in roman type; the Latin original
 appears in italics only inside the first-mention gloss (core §9.3).

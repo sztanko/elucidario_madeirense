@@ -1,7 +1,7 @@
 # Style guide: Dutch, `nl`
 
 <!-- Appended to core.md in the system prompt. Overrides core.md where they conflict.
-Renderings marked (proposed) are defaults until confirmed in the termbase. -->
+-->
 
 ## 1. Standard and spelling
 - Standard Dutch as written in the Netherlands, following the official spelling (*Woordenlijst
@@ -59,7 +59,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
   gloss). *reais* → réis.
 - Order: number + currency (*20.000 réis*, *4,20 escudo*). *Esc. 54$00* in prose →
   *54,00 escudo*. *por quilo* → *per kilo*.
-- First-mention glosses (proposed): réis (Portugese rekenmunt vóór 1911; 1000 réis =
+- First-mention glosses: réis (Portugese rekenmunt vóór 1911; 1000 réis =
   1 mil-réis, 1.000.000 réis = 1 conto); escudo (Portugese munt vanaf 1911: 1 escudo =
   100 centavo = 1000 réis); *conto* (1 conto = 1.000.000 réis, vanaf 1911 1000 escudo).
 - Table headings: “Jaar”, “Jaren”, “Hoeveelheid (kg)”, “Liter”, “Ontvangsten (réis)”,
@@ -88,7 +88,7 @@ Renderings marked (proposed) are defaults until confirmed in the termbase. -->
 > 1000 réis = 1 mil-réis, 1.000.000 réis = 1 conto), waaraan het koninklijk besluit
 > (*alvará*) van 10 juli van hetzelfde jaar 110.000 réis toevoegde…
 
-## 5. Default renderings (proposed; the termbase is authoritative)
+## 5. Default renderings (the termbase is authoritative)
 
 | Portuguese | Dutch rendering (article) | First mention |
 |---|---|---|
@@ -168,7 +168,7 @@ The wine: **madeira** (lower case, *de madeira*; *madeirawijn*).
 - Named features take the article of the Dutch generic they denote: *de Levada do Rabaçal*,
   *de Pico Ruivo*, *de Paul da Serra*, *de Quinta do Palheiro*, *de Fajã dos Padres*,
   *de Ribeira Brava* (the stream; the town has no article).
-- Adjectives: *Madeiraans* (*Madeiraanse wijn*, *Madeiraans borduurwerk*) *(to confirm)*;
+- Adjectives: *Madeiraans* (*Madeiraanse wijn*, *Madeiraans borduurwerk*);
   *Portugees*. No adjective from Funchal: *van Funchal*.
 - Particles in names stay lower case and are not moved: *da Câmara*, *de Freitas*. Sorting
   and capitalisation rules for Dutch *tussenvoegsels* do not apply to Portuguese names.

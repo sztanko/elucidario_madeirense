@@ -1,6 +1,6 @@
 # Proper names in the German translation (`de`)
 
-Status: **draft v0.1** (2026-10-03), pending owner review (§14).
+Status: **v1.0**, confirmed by the owner on 2026-10-03 (§14).
 Scope: all proper names in the German translation of the *Elucidário Madeirense*.
 Shared rules, reasons and sources: `docs/naming_latin.md` (cited as **NL §n**). This file
 gives the German forms. Machine-readable titles: `kb/works.yaml`. Style guide:

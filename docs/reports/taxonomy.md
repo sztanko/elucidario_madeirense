@@ -87,10 +87,10 @@ Corpus-wide headword patterns show where the volume is:
 | *Carvalhal (1º Conde de)* | `person.merchant` + `person.governor` | Landowner and civil governor; the primary choice is a judgement call |
 | *Schacht*, *Richter*, *Pommer*, *Alemanio Fini* | visitor or scientist | One-line entries that only list books; hard to tell visitor from scientist |
 
-## Open questions
+## Decisions (confirmed)
 
-1. **Foreign authors known only from a bibliography line.** Should they default to `person.visitor`, or to their profession (botanist, physician) when it is known from outside the text? The current rule uses the profession only if the entry itself makes it clear.
-2. **Compound children.** Should sub-entries inherit the parent's type automatically? Examples are the *Medicina Campestre* ailments → `culture.folk_medicine`, *Vinhas* → `organism.cultivar`, and *Ribeiras* → `place.stream`. Automatic inheritance would save classifier calls and make these groups consistent.
-3. **Entries that name several features at once**, such as *Pontinha (Sitio, Estrada, Ilhéus e Molhe da)* or *Arco de São Jorge (Porto e Praia do)*. Is the 3-type cap enough, or should the re-edition split them into separate records?
-4. **Quintas and levadas as places.** Do you agree with filing them under `place.*` rather than `building.*` / `economy.infrastructure`? The same question applies to wine getting its own `economy.wine` code, separate from grape varieties under `organism.cultivar`.
-5. **Granularity of the most common subtypes.** Should `person.writer` (the largest person subtype) be split into writer, journalist and scholar? Should `place.locality` be split into inhabited sítio and uninhabited named area? For now the finer detail is left to facets and secondary codes, to keep the codes few and stable for translation.
+1. **Foreign authors known only from a bibliography line** default to `person.visitor`; their profession (botanist, physician) is used only when the entry itself makes it clear.
+2. **Compound children** are classified individually, with the parent entry given as context; there is no automatic inheritance of the parent's type.
+3. **Entries that name several features at once**, such as *Pontinha (Sitio, Estrada, Ilhéus e Molhe da)* or *Arco de São Jorge (Porto e Praia do)*, keep one record with up to three types.
+4. **Quintas and levadas** are filed as places (`place.*`); wine has its own `economy.wine` code, separate from grape varieties under `organism.cultivar`.
+5. **Granularity:** `person.writer` and `place.locality` stay single subtypes; finer detail is carried by facets and secondary codes, keeping the codes few and stable for translation.
