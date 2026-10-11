@@ -31,7 +31,18 @@ const nav = [
 <header class="em-hdr" data-chrome>
   <div class="em-hdr__bar">
     <a class="em-hdr__mark" href={u.home(homeLang)} title={`${t(lang, 'site')} · ${t(lang, 'back_home')}`}>
-      <span class="em-hdr__em" aria-hidden="true">EM</span>
+      {/* the mark: a casa de Santana, Madeira's thatched A-frame house (same drawing as public/favicon.svg) */}
+      <svg class="em-hdr__house" viewBox="4 4 56 54" aria-hidden="true" focusable="false">
+        <path d="M32 5 L58.5 57 H5.5 Z" fill="var(--ink)" />
+        <g stroke="var(--paper)" stroke-width="1" stroke-linecap="round" opacity=".5">
+          <path d="M28.6 13.5 L12.5 50" /><path d="M25.4 21 L16.5 41" /><path d="M35.4 13.5 L51.5 50" /><path d="M38.6 21 L47.5 41" />
+        </g>
+        <path d="M32 21.5 L48.5 57 H15.5 Z" fill="var(--paper-light, #f4eedf)" />
+        <path d="M32 24.5 L46 55.5 H18 Z" fill="none" stroke="#1d5f8a" stroke-width="1.4" stroke-linejoin="round" />
+        <rect class="em-hdr__door" x="28" y="42.5" width="8" height="14.5" rx=".6" fill="var(--person)" />
+        <rect x="29.4" y="32.5" width="5.2" height="5.2" fill="var(--paper-light, #f4eedf)" stroke="#1d5f8a" stroke-width="1.4" />
+        <path d="M4 57 H60" stroke="var(--ink)" stroke-width="2.2" stroke-linecap="round" />
+      </svg>
       <span class="em-hdr__word"><span>{t(lang, 'site')}</span></span>
       <span class="em-sr-only">{t(lang, 'back_home')}</span>
     </a>

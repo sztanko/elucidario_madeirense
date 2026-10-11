@@ -24,6 +24,10 @@ const taglines: Record<string, string> = {
     <title>Elucidário Madeirense</title>
     <meta name="description" content="Elucidário Madeirense — encyclopaedia of Madeira (1921/1940), digital edition in Portuguese, English, German, French, Hungarian, Ukrainian and Russian." />
     <link rel="canonical" href={site + u.BASE + '/'} />
+    <link rel="icon" href={u.BASE + '/favicon.ico'} sizes="16x16 32x32 48x48" />
+    <link rel="icon" href={u.BASE + '/favicon.svg'} type="image/svg+xml" />
+    <link rel="apple-touch-icon" href={u.BASE + '/apple-touch-icon.png'} />
+    <link rel="manifest" href={u.BASE + '/site.webmanifest'} />
     {langs.map((l) => <link rel="alternate" hreflang={htmlLang(l)} href={site + u.home(l)} />)}
     <link rel="alternate" hreflang="x-default" href={site + u.home('pt')} />
     <style>
