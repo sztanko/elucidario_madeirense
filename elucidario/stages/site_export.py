@@ -145,8 +145,8 @@ class Corpus:
                 self.person_main[p["main_article_id"]].append(p["id"])
 
     def tr(self, lang: str) -> dict[str, str]:
-        if lang == "pt":
-            return {}
+        """Translations for this language. For pt (the source of the article texts) the snapshot holds only the
+        metadata written for the edition (abstracts, summaries, notes, chronology), translated back from English."""
         out = {}
         for r in jl(DATA / "11_translations" / f"{lang}.jsonl"):
             if r["status"] == "done" and r["text"]:
@@ -250,6 +250,8 @@ def export_geo(c: Corpus) -> dict:
         rec = {"pt": p["name"], "tp": p["place_type"], "isl": p["island"], "par": par or p.get("parish"), "mun": mun or p.get("municipality"),
                "cont": cont, "ctry": country, "c": point, "prec": g.get("precision"), "main": p.get("main_article_id"),
                "n": p.get("mention_count", 0)}
+        if g.get("wikidata"):  # Wikidata id (places abroad, from geocoding) -> schema.org sameAs
+            rec["wd"] = g["wikidata"]
         if g.get("match"):  # exact | variant (spelling) | proxy (a namesake feature marks it) | area (parish/municipality)
             rec["match"] = g["match"]
         # levadas, streams, roads run through several parishes/municipalities (primary first)
@@ -330,17 +332,11 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
     N = c.names(lang)
     # In-text links (data/12_links/<lang>.jsonl from links_plan / links_align); pt falls back to the KB link list.
     LINKS = {r["article"]: r["links"] for r in jl(DATA / "12_links" / f"{lang}.jsonl")}
-    meta_lang = lang  # language of metadata texts actually used (pt falls back to en)
-    T_meta = T if lang != "pt" else c.tr("en") if False else {}
-    if lang == "pt":
-        # metadata exists only in English and translated languages; pt shows English metadata (flagged)
-        T_meta = {}
-        meta_lang = "en"
 
     def mt(uid: str, en_text: str | None) -> tuple[str | None, str]:
         """Metadata text in this language, else English source; returns (text, lang).
         Italic markers (*…*) are dropped: metadata is shown as plain text in cards, lists and entries."""
-        if lang != "pt" and lang != "en" and uid in T:
+        if lang != "en" and uid in T:
             return plain_meta(T[uid]), lang
         return plain_meta(en_text), "en"
 
@@ -546,10 +542,12 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
             ev_by_person[x].append(ev["id"].split(":", 1)[1])
         for x in ev.get("places", []):
             ev_by_place[x].append(ev["id"].split(":", 1)[1])
+    # Wikidata ids of historical figures (kb/historical_figures.yaml) -> schema.org sameAs on person pages
+    WD = {k: v.get("wikidata") for k, v in (yaml.safe_load(open(KB / "historical_figures.yaml")) or {}).items()}
     persons = {}
     for pid, p in c.persons.items():
         s, sl = mt(f"{pid}:summary", p.get("summary"))
-        roles = [(T.get(f"role:{r}", r) if lang not in ("en", "pt") else r) for r in p.get("roles", [])][:5]
+        roles = [(T.get(f"role:{r}", r) if lang != "en" else r) for r in p.get("roles", [])][:5]
         mentions = []
         for m in p["mentions"][:200]:
             if m["article"] not in c.arts:
@@ -560,7 +558,8 @@ def export_lang(c: Corpus, lang: str, geo: dict, featured: list[str]) -> dict:
         persons[slug(pid)] = {"id": slug(pid), "n": name(p["name"], "person"), "first": first_name(p["name"], "person"), "n_pt": p["name"],
                               "al": p.get("aliases", [])[:6], "roles": roles, "d": [p.get("birth"), p.get("death")],
                               "sum": s, "main": p.get("main_article_id"), "m": mentions, "ev": evs,
-                              "cnt": p["mention_count"], **({"ml": sl} if sl != lang else {})}
+                              "cnt": p["mention_count"], **({"ml": sl} if sl != lang else {}),
+                              **({"wd": WD[pid]} if WD.get(pid) else {})}
 
     places = {}
     for pid, p in c.places.items():

@@ -57,9 +57,17 @@ const jsonld = [{
   name: p.n,
   ...(p.sum ? { description: p.sum } : {}),
   ...(ge?.c ? { geo: { '@type': 'GeoCoordinates', latitude: ge.c[1], longitude: ge.c[0] } } : {}),
+  ...(!isAbroad && ge?.mun ? { containedInPlace: { '@type': 'AdministrativeArea', name: ge.mun,
+      containedInPlace: { '@type': 'AdministrativeArea', name: 'Região Autónoma da Madeira, Portugal' } } } : {}),
+  ...(isAbroad && ge?.ctry ? { containedInPlace: { '@type': 'Country', name: ge.ctry } } : {}),
+  ...(ge?.wd ? { sameAs: `https://www.wikidata.org/wiki/${ge.wd}` } : {}),
   url: site + u.place(lang, slug),
 }];
-const title = `${p.n} — Elucidário Madeirense`;
+// where it is, in the title: "Socorro (Ponta do Sol, Madeira)", "Chaul (India)" — the search intent is geographic
+// (the island, not "Madeira" by default: Porto Santo, Desertas, Selvagens)
+const where = isAbroad ? (ge?.ctry && ge.ctry !== p.n ? ge.ctry : '')
+  : [munsOf(ge)[0] !== p.n ? munsOf(ge)[0] : null, ge?.isl && ge.isl !== p.n ? ge.isl : null].filter(Boolean).join(', ');
+const title = `${p.n}${where && where !== p.n ? ` (${where})` : ''} — Elucidário Madeirense`;
 // Position on the plane of articles (motion): the main article, else the first article that mentions the place.
 const planeAt = p.main ?? p.m[0]?.a;
 ---

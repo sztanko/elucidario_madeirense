@@ -13,7 +13,7 @@ import Rule from '../../components/ui/Rule.astro';
 import { fmtInt, fmtEdtf } from '../../components/ui/format';
 import { languages, meta, articles, index, featured, geo, chronology, isTrivialPlace } from '../../lib/data';
 import { hashInt, centuryOf, letterOf } from '../../components/pages/content';
-import { t } from '../../i18n/ui';
+import { t, htmlLang } from '../../i18n/ui';
 import * as u from '../../lib/urls';
 
 export function getStaticPaths() {
@@ -66,8 +66,18 @@ const lettersPresent = new Set(idx.articles.map((r) => letterOf(r[1])));
 const base = [...(ALPHABETS[lang] ?? ALPHABETS.en)];
 const alphabet = [...base, ...[...lettersPresent].filter((l) => l !== '#' && !base.includes(l)).sort((a, b) => a.localeCompare(b, lang))];
 
-const title = `${m.languages.find((l) => l.code === lang)?.name ?? lang} — Elucidário Madeirense`;
+const title = `Elucidário Madeirense — ${t(lang, 'tagline')}`;
+const siteUrl = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
 const jsonld = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Elucidário Madeirense',
+    alternateName: t(lang, 'tagline'),
+    description: t(lang, 'home_intro'),
+    inLanguage: htmlLang(lang),
+    url: siteUrl + u.home(lang),
+  },
   {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
@@ -77,7 +87,7 @@ const jsonld = [
   },
 ];
 ---
-<Base lang={lang} title={title} description={t(lang, 'tagline')} kind="home" jsonld={jsonld}>
+<Base lang={lang} title={title} description={t(lang, 'home_intro')} kind="home" jsonld={jsonld}>
   {/* Home-page artwork: the main island as an engraved hachure plate (elucidario/cartography, `build hero`) —
       no frame, labels or controls; transparent, so the paper shows through. */}
   <figure class="em-home-art" aria-hidden="true">

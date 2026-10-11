@@ -34,7 +34,7 @@ const jsonld = events.map((ev) => ({
   ...(ev.s1 ? { endDate: ev.s1 } : {}),
 }));
 ---
-<Base lang={lang} title={`${year} — ${t(lang, 'chronology')} — Elucidário Madeirense`} description={`${t(lang, 'year')} ${year}: ${events.length} ${t(lang, 'events_n')}`} kind="index" jsonld={jsonld}>
+<Base lang={lang} title={`${year} — ${t(lang, 'chronology')} — Elucidário Madeirense`} description={`${year}: ${events.slice(0, 3).map((e) => e.sum).join(' ')}`} kind="index" jsonld={jsonld}>
   <Breadcrumbs items={[{ label: t(lang, 'back_home'), href: u.home(lang) }, { label: t(lang, 'chronology'), href: u.chronologyPage(lang) }, { label: String(year) }]} />
   <SectionHead size="xl" title={String(year)} n={t(lang, 'year')} role="date" rule="below" />
 

@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
-# Build the website and publish it to https://madeirense.geocube.work (served by Caddy from /srv/sites/madeirense/www).
+# Build the website and publish it to https://elucidariomadeirense.pt (served by Caddy from /srv/sites/madeirense/www;
+# www.elucidariomadeirense.pt and the old https://madeirense.geocube.work redirect there).
 #
 #   ops/publish-site.sh             # export data if missing, build, publish
 #   ops/publish-site.sh --export    # also regenerate site/data from the pipeline first
@@ -15,7 +16,7 @@ set -euo pipefail
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 WWW="/srv/sites/madeirense/www"
 STAGE="${XDG_CACHE_HOME:-$HOME/.cache}/madeirense-build"
-URL="https://madeirense.geocube.work/"
+URL="https://elucidariomadeirense.pt/"
 
 log() { printf '==> %s\n' "$*"; }
 die() { printf 'ERROR: %s\n' "$*" >&2; exit 1; }
@@ -40,7 +41,7 @@ rm -f "$STAGE/art/gallery.html" "$STAGE"/art/og-*.svg "$STAGE"/art/og-*.png "$ST
 log "Publishing to $WWW"
 rsync -a --delete --delay-updates "$STAGE/" "$WWW/"
 
-read -r CODE BYTES < <(curl -sS -o /dev/null -w '%{http_code} %{size_download}\n' -H "Host: madeirense.geocube.work" http://127.0.0.1:8080/en/ || echo "000 0")
+read -r CODE BYTES < <(curl -sS -o /dev/null -w '%{http_code} %{size_download}\n' -H "Host: elucidariomadeirense.pt" http://127.0.0.1:8080/en/ || echo "000 0")
 if [[ "$CODE" == 401 ]]; then log "Local check: served behind basic auth (HTTP 401)"
 elif [[ "$CODE" == 200 && "$BYTES" -gt 0 ]]; then log "Local check: served publicly (HTTP 200, $BYTES bytes)"
 else log "Local check: Caddy has no vhost for the site yet (HTTP $CODE, $BYTES bytes) — run: sudo bash ops/sudo-setup-madeirense-hosting.sh"; fi

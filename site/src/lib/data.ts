@@ -36,13 +36,14 @@ export interface Article {
 export interface Mention { a: string; hw: string; b: string; note: string | null }
 export interface Person {
   id: string; n: string; first: string; n_pt: string; al: string[]; roles: string[]; d: [string | null, string | null];
-  sum: string | null; main: string | null; m: Mention[]; ev: string[]; cnt: number; ml?: string;
+  sum: string | null; main: string | null; m: Mention[]; ev: string[]; cnt: number; ml?: string; wd?: string;
 }
 export interface Place { id: string; n: string; first: string; sum: string | null; loc: string | null; main: string | null; m: Mention[]; ev: string[]; ml?: string }
 export interface Geo {
   pt: string; tp: string; isl: string; par: string | null; mun: string | null; cont: string | null; ctry: string | null;
   c: [number, number] | null; prec: string | null; main: string | null; n: number; g?: any;
   match?: 'exact' | 'variant' | 'proxy' | 'area';
+  wd?: string; // Wikidata id
   muns?: string[]; pars?: string[]; // lines/areas crossing several municipalities/parishes (primary first)
 }
 /** Municipalities a place lies in: several for levadas, streams and roads. */

@@ -42,9 +42,13 @@ const jsonld = [{
   ...(isoOf(p.d?.[0]) ? { birthDate: isoOf(p.d?.[0]) } : {}),
   ...(isoOf(p.d?.[1]) ? { deathDate: isoOf(p.d?.[1]) } : {}),
   ...(p.sum ? { description: p.sum } : {}),
+  ...(p.wd ? { sameAs: `https://www.wikidata.org/wiki/${p.wd}` } : {}),
   url: site + u.person(lang, slug),
 }];
-const title = `${p.n} — Elucidário Madeirense`;
+// dates in the title distinguish namesakes in search results ("João Gonçalves Zarco (c. 1390–1471)")
+const yy = (d?: string | null) => (d ? (String(d).match(/\d{3,4}/) ?? [''])[0] : '');
+const life = yy(p.d?.[0]) && yy(p.d?.[1]) ? `${yy(p.d[0])}–${yy(p.d[1])}` : yy(p.d?.[0]) ? `${t(lang, 'born')} ${yy(p.d[0])}` : yy(p.d?.[1]) ? `${t(lang, 'died')} ${yy(p.d[1])}` : '';
+const title = `${p.n}${life ? ` (${life})` : ''} — Elucidário Madeirense`;
 // The generated plate is shared by all languages: hint and initials come from language-neutral fields.
 // Position on the plane of articles (motion): the main article, else the first article that mentions the person.
 const planeAt = p.main ?? p.m[0]?.a;

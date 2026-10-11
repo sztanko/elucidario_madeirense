@@ -38,6 +38,18 @@ const path = Astro.url.pathname;
 const site = Astro.site ? Astro.site.href.replace(/\/$/, '') : '';
 const cyr = lang === 'uk' || lang === 'ru';
 const preloads = cyr ? [textCyr, dispCyr] : [textLatin, dispLatin];
+// Search snippet: plain text, ~155 characters, cut at a sentence end when one falls late enough, else at a word.
+// Very short descriptions (index pages) get the edition's one-line colophon appended.
+function snippet(s: string, max = 158): string {
+  let x = s.replace(/[*_]/g, '').replace(/\s+/g, ' ').trim();
+  if (x.length < 70 && multilingual !== false) x = `${x} — ${t(lang, 'colophon')}`;
+  if (x.length <= max) return x;
+  const cut = x.slice(0, max);
+  const end = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('; '));
+  if (end > max * 0.6) return cut.slice(0, end + 1);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[,;:–—-]+$/, '') + '…';
+}
+const desc = description ? snippet(description) : '';
 ---
 <!doctype html>
 <html lang={htmlLang(lang)} data-kind={kind} data-lang={lang}>
@@ -45,7 +57,7 @@ const preloads = cyr ? [textCyr, dispCyr] : [textLatin, dispLatin];
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <title>{title}</title>
-    {description && <meta name="description" content={description} />}
+    {desc && <meta name="description" content={desc} />}
     <meta name="theme-color" content="#e8dfca" />
     <meta name="color-scheme" content="light" />
     {preloads.map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}
@@ -57,10 +69,13 @@ const preloads = cyr ? [textCyr, dispCyr] : [textLatin, dispLatin];
     <meta property="og:type" content={kind === 'article' ? 'article' : 'website'} />
     <meta property="og:url" content={site + path} />
     <meta property="og:locale" content={htmlLang(lang).replace('-', '_')} />
-    {description && <meta property="og:description" content={description} />}
+    {multilingual && langs.filter((l) => l !== lang).map((l) => <meta property="og:locale:alternate" content={htmlLang(l).replace('-', '_')} />)}
+    <meta property="og:site_name" content="Elucidário Madeirense" />
+    {desc && <meta property="og:description" content={desc} />}
     <meta property="og:image" content={site + (image ?? `${BASE}/og/${languages().includes(lang) ? lang : 'en'}/site.png`)} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={title} />
     <meta name="twitter:card" content="summary_large_image" />
     {jsonld.map((j) => <script type="application/ld+json" set:html={JSON.stringify(j)} />)}
     {/* motion: must be in <head> so its inline pagereveal handler runs before the first render */}

@@ -81,7 +81,9 @@ const jsonld: object[] = [
     url: abs(u.article(lang, a.id)),
     position: a.no,
     ...(pp ? { pagination: `${a.pp[0]}${a.pp[1] && a.pp[1] !== a.pp[0] ? '-' + a.pp[1] : ''}` } : {}),
-    isPartOf: { '@type': 'Book', name: 'Elucidário Madeirense', volumeNumber: a.vol, inLanguage: 'pt-PT' },
+    isPartOf: { '@type': 'Book', name: 'Elucidário Madeirense', volumeNumber: a.vol, inLanguage: 'pt-PT',
+      datePublished: '1921', bookEdition: '2nd edition, revised (1940–1946)',
+      author: [{ '@type': 'Person', name: 'Fernando Augusto da Silva' }, { '@type': 'Person', name: 'Carlos Azevedo de Meneses' }] },
     ...(lang !== 'pt' ? { translationOfWork: { '@type': 'Article', headline: a.hw_pt, inLanguage: 'pt-PT', url: abs(u.article('pt', a.id)) } } : {}),
     about: [
       ...a.prim.map((p) => ({ '@type': 'Place', name: a.plc.find((x) => x.id === p)?.n ?? p, url: abs(u.place(lang, p)) })),

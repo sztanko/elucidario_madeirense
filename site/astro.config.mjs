@@ -7,7 +7,7 @@ import plane from './src/motion/integration.mjs';
 import plates from './src/art/plates-out.mjs';
 
 export default defineConfig({
-  site: 'https://madeirense.geocube.work',
+  site: 'https://elucidariomadeirense.pt',
   base: '/',
   trailingSlash: 'always',
   // Size (30k pages): component CSS goes to shared files instead of being inlined into every page, and the
@@ -24,11 +24,8 @@ export default defineConfig({
   integrations: [
     plane(),
     plates(),
-    sitemap({
-      i18n: {
-        defaultLocale: 'pt',
-        locales: { pt: 'pt', en: 'en', uk: 'uk', hu: 'hu', de: 'de', fr: 'fr', ru: 'ru' },
-      },
-    }),
+    // hreflang alternates live in each page's <head> (all 7 languages + x-default); the integration's i18n mode
+    // would mislabel the root language chooser "/" as Portuguese, so it is not used.
+    sitemap(),
   ],
 });

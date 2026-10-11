@@ -123,7 +123,19 @@ def meta_requests(lang: str) -> list[dict]:
                        "WHERE u.src_lang = 'en' AND t.status != 'done' ORDER BY u.article, u.uid", (lang,)).fetchall()
     from elucidario.names_table import for_prompt
 
-    names = {k: v for k, v in for_prompt(lang, "rendering").items() if len(k) > 3}
+    if lang == "pt":
+        # back into the source language: the English forms the metadata uses -> the Portuguese originals
+        from elucidario.names_table import rows as name_rows
+        names, en = {}, name_rows("en")
+        for pt, cands in en.items():
+            for x in cands:  # only real English renderings (exonyms, translated dedications/titles, established names)
+                if x.get("form") not in ("exonym", "translate", "established"):
+                    continue
+                r = re.sub(r"^the ", "", re.sub(r"[*]", "", x.get("rendering") or ""))
+                if len(r) > 3 and r != pt and r not in en:  # a form that is itself a Portuguese name stays as it is
+                    names.setdefault(r, pt)
+    else:
+        names = {k: v for k, v in for_prompt(lang, "rendering").items() if len(k) > 3}
     reqs, cur, size = [], [], 0
     for uid, text in rows:
         cur.append({"uid": uid, "text": text})
@@ -144,6 +156,10 @@ def meta_requests(lang: str) -> list[dict]:
 def meta_system(lang: str) -> str:
     from elucidario.stages.meta_pilot import system
 
+    if lang == "pt":
+        return system(lang) + ("\n\n`names` maps English forms used in the units to their Portuguese originals: always "
+                               "write the Portuguese original (style guide §3). Translate every unit completely; return "
+                               "every uid.")
     return system(lang) + ("\n\nWhen a unit contains a Portuguese proper name listed in `names`, use that rendering "
                            "exactly. Translate every unit completely; return every uid.")
 

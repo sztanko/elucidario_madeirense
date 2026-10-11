@@ -25,7 +25,7 @@ ART = DATA / "04_structured" / "articles.jsonl"
 ENR = DATA / "05_enriched" / "enrichment.jsonl"
 OUT = DATA / "09_translate"
 LANG_NAMES = {"en": "British English", "de": "German", "fr": "French", "it": "Italian", "hu": "Hungarian",
-              "nl": "Dutch", "uk": "Ukrainian", "ru": "Russian"}
+              "nl": "Dutch", "uk": "Ukrainian", "ru": "Russian", "pt": "European Portuguese"}
 STYLE_FILE = {"en": "en-GB"}
 CHUNK_CHARS = 7000
 LENGTH_RATIO = {"en": (0.75, 1.35), "de": (0.85, 1.5), "fr": (0.85, 1.5), "it": (0.85, 1.45), "hu": (0.8, 1.5),

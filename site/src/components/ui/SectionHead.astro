@@ -4,7 +4,7 @@
  * Props:
  *   title: string
  *   n?: number | string        numeral (omitted → no numeral)
- *   level?: 2|3|4               heading level (default 2)
+ *   level?: 1|2|3|4             heading level (default 1 for size xl — the page title — else 2)
  *   id?: string                 id on the heading (anchor target)
  *   size?: 'xl'|'l'|'m'|'s'     xl = poster ("LEITURA DO ARTIGO"), l = chapter, m = aside module, s = small
  *   role?: 'person'|'place'|'date'|'ink'   numeral colour (default person/vermilion)
@@ -14,9 +14,9 @@
  * Slots: default = extra inline content after the title (e.g. <span class="em-langmark">EN</span>);
  *        "aside" = right-aligned content (count, link).
  */
-interface Props { title: string; n?: number | string; level?: 2 | 3 | 4; id?: string; size?: 'xl' | 'l' | 'm' | 's'; role?: 'person' | 'place' | 'date' | 'ink'; rule?: 'after' | 'below' | 'none'; lang?: string; class?: string }
-const { title, n, level = 2, id, size = 'l', role = 'person', rule = 'after', lang, class: cls } = Astro.props;
-const H = `h${level}`;
+interface Props { title: string; n?: number | string; level?: 1 | 2 | 3 | 4; id?: string; size?: 'xl' | 'l' | 'm' | 's'; role?: 'person' | 'place' | 'date' | 'ink'; rule?: 'after' | 'below' | 'none'; lang?: string; class?: string }
+const { title, n, level: lv, id, size = 'l', role = 'person', rule = 'after', lang, class: cls } = Astro.props;
+const H = `h${lv ?? (size === 'xl' ? 1 : 2)}`;
 const hasAside = Astro.slots.has('aside');
 ---
 <div class:list={['em-shead', `em-shead--${size}`, `em-shead--rule-${rule}`, `em-role-${role}`, cls]}>
