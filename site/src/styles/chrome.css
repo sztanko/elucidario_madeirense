@@ -20,13 +20,9 @@
   display: flex; align-items: center; gap: .9rem; text-decoration: none; color: var(--ink);
   padding: 0 1rem 0 max(var(--gutter), env(safe-area-inset-left)); border-right: 1px solid var(--ink); flex: none;
 }
-.em-hdr__em {
-  font: var(--w-display-x) 1.65rem/1 var(--font-display); letter-spacing: -.02em;
-  display: grid; place-items: center; height: 2.4rem; min-width: 2.6rem; padding: 0 .3rem;
-  border: 2px solid var(--ink); position: relative;
-}
-.em-hdr__em::after { content: ''; position: absolute; right: -2px; bottom: -2px; width: .55rem; height: .55rem; background: var(--person); }
-.em-hdr__mark:hover .em-hdr__em { background: var(--ink); color: var(--paper-light); }
+.em-hdr__house { display: block; height: 2.5rem; width: auto; flex: none; transition: transform .2s ease; }
+.em-hdr__mark:hover .em-hdr__house { transform: translateY(-1px); }
+.em-hdr__mark:hover .em-hdr__door { fill: var(--ink); }
 .em-hdr__word { display: none; font: 820 1.2rem/.9 var(--font-display); text-transform: uppercase; letter-spacing: .01em; max-width: 9.5rem; }
 @media (min-width: 74rem) { .em-hdr__word { display: block; } }
 @media (min-width: 96rem) { .em-hdr__word { max-width: none; white-space: nowrap; } }

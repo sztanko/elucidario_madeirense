@@ -1,0 +1,14 @@
+{
+  "name": "Elucidário Madeirense",
+  "short_name": "Elucidário",
+  "description": "The encyclopaedia of Madeira (1921/1940), digital edition in seven languages.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#e8dfca",
+  "theme_color": "#e8dfca",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
