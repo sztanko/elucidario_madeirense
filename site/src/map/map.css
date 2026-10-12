@@ -1,7 +1,9 @@
 /* Engraved atlas map (cartography agent). Server shell + interactive engine. */
 .em-map {
   --sea: var(--paper, #e8dfca);
-  --mk: var(--place, #164c59);
+  /* the article's own places (markers, names, lines, outlines) in a sea teal, apart from the base map's Atlantic blue */
+  --mk: #0f7173;
+  --mk-ink: #0b5c5e; /* 5.7:1 on paper */
   --subj: var(--person, #bd3426);
   position: relative; margin: 0; width: 100%; min-height: 16rem; aspect-ratio: var(--ar, 1.6);
   background: var(--sea); container-type: size; overflow: hidden; contain: layout paint;
@@ -35,17 +37,23 @@
 .em-map__mk.is-subj::after {
   content: ""; position: absolute; inset: -9px; border: 1px dashed var(--subj); border-radius: 50%; transform: rotate(-45deg);
 }
-.em-map__mk.is-cl { width: 26px; height: 26px; margin: -13px 0 0 -13px; background: var(--paper-light, #f2ead8); color: var(--place-ink, #123f4a);
-  box-shadow: 0 0 0 1.5px var(--mk), 0 0 0 4px rgb(242 234 216 / .7); font-size: 10.5px; line-height: 26px; }
+.em-map__mk.is-cl { width: 26px; height: 26px; margin: -13px 0 0 -13px; background: rgb(15 113 115 / .16); color: var(--mk-ink);
+  box-shadow: 0 0 0 1.5px var(--mk); font-size: 10px; line-height: 26px; backdrop-filter: none; }
 .em-map__mk.is-hot, .em-map__mk:hover, .em-map__mk:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; z-index: 5; }
 .em-map__mk.is-out { opacity: .25; }
 
 .em-map__inset {
-  position: absolute; left: 2.2%; bottom: calc(3% + 30px); width: 22%; aspect-ratio: var(--iar); z-index: 4;
-  border: 1px dashed var(--ink); background: var(--sea);
+  position: absolute; left: 30px; bottom: 46px; width: clamp(6rem, 14%, 9.5rem); aspect-ratio: var(--iar); z-index: 4;
+  border: 1px solid var(--ink); background: var(--sea); box-shadow: 2px 2px 0 rgb(23 27 25 / .18);
+  transition: opacity .2s ease;
 }
-.em-map__inset b { position: absolute; left: 4px; top: 2px; font: 600 9px/1.2 var(--font-label, sans-serif); letter-spacing: .18em; text-transform: uppercase; }
-.em-map__inset .em-map__mk { transform: scale(.8); }
+.em-map__inset.is-link { cursor: pointer; }
+.em-map__inset.is-link:hover { outline: 2px solid var(--person, #bd3426); outline-offset: 1px; }
+.em-map__inset.is-off { opacity: 0; pointer-events: none; }
+.em-map__inset:not(.is-link) .em-map__inset-n { display: none; }
+.em-map__inset-n { position: absolute; right: -8px; top: 38%; min-width: 18px; height: 18px; padding: 0 4px; border-radius: 9px;
+  background: var(--person, #bd3426); color: var(--paper-light, #f2ead8); font: 700 10px/18px var(--font-label, sans-serif);
+  font-style: normal; text-align: center; }
 
 .em-map__abroad {
   position: absolute; z-index: 7; right: 10px; bottom: 10px; margin: 0; display: flex; flex-wrap: wrap; gap: 3px; align-items: center;
@@ -59,14 +67,16 @@
 .em-map__abroad button i { font-style: normal; color: var(--ink-3, #5e5a4f); }
 .em-map__abroad button:disabled { cursor: default; }
 .em-map__abroad button[aria-pressed="true"] { background: var(--place); color: var(--paper-light); }
+.em-map__abroad button[aria-pressed="true"] i { color: inherit; opacity: .75; }
 
 /* engine */
-.em-map__view { position: absolute; inset: 0; z-index: 2; overflow: hidden; touch-action: pan-y; cursor: grab; outline: none; }
+.em-map__view { position: absolute; inset: 0; z-index: 2; overflow: hidden; touch-action: pan-y; cursor: grab; outline: none; background: var(--sea); }
 .em-map.is-active .em-map__view { touch-action: none; }
 .em-map__view:focus-visible { box-shadow: inset 0 0 0 3px var(--place); }
 .em-map.is-drag .em-map__view { cursor: grabbing; }
-/* the stage is its own stacking context (will-change), so it carries the sea: the multiply-blended relief needs that backdrop */
-.em-map__stage { position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform-origin: 0 0; will-change: transform; background: var(--sea); box-shadow: 0 0 0 100vmax var(--sea); }
+/* the stage is its own stacking context (will-change), so it carries the sea: the multiply-blended relief needs that backdrop.
+   The view behind it is sea too, so the stage needs no oversized margin (a 100vmax shadow made the moving layer huge on phones). */
+.em-map__stage { position: absolute; left: 0; top: 0; width: 100%; height: 100%; transform-origin: 0 0; will-change: transform; background: var(--sea); }
 .em-map__stage.is-anim { transition: transform var(--dur-3, 280ms) var(--ease, ease); }
 .em-map__vec, .em-map__over { position: absolute; left: 0; top: 0; overflow: visible; pointer-events: none; }
 .em-map__vec:not(.is-detail) .coast-d, .em-map__vec:not(.is-detail) .par, .em-map__vec:not(.is-detail) .str, .em-map__vec:not(.is-detail) .lev { display: none; }
@@ -75,24 +85,33 @@
 .em-map__tiles { position: absolute; inset: 0; mix-blend-mode: multiply; isolation: isolate; pointer-events: none; }
 .em-map__tiles img { position: absolute; left: 0; top: 0; transform-origin: 0 0; opacity: 0; transition: opacity var(--dur-2, 180ms) linear; image-rendering: auto; }
 .em-map__tiles img.is-in { opacity: 1; }
-.em-map__over .hl-a { fill: url(#em-hatch-p); stroke: var(--place); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
+.em-map__over .hl-a { fill: url(#em-hatch-p); stroke: var(--mk); stroke-width: 1.4; vector-effect: non-scaling-stroke; }
+.em-map__over .hl-a.is-thin { fill: none; stroke-width: calc(1.2px * var(--lw, 1)); stroke-dasharray: 4 2; opacity: .85; }
 .em-map__over .hl-a.is-subj { fill: url(#em-hatch-s); stroke: var(--subj); stroke-width: 1.8; }
-.em-map__over .hl-l { fill: none; stroke: var(--place); stroke-width: 2.2; stroke-linecap: round; vector-effect: non-scaling-stroke; opacity: .9; }
-.em-map__over .hl-l.is-subj { stroke: var(--subj); stroke-width: 3; }
+/* feature lines (levadas, streams, roads): weight follows zoom (--lw from the engine: hairline zoomed out) */
+.em-map__over .hl-l { fill: none; stroke: var(--mk); stroke-width: calc(2.4px * var(--lw, 1)); stroke-linecap: round; stroke-linejoin: round;
+  vector-effect: non-scaling-stroke; opacity: .9; }
+.em-map__over .hl-l.is-subj { stroke: var(--subj); stroke-width: calc(3.2px * var(--lw, 1)); }
+/* clicking a line or outline: an invisible 16 px stroke on top takes the pointer; hover/hot thickens the feature */
+.em-map__over .hl-hit { fill: none; stroke: transparent; stroke-width: 16px; vector-effect: non-scaling-stroke; pointer-events: stroke; cursor: pointer; }
+.em-map__over .hl-l.is-hot { stroke-width: calc(4px * var(--lw, 1) + 1px); opacity: 1; }
+.em-map__over .hl-a.is-hot { stroke-width: 2.4px; }
 
 .em-map__lbl { position: absolute; inset: 0; pointer-events: none; z-index: 2; }
 .em-map__lbl span {
   position: absolute; left: 0; top: 0; white-space: nowrap; line-height: 1;
-  /* a solid paper halo (8 offsets + glow) so labels stay readable over dark hachures */
+  /* knock-out halo, as engravers clear the hatching behind a name: two solid paper rings (1.2 and 2.4 px, 16 directions)
+     and a soft glow, so labels stay readable over the darkest hachures */
   --h: var(--paper-light, #f2ead8);
-  text-shadow: 1px 0 0 var(--h), -1px 0 0 var(--h), 0 1px 0 var(--h), 0 -1px 0 var(--h), 1px 1px 0 var(--h), -1px -1px 0 var(--h),
-    1px -1px 0 var(--h), -1px 1px 0 var(--h), 0 0 4px var(--h), 0 0 6px var(--h);
+  text-shadow: 1.20px 0.00px 0 var(--h), 0.85px 0.85px 0 var(--h), 0.00px 1.20px 0 var(--h), -0.85px 0.85px 0 var(--h), -1.20px 0.00px 0 var(--h), -0.85px -0.85px 0 var(--h), -0.00px -1.20px 0 var(--h), 0.85px -0.85px 0 var(--h),
+    2.40px 0.00px 0 var(--h), 2.22px 0.92px 0 var(--h), 1.70px 1.70px 0 var(--h), 0.92px 2.22px 0 var(--h), 0.00px 2.40px 0 var(--h), -0.92px 2.22px 0 var(--h), -1.70px 1.70px 0 var(--h), -2.22px 0.92px 0 var(--h), -2.40px 0.00px 0 var(--h), -2.22px -0.92px 0 var(--h), -1.70px -1.70px 0 var(--h), -0.92px -2.22px 0 var(--h), -0.00px -2.40px 0 var(--h), 0.92px -2.22px 0 var(--h), 1.70px -1.70px 0 var(--h), 2.22px -0.92px 0 var(--h),
+    0 0 6px var(--h), 0 0 10px var(--h);
 }
 .em-map__lbl .l-seat { font: 760 12px/1 var(--font-label, sans-serif); letter-spacing: .13em; text-transform: uppercase; }
-.em-map__lbl .l-parish { font: italic 13px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
-.em-map__lbl .l-locality { font: 12px/1 var(--font-text, serif); color: var(--ink-3, #5e5a4f); }
-.em-map__lbl .l-locality.r3 { font-size: 12.5px; color: var(--ink-2, #3a3d38); }
-.em-map__lbl .l-peak { font: italic 12px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-parish { font: italic 500 13.5px/1 var(--font-text, serif); color: var(--ink, #171b19); }
+.em-map__lbl .l-locality { font: 500 12.5px/1 var(--font-text, serif); color: var(--ink-2, #3a3d38); }
+.em-map__lbl .l-locality.r3 { font-size: 13px; color: var(--ink, #171b19); }
+.em-map__lbl .l-peak { font: italic 500 12.5px/1 var(--font-text, serif); color: var(--ink, #171b19); }
 .em-map__lbl .l-peak b { font: 600 11px/1 var(--font-label, sans-serif); letter-spacing: .06em; font-style: normal; font-variant-numeric: tabular-nums; }
 .em-map__lbl .l-peak::before {
   content: ""; display: inline-block; width: 0; height: 0; margin-right: 4px; vertical-align: -1px;
@@ -105,8 +124,33 @@
 .em-map__lbl .l-country.r1 { font-size: 12px; }
 .em-map__lbl .l-home { font: 700 11px/1 var(--font-label, sans-serif); letter-spacing: .14em; text-transform: uppercase; }
 .em-map__lbl .l-home::before { content: ""; display: inline-block; width: 8px; height: 8px; margin-right: 5px; border: 1.5px solid var(--ink); border-radius: 50%; vertical-align: -1px; }
-.em-map__lbl .l-mk { font: 600 10.5px/1 var(--font-text, serif); color: var(--place-ink, #123f4a); }
+.em-map__lbl .l-mk { font: 700 11px/1 var(--font-label, sans-serif); letter-spacing: .05em; color: var(--mk-ink); }
+/* the article's places: their own style (teal condensed sans, against the base map's black serif names), and links */
+.em-map__lbl .is-link { pointer-events: auto; cursor: pointer; }
+.em-map__lbl .is-link:hover, .em-map__lbl .is-link.is-hot { text-decoration: underline; text-underline-offset: 2px; }
 .em-map__lbl .l-mk.is-subj { font: 760 12px/1 var(--font-label, sans-serif); letter-spacing: .14em; text-transform: uppercase; color: var(--person-ink, #a32a1e); }
+
+/* phones and other touch screens: labels are read at arm's length on a small screen — about 60% larger than on
+   desktop, with a halo widened to match; the engine shows fewer of them there (see renderLabels) */
+@media (pointer: coarse), (max-width: 48rem) {
+  .em-map__lbl .l-seat { font-size: 18px; }
+  .em-map__lbl .l-parish { font-size: 21px; }
+  .em-map__lbl .l-locality { font-size: 20px; }
+  .em-map__lbl .l-locality.r3 { font-size: 20.5px; }
+  .em-map__lbl .l-peak { font-size: 19px; }
+  .em-map__lbl .l-peak b { font-size: 16px; }
+  .em-map__lbl .l-cape, .em-map__lbl .l-bay, .em-map__lbl .l-islet { font-size: 18px; }
+  .em-map__lbl .l-island { font-size: 17px; }
+  .em-map__lbl .l-ocean { font-size: 19px; }
+  .em-map__lbl .l-country { font-size: 14px; }
+  .em-map__lbl .l-country.r1 { font-size: 16px; }
+  .em-map__lbl .l-home { font-size: 15px; }
+  .em-map__lbl .l-mk { font-size: 16px; }
+  .em-map__lbl .l-mk.is-subj { font-size: 17px; }
+  .em-map__lbl span { text-shadow: 1.80px 0.00px 0 var(--h), 1.27px 1.27px 0 var(--h), 0.00px 1.80px 0 var(--h), -1.27px 1.27px 0 var(--h), -1.80px 0.00px 0 var(--h), -1.27px -1.27px 0 var(--h), -0.00px -1.80px 0 var(--h), 1.27px -1.27px 0 var(--h),
+    3.60px 0.00px 0 var(--h), 3.33px 1.38px 0 var(--h), 2.55px 2.55px 0 var(--h), 1.38px 3.33px 0 var(--h), 0.00px 3.60px 0 var(--h), -1.38px 3.33px 0 var(--h), -2.55px 2.55px 0 var(--h), -3.33px 1.38px 0 var(--h), -3.60px 0.00px 0 var(--h), -3.33px -1.38px 0 var(--h), -2.55px -2.55px 0 var(--h), -1.38px -3.33px 0 var(--h), -0.00px -3.60px 0 var(--h), 1.38px -3.33px 0 var(--h), 2.55px -2.55px 0 var(--h), 3.33px -1.38px 0 var(--h),
+    0 0 8px var(--h), 0 0 14px var(--h); }
+}
 
 .em-map__mks { position: absolute; inset: 0; z-index: 3; pointer-events: none; }
 .em-map__mks .em-map__mk { left: 0; top: 0; pointer-events: auto; }
@@ -123,6 +167,11 @@
   position: absolute; z-index: 7; right: 14px; top: 14px; display: grid; background: var(--paper-light, #f2ead8);
   border: 1px solid var(--ink); box-shadow: 3px 3px 0 var(--ink);
 }
+/* out of the way until wanted: hover (mouse), keyboard focus, a tap on the map (is-active), or full screen */
+.em-map__ctl { opacity: 0; pointer-events: none; transition: opacity .18s ease; }
+.em-map:hover .em-map__ctl, .em-map:focus-within .em-map__ctl, .em-map.is-active .em-map__ctl,
+.em-map.is-full .em-map__ctl, .em-map:fullscreen .em-map__ctl { opacity: 1; pointer-events: auto; }
+@media (hover: none) { .em-map:hover:not(.is-active):not(.is-full) .em-map__ctl { opacity: 0; pointer-events: none; } }
 .em-map__ctl button {
   width: 32px; height: 32px; padding: 0; border: 0; border-top: 1px solid var(--line, #0004); background: none; color: var(--ink);
   font: 400 18px/1 var(--font-text, serif); cursor: pointer; display: grid; place-items: center;

@@ -40,7 +40,7 @@ def main(argv: list[str]):
     GEN.mkdir(parents=True, exist_ok=True)
     m = _manifest()
     t0 = time.time()
-    A = Archipelago() if {"tiles", "regions", "hachures", "hero"} & set(steps) else None
+    A = Archipelago() if {"tiles", "regions", "hachures", "hero", "selvlocator"} & set(steps) else None
     sets = {}
 
     def sets_by_z(z):
@@ -79,6 +79,10 @@ def main(argv: list[str]):
         m["labels"] = {"archipelago": "labels-archipelago.json"}
         print("labels:", I.build_labels(A, OUT))
         m["locator"] = I.build_locators(A, OUT)
+        m["selvagens_locator"] = I.build_selvagens_locator(A, OUT)
+    if "selvlocator" in steps:  # just the Selvagens locator (also built with "regions")
+        m["selvagens_locator"] = I.build_selvagens_locator(A, OUT)
+        print("selvagens locator:", m["selvagens_locator"])
     if "hero" in steps:
         m["hero"] = I.build_hero(A, sets_by_z, OUT)
         print("hero:", m["hero"])

@@ -152,6 +152,8 @@ const nav = [
   }
   document.addEventListener('click', (e) => {
     const el = e.target as Element;
+    const pick = el.closest('#em-hdr-langs a[hreflang]');
+    if (pick) { try { localStorage.setItem('em-lang', pick.getAttribute('hreflang') || ''); } catch {} }
     if (el.closest('[data-em-lang-toggle]')) { setLangs(q('#em-hdr-langs')?.hidden ?? false); return; }
     if (!el.closest('#em-hdr-langs')) setLangs(false);
   });

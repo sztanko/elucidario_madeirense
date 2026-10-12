@@ -55,7 +55,7 @@ const head = rows.slice(0, limit), rest = rows.slice(limit);
     li.closest('[data-em-legend]')!.querySelectorAll('li.is-open').forEach((x) => { x.classList.remove('is-open'); x.querySelector<HTMLElement>('.ea-pllist__sum')!.hidden = true; });
     li.classList.add('is-open');
     sum.hidden = false;
-    const map = document.querySelector<HTMLElement>('.ea-places [data-em-map], .ea-hero__map [data-em-map], [data-em-map]');
+    const map = document.querySelector<HTMLElement>('.ea-places [data-em-map], .ea-map [data-em-map], [data-em-map]');
     map?.dispatchEvent(new CustomEvent('em-map:focus', { detail: { id: li.dataset.place } }));
   });
 </script>

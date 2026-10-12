@@ -55,8 +55,9 @@ const minutes = readingMinutes(a.chars);
 
 // ---- furniture ---------------------------------------------------------------
 const mp = mapPlaces(a, lang);
-const heroMap = !isXref && size !== 'fragment' && mp.some((p) => p.role === 'subject');
-const heroPlate = !isXref && size !== 'fragment' && !heroMap;
+// every article about a located place gets its map (short entries too), full width under the heading
+const heroMap = !isXref && mp.some((p) => p.role === 'subject');
+const heroPlate = !isXref && size !== 'fragment';
 const plateSize = size === 'long' ? 280 : 220;
 const firstPara = secs.flatMap((s) => s.groups).find((gr) => gr.kind === 'single' && gr.blocks[0].t === 'paragraph');
 const dropcap = size !== 'fragment' && !!firstPara && firstPara.blocks[0].x.length > 160 && /^\p{L}/u.test(firstPara.blocks[0].x);
@@ -133,9 +134,9 @@ const single = a.ch.length === 1;
 
       <div class="ea-content">
         <Hero lang={lang} a={a} size={size} folio={folio} minutes={minutes}>
-          {heroMap && <div slot="aside" class="ea-hero__map"><MapView lang={lang} mode="article" places={mp} /></div>}
           {heroPlate && <div slot="aside" class="ea-hero__plate"><Plate seed={a.id} category={prim} variant="plate" size={plateSize} title={a.hw} /></div>}
         </Hero>
+        {heroMap && <div class="ea-map"><MapView lang={lang} mode="article" places={mp} /></div>}
 
         {isXref ? (
           <div class="ea-body ea-body--xref"><SeeCard lang={lang} ids={xrefTargets} text={xrefText} size="hero" /></div>
@@ -193,7 +194,7 @@ const single = a.ch.length === 1;
             </section>
           )}
           {a.plc.length > 0 && (
-            <section class="ea-mod ea-mod--place" aria-labelledby="ea-place-h">
+            <section class:list={['ea-mod', 'ea-mod--place', { 'has-map': !heroMap && mp.length > 0 }]} aria-labelledby="ea-place-h">
               <div class="ea-mod__head"><h3 class="ea-mod__big em-role-place" id="ea-place-h">{t(lang, 'place_label')}</h3><Label size="small" count={String(a.plc.length).padStart(2, '0')}>{t(lang, 'places_mentioned')}</Label></div>
               <Places lang={lang} a={a} map={!heroMap} />
             </section>

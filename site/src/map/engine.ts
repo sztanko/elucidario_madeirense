@@ -37,7 +37,7 @@ const esc = (s: string) => s.replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&l
 // label visibility: maximum metres per CSS pixel at which a class of label appears (islands)
 const LBL_MPP: Record<string, number[]> = { // by rank 0..5
   island: [9999, 0, 0, 0, 0, 0], seat: [140, 140, 140, 140, 140, 140], parish: [0, 48, 0, 0, 0, 0],
-  peak: [0, 150, 55, 0, 20, 0], locality: [0, 0, 0, 34, 16, 0], cape: [0, 0, 0, 0, 22, 0], bay: [0, 0, 0, 0, 32, 0], islet: [0, 0, 0, 0, 0, 12],
+  peak: [0, 150, 55, 0, 20, 0], locality: [0, 0, 0, 24, 10, 4.5], cape: [0, 0, 0, 0, 22, 0], bay: [0, 0, 0, 0, 32, 0], islet: [0, 0, 0, 0, 0, 12],
 };
 const LBL_PRI: Record<string, number> = { island: 0, seat: 1, peak: 3, parish: 4, cape: 6, bay: 6, locality: 7, islet: 8 };
 const OCEAN: Record<string, [number, number]> = { madeira: [0.2, 0.9], archipelago: [0.5, 0.38], 'porto-santo': [0.5, 0.94], desertas: [0.5, 0.06], selvagens: [0.5, 0.92] };
@@ -80,6 +80,7 @@ class AtlasMap {
     const k = (key: string) => tr(lang, key as any);
     this.t = { in: k('map_zoom_in'), out: k('map_zoom_out'), reset: k('map_reset'), wheel: k('map_wheel_hint'), touch: k('map_touch_hint'), back: k('map_back_islands'), mentions: k('map_mentions'), full: k('map_full') };
     this.build();
+    document.fonts?.ready.then(() => { this.labelSize.clear(); this.labelCache.clear(); if (this.R) this.renderLabels(); });
   }
 
   api() {
@@ -99,7 +100,7 @@ class AtlasMap {
     const tiles = h('div', 'em-map__tiles');
     const over = svgEl('svg', { class: 'em-map__over', preserveAspectRatio: 'none', 'aria-hidden': 'true' }) as SVGSVGElement;
     over.innerHTML = '<defs><pattern id="em-hatch-s" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(45)"><rect width="6" height="6" fill="rgb(189 52 38 / .10)"/><line x1="0" y1="0" x2="0" y2="6" stroke="#bd3426" stroke-width="1.6" opacity=".55"/></pattern>'
-      + '<pattern id="em-hatch-p" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><rect width="6" height="6" fill="rgb(22 76 89 / .07)"/><line x1="0" y1="0" x2="0" y2="6" stroke="#164c59" stroke-width="1.2" opacity=".45"/></pattern></defs><g class="hl"></g>';
+      + '<pattern id="em-hatch-p" patternUnits="userSpaceOnUse" width="6" height="6" patternTransform="rotate(-45)"><rect width="6" height="6" fill="rgb(15 113 115 / .07)"/><line x1="0" y1="0" x2="0" y2="6" stroke="#0f7173" stroke-width="1.2" opacity=".45"/></pattern></defs><g class="hl"></g>';
     const lbl = h('div', 'em-map__lbl');
     const mks = h('div', 'em-map__mks');
     stage.append(vec, tiles, over, lbl, mks);
@@ -119,8 +120,11 @@ class AtlasMap {
     document.addEventListener('fullscreenchange', () => { if (document.fullscreenElement !== this.el) this.el.classList.remove('is-fs'); else this.el.classList.add('is-fs'); setTimeout(() => this.animateTo(this.fit()), 60); });
     const hint = h('div', 'em-map__hint');
     el.append(view, frame, scale, nr, ctl, hint);
-    const inset = el.querySelector('.em-map__inset');
-    if (inset) el.append(inset);
+    const inset = el.querySelector('.em-map__inset') as HTMLElement | null;
+    if (inset) {
+      el.append(inset);
+      inset.addEventListener('click', (e) => { e.stopPropagation(); if (this.R?.id === 'archipelago') this.setRegion('selvagens'); });
+    }
     Object.assign(this.dom, { view, stage, vec, tiles, over, lbl, mks, frame, scale, nr, ctl, hint, back, inset });
     this.bindGestures();
     new ResizeObserver(() => this.resize()).observe(el);
@@ -139,7 +143,12 @@ class AtlasMap {
     this.el.dataset.region = id;
     this.dom.back.hidden = id === this.homeRegion || !this.homeRegion;
     this.el.querySelectorAll<HTMLButtonElement>('.em-map__abroad button').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.region === id)));
-    if (this.dom.inset) this.dom.inset.hidden = id !== this.homeRegion;
+    // the Selvagens locator: on the home map, and always on the Selvagens map; a link only from the archipelago
+    if (this.dom.inset) {
+      const ins = this.dom.inset as HTMLElement;
+      ins.hidden = !(id === this.homeRegion || id === 'selvagens');
+      ins.classList.toggle('is-link', id === 'archipelago');
+    }
     for (const p of this.all) {
       if (p.lon != null) { const [X, Y] = this.P.fwd(p.lon, p.lat!); p.X = X; p.Y = Y; } else { p.X = p.Y = undefined; }
     }
@@ -210,6 +219,10 @@ class AtlasMap {
     this.renderLabels();
     this.renderFrame();
     this.el.classList.remove('is-moving');
+    (this.dom.inset as HTMLElement | undefined)?.classList.toggle('is-off', this.rest.s > this.fitS * 1.4);
+    // feature lines: hairline when zoomed out, full weight two zoom steps in
+    const zl = Math.max(0, Math.log2(this.rest.s / this.fitS));
+    (this.dom.over as SVGSVGElement).style.setProperty('--lw', String(Math.min(1, 0.4 + 0.3 * zl)));
   }
 
   renderVectors() {
@@ -294,6 +307,8 @@ class AtlasMap {
         }
     }
     this.wantedTiles = wanted;
+    this.reliefSuperseded = !!relief && relRes > need * 3 && wanted.size > 0;
+    if (relief && !this.reliefSuperseded) relief.style.visibility = '';
     // keep other tiles positioned until replacements load
     for (const [id, img] of this.tiles) {
       if (wanted.has(id)) continue;
@@ -303,12 +318,15 @@ class AtlasMap {
     this.pruneTiles();
   }
   wantedTiles = new Set<string>();
+  reliefSuperseded = false;
 
   pruneTiles() {
     let pending = false;
     for (const id of this.wantedTiles) { const im = this.tiles.get(id); if (im && !im.complete) pending = true; }
     if (pending) return;
     for (const [id, img] of this.tiles) if (!this.wantedTiles.has(id)) { img.remove(); this.tiles.delete(id); }
+    const relief = this.dom.relief as HTMLImageElement | null;
+    if (relief) relief.style.visibility = this.reliefSuperseded ? 'hidden' : '';
   }
 
   visiblePlaces() {
@@ -325,15 +343,18 @@ class AtlasMap {
     const box = this.dom.mks as HTMLElement;
     const pl = this.visiblePlaces();
     const numbered = this.all.length <= 12;
-    const many = pl.length > 40;
+    // clustering only on the all-places overview; article maps keep every place (small dots that grow with zoom)
+    const many = this.mode === 'overview' && pl.length > 40;
+    const dots = !many && pl.length > 25;
     const items: { x: number; y: number; ps: Pl[] }[] = [];
     if (many) {
-      const cell = 34, grid = new Map<string, { x: number; y: number; ps: Pl[] }>();
+      // clusters on a grid fixed to the map (not the screen), at the zoom level's scale: panning never regroups them
+      const sb = this.bucketScale(), cell = 34 / sb, grid = new Map<string, { x: number; y: number; ps: Pl[] }>();
       for (const p of pl) {
         const x = this.sx(p.X!), y = this.sy(p.Y!);
         if (x < -20 || y < -20 || x > this.W + 20 || y > this.H + 20) continue;
-        if (p.role === 'subject') { items.push({ x, y, ps: [p] }); continue; }
-        const k = `${Math.floor(x / cell)}:${Math.floor(y / cell)}`;
+        if (p.role === 'subject' || (numbered && p.num)) { items.push({ x, y, ps: [p] }); continue; } // numbers always shown
+        const k = `${Math.floor(p.X! / cell)}:${Math.floor(p.Y! / cell)}`;
         const c = grid.get(k);
         if (c) { c.ps.push(p); c.x += x; c.y += y; } else grid.set(k, { x, y, ps: [p] });
       }
@@ -341,16 +362,22 @@ class AtlasMap {
     } else for (const p of pl) items.push({ x: this.sx(p.X!), y: this.sy(p.Y!), ps: [p] });
     const frag = document.createDocumentFragment();
     this.markerRects = [];
+    // many places: numbered circles and dots start small when zoomed out and reach full size two zoom steps in
+    // (applied after the translate in the same transform: the `scale` property would scale the position too)
+    const mk = this.markerScale(this.rest.s);
     for (const it of items.sort((a, b) => (a.ps[0].role === 'subject' ? 1 : 0) - (b.ps[0].role === 'subject' ? 1 : 0))) {
       const b = document.createElement('button');
       b.type = 'button';
       const p = it.ps[0];
       if (it.ps.length > 1) {
-        b.className = 'em-map__mk is-cl'; b.textContent = String(it.ps.length);
+        // proportional, translucent dot: the features below stay visible; the count shows once the dot is big enough
+        const n = it.ps.length, d = Math.round(Math.min(30, 9 + 4.2 * Math.sqrt(n)));
+        b.className = 'em-map__mk is-cl'; b.textContent = d >= 19 ? String(n) : '';
+        b.style.width = b.style.height = `${d}px`; b.style.margin = `${-d / 2}px 0 0 ${-d / 2}px`; b.style.lineHeight = `${d}px`;
         b.setAttribute('aria-label', `${it.ps.length}: ${it.ps.slice(0, 5).map((q) => q.name).join(', ')}…`);
         b.addEventListener('click', (e) => { e.stopPropagation(); this.zoomAround(it.x, it.y, 2.5); });
       } else {
-        b.className = 'em-map__mk' + (p.role === 'subject' ? ' is-subj' : many ? ' is-dot' : '');
+        b.className = 'em-map__mk' + (p.role === 'subject' ? ' is-subj' : (many || (dots && !(numbered && p.num))) ? ' is-dot' : '');
         if (p.role !== 'subject' && numbered && p.num) b.textContent = String(p.num);
         b.dataset.id = p.id; b.setAttribute('aria-label', p.name);
         b.addEventListener('click', (e) => {
@@ -364,92 +391,144 @@ class AtlasMap {
         b.addEventListener('focus', () => this.setHot(p.id, true));
         b.addEventListener('blur', () => this.setHot(p.id, false));
       }
-      b.style.transform = `translate(${it.x}px,${it.y}px)` + (b.classList.contains('is-subj') ? ' rotate(45deg)' : '');
+      const subj = b.classList.contains('is-subj'), sk = b.classList.contains('is-cl') ? 1 : subj ? Math.max(1, mk) : mk;
+      b.style.transform = `translate(${it.x}px,${it.y}px)` + (sk !== 1 ? ` scale(${sk.toFixed(2)})` : '') + (subj ? ' rotate(45deg)' : '');
       this.markerRects.push({ x: it.x - 11, y: it.y - 11, w: 22, h: 22 });
       frag.append(b);
     }
     box.replaceChildren(frag);
     this.markerItems = items;
+
   }
   markerItems: { x: number; y: number; ps: Pl[] }[] = [];
 
-  renderLabels() {
-    const R = this.R, s = this.rest.s, mpp = 1 / s, W = this.W, H = this.H;
-    const out: { txt: string; cls: string; x: number; y: number; pri: number; anchor: 'pt' | 'c' }[] = [];
-    // marker labels first (subject, then mentions when few)
-    const few = this.markerItems.length <= 25;
-    for (const it of this.markerItems) {
-      if (it.ps.length !== 1) continue;
-      const p = it.ps[0];
-      if (p.role === 'subject' || (few && !this.all.every((q) => q.num) )) out.push({ txt: esc(p.name), cls: 'l-mk' + (p.role === 'subject' ? ' is-subj' : ''), x: it.x, y: it.y, pri: p.role === 'subject' ? -2 : -1, anchor: 'pt' });
+  /** Marker size factor at scale `s`: small when zoomed out on busy maps, full size two steps in, and growing on to
+   *  1.6× at the deepest zoom levels so markers stay easy to see and tap. */
+  markerScale(s: number) {
+    const z = Math.max(0, Math.log2(s / this.fitS));
+    const busy = this.visiblePlaces().length > 10, b = busy ? 0.62 : 1; // places in this region only
+    return Math.min(1.6, b + (busy ? 0.19 : 0.12) * z);
+  }
+
+  /** Scale of the current zoom level (half-octave steps): labels and clusters are worked out at this scale, so they
+   *  stay put while panning and only change when zooming. */
+  bucketScale() {
+    const k = Math.floor(Math.log2(this.rest.s / this.fitS) * 2 + 1e-6) / 2;
+    return this.fitS * Math.pow(2, k);
+  }
+
+  labelCache = new Map<string, { txt: string; cls: string; X: number; Y: number; dx: number; dy: number; w: number; h: number; id?: string }[]>();
+  labelSize = new Map<string, [number, number]>();
+
+  /** Choose the labels for a zoom level over the whole region (greedy by priority, collision-free at that scale, with
+   *  wider spacing on phones), so panning only reveals more of the same set. */
+  chooseLabels(sb: number, small: boolean) {
+    const R = this.R, mpp = 1 / sb;
+    const cand: { txt: string; cls: string; X: number; Y: number; pri: number; anchor: 'pt' | 'c'; id?: string }[] = [];
+    // the article's own place keeps its name; mention names only on larger screens (on phones the number suffices)
+    // the article's places: their names come first after the markers themselves, in their own style, and are links
+    // (the all-places overview has thousands: there the base map's names are enough)
+    if (this.mode !== 'overview') for (const p of this.all) {
+      if (p.X == null || p.hidden) continue;
+      if (p.role === 'subject') cand.push({ txt: esc(p.name), cls: 'l-mk is-subj', X: p.X, Y: p.Y!, pri: -2, anchor: 'pt', id: p.id });
+      else cand.push({ txt: esc(p.name), cls: 'l-mk', X: p.X, Y: p.Y!, pri: -1 + (p.num ? p.num / 1000 : 0.5), anchor: 'pt', id: p.id });
     }
     if (R.kind === 'islands') {
       for (const r of this.labels) {
         const [name, X, Y, kind, rank, ele] = r;
         const lim = (LBL_MPP[kind] || [])[rank] ?? 0;
         if (kind === 'island' ? mpp < 60 : mpp > lim) continue;
-        const x = (X - this.rest.cx) * s + W / 2, y = (Y - this.rest.cy) * s + H / 2;
-        if (x < -60 || y < -20 || x > W + 60 || y > H + 20) continue;
         const txt = kind === 'peak' ? `${esc(name)} <b>${ele}</b>` : esc(name);
-        out.push({ txt, cls: `l-${kind} r${rank}`, x, y, pri: (LBL_PRI[kind] ?? 9) + rank * 0.1 - (ele || 0) / 1e5, anchor: kind === 'island' ? 'c' : 'pt' });
+        cand.push({ txt, cls: `l-${kind} r${rank}`, X, Y, pri: (LBL_PRI[kind] ?? 9) + rank * 0.1 - (ele || 0) / 1e5, anchor: kind === 'island' ? 'c' : 'pt' });
       }
       const oc = OCEAN[R.id];
       if (oc) {
         const [x0, y0, x1, y1] = R.frame;
-        out.push({ txt: 'Oceano Atlântico', cls: 'l-ocean', x: this.sx(x0 + (x1 - x0) * oc[0]), y: this.sy(y0 + (y1 - y0) * oc[1]), pri: 2, anchor: 'c' });
+        cand.push({ txt: 'Oceano Atlântico', cls: 'l-ocean', X: x0 + (x1 - x0) * oc[0], Y: y0 + (y1 - y0) * oc[1], pri: 2, anchor: 'c' });
       }
     } else {
       const li = LANGI[this.lang] ?? 1;
-      const zoom = Math.log2(s / this.fitS);
+      const zoom = Math.log2(sb / this.fitS);
       for (const [names, X, Y, kind, rank] of this.labels) {
-        if (kind === 'country' && rank > 2 + zoom * 1.6 + (W > 700 ? 1 : 0)) continue;
-        const x = this.sx(X), y = this.sy(Y);
-        if (x < -80 || y < -20 || x > W + 80 || y > H + 20) continue;
-        out.push({ txt: esc(names[li] || names[1]), cls: `l-${kind} r${rank}`, x, y, pri: kind === 'home' ? 0 : kind === 'ocean' ? 1 : 2 + rank, anchor: kind === 'home' ? 'pt' : 'c' });
+        if (kind === 'country' && rank > 2 + zoom * 1.6 + (this.W > 700 ? 1 : 0)) continue;
+        cand.push({ txt: esc(names[li] || names[1]), cls: `l-${kind} r${rank}`, X, Y, pri: kind === 'home' ? 0 : kind === 'ocean' ? 1 : 2 + rank, anchor: kind === 'home' ? 'pt' : 'c' });
       }
     }
-    out.sort((a, b) => a.pri - b.pri);
-    // measure + greedy declutter
-    const box = this.dom.lbl as HTMLElement;
-    box.replaceChildren();
-    const placed: { x: number; y: number; w: number; h: number }[] = [...this.markerRects];
-    // keep corners clear: controls (top right), north arrow (top left), scale (bottom left), abroad strip / inset
-    placed.push({ x: W - 60, y: 0, w: 60, h: 180 }, { x: 0, y: 0, w: 52, h: 70 }, { x: 0, y: H - 40, w: 190, h: 40 });
-    const ins = this.dom.inset as HTMLElement | undefined;
-    if (ins && !ins.hidden) { const a = ins.getBoundingClientRect(), e = this.el.getBoundingClientRect(); placed.push({ x: a.left - e.left, y: a.top - e.top, w: a.width, h: a.height }); }
-    const ab = this.el.querySelector('.em-map__abroad');
-    if (ab) { const a = ab.getBoundingClientRect(), e = this.el.getBoundingClientRect(); placed.push({ x: a.left - e.left, y: a.top - e.top, w: a.width, h: a.height }); }
+    cand.sort((a, b) => a.pri - b.pri);
+    // measure once per text and style (hidden spans in the label layer)
+    const box = this.dom.lbl as HTMLElement, fresh: [HTMLSpanElement, string][] = [];
+    for (const c of cand) {
+      const key = c.cls + '|' + c.txt;
+      if (this.labelSize.has(key)) continue;
+      const sp = document.createElement('span'); sp.className = c.cls; sp.innerHTML = c.txt; sp.style.visibility = 'hidden';
+      box.append(sp); fresh.push([sp, key]); this.labelSize.set(key, [0, 0]);
+    }
+    for (const [sp, key] of fresh) { this.labelSize.set(key, [sp.offsetWidth, sp.offsetHeight]); sp.remove(); }
+    // greedy placement in map units at this scale; markers are obstacles (numbers keep priority over every label)
+    const baseGap = small ? 64 : 52; // empty space kept around each base-map label, in screen px: few, airy labels
+    const placed: { x: number; y: number; w: number; h: number }[] = [];
+    const mr = 11 * this.markerScale(sb); // marker radius at this zoom
+    for (const p of this.all) if (p.X != null && !p.hidden) placed.push({ x: p.X * sb - mr, y: p.Y! * sb - mr, w: 2 * mr, h: 2 * mr });
     const hit = (r: any) => placed.some((q) => r.x < q.x + q.w && r.x + r.w > q.x && r.y < q.y + q.h && r.y + r.h > q.y);
-    // fewer, readable labels: at most ~70 per view, and only the best candidates are created and measured at all
-    const cap = Math.max(12, Math.min(70, (W * H) / 11000));
-    out.length = Math.min(out.length, Math.ceil(cap * 1.6) + out.filter((o) => o.pri <= 0).length);
-    let n = 0;
-    const spans: HTMLSpanElement[] = [];
-    for (const o of out) { const sp = document.createElement('span'); sp.className = o.cls; sp.innerHTML = o.txt; box.append(sp); spans.push(sp); }
-    const sizes = spans.map((sp) => [sp.offsetWidth, sp.offsetHeight]);
-    out.forEach((o, i) => {
-      const sp = spans[i];
-      const [w, hh] = sizes[i];
-      let pos: { x: number; y: number } | null = null;
-      if (n >= cap && o.pri > 0) { sp.remove(); return; }
-      if (o.anchor === 'c') {
-        const r = { x: o.x - w / 2, y: o.y - hh / 2, w, h: hh };
-        if (!hit(r) || o.pri <= 0) pos = r;
-      } else {
-        const isPeak = o.cls.startsWith('l-peak');
-        const d = isPeak ? 0 : o.cls.startsWith('l-mk') ? 12 : 5;
+    const out: { txt: string; cls: string; X: number; Y: number; dx: number; dy: number; w: number; h: number; id?: string }[] = [];
+    for (const c of cand) {
+      const [w, hh] = this.labelSize.get(c.cls + '|' + c.txt)!;
+      const gap = c.id ? 4 : baseGap; // the article's own names sit tight by their markers; base-map names are airy
+      const ax = c.X * sb, ay = c.Y * sb; // anchor in "screen px at this scale", origin at the map's origin
+      let pos: [number, number] | null = null;
+      if (c.anchor === 'c') { if (!hit({ x: ax - w / 2 - gap, y: ay - hh / 2 - gap, w: w + 2 * gap, h: hh + 2 * gap }) || c.pri <= 0) pos = [-w / 2, -hh / 2]; }
+      else {
+        // marker names start clear of their own marker (11 px radius + the gap)
+        const isPeak = c.cls.startsWith('l-peak'), d = isPeak ? 0 : c.cls.startsWith('l-mk') ? mr + 6 : 5;
         const cands = isPeak ? [[-4.5, -hh / 2 - 2]] : [[d, -hh / 2], [-w - d, -hh / 2], [-w / 2, -hh - d], [-w / 2, d]];
         for (const [dx, dy] of cands) {
-          const r = { x: o.x + dx, y: o.y + dy, w, h: hh };
-          if (!hit(r)) { pos = r; break; }
+          if (!hit({ x: ax + dx - gap, y: ay + dy - gap, w: w + 2 * gap, h: hh + 2 * gap })) { pos = [dx, dy]; break; }
         }
-        if (!pos && o.pri <= -2) pos = { x: o.x + d, y: o.y - hh / 2, w, h: hh }; // only the subject is forced
+        if (!pos && c.pri <= -2) pos = [d, -hh / 2]; // only the subject is forced
       }
-      if (!pos || pos.x < 4 || pos.y < 4 || pos.x + w > W - 4 || pos.y + hh > H - 4) { if (!(pos && o.pri <= -2)) { sp.remove(); return; } }
-      placed.push({ x: pos.x - 3, y: pos.y - 2, w: w + 6, h: hh + 4 });
-      sp.style.transform = `translate(${Math.round(pos.x)}px,${Math.round(pos.y)}px)`;
-      n++;
-    });
+      if (!pos) continue;
+      placed.push({ x: ax + pos[0] - 3, y: ay + pos[1] - 2, w: w + 6, h: hh + 4 });
+      out.push({ txt: c.txt, cls: c.cls, X: c.X, Y: c.Y, dx: pos[0], dy: pos[1], w, h: hh, id: c.id });
+    }
+    return out;
+  }
+
+  renderLabels() {
+    const W = this.W, H = this.H;
+    const small = matchMedia('(pointer: coarse), (max-width: 48rem)').matches;
+    const sb = this.bucketScale();
+    const key = `${this.R.id}|${sb.toPrecision(6)}|${small ? 1 : 0}|${W > 700 ? 1 : 0}|${this.all.filter((p) => !p.hidden).length}|${this.markerScale(sb).toFixed(2)}`;
+    let chosen = this.labelCache.get(key);
+    if (!chosen) { chosen = this.chooseLabels(sb, small); this.labelCache.set(key, chosen); }
+    const box = this.dom.lbl as HTMLElement;
+    box.replaceChildren();
+    // the screen's own furniture (controls, north arrow, scale, inset, abroad strip) only hides what it covers
+    const ui: { x: number; y: number; w: number; h: number }[] = [{ x: W - 60, y: 0, w: 60, h: 180 }, { x: 0, y: 0, w: 52, h: 70 }, { x: 0, y: H - 40, w: 190, h: 40 }];
+    const e = this.el.getBoundingClientRect();
+    for (const el of [this.dom.inset as HTMLElement | undefined, this.el.querySelector('.em-map__abroad') as HTMLElement | null]) {
+      if (el && !el.hidden && !el.classList.contains('is-off')) { const a = el.getBoundingClientRect(); ui.push({ x: a.left - e.left, y: a.top - e.top, w: a.width, h: a.height }); }
+    }
+    const frag = document.createDocumentFragment();
+    for (const l of chosen) {
+      const x = this.sx(l.X) + l.dx, y = this.sy(l.Y) + l.dy;
+      if (x + l.w < 0 || y + l.h < 0 || x > W || y > H) continue;
+      if (!l.cls.includes('is-subj') && ui.some((q) => x < q.x + q.w && x + l.w > q.x && y < q.y + q.h && y + l.h > q.y)) continue;
+      const sp = document.createElement('span'); sp.className = l.cls; sp.innerHTML = l.txt;
+      sp.style.transform = `translate(${Math.round(x)}px,${Math.round(y)}px)`;
+      if (l.id) { // the article's places: the name works like its marker (summary first, then the place page)
+        const p = this.all.find((q) => q.id === l.id)!;
+        sp.dataset.id = l.id; sp.classList.add('is-link');
+        sp.addEventListener('click', (e) => {
+          e.stopPropagation();
+          if (this.dom.pop && this.popId === p.id) { location.href = placeUrl(this.lang, p.id); return; }
+          this.popup(p, this.sx(p.X!), this.sy(p.Y!));
+        });
+        sp.addEventListener('pointerenter', () => this.setHot(p.id, true));
+        sp.addEventListener('pointerleave', () => this.setHot(p.id, false));
+      }
+      frag.append(sp);
+    }
+    box.append(frag);
   }
 
   /** Graticule frame + scale bar for camera `cam` (live during gestures, so they always match the map). */
@@ -492,7 +571,7 @@ class AtlasMap {
       const last = pts[pts.length - 1];
       if (parity) band += horiz ? `M${segStart[0]} ${outer}H${last[0]}` : `M${outer} ${segStart[1]}V${last[1]}`;
     };
-    const N = 120, xs = Array.from({ length: N + 1 }, (_, i) => (i / N) * W), ys = Array.from({ length: N + 1 }, (_, i) => (i / N) * H);
+    const N = this.el.classList.contains('is-moving') ? 40 : 120, xs = Array.from({ length: N + 1 }, (_, i) => (i / N) * W), ys = Array.from({ length: N + 1 }, (_, i) => (i / N) * H);
     edge('lon', xs.map((x) => [x, 0] as [number, number]), true, B / 2);
     edge('lon', xs.map((x) => [x, H] as [number, number]), true, H - B / 2);
     edge('lat', ys.map((y) => [0, y] as [number, number]), false, B / 2);
@@ -514,29 +593,56 @@ class AtlasMap {
   // ------------------------------------------------------------------ geometry (lines/areas from geo.json `g`)
   async loadGeometries() {
     const R = this.R;
-    const cand = this.all.filter((p) => p.g && (p.role === 'subject' || this.all.length <= 25) && (p.region === R.id || R.id === 'archipelago' || R.kind === 'islands')).slice(0, 25);
+    const inRegion = (p: Pl) => p.region === R.id || R.id === 'archipelago' || R.kind === 'islands';
+    // article / person / place maps: every line and area of their places (levadas, streams, roads, parishes…);
+    // the all-places overview would be a tangle, so it draws the levadas only, as fine lines
+    const overview = this.mode === 'overview';
+    const cand = this.all.filter((p) => p.g && inRegion(p) && (!overview || p.type === 'levada' || p.role === 'subject')).slice(0, 300);
+    const many = cand.length > 25;
     const g = this.dom.over.querySelector('.hl') as SVGGElement;
-    for (const p of cand) {
-      const geom = await getJSON(`g/${p.id}.json`);
-      if (!geom || this.R !== R) continue;
-      const [x0, y0] = R.frame, U = R.unit;
-      const ring = (cs: number[][]) => cs.map(([lon, lat], i) => { const [X, Y] = this.P.fwd(lon, lat); return `${i ? 'L' : 'M'}${((X - x0) / U).toFixed(1)} ${((Y - y0) / U).toFixed(1)}`; }).join('');
+    const [x0, y0] = R.frame, U = R.unit;
+    const ring = (cs: number[][]) => cs.map(([lon, lat], i) => { const [X, Y] = this.P.fwd(lon, lat); return `${i ? 'L' : 'M'}${((X - x0) / U).toFixed(1)} ${((Y - y0) / U).toFixed(1)}`; }).join('');
+    const draw = (p: Pl, geom: any) => {
+      if (!geom || this.R !== R) return;
       let d = '', area = false;
       const t = geom.type, c = geom.coordinates;
       if (t === 'Polygon') { area = true; d = c.map((r: number[][]) => ring(r) + 'Z').join(''); }
       else if (t === 'MultiPolygon') { area = true; d = c.map((pg: number[][][]) => pg.map((r) => ring(r) + 'Z').join('')).join(''); }
       else if (t === 'LineString') d = ring(c);
       else if (t === 'MultiLineString') d = c.map((l: number[][]) => ring(l)).join('');
-      if (!d) continue;
-      const path = svgEl('path', { d, class: (area ? 'hl-a' : 'hl-l') + (p.role === 'subject' ? ' is-subj' : ''), 'fill-rule': 'evenodd' });
-      if (area) g.prepend(path); else g.append(path);
+      if (!d) return;
+      // with many places, areas are outlines only (hatched fills would bury the map); the subject keeps its fill
+      const cls = (area ? (many && p.role !== 'subject' ? 'hl-a is-thin' : 'hl-a') : 'hl-l') + (p.role === 'subject' ? ' is-subj' : '');
+      const path = svgEl('path', { d, class: cls, 'fill-rule': 'evenodd', 'data-id': p.id });
+      // a wide transparent stroke on top makes even a hairline easy to click or tap (areas: their outline)
+      const hit = svgEl('path', { d, class: 'hl-hit', 'data-id': p.id });
+      if (area) g.prepend(path, hit); else g.append(path, hit);
+    };
+    if (!g.dataset.bound) { // one set of listeners for all features: summary first, then the place page
+      g.dataset.bound = '1';
+      const at = (e: Event) => (e.target as Element).closest('[data-id]') as SVGElement | null;
+      g.addEventListener('click', (e) => {
+        const el = at(e), p = el && this.all.find((q) => q.id === el.dataset.id);
+        if (!p) return;
+        e.stopPropagation();
+        if (this.dom.pop && this.popId === p.id) { location.href = placeUrl(this.lang, p.id); return; }
+        const r = this.el.getBoundingClientRect();
+        this.popup(p, (e as MouseEvent).clientX - r.left, (e as MouseEvent).clientY - r.top);
+      });
+      g.addEventListener('pointerover', (e) => { const el = at(e); if (el?.dataset.id) this.setHot(el.dataset.id, true); });
+      g.addEventListener('pointerout', (e) => { const el = at(e); if (el?.dataset.id) this.setHot(el.dataset.id, false); });
     }
+    // fetch a few at a time (small cached files), draw as they arrive
+    const queue = cand.slice();
+    const worker = async () => { for (let p = queue.shift(); p; p = queue.shift()) draw(p, await getJSON(`g/${p.id}.json`)); };
+    await Promise.all(Array.from({ length: Math.min(6, queue.length) }, worker));
   }
 
   // ------------------------------------------------------------------ interaction
   setHot(id: string, on: boolean) {
     this.hot = on ? id : '';
     this.dom.mks.querySelectorAll(`[data-id="${CSS.escape(id)}"]`).forEach((b: Element) => b.classList.toggle('is-hot', on));
+    this.dom.over.querySelectorAll(`.hl [data-id="${CSS.escape(id)}"]`).forEach((b: Element) => b.classList.toggle('is-hot', on));
     const url = placeUrl(this.lang, id);
     document.querySelectorAll(`a[href="${CSS.escape(url)}"], [data-em-place="${CSS.escape(id)}"]`).forEach((a) => { if (!this.el.contains(a)) a.classList.toggle('em-map-hot', on); });
     this.el.dispatchEvent(new CustomEvent('em-map:hover', { bubbles: true, detail: { id: on ? id : null } }));
@@ -660,12 +766,18 @@ class AtlasMap {
     const view = this.dom.view as HTMLElement;
     const cooperative = true;
     const local = (e: PointerEvent | WheelEvent | MouseEvent) => { const r = this.el.getBoundingClientRect(); return { x: e.clientX - r.left, y: e.clientY - r.top }; };
+    // A finger or mouse on a marker, a place name or a feature line still pans and pinches the map: those pointers are
+    // only captured once they move, so a plain tap stays a click on the item; the click after a drag is swallowed.
+    let onItem = false, dragEnd = 0;
+    const capture = () => { for (const id of this.pointers.keys()) try { view.setPointerCapture(id); } catch { /* gone */ } };
     view.addEventListener('pointerdown', (e) => {
-      if ((e.target as Element).closest('button')) return;
+      if ((e.target as Element).closest('.em-map__ctl, .em-map__pop')) return;
+      if (!this.pointers.size) onItem = !!(e.target as Element).closest('button, .is-link, .hl-hit');
       this.pointers.set(e.pointerId, local(e));
-      if (e.pointerType !== 'touch' || this.pointers.size > 1 || this.active) view.setPointerCapture(e.pointerId);
+      if (!onItem && (e.pointerType !== 'touch' || this.pointers.size > 1 || this.active)) view.setPointerCapture(e.pointerId);
       this.startGesture();
     });
+    this.el.addEventListener('click', (e) => { if (performance.now() - dragEnd < 400) { e.stopPropagation(); e.preventDefault(); } }, true);
     view.addEventListener('pointermove', (e) => {
       if (!this.pointers.has(e.pointerId)) return;
       this.pointers.set(e.pointerId, local(e));
@@ -683,7 +795,7 @@ class AtlasMap {
       let s = g.v.s;
       if (g.n > 1 && g.d0 > 0) s = g.v.s * (d / g.d0);
       const v = this.limits({ s, cx: g.X - (c.x - this.W / 2) / s, cy: g.Y - (c.y - this.H / 2) / s });
-      if (Math.abs(c.x - g.c0.x) + Math.abs(c.y - g.c0.y) > 3 || g.n > 1) { g.moved = true; this.el.classList.add('is-drag'); }
+      if (Math.abs(c.x - g.c0.x) + Math.abs(c.y - g.c0.y) > 3 || g.n > 1) { if (!g.moved && onItem) capture(); g.moved = true; this.el.classList.add('is-drag'); }
       this.view = v;
       this.applyTransform();
       e.preventDefault();
@@ -695,8 +807,9 @@ class AtlasMap {
       if (this.pointers.size) { this.startGesture(); return; }
       this.el.classList.remove('is-drag');
       this.gesture = null;
-      if (g?.moved) this.scheduleRest(60);
-      else if (e.type === 'pointerup') { this.closePopup(); this.active = true; this.el.classList.add('is-active'); }
+      if (g?.moved) { this.scheduleRest(60); dragEnd = performance.now(); }
+      else if (e.type === 'pointerup') { if (!onItem) this.closePopup(); this.active = true; this.el.classList.add('is-active'); }
+      onItem = false;
     };
     view.addEventListener('pointerup', end);
     view.addEventListener('pointercancel', end);

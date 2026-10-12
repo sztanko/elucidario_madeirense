@@ -29,7 +29,7 @@ const taglines: Record<string, string> = {
     <link rel="apple-touch-icon" href={u.BASE + '/apple-touch-icon.png'} />
     <link rel="manifest" href={u.BASE + '/site.webmanifest'} />
     {langs.map((l) => <link rel="alternate" hreflang={htmlLang(l)} href={site + u.home(l)} />)}
-    <link rel="alternate" hreflang="x-default" href={site + u.home('pt')} />
+    <link rel="alternate" hreflang="x-default" href={site + u.BASE + '/'} />
     <style>
       :root { --paper: #e8dfca; --ink: #171b19; --person: #bd3426; }
       html, body { height: 100%; }
@@ -58,12 +58,17 @@ const taglines: Record<string, string> = {
       </ul>
     </main>
     <script define:vars={{ langs, base: u.BASE }}>
-      // Redirect by browser language; every link above also works without JS.
+      // Redirect to the visitor's language; every link above also works without JS.
+      // 1. a language chosen earlier in the site's menu; 2. the first of the browser's preferred languages that the
+      // edition has (de-AT -> de, pt-BR -> pt); 3. English.
       try {
-        const nav = (navigator.languages && navigator.languages[0]) || navigator.language || 'pt';
-        const short = nav.slice(0, 2).toLowerCase();
-        const pick = langs.includes(short) ? short : 'pt';
-        location.replace(`${base}/${pick}/`);
+        let pick = null;
+        try { const saved = localStorage.getItem('em-lang'); if (saved && langs.includes(saved)) pick = saved; } catch (e) {}
+        if (!pick) {
+          const prefs = (navigator.languages && navigator.languages.length ? navigator.languages : [navigator.language || '']);
+          pick = prefs.map((l) => String(l).toLowerCase().split('-')[0]).find((l) => langs.includes(l)) || null;
+        }
+        location.replace(`${base}/${pick || 'en'}/`);
       } catch (e) {}
     </script>
   </body>

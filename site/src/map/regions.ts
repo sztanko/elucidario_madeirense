@@ -41,13 +41,26 @@ export function regionOfPlace(g: GeoLite | undefined): string | null {
 /**
  * Region auto-selection: archipelago places win (one island → that island, several → the archipelago plate), otherwise the
  * continent with most places. `hint` (the `region` prop) is honoured when every archipelago place lies inside it.
+ * An article centred on one island (its subject's island, or the one with most places) opens on that island when it holds
+ * at least 3/4 of the archipelago places: a stray mention on Porto Santo or the Selvagens does not shrink the map to the
+ * whole archipelago, it becomes a button (`islands`) next to the ones for places abroad.
  */
-export function chooseRegion(regionsOfPlaces: (string | null)[], hint?: string, mode?: string): { region: string | null; abroad: Record<string, number> } {
-  const isl = new Set<string>(), cont = new Map<string, number>();
+export function chooseRegion(regionsOfPlaces: (string | null)[], hint?: string, mode?: string, home?: string | null):
+  { region: string | null; abroad: Record<string, number>; islands: Record<string, number> } {
+  const isl = new Set<string>(), cont = new Map<string, number>(), perIsl = new Map<string, number>();
   for (const r of regionsOfPlaces) {
     if (!r) continue;
-    if (ISLAND_REGIONS.includes(r)) isl.add(r);
+    if (ISLAND_REGIONS.includes(r)) { isl.add(r); perIsl.set(r, (perIsl.get(r) ?? 0) + 1); }
     else cont.set(r, (cont.get(r) ?? 0) + 1);
+  }
+  const islands: Record<string, number> = {};
+  if (isl.size > 1 && mode !== 'overview' && mode !== 'continent' && !(hint && (ALIAS[hint] ?? hint.toLowerCase()) === 'archipelago')) {
+    const total = [...perIsl.values()].reduce((a, b) => a + b, 0);
+    const main = home && perIsl.has(home) ? home : [...perIsl.entries()].sort((a, b) => b[1] - a[1])[0][0];
+    if (perIsl.get(main)! >= 0.75 * total) {
+      for (const [k, v] of perIsl) if (k !== main) islands[k] = v;
+      isl.clear(); isl.add(main);
+    }
   }
   const h = hint ? ALIAS[hint] ?? hint.toLowerCase() : undefined;
   let region: string | null = null;
@@ -59,7 +72,7 @@ export function chooseRegion(regionsOfPlaces: (string | null)[], hint?: string, 
   else if (h && REGIONS[h]) region = h;
   const abroad: Record<string, number> = {};
   if (region && REGIONS[region]?.kind === 'islands') for (const [k, v] of cont) abroad[k] = v;
-  return { region, abroad };
+  return { region, abroad, islands };
 }
 
 /** Position of lon/lat inside a region frame, as fractions (0..1) of width and height. */

@@ -68,7 +68,7 @@ const desc = description ? snippet(description) : '';
     <link rel="manifest" href={`${BASE}/site.webmanifest`} />
     <link rel="canonical" href={site + path} />
     {multilingual && langs.map((l) => <link rel="alternate" hreflang={htmlLang(l)} href={site + switchLang(path, l, langs)} />)}
-    {multilingual && <link rel="alternate" hreflang="x-default" href={site + switchLang(path, 'pt', langs)} />}
+    {multilingual && <link rel="alternate" hreflang="x-default" href={site + switchLang(path, 'en', langs)} />}
     <meta property="og:title" content={title} />
     <meta property="og:type" content={kind === 'article' ? 'article' : 'website'} />
     <meta property="og:url" content={site + path} />

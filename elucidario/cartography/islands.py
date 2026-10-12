@@ -353,6 +353,50 @@ def build_locators(A: Archipelago, out: Path) -> dict:
 
 
 # --------------------------------------------------------------------------- home-page artwork
+def build_selvagens_locator(A: Archipelago, out: Path) -> dict:
+    """Where the Selvagens are: a small engraved locator (Madeira, Porto Santo, Desertas, Selvagens, the Canaries and the
+    African coast) used as the inset of the archipelago map and on the Selvagens map, so readers see that the islands lie
+    between Madeira and the Canaries. Our own coastlines for the archipelago; Natural Earth 1:50m for the rest."""
+    import json as _json
+    from shapely.geometry import box as _box, shape as _shape
+    from shapely.ops import unary_union as _uu
+    from elucidario.cartography.continents import NE
+    from elucidario.cartography.geodata import WORLD
+    lon0, lat0, lon1, lat1 = -18.45, 27.55, -12.75, 33.3
+    clip = WORLD.shapely_fwd(_box(lon0, lat0, lon1, lat1).segmentize(0.05))
+    x0, y0, x1, y1 = clip.bounds
+    U = 1000.0  # 1 unit = 1 km
+    W, H = (x1 - x0) / U, (y1 - y0) / U
+    ne = [WORLD.shapely_fwd(_shape(f["geometry"])) for f in _json.loads((NE / "ne_50m_land.geojson").read_text())["features"]]
+    other = _uu([g.intersection(clip) for g in ne if g.intersects(clip)])
+    arch = _uu([A.islands[k] for k in ("Madeira", "Porto Santo", "Desertas")])
+    selv = A.islands["Selvagens"]
+    other = other.difference(arch.buffer(3000)).difference(selv.buffer(3000))  # NE's coarse copies of our islands
+
+    def d(g, simp):
+        g = g.simplify(simp)
+        return path_d(g, x0, y0, U)
+    sx, sy = selv.centroid.x, selv.centroid.y
+    cx, cy = (sx - x0) / U, (sy - y0) / U
+    lab = lambda x, y, t, a="middle", it=False: (f'<text x="{x:.1f}" y="{y:.1f}" text-anchor="{a}"'
+                                                 f'{" font-style=\"italic\"" if it else ""}>{t}</text>')
+    mx, my = (arch.bounds[2] - x0) / U + 14, (arch.centroid.y - y0) / U + 16
+    can = _uu([g for g in getattr(other, "geoms", [other]) if g.bounds[0] > WORLD.fwd(-18.5, 28)[0] and g.bounds[2] < WORLD.fwd(-13.2, 28)[0]
+               and g.bounds[3] < WORLD.fwd(-15, 29.6)[1]])
+    kx, ky = ((can.centroid.x - x0) / U, (can.bounds[1] - y0) / U - 18) if not can.is_empty else (W * .45, H * .82)
+    svg = (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {W:.1f} {H:.1f}" width="{W:.0f}" height="{H:.0f}">'
+           '<style>.l{fill:#f2ead8;stroke:#171b19;stroke-width:2.2;stroke-linejoin:round}.a{fill:#171b19;stroke:#171b19;stroke-width:2.4}'
+           'text{font:700 44px "Sofia Sans Extra Condensed","Arial Narrow",sans-serif;letter-spacing:4px;fill:#171b19;text-transform:uppercase}'
+           '.s text{fill:#a32a1e}</style>'
+           f'<rect width="{W:.1f}" height="{H:.1f}" fill="#e8dfca"/>'
+           f'<path class="l" d="{d(other, 1500)}"/><path class="a" d="{d(arch, 300)}"/><path class="a" d="{d(selv, 60)}"/>'
+           f'<circle cx="{cx:.1f}" cy="{cy:.1f}" r="34" fill="none" stroke="#bd3426" stroke-width="4" stroke-dasharray="9 5"/>'
+           + lab(mx, my, "Madeira", "start") + f'<g class="s">{lab(cx, cy + 82, "Selvagens")}</g>'
+           + lab(kx, ky, "Canárias") + lab(W - 12, H - 16, "África", "end", True) + "</svg>")
+    (out / "selvagens-locator.svg").write_text(svg)
+    return {"src": "selvagens-locator.svg", "aspect": round(W / H, 4), "bytes": len(svg)}
+
+
 def build_hero(A: Archipelago, sets_by_z, out: Path) -> dict:
     """Main island only, as an engraved plate without any map furniture: blue water-lining rings, paper land, ink
     flowline hachures (with the shadow wash) and the coastline. Transparent background so the page paper shows through.

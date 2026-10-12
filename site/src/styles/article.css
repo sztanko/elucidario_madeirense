@@ -88,7 +88,10 @@ html:has(.ea--toc) { scroll-padding-top: calc(var(--header-h) + 4rem); }
 .ea-hero__plate { display: grid; place-items: center; color: var(--ink); }
 .ea-hero__plate :global(svg), .ea-hero__plate svg { width: 100%; max-width: 18rem; height: auto; }
 @media (max-width: 55.99rem) { .ea-hero__plate { max-width: 11rem; justify-self: start; } }
-.ea-hero__map { border-top: var(--rule-heavy) solid var(--ink); padding-top: .5rem; min-height: 16rem; }
+/* the article's map: full width of the article column, under the heading */
+.ea-map { margin: clamp(1rem, .6rem + 1vw, 1.75rem) 0 0; border-top: var(--rule-heavy) solid var(--ink); padding-top: .5rem; }
+.ea-map .em-map { max-height: min(34rem, 70vh); }
+@media print { .ea-map .em-map { max-height: 12cm; } }
 
 /* ---- Chapter strip (mobile/tablet) ------------------------------------------ */
 .ea-strip {
@@ -318,6 +321,11 @@ html:has(.ea--toc) { scroll-padding-top: calc(var(--header-h) + 4rem); }
   .ea-reading__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .ea-mod--time { grid-column: 1 / -1; }
   .ea-mod--place + .ea-mod--people { border-left: 1px solid var(--line); padding-left: var(--col-gap); margin-left: calc(var(--col-gap) * -.5); }
+  /* a module that carries the places map spans the article: full-width map, list in three columns; people go below */
+  .ea-mod--place.has-map { grid-column: 1 / -1; }
+  .ea-mod--place.has-map .ea-places__map .em-map { max-height: min(34rem, 70vh); }
+  .ea-mod--place.has-map .ea-pllist:not(.ea-pllist--compact) { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .ea-mod--place.has-map + .ea-mod--people { grid-column: 1 / -1; border-left: 0; padding-left: 0; margin-left: 0; }
 }
 .ea-mod { min-width: 0; }
 .ea-mod__head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .25rem 1rem; padding-bottom: .55rem; border-bottom: 1px solid var(--ink); margin-bottom: 1rem; }

@@ -205,7 +205,7 @@ export function mapPlaces(a: Article, lang = 'en') {
   return sortedPlaces(lang, a)
     .map((p, i) => ({ p, n: i < PLACES_NUMBERED ? i + 1 : undefined }))
     .filter(({ p }) => G[p.id] && (G[p.id].c || G[p.id].g))
-    .map(({ p, n }) => ({ id: p.id, label: p.n, n, role: (a.prim.includes(p.id) ? 'subject' : 'mention') as 'subject' | 'mention' }));
+    .map(({ p, n }) => ({ id: p.id, label: p.n, n, role: (a.prim.includes(p.id) ? 'subject' : 'mention') as 'subject' | 'mention', note: p.note }));
 }
 
 /** Related article lists, resolved to headwords (unknown ids dropped). */

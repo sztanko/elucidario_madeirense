@@ -1,5 +1,5 @@
 ---
-// About (English only): the project, the source work, the digital edition, the creator, credits/licence.
+// About (English only): the project, the source work, the digital edition, the principal author, credits, licence.
 import Base from '../../layouts/Base.astro';
 import Breadcrumbs from '../../components/pages/Breadcrumbs.astro';
 import SectionHead from '../../components/ui/SectionHead.astro';
@@ -13,22 +13,22 @@ const m = meta();
 const [authorTitle, authorBody] = splitTitle(readRepoFile('AUTHOR.md'));
 const authorHtml = renderMarkdown(authorBody);
 ---
-<Base lang="en" title="About — Elucidário Madeirense" description="About the Elucidário Madeirense digital edition: the source work, the creator, and this project." multilingual={false} kind="about">
-  <Breadcrumbs items={[{ label: t('en', 'back_home'), href: u.home('pt') }, { label: t('en', 'about') }]} />
+<Base lang="en" title="About — Elucidário Madeirense" description="About the Elucidário Madeirense digital edition: the project, the source work and its principal author, how the edition was made, credits, licence and contact." multilingual={false} kind="about">
+  <Breadcrumbs items={[{ label: t('en', 'back_home'), href: u.home('en') }, { label: t('en', 'about') }]} />
   <SectionHead size="xl" title={t('en', 'about')} role="ink" rule="below" />
 
   <article class="em-about">
     <section aria-labelledby="h-project">
       <SectionHead size="l" title={t('en', 'about_project')} id="h-project" role="person" n="1" />
-      <p class="em-about-contact">Contact: <a href="mailto:info@elucidariomadeirense.pt">info@elucidariomadeirense.pt</a></p>
       <p>The <strong>Elucidário Madeirense</strong> digital edition makes the 1921/1940 encyclopaedia of Madeira searchable,
-        cross-linked and readable in seven languages. It carries forward {fmtInt(m.counts.articles, 'en')} articles,
-        {fmtInt(m.counts.persons, 'en')} people, {fmtInt(m.counts.places, 'en')} places and {fmtInt(m.counts.events, 'en')} dated
-        events into a single structured dataset, with every person, place and date resolved into its own page and linked back to
-        the articles that mention it.</p>
-      <p>The edition is published in Portuguese (the original language), English, German, French, Hungarian, Ukrainian and Russian. Where a translation
-        is not yet available for a given piece of text, the page shows the English metadata or the Portuguese original, marked
-        accordingly, rather than leaving a gap.</p>
+        cross-linked and readable in Portuguese, the language of the original, and in English, German, French, Hungarian,
+        Ukrainian and Russian. It carries forward {fmtInt(m.counts.articles, 'en')} articles, {fmtInt(m.counts.persons, 'en')}
+        people, {fmtInt(m.counts.places, 'en')} places and {fmtInt(m.counts.events, 'en')} dated events into a single structured
+        dataset, with every person, place and date resolved into its own page and linked back to the articles that mention it.</p>
+      <p>The articles keep the wording and spelling of the printed volumes; the translations, summaries and indexes were made for
+        this edition. It is a work in progress, and readers who spot an error, know more about a place or a person, or simply
+        want to share how they use the encyclopaedia are warmly invited to write to
+        <a href="mailto:info@elucidariomadeirense.pt">info@elucidariomadeirense.pt</a>.</p>
     </section>
 
     <section aria-labelledby="h-source">
@@ -48,10 +48,11 @@ const authorHtml = renderMarkdown(authorBody);
         structured into headwords, chapters, body text, tables, verse and cross-references. People, places and chronology
         events mentioned anywhere in the text were identified, de-duplicated and linked, and places were additionally resolved
         to coordinates and administrative units (parish, municipality, island, or country and continent for places abroad).</p>
-      <p>Translation into English, German, French, Hungarian, Ukrainian and Russian followed a documented house style (see
-        <a href={u.about('technical')}>Technical notes</a>) covering names, religious titles, historical figures, specialist
-        terminology and numbers, with per-language style guides and a glossary ("termbase") of about 1,200 Madeira- and
-        Portugal-specific terms. Decisions on contested renderings were recorded and are published alongside the guides.</p>
+      <p>The translations were made with large language models working to a documented house style, and checked by sampling
+        and automatic tests. The style covers names, religious titles, historical figures, specialist terminology and numbers,
+        with a guide for each language and a glossary ("termbase") of about 1,200 Madeira- and Portugal-specific terms.
+        Decisions on contested renderings were recorded and are published with the guides in the
+        <a href={u.about('technical')}>technical notes</a>.</p>
     </section>
 
     <section aria-labelledby="h-creator">
@@ -62,8 +63,16 @@ const authorHtml = renderMarkdown(authorBody);
 
     <section aria-labelledby="h-credits">
       <SectionHead size="l" title={t('en', 'about_credits')} id="h-credits" role="ink" n="5" />
-      <p>This digital edition was produced with the assistance of large-language-model translation and editorial tooling,
-        under human review, as documented in <a href={u.about('technical')}>Technical notes</a>.</p>
+      <p>All credit for the encyclopaedia itself belongs to Fernando Augusto da Silva, Carlos Azevedo de Meneses and their
+        collaborators. This digital edition was put together by Demeter Sztanko, an admirer of their work and of Madeira, who
+        is grateful for every correction and suggestion sent to
+        <a href="mailto:info@elucidariomadeirense.pt">info@elucidariomadeirense.pt</a>.</p>
+      <p>The edition also relies on the generosity of open data and open design: the maps and place locations are built on
+        <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and its contributors, the Copernicus elevation model, the
+        topographic maps of the Região Autónoma da Madeira (<a href="https://irig-catalogo.madeira.gov.pt/geonetwork">IRIG-Madeira</a>),
+        <a href="https://www.naturalearthdata.com/">Natural Earth</a>, <a href="https://www.geonames.org/">GeoNames</a>, the NGA
+        GEOnet Names Server and <a href="https://www.wikidata.org/">Wikidata</a>, and the text is set in Literata, Playfair and
+        Sofia Sans Extra Condensed.</p>
     </section>
 
     <section aria-labelledby="h-licence">
@@ -85,21 +94,17 @@ const authorHtml = renderMarkdown(authorBody);
           <a href="https://github.com/sztanko/elucidario_madeirense">github.com/sztanko/elucidario_madeirense</a>.
           Corrections and suggestions are welcome there as issues or pull requests.</li>
       </ul>
+      <p><strong>Third-party data.</strong> Maps contain data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap
+        contributors</a> (ODbL) and relief derived from the Copernicus DEM GLO-30 (© DLR e.V. 2010–2014 and © Airbus Defence and
+        Space GmbH 2014–2018, provided under COPERNICUS by the European Union and ESA). IRIG-Madeira topographic data: NdD1
+        CC BY 4.0, NdD2 open data. GeoNames: CC BY 4.0. Natural Earth and the NGA GEOnet Names Server: public domain.
+        Wikidata: CC0. Fonts: SIL Open Font License.</p>
       <p><strong>Disclaimer.</strong> This is not a facsimile. The text was extracted from digital copies of the printed volumes,
         corrected for OCR errors and lightly normalised, and the translations, summaries, notes and links were produced with
         the help of AI language models. Errors, omissions and inaccuracies are therefore possible, both from the original work
         (written in 1921–1940 and reflecting its time) and from this edition. Everything is provided “as is”, without warranty
         of any kind; the project accepts no liability for errors or for any use made of this material. For scholarly
         citation, consult the printed edition.</p>
-      <p><strong>Third-party data.</strong> Maps contain data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap
-        contributors</a> (ODbL), relief derived from the Copernicus DEM GLO-30 (© DLR e.V. 2010–2014 and © Airbus Defence and
-        Space GmbH 2014–2018, provided under COPERNICUS by the European Union and ESA), and
-        <a href="https://www.naturalearthdata.com/">Natural Earth</a> (public domain). Place locations also draw on the
-        topographic vector maps of the Região Autónoma da Madeira (<a href="https://irig-catalogo.madeira.gov.pt/geonetwork">IRIG-Madeira</a>,
-        NdD1 CC BY 4.0 and NdD2 open data), <a href="https://www.geonames.org/">GeoNames</a> (CC BY 4.0), the NGA GEOnet
-        Names Server (public domain) and <a href="https://www.wikidata.org/">Wikidata</a> (CC0), which also supplies some
-        identifiers. Fonts: Sofia Sans Extra Condensed, Literata and Playfair
-        (SIL Open Font License).</p>
     </section>
   </article>
 </Base>
@@ -107,9 +112,7 @@ const authorHtml = renderMarkdown(authorBody);
   .em-about { max-width: var(--measure); margin: 0 auto; padding: var(--s-5) var(--gutter) var(--s-9); }
   .em-about section { margin-bottom: var(--s-7); }
   .em-about p { margin: 0 0 1em; }
-  .em-about-contact { font-family: var(--font-label); letter-spacing: .06em; font-size: var(--fs-small); }
   .em-author-name { font-family: var(--font-didone); font-style: italic; font-size: var(--fs-lede); color: var(--person-ink); }
-  .em-flag { border-left: 3px solid var(--date); padding-left: var(--s-4); font-size: var(--fs-small); opacity: .9; }
   .em-prose :global(img) { max-width: 12rem; float: right; margin: 0 0 1em 1.5em; }
   .em-prose :global(h2) { font-size: var(--fs-h4); margin: 1.2em 0 .4em; }
   .em-prose :global(ul) { padding-left: 1.3em; }
